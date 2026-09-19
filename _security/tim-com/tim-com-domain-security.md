@@ -57,7 +57,7 @@ tags:
 - GSMA
 - SIM Swap
 - Number Verification
-- Know Your Customer
+- KYC
 - Identity
 - Anti-Fraud
 - Italy

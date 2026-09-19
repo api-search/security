@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: university-of-auckland-course-catalog-v3-openapi.yml
+- filename: university-of-auckland-classes-api-openapi.yml
   format: yaml
-  label: University of Auckland Course Catalog Api V3
-  slug: course-catalog-v3
+  label: University of Auckland Classes API
+  slug: university-of-auckland-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-course-catalog-v3-openapi.yml
-- filename: university-of-auckland-classes-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-classes-api-openapi.yml
+- filename: university-of-auckland-courses-api-api-openapi.yml
   format: yaml
-  label: University of Auckland Classes Api V2
-  slug: classes-v2
+  label: University of Auckland Courses API
+  slug: university-of-auckland-courses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-classes-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-courses-api-api-openapi.yml
+- filename: university-of-auckland-reference-data-api-api-openapi.yml
+  format: yaml
+  label: University of Auckland Reference Data API
+  slug: university-of-auckland-reference-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-reference-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

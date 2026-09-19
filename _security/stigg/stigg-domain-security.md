@@ -12,12 +12,6 @@ api_specs:
   slug: stigg-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-customers-api-openapi.yml
-- filename: stigg-entitlements-api-openapi.yml
-  format: yaml
-  label: Stigg Entitlements API
-  slug: stigg-entitlements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-entitlements-api-openapi.yml
 - filename: stigg-subscriptions-api-openapi.yml
   format: yaml
   label: Stigg Subscriptions API

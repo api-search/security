@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-code-scanning-api-openapi.yml
 - filename: github-enterprise-enterprise-admin-api-openapi.yml
   format: yaml
-  label: GitHub Enterprise Enterprise Admin API
+  label: GitHub Enterprise Admin API
   slug: github-enterprise-enterprise-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/openapi/github-enterprise-enterprise-admin-api-openapi.yml
@@ -103,4 +103,5 @@ tags:
 - SAML SSO
 - SCIM
 - Advanced Security
+- Developer Tools
 ---

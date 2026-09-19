@@ -38,5 +38,5 @@ tags:
 - Health
 - Media
 - Content
-- Mobile Apps
+- Mobile App
 ---

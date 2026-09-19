@@ -41,5 +41,4 @@ tags:
 - Demand Generation
 - Field Marketing
 - Conference Data
-- Company
 ---

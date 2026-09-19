@@ -34,5 +34,5 @@ tags:
 - Git-based
 - Open-Source
 - SDK
-- Static Site
+- Static Sites
 ---

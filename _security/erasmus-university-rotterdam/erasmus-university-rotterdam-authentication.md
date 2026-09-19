@@ -2,12 +2,12 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: erasmus-university-rotterdam-repub-oai-pmh-openapi.yml
+- filename: erasmus-university-rotterdam-oai-pmh-api-openapi.yml
   format: yaml
-  label: RePub OAI-PMH Metadata Harvesting Interface
-  slug: repub-oai
+  label: Erasmus University Rotterdam Oai Pmh API
+  slug: erasmus-university-rotterdam-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-repub-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-oai-pmh-api-openapi.yml
 auth_types:
 - none
 - http_basic

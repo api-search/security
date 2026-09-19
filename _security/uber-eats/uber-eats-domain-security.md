@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-customers-api-openapi.yml
 - filename: uber-eats-eats-api-openapi.yml
   format: yaml
-  label: Uber Eats Eats API
+  label: Uber Eats API
   slug: uber-eats-eats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-eats-api-openapi.yml

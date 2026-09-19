@@ -36,8 +36,8 @@ layout: security
 method: probed
 name: Ikas Ikas Teknoloji As Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Ikas, IKAS Teknoloji AS, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Ikas, IKAS Teknoloji AS
+overview: 'Domain security posture for Ikas, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Ikas
 provider_slug: ikas-ikas-teknoloji-as
 slug: ikas-ikas-teknoloji-as-domain-security
 source_filename: ikas-ikas-teknoloji-as-domain-security.yml

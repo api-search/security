@@ -48,24 +48,12 @@ api_specs:
   slug: iterable-experiments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-experiments-api-openapi.yml
-- filename: iterable-inapp-api-openapi.yml
-  format: yaml
-  label: Iterable InApp API
-  slug: iterable-inapp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-inapp-api-openapi.yml
 - filename: iterable-lists-api-openapi.yml
   format: yaml
   label: Iterable Lists API
   slug: iterable-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-lists-api-openapi.yml
-- filename: iterable-messagetypes-api-openapi.yml
-  format: yaml
-  label: Iterable MessageTypes API
-  slug: iterable-messagetypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-messagetypes-api-openapi.yml
 - filename: iterable-metadata-api-openapi.yml
   format: yaml
   label: Iterable Metadata API
@@ -96,12 +84,6 @@ api_specs:
   slug: iterable-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-users-api-openapi.yml
-- filename: iterable-webpush-api-openapi.yml
-  format: yaml
-  label: Iterable WebPush API
-  slug: iterable-webpush-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-webpush-api-openapi.yml
 - filename: iterable-workflows-api-openapi.yml
   format: yaml
   label: Iterable Workflows API
@@ -150,12 +132,24 @@ api_specs:
   slug: iterable-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-webhooks-api-openapi.yml
-- filename: iterable-whatsapp-api-openapi.yml
+- filename: iterable-message-types-api-openapi.yml
+  format: yaml
+  label: Iterable Message types API
+  slug: iterable-message-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-message-types-api-openapi.yml
+- filename: iterable-web-push-api-openapi.yml
+  format: yaml
+  label: Iterable Web Push API
+  slug: iterable-web-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-web-push-api-openapi.yml
+- filename: iterable-whats-app-api-openapi.yml
   format: yaml
   label: Iterable Whats App API
-  slug: iterable-whatsapp-api
+  slug: iterable-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-whats-app-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

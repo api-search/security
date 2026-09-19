@@ -13,8 +13,8 @@ name_suffix: Authentication
 oauth_flows:
 - clientCredentials
 - authorizationCode
-overview: Ikas, IKAS Teknoloji AS secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials and authorizationCode flow(s).
-provider_name: Ikas, IKAS Teknoloji AS
+overview: Ikas secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials and authorizationCode flow(s).
+provider_name: Ikas
 provider_slug: ikas-ikas-teknoloji-as
 scheme_count: 1
 schemes:

@@ -40,7 +40,7 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
+- Telehealth
 - Teleneurology
 - Telestroke
 - Neurology

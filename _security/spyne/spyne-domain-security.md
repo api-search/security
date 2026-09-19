@@ -54,7 +54,7 @@ tags:
 - Video
 - Computer-Vision
 - Machine-Learning
-- Dealerships
+- Dealership
 - Media Processing
 - Webhook
 ---

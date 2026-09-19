@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Comunicate.top API
-  slug: comunicatetop-api
+- filename: comunicate-top-api-articles-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Articles API
+  slug: comunicate-top-api-articles-api
   spec_type: OpenAPI
-  url: https://comunicate.top/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-articles-api-openapi.yml
+- filename: comunicate-top-api-balance-and-reports-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Balance and reports API
+  slug: comunicate-top-api-balance-and-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-balance-and-reports-api-openapi.yml
+- filename: comunicate-top-api-campaigns-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Campaigns API
+  slug: comunicate-top-api-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-campaigns-api-openapi.yml
+- filename: comunicate-top-api-catalogue-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Catalogue API
+  slug: comunicate-top-api-catalogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-catalogue-api-openapi.yml
+- filename: comunicate-top-api-checks-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Checks API
+  slug: comunicate-top-api-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-checks-api-openapi.yml
+- filename: comunicate-top-api-domain-audit-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Domain audit API
+  slug: comunicate-top-api-domain-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-domain-audit-api-openapi.yml
+- filename: comunicate-top-api-key-and-permissions-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Key and permissions API
+  slug: comunicate-top-api-key-and-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-key-and-permissions-api-openapi.yml
+- filename: comunicate-top-api-media-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Media API
+  slug: comunicate-top-api-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-media-api-openapi.yml
+- filename: comunicate-top-api-public-catalogue-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Public catalogue API
+  slug: comunicate-top-api-public-catalogue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-public-catalogue-api-openapi.yml
+- filename: comunicate-top-api-publications-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Publications API
+  slug: comunicate-top-api-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-publications-api-openapi.yml
+- filename: comunicate-top-api-writing-orders-api-openapi.yml
+  format: yaml
+  label: Comunicate.top API Writing orders API
+  slug: comunicate-top-api-writing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-writing-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,6 +115,6 @@ tags:
 - Romania
 - MCP
 - Open Data
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

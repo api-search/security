@@ -35,7 +35,7 @@ tags:
 - Gaming
 - Education
 - Community
-- Events
+- Event
 - Students
 - Sponsorship
 - Philippines

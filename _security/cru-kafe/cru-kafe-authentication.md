@@ -58,6 +58,6 @@ tags:
 - Consumer Goods
 - Food and Beverage
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 ---

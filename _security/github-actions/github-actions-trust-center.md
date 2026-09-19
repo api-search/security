@@ -91,6 +91,18 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nsource: ht
   \ https://ghec.github.trust.page/, keywords: [soc 2, iso 27001, csa star, compliance]}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/security/github-actions-trust-center.yml
 summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001:2013, ISO/IEC 42001:2023, CSA STAR Level 2, FedRAMP LI-SaaS (ATO)
-tags: []
+tags:
+- CI/CD
+- Continuous Integration
+- Continuous Deployment
+- DevOps
+- Pipelines
+- Workflows
+- Automation
+- Developer Tools
+- Software Development
+- Build Automation
+- T1
+- GitHub
 trust_url: https://github.com/trust-center
 ---

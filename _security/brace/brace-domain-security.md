@@ -47,4 +47,5 @@ tags:
 - Real-Estate
 - Workflow-Automation
 - Acquired
+- Defunct
 ---

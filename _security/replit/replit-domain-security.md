@@ -52,7 +52,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Code
 - Compiling
+- Developer Tools
 - Development Environment
-- Programming Languages
+- Programming Language
 - Version Control
 ---

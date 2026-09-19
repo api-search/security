@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-cors-api-openapi.yml
 - filename: emis-health-health-api-openapi.yml
   format: yaml
-  label: EMIS Health Health API
+  label: EMIS Health API
   slug: emis-health-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-health-api-openapi.yml

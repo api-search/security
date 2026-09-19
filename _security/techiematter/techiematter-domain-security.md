@@ -40,5 +40,5 @@ tags:
 - Talent
 - Technical Assessment
 - Onboarding
-- HR Tech
+- Human Resources
 ---

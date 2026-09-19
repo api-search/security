@@ -21,12 +21,6 @@ api_specs:
   slug: tavus-guardrails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-guardrails-api-openapi.yml
-- filename: tavus-lipsync-api-openapi.yml
-  format: yaml
-  label: Tavus Lipsync API
-  slug: tavus-lipsync-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-lipsync-api-openapi.yml
 - filename: tavus-objectives-api-openapi.yml
   format: yaml
   label: Tavus Objectives API
@@ -75,6 +69,12 @@ api_specs:
   slug: tavus-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-voices-api-openapi.yml
+- filename: tavus-lip-sync-api-openapi.yml
+  format: yaml
+  label: Tavus Lip Sync API
+  slug: tavus-lip-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-lip-sync-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: anew-openapi.json
-  format: json
-  label: anew Write/Read API
-  slug: anew-writeread-api
+- filename: anew-a2a-api-openapi.yml
+  format: yaml
+  label: anew A2a API
+  slug: anew-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/openapi/anew-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/openapi/anew-a2a-api-openapi.yml
+- filename: anew-mcp-api-openapi.yml
+  format: yaml
+  label: anew MCP API
+  slug: anew-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/openapi/anew-mcp-api-openapi.yml
+- filename: anew-pages-api-openapi.yml
+  format: yaml
+  label: anew Pages API
+  slug: anew-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/openapi/anew-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,25 +49,25 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/security/anew-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- html
+- HTML
 - webpage
-- website
-- url
+- Websites
+- URLs
 - encode
-- share
-- web-publishing
-- developer-tools
-- mcp
-- a2a
-- ai-agent-tooling
+- Share
+- Web Publishing
+- Developer Tools
+- MCP
+- A2A
+- AI / Agent Tooling
 - llms-txt
 - agents-txt
-- agent-skills
-- webmcp
-- openapi
+- Agent Skills
+- WebMCP
+- OpenAPI
 - stateless
-- immutable
-- no-auth
-- static-site
+- Immutable
+- No Auth
+- Static Sites
 - url-encoding
 ---

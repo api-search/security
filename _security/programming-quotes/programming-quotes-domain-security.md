@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/openapi/programming-quotes-authentication-api-openapi.yml
 - filename: programming-quotes-quotes-api-openapi.yml
   format: yaml
-  label: Programming Quotes Quotes API
+  label: Programming Quotes API
   slug: programming-quotes-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/openapi/programming-quotes-quotes-api-openapi.yml

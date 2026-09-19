@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Healthcare
-- Telemedicine
 - Telehealth
 - Digital Health
 - Home Care

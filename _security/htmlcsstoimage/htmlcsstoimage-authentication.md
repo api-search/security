@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: htmlcsstoimage-image-generation-api-openapi.yml
   format: yaml
-  label: HTML/CSS to Image Image Generation API
+  label: HTML/CSS to Image Generation API
   slug: htmlcsstoimage-image-generation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-image-generation-api-openapi.yml

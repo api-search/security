@@ -34,7 +34,7 @@ tags:
 - Accessibility
 - Digital Accessibility
 - WCAG
-- ADA
+- ADAS
 - EAA Compliance
 - Web Accessibility
 - Mobile Accessibility

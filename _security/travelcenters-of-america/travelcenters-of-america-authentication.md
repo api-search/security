@@ -73,7 +73,7 @@ tags:
 - Truck Service
 - Retail
 - Fuel
-- Locations
+- Location
 - Trucking
 - Fleet Management
 - Fortune 500

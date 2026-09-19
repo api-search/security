@@ -35,7 +35,6 @@ tags:
 - Consumer
 - Pets
 - Veterinary
-- Telemedicine
 - Telehealth
 - Health
 - Insurance

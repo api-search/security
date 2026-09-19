@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Foundation Models
-- LLMs
+- LLM
 - Research
 - Robotics
 - Developer Tools

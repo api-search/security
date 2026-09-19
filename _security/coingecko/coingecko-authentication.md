@@ -70,12 +70,6 @@ api_specs:
   slug: coingecko-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-networks-api-openapi.yml
-- filename: coingecko-nfts-api-openapi.yml
-  format: yaml
-  label: CoinGecko NFTs API
-  slug: coingecko-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-nfts-api-openapi.yml
 - filename: coingecko-ohlcv-api-openapi.yml
   format: yaml
   label: CoinGecko OHLCV API
@@ -136,6 +130,12 @@ api_specs:
   slug: coingecko-trending-pools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-trending-pools-api-openapi.yml
+- filename: coingecko-nfts-api-openapi.yml
+  format: yaml
+  label: CoinGecko NF Ts API
+  slug: coingecko-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-nfts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -198,7 +198,7 @@ tags:
 - Decentralized Exchanges
 - DeFi
 - DEX
-- Exchanges
+- Exchange
 - Liquidity Pools
 - Market Data
 - NFT

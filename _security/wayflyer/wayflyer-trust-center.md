@@ -36,12 +36,6 @@ api_specs:
   slug: wayflyer-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-documents-api-openapi.yml
-- filename: wayflyer-embedded-application-api-openapi.yml
-  format: yaml
-  label: Wayflyer Embedded Application API
-  slug: wayflyer-embedded-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-embedded-application-api-openapi.yml
 - filename: wayflyer-handover-api-openapi.yml
   format: yaml
   label: Wayflyer Handover API

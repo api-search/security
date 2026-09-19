@@ -156,30 +156,12 @@ api_specs:
   slug: amazon-verified-permissions-listpolicytemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-listpolicytemplates-api-openapi.yml
-- filename: amazon-verified-permissions-listtagsforresource-api-openapi.yml
-  format: yaml
-  label: Amazon Verified Permissions ListTagsForResource API
-  slug: amazon-verified-permissions-listtagsforresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-listtagsforresource-api-openapi.yml
 - filename: amazon-verified-permissions-putschema-api-openapi.yml
   format: yaml
   label: Amazon Verified Permissions PutSchema API
   slug: amazon-verified-permissions-putschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-putschema-api-openapi.yml
-- filename: amazon-verified-permissions-tagresource-api-openapi.yml
-  format: yaml
-  label: Amazon Verified Permissions TagResource API
-  slug: amazon-verified-permissions-tagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-tagresource-api-openapi.yml
-- filename: amazon-verified-permissions-untagresource-api-openapi.yml
-  format: yaml
-  label: Amazon Verified Permissions UntagResource API
-  slug: amazon-verified-permissions-untagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-untagresource-api-openapi.yml
 - filename: amazon-verified-permissions-updateidentitysource-api-openapi.yml
   format: yaml
   label: Amazon Verified Permissions UpdateIdentitySource API
@@ -204,6 +186,24 @@ api_specs:
   slug: amazon-verified-permissions-updatepolicytemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-updatepolicytemplate-api-openapi.yml
+- filename: amazon-verified-permissions-list-tags-for-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Verified Permissions List Tags For Resource API
+  slug: amazon-verified-permissions-list-tags-for-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-list-tags-for-resource-api-openapi.yml
+- filename: amazon-verified-permissions-tag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Verified Permissions Tag Resource API
+  slug: amazon-verified-permissions-tag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-tag-resource-api-openapi.yml
+- filename: amazon-verified-permissions-untag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Verified Permissions Untag Resource API
+  slug: amazon-verified-permissions-untag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/openapi/amazon-verified-permissions-untag-resource-api-openapi.yml
 description: ''
 domains:
 - caa: []

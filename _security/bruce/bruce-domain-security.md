@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bruce/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Real-Estate
 - Mortgage
 - Insurance

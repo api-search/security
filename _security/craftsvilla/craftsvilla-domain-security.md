@@ -46,4 +46,5 @@ tags:
 - Ethnic Wear
 - Handcrafted
 - India
+- Defunct
 ---

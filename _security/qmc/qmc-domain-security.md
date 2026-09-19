@@ -34,7 +34,7 @@ tags:
 - Hardware
 - Telecommunications
 - Infrastructure
-- Mobile Networks
+- Mobile Network
 - 5G
 - Towers
 - Latin America

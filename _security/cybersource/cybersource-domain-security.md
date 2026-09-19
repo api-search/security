@@ -30,12 +30,6 @@ api_specs:
   slug: cybersource-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-batches-api-openapi.yml
-- filename: cybersource-billingagreements-api-openapi.yml
-  format: yaml
-  label: CyberSource billingAgreements API
-  slug: cybersource-billingagreements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-billingagreements-api-openapi.yml
 - filename: cybersource-bin-lookup-api-openapi.yml
   format: yaml
   label: CyberSource Bin Lookup API
@@ -146,7 +140,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-enrollment-api-openapi.yml
 - filename: cybersource-flex-api-api-openapi.yml
   format: yaml
-  label: CyberSource Flex API API
+  label: CyberSource Flex API
   slug: cybersource-flex-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-flex-api-api-openapi.yml
@@ -414,12 +408,6 @@ api_specs:
   slug: cybersource-unified-checkout-v1-capture-context-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-unified-checkout-v1-capture-context-api-openapi.yml
-- filename: cybersource-usermanagement-api-openapi.yml
-  format: yaml
-  label: CyberSource UserManagement API
-  slug: cybersource-usermanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-usermanagement-api-openapi.yml
 - filename: cybersource-usermanagementsearch-api-openapi.yml
   format: yaml
   label: CyberSource UserManagementSearch API
@@ -438,6 +426,18 @@ api_specs:
   slug: cybersource-void-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-void-api-openapi.yml
+- filename: cybersource-billing-agreements-api-openapi.yml
+  format: yaml
+  label: CyberSource Billing Agreements API
+  slug: cybersource-billing-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-billing-agreements-api-openapi.yml
+- filename: cybersource-user-management-api-openapi.yml
+  format: yaml
+  label: CyberSource User Management API
+  slug: cybersource-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-user-management-api-openapi.yml
 description: ''
 domains:
 - caa:

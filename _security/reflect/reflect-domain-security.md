@@ -58,6 +58,7 @@ tags:
 - Artificial Intelligence
 - Automated Testing
 - CI/CD
+- Developer Tools
 - End-to-End Testing
 - QA
 - Testing

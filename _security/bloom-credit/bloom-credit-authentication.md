@@ -11,13 +11,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-consumers-api-openapi.yml
 - filename: bloom-credit-credit-reports-api-openapi.yml
   format: yaml
-  label: Bloom Credit Credit Reports API
+  label: Bloom Credit Reports API
   slug: bloom-credit-credit-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-reports-api-openapi.yml
 - filename: bloom-credit-credit-scores-api-openapi.yml
   format: yaml
-  label: Bloom Credit Credit Scores API
+  label: Bloom Credit Scores API
   slug: bloom-credit-credit-scores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-scores-api-openapi.yml
@@ -65,7 +65,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Credit Bureau
 - Credit Reports
-- Credit Scores
+- Credit Score
 - Fintech
 - Lending
 - Personal Finance

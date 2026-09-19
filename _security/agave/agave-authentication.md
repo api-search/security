@@ -57,6 +57,48 @@ api_specs:
   slug: agave-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-vendors-api-openapi.yml
+- filename: agave-common-api-openapi.yml
+  format: yaml
+  label: Agave Common API
+  slug: agave-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-common-api-openapi.yml
+- filename: agave-customer-management-api-openapi.yml
+  format: yaml
+  label: Agave Customer Management API
+  slug: agave-customer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-customer-management-api-openapi.yml
+- filename: agave-file-management-api-openapi.yml
+  format: yaml
+  label: Agave File Management API
+  slug: agave-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-file-management-api-openapi.yml
+- filename: agave-financials-management-api-openapi.yml
+  format: yaml
+  label: Agave Financials Management API
+  slug: agave-financials-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-financials-management-api-openapi.yml
+- filename: agave-project-management-api-openapi.yml
+  format: yaml
+  label: Agave Project Management API
+  slug: agave-project-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-project-management-api-openapi.yml
+- filename: agave-service-management-api-openapi.yml
+  format: yaml
+  label: Agave Service Management API
+  slug: agave-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-service-management-api-openapi.yml
+- filename: agave-webhooks-api-openapi.yml
+  format: yaml
+  label: Agave Webhooks API
+  slug: agave-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Agave''s own API authenticates with three static credential headers plus a required version header; there is no OAuth, no bearer token and no token endpoint on the Agave API itself. OAuth exists in the product, but one layer down: Agave Link runs the OAuth dance against each SOURCE SYSTEM (Procore, Autodesk, QuickBooks, ...) on the user''s behalf and hands back an opaque Account Token. So a caller holds long-lived, non-expiring, non-scoped credentials that grant whatever the linked user granted — there is nothing to narrow. This artifact replaces an earlier derived profile that recorded a single "API-Key" header scheme; that scheme was an artefact of an API Evangelist-authored spec and does not exist on the live API. Verified live 2026-08-30: GET https://api.agaveapi.com/projects returns 401 {"error":"Invalid API-Version header"}.'

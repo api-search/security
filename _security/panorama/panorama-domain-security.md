@@ -2,16 +2,16 @@
 api_specs:
 - filename: panorama-panorama-api-api-openapi.yml
   format: yaml
-  label: Panorama Panorama API API
+  label: Panorama API
   slug: panorama-panorama-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-panorama-api-api-openapi.yml
-- filename: panorama-restapi-api-openapi.yml
+- filename: panorama-rest-api-api-openapi.yml
   format: yaml
-  label: Panorama Restapi API
-  slug: panorama-restapi-api
+  label: Panorama REST API
+  slug: panorama-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-restapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/openapi/panorama-rest-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

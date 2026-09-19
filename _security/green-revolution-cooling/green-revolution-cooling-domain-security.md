@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-revoluti
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Data Centers
+- Data-Center
 - Immersion Cooling
 - Liquid Cooling
 - Infrastructure

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: rocket-lawyer-accesstoken-api-openapi.yml
-  format: yaml
-  label: Rocket Lawyer Accesstoken API
-  slug: rocket-lawyer-accesstoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-accesstoken-api-openapi.yml
 - filename: rocket-lawyer-binders-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Binders API
@@ -48,6 +42,12 @@ api_specs:
   slug: rocket-lawyer-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-templates-api-openapi.yml
+- filename: rocket-lawyer-access-token-api-openapi.yml
+  format: yaml
+  label: Rocket Lawyer Access Token API
+  slug: rocket-lawyer-access-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-access-token-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -107,7 +107,7 @@ tags:
 - Business Formation
 - LLC Formation
 - Registered Agent
-- Trademark
+- Trademarks
 - Wills
 - Estate Planning
 - Attorney Network

@@ -35,7 +35,7 @@ tags:
 - Blockchain
 - Staking
 - Web3
-- Validators
+- Validator
 - Cryptocurrency
 - Node Infrastructure
 - Proof of Stake

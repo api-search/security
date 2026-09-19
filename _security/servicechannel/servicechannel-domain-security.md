@@ -6,12 +6,6 @@ api_specs:
   slug: servicechannel-afterhours-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-afterhours-api-openapi.yml
-- filename: servicechannel-aiagents-api-openapi.yml
-  format: yaml
-  label: ServiceChannel AIAgents API
-  slug: servicechannel-aiagents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-aiagents-api-openapi.yml
 - filename: servicechannel-announcements-api-openapi.yml
   format: yaml
   label: ServiceChannel Announcements API
@@ -36,12 +30,6 @@ api_specs:
   slug: servicechannel-assettaskresponse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-assettaskresponse-api-openapi.yml
-- filename: servicechannel-assettypes-api-openapi.yml
-  format: yaml
-  label: ServiceChannel AssetTypes API
-  slug: servicechannel-assettypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-assettypes-api-openapi.yml
 - filename: servicechannel-attachments-api-openapi.yml
   format: yaml
   label: ServiceChannel Attachments API
@@ -126,12 +114,6 @@ api_specs:
   slug: servicechannel-donotdispatch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-donotdispatch-api-openapi.yml
-- filename: servicechannel-emailnotifications-api-openapi.yml
-  format: yaml
-  label: ServiceChannel EmailNotifications API
-  slug: servicechannel-emailnotifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-emailnotifications-api-openapi.yml
 - filename: servicechannel-eula-api-openapi.yml
   format: yaml
   label: ServiceChannel Eula API
@@ -144,12 +126,6 @@ api_specs:
   slug: servicechannel-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-feedback-api-openapi.yml
-- filename: servicechannel-glcodes-api-openapi.yml
-  format: yaml
-  label: ServiceChannel GlCodes API
-  slug: servicechannel-glcodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-glcodes-api-openapi.yml
 - filename: servicechannel-invitation-api-openapi.yml
   format: yaml
   label: ServiceChannel Invitation API
@@ -204,18 +180,6 @@ api_specs:
   slug: servicechannel-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-notes-api-openapi.yml
-- filename: servicechannel-notificationsubscriptions-api-openapi.yml
-  format: yaml
-  label: ServiceChannel NotificationSubscriptions API
-  slug: servicechannel-notificationsubscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-notificationsubscriptions-api-openapi.yml
-- filename: servicechannel-notificationwebhooks-api-openapi.yml
-  format: yaml
-  label: ServiceChannel NotificationWebHooks API
-  slug: servicechannel-notificationwebhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-notificationwebhooks-api-openapi.yml
 - filename: servicechannel-outgoingxml-api-openapi.yml
   format: yaml
   label: ServiceChannel OutgoingXml API
@@ -258,12 +222,6 @@ api_specs:
   slug: servicechannel-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-providers-api-openapi.yml
-- filename: servicechannel-pushnotifications-api-openapi.yml
-  format: yaml
-  label: ServiceChannel PushNotifications API
-  slug: servicechannel-pushnotifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-pushnotifications-api-openapi.yml
 - filename: servicechannel-refrigeranttracking-api-openapi.yml
   format: yaml
   label: ServiceChannel RefrigerantTracking API
@@ -276,12 +234,6 @@ api_specs:
   slug: servicechannel-resolutioncodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-resolutioncodes-api-openapi.yml
-- filename: servicechannel-rfps-api-openapi.yml
-  format: yaml
-  label: ServiceChannel Rfps API
-  slug: servicechannel-rfps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-rfps-api-openapi.yml
 - filename: servicechannel-roles-api-openapi.yml
   format: yaml
   label: ServiceChannel Roles API
@@ -300,18 +252,6 @@ api_specs:
   slug: servicechannel-servicerequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-servicerequest-api-openapi.yml
-- filename: servicechannel-singlesignon-api-openapi.yml
-  format: yaml
-  label: ServiceChannel SingleSignOn API
-  slug: servicechannel-singlesignon-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-singlesignon-api-openapi.yml
-- filename: servicechannel-siteaudit-api-openapi.yml
-  format: yaml
-  label: ServiceChannel SiteAudit API
-  slug: servicechannel-siteaudit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-siteaudit-api-openapi.yml
 - filename: servicechannel-subscribers-api-openapi.yml
   format: yaml
   label: ServiceChannel Subscribers API
@@ -324,12 +264,6 @@ api_specs:
   slug: servicechannel-supplyclick-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-supplyclick-api-openapi.yml
-- filename: servicechannel-surveyquestions-api-openapi.yml
-  format: yaml
-  label: ServiceChannel SurveyQuestions API
-  slug: servicechannel-surveyquestions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-surveyquestions-api-openapi.yml
 - filename: servicechannel-templatefileshistory-api-openapi.yml
   format: yaml
   label: ServiceChannel TemplateFilesHistory API
@@ -378,24 +312,90 @@ api_specs:
   slug: servicechannel-workactivities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-workactivities-api-openapi.yml
-- filename: servicechannel-workorders-api-openapi.yml
-  format: yaml
-  label: ServiceChannel WorkOrders API
-  slug: servicechannel-workorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-workorders-api-openapi.yml
 - filename: servicechannel-workrequestnote-api-openapi.yml
   format: yaml
   label: ServiceChannel WorkRequestNote API
   slug: servicechannel-workrequestnote-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-workrequestnote-api-openapi.yml
-- filename: servicechannel-workrequests-api-openapi.yml
+- filename: servicechannel-rfps-api-openapi.yml
   format: yaml
-  label: ServiceChannel WorkRequests API
-  slug: servicechannel-workrequests-api
+  label: ServiceChannel Rfps API
+  slug: servicechannel-rfps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-workrequests-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-rfps-api-openapi.yml
+- filename: servicechannel-ai-agents-api-openapi.yml
+  format: yaml
+  label: ServiceChannel AI Agents API
+  slug: servicechannel-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-ai-agents-api-openapi.yml
+- filename: servicechannel-asset-types-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Asset Types API
+  slug: servicechannel-asset-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-asset-types-api-openapi.yml
+- filename: servicechannel-email-notifications-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Email Notifications API
+  slug: servicechannel-email-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-email-notifications-api-openapi.yml
+- filename: servicechannel-gl-codes-api-openapi.yml
+  format: yaml
+  label: ServiceChannel GL Codes API
+  slug: servicechannel-gl-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-gl-codes-api-openapi.yml
+- filename: servicechannel-notification-subscriptions-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Notification Subscriptions API
+  slug: servicechannel-notification-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-notification-subscriptions-api-openapi.yml
+- filename: servicechannel-notification-web-hooks-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Notification Web Hooks API
+  slug: servicechannel-notification-web-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-notification-web-hooks-api-openapi.yml
+- filename: servicechannel-push-notifications-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Push Notifications API
+  slug: servicechannel-push-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-push-notifications-api-openapi.yml
+- filename: servicechannel-single-sign-on-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Single Sign On API
+  slug: servicechannel-single-sign-on-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-single-sign-on-api-openapi.yml
+- filename: servicechannel-site-audit-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Site Audit API
+  slug: servicechannel-site-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-site-audit-api-openapi.yml
+- filename: servicechannel-survey-questions-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Survey Questions API
+  slug: servicechannel-survey-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-survey-questions-api-openapi.yml
+- filename: servicechannel-work-orders-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Work Orders API
+  slug: servicechannel-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-work-orders-api-openapi.yml
+- filename: servicechannel-work-requests-api-openapi.yml
+  format: yaml
+  label: ServiceChannel Work Requests API
+  slug: servicechannel-work-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/openapi/servicechannel-work-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []

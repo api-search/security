@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: appyway-activitytypes-api-openapi.yml
-  format: yaml
-  label: AppyWay ActivityTypes API
-  slug: appyway-activitytypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-activitytypes-api-openapi.yml
 - filename: appyway-authorities-api-openapi.yml
   format: yaml
   label: AppyWay Authorities API
@@ -120,18 +114,6 @@ api_specs:
   slug: appyway-parking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-parking-api-openapi.yml
-- filename: appyway-paymentmethods-api-openapi.yml
-  format: yaml
-  label: AppyWay PaymentMethods API
-  slug: appyway-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-paymentmethods-api-openapi.yml
-- filename: appyway-paymentproviders-api-openapi.yml
-  format: yaml
-  label: AppyWay PaymentProviders API
-  slug: appyway-paymentproviders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-paymentproviders-api-openapi.yml
 - filename: appyway-permittedvehicles-api-openapi.yml
   format: yaml
   label: AppyWay PermittedVehicles API
@@ -162,12 +144,6 @@ api_specs:
   slug: appyway-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-status-api-openapi.yml
-- filename: appyway-vehicletypes-api-openapi.yml
-  format: yaml
-  label: AppyWay VehicleTypes API
-  slug: appyway-vehicletypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-vehicletypes-api-openapi.yml
 - filename: appyway-zones-api-openapi.yml
   format: yaml
   label: AppyWay Zones API
@@ -180,6 +156,30 @@ api_specs:
   slug: appyway-zonetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-zonetypes-api-openapi.yml
+- filename: appyway-activity-types-api-openapi.yml
+  format: yaml
+  label: AppyWay Activity Types API
+  slug: appyway-activity-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-activity-types-api-openapi.yml
+- filename: appyway-payment-methods-api-openapi.yml
+  format: yaml
+  label: AppyWay Payment Methods API
+  slug: appyway-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-payment-methods-api-openapi.yml
+- filename: appyway-payment-providers-api-openapi.yml
+  format: yaml
+  label: AppyWay Payment Providers API
+  slug: appyway-payment-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-payment-providers-api-openapi.yml
+- filename: appyway-vehicle-types-api-openapi.yml
+  format: yaml
+  label: AppyWay Vehicle Types API
+  slug: appyway-vehicle-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-vehicle-types-api-openapi.yml
 description: ''
 domains:
 - caa: []

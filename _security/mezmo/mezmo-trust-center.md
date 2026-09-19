@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: mezmo-auditevents-api-openapi.yml
-  format: yaml
-  label: Mezmo AuditEvents API
-  slug: mezmo-auditevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-auditevents-api-openapi.yml
 - filename: mezmo-classification-api-openapi.yml
   format: yaml
   label: Mezmo Classification API
@@ -96,6 +90,12 @@ api_specs:
   slug: mezmo-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-tasks-api-openapi.yml
+- filename: mezmo-audit-events-api-openapi.yml
+  format: yaml
+  label: Mezmo Audit Events API
+  slug: mezmo-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-audit-events-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

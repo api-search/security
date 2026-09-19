@@ -47,7 +47,7 @@ tags:
 - Payments
 - Subscription
 - Checkout
-- Memberships
+- Membership
 - Licensing
 - Creator Economy
 - Webhook

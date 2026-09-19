@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clearml-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/authentication/clearml-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- ML
+- Machine-Learning
 - MLOps
 - Open-Source
 - Experiment Tracking

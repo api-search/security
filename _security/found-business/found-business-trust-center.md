@@ -53,7 +53,7 @@ tags:
 - Fintech
 - Business Banking
 - Bookkeeping
-- Taxes
+- Tax
 - Self-Employed
 trust_url: https://found.com/security
 ---

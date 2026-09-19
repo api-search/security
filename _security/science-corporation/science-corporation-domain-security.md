@@ -35,7 +35,7 @@ tags:
 - Neurotechnology
 - Brain-Computer Interface
 - Neural Interface
-- Medical Device
+- Medical Devices
 - gRPC
 - Protocol Buffers
 - Streaming

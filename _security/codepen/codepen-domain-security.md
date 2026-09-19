@@ -51,6 +51,6 @@ tags:
 - Developer Tools
 - Front-End Development
 - Code Playground
-- Embeds
+- Embed
 - Education
 ---

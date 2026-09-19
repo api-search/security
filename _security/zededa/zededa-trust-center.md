@@ -36,12 +36,6 @@ api_specs:
   slug: zededa-clouddiagnostics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/openapi/zededa-clouddiagnostics-api-openapi.yml
-- filename: zededa-clustergroups-api-openapi.yml
-  format: yaml
-  label: Zededa ClusterGroups API
-  slug: zededa-clustergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/openapi/zededa-clustergroups-api-openapi.yml
 - filename: zededa-clusterstatus-api-openapi.yml
   format: yaml
   label: Zededa ClusterStatus API
@@ -210,6 +204,12 @@ api_specs:
   slug: zededa-zksclusterinstances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/openapi/zededa-zksclusterinstances-api-openapi.yml
+- filename: zededa-cluster-groups-api-openapi.yml
+  format: yaml
+  label: Zededa cluster groups API
+  slug: zededa-cluster-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/openapi/zededa-cluster-groups-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001

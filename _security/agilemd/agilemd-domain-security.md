@@ -39,5 +39,5 @@ tags:
 - Clinical Pathways
 - Patient Safety
 - Machine-Learning
-- Medical Device
+- Medical Devices
 ---

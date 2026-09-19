@@ -2,60 +2,78 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: aerofarms-news-openapi.yml
+- filename: aerofarms-cart-api-openapi.yml
   format: yaml
-  label: AeroFarms News API
-  slug: aerofarms-news-api
+  label: AeroFarms Cart API
+  slug: aerofarms-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-news-openapi.yml
-- filename: aerofarms-pages-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-cart-api-openapi.yml
+- filename: aerofarms-comments-api-openapi.yml
   format: yaml
-  label: AeroFarms Pages API
-  slug: aerofarms-pages-api
+  label: AeroFarms Comments API
+  slug: aerofarms-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-pages-openapi.yml
-- filename: aerofarms-products-openapi.yml
-  format: yaml
-  label: AeroFarms Products API
-  slug: aerofarms-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-products-openapi.yml
-- filename: aerofarms-store-openapi.yml
-  format: yaml
-  label: AeroFarms Store API
-  slug: aerofarms-store-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-store-openapi.yml
-- filename: aerofarms-faq-openapi.yml
-  format: yaml
-  label: AeroFarms FAQ API
-  slug: aerofarms-faq-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-faq-openapi.yml
-- filename: aerofarms-taxonomy-openapi.yml
-  format: yaml
-  label: AeroFarms Taxonomy API
-  slug: aerofarms-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-taxonomy-openapi.yml
-- filename: aerofarms-media-openapi.yml
-  format: yaml
-  label: AeroFarms Media API
-  slug: aerofarms-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-media-openapi.yml
-- filename: aerofarms-search-openapi.yml
-  format: yaml
-  label: AeroFarms Search API
-  slug: aerofarms-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-search-openapi.yml
-- filename: aerofarms-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-comments-api-openapi.yml
+- filename: aerofarms-discovery-api-openapi.yml
   format: yaml
   label: AeroFarms Discovery API
   slug: aerofarms-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-discovery-api-openapi.yml
+- filename: aerofarms-media-api-openapi.yml
+  format: yaml
+  label: AeroFarms Media API
+  slug: aerofarms-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-media-api-openapi.yml
+- filename: aerofarms-news-api-openapi.yml
+  format: yaml
+  label: AeroFarms News API
+  slug: aerofarms-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-news-api-openapi.yml
+- filename: aerofarms-pages-api-openapi.yml
+  format: yaml
+  label: AeroFarms Pages API
+  slug: aerofarms-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-pages-api-openapi.yml
+- filename: aerofarms-product-taxonomy-api-openapi.yml
+  format: yaml
+  label: AeroFarms Product Taxonomy API
+  slug: aerofarms-product-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-product-taxonomy-api-openapi.yml
+- filename: aerofarms-products-api-openapi.yml
+  format: yaml
+  label: AeroFarms Products API
+  slug: aerofarms-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-products-api-openapi.yml
+- filename: aerofarms-search-api-openapi.yml
+  format: yaml
+  label: AeroFarms Search API
+  slug: aerofarms-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-search-api-openapi.yml
+- filename: aerofarms-store-api-openapi.yml
+  format: yaml
+  label: AeroFarms Store API
+  slug: aerofarms-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-store-api-openapi.yml
+- filename: aerofarms-taxonomy-api-openapi.yml
+  format: yaml
+  label: AeroFarms Taxonomy API
+  slug: aerofarms-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-taxonomy-api-openapi.yml
+- filename: aerofarms-faqs-api-openapi.yml
+  format: yaml
+  label: AeroFarms FA Qs API
+  slug: aerofarms-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/openapi/aerofarms-faqs-api-openapi.yml
 auth_types: []
 description: 'AeroFarms publishes no authentication documentation, because it publishes no developer program. Everything here was established by calling the surface and reading the two OAuth discovery documents the site really serves. The surface splits cleanly in three: an anonymous read tier that needs no credential at all, an OAuth 2.1 tier that guards the MCP server, and an ordinary WordPress session tier that guards everything else.'
 kind: authentication

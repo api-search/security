@@ -38,4 +38,5 @@ tags:
 - E-Commerce
 - Blockchain
 - Open-Source
+- Defunct
 ---

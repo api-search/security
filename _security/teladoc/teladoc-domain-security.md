@@ -52,7 +52,6 @@ tags:
 - Company
 - Health Tech
 - Telehealth
-- Telemedicine
 - Virtual Care
 - Healthcare
 - Behavioral Health

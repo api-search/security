@@ -36,18 +36,6 @@ api_specs:
   slug: deluxe-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-invoices-api-openapi.yml
-- filename: deluxe-paymentlinks-api-openapi.yml
-  format: yaml
-  label: Deluxe Corporation Paymentlinks API
-  slug: deluxe-paymentlinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-paymentlinks-api-openapi.yml
-- filename: deluxe-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Deluxe Corporation Paymentmethods API
-  slug: deluxe-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-paymentmethods-api-openapi.yml
 - filename: deluxe-payments-api-openapi.yml
   format: yaml
   label: Deluxe Corporation Payments API
@@ -78,6 +66,18 @@ api_specs:
   slug: deluxe-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-subscriptions-api-openapi.yml
+- filename: deluxe-payment-links-api-openapi.yml
+  format: yaml
+  label: Deluxe Corporation Payment Links API
+  slug: deluxe-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-payment-links-api-openapi.yml
+- filename: deluxe-payment-methods-api-openapi.yml
+  format: yaml
+  label: Deluxe Corporation Payment Methods API
+  slug: deluxe-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-payment-methods-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/openapi/workday-recruiting-positions-api-openapi.yml
 - filename: workday-recruiting-recruiting-agencies-api-openapi.yml
   format: yaml
-  label: Workday Recruiting Recruiting Agencies API
+  label: Workday Recruiting Agencies API
   slug: workday-recruiting-recruiting-agencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/openapi/workday-recruiting-recruiting-agencies-api-openapi.yml

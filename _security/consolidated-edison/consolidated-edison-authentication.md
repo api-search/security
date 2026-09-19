@@ -2,12 +2,90 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: consolidated-edison-green-button-connect-openapi.yml
+- filename: consolidated-edison-applicationinformation-api-openapi.yml
   format: yaml
-  label: Green Button Connect My Data
-  slug: green-button-connect
+  label: Consolidated Edison Application Information API
+  slug: consolidated-edison-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-green-button-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-applicationinformation-api-openapi.yml
+- filename: consolidated-edison-authorization-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Authorization API
+  slug: consolidated-edison-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-authorization-api-openapi.yml
+- filename: consolidated-edison-batch-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Batch API
+  slug: consolidated-edison-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-batch-api-openapi.yml
+- filename: consolidated-edison-electricpowerusagesummary-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Electric Power Usage Summary API
+  slug: consolidated-edison-electricpowerusagesummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-electricpowerusagesummary-api-openapi.yml
+- filename: consolidated-edison-intervalblock-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Interval Block API
+  slug: consolidated-edison-intervalblock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-intervalblock-api-openapi.yml
+- filename: consolidated-edison-localtimeparameters-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Local Time Parameters API
+  slug: consolidated-edison-localtimeparameters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-localtimeparameters-api-openapi.yml
+- filename: consolidated-edison-meterreading-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Meter Reading API
+  slug: consolidated-edison-meterreading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-meterreading-api-openapi.yml
+- filename: consolidated-edison-readingtype-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Reading Type API
+  slug: consolidated-edison-readingtype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-readingtype-api-openapi.yml
+- filename: consolidated-edison-realtimebatch-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Real Time Batch API
+  slug: consolidated-edison-realtimebatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-realtimebatch-api-openapi.yml
+- filename: consolidated-edison-realtimeintervalblock-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Real Time Interval Block API
+  slug: consolidated-edison-realtimeintervalblock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-realtimeintervalblock-api-openapi.yml
+- filename: consolidated-edison-realtimereadingtype-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Real Time Reading Type API
+  slug: consolidated-edison-realtimereadingtype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-realtimereadingtype-api-openapi.yml
+- filename: consolidated-edison-retailcustomer-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Retail Customer API
+  slug: consolidated-edison-retailcustomer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-retailcustomer-api-openapi.yml
+- filename: consolidated-edison-usagepoint-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Usage Point API
+  slug: consolidated-edison-usagepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-usagepoint-api-openapi.yml
+- filename: consolidated-edison-service-status-api-openapi.yml
+  format: yaml
+  label: Consolidated Edison Service Status API
+  slug: consolidated-edison-service-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/openapi/consolidated-edison-service-status-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -74,7 +152,7 @@ tags:
 - NAESB
 - Natural Gas
 - New York
-- OAuth2
+- Authentication
 - Steam
 - Utility
 ---

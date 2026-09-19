@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: pipefy-graphql-api-openapi.yml
+- filename: pipefy-graph-ql-api-openapi.yml
   format: yaml
-  label: Pipefy GraphQL API
-  slug: pipefy-graphql-api
+  label: Pipefy Graph QL API
+  slug: pipefy-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graph-ql-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -30,7 +30,6 @@ tags:
 - Workflow-Automation
 - Business Process Management
 - No-Code
-- BPM
 - GraphQL
 - Process Orchestration
 trust_url: https://trust.pipefy.com/

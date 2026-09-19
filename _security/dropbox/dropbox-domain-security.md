@@ -60,12 +60,6 @@ api_specs:
   slug: dropbox-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-files-api-openapi.yml
-- filename: dropbox-oauth-api-openapi.yml
-  format: yaml
-  label: Dropbox OAuth API
-  slug: dropbox-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-oauth-api-openapi.yml
 - filename: dropbox-report-api-openapi.yml
   format: yaml
   label: Dropbox Report API
@@ -174,6 +168,12 @@ api_specs:
   slug: dropbox-callbacks-and-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-callbacks-and-events-api-openapi.yml
+- filename: dropbox-oauth-api-openapi.yml
+  format: yaml
+  label: Dropbox O Auth API
+  slug: dropbox-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:

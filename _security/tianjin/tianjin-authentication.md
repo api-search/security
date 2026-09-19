@@ -31,12 +31,12 @@ tags:
 - Research
 - China
 - Tianjin
-- Double First Class
+- Double First-Class
 - Project 985
 - Identity Federation
 - Shibboleth
 - SAML
-- Single Sign-On
+- SSO
 - Library
 - Research Repository
 - Persistent Identifiers

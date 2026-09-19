@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: actionpower-daglo-cloud-api-openapi.yml
+- filename: actionpower-image-api-openapi.yml
   format: yaml
-  label: daglo Cloud API
-  slug: daglo-cloud-api
+  label: Actionpower Image API
+  slug: actionpower-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-daglo-cloud-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-image-api-openapi.yml
+- filename: actionpower-nlp-api-openapi.yml
+  format: yaml
+  label: Actionpower NLP API
+  slug: actionpower-nlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-nlp-api-openapi.yml
+- filename: actionpower-stt-api-openapi.yml
+  format: yaml
+  label: Actionpower STT API
+  slug: actionpower-stt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-stt-api-openapi.yml
+- filename: actionpower-tts-api-openapi.yml
+  format: yaml
+  label: Actionpower TTS API
+  slug: actionpower-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-tts-api-openapi.yml
+- filename: actionpower-video-api-openapi.yml
+  format: yaml
+  label: Actionpower Video API
+  slug: actionpower-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-video-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,8 +86,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actionpower/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Speech Recognition
-- Speech To Text
-- Text To Speech
+- Speech-to-Text
+- Text-to-Speech
 - Natural Language Processing
 - Artificial Intelligence
 - Transcription

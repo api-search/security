@@ -137,7 +137,7 @@ tags:
 - Trusted Execution Environment
 - Attestation
 - Agentic Workflows
-- Retrieval Augmented Generation
+- RAG
 - Enterprise AI
 - secure-analytics
 - Data Clean Room

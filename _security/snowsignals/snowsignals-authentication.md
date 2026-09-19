@@ -4,18 +4,36 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: snowsignals-daas-openapi.json
-  format: json
-  label: SnowSignals API
-  slug: snowsignals-api
+- filename: snowsignals-notifications-api-openapi.yml
+  format: yaml
+  label: SnowSignals Notifications API
+  slug: snowsignals-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-daas-openapi.json
-- filename: snowsignals-x402-openapi.json
-  format: json
-  label: SnowSignals x402 Gateway
-  slug: snowsignals-x402-gateway
+  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-notifications-api-openapi.yml
+- filename: snowsignals-phase-api-openapi.yml
+  format: yaml
+  label: SnowSignals Phase API
+  slug: snowsignals-phase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-x402-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-phase-api-openapi.yml
+- filename: snowsignals-phases-api-openapi.yml
+  format: yaml
+  label: SnowSignals Phases API
+  slug: snowsignals-phases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-phases-api-openapi.yml
+- filename: snowsignals-time-api-openapi.yml
+  format: yaml
+  label: SnowSignals Time API
+  slug: snowsignals-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-time-api-openapi.yml
+- filename: snowsignals-user-api-openapi.yml
+  format: yaml
+  label: SnowSignals User API
+  slug: snowsignals-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-user-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,16 +71,16 @@ source_yaml: "generated: '2026-09-10'\nmethod: derived\nsource: openapi/snowsign
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/authentication/snowsignals-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- crypto
-- market-data
-- bitcoin
-- analytics
+- Crypto
+- Market Data
+- Bitcoin
+- Analytics
 - market-phase
 - regime
 - trendvane
-- daas
-- mcp
+- DaaS
+- MCP
 - agent-native
-- financial-data
+- Financial Data
 - x402
 ---

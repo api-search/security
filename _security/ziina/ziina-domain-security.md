@@ -6,12 +6,6 @@ api_specs:
   slug: ziina-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-account-api-openapi.yml
-- filename: ziina-healthcheck-api-openapi.yml
-  format: yaml
-  label: Ziina HealthCheck API
-  slug: ziina-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-healthcheck-api-openapi.yml
 - filename: ziina-log-api-openapi.yml
   format: yaml
   label: Ziina Log API
@@ -42,6 +36,12 @@ api_specs:
   slug: ziina-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
+- filename: ziina-health-check-api-openapi.yml
+  format: yaml
+  label: Ziina Health Check API
+  slug: ziina-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Fintech
-- UAE
+- United Arab Emirates
 - MENA
 - Money Transfer
 - Wallets

@@ -37,10 +37,10 @@ summary_line: TLSv1.3
 tags:
 - Construction
 - Construction Technology
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Sustainability
-- Building
+- Buildings
 - Manufacturing
 - Spain
 - Company

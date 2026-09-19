@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: paypal-activate-api-openapi.yml
-  format: yaml
-  label: PayPal Activate API
-  slug: paypal-activate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-activate-api-openapi.yml
 - filename: paypal-authorizations-api-openapi.yml
   format: yaml
   label: PayPal Authorizations API
@@ -24,30 +18,12 @@ api_specs:
   slug: paypal-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-billing-api-openapi.yml
-- filename: paypal-cancel-api-openapi.yml
-  format: yaml
-  label: PayPal Cancel API
-  slug: paypal-cancel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-cancel-api-openapi.yml
-- filename: paypal-capture-api-openapi.yml
-  format: yaml
-  label: PayPal Capture API
-  slug: paypal-capture-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-capture-api-openapi.yml
 - filename: paypal-captures-api-openapi.yml
   format: yaml
   label: PayPal Captures API
   slug: paypal-captures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-captures-api-openapi.yml
-- filename: paypal-deactivate-api-openapi.yml
-  format: yaml
-  label: PayPal Deactivate API
-  slug: paypal-deactivate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-deactivate-api-openapi.yml
 - filename: paypal-disputes-actions-api-openapi.yml
   format: yaml
   label: PayPal Disputes-Actions API
@@ -96,18 +72,6 @@ api_specs:
   slug: paypal-payouts-item-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payouts-item-api-openapi.yml
-- filename: paypal-plans-api-openapi.yml
-  format: yaml
-  label: PayPal Plans API
-  slug: paypal-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-plans-api-openapi.yml
-- filename: paypal-pricing-api-openapi.yml
-  format: yaml
-  label: PayPal Pricing API
-  slug: paypal-pricing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-pricing-api-openapi.yml
 - filename: paypal-products-api-openapi.yml
   format: yaml
   label: PayPal Products API
@@ -120,18 +84,6 @@ api_specs:
   slug: paypal-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-refunds-api-openapi.yml
-- filename: paypal-revise-api-openapi.yml
-  format: yaml
-  label: PayPal Revise API
-  slug: paypal-revise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-revise-api-openapi.yml
-- filename: paypal-schemes-api-openapi.yml
-  format: yaml
-  label: PayPal Schemes API
-  slug: paypal-schemes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-schemes-api-openapi.yml
 - filename: paypal-search-invoices-api-openapi.yml
   format: yaml
   label: PayPal Search-Invoices API
@@ -150,18 +102,6 @@ api_specs:
   slug: paypal-simulate-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-simulate-event-api-openapi.yml
-- filename: paypal-subscriptions-api-openapi.yml
-  format: yaml
-  label: PayPal Subscriptions API
-  slug: paypal-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-subscriptions-api-openapi.yml
-- filename: paypal-suspend-api-openapi.yml
-  format: yaml
-  label: PayPal Suspend API
-  slug: paypal-suspend-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-suspend-api-openapi.yml
 - filename: paypal-templates-api-openapi.yml
   format: yaml
   label: PayPal Templates API

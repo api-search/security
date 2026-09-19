@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/openapi/sensors-data-dashboard-api-openapi.yml
 - filename: sensors-data-data-subscription-api-openapi.yml
   format: yaml
-  label: Sensors Data Data Subscription API
+  label: Sensors Data Subscription API
   slug: sensors-data-data-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/openapi/sensors-data-data-subscription-api-openapi.yml

@@ -72,7 +72,7 @@ tags:
 - API Integration
 - Banking
 - Core Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Fintech
 - Integration Platform

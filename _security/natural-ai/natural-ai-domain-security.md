@@ -54,12 +54,6 @@ api_specs:
   slug: natural-ai-parties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-parties-api-openapi.yml
-- filename: natural-ai-paymentrequests-api-openapi.yml
-  format: yaml
-  label: Natural AI PaymentRequests API
-  slug: natural-ai-paymentrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-paymentrequests-api-openapi.yml
 - filename: natural-ai-payments-api-openapi.yml
   format: yaml
   label: Natural AI Payments API
@@ -90,6 +84,12 @@ api_specs:
   slug: natural-ai-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-webhooks-api-openapi.yml
+- filename: natural-ai-payment-requests-api-openapi.yml
+  format: yaml
+  label: Natural AI Payment Requests API
+  slug: natural-ai-payment-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-payment-requests-api-openapi.yml
 description: ''
 domains:
 - caa:

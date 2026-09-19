@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Private Equity
-- Investments
+- Investment
 - Financial-Services
 - Deal Management
 ---

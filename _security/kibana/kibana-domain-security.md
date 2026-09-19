@@ -224,7 +224,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-saved-objects-api-openapi.yml
 - filename: kibana-security-ai-assistant-api-api-openapi.yml
   format: yaml
-  label: Kibana Security AI Assistant API API
+  label: Kibana Security AI Assistant API
   slug: kibana-security-ai-assistant-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-ai-assistant-api-api-openapi.yml
@@ -236,31 +236,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-api-openapi.yml
 - filename: kibana-security-attack-discovery-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Attack discovery API API
+  label: Kibana Security Attack discovery API
   slug: kibana-security-attack-discovery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-attack-discovery-api-api-openapi.yml
 - filename: kibana-security-detections-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Detections API API
+  label: Kibana Security Detections API
   slug: kibana-security-detections-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-detections-api-api-openapi.yml
 - filename: kibana-security-endpoint-exceptions-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Endpoint Exceptions API API
+  label: Kibana Security Endpoint Exceptions API
   slug: kibana-security-endpoint-exceptions-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-endpoint-exceptions-api-api-openapi.yml
 - filename: kibana-security-endpoint-management-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Endpoint Management API API
+  label: Kibana Security Endpoint Management API
   slug: kibana-security-endpoint-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-endpoint-management-api-api-openapi.yml
 - filename: kibana-security-entity-analytics-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Entity Analytics API API
+  label: Kibana Security Entity Analytics API
   slug: kibana-security-entity-analytics-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-entity-analytics-api-api-openapi.yml
@@ -272,25 +272,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-entity-store-api-openapi.yml
 - filename: kibana-security-exceptions-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Exceptions API API
+  label: Kibana Security Exceptions API
   slug: kibana-security-exceptions-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-exceptions-api-api-openapi.yml
 - filename: kibana-security-lists-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Lists API API
+  label: Kibana Security Lists API
   slug: kibana-security-lists-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-lists-api-api-openapi.yml
 - filename: kibana-security-osquery-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Osquery API API
+  label: Kibana Security Osquery API
   slug: kibana-security-osquery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-osquery-api-api-openapi.yml
 - filename: kibana-security-timeline-api-api-openapi.yml
   format: yaml
-  label: Kibana Security Timeline API API
+  label: Kibana Security Timeline API
   slug: kibana-security-timeline-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-security-timeline-api-api-openapi.yml

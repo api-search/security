@@ -34,7 +34,7 @@ tags:
 - Speech-to-Text
 - Audio Transcription
 - Real-Time Streaming
-- WebSockets
+- WebSocket
 - Webhook
 - EHR Integration
 - Epic

@@ -6,12 +6,6 @@ api_specs:
   slug: gleap-ai-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-ai-content-api-openapi.yml
-- filename: gleap-aimodels-api-openapi.yml
-  format: yaml
-  label: Gleap AiModels API
-  slug: gleap-aimodels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-aimodels-api-openapi.yml
 - filename: gleap-code-api-openapi.yml
   format: yaml
   label: Gleap Code API
@@ -198,6 +192,12 @@ api_specs:
   slug: gleap-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-user-api-openapi.yml
+- filename: gleap-ai-models-api-openapi.yml
+  format: yaml
+  label: Gleap AI Models API
+  slug: gleap-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-ai-models-api-openapi.yml
 description: ''
 domains:
 - caa: []

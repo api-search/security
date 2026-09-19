@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: cardlytics-adgroups-api-openapi.yml
-  format: yaml
-  label: Cardlytics Ad Groups API
-  slug: cardlytics-adgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-adgroups-api-openapi.yml
 - filename: cardlytics-ads-api-openapi.yml
   format: yaml
   label: Cardlytics Ads API
@@ -30,12 +24,6 @@ api_specs:
   slug: cardlytics-audiences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-audiences-api-openapi.yml
-- filename: cardlytics-auditlogs-api-openapi.yml
-  format: yaml
-  label: Cardlytics Audit Logs API
-  slug: cardlytics-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-auditlogs-api-openapi.yml
 - filename: cardlytics-authentication-api-openapi.yml
   format: yaml
   label: Cardlytics Authentication API
@@ -78,12 +66,6 @@ api_specs:
   slug: cardlytics-pricingmodels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-pricingmodels-api-openapi.yml
-- filename: cardlytics-purchasecategories-api-openapi.yml
-  format: yaml
-  label: Cardlytics Purchase Categories API
-  slug: cardlytics-purchasecategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-purchasecategories-api-openapi.yml
 - filename: cardlytics-redemptions-api-openapi.yml
   format: yaml
   label: Cardlytics Redemptions API
@@ -108,6 +90,24 @@ api_specs:
   slug: cardlytics-session-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-session-controller-api-openapi.yml
+- filename: cardlytics-ad-groups-api-openapi.yml
+  format: yaml
+  label: Cardlytics Ad Groups API
+  slug: cardlytics-ad-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-ad-groups-api-openapi.yml
+- filename: cardlytics-audit-logs-api-openapi.yml
+  format: yaml
+  label: Cardlytics Audit Logs API
+  slug: cardlytics-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-audit-logs-api-openapi.yml
+- filename: cardlytics-purchase-categories-api-openapi.yml
+  format: yaml
+  label: Cardlytics Purchase Categories API
+  slug: cardlytics-purchase-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-purchase-categories-api-openapi.yml
 description: ''
 domains:
 - caa:

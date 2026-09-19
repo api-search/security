@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-lisbon-fenixedu-academic-api-openapi.yml
+- filename: university-of-lisbon-campus-life-api-openapi.yml
   format: yaml
-  label: FenixEdu Academic API (Instituto Superior Tecnico)
-  slug: fenixedu-tecnico
+  label: University of Lisbon Campus Life API
+  slug: university-of-lisbon-campus-life-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-fenixedu-academic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-campus-life-api-openapi.yml
+- filename: university-of-lisbon-courses-api-openapi.yml
+  format: yaml
+  label: University of Lisbon Courses API
+  slug: university-of-lisbon-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-courses-api-openapi.yml
+- filename: university-of-lisbon-degrees-api-openapi.yml
+  format: yaml
+  label: University of Lisbon Degrees API
+  slug: university-of-lisbon-degrees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-degrees-api-openapi.yml
+- filename: university-of-lisbon-domain-model-api-openapi.yml
+  format: yaml
+  label: University of Lisbon Domain Model API
+  slug: university-of-lisbon-domain-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-domain-model-api-openapi.yml
+- filename: university-of-lisbon-institution-api-openapi.yml
+  format: yaml
+  label: University of Lisbon Institution API
+  slug: university-of-lisbon-institution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-institution-api-openapi.yml
+- filename: university-of-lisbon-person-api-openapi.yml
+  format: yaml
+  label: University of Lisbon Person API
+  slug: university-of-lisbon-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-person-api-openapi.yml
+- filename: university-of-lisbon-spaces-api-openapi.yml
+  format: yaml
+  label: University of Lisbon Spaces API
+  slug: university-of-lisbon-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-spaces-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -46,5 +46,5 @@ tags:
 - Image Build
 - OCI
 - Podman
-- Standard
+- Standards
 ---

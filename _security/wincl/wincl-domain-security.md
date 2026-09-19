@@ -210,12 +210,6 @@ api_specs:
   slug: wincl-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/openapi/wincl-project-api-openapi.yml
-- filename: wincl-qna-api-openapi.yml
-  format: yaml
-  label: WinCL QnA API
-  slug: wincl-qna-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/openapi/wincl-qna-api-openapi.yml
 - filename: wincl-ranking-api-openapi.yml
   format: yaml
   label: WinCL Ranking API
@@ -264,6 +258,12 @@ api_specs:
   slug: wincl-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/openapi/wincl-webhook-api-openapi.yml
+- filename: wincl-qn-a-api-openapi.yml
+  format: yaml
+  label: WinCL Qn A API
+  slug: wincl-qn-a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/openapi/wincl-qn-a-api-openapi.yml
 description: ''
 domains:
 - caa: []

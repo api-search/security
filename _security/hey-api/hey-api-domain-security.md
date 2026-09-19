@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-get-api-openapi.yml
 - filename: hey-api-hey-api-api-openapi.yml
   format: yaml
-  label: Hey API Hey API API
+  label: Hey API Hey API
   slug: hey-api-hey-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-hey-api-api-openapi.yml
@@ -83,7 +83,7 @@ tags:
 - TypeScript
 - Python
 - API Design
-- Specifications
+- Specification
 - Registry
 - Open-Source
 ---

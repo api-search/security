@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: kubevirt-datasources-api-openapi.yml
-  format: yaml
-  label: KubeVirt DataSources API
-  slug: kubevirt-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-datasources-api-openapi.yml
-- filename: kubevirt-datavolumes-api-openapi.yml
-  format: yaml
-  label: KubeVirt DataVolumes API
-  slug: kubevirt-datavolumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-datavolumes-api-openapi.yml
 - filename: kubevirt-storageprofiles-api-openapi.yml
   format: yaml
   label: KubeVirt StorageProfiles API
@@ -30,12 +18,6 @@ api_specs:
   slug: kubevirt-virtualmachineinstances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachineinstances-api-openapi.yml
-- filename: kubevirt-virtualmachines-api-openapi.yml
-  format: yaml
-  label: KubeVirt VirtualMachines API
-  slug: kubevirt-virtualmachines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachines-api-openapi.yml
 - filename: kubevirt-vmconsole-api-openapi.yml
   format: yaml
   label: KubeVirt VMConsole API
@@ -48,6 +30,24 @@ api_specs:
   slug: kubevirt-vmlifecycle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-vmlifecycle-api-openapi.yml
+- filename: kubevirt-data-sources-api-openapi.yml
+  format: yaml
+  label: KubeVirt Data Sources API
+  slug: kubevirt-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-data-sources-api-openapi.yml
+- filename: kubevirt-data-volumes-api-openapi.yml
+  format: yaml
+  label: KubeVirt Data Volumes API
+  slug: kubevirt-data-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-data-volumes-api-openapi.yml
+- filename: kubevirt-virtual-machines-api-openapi.yml
+  format: yaml
+  label: KubeVirt Virtual Machines API
+  slug: kubevirt-virtual-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtual-machines-api-openapi.yml
 description: ''
 domains:
 - caa: []

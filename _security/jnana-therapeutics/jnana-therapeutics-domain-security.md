@@ -18,12 +18,6 @@ api_specs:
   slug: jnana-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-media-api-openapi.yml
-- filename: jnana-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Jnana Therapeutics Oembed API
-  slug: jnana-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-oembed-api-openapi.yml
 - filename: jnana-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Jnana Therapeutics Pages API
@@ -72,6 +66,12 @@ api_specs:
   slug: jnana-therapeutics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-users-api-openapi.yml
+- filename: jnana-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Jnana Therapeutics o Embed API
+  slug: jnana-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/openapi/jnana-therapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

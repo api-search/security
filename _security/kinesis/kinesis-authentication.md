@@ -3,174 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: kinesis-createsignalingchannel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis CreateSignalingChannel API
-  slug: kinesis-createsignalingchannel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-createsignalingchannel-api-openapi.yml
-- filename: kinesis-createstream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis CreateStream API
-  slug: kinesis-createstream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-createstream-api-openapi.yml
-- filename: kinesis-deletesignalingchannel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DeleteSignalingChannel API
-  slug: kinesis-deletesignalingchannel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-deletesignalingchannel-api-openapi.yml
-- filename: kinesis-deletestream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DeleteStream API
-  slug: kinesis-deletestream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-deletestream-api-openapi.yml
-- filename: kinesis-describeedgeconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeEdgeConfiguration API
-  slug: kinesis-describeedgeconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describeedgeconfiguration-api-openapi.yml
-- filename: kinesis-describeimagegenerationconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeImageGenerationConfiguration API
-  slug: kinesis-describeimagegenerationconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describeimagegenerationconfiguration-api-openapi.yml
-- filename: kinesis-describemappedresourceconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeMappedResourceConfiguration API
-  slug: kinesis-describemappedresourceconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describemappedresourceconfiguration-api-openapi.yml
-- filename: kinesis-describemediastorageconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeMediaStorageConfiguration API
-  slug: kinesis-describemediastorageconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describemediastorageconfiguration-api-openapi.yml
-- filename: kinesis-describenotificationconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeNotificationConfiguration API
-  slug: kinesis-describenotificationconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describenotificationconfiguration-api-openapi.yml
-- filename: kinesis-describesignalingchannel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeSignalingChannel API
-  slug: kinesis-describesignalingchannel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describesignalingchannel-api-openapi.yml
-- filename: kinesis-describestream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis DescribeStream API
-  slug: kinesis-describestream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describestream-api-openapi.yml
-- filename: kinesis-getdataendpoint-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis GetDataEndpoint API
-  slug: kinesis-getdataendpoint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-getdataendpoint-api-openapi.yml
-- filename: kinesis-getsignalingchannelendpoint-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis GetSignalingChannelEndpoint API
-  slug: kinesis-getsignalingchannelendpoint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-getsignalingchannelendpoint-api-openapi.yml
-- filename: kinesis-listsignalingchannels-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis ListSignalingChannels API
-  slug: kinesis-listsignalingchannels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-listsignalingchannels-api-openapi.yml
 - filename: kinesis-liststreams-api-openapi.yml
   format: yaml
   label: AWS Kinesis ListStreams API
   slug: kinesis-liststreams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-liststreams-api-openapi.yml
-- filename: kinesis-listtagsforresource-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis ListTagsForResource API
-  slug: kinesis-listtagsforresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-listtagsforresource-api-openapi.yml
-- filename: kinesis-listtagsforstream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis ListTagsForStream API
-  slug: kinesis-listtagsforstream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-listtagsforstream-api-openapi.yml
-- filename: kinesis-startedgeconfigurationupdate-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis StartEdgeConfigurationUpdate API
-  slug: kinesis-startedgeconfigurationupdate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-startedgeconfigurationupdate-api-openapi.yml
-- filename: kinesis-tagresource-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis TagResource API
-  slug: kinesis-tagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-tagresource-api-openapi.yml
-- filename: kinesis-tagstream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis TagStream API
-  slug: kinesis-tagstream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-tagstream-api-openapi.yml
-- filename: kinesis-untagresource-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UntagResource API
-  slug: kinesis-untagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-untagresource-api-openapi.yml
-- filename: kinesis-untagstream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UntagStream API
-  slug: kinesis-untagstream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-untagstream-api-openapi.yml
-- filename: kinesis-updatedataretention-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UpdateDataRetention API
-  slug: kinesis-updatedataretention-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-updatedataretention-api-openapi.yml
-- filename: kinesis-updateimagegenerationconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UpdateImageGenerationConfiguration API
-  slug: kinesis-updateimagegenerationconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-updateimagegenerationconfiguration-api-openapi.yml
-- filename: kinesis-updatemediastorageconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UpdateMediaStorageConfiguration API
-  slug: kinesis-updatemediastorageconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-updatemediastorageconfiguration-api-openapi.yml
-- filename: kinesis-updatenotificationconfiguration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UpdateNotificationConfiguration API
-  slug: kinesis-updatenotificationconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-updatenotificationconfiguration-api-openapi.yml
-- filename: kinesis-updatesignalingchannel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UpdateSignalingChannel API
-  slug: kinesis-updatesignalingchannel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-updatesignalingchannel-api-openapi.yml
-- filename: kinesis-updatestream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis UpdateStream API
-  slug: kinesis-updatestream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-updatestream-api-openapi.yml
 - filename: kinesis-x-amz-target-firehose-20150804-createdeliverystream-api-openapi.yml
   format: yaml
   label: 'AWS Kinesis #X Amz Target=Firehose 20150804.CreateDeliveryStream API'
@@ -597,6 +435,168 @@ api_specs:
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api-openapi.yml
+- filename: kinesis-create-signaling-channel-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Create Signaling Channel API
+  slug: kinesis-create-signaling-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-create-signaling-channel-api-openapi.yml
+- filename: kinesis-create-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Create Stream API
+  slug: kinesis-create-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-create-stream-api-openapi.yml
+- filename: kinesis-delete-signaling-channel-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Delete Signaling Channel API
+  slug: kinesis-delete-signaling-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-delete-signaling-channel-api-openapi.yml
+- filename: kinesis-delete-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Delete Stream API
+  slug: kinesis-delete-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-delete-stream-api-openapi.yml
+- filename: kinesis-describe-edge-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Edge Configuration API
+  slug: kinesis-describe-edge-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-edge-configuration-api-openapi.yml
+- filename: kinesis-describe-image-generation-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Image Generation Configuration API
+  slug: kinesis-describe-image-generation-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-image-generation-configuration-api-openapi.yml
+- filename: kinesis-describe-mapped-resource-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Mapped Resource Configuration API
+  slug: kinesis-describe-mapped-resource-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-mapped-resource-configuration-api-openapi.yml
+- filename: kinesis-describe-media-storage-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Media Storage Configuration API
+  slug: kinesis-describe-media-storage-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-media-storage-configuration-api-openapi.yml
+- filename: kinesis-describe-notification-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Notification Configuration API
+  slug: kinesis-describe-notification-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-notification-configuration-api-openapi.yml
+- filename: kinesis-describe-signaling-channel-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Signaling Channel API
+  slug: kinesis-describe-signaling-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-signaling-channel-api-openapi.yml
+- filename: kinesis-describe-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Describe Stream API
+  slug: kinesis-describe-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-stream-api-openapi.yml
+- filename: kinesis-get-data-endpoint-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Get Data Endpoint API
+  slug: kinesis-get-data-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-get-data-endpoint-api-openapi.yml
+- filename: kinesis-get-signaling-channel-endpoint-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Get Signaling Channel Endpoint API
+  slug: kinesis-get-signaling-channel-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-get-signaling-channel-endpoint-api-openapi.yml
+- filename: kinesis-list-signaling-channels-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis List Signaling Channels API
+  slug: kinesis-list-signaling-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-list-signaling-channels-api-openapi.yml
+- filename: kinesis-list-tags-for-resource-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis List Tags For Resource API
+  slug: kinesis-list-tags-for-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-list-tags-for-resource-api-openapi.yml
+- filename: kinesis-list-tags-for-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis List Tags For Stream API
+  slug: kinesis-list-tags-for-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-list-tags-for-stream-api-openapi.yml
+- filename: kinesis-start-edge-configuration-update-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Start Edge Configuration Update API
+  slug: kinesis-start-edge-configuration-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-start-edge-configuration-update-api-openapi.yml
+- filename: kinesis-tag-resource-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Tag Resource API
+  slug: kinesis-tag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-tag-resource-api-openapi.yml
+- filename: kinesis-tag-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Tag Stream API
+  slug: kinesis-tag-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-tag-stream-api-openapi.yml
+- filename: kinesis-untag-resource-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Untag Resource API
+  slug: kinesis-untag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-untag-resource-api-openapi.yml
+- filename: kinesis-untag-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Untag Stream API
+  slug: kinesis-untag-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-untag-stream-api-openapi.yml
+- filename: kinesis-update-data-retention-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Update Data Retention API
+  slug: kinesis-update-data-retention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-data-retention-api-openapi.yml
+- filename: kinesis-update-image-generation-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Update Image Generation Configuration API
+  slug: kinesis-update-image-generation-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-image-generation-configuration-api-openapi.yml
+- filename: kinesis-update-media-storage-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Update Media Storage Configuration API
+  slug: kinesis-update-media-storage-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-media-storage-configuration-api-openapi.yml
+- filename: kinesis-update-notification-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis update Notification Configuration API
+  slug: kinesis-update-notification-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-notification-configuration-api-openapi.yml
+- filename: kinesis-update-signaling-channel-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Update Signaling Channel API
+  slug: kinesis-update-signaling-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-signaling-channel-api-openapi.yml
+- filename: kinesis-update-stream-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Update Stream API
+  slug: kinesis-update-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

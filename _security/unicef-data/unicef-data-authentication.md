@@ -15,12 +15,6 @@ api_specs:
   slug: unicef-data-code-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-code-list-api-openapi.yml
-- filename: unicef-data-codelist-api-openapi.yml
-  format: yaml
-  label: UNICEF Data Codelist API
-  slug: unicef-data-codelist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-codelist-api-openapi.yml
 - filename: unicef-data-collectionprocess-api-openapi.yml
   format: yaml
   label: UNICEF Data CollectionProcess API
@@ -53,16 +47,10 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-dashboard-api-openapi.yml
 - filename: unicef-data-data-browser-api-openapi.yml
   format: yaml
-  label: UNICEF Data Data Browser API
+  label: UNICEF Data Browser API
   slug: unicef-data-data-browser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-data-browser-api-openapi.yml
-- filename: unicef-data-datasource-api-openapi.yml
-  format: yaml
-  label: UNICEF Data DataSource API
-  slug: unicef-data-datasource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-datasource-api-openapi.yml
 - filename: unicef-data-group-api-openapi.yml
   format: yaml
   label: UNICEF Data Group API
@@ -93,12 +81,6 @@ api_specs:
   slug: unicef-data-language-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-language-api-openapi.yml
-- filename: unicef-data-reference-datasets-api-openapi.yml
-  format: yaml
-  label: UNICEF Data Reference datasets API
-  slug: unicef-data-reference-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-reference-datasets-api-openapi.yml
 - filename: unicef-data-region-api-openapi.yml
   format: yaml
   label: UNICEF Data Region API
@@ -153,6 +135,18 @@ api_specs:
   slug: unicef-data-yearassignmentmethod-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-yearassignmentmethod-api-openapi.yml
+- filename: unicef-data-data-source-api-openapi.yml
+  format: yaml
+  label: UNICEF Data Data Source API
+  slug: unicef-data-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-data-source-api-openapi.yml
+- filename: unicef-data-reference-data-sets-api-openapi.yml
+  format: yaml
+  label: UNICEF Data Reference Data Sets API
+  slug: unicef-data-reference-data-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicef-data/refs/heads/main/openapi/unicef-data-reference-data-sets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

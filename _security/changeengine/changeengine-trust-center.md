@@ -22,7 +22,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Software-as-a-Service
-- HR Tech
+- Human Resources
 - Internal Communications
 - Employee Engagement
 - People Operations

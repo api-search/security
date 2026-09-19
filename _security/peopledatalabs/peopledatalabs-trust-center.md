@@ -48,18 +48,6 @@ api_specs:
   slug: peopledatalabs-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-subscription-api-openapi.yml
-- filename: peopledatalabs-preview-enrichment-api-openapi.yml
-  format: yaml
-  label: People Data Labs Preview Enrichment API
-  slug: peopledatalabs-preview-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-preview-enrichment-api-openapi.yml
-- filename: peopledatalabs-subject-request-api-openapi.yml
-  format: yaml
-  label: People Data Labs Subject Request API
-  slug: peopledatalabs-subject-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-subject-request-api-openapi.yml
 - filename: peopledatalabs-company-api-openapi.yml
   format: yaml
   label: People Data Labs Company API
@@ -84,6 +72,12 @@ api_specs:
   slug: peopledatalabs-person-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-person-api-openapi.yml
+- filename: peopledatalabs-job-title-api-openapi.yml
+  format: yaml
+  label: People Data Labs Job Title API
+  slug: peopledatalabs-job-title-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-job-title-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

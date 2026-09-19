@@ -15,6 +15,18 @@ api_specs:
   slug: azure-event-grid-publish-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-publish-api-openapi.yml
+- filename: azure-event-grid-operations-api-openapi.yml
+  format: yaml
+  label: Azure Event Grid Operations API
+  slug: microsoft-azure-event-grid-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-operations-api-openapi.yml
+- filename: azure-event-grid-topics-api-openapi.yml
+  format: yaml
+  label: Azure Event Grid Topics API
+  slug: microsoft-azure-event-grid-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-topics-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

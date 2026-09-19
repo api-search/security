@@ -24,8 +24,8 @@ tags:
 - Gym Management
 - Boutique Fitness
 - Class Scheduling
-- Bookings
-- Memberships
+- Booking
+- Membership
 - Leads
 - ABC Fitness
 - CDC Webhooks

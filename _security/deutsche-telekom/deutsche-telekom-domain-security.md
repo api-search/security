@@ -18,12 +18,6 @@ api_specs:
   slug: deutsche-telekom-apiroadmap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-apiroadmap-api-openapi.yml
-- filename: deutsche-telekom-apispecification-api-openapi.yml
-  format: yaml
-  label: Deutsche Telekom ApiSpecification API
-  slug: deutsche-telekom-apispecification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-apispecification-api-openapi.yml
 - filename: deutsche-telekom-apisubscription-api-openapi.yml
   format: yaml
   label: Deutsche Telekom ApiSubscription API
@@ -120,12 +114,6 @@ api_specs:
   slug: deutsche-telekom-eventsubscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-eventsubscription-api-openapi.yml
-- filename: deutsche-telekom-eventtype-api-openapi.yml
-  format: yaml
-  label: Deutsche Telekom EventType API
-  slug: deutsche-telekom-eventtype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-eventtype-api-openapi.yml
 - filename: deutsche-telekom-groups-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Groups API
@@ -228,6 +216,18 @@ api_specs:
   slug: deutsche-telekom-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-users-api-openapi.yml
+- filename: deutsche-telekom-api-specification-api-openapi.yml
+  format: yaml
+  label: Deutsche Telekom API Specification API
+  slug: deutsche-telekom-api-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-api-specification-api-openapi.yml
+- filename: deutsche-telekom-event-type-api-openapi.yml
+  format: yaml
+  label: Deutsche Telekom Event Type API
+  slug: deutsche-telekom-event-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-event-type-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -281,7 +281,7 @@ tags:
 - Telco
 - Mobile Network Operator
 - CPaaS
-- Network API
+- Network APIs
 - 5G
 - Cloud
 - Identity

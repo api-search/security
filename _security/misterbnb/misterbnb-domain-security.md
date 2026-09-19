@@ -35,7 +35,7 @@ tags:
 - Travel
 - Accommodation
 - Booking
-- Vacation Rental
+- Vacation Rentals
 - Marketplace
 - LGBTQ
 - Hospitality

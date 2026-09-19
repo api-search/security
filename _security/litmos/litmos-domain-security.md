@@ -43,5 +43,5 @@ tags:
 - Course Management
 - User Enrollment
 - Compliance
-- Assessments
+- Assessment
 ---

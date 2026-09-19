@@ -38,12 +38,6 @@ api_specs:
   slug: lorum-internal-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-internal-transfers-api-openapi.yml
-- filename: lorum-oauth-api-openapi.yml
-  format: yaml
-  label: Lorum Oauth API
-  slug: lorum-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-oauth-api-openapi.yml
 - filename: lorum-payments-api-openapi.yml
   format: yaml
   label: Lorum Payments API
@@ -62,6 +56,12 @@ api_specs:
   slug: lorum-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-transactions-api-openapi.yml
+- filename: lorum-oauth-api-openapi.yml
+  format: yaml
+  label: Lorum OAUTH API
+  slug: lorum-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/openapi/lorum-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - http

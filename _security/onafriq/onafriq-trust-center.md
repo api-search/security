@@ -21,7 +21,7 @@ summary_line: ISO 27001, PCI DSS
 tags:
 - Payments
 - Mobile Money
-- Remittance
+- Remittances
 - Cross-Border Payments
 - Disbursements
 - Payouts

@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-resource-groups-api-openapi.yml
 - filename: vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
   format: yaml
-  label: VMware Tanzu Tanzu Kubernetes Clusters API
+  label: VMware Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml

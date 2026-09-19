@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cormint/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- Data Centers
+- Data-Center
 - Power Infrastructure
 - Energy
 - Bitcoin Mining

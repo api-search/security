@@ -606,7 +606,7 @@ tags:
 - Missions
 - loot
 - REST API
-- Public API
+- Public APIs
 - No Auth
 - Read Only
 - Free API

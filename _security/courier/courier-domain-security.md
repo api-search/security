@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-bulk-api-openapi.yml
 - filename: courier-courier-create-api-openapi.yml
   format: yaml
-  label: Courier Courier Create API
+  label: Courier Create API
   slug: courier-courier-create-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-courier-create-api-openapi.yml

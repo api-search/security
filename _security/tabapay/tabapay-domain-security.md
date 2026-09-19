@@ -78,12 +78,6 @@ api_specs:
   slug: tabapay-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transaction-api-openapi.yml
-- filename: tabapay-transactionrequest-api-openapi.yml
-  format: yaml
-  label: TabaPay TransactionRequest API
-  slug: tabapay-transactionrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transactionrequest-api-openapi.yml
 - filename: tabapay-user-api-openapi.yml
   format: yaml
   label: TabaPay User API
@@ -96,6 +90,12 @@ api_specs:
   slug: tabapay-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-verification-api-openapi.yml
+- filename: tabapay-transaction-request-api-openapi.yml
+  format: yaml
+  label: TabaPay Transaction Request API
+  slug: tabapay-transaction-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/openapi/tabapay-transaction-request-api-openapi.yml
 description: ''
 domains:
 - caa: []

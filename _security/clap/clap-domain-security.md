@@ -35,7 +35,7 @@ tags:
 - Human Resources
 - Performance Management
 - Software-as-a-Service
-- OKR
+- OKRs
 - Employee Feedback
 - Artificial Intelligence
 - South Korea

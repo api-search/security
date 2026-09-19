@@ -51,12 +51,6 @@ api_specs:
   slug: bridge-mls-openhouse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-openhouse-api-openapi.yml
-- filename: bridge-mls-openhouses-api-openapi.yml
-  format: yaml
-  label: Bridge OpenHouses API
-  slug: bridge-mls-openhouses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-openhouses-api-openapi.yml
 - filename: bridge-mls-property-api-openapi.yml
   format: yaml
   label: Bridge Property API
@@ -69,6 +63,12 @@ api_specs:
   slug: bridge-mls-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-webhooks-api-openapi.yml
+- filename: bridge-mls-open-houses-api-openapi.yml
+  format: yaml
+  label: Bridge Open Houses API
+  slug: bridge-mls-open-houses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/openapi/bridge-mls-open-houses-api-openapi.yml
 auth_types:
 - apiKey
 - http

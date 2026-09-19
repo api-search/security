@@ -34,7 +34,7 @@ tags:
 - Company
 - Fintech
 - Payments
-- Remittance
+- Remittances
 - Digital Commerce
 - Emerging Markets
 - Philippines

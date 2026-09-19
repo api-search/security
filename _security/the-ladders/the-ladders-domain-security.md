@@ -44,5 +44,5 @@ tags:
 - Job Search
 - Executive Jobs
 - Employment
-- HR Tech
+- Human Resources
 ---

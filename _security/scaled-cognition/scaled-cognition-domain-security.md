@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence
 - Agents
-- Large Language Models
+- LLM
 - Customer Experience
 - Contact Center
 - Conversational AI

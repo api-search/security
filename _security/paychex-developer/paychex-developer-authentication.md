@@ -56,7 +56,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Benefits
 - HCM
-- HR
+- Human Resources
 - Paychex Flex
 - Payroll
 - Time and Attendance

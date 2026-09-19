@@ -26,25 +26,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-groups-api-openapi.yml
 - filename: elemental-machines-machines-api-openapi.yml
   format: yaml
-  label: Elemental Machines Machines API
+  label: Elemental Machines API
   slug: elemental-machines-machines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-api-openapi.yml
 - filename: elemental-machines-machines-sample-stats-api-openapi.yml
   format: yaml
-  label: Elemental Machines Machines Sample Stats API
+  label: Elemental Machines Sample Stats API
   slug: elemental-machines-machines-sample-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-sample-stats-api-openapi.yml
 - filename: elemental-machines-machines-samples-api-openapi.yml
   format: yaml
-  label: Elemental Machines Machines Samples API
+  label: Elemental Machines Samples API
   slug: elemental-machines-machines-samples-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-samples-api-openapi.yml
 - filename: elemental-machines-machines-usage-api-openapi.yml
   format: yaml
-  label: Elemental Machines Machines Usage API
+  label: Elemental Machines Usage API
   slug: elemental-machines-machines-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-usage-api-openapi.yml

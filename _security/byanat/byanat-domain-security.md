@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Telecommunications
-- Data Centers
+- Data-Center
 - Infrastructure
 - Network Management
 - Automation

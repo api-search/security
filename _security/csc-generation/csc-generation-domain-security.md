@@ -61,7 +61,7 @@ tags:
 - Company
 - Retail
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Artificial Intelligence
 - Universal Commerce Protocol
 - MCP

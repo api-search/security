@@ -12,12 +12,12 @@ api_specs:
   slug: nasa-earthdata-coverage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-coverage-api-openapi.yml
-- filename: nasa-earthdata-openapi-api-openapi.yml
+- filename: nasa-earthdata-open-api-api-openapi.yml
   format: yaml
-  label: NASA Earthdata OpenAPI API
-  slug: nasa-earthdata-openapi-api
+  label: NASA Earthdata Open API
+  slug: nasa-earthdata-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-openapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-open-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

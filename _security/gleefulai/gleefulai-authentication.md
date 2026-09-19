@@ -62,12 +62,6 @@ api_specs:
   slug: gleefulai-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-health-api-openapi.yml
-- filename: gleefulai-llms-api-openapi.yml
-  format: yaml
-  label: Gleeful AI Llms API
-  slug: gleefulai-llms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-llms-api-openapi.yml
 - filename: gleefulai-meta-api-openapi.yml
   format: yaml
   label: Gleeful AI Meta API
@@ -104,6 +98,12 @@ api_specs:
   slug: gleefulai-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-status-api-openapi.yml
+- filename: gleefulai-llms-api-openapi.yml
+  format: yaml
+  label: Gleeful AI Llms API
+  slug: gleefulai-llms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-llms-api-openapi.yml
 auth_types: []
 description: 'No API keys. Access is priced per call and settled with x402 micropayments — an unauthenticated request returns HTTP 402 with a Payment-Required header carrying a base64 x402 v2 challenge, and the caller pays USDC on Base to proceed. This is a keyless, agent-native access model: an agent can discover the price and pay without a human ever creating an account.'
 kind: authentication
@@ -143,7 +143,7 @@ tags:
 - Micropayments
 - SEO
 - Audit
-- Website
+- Websites
 - Content
 - Crawlers
 - Monetization

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: workera-api-openapi.json
-  format: json
-  label: Workera API
-  slug: workera-api
+- filename: workera-audit-events-api-openapi.yml
+  format: yaml
+  label: Workera Audit Events API
+  slug: workera-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-audit-events-api-openapi.yml
+- filename: workera-benchmarks-api-openapi.yml
+  format: yaml
+  label: Workera Benchmarks API
+  slug: workera-benchmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-benchmarks-api-openapi.yml
+- filename: workera-capability-api-openapi.yml
+  format: yaml
+  label: Workera Capability API
+  slug: workera-capability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-capability-api-openapi.yml
+- filename: workera-domains-api-openapi.yml
+  format: yaml
+  label: Workera Domains API
+  slug: workera-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-domains-api-openapi.yml
+- filename: workera-ping-api-openapi.yml
+  format: yaml
+  label: Workera Ping API
+  slug: workera-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-ping-api-openapi.yml
+- filename: workera-programs-api-openapi.yml
+  format: yaml
+  label: Workera Programs API
+  slug: workera-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-programs-api-openapi.yml
+- filename: workera-scores-api-openapi.yml
+  format: yaml
+  label: Workera Scores API
+  slug: workera-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-scores-api-openapi.yml
+- filename: workera-self-ratings-api-openapi.yml
+  format: yaml
+  label: Workera Self Ratings API
+  slug: workera-self-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-self-ratings-api-openapi.yml
 description: ''
 domains:
 - caa:

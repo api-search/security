@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Food
 - Ingredients
-- Parsers
+- Parser
 - Recipes
 - USDA
 ---

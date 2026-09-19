@@ -44,5 +44,5 @@ tags:
 - AI Copilot
 - Knowledge-Management
 - Workflow-Automation
-- Large Language Models
+- LLM
 ---

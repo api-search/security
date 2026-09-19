@@ -1,137 +1,23 @@
 ---
 api_specs:
-- filename: precisely-apis-address-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Address API
-  slug: precisely-apis-address-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-address-api-openapi.yml
-- filename: precisely-apis-address-verification-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Address  Verification  Service API
-  slug: precisely-apis-address-verification-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-address-verification-service-api-openapi.yml
 - filename: precisely-apis-addresses-api-openapi.yml
   format: yaml
   label: Precisely APIs Addresses API
   slug: precisely-apis-addresses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-addresses-api-openapi.yml
-- filename: precisely-apis-addresses-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Addresses  Service. API
-  slug: precisely-apis-addresses-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-addresses-service-api-openapi.yml
-- filename: precisely-apis-advanced-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Advanced API
-  slug: precisely-apis-advanced-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-advanced-api-openapi.yml
 - filename: precisely-apis-ahj-api-openapi.yml
   format: yaml
   label: Precisely APIs Ahj API
   slug: precisely-apis-ahj-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-ahj-api-openapi.yml
-- filename: precisely-apis-attributes-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Attributes API
-  slug: precisely-apis-attributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-attributes-api-openapi.yml
-- filename: precisely-apis-autocomplete-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Autocomplete API
-  slug: precisely-apis-autocomplete-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-autocomplete-api-openapi.yml
-- filename: precisely-apis-basic-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Basic API
-  slug: precisely-apis-basic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-basic-api-openapi.yml
-- filename: precisely-apis-bundles-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Bundles API
-  slug: precisely-apis-bundles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-bundles-api-openapi.yml
-- filename: precisely-apis-byaddress-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byaddress API
-  slug: precisely-apis-byaddress-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byaddress-api-openapi.yml
-- filename: precisely-apis-byarea-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byarea API
-  slug: precisely-apis-byarea-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byarea-api-openapi.yml
-- filename: precisely-apis-byboundary-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byboundary API
-  slug: precisely-apis-byboundary-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byboundary-api-openapi.yml
-- filename: precisely-apis-byboundaryids-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byboundaryids API
-  slug: precisely-apis-byboundaryids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byboundaryids-api-openapi.yml
-- filename: precisely-apis-byboundaryname-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byboundaryname API
-  slug: precisely-apis-byboundaryname-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byboundaryname-api-openapi.yml
-- filename: precisely-apis-bydistance-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Bydistance API
-  slug: precisely-apis-bydistance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-bydistance-api-openapi.yml
-- filename: precisely-apis-byfccid-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byfccid API
-  slug: precisely-apis-byfccid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byfccid-api-openapi.yml
-- filename: precisely-apis-bylocation-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Bylocation API
-  slug: precisely-apis-bylocation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-bylocation-api-openapi.yml
-- filename: precisely-apis-byprecisely-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Byprecisely API
-  slug: precisely-apis-byprecisely-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-byprecisely-api-openapi.yml
-- filename: precisely-apis-categories-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Categories API
-  slug: precisely-apis-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-categories-api-openapi.yml
 - filename: precisely-apis-crime-api-openapi.yml
   format: yaml
   label: Precisely APIs Crime API
   slug: precisely-apis-crime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-crime-api-openapi.yml
-- filename: precisely-apis-demographics-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Demographics  Service API
-  slug: precisely-apis-demographics-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-demographics-service-api-openapi.yml
 - filename: precisely-apis-earthquake-api-openapi.yml
   format: yaml
   label: Precisely APIs Earthquake API
@@ -144,12 +30,6 @@ api_specs:
   slug: precisely-apis-earthquakehistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-earthquakehistory-api-openapi.yml
-- filename: precisely-apis-email-verification-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Email  Verification  Service API
-  slug: precisely-apis-email-verification-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-email-verification-service-api-openapi.yml
 - filename: precisely-apis-fire-api-openapi.yml
   format: yaml
   label: Precisely APIs Fire API
@@ -180,24 +60,12 @@ api_specs:
   slug: precisely-apis-geocode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-geocode-api-openapi.yml
-- filename: precisely-apis-geocode-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Geocode  Service API
-  slug: precisely-apis-geocode-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-geocode-service-api-openapi.yml
 - filename: precisely-apis-geolocation-api-openapi.yml
   format: yaml
   label: Precisely APIs Geolocation API
   slug: precisely-apis-geolocation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-geolocation-api-openapi.yml
-- filename: precisely-apis-geolocation-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Geolocation  Service API
-  slug: precisely-apis-geolocation-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-geolocation-service-api-openapi.yml
 - filename: precisely-apis-getcitystateprovince-api-openapi.yml
   format: yaml
   label: Precisely APIs Getcitystateprovince API
@@ -216,54 +84,12 @@ api_specs:
   slug: precisely-apis-intersection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-intersection-api-openapi.yml
-- filename: precisely-apis-key-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Key API
-  slug: precisely-apis-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-key-api-openapi.yml
-- filename: precisely-apis-local-tax-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Local  Tax  Service API
-  slug: precisely-apis-local-tax-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-local-tax-service-api-openapi.yml
-- filename: precisely-apis-location-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Location API
-  slug: precisely-apis-location-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-location-api-openapi.yml
 - filename: precisely-apis-locations-api-openapi.yml
   format: yaml
   label: Precisely APIs Locations API
   slug: precisely-apis-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-locations-api-openapi.yml
-- filename: precisely-apis-metadata-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Metadata API
-  slug: precisely-apis-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-metadata-api-openapi.yml
-- filename: precisely-apis-neighborhoods-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Neighborhoods  Service. API
-  slug: precisely-apis-neighborhoods-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-neighborhoods-service-api-openapi.yml
-- filename: precisely-apis-p-s-a-p-911-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs P S A P/911  Service API
-  slug: precisely-apis-p-s-a-p-911-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-p-s-a-p-911-service-api-openapi.yml
-- filename: precisely-apis-phone-verification-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Phone  Verification  Service API
-  slug: precisely-apis-phone-verification-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-phone-verification-service-api-openapi.yml
 - filename: precisely-apis-place-api-openapi.yml
   format: yaml
   label: Precisely APIs Place API
@@ -276,24 +102,12 @@ api_specs:
   slug: precisely-apis-places-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-places-api-openapi.yml
-- filename: precisely-apis-places-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Places  Service. API
-  slug: precisely-apis-places-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-places-service-api-openapi.yml
 - filename: precisely-apis-properties-api-openapi.yml
   format: yaml
   label: Precisely APIs Properties API
   slug: precisely-apis-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-properties-api-openapi.yml
-- filename: precisely-apis-property-information-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Property  Information  Service API
-  slug: precisely-apis-property-information-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-property-information-service-api-openapi.yml
 - filename: precisely-apis-psap-api-openapi.yml
   format: yaml
   label: Precisely APIs Psap API
@@ -306,54 +120,18 @@ api_specs:
   slug: precisely-apis-ratecenter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-ratecenter-api-openapi.yml
-- filename: precisely-apis-rates-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Rates API
-  slug: precisely-apis-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-rates-api-openapi.yml
-- filename: precisely-apis-reverse-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Reverse API
-  slug: precisely-apis-reverse-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-reverse-api-openapi.yml
-- filename: precisely-apis-risks-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Risks  Service API
-  slug: precisely-apis-risks-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-risks-service-api-openapi.yml
-- filename: precisely-apis-route-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Route API
-  slug: precisely-apis-route-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-route-api-openapi.yml
 - filename: precisely-apis-routing-api-openapi.yml
   format: yaml
   label: Precisely APIs Routing API
   slug: precisely-apis-routing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-routing-api-openapi.yml
-- filename: precisely-apis-routing-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Routing  Service API
-  slug: precisely-apis-routing-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-routing-service-api-openapi.yml
 - filename: precisely-apis-school-api-openapi.yml
   format: yaml
   label: Precisely APIs School API
   slug: precisely-apis-school-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-school-api-openapi.yml
-- filename: precisely-apis-schools-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Schools  Service API
-  slug: precisely-apis-schools-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-schools-service-api-openapi.yml
 - filename: precisely-apis-segmentation-api-openapi.yml
   format: yaml
   label: Precisely APIs Segmentation API
@@ -372,24 +150,12 @@ api_specs:
   slug: precisely-apis-shoreline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-shoreline-api-openapi.yml
-- filename: precisely-apis-sic-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Sic API
-  slug: precisely-apis-sic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-sic-api-openapi.yml
 - filename: precisely-apis-speedlimit-api-openapi.yml
   format: yaml
   label: Precisely APIs Speedlimit API
   slug: precisely-apis-speedlimit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-speedlimit-api-openapi.yml
-- filename: precisely-apis-streets-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Streets  Service API
-  slug: precisely-apis-streets-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-streets-service-api-openapi.yml
 - filename: precisely-apis-tax-api-openapi.yml
   format: yaml
   label: Precisely APIs Tax API
@@ -402,42 +168,12 @@ api_specs:
   slug: precisely-apis-taxdistrict-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-taxdistrict-api-openapi.yml
-- filename: precisely-apis-taxes-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Taxes API
-  slug: precisely-apis-taxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-taxes-api-openapi.yml
-- filename: precisely-apis-taxrate-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Taxrate API
-  slug: precisely-apis-taxrate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-taxrate-api-openapi.yml
-- filename: precisely-apis-telecomm-info-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Telecomm  Info  Service API
-  slug: precisely-apis-telecomm-info-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-telecomm-info-service-api-openapi.yml
-- filename: precisely-apis-time-zone-service-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Time  Zone  Service API
-  slug: precisely-apis-time-zone-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-time-zone-service-api-openapi.yml
 - filename: precisely-apis-timezone-api-openapi.yml
   format: yaml
   label: Precisely APIs Timezone API
   slug: precisely-apis-timezone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-timezone-api-openapi.yml
-- filename: precisely-apis-type-api-openapi.yml
-  format: yaml
-  label: Precisely APIs Type API
-  slug: precisely-apis-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-type-api-openapi.yml
 - filename: precisely-apis-validateemailaddress-api-openapi.yml
   format: yaml
   label: Precisely APIs Validateemailaddress API
@@ -480,12 +216,12 @@ api_specs:
   slug: precisely-apis-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-zones-api-openapi.yml
-- filename: precisely-apis-zones-service-api-openapi.yml
+- filename: precisely-apis-tax-rate-api-openapi.yml
   format: yaml
-  label: Precisely APIs Zones  Service API
-  slug: precisely-apis-zones-service-api
+  label: Precisely APIs Tax Rate API
+  slug: precisely-apis-tax-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-zones-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/openapi/precisely-apis-tax-rate-api-openapi.yml
 description: ''
 domains:
 - caa: []

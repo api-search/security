@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-model-api-openapi.yml
 - filename: rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
   format: yaml
-  label: Rasa Rasa SDK Action Server Endpoint API
+  label: Rasa SDK Action Server Endpoint API
   slug: rasa-rasa-sdk-action-server-endpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
@@ -72,7 +72,7 @@ tags:
 - Artificial Intelligence
 - Conversational AI
 - Chatbots
-- Voice Assistants
+- Voice Assistant
 - NLU
 - LLM
 - Machine-Learning

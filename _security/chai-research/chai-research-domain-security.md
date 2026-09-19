@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Conversational AI
 - Chatbots
 - Consumer Applications

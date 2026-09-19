@@ -54,7 +54,7 @@ tags:
 - Electric Bikes
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - Universal Commerce Protocol
 ---

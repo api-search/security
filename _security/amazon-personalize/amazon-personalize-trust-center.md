@@ -32,7 +32,6 @@ tags:
 - Artificial Intelligence
 - Customer Experience
 - Machine-Learning
-- ML
 - Personalization
 - Recommendations
 trust_url: https://aws.amazon.com/compliance/

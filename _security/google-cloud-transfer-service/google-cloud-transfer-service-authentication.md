@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-transfer-service-agentpools-api-openapi.yml
-  format: yaml
-  label: Google Cloud Transfer Service AgentPools API
-  slug: google-cloud-transfer-service-agentpools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-agentpools-api-openapi.yml
 - filename: google-cloud-transfer-service-transferjobs-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service TransferJobs API
@@ -20,6 +14,12 @@ api_specs:
   slug: google-cloud-transfer-service-transferoperations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
+- filename: google-cloud-transfer-service-agent-pools-api-openapi.yml
+  format: yaml
+  label: Google Cloud Transfer Service Agent Pools API
+  slug: google-cloud-transfer-service-agent-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

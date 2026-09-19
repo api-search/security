@@ -9,54 +9,54 @@ api_specs:
   slug: microsoft-bing-autosuggest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-autosuggest-api-openapi.yml
-- filename: microsoft-bing-customsearch-api-openapi.yml
+- filename: microsoft-bing-custom-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing CustomSearch API
-  slug: microsoft-bing-customsearch-api
+  label: Microsoft Bing Custom Search API
+  slug: microsoft-bing-custom-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-customsearch-api-openapi.yml
-- filename: microsoft-bing-entitysearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-custom-search-api-openapi.yml
+- filename: microsoft-bing-entity-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing EntitySearch API
-  slug: microsoft-bing-entitysearch-api
+  label: Microsoft Bing Entity Search API
+  slug: microsoft-bing-entity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-entitysearch-api-openapi.yml
-- filename: microsoft-bing-imagesearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-entity-search-api-openapi.yml
+- filename: microsoft-bing-image-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing ImageSearch API
-  slug: microsoft-bing-imagesearch-api
+  label: Microsoft Bing Image Search API
+  slug: microsoft-bing-image-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-imagesearch-api-openapi.yml
-- filename: microsoft-bing-newssearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-image-search-api-openapi.yml
+- filename: microsoft-bing-news-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing NewsSearch API
-  slug: microsoft-bing-newssearch-api
+  label: Microsoft Bing News Search API
+  slug: microsoft-bing-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-newssearch-api-openapi.yml
-- filename: microsoft-bing-spellcheck-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-news-search-api-openapi.yml
+- filename: microsoft-bing-spell-check-api-openapi.yml
   format: yaml
-  label: Microsoft Bing SpellCheck API
-  slug: microsoft-bing-spellcheck-api
+  label: Microsoft Bing Spell Check API
+  slug: microsoft-bing-spell-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-spellcheck-api-openapi.yml
-- filename: microsoft-bing-videosearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-spell-check-api-openapi.yml
+- filename: microsoft-bing-video-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing VideoSearch API
-  slug: microsoft-bing-videosearch-api
+  label: Microsoft Bing Video Search API
+  slug: microsoft-bing-video-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-videosearch-api-openapi.yml
-- filename: microsoft-bing-visualsearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-video-search-api-openapi.yml
+- filename: microsoft-bing-visual-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing VisualSearch API
-  slug: microsoft-bing-visualsearch-api
+  label: Microsoft Bing Visual search API
+  slug: microsoft-bing-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-visualsearch-api-openapi.yml
-- filename: microsoft-bing-websearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-visual-search-api-openapi.yml
+- filename: microsoft-bing-web-search-api-openapi.yml
   format: yaml
-  label: Microsoft Bing WebSearch API
-  slug: microsoft-bing-websearch-api
+  label: Microsoft Bing Web Search API
+  slug: microsoft-bing-web-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-websearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-web-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -89,7 +89,7 @@ tags:
 - Search
 - Web Search
 - Image
-- Videos
+- Video
 - News
 - Azure AI
 - Autosuggest

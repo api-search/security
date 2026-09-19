@@ -47,4 +47,5 @@ tags:
 - DevSecOps
 - SBOM
 - AI Security
+- Developer Tools
 ---

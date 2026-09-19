@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-to-do-checklistitems-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do ChecklistItems API
-  slug: microsoft-to-do-checklistitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-checklistitems-api-openapi.yml
 - filename: microsoft-to-do-linkedresources-api-openapi.yml
   format: yaml
   label: Microsoft to Do LinkedResources API
@@ -24,6 +18,12 @@ api_specs:
   slug: microsoft-to-do-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-tasks-api-openapi.yml
+- filename: microsoft-to-do-checklist-items-api-openapi.yml
+  format: yaml
+  label: Microsoft to Do Checklist Items API
+  slug: microsoft-to-do-checklist-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/openapi/microsoft-to-do-checklist-items-api-openapi.yml
 description: ''
 domains:
 - caa:

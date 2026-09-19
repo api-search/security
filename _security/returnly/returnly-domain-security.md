@@ -34,7 +34,7 @@ tags:
 - Fintech
 - E-Commerce
 - Returns
-- Exchanges
+- Exchange
 - Payments
 - Acquired
 ---

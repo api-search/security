@@ -46,7 +46,6 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Telemedicine
 - Telehealth
 - Primary Care
 - Mental Health

@@ -12,12 +12,6 @@ api_specs:
   slug: automation-anywhere-allocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-allocations-api-openapi.yml
-- filename: automation-anywhere-attributevalues-api-openapi.yml
-  format: yaml
-  label: automation-anywhere AttributeValues API
-  slug: automation-anywhere-attributevalues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-attributevalues-api-openapi.yml
 - filename: automation-anywhere-auditdata-api-openapi.yml
   format: yaml
   label: automation-anywhere AuditData API
@@ -96,12 +90,6 @@ api_specs:
   slug: automation-anywhere-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-roles-api-openapi.yml
-- filename: automation-anywhere-taskdata-api-openapi.yml
-  format: yaml
-  label: automation-anywhere TaskData API
-  slug: automation-anywhere-taskdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-taskdata-api-openapi.yml
 - filename: automation-anywhere-users-api-openapi.yml
   format: yaml
   label: automation-anywhere Users API
@@ -114,18 +102,30 @@ api_specs:
   slug: automation-anywhere-workitemmodels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workitemmodels-api-openapi.yml
-- filename: automation-anywhere-workitems-api-openapi.yml
-  format: yaml
-  label: automation-anywhere WorkItems API
-  slug: automation-anywhere-workitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workitems-api-openapi.yml
 - filename: automation-anywhere-workspaces-api-openapi.yml
   format: yaml
   label: automation-anywhere Workspaces API
   slug: automation-anywhere-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workspaces-api-openapi.yml
+- filename: automation-anywhere-attribute-values-api-openapi.yml
+  format: yaml
+  label: Automation Anywhere Attribute Values API
+  slug: automation-anywhere-attribute-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-attribute-values-api-openapi.yml
+- filename: automation-anywhere-task-data-api-openapi.yml
+  format: yaml
+  label: Automation Anywhere Task Data API
+  slug: automation-anywhere-task-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-task-data-api-openapi.yml
+- filename: automation-anywhere-work-items-api-openapi.yml
+  format: yaml
+  label: Automation Anywhere Work Items API
+  slug: automation-anywhere-work-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-work-items-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -140,7 +140,7 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  1 06:15:14 2026 GMT
+- cert_expires: Nov 23 15:02:38 2026 GMT
   host: www.automationanywhere.com
   hsts: true
   hsts_max_age: 31536000
@@ -165,8 +165,18 @@ slug: automation-anywhere-domain-security
 source_filename: automation-anywhere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 01:35:48 2027 GMT\n  hsts: false\n- host: www.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 06:15:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 00:01:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: automationanywhere.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 01:35:48 2027 GMT\n  hsts: false\n- host: www.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 15:02:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.automationanywhere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 00:01:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: automationanywhere.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/security/automation-anywhere-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
-tags: []
+tags:
+- RPA
+- Robotic Process Automation
+- Intelligent Automation
+- Agentic Process Automation
+- AI Agents
+- Workflow-Automation
+- Document Automation
+- Process Orchestration
+- Enterprise Automation
+- Bots
 ---

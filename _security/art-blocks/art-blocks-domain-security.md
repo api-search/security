@@ -12,12 +12,6 @@ api_specs:
   slug: art-blocks-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-media-api-openapi.yml
-- filename: art-blocks-token-metadata-api-openapi.yml
-  format: yaml
-  label: Art Blocks Token Metadata API
-  slug: art-blocks-token-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/openapi/art-blocks-token-metadata-api-openapi.yml
 description: ''
 domains:
 - caa: []

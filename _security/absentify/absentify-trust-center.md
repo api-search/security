@@ -63,9 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absentify/refs
 summary_line: ISO 27001, GDPR
 tags:
 - Absence Management
-- HR
+- Human Resources
 - Leave Management
 - Microsoft Teams
-- Human Resources
 trust_url: https://absentify.com/security
 ---

@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openrouter/ref
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Gateway
-- Large Language Models
+- Gateways
+- LLM
 - Router
 ---

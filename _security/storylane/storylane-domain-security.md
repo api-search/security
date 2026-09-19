@@ -61,7 +61,7 @@ tags:
 - MCP
 - Agent Tools
 - Webhook
-- Embeds
+- Embed
 - oEmbed
 - Demo Automation Platform
 ---

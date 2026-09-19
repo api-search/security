@@ -73,7 +73,7 @@ tags:
 - Scheduling
 - Patients
 - Clinics
-- Bookings
+- Booking
 - Physiotherapy
 - Software-as-a-Service
 ---

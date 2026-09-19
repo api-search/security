@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Native Advertising
 - Programmatic Advertising
-- SSP
+- Supply Side Platform
 - DSP
 - OpenRTB
 - Ad Exchange

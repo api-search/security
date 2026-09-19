@@ -75,7 +75,7 @@ summary_line: SOC 2
 tags:
 - Artificial Intelligence
 - Multi-Modal
-- Large Language Models
+- LLM
 - Vision
 - Speech
 - Foundation Models

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Coding Assistant
-- AI Agent
+- AI Agents
 - Autonomous Agents
 - Code Completion
 - Code Generation
@@ -48,7 +48,7 @@ tags:
 - VS Code
 - JetBrains
 - Self-Hosting
-- On-Premise
+- On-Premises
 - Open-Source
 - LSP
 - MCP

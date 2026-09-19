@@ -45,4 +45,5 @@ tags:
 - Security Posture Management
 - Threat Intelligence
 - Attack Surface Management
+- Defunct
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moleculer/refs
 summary_line: TLSv1.3 · HSTS
 tags:
 - Fault Tolerance
-- Frameworks
+- Framework
 - JavaScript
 - Load Balancing
 - Microservices

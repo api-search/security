@@ -35,7 +35,6 @@ tags:
 - Recruiting
 - ATS
 - Human Resources
-- HR Tech
 - Artificial Intelligence
 - Talent Acquisition
 - Software-as-a-Service

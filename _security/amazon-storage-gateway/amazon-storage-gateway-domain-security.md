@@ -2,7 +2,7 @@
 api_specs:
 - filename: amazon-storage-gateway-amazon-storage-gateway-rest-api-api-openapi.yml
   format: yaml
-  label: Amazon Storage Gateway Amazon Storage Gateway REST API API
+  label: Amazon Storage Gateway Amazon Storage Gateway REST API
   slug: amazon-storage-gateway-amazon-storage-gateway-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/openapi/amazon-storage-gateway-amazon-storage-gateway-rest-api-api-openapi.yml
@@ -612,7 +612,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backup
 - File Storage
-- Gateway
+- Gateways
 - Hybrid Cloud
 - Storage
 ---

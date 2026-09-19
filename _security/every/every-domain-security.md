@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Banking
 - Payroll
-- HR
+- Human Resources
 - Bookkeeping
 - Accounting
 - Tax

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-corp-i
 summary_line: TLSv1.3
 tags:
 - Fortune 1000
-- Deathcare
+- Death Care
 - Funeral Services
 - Cemeteries
 - Cremation

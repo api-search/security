@@ -87,7 +87,7 @@ tags:
 - Application
 - Collaboration
 - Data
-- Databases
+- Database
 - Low-Code
 - Productivity
 - Spreadsheets

@@ -74,7 +74,7 @@ tags:
 - United States
 - Prior Authorization
 - Utilization Management
-- Payer
+- Payers
 - FHIR
 - HL7
 - Da Vinci

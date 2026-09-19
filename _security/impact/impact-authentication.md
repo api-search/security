@@ -266,12 +266,6 @@ api_specs:
   slug: impact-report-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/openapi/impact-report-export-api-openapi.yml
-- filename: impact-reportexport-api-openapi.yml
-  format: yaml
-  label: Impact Report Export API
-  slug: impact-reportexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/openapi/impact-reportexport-api-openapi.yml
 - filename: impact-reports-api-openapi.yml
   format: yaml
   label: Impact Reports API
@@ -477,11 +471,11 @@ tags:
 - Affiliates
 - Partnerships
 - Performance Marketing
-- Commission
+- Commissions
 - Tracking
 - Creator Economy
 - Partner Management
-- Referral
+- Referrals
 - Attribution
 - Payouts
 - Marketing

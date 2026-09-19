@@ -116,60 +116,18 @@ api_specs:
   slug: agno-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-traces-api-openapi.yml
-- filename: agno-whatsapp-api-openapi.yml
-  format: yaml
-  label: Agno Whatsapp API
-  slug: agno-whatsapp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-whatsapp-api-openapi.yml
 - filename: agno-workflows-api-openapi.yml
   format: yaml
   label: Agno Workflows API
   slug: agno-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-workflows-api-openapi.yml
-- filename: agno-agi-agents-api-openapi.yml
+- filename: agno-whats-app-api-openapi.yml
   format: yaml
-  label: Agno Agents API
-  slug: agno-agi-agents-api
+  label: Agno Whats App API
+  slug: agno-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-agents-api-openapi.yml
-- filename: agno-agi-evals-api-openapi.yml
-  format: yaml
-  label: Agno Evals API
-  slug: agno-agi-evals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-evals-api-openapi.yml
-- filename: agno-agi-knowledge-api-openapi.yml
-  format: yaml
-  label: Agno Knowledge API
-  slug: agno-agi-knowledge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-knowledge-api-openapi.yml
-- filename: agno-agi-memory-api-openapi.yml
-  format: yaml
-  label: Agno Memory API
-  slug: agno-agi-memory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-memory-api-openapi.yml
-- filename: agno-agi-sessions-api-openapi.yml
-  format: yaml
-  label: Agno Sessions API
-  slug: agno-agi-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-sessions-api-openapi.yml
-- filename: agno-agi-teams-api-openapi.yml
-  format: yaml
-  label: Agno Teams API
-  slug: agno-agi-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-teams-api-openapi.yml
-- filename: agno-agi-workflows-api-openapi.yml
-  format: yaml
-  label: Agno Workflows API
-  slug: agno-agi-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agi-workflows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-whats-app-api-openapi.yml
 auth_types:
 - http
 description: ''

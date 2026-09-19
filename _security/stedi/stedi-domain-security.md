@@ -66,12 +66,6 @@ api_specs:
   slug: stedi-partnerships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-partnerships-api-openapi.yml
-- filename: stedi-payer-api-openapi.yml
-  format: yaml
-  label: Stedi Payer API
-  slug: stedi-payer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-payer-api-openapi.yml
 - filename: stedi-payers-api-openapi.yml
   format: yaml
   label: Stedi Payers API

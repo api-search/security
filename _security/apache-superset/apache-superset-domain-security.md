@@ -108,12 +108,6 @@ api_specs:
   slug: apache-superset-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-security-api-openapi.yml
-- filename: apache-superset-sqllab-api-openapi.yml
-  format: yaml
-  label: Apache Superset Sqllab API
-  slug: apache-superset-sqllab-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-sqllab-api-openapi.yml
 - filename: apache-superset-tag-api-openapi.yml
   format: yaml
   label: Apache Superset Tag API
@@ -126,6 +120,12 @@ api_specs:
   slug: apache-superset-theme-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-theme-api-openapi.yml
+- filename: apache-superset-sql-lab-api-openapi.yml
+  format: yaml
+  label: Apache Superset SQL Lab API
+  slug: apache-superset-sql-lab-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-sql-lab-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -163,8 +163,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-superse
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
-- BI
-- Dashboard
+- Business Intelligence
+- Dashboards
 - Data Visualization
 - SQL
 - Open-Source

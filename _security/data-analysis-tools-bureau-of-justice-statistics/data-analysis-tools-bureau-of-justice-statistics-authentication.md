@@ -9,12 +9,6 @@ api_specs:
   slug: data-analysis-tools-bureau-of-justice-statistics-ncvs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/openapi/data-analysis-tools-bureau-of-justice-statistics-ncvs-api-openapi.yml
-- filename: data-analysis-tools-bureau-of-justice-statistics-nibrs-api-openapi.yml
-  format: yaml
-  label: Bureau of Justice Statistics Data Analysis Tools NIBRS API
-  slug: data-analysis-tools-bureau-of-justice-statistics-nibrs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/openapi/data-analysis-tools-bureau-of-justice-statistics-nibrs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

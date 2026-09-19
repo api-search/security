@@ -6,12 +6,6 @@ api_specs:
   slug: asyncapi-spec
   spec_type: AsyncAPI
   url: https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md
-- filename: asyncapi-server-api-openapi.yml
-  format: yaml
-  label: AsyncAPI Server API
-  slug: asyncapi-server-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-server-api-openapi.yml
 - filename: asyncapi-bundle-api-openapi.yml
   format: yaml
   label: AsyncAPI Bundle API
@@ -54,6 +48,12 @@ api_specs:
   slug: asyncapi-validate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-validate-api-openapi.yml
+- filename: asyncapi-version-api-openapi.yml
+  format: yaml
+  label: AsyncAPI Version API
+  slug: asyncapi-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/openapi/asyncapi-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

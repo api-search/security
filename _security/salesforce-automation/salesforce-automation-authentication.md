@@ -170,12 +170,6 @@ api_specs:
   slug: salesforce-automation-sobject-tree-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-sobject-tree-api-openapi.yml
-- filename: salesforce-automation-sobjects-api-openapi.yml
-  format: yaml
-  label: Salesforce Automation SObjects API
-  slug: salesforce-automation-sobjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-sobjects-api-openapi.yml
 - filename: salesforce-automation-soql-api-openapi.yml
   format: yaml
   label: Salesforce Automation SOQL API
@@ -230,6 +224,12 @@ api_specs:
   slug: salesforce-automation-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-workflow-api-openapi.yml
+- filename: salesforce-automation-s-objects-api-openapi.yml
+  format: yaml
+  label: Salesforce Automation s Objects API
+  slug: salesforce-automation-s-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-automation-s-objects-api-openapi.yml
 auth_types:
 - http
 - oauth2

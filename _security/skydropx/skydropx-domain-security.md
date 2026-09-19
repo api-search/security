@@ -122,7 +122,7 @@ tags:
 - Latin America
 - Labels
 - Rates
-- Parcels
+- Parcel
 - Tracking
 - Fulfillment
 - Software-as-a-Service

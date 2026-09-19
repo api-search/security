@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-directories-api-openapi.yml
 - filename: azure-file-storage-files-api-openapi.yml
   format: yaml
-  label: Azure Files Files API
+  label: Azure Files API
   slug: azure-file-storage-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-files-api-openapi.yml
@@ -22,6 +22,12 @@ api_specs:
   format: yaml
   label: Azure Files Shares API
   slug: azure-file-storage-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+- filename: azure-file-storage-shares-api-openapi.yml
+  format: yaml
+  label: Azure File Storage Shares API
+  slug: microsoft-azure-file-storage-shares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
 description: ''

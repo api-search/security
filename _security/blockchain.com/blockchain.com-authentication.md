@@ -69,54 +69,54 @@ api_specs:
   slug: blockchaincom-websocket-apis
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/asyncapi/blockchain-com-asyncapi.yml
-- filename: blockchain-addresses-api-openapi.yml
+- filename: blockchain.com-addresses-api-openapi.yml
   format: yaml
   label: Blockchain.com Addresses API
-  slug: blockchain-addresses-api
+  slug: blockchain.com-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-addresses-api-openapi.yml
-- filename: blockchain-blocks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-addresses-api-openapi.yml
+- filename: blockchain.com-blocks-api-openapi.yml
   format: yaml
   label: Blockchain.com Blocks API
-  slug: blockchain-blocks-api
+  slug: blockchain.com-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-blocks-api-openapi.yml
-- filename: blockchain-charts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-blocks-api-openapi.yml
+- filename: blockchain.com-charts-api-openapi.yml
   format: yaml
   label: Blockchain.com Charts API
-  slug: blockchain-charts-api
+  slug: blockchain.com-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-charts-api-openapi.yml
-- filename: blockchain-market-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-charts-api-openapi.yml
+- filename: blockchain.com-market-data-api-openapi.yml
   format: yaml
   label: Blockchain.com Market Data API
-  slug: blockchain-market-data-api
+  slug: blockchain.com-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-market-data-api-openapi.yml
-- filename: blockchain-network-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-market-data-api-openapi.yml
+- filename: blockchain.com-network-api-openapi.yml
   format: yaml
   label: Blockchain.com Network API
-  slug: blockchain-network-api
+  slug: blockchain.com-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-network-api-openapi.yml
-- filename: blockchain-pools-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-network-api-openapi.yml
+- filename: blockchain.com-pools-api-openapi.yml
   format: yaml
   label: Blockchain.com Pools API
-  slug: blockchain-pools-api
+  slug: blockchain.com-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-pools-api-openapi.yml
-- filename: blockchain-stats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-pools-api-openapi.yml
+- filename: blockchain.com-stats-api-openapi.yml
   format: yaml
   label: Blockchain.com Stats API
-  slug: blockchain-stats-api
+  slug: blockchain.com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-stats-api-openapi.yml
-- filename: blockchain-transactions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-stats-api-openapi.yml
+- filename: blockchain.com-transactions-api-openapi.yml
   format: yaml
   label: Blockchain.com Transactions API
-  slug: blockchain-transactions-api
+  slug: blockchain.com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain-transactions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

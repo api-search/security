@@ -24,6 +24,48 @@ api_specs:
   slug: power-platform-licensing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-licensing-api-openapi.yml
+- filename: power-platform-metadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform Metadata API
+  slug: microsoft-power-platform-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-metadata-api-openapi.yml
+- filename: power-platform-records-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform Records API
+  slug: microsoft-power-platform-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-records-api-openapi.yml
+- filename: power-platform-accounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Accounts API
+  slug: power-platform-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-accounts-api-openapi.yml
+- filename: power-platform-enterprisepolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Enterprise Policies API
+  slug: power-platform-enterprisepolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-enterprisepolicies-api-openapi.yml
+- filename: power-platform-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Operations API
+  slug: power-platform-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-operations-api-openapi.yml
+- filename: power-platform-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Private Link Resources API
+  slug: power-platform-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-privatelinkresources-api-openapi.yml
+- filename: power-platform-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform APIs Private Endpoint Connections API
+  slug: power-platform-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-private-endpoint-connections-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -184,7 +184,7 @@ tags:
 - Infrastructure
 - DevOps
 - Web Services
-- Databases
+- Database
 - Hosting
 trust_url: https://render.com/security
 ---

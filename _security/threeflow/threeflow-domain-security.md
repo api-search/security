@@ -38,5 +38,5 @@ tags:
 - Benefits Placement
 - Insurance Technology
 - Brokers
-- Carriers
+- Carrier
 ---

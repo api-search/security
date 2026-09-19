@@ -24,12 +24,6 @@ api_specs:
   slug: restate-invocation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-invocation-api-openapi.yml
-- filename: restate-openapi-api-openapi.yml
-  format: yaml
-  label: Restate openapi API
-  slug: restate-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-openapi-api-openapi.yml
 - filename: restate-service-api-openapi.yml
   format: yaml
   label: Restate service API
@@ -54,6 +48,12 @@ api_specs:
   slug: restate-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-version-api-openapi.yml
+- filename: restate-open-api-api-openapi.yml
+  format: yaml
+  label: Restate Open API
+  slug: restate-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-open-api-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2

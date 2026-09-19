@@ -82,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-topology-api-openapi.yml
 - filename: forward-networks-networks-api-openapi.yml
   format: yaml
-  label: Forward Networks Networks API
+  label: Forward Networks API
   slug: forward-networks-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-networks-api-openapi.yml

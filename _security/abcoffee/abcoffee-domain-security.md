@@ -40,5 +40,5 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - India
-- Subscriptions
+- Subscription
 ---

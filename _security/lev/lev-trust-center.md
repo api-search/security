@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lender-directory-api-openapi.yml
 - filename: lev-lev-api-documentation-api-openapi.yml
   format: yaml
-  label: Lev Lev API Documentation API
+  label: Lev API Documentation API
   slug: lev-lev-api-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lev-api-documentation-api-openapi.yml

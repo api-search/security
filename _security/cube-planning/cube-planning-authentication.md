@@ -38,18 +38,6 @@ api_specs:
   slug: cube-planning-canvases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-canvases-api-openapi.yml
-- filename: cube-planning-chatmessages-api-openapi.yml
-  format: yaml
-  label: Cube Planning ChatMessages API
-  slug: cube-planning-chatmessages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-chatmessages-api-openapi.yml
-- filename: cube-planning-chatsessions-api-openapi.yml
-  format: yaml
-  label: Cube Planning ChatSessions API
-  slug: cube-planning-chatsessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-chatsessions-api-openapi.yml
 - filename: cube-planning-chatsettings-api-openapi.yml
   format: yaml
   label: Cube Planning ChatSettings API
@@ -86,12 +74,6 @@ api_specs:
   slug: cube-planning-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-connections-api-openapi.yml
-- filename: cube-planning-contenttype-api-openapi.yml
-  format: yaml
-  label: Cube Planning ContentType API
-  slug: cube-planning-contenttype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-contenttype-api-openapi.yml
 - filename: cube-planning-cube-api-openapi.yml
   format: yaml
   label: Cube Planning cube API
@@ -194,12 +176,6 @@ api_specs:
   slug: cube-planning-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-permissions-api-openapi.yml
-- filename: cube-planning-permissionsets-api-openapi.yml
-  format: yaml
-  label: Cube Planning permissionsets API
-  slug: cube-planning-permissionsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-permissionsets-api-openapi.yml
 - filename: cube-planning-planmodesessions-api-openapi.yml
   format: yaml
   label: Cube Planning PlanModeSessions API
@@ -208,7 +184,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-planmodesessions-api-openapi.yml
 - filename: cube-planning-planning-table-api-openapi.yml
   format: yaml
-  label: Cube Planning Planning Table API
+  label: Cube Planning Table API
   slug: cube-planning-planning-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-planning-table-api-openapi.yml
@@ -254,6 +230,30 @@ api_specs:
   slug: cube-planning-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-workflow-api-openapi.yml
+- filename: cube-planning-chat-messages-api-openapi.yml
+  format: yaml
+  label: Cube Planning Chat Messages API
+  slug: cube-planning-chat-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-chat-messages-api-openapi.yml
+- filename: cube-planning-chat-sessions-api-openapi.yml
+  format: yaml
+  label: Cube Planning Chat Sessions API
+  slug: cube-planning-chat-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-chat-sessions-api-openapi.yml
+- filename: cube-planning-content-type-api-openapi.yml
+  format: yaml
+  label: Cube Planning Content Type API
+  slug: cube-planning-content-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-content-type-api-openapi.yml
+- filename: cube-planning-permission-sets-api-openapi.yml
+  format: yaml
+  label: Cube Planning Permission Sets API
+  slug: cube-planning-permission-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/openapi/cube-planning-permission-sets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

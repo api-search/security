@@ -37,6 +37,6 @@ tags:
 - Cosmetics
 - K-Beauty
 - Skincare
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 ---

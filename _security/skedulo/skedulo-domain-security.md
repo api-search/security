@@ -102,12 +102,6 @@ api_specs:
   slug: skedulo-geoservices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-geoservices-api-openapi.yml
-- filename: skedulo-graphql-api-openapi.yml
-  format: yaml
-  label: Skedulo Graphql API
-  slug: skedulo-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-graphql-api-openapi.yml
 - filename: skedulo-grid-api-openapi.yml
   format: yaml
   label: Skedulo Grid API
@@ -402,6 +396,12 @@ api_specs:
   slug: skedulo-whoami-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-whoami-api-openapi.yml
+- filename: skedulo-graph-ql-api-openapi.yml
+  format: yaml
+  label: Skedulo Graph QL API
+  slug: skedulo-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-generate-recovery-codes-api-openapi.yml
 - filename: glitchtip-glitchtip-api-api-openapi.yml
   format: yaml
-  label: GlitchTip GlitchTip API API
+  label: GlitchTip API
   slug: glitchtip-glitchtip-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-glitchtip-api-api-openapi.yml

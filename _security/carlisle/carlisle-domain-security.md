@@ -43,7 +43,7 @@ tags:
 - Building Products
 - Construction
 - Contractor Portal
-- Distributors
+- Distributor
 - EDI
 - Insulation
 - Manufacturing

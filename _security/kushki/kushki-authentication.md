@@ -115,7 +115,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/he
 summary_line: apiKey · 2 schemes
 tags:
 - Payments
-- LatAm
+- Latin America
 - Andean Region
 - Card Payments
 - Subscription

@@ -40,13 +40,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-journal-batches-api-openapi.yml
 - filename: oracle-general-ledger-ledger-balances-api-openapi.yml
   format: yaml
-  label: Oracle General Ledger Ledger Balances API
+  label: Oracle General Ledger Balances API
   slug: oracle-general-ledger-ledger-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-ledger-balances-api-openapi.yml
 - filename: oracle-general-ledger-ledger-options-api-openapi.yml
   format: yaml
-  label: Oracle General Ledger Ledger Options API
+  label: Oracle General Ledger Options API
   slug: oracle-general-ledger-ledger-options-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/openapi/oracle-general-ledger-ledger-options-api-openapi.yml

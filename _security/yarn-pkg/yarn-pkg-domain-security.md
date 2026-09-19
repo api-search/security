@@ -34,7 +34,7 @@ tags:
 - JavaScript
 - Node.js
 - Monorepo
-- Workspaces
+- Workspace
 - Plug'n'Play
 - Open-Source
 - Berry

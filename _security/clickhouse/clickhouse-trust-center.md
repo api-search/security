@@ -2,7 +2,7 @@
 api_specs:
 - filename: clickhouse-clickhouse-http-interface-api-openapi.yml
   format: yaml
-  label: ClickHouse ClickHouse HTTP Interface API
+  label: ClickHouse HTTP Interface API
   slug: clickhouse-clickhouse-http-interface-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickhouse-http-interface-api-openapi.yml
@@ -24,12 +24,78 @@ api_specs:
   slug: clickhouse-replicas-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-replicas-status-api-openapi.yml
-- filename: clickhouse-cloud-api-openapi.json
-  format: json
-  label: ClickHouse Cloud API
-  slug: clickhouse-cloud-api
+- filename: clickhouse-api-keys-api-openapi.yml
+  format: yaml
+  label: ClickHouse API keys API
+  slug: clickhouse-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-cloud-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-api-keys-api-openapi.yml
+- filename: clickhouse-backup-api-openapi.yml
+  format: yaml
+  label: ClickHouse Backup API
+  slug: clickhouse-backup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-backup-api-openapi.yml
+- filename: clickhouse-billing-api-openapi.yml
+  format: yaml
+  label: ClickHouse Billing API
+  slug: clickhouse-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-billing-api-openapi.yml
+- filename: clickhouse-clickpipes-api-openapi.yml
+  format: yaml
+  label: ClickHouse Click Pipes API
+  slug: clickhouse-clickpipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickpipes-api-openapi.yml
+- filename: clickhouse-clickstack-api-openapi.yml
+  format: yaml
+  label: ClickHouse Click Stack API
+  slug: clickhouse-clickstack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickstack-api-openapi.yml
+- filename: clickhouse-organization-api-openapi.yml
+  format: yaml
+  label: ClickHouse Organization API
+  slug: clickhouse-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-organization-api-openapi.yml
+- filename: clickhouse-postgres-api-openapi.yml
+  format: yaml
+  label: ClickHouse Postgres API
+  slug: clickhouse-postgres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-postgres-api-openapi.yml
+- filename: clickhouse-prometheus-api-openapi.yml
+  format: yaml
+  label: ClickHouse Prometheus API
+  slug: clickhouse-prometheus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-prometheus-api-openapi.yml
+- filename: clickhouse-role-management-api-openapi.yml
+  format: yaml
+  label: ClickHouse Role Management API
+  slug: clickhouse-role-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-role-management-api-openapi.yml
+- filename: clickhouse-service-api-openapi.yml
+  format: yaml
+  label: ClickHouse Service API
+  slug: clickhouse-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-service-api-openapi.yml
+- filename: clickhouse-udf-api-openapi.yml
+  format: yaml
+  label: ClickHouse UDF API
+  slug: clickhouse-udf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-udf-api-openapi.yml
+- filename: clickhouse-user-management-api-openapi.yml
+  format: yaml
+  label: ClickHouse User management API
+  slug: clickhouse-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-user-management-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

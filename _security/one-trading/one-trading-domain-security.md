@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-public-api-openapi.yml
 - filename: one-trading-trading-api-openapi.yml
   format: yaml
-  label: One Trading Trading API
+  label: One Trading API
   slug: one-trading-trading-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/openapi/one-trading-trading-api-openapi.yml

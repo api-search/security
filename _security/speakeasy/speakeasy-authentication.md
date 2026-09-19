@@ -57,12 +57,6 @@ api_specs:
   slug: speakeasy-schemastore-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-schemastore-api-openapi.yml
-- filename: speakeasy-shorturls-api-openapi.yml
-  format: yaml
-  label: Speakeasy ShortURLs API
-  slug: speakeasy-shorturls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-shorturls-api-openapi.yml
 - filename: speakeasy-subscriptions-api-openapi.yml
   format: yaml
   label: Speakeasy Subscriptions API
@@ -81,6 +75,12 @@ api_specs:
   slug: speakeasy-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-workspaces-api-openapi.yml
+- filename: speakeasy-short-urls-api-openapi.yml
+  format: yaml
+  label: Speakeasy Short URLs API
+  slug: speakeasy-short-urls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-short-urls-api-openapi.yml
 auth_types:
 - apiKey
 - http

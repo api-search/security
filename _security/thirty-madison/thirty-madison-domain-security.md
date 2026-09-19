@@ -33,7 +33,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Digital Health
 - Direct to Consumer
 - Pharmacy

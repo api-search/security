@@ -20,7 +20,7 @@ summary_line: ISO 27001
 tags:
 - Company
 - Artificial Intelligence
-- HR
+- Human Resources
 - People Operations
 - HRIS
 - Performance Management

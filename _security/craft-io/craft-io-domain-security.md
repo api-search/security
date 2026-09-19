@@ -107,5 +107,5 @@ tags:
 - Backlog
 - Feedback
 - Portfolio
-- Specifications
+- Specification
 ---

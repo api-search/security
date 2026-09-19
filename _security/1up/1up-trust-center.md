@@ -24,12 +24,12 @@ tags:
 - Company
 - Artificial Intelligence
 - Sales Enablement
-- Knowledge Management
+- Knowledge-Management
 - RFP Automation
 - Security Questionnaires
-- Model Context Protocol
+- MCP
 - Agents
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 trust_url: https://1up.ai/security
 ---

@@ -36,4 +36,5 @@ tags:
 - Lettings
 - Rentals
 - United Kingdom
+- Defunct
 ---

@@ -83,6 +83,6 @@ tags:
 - Comments
 - Threads
 - Notification
-- WebSockets
+- WebSocket
 trust_url: https://liveblocks.safebase.us/
 ---

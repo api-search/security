@@ -34,6 +34,6 @@ tags:
 - API Testing
 - Developer Tools
 - Local-First
-- Mock Server
+- Mock Servers
 - Secret Management
 ---

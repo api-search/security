@@ -117,12 +117,18 @@ api_specs:
   slug: acquia-teams-and-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-teams-and-permissions-api-openapi.yml
-- filename: acquia-content-api-openapi.yaml
+- filename: acquia-authentication-api-openapi.yml
+  format: yaml
+  label: Acquia Authentication API
+  slug: acquia-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-authentication-api-openapi.yml
+- filename: acquia-content-api-openapi.yml
   format: yaml
   label: Acquia Content API
   slug: acquia-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-content-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-content-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

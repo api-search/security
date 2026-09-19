@@ -36,12 +36,6 @@ api_specs:
   slug: argocd-gpgkeyservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-gpgkeyservice-api-openapi.yml
-- filename: argocd-notificationservice-api-openapi.yml
-  format: yaml
-  label: Argo CD NotificationService API
-  slug: argocd-notificationservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-notificationservice-api-openapi.yml
 - filename: argocd-projectservice-api-openapi.yml
   format: yaml
   label: Argo CD ProjectService API
@@ -78,6 +72,12 @@ api_specs:
   slug: argocd-versionservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-versionservice-api-openapi.yml
+- filename: argocd-notification-service-api-openapi.yml
+  format: yaml
+  label: Argo CD Notification Service API
+  slug: argocd-notification-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-notification-service-api-openapi.yml
 description: ''
 domains:
 - caa:

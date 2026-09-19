@@ -47,6 +47,6 @@ tags:
 - Small Business
 - VAT
 - Sage
-- UK
+- United Kingdom
 - Authentication
 ---

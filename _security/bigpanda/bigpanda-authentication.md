@@ -3,24 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: bigpanda-agents-api-openapi.yml
-  format: yaml
-  label: BigPanda Agents API (MCP & A2A)
-  slug: bigpanda-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-agents-api-openapi.yml
 - filename: bigpanda-ai-settings-api-openapi.yml
   format: yaml
   label: BigPanda AI Settings API
   slug: bigpanda-ai-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-ai-settings-api-openapi.yml
-- filename: bigpanda-alert-enrichment-api-openapi.yml
-  format: yaml
-  label: BigPanda Alert Tags & Enrichment API
-  slug: bigpanda-alert-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-alert-enrichment-api-openapi.yml
 - filename: bigpanda-alert-filters-api-openapi.yml
   format: yaml
   label: BigPanda Alert Filters API
@@ -111,12 +99,6 @@ api_specs:
   slug: bigpanda-meetings-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-meetings-transcripts-api-openapi.yml
-- filename: bigpanda-mim-api-openapi.yml
-  format: yaml
-  label: BigPanda Major Incident Management API
-  slug: bigpanda-mim-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-mim-api-openapi.yml
 - filename: bigpanda-notifications-api-openapi.yml
   format: yaml
   label: BigPanda Notifications & Webhooks API
@@ -147,12 +129,6 @@ api_specs:
   slug: bigpanda-service-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-service-accounts-api-openapi.yml
-- filename: bigpanda-sso-provisioning-api-openapi.yml
-  format: yaml
-  label: BigPanda SSO & JIT Provisioning API
-  slug: bigpanda-sso-provisioning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-sso-provisioning-api-openapi.yml
 - filename: bigpanda-topology-api-openapi.yml
   format: yaml
   label: BigPanda Topology API
@@ -165,6 +141,42 @@ api_specs:
   slug: bigpanda-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-users-api-openapi.yml
+- filename: bigpanda-agents-mcp-a2a-api-openapi.yml
+  format: yaml
+  label: BigPanda Agents (MCP & A2A) API
+  slug: bigpanda-agents-mcp-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-agents-mcp-a2a-api-openapi.yml
+- filename: bigpanda-alert-tags-enrichment-api-openapi.yml
+  format: yaml
+  label: BigPanda Alert Tags & Enrichment API
+  slug: bigpanda-alert-tags-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-alert-tags-enrichment-api-openapi.yml
+- filename: bigpanda-audit-log-api-openapi.yml
+  format: yaml
+  label: BigPanda Audit Log API
+  slug: bigpanda-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-audit-log-api-openapi.yml
+- filename: bigpanda-changes-root-cause-api-openapi.yml
+  format: yaml
+  label: BigPanda Changes & Root Cause API
+  slug: bigpanda-changes-root-cause-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-changes-root-cause-api-openapi.yml
+- filename: bigpanda-major-incident-management-api-openapi.yml
+  format: yaml
+  label: BigPanda Major Incident Management API
+  slug: bigpanda-major-incident-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-major-incident-management-api-openapi.yml
+- filename: bigpanda-sso-jit-provisioning-api-openapi.yml
+  format: yaml
+  label: BigPanda SSO & JIT Provisioning API
+  slug: bigpanda-sso-jit-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-sso-jit-provisioning-api-openapi.yml
 auth_types:
 - apiKey
 - http

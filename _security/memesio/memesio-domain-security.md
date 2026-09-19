@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-compliance-api-openapi.yml
 - filename: memesio-developer-api-api-openapi.yml
   format: yaml
-  label: Memesio developer-api API
+  label: Memesio developer-api
   slug: memesio-developer-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-developer-api-api-openapi.yml

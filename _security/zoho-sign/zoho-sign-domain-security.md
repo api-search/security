@@ -64,10 +64,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/security/zoho-sign-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Electronic Signatures
+- Electronic Signature
 - E-Signature
 - Document-Management
-- Digital Signatures
+- Digital Signature
 - Signature Workflows
 - Templates
 - Compliance

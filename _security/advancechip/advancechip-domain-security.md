@@ -40,7 +40,7 @@ tags:
 - Integrated Circuits
 - Digital Signal Processing
 - Embedded Systems
-- System On Chip
+- System on Chip
 - Automotive Electronics
 - Motor Control
 - Industrial Control

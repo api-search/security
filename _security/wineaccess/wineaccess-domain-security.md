@@ -35,7 +35,7 @@ tags:
 - Wine
 - E-Commerce
 - Retail
-- Beverage
+- Beverages
 - Wine Club
 - Consumer
 - Food and Beverage

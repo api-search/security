@@ -186,12 +186,12 @@ api_specs:
   slug: arthur-online-viewings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-viewings-api-openapi.yml
-- filename: arthur-online-workorders-api-openapi.yml
+- filename: arthur-online-work-orders-api-openapi.yml
   format: yaml
-  label: Arthur Online Workorders API
-  slug: arthur-online-workorders-api
+  label: Arthur Online Work Orders API
+  slug: arthur-online-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-workorders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -39,6 +39,6 @@ tags:
 - Fintech
 - Tokenization
 - Share Register
-- Secondary Markets
+- Secondary Market
 - United Kingdom
 ---

@@ -24,7 +24,7 @@ summary_line: ioXt Alliance certification, Google MASA (Mobile Application Secur
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Security
 - Camera
 - Consumer Electronics

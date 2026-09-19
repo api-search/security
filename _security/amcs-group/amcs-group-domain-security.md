@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: amcs-group-accessgroup-api-openapi.yml
-  format: yaml
-  label: AMCS Group AccessGroup API
-  slug: amcs-group-accessgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-accessgroup-api-openapi.yml
 - filename: amcs-group-accesspasshistory-api-openapi.yml
   format: yaml
   label: AMCS Group AccessPassHistory API
   slug: amcs-group-accesspasshistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-accesspasshistory-api-openapi.yml
-- filename: amcs-group-accountbalance-api-openapi.yml
-  format: yaml
-  label: AMCS Group AccountBalance API
-  slug: amcs-group-accountbalance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-accountbalance-api-openapi.yml
 - filename: amcs-group-accountcustomer-api-openapi.yml
   format: yaml
   label: AMCS Group AccountCustomer API
@@ -72,12 +60,6 @@ api_specs:
   slug: amcs-group-apiconfigurationservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-apiconfigurationservice-api-openapi.yml
-- filename: amcs-group-apidocumentation-api-openapi.yml
-  format: yaml
-  label: AMCS Group ApiDocumentation API
-  slug: amcs-group-apidocumentation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-apidocumentation-api-openapi.yml
 - filename: amcs-group-apigpsdataexternal-api-openapi.yml
   format: yaml
   label: AMCS Group ApiGpsDataExternal API
@@ -180,12 +162,6 @@ api_specs:
   slug: amcs-group-authstatus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-authstatus-api-openapi.yml
-- filename: amcs-group-authtoken-api-openapi.yml
-  format: yaml
-  label: AMCS Group AuthToken API
-  slug: amcs-group-authtoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-authtoken-api-openapi.yml
 - filename: amcs-group-blob-api-openapi.yml
   format: yaml
   label: AMCS Group Blob API
@@ -234,12 +210,6 @@ api_specs:
   slug: amcs-group-charge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-charge-api-openapi.yml
-- filename: amcs-group-checkbalance-api-openapi.yml
-  format: yaml
-  label: AMCS Group CheckBalance API
-  slug: amcs-group-checkbalance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-checkbalance-api-openapi.yml
 - filename: amcs-group-commsserversyncstatus-api-openapi.yml
   format: yaml
   label: AMCS Group CommsServerSyncStatus API
@@ -294,12 +264,6 @@ api_specs:
   slug: amcs-group-contactregistrationstatus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-contactregistrationstatus-api-openapi.yml
-- filename: amcs-group-contacttype-api-openapi.yml
-  format: yaml
-  label: AMCS Group ContactType API
-  slug: amcs-group-contacttype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-contacttype-api-openapi.yml
 - filename: amcs-group-container-api-openapi.yml
   format: yaml
   label: AMCS Group Container API
@@ -372,12 +336,6 @@ api_specs:
   slug: amcs-group-country-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-country-api-openapi.yml
-- filename: amcs-group-creditnote-api-openapi.yml
-  format: yaml
-  label: AMCS Group CreditNote API
-  slug: amcs-group-creditnote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-creditnote-api-openapi.yml
 - filename: amcs-group-currency-api-openapi.yml
   format: yaml
   label: AMCS Group Currency API
@@ -414,12 +372,6 @@ api_specs:
   slug: amcs-group-customercategory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-customercategory-api-openapi.yml
-- filename: amcs-group-customergroup-api-openapi.yml
-  format: yaml
-  label: AMCS Group CustomerGroup API
-  slug: amcs-group-customergroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-customergroup-api-openapi.yml
 - filename: amcs-group-customerhomecache-api-openapi.yml
   format: yaml
   label: AMCS Group CustomerHomeCache API
@@ -732,18 +684,6 @@ api_specs:
   slug: amcs-group-jobhandler-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-jobhandler-api-openapi.yml
-- filename: amcs-group-joblog-api-openapi.yml
-  format: yaml
-  label: AMCS Group JobLog API
-  slug: amcs-group-joblog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-joblog-api-openapi.yml
-- filename: amcs-group-jobmaterials-api-openapi.yml
-  format: yaml
-  label: AMCS Group JobMaterials API
-  slug: amcs-group-jobmaterials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-jobmaterials-api-openapi.yml
 - filename: amcs-group-jobpost-api-openapi.yml
   format: yaml
   label: AMCS Group JobPost API
@@ -822,12 +762,6 @@ api_specs:
   slug: amcs-group-market-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-market-api-openapi.yml
-- filename: amcs-group-masteraccount-api-openapi.yml
-  format: yaml
-  label: AMCS Group MasterAccount API
-  slug: amcs-group-masteraccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-masteraccount-api-openapi.yml
 - filename: amcs-group-material-api-openapi.yml
   format: yaml
   label: AMCS Group Material API
@@ -990,12 +924,6 @@ api_specs:
   slug: amcs-group-paymentpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-paymentpoint-api-openapi.yml
-- filename: amcs-group-paymentterm-api-openapi.yml
-  format: yaml
-  label: AMCS Group PaymentTerm API
-  slug: amcs-group-paymentterm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-paymentterm-api-openapi.yml
 - filename: amcs-group-paymenttype-api-openapi.yml
   format: yaml
   label: AMCS Group PaymentType API
@@ -1020,24 +948,12 @@ api_specs:
   slug: amcs-group-plugin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-plugin-api-openapi.yml
-- filename: amcs-group-pluginconfiguration-api-openapi.yml
-  format: yaml
-  label: AMCS Group PluginConfiguration API
-  slug: amcs-group-pluginconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-pluginconfiguration-api-openapi.yml
 - filename: amcs-group-plugininstall-api-openapi.yml
   format: yaml
   label: AMCS Group PluginInstall API
   slug: amcs-group-plugininstall-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-plugininstall-api-openapi.yml
-- filename: amcs-group-pluginmetadata-api-openapi.yml
-  format: yaml
-  label: AMCS Group PluginMetadata API
-  slug: amcs-group-pluginmetadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-pluginmetadata-api-openapi.yml
 - filename: amcs-group-pluginmetadataexchange-api-openapi.yml
   format: yaml
   label: AMCS Group PluginMetadataExchange API
@@ -1218,12 +1134,6 @@ api_specs:
   slug: amcs-group-schedule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-schedule-api-openapi.yml
-- filename: amcs-group-scheduledjob-api-openapi.yml
-  format: yaml
-  label: AMCS Group ScheduledJob API
-  slug: amcs-group-scheduledjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-scheduledjob-api-openapi.yml
 - filename: amcs-group-service-api-openapi.yml
   format: yaml
   label: AMCS Group Service API
@@ -1236,12 +1146,6 @@ api_specs:
   slug: amcs-group-serviceagreement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-serviceagreement-api-openapi.yml
-- filename: amcs-group-servicecategory-api-openapi.yml
-  format: yaml
-  label: AMCS Group ServiceCategory API
-  slug: amcs-group-servicecategory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-servicecategory-api-openapi.yml
 - filename: amcs-group-servicefrequency-api-openapi.yml
   format: yaml
   label: AMCS Group ServiceFrequency API
@@ -1278,12 +1182,6 @@ api_specs:
   slug: amcs-group-siteorderitemstate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-siteorderitemstate-api-openapi.yml
-- filename: amcs-group-sitetype-api-openapi.yml
-  format: yaml
-  label: AMCS Group SiteType API
-  slug: amcs-group-sitetype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-sitetype-api-openapi.yml
 - filename: amcs-group-sso-api-openapi.yml
   format: yaml
   label: AMCS Group Sso API
@@ -1344,12 +1242,6 @@ api_specs:
   slug: amcs-group-suppliertype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-suppliertype-api-openapi.yml
-- filename: amcs-group-systemconfiguration-api-openapi.yml
-  format: yaml
-  label: AMCS Group SystemConfiguration API
-  slug: amcs-group-systemconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-systemconfiguration-api-openapi.yml
 - filename: amcs-group-taxtemplatecollection-api-openapi.yml
   format: yaml
   label: AMCS Group TaxTemplateCollection API
@@ -1404,12 +1296,6 @@ api_specs:
   slug: amcs-group-udfworkflowactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-udfworkflowactivity-api-openapi.yml
-- filename: amcs-group-unitofmeasure-api-openapi.yml
-  format: yaml
-  label: AMCS Group UnitOfMeasure API
-  slug: amcs-group-unitofmeasure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-unitofmeasure-api-openapi.yml
 - filename: amcs-group-user-api-openapi.yml
   format: yaml
   label: AMCS Group User API
@@ -1542,6 +1428,120 @@ api_specs:
   slug: amcs-group-zone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-zone-api-openapi.yml
+- filename: amcs-group-access-group-api-openapi.yml
+  format: yaml
+  label: AMCS Group Access Group API
+  slug: amcs-group-access-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-access-group-api-openapi.yml
+- filename: amcs-group-account-balance-api-openapi.yml
+  format: yaml
+  label: AMCS Group Account Balance API
+  slug: amcs-group-account-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-account-balance-api-openapi.yml
+- filename: amcs-group-api-documentation-api-openapi.yml
+  format: yaml
+  label: AMCS Group API Documentation API
+  slug: amcs-group-api-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-api-documentation-api-openapi.yml
+- filename: amcs-group-auth-token-api-openapi.yml
+  format: yaml
+  label: AMCS Group Auth - Token API
+  slug: amcs-group-auth-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-auth-token-api-openapi.yml
+- filename: amcs-group-check-balance-api-openapi.yml
+  format: yaml
+  label: AMCS Group Check Balance API
+  slug: amcs-group-check-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-check-balance-api-openapi.yml
+- filename: amcs-group-contact-type-api-openapi.yml
+  format: yaml
+  label: AMCS Group Contact Type API
+  slug: amcs-group-contact-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-contact-type-api-openapi.yml
+- filename: amcs-group-credit-note-api-openapi.yml
+  format: yaml
+  label: AMCS Group Credit Note API
+  slug: amcs-group-credit-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-credit-note-api-openapi.yml
+- filename: amcs-group-customer-group-api-openapi.yml
+  format: yaml
+  label: AMCS Group Customer Group API
+  slug: amcs-group-customer-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-customer-group-api-openapi.yml
+- filename: amcs-group-job-log-api-openapi.yml
+  format: yaml
+  label: AMCS Group Job Log API
+  slug: amcs-group-job-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-job-log-api-openapi.yml
+- filename: amcs-group-job-materials-api-openapi.yml
+  format: yaml
+  label: AMCS Group Job Materials API
+  slug: amcs-group-job-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-job-materials-api-openapi.yml
+- filename: amcs-group-master-account-api-openapi.yml
+  format: yaml
+  label: AMCS Group Master Account API
+  slug: amcs-group-master-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-master-account-api-openapi.yml
+- filename: amcs-group-payment-term-api-openapi.yml
+  format: yaml
+  label: AMCS Group Payment Term API
+  slug: amcs-group-payment-term-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-payment-term-api-openapi.yml
+- filename: amcs-group-plugin-configuration-api-openapi.yml
+  format: yaml
+  label: AMCS Group Plugin Configuration API
+  slug: amcs-group-plugin-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-plugin-configuration-api-openapi.yml
+- filename: amcs-group-plugin-metadata-api-openapi.yml
+  format: yaml
+  label: AMCS Group Plugin Metadata API
+  slug: amcs-group-plugin-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-plugin-metadata-api-openapi.yml
+- filename: amcs-group-scheduled-job-api-openapi.yml
+  format: yaml
+  label: AMCS Group Scheduled Job API
+  slug: amcs-group-scheduled-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-scheduled-job-api-openapi.yml
+- filename: amcs-group-service-category-api-openapi.yml
+  format: yaml
+  label: AMCS Group Service Category API
+  slug: amcs-group-service-category-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-service-category-api-openapi.yml
+- filename: amcs-group-site-type-api-openapi.yml
+  format: yaml
+  label: AMCS Group Site Type API
+  slug: amcs-group-site-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-site-type-api-openapi.yml
+- filename: amcs-group-system-configuration-api-openapi.yml
+  format: yaml
+  label: AMCS Group System Configuration API
+  slug: amcs-group-system-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-system-configuration-api-openapi.yml
+- filename: amcs-group-unit-of-measure-api-openapi.yml
+  format: yaml
+  label: AMCS Group Unit of Measure API
+  slug: amcs-group-unit-of-measure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/openapi/amcs-group-unit-of-measure-api-openapi.yml
 description: ''
 domains:
 - caa: []

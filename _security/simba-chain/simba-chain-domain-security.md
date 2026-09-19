@@ -1,17 +1,107 @@
 ---
 api_specs:
-- filename: simba-chain-member-service-openapi.json
-  format: json
-  label: SIMBA Blocks Member Service API
-  slug: simba-chain-member-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-member-service-openapi.json
-- filename: simba-chain-member-service-validator-openapi.json
-  format: json
-  label: SIMBA Blocks Authentication Service API
+- filename: simba-chain-authentication-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Authentication API
   slug: simba-chain-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-member-service-validator-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-authentication-api-openapi.yml
+- filename: simba-chain-bulk-users-import-requests-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Bulk Users Import Requests API
+  slug: simba-chain-bulk-users-import-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-bulk-users-import-requests-api-openapi.yml
+- filename: simba-chain-deviceappadmin-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Device App Admin API
+  slug: simba-chain-deviceappadmin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-deviceappadmin-api-openapi.yml
+- filename: simba-chain-deviceappregistration-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Device App Registration API
+  slug: simba-chain-deviceappregistration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-deviceappregistration-api-openapi.yml
+- filename: simba-chain-domains-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Domains API
+  slug: simba-chain-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-domains-api-openapi.yml
+- filename: simba-chain-events-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Events API
+  slug: simba-chain-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-events-api-openapi.yml
+- filename: simba-chain-invites-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Invites API
+  slug: simba-chain-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-invites-api-openapi.yml
+- filename: simba-chain-organisations-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Organisations API
+  slug: simba-chain-organisations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-organisations-api-openapi.yml
+- filename: simba-chain-passkeys-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Passkeys API
+  slug: simba-chain-passkeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-passkeys-api-openapi.yml
+- filename: simba-chain-permissions-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Permissions API
+  slug: simba-chain-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-permissions-api-openapi.yml
+- filename: simba-chain-probes-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Probes API
+  slug: simba-chain-probes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-probes-api-openapi.yml
+- filename: simba-chain-roles-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Roles API
+  slug: simba-chain-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-roles-api-openapi.yml
+- filename: simba-chain-serviceadmin-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Service Admin API
+  slug: simba-chain-serviceadmin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-serviceadmin-api-openapi.yml
+- filename: simba-chain-templates-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Templates API
+  slug: simba-chain-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-templates-api-openapi.yml
+- filename: simba-chain-users-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Users API
+  slug: simba-chain-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-users-api-openapi.yml
+- filename: simba-chain-client-credentials-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Client Credentials API
+  slug: simba-chain-client-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-client-credentials-api-openapi.yml
+- filename: simba-chain-two-factor-api-openapi.yml
+  format: yaml
+  label: SIMBA Chain Two Factor API
+  slug: simba-chain-two-factor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-two-factor-api-openapi.yml
 description: ''
 domains:
 - caa:

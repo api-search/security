@@ -50,5 +50,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-communication-services-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HMAC-SHA256 signed Authorization header\n  sources:\n  - openapi/microsoft-azure-communication-services-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/authentication/microsoft-azure-communication-services-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- Email
+- Identity
+- SMS
 ---

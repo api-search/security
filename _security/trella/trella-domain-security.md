@@ -36,7 +36,7 @@ tags:
 - Digital Freight Marketplace
 - B2B Marketplace
 - Shippers
-- Carriers
+- Carrier
 - Supply Chain
 - GPS Tracking
 - Electronic Proof Of Delivery

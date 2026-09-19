@@ -21,12 +21,6 @@ api_specs:
   slug: amazon-supply-chain-data-integration-flows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-integration-flows-api-openapi.yml
-- filename: amazon-supply-chain-data-lake-api-openapi.yml
-  format: yaml
-  label: Amazon Supply Chain Data Lake API
-  slug: amazon-supply-chain-data-lake-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-lake-api-openapi.yml
 - filename: amazon-supply-chain-instances-api-openapi.yml
   format: yaml
   label: Amazon Supply Chain Instances API
@@ -39,6 +33,12 @@ api_specs:
   slug: amazon-supply-chain-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-tags-api-openapi.yml
+- filename: amazon-supply-chain-datalake-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Datalake API
+  slug: amazon-supply-chain-datalake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-datalake-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

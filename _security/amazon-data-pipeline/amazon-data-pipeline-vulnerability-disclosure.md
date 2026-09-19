@@ -2,13 +2,13 @@
 api_specs:
 - filename: amazon-data-pipeline-pipeline-objects-api-openapi.yml
   format: yaml
-  label: Amazon Data Pipeline Pipeline Objects API
+  label: Amazon Data Pipeline Objects API
   slug: amazon-data-pipeline-pipeline-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
 - filename: amazon-data-pipeline-pipeline-runs-api-openapi.yml
   format: yaml
-  label: Amazon Data Pipeline Pipeline Runs API
+  label: Amazon Data Pipeline Runs API
   slug: amazon-data-pipeline-pipeline-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml

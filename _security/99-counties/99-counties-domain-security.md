@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Regenerative Agriculture
 - Food and Beverage
 - Shopify

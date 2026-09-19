@@ -37,5 +37,5 @@ tags:
 - Decentralized Clinical Trials
 - Healthcare
 - Patient Recruitment
-- Telemedicine
+- Telehealth
 ---

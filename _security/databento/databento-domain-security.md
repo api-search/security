@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: databento-timeseries-api-openapi.yml
-  format: yaml
-  label: Databento Historical Timeseries API
-  slug: databento-historical-timeseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-timeseries-api-openapi.yml
 - filename: databento-metadata-api-openapi.yml
   format: yaml
   label: Databento Metadata API
@@ -62,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-corporate-actions-api-openapi.yml
 - filename: databento-databento-openapi-specification-api-openapi.yml
   format: yaml
-  label: Databento Databento OpenAPI Specification API
+  label: Databento OpenAPI Specification API
   slug: databento-databento-openapi-specification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-databento-openapi-specification-api-openapi.yml
@@ -138,6 +132,12 @@ api_specs:
   slug: databento-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-users-api-openapi.yml
+- filename: databento-time-series-api-openapi.yml
+  format: yaml
+  label: Databento Time Series API
+  slug: databento-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

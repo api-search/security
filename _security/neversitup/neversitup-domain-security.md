@@ -34,7 +34,7 @@ tags:
 - Software Development
 - IT Outsourcing
 - Fintech
-- Mobile Apps
+- Mobile App
 - Digital Transformation
 - Thailand
 ---

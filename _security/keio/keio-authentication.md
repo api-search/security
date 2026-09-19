@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: keio-koara-oai-pmh-openapi.yml
+- filename: keio-iiif-api-openapi.yml
   format: yaml
-  label: KOARA OAI-PMH Metadata API
-  slug: koara-oai-pmh
+  label: Keio University IIIF API
+  slug: keio-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-koara-oai-pmh-openapi.yml
-- filename: keio-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-api-openapi.yml
+- filename: keio-metadata-harvesting-api-openapi.yml
   format: yaml
-  label: Keio Media Center Digital Collections IIIF API
-  slug: iiif
+  label: Keio University Metadata Harvesting API
+  slug: keio-metadata-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-metadata-harvesting-api-openapi.yml
 auth_types: []
 description: 'Keio University''s authentication posture splits cleanly in two, and the split is the most useful thing to say about it. The surfaces the university operates itself for the public — the KOARA OAI-PMH interface and the Media Center''s IIIF endpoints — require no authentication of any kind: no key, no token, no registration, no referer check, no rate-limit header. The surfaces that serve the campus — the K-RIS research information system, the K-LMS learning environment, and every application behind gslbs.keio.jp — are gated behind federated institutional identity, and there is no path by which an unaffiliated developer obtains a credential. There is no developer portal, no key-issuance form and no client-registration endpoint an outsider can use anywhere in the estate.'
 kind: authentication

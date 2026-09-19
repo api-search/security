@@ -46,7 +46,7 @@ tags:
 - High Availability
 - Infrastructure
 - Load Balancing
-- Message Queues
+- Message Queue
 - Platform Engineering
 - Scalable Architecture
 - Service Discovery

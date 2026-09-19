@@ -26,12 +26,6 @@ api_specs:
   slug: ownerrez-fees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-fees-api-openapi.yml
-- filename: ownerrez-fielddefinitions-api-openapi.yml
-  format: yaml
-  label: OwnerRez FieldDefinitions API
-  slug: ownerrez-fielddefinitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-fielddefinitions-api-openapi.yml
 - filename: ownerrez-fields-api-openapi.yml
   format: yaml
   label: OwnerRez Fields API
@@ -80,12 +74,6 @@ api_specs:
   slug: ownerrez-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-properties-api-openapi.yml
-- filename: ownerrez-propertysearch-api-openapi.yml
-  format: yaml
-  label: OwnerRez PropertySearch API
-  slug: ownerrez-propertysearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-propertysearch-api-openapi.yml
 - filename: ownerrez-quotes-api-openapi.yml
   format: yaml
   label: OwnerRez Quotes API
@@ -134,12 +122,24 @@ api_specs:
   slug: ownerrez-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-users-api-openapi.yml
-- filename: ownerrez-webhooksubscriptions-api-openapi.yml
+- filename: ownerrez-field-definitions-api-openapi.yml
   format: yaml
-  label: OwnerRez WebhookSubscriptions API
-  slug: ownerrez-webhooksubscriptions-api
+  label: OwnerRez Field Definitions API
+  slug: ownerrez-field-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-webhooksubscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-field-definitions-api-openapi.yml
+- filename: ownerrez-property-search-api-openapi.yml
+  format: yaml
+  label: OwnerRez Property Search API
+  slug: ownerrez-property-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-property-search-api-openapi.yml
+- filename: ownerrez-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: OwnerRez Webhook Subscriptions API
+  slug: ownerrez-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-webhook-subscriptions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -181,10 +181,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ownerrez
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/authentication/ownerrez-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Property Management
 - Hospitality
-- Bookings
+- Booking
 - Channel Manager
 ---

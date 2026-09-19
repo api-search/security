@@ -20,12 +20,12 @@ api_specs:
   slug: debix-auth-provider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-3ds-authentication-api-openapi.yml
-- filename: six-group-bankmaster-api-openapi.yml
+- filename: six-group-iban-api-openapi.yml
   format: yaml
   label: Swiss Bank Master API
   slug: swiss-bank-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-bankmaster-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-iban-api-openapi.yml
 - filename: six-group-status-api-openapi.yml
   format: yaml
   label: SIC Service Status API
@@ -44,6 +44,18 @@ api_specs:
   slug: settlement-info-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-detailedsettlementinformation-api-openapi.yml
+- filename: six-group-3-ds-api-openapi.yml
+  format: yaml
+  label: SIX 3 DS API
+  slug: six-group-3-ds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-3-ds-api-openapi.yml
+- filename: six-group-bank-master-api-openapi.yml
+  format: yaml
+  label: SIX Bank Master API
+  slug: six-group-bank-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-bank-master-api-openapi.yml
 auth_types:
 - mutualTLS
 - oauth2

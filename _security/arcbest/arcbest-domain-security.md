@@ -24,18 +24,36 @@ api_specs:
   slug: arcbest-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-tracking-api-openapi.yml
-- filename: arcbest-expedite-customer-api-openapi.yml
+- filename: arcbest-authorize-api-openapi.yml
   format: yaml
-  label: ArcBest Expedite Customer API
-  slug: arcbest-expedite-customer-api
+  label: ArcBest Authorize API
+  slug: arcbest-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-expedite-customer-api-openapi.yml
-- filename: arcbest-expedite-tms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-authorize-api-openapi.yml
+- filename: arcbest-booking-api-openapi.yml
   format: yaml
-  label: ArcBest Expedite Third Party TMS API
-  slug: arcbest-expedite-tms-api
+  label: ArcBest Booking API
+  slug: arcbest-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-expedite-tms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-booking-api-openapi.yml
+- filename: arcbest-order-api-openapi.yml
+  format: yaml
+  label: ArcBest Order API
+  slug: arcbest-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-order-api-openapi.yml
+- filename: arcbest-quote-api-openapi.yml
+  format: yaml
+  label: ArcBest Quote API
+  slug: arcbest-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-quote-api-openapi.yml
+- filename: arcbest-quotes-api-openapi.yml
+  format: yaml
+  label: ArcBest Quotes API
+  slug: arcbest-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

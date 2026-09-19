@@ -2,18 +2,66 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: aaravunmannedsystems-tile-server-openapi-original.json
-  format: json
-  label: Aereo Cloud Tile Server
-  slug: aaravunmannedsystems-tile-server
+- filename: aaravunmannedsystems-3dtiles-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) 3dtiles API
+  slug: aaravunmannedsystems-3dtiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-tile-server-openapi-original.json
-- filename: aaravunmannedsystems-real-time-inference-server-openapi.json
-  format: json
-  label: Aereo Cloud Real-Time Inference Server
-  slug: aereo7a4d-real-time-inference-server
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-3dtiles-api-openapi.yml
+- filename: aaravunmannedsystems-altitude-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Altitude API
+  slug: aaravunmannedsystems-altitude-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-real-time-inference-server-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-altitude-api-openapi.yml
+- filename: aaravunmannedsystems-cesium-terrain-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Cesium Terrain API
+  slug: aaravunmannedsystems-cesium-terrain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-cesium-terrain-api-openapi.yml
+- filename: aaravunmannedsystems-cv-tiles-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Cv Tiles API
+  slug: aaravunmannedsystems-cv-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-cv-tiles-api-openapi.yml
+- filename: aaravunmannedsystems-histogram-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Histogram API
+  slug: aaravunmannedsystems-histogram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-histogram-api-openapi.yml
+- filename: aaravunmannedsystems-mbtiles-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Mbtiles API
+  slug: aaravunmannedsystems-mbtiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-mbtiles-api-openapi.yml
+- filename: aaravunmannedsystems-ortho-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Ortho API
+  slug: aaravunmannedsystems-ortho-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-ortho-api-openapi.yml
+- filename: aaravunmannedsystems-ping-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Ping API
+  slug: aaravunmannedsystems-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-ping-api-openapi.yml
+- filename: aaravunmannedsystems-terrain-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Terrain API
+  slug: aaravunmannedsystems-terrain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-terrain-api-openapi.yml
+- filename: aaravunmannedsystems-vector-api-openapi.yml
+  format: yaml
+  label: Aarav Unmanned Systems (Aereo) Vector API
+  slug: aaravunmannedsystems-vector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaravunmannedsystems/refs/heads/main/openapi/aaravunmannedsystems-vector-api-openapi.yml
 auth_types:
 - http
 description: ''

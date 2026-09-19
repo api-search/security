@@ -33,7 +33,7 @@ tags:
 - Recruiting
 - Hiring
 - Applicant Tracking
-- Assessments
-- HR Tech
+- Assessment
+- Human Resources
 - Indonesia
 ---

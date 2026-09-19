@@ -97,5 +97,6 @@ tags:
 - Software Delivery
 - Deployment
 - Artifacts
+- Developer Tools
 trust_url: https://semaphore.io/security
 ---

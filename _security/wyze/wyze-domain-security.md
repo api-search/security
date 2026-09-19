@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Security
 - Camera
 - Consumer Electronics

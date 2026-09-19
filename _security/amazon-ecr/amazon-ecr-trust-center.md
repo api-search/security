@@ -2,7 +2,7 @@
 api_specs:
 - filename: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
   format: yaml
-  label: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API API
+  label: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API
   slug: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
@@ -24,18 +24,18 @@ api_specs:
   slug: amazon-ecr-describerepositories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-describerepositories-api-openapi.yml
-- filename: amazon-ecr-listimages-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECR #ListImages API'
-  slug: amazon-ecr-listimages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-listimages-api-openapi.yml
 - filename: amazon-ecr-putimage-api-openapi.yml
   format: yaml
   label: 'Amazon ECR #PutImage API'
   slug: amazon-ecr-putimage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-putimage-api-openapi.yml
+- filename: amazon-ecr-list-images-api-openapi.yml
+  format: yaml
+  label: Amazon ECR List Images API
+  slug: amazon-ecr-list-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-list-images-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

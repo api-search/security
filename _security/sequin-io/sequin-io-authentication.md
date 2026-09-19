@@ -62,7 +62,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs
 summary_line: http · 1 scheme
 tags:
 - Change Data Capture
-- CDC
 - Postgres
 - Streaming
 - Open-Source

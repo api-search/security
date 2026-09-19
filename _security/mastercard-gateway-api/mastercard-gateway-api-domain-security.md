@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard-gat
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Credit Cards
-- Gateway
+- Gateways
 - Payment Processing
 - Payments
 ---

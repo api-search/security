@@ -44,13 +44,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blynk/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT
-- Internet of Things
 - No-Code
 - Low-Code
 - Connected Devices
 - Device Management
 - Fleet Management
-- Mobile Apps
+- Mobile App
 - Dashboards
 - Telemetry
 - Firmware

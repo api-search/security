@@ -80,7 +80,7 @@ tags:
 - Star Wars
 - Open-Source
 - Teaching API
-- Public API
+- Public APIs
 - REST
 - GraphQL
 - Entertainment

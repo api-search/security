@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacetrack/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Space
-- Satellites
+- Satellite
 - TLE
 - Orbital Data
 - Space Surveillance

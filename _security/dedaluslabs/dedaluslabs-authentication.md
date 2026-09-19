@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: dedaluslabs-dedalus-api-api-openapi.yml
   format: yaml
-  label: Dedalus Labs Dedalus API API
+  label: Dedalus Labs Dedalus API
   slug: dedaluslabs-dedalus-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-dedalus-api-api-openapi.yml
@@ -88,7 +88,7 @@ tags:
 - MCP
 - LLM
 - Inference
-- Gateway
+- Gateways
 - Compute
 - Sandbox
 - Developer Tools

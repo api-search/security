@@ -36,11 +36,11 @@ tags:
 - Financial-Services
 - Core Banking
 - Digital Banking
-- Credit Unions
+- Credit Union
 - Fintech
 - Account Opening
 - Workflow-Automation
 - CRM
-- BPM
+- Business Process Management
 - Bank Servicing
 ---

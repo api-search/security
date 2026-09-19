@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: northmill-accountcodes-api-openapi.yml
-  format: yaml
-  label: Northmill Account Codes API
-  slug: northmill-accountcodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-accountcodes-api-openapi.yml
 - filename: northmill-accountingsettings-api-openapi.yml
   format: yaml
   label: Northmill Accounting Settings API
@@ -128,12 +122,6 @@ api_specs:
   slug: northmill-sales-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-sales-api-openapi.yml
-- filename: northmill-serviceorders-api-openapi.yml
-  format: yaml
-  label: Northmill Service Orders API
-  slug: northmill-serviceorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-serviceorders-api-openapi.yml
 - filename: northmill-settings-api-openapi.yml
   format: yaml
   label: Northmill Settings API
@@ -182,6 +170,18 @@ api_specs:
   slug: northmill-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-webhooks-api-openapi.yml
+- filename: northmill-account-codes-api-openapi.yml
+  format: yaml
+  label: Northmill Account Codes API
+  slug: northmill-account-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-account-codes-api-openapi.yml
+- filename: northmill-service-orders-api-openapi.yml
+  format: yaml
+  label: Northmill Service Orders API
+  slug: northmill-service-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/openapi/northmill-service-orders-api-openapi.yml
 auth_types:
 - http
 description: Two surfaces, two authentication models. The Flo commerce API is HTTP Basic and nothing else. The PSD2 TPP interface is request-signing with an asymmetric key pair the TPP registers in the Northmill Bank Dashboard, carried on an Authorization header in either a Token (Basic) or JWT (Bearer) scheme.
@@ -256,5 +256,5 @@ tags:
 - Webhook
 - E-Commerce
 - Lending
-- Nordics
+- Nordic
 ---

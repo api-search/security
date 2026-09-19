@@ -92,7 +92,6 @@ tags:
 - Machine-Learning
 - Inference
 - LLM
-- Large Language Models
 - OpenAI-Compatible
 - GPU Compute
 - Embeddings

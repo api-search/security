@@ -39,5 +39,5 @@ tags:
 - Hardware
 - Intellectual Property Licensing
 - Smart Cities
-- Vehicle to Grid
+- Vehicle-to-Grid
 ---

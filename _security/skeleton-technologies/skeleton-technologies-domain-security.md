@@ -37,7 +37,7 @@ tags:
 - Ultracapacitors
 - Graphene
 - Manufacturing
-- Data Centers
+- Data-Center
 - Grid Stability
 - Hardware
 - Estonia

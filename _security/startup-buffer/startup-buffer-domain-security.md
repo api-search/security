@@ -39,6 +39,6 @@ tags:
 - Directory
 - Product Discovery
 - Startups
-- Listing
+- Listings
 - Community
 ---

@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: clover-health-fhir-r4-formulary-api-api-openapi.yml
   format: yaml
-  label: Clover Health fhir-r4-formulary-api API
+  label: Clover Health fhir-r4-formulary-api
   slug: clover-health-fhir-r4-formulary-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml
 - filename: clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
   format: yaml
-  label: Clover Health FHIR R4 ProviderDirectory API API
+  label: Clover Health FHIR R4 ProviderDirectory API
   slug: clover-health-fhir-r4-providerdirectory-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
@@ -59,5 +59,5 @@ tags:
 - Provider Directory
 - Formulary
 - Patient Access
-- Payer
+- Payers
 ---

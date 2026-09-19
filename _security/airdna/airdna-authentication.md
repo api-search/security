@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/he
 summary_line: http · 1 scheme
 tags:
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Market Data
 - Real-Estate
 - Analytics

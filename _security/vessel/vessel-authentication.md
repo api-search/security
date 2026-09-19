@@ -40,12 +40,6 @@ api_specs:
   slug: vessel-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-connections-api-openapi.yml
-- filename: vessel-contactcustomfields-api-openapi.yml
-  format: yaml
-  label: Vessel Contact Custom Fields API
-  slug: vessel-contactcustomfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-contactcustomfields-api-openapi.yml
 - filename: vessel-contacts-api-openapi.yml
   format: yaml
   label: Vessel Contacts API
@@ -226,6 +220,12 @@ api_specs:
   slug: vessel-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-webhooks-api-openapi.yml
+- filename: vessel-contact-custom-fields-api-openapi.yml
+  format: yaml
+  label: Vessel Contact Custom Fields API
+  slug: vessel-contact-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-contact-custom-fields-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

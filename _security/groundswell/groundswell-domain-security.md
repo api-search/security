@@ -46,5 +46,5 @@ tags:
 - Philanthropy
 - Employee Assistance
 - Non-Profit
-- HR Tech
+- Human Resources
 ---

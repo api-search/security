@@ -138,12 +138,6 @@ api_specs:
   slug: amazon-transfer-family-describecertificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-describecertificate-api-openapi.yml
-- filename: amazon-transfer-family-describeconnector-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family DescribeConnector API
-  slug: amazon-transfer-family-describeconnector-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-describeconnector-api-openapi.yml
 - filename: amazon-transfer-family-describeexecution-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family DescribeExecution API
@@ -234,12 +228,6 @@ api_specs:
   slug: amazon-transfer-family-listcertificates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listcertificates-api-openapi.yml
-- filename: amazon-transfer-family-listconnectors-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family ListConnectors API
-  slug: amazon-transfer-family-listconnectors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listconnectors-api-openapi.yml
 - filename: amazon-transfer-family-listexecutions-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family ListExecutions API
@@ -258,30 +246,12 @@ api_specs:
   slug: amazon-transfer-family-listhostkeys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listhostkeys-api-openapi.yml
-- filename: amazon-transfer-family-listprofiles-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family ListProfiles API
-  slug: amazon-transfer-family-listprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listprofiles-api-openapi.yml
 - filename: amazon-transfer-family-listsecuritypolicies-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family ListSecurityPolicies API
   slug: amazon-transfer-family-listsecuritypolicies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listsecuritypolicies-api-openapi.yml
-- filename: amazon-transfer-family-listservers-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family ListServers API
-  slug: amazon-transfer-family-listservers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listservers-api-openapi.yml
-- filename: amazon-transfer-family-listtagsforresource-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family ListTagsForResource API
-  slug: amazon-transfer-family-listtagsforresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-listtagsforresource-api-openapi.yml
 - filename: amazon-transfer-family-listusers-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family ListUsers API
@@ -342,12 +312,6 @@ api_specs:
   slug: amazon-transfer-family-stopserver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-stopserver-api-openapi.yml
-- filename: amazon-transfer-family-tagresource-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family TagResource API
-  slug: amazon-transfer-family-tagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-tagresource-api-openapi.yml
 - filename: amazon-transfer-family-testconnection-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family TestConnection API
@@ -360,12 +324,6 @@ api_specs:
   slug: amazon-transfer-family-testidentityprovider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-testidentityprovider-api-openapi.yml
-- filename: amazon-transfer-family-untagresource-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family UntagResource API
-  slug: amazon-transfer-family-untagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-untagresource-api-openapi.yml
 - filename: amazon-transfer-family-updateaccess-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family UpdateAccess API
@@ -396,12 +354,6 @@ api_specs:
   slug: amazon-transfer-family-updatehostkey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-updatehostkey-api-openapi.yml
-- filename: amazon-transfer-family-updateprofile-api-openapi.yml
-  format: yaml
-  label: Amazon Transfer Family UpdateProfile API
-  slug: amazon-transfer-family-updateprofile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-updateprofile-api-openapi.yml
 - filename: amazon-transfer-family-updateserver-api-openapi.yml
   format: yaml
   label: Amazon Transfer Family UpdateServer API
@@ -426,6 +378,54 @@ api_specs:
   slug: amazon-transfer-family-updatewebappcustomization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-updatewebappcustomization-api-openapi.yml
+- filename: amazon-transfer-family-describe-connector-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family Describe Connector API
+  slug: amazon-transfer-family-describe-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-describe-connector-api-openapi.yml
+- filename: amazon-transfer-family-list-connectors-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family List Connectors API
+  slug: amazon-transfer-family-list-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-list-connectors-api-openapi.yml
+- filename: amazon-transfer-family-list-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family List Profiles API
+  slug: amazon-transfer-family-list-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-list-profiles-api-openapi.yml
+- filename: amazon-transfer-family-list-servers-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family List Servers API
+  slug: amazon-transfer-family-list-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-list-servers-api-openapi.yml
+- filename: amazon-transfer-family-list-tags-for-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family List Tags For Resource API
+  slug: amazon-transfer-family-list-tags-for-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-list-tags-for-resource-api-openapi.yml
+- filename: amazon-transfer-family-tag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family Tag Resource API
+  slug: amazon-transfer-family-tag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-tag-resource-api-openapi.yml
+- filename: amazon-transfer-family-untag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family Untag Resource API
+  slug: amazon-transfer-family-untag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-untag-resource-api-openapi.yml
+- filename: amazon-transfer-family-update-profile-api-openapi.yml
+  format: yaml
+  label: Amazon Transfer Family Update Profile API
+  slug: amazon-transfer-family-update-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-update-profile-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

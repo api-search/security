@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Creator Economy
-- Memberships
+- Membership
 - Subscription
 - Tips
 - Payments

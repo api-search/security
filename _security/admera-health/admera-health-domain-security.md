@@ -45,6 +45,6 @@ tags:
 - Healthcare
 - Laboratory Services
 - Biotechnology
-- Multi-Omics
+- Multiomics
 - Contract Research
 ---

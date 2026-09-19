@@ -53,7 +53,7 @@ tags:
 - Education
 - EdTech
 - Artificial Intelligence
-- Discussion
+- Discussions
 - Writing Feedback
 - LTI
 - LMS

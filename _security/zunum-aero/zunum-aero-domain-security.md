@@ -35,7 +35,7 @@ tags:
 - Aviation
 - Aircraft Manufacturing
 - Electric Aviation
-- Hybrid Electric Propulsion
+- Hybrid-Electric Propulsion
 - Regional Air Travel
 - Transportation
 - Hardware

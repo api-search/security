@@ -12,12 +12,6 @@ api_specs:
   slug: grin-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/openapi/grin-therapeutics-media-api-openapi.yml
-- filename: grin-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: GRIN Therapeutics Oembed API
-  slug: grin-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/openapi/grin-therapeutics-oembed-api-openapi.yml
 - filename: grin-therapeutics-pages-api-openapi.yml
   format: yaml
   label: GRIN Therapeutics Pages API
@@ -48,6 +42,12 @@ api_specs:
   slug: grin-therapeutics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/openapi/grin-therapeutics-users-api-openapi.yml
+- filename: grin-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: GRIN Therapeutics o Embed API
+  slug: grin-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/openapi/grin-therapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

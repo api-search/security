@@ -47,7 +47,7 @@ tags:
 - Banking
 - Canada
 - Schedule I Bank
-- Mortgages
+- Mortgage
 - Deposits
 - Brokers
 - Alberta

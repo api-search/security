@@ -95,7 +95,7 @@ tags:
 - Consumer Products
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - MCP
 - Universal Commerce Protocol

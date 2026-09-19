@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-spending-api-openapi.yml
 - filename: department-of-the-treasury-treasury-operations-api-openapi.yml
   format: yaml
-  label: Department of the Treasury Treasury Operations API
+  label: Department of the Treasury Operations API
   slug: department-of-the-treasury-treasury-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-treasury-operations-api-openapi.yml

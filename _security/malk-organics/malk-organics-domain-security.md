@@ -40,7 +40,7 @@ tags:
 - Plant-Based
 - Organic
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 ---

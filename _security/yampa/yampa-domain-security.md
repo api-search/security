@@ -35,7 +35,7 @@ tags:
 - Ai Ml
 - AI Agents
 - Customer Service
-- Contact Centers
+- Contact Center
 - Voice
 - Chat
 - Email

@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Customer-Support
-- AI Agent
+- AI Agents
 - Support Automation
 - Workflows
 - Help Desk

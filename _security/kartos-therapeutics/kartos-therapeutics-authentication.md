@@ -20,12 +20,6 @@ api_specs:
   slug: kartos-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-media-api-openapi.yml
-- filename: kartos-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics Oembed API
-  slug: kartos-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-oembed-api-openapi.yml
 - filename: kartos-therapeutics-people-api-openapi.yml
   format: yaml
   label: Kartos Therapeutics People API
@@ -44,6 +38,12 @@ api_specs:
   slug: kartos-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-taxonomy-api-openapi.yml
+- filename: kartos-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Kartos Therapeutics o Embed API
+  slug: kartos-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''

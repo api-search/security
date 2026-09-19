@@ -20,18 +20,18 @@ api_specs:
   slug: podio-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-items-api-openapi.yml
-- filename: podio-oauth-api-openapi.yml
-  format: yaml
-  label: Podio OAuth API
-  slug: podio-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
 - filename: podio-tasks-api-openapi.yml
   format: yaml
   label: Podio Tasks API
   slug: podio-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-tasks-api-openapi.yml
+- filename: podio-oauth-api-openapi.yml
+  format: yaml
+  label: Podio O Auth API
+  slug: podio-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2

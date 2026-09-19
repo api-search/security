@@ -88,12 +88,6 @@ api_specs:
   slug: nexla-data-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-data-maps-api-openapi.yml
-- filename: nexla-data-sets-api-openapi.yml
-  format: yaml
-  label: Nexla Data Sets API
-  slug: nexla-data-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-data-sets-api-openapi.yml
 - filename: nexla-destinations-data-sinks-api-openapi.yml
   format: yaml
   label: Nexla Destinations (Data Sinks) API
@@ -258,7 +252,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-metrics-api-openapi.yml
 - filename: nexla-nexla-admin-api-api-openapi.yml
   format: yaml
-  label: Nexla Nexla Admin API
+  label: Nexla Admin API
   slug: nexla-nexla-admin-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-nexla-admin-api-api-openapi.yml
@@ -370,12 +364,6 @@ api_specs:
   slug: nexla-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-tools-api-openapi.yml
-- filename: nexla-toolsets-api-openapi.yml
-  format: yaml
-  label: Nexla Toolsets API
-  slug: nexla-toolsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-toolsets-api-openapi.yml
 - filename: nexla-transforms-api-openapi.yml
   format: yaml
   label: Nexla Transforms API
@@ -436,6 +424,18 @@ api_specs:
   slug: nexla-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-well-known-api-openapi.yml
+- filename: nexla-datasets-api-openapi.yml
+  format: yaml
+  label: Nexla Datasets API
+  slug: nexla-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-datasets-api-openapi.yml
+- filename: nexla-tool-sets-api-openapi.yml
+  format: yaml
+  label: Nexla Tool Sets API
+  slug: nexla-tool-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexla/refs/heads/main/openapi/nexla-tool-sets-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -516,7 +516,7 @@ tags:
 - Change Data Capture
 - Data Governance
 - Artificial Intelligence
-- Retrieval Augmented Generation
+- RAG
 - MCP
 - Agent Tools
 - Data Pipeline

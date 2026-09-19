@@ -32,7 +32,7 @@ tags:
 - Company
 - Crypto
 - DeFi
-- Oracles
+- Oracle
 - NFT
 - Asset Valuation
 - Smart Contracts

@@ -72,12 +72,12 @@ api_specs:
   slug: freshbooks-taxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-taxes-api-openapi.yml
-- filename: freshbooks-timeentries-api-openapi.yml
+- filename: freshbooks-time-entries-api-openapi.yml
   format: yaml
-  label: FreshBooks TimeEntries API
-  slug: freshbooks-timeentries-api
+  label: FreshBooks Time Entries API
+  slug: freshbooks-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-timeentries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-time-entries-api-openapi.yml
 description: ''
 domains:
 - caa:

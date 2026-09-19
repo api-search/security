@@ -426,12 +426,12 @@ api_specs:
   slug: b3-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflow-api-openapi.yml
-- filename: b3-workflowvariables-api-openapi.yml
+- filename: b3-workflow-variables-api-openapi.yml
   format: yaml
   label: B3 Workflow Variables API
-  slug: b3-workflowvariables-api
+  slug: b3-workflow-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflowvariables-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflow-variables-api-openapi.yml
 description: ''
 domains:
 - caa: []

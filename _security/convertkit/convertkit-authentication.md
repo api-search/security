@@ -87,12 +87,12 @@ api_specs:
   slug: convertkit-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-webhooks-api-openapi.yml
-- filename: kit-account-api-openapi.yml
+- filename: convertkit-account-api-openapi.yml
   format: yaml
   label: Kit Account API
-  slug: kit-account-api
+  slug: convertkit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/kit-account-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-account-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -172,7 +172,7 @@ tags:
 - Newsletters
 - Sequences
 - Forms
-- Broadcasts
+- Broadcast
 - Webhook
 - MCP
 - Agents

@@ -34,7 +34,7 @@ tags:
 - Building Materials
 - Chemicals
 - Industrial Holding
-- Investments
+- Investment
 - Logistics
 - Manufacturing
 - Performance Materials

@@ -34,7 +34,7 @@ tags:
 - Recruitment
 - Data Enrichment
 - Talent Intelligence
-- HR Tech
+- Human Resources
 - Candidate Data
 - ATS Integration
 - Sourcing

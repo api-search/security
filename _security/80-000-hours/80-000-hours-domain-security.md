@@ -38,6 +38,6 @@ tags:
 - Job Board
 - AI Safety
 - Research
-- Podcast
+- Podcasts
 - Content
 ---

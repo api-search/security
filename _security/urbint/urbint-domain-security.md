@@ -35,7 +35,7 @@ tags:
 - Utilities
 - Energy
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Worker Safety
 - Risk Management
 - Damage Prevention

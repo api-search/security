@@ -15,12 +15,6 @@ api_specs:
   slug: hyperlabs-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-account-api-openapi.yml
-- filename: hyperlabs-adminaccount-api-openapi.yml
-  format: yaml
-  label: HYPERLABS Admin Account API
-  slug: hyperlabs-adminaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-adminaccount-api-openapi.yml
 - filename: hyperlabs-admindatasheets-api-openapi.yml
   format: yaml
   label: HYPERLABS Admin Datasheets API
@@ -111,24 +105,12 @@ api_specs:
   slug: hyperlabs-contactmessages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-contactmessages-api-openapi.yml
-- filename: hyperlabs-customerprofile-api-openapi.yml
-  format: yaml
-  label: HYPERLABS Customer Profile API
-  slug: hyperlabs-customerprofile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-customerprofile-api-openapi.yml
 - filename: hyperlabs-customerwishlists-api-openapi.yml
   format: yaml
   label: HYPERLABS Customer Wishlists API
   slug: hyperlabs-customerwishlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-customerwishlists-api-openapi.yml
-- filename: hyperlabs-mediafiles-api-openapi.yml
-  format: yaml
-  label: HYPERLABS Media Files API
-  slug: hyperlabs-mediafiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-mediafiles-api-openapi.yml
 - filename: hyperlabs-productclasses-api-openapi.yml
   format: yaml
   label: HYPERLABS Product Classes API
@@ -141,12 +123,6 @@ api_specs:
   slug: hyperlabs-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-products-api-openapi.yml
-- filename: hyperlabs-productunits-api-openapi.yml
-  format: yaml
-  label: HYPERLABS Product Units API
-  slug: hyperlabs-productunits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-productunits-api-openapi.yml
 - filename: hyperlabs-requestquotes-api-openapi.yml
   format: yaml
   label: HYPERLABS Request Quotes API
@@ -177,12 +153,6 @@ api_specs:
   slug: hyperlabs-specificationtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-specificationtypes-api-openapi.yml
-- filename: hyperlabs-tagtypes-api-openapi.yml
-  format: yaml
-  label: HYPERLABS Tag Types API
-  slug: hyperlabs-tagtypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-tagtypes-api-openapi.yml
 - filename: hyperlabs-tech-api-openapi.yml
   format: yaml
   label: HYPERLABS Tech API
@@ -267,6 +237,36 @@ api_specs:
   slug: hyperlabs-wishlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-wishlists-api-openapi.yml
+- filename: hyperlabs-admin-account-api-openapi.yml
+  format: yaml
+  label: HYPERLABS Admin Account API
+  slug: hyperlabs-admin-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-admin-account-api-openapi.yml
+- filename: hyperlabs-customer-profile-api-openapi.yml
+  format: yaml
+  label: HYPERLABS Customer Profile API
+  slug: hyperlabs-customer-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-customer-profile-api-openapi.yml
+- filename: hyperlabs-media-files-api-openapi.yml
+  format: yaml
+  label: HYPERLABS Media Files API
+  slug: hyperlabs-media-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-media-files-api-openapi.yml
+- filename: hyperlabs-product-units-api-openapi.yml
+  format: yaml
+  label: HYPERLABS Product Units API
+  slug: hyperlabs-product-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-product-units-api-openapi.yml
+- filename: hyperlabs-tag-types-api-openapi.yml
+  format: yaml
+  label: HYPERLABS Tag Types API
+  slug: hyperlabs-tag-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-tag-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

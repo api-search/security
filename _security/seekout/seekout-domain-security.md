@@ -39,7 +39,7 @@ tags:
 - Company
 - Recruiting
 - Talent Acquisition
-- HR Tech
+- Human Resources
 - Sourcing
 - Artificial Intelligence
 - Candidate Search

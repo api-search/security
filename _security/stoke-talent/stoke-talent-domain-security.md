@@ -31,7 +31,7 @@ tags:
 - Freelance Management
 - Contingent Workforce
 - Contractor Management
-- HR Tech
+- Human Resources
 - Compliance
 - Payments
 - Fiverr Enterprise

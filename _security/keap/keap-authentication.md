@@ -170,12 +170,6 @@ api_specs:
   slug: keap-appointment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-appointment-api-openapi.yml
-- filename: keap-e-commerce-api-openapi.yml
-  format: yaml
-  label: Keap E Commerce API
-  slug: keap-e-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-e-commerce-api-openapi.yml
 - filename: keap-file-api-openapi.yml
   format: yaml
   label: Keap File API
@@ -308,6 +302,12 @@ api_specs:
   slug: keap-webforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-webforms-api-openapi.yml
+- filename: keap-ecommerce-api-openapi.yml
+  format: yaml
+  label: Keap Ecommerce API
+  slug: keap-ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-ecommerce-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

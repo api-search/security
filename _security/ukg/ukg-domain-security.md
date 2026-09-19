@@ -96,7 +96,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - HCM
 - Workforce Management
-- HR
+- Human Resources
 - Payroll
 - Time and Attendance
 - Benefits

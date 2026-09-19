@@ -153,7 +153,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/widen/refs/hea
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Digital Asset Management
-- DAM
 - Media
 - Assets
 - Metadata

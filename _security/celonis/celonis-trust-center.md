@@ -38,13 +38,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-job-execution-group-api-openapi.yml
 - filename: celonis-login-history-api-api-openapi.yml
   format: yaml
-  label: Celonis Login History API API
+  label: Celonis Login History API
   slug: celonis-login-history-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-login-history-api-api-openapi.yml
 - filename: celonis-members-api-api-openapi.yml
   format: yaml
-  label: Celonis Members API API
+  label: Celonis Members API
   slug: celonis-members-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-members-api-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-openapi-tool-calling-api-openapi.yml
 - filename: celonis-permissions-export-api-api-openapi.yml
   format: yaml
-  label: Celonis Permissions Export API API
+  label: Celonis Permissions Export API
   slug: celonis-permissions-export-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-permissions-export-api-api-openapi.yml

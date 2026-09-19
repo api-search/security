@@ -73,7 +73,7 @@ tags:
 - Partnership Marketing
 - Publishers
 - Creators
-- Conversions
+- Conversion
 - Deep Links
 - Commissions
 - E-Commerce

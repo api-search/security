@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Solar
-- Photovoltaic
+- Photovoltaics
 - Renewable Energy
 - Manufacturing
 - Energy

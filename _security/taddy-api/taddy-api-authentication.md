@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: taddy-api-graphql-api-openapi.yml
+- filename: taddy-api-graph-ql-api-openapi.yml
   format: yaml
-  label: Taddy API GraphQL API
-  slug: taddy-api-graphql-api
+  label: Taddy API Graph QL API
+  slug: taddy-api-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/openapi/taddy-api-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/openapi/taddy-api-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

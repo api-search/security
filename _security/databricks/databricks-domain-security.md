@@ -66,7 +66,7 @@ tags:
 - Analytics
 - Apache Spark
 - Big Data
-- Cleanrooms
+- Cleanroom
 - Cloud Computing
 - Data
 - Data Analytics

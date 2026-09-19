@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: amazon-lex-bots-api-openapi.yml
+- filename: amazon-lex-models-v2-openapi.yml
   format: yaml
   label: Amazon Lex Bots API
   slug: amazon-lex-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-models-v2-openapi.yml
+- filename: amazon-lex-runtime-v2-openapi.yml
+  format: yaml
+  label: Amazon Lex Runtime V2 API
+  slug: amazon-lex-runtime-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-runtime-v2-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -25,9 +31,17 @@ slug: amazon-lex-trust-center
 source_filename: amazon-lex-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
+source_yaml: "generated: '2026-09-17'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/security/amazon-lex-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
-tags: []
+tags:
+- Artificial Intelligence
+- Conversational AI
+- Chatbots
+- Natural Language Processing
+- Speech
+- Voice
+- Contact Center
+- Customer Service
 trust_url: https://aws.amazon.com/compliance/
 ---

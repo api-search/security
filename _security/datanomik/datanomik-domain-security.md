@@ -114,6 +114,6 @@ tags:
 - Financial Data
 - Bank Connectivity
 - Brazil
-- LatAm
+- Latin America
 - Fintech
 ---

@@ -36,9 +36,9 @@ tags:
 - Medical Devices
 - Consumer Health
 - Contact Lenses
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Manufacturing
 ---

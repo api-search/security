@@ -60,10 +60,10 @@ summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Market Data
 - Options
-- Equities
+- Stocks
 - Derivatives
 - Volatility
 - Financial Markets
-- Exchanges
+- Exchange
 - Trading
 ---

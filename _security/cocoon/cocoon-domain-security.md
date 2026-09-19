@@ -34,7 +34,6 @@ tags:
 - Company
 - Human Resources
 - Leave Management
-- HR Tech
 - Compliance
 - Payroll
 - HRIS

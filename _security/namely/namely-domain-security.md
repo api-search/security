@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-likes-api-openapi.yml
 - filename: namely-namely-system-info-api-openapi.yml
   format: yaml
-  label: Namely Namely System Info API
+  label: Namely System Info API
   slug: namely-namely-system-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-namely-system-info-api-openapi.yml
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/security/namely-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
+- Human Resources
 - HCM
 - Payroll
 - Employee Data
@@ -161,7 +161,8 @@ tags:
 - Applicant Tracking
 - Performance Management
 - SCIM
-- Single Sign-On
+- SSO
 - Identity Provisioning
 - Workforce Management
+- Identity Federation
 ---

@@ -2,18 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-groningen-course-catalog-api-openapi.yml
+- filename: university-of-groningen-academic-years-api-openapi.yml
   format: yaml
-  label: University of Groningen Ocasys Course Catalog API
-  slug: ocasys-course-catalog
+  label: University of Groningen Academic Years API
+  slug: university-of-groningen-academic-years-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-course-catalog-api-openapi.yml
-- filename: university-of-groningen-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-academic-years-api-openapi.yml
+- filename: university-of-groningen-courses-api-openapi.yml
   format: yaml
-  label: University of Groningen Research Database OAI-PMH
-  slug: pure-oai-pmh
+  label: University of Groningen Courses API
+  slug: university-of-groningen-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-courses-api-openapi.yml
+- filename: university-of-groningen-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Groningen OAI PMH API
+  slug: university-of-groningen-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-oai-pmh-api-openapi.yml
+- filename: university-of-groningen-option-lists-api-openapi.yml
+  format: yaml
+  label: University of Groningen Option Lists API
+  slug: university-of-groningen-option-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-option-lists-api-openapi.yml
+- filename: university-of-groningen-organization-api-openapi.yml
+  format: yaml
+  label: University of Groningen Organization API
+  slug: university-of-groningen-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-organization-api-openapi.yml
+- filename: university-of-groningen-programmes-api-openapi.yml
+  format: yaml
+  label: University of Groningen Programmes API
+  slug: university-of-groningen-programmes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/openapi/university-of-groningen-programmes-api-openapi.yml
 auth_types: []
 description: 'How access actually works across the University of Groningen''s programmable surfaces, established by calling each one on 2026-08-30. There is no institutional developer portal, no API key issuance and no self-service registration anywhere in this footprint. Access is one of three things: fully open, gated behind the University''s SAML single sign-on, or gated behind a key that a vendor''s platform issues to the institution rather than to a developer.'
 kind: authentication

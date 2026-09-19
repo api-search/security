@@ -34,9 +34,9 @@ tags:
 - Company
 - Aerospace
 - Space
-- Satellites
+- Satellite
 - Launch Vehicles
-- Data Centers
+- Data-Center
 - Artificial Intelligence
 - Energy
 - Solar Power

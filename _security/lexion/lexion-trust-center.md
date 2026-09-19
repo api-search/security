@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexion/refs/he
 summary_line: SOC 2, ISO 27001
 tags:
 - Contract Management
-- CLM
+- Contract Lifecycle Management
 - Artificial Intelligence
 - Legal Tech
 - Document Extraction

@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Akka
 - Event Sourcing
-- Frameworks
+- Framework
 - Java
 - Microservices
 - Reactive

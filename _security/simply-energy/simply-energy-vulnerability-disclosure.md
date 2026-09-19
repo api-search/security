@@ -32,25 +32,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-usage-api-openapi.yml
 - filename: simply-energy-energy-account-balances-api-openapi.yml
   format: yaml
-  label: Simply Energy Energy Account Balances API
+  label: Simply Energy Account Balances API
   slug: simply-energy-energy-account-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-balances-api-openapi.yml
 - filename: simply-energy-energy-account-billing-api-openapi.yml
   format: yaml
-  label: Simply Energy Energy Account Billing API
+  label: Simply Energy Account Billing API
   slug: simply-energy-energy-account-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-billing-api-openapi.yml
 - filename: simply-energy-energy-accounts-api-openapi.yml
   format: yaml
-  label: Simply Energy Energy Accounts API
+  label: Simply Energy Accounts API
   slug: simply-energy-energy-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-accounts-api-openapi.yml
 - filename: simply-energy-energy-plans-api-openapi.yml
   format: yaml
-  label: Simply Energy Energy Plans API
+  label: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-plans-api-openapi.yml

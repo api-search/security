@@ -91,7 +91,7 @@ tags:
 - Energy
 - Monitoring
 - PV
-- Inverter
+- Inverters
 - Renewable Energy
 - IoT
 ---

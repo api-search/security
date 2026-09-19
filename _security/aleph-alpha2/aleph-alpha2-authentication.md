@@ -36,7 +36,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Machine-Learning
 - Generative AI
 - Sovereign AI

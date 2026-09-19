@@ -8,12 +8,6 @@ api_specs:
   slug: event-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/asyncapi/fauna-event-streaming-asyncapi.yml
-- filename: fauna-graphql-api-openapi.yml
-  format: yaml
-  label: Fauna GraphQL API
-  slug: graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graphql-api-openapi.yml
 - filename: fauna-eventfeeds-api-openapi.yml
   format: yaml
   label: fauna EventFeeds API
@@ -32,6 +26,12 @@ api_specs:
   slug: fauna-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-schema-api-openapi.yml
+- filename: fauna-graph-ql-api-openapi.yml
+  format: yaml
+  label: Fauna Graph QL API
+  slug: fauna-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,15 +51,25 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/fauna-core-http-api-openapi.yml
-  - openapi/fauna-graphql-api-openapi.yml
+  - openapi/fauna-eventfeeds-api-openapi.yml
+  - openapi/fauna-graph-ql-api-openapi.yml
+  - openapi/fauna-query-api-openapi.yml
+  - openapi/fauna-schema-api-openapi.yml
   type: http
 slug: fauna-authentication
 source_filename: fauna-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fauna-core-http-api-openapi.yml, openapi/fauna-graphql-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Fauna authentication secret passed as a bearer token. Secrets can be keys, tokens,\n    or JWTs from third-party identity providers.\n  sources:\n  - openapi/fauna-core-http-api-openapi.yml\n  - openapi/fauna-graphql-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/fauna-eventfeeds-api-openapi.yml, openapi/fauna-graph-ql-api-openapi.yml, openapi/fauna-query-api-openapi.yml,\n  openapi/fauna-schema-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Fauna authentication secret passed as a bearer token. Secrets can be keys, tokens,\n    or JWTs from third-party identity providers.\n  sources:\n  - openapi/fauna-eventfeeds-api-openapi.yml\n  - openapi/fauna-graph-ql-api-openapi.yml\n  - openapi/fauna-query-api-openapi.yml\n  - openapi/fauna-schema-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/authentication/fauna-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Database
+- Document Database
+- Serverless
+- Distributed Systems
+- Change Data Capture
+- GraphQL
+- Cloud
+- Developer Tools
 ---

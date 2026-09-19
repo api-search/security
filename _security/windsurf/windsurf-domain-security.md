@@ -24,30 +24,12 @@ api_specs:
   slug: windsurf-usageconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-usageconfiguration-api-openapi.yml
-- filename: windsurf-useranalytics-api-openapi.yml
+- filename: windsurf-user-analytics-api-openapi.yml
   format: yaml
-  label: Windsurf UserAnalytics API
-  slug: windsurf-useranalytics-api
+  label: Windsurf User Analytics API
+  slug: windsurf-user-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-useranalytics-api-openapi.yml
-- filename: windsurfrules-analytics-api-openapi.yml
-  format: yaml
-  label: Windsurf analytics API
-  slug: windsurfrules-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-analytics-api-openapi.yml
-- filename: windsurfrules-billing-api-openapi.yml
-  format: yaml
-  label: Windsurf billing API
-  slug: windsurfrules-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-billing-api-openapi.yml
-- filename: windsurfrules-teams-api-openapi.yml
-  format: yaml
-  label: Windsurf teams API
-  slug: windsurfrules-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-teams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-user-analytics-api-openapi.yml
 description: ''
 domains:
 - caa:

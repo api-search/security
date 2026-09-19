@@ -71,9 +71,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recode-therape
 summary_line: 0 schemes
 tags:
 - Company
-- Genetic Medicines
+- Genetic Medicine
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - mRNA
 - gene-correction
 - Lipid Nanoparticles

@@ -68,5 +68,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/realtor-property-data-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: rapidApiKey\n  type: apiKey\n  in: header\n  parameter: X-RapidAPI-Key\n  description: API key provided by RapidAPI for authenticating requests.\n  sources:\n  - openapi/realtor-property-data-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/authentication/realtor-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- Agents
+- Real-Estate
+- Brokers
+- CRM
+- Delivery
 ---

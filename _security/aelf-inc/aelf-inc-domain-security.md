@@ -1,17 +1,101 @@
 ---
 api_specs:
-- filename: aelf-inc-node-web-api-openapi.json
-  format: json
-  label: aelf Node Web API
-  slug: aelf-node-web-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-node-web-api-openapi.json
-- filename: aelf-inc-agent-gateway-openapi.yaml
+- filename: aelf-inc-admin-api-openapi.yml
   format: yaml
-  label: aelf Agent Gateway API
-  slug: aelf-agent-gateway-api
+  label: Aelf Admin API
+  slug: aelf-inc-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-agent-gateway-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-admin-api-openapi.yml
+- filename: aelf-inc-approvals-api-openapi.yml
+  format: yaml
+  label: Aelf Approvals API
+  slug: aelf-inc-approvals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-approvals-api-openapi.yml
+- filename: aelf-inc-balances-api-openapi.yml
+  format: yaml
+  label: Aelf Balances API
+  slug: aelf-inc-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-balances-api-openapi.yml
+- filename: aelf-inc-blockchain-api-openapi.yml
+  format: yaml
+  label: Aelf Block Chain API
+  slug: aelf-inc-blockchain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-blockchain-api-openapi.yml
+- filename: aelf-inc-chains-api-openapi.yml
+  format: yaml
+  label: Aelf Chains API
+  slug: aelf-inc-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-chains-api-openapi.yml
+- filename: aelf-inc-chainstatus-api-openapi.yml
+  format: yaml
+  label: Aelf Chain Status API
+  slug: aelf-inc-chainstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-chainstatus-api-openapi.yml
+- filename: aelf-inc-contractfiledescriptorset-api-openapi.yml
+  format: yaml
+  label: Aelf Contract File Descriptor Set API
+  slug: aelf-inc-contractfiledescriptorset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-contractfiledescriptorset-api-openapi.yml
+- filename: aelf-inc-explorer-api-openapi.yml
+  format: yaml
+  label: Aelf Explorer API
+  slug: aelf-inc-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-explorer-api-openapi.yml
+- filename: aelf-inc-health-api-openapi.yml
+  format: yaml
+  label: Aelf Health API
+  slug: aelf-inc-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-health-api-openapi.yml
+- filename: aelf-inc-net-api-openapi.yml
+  format: yaml
+  label: Aelf Net API
+  slug: aelf-inc-net-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-net-api-openapi.yml
+- filename: aelf-inc-taskqueuestatus-api-openapi.yml
+  format: yaml
+  label: Aelf Task Queue Status API
+  slug: aelf-inc-taskqueuestatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-taskqueuestatus-api-openapi.yml
+- filename: aelf-inc-transaction-api-openapi.yml
+  format: yaml
+  label: Aelf Transaction API
+  slug: aelf-inc-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transaction-api-openapi.yml
+- filename: aelf-inc-transactionresult-api-openapi.yml
+  format: yaml
+  label: Aelf Transaction Result API
+  slug: aelf-inc-transactionresult-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transactionresult-api-openapi.yml
+- filename: aelf-inc-transactions-api-openapi.yml
+  format: yaml
+  label: Aelf Transactions API
+  slug: aelf-inc-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transactions-api-openapi.yml
+- filename: aelf-inc-transfers-api-openapi.yml
+  format: yaml
+  label: Aelf Transfers API
+  slug: aelf-inc-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-transfers-api-openapi.yml
+- filename: aelf-inc-wallets-api-openapi.yml
+  format: yaml
+  label: Aelf Wallets API
+  slug: aelf-inc-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/openapi/aelf-inc-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

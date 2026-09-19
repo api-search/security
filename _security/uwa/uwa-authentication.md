@@ -4,12 +4,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: uwa-oai-pmh-openapi.yml
+- filename: uwa-oai-pmh-api-openapi.yml
   format: yaml
-  label: UWA Research Repository OAI-PMH
-  slug: oai-pmh
+  label: University of Western Australia Oai Pmh API
+  slug: uwa-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/openapi/uwa-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/openapi/uwa-oai-pmh-api-openapi.yml
 auth_types:
 - none
 - apiKey

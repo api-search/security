@@ -69,7 +69,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Low Cost Carrier
 - Europe
 - Distribution

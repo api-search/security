@@ -34,7 +34,6 @@ tags:
 - Company
 - Healthcare
 - Primary Care
-- Telemedicine
 - Telehealth
 - Artificial Intelligence
 - Longevity

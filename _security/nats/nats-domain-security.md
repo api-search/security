@@ -18,12 +18,6 @@ api_specs:
   slug: nats-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-accounts-api-openapi.yml
-- filename: nats-clustering-api-openapi.yml
-  format: yaml
-  label: NATS Clustering API
-  slug: nats-clustering-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-clustering-api-openapi.yml
 - filename: nats-connections-api-openapi.yml
   format: yaml
   label: NATS Connections API
@@ -72,12 +66,6 @@ api_specs:
   slug: nats-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-subscriptions-api-openapi.yml
-- filename: nats-monitoring-api-openapi.yml
-  format: yaml
-  label: NATS Monitoring API
-  slug: nats-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-monitoring-api-openapi.yml
 description: ''
 domains:
 - caa:

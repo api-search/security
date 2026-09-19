@@ -34,9 +34,9 @@ tags:
 - Childcare
 - Education Technology
 - Early Childhood Education
-- SaaS
+- Software-as-a-Service
 - Japan
-- Internet of Things
+- IoT
 - Artificial Intelligence
 - Workforce Management
 - Photo Sharing

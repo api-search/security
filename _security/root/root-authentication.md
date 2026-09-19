@@ -32,12 +32,6 @@ api_specs:
   slug: root-data-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-data-exports-api-openapi.yml
-- filename: root-data-stores-api-openapi.yml
-  format: yaml
-  label: Root Insurance Data stores API
-  slug: root-data-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-data-stores-api-openapi.yml
 - filename: root-embed-api-openapi.yml
   format: yaml
   label: Root Insurance Embed API
@@ -104,6 +98,12 @@ api_specs:
   slug: root-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-webhooks-api-openapi.yml
+- filename: root-datastores-api-openapi.yml
+  format: yaml
+  label: Root Insurance Datastores API
+  slug: root-datastores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-datastores-api-openapi.yml
 auth_types:
 - http
 description: ''

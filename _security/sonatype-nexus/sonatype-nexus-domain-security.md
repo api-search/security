@@ -48,12 +48,6 @@ api_specs:
   slug: sonatype-nexus-content-selectors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-content-selectors-api-openapi.yml
-- filename: sonatype-nexus-data-store-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Data Store API
-  slug: sonatype-nexus-data-store-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-data-store-api-openapi.yml
 - filename: sonatype-nexus-database-upgrade-api-openapi.yml
   format: yaml
   label: Sonatype Nexus Database Upgrade API
@@ -276,6 +270,12 @@ api_specs:
   slug: sonatype-nexus-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-tasks-api-openapi.yml
+- filename: sonatype-nexus-datastore-api-openapi.yml
+  format: yaml
+  label: Sonatype Nexus Datastore API
+  slug: sonatype-nexus-datastore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-datastore-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -321,4 +321,5 @@ tags:
 - npm
 - Docker
 - Software Supply Chain
+- Developer Tools
 ---

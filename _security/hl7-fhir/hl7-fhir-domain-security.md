@@ -18,12 +18,6 @@ api_specs:
   slug: hl7-fhir-encounter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-encounter-api-openapi.yml
-- filename: hl7-fhir-medicationrequest-api-openapi.yml
-  format: yaml
-  label: HL7 FHIR MedicationRequest API
-  slug: hl7-fhir-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-medicationrequest-api-openapi.yml
 - filename: hl7-fhir-observation-api-openapi.yml
   format: yaml
   label: HL7 FHIR Observation API
@@ -36,6 +30,12 @@ api_specs:
   slug: hl7-fhir-patient-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-patient-api-openapi.yml
+- filename: hl7-fhir-medication-request-api-openapi.yml
+  format: yaml
+  label: HL7 FHIR Medication Request API
+  slug: hl7-fhir-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-medication-request-api-openapi.yml
 description: ''
 domains:
 - caa:

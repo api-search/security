@@ -36,7 +36,7 @@ tags:
 - In-Location Experience
 - Retail Technology
 - Restaurant Technology
-- Kiosks
+- Kiosk
 - Content Management
 - Employee Engagement
 - Location Analytics

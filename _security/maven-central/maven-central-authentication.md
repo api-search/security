@@ -50,6 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-central/
 summary_line: http · 1 scheme
 tags:
 - Artifacts
+- Developer Tools
 - Java
 - JVM
 - Maven

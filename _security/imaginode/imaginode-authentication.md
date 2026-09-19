@@ -33,12 +33,12 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: https://imagino
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imaginode/refs/heads/main/authentication/imaginode-authentication.yml
 summary_line: 1 scheme
 tags:
-- ai
-- image generation
-- video generation
-- text to speech
-- mcp
-- generative ai
-- llm
-- creative tools
+- Artificial Intelligence
+- Image-Generation
+- Video Generation
+- Text-to-Speech
+- MCP
+- Generative AI
+- LLM
+- Creative Tools
 ---

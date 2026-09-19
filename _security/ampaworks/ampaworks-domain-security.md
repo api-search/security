@@ -37,5 +37,5 @@ tags:
 - Supply Chain
 - Healthcare
 - Defense
-- Internet of Things
+- IoT
 ---

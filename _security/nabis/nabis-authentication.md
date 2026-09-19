@@ -34,7 +34,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-invoices-api-openapi.yml
 - filename: nabis-nabisdaysoff-api-openapi.yml
   format: yaml
-  label: Nabis Nabis Days Off API
+  label: Nabis Days Off API
   slug: nabis-nabisdaysoff-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/openapi/nabis-nabisdaysoff-api-openapi.yml

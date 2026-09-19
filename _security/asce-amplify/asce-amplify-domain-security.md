@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: asce-amplify-hazard-loads-openapi.yml
+- filename: asce-amplify-flood-api-openapi.yml
   format: yaml
-  label: ASCE Hazard Tool API
-  slug: hazard-tool-api
+  label: ASCE Amplify Flood API
+  slug: asce-amplify-flood-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-hazard-loads-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-flood-api-openapi.yml
+- filename: asce-amplify-ice-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Ice API
+  slug: asce-amplify-ice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-ice-api-openapi.yml
+- filename: asce-amplify-rain-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Rain API
+  slug: asce-amplify-rain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-rain-api-openapi.yml
+- filename: asce-amplify-seismic-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Seismic API
+  slug: asce-amplify-seismic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-seismic-api-openapi.yml
+- filename: asce-amplify-snow-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Snow API
+  slug: asce-amplify-snow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-snow-api-openapi.yml
+- filename: asce-amplify-tornado-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Tornado API
+  slug: asce-amplify-tornado-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-tornado-api-openapi.yml
+- filename: asce-amplify-tsunami-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Tsunami API
+  slug: asce-amplify-tsunami-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-tsunami-api-openapi.yml
+- filename: asce-amplify-wind-api-openapi.yml
+  format: yaml
+  label: ASCE Amplify Wind API
+  slug: asce-amplify-wind-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/openapi/asce-amplify-wind-api-openapi.yml
 description: ''
 domains:
 - caa: []

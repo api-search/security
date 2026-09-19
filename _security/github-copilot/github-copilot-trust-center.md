@@ -2,37 +2,37 @@
 api_specs:
 - filename: github-copilot-copilot-billing-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Copilot Billing API
+  label: GitHub Copilot Billing API
   slug: github-copilot-copilot-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-billing-api-openapi.yml
 - filename: github-copilot-copilot-content-exclusion-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Copilot Content Exclusion API
+  label: GitHub Copilot Content Exclusion API
   slug: github-copilot-copilot-content-exclusion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-content-exclusion-api-openapi.yml
 - filename: github-copilot-copilot-metrics-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Copilot Metrics API
+  label: GitHub Copilot Metrics API
   slug: github-copilot-copilot-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-metrics-api-openapi.yml
 - filename: github-copilot-copilot-seats-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Copilot Seats API
+  label: GitHub Copilot Seats API
   slug: github-copilot-copilot-seats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-seats-api-openapi.yml
 - filename: github-copilot-copilot-usage-reports-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Copilot Usage Reports API
+  label: GitHub Copilot Usage Reports API
   slug: github-copilot-copilot-usage-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-usage-reports-api-openapi.yml
 - filename: github-copilot-copilot-user-management-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Copilot User Management API
+  label: GitHub Copilot User Management API
   slug: github-copilot-copilot-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-user-management-api-openapi.yml

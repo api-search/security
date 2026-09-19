@@ -128,10 +128,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-studio
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud
+- Developer Tools
 - Development
 - Enterprise
 - Finance
-- HR
+- Human Resources
 - IDE
 - Integration
 ---

@@ -144,12 +144,6 @@ api_specs:
   slug: upsun-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/openapi/upsun-organizations-api-openapi.yml
-- filename: upsun-phonenumber-api-openapi.yml
-  format: yaml
-  label: Upsun PhoneNumber API
-  slug: upsun-phonenumber-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/openapi/upsun-phonenumber-api-openapi.yml
 - filename: upsun-profiles-api-openapi.yml
   format: yaml
   label: Upsun Profiles API
@@ -300,6 +294,12 @@ api_specs:
   slug: upsun-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/openapi/upsun-vouchers-api-openapi.yml
+- filename: upsun-phone-number-api-openapi.yml
+  format: yaml
+  label: Upsun Phone Number API
+  slug: upsun-phone-number-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/openapi/upsun-phone-number-api-openapi.yml
 description: ''
 domains:
 - caa: []

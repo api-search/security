@@ -35,7 +35,7 @@ tags:
 - Hiring
 - Talent
 - Job
-- HR Tech
+- Human Resources
 - AI Agents
 - Contract Hiring
 ---

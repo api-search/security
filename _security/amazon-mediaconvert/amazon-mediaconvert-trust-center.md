@@ -18,12 +18,6 @@ api_specs:
   slug: amazon-mediaconvert-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-jobs-api-openapi.yml
-- filename: amazon-mediaconvert-jobtemplates-api-openapi.yml
-  format: yaml
-  label: Amazon MediaConvert JobTemplates API
-  slug: amazon-mediaconvert-jobtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-jobtemplates-api-openapi.yml
 - filename: amazon-mediaconvert-policy-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Policy API
@@ -48,6 +42,12 @@ api_specs:
   slug: amazon-mediaconvert-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-tags-api-openapi.yml
+- filename: amazon-mediaconvert-job-templates-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Job Templates API
+  slug: amazon-mediaconvert-job-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-job-templates-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

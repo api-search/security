@@ -40,7 +40,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Model as a Service
 - Inference
 - ComfyUI

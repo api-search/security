@@ -2,16 +2,16 @@
 api_specs:
 - filename: d3-events-poll-api-api-openapi.yml
   format: yaml
-  label: D3 Events Poll API API
+  label: D3 Events Poll API
   slug: d3-events-poll-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-events-poll-api-api-openapi.yml
-- filename: d3-orderbook-api-api-openapi.yml
+- filename: d3-order-book-api-api-openapi.yml
   format: yaml
-  label: D3 Orderbook API API
-  slug: d3-orderbook-api-api
+  label: D3 Order book API
+  slug: d3-order-book-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-orderbook-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d3/refs/heads/main/openapi/d3-order-book-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

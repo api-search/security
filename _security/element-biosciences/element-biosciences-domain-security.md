@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: element-biosciences-authservice-api-openapi.yml
-  format: yaml
-  label: Element Biosciences Auth Service API
-  slug: element-biosciences-authservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-authservice-api-openapi.yml
 - filename: element-biosciences-executionservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Execution Service API
@@ -30,6 +24,12 @@ api_specs:
   slug: element-biosciences-storageconnectionservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
+- filename: element-biosciences-auth-service-api-openapi.yml
+  format: yaml
+  label: Element Biosciences Auth Service API
+  slug: element-biosciences-auth-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-auth-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

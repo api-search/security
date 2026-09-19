@@ -57,12 +57,6 @@ api_specs:
   slug: immutable-nft-owners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/openapi/immutable-nft-owners-api-openapi.yml
-- filename: immutable-nfts-api-openapi.yml
-  format: yaml
-  label: Immutable Nfts API
-  slug: immutable-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/openapi/immutable-nfts-api-openapi.yml
 - filename: immutable-orders-api-openapi.yml
   format: yaml
   label: Immutable Orders API
@@ -99,6 +93,12 @@ api_specs:
   slug: immutable-tracking-consent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/openapi/immutable-tracking-consent-api-openapi.yml
+- filename: immutable-nfts-api-openapi.yml
+  format: yaml
+  label: Immutable Nfts API
+  slug: immutable-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/openapi/immutable-nfts-api-openapi.yml
 auth_types:
 - apiKey
 - http

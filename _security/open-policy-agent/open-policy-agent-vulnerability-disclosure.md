@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-policies-api-openapi.yml
 - filename: open-policy-agent-query-api-api-openapi.yml
   format: yaml
-  label: Open Policy Agent Query API API
+  label: Open Policy Agent Query API
   slug: open-policy-agent-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-query-api-api-openapi.yml

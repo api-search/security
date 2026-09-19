@@ -31,12 +31,12 @@ source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imaginode/refs/heads/main/security/imaginode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- ai
-- image generation
-- video generation
-- text to speech
-- mcp
-- generative ai
-- llm
-- creative tools
+- Artificial Intelligence
+- Image-Generation
+- Video Generation
+- Text-to-Speech
+- MCP
+- Generative AI
+- LLM
+- Creative Tools
 ---

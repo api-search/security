@@ -18,12 +18,6 @@ api_specs:
   slug: cyberark-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-policies-api-openapi.yml
-- filename: cyberark-publickeys-api-openapi.yml
-  format: yaml
-  label: CyberArk PublicKeys API
-  slug: cyberark-publickeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-publickeys-api-openapi.yml
 - filename: cyberark-resources-api-openapi.yml
   format: yaml
   label: CyberArk Resources API
@@ -42,6 +36,12 @@ api_specs:
   slug: cyberark-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-secrets-api-openapi.yml
+- filename: cyberark-public-keys-api-openapi.yml
+  format: yaml
+  label: CyberArk Public Keys API
+  slug: cyberark-public-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-public-keys-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2

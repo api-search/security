@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: apiclarity-api-events-api-openapi.yml
-  format: yaml
-  label: APIClarity API Events API
-  slug: apiclarity-api-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-api-events-api-openapi.yml
-- filename: apiclarity-api-inventory-api-openapi.yml
-  format: yaml
-  label: APIClarity API Inventory API
-  slug: apiclarity-api-inventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-api-inventory-api-openapi.yml
 - filename: apiclarity-control-api-openapi.yml
   format: yaml
   label: APIClarity Control API
@@ -24,48 +12,120 @@ api_specs:
   slug: apiclarity-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-features-api-openapi.yml
-- filename: apiclarity-bfla-module-openapi.yml
+- filename: apiclarity-apievents-api-openapi.yml
   format: yaml
-  label: APIClarity BFLA Module API
-  slug: apiclarity-bfla-module-api
+  label: APIClarity API Events API
+  slug: apiclarity-apievents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-bfla-module-openapi.yml
-- filename: apiclarity-fuzzer-module-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-apievents-api-openapi.yml
+- filename: apiclarity-apifindings-api-openapi.yml
   format: yaml
-  label: APIClarity Fuzzer Module API
-  slug: apiclarity-fuzzer-module-api
+  label: APIClarity API Findings API
+  slug: apiclarity-apifindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-fuzzer-module-openapi.yml
-- filename: apiclarity-trace-analyzer-module-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-apifindings-api-openapi.yml
+- filename: apiclarity-apiinventory-api-openapi.yml
   format: yaml
-  label: APIClarity Trace Analyzer Module API
-  slug: apiclarity-trace-analyzer-module-api
+  label: APIClarity API Inventory API
+  slug: apiclarity-apiinventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-trace-analyzer-module-openapi.yml
-- filename: apiclarity-spec-differ-module-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-apiinventory-api-openapi.yml
+- filename: apiclarity-bfla-api-openapi.yml
   format: yaml
-  label: APIClarity Spec Differ Module API
-  slug: apiclarity-spec-differ-module-api
+  label: APIClarity Bfla API
+  slug: apiclarity-bfla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-spec-differ-module-openapi.yml
-- filename: apiclarity-spec-reconstructor-module-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-bfla-api-openapi.yml
+- filename: apiclarity-dashboard-api-openapi.yml
   format: yaml
-  label: APIClarity Spec Reconstructor Module API
-  slug: apiclarity-spec-reconstructor-module-api
+  label: APIClarity Dashboard API
+  slug: apiclarity-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-spec-reconstructor-module-openapi.yml
-- filename: apiclarity-plugins-telemetry-swagger.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-dashboard-api-openapi.yml
+- filename: apiclarity-enable-api-openapi.yml
   format: yaml
-  label: APIClarity Plugins Telemetry API
-  slug: apiclarity-plugins-telemetry-api
+  label: APIClarity Enable API
+  slug: apiclarity-enable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-plugins-telemetry-swagger.yml
-- filename: apiclarity-notifications-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-enable-api-openapi.yml
+- filename: apiclarity-eventannotations-api-openapi.yml
   format: yaml
-  label: APIClarity Notifications API
-  slug: apiclarity-notifications-api
+  label: APIClarity Event Annotations API
+  slug: apiclarity-eventannotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-notifications-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-eventannotations-api-openapi.yml
+- filename: apiclarity-fuzzer-api-openapi.yml
+  format: yaml
+  label: APIClarity Fuzzer API
+  slug: apiclarity-fuzzer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-fuzzer-api-openapi.yml
+- filename: apiclarity-hoststotrace-api-openapi.yml
+  format: yaml
+  label: APIClarity Hosts To Trace API
+  slug: apiclarity-hoststotrace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-hoststotrace-api-openapi.yml
+- filename: apiclarity-local-bfla-api-openapi.yml
+  format: yaml
+  label: APIClarity Local Bfla API
+  slug: apiclarity-local-bfla-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-local-bfla-api-openapi.yml
+- filename: apiclarity-local-fuzzer-api-openapi.yml
+  format: yaml
+  label: APIClarity Local Fuzzer API
+  slug: apiclarity-local-fuzzer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-local-fuzzer-api-openapi.yml
+- filename: apiclarity-modules-api-openapi.yml
+  format: yaml
+  label: APIClarity Modules API
+  slug: apiclarity-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-modules-api-openapi.yml
+- filename: apiclarity-notification-api-openapi.yml
+  format: yaml
+  label: APIClarity Notification API
+  slug: apiclarity-notification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-notification-api-openapi.yml
+- filename: apiclarity-start-api-openapi.yml
+  format: yaml
+  label: APIClarity Start API
+  slug: apiclarity-start-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-start-api-openapi.yml
+- filename: apiclarity-state-api-openapi.yml
+  format: yaml
+  label: APIClarity State API
+  slug: apiclarity-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-state-api-openapi.yml
+- filename: apiclarity-stop-api-openapi.yml
+  format: yaml
+  label: APIClarity Stop API
+  slug: apiclarity-stop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-stop-api-openapi.yml
+- filename: apiclarity-telemetry-api-openapi.yml
+  format: yaml
+  label: APIClarity Telemetry API
+  slug: apiclarity-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-telemetry-api-openapi.yml
+- filename: apiclarity-version-api-openapi.yml
+  format: yaml
+  label: APIClarity Version API
+  slug: apiclarity-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-version-api-openapi.yml
+- filename: apiclarity-api-usage-api-openapi.yml
+  format: yaml
+  label: APIClarity API Usage API
+  slug: apiclarity-api-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-api-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

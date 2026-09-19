@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Women's Health
 - Femtech
-- Telemedicine
+- Telehealth
 - Medical Clinics
 - Mexico
 - Digital Health

@@ -22,7 +22,6 @@ tags:
 - Recruiting
 - Hiring
 - Human Resources
-- HR Tech
 - Interviewing
 - Talent Acquisition
 - ATS

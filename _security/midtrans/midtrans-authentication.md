@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-card-tokenization-api-openapi.yml
 - filename: midtrans-core-api-api-openapi.yml
   format: yaml
-  label: Midtrans Core API API
+  label: Midtrans Core API
   slug: midtrans-core-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-core-api-api-openapi.yml
@@ -96,8 +96,8 @@ tags:
 - Southeast Asia
 - SNAP
 - E-Wallet
-- Virtual Account
+- Virtual Accounts
 - Cards
-- Bank Transfer
+- Bank Transfers
 - Fintech
 ---

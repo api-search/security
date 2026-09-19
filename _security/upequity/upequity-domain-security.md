@@ -35,11 +35,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upequity/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Mortgage
 - Lending
-- Financial Services
-- Proptech
+- Financial-Services
+- PropTech
 - Home Buying
 - Title Insurance
 - Fintech

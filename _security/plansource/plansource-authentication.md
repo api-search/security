@@ -155,5 +155,6 @@ tags:
 - Evidence of Insurability
 - ACA Reporting
 - Eligibility
-- Single Sign-On
+- SSO
+- Identity Federation
 ---

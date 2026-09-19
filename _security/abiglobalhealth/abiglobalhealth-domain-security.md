@@ -55,6 +55,6 @@ tags:
 - Healthcare Navigation
 - Artificial Intelligence
 - Prescriptions
-- Webhooks
+- Webhook
 - Ireland
 ---

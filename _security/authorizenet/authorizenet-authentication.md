@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - body
 api_specs:
-- filename: authorize-net-transactions-api-openapi.yml
+- filename: authorizenet-transactions-api-openapi.yml
   format: yaml
   label: Authorize.net Transactions API
-  slug: authorize-net-transactions-api
+  slug: authorizenet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/openapi/authorize-net-transactions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/openapi/authorizenet-transactions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -9,12 +9,6 @@ api_specs:
   slug: att-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
-- filename: att-authentication-api-openapi.yml
-  format: yaml
-  label: AT&T Authentication API
-  slug: att-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-authentication-api-openapi.yml
 - filename: att-balance-management-api-openapi.yml
   format: yaml
   label: AT&T Balance Management API
@@ -69,12 +63,6 @@ api_specs:
   slug: att-service-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-service-management-api-openapi.yml
-- filename: att-sms-messaging-api-openapi.yml
-  format: yaml
-  label: AT&T SMS Messaging API
-  slug: att-sms-messaging-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sms-messaging-api-openapi.yml
 - filename: att-subscriber-management-api-openapi.yml
   format: yaml
   label: AT&T Subscriber Management API
@@ -159,12 +147,6 @@ api_specs:
   slug: att-network-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-network-insights-api-openapi.yml
-- filename: att-oauth-api-openapi.yml
-  format: yaml
-  label: AT&T O Auth API
-  slug: att-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
 - filename: att-quality-on-demand-api-openapi.yml
   format: yaml
   label: AT&T Quality on Demand API
@@ -177,6 +159,12 @@ api_specs:
   slug: att-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sms-api-openapi.yml
+- filename: att-oauth-api-openapi.yml
+  format: yaml
+  label: AT&T O Auth API
+  slug: att-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -264,7 +252,7 @@ tags:
 - Fortune 100
 - Messaging
 - Mobile
-- Network
+- Networks
 - Network APIs
 - SIM Swap
 - Speech

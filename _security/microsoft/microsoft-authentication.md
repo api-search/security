@@ -458,4 +458,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft/refs
 summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
 - Fortune 100
+- Microsoft
 ---

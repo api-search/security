@@ -29,7 +29,7 @@ tags:
 - Company
 - Change Data Capture
 - Data Replication
-- Databases
+- Database
 - Data Integration
 - Real-Time
 - ETL

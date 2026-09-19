@@ -35,6 +35,6 @@ tags:
 - Infrastructure
 - OCI
 - Open-Source
-- Operating Systems
+- Operating System
 - System Updates
 ---

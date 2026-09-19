@@ -43,5 +43,5 @@ tags:
 - Insomnia
 - Mental Health
 - Digital Therapeutics
-- Mobile Apps
+- Mobile App
 ---

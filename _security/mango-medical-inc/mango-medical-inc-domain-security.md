@@ -32,6 +32,6 @@ tags:
 - Company
 - Healthcare
 - Medical
-- Startup
+- Startups
 - Y Combinator
 ---

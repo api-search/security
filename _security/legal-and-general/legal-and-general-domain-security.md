@@ -102,7 +102,7 @@ tags:
 - Brokers
 - Partner Gated
 - No Public API
-- Design System
+- Design Systems
 - Agent Skills
 - Open-Source
 ---

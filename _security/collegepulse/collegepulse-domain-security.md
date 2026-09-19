@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Market Research
-- Survey
+- Surveys
 - Polling
 - Higher Education
 - College Students

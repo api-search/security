@@ -57,5 +57,5 @@ tags:
 - E-Commerce
 - Halal
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 ---

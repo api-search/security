@@ -32,7 +32,7 @@ tags:
 - Company
 - Semiconductors
 - Photonics
-- Optical Interconnects
+- Optical Interconnect
 - Micro-LED
 - Data Center Infrastructure
 - Artificial Intelligence

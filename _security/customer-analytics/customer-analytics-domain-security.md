@@ -37,7 +37,7 @@ tags:
 - Business Intelligence
 - Data Engineering
 - Quality Assurance
-- Internet of Things
+- IoT
 - Consulting
 - Company
 ---

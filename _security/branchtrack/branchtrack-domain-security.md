@@ -35,7 +35,7 @@ tags:
 - E-Learning
 - Learning and Development
 - Instructional Design
-- Simulations
+- Simulation
 - Branching Scenarios
 - SCORM
 - xAPI

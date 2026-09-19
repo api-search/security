@@ -240,6 +240,12 @@ api_specs:
   slug: apigee-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-versions-api-openapi.yml
+- filename: apigee-organizations-api-openapi.yml
+  format: yaml
+  label: Google Apigee Organizations API
+  slug: google-apigee-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-organizations-api-openapi.yml
 description: ''
 domains:
 - caa:

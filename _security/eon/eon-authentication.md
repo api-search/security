@@ -20,12 +20,6 @@ api_specs:
   slug: eon-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-auth-api-openapi.yml
-- filename: eon-backuppolicies-api-openapi.yml
-  format: yaml
-  label: Eon backupPolicies API
-  slug: eon-backuppolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-backuppolicies-api-openapi.yml
 - filename: eon-backups-api-openapi.yml
   format: yaml
   label: Eon backups API
@@ -44,12 +38,6 @@ api_specs:
   slug: eon-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-dashboard-api-openapi.yml
-- filename: eon-databasesnapshots-api-openapi.yml
-  format: yaml
-  label: Eon databaseSnapshots API
-  slug: eon-databasesnapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-databasesnapshots-api-openapi.yml
 - filename: eon-iam-api-openapi.yml
   format: yaml
   label: Eon iam API
@@ -80,6 +68,18 @@ api_specs:
   slug: eon-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-vaults-api-openapi.yml
+- filename: eon-backup-policies-api-openapi.yml
+  format: yaml
+  label: Eon Backup Policies API
+  slug: eon-backup-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-backup-policies-api-openapi.yml
+- filename: eon-database-snapshots-api-openapi.yml
+  format: yaml
+  label: Eon Database Snapshots API
+  slug: eon-database-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-database-snapshots-api-openapi.yml
 auth_types:
 - http
 description: ''

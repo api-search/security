@@ -34,7 +34,7 @@ tags:
 - Company
 - Financial-Services
 - Investment Management
-- Hedge Fund
+- Hedge Funds
 - Asset Management
 - Alternative Investments
 - Boston

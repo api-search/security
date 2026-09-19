@@ -201,12 +201,6 @@ api_specs:
   slug: aleph-alpha-transformations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/openapi/aleph-alpha-transformations-api-openapi.yml
-- filename: aleph-alpha-usecases-api-openapi.yml
-  format: yaml
-  label: Aleph Alpha Usecases API
-  slug: aleph-alpha-usecases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/openapi/aleph-alpha-usecases-api-openapi.yml
 - filename: aleph-alpha-users-api-openapi.yml
   format: yaml
   label: Aleph Alpha Users API
@@ -225,6 +219,12 @@ api_specs:
   slug: aleph-alpha-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/openapi/aleph-alpha-workspaces-api-openapi.yml
+- filename: aleph-alpha-use-cases-api-openapi.yml
+  format: yaml
+  label: Aleph Alpha Use Cases API
+  slug: aleph-alpha-use-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/openapi/aleph-alpha-use-cases-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -268,7 +268,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - Sovereign AI
 - Inference

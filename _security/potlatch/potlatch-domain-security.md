@@ -8,7 +8,7 @@ domains:
   domain: potlatchdeltic.com
   spf: true
 hosts:
-- cert_expires: Aug 31 23:59:59 2026 GMT
+- cert_expires: Oct 31 23:59:59 2026 GMT
   host: www.potlatchdeltic.com
   hsts: true
   hsts_max_age: 2592000
@@ -31,11 +31,18 @@ slug: potlatch-domain-security
 source_filename: potlatch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.potlatchdeltic.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: developer.potlatchdeltic.com\n  https: false\n- host: api.potlatchdeltic.com\n  https: false\ndomains:\n- domain: potlatchdeltic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.potlatchdeltic.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: developer.potlatchdeltic.com\n  https: false\n- host: api.potlatchdeltic.com\n  https: false\ndomains:\n- domain: potlatchdeltic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/potlatch/refs/heads/main/security/potlatch-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Timber
 - Real-Estate
 - Wood Products
+- Forest Products
+- REIT
+- Lumber
+- Land Management
+- Manufacturing
+- Company
+- Absorbed
 ---

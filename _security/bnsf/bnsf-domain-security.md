@@ -1,53 +1,35 @@
 ---
 api_specs:
-- filename: bnsf-trace-openapi.yml
+- filename: bnsf-automotive-api-openapi.yml
   format: yaml
-  label: BNSF Tracing API
-  slug: bnsf-tracing-api
+  label: BNSF AUTOMOTIVE API
+  slug: bnsf-automotive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-trace-openapi.yml
-- filename: bnsf-intermodal-hub-operations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-automotive-api-openapi.yml
+- filename: bnsf-carload-api-openapi.yml
   format: yaml
-  label: BNSF Intermodal Hub Operations API
-  slug: bnsf-hub-operations-api
+  label: BNSF CARLOAD API
+  slug: bnsf-carload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-intermodal-hub-operations-openapi.yml
-- filename: bnsf-automotive-hub-operations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-carload-api-openapi.yml
+- filename: bnsf-intermodal-api-openapi.yml
   format: yaml
-  label: BNSF Automotive Hub Operations API
-  slug: bnsf-automotive-hub-operations-api
+  label: BNSF INTERMODAL API
+  slug: bnsf-intermodal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-automotive-hub-operations-openapi.yml
-- filename: bnsf-prices-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-intermodal-api-openapi.yml
+- filename: bnsf-requests-api-openapi.yml
   format: yaml
-  label: BNSF Prices and Rates API
-  slug: bnsf-pricing-rates-api
+  label: BNSF Requests API
+  slug: bnsf-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-prices-openapi.yml
-- filename: bnsf-schedules-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-requests-api-openapi.yml
+- filename: bnsf-trains-api-openapi.yml
   format: yaml
-  label: BNSF Schedules API
-  slug: bnsf-schedules-api
+  label: BNSF TRAINS API
+  slug: bnsf-trains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-schedules-openapi.yml
-- filename: bnsf-waybill-openapi.yml
-  format: yaml
-  label: BNSF Waybill Management API
-  slug: bnsf-waybill-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-waybill-openapi.yml
-- filename: bnsf-reference-files-openapi.yml
-  format: yaml
-  label: BNSF Reference Files API
-  slug: bnsf-reference-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-reference-files-openapi.yml
-- filename: bnsf-diagnostics-openapi.yml
-  format: yaml
-  label: BNSF Diagnostics API
-  slug: bnsf-diagnostics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-diagnostics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-trains-api-openapi.yml
 description: ''
 domains:
 - caa: []

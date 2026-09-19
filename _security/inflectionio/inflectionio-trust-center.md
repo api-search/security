@@ -66,7 +66,7 @@ tags:
 - MCP
 - Agents
 - Artificial Intelligence
-- Customer Journeys
+- Customer Journey
 - Webhook
 trust_url: https://docs.inflection.io/agents/mcp-trust-security
 ---

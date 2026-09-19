@@ -32,7 +32,7 @@ tags:
 - Robotics
 - Industrial Automation
 - Manufacturing
-- Operating Systems
+- Operating System
 - Industrial IoT
 - Robot Operating System
 - Defunct

@@ -106,7 +106,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/openapi/forta-health-group-parent-supervisions-api-openapi.yml
 - filename: forta-health-health-api-openapi.yml
   format: yaml
-  label: Forta Health Health API
+  label: Forta Health API
   slug: forta-health-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/openapi/forta-health-health-api-openapi.yml

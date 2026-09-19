@@ -60,7 +60,7 @@ tags:
 - Compliance
 - Call Monitoring
 - Speech Analytics
-- Contact Centers
+- Contact Center
 - Financial-Services
 - Artificial Intelligence
 ---

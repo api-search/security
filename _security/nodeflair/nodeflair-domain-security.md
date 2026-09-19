@@ -41,7 +41,7 @@ tags:
 - Job
 - Recruiting
 - Salaries
-- Career
+- Careers
 - Tech Talent
 - Southeast Asia
 - Singapore

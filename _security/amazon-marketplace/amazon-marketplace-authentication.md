@@ -45,12 +45,6 @@ api_specs:
   slug: amazon-marketplace-listentities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-listentities-api-openapi.yml
-- filename: amazon-marketplace-listtagsforresource-api-openapi.yml
-  format: yaml
-  label: Amazon Marketplace ListTagsForResource API
-  slug: amazon-marketplace-listtagsforresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-listtagsforresource-api-openapi.yml
 - filename: amazon-marketplace-putresourcepolicy-api-openapi.yml
   format: yaml
   label: Amazon Marketplace PutResourcePolicy API
@@ -63,18 +57,24 @@ api_specs:
   slug: amazon-marketplace-startchangeset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-startchangeset-api-openapi.yml
-- filename: amazon-marketplace-tagresource-api-openapi.yml
+- filename: amazon-marketplace-list-tags-for-resource-api-openapi.yml
   format: yaml
-  label: Amazon Marketplace TagResource API
-  slug: amazon-marketplace-tagresource-api
+  label: Amazon Marketplace List Tags For Resource API
+  slug: amazon-marketplace-list-tags-for-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-tagresource-api-openapi.yml
-- filename: amazon-marketplace-untagresource-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-list-tags-for-resource-api-openapi.yml
+- filename: amazon-marketplace-tag-resource-api-openapi.yml
   format: yaml
-  label: Amazon Marketplace UntagResource API
-  slug: amazon-marketplace-untagresource-api
+  label: Amazon Marketplace Tag Resource API
+  slug: amazon-marketplace-tag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-untagresource-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-tag-resource-api-openapi.yml
+- filename: amazon-marketplace-untag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Marketplace Untag Resource API
+  slug: amazon-marketplace-untag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-untag-resource-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

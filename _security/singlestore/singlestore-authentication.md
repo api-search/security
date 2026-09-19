@@ -44,18 +44,18 @@ api_specs:
   slug: singlestore-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-secrets-api-openapi.yml
-- filename: singlestore-workspacegroups-api-openapi.yml
-  format: yaml
-  label: SingleStore WorkspaceGroups API
-  slug: singlestore-workspacegroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspacegroups-api-openapi.yml
 - filename: singlestore-workspaces-api-openapi.yml
   format: yaml
   label: SingleStore Workspaces API
   slug: singlestore-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspaces-api-openapi.yml
+- filename: singlestore-workspace-groups-api-openapi.yml
+  format: yaml
+  label: SingleStore Workspace Groups API
+  slug: singlestore-workspace-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspace-groups-api-openapi.yml
 auth_types:
 - http
 description: ''

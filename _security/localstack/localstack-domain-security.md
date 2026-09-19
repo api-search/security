@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-aws-api-openapi.yml
 - filename: localstack-localstack-api-openapi.yml
   format: yaml
-  label: LocalStack localstack API
+  label: LocalStack API
   slug: localstack-localstack-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-localstack-api-openapi.yml

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-app-proxy-api-openapi.yml
 - filename: shoplazza-billing-api-api-openapi.yml
   format: yaml
-  label: Shoplazza Billing API API
+  label: Shoplazza Billing API
   slug: shoplazza-billing-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-billing-api-api-openapi.yml

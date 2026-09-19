@@ -51,6 +51,6 @@ tags:
 - Field Intelligence
 - Low-Code
 - Dispatch
-- Inspections
+- Inspection
 - Compliance
 ---

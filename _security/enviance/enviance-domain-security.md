@@ -60,12 +60,6 @@ api_specs:
   slug: enviance-compliancepermissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/openapi/enviance-compliancepermissions-api-openapi.yml
-- filename: enviance-customfield-api-openapi.yml
-  format: yaml
-  label: Enviance CustomField API
-  slug: enviance-customfield-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/openapi/enviance-customfield-api-openapi.yml
 - filename: enviance-data-api-openapi.yml
   format: yaml
   label: Enviance Data API
@@ -234,6 +228,12 @@ api_specs:
   slug: enviance-workflowrole-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/openapi/enviance-workflowrole-api-openapi.yml
+- filename: enviance-custom-field-api-openapi.yml
+  format: yaml
+  label: Enviance Custom Field API
+  slug: enviance-custom-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/openapi/enviance-custom-field-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: chronosphere-config-v1-openapi3.json
-  format: json
-  label: Chronosphere
-  slug: chronosphere
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/_original/chronosphere-config-v1-openapi3.json
 - filename: chronosphere-bucket-api-openapi.yml
   format: yaml
   label: Chronosphere Bucket API
@@ -63,12 +57,6 @@ api_specs:
   slug: chronosphere-gcpmetricsintegration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-gcpmetricsintegration-api-openapi.yml
-- filename: chronosphere-grafanadashboard-api-openapi.yml
-  format: yaml
-  label: Chronosphere GrafanaDashboard API
-  slug: chronosphere-grafanadashboard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-grafanadashboard-api-openapi.yml
 - filename: chronosphere-logallocationconfig-api-openapi.yml
   format: yaml
   label: Chronosphere LogAllocationConfig API
@@ -111,12 +99,6 @@ api_specs:
   slug: chronosphere-mutingrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-mutingrule-api-openapi.yml
-- filename: chronosphere-notificationpolicy-api-openapi.yml
-  format: yaml
-  label: Chronosphere NotificationPolicy API
-  slug: chronosphere-notificationpolicy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-notificationpolicy-api-openapi.yml
 - filename: chronosphere-notifier-api-openapi.yml
   format: yaml
   label: Chronosphere Notifier API
@@ -135,12 +117,6 @@ api_specs:
   slug: chronosphere-recordingrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-recordingrule-api-openapi.yml
-- filename: chronosphere-resourcepools-api-openapi.yml
-  format: yaml
-  label: Chronosphere ResourcePools API
-  slug: chronosphere-resourcepools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-resourcepools-api-openapi.yml
 - filename: chronosphere-rolluprule-api-openapi.yml
   format: yaml
   label: Chronosphere RollupRule API
@@ -153,12 +129,6 @@ api_specs:
   slug: chronosphere-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-service-api-openapi.yml
-- filename: chronosphere-serviceaccount-api-openapi.yml
-  format: yaml
-  label: Chronosphere ServiceAccount API
-  slug: chronosphere-serviceaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-serviceaccount-api-openapi.yml
 - filename: chronosphere-slo-api-openapi.yml
   format: yaml
   label: Chronosphere SLO API
@@ -201,18 +171,180 @@ api_specs:
   slug: chronosphere-tracetailsamplingrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-tracetailsamplingrules-api-openapi.yml
-- filename: chronosphere-data-v1-api-openapi.json
-  format: json
+- filename: chronosphere-azuremetricsintegration-api-openapi.yml
+  format: yaml
+  label: Chronosphere Azure Metrics Integration API
+  slug: chronosphere-azuremetricsintegration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-azuremetricsintegration-api-openapi.yml
+- filename: chronosphere-commandcentergroup-api-openapi.yml
+  format: yaml
+  label: Chronosphere Command Center Group API
+  slug: chronosphere-commandcentergroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-commandcentergroup-api-openapi.yml
+- filename: chronosphere-configunstable-api-openapi.yml
+  format: yaml
+  label: Chronosphere Config Unstable API
+  slug: chronosphere-configunstable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-configunstable-api-openapi.yml
+- filename: chronosphere-consumptionbudget-api-openapi.yml
+  format: yaml
+  label: Chronosphere Consumption Budget API
+  slug: chronosphere-consumptionbudget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-consumptionbudget-api-openapi.yml
+- filename: chronosphere-consumptionconfig-api-openapi.yml
+  format: yaml
+  label: Chronosphere Consumption Config API
+  slug: chronosphere-consumptionconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-consumptionconfig-api-openapi.yml
+- filename: chronosphere-datav1-api-openapi.yml
+  format: yaml
   label: Chronosphere Data V1 API
-  slug: chronosphere-data-v1-api
+  slug: chronosphere-datav1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-data-v1-api-openapi.json
-- filename: chronosphere-state-v1-api-openapi.json
-  format: json
-  label: Chronosphere State V1 API
-  slug: chronosphere-state-v1-api
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-datav1-api-openapi.yml
+- filename: chronosphere-linktemplate-api-openapi.yml
+  format: yaml
+  label: Chronosphere Link Template API
+  slug: chronosphere-linktemplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-state-v1-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-linktemplate-api-openapi.yml
+- filename: chronosphere-logcontrolconfig-api-openapi.yml
+  format: yaml
+  label: Chronosphere Log Control Config API
+  slug: chronosphere-logcontrolconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-logcontrolconfig-api-openapi.yml
+- filename: chronosphere-logprimarykey-api-openapi.yml
+  format: yaml
+  label: Chronosphere Log Primary Key API
+  slug: chronosphere-logprimarykey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-logprimarykey-api-openapi.yml
+- filename: chronosphere-logretentionconfig-api-openapi.yml
+  format: yaml
+  label: Chronosphere Log Retention Config API
+  slug: chronosphere-logretentionconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-logretentionconfig-api-openapi.yml
+- filename: chronosphere-metricusagesbylabelname-api-openapi.yml
+  format: yaml
+  label: Chronosphere Metric Usages By Label Name API
+  slug: chronosphere-metricusagesbylabelname-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-metricusagesbylabelname-api-openapi.yml
+- filename: chronosphere-metricusagesbymetricname-api-openapi.yml
+  format: yaml
+  label: Chronosphere Metric Usages By Metric Name API
+  slug: chronosphere-metricusagesbymetricname-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-metricusagesbymetricname-api-openapi.yml
+- filename: chronosphere-noopentity-api-openapi.yml
+  format: yaml
+  label: Chronosphere Noop Entity API
+  slug: chronosphere-noopentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-noopentity-api-openapi.yml
+- filename: chronosphere-notebook-api-openapi.yml
+  format: yaml
+  label: Chronosphere Notebook API
+  slug: chronosphere-notebook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-notebook-api-openapi.yml
+- filename: chronosphere-objectdiscoveryrule-api-openapi.yml
+  format: yaml
+  label: Chronosphere Object Discovery Rule API
+  slug: chronosphere-objectdiscoveryrule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-objectdiscoveryrule-api-openapi.yml
+- filename: chronosphere-queryresourcepools-api-openapi.yml
+  format: yaml
+  label: Chronosphere Query Resource Pools API
+  slug: chronosphere-queryresourcepools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-queryresourcepools-api-openapi.yml
+- filename: chronosphere-ruleevaluations-api-openapi.yml
+  format: yaml
+  label: Chronosphere Rule Evaluations API
+  slug: chronosphere-ruleevaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-ruleevaluations-api-openapi.yml
+- filename: chronosphere-savedtracesearch-api-openapi.yml
+  format: yaml
+  label: Chronosphere Saved Trace Search API
+  slug: chronosphere-savedtracesearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-savedtracesearch-api-openapi.yml
+- filename: chronosphere-serviceattribute-api-openapi.yml
+  format: yaml
+  label: Chronosphere Service Attribute API
+  slug: chronosphere-serviceattribute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-serviceattribute-api-openapi.yml
+- filename: chronosphere-syncprometheus-api-openapi.yml
+  format: yaml
+  label: Chronosphere Sync Prometheus API
+  slug: chronosphere-syncprometheus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-syncprometheus-api-openapi.yml
+- filename: chronosphere-synthetictest-api-openapi.yml
+  format: yaml
+  label: Chronosphere Synthetic Test API
+  slug: chronosphere-synthetictest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-synthetictest-api-openapi.yml
+- filename: chronosphere-tracetoptagconfig-api-openapi.yml
+  format: yaml
+  label: Chronosphere Trace Top Tag Config API
+  slug: chronosphere-tracetoptagconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-tracetoptagconfig-api-openapi.yml
+- filename: chronosphere-cloud-integration-api-openapi.yml
+  format: yaml
+  label: Chronosphere Cloud Integration API
+  slug: chronosphere-cloud-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-cloud-integration-api-openapi.yml
+- filename: chronosphere-config-v1-api-openapi.yml
+  format: yaml
+  label: Chronosphere Config (v1) API
+  slug: chronosphere-config-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-config-v1-api-openapi.yml
+- filename: chronosphere-external-connection-api-openapi.yml
+  format: yaml
+  label: Chronosphere External Connection API
+  slug: chronosphere-external-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-external-connection-api-openapi.yml
+- filename: chronosphere-grafana-dashboard-api-openapi.yml
+  format: yaml
+  label: Chronosphere Grafana Dashboard API
+  slug: chronosphere-grafana-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-grafana-dashboard-api-openapi.yml
+- filename: chronosphere-notification-policy-api-openapi.yml
+  format: yaml
+  label: Chronosphere Notification Policy API
+  slug: chronosphere-notification-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-notification-policy-api-openapi.yml
+- filename: chronosphere-resource-pools-api-openapi.yml
+  format: yaml
+  label: Chronosphere Resource Pools API
+  slug: chronosphere-resource-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-resource-pools-api-openapi.yml
+- filename: chronosphere-service-account-api-openapi.yml
+  format: yaml
+  label: Chronosphere Service Account API
+  slug: chronosphere-service-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-service-account-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

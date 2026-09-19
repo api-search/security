@@ -33,7 +33,6 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
 - Telehealth
 - Digital Health
 - Medical

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: demo-openapi-apis-api-openapi.yml
-  format: yaml
-  label: Manage OpenAPI via GitHub Demo APIs API
-  slug: demo-openapi-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/openapi/demo-openapi-apis-api-openapi.yml
 - filename: demo-openapi-search-api-openapi.yml
   format: yaml
   label: Manage OpenAPI via GitHub Demo Search API

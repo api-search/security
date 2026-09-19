@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-operations-api-openapi.yml
 - filename: microsoft-azure-integration-services-services-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Integration Services Services API
+  label: Microsoft Azure Integration Services API
   slug: microsoft-azure-integration-services-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-services-api-openapi.yml

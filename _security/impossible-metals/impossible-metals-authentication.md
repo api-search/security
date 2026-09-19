@@ -62,12 +62,6 @@ api_specs:
   slug: impossible-metals-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/openapi/impossible-metals-media-api-openapi.yml
-- filename: impossible-metals-oembed-api-openapi.yml
-  format: yaml
-  label: Impossible Metals O Embed API
-  slug: impossible-metals-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/openapi/impossible-metals-oembed-api-openapi.yml
 - filename: impossible-metals-organizers-api-openapi.yml
   format: yaml
   label: Impossible Metals Organizers API
@@ -110,6 +104,12 @@ api_specs:
   slug: impossible-metals-venues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/openapi/impossible-metals-venues-api-openapi.yml
+- filename: impossible-metals-o-embed-api-openapi.yml
+  format: yaml
+  label: Impossible Metals o Embed API
+  slug: impossible-metals-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/openapi/impossible-metals-o-embed-api-openapi.yml
 auth_types:
 - none
 - http

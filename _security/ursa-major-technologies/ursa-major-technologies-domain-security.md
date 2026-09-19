@@ -39,7 +39,7 @@ tags:
 - Solid Rocket Motors
 - Hypersonics
 - Space
-- Satellites
+- Satellite
 - Missile Defense
 - Additive Manufacturing
 - Manufacturing

@@ -684,12 +684,6 @@ api_specs:
   slug: salesforce-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-models-api-openapi.yml
-- filename: salesforce-oauth-api-openapi.yml
-  format: yaml
-  label: Salesforce Oauth API
-  slug: salesforce-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-oauth-api-openapi.yml
 - filename: salesforce-object-info-api-openapi.yml
   format: yaml
   label: Salesforce Object Info API
@@ -912,6 +906,12 @@ api_specs:
   slug: salesforce-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-versions-api-openapi.yml
+- filename: salesforce-oauth-api-openapi.yml
+  format: yaml
+  label: Salesforce OAUTH API
+  slug: salesforce-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-oauth-api-openapi.yml
 certification_count: 15
 certifications:
 - SOC 1 (SSAE 18 / ISAE 3402)
@@ -956,5 +956,6 @@ tags:
 - Marketing
 - Platform
 - Sales
+- Salesforce
 trust_url: https://compliance.salesforce.com/en
 ---

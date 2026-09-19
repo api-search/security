@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: xrhealth-platform-openapi.yml
+- filename: xrhealth-auth-api-openapi.yml
   format: yaml
-  label: XRHealth Platform API
-  slug: xrhealth-platform-api
+  label: XRHealth Auth API
+  slug: xrhealth-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-auth-api-openapi.yml
+- filename: xrhealth-me-api-openapi.yml
+  format: yaml
+  label: XRHealth Me API
+  slug: xrhealth-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-me-api-openapi.yml
+- filename: xrhealth-openapi-json-api-openapi.yml
+  format: yaml
+  label: XRHealth Openapi.json API
+  slug: xrhealth-openapi-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-openapi-json-api-openapi.yml
+- filename: xrhealth-well-known-api-openapi.yml
+  format: yaml
+  label: XRHealth .well Known API
+  slug: xrhealth-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-well-known-api-openapi.yml
+- filename: xrhealth-xrhealth-platform-api-api-openapi.yml
+  format: yaml
+  label: XRHealth XRHealth Platform API
+  slug: xrhealth-xrhealth-platform-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-xrhealth-platform-api-api-openapi.yml
 description: ''
 domains:
 - caa:

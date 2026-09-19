@@ -91,5 +91,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/braintree-payments-openapi.yml, openapi/braintree-subscriptions-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using the merchant's public API key as the username\n    and private API key as the password, Base64-encoded per RFC 7617.\n  sources:\n  - openapi/braintree-payments-openapi.yml\n  - openapi/braintree-subscriptions-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/authentication/braintree-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Payments
+- Transaction
+- Mobile
+- Subscription
 ---

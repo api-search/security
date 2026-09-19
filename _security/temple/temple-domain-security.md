@@ -35,7 +35,7 @@ tags:
 - Crypto
 - Cryptocurrency
 - Digital Assets
-- Hedge Fund
+- Hedge Funds
 - Algorithmic Trading
 - Quantitative Trading
 - Machine-Learning

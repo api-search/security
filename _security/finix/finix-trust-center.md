@@ -142,6 +142,6 @@ tags:
 - Payment Facilitation
 - Merchant Onboarding
 - Payouts
-- Marketplaces
+- Marketplace
 trust_url: https://trust.finix.com/
 ---

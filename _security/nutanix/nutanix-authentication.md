@@ -80,18 +80,18 @@ api_specs:
   slug: nutanix-virtual-disks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-virtual-disks-api-openapi.yml
-- filename: nutanix-vms-api-openapi.yml
-  format: yaml
-  label: Nutanix VMs API
-  slug: nutanix-vms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-vms-api-openapi.yml
 - filename: nutanix-webhooks-api-openapi.yml
   format: yaml
   label: Nutanix Webhooks API
   slug: nutanix-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-webhooks-api-openapi.yml
+- filename: nutanix-vms-api-openapi.yml
+  format: yaml
+  label: Nutanix V Ms API
+  slug: nutanix-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-vms-api-openapi.yml
 auth_types:
 - http
 description: ''

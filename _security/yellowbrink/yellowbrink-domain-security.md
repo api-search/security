@@ -32,13 +32,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yellowbrink/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Health Care
+- Healthcare
 - Health Data
 - openEHR
 - Interoperability
 - Standards
 - Community
 - Education
-- Events
+- Event
 - Netherlands
 ---

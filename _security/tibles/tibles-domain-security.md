@@ -36,6 +36,6 @@ tags:
 - NFT
 - Flow Blockchain
 - Trading Cards
-- Consumer Apps
+- Consumer App
 - Web3
 ---

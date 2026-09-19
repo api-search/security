@@ -2,12 +2,156 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: neuronto-openapi.json
-  format: json
-  label: Neuronto ARD Registry API
-  slug: ard-registry
+- filename: neuronto-adoption-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Adoption API
+  slug: neuronto-adoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-adoption-api-openapi.yml
+- filename: neuronto-agents-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Agents API
+  slug: neuronto-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-agents-api-openapi.yml
+- filename: neuronto-analytics-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Analytics API
+  slug: neuronto-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-analytics-api-openapi.yml
+- filename: neuronto-audit-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Audit API
+  slug: neuronto-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-audit-api-openapi.yml
+- filename: neuronto-bench-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Bench API
+  slug: neuronto-bench-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-bench-api-openapi.yml
+- filename: neuronto-claim-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Claim API
+  slug: neuronto-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-claim-api-openapi.yml
+- filename: neuronto-demand-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Demand API
+  slug: neuronto-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-demand-api-openapi.yml
+- filename: neuronto-doctor-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Doctor API
+  slug: neuronto-doctor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-doctor-api-openapi.yml
+- filename: neuronto-explore-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Explore API
+  slug: neuronto-explore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-explore-api-openapi.yml
+- filename: neuronto-health-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Health API
+  slug: neuronto-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-health-api-openapi.yml
+- filename: neuronto-insights-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Insights API
+  slug: neuronto-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-insights-api-openapi.yml
+- filename: neuronto-liveness-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Liveness API
+  slug: neuronto-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-liveness-api-openapi.yml
+- filename: neuronto-manifest-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Manifest API
+  slug: neuronto-manifest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-manifest-api-openapi.yml
+- filename: neuronto-me-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Me API
+  slug: neuronto-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-me-api-openapi.yml
+- filename: neuronto-plan-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Plan API
+  slug: neuronto-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-plan-api-openapi.yml
+- filename: neuronto-private-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Private API
+  slug: neuronto-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-private-api-openapi.yml
+- filename: neuronto-reliability-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Reliability API
+  slug: neuronto-reliability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-reliability-api-openapi.yml
+- filename: neuronto-search-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Search API
+  slug: neuronto-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-search-api-openapi.yml
+- filename: neuronto-state-of-mcp-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry State Of Mcp API
+  slug: neuronto-state-of-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-state-of-mcp-api-openapi.yml
+- filename: neuronto-stats-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Stats API
+  slug: neuronto-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-stats-api-openapi.yml
+- filename: neuronto-submit-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Submit API
+  slug: neuronto-submit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-submit-api-openapi.yml
+- filename: neuronto-tool-safety-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Tool Safety API
+  slug: neuronto-tool-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-tool-safety-api-openapi.yml
+- filename: neuronto-tools-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Tools API
+  slug: neuronto-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-tools-api-openapi.yml
+- filename: neuronto-usage-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Usage API
+  slug: neuronto-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-usage-api-openapi.yml
+- filename: neuronto-web-position-api-openapi.yml
+  format: yaml
+  label: Neuronto ARD Registry Web Position API
+  slug: neuronto-web-position-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/openapi/neuronto-web-position-api-openapi.yml
 auth_types: []
 description: The API, MCP server and A2A interface are all anonymous by default - "no key, no signup" is the product's stated posture, and the live MCP tools/list and REST endpoints answered unauthenticated probes on 2026-09-07. An optional API key exists purely to raise allowances and unlock domain-scoped features.
 kind: authentication

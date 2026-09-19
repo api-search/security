@@ -85,5 +85,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ptc-thingworx-rest-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: appKey\n  type: apiKey\n  in: header\n  parameter: appKey\n  description: ThingWorx Application Key for authentication\n  sources:\n  - openapi/ptc-thingworx-rest-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://thingworx.example.com/oauth/authorize\n    tokenUrl: https://thingworx.example.com/oauth/token\n    scopes: 1\n  sources:\n  - openapi/ptc-thingworx-rest-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/authentication/ptc-thingworx-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
-tags: []
+tags:
+- Manufacturing
+- IoT
+- WebSocket
+- CAD
 ---

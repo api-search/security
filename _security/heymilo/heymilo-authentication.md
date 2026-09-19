@@ -154,7 +154,6 @@ tags:
 - Recruiting
 - Hiring
 - Human Resources
-- HR Tech
 - Artificial Intelligence
 - AI Agents
 - Interviewing

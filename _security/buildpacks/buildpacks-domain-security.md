@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: buildpacks-kpack-swagger.json
-  format: json
-  label: kpack
-  slug: kpack
+- filename: buildpacks-kpack-api-openapi.yml
+  format: yaml
+  label: Cloud Native Buildpacks Kpack API
+  slug: buildpacks-kpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-api-openapi.yml
 description: ''
 domains:
 - caa:

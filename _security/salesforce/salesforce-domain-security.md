@@ -684,12 +684,6 @@ api_specs:
   slug: salesforce-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-models-api-openapi.yml
-- filename: salesforce-oauth-api-openapi.yml
-  format: yaml
-  label: Salesforce Oauth API
-  slug: salesforce-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-oauth-api-openapi.yml
 - filename: salesforce-object-info-api-openapi.yml
   format: yaml
   label: Salesforce Object Info API
@@ -912,6 +906,12 @@ api_specs:
   slug: salesforce-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-versions-api-openapi.yml
+- filename: salesforce-oauth-api-openapi.yml
+  format: yaml
+  label: Salesforce OAUTH API
+  slug: salesforce-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -971,4 +971,5 @@ tags:
 - Marketing
 - Platform
 - Sales
+- Salesforce
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Asset Management
 - Capital Markets
-- Equities
+- Stocks
 - Financial-Services
 - Fixed Income
 - Fortune 500

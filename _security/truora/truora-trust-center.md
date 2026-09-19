@@ -56,7 +56,7 @@ tags:
 - KYC
 - Background Checks
 - Fraud Prevention
-- LatAm
+- Latin America
 - WhatsApp
 trust_url: https://app.vanta.com/truora.com/trust/dno2uof19v4enmupm1kenj
 ---

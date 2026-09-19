@@ -2,10 +2,16 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
+- filename: nycu-profile-api-openapi.yml
+  format: yaml
+  label: National Yang Ming Chiao Tung University Profile API
+  slug: nycu-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/openapi/nycu-profile-api-openapi.yml
 - filename: nycu-oauth-api-openapi.yml
   format: yaml
-  label: NYCU OAuth API
-  slug: oauth
+  label: National Yang Ming Chiao Tung University O Auth API
+  slug: nycu-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/openapi/nycu-oauth-api-openapi.yml
 auth_types: []
@@ -74,9 +80,11 @@ tags:
 - Taiwan
 - Identity
 - Authentication
-- Single Sign-On
+- SSO
 - Research Data
 - Institutional Repository
 - Library
 - Metadata
+- OAI-PMH
+- Identity Federation
 ---

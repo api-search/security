@@ -1,29 +1,5 @@
 ---
 api_specs:
-- filename: swagger-codegen-generation-api-openapi.yml
-  format: yaml
-  label: Swagger Codegen Generation API
-  slug: swagger-codegen-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-generation-api-openapi.yml
-- filename: swagger-codegen-languages-api-openapi.yml
-  format: yaml
-  label: Swagger Codegen Languages API
-  slug: swagger-codegen-languages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-languages-api-openapi.yml
-- filename: swagger-codegen-options-api-openapi.yml
-  format: yaml
-  label: Swagger Codegen Options API
-  slug: swagger-codegen-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-options-api-openapi.yml
-- filename: swagger-codegen-utilities-api-openapi.yml
-  format: yaml
-  label: Swagger Codegen Utilities API
-  slug: swagger-codegen-utilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-utilities-api-openapi.yml
 - filename: swagger-codegen-clients-api-openapi.yml
   format: yaml
   label: Swagger Codegen Clients API

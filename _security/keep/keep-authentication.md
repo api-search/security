@@ -51,12 +51,6 @@ api_specs:
   slug: keep-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/openapi/keep-groups-api-openapi.yml
-- filename: keep-healthcheck-api-openapi.yml
-  format: yaml
-  label: Keep healthcheck API
-  slug: keep-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/openapi/keep-healthcheck-api-openapi.yml
 - filename: keep-incidents-api-openapi.yml
   format: yaml
   label: Keep incidents API
@@ -65,7 +59,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/openapi/keep-incidents-api-openapi.yml
 - filename: keep-keep-api-api-openapi.yml
   format: yaml
-  label: Keep Keep API API
+  label: Keep API
   slug: keep-keep-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/openapi/keep-keep-api-api-openapi.yml
@@ -165,6 +159,12 @@ api_specs:
   slug: keep-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/openapi/keep-workflows-api-openapi.yml
+- filename: keep-health-check-api-openapi.yml
+  format: yaml
+  label: Keep Health Check API
+  slug: keep-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/openapi/keep-health-check-api-openapi.yml
 auth_types:
 - apiKey
 - http

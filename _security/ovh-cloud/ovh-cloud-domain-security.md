@@ -2,7 +2,7 @@
 api_specs:
 - filename: ovh-cloud-cloud-api-openapi.yml
   format: yaml
-  label: OVH Cloud Cloud API
+  label: OVH Cloud API
   slug: ovh-cloud-cloud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/openapi/ovh-cloud-cloud-api-openapi.yml

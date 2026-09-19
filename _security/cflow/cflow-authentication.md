@@ -65,12 +65,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cflow-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/authentication/cflow-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Automations
+- Automation
 - Business Process Automation
 - Integration
 - No-Code
 - Platform
-- Protocols
+- Protocol
 - Rules
 - Workflows
 ---

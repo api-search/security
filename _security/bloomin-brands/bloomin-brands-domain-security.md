@@ -38,5 +38,5 @@ tags:
 - Food
 - Casual Dining
 - Online Ordering
-- Mobile Apps
+- Mobile App
 ---

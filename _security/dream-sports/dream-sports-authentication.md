@@ -10,12 +10,6 @@ api_specs:
   slug: dream-sports-access-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-access-keys-api-openapi.yml
-- filename: dream-sports-accesskeys-api-openapi.yml
-  format: yaml
-  label: Dream Sports Access Keys API
-  slug: dream-sports-accesskeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-accesskeys-api-openapi.yml
 - filename: dream-sports-account-api-openapi.yml
   format: yaml
   label: Dream Sports Account API
@@ -154,12 +148,6 @@ api_specs:
   slug: dream-sports-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-health-api-openapi.yml
-- filename: dream-sports-healthcheck-api-openapi.yml
-  format: yaml
-  label: Dream Sports Healthcheck API
-  slug: dream-sports-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-healthcheck-api-openapi.yml
 - filename: dream-sports-journey-behaviour-api-openapi.yml
   format: yaml
   label: Dream Sports Journey Behaviour API
@@ -238,12 +226,6 @@ api_specs:
   slug: dream-sports-oidc-scope-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-oidc-scope-management-api-openapi.yml
-- filename: dream-sports-openapi-api-openapi.yml
-  format: yaml
-  label: Dream Sports Openapi API
-  slug: dream-sports-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-openapi-api-openapi.yml
 - filename: dream-sports-openapi-type-api-openapi.yml
   format: yaml
   label: Dream Sports Openapi.{type} API
@@ -370,6 +352,18 @@ api_specs:
   slug: dream-sports-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-users-api-openapi.yml
+- filename: dream-sports-health-check-api-openapi.yml
+  format: yaml
+  label: Dream Sports Health Check API
+  slug: dream-sports-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-health-check-api-openapi.yml
+- filename: dream-sports-open-api-api-openapi.yml
+  format: yaml
+  label: Dream Sports Open API
+  slug: dream-sports-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/openapi/dream-sports-open-api-api-openapi.yml
 auth_types:
 - apiKey
 - http

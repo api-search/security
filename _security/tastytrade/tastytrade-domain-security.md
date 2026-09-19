@@ -214,7 +214,7 @@ tags:
 - Trading
 - Options
 - Futures
-- Equities
+- Stocks
 - Crypto
 - Market Data
 - WebSocket

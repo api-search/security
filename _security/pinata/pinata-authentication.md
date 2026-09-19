@@ -47,5 +47,5 @@ tags:
 - Web3
 - IPFS
 - Storage
-- Gateway
+- Gateways
 ---

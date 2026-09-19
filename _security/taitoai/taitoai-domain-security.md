@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- HR
+- Human Resources
 - People Operations
 - HRIS
 - Performance Management

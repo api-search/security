@@ -2,12 +2,72 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: znanylekarz-integrations-api.yml
+- filename: znanylekarz-addresses-api-openapi.yml
   format: yaml
-  label: Docplanner Integrations API
-  slug: docplanner-integrations-api
+  label: ZnanyLekarz Addresses API
+  slug: znanylekarz-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-integrations-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-addresses-api-openapi.yml
+- filename: znanylekarz-api-notification-callbacks-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz API Notification Callbacks API
+  slug: znanylekarz-api-notification-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
+- filename: znanylekarz-bookings-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Bookings API
+  slug: znanylekarz-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-bookings-api-openapi.yml
+- filename: znanylekarz-calendar-breaks-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Calendar Breaks API
+  slug: znanylekarz-calendar-breaks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendar-breaks-api-openapi.yml
+- filename: znanylekarz-calendars-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Calendars API
+  slug: znanylekarz-calendars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendars-api-openapi.yml
+- filename: znanylekarz-doctors-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Doctors API
+  slug: znanylekarz-doctors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-doctors-api-openapi.yml
+- filename: znanylekarz-facilities-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Facilities API
+  slug: znanylekarz-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-facilities-api-openapi.yml
+- filename: znanylekarz-insurances-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Insurances API
+  slug: znanylekarz-insurances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-insurances-api-openapi.yml
+- filename: znanylekarz-patient-presence-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Patient Presence API
+  slug: znanylekarz-patient-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-patient-presence-api-openapi.yml
+- filename: znanylekarz-services-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Services API
+  slug: znanylekarz-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-services-api-openapi.yml
+- filename: znanylekarz-slots-api-openapi.yml
+  format: yaml
+  label: ZnanyLekarz Slots API
+  slug: znanylekarz-slots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-slots-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -68,5 +128,5 @@ tags:
 - Scheduling
 - Poland
 - Practice Management
-- Telemedicine
+- Telehealth
 ---

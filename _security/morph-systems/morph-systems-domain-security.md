@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Consulting
 - Palantir
-- Large Language Models
+- LLM
 - Data
 - Supply Chain
 - Aerospace and Defense

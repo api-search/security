@@ -45,12 +45,6 @@ api_specs:
   slug: electricitymaps-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-zones-api-openapi.yml
-- filename: electricitymaps-carbonintensity-api-openapi.yml
-  format: yaml
-  label: Electricity Maps Carbon Intensity API
-  slug: electricitymaps-carbonintensity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-carbonintensity-api-openapi.yml
 - filename: electricitymaps-electricitymix-api-openapi.yml
   format: yaml
   label: Electricity Maps Electricity Mix API

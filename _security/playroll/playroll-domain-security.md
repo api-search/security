@@ -37,9 +37,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playroll/refs/heads/main/security/playroll-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
+- Human Resources
 - Employer of Record
-- EOR
 - Global Payroll
 - Contractor Management
 - Global Employment

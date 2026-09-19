@@ -51,18 +51,18 @@ api_specs:
   slug: paymob-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payments-api-openapi.yml
-- filename: paymob-topup-api-openapi.yml
-  format: yaml
-  label: Paymob Topup API
-  slug: paymob-topup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-topup-api-openapi.yml
 - filename: paymob-transactions-api-openapi.yml
   format: yaml
   label: Paymob Transactions API
   slug: paymob-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-transactions-api-openapi.yml
+- filename: paymob-top-up-api-openapi.yml
+  format: yaml
+  label: Paymob Top Up API
+  slug: paymob-top-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-top-up-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -110,12 +110,12 @@ tags:
 - MENAP
 - Egypt
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 - Pakistan
 - Oman
 - Card Payments
 - Mobile Wallets
-- BNPL
+- Buy Now Pay Later
 - Payouts
 - Subscription
 ---

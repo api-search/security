@@ -51,7 +51,7 @@ tags:
 - Specification Languages
 - API Design
 - Contracts
-- Schemas
+- Schema
 - Interface Definitions
 - Standards
 ---

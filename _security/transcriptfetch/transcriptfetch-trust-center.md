@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: transcriptfetch-api-v2-openapi.json
-  format: json
-  label: TranscriptFetch REST API
-  slug: transcriptfetch-rest-api
+- filename: transcriptfetch-system-api-openapi.yml
+  format: yaml
+  label: TranscriptFetch System API
+  slug: transcriptfetch-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-api-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-system-api-openapi.yml
+- filename: transcriptfetch-transcripts-api-openapi.yml
+  format: yaml
+  label: TranscriptFetch Transcripts API
+  slug: transcriptfetch-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-transcripts-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -26,30 +32,24 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/security/transcriptfetch-trust-center.yml
 summary_line: trust center published
 tags:
-- transcripts
-- speech-to-text
-- captions
-- youtube
-- tiktok
-- instagram
-- podcasts
-- mcp
-- llms-txt
-- openapi
-- Transcription
+- Transcripts
 - Speech-to-Text
-- Video
-- Podcasts
-- AI/LLM
-- RAG
-- Agents
-- MCP
-- Developer Tools
-- Media
-- Content
+- Captions
 - YouTube
 - TikTok
 - Instagram
+- Podcasts
+- MCP
+- llms-txt
+- OpenAPI
+- Transcription
+- Video
+- AI/LLM
+- RAG
+- Agents
+- Developer Tools
+- Media
+- Content
 - Spotify
 - Apple Podcasts
 trust_url: https://transcriptfetch.com/trust

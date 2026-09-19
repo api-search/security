@@ -30,18 +30,6 @@ api_specs:
   slug: plateiq-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-invoices-api-openapi.yml
-- filename: plateiq-oauth-api-openapi.yml
-  format: yaml
-  label: PlateIQ oauth API
-  slug: plateiq-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-oauth-api-openapi.yml
-- filename: plateiq-purchaseorders-api-openapi.yml
-  format: yaml
-  label: PlateIQ purchaseOrders API
-  slug: plateiq-purchaseorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-purchaseorders-api-openapi.yml
 - filename: plateiq-receipts-api-openapi.yml
   format: yaml
   label: PlateIQ receipts API
@@ -54,6 +42,18 @@ api_specs:
   slug: plateiq-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-vendors-api-openapi.yml
+- filename: plateiq-oauth-api-openapi.yml
+  format: yaml
+  label: PlateIQ OAUTH API
+  slug: plateiq-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-oauth-api-openapi.yml
+- filename: plateiq-purchase-orders-api-openapi.yml
+  format: yaml
+  label: PlateIQ Purchase Orders API
+  slug: plateiq-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/plateiq-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

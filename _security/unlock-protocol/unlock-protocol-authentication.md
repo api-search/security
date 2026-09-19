@@ -241,7 +241,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unlock-protoco
 summary_line: apiKey/http · 2 schemes
 tags:
 - Blockchain
-- Memberships
+- Membership
 - Subscription
 - NFT
 - Ticketing

@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juro/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Contract Management
-- CLM
+- Contract Lifecycle Management
 - Contract Lifecycle
 - Contract Automation
 - Legal

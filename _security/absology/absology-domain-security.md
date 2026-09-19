@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absology/refs/
 summary_line: TLSv1.2
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Diagnostics
-- In-Vitro Diagnostics
-- Point Of Care
+- In Vitro Diagnostics
+- Point of Care
 - Laboratory
 - South Korea
 ---

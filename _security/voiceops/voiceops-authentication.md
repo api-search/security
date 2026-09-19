@@ -74,7 +74,7 @@ tags:
 - Company
 - Ai Apps
 - Conversation Intelligence
-- Call Centers
+- Call Center
 - Sales Coaching
 - Customer Experience
 - Artificial Intelligence

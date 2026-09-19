@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fiat-accounts-api-openapi.yml
 - filename: fireblocks-fireblocks-network-api-openapi.yml
   format: yaml
-  label: fireblocks Fireblocks Network API
+  label: fireblocks Network API
   slug: fireblocks-fireblocks-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fireblocks-network-api-openapi.yml
@@ -264,5 +264,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fireblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:26:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.fireblocks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 08:25:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.fireblocks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 18:23:03 2026 GMT\n  hsts: null\ndomains:\n- domain: fireblocks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: fireblocks.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/security/fireblocks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Digital Assets
+- Custody
+- Vault
+- Transaction
+- Tokenization
+- Stablecoins
 ---

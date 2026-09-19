@@ -57,9 +57,9 @@ tags:
 - Diabetes
 - Insulin Management
 - glycemic-management
-- Hospital
+- Hospitals
 - EHR Integration
 - HL7
-- Medical Device
+- Medical Devices
 - Software as a Medical Device
 ---

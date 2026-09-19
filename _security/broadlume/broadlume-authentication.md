@@ -63,12 +63,6 @@ api_specs:
   slug: broadlume-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/openapi/broadlume-dashboard-api-openapi.yml
-- filename: broadlume-edocs-api-openapi.yml
-  format: yaml
-  label: Broadlume Edocs API
-  slug: broadlume-edocs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/openapi/broadlume-edocs-api-openapi.yml
 - filename: broadlume-general-api-openapi.yml
   format: yaml
   label: Broadlume General API
@@ -171,6 +165,12 @@ api_specs:
   slug: broadlume-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/openapi/broadlume-version-api-openapi.yml
+- filename: broadlume-edocs-api-openapi.yml
+  format: yaml
+  label: Broadlume Edocs API
+  slug: broadlume-edocs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/openapi/broadlume-edocs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

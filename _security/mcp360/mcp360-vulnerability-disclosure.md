@@ -164,7 +164,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mcp360/refs/heads/main/openapi/mcp360-llm-prompt-tracker-api-openapi.yml
 - filename: mcp360-mcp360-api-openapi.yml
   format: yaml
-  label: MCP360 Mcp360 API
+  label: MCP360 API
   slug: mcp360-mcp360-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mcp360/refs/heads/main/openapi/mcp360-mcp360-api-openapi.yml

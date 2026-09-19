@@ -50,12 +50,6 @@ api_specs:
   slug: xentral-credit-note-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-credit-note-tag-api-openapi.yml
-- filename: xentral-creditnote-api-openapi.yml
-  format: yaml
-  label: Xentral CreditNote API
-  slug: xentral-creditnote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-creditnote-api-openapi.yml
 - filename: xentral-customer-address-api-openapi.yml
   format: yaml
   label: Xentral Customer Address API
@@ -104,12 +98,6 @@ api_specs:
   slug: xentral-delivery-terms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-delivery-terms-api-openapi.yml
-- filename: xentral-deliverynote-api-openapi.yml
-  format: yaml
-  label: Xentral DeliveryNote API
-  slug: xentral-deliverynote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-deliverynote-api-openapi.yml
 - filename: xentral-documentation-api-openapi.yml
   format: yaml
   label: Xentral Documentation API
@@ -176,12 +164,6 @@ api_specs:
   slug: xentral-liability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-liability-api-openapi.yml
-- filename: xentral-matrixproduct-api-openapi.yml
-  format: yaml
-  label: Xentral Matrixproduct API
-  slug: xentral-matrixproduct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-matrixproduct-api-openapi.yml
 - filename: xentral-offer-api-openapi.yml
   format: yaml
   label: Xentral Offer API
@@ -326,12 +308,6 @@ api_specs:
   slug: xentral-purchase-price-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-purchase-price-api-openapi.yml
-- filename: xentral-purchaseorder-api-openapi.yml
-  format: yaml
-  label: Xentral PurchaseOrder API
-  slug: xentral-purchaseorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-purchaseorder-api-openapi.yml
 - filename: xentral-query-api-openapi.yml
   format: yaml
   label: Xentral Query API
@@ -368,12 +344,6 @@ api_specs:
   slug: xentral-return-reason-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-return-reason-api-openapi.yml
-- filename: xentral-returnorder-api-openapi.yml
-  format: yaml
-  label: Xentral ReturnOrder API
-  slug: xentral-returnorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-returnorder-api-openapi.yml
 - filename: xentral-revenue-account-mapping-api-openapi.yml
   format: yaml
   label: Xentral Revenue Account Mapping API
@@ -404,24 +374,6 @@ api_specs:
   slug: xentral-sales-price-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-sales-price-api-openapi.yml
-- filename: xentral-salesorder-api-openapi.yml
-  format: yaml
-  label: Xentral SalesOrder API
-  slug: xentral-salesorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-salesorder-api-openapi.yml
-- filename: xentral-salesprice-api-openapi.yml
-  format: yaml
-  label: Xentral SalesPrice API
-  slug: xentral-salesprice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-salesprice-api-openapi.yml
-- filename: xentral-serviceorder-api-openapi.yml
-  format: yaml
-  label: Xentral ServiceOrder API
-  slug: xentral-serviceorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-serviceorder-api-openapi.yml
 - filename: xentral-setting-api-openapi.yml
   format: yaml
   label: Xentral Setting API
@@ -542,6 +494,24 @@ api_specs:
   slug: xentral-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-webhook-api-openapi.yml
+- filename: xentral-matrix-product-api-openapi.yml
+  format: yaml
+  label: Xentral Matrix Product API
+  slug: xentral-matrix-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-matrix-product-api-openapi.yml
+- filename: xentral-return-order-api-openapi.yml
+  format: yaml
+  label: Xentral Return Order API
+  slug: xentral-return-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-return-order-api-openapi.yml
+- filename: xentral-service-order-api-openapi.yml
+  format: yaml
+  label: Xentral Service Order API
+  slug: xentral-service-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/openapi/xentral-service-order-api-openapi.yml
 auth_types:
 - http
 description: ''

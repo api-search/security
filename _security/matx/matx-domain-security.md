@@ -37,6 +37,6 @@ tags:
 - Hardware
 - Machine-Learning
 - LLM
-- AI Accelerator
+- AI Accelerators
 - Inference
 ---

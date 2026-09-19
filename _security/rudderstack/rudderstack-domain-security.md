@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/asyncapi/rudderstack-event-streaming-asyncapi.yml
 - filename: rudderstack-http-api-api-openapi.yml
   format: yaml
-  label: RudderStack HTTP API API
+  label: RudderStack HTTP API
   slug: rudderstack-http-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-http-api-api-openapi.yml
 - filename: rudderstack-internal-api-api-openapi.yml
   format: yaml
-  label: RudderStack Internal API API
+  label: RudderStack Internal API
   slug: rudderstack-internal-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-internal-api-api-openapi.yml

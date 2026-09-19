@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phenom/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Talent Experience
 - Recruiting
 - Applicant Tracking

@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Inference
 - API Gateway
 - GPU

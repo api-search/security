@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-downloads-api-openapi.yml
 - filename: ruby-gems-api-openapi.yml
   format: yaml
-  label: Ruby Programming Language and Popular API Gems Gems API
+  label: Ruby Programming Language and Popular API Gems API
   slug: ruby-gems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-gems-api-openapi.yml
@@ -97,8 +97,8 @@ tags:
 - Ruby
 - HTTP
 - REST
-- API Clients
-- Frameworks
+- API Client
+- Framework
 - Libraries
 - Package Registry
 ---

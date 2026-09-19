@@ -30,12 +30,12 @@ api_specs:
   slug: oidc-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-token-api-openapi.yml
-- filename: oidc-userinfo-api-openapi.yml
+- filename: oidc-user-info-api-openapi.yml
   format: yaml
-  label: OIDC UserInfo API
-  slug: oidc-userinfo-api
+  label: OIDC User Info API
+  slug: oidc-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-userinfo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/openapi/oidc-user-info-api-openapi.yml
 description: ''
 domains:
 - caa: []

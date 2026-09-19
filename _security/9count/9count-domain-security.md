@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/9count/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Consumer Apps
+- Consumer App
 - Social Networking
 - Dating
 - Mobile Applications

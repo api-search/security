@@ -501,5 +501,6 @@ tags:
 - Observability
 - Traces
 - Visualization
+- Grafana
 trust_url: https://trust.grafana.com/
 ---

@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Virtual Reality
-- Social Networks
+- Social Network
 - Gaming
 - Metaverse
 - Avatars

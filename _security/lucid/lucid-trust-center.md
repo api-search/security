@@ -42,12 +42,6 @@ api_specs:
   slug: lucid-data-item-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/openapi/lucid-data-item-api-openapi.yml
-- filename: lucid-data-set-api-openapi.yml
-  format: yaml
-  label: Lucid Data Set API
-  slug: lucid-data-set-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/openapi/lucid-data-set-api-openapi.yml
 - filename: lucid-data-set-grant-api-openapi.yml
   format: yaml
   label: Lucid Data Set Grant API
@@ -216,6 +210,12 @@ api_specs:
   slug: lucid-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/openapi/lucid-users-api-openapi.yml
+- filename: lucid-dataset-api-openapi.yml
+  format: yaml
+  label: Lucid Dataset API
+  slug: lucid-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/openapi/lucid-dataset-api-openapi.yml
 certification_count: 11
 certifications:
 - SOC 2 Type II

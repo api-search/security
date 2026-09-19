@@ -15,12 +15,6 @@ api_specs:
   slug: hasura-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
-- filename: hasura-graphql-api-openapi.yml
-  format: yaml
-  label: Hasura Graphql API
-  slug: hasura-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-graphql-api-openapi.yml
 - filename: hasura-healthz-api-openapi.yml
   format: yaml
   label: Hasura Healthz API
@@ -63,6 +57,12 @@ api_specs:
   slug: hasura-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-version-api-openapi.yml
+- filename: hasura-graph-ql-api-openapi.yml
+  format: yaml
+  label: Hasura Graph QL API
+  slug: hasura-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http

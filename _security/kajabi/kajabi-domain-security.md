@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/openapi/kajabi-forms-api-openapi.yml
 - filename: kajabi-kajabi-payments-payouts-api-openapi.yml
   format: yaml
-  label: Kajabi Kajabi Payments Payouts API
+  label: Kajabi Payments Payouts API
   slug: kajabi-kajabi-payments-payouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/openapi/kajabi-kajabi-payments-payouts-api-openapi.yml
@@ -176,7 +176,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Creator Economy
 - Online Courses
-- Memberships
+- Membership
 - E-Commerce
 - Digital Products
 - Contacts

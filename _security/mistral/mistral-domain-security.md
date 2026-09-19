@@ -18,12 +18,6 @@ api_specs:
   slug: mistral-batch-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-batch-jobs-api-openapi.yml
-- filename: mistral-chat-api-openapi.yml
-  format: yaml
-  label: Mistral AI Chat API
-  slug: mistral-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-chat-api-openapi.yml
 - filename: mistral-embeddings-api-openapi.yml
   format: yaml
   label: Mistral AI Embeddings API
@@ -138,5 +132,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mistral.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 21:38:58 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.mistral.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 16:46:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.mistral.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 21:30:01 2026 GMT\n  hsts: null\ndomains:\n- domain: mistral.ai\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/security/mistral-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Embeddings
+- Machine-Learning
+- Agents
+- OCR
+- LLM
 ---

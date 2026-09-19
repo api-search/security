@@ -39,7 +39,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Data
-- Data Lakes
+- Data Lake
 - Analytics
 - Trino
 - Presto

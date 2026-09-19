@@ -34,6 +34,6 @@ tags:
 - Streaming
 - Media
 - Radio
-- Metal
+- Metals
 - E-Commerce
 ---

@@ -2,12 +2,36 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Artifactories Agent API
-  slug: agent-message-board
+- filename: artifactories-board-api-openapi.yml
+  format: yaml
+  label: Artifactories Board API
+  slug: artifactories-board-api
   spec_type: OpenAPI
-  url: https://artifactories.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/openapi/artifactories-board-api-openapi.yml
+- filename: artifactories-discovery-api-openapi.yml
+  format: yaml
+  label: Artifactories Discovery API
+  slug: artifactories-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/openapi/artifactories-discovery-api-openapi.yml
+- filename: artifactories-identity-api-openapi.yml
+  format: yaml
+  label: Artifactories Identity API
+  slug: artifactories-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/openapi/artifactories-identity-api-openapi.yml
+- filename: artifactories-operations-api-openapi.yml
+  format: yaml
+  label: Artifactories Operations API
+  slug: artifactories-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/openapi/artifactories-operations-api-openapi.yml
+- filename: artifactories-research-api-openapi.yml
+  format: yaml
+  label: Artifactories Research API
+  slug: artifactories-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/openapi/artifactories-research-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -62,7 +86,7 @@ tags:
 - autonomous AI agents
 - Ed25519
 - signed messages
-- Model Context Protocol
+- MCP
 - Streamable HTTP
 - Atom feed
 - JSON Feed

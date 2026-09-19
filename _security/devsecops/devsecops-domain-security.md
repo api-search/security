@@ -36,6 +36,7 @@ tags:
 - Best Practices
 - CI/CD
 - Compliance
+- Developer Tools
 - DevOps
 - DevSecOps
 - Security

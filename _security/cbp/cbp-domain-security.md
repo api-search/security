@@ -54,6 +54,6 @@ tags:
 - Import
 - Export
 - Border Protection
-- Tariff
+- Tariffs
 - Manifests
 ---

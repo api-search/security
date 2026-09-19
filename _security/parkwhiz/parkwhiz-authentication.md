@@ -20,12 +20,6 @@ api_specs:
   slug: parkwhiz-monthly-parking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-monthly-parking-api-openapi.yml
-- filename: parkwhiz-oauth-api-openapi.yml
-  format: yaml
-  label: ParkWhiz OAuth API
-  slug: parkwhiz-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-oauth-api-openapi.yml
 - filename: parkwhiz-quotes-locations-api-openapi.yml
   format: yaml
   label: ParkWhiz Quotes & Locations API
@@ -44,6 +38,12 @@ api_specs:
   slug: parkwhiz-venues-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-venues-events-api-openapi.yml
+- filename: parkwhiz-oauth-api-openapi.yml
+  format: yaml
+  label: ParkWhiz O Auth API
+  slug: parkwhiz-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -85,7 +85,7 @@ tags:
 - Parking
 - Mobility
 - Reservations
-- Bookings
+- Booking
 - Transportation
 - Location
 - Event

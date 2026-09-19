@@ -35,7 +35,7 @@ tags:
 - Market Research
 - Consumer Insights
 - Qualitative Research
-- Survey
+- Surveys
 - Video
 - Artificial Intelligence
 - Analytics

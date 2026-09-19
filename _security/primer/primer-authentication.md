@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: primer-client-session-api-api-openapi.yml
   format: yaml
-  label: Primer Client Session API API
+  label: Primer Client Session API
   slug: primer-client-session-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-client-session-api-api-openapi.yml
@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-dispute-chargebacks-webhooks-api-openapi.yml
 - filename: primer-payment-methods-api-api-openapi.yml
   format: yaml
-  label: Primer Payment Methods API API
+  label: Primer Payment Methods API
   slug: primer-payment-methods-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payment-methods-api-api-openapi.yml
@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payment-webhooks-api-openapi.yml
 - filename: primer-payments-api-api-openapi.yml
   format: yaml
-  label: Primer Payments API API
+  label: Primer Payments API
   slug: primer-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payments-api-api-openapi.yml

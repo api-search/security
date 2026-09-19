@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-identities-api-openapi.yml
 - filename: beyond-identity-identity-provider-api-openapi.yml
   format: yaml
-  label: Beyond Identity Identity Provider API
+  label: Beyond Identity Provider API
   slug: beyond-identity-identity-provider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-identity-provider-api-openapi.yml
@@ -138,4 +138,5 @@ tags:
 - Device Security
 - OIDC
 - SCIM
+- Identity Federation
 ---

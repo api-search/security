@@ -34,6 +34,7 @@ tags:
 - Configuration
 - Containers
 - Deployment
+- Developer Tools
 - GitOps
 - Kubernetes
 - Package Management

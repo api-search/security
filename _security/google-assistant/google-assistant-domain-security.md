@@ -2,7 +2,7 @@
 api_specs:
 - filename: google-assistant-assistant-api-openapi.yml
   format: yaml
-  label: Google Assistant Assistant API
+  label: Google Assistant API
   slug: google-assistant-assistant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/openapi/google-assistant-assistant-api-openapi.yml

@@ -37,4 +37,5 @@ tags:
 - Retail
 - Consumer
 - Hong Kong
+- Defunct
 ---

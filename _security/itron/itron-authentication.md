@@ -58,10 +58,9 @@ summary_line: http · 1 scheme
 tags:
 - Itron
 - Utilities
-- Smart Meters
+- Smart Meter
 - Smart Grid
 - Smart Cities
-- Internet of Things
 - IoT
 - Energy
 - Water

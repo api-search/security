@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Mental Health
-- Health Care
+- Healthcare
 - Wellness
 - Consumer Applications
 - Support Groups

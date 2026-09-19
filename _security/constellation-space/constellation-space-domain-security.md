@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Satellites
+- Satellite
 - Space
 - Telemetry
 - Machine-Learning

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Prediction
+- Predictions
 - Simulation
 - Synthetic Research
 - Market Research

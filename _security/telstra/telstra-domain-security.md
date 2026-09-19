@@ -6,12 +6,6 @@ api_specs:
   slug: telstra-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-authentication-api-openapi.yml
-- filename: telstra-healthcheck-api-openapi.yml
-  format: yaml
-  label: Telstra HealthCheck API
-  slug: telstra-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-healthcheck-api-openapi.yml
 - filename: telstra-mms-api-openapi.yml
   format: yaml
   label: Telstra MMS API
@@ -36,6 +30,12 @@ api_specs:
   slug: telstra-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-verification-api-openapi.yml
+- filename: telstra-health-check-api-openapi.yml
+  format: yaml
+  label: Telstra Health Check API
+  slug: telstra-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

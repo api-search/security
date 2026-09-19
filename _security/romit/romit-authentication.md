@@ -26,12 +26,6 @@ api_specs:
   slug: romit-invoice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-invoice-api-openapi.yml
-- filename: romit-oauth-api-openapi.yml
-  format: yaml
-  label: Romit OAuth API
-  slug: romit-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-oauth-api-openapi.yml
 - filename: romit-plan-api-openapi.yml
   format: yaml
   label: Romit Plan API
@@ -56,6 +50,12 @@ api_specs:
   slug: romit-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-user-api-openapi.yml
+- filename: romit-oauth-api-openapi.yml
+  format: yaml
+  label: Romit O Auth API
+  slug: romit-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -104,4 +104,5 @@ tags:
 - Fraud Prevention
 - Invoicing
 - Subscription
+- Defunct
 ---

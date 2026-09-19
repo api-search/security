@@ -54,12 +54,12 @@ api_specs:
   slug: sana-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-users-api-openapi.yml
-- filename: sana-xapi-api-openapi.yml
+- filename: sana-x-api-api-openapi.yml
   format: yaml
-  label: Sana xAPI API
-  slug: sana-xapi-api
+  label: Sana x API
+  slug: sana-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-xapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-x-api-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001

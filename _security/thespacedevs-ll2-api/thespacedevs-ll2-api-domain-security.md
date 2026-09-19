@@ -12,12 +12,6 @@ api_specs:
   slug: thespacedevs-ll2-api-agency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-agency-api-openapi.yml
-- filename: thespacedevs-ll2-api-api-throttle-api-openapi.yml
-  format: yaml
-  label: TheSpaceDevs LL2 API Api-throttle API
-  slug: thespacedevs-ll2-api-api-throttle-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-api-throttle-api-openapi.yml
 - filename: thespacedevs-ll2-api-astronaut-api-openapi.yml
   format: yaml
   label: TheSpaceDevs LL2 API Astronaut API
@@ -30,12 +24,6 @@ api_specs:
   slug: thespacedevs-ll2-api-astronauts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-astronauts-api-openapi.yml
-- filename: thespacedevs-ll2-api-bodies-api-openapi.yml
-  format: yaml
-  label: TheSpaceDevs LL2 API Bodies API
-  slug: thespacedevs-ll2-api-bodies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-bodies-api-openapi.yml
 - filename: thespacedevs-ll2-api-celestial-api-openapi.yml
   format: yaml
   label: TheSpaceDevs LL2 API Celestial API
@@ -78,12 +66,6 @@ api_specs:
   slug: thespacedevs-ll2-api-expeditions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-expeditions-api-openapi.yml
-- filename: thespacedevs-ll2-api-families-api-openapi.yml
-  format: yaml
-  label: TheSpaceDevs LL2 API Families API
-  slug: thespacedevs-ll2-api-families-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-families-api-openapi.yml
 - filename: thespacedevs-ll2-api-flights-api-openapi.yml
   format: yaml
   label: TheSpaceDevs LL2 API Flights API
@@ -162,12 +144,6 @@ api_specs:
   slug: thespacedevs-ll2-api-precisions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-precisions-api-openapi.yml
-- filename: thespacedevs-ll2-api-previous-api-openapi.yml
-  format: yaml
-  label: TheSpaceDevs LL2 API Previous API
-  slug: thespacedevs-ll2-api-previous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/openapi/thespacedevs-ll2-api-previous-api-openapi.yml
 - filename: thespacedevs-ll2-api-programs-api-openapi.yml
   format: yaml
   label: TheSpaceDevs LL2 API Programs API
@@ -278,7 +254,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-l
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Space
-- Satellites
+- Satellite
 - Launches
 - Rockets
 - Astronauts

@@ -74,18 +74,18 @@ api_specs:
   slug: con-edison-retailcustomer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-retailcustomer-api-openapi.yml
-- filename: con-edison-servicestatus-api-openapi.yml
-  format: yaml
-  label: Con Edison Service Status API
-  slug: con-edison-servicestatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-servicestatus-api-openapi.yml
 - filename: con-edison-usagepoint-api-openapi.yml
   format: yaml
   label: Con Edison Usage Point API
   slug: con-edison-usagepoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-usagepoint-api-openapi.yml
+- filename: con-edison-service-status-api-openapi.yml
+  format: yaml
+  label: Con Edison Service Status API
+  slug: con-edison-service-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-service-status-api-openapi.yml
 auth_types:
 - oauth2
 - http

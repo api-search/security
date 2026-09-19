@@ -102,12 +102,6 @@ api_specs:
   slug: payt-psp-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-transactions-api-openapi.yml
-- filename: payt-sign-up-api-openapi.yml
-  format: yaml
-  label: Payt sign_up API
-  slug: payt-sign-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-sign-up-api-openapi.yml
 - filename: payt-tasks-api-openapi.yml
   format: yaml
   label: Payt tasks API
@@ -120,6 +114,12 @@ api_specs:
   slug: payt-vat-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-vat-rates-api-openapi.yml
+- filename: payt-signup-api-openapi.yml
+  format: yaml
+  label: Payt Signup API
+  slug: payt-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-signup-api-openapi.yml
 description: ''
 domains:
 - caa:

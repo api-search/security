@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-services-api-openapi.yml
 - filename: timescaledb-vpcs-api-openapi.yml
   format: yaml
-  label: TimescaleDB / Tiger Data VPCs API
+  label: TimescaleDB / Tiger Data VP Cs API
   slug: timescaledb-vpcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-vpcs-api-openapi.yml

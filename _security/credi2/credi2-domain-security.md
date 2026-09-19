@@ -34,7 +34,6 @@ tags:
 - Embedded Finance
 - Lending
 - Buy Now Pay Later
-- BNPL
 - Installments
 - Fintech
 - Banking

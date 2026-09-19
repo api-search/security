@@ -41,7 +41,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Food
 - Ingredients
-- Parsers
+- Parser
 - Recipes
 - USDA
 ---

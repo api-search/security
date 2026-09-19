@@ -93,7 +93,7 @@ tags:
 - Job Management
 - HVAC
 - Plumbing
-- Trades
+- Trade
 - Scheduling
 - Invoicing
 - Engineers

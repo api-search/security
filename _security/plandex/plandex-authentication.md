@@ -123,7 +123,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plandex/refs/h
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Developer Tools
 - Open-Source
 - CLI

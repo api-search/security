@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Deep Learning
-- Large Language Models
+- LLM
 - Natural Language Processing
 - No-Code
 - Document Intelligence

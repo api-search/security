@@ -113,5 +113,5 @@ summary_line: apiKey · 2 schemes
 tags:
 - Odds
 - Sports Betting
-- Sportsbooks
+- Sportsbook
 ---

@@ -146,6 +146,6 @@ tags:
 - Content
 - News
 - Careers
-- Events
-- Model Context Protocol
+- Event
+- MCP
 ---

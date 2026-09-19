@@ -51,6 +51,6 @@ tags:
 - Open-Source
 - Sprints
 - User Stories
-- Epics
+- Epic
 - Task
 ---

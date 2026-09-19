@@ -52,5 +52,4 @@ tags:
 - Fraud Prevention
 - Onboarding
 - Watchlist Screening
-- Know Your Customer
 ---

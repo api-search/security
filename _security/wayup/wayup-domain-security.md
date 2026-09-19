@@ -42,6 +42,6 @@ tags:
 - Recruiting
 - Early Career
 - Internships
-- Career
+- Careers
 - Talent Acquisition
 ---

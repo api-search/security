@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beamery/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Talent
 - Recruiting
 - Talent CRM

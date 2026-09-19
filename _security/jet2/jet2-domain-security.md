@@ -44,7 +44,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Low Cost Carrier
 - Package Holidays
 - Tour Operator

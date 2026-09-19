@@ -59,7 +59,7 @@ tags:
 - International Law
 - Labor
 - Law
-- Law Firm
+- Law Firms
 - Legal
 - Legal Services
 - Life Sciences

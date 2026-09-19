@@ -35,7 +35,6 @@ tags:
 - Health
 - Healthcare
 - Telehealth
-- Telemedicine
 - Opioid Use Disorder
 - Addiction Treatment
 - Mental Health

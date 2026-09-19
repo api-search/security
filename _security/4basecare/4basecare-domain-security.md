@@ -50,6 +50,6 @@ tags:
 - Artificial Intelligence
 - Life Sciences
 - Clinical Decision Support
-- Next Generation Sequencing
+- Next-Generation Sequencing
 - India
 ---

@@ -37,6 +37,6 @@ tags:
 - Revenue Management
 - Dynamic Pricing
 - Property Management
-- Vacation Rental
+- Vacation Rentals
 - Software-as-a-Service
 ---

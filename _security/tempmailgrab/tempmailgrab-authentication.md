@@ -3,12 +3,36 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: tempmailgrab-openapi.json
-  format: json
-  label: TempMailGrab REST API
-  slug: tempmailgrab-rest-api
+- filename: tempmailgrab-byod-api-openapi.yml
+  format: yaml
+  label: TempMailGrab API Byod API
+  slug: tempmailgrab-byod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-byod-api-openapi.yml
+- filename: tempmailgrab-inbox-api-openapi.yml
+  format: yaml
+  label: TempMailGrab API Inbox API
+  slug: tempmailgrab-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-inbox-api-openapi.yml
+- filename: tempmailgrab-messages-api-openapi.yml
+  format: yaml
+  label: TempMailGrab API Messages API
+  slug: tempmailgrab-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-messages-api-openapi.yml
+- filename: tempmailgrab-tempmailgrab-api-api-openapi.yml
+  format: yaml
+  label: TempMailGrab API TempMailGrab API
+  slug: tempmailgrab-tempmailgrab-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-tempmailgrab-api-api-openapi.yml
+- filename: tempmailgrab-webhooks-api-openapi.yml
+  format: yaml
+  label: TempMailGrab API Webhooks API
+  slug: tempmailgrab-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/openapi/tempmailgrab-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -56,16 +80,16 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://tempmai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/authentication/tempmailgrab-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- email
+- Email
 - temporary-email
-- disposable-email
-- otp
-- webhooks
-- qa
-- testing
-- playwright
-- cypress
-- developer-tools
-- email-testing
-- ci
+- Disposable Email
+- OTP
+- Webhook
+- QA
+- Testing
+- Playwright
+- Cypress
+- Developer Tools
+- Email Testing
+- CI
 ---

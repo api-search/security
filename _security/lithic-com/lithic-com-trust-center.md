@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: lithic-com-3ds-api-openapi.yml
-  format: yaml
-  label: Lithic 3DS API
-  slug: lithic-com-3ds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-3ds-api-openapi.yml
 - filename: lithic-com-account-api-openapi.yml
   format: yaml
   label: Lithic Account API
@@ -186,6 +180,12 @@ api_specs:
   slug: lithic-com-transfer-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-transfer-limits-api-openapi.yml
+- filename: lithic-com-3-ds-api-openapi.yml
+  format: yaml
+  label: Lithic 3 DS API
+  slug: lithic-com-3-ds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-3-ds-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

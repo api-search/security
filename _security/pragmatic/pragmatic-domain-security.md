@@ -50,6 +50,6 @@ tags:
 - Foundry
 - NFC
 - RFID
-- Internet of Things
+- IoT
 - United Kingdom
 ---

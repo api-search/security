@@ -30,12 +30,6 @@ api_specs:
   slug: tensor-listings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-listings-api-openapi.yml
-- filename: tensor-nfts-api-openapi.yml
-  format: yaml
-  label: Tensor NFTs API
-  slug: tensor-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-nfts-api-openapi.yml
 - filename: tensor-pools-api-openapi.yml
   format: yaml
   label: Tensor Pools API
@@ -54,6 +48,12 @@ api_specs:
   slug: tensor-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-utility-api-openapi.yml
+- filename: tensor-nfts-api-openapi.yml
+  format: yaml
+  label: Tensor NF Ts API
+  slug: tensor-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []

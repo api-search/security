@@ -37,5 +37,5 @@ tags:
 - Tutoring
 - Mathematics
 - K-12
-- Consumer Application
+- Consumer Applications
 ---

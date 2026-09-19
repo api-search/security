@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asbury-automot
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
-- Dealerships
+- Dealership
 - Retail
 - Vehicles
 - Fortune 500

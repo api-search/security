@@ -36,12 +36,6 @@ api_specs:
   slug: pricefinder-names-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-names-api-openapi.yml
-- filename: pricefinder-oauth2-api-openapi.yml
-  format: yaml
-  label: Pricefinder Oauth2 API
-  slug: pricefinder-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-oauth2-api-openapi.yml
 - filename: pricefinder-postcodes-api-openapi.yml
   format: yaml
   label: Pricefinder Postcodes API
@@ -114,6 +108,12 @@ api_specs:
   slug: pricefinder-suggest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-suggest-api-openapi.yml
+- filename: pricefinder-oauth2-api-openapi.yml
+  format: yaml
+  label: Pricefinder Oauth2 API
+  slug: pricefinder-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/openapi/pricefinder-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

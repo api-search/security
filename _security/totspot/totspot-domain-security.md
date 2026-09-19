@@ -34,4 +34,5 @@ tags:
 - Marketplace
 - Mobile Commerce
 - Shopping
+- Defunct
 ---

@@ -271,7 +271,7 @@ tags:
 - Server Management
 - Application Hosting
 - Infrastructure
-- Frameworks
+- Framework
 - Monitoring
 trust_url: https://trust.laravel.com/
 ---

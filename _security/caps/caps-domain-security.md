@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Health Management
 - Clinics
-- Telemedicine
+- Telehealth
 - Corporate Wellness
 - Fitness
 - Japan

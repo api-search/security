@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Identity and Access Management
-- IAM
 - Identity Security
 - Access Governance
 - Non-Human Identity

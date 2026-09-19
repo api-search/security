@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: british-columbia-data-catalogue-bcdc-api-openapi.json
-  format: json
-  label: BC Data Catalogue CKAN API
-  slug: ckan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-bcdc-api-openapi.json
 - filename: british-columbia-data-catalogue-datasets-api-openapi.yml
   format: yaml
   label: British Columbia Data Catalogue Datasets API
@@ -42,6 +36,12 @@ api_specs:
   slug: british-columbia-data-catalogue-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-tags-api-openapi.yml
+- filename: british-columbia-data-catalogue-action-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Action API
+  slug: british-columbia-data-catalogue-action-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-action-api-openapi.yml
 description: ''
 domains:
 - caa: []

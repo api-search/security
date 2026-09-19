@@ -80,36 +80,18 @@ api_specs:
   slug: microsoft-azure-functions-sitecertificates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-sitecertificates-api-openapi.yml
-- filename: microsoft-azure-functions-staticsites-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Functions StaticSites API
-  slug: microsoft-azure-functions-staticsites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-staticsites-api-openapi.yml
 - filename: microsoft-azure-functions-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Subscriptions API
   slug: microsoft-azure-functions-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-subscriptions-api-openapi.yml
-- filename: microsoft-azure-functions-webapps-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Functions WebApps API
-  slug: microsoft-azure-functions-webapps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-webapps-api-openapi.yml
 - filename: microsoft-azure-functions-workflowrunactions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions WorkflowRunActions API
   slug: microsoft-azure-functions-workflowrunactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowrunactions-api-openapi.yml
-- filename: microsoft-azure-functions-workflowruns-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Functions WorkflowRuns API
-  slug: microsoft-azure-functions-workflowruns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowruns-api-openapi.yml
 - filename: microsoft-azure-functions-workflows-api-openapi.yml
   format: yaml
   label: Microsoft Azure Functions Workflows API
@@ -122,18 +104,36 @@ api_specs:
   slug: microsoft-azure-functions-workflowtriggerhistories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowtriggerhistories-api-openapi.yml
-- filename: microsoft-azure-functions-workflowtriggers-api-openapi.yml
+- filename: microsoft-azure-functions-static-sites-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Functions WorkflowTriggers API
-  slug: microsoft-azure-functions-workflowtriggers-api
+  label: Microsoft Azure Functions Static Sites API
+  slug: microsoft-azure-functions-static-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowtriggers-api-openapi.yml
-- filename: microsoft-azure-functions-workflowversions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-static-sites-api-openapi.yml
+- filename: microsoft-azure-functions-web-apps-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Functions WorkflowVersions API
-  slug: microsoft-azure-functions-workflowversions-api
+  label: Microsoft Azure Functions Web Apps API
+  slug: microsoft-azure-functions-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflowversions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-web-apps-api-openapi.yml
+- filename: microsoft-azure-functions-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Functions Workflow Runs API
+  slug: microsoft-azure-functions-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflow-runs-api-openapi.yml
+- filename: microsoft-azure-functions-workflow-triggers-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Functions Workflow Triggers API
+  slug: microsoft-azure-functions-workflow-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflow-triggers-api-openapi.yml
+- filename: microsoft-azure-functions-workflow-versions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Functions Workflow Versions API
+  slug: microsoft-azure-functions-workflow-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/microsoft-azure-functions-workflow-versions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

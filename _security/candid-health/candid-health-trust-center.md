@@ -67,7 +67,7 @@ tags:
 - Claims
 - Eligibility
 - Prior Authorization
-- Remittance
+- Remittances
 - Patient Collections
 - Credentialing
 - Insurance

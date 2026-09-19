@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go-micro/refs/
 summary_line: TLSv1.3
 tags:
 - Distributed Systems
-- Frameworks
+- Framework
 - Go
 - Golang
 - Microservices

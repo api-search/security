@@ -56,7 +56,7 @@ tags:
 - PennyLane
 - Open-Source
 - Compilers
-- Simulators
+- Simulator
 - Continuous Variable
 - Gaussian Boson Sampling
 - Fault Tolerance

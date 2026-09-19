@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icims/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Applicant Tracking
-- HR
+- Human Resources
 - Recruiting
 - Talent Acquisition
 ---

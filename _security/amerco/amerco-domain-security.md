@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: amerco-webselfstorage-affiliate-api-v4-openapi.yml
+- filename: amerco-wssapi-api-openapi.yml
   format: yaml
-  label: WebSelfStorage Affiliate API
-  slug: webselfstorage
+  label: AMERCO Wss API
+  slug: amerco-wssapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-wssapi-api-openapi.yml
+- filename: amerco-wssapiv4-api-openapi.yml
+  format: yaml
+  label: AMERCO Wss API V4 API
+  slug: amerco-wssapiv4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-wssapiv4-api-openapi.yml
 description: ''
 domains:
 - caa: []

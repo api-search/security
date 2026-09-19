@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turneo/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Travel
 - Hospitality
 - Hotels

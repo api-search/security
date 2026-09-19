@@ -326,12 +326,6 @@ api_specs:
   slug: zenhr-inc-timeoff-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-timeoff-transaction-api-openapi.yml
-- filename: zenhr-inc-timeoffs-api-openapi.yml
-  format: yaml
-  label: ZenHR Inc Timeoffs API
-  slug: zenhr-inc-timeoffs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-timeoffs-api-openapi.yml
 - filename: zenhr-inc-users-api-openapi.yml
   format: yaml
   label: ZenHR Inc Users API
@@ -350,6 +344,12 @@ api_specs:
   slug: zenhr-inc-work-shifts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-work-shifts-api-openapi.yml
+- filename: zenhr-inc-time-offs-api-openapi.yml
+  format: yaml
+  label: ZenHR Inc Time Offs API
+  slug: zenhr-inc-time-offs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-time-offs-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -389,7 +389,6 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Human Resources
-- HR
 - Payroll
 - HRMS
 - Employee Management

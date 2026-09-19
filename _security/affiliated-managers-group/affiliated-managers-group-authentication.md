@@ -2,18 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: affiliated-managers-group-funds-data-openapi.yml
+- filename: affiliated-managers-group-affiliates-api-openapi.yml
   format: yaml
-  label: AMG Funds Data API
-  slug: affiliated-managers-group-funds-data
+  label: Affiliated Managers Group Affiliates API
+  slug: affiliated-managers-group-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/openapi/affiliated-managers-group-funds-data-openapi.yml
-- filename: affiliated-managers-group-corporate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/openapi/affiliated-managers-group-affiliates-api-openapi.yml
+- filename: affiliated-managers-group-fund-detail-api-openapi.yml
   format: yaml
-  label: AMG Corporate Content API
-  slug: affiliated-managers-group-corporate-content
+  label: Affiliated Managers Group Fund Detail API
+  slug: affiliated-managers-group-fund-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/openapi/affiliated-managers-group-corporate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/openapi/affiliated-managers-group-fund-detail-api-openapi.yml
+- filename: affiliated-managers-group-products-api-openapi.yml
+  format: yaml
+  label: Affiliated Managers Group Products API
+  slug: affiliated-managers-group-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/openapi/affiliated-managers-group-products-api-openapi.yml
+- filename: affiliated-managers-group-separately-managed-accounts-api-openapi.yml
+  format: yaml
+  label: Affiliated Managers Group Separately Managed Accounts API
+  slug: affiliated-managers-group-separately-managed-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/openapi/affiliated-managers-group-separately-managed-accounts-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

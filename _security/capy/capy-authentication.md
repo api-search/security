@@ -106,7 +106,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Software Engineering
 - Developer Tools
 - Automation

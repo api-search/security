@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: anilist-graphql-api-openapi.yml
-  format: yaml
-  label: AniList GraphQL API
-  slug: anilist-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-graphql-api-openapi.yml
 - filename: anilist-oauth2-api-openapi.yml
   format: yaml
-  label: AniList OAuth2 API
+  label: AniList O Auth2 API
   slug: anilist-oauth2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-oauth2-api-openapi.yml
+- filename: anilist-graph-ql-api-openapi.yml
+  format: yaml
+  label: AniList Graph QL API
+  slug: anilist-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-graph-ql-api-openapi.yml
 auth_types:
 - http
 - oauth2

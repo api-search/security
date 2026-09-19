@@ -41,7 +41,7 @@ tags:
 - Health Tech
 - Fintech
 - Dental
-- BNPL
+- Buy Now Pay Later
 - Payments
 - Software-as-a-Service
 - Practice Management

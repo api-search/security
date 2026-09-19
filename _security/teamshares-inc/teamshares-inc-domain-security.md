@@ -35,6 +35,6 @@ tags:
 - Fintech
 - Employee Ownership
 - Small Business
-- Acquisitions
+- Acquisition
 - Financial-Services
 ---

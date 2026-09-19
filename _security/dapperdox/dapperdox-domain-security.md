@@ -33,5 +33,5 @@ tags:
 - Developer Tools
 - Open-Source
 - OpenAPI
-- Static Site
+- Static Sites
 ---

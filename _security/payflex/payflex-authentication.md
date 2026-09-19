@@ -56,7 +56,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/authentication/payflex-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- BNPL
 - Buy Now Pay Later
 - Payments
 - Installments

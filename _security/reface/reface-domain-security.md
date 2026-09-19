@@ -41,7 +41,7 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Face Swap
-- Consumer Apps
+- Consumer App
 - Photo and Video
 - Mobile
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: bombora-intent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-intent-api-openapi.yml
-- filename: bombora-accountlists-api-openapi.yml
-  format: yaml
-  label: Bombora Account Lists API
-  slug: bombora-accountlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-accountlists-api-openapi.yml
 - filename: bombora-accounts-api-openapi.yml
   format: yaml
   label: Bombora Accounts API
@@ -78,12 +72,6 @@ api_specs:
   slug: bombora-install-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-install-data-api-openapi.yml
-- filename: bombora-oauth-api-openapi.yml
-  format: yaml
-  label: Bombora OAUTH API
-  slug: bombora-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-oauth-api-openapi.yml
 - filename: bombora-signaldefinition-api-openapi.yml
   format: yaml
   label: Bombora Signal Definition API
@@ -96,6 +84,18 @@ api_specs:
   slug: bombora-suspend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-suspend-api-openapi.yml
+- filename: bombora-oauth-api-openapi.yml
+  format: yaml
+  label: Bombora OAUTH API
+  slug: bombora-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-oauth-api-openapi.yml
+- filename: bombora-account-lists-api-openapi.yml
+  format: yaml
+  label: Bombora account lists API
+  slug: bombora-account-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/openapi/bombora-account-lists-api-openapi.yml
 description: ''
 domains:
 - caa: []

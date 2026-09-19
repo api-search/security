@@ -126,5 +126,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freshdesk-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Freshdesk uses API key-based authentication. Pass your API key as the username\n    with any string (e.g. X) as the password using HTTP Basic Authentication.\n  sources:\n  - openapi/freshdesk-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/authentication/freshdesk-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Automation
+- Customer-Support
+- Application
 ---

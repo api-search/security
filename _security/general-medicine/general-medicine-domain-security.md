@@ -35,7 +35,6 @@ tags:
 - Company
 - Health Tech
 - Telehealth
-- Telemedicine
 - Healthcare
 - Digital Health
 - Marketplace

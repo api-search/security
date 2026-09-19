@@ -159,12 +159,12 @@ api_specs:
   slug: aws-step-functions-x-amz-target-awsstepfunctions-updatestatemachine-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-x-amz-target-awsstepfunctions-updatestatemachine-api-openapi.yml
-- filename: step-functions-state-machines-api-openapi.yml
+- filename: aws-step-functions-state-machines-api-openapi.yml
   format: yaml
   label: AWS Step Functions State Machines API
-  slug: step-functions-state-machines-api
+  slug: aws-step-functions-state-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/step-functions-state-machines-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-state-machines-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

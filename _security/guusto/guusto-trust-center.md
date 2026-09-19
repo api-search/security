@@ -42,7 +42,7 @@ tags:
 - Rewards
 - Gifting
 - Gift Cards
-- HR
+- Human Resources
 - Rewards and Recognition
 trust_url: https://security.guusto.com/
 ---

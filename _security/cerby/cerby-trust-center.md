@@ -29,5 +29,6 @@ tags:
 - Nonfederated Applications
 - Automation
 - Webhook
+- Identity Federation
 trust_url: https://trust.cerby.com/
 ---

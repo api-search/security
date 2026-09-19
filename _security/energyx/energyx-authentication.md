@@ -68,12 +68,6 @@ api_specs:
   slug: energyx-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-store-api-openapi.yml
-- filename: energyx-oembed-api-openapi.yml
-  format: yaml
-  label: EnergyX oEmbed API
-  slug: energyx-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-oembed-api-openapi.yml
 - filename: energyx-seo-api-openapi.yml
   format: yaml
   label: EnergyX SEO Metadata API
@@ -110,6 +104,12 @@ api_specs:
   slug: energyx-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-products-api-openapi.yml
+- filename: energyx-o-embed-api-openapi.yml
+  format: yaml
+  label: EnergyX o Embed API
+  slug: energyx-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-o-embed-api-openapi.yml
 auth_types: []
 description: EnergyX publishes no developer program and issues no API credentials. The WordPress REST content API behind energyx.com is anonymously readable — no key, token, signature or account is required to read posts, pages, press releases, in-the-news coverage, leadership, job positions, partners, videos, resource guides, media, taxonomies, search, the storefront catalog or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface.
 kind: authentication

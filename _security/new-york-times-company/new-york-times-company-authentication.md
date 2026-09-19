@@ -149,5 +149,5 @@ tags:
 - Tagging
 - Controlled Vocabulary
 - Geographic
-- Archive
+- Archives
 ---

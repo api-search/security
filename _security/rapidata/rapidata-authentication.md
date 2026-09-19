@@ -14,12 +14,6 @@ api_specs:
   slug: rapidata-audience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-audience-api-openapi.yml
-- filename: rapidata-batchupload-api-openapi.yml
-  format: yaml
-  label: Rapidata BatchUpload API
-  slug: rapidata-batchupload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-batchupload-api-openapi.yml
 - filename: rapidata-benchmark-api-openapi.yml
   format: yaml
   label: Rapidata Benchmark API
@@ -32,12 +26,6 @@ api_specs:
   slug: rapidata-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-billing-api-openapi.yml
-- filename: rapidata-billingaccount-api-openapi.yml
-  format: yaml
-  label: Rapidata BillingAccount API
-  slug: rapidata-billingaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-billingaccount-api-openapi.yml
 - filename: rapidata-cache-api-openapi.yml
   format: yaml
   label: Rapidata Cache API
@@ -244,7 +232,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-rapid-api-openapi.yml
 - filename: rapidata-rapidata-identity-api-api-openapi.yml
   format: yaml
-  label: Rapidata Rapidata.Identity.API API
+  label: Rapidata.Identity.API
   slug: rapidata-rapidata-identity-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-rapidata-identity-api-api-openapi.yml
@@ -332,6 +320,18 @@ api_specs:
   slug: rapidata-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-workflow-api-openapi.yml
+- filename: rapidata-batch-upload-api-openapi.yml
+  format: yaml
+  label: Rapidata Batch Upload API
+  slug: rapidata-batch-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-batch-upload-api-openapi.yml
+- filename: rapidata-billing-account-api-openapi.yml
+  format: yaml
+  label: Rapidata Billing Account API
+  slug: rapidata-billing-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/openapi/rapidata-billing-account-api-openapi.yml
 auth_types:
 - openIdConnect
 description: ''

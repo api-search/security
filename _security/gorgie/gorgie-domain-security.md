@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Consumer Packaged Goods
 - Energy Drink
-- Beverage
+- Beverages
 - Wellness
 - E-Commerce
 - Direct to Consumer

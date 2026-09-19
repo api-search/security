@@ -36,7 +36,7 @@ tags:
 - Investor
 - Early Stage
 - Healthcare
-- Industrials
+- Industrial
 - Fintech
 - Data
 - Artificial Intelligence

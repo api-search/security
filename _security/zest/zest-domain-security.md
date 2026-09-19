@@ -85,7 +85,7 @@ tags:
 - Private Markets
 - Fintech
 - Equity
-- Investors
+- Investor
 - Escrow
 - SPaaS
 - MENA

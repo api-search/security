@@ -36,6 +36,6 @@ tags:
 - Materials
 - Chemicals
 - Manufacturing
-- Renewable
+- Renewables
 - Industrial Biotech
 ---

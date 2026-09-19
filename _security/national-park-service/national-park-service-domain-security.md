@@ -30,12 +30,6 @@ api_specs:
   slug: national-park-service-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/openapi/national-park-service-events-api-openapi.yml
-- filename: national-park-service-newsreleases-api-openapi.yml
-  format: yaml
-  label: National Park Service Newsreleases API
-  slug: national-park-service-newsreleases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/openapi/national-park-service-newsreleases-api-openapi.yml
 - filename: national-park-service-parks-api-openapi.yml
   format: yaml
   label: National Park Service Parks API
@@ -60,12 +54,18 @@ api_specs:
   slug: national-park-service-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/openapi/national-park-service-topics-api-openapi.yml
-- filename: national-park-service-visitorcenters-api-openapi.yml
+- filename: national-park-service-news-releases-api-openapi.yml
   format: yaml
-  label: National Park Service Visitorcenters API
-  slug: national-park-service-visitorcenters-api
+  label: National Park Service News Releases API
+  slug: national-park-service-news-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/openapi/national-park-service-visitorcenters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/openapi/national-park-service-news-releases-api-openapi.yml
+- filename: national-park-service-visitor-centers-api-openapi.yml
+  format: yaml
+  label: National Park Service Visitor Centers API
+  slug: national-park-service-visitor-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/openapi/national-park-service-visitor-centers-api-openapi.yml
 description: ''
 domains:
 - caa: []

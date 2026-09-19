@@ -110,5 +110,5 @@ tags:
 - Collaborative
 - Mapping
 - Layers
-- Embedding
+- Embeddings
 ---

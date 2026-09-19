@@ -36,12 +36,6 @@ api_specs:
   slug: smartcat-clientindustry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-clientindustry-api-openapi.yml
-- filename: smartcat-customfields-api-openapi.yml
-  format: yaml
-  label: Smartcat CustomFields API
-  slug: smartcat-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-customfields-api-openapi.yml
 - filename: smartcat-directories-api-openapi.yml
   format: yaml
   label: Smartcat Directories API
@@ -66,12 +60,6 @@ api_specs:
   slug: smartcat-filedisassemblingalgorithmpresets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-filedisassemblingalgorithmpresets-api-openapi.yml
-- filename: smartcat-filemanagement-api-openapi.yml
-  format: yaml
-  label: Smartcat FileManagement API
-  slug: smartcat-filemanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-filemanagement-api-openapi.yml
 - filename: smartcat-glossary-api-openapi.yml
   format: yaml
   label: Smartcat Glossary API
@@ -174,6 +162,18 @@ api_specs:
   slug: smartcat-vendor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-vendor-api-openapi.yml
+- filename: smartcat-custom-fields-api-openapi.yml
+  format: yaml
+  label: Smartcat Custom Fields API
+  slug: smartcat-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-custom-fields-api-openapi.yml
+- filename: smartcat-file-management-api-openapi.yml
+  format: yaml
+  label: Smartcat File Management API
+  slug: smartcat-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-file-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: kfupm-identity-federation-openapi.yml
+- filename: kfupm-discovery-api-openapi.yml
   format: yaml
-  label: KFUPM Identity Federation (SAML 2.0 + OpenID Connect)
-  slug: identity-federation
+  label: King Fahd University of Petroleum & Minerals Discovery API
+  slug: kfupm-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-identity-federation-openapi.yml
-- filename: kfupm-eprints-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-discovery-api-openapi.yml
+- filename: kfupm-export-api-openapi.yml
   format: yaml
-  label: KFUPM ePrints OAI-PMH Repository Interface
-  slug: eprints-oai-pmh
+  label: King Fahd University of Petroleum & Minerals Export API
+  slug: kfupm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-eprints-oai-pmh-openapi.yml
-- filename: kfupm-eprints-export-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-export-api-openapi.yml
+- filename: kfupm-oai-pmh-api-openapi.yml
   format: yaml
-  label: KFUPM ePrints Export & Search (JSON)
-  slug: eprints-export
+  label: King Fahd University of Petroleum & Minerals Oai Pmh API
+  slug: kfupm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-eprints-export-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-oai-pmh-api-openapi.yml
+- filename: kfupm-search-api-openapi.yml
+  format: yaml
+  label: King Fahd University of Petroleum & Minerals Search API
+  slug: kfupm-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-search-api-openapi.yml
+- filename: kfupm-oauth2-api-openapi.yml
+  format: yaml
+  label: King Fahd University of Petroleum & Minerals Oauth2 API
+  slug: kfupm-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/openapi/kfupm-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -58,7 +58,7 @@ tags:
 - API Composition
 - API Gateway
 - BFF
-- Open Source
+- Open-Source
 - Microservices
 - Authentication
 - Node.js

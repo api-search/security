@@ -40,7 +40,6 @@ tags:
 - Company
 - Health
 - Telehealth
-- Telemedicine
 - Healthcare
 - Primary Care
 - Digital Health

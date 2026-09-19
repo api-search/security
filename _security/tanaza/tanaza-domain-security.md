@@ -39,6 +39,6 @@ tags:
 - Hotspot
 - Captive Portal
 - Monitoring
-- Managed Service Provider
+- Managed Service Providers
 - Telecommunications
 ---

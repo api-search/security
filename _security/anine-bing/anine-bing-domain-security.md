@@ -37,6 +37,6 @@ tags:
 - Apparel
 - E-Commerce
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
 ---

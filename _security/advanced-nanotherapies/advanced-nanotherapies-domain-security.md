@@ -32,7 +32,7 @@ tags:
 - Company
 - Medical Devices
 - Medical Technology
-- Health Care
+- Healthcare
 - Life Sciences
 - Nanotechnology
 - Cardiovascular

@@ -21,18 +21,6 @@ api_specs:
   slug: dev-to-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-comments-api-openapi.yml
-- filename: dev-to-displayads-api-openapi.yml
-  format: yaml
-  label: dev-to DisplayAds API
-  slug: dev-to-displayads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-displayads-api-openapi.yml
-- filename: dev-to-followedtags-api-openapi.yml
-  format: yaml
-  label: dev-to FollowedTags API
-  slug: dev-to-followedtags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-followedtags-api-openapi.yml
 - filename: dev-to-followers-api-openapi.yml
   format: yaml
   label: dev-to Followers API
@@ -51,30 +39,12 @@ api_specs:
   slug: dev-to-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-pages-api-openapi.yml
-- filename: dev-to-podcastepisodes-api-openapi.yml
-  format: yaml
-  label: dev-to PodcastEpisodes API
-  slug: dev-to-podcastepisodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-podcastepisodes-api-openapi.yml
-- filename: dev-to-profileimages-api-openapi.yml
-  format: yaml
-  label: dev-to ProfileImages API
-  slug: dev-to-profileimages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-profileimages-api-openapi.yml
 - filename: dev-to-reactions-api-openapi.yml
   format: yaml
   label: dev-to Reactions API
   slug: dev-to-reactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-reactions-api-openapi.yml
-- filename: dev-to-readinglist-api-openapi.yml
-  format: yaml
-  label: dev-to ReadingList API
-  slug: dev-to-readinglist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-readinglist-api-openapi.yml
 - filename: dev-to-tags-api-openapi.yml
   format: yaml
   label: dev-to Tags API
@@ -93,34 +63,83 @@ api_specs:
   slug: dev-to-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-webhooks-api-openapi.yml
+- filename: dev-to-display-ads-api-openapi.yml
+  format: yaml
+  label: Dev To Display Ads API
+  slug: dev-to-display-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-display-ads-api-openapi.yml
+- filename: dev-to-followed-tags-api-openapi.yml
+  format: yaml
+  label: Dev To Followed Tags API
+  slug: dev-to-followed-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-followed-tags-api-openapi.yml
+- filename: dev-to-podcast-episodes-api-openapi.yml
+  format: yaml
+  label: Dev To Podcast Episodes API
+  slug: dev-to-podcast-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-podcast-episodes-api-openapi.yml
+- filename: dev-to-profile-images-api-openapi.yml
+  format: yaml
+  label: Dev To profile images API
+  slug: dev-to-profile-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-profile-images-api-openapi.yml
+- filename: dev-to-reading-list-api-openapi.yml
+  format: yaml
+  label: Dev To Reading List API
+  slug: dev-to-reading-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-reading-list-api-openapi.yml
 auth_types:
 - apiKey
+- http
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 1
-method: derived
+mechanism_count: 2
+method: searched
 name: Dev To Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Dev To secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: Dev To secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: Dev To
 provider_slug: dev-to
-scheme_count: 1
+scheme_count: 2
 schemes:
-- description: API key obtained from the DEV.to settings page. Pass in the api-key header for authenticated requests.
+- description: Per-user API key. Authentication for write operations (Articles, Reactions, Follows, Webhooks) requires a DEV API key; many read endpoints are accessible publicly without one. All authenticated endpoints are CORS-disabled — the key is intended for non-browser scripts.
   in: header
-  name: apiKey
+  name: api-key
+  obtain: https://dev.to/settings/extensions
   parameter: api-key
   sources:
-  - openapi/dev-to-forem-api-openapi.yml
+  - https://dev.to/openapi.json
   type: apiKey
+- bearer_format: JWT
+  description: Short-lived RS256 RFC 9068 access token issued by the configured delegation service and verified against its configured JWKS. The issuer authorizes the client and requested operation before minting the token; Forem validates it and resolves its subject and owner to a local user. An invalid token returns 401; an unavailable trust dependency with no usable cached key returns 503. Available only on instances that enable delegated access.
+  name: bearer_auth
+  scheme: bearer
+  sources:
+  - https://dev.to/openapi.json
+  type: http
 slug: dev-to-authentication
 source_filename: dev-to-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dev-to-forem-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: API key obtained from the DEV.to settings page. Pass in the api-key header for\n    authenticated requests.\n  sources:\n  - openapi/dev-to-forem-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://dev.to/openapi.json (components.securitySchemes) + https://developers.forem.com/api\ndocs: https://developers.forem.com/api\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  notes: >-\n    Forem API V1 accepts two credentials. The universal one is the per-user `api-key` header,\n    generated by the account holder at https://dev.to/settings/extensions. Instances that enable\n    delegated access additionally accept an RFC 9068 `Authorization: Bearer` JWT minted by the\n    instance's configured delegation service and verified against its JWKS. Every V1 request must\n    also carry `Accept: application/vnd.forem.api-v1+json` — the Accept header is the version\n    selector, not a path segment, and omitting it silently routes the call to the deprecated V0 API.\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: >-\n    Per-user API key. Authentication for\
+  \ write operations (Articles, Reactions, Follows, Webhooks)\n    requires a DEV API key; many read endpoints are accessible publicly without one. All\n    authenticated endpoints are CORS-disabled — the key is intended for non-browser scripts.\n  obtain: https://dev.to/settings/extensions\n  sources:\n  - https://dev.to/openapi.json\n- name: bearer_auth\n  type: http\n  scheme: bearer\n  bearer_format: JWT\n  description: >-\n    Short-lived RS256 RFC 9068 access token issued by the configured delegation service and verified\n    against its configured JWKS. The issuer authorizes the client and requested operation before\n    minting the token; Forem validates it and resolves its subject and owner to a local user. An\n    invalid token returns 401; an unavailable trust dependency with no usable cached key returns 503.\n    Available only on instances that enable delegated access.\n  sources:\n  - https://dev.to/openapi.json\nrequired_headers:\n- name: Accept\n  value: application/vnd.forem.api-v1+json\n\
+  \  reason: >-\n    Selects API version 1. Omitting it routes to the deprecated V0 API (the server replies with a\n    299 Warning header pointing at the V1 Accept header).\noauth2: false\nscopes_published: false\nnotes: >-\n  No OAuth 2.0 authorization-code flow is published for the API surface, so no scopes/ artifact is\n  emitted. Social sign-in (GitHub, Twitter) exists for the web application only, not for API clients.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/authentication/dev-to-authentication.yml
-summary_line: apiKey · 1 scheme
-tags: []
+summary_line: apiKey/http · 2 schemes
+tags:
+- Developer Community
+- Content
+- Publishing
+- Social
+- Blogging
+- Open-Source
+- Articles
+- Webhook
 ---

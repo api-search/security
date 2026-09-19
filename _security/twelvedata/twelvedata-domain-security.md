@@ -54,12 +54,6 @@ api_specs:
   slug: twelvedata-currencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-currencies-api-openapi.yml
-- filename: twelvedata-etfs-api-openapi.yml
-  format: yaml
-  label: Twelve Data Etfs API
-  slug: twelvedata-etfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-etfs-api-openapi.yml
 - filename: twelvedata-market-data-api-openapi.yml
   format: yaml
   label: Twelve Data Market Data API
@@ -90,6 +84,12 @@ api_specs:
   slug: twelvedata-technical-indicator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-technical-indicator-api-openapi.yml
+- filename: twelvedata-etfs-api-openapi.yml
+  format: yaml
+  label: Twelve Data Etfs API
+  slug: twelvedata-etfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-etfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

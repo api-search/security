@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: meddra-hierarchy-api-openapi.yml
+- filename: meddra-api-openapi.yml
   format: yaml
-  label: meddra Hierarchy API
-  slug: meddra-hierarchy-api
+  label: MedDRA API
+  slug: meddra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-hierarchy-api-openapi.yml
-- filename: meddra-terms-api-openapi.yml
-  format: yaml
-  label: meddra Terms API
-  slug: meddra-terms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-terms-api-openapi.yml
-- filename: meddra-validation-api-openapi.yml
-  format: yaml
-  label: meddra Validation API
-  slug: meddra-validation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-validation-api-openapi.yml
-- filename: meddra-versions-api-openapi.yml
-  format: yaml
-  label: meddra Versions API
-  slug: meddra-versions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-versions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,21 +19,36 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+- cert_expires: Nov 22 14:04:49 2026 GMT
+  host: mapisbx.meddra.org
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
 name: Meddra Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Meddra, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+overview: 'Domain security posture for Meddra, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Meddra
 provider_slug: meddra
 slug: meddra-domain-security
 source_filename: meddra-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.meddra.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 14:04:49 2026 GMT\n  hsts: false\ndomains:\n- domain: meddra.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.meddra.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 14:04:49 2026 GMT\n  hsts: false\n- host: mapisbx.meddra.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 14:04:49 2026 GMT\n  hsts: null\ndomains:\n- domain: meddra.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/security/meddra-domain-security.yml
 summary_line: TLSv1.3
-tags: []
+tags:
+- Medical Terminology
+- Pharmacovigilance
+- Drug Safety
+- Adverse Events
+- Regulatory
+- Clinical Trials
+- Healthcare
+- Life Sciences
+- Standards
+- Ontology
 ---

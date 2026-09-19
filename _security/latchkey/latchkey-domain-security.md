@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Latchkey Jobs API
+- filename: latchkey-jobs-api-openapi.yml
+  format: yaml
+  label: Latchkey Jobs API Jobs API
   slug: latchkey-jobs-api
   spec_type: OpenAPI
-  url: https://latchkey.dev/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/latchkey/refs/heads/main/openapi/latchkey-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,6 +48,7 @@ tags:
 - GitHub Actions
 - Ephemeral Compute
 - Build & Test Infrastructure
-- Agent-Native
+- agent-native
 - AI Coding Agents
+- Developer Tools
 ---

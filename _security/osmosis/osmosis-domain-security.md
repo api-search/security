@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-knowledge-api-openapi.yml
 - filename: osmosis-osmosis-agent-improvement-api-api-openapi.yml
   format: yaml
-  label: Osmosis Osmosis Agent Improvement API API
+  label: Osmosis Agent Improvement API
   slug: osmosis-osmosis-agent-improvement-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-osmosis-agent-improvement-api-api-openapi.yml

@@ -15,12 +15,6 @@ api_specs:
   slug: lifi-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/openapi/lifi-analytics-api-openapi.yml
-- filename: lifi-calldata-api-openapi.yml
-  format: yaml
-  label: LI.FI Calldata API
-  slug: lifi-calldata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/openapi/lifi-calldata-api-openapi.yml
 - filename: lifi-chains-api-openapi.yml
   format: yaml
   label: LI.FI Chains API
@@ -105,6 +99,12 @@ api_specs:
   slug: lifi-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/openapi/lifi-tools-api-openapi.yml
+- filename: lifi-call-data-api-openapi.yml
+  format: yaml
+  label: LI.FI Call Data API
+  slug: lifi-call-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/openapi/lifi-call-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -176,7 +176,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - Cross-Chain
-- Bridges
+- Bridge
 - DEX Aggregation
 - DeFi
 - Payments

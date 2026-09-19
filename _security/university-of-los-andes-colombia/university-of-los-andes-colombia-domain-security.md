@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
+- filename: university-of-los-andes-colombia-oai-pmh-api-openapi.yml
   format: yaml
-  label: Revistas Uniandes - OAI-PMH
-  slug: revistas-oai
+  label: University of Los Andes Colombia OAI PMH API
+  slug: university-of-los-andes-colombia-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/openapi/university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/openapi/university-of-los-andes-colombia-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

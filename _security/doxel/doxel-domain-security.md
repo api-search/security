@@ -50,7 +50,7 @@ tags:
 - Schedule Management
 - Budget Tracking
 - Capital Projects
-- Data Centers
+- Data-Center
 - Healthcare Construction
 - Industrial Construction
 - Drones

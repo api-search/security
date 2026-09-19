@@ -26,12 +26,6 @@ api_specs:
   slug: origin-protocol-cache-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-cache-api-openapi.yml
-- filename: origin-protocol-coingecko-api-openapi.yml
-  format: yaml
-  label: Origin Protocol coingecko API
-  slug: origin-protocol-coingecko-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-coingecko-api-openapi.yml
 - filename: origin-protocol-defillama-api-openapi.yml
   format: yaml
   label: Origin Protocol defillama API
@@ -76,7 +70,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-ogn-api-openapi.yml
 - filename: origin-protocol-protocol-api-openapi.yml
   format: yaml
-  label: Origin Protocol protocol API
+  label: Origin Protocol API
   slug: origin-protocol-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-protocol-api-openapi.yml
@@ -104,6 +98,12 @@ api_specs:
   slug: origin-protocol-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-token-api-openapi.yml
+- filename: origin-protocol-coin-gecko-api-openapi.yml
+  format: yaml
+  label: Origin Protocol coin gecko API
+  slug: origin-protocol-coin-gecko-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-coin-gecko-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

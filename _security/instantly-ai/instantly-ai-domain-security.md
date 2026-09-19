@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: instantly-ai-campaigns-api-openapi.yml
-  format: yaml
-  label: Instantly Campaigns API
-  slug: instantly-ai-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-campaigns-api-openapi.yml
 - filename: instantly-ai-account-api-openapi.yml
   format: yaml
   label: Instantly Account API
@@ -24,24 +18,6 @@ api_specs:
   slug: instantly-ai-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-analytics-api-openapi.yml
-- filename: instantly-ai-apikey-api-openapi.yml
-  format: yaml
-  label: Instantly API Key API
-  slug: instantly-ai-apikey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-apikey-api-openapi.yml
-- filename: instantly-ai-auditlog-api-openapi.yml
-  format: yaml
-  label: Instantly Audit Log API
-  slug: instantly-ai-auditlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-auditlog-api-openapi.yml
-- filename: instantly-ai-backgroundjob-api-openapi.yml
-  format: yaml
-  label: Instantly Background Job API
-  slug: instantly-ai-backgroundjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-backgroundjob-api-openapi.yml
 - filename: instantly-ai-blocklistentry-api-openapi.yml
   format: yaml
   label: Instantly Block List Entry API
@@ -90,12 +66,6 @@ api_specs:
   slug: instantly-ai-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-email-api-openapi.yml
-- filename: instantly-ai-emailverification-api-openapi.yml
-  format: yaml
-  label: Instantly Email Verification API
-  slug: instantly-ai-emailverification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-emailverification-api-openapi.yml
 - filename: instantly-ai-inboxplacementanalytics-api-openapi.yml
   format: yaml
   label: Instantly Inbox Placement Analytics API
@@ -132,12 +102,6 @@ api_specs:
   slug: instantly-ai-leadlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-leadlist-api-openapi.yml
-- filename: instantly-ai-oauth-api-openapi.yml
-  format: yaml
-  label: Instantly O Auth API
-  slug: instantly-ai-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-oauth-api-openapi.yml
 - filename: instantly-ai-supersearchenrichment-api-openapi.yml
   format: yaml
   label: Instantly Super Search Enrichment API
@@ -150,12 +114,6 @@ api_specs:
   slug: instantly-ai-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-webhook-api-openapi.yml
-- filename: instantly-ai-webhookevent-api-openapi.yml
-  format: yaml
-  label: Instantly Webhook Event API
-  slug: instantly-ai-webhookevent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-webhookevent-api-openapi.yml
 - filename: instantly-ai-workspace-api-openapi.yml
   format: yaml
   label: Instantly Workspace API
@@ -180,6 +138,42 @@ api_specs:
   slug: instantly-ai-workspacemember-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-workspacemember-api-openapi.yml
+- filename: instantly-ai-oauth-api-openapi.yml
+  format: yaml
+  label: Instantly O Auth API
+  slug: instantly-ai-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-oauth-api-openapi.yml
+- filename: instantly-ai-api-key-api-openapi.yml
+  format: yaml
+  label: Instantly API Key API
+  slug: instantly-ai-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-api-key-api-openapi.yml
+- filename: instantly-ai-audit-log-api-openapi.yml
+  format: yaml
+  label: Instantly Audit Log API
+  slug: instantly-ai-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-audit-log-api-openapi.yml
+- filename: instantly-ai-background-job-api-openapi.yml
+  format: yaml
+  label: Instantly Background Job API
+  slug: instantly-ai-background-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-background-job-api-openapi.yml
+- filename: instantly-ai-email-verification-api-openapi.yml
+  format: yaml
+  label: Instantly Email Verification API
+  slug: instantly-ai-email-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-email-verification-api-openapi.yml
+- filename: instantly-ai-webhook-event-api-openapi.yml
+  format: yaml
+  label: Instantly Webhook Event API
+  slug: instantly-ai-webhook-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-webhook-event-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: aeropay-v2-openapi.yml
+- filename: aeropay-authentication-api-openapi.yml
   format: yaml
-  label: Aeropay v2 API
-  slug: aeropay-v2-api
+  label: Aeropay Authentication API
+  slug: aeropay-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-authentication-api-openapi.yml
+- filename: aeropay-bank-connection-api-openapi.yml
+  format: yaml
+  label: Aeropay Bank Connection API
+  slug: aeropay-bank-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-bank-connection-api-openapi.yml
+- filename: aeropay-create-manage-transactions-api-openapi.yml
+  format: yaml
+  label: Aeropay Create & Manage Transactions API
+  slug: aeropay-create-manage-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-create-manage-transactions-api-openapi.yml
+- filename: aeropay-merchant-management-api-openapi.yml
+  format: yaml
+  label: Aeropay Merchant Management API
+  slug: aeropay-merchant-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-merchant-management-api-openapi.yml
+- filename: aeropay-reports-api-openapi.yml
+  format: yaml
+  label: Aeropay Reports API
+  slug: aeropay-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-reports-api-openapi.yml
+- filename: aeropay-user-management-api-openapi.yml
+  format: yaml
+  label: Aeropay User Management API
+  slug: aeropay-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-user-management-api-openapi.yml
+- filename: aeropay-webhooks-api-openapi.yml
+  format: yaml
+  label: Aeropay Webhooks API
+  slug: aeropay-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/heads/main/openapi/aeropay-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,13 +91,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aeropay/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- Pay by bank
+- Pay by Bank
 - ACH
 - Open Banking
 - Fintech
 - Bank linking
-- Financial Services
-- Real-time payments
+- Financial-Services
+- Real-Time Payments
 - Webhook
 - Payouts
 - MCP

@@ -33,7 +33,6 @@ tags:
 - Company
 - Employee Benefits
 - Human Resources
-- HR Tech
 - Insurance
 - Benefits Marketplace
 - Reimbursement

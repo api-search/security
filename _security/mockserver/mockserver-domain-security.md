@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockserver/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Mocking
-- Mock Server
+- Mock Servers
 - Testing
 - Service Virtualization
 - HTTP

@@ -2,7 +2,7 @@
 api_specs:
 - filename: amazon-app-runner-amazon-app-runner-aws-app-runner-api-api-openapi.yml
   format: yaml
-  label: Amazon App Runner Amazon App Runner AWS App Runner API API
+  label: Amazon App Runner Amazon App Runner AWS App Runner API
   slug: amazon-app-runner-amazon-app-runner-aws-app-runner-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/openapi/amazon-app-runner-amazon-app-runner-aws-app-runner-api-api-openapi.yml
@@ -264,6 +264,7 @@ tags:
 - CI/CD
 - Containers
 - Deployment
+- Developer Tools
 - Managed Service
 - Serverless
 - Web Applications

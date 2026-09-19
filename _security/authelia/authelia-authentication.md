@@ -2,24 +2,78 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: authelia-api-openapi.yml
+- filename: authelia-authentication-api-openapi.yml
   format: yaml
-  label: Authelia API
-  slug: authelia-api
+  label: Authelia Authentication API
+  slug: authelia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-api-openapi.yml
-- filename: authelia-discovery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-authentication-api-openapi.yml
+- filename: authelia-authorization-api-openapi.yml
   format: yaml
-  label: Authelia Discovery API
-  slug: authelia-discovery-api
+  label: Authelia Authorization API
+  slug: authelia-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-discovery-api-openapi.yml
-- filename: authelia-oidc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-authorization-api-openapi.yml
+- filename: authelia-first-factor-api-openapi.yml
   format: yaml
-  label: Authelia OIDC API
-  slug: authelia-oidc-api
+  label: Authelia First Factor API
+  slug: authelia-first-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-oidc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-first-factor-api-openapi.yml
+- filename: authelia-oauth-2-0-api-openapi.yml
+  format: yaml
+  label: Authelia OAuth 2.0 API
+  slug: authelia-oauth-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-oauth-2-0-api-openapi.yml
+- filename: authelia-openid-connect-1-0-api-openapi.yml
+  format: yaml
+  label: Authelia OpenID Connect 1.0 API
+  slug: authelia-openid-connect-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-openid-connect-1-0-api-openapi.yml
+- filename: authelia-password-change-api-openapi.yml
+  format: yaml
+  label: Authelia Password Change API
+  slug: authelia-password-change-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-password-change-api-openapi.yml
+- filename: authelia-password-reset-api-openapi.yml
+  format: yaml
+  label: Authelia Password Reset API
+  slug: authelia-password-reset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-password-reset-api-openapi.yml
+- filename: authelia-second-factor-api-openapi.yml
+  format: yaml
+  label: Authelia Second Factor API
+  slug: authelia-second-factor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-second-factor-api-openapi.yml
+- filename: authelia-state-api-openapi.yml
+  format: yaml
+  label: Authelia State API
+  slug: authelia-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-state-api-openapi.yml
+- filename: authelia-user-elevation-api-openapi.yml
+  format: yaml
+  label: Authelia User Elevation API
+  slug: authelia-user-elevation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-user-elevation-api-openapi.yml
+- filename: authelia-user-information-api-openapi.yml
+  format: yaml
+  label: Authelia User Information API
+  slug: authelia-user-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-user-information-api-openapi.yml
+- filename: authelia-utilities-api-openapi.yml
+  format: yaml
+  label: Authelia Utilities API
+  slug: authelia-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-utilities-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect

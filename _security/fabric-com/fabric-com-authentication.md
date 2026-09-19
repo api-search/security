@@ -69,12 +69,6 @@ api_specs:
   slug: fabric-com-cart-fees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-cart-fees-api-openapi.yml
-- filename: fabric-com-cartpayments-api-openapi.yml
-  format: yaml
-  label: fabric CartPayments API
-  slug: fabric-com-cartpayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-cartpayments-api-openapi.yml
 - filename: fabric-com-carts-api-openapi.yml
   format: yaml
   label: fabric Carts API
@@ -255,12 +249,6 @@ api_specs:
   slug: fabric-com-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-items-api-openapi.yml
-- filename: fabric-com-lineitems-api-openapi.yml
-  format: yaml
-  label: fabric LineItems API
-  slug: fabric-com-lineitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-lineitems-api-openapi.yml
 - filename: fabric-com-menu-api-openapi.yml
   format: yaml
   label: fabric Menu API
@@ -369,6 +357,18 @@ api_specs:
   slug: fabric-com-validations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-validations-api-openapi.yml
+- filename: fabric-com-cart-payments-api-openapi.yml
+  format: yaml
+  label: fabric Cart Payments API
+  slug: fabric-com-cart-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-cart-payments-api-openapi.yml
+- filename: fabric-com-line-items-api-openapi.yml
+  format: yaml
+  label: fabric Line Items API
+  slug: fabric-com-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-line-items-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -428,7 +428,7 @@ tags:
 - Retail
 - Cart
 - Catalog
-- PIM
+- Product Information Management
 - OMS
 - Inventory
 - Offers

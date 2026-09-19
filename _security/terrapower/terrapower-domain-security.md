@@ -35,7 +35,7 @@ tags:
 - Reactors
 - Sodium-Cooled Fast Reactor
 - Natrium
-- Small Modular Reactors
+- Small Modular Reactor
 - Energy Storage
 - Molten Salt
 - Clean Energy

@@ -66,12 +66,12 @@ api_specs:
   slug: ahasend-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-webhooks-api-openapi.yml
-- filename: ahasend-sub-accounts-api-openapi.yml
+- filename: ahasend-subaccounts-api-openapi.yml
   format: yaml
-  label: AhaSend Sub Accounts API
-  slug: ahasend-sub-accounts-api
+  label: AhaSend Subaccounts API
+  slug: ahasend-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-sub-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-subaccounts-api-openapi.yml
 certification_count: 4
 certifications:
 - GDPR

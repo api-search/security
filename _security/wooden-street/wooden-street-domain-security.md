@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Furniture
-- Home Furnishing
-- Ecommerce
+- Home Furnishings
+- E-Commerce
 - Retail
-- Direct To Consumer
+- Direct to Consumer
 - Interior Design
 - India
 ---

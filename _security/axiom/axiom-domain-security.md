@@ -84,12 +84,12 @@ api_specs:
   slug: axiom-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/openapi/axiom-views-api-openapi.yml
-- filename: axiom-virtualfields-api-openapi.yml
+- filename: axiom-virtual-fields-api-openapi.yml
   format: yaml
-  label: Axiom Virtualfields API
-  slug: axiom-virtualfields-api
+  label: Axiom Virtual Fields API
+  slug: axiom-virtual-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/openapi/axiom-virtualfields-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/openapi/axiom-virtual-fields-api-openapi.yml
 description: ''
 domains:
 - caa: []

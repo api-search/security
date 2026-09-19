@@ -38,7 +38,6 @@ tags:
 - Food Technology
 - Biotechnology
 - Manufacturing
-- Defunct
 - United States
 - Israel
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: runloop-ai-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-agents-api-openapi.yml
-- filename: runloop-ai-apikeys-api-openapi.yml
-  format: yaml
-  label: Runloop apikeys API
-  slug: runloop-ai-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-apikeys-api-openapi.yml
 - filename: runloop-ai-axons-api-openapi.yml
   format: yaml
   label: Runloop axons API
@@ -144,6 +138,12 @@ api_specs:
   slug: runloop-ai-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-streaming-api-openapi.yml
+- filename: runloop-ai-api-keys-api-openapi.yml
+  format: yaml
+  label: Runloop API Keys API
+  slug: runloop-ai-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-api-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -190,7 +190,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Coding Agents
-- Sandboxes
+- Sandbox
 - Devboxes
 - Code Execution
 - Evaluation

@@ -38,5 +38,5 @@ tags:
 - Shopify
 - Subscription
 - Customer-Support
-- AI Agent
+- AI Agents
 ---

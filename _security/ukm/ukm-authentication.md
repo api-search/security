@@ -2,30 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ukm-identity-federation-openapi.yml
+- filename: ukm-content-api-openapi.yml
   format: yaml
-  label: SSO@UKM — SAML 2.0 Identity Provider
-  slug: identity-federation
+  label: Universiti Kebangsaan Malaysia Content API
+  slug: ukm-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-identity-federation-openapi.yml
-- filename: ukm-ptsl-digital-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-content-api-openapi.yml
+- filename: ukm-discovery-api-openapi.yml
   format: yaml
-  label: UKM Learning and Research Repository (OAI-PMH)
-  slug: learning-research-repository-oai
+  label: Universiti Kebangsaan Malaysia Discovery API
+  slug: ukm-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-ptsl-digital-oai-pmh-openapi.yml
-- filename: ukm-ejournal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-discovery-api-openapi.yml
+- filename: ukm-metadata-api-openapi.yml
   format: yaml
-  label: UKM e-Journal System (OAI-PMH)
-  slug: ejournal-oai
+  label: Universiti Kebangsaan Malaysia Metadata API
+  slug: ukm-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-ejournal-oai-pmh-openapi.yml
-- filename: ukm-web-content-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-metadata-api-openapi.yml
+- filename: ukm-oai-pmh-api-openapi.yml
   format: yaml
-  label: UKM Web Content REST API (WordPress wp/v2)
-  slug: web-content-rest
+  label: Universiti Kebangsaan Malaysia OAI PMH API
+  slug: ukm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-web-content-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-oai-pmh-api-openapi.yml
+- filename: ukm-single-sign-on-api-openapi.yml
+  format: yaml
+  label: Universiti Kebangsaan Malaysia Single Sign-On API
+  slug: ukm-single-sign-on-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-single-sign-on-api-openapi.yml
 auth_types: []
 description: How authentication works on the surfaces UKM itself operates. Derived by API Evangelist from live probes on 2026-09-01; UKM publishes no authentication documentation for any of them.
 kind: authentication

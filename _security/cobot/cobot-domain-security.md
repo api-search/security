@@ -301,9 +301,9 @@ tags:
 - Workspace Management
 - Space Management
 - Real-Estate
-- Bookings
+- Booking
 - Reservations
-- Memberships
+- Membership
 - Invoicing
 - Payments
 - Event

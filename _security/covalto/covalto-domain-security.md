@@ -39,5 +39,5 @@ tags:
 - Factoring
 - Leasing
 - Business Accounts
-- Investments
+- Investment
 ---

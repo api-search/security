@@ -69,7 +69,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Customer-Support
-- AI Agent
+- AI Agents
 - Conversations
 - Financial-Services
 - Regulated

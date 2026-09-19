@@ -34,7 +34,7 @@ tags:
 - Quantum Computing
 - Deep Tech
 - Hardware
-- Neutral Atoms
+- Neutral Atom
 - Germany
 - Research
 ---

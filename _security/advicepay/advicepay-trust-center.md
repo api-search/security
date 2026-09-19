@@ -21,15 +21,15 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/security/advicepay-trust-center.yml
 summary_line: SOC 2 Type II, PCI SAQ A
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Billing
 - Invoicing
 - Financial Planning
 - Wealth Management
-- Subscriptions
-- eSignature
+- Subscription
+- E-Signature
 - Compliance
-- FinTech
+- Fintech
 trust_url: https://advicepay.com/security/
 ---

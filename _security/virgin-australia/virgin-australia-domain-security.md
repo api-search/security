@@ -56,7 +56,7 @@ tags:
 - Travel
 - Australia
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - GDS
 - NDC

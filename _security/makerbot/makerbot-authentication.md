@@ -55,6 +55,6 @@ tags:
 - Thingiverse
 - Maker
 - Hardware
-- Designs
+- Design
 - Community
 ---

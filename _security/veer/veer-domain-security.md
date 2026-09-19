@@ -34,5 +34,5 @@ tags:
 - 360 Video
 - Video Sharing
 - Content Community
-- Mobile Apps
+- Mobile App
 ---

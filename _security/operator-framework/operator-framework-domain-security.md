@@ -41,5 +41,5 @@ tags:
 - Incubating
 - Kubernetes
 - Lifecycle Management
-- Operators
+- Operator
 ---

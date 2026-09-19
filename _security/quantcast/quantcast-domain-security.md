@@ -55,7 +55,6 @@ tags:
 - Advertising
 - AdTech
 - Programmatic Advertising
-- Demand-Side Platform
 - DSP
 - Audience Measurement
 - Audience Intelligence

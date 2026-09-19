@@ -45,5 +45,5 @@ tags:
 - Deployment
 - Hosting
 - DNS
-- Databases
+- Database
 ---

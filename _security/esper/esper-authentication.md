@@ -117,7 +117,7 @@ tags:
 - Mobile Device Management
 - Android
 - DevOps
-- Internet of Things
+- IoT
 - Fleet Management
 - Enterprise Mobility
 - Edge Computing

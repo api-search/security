@@ -36,7 +36,7 @@ tags:
 - Company
 - Developer Tools
 - AI Coding Agents
-- Frameworks
+- Framework
 - SDK
 - Open-Source
 - Desktop Application

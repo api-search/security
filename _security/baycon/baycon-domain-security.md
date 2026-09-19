@@ -36,5 +36,5 @@ tags:
 - VoIP
 - Mobile
 - Roaming
-- Korea
+- South Korea
 ---

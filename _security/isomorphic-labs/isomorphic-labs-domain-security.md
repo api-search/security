@@ -42,7 +42,7 @@ tags:
 - AlphaFold
 - Generative AI
 - Foundation Models
-- Small Molecules
+- Small Molecule
 - Biologics
 - Oncology
 - Immunology

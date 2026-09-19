@@ -8,12 +8,6 @@ api_specs:
   slug: gospotcheck-asyncjobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-asyncjobs-api-openapi.yml
-- filename: gospotcheck-catalogitems-api-openapi.yml
-  format: yaml
-  label: GoSpotCheck CatalogItems API
-  slug: gospotcheck-catalogitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-catalogitems-api-openapi.yml
 - filename: gospotcheck-catalogs-api-openapi.yml
   format: yaml
   label: GoSpotCheck Catalogs API
@@ -80,6 +74,12 @@ api_specs:
   slug: gospotcheck-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-users-api-openapi.yml
+- filename: gospotcheck-catalog-items-api-openapi.yml
+  format: yaml
+  label: GoSpotCheck Catalog Items API
+  slug: gospotcheck-catalog-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-catalog-items-api-openapi.yml
 auth_types:
 - http
 description: ''

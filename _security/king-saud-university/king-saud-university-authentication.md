@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: king-saud-university-open-data-openapi.yml
+- filename: king-saud-university-datasets-api-openapi.yml
   format: yaml
-  label: KSU Open Data Distribution API
-  slug: open-data
+  label: King Saud University Datasets API
+  slug: king-saud-university-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-open-data-openapi.yml
-- filename: king-saud-university-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-datasets-api-openapi.yml
+- filename: king-saud-university-identity-api-openapi.yml
   format: yaml
-  label: KSU Identity and Access Management (OAuth 2.0 / OpenID Connect / SAML 2.0)
-  slug: identity
+  label: King Saud University Identity API
+  slug: king-saud-university-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/openapi/king-saud-university-identity-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -49,7 +49,7 @@ tags:
 - Open Data
 - Research Data
 - Identity Federation
-- Single Sign-On
+- SSO
 - Research
 - Linked Data
 ---

@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: workday-business-processes-approvals-api-openapi.yml
+- filename: workday-business-processes-business-process-openapi.yml
   format: yaml
   label: Workday Business Processes Approvals API
   slug: workday-business-processes-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-approvals-api-openapi.yml
-- filename: workday-business-processes-business-process-definitions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-openapi.yml
+- filename: workday-business-processes-business-process-openapi.yml
   format: yaml
   label: Workday Business Processes Business Process Definitions API
   slug: workday-business-processes-business-process-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-definitions-api-openapi.yml
-- filename: workday-business-processes-inbox-items-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-openapi.yml
+- filename: workday-business-processes-business-process-openapi.yml
   format: yaml
   label: Workday Business Processes Inbox Items API
   slug: workday-business-processes-inbox-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-inbox-items-api-openapi.yml
-- filename: workday-business-processes-process-instances-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-openapi.yml
+- filename: workday-business-processes-business-process-openapi.yml
   format: yaml
   label: Workday Business Processes Process Instances API
   slug: workday-business-processes-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-process-instances-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-openapi.yml
+- filename: workday-business-processes-custom-business-process-config-openapi.yml
+  format: yaml
+  label: Workday Custom Business Process Config API
+  slug: workday-business-processes-custom-business-process-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-custom-business-process-config-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,18 +39,18 @@ domains:
   domain: workday.com
   spf: true
 hosts:
-- cert_expires: Sep 10 23:59:59 2026 GMT
-  host: community.workday.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 23 23:59:59 2026 GMT
+- cert_expires: Mar 10 23:59:59 2027 GMT
   host: www.workday.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  2 03:30:49 2026 GMT
+- cert_expires: Jan 26 23:59:59 2027 GMT
+  host: community.workday.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec  2 19:44:37 2026 GMT
   host: wd2-impl-services1.workday.com
   hsts: null
   https: true
@@ -62,8 +68,20 @@ slug: workday-business-processes-domain-security
 source_filename: workday-business-processes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: community.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: null\n- host: www.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: wd2-impl-services1.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 03:30:49 2026 GMT\n  hsts: null\ndomains:\n- domain: workday.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: community.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: null\n- host: wd2-impl-services1.workday.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 19:44:37 2026 GMT\n  hsts: null\ndomains:\n- domain: workday.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/security/workday-business-processes-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Business Processes
+- Workflows
+- Approvals
+- Human Resources
+- Enterprise
+- Software-as-a-Service
+- HCM
+- Financial Management
+- Process Automation
+- Event Steps
+- SOAP
+- GraphQL
 ---

@@ -36,5 +36,5 @@ tags:
 - Business Lending
 - B2B Data
 - Marketing
-- Financial Services
+- Financial-Services
 ---

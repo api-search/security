@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icims/refs/hea
 summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 tags:
 - Applicant Tracking
-- HR
+- Human Resources
 - Recruiting
 - Talent Acquisition
 trust_url: https://trust.icims.com/

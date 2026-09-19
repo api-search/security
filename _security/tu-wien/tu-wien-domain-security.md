@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: tu-wien-fundify-api-openapi.yml
+- filename: tu-wien-public-api-openapi.yml
   format: yaml
-  label: FUNDify — RIS Synergy Funding API
-  slug: fundify-funding
+  label: TU Wien Public API
+  slug: tu-wien-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/tu-wien-fundify-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/tu-wien-public-api-openapi.yml
 description: ''
 domains:
 - caa: []

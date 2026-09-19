@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs
 summary_line: 2 schemes
 tags:
 - Integration
-- Orchestrations
+- Orchestration
 - Open-Source
 - Programming Language
 - Package Registry

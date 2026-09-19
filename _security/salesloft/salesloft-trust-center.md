@@ -537,7 +537,7 @@ tags:
 - MCP
 - Agents
 - Dialer
-- Pipeline
+- Pipelines
 - Forecasting
 trust_url: https://trust.salesloft.com/
 ---

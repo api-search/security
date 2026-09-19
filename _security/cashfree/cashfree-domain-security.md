@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-payment-links-api-openapi.yml
 - filename: cashfree-payments-api-openapi.yml
   format: yaml
-  label: Cashfree Payments Payments API
+  label: Cashfree Payments API
   slug: cashfree-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-payments-api-openapi.yml

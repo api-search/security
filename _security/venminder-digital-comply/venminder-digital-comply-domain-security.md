@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: venminder-digital-comply-businessunit-api-openapi.yml
-  format: yaml
-  label: Venminder (Digital Comply) BusinessUnit API
-  slug: venminder-digital-comply-businessunit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-businessunit-api-openapi.yml
-- filename: venminder-digital-comply-clientinformation-api-openapi.yml
-  format: yaml
-  label: Venminder (Digital Comply) ClientInformation API
-  slug: venminder-digital-comply-clientinformation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-clientinformation-api-openapi.yml
 - filename: venminder-digital-comply-contact-api-openapi.yml
   format: yaml
   label: Venminder (Digital Comply) Contact API
@@ -90,6 +78,18 @@ api_specs:
   slug: venminder-digital-comply-venmonitor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-venmonitor-api-openapi.yml
+- filename: venminder-digital-comply-business-unit-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Business Unit API
+  slug: venminder-digital-comply-business-unit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-business-unit-api-openapi.yml
+- filename: venminder-digital-comply-client-information-api-openapi.yml
+  format: yaml
+  label: Venminder (Digital Comply) Client information API
+  slug: venminder-digital-comply-client-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/openapi/venminder-digital-comply-client-information-api-openapi.yml
 description: ''
 domains:
 - caa: []

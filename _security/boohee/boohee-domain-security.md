@@ -34,7 +34,7 @@ tags:
 - Health
 - Nutrition
 - Weight Management
-- Telemedicine
+- Telehealth
 - Mobile App
 - China
 ---

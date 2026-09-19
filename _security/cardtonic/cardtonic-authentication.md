@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cardtonic-openapi.yml
+- filename: cardtonic-auth-api-openapi.yml
   format: yaml
-  label: Cardtonic Business API
-  slug: business-api
+  label: Cardtonic Auth API
+  slug: cardtonic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-auth-api-openapi.yml
+- filename: cardtonic-user-api-openapi.yml
+  format: yaml
+  label: Cardtonic User API
+  slug: cardtonic-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/openapi/cardtonic-user-api-openapi.yml
 auth_types: []
 description: 'The Cardtonic Business API publishes no OpenAPI securitySchemes (components.securitySchemes is empty and every operation carries security: []), so this profile is read from the documented operations themselves rather than derived from the spec. Access is a two-stage model: a business user signs up and logs in to obtain a session token, then mints a long-lived API key through POST /users/generate-key. Every documented request additionally requires an X-Tonic-Env environment-selector header.'
 kind: authentication

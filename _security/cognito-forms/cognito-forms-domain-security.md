@@ -14,22 +14,22 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-files-api-openapi.yml
 - filename: cognito-forms-forms-api-openapi.yml
   format: yaml
-  label: Cognito Forms Forms API
+  label: Cognito Forms API
   slug: cognito-forms-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-forms-api-openapi.yml
-- filename: cognito-forms-odata-api-openapi.yml
-  format: yaml
-  label: Cognito Forms OData API
-  slug: cognito-forms-odata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-odata-api-openapi.yml
 - filename: cognito-forms-webhooks-api-openapi.yml
   format: yaml
   label: Cognito Forms Webhooks API
   slug: cognito-forms-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-webhooks-api-openapi.yml
+- filename: cognito-forms-odata-api-openapi.yml
+  format: yaml
+  label: Cognito Forms O Data API
+  slug: cognito-forms-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-odata-api-openapi.yml
 description: ''
 domains:
 - caa:

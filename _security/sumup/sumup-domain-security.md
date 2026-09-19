@@ -104,7 +104,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Point-of-Sale
-- Card Readers
+- Card Reader
 - Checkout
 - Fintech
 - Mobile Payments

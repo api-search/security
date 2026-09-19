@@ -44,12 +44,6 @@ api_specs:
   slug: global-system-for-mobile-communications-edge-cloud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-edge-cloud-api-openapi.yml
-- filename: global-system-for-mobile-communications-geofencing-subscriptions-api-openapi.yml
-  format: yaml
-  label: Global System for Mobile Communications Geofencing Subscriptions API
-  slug: global-system-for-mobile-communications-geofencing-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-geofencing-subscriptions-api-openapi.yml
 - filename: global-system-for-mobile-communications-home-devices-qod-api-openapi.yml
   format: yaml
   label: Global System for Mobile Communications Home Devices QoD API
@@ -62,12 +56,6 @@ api_specs:
   slug: global-system-for-mobile-communications-location-retrieval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-location-retrieval-api-openapi.yml
-- filename: global-system-for-mobile-communications-location-verification-api-openapi.yml
-  format: yaml
-  label: Global System for Mobile Communications Location Verification API
-  slug: global-system-for-mobile-communications-location-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-location-verification-api-openapi.yml
 - filename: global-system-for-mobile-communications-match-api-openapi.yml
   format: yaml
   label: Global System for Mobile Communications Match API
@@ -110,12 +98,6 @@ api_specs:
   slug: global-system-for-mobile-communications-phone-number-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-phone-number-verify-api-openapi.yml
-- filename: global-system-for-mobile-communications-population-density-data-api-openapi.yml
-  format: yaml
-  label: Global System for Mobile Communications Population Density Data API
-  slug: global-system-for-mobile-communications-population-density-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-population-density-data-api-openapi.yml
 - filename: global-system-for-mobile-communications-qos-sessions-api-openapi.yml
   format: yaml
   label: Global System for Mobile Communications QoS Sessions API
@@ -128,24 +110,12 @@ api_specs:
   slug: global-system-for-mobile-communications-retrieve-sim-swap-date-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-retrieve-sim-swap-date-api-openapi.yml
-- filename: global-system-for-mobile-communications-roaming-status-retrieval-api-openapi.yml
-  format: yaml
-  label: Global System for Mobile Communications Roaming Status Retrieval API
-  slug: global-system-for-mobile-communications-roaming-status-retrieval-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-roaming-status-retrieval-api-openapi.yml
 - filename: global-system-for-mobile-communications-send-sms-api-openapi.yml
   format: yaml
   label: Global System for Mobile Communications Send SMS API
   slug: global-system-for-mobile-communications-send-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-send-sms-api-openapi.yml
-- filename: global-system-for-mobile-communications-sms-delivery-notification-subscription-api-openapi.yml
-  format: yaml
-  label: Global System for Mobile Communications SMS Delivery Notification Subscription API
-  slug: global-system-for-mobile-communications-sms-delivery-notification-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/openapi/global-system-for-mobile-communications-sms-delivery-notification-subscription-api-openapi.yml
 - filename: global-system-for-mobile-communications-traffic-influence-api-read-api-openapi.yml
   format: yaml
   label: Global System for Mobile Communications Traffic Influence API Read API

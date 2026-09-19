@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-tvm/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Compiler
+- Compilers
 - Deep Learning
 - Edge Computing
 - Model Optimization

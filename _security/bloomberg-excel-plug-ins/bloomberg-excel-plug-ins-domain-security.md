@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-exce
 summary_line: TLSv1.3 · DMARC
 tags:
 - Excel
-- Spreadsheet
+- Spreadsheets
 - Financial Modeling
 - Market Data
 - Bloomberg

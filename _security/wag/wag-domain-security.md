@@ -37,6 +37,6 @@ tags:
 - Marketplace
 - On-Demand Services
 - Consumer
-- Mobile Apps
+- Mobile App
 - Pet Sitting
 ---

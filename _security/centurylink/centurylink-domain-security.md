@@ -57,7 +57,7 @@ tags:
 - Edge
 - Fiber
 - Lumen
-- Network
+- Networks
 - Authentication
 - Quantum Fiber
 - SD-WAN

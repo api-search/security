@@ -35,7 +35,6 @@ tags:
 - Product Content
 - Product Data
 - Product Information Management
-- PIM
 - Catalog Management
 - B2B Distribution
 - Manufacturing

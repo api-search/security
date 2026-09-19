@@ -12,12 +12,6 @@ api_specs:
   slug: google-adsense-adclients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-adclients-api-openapi.yml
-- filename: google-adsense-adunits-api-openapi.yml
-  format: yaml
-  label: Google AdSense Management Adunits API
-  slug: google-adsense-adunits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-adunits-api-openapi.yml
 - filename: google-adsense-payments-api-openapi.yml
   format: yaml
   label: Google AdSense Management Payments API
@@ -30,6 +24,12 @@ api_specs:
   slug: google-adsense-reports-generate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-reports-generate-api-openapi.yml
+- filename: google-adsense-ad-units-api-openapi.yml
+  format: yaml
+  label: Google AdSense Management Ad Units API
+  slug: google-adsense-ad-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-ad-units-api-openapi.yml
 description: ''
 domains:
 - caa:

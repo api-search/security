@@ -6,12 +6,6 @@ api_specs:
   slug: tristero-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-assets-api-openapi.yml
-- filename: tristero-margin-api-openapi.yml
-  format: yaml
-  label: Tristero Margin API
-  slug: tristero-margin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/openapi/tristero-margin-api-openapi.yml
 - filename: tristero-orders-api-openapi.yml
   format: yaml
   label: Tristero Orders API

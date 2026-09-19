@@ -53,7 +53,7 @@ tags:
 - Header Bidding
 - Connected TV
 - Supply Side Platform
-- Demand-Side Platform
+- DSP
 - GraphQL
 - AdTech
 - Publisher Reporting

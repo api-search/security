@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Email Testing
 - Email Previews
-- Email Clients
+- Email Client
 - Spam Testing
 - Accessibility
 - HTML Validation

@@ -107,7 +107,7 @@ tags:
 - Grid Services
 - Demand Response
 - Storage
-- Inverter
+- Inverters
 - Smart Home
 - Energy Management
 - Tariffs

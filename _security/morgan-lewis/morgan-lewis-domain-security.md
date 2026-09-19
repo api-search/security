@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morgan-lewis/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
-- Law Firm
+- Law Firms
 - Am Law 10
 - Employee Benefits
 - Fintech

@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ironfang-openapi.yaml
+- filename: ironfang-account-api-openapi.yml
   format: yaml
-  label: Renderwolf API
-  slug: renderwolf-api
+  label: Ironfang Account API
+  slug: ironfang-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-account-api-openapi.yml
+- filename: ironfang-batches-api-openapi.yml
+  format: yaml
+  label: Ironfang Batches API
+  slug: ironfang-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-batches-api-openapi.yml
+- filename: ironfang-destinations-api-openapi.yml
+  format: yaml
+  label: Ironfang Destinations API
+  slug: ironfang-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-destinations-api-openapi.yml
+- filename: ironfang-jobs-api-openapi.yml
+  format: yaml
+  label: Ironfang Jobs API
+  slug: ironfang-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-jobs-api-openapi.yml
+- filename: ironfang-render-api-openapi.yml
+  format: yaml
+  label: Ironfang Render API
+  slug: ironfang-render-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-render-api-openapi.yml
+- filename: ironfang-signed-urls-api-openapi.yml
+  format: yaml
+  label: Ironfang Signed URLs API
+  slug: ironfang-signed-urls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-signed-urls-api-openapi.yml
+- filename: ironfang-templates-api-openapi.yml
+  format: yaml
+  label: Ironfang Templates API
+  slug: ironfang-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/openapi/ironfang-templates-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -92,9 +128,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Developer Tools
-- Screenshot API
-- Website Screenshot
-- HTML-to-PDF
+- screenshot-api
+- website screenshot
+- HTML to PDF
 - PDF API
 - Image API
 - OG Image API

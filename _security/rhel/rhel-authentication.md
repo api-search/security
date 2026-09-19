@@ -8,12 +8,6 @@ api_specs:
   slug: rhel-advisories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
-- filename: rhel-cves-api-openapi.yml
-  format: yaml
-  label: Red Hat Enterprise Linux CVEs API
-  slug: rhel-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
 - filename: rhel-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux OVAL API
@@ -32,6 +26,12 @@ api_specs:
   slug: rhel-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+- filename: rhel-cves-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux CV Es API
+  slug: rhel-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

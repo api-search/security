@@ -12,12 +12,6 @@ api_specs:
   slug: google-tag-manager-containers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-containers-api-openapi.yml
-- filename: google-tag-manager-tagmanager-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Tagmanager API
-  slug: google-tag-manager-tagmanager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-tagmanager-api-openapi.yml
 - filename: google-tag-manager-triggers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Triggers API
@@ -48,6 +42,12 @@ api_specs:
   slug: google-tag-manager-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-workspaces-api-openapi.yml
+- filename: google-tag-manager-tag-manager-api-openapi.yml
+  format: yaml
+  label: Google Tag Manager Tag Manager API
+  slug: google-tag-manager-tag-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-tag-manager-api-openapi.yml
 certification_count: 1
 certifications:
 - ISO/IEC 27001

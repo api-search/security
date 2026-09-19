@@ -2,7 +2,7 @@
 api_specs:
 - filename: suger-api-api-openapi.yml
   format: yaml
-  label: Suger API API
+  label: Suger API
   slug: suger-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-api-api-openapi.yml
@@ -112,7 +112,7 @@ tags:
 - Go-To-Market
 - Software-as-a-Service
 - Billing
-- Entitlement
+- Entitlements
 - Revenue
 - Co-Sell
 ---

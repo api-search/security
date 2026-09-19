@@ -105,7 +105,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Multi-Modal
-- Large Language Models
+- LLM
 - Vision
 - Speech
 - Foundation Models

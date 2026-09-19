@@ -25,7 +25,7 @@ tags:
 - Data Analytics
 - Business Intelligence
 - Community Banking
-- Credit Unions
+- Credit Union
 - Dashboards
 - Reporting
 - Data Warehouse

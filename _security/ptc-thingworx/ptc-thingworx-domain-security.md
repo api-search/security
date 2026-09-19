@@ -80,5 +80,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.ptc.com\n  https: false\n- host: www.ptc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ptc.com\n  dnssec: false\n  caa:\n  - 128 issue \"quovadisglobal.com\"\n  - 128 issuewild \"digicert.com\"\n  - 128 issuewild \"pki.goog\"\n  - 128 issuewild \"quovadisglobal.com\"\n  - 128 issuewild \"amazon.com\"\n  - 128 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/security/ptc-thingworx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
-tags: []
+tags:
+- Manufacturing
+- IoT
+- WebSocket
+- CAD
 ---

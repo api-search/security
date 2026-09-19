@@ -39,4 +39,5 @@ tags:
 - Automation
 - Authentication
 - MCP
+- Identity Federation
 ---

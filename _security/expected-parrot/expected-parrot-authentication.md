@@ -38,7 +38,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Surveys
 - Research
 - Social Science

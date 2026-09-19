@@ -12,12 +12,6 @@ api_specs:
   slug: streak-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-fields-api-openapi.yml
-- filename: streak-newsfeed-api-openapi.yml
-  format: yaml
-  label: Streak Newsfeed API
-  slug: streak-newsfeed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-newsfeed-api-openapi.yml
 - filename: streak-pipelines-api-openapi.yml
   format: yaml
   label: Streak Pipelines API
@@ -42,6 +36,12 @@ api_specs:
   slug: streak-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-webhooks-api-openapi.yml
+- filename: streak-news-feed-api-openapi.yml
+  format: yaml
+  label: Streak News Feed API
+  slug: streak-news-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-news-feed-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -36,12 +36,12 @@ api_specs:
   slug: us-army-corps-of-engineers-reservoirs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-reservoirs-api-openapi.yml
-- filename: us-army-corps-of-engineers-timeseries-api-openapi.yml
+- filename: us-army-corps-of-engineers-time-series-api-openapi.yml
   format: yaml
-  label: US Army Corps of Engineers Timeseries API
-  slug: us-army-corps-of-engineers-timeseries-api
+  label: US Army Corps of Engineers Time Series API
+  slug: us-army-corps-of-engineers-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-timeseries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

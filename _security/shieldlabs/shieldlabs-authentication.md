@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-management-api-api-openapi.yml
 - filename: shieldlabs-shieldlabs-api-api-openapi.yml
   format: yaml
-  label: ShieldLabs ShieldLabs API
+  label: ShieldLabs API
   slug: shieldlabs-shieldlabs-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-shieldlabs-api-api-openapi.yml

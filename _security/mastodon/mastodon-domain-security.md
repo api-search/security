@@ -41,5 +41,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Open-Source
-- Social Networks
+- Social Network
 ---

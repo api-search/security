@@ -30,12 +30,30 @@ api_specs:
   slug: artemis-neows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-neows-api-openapi.yml
-- filename: artemis-techport-swagger.json
-  format: json
-  label: NASA TechPort API
-  slug: nasa-techport-api
+- filename: artemis-projects-api-openapi.yml
+  format: yaml
+  label: Artemis Projects API
+  slug: artemis-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-techport-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-projects-api-openapi.yml
+- filename: artemis-projects-format-api-openapi.yml
+  format: yaml
+  label: Artemis Projects{.format} API
+  slug: artemis-projects-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-projects-format-api-openapi.yml
+- filename: artemis-request-tag-api-openapi.yml
+  format: yaml
+  label: Artemis request tag API
+  slug: artemis-request-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-request-tag-api-openapi.yml
+- filename: artemis-techport-api-openapi.yml
+  format: yaml
+  label: Artemis Tech Port API
+  slug: artemis-techport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-techport-api-openapi.yml
 description: ''
 domains:
 - caa: []

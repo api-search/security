@@ -40,5 +40,5 @@ tags:
 - Childcare
 - On-Demand
 - France
-- Mobile Apps
+- Mobile App
 ---

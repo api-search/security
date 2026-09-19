@@ -62,7 +62,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification
 - Credential Verification
-- Background Check
+- Background Checks
 - Insurance Verification
 - COI
 ---

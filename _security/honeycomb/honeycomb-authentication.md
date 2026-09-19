@@ -15,12 +15,6 @@ api_specs:
   slug: queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-queries-api-openapi.yml
-- filename: honeycomb-slos-api-openapi.yml
-  format: yaml
-  label: Honeycomb SLOs API
-  slug: slos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
 - filename: honeycomb-datasets-api-openapi.yml
   format: yaml
   label: Honeycomb Datasets API
@@ -135,6 +129,12 @@ api_specs:
   slug: honeycomb-service-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-service-maps-api-openapi.yml
+- filename: honeycomb-slos-api-openapi.yml
+  format: yaml
+  label: Honeycomb SL Os API
+  slug: honeycomb-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -173,5 +173,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/honeycom
   \  - openapi/honeycomb-queries-api-openapi.yml\n  - openapi/honeycomb-slos-api-openapi.yml\n  - openapi/honeycomb-triggers-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/authentication/honeycomb-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- Observability
+- Telemetry
+- Analytics
+- Data Management
 ---

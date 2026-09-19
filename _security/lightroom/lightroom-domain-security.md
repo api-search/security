@@ -48,12 +48,6 @@ api_specs:
   slug: lightroom-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-health-api-openapi.yml
-- filename: lightroom-master-api-openapi.yml
-  format: yaml
-  label: Adobe Lightroom Master API
-  slug: lightroom-master-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-master-api-openapi.yml
 - filename: lightroom-presets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Presets API
@@ -66,12 +60,6 @@ api_specs:
   slug: lightroom-renditions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-renditions-api-openapi.yml
-- filename: lightroom-xmp-api-openapi.yml
-  format: yaml
-  label: Adobe Lightroom XMP API
-  slug: lightroom-xmp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-xmp-api-openapi.yml
 description: ''
 domains:
 - caa: []

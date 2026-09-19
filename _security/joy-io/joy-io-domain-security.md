@@ -73,7 +73,7 @@ tags:
 - Company
 - Marketplace
 - Reservations
-- Bookings
+- Booking
 - Restaurant
 - Hospitality
 - Event

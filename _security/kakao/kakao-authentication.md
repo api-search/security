@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: kakao-oauth-api-openapi.yml
-  format: yaml
-  label: Kakao OAuth API
-  slug: kakao-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oauth-api-openapi.yml
 - filename: kakao-oidc-api-openapi.yml
   format: yaml
   label: Kakao OIDC API
@@ -27,6 +21,12 @@ api_specs:
   slug: kakao-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-user-api-openapi.yml
+- filename: kakao-oauth-api-openapi.yml
+  format: yaml
+  label: Kakao O Auth API
+  slug: kakao-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -70,7 +70,7 @@ tags:
 - Navigation
 - Payments
 - Search
-- Korea
+- South Korea
 - Identity
 - Authentication
 - KakaoTalk

@@ -106,7 +106,7 @@ tags:
 - Commerce
 - Shopify
 - E-Commerce
-- Mobile Apps
+- Mobile App
 - Push Notifications
 - Analytics
 - Webhook

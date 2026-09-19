@@ -42,18 +42,18 @@ api_specs:
   slug: cybereason-sensors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-sensors-api-openapi.yml
-- filename: cybereason-threatintel-api-openapi.yml
+- filename: cybereason-threat-intel-api-openapi.yml
   format: yaml
-  label: Cybereason ThreatIntel API
-  slug: cybereason-threatintel-api
+  label: Cybereason Threat Intel API
+  slug: cybereason-threat-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-threatintel-api-openapi.yml
-- filename: cybereason-visualsearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-threat-intel-api-openapi.yml
+- filename: cybereason-visual-search-api-openapi.yml
   format: yaml
-  label: Cybereason VisualSearch API
-  slug: cybereason-visualsearch-api
+  label: Cybereason Visual search API
+  slug: cybereason-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visualsearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visual-search-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: adonmoprivatelimited-adonmo-api.json
-  format: json
-  label: Adonmo API
-  slug: adonmoprivatelimited-adonmo-api
+- filename: adonmoprivatelimited-acumen-api-openapi.yml
+  format: yaml
+  label: Adonmo Private Limited Acumen API
+  slug: adonmoprivatelimited-acumen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/openapi/adonmoprivatelimited-adonmo-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/openapi/adonmoprivatelimited-acumen-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -50,8 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatel
 summary_line: 1 scheme
 tags:
 - Advertising
-- Digital Out-of-Home
-- DOOH
+- Digital Out Of Home
 - Digital Signage
 - AdTech
 - Content Management

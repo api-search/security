@@ -384,12 +384,12 @@ api_specs:
   slug: jp-morgan-chase-token-processing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-token-processing-api-openapi.yml
-- filename: jpmorgan-chase-banking-api-openapi.yml
+- filename: jp-morgan-chase-banking-api-openapi.yml
   format: yaml
   label: JPMorgan Chase Banking API
-  slug: jpmorgan-chase-banking-api
+  slug: jp-morgan-chase-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jpmorgan-chase-banking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-banking-api-openapi.yml
 description: ''
 domains:
 - caa:

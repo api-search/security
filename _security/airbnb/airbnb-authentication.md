@@ -102,5 +102,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airbnb-activities-api-openapi.yml, openapi/airbnb-homes-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.airbnb.com/oauth2/auth\n    tokenUrl: https://api.airbnb.com/v2/oauth2/authorizations\n    scopes: 6\n  description: Airbnb uses OAuth 2.0 for authentication. Partners must register their application\n    to receive a client ID and secret, then obtain access tokens through the authorization code\n    flow.\n  sources:\n  - openapi/airbnb-activities-api-openapi.yml\n  - openapi/airbnb-homes-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/authentication/airbnb-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Reservations
+- Hospitality
+- Travel
+- Airbnb
 ---

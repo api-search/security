@@ -36,7 +36,7 @@ tags:
 - API Mocking
 - GraphQL
 - HTTP
-- Mock Server
+- Mock Servers
 - Mocking
 - Service Worker
 - Testing

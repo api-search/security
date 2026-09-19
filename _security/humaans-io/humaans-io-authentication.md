@@ -122,9 +122,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/humaans-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/authentication/humaans-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - People Operations
 - People Analytics
 - Onboarding
@@ -135,6 +134,6 @@ tags:
 - Workflow-Automation
 - AI Companion
 - Agentic AI
-- UK
+- United Kingdom
 - London
 ---

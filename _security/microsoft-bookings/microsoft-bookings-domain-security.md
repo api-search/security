@@ -36,12 +36,12 @@ api_specs:
   slug: microsoft-bookings-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-services-api-openapi.yml
-- filename: microsoft-bookings-staffmembers-api-openapi.yml
+- filename: microsoft-bookings-staff-members-api-openapi.yml
   format: yaml
-  label: Microsoft Bookings StaffMembers API
-  slug: microsoft-bookings-staffmembers-api
+  label: Microsoft Bookings Staff Members API
+  slug: microsoft-bookings-staff-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-staffmembers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-staff-members-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/security/microsoft-bookings-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Bookings
+- Booking
 - Scheduling
 - Appointments
 - Microsoft Graph

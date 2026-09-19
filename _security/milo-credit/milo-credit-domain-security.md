@@ -40,7 +40,7 @@ tags:
 - Company
 - Fintech
 - Lending
-- Mortgages
+- Mortgage
 - Cryptocurrency
 - Crypto-Backed Loans
 - Real-Estate

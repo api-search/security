@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Telemedicine
+- Telehealth
 - Diagnostics
 - Online Pharmacy
 - Health Insurance

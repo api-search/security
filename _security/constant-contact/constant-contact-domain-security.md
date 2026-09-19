@@ -14,13 +14,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-bulk-activities-api-openapi.yml
 - filename: constant-contact-contact-lists-api-openapi.yml
   format: yaml
-  label: Constant Contact Contact Lists API
+  label: Constant Contact Lists API
   slug: constant-contact-contact-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contact-lists-api-openapi.yml
 - filename: constant-contact-contact-tags-api-openapi.yml
   format: yaml
-  label: Constant Contact Contact Tags API
+  label: Constant Contact Tags API
   slug: constant-contact-contact-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contact-tags-api-openapi.yml

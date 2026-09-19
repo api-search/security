@@ -36,7 +36,7 @@ tags:
 - Quantum Software
 - Developer Tools
 - Integrated Development Environment
-- Compiler
+- Compilers
 - Deep Tech
 - Singapore
 ---

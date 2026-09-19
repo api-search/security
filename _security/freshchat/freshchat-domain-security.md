@@ -12,12 +12,6 @@ api_specs:
   slug: freshchat-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-agents-api-openapi.yml
-- filename: freshchat-businesshours-api-openapi.yml
-  format: yaml
-  label: Freshchat BusinessHours API
-  slug: freshchat-businesshours-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-businesshours-api-openapi.yml
 - filename: freshchat-channels-api-openapi.yml
   format: yaml
   label: Freshchat Channels API
@@ -78,6 +72,12 @@ api_specs:
   slug: freshchat-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-users-api-openapi.yml
+- filename: freshchat-business-hours-api-openapi.yml
+  format: yaml
+  label: Freshchat Business Hours API
+  slug: freshchat-business-hours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-business-hours-api-openapi.yml
 description: ''
 domains:
 - caa: []

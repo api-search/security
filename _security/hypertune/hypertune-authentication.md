@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: hypertune-graphql-api-openapi.yml
+- filename: hypertune-graph-ql-api-openapi.yml
   format: yaml
-  label: Hypertune GraphQL API
-  slug: hypertune-graphql-api
+  label: Hypertune Graph QL API
+  slug: hypertune-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

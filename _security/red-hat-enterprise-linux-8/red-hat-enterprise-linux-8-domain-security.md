@@ -6,18 +6,18 @@ api_specs:
   slug: red-hat-enterprise-linux-8-advisories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-advisories-api-openapi.yml
-- filename: red-hat-enterprise-linux-8-cves-api-openapi.yml
-  format: yaml
-  label: Red Hat Enterprise Linux 8 CVEs API
-  slug: red-hat-enterprise-linux-8-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-cves-api-openapi.yml
 - filename: red-hat-enterprise-linux-8-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux 8 OVAL API
   slug: red-hat-enterprise-linux-8-oval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-oval-api-openapi.yml
+- filename: red-hat-enterprise-linux-8-cves-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux 8 CV Es API
+  slug: red-hat-enterprise-linux-8-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-cves-api-openapi.yml
 description: ''
 domains:
 - caa:

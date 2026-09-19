@@ -33,7 +33,7 @@ tags:
 - Company
 - Telecom
 - Internet Service Provider
-- Fiber Optic
+- Fiber Optics
 - Broadband
 - Connectivity
 - Colombia

@@ -44,7 +44,7 @@ tags:
 - Federal-Government
 - Food
 - Food Safety
-- Inspections
+- Inspection
 - Recalls
 - Meat
 - Poultry

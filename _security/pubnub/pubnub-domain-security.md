@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - IoT
 - Messaging

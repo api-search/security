@@ -39,4 +39,5 @@ tags:
 - Metaverse
 - Nike
 - Consumer Brand
+- Defunct
 ---

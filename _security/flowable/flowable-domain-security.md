@@ -384,42 +384,6 @@ api_specs:
   slug: flowable-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-users-api-openapi.yml
-- filename: flowable-api-cmmn-api-openapi.yml
-  format: yaml
-  label: Flowable CMMN API
-  slug: flowable-api-cmmn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-cmmn-api-openapi.yml
-- filename: flowable-api-deployments-api-openapi.yml
-  format: yaml
-  label: Flowable Deployments API
-  slug: flowable-api-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-deployments-api-openapi.yml
-- filename: flowable-api-models-api-openapi.yml
-  format: yaml
-  label: Flowable Models API
-  slug: flowable-api-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-models-api-openapi.yml
-- filename: flowable-api-processdefinitions-api-openapi.yml
-  format: yaml
-  label: Flowable ProcessDefinitions API
-  slug: flowable-api-processdefinitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-processdefinitions-api-openapi.yml
-- filename: flowable-api-processinstances-api-openapi.yml
-  format: yaml
-  label: Flowable ProcessInstances API
-  slug: flowable-api-processinstances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-processinstances-api-openapi.yml
-- filename: flowable-api-tasks-api-openapi.yml
-  format: yaml
-  label: Flowable Tasks API
-  slug: flowable-api-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-api-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -463,7 +427,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/security/flowable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- BPM
 - Business Process Management
 - Workflows
 - BPMN

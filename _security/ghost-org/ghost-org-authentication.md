@@ -294,7 +294,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Publishing
 - Newsletters
-- Memberships
+- Membership
 - Subscription
 - CMS
 - Open-Source

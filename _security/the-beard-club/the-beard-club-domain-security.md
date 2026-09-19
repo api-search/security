@@ -37,8 +37,8 @@ tags:
 - Men's Grooming
 - Consumer Goods
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 - Subscription
 ---

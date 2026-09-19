@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: transcriptfetch-api-v2-openapi.json
-  format: json
-  label: TranscriptFetch REST API
-  slug: transcriptfetch-rest-api
+- filename: transcriptfetch-system-api-openapi.yml
+  format: yaml
+  label: TranscriptFetch System API
+  slug: transcriptfetch-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-api-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-system-api-openapi.yml
+- filename: transcriptfetch-transcripts-api-openapi.yml
+  format: yaml
+  label: TranscriptFetch Transcripts API
+  slug: transcriptfetch-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-transcripts-api-openapi.yml
 auth_types:
 - http
 - oauth2 (MCP surface)
@@ -52,30 +58,24 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: openapi/transcr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/authentication/transcriptfetch-authentication.yml
 summary_line: http/oauth2 (MCP surface) · 2 schemes
 tags:
-- transcripts
-- speech-to-text
-- captions
-- youtube
-- tiktok
-- instagram
-- podcasts
-- mcp
-- llms-txt
-- openapi
-- Transcription
+- Transcripts
 - Speech-to-Text
-- Video
-- Podcasts
-- AI/LLM
-- RAG
-- Agents
-- MCP
-- Developer Tools
-- Media
-- Content
+- Captions
 - YouTube
 - TikTok
 - Instagram
+- Podcasts
+- MCP
+- llms-txt
+- OpenAPI
+- Transcription
+- Video
+- AI/LLM
+- RAG
+- Agents
+- Developer Tools
+- Media
+- Content
 - Spotify
 - Apple Podcasts
 ---

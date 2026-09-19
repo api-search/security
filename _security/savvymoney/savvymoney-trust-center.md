@@ -25,13 +25,13 @@ summary_line: SOC 2 Type 2, CSA STAR Level 1, CSA STAR Level 2, CSA Trusted Clou
 tags:
 - Company
 - Financial-Services
-- Credit Scores
+- Credit Score
 - Credit Monitoring
 - Financial Wellness
 - Banking
-- Credit Unions
+- Credit Union
 - Fintech
-- Single Sign-On
+- SSO
 - Embedded Finance
 - Lending
 - Account Opening

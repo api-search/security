@@ -36,7 +36,7 @@ tags:
 - Pharmacy
 - E-Pharmacy
 - Diagnostics
-- Telemedicine
+- Telehealth
 - India
 - E-Commerce
 ---

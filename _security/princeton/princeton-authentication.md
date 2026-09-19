@@ -194,5 +194,5 @@ tags:
 - Open Data
 - Digital Collections
 - Identity Federation
-- Museum
+- Museums
 ---

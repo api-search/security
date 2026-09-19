@@ -2,12 +2,12 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: kau-open-data-api-openapi.yml
+- filename: kau-studentsdata-api-openapi.yml
   format: yaml
-  label: KAU Open Data API
-  slug: open-data
+  label: King Abdulaziz University Students Data API
+  slug: kau-studentsdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/openapi/kau-open-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/openapi/kau-studentsdata-api-openapi.yml
 auth_types: []
 description: 'Authentication posture across every King Abdulaziz University surface reachable from the open internet. The shape is unusual for this cohort and worth stating plainly: the one API KAU operates itself is completely open and requires nothing, while everything that is gated is gated by a vendor platform in front of KAU''s own identity provider. There is no developer-facing credential of any kind — no API key, no client registration, no OAuth application, no self-service onboarding — anywhere in KAU''s public footprint.'
 kind: authentication

@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: stockgro-tradeview-intraday-model-openapi.json
-  format: json
-  label: TradeView Intraday Model API
-  slug: stockgro-tradeview-intraday-model-api
+- filename: stockgro-health-api-openapi.yml
+  format: yaml
+  label: StockGro Health API
+  slug: stockgro-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/heads/main/openapi/stockgro-tradeview-intraday-model-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/heads/main/openapi/stockgro-health-api-openapi.yml
+- filename: stockgro-process-api-openapi.yml
+  format: yaml
+  label: StockGro Process API
+  slug: stockgro-process-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/heads/main/openapi/stockgro-process-api-openapi.yml
+- filename: stockgro-tradeview-intraday-model-api-api-openapi.yml
+  format: yaml
+  label: StockGro TradeView Intraday Model API
+  slug: stockgro-tradeview-intraday-model-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/heads/main/openapi/stockgro-tradeview-intraday-model-api-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

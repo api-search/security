@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/
 summary_line: TLSv1.3
 tags:
 - API Mocking
-- Mock Server
+- Mock Servers
 - Mocking
 - Platform
 - Stubs

@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Laboratory
-- Life Science
+- Life Sciences
 - LIMS
 - ELN
 - Biotech

@@ -41,7 +41,7 @@ tags:
 - Order Tracking
 - Delivery Notifications
 - Returns
-- Exchanges
+- Exchange
 - E-Commerce
 - Shipments
 - Customer Experience

@@ -40,7 +40,7 @@ tags:
 - Artificial Intelligence
 - Data Analytics
 - Data Visualization
-- Machine Learning
+- Machine-Learning
 - Defense
 - Government
 - Python

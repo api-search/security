@@ -38,4 +38,5 @@ tags:
 - D2C
 - Apparel
 - India
+- Direct to Consumer
 ---

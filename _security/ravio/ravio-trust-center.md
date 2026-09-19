@@ -23,7 +23,6 @@ tags:
 - Benchmarking
 - Total Rewards
 - Human Resources
-- HR Tech
 - Software-as-a-Service
 trust_url: https://trust.ravio.com/
 ---

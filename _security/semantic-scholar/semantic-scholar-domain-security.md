@@ -80,7 +80,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Academic
 - Research
-- Papers
+- Paper
 - Citations
 - Authors
 - Scientific Literature

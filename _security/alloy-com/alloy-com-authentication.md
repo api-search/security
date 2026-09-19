@@ -74,12 +74,6 @@ api_specs:
   slug: alloy-com-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-lists-api-openapi.yml
-- filename: alloy-com-oauth-api-openapi.yml
-  format: yaml
-  label: Alloy OAuth API
-  slug: alloy-com-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-oauth-api-openapi.yml
 - filename: alloy-com-parameters-api-openapi.yml
   format: yaml
   label: Alloy Parameters API
@@ -116,6 +110,12 @@ api_specs:
   slug: alloy-com-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-transactions-api-openapi.yml
+- filename: alloy-com-oauth-api-openapi.yml
+  format: yaml
+  label: Alloy O Auth API
+  slug: alloy-com-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

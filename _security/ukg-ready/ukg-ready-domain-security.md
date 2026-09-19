@@ -60,6 +60,6 @@ tags:
 - Payroll
 - Workforce Management
 - Time and Attendance
-- HR
+- Human Resources
 - Benefits
 ---

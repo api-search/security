@@ -37,7 +37,7 @@ tags:
 - AU
 - UQ Mobile
 - povo
-- Network API
+- Network APIs
 - CAMARA
 - Aduna
 - Identity Verification

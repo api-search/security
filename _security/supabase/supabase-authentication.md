@@ -69,12 +69,6 @@ api_specs:
   slug: supabase-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-network-api-openapi.yml
-- filename: supabase-oauth-api-openapi.yml
-  format: yaml
-  label: Supabase OAuth API
-  slug: supabase-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-oauth-api-openapi.yml
 - filename: supabase-objects-api-openapi.yml
   format: yaml
   label: Supabase Objects API
@@ -129,6 +123,12 @@ api_specs:
   slug: supabase-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-user-management-api-openapi.yml
+- filename: supabase-oauth-api-openapi.yml
+  format: yaml
+  label: Supabase O Auth API
+  slug: supabase-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/openapi/supabase-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -183,4 +183,5 @@ tags:
 - Storage
 - Edge Functions
 - Database
+- Identity Federation
 ---

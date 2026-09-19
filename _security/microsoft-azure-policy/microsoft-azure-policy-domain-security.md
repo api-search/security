@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-operations-api-openapi.yml
 - filename: microsoft-azure-policy-policy-definitions-api-openapi.yml
   format: yaml
-  label: Azure Policy Policy Definitions API
+  label: Azure Policy Definitions API
   slug: microsoft-azure-policy-policy-definitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml

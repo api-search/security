@@ -3,18 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: nist-cvehistory-api-openapi.yml
-  format: yaml
-  label: National Institute of Standards and Technology (NIST) Cvehistory API
-  slug: nist-cvehistory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cvehistory-api-openapi.yml
 - filename: nist-cves-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) Cves API
   slug: nist-cves-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cves-api-openapi.yml
+- filename: nist-cve-history-api-openapi.yml
+  format: yaml
+  label: National Institute of Standards and Technology (NIST) CVE History API
+  slug: nist-cve-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cve-history-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

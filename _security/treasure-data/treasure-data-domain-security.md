@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-connections-api-openapi.yml
 - filename: treasure-data-data-connector-restrictions-api-openapi.yml
   format: yaml
-  label: Treasure Data Data Connector Restrictions API
+  label: Treasure Data Connector Restrictions API
   slug: treasure-data-data-connector-restrictions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-data-connector-restrictions-api-openapi.yml
@@ -234,12 +234,6 @@ api_specs:
   slug: treasure-data-journeys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-journeys-api-openapi.yml
-- filename: treasure-data-knowledgebase-api-openapi.yml
-  format: yaml
-  label: Treasure Data Knowledge Base API
-  slug: treasure-data-knowledgebase-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-knowledgebase-api-openapi.yml
 - filename: treasure-data-log-api-openapi.yml
   format: yaml
   label: Treasure Data Log API
@@ -390,6 +384,12 @@ api_specs:
   slug: treasure-data-workflowexecutor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-workflowexecutor-api-openapi.yml
+- filename: treasure-data-knowledge-base-api-openapi.yml
+  format: yaml
+  label: Treasure Data Knowledge Base API
+  slug: treasure-data-knowledge-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/openapi/treasure-data-knowledge-base-api-openapi.yml
 description: ''
 domains:
 - caa: []

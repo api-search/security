@@ -32,12 +32,6 @@ api_specs:
   slug: figshare-institutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-institutions-api-openapi.yml
-- filename: figshare-oauth-api-openapi.yml
-  format: yaml
-  label: Figshare oauth API
-  slug: figshare-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-oauth-api-openapi.yml
 - filename: figshare-other-api-openapi.yml
   format: yaml
   label: Figshare other API
@@ -62,6 +56,12 @@ api_specs:
   slug: figshare-symplectic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-symplectic-api-openapi.yml
+- filename: figshare-oauth-api-openapi.yml
+  format: yaml
+  label: Figshare OAUTH API
+  slug: figshare-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -103,4 +103,5 @@ tags:
 - Academic
 - File Storage
 - Open Access
+- Figshare
 ---

@@ -69,12 +69,6 @@ api_specs:
   slug: bem-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/openapi/bem-feedback-api-openapi.yml
-- filename: bem-file-system-api-openapi.yml
-  format: yaml
-  label: Bem File System API
-  slug: bem-file-system-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/openapi/bem-file-system-api-openapi.yml
 - filename: bem-function-accuracy-api-openapi.yml
   format: yaml
   label: Bem Function Accuracy API
@@ -135,6 +129,12 @@ api_specs:
   slug: bem-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/openapi/bem-workflows-api-openapi.yml
+- filename: bem-filesystem-api-openapi.yml
+  format: yaml
+  label: Bem Filesystem API
+  slug: bem-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/openapi/bem-filesystem-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

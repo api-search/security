@@ -118,6 +118,6 @@ tags:
 - Digital Health
 - Care Navigation
 - Health Plans
-- Mobile Application
+- Mobile Applications
 - Identity
 ---

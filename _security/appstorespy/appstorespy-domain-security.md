@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/security/appstorespy-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Mobile Apps
+- Mobile App
 - App Store Optimization
 - Market Intelligence
 - App Analytics

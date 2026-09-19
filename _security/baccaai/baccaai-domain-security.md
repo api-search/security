@@ -37,7 +37,7 @@ tags:
 - Incident Management
 - Observability
 - DevOps
-- AI Agent
+- AI Agents
 - Root Cause Analysis
 - Cloud
 ---

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: advanceai-openapi.yml
+- filename: advanceai-authentication-api-openapi.yml
   format: yaml
-  label: ADVANCE.AI Open API
-  slug: advanceai-open-api
+  label: ADVANCE.AI Authentication API
+  slug: advanceai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-authentication-api-openapi.yml
+- filename: advanceai-document-verification-api-openapi.yml
+  format: yaml
+  label: ADVANCE.AI Document Verification API
+  slug: advanceai-document-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-document-verification-api-openapi.yml
+- filename: advanceai-face-comparison-api-openapi.yml
+  format: yaml
+  label: ADVANCE.AI Face Comparison API
+  slug: advanceai-face-comparison-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-face-comparison-api-openapi.yml
+- filename: advanceai-liveness-detection-api-openapi.yml
+  format: yaml
+  label: ADVANCE.AI Liveness Detection API
+  slug: advanceai-liveness-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-liveness-detection-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

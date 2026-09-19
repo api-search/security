@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Frontier Tech
-- Data Centers
+- Data-Center
 - Digital Infrastructure
 - Hyperscale
 - Cloud Infrastructure

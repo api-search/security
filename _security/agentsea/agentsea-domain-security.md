@@ -41,7 +41,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agent Orchestration
-- Large Language Models
+- LLM
 - MCP
 - Agentic Commerce
 - Open-Source

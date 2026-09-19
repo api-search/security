@@ -34,7 +34,7 @@ tags:
 - Company
 - Software-as-a-Service
 - Construction
-- Trades
+- Trade
 - Handwerk
 - Field Service
 - Invoicing

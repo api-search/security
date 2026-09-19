@@ -43,7 +43,7 @@ summary_line: TLSv1.3
 tags:
 - Commerce
 - Documentation
-- Editors
+- Editor
 - Governance
 - Platform
 - Product

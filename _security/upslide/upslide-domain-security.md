@@ -56,6 +56,6 @@ tags:
 - Microsoft-365
 - PowerPoint
 - Excel
-- AI Assistants
+- AI Assistant
 - MCP
 ---

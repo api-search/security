@@ -33,12 +33,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy
 - Utilities
-- Smart Meters
+- Smart Meter
 - Energy Disaggregation
 - Non-Intrusive Load Monitoring
 - Artificial Intelligence
 - Machine-Learning
-- GenAI
+- Generative AI
 - Agentic AI
 - Demand-Side Management
 - Demand Response

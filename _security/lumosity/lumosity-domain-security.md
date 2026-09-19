@@ -34,7 +34,7 @@ tags:
 - Company
 - Brain Training
 - Cognitive Training
-- Consumer Apps
+- Consumer App
 - Health and Wellness
 - Mobile
 - Games

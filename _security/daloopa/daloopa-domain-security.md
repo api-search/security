@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/openapi/daloopa-consumption-api-openapi.yml
 - filename: daloopa-daloopa-mcp-service-api-openapi.yml
   format: yaml
-  label: Daloopa Daloopa MCP Service API
+  label: Daloopa MCP Service API
   slug: daloopa-daloopa-mcp-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/openapi/daloopa-daloopa-mcp-service-api-openapi.yml

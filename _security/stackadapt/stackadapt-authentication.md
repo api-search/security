@@ -92,7 +92,6 @@ tags:
 - Campaign Management
 - AdTech
 - DSP
-- Demand-Side Platform
 - Native Advertising
 - Display Advertising
 - Video Advertising

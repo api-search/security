@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claim/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Consumer Apps
+- Consumer App
 - Rewards
 - Loyalty
 - Cashback
@@ -40,5 +40,5 @@ tags:
 - Food and Beverage
 - Social Network
 - Brand Marketing
-- Mobile Apps
+- Mobile App
 ---

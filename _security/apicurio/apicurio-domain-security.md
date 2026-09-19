@@ -48,12 +48,6 @@ api_specs:
   slug: apicurio-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-contracts-api-openapi.yml
-- filename: apicurio-gitops-api-openapi.yml
-  format: yaml
-  label: Apicurio GitOps API
-  slug: apicurio-gitops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-gitops-api-openapi.yml
 - filename: apicurio-global-rules-api-openapi.yml
   format: yaml
   label: Apicurio Global rules API
@@ -114,6 +108,12 @@ api_specs:
   slug: apicurio-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-versions-api-openapi.yml
+- filename: apicurio-git-ops-api-openapi.yml
+  format: yaml
+  label: Apicurio Git Ops API
+  slug: apicurio-git-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-git-ops-api-openapi.yml
 description: ''
 domains:
 - caa: []

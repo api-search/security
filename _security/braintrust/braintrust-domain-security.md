@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: braintrust-acls-api-openapi.yml
-  format: yaml
-  label: Braintrust Acls API
-  slug: braintrust-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-acls-api-openapi.yml
 - filename: braintrust-aisecrets-api-openapi.yml
   format: yaml
   label: Braintrust AiSecrets API
   slug: braintrust-aisecrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-aisecrets-api-openapi.yml
-- filename: braintrust-apikeys-api-openapi.yml
-  format: yaml
-  label: Braintrust ApiKeys API
-  slug: braintrust-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-apikeys-api-openapi.yml
 - filename: braintrust-cors-api-openapi.yml
   format: yaml
   label: Braintrust CORS API
@@ -48,12 +36,6 @@ api_specs:
   slug: braintrust-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-environments-api-openapi.yml
-- filename: braintrust-envvars-api-openapi.yml
-  format: yaml
-  label: Braintrust EnvVars API
-  slug: braintrust-envvars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-envvars-api-openapi.yml
 - filename: braintrust-evals-api-openapi.yml
   format: yaml
   label: Braintrust Evals API
@@ -84,12 +66,6 @@ api_specs:
   slug: braintrust-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-logs-api-openapi.yml
-- filename: braintrust-mcpservers-api-openapi.yml
-  format: yaml
-  label: Braintrust McpServers API
-  slug: braintrust-mcpservers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-mcpservers-api-openapi.yml
 - filename: braintrust-organizations-api-openapi.yml
   format: yaml
   label: Braintrust Organizations API
@@ -120,12 +96,6 @@ api_specs:
   slug: braintrust-projectscores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-projectscores-api-openapi.yml
-- filename: braintrust-projecttags-api-openapi.yml
-  format: yaml
-  label: Braintrust ProjectTags API
-  slug: braintrust-projecttags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-projecttags-api-openapi.yml
 - filename: braintrust-prompts-api-openapi.yml
   format: yaml
   label: Braintrust Prompts API
@@ -144,12 +114,6 @@ api_specs:
   slug: braintrust-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-roles-api-openapi.yml
-- filename: braintrust-servicetokens-api-openapi.yml
-  format: yaml
-  label: Braintrust ServiceTokens API
-  slug: braintrust-servicetokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-servicetokens-api-openapi.yml
 - filename: braintrust-spaniframes-api-openapi.yml
   format: yaml
   label: Braintrust SpanIframes API
@@ -168,78 +132,42 @@ api_specs:
   slug: braintrust-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-views-api-openapi.yml
-- filename: braintrust-data-acl-api-openapi.yml
+- filename: braintrust-acls-api-openapi.yml
   format: yaml
-  label: Braintrust ACL API
-  slug: braintrust-data-acl-api
+  label: Braintrust Acls API
+  slug: braintrust-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-acl-api-openapi.yml
-- filename: braintrust-data-ai-proxy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-acls-api-openapi.yml
+- filename: braintrust-api-keys-api-openapi.yml
   format: yaml
-  label: Braintrust AI Proxy API
-  slug: braintrust-data-ai-proxy-api
+  label: Braintrust API Keys API
+  slug: braintrust-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-ai-proxy-api-openapi.yml
-- filename: braintrust-data-credentials-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-api-keys-api-openapi.yml
+- filename: braintrust-env-vars-api-openapi.yml
   format: yaml
-  label: Braintrust Credentials API
-  slug: braintrust-data-credentials-api
+  label: Braintrust Env Vars API
+  slug: braintrust-env-vars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-credentials-api-openapi.yml
-- filename: braintrust-data-datasets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-env-vars-api-openapi.yml
+- filename: braintrust-mcp-servers-api-openapi.yml
   format: yaml
-  label: Braintrust Datasets API
-  slug: braintrust-data-datasets-api
+  label: Braintrust MCP Servers API
+  slug: braintrust-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-datasets-api-openapi.yml
-- filename: braintrust-data-evals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-mcp-servers-api-openapi.yml
+- filename: braintrust-project-tags-api-openapi.yml
   format: yaml
-  label: Braintrust Evals API
-  slug: braintrust-data-evals-api
+  label: Braintrust Project Tags API
+  slug: braintrust-project-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-evals-api-openapi.yml
-- filename: braintrust-data-experiments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-project-tags-api-openapi.yml
+- filename: braintrust-service-tokens-api-openapi.yml
   format: yaml
-  label: Braintrust Experiments API
-  slug: braintrust-data-experiments-api
+  label: Braintrust Service Tokens API
+  slug: braintrust-service-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-experiments-api-openapi.yml
-- filename: braintrust-data-functions-api-openapi.yml
-  format: yaml
-  label: Braintrust Functions API
-  slug: braintrust-data-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-functions-api-openapi.yml
-- filename: braintrust-data-logs-api-openapi.yml
-  format: yaml
-  label: Braintrust Logs API
-  slug: braintrust-data-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-logs-api-openapi.yml
-- filename: braintrust-data-organization-api-openapi.yml
-  format: yaml
-  label: Braintrust Organization API
-  slug: braintrust-data-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-organization-api-openapi.yml
-- filename: braintrust-data-project-configuration-api-openapi.yml
-  format: yaml
-  label: Braintrust Project Configuration API
-  slug: braintrust-data-project-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-project-configuration-api-openapi.yml
-- filename: braintrust-data-projects-api-openapi.yml
-  format: yaml
-  label: Braintrust Projects API
-  slug: braintrust-data-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-projects-api-openapi.yml
-- filename: braintrust-data-prompts-api-openapi.yml
-  format: yaml
-  label: Braintrust Prompts API
-  slug: braintrust-data-prompts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-data-prompts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/openapi/braintrust-service-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []

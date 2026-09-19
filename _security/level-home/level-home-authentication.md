@@ -38,7 +38,7 @@ tags:
 - IoT
 - Access Control
 - Matter
-- Thread
+- Threads
 - Bluetooth LE
 - apple-home-key
 - Consumer Hardware

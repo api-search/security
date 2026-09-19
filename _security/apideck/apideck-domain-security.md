@@ -318,6 +318,12 @@ api_specs:
   slug: apideck-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-users-api-openapi.yml
+- filename: apideck-webhook-events-api-openapi.yml
+  format: yaml
+  label: Apideck Webhook Events API
+  slug: apideck-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-webhook-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

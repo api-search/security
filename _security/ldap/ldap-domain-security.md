@@ -37,6 +37,6 @@ tags:
 - Identity Management
 - LDAP
 - Protocol
-- Single Sign-On
-- Standard
+- SSO
+- Standards
 ---

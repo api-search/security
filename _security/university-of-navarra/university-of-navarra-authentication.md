@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-navarra-revistas-oai-pmh-openapi.yml
+- filename: university-of-navarra-harvesting-api-openapi.yml
   format: yaml
-  label: Revistas Cientificas OAI-PMH (Servicio de Publicaciones)
-  slug: revistas-oai-pmh
+  label: University of Navarra Harvesting API
+  slug: university-of-navarra-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-revistas-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-harvesting-api-openapi.yml
 auth_types: []
 description: How the University of Navarra's verified machine-readable surfaces authenticate callers. Probed 2026-09-01; nothing here is inferred from documentation.
 kind: authentication

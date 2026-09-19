@@ -37,4 +37,5 @@ tags:
 - DevOps
 - Application Deployment
 - Platform-as-a-Service
+- Defunct
 ---

@@ -18,12 +18,6 @@ api_specs:
   slug: dust-tt-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-conversations-api-openapi.yml
-- filename: dust-tt-datasources-api-openapi.yml
-  format: yaml
-  label: Dust Datasources API
-  slug: dust-tt-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-datasources-api-openapi.yml
 - filename: dust-tt-datasourceviews-api-openapi.yml
   format: yaml
   label: Dust DatasourceViews API
@@ -84,6 +78,12 @@ api_specs:
   slug: dust-tt-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-workspace-api-openapi.yml
+- filename: dust-tt-data-sources-api-openapi.yml
+  format: yaml
+  label: Dust Data Sources API
+  slug: dust-tt-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa:

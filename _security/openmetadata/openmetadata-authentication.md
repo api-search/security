@@ -188,12 +188,6 @@ api_specs:
   slug: openmetadata-ingestion-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-ingestion-pipelines-api-openapi.yml
-- filename: openmetadata-ingestionpipelines-api-openapi.yml
-  format: yaml
-  label: OpenMetadata ingestionPipelines API
-  slug: openmetadata-ingestionpipelines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-ingestionpipelines-api-openapi.yml
 - filename: openmetadata-learning-resources-api-openapi.yml
   format: yaml
   label: OpenMetadata Learning Resources API
@@ -298,7 +292,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-openlineage-api-openapi.yml
 - filename: openmetadata-openmetadata-apis-api-openapi.yml
   format: yaml
-  label: OpenMetadata OpenMetadata APIs API
+  label: OpenMetadata APIs
   slug: openmetadata-openmetadata-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-openmetadata-apis-api-openapi.yml
@@ -398,12 +392,6 @@ api_specs:
   slug: openmetadata-search-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-search-services-api-openapi.yml
-- filename: openmetadata-searchindex-api-openapi.yml
-  format: yaml
-  label: OpenMetadata SearchIndex API
-  slug: openmetadata-searchindex-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-searchindex-api-openapi.yml
 - filename: openmetadata-security-services-api-openapi.yml
   format: yaml
   label: OpenMetadata Security Services API
@@ -536,6 +524,12 @@ api_specs:
   slug: openmetadata-worksheets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-worksheets-api-openapi.yml
+- filename: openmetadata-search-index-api-openapi.yml
+  format: yaml
+  label: OpenMetadata Search Index API
+  slug: openmetadata-search-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/openapi/openmetadata-search-index-api-openapi.yml
 auth_types:
 - http
 description: ''

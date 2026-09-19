@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: radius-apiversions-api-openapi.yml
-  format: yaml
-  label: Radius ApiVersions API
-  slug: radius-apiversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-apiversions-api-openapi.yml
 - filename: radius-applications-api-openapi.yml
   format: yaml
   label: Radius Applications API
@@ -116,12 +110,6 @@ api_specs:
   slug: radius-rediscaches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-rediscaches-api-openapi.yml
-- filename: radius-resourcegroups-api-openapi.yml
-  format: yaml
-  label: Radius ResourceGroups API
-  slug: radius-resourcegroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-resourcegroups-api-openapi.yml
 - filename: radius-resourceproviders-api-openapi.yml
   format: yaml
   label: Radius ResourceProviders API
@@ -134,24 +122,12 @@ api_specs:
   slug: radius-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-resources-api-openapi.yml
-- filename: radius-resourcetypes-api-openapi.yml
-  format: yaml
-  label: Radius ResourceTypes API
-  slug: radius-resourcetypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-resourcetypes-api-openapi.yml
 - filename: radius-secretstores-api-openapi.yml
   format: yaml
   label: Radius SecretStores API
   slug: radius-secretstores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-secretstores-api-openapi.yml
-- filename: radius-sqldatabases-api-openapi.yml
-  format: yaml
-  label: Radius SqlDatabases API
-  slug: radius-sqldatabases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-sqldatabases-api-openapi.yml
 - filename: radius-statestores-api-openapi.yml
   format: yaml
   label: Radius StateStores API
@@ -164,6 +140,30 @@ api_specs:
   slug: radius-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-volumes-api-openapi.yml
+- filename: radius-api-versions-api-openapi.yml
+  format: yaml
+  label: Radius API Versions API
+  slug: radius-api-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-api-versions-api-openapi.yml
+- filename: radius-resource-groups-api-openapi.yml
+  format: yaml
+  label: Radius Resource Groups API
+  slug: radius-resource-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-resource-groups-api-openapi.yml
+- filename: radius-resource-types-api-openapi.yml
+  format: yaml
+  label: Radius Resource Types API
+  slug: radius-resource-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-resource-types-api-openapi.yml
+- filename: radius-sql-databases-api-openapi.yml
+  format: yaml
+  label: Radius Sql Databases API
+  slug: radius-sql-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-sql-databases-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

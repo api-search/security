@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HCM
 - Payroll
-- HR
+- Human Resources
 - Workforce Management
 - Benefits
 - Time and Attendance

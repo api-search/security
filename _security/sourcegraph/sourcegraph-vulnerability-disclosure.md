@@ -24,7 +24,7 @@ tags:
 - Code Search
 - Cody
 - AMP
-- AI Coding Agent
+- AI Coding Agents
 - GraphQL
 - REST API
 - MCP

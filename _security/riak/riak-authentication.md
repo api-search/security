@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-ping-api-openapi.yml
 - filename: riak-riak-kv-http-api-api-openapi.yml
   format: yaml
-  label: Riak KV Riak KV HTTP API API
+  label: Riak KV Riak KV HTTP API
   slug: riak-riak-kv-http-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-riak-kv-http-api-api-openapi.yml

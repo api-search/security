@@ -44,6 +44,6 @@ tags:
 - Intranet
 - Employee App
 - Email
-- HR Tech
+- Human Resources
 - Enterprise
 ---

@@ -26,12 +26,6 @@ api_specs:
   slug: lily-ai-enrichment-platform-proxy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-enrichment-platform-proxy-api-openapi.yml
-- filename: lily-ai-faqs-api-openapi.yml
-  format: yaml
-  label: Lily AI Faqs API
-  slug: lily-ai-faqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-faqs-api-openapi.yml
 - filename: lily-ai-health-api-openapi.yml
   format: yaml
   label: Lily AI Health API
@@ -122,6 +116,12 @@ api_specs:
   slug: lily-ai-tce-api-proxy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-tce-api-proxy-api-openapi.yml
+- filename: lily-ai-faqs-api-openapi.yml
+  format: yaml
+  label: Lily AI Faqs API
+  slug: lily-ai-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/openapi/lily-ai-faqs-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

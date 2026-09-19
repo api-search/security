@@ -120,12 +120,6 @@ api_specs:
   slug: fat-zebra-payment-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-payment-plans-api-openapi.yml
-- filename: fat-zebra-paypal-api-openapi.yml
-  format: yaml
-  label: Fat Zebra Paypal API
-  slug: fat-zebra-paypal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-paypal-api-openapi.yml
 - filename: fat-zebra-purchases-api-openapi.yml
   format: yaml
   label: Fat Zebra Purchases API
@@ -180,12 +174,18 @@ api_specs:
   slug: fat-zebra-utlities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-utlities-api-openapi.yml
-- filename: fat-zebra-web-hooks-api-openapi.yml
+- filename: fat-zebra-pay-pal-api-openapi.yml
   format: yaml
-  label: Fat Zebra Web Hooks API
-  slug: fat-zebra-web-hooks-api
+  label: Fat Zebra Pay Pal API
+  slug: fat-zebra-pay-pal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-web-hooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-pay-pal-api-openapi.yml
+- filename: fat-zebra-webhooks-api-openapi.yml
+  format: yaml
+  label: Fat Zebra Webhooks API
+  slug: fat-zebra-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/openapi/fat-zebra-webhooks-api-openapi.yml
 certification_count: 1
 certifications:
 - PCI DSS

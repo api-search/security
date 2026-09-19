@@ -27,12 +27,6 @@ api_specs:
   slug: amazon-ground-station-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-contacts-api-openapi.yml
-- filename: amazon-ground-station-dataflowendpointgroup-api-openapi.yml
-  format: yaml
-  label: Amazon Ground Station DataflowEndpointGroup API
-  slug: amazon-ground-station-dataflowendpointgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-dataflowendpointgroup-api-openapi.yml
 - filename: amazon-ground-station-ephemerides-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ephemerides API
@@ -75,6 +69,12 @@ api_specs:
   slug: amazon-ground-station-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-tags-api-openapi.yml
+- filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Dataflow Endpoint Group API
+  slug: amazon-ground-station-dataflow-endpoint-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

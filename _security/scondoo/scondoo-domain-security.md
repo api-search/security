@@ -35,7 +35,7 @@ tags:
 - Coupons
 - Retail
 - Consumer
-- Mobile Apps
+- Mobile App
 - Germany
 - Shopping
 ---

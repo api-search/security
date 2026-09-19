@@ -45,10 +45,9 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - NDC
 - Distribution
 - Booking
-- Airlines
 - Loyalty
 ---

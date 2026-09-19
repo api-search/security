@@ -14,13 +14,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-company-facts-api-openapi.yml
 - filename: sec-edgar-operational-status-api-api-openapi.yml
   format: yaml
-  label: SEC EDGAR EDGAR Operational Status API API
+  label: SEC EDGAR Operational Status API
   slug: sec-edgar-operational-status-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-operational-status-api-api-openapi.yml
 - filename: sec-filer-management-api-api-openapi.yml
   format: yaml
-  label: SEC EDGAR Filer Management API API
+  label: SEC EDGAR Filer Management API
   slug: sec-filer-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-filer-management-api-api-openapi.yml
@@ -38,13 +38,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-search-api-openapi.yml
 - filename: sec-submission-api-api-openapi.yml
   format: yaml
-  label: SEC EDGAR Submission API API
+  label: SEC EDGAR Submission API
   slug: sec-submission-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submission-api-api-openapi.yml
 - filename: sec-submission-status-api-api-openapi.yml
   format: yaml
-  label: SEC EDGAR Submission Status API API
+  label: SEC EDGAR Submission Status API
   slug: sec-submission-status-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submission-status-api-api-openapi.yml
@@ -54,30 +54,18 @@ api_specs:
   slug: sec-submissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submissions-api-openapi.yml
-- filename: sec-edgar-company-facts-api-openapi.yml
+- filename: sec-full-text-search-api-openapi.yml
   format: yaml
-  label: sec-edgar Company Facts API
-  slug: sec-edgar-company-facts-api
+  label: SEC EDGAR Full-Text Search API
+  slug: sec-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-company-facts-api-openapi.yml
-- filename: sec-edgar-full-text-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-full-text-search-api-openapi.yml
+- filename: sec-xbrl-api-openapi.yml
   format: yaml
-  label: sec-edgar Full-Text Search API
-  slug: sec-edgar-full-text-search-api
+  label: SEC EDGAR XBRL API
+  slug: sec-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-full-text-search-api-openapi.yml
-- filename: sec-edgar-submissions-api-openapi.yml
-  format: yaml
-  label: sec-edgar Submissions API
-  slug: sec-edgar-submissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-submissions-api-openapi.yml
-- filename: sec-edgar-xbrl-api-openapi.yml
-  format: yaml
-  label: sec-edgar XBRL API
-  slug: sec-edgar-xbrl-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-xbrl-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-xbrl-api-openapi.yml
 description: ''
 domains:
 - caa:

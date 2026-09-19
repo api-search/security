@@ -31,6 +31,7 @@ tags:
 - Agile
 - Best Practices
 - Continuous Integration
+- Developer Tools
 - Extreme Programming
 - Methodology
 - Software Development

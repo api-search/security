@@ -34,11 +34,10 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
+- Telehealth
 - Digital Health
 - Diabetes
 - Obesity
 - GLP-1
-- Telehealth
 - Mexico
 ---

@@ -30,12 +30,12 @@ api_specs:
   slug: cloudfront-originaccesscontrol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/openapi/cloudfront-originaccesscontrol-api-openapi.yml
-- filename: cloudfront-publickeys-api-openapi.yml
+- filename: cloudfront-public-keys-api-openapi.yml
   format: yaml
-  label: CloudFront PublicKeys API
-  slug: cloudfront-publickeys-api
+  label: CloudFront Public Keys API
+  slug: cloudfront-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/openapi/cloudfront-publickeys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/openapi/cloudfront-public-keys-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -65,6 +65,6 @@ tags:
 - Content Delivery
 - Edge Computing
 - Lambda@Edge
-- Network
+- Networks
 trust_url: https://aws.amazon.com/compliance/
 ---

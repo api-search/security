@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/grist-re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/authentication/grist-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Spreadsheet
+- Spreadsheets
 - Database
 - Collaboration
 - No-Code

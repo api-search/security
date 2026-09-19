@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lattice-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/authentication/lattice-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- HR
+- Human Resources
 - People Management
 - Performance Management
 - OKRs

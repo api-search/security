@@ -37,7 +37,7 @@ tags:
 - AI Agents
 - Automation
 - Digital Employees
-- Large Language Models
+- LLM
 - Enterprise Software
 - Financial-Services
 ---

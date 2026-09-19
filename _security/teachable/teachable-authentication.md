@@ -9,12 +9,6 @@ api_specs:
   slug: teachable-courses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-courses-api-openapi.yml
-- filename: teachable-currentuser-api-openapi.yml
-  format: yaml
-  label: Teachable CurrentUser API
-  slug: teachable-currentuser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-currentuser-api-openapi.yml
 - filename: teachable-enrollments-api-openapi.yml
   format: yaml
   label: Teachable Enrollments API
@@ -27,12 +21,6 @@ api_specs:
   slug: teachable-lectures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-lectures-api-openapi.yml
-- filename: teachable-pricingplans-api-openapi.yml
-  format: yaml
-  label: Teachable PricingPlans API
-  slug: teachable-pricingplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-pricingplans-api-openapi.yml
 - filename: teachable-quizzes-api-openapi.yml
   format: yaml
   label: Teachable Quizzes API
@@ -63,6 +51,18 @@ api_specs:
   slug: teachable-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-webhooks-api-openapi.yml
+- filename: teachable-current-user-api-openapi.yml
+  format: yaml
+  label: Teachable Current User API
+  slug: teachable-current-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-current-user-api-openapi.yml
+- filename: teachable-pricing-plans-api-openapi.yml
+  format: yaml
+  label: Teachable Pricing Plans API
+  slug: teachable-pricing-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-pricing-plans-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -115,8 +115,8 @@ tags:
 - E-Learning
 - Education
 - Course Management
-- Enrollments
+- Enrollment
 - Coaching
-- Memberships
+- Membership
 - Transaction
 ---

@@ -52,7 +52,7 @@ tags:
 - Voice
 - Identity Verification
 - Mobility Data
-- Digital Signatures
+- Digital Signature
 - eSIM
 - Artificial Intelligence
 trust_url: https://trustservices.swisscom.com/en/esignature-hub/downloads-and-documents

@@ -118,7 +118,7 @@ summary_line: 3 schemes
 tags:
 - Advertising
 - Programmatic Advertising
-- Demand-Side Platform
+- DSP
 - Fantasy Sports
 - Sports Data
 - Identity

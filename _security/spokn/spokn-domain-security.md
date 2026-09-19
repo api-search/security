@@ -34,7 +34,7 @@ tags:
 - Company
 - Video
 - Internal Communications
-- HR
+- Human Resources
 - Employee Engagement
 - Learning and Development
 - Artificial Intelligence

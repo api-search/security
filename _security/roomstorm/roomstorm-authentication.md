@@ -47,6 +47,6 @@ tags:
 - Hotels
 - Airlines
 - Marketplace
-- Bookings
+- Booking
 - Y Combinator
 ---

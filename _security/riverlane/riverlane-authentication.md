@@ -46,7 +46,7 @@ summary_line: http · 1 scheme
 tags:
 - Quantum Computing
 - Quantum Error Correction
-- Decoders
+- Decoder
 - Scientific Computing
 - Python SDK
 - GraphQL

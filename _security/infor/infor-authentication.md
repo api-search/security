@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-documents-api-openapi.yml
 - filename: infor-m3-api-api-openapi.yml
   format: yaml
-  label: Infor M3 API API
+  label: Infor M3 API
   slug: infor-m3-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml
@@ -38,7 +38,8 @@ schemes:
     tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2
   name: OAuth2ClientCredentials
   sources:
-  - openapi/infor-ion-api-gateway-openapi.yml
+  - openapi/infor-ion-documents-api-openapi.yml
+  - openapi/infor-m3-api-api-openapi.yml
   type: oauth2
 - description: Infor ION API Authorization Code grant
   flows:
@@ -48,13 +49,14 @@ schemes:
     tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2
   name: OAuth2AuthorizationCode
   sources:
-  - openapi/infor-ion-api-gateway-openapi.yml
+  - openapi/infor-ion-documents-api-openapi.yml
+  - openapi/infor-m3-api-api-openapi.yml
   type: oauth2
 slug: infor-authentication
 source_filename: infor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/infor-ion-api-gateway-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n    scopes: 0\n  description: Infor ION API Client Credentials grant\n  sources:\n  - openapi/infor-ion-api-gateway-openapi.yml\n- name: OAuth2AuthorizationCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n    scopes: 0\n  description: Infor ION API Authorization Code grant\n  sources:\n  - openapi/infor-ion-api-gateway-openapi.yml\n"
+source_yaml: "generated: '2026-09-13'\nmethod: derived\nsource: openapi/infor-ion-documents-api-openapi.yml, openapi/infor-m3-api-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n    scopes: 0\n  description: Infor ION API Client Credentials grant\n  sources:\n  - openapi/infor-ion-documents-api-openapi.yml\n  - openapi/infor-m3-api-api-openapi.yml\n- name: OAuth2AuthorizationCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n    scopes: 0\n  description: Infor ION API Authorization Code grant\n  sources:\n  - openapi/infor-ion-documents-api-openapi.yml\n  - openapi/infor-m3-api-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/authentication/infor-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:

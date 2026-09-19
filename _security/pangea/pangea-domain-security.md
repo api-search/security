@@ -93,6 +93,6 @@ tags:
 - Security
 - AI Security
 - Authentication
-- Audit Log
+- Audit Logs
 - Data Protection
 ---

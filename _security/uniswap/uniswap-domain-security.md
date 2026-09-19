@@ -126,5 +126,5 @@ tags:
 - DeFi
 - Decentralized Exchange
 - Liquidity
-- Swaps
+- Swap
 ---

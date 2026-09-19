@@ -33,7 +33,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - Flights
 - Distribution
 - GDS

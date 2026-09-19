@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: api-blueprint-parsing-service-openapi.yml
+- filename: api-blueprint-composer-api-openapi.yml
   format: yaml
-  label: API Blueprint API
-  slug: api-blueprint-api
+  label: API Blueprint Composer API
+  slug: api-blueprint-composer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-parsing-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-composer-api-openapi.yml
+- filename: api-blueprint-parser-api-openapi.yml
+  format: yaml
+  label: API Blueprint Parser API
+  slug: api-blueprint-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-parser-api-openapi.yml
+- filename: api-blueprint-service-root-api-openapi.yml
+  format: yaml
+  label: API Blueprint Service Root API
+  slug: api-blueprint-service-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-service-root-api-openapi.yml
+- filename: api-blueprint-transform-api-openapi.yml
+  format: yaml
+  label: API Blueprint Transform API
+  slug: api-blueprint-transform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-transform-api-openapi.yml
+- filename: api-blueprint-validate-api-openapi.yml
+  format: yaml
+  label: API Blueprint Validate API
+  slug: api-blueprint-validate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/openapi/api-blueprint-validate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,6 +83,6 @@ tags:
 - Documentation
 - API Description Language
 - Parsing
-- Open Source
+- Open-Source
 - Developer Tools
 ---

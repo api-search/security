@@ -55,5 +55,5 @@ tags:
 - Image CDN
 - Resizing
 - Transformation
-- DAM
+- Digital Asset Management
 ---

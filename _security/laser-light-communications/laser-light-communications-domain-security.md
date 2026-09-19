@@ -36,7 +36,7 @@ tags:
 - Optical Networking
 - Satellite
 - Subsea Cable
-- Data Centers
+- Data-Center
 - Connectivity
 - Infrastructure
 - Space

@@ -35,4 +35,5 @@ tags:
 - Open-Source
 - Python
 - Investing
+- Defunct
 ---

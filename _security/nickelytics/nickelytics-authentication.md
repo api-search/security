@@ -42,7 +42,7 @@ tags:
 - Company
 - Advertising
 - OOH
-- DOOH
+- Digital Out Of Home
 - Programmatic Advertising
 - Mobility
 - Robotics

@@ -34,7 +34,7 @@ tags:
 - Company
 - Space
 - Aerospace
-- Satellites
+- Satellite
 - Spacecraft
 - Launch Services
 - Small Satellites

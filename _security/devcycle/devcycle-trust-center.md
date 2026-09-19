@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-beta-semantic-patch-api-openapi.yml
 - filename: devcycle-bucketing-api-api-openapi.yml
   format: yaml
-  label: DevCycle Bucketing API API
+  label: DevCycle Bucketing API
   slug: devcycle-bucketing-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-bucketing-api-api-openapi.yml

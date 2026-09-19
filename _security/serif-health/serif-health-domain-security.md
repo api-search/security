@@ -55,6 +55,6 @@ tags:
 - Healthcare
 - Price Transparency
 - Negotiated Rates
-- Payer
+- Payers
 - Data
 ---

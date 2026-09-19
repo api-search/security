@@ -88,7 +88,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Orchestration
 - Workflows
 - MLOps

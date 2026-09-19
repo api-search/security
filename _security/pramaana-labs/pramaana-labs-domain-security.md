@@ -37,7 +37,7 @@ tags:
 - Formal Methods
 - Machine-Learning
 - Research
-- Compiler
+- Compilers
 - LLM
 - Reasoning
 ---

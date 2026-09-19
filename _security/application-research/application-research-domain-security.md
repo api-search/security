@@ -156,12 +156,6 @@ api_specs:
   slug: application-research-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/application-research-products-api-openapi.yml
-- filename: application-research-resourcegroups-api-openapi.yml
-  format: yaml
-  label: Application Research ResourceGroups API
-  slug: application-research-resourcegroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/application-research-resourcegroups-api-openapi.yml
 - filename: application-research-resources-api-openapi.yml
   format: yaml
   label: Application Research Resources API
@@ -216,6 +210,12 @@ api_specs:
   slug: application-research-workloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/application-research-workloads-api-openapi.yml
+- filename: application-research-resource-groups-api-openapi.yml
+  format: yaml
+  label: Application Research Resource Groups API
+  slug: application-research-resource-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/application-research-resource-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -263,6 +263,6 @@ tags:
 - Cloud-Native
 - Integration
 - Research
-- Specifications
+- Specification
 - Workload Specifications
 ---

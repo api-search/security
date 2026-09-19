@@ -49,4 +49,5 @@ tags:
 - Identity
 - Authentication
 - Software-as-a-Service
+- Identity Federation
 ---

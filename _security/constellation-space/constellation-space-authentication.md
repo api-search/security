@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-
 summary_line: http · 1 scheme
 tags:
 - Company
-- Satellites
+- Satellite
 - Space
 - Telemetry
 - Machine-Learning

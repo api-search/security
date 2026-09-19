@@ -6,12 +6,6 @@ api_specs:
   slug: aeso-aiesgencapacity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-aiesgencapacity-api-openapi.yml
-- filename: aeso-assetlist-api-openapi.yml
-  format: yaml
-  label: AESO Assetlist API
-  slug: aeso-assetlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-assetlist-api-openapi.yml
 - filename: aeso-csd-api-openapi.yml
   format: yaml
   label: AESO Csd API
@@ -78,6 +72,12 @@ api_specs:
   slug: aeso-unitcommitment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-unitcommitment-api-openapi.yml
+- filename: aeso-asset-list-api-openapi.yml
+  format: yaml
+  label: AESO Asset List API
+  slug: aeso-asset-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-asset-list-api-openapi.yml
 description: ''
 domains:
 - caa:

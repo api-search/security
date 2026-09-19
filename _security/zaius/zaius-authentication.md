@@ -69,12 +69,6 @@ api_specs:
   slug: zaius-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-objects-api-openapi.yml
-- filename: zaius-orders-api-openapi.yml
-  format: yaml
-  label: Zaius Orders API
-  slug: zaius-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/openapi/zaius-orders-api-openapi.yml
 - filename: zaius-products-api-openapi.yml
   format: yaml
   label: Zaius Products API

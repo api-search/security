@@ -4,120 +4,36 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: cambio-healthcare-systems-attention-signal-openapi.json
-  format: json
-  label: Attention signal
-  slug: cambio-healthcare-systems-attention-signal
+- filename: cambio-healthcare-systems-booked-appointments-api-openapi.yml
+  format: yaml
+  label: Cambio Healthcare Systems Booked Appointments API
+  slug: cambio-healthcare-systems-booked-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-attention-signal-openapi.json
-- filename: cambio-healthcare-systems-authorizer-openid-connect-openapi.json
-  format: json
-  label: Authorizer - OpenId Connect
-  slug: cambio-healthcare-systems-authorizer-openid-connect
+  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
+- filename: cambio-healthcare-systems-default-api-openapi.yml
+  format: yaml
+  label: Cambio Healthcare Systems * API
+  slug: cambio-healthcare-systems-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-authorizer-openid-connect-openapi.json
-- filename: cambio-healthcare-systems-booked-appointments-openapi.json
-  format: json
-  label: Booked appointments
-  slug: cambio-healthcare-systems-booked-appointments
+  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-default-api-openapi.yml
+- filename: cambio-healthcare-systems-payment-notice-api-openapi.yml
+  format: yaml
+  label: Cambio Healthcare Systems Payment Notice API
+  slug: cambio-healthcare-systems-payment-notice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-booked-appointments-openapi.json
-- filename: cambio-healthcare-systems-care-contacts-openapi.json
-  format: json
-  label: Care contacts
-  slug: cambio-healthcare-systems-care-contacts
+  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
+- filename: cambio-healthcare-systems-protocol-api-openapi.yml
+  format: yaml
+  label: Cambio Healthcare Systems Protocol API
+  slug: cambio-healthcare-systems-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-care-contacts-openapi.json
-- filename: cambio-healthcare-systems-care-contacts-v2-openapi.json
-  format: json
-  label: Care contacts (v2)
-  slug: cambio-healthcare-systems-care-contacts-v2
+  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
+- filename: cambio-healthcare-systems-well-known-api-openapi.yml
+  format: yaml
+  label: Cambio Healthcare Systems .well Known API
+  slug: cambio-healthcare-systems-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-care-contacts-v2-openapi.json
-- filename: cambio-healthcare-systems-chemistry-lab-results-openapi.json
-  format: json
-  label: Chemistry lab results (deprecated)
-  slug: cambio-healthcare-systems-chemistry-lab-results
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-chemistry-lab-results-openapi.json
-- filename: cambio-healthcare-systems-chemistry-lab-results-v2-openapi.json
-  format: json
-  label: Chemistry lab results (v2)
-  slug: cambio-healthcare-systems-chemistry-lab-results-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-chemistry-lab-results-v2-openapi.json
-- filename: cambio-healthcare-systems-diagnosis-openapi.json
-  format: json
-  label: Diagnosis (deprecated)
-  slug: cambio-healthcare-systems-diagnosis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-diagnosis-openapi.json
-- filename: cambio-healthcare-systems-diagnosis-v2-openapi.json
-  format: json
-  label: Diagnosis (v2)
-  slug: cambio-healthcare-systems-diagnosis-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-diagnosis-v2-openapi.json
-- filename: cambio-healthcare-systems-fhir-r4-public-profiles-openapi.json
-  format: json
-  label: FHIR R4 Public Profiles
-  slug: cambio-healthcare-systems-fhir-r4-public-profiles
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-fhir-r4-public-profiles-openapi.json
-- filename: cambio-healthcare-systems-journal-notes-openapi.json
-  format: json
-  label: Journal notes (deprecated)
-  slug: cambio-healthcare-systems-journal-notes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-journal-notes-openapi.json
-- filename: cambio-healthcare-systems-journal-notes-v2-openapi.json
-  format: json
-  label: Journal notes (v2)
-  slug: cambio-healthcare-systems-journal-notes-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-journal-notes-v2-openapi.json
-- filename: cambio-healthcare-systems-medication-prescriptions-openapi.json
-  format: json
-  label: Medication prescriptions (deprecated)
-  slug: cambio-healthcare-systems-medication-prescriptions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-medication-prescriptions-openapi.json
-- filename: cambio-healthcare-systems-medication-prescriptions-v2-openapi.json
-  format: json
-  label: Medication prescriptions (v2)
-  slug: cambio-healthcare-systems-medication-prescriptions-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-medication-prescriptions-v2-openapi.json
-- filename: cambio-healthcare-systems-patient-information-openapi.json
-  format: json
-  label: Patient information (deprecated)
-  slug: cambio-healthcare-systems-patient-information
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-patient-information-openapi.json
-- filename: cambio-healthcare-systems-patient-information-v2-openapi.json
-  format: json
-  label: Patient information (v2)
-  slug: cambio-healthcare-systems-patient-information-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-patient-information-v2-openapi.json
-- filename: cambio-healthcare-systems-payment-notice-openapi.json
-  format: json
-  label: Payment notice
-  slug: cambio-healthcare-systems-payment-notice
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-payment-notice-openapi.json
-- filename: cambio-healthcare-systems-referral-requests-openapi.json
-  format: json
-  label: Referral requests
-  slug: cambio-healthcare-systems-referral-requests
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-referral-requests-openapi.json
-- filename: cambio-healthcare-systems-video-meetings-openapi.json
-  format: json
-  label: Video meetings
-  slug: cambio-healthcare-systems-video-meetings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-video-meetings-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -184,7 +100,7 @@ tags:
 - Interoperability
 - Health IT
 - Sweden
-- Nordics
+- Nordic
 - Patient Data
 - Medical Records
 - openEHR

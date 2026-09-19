@@ -42,12 +42,6 @@ api_specs:
   slug: marketstack-end-of-day-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/openapi/marketstack-end-of-day-api-openapi.yml
-- filename: marketstack-etfs-api-openapi.yml
-  format: yaml
-  label: Marketstack ET Fs API
-  slug: marketstack-etfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/openapi/marketstack-etfs-api-openapi.yml
 - filename: marketstack-exchanges-api-openapi.yml
   format: yaml
   label: Marketstack Exchanges API
@@ -90,6 +84,12 @@ api_specs:
   slug: marketstack-timezones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/openapi/marketstack-timezones-api-openapi.yml
+- filename: marketstack-etfs-api-openapi.yml
+  format: yaml
+  label: Marketstack ET Fs API
+  slug: marketstack-etfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/openapi/marketstack-etfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

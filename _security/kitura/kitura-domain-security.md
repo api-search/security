@@ -37,7 +37,7 @@ summary_line: TLSv1.3
 tags:
 - Archived
 - Deployment
-- Frameworks
+- Framework
 - Server-Side Swift
 - Web
 ---

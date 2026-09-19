@@ -24,7 +24,7 @@ tags:
 - Startups
 - Options
 - RSUs
-- SAFEs
+- SAFe
 - 409A Valuations
 - Token Cap Table
 - Fintech

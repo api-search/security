@@ -37,11 +37,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP
-- Enterprise Resource Planning
 - Manufacturing
 - Distribution
 - Supply Chain
-- Financials
+- Financial
 - Accounting
 - Inventory
 - Mid-Market

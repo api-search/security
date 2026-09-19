@@ -50,7 +50,7 @@ tags:
 - Programmatic
 - Ad Exchange
 - DSP
-- SSP
+- Supply Side Platform
 - Mobile SDK
 - Marketing
 ---

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: AI Crawler Index
-  slug: ai-crawler-index
+- filename: pathwren-bulk-api-openapi.yml
+  format: yaml
+  label: AI Crawler Index Bulk API
+  slug: pathwren-bulk-api
   spec_type: OpenAPI
-  url: https://www.pathwren.workers.dev/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-bulk-api-openapi.yml
+- filename: pathwren-crawlers-api-openapi.yml
+  format: yaml
+  label: AI Crawler Index Crawlers API
+  slug: pathwren-crawlers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-crawlers-api-openapi.yml
+- filename: pathwren-ip-ranges-api-openapi.yml
+  format: yaml
+  label: AI Crawler Index Ip Ranges API
+  slug: pathwren-ip-ranges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-ip-ranges-api-openapi.yml
+- filename: pathwren-robots-api-openapi.yml
+  format: yaml
+  label: AI Crawler Index Robots API
+  slug: pathwren-robots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-robots-api-openapi.yml
+- filename: pathwren-status-api-openapi.yml
+  format: yaml
+  label: AI Crawler Index Status API
+  slug: pathwren-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/openapi/pathwren-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,12 +64,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI crawlers
 - web crawlers
-- robots.txt
-- user agents
-- bot detection
+- Robots.txt
+- User Agents
+- Bot Detection
 - GPTBot
 - ClaudeBot
 - crawler IP ranges
-- llms.txt
-- open data
+- llms-txt
+- Open Data
 ---

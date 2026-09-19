@@ -27,18 +27,18 @@ api_specs:
   slug: tata-communications-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-report-api-openapi.yml
-- filename: tata-communications-senderid-api-openapi.yml
-  format: yaml
-  label: Tata Communications Sender ID API
-  slug: tata-communications-senderid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-senderid-api-openapi.yml
 - filename: tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
   format: yaml
   label: Tata Communications TOP 25 CDR by account Id & Time Frame API
   slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-top-25-cdr-by-account-id-time-frame-api-openapi.yml
+- filename: tata-communications-sender-id-api-openapi.yml
+  format: yaml
+  label: Tata Communications Sender ID API
+  slug: tata-communications-sender-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/openapi/tata-communications-sender-id-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

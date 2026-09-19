@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: chargetrip-graphql-api-openapi.yml
+- filename: chargetrip-graph-ql-api-openapi.yml
   format: yaml
-  label: Chargetrip GraphQL API
-  slug: chargetrip-graphql-api
+  label: Chargetrip Graph QL API
+  slug: chargetrip-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

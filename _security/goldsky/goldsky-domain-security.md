@@ -44,8 +44,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain Data
 - Indexer
-- Subgraphs
-- CDC
+- Subgraph
+- Change Data Capture
 - Streaming
 - RPC
 - Crypto

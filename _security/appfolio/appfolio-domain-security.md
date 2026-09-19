@@ -38,7 +38,7 @@ tags:
 - Community Associations
 - HOA
 - Multifamily
-- Single-Family Rentals
+- Single-Family Rental
 - Student Housing
 - Affordable Housing
 - Investment Management

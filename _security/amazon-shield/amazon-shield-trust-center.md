@@ -2,7 +2,7 @@
 api_specs:
 - filename: amazon-shield-amazon-shield-rest-api-api-openapi.yml
   format: yaml
-  label: Amazon Shield Amazon Shield REST API API
+  label: Amazon Shield Amazon Shield REST API
   slug: amazon-shield-amazon-shield-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-amazon-shield-rest-api-api-openapi.yml

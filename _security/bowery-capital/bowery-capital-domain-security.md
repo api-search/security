@@ -38,6 +38,6 @@ tags:
 - Pre-Seed
 - B2B
 - Software-as-a-Service
-- Marketplaces
+- Marketplace
 - Vertical AI
 ---

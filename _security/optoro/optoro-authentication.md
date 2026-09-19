@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: optoro-asns-api-openapi.yml
-  format: yaml
-  label: Optoro Asns API
-  slug: optoro-asns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-asns-api-openapi.yml
 - filename: optoro-catalog-entry-updates-api-openapi.yml
   format: yaml
   label: Optoro Catalog Entry Updates API
@@ -80,12 +74,6 @@ api_specs:
   slug: optoro-listings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-listings-api-openapi.yml
-- filename: optoro-oauth-api-openapi.yml
-  format: yaml
-  label: Optoro OAUTH API
-  slug: optoro-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-oauth-api-openapi.yml
 - filename: optoro-orders-api-openapi.yml
   format: yaml
   label: Optoro Orders API
@@ -128,6 +116,18 @@ api_specs:
   slug: optoro-vendor-updates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-vendor-updates-api-openapi.yml
+- filename: optoro-asns-api-openapi.yml
+  format: yaml
+  label: Optoro Asns API
+  slug: optoro-asns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-asns-api-openapi.yml
+- filename: optoro-oauth-api-openapi.yml
+  format: yaml
+  label: Optoro OAUTH API
+  slug: optoro-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -72,18 +72,13 @@ source_yaml: "specification: API Commons Authentication\nspecificationVersion: '
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/authentication/clearstream-authentication.yml
 summary_line: 2 schemes
 tags:
-- API Platform
 - Capital Markets
 - Collateral Management
 - Custody
 - Financial-Services
 - ISO 15022
 - ISO 20022
-- Mutual TLS
-- OAuth 2.0
-- Post-Trade
 - Post-Trade Infrastructure
-- SCIM
 - Securities
 - Settlement
 - Swift

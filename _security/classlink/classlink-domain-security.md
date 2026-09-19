@@ -53,7 +53,6 @@ tags:
 - EdTech
 - Education
 - Identity
-- Single Sign-On
 - SSO
 - OneRoster
 - Rostering

@@ -84,18 +84,18 @@ api_specs:
   slug: amazon-iot-sitewise-tags-resourcearn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-resourcearn-api-openapi.yml
-- filename: amazon-iot-sitewise-tags-resourcearn-tagkeys-api-openapi.yml
+- filename: amazon-iot-sitewise-tags-resource-arn-tag-keys-api-openapi.yml
   format: yaml
-  label: Amazon IoT SiteWise Tags#resourceArn&tagKeys API
-  slug: amazon-iot-sitewise-tags-resourcearn-tagkeys-api
+  label: Amazon IoT SiteWise Tags#resource Arn&tag Keys API
+  slug: amazon-iot-sitewise-tags-resource-arn-tag-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-resourcearn-tagkeys-api-openapi.yml
-- filename: amazon-iot-sitewise-timeseries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-resource-arn-tag-keys-api-openapi.yml
+- filename: amazon-iot-sitewise-time-series-api-openapi.yml
   format: yaml
-  label: Amazon IoT SiteWise Timeseries API
-  slug: amazon-iot-sitewise-timeseries-api
+  label: Amazon IoT SiteWise Time Series API
+  slug: amazon-iot-sitewise-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-timeseries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

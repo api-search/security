@@ -88,9 +88,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recode-therape
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Genetic Medicines
+- Genetic Medicine
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - mRNA
 - gene-correction
 - Lipid Nanoparticles

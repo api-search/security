@@ -44,6 +44,6 @@ tags:
 - MBSE
 - AI Agents
 - CAD
-- Product Lifecycle Management
+- PLM
 - GraphQL
 ---

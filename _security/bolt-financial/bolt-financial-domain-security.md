@@ -18,12 +18,6 @@ api_specs:
   slug: bolt-financial-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-configuration-api-openapi.yml
-- filename: bolt-financial-oauth-api-openapi.yml
-  format: yaml
-  label: Bolt Financial O Auth API
-  slug: bolt-financial-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-oauth-api-openapi.yml
 - filename: bolt-financial-orders-api-openapi.yml
   format: yaml
   label: Bolt Financial Orders API
@@ -72,6 +66,12 @@ api_specs:
   slug: bolt-financial-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-webhooks-api-openapi.yml
+- filename: bolt-financial-oauth-api-openapi.yml
+  format: yaml
+  label: Bolt Financial O Auth API
+  slug: bolt-financial-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

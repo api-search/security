@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-clarity-dataexport-api-openapi.yml
+- filename: microsoft-clarity-data-export-api-openapi.yml
   format: yaml
-  label: Microsoft Clarity DataExport API
-  slug: microsoft-clarity-dataexport-api
+  label: Microsoft Clarity Data Export API
+  slug: microsoft-clarity-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/openapi/microsoft-clarity-dataexport-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/openapi/microsoft-clarity-data-export-api-openapi.yml
 auth_types:
 - http
 description: ''

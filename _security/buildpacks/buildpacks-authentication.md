@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: buildpacks-kpack-swagger.json
-  format: json
-  label: kpack
-  slug: kpack
+- filename: buildpacks-kpack-api-openapi.yml
+  format: yaml
+  label: Cloud Native Buildpacks Kpack API
+  slug: buildpacks-kpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-api-openapi.yml
 auth_types: []
 description: Cloud Native Buildpacks exposes three distinct authentication postures, none of them an API-key or OAuth program run by the project itself. Read access to the Buildpack Registry is fully anonymous; write access to the registry is delegated to GitHub identity; and the kpack CRD API inherits whatever the Kubernetes API server enforces. The kpack Swagger document declares no `securityDefinitions`, which is normal for a Kubernetes aggregated/CRD spec and is NOT an absence of auth — the cluster enforces it.
 kind: authentication

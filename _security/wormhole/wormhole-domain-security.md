@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-guardian-api-openapi.yml
 - filename: wormhole-wormhole-api-openapi.yml
   format: yaml
-  label: Wormhole wormhole API
+  label: Wormhole API
   slug: wormhole-wormhole-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormhole-api-openapi.yml

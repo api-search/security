@@ -72,11 +72,11 @@ tags:
 - Logistics
 - Fulfillment
 - Australia
-- APAC
+- Asia Pacific
 - Multi-Carrier
 - Labels
 - Tracking
-- Parcels
+- Parcel
 - E-commerce Logistics
 - Software-as-a-Service
 ---

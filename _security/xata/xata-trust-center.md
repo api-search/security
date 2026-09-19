@@ -97,6 +97,6 @@ tags:
 - Serverless
 - Developer Tools
 - Branching
-- AI Agent
+- AI Agents
 trust_url: https://xata.io/security
 ---

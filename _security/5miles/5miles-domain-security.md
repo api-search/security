@@ -34,7 +34,7 @@ tags:
 - Classifieds
 - E-Commerce
 - Local Commerce
-- Mobile Apps
+- Mobile App
 - Consumer
 - Secondhand
 ---

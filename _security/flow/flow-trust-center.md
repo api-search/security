@@ -25,7 +25,7 @@ tags:
 - Requirements Management
 - Systems Engineering
 - Hardware Engineering
-- Product Lifecycle Management
+- PLM
 - Engineering
 - Compliance
 - AI Agents

@@ -2,19 +2,19 @@
 api_specs:
 - filename: sui-coin-query-api-api-openapi.yml
   format: yaml
-  label: Sui Coin Query API API
+  label: Sui Coin Query API
   slug: sui-coin-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-coin-query-api-api-openapi.yml
 - filename: sui-extended-api-api-openapi.yml
   format: yaml
-  label: Sui Extended API API
+  label: Sui Extended API
   slug: sui-extended-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-extended-api-api-openapi.yml
 - filename: sui-governance-read-api-api-openapi.yml
   format: yaml
-  label: Sui Governance Read API API
+  label: Sui Governance Read API
   slug: sui-governance-read-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-governance-read-api-api-openapi.yml
@@ -32,13 +32,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-pubsub-api-openapi.yml
 - filename: sui-read-api-api-openapi.yml
   format: yaml
-  label: Sui Read API API
+  label: Sui Read API
   slug: sui-read-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-read-api-api-openapi.yml
 - filename: sui-transaction-builder-api-api-openapi.yml
   format: yaml
-  label: Sui Transaction Builder API API
+  label: Sui Transaction Builder API
   slug: sui-transaction-builder-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-transaction-builder-api-api-openapi.yml
@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-websocket-api-openapi.yml
 - filename: sui-write-api-api-openapi.yml
   format: yaml
-  label: Sui Write API API
+  label: Sui Write API
   slug: sui-write-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-write-api-api-openapi.yml
@@ -102,4 +102,5 @@ tags:
 - Web3
 - Cryptocurrency
 - Smart Contracts
+- Sui
 ---

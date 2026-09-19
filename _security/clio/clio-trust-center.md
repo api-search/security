@@ -116,13 +116,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-clients-api-openapi.yml
 - filename: clio-clio-payments-links-api-openapi.yml
   format: yaml
-  label: Clio Clio Payments Links API
+  label: Clio Payments Links API
   slug: clio-clio-payments-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-clio-payments-links-api-openapi.yml
 - filename: clio-clio-payments-payments-api-openapi.yml
   format: yaml
-  label: Clio Clio Payments Payments API
+  label: Clio Payments API
   slug: clio-clio-payments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-clio-payments-payments-api-openapi.yml

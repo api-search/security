@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Adanos Market Sentiment API
-  slug: adanos-market-sentiment-api
+- filename: adanos-market-sentiment-api-finance-sentiment-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API Finance Sentiment API
+  slug: adanos-market-sentiment-api-finance-sentiment-api
   spec_type: OpenAPI
-  url: https://api.adanos.org/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-finance-sentiment-api-openapi.yml
+- filename: adanos-market-sentiment-api-health-check-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API Health Check API
+  slug: adanos-market-sentiment-api-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-health-check-api-openapi.yml
+- filename: adanos-market-sentiment-api-news-stocks-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API News Stocks API
+  slug: adanos-market-sentiment-api-news-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-news-stocks-api-openapi.yml
+- filename: adanos-market-sentiment-api-polymarket-stocks-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API Polymarket Stocks API
+  slug: adanos-market-sentiment-api-polymarket-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-polymarket-stocks-api-openapi.yml
+- filename: adanos-market-sentiment-api-reddit-crypto-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API Reddit Crypto API
+  slug: adanos-market-sentiment-api-reddit-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-reddit-crypto-api-openapi.yml
+- filename: adanos-market-sentiment-api-reddit-stocks-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API Reddit Stocks API
+  slug: adanos-market-sentiment-api-reddit-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-reddit-stocks-api-openapi.yml
+- filename: adanos-market-sentiment-api-x-twitter-stocks-api-openapi.yml
+  format: yaml
+  label: Adanos Market Sentiment API X/Twitter Stocks API
+  slug: adanos-market-sentiment-api-x-twitter-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-x-twitter-stocks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +88,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: derived\nsource: openapi/adanos-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/authentication/adanos-market-sentiment-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Market
+- Markets
 - Sentiment
 - Stocks
 - Crypto

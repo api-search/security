@@ -33,7 +33,7 @@ tags:
 - Infrastructure
 - Bitcoin
 - Cryptocurrency
-- Data Centers
+- Data-Center
 - Mining
 - High Performance Computing
 - Blockchain

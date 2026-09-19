@@ -51,7 +51,7 @@ tags:
 - Shipping
 - Package Tracking
 - Logistics
-- Carriers
+- Carrier
 - Delivery
 - Webhook
 ---

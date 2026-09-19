@@ -21,7 +21,7 @@ summary_line: SOC 2 Type 2, ISO/IEC 27001:2013
 tags:
 - Company
 - Ai Ml
-- Data Centers
+- Data-Center
 - Industrial Automation
 - Reinforcement Learning
 - Energy Efficiency

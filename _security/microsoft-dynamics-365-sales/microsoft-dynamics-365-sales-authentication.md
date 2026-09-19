@@ -50,18 +50,18 @@ api_specs:
   slug: microsoft-dynamics-365-sales-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
-- filename: microsoft-dynamics-365-sales-salesorders-api-openapi.yml
-  format: yaml
-  label: Microsoft Dynamics 365 Sales SalesOrders API
-  slug: microsoft-dynamics-365-sales-salesorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-salesorders-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Tasks API
   slug: microsoft-dynamics-365-sales-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
+- filename: microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Sales Sales Orders API
+  slug: microsoft-dynamics-365-sales-sales-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

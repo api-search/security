@@ -50,8 +50,9 @@ tags:
 - Research Repository
 - OAI-PMH
 - Identity
-- Single Sign-On
+- SSO
 - Learning Management
 - Library
 - API Gateway
+- Identity Federation
 ---

@@ -233,7 +233,7 @@ tags:
 - B2C
 - B2B
 - Subscription
-- Marketplaces
+- Marketplace
 - Wholesale
 - Storefront
 - Checkout

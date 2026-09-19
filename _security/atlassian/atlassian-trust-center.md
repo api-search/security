@@ -612,12 +612,6 @@ api_specs:
   slug: atlassian-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-properties-api-openapi.yml
-- filename: atlassian-pullrequests-api-openapi.yml
-  format: yaml
-  label: Atlassian Pullrequests API
-  slug: atlassian-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-pullrequests-api-openapi.yml
 - filename: atlassian-pullrequests-commit-statuses-api-openapi.yml
   format: yaml
   label: Atlassian Pullrequests - Commit Statuses API
@@ -864,6 +858,12 @@ api_specs:
   slug: atlassian-workspaces-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-workspaces-webhooks-api-openapi.yml
+- filename: atlassian-pull-requests-api-openapi.yml
+  format: yaml
+  label: Atlassian Pull Requests API
+  slug: atlassian-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-pull-requests-api-openapi.yml
 certification_count: 1
 certifications:
 - FedRAMP
@@ -888,5 +888,6 @@ tags:
 - Platform
 - Productivity
 - Software Development
+- Atlassian
 trust_url: https://www.atlassian.com/trust
 ---

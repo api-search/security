@@ -6,18 +6,6 @@ api_specs:
   slug: regal-reporting-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/asyncapi/regal-reporting-webhooks-asyncapi.yml
-- filename: regal-ai-branded-phone-numbers-api-openapi.yml
-  format: yaml
-  label: Regal Branded Phone Numbers API
-  slug: regal-ai-branded-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-branded-phone-numbers-api-openapi.yml
-- filename: regal-ai-business-profiles-api-openapi.yml
-  format: yaml
-  label: Regal Business Profiles API
-  slug: regal-ai-business-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-business-profiles-api-openapi.yml
 - filename: regal-ai-campaigns-api-openapi.yml
   format: yaml
   label: Regal Campaigns API
@@ -42,24 +30,36 @@ api_specs:
   slug: regal-ai-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-messages-api-openapi.yml
-- filename: regal-ai-phone-numbers-api-openapi.yml
-  format: yaml
-  label: Regal Phone Numbers API
-  slug: regal-ai-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-phone-numbers-api-openapi.yml
 - filename: regal-ai-users-api-openapi.yml
   format: yaml
   label: Regal Users API
   slug: regal-ai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-users-api-openapi.yml
-- filename: regal-ai-call-handoffs-api-openapi.yml
+- filename: regal-ai-activephonenumbers-api-openapi.yml
+  format: yaml
+  label: Regal Active Phone Numbers API
+  slug: regal-ai-activephonenumbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-activephonenumbers-api-openapi.yml
+- filename: regal-ai-brandedphonenumbers-api-openapi.yml
+  format: yaml
+  label: Regal Branded Phone Numbers API
+  slug: regal-ai-brandedphonenumbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
+- filename: regal-ai-businessprofiles-api-openapi.yml
+  format: yaml
+  label: Regal Business Profiles API
+  slug: regal-ai-businessprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-businessprofiles-api-openapi.yml
+- filename: regal-ai-callhandoffs-api-openapi.yml
   format: yaml
   label: Regal Call Handoffs API
-  slug: regal-ai-call-handoffs-api
+  slug: regal-ai-callhandoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-call-handoffs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-callhandoffs-api-openapi.yml
 description: ''
 domains:
 - caa: []

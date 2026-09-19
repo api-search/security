@@ -38,7 +38,7 @@ tags:
 - Coaching
 - Learning and Development
 - Talent Development
-- AI Agent
+- AI Agents
 - Organizational Change
-- HR Tech
+- Human Resources
 ---

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: universitat-hamburg-zfdm-repository-openapi.yml
+- filename: universitat-hamburg-communities-api-openapi.yml
   format: yaml
-  label: ZFDM Research Data Repository API
-  slug: zfdm-repository-api
+  label: Universität Hamburg Communities API
+  slug: universitat-hamburg-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-zfdm-repository-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-communities-api-openapi.yml
+- filename: universitat-hamburg-files-api-openapi.yml
+  format: yaml
+  label: Universität Hamburg Files API
+  slug: universitat-hamburg-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-files-api-openapi.yml
+- filename: universitat-hamburg-licenses-api-openapi.yml
+  format: yaml
+  label: Universität Hamburg Licenses API
+  slug: universitat-hamburg-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-licenses-api-openapi.yml
+- filename: universitat-hamburg-records-api-openapi.yml
+  format: yaml
+  label: Universität Hamburg Records API
+  slug: universitat-hamburg-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/openapi/universitat-hamburg-records-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -36,7 +36,7 @@ tags:
 - Nutrition
 - Consumer Packaged Goods
 - Commerce
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - MCP
 ---

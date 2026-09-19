@@ -48,7 +48,7 @@ tags:
 - Crypto Web3
 - Storage
 - Decentralized Storage
-- Content Delivery Network
+- CDN
 - Solana
 - Encryption
 - AI Agents

@@ -464,7 +464,6 @@ summary_line: apiKey/oauth2 · 6 schemes
 tags:
 - Programmatic Advertising
 - DSP
-- Demand-Side Platform
 - Campaign Management
 - AdTech
 - Bidding

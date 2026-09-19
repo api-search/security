@@ -53,7 +53,7 @@ tags:
 - Higher Education
 - Institutional
 - Insurance
-- Investments
+- Investment
 - Non-Profit
 - Nuveen
 - Retirement

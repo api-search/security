@@ -63,9 +63,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Talent Optimization
-- HR
 - Human Resources
-- Assessments
+- Assessment
 - Behavioral Science
 - Hiring
 - Recruiting

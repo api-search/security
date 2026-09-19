@@ -33,9 +33,9 @@ tags:
 - Company
 - Water Management
 - Water Purification
-- Smart Building
+- Smart Buildings
 - IoT
 - Water Quality Monitoring
 - ESG
-- Korea
+- South Korea
 ---

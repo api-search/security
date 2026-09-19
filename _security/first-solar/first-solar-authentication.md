@@ -89,7 +89,7 @@ tags:
 - Renewable Energy
 - Manufacturing
 - Fortune 1000
-- Photovoltaic
+- Photovoltaics
 - Thin Film
 - Utility-Scale Solar
 - Clean Energy

@@ -24,7 +24,7 @@ tags:
 - Stablecoins
 - Payments
 - Money Transfer
-- Remittance
+- Remittances
 - Fintech
 - Solana
 - Consumer

@@ -142,5 +142,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/llamaindex-llamacloud-api-openapi.yml, openapi/llamaindex-llamacloud-index-api-openapi.yml,\n  openapi/llamaindex-llamaextract-api-openapi.yml, openapi/llamaindex-llamaparse-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: LlamaCloud API key obtained from the LlamaCloud dashboard. Include as a Bearer\n    token in the Authorization header.\n  sources:\n  - openapi/llamaindex-llamacloud-api-openapi.yml\n  - openapi/llamaindex-llamacloud-index-api-openapi.yml\n  - openapi/llamaindex-llamaextract-api-openapi.yml\n  - openapi/llamaindex-llamaparse-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/authentication/llamaindex-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Agents
+- Framework
+- LLM
+- Open-Source
+- RAG
+- LlamaIndex
 ---

@@ -8,24 +8,12 @@ api_specs:
   slug: university-of-oxford-iiif-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-iiif-api-openapi.yml
-- filename: university-of-oxford-oai-pmh-api-openapi.yml
-  format: yaml
-  label: University of Oxford OAI PMH API
-  slug: university-of-oxford-oai-pmh-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oai-pmh-api-openapi.yml
 - filename: university-of-oxford-repository-api-openapi.yml
   format: yaml
   label: University of Oxford Repository API
   slug: university-of-oxford-repository-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-repository-api-openapi.yml
-- filename: university-of-oxford-textarchive-api-openapi.yml
-  format: yaml
-  label: University of Oxford Text Archive API
-  slug: university-of-oxford-textarchive-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-textarchive-api-openapi.yml
 auth_types: []
 description: 'Every institution-operated API surface found at Oxford is unauthenticated and read-only. Authentication at Oxford exists, and is substantial, but it sits on the identity-federation side of the house rather than in front of any public API: there is no API key, no OAuth client registration, no developer account and no token endpoint anywhere in the estate.'
 kind: authentication

@@ -22,7 +22,7 @@ tags:
 - Scheduling
 - Time Tracking
 - Payroll
-- HR
+- Human Resources
 - Workforce Management
 - Team Communication
 - Employee Scheduling

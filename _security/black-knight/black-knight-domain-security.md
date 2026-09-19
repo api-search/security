@@ -45,8 +45,8 @@ layout: security
 method: probed
 name: Black Knight Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Black Knight (Acquired by ICE — Now ICE Mortgage Technology), probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology)
+overview: 'Domain security posture for Black Knight, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Black Knight
 provider_slug: black-knight
 slug: black-knight-domain-security
 source_filename: black-knight-domain-security.yml

@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ntt-com/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Telecommunications
-- Mobile Networks
+- Mobile Network
 - Enterprise Cloud
 - Smart Data Platform
 - IOWN

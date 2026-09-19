@@ -90,7 +90,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Multi-Modal
-- Large Language Models
+- LLM
 - Vision
 - Speech
 - Foundation Models

@@ -48,7 +48,7 @@ tags:
 - Speech Recognition
 - Text-to-Speech
 - Voice Cloning
-- Large Language Models
+- LLM
 - OCR
 - Healthcare
 - Machine-Learning

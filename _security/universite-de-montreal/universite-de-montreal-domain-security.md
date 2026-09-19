@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: universite-de-montreal-sadvr-openapi.yml
+- filename: universite-de-montreal-identifiants-api-openapi.yml
   format: yaml
-  label: SADVR REST API (Vitrine-Recherche)
-  slug: sadvr
+  label: Université de Montréal Identifiants API
+  slug: universite-de-montreal-identifiants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-sadvr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-identifiants-api-openapi.yml
+- filename: universite-de-montreal-informations-api-openapi.yml
+  format: yaml
+  label: Université de Montréal Informations API
+  slug: universite-de-montreal-informations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-informations-api-openapi.yml
+- filename: universite-de-montreal-recherche-api-openapi.yml
+  format: yaml
+  label: Université de Montréal Recherche API
+  slug: universite-de-montreal-recherche-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-recherche-api-openapi.yml
+- filename: universite-de-montreal-ressources-api-openapi.yml
+  format: yaml
+  label: Université de Montréal Ressources API
+  slug: universite-de-montreal-ressources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/openapi/universite-de-montreal-ressources-api-openapi.yml
 description: ''
 domains:
 - caa: []

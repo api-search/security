@@ -106,12 +106,6 @@ api_specs:
   slug: clerk-com-dev-browser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-com-dev-browser-api-openapi.yml
-- filename: clerk-com-devbrowser-api-openapi.yml
-  format: yaml
-  label: Clerk DevBrowser API
-  slug: clerk-com-devbrowser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-com-devbrowser-api-openapi.yml
 - filename: clerk-com-domains-api-openapi.yml
   format: yaml
   label: Clerk Domains API
@@ -382,12 +376,6 @@ api_specs:
   slug: clerk-com-sign-ins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-com-sign-ins-api-openapi.yml
-- filename: clerk-com-sign-ups-api-openapi.yml
-  format: yaml
-  label: Clerk Sign Ups API
-  slug: clerk-com-sign-ups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-com-sign-ups-api-openapi.yml
 - filename: clerk-com-statements-api-openapi.yml
   format: yaml
   label: Clerk Statements API
@@ -466,72 +454,12 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/asyncapi/clerk-webhooks-asyncapi.yml
-- filename: clerk-invitations-api-openapi.yml
+- filename: clerk-com-signups-api-openapi.yml
   format: yaml
-  label: Clerk Invitations API
-  slug: clerk-invitations-api
+  label: Clerk Signups API
+  slug: clerk-com-signups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-invitations-api-openapi.yml
-- filename: clerk-jwttemplates-api-openapi.yml
-  format: yaml
-  label: Clerk JwtTemplates API
-  slug: clerk-jwttemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-jwttemplates-api-openapi.yml
-- filename: clerk-organizations-api-openapi.yml
-  format: yaml
-  label: Clerk Organizations API
-  slug: clerk-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-organizations-api-openapi.yml
-- filename: clerk-sessions-api-openapi.yml
-  format: yaml
-  label: Clerk Sessions API
-  slug: clerk-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-sessions-api-openapi.yml
-- filename: clerk-signintokens-api-openapi.yml
-  format: yaml
-  label: Clerk SignInTokens API
-  slug: clerk-signintokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-signintokens-api-openapi.yml
-- filename: clerk-users-api-openapi.yml
-  format: yaml
-  label: Clerk Users API
-  slug: clerk-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-users-api-openapi.yml
-- filename: clerk-webhooks-api-openapi.yml
-  format: yaml
-  label: Clerk Webhooks API
-  slug: clerk-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-webhooks-api-openapi.yml
-- filename: clerk-dev-allowlist-blocklist-api-openapi.yml
-  format: yaml
-  label: Clerk Allowlist & Blocklist API
-  slug: clerk-dev-allowlist-blocklist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-dev-allowlist-blocklist-api-openapi.yml
-- filename: clerk-dev-email-sms-api-openapi.yml
-  format: yaml
-  label: Clerk Email & SMS API
-  slug: clerk-dev-email-sms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-dev-email-sms-api-openapi.yml
-- filename: clerk-dev-saml-enterprise-connections-api-openapi.yml
-  format: yaml
-  label: Clerk SAML & Enterprise Connections API
-  slug: clerk-dev-saml-enterprise-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-dev-saml-enterprise-connections-api-openapi.yml
-- filename: clerk-dev-sign-ups-tokens-api-openapi.yml
-  format: yaml
-  label: Clerk Sign-ups & Tokens API
-  slug: clerk-dev-sign-ups-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-dev-sign-ups-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/openapi/clerk-com-signups-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -621,4 +549,5 @@ tags:
 - Sessions
 - SSO
 - User Management
+- Identity Federation
 ---

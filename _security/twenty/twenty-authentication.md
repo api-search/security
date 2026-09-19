@@ -26,12 +26,6 @@ api_specs:
   slug: twenty-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-objects-api-openapi.yml
-- filename: twenty-openapi-api-openapi.yml
-  format: yaml
-  label: Twenty openapi API
-  slug: twenty-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-openapi-api-openapi.yml
 - filename: twenty-opportunities-api-openapi.yml
   format: yaml
   label: Twenty opportunities API
@@ -56,48 +50,12 @@ api_specs:
   slug: twenty-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-tasks-api-openapi.yml
-- filename: twenty-crm-companies-api-openapi.yml
+- filename: twenty-open-api-api-openapi.yml
   format: yaml
-  label: Twenty Companies API
-  slug: twenty-crm-companies-api
+  label: Twenty Open API
+  slug: twenty-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-companies-api-openapi.yml
-- filename: twenty-crm-metadata-fields-api-openapi.yml
-  format: yaml
-  label: Twenty Metadata - Fields API
-  slug: twenty-crm-metadata-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-metadata-fields-api-openapi.yml
-- filename: twenty-crm-metadata-objects-api-openapi.yml
-  format: yaml
-  label: Twenty Metadata - Objects API
-  slug: twenty-crm-metadata-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-metadata-objects-api-openapi.yml
-- filename: twenty-crm-notes-api-openapi.yml
-  format: yaml
-  label: Twenty Notes API
-  slug: twenty-crm-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-notes-api-openapi.yml
-- filename: twenty-crm-opportunities-api-openapi.yml
-  format: yaml
-  label: Twenty Opportunities API
-  slug: twenty-crm-opportunities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-opportunities-api-openapi.yml
-- filename: twenty-crm-people-api-openapi.yml
-  format: yaml
-  label: Twenty People API
-  slug: twenty-crm-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-people-api-openapi.yml
-- filename: twenty-crm-tasks-api-openapi.yml
-  format: yaml
-  label: Twenty Tasks API
-  slug: twenty-crm-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-crm-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-open-api-api-openapi.yml
 auth_types:
 - http
 description: ''

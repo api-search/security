@@ -36,6 +36,6 @@ tags:
 - Counter-UAS
 - Drone Defense
 - Autonomous Systems
-- Laser
+- Lasers
 - National Security
 ---

@@ -59,9 +59,10 @@ tags:
 - Identity
 - Authentication
 - Authorization
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
-- IAM
+- Identity and Access Management
 - CIAM
+- Identity Federation
 trust_url: https://www.pingidentity.com/en-us/docs/legal/security-exhibit
 ---

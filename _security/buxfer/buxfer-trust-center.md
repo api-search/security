@@ -58,7 +58,7 @@ tags:
 - Fintech
 - Financial Data
 - Transaction
-- Investments
+- Investment
 - Expense Tracking
 trust_url: https://www.buxfer.com/help/security
 ---

@@ -98,6 +98,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/he
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Models
 ---

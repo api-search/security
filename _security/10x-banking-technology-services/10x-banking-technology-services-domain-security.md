@@ -56,15 +56,15 @@ tags:
 - Financial-Services
 - Banking
 - Core Banking
-- Cloud Native
+- Cloud-Native
 - Banking as a Service
 - Embedded Finance
 - Payments
 - Lending
 - Deposits
 - Cards
-- Event Driven
+- Event-Driven
 - United Kingdom
-- SaaS
+- Software-as-a-Service
 - Fintech
 ---

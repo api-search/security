@@ -48,6 +48,6 @@ tags:
 - Parent Communication
 - Staff Management
 - Business Intelligence
-- Data Feeds
+- Data Feed
 - Software-as-a-Service
 ---

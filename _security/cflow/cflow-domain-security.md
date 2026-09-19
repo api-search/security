@@ -55,12 +55,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/security/cflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Automations
+- Automation
 - Business Process Automation
 - Integration
 - No-Code
 - Platform
-- Protocols
+- Protocol
 - Rules
 - Workflows
 ---

@@ -38,5 +38,5 @@ tags:
 - Bike Safety
 - Smart Helmets
 - IoT
-- Mobile Apps
+- Mobile App
 ---

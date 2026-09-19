@@ -45,7 +45,7 @@ tags:
 - Support
 - Lifecycle
 - Asset Management
-- Entitlement
+- Entitlements
 - Enterprise
 - Networking
 - End of Life

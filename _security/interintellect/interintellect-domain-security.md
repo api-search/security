@@ -34,7 +34,7 @@ tags:
 - Company
 - Community
 - Event
-- Salons
+- Salon
 - Membership
 - Intellectual
 - Learning

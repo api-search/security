@@ -75,7 +75,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Buy Now Pay Later
-- BNPL
 - Payments
 - Installments
 - Fintech

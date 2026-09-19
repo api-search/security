@@ -41,9 +41,9 @@ tags:
 - Payments
 - Payment Gateway
 - Fintech
-- Korea
+- South Korea
 - Recurring Payments
 - Billing
 - Cards
-- Bank Transfer
+- Bank Transfers
 ---

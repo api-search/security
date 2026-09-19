@@ -67,5 +67,5 @@ tags:
 - Research Repository
 - Course Catalog
 - DataCite
-- Tenant
+- Tenants
 ---

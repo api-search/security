@@ -24,12 +24,6 @@ api_specs:
   slug: google-admob-adunitmappings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunitmappings-api-openapi.yml
-- filename: google-admob-adunits-api-openapi.yml
-  format: yaml
-  label: Google AdMob Ad Units API
-  slug: google-admob-adunits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunits-api-openapi.yml
 - filename: google-admob-apps-api-openapi.yml
   format: yaml
   label: Google AdMob Apps API
@@ -66,6 +60,12 @@ api_specs:
   slug: google-admob-networkreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-api-openapi.yml
+- filename: google-admob-ad-units-api-openapi.yml
+  format: yaml
+  label: Google AdMob Ad Units API
+  slug: google-admob-ad-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-ad-units-api-openapi.yml
 certification_count: 8
 certifications:
 - ISO/IEC 27001
@@ -99,7 +99,7 @@ tags:
 - Advertising
 - App Monetization
 - Mobile Advertising
-- Mobile Apps
+- Mobile App
 - Reports
 - Reporting
 trust_url: https://business.safety.google/compliance/

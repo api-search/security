@@ -51,5 +51,5 @@ tags:
 - Commercial Property
 - GraphQL
 - Data
-- AI Agent
+- AI Agents
 ---

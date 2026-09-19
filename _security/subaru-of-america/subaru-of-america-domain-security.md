@@ -35,7 +35,7 @@ tags:
 - Automotive
 - Cars
 - Vehicles
-- Connected Vehicle
+- Connected Vehicles
 - Telematics
 - OEM
 ---

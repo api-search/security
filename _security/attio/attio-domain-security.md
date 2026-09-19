@@ -54,12 +54,6 @@ api_specs:
   slug: attio-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-notes-api-openapi.yml
-- filename: attio-oauth-api-openapi.yml
-  format: yaml
-  label: Attio OAuth API
-  slug: attio-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-oauth-api-openapi.yml
 - filename: attio-objects-api-openapi.yml
   format: yaml
   label: Attio Objects API
@@ -102,6 +96,12 @@ api_specs:
   slug: attio-list-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-list-entries-api-openapi.yml
+- filename: attio-oauth-api-openapi.yml
+  format: yaml
+  label: Attio O Auth API
+  slug: attio-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -149,6 +149,6 @@ tags:
 - Sales
 - Contacts
 - Companies
-- Pipeline
+- Pipelines
 - Workflows
 ---

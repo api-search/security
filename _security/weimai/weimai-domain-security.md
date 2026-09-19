@@ -46,7 +46,7 @@ tags:
 - Healthcare
 - Digital Health
 - Internet Hospital
-- Telemedicine
+- Telehealth
 - Medical Services
 - China
 - Open Platform

@@ -49,9 +49,10 @@ tags:
 - Indonesia
 - Southeast Asia
 - Authentication
-- Single Sign-On
+- SSO
 - Scholarly Publishing
 - OAI-PMH
 - Digital Library
 - Research Repository
+- Identity Federation
 ---

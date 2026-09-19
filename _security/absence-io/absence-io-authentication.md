@@ -76,5 +76,5 @@ tags:
 - Absences
 - Employees
 - Leave Management
-- HR
+- Human Resources
 ---

@@ -346,7 +346,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/openapi/sweep-stages-api-openapi.yml
 - filename: sweep-sweep-fields-api-openapi.yml
   format: yaml
-  label: Sweep Sweep Fields API
+  label: Sweep Fields API
   slug: sweep-sweep-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/openapi/sweep-sweep-fields-api-openapi.yml

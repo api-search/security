@@ -42,4 +42,5 @@ tags:
 - Consumer Spending
 - Market Research
 - Analytics
+- Defunct
 ---

@@ -63,7 +63,6 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Payments
 - Buy Now Pay Later
-- BNPL
 - Instalments
 - E-Commerce
 - Checkout

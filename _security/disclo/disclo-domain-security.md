@@ -34,7 +34,7 @@ tags:
 - Company
 - Workplace Accommodations
 - Disability
-- HR Tech
+- Human Resources
 - ADA Compliance
 - FMLA
 - Leave Management

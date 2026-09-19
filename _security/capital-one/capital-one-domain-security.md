@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-one/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Auto Finance
-- Authorizations
+- Authorization
 - Banking
 - Credit Cards
 - Credit Offers

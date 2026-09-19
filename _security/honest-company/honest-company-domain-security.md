@@ -59,5 +59,5 @@ tags:
 - Shopify
 - Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 ---

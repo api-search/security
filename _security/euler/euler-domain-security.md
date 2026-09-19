@@ -54,12 +54,6 @@ api_specs:
   slug: euler-feeflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-feeflow-api-openapi.yml
-- filename: euler-graphql-api-openapi.yml
-  format: yaml
-  label: Euler Finance GraphQL API
-  slug: euler-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-graphql-api-openapi.yml
 - filename: euler-health-api-openapi.yml
   format: yaml
   label: Euler Finance Health API
@@ -126,6 +120,12 @@ api_specs:
   slug: euler-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-vaults-api-openapi.yml
+- filename: euler-graph-ql-api-openapi.yml
+  format: yaml
+  label: Euler Finance Graph QL API
+  slug: euler-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -44,18 +44,18 @@ api_specs:
   slug: harbinger-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-discovery-api-openapi.yml
-- filename: harbinger-oembed-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors oEmbed API
-  slug: harbinger-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-oembed-api-openapi.yml
 - filename: harbinger-seo-api-openapi.yml
   format: yaml
   label: Harbinger Motors SEO Metadata API
   slug: harbinger-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-seo-api-openapi.yml
+- filename: harbinger-o-embed-api-openapi.yml
+  format: yaml
+  label: Harbinger o Embed API
+  slug: harbinger-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-o-embed-api-openapi.yml
 auth_types: []
 description: Harbinger Motors publishes no developer program, no API key issuance, no OAuth application registration and no authentication documentation. The WordPress REST content API behind harbingermotors.com is anonymously readable and, anonymously, read-only. Everything below was observed on live responses on 2026-08-22.
 kind: authentication

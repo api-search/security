@@ -48,5 +48,5 @@ tags:
 - Decision Intelligence
 - Retail Planning
 - Revenue Growth Management
-- Enterprise Resource Planning
+- ERP
 ---

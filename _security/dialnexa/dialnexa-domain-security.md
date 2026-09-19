@@ -30,12 +30,6 @@ api_specs:
   slug: dialnexa-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-languages-api-openapi.yml
-- filename: dialnexa-llms-api-openapi.yml
-  format: yaml
-  label: DialNexa LL Ms API
-  slug: dialnexa-llms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-llms-api-openapi.yml
 - filename: dialnexa-organization-folders-api-openapi.yml
   format: yaml
   label: DialNexa Organization Folders API
@@ -78,6 +72,12 @@ api_specs:
   slug: dialnexa-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-workflows-api-openapi.yml
+- filename: dialnexa-llms-api-openapi.yml
+  format: yaml
+  label: DialNexa LL Ms API
+  slug: dialnexa-llms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-llms-api-openapi.yml
 description: ''
 domains:
 - caa: []

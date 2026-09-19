@@ -60,7 +60,7 @@ tags:
 - Document Generation
 - Playbooks
 - Templates
-- AI Assistants
+- AI Assistant
 - AI Agents
 - Agentic AI
 - Slack

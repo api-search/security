@@ -30,12 +30,6 @@ api_specs:
   slug: act-on-custom-data-schema-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-data-schema-api-api-openapi.yml
-- filename: act-on-customevents-api-openapi.yml
-  format: yaml
-  label: Act-On Customevents API
-  slug: act-on-customevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-customevents-api-openapi.yml
 - filename: act-on-ete-api-openapi.yml
   format: yaml
   label: Act-On Ete API
@@ -150,6 +144,12 @@ api_specs:
   slug: act-on-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-user-api-openapi.yml
+- filename: act-on-custom-events-api-openapi.yml
+  format: yaml
+  label: Act-On Custom Events API
+  slug: act-on-custom-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-custom-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

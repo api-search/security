@@ -5,73 +5,73 @@ api_key_in:
 api_specs:
 - filename: talkpush-agents-api-api-openapi.yml
   format: yaml
-  label: TalkPush Agents API API
+  label: TalkPush Agents API
   slug: talkpush-agents-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-agents-api-api-openapi.yml
 - filename: talkpush-calls-api-api-openapi.yml
   format: yaml
-  label: TalkPush Calls API API
+  label: TalkPush Calls API
   slug: talkpush-calls-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-calls-api-api-openapi.yml
 - filename: talkpush-campaigns-api-api-openapi.yml
   format: yaml
-  label: TalkPush Campaigns API API
+  label: TalkPush Campaigns API
   slug: talkpush-campaigns-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-campaigns-api-api-openapi.yml
 - filename: talkpush-candidate-attributes-api-api-openapi.yml
   format: yaml
-  label: TalkPush Candidate Attributes API API
+  label: TalkPush Candidate Attributes API
   slug: talkpush-candidate-attributes-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-candidate-attributes-api-api-openapi.yml
 - filename: talkpush-document-tags-api-api-openapi.yml
   format: yaml
-  label: TalkPush Document Tags API API
+  label: TalkPush Document Tags API
   slug: talkpush-document-tags-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-document-tags-api-api-openapi.yml
 - filename: talkpush-folders-api-api-openapi.yml
   format: yaml
-  label: TalkPush Folders API API
+  label: TalkPush Folders API
   slug: talkpush-folders-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-folders-api-api-openapi.yml
 - filename: talkpush-labels-api-api-openapi.yml
   format: yaml
-  label: TalkPush Labels API API
+  label: TalkPush Labels API
   slug: talkpush-labels-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-labels-api-api-openapi.yml
 - filename: talkpush-leads-api-api-openapi.yml
   format: yaml
-  label: TalkPush Leads API API
+  label: TalkPush Leads API
   slug: talkpush-leads-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-leads-api-api-openapi.yml
 - filename: talkpush-managers-api-api-openapi.yml
   format: yaml
-  label: TalkPush Managers API API
+  label: TalkPush Managers API
   slug: talkpush-managers-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-managers-api-api-openapi.yml
 - filename: talkpush-message-templates-api-api-openapi.yml
   format: yaml
-  label: TalkPush Message Templates API API
+  label: TalkPush Message Templates API
   slug: talkpush-message-templates-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-message-templates-api-api-openapi.yml
 - filename: talkpush-messaging-api-api-openapi.yml
   format: yaml
-  label: TalkPush Messaging API API
+  label: TalkPush Messaging API
   slug: talkpush-messaging-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-messaging-api-api-openapi.yml
 - filename: talkpush-movement-reasons-api-api-openapi.yml
   format: yaml
-  label: TalkPush Movement Reasons API API
+  label: TalkPush Movement Reasons API
   slug: talkpush-movement-reasons-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-movement-reasons-api-api-openapi.yml
@@ -83,7 +83,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-requisition-management-system-api-openapi.yml
 - filename: talkpush-tokens-api-api-openapi.yml
   format: yaml
-  label: TalkPush Tokens API API
+  label: TalkPush Tokens API
   slug: talkpush-tokens-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-tokens-api-api-openapi.yml

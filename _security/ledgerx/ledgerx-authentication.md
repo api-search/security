@@ -61,6 +61,6 @@ tags:
 - Bitcoin
 - Exchange
 - Market Data
-- WebSockets
+- WebSocket
 - Regulated Markets
 ---

@@ -2,18 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ch-robinson-worldwide-rest-apis-openapi.yml
+- filename: ch-robinson-worldwide-authentication-api-openapi.yml
   format: yaml
-  label: C.H. Robinson Carrier API
-  slug: carrier-api
+  label: C.H. Robinson Authentication API
+  slug: ch-robinson-worldwide-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-rest-apis-openapi.yml
-- filename: ch-robinson-worldwide-rest-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-authentication-api-openapi.yml
+- filename: ch-robinson-worldwide-documents-api-openapi.yml
   format: yaml
-  label: C.H. Robinson Navisphere Shipper API
-  slug: shipper-navisphere-api
+  label: C.H. Robinson Documents API
+  slug: ch-robinson-worldwide-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-rest-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-documents-api-openapi.yml
+- filename: ch-robinson-worldwide-events-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Events API
+  slug: ch-robinson-worldwide-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-events-api-openapi.yml
+- filename: ch-robinson-worldwide-financials-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Financials API
+  slug: ch-robinson-worldwide-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-financials-api-openapi.yml
+- filename: ch-robinson-worldwide-labels-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Labels API
+  slug: ch-robinson-worldwide-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-labels-api-openapi.yml
+- filename: ch-robinson-worldwide-orders-and-booking-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Orders and Booking API
+  slug: ch-robinson-worldwide-orders-and-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-orders-and-booking-api-openapi.yml
+- filename: ch-robinson-worldwide-rating-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Rating API
+  slug: ch-robinson-worldwide-rating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-rating-api-openapi.yml
+- filename: ch-robinson-worldwide-shipments-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Shipments API
+  slug: ch-robinson-worldwide-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-shipments-api-openapi.yml
+- filename: ch-robinson-worldwide-visibility-api-openapi.yml
+  format: yaml
+  label: C.H. Robinson Visibility API
+  slug: ch-robinson-worldwide-visibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-visibility-api-openapi.yml
 auth_types:
 - oauth2
 - http

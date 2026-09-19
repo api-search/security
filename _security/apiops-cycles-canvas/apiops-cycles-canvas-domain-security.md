@@ -41,5 +41,6 @@ tags:
 - API Strategy
 - Business Model
 - Canvas
-- Workshop
+- Developer Tools
+- Workshops
 ---

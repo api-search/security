@@ -66,7 +66,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Number Verification
 - Phone Validation
-- Phone Number
+- Phone Numbers
 - Phone Number Lookup
 - Verification
 - Carrier Lookup

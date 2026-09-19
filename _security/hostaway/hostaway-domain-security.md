@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - Property Management
 - Channel Manager
 - Airbnb

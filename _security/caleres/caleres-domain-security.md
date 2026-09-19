@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Footwear
 - Retail
-- Consumer Brands
+- Consumer Brand
 - E-Commerce
 - Apparel
 ---

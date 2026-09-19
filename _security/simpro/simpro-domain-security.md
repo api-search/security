@@ -116,7 +116,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Field Service Management
-- Trades
+- Trade
 - Job Management
 - Project Management
 - Scheduling

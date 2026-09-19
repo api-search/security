@@ -33,12 +33,6 @@ api_specs:
   slug: jupyterhub-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-groups-api-openapi.yml
-- filename: jupyterhub-oauth2-api-openapi.yml
-  format: yaml
-  label: JupyterHub OAuth2 API
-  slug: jupyterhub-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-oauth2-api-openapi.yml
 - filename: jupyterhub-proxy-api-openapi.yml
   format: yaml
   label: JupyterHub Proxy API
@@ -69,6 +63,12 @@ api_specs:
   slug: jupyterhub-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-users-api-openapi.yml
+- filename: jupyterhub-oauth2-api-openapi.yml
+  format: yaml
+  label: JupyterHub O Auth2 API
+  slug: jupyterhub-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

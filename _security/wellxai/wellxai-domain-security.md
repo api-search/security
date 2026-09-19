@@ -41,5 +41,5 @@ tags:
 - Rewards
 - Wearables
 - Mobile
-- UAE
+- United Arab Emirates
 ---

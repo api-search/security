@@ -93,10 +93,10 @@ tags:
 - Breast Pumps
 - Maternal Health
 - Medical Devices
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 - agent-native
 - Shopify
 ---

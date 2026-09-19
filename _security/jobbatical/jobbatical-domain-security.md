@@ -35,9 +35,9 @@ tags:
 - Immigration
 - Global Mobility
 - Relocation
-- Visas
+- Visa
 - Work Permits
-- HR
+- Human Resources
 - Compliance
 - Software-as-a-Service
 ---

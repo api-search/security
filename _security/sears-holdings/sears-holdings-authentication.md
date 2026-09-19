@@ -50,4 +50,5 @@ tags:
 - Product Catalog
 - Seller Integration
 - XML
+- Defunct
 ---

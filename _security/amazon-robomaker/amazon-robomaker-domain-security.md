@@ -1,335 +1,335 @@
 ---
 api_specs:
-- filename: amazon-robomaker-batchdeleteworlds-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker BatchDeleteWorlds API
-  slug: amazon-robomaker-batchdeleteworlds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-batchdeleteworlds-api-openapi.yml
-- filename: amazon-robomaker-batchdescribesimulationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker BatchDescribeSimulationJob API
-  slug: amazon-robomaker-batchdescribesimulationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-batchdescribesimulationjob-api-openapi.yml
-- filename: amazon-robomaker-canceldeploymentjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CancelDeploymentJob API
-  slug: amazon-robomaker-canceldeploymentjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-canceldeploymentjob-api-openapi.yml
-- filename: amazon-robomaker-cancelsimulationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CancelSimulationJob API
-  slug: amazon-robomaker-cancelsimulationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancelsimulationjob-api-openapi.yml
-- filename: amazon-robomaker-cancelsimulationjobbatch-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CancelSimulationJobBatch API
-  slug: amazon-robomaker-cancelsimulationjobbatch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancelsimulationjobbatch-api-openapi.yml
-- filename: amazon-robomaker-cancelworldexportjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CancelWorldExportJob API
-  slug: amazon-robomaker-cancelworldexportjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancelworldexportjob-api-openapi.yml
-- filename: amazon-robomaker-cancelworldgenerationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CancelWorldGenerationJob API
-  slug: amazon-robomaker-cancelworldgenerationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancelworldgenerationjob-api-openapi.yml
-- filename: amazon-robomaker-createdeploymentjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateDeploymentJob API
-  slug: amazon-robomaker-createdeploymentjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createdeploymentjob-api-openapi.yml
-- filename: amazon-robomaker-createfleet-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateFleet API
-  slug: amazon-robomaker-createfleet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createfleet-api-openapi.yml
-- filename: amazon-robomaker-createrobot-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateRobot API
-  slug: amazon-robomaker-createrobot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createrobot-api-openapi.yml
-- filename: amazon-robomaker-createrobotapplication-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateRobotApplication API
-  slug: amazon-robomaker-createrobotapplication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createrobotapplication-api-openapi.yml
-- filename: amazon-robomaker-createrobotapplicationversion-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateRobotApplicationVersion API
-  slug: amazon-robomaker-createrobotapplicationversion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createrobotapplicationversion-api-openapi.yml
-- filename: amazon-robomaker-createsimulationapplication-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateSimulationApplication API
-  slug: amazon-robomaker-createsimulationapplication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createsimulationapplication-api-openapi.yml
-- filename: amazon-robomaker-createsimulationapplicationversion-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateSimulationApplicationVersion API
-  slug: amazon-robomaker-createsimulationapplicationversion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createsimulationapplicationversion-api-openapi.yml
-- filename: amazon-robomaker-createsimulationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateSimulationJob API
-  slug: amazon-robomaker-createsimulationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createsimulationjob-api-openapi.yml
-- filename: amazon-robomaker-createworldexportjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateWorldExportJob API
-  slug: amazon-robomaker-createworldexportjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createworldexportjob-api-openapi.yml
-- filename: amazon-robomaker-createworldgenerationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateWorldGenerationJob API
-  slug: amazon-robomaker-createworldgenerationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createworldgenerationjob-api-openapi.yml
-- filename: amazon-robomaker-createworldtemplate-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker CreateWorldTemplate API
-  slug: amazon-robomaker-createworldtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-createworldtemplate-api-openapi.yml
-- filename: amazon-robomaker-deletefleet-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DeleteFleet API
-  slug: amazon-robomaker-deletefleet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deletefleet-api-openapi.yml
-- filename: amazon-robomaker-deleterobot-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DeleteRobot API
-  slug: amazon-robomaker-deleterobot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deleterobot-api-openapi.yml
-- filename: amazon-robomaker-deleterobotapplication-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DeleteRobotApplication API
-  slug: amazon-robomaker-deleterobotapplication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deleterobotapplication-api-openapi.yml
-- filename: amazon-robomaker-deletesimulationapplication-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DeleteSimulationApplication API
-  slug: amazon-robomaker-deletesimulationapplication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deletesimulationapplication-api-openapi.yml
-- filename: amazon-robomaker-deleteworldtemplate-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DeleteWorldTemplate API
-  slug: amazon-robomaker-deleteworldtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deleteworldtemplate-api-openapi.yml
-- filename: amazon-robomaker-deregisterrobot-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DeregisterRobot API
-  slug: amazon-robomaker-deregisterrobot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deregisterrobot-api-openapi.yml
-- filename: amazon-robomaker-describedeploymentjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeDeploymentJob API
-  slug: amazon-robomaker-describedeploymentjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describedeploymentjob-api-openapi.yml
-- filename: amazon-robomaker-describefleet-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeFleet API
-  slug: amazon-robomaker-describefleet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describefleet-api-openapi.yml
-- filename: amazon-robomaker-describerobot-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeRobot API
-  slug: amazon-robomaker-describerobot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describerobot-api-openapi.yml
-- filename: amazon-robomaker-describerobotapplication-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeRobotApplication API
-  slug: amazon-robomaker-describerobotapplication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describerobotapplication-api-openapi.yml
-- filename: amazon-robomaker-describesimulationapplication-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeSimulationApplication API
-  slug: amazon-robomaker-describesimulationapplication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describesimulationapplication-api-openapi.yml
-- filename: amazon-robomaker-describesimulationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeSimulationJob API
-  slug: amazon-robomaker-describesimulationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describesimulationjob-api-openapi.yml
-- filename: amazon-robomaker-describesimulationjobbatch-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeSimulationJobBatch API
-  slug: amazon-robomaker-describesimulationjobbatch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describesimulationjobbatch-api-openapi.yml
-- filename: amazon-robomaker-describeworld-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeWorld API
-  slug: amazon-robomaker-describeworld-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describeworld-api-openapi.yml
-- filename: amazon-robomaker-describeworldexportjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeWorldExportJob API
-  slug: amazon-robomaker-describeworldexportjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describeworldexportjob-api-openapi.yml
-- filename: amazon-robomaker-describeworldgenerationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeWorldGenerationJob API
-  slug: amazon-robomaker-describeworldgenerationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describeworldgenerationjob-api-openapi.yml
-- filename: amazon-robomaker-describeworldtemplate-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker DescribeWorldTemplate API
-  slug: amazon-robomaker-describeworldtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describeworldtemplate-api-openapi.yml
-- filename: amazon-robomaker-getworldtemplatebody-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker GetWorldTemplateBody API
-  slug: amazon-robomaker-getworldtemplatebody-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-getworldtemplatebody-api-openapi.yml
-- filename: amazon-robomaker-listdeploymentjobs-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListDeploymentJobs API
-  slug: amazon-robomaker-listdeploymentjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listdeploymentjobs-api-openapi.yml
-- filename: amazon-robomaker-listfleets-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListFleets API
-  slug: amazon-robomaker-listfleets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listfleets-api-openapi.yml
-- filename: amazon-robomaker-listrobotapplications-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListRobotApplications API
-  slug: amazon-robomaker-listrobotapplications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listrobotapplications-api-openapi.yml
-- filename: amazon-robomaker-listrobots-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListRobots API
-  slug: amazon-robomaker-listrobots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listrobots-api-openapi.yml
-- filename: amazon-robomaker-listsimulationapplications-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListSimulationApplications API
-  slug: amazon-robomaker-listsimulationapplications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listsimulationapplications-api-openapi.yml
-- filename: amazon-robomaker-listsimulationjobbatches-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListSimulationJobBatches API
-  slug: amazon-robomaker-listsimulationjobbatches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listsimulationjobbatches-api-openapi.yml
-- filename: amazon-robomaker-listsimulationjobs-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListSimulationJobs API
-  slug: amazon-robomaker-listsimulationjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listsimulationjobs-api-openapi.yml
-- filename: amazon-robomaker-listworldexportjobs-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListWorldExportJobs API
-  slug: amazon-robomaker-listworldexportjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listworldexportjobs-api-openapi.yml
-- filename: amazon-robomaker-listworldgenerationjobs-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListWorldGenerationJobs API
-  slug: amazon-robomaker-listworldgenerationjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listworldgenerationjobs-api-openapi.yml
-- filename: amazon-robomaker-listworlds-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListWorlds API
-  slug: amazon-robomaker-listworlds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listworlds-api-openapi.yml
-- filename: amazon-robomaker-listworldtemplates-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker ListWorldTemplates API
-  slug: amazon-robomaker-listworldtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-listworldtemplates-api-openapi.yml
-- filename: amazon-robomaker-registerrobot-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker RegisterRobot API
-  slug: amazon-robomaker-registerrobot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-registerrobot-api-openapi.yml
-- filename: amazon-robomaker-restartsimulationjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker RestartSimulationJob API
-  slug: amazon-robomaker-restartsimulationjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-restartsimulationjob-api-openapi.yml
-- filename: amazon-robomaker-startsimulationjobbatch-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker StartSimulationJobBatch API
-  slug: amazon-robomaker-startsimulationjobbatch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-startsimulationjobbatch-api-openapi.yml
-- filename: amazon-robomaker-syncdeploymentjob-api-openapi.yml
-  format: yaml
-  label: Amazon RoboMaker SyncDeploymentJob API
-  slug: amazon-robomaker-syncdeploymentjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-syncdeploymentjob-api-openapi.yml
 - filename: amazon-robomaker-tags-api-openapi.yml
   format: yaml
   label: Amazon RoboMaker Tags API
   slug: amazon-robomaker-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-tags-api-openapi.yml
-- filename: amazon-robomaker-updaterobotapplication-api-openapi.yml
+- filename: amazon-robomaker-batch-delete-worlds-api-openapi.yml
   format: yaml
-  label: Amazon RoboMaker UpdateRobotApplication API
-  slug: amazon-robomaker-updaterobotapplication-api
+  label: Amazon RoboMaker Batch Delete Worlds API
+  slug: amazon-robomaker-batch-delete-worlds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-updaterobotapplication-api-openapi.yml
-- filename: amazon-robomaker-updatesimulationapplication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-batch-delete-worlds-api-openapi.yml
+- filename: amazon-robomaker-batch-describe-simulation-job-api-openapi.yml
   format: yaml
-  label: Amazon RoboMaker UpdateSimulationApplication API
-  slug: amazon-robomaker-updatesimulationapplication-api
+  label: Amazon RoboMaker Batch Describe Simulation Job API
+  slug: amazon-robomaker-batch-describe-simulation-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-updatesimulationapplication-api-openapi.yml
-- filename: amazon-robomaker-updateworldtemplate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-batch-describe-simulation-job-api-openapi.yml
+- filename: amazon-robomaker-cancel-deployment-job-api-openapi.yml
   format: yaml
-  label: Amazon RoboMaker UpdateWorldTemplate API
-  slug: amazon-robomaker-updateworldtemplate-api
+  label: Amazon RoboMaker Cancel Deployment Job API
+  slug: amazon-robomaker-cancel-deployment-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-updateworldtemplate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancel-deployment-job-api-openapi.yml
+- filename: amazon-robomaker-cancel-simulation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Cancel Simulation Job API
+  slug: amazon-robomaker-cancel-simulation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancel-simulation-job-api-openapi.yml
+- filename: amazon-robomaker-cancel-simulation-job-batch-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Cancel Simulation Job Batch API
+  slug: amazon-robomaker-cancel-simulation-job-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancel-simulation-job-batch-api-openapi.yml
+- filename: amazon-robomaker-cancel-world-export-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Cancel World Export Job API
+  slug: amazon-robomaker-cancel-world-export-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancel-world-export-job-api-openapi.yml
+- filename: amazon-robomaker-cancel-world-generation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Cancel World Generation Job API
+  slug: amazon-robomaker-cancel-world-generation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-cancel-world-generation-job-api-openapi.yml
+- filename: amazon-robomaker-create-deployment-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Deployment Job API
+  slug: amazon-robomaker-create-deployment-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-deployment-job-api-openapi.yml
+- filename: amazon-robomaker-create-fleet-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Fleet API
+  slug: amazon-robomaker-create-fleet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-fleet-api-openapi.yml
+- filename: amazon-robomaker-create-robot-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Robot API
+  slug: amazon-robomaker-create-robot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-robot-api-openapi.yml
+- filename: amazon-robomaker-create-robot-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Robot Application API
+  slug: amazon-robomaker-create-robot-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-robot-application-api-openapi.yml
+- filename: amazon-robomaker-create-robot-application-version-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Robot Application Version API
+  slug: amazon-robomaker-create-robot-application-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-robot-application-version-api-openapi.yml
+- filename: amazon-robomaker-create-simulation-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Simulation Application API
+  slug: amazon-robomaker-create-simulation-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-simulation-application-api-openapi.yml
+- filename: amazon-robomaker-create-simulation-application-version-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Simulation Application Version API
+  slug: amazon-robomaker-create-simulation-application-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-simulation-application-version-api-openapi.yml
+- filename: amazon-robomaker-create-simulation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create Simulation Job API
+  slug: amazon-robomaker-create-simulation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-simulation-job-api-openapi.yml
+- filename: amazon-robomaker-create-world-export-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create World Export Job API
+  slug: amazon-robomaker-create-world-export-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-world-export-job-api-openapi.yml
+- filename: amazon-robomaker-create-world-generation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create World Generation Job API
+  slug: amazon-robomaker-create-world-generation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-world-generation-job-api-openapi.yml
+- filename: amazon-robomaker-create-world-template-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Create World Template API
+  slug: amazon-robomaker-create-world-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-create-world-template-api-openapi.yml
+- filename: amazon-robomaker-delete-fleet-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Delete Fleet API
+  slug: amazon-robomaker-delete-fleet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-delete-fleet-api-openapi.yml
+- filename: amazon-robomaker-delete-robot-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Delete Robot API
+  slug: amazon-robomaker-delete-robot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-delete-robot-api-openapi.yml
+- filename: amazon-robomaker-delete-robot-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Delete Robot Application API
+  slug: amazon-robomaker-delete-robot-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-delete-robot-application-api-openapi.yml
+- filename: amazon-robomaker-delete-simulation-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Delete Simulation Application API
+  slug: amazon-robomaker-delete-simulation-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-delete-simulation-application-api-openapi.yml
+- filename: amazon-robomaker-delete-world-template-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Delete World Template API
+  slug: amazon-robomaker-delete-world-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-delete-world-template-api-openapi.yml
+- filename: amazon-robomaker-deregister-robot-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Deregister Robot API
+  slug: amazon-robomaker-deregister-robot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-deregister-robot-api-openapi.yml
+- filename: amazon-robomaker-describe-deployment-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Deployment Job API
+  slug: amazon-robomaker-describe-deployment-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-deployment-job-api-openapi.yml
+- filename: amazon-robomaker-describe-fleet-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Fleet API
+  slug: amazon-robomaker-describe-fleet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-fleet-api-openapi.yml
+- filename: amazon-robomaker-describe-robot-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Robot API
+  slug: amazon-robomaker-describe-robot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-robot-api-openapi.yml
+- filename: amazon-robomaker-describe-robot-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Robot Application API
+  slug: amazon-robomaker-describe-robot-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-robot-application-api-openapi.yml
+- filename: amazon-robomaker-describe-simulation-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Simulation Application API
+  slug: amazon-robomaker-describe-simulation-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-simulation-application-api-openapi.yml
+- filename: amazon-robomaker-describe-simulation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Simulation Job API
+  slug: amazon-robomaker-describe-simulation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-simulation-job-api-openapi.yml
+- filename: amazon-robomaker-describe-simulation-job-batch-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe Simulation Job Batch API
+  slug: amazon-robomaker-describe-simulation-job-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-simulation-job-batch-api-openapi.yml
+- filename: amazon-robomaker-describe-world-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe World API
+  slug: amazon-robomaker-describe-world-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-world-api-openapi.yml
+- filename: amazon-robomaker-describe-world-export-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe World Export Job API
+  slug: amazon-robomaker-describe-world-export-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-world-export-job-api-openapi.yml
+- filename: amazon-robomaker-describe-world-generation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe World Generation Job API
+  slug: amazon-robomaker-describe-world-generation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-world-generation-job-api-openapi.yml
+- filename: amazon-robomaker-describe-world-template-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Describe World Template API
+  slug: amazon-robomaker-describe-world-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-describe-world-template-api-openapi.yml
+- filename: amazon-robomaker-get-world-template-body-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Get World Template Body API
+  slug: amazon-robomaker-get-world-template-body-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-get-world-template-body-api-openapi.yml
+- filename: amazon-robomaker-list-deployment-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Deployment Jobs API
+  slug: amazon-robomaker-list-deployment-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-deployment-jobs-api-openapi.yml
+- filename: amazon-robomaker-list-fleets-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Fleets API
+  slug: amazon-robomaker-list-fleets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-fleets-api-openapi.yml
+- filename: amazon-robomaker-list-robot-applications-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Robot Applications API
+  slug: amazon-robomaker-list-robot-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-robot-applications-api-openapi.yml
+- filename: amazon-robomaker-list-robots-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Robots API
+  slug: amazon-robomaker-list-robots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-robots-api-openapi.yml
+- filename: amazon-robomaker-list-simulation-applications-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Simulation Applications API
+  slug: amazon-robomaker-list-simulation-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-simulation-applications-api-openapi.yml
+- filename: amazon-robomaker-list-simulation-job-batches-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Simulation Job Batches API
+  slug: amazon-robomaker-list-simulation-job-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-simulation-job-batches-api-openapi.yml
+- filename: amazon-robomaker-list-simulation-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Simulation Jobs API
+  slug: amazon-robomaker-list-simulation-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-simulation-jobs-api-openapi.yml
+- filename: amazon-robomaker-list-world-export-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List World Export Jobs API
+  slug: amazon-robomaker-list-world-export-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-world-export-jobs-api-openapi.yml
+- filename: amazon-robomaker-list-world-generation-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List World Generation Jobs API
+  slug: amazon-robomaker-list-world-generation-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-world-generation-jobs-api-openapi.yml
+- filename: amazon-robomaker-list-world-templates-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List World Templates API
+  slug: amazon-robomaker-list-world-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-world-templates-api-openapi.yml
+- filename: amazon-robomaker-list-worlds-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker List Worlds API
+  slug: amazon-robomaker-list-worlds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-list-worlds-api-openapi.yml
+- filename: amazon-robomaker-register-robot-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Register Robot API
+  slug: amazon-robomaker-register-robot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-register-robot-api-openapi.yml
+- filename: amazon-robomaker-restart-simulation-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Restart Simulation Job API
+  slug: amazon-robomaker-restart-simulation-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-restart-simulation-job-api-openapi.yml
+- filename: amazon-robomaker-start-simulation-job-batch-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Start Simulation Job Batch API
+  slug: amazon-robomaker-start-simulation-job-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-start-simulation-job-batch-api-openapi.yml
+- filename: amazon-robomaker-sync-deployment-job-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Sync Deployment Job API
+  slug: amazon-robomaker-sync-deployment-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-sync-deployment-job-api-openapi.yml
+- filename: amazon-robomaker-update-robot-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Update Robot Application API
+  slug: amazon-robomaker-update-robot-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-update-robot-application-api-openapi.yml
+- filename: amazon-robomaker-update-simulation-application-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Update Simulation Application API
+  slug: amazon-robomaker-update-simulation-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-update-simulation-application-api-openapi.yml
+- filename: amazon-robomaker-update-world-template-api-openapi.yml
+  format: yaml
+  label: Amazon RoboMaker Update World Template API
+  slug: amazon-robomaker-update-world-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-update-world-template-api-openapi.yml
 description: ''
 domains:
 - caa: []

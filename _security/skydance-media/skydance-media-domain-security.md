@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/openapi/skydance-media-comments-api-openapi.yml
 - filename: skydance-media-media-api-openapi.yml
   format: yaml
-  label: Skydance Media Media API
+  label: Skydance Media API
   slug: skydance-media-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/openapi/skydance-media-media-api-openapi.yml

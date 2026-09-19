@@ -42,18 +42,18 @@ api_specs:
   slug: harbinger-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-discovery-api-openapi.yml
-- filename: harbinger-oembed-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors oEmbed API
-  slug: harbinger-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-oembed-api-openapi.yml
 - filename: harbinger-seo-api-openapi.yml
   format: yaml
   label: Harbinger Motors SEO Metadata API
   slug: harbinger-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-seo-api-openapi.yml
+- filename: harbinger-o-embed-api-openapi.yml
+  format: yaml
+  label: Harbinger o Embed API
+  slug: harbinger-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

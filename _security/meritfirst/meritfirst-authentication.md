@@ -40,7 +40,7 @@ tags:
 - Company
 - Hiring
 - Recruiting
-- Assessments
+- Assessment
 - Talent
 - Skills-Based Hiring
 - MCP

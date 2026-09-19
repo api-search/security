@@ -51,12 +51,6 @@ api_specs:
   slug: osano-customerinsights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-customerinsights-api-openapi.yml
-- filename: osano-datadiscovery-api-openapi.yml
-  format: yaml
-  label: Osano Data Discovery API
-  slug: osano-datadiscovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-datadiscovery-api-openapi.yml
 - filename: osano-dsar-api-openapi.yml
   format: yaml
   label: Osano Dsar API
@@ -99,6 +93,12 @@ api_specs:
   slug: osano-unified-consent-core-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-unified-consent-core-api-api-openapi.yml
+- filename: osano-data-discovery-api-openapi.yml
+  format: yaml
+  label: Osano Data Discovery API
+  slug: osano-data-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/openapi/osano-data-discovery-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -69,6 +69,7 @@ summary_line: http · 1 scheme
 tags:
 - CI/CD
 - Code Quality
+- Developer Tools
 - DevOps
 - Security
 - SonarCloud

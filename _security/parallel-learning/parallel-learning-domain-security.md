@@ -37,7 +37,7 @@ tags:
 - EdTech
 - Teletherapy
 - Healthcare
-- Assessments
+- Assessment
 - Mental Health
 - HIPAA
 - FERPA

@@ -42,12 +42,6 @@ api_specs:
   slug: wish-merchant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-merchant-api-openapi.yml
-- filename: wish-oauth-api-openapi.yml
-  format: yaml
-  label: Wish OAuth API
-  slug: wish-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-oauth-api-openapi.yml
 - filename: wish-orders-api-openapi.yml
   format: yaml
   label: Wish Orders API
@@ -126,6 +120,12 @@ api_specs:
   slug: wish-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-webhook-api-openapi.yml
+- filename: wish-oauth-api-openapi.yml
+  format: yaml
+  label: Wish O Auth API
+  slug: wish-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

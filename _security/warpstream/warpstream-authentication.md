@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: warpstream-acls-api-openapi.yml
-  format: yaml
-  label: WarpStream ACLs API
-  slug: warpstream-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-acls-api-openapi.yml
 - filename: warpstream-api-keys-api-openapi.yml
   format: yaml
   label: WarpStream API Keys API
@@ -51,6 +45,12 @@ api_specs:
   slug: warpstream-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-workspaces-api-openapi.yml
+- filename: warpstream-acls-api-openapi.yml
+  format: yaml
+  label: WarpStream AC Ls API
+  slug: warpstream-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-acls-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

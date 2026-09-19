@@ -2,31 +2,31 @@
 api_specs:
 - filename: sail-research-batches-api-api-openapi.yml
   format: yaml
-  label: Sail Research Batches API API
+  label: Sail Research Batches API
   slug: sail-research-batches-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-batches-api-api-openapi.yml
 - filename: sail-research-chat-completions-api-api-openapi.yml
   format: yaml
-  label: Sail Research Chat Completions API API
+  label: Sail Research Chat Completions API
   slug: sail-research-chat-completions-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-chat-completions-api-api-openapi.yml
 - filename: sail-research-messages-api-api-openapi.yml
   format: yaml
-  label: Sail Research Messages API API
+  label: Sail Research Messages API
   slug: sail-research-messages-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-messages-api-api-openapi.yml
 - filename: sail-research-models-api-api-openapi.yml
   format: yaml
-  label: Sail Research Models API API
+  label: Sail Research Models API
   slug: sail-research-models-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-models-api-api-openapi.yml
 - filename: sail-research-responses-api-api-openapi.yml
   format: yaml
-  label: Sail Research Responses API API
+  label: Sail Research Responses API
   slug: sail-research-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/sail-research-responses-api-api-openapi.yml

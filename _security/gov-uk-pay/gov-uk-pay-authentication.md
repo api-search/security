@@ -63,7 +63,7 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Government
-- UK
+- United Kingdom
 - Public Sector
 - REST
 - PCI DSS

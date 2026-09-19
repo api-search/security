@@ -45,6 +45,6 @@ tags:
 - Facial Authentication
 - Physical Security
 - Identity
-- Internet of Things
+- IoT
 - Artificial Intelligence
 ---

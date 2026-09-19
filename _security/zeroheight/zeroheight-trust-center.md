@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: zeroheight-open-api-v2.yml
+- filename: zeroheight-pages-api-openapi.yml
   format: yaml
-  label: Zeroheight API
-  slug: zeroheight
+  label: Zeroheight Pages API
+  slug: zeroheight-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-open-api-v2.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-pages-api-openapi.yml
+- filename: zeroheight-styleguides-api-openapi.yml
+  format: yaml
+  label: Zeroheight Styleguides API
+  slug: zeroheight-styleguides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-styleguides-api-openapi.yml
+- filename: zeroheight-tokens-api-openapi.yml
+  format: yaml
+  label: Zeroheight Tokens API
+  slug: zeroheight-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-tokens-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

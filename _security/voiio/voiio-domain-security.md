@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiio/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employee Assistance
-- HR
+- Human Resources
 - Wellbeing
 - Work-Life Balance
 - EAP

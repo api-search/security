@@ -84,12 +84,6 @@ api_specs:
   slug: nuxeo-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/openapi/nuxeo-group-api-openapi.yml
-- filename: nuxeo-oauth2-api-openapi.yml
-  format: yaml
-  label: Nuxeo OAuth2 API
-  slug: nuxeo-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/openapi/nuxeo-oauth2-api-openapi.yml
 - filename: nuxeo-rendition-api-openapi.yml
   format: yaml
   label: Nuxeo Rendition API
@@ -132,6 +126,12 @@ api_specs:
   slug: nuxeo-workflow-model-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/openapi/nuxeo-workflow-model-api-openapi.yml
+- filename: nuxeo-oauth2-api-openapi.yml
+  format: yaml
+  label: Nuxeo O Auth2 API
+  slug: nuxeo-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/openapi/nuxeo-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -33,7 +33,7 @@ tags:
 - Company
 - Restaurant Management
 - Hospitality
-- HR
+- Human Resources
 - Payroll
 - Software-as-a-Service
 - Point-of-Sale

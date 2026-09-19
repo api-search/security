@@ -35,6 +35,6 @@ tags:
 - Crowdfunding
 - Creators
 - Funding
-- Korea
+- South Korea
 - Marketplace
 ---

@@ -656,7 +656,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/openapi/wazo-voicemails-api-openapi.yml
 - filename: wazo-wazo-api-openapi.yml
   format: yaml
-  label: Wazo Wazo API
+  label: Wazo API
   slug: wazo-wazo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/openapi/wazo-wazo-api-openapi.yml

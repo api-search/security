@@ -51,6 +51,6 @@ tags:
 - Jeopardy
 - Open-Source
 - Ruby
-- Rails
+- Rail
 - Public APIs
 ---

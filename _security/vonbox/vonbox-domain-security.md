@@ -30,6 +30,6 @@ tags:
 - Communications
 - Telephony
 - Messaging
-- Contact Centers
+- Contact Center
 - Startups
 ---

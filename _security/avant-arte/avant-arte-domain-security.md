@@ -32,10 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avant-arte/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Art
 - E-Commerce
 - Collectibles
 - Contemporary Art
-- Prints
+- Print
 ---

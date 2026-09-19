@@ -71,7 +71,7 @@ tags:
 - Building Automation
 - Smart Buildings
 - HVAC
-- Internet of Things
+- IoT
 - Energy Management
 - Project Haystack
 - Facilities Management

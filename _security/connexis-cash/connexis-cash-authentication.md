@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: connexis-cash-account-information-psd2-stet-mock-openapi.yml
-  format: yaml
-  label: Connexis Cash PSD2 Account Information API (STET)
-  slug: psd2-account-information
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml
 - filename: connexis-cash-accounts-api-openapi.yml
   format: yaml
   label: Connexis Cash Accounts API
@@ -38,6 +32,12 @@ api_specs:
   slug: connexis-cash-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-transactions-api-openapi.yml
+- filename: connexis-cash-aisp-api-openapi.yml
+  format: yaml
+  label: Connexis Cash AISP API
+  slug: connexis-cash-aisp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-aisp-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

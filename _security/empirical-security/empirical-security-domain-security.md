@@ -6,18 +6,18 @@ api_specs:
   slug: empirical-security-cve-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cve-groups-api-openapi.yml
-- filename: empirical-security-cves-api-openapi.yml
-  format: yaml
-  label: Empirical Security CVEs API
-  slug: empirical-security-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cves-api-openapi.yml
 - filename: empirical-security-search-api-openapi.yml
   format: yaml
   label: Empirical Security Search API
   slug: empirical-security-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-search-api-openapi.yml
+- filename: empirical-security-cves-api-openapi.yml
+  format: yaml
+  label: Empirical Security CV Es API
+  slug: empirical-security-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cves-api-openapi.yml
 description: ''
 domains:
 - caa: []

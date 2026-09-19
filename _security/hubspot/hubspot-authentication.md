@@ -4,678 +4,288 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: hubspot-crm-properties-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Properties API
-  slug: hubspot-crm-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-properties-api-openapi.yml
-- filename: hubspot-crm-imports-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Imports API
-  slug: hubspot-crm-imports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-imports-api-openapi.yml
 - filename: hubspot-webhooks-asyncapi.yml
   format: yaml
   label: HubSpot Webhooks API
   slug: hubspot-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/asyncapi/hubspot-webhooks-asyncapi.yml
-- filename: hubspot-settings-user-provisioning-api-openapi.yml
-  format: yaml
-  label: HubSpot Settings User Provisioning API
-  slug: hubspot-settings-user-provisioning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-settings-user-provisioning-api-openapi.yml
-- filename: hubspot-cms-site-search-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Site Search API
-  slug: hubspot-cms-site-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-site-search-api-openapi.yml
-- filename: hubspot-account-account-info-api-openapi.yml
-  format: yaml
-  label: HubSpot Account Info API
-  slug: hubspot-account-account-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-account-account-info-api-openapi.yml
-- filename: hubspot-account-audit-logs-api-openapi.yml
-  format: yaml
-  label: HubSpot Account Audit Logs API
-  slug: hubspot-account-audit-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-account-audit-logs-api-openapi.yml
-- filename: hubspot-auth-oauth-api-openapi.yml
-  format: yaml
-  label: HubSpot Auth OAuth API
-  slug: hubspot-auth-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-auth-oauth-api-openapi.yml
-- filename: hubspot-automation-actions-v4-api-openapi.yml
-  format: yaml
-  label: HubSpot Automation Actions v4 API
-  slug: hubspot-automation-actions-v4-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-automation-actions-v4-api-openapi.yml
-- filename: hubspot-automation-email-templates-api-openapi.yml
-  format: yaml
-  label: HubSpot Automation Email Templates API
-  slug: hubspot-automation-email-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-automation-email-templates-api-openapi.yml
-- filename: hubspot-automation-sequences-api-openapi.yml
-  format: yaml
-  label: HubSpot Automation Sequences API
-  slug: hubspot-automation-sequences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-automation-sequences-api-openapi.yml
-- filename: hubspot-business-units-business-units-api-openapi.yml
-  format: yaml
-  label: HubSpot Business Units API
-  slug: hubspot-business-units-business-units-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-business-units-business-units-api-openapi.yml
-- filename: hubspot-cms-authors-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Authors API
-  slug: hubspot-cms-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-authors-api-openapi.yml
-- filename: hubspot-cms-blog-settings-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Blog Settings API
-  slug: hubspot-cms-blog-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-blog-settings-api-openapi.yml
-- filename: hubspot-cms-cms-content-audit-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Content Audit API
-  slug: hubspot-cms-cms-content-audit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-cms-content-audit-api-openapi.yml
-- filename: hubspot-cms-domains-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Domains API
-  slug: hubspot-cms-domains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-domains-api-openapi.yml
-- filename: hubspot-cms-hubdb-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS HubDB API
-  slug: hubspot-cms-hubdb-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-hubdb-api-openapi.yml
-- filename: hubspot-cms-media-bridge-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Media Bridge API
-  slug: hubspot-cms-media-bridge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-media-bridge-api-openapi.yml
-- filename: hubspot-cms-pages-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Pages API
-  slug: hubspot-cms-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-pages-api-openapi.yml
-- filename: hubspot-cms-posts-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Posts API
-  slug: hubspot-cms-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-posts-api-openapi.yml
-- filename: hubspot-cms-site-search-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Site Search API
-  slug: hubspot-cms-site-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-site-search-api-openapi.yml
-- filename: hubspot-cms-source-code-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Source Code API
-  slug: hubspot-cms-source-code-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-source-code-api-openapi.yml
-- filename: hubspot-cms-tags-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS Tags API
-  slug: hubspot-cms-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-tags-api-openapi.yml
-- filename: hubspot-cms-url-mappings-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS URL Mappings API
-  slug: hubspot-cms-url-mappings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-url-mappings-api-openapi.yml
-- filename: hubspot-cms-url-redirects-api-openapi.yml
-  format: yaml
-  label: HubSpot CMS URL Redirects API
-  slug: hubspot-cms-url-redirects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-cms-url-redirects-api-openapi.yml
-- filename: hubspot-commerce-payment-links-api-openapi.yml
-  format: yaml
-  label: HubSpot Commerce Payment Links API
-  slug: hubspot-commerce-payment-links-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-commerce-payment-links-api-openapi.yml
-- filename: hubspot-commerce-paymentsaccounts-api-openapi.yml
-  format: yaml
-  label: HubSpot Commerce Paymentsaccounts API
-  slug: hubspot-commerce-paymentsaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-commerce-paymentsaccounts-api-openapi.yml
-- filename: hubspot-commerce-price-books-api-openapi.yml
-  format: yaml
-  label: HubSpot Commerce Price Books API
-  slug: hubspot-commerce-price-books-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-commerce-price-books-api-openapi.yml
-- filename: hubspot-communication-preferences-subscriptions-api-openapi.yml
-  format: yaml
-  label: HubSpot Communication Preferences Subscriptions API
-  slug: hubspot-communication-preferences-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-communication-preferences-subscriptions-api-openapi.yml
-- filename: hubspot-conversations-conversations-api-openapi.yml
-  format: yaml
-  label: HubSpot Conversations API
-  slug: hubspot-conversations-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-conversations-conversations-api-openapi.yml
-- filename: hubspot-conversations-custom-channels-api-openapi.yml
-  format: yaml
-  label: HubSpot Conversations Custom Channels API
-  slug: hubspot-conversations-custom-channels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-conversations-custom-channels-api-openapi.yml
-- filename: hubspot-conversations-visitor-identification-api-openapi.yml
-  format: yaml
-  label: HubSpot Conversations Visitor Identification API
-  slug: hubspot-conversations-visitor-identification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-conversations-visitor-identification-api-openapi.yml
-- filename: hubspot-crm-app-uninstalls-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM App Uninstalls API
-  slug: hubspot-crm-app-uninstalls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-app-uninstalls-api-openapi.yml
-- filename: hubspot-crm-appointments-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Appointments API
-  slug: hubspot-crm-appointments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-appointments-api-openapi.yml
-- filename: hubspot-crm-associations-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Associations API
-  slug: hubspot-crm-associations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-associations-api-openapi.yml
-- filename: hubspot-crm-associations-schema-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Associations Schema API
-  slug: hubspot-crm-associations-schema-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-associations-schema-api-openapi.yml
-- filename: hubspot-crm-calling-extensions-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Calling Extensions API
-  slug: hubspot-crm-calling-extensions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-calling-extensions-api-openapi.yml
-- filename: hubspot-crm-calls-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Calls API
-  slug: hubspot-crm-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-calls-api-openapi.yml
-- filename: hubspot-crm-carts-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Carts API
-  slug: hubspot-crm-carts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-carts-api-openapi.yml
-- filename: hubspot-crm-commerce-payments-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Commerce Payments API
-  slug: hubspot-crm-commerce-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-commerce-payments-api-openapi.yml
-- filename: hubspot-crm-communications-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Communications API
-  slug: hubspot-crm-communications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-communications-api-openapi.yml
-- filename: hubspot-crm-companies-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Companies API
-  slug: hubspot-crm-companies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-companies-api-openapi.yml
-- filename: hubspot-crm-contacts-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Contacts API
-  slug: hubspot-crm-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-contacts-api-openapi.yml
-- filename: hubspot-crm-contracts-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Contracts API
-  slug: hubspot-crm-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-contracts-api-openapi.yml
-- filename: hubspot-crm-courses-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Courses API
-  slug: hubspot-crm-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-courses-api-openapi.yml
-- filename: hubspot-crm-crm-owners-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Owners API
-  slug: hubspot-crm-crm-owners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-crm-owners-api-openapi.yml
-- filename: hubspot-crm-custom-objects-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Custom Objects API
-  slug: hubspot-crm-custom-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-custom-objects-api-openapi.yml
-- filename: hubspot-crm-deal-splits-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Deal Splits API
-  slug: hubspot-crm-deal-splits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-deal-splits-api-openapi.yml
-- filename: hubspot-crm-deals-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Deals API
-  slug: hubspot-crm-deals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-deals-api-openapi.yml
-- filename: hubspot-crm-discounts-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Discounts API
-  slug: hubspot-crm-discounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-discounts-api-openapi.yml
-- filename: hubspot-crm-emails-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Emails API
-  slug: hubspot-crm-emails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-emails-api-openapi.yml
-- filename: hubspot-crm-exports-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Exports API
-  slug: hubspot-crm-exports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-exports-api-openapi.yml
-- filename: hubspot-crm-feedback-submissions-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Feedback Submissions API
-  slug: hubspot-crm-feedback-submissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-feedback-submissions-api-openapi.yml
-- filename: hubspot-crm-fees-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Fees API
-  slug: hubspot-crm-fees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-fees-api-openapi.yml
-- filename: hubspot-crm-forecast-submissions-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Forecast Submissions API
-  slug: hubspot-crm-forecast-submissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-forecast-submissions-api-openapi.yml
-- filename: hubspot-crm-goal-targets-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Goal Targets API
-  slug: hubspot-crm-goal-targets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-goal-targets-api-openapi.yml
-- filename: hubspot-crm-imports-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Imports API
-  slug: hubspot-crm-imports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-imports-api-openapi.yml
-- filename: hubspot-crm-invoices-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Invoices API
-  slug: hubspot-crm-invoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-invoices-api-openapi.yml
-- filename: hubspot-crm-leads-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Leads API
-  slug: hubspot-crm-leads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-leads-api-openapi.yml
-- filename: hubspot-crm-limits-tracking-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Limits Tracking API
-  slug: hubspot-crm-limits-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-limits-tracking-api-openapi.yml
-- filename: hubspot-crm-line-items-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Line Items API
-  slug: hubspot-crm-line-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-line-items-api-openapi.yml
-- filename: hubspot-crm-listings-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Listings API
-  slug: hubspot-crm-listings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-listings-api-openapi.yml
-- filename: hubspot-crm-lists-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Lists API
-  slug: hubspot-crm-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-lists-api-openapi.yml
-- filename: hubspot-crm-meetings-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Meetings API
-  slug: hubspot-crm-meetings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-meetings-api-openapi.yml
-- filename: hubspot-crm-notes-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Notes API
-  slug: hubspot-crm-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-notes-api-openapi.yml
-- filename: hubspot-crm-notetaker-conversation-recap-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Notetaker Conversation Recap API
-  slug: hubspot-crm-notetaker-conversation-recap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-notetaker-conversation-recap-api-openapi.yml
-- filename: hubspot-crm-object-library-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Object Library API
-  slug: hubspot-crm-object-library-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-object-library-api-openapi.yml
-- filename: hubspot-crm-object-tags-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Object Tags API
-  slug: hubspot-crm-object-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-object-tags-api-openapi.yml
-- filename: hubspot-crm-orders-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Orders API
-  slug: hubspot-crm-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-orders-api-openapi.yml
-- filename: hubspot-crm-partner-clients-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Partner Clients API
-  slug: hubspot-crm-partner-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-partner-clients-api-openapi.yml
-- filename: hubspot-crm-partner-services-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Partner Services API
-  slug: hubspot-crm-partner-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-partner-services-api-openapi.yml
-- filename: hubspot-crm-pipeline-governance-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Pipeline Governance API
-  slug: hubspot-crm-pipeline-governance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-pipeline-governance-api-openapi.yml
-- filename: hubspot-crm-pipelines-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Pipelines API
-  slug: hubspot-crm-pipelines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-pipelines-api-openapi.yml
-- filename: hubspot-crm-postal-mail-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Postal Mail API
-  slug: hubspot-crm-postal-mail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-postal-mail-api-openapi.yml
-- filename: hubspot-crm-price-book-items-crm-reads-api-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Price Book Items CRM Reads API API
-  slug: hubspot-crm-price-book-items-crm-reads-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-price-book-items-crm-reads-api-api-openapi.yml
-- filename: hubspot-crm-price-books-crm-reads-api-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Price Books CRM Reads API API
-  slug: hubspot-crm-price-books-crm-reads-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-price-books-crm-reads-api-api-openapi.yml
-- filename: hubspot-crm-products-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Products API
-  slug: hubspot-crm-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-products-api-openapi.yml
-- filename: hubspot-crm-projects-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Projects API
-  slug: hubspot-crm-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-projects-api-openapi.yml
-- filename: hubspot-crm-properties-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Properties API
-  slug: hubspot-crm-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-properties-api-openapi.yml
-- filename: hubspot-crm-property-validations-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Property Validations API
-  slug: hubspot-crm-property-validations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-property-validations-api-openapi.yml
-- filename: hubspot-crm-public-app-crm-cards-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Public App CRM Cards API
-  slug: hubspot-crm-public-app-crm-cards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-public-app-crm-cards-api-openapi.yml
-- filename: hubspot-crm-public-app-feature-flags-v3-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Public App Feature Flags v3 API
-  slug: hubspot-crm-public-app-feature-flags-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-public-app-feature-flags-v3-api-openapi.yml
-- filename: hubspot-crm-quotes-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Quotes API
-  slug: hubspot-crm-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-quotes-api-openapi.yml
-- filename: hubspot-crm-schemas-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Schemas API
-  slug: hubspot-crm-schemas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-schemas-api-openapi.yml
-- filename: hubspot-crm-services-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Services API
-  slug: hubspot-crm-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-services-api-openapi.yml
-- filename: hubspot-crm-tasks-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Tasks API
-  slug: hubspot-crm-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-tasks-api-openapi.yml
-- filename: hubspot-crm-tasks-series-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Tasks Series API
-  slug: hubspot-crm-tasks-series-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-tasks-series-api-openapi.yml
-- filename: hubspot-crm-taxes-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Taxes API
-  slug: hubspot-crm-taxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-taxes-api-openapi.yml
-- filename: hubspot-crm-tickets-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Tickets API
-  slug: hubspot-crm-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-tickets-api-openapi.yml
-- filename: hubspot-crm-timeline-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Timeline API
-  slug: hubspot-crm-timeline-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-timeline-api-openapi.yml
-- filename: hubspot-crm-transcriptions-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Transcriptions API
-  slug: hubspot-crm-transcriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-transcriptions-api-openapi.yml
-- filename: hubspot-crm-users-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Users API
-  slug: hubspot-crm-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-users-api-openapi.yml
-- filename: hubspot-crm-video-conferencing-extension-api-openapi.yml
-  format: yaml
-  label: HubSpot CRM Video Conferencing Extension API
-  slug: hubspot-crm-video-conferencing-extension-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-crm-video-conferencing-extension-api-openapi.yml
-- filename: hubspot-data-studio-datasource-ingestion-api-openapi.yml
-  format: yaml
-  label: HubSpot Data Studio Datasource Ingestion API
-  slug: hubspot-data-studio-datasource-ingestion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-data-studio-datasource-ingestion-api-openapi.yml
-- filename: hubspot-events-events-api-openapi.yml
-  format: yaml
-  label: HubSpot Events API
-  slug: hubspot-events-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-events-events-api-openapi.yml
-- filename: hubspot-events-manage-event-definitions-api-openapi.yml
-  format: yaml
-  label: HubSpot Events Manage Event Definitions API
-  slug: hubspot-events-manage-event-definitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-events-manage-event-definitions-api-openapi.yml
-- filename: hubspot-events-send-event-completions-api-openapi.yml
-  format: yaml
-  label: HubSpot Events Send Event Completions API
-  slug: hubspot-events-send-event-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-events-send-event-completions-api-openapi.yml
-- filename: hubspot-files-files-api-openapi.yml
+- filename: hubspot-files-api-openapi.yml
   format: yaml
   label: HubSpot Files API
-  slug: hubspot-files-files-api
+  slug: hubspot-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-files-files-api-openapi.yml
-- filename: hubspot-marketing-campaigns-public-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-files-api-openapi.yml
+- filename: hubspot-a-b-tests-api-openapi.yml
   format: yaml
-  label: HubSpot Marketing Campaigns Public API API
-  slug: hubspot-marketing-campaigns-public-api-api
+  label: HubSpot A/B tests API
+  slug: hubspot-a-b-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-marketing-campaigns-public-api-api-openapi.yml
-- filename: hubspot-marketing-marketing-emails-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-a-b-tests-api-openapi.yml
+- filename: hubspot-actors-api-openapi.yml
   format: yaml
-  label: HubSpot Marketing Emails API
-  slug: hubspot-marketing-marketing-emails-api
+  label: HubSpot Actors API
+  slug: hubspot-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-marketing-marketing-emails-api-openapi.yml
-- filename: hubspot-marketing-marketing-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-actors-api-openapi.yml
+- filename: hubspot-advanced-api-openapi.yml
   format: yaml
-  label: HubSpot Marketing Events API
-  slug: hubspot-marketing-marketing-events-api
+  label: HubSpot Advanced API
+  slug: hubspot-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-marketing-marketing-events-api-openapi.yml
-- filename: hubspot-marketing-single-send-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-advanced-api-openapi.yml
+- filename: hubspot-assets-api-openapi.yml
   format: yaml
-  label: HubSpot Marketing Single Send API
-  slug: hubspot-marketing-single-send-api
+  label: HubSpot Assets API
+  slug: hubspot-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-marketing-single-send-api-openapi.yml
-- filename: hubspot-marketing-transactional-single-send-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-assets-api-openapi.yml
+- filename: hubspot-basic-api-openapi.yml
   format: yaml
-  label: HubSpot Marketing Transactional Single Send API
-  slug: hubspot-marketing-transactional-single-send-api
+  label: HubSpot Basic API
+  slug: hubspot-basic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-marketing-transactional-single-send-api-openapi.yml
-- filename: hubspot-meta-origins-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-basic-api-openapi.yml
+- filename: hubspot-batch-api-openapi.yml
   format: yaml
-  label: HubSpot Meta Origins API
-  slug: hubspot-meta-origins-api
+  label: HubSpot Batch API
+  slug: hubspot-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-meta-origins-api-openapi.yml
-- filename: hubspot-scheduler-meetings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-batch-api-openapi.yml
+- filename: hubspot-budget-api-openapi.yml
   format: yaml
-  label: HubSpot Scheduler Meetings API
-  slug: hubspot-scheduler-meetings-api
+  label: HubSpot Budget API
+  slug: hubspot-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-scheduler-meetings-api-openapi.yml
-- filename: hubspot-settings-multicurrency-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-budget-api-openapi.yml
+- filename: hubspot-callbacks-api-openapi.yml
   format: yaml
-  label: HubSpot Settings Multicurrency API
-  slug: hubspot-settings-multicurrency-api
+  label: HubSpot Callbacks API
+  slug: hubspot-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-settings-multicurrency-api-openapi.yml
-- filename: hubspot-settings-tax-rates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-callbacks-api-openapi.yml
+- filename: hubspot-central-fx-rates-api-openapi.yml
   format: yaml
-  label: HubSpot Settings Tax Rates API
-  slug: hubspot-settings-tax-rates-api
+  label: HubSpot Central FX rates API
+  slug: hubspot-central-fx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-settings-tax-rates-api-openapi.yml
-- filename: hubspot-settings-teams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-central-fx-rates-api-openapi.yml
+- filename: hubspot-channel-accounts-api-openapi.yml
   format: yaml
-  label: HubSpot Settings Teams API
-  slug: hubspot-settings-teams-api
+  label: HubSpot Channel accounts API
+  slug: hubspot-channel-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-settings-teams-api-openapi.yml
-- filename: hubspot-settings-user-provisioning-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-channel-accounts-api-openapi.yml
+- filename: hubspot-channels-api-openapi.yml
   format: yaml
-  label: HubSpot Settings User Provisioning API
-  slug: hubspot-settings-user-provisioning-api
+  label: HubSpot Channels API
+  slug: hubspot-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-settings-user-provisioning-api-openapi.yml
-- filename: hubspot-test-at-tests-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-channels-api-openapi.yml
+- filename: hubspot-definitions-api-openapi.yml
   format: yaml
-  label: HubSpot Test At Tests API
-  slug: hubspot-test-at-tests-api
+  label: HubSpot Definitions API
+  slug: hubspot-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-test-at-tests-api-openapi.yml
-- filename: hubspot-webhooks-journal-webhooks-journal-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-definitions-api-openapi.yml
+- filename: hubspot-emails-api-openapi.yml
   format: yaml
-  label: HubSpot Webhooks Journal API
-  slug: hubspot-webhooks-journal-webhooks-journal-api
+  label: HubSpot Emails API
+  slug: hubspot-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-webhooks-journal-webhooks-journal-api-openapi.yml
-- filename: hubspot-webhooks-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-emails-api-openapi.yml
+- filename: hubspot-event-attendees-api-openapi.yml
   format: yaml
-  label: HubSpot Webhooks API
-  slug: hubspot-webhooks-webhooks-api
+  label: HubSpot Event Attendees API
+  slug: hubspot-event-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-webhooks-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-event-attendees-api-openapi.yml
+- filename: hubspot-event-status-api-openapi.yml
+  format: yaml
+  label: HubSpot Event Status API
+  slug: hubspot-event-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-event-status-api-openapi.yml
+- filename: hubspot-exchange-rates-api-openapi.yml
+  format: yaml
+  label: HubSpot Exchange rates API
+  slug: hubspot-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-exchange-rates-api-openapi.yml
+- filename: hubspot-files-api-openapi.yml
+  format: yaml
+  label: HubSpot Files API
+  slug: hubspot-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-files-api-openapi.yml
+- filename: hubspot-folders-api-openapi.yml
+  format: yaml
+  label: HubSpot Folders API
+  slug: hubspot-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-folders-api-openapi.yml
+- filename: hubspot-functions-api-openapi.yml
+  format: yaml
+  label: HubSpot Functions API
+  slug: hubspot-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-functions-api-openapi.yml
+- filename: hubspot-identifiers-api-openapi.yml
+  format: yaml
+  label: HubSpot Identifiers API
+  slug: hubspot-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-identifiers-api-openapi.yml
+- filename: hubspot-inboxes-api-openapi.yml
+  format: yaml
+  label: HubSpot Inboxes API
+  slug: hubspot-inboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-inboxes-api-openapi.yml
+- filename: hubspot-items-api-openapi.yml
+  format: yaml
+  label: HubSpot Items API
+  slug: hubspot-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-items-api-openapi.yml
+- filename: hubspot-labels-api-openapi.yml
+  format: yaml
+  label: HubSpot Labels API
+  slug: hubspot-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-labels-api-openapi.yml
+- filename: hubspot-landing-pages-api-openapi.yml
+  format: yaml
+  label: HubSpot Landing pages API
+  slug: hubspot-landing-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-landing-pages-api-openapi.yml
+- filename: hubspot-limits-api-openapi.yml
+  format: yaml
+  label: HubSpot Limits API
+  slug: hubspot-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-limits-api-openapi.yml
+- filename: hubspot-list-associations-api-openapi.yml
+  format: yaml
+  label: HubSpot List Associations API
+  slug: hubspot-list-associations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-list-associations-api-openapi.yml
+- filename: hubspot-messages-api-openapi.yml
+  format: yaml
+  label: HubSpot Messages API
+  slug: hubspot-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-messages-api-openapi.yml
+- filename: hubspot-metrics-api-openapi.yml
+  format: yaml
+  label: HubSpot Metrics API
+  slug: hubspot-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-metrics-api-openapi.yml
+- filename: hubspot-multi-language-api-openapi.yml
+  format: yaml
+  label: HubSpot Multi Language API
+  slug: hubspot-multi-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-multi-language-api-openapi.yml
+- filename: hubspot-participant-state-api-openapi.yml
+  format: yaml
+  label: HubSpot Participant State API
+  slug: hubspot-participant-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-participant-state-api-openapi.yml
+- filename: hubspot-revisions-api-openapi.yml
+  format: yaml
+  label: HubSpot Revisions API
+  slug: hubspot-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-revisions-api-openapi.yml
+- filename: hubspot-roles-api-openapi.yml
+  format: yaml
+  label: HubSpot Roles API
+  slug: hubspot-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-roles-api-openapi.yml
+- filename: hubspot-rows-api-openapi.yml
+  format: yaml
+  label: HubSpot Rows API
+  slug: hubspot-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-rows-api-openapi.yml
+- filename: hubspot-search-api-openapi.yml
+  format: yaml
+  label: HubSpot Search API
+  slug: hubspot-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-search-api-openapi.yml
+- filename: hubspot-send-transactional-email-api-openapi.yml
+  format: yaml
+  label: HubSpot Send transactional email API
+  slug: hubspot-send-transactional-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-send-transactional-email-api-openapi.yml
+- filename: hubspot-settings-api-openapi.yml
+  format: yaml
+  label: HubSpot Settings API
+  slug: hubspot-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-settings-api-openapi.yml
+- filename: hubspot-smtp-tokens-api-openapi.yml
+  format: yaml
+  label: HubSpot SMTP Tokens API
+  slug: hubspot-smtp-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-smtp-tokens-api-openapi.yml
+- filename: hubspot-spend-api-openapi.yml
+  format: yaml
+  label: HubSpot Spend API
+  slug: hubspot-spend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-spend-api-openapi.yml
+- filename: hubspot-status-api-openapi.yml
+  format: yaml
+  label: HubSpot Status API
+  slug: hubspot-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-status-api-openapi.yml
+- filename: hubspot-subscriber-state-changes-api-openapi.yml
+  format: yaml
+  label: HubSpot Subscriber State Changes API
+  slug: hubspot-subscriber-state-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-subscriber-state-changes-api-openapi.yml
+- filename: hubspot-tables-api-openapi.yml
+  format: yaml
+  label: HubSpot Tables API
+  slug: hubspot-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-tables-api-openapi.yml
+- filename: hubspot-teams-api-openapi.yml
+  format: yaml
+  label: HubSpot Teams API
+  slug: hubspot-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-teams-api-openapi.yml
+- filename: hubspot-threads-api-openapi.yml
+  format: yaml
+  label: HubSpot Threads API
+  slug: hubspot-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-threads-api-openapi.yml
+- filename: hubspot-users-api-openapi.yml
+  format: yaml
+  label: HubSpot Users API
+  slug: hubspot-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-users-api-openapi.yml
+- filename: hubspot-website-pages-api-openapi.yml
+  format: yaml
+  label: HubSpot Website pages API
+  slug: hubspot-website-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-website-pages-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -781,4 +391,5 @@ tags:
 - Marketing
 - Marketing Automation
 - Sales
+- HubSpot
 ---

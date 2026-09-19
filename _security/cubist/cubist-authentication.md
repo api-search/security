@@ -99,12 +99,6 @@ api_specs:
   slug: cubist-mmi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/openapi/cubist-mmi-api-openapi.yml
-- filename: cubist-oauth2-api-openapi.yml
-  format: yaml
-  label: Cubist OAuth2 API
-  slug: cubist-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/openapi/cubist-oauth2-api-openapi.yml
 - filename: cubist-org-api-openapi.yml
   format: yaml
   label: Cubist Org API
@@ -183,6 +177,12 @@ api_specs:
   slug: cubist-users-in-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/openapi/cubist-users-in-role-api-openapi.yml
+- filename: cubist-oauth2-api-openapi.yml
+  format: yaml
+  label: Cubist O Auth2 API
+  slug: cubist-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/openapi/cubist-oauth2-api-openapi.yml
 auth_types:
 - oidc-exchange
 - session-token
@@ -226,7 +226,7 @@ tags:
 - Developer Tools
 - Key Management
 - Wallets
-- Digital Signatures
+- Digital Signature
 - Security
 - Blockchain
 - Web3

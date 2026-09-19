@@ -644,6 +644,6 @@ tags:
 - MCP
 - Agents
 - Dialer
-- Pipeline
+- Pipelines
 - Forecasting
 ---

@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - Medical Imaging
 - Medical Devices
-- Telemedicine
+- Telehealth
 - China
 ---

@@ -55,5 +55,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inttra-ocean-execution-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained from the INTTRA identity service\n  sources:\n  - openapi/inttra-ocean-execution-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/authentication/e2open-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Logistics
+- Supply Chain
+- Transportation
+- Booking
 ---

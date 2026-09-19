@@ -3,18 +3,84 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: 4paradigm-openaios-platform.yaml
+- filename: 4paradigm-account-api-openapi.yml
   format: yaml
-  label: OpenAIOS Platform API (Pineapple)
-  slug: 4paradigm-openaios-platform
+  label: 4Paradigm Account API
+  slug: 4paradigm-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-openaios-platform.yaml
-- filename: 4paradigm-openaios-billing.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-account-api-openapi.yml
+- filename: 4paradigm-applications-api-openapi.yml
   format: yaml
-  label: OpenAIOS Platform Billing API
-  slug: 4paradigm-openaios-billing
+  label: 4Paradigm Applications API
+  slug: 4paradigm-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-openaios-billing.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-applications-api-openapi.yml
+- filename: 4paradigm-competition-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Competition API
+  slug: 4paradigm-competition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-competition-api-openapi.yml
+- filename: 4paradigm-computeunit-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Computeunit API
+  slug: 4paradigm-computeunit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-computeunit-api-openapi.yml
+- filename: 4paradigm-computing-resource-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Computing Resource API
+  slug: 4paradigm-computing-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-computing-resource-api-openapi.yml
+- filename: 4paradigm-environments-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Environments API
+  slug: 4paradigm-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-environments-api-openapi.yml
+- filename: 4paradigm-finished-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Finished API
+  slug: 4paradigm-finished-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-finished-api-openapi.yml
+- filename: 4paradigm-images-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Images API
+  slug: 4paradigm-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-images-api-openapi.yml
+- filename: 4paradigm-logs-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Logs API
+  slug: 4paradigm-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-logs-api-openapi.yml
+- filename: 4paradigm-releases-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Releases API
+  slug: 4paradigm-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-releases-api-openapi.yml
+- filename: 4paradigm-storage-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Storage API
+  slug: 4paradigm-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-storage-api-openapi.yml
+- filename: 4paradigm-users-api-openapi.yml
+  format: yaml
+  label: 4Paradigm Users API
+  slug: 4paradigm-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-users-api-openapi.yml
+- filename: 4paradigm-app-store-api-openapi.yml
+  format: yaml
+  label: 4Paradigm App Store API
+  slug: 4paradigm-app-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/openapi/4paradigm-app-store-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect
@@ -89,10 +155,10 @@ summary_line: apiKey/openIdConnect/none · 6 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Feature Store
-- Databases
-- Open Source
+- Database
+- Open-Source
 - MLOps
 - Agents
 - Robotics

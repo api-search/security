@@ -2,24 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: coinlist-documentsubmissions-api-openapi.yml
-  format: yaml
-  label: CoinList DocumentSubmissions API
-  slug: coinlist-documentsubmissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-documentsubmissions-api-openapi.yml
 - filename: coinlist-kyc-api-openapi.yml
   format: yaml
   label: CoinList KYC API
   slug: coinlist-kyc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-kyc-api-openapi.yml
-- filename: coinlist-oauth-api-openapi.yml
-  format: yaml
-  label: CoinList OAuth API
-  slug: coinlist-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-oauth-api-openapi.yml
 - filename: coinlist-offers-api-openapi.yml
   format: yaml
   label: CoinList Offers API
@@ -68,6 +56,18 @@ api_specs:
   slug: coinlist-wallet-ownership-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-wallet-ownership-api-openapi.yml
+- filename: coinlist-oauth-api-openapi.yml
+  format: yaml
+  label: CoinList O Auth API
+  slug: coinlist-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-oauth-api-openapi.yml
+- filename: coinlist-document-submissions-api-openapi.yml
+  format: yaml
+  label: CoinList document submissions API
+  slug: coinlist-document-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-document-submissions-api-openapi.yml
 auth_types:
 - http
 - oauth2

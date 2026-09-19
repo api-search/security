@@ -64,16 +64,10 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-globalschedules-api-openapi.yml
 - filename: azure-test-labs-labs-api-openapi.yml
   format: yaml
-  label: Azure DevTest Labs Labs API
+  label: Azure DevTest Labs API
   slug: azure-test-labs-labs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-labs-api-openapi.yml
-- filename: azure-test-labs-notificationchannels-api-openapi.yml
-  format: yaml
-  label: Azure DevTest Labs NotificationChannels API
-  slug: azure-test-labs-notificationchannels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-notificationchannels-api-openapi.yml
 - filename: azure-test-labs-operations-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Operations API
@@ -86,12 +80,6 @@ api_specs:
   slug: azure-test-labs-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-policies-api-openapi.yml
-- filename: azure-test-labs-policysets-api-openapi.yml
-  format: yaml
-  label: Azure DevTest Labs PolicySets API
-  slug: azure-test-labs-policysets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-policysets-api-openapi.yml
 - filename: azure-test-labs-provideroperations-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs ProviderOperations API
@@ -134,24 +122,36 @@ api_specs:
   slug: azure-test-labs-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-users-api-openapi.yml
-- filename: azure-test-labs-virtualmachines-api-openapi.yml
-  format: yaml
-  label: Azure DevTest Labs VirtualMachines API
-  slug: azure-test-labs-virtualmachines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-virtualmachines-api-openapi.yml
 - filename: azure-test-labs-virtualmachineschedules-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs VirtualMachineSchedules API
   slug: azure-test-labs-virtualmachineschedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-virtualmachineschedules-api-openapi.yml
-- filename: azure-test-labs-virtualnetworks-api-openapi.yml
+- filename: azure-test-labs-notification-channels-api-openapi.yml
   format: yaml
-  label: Azure DevTest Labs VirtualNetworks API
-  slug: azure-test-labs-virtualnetworks-api
+  label: Azure DevTest Labs Notification Channels API
+  slug: azure-test-labs-notification-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-virtualnetworks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-notification-channels-api-openapi.yml
+- filename: azure-test-labs-policy-sets-api-openapi.yml
+  format: yaml
+  label: Azure DevTest Labs Policy Sets API
+  slug: azure-test-labs-policy-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-policy-sets-api-openapi.yml
+- filename: azure-test-labs-virtual-machines-api-openapi.yml
+  format: yaml
+  label: Azure DevTest Labs Virtual Machines API
+  slug: azure-test-labs-virtual-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-virtual-machines-api-openapi.yml
+- filename: azure-test-labs-virtual-networks-api-openapi.yml
+  format: yaml
+  label: Azure DevTest Labs Virtual Networks API
+  slug: azure-test-labs-virtual-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/openapi/azure-test-labs-virtual-networks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

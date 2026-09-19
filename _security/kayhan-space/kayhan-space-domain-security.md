@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-propagation-api-openapi.yml
 - filename: kayhan-space-satcat-service-api-api-openapi.yml
   format: yaml
-  label: Kayhan Space Satcat Service API API
+  label: Kayhan Space Satcat Service API
   slug: kayhan-space-satcat-service-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-satcat-service-api-api-openapi.yml

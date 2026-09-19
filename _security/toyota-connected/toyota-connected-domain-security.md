@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toyota-connect
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Connected Car
 - Telematics
 - Mobility

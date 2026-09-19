@@ -53,5 +53,5 @@ tags:
 - Fintech
 - Philippines
 - Multi-Currency
-- Remittance
+- Remittances
 ---

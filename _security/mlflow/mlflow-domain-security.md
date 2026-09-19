@@ -66,9 +66,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/security/mlflow-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- ML
+- Machine-Learning
 - MLOps
-- GenAI
+- Generative AI
 - Experiment Tracking
 - Open-Source
 ---

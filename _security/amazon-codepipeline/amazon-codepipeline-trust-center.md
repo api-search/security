@@ -272,8 +272,9 @@ tags:
 - Amazon
 - CI/CD
 - Continuous Delivery
+- Developer Tools
 - DevOps
-- Pipeline
+- Pipelines
 - Release Automation
 trust_url: https://aws.amazon.com/compliance/
 ---

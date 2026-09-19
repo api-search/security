@@ -30,18 +30,6 @@ api_specs:
   slug: cigna-explanationofbenefit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-explanationofbenefit-api-openapi.yml
-- filename: cigna-healthcareservice-api-openapi.yml
-  format: yaml
-  label: Cigna HealthcareService API
-  slug: cigna-healthcareservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-healthcareservice-api-openapi.yml
-- filename: cigna-insuranceplan-api-openapi.yml
-  format: yaml
-  label: Cigna InsurancePlan API
-  slug: cigna-insuranceplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-insuranceplan-api-openapi.yml
 - filename: cigna-location-api-openapi.yml
   format: yaml
   label: Cigna Location API
@@ -54,12 +42,6 @@ api_specs:
   slug: cigna-medicationknowledge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medicationknowledge-api-openapi.yml
-- filename: cigna-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Cigna MedicationRequest API
-  slug: cigna-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medicationrequest-api-openapi.yml
 - filename: cigna-observation-api-openapi.yml
   format: yaml
   label: Cigna Observation API
@@ -84,12 +66,30 @@ api_specs:
   slug: cigna-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitioner-api-openapi.yml
-- filename: cigna-practitionerrole-api-openapi.yml
+- filename: cigna-healthcare-service-api-openapi.yml
   format: yaml
-  label: Cigna PractitionerRole API
-  slug: cigna-practitionerrole-api
+  label: Cigna Healthcare Service API
+  slug: cigna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitionerrole-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-healthcare-service-api-openapi.yml
+- filename: cigna-insurance-plan-api-openapi.yml
+  format: yaml
+  label: Cigna Insurance Plan API
+  slug: cigna-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-insurance-plan-api-openapi.yml
+- filename: cigna-medication-request-api-openapi.yml
+  format: yaml
+  label: Cigna Medication Request API
+  slug: cigna-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medication-request-api-openapi.yml
+- filename: cigna-practitioner-role-api-openapi.yml
+  format: yaml
+  label: Cigna Practitioner Role API
+  slug: cigna-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa: []

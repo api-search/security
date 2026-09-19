@@ -248,12 +248,6 @@ api_specs:
   slug: marketo-program-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-program-members-api-openapi.yml
-- filename: marketo-sales-persons-api-openapi.yml
-  format: yaml
-  label: Marketo Sales Persons API
-  slug: marketo-sales-persons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-sales-persons-api-openapi.yml
 - filename: marketo-tags-api-openapi.yml
   format: yaml
   label: Marketo Tags API
@@ -272,6 +266,12 @@ api_specs:
   slug: marketo-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-user-management-api-openapi.yml
+- filename: marketo-salespersons-api-openapi.yml
+  format: yaml
+  label: Marketo Salespersons API
+  slug: marketo-salespersons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-salespersons-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -317,4 +317,5 @@ tags:
 - CRM
 - Customer Engagement
 - B2B
+- Marketo
 ---

@@ -78,12 +78,6 @@ api_specs:
   slug: smtp2go-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-emails-api-openapi.yml
-- filename: smtp2go-ip-allow-list-api-openapi.yml
-  format: yaml
-  label: SMTP2GO IP Allow List API
-  slug: smtp2go-ip-allow-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-ip-allow-list-api-openapi.yml
 - filename: smtp2go-ip-auth-api-openapi.yml
   format: yaml
   label: SMTP2GO IP AUTH API
@@ -108,6 +102,12 @@ api_specs:
   slug: smtp2go-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-statistics-api-openapi.yml
+- filename: smtp2go-ip-allowlist-api-openapi.yml
+  format: yaml
+  label: SMTP2GO IP Allowlist API
+  slug: smtp2go-ip-allowlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-ip-allowlist-api-openapi.yml
 description: ''
 domains:
 - caa: []

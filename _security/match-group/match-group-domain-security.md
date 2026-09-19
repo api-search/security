@@ -33,6 +33,6 @@ tags:
 - Dating
 - Consumer Internet
 - Social
-- Mobile Apps
+- Mobile App
 - Subscription
 ---

@@ -84,12 +84,6 @@ api_specs:
   slug: elliptic-wallet-analyses-count-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-analyses-count-api-openapi.yml
-- filename: elliptic-wallet-api-openapi.yml
-  format: yaml
-  label: Elliptic Wallet API
-  slug: elliptic-wallet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-api-openapi.yml
 - filename: elliptic-wallet-workflow-api-openapi.yml
   format: yaml
   label: Elliptic Wallet Workflow API

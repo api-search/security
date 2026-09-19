@@ -235,7 +235,7 @@ summary_line: ISO 27001, ISO 27017, PCI DSS, GDPR, FIPS 140
 tags:
 - Banking Infrastructure
 - Fintech
-- Investments
+- Investment
 - Securities
 - Fractional Investing
 - Custody

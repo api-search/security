@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-listener-pools-api-openapi.yml
 - filename: radio-mast-radio-mast-api-api-openapi.yml
   format: yaml
-  label: Radio Mast Radio Mast API API
+  label: Radio Mast Radio Mast API
   slug: radio-mast-radio-mast-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-mast-api-api-openapi.yml

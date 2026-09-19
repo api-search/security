@@ -432,12 +432,6 @@ api_specs:
   slug: university-of-amsterdam-organization-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-organization-management-api-openapi.yml
-- filename: university-of-amsterdam-pass-through-api-openapi.yml
-  format: yaml
-  label: University of Amsterdam Pass Through API
-  slug: university-of-amsterdam-pass-through-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-pass-through-api-openapi.yml
 - filename: university-of-amsterdam-plugins-api-openapi.yml
   format: yaml
   label: University of Amsterdam Plugins API
@@ -684,6 +678,12 @@ api_specs:
   slug: university-of-amsterdam-workflow-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-workflow-management-api-openapi.yml
+- filename: university-of-amsterdam-passthrough-api-openapi.yml
+  format: yaml
+  label: University of Amsterdam Passthrough API
+  slug: university-of-amsterdam-passthrough-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/openapi/university-of-amsterdam-passthrough-api-openapi.yml
 description: ''
 domains:
 - caa:

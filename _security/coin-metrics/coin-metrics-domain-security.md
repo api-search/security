@@ -102,18 +102,18 @@ api_specs:
   slug: coin-metrics-taxonomy-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/openapi/coin-metrics-taxonomy-metadata-api-openapi.yml
-- filename: coin-metrics-timeseries-api-openapi.yml
-  format: yaml
-  label: Coin Metrics Timeseries API
-  slug: coin-metrics-timeseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/openapi/coin-metrics-timeseries-api-openapi.yml
 - filename: coin-metrics-timeseries-stream-api-openapi.yml
   format: yaml
   label: Coin Metrics Timeseries stream API
   slug: coin-metrics-timeseries-stream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/openapi/coin-metrics-timeseries-stream-api-openapi.yml
+- filename: coin-metrics-time-series-api-openapi.yml
+  format: yaml
+  label: Coin Metrics Time Series API
+  slug: coin-metrics-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/openapi/coin-metrics-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -163,7 +163,7 @@ tags:
 - Crypto
 - Blockchain
 - On-Chain Data
-- Indexes
+- Index
 - Reference Rates
 - Order Book
 - Real-Time

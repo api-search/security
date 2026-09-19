@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ryse/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Smart Home
-- Internet of Things
+- IoT
 - Consumer Electronics
 - Home Automation
 - Window Coverings

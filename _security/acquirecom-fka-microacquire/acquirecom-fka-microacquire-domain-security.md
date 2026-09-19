@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acquirecom-fka
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Mergers and Acquisitions
 - Startups
 - Business Brokerage

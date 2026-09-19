@@ -75,7 +75,7 @@ tags:
 - dermatology-api
 - ai-dermatology
 - Medical Imaging
-- Telemedicine
+- Telehealth
 - skin-analysis
 - REST API
 - OpenAPI
@@ -85,7 +85,7 @@ tags:
 - Healthcare
 - Medical AI
 - Computer-Vision
-- Medical Device
+- Medical Devices
 - ICD-10
 - image-classification
 - Clinical Decision Support

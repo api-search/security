@@ -85,10 +85,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uplistin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/authentication/uplisting-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Channel Manager
 - Property Management
-- Bookings
+- Booking
 - Hospitality
 ---

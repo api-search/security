@@ -24,7 +24,7 @@ tags:
 - Talent Acquisition
 - Talent Management
 - AI Interviewing
-- HR Tech
+- Human Resources
 - Workforce Planning
 - Agentic AI
 trust_url: https://trust.eightfold.ai/

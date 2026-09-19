@@ -36,5 +36,5 @@ tags:
 - Hardware
 - Robotics
 - Seed Stage
-- Investors
+- Investor
 ---

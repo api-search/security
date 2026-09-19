@@ -6,12 +6,6 @@ api_specs:
   slug: n3xt-approvals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-approvals-api-openapi.yml
-- filename: n3xt-audittrail-api-openapi.yml
-  format: yaml
-  label: N3XT AuditTrail API
-  slug: n3xt-audittrail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-audittrail-api-openapi.yml
 - filename: n3xt-businesses-api-openapi.yml
   format: yaml
   label: N3XT Businesses API
@@ -66,6 +60,12 @@ api_specs:
   slug: n3xt-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-wallets-api-openapi.yml
+- filename: n3xt-audit-trail-api-openapi.yml
+  format: yaml
+  label: N3XT Audit Trail API
+  slug: n3xt-audit-trail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/openapi/n3xt-audit-trail-api-openapi.yml
 description: ''
 domains:
 - caa:

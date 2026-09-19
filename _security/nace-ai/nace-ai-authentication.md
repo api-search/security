@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-health-api-openapi.yml
 - filename: nace-ai-public-api-api-openapi.yml
   format: yaml
-  label: Nace Ai public-api API
+  label: Nace Ai public-api
   slug: nace-ai-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-public-api-api-openapi.yml

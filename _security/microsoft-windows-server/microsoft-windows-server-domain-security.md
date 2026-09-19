@@ -12,12 +12,12 @@ api_specs:
   slug: microsoft-windows-server-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-applications-api-openapi.yml
-- filename: microsoft-windows-server-web-sites-api-openapi.yml
+- filename: microsoft-windows-server-websites-api-openapi.yml
   format: yaml
-  label: Microsoft Windows Server Web Sites API
-  slug: microsoft-windows-server-web-sites-api
+  label: Microsoft Windows Server Websites API
+  slug: microsoft-windows-server-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-web-sites-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-websites-api-openapi.yml
 description: ''
 domains:
 - caa:

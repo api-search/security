@@ -12,18 +12,6 @@ api_specs:
   slug: gemini-embeddings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-embeddings-api-openapi.yml
-- filename: gemini-embeddings-api-openapi.yml
-  format: yaml
-  label: Gemini Embeddings API
-  slug: gemini-embeddings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-embeddings-api-openapi.yml
-- filename: gemini-files-api-openapi.yml
-  format: yaml
-  label: Gemini Files API
-  slug: gemini-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/openapi/gemini-files-api-openapi.yml
 - filename: gemini-generation-api-openapi.yml
   format: yaml
   label: Gemini Generation API
@@ -104,7 +92,7 @@ tags:
 - Function Calling
 - Generative AI
 - Image-Generation
-- Large Language Models
+- LLM
 - Machine-Learning
 - Multi-Modal
 - Structured Output

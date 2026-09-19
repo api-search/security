@@ -36,7 +36,7 @@ tags:
 - Gaming
 - Social
 - Augmented Reality
-- Consumer Apps
+- Consumer App
 - Character IP
 - Entertainment
 ---

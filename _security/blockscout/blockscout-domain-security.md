@@ -141,4 +141,8 @@ tags:
 - GraphQL
 - REST
 - Etherscan-Compatible
+- MCP
+- Agent Skills
+- x402
+- agent-native
 ---

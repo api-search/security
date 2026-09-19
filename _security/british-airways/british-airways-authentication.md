@@ -88,7 +88,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - Booking

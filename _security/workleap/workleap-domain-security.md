@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Employee Experience
-- HR
+- Human Resources
 - Engagement
 - Pulse Surveys
 - Performance Management

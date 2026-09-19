@@ -44,18 +44,18 @@ api_specs:
   slug: memo-therapeutics-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memo-therapeutics/refs/heads/main/openapi/memo-therapeutics-discovery-api-openapi.yml
-- filename: memo-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Memo Therapeutics oEmbed API
-  slug: memo-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-therapeutics/refs/heads/main/openapi/memo-therapeutics-oembed-api-openapi.yml
 - filename: memo-therapeutics-navigation-api-openapi.yml
   format: yaml
   label: Memo Therapeutics Navigation API
   slug: memo-therapeutics-navigation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memo-therapeutics/refs/heads/main/openapi/memo-therapeutics-navigation-api-openapi.yml
+- filename: memo-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Memo Therapeutics o Embed API
+  slug: memo-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memo-therapeutics/refs/heads/main/openapi/memo-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

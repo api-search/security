@@ -6,12 +6,6 @@ api_specs:
   slug: one-inch-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-balance-api-openapi.yml
-- filename: one-inch-gasprice-api-openapi.yml
-  format: yaml
-  label: 1inch GasPrice API
-  slug: one-inch-gasprice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-gasprice-api-openapi.yml
 - filename: one-inch-orderbook-api-openapi.yml
   format: yaml
   label: 1inch Orderbook API
@@ -42,6 +36,12 @@ api_specs:
   slug: one-inch-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-token-api-openapi.yml
+- filename: one-inch-gas-price-api-openapi.yml
+  format: yaml
+  label: 1inch Gas Price API
+  slug: one-inch-gas-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-gas-price-api-openapi.yml
 description: ''
 domains:
 - caa: []

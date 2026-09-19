@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: adonmoprivatelimited-adonmo-api.json
-  format: json
-  label: Adonmo API
-  slug: adonmoprivatelimited-adonmo-api
+- filename: adonmoprivatelimited-acumen-api-openapi.yml
+  format: yaml
+  label: Adonmo Private Limited Acumen API
+  slug: adonmoprivatelimited-acumen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/openapi/adonmoprivatelimited-adonmo-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/openapi/adonmoprivatelimited-acumen-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,8 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatel
 summary_line: TLSv1.3 · DMARC
 tags:
 - Advertising
-- Digital Out-of-Home
-- DOOH
+- Digital Out Of Home
 - Digital Signage
 - AdTech
 - Content Management

@@ -52,7 +52,7 @@ tags:
 - Gym Management
 - Studio Management
 - Scheduling
-- Memberships
+- Membership
 - Payments
 - Software-as-a-Service
 - MCP

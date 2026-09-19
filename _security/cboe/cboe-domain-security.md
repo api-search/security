@@ -49,10 +49,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Market Data
 - Options
-- Equities
+- Stocks
 - Derivatives
 - Volatility
 - Financial Markets
-- Exchanges
+- Exchange
 - Trading
 ---

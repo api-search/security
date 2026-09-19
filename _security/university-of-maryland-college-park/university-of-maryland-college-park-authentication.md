@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-maryland-college-park-libraries-website-tools-openapi.yml
+- filename: university-of-maryland-college-park-art-api-openapi.yml
   format: yaml
-  label: UMD Libraries Website Tools API
-  slug: libraries-website-tools
+  label: University of Maryland College Park Art API
+  slug: university-of-maryland-college-park-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-libraries-website-tools-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-art-api-openapi.yml
+- filename: university-of-maryland-college-park-makerspace-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Makerspace API
+  slug: university-of-maryland-college-park-makerspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
+- filename: university-of-maryland-college-park-mckeldin-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Mckeldin API
+  slug: university-of-maryland-college-park-mckeldin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
+- filename: university-of-maryland-college-park-mspal-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Mspal API
+  slug: university-of-maryland-college-park-mspal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
+- filename: university-of-maryland-college-park-stem-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Stem API
+  slug: university-of-maryland-college-park-stem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-stem-api-openapi.yml
 auth_types: []
 description: Authentication posture of the surfaces the University of Maryland actually operates itself. Every institution-operated library and repository read surface confirmed in this profile is open and keyless. The one exception is the campus Enterprise GIS, which publishes its service catalog without a credential and gates every service behind an ArcGIS token. Beyond that, the institution's authentication engineering is concentrated in its SAML identity provider, which authenticates people into vendor platforms rather than authorising API clients.
 kind: authentication

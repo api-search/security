@@ -2,7 +2,7 @@
 api_specs:
 - filename: apache-druid-druid-api-openapi.yml
   format: yaml
-  label: Apache Druid Druid API
+  label: Apache Druid API
   slug: apache-druid-druid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/openapi/apache-druid-druid-api-openapi.yml

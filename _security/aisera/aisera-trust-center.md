@@ -34,6 +34,6 @@ tags:
 - AI Copilot
 - Knowledge-Management
 - Workflow-Automation
-- Large Language Models
+- LLM
 trust_url: https://trust.aisera.com/
 ---

@@ -9,12 +9,6 @@ api_specs:
   slug: stream-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/asyncapi/bunny-net-stream-webhooks-asyncapi.yml
-- filename: bunny-net-apikeys-api-openapi.yml
-  format: yaml
-  label: Bunny.net APIKeys API
-  slug: bunny-net-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-apikeys-api-openapi.yml
 - filename: bunny-net-billing-api-openapi.yml
   format: yaml
   label: Bunny.net Billing API
@@ -27,12 +21,6 @@ api_specs:
   slug: bunny-net-countries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-countries-api-openapi.yml
-- filename: bunny-net-dnszones-api-openapi.yml
-  format: yaml
-  label: Bunny.net DNSZones API
-  slug: bunny-net-dnszones-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-dnszones-api-openapi.yml
 - filename: bunny-net-pullzones-api-openapi.yml
   format: yaml
   label: Bunny.net PullZones API
@@ -69,6 +57,18 @@ api_specs:
   slug: bunny-net-stream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-stream-api-openapi.yml
+- filename: bunny-net-api-keys-api-openapi.yml
+  format: yaml
+  label: Bunny.net API Keys API
+  slug: bunny-net-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-api-keys-api-openapi.yml
+- filename: bunny-net-dns-zones-api-openapi.yml
+  format: yaml
+  label: Bunny.net DNS Zones API
+  slug: bunny-net-dns-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-dns-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

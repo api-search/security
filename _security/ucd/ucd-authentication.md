@@ -2,12 +2,12 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: ucd-oai-pmh-openapi.yml
+- filename: ucd-oai-pmh-api-openapi.yml
   format: yaml
-  label: Research Repository UCD — OAI-PMH 2.0
-  slug: oai-pmh
+  label: University College Dublin OAI PMH API
+  slug: ucd-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-oai-pmh-api-openapi.yml
 auth_types: []
 description: How authentication actually works across the surfaces University College Dublin operates. UCD runs no API key programme, no OAuth authorization server and no developer self-service credential of any kind. Its one institution-operated authentication surface is federated SAML 2.0 single sign-on for people, which is not an API credential and cannot be used by an unaffiliated client.
 kind: authentication

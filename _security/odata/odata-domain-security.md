@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/openapi/odata-metadata-api-openapi.yml
 - filename: odata-odata-service-api-api-openapi.yml
   format: yaml
-  label: OData OData Service API API
+  label: OData Service API
   slug: odata-odata-service-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/openapi/odata-odata-service-api-api-openapi.yml

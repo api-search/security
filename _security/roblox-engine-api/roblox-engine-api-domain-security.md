@@ -6,12 +6,6 @@ api_specs:
   slug: roblox-engine-api-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-assets-api-openapi.yml
-- filename: roblox-engine-api-data-stores-api-openapi.yml
-  format: yaml
-  label: Roblox Engine API Data Stores API
-  slug: roblox-engine-api-data-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-data-stores-api-openapi.yml
 - filename: roblox-engine-api-groups-api-openapi.yml
   format: yaml
   label: Roblox Engine API Groups API
@@ -42,6 +36,12 @@ api_specs:
   slug: roblox-engine-api-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-users-api-openapi.yml
+- filename: roblox-engine-api-datastores-api-openapi.yml
+  format: yaml
+  label: Roblox Engine API Datastores API
+  slug: roblox-engine-api-datastores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-datastores-api-openapi.yml
 description: ''
 domains:
 - caa:

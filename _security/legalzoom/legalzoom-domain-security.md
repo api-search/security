@@ -45,7 +45,7 @@ tags:
 - Incorporation
 - Registered Agent
 - Compliance
-- Trademark
+- Trademarks
 - Legal Documents
 - Estate Planning
 - Wills

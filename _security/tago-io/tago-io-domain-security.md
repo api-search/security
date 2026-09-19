@@ -174,7 +174,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - IoT
-- Internet of Things
 - Devices
 - Data Storage
 - Dashboards

@@ -156,7 +156,7 @@ tags:
 - Acquiring
 - Card Payments
 - In-Person Payments
-- Terminals
+- Terminal
 - Point-of-Sale
 - Webhook
 ---

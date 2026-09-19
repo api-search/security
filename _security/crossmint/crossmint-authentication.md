@@ -9,12 +9,6 @@ api_specs:
   slug: crossmint-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/openapi/crossmint-balances-api-openapi.yml
-- filename: crossmint-nfts-api-openapi.yml
-  format: yaml
-  label: Crossmint NFTs API
-  slug: crossmint-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/openapi/crossmint-nfts-api-openapi.yml
 - filename: crossmint-signatures-api-openapi.yml
   format: yaml
   label: Crossmint Signatures API
@@ -45,6 +39,12 @@ api_specs:
   slug: crossmint-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/openapi/crossmint-wallets-api-openapi.yml
+- filename: crossmint-nfts-api-openapi.yml
+  format: yaml
+  label: Crossmint NF Ts API
+  slug: crossmint-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/openapi/crossmint-nfts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

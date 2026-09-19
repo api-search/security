@@ -55,7 +55,7 @@ tags:
 - Java
 - JAX-WS
 - SOAP
-- Standard
+- Standards
 - Web Services
 - XML
 ---

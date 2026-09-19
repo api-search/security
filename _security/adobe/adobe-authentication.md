@@ -312,7 +312,7 @@ tags:
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signatures
+- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

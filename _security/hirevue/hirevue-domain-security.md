@@ -35,9 +35,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Video Interviewing
-- Assessments
+- Assessment
 - AI Hiring
 - Scheduling
 - Conversational AI
-- HR Tech
+- Human Resources
 ---

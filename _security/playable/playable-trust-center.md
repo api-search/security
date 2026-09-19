@@ -12,18 +12,18 @@ api_specs:
   slug: playable-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-media-api-openapi.yml
-- filename: playable-oauth-api-openapi.yml
-  format: yaml
-  label: Playable OAUTH API
-  slug: playable-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-oauth-api-openapi.yml
 - filename: playable-user-api-openapi.yml
   format: yaml
   label: Playable User API
   slug: playable-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-user-api-openapi.yml
+- filename: playable-oauth-api-openapi.yml
+  format: yaml
+  label: Playable OAUTH API
+  slug: playable-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-oauth-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO 27001:2022

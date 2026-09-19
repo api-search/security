@@ -39,4 +39,5 @@ tags:
 - Video Courses
 - Acquired
 - LinkedIn
+- Defunct
 ---

@@ -37,7 +37,7 @@ tags:
 - Electronic Health Records
 - openEHR
 - FHIR
-- Hospital
+- Hospitals
 - Insurance
 - Systems Integrator
 - Microsoft Dynamics 365

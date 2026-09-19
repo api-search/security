@@ -36,7 +36,7 @@ tags:
 - Fintech
 - Employee Benefits
 - Financial Coaching
-- HR Tech
+- Human Resources
 - Financial Planning
 - AI Coaching
 ---

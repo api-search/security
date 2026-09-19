@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hello-therma/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Internet of Things
+- IoT
 - Energy
 - Sustainability
 - Cold Chain

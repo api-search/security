@@ -35,7 +35,7 @@ tags:
 - Defense
 - Generative AI
 - Enterprise Search
-- Retrieval Augmented Generation
+- RAG
 - Edge AI
 - Government
 trust_url: https://www.legionintel.com/security

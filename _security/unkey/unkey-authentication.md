@@ -8,12 +8,6 @@ api_specs:
   slug: unkey-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-analytics-api-openapi.yml
-- filename: unkey-apis-api-openapi.yml
-  format: yaml
-  label: Unkey apis API
-  slug: unkey-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-apis-api-openapi.yml
 - filename: unkey-deploy-api-openapi.yml
   format: yaml
   label: Unkey deploy API
@@ -44,12 +38,18 @@ api_specs:
   slug: unkey-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-permissions-api-openapi.yml
-- filename: unkey-ratelimit-api-openapi.yml
+- filename: unkey-apis-api-openapi.yml
   format: yaml
-  label: Unkey ratelimit API
-  slug: unkey-ratelimit-api
+  label: Unkey APIS API
+  slug: unkey-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-ratelimit-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-apis-api-openapi.yml
+- filename: unkey-rate-limit-api-openapi.yml
+  format: yaml
+  label: Unkey Rate Limit API
+  slug: unkey-rate-limit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-rate-limit-api-openapi.yml
 auth_types:
 - http
 description: ''

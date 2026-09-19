@@ -69,5 +69,5 @@ tags:
 - In-Store Media
 - Merchandising
 - Artificial Intelligence
-- Internet of Things
+- IoT
 ---

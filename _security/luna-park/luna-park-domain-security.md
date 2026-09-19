@@ -35,6 +35,6 @@ tags:
 - GV
 - Portfolio
 - Artificial Intelligence
-- Trades
+- Trade
 - Training
 ---

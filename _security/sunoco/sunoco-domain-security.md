@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunoco/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
-- Fuels
+- Fuel
 - Fuel Distribution
 - Convenience Stores
 - Midstream
 - Pipelines
-- Terminals
+- Terminal
 - Retail
 ---

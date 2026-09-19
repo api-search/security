@@ -428,13 +428,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/openapi/partnerize-partner-whitelisting-api-openapi.yml
 - filename: partnerize-partnerize-tag-features-api-openapi.yml
   format: yaml
-  label: Partnerize Partnerize Tag Features API
+  label: Partnerize Tag Features API
   slug: partnerize-partnerize-tag-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/openapi/partnerize-partnerize-tag-features-api-openapi.yml
 - filename: partnerize-partnerize-tags-api-openapi.yml
   format: yaml
-  label: Partnerize Partnerize Tags API
+  label: Partnerize Tags API
   slug: partnerize-partnerize-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/openapi/partnerize-partnerize-tags-api-openapi.yml

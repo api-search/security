@@ -38,6 +38,12 @@ api_specs:
   slug: workable-departments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-departments-api-openapi.yml
+- filename: workable-custom-attributes-api-openapi.yml
+  format: yaml
+  label: Workable Custom Attributes API
+  slug: workable-custom-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-custom-attributes-api-openapi.yml
 - filename: workable-offers-api-openapi.yml
   format: yaml
   label: Workable Offers API
@@ -62,12 +68,6 @@ api_specs:
   slug: workable-candidates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-candidates-api-openapi.yml
-- filename: workable-customattributes-api-openapi.yml
-  format: yaml
-  label: Workable CustomAttributes API
-  slug: workable-customattributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-customattributes-api-openapi.yml
 - filename: workable-departments-api-openapi.yml
   format: yaml
   label: Workable Departments API
@@ -116,12 +116,6 @@ api_specs:
   slug: workable-requisitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-requisitions-api-openapi.yml
-- filename: workable-reviewcycles-api-openapi.yml
-  format: yaml
-  label: Workable ReviewCycles API
-  slug: workable-reviewcycles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-reviewcycles-api-openapi.yml
 - filename: workable-stages-api-openapi.yml
   format: yaml
   label: Workable Stages API
@@ -134,18 +128,30 @@ api_specs:
   slug: workable-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-subscriptions-api-openapi.yml
-- filename: workable-timeoff-api-openapi.yml
+- filename: workable-custom-attributes-api-openapi.yml
   format: yaml
-  label: Workable TimeOff API
-  slug: workable-timeoff-api
+  label: Workable Custom Attributes API
+  slug: workable-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-timeoff-api-openapi.yml
-- filename: workable-timetracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-custom-attributes-api-openapi.yml
+- filename: workable-review-cycles-api-openapi.yml
   format: yaml
-  label: Workable TimeTracking API
-  slug: workable-timetracking-api
+  label: Workable Review Cycles API
+  slug: workable-review-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-timetracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-review-cycles-api-openapi.yml
+- filename: workable-time-off-api-openapi.yml
+  format: yaml
+  label: Workable Time Off API
+  slug: workable-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-time-off-api-openapi.yml
+- filename: workable-time-tracking-api-openapi.yml
+  format: yaml
+  label: Workable Time Tracking API
+  slug: workable-time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-time-tracking-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -177,11 +183,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/workable
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/authentication/workable-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Sourcing
 - Video Interviews
-- Assessments
+- Assessment
 - Software-as-a-Service
 ---

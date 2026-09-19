@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valon/refs/hea
 summary_line: http-bearer/session-cookie · 2 schemes
 tags:
 - Company
-- Mortgages
+- Mortgage
 - Loan Servicing
 - Lending
 - Fintech

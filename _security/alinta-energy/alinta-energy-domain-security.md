@@ -32,25 +32,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-usage-api-openapi.yml
 - filename: alinta-energy-energy-account-balances-api-openapi.yml
   format: yaml
-  label: Alinta Energy Energy Account Balances API
+  label: Alinta Energy Account Balances API
   slug: alinta-energy-energy-account-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-balances-api-openapi.yml
 - filename: alinta-energy-energy-account-billing-api-openapi.yml
   format: yaml
-  label: Alinta Energy Energy Account Billing API
+  label: Alinta Energy Account Billing API
   slug: alinta-energy-energy-account-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-billing-api-openapi.yml
 - filename: alinta-energy-energy-accounts-api-openapi.yml
   format: yaml
-  label: Alinta Energy Energy Accounts API
+  label: Alinta Energy Accounts API
   slug: alinta-energy-energy-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-accounts-api-openapi.yml
 - filename: alinta-energy-energy-plans-api-openapi.yml
   format: yaml
-  label: Alinta Energy Energy Plans API
+  label: Alinta Energy Plans API
   slug: alinta-energy-energy-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-plans-api-openapi.yml

@@ -37,6 +37,6 @@ tags:
 - Healthcare
 - Artificial Intelligence
 - Sourcing
-- HR Tech
+- Human Resources
 - Software-as-a-Service
 ---

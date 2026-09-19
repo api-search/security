@@ -168,24 +168,12 @@ api_specs:
   slug: kpn-endpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-endpoint-api-openapi.yml
-- filename: kpn-endpointgroup-api-openapi.yml
-  format: yaml
-  label: KPN Endpointgroup API
-  slug: kpn-endpointgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-endpointgroup-api-openapi.yml
 - filename: kpn-events-api-openapi.yml
   format: yaml
   label: KPN Events API
   slug: kpn-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-events-api-openapi.yml
-- filename: kpn-graphql-api-openapi.yml
-  format: yaml
-  label: KPN Graphql API
-  slug: kpn-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-graphql-api-openapi.yml
 - filename: kpn-identitygroup-api-openapi.yml
   format: yaml
   label: KPN Identitygroup API
@@ -432,12 +420,6 @@ api_specs:
   slug: kpn-routing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-routing-api-openapi.yml
-- filename: kpn-send-api-openapi.yml
-  format: yaml
-  label: KPN Send API
-  slug: kpn-send-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-send-api-openapi.yml
 - filename: kpn-send-sms-api-openapi.yml
   format: yaml
   label: KPN Send SMS API
@@ -600,6 +582,18 @@ api_specs:
   slug: kpn-your-active-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-your-active-webhook-api-openapi.yml
+- filename: kpn-endpoint-group-api-openapi.yml
+  format: yaml
+  label: KPN Endpoint Group API
+  slug: kpn-endpoint-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-endpoint-group-api-openapi.yml
+- filename: kpn-graph-ql-api-openapi.yml
+  format: yaml
+  label: KPN Graph QL API
+  slug: kpn-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:

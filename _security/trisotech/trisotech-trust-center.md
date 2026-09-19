@@ -24,8 +24,8 @@ summary_line: SOC 2 Type II, ISO/IEC 27001:2013, SOC 3
 tags:
 - Business Process Management
 - Decision Management
-- Workflow Automation
-- Low Code
+- Workflow-Automation
+- Low-Code
 - BPMN
 - DMN
 - CMMN
@@ -34,7 +34,7 @@ tags:
 - Clinical Decision Support
 - Standards
 - AI Agents
-- Model Context Protocol
+- MCP
 - Enterprise Architecture
 trust_url: https://www.trisotech.com/security/
 ---

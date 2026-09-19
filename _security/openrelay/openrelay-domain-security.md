@@ -96,18 +96,18 @@ api_specs:
   slug: openrelay-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/openapi/openrelay-usage-api-openapi.yml
-- filename: openrelay-vms-api-openapi.yml
-  format: yaml
-  label: OpenRelay VMs API
-  slug: openrelay-vms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/openapi/openrelay-vms-api-openapi.yml
 - filename: openrelay-webhooks-api-openapi.yml
   format: yaml
   label: OpenRelay Webhooks API
   slug: openrelay-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/openapi/openrelay-webhooks-api-openapi.yml
+- filename: openrelay-vms-api-openapi.yml
+  format: yaml
+  label: OpenRelay V Ms API
+  slug: openrelay-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/openapi/openrelay-vms-api-openapi.yml
 description: ''
 domains:
 - caa: []

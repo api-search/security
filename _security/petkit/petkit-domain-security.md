@@ -34,7 +34,7 @@ tags:
 - Company
 - Pet Tech
 - Smart Home
-- Internet of Things
+- IoT
 - Consumer Electronics
 - E-Commerce
 ---

@@ -48,12 +48,12 @@ api_specs:
   slug: tokamak-energy-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/openapi/tokamak-energy-discovery-api-openapi.yml
-- filename: tokamak-energy-oembed-api-openapi.yml
+- filename: tokamak-energy-o-embed-api-openapi.yml
   format: yaml
-  label: Tokamak Energy oEmbed API
-  slug: tokamak-energy-oembed-api
+  label: Tokamak Energy o Embed API
+  slug: tokamak-energy-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/openapi/tokamak-energy-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/openapi/tokamak-energy-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

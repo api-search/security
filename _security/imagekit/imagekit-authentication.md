@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: imagekit-account-management-api-api-openapi.yml
   format: yaml
-  label: ImageKit Account Management API API
+  label: ImageKit Account Management API
   slug: imagekit-account-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-account-management-api-api-openapi.yml
@@ -78,7 +78,6 @@ tags:
 - Optimization
 - Transformation
 - Digital Asset Management
-- DAM
 - Storage
 - Cache
 - Upload

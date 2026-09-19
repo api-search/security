@@ -38,7 +38,7 @@ tags:
 - Training
 - Leadership
 - Learning and Development
-- HR Tech
+- Human Resources
 - Mexico
 - Latin America
 ---

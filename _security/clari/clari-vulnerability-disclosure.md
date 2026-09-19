@@ -2,19 +2,19 @@
 api_specs:
 - filename: clari-activity-api-api-openapi.yml
   format: yaml
-  label: Clari Activity API API
+  label: Clari Activity API
   slug: clari-activity-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-activity-api-api-openapi.yml
 - filename: clari-administrative-api-api-openapi.yml
   format: yaml
-  label: Clari Administrative API API
+  label: Clari Administrative API
   slug: clari-administrative-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-administrative-api-api-openapi.yml
 - filename: clari-audit-api-api-openapi.yml
   format: yaml
-  label: Clari Audit API API
+  label: Clari Audit API
   slug: clari-audit-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-audit-api-api-openapi.yml
@@ -26,31 +26,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-bulk-export-framework-api-openapi.yml
 - filename: clari-bulk-ingest-job-status-api-api-openapi.yml
   format: yaml
-  label: Clari Bulk Ingest Job Status API API
+  label: Clari Bulk Ingest Job Status API
   slug: clari-bulk-ingest-job-status-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-bulk-ingest-job-status-api-api-openapi.yml
-- filename: clari-export-api-openapi.yml
-  format: yaml
-  label: Clari Export API
-  slug: clari-export-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-export-api-openapi.yml
 - filename: clari-forecast-api-api-openapi.yml
   format: yaml
-  label: Clari Forecast API API
+  label: Clari Forecast API
   slug: clari-forecast-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-forecast-api-api-openapi.yml
 - filename: clari-ingestion-api-api-openapi.yml
   format: yaml
-  label: Clari Ingestion API API
+  label: Clari Ingestion API
   slug: clari-ingestion-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-ingestion-api-api-openapi.yml
 - filename: clari-opportunity-api-api-openapi.yml
   format: yaml
-  label: Clari Opportunity API API
+  label: Clari Opportunity API
   slug: clari-opportunity-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-opportunity-api-api-openapi.yml

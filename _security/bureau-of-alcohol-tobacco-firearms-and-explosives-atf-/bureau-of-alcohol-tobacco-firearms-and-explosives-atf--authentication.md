@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
+- filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api-openapi.yml
   format: yaml
-  label: ATF eRegulations API
-  slug: atf-eregulations-api
+  label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Diffs API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api-openapi.yml
+- filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api-openapi.yml
+  format: yaml
+  label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Notices API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api-openapi.yml
+- filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api-openapi.yml
+  format: yaml
+  label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Regulations API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api-openapi.yml
+- filename: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api-openapi.yml
+  format: yaml
+  label: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Search API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

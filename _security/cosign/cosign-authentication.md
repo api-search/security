@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosign/refs/he
 summary_line: 6 schemes
 tags:
 - Apache 2.0
-- Attestations
+- Attestation
 - CLI
 - Code Signing
 - Containers

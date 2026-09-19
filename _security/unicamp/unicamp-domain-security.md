@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: unicamp-edat-data-api-openapi.yml
+- filename: unicamp-authorization-api-openapi.yml
   format: yaml
-  label: EDAT Data Platform API
-  slug: edat-data-api
+  label: University of Campinas Authorization API
+  slug: unicamp-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/openapi/unicamp-edat-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/openapi/unicamp-authorization-api-openapi.yml
+- filename: unicamp-support-api-openapi.yml
+  format: yaml
+  label: University of Campinas Support API
+  slug: unicamp-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/openapi/unicamp-support-api-openapi.yml
 description: ''
 domains:
 - caa:

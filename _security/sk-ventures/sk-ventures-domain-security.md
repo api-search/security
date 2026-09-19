@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Venture Capital
-- Investors
+- Investor
 - Seed Stage
 - Startups
 - Technology

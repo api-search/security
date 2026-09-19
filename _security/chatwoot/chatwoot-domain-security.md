@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-contact-labels-api-openapi.yml
 - filename: chatwoot-contacts-api-api-openapi.yml
   format: yaml
-  label: Chatwoot Contacts API API
+  label: Chatwoot Contacts API
   slug: chatwoot-contacts-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-contacts-api-api-openapi.yml
@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-conversation-assignments-api-openapi.yml
 - filename: chatwoot-conversations-api-api-openapi.yml
   format: yaml
-  label: Chatwoot Conversations API API
+  label: Chatwoot Conversations API
   slug: chatwoot-conversations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-conversations-api-api-openapi.yml
@@ -128,7 +128,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-help-center-api-openapi.yml
 - filename: chatwoot-inbox-api-api-openapi.yml
   format: yaml
-  label: Chatwoot Inbox API API
+  label: Chatwoot Inbox API
   slug: chatwoot-inbox-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-inbox-api-api-openapi.yml
@@ -152,7 +152,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-labels-api-openapi.yml
 - filename: chatwoot-messages-api-api-openapi.yml
   format: yaml
-  label: Chatwoot Messages API API
+  label: Chatwoot Messages API
   slug: chatwoot-messages-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/openapi/chatwoot-messages-api-api-openapi.yml

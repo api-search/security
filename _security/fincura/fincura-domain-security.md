@@ -12,18 +12,6 @@ api_specs:
   slug: fincura-borrowers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-borrowers-api-openapi.yml
-- filename: fincura-customattributes-api-openapi.yml
-  format: yaml
-  label: Fincura CustomAttributes API
-  slug: fincura-customattributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-customattributes-api-openapi.yml
-- filename: fincura-dataviews-api-openapi.yml
-  format: yaml
-  label: Fincura DataViews API
-  slug: fincura-dataviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-dataviews-api-openapi.yml
 - filename: fincura-dscranalysis-api-openapi.yml
   format: yaml
   label: Fincura DscrAnalysis API
@@ -108,18 +96,30 @@ api_specs:
   slug: fincura-spreadingtemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-spreadingtemplate-api-openapi.yml
-- filename: fincura-tenantsettings-api-openapi.yml
-  format: yaml
-  label: Fincura TenantSettings API
-  slug: fincura-tenantsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-tenantsettings-api-openapi.yml
 - filename: fincura-webhooks-api-openapi.yml
   format: yaml
   label: Fincura Webhooks API
   slug: fincura-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-webhooks-api-openapi.yml
+- filename: fincura-custom-attributes-api-openapi.yml
+  format: yaml
+  label: Fincura Custom Attributes API
+  slug: fincura-custom-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-custom-attributes-api-openapi.yml
+- filename: fincura-data-views-api-openapi.yml
+  format: yaml
+  label: Fincura data views API
+  slug: fincura-data-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-data-views-api-openapi.yml
+- filename: fincura-tenant-settings-api-openapi.yml
+  format: yaml
+  label: Fincura Tenant Settings API
+  slug: fincura-tenant-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/openapi/fincura-tenant-settings-api-openapi.yml
 description: ''
 domains:
 - caa: []

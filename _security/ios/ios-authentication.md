@@ -74,12 +74,6 @@ api_specs:
   slug: ios-analyticsreportrequests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analyticsreportrequests-api-openapi.yml
-- filename: ios-analyticsreports-api-openapi.yml
-  format: yaml
-  label: iOS AnalyticsReports API
-  slug: ios-analyticsreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analyticsreports-api-openapi.yml
 - filename: ios-analyticsreportsegments-api-openapi.yml
   format: yaml
   label: iOS AnalyticsReportSegments API
@@ -98,12 +92,6 @@ api_specs:
   slug: ios-appavailabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appavailabilities-api-openapi.yml
-- filename: ios-appcategories-api-openapi.yml
-  format: yaml
-  label: iOS AppCategories API
-  slug: ios-appcategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appcategories-api-openapi.yml
 - filename: ios-appclipadvancedexperienceimages-api-openapi.yml
   format: yaml
   label: iOS AppClipAdvancedExperienceImages API
@@ -182,12 +170,6 @@ api_specs:
   slug: ios-appeventlocalizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appeventlocalizations-api-openapi.yml
-- filename: ios-appevents-api-openapi.yml
-  format: yaml
-  label: iOS AppEvents API
-  slug: ios-appevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appevents-api-openapi.yml
 - filename: ios-appeventscreenshots-api-openapi.yml
   format: yaml
   label: iOS AppEventScreenshots API
@@ -212,12 +194,6 @@ api_specs:
   slug: ios-appinfos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-appinfos-api-openapi.yml
-- filename: ios-apppreviews-api-openapi.yml
-  format: yaml
-  label: iOS AppPreviews API
-  slug: ios-apppreviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-apppreviews-api-openapi.yml
 - filename: ios-apppreviewsets-api-openapi.yml
   format: yaml
   label: iOS AppPreviewSets API
@@ -446,12 +422,6 @@ api_specs:
   slug: ios-betatesterinvitations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betatesterinvitations-api-openapi.yml
-- filename: ios-betatesters-api-openapi.yml
-  format: yaml
-  label: iOS BetaTesters API
-  slug: ios-betatesters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-betatesters-api-openapi.yml
 - filename: ios-buildbetadetails-api-openapi.yml
   format: yaml
   label: iOS BuildBetaDetails API
@@ -908,12 +878,6 @@ api_specs:
   slug: ios-marketplacewebhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-marketplacewebhooks-api-openapi.yml
-- filename: ios-merchantids-api-openapi.yml
-  format: yaml
-  label: iOS MerchantIds API
-  slug: ios-merchantids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-merchantids-api-openapi.yml
 - filename: ios-metrics-api-openapi.yml
   format: yaml
   label: iOS Metrics API
@@ -1034,12 +998,6 @@ api_specs:
   slug: ios-subscriptiongrouplocalizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptiongrouplocalizations-api-openapi.yml
-- filename: ios-subscriptiongroups-api-openapi.yml
-  format: yaml
-  label: iOS SubscriptionGroups API
-  slug: ios-subscriptiongroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscriptiongroups-api-openapi.yml
 - filename: ios-subscriptiongroupsubmissions-api-openapi.yml
   format: yaml
   label: iOS SubscriptionGroupSubmissions API
@@ -1136,12 +1094,6 @@ api_specs:
   slug: ios-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-users-api-openapi.yml
-- filename: ios-webhookdeliveries-api-openapi.yml
-  format: yaml
-  label: iOS WebhookDeliveries API
-  slug: ios-webhookdeliveries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-webhookdeliveries-api-openapi.yml
 - filename: ios-webhookpings-api-openapi.yml
   format: yaml
   label: iOS WebhookPings API
@@ -1160,6 +1112,54 @@ api_specs:
   slug: ios-winbackoffers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-winbackoffers-api-openapi.yml
+- filename: ios-analytics-reports-api-openapi.yml
+  format: yaml
+  label: iOS Analytics Reports API
+  slug: ios-analytics-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-analytics-reports-api-openapi.yml
+- filename: ios-app-categories-api-openapi.yml
+  format: yaml
+  label: iOS App Categories API
+  slug: ios-app-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-app-categories-api-openapi.yml
+- filename: ios-app-events-api-openapi.yml
+  format: yaml
+  label: iOS App Events API
+  slug: ios-app-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-app-events-api-openapi.yml
+- filename: ios-app-previews-api-openapi.yml
+  format: yaml
+  label: iOS App Previews API
+  slug: ios-app-previews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-app-previews-api-openapi.yml
+- filename: ios-beta-testers-api-openapi.yml
+  format: yaml
+  label: iOS Beta Testers API
+  slug: ios-beta-testers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-beta-testers-api-openapi.yml
+- filename: ios-merchant-ids-api-openapi.yml
+  format: yaml
+  label: iOS Merchant IDs API
+  slug: ios-merchant-ids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-merchant-ids-api-openapi.yml
+- filename: ios-subscription-groups-api-openapi.yml
+  format: yaml
+  label: iOS Subscription groups API
+  slug: ios-subscription-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-subscription-groups-api-openapi.yml
+- filename: ios-webhook-deliveries-api-openapi.yml
+  format: yaml
+  label: iOS Webhook Deliveries API
+  slug: ios-webhook-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/openapi/ios-webhook-deliveries-api-openapi.yml
 auth_types:
 - http
 description: ''

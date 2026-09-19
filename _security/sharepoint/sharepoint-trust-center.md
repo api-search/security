@@ -36,6 +36,24 @@ api_specs:
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+- filename: sharepoint-batch-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint $batch API
+  slug: microsoft-sharepoint-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-batch-api-openapi.yml
+- filename: sharepoint-listitems-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint ListItems API
+  slug: microsoft-sharepoint-listitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-listitems-api-openapi.yml
+- filename: sharepoint-site-api-openapi.yml
+  format: yaml
+  label: Microsoft SharePoint Site API
+  slug: microsoft-sharepoint-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-site-api-openapi.yml
 certification_count: 15
 certifications:
 - SOC 1 Type 2

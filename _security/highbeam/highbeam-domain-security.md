@@ -38,5 +38,5 @@ tags:
 - Financial-Services
 - E-Commerce
 - Working Capital
-- Consumer Brands
+- Consumer Brand
 ---

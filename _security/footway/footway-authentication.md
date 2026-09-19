@@ -62,8 +62,8 @@ tags:
 - Footwear
 - Fashion
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 - Nordic
 ---

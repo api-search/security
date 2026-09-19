@@ -225,24 +225,6 @@ api_specs:
   slug: akash-walletsetting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/openapi/akash-walletsetting-api-openapi.yml
-- filename: akash-network-bids-api-openapi.yml
-  format: yaml
-  label: Akash Network Bids API
-  slug: akash-network-bids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/openapi/akash-network-bids-api-openapi.yml
-- filename: akash-network-deployments-api-openapi.yml
-  format: yaml
-  label: Akash Network Deployments API
-  slug: akash-network-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/openapi/akash-network-deployments-api-openapi.yml
-- filename: akash-network-leases-api-openapi.yml
-  format: yaml
-  label: Akash Network Leases API
-  slug: akash-network-leases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/openapi/akash-network-leases-api-openapi.yml
 auth_types:
 - apiKey
 - http

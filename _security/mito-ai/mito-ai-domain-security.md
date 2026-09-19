@@ -34,7 +34,7 @@ tags:
 - Company
 - Data Analytics
 - Jupyter
-- Spreadsheet
+- Spreadsheets
 - Artificial Intelligence
 - Python
 - Data Science

@@ -120,12 +120,6 @@ api_specs:
   slug: convert-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/openapi/convert-locations-api-openapi.yml
-- filename: convert-oauth-api-openapi.yml
-  format: yaml
-  label: Convert OAuth API
-  slug: convert-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/openapi/convert-oauth-api-openapi.yml
 - filename: convert-oauth-authorization-api-openapi.yml
   format: yaml
   label: Convert OAuth Authorization API
@@ -192,6 +186,12 @@ api_specs:
   slug: convert-visitors-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/openapi/convert-visitors-data-api-openapi.yml
+- filename: convert-oauth-api-openapi.yml
+  format: yaml
+  label: Convert O Auth API
+  slug: convert-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/openapi/convert-oauth-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

@@ -57,6 +57,24 @@ api_specs:
   slug: azure-cosmos-db-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-users-api-openapi.yml
+- filename: azure-cosmos-db-collections-api-openapi.yml
+  format: yaml
+  label: Azure Cosmos DB Collections API
+  slug: microsoft-azure-cosmos-db-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+- filename: azure-cosmos-db-databases-api-openapi.yml
+  format: yaml
+  label: Azure Cosmos DB Databases API
+  slug: microsoft-azure-cosmos-db-databases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+- filename: azure-cosmos-db-documents-api-openapi.yml
+  format: yaml
+  label: Azure Cosmos DB Documents API
+  slug: microsoft-azure-cosmos-db-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

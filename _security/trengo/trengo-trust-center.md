@@ -42,12 +42,12 @@ api_specs:
   slug: trengo-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-webhooks-api-openapi.yml
-- filename: trengo-whatsapp-api-openapi.yml
+- filename: trengo-whats-app-api-openapi.yml
   format: yaml
-  label: Trengo WhatsApp API
-  slug: trengo-whatsapp-api
+  label: Trengo Whats App API
+  slug: trengo-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-whats-app-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS

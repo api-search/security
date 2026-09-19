@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Custom Apparel
 - E-Commerce
-- Online Stores
+- Online Store
 - Print Shop
 - Design Studio
 - Screen Printing

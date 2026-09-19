@@ -66,7 +66,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Foundation Models
-- Large Language Models
+- LLM
 - Generative AI
 - Computer-Vision
 - LLM API

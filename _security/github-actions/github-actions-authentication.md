@@ -103,5 +103,17 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: https://docs.gi
   \ is governed by classic OAuth scopes or fine-grained token/App permissions; see scopes/github-actions-scopes.yml.\n  - Basic auth with username + PAT is deprecated; bearer-token auth is required.\n  - GITHUB_TOKEN permissions inside a workflow are declared via the workflow `permissions:` block.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/authentication/github-actions-authentication.yml
 summary_line: http · 2 schemes
-tags: []
+tags:
+- CI/CD
+- Continuous Integration
+- Continuous Deployment
+- DevOps
+- Pipelines
+- Workflows
+- Automation
+- Developer Tools
+- Software Development
+- Build Automation
+- T1
+- GitHub
 ---

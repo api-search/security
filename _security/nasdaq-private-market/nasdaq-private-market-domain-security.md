@@ -64,10 +64,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Private Markets
-- Secondary Markets
+- Secondary Market
 - Market Data
 - Financial-Services
-- Valuations
+- Valuation
 - Pre-IPO Equity
 - Capital Markets
 ---

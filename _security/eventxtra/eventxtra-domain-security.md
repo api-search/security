@@ -138,5 +138,5 @@ tags:
 - MCP
 - Artificial Intelligence
 - Hong Kong
-- APAC
+- Asia Pacific
 ---

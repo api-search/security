@@ -26,12 +26,6 @@ api_specs:
   slug: orderco-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/openapi/orderco-discovery-api-openapi.yml
-- filename: orderco-faqs-api-openapi.yml
-  format: yaml
-  label: Order.co FA Qs API
-  slug: orderco-faqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/openapi/orderco-faqs-api-openapi.yml
 - filename: orderco-incidents-api-openapi.yml
   format: yaml
   label: Order.co Incidents API
@@ -86,6 +80,12 @@ api_specs:
   slug: orderco-vendor-stories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/openapi/orderco-vendor-stories-api-openapi.yml
+- filename: orderco-faqs-api-openapi.yml
+  format: yaml
+  label: Order.co FA Qs API
+  slug: orderco-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/openapi/orderco-faqs-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

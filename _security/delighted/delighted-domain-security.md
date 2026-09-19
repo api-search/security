@@ -83,7 +83,7 @@ tags:
 - Customer Satisfaction
 - CES
 - Customer Effort Score
-- Survey
+- Surveys
 - Customer Experience
 - Feedback
 - eNPS

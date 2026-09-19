@@ -50,12 +50,6 @@ api_specs:
   slug: cerner-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-account-api-openapi.yml
-- filename: cerner-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Allergy Intolerance API
-  slug: cerner-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-allergyintolerance-api-openapi.yml
 - filename: cerner-appointment-api-openapi.yml
   format: yaml
   label: Oracle Health (Cerner) Appointment API
@@ -74,18 +68,6 @@ api_specs:
   slug: cerner-binary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-binary-api-openapi.yml
-- filename: cerner-capabilitystatement-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Capability Statement API
-  slug: cerner-capabilitystatement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-capabilitystatement-api-openapi.yml
-- filename: cerner-careplan-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Care Plan API
-  slug: cerner-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-careplan-api-openapi.yml
 - filename: cerner-careteam-api-openapi.yml
   format: yaml
   label: Oracle Health (Cerner) Care Team API
@@ -128,12 +110,6 @@ api_specs:
   slug: cerner-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-diagnosticreport-api-openapi.yml
-- filename: cerner-documentreference-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Document Reference API
-  slug: cerner-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-documentreference-api-openapi.yml
 - filename: cerner-export-api-openapi.yml
   format: yaml
   label: Oracle Health (Cerner) Export API
@@ -164,12 +140,6 @@ api_specs:
   slug: cerner-immunization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-immunization-api-openapi.yml
-- filename: cerner-insuranceplan-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Insurance Plan API
-  slug: cerner-insuranceplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-insuranceplan-api-openapi.yml
 - filename: cerner-jobs-api-openapi.yml
   format: yaml
   label: Oracle Health (Cerner) Jobs API
@@ -188,24 +158,12 @@ api_specs:
   slug: cerner-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-media-api-openapi.yml
-- filename: cerner-medicationadministration-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Medication Administration API
-  slug: cerner-medicationadministration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-medicationadministration-api-openapi.yml
 - filename: cerner-medicationdispense-api-openapi.yml
   format: yaml
   label: Oracle Health (Cerner) Medication Dispense API
   slug: cerner-medicationdispense-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-medicationdispense-api-openapi.yml
-- filename: cerner-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Oracle Health (Cerner) Medication Request API
-  slug: cerner-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-medicationrequest-api-openapi.yml
 - filename: cerner-nutritionorder-api-openapi.yml
   format: yaml
   label: Oracle Health (Cerner) Nutrition Order API
@@ -302,6 +260,48 @@ api_specs:
   slug: cerner-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-system-api-openapi.yml
+- filename: cerner-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Allergy Intolerance API
+  slug: cerner-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-allergy-intolerance-api-openapi.yml
+- filename: cerner-capability-statement-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Capability Statement API
+  slug: cerner-capability-statement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-capability-statement-api-openapi.yml
+- filename: cerner-care-plan-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Care plan API
+  slug: cerner-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-care-plan-api-openapi.yml
+- filename: cerner-document-reference-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Document Reference API
+  slug: cerner-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-document-reference-api-openapi.yml
+- filename: cerner-insurance-plan-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Insurance Plan API
+  slug: cerner-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-insurance-plan-api-openapi.yml
+- filename: cerner-medication-administration-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Medication Administration API
+  slug: cerner-medication-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-medication-administration-api-openapi.yml
+- filename: cerner-medication-request-api-openapi.yml
+  format: yaml
+  label: Oracle Health (Cerner) Medication Request API
+  slug: cerner-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-medication-request-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

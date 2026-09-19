@@ -35,7 +35,7 @@ tags:
 - Bluetooth
 - Embedded
 - IoT
-- Protocols
+- Protocol
 - Standards
 - Wireless
 ---

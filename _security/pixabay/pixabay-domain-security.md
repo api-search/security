@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Stock Media
 - Image
-- Videos
+- Video
 - Illustrations
 - Free
 - Search

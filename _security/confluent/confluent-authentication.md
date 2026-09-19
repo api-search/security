@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: confluent-acls-api-openapi.yml
-  format: yaml
-  label: Confluent ACLs API
-  slug: confluent-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-acls-api-openapi.yml
 - filename: confluent-api-keys-api-openapi.yml
   format: yaml
   label: Confluent API Keys API
@@ -752,6 +746,12 @@ api_specs:
   slug: confluent-version-2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-version-2-api-openapi.yml
+- filename: confluent-acls-api-openapi.yml
+  format: yaml
+  label: Confluent AC Ls API
+  slug: confluent-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/openapi/confluent-acls-api-openapi.yml
 auth_types:
 - http
 - oauth2

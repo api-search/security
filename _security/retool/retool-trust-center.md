@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/he
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Admin Panel
-- Dashboard
+- Dashboards
 - Internal Tools
 - Low-Code
 - No-Code

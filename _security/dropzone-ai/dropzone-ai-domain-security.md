@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security
 - SOC
-- AI Agent
+- AI Agents
 - Autonomous
 - triage
 - SIEM

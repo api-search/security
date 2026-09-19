@@ -30,24 +30,12 @@ api_specs:
   slug: stardog-db-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-db-admin-api-openapi.yml
-- filename: stardog-entityresolution-api-openapi.yml
-  format: yaml
-  label: Stardog EntityResolution API
-  slug: stardog-entityresolution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-entityresolution-api-openapi.yml
 - filename: stardog-graph-store-protocol-api-openapi.yml
   format: yaml
   label: Stardog Graph Store Protocol API
   slug: stardog-graph-store-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-graph-store-protocol-api-openapi.yml
-- filename: stardog-graphql-api-openapi.yml
-  format: yaml
-  label: Stardog GraphQL API
-  slug: stardog-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-graphql-api-openapi.yml
 - filename: stardog-integrity-constraints-shacl-api-openapi.yml
   format: yaml
   label: Stardog Integrity Constraints / SHACL API
@@ -144,6 +132,18 @@ api_specs:
   slug: stardog-virtual-graphs-external-compute-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-virtual-graphs-external-compute-api-openapi.yml
+- filename: stardog-entity-resolution-api-openapi.yml
+  format: yaml
+  label: Stardog Entity Resolution API
+  slug: stardog-entity-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-entity-resolution-api-openapi.yml
+- filename: stardog-graph-ql-api-openapi.yml
+  format: yaml
+  label: Stardog Graph QL API
+  slug: stardog-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-graph-ql-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2

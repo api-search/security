@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: davita-wp-rest.yml
+- filename: davita-davita-v1-api-openapi.yml
   format: yaml
-  label: DaVita Web REST API
-  slug: davita-web-rest-api
+  label: DaVita Davita V1 API
+  slug: davita-davita-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/openapi/davita-wp-rest.yml
+  url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/openapi/davita-davita-v1-api-openapi.yml
+- filename: davita-wp-v2-api-openapi.yml
+  format: yaml
+  label: DaVita Wp V2 API
+  slug: davita-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/openapi/davita-wp-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

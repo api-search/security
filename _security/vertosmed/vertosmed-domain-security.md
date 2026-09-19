@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vertosmed/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Medical Device
+- Medical Devices
 - Healthcare
 - Spine
 - Interventional Spine

@@ -22,7 +22,7 @@ tags:
 - Immigration Tech
 - Immigration
 - Legal Tech
-- Visas
+- Visa
 - Green Cards
 - Citizenship
 - Global Mobility

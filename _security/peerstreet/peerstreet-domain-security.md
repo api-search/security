@@ -38,4 +38,5 @@ tags:
 - Marketplace
 - Crowdfunding
 - a16z Portfolio
+- Defunct
 ---

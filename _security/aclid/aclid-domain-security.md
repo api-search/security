@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: aclid-openapi.yml
+- filename: aclid-endpoints-api-openapi.yml
   format: yaml
-  label: Aclid API
-  slug: aclid-api
+  label: Aclid Endpoints API
+  slug: aclid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclid/refs/heads/main/openapi/aclid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aclid/refs/heads/main/openapi/aclid-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,5 +53,5 @@ tags:
 - Export Control
 - Biotechnology
 - Risk Assessment
-- Know Your Customer
+- KYC
 ---

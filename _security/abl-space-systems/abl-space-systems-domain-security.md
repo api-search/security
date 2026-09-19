@@ -48,7 +48,7 @@ tags:
 - Launch Vehicles
 - Rockets
 - Small Satellite Launch
-- Satellites
+- Satellite
 - Propulsion
 - Ground Systems
 - Defense

@@ -18,12 +18,6 @@ api_specs:
   slug: workspan-authorize-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-authorize-api-openapi.yml
-- filename: workspan-bulkload-api-openapi.yml
-  format: yaml
-  label: WorkSpan Bulkload API
-  slug: workspan-bulkload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-bulkload-api-openapi.yml
 - filename: workspan-bulkload-opportunity-api-openapi.yml
   format: yaml
   label: WorkSpan Bulkload Opportunity API
@@ -156,6 +150,12 @@ api_specs:
   slug: workspan-view-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-view-api-openapi.yml
+- filename: workspan-bulk-load-api-openapi.yml
+  format: yaml
+  label: WorkSpan Bulk Load API
+  slug: workspan-bulk-load-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/openapi/workspan-bulk-load-api-openapi.yml
 description: ''
 domains:
 - caa: []

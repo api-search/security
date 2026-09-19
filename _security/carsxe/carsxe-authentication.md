@@ -16,12 +16,6 @@ api_specs:
   slug: carsxe-market-value-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-market-value-api-openapi.yml
-- filename: carsxe-plate-api-openapi.yml
-  format: yaml
-  label: CarsXE Plate Decoder API
-  slug: carsxe-plate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-plate-api-openapi.yml
 - filename: carsxe-recalls-api-openapi.yml
   format: yaml
   label: CarsXE Recalls API
@@ -64,6 +58,12 @@ api_specs:
   slug: carsxe-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-auth-api-openapi.yml
+- filename: carsxe-plate-decoder-api-openapi.yml
+  format: yaml
+  label: CarsXE Plate Decoder API
+  slug: carsxe-plate-decoder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-plate-decoder-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -137,6 +137,6 @@ tags:
 - Recalls
 - Market Value
 - Vehicle History
-- Model Context Protocol
+- MCP
 - Agents
 ---

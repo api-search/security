@@ -34,8 +34,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Neuro-Symbolic AI
-- Large Language Models
-- Knowledge Graphs
+- LLM
+- Knowledge Graph
 - Developer Tools
 - Open-Source
 - Python

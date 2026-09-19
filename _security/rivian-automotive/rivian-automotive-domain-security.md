@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
 - Electric Vehicles
-- Connected Vehicle
+- Connected Vehicles
 - Manufacturing
 - Fortune 500
 ---

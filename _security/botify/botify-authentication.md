@@ -15,12 +15,6 @@ api_specs:
   slug: botify-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-collections-api-openapi.yml
-- filename: botify-datasource-api-openapi.yml
-  format: yaml
-  label: Botify Datasource API
-  slug: botify-datasource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-datasource-api-openapi.yml
 - filename: botify-job-api-openapi.yml
   format: yaml
   label: Botify Job API
@@ -51,6 +45,12 @@ api_specs:
   slug: botify-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-user-api-openapi.yml
+- filename: botify-data-source-api-openapi.yml
+  format: yaml
+  label: Botify Data Source API
+  slug: botify-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-data-source-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

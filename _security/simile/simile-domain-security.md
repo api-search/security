@@ -42,7 +42,7 @@ tags:
 - Human Behavior
 - Consumer Insights
 - Market Research
-- Foundation Model
+- Foundation Models
 - Behavioral Science
 - Synthetic Users
 - Artificial Intelligence

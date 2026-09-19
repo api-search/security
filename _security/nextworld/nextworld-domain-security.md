@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextworld/refs
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Enterprise Resource Planning
+- ERP
 - No-Code
 - Enterprise Application Platform
 - Workflow-Automation

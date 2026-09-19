@@ -61,7 +61,7 @@ tags:
 - Data
 - Identity
 - Programmatic
-- Audience
+- Audiences
 - Marketing
 - Privacy
 - Prebid

@@ -90,12 +90,6 @@ api_specs:
   slug: verato-restoresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/openapi/verato-restoresource-api-openapi.yml
-- filename: verato-searchnotifications-api-openapi.yml
-  format: yaml
-  label: Verato SearchNotifications API
-  slug: verato-searchnotifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/openapi/verato-searchnotifications-api-openapi.yml
 - filename: verato-searchrelationshipsservice-api-openapi.yml
   format: yaml
   label: Verato SearchRelationshipsService API
@@ -120,6 +114,12 @@ api_specs:
   slug: verato-unmergeidentities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/openapi/verato-unmergeidentities-api-openapi.yml
+- filename: verato-search-notifications-api-openapi.yml
+  format: yaml
+  label: Verato Search Notifications API
+  slug: verato-search-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/openapi/verato-search-notifications-api-openapi.yml
 description: ''
 domains:
 - caa: []

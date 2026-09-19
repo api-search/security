@@ -38,5 +38,5 @@ tags:
 - Kitchen Management
 - Order Management
 - Loyalty
-- Quick Service Restaurants
+- Quick Service Restaurant
 ---

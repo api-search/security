@@ -60,24 +60,12 @@ api_specs:
   slug: dotdigital-apidatafield-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-apidatafield-api-openapi.yml
-- filename: dotdigital-apidocument-api-openapi.yml
-  format: yaml
-  label: Dotdigital API Document API
-  slug: dotdigital-apidocument-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-apidocument-api-openapi.yml
 - filename: dotdigital-apiecommerce-api-openapi.yml
   format: yaml
   label: Dotdigital API Ecommerce API
   slug: dotdigital-apiecommerce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-apiecommerce-api-openapi.yml
-- filename: dotdigital-apiimage-api-openapi.yml
-  format: yaml
-  label: Dotdigital API Image API
-  slug: dotdigital-apiimage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-apiimage-api-openapi.yml
 - filename: dotdigital-apipreference-api-openapi.yml
   format: yaml
   label: Dotdigital API Preference API
@@ -144,12 +132,6 @@ api_specs:
   slug: dotdigital-bulk-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-bulk-validation-api-openapi.yml
-- filename: dotdigital-campaign-templates-api-openapi.yml
-  format: yaml
-  label: Dotdigital Campaign Templates API
-  slug: dotdigital-campaign-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-campaign-templates-api-openapi.yml
 - filename: dotdigital-channels-api-openapi.yml
   format: yaml
   label: Dotdigital Channels API
@@ -162,12 +144,6 @@ api_specs:
   slug: dotdigital-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-chat-api-openapi.yml
-- filename: dotdigital-contact-data-fields-api-openapi.yml
-  format: yaml
-  label: Dotdigital Contact data fields API
-  slug: dotdigital-contact-data-fields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-contact-data-fields-api-openapi.yml
 - filename: dotdigital-contacts-api-openapi.yml
   format: yaml
   label: Dotdigital Contacts API
@@ -198,12 +174,6 @@ api_specs:
   slug: dotdigital-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-documents-api-openapi.yml
-- filename: dotdigital-ecommerce-api-openapi.yml
-  format: yaml
-  label: Dotdigital Ecommerce API
-  slug: dotdigital-ecommerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-ecommerce-api-openapi.yml
 - filename: dotdigital-email-campaigns-api-openapi.yml
   format: yaml
   label: Dotdigital Email Campaigns API
@@ -282,12 +252,6 @@ api_specs:
   slug: dotdigital-omnichannel-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-omnichannel-api-api-openapi.yml
-- filename: dotdigital-pages-and-forms-api-openapi.yml
-  format: yaml
-  label: Dotdigital Pages and forms API
-  slug: dotdigital-pages-and-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-pages-and-forms-api-openapi.yml
 - filename: dotdigital-preferences-and-subscriptions-api-openapi.yml
   format: yaml
   label: Dotdigital Preferences and subscriptions API
@@ -306,12 +270,6 @@ api_specs:
   slug: dotdigital-scoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-scoring-api-openapi.yml
-- filename: dotdigital-segments-api-openapi.yml
-  format: yaml
-  label: Dotdigital Segments API
-  slug: dotdigital-segments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-segments-api-openapi.yml
 - filename: dotdigital-single-number-api-openapi.yml
   format: yaml
   label: Dotdigital Single number API
@@ -348,12 +306,6 @@ api_specs:
   slug: dotdigital-webhooks-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-webhooks-api-api-openapi.yml
-- filename: dotdigital-whatsapp-api-openapi.yml
-  format: yaml
-  label: Dotdigital Whats App API
-  slug: dotdigital-whatsapp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-whatsapp-api-openapi.yml
 - filename: dotdigital-whatsapp-configurations-api-openapi.yml
   format: yaml
   label: Dotdigital WhatsApp configurations API
@@ -372,6 +324,24 @@ api_specs:
   slug: dotdigital-whatsapp-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-whatsapp-templates-api-openapi.yml
+- filename: dotdigital-api-document-api-openapi.yml
+  format: yaml
+  label: Dotdigital API / Document API
+  slug: dotdigital-api-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-api-document-api-openapi.yml
+- filename: dotdigital-api-image-api-openapi.yml
+  format: yaml
+  label: Dotdigital API Image API
+  slug: dotdigital-api-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-api-image-api-openapi.yml
+- filename: dotdigital-whats-app-api-openapi.yml
+  format: yaml
+  label: Dotdigital Whats App API
+  slug: dotdigital-whats-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/openapi/dotdigital-whats-app-api-openapi.yml
 certification_count: 4
 certifications:
 - ISO 27001

@@ -33,6 +33,7 @@ tags:
 - API Discovery
 - API Security
 - API Testing
+- Developer Tools
 - Posture Management
 - Runtime Protection
 - Shadow APIs

@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: 한국주식데이터 공개 데이터 API
-  slug: 한국주식데이터-공개-데이터-api
+- filename: aikstockdata-data-api-openapi.yml
+  format: yaml
+  label: 한국주식데이터 (aikstockdata) Data API
+  slug: aikstockdata-data-api
   spec_type: OpenAPI
-  url: https://aikstockdata.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aikstockdata/refs/heads/main/openapi/aikstockdata-data-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -46,17 +46,17 @@ source_yaml: 'generated: ''2026-09-10''
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aikstockdata/refs/heads/main/authentication/aikstockdata-authentication.yml
 summary_line: 0 schemes
 tags:
-- korea
-- stock-market
-- financial-data
-- open-data
-- dart
+- South Korea
+- Stock Market
+- Financial Data
+- Open Data
+- Dart
 - kospi
 - kosdaq
 - konex
-- filings
-- equities
-- mcp
+- Filings
+- Stocks
+- MCP
 - llms-txt
-- openapi
+- OpenAPI
 ---

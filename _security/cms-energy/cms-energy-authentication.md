@@ -38,6 +38,18 @@ api_specs:
   slug: cms-energy-outage-map-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-outage-map-api-openapi.yml
+- filename: cms-energy-catalog-api-openapi.yml
+  format: yaml
+  label: CMS Energy Catalog API
+  slug: cms-energy-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-catalog-api-openapi.yml
+- filename: cms-energy-service-dashboard-api-openapi.yml
+  format: yaml
+  label: CMS Energy Service Dashboard API
+  slug: cms-energy-service-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-service-dashboard-api-openapi.yml
 auth_types:
 - none
 - http

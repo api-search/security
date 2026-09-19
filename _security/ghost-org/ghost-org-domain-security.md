@@ -238,7 +238,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Publishing
 - Newsletters
-- Memberships
+- Membership
 - Subscription
 - CMS
 - Open-Source

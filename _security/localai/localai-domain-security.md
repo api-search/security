@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: localai-3d-api-openapi.yml
-  format: yaml
-  label: LocalAI 3d API
-  slug: localai-3d-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-3d-api-openapi.yml
 - filename: localai-agent-jobs-api-openapi.yml
   format: yaml
   label: LocalAI Agent Jobs API
@@ -108,12 +102,6 @@ api_specs:
   slug: localai-nodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-nodes-api-openapi.yml
-- filename: localai-p2p-api-openapi.yml
-  format: yaml
-  label: LocalAI P2p API
-  slug: localai-p2p-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-p2p-api-openapi.yml
 - filename: localai-pii-api-openapi.yml
   format: yaml
   label: LocalAI Pii API
@@ -156,6 +144,18 @@ api_specs:
   slug: localai-voice-recognition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-voice-recognition-api-openapi.yml
+- filename: localai-3-d-api-openapi.yml
+  format: yaml
+  label: LocalAI 3 D API
+  slug: localai-3-d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-3-d-api-openapi.yml
+- filename: localai-p2-p-api-openapi.yml
+  format: yaml
+  label: LocalAI P2 P API
+  slug: localai-p2-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/openapi/localai-p2-p-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -188,7 +188,7 @@ summary_line: TLSv1.3
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Inference
 - Self-Hosted
 - Open-Source

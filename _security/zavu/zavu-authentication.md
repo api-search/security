@@ -99,12 +99,6 @@ api_specs:
   slug: zavu-senders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-senders-api-openapi.yml
-- filename: zavu-sub-accounts-api-openapi.yml
-  format: yaml
-  label: Zavu Sub-Accounts API
-  slug: zavu-sub-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-sub-accounts-api-openapi.yml
 - filename: zavu-templates-api-openapi.yml
   format: yaml
   label: Zavu Templates API
@@ -129,6 +123,12 @@ api_specs:
   slug: zavu-whatsapp-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-whatsapp-sync-api-openapi.yml
+- filename: zavu-subaccounts-api-openapi.yml
+  format: yaml
+  label: Zavu Subaccounts API
+  slug: zavu-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-subaccounts-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -12,12 +12,6 @@ api_specs:
   slug: clicksend-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contact-api-openapi.yml
-- filename: clicksend-contactlist-api-openapi.yml
-  format: yaml
-  label: ClickSend ContactList API
-  slug: clicksend-contactlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contactlist-api-openapi.yml
 - filename: clicksend-email-api-openapi.yml
   format: yaml
   label: ClickSend Email API
@@ -60,6 +54,12 @@ api_specs:
   slug: clicksend-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-voice-api-openapi.yml
+- filename: clicksend-contact-list-api-openapi.yml
+  format: yaml
+  label: ClickSend Contact List API
+  slug: clicksend-contact-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contact-list-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

@@ -6,12 +6,6 @@ api_specs:
   slug: dataforseo-aioptimization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-aioptimization-api-openapi.yml
-- filename: dataforseo-appdata-api-openapi.yml
-  format: yaml
-  label: DataForSEO AppData API
-  slug: dataforseo-appdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-appdata-api-openapi.yml
 - filename: dataforseo-appendix-api-openapi.yml
   format: yaml
   label: DataForSEO Appendix API
@@ -30,12 +24,6 @@ api_specs:
   slug: dataforseo-businessdata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-businessdata-api-openapi.yml
-- filename: dataforseo-contentanalysis-api-openapi.yml
-  format: yaml
-  label: DataForSEO ContentAnalysis API
-  slug: dataforseo-contentanalysis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-contentanalysis-api-openapi.yml
 - filename: dataforseo-dataforseolabs-api-openapi.yml
   format: yaml
   label: DataForSEO DataforseoLabs API
@@ -72,6 +60,18 @@ api_specs:
   slug: dataforseo-serp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-serp-api-openapi.yml
+- filename: dataforseo-app-data-api-openapi.yml
+  format: yaml
+  label: DataForSEO App Data API
+  slug: dataforseo-app-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-app-data-api-openapi.yml
+- filename: dataforseo-content-analysis-api-openapi.yml
+  format: yaml
+  label: DataForSEO Content Analysis API
+  slug: dataforseo-content-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-content-analysis-api-openapi.yml
 description: ''
 domains:
 - caa: []

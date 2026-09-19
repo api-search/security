@@ -26,12 +26,6 @@ api_specs:
   slug: harver-candidateapplications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidateapplications-api-openapi.yml
-- filename: harver-oauth-api-openapi.yml
-  format: yaml
-  label: Harver oauth API
-  slug: harver-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-oauth-api-openapi.yml
 - filename: harver-scheduling-api-openapi.yml
   format: yaml
   label: Harver scheduling API
@@ -56,6 +50,12 @@ api_specs:
   slug: harver-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-webhook-api-openapi.yml
+- filename: harver-oauth-api-openapi.yml
+  format: yaml
+  label: Harver OAUTH API
+  slug: harver-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -95,8 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harver/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- HR
-- HR Tech
+- Human Resources
 - Recruiting
 - Hiring
 - Talent Intelligence

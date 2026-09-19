@@ -36,12 +36,6 @@ api_specs:
   slug: airslate-invites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/openapi/airslate-invites-api-openapi.yml
-- filename: airslate-oauth-api-openapi.yml
-  format: yaml
-  label: airSlate OAuth API
-  slug: airslate-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/openapi/airslate-oauth-api-openapi.yml
 - filename: airslate-smart-fields-api-openapi.yml
   format: yaml
   label: airSlate Smart Fields API
@@ -66,6 +60,12 @@ api_specs:
   slug: airslate-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/openapi/airslate-webhooks-api-openapi.yml
+- filename: airslate-oauth-api-openapi.yml
+  format: yaml
+  label: airSlate O Auth API
+  slug: airslate-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/openapi/airslate-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

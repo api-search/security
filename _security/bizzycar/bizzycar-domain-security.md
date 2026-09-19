@@ -34,7 +34,7 @@ tags:
 - Company
 - Automotive
 - Recall Management
-- Dealerships
+- Dealership
 - Mobile Service
 - Vehicle Service
 - Fleet Management

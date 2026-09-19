@@ -42,7 +42,7 @@ tags:
 - Personal Servers
 - Decentralized Identity
 - Peer-to-Peer
-- Operating Systems
+- Operating System
 - Self-Hosting
 - Agents
 ---

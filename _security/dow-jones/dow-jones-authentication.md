@@ -39,12 +39,6 @@ api_specs:
   slug: dow-jones-attachment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-attachment-api-openapi.yml
-- filename: dow-jones-businessunit-api-openapi.yml
-  format: yaml
-  label: Dow Jones Business Unit API
-  slug: dow-jones-businessunit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-businessunit-api-openapi.yml
 - filename: dow-jones-calendar-events-api-openapi.yml
   format: yaml
   label: Dow Jones Calendar Events API
@@ -87,12 +81,6 @@ api_specs:
   slug: dow-jones-content-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-content-search-api-openapi.yml
-- filename: dow-jones-contentcollections-api-openapi.yml
-  format: yaml
-  label: Dow Jones Content Collections API
-  slug: dow-jones-contentcollections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-contentcollections-api-openapi.yml
 - filename: dow-jones-custom-sources-api-openapi.yml
   format: yaml
   label: Dow Jones Custom Sources API
@@ -237,12 +225,6 @@ api_specs:
   slug: dow-jones-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-search-api-openapi.yml
-- filename: dow-jones-thirdparty-api-openapi.yml
-  format: yaml
-  label: Dow Jones Third Party API
-  slug: dow-jones-thirdparty-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-thirdparty-api-openapi.yml
 - filename: dow-jones-thirdpartyproperties-api-openapi.yml
   format: yaml
   label: Dow Jones Third Party Properties API
@@ -279,6 +261,24 @@ api_specs:
   slug: dow-jones-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-versions-api-openapi.yml
+- filename: dow-jones-business-unit-api-openapi.yml
+  format: yaml
+  label: Dow Jones Business Unit API
+  slug: dow-jones-business-unit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-business-unit-api-openapi.yml
+- filename: dow-jones-content-collections-api-openapi.yml
+  format: yaml
+  label: Dow Jones Content Collections API
+  slug: dow-jones-content-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-content-collections-api-openapi.yml
+- filename: dow-jones-third-party-api-openapi.yml
+  format: yaml
+  label: Dow Jones Third Party API
+  slug: dow-jones-third-party-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/openapi/dow-jones-third-party-api-openapi.yml
 auth_types:
 - oauth2
 - http bearer

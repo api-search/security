@@ -84,12 +84,6 @@ api_specs:
   slug: ava-labs-looking-glass-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-looking-glass-api-openapi.yml
-- filename: ava-labs-nfts-api-openapi.yml
-  format: yaml
-  label: Ava Labs NFTs API
-  slug: ava-labs-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-nfts-api-openapi.yml
 - filename: ava-labs-operations-api-openapi.yml
   format: yaml
   label: Ava Labs Operations API
@@ -168,6 +162,12 @@ api_specs:
   slug: ava-labs-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-data-api-api-openapi.yml
+- filename: ava-labs-nfts-api-openapi.yml
+  format: yaml
+  label: Ava Labs NF Ts API
+  slug: ava-labs-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []

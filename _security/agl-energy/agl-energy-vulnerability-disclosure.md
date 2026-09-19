@@ -32,25 +32,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-usage-api-openapi.yml
 - filename: agl-energy-energy-account-balances-api-openapi.yml
   format: yaml
-  label: AGL Energy Energy Account Balances API
+  label: AGL Energy Account Balances API
   slug: agl-energy-energy-account-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-balances-api-openapi.yml
 - filename: agl-energy-energy-account-billing-api-openapi.yml
   format: yaml
-  label: AGL Energy Energy Account Billing API
+  label: AGL Energy Account Billing API
   slug: agl-energy-energy-account-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-billing-api-openapi.yml
 - filename: agl-energy-energy-accounts-api-openapi.yml
   format: yaml
-  label: AGL Energy Energy Accounts API
+  label: AGL Energy Accounts API
   slug: agl-energy-energy-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-accounts-api-openapi.yml
 - filename: agl-energy-energy-plans-api-openapi.yml
   format: yaml
-  label: AGL Energy Energy Plans API
+  label: AGL Energy Plans API
   slug: agl-energy-energy-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-plans-api-openapi.yml

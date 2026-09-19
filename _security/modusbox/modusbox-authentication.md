@@ -51,7 +51,7 @@ tags:
 - Company
 - Banking
 - Core Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Integration
 - iPaaS

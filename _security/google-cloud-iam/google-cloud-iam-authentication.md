@@ -61,7 +61,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Access Management
 - Google Cloud
-- IAM
+- Identity and Access Management
 - Identity
 - Permissions
 - Security

@@ -312,7 +312,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR, FIPS 140
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - E-Signature

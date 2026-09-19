@@ -42,6 +42,6 @@ tags:
 - Talent Acquisition
 - Hiring
 - AI Agents
-- HR Tech
+- Human Resources
 - Sourcing
 ---

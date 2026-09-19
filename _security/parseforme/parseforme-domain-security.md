@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: ParseForMe API
-  slug: parseforme-api
+- filename: parseforme-v1-api-openapi.yml
+  format: yaml
+  label: ParseForMe V1 API
+  slug: parseforme-v1-api
   spec_type: OpenAPI
-  url: https://api.parseforme.com/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-v1-api-openapi.yml
+- filename: parseforme-webhooks-api-openapi.yml
+  format: yaml
+  label: ParseForMe Webhooks API
+  slug: parseforme-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,8 +57,8 @@ tags:
 - Invoices
 - Bank Statements
 - Receipts
-- Resumes
+- Resume
 - PDF
-- Webhooks
+- Webhook
 - REST
 ---

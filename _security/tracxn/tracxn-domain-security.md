@@ -58,6 +58,6 @@ tags:
 - Venture Capital
 - Startups
 - Company Data
-- Investors
+- Investor
 - Funding
 ---

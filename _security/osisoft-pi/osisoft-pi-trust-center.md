@@ -12,12 +12,6 @@ api_specs:
   slug: osisoft-pi-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-attributes-api-openapi.yml
-- filename: osisoft-pi-batchrequests-api-openapi.yml
-  format: yaml
-  label: osisoft-pi BatchRequests API
-  slug: osisoft-pi-batchrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batchrequests-api-openapi.yml
 - filename: osisoft-pi-dataservers-api-openapi.yml
   format: yaml
   label: osisoft-pi DataServers API
@@ -48,6 +42,12 @@ api_specs:
   slug: osisoft-pi-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-streams-api-openapi.yml
+- filename: osisoft-pi-batch-requests-api-openapi.yml
+  format: yaml
+  label: OSIsoft PI System Batch Requests API
+  slug: osisoft-pi-batch-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batch-requests-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -65,6 +65,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.aveva.com/en/legal/trust/\nurl: https://www.aveva.com/en/legal/trust/\nevidence:\n- source: https://www.aveva.com/en/legal/trust/\n  keywords:\n  - trust center\n  - trust centre\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/security/osisoft-pi-trust-center.yml
 summary_line: trust center published
-tags: []
+tags:
+- Manufacturing
+- Cloud
+- IoT
+- Time Series
 trust_url: https://www.aveva.com/en/legal/trust/
 ---

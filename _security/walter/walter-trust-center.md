@@ -20,7 +20,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- AI Agent
+- AI Agents
 - Manufacturing
 - ERP
 - Automation

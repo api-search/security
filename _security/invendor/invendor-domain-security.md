@@ -24,12 +24,6 @@ api_specs:
   slug: invendor-consumption-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-consumption-api-openapi.yml
-- filename: invendor-datajobs-api-openapi.yml
-  format: yaml
-  label: Invendor DataJobs API
-  slug: invendor-datajobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-datajobs-api-openapi.yml
 - filename: invendor-devices-api-openapi.yml
   format: yaml
   label: Invendor Devices API
@@ -72,12 +66,6 @@ api_specs:
   slug: invendor-flagtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-flagtypes-api-openapi.yml
-- filename: invendor-globalsettings-api-openapi.yml
-  format: yaml
-  label: Invendor GlobalSettings API
-  slug: invendor-globalsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-globalsettings-api-openapi.yml
 - filename: invendor-gravity-api-openapi.yml
   format: yaml
   label: Invendor Gravity API
@@ -228,12 +216,6 @@ api_specs:
   slug: invendor-units-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-units-api-openapi.yml
-- filename: invendor-userprofiles-api-openapi.yml
-  format: yaml
-  label: Invendor UserProfiles API
-  slug: invendor-userprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-userprofiles-api-openapi.yml
 - filename: invendor-users-api-openapi.yml
   format: yaml
   label: Invendor Users API
@@ -252,6 +234,24 @@ api_specs:
   slug: invendor-wmslocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-wmslocations-api-openapi.yml
+- filename: invendor-data-jobs-api-openapi.yml
+  format: yaml
+  label: Invendor Data jobs API
+  slug: invendor-data-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-data-jobs-api-openapi.yml
+- filename: invendor-global-settings-api-openapi.yml
+  format: yaml
+  label: Invendor Global Settings API
+  slug: invendor-global-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-global-settings-api-openapi.yml
+- filename: invendor-user-profiles-api-openapi.yml
+  format: yaml
+  label: Invendor User Profiles API
+  slug: invendor-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/openapi/invendor-user-profiles-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -80,7 +80,7 @@ tags:
 - Smart Meter
 - Tariffs
 - Kraken
-- UK
+- United Kingdom
 - DER
 - Electric Vehicles
 - Heat Pumps

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-climate-change-apis-api-openapi.yml
 - filename: open-meteo-elevation-api-api-openapi.yml
   format: yaml
-  label: Open-Meteo Elevation API API
+  label: Open-Meteo Elevation API
   slug: open-meteo-elevation-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/openapi/open-meteo-elevation-api-api-openapi.yml

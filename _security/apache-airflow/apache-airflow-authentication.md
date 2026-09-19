@@ -20,12 +20,6 @@ api_specs:
   slug: apache-airflow-dag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-api-openapi.yml
-- filename: apache-airflow-dagrun-api-openapi.yml
-  format: yaml
-  label: Apache Airflow DAGRun API
-  slug: apache-airflow-dagrun-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dagrun-api-openapi.yml
 - filename: apache-airflow-dagwarning-api-openapi.yml
   format: yaml
   label: Apache Airflow DagWarning API
@@ -38,18 +32,6 @@ api_specs:
   slug: apache-airflow-dataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dataset-api-openapi.yml
-- filename: apache-airflow-eventlog-api-openapi.yml
-  format: yaml
-  label: Apache Airflow EventLog API
-  slug: apache-airflow-eventlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-eventlog-api-openapi.yml
-- filename: apache-airflow-importerror-api-openapi.yml
-  format: yaml
-  label: Apache Airflow ImportError API
-  slug: apache-airflow-importerror-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-importerror-api-openapi.yml
 - filename: apache-airflow-monitoring-api-openapi.yml
   format: yaml
   label: Apache Airflow Monitoring API
@@ -86,12 +68,6 @@ api_specs:
   slug: apache-airflow-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-role-api-openapi.yml
-- filename: apache-airflow-taskinstance-api-openapi.yml
-  format: yaml
-  label: Apache Airflow TaskInstance API
-  slug: apache-airflow-taskinstance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-taskinstance-api-openapi.yml
 - filename: apache-airflow-user-api-openapi.yml
   format: yaml
   label: Apache Airflow User API
@@ -110,6 +86,30 @@ api_specs:
   slug: apache-airflow-xcom-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-xcom-api-openapi.yml
+- filename: apache-airflow-dag-run-api-openapi.yml
+  format: yaml
+  label: Apache Airflow DAG Run API
+  slug: apache-airflow-dag-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-run-api-openapi.yml
+- filename: apache-airflow-event-log-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Event Log API
+  slug: apache-airflow-event-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-event-log-api-openapi.yml
+- filename: apache-airflow-import-error-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Import Error API
+  slug: apache-airflow-import-error-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-import-error-api-openapi.yml
+- filename: apache-airflow-task-instance-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Task Instance API
+  slug: apache-airflow-task-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-task-instance-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

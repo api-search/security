@@ -35,7 +35,6 @@ tags:
 - Behavioral Health
 - Mental Health
 - Telehealth
-- Telemedicine
 - Psychiatry
 - Digital Health
 ---

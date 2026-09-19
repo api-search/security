@@ -40,5 +40,5 @@ tags:
 - Consumer
 - Latin America
 - Mobile App
-- Bookings
+- Booking
 ---

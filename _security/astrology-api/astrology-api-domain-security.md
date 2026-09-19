@@ -1,29 +1,59 @@
 ---
 api_specs:
-- filename: astrology-api-json-openapi.yml
+- filename: astrology-api-astrocartography-api-openapi.yml
   format: yaml
-  label: Astrology API
-  slug: astrology-api
+  label: Astrology API Astrocartography API
+  slug: astrology-api-astrocartography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-json-openapi.yml
-- filename: astrology-api-pdf-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-astrocartography-api-openapi.yml
+- filename: astrology-api-face-reading-api-openapi.yml
   format: yaml
-  label: AstrologyAPI PDF Reports API
-  slug: astrology-api-pdf
+  label: Astrology API Face Reading API
+  slug: astrology-api-face-reading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-pdf-openapi.yml
-- filename: astrology-api-palmistry-openapi.json
-  format: json
-  label: AstrologyAPI Palmistry API
-  slug: astrology-api-palmistry
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palmistry-openapi.json
-- filename: astrology-api-face-reading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-face-reading-api-openapi.yml
+- filename: astrology-api-human-design-api-openapi.yml
   format: yaml
-  label: AstrologyAPI Face Reading API
-  slug: astrology-api-face-reading
+  label: Astrology API Human Design API
+  slug: astrology-api-human-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-face-reading-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-human-design-api-openapi.yml
+- filename: astrology-api-palm-reading-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Reading API
+  slug: astrology-api-palm-reading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palm-reading-api-openapi.yml
+- filename: astrology-api-palmistry-service-api-api-openapi.yml
+  format: yaml
+  label: Astrology API Palmistry Service API
+  slug: astrology-api-palmistry-service-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palmistry-service-api-api-openapi.yml
+- filename: astrology-api-pdf-reports-api-openapi.yml
+  format: yaml
+  label: Astrology API PDF Reports API
+  slug: astrology-api-pdf-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-pdf-reports-api-openapi.yml
+- filename: astrology-api-prediction-api-openapi.yml
+  format: yaml
+  label: Astrology API Prediction API
+  slug: astrology-api-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-prediction-api-openapi.yml
+- filename: astrology-api-vedic-astrology-api-openapi.yml
+  format: yaml
+  label: Astrology API Vedic Astrology API
+  slug: astrology-api-vedic-astrology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-vedic-astrology-api-openapi.yml
+- filename: astrology-api-western-astrology-api-openapi.yml
+  format: yaml
+  label: Astrology API Western Astrology API
+  slug: astrology-api-western-astrology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-western-astrology-api-openapi.yml
 description: ''
 domains:
 - caa: []

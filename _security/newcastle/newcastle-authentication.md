@@ -26,12 +26,24 @@ api_specs:
   slug: urban-observatory-summary
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-summary-api-openapi.yml
-- filename: newcastle-timeseries-api-openapi.yml
+- filename: newcastle-api-metadata-information-api-openapi.yml
   format: yaml
-  label: Urban Observatory API (Urban Sciences Building) — Timeseries
-  slug: urban-observatory-timeseries
+  label: Newcastle University API Metadata Information API
+  slug: newcastle-api-metadata-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-timeseries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-api-metadata-information-api-openapi.yml
+- filename: newcastle-v1-api-openapi.yml
+  format: yaml
+  label: Newcastle University V1 API
+  slug: newcastle-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-v1-api-openapi.yml
+- filename: newcastle-time-series-api-openapi.yml
+  format: yaml
+  label: Newcastle University Time Series API
+  slug: newcastle-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-time-series-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

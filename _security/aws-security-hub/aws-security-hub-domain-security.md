@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-findings-api-openapi.yml
 - filename: aws-security-hub-hub-api-openapi.yml
   format: yaml
-  label: AWS Security Hub Hub API
+  label: AWS Security Hub API
   slug: aws-security-hub-hub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-hub-api-openapi.yml

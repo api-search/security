@@ -40,7 +40,7 @@ tags:
 - Company
 - Conversational Analytics
 - Chatbots
-- Voice Assistants
+- Voice Assistant
 - Bot Analytics
 - Analytics
 - Natural Language Understanding

@@ -60,7 +60,7 @@ tags:
 - Marketplace
 - E-Commerce
 - Deals
-- Bookings
+- Booking
 - Reservations
 - Travel
 - Retail

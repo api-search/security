@@ -177,12 +177,12 @@ api_specs:
   slug: buttondown-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-webhooks-api-openapi.yml
-- filename: buttondown-buttondown-webhooks-api-api-openapi.yml
+- filename: buttondown-buttondown-api-api-openapi.yml
   format: yaml
-  label: Buttondown Buttondown Webhooks API
-  slug: buttondown-buttondown-webhooks-api-api
+  label: Buttondown Buttondown API
+  slug: buttondown-buttondown-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-webhooks-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-api-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Buttondown authenticates with a static API key in the Authorization header. There is no OAuth, no OIDC and no token exchange — but the key model is richer than a single bearer secret: an account can mint any number of keys, each with independent per-area read/write/none permissions, and a platform account can act on any newsletter it owns by adding a context header.'
@@ -219,7 +219,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buttondown/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics
-- Automations
+- Automation
 - Email
 - Markdown
 - Newsletters

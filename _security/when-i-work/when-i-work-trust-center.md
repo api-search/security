@@ -160,6 +160,6 @@ tags:
 - Team Messaging
 - Hourly Workers
 - Labor Forecasting
-- HR
+- Human Resources
 trust_url: https://trust.wheniwork.com/
 ---

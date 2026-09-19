@@ -77,7 +77,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/openapi/holidu-los-api-openapi.yml
 - filename: holidu-los-push-api-api-openapi.yml
   format: yaml
-  label: Holidu LOS Push API API
+  label: Holidu LOS Push API
   slug: holidu-los-push-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/openapi/holidu-los-push-api-api-openapi.yml
@@ -200,7 +200,7 @@ tags:
 - Company
 - Travel And Leisure
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - Hospitality
 - Property Management
 - Booking

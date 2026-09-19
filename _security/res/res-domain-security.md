@@ -42,7 +42,7 @@ tags:
 - Facilities Management
 - Field Service
 - Work Orders
-- Trades
+- Trade
 - Maintenance
 - Hospitality
 - Restaurant

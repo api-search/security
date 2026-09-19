@@ -35,6 +35,6 @@ tags:
 - Video
 - AdTech
 - Marketing
-- Brand
+- Brands
 - Media
 ---

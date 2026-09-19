@@ -50,7 +50,7 @@ summary_line: 3 schemes
 tags:
 - Payments
 - Australia
-- BNPL
+- Buy Now Pay Later
 - Payment Gateway
 - Checkout
 - Embedded Payments

@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Employee Experience
-- HR
+- Human Resources
 - Engagement
 - Pulse Surveys
 - Performance Management

@@ -41,25 +41,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-general-api-openapi.yml
 - filename: ipinfo-ipinfo-core-api-openapi.yml
   format: yaml
-  label: IPinfo ipinfo core API
+  label: IPinfo core API
   slug: ipinfo-ipinfo-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-core-api-openapi.yml
 - filename: ipinfo-ipinfo-lite-api-openapi.yml
   format: yaml
-  label: IPinfo ipinfo lite API
+  label: IPinfo lite API
   slug: ipinfo-ipinfo-lite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-lite-api-openapi.yml
 - filename: ipinfo-ipinfo-max-api-openapi.yml
   format: yaml
-  label: IPinfo ipinfo max API
+  label: IPinfo max API
   slug: ipinfo-ipinfo-max-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-max-api-openapi.yml
 - filename: ipinfo-ipinfo-plus-api-openapi.yml
   format: yaml
-  label: IPinfo ipinfo plus API
+  label: IPinfo plus API
   slug: ipinfo-ipinfo-plus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-plus-api-openapi.yml

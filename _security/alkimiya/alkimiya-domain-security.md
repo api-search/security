@@ -33,9 +33,9 @@ tags:
 - Health
 - Healthcare
 - Clinical Decision Support
-- Evidence Based Medicine
+- Evidence-Based Medicine
 - Digital Health
-- Telemedicine
+- Telehealth
 - Chronic Care
 - Italy
 ---

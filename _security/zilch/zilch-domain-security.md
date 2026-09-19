@@ -33,11 +33,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - United Kingdom
-- BNPL
 - Buy Now Pay Later
 - Consumer Credit
 - Digital Wallet
-- Card
+- Cards
 - Mastercard
 - Fintech
 ---

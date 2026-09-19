@@ -51,7 +51,7 @@ summary_line: PCI DSS
 tags:
 - Payments
 - Government
-- UK
+- United Kingdom
 - Public Sector
 - REST
 - PCI DSS

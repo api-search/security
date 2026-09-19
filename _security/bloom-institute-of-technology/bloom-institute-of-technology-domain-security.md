@@ -38,5 +38,5 @@ tags:
 - EdTech
 - Developer Training
 - Data Science
-- Career
+- Careers
 ---

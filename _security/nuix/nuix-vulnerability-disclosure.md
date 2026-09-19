@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: nuix-nuix-core-engine-rest-api-openapi.yml
-  format: yaml
-  label: Nuix Core Engine REST API
-  slug: nuix-core-engine-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-nuix-core-engine-rest-api-openapi.yml
 - filename: nuix-case-api-openapi.yml
   format: yaml
   label: Nuix Case API

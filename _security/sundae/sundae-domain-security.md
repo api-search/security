@@ -42,5 +42,5 @@ tags:
 - PropTech
 - Marketplace
 - Home Buying
-- Investors
+- Investor
 ---

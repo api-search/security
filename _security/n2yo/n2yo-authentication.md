@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/n2yo-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/authentication/n2yo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Satellites
+- Satellite
 - Space
 - Tracking
 ---

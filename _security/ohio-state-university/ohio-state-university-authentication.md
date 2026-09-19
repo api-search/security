@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ohio-state-university-mobile-content-api-openapi.yml
+- filename: ohio-state-university-classes-api-openapi.yml
   format: yaml
-  label: Ohio State Mobile Content API v2
-  slug: mobile-content-api
+  label: Ohio State University Classes API
+  slug: ohio-state-university-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-mobile-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-classes-api-openapi.yml
+- filename: ohio-state-university-events-api-openapi.yml
+  format: yaml
+  label: Ohio State University Events API
+  slug: ohio-state-university-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-events-api-openapi.yml
 auth_types: []
 description: 'How each Ohio State surface in this profile is authenticated. Two very different postures sit side by side: a small number of genuinely open, unauthenticated read APIs, and an institution-wide SAML/Shibboleth Single Sign-On that gates everything else. There is no API key programme, no developer registration, and no published OAuth client onboarding for any Ohio State surface found in this run.'
 kind: authentication

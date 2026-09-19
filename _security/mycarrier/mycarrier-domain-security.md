@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: mycarrier-bulkimport-api-openapi.yml
-  format: yaml
-  label: MyCarrier Bulk Import API
-  slug: mycarrier-bulkimport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/openapi/mycarrier-bulkimport-api-openapi.yml
 - filename: mycarrier-carrierinvoicesetting-api-openapi.yml
   format: yaml
   label: MyCarrier Carrier Invoice Setting API
@@ -144,12 +138,6 @@ api_specs:
   slug: mycarrier-routing-guide-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/openapi/mycarrier-routing-guide-api-openapi.yml
-- filename: mycarrier-shipmentdetails-api-openapi.yml
-  format: yaml
-  label: MyCarrier Shipment Details API
-  slug: mycarrier-shipmentdetails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/openapi/mycarrier-shipmentdetails-api-openapi.yml
 - filename: mycarrier-shipments-api-openapi.yml
   format: yaml
   label: MyCarrier Shipments API
@@ -204,6 +192,18 @@ api_specs:
   slug: mycarrier-webhooktype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/openapi/mycarrier-webhooktype-api-openapi.yml
+- filename: mycarrier-bulk-import-api-openapi.yml
+  format: yaml
+  label: MyCarrier Bulk Import API
+  slug: mycarrier-bulk-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/openapi/mycarrier-bulk-import-api-openapi.yml
+- filename: mycarrier-shipment-details-api-openapi.yml
+  format: yaml
+  label: MyCarrier Shipment details API
+  slug: mycarrier-shipment-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/openapi/mycarrier-shipment-details-api-openapi.yml
 description: ''
 domains:
 - caa: []

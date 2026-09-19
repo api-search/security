@@ -84,5 +84,5 @@ tags:
 - SLA
 - SLS
 - Hardware
-- Dashboard
+- Dashboards
 ---

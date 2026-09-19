@@ -14,12 +14,6 @@ api_specs:
   slug: upward-financial-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-auth-api-openapi.yml
-- filename: upward-financial-billpayments-api-openapi.yml
-  format: yaml
-  label: Upward Financial billPayments API
-  slug: upward-financial-billpayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-billpayments-api-openapi.yml
 - filename: upward-financial-billreporting-api-openapi.yml
   format: yaml
   label: Upward Financial billReporting API
@@ -62,12 +56,6 @@ api_specs:
   slug: upward-financial-partners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-partners-api-openapi.yml
-- filename: upward-financial-paymentcards-api-openapi.yml
-  format: yaml
-  label: Upward Financial paymentCards API
-  slug: upward-financial-paymentcards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-paymentcards-api-openapi.yml
 - filename: upward-financial-payments-api-openapi.yml
   format: yaml
   label: Upward Financial payments API
@@ -104,6 +92,18 @@ api_specs:
   slug: upward-financial-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-webhooks-api-openapi.yml
+- filename: upward-financial-bill-payments-api-openapi.yml
+  format: yaml
+  label: Upward Financial Bill Payments API
+  slug: upward-financial-bill-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-bill-payments-api-openapi.yml
+- filename: upward-financial-payment-cards-api-openapi.yml
+  format: yaml
+  label: Upward Financial Payment Cards API
+  slug: upward-financial-payment-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/openapi/upward-financial-payment-cards-api-openapi.yml
 auth_types:
 - http
 - oauth2

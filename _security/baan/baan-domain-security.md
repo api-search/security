@@ -72,7 +72,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baan/refs/head
 summary_line: DNSSEC · DMARC
 tags:
 - Company
-- Enterprise Resource Planning
 - ERP
 - Enterprise Software
 - Manufacturing

@@ -29,9 +29,9 @@ tags:
 - W3C
 - Styling
 - Browser
-- Specifications
+- Specification
 - Validation
 - CSSOM
 - Houdini
-- Front End
+- Frontend
 ---

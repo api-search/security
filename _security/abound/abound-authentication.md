@@ -82,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-9-api-openapi.yml
 - filename: abound-abound-api-v4-api-openapi.yml
   format: yaml
-  label: Abound Abound API V4 API
+  label: Abound API V4 API
   slug: abound-abound-api-v4-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-abound-api-v4-api-openapi.yml
@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abound/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Taxes
+- Tax
 - Tax Compliance
 - Regulatory Compliance
 - Financial-Services

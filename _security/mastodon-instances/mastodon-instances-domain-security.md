@@ -2,7 +2,7 @@
 api_specs:
 - filename: mastodon-instances-instances-api-openapi.yml
   format: yaml
-  label: Mastodon Instances Instances API
+  label: Mastodon Instances API
   slug: mastodon-instances-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-instances-api-openapi.yml

@@ -28,7 +28,7 @@ tags:
 - LangChain
 - LlamaIndex
 - CrewAI
-- LLMs
+- LLM
 - Personalization
 - Retrieval
 trust_url: https://www.getzep.com/enterprise/

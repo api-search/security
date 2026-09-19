@@ -122,7 +122,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-assets-api-openapi.yml
 - filename: customer-io-customer-io-app-api-api-openapi.yml
   format: yaml
-  label: Customer.io Customer.io App API
+  label: Customer.io App API
   slug: customer-io-customer-io-app-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customer-io-app-api-api-openapi.yml
@@ -272,7 +272,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customer-io/re
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR, CCPA
 tags:
 - Behavioral Data
-- Broadcasts
+- Broadcast
 - Campaigns
 - CDP
 - Customer Data

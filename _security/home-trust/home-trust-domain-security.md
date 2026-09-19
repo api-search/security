@@ -35,7 +35,7 @@ tags:
 - Canada
 - Trust Company
 - Alternative Lending
-- Mortgages
+- Mortgage
 - Credit Cards
 - Deposits
 ---

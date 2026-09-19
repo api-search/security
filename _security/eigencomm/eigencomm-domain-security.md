@@ -29,7 +29,7 @@ tags:
 - Company
 - Semiconductors
 - Chipsets
-- Internet of Things
+- IoT
 - Cellular IoT
 - NB-IoT
 - 5G

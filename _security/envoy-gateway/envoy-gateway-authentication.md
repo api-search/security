@@ -35,6 +35,6 @@ tags:
 - Gateway API
 - Ingress
 - Service Mesh
-- Cloud Native
+- Cloud-Native
 - gRPC
 ---

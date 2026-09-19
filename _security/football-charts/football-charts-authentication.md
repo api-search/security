@@ -67,18 +67,18 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://www.foo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/authentication/football-charts-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
-- football
-- soccer
-- sports
-- sports-data
-- statistics
-- results
-- standings
-- fixtures
-- predictions
+- Football
+- Soccer
+- Sports
+- Sports Data
+- Statistics
+- Results
+- Standings
+- Fixtures
+- Predictions
 - probability-models
 - monte-carlo
-- mcp
+- MCP
 - agent-native
-- free-api
+- Free API
 ---

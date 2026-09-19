@@ -32,25 +32,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-usage-api-openapi.yml
 - filename: red-energy-energy-account-balances-api-openapi.yml
   format: yaml
-  label: Red Energy Energy Account Balances API
+  label: Red Energy Account Balances API
   slug: red-energy-energy-account-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-balances-api-openapi.yml
 - filename: red-energy-energy-account-billing-api-openapi.yml
   format: yaml
-  label: Red Energy Energy Account Billing API
+  label: Red Energy Account Billing API
   slug: red-energy-energy-account-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-billing-api-openapi.yml
 - filename: red-energy-energy-accounts-api-openapi.yml
   format: yaml
-  label: Red Energy Energy Accounts API
+  label: Red Energy Accounts API
   slug: red-energy-energy-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-accounts-api-openapi.yml
 - filename: red-energy-energy-plans-api-openapi.yml
   format: yaml
-  label: Red Energy Energy Plans API
+  label: Red Energy Plans API
   slug: red-energy-energy-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-plans-api-openapi.yml

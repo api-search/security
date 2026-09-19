@@ -33,7 +33,7 @@ tags:
 - Company
 - Financial-Services
 - Payments
-- Remittance
+- Remittances
 - Cross-Border Payments
 - Banking
 - Credit

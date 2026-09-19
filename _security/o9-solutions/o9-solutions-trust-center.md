@@ -37,6 +37,6 @@ tags:
 - Decision Intelligence
 - Retail Planning
 - Revenue Growth Management
-- Enterprise Resource Planning
+- ERP
 trust_url: https://o9solutions.com/security
 ---

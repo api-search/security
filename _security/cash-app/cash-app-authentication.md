@@ -9,12 +9,6 @@ api_specs:
   slug: cash-app-add-cash-app-pay-to-your-site-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-add-cash-app-pay-to-your-site-api-openapi.yml
-- filename: cash-app-apikeys-api-openapi.yml
-  format: yaml
-  label: Cash App API Keys API
-  slug: cash-app-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-apikeys-api-openapi.yml
 - filename: cash-app-balances-api-openapi.yml
   format: yaml
   label: Cash App Balances API
@@ -47,7 +41,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-customers-api-openapi.yml
 - filename: cash-app-default-api-openapi.yml
   format: yaml
-  label: Cash App App Default API
+  label: Cash App Default API
   slug: cash-app-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-default-api-openapi.yml
@@ -57,12 +51,6 @@ api_specs:
   slug: cash-app-disputes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-disputes-api-openapi.yml
-- filename: cash-app-feeplans-api-openapi.yml
-  format: yaml
-  label: Cash App Fee Plans API
-  slug: cash-app-feeplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-feeplans-api-openapi.yml
 - filename: cash-app-grants-afterpay-api-openapi.yml
   format: yaml
   label: Cash App Grants Afterpay API
@@ -117,6 +105,18 @@ api_specs:
   slug: cash-app-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-webhooks-api-openapi.yml
+- filename: cash-app-api-keys-api-openapi.yml
+  format: yaml
+  label: Cash App API Keys API
+  slug: cash-app-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-api-keys-api-openapi.yml
+- filename: cash-app-fee-plans-api-openapi.yml
+  format: yaml
+  label: Cash App Fee Plans API
+  slug: cash-app-fee-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/openapi/cash-app-fee-plans-api-openapi.yml
 auth_types:
 - apiKey
 - http

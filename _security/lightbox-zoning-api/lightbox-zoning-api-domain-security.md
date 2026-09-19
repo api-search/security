@@ -47,7 +47,7 @@ tags:
 - Real-Estate
 - CRE
 - Property
-- Parcels
+- Parcel
 - Geospatial
 - Land Use
 ---

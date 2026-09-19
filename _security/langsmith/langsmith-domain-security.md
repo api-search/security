@@ -264,12 +264,6 @@ api_specs:
   slug: langsmith-nps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-nps-api-openapi.yml
-- filename: langsmith-oauth-api-openapi.yml
-  format: yaml
-  label: LangSmith oauth API
-  slug: langsmith-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-oauth-api-openapi.yml
 - filename: langsmith-ok-api-openapi.yml
   format: yaml
   label: LangSmith Ok API
@@ -438,6 +432,12 @@ api_specs:
   slug: langsmith-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-workspaces-api-openapi.yml
+- filename: langsmith-oauth-api-openapi.yml
+  format: yaml
+  label: LangSmith OAUTH API
+  slug: langsmith-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -490,6 +490,6 @@ tags:
 - Artificial Intelligence
 - LLM
 - Observability
-- Evaluations
+- Evaluation
 - LangChain
 ---

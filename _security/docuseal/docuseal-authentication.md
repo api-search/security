@@ -58,5 +58,5 @@ tags:
 - Templates
 - Open-Source
 - Webhook
-- Embedding
+- Embeddings
 ---

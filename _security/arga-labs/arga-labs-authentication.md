@@ -44,8 +44,8 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - API Testing
-- Sandboxes
-- Digital Twins
+- Sandbox
+- Digital Twin
 - AI Agents
 - Developer Tools
 - Testing Infrastructure

@@ -148,7 +148,7 @@ tags:
 - Lending
 - Loans
 - Student Loans
-- Credit Unions
+- Credit Union
 - Banking
 - Loan Origination
 - Financial-Services

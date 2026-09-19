@@ -45,7 +45,7 @@ tags:
 - Sustainability
 - Manufacturing
 - Marketplace
-- Consumer Brands
+- Consumer Brand
 - ISO 42001
 - Riverflow
 - Manchester

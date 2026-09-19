@@ -38,7 +38,6 @@ tags:
 - Therapy
 - Digital Health
 - Healthcare
-- Telemedicine
 - Medication Management
 - Substance Use Disorder
 - Suicide Prevention

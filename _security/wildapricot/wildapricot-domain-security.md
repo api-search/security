@@ -18,12 +18,6 @@ api_specs:
   slug: wildapricot-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/openapi/wildapricot-contacts-api-openapi.yml
-- filename: wildapricot-contacts-customfields-api-openapi.yml
-  format: yaml
-  label: WildApricot Contacts.CustomFields API
-  slug: wildapricot-contacts-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/openapi/wildapricot-contacts-customfields-api-openapi.yml
 - filename: wildapricot-contacts-savedsearch-api-openapi.yml
   format: yaml
   label: WildApricot Contacts.SavedSearch API
@@ -174,6 +168,12 @@ api_specs:
   slug: wildapricot-pictures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/openapi/wildapricot-pictures-api-openapi.yml
+- filename: wildapricot-contacts-custom-fields-api-openapi.yml
+  format: yaml
+  label: WildApricot Contacts Custom Fields API
+  slug: wildapricot-contacts-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/openapi/wildapricot-contacts-custom-fields-api-openapi.yml
 description: ''
 domains:
 - caa:

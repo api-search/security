@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amazon-codecatalyst-accesstokens-api-openapi.yml
-  format: yaml
-  label: Amazon CodeCatalyst AccessTokens API
-  slug: amazon-codecatalyst-accesstokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-accesstokens-api-openapi.yml
 - filename: amazon-codecatalyst-session-api-openapi.yml
   format: yaml
   label: Amazon CodeCatalyst Session API
@@ -18,12 +12,18 @@ api_specs:
   slug: amazon-codecatalyst-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-spaces-api-openapi.yml
-- filename: amazon-codecatalyst-userdetails-api-openapi.yml
+- filename: amazon-codecatalyst-access-tokens-api-openapi.yml
   format: yaml
-  label: Amazon CodeCatalyst UserDetails API
-  slug: amazon-codecatalyst-userdetails-api
+  label: Amazon CodeCatalyst Access Tokens API
+  slug: amazon-codecatalyst-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-userdetails-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-access-tokens-api-openapi.yml
+- filename: amazon-codecatalyst-user-details-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst User Details API
+  slug: amazon-codecatalyst-user-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-user-details-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Healthcare
-- Telemedicine
+- Telehealth
 - Appointment Booking
 - Marketplace
 - Software-as-a-Service

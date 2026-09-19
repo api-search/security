@@ -78,12 +78,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/h
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory
 - Manufacturing
 - Sales
 - CRM
-- HR
+- Human Resources
 - Open-Source
 ---

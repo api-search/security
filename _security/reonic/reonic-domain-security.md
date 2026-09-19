@@ -215,7 +215,7 @@ tags:
 - Climate Energy
 - Solar
 - Renewable Energy
-- Photovoltaic
+- Photovoltaics
 - Heat Pumps
 - Installer Software
 - Software-as-a-Service

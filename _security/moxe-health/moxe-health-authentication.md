@@ -68,8 +68,8 @@ tags:
 - United States
 - Interoperability
 - Clinical Data
-- Payer
-- Provider
+- Payers
+- Providers
 - EHR
 - Health Data Exchange
 - Claims

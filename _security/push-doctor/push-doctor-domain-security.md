@@ -34,7 +34,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Online GP
 - Digital Health
 - Video Consultation

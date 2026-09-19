@@ -92,5 +92,5 @@ tags:
 - LLM Gateway
 - Chatbots
 - API Gateway
-- Korea
+- South Korea
 ---

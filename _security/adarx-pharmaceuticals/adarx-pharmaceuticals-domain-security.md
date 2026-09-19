@@ -110,7 +110,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - RNA Therapeutics
 - siRNA
 - RNA Editing

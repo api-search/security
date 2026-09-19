@@ -79,7 +79,6 @@ tags:
 - Company
 - Payments
 - Buy Now Pay Later
-- BNPL
 - Lending
 - Consumer Credit
 - Checkout

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brick-and-bolt
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Construction
 - Homebuilding
 - Real-Estate

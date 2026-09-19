@@ -198,12 +198,6 @@ api_specs:
   slug: alleva-survey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/openapi/alleva-survey-api-openapi.yml
-- filename: alleva-treatmentplans-api-openapi.yml
-  format: yaml
-  label: Alleva Treatment Plans API
-  slug: alleva-treatmentplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/openapi/alleva-treatmentplans-api-openapi.yml
 - filename: alleva-treatmentreviews-api-openapi.yml
   format: yaml
   label: Alleva Treatment Reviews API
@@ -222,6 +216,12 @@ api_specs:
   slug: alleva-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/openapi/alleva-users-api-openapi.yml
+- filename: alleva-treatment-plans-api-openapi.yml
+  format: yaml
+  label: Alleva Treatment Plans API
+  slug: alleva-treatment-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/openapi/alleva-treatment-plans-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II

@@ -61,16 +61,16 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formboost/refs/heads/main/authentication/formboost-authentication.yml
 summary_line: 4 schemes
 tags:
-- forms
+- Forms
 - form-backend
-- html-forms
-- serverless
-- static-sites
-- react
-- nextjs
-- vue
-- webhooks
-- no-code
-- developer-tools
-- spam-filtering
+- HTML Forms
+- Serverless
+- Static Sites
+- React
+- Next.js
+- Vue
+- Webhook
+- No-Code
+- Developer Tools
+- Spam Filtering
 ---

@@ -162,7 +162,7 @@ summary_line: source, source_status, verified, quote, held, frameworks, explicit
 tags:
 - Sales
 - Revenue Intelligence
-- Conversation
+- Conversations
 - Analytics
 - ZoomInfo
 - Conversation Intelligence

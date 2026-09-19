@@ -40,11 +40,11 @@ tags:
 - Annuities
 - Auto Insurance
 - Compliance
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Home Insurance
 - Insurance
-- Investments
+- Investment
 - Lending
 - Life Insurance
 - Retirement

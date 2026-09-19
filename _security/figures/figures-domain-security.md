@@ -44,5 +44,4 @@ tags:
 - Pay Equity
 - Salary Bands
 - Human Resources
-- HR Tech
 ---

@@ -38,7 +38,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Domain Awareness
 - Non-Earth Imaging
 - Earth Observation

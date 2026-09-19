@@ -56,5 +56,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Photos
 - Stock Media
-- Videos
+- Video
 ---

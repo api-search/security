@@ -102,12 +102,6 @@ api_specs:
   slug: synctera-monitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/openapi/synctera-monitoring-api-openapi.yml
-- filename: synctera-paymentschedules-api-openapi.yml
-  format: yaml
-  label: Synctera PaymentSchedules API
-  slug: synctera-paymentschedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/openapi/synctera-paymentschedules-api-openapi.yml
 - filename: synctera-persons-api-openapi.yml
   format: yaml
   label: Synctera Persons API
@@ -168,6 +162,12 @@ api_specs:
   slug: synctera-wires-alpha-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/openapi/synctera-wires-alpha-api-openapi.yml
+- filename: synctera-payment-schedules-api-openapi.yml
+  format: yaml
+  label: Synctera Payment Schedules API
+  slug: synctera-payment-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/openapi/synctera-payment-schedules-api-openapi.yml
 description: ''
 domains:
 - caa:

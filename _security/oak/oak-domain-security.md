@@ -36,6 +36,6 @@ tags:
 - Security
 - Identity Governance
 - AI Agents
-- IAM
+- Identity and Access Management
 - Cybersecurity
 ---

@@ -23,7 +23,7 @@ tags:
 - ATS
 - Applicant Tracking
 - Recruiting
-- HR
+- Human Resources
 - Hiring
 - Employer Branding
 trust_url: https://trust.teamtailor.com/

@@ -42,7 +42,6 @@ tags:
 - Company
 - Fintech
 - Payments
-- BNPL
 - Buy Now Pay Later
 - B2B
 - Invoicing

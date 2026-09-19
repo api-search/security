@@ -20,12 +20,6 @@ api_specs:
   slug: simplifi-simplifipay-card-program-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-program-api-openapi.yml
-- filename: simplifi-simplifipay-document-api-openapi.yml
-  format: yaml
-  label: Simplifi/Simplifipay Document API
-  slug: simplifi-simplifipay-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-document-api-openapi.yml
 - filename: simplifi-simplifipay-fee-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Fee API
@@ -66,8 +60,8 @@ method: searched
 name: Simplifi Simplifipay Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Simplifi/Simplifipay secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Simplifi/Simplifipay
+overview: Simplifipay secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Simplifipay
 provider_slug: simplifi-simplifipay
 scheme_count: 1
 schemes:

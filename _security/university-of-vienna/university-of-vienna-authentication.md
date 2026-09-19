@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: university-of-vienna-datastream-api-openapi.yml
-  format: yaml
-  label: PHAIDRA datastream API (University of Vienna)
-  slug: university-of-vienna-datastream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-datastream-api-openapi.yml
 - filename: university-of-vienna-directory-api-openapi.yml
   format: yaml
   label: PHAIDRA directory API (University of Vienna)
@@ -87,6 +81,12 @@ api_specs:
   slug: university-of-vienna-vocabularies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-vocabularies-api-openapi.yml
+- filename: university-of-vienna-data-stream-api-openapi.yml
+  format: yaml
+  label: University of Vienna Data Stream API
+  slug: university-of-vienna-data-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-data-stream-api-openapi.yml
 auth_types:
 - apiKey
 - http

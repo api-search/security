@@ -2,7 +2,7 @@
 api_specs:
 - filename: cronitor-cronitor-telemetry-api-api-openapi.yml
   format: yaml
-  label: Cronitor Cronitor Telemetry API API
+  label: Cronitor Telemetry API
   slug: cronitor-cronitor-telemetry-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-cronitor-telemetry-api-api-openapi.yml

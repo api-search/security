@@ -62,5 +62,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.midjourney.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:46:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.midjourney.com\n  https: false\n- host: www.midjourney.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 20:52:04 2026 GMT\n  hsts: null\ndomains:\n- domain: midjourney.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/security/midjourney-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Image-Generation
+- Artificial Intelligence
+- Creative Tools
+- Job
 ---

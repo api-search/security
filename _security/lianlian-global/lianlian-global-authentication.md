@@ -135,12 +135,6 @@ api_specs:
   slug: lianlian-global-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-gateway-api-openapi.yml
-- filename: lianlian-global-get-api-openapi.yml
-  format: yaml
-  label: LianLian Global Get API
-  slug: lianlian-global-get-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-get-api-openapi.yml
 - filename: lianlian-global-kyc-api-openapi.yml
   format: yaml
   label: LianLian Global Kyc API
@@ -153,12 +147,6 @@ api_specs:
   slug: lianlian-global-member-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-member-api-openapi.yml
-- filename: lianlian-global-oauth2-api-openapi.yml
-  format: yaml
-  label: LianLian Global Oauth2 API
-  slug: lianlian-global-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-oauth2-api-openapi.yml
 - filename: lianlian-global-operations-api-openapi.yml
   format: yaml
   label: LianLian Global Operations API
@@ -237,12 +225,6 @@ api_specs:
   slug: lianlian-global-statement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-statement-api-openapi.yml
-- filename: lianlian-global-topup-api-openapi.yml
-  format: yaml
-  label: LianLian Global Topup API
-  slug: lianlian-global-topup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-topup-api-openapi.yml
 - filename: lianlian-global-transaction-api-openapi.yml
   format: yaml
   label: LianLian Global Transaction API
@@ -279,12 +261,18 @@ api_specs:
   slug: lianlian-global-verifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-verifications-api-openapi.yml
-- filename: lianlian-global-webhooks-api-openapi.yml
+- filename: lianlian-global-oauth2-api-openapi.yml
   format: yaml
-  label: LianLian Global Webhooks API
-  slug: lianlian-global-webhooks-api
+  label: LianLian Global Oauth2 API
+  slug: lianlian-global-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-oauth2-api-openapi.yml
+- filename: lianlian-global-top-up-api-openapi.yml
+  format: yaml
+  label: LianLian Global Top Up API
+  slug: lianlian-global-top-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-top-up-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -436,7 +424,7 @@ tags:
 - Foreign Exchange
 - E-Commerce
 - Card Issuing
-- Remittance
+- Remittances
 - Financial-Services
 - B2B Payments
 - Digital Wallet

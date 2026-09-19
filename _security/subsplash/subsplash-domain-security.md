@@ -54,6 +54,6 @@ tags:
 - Media
 - Church Management
 - ChMS
-- Mobile Apps
+- Mobile App
 - Partner API
 ---

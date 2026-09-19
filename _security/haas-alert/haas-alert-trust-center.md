@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haas-alert/ref
 summary_line: SOC 2 Type 1, SOC 2 Type 2, SOC 3, ISO/IEC 27001, ISO 9001, GDPR, TX-RAMP, Cyber Essentials
 tags:
 - Company
-- Connected Vehicle
+- Connected Vehicles
 - Road Safety
 - Emergency Response
 - Fleet Telematics

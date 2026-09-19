@@ -69,4 +69,5 @@ tags:
 - Nonfederated Applications
 - Automation
 - Webhook
+- Identity Federation
 ---

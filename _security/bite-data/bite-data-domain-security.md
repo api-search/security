@@ -35,7 +35,7 @@ tags:
 - Customs
 - Tariffs
 - HTS Classification
-- Export Controls
+- Export Control
 - Sanctions Screening
 - Supply Chain
 - Risk

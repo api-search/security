@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-config-api-openapi.yml
 - filename: loki-loki-api-openapi.yml
   format: yaml
-  label: Loki Loki API
+  label: Loki API
   slug: loki-loki-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-loki-api-openapi.yml

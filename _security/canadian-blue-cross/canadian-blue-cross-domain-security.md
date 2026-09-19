@@ -108,6 +108,6 @@ tags:
 - Group Benefits
 - Claims
 - Carrier
-- Association
+- Associations
 - No Public API
 ---

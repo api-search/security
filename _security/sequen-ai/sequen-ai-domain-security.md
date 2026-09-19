@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Personalization
-- Ranking
+- Rankings
 - Recommendations
 - Machine-Learning
 ---

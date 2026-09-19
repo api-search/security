@@ -39,7 +39,7 @@ tags:
 - AI Framework
 - Vector Search
 - RAG
-- LLMs
+- LLM
 - MLOps
 - Open-Source
 - AI Agents

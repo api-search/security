@@ -36,7 +36,7 @@ tags:
 - Interpretability
 - Machine-Learning
 - Foundation Models
-- Large Language Models
+- LLM
 - AI Safety
 - Research
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: env0-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-agents-api-openapi.yml
-- filename: env0-approvalpolicies-api-openapi.yml
-  format: yaml
-  label: Env0 ApprovalPolicies API
-  slug: env0-approvalpolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-approvalpolicies-api-openapi.yml
 - filename: env0-configuration-api-openapi.yml
   format: yaml
   label: Env0 Configuration API
@@ -66,6 +60,12 @@ api_specs:
   slug: env0-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-webhooks-api-openapi.yml
+- filename: env0-approval-policies-api-openapi.yml
+  format: yaml
+  label: Env0 Approval Policies API
+  slug: env0-approval-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-approval-policies-api-openapi.yml
 description: ''
 domains:
 - caa:

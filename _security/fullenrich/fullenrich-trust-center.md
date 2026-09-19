@@ -1,35 +1,29 @@
 ---
 api_specs:
-- filename: fullenrich-contact-enrichment-api-openapi.yml
-  format: yaml
-  label: FullEnrich Contact Enrichment API
-  slug: fullenrich-contact-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-contact-enrichment-api-openapi.yml
-- filename: fullenrich-reverse-email-lookup-api-openapi.yml
-  format: yaml
-  label: FullEnrich Reverse Email Lookup API
-  slug: fullenrich-reverse-email-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-reverse-email-lookup-api-openapi.yml
-- filename: fullenrich-search-api-openapi.yml
-  format: yaml
-  label: FullEnrich Search API
-  slug: fullenrich-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-search-api-openapi.yml
-- filename: fullenrich-lookup-api-openapi.yml
-  format: yaml
-  label: FullEnrich Lookup API
-  slug: fullenrich-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-lookup-api-openapi.yml
 - filename: fullenrich-account-api-openapi.yml
   format: yaml
   label: FullEnrich Account API
   slug: fullenrich-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-account-api-openapi.yml
+- filename: fullenrich-company-api-openapi.yml
+  format: yaml
+  label: FullEnrich Company API
+  slug: fullenrich-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-company-api-openapi.yml
+- filename: fullenrich-contact-api-openapi.yml
+  format: yaml
+  label: FullEnrich Contact API
+  slug: fullenrich-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-contact-api-openapi.yml
+- filename: fullenrich-people-api-openapi.yml
+  format: yaml
+  label: FullEnrich People API
+  slug: fullenrich-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-people-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II

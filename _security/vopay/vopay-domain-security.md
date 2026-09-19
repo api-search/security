@@ -338,7 +338,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/openapi/vopay-virtual-account-endpoints-api-openapi.yml
 - filename: vopay-vopay-instant-endpoints-api-openapi.yml
   format: yaml
-  label: VoPay Vopay Instant Endpoints API
+  label: VoPay Instant Endpoints API
   slug: vopay-vopay-instant-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/openapi/vopay-vopay-instant-endpoints-api-openapi.yml

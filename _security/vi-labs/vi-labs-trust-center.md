@@ -32,7 +32,7 @@ tags:
 - Patient Engagement
 - Enterprise AI
 - AI Agents
-- Model Context Protocol
+- MCP
 - Data
 trust_url: https://trust.vi.co/
 ---

@@ -77,6 +77,6 @@ tags:
 - Senior Living
 - Healthcare
 - Workforce Management
-- Single Sign-On
+- SSO
 - Caregivers
 ---

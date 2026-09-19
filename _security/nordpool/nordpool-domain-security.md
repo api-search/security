@@ -24,24 +24,12 @@ api_specs:
   slug: nordpool-day-ahead-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-day-ahead-prices-api-openapi.yml
-- filename: nordpool-exchangerate-api-openapi.yml
-  format: yaml
-  label: Nord Pool ExchangeRate API
-  slug: nordpool-exchangerate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-exchangerate-api-openapi.yml
 - filename: nordpool-intraday-api-openapi.yml
   format: yaml
   label: Nord Pool Intraday API
   slug: nordpool-intraday-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-intraday-api-openapi.yml
-- filename: nordpool-powersystem-api-openapi.yml
-  format: yaml
-  label: Nord Pool PowerSystem API
-  slug: nordpool-powersystem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-powersystem-api-openapi.yml
 - filename: nordpool-pricecurves-api-openapi.yml
   format: yaml
   label: Nord Pool PriceCurves API
@@ -54,6 +42,18 @@ api_specs:
   slug: nordpool-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-system-api-openapi.yml
+- filename: nordpool-exchange-rate-api-openapi.yml
+  format: yaml
+  label: Nord Pool Exchange Rate API
+  slug: nordpool-exchange-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-exchange-rate-api-openapi.yml
+- filename: nordpool-power-system-api-openapi.yml
+  format: yaml
+  label: Nord Pool Power System API
+  slug: nordpool-power-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-power-system-api-openapi.yml
 description: ''
 domains:
 - caa:

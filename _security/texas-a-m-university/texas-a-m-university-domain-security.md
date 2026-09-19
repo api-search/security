@@ -1,29 +1,29 @@
 ---
 api_specs:
-- filename: texas-a-m-university-geoservices-geocoding-openapi.yml
+- filename: texas-a-m-university-dining-api-openapi.yml
   format: yaml
-  label: Texas A&M GeoServices Geocoding API
-  slug: geoservices-geocode
+  label: Texas A&M University Dining API
+  slug: texas-a-m-university-dining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-geoservices-geocoding-openapi.yml
-- filename: texas-a-m-university-aggiemap-dining-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-dining-api-openapi.yml
+- filename: texas-a-m-university-federation-api-openapi.yml
   format: yaml
-  label: Aggie Map Dining Locations API
-  slug: aggiemap-dining
+  label: Texas A&M University Federation API
+  slug: texas-a-m-university-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-aggiemap-dining-openapi.yml
-- filename: texas-a-m-university-campus-micromobility-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-federation-api-openapi.yml
+- filename: texas-a-m-university-geocoding-api-openapi.yml
   format: yaml
-  label: Campus Micromobility Vehicle Positions API
-  slug: campus-micromobility
+  label: Texas A&M University Geocoding API
+  slug: texas-a-m-university-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-campus-micromobility-openapi.yml
-- filename: texas-a-m-university-identity-federation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-geocoding-api-openapi.yml
+- filename: texas-a-m-university-micromobility-api-openapi.yml
   format: yaml
-  label: Texas A&M Shibboleth Identity Provider Metadata
-  slug: identity-federation
+  label: Texas A&M University Micromobility API
+  slug: texas-a-m-university-micromobility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-identity-federation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/openapi/texas-a-m-university-micromobility-api-openapi.yml
 description: ''
 domains:
 - caa: []

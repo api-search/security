@@ -35,7 +35,7 @@ tags:
 - Recruitment
 - Staffing
 - Nursing
-- HR Tech
+- Human Resources
 - Marketplace
 - Germany
 ---

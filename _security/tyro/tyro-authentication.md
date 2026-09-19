@@ -76,7 +76,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-pay-requests-api-openapi.yml
 - filename: tyro-payments-api-openapi.yml
   format: yaml
-  label: Tyro Payments Payments API
+  label: Tyro Payments API
   slug: tyro-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/openapi/tyro-payments-api-openapi.yml

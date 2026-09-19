@@ -74,6 +74,12 @@ api_specs:
   slug: gotowebinar-webinars-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webinars-api-openapi.yml
+- filename: gotowebinar-recording-assets-api-openapi.yml
+  format: yaml
+  label: GoToWebinar Recording Assets API
+  slug: gotowebinar-recording-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-recording-assets-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

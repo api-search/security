@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: 4k-garden-diebian-ai-openapi.json
-  format: json
-  label: Diebian AI Super-Resolution API
-  slug: diebian-ai-super-resolution-api
+- filename: 4k-garden-auth-controller-api-openapi.yml
+  format: yaml
+  label: 4K Garden Auth Controller API
+  slug: 4k-garden-auth-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-diebian-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-auth-controller-api-openapi.yml
+- filename: 4k-garden-customer-controller-api-openapi.yml
+  format: yaml
+  label: 4K Garden Customer Controller API
+  slug: 4k-garden-customer-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-customer-controller-api-openapi.yml
+- filename: 4k-garden-enterprise-controller-api-openapi.yml
+  format: yaml
+  label: 4K Garden Enterprise Controller API
+  slug: 4k-garden-enterprise-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-enterprise-controller-api-openapi.yml
+- filename: 4k-garden-frontend-controller-api-openapi.yml
+  format: yaml
+  label: 4K Garden Frontend Controller API
+  slug: 4k-garden-frontend-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-frontend-controller-api-openapi.yml
+- filename: 4k-garden-tvc-controller-api-openapi.yml
+  format: yaml
+  label: 4K Garden Tvc Controller API
+  slug: 4k-garden-tvc-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/openapi/4k-garden-tvc-controller-api-openapi.yml
 auth_types: []
 description: Authentication profile for the Diebian AI super-resolution API. DERIVED from the published OpenAPI plus anonymous probes of the unauthenticated endpoints. The provider publishes no authentication documentation and no developer portal, so this profile is read from the contract's own shape rather than from a docs page.
 kind: authentication

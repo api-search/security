@@ -376,7 +376,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ashby-ap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/authentication/ashby-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Analytics

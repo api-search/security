@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: debounce-validation-api-openapi.yml
+- filename: debounce-account-management-api-openapi.yml
   format: yaml
-  label: DeBounce Validation API
-  slug: debounce-validation-api
+  label: DeBounce Account Management API
+  slug: debounce-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-validation-api-openapi.yml
-- filename: debounce-bulk-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-account-management-api-openapi.yml
+- filename: debounce-debounce-disposable-email-detector-api-api-openapi.yml
   format: yaml
-  label: DeBounce Bulk API
-  slug: debounce-bulk-api
+  label: DeBounce Disposable Email Detector API
+  slug: debounce-debounce-disposable-email-detector-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-bulk-api-openapi.yml
-- filename: debounce-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-debounce-disposable-email-detector-api-api-openapi.yml
+- filename: debounce-debounce-email-validation-api-api-openapi.yml
   format: yaml
-  label: DeBounce Data API
-  slug: debounce-data-api
+  label: DeBounce Email Validation API
+  slug: debounce-debounce-email-validation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-data-api-openapi.yml
-- filename: debounce-account-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-debounce-email-validation-api-api-openapi.yml
+- filename: debounce-reverse-api-openapi.yml
   format: yaml
-  label: DeBounce Account API
-  slug: debounce-account-api
+  label: DeBounce Reverse API
+  slug: debounce-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-account-api-openapi.yml
-- filename: debounce-disposable-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-reverse-api-openapi.yml
+- filename: debounce-status-api-openapi.yml
   format: yaml
-  label: DeBounce Disposable Detector API
-  slug: debounce-disposable-api
+  label: DeBounce Status API
+  slug: debounce-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-disposable-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-status-api-openapi.yml
+- filename: debounce-upload-api-openapi.yml
+  format: yaml
+  label: DeBounce Upload API
+  slug: debounce-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-upload-api-openapi.yml
+- filename: debounce-usage-api-openapi.yml
+  format: yaml
+  label: DeBounce Usage API
+  slug: debounce-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

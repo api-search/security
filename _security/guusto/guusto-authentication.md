@@ -53,6 +53,6 @@ tags:
 - Rewards
 - Gifting
 - Gift Cards
-- HR
+- Human Resources
 - Rewards and Recognition
 ---

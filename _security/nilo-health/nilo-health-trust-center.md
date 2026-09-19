@@ -21,7 +21,7 @@ tags:
 - Company
 - Mental Health
 - Health
-- HR
+- Human Resources
 - Employee Benefits
 - Wellbeing
 - Telehealth

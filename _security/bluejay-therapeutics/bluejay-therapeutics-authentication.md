@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluejay-therap
 summary_line: 1 scheme
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Pharmaceuticals
 - Life Sciences
 - hepatology

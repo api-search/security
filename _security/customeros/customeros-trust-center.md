@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: customeros-graphql-api-openapi.yml
-  format: yaml
-  label: CustomerOS GraphQL API
-  slug: customeros-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-graphql-api-openapi.yml
 - filename: customeros-billing-api-api-openapi.yml
   format: yaml
   label: CustomerOS Billing API
@@ -60,6 +54,12 @@ api_specs:
   slug: customeros-outreach-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-outreach-api-openapi.yml
+- filename: customeros-graph-ql-api-openapi.yml
+  format: yaml
+  label: CustomerOS Graph QL API
+  slug: customeros-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-graph-ql-api-openapi.yml
 certification_count: 1
 certifications:
 - CASA Type 2

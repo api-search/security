@@ -40,7 +40,7 @@ tags:
 - Low Latency
 - Tick Data
 - Order Book
-- Equities
+- Stocks
 - Options
 - Feed Handlers
 - PCAP

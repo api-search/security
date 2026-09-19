@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-health-api-openapi.yml
 - filename: kserve-kserve-inference-protocol-api-openapi.yml
   format: yaml
-  label: KServe KServe Inference Protocol API
+  label: KServe Inference Protocol API
   slug: kserve-kserve-inference-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-kserve-inference-protocol-api-openapi.yml

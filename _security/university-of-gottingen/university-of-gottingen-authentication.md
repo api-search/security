@@ -2,24 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-gottingen-gdz-oai-pmh-openapi.yml
+- filename: university-of-gottingen-iiif-image-api-openapi.yml
   format: yaml
-  label: GDZ OAI-PMH Metadata Harvesting
-  slug: gdz-oai-pmh
+  label: University of Göttingen IIIF Image API
+  slug: university-of-gottingen-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-gdz-oai-pmh-openapi.yml
-- filename: university-of-gottingen-ediss-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-iiif-image-api-openapi.yml
+- filename: university-of-gottingen-iiif-presentation-api-openapi.yml
   format: yaml
-  label: eDiss Göttingen OAI-PMH Metadata Harvesting
-  slug: ediss-oai-pmh
+  label: University of Göttingen IIIF Presentation API
+  slug: university-of-gottingen-iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-ediss-oai-pmh-openapi.yml
-- filename: university-of-gottingen-sub-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-iiif-presentation-api-openapi.yml
+- filename: university-of-gottingen-oai-pmh-api-openapi.yml
   format: yaml
-  label: SUB Göttingen IIIF Image and Presentation
-  slug: sub-iiif
+  label: University of Göttingen OAI PMH API
+  slug: university-of-gottingen-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-sub-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-oai-pmh-api-openapi.yml
 auth_types: []
 description: 'The University of Göttingen''s public machine-readable surfaces split cleanly in two. The harvesting and image interfaces operated by SUB Göttingen are anonymous and unauthenticated — no key, no registration, no rate-limit header observed. Everything that touches people or administration sits behind institutional federated identity, and there is no self-service developer credential anywhere in the estate: the university issues no API keys to the public.'
 kind: authentication

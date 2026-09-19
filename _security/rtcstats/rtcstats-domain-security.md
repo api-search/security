@@ -2,7 +2,7 @@
 api_specs:
 - filename: rtcstats-rtcstats-api-api-openapi.yml
   format: yaml
-  label: rtcStats rtcStats API API
+  label: rtcStats API
   slug: rtcstats-rtcstats-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/openapi/rtcstats-rtcstats-api-api-openapi.yml
@@ -48,7 +48,7 @@ tags:
 - Observability
 - Monitoring
 - Debugging
-- Real-Time Communications
+- Real-Time Communication
 - Video
 - Voice
 - Artificial Intelligence

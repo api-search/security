@@ -36,6 +36,6 @@ tags:
 - EdTech
 - Early Childhood Education
 - Learning
-- Mobile Apps
+- Mobile App
 - Content
 ---

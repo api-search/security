@@ -24,12 +24,6 @@ api_specs:
   slug: growthbook-code-references-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-code-references-api-openapi.yml
-- filename: growthbook-customfields-api-openapi.yml
-  format: yaml
-  label: GrowthBook CustomFields API
-  slug: growthbook-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-customfields-api-openapi.yml
 - filename: growthbook-dashboards-api-openapi.yml
   format: yaml
   label: GrowthBook Dashboards API
@@ -60,12 +54,6 @@ api_specs:
   slug: growthbook-experiments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-experiments-api-openapi.yml
-- filename: growthbook-experimenttemplates-api-openapi.yml
-  format: yaml
-  label: GrowthBook ExperimentTemplates API
-  slug: growthbook-experimenttemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-experimenttemplates-api-openapi.yml
 - filename: growthbook-fact-metrics-api-openapi.yml
   format: yaml
   label: GrowthBook fact-metrics API
@@ -108,12 +96,6 @@ api_specs:
   slug: growthbook-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-members-api-openapi.yml
-- filename: growthbook-metricgroups-api-openapi.yml
-  format: yaml
-  label: GrowthBook MetricGroups API
-  slug: growthbook-metricgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-metricgroups-api-openapi.yml
 - filename: growthbook-metrics-api-openapi.yml
   format: yaml
   label: GrowthBook metrics API
@@ -216,6 +198,24 @@ api_specs:
   slug: growthbook-visual-changesets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-visual-changesets-api-openapi.yml
+- filename: growthbook-custom-fields-api-openapi.yml
+  format: yaml
+  label: GrowthBook Custom Fields API
+  slug: growthbook-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-custom-fields-api-openapi.yml
+- filename: growthbook-experiment-templates-api-openapi.yml
+  format: yaml
+  label: GrowthBook Experiment Templates API
+  slug: growthbook-experiment-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-experiment-templates-api-openapi.yml
+- filename: growthbook-metric-groups-api-openapi.yml
+  format: yaml
+  label: GrowthBook Metric Groups API
+  slug: growthbook-metric-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-metric-groups-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- Mobile Apps
+- Mobile App
 - Journaling
 - Family
 - Parenting

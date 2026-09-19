@@ -36,7 +36,7 @@ tags:
 - Recruiting
 - Hiring
 - Talent
-- HR Tech
+- Human Resources
 - AI Agents
 - Job Search
 - Recruitment

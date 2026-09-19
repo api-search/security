@@ -2,12 +2,72 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: x402 List API
-  slug: x402-list-api
+- filename: x402-list-api-assess-api-openapi.yml
+  format: yaml
+  label: x402 List API Assess API
+  slug: x402-list-api-assess-api
   spec_type: OpenAPI
-  url: https://x402-list.com/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-assess-api-openapi.yml
+- filename: x402-list-api-changes-api-openapi.yml
+  format: yaml
+  label: x402 List API Changes API
+  slug: x402-list-api-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-changes-api-openapi.yml
+- filename: x402-list-api-checks-api-openapi.yml
+  format: yaml
+  label: x402 List API Checks API
+  slug: x402-list-api-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-checks-api-openapi.yml
+- filename: x402-list-api-facilitators-api-openapi.yml
+  format: yaml
+  label: x402 List API Facilitators API
+  slug: x402-list-api-facilitators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-facilitators-api-openapi.yml
+- filename: x402-list-api-recommender-api-openapi.yml
+  format: yaml
+  label: x402 List API Recommender API
+  slug: x402-list-api-recommender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-recommender-api-openapi.yml
+- filename: x402-list-api-reference-api-openapi.yml
+  format: yaml
+  label: x402 List API Reference API
+  slug: x402-list-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-reference-api-openapi.yml
+- filename: x402-list-api-services-api-openapi.yml
+  format: yaml
+  label: x402 List API Services API
+  slug: x402-list-api-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-services-api-openapi.yml
+- filename: x402-list-api-stats-api-openapi.yml
+  format: yaml
+  label: x402 List API Stats API
+  slug: x402-list-api-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-stats-api-openapi.yml
+- filename: x402-list-api-status-api-openapi.yml
+  format: yaml
+  label: x402 List API Status API
+  slug: x402-list-api-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-status-api-openapi.yml
+- filename: x402-list-api-submissions-api-openapi.yml
+  format: yaml
+  label: x402 List API Submissions API
+  slug: x402-list-api-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-submissions-api-openapi.yml
+- filename: x402-list-api-suggestions-api-openapi.yml
+  format: yaml
+  label: x402 List API Suggestions API
+  slug: x402-list-api-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/openapi/x402-list-api-suggestions-api-openapi.yml
 auth_types: []
 description: 'There is nothing to authenticate with. x402 List issues no API keys, runs no OAuth, and has no account system — the onboarding descriptor lists an empty credentials array and calls the registration mechanism "open". This is the correct and complete auth profile, not a thin one: the OpenAPI declares no securitySchemes because there are none to declare, and an agent can call every read operation on first contact with zero setup. What replaces authentication is PAYMENT. Past the free quota, and on the two paid write operations, the API answers HTTP 402 with an x402 v2 PaymentRequired envelope and the caller retries carrying a PAYMENT-SIGNATURE header signed by their own wallet. Authorization for the owner-update flow is separate again and is domain-proof based rather than credential based.'
 kind: authentication
@@ -33,13 +93,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/
 summary_line: 0 schemes
 tags:
 - x402
-- crypto
+- Crypto
 - '402'
-- agentic-payments
-- API directory
-- registry
-- AI agents
-- blockchain
-- developer tools
-- uptime monitoring
+- Agentic Payments
+- API Directory
+- Registry
+- AI Agents
+- Blockchain
+- Developer Tools
+- Uptime Monitoring
 ---

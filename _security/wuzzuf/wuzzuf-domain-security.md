@@ -47,6 +47,6 @@ tags:
 - Recruitment
 - Careers
 - Employment
-- HR
+- Human Resources
 - Egypt
 ---

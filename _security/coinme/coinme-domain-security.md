@@ -66,12 +66,6 @@ api_specs:
   slug: coinme-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-locations-api-openapi.yml
-- filename: coinme-mobileauth-api-openapi.yml
-  format: yaml
-  label: Coinme MobileAuth API
-  slug: coinme-mobileauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-mobileauth-api-openapi.yml
 - filename: coinme-mobileauthfinish-api-openapi.yml
   format: yaml
   label: Coinme MobileAuthFinish API
@@ -84,12 +78,6 @@ api_specs:
   slug: coinme-order-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-order-template-api-openapi.yml
-- filename: coinme-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Coinme Paymentmethods API
-  slug: coinme-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-paymentmethods-api-openapi.yml
 - filename: coinme-quote-and-transaction-api-openapi.yml
   format: yaml
   label: Coinme Quote And Transaction API
@@ -132,12 +120,6 @@ api_specs:
   slug: coinme-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transaction-api-openapi.yml
-- filename: coinme-transactionhistory-api-openapi.yml
-  format: yaml
-  label: Coinme Transactionhistory API
-  slug: coinme-transactionhistory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transactionhistory-api-openapi.yml
 - filename: coinme-transactionlimits-api-openapi.yml
   format: yaml
   label: Coinme Transactionlimits API
@@ -168,6 +150,24 @@ api_specs:
   slug: coinme-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-widget-api-openapi.yml
+- filename: coinme-mobile-auth-api-openapi.yml
+  format: yaml
+  label: Coinme Mobile Auth API
+  slug: coinme-mobile-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-mobile-auth-api-openapi.yml
+- filename: coinme-payment-methods-api-openapi.yml
+  format: yaml
+  label: Coinme Payment Methods API
+  slug: coinme-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-payment-methods-api-openapi.yml
+- filename: coinme-transaction-history-api-openapi.yml
+  format: yaml
+  label: Coinme Transaction History API
+  slug: coinme-transaction-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transaction-history-api-openapi.yml
 description: ''
 domains:
 - caa: []

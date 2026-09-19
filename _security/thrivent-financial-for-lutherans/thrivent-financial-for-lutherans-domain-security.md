@@ -44,7 +44,7 @@ tags:
 - Fortune 500
 - Generosity
 - Insurance
-- Investments
+- Investment
 - Mutual Funds
 - Non-Profit
 ---

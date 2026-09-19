@@ -240,12 +240,6 @@ api_specs:
   slug: zuora-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-notifications-api-openapi.yml
-- filename: zuora-oauth-api-openapi.yml
-  format: yaml
-  label: Zuora OAuth API
-  slug: zuora-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-oauth-api-openapi.yml
 - filename: zuora-offers-api-openapi.yml
   format: yaml
   label: Zuora Offers API
@@ -432,12 +426,6 @@ api_specs:
   slug: zuora-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-settings-api-openapi.yml
-- filename: zuora-sign-up-api-openapi.yml
-  format: yaml
-  label: Zuora Sign Up API
-  slug: zuora-sign-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-sign-up-api-openapi.yml
 - filename: zuora-subscriptions-api-openapi.yml
   format: yaml
   label: Zuora Subscriptions API
@@ -470,10 +458,22 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-workflows-api-openapi.yml
 - filename: zuora-zuora-revenue-integration-api-openapi.yml
   format: yaml
-  label: Zuora Zuora Revenue Integration API
+  label: Zuora Revenue Integration API
   slug: zuora-zuora-revenue-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-zuora-revenue-integration-api-openapi.yml
+- filename: zuora-oauth-api-openapi.yml
+  format: yaml
+  label: Zuora O Auth API
+  slug: zuora-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-oauth-api-openapi.yml
+- filename: zuora-signup-api-openapi.yml
+  format: yaml
+  label: Zuora Signup API
+  slug: zuora-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/openapi/zuora-signup-api-openapi.yml
 description: ''
 domains:
 - caa: []

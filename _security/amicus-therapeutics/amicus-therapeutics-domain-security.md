@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Biotechnology
 - Pharmaceuticals
-- Rare Diseases
+- Rare Disease
 - Genetic Diseases
 - Fabry Disease
 - Pompe Disease

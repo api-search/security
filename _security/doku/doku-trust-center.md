@@ -64,7 +64,7 @@ tags:
 - Indonesia
 - SEA
 - SNAP
-- Virtual Account
+- Virtual Accounts
 - E-Wallet
 - QRIS
 - Direct Debit

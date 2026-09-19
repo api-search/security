@@ -38,12 +38,6 @@ api_specs:
   slug: cresilon-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-discovery-api-openapi.yml
-- filename: cresilon-oembed-api-openapi.yml
-  format: yaml
-  label: Cresilon oEmbed API
-  slug: cresilon-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-oembed-api-openapi.yml
 - filename: cresilon-seo-api-openapi.yml
   format: yaml
   label: Cresilon SEO Metadata API
@@ -62,6 +56,12 @@ api_specs:
   slug: cresilon-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-comments-api-openapi.yml
+- filename: cresilon-o-embed-api-openapi.yml
+  format: yaml
+  label: Cresilon o Embed API
+  slug: cresilon-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-o-embed-api-openapi.yml
 auth_types:
 - none
 - cookie

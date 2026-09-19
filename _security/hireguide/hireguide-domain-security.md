@@ -35,7 +35,7 @@ tags:
 - Recruiting
 - Interviewing
 - Talent Acquisition
-- HR Tech
+- Human Resources
 - Artificial Intelligence
 - Structured Interviews
 ---

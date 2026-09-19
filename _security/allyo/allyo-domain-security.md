@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allyo/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Recruiting
 - Conversational AI
 - Chatbots

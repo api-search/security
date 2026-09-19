@@ -26,7 +26,7 @@ tags:
 - Software-as-a-Service
 - Consumer Insights
 - Market Research
-- Survey
+- Surveys
 - Audiences
 - Artificial Intelligence
 trust_url: https://www.suzy.com/trust-center

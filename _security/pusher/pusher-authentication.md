@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - Push Notifications
 - Messaging

@@ -24,12 +24,6 @@ api_specs:
   slug: archastro-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-files-api-openapi.yml
-- filename: archastro-oauth-api-openapi.yml
-  format: yaml
-  label: Archastro Oauth API
-  slug: archastro-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-oauth-api-openapi.yml
 - filename: archastro-s2s-api-openapi.yml
   format: yaml
   label: Archastro s2s API
@@ -60,6 +54,12 @@ api_specs:
   slug: archastro-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-users-api-openapi.yml
+- filename: archastro-oauth-api-openapi.yml
+  format: yaml
+  label: Archastro OAUTH API
+  slug: archastro-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -8,18 +8,18 @@ api_specs:
   slug: secureworks-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-authentication-api-openapi.yml
-- filename: secureworks-graphql-api-openapi.yml
-  format: yaml
-  label: Secureworks GraphQL API
-  slug: secureworks-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-graphql-api-openapi.yml
 - filename: secureworks-system-api-openapi.yml
   format: yaml
   label: Secureworks System API
   slug: secureworks-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-system-api-openapi.yml
+- filename: secureworks-graph-ql-api-openapi.yml
+  format: yaml
+  label: Secureworks Graph QL API
+  slug: secureworks-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/openapi/secureworks-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''

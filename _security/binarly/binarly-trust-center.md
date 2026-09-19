@@ -12,12 +12,6 @@ api_specs:
   slug: binarly-chart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-chart-api-openapi.yml
-- filename: binarly-customrules-api-openapi.yml
-  format: yaml
-  label: Binarly CustomRules API
-  slug: binarly-customrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-customrules-api-openapi.yml
 - filename: binarly-escalation-api-openapi.yml
   format: yaml
   label: Binarly Escalation API
@@ -120,6 +114,12 @@ api_specs:
   slug: binarly-vulnerability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-vulnerability-api-openapi.yml
+- filename: binarly-custom-rules-api-openapi.yml
+  format: yaml
+  label: Binarly Custom Rules API
+  slug: binarly-custom-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-custom-rules-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2

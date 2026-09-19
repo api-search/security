@@ -51,12 +51,6 @@ api_specs:
   slug: trellix-web-gateway-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-reports-api-openapi.yml
-- filename: trellix-web-gateway-rule-sets-api-openapi.yml
-  format: yaml
-  label: Trellix Web Gateway Rule Sets API
-  slug: trellix-web-gateway-rule-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-rule-sets-api-openapi.yml
 - filename: trellix-web-gateway-rules-api-openapi.yml
   format: yaml
   label: Trellix Web Gateway Rules API
@@ -105,6 +99,12 @@ api_specs:
   slug: trellix-web-gateway-url-filtering-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-url-filtering-api-openapi.yml
+- filename: trellix-web-gateway-rulesets-api-openapi.yml
+  format: yaml
+  label: Trellix Web Gateway Rulesets API
+  slug: trellix-web-gateway-rulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-rulesets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -44,13 +44,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palmhr/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR
 - Human Resources
 - Payroll
 - Attendance
 - Performance Management
 - Recruiting
 - WPS
-- UAE
+- United Arab Emirates
 - MENA
 ---

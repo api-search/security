@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: amazon-keyspaces-keyspaces-api-openapi.yml
   format: yaml
-  label: Amazon Keyspaces Keyspaces API
+  label: Amazon Keyspaces API
   slug: amazon-keyspaces-keyspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-keyspaces-api-openapi.yml

@@ -60,6 +60,6 @@ tags:
 - Artificial Intelligence
 - Computer-Vision
 - Monitoring
-- Internet of Things
+- IoT
 - Commerce
 ---

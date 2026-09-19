@@ -54,12 +54,6 @@ api_specs:
   slug: rea-group-match-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-match-api-openapi.yml
-- filename: rea-group-oauth2-api-openapi.yml
-  format: yaml
-  label: REA Group Oauth2 API
-  slug: rea-group-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-oauth2-api-openapi.yml
 - filename: rea-group-planning-api-openapi.yml
   format: yaml
   label: REA Group Planning API
@@ -138,6 +132,12 @@ api_specs:
   slug: rea-group-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-transactions-api-openapi.yml
+- filename: rea-group-oauth2-api-openapi.yml
+  format: yaml
+  label: REA Group Oauth2 API
+  slug: rea-group-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/openapi/rea-group-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -198,7 +198,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real-Estate
 - Property Data
-- Valuations
+- Valuation
 - AVM
 - Market Insights
 - Listings

@@ -22,10 +22,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/h
 summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 tags:
 - Video Interviewing
-- Assessments
+- Assessment
 - AI Hiring
 - Scheduling
 - Conversational AI
-- HR Tech
+- Human Resources
 trust_url: https://trust.hirevue.com/
 ---

@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: university-of-maryland-college-park-libraries-website-tools-openapi.yml
+- filename: university-of-maryland-college-park-art-api-openapi.yml
   format: yaml
-  label: UMD Libraries Website Tools API
-  slug: libraries-website-tools
+  label: University of Maryland College Park Art API
+  slug: university-of-maryland-college-park-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-libraries-website-tools-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-art-api-openapi.yml
+- filename: university-of-maryland-college-park-makerspace-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Makerspace API
+  slug: university-of-maryland-college-park-makerspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
+- filename: university-of-maryland-college-park-mckeldin-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Mckeldin API
+  slug: university-of-maryland-college-park-mckeldin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
+- filename: university-of-maryland-college-park-mspal-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Mspal API
+  slug: university-of-maryland-college-park-mspal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
+- filename: university-of-maryland-college-park-stem-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Stem API
+  slug: university-of-maryland-college-park-stem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-stem-api-openapi.yml
 description: ''
 domains:
 - caa: []

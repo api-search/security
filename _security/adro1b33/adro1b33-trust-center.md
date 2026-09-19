@@ -1,11 +1,191 @@
 ---
 api_specs:
-- filename: adro1b33-aox-openapi.yaml
+- filename: adro1b33-accounts-api-openapi.yml
   format: yaml
-  label: AOX Platform API
-  slug: aox-platform-api
+  label: ADRO Accounts API
+  slug: adro1b33-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-aox-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-accounts-api-openapi.yml
+- filename: adro1b33-ai-api-openapi.yml
+  format: yaml
+  label: ADRO AI API
+  slug: adro1b33-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-ai-api-openapi.yml
+- filename: adro1b33-announcements-api-openapi.yml
+  format: yaml
+  label: ADRO Announcements API
+  slug: adro1b33-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-announcements-api-openapi.yml
+- filename: adro1b33-artifacts-api-openapi.yml
+  format: yaml
+  label: ADRO Artifacts API
+  slug: adro1b33-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-artifacts-api-openapi.yml
+- filename: adro1b33-asset-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Asset Notifications API
+  slug: adro1b33-asset-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-asset-notifications-api-openapi.yml
+- filename: adro1b33-assets-api-openapi.yml
+  format: yaml
+  label: ADRO Assets API
+  slug: adro1b33-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-assets-api-openapi.yml
+- filename: adro1b33-board-api-openapi.yml
+  format: yaml
+  label: ADRO Board API
+  slug: adro1b33-board-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-board-api-openapi.yml
+- filename: adro1b33-book-demo-api-openapi.yml
+  format: yaml
+  label: ADRO Book Demo API
+  slug: adro1b33-book-demo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-book-demo-api-openapi.yml
+- filename: adro1b33-credits-api-openapi.yml
+  format: yaml
+  label: ADRO Credits API
+  slug: adro1b33-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-credits-api-openapi.yml
+- filename: adro1b33-deletion-executions-api-openapi.yml
+  format: yaml
+  label: ADRO Deletion Executions API
+  slug: adro1b33-deletion-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-deletion-executions-api-openapi.yml
+- filename: adro1b33-error-feedback-api-openapi.yml
+  format: yaml
+  label: ADRO Error Feedback API
+  slug: adro1b33-error-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-error-feedback-api-openapi.yml
+- filename: adro1b33-feature-feedback-api-openapi.yml
+  format: yaml
+  label: ADRO Feature Feedback API
+  slug: adro1b33-feature-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-feature-feedback-api-openapi.yml
+- filename: adro1b33-health-api-openapi.yml
+  format: yaml
+  label: ADRO Health API
+  slug: adro1b33-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-health-api-openapi.yml
+- filename: adro1b33-improvement-requests-api-openapi.yml
+  format: yaml
+  label: ADRO Improvement Requests API
+  slug: adro1b33-improvement-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-improvement-requests-api-openapi.yml
+- filename: adro1b33-job-api-openapi.yml
+  format: yaml
+  label: ADRO Job API
+  slug: adro1b33-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-job-api-openapi.yml
+- filename: adro1b33-job-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Job Notifications API
+  slug: adro1b33-job-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-job-notifications-api-openapi.yml
+- filename: adro1b33-jobs-api-openapi.yml
+  format: yaml
+  label: ADRO Jobs API
+  slug: adro1b33-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-jobs-api-openapi.yml
+- filename: adro1b33-les-api-openapi.yml
+  format: yaml
+  label: ADRO Les API
+  slug: adro1b33-les-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-les-api-openapi.yml
+- filename: adro1b33-patches-api-openapi.yml
+  format: yaml
+  label: ADRO Patches API
+  slug: adro1b33-patches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-patches-api-openapi.yml
+- filename: adro1b33-payments-api-openapi.yml
+  format: yaml
+  label: ADRO Payments API
+  slug: adro1b33-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-payments-api-openapi.yml
+- filename: adro1b33-plans-api-openapi.yml
+  format: yaml
+  label: ADRO Plans API
+  slug: adro1b33-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-plans-api-openapi.yml
+- filename: adro1b33-presigned-url-api-openapi.yml
+  format: yaml
+  label: ADRO Presigned URL API
+  slug: adro1b33-presigned-url-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-presigned-url-api-openapi.yml
+- filename: adro1b33-projects-api-openapi.yml
+  format: yaml
+  label: ADRO Projects API
+  slug: adro1b33-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-projects-api-openapi.yml
+- filename: adro1b33-racing-api-openapi.yml
+  format: yaml
+  label: ADRO Racing API
+  slug: adro1b33-racing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-racing-api-openapi.yml
+- filename: adro1b33-sample-stls-api-openapi.yml
+  format: yaml
+  label: ADRO Sample Stls API
+  slug: adro1b33-sample-stls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-sample-stls-api-openapi.yml
+- filename: adro1b33-sketch-api-openapi.yml
+  format: yaml
+  label: ADRO Sketch API
+  slug: adro1b33-sketch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-sketch-api-openapi.yml
+- filename: adro1b33-subscriptions-api-openapi.yml
+  format: yaml
+  label: ADRO Subscriptions API
+  slug: adro1b33-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-subscriptions-api-openapi.yml
+- filename: adro1b33-teams-api-openapi.yml
+  format: yaml
+  label: ADRO Teams API
+  slug: adro1b33-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-teams-api-openapi.yml
+- filename: adro1b33-tenants-api-openapi.yml
+  format: yaml
+  label: ADRO Tenants API
+  slug: adro1b33-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-tenants-api-openapi.yml
+- filename: adro1b33-uploads-api-openapi.yml
+  format: yaml
+  label: ADRO Uploads API
+  slug: adro1b33-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-uploads-api-openapi.yml
+- filename: adro1b33-verifier-api-openapi.yml
+  format: yaml
+  label: ADRO Verifier API
+  slug: adro1b33-verifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-verifier-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO/IEC 27001:2022
@@ -37,7 +217,7 @@ tags:
 - Manufacturing
 - Artificial Intelligence
 - High Performance Computing
-- Ecommerce
+- E-Commerce
 - MCP
 - South Korea
 trust_url: ''

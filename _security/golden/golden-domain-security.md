@@ -2,19 +2,19 @@
 api_specs:
 - filename: golden-entity-api-api-openapi.yml
   format: yaml
-  label: Golden Entity API API
+  label: Golden Entity API
   slug: golden-entity-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/openapi/golden-entity-api-api-openapi.yml
 - filename: golden-query-api-api-openapi.yml
   format: yaml
-  label: Golden Query API API
+  label: Golden Query API
   slug: golden-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/openapi/golden-query-api-api-openapi.yml
 - filename: golden-schema-api-api-openapi.yml
   format: yaml
-  label: Golden Schema API API
+  label: Golden Schema API
   slug: golden-schema-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/openapi/golden-schema-api-api-openapi.yml

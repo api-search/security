@@ -36,7 +36,7 @@ tags:
 - Music Streaming
 - Media
 - Entertainment
-- Mobile Apps
+- Mobile App
 - Advertising
 - Consumer
 ---

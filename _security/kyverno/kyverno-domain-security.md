@@ -24,12 +24,6 @@ api_specs:
   slug: kyverno-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policies-api-openapi.yml
-- filename: kyverno-policyreports-api-openapi.yml
-  format: yaml
-  label: Kyverno PolicyReports API
-  slug: kyverno-policyreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policyreports-api-openapi.yml
 - filename: kyverno-results-api-openapi.yml
   format: yaml
   label: Kyverno Results API
@@ -42,6 +36,12 @@ api_specs:
   slug: kyverno-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-sources-api-openapi.yml
+- filename: kyverno-policy-reports-api-openapi.yml
+  format: yaml
+  label: Kyverno Policy Reports API
+  slug: kyverno-policy-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policy-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Semiconductors
-- AI Accelerator
+- AI Accelerators
 - Hardware
 - Deep Learning
 - SDK

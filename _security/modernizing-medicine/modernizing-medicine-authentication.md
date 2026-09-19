@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: modernizing-medicine-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: ModMed Allergy Intolerance API
-  slug: modernizing-medicine-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-allergyintolerance-api-openapi.yml
 - filename: modernizing-medicine-appointments-and-slots-api-openapi.yml
   format: yaml
   label: ModMed Appointments and Slots API
@@ -27,12 +21,6 @@ api_specs:
   slug: modernizing-medicine-capability-statement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-capability-statement-api-openapi.yml
-- filename: modernizing-medicine-careplan-api-openapi.yml
-  format: yaml
-  label: ModMed Care Plan API
-  slug: modernizing-medicine-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-careplan-api-openapi.yml
 - filename: modernizing-medicine-careteam-api-openapi.yml
   format: yaml
   label: ModMed Care Team API
@@ -75,12 +63,6 @@ api_specs:
   slug: modernizing-medicine-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-diagnosticreport-api-openapi.yml
-- filename: modernizing-medicine-documentreference-api-openapi.yml
-  format: yaml
-  label: ModMed Document Reference API
-  slug: modernizing-medicine-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-documentreference-api-openapi.yml
 - filename: modernizing-medicine-documents-api-openapi.yml
   format: yaml
   label: ModMed Documents API
@@ -153,12 +135,6 @@ api_specs:
   slug: modernizing-medicine-medicationdispense-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-medicationdispense-api-openapi.yml
-- filename: modernizing-medicine-medicationrequest-api-openapi.yml
-  format: yaml
-  label: ModMed Medication Request API
-  slug: modernizing-medicine-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-medicationrequest-api-openapi.yml
 - filename: modernizing-medicine-observation-api-openapi.yml
   format: yaml
   label: ModMed Observation API
@@ -189,12 +165,6 @@ api_specs:
   slug: modernizing-medicine-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-practitioner-api-openapi.yml
-- filename: modernizing-medicine-practitionerrole-api-openapi.yml
-  format: yaml
-  label: ModMed Practitioner Role API
-  slug: modernizing-medicine-practitionerrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-practitionerrole-api-openapi.yml
 - filename: modernizing-medicine-procedure-api-openapi.yml
   format: yaml
   label: ModMed Procedure API
@@ -261,6 +231,36 @@ api_specs:
   slug: modernizing-medicine-valueset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-valueset-api-openapi.yml
+- filename: modernizing-medicine-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: ModMed Allergy Intolerance API
+  slug: modernizing-medicine-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-allergy-intolerance-api-openapi.yml
+- filename: modernizing-medicine-care-plan-api-openapi.yml
+  format: yaml
+  label: ModMed Care plan API
+  slug: modernizing-medicine-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-care-plan-api-openapi.yml
+- filename: modernizing-medicine-document-reference-api-openapi.yml
+  format: yaml
+  label: ModMed Document Reference API
+  slug: modernizing-medicine-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-document-reference-api-openapi.yml
+- filename: modernizing-medicine-medication-request-api-openapi.yml
+  format: yaml
+  label: ModMed Medication Request API
+  slug: modernizing-medicine-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-medication-request-api-openapi.yml
+- filename: modernizing-medicine-practitioner-role-api-openapi.yml
+  format: yaml
+  label: ModMed Practitioner Role API
+  slug: modernizing-medicine-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/openapi/modernizing-medicine-practitioner-role-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -166,6 +166,6 @@ tags:
 - Communications
 - Meetings
 - Video Conferencing
-- Videos
+- Video
 - Webinars
 ---

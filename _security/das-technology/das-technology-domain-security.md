@@ -6,12 +6,6 @@ api_specs:
   slug: das-technology-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-account-api-openapi.yml
-- filename: das-technology-accountv2-api-openapi.yml
-  format: yaml
-  label: DAS Technology Account V2 API
-  slug: das-technology-accountv2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-accountv2-api-openapi.yml
 - filename: das-technology-client-api-openapi.yml
   format: yaml
   label: DAS Technology Client API
@@ -144,12 +138,6 @@ api_specs:
   slug: das-technology-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-user-api-openapi.yml
-- filename: das-technology-userv2-api-openapi.yml
-  format: yaml
-  label: DAS Technology User V2 API
-  slug: das-technology-userv2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-userv2-api-openapi.yml
 - filename: das-technology-vehicle-api-openapi.yml
   format: yaml
   label: DAS Technology Vehicle API
@@ -162,6 +150,18 @@ api_specs:
   slug: das-technology-zuora-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-zuora-api-openapi.yml
+- filename: das-technology-account-v2-api-openapi.yml
+  format: yaml
+  label: DAS Technology Account V2 API
+  slug: das-technology-account-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-account-v2-api-openapi.yml
+- filename: das-technology-user-v2-api-openapi.yml
+  format: yaml
+  label: DAS Technology User v2 API
+  slug: das-technology-user-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/openapi/das-technology-user-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

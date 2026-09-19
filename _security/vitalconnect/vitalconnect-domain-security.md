@@ -38,5 +38,5 @@ tags:
 - Wearables
 - Telehealth
 - Clinical Trials
-- Webhooks
+- Webhook
 ---

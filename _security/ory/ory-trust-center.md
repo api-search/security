@@ -2,7 +2,7 @@
 api_specs:
 - filename: ory-api-api-openapi.yml
   format: yaml
-  label: Ory api API
+  label: Ory api
   slug: ory-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-api-api-openapi.yml
@@ -36,12 +36,6 @@ api_specs:
   slug: ory-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-metadata-api-openapi.yml
-- filename: ory-oauth2-api-openapi.yml
-  format: yaml
-  label: Ory oAuth2 API
-  slug: ory-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-oauth2-api-openapi.yml
 - filename: ory-oidc-api-openapi.yml
   format: yaml
   label: Ory oidc API
@@ -60,12 +54,6 @@ api_specs:
   slug: ory-relationship-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-relationship-api-openapi.yml
-- filename: ory-wellknown-api-openapi.yml
-  format: yaml
-  label: Ory wellknown API
-  slug: ory-wellknown-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-wellknown-api-openapi.yml
 - filename: ory-billing-api-openapi.yml
   format: yaml
   label: Ory Billing API
@@ -132,6 +120,18 @@ api_specs:
   slug: ory-relationships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-relationships-api-openapi.yml
+- filename: ory-oauth2-api-openapi.yml
+  format: yaml
+  label: Ory O Auth2 API
+  slug: ory-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-oauth2-api-openapi.yml
+- filename: ory-well-known-api-openapi.yml
+  format: yaml
+  label: Ory .well Known API
+  slug: ory-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-well-known-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

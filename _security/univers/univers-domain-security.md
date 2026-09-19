@@ -34,7 +34,7 @@ tags:
 - Company
 - Technology
 - Energy
-- Internet of Things
+- IoT
 - Artificial Intelligence
 - Sustainability
 - Infrastructure

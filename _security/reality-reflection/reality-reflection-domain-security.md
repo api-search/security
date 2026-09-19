@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reality-reflec
 summary_line: TLSv1.3
 tags:
 - Company
-- Startup
+- Startups
 - Metaverse
 - Blockchain
 - Artificial Intelligence

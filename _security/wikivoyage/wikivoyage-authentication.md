@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
-- filename: wikivoyage-authentication-api-openapi.yml
-  format: yaml
-  label: Wikivoyage Authentication API
-  slug: wikivoyage-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-authentication-api-openapi.yml
 - filename: wikivoyage-edit-api-openapi.yml
   format: yaml
   label: Wikivoyage Edit API
@@ -33,30 +27,12 @@ api_specs:
   slug: wikivoyage-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-links-api-openapi.yml
-- filename: wikivoyage-meta-api-openapi.yml
-  format: yaml
-  label: Wikivoyage Meta API
-  slug: wikivoyage-meta-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-meta-api-openapi.yml
 - filename: wikivoyage-pages-api-openapi.yml
   format: yaml
   label: Wikivoyage Pages API
   slug: wikivoyage-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-pages-api-openapi.yml
-- filename: wikivoyage-parse-api-openapi.yml
-  format: yaml
-  label: Wikivoyage Parse API
-  slug: wikivoyage-parse-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-parse-api-openapi.yml
-- filename: wikivoyage-patrol-api-openapi.yml
-  format: yaml
-  label: Wikivoyage Patrol API
-  slug: wikivoyage-patrol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-patrol-api-openapi.yml
 - filename: wikivoyage-query-api-openapi.yml
   format: yaml
   label: Wikivoyage Query API
@@ -81,12 +57,6 @@ api_specs:
   slug: wikivoyage-transforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-transforms-api-openapi.yml
-- filename: wikivoyage-upload-api-openapi.yml
-  format: yaml
-  label: Wikivoyage Upload API
-  slug: wikivoyage-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-upload-api-openapi.yml
 auth_types:
 - apiKey
 - http

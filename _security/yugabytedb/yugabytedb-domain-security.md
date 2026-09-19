@@ -18,12 +18,6 @@ api_specs:
   slug: yugabytedb-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-alerts-api-openapi.yml
-- filename: yugabytedb-allowlists-api-openapi.yml
-  format: yaml
-  label: YugabyteDB AllowLists API
-  slug: yugabytedb-allowlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-allowlists-api-openapi.yml
 - filename: yugabytedb-asynchronous-replication-api-openapi.yml
   format: yaml
   label: YugabyteDB Asynchronous Replication API
@@ -204,12 +198,6 @@ api_specs:
   slug: yugabytedb-maintenance-windows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-maintenance-windows-api-openapi.yml
-- filename: yugabytedb-maintenancewindows-api-openapi.yml
-  format: yaml
-  label: YugabyteDB MaintenanceWindows API
-  slug: yugabytedb-maintenancewindows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-maintenancewindows-api-openapi.yml
 - filename: yugabytedb-metrics-api-openapi.yml
   format: yaml
   label: YugabyteDB Metrics API
@@ -288,12 +276,6 @@ api_specs:
   slug: yugabytedb-rbac-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-rbac-management-api-openapi.yml
-- filename: yugabytedb-readreplicas-api-openapi.yml
-  format: yaml
-  label: YugabyteDB ReadReplicas API
-  slug: yugabytedb-readreplicas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-readreplicas-api-openapi.yml
 - filename: yugabytedb-region-management-api-openapi.yml
   format: yaml
   label: YugabyteDB Region management API
@@ -438,6 +420,18 @@ api_specs:
   slug: yugabytedb-ybc-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-ybc-management-api-openapi.yml
+- filename: yugabytedb-allow-lists-api-openapi.yml
+  format: yaml
+  label: YugabyteDB Allow Lists API
+  slug: yugabytedb-allow-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-allow-lists-api-openapi.yml
+- filename: yugabytedb-read-replicas-api-openapi.yml
+  format: yaml
+  label: YugabyteDB Read Replicas API
+  slug: yugabytedb-read-replicas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/openapi/yugabytedb-read-replicas-api-openapi.yml
 description: ''
 domains:
 - caa: []

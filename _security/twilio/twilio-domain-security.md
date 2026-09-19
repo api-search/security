@@ -60,12 +60,6 @@ api_specs:
   slug: twilio-auth-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-auth-tokens-api-openapi.yml
-- filename: twilio-authtokens-api-openapi.yml
-  format: yaml
-  label: Twilio AuthTokens API
-  slug: twilio-authtokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-authtokens-api-openapi.yml
 - filename: twilio-byoctrunks-api-openapi.yml
   format: yaml
   label: Twilio ByocTrunks API
@@ -108,12 +102,6 @@ api_specs:
   slug: twilio-composition-hooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-composition-hooks-api-openapi.yml
-- filename: twilio-compositionhooks-api-openapi.yml
-  format: yaml
-  label: Twilio CompositionHooks API
-  slug: twilio-compositionhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-compositionhooks-api-openapi.yml
 - filename: twilio-compositions-api-openapi.yml
   format: yaml
   label: Twilio Compositions API
@@ -180,12 +168,6 @@ api_specs:
   slug: twilio-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-credentials-api-openapi.yml
-- filename: twilio-customerprofiles-api-openapi.yml
-  format: yaml
-  label: Twilio CustomerProfiles API
-  slug: twilio-customerprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-customerprofiles-api-openapi.yml
 - filename: twilio-deactivations-api-openapi.yml
   format: yaml
   label: Twilio Deactivations API
@@ -210,12 +192,6 @@ api_specs:
   slug: twilio-email-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-email-validation-api-openapi.yml
-- filename: twilio-endusers-api-openapi.yml
-  format: yaml
-  label: Twilio EndUsers API
-  slug: twilio-endusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-endusers-api-openapi.yml
 - filename: twilio-endusertypes-api-openapi.yml
   format: yaml
   label: Twilio EndUserTypes API
@@ -402,12 +378,6 @@ api_specs:
   slug: twilio-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-phone-numbers-api-openapi.yml
-- filename: twilio-phonenumbers-api-openapi.yml
-  format: yaml
-  label: Twilio PhoneNumbers API
-  slug: twilio-phonenumbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-phonenumbers-api-openapi.yml
 - filename: twilio-playerstreamers-api-openapi.yml
   format: yaml
   label: Twilio PlayerStreamers API
@@ -438,12 +408,6 @@ api_specs:
   slug: twilio-rate-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-rate-limits-api-openapi.yml
-- filename: twilio-rateplans-api-openapi.yml
-  format: yaml
-  label: Twilio RatePlans API
-  slug: twilio-rateplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-rateplans-api-openapi.yml
 - filename: twilio-recording-rules-api-openapi.yml
   format: yaml
   label: Twilio Recording Rules API
@@ -456,12 +420,6 @@ api_specs:
   slug: twilio-recordings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recordings-api-openapi.yml
-- filename: twilio-recordingsettings-api-openapi.yml
-  format: yaml
-  label: Twilio RecordingSettings API
-  slug: twilio-recordingsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recordingsettings-api-openapi.yml
 - filename: twilio-regulatorycompliance-api-openapi.yml
   format: yaml
   label: Twilio RegulatoryCompliance API
@@ -528,12 +486,6 @@ api_specs:
   slug: twilio-short-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-short-codes-api-openapi.yml
-- filename: twilio-sims-api-openapi.yml
-  format: yaml
-  label: Twilio Sims API
-  slug: twilio-sims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sims-api-openapi.yml
 - filename: twilio-sinks-api-openapi.yml
   format: yaml
   label: Twilio Sinks API
@@ -636,12 +588,6 @@ api_specs:
   slug: twilio-understand-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-understand-api-openapi.yml
-- filename: twilio-usagerecords-api-openapi.yml
-  format: yaml
-  label: Twilio UsageRecords API
-  slug: twilio-usagerecords-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-usagerecords-api-openapi.yml
 - filename: twilio-users-api-openapi.yml
   format: yaml
   label: Twilio Users API
@@ -690,6 +636,42 @@ api_specs:
   slug: twilio-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-workspaces-api-openapi.yml
+- filename: twilio-sims-api-openapi.yml
+  format: yaml
+  label: Twilio Sims API
+  slug: twilio-sims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sims-api-openapi.yml
+- filename: twilio-customer-profiles-api-openapi.yml
+  format: yaml
+  label: Twilio Customer Profiles API
+  slug: twilio-customer-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-customer-profiles-api-openapi.yml
+- filename: twilio-end-users-api-openapi.yml
+  format: yaml
+  label: Twilio End Users API
+  slug: twilio-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-end-users-api-openapi.yml
+- filename: twilio-rate-plans-api-openapi.yml
+  format: yaml
+  label: Twilio Rate Plans API
+  slug: twilio-rate-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-rate-plans-api-openapi.yml
+- filename: twilio-recording-settings-api-openapi.yml
+  format: yaml
+  label: Twilio Recording Settings API
+  slug: twilio-recording-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recording-settings-api-openapi.yml
+- filename: twilio-usage-records-api-openapi.yml
+  format: yaml
+  label: Twilio Usage Records API
+  slug: twilio-usage-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-usage-records-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -745,4 +727,5 @@ tags:
 - Verification
 - Video
 - Voice
+- Twilio
 ---

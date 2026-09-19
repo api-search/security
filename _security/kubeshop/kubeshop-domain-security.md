@@ -2,7 +2,7 @@
 api_specs:
 - filename: kubeshop-api-api-openapi.yml
   format: yaml
-  label: Kubeshop api API
+  label: Kubeshop api
   slug: kubeshop-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-api-api-openapi.yml

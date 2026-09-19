@@ -80,7 +80,7 @@ tags:
 - Automotive
 - Customer Data Platform
 - Marketing Automation
-- Dealerships
+- Dealership
 - Advertising
 - Artificial Intelligence
 - Consent Management

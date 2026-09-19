@@ -99,10 +99,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Affiliate Marketing
 - Affiliate Network
-- Commission
+- Commissions
 - Product Search
 - Publishers
-- Advertiser
+- Advertisers
 - GraphQL
 - E-Commerce
 - Product Feeds

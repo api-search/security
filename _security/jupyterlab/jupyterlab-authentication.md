@@ -77,6 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/ref
 summary_line: apiKey · 2 schemes
 tags:
 - Data Science
+- Developer Tools
 - Extensions
 - IDE
 - Interactive Computing

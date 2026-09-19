@@ -6,12 +6,6 @@ api_specs:
   slug: vaynermedia-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/openapi/vaynermedia-blocks-api-openapi.yml
-- filename: vaynermedia-casestudies-api-openapi.yml
-  format: yaml
-  label: VaynerMedia Case Studies API
-  slug: vaynermedia-casestudies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/openapi/vaynermedia-casestudies-api-openapi.yml
 - filename: vaynermedia-categories-api-openapi.yml
   format: yaml
   label: VaynerMedia Categories API
@@ -78,6 +72,12 @@ api_specs:
   slug: vaynermedia-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/openapi/vaynermedia-types-api-openapi.yml
+- filename: vaynermedia-case-studies-api-openapi.yml
+  format: yaml
+  label: VaynerMedia Case Studies API
+  slug: vaynermedia-case-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/openapi/vaynermedia-case-studies-api-openapi.yml
 description: ''
 domains:
 - caa: []

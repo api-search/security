@@ -62,5 +62,5 @@ tags:
 - Root Cause Analysis
 - Monitoring
 - DevOps
-- AI Agent
+- AI Agents
 ---

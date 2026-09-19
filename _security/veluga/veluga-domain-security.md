@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Alcohol
-- Beverage
+- Beverages
 - Wholesale
 - Marketplace
 - B2B

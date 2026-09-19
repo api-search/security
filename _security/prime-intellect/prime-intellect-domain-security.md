@@ -170,10 +170,10 @@ tags:
 - Decentralized Compute
 - Foundation Models
 - Inference
-- Sandboxes
+- Sandbox
 - Training
-- Environments
-- Evaluations
+- Environment
+- Evaluation
 - LoRA
 - Open-Source
 - Agents

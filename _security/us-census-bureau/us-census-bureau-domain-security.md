@@ -108,12 +108,12 @@ api_specs:
   slug: us-census-bureau-sipp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-sipp-api-openapi.yml
-- filename: us-census-bureau-timeseries-api-openapi.yml
+- filename: us-census-bureau-time-series-api-openapi.yml
   format: yaml
-  label: US Census Bureau Timeseries API
-  slug: us-census-bureau-timeseries-api
+  label: US Census Bureau Time Series API
+  slug: us-census-bureau-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-timeseries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

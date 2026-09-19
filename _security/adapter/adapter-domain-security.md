@@ -2,7 +2,7 @@
 api_specs:
 - filename: adapter-adapter-api-api-openapi.yml
   format: yaml
-  label: Adapter Adapter API API
+  label: Adapter API
   slug: adapter-adapter-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-adapter-api-api-openapi.yml
@@ -66,24 +66,12 @@ api_specs:
   slug: adapter-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-management-api-openapi.yml
-- filename: adapter-oauth-api-openapi.yml
-  format: yaml
-  label: Adapter Oauth API
-  slug: adapter-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-oauth-api-openapi.yml
 - filename: adapter-oauth-connect-api-openapi.yml
   format: yaml
   label: Adapter oauth-connect API
   slug: adapter-oauth-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-oauth-connect-api-openapi.yml
-- filename: adapter-oauth2-api-openapi.yml
-  format: yaml
-  label: Adapter oauth2 API
-  slug: adapter-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-oauth2-api-openapi.yml
 - filename: adapter-openapi-json-api-openapi.yml
   format: yaml
   label: Adapter Openapi.json API
@@ -150,12 +138,24 @@ api_specs:
   slug: adapter-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-webhook-api-openapi.yml
-- filename: adapter-whatsapp-api-openapi.yml
+- filename: adapter-oauth-api-openapi.yml
   format: yaml
-  label: Adapter Whatsapp API
-  slug: adapter-whatsapp-api
+  label: Adapter OAUTH API
+  slug: adapter-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-oauth-api-openapi.yml
+- filename: adapter-oauth2-api-openapi.yml
+  format: yaml
+  label: Adapter Oauth2 API
+  slug: adapter-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-oauth2-api-openapi.yml
+- filename: adapter-whats-app-api-openapi.yml
+  format: yaml
+  label: Adapter Whats App API
+  slug: adapter-whats-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-whats-app-api-openapi.yml
 description: ''
 domains:
 - caa: []

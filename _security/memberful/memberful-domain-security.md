@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/security/memberful-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Memberships
+- Membership
 - Subscription
 - Payments
 - Creators

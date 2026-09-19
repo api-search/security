@@ -120,12 +120,6 @@ api_specs:
   slug: fusionauth-messenger-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-messenger-api-openapi.yml
-- filename: fusionauth-oauth2-api-openapi.yml
-  format: yaml
-  label: FusionAuth Oauth2 API
-  slug: fusionauth-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-oauth2-api-openapi.yml
 - filename: fusionauth-passwordless-api-openapi.yml
   format: yaml
   label: FusionAuth Passwordless API
@@ -222,6 +216,12 @@ api_specs:
   slug: fusionauth-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-well-known-api-openapi.yml
+- filename: fusionauth-oauth2-api-openapi.yml
+  format: yaml
+  label: FusionAuth Oauth2 API
+  slug: fusionauth-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -270,6 +270,6 @@ tags:
 - Identity
 - CIAM
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 ---

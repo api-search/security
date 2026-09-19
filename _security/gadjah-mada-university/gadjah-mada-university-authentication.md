@@ -2,24 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: gadjah-mada-university-ugm-id-openapi.yml
+- filename: gadjah-mada-university-api-api-openapi.yml
   format: yaml
-  label: UGM ID — OAuth 2.0 / OpenID Connect Authorization Server
-  slug: ugm-id
+  label: Gadjah Mada University API
+  slug: gadjah-mada-university-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-ugm-id-openapi.yml
-- filename: gadjah-mada-university-repository-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-api-api-openapi.yml
+- filename: gadjah-mada-university-discovery-api-openapi.yml
   format: yaml
-  label: UGM Institutional Repository OAI-PMH
-  slug: repository-oai-pmh
+  label: Gadjah Mada University Discovery API
+  slug: gadjah-mada-university-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-repository-oai-pmh-openapi.yml
-- filename: gadjah-mada-university-journal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-discovery-api-openapi.yml
+- filename: gadjah-mada-university-infra-api-openapi.yml
   format: yaml
-  label: UGM Journals OAI-PMH
-  slug: journal-oai-pmh
+  label: Gadjah Mada University Infra API
+  slug: gadjah-mada-university-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-journal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-infra-api-openapi.yml
+- filename: gadjah-mada-university-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Gadjah Mada University OAI PMH API
+  slug: gadjah-mada-university-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oai-pmh-api-openapi.yml
+- filename: gadjah-mada-university-social-login-api-openapi.yml
+  format: yaml
+  label: Gadjah Mada University Social Login API
+  slug: gadjah-mada-university-social-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-social-login-api-openapi.yml
+- filename: gadjah-mada-university-oauth2-api-openapi.yml
+  format: yaml
+  label: Gadjah Mada University O Auth2 API
+  slug: gadjah-mada-university-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 - oidc
@@ -196,7 +214,6 @@ tags:
 - Identity Federation
 - Authentication
 - OpenID Connect
-- OAuth
 - Research Repository
 - Scholarly Publishing
 - OAI-PMH

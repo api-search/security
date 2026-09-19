@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: rice-kinder-udp-openapi.yml
+- filename: rice-datasets-api-openapi.yml
   format: yaml
-  label: Rice Kinder Institute Urban Data Platform API
-  slug: kinder-udp
+  label: Rice University Datasets API
+  slug: rice-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-kinder-udp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-datasets-api-openapi.yml
+- filename: rice-reference-api-openapi.yml
+  format: yaml
+  label: Rice University Reference API
+  slug: rice-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []

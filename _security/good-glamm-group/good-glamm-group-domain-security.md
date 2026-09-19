@@ -40,4 +40,5 @@ tags:
 - E-Commerce
 - Content-to-Commerce
 - India
+- Direct to Consumer
 ---

@@ -33,12 +33,12 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Distributors
-- Manufacturers
+- Distributor
+- Manufacturer
 - Quoting
 - Order Entry
 - ERP
-- Industrials
+- Industrial
 - Sales Automation
 - Y Combinator
 ---

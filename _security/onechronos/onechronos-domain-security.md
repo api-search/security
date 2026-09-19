@@ -35,7 +35,7 @@ tags:
 - Financial-Services
 - Capital Markets
 - Trading
-- Equities
+- Stocks
 - Alternative Trading System
 - FIX Protocol
 - Foreign Exchange

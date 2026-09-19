@@ -48,24 +48,12 @@ api_specs:
   slug: withings-nudgecampaign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-nudgecampaign-api-openapi.yml
-- filename: withings-oauth2-api-openapi.yml
-  format: yaml
-  label: Withings oauth2 API
-  slug: withings-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-oauth2-api-openapi.yml
 - filename: withings-order-api-openapi.yml
   format: yaml
   label: Withings order API
   slug: withings-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-order-api-openapi.yml
-- filename: withings-rawdata-api-openapi.yml
-  format: yaml
-  label: Withings rawdata API
-  slug: withings-rawdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-rawdata-api-openapi.yml
 - filename: withings-signature-api-openapi.yml
   format: yaml
   label: Withings signature API
@@ -96,6 +84,18 @@ api_specs:
   slug: withings-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-user-api-openapi.yml
+- filename: withings-oauth2-api-openapi.yml
+  format: yaml
+  label: Withings Oauth2 API
+  slug: withings-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-oauth2-api-openapi.yml
+- filename: withings-raw-data-api-openapi.yml
+  format: yaml
+  label: Withings Raw Data API
+  slug: withings-raw-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-raw-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

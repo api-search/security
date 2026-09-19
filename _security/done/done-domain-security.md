@@ -6,12 +6,6 @@ api_specs:
   slug: done-asn-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-asn-lookup-api-openapi.yml
-- filename: done-cors-headers-api-openapi.yml
-  format: yaml
-  label: _done cors headers API
-  slug: done-cors-headers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-cors-headers-api-openapi.yml
 - filename: done-data-api-openapi.yml
   format: yaml
   label: _done Data API
@@ -30,24 +24,6 @@ api_specs:
   slug: done-dmarc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-dmarc-api-openapi.yml
-- filename: done-dns-lookup-api-openapi.yml
-  format: yaml
-  label: _done dns lookup API
-  slug: done-dns-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-dns-lookup-api-openapi.yml
-- filename: done-domain-age-api-openapi.yml
-  format: yaml
-  label: _done domain age API
-  slug: done-domain-age-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-domain-age-api-openapi.yml
-- filename: done-domain-availability-api-openapi.yml
-  format: yaml
-  label: _done domain availability API
-  slug: done-domain-availability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-domain-availability-api-openapi.yml
 - filename: done-ens-api-openapi.yml
   format: yaml
   label: _done Ens API
@@ -60,24 +36,12 @@ api_specs:
   slug: done-hacker-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-hacker-news-api-openapi.yml
-- filename: done-http-headers-api-openapi.yml
-  format: yaml
-  label: _done http headers API
-  slug: done-http-headers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-headers-api-openapi.yml
 - filename: done-http-request-api-openapi.yml
   format: yaml
   label: _done http request API
   slug: done-http-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-request-api-openapi.yml
-- filename: done-http-status-code-api-openapi.yml
-  format: yaml
-  label: _done http status code API
-  slug: done-http-status-code-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-http-status-code-api-openapi.yml
 - filename: done-json-api-openapi.yml
   format: yaml
   label: _done JSON API
@@ -132,12 +96,6 @@ api_specs:
   slug: done-shopify-rank-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-shopify-rank-api-openapi.yml
-- filename: done-sitemap-api-openapi.yml
-  format: yaml
-  label: _done Sitemap API
-  slug: done-sitemap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-sitemap-api-openapi.yml
 - filename: done-validation-api-openapi.yml
   format: yaml
   label: _done Validation API
@@ -150,18 +108,12 @@ api_specs:
   slug: done-website-screenshot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-website-screenshot-api-openapi.yml
-- filename: done-website-uptime-api-openapi.yml
+- filename: done-network-api-openapi.yml
   format: yaml
-  label: _done website uptime API
-  slug: done-website-uptime-api
+  label: _done Network API
+  slug: done-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-website-uptime-api-openapi.yml
-- filename: done-email-verifier-validator-api-openapi.yml
-  format: yaml
-  label: _done email verifier API
-  slug: done-email-verifier-validator-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-email-verifier-validator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-network-api-openapi.yml
 description: ''
 domains:
 - caa: []

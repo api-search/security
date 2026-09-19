@@ -102,6 +102,12 @@ api_specs:
   slug: statsig-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-users-api-openapi.yml
+- filename: statsig-console-api-openapi.json
+  format: json
+  label: statsig Console API
+  slug: statsig-console-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-console-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -116,19 +122,19 @@ domains:
   domain: statsigapi.net
   spf: false
 hosts:
-- cert_expires: Sep 15 16:23:32 2026 GMT
+- cert_expires: Dec 11 15:24:26 2026 GMT
+  host: www.statsig.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov 16 01:13:22 2026 GMT
   host: docs.statsig.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 13 17:15:26 2026 GMT
-  host: api.statsig.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Sep  3 12:30:25 2026 GMT
-  host: statsigapi.net
+- cert_expires: Nov  2 11:33:30 2026 GMT
+  host: events.statsigapi.net
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -145,8 +151,16 @@ slug: statsig-domain-security
 source_filename: statsig-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.statsig.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:23:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.statsig.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 17:15:26 2026 GMT\n  hsts: null\n- host: statsigapi.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 12:30:25 2026 GMT\n  hsts: null\ndomains:\n- domain: statsig.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: statsigapi.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.statsig.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 15:24:26 2026 GMT\n  hsts: null\n- host: docs.statsig.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 01:13:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: events.statsigapi.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 11:33:30 2026 GMT\n  hsts: null\ndomains:\n- domain: statsig.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: statsigapi.net\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/security/statsig-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Feature Flags
+- Experimentation
+- A/B Testing
+- Product Analytics
+- Session Replay
+- Developer Tools
+- Data Warehouse
+- Configuration Management
 ---

@@ -114,12 +114,6 @@ api_specs:
   slug: agorapulse-open-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-open-api-api-openapi.yml
-- filename: agorapulse-openapi-api-openapi.yml
-  format: yaml
-  label: Agorapulse Open API
-  slug: agorapulse-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-openapi-api-openapi.yml
 - filename: agorapulse-organization-api-openapi.yml
   format: yaml
   label: Agorapulse Organization API

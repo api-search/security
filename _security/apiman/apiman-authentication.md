@@ -181,7 +181,4 @@ tags:
 - Developer Portal
 - Java
 - Open-Source
-- Policy Enforcement
-- Self-Hosted
-- Keycloak
 ---

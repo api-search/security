@@ -14,12 +14,6 @@ api_specs:
   slug: interchecks-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-authentication-api-openapi.yml
-- filename: interchecks-oauth2-api-openapi.yml
-  format: yaml
-  label: Interchecks Oauth2 API
-  slug: interchecks-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-oauth2-api-openapi.yml
 - filename: interchecks-payers-api-openapi.yml
   format: yaml
   label: Interchecks Payers API
@@ -98,6 +92,12 @@ api_specs:
   slug: interchecks-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-widgets-api-openapi.yml
+- filename: interchecks-oauth2-api-openapi.yml
+  format: yaml
+  label: Interchecks Oauth2 API
+  slug: interchecks-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/openapi/interchecks-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 - http

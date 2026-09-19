@@ -36,7 +36,7 @@ tags:
 - No-Code
 - Customer Acquisition
 - Email Capture
-- Waitlists
+- Waitlist
 - Product Launch
 - Startups
 - Marketing

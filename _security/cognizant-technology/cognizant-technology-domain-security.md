@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cognizant-technology-neuro-san-agent-service.json
-  format: json
-  label: Cognizant Neuro SAN Agent Service
-  slug: cognizant-neuro-san-agent-service
+- filename: cognizant-technology-agentservice-api-openapi.yml
+  format: yaml
+  label: Cognizant Technology Solutions Agent Service API
+  slug: cognizant-technology-agentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/openapi/cognizant-technology-neuro-san-agent-service.json
+  url: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/openapi/cognizant-technology-agentservice-api-openapi.yml
+- filename: cognizant-technology-conciergeservice-api-openapi.yml
+  format: yaml
+  label: Cognizant Technology Solutions Concierge Service API
+  slug: cognizant-technology-conciergeservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/openapi/cognizant-technology-conciergeservice-api-openapi.yml
 description: ''
 domains:
 - caa: []

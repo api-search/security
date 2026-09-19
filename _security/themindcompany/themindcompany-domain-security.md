@@ -36,7 +36,7 @@ tags:
 - Wellness
 - Cognitive Training
 - Meditation
-- Consumer Apps
+- Consumer App
 - Mobile
 - EdTech
 ---

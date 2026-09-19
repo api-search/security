@@ -68,12 +68,6 @@ api_specs:
   slug: pavoot-addphotographertoprojects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-addphotographertoprojects-api-openapi.yml
-- filename: pavoot-addproject-api-openapi.yml
-  format: yaml
-  label: Pavoot Add Project API
-  slug: pavoot-addproject-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-addproject-api-openapi.yml
 - filename: pavoot-addrecipients-api-openapi.yml
   format: yaml
   label: Pavoot Add Recipients API
@@ -200,18 +194,6 @@ api_specs:
   slug: pavoot-createfolder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-createfolder-api-openapi.yml
-- filename: pavoot-createmultipartupload-api-openapi.yml
-  format: yaml
-  label: Pavoot Create Multipart Upload API
-  slug: pavoot-createmultipartupload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-createmultipartupload-api-openapi.yml
-- filename: pavoot-createsharelink-api-openapi.yml
-  format: yaml
-  label: Pavoot Create Share Link API
-  slug: pavoot-createsharelink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-createsharelink-api-openapi.yml
 - filename: pavoot-createuploadlink-api-openapi.yml
   format: yaml
   label: Pavoot Create Upload Link API
@@ -266,12 +248,6 @@ api_specs:
   slug: pavoot-deletephotographer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-deletephotographer-api-openapi.yml
-- filename: pavoot-deleteproject-api-openapi.yml
-  format: yaml
-  label: Pavoot Delete Project API
-  slug: pavoot-deleteproject-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-deleteproject-api-openapi.yml
 - filename: pavoot-deleterecipient-api-openapi.yml
   format: yaml
   label: Pavoot Delete Recipient API
@@ -368,24 +344,12 @@ api_specs:
   slug: pavoot-generatebrandfolders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-generatebrandfolders-api-openapi.yml
-- filename: pavoot-generatedownloadurl-api-openapi.yml
-  format: yaml
-  label: Pavoot Generate Download URL API
-  slug: pavoot-generatedownloadurl-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-generatedownloadurl-api-openapi.yml
 - filename: pavoot-generatepresignedurls-api-openapi.yml
   format: yaml
   label: Pavoot Generate Presigned URLS API
   slug: pavoot-generatepresignedurls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-generatepresignedurls-api-openapi.yml
-- filename: pavoot-generatethumbnail-api-openapi.yml
-  format: yaml
-  label: Pavoot Generate Thumbnail API
-  slug: pavoot-generatethumbnail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-generatethumbnail-api-openapi.yml
 - filename: pavoot-getalltags-api-openapi.yml
   format: yaml
   label: Pavoot Get All Tags API
@@ -440,12 +404,6 @@ api_specs:
   slug: pavoot-getfaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-getfaces-api-openapi.yml
-- filename: pavoot-getimages-api-openapi.yml
-  format: yaml
-  label: Pavoot Get Images API
-  slug: pavoot-getimages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-getimages-api-openapi.yml
 - filename: pavoot-getimageswithunknownfaces-api-openapi.yml
   format: yaml
   label: Pavoot Get Images With Unknown Faces API
@@ -614,12 +572,6 @@ api_specs:
   slug: pavoot-getprojectpersons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-getprojectpersons-api-openapi.yml
-- filename: pavoot-getprojects-api-openapi.yml
-  format: yaml
-  label: Pavoot Get Projects API
-  slug: pavoot-getprojects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-getprojects-api-openapi.yml
 - filename: pavoot-getprojectstorage-api-openapi.yml
   format: yaml
   label: Pavoot Get Project Storage API
@@ -1070,6 +1022,54 @@ api_specs:
   slug: pavoot-upsertprojectattendee-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-upsertprojectattendee-api-openapi.yml
+- filename: pavoot-add-project-api-openapi.yml
+  format: yaml
+  label: Pavoot Add Project API
+  slug: pavoot-add-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-add-project-api-openapi.yml
+- filename: pavoot-create-multipart-upload-api-openapi.yml
+  format: yaml
+  label: Pavoot Create Multipart Upload API
+  slug: pavoot-create-multipart-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-create-multipart-upload-api-openapi.yml
+- filename: pavoot-create-share-link-api-openapi.yml
+  format: yaml
+  label: Pavoot Create Share Link API
+  slug: pavoot-create-share-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-create-share-link-api-openapi.yml
+- filename: pavoot-delete-project-api-openapi.yml
+  format: yaml
+  label: Pavoot Delete Project API
+  slug: pavoot-delete-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-delete-project-api-openapi.yml
+- filename: pavoot-generate-download-url-api-openapi.yml
+  format: yaml
+  label: Pavoot Generate Download Url API
+  slug: pavoot-generate-download-url-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-generate-download-url-api-openapi.yml
+- filename: pavoot-generate-thumbnail-api-openapi.yml
+  format: yaml
+  label: Pavoot Generate Thumbnail API
+  slug: pavoot-generate-thumbnail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-generate-thumbnail-api-openapi.yml
+- filename: pavoot-get-images-api-openapi.yml
+  format: yaml
+  label: Pavoot Get Images API
+  slug: pavoot-get-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-get-images-api-openapi.yml
+- filename: pavoot-get-projects-api-openapi.yml
+  format: yaml
+  label: Pavoot Get Projects API
+  slug: pavoot-get-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/openapi/pavoot-get-projects-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -1136,9 +1136,9 @@ tags:
 - Event
 - Event Management
 - Marketing
-- AI Agent
+- AI Agents
 - Attendee Intelligence
 - Go-To-Market
 - Field Marketing
-- Pipeline
+- Pipelines
 ---

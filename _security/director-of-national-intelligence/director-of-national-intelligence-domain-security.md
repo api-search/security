@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: director-of-national-intelligence-wp-content-openapi.yml
+- filename: director-of-national-intelligence-discovery-api-openapi.yml
   format: yaml
-  label: ODNI Public Content API
-  slug: odni-public-content-api
+  label: Director of National Intelligence Discovery API
+  slug: director-of-national-intelligence-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-wp-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-discovery-api-openapi.yml
+- filename: director-of-national-intelligence-media-api-openapi.yml
+  format: yaml
+  label: Director of National Intelligence Media API
+  slug: director-of-national-intelligence-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-media-api-openapi.yml
+- filename: director-of-national-intelligence-news-api-openapi.yml
+  format: yaml
+  label: Director of National Intelligence News API
+  slug: director-of-national-intelligence-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-news-api-openapi.yml
+- filename: director-of-national-intelligence-pages-api-openapi.yml
+  format: yaml
+  label: Director of National Intelligence Pages API
+  slug: director-of-national-intelligence-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-pages-api-openapi.yml
+- filename: director-of-national-intelligence-publications-api-openapi.yml
+  format: yaml
+  label: Director of National Intelligence Publications API
+  slug: director-of-national-intelligence-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-publications-api-openapi.yml
+- filename: director-of-national-intelligence-search-api-openapi.yml
+  format: yaml
+  label: Director of National Intelligence Search API
+  slug: director-of-national-intelligence-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-search-api-openapi.yml
+- filename: director-of-national-intelligence-taxonomy-api-openapi.yml
+  format: yaml
+  label: Director of National Intelligence Taxonomy API
+  slug: director-of-national-intelligence-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,9 +75,9 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Federal-Government
 - Intelligence
-- National-Security
+- National Security
 - Government
-- Public-Sector
+- Public Sector
 - Transparency
 - News
 - Publications

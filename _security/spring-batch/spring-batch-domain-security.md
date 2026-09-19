@@ -2,7 +2,7 @@
 api_specs:
 - filename: spring-batch-batch-jobs-api-openapi.yml
   format: yaml
-  label: Spring Batch Batch Jobs API
+  label: Spring Batch Jobs API
   slug: spring-batch-batch-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/openapi/spring-batch-batch-jobs-api-openapi.yml

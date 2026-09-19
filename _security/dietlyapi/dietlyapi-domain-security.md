@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: DietlyAPI
-  slug: dietlyapi
+- filename: dietlyapi-foods-api-openapi.yml
+  format: yaml
+  label: DietlyAPI Foods API
+  slug: dietlyapi-foods-api
   spec_type: OpenAPI
-  url: https://www.getdietly.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/openapi/dietlyapi-foods-api-openapi.yml
+- filename: dietlyapi-meta-api-openapi.yml
+  format: yaml
+  label: DietlyAPI Meta API
+  slug: dietlyapi-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/openapi/dietlyapi-meta-api-openapi.yml
 description: ''
 domains:
 - caa: []

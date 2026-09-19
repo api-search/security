@@ -38,7 +38,7 @@ tags:
 - Investing
 - Wealth Management
 - Gold
-- Prepaid Card
+- Prepaid Cards
 - Personal Finance
-- UAE
+- United Arab Emirates
 ---

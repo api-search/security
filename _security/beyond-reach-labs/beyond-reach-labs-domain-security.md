@@ -36,7 +36,7 @@ tags:
 - Spacecraft
 - Solar Arrays
 - Thermal Management
-- Satellites
+- Satellite
 - Orbital Power
 - Hardware
 ---

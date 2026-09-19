@@ -12,12 +12,6 @@ api_specs:
   slug: goalserve-fixtures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-fixtures-api-openapi.yml
-- filename: goalserve-live-scores-api-openapi.yml
-  format: yaml
-  label: GoalServe Live Scores API
-  slug: goalserve-live-scores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-live-scores-api-openapi.yml
 - filename: goalserve-player-data-api-openapi.yml
   format: yaml
   label: GoalServe Player Data API
@@ -36,6 +30,12 @@ api_specs:
   slug: goalserve-team-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-team-data-api-openapi.yml
+- filename: goalserve-livescores-api-openapi.yml
+  format: yaml
+  label: GoalServe Livescores API
+  slug: goalserve-livescores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/openapi/goalserve-livescores-api-openapi.yml
 description: ''
 domains:
 - caa: []

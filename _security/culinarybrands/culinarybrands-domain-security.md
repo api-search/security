@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Food
-- Beverage
+- Beverages
 - Food Service
 - QSR
 - Coffee

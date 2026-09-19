@@ -37,12 +37,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/withclutch/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Credit Unions
+- Credit Union
 - Lending
 - Loan Origination
 - Account Opening
 - Financial-Services
 - Fintech
 - Banking
-- Data Exports
+- Data Export
 ---

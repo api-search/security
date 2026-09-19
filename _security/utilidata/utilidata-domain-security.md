@@ -46,7 +46,7 @@ tags:
 - Energy
 - Electric Grid
 - Utilities
-- Data Centers
+- Data-Center
 - Artificial Intelligence
 - Edge Computing
 - Telemetry

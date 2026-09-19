@@ -84,12 +84,6 @@ api_specs:
   slug: emotive-messaging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-messaging-api-openapi.yml
-- filename: emotive-oauth-api-openapi.yml
-  format: yaml
-  label: Emotive OAUTH API
-  slug: emotive-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-oauth-api-openapi.yml
 - filename: emotive-opt-outs-api-openapi.yml
   format: yaml
   label: Emotive Opt Outs API
@@ -210,6 +204,12 @@ api_specs:
   slug: emotive-zapier-me-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-zapier-me-api-api-openapi.yml
+- filename: emotive-oauth-api-openapi.yml
+  format: yaml
+  label: Emotive OAUTH API
+  slug: emotive-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/openapi/emotive-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -28,5 +28,6 @@ tags:
 - Healthcare
 - Higher Education
 - SSO
+- Identity Federation
 trust_url: https://welltrack.com/compliance/
 ---

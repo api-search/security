@@ -52,7 +52,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Airports
 - Regulator
 - Government

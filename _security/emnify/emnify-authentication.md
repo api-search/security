@@ -189,7 +189,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/he
 summary_line: http · 1 scheme
 tags:
 - IoT
-- Internet of Things
 - Cellular Connectivity
 - IoT SIM
 - eSIM
@@ -199,4 +198,5 @@ tags:
 - NTN-IoT
 - Satellite
 - SuperNetwork
+- Machine-to-Machine
 ---

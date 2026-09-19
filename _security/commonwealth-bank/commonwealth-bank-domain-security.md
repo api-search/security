@@ -2,13 +2,13 @@
 api_specs:
 - filename: commonwealth-bank-accounts-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Accounts API API
+  label: Commonwealth Bank Accounts API
   slug: commonwealth-bank-accounts-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-accounts-api-api-openapi.yml
 - filename: commonwealth-bank-balances-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Balances API API
+  label: Commonwealth Bank Balances API
   slug: commonwealth-bank-balances-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-balances-api-api-openapi.yml
@@ -56,31 +56,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-banking-products-api-openapi.yml
 - filename: commonwealth-bank-customer-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Customer API API
+  label: Commonwealth Bank Customer API
   slug: commonwealth-bank-customer-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-customer-api-api-openapi.yml
 - filename: commonwealth-bank-payees-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Payees API API
+  label: Commonwealth Bank Payees API
   slug: commonwealth-bank-payees-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-payees-api-api-openapi.yml
 - filename: commonwealth-bank-products-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Products API API
+  label: Commonwealth Bank Products API
   slug: commonwealth-bank-products-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-products-api-api-openapi.yml
 - filename: commonwealth-bank-regular-payments-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Regular Payments API API
+  label: Commonwealth Bank Regular Payments API
   slug: commonwealth-bank-regular-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-regular-payments-api-api-openapi.yml
 - filename: commonwealth-bank-transaction-api-api-openapi.yml
   format: yaml
-  label: Commonwealth Bank Transaction API API
+  label: Commonwealth Bank Transaction API
   slug: commonwealth-bank-transaction-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-transaction-api-api-openapi.yml

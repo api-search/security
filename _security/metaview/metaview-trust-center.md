@@ -26,6 +26,6 @@ tags:
 - Talent Acquisition
 - AI Agents
 - Interview Notes
-- HR Tech
+- Human Resources
 trust_url: https://trust.metaview.ai/
 ---

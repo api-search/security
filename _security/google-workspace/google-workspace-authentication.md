@@ -8,18 +8,36 @@ api_specs:
   slug: google-workspace-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-groups-api-openapi.yml
-- filename: google-workspace-orgunits-api-openapi.yml
-  format: yaml
-  label: Google Workspace OrgUnits API
-  slug: google-workspace-orgunits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-orgunits-api-openapi.yml
 - filename: google-workspace-users-api-openapi.yml
   format: yaml
   label: Google Workspace Users API
   slug: google-workspace-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-users-api-openapi.yml
+- filename: google-workspace-calendar-api-openapi.yml
+  format: yaml
+  label: Google Workspace APIs Calendar API
+  slug: google-suites-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-calendar-api-openapi.yml
+- filename: google-workspace-drive-api-openapi.yml
+  format: yaml
+  label: Google Workspace APIs Drive API
+  slug: google-suites-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-drive-api-openapi.yml
+- filename: google-workspace-gmail-api-openapi.yml
+  format: yaml
+  label: Google Workspace APIs Gmail API
+  slug: google-suites-gmail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-gmail-api-openapi.yml
+- filename: google-workspace-org-units-api-openapi.yml
+  format: yaml
+  label: Google Workspace Org Units API
+  slug: google-workspace-org-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-org-units-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -60,4 +78,5 @@ tags:
 - Productivity
 - Storage
 - Video Conferencing
+- Google Workspace
 ---

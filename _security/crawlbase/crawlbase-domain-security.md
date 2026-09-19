@@ -2,31 +2,31 @@
 api_specs:
 - filename: crawlbase-crawling-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Crawling API API
+  label: Crawlbase Crawling API
   slug: crawlbase-crawling-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-crawling-api-api-openapi.yml
 - filename: crawlbase-leads-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Leads API API
+  label: Crawlbase Leads API
   slug: crawlbase-leads-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-leads-api-api-openapi.yml
 - filename: crawlbase-scraper-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Scraper API API
+  label: Crawlbase Scraper API
   slug: crawlbase-scraper-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-scraper-api-api-openapi.yml
 - filename: crawlbase-screenshots-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Screenshots API API
+  label: Crawlbase Screenshots API
   slug: crawlbase-screenshots-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-screenshots-api-api-openapi.yml
 - filename: crawlbase-storage-api-api-openapi.yml
   format: yaml
-  label: Crawlbase Storage API API
+  label: Crawlbase Storage API
   slug: crawlbase-storage-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-storage-api-api-openapi.yml

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: postech-oasis-oai-pmh-openapi.yml
+- filename: postech-oai-pmh-api-openapi.yml
   format: yaml
-  label: POSTECH OASIS Repository OAI-PMH
-  slug: oasis-oai-pmh
+  label: Pohang University of Science and Technology OAI PMH API
+  slug: postech-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/openapi/postech-oasis-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/openapi/postech-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,6 @@ tags:
 - Higher Education
 - Education
 - South Korea
-- Korea
 - Asia
 - Private Research University
 - Research

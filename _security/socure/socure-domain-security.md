@@ -6,12 +6,6 @@ api_specs:
   slug: socure-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-alerts-api-openapi.yml
-- filename: socure-id-api-openapi.yml
-  format: yaml
-  label: socure ID+ API
-  slug: socure-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-id-api-openapi.yml
 - filename: socure-monitoring-api-openapi.yml
   format: yaml
   label: socure Monitoring API
@@ -77,5 +71,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.socure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 05:55:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.socure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.socure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 05:44:40 2026 GMT\n  hsts: null\ndomains:\n- domain: socure.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/security/socure-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Orchestration
+- Workflows
+- Identity Verification
+- Fraud Prevention
+- Alerts
+- Monitoring
 ---

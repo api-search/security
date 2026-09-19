@@ -30,12 +30,6 @@ api_specs:
   slug: runai-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-applications-api-openapi.yml
-- filename: runai-auditlogs-api-openapi.yml
-  format: yaml
-  label: NVIDIA Run:ai AuditLogs API
-  slug: runai-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-auditlogs-api-openapi.yml
 - filename: runai-clusters-api-openapi.yml
   format: yaml
   label: NVIDIA Run:ai Clusters API
@@ -60,18 +54,6 @@ api_specs:
   slug: runai-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-credentials-api-openapi.yml
-- filename: runai-datasources-api-openapi.yml
-  format: yaml
-  label: NVIDIA Run:ai Datasources API
-  slug: runai-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-datasources-api-openapi.yml
-- filename: runai-datavolumes-api-openapi.yml
-  format: yaml
-  label: NVIDIA Run:ai Datavolumes API
-  slug: runai-datavolumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-datavolumes-api-openapi.yml
 - filename: runai-departments-api-openapi.yml
   format: yaml
   label: NVIDIA Run:ai Departments API
@@ -150,12 +132,6 @@ api_specs:
   slug: runai-nfs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-nfs-api-openapi.yml
-- filename: runai-nodepools-api-openapi.yml
-  format: yaml
-  label: NVIDIA Run:ai NodePools API
-  slug: runai-nodepools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-nodepools-api-openapi.yml
 - filename: runai-nodes-api-openapi.yml
   format: yaml
   label: NVIDIA Run:ai Nodes API
@@ -174,12 +150,6 @@ api_specs:
   slug: runai-notification-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-notification-types-api-openapi.yml
-- filename: runai-notificationchannels-api-openapi.yml
-  format: yaml
-  label: NVIDIA Run:ai NotificationChannels API
-  slug: runai-notificationchannels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-notificationchannels-api-openapi.yml
 - filename: runai-nvidia-nim-api-openapi.yml
   format: yaml
   label: NVIDIA Run:ai NVIDIA NIM API
@@ -372,6 +342,36 @@ api_specs:
   slug: runai-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-workspaces-api-openapi.yml
+- filename: runai-audit-logs-api-openapi.yml
+  format: yaml
+  label: NVIDIA Run:ai Audit Logs API
+  slug: runai-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-audit-logs-api-openapi.yml
+- filename: runai-data-sources-api-openapi.yml
+  format: yaml
+  label: NVIDIA Run:ai Data Sources API
+  slug: runai-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-data-sources-api-openapi.yml
+- filename: runai-data-volumes-api-openapi.yml
+  format: yaml
+  label: NVIDIA Run:ai Data Volumes API
+  slug: runai-data-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-data-volumes-api-openapi.yml
+- filename: runai-node-pools-api-openapi.yml
+  format: yaml
+  label: NVIDIA Run:ai Node Pools API
+  slug: runai-node-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-node-pools-api-openapi.yml
+- filename: runai-notification-channels-api-openapi.yml
+  format: yaml
+  label: NVIDIA Run:ai Notification Channels API
+  slug: runai-notification-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/runai-notification-channels-api-openapi.yml
 description: ''
 domains:
 - caa: []

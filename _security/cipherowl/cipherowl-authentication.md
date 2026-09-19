@@ -10,13 +10,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-onchain-service-api-openapi.yml
 - filename: cipherowl-private-data-api-api-openapi.yml
   format: yaml
-  label: CipherOwl Private Data API API
+  label: CipherOwl Private Data API
   slug: cipherowl-private-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-private-data-api-api-openapi.yml
 - filename: cipherowl-srr-api-api-openapi.yml
   format: yaml
-  label: CipherOwl SRR API API
+  label: CipherOwl SRR API
   slug: cipherowl-srr-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/openapi/cipherowl-srr-api-api-openapi.yml

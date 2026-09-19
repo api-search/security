@@ -2,48 +2,90 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: dealogic-analytics-spac-v2-openapi.json
-  format: json
-  label: Dealogic Analytics SPAC API
-  slug: dealogic-analytics-spac-api
+- filename: dealogic-admin-api-openapi.yml
+  format: yaml
+  label: Dealogic Admin API
+  slug: dealogic-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-analytics-spac-v2-openapi.json
-- filename: dealogic-analytics-bank-openapi.json
-  format: json
-  label: Dealogic Analytics Bank API
-  slug: dealogic-analytics-bank-api
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-admin-api-openapi.yml
+- filename: dealogic-data-api-openapi.yml
+  format: yaml
+  label: Dealogic Data API
+  slug: dealogic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-analytics-bank-openapi.json
-- filename: dealogic-analytics-company-openapi.json
-  format: json
-  label: Dealogic Analytics Company API
-  slug: dealogic-analytics-company-api
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-data-api-openapi.yml
+- filename: dealogic-dcmdeal-api-openapi.yml
+  format: yaml
+  label: Dealogic Dcm Deal API
+  slug: dealogic-dcmdeal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-analytics-company-openapi.json
-- filename: dealogic-analytics-sponsor-openapi.json
-  format: json
-  label: Dealogic Analytics Sponsor API
-  slug: dealogic-analytics-sponsor-api
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-dcmdeal-api-openapi.yml
+- filename: dealogic-entity-navigation-api-openapi.yml
+  format: yaml
+  label: Dealogic Entity Navigation API
+  slug: dealogic-entity-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-analytics-sponsor-openapi.json
-- filename: dealogic-reporting-openapi.json
-  format: json
-  label: Dealogic Reporting API
-  slug: dealogic-reporting-api
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-entity-navigation-api-openapi.yml
+- filename: dealogic-levfinmarketupdate-api-openapi.yml
+  format: yaml
+  label: Dealogic Levfin Market Update API
+  slug: dealogic-levfinmarketupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-reporting-openapi.json
-- filename: dealogic-cortex-reporting-openapi.json
-  format: json
-  label: Cortex Reporting API
-  slug: cortex-reporting-api
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-levfinmarketupdate-api-openapi.yml
+- filename: dealogic-loandeal-api-openapi.yml
+  format: yaml
+  label: Dealogic Loan Deal API
+  slug: dealogic-loandeal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-cortex-reporting-openapi.json
-- filename: dealogic-iona-profiles-openapi.json
-  format: json
-  label: IONA Profiles API
-  slug: iona-profiles-api
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-loandeal-api-openapi.yml
+- filename: dealogic-organizationspacprofile-api-openapi.yml
+  format: yaml
+  label: Dealogic Organization Spac Profile API
+  slug: dealogic-organizationspacprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-iona-profiles-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-organizationspacprofile-api-openapi.yml
+- filename: dealogic-related-entities-api-openapi.yml
+  format: yaml
+  label: Dealogic Related Entities API
+  slug: dealogic-related-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-related-entities-api-openapi.yml
+- filename: dealogic-reportdata-api-openapi.yml
+  format: yaml
+  label: Dealogic Report Data API
+  slug: dealogic-reportdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-reportdata-api-openapi.yml
+- filename: dealogic-root-entity-api-openapi.yml
+  format: yaml
+  label: Dealogic Root Entity API
+  slug: dealogic-root-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-root-entity-api-openapi.yml
+- filename: dealogic-spac-admin-api-openapi.yml
+  format: yaml
+  label: Dealogic Spac Admin API
+  slug: dealogic-spac-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-spac-admin-api-openapi.yml
+- filename: dealogic-spac-reader-api-openapi.yml
+  format: yaml
+  label: Dealogic Spac Reader API
+  slug: dealogic-spac-reader-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-spac-reader-api-openapi.yml
+- filename: dealogic-spac-writer-api-openapi.yml
+  format: yaml
+  label: Dealogic Spac Writer API
+  slug: dealogic-spac-writer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-spac-writer-api-openapi.yml
+- filename: dealogic-test-api-openapi.yml
+  format: yaml
+  label: Dealogic Test API
+  slug: dealogic-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-test-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

@@ -1,59 +1,23 @@
 ---
 api_specs:
-- filename: vantage-sh-accessgrants-api-openapi.yml
-  format: yaml
-  label: Vantage AccessGrants API
-  slug: vantage-sh-accessgrants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-accessgrants-api-openapi.yml
-- filename: vantage-sh-anomalyalerts-api-openapi.yml
-  format: yaml
-  label: Vantage AnomalyAlerts API
-  slug: vantage-sh-anomalyalerts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-anomalyalerts-api-openapi.yml
 - filename: vantage-sh-anomalynotifications-api-openapi.yml
   format: yaml
   label: Vantage AnomalyNotifications API
   slug: vantage-sh-anomalynotifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-anomalynotifications-api-openapi.yml
-- filename: vantage-sh-auditlogs-api-openapi.yml
-  format: yaml
-  label: Vantage AuditLogs API
-  slug: vantage-sh-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-auditlogs-api-openapi.yml
-- filename: vantage-sh-billingprofiles-api-openapi.yml
-  format: yaml
-  label: Vantage BillingProfiles API
-  slug: vantage-sh-billingprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-billingprofiles-api-openapi.yml
 - filename: vantage-sh-billingrules-api-openapi.yml
   format: yaml
   label: Vantage BillingRules API
   slug: vantage-sh-billingrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-billingrules-api-openapi.yml
-- filename: vantage-sh-budgetalerts-api-openapi.yml
-  format: yaml
-  label: Vantage BudgetAlerts API
-  slug: vantage-sh-budgetalerts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-budgetalerts-api-openapi.yml
 - filename: vantage-sh-budgets-api-openapi.yml
   format: yaml
   label: Vantage Budgets API
   slug: vantage-sh-budgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-budgets-api-openapi.yml
-- filename: vantage-sh-businessmetrics-api-openapi.yml
-  format: yaml
-  label: Vantage BusinessMetrics API
-  slug: vantage-sh-businessmetrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-businessmetrics-api-openapi.yml
 - filename: vantage-sh-canvases-api-openapi.yml
   format: yaml
   label: Vantage Canvases API
@@ -102,24 +66,6 @@ api_specs:
   slug: vantage-sh-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-dashboards-api-openapi.yml
-- filename: vantage-sh-dataexports-api-openapi.yml
-  format: yaml
-  label: Vantage DataExports API
-  slug: vantage-sh-dataexports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-dataexports-api-openapi.yml
-- filename: vantage-sh-exchangerates-api-openapi.yml
-  format: yaml
-  label: Vantage ExchangeRates API
-  slug: vantage-sh-exchangerates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-exchangerates-api-openapi.yml
-- filename: vantage-sh-financialcommitmentreports-api-openapi.yml
-  format: yaml
-  label: Vantage FinancialCommitmentReports API
-  slug: vantage-sh-financialcommitmentreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-financialcommitmentreports-api-openapi.yml
 - filename: vantage-sh-financialcommitments-api-openapi.yml
   format: yaml
   label: Vantage FinancialCommitments API
@@ -150,24 +96,12 @@ api_specs:
   slug: vantage-sh-kubernetesefficiencyreports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-kubernetesefficiencyreports-api-openapi.yml
-- filename: vantage-sh-managedaccounts-api-openapi.yml
-  format: yaml
-  label: Vantage ManagedAccounts API
-  slug: vantage-sh-managedaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-managedaccounts-api-openapi.yml
 - filename: vantage-sh-me-api-openapi.yml
   format: yaml
   label: Vantage Me API
   slug: vantage-sh-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-me-api-openapi.yml
-- filename: vantage-sh-networkflowreports-api-openapi.yml
-  format: yaml
-  label: Vantage NetworkFlowReports API
-  slug: vantage-sh-networkflowreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-networkflowreports-api-openapi.yml
 - filename: vantage-sh-ping-api-openapi.yml
   format: yaml
   label: Vantage Ping API
@@ -198,24 +132,12 @@ api_specs:
   slug: vantage-sh-reportnotifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-reportnotifications-api-openapi.yml
-- filename: vantage-sh-resourcereports-api-openapi.yml
-  format: yaml
-  label: Vantage ResourceReports API
-  slug: vantage-sh-resourcereports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-resourcereports-api-openapi.yml
 - filename: vantage-sh-resources-api-openapi.yml
   format: yaml
   label: Vantage Resources API
   slug: vantage-sh-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-resources-api-openapi.yml
-- filename: vantage-sh-savedfilters-api-openapi.yml
-  format: yaml
-  label: Vantage SavedFilters API
-  slug: vantage-sh-savedfilters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-savedfilters-api-openapi.yml
 - filename: vantage-sh-segments-api-openapi.yml
   format: yaml
   label: Vantage Segments API
@@ -240,30 +162,108 @@ api_specs:
   slug: vantage-sh-unitcosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-unitcosts-api-openapi.yml
-- filename: vantage-sh-userfeedback-api-openapi.yml
-  format: yaml
-  label: Vantage UserFeedback API
-  slug: vantage-sh-userfeedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-userfeedback-api-openapi.yml
 - filename: vantage-sh-users-api-openapi.yml
   format: yaml
   label: Vantage Users API
   slug: vantage-sh-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-users-api-openapi.yml
-- filename: vantage-sh-virtualtags-api-openapi.yml
-  format: yaml
-  label: Vantage VirtualTags API
-  slug: vantage-sh-virtualtags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-virtualtags-api-openapi.yml
 - filename: vantage-sh-workspaces-api-openapi.yml
   format: yaml
   label: Vantage Workspaces API
   slug: vantage-sh-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-workspaces-api-openapi.yml
+- filename: vantage-sh-access-grants-api-openapi.yml
+  format: yaml
+  label: Vantage Access Grants API
+  slug: vantage-sh-access-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-access-grants-api-openapi.yml
+- filename: vantage-sh-anomaly-alerts-api-openapi.yml
+  format: yaml
+  label: Vantage Anomaly Alerts API
+  slug: vantage-sh-anomaly-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-anomaly-alerts-api-openapi.yml
+- filename: vantage-sh-audit-logs-api-openapi.yml
+  format: yaml
+  label: Vantage Audit Logs API
+  slug: vantage-sh-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-audit-logs-api-openapi.yml
+- filename: vantage-sh-billing-profiles-api-openapi.yml
+  format: yaml
+  label: Vantage Billing Profiles API
+  slug: vantage-sh-billing-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-billing-profiles-api-openapi.yml
+- filename: vantage-sh-budget-alerts-api-openapi.yml
+  format: yaml
+  label: Vantage Budget Alerts API
+  slug: vantage-sh-budget-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-budget-alerts-api-openapi.yml
+- filename: vantage-sh-business-metrics-api-openapi.yml
+  format: yaml
+  label: Vantage Business Metrics API
+  slug: vantage-sh-business-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-business-metrics-api-openapi.yml
+- filename: vantage-sh-data-exports-api-openapi.yml
+  format: yaml
+  label: Vantage Data Exports API
+  slug: vantage-sh-data-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-data-exports-api-openapi.yml
+- filename: vantage-sh-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Vantage Exchange Rates API
+  slug: vantage-sh-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-exchange-rates-api-openapi.yml
+- filename: vantage-sh-financial-commitment-reports-api-openapi.yml
+  format: yaml
+  label: Vantage Financial Commitment Reports API
+  slug: vantage-sh-financial-commitment-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-financial-commitment-reports-api-openapi.yml
+- filename: vantage-sh-managed-accounts-api-openapi.yml
+  format: yaml
+  label: Vantage Managed Accounts API
+  slug: vantage-sh-managed-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-managed-accounts-api-openapi.yml
+- filename: vantage-sh-network-flow-reports-api-openapi.yml
+  format: yaml
+  label: Vantage Network Flow Reports API
+  slug: vantage-sh-network-flow-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-network-flow-reports-api-openapi.yml
+- filename: vantage-sh-resource-reports-api-openapi.yml
+  format: yaml
+  label: Vantage Resource Reports API
+  slug: vantage-sh-resource-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-resource-reports-api-openapi.yml
+- filename: vantage-sh-saved-filters-api-openapi.yml
+  format: yaml
+  label: Vantage Saved Filters API
+  slug: vantage-sh-saved-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-saved-filters-api-openapi.yml
+- filename: vantage-sh-user-feedback-api-openapi.yml
+  format: yaml
+  label: Vantage User Feedback API
+  slug: vantage-sh-user-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-user-feedback-api-openapi.yml
+- filename: vantage-sh-virtual-tags-api-openapi.yml
+  format: yaml
+  label: Vantage Virtual Tags API
+  slug: vantage-sh-virtual-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/openapi/vantage-sh-virtual-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

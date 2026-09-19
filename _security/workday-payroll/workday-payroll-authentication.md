@@ -58,19 +58,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payment-results-api-openapi.yml
 - filename: workday-payroll-payroll-adjustments-api-openapi.yml
   format: yaml
-  label: Workday Payroll Payroll Adjustments API
+  label: Workday Payroll Adjustments API
   slug: workday-payroll-payroll-adjustments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-adjustments-api-openapi.yml
 - filename: workday-payroll-payroll-calculations-api-openapi.yml
   format: yaml
-  label: Workday Payroll Payroll Calculations API
+  label: Workday Payroll Calculations API
   slug: workday-payroll-payroll-calculations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-calculations-api-openapi.yml
 - filename: workday-payroll-payroll-summaries-api-openapi.yml
   format: yaml
-  label: Workday Payroll Payroll Summaries API
+  label: Workday Payroll Summaries API
   slug: workday-payroll-payroll-summaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-summaries-api-openapi.yml

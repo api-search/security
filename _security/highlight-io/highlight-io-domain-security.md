@@ -24,12 +24,6 @@ api_specs:
   slug: highlight-io-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-traces-api-openapi.yml
-- filename: highlight-io-webhooks-api-openapi.yml
-  format: yaml
-  label: Highlight (highlight.io) Webhooks API
-  slug: highlight-io-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

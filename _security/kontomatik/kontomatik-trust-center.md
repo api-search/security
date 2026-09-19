@@ -72,12 +72,6 @@ api_specs:
   slug: kontomatik-score-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/openapi/kontomatik-score-api-openapi.yml
-- filename: kontomatik-signin-api-openapi.yml
-  format: yaml
-  label: Kontomatik SignIn API
-  slug: kontomatik-signin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/openapi/kontomatik-signin-api-openapi.yml
 - filename: kontomatik-statements-api-openapi.yml
   format: yaml
   label: Kontomatik Statements API
@@ -96,6 +90,12 @@ api_specs:
   slug: kontomatik-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/openapi/kontomatik-vendors-api-openapi.yml
+- filename: kontomatik-sign-in-api-openapi.yml
+  format: yaml
+  label: Kontomatik Sign In API
+  slug: kontomatik-sign-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/openapi/kontomatik-sign-in-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001

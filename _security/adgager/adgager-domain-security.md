@@ -44,7 +44,7 @@ tags:
 - Company
 - Market Research
 - Consumer Insights
-- Survey
+- Surveys
 - Advertising
 - Advertising Effectiveness
 - Brand Measurement

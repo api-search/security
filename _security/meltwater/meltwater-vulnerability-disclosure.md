@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-streaming-api-openapi.yml
 - filename: meltwater-mira-api-api-openapi.yml
   format: yaml
-  label: Meltwater Mira API API
+  label: Meltwater Mira API
   slug: meltwater-mira-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-mira-api-api-openapi.yml

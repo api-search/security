@@ -22,12 +22,6 @@ api_specs:
   slug: opticodds-injuries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-injuries-api-openapi.yml
-- filename: opticodds-reference-api-openapi.yml
-  format: yaml
-  label: OpticOdds Reference API
-  slug: opticodds-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-reference-api-openapi.yml
 - filename: opticodds-results-api-openapi.yml
   format: yaml
   label: OpticOdds Results API

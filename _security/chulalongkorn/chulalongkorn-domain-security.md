@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: chulalongkorn-sso-openapi.yml
+- filename: chulalongkorn-authentication-api-openapi.yml
   format: yaml
-  label: Chula SSO Authentication API
-  slug: sso
+  label: Chulalongkorn University Authentication API
+  slug: chulalongkorn-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-sso-openapi.yml
-- filename: chulalongkorn-course-schedule-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-authentication-api-openapi.yml
+- filename: chulalongkorn-curriculum-api-openapi.yml
   format: yaml
-  label: CU-REG Course Schedule API
-  slug: course-schedule
+  label: Chulalongkorn University Curriculum API
+  slug: chulalongkorn-curriculum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-course-schedule-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-curriculum-api-openapi.yml
+- filename: chulalongkorn-meta-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Meta API
+  slug: chulalongkorn-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-meta-api-openapi.yml
+- filename: chulalongkorn-validation-api-openapi.yml
+  format: yaml
+  label: Chulalongkorn University Validation API
+  slug: chulalongkorn-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/openapi/chulalongkorn-validation-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +73,7 @@ tags:
 - Thailand
 - Bangkok
 - Identity Federation
-- Single Sign-On
+- SSO
 - Course Catalog
 - Research Repository
 - Library

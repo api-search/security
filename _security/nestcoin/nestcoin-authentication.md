@@ -18,7 +18,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-auth-userauth-api-openapi.yml
 - filename: nestcoin-exchange-external-api-api-openapi.yml
   format: yaml
-  label: Nestcoin exchange-external-api API
+  label: Nestcoin exchange-external-api
   slug: nestcoin-exchange-external-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-exchange-external-api-api-openapi.yml

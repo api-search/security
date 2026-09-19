@@ -2,19 +2,19 @@
 api_specs:
 - filename: writer-file-api-api-openapi.yml
   format: yaml
-  label: Writer File API API
+  label: Writer File API
   slug: writer-file-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-file-api-api-openapi.yml
 - filename: writer-generation-api-api-openapi.yml
   format: yaml
-  label: Writer Generation API API
+  label: Writer Generation API
   slug: writer-generation-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-generation-api-api-openapi.yml
 - filename: writer-kg-api-api-openapi.yml
   format: yaml
-  label: Writer KG API API
+  label: Writer KG API
   slug: writer-kg-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-kg-api-api-openapi.yml
@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-template-api-openapi.yml
 - filename: writer-tools-api-api-openapi.yml
   format: yaml
-  label: Writer Tools API API
+  label: Writer Tools API
   slug: writer-tools-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-tools-api-api-openapi.yml

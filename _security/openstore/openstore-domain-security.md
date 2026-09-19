@@ -31,7 +31,7 @@ tags:
 - E-Commerce
 - Shopify
 - Direct to Consumer
-- Acquisitions
+- Acquisition
 - Retail
 - Holding Company
 ---

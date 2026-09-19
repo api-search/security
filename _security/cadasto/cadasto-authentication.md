@@ -2,54 +2,144 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cadasto-ehr-api-openapi.json
-  format: json
-  label: Cadasto EHR API
-  slug: cadasto-ehr-api
+- filename: cadasto-adl1-4-api-openapi.yml
+  format: yaml
+  label: Cadasto ADL1.4 API
+  slug: cadasto-adl1-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-ehr-api-openapi.json
-- filename: cadasto-query-api-openapi.json
-  format: json
-  label: Cadasto Query API (AQL)
-  slug: cadasto-query-api-aql
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-adl1-4-api-openapi.yml
+- filename: cadasto-adl2-api-openapi.yml
+  format: yaml
+  label: Cadasto ADL2 API
+  slug: cadasto-adl2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-query-api-openapi.json
-- filename: cadasto-definition-api-openapi.json
-  format: json
-  label: Cadasto Definition API
-  slug: cadasto-definition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-definition-api-openapi.json
-- filename: cadasto-demographic-api-openapi.json
-  format: json
-  label: Cadasto Demographic API
-  slug: cadasto-demographic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-demographic-api-openapi.json
-- filename: cadasto-admin-api-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-adl2-api-openapi.yml
+- filename: cadasto-admin-api-openapi.yml
+  format: yaml
   label: Cadasto Admin API
   slug: cadasto-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-admin-api-openapi.json
-- filename: cadasto-system-api-openapi.json
-  format: json
-  label: Cadasto System API
-  slug: cadasto-system-api
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-admin-api-openapi.yml
+- filename: cadasto-agent-api-openapi.yml
+  format: yaml
+  label: Cadasto AGENT API
+  slug: cadasto-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-system-api-openapi.json
-- filename: cadasto-extra-api-openapi.json
-  format: json
-  label: Cadasto Additional API
-  slug: cadasto-additional-api
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-agent-api-openapi.yml
+- filename: cadasto-composition-api-openapi.yml
+  format: yaml
+  label: Cadasto COMPOSITION API
+  slug: cadasto-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-extra-api-openapi.json
-- filename: cadasto-smart-on-openehr-openapi.json
-  format: json
-  label: Cadasto SMART on openEHR
-  slug: cadasto-smart-on-openehr
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-composition-api-openapi.yml
+- filename: cadasto-contribution-api-openapi.yml
+  format: yaml
+  label: Cadasto CONTRIBUTION API
+  slug: cadasto-contribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-smart-on-openehr-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-contribution-api-openapi.yml
+- filename: cadasto-datamap-definition-api-openapi.yml
+  format: yaml
+  label: Cadasto Datamap Definition API
+  slug: cadasto-datamap-definition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-datamap-definition-api-openapi.yml
+- filename: cadasto-datamap-query-api-openapi.yml
+  format: yaml
+  label: Cadasto Datamap Query API
+  slug: cadasto-datamap-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-datamap-query-api-openapi.yml
+- filename: cadasto-directory-api-openapi.yml
+  format: yaml
+  label: Cadasto DIRECTORY API
+  slug: cadasto-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-directory-api-openapi.yml
+- filename: cadasto-ehr-api-openapi.yml
+  format: yaml
+  label: Cadasto EHR API
+  slug: cadasto-ehr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-ehr-api-openapi.yml
+- filename: cadasto-ehr-status-api-openapi.yml
+  format: yaml
+  label: Cadasto EHR STATUS API
+  slug: cadasto-ehr-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-ehr-status-api-openapi.yml
+- filename: cadasto-episode-api-openapi.yml
+  format: yaml
+  label: Cadasto Episode API
+  slug: cadasto-episode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-episode-api-openapi.yml
+- filename: cadasto-group-api-openapi.yml
+  format: yaml
+  label: Cadasto GROUP API
+  slug: cadasto-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-group-api-openapi.yml
+- filename: cadasto-health-api-openapi.yml
+  format: yaml
+  label: Cadasto Health API
+  slug: cadasto-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-health-api-openapi.yml
+- filename: cadasto-item-tag-api-openapi.yml
+  format: yaml
+  label: Cadasto ITEM TAG API
+  slug: cadasto-item-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-item-tag-api-openapi.yml
+- filename: cadasto-options-api-openapi.yml
+  format: yaml
+  label: Cadasto Options API
+  slug: cadasto-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-options-api-openapi.yml
+- filename: cadasto-organisation-api-openapi.yml
+  format: yaml
+  label: Cadasto ORGANISATION API
+  slug: cadasto-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-organisation-api-openapi.yml
+- filename: cadasto-person-api-openapi.yml
+  format: yaml
+  label: Cadasto PERSON API
+  slug: cadasto-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-person-api-openapi.yml
+- filename: cadasto-query-api-openapi.yml
+  format: yaml
+  label: Cadasto Query API
+  slug: cadasto-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-query-api-openapi.yml
+- filename: cadasto-role-api-openapi.yml
+  format: yaml
+  label: Cadasto ROLE API
+  slug: cadasto-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-role-api-openapi.yml
+- filename: cadasto-terminology-api-openapi.yml
+  format: yaml
+  label: Cadasto Terminology API
+  slug: cadasto-terminology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-terminology-api-openapi.yml
+- filename: cadasto-user-api-openapi.yml
+  format: yaml
+  label: Cadasto User API
+  slug: cadasto-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-user-api-openapi.yml
+- filename: cadasto-versioned-party-api-openapi.yml
+  format: yaml
+  label: Cadasto VERSIONED PARTY API
+  slug: cadasto-versioned-party-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/openapi/cadasto-versioned-party-api-openapi.yml
 auth_types:
 - oauth2
 - http

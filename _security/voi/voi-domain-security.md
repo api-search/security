@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Micromobility
-- E-Scooters
+- E-Scooter
 - E-Bikes
 - Mobility As A Service
 - Transportation

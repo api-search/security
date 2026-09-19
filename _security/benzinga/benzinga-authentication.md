@@ -9,12 +9,6 @@ api_specs:
   slug: benzinga-newsfeed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/openapi/benzinga-news-api-openapi.yml
-- filename: benzinga-press-releases-api-openapi.yml
-  format: yaml
-  label: Benzinga Press Releases API
-  slug: benzinga-press-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/openapi/benzinga-press-releases-api-openapi.yml
 - filename: benzinga-ticker-trends-api-openapi.yml
   format: yaml
   label: Benzinga Ticker Trends API

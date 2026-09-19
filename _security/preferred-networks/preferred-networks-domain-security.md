@@ -49,7 +49,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - LLM Inference
 - Foundation Models

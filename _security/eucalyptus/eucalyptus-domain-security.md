@@ -33,7 +33,6 @@ tags:
 - Health Tech
 - Telehealth
 - Digital Health
-- Telemedicine
 - Weight Management
 - Women's Health
 - Men's Health

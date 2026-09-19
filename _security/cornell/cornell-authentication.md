@@ -2,12 +2,6 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: cornell-class-roster-api-openapi.yml
-  format: yaml
-  label: Cornell Class Roster API
-  slug: class-roster
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-class-roster-api-openapi.yml
 - filename: cornell-library-catalog-api-openapi.yml
   format: yaml
   label: Cornell University Library Catalog Search API
@@ -20,6 +14,18 @@ api_specs:
   slug: cornell-cugir-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-cugir-api-openapi.yml
+- filename: cornell-config-api-openapi.yml
+  format: yaml
+  label: Cornell University Config API
+  slug: cornell-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-config-api-openapi.yml
+- filename: cornell-search-api-openapi.yml
+  format: yaml
+  label: Cornell University Search API
+  slug: cornell-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-search-api-openapi.yml
 auth_types:
 - none
 - apiKey

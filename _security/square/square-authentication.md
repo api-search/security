@@ -3,18 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: square-applepay-api-openapi.yml
-  format: yaml
-  label: Square ApplePay API
-  slug: square-applepay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-applepay-api-openapi.yml
-- filename: square-bankaccounts-api-openapi.yml
-  format: yaml
-  label: Square BankAccounts API
-  slug: square-bankaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-bankaccounts-api-openapi.yml
 - filename: square-bookingcustomattributes-api-openapi.yml
   format: yaml
   label: Square BookingCustomAttributes API
@@ -33,12 +21,6 @@ api_specs:
   slug: square-cards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-cards-api-openapi.yml
-- filename: square-cashdrawers-api-openapi.yml
-  format: yaml
-  label: Square CashDrawers API
-  slug: square-cashdrawers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-cashdrawers-api-openapi.yml
 - filename: square-catalog-api-openapi.yml
   format: yaml
   label: Square Catalog API
@@ -57,24 +39,12 @@ api_specs:
   slug: square-customercustomattributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-customercustomattributes-api-openapi.yml
-- filename: square-customergroups-api-openapi.yml
-  format: yaml
-  label: Square CustomerGroups API
-  slug: square-customergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-customergroups-api-openapi.yml
 - filename: square-customers-api-openapi.yml
   format: yaml
   label: Square Customers API
   slug: square-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-customers-api-openapi.yml
-- filename: square-customersegments-api-openapi.yml
-  format: yaml
-  label: Square CustomerSegments API
-  slug: square-customersegments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-customersegments-api-openapi.yml
 - filename: square-devices-api-openapi.yml
   format: yaml
   label: Square Devices API
@@ -105,12 +75,6 @@ api_specs:
   slug: square-giftcardactivities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-giftcardactivities-api-openapi.yml
-- filename: square-giftcards-api-openapi.yml
-  format: yaml
-  label: Square GiftCards API
-  slug: square-giftcards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-giftcards-api-openapi.yml
 - filename: square-inventory-api-openapi.yml
   format: yaml
   label: Square Inventory API
@@ -165,12 +129,6 @@ api_specs:
   slug: square-mobileauthorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-mobileauthorization-api-openapi.yml
-- filename: square-oauth-api-openapi.yml
-  format: yaml
-  label: Square OAuth API
-  slug: square-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-oauth-api-openapi.yml
 - filename: square-ordercustomattributes-api-openapi.yml
   format: yaml
   label: Square OrderCustomAttributes API
@@ -249,12 +207,54 @@ api_specs:
   slug: square-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-vendors-api-openapi.yml
-- filename: square-webhooksubscriptions-api-openapi.yml
+- filename: square-oauth-api-openapi.yml
   format: yaml
-  label: Square WebhookSubscriptions API
-  slug: square-webhooksubscriptions-api
+  label: Square O Auth API
+  slug: square-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-webhooksubscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-oauth-api-openapi.yml
+- filename: square-apple-pay-api-openapi.yml
+  format: yaml
+  label: Square Apple Pay API
+  slug: square-apple-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-apple-pay-api-openapi.yml
+- filename: square-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Square Bank Accounts API
+  slug: square-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-bank-accounts-api-openapi.yml
+- filename: square-cash-drawers-api-openapi.yml
+  format: yaml
+  label: Square Cash Drawers API
+  slug: square-cash-drawers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-cash-drawers-api-openapi.yml
+- filename: square-customer-groups-api-openapi.yml
+  format: yaml
+  label: Square Customer Groups API
+  slug: square-customer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-customer-groups-api-openapi.yml
+- filename: square-customer-segments-api-openapi.yml
+  format: yaml
+  label: Square Customer Segments API
+  slug: square-customer-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-customer-segments-api-openapi.yml
+- filename: square-gift-cards-api-openapi.yml
+  format: yaml
+  label: Square Gift Cards API
+  slug: square-gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-gift-cards-api-openapi.yml
+- filename: square-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Square Webhook Subscriptions API
+  slug: square-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-webhook-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -296,7 +296,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/square/refs/he
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Restaurant
-- Bookings
+- Booking
 - Catalog
 - Checkout
 - Customers
@@ -307,7 +307,7 @@ tags:
 - Inventory
 - Invoicing
 - Labor
-- Locations
+- Location
 - Loyalty
 - Merchants
 - Order

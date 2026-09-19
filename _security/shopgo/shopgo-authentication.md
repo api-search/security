@@ -80,7 +80,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - E-Commerce
-- Online Stores
+- Online Store
 - Payments
 - Shipping
 - Software-as-a-Service

@@ -72,12 +72,6 @@ api_specs:
   slug: salesforce-experience-cloud-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-folders-api-openapi.yml
-- filename: salesforce-experience-cloud-graphql-api-openapi.yml
-  format: yaml
-  label: Salesforce Experience Cloud GraphQL API
-  slug: salesforce-experience-cloud-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-graphql-api-openapi.yml
 - filename: salesforce-experience-cloud-knowledge-api-openapi.yml
   format: yaml
   label: Salesforce Experience Cloud Knowledge API
@@ -180,12 +174,6 @@ api_specs:
   slug: salesforce-experience-cloud-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-sites-api-openapi.yml
-- filename: salesforce-experience-cloud-sobjects-api-openapi.yml
-  format: yaml
-  label: Salesforce Experience Cloud sObjects API
-  slug: salesforce-experience-cloud-sobjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-sobjects-api-openapi.yml
 - filename: salesforce-experience-cloud-templates-api-openapi.yml
   format: yaml
   label: Salesforce Experience Cloud Templates API
@@ -210,6 +198,18 @@ api_specs:
   slug: salesforce-experience-cloud-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-versions-api-openapi.yml
+- filename: salesforce-experience-cloud-graph-ql-api-openapi.yml
+  format: yaml
+  label: Salesforce Experience Cloud Graph QL API
+  slug: salesforce-experience-cloud-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-graph-ql-api-openapi.yml
+- filename: salesforce-experience-cloud-s-objects-api-openapi.yml
+  format: yaml
+  label: Salesforce Experience Cloud s Objects API
+  slug: salesforce-experience-cloud-s-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-s-objects-api-openapi.yml
 description: ''
 domains:
 - caa: []

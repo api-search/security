@@ -89,6 +89,6 @@ tags:
 - Video
 - WebRTC
 - Live Streaming
-- Real-Time Communications
+- Real-Time Communication
 - CPaaS
 ---

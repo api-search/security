@@ -32,12 +32,6 @@ api_specs:
   slug: treasuryspring-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-events-api-openapi.yml
-- filename: treasuryspring-healthcheck-api-openapi.yml
-  format: yaml
-  label: TreasurySpring Healthcheck API
-  slug: treasuryspring-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-healthcheck-api-openapi.yml
 - filename: treasuryspring-holdings-api-openapi.yml
   format: yaml
   label: TreasurySpring Holdings API
@@ -50,12 +44,6 @@ api_specs:
   slug: treasuryspring-indications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-indications-api-openapi.yml
-- filename: treasuryspring-oauth-api-openapi.yml
-  format: yaml
-  label: TreasurySpring OAuth API
-  slug: treasuryspring-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-oauth-api-openapi.yml
 - filename: treasuryspring-obligor-exposure-api-openapi.yml
   format: yaml
   label: TreasurySpring Obligor Exposure API
@@ -80,6 +68,18 @@ api_specs:
   slug: treasuryspring-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-webhooks-api-openapi.yml
+- filename: treasuryspring-oauth-api-openapi.yml
+  format: yaml
+  label: TreasurySpring O Auth API
+  slug: treasuryspring-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-oauth-api-openapi.yml
+- filename: treasuryspring-health-check-api-openapi.yml
+  format: yaml
+  label: TreasurySpring Health Check API
+  slug: treasuryspring-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/openapi/treasuryspring-health-check-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -120,7 +120,7 @@ tags:
 - Fintech
 - Cash Management
 - Treasury
-- Investments
+- Investment
 - Financial-Services
 - Fixed Term Funds
 - Payments

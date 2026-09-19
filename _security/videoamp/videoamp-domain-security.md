@@ -36,12 +36,6 @@ api_specs:
   slug: videoamp-currency-of-record-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-currency-of-record-api-openapi.yml
-- filename: videoamp-datastreams-api-openapi.yml
-  format: yaml
-  label: VideoAmp Data Streams API
-  slug: videoamp-datastreams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-datastreams-api-openapi.yml
 - filename: videoamp-datastreamtypes-api-openapi.yml
   format: yaml
   label: VideoAmp Data Stream Types API
@@ -84,6 +78,12 @@ api_specs:
   slug: videoamp-shares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-shares-api-openapi.yml
+- filename: videoamp-data-streams-api-openapi.yml
+  format: yaml
+  label: VideoAmp Data Streams API
+  slug: videoamp-data-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-data-streams-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -34,7 +34,7 @@ tags:
 - OpenTelemetry
 - Observability
 - Telemetry
-- Collector
+- Collectors
 - Rust
 - Serverless
 - AWS Lambda

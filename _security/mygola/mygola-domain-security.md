@@ -29,5 +29,5 @@ tags:
 - Company
 - Travel
 - Trip Planning
-- Startup
+- Startups
 ---

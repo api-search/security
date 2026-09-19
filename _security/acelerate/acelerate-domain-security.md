@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acelerate/refs/heads/main/security/acelerate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Restaurants
+- Restaurant
 - Restaurant Technology
 - Food Service
 - Hospitality
@@ -49,7 +49,7 @@ tags:
 - Supply Chain
 - Procurement
 - Foodservice Distribution
-- SaaS
+- Software-as-a-Service
 - United States
 - Company
 ---

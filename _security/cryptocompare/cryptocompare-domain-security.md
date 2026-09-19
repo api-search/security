@@ -66,12 +66,6 @@ api_specs:
   slug: cryptocompare-options-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-options-api-openapi.yml
-- filename: cryptocompare-order-book-api-openapi.yml
-  format: yaml
-  label: CryptoCompare Order Book API
-  slug: cryptocompare-order-book-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-order-book-api-openapi.yml
 - filename: cryptocompare-overview-api-openapi.yml
   format: yaml
   label: CryptoCompare Overview API
@@ -102,6 +96,12 @@ api_specs:
   slug: cryptocompare-top-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-top-lists-api-openapi.yml
+- filename: cryptocompare-orderbook-api-openapi.yml
+  format: yaml
+  label: CryptoCompare Orderbook API
+  slug: cryptocompare-orderbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/openapi/cryptocompare-orderbook-api-openapi.yml
 description: ''
 domains:
 - caa: []

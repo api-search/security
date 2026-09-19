@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: cloudrf-3d-api-openapi.yml
-  format: yaml
-  label: CloudRF 3D API
-  slug: cloudrf-3d-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-3d-api-openapi.yml
 - filename: cloudrf-account-api-openapi.yml
   format: yaml
   label: CloudRF Account API
@@ -45,6 +39,12 @@ api_specs:
   slug: cloudrf-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-template-api-openapi.yml
+- filename: cloudrf-3-d-api-openapi.yml
+  format: yaml
+  label: CloudRF 3 D API
+  slug: cloudrf-3-d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-3-d-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

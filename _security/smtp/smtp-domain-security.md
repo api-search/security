@@ -36,6 +36,6 @@ tags:
 - Internet Standards
 - IETF
 - Messaging
-- Protocols
+- Protocol
 - RFC 5321
 ---

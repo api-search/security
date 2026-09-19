@@ -24,12 +24,6 @@ api_specs:
   slug: have-i-been-pwned-breaches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breaches-api-openapi.yml
-- filename: have-i-been-pwned-dataclasses-api-openapi.yml
-  format: yaml
-  label: Have I Been Pwned Dataclasses API
-  slug: have-i-been-pwned-dataclasses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-dataclasses-api-openapi.yml
 - filename: have-i-been-pwned-domainverification-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Domainverification API

@@ -112,7 +112,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-profile-api-openapi.yml
 - filename: quantum-art-qaas-backend-api-api-openapi.yml
   format: yaml
-  label: Quantum Art QaaS Backend API API
+  label: Quantum Art QaaS Backend API
   slug: quantum-art-qaas-backend-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-qaas-backend-api-api-openapi.yml

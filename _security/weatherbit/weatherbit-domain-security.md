@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/openapi/weatherbit-daily-historical-weather-data-api-openapi.yml
 - filename: weatherbit-forecast-degree-day-api-api-openapi.yml
   format: yaml
-  label: Weatherbit Forecast Degree Day API API
+  label: Weatherbit Forecast Degree Day API
   slug: weatherbit-forecast-degree-day-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/openapi/weatherbit-forecast-degree-day-api-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/openapi/weatherbit-historical-air-quality-api-openapi.yml
 - filename: weatherbit-historical-degree-day-api-api-openapi.yml
   format: yaml
-  label: Weatherbit Historical Degree Day API API
+  label: Weatherbit Historical Degree Day API
   slug: weatherbit-historical-degree-day-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/openapi/weatherbit-historical-degree-day-api-api-openapi.yml

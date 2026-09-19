@@ -230,8 +230,8 @@ tags:
 - Training
 - Onboarding
 - LMS
-- Assessments
-- Certifications
+- Assessment
+- Certification
 - Coaching
 - Go-To-Market
 - SCIM

@@ -28,5 +28,6 @@ tags:
 - NetSuite
 - SaaS Management
 - AI Agents
+- Developer Tools
 trust_url: https://www.salto.io/security-overview
 ---

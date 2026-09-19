@@ -36,7 +36,7 @@ tags:
 - Education
 - EdTech
 - K-12
-- Large Language Models
+- LLM
 - Voice Assistant
 - Classroom Technology
 - Machine-Learning

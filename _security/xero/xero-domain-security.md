@@ -12,12 +12,6 @@ api_specs:
   slug: xero-asset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-asset-api-openapi.yml
-- filename: xero-bankfeeds-api-openapi.yml
-  format: yaml
-  label: Xero BankFeeds API
-  slug: xero-bankfeeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bankfeeds-api-openapi.yml
 - filename: xero-files-api-openapi.yml
   format: yaml
   label: Xero Files API
@@ -60,6 +54,12 @@ api_specs:
   slug: xero-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-project-api-openapi.yml
+- filename: xero-bank-feeds-api-openapi.yml
+  format: yaml
+  label: Xero Bank Feeds API
+  slug: xero-bank-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bank-feeds-api-openapi.yml
 description: ''
 domains:
 - caa: []

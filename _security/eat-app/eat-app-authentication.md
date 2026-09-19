@@ -77,7 +77,7 @@ tags:
 - Reservations
 - Table Management
 - Hospitality
-- Bookings
+- Booking
 - Guest CRM
 - Availability
 ---

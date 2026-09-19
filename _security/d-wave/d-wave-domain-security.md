@@ -12,12 +12,6 @@ api_specs:
   slug: d-wave-hybrid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-hybrid-api-openapi.yml
-- filename: d-wave-qpu-api-openapi.yml
-  format: yaml
-  label: D-Wave QPU API
-  slug: d-wave-qpu-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-qpu-api-openapi.yml
 - filename: d-wave-regions-api-openapi.yml
   format: yaml
   label: D-Wave Regions API

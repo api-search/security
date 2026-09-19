@@ -42,12 +42,6 @@ api_specs:
   slug: coperniq-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-calls-api-openapi.yml
-- filename: coperniq-catalogitems-api-openapi.yml
-  format: yaml
-  label: Coperniq catalogItems API
-  slug: coperniq-catalogitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-catalogitems-api-openapi.yml
 - filename: coperniq-contacts-api-openapi.yml
   format: yaml
   label: Coperniq contacts API
@@ -66,12 +60,6 @@ api_specs:
   slug: coperniq-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-forms-api-openapi.yml
-- filename: coperniq-formtemplates-api-openapi.yml
-  format: yaml
-  label: Coperniq formTemplates API
-  slug: coperniq-formtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-formtemplates-api-openapi.yml
 - filename: coperniq-invoices-api-openapi.yml
   format: yaml
   label: Coperniq invoices API
@@ -84,12 +72,6 @@ api_specs:
   slug: coperniq-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-labels-api-openapi.yml
-- filename: coperniq-lineitems-api-openapi.yml
-  format: yaml
-  label: Coperniq lineItems API
-  slug: coperniq-lineitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-lineitems-api-openapi.yml
 - filename: coperniq-notes-api-openapi.yml
   format: yaml
   label: Coperniq notes API
@@ -162,12 +144,30 @@ api_specs:
   slug: coperniq-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-workflows-api-openapi.yml
-- filename: coperniq-workorders-api-openapi.yml
+- filename: coperniq-catalog-items-api-openapi.yml
   format: yaml
-  label: Coperniq workOrders API
-  slug: coperniq-workorders-api
+  label: Coperniq Catalog Items API
+  slug: coperniq-catalog-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-workorders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-catalog-items-api-openapi.yml
+- filename: coperniq-form-templates-api-openapi.yml
+  format: yaml
+  label: Coperniq Form Templates API
+  slug: coperniq-form-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-form-templates-api-openapi.yml
+- filename: coperniq-line-items-api-openapi.yml
+  format: yaml
+  label: Coperniq Line Items API
+  slug: coperniq-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-line-items-api-openapi.yml
+- filename: coperniq-work-orders-api-openapi.yml
+  format: yaml
+  label: Coperniq Work Orders API
+  slug: coperniq-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-work-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

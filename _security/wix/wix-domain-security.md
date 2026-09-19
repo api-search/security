@@ -18,12 +18,6 @@ api_specs:
   slug: wix-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-checkout-api-openapi.yml
-- filename: wix-oauth-api-openapi.yml
-  format: yaml
-  label: Wix OAuth API
-  slug: wix-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-oauth-api-openapi.yml
 - filename: wix-orders-api-openapi.yml
   format: yaml
   label: Wix Orders API
@@ -36,6 +30,12 @@ api_specs:
   slug: wix-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-products-api-openapi.yml
+- filename: wix-oauth-api-openapi.yml
+  format: yaml
+  label: Wix O Auth API
+  slug: wix-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

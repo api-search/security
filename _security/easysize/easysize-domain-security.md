@@ -49,6 +49,6 @@ tags:
 - Retail
 - Shopify
 - Personalization
-- Widget
+- Widgets
 - JavaScript
 ---

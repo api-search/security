@@ -18,12 +18,6 @@ api_specs:
   slug: sevdesk-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-contact-api-openapi.yml
-- filename: sevdesk-creditnote-api-openapi.yml
-  format: yaml
-  label: sevdesk CreditNote API
-  slug: sevdesk-creditnote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-creditnote-api-openapi.yml
 - filename: sevdesk-invoice-api-openapi.yml
   format: yaml
   label: sevdesk Invoice API
@@ -54,6 +48,12 @@ api_specs:
   slug: sevdesk-voucher-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-voucher-api-openapi.yml
+- filename: sevdesk-credit-note-api-openapi.yml
+  format: yaml
+  label: sevdesk Credit Note API
+  slug: sevdesk-credit-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-credit-note-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,23 +1,35 @@
 ---
 api_specs:
-- filename: university-of-southampton-open-data-linked-data-openapi.yml
+- filename: university-of-southampton-catalogue-api-openapi.yml
   format: yaml
-  label: University of Southampton Open Data Service (Linked Data)
-  slug: open-data-linked-data
+  label: University of Southampton Catalogue API
+  slug: university-of-southampton-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-open-data-linked-data-openapi.yml
-- filename: university-of-southampton-eprints-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-catalogue-api-openapi.yml
+- filename: university-of-southampton-datasets-api-openapi.yml
   format: yaml
-  label: ePrints Soton OAI-PMH Interface
-  slug: eprints-oai-pmh
+  label: University of Southampton Datasets API
+  slug: university-of-southampton-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-oai-pmh-openapi.yml
-- filename: university-of-southampton-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-datasets-api-openapi.yml
+- filename: university-of-southampton-eprints-api-openapi.yml
   format: yaml
-  label: ePrints Soton REST Interface
-  slug: eprints-rest
+  label: University of Southampton Eprints API
+  slug: university-of-southampton-eprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-api-openapi.yml
+- filename: university-of-southampton-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Southampton OAI PMH API
+  slug: university-of-southampton-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-oai-pmh-api-openapi.yml
+- filename: university-of-southampton-resources-api-openapi.yml
+  format: yaml
+  label: University of Southampton Resources API
+  slug: university-of-southampton-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-resources-api-openapi.yml
 description: ''
 domains:
 - caa: []

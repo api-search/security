@@ -34,7 +34,7 @@ tags:
 - Learning
 - Leadership Development
 - Corporate Training
-- HR Tech
+- Human Resources
 - AI Coaching
 - Simulation
 - Software-as-a-Service

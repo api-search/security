@@ -21,12 +21,6 @@ api_specs:
   slug: searchcraft-federation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-federation-api-openapi.yml
-- filename: searchcraft-healthcheck-api-openapi.yml
-  format: yaml
-  label: Searchcraft Healthcheck API
-  slug: searchcraft-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-healthcheck-api-openapi.yml
 - filename: searchcraft-indexes-api-openapi.yml
   format: yaml
   label: Searchcraft Indexes API
@@ -63,6 +57,12 @@ api_specs:
   slug: searchcraft-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-transactions-api-openapi.yml
+- filename: searchcraft-health-check-api-openapi.yml
+  format: yaml
+  label: Searchcraft Health Check API
+  slug: searchcraft-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-health-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

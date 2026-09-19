@@ -73,18 +73,30 @@ schemes:
   name: basicAuth
   scheme: basic
   sources:
-  - openapi/drupal-jsonapi-openapi.yml
-  - openapi/drupal-rest-api-openapi.yml
+  - openapi/drupal-comments-api-openapi.yml
+  - openapi/drupal-files-api-openapi.yml
+  - openapi/drupal-node-articles-api-openapi.yml
+  - openapi/drupal-node-pages-api-openapi.yml
+  - openapi/drupal-nodes-api-openapi.yml
+  - openapi/drupal-taxonomy-terms-api-openapi.yml
+  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml
+  - openapi/drupal-users-api-openapi.yml
   type: http
-- description: Cookie-based session authentication obtained via Drupal login.
+- description: Cookie-based session authentication obtained via Drupal login. The session cookie is returned after a successful login request.
   in: cookie
   name: cookieAuth
   parameter: SESS
   sources:
-  - openapi/drupal-jsonapi-openapi.yml
-  - openapi/drupal-rest-api-openapi.yml
+  - openapi/drupal-comments-api-openapi.yml
+  - openapi/drupal-files-api-openapi.yml
+  - openapi/drupal-node-articles-api-openapi.yml
+  - openapi/drupal-node-pages-api-openapi.yml
+  - openapi/drupal-nodes-api-openapi.yml
+  - openapi/drupal-taxonomy-terms-api-openapi.yml
+  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml
+  - openapi/drupal-users-api-openapi.yml
   type: apiKey
-- description: OAuth 2.0 via the Simple OAuth module.
+- description: OAuth 2.0 authentication via the Simple OAuth module.
   flows:
   - authorizationUrl: https://example.com/oauth/authorize
     flow: authorizationCode
@@ -92,16 +104,33 @@ schemes:
     tokenUrl: https://example.com/oauth/token
   name: oAuth2
   sources:
-  - openapi/drupal-jsonapi-openapi.yml
-  - openapi/drupal-rest-api-openapi.yml
+  - openapi/drupal-comments-api-openapi.yml
+  - openapi/drupal-files-api-openapi.yml
+  - openapi/drupal-node-articles-api-openapi.yml
+  - openapi/drupal-node-pages-api-openapi.yml
+  - openapi/drupal-nodes-api-openapi.yml
+  - openapi/drupal-taxonomy-terms-api-openapi.yml
+  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml
+  - openapi/drupal-users-api-openapi.yml
   type: oauth2
 slug: drupal-authentication
 source_filename: drupal-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/drupal-jsonapi-openapi.yml, openapi/drupal-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - cookie\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using Drupal username and password.\n  sources:\n  - openapi/drupal-jsonapi-openapi.yml\n  - openapi/drupal-rest-api-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: SESS\n  description: Cookie-based session authentication obtained via Drupal login.\n  sources:\n  - openapi/drupal-jsonapi-openapi.yml\n  - openapi/drupal-rest-api-openapi.yml\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n    scopes: 2\n  description: OAuth 2.0 via the Simple OAuth module.\n  sources:\n  - openapi/drupal-jsonapi-openapi.yml\n\
-  \  - openapi/drupal-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/drupal-comments-api-openapi.yml, openapi/drupal-files-api-openapi.yml, openapi/drupal-node-articles-api-openapi.yml,\n  openapi/drupal-node-pages-api-openapi.yml, openapi/drupal-nodes-api-openapi.yml, openapi/drupal-taxonomy-terms-api-openapi.yml,\n  openapi/drupal-taxonomy-vocabularies-api-openapi.yml, openapi/drupal-users-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - cookie\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using Drupal username and password.\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n\
+  \  - openapi/drupal-users-api-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: SESS\n  description: Cookie-based session authentication obtained via Drupal login. The session cookie\n    is returned after a successful login request.\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n  - openapi/drupal-users-api-openapi.yml\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n    scopes: 2\n  description: OAuth 2.0 authentication via the Simple OAuth module.\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n\
+  \  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n  - openapi/drupal-users-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/authentication/drupal-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
-tags: []
+tags:
+- Content Management
+- CMS
+- Open-Source
+- JSON:API
+- GraphQL
+- Headless
+- PHP
+- Self-Hosted
+- Publishing
+- Digital Experience
 ---

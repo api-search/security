@@ -68,12 +68,6 @@ api_specs:
   slug: pydantic-ai-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-members-api-openapi.yml
-- filename: pydantic-ai-oauth-api-openapi.yml
-  format: yaml
-  label: PydanticAI OAuth API
-  slug: pydantic-ai-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-oauth-api-openapi.yml
 - filename: pydantic-ai-organizations-api-openapi.yml
   format: yaml
   label: PydanticAI Organizations API
@@ -104,6 +98,12 @@ api_specs:
   slug: pydantic-ai-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-variables-api-openapi.yml
+- filename: pydantic-ai-oauth-api-openapi.yml
+  format: yaml
+  label: PydanticAI O Auth API
+  slug: pydantic-ai-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -10,24 +10,12 @@ api_specs:
   slug: ordo-account-data-client-hosted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-client-hosted-api-openapi.yml
-- filename: ordo-account-data-ordo-hosted-api-openapi.yml
-  format: yaml
-  label: Ordo Account Data - Ordo Hosted API
-  slug: ordo-account-data-ordo-hosted-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-ordo-hosted-api-openapi.yml
 - filename: ordo-account-verification-client-hosted-api-openapi.yml
   format: yaml
   label: Ordo Account Verification - Client Hosted API
   slug: ordo-account-verification-client-hosted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-verification-client-hosted-api-openapi.yml
-- filename: ordo-account-verification-ordo-hosted-api-openapi.yml
-  format: yaml
-  label: Ordo Account Verification - Ordo Hosted API
-  slug: ordo-account-verification-ordo-hosted-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-verification-ordo-hosted-api-openapi.yml
 - filename: ordo-bank-accounts-api-openapi.yml
   format: yaml
   label: Ordo Bank accounts API
@@ -48,7 +36,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-create-a-mandate-api-openapi.yml
 - filename: ordo-ordo-hosted-api-openapi.yml
   format: yaml
-  label: Ordo Ordo hosted API
+  label: Ordo hosted API
   slug: ordo-ordo-hosted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-ordo-hosted-api-openapi.yml

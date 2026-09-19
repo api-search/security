@@ -77,7 +77,7 @@ tags:
 - Chatbots
 - Conversational AI
 - Generative AI
-- Large Language Models
+- LLM
 - Machine-Learning
 - Natural Language Processing
 ---

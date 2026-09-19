@@ -25,7 +25,6 @@ tags:
 - Health
 - Healthcare
 - Digital Health
-- Telemedicine
 - Telehealth
 - Second Opinion
 - Medical Records

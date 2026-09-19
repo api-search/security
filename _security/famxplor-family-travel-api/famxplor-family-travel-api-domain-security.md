@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: famxplor-family-travel-api-openapi.yml
+- filename: famxplor-family-travel-api-activities-api-openapi.yml
   format: yaml
-  label: Famxplor Family Travel API
-  slug: famxplor-family-travel-api
+  label: Famxplor Family Travel API Activities API
+  slug: famxplor-family-travel-api-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-activities-api-openapi.yml
+- filename: famxplor-family-travel-api-nearest-activities-api-openapi.yml
+  format: yaml
+  label: Famxplor Family Travel API Nearest Activities API
+  slug: famxplor-family-travel-api-nearest-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-nearest-activities-api-openapi.yml
+- filename: famxplor-family-travel-api-nearest-posts-api-openapi.yml
+  format: yaml
+  label: Famxplor Family Travel API Nearest Posts API
+  slug: famxplor-family-travel-api-nearest-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-nearest-posts-api-openapi.yml
+- filename: famxplor-family-travel-api-travel-time-api-openapi.yml
+  format: yaml
+  label: Famxplor Family Travel API Travel Time API
+  slug: famxplor-family-travel-api-travel-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-travel-time-api-openapi.yml
 description: ''
 domains:
 - caa: []

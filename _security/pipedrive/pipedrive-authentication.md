@@ -15,12 +15,6 @@ api_specs:
   slug: pipedrive-activityfields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-activityfields-api-openapi.yml
-- filename: pipedrive-activitytypes-api-openapi.yml
-  format: yaml
-  label: Pipedrive ActivityTypes API
-  slug: pipedrive-activitytypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-activitytypes-api-openapi.yml
 - filename: pipedrive-beta-api-openapi.yml
   format: yaml
   label: Pipedrive Beta API
@@ -33,12 +27,6 @@ api_specs:
   slug: pipedrive-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-billing-api-openapi.yml
-- filename: pipedrive-calllogs-api-openapi.yml
-  format: yaml
-  label: Pipedrive CallLogs API
-  slug: pipedrive-calllogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-calllogs-api-openapi.yml
 - filename: pipedrive-channels-api-openapi.yml
   format: yaml
   label: Pipedrive Channels API
@@ -99,12 +87,6 @@ api_specs:
   slug: pipedrive-itemsearch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-itemsearch-api-openapi.yml
-- filename: pipedrive-leadfields-api-openapi.yml
-  format: yaml
-  label: Pipedrive LeadFields API
-  slug: pipedrive-leadfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-leadfields-api-openapi.yml
 - filename: pipedrive-leadlabels-api-openapi.yml
   format: yaml
   label: Pipedrive LeadLabels API
@@ -117,12 +99,6 @@ api_specs:
   slug: pipedrive-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-leads-api-openapi.yml
-- filename: pipedrive-leadsources-api-openapi.yml
-  format: yaml
-  label: Pipedrive LeadSources API
-  slug: pipedrive-leadsources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-leadsources-api-openapi.yml
 - filename: pipedrive-legacyteams-api-openapi.yml
   format: yaml
   label: Pipedrive LegacyTeams API
@@ -153,18 +129,6 @@ api_specs:
   slug: pipedrive-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-notes-api-openapi.yml
-- filename: pipedrive-oauth-api-openapi.yml
-  format: yaml
-  label: Pipedrive Oauth API
-  slug: pipedrive-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-oauth-api-openapi.yml
-- filename: pipedrive-organizationfields-api-openapi.yml
-  format: yaml
-  label: Pipedrive OrganizationFields API
-  slug: pipedrive-organizationfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-organizationfields-api-openapi.yml
 - filename: pipedrive-organizationrelationships-api-openapi.yml
   format: yaml
   label: Pipedrive OrganizationRelationships API
@@ -177,12 +141,6 @@ api_specs:
   slug: pipedrive-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-organizations-api-openapi.yml
-- filename: pipedrive-permissionsets-api-openapi.yml
-  format: yaml
-  label: Pipedrive PermissionSets API
-  slug: pipedrive-permissionsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-permissionsets-api-openapi.yml
 - filename: pipedrive-personfields-api-openapi.yml
   format: yaml
   label: Pipedrive PersonFields API
@@ -201,12 +159,6 @@ api_specs:
   slug: pipedrive-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-pipelines-api-openapi.yml
-- filename: pipedrive-productfields-api-openapi.yml
-  format: yaml
-  label: Pipedrive ProductFields API
-  slug: pipedrive-productfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-productfields-api-openapi.yml
 - filename: pipedrive-products-api-openapi.yml
   format: yaml
   label: Pipedrive Products API
@@ -225,24 +177,12 @@ api_specs:
   slug: pipedrive-projectfields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-projectfields-api-openapi.yml
-- filename: pipedrive-projectphases-api-openapi.yml
-  format: yaml
-  label: Pipedrive ProjectPhases API
-  slug: pipedrive-projectphases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-projectphases-api-openapi.yml
 - filename: pipedrive-projects-api-openapi.yml
   format: yaml
   label: Pipedrive Projects API
   slug: pipedrive-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-projects-api-openapi.yml
-- filename: pipedrive-projecttemplates-api-openapi.yml
-  format: yaml
-  label: Pipedrive ProjectTemplates API
-  slug: pipedrive-projecttemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-projecttemplates-api-openapi.yml
 - filename: pipedrive-recents-api-openapi.yml
   format: yaml
   label: Pipedrive Recents API
@@ -279,18 +219,78 @@ api_specs:
   slug: pipedrive-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-users-api-openapi.yml
-- filename: pipedrive-usersettings-api-openapi.yml
-  format: yaml
-  label: Pipedrive UserSettings API
-  slug: pipedrive-usersettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-usersettings-api-openapi.yml
 - filename: pipedrive-webhooks-api-openapi.yml
   format: yaml
   label: Pipedrive Webhooks API
   slug: pipedrive-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-webhooks-api-openapi.yml
+- filename: pipedrive-oauth-api-openapi.yml
+  format: yaml
+  label: Pipedrive OAUTH API
+  slug: pipedrive-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-oauth-api-openapi.yml
+- filename: pipedrive-activity-types-api-openapi.yml
+  format: yaml
+  label: Pipedrive Activity Types API
+  slug: pipedrive-activity-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-activity-types-api-openapi.yml
+- filename: pipedrive-call-logs-api-openapi.yml
+  format: yaml
+  label: Pipedrive Call Logs API
+  slug: pipedrive-call-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-call-logs-api-openapi.yml
+- filename: pipedrive-lead-fields-api-openapi.yml
+  format: yaml
+  label: Pipedrive Lead Fields API
+  slug: pipedrive-lead-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-lead-fields-api-openapi.yml
+- filename: pipedrive-lead-sources-api-openapi.yml
+  format: yaml
+  label: Pipedrive Lead Sources API
+  slug: pipedrive-lead-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-lead-sources-api-openapi.yml
+- filename: pipedrive-organization-fields-api-openapi.yml
+  format: yaml
+  label: Pipedrive Organization Fields API
+  slug: pipedrive-organization-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-organization-fields-api-openapi.yml
+- filename: pipedrive-permission-sets-api-openapi.yml
+  format: yaml
+  label: Pipedrive Permission Sets API
+  slug: pipedrive-permission-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-permission-sets-api-openapi.yml
+- filename: pipedrive-product-fields-api-openapi.yml
+  format: yaml
+  label: Pipedrive Product Fields API
+  slug: pipedrive-product-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-product-fields-api-openapi.yml
+- filename: pipedrive-project-phases-api-openapi.yml
+  format: yaml
+  label: Pipedrive Project Phases API
+  slug: pipedrive-project-phases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-project-phases-api-openapi.yml
+- filename: pipedrive-project-templates-api-openapi.yml
+  format: yaml
+  label: Pipedrive Project Templates API
+  slug: pipedrive-project-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-project-templates-api-openapi.yml
+- filename: pipedrive-user-settings-api-openapi.yml
+  format: yaml
+  label: Pipedrive User Settings API
+  slug: pipedrive-user-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/openapi/pipedrive-user-settings-api-openapi.yml
 auth_types:
 - apiKey
 - http

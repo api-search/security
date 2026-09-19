@@ -34,7 +34,7 @@ tags:
 - Automotive
 - Electric Vehicles
 - EV
-- Connected Cars
+- Connected Car
 - Premium Vehicles
 - Sustainability
 - Battery Electric

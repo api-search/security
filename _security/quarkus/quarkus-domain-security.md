@@ -24,12 +24,12 @@ api_specs:
   slug: quarkus-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-metrics-api-openapi.yml
-- filename: quarkus-openapi-api-openapi.yml
+- filename: quarkus-open-api-api-openapi.yml
   format: yaml
-  label: Quarkus OpenAPI API
-  slug: quarkus-openapi-api
+  label: Quarkus Open API
+  slug: quarkus-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-openapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-open-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - GraalVM
 - Java
 - Kubernetes

@@ -29,7 +29,7 @@ tags:
 - Conversational AI
 - Agentic AI
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Customer Service
 - Contact Center

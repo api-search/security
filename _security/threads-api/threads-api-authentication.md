@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threads-api/re
 summary_line: http · 2 schemes
 tags:
 - Social
-- Social Networks
+- Social Network
 - Meta
 - Publishing
 - Media

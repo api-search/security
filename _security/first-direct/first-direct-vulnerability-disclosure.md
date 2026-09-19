@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-ccc-api-openapi.yml
 - filename: first-direct-direct-debits-api-openapi.yml
   format: yaml
-  label: first direct Direct Debits API
+  label: first direct Debits API
   slug: first-direct-direct-debits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-direct-debits-api-openapi.yml

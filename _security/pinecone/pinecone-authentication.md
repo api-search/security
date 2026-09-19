@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pinecone
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/authentication/pinecone-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Vector Databases
+- Vector Database
 - Artificial Intelligence
 - Embeddings
 - RAG

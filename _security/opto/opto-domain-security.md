@@ -34,7 +34,7 @@ tags:
 - Company
 - Private Markets
 - Wealth Management
-- Investments
+- Investment
 - Fintech
 - Alternative Investments
 - Private Equity

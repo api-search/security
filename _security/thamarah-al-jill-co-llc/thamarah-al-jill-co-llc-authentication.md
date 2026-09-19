@@ -56,7 +56,7 @@ tags:
 - Luxury
 - Resale
 - Fashion
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - Saudi Arabia
 ---

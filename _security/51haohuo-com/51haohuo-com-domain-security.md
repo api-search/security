@@ -38,5 +38,5 @@ tags:
 - Workforce Management
 - Talent Services
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 ---

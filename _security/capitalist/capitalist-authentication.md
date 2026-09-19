@@ -2,18 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: capitalist-integration-api-openapi.json
-  format: json
-  label: Capitalist API
-  slug: capitalist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-integration-api-openapi.json
 - filename: capitalist-capitalist-payments-api-api-openapi.yml
   format: yaml
   label: Capitalist Payments API (v1, deprecated)
   slug: capitalist-capitalist-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-capitalist-payments-api-api-openapi.yml
+- filename: capitalist-account-api-openapi.yml
+  format: yaml
+  label: Capitalist Account API
+  slug: capitalist-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-account-api-openapi.yml
+- filename: capitalist-exchange-api-openapi.yml
+  format: yaml
+  label: Capitalist Exchange API
+  slug: capitalist-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-exchange-api-openapi.yml
+- filename: capitalist-payment-api-openapi.yml
+  format: yaml
+  label: Capitalist Payment API
+  slug: capitalist-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-payment-api-openapi.yml
+- filename: capitalist-rate-api-openapi.yml
+  format: yaml
+  label: Capitalist Rate API
+  slug: capitalist-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-rate-api-openapi.yml
 auth_types: []
 description: 'Capitalist runs two authentication models side by side. The current Integration API (v2, https://api2.capitalist.net) uses a three-header signed-request scheme: an API key, a millisecond epoch timestamp, and a SHA-256 hex signature over the timestamp, the raw request body and the API secret. The deprecated v1 API (https://api.capitalist.net) authenticates with the account login plus either a plain password, an encrypted password or a certificate signature carried as form fields. Neither surface uses OAuth, and no /.well-known/openid-configuration or oauth-authorization-server document is served on any Capitalist host (all probed 404 on 2026-09-05).'
 kind: authentication
@@ -49,5 +67,5 @@ tags:
 - Payment Platform
 - Payments
 - Payouts
-- Remittance
+- Remittances
 ---

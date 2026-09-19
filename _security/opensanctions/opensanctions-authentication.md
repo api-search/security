@@ -3,12 +3,30 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: opensanctions-api-openapi.yml
+- filename: opensanctions-data-access-api-openapi.yml
   format: yaml
-  label: OpenSanctions Screening API
-  slug: opensanctions-screening-api
+  label: OpenSanctions Data access API
+  slug: opensanctions-data-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-data-access-api-openapi.yml
+- filename: opensanctions-matching-api-openapi.yml
+  format: yaml
+  label: OpenSanctions Matching API
+  slug: opensanctions-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-matching-api-openapi.yml
+- filename: opensanctions-reconciliation-api-openapi.yml
+  format: yaml
+  label: OpenSanctions Reconciliation API
+  slug: opensanctions-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-reconciliation-api-openapi.yml
+- filename: opensanctions-system-information-api-openapi.yml
+  format: yaml
+  label: OpenSanctions System information API
+  slug: opensanctions-system-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-system-information-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +66,7 @@ tags:
 - Politically Exposed Persons
 - Compliance
 - Financial Crime
-- Know Your Customer
+- KYC
 - Entity Resolution
 - Open Data
 - Risk Data

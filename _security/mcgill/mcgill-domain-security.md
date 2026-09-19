@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: mcgill-shibboleth-idp-openapi.yml
+- filename: mcgill-metadata-api-openapi.yml
   format: yaml
-  label: McGill University Authentication Service — Shibboleth SAML 2.0 Identity Provider
-  slug: shibboleth-idp
+  label: McGill University Metadata API
+  slug: mcgill-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-shibboleth-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-metadata-api-openapi.yml
+- filename: mcgill-sso-api-openapi.yml
+  format: yaml
+  label: McGill University SSO API
+  slug: mcgill-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-sso-api-openapi.yml
+- filename: mcgill-status-api-openapi.yml
+  format: yaml
+  label: McGill University Status API
+  slug: mcgill-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

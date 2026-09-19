@@ -71,7 +71,7 @@ tags:
 - Security
 - AI Security
 - Authentication
-- Audit Log
+- Audit Logs
 - Data Protection
 trust_url: https://trust.pangea.cloud/
 ---

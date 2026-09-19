@@ -33,6 +33,6 @@ tags:
 - Graph Database
 - ISO Standard
 - Query Language
-- Standard
+- Standards
 - Property Graph
 ---

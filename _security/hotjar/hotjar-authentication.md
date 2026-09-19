@@ -54,5 +54,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hotjar-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from the OAuth token endpoint using client credentials\n    grant.\n  sources:\n  - openapi/hotjar-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/authentication/hotjar-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Analytics
+- Surveys
+- Tracking
+- Personalization
+- Segmentation
 ---

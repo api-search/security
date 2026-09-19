@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smoobu-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/authentication/smoobu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Channel Manager
 - Property Management
 - Short-Term Rental

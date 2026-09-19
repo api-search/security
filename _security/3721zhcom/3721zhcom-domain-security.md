@@ -33,7 +33,7 @@ tags:
 - Company
 - E-Commerce
 - Retail
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Loyalty
 - Supply Chain

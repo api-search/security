@@ -56,5 +56,5 @@ tags:
 - E-Commerce
 - Retail
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 ---

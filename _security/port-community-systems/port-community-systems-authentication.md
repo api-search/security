@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community
 summary_line: oauth2 · 1 scheme
 tags:
 - Maritime
-- Port
+- Ports
 - Logistics
 - Customs
 - Cargo

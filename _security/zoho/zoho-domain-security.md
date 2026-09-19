@@ -96,12 +96,6 @@ api_specs:
   slug: zoho-agenttimeentry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-agenttimeentry-api-openapi.yml
-- filename: zoho-apis-api-openapi.yml
-  format: yaml
-  label: Zoho APIS API
-  slug: zoho-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-apis-api-openapi.yml
 - filename: zoho-appointments-s-api-openapi.yml
   format: yaml
   label: Zoho Appointments S API
@@ -216,18 +210,6 @@ api_specs:
   slug: zoho-bulk-import-synchronous-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-bulk-import-synchronous-api-openapi.yml
-- filename: zoho-bulkimport-api-openapi.yml
-  format: yaml
-  label: Zoho Bulk Import API
-  slug: zoho-bulkimport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-bulkimport-api-openapi.yml
-- filename: zoho-businesshour-api-openapi.yml
-  format: yaml
-  label: Zoho Business Hour API
-  slug: zoho-businesshour-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-businesshour-api-openapi.yml
 - filename: zoho-call-api-openapi.yml
   format: yaml
   label: Zoho Call API
@@ -450,12 +432,6 @@ api_specs:
   slug: zoho-emails-sharing-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-emails-sharing-details-api-openapi.yml
-- filename: zoho-emailtemplates-api-openapi.yml
-  format: yaml
-  label: Zoho Email Templates API
-  slug: zoho-emailtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-emailtemplates-api-openapi.yml
 - filename: zoho-embed-apis-api-openapi.yml
   format: yaml
   label: Zoho Embed APIs API
@@ -528,24 +504,12 @@ api_specs:
   slug: zoho-global-picklists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-global-picklists-api-openapi.yml
-- filename: zoho-helpcenter-api-openapi.yml
-  format: yaml
-  label: Zoho Helpcenter API
-  slug: zoho-helpcenter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-helpcenter-api-openapi.yml
 - filename: zoho-helpcentergroups-api-openapi.yml
   format: yaml
   label: Zoho Helpcenter Groups API
   slug: zoho-helpcentergroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-helpcentergroups-api-openapi.yml
-- filename: zoho-holidaylist-api-openapi.yml
-  format: yaml
-  label: Zoho Holiday List API
-  slug: zoho-holidaylist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-holidaylist-api-openapi.yml
 - filename: zoho-holidays-api-openapi.yml
   format: yaml
   label: Zoho Holidays API
@@ -588,12 +552,6 @@ api_specs:
   slug: zoho-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-import-api-openapi.yml
-- filename: zoho-imtemplatemessage-api-openapi.yml
-  format: yaml
-  label: Zoho IM Template Message API
-  slug: zoho-imtemplatemessage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-imtemplatemessage-api-openapi.yml
 - filename: zoho-kbcategory-api-openapi.yml
   format: yaml
   label: Zoho Kb Category API
@@ -768,12 +726,6 @@ api_specs:
   slug: zoho-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-records-api-openapi.yml
-- filename: zoho-recyclebin-api-openapi.yml
-  format: yaml
-  label: Zoho Recyclebin API
-  slug: zoho-recyclebin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-recyclebin-api-openapi.yml
 - filename: zoho-reports-api-openapi.yml
   format: yaml
   label: Zoho Reports API
@@ -876,12 +828,6 @@ api_specs:
   slug: zoho-taskattachment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-taskattachment-api-openapi.yml
-- filename: zoho-taskcomments-api-openapi.yml
-  format: yaml
-  label: Zoho Task Comments API
-  slug: zoho-taskcomments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-taskcomments-api-openapi.yml
 - filename: zoho-tasktimeentry-api-openapi.yml
   format: yaml
   label: Zoho Task Time Entry API
@@ -900,12 +846,6 @@ api_specs:
   slug: zoho-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-team-api-openapi.yml
-- filename: zoho-templatefolders-api-openapi.yml
-  format: yaml
-  label: Zoho Template Folders API
-  slug: zoho-templatefolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-templatefolders-api-openapi.yml
 - filename: zoho-thread-api-openapi.yml
   format: yaml
   label: Zoho Thread API
@@ -978,12 +918,6 @@ api_specs:
   slug: zoho-timeline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-timeline-api-openapi.yml
-- filename: zoho-timetracking-api-openapi.yml
-  format: yaml
-  label: Zoho Time Tracking API
-  slug: zoho-timetracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-timetracking-api-openapi.yml
 - filename: zoho-upload-api-openapi.yml
   format: yaml
   label: Zoho Upload API
@@ -1020,12 +954,6 @@ api_specs:
   slug: zoho-validationrulecriteria-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-validationrulecriteria-api-openapi.yml
-- filename: zoho-validationrules-api-openapi.yml
-  format: yaml
-  label: Zoho Validation Rules API
-  slug: zoho-validationrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-validationrules-api-openapi.yml
 - filename: zoho-webhook-api-openapi.yml
   format: yaml
   label: Zoho Webhook API
@@ -1058,10 +986,76 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-zia-org-enrichment-api-openapi.yml
 - filename: zoho-zoho-crm-related-records-api-api-openapi.yml
   format: yaml
-  label: Zoho Zoho CRM Related Records API
+  label: Zoho CRM Related Records API
   slug: zoho-zoho-crm-related-records-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-zoho-crm-related-records-api-api-openapi.yml
+- filename: zoho-apis-api-openapi.yml
+  format: yaml
+  label: Zoho APIS API
+  slug: zoho-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-apis-api-openapi.yml
+- filename: zoho-bulk-import-api-openapi.yml
+  format: yaml
+  label: Zoho Bulk Import API
+  slug: zoho-bulk-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-bulk-import-api-openapi.yml
+- filename: zoho-business-hour-api-openapi.yml
+  format: yaml
+  label: Zoho Business Hour API
+  slug: zoho-business-hour-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-business-hour-api-openapi.yml
+- filename: zoho-email-templates-api-openapi.yml
+  format: yaml
+  label: Zoho Email Templates API
+  slug: zoho-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-email-templates-api-openapi.yml
+- filename: zoho-help-center-api-openapi.yml
+  format: yaml
+  label: Zoho Help Center API
+  slug: zoho-help-center-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-help-center-api-openapi.yml
+- filename: zoho-holiday-list-api-openapi.yml
+  format: yaml
+  label: Zoho Holiday List API
+  slug: zoho-holiday-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-holiday-list-api-openapi.yml
+- filename: zoho-recycle-bin-api-openapi.yml
+  format: yaml
+  label: Zoho recycle bin API
+  slug: zoho-recycle-bin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-recycle-bin-api-openapi.yml
+- filename: zoho-task-comments-api-openapi.yml
+  format: yaml
+  label: Zoho Task Comments API
+  slug: zoho-task-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-task-comments-api-openapi.yml
+- filename: zoho-template-folders-api-openapi.yml
+  format: yaml
+  label: Zoho Template Folders API
+  slug: zoho-template-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-template-folders-api-openapi.yml
+- filename: zoho-time-tracking-api-openapi.yml
+  format: yaml
+  label: Zoho Time Tracking API
+  slug: zoho-time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-time-tracking-api-openapi.yml
+- filename: zoho-validation-rules-api-openapi.yml
+  format: yaml
+  label: Zoho Validation Rules API
+  slug: zoho-validation-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/openapi/zoho-validation-rules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -1115,4 +1109,5 @@ tags:
 - Finance
 - Human Resources
 - Project Management
+- Zoho
 ---

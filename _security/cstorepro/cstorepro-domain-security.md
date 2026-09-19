@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cstorepro/refs
 summary_line: DMARC
 tags:
 - Company
-- Convenience Store
+- Convenience Stores
 - Retail
 - Point-of-Sale
 - Back Office

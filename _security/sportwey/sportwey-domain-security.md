@@ -33,7 +33,7 @@ tags:
 - Company
 - Sports
 - Tournaments
-- Leagues
+- League
 - Sports Management
 - Software-as-a-Service
 - Facilities

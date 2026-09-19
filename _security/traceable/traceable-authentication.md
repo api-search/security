@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: traceable-graphql-api-openapi.yml
-  format: yaml
-  label: Traceable GraphQL API
-  slug: traceable-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graphql-api-openapi.yml
 - filename: traceable-specifications-api-openapi.yml
   format: yaml
   label: Traceable Specifications API
   slug: traceable-specifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-specifications-api-openapi.yml
+- filename: traceable-graph-ql-api-openapi.yml
+  format: yaml
+  label: Traceable Graph QL API
+  slug: traceable-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -47,6 +47,7 @@ tags:
 - API Protection
 - API Security
 - API Testing
+- Developer Tools
 - Observability
 - Security
 - Threat Detection

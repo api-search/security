@@ -111,7 +111,7 @@ tags:
 - AI Video
 - Digital Humans
 - Talking Head
-- Avatar
+- Avatars
 - Generative AI
 - Video Generation
 - Real-Time Streaming

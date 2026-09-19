@@ -83,6 +83,10 @@ source_yaml: "generated: '2026-07-14'\nmethod: searched\nprobe: false\nsource: h
   \ keywords: [pci dss level 1, service provider, visa global registry, mastercard sdp, saq a]}\n  - {source: https://www.paypal-trustcenter.com/, keywords: [soc 2, trust center, compliance]}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/security/braintree-trust-center.yml
 summary_line: PCI DSS, Visa Global Registry of Service Providers, Mastercard SDP, SOC 2 Type 2
-tags: []
+tags:
+- Payments
+- Transaction
+- Mobile
+- Subscription
 trust_url: https://developer.paypal.com/braintree/articles/risk-and-security/compliance/overview
 ---

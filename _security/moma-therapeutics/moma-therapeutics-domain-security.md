@@ -48,18 +48,18 @@ api_specs:
   slug: moma-therapeutics-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-comments-api-openapi.yml
-- filename: moma-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics oEmbed API
-  slug: moma-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-oembed-api-openapi.yml
 - filename: moma-therapeutics-options-api-openapi.yml
   format: yaml
   label: MOMA Therapeutics Site Options API
   slug: moma-therapeutics-options-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-options-api-openapi.yml
+- filename: moma-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: MOMA Therapeutics o Embed API
+  slug: moma-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

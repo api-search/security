@@ -20,12 +20,6 @@ api_specs:
   slug: belharra-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-media-api-openapi.yml
-- filename: belharra-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Oembed API
-  slug: belharra-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-oembed-api-openapi.yml
 - filename: belharra-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Belharra Therapeutics Pages API
@@ -50,6 +44,12 @@ api_specs:
   slug: belharra-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-taxonomy-api-openapi.yml
+- filename: belharra-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Belharra Therapeutics o Embed API
+  slug: belharra-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

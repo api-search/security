@@ -202,8 +202,8 @@ tags:
 - Machine-Learning
 - MLOps
 - Generative AI
-- Large Language Models
-- Retrieval Augmented Generation
+- LLM
+- RAG
 - Data Science
 - Model Deployment
 - AI Agents

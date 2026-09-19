@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zetagen-therap
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Oncology
 - Bone Health
 - Orthopedics

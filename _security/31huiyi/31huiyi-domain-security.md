@@ -47,14 +47,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/h
 summary_line: TLSv1.2
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Conferences
 - Exhibitions
 - Registration
-- Check-In
+- Check-in
 - Scheduling
 - Ticketing
-- SaaS
+- Software-as-a-Service
 - China
 ---

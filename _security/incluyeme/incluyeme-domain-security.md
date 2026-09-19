@@ -35,7 +35,7 @@ tags:
 - Employment
 - Recruiting
 - Job Board
-- HR Tech
+- Human Resources
 - Accessibility
 - Diversity Equity and Inclusion
 - Social Enterprise

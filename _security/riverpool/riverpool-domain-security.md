@@ -34,6 +34,6 @@ tags:
 - Data
 - Data Stack
 - Data Infrastructure
-- Startup
+- Startups
 - Pre-Launch
 ---

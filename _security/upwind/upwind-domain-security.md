@@ -48,12 +48,6 @@ api_specs:
   slug: upwind-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-packages-api-openapi.yml
-- filename: upwind-shiftleft-api-openapi.yml
-  format: yaml
-  label: Upwind shiftleft API
-  slug: upwind-shiftleft-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-shiftleft-api-openapi.yml
 - filename: upwind-threats-api-openapi.yml
   format: yaml
   label: Upwind threats API
@@ -72,6 +66,12 @@ api_specs:
   slug: upwind-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-workflows-api-openapi.yml
+- filename: upwind-shift-left-api-openapi.yml
+  format: yaml
+  label: Upwind Shift Left API
+  slug: upwind-shift-left-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-shift-left-api-openapi.yml
 description: ''
 domains:
 - caa: []

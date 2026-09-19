@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Australia
-- BNPL
+- Buy Now Pay Later
 - Payment Gateway
 - Checkout
 - Embedded Payments

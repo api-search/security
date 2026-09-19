@@ -112,6 +112,6 @@ tags:
 - Cloud
 - Distribution
 - Information Technology
-- Partner
+- Partners
 - Fortune 500
 ---

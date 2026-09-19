@@ -62,5 +62,4 @@ tags:
 - Payroll
 - Fintech
 - Brazil
-- HR Tech
 ---

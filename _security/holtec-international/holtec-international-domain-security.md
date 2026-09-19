@@ -37,7 +37,7 @@ tags:
 - Nuclear
 - Nuclear Fuel
 - Palisades
-- Reactor
+- Reactors
 - SMR-300
 - Small Modular Reactor
 - Spent Fuel Storage

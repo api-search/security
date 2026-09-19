@@ -33,7 +33,7 @@ tags:
 - Fintech
 - Savings
 - Mutual Funds
-- Investments
+- Investment
 - Lending
 - India
 - Consumer Finance

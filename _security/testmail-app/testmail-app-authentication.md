@@ -3,18 +3,18 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: testmail-app-graphql-api-openapi.yml
-  format: yaml
-  label: Testmail GraphQL API
-  slug: testmail-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/openapi/testmail-app-graphql-api-openapi.yml
 - filename: testmail-app-inbox-api-openapi.yml
   format: yaml
   label: Testmail Inbox API
   slug: testmail-app-inbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/openapi/testmail-app-inbox-api-openapi.yml
+- filename: testmail-app-graph-ql-api-openapi.yml
+  format: yaml
+  label: Testmail Graph QL API
+  slug: testmail-app-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/openapi/testmail-app-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -21,12 +21,6 @@ api_specs:
   slug: amazon-kendra-experience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-experience-api-openapi.yml
-- filename: amazon-kendra-faqs-api-openapi.yml
-  format: yaml
-  label: Amazon Kendra FAQs API
-  slug: amazon-kendra-faqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-faqs-api-openapi.yml
 - filename: amazon-kendra-indexes-api-openapi.yml
   format: yaml
   label: Amazon Kendra Indexes API
@@ -51,6 +45,12 @@ api_specs:
   slug: amazon-kendra-thesaurus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-thesaurus-api-openapi.yml
+- filename: amazon-kendra-faqs-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra FA Qs API
+  slug: amazon-kendra-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-faqs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

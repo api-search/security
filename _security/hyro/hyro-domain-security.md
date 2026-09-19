@@ -43,6 +43,6 @@ tags:
 - AI Agents
 - Healthcare
 - Patient Engagement
-- Customer Communications
+- Customer Communication
 - Voice
 ---

@@ -52,6 +52,6 @@ tags:
 - Landing Zone
 - Multi-Account
 - Security
-- Controls
+- Control
 trust_url: https://aws.amazon.com/compliance/
 ---

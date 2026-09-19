@@ -36,5 +36,5 @@ tags:
 - Hiring
 - Job
 - Tech Talent
-- LatAm
+- Latin America
 ---

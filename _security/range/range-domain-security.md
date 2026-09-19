@@ -37,7 +37,7 @@ tags:
 - Team Collaboration
 - Async Communication
 - Standups
-- Check-ins
+- Check-in
 - Meetings
 - Goals
 - OKRs

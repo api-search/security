@@ -95,10 +95,10 @@ summary_line: http · 1 scheme
 tags:
 - Affiliate Marketing
 - Affiliate Network
-- Commission
+- Commissions
 - Product Search
 - Publishers
-- Advertiser
+- Advertisers
 - GraphQL
 - E-Commerce
 - Product Feeds

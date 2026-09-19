@@ -12,6 +12,18 @@ api_specs:
   slug: azure-container-instances-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-subscriptions-api-openapi.yml
+- filename: azure-container-instances-container-groups-api-openapi.yml
+  format: yaml
+  label: Azure Container Instances Container Groups API
+  slug: microsoft-azure-container-instances-container-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-container-groups-api-openapi.yml
+- filename: azure-container-instances-operations-api-openapi.yml
+  format: yaml
+  label: Azure Container Instances Operations API
+  slug: microsoft-azure-container-instances-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
 description: ''
 domains:
 - caa:

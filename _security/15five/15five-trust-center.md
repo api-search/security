@@ -22,8 +22,7 @@ tags:
 - Performance Management
 - Employee Engagement
 - OKRs
-- Check-ins
-- HR
+- Check-in
 - Human Resources
 - 1-on-1 Meetings
 - Pulse Surveys

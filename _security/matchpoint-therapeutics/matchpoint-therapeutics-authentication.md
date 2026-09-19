@@ -20,12 +20,6 @@ api_specs:
   slug: matchpoint-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-media-api-openapi.yml
-- filename: matchpoint-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Matchpoint Therapeutics Oembed API
-  slug: matchpoint-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-oembed-api-openapi.yml
 - filename: matchpoint-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Matchpoint Therapeutics Pages API
@@ -56,6 +50,12 @@ api_specs:
   slug: matchpoint-therapeutics-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-team-api-openapi.yml
+- filename: matchpoint-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Matchpoint Therapeutics o Embed API
+  slug: matchpoint-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/openapi/matchpoint-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -38,7 +38,7 @@ tags:
 - Consumer
 - Artificial Intelligence
 - AI Companions
-- Mobile Apps
+- Mobile App
 - Social
 - Gaming
 ---

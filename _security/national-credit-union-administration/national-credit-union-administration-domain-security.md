@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-credit-union-administration/refs/heads/main/security/national-credit-union-administration-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Credit Unions
+- Credit Union
 - Federal-Government
 - Finance
 - Banking

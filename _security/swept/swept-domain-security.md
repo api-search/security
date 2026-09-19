@@ -37,7 +37,7 @@ tags:
 - Scheduling
 - Time Tracking
 - Payroll
-- Inspections
+- Inspection
 - Field Service
 - No Public API
 ---

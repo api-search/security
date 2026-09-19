@@ -66,12 +66,6 @@ api_specs:
   slug: jinba-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tools-api-openapi.yml
-- filename: jinba-toolsets-api-openapi.yml
-  format: yaml
-  label: Jinba ToolSets API
-  slug: jinba-toolsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-toolsets-api-openapi.yml
 - filename: jinba-versions-api-openapi.yml
   format: yaml
   label: Jinba Versions API
@@ -84,6 +78,12 @@ api_specs:
   slug: jinba-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-webhooks-api-openapi.yml
+- filename: jinba-tool-sets-api-openapi.yml
+  format: yaml
+  label: Jinba Tool Sets API
+  slug: jinba-tool-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tool-sets-api-openapi.yml
 description: ''
 domains:
 - caa: []

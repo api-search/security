@@ -37,9 +37,9 @@ tags:
 - EVM
 - RISC-V
 - Linux
-- Virtual Machine
+- Virtual Machines
 - Cartesi Machine
-- Rollups
+- Rollup
 - Fraud Proofs
 - DAVE
 - Smart Contracts

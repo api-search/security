@@ -43,7 +43,7 @@ tags:
 - EMR
 - OSCAR EMR
 - SMART on FHIR
-- Telemedicine
+- Telehealth
 - Clinical Workflow Automation
 - Interoperability
 ---

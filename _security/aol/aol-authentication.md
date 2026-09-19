@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: aol-oauth2-api-openapi.yml
-  format: yaml
-  label: AOL OAuth2 API
-  slug: aol-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-oauth2-api-openapi.yml
 - filename: aol-openid-connect-api-openapi.yml
   format: yaml
   label: AOL OpenID Connect API
   slug: aol-openid-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-openid-connect-api-openapi.yml
+- filename: aol-oauth2-api-openapi.yml
+  format: yaml
+  label: AOL O Auth2 API
+  slug: aol-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

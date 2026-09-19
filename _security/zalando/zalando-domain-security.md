@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-cross-border-movements-api-openapi.yml
 - filename: zalando-discovery-api-api-openapi.yml
   format: yaml
-  label: Zalando Discovery API API
+  label: Zalando Discovery API
   slug: zalando-discovery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-discovery-api-api-openapi.yml
@@ -96,12 +96,6 @@ api_specs:
   slug: zalando-returned-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-returned-items-api-openapi.yml
-- filename: zalando-saleschannels-api-openapi.yml
-  format: yaml
-  label: Zalando SalesChannels API
-  slug: zalando-saleschannels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-saleschannels-api-openapi.yml
 - filename: zalando-shipments-api-openapi.yml
   format: yaml
   label: Zalando Shipments API
@@ -120,6 +114,12 @@ api_specs:
   slug: zalando-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-types-api-openapi.yml
+- filename: zalando-sales-channels-api-openapi.yml
+  format: yaml
+  label: Zalando Sales Channels API
+  slug: zalando-sales-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-sales-channels-api-openapi.yml
 description: ''
 domains:
 - caa: []

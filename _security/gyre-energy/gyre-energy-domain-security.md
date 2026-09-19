@@ -36,7 +36,7 @@ tags:
 - Climate Tech
 - Cooling
 - Cold Storage
-- Data Centers
+- Data-Center
 - Thermal Energy Storage
 - Artificial Intelligence
 - Energy Efficiency

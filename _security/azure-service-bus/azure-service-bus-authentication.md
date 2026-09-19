@@ -26,6 +26,12 @@ api_specs:
   slug: azure-service-bus-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-topics-api-openapi.yml
+- filename: azure-service-bus-messages-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Messages API
+  slug: microsoft-azure-service-bus-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-messages-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

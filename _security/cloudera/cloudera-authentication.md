@@ -3,120 +3,120 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: cloudera-audit-openapi.yml
+- filename: cloudera-audit-api-openapi.yml
   format: yaml
-  label: Cloudera Audit Service API
+  label: Cloudera Audit API
   slug: cloudera-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-audit-openapi.yml
-- filename: cloudera-cloudprivatelinks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-audit-api-openapi.yml
+- filename: cloudera-cdflocalrpcapiversion1-api-openapi.yml
   format: yaml
-  label: Cloudera Private Links API
+  label: Cloudera CDF Local RPCAPI Version1 API
+  slug: cloudera-cdflocalrpcapiversion1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-cdflocalrpcapiversion1-api-openapi.yml
+- filename: cloudera-cloudprivatelinks-api-openapi.yml
+  format: yaml
+  label: Cloudera Cloudprivatelinks API
   slug: cloudera-cloudprivatelinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-cloudprivatelinks-openapi.yml
-- filename: cloudera-compute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-cloudprivatelinks-api-openapi.yml
+- filename: cloudera-compute-api-openapi.yml
   format: yaml
-  label: Cloudera Compute Service API
+  label: Cloudera Compute API
   slug: cloudera-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-compute-openapi.yml
-- filename: cloudera-consumption-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-compute-api-openapi.yml
+- filename: cloudera-consumption-api-openapi.yml
   format: yaml
   label: Cloudera Consumption API
   slug: cloudera-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-consumption-openapi.yml
-- filename: cloudera-datacatalog-openapi.yml
-  format: yaml
-  label: Cloudera Data Catalog API
-  slug: cloudera-datacatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-datacatalog-openapi.yml
-- filename: cloudera-datahub-openapi.yml
-  format: yaml
-  label: Cloudera Data Hub API
-  slug: cloudera-datahub-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-datahub-openapi.yml
-- filename: cloudera-datalake-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-consumption-api-openapi.yml
+- filename: cloudera-datalake-api-openapi.yml
   format: yaml
   label: Cloudera Datalake API
   slug: cloudera-datalake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-datalake-openapi.yml
-- filename: cloudera-de-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-datalake-api-openapi.yml
+- filename: cloudera-de-api-openapi.yml
   format: yaml
-  label: Cloudera Data Engineering API
-  slug: cloudera-dataengineering-api
+  label: Cloudera De API
+  slug: cloudera-de-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-de-openapi.yml
-- filename: cloudera-df-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-de-api-openapi.yml
+- filename: cloudera-df-api-openapi.yml
   format: yaml
-  label: Cloudera DataFlow API
-  slug: cloudera-dataflow-api
+  label: Cloudera Df API
+  slug: cloudera-df-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-df-openapi.yml
-- filename: cloudera-dfworkload-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-df-api-openapi.yml
+- filename: cloudera-drscp-api-openapi.yml
   format: yaml
-  label: Cloudera DataFlow Workload API
-  slug: cloudera-dataflow-workload-api
+  label: Cloudera Drscp API
+  slug: cloudera-drscp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-dfworkload-openapi.yml
-- filename: cloudera-drscp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-drscp-api-openapi.yml
+- filename: cloudera-dw-api-openapi.yml
   format: yaml
-  label: Cloudera Control Plane Data Recovery API
-  slug: cloudera-datarecovery-api
+  label: Cloudera Dw API
+  slug: cloudera-dw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-drscp-openapi.yml
-- filename: cloudera-dw-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-dw-api-openapi.yml
+- filename: cloudera-environments2-api-openapi.yml
   format: yaml
-  label: Cloudera Data Warehouse API
-  slug: cloudera-datawarehouse-api
+  label: Cloudera Environments2 API
+  slug: cloudera-environments2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-dw-openapi.yml
-- filename: cloudera-environments-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-environments2-api-openapi.yml
+- filename: cloudera-iam-api-openapi.yml
   format: yaml
-  label: Cloudera Environments API
-  slug: cloudera-environments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-environments-openapi.yml
-- filename: cloudera-iam-openapi.yml
-  format: yaml
-  label: Cloudera IAM API
+  label: Cloudera Iam API
   slug: cloudera-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-iam-openapi.yml
-- filename: cloudera-imagecatalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-iam-api-openapi.yml
+- filename: cloudera-imagecatalog-api-openapi.yml
   format: yaml
-  label: Cloudera Image Catalog API
+  label: Cloudera Imagecatalog API
   slug: cloudera-imagecatalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-imagecatalog-openapi.yml
-- filename: cloudera-lakehouseopt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-imagecatalog-api-openapi.yml
+- filename: cloudera-lakehouseopt-api-openapi.yml
   format: yaml
-  label: Cloudera Lakehouse Optimizer API
-  slug: cloudera-lakehouse-optimizer-api
+  label: Cloudera Lakehouseopt API
+  slug: cloudera-lakehouseopt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-lakehouseopt-openapi.yml
-- filename: cloudera-ml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-lakehouseopt-api-openapi.yml
+- filename: cloudera-ml-api-openapi.yml
   format: yaml
-  label: Cloudera AI API
+  label: Cloudera Ml API
   slug: cloudera-ml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-ml-openapi.yml
-- filename: cloudera-opdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-ml-api-openapi.yml
+- filename: cloudera-opdb-api-openapi.yml
   format: yaml
-  label: Cloudera Operational Database API
-  slug: cloudera-operational-database-api
+  label: Cloudera Opdb API
+  slug: cloudera-opdb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-opdb-openapi.yml
-- filename: cloudera-replicationmanager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-opdb-api-openapi.yml
+- filename: cloudera-replicationmanager-api-openapi.yml
   format: yaml
-  label: Cloudera Replication Manager API
+  label: Cloudera Replicationmanager API
   slug: cloudera-replicationmanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-replicationmanager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-replicationmanager-api-openapi.yml
+- filename: cloudera-data-catalog-api-openapi.yml
+  format: yaml
+  label: Cloudera Data Catalog API
+  slug: cloudera-data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-data-catalog-api-openapi.yml
+- filename: cloudera-data-hub-api-openapi.yml
+  format: yaml
+  label: Cloudera Data Hub API
+  slug: cloudera-data-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/openapi/cloudera-data-hub-api-openapi.yml
 auth_types:
 - signature
 description: ''

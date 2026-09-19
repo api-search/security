@@ -56,13 +56,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-eobjwthttpservicev1-api-openapi.yml
 - filename: modivo-eobmyreturnswebhookwebhookv1-api-openapi.yml
   format: yaml
-  label: MODIVO Eob My Returns Webhook Webhook V1 API
+  label: MODIVO Eob My Returns Webhook V1 API
   slug: modivo-eobmyreturnswebhookwebhookv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-eobmyreturnswebhookwebhookv1-api-openapi.yml
 - filename: modivo-eobplaceorderordermanagementv1-api-openapi.yml
   format: yaml
-  label: MODIVO Eob Place Order Order Management V1 API
+  label: MODIVO Eob Place Order Management V1 API
   slug: modivo-eobplaceorderordermanagementv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-eobplaceorderordermanagementv1-api-openapi.yml
@@ -104,13 +104,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-inventoryinstorepickupapigetpickuplocationsv1-api-openapi.yml
 - filename: modivo-marketplaceplaceorderordermanagementv1-api-openapi.yml
   format: yaml
-  label: MODIVO Marketplace Place Order Order Management V1 API
+  label: MODIVO Marketplace Place Order Management V1 API
   slug: modivo-marketplaceplaceorderordermanagementv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-marketplaceplaceorderordermanagementv1-api-openapi.yml
 - filename: modivo-modivomyreturnswebhookwebhookv1-api-openapi.yml
   format: yaml
-  label: MODIVO Modivo My Returns Webhook Webhook V1 API
+  label: MODIVO My Returns Webhook V1 API
   slug: modivo-modivomyreturnswebhookwebhookv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-modivomyreturnswebhookwebhookv1-api-openapi.yml
@@ -204,12 +204,12 @@ api_specs:
   slug: modivo-quoteguestshippingmethodmanagementv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-quoteguestshippingmethodmanagementv1-api-openapi.yml
-- filename: modivo-searchv1-api-openapi.yml
+- filename: modivo-search-v1-api-openapi.yml
   format: yaml
-  label: MODIVO Search V1 API
-  slug: modivo-searchv1-api
+  label: MODIVO search V1 API
+  slug: modivo-search-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-searchv1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/openapi/modivo-search-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

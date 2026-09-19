@@ -63,19 +63,20 @@ domains:
   domain: flagsmith.com
   spf: true
 hosts:
-- cert_expires: Aug 17 21:35:17 2026 GMT
+- cert_expires: Dec 13 07:43:36 2026 GMT
+  host: flagsmith.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 18 23:06:57 2026 GMT
   host: docs.flagsmith.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 19 23:59:59 2026 GMT
+- cert_expires: Feb  4 23:59:59 2027 GMT
   host: edge.api.flagsmith.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Nov 19 23:59:59 2026 GMT
-  host: api.flagsmith.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -85,15 +86,27 @@ layout: security
 method: probed
 name: Flagsmith Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Flagsmith, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Flagsmith, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Flagsmith
 provider_slug: flagsmith
 slug: flagsmith-domain-security
 source_filename: flagsmith-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.flagsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 21:35:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: edge.api.flagsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: null\n- host: api.flagsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: flagsmith.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: flagsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 07:43:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.flagsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:06:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: edge.api.flagsmith.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: flagsmith.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/security/flagsmith-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Feature Flags
+- Remote Config
+- Release Management
+- A/B Testing
+- Experimentation
+- Segmentation
+- Developer Tools
+- DevOps
+- Open-Source
+- Software-as-a-Service
+- MCP
+- Agent Ready
 ---

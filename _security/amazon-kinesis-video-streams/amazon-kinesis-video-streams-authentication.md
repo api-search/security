@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
 - filename: amazon-kinesis-video-streams-streams-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Video Streams Streams API
+  label: Amazon Kinesis Video Streams API
   slug: amazon-kinesis-video-streams-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml

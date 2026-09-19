@@ -24,18 +24,18 @@ api_specs:
   slug: jsonplaceholder-posts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-posts-api-openapi.yml
-- filename: jsonplaceholder-todos-api-openapi.yml
-  format: yaml
-  label: JSONPlaceholder Todos API
-  slug: jsonplaceholder-todos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-todos-api-openapi.yml
 - filename: jsonplaceholder-users-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-users-api-openapi.yml
+- filename: jsonplaceholder-to-dos-api-openapi.yml
+  format: yaml
+  label: JSONPlaceholder To Dos API
+  slug: jsonplaceholder-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-to-dos-api-openapi.yml
 description: ''
 domains:
 - caa: []

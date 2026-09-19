@@ -37,5 +37,5 @@ tags:
 - EDA
 - Artificial Intelligence
 - Deep Tech
-- Startup
+- Startups
 ---

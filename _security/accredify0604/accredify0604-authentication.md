@@ -2,18 +2,144 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: accredify0604-nexus-auth-openapi.yaml
+- filename: accredify0604-batch-items-api-openapi.yml
   format: yaml
-  label: Accredify Nexus API
-  slug: accredify0604-nexus
+  label: Accredify Batch Items API
+  slug: accredify0604-batch-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-nexus-auth-openapi.yaml
-- filename: accredify0604-dashboard-v1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-batch-items-api-openapi.yml
+- filename: accredify0604-batches-api-openapi.yml
   format: yaml
-  label: Accredify Dashboard API
-  slug: accredify0604-dashboard
+  label: Accredify Batches API
+  slug: accredify0604-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-dashboard-v1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-batches-api-openapi.yml
+- filename: accredify0604-courses-api-openapi.yml
+  format: yaml
+  label: Accredify Courses API
+  slug: accredify0604-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-courses-api-openapi.yml
+- filename: accredify0604-design-templates-api-openapi.yml
+  format: yaml
+  label: Accredify Design Templates API
+  slug: accredify0604-design-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-design-templates-api-openapi.yml
+- filename: accredify0604-document-templates-api-openapi.yml
+  format: yaml
+  label: Accredify Document Templates API
+  slug: accredify0604-document-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-document-templates-api-openapi.yml
+- filename: accredify0604-documents-api-openapi.yml
+  format: yaml
+  label: Accredify Documents API
+  slug: accredify0604-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-documents-api-openapi.yml
+- filename: accredify0604-email-templates-api-openapi.yml
+  format: yaml
+  label: Accredify Email Templates API
+  slug: accredify0604-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-email-templates-api-openapi.yml
+- filename: accredify0604-external-app-integrations-api-openapi.yml
+  format: yaml
+  label: Accredify External App Integrations API
+  slug: accredify0604-external-app-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-external-app-integrations-api-openapi.yml
+- filename: accredify0604-institutions-api-openapi.yml
+  format: yaml
+  label: Accredify Institutions API
+  slug: accredify0604-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-institutions-api-openapi.yml
+- filename: accredify0604-issue-api-openapi.yml
+  format: yaml
+  label: Accredify Issue API
+  slug: accredify0604-issue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-issue-api-openapi.yml
+- filename: accredify0604-keys-api-openapi.yml
+  format: yaml
+  label: Accredify Keys API
+  slug: accredify0604-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-keys-api-openapi.yml
+- filename: accredify0604-oauth-2-0-api-openapi.yml
+  format: yaml
+  label: Accredify OAuth 2.0 API
+  slug: accredify0604-oauth-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-oauth-2-0-api-openapi.yml
+- filename: accredify0604-openbadges-api-openapi.yml
+  format: yaml
+  label: Accredify Open Badges API
+  slug: accredify0604-openbadges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-openbadges-api-openapi.yml
+- filename: accredify0604-organization-groups-api-openapi.yml
+  format: yaml
+  label: Accredify Organization Groups API
+  slug: accredify0604-organization-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-organization-groups-api-openapi.yml
+- filename: accredify0604-organization-roles-api-openapi.yml
+  format: yaml
+  label: Accredify Organization Roles API
+  slug: accredify0604-organization-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-organization-roles-api-openapi.yml
+- filename: accredify0604-organization-users-api-openapi.yml
+  format: yaml
+  label: Accredify Organization Users API
+  slug: accredify0604-organization-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-organization-users-api-openapi.yml
+- filename: accredify0604-revoke-api-openapi.yml
+  format: yaml
+  label: Accredify Revoke API
+  slug: accredify0604-revoke-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-revoke-api-openapi.yml
+- filename: accredify0604-templates-api-openapi.yml
+  format: yaml
+  label: Accredify Templates API
+  slug: accredify0604-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-templates-api-openapi.yml
+- filename: accredify0604-user-tokens-api-openapi.yml
+  format: yaml
+  label: Accredify User Tokens API
+  slug: accredify0604-user-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-user-tokens-api-openapi.yml
+- filename: accredify0604-verification-api-openapi.yml
+  format: yaml
+  label: Accredify Verification API
+  slug: accredify0604-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-verification-api-openapi.yml
+- filename: accredify0604-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Accredify Workflow Runs API
+  slug: accredify0604-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-workflow-runs-api-openapi.yml
+- filename: accredify0604-workflows-api-openapi.yml
+  format: yaml
+  label: Accredify Workflows API
+  slug: accredify0604-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-workflows-api-openapi.yml
+- filename: accredify0604-oauth-api-openapi.yml
+  format: yaml
+  label: Accredify O Auth API
+  slug: accredify0604-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -69,7 +195,7 @@ tags:
 - Education
 - Healthcare
 - Trust
-- OpenBadges
+- Open Badges
 - OID4VCI
 - Singapore
 ---

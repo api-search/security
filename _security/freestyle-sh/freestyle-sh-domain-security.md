@@ -115,9 +115,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Agents
-- Sandboxes
+- Sandbox
 - VMs
-- MicroVMs
+- MicroVM
 - Git
 - Code Execution
 - JavaScript

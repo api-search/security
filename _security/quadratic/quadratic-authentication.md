@@ -118,7 +118,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Spreadsheet
+- Spreadsheets
 - Analytics
 - Data
 - Developer Tools

@@ -36,12 +36,6 @@ api_specs:
   slug: agora-data-login-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-login-api-openapi.yml
-- filename: agora-data-oauth-api-openapi.yml
-  format: yaml
-  label: Agora Data OAUTH API
-  slug: agora-data-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-oauth-api-openapi.yml
 - filename: agora-data-providers-api-openapi.yml
   format: yaml
   label: Agora Data Providers API
@@ -60,6 +54,12 @@ api_specs:
   slug: agora-data-uploads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-uploads-api-openapi.yml
+- filename: agora-data-oauth-api-openapi.yml
+  format: yaml
+  label: Agora Data OAUTH API
+  slug: agora-data-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

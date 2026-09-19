@@ -134,12 +134,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Product Lifecycle Management
 - PLM
 - Quality Management
 - QMS
 - Product Information Management
-- PIM
 - Manufacturing
 - Salesforce
 - Bill of Materials

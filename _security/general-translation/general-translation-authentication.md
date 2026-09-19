@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-tags-api-openapi.yml
 - filename: general-translation-translation-api-openapi.yml
   format: yaml
-  label: General Translation Translation API
+  label: General Translation API
   slug: general-translation-translation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-translation-api-openapi.yml

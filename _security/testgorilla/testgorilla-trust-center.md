@@ -24,7 +24,7 @@ tags:
 - Talent Assessment
 - Skills Testing
 - Pre-Employment Testing
-- HR Tech
+- Human Resources
 - AI Interviews
 trust_url: https://trust.testgorilla.com/
 ---

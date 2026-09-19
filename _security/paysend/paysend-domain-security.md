@@ -43,6 +43,6 @@ tags:
 - Payouts
 - Payment Processing
 - FX
-- Remittance
+- Remittances
 - Fintech
 ---

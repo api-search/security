@@ -2,12 +2,6 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: smol-machines-apikeys-api-openapi.yml
-  format: yaml
-  label: Smol Machines apikeys API
-  slug: smol-machines-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-apikeys-api-openapi.yml
 - filename: smol-machines-apps-api-openapi.yml
   format: yaml
   label: Smol Machines apps API
@@ -52,7 +46,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-logs-api-openapi.yml
 - filename: smol-machines-machines-api-openapi.yml
   format: yaml
-  label: Smol Machines machines API
+  label: Smol Machines API
   slug: smol-machines-machines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-machines-api-openapi.yml
@@ -116,6 +110,12 @@ api_specs:
   slug: smol-machines-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-volumes-api-openapi.yml
+- filename: smol-machines-api-keys-api-openapi.yml
+  format: yaml
+  label: Smol Machines API Keys API
+  slug: smol-machines-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-api-keys-api-openapi.yml
 auth_types:
 - http
 - oauth2

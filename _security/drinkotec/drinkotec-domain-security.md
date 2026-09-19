@@ -33,7 +33,7 @@ tags:
 - Beverages
 - Beverage Dispensing
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - IoT
 - Analytics
 - Payments

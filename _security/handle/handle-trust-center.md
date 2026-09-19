@@ -30,7 +30,7 @@ tags:
 - Payments
 - B2B Payments
 - Payment Compliance
-- ERP Integrations
+- ERP Integration
 - Collection
 - Financial Operations
 - Material Suppliers

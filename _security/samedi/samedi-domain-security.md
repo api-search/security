@@ -44,6 +44,6 @@ tags:
 - Patient Engagement
 - Authentication
 - FHIR
-- Telemedicine
+- Telehealth
 - Germany
 ---

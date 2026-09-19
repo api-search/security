@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valon/refs/hea
 summary_line: SOC 2
 tags:
 - Company
-- Mortgages
+- Mortgage
 - Loan Servicing
 - Lending
 - Fintech

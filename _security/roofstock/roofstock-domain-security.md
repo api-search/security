@@ -35,7 +35,7 @@ tags:
 - Real-Estate
 - PropTech
 - Investing
-- Single-Family Rentals
+- Single-Family Rental
 - Marketplace
 - Fintech
 ---

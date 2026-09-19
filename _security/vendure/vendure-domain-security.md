@@ -8,16 +8,10 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-assets-api-openapi.yml
 - filename: vendure-vendure-admin-api-api-openapi.yml
   format: yaml
-  label: Vendure Vendure Admin API API
+  label: Vendure Admin API
   slug: vendure-vendure-admin-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-vendure-admin-api-api-openapi.yml
-- filename: vendure-vendure-shop-api-api-openapi.yml
-  format: yaml
-  label: Vendure Vendure Shop API API
-  slug: vendure-vendure-shop-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/openapi/vendure-vendure-shop-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

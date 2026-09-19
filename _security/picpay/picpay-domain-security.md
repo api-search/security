@@ -44,9 +44,9 @@ tags:
 - Pix
 - E-Commerce
 - Checkout
-- Credit Card
+- Credit Cards
 - Loans
-- Investments
+- Investment
 - Insurance
 - Brazil
 - Latin America

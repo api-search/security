@@ -55,7 +55,7 @@ tags:
 - Digital Wallet
 - Payment Gateway
 - QR Payments
-- Disbursement
+- Disbursements
 - Buy Now Pay Later
 - E-Commerce
 - Vietnam

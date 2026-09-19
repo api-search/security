@@ -128,12 +128,6 @@ api_specs:
   slug: canva-merge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-merge-api-openapi.yml
-- filename: canva-oauth-api-openapi.yml
-  format: yaml
-  label: Canva OAUTH API
-  slug: canva-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oauth-api-openapi.yml
 - filename: canva-oidc-api-openapi.yml
   format: yaml
   label: Canva Oidc API
@@ -152,6 +146,12 @@ api_specs:
   slug: canva-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-user-api-openapi.yml
+- filename: canva-oauth-api-openapi.yml
+  format: yaml
+  label: Canva O Auth API
+  slug: canva-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2

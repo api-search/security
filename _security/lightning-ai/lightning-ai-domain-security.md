@@ -44,7 +44,7 @@ tags:
 - Model Inference
 - Model Training
 - Developer Platform
-- Sandboxes
+- Sandbox
 - LLM APIs
 - Open-Source
 ---

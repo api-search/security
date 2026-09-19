@@ -56,8 +56,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5lmeet/refs/he
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Real Estate
-- Coworking
+- Real-Estate
+- Co-Working
 - Co-Living
 - Workspace
 - Property Technology

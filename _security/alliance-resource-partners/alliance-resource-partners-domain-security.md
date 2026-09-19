@@ -6,6 +6,12 @@ api_specs:
   slug: alliance-resource-partners-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/openapi/_original/alliance-resource-partners-content-openapi.yml
+- filename: alliance-resource-partners-o-embed-api-openapi.yml
+  format: yaml
+  label: Alliance Resource Partners o Embed API
+  slug: alliance-resource-partners-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/openapi/alliance-resource-partners-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

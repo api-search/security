@@ -96,6 +96,6 @@ tags:
 - Flight Tracking
 - Mapping
 - Radar
-- Satellites
+- Satellite
 - Traffic Control
 ---

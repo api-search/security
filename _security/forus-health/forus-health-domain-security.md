@@ -37,6 +37,6 @@ tags:
 - Health
 - Ophthalmology
 - Retinal Imaging
-- Telemedicine
+- Telehealth
 - Artificial Intelligence
 ---

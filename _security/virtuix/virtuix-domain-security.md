@@ -34,11 +34,11 @@ tags:
 - Virtual Reality
 - Gaming
 - Hardware
-- Agent Commerce
-- Model Context Protocol
+- Agentic Commerce
+- MCP
 - Universal Commerce Protocol
 - Esports
 - Game Development
-- Location Based Entertainment
+- Location-Based Entertainment
 - Consumer Electronics
 ---

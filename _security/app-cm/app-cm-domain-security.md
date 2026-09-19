@@ -34,7 +34,7 @@ tags:
 - Video Advertising
 - AdTech
 - Mobile
-- Consumer Apps
+- Consumer App
 - Platform
 - Japan
 ---

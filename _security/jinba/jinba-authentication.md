@@ -68,12 +68,6 @@ api_specs:
   slug: jinba-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tools-api-openapi.yml
-- filename: jinba-toolsets-api-openapi.yml
-  format: yaml
-  label: Jinba ToolSets API
-  slug: jinba-toolsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-toolsets-api-openapi.yml
 - filename: jinba-versions-api-openapi.yml
   format: yaml
   label: Jinba Versions API
@@ -86,6 +80,12 @@ api_specs:
   slug: jinba-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-webhooks-api-openapi.yml
+- filename: jinba-tool-sets-api-openapi.yml
+  format: yaml
+  label: Jinba Tool Sets API
+  slug: jinba-tool-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tool-sets-api-openapi.yml
 auth_types:
 - http
 description: 'Jinba authenticates programmatic access with Bearer API keys. Jinba Toolbox supports two methods: session-based auth (Better Auth session cookies) for the admin web console, and organization-scoped API keys (jtb_ prefix) passed as a Bearer token for the SDK, AI agents, and external integrations. Jinba Flow''s External API uses a per-flow Bearer API key that is auto-generated when a workflow is published. There is no OAuth2 authorization flow and no documented scope surface; access is governed by organization-level RBAC (Owner/Admin/ Member) and PostgreSQL row-level security tenant isolation.'

@@ -4,12 +4,12 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: geekflare-openapi.json
-  format: json
-  label: Geekflare API
-  slug: geekflare-api
+- filename: geekflare-api-tool-api-openapi.yml
+  format: yaml
+  label: Geekflare API Tool API
+  slug: geekflare-api-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geekflare/refs/heads/main/openapi/geekflare-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/geekflare/refs/heads/main/openapi/geekflare-api-tool-api-openapi.yml
 auth_types:
 - apiKey
 - http

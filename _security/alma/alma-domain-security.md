@@ -35,7 +35,7 @@ tags:
 - Immigration
 - Legal
 - Legal Tech
-- Visas
+- Visa
 - Global Mobility
 - Compliance
 - Immigration Software

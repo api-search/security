@@ -86,4 +86,5 @@ tags:
 - Order Book
 - Crypto
 - Markets
+- Polymarket
 ---

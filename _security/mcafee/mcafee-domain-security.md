@@ -96,12 +96,6 @@ api_specs:
   slug: mcafee-real-time-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-real-time-search-api-openapi.yml
-- filename: mcafee-rule-sets-api-openapi.yml
-  format: yaml
-  label: McAfee (Trellix) Rule Sets API
-  slug: mcafee-rule-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-rule-sets-api-openapi.yml
 - filename: mcafee-software-api-openapi.yml
   format: yaml
   label: McAfee (Trellix) Software API
@@ -144,6 +138,12 @@ api_specs:
   slug: mcafee-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-watchlists-api-openapi.yml
+- filename: mcafee-rulesets-api-openapi.yml
+  format: yaml
+  label: McAfee (Trellix) Rulesets API
+  slug: mcafee-rulesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/openapi/mcafee-rulesets-api-openapi.yml
 description: ''
 domains:
 - caa:

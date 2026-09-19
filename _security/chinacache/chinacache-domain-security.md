@@ -43,7 +43,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - CDN
-- Content Delivery Network
 - Edge Computing
 - Cloud Security
 - DDoS Protection

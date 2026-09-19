@@ -84,7 +84,7 @@ tags:
 - Payroll as a Service
 - Fintech
 - Payments
-- HR
+- Human Resources
 - Tax
 - Multi-Country
 ---

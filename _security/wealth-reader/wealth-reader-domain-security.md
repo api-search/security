@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: api-for-ai.yaml
+- filename: wealth-reader-advanced-api-openapi.yml
   format: yaml
-  label: Wealth Reader API
-  slug: wealth-reader-api
+  label: Wealth Reader Advanced API
+  slug: wealth-reader-advanced-api
   spec_type: OpenAPI
-  url: https://www.wealthreader.com/api-reference/api-for-ai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-advanced-api-openapi.yml
+- filename: wealth-reader-cards-real-time-api-openapi.yml
+  format: yaml
+  label: Wealth Reader Cards (real time) API
+  slug: wealth-reader-cards-real-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-cards-real-time-api-openapi.yml
+- filename: wealth-reader-core-api-openapi.yml
+  format: yaml
+  label: Wealth Reader Core API
+  slug: wealth-reader-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-core-api-openapi.yml
 description: ''
 domains:
 - caa: []

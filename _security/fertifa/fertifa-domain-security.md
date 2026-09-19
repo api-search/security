@@ -37,7 +37,7 @@ tags:
 - Employee Benefits
 - Healthcare
 - Femtech
-- HR Tech
+- Human Resources
 - Menopause
 - Family Forming
 - Digital Health

@@ -18,12 +18,6 @@ api_specs:
   slug: stackrox-authproviderservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-authproviderservice-api-openapi.yml
-- filename: stackrox-authservice-api-openapi.yml
-  format: yaml
-  label: StackRox AuthService API
-  slug: stackrox-authservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-authservice-api-openapi.yml
 - filename: stackrox-clustersservice-api-openapi.yml
   format: yaml
   label: StackRox ClustersService API
@@ -48,12 +42,6 @@ api_specs:
   slug: stackrox-configservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-configservice-api-openapi.yml
-- filename: stackrox-dbservice-api-openapi.yml
-  format: yaml
-  label: StackRox DBService API
-  slug: stackrox-dbservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-dbservice-api-openapi.yml
 - filename: stackrox-debugservice-api-openapi.yml
   format: yaml
   label: StackRox DebugService API
@@ -108,12 +96,6 @@ api_specs:
   slug: stackrox-licenseservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-licenseservice-api-openapi.yml
-- filename: stackrox-metadataservice-api-openapi.yml
-  format: yaml
-  label: StackRox MetadataService API
-  slug: stackrox-metadataservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-metadataservice-api-openapi.yml
 - filename: stackrox-namespaceservice-api-openapi.yml
   format: yaml
   label: StackRox NamespaceService API
@@ -174,12 +156,6 @@ api_specs:
   slug: stackrox-processwhitelistservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-processwhitelistservice-api-openapi.yml
-- filename: stackrox-rbacservice-api-openapi.yml
-  format: yaml
-  label: StackRox RbacService API
-  slug: stackrox-rbacservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-rbacservice-api-openapi.yml
 - filename: stackrox-roleservice-api-openapi.yml
   format: yaml
   label: StackRox RoleService API
@@ -192,12 +168,6 @@ api_specs:
   slug: stackrox-scopedaccesscontrolservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-scopedaccesscontrolservice-api-openapi.yml
-- filename: stackrox-searchservice-api-openapi.yml
-  format: yaml
-  label: StackRox SearchService API
-  slug: stackrox-searchservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-searchservice-api-openapi.yml
 - filename: stackrox-secretservice-api-openapi.yml
   format: yaml
   label: StackRox SecretService API
@@ -234,6 +204,36 @@ api_specs:
   slug: stackrox-userservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-userservice-api-openapi.yml
+- filename: stackrox-auth-service-api-openapi.yml
+  format: yaml
+  label: StackRox Auth Service API
+  slug: stackrox-auth-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-auth-service-api-openapi.yml
+- filename: stackrox-db-service-api-openapi.yml
+  format: yaml
+  label: StackRox DB Service API
+  slug: stackrox-db-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-db-service-api-openapi.yml
+- filename: stackrox-metadata-service-api-openapi.yml
+  format: yaml
+  label: StackRox Metadata Service API
+  slug: stackrox-metadata-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-metadata-service-api-openapi.yml
+- filename: stackrox-rbac-service-api-openapi.yml
+  format: yaml
+  label: StackRox RBAC Service API
+  slug: stackrox-rbac-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-rbac-service-api-openapi.yml
+- filename: stackrox-search-service-api-openapi.yml
+  format: yaml
+  label: StackRox Search Service API
+  slug: stackrox-search-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/openapi/stackrox-search-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

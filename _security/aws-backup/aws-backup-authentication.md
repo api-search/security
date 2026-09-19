@@ -5,25 +5,25 @@ api_key_in:
 api_specs:
 - filename: aws-backup-backup-jobs-api-openapi.yml
   format: yaml
-  label: AWS Backup Backup Jobs API
+  label: AWS Backup Jobs API
   slug: aws-backup-backup-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-jobs-api-openapi.yml
 - filename: aws-backup-backup-plans-api-openapi.yml
   format: yaml
-  label: AWS Backup Backup Plans API
+  label: AWS Backup Plans API
   slug: aws-backup-backup-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-plans-api-openapi.yml
 - filename: aws-backup-backup-selections-api-openapi.yml
   format: yaml
-  label: AWS Backup Backup Selections API
+  label: AWS Backup Selections API
   slug: aws-backup-backup-selections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-selections-api-openapi.yml
 - filename: aws-backup-backup-vaults-api-openapi.yml
   format: yaml
-  label: AWS Backup Backup Vaults API
+  label: AWS Backup Vaults API
   slug: aws-backup-backup-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-vaults-api-openapi.yml

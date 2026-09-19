@@ -248,12 +248,6 @@ api_specs:
   slug: increase-lockbox-recipients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/openapi/increase-lockbox-recipients-api-openapi.yml
-- filename: increase-oauth-api-openapi.yml
-  format: yaml
-  label: Increase Oauth API
-  slug: increase-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/openapi/increase-oauth-api-openapi.yml
 - filename: increase-oauth-applications-api-openapi.yml
   format: yaml
   label: Increase Oauth Applications API
@@ -340,10 +334,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/openapi/increase-wire-transfers-api-openapi.yml
 - filename: increase-increase-api-api-openapi.yml
   format: yaml
-  label: Increase Increase API
+  label: Increase API
   slug: increase-increase-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/openapi/increase-increase-api-api-openapi.yml
+- filename: increase-oauth-api-openapi.yml
+  format: yaml
+  label: Increase OAUTH API
+  slug: increase-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/openapi/increase-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

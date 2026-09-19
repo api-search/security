@@ -84,4 +84,5 @@ tags:
 - Connectivity
 - SIM
 - M2M
+- Machine-to-Machine
 ---

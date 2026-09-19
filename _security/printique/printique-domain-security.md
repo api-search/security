@@ -35,7 +35,7 @@ tags:
 - Print Fulfillment
 - Photo Lab
 - Photography
-- Prints
+- Print
 - Albums
 - Wall Art
 - Print on Demand

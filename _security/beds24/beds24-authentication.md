@@ -81,8 +81,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beds24-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/authentication/beds24-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Vacation Rental
-- Hotel
+- Vacation Rentals
+- Hotels
 - Channel Manager
 - Property Management System
 - Booking Engine

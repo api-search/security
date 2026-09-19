@@ -35,7 +35,6 @@ tags:
 - Data Transfer
 - FTP
 - HTTP
-- HTTPS
 - Library
 - Network Tools
 - Open-Source

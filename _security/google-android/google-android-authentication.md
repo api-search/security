@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: google-android-android-management-api-api-openapi.yml
   format: yaml
-  label: Google Android Android Management API API
+  label: Google Android Management API
   slug: google-android-android-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-android-management-api-api-openapi.yml
@@ -44,12 +44,12 @@ api_specs:
   slug: google-android-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-policy-api-openapi.yml
-- filename: google-android-webapps-api-openapi.yml
+- filename: google-android-web-apps-api-openapi.yml
   format: yaml
-  label: Google Android WebApps API
-  slug: google-android-webapps-api
+  label: Google Android Web Apps API
+  slug: google-android-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-webapps-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/openapi/google-android-web-apps-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

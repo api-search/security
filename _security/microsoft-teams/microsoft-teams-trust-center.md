@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-tabs-api-openapi.yml
 - filename: microsoft-teams-teams-api-openapi.yml
   format: yaml
-  label: Microsoft Teams Teams API
+  label: Microsoft Teams API
   slug: microsoft-teams-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-teams-api-openapi.yml

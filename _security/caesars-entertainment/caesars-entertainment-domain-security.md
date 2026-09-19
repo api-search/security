@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Hospitality
 - Gaming
-- Casino
+- Casinos
 - Resorts
 - Entertainment
 - Loyalty

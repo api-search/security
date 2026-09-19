@@ -45,7 +45,7 @@ tags:
 - Rewards
 - Payments
 - Loyalty
-- Referral
+- Referrals
 - GraphQL
 - Content Management
 ---

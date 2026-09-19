@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: dartmouth-class-search-api-openapi.yml
+- filename: dartmouth-classsearch-api-openapi.yml
   format: yaml
-  label: Dartmouth Class Search API
-  slug: class-search
+  label: Dartmouth College Class Search API
+  slug: dartmouth-classsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-class-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/openapi/dartmouth-classsearch-api-openapi.yml
 auth_types: []
 description: How Dartmouth's institution-operated interfaces authenticate. Every row was established by calling the surface, not by reading a claim about it.
 kind: authentication

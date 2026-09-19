@@ -20,12 +20,6 @@ api_specs:
   slug: flare-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-media-api-openapi.yml
-- filename: flare-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Flare Therapeutics Oembed API
-  slug: flare-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-oembed-api-openapi.yml
 - filename: flare-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Flare Therapeutics Pages API
@@ -56,6 +50,12 @@ api_specs:
   slug: flare-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-taxonomy-api-openapi.yml
+- filename: flare-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Flare Therapeutics o Embed API
+  slug: flare-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/openapi/flare-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

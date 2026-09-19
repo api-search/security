@@ -33,7 +33,7 @@ tags:
 - Venture Capital
 - Accelerator
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Startups
 - France
 - Investment

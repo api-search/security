@@ -52,7 +52,7 @@ tags:
 - Telecom
 - 5G
 - 6G
-- Mobile Networks
+- Mobile Network
 - Network Infrastructure
 - IP Networks
 - Optical Networks

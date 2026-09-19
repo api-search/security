@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: upm-psasir-oai-pmh-openapi.yml
+- filename: upm-export-api-openapi.yml
   format: yaml
-  label: PSASIR Institutional Repository — OAI-PMH 2.0
-  slug: psasir-oai-pmh
+  label: Universiti Putra Malaysia Export API
+  slug: upm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-psasir-oai-pmh-openapi.yml
-- filename: upm-psasir-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-export-api-openapi.yml
+- filename: upm-oai-pmh-api-openapi.yml
   format: yaml
-  label: PSASIR EPrints REST, Export and OpenSearch
-  slug: psasir-eprints-rest
+  label: Universiti Putra Malaysia OAI PMH API
+  slug: upm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-psasir-eprints-rest-openapi.yml
-- filename: upm-myagric-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-oai-pmh-api-openapi.yml
+- filename: upm-rest-api-openapi.yml
   format: yaml
-  label: MyAgric — Malaysian Agricultural Repository OAI-PMH 2.0
-  slug: myagric-oai-pmh
+  label: Universiti Putra Malaysia REST API
+  slug: upm-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-myagric-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-rest-api-openapi.yml
+- filename: upm-search-api-openapi.yml
+  format: yaml
+  label: Universiti Putra Malaysia Search API
+  slug: upm-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/openapi/upm-search-api-openapi.yml
 auth_types: []
 description: 'How authentication works across Universiti Putra Malaysia''s machine-readable surfaces. The picture is unusually clean for this cohort: the two harvesting surfaces are entirely open and the identity surface is the authentication system itself, published as SAML metadata rather than protected by it. There is no API key, no OAuth authorization server, no developer registration, and no self-service credential of any kind — because there is no developer programme. Everything an outside consumer can reach, they can reach anonymously.'
 kind: authentication

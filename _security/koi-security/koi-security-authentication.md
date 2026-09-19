@@ -46,7 +46,7 @@ tags:
 - Security
 - Endpoint Security
 - Supply Chain Security
-- Browser Extensions
+- Browser Extension
 - Developer Tools
 - Threat Intelligence
 - MCP Security

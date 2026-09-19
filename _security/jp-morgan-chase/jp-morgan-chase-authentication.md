@@ -386,12 +386,12 @@ api_specs:
   slug: jp-morgan-chase-token-processing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-token-processing-api-openapi.yml
-- filename: jpmorgan-chase-banking-api-openapi.yml
+- filename: jp-morgan-chase-banking-api-openapi.yml
   format: yaml
   label: JPMorgan Chase Banking API
-  slug: jpmorgan-chase-banking-api
+  slug: jp-morgan-chase-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jpmorgan-chase-banking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/openapi/jp-morgan-chase-banking-api-openapi.yml
 auth_types: []
 description: 'Authentication for the J.P. Morgan Payments Developer Portal. Access is credential-based and tied to an onboarded client: mTLS transport certificates confirm identity, digital-signature certificates sign POST requests, and OAuth 2.0 issues access tokens.'
 kind: authentication

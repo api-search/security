@@ -38,5 +38,5 @@ tags:
 - Lending
 - Cash Advance
 - Personal Finance
-- Mobile Application
+- Mobile Applications
 ---

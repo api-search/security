@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: flowaccount-batchimport-api-openapi.yml
-  format: yaml
-  label: FlowAccount BatchImport API
-  slug: flowaccount-batchimport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-batchimport-api-openapi.yml
 - filename: flowaccount-billingnote-api-openapi.yml
   format: yaml
   label: FlowAccount BillingNote API
@@ -32,12 +26,6 @@ api_specs:
   slug: flowaccount-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-contact-api-openapi.yml
-- filename: flowaccount-creditnote-api-openapi.yml
-  format: yaml
-  label: FlowAccount CreditNote API
-  slug: flowaccount-creditnote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-creditnote-api-openapi.yml
 - filename: flowaccount-debitnote-api-openapi.yml
   format: yaml
   label: FlowAccount DebitNote API
@@ -56,18 +44,6 @@ api_specs:
   slug: flowaccount-expense-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-expense-api-openapi.yml
-- filename: flowaccount-productcategory-api-openapi.yml
-  format: yaml
-  label: FlowAccount ProductCategory API
-  slug: flowaccount-productcategory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-productcategory-api-openapi.yml
-- filename: flowaccount-productinventory-api-openapi.yml
-  format: yaml
-  label: FlowAccount ProductInventory API
-  slug: flowaccount-productinventory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-productinventory-api-openapi.yml
 - filename: flowaccount-products-api-openapi.yml
   format: yaml
   label: FlowAccount Products API
@@ -86,12 +62,6 @@ api_specs:
   slug: flowaccount-purchase-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-purchase-api-openapi.yml
-- filename: flowaccount-purchaseorder-api-openapi.yml
-  format: yaml
-  label: FlowAccount PurchaseOrder API
-  slug: flowaccount-purchaseorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-purchaseorder-api-openapi.yml
 - filename: flowaccount-quotation-api-openapi.yml
   format: yaml
   label: FlowAccount Quotation API
@@ -116,6 +86,36 @@ api_specs:
   slug: flowaccount-taxinvoice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-taxinvoice-api-openapi.yml
+- filename: flowaccount-batch-import-api-openapi.yml
+  format: yaml
+  label: FlowAccount Batch Import API
+  slug: flowaccount-batch-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-batch-import-api-openapi.yml
+- filename: flowaccount-credit-note-api-openapi.yml
+  format: yaml
+  label: FlowAccount Credit Note API
+  slug: flowaccount-credit-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-credit-note-api-openapi.yml
+- filename: flowaccount-product-category-api-openapi.yml
+  format: yaml
+  label: FlowAccount Product Category API
+  slug: flowaccount-product-category-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-product-category-api-openapi.yml
+- filename: flowaccount-product-inventory-api-openapi.yml
+  format: yaml
+  label: FlowAccount Product Inventory API
+  slug: flowaccount-product-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-product-inventory-api-openapi.yml
+- filename: flowaccount-purchase-order-api-openapi.yml
+  format: yaml
+  label: FlowAccount Purchase Order API
+  slug: flowaccount-purchase-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/openapi/flowaccount-purchase-order-api-openapi.yml
 auth_types:
 - oauth2
 - http

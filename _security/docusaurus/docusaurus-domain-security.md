@@ -33,5 +33,5 @@ tags:
 - Open-Source
 - React
 - Static Site Generator
-- Developer Portals
+- Developer Portal
 ---

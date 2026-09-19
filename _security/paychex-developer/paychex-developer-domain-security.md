@@ -57,7 +57,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Benefits
 - HCM
-- HR
+- Human Resources
 - Paychex Flex
 - Payroll
 - Time and Attendance

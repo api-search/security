@@ -40,7 +40,7 @@ tags:
 - Research
 - China
 - Identity Federation
-- Single Sign-On
+- SSO
 - Research Data
 - GNSS
 - Library

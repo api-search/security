@@ -36,6 +36,6 @@ tags:
 - Headless CMS
 - Content Management
 - Open-Source
-- Plugin
+- Plugins
 - Decoupled WordPress
 ---

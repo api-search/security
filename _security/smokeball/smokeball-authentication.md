@@ -243,9 +243,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smokeball/refs
 summary_line: apiKey · 2 schemes
 tags:
 - Legal
-- Law Firm
+- Law Firms
 - Practice Management
-- Matters
+- Matter
 - Contacts
 - Documents
 - Billing

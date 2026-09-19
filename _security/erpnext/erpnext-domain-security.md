@@ -76,12 +76,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory
 - Manufacturing
 - Sales
 - CRM
-- HR
+- Human Resources
 - Open-Source
 ---

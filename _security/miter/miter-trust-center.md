@@ -23,7 +23,7 @@ tags:
 - Construction
 - Payroll
 - HCM
-- HR
+- Human Resources
 - Field Operations
 - Expense Management
 - Workforce Management

@@ -50,12 +50,6 @@ api_specs:
   slug: 10web-section-based-ai-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/openapi/10web-section-based-ai-api-openapi.yml
-- filename: 10web-subdomain-api-openapi.yml
-  format: yaml
-  label: 10Web Subdomain API
-  slug: 10web-subdomain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/openapi/10web-subdomain-api-openapi.yml
 - filename: 10web-vibe-coding-api-openapi.yml
   format: yaml
   label: 10Web Vibe Coding API
@@ -80,6 +74,12 @@ api_specs:
   slug: 10web-zone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/openapi/10web-zone-api-openapi.yml
+- filename: 10web-sub-domain-api-openapi.yml
+  format: yaml
+  label: 10Web Sub Domain API
+  slug: 10web-sub-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/openapi/10web-sub-domain-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

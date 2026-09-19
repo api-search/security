@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: wageningen-university-research-library-oai-pmh-openapi.yml
-  format: yaml
-  label: WUR Library OAI-PMH API
-  slug: wageningen-university-research-library-oai-pmh
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-library-oai-pmh-openapi.yml
 - filename: wageningen-university-research-altitude-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Altitude API
@@ -36,6 +30,12 @@ api_specs:
   slug: wageningen-university-research-return-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-return-api-openapi.yml
+- filename: wageningen-university-research-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Wageningen University & Research OAI PMH API
+  slug: wageningen-university-research-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa:

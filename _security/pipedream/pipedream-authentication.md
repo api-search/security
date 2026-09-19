@@ -50,12 +50,6 @@ api_specs:
   slug: pipedream-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-mcp-api-openapi.yml
-- filename: pipedream-oauth-api-openapi.yml
-  format: yaml
-  label: Pipedream OAuth API
-  slug: pipedream-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-oauth-api-openapi.yml
 - filename: pipedream-projects-api-openapi.yml
   format: yaml
   label: Pipedream Projects API
@@ -98,6 +92,12 @@ api_specs:
   slug: pipedream-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-webhooks-api-openapi.yml
+- filename: pipedream-oauth-api-openapi.yml
+  format: yaml
+  label: Pipedream O Auth API
+  slug: pipedream-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -53,7 +53,7 @@ tags:
 - AI Agents
 - Automation
 - Applicant Tracking
-- Career
+- Careers
 - MCP
 - Y Combinator
 ---

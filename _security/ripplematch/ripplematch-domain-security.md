@@ -38,5 +38,5 @@ tags:
 - Job Matching
 - Campus Recruiting
 - Talent Acquisition
-- HR Tech
+- Human Resources
 ---

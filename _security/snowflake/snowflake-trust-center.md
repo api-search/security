@@ -310,7 +310,7 @@ tags:
 - Data Governance
 - SQL
 - Apache Iceberg
-- Model Context Protocol
+- MCP
 - T1
 trust_url: https://trust.snowflake.com/
 ---

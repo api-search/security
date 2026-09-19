@@ -75,12 +75,6 @@ api_specs:
   slug: bitrix24-drive-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-drive-api-openapi.yml
-- filename: bitrix24-e-commerce-api-openapi.yml
-  format: yaml
-  label: Bitrix24 E-Commerce API
-  slug: bitrix24-e-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-e-commerce-api-openapi.yml
 - filename: bitrix24-events-api-openapi.yml
   format: yaml
   label: Bitrix24 Events API
@@ -207,12 +201,18 @@ api_specs:
   slug: bitrix24-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-widgets-api-openapi.yml
-- filename: bitrix24-workgroups-api-openapi.yml
+- filename: bitrix24-ecommerce-api-openapi.yml
   format: yaml
-  label: Bitrix24 Workgroups API
-  slug: bitrix24-workgroups-api
+  label: Bitrix24 Ecommerce API
+  slug: bitrix24-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-workgroups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-ecommerce-api-openapi.yml
+- filename: bitrix24-work-groups-api-openapi.yml
+  format: yaml
+  label: Bitrix24 Work Groups API
+  slug: bitrix24-work-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-work-groups-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -262,6 +262,6 @@ tags:
 - Telephony
 - Contact Center
 - Document-Management
-- HR
+- Human Resources
 - Business Suite
 ---

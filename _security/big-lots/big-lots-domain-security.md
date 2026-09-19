@@ -8,9 +8,9 @@ domains:
   domain: biglots.com
   spf: true
 hosts:
-- cert_expires: Jul 19 18:10:16 2026 GMT
+- cert_expires: Nov 10 19:48:43 2026 GMT
   host: www.biglots.com
-  hsts: null
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -26,12 +26,12 @@ slug: big-lots-domain-security
 source_filename: big-lots-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.biglots.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 19 18:10:16 2026 GMT\n  hsts: null\ndomains:\n- domain: biglots.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.biglots.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 19:48:43 2026 GMT\n  hsts: false\ndomains:\n- domain: biglots.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/big-lots/refs/heads/main/security/big-lots-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Retail
-- Discount
+- Discounts
 - Consumer Goods
 - E-Commerce
 - Closeout

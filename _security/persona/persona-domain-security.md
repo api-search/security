@@ -42,48 +42,48 @@ api_specs:
   slug: persona-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-webhooks-api-openapi.yml
-- filename: withpersona-cases-api-openapi.yml
+- filename: persona-cases-api-openapi.yml
   format: yaml
   label: Persona Cases API
-  slug: withpersona-cases-api
+  slug: persona-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-cases-api-openapi.yml
-- filename: withpersona-devices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-cases-api-openapi.yml
+- filename: persona-devices-api-openapi.yml
   format: yaml
   label: Persona Devices API
-  slug: withpersona-devices-api
+  slug: persona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-devices-api-openapi.yml
-- filename: withpersona-documents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-devices-api-openapi.yml
+- filename: persona-documents-api-openapi.yml
   format: yaml
   label: Persona Documents API
-  slug: withpersona-documents-api
+  slug: persona-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-documents-api-openapi.yml
-- filename: withpersona-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-documents-api-openapi.yml
+- filename: persona-events-api-openapi.yml
   format: yaml
   label: Persona Events API
-  slug: withpersona-events-api
+  slug: persona-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-events-api-openapi.yml
-- filename: withpersona-importers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-events-api-openapi.yml
+- filename: persona-importers-api-openapi.yml
   format: yaml
   label: Persona Importers API
-  slug: withpersona-importers-api
+  slug: persona-importers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-importers-api-openapi.yml
-- filename: withpersona-inquiry-sessions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-importers-api-openapi.yml
+- filename: persona-inquiry-sessions-api-openapi.yml
   format: yaml
   label: Persona Inquiry Sessions API
-  slug: withpersona-inquiry-sessions-api
+  slug: persona-inquiry-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-inquiry-sessions-api-openapi.yml
-- filename: withpersona-workflows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-inquiry-sessions-api-openapi.yml
+- filename: persona-workflows-api-openapi.yml
   format: yaml
   label: Persona Workflows API
-  slug: withpersona-workflows-api
+  slug: persona-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/withpersona-workflows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/openapi/persona-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

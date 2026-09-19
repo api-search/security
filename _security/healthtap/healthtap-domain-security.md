@@ -39,7 +39,6 @@ tags:
 - Company
 - Health Tech
 - Telehealth
-- Telemedicine
 - Virtual Care
 - Healthcare
 - Primary Care

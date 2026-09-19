@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: sojo-industries-victoria-agent-openapi.json
-  format: json
-  label: SOJO Planning Assistant (Victoria) API
-  slug: sojo-planning-assistant-victoria-api
+- filename: sojo-industries-chat-api-openapi.yml
+  format: yaml
+  label: Sojo Industries Chat API
+  slug: sojo-industries-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-victoria-agent-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-chat-api-openapi.yml
+- filename: sojo-industries-conversations-api-openapi.yml
+  format: yaml
+  label: Sojo Industries Conversations API
+  slug: sojo-industries-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-conversations-api-openapi.yml
+- filename: sojo-industries-files-api-openapi.yml
+  format: yaml
+  label: Sojo Industries Files API
+  slug: sojo-industries-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-files-api-openapi.yml
+- filename: sojo-industries-health-api-openapi.yml
+  format: yaml
+  label: Sojo Industries Health API
+  slug: sojo-industries-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sojo-industries/refs/heads/main/openapi/sojo-industries-health-api-openapi.yml
 description: ''
 domains:
 - caa: []

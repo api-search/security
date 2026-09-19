@@ -37,7 +37,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Payments
-- BNPL
 - Buy Now Pay Later
 - Installments
 - Fintech

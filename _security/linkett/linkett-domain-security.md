@@ -34,7 +34,6 @@ tags:
 - Advertising
 - Digital Signage
 - Digital Out Of Home
-- DOOH
 - Analytics
 - Audience Measurement
 - Retail Media

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-accounts-api-openapi.yml
 - filename: yext-administrative-api-api-openapi.yml
   format: yaml
-  label: Yext Administrative API API
+  label: Yext Administrative API
   slug: yext-administrative-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-administrative-api-api-openapi.yml
@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-connectors-api-openapi.yml
 - filename: yext-content-api-api-openapi.yml
   format: yaml
-  label: Yext Content API API
+  label: Yext Content API
   slug: yext-content-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-content-api-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-lists-api-openapi.yml
 - filename: yext-live-api-api-openapi.yml
   format: yaml
-  label: Yext Live API API
+  label: Yext Live API
   slug: yext-live-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-live-api-api-openapi.yml

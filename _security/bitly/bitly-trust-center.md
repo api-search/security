@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/hea
 summary_line: SOC 2 Type 2, GDPR, CCPA
 tags:
 - Links
-- URL Shortener
+- URL Shorteners
 - QR Codes
 - Analytics
 - Marketing

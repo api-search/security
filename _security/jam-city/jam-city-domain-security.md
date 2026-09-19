@@ -35,7 +35,7 @@ tags:
 - Mobile Games
 - Gaming
 - Entertainment
-- Mobile Apps
+- Mobile App
 - Free-to-Play
 - Consumer
 ---

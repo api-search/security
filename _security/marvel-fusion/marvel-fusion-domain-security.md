@@ -35,7 +35,7 @@ tags:
 - Deep Tech
 - Fusion Energy
 - Clean Energy
-- Laser
+- Lasers
 - Energy
 - Climate Tech
 ---

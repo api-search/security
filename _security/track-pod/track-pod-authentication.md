@@ -21,12 +21,6 @@ api_specs:
   slug: track-pod-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-order-api-openapi.yml
-- filename: track-pod-rejectreason-api-openapi.yml
-  format: yaml
-  label: Track-POD RejectReason API
-  slug: track-pod-rejectreason-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-rejectreason-api-openapi.yml
 - filename: track-pod-route-api-openapi.yml
   format: yaml
   label: Track-POD Route API
@@ -51,6 +45,12 @@ api_specs:
   slug: track-pod-vehiclecheck-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehiclecheck-api-openapi.yml
+- filename: track-pod-reject-reason-api-openapi.yml
+  format: yaml
+  label: Track-POD Reject Reason API
+  slug: track-pod-reject-reason-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-reject-reason-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

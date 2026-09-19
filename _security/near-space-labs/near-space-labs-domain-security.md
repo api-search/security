@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: near-space-labs-oauth-api-openapi.yml
-  format: yaml
-  label: Near Space Labs OAUTH API
-  slug: near-space-labs-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-oauth-api-openapi.yml
 - filename: near-space-labs-tile-api-openapi.yml
   format: yaml
   label: Near Space Labs Tile API
   slug: near-space-labs-tile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-tile-api-openapi.yml
+- filename: near-space-labs-oauth-api-openapi.yml
+  format: yaml
+  label: Near Space Labs OAUTH API
+  slug: near-space-labs-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/openapi/near-space-labs-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

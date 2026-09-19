@@ -9,24 +9,12 @@ api_specs:
   slug: cradlepoint-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-accounts-api-openapi.yml
-- filename: cradlepoint-activitylogs-api-openapi.yml
-  format: yaml
-  label: Cradlepoint ActivityLogs API
-  slug: cradlepoint-activitylogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-activitylogs-api-openapi.yml
 - filename: cradlepoint-alertpushdestinations-api-openapi.yml
   format: yaml
   label: Cradlepoint AlertPushDestinations API
   slug: cradlepoint-alertpushdestinations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
-- filename: cradlepoint-alertrules-api-openapi.yml
-  format: yaml
-  label: Cradlepoint AlertRules API
-  slug: cradlepoint-alertrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alertrules-api-openapi.yml
 - filename: cradlepoint-alerts-api-openapi.yml
   format: yaml
   label: Cradlepoint Alerts API
@@ -57,6 +45,18 @@ api_specs:
   slug: cradlepoint-routers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-routers-api-openapi.yml
+- filename: cradlepoint-activity-logs-api-openapi.yml
+  format: yaml
+  label: Cradlepoint Activity Logs API
+  slug: cradlepoint-activity-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-activity-logs-api-openapi.yml
+- filename: cradlepoint-alert-rules-api-openapi.yml
+  format: yaml
+  label: Cradlepoint Alert Rules API
+  slug: cradlepoint-alert-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alert-rules-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

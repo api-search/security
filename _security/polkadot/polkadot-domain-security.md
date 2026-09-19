@@ -168,12 +168,6 @@ api_specs:
   slug: polkadot-multisig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-multisig-api-openapi.yml
-- filename: polkadot-nfts-api-openapi.yml
-  format: yaml
-  label: Polkadot NFTs API
-  slug: polkadot-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-nfts-api-openapi.yml
 - filename: polkadot-node-api-openapi.yml
   format: yaml
   label: Polkadot node API
@@ -342,6 +336,12 @@ api_specs:
   slug: polkadot-xcm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-xcm-api-openapi.yml
+- filename: polkadot-nfts-api-openapi.yml
+  format: yaml
+  label: Polkadot NF Ts API
+  slug: polkadot-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []

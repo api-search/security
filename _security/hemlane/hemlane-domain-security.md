@@ -38,5 +38,5 @@ tags:
 - Lease Management
 - Rent Collection
 - Maintenance
-- Landlord
+- Landlords
 ---

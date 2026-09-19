@@ -79,7 +79,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Video Interviewing
 - Recruitment
-- HR Tech
+- Human Resources
 - ATS
 - Screening
 - Async Video

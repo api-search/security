@@ -29,8 +29,8 @@ summary_line: 0 schemes
 tags:
 - Business Process Management
 - Decision Management
-- Workflow Automation
-- Low Code
+- Workflow-Automation
+- Low-Code
 - BPMN
 - DMN
 - CMMN
@@ -39,6 +39,6 @@ tags:
 - Clinical Decision Support
 - Standards
 - AI Agents
-- Model Context Protocol
+- MCP
 - Enterprise Architecture
 ---

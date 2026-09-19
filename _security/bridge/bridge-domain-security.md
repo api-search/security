@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-batch-settlements-api-openapi.yml
 - filename: bridge-bridge-wallets-api-openapi.yml
   format: yaml
-  label: Bridge Bridge Wallets API
+  label: Bridge Wallets API
   slug: bridge-bridge-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-bridge-wallets-api-openapi.yml

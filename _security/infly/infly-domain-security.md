@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - AI Agents
 - Document Parsing

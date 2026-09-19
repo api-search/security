@@ -24,7 +24,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-lookup-api-openapi.yml
 - filename: ocean-io-ocean-io-api-documentation-api-openapi.yml
   format: yaml
-  label: Ocean.io Ocean.io API Documentation API
+  label: Ocean.io API Documentation API
   slug: ocean-io-ocean-io-api-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml

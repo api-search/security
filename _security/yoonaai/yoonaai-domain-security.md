@@ -41,5 +41,5 @@ tags:
 - Generative AI
 - E-Commerce
 - Retail
-- Product Lifecycle Management
+- PLM
 ---

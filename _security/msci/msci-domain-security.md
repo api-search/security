@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/msci/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Data
-- Indexes
+- Index
 - ESG
 - Climate
 - Risk Analytics

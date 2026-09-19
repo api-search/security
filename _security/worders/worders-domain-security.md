@@ -24,12 +24,6 @@ api_specs:
   slug: worders-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-orders-api-openapi.yml
-- filename: worders-purchaseorders-api-openapi.yml
-  format: yaml
-  label: Worders PurchaseOrders API
-  slug: worders-purchaseorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-purchaseorders-api-openapi.yml
 - filename: worders-quotes-api-openapi.yml
   format: yaml
   label: Worders Quotes API
@@ -42,6 +36,12 @@ api_specs:
   slug: worders-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-templates-api-openapi.yml
+- filename: worders-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Worders Purchase Orders API
+  slug: worders-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

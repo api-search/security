@@ -56,5 +56,5 @@ tags:
 - MedTech
 - Hardware
 - Oxygen Therapy
-- Hospital
+- Hospitals
 ---

@@ -66,7 +66,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Public Transit
 - Transport
-- UK
+- United Kingdom
 - Real-Time
 - Journey Planning
 - Bus

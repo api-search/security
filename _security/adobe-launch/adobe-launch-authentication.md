@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-data-elements-api-openapi.yml
 - filename: adobe-launch-edge-network-api-api-openapi.yml
   format: yaml
-  label: Adobe Launch Edge Network API API
+  label: Adobe Launch Edge Network API
   slug: adobe-launch-edge-network-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-api-api-openapi.yml
@@ -65,7 +65,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-libraries-api-openapi.yml
 - filename: adobe-launch-media-edge-api-api-openapi.yml
   format: yaml
-  label: Adobe Launch Media Edge API API
+  label: Adobe Launch Media Edge API
   slug: adobe-launch-media-edge-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-api-api-openapi.yml

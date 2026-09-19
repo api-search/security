@@ -3,12 +3,90 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: benchmark-minerals-prices-api.yml
+- filename: benchmark-minerals-anodes-api-openapi.yml
   format: yaml
-  label: Benchmark Minerals API
-  slug: benchmark-minerals-api
+  label: Benchmark Minerals Anodes API
+  slug: benchmark-minerals-anodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-prices-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-anodes-api-openapi.yml
+- filename: benchmark-minerals-black-mass-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Black Mass API
+  slug: benchmark-minerals-black-mass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-black-mass-api-openapi.yml
+- filename: benchmark-minerals-cathodes-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Cathodes API
+  slug: benchmark-minerals-cathodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-cathodes-api-openapi.yml
+- filename: benchmark-minerals-cobalt-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Cobalt API
+  slug: benchmark-minerals-cobalt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-cobalt-api-openapi.yml
+- filename: benchmark-minerals-electrolyte-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Electrolyte API
+  slug: benchmark-minerals-electrolyte-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-electrolyte-api-openapi.yml
+- filename: benchmark-minerals-lithium-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Lithium API
+  slug: benchmark-minerals-lithium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-lithium-api-openapi.yml
+- filename: benchmark-minerals-lithium-ion-battery-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Lithium ion Battery API
+  slug: benchmark-minerals-lithium-ion-battery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-lithium-ion-battery-api-openapi.yml
+- filename: benchmark-minerals-lithium-ion-battery-raw-material-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Lithium ion Battery Raw Material API
+  slug: benchmark-minerals-lithium-ion-battery-raw-material-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-lithium-ion-battery-raw-material-api-openapi.yml
+- filename: benchmark-minerals-manganese-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Manganese API
+  slug: benchmark-minerals-manganese-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-manganese-api-openapi.yml
+- filename: benchmark-minerals-natural-graphite-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Natural Graphite API
+  slug: benchmark-minerals-natural-graphite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-natural-graphite-api-openapi.yml
+- filename: benchmark-minerals-nickel-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Nickel API
+  slug: benchmark-minerals-nickel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-nickel-api-openapi.yml
+- filename: benchmark-minerals-rare-earths-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Rare Earths API
+  slug: benchmark-minerals-rare-earths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-rare-earths-api-openapi.yml
+- filename: benchmark-minerals-spotlight-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Spotlight API
+  slug: benchmark-minerals-spotlight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-spotlight-api-openapi.yml
+- filename: benchmark-minerals-synthetic-graphite-api-openapi.yml
+  format: yaml
+  label: Benchmark Minerals Synthetic Graphite API
+  slug: benchmark-minerals-synthetic-graphite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/openapi/benchmark-minerals-synthetic-graphite-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

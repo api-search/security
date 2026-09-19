@@ -36,24 +36,24 @@ api_specs:
   slug: moovit-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-search-api-openapi.yml
-- filename: moovit-servicealerts-api-openapi.yml
-  format: yaml
-  label: Moovit ServiceAlerts API
-  slug: moovit-servicealerts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-servicealerts-api-openapi.yml
 - filename: moovit-stops-api-openapi.yml
   format: yaml
   label: Moovit Stops API
   slug: moovit-stops-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-stops-api-openapi.yml
-- filename: moovit-tripplan-api-openapi.yml
+- filename: moovit-service-alerts-api-openapi.yml
   format: yaml
-  label: Moovit TripPlan API
-  slug: moovit-tripplan-api
+  label: Moovit Service Alerts API
+  slug: moovit-service-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-tripplan-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-service-alerts-api-openapi.yml
+- filename: moovit-trip-plan-api-openapi.yml
+  format: yaml
+  label: Moovit Trip Plan API
+  slug: moovit-trip-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/openapi/moovit-trip-plan-api-openapi.yml
 description: ''
 domains:
 - caa: []

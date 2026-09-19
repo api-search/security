@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Access Control
-- Smart Building
+- Smart Buildings
 - PropTech
 - Physical Security
 - IoT

@@ -24,7 +24,6 @@ tags:
 - Fintech
 - Employer of Record
 - Global Payroll
-- HR
 - Human Resources
 - Contractors
 - Compliance

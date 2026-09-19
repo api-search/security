@@ -6,7 +6,7 @@ api_key_in:
 api_specs:
 - filename: mobileapi-dev-api-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev api API
+  label: MobileAPI.dev api
   slug: mobileapi-dev-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-api-openapi.yml

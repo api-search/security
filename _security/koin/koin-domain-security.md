@@ -42,24 +42,12 @@ api_specs:
   slug: koin-onboarding-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-onboarding-services-api-openapi.yml
-- filename: koin-payment-service-provider-api-openapi.yml
-  format: yaml
-  label: Koin Payment Service Provider API
-  slug: koin-payment-service-provider-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payment-service-provider-api-openapi.yml
 - filename: koin-payment-services-api-openapi.yml
   format: yaml
   label: Koin Payment Services API
   slug: koin-payment-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payment-services-api-openapi.yml
-- filename: koin-paymentrequest-api-openapi.yml
-  format: yaml
-  label: Koin PaymentRequest API
-  slug: koin-paymentrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-paymentrequest-api-openapi.yml
 - filename: koin-payout-services-api-openapi.yml
   format: yaml
   label: Koin Payout Services API
@@ -90,12 +78,12 @@ api_specs:
   slug: koin-tokenize-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-tokenize-services-api-openapi.yml
-- filename: koin-wiretransfer-api-openapi.yml
+- filename: koin-payment-request-api-openapi.yml
   format: yaml
-  label: Koin WireTransfer API
-  slug: koin-wiretransfer-api
+  label: Koin Payment Request API
+  slug: koin-payment-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-wiretransfer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/openapi/koin-payment-request-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,0 +1,119 @@
+{% comment %}
+  One regulation, as apis.io renders it.
+
+  The PROSE lives on regulations.apievangelist.com — that is the catalog's home and where
+  each law is actually written. What this page adds is the join: the countries, regions and
+  industries the regime reaches, each linking into the apis.io cohort that carries them. A
+  law and a scored population of providers, on one page.
+{% endcomment %}
+{% assign r = include.r %}
+
+<style>
+  .reg-head { padding: 1.5rem 0 .5rem; }
+  .reg-head h1 { font-size: 2rem; font-weight: 700; color: #1a1a2e; margin-bottom: .6rem; }
+  .reg-badges { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+  .reg-kind { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
+              padding: .25rem .6rem; border-radius: 99px; background: #ede9fe; color: #5b21b6; }
+  .reg-kind.bill { background: #fee2e2; color: #b91c1c; }
+  .reg-juris { font-size: .85rem; color: #6c757d; }
+  .reg-desc { color: #374151; line-height: 1.7; font-size: 1rem; margin-bottom: 1.5rem; }
+  .reg-scope { background: #f8fafc; border-left: 4px solid #5b21b6; padding: .85rem 1.15rem;
+               border-radius: 0 8px 8px 0; font-size: .9rem; color: #475569; line-height: 1.6; margin-bottom: 1.5rem; }
+  .reg-block { margin-bottom: 1.75rem; }
+  .reg-block h2 { font-size: 1.05rem; font-weight: 700; color: #1a1a2e; margin-bottom: .3rem; }
+  .reg-block .hint { font-size: .84rem; color: #6c757d; margin-bottom: .7rem; line-height: 1.55; }
+  .reg-terms a { display: inline-block; font-size: .85rem; padding: .3rem .7rem; margin: 0 .35rem .4rem 0;
+                 border: 1px solid #e3e7ee; border-radius: 99px; color: #334155; text-decoration: none;
+                 background: #fff; transition: all .12s; }
+  .reg-terms a:hover { border-color: #5b21b6; color: #5b21b6; text-decoration: none; }
+  .reg-links { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid #e3e7ee; }
+  .reg-links a { font-size: .87rem; padding: .45rem .9rem; border-radius: 6px; text-decoration: none; }
+  .reg-primary { background: #5b21b6; color: #fff; }
+  .reg-primary:hover { background: #4c1d95; color: #fff; text-decoration: none; }
+  .reg-secondary { border: 1px solid #e3e7ee; color: #475569; }
+  .reg-secondary:hover { border-color: #5b21b6; color: #5b21b6; text-decoration: none; }
+</style>
+
+{% if r %}
+<div class="reg-head">
+  <h1>{{ r.name }}</h1>
+  <div class="reg-badges">
+    <span class="reg-kind{% if r.kind == 'bill' %} bill{% endif %}">{{ r.kind_label }}</span>
+    {% if r.jurisdiction %}<span class="reg-juris">{{ r.jurisdiction }}</span>{% endif %}
+    {% if r.year %}<span class="reg-juris">&middot; {{ r.year }}</span>{% endif %}
+  </div>
+</div>
+
+{% if r.description %}<p class="reg-desc">{{ r.description }}</p>{% endif %}
+
+{% if r.kind == 'bill' %}
+<div class="reg-scope" style="border-left-color:#b91c1c;">
+  <strong>This is a bill, not law.</strong> It has been introduced but not enacted, it can be
+  amended beyond recognition or die on the order paper, and nothing in it binds anyone today.
+  It is catalogued because the obligations it proposes are the ones worth building toward.
+</div>
+{% endif %}
+
+{% if r.scope == 'horizontal' %}
+<div class="reg-scope">
+  <strong>Horizontal regime.</strong> It binds companies by what they do with data, software or
+  customers, not by the sector they sit in. The industries below are where it creates
+  <em>specific, additional</em> duties — not the limit of who has to comply.
+</div>
+{% elsif r.scope == 'sectoral' %}
+<div class="reg-scope">
+  <strong>Sectoral regime.</strong> It binds the industries below; companies outside them
+  generally fall outside it.
+</div>
+{% endif %}
+
+{% if r.countries.size > 0 %}
+<div class="reg-block">
+  <h2>Countries</h2>
+  <p class="hint">Where this binds. Each links to the providers apis.io has catalogued there.</p>
+  <div class="reg-terms">
+    {% for c in r.countries %}<a href="https://apis.io/countries/{{ c }}/">{{ c | replace: '-', ' ' }}</a>{% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if r.regions.size > 0 %}
+<div class="reg-block">
+  <h2>Regions</h2>
+  <div class="reg-terms">
+    {% for x in r.regions %}<a href="https://apis.io/regions/{{ x }}/">{{ x | replace: '-', ' ' }}</a>{% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if r.industries.size > 0 %}
+<div class="reg-block">
+  <h2>Industries</h2>
+  <p class="hint">Each links to that industry as a scored cohort — so the question "how ready is
+  this sector for the regime that governs it?" becomes one you can actually look at.</p>
+  <div class="reg-terms">
+    {% for i in r.industries %}<a href="https://apis.io/industries/{{ i }}/">{{ i | replace: '-', ' ' }}</a>{% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if r.standards.size > 0 %}
+<div class="reg-block">
+  <h2>Implemented by these standards</h2>
+  <p class="hint">A regulation is the law; a standard is the machine-readable contract that
+  satisfies it. Almost every regime in this catalog restricts an interface rather than
+  requiring one — where a standard exists, it is the part a provider can actually publish.</p>
+  <div class="reg-terms">
+    {% for s in r.standards %}<a href="{{ s.url }}">{{ s.title }}</a>{% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<div class="reg-links">
+  <a class="reg-primary" href="{{ r.ae_url }}">Read the full profile on API Evangelist &rarr;</a>
+  {% if r.url %}<a class="reg-secondary" href="{{ r.url }}" rel="noopener">Primary source</a>{% endif %}
+  <a class="reg-secondary" href="https://apis.io/regulations/">All regulations</a>
+</div>
+{% else %}
+<p>This regulation is no longer in the catalog. <a href="https://apis.io/regulations/">Browse all regulations</a>.</p>
+{% endif %}

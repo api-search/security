@@ -35,5 +35,5 @@ tags:
 - Monetization
 - Creators
 - Digital Products
-- Startup
+- Startups
 ---

@@ -80,5 +80,11 @@ source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/aws-lambda-api-openapi.yml\ndocs: https://docs.aws.amazon.com/lambda/latest/dg/security-iam.html\nsigning_docs: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. Requests must be signed with valid AWS\n    credentials that have the appropriate Lambda IAM permissions.\n  sources:\n  - openapi/aws-lambda-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/authentication/aws-lambda-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- Serverless
+- Monitoring
+- Observability
+- Logging
+- Telemetry
+- AWS Lambda
 ---

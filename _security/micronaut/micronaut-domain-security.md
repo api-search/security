@@ -96,7 +96,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - Java
 - JVM
 - Microservices

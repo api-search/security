@@ -55,6 +55,6 @@ tags:
 - Asynchronous Processing
 - Cloud Storage
 - Messaging
-- Queue
+- Queues
 - Storage
 ---

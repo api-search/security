@@ -25,6 +25,5 @@ tags:
 - Hiring
 - Referrals
 - Talent Acquisition
-- HR Tech
 trust_url: https://www.goboon.co/security
 ---

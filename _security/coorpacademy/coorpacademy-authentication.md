@@ -345,12 +345,6 @@ api_specs:
   slug: coorpacademy-scripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/openapi/coorpacademy-scripts-api-openapi.yml
-- filename: coorpacademy-sendemail-api-openapi.yml
-  format: yaml
-  label: Coorpacademy Send Email API
-  slug: coorpacademy-sendemail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/openapi/coorpacademy-sendemail-api-openapi.yml
 - filename: coorpacademy-signed-s3-url-bulk-scorm-upload-api-openapi.yml
   format: yaml
   label: Coorpacademy Signed S3 url BULK SCORM upload API
@@ -381,6 +375,12 @@ api_specs:
   slug: coorpacademy-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/openapi/coorpacademy-upload-api-openapi.yml
+- filename: coorpacademy-send-email-api-openapi.yml
+  format: yaml
+  label: Coorpacademy SEND EMAIL API
+  slug: coorpacademy-send-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/openapi/coorpacademy-send-email-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -460,7 +460,7 @@ tags:
 - User Provisioning
 - Learning Analytics
 - Skills
-- Certifications
+- Certification
 - Gamification
 - France
 - Switzerland

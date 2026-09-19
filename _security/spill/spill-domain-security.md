@@ -35,7 +35,7 @@ tags:
 - Mental Health
 - Employee Assistance Program
 - Wellbeing
-- HR Tech
+- Human Resources
 - Counselling
 - Therapy
 - Slack

@@ -39,7 +39,7 @@ tags:
 - Company
 - Gaming
 - Mobile Games
-- Mobile Apps
+- Mobile App
 - Advertising
 - Ad Network
 - Game Publishing

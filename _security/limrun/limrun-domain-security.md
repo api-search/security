@@ -94,7 +94,7 @@ tags:
 - Mobile
 - iOS
 - Android
-- Simulators
+- Simulator
 - Emulators
 - Cloud Infrastructure
 - Continuous Integration
@@ -102,6 +102,6 @@ tags:
 - Testing
 - Agents
 - MCP
-- Sandboxes
+- Sandbox
 - Xcode
 ---

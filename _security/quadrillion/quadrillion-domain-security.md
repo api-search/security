@@ -150,12 +150,6 @@ api_specs:
   slug: quadrillion-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-onboarding-api-openapi.yml
-- filename: quadrillion-openrouter-api-openapi.yml
-  format: yaml
-  label: Quadrillion Openrouter API
-  slug: quadrillion-openrouter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-openrouter-api-openapi.yml
 - filename: quadrillion-org-api-openapi.yml
   format: yaml
   label: Quadrillion org API
@@ -170,7 +164,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-project-api-openapi.yml
 - filename: quadrillion-quadrillion-cloud-api-api-openapi.yml
   format: yaml
-  label: Quadrillion Quadrillion Cloud API API
+  label: Quadrillion Cloud API
   slug: quadrillion-quadrillion-cloud-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-quadrillion-cloud-api-api-openapi.yml
@@ -306,6 +300,12 @@ api_specs:
   slug: quadrillion-you-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-you-api-openapi.yml
+- filename: quadrillion-open-router-api-openapi.yml
+  format: yaml
+  label: Quadrillion Open Router API
+  slug: quadrillion-open-router-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-open-router-api-openapi.yml
 description: ''
 domains:
 - caa: []

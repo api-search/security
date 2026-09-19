@@ -24,7 +24,7 @@ tags:
 - Artificial Intelligence
 - Health Coaching
 - Preventive Health
-- Telemedicine
+- Telehealth
 - Wellness
 - Singapore
 - Mobile Applications

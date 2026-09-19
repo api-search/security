@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-core-metadata-api-openapi.yml
 - filename: university-of-chicago-credentials-api-api-openapi.yml
   format: yaml
-  label: University of Chicago Gen3 Fence — credentials/api API
+  label: University of Chicago Gen3 Fence — credentials/api
   slug: university-of-chicago-credentials-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-credentials-api-api-openapi.yml
@@ -126,12 +126,6 @@ api_specs:
   slug: university-of-chicago-google-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-google-api-openapi.yml
-- filename: university-of-chicago-graphql-api-openapi.yml
-  format: yaml
-  label: University of Chicago Gen3 Peregrine — graphql API
-  slug: university-of-chicago-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-graphql-api-openapi.yml
 - filename: university-of-chicago-guid-api-openapi.yml
   format: yaml
   label: University of Chicago Gen3 indexd — GUID API
@@ -168,12 +162,6 @@ api_specs:
   slug: university-of-chicago-logout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-logout-api-openapi.yml
-- filename: university-of-chicago-oauth2-api-openapi.yml
-  format: yaml
-  label: University of Chicago Gen3 Fence — oauth2 API
-  slug: university-of-chicago-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-oauth2-api-openapi.yml
 - filename: university-of-chicago-oidc-api-openapi.yml
   format: yaml
   label: University of Chicago Gen3 Fence — OIDC API
@@ -234,6 +222,18 @@ api_specs:
   slug: university-of-chicago-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-records-api-openapi.yml
+- filename: university-of-chicago-oauth2-api-openapi.yml
+  format: yaml
+  label: University of Chicago Oauth2 API
+  slug: university-of-chicago-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-oauth2-api-openapi.yml
+- filename: university-of-chicago-graph-ql-api-openapi.yml
+  format: yaml
+  label: University of Chicago Graph QL API
+  slug: university-of-chicago-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

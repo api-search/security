@@ -35,7 +35,7 @@ tags:
 - Travel
 - Transportation
 - Bus
-- Train
+- Trains
 - Booking
 - Metasearch
 - Ticketing

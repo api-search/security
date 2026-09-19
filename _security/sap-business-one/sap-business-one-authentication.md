@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
-- filename: sap-business-one-businesspartners-api-openapi.yml
-  format: yaml
-  label: SAP Business One BusinessPartners API
-  slug: sap-business-one-businesspartners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-api-openapi.yml
 - filename: sap-business-one-businesspartners-cardcode-api-openapi.yml
   format: yaml
   label: SAP Business One BusinessPartners('{CardCode}') API
@@ -57,6 +51,12 @@ api_specs:
   slug: sap-business-one-orders-docentry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-docentry-api-openapi.yml
+- filename: sap-business-one-business-partners-api-openapi.yml
+  format: yaml
+  label: SAP Business One Business Partners API
+  slug: sap-business-one-business-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-business-partners-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -88,7 +88,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-business-o
 summary_line: apiKey · 1 scheme
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory Management
 - CRM

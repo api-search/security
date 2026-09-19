@@ -54,6 +54,6 @@ tags:
 - Analytics
 - Surveillance
 - Time Series
-- Equities
+- Stocks
 - Options
 ---

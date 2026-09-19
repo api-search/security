@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/firely-server-catalog-api-openapi.yml
 - filename: firely-server-simplifier-net-fhir-package-api-api-openapi.yml
   format: yaml
-  label: Firely Simplifier.net FHIR Package API API
+  label: Firely Simplifier.net FHIR Package API
   slug: firely-server-simplifier-net-fhir-package-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/firely-server-simplifier-net-fhir-package-api-api-openapi.yml

@@ -140,5 +140,5 @@ tags:
 - Warehouse Management
 - Inventory
 - Retail
-- Marketplaces
+- Marketplace
 ---

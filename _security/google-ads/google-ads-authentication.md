@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-ad-groups-api-openapi.yml
 - filename: google-ads-ads-api-openapi.yml
   format: yaml
-  label: Google Ads Ads API
+  label: Google Ads API
   slug: google-ads-ads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-ads-api-openapi.yml
@@ -44,12 +44,6 @@ api_specs:
   slug: google-ads-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-reporting-api-openapi.yml
-- filename: google-ads-audienceinsights-api-openapi.yml
-  format: yaml
-  label: Google Ads Audience Insights API
-  slug: google-ads-audienceinsights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-audienceinsights-api-openapi.yml
 - filename: google-ads-customers-accountbudgetproposals-api-openapi.yml
   format: yaml
   label: Google Ads Customers.account Budget Proposals API
@@ -650,6 +644,12 @@ api_specs:
   slug: google-ads-v25-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-api-openapi.yml
+- filename: google-ads-audience-insights-api-openapi.yml
+  format: yaml
+  label: Google Ads Audience Insights API
+  slug: google-ads-audience-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-audience-insights-api-openapi.yml
 auth_types:
 - oauth2
 description: Google Ads authentication is two credentials that are easy to confuse and independently sufficient to break a call. OAuth 2.0 identifies the USER and grants the single adwords scope. The developer token identifies the APPLICATION and gates what it may reach and how much of it. A correct OAuth token with a Test-access developer token cannot touch a production account, and no amount of re-authorising will fix it — that is an application to Google, not a token refresh.
@@ -720,4 +720,5 @@ tags:
 - Google
 - Marketing
 - PPC
+- Google Ads
 ---

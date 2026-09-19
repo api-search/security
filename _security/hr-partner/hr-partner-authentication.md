@@ -218,9 +218,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hr-partn
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/authentication/hr-partner-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Records
 - Leave Management
 - Recruitment

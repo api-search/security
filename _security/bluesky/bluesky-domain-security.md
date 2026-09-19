@@ -196,6 +196,6 @@ tags:
 - Decentralized
 - Federated
 - Open-Source
-- Social Networks
+- Social Network
 - Social-Media
 ---

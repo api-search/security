@@ -4,30 +4,78 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: la-poste-groupe-suivi-openapi.json
-  format: json
-  label: La Poste Suivi v2
-  slug: la-poste-suivi-v2
+- filename: la-poste-groupe-administration-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Administration API
+  slug: la-poste-groupe-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-suivi-openapi.json
-- filename: la-poste-groupe-digiposte-openapi.json
-  format: json
-  label: Digiposte v3
-  slug: digiposte-v3
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-administration-api-openapi.yml
+- filename: la-poste-groupe-applications-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Applications API
+  slug: la-poste-groupe-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-digiposte-openapi.json
-- filename: la-poste-groupe-lettre-recommandee-en-ligne-openapi.json
-  format: json
-  label: Lettre recommandee en ligne v1
-  slug: lettre-recommandee-en-ligne-v1
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-applications-api-openapi.yml
+- filename: la-poste-groupe-digiposte-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Digiposte API
+  slug: la-poste-groupe-digiposte-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-lettre-recommandee-en-ligne-openapi.json
-- filename: la-poste-groupe-open-data-openapi.json
-  format: json
-  label: La Poste Open Data v1
-  slug: la-poste-open-data-v1
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-digiposte-api-openapi.yml
+- filename: la-poste-groupe-jdd-ditable-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe JDD / Éditable API
+  slug: la-poste-groupe-jdd-ditable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-open-data-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jdd-ditable-api-openapi.yml
+- filename: la-poste-groupe-jdd-donn-es-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe JDD / Données API
+  slug: la-poste-groupe-jdd-donn-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jdd-donn-es-api-openapi.yml
+- filename: la-poste-groupe-jdd-m-tadonn-es-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe JDD / Métadonnées API
+  slug: la-poste-groupe-jdd-m-tadonn-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jdd-m-tadonn-es-api-openapi.yml
+- filename: la-poste-groupe-jeux-de-donn-es-jdd-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Jeux de données (JDD) API
+  slug: la-poste-groupe-jeux-de-donn-es-jdd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-jeux-de-donn-es-jdd-api-openapi.yml
+- filename: la-poste-groupe-lh-pro-resources-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe LH PRO resources API
+  slug: la-poste-groupe-lh-pro-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-lh-pro-resources-api-openapi.yml
+- filename: la-poste-groupe-partner-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Partner API
+  slug: la-poste-groupe-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-partner-api-openapi.yml
+- filename: la-poste-groupe-resend-purl-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Resend Purl API
+  slug: la-poste-groupe-resend-purl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-resend-purl-api-openapi.yml
+- filename: la-poste-groupe-suivi-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe Suivi API
+  slug: la-poste-groupe-suivi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-suivi-api-openapi.yml
+- filename: la-poste-groupe-user-api-openapi.yml
+  format: yaml
+  label: La Poste Groupe User API
+  slug: la-poste-groupe-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/openapi/la-poste-groupe-user-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -111,7 +159,7 @@ tags:
 - Addresses
 - Geocoding
 - Open Data
-- Document Management
+- Document-Management
 - Identity
 - Government
 - France

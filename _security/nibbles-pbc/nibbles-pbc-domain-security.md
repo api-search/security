@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nibbles-pbc/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Pet
+- Pets
 - Insurance
 - Financial-Services
-- Credit Card
+- Credit Cards
 - Consumer
 - Public Benefit Company
 - Rewards

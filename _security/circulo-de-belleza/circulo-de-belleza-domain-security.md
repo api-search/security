@@ -40,5 +40,5 @@ tags:
 - Hair Care
 - Professional Beauty Products
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 ---

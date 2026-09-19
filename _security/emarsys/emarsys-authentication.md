@@ -51,12 +51,6 @@ api_specs:
   slug: emarsys-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-api-openapi.yml
-- filename: emarsys-contactlist-api-openapi.yml
-  format: yaml
-  label: SAP Emarsys Contactlist API
-  slug: emarsys-contactlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contactlist-api-openapi.yml
 - filename: emarsys-delivery-reports-api-openapi.yml
   format: yaml
   label: SAP Emarsys Delivery Reports API
@@ -183,6 +177,12 @@ api_specs:
   slug: emarsys-wishlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-wishlist-api-openapi.yml
+- filename: emarsys-contact-list-api-openapi.yml
+  format: yaml
+  label: SAP Emarsys Contact List API
+  slug: emarsys-contact-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-list-api-openapi.yml
 auth_types:
 - apiKey
 - http

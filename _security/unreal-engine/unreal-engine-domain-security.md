@@ -48,7 +48,7 @@ tags:
 - Game Development
 - Game Engine
 - Pixel Streaming
-- Plugin
+- Plugins
 - Real-Time
 - Rendering
 - RHI

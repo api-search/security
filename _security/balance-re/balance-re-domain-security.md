@@ -35,7 +35,7 @@ tags:
 - Insurtech
 - Life Insurance
 - Asset-Liability Management
-- Pension
+- Pensions
 - Fintech
 - Germany
 ---

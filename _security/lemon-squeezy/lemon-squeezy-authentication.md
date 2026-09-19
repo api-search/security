@@ -94,7 +94,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-keys-api-openapi.yml
 - filename: lemon-squeezy-lemon-squeezy-api-api-openapi.yml
   format: yaml
-  label: Lemon Squeezy Lemon Squeezy API API
+  label: Lemon Squeezy Lemon Squeezy API
   slug: lemon-squeezy-lemon-squeezy-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-lemon-squeezy-api-api-openapi.yml

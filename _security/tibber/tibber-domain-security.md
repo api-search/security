@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tibber-graphql-api-openapi.yml
-  format: yaml
-  label: Tibber GraphQL API
-  slug: tibber-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graphql-api-openapi.yml
 - filename: tibber-devices-api-openapi.yml
   format: yaml
   label: Tibber Devices API
@@ -24,6 +18,12 @@ api_specs:
   slug: tibber-homes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-homes-api-openapi.yml
+- filename: tibber-graph-ql-api-openapi.yml
+  format: yaml
+  label: Tibber Graph QL API
+  slug: tibber-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

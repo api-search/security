@@ -12,12 +12,6 @@ api_specs:
   slug: commercetools-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-categories-api-openapi.yml
-- filename: commercetools-changehistory-api-openapi.yml
-  format: yaml
-  label: commercetools ChangeHistory API
-  slug: commercetools-changehistory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-changehistory-api-openapi.yml
 - filename: commercetools-customers-api-openapi.yml
   format: yaml
   label: commercetools Customers API
@@ -60,12 +54,6 @@ api_specs:
   slug: commercetools-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-products-api-openapi.yml
-- filename: commercetools-productvariants-api-openapi.yml
-  format: yaml
-  label: commercetools ProductVariants API
-  slug: commercetools-productvariants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-productvariants-api-openapi.yml
 - filename: commercetools-project-api-openapi.yml
   format: yaml
   label: commercetools Project API
@@ -84,6 +72,18 @@ api_specs:
   slug: commercetools-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-subscriptions-api-openapi.yml
+- filename: commercetools-change-history-api-openapi.yml
+  format: yaml
+  label: commercetools Change History API
+  slug: commercetools-change-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-change-history-api-openapi.yml
+- filename: commercetools-product-variants-api-openapi.yml
+  format: yaml
+  label: commercetools Product Variants API
+  slug: commercetools-product-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-product-variants-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2

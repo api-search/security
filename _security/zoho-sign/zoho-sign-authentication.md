@@ -59,10 +59,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/authentication/zoho-sign-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Electronic Signatures
+- Electronic Signature
 - E-Signature
 - Document-Management
-- Digital Signatures
+- Digital Signature
 - Signature Workflows
 - Templates
 - Compliance

@@ -74,8 +74,8 @@ tags:
 - TVL
 - Crypto
 - Stablecoins
-- Yields
-- Bridges
+- Yield
+- Bridge
 - Aggregator
 - Open-Source
 ---

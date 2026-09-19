@@ -35,7 +35,7 @@ tags:
 - Real-World Data
 - Electronic Health Records
 - Natural Language Processing
-- Large Language Models
+- LLM
 - Clinical Knowledge Graph
 - Pharmacovigilance
 - Precision Medicine

@@ -18,12 +18,6 @@ api_specs:
   slug: kestra-flows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-flows-api-openapi.yml
-- filename: kestra-kvstore-api-openapi.yml
-  format: yaml
-  label: Kestra KVStore API
-  slug: kestra-kvstore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kvstore-api-openapi.yml
 - filename: kestra-namespaces-api-openapi.yml
   format: yaml
   label: Kestra Namespaces API
@@ -36,6 +30,12 @@ api_specs:
   slug: kestra-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
+- filename: kestra-kv-store-api-openapi.yml
+  format: yaml
+  label: Kestra KV Store API
+  slug: kestra-kv-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kv-store-api-openapi.yml
 description: ''
 domains:
 - caa: []

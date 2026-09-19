@@ -12,18 +12,18 @@ api_specs:
   slug: intelycare-shift-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-shift-api-openapi.yml
-- filename: intelycare-timecard-api-openapi.yml
-  format: yaml
-  label: IntelyCare Timecard API
-  slug: intelycare-timecard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-timecard-api-openapi.yml
 - filename: intelycare-webhook-events-api-openapi.yml
   format: yaml
   label: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-webhook-events-api-openapi.yml
+- filename: intelycare-time-card-api-openapi.yml
+  format: yaml
+  label: IntelyCare Time Card API
+  slug: intelycare-time-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-time-card-api-openapi.yml
 description: ''
 domains:
 - caa: []

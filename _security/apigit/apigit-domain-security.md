@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: apigit-apis-api-openapi.yml
-  format: yaml
-  label: APIGit APIs API
-  slug: apigit-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
 - filename: apigit-mocks-api-openapi.yml
   format: yaml
   label: APIGit Mocks API
@@ -24,6 +18,12 @@ api_specs:
   slug: apigit-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
+- filename: apigit-apis-api-openapi.yml
+  format: yaml
+  label: APIGit AP Is API
+  slug: apigit-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,6 +59,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - API Design
 - API Lifecycle
+- Developer Tools
 - Documentation
 - Git
 - Governance

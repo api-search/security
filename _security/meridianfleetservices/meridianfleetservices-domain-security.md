@@ -36,5 +36,5 @@ tags:
 - Fleet Management
 - Transportation
 - Holding Company
-- Acquisitions
+- Acquisition
 ---

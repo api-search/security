@@ -57,7 +57,7 @@ tags:
 - Company
 - Financial-Services
 - Capital Markets
-- Exchanges
+- Exchange
 - Revenue-Based Financing
 - Fintech
 - Investing

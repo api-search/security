@@ -54,12 +54,6 @@ api_specs:
   slug: okta-groupschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-groupschema-api-openapi.yml
-- filename: okta-identityprovider-api-openapi.yml
-  format: yaml
-  label: Okta IdentityProvider API
-  slug: okta-identityprovider-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-identityprovider-api-openapi.yml
 - filename: okta-inlinehook-api-openapi.yml
   format: yaml
   label: Okta InlineHook API
@@ -150,12 +144,18 @@ api_specs:
   slug: okta-userschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-userschema-api-openapi.yml
-- filename: okta-usertype-api-openapi.yml
+- filename: okta-identity-provider-api-openapi.yml
   format: yaml
-  label: Okta UserType API
-  slug: okta-usertype-api
+  label: Okta Identity Provider API
+  slug: okta-identity-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-usertype-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-identity-provider-api-openapi.yml
+- filename: okta-user-type-api-openapi.yml
+  format: yaml
+  label: Okta User Type API
+  slug: okta-user-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-user-type-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -210,7 +210,7 @@ tags:
 - Customer Identity
 - Authentication
 - Authorization
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - Identity Governance
 - Privileged Access

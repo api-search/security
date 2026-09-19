@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/
 summary_line: 3 schemes
 tags:
 - Automation
-- Browsers
+- Browser
 - End-to-End Testing
 - Quality Assurance
 - Testing

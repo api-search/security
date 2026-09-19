@@ -193,7 +193,7 @@ tags:
 - Enrichment
 - Contact Data
 - Prospecting
-- Intent
+- Intents
 - Signals
 - Lookalikes
 - Webhook

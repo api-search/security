@@ -2,7 +2,7 @@
 api_specs:
 - filename: apis-guru-apis-api-openapi.yml
   format: yaml
-  label: APIs.guru APIs API
+  label: APIs.guru AP Is API
   slug: apis-guru-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-apis-api-openapi.yml

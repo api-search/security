@@ -36,4 +36,5 @@ tags:
 - Marketing Technology
 - Interactive Advertising
 - Creative
+- Defunct
 ---

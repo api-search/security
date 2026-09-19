@@ -84,7 +84,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Payroll
 - Human Resources
-- HR Tech
 - Europe Payroll
 - Time and Attendance
 - Employee Management

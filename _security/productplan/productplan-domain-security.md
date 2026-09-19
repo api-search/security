@@ -94,7 +94,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Roadmapping
 - Product Management
-- OKR
+- OKRs
 - Roadmaps
 - Features
 - Product Strategy

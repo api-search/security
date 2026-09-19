@@ -52,7 +52,7 @@ tags:
 - Invoicing
 - Client Portal
 - Subcontractor Portal
-- Mobile Apps
+- Mobile App
 - Software-as-a-Service
 - Vertical SaaS
 ---

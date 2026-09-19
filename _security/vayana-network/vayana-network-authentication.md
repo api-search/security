@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: vayana-network-atlas-openapi.json
-  format: json
-  label: Vayana Atlas API
-  slug: vayana-network-atlas
+- filename: vayana-network-authorization-suite-api-openapi.yml
+  format: yaml
+  label: Vayana Network Authorization Suite API
+  slug: vayana-network-authorization-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-atlas-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-authorization-suite-api-openapi.yml
+- filename: vayana-network-compliance-suite-api-openapi.yml
+  format: yaml
+  label: Vayana Network Compliance Suite API
+  slug: vayana-network-compliance-suite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-compliance-suite-api-openapi.yml
+- filename: vayana-network-support-suite-api-openapi.yml
+  format: yaml
+  label: Vayana Network Support Suite API
+  slug: vayana-network-support-suite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-support-suite-api-openapi.yml
+- filename: vayana-network-verification-suite-api-openapi.yml
+  format: yaml
+  label: Vayana Network Verification Suite API
+  slug: vayana-network-verification-suite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-verification-suite-api-openapi.yml
 auth_types:
 - http
 - apiKey

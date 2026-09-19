@@ -37,6 +37,6 @@ tags:
 - Dual Enrollment
 - E-Commerce
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
 ---

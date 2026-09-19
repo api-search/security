@@ -56,18 +56,18 @@ api_specs:
   slug: harvest-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-tasks-api-openapi.yml
-- filename: harvest-timeentries-api-openapi.yml
-  format: yaml
-  label: Harvest TimeEntries API
-  slug: harvest-timeentries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-timeentries-api-openapi.yml
 - filename: harvest-users-api-openapi.yml
   format: yaml
   label: Harvest Users API
   slug: harvest-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-users-api-openapi.yml
+- filename: harvest-time-entries-api-openapi.yml
+  format: yaml
+  label: Harvest Time Entries API
+  slug: harvest-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-time-entries-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -107,4 +107,5 @@ tags:
 - Expense Tracking
 - Timesheets
 - Professional Services
+- Harvest
 ---

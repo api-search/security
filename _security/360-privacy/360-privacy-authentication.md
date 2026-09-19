@@ -50,5 +50,5 @@ tags:
 - Threat Intelligence
 - Dark Web Monitoring
 - Personal Data
-- Managed Services
+- Managed Service
 ---

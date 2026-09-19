@@ -44,18 +44,18 @@ api_specs:
   slug: chimoney-redeem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-redeem-api-openapi.yml
-- filename: chimoney-subaccount-api-openapi.yml
-  format: yaml
-  label: Chimoney SubAccount API
-  slug: chimoney-subaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-subaccount-api-openapi.yml
 - filename: chimoney-wallet-api-openapi.yml
   format: yaml
   label: Chimoney Wallet API
   slug: chimoney-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-wallet-api-openapi.yml
+- filename: chimoney-sub-account-api-openapi.yml
+  format: yaml
+  label: Chimoney Sub Account API
+  slug: chimoney-sub-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-sub-account-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

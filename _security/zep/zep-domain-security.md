@@ -51,7 +51,7 @@ tags:
 - LangChain
 - LlamaIndex
 - CrewAI
-- LLMs
+- LLM
 - Personalization
 - Retrieval
 ---

@@ -45,7 +45,7 @@ summary_line: http · 1 scheme
 tags:
 - Expense Management
 - Finance
-- Invoice
+- Invoices
 - SAP
 - Travel
 ---

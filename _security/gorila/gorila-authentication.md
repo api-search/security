@@ -34,7 +34,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Fintech
-- Investments
+- Investment
 - Portfolio-Management
 - Wealth Management
 - Financial Data

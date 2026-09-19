@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Edge Computing
-- Content Delivery Network
+- CDN
 - Web Application Firewall
 - DNS
 - Object Storage

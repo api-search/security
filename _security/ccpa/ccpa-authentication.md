@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: ccpa-drop-databroker-api.yml
+- filename: ccpa-download-api-openapi.yml
   format: yaml
-  label: CalPrivacy DROP Data Broker API
-  slug: drop-data-broker-api
+  label: CCPA (California Consumer Privacy Act) Download API
+  slug: ccpa-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/openapi/ccpa-drop-databroker-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/openapi/ccpa-download-api-openapi.yml
+- filename: ccpa-upload-api-openapi.yml
+  format: yaml
+  label: CCPA (California Consumer Privacy Act) Upload API
+  slug: ccpa-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/openapi/ccpa-upload-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -26,7 +26,7 @@ summary_line: ISO/IEC 27001, SOC 2, SOC 3
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Inference
 - API Gateway
 - GPU

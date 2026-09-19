@@ -2,7 +2,7 @@
 api_specs:
 - filename: serval-auth-api-api-openapi.yml
   format: yaml
-  label: Serval Auth API API
+  label: Serval Auth API
   slug: serval-auth-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/openapi/serval-auth-api-api-openapi.yml

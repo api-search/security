@@ -18,12 +18,6 @@ api_specs:
   slug: tm-forum-billformat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-billformat-api-openapi.yml
-- filename: tm-forum-billingaccount-api-openapi.yml
-  format: yaml
-  label: TM Forum billingAccount API
-  slug: tm-forum-billingaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-billingaccount-api-openapi.yml
 - filename: tm-forum-billingcyclespecification-api-openapi.yml
   format: yaml
   label: TM Forum billingCycleSpecification API
@@ -66,24 +60,6 @@ api_specs:
   slug: tm-forum-events-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-events-subscription-api-openapi.yml
-- filename: tm-forum-exportjob-api-openapi.yml
-  format: yaml
-  label: TM Forum exportJob API
-  slug: tm-forum-exportjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-exportjob-api-openapi.yml
-- filename: tm-forum-financialaccount-api-openapi.yml
-  format: yaml
-  label: TM Forum financialAccount API
-  slug: tm-forum-financialaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-financialaccount-api-openapi.yml
-- filename: tm-forum-importjob-api-openapi.yml
-  format: yaml
-  label: TM Forum importJob API
-  slug: tm-forum-importjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-importjob-api-openapi.yml
 - filename: tm-forum-individual-api-openapi.yml
   format: yaml
   label: TM Forum individual API
@@ -120,12 +96,6 @@ api_specs:
   slug: tm-forum-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-product-api-openapi.yml
-- filename: tm-forum-productcatalog-api-openapi.yml
-  format: yaml
-  label: TM Forum productCatalog API
-  slug: tm-forum-productcatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-productcatalog-api-openapi.yml
 - filename: tm-forum-productoffering-api-openapi.yml
   format: yaml
   label: TM Forum productOffering API
@@ -144,12 +114,6 @@ api_specs:
   slug: tm-forum-productorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-productorder-api-openapi.yml
-- filename: tm-forum-productspecification-api-openapi.yml
-  format: yaml
-  label: TM Forum productSpecification API
-  slug: tm-forum-productspecification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-productspecification-api-openapi.yml
 - filename: tm-forum-quote-api-openapi.yml
   format: yaml
   label: TM Forum quote API
@@ -186,48 +150,84 @@ api_specs:
   slug: tm-forum-servicecandidate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-servicecandidate-api-openapi.yml
-- filename: tm-forum-servicecatalog-api-openapi.yml
-  format: yaml
-  label: TM Forum serviceCatalog API
-  slug: tm-forum-servicecatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-servicecatalog-api-openapi.yml
-- filename: tm-forum-servicecategory-api-openapi.yml
-  format: yaml
-  label: TM Forum serviceCategory API
-  slug: tm-forum-servicecategory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-servicecategory-api-openapi.yml
-- filename: tm-forum-serviceorder-api-openapi.yml
-  format: yaml
-  label: TM Forum serviceOrder API
-  slug: tm-forum-serviceorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-serviceorder-api-openapi.yml
-- filename: tm-forum-servicespecification-api-openapi.yml
-  format: yaml
-  label: TM Forum serviceSpecification API
-  slug: tm-forum-servicespecification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-servicespecification-api-openapi.yml
 - filename: tm-forum-settlementaccount-api-openapi.yml
   format: yaml
   label: TM Forum settlementAccount API
   slug: tm-forum-settlementaccount-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-settlementaccount-api-openapi.yml
-- filename: tm-forum-troubleticket-api-openapi.yml
-  format: yaml
-  label: TM Forum troubleTicket API
-  slug: tm-forum-troubleticket-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-troubleticket-api-openapi.yml
 - filename: tm-forum-troubleticketspecification-api-openapi.yml
   format: yaml
   label: TM Forum troubleTicketSpecification API
   slug: tm-forum-troubleticketspecification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-troubleticketspecification-api-openapi.yml
+- filename: tm-forum-billing-account-api-openapi.yml
+  format: yaml
+  label: TM Forum Billing Account API
+  slug: tm-forum-billing-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-billing-account-api-openapi.yml
+- filename: tm-forum-export-job-api-openapi.yml
+  format: yaml
+  label: TM Forum Export Job API
+  slug: tm-forum-export-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-export-job-api-openapi.yml
+- filename: tm-forum-financial-account-api-openapi.yml
+  format: yaml
+  label: TM Forum Financial Account API
+  slug: tm-forum-financial-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-financial-account-api-openapi.yml
+- filename: tm-forum-import-job-api-openapi.yml
+  format: yaml
+  label: TM Forum Import Job API
+  slug: tm-forum-import-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-import-job-api-openapi.yml
+- filename: tm-forum-product-catalog-api-openapi.yml
+  format: yaml
+  label: TM Forum Product Catalog API
+  slug: tm-forum-product-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-product-catalog-api-openapi.yml
+- filename: tm-forum-product-specification-api-openapi.yml
+  format: yaml
+  label: TM Forum Product Specification API
+  slug: tm-forum-product-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-product-specification-api-openapi.yml
+- filename: tm-forum-service-catalog-api-openapi.yml
+  format: yaml
+  label: TM Forum Service Catalog API
+  slug: tm-forum-service-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-service-catalog-api-openapi.yml
+- filename: tm-forum-service-category-api-openapi.yml
+  format: yaml
+  label: TM Forum Service Category API
+  slug: tm-forum-service-category-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-service-category-api-openapi.yml
+- filename: tm-forum-service-order-api-openapi.yml
+  format: yaml
+  label: TM Forum Service Order API
+  slug: tm-forum-service-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-service-order-api-openapi.yml
+- filename: tm-forum-service-specification-api-openapi.yml
+  format: yaml
+  label: TM Forum Service Specification API
+  slug: tm-forum-service-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-service-specification-api-openapi.yml
+- filename: tm-forum-trouble-ticket-api-openapi.yml
+  format: yaml
+  label: TM Forum Trouble Ticket API
+  slug: tm-forum-trouble-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/openapi/tm-forum-trouble-ticket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -265,4 +265,5 @@ tags:
 - OSS
 - Open APIs
 - Standards
+- TM Forum
 ---

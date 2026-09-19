@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: amazon-eventbridge-pipes-pipes-api-openapi.yml
   format: yaml
-  label: Amazon EventBridge Pipes Pipes API
+  label: Amazon EventBridge Pipes API
   slug: amazon-eventbridge-pipes-pipes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/openapi/amazon-eventbridge-pipes-pipes-api-openapi.yml

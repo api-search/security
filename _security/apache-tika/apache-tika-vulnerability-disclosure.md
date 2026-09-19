@@ -2,7 +2,7 @@
 api_specs:
 - filename: apache-tika-apache-tika-server-rest-api-api-openapi.yml
   format: yaml
-  label: Apache Tika Apache Tika Server REST API API
+  label: Apache Tika Apache Tika Server REST API
   slug: apache-tika-apache-tika-server-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-apache-tika-server-rest-api-api-openapi.yml
@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-status-api-openapi.yml
 - filename: apache-tika-tika-api-openapi.yml
   format: yaml
-  label: Apache Tika Tika API
+  label: Apache Tika API
   slug: apache-tika-tika-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/openapi/apache-tika-tika-api-openapi.yml

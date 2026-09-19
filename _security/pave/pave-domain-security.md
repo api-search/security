@@ -36,6 +36,5 @@ tags:
 - Compensation Benchmarking
 - Market Data
 - People Analytics
-- HR Tech
 - Total Rewards
 ---

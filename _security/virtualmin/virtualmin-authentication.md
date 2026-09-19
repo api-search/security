@@ -40,7 +40,7 @@ tags:
 - Email
 - Domains
 - Virtual Servers
-- Databases
+- Database
 - SSL
 - WordPress
 - Open-Source

@@ -34,7 +34,7 @@ tags:
 - Company
 - Vertical Software
 - Automotive
-- Dealerships
+- Dealership
 - Service Scheduling
 - Vehicle Inspection
 - Customer Engagement

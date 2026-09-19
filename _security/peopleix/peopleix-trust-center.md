@@ -22,11 +22,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleix/refs/
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- HR
+- Human Resources
 - People Analytics
 - People Intelligence
 - Conversation Intelligence
-- Human Resources
 - Workforce Analytics
 - Artificial Intelligence
 - MCP

@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Consumer Apps
+- Consumer App
 - Mobile
 - Astrology
 - Wellness

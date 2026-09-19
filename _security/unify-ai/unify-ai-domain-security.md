@@ -87,7 +87,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LLM
 - Artificial Intelligence
-- Large Language Models
 - LLM Routing
 - Model Gateway
 - AI Gateway

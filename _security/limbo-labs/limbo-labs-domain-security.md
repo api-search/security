@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Defunct
-- Startup
+- Startups
 - San Francisco
 - Venture Backed
 - Software

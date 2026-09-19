@@ -36,6 +36,5 @@ tags:
 - Benchmarking
 - Total Rewards
 - Human Resources
-- HR Tech
 - Software-as-a-Service
 ---

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-math-api-openapi.yml
 - filename: numbers-api-numbers-api-api-openapi.yml
   format: yaml
-  label: Numbers API Numbers API API
+  label: Numbers API Numbers API
   slug: numbers-api-numbers-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-numbers-api-api-openapi.yml
@@ -36,12 +36,12 @@ api_specs:
   slug: numbers-api-year-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-year-api-openapi.yml
-- filename: numbers-batch-api-openapi.yml
+- filename: numbers-api-batch-api-openapi.yml
   format: yaml
   label: Numbers API Batch API
-  slug: numbers-batch-api
+  slug: numbers-api-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-batch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-batch-api-openapi.yml
 description: ''
 domains:
 - caa: []

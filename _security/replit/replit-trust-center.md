@@ -39,8 +39,9 @@ summary_line: SOC 2
 tags:
 - Code
 - Compiling
+- Developer Tools
 - Development Environment
-- Programming Languages
+- Programming Language
 - Version Control
 trust_url: https://trust.replit.com/
 ---

@@ -95,5 +95,5 @@ tags:
 - PKI
 - Cryptography
 - Certificate Authority
-- HTTPS
+- HTTP
 ---

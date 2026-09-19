@@ -56,12 +56,12 @@ api_specs:
   slug: nextiva-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-transfers-api-openapi.yml
-- filename: nextiva-workitems-api-openapi.yml
+- filename: nextiva-work-items-api-openapi.yml
   format: yaml
-  label: Nextiva Workitems API
-  slug: nextiva-workitems-api
+  label: Nextiva Work Items API
+  slug: nextiva-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-workitems-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/openapi/nextiva-work-items-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+- filename: hebrew-university-of-jerusalem-courses-api-openapi.yml
   format: yaml
-  label: Shnaton Course Catalog API
-  slug: shnaton-course-catalog
+  label: Hebrew University of Jerusalem Courses API
+  slug: hebrew-university-of-jerusalem-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-courses-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-organization-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Organization API
+  slug: hebrew-university-of-jerusalem-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-organization-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-reference-data-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Reference Data API
+  slug: hebrew-university-of-jerusalem-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-reference-data-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-service-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Service API
+  slug: hebrew-university-of-jerusalem-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-service-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-specializations-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Specializations API
+  slug: hebrew-university-of-jerusalem-specializations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-specializations-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-syllabus-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Syllabus API
+  slug: hebrew-university-of-jerusalem-syllabus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-syllabus-api-openapi.yml
 description: ''
 domains:
 - caa:

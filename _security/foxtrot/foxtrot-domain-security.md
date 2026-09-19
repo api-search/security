@@ -31,7 +31,7 @@ summary_line: DMARC
 tags:
 - Company
 - Retail
-- Convenience Store
+- Convenience Stores
 - Cafe
 - Grocery
 - Food and Beverage

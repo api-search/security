@@ -1,29 +1,23 @@
 ---
 api_specs:
-- filename: foreign-agricultural-service-fas-open-data-swagger.json
-  format: json
-  label: USDA FAS Open Data API
-  slug: fas-open-data
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/_original/foreign-agricultural-service-fas-open-data-swagger.json
-- filename: foreign-agricultural-service-esr-api-openapi.yml
+- filename: foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
   format: yaml
-  label: Foreign Agricultural Service ESR API
-  slug: foreign-agricultural-service-esr-api
+  label: Foreign Agricultural Service ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API
+  slug: foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-esr-api-openapi.yml
-- filename: foreign-agricultural-service-gats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
+- filename: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
   format: yaml
-  label: Foreign Agricultural Service GATS API
-  slug: foreign-agricultural-service-gats-api
+  label: Foreign Agricultural Service GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API
+  slug: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-gats-api-openapi.yml
-- filename: foreign-agricultural-service-psd-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
+- filename: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
   format: yaml
-  label: Foreign Agricultural Service PSD API
-  slug: foreign-agricultural-service-psd-api
+  label: Foreign Agricultural Service PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API
+  slug: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-psd-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,8 +62,8 @@ tags:
 - Agriculture
 - Federal-Government
 - Trade
-- Open-Data
+- Open Data
 - Commodities
-- Exports
+- Export
 - Government
 ---

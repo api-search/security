@@ -24,7 +24,7 @@ tags:
 - AdTech
 - Mobile
 - Retargeting
-- Demand-Side Platform
+- DSP
 - User Acquisition
 - Marketing
 trust_url: https://trust.remerge.io/

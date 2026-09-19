@@ -42,7 +42,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perpay/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Fintech
-- BNPL
 - Buy Now Pay Later
 - Credit Building
 - Payroll Deduction

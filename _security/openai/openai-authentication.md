@@ -298,7 +298,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
 - filename: openai-openai-api-api-openapi.yml
   format: yaml
-  label: OpenAI OpenAI API
+  label: OpenAI API
   slug: openai-openai-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-openai-api-api-openapi.yml
@@ -369,6 +369,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/he
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - T1
 ---

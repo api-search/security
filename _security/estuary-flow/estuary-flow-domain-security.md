@@ -55,7 +55,6 @@ tags:
 - Data
 - Streaming
 - Change Data Capture
-- CDC
 - ETL
 - ELT
 - Real-Time

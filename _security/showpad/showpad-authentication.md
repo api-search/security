@@ -116,24 +116,24 @@ api_specs:
   slug: showpad-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-tickets-api-openapi.yml
-- filename: showpad-usergroups-api-openapi.yml
-  format: yaml
-  label: Showpad Usergroups API
-  slug: showpad-usergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-usergroups-api-openapi.yml
-- filename: showpad-userpermissions-api-openapi.yml
-  format: yaml
-  label: Showpad Userpermissions API
-  slug: showpad-userpermissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-userpermissions-api-openapi.yml
 - filename: showpad-users-api-openapi.yml
   format: yaml
   label: Showpad Users API
   slug: showpad-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-users-api-openapi.yml
+- filename: showpad-user-groups-api-openapi.yml
+  format: yaml
+  label: Showpad User Groups API
+  slug: showpad-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-user-groups-api-openapi.yml
+- filename: showpad-user-permissions-api-openapi.yml
+  format: yaml
+  label: Showpad User Permissions API
+  slug: showpad-user-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-user-permissions-api-openapi.yml
 auth_types:
 - http
 - oauth2

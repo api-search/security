@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employee-cycle
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HR
 - Human Resources
 - People Analytics
 - HR Analytics

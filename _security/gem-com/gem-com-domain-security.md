@@ -47,5 +47,5 @@ tags:
 - Sourcing
 - Talent Marketing
 - Agentic AI
-- HR Tech
+- Human Resources
 ---

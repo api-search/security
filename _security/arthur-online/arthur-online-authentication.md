@@ -188,12 +188,12 @@ api_specs:
   slug: arthur-online-viewings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-viewings-api-openapi.yml
-- filename: arthur-online-workorders-api-openapi.yml
+- filename: arthur-online-work-orders-api-openapi.yml
   format: yaml
-  label: Arthur Online Workorders API
-  slug: arthur-online-workorders-api
+  label: Arthur Online Work Orders API
+  slug: arthur-online-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-workorders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/openapi/arthur-online-work-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: 'Arthur API v2 uses a single security model: OAuth 2.0 Authorization Code with a bearer access token, plus a mandatory X-EntityID header naming the Arthur account the call is scoped to. There are no API keys, no scopes and no client-credentials flow. Credentials are not self-serve - a developer must be inside a paying Arthur account and ask Arthur support for API access before an OAuth application can be registered.'

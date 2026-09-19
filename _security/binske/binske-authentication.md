@@ -80,8 +80,8 @@ tags:
 - E-Commerce
 - Retail
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 - Storefront
 ---

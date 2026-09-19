@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: soothe-help-center-mirror-openapi.json
-  format: json
-  label: Soothe Help Center Mirror
-  slug: soothe-help-center-mirror
+- filename: soothe-health-api-openapi.yml
+  format: yaml
+  label: Soothe Health API
+  slug: soothe-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-help-center-mirror-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-health-api-openapi.yml
+- filename: soothe-manifest-json-api-openapi.yml
+  format: yaml
+  label: Soothe Manifest.json API
+  slug: soothe-manifest-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-manifest-json-api-openapi.yml
+- filename: soothe-soothe-help-center-mirror-api-openapi.yml
+  format: yaml
+  label: Soothe Soothe Help Center Mirror API
+  slug: soothe-soothe-help-center-mirror-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/openapi/soothe-soothe-help-center-mirror-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

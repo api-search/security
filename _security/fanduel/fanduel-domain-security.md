@@ -34,7 +34,7 @@ tags:
 - Sports Betting
 - Daily Fantasy Sports
 - Sportsbook
-- Casino
+- Casinos
 - Gaming
 - Regulated
 ---

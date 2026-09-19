@@ -39,12 +39,6 @@ api_specs:
   slug: loopay-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-currency-api-openapi.yml
-- filename: loopay-documenttype-api-openapi.yml
-  format: yaml
-  label: Loopay DocumentType API
-  slug: loopay-documenttype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-documenttype-api-openapi.yml
 - filename: loopay-movements-api-openapi.yml
   format: yaml
   label: Loopay Movements API
@@ -93,6 +87,12 @@ api_specs:
   slug: loopay-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-user-api-openapi.yml
+- filename: loopay-document-type-api-openapi.yml
+  format: yaml
+  label: Loopay Document type API
+  slug: loopay-document-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-document-type-api-openapi.yml
 auth_types:
 - token
 description: ''

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-contents-api-openapi.yml
 - filename: jupyter-jupyter-server-rest-api-api-openapi.yml
   format: yaml
-  label: Jupyter Jupyter Server REST API API
+  label: Jupyter Server REST API
   slug: jupyter-jupyter-server-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-jupyter-server-rest-api-api-openapi.yml
@@ -114,4 +114,5 @@ tags:
 - Notebooks
 - Python
 - Scientific Computing
+- Jupyter
 ---

@@ -80,7 +80,7 @@ tags:
 - Open Banking
 - Payments
 - Fintech
-- LatAm
+- Latin America
 - Financial Data
 - Account Validation
 - Cross-Border

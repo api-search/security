@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: windfall-windfall-api-api-openapi.yml
   format: yaml
-  label: Windfall Windfall API API
+  label: Windfall API
   slug: windfall-windfall-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-windfall-api-api-openapi.yml

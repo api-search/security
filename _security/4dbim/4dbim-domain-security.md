@@ -73,7 +73,7 @@ tags:
 - Digital Twin
 - Infrastructure
 - Engineering
-- Internet of Things
-- SaaS
+- IoT
+- Software-as-a-Service
 - China
 ---

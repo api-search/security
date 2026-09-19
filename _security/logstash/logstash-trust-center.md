@@ -21,6 +21,6 @@ tags:
 - Data Processing
 - ETL
 - Log Management
-- Pipeline
+- Pipelines
 trust_url: https://www.elastic.co/trust
 ---

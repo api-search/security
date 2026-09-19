@@ -48,12 +48,12 @@ api_specs:
   slug: democracy-works-voting-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-voting-locations-api-openapi.yml
-- filename: democracy-works-elections-v1-api-openapi.yml
+- filename: democracy-works-election-authorities-api-openapi.yml
   format: yaml
-  label: Democracy Works Elections API v1 (legacy)
-  slug: democracy-works-elections-v1-api
+  label: Democracy Works Election Authorities API
+  slug: democracy-works-election-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-elections-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-election-authorities-api-openapi.yml
 description: ''
 domains:
 - caa: []

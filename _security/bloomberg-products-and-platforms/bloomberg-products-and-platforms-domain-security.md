@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-prod
 summary_line: TLSv1.3 · DMARC
 tags:
 - Product
-- Platforms
+- Platform
 - Terminal
 - Enterprise
 - Financial Data

@@ -1,14 +1,8 @@
 ---
 api_specs:
-- filename: google-meet-conferencerecords-api-openapi.yml
-  format: yaml
-  label: Google Meet conferenceRecords API
-  slug: google-meet-conferencerecords-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-conferencerecords-api-openapi.yml
 - filename: google-meet-google-meet-api-api-openapi.yml
   format: yaml
-  label: Google Meet Google Meet API API
+  label: Google Meet Google Meet API
   slug: google-meet-google-meet-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-google-meet-api-api-openapi.yml
@@ -18,6 +12,12 @@ api_specs:
   slug: google-meet-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-spaces-api-openapi.yml
+- filename: google-meet-conference-records-api-openapi.yml
+  format: yaml
+  label: Google Meet Conference Records API
+  slug: google-meet-conference-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-conference-records-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ tags:
 - Google
 - Google Workspace
 - Meetings
-- Recordings
+- Recording
 - Transcripts
 - Video Conferencing
 ---

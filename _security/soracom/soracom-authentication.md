@@ -87,12 +87,6 @@ api_specs:
   slug: soracom-api-sandbox-subscriber-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-api-sandbox-subscriber-api-openapi.yml
-- filename: soracom-auditlog-api-openapi.yml
-  format: yaml
-  label: Soracom AuditLog API
-  slug: soracom-auditlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-auditlog-api-openapi.yml
 - filename: soracom-celllocation-api-openapi.yml
   format: yaml
   label: Soracom CellLocation API
@@ -135,12 +129,6 @@ api_specs:
   slug: soracom-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-email-api-openapi.yml
-- filename: soracom-eventhandler-api-openapi.yml
-  format: yaml
-  label: Soracom EventHandler API
-  slug: soracom-eventhandler-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-eventhandler-api-openapi.yml
 - filename: soracom-fileentry-api-openapi.yml
   format: yaml
   label: Soracom FileEntry API
@@ -225,12 +213,6 @@ api_specs:
   slug: soracom-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-role-api-openapi.yml
-- filename: soracom-shippingaddress-api-openapi.yml
-  format: yaml
-  label: Soracom ShippingAddress API
-  slug: soracom-shippingaddress-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-shippingaddress-api-openapi.yml
 - filename: soracom-sigfoxdevice-api-openapi.yml
   format: yaml
   label: Soracom SigfoxDevice API
@@ -273,6 +255,24 @@ api_specs:
   slug: soracom-virtualprivategateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-virtualprivategateway-api-openapi.yml
+- filename: soracom-audit-log-api-openapi.yml
+  format: yaml
+  label: Soracom Audit Log API
+  slug: soracom-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-audit-log-api-openapi.yml
+- filename: soracom-event-handler-api-openapi.yml
+  format: yaml
+  label: Soracom Event Handler API
+  slug: soracom-event-handler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-event-handler-api-openapi.yml
+- filename: soracom-shipping-address-api-openapi.yml
+  format: yaml
+  label: Soracom Shipping Address API
+  slug: soracom-shipping-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/openapi/soracom-shipping-address-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

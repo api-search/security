@@ -35,7 +35,7 @@ tags:
 - LiDAR
 - Scan to CAD
 - BIM
-- Digital Twins
+- Digital Twin
 - Reality Capture
 - Architecture
 - Construction

@@ -62,7 +62,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Stock Photos
 - Image
-- Videos
+- Video
 - Vectors
 - Media
 - Creative Assets

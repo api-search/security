@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-allowances-api-openapi.yml
 - filename: angle-angle-protocol-data-api-openapi.yml
   format: yaml
-  label: Angle Angle Protocol Data API
+  label: Angle Protocol Data API
   slug: angle-angle-protocol-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/openapi/angle-angle-protocol-data-api-openapi.yml

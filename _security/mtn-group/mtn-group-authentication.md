@@ -135,12 +135,6 @@ api_specs:
   slug: mtn-group-channel-vas-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-channel-vas-controller-api-openapi.yml
-- filename: mtn-group-channelservice-api-openapi.yml
-  format: yaml
-  label: MTN Group Channel Service API
-  slug: mtn-group-channelservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-channelservice-api-openapi.yml
 - filename: mtn-group-communication-api-openapi.yml
   format: yaml
   label: MTN Group Communication API
@@ -201,12 +195,6 @@ api_specs:
   slug: mtn-group-customer-characteristics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-customer-characteristics-api-openapi.yml
-- filename: mtn-group-customer-information-api-openapi.yml
-  format: yaml
-  label: MTN Group Customer Information API
-  slug: mtn-group-customer-information-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-customer-information-api-openapi.yml
 - filename: mtn-group-customer-kyc-api-openapi.yml
   format: yaml
   label: MTN Group Customer KYC API
@@ -225,12 +213,6 @@ api_specs:
   slug: mtn-group-customer-promotion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-customer-promotion-api-openapi.yml
-- filename: mtn-group-customerbill-api-openapi.yml
-  format: yaml
-  label: MTN Group Customer Bill API
-  slug: mtn-group-customerbill-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-customerbill-api-openapi.yml
 - filename: mtn-group-customerbillondemand-api-openapi.yml
   format: yaml
   label: MTN Group Customer Bill On Demand API
@@ -297,18 +279,6 @@ api_specs:
   slug: mtn-group-events-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-events-subscription-api-openapi.yml
-- filename: mtn-group-financialaccount-api-openapi.yml
-  format: yaml
-  label: MTN Group Financial Account API
-  slug: mtn-group-financialaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-financialaccount-api-openapi.yml
-- filename: mtn-group-fraudmanagement-api-openapi.yml
-  format: yaml
-  label: MTN Group Fraud Management API
-  slug: mtn-group-fraudmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-fraudmanagement-api-openapi.yml
 - filename: mtn-group-geneysis-eec-tokens-api-openapi.yml
   format: yaml
   label: MTN Group GENEYSIS EEC TOKENS API
@@ -321,12 +291,6 @@ api_specs:
   slug: mtn-group-get-access-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-get-access-token-api-openapi.yml
-- filename: mtn-group-getinfo-api-openapi.yml
-  format: yaml
-  label: MTN Group Get Info API
-  slug: mtn-group-getinfo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-getinfo-api-openapi.yml
 - filename: mtn-group-hub-api-openapi.yml
   format: yaml
   label: MTN Group Hub API
@@ -393,12 +357,6 @@ api_specs:
   slug: mtn-group-member-summary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-member-summary-api-openapi.yml
-- filename: mtn-group-mobile-ads-service-api-openapi.yml
-  format: yaml
-  label: MTN Group Mobile Ads Service API
-  slug: mtn-group-mobile-ads-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-mobile-ads-service-api-openapi.yml
 - filename: mtn-group-momo-api-openapi.yml
   format: yaml
   label: MTN Group Mo Mo API
@@ -435,12 +393,6 @@ api_specs:
   slug: mtn-group-numberrecycleservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-numberrecycleservice-api-openapi.yml
-- filename: mtn-group-orderfulfillment-api-openapi.yml
-  format: yaml
-  label: MTN Group Order Fulfillment API
-  slug: mtn-group-orderfulfillment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-orderfulfillment-api-openapi.yml
 - filename: mtn-group-organization-api-openapi.yml
   format: yaml
   label: MTN Group Organization API
@@ -657,18 +609,6 @@ api_specs:
   slug: mtn-group-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-service-api-openapi.yml
-- filename: mtn-group-serviceorder-api-openapi.yml
-  format: yaml
-  label: MTN Group Service Order API
-  slug: mtn-group-serviceorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-serviceorder-api-openapi.yml
-- filename: mtn-group-shoppingcart-api-openapi.yml
-  format: yaml
-  label: MTN Group Shopping Cart API
-  slug: mtn-group-shoppingcart-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-shoppingcart-api-openapi.yml
 - filename: mtn-group-siebel-api-openapi.yml
   format: yaml
   label: MTN Group Siebel API
@@ -801,12 +741,6 @@ api_specs:
   slug: mtn-group-urlcreate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-urlcreate-api-openapi.yml
-- filename: mtn-group-usage-historical-information-api-openapi.yml
-  format: yaml
-  label: MTN Group Usage Historical Information API
-  slug: mtn-group-usage-historical-information-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-usage-historical-information-api-openapi.yml
 - filename: mtn-group-usage-limit-adjust-api-openapi.yml
   format: yaml
   label: MTN Group Usage Limit Adjust API
@@ -867,6 +801,54 @@ api_specs:
   slug: mtn-group-verify-a-partner-s-financial-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-verify-a-partner-s-financial-resources-api-openapi.yml
+- filename: mtn-group-channel-service-api-openapi.yml
+  format: yaml
+  label: MTN Group Channel Service API
+  slug: mtn-group-channel-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-channel-service-api-openapi.yml
+- filename: mtn-group-customer-bill-api-openapi.yml
+  format: yaml
+  label: MTN Group Customer Bill API
+  slug: mtn-group-customer-bill-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-customer-bill-api-openapi.yml
+- filename: mtn-group-financial-account-api-openapi.yml
+  format: yaml
+  label: MTN Group Financial Account API
+  slug: mtn-group-financial-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-financial-account-api-openapi.yml
+- filename: mtn-group-fraud-management-api-openapi.yml
+  format: yaml
+  label: MTN Group Fraud Management API
+  slug: mtn-group-fraud-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-fraud-management-api-openapi.yml
+- filename: mtn-group-get-info-api-openapi.yml
+  format: yaml
+  label: MTN Group Get Info API
+  slug: mtn-group-get-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-get-info-api-openapi.yml
+- filename: mtn-group-order-fulfillment-api-openapi.yml
+  format: yaml
+  label: MTN Group Order Fulfillment API
+  slug: mtn-group-order-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-order-fulfillment-api-openapi.yml
+- filename: mtn-group-service-order-api-openapi.yml
+  format: yaml
+  label: MTN Group Service Order API
+  slug: mtn-group-service-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-service-order-api-openapi.yml
+- filename: mtn-group-shopping-cart-api-openapi.yml
+  format: yaml
+  label: MTN Group Shopping Cart API
+  slug: mtn-group-shopping-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/openapi/mtn-group-shopping-cart-api-openapi.yml
 auth_types:
 - apiKey
 - http

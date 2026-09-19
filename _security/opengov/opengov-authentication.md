@@ -15,12 +15,6 @@ api_specs:
   slug: opengov-activity-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-activity-logs-api-openapi.yml
-- filename: opengov-adminsettings-api-openapi.yml
-  format: yaml
-  label: OpenGov Admin Settings API
-  slug: opengov-adminsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-adminsettings-api-openapi.yml
 - filename: opengov-approval-steps-api-openapi.yml
   format: yaml
   label: OpenGov Approval Steps API
@@ -57,24 +51,12 @@ api_specs:
   slug: opengov-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-categories-api-openapi.yml
-- filename: opengov-changeorder-api-openapi.yml
-  format: yaml
-  label: OpenGov Change Order API
-  slug: opengov-changeorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-changeorder-api-openapi.yml
 - filename: opengov-changeorderbypo-api-openapi.yml
   format: yaml
   label: OpenGov Change Order By Po API
   slug: opengov-changeorderbypo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-changeorderbypo-api-openapi.yml
-- filename: opengov-chartofaccounts-api-openapi.yml
-  format: yaml
-  label: OpenGov Chart Of Accounts API
-  slug: opengov-chartofaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-chartofaccounts-api-openapi.yml
 - filename: opengov-checklist-results-api-openapi.yml
   format: yaml
   label: OpenGov Checklist Results API
@@ -267,12 +249,6 @@ api_specs:
   slug: opengov-ledger-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-ledger-entries-api-openapi.yml
-- filename: opengov-lineitem-api-openapi.yml
-  format: yaml
-  label: OpenGov Line Item API
-  slug: opengov-lineitem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-lineitem-api-openapi.yml
 - filename: opengov-location-flags-api-openapi.yml
   format: yaml
   label: OpenGov Location Flags API
@@ -321,12 +297,6 @@ api_specs:
   slug: opengov-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-projects-api-openapi.yml
-- filename: opengov-purchaseorder-api-openapi.yml
-  format: yaml
-  label: OpenGov Purchase Order API
-  slug: opengov-purchaseorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-purchaseorder-api-openapi.yml
 - filename: opengov-purchaseordertype-api-openapi.yml
   format: yaml
   label: OpenGov Purchase Order Type API
@@ -615,6 +585,36 @@ api_specs:
   slug: opengov-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-vendors-api-openapi.yml
+- filename: opengov-admin-settings-api-openapi.yml
+  format: yaml
+  label: OpenGov Admin Settings API
+  slug: opengov-admin-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-admin-settings-api-openapi.yml
+- filename: opengov-change-order-api-openapi.yml
+  format: yaml
+  label: OpenGov Change Order API
+  slug: opengov-change-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-change-order-api-openapi.yml
+- filename: opengov-chart-of-accounts-api-openapi.yml
+  format: yaml
+  label: OpenGov Chart Of Accounts API
+  slug: opengov-chart-of-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-chart-of-accounts-api-openapi.yml
+- filename: opengov-line-item-api-openapi.yml
+  format: yaml
+  label: OpenGov Line Item API
+  slug: opengov-line-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-line-item-api-openapi.yml
+- filename: opengov-purchase-order-api-openapi.yml
+  format: yaml
+  label: OpenGov Purchase Order API
+  slug: opengov-purchase-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/openapi/opengov-purchase-order-api-openapi.yml
 auth_types:
 - apiKey
 - http

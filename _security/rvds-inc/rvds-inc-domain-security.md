@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Food and Beverage
-- Consumer Brands
+- Consumer Brand
 - Restaurant
-- Korea
+- South Korea
 - Food Service
 ---

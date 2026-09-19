@@ -53,7 +53,7 @@ tags:
 - Logistics
 - Pickup
 - Postal
-- Rating
+- Ratings
 - Returns
 - Shipping
 - Tracking

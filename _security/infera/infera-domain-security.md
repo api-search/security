@@ -40,7 +40,7 @@ tags:
 - Biotech
 - Life Sciences
 - Artificial Intelligence
-- Protocols
+- Protocol
 - Software-as-a-Service
 - Automation
 ---

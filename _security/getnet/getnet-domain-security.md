@@ -56,7 +56,7 @@ tags:
 - Payments
 - Acquirer
 - Brazil
-- LatAm
+- Latin America
 - Santander
 - E-Commerce
 - In-Store Payments
@@ -64,14 +64,14 @@ tags:
 - Pix
 - Boleto
 - Cards
-- 3DS
+- 3D
 - Tokenization
 - Marketplace
 - Split Payments
-- Payment Link
+- Payment Links
 - Web Checkout
 - Onboarding
-- Chargeback
+- Chargebacks
 - Webhook
 - Authentication
 - Agentic Commerce

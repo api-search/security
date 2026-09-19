@@ -36,6 +36,6 @@ tags:
 - Outdoor
 - Camping
 - Retail
-- Korea
+- South Korea
 - Secondhand
 ---

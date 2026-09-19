@@ -36,12 +36,6 @@ api_specs:
   slug: clickup-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-lists-api-openapi.yml
-- filename: clickup-oauth-api-openapi.yml
-  format: yaml
-  label: clickup OAuth API
-  slug: clickup-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-api-openapi.yml
 - filename: clickup-spaces-api-openapi.yml
   format: yaml
   label: clickup Spaces API
@@ -78,6 +72,24 @@ api_specs:
   slug: clickup-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-api-openapi.yml
+- filename: clickup-oauth-api-openapi.yml
+  format: yaml
+  label: Clickup O Auth API
+  slug: clickup-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-api-openapi.yml
+- filename: clickup-api-v2-reference-openapi.json
+  format: json
+  label: ClickUp API v2
+  slug: clickup-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-api-v2-reference-openapi.json
+- filename: clickup-public-api-v3-openapi.json
+  format: json
+  label: ClickUp Public API v3
+  slug: clickup-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-public-api-v3-openapi.json
 certification_count: 6
 certifications:
 - SOC 2
@@ -98,9 +110,18 @@ slug: clickup-trust-center
 source_filename: clickup-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.clickup.com/\nurl: https://security.clickup.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.clickup.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-09-17'\nmethod: searched\nprobe: true\nsource: https://security.clickup.com/\nurl: https://security.clickup.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.clickup.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/security/clickup-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR
-tags: []
+tags:
+- Project Management
+- Work Management
+- Productivity
+- Collaboration
+- Task
+- Documents
+- Chat
+- Time Tracking
+- MCP
 trust_url: https://security.clickup.com/
 ---

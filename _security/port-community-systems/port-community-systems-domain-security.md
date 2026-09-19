@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Maritime
-- Port
+- Ports
 - Logistics
 - Customs
 - Cargo

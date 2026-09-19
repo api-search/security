@@ -78,10 +78,10 @@ summary_line: openIdConnect/oauth2 · 2 schemes
 tags:
 - Company
 - Private Markets
-- Secondary Markets
+- Secondary Market
 - Market Data
 - Financial-Services
-- Valuations
+- Valuation
 - Pre-IPO Equity
 - Capital Markets
 ---

@@ -26,6 +26,6 @@ tags:
 - Benefits Placement
 - Insurance Technology
 - Brokers
-- Carriers
+- Carrier
 trust_url: https://trust.threeflow.com/
 ---

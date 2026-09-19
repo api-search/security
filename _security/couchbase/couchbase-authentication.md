@@ -99,12 +99,6 @@ api_specs:
   slug: couchbase-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-data-api-openapi.yml
-- filename: couchbase-database-administration-api-openapi.yml
-  format: yaml
-  label: Couchbase Database Administration API
-  slug: couchbase-database-administration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-database-administration-api-openapi.yml
 - filename: couchbase-database-api-openapi.yml
   format: yaml
   label: Couchbase Database API
@@ -392,7 +386,7 @@ tags:
 - Database-as-a-Service
 - Eventing
 - Full-Text Search
-- Gateway
+- Gateways
 - JSON
 - Mobile
 - NoSQL

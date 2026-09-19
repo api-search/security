@@ -68,13 +68,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/openapi/oura-rest-mode-period-routes-api-openapi.yml
 - filename: oura-ring-battery-level-routes-api-openapi.yml
   format: yaml
-  label: Oura Ring Ring Battery Level Routes API
+  label: Oura Ring Battery Level Routes API
   slug: oura-ring-battery-level-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/openapi/oura-ring-battery-level-routes-api-openapi.yml
 - filename: oura-ring-configuration-routes-api-openapi.yml
   format: yaml
-  label: Oura Ring Ring Configuration Routes API
+  label: Oura Ring Configuration Routes API
   slug: oura-ring-configuration-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/openapi/oura-ring-configuration-routes-api-openapi.yml

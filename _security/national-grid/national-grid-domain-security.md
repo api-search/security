@@ -56,7 +56,7 @@ tags:
 - Energy
 - Electricity
 - Carbon Intensity
-- UK
+- United Kingdom
 - Open Data
 - Sustainability
 - Grid Operations

@@ -42,11 +42,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/orange-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/authentication/orange-authentication.yml
 summary_line: openIdConnect · 1 scheme
 tags:
-- Network
+- Networks
 - Telecom
 - Identity
 - Messaging
 - Location
-- Payment
+- Payments
 - IoT
 ---

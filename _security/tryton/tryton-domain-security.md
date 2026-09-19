@@ -45,7 +45,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tryton/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory
 - Sales

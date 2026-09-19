@@ -128,12 +128,6 @@ api_specs:
   slug: chariot-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-organizations-api-openapi.yml
-- filename: chariot-paymentsources-api-openapi.yml
-  format: yaml
-  label: Chariot paymentSources API
-  slug: chariot-paymentsources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-paymentsources-api-openapi.yml
 - filename: chariot-programs-api-openapi.yml
   format: yaml
   label: Chariot Programs API
@@ -170,12 +164,18 @@ api_specs:
   slug: chariot-unintegrated-grants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-unintegrated-grants-api-openapi.yml
-- filename: chariot-verificationrequests-api-openapi.yml
+- filename: chariot-payment-sources-api-openapi.yml
   format: yaml
-  label: Chariot verificationRequests API
-  slug: chariot-verificationrequests-api
+  label: Chariot Payment Sources API
+  slug: chariot-payment-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-verificationrequests-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-payment-sources-api-openapi.yml
+- filename: chariot-verification-requests-api-openapi.yml
+  format: yaml
+  label: Chariot Verification Requests API
+  slug: chariot-verification-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-verification-requests-api-openapi.yml
 auth_types:
 - http
 - oauth2

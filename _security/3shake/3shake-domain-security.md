@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: 3shake-reckoner-external-api-openapi.yml
+- filename: 3shake-accounts-api-openapi.yml
   format: yaml
-  label: Reckoner External API
-  slug: reckoner-external-api
+  label: 3-shake Accounts API
+  slug: 3shake-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-reckoner-external-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-accounts-api-openapi.yml
+- filename: 3shake-auth-api-openapi.yml
+  format: yaml
+  label: 3-shake Auth API
+  slug: 3shake-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-auth-api-openapi.yml
+- filename: 3shake-integrations-api-openapi.yml
+  format: yaml
+  label: 3-shake Integrations API
+  slug: 3shake-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-integrations-api-openapi.yml
+- filename: 3shake-projects-api-openapi.yml
+  format: yaml
+  label: 3-shake Projects API
+  slug: 3shake-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-projects-api-openapi.yml
+- filename: 3shake-workflows-api-openapi.yml
+  format: yaml
+  label: 3-shake Workflows API
+  slug: 3shake-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +81,7 @@ tags:
 - Data Integration
 - ETL
 - iPaaS
-- Workflow Automation
+- Workflow-Automation
 - Vulnerability Scanning
 - Attack Surface Management
 - Cloud Security

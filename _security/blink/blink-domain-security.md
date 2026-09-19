@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EV Charging
-- Electric Vehicle
+- Electric Vehicles
 - Charging Stations
 - OCPI
 - OCPP

@@ -26,12 +26,12 @@ api_specs:
   slug: denbury-resources-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-discovery-api-openapi.yml
-- filename: denbury-resources-oembed-api-openapi.yml
+- filename: denbury-resources-o-embed-api-openapi.yml
   format: yaml
-  label: Denbury Resources oEmbed API
-  slug: denbury-resources-oembed-api
+  label: Denbury Resources o Embed API
+  slug: denbury-resources-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-o-embed-api-openapi.yml
 auth_types: []
 description: 'Denbury Inc. runs no developer program, issues no API keys, and documents no authentication. The WordPress core REST API behind www.denbury.com is the only machine-readable surface, and its public half needs no credentials at all: every route captured in openapi/ answers anonymously and advertises `Allow: GET`. The write half of the same routes exists but is refused anonymously.'
 kind: authentication

@@ -49,7 +49,7 @@ tags:
 - Content Management
 - Digital Experience Platform
 - Content Delivery
-- Webhooks
+- Webhook
 - Higher Education
 trust_url: https://www.contensis.com/security
 ---

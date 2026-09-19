@@ -20,12 +20,6 @@ api_specs:
   slug: ford-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-images-api-openapi.yml
-- filename: ford-oauth-api-openapi.yml
-  format: yaml
-  label: Ford OAuth API
-  slug: ford-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-oauth-api-openapi.yml
 - filename: ford-status-api-openapi.yml
   format: yaml
   label: Ford Status API
@@ -38,6 +32,12 @@ api_specs:
   slug: ford-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-vehicles-api-openapi.yml
+- filename: ford-oauth-api-openapi.yml
+  format: yaml
+  label: Ford O Auth API
+  slug: ford-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -139,7 +139,7 @@ tags:
 - Automobiles
 - Cars
 - Vehicles
-- Connected Vehicle
+- Connected Vehicles
 - Automotive
 - Telematics
 - Electric Vehicles

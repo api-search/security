@@ -3,24 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-memorydb-acls-api-openapi.yml
-  format: yaml
-  label: Amazon MemoryDB ACLs API
-  slug: amazon-memorydb-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-acls-api-openapi.yml
 - filename: amazon-memorydb-clusters-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Clusters API
   slug: amazon-memorydb-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-clusters-api-openapi.yml
-- filename: amazon-memorydb-engineversions-api-openapi.yml
-  format: yaml
-  label: Amazon MemoryDB EngineVersions API
-  slug: amazon-memorydb-engineversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-engineversions-api-openapi.yml
 - filename: amazon-memorydb-events-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Events API
@@ -33,12 +21,6 @@ api_specs:
   slug: amazon-memorydb-nodetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-nodetypes-api-openapi.yml
-- filename: amazon-memorydb-parametergroups-api-openapi.yml
-  format: yaml
-  label: Amazon MemoryDB ParameterGroups API
-  slug: amazon-memorydb-parametergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-parametergroups-api-openapi.yml
 - filename: amazon-memorydb-reservednodes-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB ReservedNodes API
@@ -57,12 +39,6 @@ api_specs:
   slug: amazon-memorydb-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-snapshots-api-openapi.yml
-- filename: amazon-memorydb-subnetgroups-api-openapi.yml
-  format: yaml
-  label: Amazon MemoryDB SubnetGroups API
-  slug: amazon-memorydb-subnetgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-subnetgroups-api-openapi.yml
 - filename: amazon-memorydb-tags-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Tags API
@@ -75,6 +51,30 @@ api_specs:
   slug: amazon-memorydb-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-users-api-openapi.yml
+- filename: amazon-memorydb-acls-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB AC Ls API
+  slug: amazon-memorydb-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-acls-api-openapi.yml
+- filename: amazon-memorydb-engine-versions-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Engine Versions API
+  slug: amazon-memorydb-engine-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-engine-versions-api-openapi.yml
+- filename: amazon-memorydb-parameter-groups-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Parameter Groups API
+  slug: amazon-memorydb-parameter-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-parameter-groups-api-openapi.yml
+- filename: amazon-memorydb-subnet-groups-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Subnet Groups API
+  slug: amazon-memorydb-subnet-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-subnet-groups-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

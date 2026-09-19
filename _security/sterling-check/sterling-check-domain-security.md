@@ -90,8 +90,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Background Screening
 - Identity Verification
-- Background Check
-- HR Tech
+- Background Checks
+- Human Resources
 - Compliance
 - Gated API
 ---

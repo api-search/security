@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-glasgow-enlighten-rest-openapi.yml
+- filename: university-of-glasgow-repository-api-openapi.yml
   format: yaml
-  label: Enlighten EPrints REST API
-  slug: enlighten-rest
+  label: University of Glasgow Repository API
+  slug: university-of-glasgow-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/openapi/university-of-glasgow-enlighten-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/openapi/university-of-glasgow-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -50,7 +50,7 @@ tags:
 - Fraud Prevention
 - Payment Integrity
 - Banking
-- Financial Services
+- Financial-Services
 - Public Sector
 - ISO 20022
 - Compliance

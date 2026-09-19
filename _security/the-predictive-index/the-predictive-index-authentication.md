@@ -60,9 +60,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Talent Optimization
-- HR
 - Human Resources
-- Assessments
+- Assessment
 - Behavioral Science
 - Hiring
 - Recruiting

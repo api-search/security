@@ -144,12 +144,12 @@ api_specs:
   slug: insider-web-push-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/openapi/insider-web-push-apis-api-openapi.yml
-- filename: insider-whatsapp-api-openapi.yml
+- filename: insider-whats-app-api-openapi.yml
   format: yaml
   label: Insider Whats App API
-  slug: insider-whatsapp-api
+  slug: insider-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/openapi/insider-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/openapi/insider-whats-app-api-openapi.yml
 description: ''
 domains:
 - caa: []

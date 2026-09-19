@@ -35,7 +35,7 @@ tags:
 - Aerospace
 - Space
 - Launch Services
-- Satellites
+- Satellite
 - Rockets
 - Manufacturing
 ---

@@ -51,6 +51,6 @@ tags:
 - Distributed Systems
 - Messaging
 - Microservices
-- Queue
+- Queues
 trust_url: https://aws.amazon.com/compliance/
 ---

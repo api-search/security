@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
+- filename: tokyo-institute-of-technology-oai-pmh-api-openapi.yml
   format: yaml
-  label: T2R2 Research Repository OAI-PMH
-  slug: t2r2-oaipmh
+  label: Tokyo Institute of Technology OAI PMH API
+  slug: tokyo-institute-of-technology-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/openapi/tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/openapi/tokyo-institute-of-technology-oai-pmh-api-openapi.yml
 auth_types:
 - saml2
 description: ''

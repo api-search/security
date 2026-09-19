@@ -42,6 +42,6 @@ tags:
 - Consumer Finance
 - Banking
 - Financial-Services
-- Credit Card
+- Credit Cards
 - Lending
 ---

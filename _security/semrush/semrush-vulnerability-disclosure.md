@@ -2,7 +2,7 @@
 api_specs:
 - filename: semrush-hermes-partner-api-api-openapi.yml
   format: yaml
-  label: Semrush Hermes Partner API API
+  label: Semrush Hermes Partner API
   slug: semrush-hermes-partner-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-hermes-partner-api-api-openapi.yml

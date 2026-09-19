@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: >-\n  live DNS/TL
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/security/drillster-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Assessments
+- Assessment
 - Education
 - Learning
 - Quizzes
@@ -55,5 +55,5 @@ tags:
 - LMS
 - Adaptive Learning
 - Compliance Training
-- Webhooks
+- Webhook
 ---

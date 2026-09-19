@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-orders-api-openapi.yml
 - filename: paperless-parts-parts-api-openapi.yml
   format: yaml
-  label: Paperless Parts Parts API
+  label: Paperless Parts API
   slug: paperless-parts-parts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/openapi/paperless-parts-parts-api-openapi.yml

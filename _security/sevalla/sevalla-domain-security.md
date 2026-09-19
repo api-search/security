@@ -88,7 +88,7 @@ tags:
 - Platform-as-a-Service
 - Cloud
 - Deployment
-- Databases
+- Database
 - Static Sites
 - Object Storage
 ---

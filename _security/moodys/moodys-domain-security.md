@@ -24,12 +24,6 @@ api_specs:
   slug: moodys-forecast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-forecast-api-openapi.yml
-- filename: moodys-healthcheck-api-openapi.yml
-  format: yaml
-  label: Moody's Health Check API
-  slug: moodys-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-healthcheck-api-openapi.yml
 - filename: moodys-interpolation-api-openapi.yml
   format: yaml
   label: Moody's Interpolation API
@@ -72,12 +66,6 @@ api_specs:
   slug: moodys-vin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-vin-api-openapi.yml
-- filename: moodys-filetypes-api-openapi.yml
-  format: yaml
-  label: Moody's File Types API
-  slug: moodys-filetypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-filetypes-api-openapi.yml
 - filename: moodys-frequency-api-openapi.yml
   format: yaml
   label: Moody's Frequency API
@@ -96,6 +84,18 @@ api_specs:
   slug: moodys-vintage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-vintage-api-openapi.yml
+- filename: moodys-file-types-api-openapi.yml
+  format: yaml
+  label: Moody's File Types API
+  slug: moodys-file-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-file-types-api-openapi.yml
+- filename: moodys-health-check-api-openapi.yml
+  format: yaml
+  label: Moody's Health Check API
+  slug: moodys-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

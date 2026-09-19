@@ -68,5 +68,5 @@ tags:
 - Smart Buildings
 - CMMS Integration
 - Analytics
-- Internet of Things
+- IoT
 ---

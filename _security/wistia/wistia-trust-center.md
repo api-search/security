@@ -12,12 +12,6 @@ api_specs:
   slug: wistia-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-account-api-openapi.yml
-- filename: wistia-alloweddomains-api-openapi.yml
-  format: yaml
-  label: Wistia AllowedDomains API
-  slug: wistia-alloweddomains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-alloweddomains-api-openapi.yml
 - filename: wistia-captions-api-openapi.yml
   format: yaml
   label: Wistia Captions API
@@ -258,12 +252,6 @@ api_specs:
   slug: wistia-stats-visitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-stats-visitors-api-openapi.yml
-- filename: wistia-subfolders-api-openapi.yml
-  format: yaml
-  label: Wistia Subfolders API
-  slug: wistia-subfolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-subfolders-api-openapi.yml
 - filename: wistia-taggings-api-openapi.yml
   format: yaml
   label: Wistia Taggings API
@@ -288,6 +276,12 @@ api_specs:
   slug: wistia-webinar-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-webinar-registrations-api-openapi.yml
+- filename: wistia-sub-folders-api-openapi.yml
+  format: yaml
+  label: Wistia Sub Folders API
+  slug: wistia-sub-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-sub-folders-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

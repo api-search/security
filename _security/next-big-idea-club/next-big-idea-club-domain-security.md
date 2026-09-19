@@ -42,7 +42,7 @@ tags:
 - Media
 - Subscription
 - Nonfiction
-- Podcast
+- Podcasts
 - Education
 - Membership
 ---

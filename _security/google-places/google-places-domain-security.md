@@ -2,7 +2,7 @@
 api_specs:
 - filename: google-places-places-api-openapi.yml
   format: yaml
-  label: Google Places Places API
+  label: Google Places API
   slug: google-places-places-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-places-api-openapi.yml
@@ -60,7 +60,7 @@ tags:
 - Restaurant
 - Geolocation
 - Google
-- Locations
+- Location
 - Maps
 - Places
 - Points of Interest

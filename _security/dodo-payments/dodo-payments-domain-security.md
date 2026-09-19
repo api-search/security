@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-licenses-api-openapi.yml
 - filename: dodo-payments-payments-api-openapi.yml
   format: yaml
-  label: Dodo Payments Payments API
+  label: Dodo Payments API
   slug: dodo-payments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-payments-api-openapi.yml

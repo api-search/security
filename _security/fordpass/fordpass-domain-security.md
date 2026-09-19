@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fordpass/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Connected Car
 - Telematics
 - Fleet

@@ -24,12 +24,6 @@ api_specs:
   slug: repsly-photos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-photos-api-openapi.yml
-- filename: repsly-pricelists-api-openapi.yml
-  format: yaml
-  label: Repsly Pricelists API
-  slug: repsly-pricelists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-pricelists-api-openapi.yml
 - filename: repsly-products-api-openapi.yml
   format: yaml
   label: Repsly Products API
@@ -54,6 +48,12 @@ api_specs:
   slug: repsly-visits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-visits-api-openapi.yml
+- filename: repsly-price-lists-api-openapi.yml
+  format: yaml
+  label: Repsly Price Lists API
+  slug: repsly-price-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-price-lists-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

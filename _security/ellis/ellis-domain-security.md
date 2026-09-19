@@ -33,7 +33,7 @@ tags:
 - Company
 - Immigration
 - Legal Tech
-- Visas
+- Visa
 - Green Cards
 - Human Resources
 - Compliance

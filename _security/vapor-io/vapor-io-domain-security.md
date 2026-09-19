@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Edge Computing
-- Data Centers
+- Data-Center
 - Colocation
 - Infrastructure
 - Device Management
@@ -64,6 +64,6 @@ tags:
 - Telemetry
 - IoT
 - gRPC
-- Open Source
+- Open-Source
 - Kubernetes
 ---

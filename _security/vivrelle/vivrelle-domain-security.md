@@ -35,10 +35,10 @@ tags:
 - Fashion
 - Luxury
 - Retail
-- Ecommerce
+- E-Commerce
 - Subscription
 - Membership
-- Rental
+- Rentals
 - Jewelry
 - Accessories
 ---

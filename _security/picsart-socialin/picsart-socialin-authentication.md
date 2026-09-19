@@ -177,7 +177,7 @@ tags:
 - Image Editing
 - Video Editing
 - Generative AI
-- Photo
+- Photos
 - Creative Tools
 - Image Processing
 - Background Removal

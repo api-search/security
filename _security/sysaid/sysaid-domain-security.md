@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: sysaid-actionitems-api-openapi.yml
-  format: yaml
-  label: SysAid ActionItems API
-  slug: sysaid-actionitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-actionitems-api-openapi.yml
 - filename: sysaid-activities-api-openapi.yml
   format: yaml
   label: SysAid Activities API
@@ -36,24 +30,12 @@ api_specs:
   slug: sysaid-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-auth-api-openapi.yml
-- filename: sysaid-cis-api-openapi.yml
-  format: yaml
-  label: SysAid CIs API
-  slug: sysaid-cis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-cis-api-openapi.yml
 - filename: sysaid-companies-api-openapi.yml
   format: yaml
   label: SysAid Companies API
   slug: sysaid-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-companies-api-openapi.yml
-- filename: sysaid-endusers-api-openapi.yml
-  format: yaml
-  label: SysAid EndUsers API
-  slug: sysaid-endusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-endusers-api-openapi.yml
 - filename: sysaid-groups-api-openapi.yml
   format: yaml
   label: SysAid Groups API
@@ -66,12 +48,6 @@ api_specs:
   slug: sysaid-licensemanager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-licensemanager-api-openapi.yml
-- filename: sysaid-relateditems-api-openapi.yml
-  format: yaml
-  label: SysAid RelatedItems API
-  slug: sysaid-relateditems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-relateditems-api-openapi.yml
 - filename: sysaid-servicerecords-api-openapi.yml
   format: yaml
   label: SysAid ServiceRecords API
@@ -96,6 +72,30 @@ api_specs:
   slug: sysaid-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-webhooks-api-openapi.yml
+- filename: sysaid-cis-api-openapi.yml
+  format: yaml
+  label: SysAid C Is API
+  slug: sysaid-cis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-cis-api-openapi.yml
+- filename: sysaid-action-items-api-openapi.yml
+  format: yaml
+  label: SysAid Action Items API
+  slug: sysaid-action-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-action-items-api-openapi.yml
+- filename: sysaid-end-users-api-openapi.yml
+  format: yaml
+  label: SysAid End Users API
+  slug: sysaid-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-end-users-api-openapi.yml
+- filename: sysaid-related-items-api-openapi.yml
+  format: yaml
+  label: SysAid Related Items API
+  slug: sysaid-related-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-related-items-api-openapi.yml
 description: ''
 domains:
 - caa: []

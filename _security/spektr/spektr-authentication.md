@@ -5,37 +5,37 @@ api_key_in:
 api_specs:
 - filename: spektr-action-api-api-openapi.yml
   format: yaml
-  label: Spektr Action API API
+  label: Spektr Action API
   slug: spektr-action-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-action-api-api-openapi.yml
 - filename: spektr-events-api-api-openapi.yml
   format: yaml
-  label: Spektr Events API API
+  label: Spektr Events API
   slug: spektr-events-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-events-api-api-openapi.yml
 - filename: spektr-execution-api-api-openapi.yml
   format: yaml
-  label: Spektr Execution API API
+  label: Spektr Execution API
   slug: spektr-execution-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-execution-api-api-openapi.yml
 - filename: spektr-import-api-api-openapi.yml
   format: yaml
-  label: Spektr Import API API
+  label: Spektr Import API
   slug: spektr-import-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-import-api-api-openapi.yml
 - filename: spektr-orchestration-api-api-openapi.yml
   format: yaml
-  label: Spektr Orchestration API API
+  label: Spektr Orchestration API
   slug: spektr-orchestration-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-orchestration-api-api-openapi.yml
 - filename: spektr-records-api-api-openapi.yml
   format: yaml
-  label: Spektr Records API API
+  label: Spektr Records API
   slug: spektr-records-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-records-api-api-openapi.yml
@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transactions-api-openapi.yml
 - filename: spektr-workspace-fields-api-api-openapi.yml
   format: yaml
-  label: Spektr Workspace Fields API API
+  label: Spektr Workspace Fields API
   slug: spektr-workspace-fields-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-workspace-fields-api-api-openapi.yml

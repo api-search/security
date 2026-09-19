@@ -27,18 +27,18 @@ api_specs:
   slug: climate-engine-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-reports-api-openapi.yml
-- filename: climate-engine-timeseries-api-openapi.yml
-  format: yaml
-  label: Climate Engine Timeseries API
-  slug: climate-engine-timeseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-timeseries-api-openapi.yml
 - filename: climate-engine-zonal-statistics-api-openapi.yml
   format: yaml
   label: Climate Engine Zonal Statistics API
   slug: climate-engine-zonal-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-zonal-statistics-api-openapi.yml
+- filename: climate-engine-time-series-api-openapi.yml
+  format: yaml
+  label: Climate Engine Time Series API
+  slug: climate-engine-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-time-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

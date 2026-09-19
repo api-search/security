@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: 3gpp-3gpp-nidd-configuration-trigger-api-openapi.yml
-  format: yaml
-  label: 3GPP 3gpp Nidd Configuration Trigger API
-  slug: 3gpp-3gpp-nidd-configuration-trigger-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-3gpp-nidd-configuration-trigger-api-openapi.yml
 - filename: 3gpp-5glan-parameters-provision-subscriptions-api-openapi.yml
   format: yaml
   label: 3GPP 5GLAN Parameters Provision Subscriptions API
@@ -20,12 +14,6 @@ api_specs:
   slug: 3gpp-access-control-policy-list-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-access-control-policy-list-collection-api-openapi.yml
-- filename: 3gpp-acs-configuration-subscriptions-api-openapi.yml
-  format: yaml
-  label: 3GPP ACS Configuration Subscriptions API
-  slug: 3gpp-acs-configuration-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-acs-configuration-subscriptions-api-openapi.yml
 - filename: 3gpp-activation-management-api-openapi.yml
   format: yaml
   label: 3GPP Activation Management API
@@ -38,12 +26,6 @@ api_specs:
   slug: 3gpp-addressing-parameters-provisionings-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-addressing-parameters-provisionings-collection-api-openapi.yml
-- filename: 3gpp-af-level-ue-location-update-notification-operation-api-openapi.yml
-  format: yaml
-  label: 3GPP AF level UE location update notification operation API
-  slug: 3gpp-af-level-ue-location-update-notification-operation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-af-level-ue-location-update-notification-operation-api-openapi.yml
 - filename: 3gpp-aiot-command-request-custom-operation-without-associated-resources-api-openapi.yml
   format: yaml
   label: 3GPP AIoT Command Request (custom operation without associated resources) API
@@ -74,12 +56,6 @@ api_specs:
   slug: 3gpp-all-service-api-invocation-logs-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-all-service-api-invocation-logs-collection-api-openapi.yml
-- filename: 3gpp-am-influence-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP AM Influence Subscription API
-  slug: 3gpp-am-influence-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-am-influence-subscription-api-openapi.yml
 - filename: 3gpp-am-policy-events-subscription-api-openapi.yml
   format: yaml
   label: 3GPP AM Policy Events Subscription API
@@ -116,12 +92,6 @@ api_specs:
   slug: 3gpp-application-sessions-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-application-sessions-collection-api-openapi.yml
-- filename: 3gpp-applied-bdt-policy-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Applied BDT Policy Subscription API
-  slug: 3gpp-applied-bdt-policy-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-applied-bdt-policy-subscription-api-openapi.yml
 - filename: 3gpp-as-session-with-required-qos-subscriptions-api-openapi.yml
   format: yaml
   label: 3GPP AS Session with Required QoS Subscriptions API
@@ -134,30 +104,12 @@ api_specs:
   slug: 3gpp-asti-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-asti-configurations-api-openapi.yml
-- filename: 3gpp-bdt-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP BDT Subscription API
-  slug: 3gpp-bdt-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-bdt-subscription-api-openapi.yml
-- filename: 3gpp-cag-information-parameters-provisionings-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP CAG Information Parameters Provisionings (Collection) API
-  slug: 3gpp-cag-information-parameters-provisionings-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-cag-information-parameters-provisionings-collection-api-openapi.yml
 - filename: 3gpp-capifs-events-subscriptions-collection-api-openapi.yml
   format: yaml
   label: 3GPP CAPIFs Events Subscriptions (Collection) API
   slug: 3gpp-capifs-events-subscriptions-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-capifs-events-subscriptions-collection-api-openapi.yml
-- filename: 3gpp-chargeable-party-transaction-operation-api-openapi.yml
-  format: yaml
-  label: 3GPP Chargeable Party Transaction Operation API
-  slug: 3gpp-chargeable-party-transaction-operation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-chargeable-party-transaction-operation-api-openapi.yml
 - filename: 3gpp-check-authentication-request-api-openapi.yml
   format: yaml
   label: 3GPP Check Authentication Request API
@@ -206,24 +158,6 @@ api_specs:
   slug: 3gpp-delivery-via-mbms-operation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-delivery-via-mbms-operation-api-openapi.yml
-- filename: 3gpp-device-triggering-api-transactions-api-openapi.yml
-  format: yaml
-  label: 3GPP Device Triggering API Transactions API
-  slug: 3gpp-device-triggering-api-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-device-triggering-api-transactions-api-openapi.yml
-- filename: 3gpp-device-triggering-transactions-api-openapi.yml
-  format: yaml
-  label: 3GPP Device Triggering Transactions API
-  slug: 3gpp-device-triggering-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-device-triggering-transactions-api-openapi.yml
-- filename: 3gpp-dnai-mapping-subscriptions-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP DNAI Mapping Subscriptions (Collection) API
-  slug: 3gpp-dnai-mapping-subscriptions-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-dnai-mapping-subscriptions-collection-api-openapi.yml
 - filename: 3gpp-eas-deployment-information-collection-api-openapi.yml
   format: yaml
   label: 3GPP EAS Deployment Information (Collection) API
@@ -248,12 +182,6 @@ api_specs:
   slug: 3gpp-ecs-address-configuration-information-sets-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-ecs-address-configuration-information-sets-collection-api-openapi.yml
-- filename: 3gpp-ecs-address-provision-configurations-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP ECS Address Provision Configurations (Collection) API
-  slug: 3gpp-ecs-address-provision-configurations-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-ecs-address-provision-configurations-collection-api-openapi.yml
 - filename: 3gpp-events-subscription-document-api-openapi.yml
   format: yaml
   label: 3GPP Events Subscription (Document) API
@@ -284,30 +212,6 @@ api_specs:
   slug: 3gpp-get-msisdn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-get-msisdn-api-openapi.yml
-- filename: 3gpp-group-parameters-provisioning-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP Group Parameters Provisioning (Collection) API
-  slug: 3gpp-group-parameters-provisioning-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-group-parameters-provisioning-collection-api-openapi.yml
-- filename: 3gpp-group-parameters-provisionings-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP Group Parameters Provisionings (Collection) API
-  slug: 3gpp-group-parameters-provisionings-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-group-parameters-provisionings-collection-api-openapi.yml
-- filename: 3gpp-ims-ee-subscriptions-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP IMS EE Subscriptions (Collection) API
-  slug: 3gpp-ims-ee-subscriptions-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-ims-ee-subscriptions-collection-api-openapi.yml
-- filename: 3gpp-ims-parameters-provisionings-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP IMS Parameters Provisionings (Collection) API
-  slug: 3gpp-ims-parameters-provisionings-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-ims-parameters-provisionings-collection-api-openapi.yml
 - filename: 3gpp-ims-session-creation-collection-api-openapi.yml
   format: yaml
   label: 3GPP IMS Session Creation (Collection) API
@@ -326,24 +230,12 @@ api_specs:
   slug: 3gpp-individual-5glan-parameters-provision-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-5glan-parameters-provision-subscription-api-openapi.yml
-- filename: 3gpp-individual-acs-configuration-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual ACS Configuration Subscription API
-  slug: 3gpp-individual-acs-configuration-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-acs-configuration-subscription-api-openapi.yml
 - filename: 3gpp-individual-addressing-parameters-provisioning-document-api-openapi.yml
   format: yaml
   label: 3GPP Individual Addressing Parameters Provisioning (Document) API
   slug: 3gpp-individual-addressing-parameters-provisioning-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-addressing-parameters-provisioning-document-api-openapi.yml
-- filename: 3gpp-individual-am-influence-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual AM Influence Subscription API
-  slug: 3gpp-individual-am-influence-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-am-influence-subscription-api-openapi.yml
 - filename: 3gpp-individual-analytics-exposure-subscription-api-openapi.yml
   format: yaml
   label: 3GPP Individual Analytics Exposure Subscription API
@@ -380,12 +272,6 @@ api_specs:
   slug: 3gpp-individual-application-session-context-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-application-session-context-document-api-openapi.yml
-- filename: 3gpp-individual-applied-bdt-policy-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Applied BDT Policy Subscription API
-  slug: 3gpp-individual-applied-bdt-policy-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-applied-bdt-policy-subscription-api-openapi.yml
 - filename: 3gpp-individual-as-session-with-required-qos-subscription-api-openapi.yml
   format: yaml
   label: 3GPP Individual AS Session with Required QoS Subscription API
@@ -398,30 +284,12 @@ api_specs:
   slug: 3gpp-individual-asti-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-asti-configuration-api-openapi.yml
-- filename: 3gpp-individual-bdt-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual BDT Subscription API
-  slug: 3gpp-individual-bdt-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-bdt-subscription-api-openapi.yml
-- filename: 3gpp-individual-cag-information-parameters-provisioning-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual CAG Information Parameters Provisioning (Document) API
-  slug: 3gpp-individual-cag-information-parameters-provisioning-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-cag-information-parameters-provisioning-document-api-openapi.yml
 - filename: 3gpp-individual-capifs-events-subscription-document-api-openapi.yml
   format: yaml
   label: 3GPP Individual CAPIFs Events Subscription (Document) API
   slug: 3gpp-individual-capifs-events-subscription-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-capifs-events-subscription-document-api-openapi.yml
-- filename: 3gpp-individual-chargeable-party-resource-operation-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual chargeable party resource Operation API
-  slug: 3gpp-individual-chargeable-party-resource-operation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-chargeable-party-resource-operation-api-openapi.yml
 - filename: 3gpp-individual-cp-provisioning-subscription-api-openapi.yml
   format: yaml
   label: 3GPP Individual CP Provisioning Subscription API
@@ -458,18 +326,6 @@ api_specs:
   slug: 3gpp-individual-delivery-via-mbms-resource-operation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-delivery-via-mbms-resource-operation-api-openapi.yml
-- filename: 3gpp-individual-device-triggering-transaction-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Device Triggering Transaction API
-  slug: 3gpp-individual-device-triggering-transaction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-device-triggering-transaction-api-openapi.yml
-- filename: 3gpp-individual-dnai-mapping-subscription-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual DNAI Mapping Subscription (Document) API
-  slug: 3gpp-individual-dnai-mapping-subscription-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-dnai-mapping-subscription-document-api-openapi.yml
 - filename: 3gpp-individual-eas-deployment-information-api-openapi.yml
   format: yaml
   label: 3GPP Individual EAS Deployment Information API
@@ -482,30 +338,12 @@ api_specs:
   slug: 3gpp-individual-ecs-address-configuration-information-set-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-ecs-address-configuration-information-set-document-api-openapi.yml
-- filename: 3gpp-individual-ecs-address-provision-configuration-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual ECS Address Provision Configuration API
-  slug: 3gpp-individual-ecs-address-provision-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-ecs-address-provision-configuration-api-openapi.yml
 - filename: 3gpp-individual-group-parameters-provisioning-document-api-openapi.yml
   format: yaml
   label: 3GPP Individual Group Parameters Provisioning (Document) API
   slug: 3gpp-individual-group-parameters-provisioning-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-group-parameters-provisioning-document-api-openapi.yml
-- filename: 3gpp-individual-ims-ee-subscription-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual IMS EE Subscription (Document) API
-  slug: 3gpp-individual-ims-ee-subscription-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-ims-ee-subscription-document-api-openapi.yml
-- filename: 3gpp-individual-ims-parameters-provisioning-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual IMS Parameters Provisioning (Document) API
-  slug: 3gpp-individual-ims-parameters-provisioning-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-ims-parameters-provisioning-document-api-openapi.yml
 - filename: 3gpp-individual-ims-session-api-openapi.yml
   format: yaml
   label: 3GPP Individual IMS Session API
@@ -520,16 +358,10 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-ims-session-document-api-openapi.yml
 - filename: 3gpp-individual-individual-ecs-address-configuration-set-document-api-openapi.yml
   format: yaml
-  label: 3GPP Individual Individual ECS Address Configuration Set (Document) API
+  label: 3GPP Individual ECS Address Configuration Set (Document) API
   slug: 3gpp-individual-individual-ecs-address-configuration-set-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-individual-ecs-address-configuration-set-document-api-openapi.yml
-- filename: 3gpp-individual-iptv-configuration-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual IPTV Configuration API
-  slug: 3gpp-individual-iptv-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-iptv-configuration-api-openapi.yml
 - filename: 3gpp-individual-lpi-parameters-provisioning-api-openapi.yml
   format: yaml
   label: 3GPP Individual LPI Parameters Provisioning API
@@ -590,24 +422,6 @@ api_specs:
   slug: 3gpp-individual-media-streaming-event-exposure-subscription-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-media-streaming-event-exposure-subscription-document-api-openapi.yml
-- filename: 3gpp-individual-member-ue-selection-assistance-subscription-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Member UE Selection Assistance Subscription (Document) API
-  slug: 3gpp-individual-member-ue-selection-assistance-subscription-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-member-ue-selection-assistance-subscription-document-api-openapi.yml
-- filename: 3gpp-individual-monitoring-event-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Monitoring Event Subscription API
-  slug: 3gpp-individual-monitoring-event-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-monitoring-event-subscription-api-openapi.yml
-- filename: 3gpp-individual-network-status-reporting-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Network Status Reporting Subscription API
-  slug: 3gpp-individual-network-status-reporting-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-network-status-reporting-subscription-api-openapi.yml
 - filename: 3gpp-individual-nidd-configuration-api-openapi.yml
   format: yaml
   label: 3GPP Individual NIDD configuration API
@@ -644,12 +458,6 @@ api_specs:
   slug: 3gpp-individual-on-boarded-api-invoker-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-on-boarded-api-invoker-document-api-openapi.yml
-- filename: 3gpp-individual-pdtq-policy-subscription-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual PDTQ Policy Subscription (Document) API
-  slug: 3gpp-individual-pdtq-policy-subscription-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-pdtq-policy-subscription-document-api-openapi.yml
 - filename: 3gpp-individual-pfd-management-transaction-api-openapi.yml
   format: yaml
   label: 3GPP Individual PFD Management Transaction API
@@ -662,12 +470,6 @@ api_specs:
   slug: 3gpp-individual-racs-parameter-provisioning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-racs-parameter-provisioning-api-openapi.yml
-- filename: 3gpp-individual-rslppi-parameters-provisioning-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual RSLPPI Parameters Provisioning (Document) API
-  slug: 3gpp-individual-rslppi-parameters-provisioning-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-rslppi-parameters-provisioning-document-api-openapi.yml
 - filename: 3gpp-individual-service-api-routing-info-document-api-openapi.yml
   format: yaml
   label: 3GPP Individual Service API routing Info (Document) API
@@ -680,18 +482,6 @@ api_specs:
   slug: 3gpp-individual-service-operation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-service-operation-api-openapi.yml
-- filename: 3gpp-individual-service-parameter-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Service Parameter Subscription API
-  slug: 3gpp-individual-service-parameter-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-service-parameter-subscription-api-openapi.yml
-- filename: 3gpp-individual-slice-parameters-provisioning-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Slice Parameters Provisioning (Document) API
-  slug: 3gpp-individual-slice-parameters-provisioning-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-slice-parameters-provisioning-document-api-openapi.yml
 - filename: 3gpp-individual-sm-policy-document-api-openapi.yml
   format: yaml
   label: 3GPP Individual SM Policy (Document) API
@@ -716,12 +506,6 @@ api_specs:
   slug: 3gpp-individual-tmgi-allocation-operation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-tmgi-allocation-operation-api-openapi.yml
-- filename: 3gpp-individual-traffic-influence-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual Traffic Influence Subscription API
-  slug: 3gpp-individual-traffic-influence-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-traffic-influence-subscription-api-openapi.yml
 - filename: 3gpp-individual-trusted-api-invoker-store-api-openapi.yml
   format: yaml
   label: 3GPP Individual trusted API invoker (Store) API
@@ -746,24 +530,12 @@ api_specs:
   slug: 3gpp-individual-ue-id-mapping-information-provisioning-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-ue-id-mapping-information-provisioning-document-api-openapi.yml
-- filename: 3gpp-individual-vfl-inference-subscription-document-api-openapi.yml
-  format: yaml
-  label: 3GPP Individual VFL Inference Subscription (Document) API
-  slug: 3gpp-individual-vfl-inference-subscription-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-vfl-inference-subscription-document-api-openapi.yml
 - filename: 3gpp-individual-vfl-training-subscription-document-api-openapi.yml
   format: yaml
   label: 3GPP Individual VFL Training Subscription (Document) API
   slug: 3gpp-individual-vfl-training-subscription-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-individual-vfl-training-subscription-document-api-openapi.yml
-- filename: 3gpp-iptv-configurations-api-openapi.yml
-  format: yaml
-  label: 3GPP IPTV Configurations API
-  slug: 3gpp-iptv-configurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-iptv-configurations-api-openapi.yml
 - filename: 3gpp-logs-collection-api-openapi.yml
   format: yaml
   label: 3GPP Logs (Collection) API
@@ -848,30 +620,6 @@ api_specs:
   slug: 3gpp-media-streaming-event-exposure-subscriptions-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-media-streaming-event-exposure-subscriptions-collection-api-openapi.yml
-- filename: 3gpp-member-ue-selection-assistance-subscriptions-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP Member UE Selection Assistance Subscriptions (Collection) API
-  slug: 3gpp-member-ue-selection-assistance-subscriptions-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-member-ue-selection-assistance-subscriptions-collection-api-openapi.yml
-- filename: 3gpp-monitoring-event-subscriptions-api-openapi.yml
-  format: yaml
-  label: 3GPP Monitoring Event Subscriptions API
-  slug: 3gpp-monitoring-event-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-monitoring-event-subscriptions-api-openapi.yml
-- filename: 3gpp-msisdn-less-mo-sms-notification-api-openapi.yml
-  format: yaml
-  label: 3GPP MSISDN-less MO SMS Notification API
-  slug: 3gpp-msisdn-less-mo-sms-notification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-msisdn-less-mo-sms-notification-api-openapi.yml
-- filename: 3gpp-network-status-reporting-subscriptions-api-openapi.yml
-  format: yaml
-  label: 3GPP Network Status Reporting Subscriptions API
-  slug: 3gpp-network-status-reporting-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-network-status-reporting-subscriptions-api-openapi.yml
 - filename: 3gpp-nidd-configurations-api-openapi.yml
   format: yaml
   label: 3GPP NIDD configurations API
@@ -932,12 +680,6 @@ api_specs:
   slug: 3gpp-pcscf-restoration-indication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-pcscf-restoration-indication-api-openapi.yml
-- filename: 3gpp-pdtq-policy-subscriptions-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP PDTQ Policy Subscriptions (Collection) API
-  slug: 3gpp-pdtq-policy-subscriptions-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-pdtq-policy-subscriptions-collection-api-openapi.yml
 - filename: 3gpp-pfd-management-transactions-api-openapi.yml
   format: yaml
   label: 3GPP PFD Management Transactions API
@@ -992,18 +734,6 @@ api_specs:
   slug: 3gpp-revoke-authorization-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-revoke-authorization-request-api-openapi.yml
-- filename: 3gpp-rslppi-parameters-provisioning-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP RSLPPI Parameters Provisioning (Collection) API
-  slug: 3gpp-rslppi-parameters-provisioning-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-rslppi-parameters-provisioning-collection-api-openapi.yml
-- filename: 3gpp-rslppi-parameters-provisionings-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP RSLPPI Parameters Provisionings (Collection) API
-  slug: 3gpp-rslppi-parameters-provisionings-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-rslppi-parameters-provisionings-collection-api-openapi.yml
 - filename: 3gpp-service-apis-collection-api-openapi.yml
   format: yaml
   label: 3GPP Service APIs (Collection) API
@@ -1016,24 +746,6 @@ api_specs:
   slug: 3gpp-service-operation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-service-operation-api-openapi.yml
-- filename: 3gpp-service-parameter-subscriptions-api-openapi.yml
-  format: yaml
-  label: 3GPP Service Parameter Subscriptions API
-  slug: 3gpp-service-parameter-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-service-parameter-subscriptions-api-openapi.yml
-- filename: 3gpp-serviceprofiles-api-openapi.yml
-  format: yaml
-  label: 3GPP Service Profiles API
-  slug: 3gpp-serviceprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-serviceprofiles-api-openapi.yml
-- filename: 3gpp-slice-parameters-provisionings-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP Slice Parameters Provisionings (Collection) API
-  slug: 3gpp-slice-parameters-provisionings-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-slice-parameters-provisionings-collection-api-openapi.yml
 - filename: 3gpp-sliceprofiles-api-openapi.yml
   format: yaml
   label: 3GPP Slice Profiles API
@@ -1052,12 +764,6 @@ api_specs:
   slug: 3gpp-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-subscriptions-api-openapi.yml
-- filename: 3gpp-subscriptions-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP Subscriptions (Collection) API
-  slug: 3gpp-subscriptions-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-subscriptions-collection-api-openapi.yml
 - filename: 3gpp-time-synchronization-exposure-configurations-api-openapi.yml
   format: yaml
   label: 3GPP Time Synchronization Exposure Configurations API
@@ -1082,12 +788,6 @@ api_specs:
   slug: 3gpp-tmgi-allocation-or-timer-expiry-refresh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-tmgi-allocation-or-timer-expiry-refresh-api-openapi.yml
-- filename: 3gpp-traffic-influence-subscription-api-openapi.yml
-  format: yaml
-  label: 3GPP Traffic Influence Subscription API
-  slug: 3gpp-traffic-influence-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-traffic-influence-subscription-api-openapi.yml
 - filename: 3gpp-trigger-descriptor-management-api-openapi.yml
   format: yaml
   label: 3GPP Trigger Descriptor Management API
@@ -1136,12 +836,6 @@ api_specs:
   slug: 3gpp-verify-msisdn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-verify-msisdn-api-openapi.yml
-- filename: 3gpp-vfl-inference-subscriptions-collection-api-openapi.yml
-  format: yaml
-  label: 3GPP VFL Inference Subscriptions (Collection) API
-  slug: 3gpp-vfl-inference-subscriptions-collection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-vfl-inference-subscriptions-collection-api-openapi.yml
 - filename: 3gpp-vfl-nf-discovery-api-openapi.yml
   format: yaml
   label: 3GPP VFL NF discovery API
@@ -1160,6 +854,12 @@ api_specs:
   slug: 3gpp-vfl-training-subscriptions-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-vfl-training-subscriptions-collection-api-openapi.yml
+- filename: 3gpp-service-profiles-api-openapi.yml
+  format: yaml
+  label: 3GPP Service Profiles API
+  slug: 3gpp-service-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/openapi/3gpp-service-profiles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

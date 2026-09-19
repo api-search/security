@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cisco-control-hub-adminauditevents-api-openapi.yml
-  format: yaml
-  label: Cisco Control Hub AdminAuditEvents API
-  slug: cisco-control-hub-adminauditevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-adminauditevents-api-openapi.yml
 - filename: cisco-control-hub-devices-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Devices API
@@ -44,6 +38,12 @@ api_specs:
   slug: cisco-control-hub-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-workspaces-api-openapi.yml
+- filename: cisco-control-hub-admin-audit-events-api-openapi.yml
+  format: yaml
+  label: Cisco Control Hub Admin Audit Events API
+  slug: cisco-control-hub-admin-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
 auth_types:
 - http
 description: ''

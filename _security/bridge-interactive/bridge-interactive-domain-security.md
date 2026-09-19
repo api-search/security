@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-open-houses-api-openapi.yml
 - filename: bridge-interactive-reso-web-api-api-openapi.yml
   format: yaml
-  label: Bridge Interactive RESO Web API API
+  label: Bridge Interactive RESO Web API
   slug: bridge-interactive-reso-web-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-reso-web-api-api-openapi.yml

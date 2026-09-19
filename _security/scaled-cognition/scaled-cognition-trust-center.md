@@ -20,7 +20,7 @@ summary_line: trust center published
 tags:
 - Artificial Intelligence
 - Agents
-- Large Language Models
+- LLM
 - Customer Experience
 - Contact Center
 - Conversational AI

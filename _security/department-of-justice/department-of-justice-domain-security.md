@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: department-of-justice-foia-api-swagger.json
-  format: json
-  label: National FOIA Portal API
-  slug: foia-annual-report-api
+- filename: department-of-justice-agency-component-api-openapi.yml
+  format: yaml
+  label: Department of Justice Agency Component API
+  slug: department-of-justice-agency-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-foia-api-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-agency-component-api-openapi.yml
+- filename: department-of-justice-agency-taxonomy-api-openapi.yml
+  format: yaml
+  label: Department of Justice Agency Taxonomy API
+  slug: department-of-justice-agency-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-agency-taxonomy-api-openapi.yml
+- filename: department-of-justice-annual-foia-report-data-api-openapi.yml
+  format: yaml
+  label: Department of Justice Annual FOIA Report Data API
+  slug: department-of-justice-annual-foia-report-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-annual-foia-report-data-api-openapi.yml
+- filename: department-of-justice-cfo-committee-api-openapi.yml
+  format: yaml
+  label: Department of Justice CFO Committee API
+  slug: department-of-justice-cfo-committee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-committee-api-openapi.yml
+- filename: department-of-justice-cfo-council-api-openapi.yml
+  format: yaml
+  label: Department of Justice CFO Council API
+  slug: department-of-justice-cfo-council-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-council-api-openapi.yml
+- filename: department-of-justice-cfo-meeting-api-openapi.yml
+  format: yaml
+  label: Department of Justice CFO Meeting API
+  slug: department-of-justice-cfo-meeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-meeting-api-openapi.yml
+- filename: department-of-justice-cfo-page-api-openapi.yml
+  format: yaml
+  label: Department of Justice CFO Page API
+  slug: department-of-justice-cfo-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-cfo-page-api-openapi.yml
+- filename: department-of-justice-quarterly-foia-report-data-api-openapi.yml
+  format: yaml
+  label: Department of Justice Quarterly FOIA Report Data API
+  slug: department-of-justice-quarterly-foia-report-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/openapi/department-of-justice-quarterly-foia-report-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

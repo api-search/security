@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Healthcare
-- Telemedicine
+- Telehealth
 - Urgent Care
 - Primary Care
 - Digital Health

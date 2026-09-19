@@ -39,12 +39,6 @@ api_specs:
   slug: 1kosmos-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/openapi/1kosmos-reports-api-openapi.yml
-- filename: 1kosmos-set-up-api-openapi.yml
-  format: yaml
-  label: 1Kosmos Set up API
-  slug: 1kosmos-set-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/openapi/1kosmos-set-up-api-openapi.yml
 - filename: 1kosmos-user-management-api-openapi.yml
   format: yaml
   label: 1Kosmos User Management API
@@ -59,10 +53,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/openapi/1kosmos-verifiable-credentials-api-openapi.yml
 - filename: 1kosmos-workflow-api-api-openapi.yml
   format: yaml
-  label: 1Kosmos Workflow API API
+  label: 1Kosmos Workflow API
   slug: 1kosmos-workflow-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/openapi/1kosmos-workflow-api-api-openapi.yml
+- filename: 1kosmos-setup-api-openapi.yml
+  format: yaml
+  label: 1Kosmos Setup API
+  slug: 1kosmos-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/openapi/1kosmos-setup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

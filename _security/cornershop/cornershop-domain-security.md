@@ -33,9 +33,9 @@ tags:
 - Grocery Delivery
 - On-Demand Delivery
 - Last Mile Delivery
-- Consumer Apps
+- Consumer App
 - E-Commerce
-- Marketplaces
+- Marketplace
 - Logistics
 - Latin America
 - Chile

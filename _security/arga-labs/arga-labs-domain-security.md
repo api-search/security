@@ -38,8 +38,8 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - API Testing
-- Sandboxes
-- Digital Twins
+- Sandbox
+- Digital Twin
 - AI Agents
 - Developer Tools
 - Testing Infrastructure

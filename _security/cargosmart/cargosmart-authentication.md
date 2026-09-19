@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/ref
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Booking
-- Container
+- Containers
 - Documentation
 - GSBN
 - IQAX

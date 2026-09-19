@@ -34,7 +34,6 @@ tags:
 - Company
 - Human Resources
 - Employee Benefits
-- HR Tech
 - Payroll
 - Compensation
 - Fintech

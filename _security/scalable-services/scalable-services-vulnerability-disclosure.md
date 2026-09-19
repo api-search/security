@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/openapi/scalable-services-secrets-api-openapi.yml
 - filename: scalable-services-services-api-openapi.yml
   format: yaml
-  label: Scalable Services Services API
+  label: Scalable Services API
   slug: scalable-services-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/openapi/scalable-services-services-api-openapi.yml

@@ -50,7 +50,7 @@ tags:
 - Automotive
 - Dealership
 - Inventory Management
-- Appraisals
+- Appraisal
 - Vehicle Pricing
 - Cox Automotive
 - Partner API

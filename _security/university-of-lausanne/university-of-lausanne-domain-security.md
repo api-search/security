@@ -30,12 +30,6 @@ api_specs:
   slug: university-of-lausanne-iris-repository-dspace-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
-- filename: university-of-lausanne-oai-pmh-api-openapi.yml
-  format: yaml
-  label: IRIS OAI-PMH
-  slug: university-of-lausanne-oai-pmh-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

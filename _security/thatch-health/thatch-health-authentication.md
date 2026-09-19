@@ -82,5 +82,5 @@ tags:
 - Insurance
 - Payroll
 - Embedded Benefits
-- HR
+- Human Resources
 ---

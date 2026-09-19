@@ -37,7 +37,7 @@ tags:
 - Accounts Receivable
 - Net Terms
 - Trade Credit
-- BNPL
+- Buy Now Pay Later
 - Billing
 - Embedded Finance
 ---

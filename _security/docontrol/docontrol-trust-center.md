@@ -6,12 +6,12 @@ api_specs:
   slug: docontrol-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-authentication-api-openapi.yml
-- filename: docontrol-graphql-api-openapi.yml
+- filename: docontrol-graph-ql-api-openapi.yml
   format: yaml
-  label: DoControl GraphQL API
-  slug: docontrol-graphql-api
+  label: DoControl Graph QL API
+  slug: docontrol-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-graph-ql-api-openapi.yml
 certification_count: 4
 certifications:
 - ISO 27001

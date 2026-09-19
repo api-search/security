@@ -81,7 +81,6 @@ summary_line: http · 1 scheme
 tags:
 - LLM
 - Artificial Intelligence
-- Large Language Models
 - LLM Routing
 - Model Gateway
 - AI Gateway

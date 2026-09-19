@@ -33,7 +33,7 @@ tags:
 - Company
 - Space
 - Edge Computing
-- Satellites
+- Satellite
 - Artificial Intelligence
 - Machine-Learning
 - Aerospace

@@ -329,6 +329,6 @@ tags:
 - Data Governance
 - SQL
 - Apache Iceberg
-- Model Context Protocol
+- MCP
 - T1
 ---

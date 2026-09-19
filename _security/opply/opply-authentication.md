@@ -30,7 +30,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-agreements-api-openapi.yml
 - filename: opply-api-api-openapi.yml
   format: yaml
-  label: Opply api API
+  label: Opply api
   slug: opply-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-api-api-openapi.yml
@@ -186,7 +186,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-notifications-api-openapi.yml
 - filename: opply-opply-documents-api-openapi.yml
   format: yaml
-  label: Opply Opply Documents API
+  label: Opply Documents API
   slug: opply-opply-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-opply-documents-api-openapi.yml

@@ -37,6 +37,6 @@ tags:
 - Tech Sales
 - Sales Development
 - Talent Placement
-- Career
+- Careers
 - Workforce Development
 ---

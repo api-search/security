@@ -35,7 +35,7 @@ tags:
 - Biotech
 - Artificial Intelligence
 - Clinical Trials
-- Digital Twins
+- Digital Twin
 - Machine-Learning
 - Healthcare
 ---

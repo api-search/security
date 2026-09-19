@@ -68,7 +68,7 @@ tags:
 - Payments
 - Installments
 - Buy Now Pay Later
-- Credit Card
+- Credit Cards
 - Fintech
 - E-Commerce
 ---

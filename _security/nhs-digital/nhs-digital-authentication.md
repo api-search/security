@@ -82,7 +82,7 @@ tags:
 - NHS
 - Health
 - FHIR
-- UK
+- United Kingdom
 - Patient Demographics
 - Prescriptions
 - Referrals

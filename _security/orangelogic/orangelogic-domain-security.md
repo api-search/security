@@ -38,10 +38,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orangelogic/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Asset Management
-- DAM
 - Media Asset Management
 - MAM
 - Enterprise
 - Metadata
-- Archive
+- Archives
 ---

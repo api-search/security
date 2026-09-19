@@ -38,7 +38,7 @@ tags:
 - Labor
 - Labor-Relations
 - Collective-Bargaining
-- Public-Sector
+- Public Sector
 - Government
 - Legal
 ---

@@ -69,7 +69,7 @@ tags:
 - Field Service Management
 - Workforce Management
 - Asset Management
-- Enterprise Resource Planning
+- ERP
 - Smart Cities
 - Local Government
 - Utilities

@@ -40,8 +40,8 @@ tags:
 - Fintech
 - Lending
 - Buy Now Pay Later
-- Credit Card
-- Investments
+- Credit Cards
+- Investment
 - Small Finance Bank
 - India
 ---

@@ -42,5 +42,5 @@ tags:
 - Open RAN
 - Kubernetes
 - DevOps
-- Sandboxes
+- Sandbox
 ---

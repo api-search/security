@@ -6,12 +6,6 @@ api_specs:
   slug: neuvector-admission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/openapi/neuvector-admission-api-openapi.yml
-- filename: neuvector-apikey-api-openapi.yml
-  format: yaml
-  label: NeuVector Apikey API
-  slug: neuvector-apikey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/openapi/neuvector-apikey-api-openapi.yml
 - filename: neuvector-authentication-api-openapi.yml
   format: yaml
   label: NeuVector Authentication API
@@ -186,6 +180,12 @@ api_specs:
   slug: neuvector-waf-rule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/openapi/neuvector-waf-rule-api-openapi.yml
+- filename: neuvector-api-key-api-openapi.yml
+  format: yaml
+  label: NeuVector API Key API
+  slug: neuvector-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/openapi/neuvector-api-key-api-openapi.yml
 description: ''
 domains:
 - caa: []

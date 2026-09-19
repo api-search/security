@@ -44,12 +44,12 @@ api_specs:
   slug: addis-energy-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-discovery-api-openapi.yml
-- filename: addis-energy-oembed-api-openapi.yml
+- filename: addis-energy-o-embed-api-openapi.yml
   format: yaml
-  label: Addis Energy oEmbed API
-  slug: addis-energy-oembed-api
+  label: Addis Energy o Embed API
+  slug: addis-energy-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-o-embed-api-openapi.yml
 auth_types: []
 description: Authentication profile for the WordPress core REST API behind addisenergy.com. There is no developer program, no signup, no API key issuance and no OAuth server. The public surface is anonymous and read-only; the write half of the same routes is gated by WordPress application passwords, which only an existing site administrator can mint from wp-admin.
 kind: authentication

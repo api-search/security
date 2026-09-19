@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: google-ad-manager-adunits-api-openapi.yml
-  format: yaml
-  label: Google Ad Manager adUnits API
-  slug: google-ad-manager-adunits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-adunits-api-openapi.yml
 - filename: google-ad-manager-companies-api-openapi.yml
   format: yaml
   label: Google Ad Manager Companies API
@@ -30,6 +24,12 @@ api_specs:
   slug: google-ad-manager-reports-run-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-reports-run-api-openapi.yml
+- filename: google-ad-manager-ad-units-api-openapi.yml
+  format: yaml
+  label: Google Ad Manager Ad Units API
+  slug: google-ad-manager-ad-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-ad-units-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ tags:
 - Ad Manager
 - Ad Operations
 - Ad Serving
-- Creatives
+- Creative
 - Line Items
 - Order
 - Publishers

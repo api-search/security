@@ -37,6 +37,6 @@ tags:
 - Seed
 - Startups
 - Angel Investing
-- Investors
+- Investor
 - Fund
 ---

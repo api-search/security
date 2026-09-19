@@ -222,7 +222,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs
 summary_line: 1 scheme
 tags:
 - Company
-- Browser Extensions
+- Browser Extension
 - Low-Code
 - Automation
 - Artificial Intelligence

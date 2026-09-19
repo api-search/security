@@ -36,12 +36,6 @@ api_specs:
   slug: vendasta-marketplace-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-marketplace-app-api-openapi.yml
-- filename: vendasta-oauth-api-openapi.yml
-  format: yaml
-  label: Vendasta oauth API
-  slug: vendasta-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-oauth-api-openapi.yml
 - filename: vendasta-user-api-openapi.yml
   format: yaml
   label: Vendasta user API
@@ -390,24 +384,12 @@ api_specs:
   slug: vendasta-sales-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sales-accounts-api-openapi.yml
-- filename: vendasta-salesorders-api-openapi.yml
-  format: yaml
-  label: Vendasta Sales Orders API
-  slug: vendasta-salesorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-salesorders-api-openapi.yml
 - filename: vendasta-salesordersauxiliaryfieldschema-api-openapi.yml
   format: yaml
   label: Vendasta Sales Orders Auxiliary Field Schema API
   slug: vendasta-salesordersauxiliaryfieldschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-salesordersauxiliaryfieldschema-api-openapi.yml
-- filename: vendasta-searchservice-api-openapi.yml
-  format: yaml
-  label: Vendasta Search Service API
-  slug: vendasta-searchservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-searchservice-api-openapi.yml
 - filename: vendasta-send-welcome-email-api-openapi.yml
   format: yaml
   label: Vendasta Send Welcome Email API
@@ -426,12 +408,6 @@ api_specs:
   slug: vendasta-sitedetail-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sitedetail-service-api-openapi.yml
-- filename: vendasta-siteinfo-api-openapi.yml
-  format: yaml
-  label: Vendasta Site Info API
-  slug: vendasta-siteinfo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-siteinfo-api-openapi.yml
 - filename: vendasta-sitemanager-api-openapi.yml
   format: yaml
   label: Vendasta Site Manager API
@@ -450,12 +426,6 @@ api_specs:
   slug: vendasta-social-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-profiles-api-openapi.yml
-- filename: vendasta-socialposts-api-openapi.yml
-  format: yaml
-  label: Vendasta Social Posts API
-  slug: vendasta-socialposts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-socialposts-api-openapi.yml
 - filename: vendasta-socialpostsv2-api-openapi.yml
   format: yaml
   label: Vendasta Social Posts V2 API
@@ -522,6 +492,36 @@ api_specs:
   slug: vendasta-wordpressservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-wordpressservice-api-openapi.yml
+- filename: vendasta-oauth-api-openapi.yml
+  format: yaml
+  label: Vendasta OAUTH API
+  slug: vendasta-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-oauth-api-openapi.yml
+- filename: vendasta-sales-orders-api-openapi.yml
+  format: yaml
+  label: Vendasta Sales Orders API
+  slug: vendasta-sales-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-sales-orders-api-openapi.yml
+- filename: vendasta-search-service-api-openapi.yml
+  format: yaml
+  label: Vendasta Search Service API
+  slug: vendasta-search-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-search-service-api-openapi.yml
+- filename: vendasta-site-info-api-openapi.yml
+  format: yaml
+  label: Vendasta Site Info API
+  slug: vendasta-site-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-site-info-api-openapi.yml
+- filename: vendasta-social-posts-api-openapi.yml
+  format: yaml
+  label: Vendasta Social Posts API
+  slug: vendasta-social-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-posts-api-openapi.yml
 description: ''
 domains:
 - caa: []

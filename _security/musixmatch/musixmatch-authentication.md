@@ -70,5 +70,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Lyrics
 - Music
-- Translations
+- Translation
 ---

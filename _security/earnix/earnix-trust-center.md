@@ -30,7 +30,7 @@ tags:
 - Insurance
 - Insurtech
 - Pricing
-- Rating
+- Ratings
 - Underwriting
 - Banking
 - Financial-Services

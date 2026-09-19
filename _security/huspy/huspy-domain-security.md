@@ -36,6 +36,6 @@ tags:
 - PropTech
 - Fintech
 - Lending
-- UAE
+- United Arab Emirates
 - Dubai
 ---

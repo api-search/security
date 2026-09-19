@@ -34,7 +34,7 @@ tags:
 - Apparel
 - Direct to Consumer
 - Agentic Commerce
-- UCP
+- Universal Commerce Protocol
 - MCP
 - agent-native
 - Shopify

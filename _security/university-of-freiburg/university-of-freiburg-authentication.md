@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-freiburg-freidok-plus-json-api-openapi.yml
+- filename: university-of-freiburg-institutions-api-openapi.yml
   format: yaml
-  label: FreiDok plus JSON API
-  slug: freidok-json
+  label: University of Freiburg Institutions API
+  slug: university-of-freiburg-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-freidok-plus-json-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-institutions-api-openapi.yml
+- filename: university-of-freiburg-persons-api-openapi.yml
+  format: yaml
+  label: University of Freiburg Persons API
+  slug: university-of-freiburg-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-persons-api-openapi.yml
+- filename: university-of-freiburg-projects-api-openapi.yml
+  format: yaml
+  label: University of Freiburg Projects API
+  slug: university-of-freiburg-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-projects-api-openapi.yml
+- filename: university-of-freiburg-publications-api-openapi.yml
+  format: yaml
+  label: University of Freiburg Publications API
+  slug: university-of-freiburg-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/openapi/university-of-freiburg-publications-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/h
 summary_line: HSTS · DMARC
 tags:
 - Job Management
-- Trades
+- Trade
 - Field Service
 - Scheduling
 - Quoting

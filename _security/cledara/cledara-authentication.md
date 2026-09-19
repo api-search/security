@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cledara-api-openapi.json
-  format: json
-  label: Cledara API
-  slug: cledara-api
+- filename: cledara-applications-api-openapi.yml
+  format: yaml
+  label: Cledara Applications API
+  slug: cledara-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/openapi/cledara-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/openapi/cledara-applications-api-openapi.yml
+- filename: cledara-transactions-api-openapi.yml
+  format: yaml
+  label: Cledara Transactions API
+  slug: cledara-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/openapi/cledara-transactions-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

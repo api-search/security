@@ -88,7 +88,7 @@ tags:
 - Artificial Intelligence
 - GPU
 - Inference
-- Large Language Models
+- LLM
 - Open Source Models
 - Hugging Face
 - Batch

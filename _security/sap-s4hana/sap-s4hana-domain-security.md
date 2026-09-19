@@ -74,7 +74,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Business Applications
 - Cloud
-- Enterprise Resource Planning
 - ERP
 - Finance
 - Human Resources

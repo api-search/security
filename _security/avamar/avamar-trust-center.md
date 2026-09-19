@@ -31,6 +31,6 @@ tags:
 - Enterprise Software
 - Infrastructure
 - Dell Technologies
-- On-Premise
+- On-Premises
 trust_url: https://www.dell.com/en-us/dt/about-us/security-and-trust-center/compliance-service-organization-control-overlay.htm
 ---

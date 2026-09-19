@@ -15,12 +15,6 @@ api_specs:
   slug: aserto-authorizer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authorizer-api-openapi.yml
-- filename: aserto-authzen-api-openapi.yml
-  format: yaml
-  label: Aserto authzen API
-  slug: aserto-authzen-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authzen-api-openapi.yml
 - filename: aserto-decision-logs-api-openapi.yml
   format: yaml
   label: Aserto decision_logs API
@@ -45,6 +39,12 @@ api_specs:
   slug: aserto-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-policy-api-openapi.yml
+- filename: aserto-auth-zen-api-openapi.yml
+  format: yaml
+  label: Aserto Auth ZEN API
+  slug: aserto-auth-zen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-auth-zen-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

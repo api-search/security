@@ -51,7 +51,7 @@ tags:
 - Automotive Retail Cloud
 - Partner API
 - Sales
-- Service
+- Services
 - Inventory
 - Parts
 - Webhook

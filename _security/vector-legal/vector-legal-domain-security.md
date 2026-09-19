@@ -34,7 +34,7 @@ tags:
 - Company
 - Legal
 - Legal Tech
-- Law Firm
+- Law Firms
 - Artificial Intelligence
 - Startups
 - Contracts

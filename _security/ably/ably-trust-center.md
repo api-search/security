@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/head
 summary_line: SOC 2, GDPR
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - Messaging
 - Streaming

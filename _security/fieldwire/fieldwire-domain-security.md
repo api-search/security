@@ -36,12 +36,6 @@ api_specs:
   slug: fieldwire-custom-stamps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-custom-stamps-api-openapi.yml
-- filename: fieldwire-floorplans-api-openapi.yml
-  format: yaml
-  label: Fieldwire Floorplans API
-  slug: fieldwire-floorplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-floorplans-api-openapi.yml
 - filename: fieldwire-form-inputs-api-openapi.yml
   format: yaml
   label: Fieldwire Form Inputs API
@@ -108,6 +102,12 @@ api_specs:
   slug: fieldwire-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-users-api-openapi.yml
+- filename: fieldwire-floor-plans-api-openapi.yml
+  format: yaml
+  label: Fieldwire Floor Plans API
+  slug: fieldwire-floor-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/openapi/fieldwire-floor-plans-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -158,7 +158,7 @@ tags:
 - Drawings
 - BIM
 - Forms
-- Inspections
+- Inspection
 - Project Management
 - Hilti
 ---

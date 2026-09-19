@@ -24,12 +24,12 @@ api_specs:
   slug: denbury-resources-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-discovery-api-openapi.yml
-- filename: denbury-resources-oembed-api-openapi.yml
+- filename: denbury-resources-o-embed-api-openapi.yml
   format: yaml
-  label: Denbury Resources oEmbed API
-  slug: denbury-resources-oembed-api
+  label: Denbury Resources o Embed API
+  slug: denbury-resources-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

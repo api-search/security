@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: varian-medical-systems-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Varian Medical Systems AllergyIntolerance API
-  slug: varian-medical-systems-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-allergyintolerance-api-openapi.yml
-- filename: varian-medical-systems-careplan-api-openapi.yml
-  format: yaml
-  label: Varian Medical Systems CarePlan API
-  slug: varian-medical-systems-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-careplan-api-openapi.yml
 - filename: varian-medical-systems-condition-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Condition API
@@ -26,24 +14,12 @@ api_specs:
   slug: varian-medical-systems-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
-- filename: varian-medical-systems-documentreference-api-openapi.yml
-  format: yaml
-  label: Varian Medical Systems DocumentReference API
-  slug: varian-medical-systems-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-documentreference-api-openapi.yml
 - filename: varian-medical-systems-goal-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Goal API
   slug: varian-medical-systems-goal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-goal-api-openapi.yml
-- filename: varian-medical-systems-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Varian Medical Systems MedicationRequest API
-  slug: varian-medical-systems-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-medicationrequest-api-openapi.yml
 - filename: varian-medical-systems-metadata-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Metadata API
@@ -68,6 +44,30 @@ api_specs:
   slug: varian-medical-systems-procedure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-procedure-api-openapi.yml
+- filename: varian-medical-systems-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Allergy Intolerance API
+  slug: varian-medical-systems-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
+- filename: varian-medical-systems-care-plan-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Care plan API
+  slug: varian-medical-systems-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-care-plan-api-openapi.yml
+- filename: varian-medical-systems-document-reference-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Document Reference API
+  slug: varian-medical-systems-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-document-reference-api-openapi.yml
+- filename: varian-medical-systems-medication-request-api-openapi.yml
+  format: yaml
+  label: Varian Medical Systems Medication Request API
+  slug: varian-medical-systems-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-medication-request-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

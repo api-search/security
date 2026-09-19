@@ -42,7 +42,6 @@ tags:
 - E-Commerce
 - Social Commerce
 - Retail
-- Marketplaces
 - India
 - Suppliers
 ---

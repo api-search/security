@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: sonde-health-screening-api-openapi.yaml
+- filename: sonde-health-authentication-api-openapi.yml
   format: yaml
-  label: Sonde Screening API
-  slug: sonde-screening-api
+  label: Sonde Health Authentication API
+  slug: sonde-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-screening-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-authentication-api-openapi.yml
+- filename: sonde-health-platform-api-openapi.yml
+  format: yaml
+  label: Sonde Health Platform API
+  slug: sonde-health-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-platform-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

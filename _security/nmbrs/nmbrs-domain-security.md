@@ -24,12 +24,6 @@ api_specs:
   slug: nmbrs-employments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employments-api-openapi.yml
-- filename: nmbrs-payruns-api-openapi.yml
-  format: yaml
-  label: Nmbrs Payruns API
-  slug: nmbrs-payruns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-payruns-api-openapi.yml
 - filename: nmbrs-salaries-api-openapi.yml
   format: yaml
   label: Nmbrs Salaries API
@@ -42,6 +36,12 @@ api_specs:
   slug: nmbrs-wage-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-wage-components-api-openapi.yml
+- filename: nmbrs-pay-runs-api-openapi.yml
+  format: yaml
+  label: Nmbrs Pay Runs API
+  slug: nmbrs-pay-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-pay-runs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -110,7 +110,6 @@ tags:
 - HRIS
 - Payroll
 - Employee Management
-- HR
 - Absence Management
 - Netherlands
 - Sweden

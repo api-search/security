@@ -33,7 +33,7 @@ tags:
 - Company
 - Locksmith
 - Key Duplication
-- Kiosks
+- Kiosk
 - Security
 - Access Control
 - Retail

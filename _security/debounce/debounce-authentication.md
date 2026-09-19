@@ -3,36 +3,48 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: debounce-validation-api-openapi.yml
+- filename: debounce-account-management-api-openapi.yml
   format: yaml
-  label: DeBounce Validation API
-  slug: debounce-validation-api
+  label: DeBounce Account Management API
+  slug: debounce-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-validation-api-openapi.yml
-- filename: debounce-bulk-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-account-management-api-openapi.yml
+- filename: debounce-debounce-disposable-email-detector-api-api-openapi.yml
   format: yaml
-  label: DeBounce Bulk API
-  slug: debounce-bulk-api
+  label: DeBounce Disposable Email Detector API
+  slug: debounce-debounce-disposable-email-detector-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-bulk-api-openapi.yml
-- filename: debounce-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-debounce-disposable-email-detector-api-api-openapi.yml
+- filename: debounce-debounce-email-validation-api-api-openapi.yml
   format: yaml
-  label: DeBounce Data API
-  slug: debounce-data-api
+  label: DeBounce Email Validation API
+  slug: debounce-debounce-email-validation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-data-api-openapi.yml
-- filename: debounce-account-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-debounce-email-validation-api-api-openapi.yml
+- filename: debounce-reverse-api-openapi.yml
   format: yaml
-  label: DeBounce Account API
-  slug: debounce-account-api
+  label: DeBounce Reverse API
+  slug: debounce-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-account-api-openapi.yml
-- filename: debounce-disposable-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-reverse-api-openapi.yml
+- filename: debounce-status-api-openapi.yml
   format: yaml
-  label: DeBounce Disposable Detector API
-  slug: debounce-disposable-api
+  label: DeBounce Status API
+  slug: debounce-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-disposable-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-status-api-openapi.yml
+- filename: debounce-upload-api-openapi.yml
+  format: yaml
+  label: DeBounce Upload API
+  slug: debounce-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-upload-api-openapi.yml
+- filename: debounce-usage-api-openapi.yml
+  format: yaml
+  label: DeBounce Usage API
+  slug: debounce-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/openapi/debounce-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: 'DeBounce authenticates every REST request with an API key passed as the `api` query-string parameter. There are no headers to set, no bearer tokens, no OAuth and no signing — which is exactly why the docs warn that the key must never be placed in client-side code. Two key classes exist with materially different posture: a private key with full account access, and a `public_`-prefixed key scoped to browser use with CORS domain allow-listing and a hard per-IP daily cap. The free Disposable Detector and Logo APIs are unauthenticated entirely. A separate OAuth 2.1 authorization server exists on debounce.com, but it belongs to the WordPress-hosted MCP endpoint, not to the validation API — see scopes/debounce-scopes.yml.'

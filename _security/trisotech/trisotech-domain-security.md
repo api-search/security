@@ -40,8 +40,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Process Management
 - Decision Management
-- Workflow Automation
-- Low Code
+- Workflow-Automation
+- Low-Code
 - BPMN
 - DMN
 - CMMN
@@ -50,6 +50,6 @@ tags:
 - Clinical Decision Support
 - Standards
 - AI Agents
-- Model Context Protocol
+- MCP
 - Enterprise Architecture
 ---

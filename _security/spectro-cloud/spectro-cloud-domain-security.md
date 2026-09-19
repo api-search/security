@@ -6,18 +6,6 @@ api_specs:
   slug: spectro-cloud-activations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-activations-api-openapi.yml
-- filename: spectro-cloud-apikeys-api-openapi.yml
-  format: yaml
-  label: Spectro Cloud apiKeys API
-  slug: spectro-cloud-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-apikeys-api-openapi.yml
-- filename: spectro-cloud-appdeployments-api-openapi.yml
-  format: yaml
-  label: Spectro Cloud appDeployments API
-  slug: spectro-cloud-appdeployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-appdeployments-api-openapi.yml
 - filename: spectro-cloud-appprofiles-api-openapi.yml
   format: yaml
   label: Spectro Cloud appProfiles API
@@ -36,12 +24,6 @@ api_specs:
   slug: spectro-cloud-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-auth-api-openapi.yml
-- filename: spectro-cloud-cloudaccounts-api-openapi.yml
-  format: yaml
-  label: Spectro Cloud cloudaccounts API
-  slug: spectro-cloud-cloudaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-cloudaccounts-api-openapi.yml
 - filename: spectro-cloud-cloudconfigs-api-openapi.yml
   format: yaml
   label: Spectro Cloud cloudconfigs API
@@ -54,12 +36,6 @@ api_specs:
   slug: spectro-cloud-clouds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-clouds-api-openapi.yml
-- filename: spectro-cloud-clustergroups-api-openapi.yml
-  format: yaml
-  label: Spectro Cloud clustergroups API
-  slug: spectro-cloud-clustergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-clustergroups-api-openapi.yml
 - filename: spectro-cloud-clusterprofiles-api-openapi.yml
   format: yaml
   label: Spectro Cloud clusterprofiles API
@@ -78,12 +54,6 @@ api_specs:
   slug: spectro-cloud-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-dashboard-api-openapi.yml
-- filename: spectro-cloud-datasinks-api-openapi.yml
-  format: yaml
-  label: Spectro Cloud datasinks API
-  slug: spectro-cloud-datasinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-datasinks-api-openapi.yml
 - filename: spectro-cloud-edge-mgmt-api-openapi.yml
   format: yaml
   label: Spectro Cloud edge-mgmt API
@@ -252,6 +222,36 @@ api_specs:
   slug: spectro-cloud-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-workspaces-api-openapi.yml
+- filename: spectro-cloud-api-keys-api-openapi.yml
+  format: yaml
+  label: Spectro Cloud API Keys API
+  slug: spectro-cloud-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-api-keys-api-openapi.yml
+- filename: spectro-cloud-app-deployments-api-openapi.yml
+  format: yaml
+  label: Spectro Cloud App Deployments API
+  slug: spectro-cloud-app-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-app-deployments-api-openapi.yml
+- filename: spectro-cloud-cloud-accounts-api-openapi.yml
+  format: yaml
+  label: Spectro Cloud Cloud Accounts API
+  slug: spectro-cloud-cloud-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-cloud-accounts-api-openapi.yml
+- filename: spectro-cloud-cluster-groups-api-openapi.yml
+  format: yaml
+  label: Spectro Cloud cluster groups API
+  slug: spectro-cloud-cluster-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-cluster-groups-api-openapi.yml
+- filename: spectro-cloud-data-sinks-api-openapi.yml
+  format: yaml
+  label: Spectro Cloud Data Sinks API
+  slug: spectro-cloud-data-sinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/openapi/spectro-cloud-data-sinks-api-openapi.yml
 description: ''
 domains:
 - caa: []

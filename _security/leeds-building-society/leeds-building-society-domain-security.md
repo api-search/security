@@ -80,7 +80,7 @@ tags:
 - Building Society
 - Mutual
 - Savings
-- Mortgages
+- Mortgage
 - Open Banking
 - PSD2
 - OBIE

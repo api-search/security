@@ -43,5 +43,5 @@ tags:
 - Respiratory
 - Clinical Trials
 - Drug Development
-- Nasdaq
+- NASDAQ
 ---

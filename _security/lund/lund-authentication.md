@@ -8,12 +8,6 @@ api_specs:
   slug: lund-publication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
-- filename: lund-student-papers-api-openapi.yml
-  format: yaml
-  label: LUP Student Papers Search API
-  slug: lup-student-papers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-student-papers-api-openapi.yml
 auth_types:
 - none
 - saml

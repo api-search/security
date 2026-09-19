@@ -1,17 +1,101 @@
 ---
 api_specs:
-- filename: unlock-site-content-api-openapi.yml
+- filename: unlock-articles-api-openapi.yml
   format: yaml
-  label: Unlock Site Content API
-  slug: unlock-site-content-api
+  label: Unlock Articles API
+  slug: unlock-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-site-content-api-openapi.yml
-- filename: unlock-editorial-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-articles-api-openapi.yml
+- filename: unlock-authors-api-openapi.yml
   format: yaml
-  label: Unlock Editorial API
-  slug: unlock-editorial-api
+  label: Unlock Authors API
+  slug: unlock-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-editorial-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-authors-api-openapi.yml
+- filename: unlock-company-api-openapi.yml
+  format: yaml
+  label: Unlock Company API
+  slug: unlock-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-company-api-openapi.yml
+- filename: unlock-discovery-api-openapi.yml
+  format: yaml
+  label: Unlock Discovery API
+  slug: unlock-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-discovery-api-openapi.yml
+- filename: unlock-education-api-openapi.yml
+  format: yaml
+  label: Unlock Education API
+  slug: unlock-education-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-education-api-openapi.yml
+- filename: unlock-faq-api-openapi.yml
+  format: yaml
+  label: Unlock FAQ API
+  slug: unlock-faq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-faq-api-openapi.yml
+- filename: unlock-lessons-api-openapi.yml
+  format: yaml
+  label: Unlock Lessons API
+  slug: unlock-lessons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-lessons-api-openapi.yml
+- filename: unlock-media-api-openapi.yml
+  format: yaml
+  label: Unlock Media API
+  slug: unlock-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-media-api-openapi.yml
+- filename: unlock-navigation-api-openapi.yml
+  format: yaml
+  label: Unlock Navigation API
+  slug: unlock-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-navigation-api-openapi.yml
+- filename: unlock-pages-api-openapi.yml
+  format: yaml
+  label: Unlock Pages API
+  slug: unlock-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-pages-api-openapi.yml
+- filename: unlock-posts-api-openapi.yml
+  format: yaml
+  label: Unlock Posts API
+  slug: unlock-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-posts-api-openapi.yml
+- filename: unlock-search-api-openapi.yml
+  format: yaml
+  label: Unlock Search API
+  slug: unlock-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-search-api-openapi.yml
+- filename: unlock-stories-api-openapi.yml
+  format: yaml
+  label: Unlock Stories API
+  slug: unlock-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-stories-api-openapi.yml
+- filename: unlock-taxonomies-api-openapi.yml
+  format: yaml
+  label: Unlock Taxonomies API
+  slug: unlock-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-taxonomies-api-openapi.yml
+- filename: unlock-testimonials-api-openapi.yml
+  format: yaml
+  label: Unlock Testimonials API
+  slug: unlock-testimonials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-testimonials-api-openapi.yml
+- filename: unlock-topics-api-openapi.yml
+  format: yaml
+  label: Unlock Topics API
+  slug: unlock-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/openapi/unlock-topics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,11 +129,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unlock/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Home Equity
 - Mortgage
-- Real Estate
+- Real-Estate
 - Consumer Lending
 - Home Equity Agreement
 - Personal Finance

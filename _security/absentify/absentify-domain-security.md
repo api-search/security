@@ -81,8 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absentify/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Absence Management
-- HR
+- Human Resources
 - Leave Management
 - Microsoft Teams
-- Human Resources
 ---

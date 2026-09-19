@@ -36,12 +36,6 @@ api_specs:
   slug: newstore-customer-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-customer-profile-api-openapi.yml
-- filename: newstore-customerprofile-api-openapi.yml
-  format: yaml
-  label: Newstore customerProfile API
-  slug: newstore-customerprofile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-customerprofile-api-openapi.yml
 - filename: newstore-data-api-openapi.yml
   format: yaml
   label: Newstore data API

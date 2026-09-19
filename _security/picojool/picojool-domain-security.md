@@ -38,6 +38,6 @@ tags:
 - Optical Networking
 - VCSEL
 - AI Infrastructure
-- Data Centers
+- Data-Center
 - Hardware
 ---

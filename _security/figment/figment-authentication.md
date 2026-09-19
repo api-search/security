@@ -189,7 +189,7 @@ tags:
 - Blockchain
 - Digital Assets
 - Proof of Stake
-- Validators
+- Validator
 - Institutional Finance
 - rewards-reporting
 - Ethereum

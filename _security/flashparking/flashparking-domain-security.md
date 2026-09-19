@@ -48,7 +48,7 @@ tags:
 - Mobility
 - Transportation
 - Payments
-- Internet of Things
+- IoT
 - Computer-Vision
 - Real-Estate
 - Electric Vehicle Charging

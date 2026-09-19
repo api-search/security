@@ -114,12 +114,6 @@ api_specs:
   slug: doit-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-contracts-api-openapi.yml
-- filename: doit-datahub-api-openapi.yml
-  format: yaml
-  label: DoiT Data Hub API
-  slug: doit-datahub-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-datahub-api-openapi.yml
 - filename: doit-dimensions-api-openapi.yml
   format: yaml
   label: DoiT Dimensions API
@@ -222,6 +216,12 @@ api_specs:
   slug: doit-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-users-api-openapi.yml
+- filename: doit-data-hub-api-openapi.yml
+  format: yaml
+  label: DoiT Data Hub API
+  slug: doit-data-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-data-hub-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2 Type 2

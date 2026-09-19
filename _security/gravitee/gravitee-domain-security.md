@@ -18,12 +18,6 @@ api_specs:
   slug: gravitee-api-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-api-products-api-openapi.yml
-- filename: gravitee-apis-api-openapi.yml
-  format: yaml
-  label: Gravitee APIs API
-  slug: gravitee-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-apis-api-openapi.yml
 - filename: gravitee-application-api-openapi.yml
   format: yaml
   label: Gravitee application API
@@ -108,12 +102,6 @@ api_specs:
   slug: gravitee-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-email-api-openapi.yml
-- filename: gravitee-entrypoints-api-openapi.yml
-  format: yaml
-  label: Gravitee entrypoints API
-  slug: gravitee-entrypoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-entrypoints-api-openapi.yml
 - filename: gravitee-extension-grant-api-openapi.yml
   format: yaml
   label: Gravitee Extension Grant API
@@ -276,6 +264,18 @@ api_specs:
   slug: gravitee-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-users-api-openapi.yml
+- filename: gravitee-apis-api-openapi.yml
+  format: yaml
+  label: Gravitee AP Is API
+  slug: gravitee-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-apis-api-openapi.yml
+- filename: gravitee-entry-points-api-openapi.yml
+  format: yaml
+  label: Gravitee Entry Points API
+  slug: gravitee-entry-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-entry-points-api-openapi.yml
 description: ''
 domains:
 - caa: []

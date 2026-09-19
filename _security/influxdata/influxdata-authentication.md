@@ -105,12 +105,6 @@ api_specs:
   slug: influxdata-notificationendpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-notificationendpoints-api-openapi.yml
-- filename: influxdata-notificationrules-api-openapi.yml
-  format: yaml
-  label: InfluxData NotificationRules API
-  slug: influxdata-notificationrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-notificationrules-api-openapi.yml
 - filename: influxdata-organizations-api-openapi.yml
   format: yaml
   label: InfluxData Organizations API
@@ -135,12 +129,6 @@ api_specs:
   slug: influxdata-ready-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-ready-api-openapi.yml
-- filename: influxdata-remoteconnections-api-openapi.yml
-  format: yaml
-  label: InfluxData RemoteConnections API
-  slug: influxdata-remoteconnections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-remoteconnections-api-openapi.yml
 - filename: influxdata-replications-api-openapi.yml
   format: yaml
   label: InfluxData Replications API
@@ -195,12 +183,6 @@ api_specs:
   slug: influxdata-setup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-setup-api-openapi.yml
-- filename: influxdata-signin-api-openapi.yml
-  format: yaml
-  label: InfluxData Signin API
-  slug: influxdata-signin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-signin-api-openapi.yml
 - filename: influxdata-signout-api-openapi.yml
   format: yaml
   label: InfluxData Signout API
@@ -273,6 +255,24 @@ api_specs:
   slug: influxdata-write-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-write-api-openapi.yml
+- filename: influxdata-notification-rules-api-openapi.yml
+  format: yaml
+  label: InfluxData Notification Rules API
+  slug: influxdata-notification-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-notification-rules-api-openapi.yml
+- filename: influxdata-remote-connections-api-openapi.yml
+  format: yaml
+  label: InfluxData Remote Connections API
+  slug: influxdata-remote-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-remote-connections-api-openapi.yml
+- filename: influxdata-sign-in-api-openapi.yml
+  format: yaml
+  label: InfluxData Sign In API
+  slug: influxdata-sign-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/openapi/influxdata-sign-in-api-openapi.yml
 auth_types:
 - apiKey
 - http

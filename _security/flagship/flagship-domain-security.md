@@ -35,5 +35,5 @@ tags:
 - E-Commerce
 - Shopping
 - Consumer
-- Startup
+- Startups
 ---

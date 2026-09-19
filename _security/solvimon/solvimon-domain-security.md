@@ -1,71 +1,29 @@
 ---
 api_specs:
-- filename: solvimon-alertrules-api-openapi.yml
-  format: yaml
-  label: Solvimon alertRules API
-  slug: solvimon-alertrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-alertrules-api-openapi.yml
 - filename: solvimon-alerts-api-openapi.yml
   format: yaml
   label: Solvimon alerts API
   slug: solvimon-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-alerts-api-openapi.yml
-- filename: solvimon-apikeys-api-openapi.yml
-  format: yaml
-  label: Solvimon apiKeys API
-  slug: solvimon-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-apikeys-api-openapi.yml
 - filename: solvimon-approvalpolicy-api-openapi.yml
   format: yaml
   label: Solvimon approvalPolicy API
   slug: solvimon-approvalpolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-approvalpolicy-api-openapi.yml
-- filename: solvimon-approvalrequest-api-openapi.yml
-  format: yaml
-  label: Solvimon approvalRequest API
-  slug: solvimon-approvalrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-approvalrequest-api-openapi.yml
 - filename: solvimon-attachments-api-openapi.yml
   format: yaml
   label: Solvimon attachments API
   slug: solvimon-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-attachments-api-openapi.yml
-- filename: solvimon-auditrecords-api-openapi.yml
-  format: yaml
-  label: Solvimon auditRecords API
-  slug: solvimon-auditrecords-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-auditrecords-api-openapi.yml
 - filename: solvimon-authentication-api-openapi.yml
   format: yaml
   label: Solvimon authentication API
   slug: solvimon-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-authentication-api-openapi.yml
-- filename: solvimon-authenticationproviders-api-openapi.yml
-  format: yaml
-  label: Solvimon authenticationProviders API
-  slug: solvimon-authenticationproviders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-authenticationproviders-api-openapi.yml
-- filename: solvimon-billingentities-api-openapi.yml
-  format: yaml
-  label: Solvimon billingEntities API
-  slug: solvimon-billingentities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-billingentities-api-openapi.yml
-- filename: solvimon-bulkactions-api-openapi.yml
-  format: yaml
-  label: Solvimon bulkActions API
-  slug: solvimon-bulkactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-bulkactions-api-openapi.yml
 - filename: solvimon-contacts-api-openapi.yml
   format: yaml
   label: Solvimon contacts API
@@ -90,12 +48,6 @@ api_specs:
   slug: solvimon-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-customers-api-openapi.yml
-- filename: solvimon-customfields-api-openapi.yml
-  format: yaml
-  label: Solvimon customFields API
-  slug: solvimon-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-customfields-api-openapi.yml
 - filename: solvimon-documents-api-openapi.yml
   format: yaml
   label: Solvimon documents API
@@ -168,24 +120,12 @@ api_specs:
   slug: solvimon-paymentacceptors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-paymentacceptors-api-openapi.yml
-- filename: solvimon-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Solvimon paymentMethods API
-  slug: solvimon-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-paymentmethods-api-openapi.yml
 - filename: solvimon-payments-api-openapi.yml
   format: yaml
   label: Solvimon payments API
   slug: solvimon-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-payments-api-openapi.yml
-- filename: solvimon-paymentschedules-api-openapi.yml
-  format: yaml
-  label: Solvimon paymentSchedules API
-  slug: solvimon-paymentschedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-paymentschedules-api-openapi.yml
 - filename: solvimon-platforms-api-openapi.yml
   format: yaml
   label: Solvimon platforms API
@@ -204,12 +144,6 @@ api_specs:
   slug: solvimon-pricinggroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricinggroups-api-openapi.yml
-- filename: solvimon-pricingplans-api-openapi.yml
-  format: yaml
-  label: Solvimon pricingPlans API
-  slug: solvimon-pricingplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricingplans-api-openapi.yml
 - filename: solvimon-pricingplanschedules-api-openapi.yml
   format: yaml
   label: Solvimon pricingPlanSchedules API
@@ -240,12 +174,6 @@ api_specs:
   slug: solvimon-pricings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricings-api-openapi.yml
-- filename: solvimon-productcategories-api-openapi.yml
-  format: yaml
-  label: Solvimon productCategories API
-  slug: solvimon-productcategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-productcategories-api-openapi.yml
 - filename: solvimon-productitems-api-openapi.yml
   format: yaml
   label: Solvimon productItems API
@@ -258,54 +186,18 @@ api_specs:
   slug: solvimon-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-products-api-openapi.yml
-- filename: solvimon-promotioncodes-api-openapi.yml
-  format: yaml
-  label: Solvimon promotionCodes API
-  slug: solvimon-promotioncodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-promotioncodes-api-openapi.yml
 - filename: solvimon-quotes-api-openapi.yml
   format: yaml
   label: Solvimon quotes API
   slug: solvimon-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-quotes-api-openapi.yml
-- filename: solvimon-quotetemplates-api-openapi.yml
-  format: yaml
-  label: Solvimon quoteTemplates API
-  slug: solvimon-quotetemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-quotetemplates-api-openapi.yml
-- filename: solvimon-quoteversions-api-openapi.yml
-  format: yaml
-  label: Solvimon quoteVersions API
-  slug: solvimon-quoteversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-quoteversions-api-openapi.yml
-- filename: solvimon-reportconfigurations-api-openapi.yml
-  format: yaml
-  label: Solvimon reportConfigurations API
-  slug: solvimon-reportconfigurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-reportconfigurations-api-openapi.yml
-- filename: solvimon-reportdefinitions-api-openapi.yml
-  format: yaml
-  label: Solvimon reportDefinitions API
-  slug: solvimon-reportdefinitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-reportdefinitions-api-openapi.yml
 - filename: solvimon-reports-api-openapi.yml
   format: yaml
   label: Solvimon reports API
   slug: solvimon-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-reports-api-openapi.yml
-- filename: solvimon-reportsubscriptions-api-openapi.yml
-  format: yaml
-  label: Solvimon reportSubscriptions API
-  slug: solvimon-reportsubscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-reportsubscriptions-api-openapi.yml
 - filename: solvimon-reprocess-api-openapi.yml
   format: yaml
   label: Solvimon reprocess API
@@ -318,12 +210,6 @@ api_specs:
   slug: solvimon-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-roles-api-openapi.yml
-- filename: solvimon-signaturerequests-api-openapi.yml
-  format: yaml
-  label: Solvimon signatureRequests API
-  slug: solvimon-signaturerequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-signaturerequests-api-openapi.yml
 - filename: solvimon-taxidtypes-api-openapi.yml
   format: yaml
   label: Solvimon taxIdTypes API
@@ -366,24 +252,138 @@ api_specs:
   slug: solvimon-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-webhooks-api-openapi.yml
-- filename: solvimon-workflowactions-api-openapi.yml
-  format: yaml
-  label: Solvimon workflowActions API
-  slug: solvimon-workflowactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflowactions-api-openapi.yml
 - filename: solvimon-workflows-api-openapi.yml
   format: yaml
   label: Solvimon workflows API
   slug: solvimon-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflows-api-openapi.yml
-- filename: solvimon-workflowtriggers-api-openapi.yml
+- filename: solvimon-alert-rules-api-openapi.yml
   format: yaml
-  label: Solvimon workflowTriggers API
-  slug: solvimon-workflowtriggers-api
+  label: Solvimon Alert Rules API
+  slug: solvimon-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflowtriggers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-alert-rules-api-openapi.yml
+- filename: solvimon-api-keys-api-openapi.yml
+  format: yaml
+  label: Solvimon API Keys API
+  slug: solvimon-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-api-keys-api-openapi.yml
+- filename: solvimon-approval-request-api-openapi.yml
+  format: yaml
+  label: Solvimon Approval Request API
+  slug: solvimon-approval-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-approval-request-api-openapi.yml
+- filename: solvimon-audit-records-api-openapi.yml
+  format: yaml
+  label: Solvimon Audit Records API
+  slug: solvimon-audit-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-audit-records-api-openapi.yml
+- filename: solvimon-authentication-providers-api-openapi.yml
+  format: yaml
+  label: Solvimon Authentication Providers API
+  slug: solvimon-authentication-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-authentication-providers-api-openapi.yml
+- filename: solvimon-billing-entities-api-openapi.yml
+  format: yaml
+  label: Solvimon Billing/Entities API
+  slug: solvimon-billing-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-billing-entities-api-openapi.yml
+- filename: solvimon-bulk-actions-api-openapi.yml
+  format: yaml
+  label: Solvimon Bulk Actions API
+  slug: solvimon-bulk-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-bulk-actions-api-openapi.yml
+- filename: solvimon-custom-fields-api-openapi.yml
+  format: yaml
+  label: Solvimon Custom Fields API
+  slug: solvimon-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-custom-fields-api-openapi.yml
+- filename: solvimon-payment-methods-api-openapi.yml
+  format: yaml
+  label: Solvimon Payment Methods API
+  slug: solvimon-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-payment-methods-api-openapi.yml
+- filename: solvimon-payment-schedules-api-openapi.yml
+  format: yaml
+  label: Solvimon Payment Schedules API
+  slug: solvimon-payment-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-payment-schedules-api-openapi.yml
+- filename: solvimon-pricing-plans-api-openapi.yml
+  format: yaml
+  label: Solvimon Pricing Plans API
+  slug: solvimon-pricing-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricing-plans-api-openapi.yml
+- filename: solvimon-product-categories-api-openapi.yml
+  format: yaml
+  label: Solvimon Product Categories API
+  slug: solvimon-product-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-product-categories-api-openapi.yml
+- filename: solvimon-promotion-codes-api-openapi.yml
+  format: yaml
+  label: Solvimon Promotion Codes API
+  slug: solvimon-promotion-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-promotion-codes-api-openapi.yml
+- filename: solvimon-quote-templates-api-openapi.yml
+  format: yaml
+  label: Solvimon Quote Templates API
+  slug: solvimon-quote-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-quote-templates-api-openapi.yml
+- filename: solvimon-quote-versions-api-openapi.yml
+  format: yaml
+  label: Solvimon quote Versions API
+  slug: solvimon-quote-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-quote-versions-api-openapi.yml
+- filename: solvimon-report-configurations-api-openapi.yml
+  format: yaml
+  label: Solvimon Report Configurations API
+  slug: solvimon-report-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-report-configurations-api-openapi.yml
+- filename: solvimon-report-definitions-api-openapi.yml
+  format: yaml
+  label: Solvimon Report Definitions API
+  slug: solvimon-report-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-report-definitions-api-openapi.yml
+- filename: solvimon-report-subscriptions-api-openapi.yml
+  format: yaml
+  label: Solvimon Report Subscriptions API
+  slug: solvimon-report-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-report-subscriptions-api-openapi.yml
+- filename: solvimon-signature-requests-api-openapi.yml
+  format: yaml
+  label: Solvimon Signature Requests API
+  slug: solvimon-signature-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-signature-requests-api-openapi.yml
+- filename: solvimon-workflow-actions-api-openapi.yml
+  format: yaml
+  label: Solvimon workflow Actions API
+  slug: solvimon-workflow-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflow-actions-api-openapi.yml
+- filename: solvimon-workflow-triggers-api-openapi.yml
+  format: yaml
+  label: Solvimon Workflow Triggers API
+  slug: solvimon-workflow-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflow-triggers-api-openapi.yml
 description: ''
 domains:
 - caa: []

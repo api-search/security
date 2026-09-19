@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-rochester-urresearch-oai-pmh-openapi.yml
+- filename: university-of-rochester-oai-pmh-api-openapi.yml
   format: yaml
-  label: UR Research OAI-PMH Interface
-  slug: urresearch-oai-pmh
+  label: University of Rochester Oai Pmh API
+  slug: university-of-rochester-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-urresearch-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

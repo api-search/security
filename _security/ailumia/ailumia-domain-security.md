@@ -40,7 +40,7 @@ tags:
 - Company
 - E-Commerce
 - Retail
-- Marketplaces
+- Marketplace
 - Amazon
 - Inventory
 - Supply Chain

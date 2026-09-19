@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Technology
 - Solar Energy
 - Energy

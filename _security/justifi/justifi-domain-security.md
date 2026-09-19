@@ -126,12 +126,6 @@ api_specs:
   slug: justifi-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/openapi/justifi-reports-api-openapi.yml
-- filename: justifi-sub-accounts-api-openapi.yml
-  format: yaml
-  label: JustiFi Sub Accounts API
-  slug: justifi-sub-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/openapi/justifi-sub-accounts-api-openapi.yml
 - filename: justifi-terminals-api-openapi.yml
   format: yaml
   label: JustiFi Terminals API
@@ -168,6 +162,12 @@ api_specs:
   slug: justifi-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/openapi/justifi-events-api-openapi.yml
+- filename: justifi-subaccounts-api-openapi.yml
+  format: yaml
+  label: JustiFi Subaccounts API
+  slug: justifi-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/openapi/justifi-subaccounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

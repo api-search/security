@@ -25,6 +25,6 @@ tags:
 - Supply Chain
 - Healthcare
 - Defense
-- Internet of Things
+- IoT
 trust_url: https://www.ampaworks.com/security
 ---

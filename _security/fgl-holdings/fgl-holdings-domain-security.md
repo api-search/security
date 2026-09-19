@@ -8,7 +8,7 @@ domains:
   domain: fglife.com
   spf: true
 hosts:
-- cert_expires: Aug 14 11:13:49 2026 GMT
+- cert_expires: Dec 12 09:33:50 2026 GMT
   host: www.fglife.com
   hsts: true
   hsts_max_age: 31536000
@@ -34,11 +34,14 @@ slug: fgl-holdings-domain-security
 source_filename: fgl-holdings-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fglife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 11:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.fglife.com\n  https: false\n- host: api.fglife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fglife.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fglife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 09:33:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.fglife.com\n  https: false\n- host: api.fglife.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: fglife.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fgl-holdings/refs/heads/main/security/fgl-holdings-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Annuities
 - Financial-Services
+- Life Insurance
+- Retirement
+- Pension-Risk-Transfer
 ---

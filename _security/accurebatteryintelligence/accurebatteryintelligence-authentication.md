@@ -45,7 +45,7 @@ tags:
 - Energy Storage
 - Analytics
 - Artificial Intelligence
-- Internet of Things
+- IoT
 - Electric Vehicles
 - Germany
 ---

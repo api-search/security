@@ -52,12 +52,6 @@ api_specs:
   slug: howler-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-events-api-openapi.yml
-- filename: howler-oauth-api-openapi.yml
-  format: yaml
-  label: Howler OAuth API
-  slug: howler-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-oauth-api-openapi.yml
 - filename: howler-third-party-oauth-api-openapi.yml
   format: yaml
   label: Howler Third Party OAuth API
@@ -106,6 +100,12 @@ api_specs:
   slug: howler-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-user-api-openapi.yml
+- filename: howler-oauth-api-openapi.yml
+  format: yaml
+  label: Howler O Auth API
+  slug: howler-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http

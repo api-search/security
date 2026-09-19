@@ -12,12 +12,6 @@ api_specs:
   slug: rackspace-technology-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-currency-api-openapi.yml
-- filename: rackspace-technology-customeraccounts-api-openapi.yml
-  format: yaml
-  label: Rackspace Technology CustomerAccounts API
-  slug: rackspace-technology-customeraccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-customeraccounts-api-openapi.yml
 - filename: rackspace-technology-domains-api-openapi.yml
   format: yaml
   label: Rackspace Technology Domains API
@@ -72,12 +66,6 @@ api_specs:
   slug: rackspace-technology-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-records-api-openapi.yml
-- filename: rackspace-technology-reversedns-api-openapi.yml
-  format: yaml
-  label: Rackspace Technology ReverseDNS API
-  slug: rackspace-technology-reversedns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-reversedns-api-openapi.yml
 - filename: rackspace-technology-roles-api-openapi.yml
   format: yaml
   label: Rackspace Technology Roles API
@@ -114,6 +102,18 @@ api_specs:
   slug: rackspace-technology-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-versions-api-openapi.yml
+- filename: rackspace-technology-customer-accounts-api-openapi.yml
+  format: yaml
+  label: Rackspace Technology Customer Accounts API
+  slug: rackspace-technology-customer-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-customer-accounts-api-openapi.yml
+- filename: rackspace-technology-reverse-dns-api-openapi.yml
+  format: yaml
+  label: Rackspace Technology Reverse DNS API
+  slug: rackspace-technology-reverse-dns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/openapi/rackspace-technology-reverse-dns-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2

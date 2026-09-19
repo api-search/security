@@ -36,4 +36,5 @@ tags:
 - India
 - 500 Global
 - Acquired
+- Defunct
 ---

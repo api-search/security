@@ -36,7 +36,7 @@ tags:
 - Conversation Intelligence
 - Deal Intelligence
 - Revenue Enablement
-- Certifications
+- Certification
 - Artificial Intelligence
 trust_url: https://www.allego.com/trust/
 ---

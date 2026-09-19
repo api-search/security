@@ -31,6 +31,6 @@ tags:
 - Retail
 - MCP
 - WebMCP
-- Agent Commerce
+- Agentic Commerce
 - Greece
 ---

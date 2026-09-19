@@ -40,19 +40,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-oauth-tokens-api-openapi.yml
 - filename: workday-security-security-audit-api-openapi.yml
   format: yaml
-  label: Workday Security Security Audit API
+  label: Workday Security Audit API
   slug: workday-security-security-audit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-audit-api-openapi.yml
 - filename: workday-security-security-group-members-api-openapi.yml
   format: yaml
-  label: Workday Security Security Group Members API
+  label: Workday Security Group Members API
   slug: workday-security-security-group-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-group-members-api-openapi.yml
 - filename: workday-security-security-groups-api-openapi.yml
   format: yaml
-  label: Workday Security Security Groups API
+  label: Workday Security Groups API
   slug: workday-security-security-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-groups-api-openapi.yml
@@ -130,4 +130,5 @@ tags:
 - SAML
 - Security
 - SSO
+- Identity Federation
 ---

@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- Health Care
 - Electronic Health Records
 - openEHR
 - FHIR
@@ -40,9 +39,9 @@ tags:
 - Interoperability
 - Clinical Data
 - Care Pathways
-- Workflow
+- Workflows
 - Orchestration
-- No Code
+- No-Code
 - NHS
 - United Kingdom
 ---

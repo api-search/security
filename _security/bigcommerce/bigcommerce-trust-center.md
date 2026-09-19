@@ -24,12 +24,6 @@ api_specs:
   slug: bigcommerce-abandoned-carts-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-abandoned-carts-settings-api-openapi.yml
-- filename: bigcommerce-access-api-openapi.yml
-  format: yaml
-  label: BigCommerce Access API
-  slug: bigcommerce-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-access-api-openapi.yml
 - filename: bigcommerce-active-theme-api-openapi.yml
   format: yaml
   label: BigCommerce Active Theme API
@@ -450,24 +444,12 @@ api_specs:
   slug: bigcommerce-menus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-menus-api-openapi.yml
-- filename: bigcommerce-metafields-api-openapi.yml
-  format: yaml
-  label: BigCommerce Metafields API
-  slug: bigcommerce-metafields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-metafields-api-openapi.yml
 - filename: bigcommerce-methods-api-openapi.yml
   format: yaml
   label: BigCommerce Methods API
   slug: bigcommerce-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-methods-api-openapi.yml
-- filename: bigcommerce-methods-deprecated-api-openapi.yml
-  format: yaml
-  label: BigCommerce Methods (Deprecated) API
-  slug: bigcommerce-methods-deprecated-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-methods-deprecated-api-openapi.yml
 - filename: bigcommerce-order-api-openapi.yml
   format: yaml
   label: BigCommerce Order API
@@ -828,12 +810,6 @@ api_specs:
   slug: bigcommerce-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-themes-api-openapi.yml
-- filename: bigcommerce-time-zone-api-openapi.yml
-  format: yaml
-  label: BigCommerce Time Zone API
-  slug: bigcommerce-time-zone-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-time-zone-api-openapi.yml
 - filename: bigcommerce-tokens-api-openapi.yml
   format: yaml
   label: BigCommerce Tokens API
@@ -912,6 +888,18 @@ api_specs:
   slug: bigcommerce-wishlists-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-wishlists-items-api-openapi.yml
+- filename: bigcommerce-meta-fields-api-openapi.yml
+  format: yaml
+  label: BigCommerce Meta Fields API
+  slug: bigcommerce-meta-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-meta-fields-api-openapi.yml
+- filename: bigcommerce-timezone-api-openapi.yml
+  format: yaml
+  label: BigCommerce Timezone API
+  slug: bigcommerce-timezone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/openapi/bigcommerce-timezone-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2

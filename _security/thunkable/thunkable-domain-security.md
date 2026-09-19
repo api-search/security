@@ -34,7 +34,7 @@ tags:
 - Company
 - No-Code
 - App Builder
-- Mobile Apps
+- Mobile App
 - Low-Code
 - iOS
 - Android

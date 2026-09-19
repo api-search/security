@@ -20,7 +20,6 @@ tags:
 - Company
 - Employee Benefits
 - Human Resources
-- HR Tech
 - Rewards and Recognition
 - Global Benefits
 - Employee Experience

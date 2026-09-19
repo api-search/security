@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-access-profiles-api-openapi.yml
 - filename: arcee-ai-afm-api-api-openapi.yml
   format: yaml
-  label: Arcee AI AFM API API
+  label: Arcee AI AFM API
   slug: arcee-ai-afm-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-afm-api-api-openapi.yml
@@ -219,7 +219,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Small Language Models
 - Inference
 - MCP

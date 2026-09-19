@@ -24,12 +24,6 @@ api_specs:
   slug: finage-crypto-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/openapi/finage-crypto-api-openapi.yml
-- filename: finage-etfs-api-openapi.yml
-  format: yaml
-  label: Finage ET Fs API
-  slug: finage-etfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/openapi/finage-etfs-api-openapi.yml
 - filename: finage-forex-api-openapi.yml
   format: yaml
   label: Finage Forex API
@@ -72,6 +66,12 @@ api_specs:
   slug: finage-us-stocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/openapi/finage-us-stocks-api-openapi.yml
+- filename: finage-etfs-api-openapi.yml
+  format: yaml
+  label: Finage ET Fs API
+  slug: finage-etfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/openapi/finage-etfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

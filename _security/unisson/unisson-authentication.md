@@ -32,12 +32,6 @@ api_specs:
   slug: unisson-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-analytics-api-openapi.yml
-- filename: unisson-apis-api-openapi.yml
-  format: yaml
-  label: Unisson apis API
-  slug: unisson-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-apis-api-openapi.yml
 - filename: unisson-appdb-api-openapi.yml
   format: yaml
   label: Unisson appdb API
@@ -118,7 +112,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-emails-api-openapi.yml
 - filename: unisson-external-api-api-openapi.yml
   format: yaml
-  label: Unisson external-api API
+  label: Unisson external-api
   slug: unisson-external-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-external-api-api-openapi.yml
@@ -250,7 +244,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-tasks-api-openapi.yml
 - filename: unisson-unisson-api-openapi.yml
   format: yaml
-  label: Unisson Unisson API
+  label: Unisson API
   slug: unisson-unisson-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-unisson-api-openapi.yml
@@ -272,6 +266,12 @@ api_specs:
   slug: unisson-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-widget-api-openapi.yml
+- filename: unisson-apis-api-openapi.yml
+  format: yaml
+  label: Unisson APIS API
+  slug: unisson-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-apis-api-openapi.yml
 auth_types:
 - http
 description: ''

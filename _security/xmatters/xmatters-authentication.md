@@ -26,12 +26,6 @@ api_specs:
   slug: xmatters-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-integrations-api-openapi.yml
-- filename: xmatters-oncall-api-openapi.yml
-  format: yaml
-  label: xMatters OnCall API
-  slug: xmatters-oncall-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-oncall-api-openapi.yml
 - filename: xmatters-people-api-openapi.yml
   format: yaml
   label: xMatters People API
@@ -62,6 +56,12 @@ api_specs:
   slug: xmatters-shifts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-shifts-api-openapi.yml
+- filename: xmatters-on-call-api-openapi.yml
+  format: yaml
+  label: xMatters On Call API
+  slug: xmatters-on-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-on-call-api-openapi.yml
 auth_types:
 - http
 - oauth2

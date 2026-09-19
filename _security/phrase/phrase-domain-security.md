@@ -276,12 +276,6 @@ api_specs:
   slug: phrase-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phrase/refs/heads/main/openapi/phrase-spaces-api-openapi.yml
-- filename: phrase-style-guides-api-openapi.yml
-  format: yaml
-  label: Phrase Style guides API
-  slug: phrase-style-guides-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phrase/refs/heads/main/openapi/phrase-style-guides-api-openapi.yml
 - filename: phrase-tags-api-openapi.yml
   format: yaml
   label: Phrase Tags API
@@ -342,6 +336,12 @@ api_specs:
   slug: phrase-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phrase/refs/heads/main/openapi/phrase-webhooks-api-openapi.yml
+- filename: phrase-styleguides-api-openapi.yml
+  format: yaml
+  label: Phrase Styleguides API
+  slug: phrase-styleguides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phrase/refs/heads/main/openapi/phrase-styleguides-api-openapi.yml
 description: ''
 domains:
 - caa:

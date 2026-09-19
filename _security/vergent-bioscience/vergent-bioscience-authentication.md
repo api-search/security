@@ -32,5 +32,5 @@ tags:
 - Oncology
 - Surgery
 - Clinical Trials
-- Model Context Protocol
+- MCP
 ---

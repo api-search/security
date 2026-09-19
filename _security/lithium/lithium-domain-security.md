@@ -18,12 +18,6 @@ api_specs:
   slug: lithium-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-admin-api-openapi.yml
-- filename: lithium-agent-states-api-v2-api-openapi.yml
-  format: yaml
-  label: Lithium Agent States Api V2 API
-  slug: lithium-agent-states-api-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-agent-states-api-v2-api-openapi.yml
 - filename: lithium-asset-api-openapi.yml
   format: yaml
   label: Lithium Asset API
@@ -54,12 +48,6 @@ api_specs:
   slug: lithium-broadcast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-broadcast-api-openapi.yml
-- filename: lithium-businesshours-api-openapi.yml
-  format: yaml
-  label: Lithium Businesshours API
-  slug: lithium-businesshours-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-businesshours-api-openapi.yml
 - filename: lithium-bysourcedocumentid-api-openapi.yml
   format: yaml
   label: Lithium BySourceDocumentId API
@@ -120,12 +108,6 @@ api_specs:
   slug: lithium-conversation-api-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-conversation-api-v2-api-openapi.yml
-- filename: lithium-conversation-tag-rules-v2-api-openapi.yml
-  format: yaml
-  label: Lithium Conversation Tag Rules V2 API
-  slug: lithium-conversation-tag-rules-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-conversation-tag-rules-v2-api-openapi.yml
 - filename: lithium-conversations-api-openapi.yml
   format: yaml
   label: Lithium Conversations API
@@ -212,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-export-api-openapi.yml
 - filename: lithium-flow-rest-api-api-openapi.yml
   format: yaml
-  label: Lithium Flow Rest Api API
+  label: Lithium Flow Rest Api
   slug: lithium-flow-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-flow-rest-api-api-openapi.yml
@@ -252,12 +234,6 @@ api_specs:
   slug: lithium-initiatives-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-initiatives-api-openapi.yml
-- filename: lithium-introspection-api-api-openapi.yml
-  format: yaml
-  label: Lithium Introspection Api API
-  slug: lithium-introspection-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-introspection-api-api-openapi.yml
 - filename: lithium-khorosapi-api-openapi.yml
   format: yaml
   label: Lithium Khorosapi API
@@ -270,12 +246,6 @@ api_specs:
   slug: lithium-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-labels-api-openapi.yml
-- filename: lithium-labelsets-api-api-openapi.yml
-  format: yaml
-  label: Lithium Labelsets Api API
-  slug: lithium-labelsets-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-labelsets-api-api-openapi.yml
 - filename: lithium-list-api-openapi.yml
   format: yaml
   label: Lithium List API
@@ -498,12 +468,6 @@ api_specs:
   slug: lithium-respond-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-respond-api-openapi.yml
-- filename: lithium-smart-views-api-v2-api-openapi.yml
-  format: yaml
-  label: Lithium Smart Views Api V2 API
-  slug: lithium-smart-views-api-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-smart-views-api-v2-api-openapi.yml
 - filename: lithium-ssoid-api-openapi.yml
   format: yaml
   label: Lithium SsoId API
@@ -512,7 +476,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-ssoid-api-openapi.yml
 - filename: lithium-stream-api-api-openapi.yml
   format: yaml
-  label: Lithium Stream Api API
+  label: Lithium Stream Api
   slug: lithium-stream-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-stream-api-api-openapi.yml
@@ -540,12 +504,6 @@ api_specs:
   slug: lithium-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-tag-api-openapi.yml
-- filename: lithium-tag-api-v2-api-openapi.yml
-  format: yaml
-  label: Lithium Tag Api V2 API
-  slug: lithium-tag-api-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-tag-api-v2-api-openapi.yml
 - filename: lithium-teams-api-openapi.yml
   format: yaml
   label: Lithium Teams API
@@ -582,18 +540,24 @@ api_specs:
   slug: lithium-uuid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-uuid-api-openapi.yml
-- filename: lithium-workqueue-api-openapi.yml
+- filename: lithium-business-hours-api-openapi.yml
   format: yaml
-  label: Lithium Workqueue API
-  slug: lithium-workqueue-api
+  label: Lithium Business Hours API
+  slug: lithium-business-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-workqueue-api-openapi.yml
-- filename: lithium-workqueues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-business-hours-api-openapi.yml
+- filename: lithium-work-queue-api-openapi.yml
   format: yaml
-  label: Lithium Workqueues API
-  slug: lithium-workqueues-api
+  label: Lithium Work Queue API
+  slug: lithium-work-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-workqueues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-work-queue-api-openapi.yml
+- filename: lithium-work-queues-api-openapi.yml
+  format: yaml
+  label: Lithium Work Queues API
+  slug: lithium-work-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/openapi/lithium-work-queues-api-openapi.yml
 description: Live TLS/DNS posture across the Khoros, Lithium, Spredfast and flow.ai hosts this provider spans. The headline finding is that the legacy lithium.com apex — still the company's original domain and still serving the Khoros marketing site — presents a TLS certificate that expired on 3 January 2026, so every modern client refuses the connection. HSTS coverage is inconsistent and no domain in the estate is DNSSEC-signed.
 domains:
 - caa: []

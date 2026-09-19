@@ -27,7 +27,7 @@ tags:
 - Incident Management
 - Observability
 - DevOps
-- AI Agent
+- AI Agents
 - Root Cause Analysis
 - Cloud
 trust_url: https://trust.bacca.ai/

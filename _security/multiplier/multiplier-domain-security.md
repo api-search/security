@@ -85,9 +85,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/security/multiplier-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- EOR
+- Employer of Record
 - Global Employment
 - Payroll
-- HR
+- Human Resources
 - Contractors
 ---

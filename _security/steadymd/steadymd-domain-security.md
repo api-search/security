@@ -33,7 +33,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Virtual Care
 - Clinical Workforce
 - Health Tech

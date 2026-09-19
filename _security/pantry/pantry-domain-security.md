@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-basket-api-openapi.yml
 - filename: pantry-pantry-api-openapi.yml
   format: yaml
-  label: Pantry Pantry API
+  label: Pantry API
   slug: pantry-pantry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-pantry-api-openapi.yml

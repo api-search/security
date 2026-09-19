@@ -90,7 +90,7 @@ tags:
 - Software-as-a-Service
 - Employee Engagement
 - Employee Experience
-- HR Tech
+- Human Resources
 - Surveys
 - People Analytics
 - Workday

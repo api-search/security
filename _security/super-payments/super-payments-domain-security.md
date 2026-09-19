@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payment-methods-api-openapi.yml
 - filename: super-payments-payments-api-openapi.yml
   format: yaml
-  label: Super Payments Payments API
+  label: Super Payments API
   slug: super-payments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payments-api-openapi.yml

@@ -108,12 +108,6 @@ api_specs:
   slug: cisco-catalyst-center-networkapplications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/openapi/cisco-catalyst-center-networkapplications-api-openapi.yml
-- filename: cisco-catalyst-center-networkdevices-api-openapi.yml
-  format: yaml
-  label: Cisco Catalyst Center Network Devices API
-  slug: cisco-catalyst-center-networkdevices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/openapi/cisco-catalyst-center-networkdevices-api-openapi.yml
 - filename: cisco-catalyst-center-preview-deploy-api-openapi.yml
   format: yaml
   label: Cisco Catalyst Center Preview Deploy API
@@ -174,6 +168,12 @@ api_specs:
   slug: cisco-catalyst-center-virtualnetworkhealthsummaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/openapi/cisco-catalyst-center-virtualnetworkhealthsummaries-api-openapi.yml
+- filename: cisco-catalyst-center-network-devices-api-openapi.yml
+  format: yaml
+  label: Cisco Catalyst Center Network Devices API
+  slug: cisco-catalyst-center-network-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/openapi/cisco-catalyst-center-network-devices-api-openapi.yml
 description: ''
 domains:
 - caa:

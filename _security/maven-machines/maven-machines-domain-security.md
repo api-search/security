@@ -114,12 +114,6 @@ api_specs:
   slug: maven-machines-return-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-return-events-api-openapi.yml
-- filename: maven-machines-routeplans-api-openapi.yml
-  format: yaml
-  label: Maven Machines Routeplans API
-  slug: maven-machines-routeplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-routeplans-api-openapi.yml
 - filename: maven-machines-servicetechs-api-openapi.yml
   format: yaml
   label: Maven Machines Servicetechs API
@@ -168,6 +162,12 @@ api_specs:
   slug: maven-machines-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-vehicles-api-openapi.yml
+- filename: maven-machines-route-plans-api-openapi.yml
+  format: yaml
+  label: Maven Machines Route Plans API
+  slug: maven-machines-route-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-route-plans-api-openapi.yml
 description: ''
 domains:
 - caa: []

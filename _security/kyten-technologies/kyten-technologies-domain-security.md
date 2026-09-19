@@ -43,7 +43,7 @@ tags:
 - Batteries
 - Energy Storage
 - Robotics
-- Industrials
+- Industrial
 - Drones
-- Satellites
+- Satellite
 ---

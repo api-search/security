@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: election-assistance-commission-jsonapi-openapi.yml
+- filename: election-assistance-commission-block-api-openapi.yml
   format: yaml
-  label: EAC Content JSON:API
-  slug: eac
+  label: Election Assistance Commission Block API
+  slug: election-assistance-commission-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-jsonapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-block-api-openapi.yml
+- filename: election-assistance-commission-block-content-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Block Content API
+  slug: election-assistance-commission-block-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-block-content-api-openapi.yml
+- filename: election-assistance-commission-contact-form-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Contact Form API
+  slug: election-assistance-commission-contact-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-contact-form-api-openapi.yml
+- filename: election-assistance-commission-date-format-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Date Format API
+  slug: election-assistance-commission-date-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-date-format-api-openapi.yml
+- filename: election-assistance-commission-file-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission File API
+  slug: election-assistance-commission-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-file-api-openapi.yml
+- filename: election-assistance-commission-media-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Media API
+  slug: election-assistance-commission-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-media-api-openapi.yml
+- filename: election-assistance-commission-media-type-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Media Type API
+  slug: election-assistance-commission-media-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-media-type-api-openapi.yml
+- filename: election-assistance-commission-menu-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Menu API
+  slug: election-assistance-commission-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-menu-api-openapi.yml
+- filename: election-assistance-commission-node-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Node API
+  slug: election-assistance-commission-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-node-api-openapi.yml
+- filename: election-assistance-commission-node-type-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Node Type API
+  slug: election-assistance-commission-node-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-node-type-api-openapi.yml
+- filename: election-assistance-commission-paragraph-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Paragraph API
+  slug: election-assistance-commission-paragraph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-paragraph-api-openapi.yml
+- filename: election-assistance-commission-paragraphs-type-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Paragraphs Type API
+  slug: election-assistance-commission-paragraphs-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-paragraphs-type-api-openapi.yml
+- filename: election-assistance-commission-search-page-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Search Page API
+  slug: election-assistance-commission-search-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-search-page-api-openapi.yml
+- filename: election-assistance-commission-taxonomy-term-api-openapi.yml
+  format: yaml
+  label: Election Assistance Commission Taxonomy Term API
+  slug: election-assistance-commission-taxonomy-term-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/openapi/election-assistance-commission-taxonomy-term-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,9 +125,9 @@ tags:
 - Elections
 - Voting
 - Open Data
-- Voting-Systems
+- Voting Systems
 - Certification
-- Government-Data
-- JSON-API
-- Public-Records
+- Government Data
+- JSON:API
+- Public Records
 ---

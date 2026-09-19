@@ -36,7 +36,7 @@ tags:
 - Anti-Money Laundering
 - Sanctions Screening
 - Transaction Monitoring
-- Know Your Customer
+- KYC
 - Adverse Media
 - RegTech
 - Artificial Intelligence

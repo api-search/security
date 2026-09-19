@@ -133,7 +133,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
 - Emerging Markets
-- Payins
+- Pay-In
 - Payouts
 - Fintech
 - Latin America

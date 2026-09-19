@@ -162,5 +162,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hugging-face-dataset-viewer-api.yml, openapi/hugging-face-hub-api.yml, openapi/hugging-face-inference-api.yml,\n  openapi/hugging-face-inference-endpoints-api.yml, openapi/hugging-face-inference-providers-api.yml,\n  openapi/hugging-face-text-generation-inference-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: HF Token\n  description: Optional Hugging Face API token. Required for private and gated datasets.\n  sources:\n  - openapi/hugging-face-dataset-viewer-api.yml\n  - openapi/hugging-face-hub-api.yml\n  - openapi/hugging-face-inference-api.yml\n  - openapi/hugging-face-inference-endpoints-api.yml\n  - openapi/hugging-face-inference-providers-api.yml\n  - openapi/hugging-face-text-generation-inference-api.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/authentication/hugging-face-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Computer-Vision
+- Embeddings
+- Image-Generation
+- LLM
+- Hugging Face
 ---

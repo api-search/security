@@ -261,12 +261,6 @@ api_specs:
   slug: lokki-offline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-offline-api-openapi.yml
-- filename: lokki-on-boarding-api-openapi.yml
-  format: yaml
-  label: Lokki On Boarding API
-  slug: lokki-on-boarding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-on-boarding-api-openapi.yml
 - filename: lokki-online-store-api-openapi.yml
   format: yaml
   label: Lokki Online Store API
@@ -585,6 +579,12 @@ api_specs:
   slug: lokki-your-order-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-your-order-event-api-openapi.yml
+- filename: lokki-onboarding-api-openapi.yml
+  format: yaml
+  label: Lokki Onboarding API
+  slug: lokki-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-onboarding-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Lokki authenticates with a single long-lived API key (an "Access Token") in a request header. There is no OAuth, no OIDC, no token endpoint, and no self-serve key issuance: keys are handed out by a Lokki representative as part of a partnership agreement, separately for staging and production, and are scoped at three levels.'

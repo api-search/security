@@ -37,6 +37,6 @@ tags:
 - Enzyme Therapy
 - Enteral Nutrition
 - Digestive Health
-- Medical Device
+- Medical Devices
 - Life Sciences
 ---

@@ -70,10 +70,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Itron
 - Utilities
-- Smart Meters
+- Smart Meter
 - Smart Grid
 - Smart Cities
-- Internet of Things
 - IoT
 - Energy
 - Water

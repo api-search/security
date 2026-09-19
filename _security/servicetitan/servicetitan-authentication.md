@@ -298,7 +298,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicetitan/r
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Field Service Management
-- Trades
+- Trade
 - HVAC
 - Plumbing
 - Electrical
@@ -308,6 +308,6 @@ tags:
 - Accounting
 - Pricebook
 - Marketing
-- Memberships
+- Membership
 - Webhook
 ---

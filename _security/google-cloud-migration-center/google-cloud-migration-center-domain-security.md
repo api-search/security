@@ -12,18 +12,18 @@ api_specs:
   slug: google-cloud-migration-center-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-groups-api-openapi.yml
-- filename: google-cloud-migration-center-importjobs-api-openapi.yml
-  format: yaml
-  label: Google Cloud Migration Center ImportJobs API
-  slug: google-cloud-migration-center-importjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-importjobs-api-openapi.yml
 - filename: google-cloud-migration-center-preferencesets-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center PreferenceSets API
   slug: google-cloud-migration-center-preferencesets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-preferencesets-api-openapi.yml
+- filename: google-cloud-migration-center-import-jobs-api-openapi.yml
+  format: yaml
+  label: Google Cloud Migration Center Import Jobs API
+  slug: google-cloud-migration-center-import-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-import-jobs-api-openapi.yml
 description: ''
 domains:
 - caa:

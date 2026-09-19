@@ -36,7 +36,7 @@ tags:
 - Cultural Heritage
 - Cultural Nonprofit
 - Fine Arts
-- Museum
+- Museums
 - National Historic Landmark
 - Non-Profit
 - Philadelphia

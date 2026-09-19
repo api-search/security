@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: pulumi-accesstokens-api-openapi.yml
-  format: yaml
-  label: Pulumi AccessTokens API
-  slug: pulumi-accesstokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-accesstokens-api-openapi.yml
 - filename: pulumi-ai-agents-api-openapi.yml
   format: yaml
   label: Pulumi AI Agents API
@@ -18,24 +12,12 @@ api_specs:
   slug: pulumi-ai-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-ai-api-openapi.yml
-- filename: pulumi-auditlogs-api-openapi.yml
-  format: yaml
-  label: Pulumi AuditLogs API
-  slug: pulumi-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-auditlogs-api-openapi.yml
 - filename: pulumi-cloudsetup-api-openapi.yml
   format: yaml
   label: Pulumi CloudSetup API
   slug: pulumi-cloudsetup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-cloudsetup-api-openapi.yml
-- filename: pulumi-dataexport-api-openapi.yml
-  format: yaml
-  label: Pulumi DataExport API
-  slug: pulumi-dataexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-dataexport-api-openapi.yml
 - filename: pulumi-deploymentrunners-api-openapi.yml
   format: yaml
   label: Pulumi DeploymentRunners API
@@ -102,12 +84,6 @@ api_specs:
   slug: pulumi-policygroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-policygroups-api-openapi.yml
-- filename: pulumi-policypacks-api-openapi.yml
-  format: yaml
-  label: Pulumi PolicyPacks API
-  slug: pulumi-policypacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-policypacks-api-openapi.yml
 - filename: pulumi-policyresults-api-openapi.yml
   format: yaml
   label: Pulumi PolicyResults API
@@ -204,6 +180,30 @@ api_specs:
   slug: pulumi-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-workflows-api-openapi.yml
+- filename: pulumi-access-tokens-api-openapi.yml
+  format: yaml
+  label: Pulumi Access Tokens API
+  slug: pulumi-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-access-tokens-api-openapi.yml
+- filename: pulumi-audit-logs-api-openapi.yml
+  format: yaml
+  label: Pulumi Audit Logs API
+  slug: pulumi-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-audit-logs-api-openapi.yml
+- filename: pulumi-data-export-api-openapi.yml
+  format: yaml
+  label: Pulumi Data Export API
+  slug: pulumi-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-data-export-api-openapi.yml
+- filename: pulumi-policy-packs-api-openapi.yml
+  format: yaml
+  label: Pulumi Policy Packs API
+  slug: pulumi-policy-packs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-policy-packs-api-openapi.yml
 description: ''
 domains:
 - caa:

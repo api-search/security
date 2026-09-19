@@ -52,7 +52,7 @@ tags:
 - Streaming
 - Radio
 - Music
-- Podcast
+- Podcasts
 - Advertising
 - Entertainment
 ---

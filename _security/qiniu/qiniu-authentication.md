@@ -48,7 +48,7 @@ tags:
 - CDN
 - Media Processing
 - Live Streaming
-- IAM
+- Identity and Access Management
 - SDK
 - Artificial Intelligence
 - China

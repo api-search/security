@@ -16,12 +16,6 @@ api_specs:
   slug: solarwinds-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-assets-api-openapi.yml
-- filename: solarwinds-bulkoperations-api-openapi.yml
-  format: yaml
-  label: SolarWinds BulkOperations API
-  slug: solarwinds-bulkoperations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-bulkoperations-api-openapi.yml
 - filename: solarwinds-categories-api-openapi.yml
   format: yaml
   label: SolarWinds Categories API
@@ -106,24 +100,12 @@ api_specs:
   slug: solarwinds-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-results-api-openapi.yml
-- filename: solarwinds-savedsearches-api-openapi.yml
-  format: yaml
-  label: SolarWinds SavedSearches API
-  slug: solarwinds-savedsearches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-savedsearches-api-openapi.yml
 - filename: solarwinds-search-api-openapi.yml
   format: yaml
   label: SolarWinds Search API
   slug: solarwinds-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-search-api-openapi.yml
-- filename: solarwinds-servicerequests-api-openapi.yml
-  format: yaml
-  label: SolarWinds ServiceRequests API
-  slug: solarwinds-servicerequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-servicerequests-api-openapi.yml
 - filename: solarwinds-summary-api-openapi.yml
   format: yaml
   label: SolarWinds Summary API
@@ -148,6 +130,24 @@ api_specs:
   slug: solarwinds-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-users-api-openapi.yml
+- filename: solarwinds-bulk-operations-api-openapi.yml
+  format: yaml
+  label: SolarWinds Bulk Operations API
+  slug: solarwinds-bulk-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-bulk-operations-api-openapi.yml
+- filename: solarwinds-saved-searches-api-openapi.yml
+  format: yaml
+  label: SolarWinds Saved Searches API
+  slug: solarwinds-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-saved-searches-api-openapi.yml
+- filename: solarwinds-service-requests-api-openapi.yml
+  format: yaml
+  label: SolarWinds Service Requests API
+  slug: solarwinds-service-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-service-requests-api-openapi.yml
 auth_types:
 - apiKey
 - http

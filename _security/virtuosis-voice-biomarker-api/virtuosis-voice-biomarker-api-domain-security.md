@@ -63,9 +63,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Health
 - voice biomarkers
-- speech analysis
+- Speech Analysis
 - acoustic analysis
-- Medical Device
+- Medical Devices
 - Mental Health
 - Wellbeing
 - neurodegenerative screening

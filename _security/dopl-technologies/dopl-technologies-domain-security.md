@@ -36,7 +36,7 @@ tags:
 - Medical Imaging
 - Ultrasound
 - Robotics
-- Telemedicine
+- Telehealth
 - Artificial Intelligence
 - Healthcare Access
 ---

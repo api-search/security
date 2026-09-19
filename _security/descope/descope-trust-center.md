@@ -60,12 +60,6 @@ api_specs:
   slug: descope-mgmt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-mgmt-api-openapi.yml
-- filename: descope-oauth2-api-openapi.yml
-  format: yaml
-  label: Descope Oauth2 API
-  slug: descope-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-oauth2-api-openapi.yml
 - filename: descope-scim-api-openapi.yml
   format: yaml
   label: Descope Scim API
@@ -96,6 +90,12 @@ api_specs:
   slug: descope-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-well-known-api-openapi.yml
+- filename: descope-oauth2-api-openapi.yml
+  format: yaml
+  label: Descope Oauth2 API
+  slug: descope-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-oauth2-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -130,5 +130,6 @@ tags:
 - FGA
 - Agentic Identity
 - MCP
+- Identity Federation
 trust_url: https://trust.descope.com/
 ---

@@ -47,7 +47,7 @@ tags:
 - AI Agents
 - Tracing
 - OpenTelemetry
-- Evaluations
+- Evaluation
 - Monitoring
 - Developer Tools
 - Open-Source

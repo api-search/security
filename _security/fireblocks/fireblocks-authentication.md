@@ -113,7 +113,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fiat-accounts-api-openapi.yml
 - filename: fireblocks-fireblocks-network-api-openapi.yml
   format: yaml
-  label: fireblocks Fireblocks Network API
+  label: fireblocks Network API
   slug: fireblocks-fireblocks-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fireblocks-network-api-openapi.yml
@@ -278,5 +278,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/firebloc
   \  - openapi/fireblocks-tokenization-api-openapi.yml\n  - openapi/fireblocks-transactions-api-openapi.yml\n  - openapi/fireblocks-vaults-api-openapi.yml\n  - openapi/fireblocks-wallets-api-openapi.yml\n  - openapi/fireblocks-webhooks-api-openapi.yml\n  - openapi/fireblocks-workspace-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/authentication/fireblocks-authentication.yml
 summary_line: apiKey/http · 2 schemes
-tags: []
+tags:
+- Digital Assets
+- Custody
+- Vault
+- Transaction
+- Tokenization
+- Stablecoins
 ---

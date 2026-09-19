@@ -133,7 +133,7 @@ tags:
 - MENA
 - KNET
 - mada
-- Benefit
+- Benefits
 - Invoices
 - Cards
 - Fintech

@@ -30,6 +30,5 @@ tags:
 - Skills
 - Workforce
 - Internal Mobility
-- HR Tech
 trust_url: https://compliance.gloat.com/
 ---

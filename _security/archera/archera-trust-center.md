@@ -24,12 +24,6 @@ api_specs:
   slug: archera-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-metrics-api-openapi.yml
-- filename: archera-oauth-api-openapi.yml
-  format: yaml
-  label: Archera OAuth API
-  slug: archera-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
 - filename: archera-orgs-api-openapi.yml
   format: yaml
   label: Archera Orgs API
@@ -54,6 +48,12 @@ api_specs:
   slug: archera-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
+- filename: archera-oauth-api-openapi.yml
+  format: yaml
+  label: Archera O Auth API
+  slug: archera-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

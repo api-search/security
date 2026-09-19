@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: scanverity-resolution-api-openapi.json
-  format: json
-  label: Scanverity Resolution API
-  slug: scanverity-resolution-api
+- filename: scanverity-resolution-api-resolution-assessments-api-openapi.yml
+  format: yaml
+  label: Scanverity Resolution API Resolution assessments API
+  slug: scanverity-resolution-api-resolution-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-resolution-assessments-api-openapi.yml
+- filename: scanverity-resolution-api-resolution-usage-api-openapi.yml
+  format: yaml
+  label: Scanverity Resolution API Resolution usage API
+  slug: scanverity-resolution-api-resolution-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-resolution-usage-api-openapi.yml
+- filename: scanverity-resolution-api-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: Scanverity Resolution API Webhook endpoints API
+  slug: scanverity-resolution-api-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-webhook-endpoints-api-openapi.yml
 auth_types: []
 description: Single-scheme HTTP Bearer authentication using opaque, reveal-once, account-scoped and environment-bound tokens. There is no OAuth 2.0, no OpenID Connect and no mutual TLS. Scopes are carried by the token itself rather than negotiated at an authorization server, and every scope is deny-by-default.
 kind: authentication
@@ -54,7 +66,7 @@ tags:
 - Resolution Risk
 - Market Intelligence
 - Due Diligence
-- Webhooks
+- Webhook
 - OpenAPI
 - Fintech
 - Risk Analytics

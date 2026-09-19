@@ -66,12 +66,6 @@ api_specs:
   slug: energyx-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-store-api-openapi.yml
-- filename: energyx-oembed-api-openapi.yml
-  format: yaml
-  label: EnergyX oEmbed API
-  slug: energyx-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-oembed-api-openapi.yml
 - filename: energyx-seo-api-openapi.yml
   format: yaml
   label: EnergyX SEO Metadata API
@@ -108,6 +102,12 @@ api_specs:
   slug: energyx-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-products-api-openapi.yml
+- filename: energyx-o-embed-api-openapi.yml
+  format: yaml
+  label: EnergyX o Embed API
+  slug: energyx-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/openapi/energyx-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

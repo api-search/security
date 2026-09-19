@@ -2,7 +2,7 @@
 api_specs:
 - filename: proof-of-play-public-api-api-openapi.yml
   format: yaml
-  label: Proof of Play Public API API
+  label: Proof of Play Public API
   slug: proof-of-play-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/openapi/proof-of-play-public-api-api-openapi.yml

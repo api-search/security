@@ -3,6 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
+- filename: amazon-s3-abac-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Abac API
+  slug: amazon-s3-abac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-abac-api-openapi.yml
 - filename: amazon-s3-access-control-api-openapi.yml
   format: yaml
   label: Amazon S3 Access Control API
@@ -21,12 +27,30 @@ api_specs:
   slug: amazon-s3-access-points-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-points-api-openapi.yml
+- filename: amazon-s3-acl-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Acl API
+  slug: amazon-s3-acl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-acl-api-openapi.yml
+- filename: amazon-s3-annotation-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Annotation API
+  slug: amazon-s3-annotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-annotation-api-openapi.yml
 - filename: amazon-s3-batch-operations-api-openapi.yml
   format: yaml
   label: Amazon S3 Batch Operations API
   slug: amazon-s3-batch-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-batch-operations-api-openapi.yml
+- filename: amazon-s3-bucket-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Bucket API
+  slug: amazon-s3-bucket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-bucket-api-openapi.yml
 - filename: amazon-s3-bucket-configuration-api-openapi.yml
   format: yaml
   label: Amazon S3 Bucket Configuration API
@@ -39,6 +63,12 @@ api_specs:
   slug: amazon-s3-buckets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-buckets-api-openapi.yml
+- filename: amazon-s3-delete-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Delete API
+  slug: amazon-s3-delete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-delete-api-openapi.yml
 - filename: amazon-s3-multi-region-access-points-api-openapi.yml
   format: yaml
   label: Amazon S3 Multi-Region Access Points API
@@ -51,6 +81,12 @@ api_specs:
   slug: amazon-s3-multipart-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-multipart-upload-api-openapi.yml
+- filename: amazon-s3-object-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Object API
+  slug: amazon-s3-object-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-object-api-openapi.yml
 - filename: amazon-s3-objects-api-openapi.yml
   format: yaml
   label: Amazon S3 Objects API
@@ -107,7 +143,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/authentication/amazon-s3-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Archive
+- Archives
 - Backup
 - Cloud Storage
 - Data Storage

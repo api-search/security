@@ -72,7 +72,7 @@ tags:
 - PDF
 - Document Generation
 - PDF Templates
-- E-Signatures
+- E-Signature
 - Forms
 - HTML to PDF
 - Document Automation

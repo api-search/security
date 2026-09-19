@@ -36,6 +36,6 @@ tags:
 - Pharmacy
 - Prescriptions
 - Digital Health
-- Medications
+- Medication
 - Health Tech
 ---

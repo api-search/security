@@ -38,6 +38,6 @@ tags:
 - Loan Trading
 - Loan Servicing
 - Portfolio Analytics
-- Credit Unions
+- Credit Union
 - Capital Markets
 ---

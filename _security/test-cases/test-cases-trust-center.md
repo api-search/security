@@ -45,6 +45,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
 - API Testing
 - Automation
+- Developer Tools
 - Quality Assurance
 - Software Development
 - Software Testing

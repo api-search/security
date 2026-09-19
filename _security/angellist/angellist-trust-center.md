@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angellist/refs
 summary_line: SOC 2 Type II
 tags:
 - Documents
-- Funds
+- Fund
 - Investing
 - Job
 - Startups

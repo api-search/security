@@ -36,5 +36,5 @@ tags:
 - Inbox Management
 - Email Cleanup
 - Consumer Software
-- Startup
+- Startups
 ---

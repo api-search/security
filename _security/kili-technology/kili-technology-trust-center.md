@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: kili-technology-graphql-api-openapi.yml
+- filename: kili-technology-graph-ql-api-openapi.yml
   format: yaml
-  label: Kili Technology GraphQL API
-  slug: kili-technology-graphql-api
+  label: Kili Technology Graph QL API
+  slug: kili-technology-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-graph-ql-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

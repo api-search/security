@@ -35,7 +35,6 @@ tags:
 - Enterprise
 - Contract Lifecycle Management
 - Contract Intelligence
-- CLM
 - Legal Technology
 - Artificial Intelligence
 - Procurement

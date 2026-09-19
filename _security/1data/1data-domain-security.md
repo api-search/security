@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Large Language Models
+- LLM
 - Supply Chain
 - Logistics
 - Freight Forwarding

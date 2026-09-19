@@ -4,30 +4,6 @@ api_key_in:
 - header
 - body
 api_specs:
-- filename: metrilo-categories-api-openapi.yml
-  format: yaml
-  label: Metrilo Categories API
-  slug: metrilo-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-categories-api-openapi.yml
-- filename: metrilo-customers-api-openapi.yml
-  format: yaml
-  label: Metrilo Customers API
-  slug: metrilo-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-customers-api-openapi.yml
-- filename: metrilo-orders-api-openapi.yml
-  format: yaml
-  label: Metrilo Orders API
-  slug: metrilo-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-orders-api-openapi.yml
-- filename: metrilo-products-api-openapi.yml
-  format: yaml
-  label: Metrilo Products API
-  slug: metrilo-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-products-api-openapi.yml
 - filename: metrilo-api-api-openapi.yml
   format: yaml
   label: Metrilo API

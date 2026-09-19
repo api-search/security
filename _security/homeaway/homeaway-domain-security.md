@@ -36,6 +36,6 @@ tags:
 - Travel
 - Hospitality
 - Marketplace
-- Bookings
+- Booking
 - Property Management
 ---

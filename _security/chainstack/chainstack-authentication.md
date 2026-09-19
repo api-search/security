@@ -154,12 +154,6 @@ api_specs:
   slug: chainstack-transaction-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-transaction-info-api-openapi.yml
-- filename: chainstack-transactions-info-api-openapi.yml
-  format: yaml
-  label: Chainstack Transactions Info API
-  slug: chainstack-transactions-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/openapi/chainstack-transactions-info-api-openapi.yml
 - filename: chainstack-txpool-api-openapi.yml
   format: yaml
   label: Chainstack Txpool API

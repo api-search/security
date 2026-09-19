@@ -76,7 +76,7 @@ tags:
 - Video Interviewing
 - Recruiting
 - Hiring
-- HR Tech
+- Human Resources
 - Talent Assessment
 - ATS
 ---

@@ -378,6 +378,6 @@ tags:
 - Team Communication
 - Hourly Workers
 - Earned Wage Access
-- HR Tech
+- Human Resources
 - REST API
 ---

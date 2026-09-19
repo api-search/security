@@ -15,6 +15,12 @@ api_specs:
   slug: seamless-ai-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
+- filename: seamless-ai-oauth-api-openapi.yml
+  format: yaml
+  label: Seamless.AI O Auth API
+  slug: seamless-ai-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

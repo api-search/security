@@ -44,12 +44,6 @@ api_specs:
   slug: cisco-secure-firewall-api-entitlement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/openapi/cisco-secure-firewall-api-entitlement-api-openapi.yml
-- filename: cisco-secure-firewall-apikeys-api-openapi.yml
-  format: yaml
-  label: Cisco Secure Firewall API Keys API
-  slug: cisco-secure-firewall-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/openapi/cisco-secure-firewall-apikeys-api-openapi.yml
 - filename: cisco-secure-firewall-app-group-api-openapi.yml
   format: yaml
   label: Cisco Secure Firewall App Group API
@@ -650,6 +644,12 @@ api_specs:
   slug: cisco-secure-firewall-zone-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/openapi/cisco-secure-firewall-zone-tag-api-openapi.yml
+- filename: cisco-secure-firewall-api-keys-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Firewall API Keys API
+  slug: cisco-secure-firewall-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/openapi/cisco-secure-firewall-api-keys-api-openapi.yml
 auth_types:
 - http
 description: ''

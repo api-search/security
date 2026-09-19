@@ -37,6 +37,6 @@ tags:
 - Marketplace
 - Pop-Up Shops
 - Commercial Property
-- Short-Term Rentals
+- Short-Term Rental
 - Two-Sided Marketplace
 ---

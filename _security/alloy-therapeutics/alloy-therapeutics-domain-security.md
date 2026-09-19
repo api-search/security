@@ -34,7 +34,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Antibody Discovery
-- Genetic Medicines
+- Genetic Medicine
 - Artificial Intelligence
 - Life Sciences
 - Pharmaceuticals

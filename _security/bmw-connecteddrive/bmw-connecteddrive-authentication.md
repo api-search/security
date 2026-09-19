@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmw-connectedd
 summary_line: http · 1 scheme
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Telematics
 - Vehicle Data
 - CarData

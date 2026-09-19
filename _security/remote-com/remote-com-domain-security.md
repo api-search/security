@@ -174,12 +174,6 @@ api_specs:
   slug: remote-com-magic-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-magic-links-api-openapi.yml
-- filename: remote-com-oauth-api-openapi.yml
-  format: yaml
-  label: Remote OAuth API
-  slug: remote-com-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-oauth-api-openapi.yml
 - filename: remote-com-offboarding-api-openapi.yml
   format: yaml
   label: Remote Offboarding API
@@ -240,6 +234,12 @@ api_specs:
   slug: remote-com-work-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-work-authorization-api-openapi.yml
+- filename: remote-com-oauth-api-openapi.yml
+  format: yaml
+  label: Remote O Auth API
+  slug: remote-com-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/openapi/remote-com-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -290,7 +290,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/remote-com/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Global Payroll
-- EOR
+- Employer of Record
 - Contractor Management
 - Contractor of Record
 - PEO
@@ -298,7 +298,7 @@ tags:
 - Recruiting
 - Benefits
 - Employment
-- HR
+- Human Resources
 - Compliance
 - Workforce
 - MCP

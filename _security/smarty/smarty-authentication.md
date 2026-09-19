@@ -9,12 +9,6 @@ api_specs:
   slug: smarty-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-lookup-api-openapi.yml
-- filename: smarty-reverse-geo-api-openapi.yml
-  format: yaml
-  label: Smarty reverse-geo API
-  slug: smarty-reverse-geo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-reverse-geo-api-openapi.yml
 - filename: smarty-street-address-api-openapi.yml
   format: yaml
   label: Smarty street-address API
@@ -29,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-enrichment-api-openapi.yml
 - filename: smarty-us-extract-api-api-openapi.yml
   format: yaml
-  label: Smarty US Extract API API
+  label: Smarty US Extract API
   slug: smarty-us-extract-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-extract-api-api-openapi.yml

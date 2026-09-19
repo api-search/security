@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Automation
 - Consumer Electronics
 - Connected Devices

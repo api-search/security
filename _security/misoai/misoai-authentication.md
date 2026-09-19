@@ -12,7 +12,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-ask-apis-api-openapi.yml
 - filename: misoai-bulk-api-api-openapi.yml
   format: yaml
-  label: miso.ai Bulk API API
+  label: miso.ai Bulk API
   slug: misoai-bulk-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/openapi/misoai-bulk-api-api-openapi.yml

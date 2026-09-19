@@ -37,7 +37,7 @@ tags:
 - Renewables
 - Power Grid
 - Superconductors
-- Industrials
+- Industrial
 - Utility
 - Military
 - Defense

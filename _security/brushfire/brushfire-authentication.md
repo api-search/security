@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: brushfire-accesscodes-api-openapi.yml
-  format: yaml
-  label: Brushfire AccessCodes API
-  slug: brushfire-accesscodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-accesscodes-api-openapi.yml
 - filename: brushfire-accounts-api-openapi.yml
   format: yaml
   label: Brushfire Accounts API
@@ -99,6 +93,12 @@ api_specs:
   slug: brushfire-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-sessions-api-openapi.yml
+- filename: brushfire-access-codes-api-openapi.yml
+  format: yaml
+  label: Brushfire Access Codes API
+  slug: brushfire-access-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-access-codes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

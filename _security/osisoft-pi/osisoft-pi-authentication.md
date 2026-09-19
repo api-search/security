@@ -14,12 +14,6 @@ api_specs:
   slug: osisoft-pi-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-attributes-api-openapi.yml
-- filename: osisoft-pi-batchrequests-api-openapi.yml
-  format: yaml
-  label: osisoft-pi BatchRequests API
-  slug: osisoft-pi-batchrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batchrequests-api-openapi.yml
 - filename: osisoft-pi-dataservers-api-openapi.yml
   format: yaml
   label: osisoft-pi DataServers API
@@ -50,6 +44,12 @@ api_specs:
   slug: osisoft-pi-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-streams-api-openapi.yml
+- filename: osisoft-pi-batch-requests-api-openapi.yml
+  format: yaml
+  label: OSIsoft PI System Batch Requests API
+  slug: osisoft-pi-batch-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batch-requests-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -84,5 +84,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/osisoft-pi-web-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication\n  sources:\n  - openapi/osisoft-pi-web-api-openapi.yml\n- name: kerberos\n  type: http\n  scheme: negotiate\n  description: Kerberos/Windows Integrated Authentication\n  sources:\n  - openapi/osisoft-pi-web-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/authentication/osisoft-pi-authentication.yml
 summary_line: http · 2 schemes
-tags: []
+tags:
+- Manufacturing
+- Cloud
+- IoT
+- Time Series
 ---

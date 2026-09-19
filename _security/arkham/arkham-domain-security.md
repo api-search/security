@@ -66,12 +66,6 @@ api_specs:
   slug: arkham-loans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-loans-api-openapi.yml
-- filename: arkham-marketdata-api-openapi.yml
-  format: yaml
-  label: Arkham Marketdata API
-  slug: arkham-marketdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-marketdata-api-openapi.yml
 - filename: arkham-networks-api-openapi.yml
   format: yaml
   label: Arkham Networks API
@@ -150,6 +144,12 @@ api_specs:
   slug: arkham-ws-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-ws-api-openapi.yml
+- filename: arkham-market-data-api-openapi.yml
+  format: yaml
+  label: Arkham Market Data API
+  slug: arkham-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/openapi/arkham-market-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

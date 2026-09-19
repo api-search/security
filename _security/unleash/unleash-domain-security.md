@@ -6,12 +6,6 @@ api_specs:
   slug: client-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-client-api-openapi.yml
-- filename: unleash-addons-api-openapi.yml
-  format: yaml
-  label: Unleash Addons API
-  slug: unleash-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-addons-api-openapi.yml
 - filename: unleash-admin-ui-api-openapi.yml
   format: yaml
   label: Unleash Admin UI API
@@ -86,7 +80,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-features-api-openapi.yml
 - filename: unleash-frontend-api-api-openapi.yml
   format: yaml
-  label: Unleash Frontend API API
+  label: Unleash Frontend API
   slug: unleash-frontend-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-frontend-api-api-openapi.yml
@@ -200,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-unknown-flags-api-openapi.yml
 - filename: unleash-unleash-edge-api-openapi.yml
   format: yaml
-  label: Unleash Unleash Edge API
+  label: Unleash Edge API
   slug: unleash-unleash-edge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-unleash-edge-api-openapi.yml
@@ -216,6 +210,12 @@ api_specs:
   slug: unleash-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-users-api-openapi.yml
+- filename: unleash-add-ons-api-openapi.yml
+  format: yaml
+  label: Unleash Add Ons API
+  slug: unleash-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-add-ons-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -53,6 +53,6 @@ tags:
 - Students
 - Career Services
 - Consumer Services
-- Status Page
+- Status Pages
 trust_url: https://empowerly.com/security
 ---

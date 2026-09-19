@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: oauth2 · 1 scheme
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - SignalR
 - Messaging
 - Push

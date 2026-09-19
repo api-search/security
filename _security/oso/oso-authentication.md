@@ -10,13 +10,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-centralized-authorization-data-api-openapi.yml
 - filename: oso-check-api-api-openapi.yml
   format: yaml
-  label: Oso Cloud Check API API
+  label: Oso Cloud Check API
   slug: oso-check-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-check-api-api-openapi.yml
 - filename: oso-local-check-api-api-openapi.yml
   format: yaml
-  label: Oso Cloud Local Check API API
+  label: Oso Cloud Local Check API
   slug: oso-local-check-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-local-check-api-api-openapi.yml

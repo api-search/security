@@ -34,6 +34,6 @@ tags:
 - Consumer
 - Coffee
 - Retail
-- Beverage
+- Beverages
 - Food
 ---

@@ -64,7 +64,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Agents
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Workflows
 - Orchestration
 ---

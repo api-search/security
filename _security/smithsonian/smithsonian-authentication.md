@@ -21,24 +21,6 @@ api_specs:
   slug: smithsonian-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-search-api-openapi.yml
-- filename: smithsonian-institution-content-api-openapi.yml
-  format: yaml
-  label: Smithsonian Institution Content API
-  slug: smithsonian-institution-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-institution-content-api-openapi.yml
-- filename: smithsonian-institution-metrics-api-openapi.yml
-  format: yaml
-  label: Smithsonian Institution Metrics API
-  slug: smithsonian-institution-metrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-institution-metrics-api-openapi.yml
-- filename: smithsonian-institution-search-api-openapi.yml
-  format: yaml
-  label: Smithsonian Institution Search API
-  slug: smithsonian-institution-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-institution-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

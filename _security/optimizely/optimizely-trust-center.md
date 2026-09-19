@@ -102,12 +102,6 @@ api_specs:
   slug: optimizely-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-flags-api-openapi.yml
-- filename: optimizely-graphql-api-openapi.yml
-  format: yaml
-  label: Optimizely GraphQL API
-  slug: optimizely-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-graphql-api-openapi.yml
 - filename: optimizely-labels-api-openapi.yml
   format: yaml
   label: Optimizely Labels API
@@ -264,18 +258,6 @@ api_specs:
   slug: optimizely-affiliates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-affiliates-api-openapi.yml
-- filename: optimizely-api-reference-api-openapi.yml
-  format: yaml
-  label: Optimizely API Reference API
-  slug: optimizely-api-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-api-reference-api-openapi.yml
-- filename: optimizely-applepay-api-openapi.yml
-  format: yaml
-  label: Optimizely Applepay API
-  slug: optimizely-applepay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-applepay-api-openapi.yml
 - filename: optimizely-application-es-logs-api-openapi.yml
   format: yaml
   label: Optimizely Application Es Logs API
@@ -366,12 +348,6 @@ api_specs:
   slug: optimizely-batch-sending-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-batch-sending-api-openapi.yml
-- filename: optimizely-bestbets-api-openapi.yml
-  format: yaml
-  label: Optimizely 🏆 BestBets API
-  slug: optimizely-bestbets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-bestbets-api-openapi.yml
 - filename: optimizely-bill-to-address-fields-api-openapi.yml
   format: yaml
   label: Optimizely Bill To Address Fields API
@@ -426,12 +402,6 @@ api_specs:
   slug: optimizely-budget-calendars-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-budget-calendars-api-openapi.yml
-- filename: optimizely-budgetcalendars-api-openapi.yml
-  format: yaml
-  label: Optimizely Budgetcalendars API
-  slug: optimizely-budgetcalendars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-budgetcalendars-api-openapi.yml
 - filename: optimizely-budgets-api-openapi.yml
   format: yaml
   label: Optimizely Budgets API
@@ -798,12 +768,6 @@ api_specs:
   slug: optimizely-databaseexports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-databaseexports-api-openapi.yml
-- filename: optimizely-datafile-api-openapi.yml
-  format: yaml
-  label: Optimizely Datafile API
-  slug: optimizely-datafile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-datafile-api-openapi.yml
 - filename: optimizely-dealer-categories-api-openapi.yml
   format: yaml
   label: Optimizely Dealer Categories API
@@ -1020,12 +984,6 @@ api_specs:
   slug: optimizely-global-synonyms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-global-synonyms-api-openapi.yml
-- filename: optimizely-googlepay-api-openapi.yml
-  format: yaml
-  label: Optimizely Googlepay API
-  slug: optimizely-googlepay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-googlepay-api-openapi.yml
 - filename: optimizely-groups-api-openapi.yml
   format: yaml
   label: Optimizely Groups API
@@ -1260,12 +1218,6 @@ api_specs:
   slug: optimizely-nodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-nodes-api-openapi.yml
-- filename: optimizely-oauth-api-openapi.yml
-  format: yaml
-  label: Optimizely OAUTH API
-  slug: optimizely-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-oauth-api-openapi.yml
 - filename: optimizely-object-schema-api-openapi.yml
   format: yaml
   label: Optimizely Object schema API
@@ -1292,7 +1244,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-opt-in-processes-api-openapi.yml
 - filename: optimizely-optimizely-edge-decider-api-openapi.yml
   format: yaml
-  label: Optimizely Optimizely Edge Decider API
+  label: Optimizely Edge Decider API
   slug: optimizely-optimizely-edge-decider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-optimizely-edge-decider-api-openapi.yml
@@ -1368,12 +1320,6 @@ api_specs:
   slug: optimizely-orderfeed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-orderfeed-api-openapi.yml
-- filename: optimizely-orderstatusmappings-api-openapi.yml
-  format: yaml
-  label: Optimizely Orderstatusmappings API
-  slug: optimizely-orderstatusmappings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-orderstatusmappings-api-openapi.yml
 - filename: optimizely-override-api-openapi.yml
   format: yaml
   label: Optimizely Override API
@@ -2184,12 +2130,6 @@ api_specs:
   slug: optimizely-token-ex-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-token-ex-config-api-openapi.yml
-- filename: optimizely-tokenexconfig-api-openapi.yml
-  format: yaml
-  label: Optimizely Tokenexconfig API
-  slug: optimizely-tokenexconfig-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-tokenexconfig-api-openapi.yml
 - filename: optimizely-track-api-openapi.yml
   format: yaml
   label: Optimizely Track API
@@ -2214,12 +2154,6 @@ api_specs:
   slug: optimizely-translation-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-translation-properties-api-openapi.yml
-- filename: optimizely-translationdictionaries-api-openapi.yml
-  format: yaml
-  label: Optimizely Translationdictionaries API
-  slug: optimizely-translationdictionaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-translationdictionaries-api-openapi.yml
 - filename: optimizely-uploader-api-openapi.yml
   format: yaml
   label: Optimizely Uploader API
@@ -2352,18 +2286,6 @@ api_specs:
   slug: optimizely-vmi-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-vmi-notes-api-openapi.yml
-- filename: optimizely-vmibins-api-openapi.yml
-  format: yaml
-  label: Optimizely Vmi Bins API
-  slug: optimizely-vmibins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-vmibins-api-openapi.yml
-- filename: optimizely-vmilocations-api-openapi.yml
-  format: yaml
-  label: Optimizely Vmi Locations API
-  slug: optimizely-vmilocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-vmilocations-api-openapi.yml
 - filename: optimizely-warehouse-alternates-api-openapi.yml
   format: yaml
   label: Optimizely Warehouse Alternates API
@@ -2490,12 +2412,6 @@ api_specs:
   slug: optimizely-wish-list-shares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-wish-list-shares-api-openapi.yml
-- filename: optimizely-wish-lists-api-openapi.yml
-  format: yaml
-  label: Optimizely Wish Lists API
-  slug: optimizely-wish-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-wish-lists-api-openapi.yml
 - filename: optimizely-wishlists-api-openapi.yml
   format: yaml
   label: Optimizely Wishlists API
@@ -2514,6 +2430,36 @@ api_specs:
   slug: optimizely-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-workflows-api-openapi.yml
+- filename: optimizely-oauth-api-openapi.yml
+  format: yaml
+  label: Optimizely OAUTH API
+  slug: optimizely-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-oauth-api-openapi.yml
+- filename: optimizely-apple-pay-api-openapi.yml
+  format: yaml
+  label: Optimizely Apple Pay API
+  slug: optimizely-apple-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-apple-pay-api-openapi.yml
+- filename: optimizely-best-bets-api-openapi.yml
+  format: yaml
+  label: Optimizely Best Bets API
+  slug: optimizely-best-bets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-best-bets-api-openapi.yml
+- filename: optimizely-data-file-api-openapi.yml
+  format: yaml
+  label: Optimizely Data File API
+  slug: optimizely-data-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-data-file-api-openapi.yml
+- filename: optimizely-google-pay-api-openapi.yml
+  format: yaml
+  label: Optimizely Google Pay API
+  slug: optimizely-google-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-google-pay-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2

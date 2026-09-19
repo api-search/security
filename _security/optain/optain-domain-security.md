@@ -38,5 +38,5 @@ tags:
 - Retinal Screening
 - Oculomics
 - Diagnostics
-- Medical Device
+- Medical Devices
 ---

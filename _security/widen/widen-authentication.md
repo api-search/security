@@ -135,7 +135,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/widen/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Digital Asset Management
-- DAM
 - Media
 - Assets
 - Metadata

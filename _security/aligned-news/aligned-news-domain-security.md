@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-bundles-api-openapi.yml
 - filename: aligned-news-news-feed-api-openapi.yml
   format: yaml
-  label: Aligned News News Feed API
+  label: Aligned News Feed API
   slug: aligned-news-news-feed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-news-feed-api-openapi.yml

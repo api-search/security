@@ -56,4 +56,5 @@ tags:
 - Oncology
 - Stem Cells
 - Pharmaceuticals
+- Defunct
 ---

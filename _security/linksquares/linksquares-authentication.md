@@ -66,7 +66,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Contract Management
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Artificial Intelligence
 - Legal

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/openapi/levelblue-events-api-openapi.yml
 - filename: levelblue-oauth-api-openapi.yml
   format: yaml
-  label: LevelBlue OAuth API
+  label: LevelBlue O Auth API
   slug: levelblue-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/openapi/levelblue-oauth-api-openapi.yml

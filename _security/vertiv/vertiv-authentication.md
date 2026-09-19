@@ -27,12 +27,6 @@ api_specs:
   slug: vertiv-circuits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-circuits-api-openapi.yml
-- filename: vertiv-data-sets-api-openapi.yml
-  format: yaml
-  label: Vertiv Data Sets API
-  slug: vertiv-data-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-data-sets-api-openapi.yml
 - filename: vertiv-devices-api-openapi.yml
   format: yaml
   label: Vertiv Devices API
@@ -51,6 +45,12 @@ api_specs:
   slug: vertiv-sensors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-sensors-api-openapi.yml
+- filename: vertiv-datasets-api-openapi.yml
+  format: yaml
+  label: Vertiv Datasets API
+  slug: vertiv-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-datasets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -12,12 +12,6 @@ api_specs:
   slug: useapi-dreamina-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-dreamina-api-openapi.yml
-- filename: useapi-faceswap-api-openapi.yml
-  format: yaml
-  label: useapi.net Faceswap API
-  slug: useapi-faceswap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-faceswap-api-openapi.yml
 - filename: useapi-flowmusic-api-openapi.yml
   format: yaml
   label: useapi.net Flowmusic API
@@ -42,12 +36,6 @@ api_specs:
   slug: useapi-kling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-kling-api-openapi.yml
-- filename: useapi-minimax-api-openapi.yml
-  format: yaml
-  label: useapi.net Minimax API
-  slug: useapi-minimax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-minimax-api-openapi.yml
 - filename: useapi-mureka-api-openapi.yml
   format: yaml
   label: useapi.net Mureka API
@@ -72,6 +60,18 @@ api_specs:
   slug: useapi-tempolor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-tempolor-api-openapi.yml
+- filename: useapi-face-swap-api-openapi.yml
+  format: yaml
+  label: useapi.net Face Swap API
+  slug: useapi-face-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-face-swap-api-openapi.yml
+- filename: useapi-mini-max-api-openapi.yml
+  format: yaml
+  label: useapi.net Mini Max API
+  slug: useapi-mini-max-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/openapi/useapi-mini-max-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/openapi/google-cloud-assured-workloads-violations-api-openapi.yml
 - filename: google-cloud-assured-workloads-workloads-api-openapi.yml
   format: yaml
-  label: Google Cloud Assured Workloads Workloads API
+  label: Google Cloud Assured Workloads API
   slug: google-cloud-assured-workloads-workloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/openapi/google-cloud-assured-workloads-workloads-api-openapi.yml

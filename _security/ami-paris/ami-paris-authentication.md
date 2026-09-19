@@ -57,6 +57,6 @@ tags:
 - Retail
 - E-Commerce
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 ---

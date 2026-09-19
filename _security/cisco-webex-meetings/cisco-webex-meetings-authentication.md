@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-invitees-api-openapi.yml
 - filename: cisco-webex-meetings-meetings-api-openapi.yml
   format: yaml
-  label: Cisco Webex Meetings Meetings API
+  label: Cisco Webex Meetings API
   slug: cisco-webex-meetings-meetings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-meetings-api-openapi.yml

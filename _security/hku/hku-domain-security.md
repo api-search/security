@@ -70,7 +70,7 @@ tags:
 - University
 - Hong Kong
 - Identity Federation
-- Single Sign-On
+- SSO
 - Research Data
 - Open Access
 - Artificial Intelligence

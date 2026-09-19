@@ -33,7 +33,7 @@ tags:
 - Social
 - Avatars
 - Virtual Worlds
-- Mobile Apps
+- Mobile App
 - Metaverse
 - China
 ---

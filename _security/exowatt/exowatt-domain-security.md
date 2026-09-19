@@ -36,7 +36,7 @@ tags:
 - Clean Energy
 - Solar
 - Energy Storage
-- Data Centers
+- Data-Center
 - Climate Tech
 - Hardware
 ---

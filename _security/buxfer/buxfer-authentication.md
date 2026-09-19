@@ -71,6 +71,6 @@ tags:
 - Fintech
 - Financial Data
 - Transaction
-- Investments
+- Investment
 - Expense Tracking
 ---

@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-data-sources-api-openapi.yml
 - filename: tuva-health-health-check-api-openapi.yml
   format: yaml
-  label: Tuva Health Health Check API
+  label: Tuva Health Check API
   slug: tuva-health-health-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/openapi/tuva-health-health-check-api-openapi.yml

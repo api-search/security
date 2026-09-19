@@ -38,7 +38,7 @@ tags:
 - Telephony
 - Scheduling
 - Field Service
-- Trades
+- Trade
 - Australia
 - Automation
 - Lead Generation

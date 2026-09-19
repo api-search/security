@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/setpointmedica
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Medical Device
+- Medical Devices
 - Bioelectronic Medicine
 - Neuromodulation
 - Rheumatoid Arthritis

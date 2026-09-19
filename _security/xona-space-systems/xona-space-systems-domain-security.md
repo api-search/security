@@ -34,7 +34,7 @@ tags:
 - Company
 - Frontier Tech
 - Space
-- Satellites
+- Satellite
 - Navigation
 - PNT
 - Timing

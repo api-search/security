@@ -36,7 +36,7 @@ tags:
 - BSS
 - TM Forum
 - Open Digital Architecture
-- Open API
+- OpenAPI
 - Product Catalog
 - CPQ
 - CRM

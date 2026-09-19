@@ -170,7 +170,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-maintenance-windows-api-openapi.yml
 - filename: mongodb-mongodb-cloud-users-api-openapi.yml
   format: yaml
-  label: MongoDB MongoDB Cloud Users API
+  label: MongoDB Cloud Users API
   slug: mongodb-mongodb-cloud-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-mongodb-cloud-users-api-openapi.yml
@@ -337,5 +337,6 @@ tags:
 - Database
 - Document Database
 - NoSQL
+- MongoDB
 trust_url: https://trust.mongodb.com/
 ---

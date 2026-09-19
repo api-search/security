@@ -51,7 +51,7 @@ tags:
 - Maps
 - Cloud Platform
 - Artificial Intelligence
-- Korea
+- South Korea
 - Authentication
 - SMS
 - OCR

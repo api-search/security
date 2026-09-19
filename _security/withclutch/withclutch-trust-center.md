@@ -20,13 +20,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/withclutch/ref
 summary_line: SOC 2 Type 2
 tags:
 - Company
-- Credit Unions
+- Credit Union
 - Lending
 - Loan Origination
 - Account Opening
 - Financial-Services
 - Fintech
 - Banking
-- Data Exports
+- Data Export
 trust_url: https://trust.withclutch.com/
 ---

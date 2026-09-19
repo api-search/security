@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-requests-api-openapi.yml
 - filename: standard-metrics-metrics-api-openapi.yml
   format: yaml
-  label: Standard Metrics metrics API
+  label: Standard Metrics API
   slug: standard-metrics-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-metrics-api-openapi.yml

@@ -78,12 +78,6 @@ api_specs:
   slug: adready-cpxi-app-console-solution-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adready-cpxi/refs/heads/main/openapi/adready-cpxi-app-console-solution-management-api-openapi.yml
-- filename: adready-cpxi-appconsole-api-openapi.yml
-  format: yaml
-  label: AdReady (CPXi) App Console API
-  slug: adready-cpxi-appconsole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adready-cpxi/refs/heads/main/openapi/adready-cpxi-appconsole-api-openapi.yml
 - filename: adready-cpxi-auth-controller-api-openapi.yml
   format: yaml
   label: AdReady (CPXi) Auth Controller API

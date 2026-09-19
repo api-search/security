@@ -79,6 +79,6 @@ tags:
 - Fantasy Football
 - Gaming
 - Sports Data
-- Leagues
+- League
 - Consumer
 ---

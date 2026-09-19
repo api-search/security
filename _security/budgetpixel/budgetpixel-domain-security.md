@@ -72,12 +72,6 @@ api_specs:
   slug: budgetpixel-lip-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-lip-sync-api-openapi.yml
-- filename: budgetpixel-minimax-api-openapi.yml
-  format: yaml
-  label: BudgetPixel Mini Max API
-  slug: budgetpixel-minimax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-minimax-api-openapi.yml
 - filename: budgetpixel-models-api-openapi.yml
   format: yaml
   label: BudgetPixel Models API
@@ -150,6 +144,12 @@ api_specs:
   slug: budgetpixel-xai-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-xai-api-openapi.yml
+- filename: budgetpixel-mini-max-api-openapi.yml
+  format: yaml
+  label: BudgetPixel Mini Max API
+  slug: budgetpixel-mini-max-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-mini-max-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -213,7 +213,7 @@ tags:
 - Text-to-Image
 - Text-to-Video
 - Upscaling
-- Credits
+- Credit
 - Model Aggregator
 - Agent Card
 ---

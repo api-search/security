@@ -63,12 +63,6 @@ api_specs:
   slug: explorium-entityiddatasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-entityiddatasets-api-openapi.yml
-- filename: explorium-healthcheck-api-openapi.yml
-  format: yaml
-  label: Explorium Healthcheck API
-  slug: explorium-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-healthcheck-api-openapi.yml
 - filename: explorium-prospectsbulkenrichments-api-openapi.yml
   format: yaml
   label: Explorium Prospects Bulk Enrichments API
@@ -129,6 +123,12 @@ api_specs:
   slug: explorium-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-version-api-openapi.yml
+- filename: explorium-health-check-api-openapi.yml
+  format: yaml
+  label: Explorium Health Check API
+  slug: explorium-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-health-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -48,12 +48,6 @@ api_specs:
   slug: popsink-envs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-envs-api-openapi.yml
-- filename: popsink-healthchecks-api-openapi.yml
-  format: yaml
-  label: Popsink healthchecks API
-  slug: popsink-healthchecks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-healthchecks-api-openapi.yml
 - filename: popsink-jobs-smt-api-openapi.yml
   format: yaml
   label: Popsink jobs-smt API
@@ -74,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-pipelines-api-openapi.yml
 - filename: popsink-popsink-public-api-api-openapi.yml
   format: yaml
-  label: Popsink Popsink Public API API
+  label: Popsink Public API
   slug: popsink-popsink-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-popsink-public-api-api-openapi.yml
@@ -126,6 +120,12 @@ api_specs:
   slug: popsink-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-users-api-openapi.yml
+- filename: popsink-health-checks-api-openapi.yml
+  format: yaml
+  label: Popsink Health Checks API
+  slug: popsink-health-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-health-checks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -167,7 +167,6 @@ tags:
 - Company
 - Change Data Capture
 - Data Replication
-- CDC
 - Data Integration
 - Real-Time Data
 - Streaming

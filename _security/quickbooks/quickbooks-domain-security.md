@@ -53,7 +53,7 @@ tags:
 - Accounting
 - Bookkeeping
 - Small Business
-- Financials
+- Financial
 - Invoicing
 - Payroll
 - Tax

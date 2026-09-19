@@ -215,7 +215,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Large Language Models
+- LLM
 - Government
 - Defense
 - Compliance

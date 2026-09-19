@@ -34,7 +34,7 @@ tags:
 - Company
 - Energy
 - Electricity
-- Data Centers
+- Data-Center
 - Infrastructure
 - Superconductors
 - Content

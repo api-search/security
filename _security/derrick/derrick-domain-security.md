@@ -37,17 +37,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/derrick/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - b2b-data-enrichment
-- email-finder
-- phone-finder
+- Email Finder
+- Phone Finder
 - company-firmographics
-- lead-generation
-- sales-intelligence
-- crm-enrichment
+- Lead Generation
+- Sales Intelligence
+- CRM Enrichment
 - tech-stack-detection
-- email-verification
+- Email Verification
 - siret-siren-france
-- mcp-server
+- MCP Server
 - llms-txt
-- google-sheets
+- Google Sheets
 - gtm-tools
 ---

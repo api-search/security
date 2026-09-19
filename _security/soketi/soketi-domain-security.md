@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soketi/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Open-Source
 - Pusher Protocol
 - Self-Host

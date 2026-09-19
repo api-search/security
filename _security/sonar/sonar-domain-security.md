@@ -101,6 +101,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CI/CD
 - Code Quality
+- Developer Tools
 - DevOps
 - Security
 - SonarCloud

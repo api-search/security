@@ -37,5 +37,5 @@ tags:
 - E-Commerce
 - Retail
 - Shopify
-- UAE
+- United Arab Emirates
 ---

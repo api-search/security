@@ -12,18 +12,18 @@ api_specs:
   slug: itsacheckmate-menus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-menus-api-openapi.yml
-- filename: itsacheckmate-oauth-api-openapi.yml
-  format: yaml
-  label: ItsaCheckmate OAuth API
-  slug: itsacheckmate-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-oauth-api-openapi.yml
 - filename: itsacheckmate-orders-api-openapi.yml
   format: yaml
   label: ItsaCheckmate Orders API
   slug: itsacheckmate-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-orders-api-openapi.yml
+- filename: itsacheckmate-oauth-api-openapi.yml
+  format: yaml
+  label: ItsaCheckmate O Auth API
+  slug: itsacheckmate-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/openapi/itsacheckmate-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

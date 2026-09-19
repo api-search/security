@@ -147,7 +147,7 @@ tags:
 - Connected Car
 - Identity
 - OpenID Connect
-- Design System
+- Design Systems
 - Open-Source
 - Germany
 ---

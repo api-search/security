@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-copenhagen-curis-oai-pmh-openapi.yml
+- filename: university-of-copenhagen-oai-pmh-api-openapi.yml
   format: yaml
-  label: University of Copenhagen CURIS OAI-PMH Repository Interface
-  slug: curis-oai-pmh
+  label: University of Copenhagen OAI PMH API
+  slug: university-of-copenhagen-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/openapi/university-of-copenhagen-curis-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/openapi/university-of-copenhagen-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa:

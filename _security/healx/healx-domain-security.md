@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Drug Discovery
-- Rare Diseases
+- Rare Disease
 - Biotechnology
 - Healthcare
 - Life Sciences

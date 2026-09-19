@@ -58,7 +58,7 @@ summary_line: 2 schemes
 tags:
 - Native Advertising
 - Programmatic Advertising
-- SSP
+- Supply Side Platform
 - DSP
 - OpenRTB
 - Ad Exchange

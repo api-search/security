@@ -41,7 +41,7 @@ tags:
 - Launch Services
 - Space Systems
 - Spacecraft
-- Satellites
+- Satellite
 - Defense
 - Government
 - Public Company

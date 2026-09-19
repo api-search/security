@@ -37,7 +37,7 @@ tags:
 - Digital Bank
 - Challenger Bank
 - Open Banking
-- Mortgages
+- Mortgage
 - Savings
 - Lending
 - United Kingdom

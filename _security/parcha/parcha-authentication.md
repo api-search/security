@@ -326,12 +326,6 @@ api_specs:
   slug: parcha-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-schemas-api-openapi.yml
-- filename: parcha-sendfeedback-api-openapi.yml
-  format: yaml
-  label: Parcha SendFeedback API
-  slug: parcha-sendfeedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-sendfeedback-api-openapi.yml
 - filename: parcha-specializedscraper-api-openapi.yml
   format: yaml
   label: Parcha SpecializedScraper API
@@ -398,6 +392,12 @@ api_specs:
   slug: parcha-uploadb64document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-uploadb64document-api-openapi.yml
+- filename: parcha-send-feedback-api-openapi.yml
+  format: yaml
+  label: Parcha Send Feedback API
+  slug: parcha-send-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-send-feedback-api-openapi.yml
 auth_types:
 - http
 description: ''

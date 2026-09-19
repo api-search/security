@@ -41,7 +41,7 @@ tags:
 - EVE Platform
 - Patient-Derived Screening
 - Oncology
-- Small Molecules
+- Small Molecule
 - Computational Chemistry
 - Machine-Learning
 - Open-Source

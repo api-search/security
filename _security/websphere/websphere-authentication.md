@@ -135,12 +135,6 @@ api_specs:
   slug: websphere-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-notifications-api-openapi.yml
-- filename: websphere-openapi-api-openapi.yml
-  format: yaml
-  label: IBM WebSphere OpenAPI API
-  slug: websphere-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-openapi-api-openapi.yml
 - filename: websphere-queue-manager-api-openapi.yml
   format: yaml
   label: IBM WebSphere Queue Manager API
@@ -207,6 +201,12 @@ api_specs:
   slug: websphere-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-vulnerabilities-api-openapi.yml
+- filename: websphere-open-api-api-openapi.yml
+  format: yaml
+  label: IBM WebSphere Open API
+  slug: websphere-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-open-api-api-openapi.yml
 auth_types:
 - apiKey
 - http

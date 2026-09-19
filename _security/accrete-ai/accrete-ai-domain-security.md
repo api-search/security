@@ -40,7 +40,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Knowledge Graphs
+- Knowledge Graph
 - Defense
 - Government
 - ITSM

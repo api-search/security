@@ -34,7 +34,7 @@ tags:
 - Real-Estate
 - PropTech
 - Fintech
-- Mortgages
+- Mortgage
 - Marketplace
 - Mexico
 ---

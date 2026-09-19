@@ -40,6 +40,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Clinical Data
 - Healthcare
-- Hospital
+- Hospitals
 - Medical
 ---

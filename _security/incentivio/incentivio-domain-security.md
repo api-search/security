@@ -300,12 +300,6 @@ api_specs:
   slug: incentivio-multilingual-message-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-multilingual-message-controller-api-openapi.yml
-- filename: incentivio-oauth-2-controller-api-openapi.yml
-  format: yaml
-  label: Incentivio OAUTH 2 Controller API
-  slug: incentivio-oauth-2-controller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-oauth-2-controller-api-openapi.yml
 - filename: incentivio-offer-distribution-controller-api-openapi.yml
   format: yaml
   label: Incentivio Offer Distribution Controller API
@@ -516,6 +510,12 @@ api_specs:
   slug: incentivio-web-app-config-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-web-app-config-controller-api-openapi.yml
+- filename: incentivio-o-auth-2-controller-api-openapi.yml
+  format: yaml
+  label: Incentivio o auth 2 controller API
+  slug: incentivio-o-auth-2-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-o-auth-2-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []

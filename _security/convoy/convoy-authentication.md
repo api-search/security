@@ -27,12 +27,6 @@ api_specs:
   slug: convoy-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-events-api-openapi.yml
-- filename: convoy-eventtypes-api-openapi.yml
-  format: yaml
-  label: Convoy EventTypes API
-  slug: convoy-eventtypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-eventtypes-api-openapi.yml
 - filename: convoy-filters-api-openapi.yml
   format: yaml
   label: Convoy Filters API
@@ -69,6 +63,12 @@ api_specs:
   slug: convoy-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-subscriptions-api-openapi.yml
+- filename: convoy-event-types-api-openapi.yml
+  format: yaml
+  label: Convoy Event Types API
+  slug: convoy-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-event-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

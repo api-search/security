@@ -24,12 +24,6 @@ api_specs:
   slug: kriya-therapeutics-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/openapi/kriya-therapeutics-news-api-openapi.yml
-- filename: kriya-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Kriya Therapeutics Oembed API
-  slug: kriya-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/openapi/kriya-therapeutics-oembed-api-openapi.yml
 - filename: kriya-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Kriya Therapeutics Pages API
@@ -60,6 +54,12 @@ api_specs:
   slug: kriya-therapeutics-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/openapi/kriya-therapeutics-team-api-openapi.yml
+- filename: kriya-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Kriya Therapeutics o Embed API
+  slug: kriya-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/openapi/kriya-therapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

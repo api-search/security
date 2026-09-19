@@ -39,6 +39,6 @@ tags:
 - Consumer Health
 - Telehealth
 - Artificial Intelligence
-- Mobile Apps
+- Mobile App
 - Spain
 ---

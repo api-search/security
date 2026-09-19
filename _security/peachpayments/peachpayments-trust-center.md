@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-payment-links-api-openapi.yml
 - filename: peachpayments-payments-api-openapi.yml
   format: yaml
-  label: Peach Payments Payments API
+  label: Peach Payments API
   slug: peachpayments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-payments-api-openapi.yml

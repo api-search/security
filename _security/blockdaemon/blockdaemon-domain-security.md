@@ -39,11 +39,11 @@ tags:
 - Blockchain
 - Web3
 - Staking
-- Validators
+- Validator
 - Custody
 - MPC
 - Wallets
-- Nodes
+- Node
 - RPC
 - DeFi
 - Indexer

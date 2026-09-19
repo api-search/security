@@ -6,12 +6,6 @@ api_specs:
   slug: event-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/asyncapi/fauna-event-streaming-asyncapi.yml
-- filename: fauna-graphql-api-openapi.yml
-  format: yaml
-  label: Fauna GraphQL API
-  slug: graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graphql-api-openapi.yml
 - filename: fauna-eventfeeds-api-openapi.yml
   format: yaml
   label: fauna EventFeeds API
@@ -30,6 +24,12 @@ api_specs:
   slug: fauna-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-schema-api-openapi.yml
+- filename: fauna-graph-ql-api-openapi.yml
+  format: yaml
+  label: Fauna Graph QL API
+  slug: fauna-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,11 +39,11 @@ domains:
   domain: fauna.com
   spf: true
 hosts:
+- host: fauna.com
+  https: false
 - host: docs.fauna.com
   https: false
 - host: db.fauna.com
-  https: false
-- host: graphql.fauna.com
   https: false
 hosts_probed: 3
 kind: domain-security
@@ -58,8 +58,16 @@ slug: fauna-domain-security
 source_filename: fauna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.fauna.com\n  https: false\n- host: db.fauna.com\n  https: false\n- host: graphql.fauna.com\n  https: false\ndomains:\n- domain: fauna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fauna.com\n  https: false\n- host: docs.fauna.com\n  https: false\n- host: db.fauna.com\n  https: false\ndomains:\n- domain: fauna.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/security/fauna-domain-security.yml
 summary_line: DMARC
-tags: []
+tags:
+- Database
+- Document Database
+- Serverless
+- Distributed Systems
+- Change Data Capture
+- GraphQL
+- Cloud
+- Developer Tools
 ---

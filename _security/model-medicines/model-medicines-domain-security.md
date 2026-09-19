@@ -36,6 +36,6 @@ tags:
 - Drug Discovery
 - Artificial Intelligence
 - Pharmaceuticals
-- Small Molecules
+- Small Molecule
 - Life Sciences
 ---

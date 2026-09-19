@@ -1,35 +1,161 @@
 ---
 api_specs:
-- filename: vitagroup-hip-ehrbase-openehr.json
-  format: json
-  label: HIP EHRbase openEHR REST API
-  slug: hip-ehrbase-openehr
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-hip-ehrbase-openehr.json
-- filename: vitagroup-hip-ehrbase-admin.json
-  format: json
-  label: HIP EHRbase Admin API
-  slug: hip-ehrbase-admin
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-hip-ehrbase-admin.json
-- filename: vitagroup-hip-ehrbase-item-tags.json
-  format: json
-  label: HIP EHRbase Item Tag Experimental API
-  slug: hip-ehrbase-item-tags
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-hip-ehrbase-item-tags.json
-- filename: vitagroup-hip-ehrbase-enterprise.yml
+- filename: vitagroup-adl-1-4-template-api-openapi.yml
   format: yaml
-  label: HIP EHRbase Enterprise API
-  slug: hip-ehrbase-enterprise
+  label: vitagroup ADL 1.4 TEMPLATE API
+  slug: vitagroup-adl-1-4-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-hip-ehrbase-enterprise.yml
-- filename: vitagroup-ehrbase-sandbox-live.json
-  format: json
-  label: EHRbase Sandbox (live springdoc api-docs)
-  slug: ehrbase-sandbox-live
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-adl-1-4-template-api-openapi.yml
+- filename: vitagroup-adl-2-template-api-openapi.yml
+  format: yaml
+  label: vitagroup ADL 2 TEMPLATE API
+  slug: vitagroup-adl-2-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-ehrbase-sandbox-live.json
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-adl-2-template-api-openapi.yml
+- filename: vitagroup-admin-composition-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - Composition API
+  slug: vitagroup-admin-composition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-composition-api-openapi.yml
+- filename: vitagroup-admin-contribution-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - Contribution API
+  slug: vitagroup-admin-contribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-contribution-api-openapi.yml
+- filename: vitagroup-admin-directory-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - Directory API
+  slug: vitagroup-admin-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-directory-api-openapi.yml
+- filename: vitagroup-admin-ehr-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - EHR API
+  slug: vitagroup-admin-ehr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-ehr-api-openapi.yml
+- filename: vitagroup-admin-ehr-merge-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - EHR-Merge API
+  slug: vitagroup-admin-ehr-merge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-ehr-merge-api-openapi.yml
+- filename: vitagroup-admin-heartbeat-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - Heartbeat API
+  slug: vitagroup-admin-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-heartbeat-api-openapi.yml
+- filename: vitagroup-admin-stored-query-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - Stored-Query API
+  slug: vitagroup-admin-stored-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-stored-query-api-openapi.yml
+- filename: vitagroup-admin-template-api-openapi.yml
+  format: yaml
+  label: vitagroup Admin - Template API
+  slug: vitagroup-admin-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-admin-template-api-openapi.yml
+- filename: vitagroup-compensation-api-openapi.yml
+  format: yaml
+  label: vitagroup Compensation API
+  slug: vitagroup-compensation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-compensation-api-openapi.yml
+- filename: vitagroup-composition-api-openapi.yml
+  format: yaml
+  label: vitagroup COMPOSITION API
+  slug: vitagroup-composition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-composition-api-openapi.yml
+- filename: vitagroup-composition-item-tag-api-openapi.yml
+  format: yaml
+  label: vitagroup COMPOSITION ITEM_TAG API
+  slug: vitagroup-composition-item-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-composition-item-tag-api-openapi.yml
+- filename: vitagroup-contribution-api-openapi.yml
+  format: yaml
+  label: vitagroup CONTRIBUTION API
+  slug: vitagroup-contribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-contribution-api-openapi.yml
+- filename: vitagroup-directory-api-openapi.yml
+  format: yaml
+  label: vitagroup DIRECTORY API
+  slug: vitagroup-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-directory-api-openapi.yml
+- filename: vitagroup-ehr-api-openapi.yml
+  format: yaml
+  label: vitagroup EHR API
+  slug: vitagroup-ehr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-ehr-api-openapi.yml
+- filename: vitagroup-ehr-status-api-openapi.yml
+  format: yaml
+  label: vitagroup EHR STATUS API
+  slug: vitagroup-ehr-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-ehr-status-api-openapi.yml
+- filename: vitagroup-ehr-status-item-tags-api-openapi.yml
+  format: yaml
+  label: vitagroup EHR_STATUS ITEM_TAGS API
+  slug: vitagroup-ehr-status-item-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-ehr-status-item-tags-api-openapi.yml
+- filename: vitagroup-event-trigger-api-openapi.yml
+  format: yaml
+  label: vitagroup Event Trigger API
+  slug: vitagroup-event-trigger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-event-trigger-api-openapi.yml
+- filename: vitagroup-multi-tenant-api-openapi.yml
+  format: yaml
+  label: vitagroup Multi tenant API
+  slug: vitagroup-multi-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-multi-tenant-api-openapi.yml
+- filename: vitagroup-query-api-openapi.yml
+  format: yaml
+  label: vitagroup QUERY API
+  slug: vitagroup-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-query-api-openapi.yml
+- filename: vitagroup-status-api-openapi.yml
+  format: yaml
+  label: vitagroup Status API
+  slug: vitagroup-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-status-api-openapi.yml
+- filename: vitagroup-stored-query-api-openapi.yml
+  format: yaml
+  label: vitagroup STORED QUERY API
+  slug: vitagroup-stored-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-stored-query-api-openapi.yml
+- filename: vitagroup-template-api-openapi.yml
+  format: yaml
+  label: vitagroup TEMPLATE API
+  slug: vitagroup-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-template-api-openapi.yml
+- filename: vitagroup-versioned-composition-api-openapi.yml
+  format: yaml
+  label: vitagroup VERSIONED COMPOSITION API
+  slug: vitagroup-versioned-composition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-versioned-composition-api-openapi.yml
+- filename: vitagroup-versioned-ehr-status-api-openapi.yml
+  format: yaml
+  label: vitagroup VERSIONED EHR STATUS API
+  slug: vitagroup-versioned-ehr-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/openapi/vitagroup-versioned-ehr-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,5 +212,5 @@ tags:
 - Clinical Data Repository
 - Interoperability
 - Germany
-- Open Source
+- Open-Source
 ---

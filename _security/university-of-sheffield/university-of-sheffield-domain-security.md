@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: university-of-sheffield-sheffield-solar-api-openapi.yml
+- filename: university-of-sheffield-admin-api-openapi.yml
   format: yaml
-  label: Sheffield Solar API
-  slug: sheffield-solar-api
+  label: University of Sheffield Admin API
+  slug: university-of-sheffield-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-sheffield-solar-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-admin-api-openapi.yml
+- filename: university-of-sheffield-api-auth-api-openapi.yml
+  format: yaml
+  label: University of Sheffield API Auth API
+  slug: university-of-sheffield-api-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-api-auth-api-openapi.yml
+- filename: university-of-sheffield-auth-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Auth API
+  slug: university-of-sheffield-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-auth-api-openapi.yml
+- filename: university-of-sheffield-health-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Health API
+  slug: university-of-sheffield-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-health-api-openapi.yml
+- filename: university-of-sheffield-metrics-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Metrics API
+  slug: university-of-sheffield-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-metrics-api-openapi.yml
+- filename: university-of-sheffield-pvforecast-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Pvforecast API
+  slug: university-of-sheffield-pvforecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvforecast-api-openapi.yml
+- filename: university-of-sheffield-pvlive-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Pvlive API
+  slug: university-of-sheffield-pvlive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvlive-api-openapi.yml
+- filename: university-of-sheffield-pvlive-eu-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Pvlive Eu API
+  slug: university-of-sheffield-pvlive-eu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-pvlive-eu-api-openapi.yml
+- filename: university-of-sheffield-user-api-openapi.yml
+  format: yaml
+  label: University of Sheffield User API
+  slug: university-of-sheffield-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-user-api-openapi.yml
+- filename: university-of-sheffield-users-api-openapi.yml
+  format: yaml
+  label: University of Sheffield Users API
+  slug: university-of-sheffield-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-users-api-openapi.yml
 description: ''
 domains:
 - caa:

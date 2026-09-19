@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: mediacaption.v1.yaml
+- filename: mediacaption-api-balance-api-openapi.yml
   format: yaml
-  label: Media Caption Public API
-  slug: media-caption-public-api
+  label: MediaCaption API Balance API
+  slug: mediacaption-api-balance-api
   spec_type: OpenAPI
-  url: https://www.mediacaption.io/docs/openapi/mediacaption.v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-balance-api-openapi.yml
+- filename: mediacaption-api-jobs-api-openapi.yml
+  format: yaml
+  label: MediaCaption API Jobs API
+  slug: mediacaption-api-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-jobs-api-openapi.yml
+- filename: mediacaption-api-transcriptions-api-openapi.yml
+  format: yaml
+  label: MediaCaption API Transcriptions API
+  slug: mediacaption-api-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-transcriptions-api-openapi.yml
+- filename: mediacaption-api-transcripts-api-openapi.yml
+  format: yaml
+  label: MediaCaption API Transcripts API
+  slug: mediacaption-api-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-transcripts-api-openapi.yml
+- filename: mediacaption-api-uploads-api-openapi.yml
+  format: yaml
+  label: MediaCaption API Uploads API
+  slug: mediacaption-api-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-uploads-api-openapi.yml
+- filename: mediacaption-api-user-api-openapi.yml
+  format: yaml
+  label: MediaCaption API User API
+  slug: mediacaption-api-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-user-api-openapi.yml
+- filename: mediacaption-api-webhooks-api-openapi.yml
+  format: yaml
+  label: MediaCaption API Webhooks API
+  slug: mediacaption-api-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/openapi/mediacaption-api-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -37,5 +37,5 @@ tags:
 - Travel
 - Lodging
 - Short-Term Rental
-- Accommodations
+- Accommodation
 ---

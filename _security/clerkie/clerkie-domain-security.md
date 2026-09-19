@@ -58,6 +58,6 @@ tags:
 - Credit
 - Financial-Services
 - Personal Finance
-- AI Agent
+- AI Agents
 - Consumer Finance
 ---

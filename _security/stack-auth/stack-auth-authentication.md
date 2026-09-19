@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: stack-auth-auth-api-openapi.yml
   format: yaml
-  label: Stack Auth Auth API
+  label: Stack Auth API
   slug: stack-auth-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-auth-api-openapi.yml
@@ -35,7 +35,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-sessions-api-openapi.yml
 - filename: stack-auth-stack-auth-rest-api-api-openapi.yml
   format: yaml
-  label: Stack Auth Stack Auth REST API API
+  label: Stack Auth Stack Auth REST API
   slug: stack-auth-stack-auth-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-stack-auth-rest-api-api-openapi.yml

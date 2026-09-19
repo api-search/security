@@ -56,6 +56,6 @@ tags:
 - Debezium
 - Real-Time Data
 - Data Pipeline
-- CDC
+- Change Data Capture
 trust_url: https://www.decodable.co/security
 ---

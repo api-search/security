@@ -18,18 +18,18 @@ api_specs:
   slug: fitbark-goals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-goals-api-openapi.yml
-- filename: fitbark-oauth-api-openapi.yml
-  format: yaml
-  label: FitBark OAuth API
-  slug: fitbark-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-oauth-api-openapi.yml
 - filename: fitbark-user-api-openapi.yml
   format: yaml
   label: FitBark User API
   slug: fitbark-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-user-api-openapi.yml
+- filename: fitbark-oauth-api-openapi.yml
+  format: yaml
+  label: FitBark O Auth API
+  slug: fitbark-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

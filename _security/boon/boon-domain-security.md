@@ -37,5 +37,4 @@ tags:
 - Hiring
 - Referrals
 - Talent Acquisition
-- HR Tech
 ---

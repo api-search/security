@@ -29,6 +29,5 @@ tags:
 - Demand Generation
 - Field Marketing
 - Conference Data
-- Company
 trust_url: ''
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: kyushu-qir-oai-pmh-openapi.yml
+- filename: kyushu-repository-api-openapi.yml
   format: yaml
-  label: Kyushu University Institutional Repository (QIR) OAI-PMH
-  slug: qir-oai-pmh
+  label: Kyushu University Repository API
+  slug: kyushu-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/openapi/kyushu-qir-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/openapi/kyushu-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []

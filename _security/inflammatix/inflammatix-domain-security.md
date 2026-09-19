@@ -12,12 +12,6 @@ api_specs:
   slug: inflammatix-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-comments-api-openapi.yml
-- filename: inflammatix-coursecategories-api-openapi.yml
-  format: yaml
-  label: Inflammatix Course Categories API
-  slug: inflammatix-coursecategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-coursecategories-api-openapi.yml
 - filename: inflammatix-courses-api-openapi.yml
   format: yaml
   label: Inflammatix Courses API
@@ -102,6 +96,12 @@ api_specs:
   slug: inflammatix-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-types-api-openapi.yml
+- filename: inflammatix-course-categories-api-openapi.yml
+  format: yaml
+  label: Inflammatix Course Categories API
+  slug: inflammatix-course-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/openapi/inflammatix-course-categories-api-openapi.yml
 description: ''
 domains:
 - caa: []

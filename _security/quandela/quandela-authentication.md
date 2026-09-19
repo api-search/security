@@ -20,12 +20,6 @@ api_specs:
   slug: quandela-api-perceval-job-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-token-api-openapi.yml
-- filename: quandela-platform-api-openapi.yml
-  format: yaml
-  label: Quandela Platform API
-  slug: quandela-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-platform-api-openapi.yml
 - filename: quandela-qrng-api-openapi.yml
   format: yaml
   label: Quandela QRNG API
@@ -38,6 +32,30 @@ api_specs:
   slug: quandela-quantumtoolbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quantumtoolbox-api-openapi.yml
+- filename: quandela-health-api-openapi.yml
+  format: yaml
+  label: Quandela Health API
+  slug: quandela-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-health-api-openapi.yml
+- filename: quandela-openapi-json-api-openapi.yml
+  format: yaml
+  label: Quandela Openapi.json API
+  slug: quandela-openapi-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-openapi-json-api-openapi.yml
+- filename: quandela-qt-openapi-json-api-openapi.yml
+  format: yaml
+  label: Quandela Qt Openapi.json API
+  slug: quandela-qt-openapi-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qt-openapi-json-api-openapi.yml
+- filename: quandela-quandela-cloud-api-api-openapi.yml
+  format: yaml
+  label: Quandela Quandela Cloud API
+  slug: quandela-quandela-cloud-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quandela-cloud-api-api-openapi.yml
 auth_types:
 - http
 description: ''

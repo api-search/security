@@ -30,13 +30,13 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ablacare/refs/heads/main/security/ablacare-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Health Care
+- Healthcare
 - Medical Devices
 - Femtech
 - Fertility
-- Womens Health
+- Women's Health
 - Clinical Trials
-- Medtech
+- MedTech
 - France
 - Company
 ---

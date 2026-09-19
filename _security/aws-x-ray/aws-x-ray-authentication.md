@@ -33,12 +33,6 @@ api_specs:
   slug: aws-x-ray-service-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-service-graph-api-openapi.yml
-- filename: aws-x-ray-tagresource-api-openapi.yml
-  format: yaml
-  label: AWS X-Ray TagResource API
-  slug: aws-x-ray-tagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tagresource-api-openapi.yml
 - filename: aws-x-ray-tags-api-openapi.yml
   format: yaml
   label: AWS X-Ray Tags API
@@ -51,12 +45,18 @@ api_specs:
   slug: aws-x-ray-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-traces-api-openapi.yml
-- filename: aws-x-ray-untagresource-api-openapi.yml
+- filename: aws-x-ray-tag-resource-api-openapi.yml
   format: yaml
-  label: AWS X-Ray UntagResource API
-  slug: aws-x-ray-untagresource-api
+  label: AWS X-Ray Tag Resource API
+  slug: aws-x-ray-tag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-untagresource-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tag-resource-api-openapi.yml
+- filename: aws-x-ray-untag-resource-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Untag Resource API
+  slug: aws-x-ray-untag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-untag-resource-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -88,6 +88,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Debugging
+- Developer Tools
 - Distributed Tracing
 - Microservices
 - Observability

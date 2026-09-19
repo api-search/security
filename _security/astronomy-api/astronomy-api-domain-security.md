@@ -24,12 +24,6 @@ api_specs:
   slug: astronomy-api-studio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-studio-api-openapi.yml
-- filename: astronomy-api-v3-openapi.yaml
-  format: yaml
-  label: Astronomy API v3
-  slug: astronomy-api-v3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-v3-openapi.yaml
 description: ''
 domains:
 - caa: []

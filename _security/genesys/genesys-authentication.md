@@ -291,12 +291,6 @@ api_specs:
   slug: genesys-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/openapi/genesys-notifications-api-openapi.yml
-- filename: genesys-oauth-api-openapi.yml
-  format: yaml
-  label: Genesys OAuth API
-  slug: genesys-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/openapi/genesys-oauth-api-openapi.yml
 - filename: genesys-objects-api-openapi.yml
   format: yaml
   label: Genesys Objects API
@@ -525,6 +519,12 @@ api_specs:
   slug: genesys-workforce-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/openapi/genesys-workforce-management-api-openapi.yml
+- filename: genesys-oauth-api-openapi.yml
+  format: yaml
+  label: Genesys O Auth API
+  slug: genesys-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/openapi/genesys-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

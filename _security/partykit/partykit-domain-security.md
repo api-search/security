@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Real-Time
 - Multiplayer
-- WebSockets
+- WebSocket
 - Cloudflare
 - Durable Objects
 - Edge

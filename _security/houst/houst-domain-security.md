@@ -35,7 +35,7 @@ tags:
 - Airbnb Management
 - Short-Term Rental
 - Property Management
-- Vacation Rental
+- Vacation Rentals
 - Hospitality
 - PropTech
 - Real-Estate

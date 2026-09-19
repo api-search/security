@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: shopify-storefront-graphql-api-openapi.yml
+- filename: shopify-storefront-graph-ql-api-openapi.yml
   format: yaml
-  label: Shopify Storefront API GraphQL API
-  slug: shopify-storefront-graphql-api
+  label: Shopify Storefront API Graph QL API
+  slug: shopify-storefront-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

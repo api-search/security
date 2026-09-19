@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: tigera-apis-api-openapi.yml
-  format: yaml
-  label: Tigera APIS API
-  slug: tigera-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
 - filename: tigera-projectcalicoorg-api-openapi.yml
   format: yaml
   label: Tigera Projectcalico Org API
@@ -27,6 +21,12 @@ api_specs:
   slug: tigera-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-version-api-openapi.yml
+- filename: tigera-apis-api-openapi.yml
+  format: yaml
+  label: Tigera APIS API
+  slug: tigera-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
 auth_types:
 - http
 - apiKey

@@ -26,7 +26,7 @@ tags:
 - Brief Drafting
 - Law Firms
 - Document Drafting
-- Retrieval Augmented Generation
+- RAG
 - Agentic AI
 - Private AI
 - Single Tenant

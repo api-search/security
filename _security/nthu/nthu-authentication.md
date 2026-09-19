@@ -2,18 +2,18 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: nthu-oauth-api-openapi.yml
-  format: yaml
-  label: NTHU Academic Information System OAuth 2.0 Service
-  slug: nthu-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-oauth-api-openapi.yml
 - filename: nthu-data-api.yaml
   format: yaml
   label: NTHU Data API
   slug: nthu-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/_original/nthu-data-api.yaml
+- filename: nthu-oauth-api-openapi.yml
+  format: yaml
+  label: National Tsing Hua University O Auth API
+  slug: nthu-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -78,4 +78,5 @@ tags:
 - Course Catalog
 - Research Repository
 - Library
+- Identity Federation
 ---

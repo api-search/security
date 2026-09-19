@@ -248,9 +248,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smokeball/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
-- Law Firm
+- Law Firms
 - Practice Management
-- Matters
+- Matter
 - Contacts
 - Documents
 - Billing

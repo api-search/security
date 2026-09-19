@@ -78,7 +78,7 @@ tags:
 - Word Processor
 - Mail Merge
 - Document Generation
-- Electronic Signatures
+- Electronic Signature
 - Zoho
 - Office Suite
 - Automation

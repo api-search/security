@@ -33,12 +33,6 @@ api_specs:
   slug: plausible-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-query-api-openapi.yml
-- filename: plausible-sharedlinks-api-openapi.yml
-  format: yaml
-  label: Plausible SharedLinks API
-  slug: plausible-sharedlinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-sharedlinks-api-openapi.yml
 - filename: plausible-sites-api-openapi.yml
   format: yaml
   label: Plausible Sites API
@@ -51,6 +45,12 @@ api_specs:
   slug: plausible-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-teams-api-openapi.yml
+- filename: plausible-shared-links-api-openapi.yml
+  format: yaml
+  label: Plausible Shared Links API
+  slug: plausible-shared-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-shared-links-api-openapi.yml
 auth_types:
 - http
 description: ''

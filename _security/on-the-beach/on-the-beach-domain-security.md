@@ -84,7 +84,7 @@ tags:
 - Booking
 - Package Holidays
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - Hotels

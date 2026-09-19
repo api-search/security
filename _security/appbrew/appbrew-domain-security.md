@@ -34,7 +34,7 @@ tags:
 - Company
 - E-Commerce
 - Shopify
-- Mobile Apps
+- Mobile App
 - Mobile Commerce
 - App Builder
 - Direct to Consumer

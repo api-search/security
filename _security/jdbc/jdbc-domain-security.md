@@ -37,6 +37,6 @@ tags:
 - Java
 - JDBC
 - SQL
-- Standard
+- Standards
 - java.sql
 ---

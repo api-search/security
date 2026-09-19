@@ -8,12 +8,6 @@ api_specs:
   slug: applike-app-partner-connection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-app-partner-connection-api-openapi.yml
-- filename: applike-appevents-api-openapi.yml
-  format: yaml
-  label: AppLike Group Appevents API
-  slug: applike-appevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-appevents-api-openapi.yml
 - filename: applike-apps-api-openapi.yml
   format: yaml
   label: AppLike Group Apps API
@@ -44,6 +38,12 @@ api_specs:
   slug: applike-partners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-partners-api-openapi.yml
+- filename: applike-app-events-api-openapi.yml
+  format: yaml
+  label: AppLike Group App Events API
+  slug: applike-app-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/openapi/applike-app-events-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

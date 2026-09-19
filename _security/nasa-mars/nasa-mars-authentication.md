@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/openapi/nasa-mars-photos-api-openapi.yml
 - filename: nasa-mars-rovers-api-openapi.yml
   format: yaml
-  label: NASA Mars Rovers Rovers API
+  label: NASA Mars Rovers API
   slug: nasa-mars-rovers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/openapi/nasa-mars-rovers-api-openapi.yml

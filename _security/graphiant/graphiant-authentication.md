@@ -267,12 +267,6 @@ api_specs:
   slug: graphiant-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/graphiant-notification-api-openapi.yml
-- filename: graphiant-notificationlist-api-openapi.yml
-  format: yaml
-  label: Graphiant Notificationlist API
-  slug: graphiant-notificationlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/graphiant-notificationlist-api-openapi.yml
 - filename: graphiant-notificationmutelist-api-openapi.yml
   format: yaml
   label: Graphiant Notificationmutelist API
@@ -399,6 +393,12 @@ api_specs:
   slug: graphiant-ztagent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/graphiant-ztagent-api-openapi.yml
+- filename: graphiant-notification-list-api-openapi.yml
+  format: yaml
+  label: Graphiant Notification List API
+  slug: graphiant-notification-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/graphiant-notification-list-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

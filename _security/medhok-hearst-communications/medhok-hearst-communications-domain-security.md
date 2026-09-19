@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Health Plans
-- Payer
+- Payers
 - Care Management
 - Utilization Management
 - Interoperability

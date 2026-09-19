@@ -44,7 +44,7 @@ tags:
 - Mobility
 - Usage-Based Insurance
 - Fleet Safety
-- Connected Vehicle
+- Connected Vehicles
 - SDK
 - Crash Detection
 ---

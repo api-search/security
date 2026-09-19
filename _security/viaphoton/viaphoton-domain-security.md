@@ -34,7 +34,7 @@ tags:
 - Fiber Optics
 - Telecommunications
 - Networking
-- Data Centers
+- Data-Center
 - Broadband
 - Manufacturing
 - Hardware

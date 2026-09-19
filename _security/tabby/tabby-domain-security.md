@@ -73,7 +73,6 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/security/tabby-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- BNPL
 - Buy Now Pay Later
 - Consumer Finance
 - E-Commerce
@@ -82,5 +81,5 @@ tags:
 - MENA
 - Payments
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 ---

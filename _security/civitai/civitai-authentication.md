@@ -32,12 +32,6 @@ api_specs:
   slug: civitai-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-models-api-openapi.yml
-- filename: civitai-modelversions-api-openapi.yml
-  format: yaml
-  label: Civitai ModelVersions API
-  slug: civitai-modelversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-modelversions-api-openapi.yml
 - filename: civitai-permissions-api-openapi.yml
   format: yaml
   label: Civitai Permissions API
@@ -68,6 +62,12 @@ api_specs:
   slug: civitai-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-workflows-api-openapi.yml
+- filename: civitai-model-versions-api-openapi.yml
+  format: yaml
+  label: Civitai Model Versions API
+  slug: civitai-model-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-model-versions-api-openapi.yml
 auth_types:
 - http
 description: ''

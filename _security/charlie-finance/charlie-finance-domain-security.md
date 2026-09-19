@@ -37,6 +37,6 @@ tags:
 - Neobank
 - Seniors
 - Consumer Finance
-- Debit Card
+- Debit Cards
 - Social Security
 ---

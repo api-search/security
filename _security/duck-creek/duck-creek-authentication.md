@@ -76,5 +76,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/duck-creek-policy-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.duckcreek.com/oauth/token\n    scopes: 5\n  description: OAuth 2.0 for Duck Creek Anywhere API authentication\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/authentication/duck-creek-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Insurance
+- Payments
+- Claims
+- Payment Processing
+- Product
 ---

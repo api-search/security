@@ -11,12 +11,6 @@ api_specs:
   slug: neutrino-api-data-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/openapi/neutrino-api-data-tools-api-openapi.yml
-- filename: neutrino-api-e-commerce-api-openapi.yml
-  format: yaml
-  label: Neutrino API E Commerce API
-  slug: neutrino-api-e-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/openapi/neutrino-api-e-commerce-api-openapi.yml
 - filename: neutrino-api-geolocation-api-openapi.yml
   format: yaml
   label: Neutrino API Geolocation API
@@ -47,6 +41,12 @@ api_specs:
   slug: neutrino-api-www-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/openapi/neutrino-api-www-api-openapi.yml
+- filename: neutrino-api-ecommerce-api-openapi.yml
+  format: yaml
+  label: Neutrino API Ecommerce API
+  slug: neutrino-api-ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/openapi/neutrino-api-ecommerce-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Two static API-key credentials sent together on every request: `user-id` identifies the account and `api-key` is one of several rotatable keys issued from the account dashboard. Both are declared in the OpenAPI as header apiKey schemes and the document''s top-level `security` requires BOTH simultaneously. The documentation additionally allows sending them as GET query parameters or POST body fields, and allows collapsing them into a single combined header — neither of which the specification expresses.'

@@ -116,5 +116,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Odds
 - Sports Betting
-- Sportsbooks
+- Sportsbook
 ---

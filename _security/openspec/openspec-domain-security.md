@@ -33,7 +33,7 @@ tags:
 - AI Coding Assistants
 - Developer Tools
 - CLI
-- Specifications
+- Specification
 - Context Engineering
 - Open-Source
 - Coding Agents

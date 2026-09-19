@@ -1,23 +1,71 @@
 ---
 api_specs:
+- filename: aetna-endpoint-api-openapi.yml
+  format: yaml
+  label: Aetna Endpoint API
+  slug: aetna-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-endpoint-api-openapi.yml
+- filename: aetna-location-api-openapi.yml
+  format: yaml
+  label: Aetna Location API
+  slug: aetna-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-location-api-openapi.yml
+- filename: aetna-organization-api-openapi.yml
+  format: yaml
+  label: Aetna Organization API
+  slug: aetna-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organization-api-openapi.yml
+- filename: aetna-organizationaffiliation-api-openapi.yml
+  format: yaml
+  label: Aetna Organization Affiliation API
+  slug: aetna-organizationaffiliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organizationaffiliation-api-openapi.yml
+- filename: aetna-practitioner-api-openapi.yml
+  format: yaml
+  label: Aetna Practitioner API
+  slug: aetna-practitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-api-openapi.yml
+- filename: aetna-providerdirectorydata-api-openapi.yml
+  format: yaml
+  label: Aetna Providerdirectorydata API
+  slug: aetna-providerdirectorydata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-providerdirectorydata-api-openapi.yml
 - filename: aetna-patient-access-api-openapi.yml
   format: yaml
-  label: Aetna Patient Access FHIR API
-  slug: aetna-patient-access-fhir-api
+  label: Aetna Patient Access API
+  slug: aetna-patient-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
 - filename: aetna-provider-directory-api-openapi.yml
   format: yaml
-  label: Aetna Provider Directory FHIR API
-  slug: aetna-provider-directory-fhir-api
+  label: Aetna Provider Directory API
+  slug: aetna-provider-directory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-provider-directory-api-openapi.yml
-- filename: aetna-patient-access-api-openapi.yml
+- filename: aetna-healthcare-service-api-openapi.yml
   format: yaml
-  label: Aetna Drug Formulary FHIR API
-  slug: aetna-drug-formulary-fhir-api
+  label: Aetna Healthcare Service API
+  slug: aetna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-healthcare-service-api-openapi.yml
+- filename: aetna-insurance-plan-api-openapi.yml
+  format: yaml
+  label: Aetna Insurance Plan API
+  slug: aetna-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-insurance-plan-api-openapi.yml
+- filename: aetna-practitioner-role-api-openapi.yml
+  format: yaml
+  label: Aetna Practitioner Role API
+  slug: aetna-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +118,7 @@ tags:
 - SMART on FHIR
 - CARIN Blue Button
 - Da Vinci
-- Payer
+- Payers
 - Fortune 100
 - CVS Health
 ---

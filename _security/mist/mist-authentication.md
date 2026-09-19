@@ -1271,7 +1271,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/openapi/mist-utilities-wi-fi-api-openapi.yml
 - filename: mist-mist-api-api-openapi.yml
   format: yaml
-  label: Mist Mist API
+  label: Mist API
   slug: mist-mist-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/openapi/mist-mist-api-api-openapi.yml

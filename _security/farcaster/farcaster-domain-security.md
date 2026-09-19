@@ -24,12 +24,6 @@ api_specs:
   slug: farcaster-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-links-api-openapi.yml
-- filename: farcaster-onchain-api-openapi.yml
-  format: yaml
-  label: Farcaster OnChain API
-  slug: farcaster-onchain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-onchain-api-openapi.yml
 - filename: farcaster-reactions-api-openapi.yml
   format: yaml
   label: Farcaster Reactions API
@@ -42,18 +36,24 @@ api_specs:
   slug: farcaster-submit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-submit-api-openapi.yml
-- filename: farcaster-userdata-api-openapi.yml
-  format: yaml
-  label: Farcaster UserData API
-  slug: farcaster-userdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-userdata-api-openapi.yml
 - filename: farcaster-verifications-api-openapi.yml
   format: yaml
   label: Farcaster Verifications API
   slug: farcaster-verifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-verifications-api-openapi.yml
+- filename: farcaster-on-chain-api-openapi.yml
+  format: yaml
+  label: Farcaster On Chain API
+  slug: farcaster-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-on-chain-api-openapi.yml
+- filename: farcaster-user-data-api-openapi.yml
+  format: yaml
+  label: Farcaster User Data API
+  slug: farcaster-user-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-user-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

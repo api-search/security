@@ -115,4 +115,6 @@ tags:
 - Package Management
 - Registry
 - Security
+- Developer Tools
+- npm
 ---

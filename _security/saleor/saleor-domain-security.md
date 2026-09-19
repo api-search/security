@@ -2,7 +2,7 @@
 api_specs:
 - filename: saleor-saleor-graphql-api-api-openapi.yml
   format: yaml
-  label: Saleor Saleor GraphQL API API
+  label: Saleor GraphQL API
   slug: saleor-saleor-graphql-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/openapi/saleor-saleor-graphql-api-api-openapi.yml

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: knative-apis-api-openapi.yml
-  format: yaml
-  label: Knative Apis API
-  slug: knative-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-apis-api-openapi.yml
 - filename: knative-brokers-api-openapi.yml
   format: yaml
   label: Knative Brokers API
@@ -32,18 +26,6 @@ api_specs:
   slug: knative-domainmappings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-domainmappings-api-openapi.yml
-- filename: knative-eventsources-api-openapi.yml
-  format: yaml
-  label: Knative EventSources API
-  slug: knative-eventsources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-eventsources-api-openapi.yml
-- filename: knative-eventtypes-api-openapi.yml
-  format: yaml
-  label: Knative EventTypes API
-  slug: knative-eventtypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-eventtypes-api-openapi.yml
 - filename: knative-revisions-api-openapi.yml
   format: yaml
   label: Knative Revisions API
@@ -68,6 +50,24 @@ api_specs:
   slug: knative-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-triggers-api-openapi.yml
+- filename: knative-apis-api-openapi.yml
+  format: yaml
+  label: Knative APIS API
+  slug: knative-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-apis-api-openapi.yml
+- filename: knative-event-sources-api-openapi.yml
+  format: yaml
+  label: Knative Event Sources API
+  slug: knative-event-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-event-sources-api-openapi.yml
+- filename: knative-event-types-api-openapi.yml
+  format: yaml
+  label: Knative Event Types API
+  slug: knative-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-event-types-api-openapi.yml
 auth_types:
 - http
 description: ''

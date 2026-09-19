@@ -35,7 +35,7 @@ tags:
 - Workforce Engagement
 - Employee Rewards
 - Gamification
-- HR Tech
+- Human Resources
 - Frontline Workforce
 - Workforce Management
 - Recruiting

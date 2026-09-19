@@ -50,7 +50,7 @@ tags:
 - Machine-Learning
 - Account Takeover
 - Policy Abuse
-- 3DS
+- 3D
 - PSD2
 - Returns
 ---

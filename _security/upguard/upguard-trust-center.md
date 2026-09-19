@@ -24,12 +24,6 @@ api_specs:
   slug: upguard-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-domains-api-openapi.yml
-- filename: upguard-ips-api-openapi.yml
-  format: yaml
-  label: UpGuard ips API
-  slug: upguard-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-ips-api-openapi.yml
 - filename: upguard-labels-api-openapi.yml
   format: yaml
   label: UpGuard labels API
@@ -108,6 +102,12 @@ api_specs:
   slug: upguard-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-webhooks-api-openapi.yml
+- filename: upguard-ips-api-openapi.yml
+  format: yaml
+  label: UpGuard Ips API
+  slug: upguard-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/openapi/upguard-ips-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II

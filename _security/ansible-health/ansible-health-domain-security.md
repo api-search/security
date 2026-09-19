@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- Telemedicine
+- Telehealth
 - Virtual Care
 - COPD
 - Chronic Care

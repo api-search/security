@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-trackers-api-openapi.yml
 - filename: ship24-ship24-tracking-api-api-openapi.yml
   format: yaml
-  label: Ship24 Ship24 Tracking API
+  label: Ship24 Tracking API
   slug: ship24-ship24-tracking-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-ship24-tracking-api-api-openapi.yml
@@ -64,7 +64,7 @@ tags:
 - Logistics
 - Shipping
 - Couriers
-- Parcels
+- Parcel
 - Webhook
 - E-Commerce
 - Post-Purchase

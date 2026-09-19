@@ -21,6 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buddy/refs/hea
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Continuous Integration
+- Developer Tools
 - Public APIs
 trust_url: https://buddy.works/security
 ---

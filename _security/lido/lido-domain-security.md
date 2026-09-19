@@ -42,7 +42,7 @@ tags:
 - DeFi
 - stETH
 - wstETH
-- Validators
+- Validator
 - Node Operators
 - DAO
 - Governance

@@ -49,13 +49,13 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Financial-Services
-- Credit Scores
+- Credit Score
 - Credit Monitoring
 - Financial Wellness
 - Banking
-- Credit Unions
+- Credit Union
 - Fintech
-- Single Sign-On
+- SSO
 - Embedded Finance
 - Lending
 - Account Opening

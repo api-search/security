@@ -2,37 +2,37 @@
 api_specs:
 - filename: imentiv-ai-ai-insights-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI AI Insights API API
+  label: Imentiv AI AI Insights API
   slug: imentiv-ai-ai-insights-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-ai-insights-api-api-openapi.yml
 - filename: imentiv-ai-audio-emotion-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI Audio Emotion API API
+  label: Imentiv AI Audio Emotion API
   slug: imentiv-ai-audio-emotion-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-audio-emotion-api-api-openapi.yml
 - filename: imentiv-ai-image-emotion-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI Image Emotion API API
+  label: Imentiv AI Image Emotion API
   slug: imentiv-ai-image-emotion-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-image-emotion-api-api-openapi.yml
 - filename: imentiv-ai-report-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI Report API API
+  label: Imentiv AI Report API
   slug: imentiv-ai-report-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-report-api-api-openapi.yml
 - filename: imentiv-ai-text-emotion-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI Text Emotion API API
+  label: Imentiv AI Text Emotion API
   slug: imentiv-ai-text-emotion-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-text-emotion-api-api-openapi.yml
 - filename: imentiv-ai-video-emotion-api-api-openapi.yml
   format: yaml
-  label: Imentiv AI Video Emotion API API
+  label: Imentiv AI Video Emotion API
   slug: imentiv-ai-video-emotion-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-video-emotion-api-api-openapi.yml

@@ -63,7 +63,6 @@ summary_line: ISO 27001
 tags:
 - Payroll
 - Human Resources
-- HR Tech
 - Europe Payroll
 - Time and Attendance
 - Employee Management

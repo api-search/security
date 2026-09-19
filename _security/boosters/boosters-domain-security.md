@@ -37,5 +37,6 @@ tags:
 - K-Beauty
 - D2C
 - Brand Aggregator
-- Korea
+- South Korea
+- Direct to Consumer
 ---

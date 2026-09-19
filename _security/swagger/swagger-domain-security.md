@@ -35,6 +35,6 @@ tags:
 - Open-Source
 - OpenAPI
 - REST
-- Standard
+- Standards
 - Swagger
 ---

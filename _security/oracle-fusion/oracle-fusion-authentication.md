@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/openapi/oracle-fusion-announcements-api-openapi.yml
 - filename: oracle-fusion-applications-api-openapi.yml
   format: yaml
-  label: Oracle Fusion Cloud Applications Applications API
+  label: Oracle Fusion Cloud Applications API
   slug: oracle-fusion-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/openapi/oracle-fusion-applications-api-openapi.yml

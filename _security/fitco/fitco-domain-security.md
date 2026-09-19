@@ -35,8 +35,8 @@ tags:
 - Gym Management
 - Software-as-a-Service
 - Latin America
-- Bookings
-- Memberships
+- Booking
+- Membership
 - Payments
 - Wellness
 - Boutique Fitness

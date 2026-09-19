@@ -37,5 +37,5 @@ tags:
 - Insurtech
 - Financial-Services
 - Claims
-- Partner APIs
+- Partner API
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Homestay
 - Travel
 - Hospitality

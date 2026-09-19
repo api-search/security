@@ -30,12 +30,6 @@ api_specs:
   slug: stubhub-listingconstraints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-listingconstraints-api-openapi.yml
-- filename: stubhub-paymentmethods-api-openapi.yml
-  format: yaml
-  label: StubHub PaymentMethods API
-  slug: stubhub-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-paymentmethods-api-openapi.yml
 - filename: stubhub-payments-api-openapi.yml
   format: yaml
   label: StubHub Payments API
@@ -90,6 +84,12 @@ api_specs:
   slug: stubhub-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-webhooks-api-openapi.yml
+- filename: stubhub-payment-methods-api-openapi.yml
+  format: yaml
+  label: StubHub Payment Methods API
+  slug: stubhub-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-payment-methods-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -138,7 +138,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Tickets
 - Event
 - Ticketing

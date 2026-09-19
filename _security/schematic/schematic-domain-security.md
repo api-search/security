@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: schematic-accesstokens-api-openapi.yml
-  format: yaml
-  label: Schematic accesstokens API
-  slug: schematic-accesstokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-accesstokens-api-openapi.yml
 - filename: schematic-accounts-api-openapi.yml
   format: yaml
   label: Schematic accounts API
@@ -48,12 +42,6 @@ api_specs:
   slug: schematic-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-credits-api-openapi.yml
-- filename: schematic-dataexports-api-openapi.yml
-  format: yaml
-  label: Schematic dataexports API
-  slug: schematic-dataexports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-dataexports-api-openapi.yml
 - filename: schematic-entitlements-api-openapi.yml
   format: yaml
   label: Schematic entitlements API
@@ -78,12 +66,6 @@ api_specs:
   slug: schematic-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-insights-api-openapi.yml
-- filename: schematic-integrationsapi-api-openapi.yml
-  format: yaml
-  label: Schematic integrationsapi API
-  slug: schematic-integrationsapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-integrationsapi-api-openapi.yml
 - filename: schematic-planbundle-api-openapi.yml
   format: yaml
   label: Schematic planbundle API
@@ -120,6 +102,24 @@ api_specs:
   slug: schematic-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-webhooks-api-openapi.yml
+- filename: schematic-access-tokens-api-openapi.yml
+  format: yaml
+  label: Schematic Access Tokens API
+  slug: schematic-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-access-tokens-api-openapi.yml
+- filename: schematic-data-exports-api-openapi.yml
+  format: yaml
+  label: Schematic Data Exports API
+  slug: schematic-data-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-data-exports-api-openapi.yml
+- filename: schematic-integrations-api-api-openapi.yml
+  format: yaml
+  label: Schematic Integrations API
+  slug: schematic-integrations-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-integrations-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

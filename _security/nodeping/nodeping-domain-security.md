@@ -12,12 +12,6 @@ api_specs:
   slug: nodeping-checks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-checks-api-openapi.yml
-- filename: nodeping-contactgroups-api-openapi.yml
-  format: yaml
-  label: NodePing Contactgroups API
-  slug: nodeping-contactgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contactgroups-api-openapi.yml
 - filename: nodeping-contacts-api-openapi.yml
   format: yaml
   label: NodePing Contacts API
@@ -48,6 +42,12 @@ api_specs:
   slug: nodeping-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-schedules-api-openapi.yml
+- filename: nodeping-contact-groups-api-openapi.yml
+  format: yaml
+  label: NodePing Contact Groups API
+  slug: nodeping-contact-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contact-groups-api-openapi.yml
 description: ''
 domains:
 - caa:

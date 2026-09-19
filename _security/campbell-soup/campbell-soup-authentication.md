@@ -2,12 +2,78 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: campbell-soup-content-api-openapi.yml
+- filename: campbell-soup-authors-api-openapi.yml
   format: yaml
-  label: Campbell's Content API (WordPress REST)
-  slug: campbells-content-api
+  label: Campbell Soup Authors API
+  slug: campbell-soup-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-authors-api-openapi.yml
+- filename: campbell-soup-comments-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Comments API
+  slug: campbell-soup-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-comments-api-openapi.yml
+- filename: campbell-soup-discovery-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Discovery API
+  slug: campbell-soup-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-discovery-api-openapi.yml
+- filename: campbell-soup-external-products-api-openapi.yml
+  format: yaml
+  label: Campbell Soup External Products API
+  slug: campbell-soup-external-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-external-products-api-openapi.yml
+- filename: campbell-soup-media-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Media API
+  slug: campbell-soup-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-media-api-openapi.yml
+- filename: campbell-soup-pages-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Pages API
+  slug: campbell-soup-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-pages-api-openapi.yml
+- filename: campbell-soup-posts-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Posts API
+  slug: campbell-soup-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-posts-api-openapi.yml
+- filename: campbell-soup-products-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Products API
+  slug: campbell-soup-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-products-api-openapi.yml
+- filename: campbell-soup-recipes-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Recipes API
+  slug: campbell-soup-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-recipes-api-openapi.yml
+- filename: campbell-soup-search-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Search API
+  slug: campbell-soup-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-search-api-openapi.yml
+- filename: campbell-soup-taxonomies-api-openapi.yml
+  format: yaml
+  label: Campbell Soup Taxonomies API
+  slug: campbell-soup-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-taxonomies-api-openapi.yml
+- filename: campbell-soup-faqs-api-openapi.yml
+  format: yaml
+  label: Campbell Soup FA Qs API
+  slug: campbell-soup-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/openapi/campbell-soup-faqs-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -44,10 +110,10 @@ tags:
 - Food
 - Consumer Packaged Goods
 - Recipes
-- Products
+- Product
 - Nutrition
 - Brands
 - Fortune 500
-- Content API
+- content-api
 - WordPress
 ---

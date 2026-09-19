@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fitbit-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/authentication/fitbit-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Wearable
+- Wearables
 - Health
 - Fitness
 - Activity Tracking

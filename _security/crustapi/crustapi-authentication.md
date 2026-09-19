@@ -3,12 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: CrustAPI
-  slug: crustapi
+- filename: crustapi-demo-api-openapi.yml
+  format: yaml
+  label: CrustAPI Demo API
+  slug: crustapi-demo-api
   spec_type: OpenAPI
-  url: https://crustapi.com/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/openapi/crustapi-demo-api-openapi.yml
+- filename: crustapi-search-api-openapi.yml
+  format: yaml
+  label: CrustAPI Search API
+  slug: crustapi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/openapi/crustapi-search-api-openapi.yml
+- filename: crustapi-linked-in-api-openapi.yml
+  format: yaml
+  label: CrustAPI Linked In API
+  slug: crustapi-linked-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/openapi/crustapi-linked-in-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

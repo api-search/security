@@ -2,18 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: universiti-teknologi-petronas-utpedia-openapi.yml
+- filename: universiti-teknologi-petronas-discovery-api-openapi.yml
   format: yaml
-  label: UTPedia Institutional Repository
-  slug: utpedia
+  label: Universiti Teknologi PETRONAS Discovery API
+  slug: universiti-teknologi-petronas-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-utpedia-openapi.yml
-- filename: universiti-teknologi-petronas-scholars-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-discovery-api-openapi.yml
+- filename: universiti-teknologi-petronas-eprints-rest-api-openapi.yml
   format: yaml
-  label: UTP Scholarly Publication Repository
-  slug: scholars
+  label: Universiti Teknologi PETRONAS EPrints REST API
+  slug: universiti-teknologi-petronas-eprints-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-scholars-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-eprints-rest-api-openapi.yml
+- filename: universiti-teknologi-petronas-export-api-openapi.yml
+  format: yaml
+  label: Universiti Teknologi PETRONAS Export API
+  slug: universiti-teknologi-petronas-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-export-api-openapi.yml
+- filename: universiti-teknologi-petronas-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Universiti Teknologi PETRONAS OAI PMH API
+  slug: universiti-teknologi-petronas-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/openapi/universiti-teknologi-petronas-oai-pmh-api-openapi.yml
 auth_types: []
 description: How each machine-readable surface Universiti Teknologi PETRONAS operates or holds a tenancy in handles authentication, established by probing each endpoint without credentials on 2026-09-01. No credential was supplied, guessed, or obtained at any point.
 kind: authentication

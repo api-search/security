@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ally/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR Tech
-- OKR
+- Human Resources
+- OKRs
 - Goal Management
 - Performance Management
 - Acquired

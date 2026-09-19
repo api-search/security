@@ -63,6 +63,7 @@ tags:
 - Breaking Change Detection
 - CLI
 - Debugging
+- Developer Tools
 - Error Tracking
 - LLM Observability
 - Logs and Traces

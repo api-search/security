@@ -131,10 +131,10 @@ tags:
 - Logistics
 - Label Generation
 - Package Tracking
-- Carriers
+- Carrier
 - Fulfillment
 - Open-Source
 - Multi-Carrier
-- Rating
+- Ratings
 - Webhook
 ---

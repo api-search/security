@@ -36,7 +36,7 @@ tags:
 - Grid
 - Grid Edge
 - Demand Response
-- Internet of Things
+- IoT
 - Meter Data Management
 - Wi-SUN
 - Energy Technology

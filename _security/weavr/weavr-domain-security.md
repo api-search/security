@@ -252,12 +252,6 @@ api_specs:
   slug: weavr-user-impersonation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-user-impersonation-api-openapi.yml
-- filename: weavr-wiretransfers-api-openapi.yml
-  format: yaml
-  label: Weavr Wiretransfers API
-  slug: weavr-wiretransfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-wiretransfers-api-openapi.yml
 - filename: weavr-authentication-factors-webhooks-api-openapi.yml
   format: yaml
   label: Weavr Authentication Factors Webhooks API
@@ -276,12 +270,6 @@ api_specs:
   slug: weavr-buyers-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-buyers-webhooks-api-openapi.yml
-- filename: weavr-ibans-api-openapi.yml
-  format: yaml
-  label: Weavr Ibans API
-  slug: weavr-ibans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-ibans-api-openapi.yml
 - filename: weavr-linked-accounts-webhooks-api-openapi.yml
   format: yaml
   label: Weavr Linked Accounts Webhooks API
@@ -306,12 +294,6 @@ api_specs:
   slug: weavr-payment-runs-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-payment-runs-webhooks-api-openapi.yml
-- filename: weavr-stepup-api-openapi.yml
-  format: yaml
-  label: Weavr Stepup API
-  slug: weavr-stepup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-stepup-api-openapi.yml
 - filename: weavr-stepup-webhooks-api-openapi.yml
   format: yaml
   label: Weavr Stepup Webhooks API
@@ -330,6 +312,18 @@ api_specs:
   slug: weavr-transactions-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-transactions-webhooks-api-openapi.yml
+- filename: weavr-ibans-api-openapi.yml
+  format: yaml
+  label: Weavr Ibans API
+  slug: weavr-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-ibans-api-openapi.yml
+- filename: weavr-wire-transfers-api-openapi.yml
+  format: yaml
+  label: Weavr Wire Transfers API
+  slug: weavr-wire-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/openapi/weavr-wire-transfers-api-openapi.yml
 description: ''
 domains:
 - caa: []

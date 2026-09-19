@@ -57,12 +57,6 @@ api_specs:
   slug: passbolt-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passbolt/refs/heads/main/openapi/passbolt-groups-api-openapi.yml
-- filename: passbolt-healthcheck-api-openapi.yml
-  format: yaml
-  label: Passbolt Healthcheck API
-  slug: passbolt-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passbolt/refs/heads/main/openapi/passbolt-healthcheck-api-openapi.yml
 - filename: passbolt-metadata-keys-api-openapi.yml
   format: yaml
   label: Passbolt Metadata keys API
@@ -165,6 +159,12 @@ api_specs:
   slug: passbolt-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passbolt/refs/heads/main/openapi/passbolt-users-api-openapi.yml
+- filename: passbolt-health-check-api-openapi.yml
+  format: yaml
+  label: Passbolt Health Check API
+  slug: passbolt-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passbolt/refs/heads/main/openapi/passbolt-health-check-api-openapi.yml
 auth_types:
 - apiKey
 - http

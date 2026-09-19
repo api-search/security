@@ -42,12 +42,6 @@ api_specs:
   slug: fortanix-approval-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-approval-requests-api-openapi.yml
-- filename: fortanix-approvalrequests-api-openapi.yml
-  format: yaml
-  label: Fortanix Approval Requests API
-  slug: fortanix-approvalrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-approvalrequests-api-openapi.yml
 - filename: fortanix-apps-api-openapi.yml
   format: yaml
   label: Fortanix Apps API
@@ -84,12 +78,6 @@ api_specs:
   slug: fortanix-certificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-certificate-api-openapi.yml
-- filename: fortanix-computeclusters-api-openapi.yml
-  format: yaml
-  label: Fortanix Compute Clusters API
-  slug: fortanix-computeclusters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-computeclusters-api-openapi.yml
 - filename: fortanix-credentials-api-openapi.yml
   format: yaml
   label: Fortanix Credentials API
@@ -294,18 +282,24 @@ api_specs:
   slug: fortanix-workflowfinal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-workflowfinal-api-openapi.yml
-- filename: fortanix-workflowruns-api-openapi.yml
-  format: yaml
-  label: Fortanix Workflow Runs API
-  slug: fortanix-workflowruns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-workflowruns-api-openapi.yml
 - filename: fortanix-zone-api-openapi.yml
   format: yaml
   label: Fortanix Zone API
   slug: fortanix-zone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-zone-api-openapi.yml
+- filename: fortanix-compute-clusters-api-openapi.yml
+  format: yaml
+  label: Fortanix Compute Clusters API
+  slug: fortanix-compute-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-compute-clusters-api-openapi.yml
+- filename: fortanix-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Fortanix Workflow Runs API
+  slug: fortanix-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-workflow-runs-api-openapi.yml
 description: ''
 domains:
 - caa:

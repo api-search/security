@@ -30,12 +30,6 @@ api_specs:
   slug: revcontent-helpers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-helpers-api-openapi.yml
-- filename: revcontent-sub-accounts-api-openapi.yml
-  format: yaml
-  label: RevContent Sub Accounts API
-  slug: revcontent-sub-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-sub-accounts-api-openapi.yml
 - filename: revcontent-targeting-api-openapi.yml
   format: yaml
   label: RevContent Targeting API
@@ -66,6 +60,12 @@ api_specs:
   slug: revcontent-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-api-openapi.yml
+- filename: revcontent-subaccounts-api-openapi.yml
+  format: yaml
+  label: RevContent Subaccounts API
+  slug: revcontent-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-subaccounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

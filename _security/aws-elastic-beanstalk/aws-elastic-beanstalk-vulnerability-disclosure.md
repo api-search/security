@@ -2,7 +2,7 @@
 api_specs:
 - filename: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
   format: yaml
-  label: AWS Elastic Beanstalk AWS Elastic Beanstalk API API
+  label: AWS Elastic Beanstalk AWS Elastic Beanstalk API
   slug: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml

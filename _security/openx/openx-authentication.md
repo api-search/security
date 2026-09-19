@@ -111,7 +111,6 @@ tags:
 - Programmatic Advertising
 - Ad Exchange
 - Supply Side Platform
-- SSP
 - Real-Time Bidding
 - OpenRTB
 - Header Bidding

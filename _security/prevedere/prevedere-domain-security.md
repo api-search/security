@@ -30,12 +30,6 @@ api_specs:
   slug: prevedere-context-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-context-api-openapi.yml
-- filename: prevedere-dataintegration-api-openapi.yml
-  format: yaml
-  label: Prevedere DataIntegration API
-  slug: prevedere-dataintegration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-dataintegration-api-openapi.yml
 - filename: prevedere-discoverjob-api-openapi.yml
   format: yaml
   label: Prevedere DiscoverJob API
@@ -102,18 +96,24 @@ api_specs:
   slug: prevedere-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-test-api-openapi.yml
-- filename: prevedere-usercontext-api-openapi.yml
-  format: yaml
-  label: Prevedere UserContext API
-  slug: prevedere-usercontext-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-usercontext-api-openapi.yml
 - filename: prevedere-workbench-api-openapi.yml
   format: yaml
   label: Prevedere Workbench API
   slug: prevedere-workbench-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-workbench-api-openapi.yml
+- filename: prevedere-data-integration-api-openapi.yml
+  format: yaml
+  label: Prevedere Data Integration API
+  slug: prevedere-data-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-data-integration-api-openapi.yml
+- filename: prevedere-user-context-api-openapi.yml
+  format: yaml
+  label: Prevedere User Context API
+  slug: prevedere-user-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prevedere/refs/heads/main/openapi/prevedere-user-context-api-openapi.yml
 description: ''
 domains:
 - caa: []

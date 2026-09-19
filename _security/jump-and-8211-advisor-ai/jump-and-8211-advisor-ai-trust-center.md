@@ -9,8 +9,8 @@ kind: trust-center
 layout: security
 name: Jump And 8211 Advisor Ai Trust Center
 name_suffix: Trust Center
-overview: Jump &#8211; Advisor AI maintains a public trust center documenting SOC 2 Type II, GDPR, and PIPEDA compliance.
-provider_name: Jump &#8211; Advisor AI
+overview: Jump – Advisor AI maintains a public trust center documenting SOC 2 Type II, GDPR, and PIPEDA compliance.
+provider_name: Jump – Advisor AI
 provider_slug: jump-and-8211-advisor-ai
 slug: jump-and-8211-advisor-ai-trust-center
 source_filename: jump-and-8211-advisor-ai-trust-center.yml

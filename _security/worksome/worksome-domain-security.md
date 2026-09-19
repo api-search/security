@@ -50,6 +50,6 @@ tags:
 - Workforce Compliance
 - Payments
 - GraphQL
-- Webhooks
+- Webhook
 - Denmark
 ---

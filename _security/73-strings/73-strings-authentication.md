@@ -10,12 +10,6 @@ api_specs:
   slug: 73-strings-asset-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-asset-info-api-openapi.yml
-- filename: 73-strings-captable-api-openapi.yml
-  format: yaml
-  label: 73 Strings Captable API
-  slug: 73-strings-captable-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-captable-api-openapi.yml
 - filename: 73-strings-documents-api-openapi.yml
   format: yaml
   label: 73 Strings Documents API
@@ -36,10 +30,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-qualitative-data-api-openapi.yml
 - filename: 73-strings-transaction-api-api-openapi.yml
   format: yaml
-  label: 73 Strings Transaction API API
+  label: 73 Strings Transaction API
   slug: 73-strings-transaction-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-transaction-api-api-openapi.yml
+- filename: 73-strings-cap-table-api-openapi.yml
+  format: yaml
+  label: 73 Strings cap table API
+  slug: 73-strings-cap-table-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-cap-table-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

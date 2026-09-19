@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Formal Methods
 - Linux Foundation
-- Specifications
+- Specification
 - Verification
 - Distributed Systems
 - Concurrency

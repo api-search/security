@@ -36,5 +36,4 @@ tags:
 - Video Interviewing
 - Human Resources
 - Hiring
-- HR Tech
 ---

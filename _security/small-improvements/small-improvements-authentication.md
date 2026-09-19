@@ -722,7 +722,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/small-improvem
 summary_line: http · 1 scheme
 tags:
 - Performance Management
-- HR
+- Human Resources
 - Employee Feedback
 - OKRs
 - 1:1 Meetings

@@ -66,7 +66,7 @@ tags:
 - Business Management
 - Meetings
 - Productivity
-- Scorecard
+- Scorecards
 - Team Management
 - Goal Tracking
 trust_url: https://trust.ninety.io/

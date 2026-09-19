@@ -114,6 +114,60 @@ api_specs:
   slug: wikipedia-wikidata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-wikidata-api-openapi.yml
+- filename: wikipedia-edit-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Edit API
+  slug: wikipedia-edit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-edit-api-openapi.yml
+- filename: wikipedia-files-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Files API
+  slug: wikipedia-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-files-api-openapi.yml
+- filename: wikipedia-history-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki History API
+  slug: wikipedia-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-history-api-openapi.yml
+- filename: wikipedia-links-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Links API
+  slug: wikipedia-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-links-api-openapi.yml
+- filename: wikipedia-pages-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Pages API
+  slug: wikipedia-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-pages-api-openapi.yml
+- filename: wikipedia-query-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Query API
+  slug: wikipedia-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-query-api-openapi.yml
+- filename: wikipedia-revisions-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Revisions API
+  slug: wikipedia-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-revisions-api-openapi.yml
+- filename: wikipedia-search-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki Search API
+  slug: wikipedia-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-search-api-openapi.yml
+- filename: wikipedia-sparql-api-openapi.yml
+  format: yaml
+  label: Wikipedia / MediaWiki SPARQL API
+  slug: wikipedia-sparql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-sparql-api-openapi.yml
 description: ''
 domains:
 - caa:

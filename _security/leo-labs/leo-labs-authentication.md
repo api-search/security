@@ -71,7 +71,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Situational Awareness
 - Space Traffic Management
 - Orbital Data

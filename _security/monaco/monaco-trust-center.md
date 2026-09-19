@@ -105,7 +105,7 @@ tags:
 - Contacts
 - Account
 - Opportunities
-- Pipeline
+- Pipelines
 - Go-To-Market
 - MCP
 - Campaigns

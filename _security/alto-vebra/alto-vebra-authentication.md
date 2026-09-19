@@ -45,12 +45,6 @@ api_specs:
   slug: alto-vebra-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-documents-api-openapi.yml
-- filename: alto-vebra-filenotes-api-openapi.yml
-  format: yaml
-  label: Alto (Vebra / Zoopla) File Notes API
-  slug: alto-vebra-filenotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-filenotes-api-openapi.yml
 - filename: alto-vebra-inventory-api-openapi.yml
   format: yaml
   label: Alto (Vebra / Zoopla) Inventory API
@@ -171,12 +165,18 @@ api_specs:
   slug: alto-vebra-tenancies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-tenancies-api-openapi.yml
-- filename: alto-vebra-workorders-api-openapi.yml
+- filename: alto-vebra-file-notes-api-openapi.yml
+  format: yaml
+  label: Alto (Vebra / Zoopla) File Notes API
+  slug: alto-vebra-file-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-file-notes-api-openapi.yml
+- filename: alto-vebra-work-orders-api-openapi.yml
   format: yaml
   label: Alto (Vebra / Zoopla) Work Orders API
-  slug: alto-vebra-workorders-api
+  slug: alto-vebra-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-workorders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/openapi/alto-vebra-work-orders-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -18,12 +18,6 @@ api_specs:
   slug: tessell-ad-domain-governance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-ad-domain-governance-api-openapi.yml
-- filename: tessell-agentcontroller-api-openapi.yml
-  format: yaml
-  label: Tessell agentController API
-  slug: tessell-agentcontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-agentcontroller-api-openapi.yml
 - filename: tessell-alert-controller-api-openapi.yml
   format: yaml
   label: Tessell alert-controller API
@@ -186,12 +180,6 @@ api_specs:
   slug: tessell-db-service-schedule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-db-service-schedule-api-openapi.yml
-- filename: tessell-encryption-key-api-openapi.yml
-  format: yaml
-  label: Tessell Encryption Key API
-  slug: tessell-encryption-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-encryption-key-api-openapi.yml
 - filename: tessell-encryptionkeysadminview-api-openapi.yml
   format: yaml
   label: Tessell EncryptionKeysAdminView API
@@ -392,55 +380,55 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-subscription-api-openapi.yml
 - filename: tessell-tessell-app-api-openapi.yml
   format: yaml
-  label: Tessell Tessell App API
+  label: Tessell App API
   slug: tessell-tessell-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-app-api-openapi.yml
 - filename: tessell-tessell-cloud-controller-api-openapi.yml
   format: yaml
-  label: Tessell tessell-cloud-controller API
+  label: Tessell-cloud-controller API
   slug: tessell-tessell-cloud-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-cloud-controller-api-openapi.yml
 - filename: tessell-tessell-compute-resource-acl-controller-api-openapi.yml
   format: yaml
-  label: Tessell tessell-compute-resource-acl-controller API
+  label: Tessell-compute-resource-acl-controller API
   slug: tessell-tessell-compute-resource-acl-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-compute-resource-acl-controller-api-openapi.yml
 - filename: tessell-tessell-database-security-config-api-openapi.yml
   format: yaml
-  label: Tessell tessell-database-security-config API
+  label: Tessell-database-security-config API
   slug: tessell-tessell-database-security-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-database-security-config-api-openapi.yml
 - filename: tessell-tessell-maintenance-center-controller-api-openapi.yml
   format: yaml
-  label: Tessell tessell-maintenance-center-controller API
+  label: Tessell-maintenance-center-controller API
   slug: tessell-tessell-maintenance-center-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-maintenance-center-controller-api-openapi.yml
 - filename: tessell-tessell-notification-channel-controller-api-openapi.yml
   format: yaml
-  label: Tessell tessell-notification-channel-controller API
+  label: Tessell-notification-channel-controller API
   slug: tessell-tessell-notification-channel-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-notification-channel-controller-api-openapi.yml
 - filename: tessell-tessell-notification-profile-controller-api-openapi.yml
   format: yaml
-  label: Tessell tessell-notification-profile-controller API
+  label: Tessell-notification-profile-controller API
   slug: tessell-tessell-notification-profile-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-notification-profile-controller-api-openapi.yml
 - filename: tessell-tessell-service-option-profile-api-openapi.yml
   format: yaml
-  label: Tessell tessell-service-option-profile API
+  label: Tessell-service-option-profile API
   slug: tessell-tessell-service-option-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-service-option-profile-api-openapi.yml
 - filename: tessell-tessell-service-precheck-controller-api-openapi.yml
   format: yaml
-  label: Tessell tessell-service-precheck-controller API
+  label: Tessell-service-precheck-controller API
   slug: tessell-tessell-service-precheck-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-service-precheck-controller-api-openapi.yml
@@ -492,6 +480,18 @@ api_specs:
   slug: tessell-vpc-peering-governance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-vpc-peering-governance-api-openapi.yml
+- filename: tessell-agent-controller-api-openapi.yml
+  format: yaml
+  label: Tessell Agent Controller API
+  slug: tessell-agent-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-agent-controller-api-openapi.yml
+- filename: tessell-encryptionkey-api-openapi.yml
+  format: yaml
+  label: Tessell Encryptionkey API
+  slug: tessell-encryptionkey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-encryptionkey-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -536,7 +536,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/security/tessell-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Databases
+- Database
 - Database-as-a-Service
 - Multi-Cloud
 - Oracle

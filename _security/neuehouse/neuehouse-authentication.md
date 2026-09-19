@@ -117,12 +117,6 @@ api_specs:
   slug: neuehouse-neuejournal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/openapi/neuehouse-neuejournal-api-openapi.yml
-- filename: neuehouse-oembed-api-openapi.yml
-  format: yaml
-  label: NeueHouse Oembed API
-  slug: neuehouse-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/openapi/neuehouse-oembed-api-openapi.yml
 - filename: neuehouse-pages-api-openapi.yml
   format: yaml
   label: NeueHouse Pages API
@@ -243,6 +237,12 @@ api_specs:
   slug: neuehouse-wp-pattern-category-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/openapi/neuehouse-wp-pattern-category-api-openapi.yml
+- filename: neuehouse-o-embed-api-openapi.yml
+  format: yaml
+  label: NeueHouse o Embed API
+  slug: neuehouse-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/openapi/neuehouse-o-embed-api-openapi.yml
 auth_types:
 - apiKey
 - http

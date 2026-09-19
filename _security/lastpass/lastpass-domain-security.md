@@ -52,4 +52,5 @@ tags:
 - Enterprise
 - SSO
 - MFA
+- Identity Federation
 ---

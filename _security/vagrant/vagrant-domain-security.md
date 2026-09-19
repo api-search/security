@@ -83,7 +83,7 @@ tags:
 - DevOps
 - Virtualization
 - Development Environments
-- Boxes
+- Box
 - Cloud
 - HashiCorp
 - Infrastructure

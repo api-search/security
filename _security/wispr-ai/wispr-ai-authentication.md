@@ -123,12 +123,6 @@ api_specs:
   slug: wispr-ai-keyboard-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-keyboard-telemetry-api-openapi.yml
-- filename: wispr-ai-linkedin-api-openapi.yml
-  format: yaml
-  label: Wispr AI LinkedIn API
-  slug: wispr-ai-linkedin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-linkedin-api-openapi.yml
 - filename: wispr-ai-llm-api-openapi.yml
   format: yaml
   label: Wispr AI LLM API
@@ -249,12 +243,6 @@ api_specs:
   slug: wispr-ai-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-teams-api-openapi.yml
-- filename: wispr-ai-todos-api-openapi.yml
-  format: yaml
-  label: Wispr AI Todos API
-  slug: wispr-ai-todos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-todos-api-openapi.yml
 - filename: wispr-ai-tracking-api-openapi.yml
   format: yaml
   label: Wispr AI Tracking API
@@ -303,6 +291,18 @@ api_specs:
   slug: wispr-ai-wispr-backend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-wispr-backend-api-openapi.yml
+- filename: wispr-ai-linked-in-api-openapi.yml
+  format: yaml
+  label: Wispr AI Linked In API
+  slug: wispr-ai-linked-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-linked-in-api-openapi.yml
+- filename: wispr-ai-to-dos-api-openapi.yml
+  format: yaml
+  label: Wispr AI To Dos API
+  slug: wispr-ai-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/openapi/wispr-ai-to-dos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,11 +1,107 @@
 ---
 api_specs:
-- filename: university-of-texas-at-austin-tapis-systems-openapi.yml
+- filename: university-of-texas-at-austin-applications-api-openapi.yml
   format: yaml
-  label: Tapis v3 Research Computing Platform (TACC production tenant)
-  slug: tapis
+  label: University of Texas at Austin Applications API
+  slug: university-of-texas-at-austin-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-tapis-systems-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-applications-api-openapi.yml
+- filename: university-of-texas-at-austin-archive-transfers-beta-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Archive transfers (Beta) API
+  slug: university-of-texas-at-austin-archive-transfers-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-archive-transfers-beta-api-openapi.yml
+- filename: university-of-texas-at-austin-child-systems-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Child Systems API
+  slug: university-of-texas-at-austin-child-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-child-systems-api-openapi.yml
+- filename: university-of-texas-at-austin-content-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Content API
+  slug: university-of-texas-at-austin-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-content-api-openapi.yml
+- filename: university-of-texas-at-austin-credentials-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Credentials API
+  slug: university-of-texas-at-austin-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-credentials-api-openapi.yml
+- filename: university-of-texas-at-austin-events-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Events API
+  slug: university-of-texas-at-austin-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-events-api-openapi.yml
+- filename: university-of-texas-at-austin-file-operations-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin File Operations API
+  slug: university-of-texas-at-austin-file-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-file-operations-api-openapi.yml
+- filename: university-of-texas-at-austin-general-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin General API
+  slug: university-of-texas-at-austin-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-general-api-openapi.yml
+- filename: university-of-texas-at-austin-jobs-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Jobs API
+  slug: university-of-texas-at-austin-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-jobs-api-openapi.yml
+- filename: university-of-texas-at-austin-permissions-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Permissions API
+  slug: university-of-texas-at-austin-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-permissions-api-openapi.yml
+- filename: university-of-texas-at-austin-postits-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Post Its API
+  slug: university-of-texas-at-austin-postits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-postits-api-openapi.yml
+- filename: university-of-texas-at-austin-scheduler-profiles-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Scheduler Profiles API
+  slug: university-of-texas-at-austin-scheduler-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-scheduler-profiles-api-openapi.yml
+- filename: university-of-texas-at-austin-sharing-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Sharing API
+  slug: university-of-texas-at-austin-sharing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-sharing-api-openapi.yml
+- filename: university-of-texas-at-austin-subscriptions-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Subscriptions API
+  slug: university-of-texas-at-austin-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-subscriptions-api-openapi.yml
+- filename: university-of-texas-at-austin-systems-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Systems API
+  slug: university-of-texas-at-austin-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-systems-api-openapi.yml
+- filename: university-of-texas-at-austin-test-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Test API
+  slug: university-of-texas-at-austin-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-test-api-openapi.yml
+- filename: university-of-texas-at-austin-transfers-api-openapi.yml
+  format: yaml
+  label: University of Texas at Austin Transfers API
+  slug: university-of-texas-at-austin-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-texas-at-austin/refs/heads/main/openapi/university-of-texas-at-austin-transfers-api-openapi.yml
 description: ''
 domains:
 - caa:

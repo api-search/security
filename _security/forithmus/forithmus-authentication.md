@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: forithmus-2fa-api-openapi.yml
-  format: yaml
-  label: Forithmus 2fa API
-  slug: forithmus-2fa-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-2fa-api-openapi.yml
 - filename: forithmus-admin-api-openapi.yml
   format: yaml
   label: Forithmus admin API
@@ -152,6 +146,12 @@ api_specs:
   slug: forithmus-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-users-api-openapi.yml
+- filename: forithmus-2-fa-api-openapi.yml
+  format: yaml
+  label: Forithmus 2 FA API
+  slug: forithmus-2-fa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-2-fa-api-openapi.yml
 auth_types:
 - http-bearer
 - oauth2

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: federal-laboratory-consortium-for-technology-transfer-greenbook-openapi.yml
+- filename: federal-laboratory-consortium-for-technology-transfer-sections-api-openapi.yml
   format: yaml
-  label: FLC Greenbook API
-  slug: flc-greenbook-api
+  label: Federal Laboratory Consortium for Technology Transfer Sections API
+  slug: federal-laboratory-consortium-for-technology-transfer-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-laboratory-consortium-for-technology-transfer/refs/heads/main/openapi/federal-laboratory-consortium-for-technology-transfer-greenbook-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-laboratory-consortium-for-technology-transfer/refs/heads/main/openapi/federal-laboratory-consortium-for-technology-transfer-sections-api-openapi.yml
 description: ''
 domains:
 - caa: []

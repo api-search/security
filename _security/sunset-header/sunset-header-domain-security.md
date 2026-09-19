@@ -46,6 +46,6 @@ tags:
 - RFC 8594
 - RFC 9745
 - API Lifecycle
-- REST APIs
+- REST API
 - Standards
 ---

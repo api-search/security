@@ -36,5 +36,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buddy/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Continuous Integration
+- Developer Tools
 - Public APIs
 ---

@@ -3,12 +3,90 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: reefapi-openapi.json
-  format: json
-  label: ReefAPI REST API
-  slug: reefapi-rest-api
+- filename: reefapi-classifieds-second-hand-api-openapi.yml
+  format: yaml
+  label: ReefAPI Classifieds & Second-hand API
+  slug: reefapi-classifieds-second-hand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-classifieds-second-hand-api-openapi.yml
+- filename: reefapi-developer-tools-api-openapi.yml
+  format: yaml
+  label: ReefAPI Developer Tools API
+  slug: reefapi-developer-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-developer-tools-api-openapi.yml
+- filename: reefapi-e-commerce-marketplaces-api-openapi.yml
+  format: yaml
+  label: ReefAPI E-commerce & Marketplaces API
+  slug: reefapi-e-commerce-marketplaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-e-commerce-marketplaces-api-openapi.yml
+- filename: reefapi-finance-data-api-openapi.yml
+  format: yaml
+  label: ReefAPI Finance & Data API
+  slug: reefapi-finance-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-finance-data-api-openapi.yml
+- filename: reefapi-government-tenders-api-openapi.yml
+  format: yaml
+  label: ReefAPI Government & Tenders API
+  slug: reefapi-government-tenders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-government-tenders-api-openapi.yml
+- filename: reefapi-jobs-hiring-api-openapi.yml
+  format: yaml
+  label: ReefAPI Jobs & Hiring API
+  slug: reefapi-jobs-hiring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-jobs-hiring-api-openapi.yml
+- filename: reefapi-media-film-knowledge-api-openapi.yml
+  format: yaml
+  label: ReefAPI Media, Film & Knowledge API
+  slug: reefapi-media-film-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-media-film-knowledge-api-openapi.yml
+- filename: reefapi-other-api-openapi.yml
+  format: yaml
+  label: ReefAPI Other API
+  slug: reefapi-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-other-api-openapi.yml
+- filename: reefapi-real-estate-api-openapi.yml
+  format: yaml
+  label: ReefAPI Real Estate API
+  slug: reefapi-real-estate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-real-estate-api-openapi.yml
+- filename: reefapi-reputation-reviews-api-openapi.yml
+  format: yaml
+  label: ReefAPI Reputation & Reviews API
+  slug: reefapi-reputation-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-reputation-reviews-api-openapi.yml
+- filename: reefapi-search-seo-api-openapi.yml
+  format: yaml
+  label: ReefAPI Search & SEO API
+  slug: reefapi-search-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-search-seo-api-openapi.yml
+- filename: reefapi-social-media-api-openapi.yml
+  format: yaml
+  label: ReefAPI Social Media API
+  slug: reefapi-social-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-social-media-api-openapi.yml
+- filename: reefapi-travel-lodging-api-openapi.yml
+  format: yaml
+  label: ReefAPI Travel & Lodging API
+  slug: reefapi-travel-lodging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-travel-lodging-api-openapi.yml
+- filename: reefapi-utilities-ai-api-openapi.yml
+  format: yaml
+  label: ReefAPI Utilities & AI API
+  slug: reefapi-utilities-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/openapi/reefapi-utilities-ai-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer
@@ -75,6 +153,6 @@ tags:
 - llms-txt
 - API Catalog
 - Free Tier
-- Credits
-- Gateway
+- Credit
+- Gateways
 ---

@@ -95,7 +95,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - RNA Therapeutics
 - siRNA
 - RNA Editing

@@ -121,5 +121,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airbnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: developer.withairbnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:34:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.airbnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: airbnb.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:caa-alerts@airbnb.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: withairbnb.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:caa-alerts@airbnb.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/security/airbnb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Reservations
+- Hospitality
+- Travel
+- Airbnb
 ---

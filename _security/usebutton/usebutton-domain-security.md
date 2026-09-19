@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-accounts-api-openapi.yml
 - filename: usebutton-brands-api-api-openapi.yml
   format: yaml
-  label: Button Brands Api API
+  label: Button Brands Api
   slug: usebutton-brands-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-brands-api-api-openapi.yml
@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-create-api-openapi.yml
 - filename: usebutton-links-api-api-openapi.yml
   format: yaml
-  label: Button Links Api API
+  label: Button Links Api
   slug: usebutton-links-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/openapi/usebutton-links-api-api-openapi.yml

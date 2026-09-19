@@ -110,12 +110,6 @@ api_specs:
   slug: azure-logic-apps-workflowrunoperations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowrunoperations-api-openapi.yml
-- filename: azure-logic-apps-workflowruns-api-openapi.yml
-  format: yaml
-  label: Azure Logic Apps WorkflowRuns API
-  slug: azure-logic-apps-workflowruns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowruns-api-openapi.yml
 - filename: azure-logic-apps-workflows-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Workflows API
@@ -128,18 +122,24 @@ api_specs:
   slug: azure-logic-apps-workflowtriggerhistories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowtriggerhistories-api-openapi.yml
-- filename: azure-logic-apps-workflowtriggers-api-openapi.yml
+- filename: azure-logic-apps-workflow-runs-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps WorkflowTriggers API
-  slug: azure-logic-apps-workflowtriggers-api
+  label: Azure Logic Apps Workflow Runs API
+  slug: azure-logic-apps-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowtriggers-api-openapi.yml
-- filename: azure-logic-apps-workflowversions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflow-runs-api-openapi.yml
+- filename: azure-logic-apps-workflow-triggers-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps WorkflowVersions API
-  slug: azure-logic-apps-workflowversions-api
+  label: Azure Logic Apps Workflow Triggers API
+  slug: azure-logic-apps-workflow-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowversions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflow-triggers-api-openapi.yml
+- filename: azure-logic-apps-workflow-versions-api-openapi.yml
+  format: yaml
+  label: Azure Logic Apps Workflow Versions API
+  slug: azure-logic-apps-workflow-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflow-versions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

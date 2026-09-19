@@ -108,5 +108,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/magento-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token obtained from the /V1/integration/admin/token or /V1/integration/customer/token\n    endpoint. Include in the Authorization header as \"Bearer {token}\".\n  sources:\n  - openapi/magento-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/authentication/magento-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- E-Commerce
+- Catalog
+- Headless Commerce
+- Magento
 ---

@@ -12,12 +12,6 @@ api_specs:
   slug: sift-stack-annotationservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-annotationservice-api-openapi.yml
-- filename: sift-stack-apikeyservice-api-openapi.yml
-  format: yaml
-  label: Sift Stack API Key Service API
-  slug: sift-stack-apikeyservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-apikeyservice-api-openapi.yml
 - filename: sift-stack-assetservice-api-openapi.yml
   format: yaml
   label: Sift Stack Asset Service API
@@ -54,12 +48,6 @@ api_specs:
   slug: sift-stack-channelschemaservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-channelschemaservice-api-openapi.yml
-- filename: sift-stack-channelservice-api-openapi.yml
-  format: yaml
-  label: Sift Stack Channel Service API
-  slug: sift-stack-channelservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-channelservice-api-openapi.yml
 - filename: sift-stack-commentservice-api-openapi.yml
   format: yaml
   label: Sift Stack Comment Service API
@@ -72,12 +60,6 @@ api_specs:
   slug: sift-stack-dataimportservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-dataimportservice-api-openapi.yml
-- filename: sift-stack-dataservice-api-openapi.yml
-  format: yaml
-  label: Sift Stack Data Service API
-  slug: sift-stack-dataservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-dataservice-api-openapi.yml
 - filename: sift-stack-dlqerrorsservice-api-openapi.yml
   format: yaml
   label: Sift Stack Dlq Errors Service API
@@ -114,30 +96,12 @@ api_specs:
   slug: sift-stack-ingestionconfigservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-ingestionconfigservice-api-openapi.yml
-- filename: sift-stack-jobservice-api-openapi.yml
-  format: yaml
-  label: Sift Stack Job Service API
-  slug: sift-stack-jobservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-jobservice-api-openapi.yml
 - filename: sift-stack-meservice-api-openapi.yml
   format: yaml
   label: Sift Stack Me Service API
   slug: sift-stack-meservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-meservice-api-openapi.yml
-- filename: sift-stack-metadataservice-api-openapi.yml
-  format: yaml
-  label: Sift Stack Metadata Service API
-  slug: sift-stack-metadataservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-metadataservice-api-openapi.yml
-- filename: sift-stack-notificationservice-api-openapi.yml
-  format: yaml
-  label: Sift Stack Notification Service API
-  slug: sift-stack-notificationservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-notificationservice-api-openapi.yml
 - filename: sift-stack-panelconfigurationservice-api-openapi.yml
   format: yaml
   label: Sift Stack Panel Configuration Service API
@@ -270,6 +234,42 @@ api_specs:
   slug: sift-stack-webhookservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-webhookservice-api-openapi.yml
+- filename: sift-stack-api-key-service-api-openapi.yml
+  format: yaml
+  label: Sift Stack Api Key Service API
+  slug: sift-stack-api-key-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-api-key-service-api-openapi.yml
+- filename: sift-stack-channel-service-api-openapi.yml
+  format: yaml
+  label: Sift Stack Channel Service API
+  slug: sift-stack-channel-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-channel-service-api-openapi.yml
+- filename: sift-stack-data-service-api-openapi.yml
+  format: yaml
+  label: Sift Stack Data Service API
+  slug: sift-stack-data-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-data-service-api-openapi.yml
+- filename: sift-stack-job-service-api-openapi.yml
+  format: yaml
+  label: Sift Stack Job Service API
+  slug: sift-stack-job-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-job-service-api-openapi.yml
+- filename: sift-stack-metadata-service-api-openapi.yml
+  format: yaml
+  label: Sift Stack Metadata Service API
+  slug: sift-stack-metadata-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-metadata-service-api-openapi.yml
+- filename: sift-stack-notification-service-api-openapi.yml
+  format: yaml
+  label: Sift Stack Notification Service API
+  slug: sift-stack-notification-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/openapi/sift-stack-notification-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

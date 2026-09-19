@@ -96,60 +96,60 @@ api_specs:
   slug: doe-total-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-total-api-openapi.yml
-- filename: department-of-energy-co2-emissions-api-openapi.yml
+- filename: doe-co2-emissions-api-openapi.yml
   format: yaml
   label: Department of Energy Co2 Emissions API
-  slug: department-of-energy-co2-emissions-api
+  slug: doe-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-co2-emissions-api-openapi.yml
-- filename: department-of-energy-eia-open-data-api-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-co2-emissions-api-openapi.yml
+- filename: doe-eia-open-data-api-v2-api-openapi.yml
   format: yaml
   label: Department of Energy EIA Open Data API V2 API
-  slug: department-of-energy-eia-open-data-api-v2-api
+  slug: doe-eia-open-data-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-eia-open-data-api-v2-api-openapi.yml
-- filename: department-of-energy-electricity-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-eia-open-data-api-v2-api-openapi.yml
+- filename: doe-electricity-api-openapi.yml
   format: yaml
   label: Department of Energy Electricity API
-  slug: department-of-energy-electricity-api
+  slug: doe-electricity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-electricity-api-openapi.yml
-- filename: department-of-energy-international-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-electricity-api-openapi.yml
+- filename: doe-international-api-openapi.yml
   format: yaml
   label: Department of Energy International API
-  slug: department-of-energy-international-api
+  slug: doe-international-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-international-api-openapi.yml
-- filename: department-of-energy-natural-gas-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-international-api-openapi.yml
+- filename: doe-natural-gas-api-openapi.yml
   format: yaml
   label: Department of Energy Natural Gas API
-  slug: department-of-energy-natural-gas-api
+  slug: doe-natural-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-natural-gas-api-openapi.yml
-- filename: department-of-energy-nuclear-outages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-natural-gas-api-openapi.yml
+- filename: doe-nuclear-outages-api-openapi.yml
   format: yaml
   label: Department of Energy Nuclear Outages API
-  slug: department-of-energy-nuclear-outages-api
+  slug: doe-nuclear-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-nuclear-outages-api-openapi.yml
-- filename: department-of-energy-petroleum-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-nuclear-outages-api-openapi.yml
+- filename: doe-petroleum-api-openapi.yml
   format: yaml
   label: Department of Energy Petroleum API
-  slug: department-of-energy-petroleum-api
+  slug: doe-petroleum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-petroleum-api-openapi.yml
-- filename: department-of-energy-seriesid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-petroleum-api-openapi.yml
+- filename: doe-seriesid-api-openapi.yml
   format: yaml
   label: Department of Energy Seriesid API
-  slug: department-of-energy-seriesid-api
+  slug: doe-seriesid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-seriesid-api-openapi.yml
-- filename: department-of-energy-total-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-seriesid-api-openapi.yml
+- filename: doe-total-energy-api-openapi.yml
   format: yaml
   label: Department of Energy Total Energy API
-  slug: department-of-energy-total-energy-api
+  slug: doe-total-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/department-of-energy-total-energy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-total-energy-api-openapi.yml
 description: ''
 domains:
 - caa: []

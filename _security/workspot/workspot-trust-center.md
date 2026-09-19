@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: workspot-control-openapi-original.json
-  format: json
-  label: Workspot Control REST API
-  slug: control
+- filename: workspot-apis-api-openapi.yml
+  format: yaml
+  label: Workspot AP Is API
+  slug: workspot-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-control-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-apis-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2
@@ -34,6 +34,6 @@ tags:
 - Cloud Infrastructure
 - Enterprise IT
 - Workspace Management
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.workspot.com/resources/trust-center/
 ---

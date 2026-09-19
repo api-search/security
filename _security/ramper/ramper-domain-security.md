@@ -34,7 +34,7 @@ tags:
 - Company
 - Web3
 - Wallets
-- Embedded Wallet
+- Embedded Wallets
 - Blockchain
 - Social Login
 - Authentication

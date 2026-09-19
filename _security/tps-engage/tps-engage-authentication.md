@@ -41,7 +41,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Advertising
-- DOOH
+- Digital Out Of Home
 - Digital Billboards
 - Programmatic Advertising
 - Media Buying

@@ -44,5 +44,5 @@ tags:
 - Memory Protection
 - Ransomware
 - Vulnerability Management
-- On-Premise
+- On-Premises
 ---

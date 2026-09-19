@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-pinpoint-applications-api-openapi.yml
-  format: yaml
-  label: Amazon Pinpoint Applications API
-  slug: amazon-pinpoint-applications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-applications-api-openapi.yml
 - filename: amazon-pinpoint-apps-api-openapi.yml
   format: yaml
   label: Amazon Pinpoint Apps API

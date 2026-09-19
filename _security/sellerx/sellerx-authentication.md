@@ -55,7 +55,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - E-Commerce
-- Consumer Brands
+- Consumer Brand
 - Retail
 - Amazon Aggregator
 - Marketplace-Seller

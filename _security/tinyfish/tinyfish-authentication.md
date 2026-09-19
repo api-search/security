@@ -17,19 +17,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-runs-api-openapi.yml
 - filename: tinyfish-tinyfish-browser-api-api-openapi.yml
   format: yaml
-  label: TinyFish TinyFish Browser API API
+  label: TinyFish Browser API
   slug: tinyfish-tinyfish-browser-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-browser-api-api-openapi.yml
-- filename: tinyfish-tinyfish-fetch-api-api-openapi.yml
-  format: yaml
-  label: TinyFish TinyFish Fetch API API
-  slug: tinyfish-tinyfish-fetch-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-fetch-api-api-openapi.yml
 - filename: tinyfish-tinyfish-search-api-api-openapi.yml
   format: yaml
-  label: TinyFish TinyFish Search API API
+  label: TinyFish Search API
   slug: tinyfish-tinyfish-search-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-search-api-api-openapi.yml

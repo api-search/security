@@ -26,12 +26,12 @@ api_specs:
   slug: konbiniapi-reddit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-reddit-api-openapi.yml
-- filename: konbiniapi-linkedin-api-openapi.yml
+- filename: konbiniapi-linked-in-api-openapi.yml
   format: yaml
-  label: KonbiniAPI LinkedIn API
-  slug: konbiniapi-linkedin-api
+  label: KonbiniAPI Linked In API
+  slug: konbiniapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-linkedin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-linked-in-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -18,12 +18,6 @@ api_specs:
   slug: allay-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-media-api-openapi.yml
-- filename: allay-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Oembed API
-  slug: allay-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-oembed-api-openapi.yml
 - filename: allay-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Allay Therapeutics Pages API
@@ -48,6 +42,12 @@ api_specs:
   slug: allay-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-taxonomy-api-openapi.yml
+- filename: allay-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Allay Therapeutics o Embed API
+  slug: allay-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

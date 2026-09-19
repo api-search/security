@@ -173,7 +173,7 @@ tags:
 - Logistics
 - Freight
 - Computer-Vision
-- Warehouses
+- Warehouse
 - Supply Chain
 - Measurements
 - Camera

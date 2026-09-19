@@ -24,18 +24,18 @@ api_specs:
   slug: userpilot-imports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-imports-api-openapi.yml
-- filename: userpilot-real-time-api-openapi.yml
-  format: yaml
-  label: Userpilot Real-time API
-  slug: userpilot-real-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-real-time-api-openapi.yml
 - filename: userpilot-track-api-openapi.yml
   format: yaml
   label: Userpilot Track API
   slug: userpilot-track-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-track-api-openapi.yml
+- filename: userpilot-realtime-api-openapi.yml
+  format: yaml
+  label: Userpilot Realtime API
+  slug: userpilot-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-realtime-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

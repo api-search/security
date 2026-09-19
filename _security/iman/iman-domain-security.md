@@ -36,7 +36,7 @@ tags:
 - Islamic Finance
 - Halal Investing
 - Sharia-Compliant
-- BNPL
+- Buy Now Pay Later
 - Investing
 - Payments
 - Financial-Services

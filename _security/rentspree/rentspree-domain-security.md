@@ -36,7 +36,7 @@ tags:
 - Rental Applications
 - Tenant Screening
 - Credit Check
-- Background Check
+- Background Checks
 - Eviction History
 - Income Verification
 - Renters Insurance

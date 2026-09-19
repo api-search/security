@@ -152,12 +152,6 @@ api_specs:
   slug: altimate-ai-data-availability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-data-availability-api-openapi.yml
-- filename: altimate-ai-data-store-api-openapi.yml
-  format: yaml
-  label: Altimate AI DATA_STORE API
-  slug: altimate-ai-data-store-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-data-store-api-openapi.yml
 - filename: altimate-ai-databricks-access-rules-api-openapi.yml
   format: yaml
   label: Altimate AI Databricks Access Rules API
@@ -740,6 +734,12 @@ api_specs:
   slug: altimate-ai-workload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-workload-api-openapi.yml
+- filename: altimate-ai-datastore-api-openapi.yml
+  format: yaml
+  label: Altimate AI Datastore API
+  slug: altimate-ai-datastore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-datastore-api-openapi.yml
 auth_types:
 - http
 description: ''

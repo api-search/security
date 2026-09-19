@@ -38,7 +38,7 @@ tags:
 - Aviation
 - Airplanes
 - Aerospace
-- Flight
+- Flights
 - Aeronautical
 - Fortune 100
 ---

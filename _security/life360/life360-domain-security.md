@@ -43,7 +43,7 @@ tags:
 - Location
 - GPS Tracking
 - Bluetooth Trackers
-- Mobile Apps
+- Mobile App
 - Driving Safety
 - Wearables
 - Subscription

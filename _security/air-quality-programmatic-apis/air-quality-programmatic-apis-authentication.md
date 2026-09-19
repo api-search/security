@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api-openapi.yml
   format: yaml
-  label: Air Quality Programmatic APIs Air Quality Programmatic APIs Real Time Air Quality Tile API API
+  label: Air Quality Programmatic APIs Air Quality Programmatic APIs Real Time Air Quality Tile API
   slug: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api-openapi.yml

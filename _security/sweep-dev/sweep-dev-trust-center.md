@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - AI Coding Assistant
 - AI Developer Tools
-- AI Agent
+- AI Agents
 - Code Autocomplete
 - Next Edit Suggestions
 - JetBrains Plugin

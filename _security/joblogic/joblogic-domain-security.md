@@ -114,7 +114,7 @@ tags:
 - Maintenance
 - Workforce
 - Mobile Workforce
-- Trades
+- Trade
 - CRM
 - Software-as-a-Service
 ---

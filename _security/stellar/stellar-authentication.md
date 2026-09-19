@@ -240,4 +240,5 @@ tags:
 - Payments
 - Smart Contracts
 - Web3
+- Stellar
 ---

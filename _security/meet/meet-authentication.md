@@ -76,6 +76,6 @@ tags:
 - Communications
 - Collaboration
 - Google Workspace
-- Recordings
+- Recording
 - Transcripts
 ---

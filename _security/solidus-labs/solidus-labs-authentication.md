@@ -5,16 +5,10 @@ api_key_in:
 api_specs:
 - filename: solidus-labs-address-api-api-openapi.yml
   format: yaml
-  label: Solidus Labs Address API API
+  label: Solidus Labs Address API
   slug: solidus-labs-address-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/openapi/solidus-labs-address-api-api-openapi.yml
-- filename: solidus-labs-chain-api-api-openapi.yml
-  format: yaml
-  label: Solidus Labs Chain API API
-  slug: solidus-labs-chain-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/openapi/solidus-labs-chain-api-api-openapi.yml
 - filename: solidus-labs-corrections-api-openapi.yml
   format: yaml
   label: Solidus Labs Corrections API
@@ -35,13 +29,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/openapi/solidus-labs-scams-api-openapi.yml
 - filename: solidus-labs-token-api-api-openapi.yml
   format: yaml
-  label: Solidus Labs Token API API
+  label: Solidus Labs Token API
   slug: solidus-labs-token-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/openapi/solidus-labs-token-api-api-openapi.yml
 - filename: solidus-labs-webhooks-api-api-openapi.yml
   format: yaml
-  label: Solidus Labs Webhooks API API
+  label: Solidus Labs Webhooks API
   slug: solidus-labs-webhooks-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/openapi/solidus-labs-webhooks-api-api-openapi.yml

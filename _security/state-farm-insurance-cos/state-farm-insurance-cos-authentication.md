@@ -51,5 +51,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/state-farm-insurance-cos-renters-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.statefarm.com/oauth/token\n    scopes: 3\n  sources:\n  - openapi/state-farm-insurance-cos-renters-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/authentication/state-farm-insurance-cos-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Insurance
+- API Gateway
+- B2B
+- Mortgage
+- Verification
 ---

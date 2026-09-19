@@ -41,7 +41,7 @@ tags:
 - Financial Data
 - stock-market-api
 - Market Data
-- Equities
+- Stocks
 - ETFs
 - Crypto
 - Forex

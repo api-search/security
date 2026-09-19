@@ -33,7 +33,6 @@ tags:
 - Company
 - Identity
 - Identity and Access Management
-- IAM
 - Security
 - Cybersecurity
 - AI Agents

@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Inference
 - Deployment
 - MLOps

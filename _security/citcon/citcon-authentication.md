@@ -37,7 +37,7 @@ tags:
 - Cross-Border Payments
 - Digital Wallet
 - Payment Gateway
-- BNPL
+- Buy Now Pay Later
 - Global Payouts
 - Fintech
 ---

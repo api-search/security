@@ -34,6 +34,6 @@ tags:
 - Healthcare
 - Hospitals
 - Health Systems
-- Provider
+- Providers
 - Fortune 500
 ---

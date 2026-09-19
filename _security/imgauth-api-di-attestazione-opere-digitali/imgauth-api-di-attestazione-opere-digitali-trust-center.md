@@ -116,7 +116,7 @@ tags:
 - Bitcoin
 - OpenTimestamps
 - Security
-- Document
+- Documents
 - E-Signature
 - MCP
 trust_url: https://trust.spaziogenesi.org/

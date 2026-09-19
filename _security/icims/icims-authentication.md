@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icims/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Applicant Tracking
-- HR
+- Human Resources
 - Recruiting
 - Talent Acquisition
 ---

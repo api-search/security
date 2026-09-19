@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycash/refs/he
 summary_line: TLSv1.3
 tags:
 - Company
-- Remittance
+- Remittances
 - Payments
 - Money Transfer
 - Fintech

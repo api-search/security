@@ -119,12 +119,11 @@ tags:
 - Agents
 - Agent Workflows
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Low-Code
 - Visual Builder
 - LangChain
 - RAG
-- Retrieval Augmented Generation
 - Chatbots
 - Open-Source
 - Node.js

@@ -116,7 +116,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/re
 summary_line: apiKey · 3 schemes
 tags:
 - IoT
-- Internet of Things
 - MQTT
 - Maker
 - Hobbyist

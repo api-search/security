@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Travel
-- Visas
+- Visa
 - Immigration
 - Travel Technology
 - Consumer

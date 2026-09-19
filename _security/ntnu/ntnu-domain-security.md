@@ -57,4 +57,5 @@ tags:
 - Course Catalog
 - Norway
 - Scandinavia
+- Identity Federation
 ---

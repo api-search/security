@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ssh-tunnels-api-openapi.yml
 - filename: artie-artie-api-api-openapi.yml
   format: yaml
-  label: Artie Artie API
+  label: Artie API
   slug: artie-artie-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-artie-api-api-openapi.yml
@@ -103,8 +103,7 @@ tags:
 - Data Integration
 - ETL
 - Streaming
-- Databases
+- Database
 - Data Warehouse
-- CDC
 - Data Engineering
 ---

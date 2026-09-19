@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: lightstream-authenticationservice-api-openapi.yml
-  format: yaml
-  label: Lightstream AuthenticationService API
-  slug: lightstream-authenticationservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-authenticationservice-api-openapi.yml
 - filename: lightstream-backendauthenticationservice-api-openapi.yml
   format: yaml
   label: Lightstream BackendAuthenticationService API
@@ -27,12 +21,6 @@ api_specs:
   slug: lightstream-destinationservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-destinationservice-api-openapi.yml
-- filename: lightstream-eventservice-api-openapi.yml
-  format: yaml
-  label: Lightstream EventService API
-  slug: lightstream-eventservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-eventservice-api-openapi.yml
 - filename: lightstream-layerservice-api-openapi.yml
   format: yaml
   label: Lightstream LayerService API
@@ -63,6 +51,18 @@ api_specs:
   slug: lightstream-sourceservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-sourceservice-api-openapi.yml
+- filename: lightstream-authentication-service-api-openapi.yml
+  format: yaml
+  label: Lightstream Authentication Service API
+  slug: lightstream-authentication-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-authentication-service-api-openapi.yml
+- filename: lightstream-event-service-api-openapi.yml
+  format: yaml
+  label: Lightstream Event Service API
+  slug: lightstream-event-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-event-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

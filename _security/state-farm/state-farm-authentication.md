@@ -20,24 +20,6 @@ api_specs:
   slug: state-farm-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-quotes-api-openapi.yml
-- filename: state-farm-insurance-coverage-api-openapi.yml
-  format: yaml
-  label: State Farm Insurance Coverage API
-  slug: state-farm-insurance-coverage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-coverage-api-openapi.yml
-- filename: state-farm-insurance-policies-api-openapi.yml
-  format: yaml
-  label: State Farm Insurance Policies API
-  slug: state-farm-insurance-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-policies-api-openapi.yml
-- filename: state-farm-insurance-quotes-api-openapi.yml
-  format: yaml
-  label: State Farm Insurance Quotes API
-  slug: state-farm-insurance-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-quotes-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -69,5 +51,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/state-farm-renters-insurance-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.statefarm.com/oauth/token\n    scopes: 3\n  sources:\n  - openapi/state-farm-renters-insurance-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/authentication/state-farm-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Insurance
+- Mortgage
+- Auto Insurance
+- Vehicles
+- Embedded Insurance
+- B2B
 ---

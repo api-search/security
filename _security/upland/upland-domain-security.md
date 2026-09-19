@@ -1,17 +1,107 @@
 ---
 api_specs:
-- filename: upland-developers-api-openapi.json
-  format: json
-  label: Upland Developers API
-  slug: upland-developers-api
+- filename: upland-accounts-api-openapi.yml
+  format: yaml
+  label: Upland Accounts API
+  slug: upland-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-developers-api-openapi.json
-- filename: upland-appchain-history-swagger.json
-  format: json
-  label: Upland Appchain History & Chain API
-  slug: upland-appchain-history-chain-api
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-accounts-api-openapi.yml
+- filename: upland-application-usage-api-openapi.yml
+  format: yaml
+  label: Upland Application Usage API
+  slug: upland-application-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-appchain-history-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-application-usage-api-openapi.yml
+- filename: upland-authentication-api-openapi.yml
+  format: yaml
+  label: Upland Authentication API
+  slug: upland-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-authentication-api-openapi.yml
+- filename: upland-chain-api-openapi.yml
+  format: yaml
+  label: Upland Chain API
+  slug: upland-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-chain-api-openapi.yml
+- filename: upland-dev-shops-api-openapi.yml
+  format: yaml
+  label: Upland Dev Shops API
+  slug: upland-dev-shops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-dev-shops-api-openapi.yml
+- filename: upland-escrow-containers-api-openapi.yml
+  format: yaml
+  label: Upland Escrow Containers API
+  slug: upland-escrow-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-escrow-containers-api-openapi.yml
+- filename: upland-generic-api-openapi.yml
+  format: yaml
+  label: Upland Generic API
+  slug: upland-generic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-generic-api-openapi.yml
+- filename: upland-history-api-openapi.yml
+  format: yaml
+  label: Upland History API
+  slug: upland-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-history-api-openapi.yml
+- filename: upland-hyperion-history-api-for-upland-chain-api-openapi.yml
+  format: yaml
+  label: Upland Hyperion History API For UPLAND Chain API
+  slug: upland-hyperion-history-api-for-upland-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-hyperion-history-api-for-upland-chain-api-openapi.yml
+- filename: upland-internal-api-openapi.yml
+  format: yaml
+  label: Upland Internal API
+  slug: upland-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-internal-api-openapi.yml
+- filename: upland-node-api-openapi.yml
+  format: yaml
+  label: Upland Node API
+  slug: upland-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-node-api-openapi.yml
+- filename: upland-state-api-openapi.yml
+  format: yaml
+  label: Upland State API
+  slug: upland-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-state-api-openapi.yml
+- filename: upland-stats-api-openapi.yml
+  format: yaml
+  label: Upland Stats API
+  slug: upland-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-stats-api-openapi.yml
+- filename: upland-status-api-openapi.yml
+  format: yaml
+  label: Upland Status API
+  slug: upland-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-status-api-openapi.yml
+- filename: upland-system-api-openapi.yml
+  format: yaml
+  label: Upland System API
+  slug: upland-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-system-api-openapi.yml
+- filename: upland-tournaments-api-openapi.yml
+  format: yaml
+  label: Upland Tournaments API
+  slug: upland-tournaments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-tournaments-api-openapi.yml
+- filename: upland-upland-user-api-openapi.yml
+  format: yaml
+  label: Upland Upland User API
+  slug: upland-upland-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/openapi/upland-upland-user-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,6 +155,6 @@ tags:
 - Escrow
 - Tournaments
 - Antelope
-- Webhooks
+- Webhook
 - Developer Platform
 ---

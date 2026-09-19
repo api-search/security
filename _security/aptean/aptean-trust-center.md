@@ -6,12 +6,6 @@ api_specs:
   slug: aptean-consumers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-consumers-api-openapi.yml
-- filename: aptean-eventdefinitions-api-openapi.yml
-  format: yaml
-  label: Aptean EventDefinitions API
-  slug: aptean-eventdefinitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-eventdefinitions-api-openapi.yml
 - filename: aptean-events-api-openapi.yml
   format: yaml
   label: Aptean Events API
@@ -24,12 +18,18 @@ api_specs:
   slug: aptean-producers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-producers-api-openapi.yml
-- filename: aptean-publickeys-api-openapi.yml
+- filename: aptean-event-definitions-api-openapi.yml
   format: yaml
-  label: Aptean PublicKeys API
-  slug: aptean-publickeys-api
+  label: Aptean Event Definitions API
+  slug: aptean-event-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-publickeys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-event-definitions-api-openapi.yml
+- filename: aptean-public-keys-api-openapi.yml
+  format: yaml
+  label: Aptean Public Keys API
+  slug: aptean-public-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-public-keys-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II

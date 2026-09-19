@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amazon-eks-addons-api-openapi.yml
-  format: yaml
-  label: Amazon EKS Addons API
-  slug: amazon-eks-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-addons-api-openapi.yml
 - filename: amazon-eks-clusters-api-openapi.yml
   format: yaml
   label: Amazon EKS Clusters API
@@ -24,6 +18,12 @@ api_specs:
   slug: amazon-eks-node-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-node-groups-api-openapi.yml
+- filename: amazon-eks-add-ons-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Add Ons API
+  slug: amazon-eks-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-add-ons-api-openapi.yml
 description: ''
 domains:
 - caa: []

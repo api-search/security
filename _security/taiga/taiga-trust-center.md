@@ -28,7 +28,7 @@ tags:
 - Open-Source
 - Sprints
 - User Stories
-- Epics
+- Epic
 - Task
 trust_url: https://taiga.io/security/
 ---

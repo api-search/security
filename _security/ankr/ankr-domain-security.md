@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ankr-evm-api-openapi.yml
-  format: yaml
-  label: ankr EVM API
-  slug: ankr-evm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-evm-api-openapi.yml
 - filename: ankr-metrics-api-openapi.yml
   format: yaml
   label: ankr Metrics API
@@ -89,5 +83,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ankr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rpc.ankr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 17:50:31 2026 GMT\n  hsts: null\n- host: api.staking.ankr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 07:25:16 2026 GMT\n  hsts: null\ndomains:\n- domain: ankr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/security/ankr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Web3
+- EVM
+- NFT
 ---

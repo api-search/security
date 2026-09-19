@@ -40,7 +40,7 @@ tags:
 - Location
 - Search
 - Automotive
-- Connected Cars
+- Connected Car
 - EV Charging
 - Points of Interest
 ---

@@ -114,12 +114,6 @@ api_specs:
   slug: spredfast-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/openapi/spredfast-labels-api-openapi.yml
-- filename: spredfast-labelsets-api-api-openapi.yml
-  format: yaml
-  label: Spredfast Labelsets API
-  slug: spredfast-labelsets-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/openapi/spredfast-labelsets-api-api-openapi.yml
 - filename: spredfast-list-api-openapi.yml
   format: yaml
   label: Spredfast List API

@@ -32,12 +32,6 @@ api_specs:
   slug: sadq-holding-limited-envelopes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-envelopes-api-openapi.yml
-- filename: sadq-holding-limited-esign-api-openapi.yml
-  format: yaml
-  label: Sadq Holding Limited eSign API
-  slug: sadq-holding-limited-esign-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-esign-api-openapi.yml
 - filename: sadq-holding-limited-invitations-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Invitations API
@@ -86,6 +80,12 @@ api_specs:
   slug: sadq-holding-limited-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-workflows-api-openapi.yml
+- filename: sadq-holding-limited-e-sign-api-openapi.yml
+  format: yaml
+  label: Sadq Holding Limited e Sign API
+  slug: sadq-holding-limited-e-sign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-e-sign-api-openapi.yml
 auth_types:
 - oauth2
 - http

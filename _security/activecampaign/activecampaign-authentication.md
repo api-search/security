@@ -93,12 +93,6 @@ api_specs:
   slug: activecampaign-event-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-event-tracking-api-openapi.yml
-- filename: activecampaign-exports-api-openapi.yml
-  format: yaml
-  label: ActiveCampaign Exports API
-  slug: activecampaign-exports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-exports-api-openapi.yml
 - filename: activecampaign-failures-api-openapi.yml
   format: yaml
   label: ActiveCampaign Failures API
@@ -183,12 +177,6 @@ api_specs:
   slug: activecampaign-site-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-site-tracking-api-openapi.yml
-- filename: activecampaign-snapshots-api-openapi.yml
-  format: yaml
-  label: ActiveCampaign Snapshots API
-  slug: activecampaign-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-snapshots-api-openapi.yml
 - filename: activecampaign-tags-api-openapi.yml
   format: yaml
   label: ActiveCampaign Tags API

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Jump And 8211 Advisor Ai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Jump &#8211; Advisor AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
-provider_name: Jump &#8211; Advisor AI
+overview: 'Domain security posture for Jump – Advisor AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
+provider_name: Jump – Advisor AI
 provider_slug: jump-and-8211-advisor-ai
 slug: jump-and-8211-advisor-ai-domain-security
 source_filename: jump-and-8211-advisor-ai-domain-security.yml

@@ -50,7 +50,7 @@ tags:
 - Space
 - Spaceflight
 - Launch Services
-- Satellites
+- Satellite
 - Rocket Engines
 - Defense
 - Manufacturing

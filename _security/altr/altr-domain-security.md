@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-alerts-api-openapi.yml
 - filename: altr-altr-managed-collections-api-openapi.yml
   format: yaml
-  label: ALTR ALTR Managed Collections API
+  label: ALTR Managed Collections API
   slug: altr-altr-managed-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-altr-managed-collections-api-openapi.yml
@@ -48,12 +48,6 @@ api_specs:
   slug: altr-anomalies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-anomalies-api-openapi.yml
-- filename: altr-apikeys-api-openapi.yml
-  format: yaml
-  label: ALTR Apikeys API
-  slug: altr-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-apikeys-api-openapi.yml
 - filename: altr-applications-api-openapi.yml
   format: yaml
   label: ALTR Applications API
@@ -68,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-auth-api-openapi.yml
 - filename: altr-auto-tagging-api-api-openapi.yml
   format: yaml
-  label: ALTR Auto Tagging API API
+  label: ALTR Auto Tagging API
   slug: altr-auto-tagging-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-auto-tagging-api-api-openapi.yml
@@ -212,19 +206,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-policy-api-openapi.yml
 - filename: altr-query-audits-api-api-openapi.yml
   format: yaml
-  label: ALTR Query Audits API API
+  label: ALTR Query Audits API
   slug: altr-query-audits-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-query-audits-api-api-openapi.yml
 - filename: altr-query-dashboard-api-api-openapi.yml
   format: yaml
-  label: ALTR Query Dashboard API API
+  label: ALTR Query Dashboard API
   slug: altr-query-dashboard-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-query-dashboard-api-api-openapi.yml
 - filename: altr-rbac-api-api-openapi.yml
   format: yaml
-  label: ALTR RBAC API API
+  label: ALTR RBAC API
   slug: altr-rbac-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-rbac-api-api-openapi.yml
@@ -284,7 +278,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-sidecar-api-openapi.yml
 - filename: altr-sidecar-audit-api-api-openapi.yml
   format: yaml
-  label: ALTR Sidecar Audit API API
+  label: ALTR Sidecar Audit API
   slug: altr-sidecar-audit-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-sidecar-audit-api-api-openapi.yml
@@ -314,7 +308,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-sign-off-api-openapi.yml
 - filename: altr-snowflake-metadata-api-api-openapi.yml
   format: yaml
-  label: ALTR Snowflake Metadata API API
+  label: ALTR Snowflake Metadata API
   slug: altr-snowflake-metadata-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-snowflake-metadata-api-api-openapi.yml
@@ -330,12 +324,6 @@ api_specs:
   slug: altr-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-subscriptions-api-openapi.yml
-- filename: altr-systemaudits-api-openapi.yml
-  format: yaml
-  label: ALTR Systemaudits API
-  slug: altr-systemaudits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-systemaudits-api-openapi.yml
 - filename: altr-systemaudits-query-api-openapi.yml
   format: yaml
   label: ALTR Systemaudits/query API
@@ -344,7 +332,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-systemaudits-query-api-openapi.yml
 - filename: altr-tag-masking-api-api-openapi.yml
   format: yaml
-  label: ALTR Tag Masking API API
+  label: ALTR Tag Masking API
   slug: altr-tag-masking-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-tag-masking-api-api-openapi.yml
@@ -378,12 +366,6 @@ api_specs:
   slug: altr-unsubscribe-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-unsubscribe-api-openapi.yml
-- filename: altr-usergroups-api-openapi.yml
-  format: yaml
-  label: ALTR Usergroups API
-  slug: altr-usergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-usergroups-api-openapi.yml
 - filename: altr-users-api-openapi.yml
   format: yaml
   label: ALTR Users API
@@ -396,6 +378,24 @@ api_specs:
   slug: altr-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-utility-api-openapi.yml
+- filename: altr-api-keys-api-openapi.yml
+  format: yaml
+  label: ALTR API Keys API
+  slug: altr-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-api-keys-api-openapi.yml
+- filename: altr-system-audits-api-openapi.yml
+  format: yaml
+  label: ALTR system Audits API
+  slug: altr-system-audits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-system-audits-api-openapi.yml
+- filename: altr-user-groups-api-openapi.yml
+  format: yaml
+  label: ALTR User Groups API
+  slug: altr-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/openapi/altr-user-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []

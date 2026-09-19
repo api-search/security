@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: sarj-ai-developer-api-admin-api-openapi.yml
-  format: yaml
-  label: Sarj AI Developer API Admin API
-  slug: sarj-ai-developer-api-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-admin-api-openapi.yml
 - filename: sarj-ai-developer-api-agent-profiles-api-openapi.yml
   format: yaml
   label: Sarj AI Developer API Agent Profiles API
@@ -102,21 +96,9 @@ api_specs:
   slug: sarj-ai-developer-api-report-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-report-templates-api-openapi.yml
-- filename: sarj-ai-developer-api-salesforce-api-openapi.yml
-  format: yaml
-  label: Sarj AI Developer API Salesforce API
-  slug: sarj-ai-developer-api-salesforce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-salesforce-api-openapi.yml
-- filename: sarj-ai-developer-api-salla-api-openapi.yml
-  format: yaml
-  label: Sarj AI Developer API Salla API
-  slug: sarj-ai-developer-api-salla-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-salla-api-openapi.yml
 - filename: sarj-ai-developer-api-sarj-stt-api-api-openapi.yml
   format: yaml
-  label: Sarj AI Developer API Sarj STT API API
+  label: Sarj AI Developer API Sarj STT API
   slug: sarj-ai-developer-api-sarj-stt-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-sarj-stt-api-api-openapi.yml
@@ -156,12 +138,162 @@ api_specs:
   slug: sarj-ai-developer-api-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-voices-api-openapi.yml
-- filename: sarj-ai-developer-api-zoho-api-openapi.yml
+- filename: sarj-ai-developer-api-api-keys-api-openapi.yml
   format: yaml
-  label: Sarj AI Developer API Zoho API
-  slug: sarj-ai-developer-api-zoho-api
+  label: Sarj AI Developer API API Keys API
+  slug: sarj-ai-developer-api-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-zoho-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-api-keys-api-openapi.yml
+- filename: sarj-ai-developer-api-call-flags-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Call Flags API
+  slug: sarj-ai-developer-api-call-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-call-flags-api-openapi.yml
+- filename: sarj-ai-developer-api-custom-scenarios-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Custom Scenarios API
+  slug: sarj-ai-developer-api-custom-scenarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-custom-scenarios-api-openapi.yml
+- filename: sarj-ai-developer-api-kamailio-state-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Kamailio State API
+  slug: sarj-ai-developer-api-kamailio-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-kamailio-state-api-openapi.yml
+- filename: sarj-ai-developer-api-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Knowledge Bases API
+  slug: sarj-ai-developer-api-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-knowledge-bases-api-openapi.yml
+- filename: sarj-ai-developer-api-livez-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Livez API
+  slug: sarj-ai-developer-api-livez-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-livez-api-openapi.yml
+- filename: sarj-ai-developer-api-messaging-settings-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Messaging Settings API
+  slug: sarj-ai-developer-api-messaging-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-messaging-settings-api-openapi.yml
+- filename: sarj-ai-developer-api-organization-batch-settings-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Organization Batch Settings API
+  slug: sarj-ai-developer-api-organization-batch-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-organization-batch-settings-api-openapi.yml
+- filename: sarj-ai-developer-api-organization-settings-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Organization Settings API
+  slug: sarj-ai-developer-api-organization-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-organization-settings-api-openapi.yml
+- filename: sarj-ai-developer-api-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Phone Numbers API
+  slug: sarj-ai-developer-api-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-phone-numbers-api-openapi.yml
+- filename: sarj-ai-developer-api-phone-provider-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Phone Provider API
+  slug: sarj-ai-developer-api-phone-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-phone-provider-api-openapi.yml
+- filename: sarj-ai-developer-api-readyz-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Readyz API
+  slug: sarj-ai-developer-api-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-readyz-api-openapi.yml
+- filename: sarj-ai-developer-api-reports-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Reports API
+  slug: sarj-ai-developer-api-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-reports-api-openapi.yml
+- filename: sarj-ai-developer-api-salesforce-integration-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Salesforce Integration API
+  slug: sarj-ai-developer-api-salesforce-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-salesforce-integration-api-openapi.yml
+- filename: sarj-ai-developer-api-salla-integration-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Salla Integration API
+  slug: sarj-ai-developer-api-salla-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-salla-integration-api-openapi.yml
+- filename: sarj-ai-developer-api-scenario-generation-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Scenario Generation API
+  slug: sarj-ai-developer-api-scenario-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-scenario-generation-api-openapi.yml
+- filename: sarj-ai-developer-api-scenario-insights-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Scenario Insights API
+  slug: sarj-ai-developer-api-scenario-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-scenario-insights-api-openapi.yml
+- filename: sarj-ai-developer-api-scenario-templates-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Scenario Templates API
+  slug: sarj-ai-developer-api-scenario-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-scenario-templates-api-openapi.yml
+- filename: sarj-ai-developer-api-schedule-configs-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Schedule Configs API
+  slug: sarj-ai-developer-api-schedule-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-schedule-configs-api-openapi.yml
+- filename: sarj-ai-developer-api-sip-connection-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Sip Connection API
+  slug: sarj-ai-developer-api-sip-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-sip-connection-api-openapi.yml
+- filename: sarj-ai-developer-api-sip-connections-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Sip Connections API
+  slug: sarj-ai-developer-api-sip-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-sip-connections-api-openapi.yml
+- filename: sarj-ai-developer-api-sip-provisioning-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Sip Provisioning API
+  slug: sarj-ai-developer-api-sip-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-sip-provisioning-api-openapi.yml
+- filename: sarj-ai-developer-api-sip-trunk-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Sip Trunk API
+  slug: sarj-ai-developer-api-sip-trunk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-sip-trunk-api-openapi.yml
+- filename: sarj-ai-developer-api-users-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Users API
+  slug: sarj-ai-developer-api-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-users-api-openapi.yml
+- filename: sarj-ai-developer-api-webhooks-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Webhooks API
+  slug: sarj-ai-developer-api-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-webhooks-api-openapi.yml
+- filename: sarj-ai-developer-api-zoho-integration-api-openapi.yml
+  format: yaml
+  label: Sarj AI Developer API Zoho Integration API
+  slug: sarj-ai-developer-api-zoho-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/openapi/sarj-ai-developer-api-zoho-integration-api-openapi.yml
 description: ''
 domains:
 - caa:

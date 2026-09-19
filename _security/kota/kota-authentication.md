@@ -8,48 +8,24 @@ api_specs:
   slug: kota-associated-persons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-associated-persons-api-openapi.yml
-- filename: kota-associatedpersons-api-openapi.yml
-  format: yaml
-  label: Kota associatedPersons API
-  slug: kota-associatedpersons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-associatedpersons-api-openapi.yml
 - filename: kota-contribution-reports-api-openapi.yml
   format: yaml
   label: Kota Contribution Reports API
   slug: kota-contribution-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-contribution-reports-api-openapi.yml
-- filename: kota-contributionreports-api-openapi.yml
-  format: yaml
-  label: Kota contributionReports API
-  slug: kota-contributionreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-contributionreports-api-openapi.yml
 - filename: kota-dependents-management-intents-api-openapi.yml
   format: yaml
   label: Kota Dependents Management Intents API
   slug: kota-dependents-management-intents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-dependents-management-intents-api-openapi.yml
-- filename: kota-dependentsmanagementintents-api-openapi.yml
-  format: yaml
-  label: Kota dependentsManagementIntents API
-  slug: kota-dependentsmanagementintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-dependentsmanagementintents-api-openapi.yml
 - filename: kota-embed-sessions-api-openapi.yml
   format: yaml
   label: Kota Embed Sessions API
   slug: kota-embed-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-embed-sessions-api-openapi.yml
-- filename: kota-embedsessions-api-openapi.yml
-  format: yaml
-  label: Kota embedSessions API
-  slug: kota-embedsessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-embedsessions-api-openapi.yml
 - filename: kota-employees-api-openapi.yml
   format: yaml
   label: Kota employees API
@@ -68,12 +44,6 @@ api_specs:
   slug: kota-enrolment-intents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-enrolment-intents-api-openapi.yml
-- filename: kota-enrolmentintents-api-openapi.yml
-  format: yaml
-  label: Kota enrolmentIntents API
-  slug: kota-enrolmentintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-enrolmentintents-api-openapi.yml
 - filename: kota-events-api-openapi.yml
   format: yaml
   label: Kota events API
@@ -98,24 +68,6 @@ api_specs:
   slug: kota-group-quote-intents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-group-quote-intents-api-openapi.yml
-- filename: kota-grouppolicies-api-openapi.yml
-  format: yaml
-  label: Kota groupPolicies API
-  slug: kota-grouppolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-grouppolicies-api-openapi.yml
-- filename: kota-grouppolicyintents-api-openapi.yml
-  format: yaml
-  label: Kota groupPolicyIntents API
-  slug: kota-grouppolicyintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-grouppolicyintents-api-openapi.yml
-- filename: kota-groupquoteintents-api-openapi.yml
-  format: yaml
-  label: Kota groupQuoteIntents API
-  slug: kota-groupquoteintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-groupquoteintents-api-openapi.yml
 - filename: kota-groups-api-openapi.yml
   format: yaml
   label: Kota groups API
@@ -128,24 +80,12 @@ api_specs:
   slug: kota-health-insurance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-health-insurance-api-openapi.yml
-- filename: kota-healthinsurance-api-openapi.yml
-  format: yaml
-  label: Kota healthInsurance API
-  slug: kota-healthinsurance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-healthinsurance-api-openapi.yml
 - filename: kota-hosted-sessions-api-openapi.yml
   format: yaml
   label: Kota Hosted Sessions API
   slug: kota-hosted-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-hosted-sessions-api-openapi.yml
-- filename: kota-hostedsessions-api-openapi.yml
-  format: yaml
-  label: Kota hostedSessions API
-  slug: kota-hostedsessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-hostedsessions-api-openapi.yml
 - filename: kota-plans-api-openapi.yml
   format: yaml
   label: Kota plans API
@@ -170,18 +110,6 @@ api_specs:
   slug: kota-policy-import-intents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-policy-import-intents-api-openapi.yml
-- filename: kota-policyamendmentintents-api-openapi.yml
-  format: yaml
-  label: Kota policyAmendmentIntents API
-  slug: kota-policyamendmentintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-policyamendmentintents-api-openapi.yml
-- filename: kota-policyimportintents-api-openapi.yml
-  format: yaml
-  label: Kota policyImportIntents API
-  slug: kota-policyimportintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/openapi/kota-policyimportintents-api-openapi.yml
 - filename: kota-providers-api-openapi.yml
   format: yaml
   label: Kota providers API

@@ -48,7 +48,7 @@ tags:
 - iPaaS
 - Data Quality
 - Data Governance
-- embedded-integration
+- Embedded Integration
 - MCP
 - agent-native
 - Revenue Operations

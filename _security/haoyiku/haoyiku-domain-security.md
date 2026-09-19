@@ -32,7 +32,7 @@ tags:
 - E-Commerce
 - Social Commerce
 - Retail
-- Mobile Apps
+- Mobile App
 - China
 - Consumer
 ---

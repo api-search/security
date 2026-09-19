@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-bristol-research-portal-oai-pmh-openapi.yml
+- filename: university-of-bristol-oai-pmh-api-openapi.yml
   format: yaml
-  label: University of Bristol Research Portal OAI-PMH
-  slug: research-portal-oai-pmh
+  label: University of Bristol OAI PMH API
+  slug: university-of-bristol-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-research-portal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/openapi/university-of-bristol-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

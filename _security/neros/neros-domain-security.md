@@ -40,7 +40,7 @@ tags:
 - Robotics
 - Hardware
 - Manufacturing
-- Protocols
+- Protocol
 - Open-Source
 - Embedded
 ---

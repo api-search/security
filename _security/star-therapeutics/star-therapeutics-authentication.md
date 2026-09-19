@@ -26,12 +26,6 @@ api_specs:
   slug: star-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/star-therapeutics/refs/heads/main/openapi/star-therapeutics-media-api-openapi.yml
-- filename: star-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Star Therapeutics Oembed API
-  slug: star-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/star-therapeutics/refs/heads/main/openapi/star-therapeutics-oembed-api-openapi.yml
 - filename: star-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Star Therapeutics Pages API
@@ -56,6 +50,12 @@ api_specs:
   slug: star-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/star-therapeutics/refs/heads/main/openapi/star-therapeutics-taxonomy-api-openapi.yml
+- filename: star-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Star Therapeutics o Embed API
+  slug: star-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/star-therapeutics/refs/heads/main/openapi/star-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

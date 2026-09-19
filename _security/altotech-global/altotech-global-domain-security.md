@@ -34,7 +34,7 @@ tags:
 - Company
 - Energy
 - Sustainability
-- Internet of Things
+- IoT
 - Artificial Intelligence
 - Smart Buildings
 - Energy Management

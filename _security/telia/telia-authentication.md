@@ -160,7 +160,7 @@ summary_line: oauth2/http-basic/mutualTLS/openIdConnect/ip-allowlist/smpp-bind Â
 tags:
 - Telecommunications
 - Sweden
-- Nordics
+- Nordic
 - Baltics
 - Mobile Network Operator
 - Network APIs

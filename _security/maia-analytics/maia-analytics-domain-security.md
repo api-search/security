@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/openapi/maia-analytics-ah-api-openapi.yml
 - filename: maia-analytics-analytics-api-openapi.yml
   format: yaml
-  label: Maia-analytics analytics API
+  label: Maia-analytics API
   slug: maia-analytics-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/openapi/maia-analytics-analytics-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/openapi/maia-analytics-layer-api-openapi.yml
 - filename: maia-analytics-maia-api-api-openapi.yml
   format: yaml
-  label: Maia-analytics MAIA API API
+  label: Maia-analytics MAIA API
   slug: maia-analytics-maia-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/openapi/maia-analytics-maia-api-api-openapi.yml

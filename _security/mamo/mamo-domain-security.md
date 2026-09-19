@@ -134,6 +134,6 @@ tags:
 - Corporate Cards
 - Payouts
 - Expense Management
-- UAE
+- United Arab Emirates
 - Middle East
 ---

@@ -20,12 +20,6 @@ api_specs:
   slug: anamai-knowledge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-knowledge-api-openapi.yml
-- filename: anamai-llms-api-openapi.yml
-  format: yaml
-  label: Anam.ai LLMs API
-  slug: anamai-llms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-llms-api-openapi.yml
 - filename: anamai-meetings-api-openapi.yml
   format: yaml
   label: Anam.ai Meetings API
@@ -62,6 +56,12 @@ api_specs:
   slug: anamai-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-voices-api-openapi.yml
+- filename: anamai-llms-api-openapi.yml
+  format: yaml
+  label: Anam.ai LL Ms API
+  slug: anamai-llms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-llms-api-openapi.yml
 auth_types:
 - http
 description: ''

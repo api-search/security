@@ -94,5 +94,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence
-- Vector Databases
+- Vector Database
 ---

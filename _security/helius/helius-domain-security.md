@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-funding-api-openapi.yml
 - filename: helius-helius-api-catalog-api-openapi.yml
   format: yaml
-  label: Helius Helius API Catalog API
+  label: Helius API Catalog API
   slug: helius-helius-api-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-helius-api-catalog-api-openapi.yml
@@ -48,12 +48,6 @@ api_specs:
   slug: helius-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-identity-api-openapi.yml
-- filename: helius-nfts-api-openapi.yml
-  format: yaml
-  label: Helius NFTs API
-  slug: helius-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-nfts-api-openapi.yml
 - filename: helius-sender-api-openapi.yml
   format: yaml
   label: Helius Sender API
@@ -84,6 +78,12 @@ api_specs:
   slug: helius-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-webhooks-api-openapi.yml
+- filename: helius-nfts-api-openapi.yml
+  format: yaml
+  label: Helius NF Ts API
+  slug: helius-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []

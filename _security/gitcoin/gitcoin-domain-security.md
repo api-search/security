@@ -24,15 +24,9 @@ api_specs:
   slug: gitcoin-model-analysis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-model-analysis-api-openapi.yml
-- filename: gitcoin-rounds-api-openapi.yml
-  format: yaml
-  label: Gitcoin Rounds API
-  slug: gitcoin-rounds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-rounds-api-openapi.yml
 - filename: gitcoin-stamp-api-api-openapi.yml
   format: yaml
-  label: Gitcoin Stamp API API
+  label: Gitcoin Stamp API
   slug: gitcoin-stamp-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-stamp-api-api-openapi.yml

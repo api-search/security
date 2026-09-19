@@ -51,12 +51,6 @@ api_specs:
   slug: airbus-oneatlas-accounting-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-accounting-transactions-api-openapi.yml
-- filename: airbus-oneatlas-apikey-management-api-openapi.yml
-  format: yaml
-  label: Airbus OneAtlas APIkey management API
-  slug: airbus-oneatlas-apikey-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-apikey-management-api-openapi.yml
 - filename: airbus-oneatlas-attempts-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Attempts API
@@ -165,12 +159,6 @@ api_specs:
   slug: airbus-oneatlas-notify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-notify-api-openapi.yml
-- filename: airbus-oneatlas-opensearch-api-openapi.yml
-  format: yaml
-  label: Airbus OneAtlas Opensearch API
-  slug: airbus-oneatlas-opensearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-opensearch-api-openapi.yml
 - filename: airbus-oneatlas-ordering-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Ordering API
@@ -297,6 +285,18 @@ api_specs:
   slug: airbus-oneatlas-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-workspaces-api-openapi.yml
+- filename: airbus-oneatlas-api-key-management-api-openapi.yml
+  format: yaml
+  label: Airbus OneAtlas API Key Management API
+  slug: airbus-oneatlas-api-key-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-api-key-management-api-openapi.yml
+- filename: airbus-oneatlas-open-search-api-openapi.yml
+  format: yaml
+  label: Airbus OneAtlas Open Search API
+  slug: airbus-oneatlas-open-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-open-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -336,5 +336,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatla
 summary_line: apiKey/http · 2 schemes
 tags:
 - Imagery
-- Satellites
+- Satellite
 ---

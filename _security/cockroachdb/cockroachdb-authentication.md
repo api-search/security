@@ -3,30 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: cockroachdb-apikeys-api-openapi.yml
-  format: yaml
-  label: CockroachDB APIKeys API
-  slug: cockroachdb-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-apikeys-api-openapi.yml
-- filename: cockroachdb-auditlogs-api-openapi.yml
-  format: yaml
-  label: CockroachDB AuditLogs API
-  slug: cockroachdb-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-auditlogs-api-openapi.yml
 - filename: cockroachdb-auth-api-openapi.yml
   format: yaml
   label: CockroachDB Auth API
   slug: cockroachdb-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-auth-api-openapi.yml
-- filename: cockroachdb-backuprestore-api-openapi.yml
-  format: yaml
-  label: CockroachDB BackupRestore API
-  slug: cockroachdb-backuprestore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-backuprestore-api-openapi.yml
 - filename: cockroachdb-billing-api-openapi.yml
   format: yaml
   label: CockroachDB Billing API
@@ -87,12 +69,6 @@ api_specs:
   slug: cockroachdb-logexport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-logexport-api-openapi.yml
-- filename: cockroachdb-maintenancewindows-api-openapi.yml
-  format: yaml
-  label: CockroachDB MaintenanceWindows API
-  slug: cockroachdb-maintenancewindows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-maintenancewindows-api-openapi.yml
 - filename: cockroachdb-metricexport-api-openapi.yml
   format: yaml
   label: CockroachDB MetricExport API
@@ -111,36 +87,18 @@ api_specs:
   slug: cockroachdb-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-organizations-api-openapi.yml
-- filename: cockroachdb-privateendpoints-api-openapi.yml
-  format: yaml
-  label: CockroachDB PrivateEndpoints API
-  slug: cockroachdb-privateendpoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-privateendpoints-api-openapi.yml
 - filename: cockroachdb-ranges-api-openapi.yml
   format: yaml
   label: CockroachDB Ranges API
   slug: cockroachdb-ranges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-ranges-api-openapi.yml
-- filename: cockroachdb-rolemanagement-api-openapi.yml
-  format: yaml
-  label: CockroachDB RoleManagement API
-  slug: cockroachdb-rolemanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-rolemanagement-api-openapi.yml
 - filename: cockroachdb-rules-api-openapi.yml
   format: yaml
   label: CockroachDB Rules API
   slug: cockroachdb-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-rules-api-openapi.yml
-- filename: cockroachdb-serviceaccounts-api-openapi.yml
-  format: yaml
-  label: CockroachDB ServiceAccounts API
-  slug: cockroachdb-serviceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-serviceaccounts-api-openapi.yml
 - filename: cockroachdb-sessions-api-openapi.yml
   format: yaml
   label: CockroachDB Sessions API
@@ -159,6 +117,48 @@ api_specs:
   slug: cockroachdb-versiondeferral-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-versiondeferral-api-openapi.yml
+- filename: cockroachdb-api-keys-api-openapi.yml
+  format: yaml
+  label: CockroachDB API Keys API
+  slug: cockroachdb-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-api-keys-api-openapi.yml
+- filename: cockroachdb-audit-logs-api-openapi.yml
+  format: yaml
+  label: CockroachDB Audit Logs API
+  slug: cockroachdb-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-audit-logs-api-openapi.yml
+- filename: cockroachdb-backup-restore-api-openapi.yml
+  format: yaml
+  label: CockroachDB Backup Restore API
+  slug: cockroachdb-backup-restore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-backup-restore-api-openapi.yml
+- filename: cockroachdb-maintenance-windows-api-openapi.yml
+  format: yaml
+  label: CockroachDB Maintenance Windows API
+  slug: cockroachdb-maintenance-windows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-maintenance-windows-api-openapi.yml
+- filename: cockroachdb-private-endpoints-api-openapi.yml
+  format: yaml
+  label: CockroachDB Private Endpoints API
+  slug: cockroachdb-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-private-endpoints-api-openapi.yml
+- filename: cockroachdb-role-management-api-openapi.yml
+  format: yaml
+  label: CockroachDB Role Management API
+  slug: cockroachdb-role-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-role-management-api-openapi.yml
+- filename: cockroachdb-service-accounts-api-openapi.yml
+  format: yaml
+  label: CockroachDB Service Accounts API
+  slug: cockroachdb-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-service-accounts-api-openapi.yml
 auth_types:
 - apiKey
 - http

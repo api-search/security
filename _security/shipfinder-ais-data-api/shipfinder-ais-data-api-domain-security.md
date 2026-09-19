@@ -1,47 +1,77 @@
 ---
 api_specs:
-- filename: shipfinder-ais-data-api-ais-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API AIS Dataset API
-  slug: shipfinder-ais-data-api-ais-dataset-api
+  label: ShipFinder AIS Data API 1 AIS Dataset/1.1 Vessel Position API
+  slug: shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-ais-dataset-api-openapi.yml
-- filename: shipfinder-ais-data-api-china-coastline-warning-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api-openapi.yml
+- filename: shipfinder-ais-data-api-1-ais-dataset-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API China Coastline Warning Dataset API
-  slug: shipfinder-ais-data-api-china-coastline-warning-dataset-api
+  label: ShipFinder AIS Data API 1 AIS Dataset API
+  slug: shipfinder-ais-data-api-1-ais-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-china-coastline-warning-dataset-api-openapi.yml
-- filename: shipfinder-ais-data-api-event-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-1-ais-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-2-voyage-dataset-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API Event Dataset API
-  slug: shipfinder-ais-data-api-event-dataset-api
+  label: ShipFinder AIS Data API 2 Voyage Dataset API
+  slug: shipfinder-ais-data-api-2-voyage-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-event-dataset-api-openapi.yml
-- filename: shipfinder-ais-data-api-history-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-2-voyage-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-3-history-dataset-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API History Dataset API
-  slug: shipfinder-ais-data-api-history-dataset-api
+  label: ShipFinder AIS Data API 3 History Dataset API
+  slug: shipfinder-ais-data-api-3-history-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-history-dataset-api-openapi.yml
-- filename: shipfinder-ais-data-api-meteorology-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-3-history-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-4-prediction-dataset-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API Meteorology Dataset API
-  slug: shipfinder-ais-data-api-meteorology-dataset-api
+  label: ShipFinder AIS Data API 4 Prediction Dataset API
+  slug: shipfinder-ais-data-api-4-prediction-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-meteorology-dataset-api-openapi.yml
-- filename: shipfinder-ais-data-api-prediction-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-4-prediction-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API Prediction Dataset API
-  slug: shipfinder-ais-data-api-prediction-dataset-api
+  label: ShipFinder AIS Data API 5 Meteorology Dataset/5.1 Global Tropical Cyclone API
+  slug: shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-prediction-dataset-api-openapi.yml
-- filename: shipfinder-ais-data-api-voyage-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api-openapi.yml
+- filename: shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api-openapi.yml
   format: yaml
-  label: ShipFinder AIS Data API Voyage Dataset API
-  slug: shipfinder-ais-data-api-voyage-dataset-api
+  label: ShipFinder AIS Data API 5 Meteorology Dataset/5.2 Global Port Tide Predictions API
+  slug: shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-voyage-dataset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api-openapi.yml
+- filename: shipfinder-ais-data-api-5-meteorology-dataset-api-openapi.yml
+  format: yaml
+  label: ShipFinder AIS Data API 5 Meteorology Dataset API
+  slug: shipfinder-ais-data-api-5-meteorology-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-5-meteorology-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api-openapi.yml
+  format: yaml
+  label: ShipFinder AIS Data API 6 China Region Coastline Warning Dataset API
+  slug: shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api-openapi.yml
+- filename: shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api-openapi.yml
+  format: yaml
+  label: ShipFinder AIS Data API 7 Event Dataset/7.1 Monitored Fleet Management API
+  slug: shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api-openapi.yml
+- filename: shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api-openapi.yml
+  format: yaml
+  label: ShipFinder AIS Data API 7 Event Dataset/7.2 Geofence Monitoring Push API
+  slug: shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api-openapi.yml
+- filename: shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api-openapi.yml
+  format: yaml
+  label: ShipFinder AIS Data API 7 Event Dataset/7.3 Vessel Speed Alert Push API
+  slug: shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api-openapi.yml
 description: ''
 domains:
 - caa: []

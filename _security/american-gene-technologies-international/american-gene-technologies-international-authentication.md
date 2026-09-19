@@ -56,12 +56,6 @@ api_specs:
   slug: american-gene-technologies-international-news-releases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/openapi/american-gene-technologies-international-news-releases-api-openapi.yml
-- filename: american-gene-technologies-international-oembed-api-openapi.yml
-  format: yaml
-  label: American Gene Technologies O Embed API
-  slug: american-gene-technologies-international-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/openapi/american-gene-technologies-international-oembed-api-openapi.yml
 - filename: american-gene-technologies-international-pages-api-openapi.yml
   format: yaml
   label: American Gene Technologies Pages API
@@ -116,6 +110,12 @@ api_specs:
   slug: american-gene-technologies-international-young-minds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/openapi/american-gene-technologies-international-young-minds-api-openapi.yml
+- filename: american-gene-technologies-international-o-embed-api-openapi.yml
+  format: yaml
+  label: American Gene Technologies o Embed API
+  slug: american-gene-technologies-international-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/openapi/american-gene-technologies-international-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''

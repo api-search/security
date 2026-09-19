@@ -58,7 +58,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-files-api-openapi.yml
 - filename: mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
   format: yaml
-  label: Mixedbread Mixedbread Embeddings API API
+  label: Mixedbread Embeddings API
   slug: mixedbread-ai-mixedbread-embeddings-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml

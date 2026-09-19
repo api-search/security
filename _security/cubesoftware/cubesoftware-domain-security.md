@@ -36,18 +36,6 @@ api_specs:
   slug: cubesoftware-canvases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-canvases-api-openapi.yml
-- filename: cubesoftware-chatmessages-api-openapi.yml
-  format: yaml
-  label: Cube ChatMessages API
-  slug: cubesoftware-chatmessages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chatmessages-api-openapi.yml
-- filename: cubesoftware-chatsessions-api-openapi.yml
-  format: yaml
-  label: Cube ChatSessions API
-  slug: cubesoftware-chatsessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chatsessions-api-openapi.yml
 - filename: cubesoftware-chatsettings-api-openapi.yml
   format: yaml
   label: Cube ChatSettings API
@@ -84,27 +72,21 @@ api_specs:
   slug: cubesoftware-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-connections-api-openapi.yml
-- filename: cubesoftware-contenttype-api-openapi.yml
-  format: yaml
-  label: Cube ContentType API
-  slug: cubesoftware-contenttype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-contenttype-api-openapi.yml
 - filename: cubesoftware-cube-api-openapi.yml
   format: yaml
-  label: Cube cube API
+  label: Cube API
   slug: cubesoftware-cube-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-cube-api-openapi.yml
 - filename: cubesoftware-cube-data-api-openapi.yml
   format: yaml
-  label: Cube Cube Data API
+  label: Cube Data API
   slug: cubesoftware-cube-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-cube-data-api-openapi.yml
 - filename: cubesoftware-cube-value-range-api-openapi.yml
   format: yaml
-  label: Cube Cube Value Range API
+  label: Cube Value Range API
   slug: cubesoftware-cube-value-range-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-cube-value-range-api-openapi.yml
@@ -192,12 +174,6 @@ api_specs:
   slug: cubesoftware-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-permissions-api-openapi.yml
-- filename: cubesoftware-permissionsets-api-openapi.yml
-  format: yaml
-  label: Cube permissionsets API
-  slug: cubesoftware-permissionsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-permissionsets-api-openapi.yml
 - filename: cubesoftware-planmodesessions-api-openapi.yml
   format: yaml
   label: Cube PlanModeSessions API
@@ -252,6 +228,30 @@ api_specs:
   slug: cubesoftware-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-workflow-api-openapi.yml
+- filename: cubesoftware-chat-messages-api-openapi.yml
+  format: yaml
+  label: Cube Chat Messages API
+  slug: cubesoftware-chat-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chat-messages-api-openapi.yml
+- filename: cubesoftware-chat-sessions-api-openapi.yml
+  format: yaml
+  label: Cube Chat Sessions API
+  slug: cubesoftware-chat-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chat-sessions-api-openapi.yml
+- filename: cubesoftware-content-type-api-openapi.yml
+  format: yaml
+  label: Cube Content Type API
+  slug: cubesoftware-content-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-content-type-api-openapi.yml
+- filename: cubesoftware-permission-sets-api-openapi.yml
+  format: yaml
+  label: Cube Permission Sets API
+  slug: cubesoftware-permission-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-permission-sets-api-openapi.yml
 description: ''
 domains:
 - caa:

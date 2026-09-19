@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: d-tools-changeorders-api-openapi.yml
-  format: yaml
-  label: D-Tools Change Orders API
-  slug: d-tools-changeorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-changeorders-api-openapi.yml
 - filename: d-tools-clients-api-openapi.yml
   format: yaml
   label: D-Tools Clients API
@@ -84,12 +78,6 @@ api_specs:
   slug: d-tools-publishvendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-publishvendors-api-openapi.yml
-- filename: d-tools-purchaseorders-api-openapi.yml
-  format: yaml
-  label: D-Tools Purchase Orders API
-  slug: d-tools-purchaseorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-purchaseorders-api-openapi.yml
 - filename: d-tools-quotes-api-openapi.yml
   format: yaml
   label: D-Tools Quotes API
@@ -156,12 +144,24 @@ api_specs:
   slug: d-tools-subscribetimesheet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-subscribetimesheet-api-openapi.yml
-- filename: d-tools-timeentries-api-openapi.yml
+- filename: d-tools-change-orders-api-openapi.yml
+  format: yaml
+  label: D-Tools Change Orders API
+  slug: d-tools-change-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-change-orders-api-openapi.yml
+- filename: d-tools-purchase-orders-api-openapi.yml
+  format: yaml
+  label: D-Tools Purchase Orders API
+  slug: d-tools-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-purchase-orders-api-openapi.yml
+- filename: d-tools-time-entries-api-openapi.yml
   format: yaml
   label: D-Tools Time Entries API
-  slug: d-tools-timeentries-api
+  slug: d-tools-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-timeentries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/openapi/d-tools-time-entries-api-openapi.yml
 description: ''
 domains:
 - caa: []

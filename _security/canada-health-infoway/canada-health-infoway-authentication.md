@@ -4,24 +4,12 @@ api_key_in:
 - query
 - header
 api_specs:
-- filename: canada-health-infoway-capabilitystatement-api-openapi.yml
-  format: yaml
-  label: Canada Health Infoway Capability Statement API
-  slug: canada-health-infoway-capabilitystatement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-capabilitystatement-api-openapi.yml
 - filename: canada-health-infoway-codesystem-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Code System API
   slug: canada-health-infoway-codesystem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-codesystem-api-openapi.yml
-- filename: canada-health-infoway-codesystems-api-openapi.yml
-  format: yaml
-  label: Canada Health Infoway Codesystems API
-  slug: canada-health-infoway-codesystems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-codesystems-api-openapi.yml
 - filename: canada-health-infoway-conceptmap-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Concept Map API
@@ -46,12 +34,6 @@ api_specs:
   slug: canada-health-infoway-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-packages-api-openapi.yml
-- filename: canada-health-infoway-resourcelocations-api-openapi.yml
-  format: yaml
-  label: Canada Health Infoway Resourcelocations API
-  slug: canada-health-infoway-resourcelocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-resourcelocations-api-openapi.yml
 - filename: canada-health-infoway-session-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Session API
@@ -70,6 +52,24 @@ api_specs:
   slug: canada-health-infoway-valueset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-valueset-api-openapi.yml
+- filename: canada-health-infoway-capability-statement-api-openapi.yml
+  format: yaml
+  label: Canada Health Infoway Capability Statement API
+  slug: canada-health-infoway-capability-statement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-capability-statement-api-openapi.yml
+- filename: canada-health-infoway-code-systems-api-openapi.yml
+  format: yaml
+  label: Canada Health Infoway code systems API
+  slug: canada-health-infoway-code-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-code-systems-api-openapi.yml
+- filename: canada-health-infoway-resource-locations-api-openapi.yml
+  format: yaml
+  label: Canada Health Infoway Resource Locations API
+  slug: canada-health-infoway-resource-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-resource-locations-api-openapi.yml
 auth_types:
 - apiKey
 - http

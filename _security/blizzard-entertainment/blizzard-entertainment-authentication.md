@@ -104,12 +104,12 @@ api_specs:
   slug: blizzard-entertainment-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-token-api-openapi.yml
-- filename: blizzard-entertainment-userinfo-api-openapi.yml
+- filename: blizzard-entertainment-user-info-api-openapi.yml
   format: yaml
-  label: Blizzard Entertainment UserInfo API
-  slug: blizzard-entertainment-userinfo-api
+  label: Blizzard Entertainment User Info API
+  slug: blizzard-entertainment-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-userinfo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-user-info-api-openapi.yml
 auth_types:
 - http
 description: ''

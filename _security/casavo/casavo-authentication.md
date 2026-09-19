@@ -66,5 +66,5 @@ tags:
 - Italy
 - Spain
 - France
-- Mortgages
+- Mortgage
 ---

@@ -112,7 +112,7 @@ tags:
 - Distribution
 - GDS
 - Booking
-- Channel
+- Channels
 - XML
 - JSON-Schema
 ---

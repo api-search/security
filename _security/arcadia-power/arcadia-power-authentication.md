@@ -32,12 +32,6 @@ api_specs:
   slug: arcadia-power-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-meters-api-openapi.yml
-- filename: arcadia-power-oauth-api-openapi.yml
-  format: yaml
-  label: Arcadia OAuth API
-  slug: arcadia-power-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-oauth-api-openapi.yml
 - filename: arcadia-power-organizations-api-openapi.yml
   format: yaml
   label: Arcadia Organizations API
@@ -68,6 +62,12 @@ api_specs:
   slug: arcadia-power-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-webhooks-api-openapi.yml
+- filename: arcadia-power-oauth-api-openapi.yml
+  format: yaml
+  label: Arcadia O Auth API
+  slug: arcadia-power-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

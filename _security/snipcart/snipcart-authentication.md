@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: snipcart-abandonedcarts-api-openapi.yml
-  format: yaml
-  label: Snipcart AbandonedCarts API
-  slug: snipcart-abandonedcarts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-abandonedcarts-api-openapi.yml
 - filename: snipcart-customers-api-openapi.yml
   format: yaml
   label: Snipcart Customers API
@@ -50,12 +44,18 @@ api_specs:
   slug: snipcart-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-refunds-api-openapi.yml
-- filename: snipcart-usersessions-api-openapi.yml
+- filename: snipcart-abandoned-carts-api-openapi.yml
   format: yaml
-  label: Snipcart UserSessions API
-  slug: snipcart-usersessions-api
+  label: Snipcart Abandoned Carts API
+  slug: snipcart-abandoned-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-usersessions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-abandoned-carts-api-openapi.yml
+- filename: snipcart-user-sessions-api-openapi.yml
+  format: yaml
+  label: Snipcart User Sessions API
+  slug: snipcart-user-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-user-sessions-api-openapi.yml
 auth_types:
 - http
 description: ''

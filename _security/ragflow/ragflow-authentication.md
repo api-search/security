@@ -40,7 +40,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Retrieval Augmented Generation
+- RAG
 - Search
 - Vector Database
 - Document Processing

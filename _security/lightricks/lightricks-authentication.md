@@ -14,12 +14,12 @@ api_specs:
   slug: lightricks-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-upload-api-openapi.yml
-- filename: lightricks-videogeneration-api-openapi.yml
+- filename: lightricks-video-generation-api-openapi.yml
   format: yaml
-  label: Lightricks videoGeneration API
-  slug: lightricks-videogeneration-api
+  label: Lightricks Video Generation API
+  slug: lightricks-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-videogeneration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-video-generation-api-openapi.yml
 auth_types:
 - http
 description: ''

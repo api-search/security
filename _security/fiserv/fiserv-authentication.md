@@ -9,12 +9,6 @@ api_specs:
   slug: payment-events
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/asyncapi/fiserv-payment-events-asyncapi.yml
-- filename: fiserv-3-d-secure-api-openapi.yml
-  format: yaml
-  label: Fiserv 3-D Secure API
-  slug: fiserv-3-d-secure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/openapi/fiserv-3-d-secure-api-openapi.yml
 - filename: fiserv-accounts-api-openapi.yml
   format: yaml
   label: Fiserv Accounts API
@@ -165,6 +159,12 @@ api_specs:
   slug: fiserv-void-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/openapi/fiserv-void-api-openapi.yml
+- filename: fiserv-3d-secure-api-openapi.yml
+  format: yaml
+  label: Fiserv 3D Secure API
+  slug: fiserv-3d-secure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/openapi/fiserv-3d-secure-api-openapi.yml
 auth_types:
 - apiKey
 - http

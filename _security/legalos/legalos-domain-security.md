@@ -37,6 +37,6 @@ tags:
 - Immigration
 - Artificial Intelligence
 - Professional Services
-- Visas
+- Visa
 - Compliance
 ---

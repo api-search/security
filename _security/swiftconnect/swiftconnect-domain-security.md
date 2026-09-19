@@ -73,5 +73,5 @@ tags:
 - Workplace
 - Commercial Real Estate
 - Provisioning
-- Internet of Things
+- IoT
 ---

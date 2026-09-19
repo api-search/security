@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: iit-delhi-site-platform-openapi.yml
+- filename: iit-delhi-circulars-api-openapi.yml
   format: yaml
-  label: IIT Delhi Departmental Site Platform API
-  slug: site-platform
+  label: Indian Institute of Technology Delhi Circulars API
+  slug: iit-delhi-circulars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-site-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-circulars-api-openapi.yml
+- filename: iit-delhi-contact-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Technology Delhi Contact API
+  slug: iit-delhi-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-contact-api-openapi.yml
+- filename: iit-delhi-media-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Technology Delhi Media API
+  slug: iit-delhi-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-media-api-openapi.yml
+- filename: iit-delhi-news-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Technology Delhi News API
+  slug: iit-delhi-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-news-api-openapi.yml
+- filename: iit-delhi-pages-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Technology Delhi Pages API
+  slug: iit-delhi-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-dev-api-openapi.yml
 - filename: nected-nected-api-openapi.yml
   format: yaml
-  label: Nected Nected API
+  label: Nected API
   slug: nected-nected-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-nected-api-openapi.yml

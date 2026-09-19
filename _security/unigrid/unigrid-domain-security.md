@@ -35,6 +35,6 @@ tags:
 - Energy Storage
 - Energy
 - Hardware
-- Data Centers
+- Data-Center
 - Venture Backed
 ---

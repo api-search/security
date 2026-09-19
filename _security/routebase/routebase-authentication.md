@@ -3,12 +3,36 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Routebase API
-  slug: routebase-api
+- filename: routebase-api-specs-api-openapi.yml
+  format: yaml
+  label: Routebase API Specs API
+  slug: routebase-api-specs-api
   spec_type: OpenAPI
-  url: https://docs.routebase.dev/api/routebase-public-api/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-api-specs-api-openapi.yml
+- filename: routebase-ci-test-runs-api-openapi.yml
+  format: yaml
+  label: Routebase CI & Test Runs API
+  slug: routebase-ci-test-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-ci-test-runs-api-openapi.yml
+- filename: routebase-docs-as-code-api-openapi.yml
+  format: yaml
+  label: Routebase Docs as Code API
+  slug: routebase-docs-as-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-docs-as-code-api-openapi.yml
+- filename: routebase-scim-api-openapi.yml
+  format: yaml
+  label: Routebase SCIM API
+  slug: routebase-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-scim-api-openapi.yml
+- filename: routebase-security-api-openapi.yml
+  format: yaml
+  label: Routebase Security API
+  slug: routebase-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-security-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -53,16 +77,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routebase/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - API lifecycle management
-- API design
+- API Design
 - OpenAPI
-- API documentation
-- API testing
-- API mocking
-- API monitoring
-- API security
+- API Documentation
+- API Testing
+- API Mocking
+- API Monitoring
+- API Security
 - MCP
-- AI agents
-- developer tools
+- AI Agents
+- Developer Tools
 - CI/CD
 - REST
 - OAuth 2.1

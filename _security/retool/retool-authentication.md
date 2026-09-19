@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/he
 summary_line: http · 1 scheme
 tags:
 - Admin Panel
-- Dashboard
+- Dashboards
 - Internal Tools
 - Low-Code
 - No-Code

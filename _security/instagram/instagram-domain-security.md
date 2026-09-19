@@ -78,6 +78,6 @@ tags:
 - Meta
 - Photos
 - Social-Media
-- Videos
+- Video
 - Content Publishing
 ---

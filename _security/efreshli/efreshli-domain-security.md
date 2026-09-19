@@ -34,7 +34,7 @@ tags:
 - Company
 - E-Commerce
 - Furniture
-- Home Furnishing
+- Home Furnishings
 - Interior Design
 - Retail
 - Artificial Intelligence

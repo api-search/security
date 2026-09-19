@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Embedded Finance
 - B2B Payments
 - Lending

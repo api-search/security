@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Primary Care
 - Health Insurance
-- Telemedicine
+- Telehealth
 - Membership
 - India
 ---

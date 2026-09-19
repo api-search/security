@@ -200,8 +200,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/security/beehiiv-trust-center.yml
 summary_line: SOC 2 Type I
 tags:
-- Newsletter
-- Creator
+- Newsletters
+- Creators
 - Email
 - Subscription
 - Publishing

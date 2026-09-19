@@ -76,7 +76,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Customer-Support
-- AI Agent
+- AI Agents
 - Support Automation
 - Workflows
 - Help Desk

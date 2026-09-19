@@ -492,12 +492,6 @@ api_specs:
   slug: webex-guest-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-guest-management-api-openapi.yml
-- filename: webex-hds-api-openapi.yml
-  format: yaml
-  label: Webex HDS API
-  slug: webex-hds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-hds-api-openapi.yml
 - filename: webex-historical-analytics-apis-api-openapi.yml
   format: yaml
   label: Webex Historical Analytics APIs API
@@ -542,37 +536,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-invitees-api-openapi.yml
 - filename: webex-journey-customer-identification-api-api-openapi.yml
   format: yaml
-  label: Webex Journey - Customer Identification API API
+  label: Webex Journey - Customer Identification API
   slug: webex-journey-customer-identification-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-journey-customer-identification-api-api-openapi.yml
 - filename: webex-journey-data-ingestion-api-api-openapi.yml
   format: yaml
-  label: Webex Journey - Data Ingestion API API
+  label: Webex Journey - Data Ingestion API
   slug: webex-journey-data-ingestion-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-journey-data-ingestion-api-api-openapi.yml
 - filename: webex-journey-profile-creation-insights-api-api-openapi.yml
   format: yaml
-  label: Webex Journey - Profile Creation & Insights API API
+  label: Webex Journey - Profile Creation & Insights API
   slug: webex-journey-profile-creation-insights-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-journey-profile-creation-insights-api-api-openapi.yml
 - filename: webex-journey-subscription-api-api-openapi.yml
   format: yaml
-  label: Webex Journey - Subscription API API
+  label: Webex Journey - Subscription API
   slug: webex-journey-subscription-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-journey-subscription-api-api-openapi.yml
 - filename: webex-journey-trigger-actions-api-api-openapi.yml
   format: yaml
-  label: Webex Journey - Trigger Actions API API
+  label: Webex Journey - Trigger Actions API
   slug: webex-journey-trigger-actions-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-journey-trigger-actions-api-api-openapi.yml
 - filename: webex-journey-workspace-management-api-api-openapi.yml
   format: yaml
-  label: Webex Journey - Workspace management API API
+  label: Webex Journey - Workspace management API
   slug: webex-journey-workspace-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-journey-workspace-management-api-api-openapi.yml
@@ -1062,12 +1056,6 @@ api_specs:
   slug: webex-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-workspaces-api-openapi.yml
-- filename: webex-xapi-api-openapi.yml
-  format: yaml
-  label: Webex xAPI API
-  slug: webex-xapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-xapi-api-openapi.yml
 - filename: webex-activities-api-openapi.yml
   format: yaml
   label: Webex Activities API
@@ -1158,6 +1146,12 @@ api_specs:
   slug: webex-workspace-call-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-workspace-call-settings-api-openapi.yml
+- filename: webex-x-api-api-openapi.yml
+  format: yaml
+  label: Webex x API
+  slug: webex-x-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-x-api-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -111,9 +111,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/security/humaans-io-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - People Operations
 - People Analytics
 - Onboarding
@@ -124,7 +123,7 @@ tags:
 - Workflow-Automation
 - AI Companion
 - Agentic AI
-- UK
+- United Kingdom
 - London
 trust_url: https://humaans.io/security
 ---

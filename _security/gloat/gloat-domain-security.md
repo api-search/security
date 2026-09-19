@@ -38,5 +38,4 @@ tags:
 - Skills
 - Workforce
 - Internal Mobility
-- HR Tech
 ---

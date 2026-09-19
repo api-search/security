@@ -88,7 +88,7 @@ summary_line: http · 1 scheme
 tags:
 - Streaming
 - ETL
-- CDC
+- Change Data Capture
 - Kafka
 - Flink
 - Data Integration

@@ -36,12 +36,6 @@ api_specs:
   slug: teya-pay-at-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-pay-at-table-api-openapi.yml
-- filename: teya-paybylink-api-openapi.yml
-  format: yaml
-  label: Teya PayByLink API
-  slug: teya-paybylink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-paybylink-api-openapi.yml
 - filename: teya-payment-requests-api-openapi.yml
   format: yaml
   label: Teya Payment Requests API
@@ -66,12 +60,6 @@ api_specs:
   slug: teya-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-refunds-api-openapi.yml
-- filename: teya-reversals-api-openapi.yml
-  format: yaml
-  label: Teya Reversals API
-  slug: teya-reversals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-reversals-api-openapi.yml
 - filename: teya-stores-api-openapi.yml
   format: yaml
   label: Teya Stores API
@@ -96,6 +84,12 @@ api_specs:
   slug: teya-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-transactions-api-openapi.yml
+- filename: teya-pay-by-link-api-openapi.yml
+  format: yaml
+  label: Teya Pay by Link API
+  slug: teya-pay-by-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-pay-by-link-api-openapi.yml
 description: ''
 domains:
 - caa: []

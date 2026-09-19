@@ -57,5 +57,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-defender-for-endpoint-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  description: OAuth 2.0 authentication using Microsoft Entra ID (Azure AD). Supports both application-level\n    and delegated permissions.\n  sources:\n  - openapi/microsoft-defender-for-endpoint-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/authentication/microsoft-defender-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Cloud Security
+- Data Protection
+- Threat Intelligence
+- Email Security
 ---

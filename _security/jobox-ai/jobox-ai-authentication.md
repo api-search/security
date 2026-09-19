@@ -8,12 +8,6 @@ api_specs:
   slug: jobox-ai-applogic-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-applogic-users-api-openapi.yml
-- filename: jobox-ai-bankinfo-api-openapi.yml
-  format: yaml
-  label: JOBOX.ai Bankinfo API
-  slug: jobox-ai-bankinfo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-bankinfo-api-openapi.yml
 - filename: jobox-ai-commodities-api-openapi.yml
   format: yaml
   label: JOBOX.ai Commodities API
@@ -62,12 +56,6 @@ api_specs:
   slug: jobox-ai-identification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-identification-api-openapi.yml
-- filename: jobox-ai-joblog-api-openapi.yml
-  format: yaml
-  label: JOBOX.ai Joblog API
-  slug: jobox-ai-joblog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-joblog-api-openapi.yml
 - filename: jobox-ai-joboxnumbers-api-openapi.yml
   format: yaml
   label: JOBOX.ai Joboxnumbers API
@@ -182,6 +170,18 @@ api_specs:
   slug: jobox-ai-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-wallet-api-openapi.yml
+- filename: jobox-ai-bank-info-api-openapi.yml
+  format: yaml
+  label: JOBOX.ai Bank Info API
+  slug: jobox-ai-bank-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-bank-info-api-openapi.yml
+- filename: jobox-ai-job-log-api-openapi.yml
+  format: yaml
+  label: JOBOX.ai Job Log API
+  slug: jobox-ai-job-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/openapi/jobox-ai-job-log-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

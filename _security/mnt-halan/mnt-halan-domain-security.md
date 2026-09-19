@@ -43,7 +43,7 @@ tags:
 - Buy Now Pay Later
 - Payroll Advance
 - Savings
-- Investments
+- Investment
 - E-Commerce
 - Super App
 - Financial Inclusion
@@ -51,6 +51,6 @@ tags:
 - Egypt
 - MENA
 - Turkey
-- UAE
+- United Arab Emirates
 - Pakistan
 ---

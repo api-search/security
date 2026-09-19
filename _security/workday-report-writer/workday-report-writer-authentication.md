@@ -91,7 +91,7 @@ tags:
 - Analytics
 - Enterprise
 - ERP
-- Financials
+- Financial
 - HRMS
 - Reporting
 - Software-as-a-Service

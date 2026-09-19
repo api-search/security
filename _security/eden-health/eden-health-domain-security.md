@@ -297,6 +297,6 @@ tags:
 - Virtual Care
 - Telehealth
 - Digital Health
-- Patient
+- Patients
 - Appointments
 ---

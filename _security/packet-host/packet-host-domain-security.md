@@ -90,12 +90,6 @@ api_specs:
   slug: packet-host-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-invoices-api-openapi.yml
-- filename: packet-host-ipaddresses-api-openapi.yml
-  format: yaml
-  label: Packet Host IPAddresses API
-  slug: packet-host-ipaddresses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-ipaddresses-api-openapi.yml
 - filename: packet-host-licenses-api-openapi.yml
   format: yaml
   label: Packet Host Licenses API
@@ -132,24 +126,12 @@ api_specs:
   slug: packet-host-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-organizations-api-openapi.yml
-- filename: packet-host-otps-api-openapi.yml
-  format: yaml
-  label: Packet Host OTPs API
-  slug: packet-host-otps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-otps-api-openapi.yml
 - filename: packet-host-passwordresettokens-api-openapi.yml
   format: yaml
   label: Packet Host PasswordResetTokens API
   slug: packet-host-passwordresettokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-passwordresettokens-api-openapi.yml
-- filename: packet-host-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Packet Host PaymentMethods API
-  slug: packet-host-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-paymentmethods-api-openapi.yml
 - filename: packet-host-plans-api-openapi.yml
   format: yaml
   label: Packet Host Plans API
@@ -180,12 +162,6 @@ api_specs:
   slug: packet-host-spotmarket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-spotmarket-api-openapi.yml
-- filename: packet-host-sshkeys-api-openapi.yml
-  format: yaml
-  label: Packet Host SSHKeys API
-  slug: packet-host-sshkeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-sshkeys-api-openapi.yml
 - filename: packet-host-supportrequest-api-openapi.yml
   format: yaml
   label: Packet Host SupportRequest API
@@ -198,24 +174,12 @@ api_specs:
   slug: packet-host-transferrequests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-transferrequests-api-openapi.yml
-- filename: packet-host-twofactorauth-api-openapi.yml
-  format: yaml
-  label: Packet Host TwoFactorAuth API
-  slug: packet-host-twofactorauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-twofactorauth-api-openapi.yml
 - filename: packet-host-usages-api-openapi.yml
   format: yaml
   label: Packet Host Usages API
   slug: packet-host-usages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-usages-api-openapi.yml
-- filename: packet-host-userdata-api-openapi.yml
-  format: yaml
-  label: Packet Host Userdata API
-  slug: packet-host-userdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-userdata-api-openapi.yml
 - filename: packet-host-users-api-openapi.yml
   format: yaml
   label: Packet Host Users API
@@ -240,6 +204,42 @@ api_specs:
   slug: packet-host-vrfs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-vrfs-api-openapi.yml
+- filename: packet-host-otps-api-openapi.yml
+  format: yaml
+  label: Packet Host OT Ps API
+  slug: packet-host-otps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-otps-api-openapi.yml
+- filename: packet-host-ip-addresses-api-openapi.yml
+  format: yaml
+  label: Packet Host IP Addresses API
+  slug: packet-host-ip-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-ip-addresses-api-openapi.yml
+- filename: packet-host-payment-methods-api-openapi.yml
+  format: yaml
+  label: Packet Host Payment Methods API
+  slug: packet-host-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-payment-methods-api-openapi.yml
+- filename: packet-host-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Packet Host SSH Keys API
+  slug: packet-host-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-ssh-keys-api-openapi.yml
+- filename: packet-host-two-factor-auth-api-openapi.yml
+  format: yaml
+  label: Packet Host Two Factor Auth API
+  slug: packet-host-two-factor-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-two-factor-auth-api-openapi.yml
+- filename: packet-host-user-data-api-openapi.yml
+  format: yaml
+  label: Packet Host User Data API
+  slug: packet-host-user-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/openapi/packet-host-user-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

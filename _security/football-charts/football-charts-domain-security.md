@@ -54,18 +54,18 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/security/football-charts-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- football
-- soccer
-- sports
-- sports-data
-- statistics
-- results
-- standings
-- fixtures
-- predictions
+- Football
+- Soccer
+- Sports
+- Sports Data
+- Statistics
+- Results
+- Standings
+- Fixtures
+- Predictions
 - probability-models
 - monte-carlo
-- mcp
+- MCP
 - agent-native
-- free-api
+- Free API
 ---

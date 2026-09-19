@@ -57,5 +57,5 @@ tags:
 - Rate Insights
 - Transportation
 - Brokers
-- Shipper
+- Shippers
 ---

@@ -6,24 +6,24 @@ api_specs:
   slug: rubrik-client-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-client-token-api-openapi.yml
-- filename: rubrik-graphql-api-openapi.yml
-  format: yaml
-  label: Rubrik Graphql API
-  slug: rubrik-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-graphql-api-openapi.yml
-- filename: rubrik-oauth-api-openapi.yml
-  format: yaml
-  label: Rubrik Oauth API
-  slug: rubrik-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-oauth-api-openapi.yml
 - filename: rubrik-session-api-openapi.yml
   format: yaml
   label: Rubrik Session API
   slug: rubrik-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-session-api-openapi.yml
+- filename: rubrik-oauth-api-openapi.yml
+  format: yaml
+  label: Rubrik OAUTH API
+  slug: rubrik-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-oauth-api-openapi.yml
+- filename: rubrik-graph-ql-api-openapi.yml
+  format: yaml
+  label: Rubrik Graph QL API
+  slug: rubrik-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

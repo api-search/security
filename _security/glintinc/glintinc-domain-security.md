@@ -37,7 +37,7 @@ tags:
 - Company
 - Employee Engagement
 - People Analytics
-- HR Tech
+- Human Resources
 - Surveys
 - Employee Experience
 - Microsoft Viva

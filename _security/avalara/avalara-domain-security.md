@@ -102,12 +102,6 @@ api_specs:
   slug: avalara-customization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-customization-api-openapi.yml
-- filename: avalara-datasources-api-openapi.yml
-  format: yaml
-  label: Avalara DataSources API
-  slug: avalara-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-datasources-api-openapi.yml
 - filename: avalara-definitions-api-openapi.yml
   format: yaml
   label: Avalara Definitions API
@@ -342,24 +336,12 @@ api_specs:
   slug: avalara-tax-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-tax-rates-api-openapi.yml
-- filename: avalara-taxcodes-api-openapi.yml
-  format: yaml
-  label: Avalara TaxCodes API
-  slug: avalara-taxcodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-taxcodes-api-openapi.yml
 - filename: avalara-taxcontent-api-openapi.yml
   format: yaml
   label: Avalara TaxContent API
   slug: avalara-taxcontent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-taxcontent-api-openapi.yml
-- filename: avalara-taxrules-api-openapi.yml
-  format: yaml
-  label: Avalara TaxRules API
-  slug: avalara-taxrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-taxrules-api-openapi.yml
 - filename: avalara-transactions-api-openapi.yml
   format: yaml
   label: Avalara Transactions API
@@ -408,6 +390,24 @@ api_specs:
   slug: avalara-shipping-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-shipping-verification-api-openapi.yml
+- filename: avalara-data-sources-api-openapi.yml
+  format: yaml
+  label: Avalara Data Sources API
+  slug: avalara-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-data-sources-api-openapi.yml
+- filename: avalara-tax-codes-api-openapi.yml
+  format: yaml
+  label: Avalara Tax Codes API
+  slug: avalara-tax-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-tax-codes-api-openapi.yml
+- filename: avalara-tax-rules-api-openapi.yml
+  format: yaml
+  label: Avalara Tax Rules API
+  slug: avalara-tax-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-tax-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -450,5 +450,5 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/security/avalara-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Taxes
+- Tax
 ---

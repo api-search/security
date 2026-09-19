@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-apps-api-openapi.yml
 - filename: encore-dev-encore-api-openapi.yml
   format: yaml
-  label: Encore Encore API
+  label: Encore API
   slug: encore-dev-encore-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-api-openapi.yml
 - filename: encore-dev-encore-framework-api-api-openapi.yml
   format: yaml
-  label: Encore Encore Framework API API
+  label: Encore Framework API
   slug: encore-dev-encore-framework-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-framework-api-api-openapi.yml

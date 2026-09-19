@@ -37,5 +37,5 @@ tags:
 - Energy
 - Hydrogen
 - Synthetic Fuels
-- Small Modular Reactors
+- Small Modular Reactor
 ---

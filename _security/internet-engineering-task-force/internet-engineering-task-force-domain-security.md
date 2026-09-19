@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-documents-api-openapi.yml
 - filename: internet-engineering-task-force-framework-api-api-openapi.yml
   format: yaml
-  label: Internet Engineering Task Force Framework API API
+  label: Internet Engineering Task Force Framework API
   slug: internet-engineering-task-force-framework-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/openapi/internet-engineering-task-force-framework-api-api-openapi.yml
@@ -78,7 +78,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/internet-engin
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Internet
-- Protocols
+- Protocol
 - RFC
 - Standards
 - Working Groups

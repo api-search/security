@@ -34,7 +34,7 @@ tags:
 - Biotechnology
 - Synthetic Biology
 - Gene Therapy
-- Cell And Gene Therapy
+- Cell and Gene Therapy
 - Biomanufacturing
 - Cell Line Engineering
 - Life Sciences

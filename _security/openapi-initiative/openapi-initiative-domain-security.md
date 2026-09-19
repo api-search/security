@@ -31,6 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openapi-initia
 summary_line: TLSv1.3 · DMARC
 tags:
 - Linux Foundation
-- Specifications
+- Specification
 - Standards
 ---

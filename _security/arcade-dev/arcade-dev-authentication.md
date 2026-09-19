@@ -89,5 +89,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/arcade-a
   \ openapi/arcade-workers-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/authentication/arcade-dev-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- Authorization
+- LLM
+- Plugins
 ---

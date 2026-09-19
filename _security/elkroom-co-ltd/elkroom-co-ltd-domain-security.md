@@ -34,7 +34,7 @@ tags:
 - Company
 - Gaming
 - Mobile
-- Consumer Apps
+- Consumer App
 - Game Launcher
 - AI Video
 - Social Platform

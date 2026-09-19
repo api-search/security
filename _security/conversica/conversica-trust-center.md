@@ -2,7 +2,7 @@
 api_specs:
 - filename: conversica-conversica-integrations-api-api-openapi.yml
   format: yaml
-  label: Conversica Conversica Integrations API
+  label: Conversica Integrations API
   slug: conversica-conversica-integrations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/openapi/conversica-conversica-integrations-api-api-openapi.yml

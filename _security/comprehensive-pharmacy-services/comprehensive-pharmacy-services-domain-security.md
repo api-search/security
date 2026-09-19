@@ -37,7 +37,7 @@ tags:
 - Healthcare
 - Specialty Pharmacy
 - Telepharmacy
-- Hospital
+- Hospitals
 - 340B
 - Software-as-a-Service
 ---

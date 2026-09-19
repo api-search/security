@@ -12,24 +12,12 @@ api_specs:
   slug: amazon-glue-databrew-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-jobs-api-openapi.yml
-- filename: amazon-glue-databrew-profilejobs-api-openapi.yml
-  format: yaml
-  label: Amazon Glue DataBrew ProfileJobs API
-  slug: amazon-glue-databrew-profilejobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-profilejobs-api-openapi.yml
 - filename: amazon-glue-databrew-projects-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Projects API
   slug: amazon-glue-databrew-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-projects-api-openapi.yml
-- filename: amazon-glue-databrew-recipejobs-api-openapi.yml
-  format: yaml
-  label: Amazon Glue DataBrew RecipeJobs API
-  slug: amazon-glue-databrew-recipejobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipejobs-api-openapi.yml
 - filename: amazon-glue-databrew-recipes-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Recipes API
@@ -60,6 +48,18 @@ api_specs:
   slug: amazon-glue-databrew-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-tags-api-openapi.yml
+- filename: amazon-glue-databrew-profile-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Glue DataBrew Profile Jobs API
+  slug: amazon-glue-databrew-profile-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-profile-jobs-api-openapi.yml
+- filename: amazon-glue-databrew-recipe-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Glue DataBrew Recipe Jobs API
+  slug: amazon-glue-databrew-recipe-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipe-jobs-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

@@ -47,7 +47,7 @@ tags:
 - Customers
 - Inventory
 - Catalog
-- Carriers
-- Stock
+- Carrier
+- Stocks
 - Tax
 ---

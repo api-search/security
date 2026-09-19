@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-prompt-enhancement-api-openapi.yml
 - filename: taste-taste-engine-api-api-openapi.yml
   format: yaml
-  label: Taste Taste Engine API API
+  label: Taste Engine API
   slug: taste-taste-engine-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-taste-engine-api-api-openapi.yml

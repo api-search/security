@@ -35,6 +35,5 @@ tags:
 - Telehealth
 - Primary Care
 - Digital Health
-- Telemedicine
 - HIPAA
 ---

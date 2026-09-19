@@ -58,6 +58,6 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - Direct to Consumer
-- Internet of Things
+- IoT
 - Transportation
 ---

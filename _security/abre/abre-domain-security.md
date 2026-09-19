@@ -41,5 +41,5 @@ tags:
 - OneRoster
 - Analytics
 - Dashboards
-- Single Sign On
+- SSO
 ---

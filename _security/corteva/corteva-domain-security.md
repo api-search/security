@@ -44,5 +44,5 @@ tags:
 - Herbicides
 - Insecticides
 - Pioneer
-- Seeds
+- Seed
 ---

@@ -123,7 +123,7 @@ tags:
 - Health
 - Workout Tracking
 - Strength Training
-- Consumer Apps
+- Consumer App
 - Mobile
 - Quantified Self
 - Personal Training

@@ -92,7 +92,7 @@ tags:
 - Crypto
 - Cryptocurrency
 - DEX Aggregator
-- Swaps
+- Swap
 - Blockchain
 - Wallets
 - Self-Custody

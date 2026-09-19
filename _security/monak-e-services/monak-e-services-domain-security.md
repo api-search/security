@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Banking
-- Remittance
+- Remittances
 - Payments
 - Super App
 - Middle East

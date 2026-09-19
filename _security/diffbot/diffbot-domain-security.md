@@ -12,48 +12,120 @@ api_specs:
   slug: diffbot-crawl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-crawl-openapi.json
-- filename: diffbot-bulk-openapi.json
-  format: json
-  label: Diffbot Bulk Extract API
-  slug: diffbot-bulk-extract-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-bulk-openapi.json
-- filename: diffbot-dql-openapi.json
-  format: json
-  label: Diffbot DQL API
-  slug: diffbot-dql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-dql-openapi.json
-- filename: diffbot-enhance-openapi.json
-  format: json
-  label: Diffbot Enhance API
-  slug: diffbot-enhance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-enhance-openapi.json
 - filename: diffbot-natural-language-openapi.json
   format: json
   label: Diffbot Natural Language API
   slug: diffbot-natural-language-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-natural-language-openapi.json
-- filename: diffbot-web-search-openapi.json
-  format: json
-  label: Diffbot Web Search API
-  slug: diffbot-web-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-web-search-openapi.json
-- filename: diffbot-account-openapi.json
-  format: json
-  label: Diffbot Account API
-  slug: diffbot-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-account-openapi.json
 - filename: diffbot-knowledge-graph-api-openapi.yml
   format: yaml
   label: Diffbot Knowledge Graph API
   slug: diffbot-knowledge-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-knowledge-graph-api-openapi.yml
+- filename: diffbot-account-api-openapi.yml
+  format: yaml
+  label: Diffbot Account API
+  slug: diffbot-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-account-api-openapi.yml
+- filename: diffbot-analyze-api-openapi.yml
+  format: yaml
+  label: Diffbot Analyze API
+  slug: diffbot-analyze-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-analyze-api-openapi.yml
+- filename: diffbot-article-api-openapi.yml
+  format: yaml
+  label: Diffbot Article API
+  slug: diffbot-article-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-article-api-openapi.yml
+- filename: diffbot-bulk-api-openapi.yml
+  format: yaml
+  label: Diffbot Bulk API
+  slug: diffbot-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-bulk-api-openapi.yml
+- filename: diffbot-bulk-enhance-api-openapi.yml
+  format: yaml
+  label: Diffbot Bulk Enhance API
+  slug: diffbot-bulk-enhance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-bulk-enhance-api-openapi.yml
+- filename: diffbot-combine-api-openapi.yml
+  format: yaml
+  label: Diffbot Combine API
+  slug: diffbot-combine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-combine-api-openapi.yml
+- filename: diffbot-custom-api-openapi.yml
+  format: yaml
+  label: Diffbot Custom API
+  slug: diffbot-custom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-custom-api-openapi.yml
+- filename: diffbot-discussion-api-openapi.yml
+  format: yaml
+  label: Diffbot Discussion API
+  slug: diffbot-discussion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-discussion-api-openapi.yml
+- filename: diffbot-dql-search-api-openapi.yml
+  format: yaml
+  label: Diffbot DQL Search API
+  slug: diffbot-dql-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-dql-search-api-openapi.yml
+- filename: diffbot-enhance-api-openapi.yml
+  format: yaml
+  label: Diffbot Enhance API
+  slug: diffbot-enhance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-enhance-api-openapi.yml
+- filename: diffbot-event-api-openapi.yml
+  format: yaml
+  label: Diffbot Event API
+  slug: diffbot-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-event-api-openapi.yml
+- filename: diffbot-image-api-openapi.yml
+  format: yaml
+  label: Diffbot Image API
+  slug: diffbot-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-image-api-openapi.yml
+- filename: diffbot-job-api-openapi.yml
+  format: yaml
+  label: Diffbot Job API
+  slug: diffbot-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-job-api-openapi.yml
+- filename: diffbot-list-api-openapi.yml
+  format: yaml
+  label: Diffbot List API
+  slug: diffbot-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-list-api-openapi.yml
+- filename: diffbot-product-api-openapi.yml
+  format: yaml
+  label: Diffbot Product API
+  slug: diffbot-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-product-api-openapi.yml
+- filename: diffbot-video-api-openapi.yml
+  format: yaml
+  label: Diffbot Video API
+  slug: diffbot-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-video-api-openapi.yml
+- filename: diffbot-web-search-api-openapi.yml
+  format: yaml
+  label: Diffbot Web Search API
+  slug: diffbot-web-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-web-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +178,7 @@ tags:
 - Knowledge Graph
 - Crawling
 - Web Search
-- Natural Language
+- Natural-Language
 - Entity Resolution
-- AI
+- Artificial Intelligence
 ---

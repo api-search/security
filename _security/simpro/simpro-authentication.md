@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Field Service Management
-- Trades
+- Trade
 - Job Management
 - Project Management
 - Scheduling

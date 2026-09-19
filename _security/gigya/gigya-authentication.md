@@ -52,7 +52,7 @@ tags:
 - Authentication
 - CIAM
 - Customer Identity
-- Single Sign-On
+- SSO
 - Consent Management
 - SAP
 ---

@@ -78,7 +78,7 @@ tags:
 - Retail
 - Marketplace
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Electric Bikes
 - Micromobility

@@ -34,7 +34,7 @@ tags:
 - Fundraising
 - Startups
 - Crowdfunding
-- Investors
+- Investor
 - Fintech
 - Software-as-a-Service
 ---

@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-jobs-api-openapi.yml
 - filename: wellhub-oauth-api-openapi.yml
   format: yaml
-  label: Wellhub OAuth API
+  label: Wellhub O Auth API
   slug: wellhub-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-oauth-api-openapi.yml
@@ -63,7 +63,7 @@ tags:
 - Wellbeing
 - Corporate Benefits
 - Fitness
-- HR
+- Human Resources
 - Eligibility
 - Employee Benefits
 ---

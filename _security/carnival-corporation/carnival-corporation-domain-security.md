@@ -51,7 +51,7 @@ tags:
 - Cruise Lines
 - Travel
 - Hospitality
-- Mobile Apps
+- Mobile App
 - Loyalty
 - Wearables
 ---

@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: amazon-step-functions-executions-api-openapi.yml
-  format: yaml
-  label: Amazon Step Functions Executions API
-  slug: amazon-step-functions-executions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/openapi/amazon-step-functions-executions-api-openapi.yml
-- filename: amazon-step-functions-history-api-openapi.yml
-  format: yaml
-  label: Amazon Step Functions History API
-  slug: amazon-step-functions-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/openapi/amazon-step-functions-history-api-openapi.yml
-- filename: amazon-step-functions-state-machines-api-openapi.yml
-  format: yaml
-  label: Amazon Step Functions State Machines API
-  slug: amazon-step-functions-state-machines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/openapi/amazon-step-functions-state-machines-api-openapi.yml
 - filename: amazon-step-functions-x-amz-target-awsstepfunctions-createactivity-api-openapi.yml
   format: yaml
   label: 'Amazon Step Functions #X Amz Target=AWSStepFunctions.CreateActivity API'

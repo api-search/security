@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Formula 1
-- Motorsport
+- Motorsports
 - Telemetry
 - Real-Time
 - Sports

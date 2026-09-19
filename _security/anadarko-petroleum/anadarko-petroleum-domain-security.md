@@ -51,4 +51,5 @@ tags:
 - Petroleum
 - Upstream
 - Fortune 500
+- Defunct
 ---

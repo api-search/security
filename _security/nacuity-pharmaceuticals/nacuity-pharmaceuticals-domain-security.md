@@ -12,12 +12,6 @@ api_specs:
   slug: nacuity-pharmaceuticals-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/openapi/nacuity-pharmaceuticals-media-api-openapi.yml
-- filename: nacuity-pharmaceuticals-oembed-api-openapi.yml
-  format: yaml
-  label: Nacuity Pharmaceuticals Oembed API
-  slug: nacuity-pharmaceuticals-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/openapi/nacuity-pharmaceuticals-oembed-api-openapi.yml
 - filename: nacuity-pharmaceuticals-pages-api-openapi.yml
   format: yaml
   label: Nacuity Pharmaceuticals Pages API
@@ -54,6 +48,12 @@ api_specs:
   slug: nacuity-pharmaceuticals-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/openapi/nacuity-pharmaceuticals-taxonomy-api-openapi.yml
+- filename: nacuity-pharmaceuticals-o-embed-api-openapi.yml
+  format: yaml
+  label: Nacuity Pharmaceuticals o Embed API
+  slug: nacuity-pharmaceuticals-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/openapi/nacuity-pharmaceuticals-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacuity-pharma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Pharmaceuticals
 - Ophthalmology
 - Rare Disease

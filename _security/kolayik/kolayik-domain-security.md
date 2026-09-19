@@ -111,7 +111,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Human Resources
-- HR
 - Payroll
 - HCM
 - Employee Management

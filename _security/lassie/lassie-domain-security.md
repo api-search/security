@@ -42,5 +42,5 @@ tags:
 - Germany
 - France
 - Financial-Services
-- Mobile Application
+- Mobile Applications
 ---

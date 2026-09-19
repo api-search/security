@@ -2,7 +2,7 @@
 api_specs:
 - filename: just-eat-attempted-delivery-api-api-openapi.yml
   format: yaml
-  label: Just Eat Attempted Delivery API API
+  label: Just Eat Attempted Delivery API
   slug: just-eat-attempted-delivery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-attempted-delivery-api-api-openapi.yml
@@ -38,19 +38,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-consumers-api-openapi.yml
 - filename: just-eat-delivery-pools-api-api-openapi.yml
   format: yaml
-  label: Just Eat Delivery Pools API API
+  label: Just Eat Delivery Pools API
   slug: just-eat-delivery-pools-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-delivery-pools-api-api-openapi.yml
-- filename: just-eat-deliveryfee-api-openapi.yml
-  format: yaml
-  label: Just Eat DeliveryFee API
-  slug: just-eat-deliveryfee-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-deliveryfee-api-openapi.yml
 - filename: just-eat-order-acceptance-api-api-openapi.yml
   format: yaml
-  label: Just Eat Order Acceptance API API
+  label: Just Eat Order Acceptance API
   slug: just-eat-order-acceptance-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-order-acceptance-api-api-openapi.yml
@@ -62,13 +56,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-order-acceptance-webhooks-api-openapi.yml
 - filename: just-eat-order-api-api-openapi.yml
   format: yaml
-  label: Just Eat Order API API
+  label: Just Eat Order API
   slug: just-eat-order-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-order-api-api-openapi.yml
 - filename: just-eat-order-delivery-api-api-openapi.yml
   format: yaml
-  label: Just Eat Order Delivery API API
+  label: Just Eat Order Delivery API
   slug: just-eat-order-delivery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-order-delivery-api-api-openapi.yml
@@ -138,6 +132,12 @@ api_specs:
   slug: just-eat-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-search-api-openapi.yml
+- filename: just-eat-delivery-fee-api-openapi.yml
+  format: yaml
+  label: Just Eat Delivery fee API
+  slug: just-eat-delivery-fee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-delivery-fee-api-openapi.yml
 description: ''
 domains:
 - caa: []

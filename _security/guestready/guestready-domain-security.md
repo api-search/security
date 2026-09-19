@@ -415,7 +415,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guestready/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Property Management
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 - Hospitality
 - Travel

@@ -24,7 +24,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acto/refs/head
 summary_line: SOC 2 Type 2, ISO/IEC 27001, GDPR, FDA 21 CFR Part 11
 tags:
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Sales Enablement
 - Learning Management
 - Field Force Effectiveness

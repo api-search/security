@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: fudan-identity-openapi.yml
+- filename: fudan-authorization-api-openapi.yml
   format: yaml
-  label: Fudan University Unified Identity — OpenID Connect
-  slug: identity-oidc
+  label: Fudan University Authorization API
+  slug: fudan-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/openapi/fudan-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/openapi/fudan-authorization-api-openapi.yml
+- filename: fudan-discovery-api-openapi.yml
+  format: yaml
+  label: Fudan University Discovery API
+  slug: fudan-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/openapi/fudan-discovery-api-openapi.yml
+- filename: fudan-identity-api-openapi.yml
+  format: yaml
+  label: Fudan University Identity API
+  slug: fudan-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/openapi/fudan-identity-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -41,5 +53,5 @@ tags:
 - C9 League
 - Identity Federation
 - Research Data
-- Single Sign-On
+- SSO
 ---

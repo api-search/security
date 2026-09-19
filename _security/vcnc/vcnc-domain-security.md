@@ -35,6 +35,6 @@ tags:
 - Ride Hailing
 - Messaging
 - Social
-- Consumer Apps
-- Korea
+- Consumer App
+- South Korea
 ---

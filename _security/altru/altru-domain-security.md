@@ -38,7 +38,7 @@ tags:
 - Company
 - Talent Acquisition
 - Recruitment Marketing
-- HR Tech
+- Human Resources
 - Video
 - Employee Generated Content
 - Employer Branding

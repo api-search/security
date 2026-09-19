@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: delta-lake-delta-sharing-protocol-openapi.yml
+- filename: delta-lake-schemas-api-openapi.yml
   format: yaml
-  label: Delta Sharing Protocol
-  slug: delta-sharing
+  label: Delta Lake Schemas API
+  slug: delta-lake-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-delta-sharing-protocol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-schemas-api-openapi.yml
+- filename: delta-lake-shares-api-openapi.yml
+  format: yaml
+  label: Delta Lake Shares API
+  slug: delta-lake-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-shares-api-openapi.yml
+- filename: delta-lake-tables-api-openapi.yml
+  format: yaml
+  label: Delta Lake Tables API
+  slug: delta-lake-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/openapi/delta-lake-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []

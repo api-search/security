@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/security/uspto-trademark-search-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Brand
+- Brands
 - Brand Protection
 - Business
 - Data
@@ -74,6 +74,6 @@ tags:
 - Intellectual Property
 - Legal
 - Search
-- Trademark
+- Trademarks
 - USPTO
 ---

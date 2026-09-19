@@ -222,12 +222,12 @@ api_specs:
   slug: omni-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/openapi/omni-users-api-openapi.yml
-- filename: omni-who-am-i-api-openapi.yml
+- filename: omni-whoami-api-openapi.yml
   format: yaml
-  label: Omni Who Am I API
-  slug: omni-who-am-i-api
+  label: Omni Whoami API
+  slug: omni-whoami-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/openapi/omni-who-am-i-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/openapi/omni-whoami-api-openapi.yml
 description: ''
 domains:
 - caa: []

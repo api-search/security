@@ -99,7 +99,7 @@ tags:
 - Company
 - Delivery Management
 - Liquor Retail
-- Convenience Store
+- Convenience Stores
 - Point-of-Sale
 - Food Delivery
 - Retail Technology

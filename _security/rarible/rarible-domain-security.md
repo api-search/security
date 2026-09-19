@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-reconciliation-api-openapi.yml
 - filename: rarible-search-api-api-openapi.yml
   format: yaml
-  label: Rarible Search API API
+  label: Rarible Search API
   slug: rarible-search-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-search-api-api-openapi.yml

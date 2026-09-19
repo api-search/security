@@ -35,7 +35,6 @@ tags:
 - Telehealth
 - Healthcare
 - Digital Health
-- Telemedicine
 - Marketplace
 - Consumer Health
 - Prescriptions

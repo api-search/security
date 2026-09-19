@@ -67,7 +67,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Public Transit
 - Transport
-- UK
+- United Kingdom
 - Real-Time
 - Journey Planning
 - Bus

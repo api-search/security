@@ -192,12 +192,6 @@ api_specs:
   slug: pure-storage-file-system-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/openapi/pure-storage-file-system-snapshots-api-openapi.yml
-- filename: pure-storage-file-systems-api-openapi.yml
-  format: yaml
-  label: Pure Storage File Systems API
-  slug: pure-storage-file-systems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/openapi/pure-storage-file-systems-api-openapi.yml
 - filename: pure-storage-files-api-openapi.yml
   format: yaml
   label: Pure Storage Files API
@@ -774,6 +768,12 @@ api_specs:
   slug: pure-storage-workloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/openapi/pure-storage-workloads-api-openapi.yml
+- filename: pure-storage-filesystems-api-openapi.yml
+  format: yaml
+  label: Pure Storage Filesystems API
+  slug: pure-storage-filesystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/openapi/pure-storage-filesystems-api-openapi.yml
 description: ''
 domains:
 - caa:

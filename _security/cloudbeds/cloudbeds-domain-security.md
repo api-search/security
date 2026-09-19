@@ -6,24 +6,12 @@ api_specs:
   slug: cloudbeds-access-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-access-token-api-openapi.yml
-- filename: cloudbeds-deletewebhook-api-openapi.yml
-  format: yaml
-  label: Cloudbeds DeleteWebhook API
-  slug: cloudbeds-deletewebhook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-deletewebhook-api-openapi.yml
 - filename: cloudbeds-getavailableroomtypes-api-openapi.yml
   format: yaml
   label: Cloudbeds GetAvailableRoomTypes API
   slug: cloudbeds-getavailableroomtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getavailableroomtypes-api-openapi.yml
-- filename: cloudbeds-getdashboard-api-openapi.yml
-  format: yaml
-  label: Cloudbeds GetDashboard API
-  slug: cloudbeds-getdashboard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getdashboard-api-openapi.yml
 - filename: cloudbeds-getguest-api-openapi.yml
   format: yaml
   label: Cloudbeds GetGuest API
@@ -96,12 +84,6 @@ api_specs:
   slug: cloudbeds-getusers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getusers-api-openapi.yml
-- filename: cloudbeds-getwebhooks-api-openapi.yml
-  format: yaml
-  label: Cloudbeds GetWebhooks API
-  slug: cloudbeds-getwebhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-getwebhooks-api-openapi.yml
 - filename: cloudbeds-postcharge-api-openapi.yml
   format: yaml
   label: Cloudbeds PostCharge API
@@ -168,12 +150,30 @@ api_specs:
   slug: cloudbeds-putreservation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-putreservation-api-openapi.yml
-- filename: cloudbeds-userinfo-api-openapi.yml
+- filename: cloudbeds-delete-webhook-api-openapi.yml
   format: yaml
-  label: Cloudbeds Userinfo API
-  slug: cloudbeds-userinfo-api
+  label: Cloudbeds Delete Webhook API
+  slug: cloudbeds-delete-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-userinfo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-delete-webhook-api-openapi.yml
+- filename: cloudbeds-get-dashboard-api-openapi.yml
+  format: yaml
+  label: Cloudbeds Get Dashboard API
+  slug: cloudbeds-get-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-get-dashboard-api-openapi.yml
+- filename: cloudbeds-get-webhooks-api-openapi.yml
+  format: yaml
+  label: Cloudbeds Get Webhooks API
+  slug: cloudbeds-get-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-get-webhooks-api-openapi.yml
+- filename: cloudbeds-user-info-api-openapi.yml
+  format: yaml
+  label: Cloudbeds User Info API
+  slug: cloudbeds-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/openapi/cloudbeds-user-info-api-openapi.yml
 description: ''
 domains:
 - caa: []

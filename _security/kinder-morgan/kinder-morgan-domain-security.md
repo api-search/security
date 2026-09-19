@@ -37,5 +37,5 @@ tags:
 - Midstream
 - Natural Gas
 - Pipelines
-- Terminals
+- Terminal
 ---

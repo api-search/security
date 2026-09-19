@@ -34,8 +34,7 @@ tags:
 - Company
 - Healthcare
 - Consumer
-- Telemedicine
-- Digital Health
 - Telehealth
+- Digital Health
 - Germany
 ---

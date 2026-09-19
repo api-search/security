@@ -77,7 +77,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - LLM Platform
 - Prompt Management
-- Evaluations
+- Evaluation
 - LLMOps
 - Observability
 - Datasets

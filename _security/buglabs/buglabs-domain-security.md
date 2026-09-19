@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Enterprise Software
-- Internet of Things
+- IoT
 - Workflow-Automation
 - API Orchestration
 - Networking

@@ -34,6 +34,6 @@ tags:
 - People Analytics
 - Employee Experience
 - Burnout Prevention
-- HR Tech
+- Human Resources
 - Artificial Intelligence
 ---

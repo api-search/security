@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: ankr-evm-api-openapi.yml
-  format: yaml
-  label: ankr EVM API
-  slug: ankr-evm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-evm-api-openapi.yml
 - filename: ankr-metrics-api-openapi.yml
   format: yaml
   label: ankr Metrics API
@@ -86,5 +80,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ankr-advanced-api-openapi.yml, openapi/ankr-automation-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: API_KEY\n  description: Premium Plan API key passed as the trailing path segment.\n  sources:\n  - openapi/ankr-advanced-api-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/ankr-automation-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/authentication/ankr-authentication.yml
 summary_line: apiKey/http · 2 schemes
-tags: []
+tags:
+- Web3
+- EVM
+- NFT
 ---

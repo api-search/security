@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: langfuse-annotationqueues-api-openapi.yml
-  format: yaml
-  label: Langfuse AnnotationQueues API
-  slug: langfuse-annotationqueues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-annotationqueues-api-openapi.yml
 - filename: langfuse-blobstorageintegrations-api-openapi.yml
   format: yaml
   label: Langfuse BlobStorageIntegrations API
@@ -98,12 +92,6 @@ api_specs:
   slug: langfuse-observations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-observations-api-openapi.yml
-- filename: langfuse-opentelemetry-api-openapi.yml
-  format: yaml
-  label: Langfuse Opentelemetry API
-  slug: langfuse-opentelemetry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-opentelemetry-api-openapi.yml
 - filename: langfuse-organizations-api-openapi.yml
   format: yaml
   label: Langfuse Organizations API
@@ -170,6 +158,18 @@ api_specs:
   slug: langfuse-unstableevaluators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-unstableevaluators-api-openapi.yml
+- filename: langfuse-annotation-queues-api-openapi.yml
+  format: yaml
+  label: Langfuse Annotation Queues API
+  slug: langfuse-annotation-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-annotation-queues-api-openapi.yml
+- filename: langfuse-open-telemetry-api-openapi.yml
+  format: yaml
+  label: Langfuse Open Telemetry API
+  slug: langfuse-open-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/openapi/langfuse-open-telemetry-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -202,5 +202,5 @@ tags:
 - LLM
 - Observability
 - Open-Source
-- Evaluations
+- Evaluation
 ---

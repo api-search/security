@@ -36,6 +36,6 @@ tags:
 - Mobility
 - Travel
 - Bus
-- Train
+- Trains
 - Ground Transportation
 ---

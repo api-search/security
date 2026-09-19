@@ -53,7 +53,7 @@ tags:
 - Ethereum
 - Restaking
 - EigenLayer
-- Rollups
+- Rollup
 - Layer 2
 - Web3
 - gRPC

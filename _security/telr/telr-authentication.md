@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-hosted-payment-page-api-openapi.yml
 - filename: telr-payments-api-api-openapi.yml
   format: yaml
-  label: Telr Payments API API
+  label: Telr Payments API
   slug: telr-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-payments-api-api-openapi.yml
@@ -73,5 +73,5 @@ tags:
 - Payment Gateway
 - Fintech
 - MENA
-- UAE
+- United Arab Emirates
 ---

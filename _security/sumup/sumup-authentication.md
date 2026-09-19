@@ -116,7 +116,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Payments
 - Point-of-Sale
-- Card Readers
+- Card Reader
 - Checkout
 - Fintech
 - Mobile Payments

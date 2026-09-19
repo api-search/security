@@ -36,6 +36,6 @@ tags:
 - Digital Prescriptions
 - e-Prescribing
 - Pharmacy
-- Telemedicine
+- Telehealth
 - Brazil
 ---

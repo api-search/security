@@ -82,6 +82,6 @@ tags:
 - Reseller
 - Sales Orders
 - Provisioning
-- Single Sign-On
+- SSO
 - Azure API Management
 ---

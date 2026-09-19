@@ -36,6 +36,66 @@ api_specs:
   slug: power-bi-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-reports-api-openapi.yml
+- filename: power-bi-apps-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Apps API
+  slug: microsoft-power-bi-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-apps-api-openapi.yml
+- filename: power-bi-capacities-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Capacities API
+  slug: microsoft-power-bi-capacities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-capacities-api-openapi.yml
+- filename: power-bi-dashboards-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Dashboards API
+  slug: microsoft-power-bi-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-dashboards-api-openapi.yml
+- filename: power-bi-dataflows-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Dataflows API
+  slug: microsoft-power-bi-dataflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-dataflows-api-openapi.yml
+- filename: power-bi-datasets-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Datasets API
+  slug: microsoft-power-bi-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-datasets-api-openapi.yml
+- filename: power-bi-embedtoken-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI EmbedToken API
+  slug: microsoft-power-bi-embedtoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-embedtoken-api-openapi.yml
+- filename: power-bi-gateways-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Gateways API
+  slug: microsoft-power-bi-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-gateways-api-openapi.yml
+- filename: power-bi-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Groups API
+  slug: microsoft-power-bi-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-groups-api-openapi.yml
+- filename: power-bi-imports-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Imports API
+  slug: microsoft-power-bi-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-imports-api-openapi.yml
+- filename: power-bi-reports-api-openapi.yml
+  format: yaml
+  label: Microsoft Power BI Reports API
+  slug: microsoft-power-bi-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-reports-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,4 +153,5 @@ tags:
 - Data Analysis
 - Reporting
 - Visualization
+- Power BI
 ---

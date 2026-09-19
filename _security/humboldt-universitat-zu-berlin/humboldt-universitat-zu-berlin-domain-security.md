@@ -12,12 +12,24 @@ api_specs:
   slug: edoc-oai
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-oai-pmh-api-openapi.yml
-- filename: humboldt-universitat-zu-berlin-laudatio-repository-api-openapi.yml
+- filename: humboldt-universitat-zu-berlin-annotations-api-openapi.yml
   format: yaml
-  label: LAUDATIO-Repository REST API
-  slug: laudatio-repository-api
+  label: Humboldt-Universität zu Berlin Annotations API
+  slug: humboldt-universitat-zu-berlin-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-laudatio-repository-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-annotations-api-openapi.yml
+- filename: humboldt-universitat-zu-berlin-corpora-api-openapi.yml
+  format: yaml
+  label: Humboldt-Universität zu Berlin Corpora API
+  slug: humboldt-universitat-zu-berlin-corpora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-corpora-api-openapi.yml
+- filename: humboldt-universitat-zu-berlin-documents-api-openapi.yml
+  format: yaml
+  label: Humboldt-Universität zu Berlin Documents API
+  slug: humboldt-universitat-zu-berlin-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-documents-api-openapi.yml
 description: ''
 domains:
 - caa: []

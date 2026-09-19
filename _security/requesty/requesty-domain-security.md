@@ -76,6 +76,6 @@ tags:
 - Artificial Intelligence
 - LLM
 - Routing
-- Gateway
+- Gateways
 - Observability
 ---

@@ -426,7 +426,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingsboard/re
 summary_line: apiKey/http · 2 schemes
 tags:
 - IoT
-- Internet of Things
 - Device Management
 - Telemetry
 - Open-Source

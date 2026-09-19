@@ -97,6 +97,6 @@ tags:
 - Learning Management
 - Employee Recognition
 - Talent Management
-- OKR
+- OKRs
 - People Operations
 ---

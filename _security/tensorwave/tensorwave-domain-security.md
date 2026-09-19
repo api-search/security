@@ -86,5 +86,5 @@ tags:
 - Inference
 - Model Training
 - High Performance Computing
-- Data Centers
+- Data-Center
 ---

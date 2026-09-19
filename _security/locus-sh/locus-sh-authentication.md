@@ -9,12 +9,6 @@ api_specs:
   slug: locus-sh-homebasemaster-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-homebasemaster-api-openapi.yml
-- filename: locus-sh-locationmaster-api-openapi.yml
-  format: yaml
-  label: Locus LocationMaster API
-  slug: locus-sh-locationmaster-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-locationmaster-api-openapi.yml
 - filename: locus-sh-order-api-openapi.yml
   format: yaml
   label: Locus Order API
@@ -69,12 +63,6 @@ api_specs:
   slug: locus-sh-shifttag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-shifttag-api-openapi.yml
-- filename: locus-sh-skumaster-api-openapi.yml
-  format: yaml
-  label: Locus SKUMaster API
-  slug: locus-sh-skumaster-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-skumaster-api-openapi.yml
 - filename: locus-sh-teammaster-api-openapi.yml
   format: yaml
   label: Locus TeamMaster API
@@ -99,6 +87,18 @@ api_specs:
   slug: locus-sh-vehiclemodel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-vehiclemodel-api-openapi.yml
+- filename: locus-sh-location-master-api-openapi.yml
+  format: yaml
+  label: Locus Location Master API
+  slug: locus-sh-location-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-location-master-api-openapi.yml
+- filename: locus-sh-sku-master-api-openapi.yml
+  format: yaml
+  label: Locus SKU Master API
+  slug: locus-sh-sku-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-sku-master-api-openapi.yml
 auth_types:
 - apiKey
 - http

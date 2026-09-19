@@ -107,6 +107,6 @@ tags:
 - Employment Screening
 - Identity Verification
 - Compliance
-- HR Tech
+- Human Resources
 - Screening
 ---

@@ -88,7 +88,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Returns
 - E-Commerce
-- Exchanges
+- Exchange
 - Refunds
 - Shipping
 - Post-Purchase

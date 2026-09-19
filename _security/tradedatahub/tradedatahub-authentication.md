@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: TradeDataHub Public API
-  slug: tradedatahub-public-api
+- filename: tradedatahub-commerce-api-openapi.yml
+  format: yaml
+  label: TradeDataHub Public API Commerce API
+  slug: tradedatahub-commerce-api
   spec_type: OpenAPI
-  url: https://www.tradedatahub.net/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/openapi/tradedatahub-commerce-api-openapi.yml
+- filename: tradedatahub-datasets-api-openapi.yml
+  format: yaml
+  label: TradeDataHub Public API Datasets API
+  slug: tradedatahub-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/openapi/tradedatahub-datasets-api-openapi.yml
+- filename: tradedatahub-discovery-api-openapi.yml
+  format: yaml
+  label: TradeDataHub Public API Discovery API
+  slug: tradedatahub-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/openapi/tradedatahub-discovery-api-openapi.yml
 auth_types: []
 description: TradeDataHub publishes NO securitySchemes in its OpenAPI 3.1.0 contract, and none of the eleven documented operations declares a security requirement. Every discovery endpoint under /api/v1/ is genuinely unauthenticated and was called anonymously during this pass. The only credential-bearing surface is the paid retrieval endpoint, which uses an x402 PAYMENT-SIGNATURE header rather than an API key, bearer token or OAuth flow.
 kind: authentication

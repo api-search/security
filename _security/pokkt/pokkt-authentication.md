@@ -89,5 +89,5 @@ tags:
 - Ad Serving
 - Connected TV
 - Supply Side Platform
-- Demand-Side Platform
+- DSP
 ---

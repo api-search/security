@@ -14,12 +14,6 @@ api_specs:
   slug: altoira-investment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-investment-api-openapi.yml
-- filename: altoira-oauth-api-openapi.yml
-  format: yaml
-  label: AltoIRA OAUTH API
-  slug: altoira-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-oauth-api-openapi.yml
 - filename: altoira-offering-api-openapi.yml
   format: yaml
   label: AltoIRA Offering API
@@ -32,6 +26,12 @@ api_specs:
   slug: altoira-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-user-api-openapi.yml
+- filename: altoira-oauth-api-openapi.yml
+  format: yaml
+  label: AltoIRA OAUTH API
+  slug: altoira-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2

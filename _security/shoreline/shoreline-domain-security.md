@@ -35,4 +35,5 @@ tags:
 - Remediation
 - Observability
 - Terraform
+- Defunct
 ---

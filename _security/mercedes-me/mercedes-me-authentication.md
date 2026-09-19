@@ -169,7 +169,7 @@ summary_line: 3 schemes
 tags:
 - Automotive
 - Connected Car
-- Connected Vehicle
+- Connected Vehicles
 - Daimler
 - Fleet Management
 - Mercedes me

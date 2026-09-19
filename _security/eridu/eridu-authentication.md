@@ -38,12 +38,12 @@ api_specs:
   slug: eridu-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-discovery-api-openapi.yml
-- filename: eridu-oembed-api-openapi.yml
+- filename: eridu-o-embed-api-openapi.yml
   format: yaml
-  label: Eridu oEmbed API
-  slug: eridu-oembed-api
+  label: Eridu o Embed API
+  slug: eridu-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -85,7 +85,7 @@ tags:
 - AI Infrastructure
 - Networking
 - Semiconductors
-- Data Centers
+- Data-Center
 - Silicon
 - Network Switching
 - Interconnect

@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ledgy-graphql-api-openapi.yml
+- filename: ledgy-graph-ql-api-openapi.yml
   format: yaml
-  label: Ledgy GraphQL API
-  slug: ledgy-graphql-api
+  label: Ledgy Graph QL API
+  slug: ledgy-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''

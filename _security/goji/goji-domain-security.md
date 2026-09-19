@@ -44,8 +44,8 @@ tags:
 - Company
 - Fintech
 - Private Markets
-- Investments
-- Funds
+- Investment
+- Fund
 - KYC
 - Payments
 - ISA

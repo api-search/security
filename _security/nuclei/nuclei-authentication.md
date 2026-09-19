@@ -99,12 +99,6 @@ api_specs:
   slug: nuclei-leaks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-leaks-api-openapi.yml
-- filename: nuclei-oauth-api-openapi.yml
-  format: yaml
-  label: Nuclei oauth API
-  slug: nuclei-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-oauth-api-openapi.yml
 - filename: nuclei-payment-api-openapi.yml
   format: yaml
   label: Nuclei Payment API
@@ -213,6 +207,12 @@ api_specs:
   slug: nuclei-vulns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-vulns-api-openapi.yml
+- filename: nuclei-oauth-api-openapi.yml
+  format: yaml
+  label: Nuclei OAUTH API
+  slug: nuclei-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-oauth-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

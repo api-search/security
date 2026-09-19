@@ -38,7 +38,7 @@ tags:
 - Power over Air
 - Hardware
 - Semiconductors
-- Internet of Things
+- IoT
 - IoT Sensors
 - Consumer Electronics
 - Automotive

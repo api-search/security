@@ -93,12 +93,6 @@ api_specs:
   slug: vital-io-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-team-api-openapi.yml
-- filename: vital-io-timeseries-api-openapi.yml
-  format: yaml
-  label: Vital timeseries API
-  slug: vital-io-timeseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-timeseries-api-openapi.yml
 - filename: vital-io-user-api-openapi.yml
   format: yaml
   label: Vital user API
@@ -117,6 +111,12 @@ api_specs:
   slug: vital-io-lab-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-testing-api-openapi.yml
+- filename: vital-io-time-series-api-openapi.yml
+  format: yaml
+  label: Vital Time Series API
+  slug: vital-io-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-time-series-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

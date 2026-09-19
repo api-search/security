@@ -122,6 +122,6 @@ tags:
 - MCP
 - Artificial Intelligence
 - Hong Kong
-- APAC
+- Asia Pacific
 trust_url: https://eventx.io/data-protection-and-security
 ---

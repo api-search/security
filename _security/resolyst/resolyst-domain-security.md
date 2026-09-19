@@ -38,5 +38,5 @@ tags:
 - Digital Health
 - Clinical Research
 - Artificial Intelligence
-- Telemedicine
+- Telehealth
 ---

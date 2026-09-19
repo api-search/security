@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unison-computi
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
-- Programming Languages
+- Programming Language
 - Cloud Computing
 - Developer Tools
 - Functional Programming

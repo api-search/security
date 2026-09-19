@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amazon-detective-datasources-api-openapi.yml
-  format: yaml
-  label: Amazon Detective Datasources API
-  slug: amazon-detective-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-datasources-api-openapi.yml
 - filename: amazon-detective-graph-api-openapi.yml
   format: yaml
   label: Amazon Detective Graph API
@@ -42,6 +36,12 @@ api_specs:
   slug: amazon-detective-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-tags-api-openapi.yml
+- filename: amazon-detective-data-sources-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Data Sources API
+  slug: amazon-detective-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,6 +83,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-detecti
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forensics
-- Investigation
+- Investigations
 - Security
 ---

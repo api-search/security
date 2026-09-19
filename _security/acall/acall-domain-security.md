@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: acall-public-api-openapi.yml
+- filename: acall-event-api-api-openapi.yml
   format: yaml
-  label: Acall Public API
-  slug: acall-public-api
+  label: Acall Event API
+  slug: acall-event-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-event-api-api-openapi.yml
+- filename: acall-facility-api-api-openapi.yml
+  format: yaml
+  label: Acall Facility API
+  slug: acall-facility-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-facility-api-api-openapi.yml
+- filename: acall-gate-api-api-openapi.yml
+  format: yaml
+  label: Acall Gate API
+  slug: acall-gate-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-gate-api-api-openapi.yml
+- filename: acall-spot-api-api-openapi.yml
+  format: yaml
+  label: Acall Spot API
+  slug: acall-spot-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-spot-api-api-openapi.yml
+- filename: acall-spot-reservation-api-api-openapi.yml
+  format: yaml
+  label: Acall Spot Reservation API
+  slug: acall-spot-reservation-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-spot-reservation-api-api-openapi.yml
+- filename: acall-user-api-api-openapi.yml
+  format: yaml
+  label: Acall User API
+  slug: acall-user-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-user-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,5 +91,5 @@ tags:
 - Facilities
 - Smart Office
 - Japan
-- SaaS
+- Software-as-a-Service
 ---

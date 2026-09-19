@@ -53,7 +53,7 @@ tags:
 - Thought Leadership
 - Social-Media
 - Lead Generation
-- Persona
+- Personas
 - Y Combinator
 - Software-as-a-Service
 ---

@@ -104,7 +104,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
 - Connected Car
-- Connected Vehicle
+- Connected Vehicles
 - Daimler
 - Fleet Management
 - Mercedes me

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 1000
 - Digital Infrastructure
-- Data Centers
+- Data-Center
 - Cell Towers
 - Fiber
 - Edge Computing

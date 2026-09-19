@@ -34,7 +34,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Senior Care
 - Dementia Care
 - Skilled Nursing

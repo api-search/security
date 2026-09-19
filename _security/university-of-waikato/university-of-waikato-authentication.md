@@ -2,12 +2,24 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: university-of-waikato-uowidp-openapi.yml
+- filename: university-of-waikato-authentication-api-openapi.yml
   format: yaml
-  label: University of Waikato Identity Provider (uowidp)
-  slug: uowidp
+  label: University of Waikato Authentication API
+  slug: university-of-waikato-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-uowidp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-authentication-api-openapi.yml
+- filename: university-of-waikato-discovery-api-openapi.yml
+  format: yaml
+  label: University of Waikato Discovery API
+  slug: university-of-waikato-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-discovery-api-openapi.yml
+- filename: university-of-waikato-session-api-openapi.yml
+  format: yaml
+  label: University of Waikato Session API
+  slug: university-of-waikato-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-session-api-openapi.yml
 auth_types:
 - openIdConnect
 - http
@@ -166,5 +178,5 @@ tags:
 - SAML
 - OpenID Connect
 - Learning Management
-- Machine Learning
+- Machine-Learning
 ---

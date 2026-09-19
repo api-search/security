@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-documents-api-openapi.yml
 - filename: infor-m3-api-api-openapi.yml
   format: yaml
-  label: Infor M3 API API
+  label: Infor M3 API
   slug: infor-m3-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "sectigo.com"
+  - 0 issuewild "amazon.com"
   - 0 issuewild "comodoca.com"
   - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
-  - 0 issuewild "letsencrypt.org"
-  - 0 issuewild "sectigo.com"
-  - 0 iodef "mailto:mad@infor.com"
-  - 0 issue "amazon.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -33,9 +33,9 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- host: mingledev01-ionapi.mingle.infor.com
-  https: false
 - host: api.infor.com
+  https: false
+- host: mingledev01-ionapi.mingle.infor.com
   https: false
 hosts_probed: 3
 kind: domain-security
@@ -50,7 +50,7 @@ slug: infor-domain-security
 source_filename: infor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: mingledev01-ionapi.mingle.infor.com\n  https: false\n- host: api.infor.com\n  https: false\ndomains:\n- domain: infor.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:mad@infor.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.infor.com\n  https: false\n- host: mingledev01-ionapi.mingle.infor.com\n  https: false\ndomains:\n- domain: infor.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/security/infor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

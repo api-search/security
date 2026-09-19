@@ -8,12 +8,6 @@ api_specs:
   slug: jane-app-appointments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-appointments-api-openapi.yml
-- filename: jane-app-careplans-api-openapi.yml
-  format: yaml
-  label: Jane Care Plans API
-  slug: jane-app-careplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-careplans-api-openapi.yml
 - filename: jane-app-catalog-api-openapi.yml
   format: yaml
   label: Jane Catalog API
@@ -68,12 +62,6 @@ api_specs:
   slug: jane-app-patients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-patients-api-openapi.yml
-- filename: jane-app-staffmembers-api-openapi.yml
-  format: yaml
-  label: Jane Staff Members API
-  slug: jane-app-staffmembers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-staffmembers-api-openapi.yml
 - filename: jane-app-treatments-api-openapi.yml
   format: yaml
   label: Jane Treatments API
@@ -86,6 +74,18 @@ api_specs:
   slug: jane-app-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-webhooks-api-openapi.yml
+- filename: jane-app-care-plans-api-openapi.yml
+  format: yaml
+  label: Jane Care Plans API
+  slug: jane-app-care-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-care-plans-api-openapi.yml
+- filename: jane-app-staff-members-api-openapi.yml
+  format: yaml
+  label: Jane Staff Members API
+  slug: jane-app-staff-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-staff-members-api-openapi.yml
 auth_types:
 - http
 - oauth2

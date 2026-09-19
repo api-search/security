@@ -960,12 +960,6 @@ api_specs:
   slug: chaitin-ip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/openapi/chaitin-ip-api-openapi.yml
-- filename: chaitin-ipgroup-api-openapi.yml
-  format: yaml
-  label: Chaitin Tech ipgroup API
-  slug: chaitin-ipgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/openapi/chaitin-ipgroup-api-openapi.yml
 - filename: chaitin-label-api-openapi.yml
   format: yaml
   label: Chaitin Tech label API
@@ -3336,6 +3330,12 @@ api_specs:
   slug: chaitin-whois-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/openapi/chaitin-whois-api-openapi.yml
+- filename: chaitin-ip-group-api-openapi.yml
+  format: yaml
+  label: Chaitin Tech IP Group API
+  slug: chaitin-ip-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/openapi/chaitin-ip-group-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-account-api-openapi.yml
 - filename: motion-elements-elements-api-openapi.yml
   format: yaml
-  label: Motion Elements Elements API
+  label: Motion Elements API
   slug: motion-elements-elements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-elements-api-openapi.yml

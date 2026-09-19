@@ -6,12 +6,6 @@ api_specs:
   slug: kinde-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-api-keys-api-openapi.yml
-- filename: kinde-apis-api-openapi.yml
-  format: yaml
-  label: Kinde APIs API
-  slug: kinde-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-apis-api-openapi.yml
 - filename: kinde-applications-api-openapi.yml
   format: yaml
   label: Kinde Applications API
@@ -108,12 +102,6 @@ api_specs:
   slug: kinde-mfa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-mfa-api-openapi.yml
-- filename: kinde-oauth-api-openapi.yml
-  format: yaml
-  label: Kinde OAuth API
-  slug: kinde-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-oauth-api-openapi.yml
 - filename: kinde-organizations-api-openapi.yml
   format: yaml
   label: Kinde Organizations API
@@ -180,6 +168,18 @@ api_specs:
   slug: kinde-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-webhooks-api-openapi.yml
+- filename: kinde-apis-api-openapi.yml
+  format: yaml
+  label: Kinde AP Is API
+  slug: kinde-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-apis-api-openapi.yml
+- filename: kinde-oauth-api-openapi.yml
+  format: yaml
+  label: Kinde O Auth API
+  slug: kinde-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-oauth-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -198,7 +198,7 @@ slug: kinde-trust-center
 source_filename: kinde-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.kinde.com/\nurl: https://trust.kinde.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.kinde.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-09-12'\nmethod: searched\nprobe: true\nsource: https://trust.kinde.com/\nurl: https://trust.kinde.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.kinde.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/security/kinde-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
@@ -207,7 +207,7 @@ tags:
 - Customer Identity
 - Identity Management
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - Role-Based Access Control
 - Feature Flags

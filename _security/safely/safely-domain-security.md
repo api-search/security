@@ -34,7 +34,7 @@ tags:
 - Insurance
 - Insurtech
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Guest Screening
 - Travel Insurance
 - Property Management

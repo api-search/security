@@ -49,7 +49,7 @@ summary_line: 4 schemes
 tags:
 - Federal-Government
 - Housing
-- Mortgages
+- Mortgage
 - Finance
 - GSE
 - Fortune 100

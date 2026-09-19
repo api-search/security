@@ -39,7 +39,7 @@ tags:
 - Chronic Pain
 - Behavioral Health
 - Prescription Digital Therapeutic
-- Telemedicine
-- Mobile Application
+- Telehealth
+- Mobile Applications
 - No Public API
 ---

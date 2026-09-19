@@ -38,7 +38,7 @@ summary_line: trust center published
 tags:
 - Company
 - Advertising
-- DOOH
+- Digital Out Of Home
 - Digital Billboards
 - Programmatic Advertising
 - Media Buying

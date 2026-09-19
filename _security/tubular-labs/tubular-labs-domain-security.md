@@ -39,6 +39,6 @@ tags:
 - Creators
 - Influencer
 - Media
-- Audience
+- Audiences
 - Measurements
 ---

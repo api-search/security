@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: massey-mro-dspace-openapi.yml
+- filename: massey-core-api-openapi.yml
   format: yaml
-  label: Massey Research Online OAI-PMH
-  slug: mro-oai-pmh
+  label: Massey University Core API
+  slug: massey-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-mro-dspace-openapi.yml
-- filename: massey-mro-dspace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-core-api-openapi.yml
+- filename: massey-discovery-api-openapi.yml
   format: yaml
-  label: Massey Research Online DSpace REST API
-  slug: mro-rest
+  label: Massey University Discovery API
+  slug: massey-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-mro-dspace-openapi.yml
-- filename: massey-mapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-discovery-api-openapi.yml
+- filename: massey-news-api-openapi.yml
   format: yaml
-  label: Massey M-API WebService API v1
-  slug: mapi-v1
+  label: Massey University News API
+  slug: massey-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-mapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-news-api-openapi.yml
+- filename: massey-root-api-openapi.yml
+  format: yaml
+  label: Massey University Root API
+  slug: massey-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/openapi/massey-root-api-openapi.yml
 auth_types: []
 description: How each Massey University surface authenticates. Every entry carries the operator of the thing being authenticated against, because for a university most identity surfaces are either the institution's own federation endpoints or a vendor's login.
 kind: authentication

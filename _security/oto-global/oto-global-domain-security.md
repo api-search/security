@@ -169,7 +169,7 @@ tags:
 - Fulfillment
 - E-Commerce
 - Delivery
-- Carriers
+- Carrier
 - Returns
 - Saudi Arabia
 ---

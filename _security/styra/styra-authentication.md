@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-data-api-openapi.yml
 - filename: styra-enterprise-opa-rest-api-api-openapi.yml
   format: yaml
-  label: Styra Enterprise OPA REST API API
+  label: Styra Enterprise OPA REST API
   slug: styra-enterprise-opa-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/openapi/styra-enterprise-opa-rest-api-api-openapi.yml

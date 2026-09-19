@@ -58,7 +58,7 @@ tags:
 - 3PL
 - B2B
 - EDI
-- Ecommerce
+- E-Commerce
 - JanSan
-- Foodservice
+- Food Service
 ---

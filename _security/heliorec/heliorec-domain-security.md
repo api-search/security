@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Floating Solar
-- Photovoltaic
+- Photovoltaics
 - Renewable Energy
 - Clean Energy
 - Solar Power

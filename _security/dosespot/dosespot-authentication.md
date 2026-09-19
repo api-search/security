@@ -105,12 +105,6 @@ api_specs:
   slug: dosespot-eligibilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-eligibilities-api-openapi.yml
-- filename: dosespot-healthcheck-api-openapi.yml
-  format: yaml
-  label: DoseSpot Health Check API
-  slug: dosespot-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-healthcheck-api-openapi.yml
 - filename: dosespot-interactions-api-openapi.yml
   format: yaml
   label: DoseSpot Interactions API
@@ -165,6 +159,12 @@ api_specs:
   slug: dosespot-transparency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-transparency-api-openapi.yml
+- filename: dosespot-health-check-api-openapi.yml
+  format: yaml
+  label: DoseSpot Health Check API
+  slug: dosespot-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-health-check-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -222,7 +222,7 @@ tags:
 - EPCS
 - Prescriptions
 - Clinical
-- Medications
+- Medication
 - Prior Authorization
 - Surescripts
 - Medi-Span

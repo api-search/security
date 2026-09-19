@@ -37,7 +37,7 @@ tags:
 - Managed Service
 - Data & Analytics
 - Enterprise Applications
-- Internet of Things
+- IoT
 - HR Technology
 - Singapore
 ---

@@ -38,12 +38,6 @@ api_specs:
   slug: airflow-dag-parsing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/openapi/airflow-dag-parsing-api-openapi.yml
-- filename: airflow-dagrun-api-openapi.yml
-  format: yaml
-  label: Apache Airflow DagRun API
-  slug: airflow-dagrun-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/openapi/airflow-dagrun-api-openapi.yml
 - filename: airflow-dagsource-api-openapi.yml
   format: yaml
   label: Apache Airflow DagSource API
@@ -158,6 +152,12 @@ api_specs:
   slug: airflow-xcom-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/openapi/airflow-xcom-api-openapi.yml
+- filename: airflow-dag-run-api-openapi.yml
+  format: yaml
+  label: Apache Airflow DAG Run API
+  slug: airflow-dag-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/openapi/airflow-dag-run-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -33,12 +33,12 @@ api_specs:
   slug: mobly-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leads-api-openapi.yml
-- filename: mobly-taggroups-api-openapi.yml
+- filename: mobly-tag-groups-api-openapi.yml
   format: yaml
   label: Mob.ly Tag Groups API
-  slug: mobly-taggroups-api
+  slug: mobly-tag-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-taggroups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-tag-groups-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

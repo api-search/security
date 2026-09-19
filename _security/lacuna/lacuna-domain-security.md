@@ -12,12 +12,12 @@ api_specs:
   slug: lacuna-music-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-music-api-openapi.yml
-- filename: lacuna-account-openapi.yml
+- filename: lacuna-account-api-openapi.yml
   format: yaml
   label: Lacuna Account API
   slug: lacuna-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-account-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-account-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,9 +59,9 @@ tags:
 - Songwriting
 - Generative AI
 - MCP Server
-- AgentSkill
+- Agent Skills
 - A2A
 - Developer Tools
 - Account
-- OAuth
+- Authentication
 ---

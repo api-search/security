@@ -41,7 +41,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Commerce
 - Documentation
-- Editors
+- Editor
 - Governance
 - Platform
 - Product

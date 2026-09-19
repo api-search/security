@@ -35,7 +35,7 @@ tags:
 - Sports
 - Basketball
 - Sports Technology
-- Internet of Things
+- IoT
 - Consumer Electronics
 - Mobile App
 ---

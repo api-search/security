@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/ref
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Booking
-- Container
+- Containers
 - Documentation
 - GSBN
 - IQAX

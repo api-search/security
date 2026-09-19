@@ -42,6 +42,6 @@ tags:
 - Real-Estate
 - Workspace Booking
 - Workplace Management
-- Bookings
+- Booking
 - Inventory
 ---

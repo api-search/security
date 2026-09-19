@@ -20,12 +20,6 @@ api_specs:
   slug: readme-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-api-keys-api-openapi.yml
-- filename: readme-apis-api-openapi.yml
-  format: yaml
-  label: ReadMe APIs API
-  slug: readme-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-apis-api-openapi.yml
 - filename: readme-branches-api-openapi.yml
   format: yaml
   label: ReadMe Branches API
@@ -80,6 +74,12 @@ api_specs:
   slug: readme-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-search-api-openapi.yml
+- filename: readme-apis-api-openapi.yml
+  format: yaml
+  label: ReadMe AP Is API
+  slug: readme-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-apis-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -33,12 +33,12 @@ api_specs:
   slug: hilos-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-user-api-openapi.yml
-- filename: hilos-whatsapp-api-openapi.yml
+- filename: hilos-whats-app-api-openapi.yml
   format: yaml
-  label: Hilos WhatsApp API
-  slug: hilos-whatsapp-api
+  label: Hilos Whats App API
+  slug: hilos-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-whats-app-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

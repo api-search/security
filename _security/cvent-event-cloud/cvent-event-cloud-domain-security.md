@@ -387,7 +387,7 @@ tags:
 - Authentication
 - OnSite
 - OpenAPI
-- Overlay
+- Overlays
 - Registration
 - REST
 - SCIM

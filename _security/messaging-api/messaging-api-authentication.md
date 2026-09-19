@@ -40,5 +40,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - API Pattern
 - Messaging
-- Template
+- Templates
 ---

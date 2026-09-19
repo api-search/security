@@ -4,12 +4,72 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: openapi.json
-  format: json
-  label: TheCarApi REST API
-  slug: thecarapi-rest-api
+- filename: thecarapi-auctions-history-api-openapi.yml
+  format: yaml
+  label: TheCarApi Auctions & history API
+  slug: thecarapi-auctions-history-api
   spec_type: OpenAPI
-  url: https://thecarapi.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-auctions-history-api-openapi.yml
+- filename: thecarapi-catalog-api-openapi.yml
+  format: yaml
+  label: TheCarApi Catalog API
+  slug: thecarapi-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-catalog-api-openapi.yml
+- filename: thecarapi-european-classifieds-api-openapi.yml
+  format: yaml
+  label: TheCarApi European classifieds API
+  slug: thecarapi-european-classifieds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-european-classifieds-api-openapi.yml
+- filename: thecarapi-filter-facets-api-openapi.yml
+  format: yaml
+  label: TheCarApi Filter facets API
+  slug: thecarapi-filter-facets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-filter-facets-api-openapi.yml
+- filename: thecarapi-health-contract-api-openapi.yml
+  format: yaml
+  label: TheCarApi Health & contract API
+  slug: thecarapi-health-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-health-contract-api-openapi.yml
+- filename: thecarapi-import-calculator-api-openapi.yml
+  format: yaml
+  label: TheCarApi Import calculator API
+  slug: thecarapi-import-calculator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-import-calculator-api-openapi.yml
+- filename: thecarapi-market-intelligence-api-openapi.yml
+  format: yaml
+  label: TheCarApi Market intelligence API
+  slug: thecarapi-market-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-market-intelligence-api-openapi.yml
+- filename: thecarapi-seo-helpers-api-openapi.yml
+  format: yaml
+  label: TheCarApi SEO helpers API
+  slug: thecarapi-seo-helpers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-seo-helpers-api-openapi.yml
+- filename: thecarapi-top-offers-api-openapi.yml
+  format: yaml
+  label: TheCarApi Top offers API
+  slug: thecarapi-top-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-top-offers-api-openapi.yml
+- filename: thecarapi-vehicle-details-api-openapi.yml
+  format: yaml
+  label: TheCarApi Vehicle details API
+  slug: thecarapi-vehicle-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-vehicle-details-api-openapi.yml
+- filename: thecarapi-search-and-discovery-api-openapi.yml
+  format: yaml
+  label: TheCarApi Search and Discovery API
+  slug: thecarapi-search-and-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-search-and-discovery-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,6 +133,6 @@ tags:
 - VIN
 - Image CDN
 - Europe
-- Korea
+- South Korea
 - Japan Auctions
 ---

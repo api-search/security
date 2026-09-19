@@ -30,7 +30,7 @@ tags:
 - Exercise
 - Health
 - Public Domain
-- Dataset
+- Datasets
 - JSON-Schema
 - Workouts
 ---

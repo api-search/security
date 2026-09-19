@@ -18,12 +18,6 @@ api_specs:
   slug: datacite-clients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-clients-api-openapi.yml
-- filename: datacite-dois-api-openapi.yml
-  format: yaml
-  label: DataCite dois API
-  slug: datacite-dois-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-dois-api-openapi.yml
 - filename: datacite-events-api-openapi.yml
   format: yaml
   label: DataCite events API
@@ -84,6 +78,12 @@ api_specs:
   slug: datacite-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-status-api-openapi.yml
+- filename: datacite-dois-api-openapi.yml
+  format: yaml
+  label: DataCite Dois API
+  slug: datacite-dois-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-dois-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -131,4 +131,5 @@ tags:
 - Research Data
 - Open Science
 - Linked Data
+- DataCite
 ---

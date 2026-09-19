@@ -33,7 +33,7 @@ tags:
 - Dating
 - Social
 - Matchmaking
-- Mobile Apps
+- Mobile App
 - Consumer
 - Privacy
 ---

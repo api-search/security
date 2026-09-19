@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: photon-health-graphql-api-openapi.yml
+- filename: photon-health-graph-ql-api-openapi.yml
   format: yaml
-  label: Photon Health GraphQL API
-  slug: photon-health-graphql-api
+  label: Photon Health Graph QL API
+  slug: photon-health-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

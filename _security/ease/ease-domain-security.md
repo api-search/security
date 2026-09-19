@@ -36,12 +36,6 @@ api_specs:
   slug: ease-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-media-api-openapi.yml
-- filename: ease-oembed-api-openapi.yml
-  format: yaml
-  label: Ease O Embed API
-  slug: ease-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-oembed-api-openapi.yml
 - filename: ease-pages-api-openapi.yml
   format: yaml
   label: Ease Pages API
@@ -78,6 +72,12 @@ api_specs:
   slug: ease-testimonials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-testimonials-api-openapi.yml
+- filename: ease-o-embed-api-openapi.yml
+  format: yaml
+  label: Ease o Embed API
+  slug: ease-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

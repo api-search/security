@@ -32,12 +32,6 @@ api_specs:
   slug: alzheon-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/openapi/alzheon-metadata-api-openapi.yml
-- filename: alzheon-oembed-api-openapi.yml
-  format: yaml
-  label: Alzheon O Embed API
-  slug: alzheon-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/openapi/alzheon-oembed-api-openapi.yml
 - filename: alzheon-pages-api-openapi.yml
   format: yaml
   label: Alzheon Pages API
@@ -74,6 +68,12 @@ api_specs:
   slug: alzheon-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/openapi/alzheon-users-api-openapi.yml
+- filename: alzheon-o-embed-api-openapi.yml
+  format: yaml
+  label: Alzheon o Embed API
+  slug: alzheon-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/openapi/alzheon-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -61,7 +61,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Access Governance
 - Compliance
-- IAM
+- Identity and Access Management
 - Identity Management
 - Identity Security
 - Security

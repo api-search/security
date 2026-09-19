@@ -32,12 +32,6 @@ api_specs:
   slug: swift-currency-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-currency-codes-api-openapi.yml
-- filename: swift-ibans-api-openapi.yml
-  format: yaml
-  label: SWIFT IBANs API
-  slug: swift-ibans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-ibans-api-openapi.yml
 - filename: swift-leis-api-openapi.yml
   format: yaml
   label: SWIFT LEIs API
@@ -50,6 +44,12 @@ api_specs:
   slug: swift-national-ids-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-national-ids-api-openapi.yml
+- filename: swift-ibans-api-openapi.yml
+  format: yaml
+  label: SWIFT IBA Ns API
+  slug: swift-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-ibans-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

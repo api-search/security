@@ -30,12 +30,6 @@ api_specs:
   slug: netcracker-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-auth-api-openapi.yml
-- filename: netcracker-backup-restore-api-openapi.yml
-  format: yaml
-  label: Netcracker Backup & Restore API
-  slug: netcracker-backup-restore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-backup-restore-api-openapi.yml
 - filename: netcracker-backups-administration-api-openapi.yml
   format: yaml
   label: Netcracker Backups administration API
@@ -138,12 +132,6 @@ api_specs:
   slug: netcracker-global-database-operation-controller-v3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-global-database-operation-controller-v3-api-openapi.yml
-- filename: netcracker-internal-documents-api-openapi.yml
-  format: yaml
-  label: Netcracker Internal Documents API
-  slug: netcracker-internal-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-internal-documents-api-openapi.yml
 - filename: netcracker-microservice-controller-v3-api-openapi.yml
   format: yaml
   label: Netcracker Microservice controller v3 API
@@ -240,6 +228,18 @@ api_specs:
   slug: netcracker-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-versions-api-openapi.yml
+- filename: netcracker-backup-and-restore-api-openapi.yml
+  format: yaml
+  label: Netcracker Backup And Restore API
+  slug: netcracker-backup-and-restore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-backup-and-restore-api-openapi.yml
+- filename: netcracker-internaldocuments-api-openapi.yml
+  format: yaml
+  label: Netcracker Internaldocuments API
+  slug: netcracker-internaldocuments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-internaldocuments-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

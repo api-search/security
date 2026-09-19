@@ -40,6 +40,6 @@ tags:
 - Wastewater
 - Industrial Equipment
 - Remote Monitoring
-- Internet of Things
+- IoT
 - Manufacturing
 ---

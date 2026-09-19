@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Future Of Work
-- Spreadsheet
+- Spreadsheets
 - Finance
 - Financial Modeling
 - Artificial Intelligence

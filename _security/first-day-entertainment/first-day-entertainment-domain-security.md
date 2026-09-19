@@ -36,5 +36,5 @@ tags:
 - Artificial Intelligence
 - Entertainment
 - Consumer
-- Startup
+- Startups
 ---

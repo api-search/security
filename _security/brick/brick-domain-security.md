@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: brick-brick-server-openapi.yml
+- filename: brick-actuation-api-openapi.yml
   format: yaml
-  label: Brick Example Server
-  slug: server
+  label: BRICK Schema Actuation API
+  slug: brick-actuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-brick-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-actuation-api-openapi.yml
+- filename: brick-auth-api-openapi.yml
+  format: yaml
+  label: BRICK Schema Auth API
+  slug: brick-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-auth-api-openapi.yml
+- filename: brick-brickapi-api-openapi.yml
+  format: yaml
+  label: BRICK Schema Brickapi API
+  slug: brick-brickapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-brickapi-api-openapi.yml
+- filename: brick-data-api-openapi.yml
+  format: yaml
+  label: BRICK Schema Data API
+  slug: brick-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-data-api-openapi.yml
+- filename: brick-entities-api-openapi.yml
+  format: yaml
+  label: BRICK Schema Entities API
+  slug: brick-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-entities-api-openapi.yml
+- filename: brick-raw-queries-api-openapi.yml
+  format: yaml
+  label: BRICK Schema Raw Queries API
+  slug: brick-raw-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/openapi/brick-raw-queries-api-openapi.yml
 description: ''
 domains:
 - caa: []

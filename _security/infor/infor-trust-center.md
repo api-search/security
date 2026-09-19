@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-documents-api-openapi.yml
 - filename: infor-m3-api-api-openapi.yml
   format: yaml
-  label: Infor M3 API API
+  label: Infor M3 API
   slug: infor-m3-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml
@@ -31,7 +31,7 @@ slug: infor-trust-center
 source_filename: infor-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.infor.com/\nurl: https://trust.infor.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://trust.infor.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - fedramp\n  - gdpr\n"
+source_yaml: "generated: '2026-09-13'\nmethod: searched\nprobe: true\nsource: https://trust.infor.com/\nurl: https://trust.infor.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://trust.infor.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - fedramp\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/security/infor-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
 tags:

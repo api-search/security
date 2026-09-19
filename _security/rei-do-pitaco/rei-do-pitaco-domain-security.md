@@ -34,7 +34,7 @@ tags:
 - Sports Betting
 - Fantasy Sports
 - iGaming
-- Casino
+- Casinos
 - Gambling
 - Brazil
 - Sports

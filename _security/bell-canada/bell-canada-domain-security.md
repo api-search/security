@@ -42,18 +42,18 @@ api_specs:
   slug: bell-canada-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-resource-api-openapi.yml
-- filename: bell-canada-serviceorder-api-openapi.yml
+- filename: bell-canada-service-order-api-openapi.yml
   format: yaml
   label: Bell Canada Service Order API
-  slug: bell-canada-serviceorder-api
+  slug: bell-canada-service-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-serviceorder-api-openapi.yml
-- filename: bell-canada-troubleticket-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-service-order-api-openapi.yml
+- filename: bell-canada-trouble-ticket-api-openapi.yml
   format: yaml
   label: Bell Canada Trouble Ticket API
-  slug: bell-canada-troubleticket-api
+  slug: bell-canada-trouble-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-troubleticket-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-trouble-ticket-api-openapi.yml
 description: ''
 domains:
 - caa: []

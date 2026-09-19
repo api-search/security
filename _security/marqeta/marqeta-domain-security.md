@@ -66,12 +66,6 @@ api_specs:
   slug: marqeta-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-accounts-api-openapi.yml
-- filename: marqeta-accountusers-api-openapi.yml
-  format: yaml
-  label: Marqeta AccountUsers API
-  slug: marqeta-accountusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-accountusers-api-openapi.yml
 - filename: marqeta-adjustments-api-openapi.yml
   format: yaml
   label: Marqeta Adjustments API
@@ -204,12 +198,6 @@ api_specs:
   slug: marqeta-delinquency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-delinquency-api-openapi.yml
-- filename: marqeta-depositaccounts-api-openapi.yml
-  format: yaml
-  label: Marqeta Depositaccounts API
-  slug: marqeta-depositaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-depositaccounts-api-openapi.yml
 - filename: marqeta-digital-wallets-management-api-openapi.yml
   format: yaml
   label: Marqeta Digital Wallets Management API
@@ -474,6 +462,18 @@ api_specs:
   slug: marqeta-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-webhooks-api-openapi.yml
+- filename: marqeta-account-users-api-openapi.yml
+  format: yaml
+  label: Marqeta Account Users API
+  slug: marqeta-account-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-account-users-api-openapi.yml
+- filename: marqeta-deposit-accounts-api-openapi.yml
+  format: yaml
+  label: Marqeta Deposit Accounts API
+  slug: marqeta-deposit-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-deposit-accounts-api-openapi.yml
 description: ''
 domains:
 - caa:

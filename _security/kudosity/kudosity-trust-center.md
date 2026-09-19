@@ -66,12 +66,12 @@ api_specs:
   slug: kudosity-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-webhook-api-openapi.yml
-- filename: kudosity-whatsapp-api-openapi.yml
+- filename: kudosity-whats-app-api-openapi.yml
   format: yaml
   label: Kudosity Whats App API
-  slug: kudosity-whatsapp-api
+  slug: kudosity-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-whatsapp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-whats-app-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

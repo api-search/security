@@ -70,7 +70,7 @@ tags:
 - Analytics
 - Reporting
 - GraphQL
-- Demand-Side Platform
+- DSP
 - App Marketing
 - Attribution
 ---

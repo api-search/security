@@ -40,6 +40,6 @@ tags:
 - Math Learning
 - Music Learning
 - Early Literacy
-- Consumer Apps
+- Consumer App
 - Subscription
 ---

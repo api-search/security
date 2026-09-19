@@ -228,12 +228,6 @@ api_specs:
   slug: prefect-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/openapi/prefect-root-api-openapi.yml
-- filename: prefect-savedsearches-api-openapi.yml
-  format: yaml
-  label: Prefect SavedSearches API
-  slug: prefect-savedsearches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/openapi/prefect-savedsearches-api-openapi.yml
 - filename: prefect-schemas-api-openapi.yml
   format: yaml
   label: Prefect Schemas API
@@ -366,6 +360,12 @@ api_specs:
   slug: prefect-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/openapi/prefect-workspaces-api-openapi.yml
+- filename: prefect-saved-searches-api-openapi.yml
+  format: yaml
+  label: Prefect Saved Searches API
+  slug: prefect-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/openapi/prefect-saved-searches-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

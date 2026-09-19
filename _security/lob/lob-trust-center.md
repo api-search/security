@@ -168,12 +168,6 @@ api_specs:
   slug: lob-psc-id-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-psc-id-api-openapi.yml
-- filename: lob-q-r-codes-api-openapi.yml
-  format: yaml
-  label: Lob Q R  Codes API
-  slug: lob-q-r-codes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-q-r-codes-api-openapi.yml
 - filename: lob-reports-api-openapi.yml
   format: yaml
   label: Lob Reports API
@@ -228,12 +222,6 @@ api_specs:
   slug: lob-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-templates-api-openapi.yml
-- filename: lob-u-r-l-shortener-api-openapi.yml
-  format: yaml
-  label: Lob U R L  Shortener API
-  slug: lob-u-r-l-shortener-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-u-r-l-shortener-api-openapi.yml
 - filename: lob-u-s-autocompletions-api-openapi.yml
   format: yaml
   label: Lob U S  Autocompletions API
@@ -288,6 +276,18 @@ api_specs:
   slug: lob-tracking-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-tracking-events-api-openapi.yml
+- filename: lob-qr-codes-api-openapi.yml
+  format: yaml
+  label: Lob QR Codes API
+  slug: lob-qr-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-qr-codes-api-openapi.yml
+- filename: lob-url-shortener-api-openapi.yml
+  format: yaml
+  label: Lob URL Shortener API
+  slug: lob-url-shortener-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/openapi/lob-url-shortener-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

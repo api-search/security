@@ -9,12 +9,6 @@ api_specs:
   slug: tripninja-datastream-api
   spec_type: Postman
   url: https://www.postman.com/tripninjadevteam/workspace/trip-ninja-public/collection/20885222-5fccfe6e-479a-429f-a497-d42a0bb859c9
-- filename: webjet-adminpanel-api-openapi.yml
-  format: yaml
-  label: Webjet Adminpanel API
-  slug: webjet-adminpanel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-adminpanel-api-openapi.yml
 - filename: webjet-book-api-openapi.yml
   format: yaml
   label: Webjet Book API
@@ -117,6 +111,12 @@ api_specs:
   slug: webjet-ticketing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticketing-api-openapi.yml
+- filename: webjet-admin-panel-api-openapi.yml
+  format: yaml
+  label: Webjet Admin panel API
+  slug: webjet-admin-panel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-admin-panel-api-openapi.yml
 auth_types:
 - http
 - apiKey

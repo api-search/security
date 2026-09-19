@@ -97,7 +97,7 @@ tags:
 - Open Data
 - Public Transit
 - Real-Time
-- Train
+- Trains
 - Train Tracker
 - Transit
 - Transportation

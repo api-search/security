@@ -57,7 +57,7 @@ tags:
 - Computer-Vision
 - AIoT
 - Hardware
-- Large Language Models
+- LLM
 - On-Premise AI
 - SDK
 - Embedded Systems

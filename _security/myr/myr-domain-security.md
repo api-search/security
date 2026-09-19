@@ -34,7 +34,7 @@ tags:
 - Company
 - Point-of-Sale
 - Restaurant
-- Quick Service Restaurants
+- Quick Service Restaurant
 - Food Service Technology
 - Payments
 - Loyalty

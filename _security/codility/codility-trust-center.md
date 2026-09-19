@@ -28,6 +28,6 @@ tags:
 - Technical Interview
 - Skills Intelligence
 - Recruiting
-- HR Tech
+- Human Resources
 trust_url: https://www.codility.com/compliance
 ---

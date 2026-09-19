@@ -28,7 +28,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-bounceid-api-openapi.yml
 - filename: postmark-bounces-api-api-openapi.yml
   format: yaml
-  label: Postmark Bounces API API
+  label: Postmark Bounces API
   slug: postmark-bounces-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-bounces-api-api-openapi.yml
@@ -58,7 +58,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-deliverystats-api-openapi.yml
 - filename: postmark-domains-api-api-openapi.yml
   format: yaml
-  label: Postmark Domains API API
+  label: Postmark Domains API
   slug: postmark-domains-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-domains-api-api-openapi.yml
@@ -74,12 +74,6 @@ api_specs:
   slug: postmark-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-email-api-openapi.yml
-- filename: postmark-emailclients-api-openapi.yml
-  format: yaml
-  label: Postmark Emailclients API
-  slug: postmark-emailclients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-emailclients-api-openapi.yml
 - filename: postmark-inbound-api-openapi.yml
   format: yaml
   label: Postmark Inbound API
@@ -88,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-inbound-api-openapi.yml
 - filename: postmark-inbound-rules-api-api-openapi.yml
   format: yaml
-  label: Postmark Inbound Rules API API
+  label: Postmark Inbound Rules API
   slug: postmark-inbound-rules-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-inbound-rules-api-api-openapi.yml
@@ -106,7 +100,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-message-identifier-api-openapi.yml
 - filename: postmark-messages-api-api-openapi.yml
   format: yaml
-  label: Postmark Messages API API
+  label: Postmark Messages API
   slug: postmark-messages-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-messages-api-api-openapi.yml
@@ -124,25 +118,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-outbound-api-openapi.yml
 - filename: postmark-sender-signatures-api-api-openapi.yml
   format: yaml
-  label: Postmark Sender Signatures API API
+  label: Postmark Sender Signatures API
   slug: postmark-sender-signatures-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-sender-signatures-api-api-openapi.yml
 - filename: postmark-sending-api-api-openapi.yml
   format: yaml
-  label: Postmark Sending API API
+  label: Postmark Sending API
   slug: postmark-sending-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-sending-api-api-openapi.yml
 - filename: postmark-server-configuration-api-api-openapi.yml
   format: yaml
-  label: Postmark Server Configuration API API
+  label: Postmark Server Configuration API
   slug: postmark-server-configuration-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-server-configuration-api-api-openapi.yml
 - filename: postmark-server-management-api-api-openapi.yml
   format: yaml
-  label: Postmark Server Management API API
+  label: Postmark Server Management API
   slug: postmark-server-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-server-management-api-api-openapi.yml
@@ -154,13 +148,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-servers-api-openapi.yml
 - filename: postmark-stats-api-api-openapi.yml
   format: yaml
-  label: Postmark Stats API API
+  label: Postmark Stats API
   slug: postmark-stats-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-stats-api-api-openapi.yml
 - filename: postmark-templates-api-api-openapi.yml
   format: yaml
-  label: Postmark Templates API API
+  label: Postmark Templates API
   slug: postmark-templates-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-templates-api-api-openapi.yml
@@ -182,6 +176,12 @@ api_specs:
   slug: postmark-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-triggers-api-openapi.yml
+- filename: postmark-email-clients-api-openapi.yml
+  format: yaml
+  label: Postmark Email Clients API
+  slug: postmark-email-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/openapi/postmark-email-clients-api-openapi.yml
 auth_types: []
 description: Postmark authenticates every REST request with a static API token sent in a custom HTTP header. There is no OAuth 2.0, no OIDC, no mTLS and no scoped credential of any kind — a token grants everything at its level. Derived automatically from the OpenAPI first, but every spec in openapi/ declares an EMPTY components.securitySchemes, so the whole profile below is authored from Postmark's own authentication documentation.
 kind: authentication
@@ -246,14 +246,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://postmar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/authentication/postmark-authentication.yml
 summary_line: 3 schemes
 tags:
-- Emails
+- Email
 - Messaging
 - Transactional Email
 - Deliverability
 - SMTP
 - Email API
 - Webhook
-- inbound email
+- Inbound Email
 - Email Templates
 - Email Analytics
 ---

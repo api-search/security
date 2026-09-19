@@ -59,5 +59,5 @@ tags:
 - Digital Health
 - Therapy
 - Behavioral Health
-- Consumer Application
+- Consumer Applications
 ---

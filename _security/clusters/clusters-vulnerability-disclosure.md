@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-authentication-api-openapi.yml
 - filename: clusters-clusters-api-openapi.yml
   format: yaml
-  label: Clusters Clusters API
+  label: Clusters API
   slug: clusters-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-clusters-api-openapi.yml

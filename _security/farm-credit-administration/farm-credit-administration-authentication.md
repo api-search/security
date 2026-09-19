@@ -48,7 +48,7 @@ tags:
 - Finance
 - Regulations
 - Geospatial
-- Open-Data
+- Open Data
 - Banking
 - Lending
 - Government

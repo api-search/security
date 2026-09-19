@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-export-controller-v2-api-openapi.yml
 - filename: emburse-expense-image-api-api-openapi.yml
   format: yaml
-  label: Emburse expense-image-api API
+  label: Emburse expense-image-api
   slug: emburse-expense-image-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-image-api-api-openapi.yml
@@ -162,12 +162,6 @@ api_specs:
   slug: emburse-merchant-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-merchant-categories-api-openapi.yml
-- filename: emburse-oauth-api-openapi.yml
-  format: yaml
-  label: Emburse Oauth API
-  slug: emburse-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-oauth-api-openapi.yml
 - filename: emburse-paid-expense-controller-api-openapi.yml
   format: yaml
   label: Emburse paid-expense-controller API
@@ -276,6 +270,12 @@ api_specs:
   slug: emburse-vendor-api-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-vendor-api-controller-api-openapi.yml
+- filename: emburse-oauth-api-openapi.yml
+  format: yaml
+  label: Emburse OAUTH API
+  slug: emburse-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,35 +1,65 @@
 ---
 api_specs:
-- filename: aalto-facilities-api-openapi.yml
+- filename: aalto-buildings-api-openapi.yml
   format: yaml
-  label: Aalto Facilities API
-  slug: facilities
+  label: Aalto University Buildings API
+  slug: aalto-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-facilities-api-openapi.yml
-- filename: aalto-course-sisu-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-buildings-api-openapi.yml
+- filename: aalto-groups-api-openapi.yml
   format: yaml
-  label: Aalto Course API (SISU)
-  slug: course-sisu
+  label: Aalto University Groups API
+  slug: aalto-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-course-sisu-api-openapi.yml
-- filename: aalto-acris-research-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-groups-api-openapi.yml
+- filename: aalto-organisational-data-api-openapi.yml
   format: yaml
-  label: Aalto Research Publications API (Acris gateway)
-  slug: acris-research
+  label: Aalto University Organisational Data API
+  slug: aalto-organisational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-acris-research-api-openapi.yml
-- filename: aalto-projects-costcenters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-organisational-data-api-openapi.yml
+- filename: aalto-profiles-api-openapi.yml
   format: yaml
-  label: Aalto Projects and Cost Centers API
-  slug: projects-costcenters
+  label: Aalto University Profiles API
+  slug: aalto-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-projects-costcenters-api-openapi.yml
-- filename: aalto-people-profile-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-profiles-api-openapi.yml
+- filename: aalto-projects-api-openapi.yml
   format: yaml
-  label: Aalto People Profile API
-  slug: people-profile
+  label: Aalto University Projects API
+  slug: aalto-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-people-profile-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-projects-api-openapi.yml
+- filename: aalto-research-outputs-api-openapi.yml
+  format: yaml
+  label: Aalto University Research Outputs API
+  slug: aalto-research-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-research-outputs-api-openapi.yml
+- filename: aalto-research-outputs-enhanced-api-openapi.yml
+  format: yaml
+  label: Aalto University Research Outputs Enhanced API
+  slug: aalto-research-outputs-enhanced-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-research-outputs-enhanced-api-openapi.yml
+- filename: aalto-reservations-api-openapi.yml
+  format: yaml
+  label: Aalto University Reservations API
+  slug: aalto-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-reservations-api-openapi.yml
+- filename: aalto-sisu-courses-api-openapi.yml
+  format: yaml
+  label: Aalto University SISU Courses API
+  slug: aalto-sisu-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-sisu-courses-api-openapi.yml
+- filename: aalto-cost-centers-api-openapi.yml
+  format: yaml
+  label: Aalto University Cost Centers API
+  slug: aalto-cost-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/openapi/aalto-cost-centers-api-openapi.yml
 description: ''
 domains:
 - caa: []

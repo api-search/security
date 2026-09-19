@@ -66,7 +66,7 @@ tags:
 - Capital Markets
 - Trading
 - Market Data
-- Equities
+- Stocks
 - Alternative Trading System
 - FIX Protocol
 - Multicast Market Data

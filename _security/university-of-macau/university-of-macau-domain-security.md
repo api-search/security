@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: university-of-macau-open-data-api-openapi.yml
+- filename: university-of-macau-access-control-records-api-openapi.yml
   format: yaml
-  label: UM Data and Open Data API Platform
-  slug: open-data-api
+  label: University of Macau Access Control Records API
+  slug: university-of-macau-access-control-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-open-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-access-control-records-api-openapi.yml
+- filename: university-of-macau-car-park-availability-api-openapi.yml
+  format: yaml
+  label: University of Macau Car Park Availability API
+  slug: university-of-macau-car-park-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-car-park-availability-api-openapi.yml
+- filename: university-of-macau-computer-room-pc-status-api-openapi.yml
+  format: yaml
+  label: University of Macau Computer Room PC Status API
+  slug: university-of-macau-computer-room-pc-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-computer-room-pc-status-api-openapi.yml
+- filename: university-of-macau-computer-room-reservations-api-openapi.yml
+  format: yaml
+  label: University of Macau Computer Room Reservations API
+  slug: university-of-macau-computer-room-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-computer-room-reservations-api-openapi.yml
+- filename: university-of-macau-course-catalog-api-openapi.yml
+  format: yaml
+  label: University of Macau Course Catalog API
+  slug: university-of-macau-course-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-course-catalog-api-openapi.yml
+- filename: university-of-macau-courses-api-openapi.yml
+  format: yaml
+  label: University of Macau Courses API
+  slug: university-of-macau-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-courses-api-openapi.yml
+- filename: university-of-macau-events-api-openapi.yml
+  format: yaml
+  label: University of Macau Events API
+  slug: university-of-macau-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-events-api-openapi.yml
+- filename: university-of-macau-news-api-openapi.yml
+  format: yaml
+  label: University of Macau News API
+  slug: university-of-macau-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-news-api-openapi.yml
+- filename: university-of-macau-organizational-units-api-openapi.yml
+  format: yaml
+  label: University of Macau Organizational Units API
+  slug: university-of-macau-organizational-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-organizational-units-api-openapi.yml
+- filename: university-of-macau-public-holidays-api-openapi.yml
+  format: yaml
+  label: University of Macau Public Holidays API
+  slug: university-of-macau-public-holidays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-public-holidays-api-openapi.yml
+- filename: university-of-macau-rc-hostel-bed-spaces-api-openapi.yml
+  format: yaml
+  label: University of Macau RC Hostel Bed Spaces API
+  slug: university-of-macau-rc-hostel-bed-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-rc-hostel-bed-spaces-api-openapi.yml
+- filename: university-of-macau-shuttle-bus-arrival-time-api-openapi.yml
+  format: yaml
+  label: University of Macau Shuttle Bus Arrival Time API
+  slug: university-of-macau-shuttle-bus-arrival-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-shuttle-bus-arrival-time-api-openapi.yml
+- filename: university-of-macau-sports-facilities-api-openapi.yml
+  format: yaml
+  label: University of Macau Sports Facilities API
+  slug: university-of-macau-sports-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-sports-facilities-api-openapi.yml
+- filename: university-of-macau-sports-facilities-booking-api-openapi.yml
+  format: yaml
+  label: University of Macau Sports Facilities Booking API
+  slug: university-of-macau-sports-facilities-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-sports-facilities-booking-api-openapi.yml
+- filename: university-of-macau-student-job-vacancies-api-openapi.yml
+  format: yaml
+  label: University of Macau Student Job Vacancies API
+  slug: university-of-macau-student-job-vacancies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-student-job-vacancies-api-openapi.yml
+- filename: university-of-macau-wifi-access-log-api-openapi.yml
+  format: yaml
+  label: University of Macau Wifi Access Log API
+  slug: university-of-macau-wifi-access-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/openapi/university-of-macau-wifi-access-log-api-openapi.yml
 description: ''
 domains:
 - caa: []

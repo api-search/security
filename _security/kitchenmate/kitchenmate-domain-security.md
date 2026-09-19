@@ -36,7 +36,7 @@ tags:
 - Autonomous Retail
 - Vending
 - Smart Devices
-- Internet of Things
+- IoT
 - Workplace Services
 - Hardware
 ---

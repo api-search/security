@@ -37,7 +37,7 @@ tags:
 - Consumer Technology
 - Solar
 - Energy
-- Photovoltaic
+- Photovoltaics
 - Inverters
 - Energy Storage
 - IoT

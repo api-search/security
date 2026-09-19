@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensefinity/re
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Internet of Things
+- IoT
 - Supply Chain
 - Logistics
 - Cold Chain

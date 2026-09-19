@@ -53,6 +53,6 @@ tags:
 - Fintech
 - Insurance
 - Workforce
-- HR
+- Human Resources
 - Health
 ---

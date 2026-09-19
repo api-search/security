@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: aws-marketplace-change-sets-api-openapi.yml
-  format: yaml
-  label: AWS Marketplace Change Sets API
-  slug: aws-marketplace-change-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-change-sets-api-openapi.yml
 - filename: aws-marketplace-entities-api-openapi.yml
   format: yaml
   label: AWS Marketplace Entities API
@@ -27,6 +21,12 @@ api_specs:
   slug: aws-marketplace-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-tags-api-openapi.yml
+- filename: aws-marketplace-changesets-api-openapi.yml
+  format: yaml
+  label: AWS Marketplace Changesets API
+  slug: aws-marketplace-changesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/openapi/aws-marketplace-changesets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

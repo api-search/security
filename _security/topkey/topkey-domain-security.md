@@ -36,7 +36,7 @@ tags:
 - Expense Management
 - Property Management
 - Accounting
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 - Banking
 - Bill Pay

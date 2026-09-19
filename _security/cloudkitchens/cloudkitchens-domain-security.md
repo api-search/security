@@ -84,12 +84,6 @@ api_specs:
   slug: cloudkitchens-manager-storefront-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-manager-storefront-endpoints-api-openapi.yml
-- filename: cloudkitchens-marketintel-endpoints-api-openapi.yml
-  format: yaml
-  label: CloudKitchens Marketintel Endpoints API
-  slug: cloudkitchens-marketintel-endpoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-marketintel-endpoints-api-openapi.yml
 - filename: cloudkitchens-menus-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Menus Endpoints API
@@ -162,6 +156,12 @@ api_specs:
   slug: cloudkitchens-storefront-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-storefront-webhooks-api-openapi.yml
+- filename: cloudkitchens-market-intel-endpoints-api-openapi.yml
+  format: yaml
+  label: CloudKitchens Market Intel Endpoints API
+  slug: cloudkitchens-market-intel-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-market-intel-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -36,7 +36,7 @@ tags:
 - Clinical Trials
 - Life Sciences
 - Immunology
-- Inflammation
+- inflammation
 - Small Molecule
 - Regulated Cell Death
 ---

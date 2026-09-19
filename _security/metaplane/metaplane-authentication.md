@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: metaplane-api-openapi.yml
-  format: yaml
-  label: Metaplane API
-  slug: metaplane
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/_original/metaplane-api-openapi.yml
 - filename: metaplane-connections-api-openapi.yml
   format: yaml
   label: Metaplane Connections API

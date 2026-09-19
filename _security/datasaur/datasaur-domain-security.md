@@ -36,7 +36,7 @@ tags:
 - Data Labeling
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - NLP
 - Data Annotation
 - GraphQL

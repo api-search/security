@@ -52,7 +52,7 @@ tags:
 - Gift Cards
 - Payouts
 - Financial-Services
-- Credit Unions
+- Credit Union
 - Banking
 - Loyalty
 - Embedded Finance

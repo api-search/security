@@ -32,7 +32,7 @@ tags:
 - Company
 - Mobile
 - Android
-- Consumer Apps
+- Consumer App
 - Mobile Internet
 - Utility Apps
 - Launcher

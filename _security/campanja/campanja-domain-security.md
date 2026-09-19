@@ -34,4 +34,5 @@ tags:
 - Marketing Technology
 - PPC
 - Sweden
+- Defunct
 ---

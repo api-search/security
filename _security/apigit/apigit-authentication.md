@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: apigit-apis-api-openapi.yml
-  format: yaml
-  label: APIGit APIs API
-  slug: apigit-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
 - filename: apigit-mocks-api-openapi.yml
   format: yaml
   label: APIGit Mocks API
@@ -27,6 +21,12 @@ api_specs:
   slug: apigit-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
+- filename: apigit-apis-api-openapi.yml
+  format: yaml
+  label: APIGit AP Is API
+  slug: apigit-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -58,6 +58,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - API Design
 - API Lifecycle
+- Developer Tools
 - Documentation
 - Git
 - Governance

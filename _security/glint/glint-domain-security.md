@@ -39,7 +39,7 @@ tags:
 - Employee Experience
 - Organizational Health
 - People Analytics
-- Survey
-- HR Tech
+- Surveys
+- Human Resources
 - Microsoft Viva
 ---

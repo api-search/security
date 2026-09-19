@@ -18,12 +18,6 @@ api_specs:
   slug: huuray-catalogue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-catalogue-api-openapi.yml
-- filename: huuray-exchangerates-api-openapi.yml
-  format: yaml
-  label: Huuray ExchangeRates API
-  slug: huuray-exchangerates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-exchangerates-api-openapi.yml
 - filename: huuray-order-api-openapi.yml
   format: yaml
   label: Huuray Order API
@@ -54,6 +48,12 @@ api_specs:
   slug: huuray-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-template-api-openapi.yml
+- filename: huuray-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Huuray Exchange Rates API
+  slug: huuray-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-exchange-rates-api-openapi.yml
 description: ''
 domains:
 - caa:

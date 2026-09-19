@@ -2,7 +2,7 @@
 api_specs:
 - filename: contra-public-api-api-openapi.yml
   format: yaml
-  label: Contra Public Api API
+  label: Contra Public Api
   slug: contra-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/openapi/contra-public-api-api-openapi.yml

@@ -37,6 +37,6 @@ tags:
 - Marketplace
 - Live Shopping
 - Luxury Resale
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 ---

@@ -24,6 +24,12 @@ api_specs:
   slug: lever-stages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-stages-api-openapi.yml
+- filename: lever-archive-reasons-api-openapi.yml
+  format: yaml
+  label: Lever Archive Reasons API
+  slug: lever-archive-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-archive-reasons-api-openapi.yml
 - filename: lever-interviews-api-openapi.yml
   format: yaml
   label: Lever Interviews API
@@ -84,6 +90,12 @@ api_specs:
   slug: lever-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-users-api-openapi.yml
+- filename: lever-audit-events-api-openapi.yml
+  format: yaml
+  label: Lever Audit Events API
+  slug: lever-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-audit-events-api-openapi.yml
 - filename: lever-eeo-api-openapi.yml
   format: yaml
   label: Lever EEO API
@@ -96,18 +108,6 @@ api_specs:
   slug: lever-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-applications-api-openapi.yml
-- filename: lever-archivereasons-api-openapi.yml
-  format: yaml
-  label: Lever ArchiveReasons API
-  slug: lever-archivereasons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-archivereasons-api-openapi.yml
-- filename: lever-auditevents-api-openapi.yml
-  format: yaml
-  label: Lever AuditEvents API
-  slug: lever-auditevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-auditevents-api-openapi.yml
 - filename: lever-contacts-api-openapi.yml
   format: yaml
   label: Lever Contacts API
@@ -204,6 +204,18 @@ api_specs:
   slug: lever-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-users-api-openapi.yml
+- filename: lever-archive-reasons-api-openapi.yml
+  format: yaml
+  label: Lever Archive Reasons API
+  slug: lever-archive-reasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-archive-reasons-api-openapi.yml
+- filename: lever-audit-events-api-openapi.yml
+  format: yaml
+  label: Lever Audit Events API
+  slug: lever-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-audit-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -242,7 +254,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/security/lever-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Talent Acquisition

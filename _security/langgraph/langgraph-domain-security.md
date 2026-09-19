@@ -80,7 +80,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agents
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Workflows
 - Orchestration
 ---

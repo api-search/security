@@ -37,7 +37,7 @@ tags:
 - Batteries
 - Sodium-Ion
 - Grid Storage
-- Data Centers
+- Data-Center
 - Clean Energy
 - Manufacturing
 - Hardware

@@ -180,7 +180,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/h
 summary_line: apiKey · 3 schemes
 tags:
 - IoT
-- Internet of Things
 - Devices
 - Data Storage
 - Dashboards

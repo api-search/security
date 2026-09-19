@@ -18,12 +18,6 @@ api_specs:
   slug: oracle-primavera-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-projects-api-openapi.yml
-- filename: oracle-primavera-resourceassignments-api-openapi.yml
-  format: yaml
-  label: Oracle Primavera ResourceAssignments API
-  slug: oracle-primavera-resourceassignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resourceassignments-api-openapi.yml
 - filename: oracle-primavera-resources-api-openapi.yml
   format: yaml
   label: Oracle Primavera Resources API
@@ -36,6 +30,12 @@ api_specs:
   slug: oracle-primavera-wbs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-wbs-api-openapi.yml
+- filename: oracle-primavera-resource-assignments-api-openapi.yml
+  format: yaml
+  label: Oracle Primavera Resource Assignments API
+  slug: oracle-primavera-resource-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resource-assignments-api-openapi.yml
 description: ''
 domains:
 - caa:

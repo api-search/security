@@ -105,7 +105,7 @@ tags:
 - Mobile SDK
 - Embedded Finance
 - Payments
-- Single Sign-On
+- SSO
 - App Platform
 - eSIM
 - Developer Tools

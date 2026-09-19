@@ -36,7 +36,7 @@ tags:
 - Stock Exchange
 - Market Data
 - Trading
-- Equities
+- Stocks
 - Options
 - Financial-Services
 - Market Infrastructure

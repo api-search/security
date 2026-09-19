@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Solar
-- Photovoltaic
+- Photovoltaics
 - Renewable Energy
 - Energy Storage
 - Clean Energy

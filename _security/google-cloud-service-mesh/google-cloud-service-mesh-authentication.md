@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-service-mesh-endpointpolicies-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh EndpointPolicies API
-  slug: google-cloud-service-mesh-endpointpolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-endpointpolicies-api-openapi.yml
 - filename: google-cloud-service-mesh-gateways-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Gateways API
@@ -68,6 +62,12 @@ api_specs:
   slug: google-cloud-service-mesh-tlsroutes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-tlsroutes-api-openapi.yml
+- filename: google-cloud-service-mesh-endpoint-policies-api-openapi.yml
+  format: yaml
+  label: Google Cloud Service Mesh Endpoint Policies API
+  slug: google-cloud-service-mesh-endpoint-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-endpoint-policies-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

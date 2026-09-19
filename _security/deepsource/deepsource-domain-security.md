@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: deepsource-graphql-api-openapi.yml
+- filename: deepsource-graph-ql-api-openapi.yml
   format: yaml
-  label: DeepSource GraphQL API
-  slug: deepsource-graphql-api
+  label: DeepSource Graph QL API
+  slug: deepsource-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,4 +54,5 @@ tags:
 - Code Review
 - Security
 - GraphQL
+- Developer Tools
 ---

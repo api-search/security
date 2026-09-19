@@ -83,7 +83,7 @@ tags:
 - PSD2
 - OBIE
 - United Kingdom
-- Mortgages
+- Mortgage
 - Savings
 - Account Information
 - Payments

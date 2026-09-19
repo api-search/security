@@ -108,12 +108,6 @@ api_specs:
   slug: zenduty-notification-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-notification-rules-api-openapi.yml
-- filename: zenduty-oncall-api-openapi.yml
-  format: yaml
-  label: Zenduty OnCall API
-  slug: zenduty-oncall-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-oncall-api-openapi.yml
 - filename: zenduty-postmortem-api-openapi.yml
   format: yaml
   label: Zenduty Postmortem API
@@ -192,6 +186,12 @@ api_specs:
   slug: zenduty-user-custom-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-user-custom-role-api-openapi.yml
+- filename: zenduty-on-call-api-openapi.yml
+  format: yaml
+  label: Zenduty On Call API
+  slug: zenduty-on-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-on-call-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

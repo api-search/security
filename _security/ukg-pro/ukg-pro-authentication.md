@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/h
 summary_line: http · 2 schemes
 tags:
 - HCM
-- HR
+- Human Resources
 - Payroll
 - Benefits Administration
 - Talent Management

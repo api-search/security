@@ -57,12 +57,6 @@ api_specs:
   slug: payabli-ghostcard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-ghostcard-api-openapi.yml
-- filename: payabli-hostedpaymentpages-api-openapi.yml
-  format: yaml
-  label: Payabli hostedPaymentPages API
-  slug: payabli-hostedpaymentpages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-hostedpaymentpages-api-openapi.yml
 - filename: payabli-import-api-openapi.yml
   format: yaml
   label: Payabli Import API
@@ -75,12 +69,6 @@ api_specs:
   slug: payabli-invoice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-invoice-api-openapi.yml
-- filename: payabli-lineitem-api-openapi.yml
-  format: yaml
-  label: Payabli lineItem API
-  slug: payabli-lineitem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-lineitem-api-openapi.yml
 - filename: payabli-management-api-openapi.yml
   format: yaml
   label: Payabli Management API
@@ -123,12 +111,6 @@ api_specs:
   slug: payabli-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-organization-api-openapi.yml
-- filename: payabli-paymentlink-api-openapi.yml
-  format: yaml
-  label: Payabli paymentLink API
-  slug: payabli-paymentlink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-paymentlink-api-openapi.yml
 - filename: payabli-paymentmethoddomain-api-openapi.yml
   format: yaml
   label: Payabli paymentMethodDomain API
@@ -207,6 +189,24 @@ api_specs:
   slug: payabli-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-webhooks-api-openapi.yml
+- filename: payabli-hosted-payment-pages-api-openapi.yml
+  format: yaml
+  label: Payabli Hosted Payment Pages API
+  slug: payabli-hosted-payment-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-hosted-payment-pages-api-openapi.yml
+- filename: payabli-line-item-api-openapi.yml
+  format: yaml
+  label: Payabli Line Item API
+  slug: payabli-line-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-line-item-api-openapi.yml
+- filename: payabli-payment-link-api-openapi.yml
+  format: yaml
+  label: Payabli Payment Link API
+  slug: payabli-payment-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-payment-link-api-openapi.yml
 auth_types:
 - apiKey
 - http

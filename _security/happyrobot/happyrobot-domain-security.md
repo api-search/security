@@ -162,12 +162,6 @@ api_specs:
   slug: happyrobot-use-cases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/openapi/happyrobot-use-cases-api-openapi.yml
-- filename: happyrobot-usecases-api-openapi.yml
-  format: yaml
-  label: Happyrobot Use Cases API
-  slug: happyrobot-usecases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/openapi/happyrobot-usecases-api-openapi.yml
 - filename: happyrobot-versions-api-openapi.yml
   format: yaml
   label: Happyrobot Versions API

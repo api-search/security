@@ -24,12 +24,6 @@ api_specs:
   slug: flipdish-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-apps-api-openapi.yml
-- filename: flipdish-appstore-api-openapi.yml
-  format: yaml
-  label: Flipdish AppStore API
-  slug: flipdish-appstore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-appstore-api-openapi.yml
 - filename: flipdish-appstoreconfigurations-api-openapi.yml
   format: yaml
   label: Flipdish AppStoreConfigurations API
@@ -48,24 +42,6 @@ api_specs:
   slug: flipdish-appstoreentitlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-appstoreentitlements-api-openapi.yml
-- filename: flipdish-auditlogs-api-openapi.yml
-  format: yaml
-  label: Flipdish AuditLogs API
-  slug: flipdish-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-auditlogs-api-openapi.yml
-- filename: flipdish-authorizationtokens-api-openapi.yml
-  format: yaml
-  label: Flipdish AuthorizationTokens API
-  slug: flipdish-authorizationtokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-authorizationtokens-api-openapi.yml
-- filename: flipdish-bankaccount-api-openapi.yml
-  format: yaml
-  label: Flipdish BankAccount API
-  slug: flipdish-bankaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-bankaccount-api-openapi.yml
 - filename: flipdish-campaigns-api-openapi.yml
   format: yaml
   label: Flipdish Campaigns API
@@ -84,30 +60,12 @@ api_specs:
   slug: flipdish-catalogchanges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalogchanges-api-openapi.yml
-- filename: flipdish-cataloggroups-api-openapi.yml
-  format: yaml
-  label: Flipdish CatalogGroups API
-  slug: flipdish-cataloggroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-cataloggroups-api-openapi.yml
 - filename: flipdish-catalogimages-api-openapi.yml
   format: yaml
   label: Flipdish CatalogImages API
   slug: flipdish-catalogimages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalogimages-api-openapi.yml
-- filename: flipdish-catalogitems-api-openapi.yml
-  format: yaml
-  label: Flipdish CatalogItems API
-  slug: flipdish-catalogitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalogitems-api-openapi.yml
-- filename: flipdish-catalogproducts-api-openapi.yml
-  format: yaml
-  label: Flipdish CatalogProducts API
-  slug: flipdish-catalogproducts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalogproducts-api-openapi.yml
 - filename: flipdish-channels-api-openapi.yml
   format: yaml
   label: Flipdish Channels API
@@ -246,12 +204,6 @@ api_specs:
   slug: flipdish-location-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-location-api-openapi.yml
-- filename: flipdish-locationareas-api-openapi.yml
-  format: yaml
-  label: Flipdish LocationAreas API
-  slug: flipdish-locationareas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-locationareas-api-openapi.yml
 - filename: flipdish-lookerdashboard-api-openapi.yml
   format: yaml
   label: Flipdish LookerDashboard API
@@ -318,30 +270,12 @@ api_specs:
   slug: flipdish-metafielddefinitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-metafielddefinitions-api-openapi.yml
-- filename: flipdish-mobileapps-api-openapi.yml
-  format: yaml
-  label: Flipdish MobileApps API
-  slug: flipdish-mobileapps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-mobileapps-api-openapi.yml
-- filename: flipdish-oauthclients-api-openapi.yml
-  format: yaml
-  label: Flipdish OAuthClients API
-  slug: flipdish-oauthclients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-oauthclients-api-openapi.yml
 - filename: flipdish-onboarding-api-openapi.yml
   format: yaml
   label: Flipdish Onboarding API
   slug: flipdish-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-onboarding-api-openapi.yml
-- filename: flipdish-orderbatches-api-openapi.yml
-  format: yaml
-  label: Flipdish OrderBatches API
-  slug: flipdish-orderbatches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-orderbatches-api-openapi.yml
 - filename: flipdish-orderbatchingconfiguration-api-openapi.yml
   format: yaml
   label: Flipdish OrderBatchingConfiguration API
@@ -354,12 +288,6 @@ api_specs:
   slug: flipdish-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-orders-api-openapi.yml
-- filename: flipdish-paymentintents-api-openapi.yml
-  format: yaml
-  label: Flipdish PaymentIntents API
-  slug: flipdish-paymentintents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-paymentintents-api-openapi.yml
 - filename: flipdish-payments-api-openapi.yml
   format: yaml
   label: Flipdish Payments API
@@ -390,12 +318,6 @@ api_specs:
   slug: flipdish-processingfeeconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-processingfeeconfigs-api-openapi.yml
-- filename: flipdish-pushnotifications-api-openapi.yml
-  format: yaml
-  label: Flipdish PushNotifications API
-  slug: flipdish-pushnotifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-pushnotifications-api-openapi.yml
 - filename: flipdish-receipts-api-openapi.yml
   format: yaml
   label: Flipdish Receipts API
@@ -510,6 +432,84 @@ api_specs:
   slug: flipdish-whitelabelconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-whitelabelconfig-api-openapi.yml
+- filename: flipdish-app-store-api-openapi.yml
+  format: yaml
+  label: Flipdish App Store API
+  slug: flipdish-app-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-app-store-api-openapi.yml
+- filename: flipdish-audit-logs-api-openapi.yml
+  format: yaml
+  label: Flipdish Audit Logs API
+  slug: flipdish-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-audit-logs-api-openapi.yml
+- filename: flipdish-authorization-tokens-api-openapi.yml
+  format: yaml
+  label: Flipdish Authorization Tokens API
+  slug: flipdish-authorization-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-authorization-tokens-api-openapi.yml
+- filename: flipdish-bank-account-api-openapi.yml
+  format: yaml
+  label: Flipdish Bank Account API
+  slug: flipdish-bank-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-bank-account-api-openapi.yml
+- filename: flipdish-catalog-groups-api-openapi.yml
+  format: yaml
+  label: Flipdish Catalog Groups API
+  slug: flipdish-catalog-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalog-groups-api-openapi.yml
+- filename: flipdish-catalog-items-api-openapi.yml
+  format: yaml
+  label: Flipdish Catalog Items API
+  slug: flipdish-catalog-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalog-items-api-openapi.yml
+- filename: flipdish-catalog-products-api-openapi.yml
+  format: yaml
+  label: Flipdish Catalog Products API
+  slug: flipdish-catalog-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalog-products-api-openapi.yml
+- filename: flipdish-location-areas-api-openapi.yml
+  format: yaml
+  label: Flipdish Location Areas API
+  slug: flipdish-location-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-location-areas-api-openapi.yml
+- filename: flipdish-mobile-apps-api-openapi.yml
+  format: yaml
+  label: Flipdish Mobile Apps API
+  slug: flipdish-mobile-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-mobile-apps-api-openapi.yml
+- filename: flipdish-oauth-clients-api-openapi.yml
+  format: yaml
+  label: Flipdish OAuth Clients API
+  slug: flipdish-oauth-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-oauth-clients-api-openapi.yml
+- filename: flipdish-order-batches-api-openapi.yml
+  format: yaml
+  label: Flipdish Order Batches API
+  slug: flipdish-order-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-order-batches-api-openapi.yml
+- filename: flipdish-payment-intents-api-openapi.yml
+  format: yaml
+  label: Flipdish Payment Intents API
+  slug: flipdish-payment-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-payment-intents-api-openapi.yml
+- filename: flipdish-push-notifications-api-openapi.yml
+  format: yaml
+  label: Flipdish Push Notifications API
+  slug: flipdish-push-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-push-notifications-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -560,7 +560,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
 - Online Ordering
-- Mobile Apps
+- Mobile App
 - Point-of-Sale
 - Order
 - Menus

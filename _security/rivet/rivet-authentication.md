@@ -59,7 +59,7 @@ tags:
 - Real-Time
 - Serverless
 - Edge
-- WebSockets
+- WebSocket
 - Durable Execution
 - Developer Tools
 ---

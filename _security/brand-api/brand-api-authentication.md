@@ -122,7 +122,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs
 summary_line: http/apiKey/oauth2 · 4 schemes
 tags:
 - Brands
-- Logos
+- Logo
 - Brand Assets
 - Company Data
 - Firmographics

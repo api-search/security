@@ -1,17 +1,65 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: DELTA Witness API
-  slug: delta-witness-api
+- filename: delta-witness-browser-verification-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions browser verification API
+  slug: delta-witness-browser-verification-api
   spec_type: OpenAPI
-  url: https://delta-witness-api.ruphussten.workers.dev/openapi.json
-- filename: delta-witness-partner-gateway-openapi.json
-  format: json
-  label: DELTA Witness Partner Gateway
-  slug: delta-witness-partner-gateway
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-browser-verification-api-openapi.yml
+- filename: delta-witness-capture-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Capture API
+  slug: delta-witness-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-partner-gateway-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-capture-api-openapi.yml
+- filename: delta-witness-demo-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Demo API
+  slug: delta-witness-demo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-demo-api-openapi.yml
+- filename: delta-witness-guarded-action-pilot-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Guarded Action Pilot API
+  slug: delta-witness-guarded-action-pilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-guarded-action-pilot-api-openapi.yml
+- filename: delta-witness-health-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Health API
+  slug: delta-witness-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-health-api-openapi.yml
+- filename: delta-witness-preflight-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Preflight API
+  slug: delta-witness-preflight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-preflight-api-openapi.yml
+- filename: delta-witness-preflight-autonomous-action-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions preflight autonomous action API
+  slug: delta-witness-preflight-autonomous-action-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-preflight-autonomous-action-api-openapi.yml
+- filename: delta-witness-proofs-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Proofs API
+  slug: delta-witness-proofs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-proofs-api-openapi.yml
+- filename: delta-witness-quote-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Quote API
+  slug: delta-witness-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-quote-api-openapi.yml
+- filename: delta-witness-watch-api-openapi.yml
+  format: yaml
+  label: DELTA Witness — Trust Layer for Autonomous Actions Watch API
+  slug: delta-witness-watch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/openapi/delta-witness-watch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,11 +98,11 @@ tags:
 - agent-guardrails
 - preflight-checks
 - x402-payments
-- pay-per-use
+- Pay-Per-Use
 - base-usdc
-- autonomous-agents
-- mcp
-- a2a
-- agent-skill
-- trust-and-safety
+- Autonomous Agents
+- MCP
+- A2A
+- Agent Skills
+- Trust and Safety
 ---

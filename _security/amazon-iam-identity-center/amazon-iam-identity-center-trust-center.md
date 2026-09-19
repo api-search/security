@@ -362,6 +362,6 @@ tags:
 - Access Control
 - Authentication
 - Identity Management
-- Single Sign-On
+- SSO
 trust_url: https://aws.amazon.com/compliance/
 ---

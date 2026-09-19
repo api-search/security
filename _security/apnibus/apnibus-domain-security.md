@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apnibus/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Travel
 - Mobility
 - Bus Ticketing

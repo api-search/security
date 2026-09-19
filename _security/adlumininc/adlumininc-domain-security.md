@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: adlumininc-api-openapi-original.yml
+- filename: adlumininc-at-risk-assets-api-openapi.yml
   format: yaml
-  label: Adlumin XDR/MDR API
-  slug: adlumin-xdrmdr-api
+  label: Adlumin At-Risk Assets API
+  slug: adlumininc-at-risk-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-at-risk-assets-api-openapi.yml
+- filename: adlumininc-compliance-api-openapi.yml
+  format: yaml
+  label: Adlumin Compliance API
+  slug: adlumininc-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-compliance-api-openapi.yml
+- filename: adlumininc-detections-api-openapi.yml
+  format: yaml
+  label: Adlumin Detections API
+  slug: adlumininc-detections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-detections-api-openapi.yml
+- filename: adlumininc-endpoint-api-openapi.yml
+  format: yaml
+  label: Adlumin Endpoint API
+  slug: adlumininc-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-endpoint-api-openapi.yml
+- filename: adlumininc-firewall-api-openapi.yml
+  format: yaml
+  label: Adlumin Firewall API
+  slug: adlumininc-firewall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-firewall-api-openapi.yml
+- filename: adlumininc-network-api-openapi.yml
+  format: yaml
+  label: Adlumin Network API
+  slug: adlumininc-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-network-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -116,12 +116,6 @@ api_specs:
   slug: international-business-machines-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/openapi/international-business-machines-volumes-api-openapi.yml
-- filename: international-business-machines-vpcs-api-openapi.yml
-  format: yaml
-  label: International Business Machines VPCs API
-  slug: international-business-machines-vpcs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/openapi/international-business-machines-vpcs-api-openapi.yml
 - filename: international-business-machines-worker-nodes-api-openapi.yml
   format: yaml
   label: International Business Machines Worker Nodes API
@@ -134,6 +128,12 @@ api_specs:
   slug: international-business-machines-worker-pools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/openapi/international-business-machines-worker-pools-api-openapi.yml
+- filename: international-business-machines-vpcs-api-openapi.yml
+  format: yaml
+  label: International Business Machines VP Cs API
+  slug: international-business-machines-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/openapi/international-business-machines-vpcs-api-openapi.yml
 auth_types:
 - http
 description: ''

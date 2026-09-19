@@ -43,7 +43,7 @@ tags:
 - Open-Source
 - Python
 - Rust
-- DataFrame
+- DataFrames
 - Physical AI
 - Distributed Computing
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: leapsome-absences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-absences-api-openapi.yml
-- filename: leapsome-accessroles-api-openapi.yml
-  format: yaml
-  label: Leapsome accessRoles API
-  slug: leapsome-accessroles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-accessroles-api-openapi.yml
 - filename: leapsome-auth-api-openapi.yml
   format: yaml
   label: Leapsome auth API
@@ -44,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-groups-api-openapi.yml
 - filename: leapsome-leapsome-api-api-openapi.yml
   format: yaml
-  label: Leapsome Leapsome API API
+  label: Leapsome API
   slug: leapsome-leapsome-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-leapsome-api-api-openapi.yml
@@ -66,12 +60,6 @@ api_specs:
   slug: leapsome-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-schemas-api-openapi.yml
-- filename: leapsome-timetracking-api-openapi.yml
-  format: yaml
-  label: Leapsome timeTracking API
-  slug: leapsome-timetracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-timetracking-api-openapi.yml
 - filename: leapsome-users-api-openapi.yml
   format: yaml
   label: Leapsome users API
@@ -84,6 +72,18 @@ api_specs:
   slug: leapsome-worklocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-worklocations-api-openapi.yml
+- filename: leapsome-access-roles-api-openapi.yml
+  format: yaml
+  label: Leapsome Access Roles API
+  slug: leapsome-access-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-access-roles-api-openapi.yml
+- filename: leapsome-time-tracking-api-openapi.yml
+  format: yaml
+  label: Leapsome Time Tracking API
+  slug: leapsome-time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-time-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []

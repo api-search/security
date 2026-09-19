@@ -35,7 +35,7 @@ tags:
 - Vision Care
 - Eye Care
 - Medical Devices
-- Kiosks
+- Kiosk
 - Retail Technology
 - Optometry
 - Hardware

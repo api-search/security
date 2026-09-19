@@ -35,7 +35,7 @@ tags:
 - Hospitality
 - Restaurant
 - Inventory Management
-- Beverage
+- Beverages
 - Point-of-Sale
 - Ordering
 ---

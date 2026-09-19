@@ -45,12 +45,6 @@ api_specs:
   slug: cable-helper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-helper-api-openapi.yml
-- filename: cable-identityverification-api-openapi.yml
-  format: yaml
-  label: Cable identityVerification API
-  slug: cable-identityverification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-identityverification-api-openapi.yml
 - filename: cable-onboardingflow-api-openapi.yml
   format: yaml
   label: Cable onboardingFlow API
@@ -69,12 +63,6 @@ api_specs:
   slug: cable-retail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-retail-api-openapi.yml
-- filename: cable-riskassessment-api-openapi.yml
-  format: yaml
-  label: Cable riskAssessment API
-  slug: cable-riskassessment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-riskassessment-api-openapi.yml
 - filename: cable-screening-api-openapi.yml
   format: yaml
   label: Cable screening API
@@ -123,6 +111,18 @@ api_specs:
   slug: cable-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-utilities-api-openapi.yml
+- filename: cable-identity-verification-api-openapi.yml
+  format: yaml
+  label: Cable Identity Verification API
+  slug: cable-identity-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-identity-verification-api-openapi.yml
+- filename: cable-risk-assessment-api-openapi.yml
+  format: yaml
+  label: Cable Risk Assessment API
+  slug: cable-risk-assessment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-risk-assessment-api-openapi.yml
 auth_types:
 - apiKey
 - http

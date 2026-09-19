@@ -216,12 +216,6 @@ api_specs:
   slug: avito-realty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-realty-api-openapi.yml
-- filename: avito-referencedata-api-openapi.yml
-  format: yaml
-  label: Avito ReferenceData API
-  slug: avito-referencedata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-referencedata-api-openapi.yml
 - filename: avito-report-api-openapi.yml
   format: yaml
   label: Avito Report API
@@ -306,6 +300,12 @@ api_specs:
   slug: avito-xdelivery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-xdelivery-api-openapi.yml
+- filename: avito-reference-data-api-openapi.yml
+  format: yaml
+  label: Avito Reference Data API
+  slug: avito-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-reference-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

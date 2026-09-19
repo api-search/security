@@ -25,7 +25,7 @@ tags:
 - Email
 - Calendar
 - AI Assistant
-- AI Agent
+- AI Agents
 - Email Automation
 - Productivity
 - Y Combinator

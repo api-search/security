@@ -56,12 +56,6 @@ api_specs:
   slug: blueocean-mock-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/openapi/blueocean-mock-mcp-api-openapi.yml
-- filename: blueocean-oauth-providers-api-openapi.yml
-  format: yaml
-  label: BlueOcean OAUTH Providers API
-  slug: blueocean-oauth-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/openapi/blueocean-oauth-providers-api-openapi.yml
 - filename: blueocean-pinecone-api-api-openapi.yml
   format: yaml
   label: BlueOcean Pinecone API
@@ -116,6 +110,12 @@ api_specs:
   slug: blueocean-user-memory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/openapi/blueocean-user-memory-api-openapi.yml
+- filename: blueocean-oauth-providers-api-openapi.yml
+  format: yaml
+  label: BlueOcean OAUTH Providers API
+  slug: blueocean-oauth-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/openapi/blueocean-oauth-providers-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

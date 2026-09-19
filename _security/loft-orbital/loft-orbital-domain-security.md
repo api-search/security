@@ -33,7 +33,7 @@ tags:
 - Company
 - Frontier Tech
 - Space
-- Satellites
+- Satellite
 - Aerospace
 - Mission Control
 ---

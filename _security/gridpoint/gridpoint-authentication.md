@@ -88,7 +88,7 @@ tags:
 - Buildings
 - Building Automation
 - Sustainability
-- Internet of Things
+- IoT
 - Demand Response
 - Facilities
 - Analytics

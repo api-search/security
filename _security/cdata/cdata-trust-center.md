@@ -1,77 +1,89 @@
 ---
 api_specs:
-- filename: cdata-rest-api-openapi.yml
-  format: yaml
-  label: CData SQL API
-  slug: sql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-openapi.yml
-- filename: cdata-rest-api-openapi.yml
-  format: yaml
-  label: CData Metadata API
-  slug: metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-openapi.yml
-- filename: cdata-rest-api-openapi.yml
-  format: yaml
-  label: CData Log API
-  slug: log-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-openapi.yml
-- filename: cdata-rest-api-embedded-openapi.yml
-  format: yaml
-  label: CData Connection API
-  slug: connection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-embedded-openapi.yml
-- filename: cdata-rest-api-embedded-openapi.yml
-  format: yaml
-  label: CData Job API
-  slug: job-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-embedded-openapi.yml
-- filename: cdata-rest-api-embedded-openapi.yml
-  format: yaml
-  label: CData Account API
-  slug: account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-embedded-openapi.yml
-- filename: cdata-rest-api-openapi.yml
-  format: yaml
-  label: CData Audit API
-  slug: audit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-rest-api-openapi.yml
-- filename: cdata-odata-api-openapi.yml
-  format: yaml
-  label: CData OData API
-  slug: odata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-odata-api-openapi.yml
 - filename: cdata-mcp-api-openapi.yml
   format: yaml
   label: CData Connect AI MCP Server
   slug: mcp
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-mcp-api-openapi.yml
-- filename: cdata-management-api-openapi.yml
+- filename: cdata-account-api-openapi.yml
   format: yaml
-  label: CData Connect AI Management API
-  slug: management-api
+  label: CData Account API
+  slug: cdata-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-management-api-openapi.yml
-- filename: cdata-mcp-api-embedded-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-account-api-openapi.yml
+- filename: cdata-cache-api-openapi.yml
   format: yaml
-  label: CData Connect AI Embed MCP Server
-  slug: mcp-embedded
+  label: CData Cache API
+  slug: cdata-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-mcp-api-embedded-openapi.yml
-- filename: cdata-openapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-cache-api-openapi.yml
+- filename: cdata-connection-api-openapi.yml
   format: yaml
-  label: CData Connect AI OpenAPI API
-  slug: openapi-api
+  label: CData Connection API
+  slug: cdata-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-openapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-connection-api-openapi.yml
+- filename: cdata-data-explorer-api-openapi.yml
+  format: yaml
+  label: CData Data Explorer API
+  slug: cdata-data-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-data-explorer-api-openapi.yml
+- filename: cdata-job-api-openapi.yml
+  format: yaml
+  label: CData Job API
+  slug: cdata-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-job-api-openapi.yml
+- filename: cdata-jobs-api-openapi.yml
+  format: yaml
+  label: CData Jobs API
+  slug: cdata-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-jobs-api-openapi.yml
+- filename: cdata-log-api-openapi.yml
+  format: yaml
+  label: CData Log API
+  slug: cdata-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-log-api-openapi.yml
+- filename: cdata-metadata-api-openapi.yml
+  format: yaml
+  label: CData Metadata API
+  slug: cdata-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-metadata-api-openapi.yml
+- filename: cdata-query-api-openapi.yml
+  format: yaml
+  label: CData Query API
+  slug: cdata-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-query-api-openapi.yml
+- filename: cdata-service-accounts-api-openapi.yml
+  format: yaml
+  label: CData Service Accounts API
+  slug: cdata-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-service-accounts-api-openapi.yml
+- filename: cdata-users-api-openapi.yml
+  format: yaml
+  label: CData Users API
+  slug: cdata-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-users-api-openapi.yml
+- filename: cdata-odata-api-openapi.yml
+  format: yaml
+  label: CData O Data API
+  slug: cdata-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-odata-api-openapi.yml
+- filename: cdata-open-api-api-openapi.yml
+  format: yaml
+  label: CData Open API
+  slug: cdata-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-open-api-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -97,7 +109,7 @@ tags:
 - Data
 - Data Access
 - Data Connectivity
-- Databases
+- Database
 - NoSQL
 - SQL
 trust_url: https://www.cdata.com/security/

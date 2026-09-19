@@ -6,18 +6,6 @@ api_specs:
   slug: sourcepoint-gdpr-reporting-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-reporting-api-api-openapi.yml
-- filename: sourcepoint-gdpr-standard-end-user-consent-status-api-openapi.yml
-  format: yaml
-  label: Sourcepoint GDPR Standard end-user consent status API
-  slug: sourcepoint-gdpr-standard-end-user-consent-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-standard-end-user-consent-status-api-openapi.yml
-- filename: sourcepoint-gdpr-standard-vendor-list-api-openapi.yml
-  format: yaml
-  label: Sourcepoint GDPR Standard vendor list API
-  slug: sourcepoint-gdpr-standard-vendor-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-standard-vendor-list-api-openapi.yml
 - filename: sourcepoint-gdpr-tcf-end-user-consent-status-api-openapi.yml
   format: yaml
   label: Sourcepoint GDPR TCF end-user consent status API
@@ -30,12 +18,6 @@ api_specs:
   slug: sourcepoint-gdpr-tcf-vendor-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-gdpr-tcf-vendor-list-api-openapi.yml
-- filename: sourcepoint-global-enterprise-end-user-consent-status-api-openapi.yml
-  format: yaml
-  label: Sourcepoint Global Enterprise end-user consent status API
-  slug: sourcepoint-global-enterprise-end-user-consent-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/openapi/sourcepoint-global-enterprise-end-user-consent-status-api-openapi.yml
 - filename: sourcepoint-preferences-end-user-history-api-openapi.yml
   format: yaml
   label: Sourcepoint Preferences end-user history API

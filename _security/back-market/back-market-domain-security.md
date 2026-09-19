@@ -12,12 +12,6 @@ api_specs:
   slug: back-market-backship-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backship-api-openapi.yml
-- filename: back-market-buyback-api-openapi.yml
-  format: yaml
-  label: Back Market Buy Back API
-  slug: back-market-buyback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-buyback-api-openapi.yml
 - filename: back-market-care-api-openapi.yml
   format: yaml
   label: Back Market Care API
@@ -48,12 +42,18 @@ api_specs:
   slug: back-market-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orders-api-openapi.yml
-- filename: back-market-taskmanager-api-openapi.yml
+- filename: back-market-buy-back-api-openapi.yml
   format: yaml
-  label: Back Market Task Manager API
-  slug: back-market-taskmanager-api
+  label: Back Market Buy Back API
+  slug: back-market-buy-back-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-taskmanager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-buy-back-api-openapi.yml
+- filename: back-market-task-manager-api-openapi.yml
+  format: yaml
+  label: Back Market task manager API
+  slug: back-market-task-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-task-manager-api-openapi.yml
 description: ''
 domains:
 - caa: []

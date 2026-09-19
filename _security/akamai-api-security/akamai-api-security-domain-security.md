@@ -242,37 +242,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-request-body-size-api-openapi.yml
 - filename: akamai-api-security-security-policy-conditions-and-exceptions-api-openapi.yml
   format: yaml
-  label: 'Akamai API Security Security policy: Conditions and exceptions API'
+  label: 'Akamai API Security policy: Conditions and exceptions API'
   slug: akamai-api-security-security-policy-conditions-and-exceptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-security-policy-conditions-and-exceptions-api-openapi.yml
 - filename: akamai-api-security-security-policy-evaluation-attack-groups-api-openapi.yml
   format: yaml
-  label: 'Akamai API Security Security policy: Evaluation attack groups API'
+  label: 'Akamai API Security policy: Evaluation attack groups API'
   slug: akamai-api-security-security-policy-evaluation-attack-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-security-policy-evaluation-attack-groups-api-openapi.yml
 - filename: akamai-api-security-security-policy-evaluation-hostnames-api-openapi.yml
   format: yaml
-  label: 'Akamai API Security Security policy: Evaluation hostnames API'
+  label: 'Akamai API Security policy: Evaluation hostnames API'
   slug: akamai-api-security-security-policy-evaluation-hostnames-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-security-policy-evaluation-hostnames-api-openapi.yml
 - filename: akamai-api-security-security-policy-evaluation-mode-api-openapi.yml
   format: yaml
-  label: 'Akamai API Security Security policy: Evaluation mode API'
+  label: 'Akamai API Security policy: Evaluation mode API'
   slug: akamai-api-security-security-policy-evaluation-mode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-security-policy-evaluation-mode-api-openapi.yml
 - filename: akamai-api-security-security-policy-evaluation-penalty-box-api-openapi.yml
   format: yaml
-  label: 'Akamai API Security Security policy: Evaluation penalty box API'
+  label: 'Akamai API Security policy: Evaluation penalty box API'
   slug: akamai-api-security-security-policy-evaluation-penalty-box-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-security-policy-evaluation-penalty-box-api-openapi.yml
 - filename: akamai-api-security-security-policy-evaluation-rules-api-openapi.yml
   format: yaml
-  label: 'Akamai API Security Security policy: Evaluation rules API'
+  label: 'Akamai API Security policy: Evaluation rules API'
   slug: akamai-api-security-security-policy-evaluation-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-security-policy-evaluation-rules-api-openapi.yml

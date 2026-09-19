@@ -1,29 +1,71 @@
 ---
 api_specs:
-- filename: center-for-parent-information-and-resources-parent-center-directory-api-openapi.yml
+- filename: center-for-parent-information-and-resources-account-api-openapi.yml
   format: yaml
-  label: CPIR Parent Center Directory API
-  slug: cpir-parent-center-directory-api
+  label: Center for Parent Information and Resources Account API
+  slug: center-for-parent-information-and-resources-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-parent-center-directory-api-openapi.yml
-- filename: center-for-parent-information-and-resources-geography-reference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-account-api-openapi.yml
+- filename: center-for-parent-information-and-resources-autocomplete-api-openapi.yml
   format: yaml
-  label: CPIR Geography Reference API
-  slug: cpir-geography-reference-api
+  label: Center for Parent Information and Resources Autocomplete API
+  slug: center-for-parent-information-and-resources-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-geography-reference-api-openapi.yml
-- filename: center-for-parent-information-and-resources-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-autocomplete-api-openapi.yml
+- filename: center-for-parent-information-and-resources-categories-api-openapi.yml
   format: yaml
-  label: CPIR oEmbed API
-  slug: cpir-oembed-api
+  label: Center for Parent Information and Resources Categories API
+  slug: center-for-parent-information-and-resources-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-oembed-api-openapi.yml
-- filename: center-for-parent-information-and-resources-site-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-categories-api-openapi.yml
+- filename: center-for-parent-information-and-resources-countries-api-openapi.yml
   format: yaml
-  label: CPIR Site Metadata API
-  slug: cpir-site-metadata-api
+  label: Center for Parent Information and Resources Countries API
+  slug: center-for-parent-information-and-resources-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-site-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-countries-api-openapi.yml
+- filename: center-for-parent-information-and-resources-discovery-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources Discovery API
+  slug: center-for-parent-information-and-resources-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-discovery-api-openapi.yml
+- filename: center-for-parent-information-and-resources-entries-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources Entries API
+  slug: center-for-parent-information-and-resources-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-entries-api-openapi.yml
+- filename: center-for-parent-information-and-resources-geometry-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources Geometry API
+  slug: center-for-parent-information-and-resources-geometry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-geometry-api-openapi.yml
+- filename: center-for-parent-information-and-resources-metadata-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources Metadata API
+  slug: center-for-parent-information-and-resources-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-metadata-api-openapi.yml
+- filename: center-for-parent-information-and-resources-regions-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources Regions API
+  slug: center-for-parent-information-and-resources-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-regions-api-openapi.yml
+- filename: center-for-parent-information-and-resources-seo-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources SEO API
+  slug: center-for-parent-information-and-resources-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-seo-api-openapi.yml
+- filename: center-for-parent-information-and-resources-o-embed-api-openapi.yml
+  format: yaml
+  label: Center for Parent Information and Resources o Embed API
+  slug: center-for-parent-information-and-resources-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/openapi/center-for-parent-information-and-resources-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

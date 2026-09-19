@@ -2,31 +2,31 @@
 api_specs:
 - filename: sail-batches-api-api-openapi.yml
   format: yaml
-  label: Sail Batches API API
+  label: Sail Batches API
   slug: sail-batches-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/openapi/sail-batches-api-api-openapi.yml
 - filename: sail-chat-completions-api-api-openapi.yml
   format: yaml
-  label: Sail Chat Completions API API
+  label: Sail Chat Completions API
   slug: sail-chat-completions-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/openapi/sail-chat-completions-api-api-openapi.yml
 - filename: sail-messages-api-api-openapi.yml
   format: yaml
-  label: Sail Messages API API
+  label: Sail Messages API
   slug: sail-messages-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/openapi/sail-messages-api-api-openapi.yml
 - filename: sail-models-api-api-openapi.yml
   format: yaml
-  label: Sail Models API API
+  label: Sail Models API
   slug: sail-models-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/openapi/sail-models-api-api-openapi.yml
 - filename: sail-responses-api-api-openapi.yml
   format: yaml
-  label: Sail Responses API API
+  label: Sail Responses API
   slug: sail-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/openapi/sail-responses-api-api-openapi.yml

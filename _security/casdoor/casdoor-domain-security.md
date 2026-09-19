@@ -96,7 +96,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Authentication
 - Authorization
-- IAM
+- Identity and Access Management
 - Identity
 - LDAP
 - MCP
@@ -106,7 +106,7 @@ tags:
 - Passkeys
 - SAML
 - SCIM
-- Single Sign-On
 - SSO
 - WebAuthn
+- Identity Federation
 ---

@@ -85,7 +85,7 @@ tags:
 - Customer Feedback
 - Quality Assurance
 - Coaching
-- Contact Centers
+- Contact Center
 - Surveys
 - Customer Experience
 - Software-as-a-Service

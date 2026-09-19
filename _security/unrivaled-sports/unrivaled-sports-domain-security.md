@@ -36,7 +36,7 @@ tags:
 - Baseball
 - Softball
 - Flag Football
-- Events
+- Event
 - Tournaments
 - Venues
 - Camps

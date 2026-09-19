@@ -114,5 +114,5 @@ tags:
 - Stock Cars
 - Motorsports
 - Race Results
-- Schedules
+- Schedule
 ---

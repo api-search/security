@@ -81,12 +81,6 @@ api_specs:
   slug: buk-days-worked-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-days-worked-api-openapi.yml
-- filename: buk-dismissal-api-openapi.yml
-  format: yaml
-  label: Buk Dismissal API
-  slug: buk-dismissal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-dismissal-api-openapi.yml
 - filename: buk-documents-api-openapi.yml
   format: yaml
   label: Buk Documents API
@@ -219,24 +213,12 @@ api_specs:
   slug: buk-overtime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-overtime-api-openapi.yml
-- filename: buk-pay-stubs-api-openapi.yml
-  format: yaml
-  label: Buk Pay stubs API
-  slug: buk-pay-stubs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-pay-stubs-api-openapi.yml
 - filename: buk-payment-documents-api-openapi.yml
   format: yaml
   label: Buk Payment documents API
   slug: buk-payment-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-payment-documents-api-openapi.yml
-- filename: buk-payrolls-api-openapi.yml
-  format: yaml
-  label: Buk Payrolls API
-  slug: buk-payrolls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/openapi/buk-payrolls-api-openapi.yml
 - filename: buk-people-api-openapi.yml
   format: yaml
   label: Buk People API
@@ -459,7 +441,6 @@ summary_line: apiKey · 4 schemes
 tags:
 - Human Resources
 - Payroll
-- HR Tech
 - Time and Attendance
 - Benefits
 - Recruiting

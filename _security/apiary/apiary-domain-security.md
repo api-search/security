@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: apiary-apiary-api-openapi.yml
+- filename: apiary-api-list-api-openapi.yml
   format: yaml
-  label: Apiary API
-  slug: apiary-api
+  label: Apiary API List API
+  slug: apiary-api-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-apiary-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-api-list-api-openapi.yml
+- filename: apiary-authentication-api-openapi.yml
+  format: yaml
+  label: Apiary Authentication API
+  slug: apiary-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-authentication-api-openapi.yml
+- filename: apiary-blueprint-api-openapi.yml
+  format: yaml
+  label: Apiary Blueprint API
+  slug: apiary-blueprint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-blueprint-api-openapi.yml
+- filename: apiary-user-information-api-openapi.yml
+  format: yaml
+  label: Apiary User Information API
+  slug: apiary-user-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-user-information-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -6,12 +6,6 @@ api_specs:
   slug: health-gorilla-binary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
-- filename: health-gorilla-capabilitystatement-api-openapi.yml
-  format: yaml
-  label: Health Gorilla CapabilityStatement API
-  slug: health-gorilla-capabilitystatement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capabilitystatement-api-openapi.yml
 - filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
   label: Health Gorilla Coverage API
@@ -24,12 +18,6 @@ api_specs:
   slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
-- filename: health-gorilla-documentreference-api-openapi.yml
-  format: yaml
-  label: Health Gorilla DocumentReference API
-  slug: health-gorilla-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-documentreference-api-openapi.yml
 - filename: health-gorilla-observation-api-openapi.yml
   format: yaml
   label: Health Gorilla Observation API
@@ -60,6 +48,18 @@ api_specs:
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+- filename: health-gorilla-capability-statement-api-openapi.yml
+  format: yaml
+  label: Health Gorilla Capability Statement API
+  slug: health-gorilla-capability-statement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capability-statement-api-openapi.yml
+- filename: health-gorilla-document-reference-api-openapi.yml
+  format: yaml
+  label: Health Gorilla Document Reference API
+  slug: health-gorilla-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-document-reference-api-openapi.yml
 certification_count: 3
 certifications:
 - HITRUST r2

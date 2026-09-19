@@ -3,12 +3,90 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: videoverse-magnifi-partner-openapi.yml
+- filename: videoverse-catch-me-up-api-openapi.yml
   format: yaml
-  label: Magnifi Partner Integration API
-  slug: magnifi-partner-integration-api
+  label: VideoVerse Catch me up API
+  slug: videoverse-catch-me-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-magnifi-partner-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-catch-me-up-api-openapi.yml
+- filename: videoverse-clips-api-openapi.yml
+  format: yaml
+  label: VideoVerse Clips API
+  slug: videoverse-clips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-clips-api-openapi.yml
+- filename: videoverse-content-api-openapi.yml
+  format: yaml
+  label: VideoVerse Content API
+  slug: videoverse-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-content-api-openapi.yml
+- filename: videoverse-entity-member-api-openapi.yml
+  format: yaml
+  label: VideoVerse Entity Member API
+  slug: videoverse-entity-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-entity-member-api-openapi.yml
+- filename: videoverse-highlight-clips-api-openapi.yml
+  format: yaml
+  label: VideoVerse Highlight Clips API
+  slug: videoverse-highlight-clips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-highlight-clips-api-openapi.yml
+- filename: videoverse-highlights-api-openapi.yml
+  format: yaml
+  label: VideoVerse Highlights API
+  slug: videoverse-highlights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-highlights-api-openapi.yml
+- filename: videoverse-match-schedule-api-openapi.yml
+  format: yaml
+  label: VideoVerse Match Schedule API
+  slug: videoverse-match-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-match-schedule-api-openapi.yml
+- filename: videoverse-match-video-api-openapi.yml
+  format: yaml
+  label: VideoVerse Match Video API
+  slug: videoverse-match-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-match-video-api-openapi.yml
+- filename: videoverse-partner-api-openapi.yml
+  format: yaml
+  label: VideoVerse Partner API
+  slug: videoverse-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-partner-api-openapi.yml
+- filename: videoverse-player-api-openapi.yml
+  format: yaml
+  label: VideoVerse Player API
+  slug: videoverse-player-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-player-api-openapi.yml
+- filename: videoverse-streams-api-openapi.yml
+  format: yaml
+  label: VideoVerse Streams API
+  slug: videoverse-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-streams-api-openapi.yml
+- filename: videoverse-team-api-openapi.yml
+  format: yaml
+  label: VideoVerse Team API
+  slug: videoverse-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-team-api-openapi.yml
+- filename: videoverse-tournament-api-openapi.yml
+  format: yaml
+  label: VideoVerse Tournament API
+  slug: videoverse-tournament-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-tournament-api-openapi.yml
+- filename: videoverse-webhook-api-openapi.yml
+  format: yaml
+  label: VideoVerse Webhook API
+  slug: videoverse-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoverse/refs/heads/main/openapi/videoverse-webhook-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,6 +132,6 @@ tags:
 - Video Editing
 - Highlights
 - Content Creation
-- Machine Learning
-- Webhooks
+- Machine-Learning
+- Webhook
 ---

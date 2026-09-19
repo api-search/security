@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clickpos
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/authentication/clickpost-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Carriers
+- Carrier
 - Delivery
 - E-commerce Logistics
 - Logistics

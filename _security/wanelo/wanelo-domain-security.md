@@ -36,7 +36,7 @@ tags:
 - E-Commerce
 - Retail
 - Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 - Artificial Intelligence

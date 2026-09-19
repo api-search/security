@@ -31,7 +31,7 @@ tags:
 - GraphQL
 - MCP
 - agent-native
-- SaaS
+- Software-as-a-Service
 - Company
 trust_url: ''
 ---

@@ -56,7 +56,6 @@ tags:
 - Tax Filing
 - Tax Calculation
 - Money Movement
-- HR
 - Human Resources
 - Workforce Management
 - Fintech

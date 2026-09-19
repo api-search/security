@@ -46,13 +46,11 @@ source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/authentication/bkash-authentication.yml
 summary_line: token/apiKey · 2 schemes
 tags:
-- Company
-- Fintech
 - Payments
-- Payment Gateway
 - Mobile Financial Services
-- Digital Wallet
-- Bangladesh
+- Fintech
 - Checkout
-- Webhook
+- Bangladesh
+- Digital Wallet
+- Payment Gateway
 ---

@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mantis/refs/he
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Digital Twins
+- Digital Twin
 - Healthcare
 - Predictive Analytics
 - Wearables

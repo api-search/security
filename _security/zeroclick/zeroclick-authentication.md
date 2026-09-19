@@ -55,7 +55,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Agent Commerce
+- Agentic Commerce
 - Agentic Payments
 - API Monetization
 - x402

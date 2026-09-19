@@ -44,7 +44,7 @@ tags:
 - Financing
 - B2B SaaS
 - Revenue Financing
-- BNPL
+- Buy Now Pay Later
 - KYB
 - Underwriting
 ---

@@ -44,7 +44,7 @@ tags:
 - Multispectral
 - Hyperspectral
 - Tasking
-- Archive
+- Archives
 - Aleph
 - NewSat
 - Constellation

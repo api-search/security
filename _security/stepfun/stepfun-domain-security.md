@@ -50,7 +50,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Multi-Modal
-- Chat Completion
+- Chat Completions
 - Audio
 - Speech
 - Text-to-Speech

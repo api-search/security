@@ -87,7 +87,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Non-Alcoholic Beer
-- Beverage
+- Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
 - E-Commerce

@@ -52,7 +52,7 @@ tags:
 - Company
 - Automotive
 - Dealership
-- Service
+- Services
 - Fixed Operations
 - Pickup and Delivery
 - Logistics

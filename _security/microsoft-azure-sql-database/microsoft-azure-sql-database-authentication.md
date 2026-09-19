@@ -20,18 +20,18 @@ api_specs:
   slug: microsoft-azure-sql-database-failovergroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
-- filename: microsoft-azure-sql-database-firewallrules-api-openapi.yml
-  format: yaml
-  label: Azure SQL Database FirewallRules API
-  slug: microsoft-azure-sql-database-firewallrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-firewallrules-api-openapi.yml
 - filename: microsoft-azure-sql-database-servers-api-openapi.yml
   format: yaml
   label: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
+- filename: microsoft-azure-sql-database-firewall-rules-api-openapi.yml
+  format: yaml
+  label: Azure SQL Database Firewall Rules API
+  slug: microsoft-azure-sql-database-firewall-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -14,12 +14,6 @@ api_specs:
   slug: workboard-custom-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-custom-attributes-api-openapi.yml
-- filename: workboard-datastream-api-openapi.yml
-  format: yaml
-  label: WorkBoard Datastream API
-  slug: workboard-datastream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-datastream-api-openapi.yml
 - filename: workboard-goal-objective-api-openapi.yml
   format: yaml
   label: WorkBoard Goal (Objective) API
@@ -68,6 +62,12 @@ api_specs:
   slug: workboard-workstream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-workstream-api-openapi.yml
+- filename: workboard-data-stream-api-openapi.yml
+  format: yaml
+  label: WorkBoard Data Stream API
+  slug: workboard-data-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-data-stream-api-openapi.yml
 auth_types:
 - http
 - oauth2

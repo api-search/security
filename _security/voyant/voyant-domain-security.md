@@ -408,12 +408,6 @@ api_specs:
   slug: voyant-org-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-org-settings-api-openapi.yml
-- filename: voyant-pdfs-api-openapi.yml
-  format: yaml
-  label: Voyant.io PD Fs API
-  slug: voyant-pdfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-pdfs-api-openapi.yml
 - filename: voyant-pipeline-api-openapi.yml
   format: yaml
   label: Voyant.io Pipeline API
@@ -498,12 +492,6 @@ api_specs:
   slug: voyant-target-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-target-graph-api-openapi.yml
-- filename: voyant-targetgraph-api-openapi.yml
-  format: yaml
-  label: Voyant.io Targetgraph API
-  slug: voyant-targetgraph-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-targetgraph-api-openapi.yml
 - filename: voyant-targets-api-openapi.yml
   format: yaml
   label: Voyant.io Targets API
@@ -588,6 +576,12 @@ api_specs:
   slug: voyant-youtube-signals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-youtube-signals-api-openapi.yml
+- filename: voyant-pdfs-api-openapi.yml
+  format: yaml
+  label: Voyant.io PD Fs API
+  slug: voyant-pdfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/openapi/voyant-pdfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

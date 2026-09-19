@@ -6,12 +6,6 @@ api_specs:
   slug: simplismart-chat-completion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-chat-completion-api-openapi.yml
-- filename: simplismart-flux-api-openapi.yml
-  format: yaml
-  label: Simplismart Flux API
-  slug: simplismart-flux-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-flux-api-openapi.yml
 - filename: simplismart-flux-training-api-openapi.yml
   format: yaml
   label: Simplismart Flux Training API

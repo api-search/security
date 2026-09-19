@@ -49,7 +49,7 @@ tags:
 - E-Mobility
 - Charge Point Operator
 - eMSP
-- Electric Vehicle
+- Electric Vehicles
 - CDR Clearing
 - Interoperability
 - Hub

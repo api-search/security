@@ -1,17 +1,173 @@
 ---
 api_specs:
-- filename: tzero-issuance-secondary-markets-openapi.json
-  format: json
-  label: tZERO Issuance & Secondary Markets API
-  slug: issuance-secondary-markets
+- filename: tzero-authorization-api-openapi.yml
+  format: yaml
+  label: tZERO Authorization API
+  slug: tzero-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-issuance-secondary-markets-openapi.json
-- filename: tzero-institutional-openapi.json
-  format: json
-  label: tZERO Institutional API
-  slug: institutional
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-authorization-api-openapi.yml
+- filename: tzero-balance-api-openapi.yml
+  format: yaml
+  label: tZERO Balance API
+  slug: tzero-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-institutional-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-balance-api-openapi.yml
+- filename: tzero-bank-accounts-api-openapi.yml
+  format: yaml
+  label: tZERO Bank Accounts API
+  slug: tzero-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-bank-accounts-api-openapi.yml
+- filename: tzero-corporate-actions-api-openapi.yml
+  format: yaml
+  label: tZERO Corporate Actions API
+  slug: tzero-corporate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-corporate-actions-api-openapi.yml
+- filename: tzero-custody-accounts-api-openapi.yml
+  format: yaml
+  label: tZERO Custody Accounts API
+  slug: tzero-custody-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-custody-accounts-api-openapi.yml
+- filename: tzero-custody-assets-api-openapi.yml
+  format: yaml
+  label: tZERO Custody Assets API
+  slug: tzero-custody-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-custody-assets-api-openapi.yml
+- filename: tzero-custody-transfers-api-openapi.yml
+  format: yaml
+  label: tZERO Custody Transfers API
+  slug: tzero-custody-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-custody-transfers-api-openapi.yml
+- filename: tzero-deployments-api-openapi.yml
+  format: yaml
+  label: tZERO Deployments API
+  slug: tzero-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-deployments-api-openapi.yml
+- filename: tzero-dividends-api-openapi.yml
+  format: yaml
+  label: tZERO Dividends API
+  slug: tzero-dividends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-dividends-api-openapi.yml
+- filename: tzero-documents-api-openapi.yml
+  format: yaml
+  label: tZERO Documents API
+  slug: tzero-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-documents-api-openapi.yml
+- filename: tzero-investments-api-openapi.yml
+  format: yaml
+  label: tZERO Investments API
+  slug: tzero-investments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-investments-api-openapi.yml
+- filename: tzero-investoraccounts-api-openapi.yml
+  format: yaml
+  label: tZERO Investor Accounts API
+  slug: tzero-investoraccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-investoraccounts-api-openapi.yml
+- filename: tzero-investors-api-openapi.yml
+  format: yaml
+  label: tZERO Investors API
+  slug: tzero-investors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-investors-api-openapi.yml
+- filename: tzero-iso-api-openapi.yml
+  format: yaml
+  label: tZERO Iso API
+  slug: tzero-iso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-iso-api-openapi.yml
+- filename: tzero-issuances-api-openapi.yml
+  format: yaml
+  label: tZERO Issuances API
+  slug: tzero-issuances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-issuances-api-openapi.yml
+- filename: tzero-markets-api-openapi.yml
+  format: yaml
+  label: tZERO Markets API
+  slug: tzero-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-markets-api-openapi.yml
+- filename: tzero-onboarding-api-openapi.yml
+  format: yaml
+  label: tZERO Onboarding API
+  slug: tzero-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-onboarding-api-openapi.yml
+- filename: tzero-proposals-api-openapi.yml
+  format: yaml
+  label: tZERO Proposals API
+  slug: tzero-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-proposals-api-openapi.yml
+- filename: tzero-securities-api-openapi.yml
+  format: yaml
+  label: tZERO Securities API
+  slug: tzero-securities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-securities-api-openapi.yml
+- filename: tzero-settlements-api-openapi.yml
+  format: yaml
+  label: tZERO Settlements API
+  slug: tzero-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-settlements-api-openapi.yml
+- filename: tzero-subred-api-openapi.yml
+  format: yaml
+  label: tZERO Subred API
+  slug: tzero-subred-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-subred-api-openapi.yml
+- filename: tzero-subred-embed-api-openapi.yml
+  format: yaml
+  label: tZERO SubRed Embed API
+  slug: tzero-subred-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-subred-embed-api-openapi.yml
+- filename: tzero-tokens-api-openapi.yml
+  format: yaml
+  label: tZERO Tokens API
+  slug: tzero-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-tokens-api-openapi.yml
+- filename: tzero-trading-api-openapi.yml
+  format: yaml
+  label: tZERO Trading API
+  slug: tzero-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-trading-api-openapi.yml
+- filename: tzero-transfers-api-openapi.yml
+  format: yaml
+  label: tZERO Transfers API
+  slug: tzero-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-transfers-api-openapi.yml
+- filename: tzero-vaults-api-openapi.yml
+  format: yaml
+  label: tZERO Vaults API
+  slug: tzero-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-vaults-api-openapi.yml
+- filename: tzero-webhooks-api-openapi.yml
+  format: yaml
+  label: tZERO Webhooks API
+  slug: tzero-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-webhooks-api-openapi.yml
+- filename: tzero-whitelist-api-openapi.yml
+  format: yaml
+  label: tZERO Whitelist API
+  slug: tzero-whitelist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-whitelist-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +240,7 @@ tags:
 - Transfer Agent
 - Custody
 - Blockchain
-- Financial Services
+- Financial-Services
 - Securities
 - Market Data
 - FIX Protocol

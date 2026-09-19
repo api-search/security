@@ -45,6 +45,6 @@ tags:
 - Vital Signs
 - Clinical Trials
 - Sensors
-- Internet of Things
+- IoT
 - Sleep
 ---

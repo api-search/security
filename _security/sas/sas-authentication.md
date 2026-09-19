@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: sas-businessrules-api-openapi.yml
-  format: yaml
-  label: SAS Institute BusinessRules API
-  slug: sas-businessrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-businessrules-api-openapi.yml
 - filename: sas-cas-api-openapi.yml
   format: yaml
   label: SAS Institute CAS API
@@ -62,6 +56,12 @@ api_specs:
   slug: sas-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-reports-api-openapi.yml
+- filename: sas-business-rules-api-openapi.yml
+  format: yaml
+  label: SAS Institute Business Rules API
+  slug: sas-business-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-business-rules-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

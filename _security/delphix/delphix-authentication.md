@@ -33,12 +33,6 @@ api_specs:
   slug: delphix-classifiers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-classifiers-api-openapi.yml
-- filename: delphix-cloudaccounts-api-openapi.yml
-  format: yaml
-  label: Delphix CloudAccounts API
-  slug: delphix-cloudaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-cloudaccounts-api-openapi.yml
 - filename: delphix-compliancejobcollections-api-openapi.yml
   format: yaml
   label: Delphix ComplianceJobCollections API
@@ -75,12 +69,6 @@ api_specs:
   slug: delphix-databasetemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-databasetemplates-api-openapi.yml
-- filename: delphix-dataclasses-api-openapi.yml
-  format: yaml
-  label: Delphix DataClasses API
-  slug: delphix-dataclasses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-dataclasses-api-openapi.yml
 - filename: delphix-datalayouts-api-openapi.yml
   format: yaml
   label: Delphix DataLayouts API
@@ -363,6 +351,18 @@ api_specs:
   slug: delphix-virtualizationpolicies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-virtualizationpolicies-api-openapi.yml
+- filename: delphix-cloud-accounts-api-openapi.yml
+  format: yaml
+  label: Delphix Cloud Accounts API
+  slug: delphix-cloud-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-cloud-accounts-api-openapi.yml
+- filename: delphix-data-classes-api-openapi.yml
+  format: yaml
+  label: Delphix Data Classes API
+  slug: delphix-data-classes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-data-classes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

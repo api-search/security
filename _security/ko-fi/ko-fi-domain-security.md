@@ -53,7 +53,7 @@ tags:
 - Creator Economy
 - Donations
 - Tips
-- Memberships
+- Membership
 - Shop
 - Payments
 - Webhook

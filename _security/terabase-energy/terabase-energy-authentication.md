@@ -129,12 +129,6 @@ api_specs:
   slug: terabase-energy-tabtengine-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/openapi/terabase-energy-tabtengine-api-openapi.yml
-- filename: terabase-energy-timeseries-api-openapi.yml
-  format: yaml
-  label: Terabase Energy Time Series API
-  slug: terabase-energy-timeseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/openapi/terabase-energy-timeseries-api-openapi.yml
 - filename: terabase-energy-version-api-openapi.yml
   format: yaml
   label: Terabase Energy Version API
@@ -147,6 +141,12 @@ api_specs:
   slug: terabase-energy-weather-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/openapi/terabase-energy-weather-api-openapi.yml
+- filename: terabase-energy-time-series-api-openapi.yml
+  format: yaml
+  label: Terabase Energy Time Series API
+  slug: terabase-energy-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/openapi/terabase-energy-time-series-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -224,7 +224,7 @@ tags:
 - Solar
 - Renewable Energy
 - Energy Modeling
-- utility-scale-solar
+- Utility-Scale Solar
 - Simulation
 - Photovoltaics
 - Construction Technology

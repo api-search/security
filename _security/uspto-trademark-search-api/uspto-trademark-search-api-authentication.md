@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uspto-tr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/authentication/uspto-trademark-search-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Brand
+- Brands
 - Brand Protection
 - Business
 - Data
@@ -71,6 +71,6 @@ tags:
 - Intellectual Property
 - Legal
 - Search
-- Trademark
+- Trademarks
 - USPTO
 ---

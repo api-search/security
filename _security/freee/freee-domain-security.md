@@ -127,7 +127,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounting
 - Bookkeeping
-- HR
+- Human Resources
 - Payroll
 - Invoicing
 - Finance

@@ -33,6 +33,18 @@ api_specs:
   slug: azure-ai-foundry-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-models-api-openapi.yml
+- filename: azure-ai-foundry-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Operations API
+  slug: microsoft-azure-ai-foundry-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-operations-api-openapi.yml
+- filename: azure-ai-foundry-workspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Workspaces API
+  slug: microsoft-azure-ai-foundry-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

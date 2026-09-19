@@ -37,7 +37,7 @@ tags:
 - Energy
 - Manufacturing
 - Hardware
-- Utility Scale Solar
+- Utility-Scale Solar
 - Mining
 - Australia
 - Company

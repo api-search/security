@@ -26,12 +26,6 @@ api_specs:
   slug: qonto-international-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-international-transfers-api-openapi.yml
-- filename: qonto-oauth-api-openapi.yml
-  format: yaml
-  label: Qonto OAuth API
-  slug: qonto-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
 - filename: qonto-organizations-accounts-api-openapi.yml
   format: yaml
   label: Qonto Organizations & Accounts API
@@ -68,18 +62,24 @@ api_specs:
   slug: qonto-terminals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-terminals-api-openapi.yml
-- filename: qonto-transactions-statements-api-openapi.yml
-  format: yaml
-  label: Qonto Transactions & Statements API
-  slug: qonto-transactions-statements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-statements-api-openapi.yml
 - filename: qonto-webhooks-api-openapi.yml
   format: yaml
   label: Qonto Webhooks API
   slug: qonto-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
+- filename: qonto-oauth-api-openapi.yml
+  format: yaml
+  label: Qonto O Auth API
+  slug: qonto-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
+- filename: qonto-transactions-and-statements-api-openapi.yml
+  format: yaml
+  label: Qonto Transactions and Statements API
+  slug: qonto-transactions-and-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-and-statements-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

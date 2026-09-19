@@ -41,6 +41,6 @@ tags:
 - Cycle Tracking
 - Wearables
 - Digital Health
-- Medical Device
+- Medical Devices
 - Sweden
 ---

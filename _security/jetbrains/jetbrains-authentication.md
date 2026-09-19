@@ -74,12 +74,6 @@ api_specs:
   slug: jetbrains-chats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-chats-api-openapi.yml
-- filename: jetbrains-code-reviews-api-openapi.yml
-  format: yaml
-  label: JetBrains Code Reviews API
-  slug: jetbrains-code-reviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-code-reviews-api-openapi.yml
 - filename: jetbrains-groups-api-openapi.yml
   format: yaml
   label: JetBrains Groups API
@@ -104,12 +98,6 @@ api_specs:
   slug: jetbrains-licenses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-licenses-api-openapi.yml
-- filename: jetbrains-oauth2-api-openapi.yml
-  format: yaml
-  label: JetBrains OAuth2 API
-  slug: jetbrains-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-oauth2-api-openapi.yml
 - filename: jetbrains-packages-api-openapi.yml
   format: yaml
   label: JetBrains Packages API
@@ -200,6 +188,18 @@ api_specs:
   slug: jetbrains-work-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-work-items-api-openapi.yml
+- filename: jetbrains-oauth2-api-openapi.yml
+  format: yaml
+  label: JetBrains O Auth2 API
+  slug: jetbrains-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-oauth2-api-openapi.yml
+- filename: jetbrains-codereviews-api-openapi.yml
+  format: yaml
+  label: JetBrains Codereviews API
+  slug: jetbrains-codereviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/openapi/jetbrains-codereviews-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -242,4 +242,5 @@ tags:
 - CI/CD
 - Developer Tools
 - IDE
+- JetBrains
 ---

@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+- filename: hebrew-university-of-jerusalem-courses-api-openapi.yml
   format: yaml
-  label: Shnaton Course Catalog API
-  slug: shnaton-course-catalog
+  label: Hebrew University of Jerusalem Courses API
+  slug: hebrew-university-of-jerusalem-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-courses-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-organization-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Organization API
+  slug: hebrew-university-of-jerusalem-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-organization-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-reference-data-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Reference Data API
+  slug: hebrew-university-of-jerusalem-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-reference-data-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-service-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Service API
+  slug: hebrew-university-of-jerusalem-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-service-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-specializations-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Specializations API
+  slug: hebrew-university-of-jerusalem-specializations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-specializations-api-openapi.yml
+- filename: hebrew-university-of-jerusalem-syllabus-api-openapi.yml
+  format: yaml
+  label: Hebrew University of Jerusalem Syllabus API
+  slug: hebrew-university-of-jerusalem-syllabus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-syllabus-api-openapi.yml
 auth_types: []
 description: 'Authentication across the Hebrew University of Jerusalem''s programmable surfaces. The headline is that the one institution-operated API found in this profile requires no authentication at all, and the university operates no API key issuance, no OAuth authorization server, and no developer registration of any kind that could be found. Human and staff authentication is a different story and is entirely SAML: a university-run SimpleSAMLphp identity provider at idp.cc.huji.ac.il fronts the institutional web estate, including the vendor platforms the university is a tenant of.'
 kind: authentication

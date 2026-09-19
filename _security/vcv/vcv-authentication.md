@@ -140,5 +140,5 @@ tags:
 - Video Interviews
 - Talent Acquisition
 - Hiring
-- Assessments
+- Assessment
 ---

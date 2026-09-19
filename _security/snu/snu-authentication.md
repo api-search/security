@@ -8,12 +8,12 @@ api_specs:
   slug: snu-oai-pmh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-oai-pmh-api-openapi.yml
-- filename: snu-opensearch-api-openapi.yml
+- filename: snu-open-search-api-openapi.yml
   format: yaml
   label: Seoul National University Open Search API
-  slug: snu-opensearch-api
+  slug: snu-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-opensearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-open-search-api-openapi.yml
 auth_types:
 - none
 - saml2

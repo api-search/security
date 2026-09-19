@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: university-of-ottawa-ruor-dspace-rest-openapi.yml
+- filename: university-of-ottawa-authn-api-openapi.yml
   format: yaml
-  label: uO Research DSpace REST API
-  slug: ruor-rest
+  label: University of Ottawa Authn API
+  slug: university-of-ottawa-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-ruor-dspace-rest-openapi.yml
-- filename: university-of-ottawa-ruor-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-authn-api-openapi.yml
+- filename: university-of-ottawa-core-api-openapi.yml
   format: yaml
-  label: uO Research OAI-PMH
-  slug: ruor-oai
+  label: University of Ottawa Core API
+  slug: university-of-ottawa-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-ruor-oai-pmh-openapi.yml
-- filename: university-of-ottawa-www-drupal-jsonapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-core-api-openapi.yml
+- filename: university-of-ottawa-discover-api-openapi.yml
   format: yaml
-  label: uottawa.ca Content JSON:API
-  slug: www-jsonapi
+  label: University of Ottawa Discover API
+  slug: university-of-ottawa-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-www-drupal-jsonapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-discover-api-openapi.yml
+- filename: university-of-ottawa-node-api-openapi.yml
+  format: yaml
+  label: University of Ottawa Node API
+  slug: university-of-ottawa-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-node-api-openapi.yml
+- filename: university-of-ottawa-request-api-openapi.yml
+  format: yaml
+  label: University of Ottawa Request API
+  slug: university-of-ottawa-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-request-api-openapi.yml
+- filename: university-of-ottawa-taxonomy-term-api-openapi.yml
+  format: yaml
+  label: University of Ottawa Taxonomy Term API
+  slug: university-of-ottawa-taxonomy-term-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-taxonomy-term-api-openapi.yml
+- filename: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
+  format: yaml
+  label: University of Ottawa UO Research (Recherche UO Research) DSpace REST API
+  slug: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api-openapi.yml
+- filename: university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
+  format: yaml
+  label: University of Ottawa Uottawa.ca Content JSON:API API
+  slug: university-of-ottawa-uottawa-ca-content-json-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-uottawa-ca-content-json-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +103,7 @@ tags:
 - SAML
 - DSpace
 - OAI-PMH
-- JSON API
+- JSON:API
 - Open Access
 - DataCite
 - Crossref

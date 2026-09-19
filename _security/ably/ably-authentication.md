@@ -111,7 +111,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/head
 summary_line: http · 2 schemes
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - Messaging
 - Streaming

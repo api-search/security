@@ -52,7 +52,7 @@ tags:
 - OCPI
 - Charge Point Operator
 - Roaming
-- Fleets
+- Fleet
 - Mobility
 - Charging Sessions
 - Electrification

@@ -12,12 +12,6 @@ api_specs:
   slug: mpesa-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-authorization-api-openapi.yml
-- filename: mpesa-b2b-api-openapi.yml
-  format: yaml
-  label: M-Pesa (Safaricom Daraja) B2B API
-  slug: mpesa-b2b-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-b2b-api-openapi.yml
 - filename: mpesa-b2c-api-openapi.yml
   format: yaml
   label: M-Pesa (Safaricom Daraja) B2C API
@@ -66,6 +60,12 @@ api_specs:
   slug: mpesa-transaction-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-transaction-status-api-openapi.yml
+- filename: mpesa-b2-b-api-openapi.yml
+  format: yaml
+  label: M-Pesa (Safaricom Daraja) B2 B API
+  slug: mpesa-b2-b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-b2-b-api-openapi.yml
 certification_count: 4
 certifications:
 - PCI DSS v4

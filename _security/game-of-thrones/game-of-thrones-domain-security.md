@@ -18,12 +18,6 @@ api_specs:
   slug: game-of-thrones-houses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-houses-api-openapi.yml
-- filename: an-api-of-ice-and-fire-root-api-openapi.yml
-  format: yaml
-  label: An API of Ice And Fire Root API
-  slug: an-api-of-ice-and-fire-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/an-api-of-ice-and-fire-root-api-openapi.yml
 description: ''
 domains:
 - caa: []

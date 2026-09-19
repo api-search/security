@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: kau-open-data-api-openapi.yml
+- filename: kau-studentsdata-api-openapi.yml
   format: yaml
-  label: KAU Open Data API
-  slug: open-data
+  label: King Abdulaziz University Students Data API
+  slug: kau-studentsdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/openapi/kau-open-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/openapi/kau-studentsdata-api-openapi.yml
 description: ''
 domains:
 - caa:

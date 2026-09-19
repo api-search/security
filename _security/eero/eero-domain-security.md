@@ -40,7 +40,7 @@ tags:
 - Mesh Networking
 - Home Networking
 - Smart Home
-- Internet of Things
+- IoT
 - Hardware
 - Consumer Electronics
 ---

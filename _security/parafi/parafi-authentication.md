@@ -54,7 +54,7 @@ tags:
 - Blockchain
 - Digital Assets
 - Staking
-- Validators
+- Validator
 - Solana
 - Ethereum
 - Avalanche

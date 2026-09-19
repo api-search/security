@@ -90,12 +90,6 @@ api_specs:
   slug: smart-pension-bankaccountdetail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-bankaccountdetail-api-openapi.yml
-- filename: smart-pension-bankaccountdetails-api-openapi.yml
-  format: yaml
-  label: Smart Pension Bank Account Details API
-  slug: smart-pension-bankaccountdetails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-bankaccountdetails-api-openapi.yml
 - filename: smart-pension-batch-api-openapi.yml
   format: yaml
   label: Smart Pension Batch API
@@ -216,12 +210,6 @@ api_specs:
   slug: smart-pension-companyfees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-companyfees-api-openapi.yml
-- filename: smart-pension-companylookup-api-openapi.yml
-  format: yaml
-  label: Smart Pension Company Lookup API
-  slug: smart-pension-companylookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-companylookup-api-openapi.yml
 - filename: smart-pension-companylookups-api-openapi.yml
   format: yaml
   label: Smart Pension Company Lookups API
@@ -414,12 +402,6 @@ api_specs:
   slug: smart-pension-externalemployeedataavailability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-externalemployeedataavailability-api-openapi.yml
-- filename: smart-pension-featureflags-api-openapi.yml
-  format: yaml
-  label: Smart Pension Feature Flags API
-  slug: smart-pension-featureflags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-featureflags-api-openapi.yml
 - filename: smart-pension-funds-api-openapi.yml
   format: yaml
   label: Smart Pension Funds API
@@ -668,13 +650,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-payrollconfigurationdetail-api-openapi.yml
 - filename: smart-pension-pensionforecast-api-openapi.yml
   format: yaml
-  label: Smart Pension Pension Forecast API
+  label: Smart Pension Forecast API
   slug: smart-pension-pensionforecast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-pensionforecast-api-openapi.yml
 - filename: smart-pension-pensionforecastinputs-api-openapi.yml
   format: yaml
-  label: Smart Pension Pension Forecast Inputs API
+  label: Smart Pension Forecast Inputs API
   slug: smart-pension-pensionforecastinputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-pensionforecastinputs-api-openapi.yml
@@ -888,12 +870,30 @@ api_specs:
   slug: smart-pension-valuations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-valuations-api-openapi.yml
-- filename: smart-pension-verificationchecks-api-openapi.yml
+- filename: smart-pension-bank-account-details-api-openapi.yml
+  format: yaml
+  label: Smart Pension Bank Account Details API
+  slug: smart-pension-bank-account-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-bank-account-details-api-openapi.yml
+- filename: smart-pension-company-lookup-api-openapi.yml
+  format: yaml
+  label: Smart Pension Company Lookup API
+  slug: smart-pension-company-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-company-lookup-api-openapi.yml
+- filename: smart-pension-feature-flags-api-openapi.yml
+  format: yaml
+  label: Smart Pension Feature Flags API
+  slug: smart-pension-feature-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-feature-flags-api-openapi.yml
+- filename: smart-pension-verification-checks-api-openapi.yml
   format: yaml
   label: Smart Pension Verification Checks API
-  slug: smart-pension-verificationchecks-api
+  slug: smart-pension-verification-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-verificationchecks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/openapi/smart-pension-verification-checks-api-openapi.yml
 description: ''
 domains:
 - caa: []

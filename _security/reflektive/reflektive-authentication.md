@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflektive/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Performance Management
-- HR
+- Human Resources
 - Employee Feedback
 - Goal Tracking
 - Engagement Surveys

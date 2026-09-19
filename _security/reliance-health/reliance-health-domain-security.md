@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Health Insurance
 - HMO
-- Telemedicine
+- Telehealth
 - Employee Benefits
 - Insurtech
 - Africa

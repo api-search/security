@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: food-info-apiv1-api-openapi.yml
-  format: yaml
-  label: Food Info API V1 API
-  slug: food-info-apiv1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-apiv1-api-openapi.yml
 - filename: food-info-recipesapi-api-openapi.yml
   format: yaml
-  label: Food Info Recipes API API
+  label: Food Info Recipes API
   slug: food-info-recipesapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-recipesapi-api-openapi.yml
+- filename: food-info-api-v1-api-openapi.yml
+  format: yaml
+  label: Food Info api v1 API
+  slug: food-info-api-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-api-v1-api-openapi.yml
 auth_types: []
 description: API key in the X-Api-Key header. HTTPS only, and CORS is disabled — intended for server-to-server use.
 kind: authentication

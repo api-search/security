@@ -50,6 +50,6 @@ tags:
 - LTI
 - OneRoster
 - Rostering
-- Single Sign-On
+- SSO
 - Interoperability
 ---

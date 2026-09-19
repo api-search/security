@@ -39,6 +39,6 @@ tags:
 - Artificial Intelligence
 - Coaching
 - Wearables
-- Consumer Apps
+- Consumer App
 - Y Combinator
 ---

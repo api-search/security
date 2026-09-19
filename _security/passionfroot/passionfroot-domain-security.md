@@ -37,6 +37,6 @@ tags:
 - Sponsorships
 - Brand Partnerships
 - Payments
-- AI Agent
+- AI Agents
 - Go-To-Market
 ---

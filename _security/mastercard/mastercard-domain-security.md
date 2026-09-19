@@ -132,12 +132,6 @@ api_specs:
   slug: mastercard-alerts-merchants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-alerts-merchants-api-openapi.yml
-- filename: mastercard-apis-api-openapi.yml
-  format: yaml
-  label: Mastercard Apis API
-  slug: mastercard-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-apis-api-openapi.yml
 - filename: mastercard-approvals-api-openapi.yml
   format: yaml
   label: Mastercard Approvals API
@@ -354,12 +348,6 @@ api_specs:
   slug: mastercard-field-mapping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-field-mapping-api-openapi.yml
-- filename: mastercard-footprints-api-openapi.yml
-  format: yaml
-  label: Mastercard Footprints API
-  slug: mastercard-footprints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-footprints-api-openapi.yml
 - filename: mastercard-fraud-api-openapi.yml
   format: yaml
   label: Mastercard Fraud API
@@ -414,12 +402,6 @@ api_specs:
   slug: mastercard-lost-stolen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-lost-stolen-api-openapi.yml
-- filename: mastercard-mastercard-api-openapi.yml
-  format: yaml
-  label: Mastercard Mastercard API
-  slug: mastercard-mastercard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-mastercard-api-openapi.yml
 - filename: mastercard-member-api-openapi.yml
   format: yaml
   label: Mastercard Member API
@@ -456,12 +438,6 @@ api_specs:
   slug: mastercard-offers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-offers-api-openapi.yml
-- filename: mastercard-otps-api-openapi.yml
-  format: yaml
-  label: Mastercard Otps API
-  slug: mastercard-otps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-otps-api-openapi.yml
 - filename: mastercard-pan-blocks-api-openapi.yml
   format: yaml
   label: Mastercard PAN Blocks API
@@ -606,6 +582,18 @@ api_specs:
   slug: mastercard-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-widgets-api-openapi.yml
+- filename: mastercard-apis-api-openapi.yml
+  format: yaml
+  label: Mastercard APIS API
+  slug: mastercard-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-apis-api-openapi.yml
+- filename: mastercard-otps-api-openapi.yml
+  format: yaml
+  label: Mastercard Otps API
+  slug: mastercard-otps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-otps-api-openapi.yml
 description: ''
 domains:
 - caa: []

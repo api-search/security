@@ -35,7 +35,7 @@ tags:
 - Ai Enterprise Software
 - Digital Coaching
 - Learning and Development
-- HR Tech
+- Human Resources
 - Employee Development
 - Software-as-a-Service
 ---

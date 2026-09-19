@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/turborep
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/authentication/turborepo-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Build System
+- Build Systems
 - Monorepo
 - JavaScript
 - TypeScript

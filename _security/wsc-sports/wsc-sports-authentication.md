@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: wsc-sports-blaze-feed-api.json
-  format: json
-  label: WSC Sports Blaze Feed API
-  slug: wsc-sports-blaze-feed-api
+- filename: wsc-sports-feed-api-openapi.yml
+  format: yaml
+  label: WSC Sports Feed API
+  slug: wsc-sports-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wsc-sports/refs/heads/main/openapi/wsc-sports-blaze-feed-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/wsc-sports/refs/heads/main/openapi/wsc-sports-feed-api-openapi.yml
 auth_types:
 - apiKey
 - http

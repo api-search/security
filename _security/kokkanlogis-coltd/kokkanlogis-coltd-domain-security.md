@@ -35,7 +35,7 @@ tags:
 - Warehousing
 - Storage as a Service
 - Consumer Services
-- Mobile Apps
+- Mobile App
 - South Korea
 - Franchise
 ---

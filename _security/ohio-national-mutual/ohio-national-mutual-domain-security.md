@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Ohio National Mutual Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar)
+overview: 'Domain security posture for Ohio National, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Ohio National
 provider_slug: ohio-national-mutual
 slug: ohio-national-mutual-domain-security
 source_filename: ohio-national-mutual-domain-security.yml

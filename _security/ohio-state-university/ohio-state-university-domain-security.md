@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ohio-state-university-mobile-content-api-openapi.yml
+- filename: ohio-state-university-classes-api-openapi.yml
   format: yaml
-  label: Ohio State Mobile Content API v2
-  slug: mobile-content-api
+  label: Ohio State University Classes API
+  slug: ohio-state-university-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-mobile-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-classes-api-openapi.yml
+- filename: ohio-state-university-events-api-openapi.yml
+  format: yaml
+  label: Ohio State University Events API
+  slug: ohio-state-university-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/openapi/ohio-state-university-events-api-openapi.yml
 description: ''
 domains:
 - caa: []

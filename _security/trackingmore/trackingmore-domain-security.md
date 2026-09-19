@@ -58,7 +58,7 @@ tags:
 - Logistics
 - Shipping
 - Tracking
-- Parcels
+- Parcel
 - Webhook
 - E-Commerce
 ---

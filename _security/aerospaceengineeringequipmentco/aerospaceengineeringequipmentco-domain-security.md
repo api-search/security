@@ -6,18 +6,48 @@ api_specs:
   slug: aee-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-products-api-openapi.yml
-- filename: aerospaceengineeringequipmentco-content-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-categories-api-openapi.yml
   format: yaml
-  label: AEE Content API
-  slug: aee-content-api
+  label: Aerospace Engineering Equipment Categories API
+  slug: aerospaceengineeringequipmentco-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-content-api-openapi.yml
-- filename: aerospaceengineeringequipmentco-site-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-categories-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-media-api-openapi.yml
   format: yaml
-  label: AEE Site Index API
-  slug: aee-site-api
+  label: Aerospace Engineering Equipment Media API
+  slug: aerospaceengineeringequipmentco-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-site-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-media-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-pages-api-openapi.yml
+  format: yaml
+  label: Aerospace Engineering Equipment Pages API
+  slug: aerospaceengineeringequipmentco-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-pages-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-posts-api-openapi.yml
+  format: yaml
+  label: Aerospace Engineering Equipment Posts API
+  slug: aerospaceengineeringequipmentco-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-posts-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-product-categories-api-openapi.yml
+  format: yaml
+  label: Aerospace Engineering Equipment Product Categories API
+  slug: aerospaceengineeringequipmentco-product-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-product-categories-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-registries-api-openapi.yml
+  format: yaml
+  label: Aerospace Engineering Equipment Registries API
+  slug: aerospaceengineeringequipmentco-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-registries-api-openapi.yml
+- filename: aerospaceengineeringequipmentco-search-api-openapi.yml
+  format: yaml
+  label: Aerospace Engineering Equipment Search API
+  slug: aerospaceengineeringequipmentco-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/openapi/aerospaceengineeringequipmentco-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

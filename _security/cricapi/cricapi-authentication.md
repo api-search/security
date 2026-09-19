@@ -77,6 +77,6 @@ tags:
 - Fantasy Cricket
 - Ball-By-Ball
 - Team Rankings
-- Schedules
+- Schedule
 - Sports Data
 ---

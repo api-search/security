@@ -12,12 +12,6 @@ api_specs:
   slug: faros-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-events-api-openapi.yml
-- filename: faros-graphql-api-openapi.yml
-  format: yaml
-  label: Faros AI GraphQL API
-  slug: faros-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graphql-api-openapi.yml
 - filename: faros-graphs-api-openapi.yml
   format: yaml
   label: Faros AI Graphs API
@@ -36,6 +30,12 @@ api_specs:
   slug: faros-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-webhooks-api-openapi.yml
+- filename: faros-graph-ql-api-openapi.yml
+  format: yaml
+  label: Faros AI Graph QL API
+  slug: faros-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:

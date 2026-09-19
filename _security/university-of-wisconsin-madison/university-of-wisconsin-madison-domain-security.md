@@ -90,12 +90,6 @@ api_specs:
   slug: university-of-wisconsin-madison-degrees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-degrees-api-openapi.yml
-- filename: university-of-wisconsin-madison-emailaddresses-api-openapi.yml
-  format: yaml
-  label: University of Wisconsin-Madison Email Addresses API
-  slug: university-of-wisconsin-madison-emailaddresses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-emailaddresses-api-openapi.yml
 - filename: university-of-wisconsin-madison-exports-api-openapi.yml
   format: yaml
   label: University of Wisconsin-Madison Exports API
@@ -156,12 +150,6 @@ api_specs:
   slug: university-of-wisconsin-madison-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-people-api-openapi.yml
-- filename: university-of-wisconsin-madison-phonenumbers-api-openapi.yml
-  format: yaml
-  label: University of Wisconsin-Madison Phone Numbers API
-  slug: university-of-wisconsin-madison-phonenumbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-phonenumbers-api-openapi.yml
 - filename: university-of-wisconsin-madison-research-api-openapi.yml
   format: yaml
   label: University of Wisconsin-Madison Research API
@@ -228,6 +216,18 @@ api_specs:
   slug: university-of-wisconsin-madison-worktags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-worktags-api-openapi.yml
+- filename: university-of-wisconsin-madison-email-addresses-api-openapi.yml
+  format: yaml
+  label: University of Wisconsin-Madison Email Addresses API
+  slug: university-of-wisconsin-madison-email-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-email-addresses-api-openapi.yml
+- filename: university-of-wisconsin-madison-phone-numbers-api-openapi.yml
+  format: yaml
+  label: University of Wisconsin-Madison Phone Numbers API
+  slug: university-of-wisconsin-madison-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/openapi/university-of-wisconsin-madison-phone-numbers-api-openapi.yml
 description: ''
 domains:
 - caa: []

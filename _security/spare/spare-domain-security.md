@@ -48,12 +48,6 @@ api_specs:
   slug: spare-customer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-customer-api-openapi.yml
-- filename: spare-directdebit-api-openapi.yml
-  format: yaml
-  label: Spare DirectDebit API
-  slug: spare-directdebit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-directdebit-api-openapi.yml
 - filename: spare-parties-api-openapi.yml
   format: yaml
   label: Spare Parties API
@@ -102,6 +96,12 @@ api_specs:
   slug: spare-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-transaction-api-openapi.yml
+- filename: spare-direct-debit-api-openapi.yml
+  format: yaml
+  label: Spare Direct Debit API
+  slug: spare-direct-debit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-direct-debit-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -160,5 +160,5 @@ tags:
 - MENA
 - Saudi Arabia
 - Bahrain
-- UAE
+- United Arab Emirates
 ---

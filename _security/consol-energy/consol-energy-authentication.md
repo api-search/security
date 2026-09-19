@@ -2,36 +2,36 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: consol-energy-mines-content-api-openapi.yml
-  format: yaml
-  label: Core Natural Resources Mines Content API
-  slug: mines-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-mines-content-api-openapi.yml
-- filename: consol-energy-leadership-content-api-openapi.yml
-  format: yaml
-  label: Core Natural Resources Leadership Content API
-  slug: leadership-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-leadership-content-api-openapi.yml
-- filename: consol-energy-news-content-api-openapi.yml
-  format: yaml
-  label: Core Natural Resources News Content API
-  slug: news-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-news-content-api-openapi.yml
-- filename: consol-energy-site-content-api-openapi.yml
-  format: yaml
-  label: Core Natural Resources Site Content API
-  slug: site-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-site-content-api-openapi.yml
 - filename: consol-energy-discovery-api-openapi.yml
   format: yaml
   label: Core Natural Resources Discovery API
   slug: discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-discovery-api-openapi.yml
+- filename: consol-energy-leadership-api-openapi.yml
+  format: yaml
+  label: CONSOL Energy Leadership API
+  slug: consol-energy-leadership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-leadership-api-openapi.yml
+- filename: consol-energy-mines-api-openapi.yml
+  format: yaml
+  label: CONSOL Energy Mines API
+  slug: consol-energy-mines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-mines-api-openapi.yml
+- filename: consol-energy-news-api-openapi.yml
+  format: yaml
+  label: CONSOL Energy News API
+  slug: consol-energy-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-news-api-openapi.yml
+- filename: consol-energy-site-api-openapi.yml
+  format: yaml
+  label: CONSOL Energy Site API
+  slug: consol-energy-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-site-api-openapi.yml
 auth_types:
 - none
 - cookie-nonce

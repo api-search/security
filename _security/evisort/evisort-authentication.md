@@ -57,7 +57,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/h
 summary_line: http · 1 scheme
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contract Intelligence
 - Document AI
 - Legal Tech

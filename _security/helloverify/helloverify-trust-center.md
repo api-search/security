@@ -32,6 +32,6 @@ tags:
 - KYC
 - Primary Source Verification
 - Compliance
-- HR Tech
+- Human Resources
 trust_url: https://www.helloverify.com/en/technology
 ---

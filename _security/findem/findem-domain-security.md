@@ -42,5 +42,5 @@ tags:
 - Talent Analytics
 - Agentic AI
 - Embedded AI
-- HR Tech
+- Human Resources
 ---

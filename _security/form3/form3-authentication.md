@@ -14,12 +14,6 @@ api_specs:
   slug: form3-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-accounts-api-openapi.yml
-- filename: form3-accountvalidation-api-openapi.yml
-  format: yaml
-  label: Form3 Account Validation API
-  slug: form3-accountvalidation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-accountvalidation-api-openapi.yml
 - filename: form3-ace-api-openapi.yml
   format: yaml
   label: Form3 ACE API
@@ -50,12 +44,6 @@ api_specs:
   slug: form3-claims-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-claims-api-openapi.yml
-- filename: form3-directdebits-api-openapi.yml
-  format: yaml
-  label: Form3 Direct Debits API
-  slug: form3-directdebits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-directdebits-api-openapi.yml
 - filename: form3-directdebitsreads-api-openapi.yml
   format: yaml
   label: Form3 Direct Debits Reads API
@@ -170,6 +158,18 @@ api_specs:
   slug: form3-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-users-api-openapi.yml
+- filename: form3-account-validation-api-openapi.yml
+  format: yaml
+  label: Form3 Account Validation API
+  slug: form3-account-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-account-validation-api-openapi.yml
+- filename: form3-direct-debits-api-openapi.yml
+  format: yaml
+  label: Form3 Direct Debits API
+  slug: form3-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-direct-debits-api-openapi.yml
 auth_types:
 - http
 - oauth2

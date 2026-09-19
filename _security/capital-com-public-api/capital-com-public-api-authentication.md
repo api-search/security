@@ -102,7 +102,7 @@ tags:
 - Forex
 - Indices
 - Market Data
-- Shares
+- Share
 - Streaming
 - Trading
 - WebSocket

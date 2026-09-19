@@ -18,12 +18,6 @@ api_specs:
   slug: sap-successfactors-focompany-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-focompany-api-openapi.yml
-- filename: sap-successfactors-oauth-api-openapi.yml
-  format: yaml
-  label: SAP SuccessFactors Oauth API
-  slug: sap-successfactors-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
 - filename: sap-successfactors-perperson-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors PerPerson API
@@ -48,6 +42,12 @@ api_specs:
   slug: sap-successfactors-user-userid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-userid-api-openapi.yml
+- filename: sap-successfactors-oauth-api-openapi.yml
+  format: yaml
+  label: SAP SuccessFactors OAUTH API
+  slug: sap-successfactors-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +98,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-successfac
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - HCM
-- HR
 - Human Resources
 - Talent Management
 - Payroll

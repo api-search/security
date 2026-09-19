@@ -6,18 +6,6 @@ api_specs:
   slug: oracle-accessgovernancecp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-accessgovernancecp-api-openapi.yml
-- filename: oracle-accessrequest-api-openapi.yml
-  format: yaml
-  label: Oracle Access Request API
-  slug: oracle-accessrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-accessrequest-api-openapi.yml
-- filename: oracle-accessrequests-api-openapi.yml
-  format: yaml
-  label: Oracle Access Requests API
-  slug: oracle-accessrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-accessrequests-api-openapi.yml
 - filename: oracle-account-api-openapi.yml
   format: yaml
   label: Oracle Account API
@@ -132,12 +120,6 @@ api_specs:
   slug: oracle-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-attributes-api-openapi.yml
-- filename: oracle-audit-api-openapi.yml
-  format: yaml
-  label: Oracle Audit API
-  slug: oracle-audit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-audit-api-openapi.yml
 - filename: oracle-autoscaling-api-openapi.yml
   format: yaml
   label: Oracle Auto Scaling API
@@ -306,12 +288,6 @@ api_specs:
   slug: oracle-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-config-api-openapi.yml
-- filename: oracle-connectorplugins-api-openapi.yml
-  format: yaml
-  label: Oracle Connector Plugins API
-  slug: oracle-connectorplugins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-connectorplugins-api-openapi.yml
 - filename: oracle-containerengine-api-openapi.yml
   format: yaml
   label: Oracle Container Engine API
@@ -324,12 +300,6 @@ api_specs:
   slug: oracle-containerinstance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-containerinstance-api-openapi.yml
-- filename: oracle-containerregistry-api-openapi.yml
-  format: yaml
-  label: Oracle Container Registry API
-  slug: oracle-containerregistry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-containerregistry-api-openapi.yml
 - filename: oracle-costad-api-openapi.yml
   format: yaml
   label: Oracle Cost Ad API
@@ -384,12 +354,6 @@ api_specs:
   slug: oracle-databasetoolsruntime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-databasetoolsruntime-api-openapi.yml
-- filename: oracle-datacatalog-api-openapi.yml
-  format: yaml
-  label: Oracle Data Catalog API
-  slug: oracle-datacatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-datacatalog-api-openapi.yml
 - filename: oracle-dataflow-api-openapi.yml
   format: yaml
   label: Oracle Data Flow API
@@ -402,18 +366,6 @@ api_specs:
   slug: oracle-datainfracc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-datainfracc-api-openapi.yml
-- filename: oracle-dataintegration-api-openapi.yml
-  format: yaml
-  label: Oracle Data Integration API
-  slug: oracle-dataintegration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-dataintegration-api-openapi.yml
-- filename: oracle-datalabeling-api-openapi.yml
-  format: yaml
-  label: Oracle Data Labeling API
-  slug: oracle-datalabeling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-datalabeling-api-openapi.yml
 - filename: oracle-datalabelingmanagement-api-openapi.yml
   format: yaml
   label: Oracle Data Labeling Management API
@@ -510,24 +462,12 @@ api_specs:
   slug: oracle-desktopservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-desktopservice-api-openapi.yml
-- filename: oracle-devops-api-openapi.yml
-  format: yaml
-  label: Oracle Devops API
-  slug: oracle-devops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-devops-api-openapi.yml
 - filename: oracle-diagnosability-api-openapi.yml
   format: yaml
   label: Oracle Diagnosability API
   slug: oracle-diagnosability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-diagnosability-api-openapi.yml
-- filename: oracle-disasterrecovery-api-openapi.yml
-  format: yaml
-  label: Oracle Disaster Recovery API
-  slug: oracle-disasterrecovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-disasterrecovery-api-openapi.yml
 - filename: oracle-discovery-api-openapi.yml
   format: yaml
   label: Oracle Discovery API
@@ -570,12 +510,6 @@ api_specs:
   slug: oracle-dns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-dns-api-openapi.yml
-- filename: oracle-documentgenerator-api-openapi.yml
-  format: yaml
-  label: Oracle Documentgenerator API
-  slug: oracle-documentgenerator-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-documentgenerator-api-openapi.yml
 - filename: oracle-domain-api-openapi.yml
   format: yaml
   label: Oracle Domain API
@@ -642,12 +576,6 @@ api_specs:
   slug: oracle-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-events-api-openapi.yml
-- filename: oracle-filestorage-api-openapi.yml
-  format: yaml
-  label: Oracle File Storage API
-  slug: oracle-filestorage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-filestorage-api-openapi.yml
 - filename: oracle-fleetappsmanagement-api-openapi.yml
   format: yaml
   label: Oracle Fleet Apps Management API
@@ -798,12 +726,6 @@ api_specs:
   slug: oracle-greetings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-greetings-api-openapi.yml
-- filename: oracle-healthchecks-api-openapi.yml
-  format: yaml
-  label: Oracle Health Checks API
-  slug: oracle-healthchecks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-healthchecks-api-openapi.yml
 - filename: oracle-identity-api-openapi.yml
   format: yaml
   label: Oracle Identity API
@@ -936,12 +858,6 @@ api_specs:
   slug: oracle-listenrichmentjobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-listenrichmentjobs-api-openapi.yml
-- filename: oracle-loadbalancer-api-openapi.yml
-  format: yaml
-  label: Oracle Load Balancer API
-  slug: oracle-loadbalancer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-loadbalancer-api-openapi.yml
 - filename: oracle-lockbox-api-openapi.yml
   format: yaml
   label: Oracle Lockbox API
@@ -972,12 +888,6 @@ api_specs:
   slug: oracle-loggingmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-loggingmanagement-api-openapi.yml
-- filename: oracle-logsearch-api-openapi.yml
-  format: yaml
-  label: Oracle Log Search API
-  slug: oracle-logsearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-logsearch-api-openapi.yml
 - filename: oracle-lustrefilestorage-api-openapi.yml
   format: yaml
   label: Oracle Lustre File Storage API
@@ -1122,12 +1032,6 @@ api_specs:
   slug: oracle-networkfirewall-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-networkfirewall-api-openapi.yml
-- filename: oracle-networkloadbalancer-api-openapi.yml
-  format: yaml
-  label: Oracle Network Load Balancer API
-  slug: oracle-networkloadbalancer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-networkloadbalancer-api-openapi.yml
 - filename: oracle-nosql-api-openapi.yml
   format: yaml
   label: Oracle Nosql API
@@ -1146,12 +1050,6 @@ api_specs:
   slug: oracle-notificationdataplane-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-notificationdataplane-api-openapi.yml
-- filename: oracle-objectstorage-api-openapi.yml
-  format: yaml
-  label: Oracle Object Storage API
-  slug: oracle-objectstorage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-objectstorage-api-openapi.yml
 - filename: oracle-ocbagentsvc-api-openapi.yml
   format: yaml
   label: Oracle Ocb Agent Svc API
@@ -1304,37 +1202,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-optimizer-api-openapi.yml
 - filename: oracle-oracledbazureblobcontainer-api-openapi.yml
   format: yaml
-  label: Oracle Oracle DB Azure Blob Container API
+  label: Oracle DB Azure Blob Container API
   slug: oracle-oracledbazureblobcontainer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazureblobcontainer-api-openapi.yml
 - filename: oracle-oracledbazureblobmount-api-openapi.yml
   format: yaml
-  label: Oracle Oracle DB Azure Blob Mount API
+  label: Oracle DB Azure Blob Mount API
   slug: oracle-oracledbazureblobmount-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazureblobmount-api-openapi.yml
 - filename: oracle-oracledbazureconnector-api-openapi.yml
   format: yaml
-  label: Oracle Oracle DB Azure Connector API
+  label: Oracle DB Azure Connector API
   slug: oracle-oracledbazureconnector-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazureconnector-api-openapi.yml
 - filename: oracle-oracledbazurekey-api-openapi.yml
   format: yaml
-  label: Oracle Oracle Db Azure Key API
+  label: Oracle Db Azure Key API
   slug: oracle-oracledbazurekey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazurekey-api-openapi.yml
 - filename: oracle-oracledbazurevault-api-openapi.yml
   format: yaml
-  label: Oracle Oracle Db Azure Vault API
+  label: Oracle Db Azure Vault API
   slug: oracle-oracledbazurevault-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazurevault-api-openapi.yml
 - filename: oracle-oracledbazurevaultassociation-api-openapi.yml
   format: yaml
-  label: Oracle Oracle Db Azure Vault Association API
+  label: Oracle Db Azure Vault Association API
   slug: oracle-oracledbazurevaultassociation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazurevaultassociation-api-openapi.yml
@@ -1380,12 +1278,6 @@ api_specs:
   slug: oracle-plugin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-plugin-api-openapi.yml
-- filename: oracle-pluginconfig-api-openapi.yml
-  format: yaml
-  label: Oracle Pluginconfig API
-  slug: oracle-pluginconfig-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-pluginconfig-api-openapi.yml
 - filename: oracle-postgresql-api-openapi.yml
   format: yaml
   label: Oracle Postgresql API
@@ -1452,12 +1344,6 @@ api_specs:
   slug: oracle-quotas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-quotas-api-openapi.yml
-- filename: oracle-ratecard-api-openapi.yml
-  format: yaml
-  label: Oracle Ratecard API
-  slug: oracle-ratecard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-ratecard-api-openapi.yml
 - filename: oracle-recipientinvitation-api-openapi.yml
   format: yaml
   label: Oracle Recipient Invitation API
@@ -1506,12 +1392,6 @@ api_specs:
   slug: oracle-resourceanalyticsinstance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-resourceanalyticsinstance-api-openapi.yml
-- filename: oracle-resourcemanager-api-openapi.yml
-  format: yaml
-  label: Oracle Resource Manager API
-  slug: oracle-resourcemanager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-resourcemanager-api-openapi.yml
 - filename: oracle-resources-api-openapi.yml
   format: yaml
   label: Oracle Resources API
@@ -1566,12 +1446,6 @@ api_specs:
   slug: oracle-scheduledactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-scheduledactivity-api-openapi.yml
-- filename: oracle-scheduledjob-api-openapi.yml
-  format: yaml
-  label: Oracle Scheduled Job API
-  slug: oracle-scheduledjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-scheduledjob-api-openapi.yml
 - filename: oracle-sddc-api-openapi.yml
   format: yaml
   label: Oracle Sddc API
@@ -1626,12 +1500,6 @@ api_specs:
   slug: oracle-serviceattachment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-serviceattachment-api-openapi.yml
-- filename: oracle-servicecatalog-api-openapi.yml
-  format: yaml
-  label: Oracle Service Catalog API
-  slug: oracle-servicecatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-servicecatalog-api-openapi.yml
 - filename: oracle-serviceconnector-api-openapi.yml
   format: yaml
   label: Oracle Service Connector API
@@ -1800,12 +1668,6 @@ api_specs:
   slug: oracle-tenancyattachment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-tenancyattachment-api-openapi.yml
-- filename: oracle-threatintel-api-openapi.yml
-  format: yaml
-  label: Oracle Threatintel API
-  slug: oracle-threatintel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-threatintel-api-openapi.yml
 - filename: oracle-trace-api-openapi.yml
   format: yaml
   label: Oracle Trace API
@@ -1818,18 +1680,6 @@ api_specs:
   slug: oracle-usageapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usageapi-api-openapi.yml
-- filename: oracle-usagelimits-api-openapi.yml
-  format: yaml
-  label: Oracle Usagelimits API
-  slug: oracle-usagelimits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usagelimits-api-openapi.yml
-- filename: oracle-usageplans-api-openapi.yml
-  format: yaml
-  label: Oracle Usage Plans API
-  slug: oracle-usageplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usageplans-api-openapi.yml
 - filename: oracle-vanitydomain-api-openapi.yml
   format: yaml
   label: Oracle Vanity Domain API
@@ -1866,12 +1716,6 @@ api_specs:
   slug: oracle-vnmonitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vnmonitoring-api-openapi.yml
-- filename: oracle-vulnerabilityscanning-api-openapi.yml
-  format: yaml
-  label: Oracle Vulnerability Scanning API
-  slug: oracle-vulnerabilityscanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vulnerabilityscanning-api-openapi.yml
 - filename: oracle-waa-api-openapi.yml
   format: yaml
   label: Oracle Waa API
@@ -1914,12 +1758,6 @@ api_specs:
   slug: oracle-workrequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-workrequest-api-openapi.yml
-- filename: oracle-workrequests-api-openapi.yml
-  format: yaml
-  label: Oracle Work Requests API
-  slug: oracle-workrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-workrequests-api-openapi.yml
 - filename: oracle-zpr-api-openapi.yml
   format: yaml
   label: Oracle Zpr API
@@ -1932,6 +1770,156 @@ api_specs:
   slug: oracle-zprtopology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-zprtopology-api-openapi.yml
+- filename: oracle-access-request-api-openapi.yml
+  format: yaml
+  label: Oracle Access Request API
+  slug: oracle-access-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-access-request-api-openapi.yml
+- filename: oracle-access-requests-api-openapi.yml
+  format: yaml
+  label: Oracle Access Requests API
+  slug: oracle-access-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-access-requests-api-openapi.yml
+- filename: oracle-connector-plugins-api-openapi.yml
+  format: yaml
+  label: Oracle Connector Plugins API
+  slug: oracle-connector-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-connector-plugins-api-openapi.yml
+- filename: oracle-container-registry-api-openapi.yml
+  format: yaml
+  label: Oracle Container Registry API
+  slug: oracle-container-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-container-registry-api-openapi.yml
+- filename: oracle-data-catalog-api-openapi.yml
+  format: yaml
+  label: Oracle Data Catalog API
+  slug: oracle-data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-data-catalog-api-openapi.yml
+- filename: oracle-data-integration-api-openapi.yml
+  format: yaml
+  label: Oracle Data Integration API
+  slug: oracle-data-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-data-integration-api-openapi.yml
+- filename: oracle-data-labeling-api-openapi.yml
+  format: yaml
+  label: Oracle Data Labeling API
+  slug: oracle-data-labeling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-data-labeling-api-openapi.yml
+- filename: oracle-dev-ops-api-openapi.yml
+  format: yaml
+  label: Oracle Dev Ops API
+  slug: oracle-dev-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-dev-ops-api-openapi.yml
+- filename: oracle-disaster-recovery-api-openapi.yml
+  format: yaml
+  label: Oracle Disaster Recovery API
+  slug: oracle-disaster-recovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-disaster-recovery-api-openapi.yml
+- filename: oracle-file-storage-api-openapi.yml
+  format: yaml
+  label: Oracle File Storage API
+  slug: oracle-file-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-file-storage-api-openapi.yml
+- filename: oracle-health-checks-api-openapi.yml
+  format: yaml
+  label: Oracle Health Checks API
+  slug: oracle-health-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-health-checks-api-openapi.yml
+- filename: oracle-load-balancer-api-openapi.yml
+  format: yaml
+  label: Oracle Load Balancer API
+  slug: oracle-load-balancer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-load-balancer-api-openapi.yml
+- filename: oracle-log-search-api-openapi.yml
+  format: yaml
+  label: Oracle Log Search API
+  slug: oracle-log-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-log-search-api-openapi.yml
+- filename: oracle-network-load-balancer-api-openapi.yml
+  format: yaml
+  label: Oracle network Load Balancer API
+  slug: oracle-network-load-balancer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-network-load-balancer-api-openapi.yml
+- filename: oracle-object-storage-api-openapi.yml
+  format: yaml
+  label: Oracle Object Storage API
+  slug: oracle-object-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-object-storage-api-openapi.yml
+- filename: oracle-plugin-config-api-openapi.yml
+  format: yaml
+  label: Oracle plugin config API
+  slug: oracle-plugin-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-plugin-config-api-openapi.yml
+- filename: oracle-rate-card-api-openapi.yml
+  format: yaml
+  label: Oracle Rate Card API
+  slug: oracle-rate-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-rate-card-api-openapi.yml
+- filename: oracle-resource-manager-api-openapi.yml
+  format: yaml
+  label: Oracle Resource Manager API
+  slug: oracle-resource-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-resource-manager-api-openapi.yml
+- filename: oracle-scheduled-job-api-openapi.yml
+  format: yaml
+  label: Oracle Scheduled Job API
+  slug: oracle-scheduled-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-scheduled-job-api-openapi.yml
+- filename: oracle-service-catalog-api-openapi.yml
+  format: yaml
+  label: Oracle Service Catalog API
+  slug: oracle-service-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-service-catalog-api-openapi.yml
+- filename: oracle-threat-intel-api-openapi.yml
+  format: yaml
+  label: Oracle Threat Intel API
+  slug: oracle-threat-intel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-threat-intel-api-openapi.yml
+- filename: oracle-usage-limits-api-openapi.yml
+  format: yaml
+  label: Oracle usage limits API
+  slug: oracle-usage-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usage-limits-api-openapi.yml
+- filename: oracle-usage-plans-api-openapi.yml
+  format: yaml
+  label: Oracle Usage Plans API
+  slug: oracle-usage-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usage-plans-api-openapi.yml
+- filename: oracle-vulnerability-scanning-api-openapi.yml
+  format: yaml
+  label: Oracle Vulnerability Scanning API
+  slug: oracle-vulnerability-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vulnerability-scanning-api-openapi.yml
+- filename: oracle-work-requests-api-openapi.yml
+  format: yaml
+  label: Oracle Work Requests API
+  slug: oracle-work-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-work-requests-api-openapi.yml
 description: ''
 domains:
 - caa:

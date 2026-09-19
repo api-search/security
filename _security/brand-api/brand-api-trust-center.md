@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs
 summary_line: SOC 2 Type 2
 tags:
 - Brands
-- Logos
+- Logo
 - Brand Assets
 - Company Data
 - Firmographics

@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-events-api-openapi.yml
 - filename: gameball-gameball-api-api-openapi.yml
   format: yaml
-  label: Gameball Gameball API
+  label: Gameball API
   slug: gameball-gameball-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-gameball-api-api-openapi.yml

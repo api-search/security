@@ -38,6 +38,6 @@ tags:
 - SMS
 - Conversational AI
 - Property and Casualty
-- Customer Communications
+- Customer Communication
 - FNOL
 ---

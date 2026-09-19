@@ -110,12 +110,6 @@ api_specs:
   slug: conductorone-appaccessrequestdefaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/openapi/conductorone-appaccessrequestdefaults-api-openapi.yml
-- filename: conductorone-appusers-api-openapi.yml
-  format: yaml
-  label: ConductorOne AppUsers API
-  slug: conductorone-appusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/openapi/conductorone-appusers-api-openapi.yml
 - filename: conductorone-attribute-api-openapi.yml
   format: yaml
   label: ConductorOne Attribute API
@@ -278,6 +272,12 @@ api_specs:
   slug: conductorone-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/openapi/conductorone-webhook-api-openapi.yml
+- filename: conductorone-app-users-api-openapi.yml
+  format: yaml
+  label: ConductorOne App Users API
+  slug: conductorone-app-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/openapi/conductorone-app-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

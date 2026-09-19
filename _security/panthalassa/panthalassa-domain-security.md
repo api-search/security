@@ -36,7 +36,7 @@ tags:
 - Renewable Energy
 - Wave Energy
 - Ocean
-- Data Centers
+- Data-Center
 - Compute
 - Climate Tech
 - Hardware

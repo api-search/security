@@ -39,4 +39,5 @@ tags:
 - Personalization
 - D2C
 - Klaviyo
+- Direct to Consumer
 ---

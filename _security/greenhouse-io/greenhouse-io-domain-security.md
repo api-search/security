@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: greenhouse-io-activityfeed-api-openapi.yml
-  format: yaml
-  label: Greenhouse ActivityFeed API
-  slug: greenhouse-io-activityfeed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-activityfeed-api-openapi.yml
 - filename: greenhouse-io-applications-api-openapi.yml
   format: yaml
   label: Greenhouse Applications API
@@ -30,12 +24,6 @@ api_specs:
   slug: greenhouse-io-candidates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-candidates-api-openapi.yml
-- filename: greenhouse-io-customfields-api-openapi.yml
-  format: yaml
-  label: Greenhouse CustomFields API
-  slug: greenhouse-io-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-customfields-api-openapi.yml
 - filename: greenhouse-io-departments-api-openapi.yml
   format: yaml
   label: Greenhouse Departments API
@@ -48,18 +36,6 @@ api_specs:
   slug: greenhouse-io-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-events-api-openapi.yml
-- filename: greenhouse-io-graphql-api-openapi.yml
-  format: yaml
-  label: Greenhouse GraphQL API
-  slug: greenhouse-io-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-graphql-api-openapi.yml
-- filename: greenhouse-io-jobopenings-api-openapi.yml
-  format: yaml
-  label: Greenhouse JobOpenings API
-  slug: greenhouse-io-jobopenings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-jobopenings-api-openapi.yml
 - filename: greenhouse-io-jobposts-api-openapi.yml
   format: yaml
   label: Greenhouse JobPosts API
@@ -72,12 +48,6 @@ api_specs:
   slug: greenhouse-io-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-jobs-api-openapi.yml
-- filename: greenhouse-io-jobstages-api-openapi.yml
-  format: yaml
-  label: Greenhouse JobStages API
-  slug: greenhouse-io-jobstages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-jobstages-api-openapi.yml
 - filename: greenhouse-io-offers-api-openapi.yml
   format: yaml
   label: Greenhouse Offers API
@@ -138,18 +108,48 @@ api_specs:
   slug: greenhouse-io-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-tests-api-openapi.yml
-- filename: greenhouse-io-trackinglinks-api-openapi.yml
-  format: yaml
-  label: Greenhouse TrackingLinks API
-  slug: greenhouse-io-trackinglinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-trackinglinks-api-openapi.yml
 - filename: greenhouse-io-users-api-openapi.yml
   format: yaml
   label: Greenhouse Users API
   slug: greenhouse-io-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-users-api-openapi.yml
+- filename: greenhouse-io-activity-feed-api-openapi.yml
+  format: yaml
+  label: Greenhouse Activity Feed API
+  slug: greenhouse-io-activity-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-activity-feed-api-openapi.yml
+- filename: greenhouse-io-custom-fields-api-openapi.yml
+  format: yaml
+  label: Greenhouse Custom Fields API
+  slug: greenhouse-io-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-custom-fields-api-openapi.yml
+- filename: greenhouse-io-graph-ql-api-openapi.yml
+  format: yaml
+  label: Greenhouse Graph QL API
+  slug: greenhouse-io-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-graph-ql-api-openapi.yml
+- filename: greenhouse-io-job-openings-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Openings API
+  slug: greenhouse-io-job-openings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-job-openings-api-openapi.yml
+- filename: greenhouse-io-job-stages-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job stages API
+  slug: greenhouse-io-job-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-job-stages-api-openapi.yml
+- filename: greenhouse-io-tracking-links-api-openapi.yml
+  format: yaml
+  label: Greenhouse Tracking Links API
+  slug: greenhouse-io-tracking-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-io-tracking-links-api-openapi.yml
 description: ''
 domains:
 - caa:

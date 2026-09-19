@@ -36,7 +36,7 @@ tags:
 - Medical Devices
 - Rehabilitation
 - Physical Therapy
-- Telemedicine
+- Telehealth
 - Remote Patient Monitoring
 - Orthopedics
 - Digital Health

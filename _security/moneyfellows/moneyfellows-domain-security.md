@@ -38,6 +38,6 @@ tags:
 - ROSCA
 - Egypt
 - Personal Finance
-- Prepaid Card
+- Prepaid Cards
 - Mobile App
 ---

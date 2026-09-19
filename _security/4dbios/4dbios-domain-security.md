@@ -57,7 +57,7 @@ tags:
 - Vertical Farming
 - Plant Factory
 - Controlled Environment Agriculture
-- Internet of Things
+- IoT
 - LED Lighting
 - Hardware
 - Manufacturing

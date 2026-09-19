@@ -12,24 +12,12 @@ api_specs:
   slug: matomo-matomo-php-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-matomo-php-api-openapi.yml
-- filename: matomo-abtesting-api-openapi.yml
-  format: yaml
-  label: Matomo Ab Testing API
-  slug: matomo-abtesting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-abtesting-api-openapi.yml
 - filename: matomo-actions-api-openapi.yml
   format: yaml
   label: Matomo Actions API
   slug: matomo-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-actions-api-openapi.yml
-- filename: matomo-activitylog-api-openapi.yml
-  format: yaml
-  label: Matomo Activity Log API
-  slug: matomo-activitylog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-activitylog-api-openapi.yml
 - filename: matomo-advertisingconversionexport-api-openapi.yml
   format: yaml
   label: Matomo Advertising Conversion Export API
@@ -48,12 +36,6 @@ api_specs:
   slug: matomo-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-api-openapi.yml
-- filename: matomo-apireference-api-openapi.yml
-  format: yaml
-  label: Matomo API Reference API
-  slug: matomo-apireference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-apireference-api-openapi.yml
 - filename: matomo-bandwidth-api-openapi.yml
   format: yaml
   label: Matomo Bandwidth API
@@ -102,12 +84,6 @@ api_specs:
   slug: matomo-customjstracker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-customjstracker-api-openapi.yml
-- filename: matomo-customreports-api-openapi.yml
-  format: yaml
-  label: Matomo Custom Reports API
-  slug: matomo-customreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-customreports-api-openapi.yml
 - filename: matomo-dashboard-api-openapi.yml
   format: yaml
   label: Matomo Dashboard API
@@ -222,12 +198,6 @@ api_specs:
   slug: matomo-multisites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-multisites-api-openapi.yml
-- filename: matomo-oauth2-api-openapi.yml
-  format: yaml
-  label: Matomo O Auth2 API
-  slug: matomo-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-oauth2-api-openapi.yml
 - filename: matomo-overlay-api-openapi.yml
   format: yaml
   label: Matomo Overlay API
@@ -264,12 +234,6 @@ api_specs:
   slug: matomo-rollupreporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-rollupreporting-api-openapi.yml
-- filename: matomo-scheduledreports-api-openapi.yml
-  format: yaml
-  label: Matomo Scheduled Reports API
-  slug: matomo-scheduledreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-scheduledreports-api-openapi.yml
 - filename: matomo-searchenginekeywordsperformance-api-openapi.yml
   format: yaml
   label: Matomo Search Engine Keywords Performance API
@@ -294,12 +258,6 @@ api_specs:
   slug: matomo-sitesmanager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-sitesmanager-api-openapi.yml
-- filename: matomo-tagmanager-api-openapi.yml
-  format: yaml
-  label: Matomo Tag Manager API
-  slug: matomo-tagmanager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tagmanager-api-openapi.yml
 - filename: matomo-tour-api-openapi.yml
   format: yaml
   label: Matomo Tour API
@@ -312,12 +270,6 @@ api_specs:
   slug: matomo-transitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-transitions-api-openapi.yml
-- filename: matomo-twofactorauth-api-openapi.yml
-  format: yaml
-  label: Matomo Two Factor Auth API
-  slug: matomo-twofactorauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-twofactorauth-api-openapi.yml
 - filename: matomo-usercountry-api-openapi.yml
   format: yaml
   label: Matomo User Country API
@@ -366,6 +318,54 @@ api_specs:
   slug: matomo-visittime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-visittime-api-openapi.yml
+- filename: matomo-oauth2-api-openapi.yml
+  format: yaml
+  label: Matomo O Auth2 API
+  slug: matomo-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-oauth2-api-openapi.yml
+- filename: matomo-ab-testing-api-openapi.yml
+  format: yaml
+  label: Matomo Ab Testing API
+  slug: matomo-ab-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-ab-testing-api-openapi.yml
+- filename: matomo-activity-log-api-openapi.yml
+  format: yaml
+  label: Matomo Activity Log API
+  slug: matomo-activity-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-activity-log-api-openapi.yml
+- filename: matomo-api-reference-api-openapi.yml
+  format: yaml
+  label: Matomo API Reference API
+  slug: matomo-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-reference-api-openapi.yml
+- filename: matomo-custom-reports-api-openapi.yml
+  format: yaml
+  label: Matomo Custom Reports API
+  slug: matomo-custom-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-custom-reports-api-openapi.yml
+- filename: matomo-scheduled-reports-api-openapi.yml
+  format: yaml
+  label: Matomo Scheduled Reports API
+  slug: matomo-scheduled-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-scheduled-reports-api-openapi.yml
+- filename: matomo-tag-manager-api-openapi.yml
+  format: yaml
+  label: Matomo Tag Manager API
+  slug: matomo-tag-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-tag-manager-api-openapi.yml
+- filename: matomo-two-factor-auth-api-openapi.yml
+  format: yaml
+  label: Matomo Two Factor Auth API
+  slug: matomo-two-factor-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-two-factor-auth-api-openapi.yml
 description: ''
 domains:
 - caa:

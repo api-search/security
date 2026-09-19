@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: columbia-sportswear-content-hub-external-openapi.json
-  format: json
-  label: Content Hub External API
-  slug: content-hub-external
+- filename: columbia-sportswear-externalimage-api-openapi.yml
+  format: yaml
+  label: Columbia Sportswear External Image API
+  slug: columbia-sportswear-externalimage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/openapi/columbia-sportswear-content-hub-external-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/openapi/columbia-sportswear-externalimage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ tags:
 - Footwear
 - Fortune 1000
 - Outdoor
-- Partner APIs
+- Partner API
 - Product Imagery
 - Retail
 ---

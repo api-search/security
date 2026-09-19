@@ -33,7 +33,7 @@ tags:
 - Biotechnology
 - Therapeutics
 - Drug Discovery
-- Small Molecules
+- Small Molecule
 - Oncology
 - Life Sciences
 - Preclinical

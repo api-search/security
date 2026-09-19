@@ -60,12 +60,6 @@ api_specs:
   slug: avalanche-interchain-messaging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/openapi/avalanche-interchain-messaging-api-openapi.yml
-- filename: avalanche-nfts-api-openapi.yml
-  format: yaml
-  label: Avalanche NFTs API
-  slug: avalanche-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/openapi/avalanche-nfts-api-openapi.yml
 - filename: avalanche-operations-api-openapi.yml
   format: yaml
   label: Avalanche Operations API
@@ -138,6 +132,12 @@ api_specs:
   slug: avalanche-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/openapi/avalanche-data-api-api-openapi.yml
+- filename: avalanche-nfts-api-openapi.yml
+  format: yaml
+  label: Avalanche NF Ts API
+  slug: avalanche-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/openapi/avalanche-nfts-api-openapi.yml
 description: ''
 domains:
 - caa: []

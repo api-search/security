@@ -67,8 +67,8 @@ tags:
 - Advertising
 - Marketing
 - Analytics
-- Social Media
+- Social-Media
 - Television
 - Audience Intelligence
-- Ad Tech
+- AdTech
 ---

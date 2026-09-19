@@ -191,7 +191,7 @@ tags:
 - E-Learning
 - LMS
 - Course Creation
-- Enrollments
+- Enrollment
 - User
 - Education
 - Digital Products

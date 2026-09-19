@@ -105,12 +105,12 @@ api_specs:
   slug: roadsync-unauthenticated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-unauthenticated-api-openapi.yml
-- filename: roadsync-workorders-api-openapi.yml
+- filename: roadsync-work-orders-api-openapi.yml
   format: yaml
-  label: Roadsync workorders API
-  slug: roadsync-workorders-api
+  label: Roadsync Work Orders API
+  slug: roadsync-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-workorders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/openapi/roadsync-work-orders-api-openapi.yml
 auth_types:
 - apiKey
 - http

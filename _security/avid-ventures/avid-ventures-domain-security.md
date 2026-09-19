@@ -35,7 +35,6 @@ tags:
 - Venture Capital
 - Early Stage
 - Fintech
-- Consumer
 - Software
 - Artificial Intelligence
 ---

@@ -37,5 +37,5 @@ tags:
 - Voice
 - Communications
 - Consumer
-- Mobile Apps
+- Mobile App
 ---

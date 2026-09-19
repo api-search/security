@@ -35,16 +35,10 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-generic-assets-api-openapi.yml
 - filename: river-markets-markets-api-openapi.yml
   format: yaml
-  label: River Markets markets API
+  label: River Markets API
   slug: river-markets-markets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-markets-api-openapi.yml
-- filename: river-markets-orderbooks-api-openapi.yml
-  format: yaml
-  label: River Markets orderbooks API
-  slug: river-markets-orderbooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-orderbooks-api-openapi.yml
 - filename: river-markets-orders-api-openapi.yml
   format: yaml
   label: River Markets orders API
@@ -81,6 +75,12 @@ api_specs:
   slug: river-markets-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-watchlists-api-openapi.yml
+- filename: river-markets-order-books-api-openapi.yml
+  format: yaml
+  label: River Markets Order Books API
+  slug: river-markets-order-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-order-books-api-openapi.yml
 auth_types:
 - apiKey
 - http

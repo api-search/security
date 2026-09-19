@@ -63,7 +63,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Chatbots
-- AI Agent
+- AI Agents
 - Customer-Support
 - Conversational AI
 ---

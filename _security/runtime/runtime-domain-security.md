@@ -46,7 +46,7 @@ tags:
 - Coding Agents
 - Developer Tools
 - AI Infrastructure
-- Sandboxes
+- Sandbox
 - Agent Orchestration
 - DevOps
 - Cloud

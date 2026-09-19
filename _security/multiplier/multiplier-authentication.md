@@ -69,9 +69,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/multipli
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/authentication/multiplier-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- EOR
+- Employer of Record
 - Global Employment
 - Payroll
-- HR
+- Human Resources
 - Contractors
 ---

@@ -84,12 +84,6 @@ api_specs:
   slug: cisco-xdr-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-feedback-api-openapi.yml
-- filename: cisco-xdr-graphql-api-openapi.yml
-  format: yaml
-  label: Cisco XDR Graph QL API
-  slug: cisco-xdr-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-graphql-api-openapi.yml
 - filename: cisco-xdr-health-api-openapi.yml
   format: yaml
   label: Cisco XDR Health API
@@ -402,12 +396,6 @@ api_specs:
   slug: cisco-xdr-tabletypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-tabletypes-api-openapi.yml
-- filename: cisco-xdr-targetgroups-api-openapi.yml
-  format: yaml
-  label: Cisco XDR Target Groups API
-  slug: cisco-xdr-targetgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-targetgroups-api-openapi.yml
 - filename: cisco-xdr-targets-api-openapi.yml
   format: yaml
   label: Cisco XDR Targets API
@@ -468,12 +456,6 @@ api_specs:
   slug: cisco-xdr-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-webhooks-api-openapi.yml
-- filename: cisco-xdr-workflowinstances-api-openapi.yml
-  format: yaml
-  label: Cisco XDR Workflow Instances API
-  slug: cisco-xdr-workflowinstances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-workflowinstances-api-openapi.yml
 - filename: cisco-xdr-workflows-api-openapi.yml
   format: yaml
   label: Cisco XDR Workflows API
@@ -492,6 +474,24 @@ api_specs:
   slug: cisco-xdr-xchange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-xchange-api-openapi.yml
+- filename: cisco-xdr-graph-ql-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Graph QL API
+  slug: cisco-xdr-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-graph-ql-api-openapi.yml
+- filename: cisco-xdr-target-groups-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Target Groups API
+  slug: cisco-xdr-target-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-target-groups-api-openapi.yml
+- filename: cisco-xdr-workflow-instances-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Workflow Instances API
+  slug: cisco-xdr-workflow-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-workflow-instances-api-openapi.yml
 certification_count: 5
 certifications:
 - ISO 27001

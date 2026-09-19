@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/h
 summary_line: session · 2 schemes
 tags:
 - Job Management
-- Trades
+- Trade
 - Field Service
 - Scheduling
 - Quoting

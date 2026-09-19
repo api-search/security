@@ -48,7 +48,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fleetmon/refs/heads/main/openapi/fleetmon-historical-ais-static-messages-api-openapi.yml
 - filename: fleetmon-historical-track-api-api-openapi.yml
   format: yaml
-  label: FleetMon Historical Track API API
+  label: FleetMon Historical Track API
   slug: fleetmon-historical-track-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fleetmon/refs/heads/main/openapi/fleetmon-historical-track-api-api-openapi.yml

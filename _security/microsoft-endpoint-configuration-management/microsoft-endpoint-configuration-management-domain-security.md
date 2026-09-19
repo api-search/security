@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-export-jobs-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-management-extensions-api-openapi.yml
   format: yaml
-  label: Microsoft Endpoint Configuration Management Management Extensions API
+  label: Microsoft Endpoint Configuration Management Extensions API
   slug: microsoft-endpoint-configuration-management-management-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-management-extensions-api-openapi.yml

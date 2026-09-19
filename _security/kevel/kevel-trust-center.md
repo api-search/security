@@ -83,7 +83,7 @@ tags:
 - Ad Serving
 - Advertising
 - API-First
-- Audience
+- Audiences
 - Monetization
 - Reporting
 trust_url: https://www.kevel.com/security

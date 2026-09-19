@@ -42,9 +42,9 @@ tags:
 - Privileged Access Management
 - Access Management
 - Authentication
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - Security
 - Zero Trust
-- IAM
+- Identity and Access Management
 ---

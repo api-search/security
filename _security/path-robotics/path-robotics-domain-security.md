@@ -53,7 +53,7 @@ tags:
 - Defense
 - Shipbuilding
 - Energy Infrastructure
-- Data Centers
+- Data-Center
 - Heavy Industry
 - Hardware
 - Columbus Ohio

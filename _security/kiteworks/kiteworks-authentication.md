@@ -14,12 +14,6 @@ api_specs:
   slug: kiteworks-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-admin-api-openapi.yml
-- filename: kiteworks-adminroles-api-openapi.yml
-  format: yaml
-  label: Kiteworks adminRoles API
-  slug: kiteworks-adminroles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-adminroles-api-openapi.yml
 - filename: kiteworks-advancedforms-api-openapi.yml
   format: yaml
   label: Kiteworks advancedForms API
@@ -188,24 +182,12 @@ api_specs:
   slug: kiteworks-sharedmailbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-sharedmailbox-api-openapi.yml
-- filename: kiteworks-shortlinks-api-openapi.yml
-  format: yaml
-  label: Kiteworks shortLinks API
-  slug: kiteworks-shortlinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-shortlinks-api-openapi.yml
 - filename: kiteworks-sources-api-openapi.yml
   format: yaml
   label: Kiteworks sources API
   slug: kiteworks-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-sources-api-openapi.yml
-- filename: kiteworks-sourcetypes-api-openapi.yml
-  format: yaml
-  label: Kiteworks sourceTypes API
-  slug: kiteworks-sourcetypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-sourcetypes-api-openapi.yml
 - filename: kiteworks-system-api-openapi.yml
   format: yaml
   label: Kiteworks system API
@@ -248,6 +230,24 @@ api_specs:
   slug: kiteworks-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-webhook-api-openapi.yml
+- filename: kiteworks-admin-roles-api-openapi.yml
+  format: yaml
+  label: Kiteworks Admin Roles API
+  slug: kiteworks-admin-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-admin-roles-api-openapi.yml
+- filename: kiteworks-short-links-api-openapi.yml
+  format: yaml
+  label: Kiteworks Short Links API
+  slug: kiteworks-short-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-short-links-api-openapi.yml
+- filename: kiteworks-source-types-api-openapi.yml
+  format: yaml
+  label: Kiteworks Source Types API
+  slug: kiteworks-source-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/openapi/kiteworks-source-types-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

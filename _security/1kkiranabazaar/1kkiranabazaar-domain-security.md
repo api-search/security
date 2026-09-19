@@ -37,6 +37,6 @@ tags:
 - B2B
 - Supply Chain
 - Distribution
-- Point of Sale
+- Point-of-Sale
 - India
 ---

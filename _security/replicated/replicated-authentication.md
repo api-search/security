@@ -45,12 +45,6 @@ api_specs:
   slug: replicated-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-customers-api-openapi.yml
-- filename: replicated-customhostnames-api-openapi.yml
-  format: yaml
-  label: Replicated customHostnames API
-  slug: replicated-customhostnames-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-customhostnames-api-openapi.yml
 - filename: replicated-enterpriseportal-api-openapi.yml
   format: yaml
   label: Replicated enterprisePortal API
@@ -99,12 +93,6 @@ api_specs:
   slug: replicated-releases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-releases-api-openapi.yml
-- filename: replicated-supportbundle-api-openapi.yml
-  format: yaml
-  label: Replicated supportBundle API
-  slug: replicated-supportbundle-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-supportbundle-api-openapi.yml
 - filename: replicated-team-api-openapi.yml
   format: yaml
   label: Replicated team API
@@ -131,10 +119,22 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-vmaddons-api-openapi.yml
 - filename: replicated-vms-api-openapi.yml
   format: yaml
-  label: Replicated vms API
+  label: Replicated Vms API
   slug: replicated-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-vms-api-openapi.yml
+- filename: replicated-custom-hostnames-api-openapi.yml
+  format: yaml
+  label: Replicated Custom Hostnames API
+  slug: replicated-custom-hostnames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-custom-hostnames-api-openapi.yml
+- filename: replicated-support-bundle-api-openapi.yml
+  format: yaml
+  label: Replicated support Bundle API
+  slug: replicated-support-bundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-support-bundle-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

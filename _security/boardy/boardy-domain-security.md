@@ -35,7 +35,7 @@ tags:
 - Networking
 - Professional Networking
 - Introductions
-- AI Agent
-- Voice Agent
+- AI Agents
+- Voice Agents
 - Superconnector
 ---

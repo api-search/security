@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain
 - Oracle
-- Data Feeds
+- Data Feed
 - Price Feeds
 - Cross-Chain
 - DeFi

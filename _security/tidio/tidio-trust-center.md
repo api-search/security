@@ -71,6 +71,6 @@ tags:
 - Conversations
 - Contacts
 - Webhook
-- Widget
+- Widgets
 trust_url: https://trust.tidio.com/
 ---

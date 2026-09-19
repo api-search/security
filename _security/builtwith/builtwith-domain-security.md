@@ -102,42 +102,12 @@ api_specs:
   slug: builtwith-domain-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-lookup-api-openapi.yml
-- filename: builtwith-domain-relationships-api-openapi.yml
-  format: yaml
-  label: BuiltWith Domain Relationships API
-  slug: builtwith-domain-relationships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-domain-relationships-api-openapi.yml
-- filename: builtwith-free-lookup-api-openapi.yml
-  format: yaml
-  label: BuiltWith Free Lookup API
-  slug: builtwith-free-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-free-lookup-api-openapi.yml
-- filename: builtwith-tag-lookup-api-openapi.yml
-  format: yaml
-  label: BuiltWith Tag Lookup API
-  slug: builtwith-tag-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-tag-lookup-api-openapi.yml
-- filename: builtwith-technology-changes-api-openapi.yml
-  format: yaml
-  label: BuiltWith Technology Changes API
-  slug: builtwith-technology-changes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-changes-api-openapi.yml
 - filename: builtwith-technology-lists-api-openapi.yml
   format: yaml
   label: BuiltWith Technology Lists API
   slug: builtwith-technology-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-lists-api-openapi.yml
-- filename: builtwith-technology-trends-api-openapi.yml
-  format: yaml
-  label: BuiltWith Technology Trends API
-  slug: builtwith-technology-trends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-technology-trends-api-openapi.yml
 - filename: builtwith-agentauth-api-openapi.yml
   format: yaml
   label: BuiltWith Agent Auth API

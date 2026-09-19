@@ -14,12 +14,6 @@ api_specs:
   slug: certifyos-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-auth-api-openapi.yml
-- filename: certifyos-auth-resource-api-openapi.yml
-  format: yaml
-  label: Certifyos Auth Resource API
-  slug: certifyos-auth-resource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-auth-resource-api-openapi.yml
 - filename: certifyos-auth-tokens-api-openapi.yml
   format: yaml
   label: Certifyos Auth Tokens API
@@ -224,12 +218,6 @@ api_specs:
   slug: certifyos-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-role-api-openapi.yml
-- filename: certifyos-role-resource-api-openapi.yml
-  format: yaml
-  label: Certifyos Role Resource API
-  slug: certifyos-role-resource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-role-resource-api-openapi.yml
 - filename: certifyos-roster-api-openapi.yml
   format: yaml
   label: Certifyos Roster API

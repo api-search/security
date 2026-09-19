@@ -282,7 +282,8 @@ tags:
 - Amazon
 - CI/CD
 - Continuous Delivery
+- Developer Tools
 - DevOps
-- Pipeline
+- Pipelines
 - Release Automation
 ---

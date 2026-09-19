@@ -37,7 +37,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - E-Commerce
-- Consumer Brands
+- Consumer Brand
 - Retail
 - Amazon Aggregator
 - Marketplace-Seller

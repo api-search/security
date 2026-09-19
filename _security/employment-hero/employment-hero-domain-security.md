@@ -103,11 +103,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/security/employment-hero-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
+- Human Resources
 - HRIS
 - Payroll
 - Recruitment
 - Employee Benefits
 - Workforce Management
-- HR Tech
 ---

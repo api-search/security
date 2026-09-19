@@ -32,7 +32,7 @@ tags:
 - Micromobility
 - Electric Vehicle Charging
 - Transportation
-- Internet of Things
+- IoT
 - Hardware
 - Smart Cities
 - Fleet Management

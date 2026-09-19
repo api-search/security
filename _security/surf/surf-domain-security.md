@@ -36,12 +36,6 @@ api_specs:
   slug: surf-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-news-api-openapi.yml
-- filename: surf-onchain-api-openapi.yml
-  format: yaml
-  label: Surf Onchain API
-  slug: surf-onchain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-onchain-api-openapi.yml
 - filename: surf-prediction-market-api-openapi.yml
   format: yaml
   label: Surf Prediction Market API
@@ -90,6 +84,12 @@ api_specs:
   slug: surf-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-web-api-openapi.yml
+- filename: surf-on-chain-api-openapi.yml
+  format: yaml
+  label: Surf On Chain API
+  slug: surf-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/openapi/surf-on-chain-api-openapi.yml
 description: ''
 domains:
 - caa: []

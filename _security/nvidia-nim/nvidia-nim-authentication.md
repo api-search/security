@@ -26,12 +26,6 @@ api_specs:
   slug: nvidia-nim-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-models-api-openapi.yml
-- filename: nvidia-nim-vision-api-openapi.yml
-  format: yaml
-  label: NVIDIA NIM Vision Language Models API
-  slug: nvidia-nim-vision-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-vision-api-openapi.yml
 - filename: nvidia-nim-health-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Health API

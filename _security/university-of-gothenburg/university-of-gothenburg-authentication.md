@@ -2,48 +2,162 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-gothenburg-korp-api-openapi.yml
+- filename: university-of-gothenburg-analysis-api-openapi.yml
   format: yaml
-  label: Korp API v8 — Corpus Concordance Search
-  slug: korp-api
+  label: University of Gothenburg Analysis API
+  slug: university-of-gothenburg-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-korp-api-openapi.yml
-- filename: university-of-gothenburg-metadata-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-analysis-api-openapi.yml
+- filename: university-of-gothenburg-cache-management-api-openapi.yml
   format: yaml
-  label: Språkbanken Text Metadata API v3
-  slug: sbx-metadata-api
+  label: University of Gothenburg Cache management API
+  slug: university-of-gothenburg-cache-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-metadata-api-openapi.yml
-- filename: university-of-gothenburg-mink-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-cache-management-api-openapi.yml
+- filename: university-of-gothenburg-cleanup-api-openapi.yml
   format: yaml
-  label: Mink API v3 — Bring Your Own Corpus
-  slug: mink-api
+  label: University of Gothenburg Cleanup API
+  slug: university-of-gothenburg-cleanup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-mink-api-openapi.yml
-- filename: university-of-gothenburg-sparv-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-cleanup-api-openapi.yml
+- filename: university-of-gothenburg-concordance-api-openapi.yml
   format: yaml
-  label: Sparv API v3 — Text Annotation Pipeline
-  slug: sparv-api
+  label: University of Gothenburg Concordance API
+  slug: university-of-gothenburg-concordance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-sparv-api-openapi.yml
-- filename: university-of-gothenburg-karp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-concordance-api-openapi.yml
+- filename: university-of-gothenburg-config-api-openapi.yml
   format: yaml
-  label: Karp API v7 — Lexical Resource Editing
-  slug: karp-api
+  label: University of Gothenburg Config API
+  slug: university-of-gothenburg-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-karp-api-openapi.yml
-- filename: university-of-gothenburg-karp-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-config-api-openapi.yml
+- filename: university-of-gothenburg-count-api-openapi.yml
   format: yaml
-  label: Karp Search API v1 — Karps sökgränssnitt
-  slug: karp-search-api
+  label: University of Gothenburg Count API
+  slug: university-of-gothenburg-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-karp-search-api-openapi.yml
-- filename: university-of-gothenburg-gupea-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-count-api-openapi.yml
+- filename: university-of-gothenburg-documentation-api-openapi.yml
   format: yaml
-  label: GUPEA Repository OAI-PMH 2.0 Interface
-  slug: gupea-oai-pmh
+  label: University of Gothenburg Documentation API
+  slug: university-of-gothenburg-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-gupea-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-documentation-api-openapi.yml
+- filename: university-of-gothenburg-editing-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Editing API
+  slug: university-of-gothenburg-editing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-editing-api-openapi.yml
+- filename: university-of-gothenburg-files-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Files API
+  slug: university-of-gothenburg-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-files-api-openapi.yml
+- filename: university-of-gothenburg-general-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg General API
+  slug: university-of-gothenburg-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-general-api-openapi.yml
+- filename: university-of-gothenburg-history-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg History API
+  slug: university-of-gothenburg-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-history-api-openapi.yml
+- filename: university-of-gothenburg-information-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Information API
+  slug: university-of-gothenburg-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-information-api-openapi.yml
+- filename: university-of-gothenburg-manage-corpora-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Manage Corpora API
+  slug: university-of-gothenburg-manage-corpora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-manage-corpora-api-openapi.yml
+- filename: university-of-gothenburg-manage-lexicons-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Manage Lexicons API
+  slug: university-of-gothenburg-manage-lexicons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-manage-lexicons-api-openapi.yml
+- filename: university-of-gothenburg-manage-metadata-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Manage Metadata API
+  slug: university-of-gothenburg-manage-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-manage-metadata-api-openapi.yml
+- filename: university-of-gothenburg-manage-resources-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Manage Resources API
+  slug: university-of-gothenburg-manage-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-manage-resources-api-openapi.yml
+- filename: university-of-gothenburg-metadata-retrieval-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Metadata retrieval API
+  slug: university-of-gothenburg-metadata-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-metadata-retrieval-api-openapi.yml
+- filename: university-of-gothenburg-misc-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Misc API
+  slug: university-of-gothenburg-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-misc-api-openapi.yml
+- filename: university-of-gothenburg-oai-pmh-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg OAI PMH API
+  slug: university-of-gothenburg-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-oai-pmh-api-openapi.yml
+- filename: university-of-gothenburg-plugins-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Plugins API
+  slug: university-of-gothenburg-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-plugins-api-openapi.yml
+- filename: university-of-gothenburg-resources-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Resources API
+  slug: university-of-gothenburg-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-resources-api-openapi.yml
+- filename: university-of-gothenburg-search-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Search API
+  slug: university-of-gothenburg-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-search-api-openapi.yml
+- filename: university-of-gothenburg-searching-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Searching API
+  slug: university-of-gothenburg-searching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-searching-api-openapi.yml
+- filename: university-of-gothenburg-statistics-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Statistics API
+  slug: university-of-gothenburg-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-statistics-api-openapi.yml
+- filename: university-of-gothenburg-user-management-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg User Management API
+  slug: university-of-gothenburg-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-user-management-api-openapi.yml
+- filename: university-of-gothenburg-word-picture-api-openapi.yml
+  format: yaml
+  label: University of Gothenburg Word Picture API
+  slug: university-of-gothenburg-word-picture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-word-picture-api-openapi.yml
 auth_types: []
 description: 'Authentication posture per surface, split by operator. The finding worth stating plainly: every public read surface the University of Gothenburg operates answered an ANONYMOUS request with HTTP 200. There is no API key to obtain, no registration flow, no developer account and no published rate limit anywhere in this profile. Authorisation exists in exactly one place — Mink, where writing your own corpus requires a token — and that login rides on the same SWAMID/eduGAIN federation the institution operates its own IdP inside of.'
 kind: authentication

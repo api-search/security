@@ -48,18 +48,6 @@ api_specs:
   slug: puzzle-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-invoices-api-openapi.yml
-- filename: puzzle-journalentries-api-openapi.yml
-  format: yaml
-  label: Puzzle JournalEntries API
-  slug: puzzle-journalentries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-journalentries-api-openapi.yml
-- filename: puzzle-journalentry-api-openapi.yml
-  format: yaml
-  label: Puzzle JournalEntry API
-  slug: puzzle-journalentry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-journalentry-api-openapi.yml
 - filename: puzzle-locations-api-openapi.yml
   format: yaml
   label: Puzzle Locations API
@@ -72,12 +60,6 @@ api_specs:
   slug: puzzle-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-metrics-api-openapi.yml
-- filename: puzzle-oauth-api-openapi.yml
-  format: yaml
-  label: Puzzle OAuth API
-  slug: puzzle-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-oauth-api-openapi.yml
 - filename: puzzle-onboarding-api-openapi.yml
   format: yaml
   label: Puzzle Onboarding API
@@ -156,6 +138,18 @@ api_specs:
   slug: puzzle-journal-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-journal-entries-api-openapi.yml
+- filename: puzzle-oauth-api-openapi.yml
+  format: yaml
+  label: Puzzle O Auth API
+  slug: puzzle-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-oauth-api-openapi.yml
+- filename: puzzle-journal-entry-api-openapi.yml
+  format: yaml
+  label: Puzzle Journal Entry API
+  slug: puzzle-journal-entry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/openapi/puzzle-journal-entry-api-openapi.yml
 description: ''
 domains:
 - caa: []

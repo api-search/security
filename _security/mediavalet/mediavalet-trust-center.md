@@ -114,24 +114,12 @@ api_specs:
   slug: mediavalet-home-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-home-api-openapi.yml
-- filename: mediavalet-attributegroups-api-openapi.yml
-  format: yaml
-  label: MediaValet Attribute Groups API
-  slug: mediavalet-attributegroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-attributegroups-api-openapi.yml
 - filename: mediavalet-brandedportals-api-openapi.yml
   format: yaml
   label: MediaValet Branded Portals API
   slug: mediavalet-brandedportals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-brandedportals-api-openapi.yml
-- filename: mediavalet-directlinks-api-openapi.yml
-  format: yaml
-  label: MediaValet Direct Links API
-  slug: mediavalet-directlinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-directlinks-api-openapi.yml
 - filename: mediavalet-introductionandhelp-api-openapi.yml
   format: yaml
   label: MediaValet Introduction And Help API
@@ -144,36 +132,48 @@ api_specs:
   slug: mediavalet-keywordgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-keywordgroups-api-openapi.yml
-- filename: mediavalet-orgunit-api-openapi.yml
-  format: yaml
-  label: MediaValet Org Unit API
-  slug: mediavalet-orgunit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-orgunit-api-openapi.yml
 - filename: mediavalet-reportsv2-api-openapi.yml
   format: yaml
   label: MediaValet Reports V2 API
   slug: mediavalet-reportsv2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-reportsv2-api-openapi.yml
-- filename: mediavalet-savedsearches-api-openapi.yml
+- filename: mediavalet-attribute-groups-api-openapi.yml
+  format: yaml
+  label: MediaValet Attribute Groups API
+  slug: mediavalet-attribute-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-attribute-groups-api-openapi.yml
+- filename: mediavalet-direct-links-api-openapi.yml
+  format: yaml
+  label: MediaValet Direct Links API
+  slug: mediavalet-direct-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-direct-links-api-openapi.yml
+- filename: mediavalet-org-unit-api-openapi.yml
+  format: yaml
+  label: MediaValet Org unit API
+  slug: mediavalet-org-unit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-org-unit-api-openapi.yml
+- filename: mediavalet-saved-searches-api-openapi.yml
   format: yaml
   label: MediaValet Saved Searches API
-  slug: mediavalet-savedsearches-api
+  slug: mediavalet-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-savedsearches-api-openapi.yml
-- filename: mediavalet-termsandconditions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-saved-searches-api-openapi.yml
+- filename: mediavalet-terms-and-conditions-api-openapi.yml
   format: yaml
   label: MediaValet Terms And Conditions API
-  slug: mediavalet-termsandconditions-api
+  slug: mediavalet-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-termsandconditions-api-openapi.yml
-- filename: mediavalet-usergroups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-terms-and-conditions-api-openapi.yml
+- filename: mediavalet-user-groups-api-openapi.yml
   format: yaml
   label: MediaValet User Groups API
-  slug: mediavalet-usergroups-api
+  slug: mediavalet-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-usergroups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-user-groups-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -197,7 +197,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediavalet/ref
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Digital Asset Management
-- DAM
 - Media
 - Assets
 - Content

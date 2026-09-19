@@ -37,5 +37,5 @@ tags:
 - Open-Source
 - Platform
 - REST
-- WebSockets
+- WebSocket
 ---

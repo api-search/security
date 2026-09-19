@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: aclaimant-platform-api-openapi.json
-  format: json
-  label: Aclaimant Platform API
-  slug: aclaimant-platform-api
+- filename: aclaimant-answers-api-openapi.yml
+  format: yaml
+  label: Aclaimant Answers API
+  slug: aclaimant-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-platform-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-answers-api-openapi.yml
+- filename: aclaimant-bulk-api-openapi.yml
+  format: yaml
+  label: Aclaimant Bulk API
+  slug: aclaimant-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-bulk-api-openapi.yml
+- filename: aclaimant-companies-api-openapi.yml
+  format: yaml
+  label: Aclaimant Companies API
+  slug: aclaimant-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-companies-api-openapi.yml
+- filename: aclaimant-exposures-api-openapi.yml
+  format: yaml
+  label: Aclaimant Exposures API
+  slug: aclaimant-exposures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-exposures-api-openapi.yml
+- filename: aclaimant-incidents-api-openapi.yml
+  format: yaml
+  label: Aclaimant Incidents API
+  slug: aclaimant-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-incidents-api-openapi.yml
+- filename: aclaimant-policies-api-openapi.yml
+  format: yaml
+  label: Aclaimant Policies API
+  slug: aclaimant-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-policies-api-openapi.yml
+- filename: aclaimant-policy-programs-api-openapi.yml
+  format: yaml
+  label: Aclaimant Policy Programs API
+  slug: aclaimant-policy-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aclaimant/refs/heads/main/openapi/aclaimant-policy-programs-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -94,5 +94,5 @@ tags:
 - Comments
 - Threads
 - Notification
-- WebSockets
+- WebSocket
 ---

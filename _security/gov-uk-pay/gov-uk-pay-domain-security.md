@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
 - Government
-- UK
+- United Kingdom
 - Public Sector
 - REST
 - PCI DSS

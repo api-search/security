@@ -6,6 +6,12 @@ api_specs:
   slug: leo-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-prospects-api-openapi.yml
+- filename: leo-health-api-openapi.yml
+  format: yaml
+  label: LeO Health API
+  slug: leo-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-health-api-openapi.yml
 description: ''
 domains:
 - caa: []

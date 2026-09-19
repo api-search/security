@@ -66,5 +66,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/perforce-helix-swarm-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using Perforce username and password or ticket. The\n    password can be a standard Perforce password or a Swarm-generated API ticket.\n  sources:\n  - openapi/perforce-helix-swarm-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/authentication/perforce-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Version Control
+- Project Management
+- Automation
+- DevOps
+- REST API
 ---

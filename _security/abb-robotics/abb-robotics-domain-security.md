@@ -65,5 +65,5 @@ tags:
 - Discrete Automation
 - Robot Web Services
 - REST
-- WebSockets
+- WebSocket
 ---

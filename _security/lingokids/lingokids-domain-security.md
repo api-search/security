@@ -52,6 +52,6 @@ tags:
 - EdTech
 - Children
 - Language Learning
-- Mobile Apps
+- Mobile App
 - Spain
 ---

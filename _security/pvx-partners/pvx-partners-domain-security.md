@@ -36,7 +36,7 @@ tags:
 - Financing
 - User Acquisition
 - Mobile Gaming
-- Consumer Apps
+- Consumer App
 - Analytics
 - Venture Debt
 ---

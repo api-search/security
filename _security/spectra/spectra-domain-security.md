@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Spectra Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Spectra (Defunct / Merged into OVG360), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Spectra (Defunct / Merged into OVG360)
+overview: 'Domain security posture for Spectra, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Spectra
 provider_slug: spectra
 slug: spectra-domain-security
 source_filename: spectra-domain-security.yml

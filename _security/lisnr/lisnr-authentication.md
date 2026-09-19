@@ -106,6 +106,6 @@ tags:
 - Device Pairing
 - Identification
 - Audio
-- Internet of Things
+- IoT
 - SDK
 ---

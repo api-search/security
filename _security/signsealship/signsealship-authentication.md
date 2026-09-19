@@ -3,12 +3,54 @@ anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
-- filename: openapi.json
-  format: json
-  label: SignSealShip Partner API
-  slug: partner-api
+- filename: signsealship-closing-passports-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Closing Passports API
+  slug: signsealship-closing-passports-api
   spec_type: OpenAPI
-  url: https://docs.signsealship.com/api-reference/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-closing-passports-api-openapi.yml
+- filename: signsealship-closing-rooms-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Closing Rooms API
+  slug: signsealship-closing-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-closing-rooms-api-openapi.yml
+- filename: signsealship-launchpad-analytics-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Launchpad & Analytics API
+  slug: signsealship-launchpad-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-launchpad-analytics-api-openapi.yml
+- filename: signsealship-onboarding-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Onboarding API
+  slug: signsealship-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-onboarding-api-openapi.yml
+- filename: signsealship-orders-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Orders API
+  slug: signsealship-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-orders-api-openapi.yml
+- filename: signsealship-proof-passport-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Proof Passport API
+  slug: signsealship-proof-passport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-proof-passport-api-openapi.yml
+- filename: signsealship-sandbox-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Sandbox API
+  slug: signsealship-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-sandbox-api-openapi.yml
+- filename: signsealship-webhooks-api-openapi.yml
+  format: yaml
+  label: SignSealShip Partner API Webhooks API
+  slug: signsealship-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -66,12 +108,12 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/authentication/signsealship-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- notarization
-- remote online notarization
-- electronic signature
-- document verification
-- legal technology
-- real estate
-- title and escrow
-- shipping
+- Notarization
+- Remote Online Notarization
+- Electronic Signature
+- Document Verification
+- Legal Technology
+- Real-Estate
+- Title and Escrow
+- Shipping
 ---

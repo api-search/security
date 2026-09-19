@@ -93,12 +93,12 @@ api_specs:
   slug: deliverart-take-away-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-take-away-api-openapi.yml
-- filename: deliverart-workshifts-api-openapi.yml
+- filename: deliverart-work-shifts-api-openapi.yml
   format: yaml
-  label: Deliverart Workshifts API
-  slug: deliverart-workshifts-api
+  label: Deliverart Work Shifts API
+  slug: deliverart-work-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-workshifts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-work-shifts-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

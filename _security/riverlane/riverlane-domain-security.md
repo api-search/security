@@ -54,7 +54,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quantum Computing
 - Quantum Error Correction
-- Decoders
+- Decoder
 - Scientific Computing
 - Python SDK
 - GraphQL

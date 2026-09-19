@@ -70,5 +70,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/manhattan-associates-omni-openapi.yml, openapi/manhattan-associates-wms-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.developer.manh.com/oauth2/token\n    scopes: 3\n  sources:\n  - openapi/manhattan-associates-omni-openapi.yml\n  - openapi/manhattan-associates-wms-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/authentication/manhattan-associates-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Logistics
+- Supply Chain
+- Platform
+- Software-as-a-Service
+- Transportation
 ---

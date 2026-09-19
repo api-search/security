@@ -105,12 +105,6 @@ api_specs:
   slug: forgerock-monitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/openapi/forgerock-monitoring-api-openapi.yml
-- filename: forgerock-oauth2-api-openapi.yml
-  format: yaml
-  label: ForgeRock OAuth2 API
-  slug: forgerock-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/openapi/forgerock-oauth2-api-openapi.yml
 - filename: forgerock-oauth2-clients-api-openapi.yml
   format: yaml
   label: ForgeRock OAuth2 Clients API
@@ -231,6 +225,12 @@ api_specs:
   slug: forgerock-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/openapi/forgerock-workflow-api-openapi.yml
+- filename: forgerock-oauth2-api-openapi.yml
+  format: yaml
+  label: ForgeRock O Auth2 API
+  slug: forgerock-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/openapi/forgerock-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 - http

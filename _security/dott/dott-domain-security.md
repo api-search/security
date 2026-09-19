@@ -86,7 +86,7 @@ tags:
 - Micromobility
 - Mobility
 - E-Scooter
-- E-Bike
+- E-Bikes
 - GBFS
 - Shared Mobility
 - Smart City

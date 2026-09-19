@@ -28,6 +28,5 @@ tags:
 - Human Resources
 - Talent Acquisition
 - Artificial Intelligence
-- HR Tech
 trust_url: https://trust.brighthire.com/
 ---

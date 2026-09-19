@@ -38,12 +38,6 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-dataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-dataset-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-gitintegration-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics GitIntegration API
-  slug: microsoft-azure-synapse-analytics-gitintegration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-gitintegration-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics IntegrationRuntimes API
@@ -116,24 +110,12 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-pipeline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-privateendpointconnections-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics PrivateEndpointConnections API
-  slug: microsoft-azure-synapse-analytics-privateendpointconnections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-privateendpointconnections-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics PrivateLinkHubs API
   slug: microsoft-azure-synapse-analytics-privatelinkhubs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-roleassignments-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics RoleAssignments API
-  slug: microsoft-azure-synapse-analytics-roleassignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-roleassignments-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics SparkBatch API
@@ -164,12 +146,6 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-sqlpools-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics SqlPools API
-  slug: microsoft-azure-synapse-analytics-sqlpools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sqlpools-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics SqlPoolTransparentDataEncryption API
@@ -212,6 +188,30 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-git-integration-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Git Integration API
+  slug: microsoft-azure-synapse-analytics-git-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-git-integration-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Private Endpoint Connections API
+  slug: microsoft-azure-synapse-analytics-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-role-assignments-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Role Assignments API
+  slug: microsoft-azure-synapse-analytics-role-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-role-assignments-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sql-pools-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SQL Pools API
+  slug: microsoft-azure-synapse-analytics-sql-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/openapi/microsoft-azure-synapse-analytics-sql-pools-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

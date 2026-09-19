@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Healthcare
 - Home Healthcare
-- Telemedicine
+- Telehealth
 - Diagnostics
 - India
 ---

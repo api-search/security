@@ -42,12 +42,6 @@ api_specs:
   slug: thordata-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-tasks-api-openapi.yml
-- filename: thordata-universal-scraping-api-api-openapi.yml
-  format: yaml
-  label: Thordata Universal Scraping API
-  slug: thordata-universal-scraping-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-universal-scraping-api-api-openapi.yml
 - filename: thordata-web-scraper-api-api-openapi.yml
   format: yaml
   label: Thordata Web Scraper API
@@ -60,6 +54,18 @@ api_specs:
   slug: thordata-whitelist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-whitelist-api-openapi.yml
+- filename: thordata-public-api-api-openapi.yml
+  format: yaml
+  label: Thordata Public API
+  slug: thordata-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-public-api-api-openapi.yml
+- filename: thordata-universal-api-api-openapi.yml
+  format: yaml
+  label: Thordata Universal API
+  slug: thordata-universal-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/openapi/thordata-universal-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

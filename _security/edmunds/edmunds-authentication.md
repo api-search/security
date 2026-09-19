@@ -9,12 +9,12 @@ api_specs:
   slug: edmunds-vehicle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-vehicle-api-openapi.yml
-- filename: edmunds-cars-openapi.yml
+- filename: edmunds-aiplugin-api-openapi.yml
   format: yaml
-  label: Edmunds Cars API
-  slug: edmunds-cars-api
+  label: Edmunds Aiplugin API
+  slug: edmunds-aiplugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-cars-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-aiplugin-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ tags:
 - Cars
 - Vehicles
 - Vehicle Data
-- Dealerships
+- Dealership
 - Reviews
 - Pricing
 - Automotive

@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-applications-api-openapi.yml
 - filename: cobalt-cobalt-hosted-api-openapi.yml
   format: yaml
-  label: Cobalt Cobalt Hosted API
+  label: Cobalt Hosted API
   slug: cobalt-cobalt-hosted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-cobalt-hosted-api-openapi.yml

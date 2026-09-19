@@ -35,6 +35,6 @@ tags:
 - Real-Estate
 - REIT
 - Senior Housing
-- Life Science
+- Life Sciences
 - Fortune 500
 ---

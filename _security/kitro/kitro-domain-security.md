@@ -39,6 +39,6 @@ tags:
 - Analytics
 - Artificial Intelligence
 - Computer-Vision
-- Internet of Things
+- IoT
 - Switzerland
 ---

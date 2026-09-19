@@ -2,37 +2,37 @@
 api_specs:
 - filename: unmade-design-api-api-openapi.yml
   format: yaml
-  label: Unmade Design API API
+  label: Unmade Design API
   slug: unmade-design-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-design-api-api-openapi.yml
 - filename: unmade-ecommerce-orders-api-api-openapi.yml
   format: yaml
-  label: Unmade Ecommerce Orders API API
+  label: Unmade Ecommerce Orders API
   slug: unmade-ecommerce-orders-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-ecommerce-orders-api-api-openapi.yml
 - filename: unmade-factory-api-api-openapi.yml
   format: yaml
-  label: Unmade Factory API API
+  label: Unmade Factory API
   slug: unmade-factory-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-factory-api-api-openapi.yml
 - filename: unmade-outfit-api-api-openapi.yml
   format: yaml
-  label: Unmade Outfit API API
+  label: Unmade Outfit API
   slug: unmade-outfit-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-outfit-api-api-openapi.yml
 - filename: unmade-transfer-preview-api-api-openapi.yml
   format: yaml
-  label: Unmade Transfer Preview API API
+  label: Unmade Transfer Preview API
   slug: unmade-transfer-preview-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-transfer-preview-api-api-openapi.yml
 - filename: unmade-unmade-editor-api-openapi.yml
   format: yaml
-  label: Unmade Unmade Editor API
+  label: Unmade Editor API
   slug: unmade-unmade-editor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-unmade-editor-api-openapi.yml

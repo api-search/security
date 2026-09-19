@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Financial-Services
 - Banking
-- Credit Unions
+- Credit Union
 - Workflow-Automation
 - AI Agents
 - Fintech

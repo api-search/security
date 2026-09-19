@@ -208,7 +208,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Company
-- Browser Extensions
+- Browser Extension
 - Low-Code
 - Automation
 - Artificial Intelligence

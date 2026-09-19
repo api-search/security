@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: modelrush-public.openapi.yaml
+- filename: modelrush-audio-api-openapi.yml
   format: yaml
-  label: ModelRush API
-  slug: modelrush-api
+  label: ModelRush Audio API
+  slug: modelrush-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Moonveil-AI/modelrush-developer-tools/main/openapi/modelrush-public.openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-audio-api-openapi.yml
+- filename: modelrush-chat-api-openapi.yml
+  format: yaml
+  label: ModelRush Chat API
+  slug: modelrush-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-chat-api-openapi.yml
+- filename: modelrush-discovery-api-openapi.yml
+  format: yaml
+  label: ModelRush Discovery API
+  slug: modelrush-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-discovery-api-openapi.yml
+- filename: modelrush-images-api-openapi.yml
+  format: yaml
+  label: ModelRush Images API
+  slug: modelrush-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-images-api-openapi.yml
+- filename: modelrush-predictions-api-openapi.yml
+  format: yaml
+  label: ModelRush Predictions API
+  slug: modelrush-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-predictions-api-openapi.yml
+- filename: modelrush-uploads-api-openapi.yml
+  format: yaml
+  label: ModelRush Uploads API
+  slug: modelrush-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-uploads-api-openapi.yml
+- filename: modelrush-video-api-openapi.yml
+  format: yaml
+  label: ModelRush Video API
+  slug: modelrush-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-video-api-openapi.yml
+- filename: modelrush-webhooks-api-openapi.yml
+  format: yaml
+  label: ModelRush Webhooks API
+  slug: modelrush-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,11 +91,11 @@ source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/security/modelrush-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
+- Multi-Modal
 - Model Hosting
 - Speech
-- Image Generation
+- Image-Generation
 ---

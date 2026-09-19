@@ -35,5 +35,5 @@ tags:
 - Restaurant
 - Mobile App
 - Malaysia
-- Startup
+- Startups
 ---

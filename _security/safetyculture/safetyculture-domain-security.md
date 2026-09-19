@@ -34,7 +34,7 @@ tags:
 - Company
 - Business Applications
 - Safety
-- Inspections
+- Inspection
 - Workplace Operations
 - EHS
 - Compliance

@@ -89,7 +89,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Video Interviewing
 - Recruitment
-- HR Tech
+- Human Resources
 - ATS
 - Screening
 - Async Video

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: hevn-inc-2fa-api-openapi.yml
-  format: yaml
-  label: Hevn Inc 2FA API
-  slug: hevn-inc-2fa-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-2fa-api-openapi.yml
 - filename: hevn-inc-activity-api-openapi.yml
   format: yaml
   label: Hevn Inc Activity API
@@ -30,12 +24,6 @@ api_specs:
   slug: hevn-inc-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-auth-api-openapi.yml
-- filename: hevn-inc-b2b-api-openapi.yml
-  format: yaml
-  label: Hevn Inc B2B API
-  slug: hevn-inc-b2b-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-b2b-api-openapi.yml
 - filename: hevn-inc-balance-api-openapi.yml
   format: yaml
   label: Hevn Inc Balance API
@@ -186,6 +174,18 @@ api_specs:
   slug: hevn-inc-xero-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-xero-api-openapi.yml
+- filename: hevn-inc-2-fa-api-openapi.yml
+  format: yaml
+  label: Hevn Inc 2 FA API
+  slug: hevn-inc-2-fa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-2-fa-api-openapi.yml
+- filename: hevn-inc-b2-b-api-openapi.yml
+  format: yaml
+  label: Hevn Inc B2 B API
+  slug: hevn-inc-b2-b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-b2-b-api-openapi.yml
 description: ''
 domains:
 - caa: []

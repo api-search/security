@@ -36,5 +36,5 @@ tags:
 - Clinical Decision Support
 - Medical Education
 - Artificial Intelligence
-- UAE
+- United Arab Emirates
 ---

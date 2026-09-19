@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-account-api-openapi.yml
 - filename: anaconda-ai-navigator-api-api-openapi.yml
   format: yaml
-  label: Anaconda AI Navigator API API
+  label: Anaconda AI Navigator API
   slug: anaconda-ai-navigator-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-ai-navigator-api-api-openapi.yml
@@ -39,12 +39,6 @@ api_specs:
   slug: anaconda-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-channels-api-openapi.yml
-- filename: anaconda-cves-api-openapi.yml
-  format: yaml
-  label: Anaconda Cves API
-  slug: anaconda-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-cves-api-openapi.yml
 - filename: anaconda-diagnosis-api-openapi.yml
   format: yaml
   label: Anaconda Diagnosis API
@@ -135,6 +129,12 @@ api_specs:
   slug: anaconda-websocket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-websocket-api-openapi.yml
+- filename: anaconda-cves-api-openapi.yml
+  format: yaml
+  label: Anaconda Cves API
+  slug: anaconda-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-cves-api-openapi.yml
 auth_types:
 - http
 - apiKey

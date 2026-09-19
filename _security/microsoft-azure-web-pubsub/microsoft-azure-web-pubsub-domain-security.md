@@ -6,12 +6,6 @@ api_specs:
   slug: azure-web-pubsub-client-and-upstream-events
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/main/asyncapi/microsoft-azure-web-pubsub-asyncapi.yml
-- filename: microsoft-azure-web-pubsub-clienttoken-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub ClientToken API
-  slug: microsoft-azure-web-pubsub-clienttoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-clienttoken-api-openapi.yml
 - filename: microsoft-azure-web-pubsub-hub-api-openapi.yml
   format: yaml
   label: Azure Web PubSub Hub API
@@ -24,6 +18,12 @@ api_specs:
   slug: microsoft-azure-web-pubsub-permission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-permission-api-openapi.yml
+- filename: microsoft-azure-web-pubsub-client-token-api-openapi.yml
+  format: yaml
+  label: Azure Web PubSub Client Token API
+  slug: microsoft-azure-web-pubsub-client-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-client-token-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,5 +79,5 @@ tags:
 - Pub-Sub
 - Real-Time
 - Serverless
-- WebSockets
+- WebSocket
 ---

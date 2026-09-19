@@ -38,7 +38,7 @@ tags:
 - Expense Management
 - Accounting Automation
 - Invoice Management
-- UAE
+- United Arab Emirates
 - Saudi Arabia
 - Payments
 ---

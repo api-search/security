@@ -265,8 +265,8 @@ tags:
 - Distributed SQL
 - Database
 - tidb
-- htap
-- mysql-compatible
+- HTAP
+- MySQL Compatible
 - Cloud Database
 - Database-as-a-Service
 - Vector Search

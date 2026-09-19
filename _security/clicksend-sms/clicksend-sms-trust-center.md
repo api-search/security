@@ -2,7 +2,7 @@
 api_specs:
 - filename: clicksend-sms-sms-api-openapi.yml
   format: yaml
-  label: ClickSend SMS Sms API
+  label: ClickSend SMS API
   slug: clicksend-sms-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/openapi/clicksend-sms-sms-api-openapi.yml

@@ -63,7 +63,7 @@ summary_line: http · 1 scheme
 tags:
 - Payroll
 - Global Workforce
-- HR
+- Human Resources
 - Payments
 - Employer of Record
 - Contractor Management

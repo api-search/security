@@ -32,6 +32,6 @@ tags:
 - Company
 - Consumer
 - Mobile
-- Startup
+- Startups
 - Consumer App
 ---

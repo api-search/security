@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Space
 - Aerospace
-- Launch
+- Launches
 - Lunar
 - Spacecraft
 ---

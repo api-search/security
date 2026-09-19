@@ -113,10 +113,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-studio
 summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 tags:
 - Cloud
+- Developer Tools
 - Development
 - Enterprise
 - Finance
-- HR
+- Human Resources
 - IDE
 - Integration
 trust_url: https://security.workday.com/

@@ -60,12 +60,6 @@ api_specs:
   slug: settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-settings-api-openapi.yml
-- filename: habiteo-oembed-api-openapi.yml
-  format: yaml
-  label: Habiteo Site Content API — oEmbed API
-  slug: oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-oembed-api-openapi.yml
 - filename: habiteo-contactforms-api-openapi.yml
   format: yaml
   label: Habiteo Contact Forms API
@@ -78,6 +72,12 @@ api_specs:
   slug: habiteo-sitetools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-sitetools-api-openapi.yml
+- filename: habiteo-o-embed-api-openapi.yml
+  format: yaml
+  label: Habiteo o Embed API
+  slug: habiteo-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/openapi/habiteo-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

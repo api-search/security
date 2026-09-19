@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: plumma-connect-openapi.yml
+- filename: plumma-connect-api-openapi.yml
   format: yaml
   label: Plumma CONNECT API
   slug: plumma-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/openapi/plumma-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/openapi/plumma-connect-api-openapi.yml
 description: ''
 domains:
 - caa: []

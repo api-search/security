@@ -52,7 +52,7 @@ tags:
 - Web3
 - Blockchain
 - SDK
-- AI Agent
+- AI Agents
 - Payments
 - Smart Contracts
 ---

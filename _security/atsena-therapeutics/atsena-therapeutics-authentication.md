@@ -21,12 +21,6 @@ api_specs:
   slug: atsena-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-media-api-openapi.yml
-- filename: atsena-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics O Embed API
-  slug: atsena-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-oembed-api-openapi.yml
 - filename: atsena-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Atsena Therapeutics Pages API
@@ -51,6 +45,12 @@ api_specs:
   slug: atsena-therapeutics-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-tags-api-openapi.yml
+- filename: atsena-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Atsena Therapeutics o Embed API
+  slug: atsena-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-o-embed-api-openapi.yml
 auth_types:
 - none
 - http

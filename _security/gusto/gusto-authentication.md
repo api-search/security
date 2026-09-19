@@ -8,24 +8,12 @@ api_specs:
   slug: embedded-payroll-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-asyncapi.yml
-- filename: gusto-bankaccounts-api-openapi.yml
-  format: yaml
-  label: Gusto BankAccounts API
-  slug: gusto-bankaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-bankaccounts-api-openapi.yml
 - filename: gusto-companies-api-openapi.yml
   format: yaml
   label: Gusto Companies API
   slug: gusto-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-companies-api-openapi.yml
-- filename: gusto-contractorpayments-api-openapi.yml
-  format: yaml
-  label: Gusto ContractorPayments API
-  slug: gusto-contractorpayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-contractorpayments-api-openapi.yml
 - filename: gusto-contractors-api-openapi.yml
   format: yaml
   label: Gusto Contractors API
@@ -50,12 +38,6 @@ api_specs:
   slug: gusto-payrolls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-payrolls-api-openapi.yml
-- filename: gusto-payschedules-api-openapi.yml
-  format: yaml
-  label: Gusto PaySchedules API
-  slug: gusto-payschedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-payschedules-api-openapi.yml
 - filename: gusto-reports-api-openapi.yml
   format: yaml
   label: Gusto Reports API
@@ -68,6 +50,24 @@ api_specs:
   slug: gusto-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-webhooks-api-openapi.yml
+- filename: gusto-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Gusto Bank Accounts API
+  slug: gusto-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-bank-accounts-api-openapi.yml
+- filename: gusto-contractor-payments-api-openapi.yml
+  format: yaml
+  label: Gusto Contractor Payments API
+  slug: gusto-contractor-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-contractor-payments-api-openapi.yml
+- filename: gusto-pay-schedules-api-openapi.yml
+  format: yaml
+  label: Gusto Pay Schedules API
+  slug: gusto-pay-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-pay-schedules-api-openapi.yml
 auth_types:
 - http
 description: ''

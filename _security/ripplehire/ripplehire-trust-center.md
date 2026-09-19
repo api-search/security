@@ -25,7 +25,7 @@ tags:
 - Company
 - Recruiting
 - ATS
-- HR Tech
+- Human Resources
 - Hiring
 - Employee Referrals
 - Talent Acquisition

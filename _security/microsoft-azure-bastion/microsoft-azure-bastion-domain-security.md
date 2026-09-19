@@ -2,7 +2,7 @@
 api_specs:
 - filename: microsoft-azure-bastion-bastion-hosts-api-openapi.yml
   format: yaml
-  label: Azure Bastion Bastion Hosts API
+  label: Azure Bastion Hosts API
   slug: microsoft-azure-bastion-bastion-hosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml

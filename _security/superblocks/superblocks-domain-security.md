@@ -64,7 +64,7 @@ tags:
 - Integration
 - Enterprise
 - Artificial Intelligence
-- Databases
+- Database
 - REST API
 - Developer Tools
 ---

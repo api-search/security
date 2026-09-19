@@ -24,12 +24,6 @@ api_specs:
   slug: opera-dspreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-dspreport-api-openapi.yml
-- filename: opera-filemanagement-api-openapi.yml
-  format: yaml
-  label: Opera File Management API
-  slug: opera-filemanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-filemanagement-api-openapi.yml
 - filename: opera-publisherreport-api-openapi.yml
   format: yaml
   label: Opera Publisher Report API
@@ -42,6 +36,12 @@ api_specs:
   slug: opera-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-upload-api-openapi.yml
+- filename: opera-file-management-api-openapi.yml
+  format: yaml
+  label: Opera File Management API
+  slug: opera-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/openapi/opera-file-management-api-openapi.yml
 description: ''
 domains:
 - caa:

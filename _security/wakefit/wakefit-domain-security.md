@@ -35,9 +35,9 @@ tags:
 - E-Commerce
 - Consumer Goods
 - Furniture
-- Home
+- Homes
 - Sleep
-- Direct To Consumer
+- Direct to Consumer
 - India
-- Internet of Things
+- IoT
 ---

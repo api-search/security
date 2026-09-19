@@ -50,7 +50,7 @@ tags:
 - Open Banking
 - PSD2
 - AIS
-- PIS
+- PI
 - Account Information
 - Payment Initiation
 - KYC
@@ -58,7 +58,7 @@ tags:
 - Categorization
 - Insights
 - Embedded Finance
-- BNPL
+- Buy Now Pay Later
 - Lending
 - Fintech
 - Banking

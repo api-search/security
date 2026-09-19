@@ -51,6 +51,6 @@ tags:
 - Laboratory Equipment
 - Manufacturing
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 ---

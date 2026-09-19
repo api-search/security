@@ -39,6 +39,6 @@ tags:
 - Urban Mobility
 - Shared Mobility
 - Partner API
-- Locations
+- Location
 - Avis Budget Group
 ---

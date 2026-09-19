@@ -2,42 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bp-fleet-authentication-openapi.json
-  format: json
-  label: bp Open Fleet Authentication API
-  slug: bp-fleet-authentication
+- filename: bp-cards-api-openapi.yml
+  format: yaml
+  label: BP Cards API
+  slug: bp-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fleet-authentication-openapi.json
-- filename: bp-fleet-card-management-openapi.json
-  format: json
-  label: bp Open Fleet Card Management API
-  slug: bp-fleet-card-management
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-cards-api-openapi.yml
+- filename: bp-fueling-api-openapi.yml
+  format: yaml
+  label: BP Fueling API
+  slug: bp-fueling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fleet-card-management-openapi.json
-- filename: bp-fleet-invoice-management-openapi.json
-  format: json
-  label: bp Open Fleet Invoice Management API
-  slug: bp-fleet-invoice-management
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fueling-api-openapi.yml
+- filename: bp-openapiinvoices-api-openapi.yml
+  format: yaml
+  label: BP Open API Invoices API
+  slug: bp-openapiinvoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fleet-invoice-management-openapi.json
-- filename: bp-fleet-transaction-management-openapi.json
-  format: json
-  label: bp Open Fleet Transaction Management API
-  slug: bp-fleet-transaction-management
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-openapiinvoices-api-openapi.yml
+- filename: bp-openapitransactions-api-openapi.yml
+  format: yaml
+  label: BP Open API Transactions API
+  slug: bp-openapitransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fleet-transaction-management-openapi.json
-- filename: bp-fleet-retail-site-information-openapi.json
-  format: json
-  label: bp Open Fleet Retail Site Information API
-  slug: bp-fleet-retail-site-information
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-openapitransactions-api-openapi.yml
+- filename: bp-sitediscovery-api-openapi.yml
+  format: yaml
+  label: BP Site Discovery API
+  slug: bp-sitediscovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fleet-retail-site-information-openapi.json
-- filename: bp-fleet-aral-appconnect-openapi.json
-  format: json
-  label: bp Open Fleet Aral AppConnect (Pay@Pump) API
-  slug: bp-fleet-aral-appconnect
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-sitediscovery-api-openapi.yml
+- filename: bp-token-api-openapi.yml
+  format: yaml
+  label: BP Token API
+  slug: bp-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-fleet-aral-appconnect-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-token-api-openapi.yml
+- filename: bp-health-check-api-openapi.yml
+  format: yaml
+  label: BP Health Check API
+  slug: bp-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-health-check-api-openapi.yml
+- filename: bp-payment-method-api-openapi.yml
+  format: yaml
+  label: BP Payment Method API
+  slug: bp-payment-method-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/openapi/bp-payment-method-api-openapi.yml
 auth_types: []
 description: 'Authentication profile for the bp Open Fleet API platform. Two distinct surfaces exist: a machine-to-machine client-credentials exchange that issues the bearer token every Open Fleet API requires, and a browser OpenID Connect flow on BP''s B2B identity host used to sign in to the developer portal itself.'
 kind: authentication

@@ -47,7 +47,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-payrulepolicies-api-openapi.yml
 - filename: connecteam-connecteam-api-documentation-api-openapi.yml
   format: yaml
-  label: Connecteam Connecteam API Documentation API
+  label: Connecteam API Documentation API
   slug: connecteam-connecteam-api-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-connecteam-api-documentation-api-openapi.yml
@@ -99,12 +99,6 @@ api_specs:
   slug: connecteam-jobs-v1-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-jobs-v1-jobs-api-openapi.yml
-- filename: connecteam-oauth-api-openapi.yml
-  format: yaml
-  label: Connecteam O Auth API
-  slug: connecteam-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-oauth-api-openapi.yml
 - filename: connecteam-onboarding-v1-onboarding-assignments-api-openapi.yml
   format: yaml
   label: Connecteam Onboarding:v1:Onboarding:Assignments API
@@ -417,6 +411,12 @@ api_specs:
   slug: connecteam-users-v1-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-users-v1-users-api-openapi.yml
+- filename: connecteam-oauth-api-openapi.yml
+  format: yaml
+  label: Connecteam O Auth API
+  slug: connecteam-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http

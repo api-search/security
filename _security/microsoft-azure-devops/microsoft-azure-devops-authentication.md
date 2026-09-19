@@ -194,6 +194,24 @@ api_specs:
   slug: microsoft-azure-devops-work-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-work-items-api-openapi.yml
+- filename: microsoft-azure-devops-fields-api-openapi.yml
+  format: yaml
+  label: Azure DevOps Fields API
+  slug: microsoft-azure-devops-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-fields-api-openapi.yml
+- filename: microsoft-azure-devops-queries-api-openapi.yml
+  format: yaml
+  label: Azure DevOps Queries API
+  slug: microsoft-azure-devops-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-queries-api-openapi.yml
+- filename: microsoft-azure-devops-runs-api-openapi.yml
+  format: yaml
+  label: Azure DevOps Runs API
+  slug: microsoft-azure-devops-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-runs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -248,6 +266,7 @@ summary_line: http · 2 schemes
 tags:
 - Agile
 - CI/CD
+- Developer Tools
 - DevOps
 - Project Management
 - Version Control

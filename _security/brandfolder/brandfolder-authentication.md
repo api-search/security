@@ -113,7 +113,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandfolder/re
 summary_line: http · 1 scheme
 tags:
 - Digital Asset Management
-- DAM
 - Brand Management
 - Assets
 - Media

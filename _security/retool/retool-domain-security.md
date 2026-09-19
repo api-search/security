@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Admin Panel
-- Dashboard
+- Dashboards
 - Internal Tools
 - Low-Code
 - No-Code

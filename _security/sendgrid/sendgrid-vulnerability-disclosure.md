@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-bulk-email-address-validation-api-openapi.yml
 - filename: sendgrid-campaigns-api-api-openapi.yml
   format: yaml
-  label: SendGrid Campaigns API API
+  label: SendGrid Campaigns API
   slug: sendgrid-campaigns-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-campaigns-api-api-openapi.yml
@@ -368,7 +368,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-unsubscribe-groups-api-openapi.yml
 - filename: sendgrid-users-api-api-openapi.yml
   format: yaml
-  label: SendGrid Users API API
+  label: SendGrid Users API
   slug: sendgrid-users-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-users-api-api-openapi.yml

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ibotta-products-api-openapi.yml
+- filename: ibotta-openai-api-openapi.yml
   format: yaml
-  label: Ibotta Products API
-  slug: ibotta-products-api
+  label: Ibotta Openai API
+  slug: ibotta-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/openapi/ibotta-products-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/openapi/ibotta-openai-api-openapi.yml
 description: ''
 domains:
 - caa: []

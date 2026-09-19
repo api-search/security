@@ -3,12 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: ametek-powervar-isite-pro-openapi.yml
+- filename: ametek-alarms-api-openapi.yml
   format: yaml
-  label: AMETEK Powervar iSite PRO REST API
-  slug: powervar-isite-pro
+  label: AMETEK Alarms API
+  slug: ametek-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-powervar-isite-pro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-alarms-api-openapi.yml
+- filename: ametek-device-identity-api-openapi.yml
+  format: yaml
+  label: AMETEK Device Identity API
+  slug: ametek-device-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-device-identity-api-openapi.yml
+- filename: ametek-ups-monitoring-api-openapi.yml
+  format: yaml
+  label: AMETEK UPS Monitoring API
+  slug: ametek-ups-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-ups-monitoring-api-openapi.yml
 auth_types:
 - apiKey
 - http

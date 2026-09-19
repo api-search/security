@@ -38,7 +38,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Food and Beverage
-- Meal Kits
+- Meal Kit
 - Subscription
 - E-Commerce
 - Consumer

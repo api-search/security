@@ -54,7 +54,7 @@ tags:
 - DEX Aggregator
 - Cross-Chain
 - Trading
-- Swaps
+- Swap
 - Bridge
 - Best Execution
 ---

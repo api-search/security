@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Digital Banking
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Open Banking
 - SDK

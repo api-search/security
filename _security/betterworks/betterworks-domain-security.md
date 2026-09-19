@@ -43,14 +43,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterworks/refs/heads/main/security/betterworks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- OKR
+- OKRs
 - Performance Management
 - Goals
 - Employee Data
-- HR
+- Human Resources
 - Enterprise
 - Feedback
-- Check-ins
+- Check-in
 - Continuous Performance
 - People Analytics
 ---

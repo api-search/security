@@ -54,18 +54,6 @@ api_specs:
   slug: para-t-esmms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-esmms-api-openapi.yml
-- filename: para-t-inventorylevels-api-openapi.yml
-  format: yaml
-  label: Paraşüt InventoryLevels API
-  slug: para-t-inventorylevels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-inventorylevels-api-openapi.yml
-- filename: para-t-itemcategories-api-openapi.yml
-  format: yaml
-  label: Paraşüt ItemCategories API
-  slug: para-t-itemcategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-itemcategories-api-openapi.yml
 - filename: para-t-products-api-openapi.yml
   format: yaml
   label: Paraşüt Products API
@@ -84,36 +72,12 @@ api_specs:
   slug: para-t-salaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-salaries-api-openapi.yml
-- filename: para-t-salesinvoices-api-openapi.yml
-  format: yaml
-  label: Paraşüt SalesInvoices API
-  slug: para-t-salesinvoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-salesinvoices-api-openapi.yml
-- filename: para-t-salesoffers-api-openapi.yml
-  format: yaml
-  label: Paraşüt SalesOffers API
-  slug: para-t-salesoffers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-salesoffers-api-openapi.yml
-- filename: para-t-shipmentdocuments-api-openapi.yml
-  format: yaml
-  label: Paraşüt ShipmentDocuments API
-  slug: para-t-shipmentdocuments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-shipmentdocuments-api-openapi.yml
 - filename: para-t-stockmovements-api-openapi.yml
   format: yaml
   label: Paraşüt StockMovements API
   slug: para-t-stockmovements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-stockmovements-api-openapi.yml
-- filename: para-t-stockupdates-api-openapi.yml
-  format: yaml
-  label: Paraşüt StockUpdates API
-  slug: para-t-stockupdates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-stockupdates-api-openapi.yml
 - filename: para-t-tags-api-openapi.yml
   format: yaml
   label: Paraşüt Tags API
@@ -144,6 +108,42 @@ api_specs:
   slug: para-t-warehouses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-warehouses-api-openapi.yml
+- filename: para-t-inventory-levels-api-openapi.yml
+  format: yaml
+  label: Paraşüt Inventory Levels API
+  slug: para-t-inventory-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-inventory-levels-api-openapi.yml
+- filename: para-t-item-categories-api-openapi.yml
+  format: yaml
+  label: Paraşüt Item Categories API
+  slug: para-t-item-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-item-categories-api-openapi.yml
+- filename: para-t-sales-invoices-api-openapi.yml
+  format: yaml
+  label: Paraşüt Sales Invoices API
+  slug: para-t-sales-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-sales-invoices-api-openapi.yml
+- filename: para-t-sales-offers-api-openapi.yml
+  format: yaml
+  label: Paraşüt Sales Offers API
+  slug: para-t-sales-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-sales-offers-api-openapi.yml
+- filename: para-t-shipment-documents-api-openapi.yml
+  format: yaml
+  label: Paraşüt Shipment documents API
+  slug: para-t-shipment-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-shipment-documents-api-openapi.yml
+- filename: para-t-stock-updates-api-openapi.yml
+  format: yaml
+  label: Paraşüt Stock Updates API
+  slug: para-t-stock-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-stock-updates-api-openapi.yml
 description: ''
 domains:
 - caa: []

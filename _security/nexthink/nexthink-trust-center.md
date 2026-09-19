@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-export-api-openapi.yml
 - filename: nexthink-handoff-api-api-openapi.yml
   format: yaml
-  label: Nexthink Handoff API API
+  label: Nexthink Handoff API
   slug: nexthink-handoff-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-handoff-api-api-openapi.yml

@@ -48,12 +48,12 @@ api_specs:
   slug: giftbit-rewards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/openapi/giftbit-rewards-api-openapi.yml
-- filename: giftbit-shortlinks-api-openapi.yml
+- filename: giftbit-short-links-api-openapi.yml
   format: yaml
-  label: Giftbit Shortlinks API
-  slug: giftbit-shortlinks-api
+  label: Giftbit Short Links API
+  slug: giftbit-short-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/openapi/giftbit-shortlinks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/openapi/giftbit-short-links-api-openapi.yml
 description: ''
 domains:
 - caa:

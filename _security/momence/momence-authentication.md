@@ -99,7 +99,7 @@ tags:
 - Studio Management
 - Booking
 - Scheduling
-- Memberships
+- Membership
 - Payments
 - Class Management
 ---

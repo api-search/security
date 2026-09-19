@@ -38,4 +38,5 @@ tags:
 - Couriers
 - Electric Vehicles
 - Sustainability
+- Defunct
 ---

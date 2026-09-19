@@ -24,12 +24,6 @@ api_specs:
   slug: loudcrowd-storefrontambassador-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontambassador-api-openapi.yml
-- filename: loudcrowd-storefrontcollections-api-openapi.yml
-  format: yaml
-  label: LoudCrowd Storefront Collections API
-  slug: loudcrowd-storefrontcollections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontcollections-api-openapi.yml
 - filename: loudcrowd-storefrontfeeditems-api-openapi.yml
   format: yaml
   label: LoudCrowd Storefront Feed Items API
@@ -48,6 +42,12 @@ api_specs:
   slug: loudcrowd-storefrontproductdetails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefrontproductdetails-api-openapi.yml
+- filename: loudcrowd-storefront-collections-api-openapi.yml
+  format: yaml
+  label: LoudCrowd Storefront Collections API
+  slug: loudcrowd-storefront-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/openapi/loudcrowd-storefront-collections-api-openapi.yml
 description: ''
 domains:
 - caa: []

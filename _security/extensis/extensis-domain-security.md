@@ -67,5 +67,4 @@ tags:
 - Creative Assets
 - Font Licensing
 - Design Workflows
-- DAM
 ---

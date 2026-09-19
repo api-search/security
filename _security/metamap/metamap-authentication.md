@@ -109,12 +109,12 @@ tags:
 - Liveness
 - GovCheck
 - Watchlist
-- Background Check
+- Background Checks
 - Credit Check
 - Risk
 - Fraud Prevention
 - Onboarding
-- LatAm
+- Latin America
 - Africa
 - Mobile SDK
 ---

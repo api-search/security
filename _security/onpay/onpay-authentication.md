@@ -92,7 +92,6 @@ tags:
 - Small Business
 - Workforce Management
 - Fintech
-- HR Tech
 - Time and Attendance
 - retirement-401k
 ---

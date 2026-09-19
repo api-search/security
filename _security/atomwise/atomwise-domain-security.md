@@ -38,7 +38,7 @@ tags:
 - Deep Learning
 - Convolutional Neural Networks
 - AtomNet
-- Small Molecules
+- Small Molecule
 - Cheminformatics
 - AIMS Program
 - Numerion Labs

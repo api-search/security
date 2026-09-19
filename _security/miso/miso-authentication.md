@@ -130,12 +130,6 @@ api_specs:
   slug: miso-offer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-offer-api-openapi.yml
-- filename: miso-real-time-api-openapi.yml
-  format: yaml
-  label: MISO Real Time API
-  slug: miso-real-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-real-time-api-openapi.yml
 - filename: miso-realtimersgcommitments-api-openapi.yml
   format: yaml
   label: MISO Real Time RSG Commitments API
@@ -190,6 +184,12 @@ api_specs:
   slug: miso-windsolar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-windsolar-api-openapi.yml
+- filename: miso-realtime-api-openapi.yml
+  format: yaml
+  label: MISO Realtime API
+  slug: miso-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-realtime-api-openapi.yml
 auth_types:
 - none
 - apiKey

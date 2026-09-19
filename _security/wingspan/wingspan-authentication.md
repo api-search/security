@@ -88,7 +88,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/openapi/wingspan-service-settings-api-openapi.yml
 - filename: wingspan-wingspan-wallet-api-openapi.yml
   format: yaml
-  label: Wingspan Wingspan Wallet API
+  label: Wingspan Wallet API
   slug: wingspan-wingspan-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/openapi/wingspan-wingspan-wallet-api-openapi.yml
@@ -126,7 +126,7 @@ tags:
 - Payroll
 - Contractors
 - Invoicing
-- Taxes
+- Tax
 - Fintech
 - Freelance Economy
 ---

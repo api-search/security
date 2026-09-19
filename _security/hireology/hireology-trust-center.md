@@ -24,7 +24,6 @@ tags:
 - ATS
 - Recruiting
 - Hiring
-- HR Tech
 - Human Resources
 - Talent Acquisition
 - Automotive

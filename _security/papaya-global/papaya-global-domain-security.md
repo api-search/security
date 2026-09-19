@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payroll
 - Global Workforce
-- HR
+- Human Resources
 - Payments
 - Employer of Record
 - Contractor Management

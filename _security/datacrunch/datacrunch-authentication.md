@@ -38,12 +38,6 @@ api_specs:
   slug: datacrunch-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-locations-api-openapi.yml
-- filename: datacrunch-oauth-api-openapi.yml
-  format: yaml
-  label: DataCrunch OAuth API
-  slug: datacrunch-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-oauth-api-openapi.yml
 - filename: datacrunch-serverless-containers-api-openapi.yml
   format: yaml
   label: DataCrunch Serverless Containers API
@@ -68,6 +62,12 @@ api_specs:
   slug: datacrunch-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-volumes-api-openapi.yml
+- filename: datacrunch-oauth-api-openapi.yml
+  format: yaml
+  label: DataCrunch O Auth API
+  slug: datacrunch-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

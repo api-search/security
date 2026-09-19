@@ -6,12 +6,6 @@ api_specs:
   slug: lunary-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-analytics-api-openapi.yml
-- filename: lunary-auditlogs-api-openapi.yml
-  format: yaml
-  label: Lunary AuditLogs API
-  slug: lunary-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-auditlogs-api-openapi.yml
 - filename: lunary-checklists-api-openapi.yml
   format: yaml
   label: Lunary Checklists API
@@ -24,24 +18,12 @@ api_specs:
   slug: lunary-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-datasets-api-openapi.yml
-- filename: lunary-datasetsv2-api-openapi.yml
-  format: yaml
-  label: Lunary DatasetsV2 API
-  slug: lunary-datasetsv2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-datasetsv2-api-openapi.yml
 - filename: lunary-evals-api-openapi.yml
   format: yaml
   label: Lunary Evals API
   slug: lunary-evals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-evals-api-openapi.yml
-- filename: lunary-externalusers-api-openapi.yml
-  format: yaml
-  label: Lunary ExternalUsers API
-  slug: lunary-externalusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-externalusers-api-openapi.yml
 - filename: lunary-models-api-openapi.yml
   format: yaml
   label: Lunary Models API
@@ -78,6 +60,24 @@ api_specs:
   slug: lunary-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-views-api-openapi.yml
+- filename: lunary-audit-logs-api-openapi.yml
+  format: yaml
+  label: Lunary Audit Logs API
+  slug: lunary-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-audit-logs-api-openapi.yml
+- filename: lunary-datasets-v2-api-openapi.yml
+  format: yaml
+  label: Lunary Datasets V2 API
+  slug: lunary-datasets-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-datasets-v2-api-openapi.yml
+- filename: lunary-external-users-api-openapi.yml
+  format: yaml
+  label: Lunary External Users API
+  slug: lunary-external-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-external-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

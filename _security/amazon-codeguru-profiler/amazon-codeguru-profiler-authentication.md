@@ -9,12 +9,6 @@ api_specs:
   slug: amazon-codeguru-profiler-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
-- filename: amazon-codeguru-profiler-profilinggroups-api-openapi.yml
-  format: yaml
-  label: Amazon CodeGuru Profiler ProfilingGroups API
-  slug: amazon-codeguru-profiler-profilinggroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profilinggroups-api-openapi.yml
 - filename: amazon-codeguru-profiler-profilinggroups-clienttoken-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler ProfilingGroups#clientToken API
@@ -27,6 +21,12 @@ api_specs:
   slug: amazon-codeguru-profiler-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
+- filename: amazon-codeguru-profiler-profiling-groups-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Profiler Profiling Groups API
+  slug: amazon-codeguru-profiler-profiling-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profiling-groups-api-openapi.yml
 auth_types:
 - apiKey
 description: Authentication and authorization profile for Amazon CodeGuru Profiler. Every request is signed with AWS Signature Version 4 using IAM credentials — there is no API key, bearer token, OAuth flow or OIDC discovery document. Authorization is expressed as IAM actions on codeguru-profiler:*, plus an optional resource-based policy on each profiling group for cross-principal access.

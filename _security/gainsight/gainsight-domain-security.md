@@ -174,6 +174,12 @@ api_specs:
   slug: gainsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-users-api-openapi.yml
+- filename: gainsight-px-rest-api-openapi.yml
+  format: yaml
+  label: Gainsight PX REST API
+  slug: gainsight-px-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-px-rest-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -218,5 +224,14 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: support.gainsight.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.gainsight.com\n  https: false\n- host: api.aptrinsic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: gainsight.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: aptrinsic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/security/gainsight-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Customer Success
+- Customer Experience
+- Product Analytics
+- Customer Communities
+- Customer Health
+- Customer Education
+- Software-as-a-Service
+- MCP
+- Retention
 ---

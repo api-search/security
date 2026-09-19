@@ -62,7 +62,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - E-Commerce
-- Online Stores
+- Online Store
 - Payments
 - Shipping
 - Software-as-a-Service

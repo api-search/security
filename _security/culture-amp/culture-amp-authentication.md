@@ -52,10 +52,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/culture-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/authentication/culture-amp-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- HR
+- Human Resources
 - Employee Engagement
 - Performance Management
 - People Analytics
 - Surveys
-- Human Resources
 ---

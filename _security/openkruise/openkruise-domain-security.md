@@ -2,7 +2,7 @@
 api_specs:
 - filename: openkruise-apis-api-openapi.yml
   format: yaml
-  label: OpenKruise Apis API
+  label: OpenKruise APIS API
   slug: openkruise-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/openapi/openkruise-apis-api-openapi.yml
@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openkruise/ref
 summary_line: TLSv1.3
 tags:
 - Cloud-Native
-- Controllers
+- Controller
 - Deployment
 - Incubating
 - Kubernetes

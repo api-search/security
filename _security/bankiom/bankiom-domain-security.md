@@ -36,8 +36,8 @@ tags:
 - Banking
 - Neobank
 - Personal Finance
-- AI Agent
+- AI Agents
 - Payments
-- UAE
+- United Arab Emirates
 - GCC
 ---

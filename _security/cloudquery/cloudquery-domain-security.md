@@ -48,12 +48,6 @@ api_specs:
   slug: cloudquery-filters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-filters-api-openapi.yml
-- filename: cloudquery-healthcheck-api-openapi.yml
-  format: yaml
-  label: CloudQuery healthcheck API
-  slug: cloudquery-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-healthcheck-api-openapi.yml
 - filename: cloudquery-insights-api-openapi.yml
   format: yaml
   label: CloudQuery insights API
@@ -150,6 +144,12 @@ api_specs:
   slug: cloudquery-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-users-api-openapi.yml
+- filename: cloudquery-health-check-api-openapi.yml
+  format: yaml
+  label: CloudQuery Health Check API
+  slug: cloudquery-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -27,24 +27,24 @@ api_specs:
   slug: synthflow-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-mcp-api-openapi.yml
-- filename: synthflow-memorystores-api-openapi.yml
+- filename: synthflow-memory-stores-api-openapi.yml
   format: yaml
   label: Synthflow Memory Stores API
-  slug: synthflow-memorystores-api
+  slug: synthflow-memory-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memorystores-api-openapi.yml
-- filename: synthflow-phonenumbers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memory-stores-api-openapi.yml
+- filename: synthflow-phone-numbers-api-openapi.yml
   format: yaml
   label: Synthflow Phone Numbers API
-  slug: synthflow-phonenumbers-api
+  slug: synthflow-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonenumbers-api-openapi.yml
-- filename: synthflow-webhooklogs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phone-numbers-api-openapi.yml
+- filename: synthflow-webhook-logs-api-openapi.yml
   format: yaml
   label: Synthflow Webhook Logs API
-  slug: synthflow-webhooklogs-api
+  slug: synthflow-webhook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhooklogs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhook-logs-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -155,6 +155,6 @@ tags:
 - Agent Skills
 - Conversational AI
 - SIP
-- Simulations
+- Simulation
 - Knowledge Base
 ---

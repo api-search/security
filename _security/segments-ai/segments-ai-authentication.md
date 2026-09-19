@@ -15,12 +15,6 @@ api_specs:
   slug: segments-ai-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labels-api-openapi.yml
-- filename: segments-ai-labelsets-api-openapi.yml
-  format: yaml
-  label: Segments.ai Labelsets API
-  slug: segments-ai-labelsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labelsets-api-openapi.yml
 - filename: segments-ai-releases-api-openapi.yml
   format: yaml
   label: Segments.ai Releases API
@@ -33,6 +27,12 @@ api_specs:
   slug: segments-ai-samples-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-samples-api-openapi.yml
+- filename: segments-ai-label-sets-api-openapi.yml
+  format: yaml
+  label: Segments.ai Label Sets API
+  slug: segments-ai-label-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-label-sets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

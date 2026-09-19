@@ -151,7 +151,7 @@ tags:
 - Workflows
 - Open-Source
 - Subscribers
-- Topics
+- Topic
 - Inbox
 - Workflow Orchestration
 - Multi-Channel

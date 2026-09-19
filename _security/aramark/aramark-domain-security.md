@@ -1,365 +1,557 @@
 ---
 api_specs:
-- filename: aramark-alerts-openapi.json
-  format: json
-  label: Aramark Marko Alerts
-  slug: aramark-marko-alerts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-alerts-openapi.json
-- filename: aramark-ask-marko-openapi.json
-  format: json
-  label: Aramark Marko Ask Marko
-  slug: aramark-marko-ask-marko
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-ask-marko-openapi.json
-- filename: aramark-business-unit-core-details-openapi.json
-  format: json
-  label: Aramark Marko Business Unit Core Details
-  slug: aramark-marko-business-unit-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-business-unit-core-details-openapi.json
-- filename: aramark-calendar-openapi.json
-  format: json
-  label: Aramark Marko Calendar
-  slug: aramark-marko-calendar
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-calendar-openapi.json
-- filename: aramark-catering-openapi.json
-  format: json
-  label: Aramark Marko Catering
-  slug: aramark-marko-catering
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-catering-openapi.json
-- filename: aramark-daily-food-waste-tracking-openapi.json
-  format: json
-  label: Aramark Marko Daily Food Waste Tracking
-  slug: aramark-marko-daily-food-waste-tracking
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-daily-food-waste-tracking-openapi.json
-- filename: aramark-district-core-details-openapi.json
-  format: json
-  label: Aramark Marko District Core Details
-  slug: aramark-marko-district-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-district-core-details-openapi.json
-- filename: aramark-division-core-details-openapi.json
-  format: json
-  label: Aramark Marko Division Core Details
-  slug: aramark-marko-division-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-division-core-details-openapi.json
-- filename: aramark-financial-daily-account-summary-openapi.json
-  format: json
-  label: Aramark Marko Financial Daily Account Summary
-  slug: aramark-marko-financial-daily-account-summary
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-financial-daily-account-summary-openapi.json
-- filename: aramark-growth-openapi.json
-  format: json
-  label: Aramark Marko Growth
-  slug: aramark-marko-growth
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-growth-openapi.json
-- filename: aramark-gsc-gpo-0-openapi.json
-  format: json
-  label: Aramark Marko GSC GPO
-  slug: aramark-marko-gsc-gpo-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-gsc-gpo-0-openapi.json
-- filename: aramark-inventory-openapi.json
-  format: json
-  label: Aramark Marko Inventory
-  slug: aramark-marko-inventory
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-inventory-openapi.json
-- filename: aramark-iot-openapi.json
-  format: json
-  label: Aramark Marko IoT
-  slug: aramark-marko-iot
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-iot-openapi.json
-- filename: aramark-labor-daily-openapi.json
-  format: json
-  label: Aramark Marko Labor Daily
-  slug: aramark-marko-labor-daily
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-daily-openapi.json
-- filename: aramark-labor-employee-openapi.json
-  format: json
-  label: Aramark Marko Labor Employee
-  slug: aramark-marko-labor-employee
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-employee-openapi.json
-- filename: aramark-labor-manager-employees-openapi.json
-  format: json
-  label: Aramark Marko Labor Manager Employees
-  slug: aramark-marko-labor-manager-employees
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-manager-employees-openapi.json
-- filename: aramark-labor-schedule-openapi.yaml
+- filename: aramark-accruals-api-openapi.yml
   format: yaml
-  label: Aramark Marko Labor Schedule
-  slug: aramark-marko-labor-schedule
+  label: Aramark Accruals API
+  slug: aramark-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-schedule-openapi.yaml
-- filename: aramark-line-business-core-details-openapi.json
-  format: json
-  label: Aramark Marko Line of Business Core Details
-  slug: aramark-marko-line-business-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-line-business-core-details-openapi.json
-- filename: aramark-location-core-details-openapi.json
-  format: json
-  label: Aramark Marko Location Core Details
-  slug: aramark-marko-location-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-location-core-details-openapi.json
-- filename: aramark-marko-users-openapi.json
-  format: json
-  label: Aramark Marko Marko Users
-  slug: aramark-marko-marko-users
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-marko-users-openapi.json
-- filename: aramark-operational-daily-openapi.json
-  format: json
-  label: Aramark Marko Operational Daily
-  slug: aramark-marko-operational-daily
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-operational-daily-openapi.json
-- filename: aramark-organization-openapi.json
-  format: json
-  label: Aramark Marko Organization
-  slug: aramark-marko-organization
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-openapi.json
-- filename: aramark-organization-brands-openapi.json
-  format: json
-  label: Aramark Marko Organization Brands
-  slug: aramark-marko-organization-brands
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-brands-openapi.json
-- filename: aramark-organization-clients-openapi.json
-  format: json
-  label: Aramark Marko Organization Clients
-  slug: aramark-marko-organization-clients
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-clients-openapi.json
-- filename: aramark-organization-hierarchy-openapi.json
-  format: json
-  label: Aramark Marko Organization Hierarchy
-  slug: aramark-marko-organization-hierarchy
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-hierarchy-openapi.json
-- filename: aramark-organization-hierarchy-v2-openapi.json
-  format: json
-  label: Aramark Marko Organization Hierarchy V2
-  slug: aramark-marko-organization-hierarchy-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-hierarchy-v2-openapi.json
-- filename: aramark-organization-profit-center-core-details-openapi.json
-  format: json
-  label: Aramark Marko Organization Profit Center Core Details
-  slug: aramark-marko-organization-profit-center-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-profit-center-core-details-openapi.json
-- filename: aramark-organization-suppliers-openapi.json
-  format: json
-  label: Aramark Marko Organization Suppliers
-  slug: aramark-marko-organization-suppliers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-suppliers-openapi.json
-- filename: aramark-point-sale-openapi.json
-  format: json
-  label: Aramark Marko Point of Sale
-  slug: aramark-marko-point-sale
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-point-sale-openapi.json
-- filename: aramark-pos-daily-product-ranking-openapi.json
-  format: json
-  label: Aramark Marko POS Daily Product Ranking
-  slug: aramark-marko-pos-daily-product-ranking
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-pos-daily-product-ranking-openapi.json
-- filename: aramark-pos-daily-sales-openapi.json
-  format: json
-  label: Aramark Marko POS Daily Sales
-  slug: aramark-marko-pos-daily-sales
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-pos-daily-sales-openapi.json
-- filename: aramark-pos-items-openapi.json
-  format: json
-  label: Aramark Marko POS Items
-  slug: aramark-marko-pos-items
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-pos-items-openapi.json
-- filename: aramark-pos-transactions-openapi.json
-  format: json
-  label: Aramark Marko POS Transactions
-  slug: aramark-marko-pos-transactions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-pos-transactions-openapi.json
-- filename: aramark-product-openapi.json
-  format: json
-  label: Aramark Marko Product
-  slug: aramark-marko-product
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-product-openapi.json
-- filename: aramark-product-recipe-openapi.json
-  format: json
-  label: Aramark Marko Product Recipe
-  slug: aramark-marko-product-recipe
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-product-recipe-openapi.json
-- filename: aramark-product-retail-items-openapi.json
-  format: json
-  label: Aramark Marko Product Items
-  slug: aramark-marko-product-retail-items
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-product-retail-items-openapi.json
-- filename: aramark-profile-app-openapi.json
-  format: json
-  label: Aramark Marko Profile App
-  slug: aramark-marko-profile-app
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-profile-app-openapi.json
-- filename: aramark-profile-user-openapi.json
-  format: json
-  label: Aramark Marko Profile User
-  slug: aramark-marko-profile-user
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-profile-user-openapi.json
-- filename: aramark-recipe-decorations-openapi.json
-  format: json
-  label: Aramark Marko Recipe Decorations
-  slug: aramark-marko-recipe-decorations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-recipe-decorations-openapi.json
-- filename: aramark-region-core-details-openapi.json
-  format: json
-  label: Aramark Marko Region Core Details
-  slug: aramark-marko-region-core-details
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-region-core-details-openapi.json
-- filename: aramark-security-openapi.json
-  format: json
-  label: Aramark Marko Security
-  slug: aramark-marko-security
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-security-openapi.json
-- filename: aramark-service-openapi.json
-  format: json
-  label: Aramark Marko Service
-  slug: aramark-marko-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-openapi.json
-- filename: aramark-service-areas-openapi.json
-  format: json
-  label: Aramark Marko Service Areas
-  slug: aramark-marko-service-areas
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-areas-openapi.json
-- filename: aramark-service-areas-v2-openapi.json
-  format: json
-  label: Aramark Marko Service Areas V2
-  slug: aramark-marko-service-areas-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-areas-v2-openapi.json
-- filename: aramark-service-inventory-openapi.json
-  format: json
-  label: Aramark Marko Service Inventory
-  slug: aramark-marko-service-inventory
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-inventory-openapi.json
-- filename: aramark-service-meal-periods-openapi.json
-  format: json
-  label: Aramark Marko Service Meal Periods
-  slug: aramark-marko-service-meal-periods
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-meal-periods-openapi.json
-- filename: aramark-service-menu-items-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-accruals-api-openapi.yml
+- filename: aramark-address-api-openapi.yml
   format: yaml
-  label: Aramark Marko Service Menu Items
-  slug: aramark-marko-service-menu-items
+  label: Aramark Address API
+  slug: aramark-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-menu-items-openapi.yaml
-- filename: aramark-service-menus-openapi.json
-  format: json
-  label: Aramark Marko Service Menus
-  slug: aramark-marko-service-menus
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-menus-openapi.json
-- filename: aramark-service-production-areas-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-address-api-openapi.yml
+- filename: aramark-alerts-api-openapi.yml
   format: yaml
-  label: Aramark Marko Service Production Areas
-  slug: aramark-marko-service-production-areas
+  label: Aramark Alerts API
+  slug: aramark-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-production-areas-openapi.yaml
-- filename: aramark-service-production-departments-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-alerts-api-openapi.yml
+- filename: aramark-anet-api-openapi.yml
   format: yaml
-  label: Aramark Marko Service Production Departments
-  slug: aramark-marko-service-production-departments
+  label: Aramark Anet API
+  slug: aramark-anet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-production-departments-openapi.yaml
-- filename: aramark-service-recipe-openapi.json
-  format: json
-  label: Aramark Marko Service Recipe
-  slug: aramark-marko-service-recipe
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-anet-api-openapi.yml
+- filename: aramark-ask-api-openapi.yml
+  format: yaml
+  label: Aramark Ask API
+  slug: aramark-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-recipe-openapi.json
-- filename: aramark-service-recipes-v2-openapi.json
-  format: json
-  label: Aramark Marko Service Recipes V2
-  slug: aramark-marko-service-recipes-v2
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-ask-api-openapi.yml
+- filename: aramark-brand-api-openapi.yml
+  format: yaml
+  label: Aramark Brand API
+  slug: aramark-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-recipes-v2-openapi.json
-- filename: aramark-service-results-openapi.json
-  format: json
-  label: Aramark Marko Service Results
-  slug: aramark-marko-service-results
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-brand-api-openapi.yml
+- filename: aramark-calendar-day-api-openapi.yml
+  format: yaml
+  label: Aramark Calendar Day API
+  slug: aramark-calendar-day-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-results-openapi.json
-- filename: aramark-service-v3-openapi.json
-  format: json
-  label: Aramark Marko Service V3
-  slug: aramark-marko-service-v3
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-calendar-day-api-openapi.yml
+- filename: aramark-clients-api-openapi.yml
+  format: yaml
+  label: Aramark Clients API
+  slug: aramark-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-v3-openapi.json
-- filename: aramark-service-weekly-overproduction-openapi.json
-  format: json
-  label: Aramark Marko Service Weekly Overproduction
-  slug: aramark-marko-service-weekly-overproduction
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-clients-api-openapi.yml
+- filename: aramark-configuration-api-openapi.yml
+  format: yaml
+  label: Aramark Configuration API
+  slug: aramark-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-weekly-overproduction-openapi.json
-- filename: aramark-sites-openapi.json
-  format: json
-  label: Aramark Marko Sites
-  slug: aramark-marko-sites
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-configuration-api-openapi.yml
+- filename: aramark-contact-api-openapi.yml
+  format: yaml
+  label: Aramark Contact API
+  slug: aramark-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sites-openapi.json
-- filename: aramark-sub-location-core-details-openapi.json
-  format: json
-  label: Aramark Marko Sub Location Core Details
-  slug: aramark-marko-sub-location-core-details
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-contact-api-openapi.yml
+- filename: aramark-core-api-openapi.yml
+  format: yaml
+  label: Aramark Core API
+  slug: aramark-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sub-location-core-details-openapi.json
-- filename: aramark-sub-locations-openapi.json
-  format: json
-  label: Aramark Marko Sub Locations
-  slug: aramark-marko-sub-locations
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-core-api-openapi.yml
+- filename: aramark-customer-api-openapi.yml
+  format: yaml
+  label: Aramark Customer API
+  slug: aramark-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sub-locations-openapi.json
-- filename: aramark-units-measure-openapi.json
-  format: json
-  label: Aramark Marko Units of Measure
-  slug: aramark-marko-units-measure
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-customer-api-openapi.yml
+- filename: aramark-daily-sales-api-openapi.yml
+  format: yaml
+  label: Aramark Daily Sales API
+  slug: aramark-daily-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-units-measure-openapi.json
-- filename: aramark-vendor-openapi.json
-  format: json
-  label: Aramark Marko Vendor
-  slug: aramark-marko-vendor
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-daily-sales-api-openapi.yml
+- filename: aramark-details-api-openapi.yml
+  format: yaml
+  label: Aramark Details API
+  slug: aramark-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-vendor-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-details-api-openapi.yml
+- filename: aramark-device-api-openapi.yml
+  format: yaml
+  label: Aramark Device API
+  slug: aramark-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-device-api-openapi.yml
+- filename: aramark-districts-api-openapi.yml
+  format: yaml
+  label: Aramark Districts API
+  slug: aramark-districts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-districts-api-openapi.yml
+- filename: aramark-employee-api-openapi.yml
+  format: yaml
+  label: Aramark Employee API
+  slug: aramark-employee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-employee-api-openapi.yml
+- filename: aramark-employee-daily-schedule-api-openapi.yml
+  format: yaml
+  label: Aramark Employee Daily Schedule API
+  slug: aramark-employee-daily-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-employee-daily-schedule-api-openapi.yml
+- filename: aramark-employee-daily-summary-api-openapi.yml
+  format: yaml
+  label: Aramark Employee Daily Summary API
+  slug: aramark-employee-daily-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-employee-daily-summary-api-openapi.yml
+- filename: aramark-equipment-api-openapi.yml
+  format: yaml
+  label: Aramark Equipment API
+  slug: aramark-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-equipment-api-openapi.yml
+- filename: aramark-events-api-openapi.yml
+  format: yaml
+  label: Aramark Events API
+  slug: aramark-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-events-api-openapi.yml
+- filename: aramark-feature-api-openapi.yml
+  format: yaml
+  label: Aramark Feature API
+  slug: aramark-feature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-feature-api-openapi.yml
+- filename: aramark-financial-api-openapi.yml
+  format: yaml
+  label: Aramark Financial API
+  slug: aramark-financial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-financial-api-openapi.yml
+- filename: aramark-fiscal-day-api-openapi.yml
+  format: yaml
+  label: Aramark Fiscal Day API
+  slug: aramark-fiscal-day-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-fiscal-day-api-openapi.yml
+- filename: aramark-food-bank-api-openapi.yml
+  format: yaml
+  label: Aramark Food Bank API
+  slug: aramark-food-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-food-bank-api-openapi.yml
+- filename: aramark-gl-accounts-api-openapi.yml
+  format: yaml
+  label: Aramark GL Accounts API
+  slug: aramark-gl-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-gl-accounts-api-openapi.yml
+- filename: aramark-hierarchy-api-openapi.yml
+  format: yaml
+  label: Aramark Hierarchy API
+  slug: aramark-hierarchy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-hierarchy-api-openapi.yml
+- filename: aramark-item-api-openapi.yml
+  format: yaml
+  label: Aramark Item API
+  slug: aramark-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-item-api-openapi.yml
+- filename: aramark-items-api-openapi.yml
+  format: yaml
+  label: Aramark Items API
+  slug: aramark-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-items-api-openapi.yml
+- filename: aramark-labor-api-openapi.yml
+  format: yaml
+  label: Aramark Labor API
+  slug: aramark-labor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-api-openapi.yml
+- filename: aramark-labor-daily-forecast-api-openapi.yml
+  format: yaml
+  label: Aramark Labor Daily Forecast API
+  slug: aramark-labor-daily-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-daily-forecast-api-openapi.yml
+- filename: aramark-labor-daily-summary-api-openapi.yml
+  format: yaml
+  label: Aramark Labor Daily Summary API
+  slug: aramark-labor-daily-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-labor-daily-summary-api-openapi.yml
+- filename: aramark-locations-api-openapi.yml
+  format: yaml
+  label: Aramark Locations API
+  slug: aramark-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-locations-api-openapi.yml
+- filename: aramark-log-api-openapi.yml
+  format: yaml
+  label: Aramark Log API
+  slug: aramark-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-log-api-openapi.yml
+- filename: aramark-manager-api-openapi.yml
+  format: yaml
+  label: Aramark Manager API
+  slug: aramark-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-manager-api-openapi.yml
+- filename: aramark-manufacturer-items-api-openapi.yml
+  format: yaml
+  label: Aramark Manufacturer Items API
+  slug: aramark-manufacturer-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-manufacturer-items-api-openapi.yml
+- filename: aramark-menu-items-api-openapi.yml
+  format: yaml
+  label: Aramark Menu Items API
+  slug: aramark-menu-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-menu-items-api-openapi.yml
+- filename: aramark-nutrition-api-openapi.yml
+  format: yaml
+  label: Aramark Nutrition API
+  slug: aramark-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-nutrition-api-openapi.yml
+- filename: aramark-operational-day-api-openapi.yml
+  format: yaml
+  label: Aramark Operational Day API
+  slug: aramark-operational-day-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-operational-day-api-openapi.yml
+- filename: aramark-order-api-openapi.yml
+  format: yaml
+  label: Aramark Order API
+  slug: aramark-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-order-api-openapi.yml
+- filename: aramark-organization-api-openapi.yml
+  format: yaml
+  label: Aramark Organization API
+  slug: aramark-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-organization-api-openapi.yml
+- filename: aramark-payroll-api-openapi.yml
+  format: yaml
+  label: Aramark Payroll API
+  slug: aramark-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-payroll-api-openapi.yml
+- filename: aramark-performance-api-openapi.yml
+  format: yaml
+  label: Aramark Performance API
+  slug: aramark-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-performance-api-openapi.yml
+- filename: aramark-photos-api-openapi.yml
+  format: yaml
+  label: Aramark Photos API
+  slug: aramark-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-photos-api-openapi.yml
+- filename: aramark-po-api-openapi.yml
+  format: yaml
+  label: Aramark PO API
+  slug: aramark-po-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-po-api-openapi.yml
+- filename: aramark-point-of-sale-api-openapi.yml
+  format: yaml
+  label: Aramark Point of Sale API
+  slug: aramark-point-of-sale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-point-of-sale-api-openapi.yml
+- filename: aramark-product-api-openapi.yml
+  format: yaml
+  label: Aramark Product API
+  slug: aramark-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-product-api-openapi.yml
+- filename: aramark-production-areas-api-openapi.yml
+  format: yaml
+  label: Aramark Production Areas API
+  slug: aramark-production-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-production-areas-api-openapi.yml
+- filename: aramark-production-departments-api-openapi.yml
+  format: yaml
+  label: Aramark Production Departments API
+  slug: aramark-production-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-production-departments-api-openapi.yml
+- filename: aramark-profile-api-openapi.yml
+  format: yaml
+  label: Aramark Profile API
+  slug: aramark-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-profile-api-openapi.yml
+- filename: aramark-profit-centers-api-openapi.yml
+  format: yaml
+  label: Aramark Profit Centers API
+  slug: aramark-profit-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-profit-centers-api-openapi.yml
+- filename: aramark-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Aramark Purchase Orders API
+  slug: aramark-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-purchase-orders-api-openapi.yml
+- filename: aramark-purchasing-api-openapi.yml
+  format: yaml
+  label: Aramark Purchasing API
+  slug: aramark-purchasing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-purchasing-api-openapi.yml
+- filename: aramark-recipe-api-openapi.yml
+  format: yaml
+  label: Aramark Recipe API
+  slug: aramark-recipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-recipe-api-openapi.yml
+- filename: aramark-recipe-decorations-api-openapi.yml
+  format: yaml
+  label: Aramark Recipe Decorations API
+  slug: aramark-recipe-decorations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-recipe-decorations-api-openapi.yml
+- filename: aramark-recipe-nutrition-api-openapi.yml
+  format: yaml
+  label: Aramark Recipe Nutrition API
+  slug: aramark-recipe-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-recipe-nutrition-api-openapi.yml
+- filename: aramark-recipes-api-openapi.yml
+  format: yaml
+  label: Aramark Recipes API
+  slug: aramark-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-recipes-api-openapi.yml
+- filename: aramark-regions-api-openapi.yml
+  format: yaml
+  label: Aramark Regions API
+  slug: aramark-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-regions-api-openapi.yml
+- filename: aramark-results-api-openapi.yml
+  format: yaml
+  label: Aramark Results API
+  slug: aramark-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-results-api-openapi.yml
+- filename: aramark-retail-api-openapi.yml
+  format: yaml
+  label: Aramark Retail API
+  slug: aramark-retail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-retail-api-openapi.yml
+- filename: aramark-revenue-api-openapi.yml
+  format: yaml
+  label: Aramark Revenue API
+  slug: aramark-revenue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-revenue-api-openapi.yml
+- filename: aramark-role-api-openapi.yml
+  format: yaml
+  label: Aramark Role API
+  slug: aramark-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-role-api-openapi.yml
+- filename: aramark-sales-ranking-api-openapi.yml
+  format: yaml
+  label: Aramark Sales Ranking API
+  slug: aramark-sales-ranking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sales-ranking-api-openapi.yml
+- filename: aramark-schedule-api-openapi.yml
+  format: yaml
+  label: Aramark Schedule API
+  slug: aramark-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-schedule-api-openapi.yml
+- filename: aramark-self-service-api-openapi.yml
+  format: yaml
+  label: Aramark Self Service API
+  slug: aramark-self-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-self-service-api-openapi.yml
+- filename: aramark-service-api-openapi.yml
+  format: yaml
+  label: Aramark Service API
+  slug: aramark-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-api-openapi.yml
+- filename: aramark-service-area-api-openapi.yml
+  format: yaml
+  label: Aramark Service Area API
+  slug: aramark-service-area-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-area-api-openapi.yml
+- filename: aramark-service-daily-food-waste-api-openapi.yml
+  format: yaml
+  label: Aramark Service Daily Food Waste API
+  slug: aramark-service-daily-food-waste-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-daily-food-waste-api-openapi.yml
+- filename: aramark-service-meal-periods-api-openapi.yml
+  format: yaml
+  label: Aramark Service Meal Periods API
+  slug: aramark-service-meal-periods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-meal-periods-api-openapi.yml
+- filename: aramark-service-menu-items-api-openapi.yml
+  format: yaml
+  label: Aramark Service Menu Items API
+  slug: aramark-service-menu-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-menu-items-api-openapi.yml
+- filename: aramark-service-menus-api-openapi.yml
+  format: yaml
+  label: Aramark Service Menus API
+  slug: aramark-service-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-menus-api-openapi.yml
+- filename: aramark-service-recipe-nutrition-api-openapi.yml
+  format: yaml
+  label: Aramark Service Recipe Nutrition API
+  slug: aramark-service-recipe-nutrition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-recipe-nutrition-api-openapi.yml
+- filename: aramark-service-recipes-api-openapi.yml
+  format: yaml
+  label: Aramark Service Recipes API
+  slug: aramark-service-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-service-recipes-api-openapi.yml
+- filename: aramark-set-api-openapi.yml
+  format: yaml
+  label: Aramark Set API
+  slug: aramark-set-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-set-api-openapi.yml
+- filename: aramark-site-api-openapi.yml
+  format: yaml
+  label: Aramark Site API
+  slug: aramark-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-site-api-openapi.yml
+- filename: aramark-sites-api-openapi.yml
+  format: yaml
+  label: Aramark Sites API
+  slug: aramark-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sites-api-openapi.yml
+- filename: aramark-sku-api-openapi.yml
+  format: yaml
+  label: Aramark SKU API
+  slug: aramark-sku-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sku-api-openapi.yml
+- filename: aramark-spend-api-openapi.yml
+  format: yaml
+  label: Aramark Spend API
+  slug: aramark-spend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-spend-api-openapi.yml
+- filename: aramark-status-api-openapi.yml
+  format: yaml
+  label: Aramark Status API
+  slug: aramark-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-status-api-openapi.yml
+- filename: aramark-storage-api-openapi.yml
+  format: yaml
+  label: Aramark Storage API
+  slug: aramark-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-storage-api-openapi.yml
+- filename: aramark-sub-locations-api-openapi.yml
+  format: yaml
+  label: Aramark Sub Locations API
+  slug: aramark-sub-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-sub-locations-api-openapi.yml
+- filename: aramark-supplier-api-openapi.yml
+  format: yaml
+  label: Aramark Supplier API
+  slug: aramark-supplier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-supplier-api-openapi.yml
+- filename: aramark-suppliers-api-openapi.yml
+  format: yaml
+  label: Aramark Suppliers API
+  slug: aramark-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-suppliers-api-openapi.yml
+- filename: aramark-temperature-api-openapi.yml
+  format: yaml
+  label: Aramark Temperature API
+  slug: aramark-temperature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-temperature-api-openapi.yml
+- filename: aramark-transactions-api-openapi.yml
+  format: yaml
+  label: Aramark Transactions API
+  slug: aramark-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-transactions-api-openapi.yml
+- filename: aramark-uap-api-openapi.yml
+  format: yaml
+  label: Aramark UAP API
+  slug: aramark-uap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-uap-api-openapi.yml
+- filename: aramark-units-of-measure-api-openapi.yml
+  format: yaml
+  label: Aramark Units of Measure API
+  slug: aramark-units-of-measure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-units-of-measure-api-openapi.yml
+- filename: aramark-user-api-openapi.yml
+  format: yaml
+  label: Aramark User API
+  slug: aramark-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-user-api-openapi.yml
+- filename: aramark-voc-api-openapi.yml
+  format: yaml
+  label: Aramark VOC API
+  slug: aramark-voc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-voc-api-openapi.yml
+- filename: aramark-volume-ranking-api-openapi.yml
+  format: yaml
+  label: Aramark Volume Ranking API
+  slug: aramark-volume-ranking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-volume-ranking-api-openapi.yml
+- filename: aramark-weekly-overproduction-api-openapi.yml
+  format: yaml
+  label: Aramark Weekly Overproduction API
+  slug: aramark-weekly-overproduction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-weekly-overproduction-api-openapi.yml
+- filename: aramark-realtime-api-openapi.yml
+  format: yaml
+  label: Aramark Realtime API
+  slug: aramark-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/aramark-realtime-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -409,11 +601,11 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/security/aramark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Food Services
+- Food Service
 - Facilities Management
 - Uniform Services
 - Data Platform
-- Point of Sale
+- Point-of-Sale
 - Labor
 - Inventory
 - Recipes and Nutrition

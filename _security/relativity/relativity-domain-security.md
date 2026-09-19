@@ -138,12 +138,6 @@ api_specs:
   slug: relativity-import-source-module-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-import-source-module-api-openapi.yml
-- filename: relativity-jobactions-api-openapi.yml
-  format: yaml
-  label: Relativity JobActions API
-  slug: relativity-jobactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-jobactions-api-openapi.yml
 - filename: relativity-jobinformation-api-openapi.yml
   format: yaml
   label: Relativity JobInformation API
@@ -212,43 +206,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-rdo-configuration-module-api-openapi.yml
 - filename: relativity-relativity-automated-workflows-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Automated Workflows API
+  label: Relativity Automated Workflows API
   slug: relativity-relativity-automated-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-automated-workflows-api-openapi.yml
 - filename: relativity-relativity-environment-module-v1-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Environment Module v1 API
+  label: Relativity Environment Module v1 API
   slug: relativity-relativity-environment-module-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-environment-module-v1-api-openapi.yml
 - filename: relativity-relativity-infrastructure-module-v1-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Infrastructure Module v1 API
+  label: Relativity Infrastructure Module v1 API
   slug: relativity-relativity-infrastructure-module-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-infrastructure-module-v1-api-openapi.yml
 - filename: relativity-relativity-mass-operation-module-v2-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Mass Operation Module v2 API
+  label: Relativity Mass Operation Module v2 API
   slug: relativity-relativity-mass-operation-module-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-mass-operation-module-v2-api-openapi.yml
 - filename: relativity-relativity-notifications-module-v1-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Notifications Module v1 API
+  label: Relativity Notifications Module v1 API
   slug: relativity-relativity-notifications-module-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-notifications-module-v1-api-openapi.yml
 - filename: relativity-relativity-pivot-module-v1-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Pivot Module v1 API
+  label: Relativity Pivot Module v1 API
   slug: relativity-relativity-pivot-module-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-pivot-module-v1-api-openapi.yml
 - filename: relativity-relativity-structured-analytics-v1-api-openapi.yml
   format: yaml
-  label: Relativity Relativity Structured Analytics v1 API
+  label: Relativity Structured Analytics v1 API
   slug: relativity-relativity-structured-analytics-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-relativity-structured-analytics-v1-api-openapi.yml
@@ -258,12 +252,6 @@ api_specs:
   slug: relativity-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-reports-api-openapi.yml
-- filename: relativity-restorejobs-api-openapi.yml
-  format: yaml
-  label: Relativity RestoreJobs API
-  slug: relativity-restorejobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-restorejobs-api-openapi.yml
 - filename: relativity-shortmessageviewerservice-api-openapi.yml
   format: yaml
   label: Relativity ShortMessageViewerService API
@@ -306,6 +294,24 @@ api_specs:
   slug: relativity-workspacejob-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-workspacejob-api-openapi.yml
+- filename: relativity-tab-manager-v1-api-openapi.yml
+  format: yaml
+  label: Relativity Tab Manager v1 API
+  slug: relativity-tab-manager-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-tab-manager-v1-api-openapi.yml
+- filename: relativity-job-actions-api-openapi.yml
+  format: yaml
+  label: Relativity Job Actions API
+  slug: relativity-job-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-job-actions-api-openapi.yml
+- filename: relativity-restore-jobs-api-openapi.yml
+  format: yaml
+  label: Relativity Restore Jobs API
+  slug: relativity-restore-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-restore-jobs-api-openapi.yml
 description: ''
 domains:
 - caa:

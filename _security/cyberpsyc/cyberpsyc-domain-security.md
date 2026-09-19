@@ -39,4 +39,5 @@ tags:
 - Healthcare
 - Higher Education
 - SSO
+- Identity Federation
 ---

@@ -12,12 +12,6 @@ api_specs:
   slug: queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-queries-api-openapi.yml
-- filename: honeycomb-slos-api-openapi.yml
-  format: yaml
-  label: Honeycomb SLOs API
-  slug: slos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
 - filename: honeycomb-datasets-api-openapi.yml
   format: yaml
   label: Honeycomb Datasets API
@@ -132,6 +126,12 @@ api_specs:
   slug: honeycomb-service-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-service-maps-api-openapi.yml
+- filename: honeycomb-slos-api-openapi.yml
+  format: yaml
+  label: Honeycomb SL Os API
+  slug: honeycomb-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -174,5 +174,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api-docs.honeycomb.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.honeycomb.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: honeycomb.io\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:support@honeycomb.io\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/security/honeycomb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Observability
+- Telemetry
+- Analytics
+- Data Management
 ---

@@ -58,11 +58,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrove/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
-- Marketplaces
+- E-Commerce
+- Marketplace
 - Business Intelligence
 - Retail
-- Consumer Brands
+- Consumer Brand
 - Adobe Commerce
 - Japan
 ---

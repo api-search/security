@@ -55,7 +55,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Data Fabric
-- Knowledge Graphs
+- Knowledge Graph
 - Enterprise Software
 - Financial Crime
 - KYC

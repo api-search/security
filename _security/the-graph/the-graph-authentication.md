@@ -40,6 +40,6 @@ tags:
 - Web3
 - Indexing
 - GraphQL
-- Subgraphs
+- Subgraph
 - Multi-Chain
 ---

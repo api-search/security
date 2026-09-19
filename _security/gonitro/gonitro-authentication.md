@@ -8,30 +8,6 @@ api_specs:
   slug: gonitro-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-authentication-api-openapi.yml
-- filename: gonitro-conversions-api-openapi.yml
-  format: yaml
-  label: GoNitro Conversions API
-  slug: gonitro-conversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-conversions-api-openapi.yml
-- filename: gonitro-extractions-api-openapi.yml
-  format: yaml
-  label: GoNitro Extractions API
-  slug: gonitro-extractions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-extractions-api-openapi.yml
-- filename: gonitro-generations-api-openapi.yml
-  format: yaml
-  label: GoNitro Generations API
-  slug: gonitro-generations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-generations-api-openapi.yml
-- filename: gonitro-jobs-api-openapi.yml
-  format: yaml
-  label: GoNitro Jobs API
-  slug: gonitro-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-jobs-api-openapi.yml
 - filename: gonitro-platform-api-openapi.yml
   format: yaml
   label: GoNitro Platform API
@@ -44,12 +20,6 @@ api_specs:
   slug: gonitro-sign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-sign-api-openapi.yml
-- filename: gonitro-transformations-api-openapi.yml
-  format: yaml
-  label: GoNitro Transformations API
-  slug: gonitro-transformations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-transformations-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -95,7 +65,7 @@ tags:
 - Documents
 - PDF
 - E-Signature
-- Electronic Signatures
+- Electronic Signature
 - Document Automation
 - Document Conversion
 - Data Extraction

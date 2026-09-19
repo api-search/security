@@ -24,12 +24,6 @@ api_specs:
   slug: argo-workflows-cronworkflowservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-cronworkflowservice-api-openapi.yml
-- filename: argo-workflows-eventservice-api-openapi.yml
-  format: yaml
-  label: Argo Workflows EventService API
-  slug: argo-workflows-eventservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-eventservice-api-openapi.yml
 - filename: argo-workflows-eventsourceservice-api-openapi.yml
   format: yaml
   label: Argo Workflows EventSourceService API
@@ -66,6 +60,12 @@ api_specs:
   slug: argo-workflows-workflowtemplateservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-workflowtemplateservice-api-openapi.yml
+- filename: argo-workflows-event-service-api-openapi.yml
+  format: yaml
+  label: Argo Workflows Event Service API
+  slug: argo-workflows-event-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-event-service-api-openapi.yml
 description: ''
 domains:
 - caa:

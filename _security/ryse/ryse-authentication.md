@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ryse/refs/head
 summary_line: 3 schemes
 tags:
 - Smart Home
-- Internet of Things
+- IoT
 - Consumer Electronics
 - Home Automation
 - Window Coverings

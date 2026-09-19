@@ -18,12 +18,6 @@ api_specs:
   slug: totalis-portfolio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-portfolio-api-openapi.yml
-- filename: totalis-rfqs-api-openapi.yml
-  format: yaml
-  label: Totalis RFQs API
-  slug: totalis-rfqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-rfqs-api-openapi.yml
 - filename: totalis-user-api-openapi.yml
   format: yaml
   label: Totalis User API
@@ -42,6 +36,12 @@ api_specs:
   slug: totalis-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-webhooks-api-openapi.yml
+- filename: totalis-rfqs-api-openapi.yml
+  format: yaml
+  label: Totalis RF Qs API
+  slug: totalis-rfqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-rfqs-api-openapi.yml
 description: ''
 domains:
 - caa: []

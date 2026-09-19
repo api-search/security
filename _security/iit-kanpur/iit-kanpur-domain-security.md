@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: iit-kanpur-2fa-api-openapi.yml
+- filename: iit-kanpur-article-requests-api-openapi.yml
   format: yaml
   label: IIT Kanpur PKK Library Koha REST API
   slug: iit-kanpur-koha-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-2fa-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-article-requests-api-openapi.yml
 - filename: iit-kanpur-oai-pmh-api-openapi.yml
   format: yaml
   label: IIT Kanpur PKK Library OAI-PMH API
   slug: iit-kanpur-oai-pmh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-oai-pmh-api-openapi.yml
+- filename: iit-kanpur-oauth-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Technology Kanpur OAUTH API
+  slug: iit-kanpur-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-oauth-api-openapi.yml
+- filename: iit-kanpur-2-fa-api-openapi.yml
+  format: yaml
+  label: Indian Institute of Technology Kanpur 2 FA API
+  slug: iit-kanpur-2-fa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-2-fa-api-openapi.yml
 description: ''
 domains:
 - caa: []

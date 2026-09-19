@@ -62,7 +62,7 @@ tags:
 - PropTech
 - Marketplace
 - Housing
-- Mortgages
+- Mortgage
 - Brokerage
 - Latin America
 - Colombia

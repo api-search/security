@@ -18,18 +18,18 @@ api_specs:
   slug: trade-desk-offlineconversion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-offlineconversion-api-openapi.yml
-- filename: trade-desk-thirdparty-api-openapi.yml
+- filename: trade-desk-ip-address-api-openapi.yml
   format: yaml
-  label: The Trade Desk ThirdParty API
-  slug: trade-desk-thirdparty-api
+  label: The Trade Desk IP Address API
+  slug: trade-desk-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-thirdparty-api-openapi.yml
-- filename: trade-desk-ipaddress-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ip-address-api-openapi.yml
+- filename: trade-desk-third-party-api-openapi.yml
   format: yaml
-  label: The Trade Desk IPAddress Data API
-  slug: trade-desk-ipaddress-api
+  label: The Trade Desk Third Party API
+  slug: trade-desk-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ipaddress-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-third-party-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -136,7 +136,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising
 - Programmatic Advertising
-- Demand-Side Platform
 - DSP
 - AdTech
 - Connected TV

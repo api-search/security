@@ -33,7 +33,7 @@ tags:
 - Company
 - Aerospace
 - Space
-- Satellites
+- Satellite
 - CubeSat
 - SmallSat
 - Nanosatellites

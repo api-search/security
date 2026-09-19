@@ -20,12 +20,6 @@ api_specs:
   slug: savvycal-scheduling-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-scheduling-links-api-openapi.yml
-- filename: savvycal-time-zones-api-openapi.yml
-  format: yaml
-  label: SavvyCal Time Zones API
-  slug: savvycal-time-zones-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-time-zones-api-openapi.yml
 - filename: savvycal-webhooks-api-openapi.yml
   format: yaml
   label: SavvyCal Webhooks API
@@ -38,6 +32,12 @@ api_specs:
   slug: savvycal-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-workflows-api-openapi.yml
+- filename: savvycal-timezones-api-openapi.yml
+  format: yaml
+  label: SavvyCal Timezones API
+  slug: savvycal-timezones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-timezones-api-openapi.yml
 auth_types:
 - http
 description: ''

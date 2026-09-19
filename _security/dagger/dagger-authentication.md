@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: dagger-graphql-api-openapi.yml
+- filename: dagger-graph-ql-api-openapi.yml
   format: yaml
-  label: Dagger GraphQL API
-  slug: dagger-graphql-api
+  label: Dagger Graph QL API
+  slug: dagger-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/openapi/dagger-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/openapi/dagger-graph-ql-api-openapi.yml
 auth_types:
 - http
 - oidc

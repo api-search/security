@@ -36,7 +36,7 @@ tags:
 - Digital Shelf
 - Retail Analytics
 - Retail Media
-- Consumer Brands
+- Consumer Brand
 - Marketing Analytics
 - Commerce Intelligence
 - Publicis Groupe

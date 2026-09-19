@@ -8,12 +8,6 @@ api_specs:
   slug: choreo-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-alerts-api-openapi.yml
-- filename: choreo-apis-api-openapi.yml
-  format: yaml
-  label: Choreo Apis API
-  slug: choreo-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-apis-api-openapi.yml
 - filename: choreo-application-keys-api-openapi.yml
   format: yaml
   label: Choreo Application Keys API
@@ -98,6 +92,12 @@ api_specs:
   slug: choreo-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-usage-api-openapi.yml
+- filename: choreo-apis-api-openapi.yml
+  format: yaml
+  label: Choreo APIS API
+  slug: choreo-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-apis-api-openapi.yml
 auth_types:
 - http
 - oauth2

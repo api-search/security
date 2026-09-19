@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Human Resources
-- HR Tech
 - Recruiting
 - Talent Acquisition
 - Interview Intelligence

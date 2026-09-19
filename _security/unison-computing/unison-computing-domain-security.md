@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unison-computi
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Programming Languages
+- Programming Language
 - Cloud Computing
 - Developer Tools
 - Functional Programming

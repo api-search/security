@@ -36,12 +36,12 @@ api_specs:
   slug: google-cloud-platform-tagkeys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagkeys-api-openapi.yml
-- filename: google-cloud-platform-tagvalues-api-openapi.yml
+- filename: google-cloud-platform-tag-values-api-openapi.yml
   format: yaml
-  label: Google Cloud Platform TagValues API
-  slug: google-cloud-platform-tagvalues-api
+  label: Google Cloud Platform Tag Values API
+  slug: google-cloud-platform-tag-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagvalues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tag-values-api-openapi.yml
 description: ''
 domains:
 - caa:

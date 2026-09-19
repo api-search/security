@@ -3,12 +3,72 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: igaming-tools-openapi.json
-  format: json
-  label: iGamingScraper REST API
-  slug: igamingscraper-rest-api
+- filename: igaming-tools-demand-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Demand API
+  slug: igaming-tools-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-demand-api-openapi.yml
+- filename: igaming-tools-features-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Features API
+  slug: igaming-tools-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-features-api-openapi.yml
+- filename: igaming-tools-jobs-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Jobs API
+  slug: igaming-tools-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-jobs-api-openapi.yml
+- filename: igaming-tools-news-api-openapi.yml
+  format: yaml
+  label: iGaming Tools News API
+  slug: igaming-tools-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-news-api-openapi.yml
+- filename: igaming-tools-providers-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Providers API
+  slug: igaming-tools-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-providers-api-openapi.yml
+- filename: igaming-tools-regulators-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Regulators API
+  slug: igaming-tools-regulators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-regulators-api-openapi.yml
+- filename: igaming-tools-series-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Series API
+  slug: igaming-tools-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-series-api-openapi.yml
+- filename: igaming-tools-slots-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Slots API
+  slug: igaming-tools-slots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-slots-api-openapi.yml
+- filename: igaming-tools-sources-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Sources API
+  slug: igaming-tools-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-sources-api-openapi.yml
+- filename: igaming-tools-stats-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Stats API
+  slug: igaming-tools-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-stats-api-openapi.yml
+- filename: igaming-tools-themes-api-openapi.yml
+  format: yaml
+  label: iGaming Tools Themes API
+  slug: igaming-tools-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/openapi/igaming-tools-themes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

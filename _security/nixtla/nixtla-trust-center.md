@@ -73,7 +73,7 @@ tags:
 - Anomaly Detection
 - Machine-Learning
 - Artificial Intelligence
-- Foundation Model
+- Foundation Models
 - Predictive Analytics
 - Data Science
 trust_url: https://trust.nixtla.io/

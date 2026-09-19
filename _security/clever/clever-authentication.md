@@ -100,11 +100,11 @@ tags:
 - Education
 - K-12
 - EdTech
-- Single Sign-On
+- SSO
 - Rostering
 - Identity
-- SSO
 - Student Data
 - LMS
 - SIS
+- Identity Federation
 ---

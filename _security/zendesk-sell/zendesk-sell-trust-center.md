@@ -57,7 +57,7 @@ tags:
 - Sales Automation
 - Leads
 - Deals
-- Pipeline
+- Pipelines
 - Customer Experience
 trust_url: https://www.zendesk.com/trust-center/
 ---

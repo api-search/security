@@ -34,7 +34,6 @@ tags:
 - Company
 - Life Sciences
 - Healthcare
-- Telemedicine
 - Telehealth
 - Primary Care
 - Artificial Intelligence

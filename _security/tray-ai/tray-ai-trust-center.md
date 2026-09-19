@@ -72,6 +72,24 @@ api_specs:
   slug: tray-ai-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
+- filename: tray-ai-agent-groups-api-openapi.yml
+  format: yaml
+  label: Tray.ai Agent Groups API
+  slug: tray-ai-agent-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-groups-api-openapi.yml
+- filename: tray-ai-agent-instances-api-openapi.yml
+  format: yaml
+  label: Tray.ai Agent Instances API
+  slug: tray-ai-agent-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-instances-api-openapi.yml
+- filename: tray-ai-permissions-api-openapi.yml
+  format: yaml
+  label: Tray.ai Permissions API
+  slug: tray-ai-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-permissions-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 1 Type 2
@@ -107,11 +125,10 @@ tags:
 - AI Agents
 - MCP
 - Orchestration
-- Workflow Automation
+- Workflow-Automation
 - Connectors
 - Agent Gateway
 - Embedded Integration
 - Enterprise Automation
-- Model Context Protocol
 trust_url: https://trust.tray.ai/
 ---

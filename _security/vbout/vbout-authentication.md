@@ -10,12 +10,6 @@ api_specs:
   slug: vbout-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-account-api-openapi.yml
-- filename: vbout-aichatbot-api-openapi.yml
-  format: yaml
-  label: VBOUT AIchatbot API
-  slug: vbout-aichatbot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-aichatbot-api-openapi.yml
 - filename: vbout-application-api-openapi.yml
   format: yaml
   label: VBOUT Application API
@@ -40,12 +34,6 @@ api_specs:
   slug: vbout-email-marketing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-email-marketing-api-openapi.yml
-- filename: vbout-emailmarketing-api-openapi.yml
-  format: yaml
-  label: VBOUT EmailMarketing API
-  slug: vbout-emailmarketing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-emailmarketing-api-openapi.yml
 - filename: vbout-goals-api-openapi.yml
   format: yaml
   label: VBOUT Goals API
@@ -82,18 +70,18 @@ api_specs:
   slug: vbout-social-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-social-media-api-openapi.yml
-- filename: vbout-socialmedia-api-openapi.yml
-  format: yaml
-  label: VBOUT SocialMedia API
-  slug: vbout-socialmedia-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-socialmedia-api-openapi.yml
 - filename: vbout-users-workflow-api-openapi.yml
   format: yaml
   label: VBOUT Users & Workflow API
   slug: vbout-users-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-users-workflow-api-openapi.yml
+- filename: vbout-ai-chatbot-api-openapi.yml
+  format: yaml
+  label: VBOUT AI Chatbot API
+  slug: vbout-ai-chatbot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-ai-chatbot-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

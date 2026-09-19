@@ -45,4 +45,5 @@ tags:
 - Steel
 - Metals
 - Fortune 500
+- Defunct
 ---

@@ -38,18 +38,18 @@ api_specs:
   slug: gotham-greens-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/openapi/gotham-greens-discovery-api-openapi.yml
-- filename: gotham-greens-oembed-api-openapi.yml
-  format: yaml
-  label: Gotham Greens oEmbed API
-  slug: gotham-greens-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/openapi/gotham-greens-oembed-api-openapi.yml
 - filename: gotham-greens-seo-api-openapi.yml
   format: yaml
   label: Gotham Greens SEO Metadata API
   slug: gotham-greens-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/openapi/gotham-greens-seo-api-openapi.yml
+- filename: gotham-greens-o-embed-api-openapi.yml
+  format: yaml
+  label: Gotham Greens o Embed API
+  slug: gotham-greens-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/openapi/gotham-greens-o-embed-api-openapi.yml
 auth_types:
 - none
 - cookie

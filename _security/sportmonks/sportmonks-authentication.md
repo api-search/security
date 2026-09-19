@@ -113,7 +113,7 @@ tags:
 - Football
 - Formula 1
 - Live Scores
-- Motorsport
+- Motorsports
 - Real-Time
 - Soccer
 - Sports

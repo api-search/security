@@ -128,7 +128,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/hea
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Links
-- URL Shortener
+- URL Shorteners
 - QR Codes
 - Analytics
 - Marketing

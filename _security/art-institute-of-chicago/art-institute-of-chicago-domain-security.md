@@ -266,7 +266,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art-institute-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Art And Design
-- Museum
+- Museums
 - Open Data
 - Cultural Heritage
 - IIIF

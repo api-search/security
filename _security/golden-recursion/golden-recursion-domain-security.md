@@ -2,19 +2,19 @@
 api_specs:
 - filename: golden-recursion-entity-api-api-openapi.yml
   format: yaml
-  label: Golden Recursion Entity API API
+  label: Golden Recursion Entity API
   slug: golden-recursion-entity-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-entity-api-api-openapi.yml
 - filename: golden-recursion-query-api-api-openapi.yml
   format: yaml
-  label: Golden Recursion Query API API
+  label: Golden Recursion Query API
   slug: golden-recursion-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-query-api-api-openapi.yml
 - filename: golden-recursion-schema-api-api-openapi.yml
   format: yaml
-  label: Golden Recursion Schema API API
+  label: Golden Recursion Schema API
   slug: golden-recursion-schema-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-schema-api-api-openapi.yml

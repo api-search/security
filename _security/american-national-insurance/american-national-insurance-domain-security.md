@@ -36,7 +36,7 @@ tags:
 - Annuities
 - Health Insurance
 - Property Casualty
-- Pension
+- Pensions
 - Financial-Services
 - Fortune 1000
 ---

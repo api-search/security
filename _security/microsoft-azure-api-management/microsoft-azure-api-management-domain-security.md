@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-ai-api-openapi.yml
 - filename: microsoft-azure-api-management-api-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management Api API
+  label: Microsoft Azure API Management Api
   slug: microsoft-azure-api-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-api-api-openapi.yml
@@ -60,12 +60,6 @@ api_specs:
   slug: microsoft-azure-api-management-apipolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apipolicy-api-openapi.yml
-- filename: microsoft-azure-api-management-apiproduct-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management ApiProduct API
-  slug: microsoft-azure-api-management-apiproduct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apiproduct-api-openapi.yml
 - filename: microsoft-azure-api-management-apirelease-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ApiRelease API
@@ -78,12 +72,6 @@ api_specs:
   slug: microsoft-azure-api-management-apirevision-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apirevision-api-openapi.yml
-- filename: microsoft-azure-api-management-apis-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management APIs API
-  slug: microsoft-azure-api-management-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apis-api-openapi.yml
 - filename: microsoft-azure-api-management-apischema-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ApiSchema API
@@ -222,12 +210,6 @@ api_specs:
   slug: microsoft-azure-api-management-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-group-api-openapi.yml
-- filename: microsoft-azure-api-management-groupuser-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management GroupUser API
-  slug: microsoft-azure-api-management-groupuser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-groupuser-api-openapi.yml
 - filename: microsoft-azure-api-management-health-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Health API
@@ -282,24 +264,12 @@ api_specs:
   slug: microsoft-azure-api-management-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-product-api-openapi.yml
-- filename: microsoft-azure-api-management-productapi-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management ProductApi API
-  slug: microsoft-azure-api-management-productapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-productapi-api-openapi.yml
 - filename: microsoft-azure-api-management-productapilink-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ProductApiLink API
   slug: microsoft-azure-api-management-productapilink-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-productapilink-api-openapi.yml
-- filename: microsoft-azure-api-management-productgroup-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management ProductGroup API
-  slug: microsoft-azure-api-management-productgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-productgroup-api-openapi.yml
 - filename: microsoft-azure-api-management-productgrouplink-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ProductGroupLink API
@@ -324,12 +294,6 @@ api_specs:
   slug: microsoft-azure-api-management-productsubscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-productsubscription-api-openapi.yml
-- filename: microsoft-azure-api-management-producttag-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management ProductTag API
-  slug: microsoft-azure-api-management-producttag-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-producttag-api-openapi.yml
 - filename: microsoft-azure-api-management-productwiki-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ProductWiki API
@@ -378,36 +342,12 @@ api_specs:
   slug: microsoft-azure-api-management-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-user-api-openapi.yml
-- filename: microsoft-azure-api-management-usergroup-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management UserGroup API
-  slug: microsoft-azure-api-management-usergroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-usergroup-api-openapi.yml
-- filename: microsoft-azure-api-management-useridentity-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management UserIdentity API
-  slug: microsoft-azure-api-management-useridentity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-useridentity-api-openapi.yml
 - filename: microsoft-azure-api-management-users-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Users API
   slug: microsoft-azure-api-management-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-users-api-openapi.yml
-- filename: microsoft-azure-api-management-usersubscription-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management UserSubscription API
-  slug: microsoft-azure-api-management-usersubscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-usersubscription-api-openapi.yml
-- filename: microsoft-azure-api-management-usertoken-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management UserToken API
-  slug: microsoft-azure-api-management-usertoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-usertoken-api-openapi.yml
 - filename: microsoft-azure-api-management-workspace-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Workspace API
@@ -420,6 +360,66 @@ api_specs:
   slug: microsoft-azure-api-management-workspacepolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-workspacepolicy-api-openapi.yml
+- filename: microsoft-azure-api-management-apis-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management AP Is API
+  slug: microsoft-azure-api-management-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apis-api-openapi.yml
+- filename: microsoft-azure-api-management-api-product-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Api Product API
+  slug: microsoft-azure-api-management-api-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-api-product-api-openapi.yml
+- filename: microsoft-azure-api-management-group-user-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Group User API
+  slug: microsoft-azure-api-management-group-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-group-user-api-openapi.yml
+- filename: microsoft-azure-api-management-product-api-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Product API
+  slug: microsoft-azure-api-management-product-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-product-api-api-openapi.yml
+- filename: microsoft-azure-api-management-product-group-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Product Group API
+  slug: microsoft-azure-api-management-product-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-product-group-api-openapi.yml
+- filename: microsoft-azure-api-management-product-tag-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Product Tag API
+  slug: microsoft-azure-api-management-product-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-product-tag-api-openapi.yml
+- filename: microsoft-azure-api-management-user-group-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management User Group API
+  slug: microsoft-azure-api-management-user-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-user-group-api-openapi.yml
+- filename: microsoft-azure-api-management-user-identity-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management User Identity API
+  slug: microsoft-azure-api-management-user-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-user-identity-api-openapi.yml
+- filename: microsoft-azure-api-management-user-subscription-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management User Subscription API
+  slug: microsoft-azure-api-management-user-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-user-subscription-api-openapi.yml
+- filename: microsoft-azure-api-management-user-token-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management User Token API
+  slug: microsoft-azure-api-management-user-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-user-token-api-openapi.yml
 description: ''
 domains:
 - caa:

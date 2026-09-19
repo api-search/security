@@ -34,7 +34,7 @@ tags:
 - Digital Therapeutics
 - Virtual Reality
 - Healthcare
-- Medical Device
+- Medical Devices
 - Chronic Pain
 - Behavioral Health
 ---

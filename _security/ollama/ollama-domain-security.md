@@ -104,6 +104,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Models
 ---

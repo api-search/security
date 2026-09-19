@@ -23,9 +23,10 @@ tags:
 - Code Push
 - OTA Updates
 - Mobile
-- Mobile Apps
+- Mobile App
 - Deployment
 - CI/CD
 - DevOps
+- Developer Tools
 trust_url: https://trust.shorebird.dev/
 ---

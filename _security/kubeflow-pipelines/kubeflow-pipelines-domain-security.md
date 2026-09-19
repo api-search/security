@@ -14,22 +14,22 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-health-api-openapi.yml
 - filename: kubeflow-pipelines-pipelines-api-openapi.yml
   format: yaml
-  label: Kubeflow Pipelines Pipelines API
+  label: Kubeflow Pipelines API
   slug: kubeflow-pipelines-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipelines-api-openapi.yml
-- filename: kubeflow-pipelines-pipelineversions-api-openapi.yml
-  format: yaml
-  label: Kubeflow Pipelines PipelineVersions API
-  slug: kubeflow-pipelines-pipelineversions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipelineversions-api-openapi.yml
 - filename: kubeflow-pipelines-runs-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines Runs API
   slug: kubeflow-pipelines-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-runs-api-openapi.yml
+- filename: kubeflow-pipelines-pipeline-versions-api-openapi.yml
+  format: yaml
+  label: Kubeflow Pipelines Pipeline Versions API
+  slug: kubeflow-pipelines-pipeline-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipeline-versions-api-openapi.yml
 description: ''
 domains:
 - caa: []

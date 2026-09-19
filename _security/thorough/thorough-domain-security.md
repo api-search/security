@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - China
-- Startup
+- Startups
 - Qiming
 - Venture Backed
 ---

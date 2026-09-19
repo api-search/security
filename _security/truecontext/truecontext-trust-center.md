@@ -37,7 +37,7 @@ tags:
 - Field Intelligence
 - Low-Code
 - Dispatch
-- Inspections
+- Inspection
 - Compliance
 trust_url: https://trust.truecontext.com/
 ---

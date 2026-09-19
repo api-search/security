@@ -379,7 +379,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Programmatic Advertising
 - DSP
-- Demand-Side Platform
 - Campaign Management
 - AdTech
 - Bidding

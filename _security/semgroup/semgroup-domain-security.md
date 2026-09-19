@@ -35,7 +35,7 @@ tags:
 - Pipelines
 - Crude Oil
 - Natural Gas Liquids
-- Terminals
+- Terminal
 - Acquired
 - Fortune 1000
 ---

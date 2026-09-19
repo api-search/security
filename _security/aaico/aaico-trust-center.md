@@ -33,7 +33,7 @@ summary_line: SOC 2 Type II, ISO 27001, ISO 42001, HIPAA, GDPR, EU AI Act
 tags:
 - Company
 - Artificial Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Agents
 - Enterprise
 - Document Processing
@@ -42,6 +42,6 @@ tags:
 - Banking
 - Insurance
 - Healthcare
-- Model Context Protocol
+- MCP
 trust_url: https://trust.opus.com/
 ---

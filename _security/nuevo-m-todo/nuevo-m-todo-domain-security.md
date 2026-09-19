@@ -36,7 +36,7 @@ tags:
 - Corporate Wellness
 - Employee Benefits
 - Mental Health
-- Telemedicine
+- Telehealth
 - Insurance
 - Latin America
 ---

@@ -40,6 +40,6 @@ tags:
 - Retail
 - E-Commerce
 - Direct to Consumer
-- Consumer Brands
+- Consumer Brand
 - United States
 ---

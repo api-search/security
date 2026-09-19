@@ -135,12 +135,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs
 summary_line: oauth2 · 2 schemes
 tags:
 - Company
-- Product Lifecycle Management
 - PLM
 - Quality Management
 - QMS
 - Product Information Management
-- PIM
 - Manufacturing
 - Salesforce
 - Bill of Materials

@@ -86,8 +86,8 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Background Screening
 - Identity Verification
-- Background Check
-- HR Tech
+- Background Checks
+- Human Resources
 - Compliance
 - Gated API
 ---

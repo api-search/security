@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
 - filename: microsoft-azure-pipelines-pipelines-api-openapi.yml
   format: yaml
-  label: Azure Pipelines Pipelines API
+  label: Azure Pipelines API
   slug: microsoft-azure-pipelines-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml

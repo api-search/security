@@ -92,12 +92,6 @@ api_specs:
   slug: paystack-split-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-split-api-openapi.yml
-- filename: paystack-subaccount-api-openapi.yml
-  format: yaml
-  label: Paystack Subaccount API
-  slug: paystack-subaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-subaccount-api-openapi.yml
 - filename: paystack-subscription-api-openapi.yml
   format: yaml
   label: Paystack Subscription API
@@ -128,6 +122,12 @@ api_specs:
   slug: paystack-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-verification-api-openapi.yml
+- filename: paystack-sub-account-api-openapi.yml
+  format: yaml
+  label: Paystack Sub Account API
+  slug: paystack-sub-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-sub-account-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -174,7 +174,7 @@ tags:
 - Africa
 - Fintech
 - Recurring Billing
-- Marketplaces
+- Marketplace
 - Payouts
 - Mobile Money
 - Stripe

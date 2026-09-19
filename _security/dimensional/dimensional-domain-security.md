@@ -34,7 +34,7 @@ tags:
 - Personality Science
 - Psychology
 - Consumer
-- Mobile Application
+- Mobile Applications
 - Social
 - Relationships
 - Assessment

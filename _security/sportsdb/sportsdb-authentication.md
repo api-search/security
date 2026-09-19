@@ -45,18 +45,18 @@ api_specs:
   slug: sportsdb-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-teams-api-openapi.yml
-- filename: thesportsdb-lists-api-openapi.yml
+- filename: sportsdb-lists-api-openapi.yml
   format: yaml
   label: TheSportsDB Lists API
-  slug: thesportsdb-lists-api
+  slug: sportsdb-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-lists-api-openapi.yml
-- filename: thesportsdb-seasons-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-lists-api-openapi.yml
+- filename: sportsdb-seasons-api-openapi.yml
   format: yaml
   label: TheSportsDB Seasons API
-  slug: thesportsdb-seasons-api
+  slug: sportsdb-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-seasons-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-seasons-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -90,6 +90,6 @@ tags:
 - Sports
 - Sports Data
 - Team
-- Players
+- Player
 - Event
 ---

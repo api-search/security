@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: university-of-florida-schedule-of-courses-openapi.yml
+- filename: university-of-florida-analytics-api-openapi.yml
   format: yaml
-  label: UF Schedule of Courses (SOC) API
-  slug: soc-schedule
+  label: University of Florida Analytics API
+  slug: university-of-florida-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-schedule-of-courses-openapi.yml
-- filename: university-of-florida-libraries-patron-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-analytics-api-openapi.yml
+- filename: university-of-florida-discovery-api-openapi.yml
   format: yaml
-  label: UF Libraries Patron API
-  slug: libraries-patron-api
+  label: University of Florida Discovery API
+  slug: university-of-florida-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-libraries-patron-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-discovery-api-openapi.yml
+- filename: university-of-florida-filters-api-openapi.yml
+  format: yaml
+  label: University of Florida Filters API
+  slug: university-of-florida-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-filters-api-openapi.yml
+- filename: university-of-florida-harvest-api-openapi.yml
+  format: yaml
+  label: University of Florida Harvest API
+  slug: university-of-florida-harvest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-harvest-api-openapi.yml
+- filename: university-of-florida-item-api-openapi.yml
+  format: yaml
+  label: University of Florida Item API
+  slug: university-of-florida-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-item-api-openapi.yml
+- filename: university-of-florida-schedule-api-openapi.yml
+  format: yaml
+  label: University of Florida Schedule API
+  slug: university-of-florida-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-schedule-api-openapi.yml
+- filename: university-of-florida-search-api-openapi.yml
+  format: yaml
+  label: University of Florida Search API
+  slug: university-of-florida-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/openapi/university-of-florida-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

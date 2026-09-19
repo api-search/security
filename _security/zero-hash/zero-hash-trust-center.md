@@ -223,7 +223,7 @@ tags:
 - Liquidity
 - FIX Protocol
 - Webhook
-- WebSockets
+- WebSocket
 - KYC
 - Compliance
 - Remittances

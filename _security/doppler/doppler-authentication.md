@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: doppler-activitylogs-api-openapi.yml
-  format: yaml
-  label: Doppler ActivityLogs API
-  slug: doppler-activitylogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-activitylogs-api-openapi.yml
 - filename: doppler-auth-api-openapi.yml
   format: yaml
   label: Doppler Auth API
@@ -38,18 +32,24 @@ api_specs:
   slug: doppler-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-secrets-api-openapi.yml
-- filename: doppler-servicetokens-api-openapi.yml
-  format: yaml
-  label: Doppler ServiceTokens API
-  slug: doppler-servicetokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-servicetokens-api-openapi.yml
 - filename: doppler-webhooks-api-openapi.yml
   format: yaml
   label: Doppler Webhooks API
   slug: doppler-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-webhooks-api-openapi.yml
+- filename: doppler-activity-logs-api-openapi.yml
+  format: yaml
+  label: Doppler Activity Logs API
+  slug: doppler-activity-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-activity-logs-api-openapi.yml
+- filename: doppler-service-tokens-api-openapi.yml
+  format: yaml
+  label: Doppler Service Tokens API
+  slug: doppler-service-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-service-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -85,4 +85,5 @@ tags:
 - Configuration Management
 - Security
 - CI/CD
+- Developer Tools
 ---

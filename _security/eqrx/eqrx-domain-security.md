@@ -35,4 +35,5 @@ tags:
 - Drug Development
 - Life Sciences
 - Healthcare
+- Defunct
 ---

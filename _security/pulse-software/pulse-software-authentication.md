@@ -11,43 +11,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-authentication-api-openapi.yml
 - filename: pulse-software-corporate-planning-api-api-openapi.yml
   format: yaml
-  label: Pulse Software Corporate Planning API API
+  label: Pulse Software Corporate Planning API
   slug: pulse-software-corporate-planning-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-corporate-planning-api-api-openapi.yml
 - filename: pulse-software-forms-api-api-openapi.yml
   format: yaml
-  label: Pulse Software Forms API API
+  label: Pulse Software Forms API
   slug: pulse-software-forms-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-forms-api-api-openapi.yml
 - filename: pulse-software-learning-api-api-openapi.yml
   format: yaml
-  label: Pulse Software Learning API API
+  label: Pulse Software Learning API
   slug: pulse-software-learning-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-learning-api-api-openapi.yml
 - filename: pulse-software-project-api-api-openapi.yml
   format: yaml
-  label: Pulse Software Project API API
+  label: Pulse Software Project API
   slug: pulse-software-project-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-project-api-api-openapi.yml
 - filename: pulse-software-recruitment-api-api-openapi.yml
   format: yaml
-  label: Pulse Software Recruitment API API
+  label: Pulse Software Recruitment API
   slug: pulse-software-recruitment-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-recruitment-api-api-openapi.yml
 - filename: pulse-software-sync-api-api-openapi.yml
   format: yaml
-  label: Pulse Software Sync API API
+  label: Pulse Software Sync API
   slug: pulse-software-sync-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-sync-api-api-openapi.yml
 - filename: pulse-software-user-details-api-api-openapi.yml
   format: yaml
-  label: Pulse Software User Details API API
+  label: Pulse Software User Details API
   slug: pulse-software-user-details-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-user-details-api-api-openapi.yml

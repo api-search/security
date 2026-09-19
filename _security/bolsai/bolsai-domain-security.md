@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Bolsai Financial Data API
-  slug: bolsai-financial-data-api
+- filename: bolsai-admin-api-openapi.yml
+  format: yaml
+  label: Bolsai Admin API
+  slug: bolsai-admin-api
   spec_type: OpenAPI
-  url: https://usebolsai.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-admin-api-openapi.yml
+- filename: bolsai-api-keys-api-openapi.yml
+  format: yaml
+  label: Bolsai API Keys API
+  slug: bolsai-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-api-keys-api-openapi.yml
+- filename: bolsai-auth-api-openapi.yml
+  format: yaml
+  label: Bolsai Auth API
+  slug: bolsai-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-auth-api-openapi.yml
+- filename: bolsai-billing-api-openapi.yml
+  format: yaml
+  label: Bolsai Billing API
+  slug: bolsai-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-billing-api-openapi.yml
+- filename: bolsai-companies-api-openapi.yml
+  format: yaml
+  label: Bolsai Companies API
+  slug: bolsai-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-companies-api-openapi.yml
+- filename: bolsai-dividends-api-openapi.yml
+  format: yaml
+  label: Bolsai Dividends API
+  slug: bolsai-dividends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-dividends-api-openapi.yml
+- filename: bolsai-feedback-api-openapi.yml
+  format: yaml
+  label: Bolsai Feedback API
+  slug: bolsai-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-feedback-api-openapi.yml
+- filename: bolsai-fiis-api-openapi.yml
+  format: yaml
+  label: Bolsai Fiis API
+  slug: bolsai-fiis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-fiis-api-openapi.yml
+- filename: bolsai-financials-api-openapi.yml
+  format: yaml
+  label: Bolsai Financials API
+  slug: bolsai-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-financials-api-openapi.yml
+- filename: bolsai-fundamentals-api-openapi.yml
+  format: yaml
+  label: Bolsai Fundamentals API
+  slug: bolsai-fundamentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-fundamentals-api-openapi.yml
+- filename: bolsai-health-api-openapi.yml
+  format: yaml
+  label: Bolsai Health API
+  slug: bolsai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-health-api-openapi.yml
+- filename: bolsai-macro-api-openapi.yml
+  format: yaml
+  label: Bolsai Macro API
+  slug: bolsai-macro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-macro-api-openapi.yml
+- filename: bolsai-screener-api-openapi.yml
+  format: yaml
+  label: Bolsai Screener API
+  slug: bolsai-screener-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-screener-api-openapi.yml
+- filename: bolsai-stocks-api-openapi.yml
+  format: yaml
+  label: Bolsai Stocks API
+  slug: bolsai-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-stocks-api-openapi.yml
+- filename: bolsai-oauth-api-openapi.yml
+  format: yaml
+  label: Bolsai OAUTH API
+  slug: bolsai-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/openapi/bolsai-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

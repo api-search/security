@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-query-api-openapi.yml
 - filename: sparql-sparql-api-openapi.yml
   format: yaml
-  label: SPARQL Sparql API
+  label: SPARQL API
   slug: sparql-sparql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-api-openapi.yml
 - filename: sparql-sparql-graph-api-openapi.yml
   format: yaml
-  label: SPARQL Sparql Graph API
+  label: SPARQL Graph API
   slug: sparql-sparql-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-graph-api-openapi.yml
 - filename: sparql-sparql-update-api-openapi.yml
   format: yaml
-  label: SPARQL Sparql Update API
+  label: SPARQL Update API
   slug: sparql-sparql-update-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-update-api-openapi.yml

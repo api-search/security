@@ -40,6 +40,6 @@ tags:
 - E-Learning
 - Training
 - Courses
-- Enrollments
+- Enrollment
 - Certificates
 ---

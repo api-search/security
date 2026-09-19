@@ -74,7 +74,7 @@ tags:
 - Multi-Agent Systems
 - Agent Management Platform
 - Managed Agents
-- Automations
+- Automation
 - Observability
 - Human-in-the-Loop
 ---

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: entergy-wordpress-rest-openapi.yml
+- filename: entergy-mdd-pro-v2-api-openapi.yml
   format: yaml
-  label: Entergy WordPress REST API
-  slug: entergy-wordpress-rest-api
+  label: Entergy Mdd Pro/v2 API
+  slug: entergy-mdd-pro-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wordpress-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-mdd-pro-v2-api-openapi.yml
+- filename: entergy-oembed-1-0-api-openapi.yml
+  format: yaml
+  label: Entergy Oembed/1.0 API
+  slug: entergy-oembed-1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-oembed-1-0-api-openapi.yml
+- filename: entergy-wp-abilities-v1-api-openapi.yml
+  format: yaml
+  label: Entergy Wp Abilities/v1 API
+  slug: entergy-wp-abilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wp-abilities-v1-api-openapi.yml
+- filename: entergy-wp-api-openapi.yml
+  format: yaml
+  label: Entergy Wp API
+  slug: entergy-wp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wp-api-openapi.yml
+- filename: entergy-wp-block-editor-v1-api-openapi.yml
+  format: yaml
+  label: Entergy Wp Block Editor/v1 API
+  slug: entergy-wp-block-editor-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wp-block-editor-v1-api-openapi.yml
+- filename: entergy-wp-site-health-v1-api-openapi.yml
+  format: yaml
+  label: Entergy Wp Site Health/v1 API
+  slug: entergy-wp-site-health-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wp-site-health-v1-api-openapi.yml
+- filename: entergy-wp-v2-api-openapi.yml
+  format: yaml
+  label: Entergy Wp/v2 API
+  slug: entergy-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wp-v2-api-openapi.yml
+- filename: entergy-wpe-cache-plugin-v1-api-openapi.yml
+  format: yaml
+  label: Entergy Wpe/cache Plugin/v1 API
+  slug: entergy-wpe-cache-plugin-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wpe-cache-plugin-v1-api-openapi.yml
+- filename: entergy-wpe-sign-on-plugin-v1-api-openapi.yml
+  format: yaml
+  label: Entergy Wpe Sign On Plugin/v1 API
+  slug: entergy-wpe-sign-on-plugin-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wpe-sign-on-plugin-v1-api-openapi.yml
+- filename: entergy-wpsl-v1-api-openapi.yml
+  format: yaml
+  label: Entergy Wpsl/v1 API
+  slug: entergy-wpsl-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/openapi/entergy-wpsl-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

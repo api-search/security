@@ -60,6 +60,6 @@ tags:
 - Franchising
 - Hospitality
 - NYSE QSR
-- Quick Service Restaurants
+- Quick Service Restaurant
 - Restaurant
 ---

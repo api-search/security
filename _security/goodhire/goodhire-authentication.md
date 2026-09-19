@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-requestors-api-openapi.yml
 - filename: goodhire-goodhire-api-api-openapi.yml
   format: yaml
-  label: GoodHire GoodHire API
+  label: GoodHire API
   slug: goodhire-goodhire-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/openapi/goodhire-goodhire-api-api-openapi.yml
@@ -66,7 +66,7 @@ tags:
 - Background Checks
 - Employment Screening
 - Identity Verification
-- HR
+- Human Resources
 - Compliance
 - FCRA
 - Checkr

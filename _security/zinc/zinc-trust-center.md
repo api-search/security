@@ -26,6 +26,5 @@ tags:
 - Human Resources
 - Recruiting
 - Compliance
-- HR Tech
 trust_url: https://trust.zincwork.com/
 ---

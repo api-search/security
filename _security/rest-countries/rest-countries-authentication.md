@@ -71,7 +71,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/openapi/rest-countries-translation-api-openapi.yml
 - filename: rest-countries-countries-api-openapi.yml
   format: yaml
-  label: REST Countries Countries API
+  label: REST Countries API
   slug: rest-countries-countries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/openapi/rest-countries-countries-api-openapi.yml
@@ -121,8 +121,8 @@ tags:
 - Reference Data
 - Currency
 - Language
-- Capitals
+- Capital
 - Regions
 - Subregions
-- Translations
+- Translation
 ---

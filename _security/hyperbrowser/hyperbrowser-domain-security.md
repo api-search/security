@@ -30,12 +30,6 @@ api_specs:
   slug: extract-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-extract-api-openapi.yml
-- filename: hyperbrowser-agents-api-openapi.yml
-  format: yaml
-  label: Hyperbrowser Agents API
-  slug: agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-agents-api-openapi.yml
 - filename: hyperbrowser-extensions-api-openapi.yml
   format: yaml
   label: Hyperbrowser Extensions API

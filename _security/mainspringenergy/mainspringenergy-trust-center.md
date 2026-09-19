@@ -24,7 +24,7 @@ tags:
 - Power Generation
 - Clean Energy
 - Distributed Energy
-- Data Centers
+- Data-Center
 - Hardware
 - Climate
 trust_url: https://app.drata.com/trust/cd627a7d-b3f0-496c-81b8-b3c69cde90da

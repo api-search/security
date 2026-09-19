@@ -36,6 +36,6 @@ tags:
 - Biotechnology
 - Clinical Research
 - Diagnostics
-- Rare Diseases
+- Rare Disease
 - India
 ---

@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/re
 summary_line: apiKey · 1 scheme
 tags:
 - Hospitality
-- Hotel
+- Hotels
 - Channel Manager
 - Booking Engine
 - PMS

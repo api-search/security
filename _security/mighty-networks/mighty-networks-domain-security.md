@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: mighty-networks-abusereports-api-openapi.yml
-  format: yaml
-  label: Mighty Networks AbuseReports API
-  slug: mighty-networks-abusereports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-abusereports-api-openapi.yml
 - filename: mighty-networks-answers-api-openapi.yml
   format: yaml
   label: Mighty Networks Answers API
@@ -42,12 +36,6 @@ api_specs:
   slug: mighty-networks-courseworks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-courseworks-api-openapi.yml
-- filename: mighty-networks-customfields-api-openapi.yml
-  format: yaml
-  label: Mighty Networks CustomFields API
-  slug: mighty-networks-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-customfields-api-openapi.yml
 - filename: mighty-networks-events-api-openapi.yml
   format: yaml
   label: Mighty Networks Events API
@@ -80,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-mute-api-openapi.yml
 - filename: mighty-networks-networks-api-openapi.yml
   format: yaml
-  label: Mighty Networks Networks API
+  label: Mighty Networks API
   slug: mighty-networks-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-networks-api-openapi.yml
@@ -156,6 +144,18 @@ api_specs:
   slug: mighty-networks-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-webhooks-api-openapi.yml
+- filename: mighty-networks-abuse-reports-api-openapi.yml
+  format: yaml
+  label: Mighty Networks Abuse Reports API
+  slug: mighty-networks-abuse-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-abuse-reports-api-openapi.yml
+- filename: mighty-networks-custom-fields-api-openapi.yml
+  format: yaml
+  label: Mighty Networks Custom Fields API
+  slug: mighty-networks-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-custom-fields-api-openapi.yml
 description: ''
 domains:
 - caa: []

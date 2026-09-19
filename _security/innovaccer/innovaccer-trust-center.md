@@ -26,7 +26,7 @@ tags:
 - Population Health
 - Artificial Intelligence
 - Data Platform
-- Design System
+- Design Systems
 - MCP
 trust_url: https://innovaccer.com/security
 ---

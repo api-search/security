@@ -36,6 +36,6 @@ tags:
 - Emotional Wellness
 - AI Companion
 - Chatbots
-- Mobile Apps
+- Mobile App
 - Consumer
 ---

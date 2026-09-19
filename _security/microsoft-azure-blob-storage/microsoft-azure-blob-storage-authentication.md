@@ -12,7 +12,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-append-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml
   format: yaml
-  label: Azure Blob Storage Azure Blob Storage REST API API
+  label: Azure Blob Storage Azure Blob Storage REST API
   slug: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml

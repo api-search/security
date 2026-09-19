@@ -2,7 +2,7 @@
 api_specs:
 - filename: microsoft-azure-automation-automation-accounts-api-openapi.yml
   format: yaml
-  label: Azure Automation Automation Accounts API
+  label: Azure Automation Accounts API
   slug: microsoft-azure-automation-automation-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-automation/refs/heads/main/openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml

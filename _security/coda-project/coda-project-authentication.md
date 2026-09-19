@@ -98,12 +98,6 @@ api_specs:
   slug: coda-project-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/openapi/coda-project-groups-api-openapi.yml
-- filename: coda-project-legalholds-api-openapi.yml
-  format: yaml
-  label: Coda Project LegalHolds API
-  slug: coda-project-legalholds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/openapi/coda-project-legalholds-api-openapi.yml
 - filename: coda-project-miscellaneous-api-openapi.yml
   format: yaml
   label: Coda Project Miscellaneous API
@@ -194,6 +188,12 @@ api_specs:
   slug: coda-project-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/openapi/coda-project-workspaces-api-openapi.yml
+- filename: coda-project-legal-holds-api-openapi.yml
+  format: yaml
+  label: Coda Project Legal Holds API
+  slug: coda-project-legal-holds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/openapi/coda-project-legal-holds-api-openapi.yml
 auth_types:
 - http
 - oauth2

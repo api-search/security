@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: vergesense-api-openapi.json
-  format: json
-  label: VergeSense API
-  slug: vergesense-api
+- filename: vergesense-buildings-api-openapi.yml
+  format: yaml
+  label: VergeSense Buildings API
+  slug: vergesense-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-buildings-api-openapi.yml
+- filename: vergesense-hardware-api-openapi.yml
+  format: yaml
+  label: VergeSense Hardware API
+  slug: vergesense-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-hardware-api-openapi.yml
+- filename: vergesense-metrics-api-openapi.yml
+  format: yaml
+  label: VergeSense Metrics API
+  slug: vergesense-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-metrics-api-openapi.yml
+- filename: vergesense-predict-api-openapi.yml
+  format: yaml
+  label: VergeSense Predict API
+  slug: vergesense-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-predict-api-openapi.yml
+- filename: vergesense-sensors-api-openapi.yml
+  format: yaml
+  label: VergeSense Sensors API
+  slug: vergesense-sensors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-sensors-api-openapi.yml
+- filename: vergesense-spaces-api-openapi.yml
+  format: yaml
+  label: VergeSense Spaces API
+  slug: vergesense-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-spaces-api-openapi.yml
+- filename: vergesense-webhooks-api-openapi.yml
+  format: yaml
+  label: VergeSense Webhooks API
+  slug: vergesense-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vergesense/refs/heads/main/openapi/vergesense-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -76,7 +112,7 @@ tags:
 - Space Utilization
 - Facilities Management
 - Smart Buildings
-- Webhooks
+- Webhook
 - MCP
 - JSON:API
 ---

@@ -47,7 +47,7 @@ tags:
 - HL7
 - Interoperability
 - SMART on FHIR
-- Payer
+- Payers
 - Claims
 - Patient Access
 - Health Data

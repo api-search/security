@@ -161,7 +161,7 @@ tags:
 - Payment Processing
 - Payment Facilitation
 - Embedded Finance
-- Marketplaces
+- Marketplace
 - ACH
 - Card Acceptance
 - Fintech

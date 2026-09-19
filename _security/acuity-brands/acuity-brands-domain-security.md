@@ -18,12 +18,12 @@ api_specs:
   slug: acuity-brands-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-orders-api-openapi.yml
-- filename: acuity-brands-webpages-api-openapi.yml
+- filename: acuity-brands-web-pages-api-openapi.yml
   format: yaml
-  label: acuity-brands Webpages API
-  slug: acuity-brands-webpages-api
+  label: Acuity Brands Web Pages API
+  slug: acuity-brands-web-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-webpages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-web-pages-api-openapi.yml
 description: ''
 domains:
 - caa: []

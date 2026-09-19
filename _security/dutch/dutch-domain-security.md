@@ -34,7 +34,6 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
 - Telehealth
 - Veterinary
 - Pets

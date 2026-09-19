@@ -5,37 +5,37 @@ api_key_in:
 api_specs:
 - filename: transpose-block-api-api-openapi.yml
   format: yaml
-  label: Transpose Block API API
+  label: Transpose Block API
   slug: transpose-block-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-block-api-api-openapi.yml
 - filename: transpose-ens-api-api-openapi.yml
   format: yaml
-  label: Transpose ENS API API
+  label: Transpose ENS API
   slug: transpose-ens-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-ens-api-api-openapi.yml
 - filename: transpose-nft-api-api-openapi.yml
   format: yaml
-  label: Transpose NFT API API
+  label: Transpose NFT API
   slug: transpose-nft-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-nft-api-api-openapi.yml
 - filename: transpose-sql-analytics-api-api-openapi.yml
   format: yaml
-  label: Transpose SQL Analytics API API
+  label: Transpose SQL Analytics API
   slug: transpose-sql-analytics-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-sql-analytics-api-api-openapi.yml
 - filename: transpose-token-api-api-openapi.yml
   format: yaml
-  label: Transpose Token API API
+  label: Transpose Token API
   slug: transpose-token-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-token-api-api-openapi.yml
 - filename: transpose-token-prices-api-api-openapi.yml
   format: yaml
-  label: Transpose Token Prices API API
+  label: Transpose Token Prices API
   slug: transpose-token-prices-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-token-prices-api-api-openapi.yml

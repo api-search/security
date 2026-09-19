@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: crob-at-openapi.json
-  format: json
-  label: crob.at REST API
-  slug: crobat-rest-api
+- filename: crob-at-account-api-openapi.yml
+  format: yaml
+  label: crob.at Account API
+  slug: crob-at-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-account-api-openapi.yml
+- filename: crob-at-feedback-api-openapi.yml
+  format: yaml
+  label: crob.at Feedback API
+  slug: crob-at-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-feedback-api-openapi.yml
+- filename: crob-at-generation-api-openapi.yml
+  format: yaml
+  label: crob.at Generation API
+  slug: crob-at-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-generation-api-openapi.yml
+- filename: crob-at-reference-api-openapi.yml
+  format: yaml
+  label: crob.at Reference API
+  slug: crob-at-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-reference-api-openapi.yml
+- filename: crob-at-teams-api-openapi.yml
+  format: yaml
+  label: crob.at Teams API
+  slug: crob-at-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []

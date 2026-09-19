@@ -39,5 +39,4 @@ tags:
 - Human Resources
 - Talent Acquisition
 - Artificial Intelligence
-- HR Tech
 ---

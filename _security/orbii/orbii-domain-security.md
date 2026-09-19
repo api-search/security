@@ -36,12 +36,6 @@ api_specs:
   slug: orbii-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-general-api-openapi.yml
-- filename: orbii-ibans-api-openapi.yml
-  format: yaml
-  label: Orbii IBANs API
-  slug: orbii-ibans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-ibans-api-openapi.yml
 - filename: orbii-invoices-api-openapi.yml
   format: yaml
   label: Orbii Invoices API
@@ -66,12 +60,6 @@ api_specs:
   slug: orbii-merchants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-merchants-api-openapi.yml
-- filename: orbii-pdfs-api-openapi.yml
-  format: yaml
-  label: Orbii PDFs API
-  slug: orbii-pdfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-pdfs-api-openapi.yml
 - filename: orbii-risk-assessment-api-openapi.yml
   format: yaml
   label: Orbii Risk Assessment API
@@ -90,6 +78,18 @@ api_specs:
   slug: orbii-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-transactions-api-openapi.yml
+- filename: orbii-ibans-api-openapi.yml
+  format: yaml
+  label: Orbii IBA Ns API
+  slug: orbii-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-ibans-api-openapi.yml
+- filename: orbii-pdfs-api-openapi.yml
+  format: yaml
+  label: Orbii PD Fs API
+  slug: orbii-pdfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-pdfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

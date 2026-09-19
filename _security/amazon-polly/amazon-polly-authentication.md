@@ -15,24 +15,18 @@ api_specs:
   slug: amazon-polly-speech-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-speech-api-openapi.yml
-- filename: amazon-polly-speech-synthesis-api-openapi.yml
-  format: yaml
-  label: Amazon Polly Speech Synthesis API
-  slug: amazon-polly-speech-synthesis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-speech-synthesis-api-openapi.yml
-- filename: amazon-polly-synthesistasks-api-openapi.yml
-  format: yaml
-  label: Amazon Polly SynthesisTasks API
-  slug: amazon-polly-synthesistasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-synthesistasks-api-openapi.yml
 - filename: amazon-polly-voices-api-openapi.yml
   format: yaml
   label: Amazon Polly Voices API
   slug: amazon-polly-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-voices-api-openapi.yml
+- filename: amazon-polly-synthesis-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon Polly Synthesis Tasks API
+  slug: amazon-polly-synthesis-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

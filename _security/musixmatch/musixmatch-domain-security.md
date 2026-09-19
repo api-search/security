@@ -81,5 +81,5 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Lyrics
 - Music
-- Translations
+- Translation
 ---

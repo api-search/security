@@ -121,7 +121,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - LegalOps

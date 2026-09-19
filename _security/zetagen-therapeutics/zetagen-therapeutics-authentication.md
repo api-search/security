@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zetagen-therap
 summary_line: 0 schemes
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Oncology
 - Bone Health
 - Orthopedics

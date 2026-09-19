@@ -70,7 +70,7 @@ tags:
 - Schema Stitching
 - Schema Transformation
 - Schema Validation
-- Server
+- Servers
 - Subscription
 - The Guild
 - Type Merging

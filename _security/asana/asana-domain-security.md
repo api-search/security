@@ -18,12 +18,6 @@ api_specs:
   slug: asana-custom-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-custom-fields-api-openapi.yml
-- filename: asana-enum-options-api-openapi.yml
-  format: yaml
-  label: Asana Enum Options  API
-  slug: asana-enum-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-enum-options-api-openapi.yml
 - filename: asana-events-api-openapi.yml
   format: yaml
   label: Asana Events  API
@@ -212,13 +206,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-workspace-memberships-api-openapi.yml
 - filename: asana-audit-log-api-api-openapi.yml
   format: yaml
-  label: Asana Audit Log API API
+  label: Asana Audit Log API
   slug: asana-audit-log-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-audit-log-api-api-openapi.yml
 - filename: asana-batch-api-api-openapi.yml
   format: yaml
-  label: Asana Batch API API
+  label: Asana Batch API
   slug: asana-batch-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-batch-api-api-openapi.yml

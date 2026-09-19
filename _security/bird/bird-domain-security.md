@@ -12,18 +12,6 @@ api_specs:
   slug: bird-intent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-intent-api-openapi.yml
-- filename: bird-languagedetection-api-openapi.yml
-  format: yaml
-  label: Bird LanguageDetection API
-  slug: bird-languagedetection-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-languagedetection-api-openapi.yml
-- filename: bird-namedentityrecognition-api-openapi.yml
-  format: yaml
-  label: Bird NamedEntityRecognition API
-  slug: bird-namedentityrecognition-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-namedentityrecognition-api-openapi.yml
 - filename: bird-sms-messaging-api-openapi.yml
   format: yaml
   label: Bird SMS Messaging API
@@ -66,6 +54,18 @@ api_specs:
   slug: bird-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-numbers-api-openapi.yml
+- filename: bird-language-detection-api-openapi.yml
+  format: yaml
+  label: Bird Language Detection API
+  slug: bird-language-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-language-detection-api-openapi.yml
+- filename: bird-named-entity-recognition-api-openapi.yml
+  format: yaml
+  label: Bird Named Entity Recognition API
+  slug: bird-named-entity-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-named-entity-recognition-api-openapi.yml
 description: ''
 domains:
 - caa:

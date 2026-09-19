@@ -50,13 +50,13 @@ tags:
 - Stone Co
 - Pix
 - Boleto
-- Credit Card
+- Credit Cards
 - Marketplace
 - Split Payments
 - Subscription
 - Recurring Billing
 - Anti-Fraud
-- 3DS
+- 3D
 - Checkout
 - Payment Links
 - Webhook

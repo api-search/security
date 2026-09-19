@@ -277,8 +277,8 @@ tags:
 - Company
 - Healthcare
 - Health IT
-- Hospital
-- Clinic
+- Hospitals
+- Clinics
 - Health Insurance
 - FHIR
 - Brazil

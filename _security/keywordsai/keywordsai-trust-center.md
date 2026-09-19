@@ -77,7 +77,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Observability
-- Gateway
+- Gateways
 - Monitoring
 trust_url: https://www.respan.ai/
 ---

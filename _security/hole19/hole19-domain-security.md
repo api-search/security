@@ -35,7 +35,7 @@ tags:
 - Sports
 - GPS
 - Mobile App
-- Scorecard
+- Scorecards
 - Golf Courses
 - Handicap
 - Consumer

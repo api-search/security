@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: google-forms-forms-api-openapi.yml
   format: yaml
-  label: Google Forms Forms API
+  label: Google Forms API
   slug: google-forms-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-forms-api-openapi.yml
@@ -58,7 +58,7 @@ tags:
 - Forms
 - Google
 - Google Workspace
-- Questionnaires
+- Questionnaire
 - Responses
 - Surveys
 ---

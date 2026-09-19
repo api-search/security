@@ -20,13 +20,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-advanced-model-configurations-api-openapi.yml
 - filename: coveo-agent-configuration-api-api-openapi.yml
   format: yaml
-  label: Coveo Agent Configuration API API
+  label: Coveo Agent Configuration API
   slug: coveo-agent-configuration-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-agent-configuration-api-api-openapi.yml
 - filename: coveo-agent-orchestration-api-api-openapi.yml
   format: yaml
-  label: Coveo Agent Orchestration API API
+  label: Coveo Agent Orchestration API
   slug: coveo-agent-orchestration-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-agent-orchestration-api-api-openapi.yml
@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-dynamic-navigation-experience-configuration-api-openapi.yml
 - filename: coveo-event-api-api-openapi.yml
   format: yaml
-  label: Coveo Event API API
+  label: Coveo Event API
   slug: coveo-event-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-event-api-api-openapi.yml
@@ -530,13 +530,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-projects-api-openapi.yml
 - filename: coveo-property-api-api-openapi.yml
   format: yaml
-  label: Coveo Property API API
+  label: Coveo Property API
   slug: coveo-property-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-property-api-api-openapi.yml
 - filename: coveo-public-listing-page-api-api-openapi.yml
   format: yaml
-  label: Coveo Public Listing Page API API
+  label: Coveo Public Listing Page API
   slug: coveo-public-listing-page-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-public-listing-page-api-api-openapi.yml
@@ -866,7 +866,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-token-certificates-api-openapi.yml
 - filename: coveo-usage-analytics-event-validation-api-api-openapi.yml
   format: yaml
-  label: Coveo Usage Analytics Event Validation API API
+  label: Coveo Usage Analytics Event Validation API
   slug: coveo-usage-analytics-event-validation-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/openapi/coveo-usage-analytics-event-validation-api-api-openapi.yml

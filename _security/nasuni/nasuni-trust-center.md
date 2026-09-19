@@ -116,13 +116,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-messages-api-openapi.yml
 - filename: nasuni-nasuni-data-service-nds-api-api-openapi.yml
   format: yaml
-  label: Nasuni Nasuni Data Service (NDS) API
+  label: Nasuni Data Service (NDS) API
   slug: nasuni-nasuni-data-service-nds-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-nasuni-data-service-nds-api-api-openapi.yml
 - filename: nasuni-nasuni-data-service-nds-aws-api-api-openapi.yml
   format: yaml
-  label: Nasuni Nasuni Data Service (NDS) AWS API
+  label: Nasuni Data Service (NDS) AWS API
   slug: nasuni-nasuni-data-service-nds-aws-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-nasuni-data-service-nds-aws-api-api-openapi.yml

@@ -2,7 +2,7 @@
 api_specs:
 - filename: ocient-ocient-http-query-api-api-openapi.yml
   format: yaml
-  label: Ocient Ocient HTTP Query API API
+  label: Ocient HTTP Query API
   slug: ocient-ocient-http-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-ocient-http-query-api-api-openapi.yml

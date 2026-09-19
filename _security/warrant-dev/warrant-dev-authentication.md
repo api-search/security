@@ -20,18 +20,18 @@ api_specs:
   slug: warrant-dev-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-objects-api-openapi.yml
-- filename: warrant-dev-roles-and-permissions-api-openapi.yml
-  format: yaml
-  label: Warrant Roles and Permissions API
-  slug: warrant-dev-roles-and-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-roles-and-permissions-api-openapi.yml
 - filename: warrant-dev-warrants-api-openapi.yml
   format: yaml
   label: Warrant Warrants API
   slug: warrant-dev-warrants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-warrants-api-openapi.yml
+- filename: warrant-dev-roles-permissions-api-openapi.yml
+  format: yaml
+  label: Warrant Roles & Permissions API
+  slug: warrant-dev-roles-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-roles-permissions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

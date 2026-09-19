@@ -2,39 +2,9 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: eclipse-marketplace-rest-api-openapi.yml
-  format: yaml
-  label: Eclipse Marketplace API
-  slug: marketplace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-marketplace-rest-api-openapi.yml
-- filename: eclipse-restful-api-openapi.yml
-  format: yaml
-  label: Eclipse Foundation Web API
-  slug: foundation-web-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-restful-api-openapi.yml
-- filename: eclipse-projects-pmi-api-openapi.yml
-  format: yaml
-  label: Eclipse Projects API
-  slug: projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-projects-pmi-api-openapi.yml
-- filename: eclipse-open-vsx-registry-api-openapi.yml
-  format: yaml
-  label: Open VSX Registry API
-  slug: open-vsx-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-open-vsx-registry-api-openapi.yml
-- filename: eclipse-newsroom-api-openapi.yml
-  format: yaml
-  label: Eclipse Newsroom REST API
-  slug: newsroom-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-newsroom-api-openapi.yml
 - filename: eclipse-eclipse-marketplace-rest-api-api-openapi.yml
   format: yaml
-  label: Eclipse Foundation Eclipse Marketplace REST API API
+  label: Eclipse Foundation Eclipse Marketplace REST API
   slug: eclipse-eclipse-marketplace-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-eclipse-marketplace-rest-api-api-openapi.yml
@@ -80,30 +50,6 @@ api_specs:
   slug: eclipse-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-taxonomy-api-openapi.yml
-- filename: eclipse-downloads-api-openapi.yml
-  format: yaml
-  label: Eclipse Foundation Downloads API
-  slug: downloads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-downloads-api-openapi.yml
-- filename: eclipse-geoip-api-openapi.yml
-  format: yaml
-  label: Eclipse GeoIP REST API
-  slug: geoip-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-geoip-api-openapi.yml
-- filename: eclipse-git-eca-api-openapi.yml
-  format: yaml
-  label: Eclipse Foundation Git ECA API
-  slug: git-eca-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-git-eca-api-openapi.yml
-- filename: eclipse-info-api-openapi.yml
-  format: yaml
-  label: Eclipse Foundation Info API
-  slug: info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-info-api-openapi.yml
 - filename: eclipse-mailing-lists-api-openapi.yml
   format: yaml
   label: Eclipse Foundation Mailing List API
@@ -122,42 +68,402 @@ api_specs:
   slug: working-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-working-groups-api-openapi.yml
-- filename: eclipse-committer-paperwork-api-openapi.yml
-  format: yaml
-  label: Eclipse Committer Paperwork API
-  slug: committer-paperwork-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-committer-paperwork-api-openapi.yml
-- filename: eclipse-hellosign-api-openapi.yml
-  format: yaml
-  label: Eclipse HelloSign API
-  slug: hellosign-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-hellosign-api-openapi.yml
-- filename: eclipse-membership-portal-api-openapi.yml
-  format: yaml
-  label: Eclipse Membership Portal API
-  slug: membership-portal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-membership-portal-api-openapi.yml
-- filename: eclipse-membership-application-api-openapi.yml
-  format: yaml
-  label: Eclipse Membership Application API
-  slug: membership-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-membership-application-api-openapi.yml
-- filename: eclipse-openvsx-api-openapi.yml
-  format: yaml
-  label: Eclipse Open VSX Publisher Agreement API
-  slug: openvsx-agreement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-openvsx-api-openapi.yml
 - filename: eclipse-project-adopters-api-openapi.yml
   format: yaml
   label: Eclipse Project Adopters API
   slug: project-adopters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-project-adopters-api-openapi.yml
+- filename: eclipse-admin-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Admin API
+  slug: eclipse-admin-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-admin-api-api-openapi.yml
+- filename: eclipse-ads-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Ads API
+  slug: eclipse-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-ads-api-openapi.yml
+- filename: eclipse-board-members-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Board Members API
+  slug: eclipse-board-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-board-members-api-openapi.yml
+- filename: eclipse-catalogs-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Catalogs API
+  slug: eclipse-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-catalogs-api-openapi.yml
+- filename: eclipse-cities-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Cities API
+  slug: eclipse-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-cities-api-openapi.yml
+- filename: eclipse-committer-paperwork-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Committer Paperwork API
+  slug: eclipse-committer-paperwork-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-committer-paperwork-api-api-openapi.yml
+- filename: eclipse-contributions-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Contributions API
+  slug: eclipse-contributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-contributions-api-openapi.yml
+- filename: eclipse-countries-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Countries API
+  slug: eclipse-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-countries-api-openapi.yml
+- filename: eclipse-cve-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation CVE API
+  slug: eclipse-cve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-cve-api-openapi.yml
+- filename: eclipse-download-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Download API
+  slug: eclipse-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-download-api-openapi.yml
+- filename: eclipse-eca-validation-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation ECA Validation API
+  slug: eclipse-eca-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-eca-validation-api-openapi.yml
+- filename: eclipse-eclipse-uss-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Eclipse USS API
+  slug: eclipse-eclipse-uss-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-eclipse-uss-api-openapi.yml
+- filename: eclipse-editions-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Editions API
+  slug: eclipse-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-editions-api-openapi.yml
+- filename: eclipse-email-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Email API
+  slug: eclipse-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-email-api-openapi.yml
+- filename: eclipse-events-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Events API
+  slug: eclipse-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-events-api-openapi.yml
+- filename: eclipse-featured-story-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Featured Story API
+  slug: eclipse-featured-story-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-featured-story-api-openapi.yml
+- filename: eclipse-file-decision-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation File Decision API
+  slug: eclipse-file-decision-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-file-decision-api-api-openapi.yml
+- filename: eclipse-files-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Files API
+  slug: eclipse-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-files-api-openapi.yml
+- filename: eclipse-form-contacts-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Form Contacts API
+  slug: eclipse-form-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-form-contacts-api-openapi.yml
+- filename: eclipse-form-organizations-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Form Organizations API
+  slug: eclipse-form-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-form-organizations-api-openapi.yml
+- filename: eclipse-form-working-groups-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Form Working Groups API
+  slug: eclipse-form-working-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-form-working-groups-api-openapi.yml
+- filename: eclipse-forums-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Forums API
+  slug: eclipse-forums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-forums-api-openapi.yml
+- filename: eclipse-github-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Git Hub API
+  slug: eclipse-github-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-github-api-openapi.yml
+- filename: eclipse-hellosign-event-callbacks-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Hellosign Event Callbacks API
+  slug: eclipse-hellosign-event-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-hellosign-event-callbacks-api-openapi.yml
+- filename: eclipse-hellosign-signature-request-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Hellosign Signature Request API
+  slug: eclipse-hellosign-signature-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-hellosign-signature-request-api-openapi.yml
+- filename: eclipse-industry-collaboration-organizations-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Industry Collaboration Organizations API
+  slug: eclipse-industry-collaboration-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-industry-collaboration-organizations-api-openapi.yml
+- filename: eclipse-integration-webhooks-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Integration Webhooks API
+  slug: eclipse-integration-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-integration-webhooks-api-openapi.yml
+- filename: eclipse-interest-groups-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Interest Groups API
+  slug: eclipse-interest-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-interest-groups-api-openapi.yml
+- filename: eclipse-listings-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Listings API
+  slug: eclipse-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-listings-api-openapi.yml
+- filename: eclipse-marketplace-favorites-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Marketplace Favorites API
+  slug: eclipse-marketplace-favorites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-marketplace-favorites-api-openapi.yml
+- filename: eclipse-markets-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Markets API
+  slug: eclipse-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-markets-api-openapi.yml
+- filename: eclipse-membership-form-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Membership form API
+  slug: eclipse-membership-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-membership-form-api-openapi.yml
+- filename: eclipse-membership-forms-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Membership forms API
+  slug: eclipse-membership-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-membership-forms-api-openapi.yml
+- filename: eclipse-news-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation News API
+  slug: eclipse-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-news-api-openapi.yml
+- filename: eclipse-organization-activity-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Organization Activity API
+  slug: eclipse-organization-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-organization-activity-api-openapi.yml
+- filename: eclipse-organization-contacts-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Organization Contacts API
+  slug: eclipse-organization-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-organization-contacts-api-openapi.yml
+- filename: eclipse-organization-products-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Organization Products API
+  slug: eclipse-organization-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-organization-products-api-openapi.yml
+- filename: eclipse-organizations-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Organizations API
+  slug: eclipse-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-organizations-api-openapi.yml
+- filename: eclipse-projects-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Projects API
+  slug: eclipse-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-projects-api-openapi.yml
+- filename: eclipse-proposals-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Proposals API
+  slug: eclipse-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-proposals-api-openapi.yml
+- filename: eclipse-provisioning-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Provisioning API
+  slug: eclipse-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-provisioning-api-openapi.yml
+- filename: eclipse-publisher-agreement-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Publisher Agreement API
+  slug: eclipse-publisher-agreement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-publisher-agreement-api-openapi.yml
+- filename: eclipse-rate-limit-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Rate Limit API
+  slug: eclipse-rate-limit-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-rate-limit-api-api-openapi.yml
+- filename: eclipse-registry-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Registry API
+  slug: eclipse-registry-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-registry-api-api-openapi.yml
+- filename: eclipse-releases-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Releases API
+  slug: eclipse-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-releases-api-openapi.yml
+- filename: eclipse-reports-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Reports API
+  slug: eclipse-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-reports-api-openapi.yml
+- filename: eclipse-resources-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Resources API
+  slug: eclipse-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-resources-api-openapi.yml
+- filename: eclipse-retire-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Retire API
+  slug: eclipse-retire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-retire-api-openapi.yml
+- filename: eclipse-scan-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Scan API
+  slug: eclipse-scan-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-scan-api-api-openapi.yml
+- filename: eclipse-simultaneous-releases-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Simultaneous Releases API
+  slug: eclipse-simultaneous-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-simultaneous-releases-api-openapi.yml
+- filename: eclipse-sitemap-controller-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Sitemap Controller API
+  slug: eclipse-sitemap-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-sitemap-controller-api-openapi.yml
+- filename: eclipse-slack-webhook-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Slack Webhook API
+  slug: eclipse-slack-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-slack-webhook-api-openapi.yml
+- filename: eclipse-special-interest-groups-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Special Interest Groups API
+  slug: eclipse-special-interest-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-special-interest-groups-api-openapi.yml
+- filename: eclipse-sponsorship-campaigns-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Sponsorship Campaigns API
+  slug: eclipse-sponsorship-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-sponsorship-campaigns-api-openapi.yml
+- filename: eclipse-subnets-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Subnets API
+  slug: eclipse-subnets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-subnets-api-openapi.yml
+- filename: eclipse-system-relations-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation System relations API
+  slug: eclipse-system-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-system-relations-api-openapi.yml
+- filename: eclipse-trademarks-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Trademarks API
+  slug: eclipse-trademarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-trademarks-api-openapi.yml
+- filename: eclipse-user-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation User API
+  slug: eclipse-user-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-user-api-api-openapi.yml
+- filename: eclipse-user-delete-request-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation User Delete Request API
+  slug: eclipse-user-delete-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-user-delete-request-api-openapi.yml
+- filename: eclipse-user-info-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation User Info API
+  slug: eclipse-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-user-info-api-openapi.yml
+- filename: eclipse-user-metadata-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation User Metadata API
+  slug: eclipse-user-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-user-metadata-api-openapi.yml
+- filename: eclipse-user-profile-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation User Profile API
+  slug: eclipse-user-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-user-profile-api-openapi.yml
+- filename: eclipse-user-profiles-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation User Profiles API
+  slug: eclipse-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-user-profiles-api-openapi.yml
+- filename: eclipse-vs-code-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Vs Code API
+  slug: eclipse-vs-code-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-vs-code-api-api-openapi.yml
+- filename: eclipse-working-group-application-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Working Group Application API
+  slug: eclipse-working-group-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-working-group-application-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -217,10 +523,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/h
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
 - Eclipse Foundation
-- Foundation
+- Foundations
 - Open-Source
 - Standards
-- Developer-Tools
+- Developer Tools
 - Extensions
 - Marketplace
 - Registry

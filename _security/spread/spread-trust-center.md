@@ -22,7 +22,7 @@ tags:
 - Company
 - Ai Enterprise Software
 - Engineering Intelligence
-- Product Lifecycle Management
+- PLM
 - Manufacturing
 - Automotive
 - Low-Code

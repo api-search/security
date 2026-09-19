@@ -3,12 +3,60 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: ocean-health-systems-ckm-rest-api-openapi.json
-  format: json
-  label: CKM REST API
-  slug: ckm-rest-api
+- filename: ocean-health-systems-archetypes-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Archetypes API
+  slug: ocean-health-systems-archetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-ckm-rest-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-archetypes-api-openapi.yml
+- filename: ocean-health-systems-change-requests-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Change Requests API
+  slug: ocean-health-systems-change-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-change-requests-api-openapi.yml
+- filename: ocean-health-systems-projects-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Projects API
+  slug: ocean-health-systems-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-projects-api-openapi.yml
+- filename: ocean-health-systems-resource-proposals-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Resource Proposals API
+  slug: ocean-health-systems-resource-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-resource-proposals-api-openapi.yml
+- filename: ocean-health-systems-resources-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Resources API
+  slug: ocean-health-systems-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-resources-api-openapi.yml
+- filename: ocean-health-systems-sessions-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Sessions API
+  slug: ocean-health-systems-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-sessions-api-openapi.yml
+- filename: ocean-health-systems-subdomains-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Subdomains API
+  slug: ocean-health-systems-subdomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-subdomains-api-openapi.yml
+- filename: ocean-health-systems-templates-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Templates API
+  slug: ocean-health-systems-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-templates-api-openapi.yml
+- filename: ocean-health-systems-users-api-openapi.yml
+  format: yaml
+  label: Ocean Health Systems Users API
+  slug: ocean-health-systems-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-users-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -57,5 +105,5 @@ tags:
 - Terminology
 - Archetypes
 - Infection Prevention
-- Immunisation
+- immunisation
 ---

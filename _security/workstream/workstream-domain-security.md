@@ -115,7 +115,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workstream/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Hiring
 - Payroll
 - Onboarding

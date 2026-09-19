@@ -114,7 +114,7 @@ tags:
 - Retail
 - 3D Models
 - Image-Generation
-- Workspaces
+- Workspace
 - Billing
 - OpenAPI
 - AWS Cognito

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: smartbear-apis-api-openapi.yml
-  format: yaml
-  label: SmartBear APIs API
-  slug: smartbear-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml
 - filename: smartbear-domains-api-openapi.yml
   format: yaml
   label: SmartBear Domains API
@@ -30,6 +24,12 @@ api_specs:
   slug: smartbear-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-projects-api-openapi.yml
+- filename: smartbear-apis-api-openapi.yml
+  format: yaml
+  label: SmartBear AP Is API
+  slug: smartbear-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -55,6 +55,7 @@ tags:
 - API Documentation
 - API Testing
 - Contract Testing
+- Developer Tools
 - Governance
 - Monitoring
 - Platform

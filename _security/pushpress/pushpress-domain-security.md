@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: pushpress-apikeys-api-openapi.yml
-  format: yaml
-  label: PushPress ApiKeys API
-  slug: pushpress-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-apikeys-api-openapi.yml
 - filename: pushpress-appointments-api-openapi.yml
   format: yaml
   label: PushPress Appointments API
@@ -18,12 +12,6 @@ api_specs:
   slug: pushpress-attributions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-attributions-api-openapi.yml
-- filename: pushpress-checkins-api-openapi.yml
-  format: yaml
-  label: PushPress Checkins API
-  slug: pushpress-checkins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-checkins-api-openapi.yml
 - filename: pushpress-classes-api-openapi.yml
   format: yaml
   label: PushPress Classes API
@@ -78,6 +66,18 @@ api_specs:
   slug: pushpress-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-webhooks-api-openapi.yml
+- filename: pushpress-api-keys-api-openapi.yml
+  format: yaml
+  label: PushPress API Keys API
+  slug: pushpress-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-api-keys-api-openapi.yml
+- filename: pushpress-check-ins-api-openapi.yml
+  format: yaml
+  label: PushPress Check Ins API
+  slug: pushpress-check-ins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/openapi/pushpress-check-ins-api-openapi.yml
 description: ''
 domains:
 - caa: []

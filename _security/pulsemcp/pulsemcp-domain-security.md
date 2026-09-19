@@ -44,5 +44,5 @@ tags:
 - Community
 - Developer Tools
 - LLM Tooling
-- Newsletter
+- Newsletters
 ---

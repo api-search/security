@@ -57,6 +57,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/keeptrac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/authentication/keeptrack-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Satellites
+- Satellite
 - Space
 ---

@@ -104,18 +104,6 @@ api_specs:
   slug: coactive-search-video-searchvideo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-search-video-searchvideo-api-openapi.yml
-- filename: coactive-systemcredentials-api-openapi.yml
-  format: yaml
-  label: Coactive systemCredentials API
-  slug: coactive-systemcredentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-systemcredentials-api-openapi.yml
-- filename: coactive-usermanagement-api-openapi.yml
-  format: yaml
-  label: Coactive userManagement API
-  slug: coactive-usermanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-usermanagement-api-openapi.yml
 - filename: coactive-video-narative-metadata-videonarrativemetadata-api-openapi.yml
   format: yaml
   label: Coactive video-narative-metadata > videoNarrativeMetadata API
@@ -134,6 +122,18 @@ api_specs:
   slug: coactive-video-scores-videoscores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-video-scores-videoscores-api-openapi.yml
+- filename: coactive-system-credentials-api-openapi.yml
+  format: yaml
+  label: Coactive System Credentials API
+  slug: coactive-system-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-system-credentials-api-openapi.yml
+- filename: coactive-user-management-api-openapi.yml
+  format: yaml
+  label: Coactive User Management API
+  slug: coactive-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-user-management-api-openapi.yml
 auth_types:
 - http
 description: ''

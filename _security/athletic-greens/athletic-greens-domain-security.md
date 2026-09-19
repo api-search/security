@@ -54,7 +54,7 @@ tags:
 - Wellness
 - Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 - Shopify
 - GraphQL
 ---

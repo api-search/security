@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
   format: yaml
-  label: Azure ExpressRoute ExpressRoute Circuits API
+  label: Azure ExpressRoute Circuits API
   slug: microsoft-azure-express-route-expressroute-circuits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/openapi/microsoft-azure-express-route-expressroute-circuits-api-openapi.yml

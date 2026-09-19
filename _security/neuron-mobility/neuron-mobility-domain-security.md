@@ -33,7 +33,7 @@ tags:
 - Company
 - Micromobility
 - E-Scooter
-- E-Bike
+- E-Bikes
 - Transportation
 - Shared Mobility
 - IoT

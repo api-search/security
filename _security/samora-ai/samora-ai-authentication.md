@@ -56,7 +56,7 @@ tags:
 - Conversational AI
 - Voice AI
 - Telephony
-- Customer Communications
+- Customer Communication
 - Contact Center
 - Campaigns
 - Webhook

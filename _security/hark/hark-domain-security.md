@@ -38,6 +38,6 @@ tags:
 - Consumer Hardware
 - Consumer Electronics
 - Devices
-- Assistants
+- Assistant
 - Pre-Product
 ---

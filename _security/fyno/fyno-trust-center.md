@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-fire-an-event-api-openapi.yml
 - filename: fyno-fyno-verify-api-openapi.yml
   format: yaml
-  label: Fyno Fyno Verify API
+  label: Fyno Verify API
   slug: fyno-fyno-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/openapi/fyno-fyno-verify-api-openapi.yml

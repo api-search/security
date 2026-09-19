@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: franklin-resources-detailed-product-apis-openapi.yml
+- filename: franklin-resources-detailed-product-apis-api-openapi.yml
   format: yaml
-  label: Franklin Templeton Detailed Product APIs
-  slug: franklin-resources-detailed-product-apis
+  label: Franklin Resources Detailed Product APIs API
+  slug: franklin-resources-detailed-product-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/openapi/franklin-resources-detailed-product-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/openapi/franklin-resources-detailed-product-apis-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -38,7 +38,7 @@ tags:
 - Asset Management
 - Financial-Services
 - Mutual Funds
-- Exchange Traded Funds
+- Exchange-Traded Funds
 - Fund Data
 - Market Data
 ---

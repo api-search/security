@@ -60,6 +60,6 @@ tags:
 - Modeling Language
 - Business Architecture
 - Technology Architecture
-- Standard
+- Standards
 - Open-Group
 ---

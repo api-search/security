@@ -37,5 +37,5 @@ tags:
 - Headphones
 - Consumer Electronics
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 ---

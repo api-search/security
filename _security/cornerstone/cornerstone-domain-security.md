@@ -45,7 +45,7 @@ tags:
 - Learning Management
 - Performance Management
 - Recruiting
-- HR
+- Human Resources
 - Workforce Analytics
 - Succession Planning
 - Enterprise

@@ -37,5 +37,5 @@ tags:
 - Politics
 - Journalism
 - Video
-- Newsletter
+- Newsletters
 ---

@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timesten/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Databases
+- Database
 - In-Memory Database
 - Relational Databases
 - Caching

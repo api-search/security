@@ -81,6 +81,12 @@ api_specs:
   slug: apollo-api-documentation-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-tasks-api-openapi.yml
+- filename: apollo-api-documentation-users-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Users API
+  slug: apollo-api-documentation-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

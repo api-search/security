@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: carrier-global-lynx-fleet-api-openapi.yaml
+- filename: carrier-global-core-api-openapi.yml
   format: yaml
-  label: Carrier Lynx Fleet API
-  slug: lynx-fleet-api
+  label: Carrier Global Core API
+  slug: carrier-global-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-lynx-fleet-api-openapi.yaml
-- filename: carrier-global-lynx-2way-command-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-core-api-openapi.yml
+- filename: carrier-global-core2-api-openapi.yml
   format: yaml
-  label: Carrier Lynx 2-way Command API
-  slug: lynx-2way-command-api
+  label: Carrier Global Core2 API
+  slug: carrier-global-core2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-lynx-2way-command-api-openapi.yaml
-- filename: carrier-global-lynx-container-api-openapi.yaml
-  format: yaml
-  label: Carrier Lynx Container API
-  slug: lynx-container-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-lynx-container-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/openapi/carrier-global-core2-api-openapi.yml
 description: ''
 domains:
 - caa: []

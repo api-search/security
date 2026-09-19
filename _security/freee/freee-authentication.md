@@ -115,7 +115,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Accounting
 - Bookkeeping
-- HR
+- Human Resources
 - Payroll
 - Invoicing
 - Finance

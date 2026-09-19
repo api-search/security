@@ -124,7 +124,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-notifications-api-openapi.yml
 - filename: scott-ai-one-shot-api-api-openapi.yml
   format: yaml
-  label: Scott Ai One Shot API API
+  label: Scott Ai One Shot API
   slug: scott-ai-one-shot-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-one-shot-api-api-openapi.yml

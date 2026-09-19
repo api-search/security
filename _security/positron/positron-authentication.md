@@ -80,7 +80,7 @@ tags:
 - AI Inference
 - inference-hardware
 - AI Accelerators
-- Large Language Models
+- LLM
 - Transformers
 - OpenAI-Compatible
 - Machine-Learning

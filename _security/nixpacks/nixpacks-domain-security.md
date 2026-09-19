@@ -42,7 +42,7 @@ tags:
 - OCI
 - Nix
 - Nixpkgs
-- Container Image
+- Container Images
 - Application Packaging
 - Railway
 - Open-Source

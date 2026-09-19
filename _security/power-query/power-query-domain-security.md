@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: power-query-fabric-dataflow-swagger.json
-  format: json
-  label: Fabric Dataflow REST API (Power Query)
-  slug: fabric-api
+- filename: power-query-items-api-openapi.yml
+  format: yaml
+  label: Power Query Items API
+  slug: power-query-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-fabric-dataflow-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-items-api-openapi.yml
+- filename: power-query-background-jobs-api-openapi.yml
+  format: yaml
+  label: Power Query Background Jobs API
+  slug: power-query-background-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-background-jobs-api-openapi.yml
+- filename: power-query-query-execution-api-openapi.yml
+  format: yaml
+  label: Power Query Query Execution API
+  slug: power-query-query-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-query-execution-api-openapi.yml
 description: ''
 domains:
 - caa:

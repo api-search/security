@@ -34,5 +34,5 @@ tags:
 - Authentication
 - API Aggregator
 - Fintech
-- LatAm
+- Latin America
 ---

@@ -101,7 +101,7 @@ tags:
 - Community
 - Creators
 - Courses
-- Memberships
+- Membership
 - Event
 - Chat
 - Community Platform

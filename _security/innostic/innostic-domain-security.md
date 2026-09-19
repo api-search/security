@@ -36,6 +36,6 @@ tags:
 - Supply Chain
 - Distribution
 - In Vitro Diagnostics
-- Hospital
+- Hospitals
 - China
 ---

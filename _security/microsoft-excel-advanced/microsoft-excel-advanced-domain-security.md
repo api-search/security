@@ -12,12 +12,6 @@ api_specs:
   slug: microsoft-excel-advanced-functions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-functions-api-openapi.yml
-- filename: microsoft-excel-advanced-nameditems-api-openapi.yml
-  format: yaml
-  label: Microsoft Excel (Advanced) NamedItems API
-  slug: microsoft-excel-advanced-nameditems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-nameditems-api-openapi.yml
 - filename: microsoft-excel-advanced-range-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Range API
@@ -30,18 +24,6 @@ api_specs:
   slug: microsoft-excel-advanced-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-sessions-api-openapi.yml
-- filename: microsoft-excel-advanced-tablecolumns-api-openapi.yml
-  format: yaml
-  label: Microsoft Excel (Advanced) TableColumns API
-  slug: microsoft-excel-advanced-tablecolumns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-tablecolumns-api-openapi.yml
-- filename: microsoft-excel-advanced-tablerows-api-openapi.yml
-  format: yaml
-  label: Microsoft Excel (Advanced) TableRows API
-  slug: microsoft-excel-advanced-tablerows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-tablerows-api-openapi.yml
 - filename: microsoft-excel-advanced-tables-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Tables API
@@ -54,6 +36,24 @@ api_specs:
   slug: microsoft-excel-advanced-worksheets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
+- filename: microsoft-excel-advanced-named-items-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel (Advanced) Named Items API
+  slug: microsoft-excel-advanced-named-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-named-items-api-openapi.yml
+- filename: microsoft-excel-advanced-table-columns-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel (Advanced) Table Columns API
+  slug: microsoft-excel-advanced-table-columns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
+- filename: microsoft-excel-advanced-table-rows-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel (Advanced) Table Rows API
+  slug: microsoft-excel-advanced-table-rows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
 description: ''
 domains:
 - caa:

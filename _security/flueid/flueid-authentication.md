@@ -44,12 +44,6 @@ api_specs:
   slug: flueid-orderdocumentsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-orderdocumentsettings-api-openapi.yml
-- filename: flueid-orderevents-api-openapi.yml
-  format: yaml
-  label: Flueid Order Events API
-  slug: flueid-orderevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-orderevents-api-openapi.yml
 - filename: flueid-orderoptions-api-openapi.yml
   format: yaml
   label: Flueid Order Options API
@@ -80,12 +74,6 @@ api_specs:
   slug: flueid-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-permissions-api-openapi.yml
-- filename: flueid-propertydata-api-openapi.yml
-  format: yaml
-  label: Flueid Property Data API
-  slug: flueid-propertydata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-propertydata-api-openapi.yml
 - filename: flueid-public-api-openapi.yml
   format: yaml
   label: Flueid Public API
@@ -98,6 +86,18 @@ api_specs:
   slug: flueid-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-settings-api-openapi.yml
+- filename: flueid-order-events-api-openapi.yml
+  format: yaml
+  label: Flueid Order Events API
+  slug: flueid-order-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-order-events-api-openapi.yml
+- filename: flueid-property-data-api-openapi.yml
+  format: yaml
+  label: Flueid Property Data API
+  slug: flueid-property-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/openapi/flueid-property-data-api-openapi.yml
 auth_types:
 - http
 description: ''

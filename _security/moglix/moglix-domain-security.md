@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moglix/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - B2B
 - E-Commerce
 - Procurement

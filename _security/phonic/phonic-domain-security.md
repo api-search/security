@@ -6,12 +6,6 @@ api_specs:
   slug: phonic-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-agents-api-openapi.yml
-- filename: phonic-apikeys-api-openapi.yml
-  format: yaml
-  label: Phonic apiKeys API
-  slug: phonic-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-apikeys-api-openapi.yml
 - filename: phonic-auth-api-openapi.yml
   format: yaml
   label: Phonic auth API
@@ -60,6 +54,12 @@ api_specs:
   slug: phonic-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-workspace-api-openapi.yml
+- filename: phonic-api-keys-api-openapi.yml
+  format: yaml
+  label: Phonic API Keys API
+  slug: phonic-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-api-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []

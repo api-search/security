@@ -39,6 +39,6 @@ tags:
 - Tools
 - Resources
 - Prompts
-- LLMs
+- LLM
 - Anthropic
 ---

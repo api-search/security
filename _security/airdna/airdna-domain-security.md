@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Market Data
 - Real-Estate
 - Analytics

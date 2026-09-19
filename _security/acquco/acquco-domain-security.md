@@ -68,13 +68,13 @@ tags:
 - Company
 - E-Commerce
 - Amazon
-- Marketplaces
+- Marketplace
 - Amazon FBA
 - Aggregator
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - Seller Tools
 - Analytics
 - Retail
-- SaaS
+- Software-as-a-Service
 - New York
 ---

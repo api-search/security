@@ -21,12 +21,6 @@ api_specs:
   slug: salesflare-aisetings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-aisetings-api-openapi.yml
-- filename: salesflare-aisettings-api-openapi.yml
-  format: yaml
-  label: Salesflare AISettings API
-  slug: salesflare-aisettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-aisettings-api-openapi.yml
 - filename: salesflare-calls-api-openapi.yml
   format: yaml
   label: Salesflare Calls API
@@ -123,6 +117,12 @@ api_specs:
   slug: salesflare-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-workflows-api-openapi.yml
+- filename: salesflare-ai-settings-api-openapi.yml
+  format: yaml
+  label: Salesflare AI Settings API
+  slug: salesflare-ai-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-ai-settings-api-openapi.yml
 auth_types:
 - http
 - oauth2

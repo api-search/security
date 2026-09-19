@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saul-ewing/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
-- Law Firm
+- Law Firms
 - Litigation
 - Corporate
 - Mergers and Acquisitions

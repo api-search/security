@@ -30,6 +30,6 @@ tags:
 - Philanthropy
 - Employee Assistance
 - Non-Profit
-- HR Tech
+- Human Resources
 trust_url: https://trust.groundswell.io/
 ---

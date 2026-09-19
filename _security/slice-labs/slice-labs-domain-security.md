@@ -40,9 +40,9 @@ tags:
 - Underwriting
 - Policy Administration
 - Claims
-- Rating
+- Ratings
 - Embedded Insurance
 - Behavioral Science
 - Machine-Learning
-- Large Language Models
+- LLM
 ---

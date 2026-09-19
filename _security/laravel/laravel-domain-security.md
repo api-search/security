@@ -290,6 +290,6 @@ tags:
 - Server Management
 - Application Hosting
 - Infrastructure
-- Frameworks
+- Framework
 - Monitoring
 ---

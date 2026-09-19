@@ -84,12 +84,6 @@ api_specs:
   slug: everbridge-cema-query-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-cema-query-public-api-openapi.yml
-- filename: everbridge-cema-query-stream-api-openapi.yml
-  format: yaml
-  label: Everbridge CEMA Query Stream API
-  slug: everbridge-cema-query-stream-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-cema-query-stream-api-openapi.yml
 - filename: everbridge-checks-api-openapi.yml
   format: yaml
   label: Everbridge Checks API

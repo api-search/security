@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Telecommunications
-- Fiber Optic
+- Fiber Optics
 - Broadband
 - Connectivity
 - Internet Service Provider

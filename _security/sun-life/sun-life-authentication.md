@@ -28,18 +28,6 @@ api_specs:
   slug: sun-life-endpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-endpoint-api-openapi.yml
-- filename: sun-life-healthcareservice-api-openapi.yml
-  format: yaml
-  label: Sun Life Healthcare Service API
-  slug: sun-life-healthcareservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-healthcareservice-api-openapi.yml
-- filename: sun-life-insuranceplan-api-openapi.yml
-  format: yaml
-  label: Sun Life Insurance Plan API
-  slug: sun-life-insuranceplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-insuranceplan-api-openapi.yml
 - filename: sun-life-location-api-openapi.yml
   format: yaml
   label: Sun Life Location API
@@ -70,12 +58,6 @@ api_specs:
   slug: sun-life-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitioner-api-openapi.yml
-- filename: sun-life-practitionerrole-api-openapi.yml
-  format: yaml
-  label: Sun Life Practitioner Role API
-  slug: sun-life-practitionerrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitionerrole-api-openapi.yml
 - filename: sun-life-relatedperson-api-openapi.yml
   format: yaml
   label: Sun Life Related Person API
@@ -100,6 +82,24 @@ api_specs:
   slug: sun-life-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-well-known-api-openapi.yml
+- filename: sun-life-healthcare-service-api-openapi.yml
+  format: yaml
+  label: Sun Life Healthcare Service API
+  slug: sun-life-healthcare-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-healthcare-service-api-openapi.yml
+- filename: sun-life-insurance-plan-api-openapi.yml
+  format: yaml
+  label: Sun Life Insurance Plan API
+  slug: sun-life-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-insurance-plan-api-openapi.yml
+- filename: sun-life-practitioner-role-api-openapi.yml
+  format: yaml
+  label: Sun Life Practitioner Role API
+  slug: sun-life-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitioner-role-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: traefik-entrypoints-api-openapi.yml
-  format: yaml
-  label: Traefik Labs Entrypoints API
-  slug: traefik-entrypoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entrypoints-api-openapi.yml
 - filename: traefik-health-api-openapi.yml
   format: yaml
   label: Traefik Labs Health API
@@ -36,6 +30,12 @@ api_specs:
   slug: traefik-udp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-udp-api-openapi.yml
+- filename: traefik-entry-points-api-openapi.yml
+  format: yaml
+  label: Traefik Labs Entry Points API
+  slug: traefik-entry-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entry-points-api-openapi.yml
 description: ''
 domains:
 - caa:

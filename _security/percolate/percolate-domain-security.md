@@ -37,4 +37,5 @@ tags:
 - Marketing Technology
 - Marketing Enablement
 - Acquired
+- Defunct
 ---

@@ -52,7 +52,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Situational Awareness
 - Space Traffic Management
 - Orbital Data

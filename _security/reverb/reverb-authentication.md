@@ -107,7 +107,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-push-notifications-api-openapi.yml
 - filename: reverb-reverb-api-api-openapi.yml
   format: yaml
-  label: Reverb Reverb API API
+  label: Reverb API
   slug: reverb-reverb-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-reverb-api-api-openapi.yml

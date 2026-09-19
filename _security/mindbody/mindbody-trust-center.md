@@ -103,8 +103,8 @@ tags:
 - Scheduling
 - Booking
 - Point-of-Sale
-- Studios
-- Salons
+- Studio
+- Salon
 - Spas
 - Webhook
 trust_url: https://trust.playlist.com/

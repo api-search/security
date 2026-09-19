@@ -58,6 +58,6 @@ tags:
 - Greenhouse Gas
 - Net Zero
 - Emissions Reporting
-- SaaS
+- Software-as-a-Service
 - South Korea
 ---

@@ -55,4 +55,5 @@ tags:
 - Protocol
 - OASIS Standard
 - Telemetry
+- Machine-to-Machine
 ---

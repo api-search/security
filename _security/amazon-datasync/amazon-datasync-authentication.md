@@ -5,16 +5,10 @@ api_key_in:
 api_specs:
 - filename: amazon-datasync-amazon-datasync-rest-api-api-openapi.yml
   format: yaml
-  label: Amazon DataSync Amazon DataSync REST API API
+  label: Amazon DataSync Amazon DataSync REST API
   slug: amazon-datasync-amazon-datasync-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/openapi/amazon-datasync-amazon-datasync-rest-api-api-openapi.yml
-- filename: amazon-datasync-createagent-api-openapi.yml
-  format: yaml
-  label: 'Amazon DataSync #CreateAgent API'
-  slug: amazon-datasync-createagent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/openapi/amazon-datasync-createagent-api-openapi.yml
 - filename: amazon-datasync-createlocations3-api-openapi.yml
   format: yaml
   label: 'Amazon DataSync #CreateLocationS3 API'
@@ -39,6 +33,12 @@ api_specs:
   slug: amazon-datasync-starttaskexecution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/openapi/amazon-datasync-starttaskexecution-api-openapi.yml
+- filename: amazon-datasync-create-agent-api-openapi.yml
+  format: yaml
+  label: 'Amazon DataSync #Create Agent API'
+  slug: amazon-datasync-create-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/openapi/amazon-datasync-create-agent-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

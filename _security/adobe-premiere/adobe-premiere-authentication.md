@@ -20,12 +20,24 @@ api_specs:
   slug: adobe-premiere-representations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-representations-api-openapi.yml
-- filename: adobe-premiere-cc-libraries-api-openapi.json
-  format: json
-  label: Adobe Creative Cloud Libraries API
-  slug: adobe-creative-cloud-libraries-api
+- filename: adobe-premiere-library-service-api-openapi.yml
+  format: yaml
+  label: Adobe Premiere Pro Library Service API
+  slug: adobe-premiere-library-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-cc-libraries-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-api-openapi.yml
+- filename: adobe-premiere-library-service-bookmarks-api-openapi.yml
+  format: yaml
+  label: Adobe Premiere Pro Library Service - Bookmarks API
+  slug: adobe-premiere-library-service-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
+- filename: adobe-premiere-library-service-public-api-openapi.yml
+  format: yaml
+  label: Adobe Premiere Pro Library Service - Public API
+  slug: adobe-premiere-library-service-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-public-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

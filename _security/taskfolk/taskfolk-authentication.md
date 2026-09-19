@@ -288,6 +288,6 @@ tags:
 - Authentication
 - Agile
 - Sprints
-- OKR
+- OKRs
 - Developer Tools
 ---

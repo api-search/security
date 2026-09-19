@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Neural Interface
 - Brain-Computer Interface
-- Wearable
+- Wearables
 - Hardware
 - Artificial Intelligence
 ---

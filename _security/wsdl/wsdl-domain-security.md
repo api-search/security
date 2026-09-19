@@ -44,5 +44,5 @@ tags:
 - XML
 - SOAP
 - Standards
-- Protocols
+- Protocol
 ---

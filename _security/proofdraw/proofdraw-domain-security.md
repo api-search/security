@@ -67,7 +67,7 @@ tags:
 - Verifiable Randomness
 - Cryptography
 - raffle
-- giveaway
+- Giveaway
 - Sweepstakes
 - Lottery
 - Verification

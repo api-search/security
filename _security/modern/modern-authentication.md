@@ -95,7 +95,7 @@ tags:
 - Dealership
 - Field Service
 - Work Orders
-- Customer Communications
+- Customer Communication
 - Notification
 - Partner API
 ---

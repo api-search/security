@@ -38,6 +38,6 @@ tags:
 - Streaming APIs
 - Data Connectors
 - Open-Source
-- WebSockets
+- WebSocket
 - SwimOS
 ---

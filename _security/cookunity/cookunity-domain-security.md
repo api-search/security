@@ -42,5 +42,5 @@ tags:
 - Subscription
 - Consumer
 - Chef Marketplace
-- Meal Kits
+- Meal Kit
 ---

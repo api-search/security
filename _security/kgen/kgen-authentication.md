@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgen/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Gaming
 - Esports
 - Loyalty

@@ -6,12 +6,6 @@ api_specs:
   slug: anduril-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-entities-api-openapi.yml
-- filename: anduril-oauth-api-openapi.yml
-  format: yaml
-  label: Anduril Industries OAuth API
-  slug: anduril-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
 - filename: anduril-objects-api-openapi.yml
   format: yaml
   label: Anduril Industries Objects API
@@ -24,6 +18,12 @@ api_specs:
   slug: anduril-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-tasks-api-openapi.yml
+- filename: anduril-oauth-api-openapi.yml
+  format: yaml
+  label: Anduril Industries O Auth API
+  slug: anduril-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,7 +2,7 @@
 api_specs:
 - filename: imf-data-api-openapi.yml
   format: yaml
-  label: IMF Data Data API
+  label: IMF Data API
   slug: imf-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/openapi/imf-data-api-openapi.yml

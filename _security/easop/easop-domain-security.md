@@ -35,7 +35,7 @@ tags:
 - Applicative Saas
 - Equity Compensation
 - Stock Options
-- HR Tech
+- Human Resources
 - Legal Operations
 - Global Compliance
 - Cap Table

@@ -111,7 +111,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Field Service
 - Job Management
-- Trades
+- Trade
 - Scheduling
 - Dispatch
 - Invoicing

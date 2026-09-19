@@ -60,5 +60,5 @@ tags:
 - Landing Zone
 - Multi-Account
 - Security
-- Controls
+- Control
 ---

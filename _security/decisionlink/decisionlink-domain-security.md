@@ -210,12 +210,6 @@ api_specs:
   slug: decisionlink-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-health-api-openapi.yml
-- filename: decisionlink-healthcheck-api-openapi.yml
-  format: yaml
-  label: DecisionLink Healthcheck API
-  slug: decisionlink-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-healthcheck-api-openapi.yml
 - filename: decisionlink-impact-types-api-openapi.yml
   format: yaml
   label: DecisionLink Impact Types API
@@ -372,6 +366,12 @@ api_specs:
   slug: decisionlink-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-workflows-api-openapi.yml
+- filename: decisionlink-health-check-api-openapi.yml
+  format: yaml
+  label: DecisionLink Health Check API
+  slug: decisionlink-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/openapi/decisionlink-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -22,7 +22,6 @@ tags:
 - Company
 - Compensation
 - Human Resources
-- HR Tech
 - Payroll
 - Software-as-a-Service
 - Total Rewards

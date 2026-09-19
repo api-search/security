@@ -95,5 +95,5 @@ tags:
 - Video Production
 - Podcasting
 - AI Music Supervisor
-- Stems
+- STEM
 ---

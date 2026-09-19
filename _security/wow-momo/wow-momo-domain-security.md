@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: wow-momo-content-api-openapi.yml
+- filename: wow-momo-authors-api-openapi.yml
   format: yaml
-  label: WOW! Momo Content API
-  slug: wow-momo-content-api
+  label: WOW! Momo Authors API
+  slug: wow-momo-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/_ae-authored/wow-momo-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-authors-api-openapi.yml
+- filename: wow-momo-categories-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Categories API
+  slug: wow-momo-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-categories-api-openapi.yml
+- filename: wow-momo-discovery-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Discovery API
+  slug: wow-momo-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-discovery-api-openapi.yml
+- filename: wow-momo-media-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Media API
+  slug: wow-momo-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-media-api-openapi.yml
+- filename: wow-momo-pages-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Pages API
+  slug: wow-momo-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-pages-api-openapi.yml
+- filename: wow-momo-search-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Search API
+  slug: wow-momo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-search-api-openapi.yml
+- filename: wow-momo-seo-api-openapi.yml
+  format: yaml
+  label: WOW! Momo SEO API
+  slug: wow-momo-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-seo-api-openapi.yml
+- filename: wow-momo-statuses-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Statuses API
+  slug: wow-momo-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-statuses-api-openapi.yml
+- filename: wow-momo-tags-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Tags API
+  slug: wow-momo-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-tags-api-openapi.yml
+- filename: wow-momo-taxonomies-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Taxonomies API
+  slug: wow-momo-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-taxonomies-api-openapi.yml
+- filename: wow-momo-types-api-openapi.yml
+  format: yaml
+  label: WOW! Momo Types API
+  slug: wow-momo-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/wow-momo-types-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Food and Beverage
 - Quick Service Restaurant
 - Retail

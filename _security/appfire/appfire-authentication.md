@@ -94,7 +94,7 @@ tags:
 - Project Portfolio Management
 - Work Management
 - Time Tracking
-- OKR
+- OKRs
 - Workflow-Automation
 - Azure DevOps
 - marketplace-apps

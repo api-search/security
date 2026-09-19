@@ -16,18 +16,18 @@ api_specs:
   slug: fullcast-mcp-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-mcp-info-api-openapi.yml
-- filename: fullcast-oauth-api-openapi.yml
-  format: yaml
-  label: Fullcast OAUTH API
-  slug: fullcast-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-oauth-api-openapi.yml
 - filename: fullcast-well-known-api-openapi.yml
   format: yaml
   label: Fullcast .well Known API
   slug: fullcast-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-well-known-api-openapi.yml
+- filename: fullcast-oauth-api-openapi.yml
+  format: yaml
+  label: Fullcast OAUTH API
+  slug: fullcast-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -31,4 +31,5 @@ summary_line: TLSv1.3
 tags:
 - Cryptocurrency
 - Public APIs
+- Defunct
 ---

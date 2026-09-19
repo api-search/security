@@ -37,7 +37,7 @@ tags:
 - Spirometry
 - Remote Patient Monitoring
 - Digital Health
-- Medical Device
+- Medical Devices
 - Asthma
 - COPD
 ---

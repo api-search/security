@@ -43,7 +43,7 @@ tags:
 - Compliance
 - Accounting
 - Bookkeeping
-- Taxes
+- Tax
 - Registered Agent
 - Startups
 - Fintech

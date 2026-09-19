@@ -39,6 +39,7 @@ tags:
 - API Testing
 - Browser
 - Code Generation
+- Developer Tools
 - HTTP Client
 - Online
 ---

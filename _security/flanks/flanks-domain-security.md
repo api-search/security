@@ -47,6 +47,6 @@ tags:
 - Financial Data
 - Data Aggregation
 - Fintech
-- Investments
+- Investment
 - Open Banking
 ---

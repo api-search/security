@@ -37,7 +37,6 @@ tags:
 - Company
 - Life Sciences
 - Health
-- Telemedicine
 - Telehealth
 - Women's Health
 - Menopause

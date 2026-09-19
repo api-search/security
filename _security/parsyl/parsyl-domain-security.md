@@ -43,7 +43,7 @@ tags:
 - Supply Chain
 - Cold Chain
 - Logistics
-- Internet of Things
+- IoT
 - Sensors
 - Risk Management
 - Food Safety

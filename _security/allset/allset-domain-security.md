@@ -36,5 +36,5 @@ tags:
 - Food Ordering
 - Rewards
 - Dine-In
-- Mobile Apps
+- Mobile App
 ---

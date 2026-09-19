@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-lightsail-instances-api-openapi.yml
+- filename: amazon-lightsail-openapi.yml
   format: yaml
-  label: Amazon Lightsail Instances API
+  label: Amazon Lightsail API
   slug: amazon-lightsail-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-instances-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/amazon-lightsail-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -25,9 +25,20 @@ slug: amazon-lightsail-trust-center
 source_filename: amazon-lightsail-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
+source_yaml: "generated: '2026-09-17'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/security/amazon-lightsail-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
-tags: []
+tags:
+- Cloud
+- Compute
+- Virtual Private Server
+- Hosting
+- Containers
+- Database
+- Storage
+- CDN
+- Networking
+- Infrastructure
+- DevOps
 trust_url: https://aws.amazon.com/compliance/
 ---

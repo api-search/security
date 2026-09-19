@@ -48,7 +48,7 @@ tags:
 - Financial News
 - Sentiment Analysis
 - Market Data
-- Equities
+- Stocks
 - Currency
 - Commodities
 - Real-Time

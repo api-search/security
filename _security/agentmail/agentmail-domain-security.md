@@ -222,7 +222,7 @@ tags:
 - Inbox
 - Messaging
 - Webhook
-- WebSockets
+- WebSocket
 - SMTP
 - IMAP
 - MCP

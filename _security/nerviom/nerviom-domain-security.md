@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Infrastructure
-- Data Centers
+- Data-Center
 - Energy
 - Predevelopment
 - Workflow-Automation

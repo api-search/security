@@ -36,5 +36,5 @@ tags:
 - Care Management
 - Member Engagement
 - Health Plans
-- Payer
+- Payers
 ---

@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-public-keys-api-openapi.yml
 - filename: transcend-io-transcend-api-api-openapi.yml
   format: yaml
-  label: Transcend Transcend API API
+  label: Transcend API
   slug: transcend-io-transcend-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/openapi/transcend-io-transcend-api-api-openapi.yml

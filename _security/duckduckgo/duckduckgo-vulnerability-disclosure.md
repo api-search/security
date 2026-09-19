@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: duckduckgo-bangs-api-openapi.yml
-  format: yaml
-  label: DuckDuckGo Bangs API
-  slug: duckduckgo-bangs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/openapi/duckduckgo-bangs-api-openapi.yml
 - filename: duckduckgo-instant-answers-api-openapi.yml
   format: yaml
   label: DuckDuckGo Instant Answers API

@@ -6,12 +6,6 @@ api_specs:
   slug: ai-gateway-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-analytics-api-openapi.yml
-- filename: ai-gateway-apikeys-api-openapi.yml
-  format: yaml
-  label: AI Gateway APIKeys API
-  slug: ai-gateway-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-apikeys-api-openapi.yml
 - filename: ai-gateway-assistants-api-openapi.yml
   format: yaml
   label: AI Gateway Assistants API
@@ -66,12 +60,6 @@ api_specs:
   slug: ai-gateway-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-files-api-openapi.yml
-- filename: ai-gateway-finetuning-api-openapi.yml
-  format: yaml
-  label: AI Gateway FineTuning API
-  slug: ai-gateway-finetuning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-finetuning-api-openapi.yml
 - filename: ai-gateway-guardrails-api-openapi.yml
   format: yaml
   label: AI Gateway Guardrails API
@@ -126,18 +114,30 @@ api_specs:
   slug: ai-gateway-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-threads-api-openapi.yml
-- filename: ai-gateway-virtualkeys-api-openapi.yml
-  format: yaml
-  label: AI Gateway VirtualKeys API
-  slug: ai-gateway-virtualkeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-virtualkeys-api-openapi.yml
 - filename: ai-gateway-workspaces-api-openapi.yml
   format: yaml
   label: AI Gateway Workspaces API
   slug: ai-gateway-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-workspaces-api-openapi.yml
+- filename: ai-gateway-api-keys-api-openapi.yml
+  format: yaml
+  label: AI Gateway API Keys API
+  slug: ai-gateway-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-api-keys-api-openapi.yml
+- filename: ai-gateway-fine-tuning-api-openapi.yml
+  format: yaml
+  label: AI Gateway Fine Tuning API
+  slug: ai-gateway-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-fine-tuning-api-openapi.yml
+- filename: ai-gateway-virtual-keys-api-openapi.yml
+  format: yaml
+  label: AI Gateway Virtual Keys API
+  slug: ai-gateway-virtual-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-virtual-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []

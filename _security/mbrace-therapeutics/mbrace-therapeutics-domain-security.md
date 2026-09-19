@@ -18,12 +18,6 @@ api_specs:
   slug: mbrace-therapeutics-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-news-api-openapi.yml
-- filename: mbrace-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: MBrace Therapeutics Oembed API
-  slug: mbrace-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-oembed-api-openapi.yml
 - filename: mbrace-therapeutics-pages-api-openapi.yml
   format: yaml
   label: MBrace Therapeutics Pages API
@@ -54,6 +48,12 @@ api_specs:
   slug: mbrace-therapeutics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-users-api-openapi.yml
+- filename: mbrace-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: MBrace Therapeutics o Embed API
+  slug: mbrace-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/openapi/mbrace-therapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

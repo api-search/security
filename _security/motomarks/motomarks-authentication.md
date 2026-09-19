@@ -56,15 +56,15 @@ source_yaml: "name: Motomarks Authentication\ngenerated: '2026-09-09'\nmethod: s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/authentication/motomarks-authentication.yml
 summary_line: 3 schemes
 tags:
-- automotive
-- logo
-- image-cdn
-- manufacturer
-- brand-assets
-- images
+- Automotive
+- Logo
+- Image CDN
+- Manufacturer
+- Brand Assets
+- Image
 - CDN
-- developer-tools
+- Developer Tools
 - agent-native
 - MCP
-- reference-data
+- Reference Data
 ---

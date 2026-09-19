@@ -74,12 +74,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/security/breathe-hr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Management
 - Absence Management
 - Holiday Tracking
 - SMB
-- UK
+- United Kingdom
 ---

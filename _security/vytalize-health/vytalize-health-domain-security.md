@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- Value Based Care
+- Value-Based Care
 - Accountable Care Organization
 - Medicare
 - Population Health

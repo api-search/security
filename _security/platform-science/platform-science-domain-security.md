@@ -34,7 +34,7 @@ tags:
 - Company
 - Fleet Management
 - Telematics
-- Connected Vehicle
+- Connected Vehicles
 - Transportation
 - Logistics
 - Trucking

@@ -9,18 +9,18 @@ api_specs:
   slug: aws-braket-hybridjobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-hybridjobs-api-openapi.yml
-- filename: aws-braket-quantumtasks-api-openapi.yml
+- filename: aws-braket-quantum-tasks-api-openapi.yml
   format: yaml
-  label: AWS Braket QuantumTasks API
-  slug: aws-braket-quantumtasks-api
+  label: AWS Braket Quantum Tasks API
+  slug: aws-braket-quantum-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-quantumtasks-api-openapi.yml
-- filename: aws-braket-spendinglimits-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-quantum-tasks-api-openapi.yml
+- filename: aws-braket-spending-limits-api-openapi.yml
   format: yaml
-  label: AWS Braket SpendingLimits API
-  slug: aws-braket-spendinglimits-api
+  label: AWS Braket Spending Limits API
+  slug: aws-braket-spending-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-spendinglimits-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/openapi/aws-braket-spending-limits-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

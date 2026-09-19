@@ -87,5 +87,5 @@ tags:
 - Trust and Safety
 - LLM Guardrails
 - Red Teaming
-- GenAI
+- Generative AI
 ---

@@ -51,12 +51,6 @@ api_specs:
   slug: zuplo-mcp-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/openapi/zuplo-mcp-servers-api-openapi.yml
-- filename: zuplo-openapi-api-openapi.yml
-  format: yaml
-  label: Zuplo Openapi API
-  slug: zuplo-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/openapi/zuplo-openapi-api-openapi.yml
 - filename: zuplo-tunnel-services-api-openapi.yml
   format: yaml
   label: Zuplo Tunnel Services API
@@ -75,12 +69,18 @@ api_specs:
   slug: zuplo-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/openapi/zuplo-variables-api-openapi.yml
-- filename: zuplo-who-am-i-api-openapi.yml
+- filename: zuplo-open-api-api-openapi.yml
   format: yaml
-  label: Zuplo Who Am I API
-  slug: zuplo-who-am-i-api
+  label: Zuplo Open API
+  slug: zuplo-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/openapi/zuplo-who-am-i-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/openapi/zuplo-open-api-api-openapi.yml
+- filename: zuplo-whoami-api-openapi.yml
+  format: yaml
+  label: Zuplo Whoami API
+  slug: zuplo-whoami-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/openapi/zuplo-whoami-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -38,6 +38,6 @@ tags:
 - E-Commerce
 - Shopify
 - Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 ---

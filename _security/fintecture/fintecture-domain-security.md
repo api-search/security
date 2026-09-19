@@ -6,12 +6,6 @@ api_specs:
   slug: fintecture-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-customers-api-openapi.yml
-- filename: fintecture-oauth-api-openapi.yml
-  format: yaml
-  label: Fintecture OAuth and Tokens API
-  slug: fintecture-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-oauth-api-openapi.yml
 - filename: fintecture-transactions-api-openapi.yml
   format: yaml
   label: Fintecture Transactions and Settlements API
@@ -132,6 +126,12 @@ api_specs:
   slug: fintecture-verifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-verifications-api-openapi.yml
+- filename: fintecture-oauth-api-openapi.yml
+  format: yaml
+  label: Fintecture O Auth API
+  slug: fintecture-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:

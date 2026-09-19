@@ -38,6 +38,6 @@ tags:
 - Professional Development
 - Emotional Intelligence
 - Productivity
-- Consumer Application
-- HR Tech
+- Consumer Applications
+- Human Resources
 ---

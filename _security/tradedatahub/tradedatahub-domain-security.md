@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: TradeDataHub Public API
-  slug: tradedatahub-public-api
+- filename: tradedatahub-commerce-api-openapi.yml
+  format: yaml
+  label: TradeDataHub Public API Commerce API
+  slug: tradedatahub-commerce-api
   spec_type: OpenAPI
-  url: https://www.tradedatahub.net/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/openapi/tradedatahub-commerce-api-openapi.yml
+- filename: tradedatahub-datasets-api-openapi.yml
+  format: yaml
+  label: TradeDataHub Public API Datasets API
+  slug: tradedatahub-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/openapi/tradedatahub-datasets-api-openapi.yml
+- filename: tradedatahub-discovery-api-openapi.yml
+  format: yaml
+  label: TradeDataHub Public API Discovery API
+  slug: tradedatahub-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/openapi/tradedatahub-discovery-api-openapi.yml
 description: ''
 domains:
 - caa: []

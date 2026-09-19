@@ -51,12 +51,6 @@ api_specs:
   slug: passivelogic-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-export-api-openapi.yml
-- filename: passivelogic-graphql-api-openapi.yml
-  format: yaml
-  label: PassiveLogic Graph QL API
-  slug: passivelogic-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-graphql-api-openapi.yml
 - filename: passivelogic-health-api-openapi.yml
   format: yaml
   label: PassiveLogic Health API
@@ -77,7 +71,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-organization-api-openapi.yml
 - filename: passivelogic-passivelogic-device-api-openapi.yml
   format: yaml
-  label: PassiveLogic PassiveLogic Device API
+  label: PassiveLogic Device API
   slug: passivelogic-passivelogic-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-passivelogic-device-api-openapi.yml
@@ -105,6 +99,12 @@ api_specs:
   slug: passivelogic-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-utility-api-openapi.yml
+- filename: passivelogic-graph-ql-api-openapi.yml
+  format: yaml
+  label: PassiveLogic Graph QL API
+  slug: passivelogic-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http

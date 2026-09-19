@@ -39,10 +39,10 @@ tags:
 - Federal-Government
 - Forests
 - Geospatial
-- Open-Data
-- Research-Data
+- Open Data
+- Research Data
 - Forest-Inventory
 - Wildfire
-- Public-Lands
+- Public Lands
 - Environment
 ---

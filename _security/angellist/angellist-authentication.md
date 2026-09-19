@@ -104,7 +104,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angellist/refs
 summary_line: apiKey/openIdConnect/oauth2 · 3 schemes
 tags:
 - Documents
-- Funds
+- Fund
 - Investing
 - Job
 - Startups

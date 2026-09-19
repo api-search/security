@@ -73,7 +73,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tamara-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/authentication/tamara-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- BNPL
 - Buy Now Pay Later
 - Fintech
 - Payments
@@ -81,7 +80,7 @@ tags:
 - Shariah Compliant
 - MENA
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 - Installments
 - Pay Later
 - Merchant Services

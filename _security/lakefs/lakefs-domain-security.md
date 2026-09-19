@@ -42,12 +42,6 @@ api_specs:
   slug: lakefs-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-external-api-openapi.yml
-- filename: lakefs-healthcheck-api-openapi.yml
-  format: yaml
-  label: lakeFS healthCheck API
-  slug: lakefs-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-healthcheck-api-openapi.yml
 - filename: lakefs-import-api-openapi.yml
   format: yaml
   label: lakeFS import API
@@ -102,6 +96,12 @@ api_specs:
   slug: lakefs-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-tags-api-openapi.yml
+- filename: lakefs-health-check-api-openapi.yml
+  format: yaml
+  label: lakeFS Health Check API
+  slug: lakefs-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

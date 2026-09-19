@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Recruiting
 - Hiring
-- HR Tech
+- Human Resources
 - Talent Acquisition
 - Candidate Sourcing
 - Applicant Tracking

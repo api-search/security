@@ -27,10 +27,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/security/velocity-global-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- EOR
 - Employer of Record
 - Global Employment
-- HR
+- Human Resources
 - Payroll
 - Compliance
 - International Hiring

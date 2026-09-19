@@ -54,7 +54,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Routing
-- Gateway
+- Gateways
 - Observability
 trust_url: https://www.requesty.ai/security
 ---

@@ -14,12 +14,6 @@ api_specs:
   slug: onelogin-mfa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-mfa-api-openapi.yml
-- filename: onelogin-oauth-api-openapi.yml
-  format: yaml
-  label: OneLogin OAuth API
-  slug: onelogin-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-oauth-api-openapi.yml
 - filename: onelogin-roles-api-openapi.yml
   format: yaml
   label: OneLogin Roles API
@@ -38,6 +32,12 @@ api_specs:
   slug: onelogin-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-users-api-openapi.yml
+- filename: onelogin-oauth-api-openapi.yml
+  format: yaml
+  label: OneLogin O Auth API
+  slug: onelogin-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -69,8 +69,9 @@ summary_line: http · 1 scheme
 tags:
 - Identity
 - Access Management
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - SAML
 - Authentication
+- Identity Federation
 ---

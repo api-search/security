@@ -67,6 +67,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - API Management
 - Developer Portal
+- Developer Tools
 - Enterprise
 - SAP
 ---

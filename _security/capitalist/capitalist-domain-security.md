@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: capitalist-integration-api-openapi.json
-  format: json
-  label: Capitalist API
-  slug: capitalist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-integration-api-openapi.json
 - filename: capitalist-capitalist-payments-api-api-openapi.yml
   format: yaml
   label: Capitalist Payments API (v1, deprecated)
   slug: capitalist-capitalist-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-capitalist-payments-api-api-openapi.yml
+- filename: capitalist-account-api-openapi.yml
+  format: yaml
+  label: Capitalist Account API
+  slug: capitalist-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-account-api-openapi.yml
+- filename: capitalist-exchange-api-openapi.yml
+  format: yaml
+  label: Capitalist Exchange API
+  slug: capitalist-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-exchange-api-openapi.yml
+- filename: capitalist-payment-api-openapi.yml
+  format: yaml
+  label: Capitalist Payment API
+  slug: capitalist-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-payment-api-openapi.yml
+- filename: capitalist-rate-api-openapi.yml
+  format: yaml
+  label: Capitalist Rate API
+  slug: capitalist-rate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-rate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,5 +80,5 @@ tags:
 - Payment Platform
 - Payments
 - Payouts
-- Remittance
+- Remittances
 ---

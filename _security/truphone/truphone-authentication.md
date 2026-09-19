@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-plans-api-openapi.yml
 - filename: truphone-sims-api-openapi.yml
   format: yaml
-  label: Truphone (1GLOBAL) SIMs API
+  label: Truphone (1GLOBAL) SI Ms API
   slug: truphone-sims-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-sims-api-openapi.yml

@@ -121,5 +121,5 @@ tags:
 - FX
 - News
 - Fundamentals
-- WebSockets
+- WebSocket
 ---

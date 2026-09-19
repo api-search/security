@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Employee Benefits
-- HR Tech
+- Human Resources
 - Fintech
 - Works Council
 - CSE

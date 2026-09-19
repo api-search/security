@@ -32,11 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foraged/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Food
 - E-Commerce
 - Specialty Food
-- Marketplace
 - Consumer
 - Wild Food
 ---

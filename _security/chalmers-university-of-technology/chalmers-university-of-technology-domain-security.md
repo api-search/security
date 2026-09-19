@@ -185,6 +185,6 @@ tags:
 - Library
 - OAI-PMH
 - Identity Federation
-- CRIS
+- CRI
 - Sweden
 ---

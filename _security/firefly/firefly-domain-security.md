@@ -34,7 +34,6 @@ tags:
 - Company
 - Advertising
 - Digital Out Of Home
-- DOOH
 - Mobility
 - Advertising Technology
 - AdTech

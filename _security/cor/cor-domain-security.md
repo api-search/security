@@ -108,12 +108,6 @@ api_specs:
   slug: cor-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/openapi/cor-projects-api-openapi.yml
-- filename: cor-ratecards-api-openapi.yml
-  format: yaml
-  label: COR Ratecards API
-  slug: cor-ratecards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/openapi/cor-ratecards-api-openapi.yml
 - filename: cor-resource-allocation-api-openapi.yml
   format: yaml
   label: COR Resource Allocation API
@@ -162,6 +156,12 @@ api_specs:
   slug: cor-working-time-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/openapi/cor-working-time-api-openapi.yml
+- filename: cor-rate-cards-api-openapi.yml
+  format: yaml
+  label: COR Rate cards API
+  slug: cor-rate-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/openapi/cor-rate-cards-api-openapi.yml
 description: ''
 domains:
 - caa: []

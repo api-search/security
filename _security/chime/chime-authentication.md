@@ -8,12 +8,6 @@ api_specs:
   slug: chime-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-authentication-api-openapi.yml
-- filename: chime-oauth-api-openapi.yml
-  format: yaml
-  label: Chime OAuth API
-  slug: chime-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-oauth-api-openapi.yml
 - filename: chime-statements-api-openapi.yml
   format: yaml
   label: Chime Statements API
@@ -32,6 +26,12 @@ api_specs:
   slug: chime-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-users-api-openapi.yml
+- filename: chime-oauth-api-openapi.yml
+  format: yaml
+  label: Chime O Auth API
+  slug: chime-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/openapi/chime-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

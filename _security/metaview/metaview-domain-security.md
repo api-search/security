@@ -43,5 +43,5 @@ tags:
 - Talent Acquisition
 - AI Agents
 - Interview Notes
-- HR Tech
+- Human Resources
 ---

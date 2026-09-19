@@ -18,12 +18,6 @@ api_specs:
   slug: heyform-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-forms-api-openapi.yml
-- filename: heyform-graphql-api-openapi.yml
-  format: yaml
-  label: HeyForm GraphQL API
-  slug: heyform-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-graphql-api-openapi.yml
 - filename: heyform-images-api-openapi.yml
   format: yaml
   label: HeyForm Images API
@@ -42,6 +36,12 @@ api_specs:
   slug: heyform-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-upload-api-openapi.yml
+- filename: heyform-graph-ql-api-openapi.yml
+  format: yaml
+  label: HeyForm Graph QL API
+  slug: heyform-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:

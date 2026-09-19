@@ -21,12 +21,6 @@ api_specs:
   slug: istock-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-images-api-openapi.yml
-- filename: istock-oauth-api-openapi.yml
-  format: yaml
-  label: iStock OAuth API
-  slug: istock-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-oauth-api-openapi.yml
 - filename: istock-search-api-openapi.yml
   format: yaml
   label: iStock Search API
@@ -39,6 +33,12 @@ api_specs:
   slug: istock-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-videos-api-openapi.yml
+- filename: istock-oauth-api-openapi.yml
+  format: yaml
+  label: iStock O Auth API
+  slug: istock-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http

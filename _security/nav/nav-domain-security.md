@@ -53,7 +53,7 @@ tags:
 - Financial-Services
 - Embedded Finance
 - Lending
-- Credit Scores
+- Credit Score
 - Credit Reporting
 - Financing Marketplace
 - Fintech

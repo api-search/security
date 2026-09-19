@@ -18,12 +18,12 @@ api_specs:
   slug: siemens-mindsphere-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
-- filename: siemens-mindsphere-timeseries-api-openapi.yml
+- filename: siemens-mindsphere-time-series-api-openapi.yml
   format: yaml
-  label: Siemens MindSphere Timeseries API
-  slug: siemens-mindsphere-timeseries-api
+  label: Siemens MindSphere Time Series API
+  slug: siemens-mindsphere-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-timeseries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-time-series-api-openapi.yml
 description: ''
 domains:
 - caa: []

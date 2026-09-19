@@ -92,6 +92,6 @@ tags:
 - Analytics
 - MCP
 - Agents
-- Design System
+- Design Systems
 - Developer Tools
 ---

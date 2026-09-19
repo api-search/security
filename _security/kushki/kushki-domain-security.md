@@ -122,7 +122,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
-- LatAm
+- Latin America
 - Andean Region
 - Card Payments
 - Subscription

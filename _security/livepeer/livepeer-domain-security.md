@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: livepeer-accesscontrol-api-openapi.yml
-  format: yaml
-  label: Livepeer accessControl API
-  slug: livepeer-accesscontrol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-accesscontrol-api-openapi.yml
 - filename: livepeer-asset-api-openapi.yml
   format: yaml
   label: Livepeer asset API
@@ -114,6 +108,12 @@ api_specs:
   slug: livepeer-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-status-api-openapi.yml
+- filename: livepeer-access-control-api-openapi.yml
+  format: yaml
+  label: Livepeer Access Control API
+  slug: livepeer-access-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-access-control-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard-gat
 summary_line: http/mutualTLS · 2 schemes
 tags:
 - Credit Cards
-- Gateway
+- Gateways
 - Payment Processing
 - Payments
 ---

@@ -91,7 +91,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/processm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/authentication/processmaker-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- BPM
 - Business Process Management
 - Workflow-Automation
 - BPMN 2.0

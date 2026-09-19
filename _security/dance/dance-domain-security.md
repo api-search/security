@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Mobility
 - Micromobility
-- E-Bike
+- E-Bikes
 - Subscription
 - Transportation
 - Electric Vehicles

@@ -8,12 +8,6 @@ api_specs:
   slug: passport-cart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-cart-api-openapi.yml
-- filename: passport-healthcheck-api-openapi.yml
-  format: yaml
-  label: Passport Healthcheck API
-  slug: passport-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-healthcheck-api-openapi.yml
 - filename: passport-order-api-openapi.yml
   format: yaml
   label: Passport Order API
@@ -50,6 +44,12 @@ api_specs:
   slug: passport-void-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-void-api-openapi.yml
+- filename: passport-health-check-api-openapi.yml
+  format: yaml
+  label: Passport Health Check API
+  slug: passport-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/openapi/passport-health-check-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

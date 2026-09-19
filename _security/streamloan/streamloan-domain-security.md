@@ -36,4 +36,5 @@ tags:
 - Software-as-a-Service
 - Banking
 - Financial-Services
+- Defunct
 ---

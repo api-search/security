@@ -28,7 +28,6 @@ summary_line: ISO/IEC 27001:2022, Cyber Essentials, HIPAA, GDPR, WCAG 2.1 AA
 tags:
 - Company
 - Healthcare
-- Health Care
 - Electronic Health Records
 - openEHR
 - FHIR
@@ -36,9 +35,9 @@ tags:
 - Interoperability
 - Clinical Data
 - Care Pathways
-- Workflow
+- Workflows
 - Orchestration
-- No Code
+- No-Code
 - NHS
 - United Kingdom
 trust_url: https://trust.bigpicturemedical.com/

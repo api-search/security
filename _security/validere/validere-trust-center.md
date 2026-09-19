@@ -282,12 +282,6 @@ api_specs:
   slug: validere-type-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/openapi/validere-type-metadata-api-openapi.yml
-- filename: validere-typemetadata-api-openapi.yml
-  format: yaml
-  label: Validere TypeMetadata API
-  slug: validere-typemetadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/openapi/validere-typemetadata-api-openapi.yml
 - filename: validere-user-groups-api-openapi.yml
   format: yaml
   label: Validere user_groups API

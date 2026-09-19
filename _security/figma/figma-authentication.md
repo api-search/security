@@ -8,12 +8,6 @@ api_specs:
   slug: figma-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-files-api-openapi.yml
-- filename: figma-images-api-openapi.yml
-  format: yaml
-  label: Figma Images API
-  slug: figma-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-images-api-openapi.yml
 - filename: figma-teams-api-openapi.yml
   format: yaml
   label: Figma Teams API
@@ -26,24 +20,12 @@ api_specs:
   slug: figma-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-projects-api-openapi.yml
-- filename: figma-me-api-openapi.yml
-  format: yaml
-  label: Figma Me API
-  slug: figma-me-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-me-api-openapi.yml
 - filename: figma-component-sets-api-openapi.yml
   format: yaml
   label: Figma Component Sets API
   slug: figma-component-sets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-component-sets-api-openapi.yml
-- filename: figma-styles-api-openapi.yml
-  format: yaml
-  label: Figma Styles API
-  slug: figma-styles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-styles-api-openapi.yml
 - filename: figma-activity-logs-api-openapi.yml
   format: yaml
   label: Figma Activity Logs API
@@ -92,12 +74,6 @@ api_specs:
   slug: figma-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-users-api-openapi.yml
-- filename: figma-webhooks-api-openapi.yml
-  format: yaml
-  label: Figma Webhooks API
-  slug: figma-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -169,4 +145,5 @@ tags:
 - Prototypes
 - Prototyping
 - UI/UX
+- Figma
 ---

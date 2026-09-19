@@ -74,7 +74,7 @@ tags:
 - AdTech
 - Mobile
 - Retargeting
-- Demand-Side Platform
+- DSP
 - User Acquisition
 - Marketing
 ---

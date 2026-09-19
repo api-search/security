@@ -32,11 +32,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Enterprise
-- HR Tech
+- Human Resources
 - Recruiting
 - Applicant Tracking
 - ATS
-- Human Resources
 - Software-as-a-Service
 - Japan
 ---

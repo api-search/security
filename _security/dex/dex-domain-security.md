@@ -39,6 +39,5 @@ tags:
 - OIDC
 - OpenID Connect
 - SAML
-- Single Sign-On
 - SSO
 ---

@@ -31,7 +31,7 @@ tags:
 - Caller Authentication
 - Identity
 - Fraud Prevention
-- Call Centers
+- Call Center
 - Telecommunications
 - Acquired
 ---

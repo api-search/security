@@ -86,7 +86,7 @@ summary_line: http · 2 schemes
 tags:
 - Authentication
 - Authorization
-- IAM
+- Identity and Access Management
 - Identity
 - LDAP
 - MCP
@@ -96,7 +96,7 @@ tags:
 - Passkeys
 - SAML
 - SCIM
-- Single Sign-On
 - SSO
 - WebAuthn
+- Identity Federation
 ---

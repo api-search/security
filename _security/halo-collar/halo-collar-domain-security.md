@@ -38,7 +38,7 @@ tags:
 - Geofencing
 - Wearables
 - Connected Devices
-- Mobile Apps
+- Mobile App
 - Subscription Service
 - Consumer Hardware
 ---

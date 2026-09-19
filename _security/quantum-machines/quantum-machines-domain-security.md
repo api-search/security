@@ -66,7 +66,7 @@ tags:
 - Arbitrary Waveform Generation
 - Superconducting Qubits
 - Trapped Ions
-- Neutral Atoms
+- Neutral Atom
 - Color Centers
 - Cryogenic Electronics
 - Hardware

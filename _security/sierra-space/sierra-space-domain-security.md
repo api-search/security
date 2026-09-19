@@ -34,7 +34,7 @@ tags:
 - Aerospace
 - Space
 - Defense
-- Satellites
+- Satellite
 - Spacecraft
 - Propulsion
 - Manufacturing

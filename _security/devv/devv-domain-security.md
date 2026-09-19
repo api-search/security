@@ -34,7 +34,7 @@ tags:
 - Company
 - Frontier Tech
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Developer Tools
 - Application Development
 - No-Code

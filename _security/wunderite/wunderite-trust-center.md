@@ -23,7 +23,7 @@ tags:
 - Insurtech
 - ACORD Forms
 - Risk Data
-- Digital Signatures
+- Digital Signature
 - Insurance Applications
 - Webhook
 trust_url: https://wunderite.com/security/

@@ -2,12 +2,48 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: federal-accounting-standards-advisory-board-wp-content-openapi.yml
+- filename: federal-accounting-standards-advisory-board-authors-api-openapi.yml
   format: yaml
-  label: FASAB Public Content API (WordPress REST)
-  slug: federal-accounting-standards-advisory-board-wp-content
+  label: Federal Accounting Standards Advisory Board Authors API
+  slug: federal-accounting-standards-advisory-board-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-wp-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-authors-api-openapi.yml
+- filename: federal-accounting-standards-advisory-board-discovery-api-openapi.yml
+  format: yaml
+  label: Federal Accounting Standards Advisory Board Discovery API
+  slug: federal-accounting-standards-advisory-board-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-discovery-api-openapi.yml
+- filename: federal-accounting-standards-advisory-board-documents-api-openapi.yml
+  format: yaml
+  label: Federal Accounting Standards Advisory Board Documents API
+  slug: federal-accounting-standards-advisory-board-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-documents-api-openapi.yml
+- filename: federal-accounting-standards-advisory-board-news-api-openapi.yml
+  format: yaml
+  label: Federal Accounting Standards Advisory Board News API
+  slug: federal-accounting-standards-advisory-board-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-news-api-openapi.yml
+- filename: federal-accounting-standards-advisory-board-pages-api-openapi.yml
+  format: yaml
+  label: Federal Accounting Standards Advisory Board Pages API
+  slug: federal-accounting-standards-advisory-board-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-pages-api-openapi.yml
+- filename: federal-accounting-standards-advisory-board-search-api-openapi.yml
+  format: yaml
+  label: Federal Accounting Standards Advisory Board Search API
+  slug: federal-accounting-standards-advisory-board-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-search-api-openapi.yml
+- filename: federal-accounting-standards-advisory-board-taxonomy-api-openapi.yml
+  format: yaml
+  label: Federal Accounting Standards Advisory Board Taxonomy API
+  slug: federal-accounting-standards-advisory-board-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-taxonomy-api-openapi.yml
 auth_types:
 - none
 - basic
@@ -57,7 +93,7 @@ tags:
 - Accounting
 - Federal-Government
 - Standards
-- Financial-Reporting
+- Financial Reporting
 - Government
 - Regulations
 - Content

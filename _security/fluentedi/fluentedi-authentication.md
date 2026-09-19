@@ -2,12 +2,66 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: FluentEDI Tools API
-  slug: fluentedi-tools-api
+- filename: fluentedi-compute-api-openapi.yml
+  format: yaml
+  label: FluentEDI Compute API
+  slug: fluentedi-compute-api
   spec_type: OpenAPI
-  url: https://fluentedi.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-compute-api-openapi.yml
+- filename: fluentedi-crypto-api-openapi.yml
+  format: yaml
+  label: FluentEDI Crypto API
+  slug: fluentedi-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-crypto-api-openapi.yml
+- filename: fluentedi-data-api-openapi.yml
+  format: yaml
+  label: FluentEDI Data API
+  slug: fluentedi-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-data-api-openapi.yml
+- filename: fluentedi-doc-api-openapi.yml
+  format: yaml
+  label: FluentEDI Doc API
+  slug: fluentedi-doc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-doc-api-openapi.yml
+- filename: fluentedi-edi-api-openapi.yml
+  format: yaml
+  label: FluentEDI Edi API
+  slug: fluentedi-edi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-edi-api-openapi.yml
+- filename: fluentedi-meta-api-openapi.yml
+  format: yaml
+  label: FluentEDI Meta API
+  slug: fluentedi-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-meta-api-openapi.yml
+- filename: fluentedi-schedule-api-openapi.yml
+  format: yaml
+  label: FluentEDI Schedule API
+  slug: fluentedi-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-schedule-api-openapi.yml
+- filename: fluentedi-text-api-openapi.yml
+  format: yaml
+  label: FluentEDI Text API
+  slug: fluentedi-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-text-api-openapi.yml
+- filename: fluentedi-time-api-openapi.yml
+  format: yaml
+  label: FluentEDI Time API
+  slug: fluentedi-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-time-api-openapi.yml
+- filename: fluentedi-web-api-openapi.yml
+  format: yaml
+  label: FluentEDI Web API
+  slug: fluentedi-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-web-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

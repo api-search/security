@@ -12,12 +12,6 @@ api_specs:
   slug: elastic-cluster-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-cluster-api-openapi.yml
-- filename: elastic-dataviews-api-openapi.yml
-  format: yaml
-  label: Elastic DataViews API
-  slug: elastic-dataviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-dataviews-api-openapi.yml
 - filename: elastic-deployments-api-openapi.yml
   format: yaml
   label: Elastic Deployments API
@@ -36,12 +30,6 @@ api_specs:
   slug: elastic-indices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-indices-api-openapi.yml
-- filename: elastic-savedobjects-api-openapi.yml
-  format: yaml
-  label: Elastic SavedObjects API
-  slug: elastic-savedobjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-savedobjects-api-openapi.yml
 - filename: elastic-search-api-openapi.yml
   format: yaml
   label: Elastic Search API
@@ -72,6 +60,18 @@ api_specs:
   slug: elastic-trafficfilters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-trafficfilters-api-openapi.yml
+- filename: elastic-data-views-api-openapi.yml
+  format: yaml
+  label: Elastic data views API
+  slug: elastic-data-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-data-views-api-openapi.yml
+- filename: elastic-saved-objects-api-openapi.yml
+  format: yaml
+  label: Elastic saved objects API
+  slug: elastic-saved-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/openapi/elastic-saved-objects-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR

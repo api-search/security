@@ -59,7 +59,7 @@ tags:
 - Company
 - Software-as-a-Service
 - E-Commerce
-- Marketplaces
+- Marketplace
 - Product Feeds
 - Retail
 - Advertising

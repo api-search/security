@@ -2,12 +2,18 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: university-of-pittsburgh-project-tycho-api-openapi.yml
+- filename: university-of-pittsburgh-data-api-openapi.yml
   format: yaml
-  label: Project Tycho API
-  slug: project-tycho
+  label: University of Pittsburgh Data API
+  slug: university-of-pittsburgh-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-project-tycho-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-data-api-openapi.yml
+- filename: university-of-pittsburgh-variables-api-openapi.yml
+  format: yaml
+  label: University of Pittsburgh Variables API
+  slug: university-of-pittsburgh-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-variables-api-openapi.yml
 auth_types:
 - api_key
 - none

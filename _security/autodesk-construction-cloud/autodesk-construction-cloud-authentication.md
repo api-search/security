@@ -14,12 +14,6 @@ api_specs:
   slug: autodesk-construction-cloud-issues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issues-api-openapi.yml
-- filename: autodesk-construction-cloud-issuetypes-api-openapi.yml
-  format: yaml
-  label: Autodesk Construction Cloud IssueTypes API
-  slug: autodesk-construction-cloud-issuetypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issuetypes-api-openapi.yml
 - filename: autodesk-construction-cloud-projects-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Projects API
@@ -32,6 +26,12 @@ api_specs:
   slug: autodesk-construction-cloud-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-users-api-openapi.yml
+- filename: autodesk-construction-cloud-issue-types-api-openapi.yml
+  format: yaml
+  label: Autodesk Construction Cloud Issue Types API
+  slug: autodesk-construction-cloud-issue-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

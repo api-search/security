@@ -37,7 +37,7 @@ tags:
 - Recruiting
 - Marketplace
 - Artificial Intelligence
-- Career
+- Careers
 - Talent
 - Workforce
 ---

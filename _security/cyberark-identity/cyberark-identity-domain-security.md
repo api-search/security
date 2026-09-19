@@ -18,12 +18,6 @@ api_specs:
   slug: cyberark-identity-extdata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-extdata-api-openapi.yml
-- filename: cyberark-identity-oauth-api-openapi.yml
-  format: yaml
-  label: CyberArk Identity OAuth API
-  slug: cyberark-identity-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-oauth-api-openapi.yml
 - filename: cyberark-identity-org-api-openapi.yml
   format: yaml
   label: CyberArk Identity Org API
@@ -42,6 +36,12 @@ api_specs:
   slug: cyberark-identity-usermgmt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-usermgmt-api-openapi.yml
+- filename: cyberark-identity-oauth-api-openapi.yml
+  format: yaml
+  label: CyberArk Identity O Auth API
+  slug: cyberark-identity-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -90,8 +90,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Identity
 - Access Management
-- IAM
-- Single Sign-On
+- Identity and Access Management
 - SSO
 - Multi-Factor Authentication
 - Authentication

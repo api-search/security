@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chat-api-openapi.yml
 - filename: chutes-chutes-api-openapi.yml
   format: yaml
-  label: Chutes Chutes API
+  label: Chutes API
   slug: chutes-chutes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chutes-api-openapi.yml

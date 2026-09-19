@@ -51,7 +51,7 @@ tags:
 - Merchandise
 - Creator Economy
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Universal Commerce Protocol
 ---

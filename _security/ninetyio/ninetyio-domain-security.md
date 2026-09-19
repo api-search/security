@@ -80,7 +80,7 @@ tags:
 - Business Management
 - Meetings
 - Productivity
-- Scorecard
+- Scorecards
 - Team Management
 - Goal Tracking
 ---

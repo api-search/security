@@ -45,7 +45,7 @@ tags:
 - Delivery
 - Catering
 - Marketing
-- Mobile Apps
+- Mobile App
 - Independent Restaurants
 - Commission-Free
 ---

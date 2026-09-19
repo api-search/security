@@ -38,4 +38,5 @@ tags:
 - Beauty
 - House of Brands
 - D2C
+- Direct to Consumer
 ---

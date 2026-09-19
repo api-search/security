@@ -41,7 +41,7 @@ tags:
 - Integration
 - Enterprise
 - Artificial Intelligence
-- Databases
+- Database
 - REST API
 - Developer Tools
 trust_url: https://trust.superblocks.com/

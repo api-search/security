@@ -38,7 +38,6 @@ tags:
 - Connected TV
 - CTV
 - Supply Side Platform
-- SSP
 - Programmatic
 - Acquired
 ---

@@ -20,12 +20,6 @@ api_specs:
   slug: mistral-batch-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-batch-jobs-api-openapi.yml
-- filename: mistral-chat-api-openapi.yml
-  format: yaml
-  label: Mistral AI Chat API
-  slug: mistral-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-chat-api-openapi.yml
 - filename: mistral-embeddings-api-openapi.yml
   format: yaml
   label: Mistral AI Embeddings API
@@ -131,5 +125,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mistral-
   \  - openapi/mistral-moderation-openapi.yml\n  - openapi/mistral-ocr-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/authentication/mistral-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Embeddings
+- Machine-Learning
+- Agents
+- OCR
+- LLM
 ---

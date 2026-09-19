@@ -35,7 +35,7 @@ tags:
 - Renewable Energy
 - Space
 - Aerospace
-- Satellites
+- Satellite
 - Solar Power
 - Utilities
 ---

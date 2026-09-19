@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: mcmaster-experts-openapi.yml
+- filename: mcmaster-people-api-openapi.yml
   format: yaml
-  label: McMaster Experts API
-  slug: experts-api
+  label: McMaster University People API
+  slug: mcmaster-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-experts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-people-api-openapi.yml
+- filename: mcmaster-publications-api-openapi.yml
+  format: yaml
+  label: McMaster University Publications API
+  slug: mcmaster-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-publications-api-openapi.yml
+- filename: mcmaster-search-api-openapi.yml
+  format: yaml
+  label: McMaster University Search API
+  slug: mcmaster-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/openapi/mcmaster-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

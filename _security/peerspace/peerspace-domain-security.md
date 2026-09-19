@@ -41,7 +41,7 @@ tags:
 - Marketplace
 - Venues
 - Event Spaces
-- Bookings
+- Booking
 - Travel
 - Real-Estate
 ---

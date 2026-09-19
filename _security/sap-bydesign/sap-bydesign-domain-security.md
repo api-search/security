@@ -93,7 +93,7 @@ tags:
 - ERP
 - Cloud
 - Mid-Market
-- Financials
+- Financial
 - CRM
 - Procurement
 - Supply Chain

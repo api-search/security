@@ -2,7 +2,7 @@
 api_specs:
 - filename: marine-traffic-ais-api-api-openapi.yml
   format: yaml
-  label: MarineTraffic AIS API API
+  label: MarineTraffic AIS API
   slug: marine-traffic-ais-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/marine-traffic-ais-api-api-openapi.yml

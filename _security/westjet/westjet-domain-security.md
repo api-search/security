@@ -50,7 +50,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - Booking

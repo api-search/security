@@ -42,6 +42,7 @@ tags:
 - Continuous Delivery
 - Continuous Integration
 - Declarative Pipeline
+- Developer Tools
 - DevOps
 - Jenkinsfile
 - Pipeline as Code

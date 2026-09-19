@@ -52,12 +52,6 @@ api_specs:
   slug: mailmodo-bulktriggercampaign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-bulktriggercampaign-api-openapi.yml
-- filename: mailmodo-campaignreports-api-openapi.yml
-  format: yaml
-  label: Mailmodo Campaign Reports API
-  slug: mailmodo-campaignreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-campaignreports-api-openapi.yml
 - filename: mailmodo-getallcontactlists-api-openapi.yml
   format: yaml
   label: Mailmodo Get All Contact Lists API

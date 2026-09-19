@@ -127,7 +127,7 @@ tags:
 - Gifting
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Direct to Consumer
 ---

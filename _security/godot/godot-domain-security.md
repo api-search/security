@@ -45,6 +45,6 @@ tags:
 - GDScript
 - Godot
 - Open-Source
-- Plugin
+- Plugins
 - SDK
 ---

@@ -57,7 +57,7 @@ tags:
 - E-Commerce
 - Consumer
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 ---

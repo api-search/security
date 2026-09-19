@@ -32,7 +32,7 @@ tags:
 - Company
 - Marketplace
 - Beauty
-- Salons
+- Salon
 - Booking
 - Appointments
 - Point-of-Sale

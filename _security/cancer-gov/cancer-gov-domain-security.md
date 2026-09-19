@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: cancer-gov-seer-openapi.yml
-  format: yaml
-  label: NCI SEER API
-  slug: seer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-seer-openapi.yml
-- filename: cancer-gov-modac-openapi.yml
-  format: yaml
-  label: NCI MoDaC API
-  slug: modac-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-modac-openapi.yml
-- filename: cancer-gov-evs-openapi.yml
-  format: yaml
-  label: NCI EVS Terminology API
-  slug: evs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-evs-openapi.yml
 - filename: cancer-gov-diseases-api-openapi.yml
   format: yaml
   label: Cancer.gov Diseases API
@@ -42,36 +24,252 @@ api_specs:
   slug: cancer-gov-trials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-trials-api-openapi.yml
-- filename: cancer-gov-glossary-openapi.yml
+- filename: cancer-gov-application-version-endpoint-api-openapi.yml
   format: yaml
-  label: NCI Glossary Term API
-  slug: glossary-api
+  label: Cancer.gov Application version endpoint API
+  slug: cancer-gov-application-version-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-glossary-openapi.yml
-- filename: cancer-gov-drug-dictionary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-application-version-endpoint-api-openapi.yml
+- filename: cancer-gov-asset-details-controller-api-openapi.yml
   format: yaml
-  label: NCI Drug Dictionary API
-  slug: drug-dictionary-api
+  label: Cancer.gov Asset Details Controller API
+  slug: cancer-gov-asset-details-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-drug-dictionary-openapi.yml
-- filename: cancer-gov-sitewide-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-asset-details-controller-api-openapi.yml
+- filename: cancer-gov-autosuggest-api-openapi.yml
   format: yaml
-  label: Cancer.gov Site-Wide Search API
-  slug: sitewide-search-api
+  label: Cancer.gov Autosuggest API
+  slug: cancer-gov-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-sitewide-search-openapi.yml
-- filename: cancer-gov-best-bets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-autosuggest-api-openapi.yml
+- filename: cancer-gov-concept-endpoints-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Concept endpoints API
+  slug: cancer-gov-concept-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-concept-endpoints-api-openapi.yml
+- filename: cancer-gov-delete-collection-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Delete Collection Controller API
+  slug: cancer-gov-delete-collection-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-delete-collection-controller-api-openapi.yml
+- filename: cancer-gov-delete-data-file-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Delete Data File Controller API
+  slug: cancer-gov-delete-data-file-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-delete-data-file-controller-api-openapi.yml
+- filename: cancer-gov-delete-predictions-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Delete Predictions Controller API
+  slug: cancer-gov-delete-predictions-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-delete-predictions-controller-api-openapi.yml
+- filename: cancer-gov-disease-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Disease API
+  slug: cancer-gov-disease-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-disease-api-openapi.yml
+- filename: cancer-gov-doe-collection-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Collection Controller API
+  slug: cancer-gov-doe-collection-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-collection-controller-api-openapi.yml
+- filename: cancer-gov-doe-create-bulk-datafile-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Create Bulk Datafile Controller API
+  slug: cancer-gov-doe-create-bulk-datafile-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-create-bulk-datafile-controller-api-openapi.yml
+- filename: cancer-gov-doe-create-collection-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Create Collection Controller API
+  slug: cancer-gov-doe-create-collection-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-create-collection-controller-api-openapi.yml
+- filename: cancer-gov-doe-create-datafile-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Create Datafile Controller API
+  slug: cancer-gov-doe-create-datafile-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-create-datafile-controller-api-openapi.yml
+- filename: cancer-gov-doe-download-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Download Controller API
+  slug: cancer-gov-doe-download-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-download-controller-api-openapi.yml
+- filename: cancer-gov-doe-download-files-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Download Files Controller API
+  slug: cancer-gov-doe-download-files-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-download-files-controller-api-openapi.yml
+- filename: cancer-gov-doe-retry-download-task-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Retry Download Task Controller API
+  slug: cancer-gov-doe-retry-download-task-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-retry-download-task-controller-api-openapi.yml
+- filename: cancer-gov-doe-retry-uploadtask-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Retry Uploadtask Controller API
+  slug: cancer-gov-doe-retry-uploadtask-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-retry-uploadtask-controller-api-openapi.yml
+- filename: cancer-gov-doe-sync-download-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Doe Sync Download Controller API
+  slug: cancer-gov-doe-sync-download-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-doe-sync-download-controller-api-openapi.yml
+- filename: cancer-gov-drugs-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Drugs API
+  slug: cancer-gov-drugs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-drugs-api-openapi.yml
+- filename: cancer-gov-glossary-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Glossary API
+  slug: cancer-gov-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-glossary-api-openapi.yml
+- filename: cancer-gov-hcpcs-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Hcpcs API
+  slug: cancer-gov-hcpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-hcpcs-api-openapi.yml
+- filename: cancer-gov-history-endpoints-api-openapi.yml
+  format: yaml
+  label: Cancer.gov History endpoints API
+  slug: cancer-gov-history-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-history-endpoints-api-openapi.yml
+- filename: cancer-gov-home-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Home Controller API
+  slug: cancer-gov-home-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-home-controller-api-openapi.yml
+- filename: cancer-gov-mapset-endpoints-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Mapset endpoints API
+  slug: cancer-gov-mapset-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-mapset-endpoints-api-openapi.yml
+- filename: cancer-gov-metadata-endpoints-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Metadata endpoints API
+  slug: cancer-gov-metadata-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-metadata-endpoints-api-openapi.yml
+- filename: cancer-gov-mph-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Mph API
+  slug: cancer-gov-mph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-mph-api-openapi.yml
+- filename: cancer-gov-naaccr-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Naaccr API
+  slug: cancer-gov-naaccr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-naaccr-api-openapi.yml
+- filename: cancer-gov-ndc-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Ndc API
+  slug: cancer-gov-ndc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-ndc-api-openapi.yml
+- filename: cancer-gov-perform-inferencing-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Perform Inferencing Controller API
+  slug: cancer-gov-perform-inferencing-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-perform-inferencing-controller-api-openapi.yml
+- filename: cancer-gov-recode-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Recode API
+  slug: cancer-gov-recode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-recode-api-openapi.yml
+- filename: cancer-gov-release-notes-notifications-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Release Notes Notifications Controller API
+  slug: cancer-gov-release-notes-notifications-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-release-notes-notifications-controller-api-openapi.yml
+- filename: cancer-gov-resource-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Resource API
+  slug: cancer-gov-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-resource-api-openapi.yml
+- filename: cancer-gov-resources-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Resources API
+  slug: cancer-gov-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-resources-api-openapi.yml
+- filename: cancer-gov-rest-api-common-controller-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Rest API Common Controller API
+  slug: cancer-gov-rest-api-common-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-rest-api-common-controller-api-openapi.yml
+- filename: cancer-gov-rx-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Rx API
+  slug: cancer-gov-rx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-rx-api-openapi.yml
+- filename: cancer-gov-search-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Search API
+  slug: cancer-gov-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-search-api-openapi.yml
+- filename: cancer-gov-search-endpoint-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Search endpoint API
+  slug: cancer-gov-search-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-search-endpoint-api-openapi.yml
+- filename: cancer-gov-staging-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Staging API
+  slug: cancer-gov-staging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-staging-api-openapi.yml
+- filename: cancer-gov-subset-endpoints-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Subset endpoints API
+  slug: cancer-gov-subset-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-subset-endpoints-api-openapi.yml
+- filename: cancer-gov-surgery-api-openapi.yml
+  format: yaml
+  label: Cancer.gov Surgery API
+  slug: cancer-gov-surgery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-surgery-api-openapi.yml
+- filename: cancer-gov-best-bets-api-openapi.yml
   format: yaml
   label: Cancer.gov Best Bets API
-  slug: best-bets-api
+  slug: cancer-gov-best-bets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-best-bets-openapi.yml
-- filename: cancer-gov-r4r-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-best-bets-api-openapi.yml
+- filename: cancer-gov-health-check-api-openapi.yml
   format: yaml
-  label: NCI Resources for Researchers API
-  slug: r4r-api
+  label: Cancer.gov Health Check API
+  slug: cancer-gov-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-r4r-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-health-check-api-openapi.yml
 description: ''
 domains:
 - caa:

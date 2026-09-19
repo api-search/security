@@ -150,7 +150,7 @@ tags:
 - PSD2
 - FCA
 - Berlin Group
-- UK
+- United Kingdom
 - Europe
 - Fintech
 ---

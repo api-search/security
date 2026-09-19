@@ -231,8 +231,8 @@ summary_line: SOC 2
 tags:
 - Legal
 - Practice Management
-- Law Firm
-- Matters
+- Law Firms
+- Matter
 - Billing
 - Documents
 - Trust Accounting

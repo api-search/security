@@ -25,11 +25,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/security/oyster-hr-trust-center.yml
 summary_line: SOC 2
 tags:
-- HR
+- Human Resources
 - Global Employment
 - Payroll
 - Employer of Record
-- EOR
 - Contractors
 - Compliance
 - Remote Work

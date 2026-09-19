@@ -258,12 +258,6 @@ api_specs:
   slug: lokki-offline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-offline-api-openapi.yml
-- filename: lokki-on-boarding-api-openapi.yml
-  format: yaml
-  label: Lokki On Boarding API
-  slug: lokki-on-boarding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-on-boarding-api-openapi.yml
 - filename: lokki-online-store-api-openapi.yml
   format: yaml
   label: Lokki Online Store API
@@ -582,6 +576,12 @@ api_specs:
   slug: lokki-your-order-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-your-order-event-api-openapi.yml
+- filename: lokki-onboarding-api-openapi.yml
+  format: yaml
+  label: Lokki Onboarding API
+  slug: lokki-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/openapi/lokki-onboarding-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -142,7 +142,7 @@ tags:
 - PropTech
 - Tenancy
 - Trust Accounting
-- Inspections
+- Inspection
 - Maintenance
 - Documents
 - Payments

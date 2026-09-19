@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hospitab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/authentication/hospitable-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Property Management
 - Airbnb

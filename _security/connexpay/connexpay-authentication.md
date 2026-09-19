@@ -3,18 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: connexpay-3ds-api-openapi.yml
-  format: yaml
-  label: ConnexPay 3ds API
-  slug: connexpay-3ds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-3ds-api-openapi.yml
-- filename: connexpay-3dsecure-api-openapi.yml
-  format: yaml
-  label: ConnexPay 3 D Secure API
-  slug: connexpay-3dsecure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-3dsecure-api-openapi.yml
 - filename: connexpay-accounting-api-openapi.yml
   format: yaml
   label: ConnexPay Accounting API
@@ -159,12 +147,6 @@ api_specs:
   slug: connexpay-purchaseeventhistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-purchaseeventhistory-api-openapi.yml
-- filename: connexpay-pushtocard-api-openapi.yml
-  format: yaml
-  label: ConnexPay Push To Card API
-  slug: connexpay-pushtocard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-pushtocard-api-openapi.yml
 - filename: connexpay-returns-api-openapi.yml
   format: yaml
   label: ConnexPay Returns API
@@ -179,7 +161,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-saleeventhistory-api-openapi.yml
 - filename: connexpay-sales-api-api-openapi.yml
   format: yaml
-  label: ConnexPay Sales Api API
+  label: ConnexPay Sales Api
   slug: connexpay-sales-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-sales-api-api-openapi.yml
@@ -237,6 +219,24 @@ api_specs:
   slug: connexpay-void-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-void-api-openapi.yml
+- filename: connexpay-3-ds-api-openapi.yml
+  format: yaml
+  label: ConnexPay 3 DS API
+  slug: connexpay-3-ds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-3-ds-api-openapi.yml
+- filename: connexpay-3d-secure-api-openapi.yml
+  format: yaml
+  label: ConnexPay 3D Secure API
+  slug: connexpay-3d-secure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-3d-secure-api-openapi.yml
+- filename: connexpay-push-to-card-api-openapi.yml
+  format: yaml
+  label: ConnexPay push to card API
+  slug: connexpay-push-to-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/openapi/connexpay-push-to-card-api-openapi.yml
 auth_types:
 - apiKey
 - http

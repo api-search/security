@@ -74,7 +74,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Access Governance
 - Compliance
-- IAM
+- Identity and Access Management
 - Identity Management
 - Identity Security
 - Security

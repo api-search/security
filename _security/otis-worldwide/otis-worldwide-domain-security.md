@@ -39,7 +39,7 @@ tags:
 - Escalators
 - Building Management
 - Smart Buildings
-- Internet of Things
+- IoT
 - Robotics
 - Building Automation
 - Elevator Dispatch

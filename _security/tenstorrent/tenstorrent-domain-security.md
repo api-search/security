@@ -35,7 +35,7 @@ tags:
 - RISC-V
 - Accelerator
 - Open-Source
-- Compiler
+- Compilers
 - MLIR
 - PyTorch
 - JAX

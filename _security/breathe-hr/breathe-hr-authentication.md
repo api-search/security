@@ -62,12 +62,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/breathe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/authentication/breathe-hr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Management
 - Absence Management
 - Holiday Tracking
 - SMB
-- UK
+- United Kingdom
 ---

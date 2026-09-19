@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-users-api-openapi.yml
 - filename: demodesk-demodesk-public-api-api-openapi.yml
   format: yaml
-  label: Demodesk Demodesk Public API
+  label: Demodesk Public API
   slug: demodesk-demodesk-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-demodesk-public-api-api-openapi.yml

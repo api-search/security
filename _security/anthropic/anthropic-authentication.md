@@ -125,7 +125,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-agents-beta-true-api-openapi.yml
 - filename: anthropic-anthropic-api-api-openapi.yml
   format: yaml
-  label: Anthropic Anthropic API
+  label: Anthropic API
   slug: anthropic-anthropic-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-anthropic-api-api-openapi.yml
@@ -306,7 +306,7 @@ tags:
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- Large Language Models
+- LLM
 - Machine-Learning
 - MCP
 - Agents

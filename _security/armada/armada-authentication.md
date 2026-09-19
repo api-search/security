@@ -123,12 +123,6 @@ api_specs:
   slug: armada-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-network-api-openapi.yml
-- filename: armada-paas-api-openapi.yml
-  format: yaml
-  label: Armada PaaS API
-  slug: armada-paas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-paas-api-openapi.yml
 - filename: armada-quotas-api-openapi.yml
   format: yaml
   label: Armada Quotas API
@@ -189,18 +183,24 @@ api_specs:
   slug: armada-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-tenants-api-openapi.yml
-- filename: armada-vms-api-openapi.yml
-  format: yaml
-  label: Armada VMs API
-  slug: armada-vms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-vms-api-openapi.yml
 - filename: armada-vpc-api-openapi.yml
   format: yaml
   label: Armada VPC API
   slug: armada-vpc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-vpc-api-openapi.yml
+- filename: armada-vms-api-openapi.yml
+  format: yaml
+  label: Armada V Ms API
+  slug: armada-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-vms-api-openapi.yml
+- filename: armada-paa-s-api-openapi.yml
+  format: yaml
+  label: Armada Paa S API
+  slug: armada-paa-s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-paa-s-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

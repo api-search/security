@@ -26,12 +26,6 @@ api_specs:
   slug: pexa-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-document-api-openapi.yml
-- filename: pexa-healthcheck-api-openapi.yml
-  format: yaml
-  label: PEXA Health Check API
-  slug: pexa-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-healthcheck-api-openapi.yml
 - filename: pexa-invitation-api-openapi.yml
   format: yaml
   label: PEXA Invitation API
@@ -110,6 +104,12 @@ api_specs:
   slug: pexa-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-workspaces-api-openapi.yml
+- filename: pexa-health-check-api-openapi.yml
+  format: yaml
+  label: PEXA Health Check API
+  slug: pexa-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-health-check-api-openapi.yml
 auth_types:
 - oauth2
 - mutualTLS

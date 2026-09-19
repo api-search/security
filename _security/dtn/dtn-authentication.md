@@ -26,12 +26,6 @@ api_specs:
   slug: dtn-api-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-api-endpoints-api-openapi.yml
-- filename: dtn-apis-api-openapi.yml
-  format: yaml
-  label: DTN AP Is API
-  slug: dtn-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-apis-api-openapi.yml
 - filename: dtn-archive-api-openapi.yml
   format: yaml
   label: DTN Archive API
@@ -94,13 +88,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-directions-api-openapi.yml
 - filename: dtn-dtn-api-openapi.yml
   format: yaml
-  label: DTN DTN API
+  label: DTN API
   slug: dtn-dtn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-dtn-api-openapi.yml
 - filename: dtn-dtn-tropical-cyclone-api-api-openapi.yml
   format: yaml
-  label: DTN DTN Tropical Cyclone API
+  label: DTN Tropical Cyclone API
   slug: dtn-dtn-tropical-cyclone-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-dtn-tropical-cyclone-api-api-openapi.yml
@@ -590,6 +584,12 @@ api_specs:
   slug: dtn-zulu-icing-airmet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-zulu-icing-airmet-api-openapi.yml
+- filename: dtn-apis-api-openapi.yml
+  format: yaml
+  label: DTN AP Is API
+  slug: dtn-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-apis-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -44,7 +44,7 @@ tags:
 - Economics
 - Federal-Government
 - Research
-- Open-Data
+- Open Data
 - Geospatial
 - Statistics
 ---

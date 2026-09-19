@@ -36,12 +36,6 @@ api_specs:
   slug: spotio-communication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-communication-api-openapi.yml
-- filename: spotio-communicationtemplates-api-openapi.yml
-  format: yaml
-  label: SPOTIO Communication Templates API
-  slug: spotio-communicationtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-communicationtemplates-api-openapi.yml
 - filename: spotio-connectors-api-openapi.yml
   format: yaml
   label: SPOTIO Connectors API
@@ -90,12 +84,6 @@ api_specs:
   slug: spotio-filters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-filters-api-openapi.yml
-- filename: spotio-filtersv2-api-openapi.yml
-  format: yaml
-  label: SPOTIO Filters V2 API
-  slug: spotio-filtersv2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-filtersv2-api-openapi.yml
 - filename: spotio-generatecontent-api-openapi.yml
   format: yaml
   label: SPOTIO Generate Content API
@@ -192,12 +180,6 @@ api_specs:
   slug: spotio-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-users-api-openapi.yml
-- filename: spotio-usertracking-api-openapi.yml
-  format: yaml
-  label: SPOTIO User Tracking API
-  slug: spotio-usertracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-usertracking-api-openapi.yml
 - filename: spotio-webhooks-api-openapi.yml
   format: yaml
   label: SPOTIO Webhooks API
@@ -228,12 +210,30 @@ api_specs:
   slug: spotio-workflowsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-workflowsettings-api-openapi.yml
-- filename: spotio-workflowstages-api-openapi.yml
+- filename: spotio-communication-templates-api-openapi.yml
+  format: yaml
+  label: SPOTIO Communication Templates API
+  slug: spotio-communication-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-communication-templates-api-openapi.yml
+- filename: spotio-filters-v2-api-openapi.yml
+  format: yaml
+  label: SPOTIO Filters V2 API
+  slug: spotio-filters-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-filters-v2-api-openapi.yml
+- filename: spotio-user-tracking-api-openapi.yml
+  format: yaml
+  label: SPOTIO User Tracking API
+  slug: spotio-user-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-user-tracking-api-openapi.yml
+- filename: spotio-workflow-stages-api-openapi.yml
   format: yaml
   label: SPOTIO Workflow Stages API
-  slug: spotio-workflowstages-api
+  slug: spotio-workflow-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-workflowstages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/openapi/spotio-workflow-stages-api-openapi.yml
 description: ''
 domains:
 - caa:

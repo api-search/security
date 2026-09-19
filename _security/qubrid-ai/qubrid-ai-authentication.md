@@ -26,12 +26,6 @@ api_specs:
   slug: qubrid-ai-embeddings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-embeddings-api-openapi.yml
-- filename: qubrid-ai-fine-tuned-models-api-openapi.yml
-  format: yaml
-  label: Qubrid AI Fine-Tuned Models API
-  slug: qubrid-ai-fine-tuned-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-fine-tuned-models-api-openapi.yml
 - filename: qubrid-ai-fine-tuning-jobs-api-openapi.yml
   format: yaml
   label: Qubrid AI Fine-Tuning Jobs API
@@ -80,6 +74,12 @@ api_specs:
   slug: qubrid-ai-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-templates-api-openapi.yml
+- filename: qubrid-ai-finetuned-models-api-openapi.yml
+  format: yaml
+  label: Qubrid AI Finetuned Models API
+  slug: qubrid-ai-finetuned-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-finetuned-models-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -117,7 +117,7 @@ tags:
 - Cloud Computing
 - GPU
 - Inference
-- Large Language Models
+- LLM
 - Machine-Learning
 - NVIDIA
 - Serverless

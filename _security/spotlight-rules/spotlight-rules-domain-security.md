@@ -36,9 +36,9 @@ tags:
 - OpenAPI
 - AsyncAPI
 - Arazzo
-- JSON Schema
-- Specifications
-- Open Source
+- JSON-Schema
+- Specification
+- Open-Source
 - Developer Tools
 - API Design
 ---

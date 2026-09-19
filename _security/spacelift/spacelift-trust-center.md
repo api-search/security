@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: spacelift-graphql-api-openapi.yml
+- filename: spacelift-graph-ql-api-openapi.yml
   format: yaml
-  label: Spacelift GraphQL API
-  slug: spacelift-graphql-api
+  label: Spacelift Graph QL API
+  slug: spacelift-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graph-ql-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

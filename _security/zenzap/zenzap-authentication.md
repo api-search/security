@@ -27,12 +27,6 @@ api_specs:
   slug: zenzap-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-messages-api-openapi.yml
-- filename: zenzap-oauth-api-openapi.yml
-  format: yaml
-  label: ZenZap OAuth API
-  slug: zenzap-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-oauth-api-openapi.yml
 - filename: zenzap-polls-api-openapi.yml
   format: yaml
   label: ZenZap Polls API
@@ -51,6 +45,12 @@ api_specs:
   slug: zenzap-topics-group-chats-channels-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-topics-group-chats-channels-conversations-api-openapi.yml
+- filename: zenzap-oauth-api-openapi.yml
+  format: yaml
+  label: ZenZap O Auth API
+  slug: zenzap-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - http

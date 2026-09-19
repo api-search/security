@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Digital Therapeutics
 - Mental Health
-- Medical Device
+- Medical Devices
 - PTSD
 - Anxiety
 ---

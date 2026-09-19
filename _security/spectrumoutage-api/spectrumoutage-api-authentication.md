@@ -71,6 +71,6 @@ tags:
 - ZIP Code
 - Telecom
 - ISP
-- network-status
+- Network Status
 - Crowdsourced
 ---

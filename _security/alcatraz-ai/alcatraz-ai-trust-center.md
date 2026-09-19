@@ -29,7 +29,7 @@ tags:
 - Facial Authentication
 - Physical Security
 - Identity
-- Internet of Things
+- IoT
 - Artificial Intelligence
 trust_url: https://www.alcatraz.ai/resources/privacy-trust-center
 ---

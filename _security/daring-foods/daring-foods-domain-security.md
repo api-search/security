@@ -48,12 +48,6 @@ api_specs:
   slug: daring-foods-posts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-posts-api-openapi.yml
-- filename: daring-foods-oembed-api-openapi.yml
-  format: yaml
-  label: Daring Foods oEmbed API
-  slug: daring-foods-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-oembed-api-openapi.yml
 - filename: daring-foods-seo-api-openapi.yml
   format: yaml
   label: Daring Foods SEO Metadata API
@@ -84,6 +78,12 @@ api_specs:
   slug: daring-foods-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-tags-api-openapi.yml
+- filename: daring-foods-o-embed-api-openapi.yml
+  format: yaml
+  label: Daring Foods o Embed API
+  slug: daring-foods-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

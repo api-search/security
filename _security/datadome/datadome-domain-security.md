@@ -12,12 +12,6 @@ api_specs:
   slug: datadome-accountprotect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-accountprotect-api-openapi.yml
-- filename: datadome-customrules-api-openapi.yml
-  format: yaml
-  label: DataDome CustomRules API
-  slug: datadome-customrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-customrules-api-openapi.yml
 - filename: datadome-endpoints-api-openapi.yml
   format: yaml
   label: DataDome Endpoints API
@@ -48,6 +42,12 @@ api_specs:
   slug: datadome-verifiedmodels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-verifiedmodels-api-openapi.yml
+- filename: datadome-custom-rules-api-openapi.yml
+  format: yaml
+  label: DataDome Custom Rules API
+  slug: datadome-custom-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-custom-rules-api-openapi.yml
 description: ''
 domains:
 - caa:

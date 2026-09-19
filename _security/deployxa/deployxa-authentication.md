@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: deployxa-openapi-original.json
-  format: json
-  label: Deployxa Platform
-  slug: deployxa-platform
+- filename: deployxa-deployments-api-openapi.yml
+  format: yaml
+  label: Deployxa Deployments API
+  slug: deployxa-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/openapi/deployxa-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/openapi/deployxa-deployments-api-openapi.yml
+- filename: deployxa-projects-api-openapi.yml
+  format: yaml
+  label: Deployxa Projects API
+  slug: deployxa-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/openapi/deployxa-projects-api-openapi.yml
 auth_types:
 - http-bearer
 - oauth2
@@ -63,13 +69,13 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://deployx
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/authentication/deployxa-authentication.yml
 summary_line: http-bearer/oauth2 · 3 schemes
 tags:
-- platform-as-a-service
-- cloud-deployment
-- devops
-- ci-cd
+- Platform-as-a-Service
+- Cloud Deployment
+- DevOps
+- CI/CD
 - containers-docker
 - edge-hosting
-- managed-databases
-- ai-ops
-- developer-tools
+- Managed Database
+- AIOps
+- Developer Tools
 ---

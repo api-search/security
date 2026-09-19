@@ -1,875 +1,1691 @@
 ---
 api_specs:
-- filename: fenergo-advanceddashboardcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Advanced Dashboard Command 1.0
-  slug: advanceddashboardcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-advanceddashboardcommand-v1-0-openapi.json
-- filename: fenergo-advanceddashboardquery-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Advanced Dashboard Query 1.0.0
-  slug: advanceddashboardquery-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-advanceddashboardquery-v1-0-0-openapi.json
-- filename: fenergo-associationcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Association Command 1.0
-  slug: associationcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-associationcommand-v1-0-openapi.json
-- filename: fenergo-associationcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Association Command 2.0
-  slug: associationcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-associationcommand-v2-0-openapi.json
-- filename: fenergo-associationquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Association Query 1.0
-  slug: associationquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-associationquery-v1-0-openapi.json
-- filename: fenergo-auditquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Audit Query 1.0
-  slug: auditquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-auditquery-v1-0-openapi.json
-- filename: fenergo-auditquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Audit Query 2.0
-  slug: auditquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-auditquery-v2-0-openapi.json
-- filename: fenergo-auditquery-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula Audit Query 3.0
-  slug: auditquery-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-auditquery-v3-0-openapi.json
-- filename: fenergo-authorizationcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Authorization Command 1.0
-  slug: authorizationcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-authorizationcommand-v1-0-openapi.json
-- filename: fenergo-authorizationquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Authorization Query 1.0
-  slug: authorizationquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-authorizationquery-v1-0-openapi.json
-- filename: fenergo-authorizationquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Authorization Query 2.0
-  slug: authorizationquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-authorizationquery-v2-0-openapi.json
-- filename: fenergo-authorizationquery-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula Authorization Query 3.0
-  slug: authorizationquery-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-authorizationquery-v3-0-openapi.json
-- filename: fenergo-bulkloadcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula BulkLoad Command 1.0
-  slug: bulkloadcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bulkloadcommand-v1-0-openapi.json
-- filename: fenergo-bulkloadcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula BulkLoad Command 2.0
-  slug: bulkloadcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bulkloadcommand-v2-0-openapi.json
-- filename: fenergo-bulkloadquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula BulkLoad Query 1.0
-  slug: bulkloadquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bulkloadquery-v1-0-openapi.json
-- filename: fenergo-businessmetricscommand-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Business Metrics Command 1.0.0
-  slug: businessmetricscommand-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-businessmetricscommand-v1-0-0-openapi.json
-- filename: fenergo-businessmetricsquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Business Metrics Query 1.0
-  slug: businessmetricsquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-businessmetricsquery-v1-0-openapi.json
-- filename: fenergo-changemanagementcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Change Management Command 1.0
-  slug: changemanagementcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-changemanagementcommand-v1-0-openapi.json
-- filename: fenergo-changemanagementquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Change Management Query 1.0
-  slug: changemanagementquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-changemanagementquery-v1-0-openapi.json
-- filename: fenergo-collateralcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Collateral Command 1.0
-  slug: collateralcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-collateralcommand-v1-0-openapi.json
-- filename: fenergo-collateralquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Collateral Query 1.0
-  slug: collateralquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-collateralquery-v1-0-openapi.json
-- filename: fenergo-configbaselinecommand-v1-7-2-openapi.json
-  format: json
-  label: Fenergo Nebula ConfigBaseline Command 1.7.2
-  slug: configbaselinecommand-v1-7-2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configbaselinecommand-v1-7-2-openapi.json
-- filename: fenergo-configbaselinequery-v1-9-3-openapi.json
-  format: json
-  label: Fenergo Nebula ConfigBaseline Query 1.9.3
-  slug: configbaselinequery-v1-9-3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configbaselinequery-v1-9-3-openapi.json
-- filename: fenergo-configexchangecommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Configuration Exchange Command 1.0
-  slug: configexchangecommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configexchangecommand-v1-0-openapi.json
-- filename: fenergo-configexchangequery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Configuration Exchange Query 1.0
-  slug: configexchangequery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configexchangequery-v1-0-openapi.json
-- filename: fenergo-configreleasehubcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Configuration Release Hub Command 1.0
-  slug: configreleasehubcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configreleasehubcommand-v1-0-openapi.json
-- filename: fenergo-covenantsconditionscommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Covenants & Conditions Command API 1.0
-  slug: covenantsconditionscommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-covenantsconditionscommand-v1-0-openapi.json
-- filename: fenergo-covenantsconditionsquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Covenants & Conditions Query API 1.0
-  slug: covenantsconditionsquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-covenantsconditionsquery-v1-0-openapi.json
-- filename: fenergo-creditassessmentcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula CreditAssessment Command 1.0
-  slug: creditassessmentcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditassessmentcommand-v1-0-openapi.json
-- filename: fenergo-creditassessmentquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula CreditAssessment Query 1.0
-  slug: creditassessmentquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditassessmentquery-v1-0-openapi.json
-- filename: fenergo-creditscreeningcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula CreditScreening Command 1.0
-  slug: creditscreeningcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditscreeningcommand-v1-0-openapi.json
-- filename: fenergo-creditscreeningquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula CreditScreening Query 1.0
-  slug: creditscreeningquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditscreeningquery-v1-0-openapi.json
-- filename: fenergo-creditscreeningreceptor-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Adapter Receptor 1.0
-  slug: creditscreeningreceptor-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditscreeningreceptor-v1-0-openapi.json
-- filename: fenergo-dashboardscommand-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Dashboards Command (PENDING DEPRECATION) 1.0.0
-  slug: dashboardscommand-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dashboardscommand-v1-0-0-openapi.json
-- filename: fenergo-dashboardsquery-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Dashboards Query (PENDING DEPRECATION) 1.0.0
-  slug: dashboardsquery-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dashboardsquery-v1-0-0-openapi.json
-- filename: fenergo-datamigrationcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Data Migration Command 1.0
-  slug: datamigrationcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-datamigrationcommand-v1-0-openapi.json
-- filename: fenergo-datamigrationcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Data Migration Command 2.0
-  slug: datamigrationcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-datamigrationcommand-v2-0-openapi.json
-- filename: fenergo-datamigrationquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Data Migration Query 1.0
-  slug: datamigrationquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-datamigrationquery-v1-0-openapi.json
-- filename: fenergo-dataprotectioncommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Data Protection Command 1.0
-  slug: dataprotectioncommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dataprotectioncommand-v1-0-openapi.json
-- filename: fenergo-dataprotectionquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Data Protection Query 1.0
-  slug: dataprotectionquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dataprotectionquery-v1-0-openapi.json
-- filename: fenergo-dealscommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Deals Command 1.0
-  slug: dealscommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dealscommand-v1-0-openapi.json
-- filename: fenergo-dealsquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Deals Query 1.0
-  slug: dealsquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dealsquery-v1-0-openapi.json
-- filename: fenergo-digitalagentscommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula DigitalAgents Command 1.0
-  slug: digitalagentscommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-digitalagentscommand-v1-0-openapi.json
-- filename: fenergo-digitalagentsquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Digital Agents Query 1.0
-  slug: digitalagentsquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-digitalagentsquery-v1-0-openapi.json
-- filename: fenergo-digitalidvcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Digital IDV Command 1.0
-  slug: digitalidvcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-digitalidvcommand-v1-0-openapi.json
-- filename: fenergo-digitalidvcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Digital IDV Command 2.0
-  slug: digitalidvcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-digitalidvcommand-v2-0-openapi.json
-- filename: fenergo-digitalidvquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Digital IDV Query 1.0
-  slug: digitalidvquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-digitalidvquery-v1-0-openapi.json
-- filename: fenergo-digitalidvquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Digital IDV Query 2.0
-  slug: digitalidvquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-digitalidvquery-v2-0-openapi.json
-- filename: fenergo-docgencommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Doc Gen Command 1.0
-  slug: docgencommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-docgencommand-v1-0-openapi.json
-- filename: fenergo-docgenquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Doc Gen Query 1.0
-  slug: docgenquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-docgenquery-v1-0-openapi.json
-- filename: fenergo-documentmanagementcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Document Management Command 1.0
-  slug: documentmanagementcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-documentmanagementcommand-v1-0-openapi.json
-- filename: fenergo-documentmanagementcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Document Management Command 2.0
-  slug: documentmanagementcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-documentmanagementcommand-v2-0-openapi.json
-- filename: fenergo-documentmanagementquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Document Management Query 1.0
-  slug: documentmanagementquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-documentmanagementquery-v1-0-openapi.json
-- filename: fenergo-entitydatacommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula EntityData Command 1.0
-  slug: entitydatacommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydatacommand-v1-0-openapi.json
-- filename: fenergo-entitydatacommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula EntityData Command 2.0
-  slug: entitydatacommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydatacommand-v2-0-openapi.json
-- filename: fenergo-entitydatacommand-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula EntityData Command 3.0
-  slug: entitydatacommand-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydatacommand-v3-0-openapi.json
-- filename: fenergo-entitydataquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula EntityData Query 1.0
-  slug: entitydataquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydataquery-v1-0-openapi.json
-- filename: fenergo-entitydataquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula EntityData Query 2.0
-  slug: entitydataquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydataquery-v2-0-openapi.json
-- filename: fenergo-entityprofilecommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Entity Profile Command 1.0
-  slug: entityprofilecommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityprofilecommand-v1-0-openapi.json
-- filename: fenergo-entityprofilequery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Entity Profile Query 1.0
-  slug: entityprofilequery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityprofilequery-v1-0-openapi.json
-- filename: fenergo-eventingress-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Event Ingress 1.0
-  slug: eventingress-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-eventingress-v1-0-openapi.json
-- filename: fenergo-eventnotifications-v1-0-openapi.json
-  format: json
-  label: Event Notifications Polling 1.0
-  slug: eventnotifications-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-eventnotifications-v1-0-openapi.json
-- filename: fenergo-eventnotifications-v2-0-openapi.json
-  format: json
-  label: Event Notifications Polling 2.0
-  slug: eventnotifications-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-eventnotifications-v2-0-openapi.json
-- filename: fenergo-externalauthenticationcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Authentication Command 1.0
-  slug: externalauthenticationcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externalauthenticationcommand-v1-0-openapi.json
-- filename: fenergo-externalauthenticationquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Authentication Query 1.0
-  slug: externalauthenticationquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externalauthenticationquery-v1-0-openapi.json
-- filename: fenergo-externaldatabff-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data BFF 1.0
-  slug: externaldatabff-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaldatabff-v1-0-openapi.json
-- filename: fenergo-externaldatacommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data Command 1.0
-  slug: externaldatacommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaldatacommand-v1-0-openapi.json
-- filename: fenergo-externaldataquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data Query 1.0
-  slug: externaldataquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaldataquery-v1-0-openapi.json
-- filename: fenergo-externaldatareceptor-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data Adapter Receptor 1.0
-  slug: externaldatareceptor-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaldatareceptor-v1-0-openapi.json
-- filename: fenergo-externaloutreachcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data Outreach Command 1.0
-  slug: externaloutreachcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaloutreachcommand-v1-0-openapi.json
-- filename: fenergo-externaloutreachcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data Outreach Command 2.0
-  slug: externaloutreachcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaloutreachcommand-v2-0-openapi.json
-- filename: fenergo-externaloutreachcommand-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula External Data Outreach Command 3.0
-  slug: externaloutreachcommand-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaloutreachcommand-v3-0-openapi.json
-- filename: fenergo-externaloutreachquery-v1-0-openapi.json
-  format: json
-  label: Fenergo External Data Portal Outreach Query 1.0
-  slug: externaloutreachquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaloutreachquery-v1-0-openapi.json
-- filename: fenergo-financialanalysiscommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Financial Analysis Command API 1.0
-  slug: financialanalysiscommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-financialanalysiscommand-v1-0-openapi.json
-- filename: fenergo-financialanalysisquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Financial Analysis Query API 1.0
-  slug: financialanalysisquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-financialanalysisquery-v1-0-openapi.json
-- filename: fenergo-financialanalysisreceptor-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Financial Analysis Import Adapter Receptor 1.0
-  slug: financialanalysisreceptor-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-financialanalysisreceptor-v1-0-openapi.json
-- filename: fenergo-identity-scim-v1-openapi.json
-  format: json
-  label: Fenergo Nebula Identity Scim API v1
-  slug: identity-scim-v1
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-identity-scim-v1-openapi.json
-- filename: fenergo-identitymanagementcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Identity - Self-Service Management Command 1.0
-  slug: identitymanagementcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-identitymanagementcommand-v1-0-openapi.json
-- filename: fenergo-identitymanagementquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Identity - Self-Service Management Query 1.0
-  slug: identitymanagementquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-identitymanagementquery-v1-0-openapi.json
-- filename: fenergo-integrationcallback-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Integration Callback Api 1.0
-  slug: integrationcallback-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-integrationcallback-v1-0-openapi.json
-- filename: fenergo-integrationcore-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Integration Core Api 1.0
-  slug: integrationcore-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-integrationcore-v1-0-openapi.json
-- filename: fenergo-journeycommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Journey Command 1.0
-  slug: journeycommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeycommand-v1-0-openapi.json
-- filename: fenergo-journeylogicengine-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Journey Logic Engine 1.0
-  slug: journeylogicengine-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeylogicengine-v1-0-openapi.json
-- filename: fenergo-journeylogicengine-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Journey Logic Engine 2.0
-  slug: journeylogicengine-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeylogicengine-v2-0-openapi.json
-- filename: fenergo-journeyquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Journey Query 1.0
-  slug: journeyquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyquery-v1-0-openapi.json
-- filename: fenergo-localisationcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Localisation Command 1.0
-  slug: localisationcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-localisationcommand-v1-0-openapi.json
-- filename: fenergo-localisationquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Localisation Query 1.0
-  slug: localisationquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-localisationquery-v1-0-openapi.json
-- filename: fenergo-logging-centre-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula LoggingCentre 1.0
-  slug: logging-centre-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-logging-centre-v1-0-openapi.json
-- filename: fenergo-lookupcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Lookup Command 1.0
-  slug: lookupcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-lookupcommand-v1-0-openapi.json
-- filename: fenergo-lookupquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Lookup Query 1.0
-  slug: lookupquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-lookupquery-v1-0-openapi.json
-- filename: fenergo-mockadaptercommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening - Mock Adapter 1.0
-  slug: mockadaptercommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-mockadaptercommand-v1-0-openapi.json
-- filename: fenergo-narrativecommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Narrative Command 1.0
-  slug: narrativecommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-narrativecommand-v1-0-openapi.json
-- filename: fenergo-narrativequery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Narrative Query 1.0
-  slug: narrativequery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-narrativequery-v1-0-openapi.json
-- filename: fenergo-newrequest-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula New Request 1.0
-  slug: newrequest-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-newrequest-v1-0-openapi.json
-- filename: fenergo-outreachcommand-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Outreach Command 1.0.0
-  slug: outreachcommand-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-outreachcommand-v1-0-0-openapi.json
-- filename: fenergo-outreachquery-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Outreach Query 1.0.0
-  slug: outreachquery-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-outreachquery-v1-0-0-openapi.json
-- filename: fenergo-policyagent-v1-0-openapi.json
-  format: json
-  label: Policy Agent Api 1.0
-  slug: policyagent-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyagent-v1-0-openapi.json
-- filename: fenergo-policycommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Command 1.0
-  slug: policycommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policycommand-v1-0-openapi.json
-- filename: fenergo-policycommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Command 2.0
-  slug: policycommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policycommand-v2-0-openapi.json
-- filename: fenergo-policylogicengine-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Logic Engine 1.0
-  slug: policylogicengine-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policylogicengine-v1-0-openapi.json
-- filename: fenergo-policylogicengine-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Logic Engine 2.0
-  slug: policylogicengine-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policylogicengine-v2-0-openapi.json
-- filename: fenergo-policylogicengine-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Logic Engine 3.0
-  slug: policylogicengine-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policylogicengine-v3-0-openapi.json
-- filename: fenergo-policyproviderscommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Providers Command 1.0
-  slug: policyproviderscommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyproviderscommand-v1-0-openapi.json
-- filename: fenergo-policyprovidersquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Providers Query 1.0
-  slug: policyprovidersquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyprovidersquery-v1-0-openapi.json
-- filename: fenergo-policyquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Query 1.0
-  slug: policyquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyquery-v1-0-openapi.json
-- filename: fenergo-policyquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Query 2.0
-  slug: policyquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyquery-v2-0-openapi.json
-- filename: fenergo-policyquery-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Query 3.0
-  slug: policyquery-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyquery-v3-0-openapi.json
-- filename: fenergo-policyquery-v4-0-openapi.json
-  format: json
-  label: Fenergo Nebula Policy Query 4.0
-  slug: policyquery-v4-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyquery-v4-0-openapi.json
-- filename: fenergo-portal-bff-v1-0-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Portal API 1.0.0.0
-  slug: portal-bff-v1-0-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-portal-bff-v1-0-0-0-openapi.json
-- filename: fenergo-portaltenantcommand-v4-0-openapi.json
-  format: json
-  label: Fenergo Nebula Portal Tenant Command 4.0
-  slug: portaltenantcommand-v4-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-portaltenantcommand-v4-0-openapi.json
-- filename: fenergo-portaltenantquery-v4-0-openapi.json
-  format: json
-  label: Fenergo Nebula Portal Tenant Query 4.0
-  slug: portaltenantquery-v4-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-portaltenantquery-v4-0-openapi.json
-- filename: fenergo-productcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Product Command 1.0
-  slug: productcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productcommand-v1-0-openapi.json
-- filename: fenergo-productpolicycommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Product Policy Command 1.0
-  slug: productpolicycommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productpolicycommand-v1-0-openapi.json
-- filename: fenergo-productpolicylogicengine-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Product Policy Logic Engine 1.0
-  slug: productpolicylogicengine-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productpolicylogicengine-v1-0-openapi.json
-- filename: fenergo-productpolicyquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Product Policy Query 1.0
-  slug: productpolicyquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productpolicyquery-v1-0-openapi.json
-- filename: fenergo-productquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Product Query 1.0
-  slug: productquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productquery-v1-0-openapi.json
-- filename: fenergo-reportingquery-v1-0-0-openapi.json
-  format: json
-  label: Fenergo Nebula Reporting Query 1.0.0
-  slug: reportingquery-v1-0-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reportingquery-v1-0-0-openapi.json
-- filename: fenergo-reportscommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Reports Command 1.0
-  slug: reportscommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reportscommand-v1-0-openapi.json
-- filename: fenergo-reportscommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Reports Command 2.0
-  slug: reportscommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reportscommand-v2-0-openapi.json
-- filename: fenergo-reportsquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Reports Query 1.0
-  slug: reportsquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reportsquery-v1-0-openapi.json
-- filename: fenergo-reportsquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Reports Query 2.0
-  slug: reportsquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reportsquery-v2-0-openapi.json
-- filename: fenergo-reviewcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Review Command 1.0
-  slug: reviewcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewcommand-v1-0-openapi.json
-- filename: fenergo-reviewquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Review Query 1.0
-  slug: reviewquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewquery-v1-0-openapi.json
-- filename: fenergo-riskcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Risk Command 1.0
-  slug: riskcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-riskcommand-v1-0-openapi.json
-- filename: fenergo-riskquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Risk Query 1.0
-  slug: riskquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-riskquery-v1-0-openapi.json
-- filename: fenergo-screeningcommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Command 1.0
-  slug: screeningcommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningcommand-v1-0-openapi.json
-- filename: fenergo-screeningcommand-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Command 2.0
-  slug: screeningcommand-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningcommand-v2-0-openapi.json
-- filename: fenergo-screeningcommand-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Command 3.0
-  slug: screeningcommand-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningcommand-v3-0-openapi.json
-- filename: fenergo-screeningquery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Query 1.0
-  slug: screeningquery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningquery-v1-0-openapi.json
-- filename: fenergo-screeningquery-v2-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Query 2.0
-  slug: screeningquery-v2-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningquery-v2-0-openapi.json
-- filename: fenergo-screeningquery-v3-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Query 3.0
-  slug: screeningquery-v3-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningquery-v3-0-openapi.json
-- filename: fenergo-screeningquery-v4-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Query 4.0
-  slug: screeningquery-v4-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningquery-v4-0-openapi.json
-- filename: fenergo-screeningreceptor-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Screening Adapter Receptor 1.0
-  slug: screeningreceptor-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningreceptor-v1-0-openapi.json
-- filename: fenergo-significancecommand-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Significance Command API 1.0
-  slug: significancecommand-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-significancecommand-v1-0-openapi.json
-- filename: fenergo-significancequery-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula Significance Query 1.0
-  slug: significancequery-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-significancequery-v1-0-openapi.json
-- filename: fenergo-smartdocs-v1-0-openapi.json
-  format: json
-  label: Fenergo Nebula SmartDocs 1.0
-  slug: smartdocs-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-smartdocs-v1-0-openapi.json
-- filename: fenergo-tm-rule-execution-api-spec-openapi.json
-  format: json
-  label: Rule Execution API 1.0.0
-  slug: tm-rule-execution-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-rule-execution-api-spec-openapi.json
-- filename: fenergo-tm-observability-api-spec-openapi.json
-  format: json
-  label: Observability API 1.0.0
-  slug: tm-observability-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-observability-api-spec-openapi.json
-- filename: fenergo-tm-rule-scheduling-api-spec-openapi.json
-  format: json
-  label: Rule Schedule API 1.0.0
-  slug: tm-rule-scheduling-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-rule-scheduling-api-spec-openapi.json
-- filename: fenergo-tm-rule-rerun-api-spec-openapi.json
-  format: json
-  label: Rule Rerun API 1.0.0
-  slug: tm-rule-rerun-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-rule-rerun-api-spec-openapi.json
-- filename: fenergo-tm-transaction-batch-api-spec-openapi.json
-  format: json
-  label: Transaction batch API 1.1.0
-  slug: tm-transaction-batch-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-transaction-batch-api-spec-openapi.json
-- filename: fenergo-tm-dataexport-api-spec-openapi.json
-  format: json
-  label: Data Export API 3.0.0
-  slug: tm-dataexport-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-dataexport-api-spec-openapi.json
-- filename: fenergo-tm-profile-api-spec-openapi.json
-  format: json
-  label: Profile API 3.0.0
-  slug: tm-profile-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-profile-api-spec-openapi.json
-- filename: fenergo-tm-realtime-api-spec-openapi.json
-  format: json
-  label: Transaction API 3.0.1
-  slug: tm-realtime-api-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tm-realtime-api-spec-openapi.json
-- filename: fenergo-webhooks-v1-0-openapi.json
-  format: json
-  label: Event Notifications Webhooks 1.0
-  slug: webhooks-v1-0
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-webhooks-v1-0-openapi.json
+- filename: fenergo-acceptabledocument-api-openapi.yml
+  format: yaml
+  label: Fenergo Acceptable Document API
+  slug: fenergo-acceptabledocument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-acceptabledocument-api-openapi.yml
+- filename: fenergo-accesslayer-api-openapi.yml
+  format: yaml
+  label: Fenergo Access Layer API
+  slug: fenergo-accesslayer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-accesslayer-api-openapi.yml
+- filename: fenergo-adaptermock-api-openapi.yml
+  format: yaml
+  label: Fenergo Adapter Mock API
+  slug: fenergo-adaptermock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-adaptermock-api-openapi.yml
+- filename: fenergo-advanceddashboard-api-openapi.yml
+  format: yaml
+  label: Fenergo Advanced Dashboard API
+  slug: fenergo-advanceddashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-advanceddashboard-api-openapi.yml
+- filename: fenergo-agency-api-openapi.yml
+  format: yaml
+  label: Fenergo Agency API
+  slug: fenergo-agency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-agency-api-openapi.yml
+- filename: fenergo-agent-api-openapi.yml
+  format: yaml
+  label: Fenergo Agent API
+  slug: fenergo-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-agent-api-openapi.yml
+- filename: fenergo-agentslos-api-openapi.yml
+  format: yaml
+  label: Fenergo Agent Slos API
+  slug: fenergo-agentslos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-agentslos-api-openapi.yml
+- filename: fenergo-agentvaluestory-api-openapi.yml
+  format: yaml
+  label: Fenergo Agent Value Story API
+  slug: fenergo-agentvaluestory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-agentvaluestory-api-openapi.yml
+- filename: fenergo-aggregation-api-openapi.yml
+  format: yaml
+  label: Fenergo Aggregation API
+  slug: fenergo-aggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-aggregation-api-openapi.yml
+- filename: fenergo-allocation-api-openapi.yml
+  format: yaml
+  label: Fenergo Allocation API
+  slug: fenergo-allocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-allocation-api-openapi.yml
+- filename: fenergo-allocationconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Allocation Configuration API
+  slug: fenergo-allocationconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-allocationconfiguration-api-openapi.yml
+- filename: fenergo-asset-api-openapi.yml
+  format: yaml
+  label: Fenergo Asset API
+  slug: fenergo-asset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-asset-api-openapi.yml
+- filename: fenergo-assetdraft-api-openapi.yml
+  format: yaml
+  label: Fenergo Asset Draft API
+  slug: fenergo-assetdraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-assetdraft-api-openapi.yml
+- filename: fenergo-association-api-openapi.yml
+  format: yaml
+  label: Fenergo Association API
+  slug: fenergo-association-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-association-api-openapi.yml
+- filename: fenergo-associationaudit-v3-api-openapi.yml
+  format: yaml
+  label: Fenergo AssociationAudit v3 API
+  slug: fenergo-associationaudit-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-associationaudit-v3-api-openapi.yml
+- filename: fenergo-associationbusinessprocess-api-openapi.yml
+  format: yaml
+  label: Fenergo Association Business Process API
+  slug: fenergo-associationbusinessprocess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-associationbusinessprocess-api-openapi.yml
+- filename: fenergo-assumptions-api-openapi.yml
+  format: yaml
+  label: Fenergo Assumptions API
+  slug: fenergo-assumptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-assumptions-api-openapi.yml
+- filename: fenergo-auditevent-api-openapi.yml
+  format: yaml
+  label: Fenergo Audit Event API
+  slug: fenergo-auditevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-auditevent-api-openapi.yml
+- filename: fenergo-auditevent-v3-api-openapi.yml
+  format: yaml
+  label: Fenergo AuditEvent v3 API
+  slug: fenergo-auditevent-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-auditevent-v3-api-openapi.yml
+- filename: fenergo-auth0-api-openapi.yml
+  format: yaml
+  label: Fenergo Auth0 API
+  slug: fenergo-auth0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-auth0-api-openapi.yml
+- filename: fenergo-authconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Auth Configuration API
+  slug: fenergo-authconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-authconfiguration-api-openapi.yml
+- filename: fenergo-authorization-api-openapi.yml
+  format: yaml
+  label: Fenergo Authorization API
+  slug: fenergo-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-authorization-api-openapi.yml
+- filename: fenergo-automatedcreditassessment-api-openapi.yml
+  format: yaml
+  label: Fenergo Automated Credit Assessment API
+  slug: fenergo-automatedcreditassessment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-automatedcreditassessment-api-openapi.yml
+- filename: fenergo-backtest-api-openapi.yml
+  format: yaml
+  label: Fenergo Backtest API
+  slug: fenergo-backtest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-backtest-api-openapi.yml
+- filename: fenergo-backtest-overview-api-openapi.yml
+  format: yaml
+  label: Fenergo Backtest Overview API
+  slug: fenergo-backtest-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-backtest-overview-api-openapi.yml
+- filename: fenergo-backtests-api-openapi.yml
+  format: yaml
+  label: Fenergo Backtests API
+  slug: fenergo-backtests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-backtests-api-openapi.yml
+- filename: fenergo-baseline-api-openapi.yml
+  format: yaml
+  label: Fenergo Baseline API
+  slug: fenergo-baseline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-baseline-api-openapi.yml
+- filename: fenergo-baselinereference-api-openapi.yml
+  format: yaml
+  label: Fenergo Baseline Reference API
+  slug: fenergo-baselinereference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-baselinereference-api-openapi.yml
+- filename: fenergo-batch-api-openapi.yml
+  format: yaml
+  label: Fenergo Batch API
+  slug: fenergo-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-batch-api-openapi.yml
+- filename: fenergo-batch-transactions-api-openapi.yml
+  format: yaml
+  label: Fenergo Batch Transactions API
+  slug: fenergo-batch-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-batch-transactions-api-openapi.yml
+- filename: fenergo-bulk-api-openapi.yml
+  format: yaml
+  label: Fenergo Bulk API
+  slug: fenergo-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bulk-api-openapi.yml
+- filename: fenergo-bundle-api-openapi.yml
+  format: yaml
+  label: Fenergo Bundle API
+  slug: fenergo-bundle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bundle-api-openapi.yml
+- filename: fenergo-businessnarrative-api-openapi.yml
+  format: yaml
+  label: Fenergo Business Narrative API
+  slug: fenergo-businessnarrative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-businessnarrative-api-openapi.yml
+- filename: fenergo-businessnarratives-api-openapi.yml
+  format: yaml
+  label: Fenergo Business Narratives API
+  slug: fenergo-businessnarratives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-businessnarratives-api-openapi.yml
+- filename: fenergo-cache-api-openapi.yml
+  format: yaml
+  label: Fenergo Cache API
+  slug: fenergo-cache-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-cache-api-openapi.yml
+- filename: fenergo-callback-api-openapi.yml
+  format: yaml
+  label: Fenergo Callback API
+  slug: fenergo-callback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-callback-api-openapi.yml
+- filename: fenergo-categories-api-openapi.yml
+  format: yaml
+  label: Fenergo Categories API
+  slug: fenergo-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-categories-api-openapi.yml
+- filename: fenergo-clients-api-openapi.yml
+  format: yaml
+  label: Fenergo Clients API
+  slug: fenergo-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-clients-api-openapi.yml
+- filename: fenergo-collateral-api-openapi.yml
+  format: yaml
+  label: Fenergo Collateral API
+  slug: fenergo-collateral-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-collateral-api-openapi.yml
+- filename: fenergo-collateraldraft-api-openapi.yml
+  format: yaml
+  label: Fenergo Collateral Draft API
+  slug: fenergo-collateraldraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-collateraldraft-api-openapi.yml
+- filename: fenergo-compliancenarrative-api-openapi.yml
+  format: yaml
+  label: Fenergo Compliance Narrative API
+  slug: fenergo-compliancenarrative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-compliancenarrative-api-openapi.yml
+- filename: fenergo-compliancenarratives-api-openapi.yml
+  format: yaml
+  label: Fenergo Compliance Narratives API
+  slug: fenergo-compliancenarratives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-compliancenarratives-api-openapi.yml
+- filename: fenergo-configenvironment-api-openapi.yml
+  format: yaml
+  label: Fenergo Config Environment API
+  slug: fenergo-configenvironment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configenvironment-api-openapi.yml
+- filename: fenergo-configurablesections-api-openapi.yml
+  format: yaml
+  label: Fenergo Configurable Sections API
+  slug: fenergo-configurablesections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configurablesections-api-openapi.yml
+- filename: fenergo-configuration-api-openapi.yml
+  format: yaml
+  label: Fenergo Configuration API
+  slug: fenergo-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configuration-api-openapi.yml
+- filename: fenergo-configurationversion-api-openapi.yml
+  format: yaml
+  label: Fenergo Configuration Version API
+  slug: fenergo-configurationversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-configurationversion-api-openapi.yml
+- filename: fenergo-conflicts-api-openapi.yml
+  format: yaml
+  label: Fenergo Conflicts API
+  slug: fenergo-conflicts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-conflicts-api-openapi.yml
+- filename: fenergo-covenantcondition-api-openapi.yml
+  format: yaml
+  label: Fenergo Covenant Condition API
+  slug: fenergo-covenantcondition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-covenantcondition-api-openapi.yml
+- filename: fenergo-covenantconditionbatch-api-openapi.yml
+  format: yaml
+  label: Fenergo Covenant Condition Batch API
+  slug: fenergo-covenantconditionbatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-covenantconditionbatch-api-openapi.yml
+- filename: fenergo-creditassessment-api-openapi.yml
+  format: yaml
+  label: Fenergo Credit Assessment API
+  slug: fenergo-creditassessment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditassessment-api-openapi.yml
+- filename: fenergo-creditassessmentprovider-api-openapi.yml
+  format: yaml
+  label: Fenergo Credit Assessment Provider API
+  slug: fenergo-creditassessmentprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditassessmentprovider-api-openapi.yml
+- filename: fenergo-creditscreening-api-openapi.yml
+  format: yaml
+  label: Fenergo Credit Screening API
+  slug: fenergo-creditscreening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditscreening-api-openapi.yml
+- filename: fenergo-creditscreeningprovider-api-openapi.yml
+  format: yaml
+  label: Fenergo Credit Screening Provider API
+  slug: fenergo-creditscreeningprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-creditscreeningprovider-api-openapi.yml
+- filename: fenergo-customtable-api-openapi.yml
+  format: yaml
+  label: Fenergo Custom Table API
+  slug: fenergo-customtable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-customtable-api-openapi.yml
+- filename: fenergo-dashboard-api-openapi.yml
+  format: yaml
+  label: Fenergo Dashboard API
+  slug: fenergo-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dashboard-api-openapi.yml
+- filename: fenergo-dashboardconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Dashboard Configuration API
+  slug: fenergo-dashboardconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dashboardconfiguration-api-openapi.yml
+- filename: fenergo-dashboards-api-openapi.yml
+  format: yaml
+  label: Fenergo Dashboards API
+  slug: fenergo-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dashboards-api-openapi.yml
+- filename: fenergo-data-api-openapi.yml
+  format: yaml
+  label: Fenergo Data API
+  slug: fenergo-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-api-openapi.yml
+- filename: fenergo-data-docs-collection-api-openapi.yml
+  format: yaml
+  label: Fenergo Data & Docs Collection API
+  slug: fenergo-data-docs-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-docs-collection-api-openapi.yml
+- filename: fenergo-data-docs-documents-api-openapi.yml
+  format: yaml
+  label: Fenergo Data & Docs Documents API
+  slug: fenergo-data-docs-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-docs-documents-api-openapi.yml
+- filename: fenergo-data-docs-entity-details-api-openapi.yml
+  format: yaml
+  label: Fenergo Data & Docs Entity Details API
+  slug: fenergo-data-docs-entity-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-docs-entity-details-api-openapi.yml
+- filename: fenergo-data-docs-related-parties-api-openapi.yml
+  format: yaml
+  label: Fenergo Data & Docs Related Parties API
+  slug: fenergo-data-docs-related-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-docs-related-parties-api-openapi.yml
+- filename: fenergo-data-export-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Export API
+  slug: fenergo-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-export-api-openapi.yml
+- filename: fenergo-datadeletionprocess-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Deletion Process API
+  slug: fenergo-datadeletionprocess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-datadeletionprocess-api-openapi.yml
+- filename: fenergo-datagroup-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Group API
+  slug: fenergo-datagroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-datagroup-api-openapi.yml
+- filename: fenergo-datainscope-api-openapi.yml
+  format: yaml
+  label: Fenergo Data In Scope API
+  slug: fenergo-datainscope-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-datainscope-api-openapi.yml
+- filename: fenergo-dataprotectionregime-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Protection Regime API
+  slug: fenergo-dataprotectionregime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dataprotectionregime-api-openapi.yml
+- filename: fenergo-dataretentioncheck-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Retention Check API
+  slug: fenergo-dataretentioncheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dataretentioncheck-api-openapi.yml
+- filename: fenergo-dealdocumentmodel-api-openapi.yml
+  format: yaml
+  label: Fenergo Deal Document Model API
+  slug: fenergo-dealdocumentmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dealdocumentmodel-api-openapi.yml
+- filename: fenergo-dealdocumentrequirement-api-openapi.yml
+  format: yaml
+  label: Fenergo Deal Document Requirement API
+  slug: fenergo-dealdocumentrequirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dealdocumentrequirement-api-openapi.yml
+- filename: fenergo-dealdraft-api-openapi.yml
+  format: yaml
+  label: Fenergo Deal Draft API
+  slug: fenergo-dealdraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dealdraft-api-openapi.yml
+- filename: fenergo-dealdrafts-api-openapi.yml
+  format: yaml
+  label: Fenergo Deal Drafts API
+  slug: fenergo-dealdrafts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dealdrafts-api-openapi.yml
+- filename: fenergo-deals-api-openapi.yml
+  format: yaml
+  label: Fenergo Deals API
+  slug: fenergo-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-deals-api-openapi.yml
+- filename: fenergo-debug-api-openapi.yml
+  format: yaml
+  label: Fenergo Debug API
+  slug: fenergo-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-debug-api-openapi.yml
+- filename: fenergo-docgencomponent-api-openapi.yml
+  format: yaml
+  label: Fenergo Doc Gen Component API
+  slug: fenergo-docgencomponent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-docgencomponent-api-openapi.yml
+- filename: fenergo-docsplit-api-openapi.yml
+  format: yaml
+  label: Fenergo Doc Split API
+  slug: fenergo-docsplit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-docsplit-api-openapi.yml
+- filename: fenergo-document-api-openapi.yml
+  format: yaml
+  label: Fenergo Document API
+  slug: fenergo-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-document-api-openapi.yml
+- filename: fenergo-documentrequirement-api-openapi.yml
+  format: yaml
+  label: Fenergo Document Requirement API
+  slug: fenergo-documentrequirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-documentrequirement-api-openapi.yml
+- filename: fenergo-documentrequirementmetadata-api-openapi.yml
+  format: yaml
+  label: Fenergo Document Requirement Metadata API
+  slug: fenergo-documentrequirementmetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-documentrequirementmetadata-api-openapi.yml
+- filename: fenergo-domain-api-openapi.yml
+  format: yaml
+  label: Fenergo Domain API
+  slug: fenergo-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-domain-api-openapi.yml
+- filename: fenergo-dynamicconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Dynamic Configuration API
+  slug: fenergo-dynamicconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-dynamicconfiguration-api-openapi.yml
+- filename: fenergo-email-api-openapi.yml
+  format: yaml
+  label: Fenergo Email API
+  slug: fenergo-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-email-api-openapi.yml
+- filename: fenergo-endpointconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Endpoint Configuration API
+  slug: fenergo-endpointconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-endpointconfiguration-api-openapi.yml
+- filename: fenergo-engine-api-openapi.yml
+  format: yaml
+  label: Fenergo Engine API
+  slug: fenergo-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-engine-api-openapi.yml
+- filename: fenergo-entity-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity API
+  slug: fenergo-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entity-api-openapi.yml
+- filename: fenergo-entityaccesslogs-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Access Logs API
+  slug: fenergo-entityaccesslogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityaccesslogs-api-openapi.yml
+- filename: fenergo-entityaccesslogs-v3-api-openapi.yml
+  format: yaml
+  label: Fenergo EntityAccessLogs v3 API
+  slug: fenergo-entityaccesslogs-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityaccesslogs-v3-api-openapi.yml
+- filename: fenergo-entitycheckconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Check Configuration API
+  slug: fenergo-entitycheckconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitycheckconfiguration-api-openapi.yml
+- filename: fenergo-entitycheckrequirements-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Check Requirements API
+  slug: fenergo-entitycheckrequirements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitycheckrequirements-api-openapi.yml
+- filename: fenergo-entitycheckverification-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Check Verification API
+  slug: fenergo-entitycheckverification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitycheckverification-api-openapi.yml
+- filename: fenergo-entitydocument-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Document API
+  slug: fenergo-entitydocument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydocument-api-openapi.yml
+- filename: fenergo-entitydraft-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Draft API
+  slug: fenergo-entitydraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydraft-api-openapi.yml
+- filename: fenergo-entitydraftsinscope-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Drafts In Scope API
+  slug: fenergo-entitydraftsinscope-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitydraftsinscope-api-openapi.yml
+- filename: fenergo-entityindexconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Index Configuration API
+  slug: fenergo-entityindexconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityindexconfiguration-api-openapi.yml
+- filename: fenergo-entityinscopeforidv-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity In Scope For Idv API
+  slug: fenergo-entityinscopeforidv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityinscopeforidv-api-openapi.yml
+- filename: fenergo-entitymetrics-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Metrics API
+  slug: fenergo-entitymetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entitymetrics-api-openapi.yml
+- filename: fenergo-entityprofileconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Profile Configuration API
+  slug: fenergo-entityprofileconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityprofileconfiguration-api-openapi.yml
+- filename: fenergo-entityrule-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Rule API
+  slug: fenergo-entityrule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entityrule-api-openapi.yml
+- filename: fenergo-esignatureconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo E Signature Configuration API
+  slug: fenergo-esignatureconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-esignatureconfiguration-api-openapi.yml
+- filename: fenergo-esignaturedocumentrequirement-api-openapi.yml
+  format: yaml
+  label: Fenergo E Signature Document Requirement API
+  slug: fenergo-esignaturedocumentrequirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-esignaturedocumentrequirement-api-openapi.yml
+- filename: fenergo-esignaturetypeconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo E Signature Type Configuration API
+  slug: fenergo-esignaturetypeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-esignaturetypeconfiguration-api-openapi.yml
+- filename: fenergo-evaluatereviewdatestaskstate-api-openapi.yml
+  format: yaml
+  label: Fenergo Evaluate Review Dates Task State API
+  slug: fenergo-evaluatereviewdatestaskstate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-evaluatereviewdatestaskstate-api-openapi.yml
+- filename: fenergo-event-api-openapi.yml
+  format: yaml
+  label: Fenergo Event API
+  slug: fenergo-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-event-api-openapi.yml
+- filename: fenergo-events-api-openapi.yml
+  format: yaml
+  label: Fenergo Events API
+  slug: fenergo-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-events-api-openapi.yml
+- filename: fenergo-execution-api-openapi.yml
+  format: yaml
+  label: Fenergo Execution API
+  slug: fenergo-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-execution-api-openapi.yml
+- filename: fenergo-exportrequirementsetversionbyid-api-openapi.yml
+  format: yaml
+  label: Fenergo Export Requirement Set Version By ID API
+  slug: fenergo-exportrequirementsetversionbyid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-exportrequirementsetversionbyid-api-openapi.yml
+- filename: fenergo-externaladapter-api-openapi.yml
+  format: yaml
+  label: Fenergo External Adapter API
+  slug: fenergo-externaladapter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externaladapter-api-openapi.yml
+- filename: fenergo-externalcalculations-api-openapi.yml
+  format: yaml
+  label: Fenergo External Calculations API
+  slug: fenergo-externalcalculations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-externalcalculations-api-openapi.yml
+- filename: fenergo-extraction-api-openapi.yml
+  format: yaml
+  label: Fenergo Extraction API
+  slug: fenergo-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-extraction-api-openapi.yml
+- filename: fenergo-favourites-api-openapi.yml
+  format: yaml
+  label: Fenergo Favourites API
+  slug: fenergo-favourites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-favourites-api-openapi.yml
+- filename: fenergo-feedback-api-openapi.yml
+  format: yaml
+  label: Fenergo Feedback API
+  slug: fenergo-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-feedback-api-openapi.yml
+- filename: fenergo-fenergo-nebula-outreach-command-api-api-openapi.yml
+  format: yaml
+  label: Fenergo Fenergo.Nebula.Outreach.Command.Api API
+  slug: fenergo-fenergo-nebula-outreach-command-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-fenergo-nebula-outreach-command-api-api-openapi.yml
+- filename: fenergo-fenergo-nebula-outreach-query-api-api-openapi.yml
+  format: yaml
+  label: Fenergo Fenergo.Nebula.Outreach.Query.Api API
+  slug: fenergo-fenergo-nebula-outreach-query-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-fenergo-nebula-outreach-query-api-api-openapi.yml
+- filename: fenergo-field-api-openapi.yml
+  format: yaml
+  label: Fenergo Field API
+  slug: fenergo-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-field-api-openapi.yml
+- filename: fenergo-financialanalysis-api-openapi.yml
+  format: yaml
+  label: Fenergo Financial Analysis API
+  slug: fenergo-financialanalysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-financialanalysis-api-openapi.yml
+- filename: fenergo-flowtemplate-api-openapi.yml
+  format: yaml
+  label: Fenergo Flow Template API
+  slug: fenergo-flowtemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-flowtemplate-api-openapi.yml
+- filename: fenergo-getfieldsgroupedlookupoptions-api-openapi.yml
+  format: yaml
+  label: Fenergo Get Fields Grouped Lookup Options API
+  slug: fenergo-getfieldsgroupedlookupoptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-getfieldsgroupedlookupoptions-api-openapi.yml
+- filename: fenergo-getmergedproductrequirementsetsdatafields-api-openapi.yml
+  format: yaml
+  label: Fenergo Get Merged Product Requirement Sets Data Fields API
+  slug: fenergo-getmergedproductrequirementsetsdatafields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-getmergedproductrequirementsetsdatafields-api-openapi.yml
+- filename: fenergo-getmergedrequirementsetsdatafields-api-openapi.yml
+  format: yaml
+  label: Fenergo Get Merged Requirement Sets Data Fields API
+  slug: fenergo-getmergedrequirementsetsdatafields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-getmergedrequirementsetsdatafields-api-openapi.yml
+- filename: fenergo-getrequirementsbyversionidpaged-api-openapi.yml
+  format: yaml
+  label: Fenergo Get Requirements By Version ID Paged API
+  slug: fenergo-getrequirementsbyversionidpaged-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-getrequirementsbyversionidpaged-api-openapi.yml
+- filename: fenergo-getrequirementsetversionlightbyid-api-openapi.yml
+  format: yaml
+  label: Fenergo Get Requirement Set Version Light By ID API
+  slug: fenergo-getrequirementsetversionlightbyid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-getrequirementsetversionlightbyid-api-openapi.yml
+- filename: fenergo-getrequirenmentsetsbyidslight-api-openapi.yml
+  format: yaml
+  label: Fenergo Get Requirenment Sets By IDS Light API
+  slug: fenergo-getrequirenmentsetsbyidslight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-getrequirenmentsetsbyidslight-api-openapi.yml
+- filename: fenergo-groups-api-openapi.yml
+  format: yaml
+  label: Fenergo Groups API
+  slug: fenergo-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-groups-api-openapi.yml
+- filename: fenergo-idvbusinessprocess-api-openapi.yml
+  format: yaml
+  label: Fenergo Idv Business Process API
+  slug: fenergo-idvbusinessprocess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-idvbusinessprocess-api-openapi.yml
+- filename: fenergo-idvconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Idv Configuration API
+  slug: fenergo-idvconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-idvconfiguration-api-openapi.yml
+- filename: fenergo-idvrequirementstatus-api-openapi.yml
+  format: yaml
+  label: Fenergo Idv Requirement Status API
+  slug: fenergo-idvrequirementstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-idvrequirementstatus-api-openapi.yml
+- filename: fenergo-import-api-openapi.yml
+  format: yaml
+  label: Fenergo Import API
+  slug: fenergo-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-import-api-openapi.yml
+- filename: fenergo-importhistory-api-openapi.yml
+  format: yaml
+  label: Fenergo Import History API
+  slug: fenergo-importhistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-importhistory-api-openapi.yml
+- filename: fenergo-importprovider-api-openapi.yml
+  format: yaml
+  label: Fenergo Import Provider API
+  slug: fenergo-importprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-importprovider-api-openapi.yml
+- filename: fenergo-importrecord-api-openapi.yml
+  format: yaml
+  label: Fenergo Import Record API
+  slug: fenergo-importrecord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-importrecord-api-openapi.yml
+- filename: fenergo-importsession-api-openapi.yml
+  format: yaml
+  label: Fenergo Import Session API
+  slug: fenergo-importsession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-importsession-api-openapi.yml
+- filename: fenergo-insights-api-openapi.yml
+  format: yaml
+  label: Fenergo Insights API
+  slug: fenergo-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-insights-api-openapi.yml
+- filename: fenergo-journeycompletedelapsedtimedaily-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Completed Elapsed Time Daily API
+  slug: fenergo-journeycompletedelapsedtimedaily-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeycompletedelapsedtimedaily-api-openapi.yml
+- filename: fenergo-journeyconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Configuration API
+  slug: fenergo-journeyconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyconfiguration-api-openapi.yml
+- filename: fenergo-journeydashboard-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Dashboard API
+  slug: fenergo-journeydashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeydashboard-api-openapi.yml
+- filename: fenergo-journeydashboardconfigurationversion-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Dashboard Configuration Version API
+  slug: fenergo-journeydashboardconfigurationversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeydashboardconfigurationversion-api-openapi.yml
+- filename: fenergo-journeyinstance-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Instance API
+  slug: fenergo-journeyinstance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyinstance-api-openapi.yml
+- filename: fenergo-journeylaunchcontrols-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Launch Controls API
+  slug: fenergo-journeylaunchcontrols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeylaunchcontrols-api-openapi.yml
+- filename: fenergo-journeyreport-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Report API
+  slug: fenergo-journeyreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyreport-api-openapi.yml
+- filename: fenergo-journeyschedule-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Schedule API
+  slug: fenergo-journeyschedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyschedule-api-openapi.yml
+- filename: fenergo-journeyscheduledate-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Schedule Date API
+  slug: fenergo-journeyscheduledate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyscheduledate-api-openapi.yml
+- filename: fenergo-journeyschema-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Schema API
+  slug: fenergo-journeyschema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyschema-api-openapi.yml
+- filename: fenergo-journeyslaconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Sla Configuration API
+  slug: fenergo-journeyslaconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeyslaconfiguration-api-openapi.yml
+- filename: fenergo-journeystats-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Stats API
+  slug: fenergo-journeystats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeystats-api-openapi.yml
+- filename: fenergo-journeysummary-api-openapi.yml
+  format: yaml
+  label: Fenergo Journey Summary API
+  slug: fenergo-journeysummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-journeysummary-api-openapi.yml
+- filename: fenergo-jurisdiction-api-openapi.yml
+  format: yaml
+  label: Fenergo Jurisdiction API
+  slug: fenergo-jurisdiction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-jurisdiction-api-openapi.yml
+- filename: fenergo-legalholdentity-api-openapi.yml
+  format: yaml
+  label: Fenergo Legal Hold Entity API
+  slug: fenergo-legalholdentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-legalholdentity-api-openapi.yml
+- filename: fenergo-localisation-api-openapi.yml
+  format: yaml
+  label: Fenergo Localisation API
+  slug: fenergo-localisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-localisation-api-openapi.yml
+- filename: fenergo-localisationcontext-api-openapi.yml
+  format: yaml
+  label: Fenergo Localisation Context API
+  slug: fenergo-localisationcontext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-localisationcontext-api-openapi.yml
+- filename: fenergo-logs-api-openapi.yml
+  format: yaml
+  label: Fenergo Logs API
+  slug: fenergo-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-logs-api-openapi.yml
+- filename: fenergo-lookup-api-openapi.yml
+  format: yaml
+  label: Fenergo Lookup API
+  slug: fenergo-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-lookup-api-openapi.yml
+- filename: fenergo-lookuplink-api-openapi.yml
+  format: yaml
+  label: Fenergo Lookup Link API
+  slug: fenergo-lookuplink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-lookuplink-api-openapi.yml
+- filename: fenergo-manualcreditscreening-api-openapi.yml
+  format: yaml
+  label: Fenergo Manual Credit Screening API
+  slug: fenergo-manualcreditscreening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-manualcreditscreening-api-openapi.yml
+- filename: fenergo-manualcreditscreeningbatch-api-openapi.yml
+  format: yaml
+  label: Fenergo Manual Credit Screening Batch API
+  slug: fenergo-manualcreditscreeningbatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-manualcreditscreeningbatch-api-openapi.yml
+- filename: fenergo-mapping-api-openapi.yml
+  format: yaml
+  label: Fenergo Mapping API
+  slug: fenergo-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-mapping-api-openapi.yml
+- filename: fenergo-match-api-openapi.yml
+  format: yaml
+  label: Fenergo Match API
+  slug: fenergo-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-match-api-openapi.yml
+- filename: fenergo-matchandmergeconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Match And Merge Configuration API
+  slug: fenergo-matchandmergeconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-matchandmergeconfiguration-api-openapi.yml
+- filename: fenergo-matchdocument-api-openapi.yml
+  format: yaml
+  label: Fenergo Match Document API
+  slug: fenergo-matchdocument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-matchdocument-api-openapi.yml
+- filename: fenergo-metric-api-openapi.yml
+  format: yaml
+  label: Fenergo Metric API
+  slug: fenergo-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-metric-api-openapi.yml
+- filename: fenergo-migration-api-openapi.yml
+  format: yaml
+  label: Fenergo Migration API
+  slug: fenergo-migration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-migration-api-openapi.yml
+- filename: fenergo-namingconvention-api-openapi.yml
+  format: yaml
+  label: Fenergo Naming Convention API
+  slug: fenergo-namingconvention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-namingconvention-api-openapi.yml
+- filename: fenergo-narrative-api-openapi.yml
+  format: yaml
+  label: Fenergo Narrative API
+  slug: fenergo-narrative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-narrative-api-openapi.yml
+- filename: fenergo-ongoingmonitoring-api-openapi.yml
+  format: yaml
+  label: Fenergo Ongoing Monitoring API
+  slug: fenergo-ongoingmonitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-ongoingmonitoring-api-openapi.yml
+- filename: fenergo-orphanentity-api-openapi.yml
+  format: yaml
+  label: Fenergo Orphan Entity API
+  slug: fenergo-orphanentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-orphanentity-api-openapi.yml
+- filename: fenergo-orphanentityprocess-api-openapi.yml
+  format: yaml
+  label: Fenergo Orphan Entity Process API
+  slug: fenergo-orphanentityprocess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-orphanentityprocess-api-openapi.yml
+- filename: fenergo-outcome-api-openapi.yml
+  format: yaml
+  label: Fenergo Outcome API
+  slug: fenergo-outcome-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-outcome-api-openapi.yml
+- filename: fenergo-passwordless-api-openapi.yml
+  format: yaml
+  label: Fenergo Passwordless API
+  slug: fenergo-passwordless-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-passwordless-api-openapi.yml
+- filename: fenergo-peer-group-api-openapi.yml
+  format: yaml
+  label: Fenergo Peer Group API
+  slug: fenergo-peer-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-peer-group-api-openapi.yml
+- filename: fenergo-persistedstorage-api-openapi.yml
+  format: yaml
+  label: Fenergo Persisted Storage API
+  slug: fenergo-persistedstorage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-persistedstorage-api-openapi.yml
+- filename: fenergo-policy-api-openapi.yml
+  format: yaml
+  label: Fenergo Policy API
+  slug: fenergo-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policy-api-openapi.yml
+- filename: fenergo-policydiff-api-openapi.yml
+  format: yaml
+  label: Fenergo Policy Diff API
+  slug: fenergo-policydiff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policydiff-api-openapi.yml
+- filename: fenergo-policyprovider-api-openapi.yml
+  format: yaml
+  label: Fenergo Policy Provider API
+  slug: fenergo-policyprovider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-policyprovider-api-openapi.yml
+- filename: fenergo-portalrole-api-openapi.yml
+  format: yaml
+  label: Fenergo Portal Role API
+  slug: fenergo-portalrole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-portalrole-api-openapi.yml
+- filename: fenergo-portalusers-api-openapi.yml
+  format: yaml
+  label: Fenergo Portal Users API
+  slug: fenergo-portalusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-portalusers-api-openapi.yml
+- filename: fenergo-process-api-openapi.yml
+  format: yaml
+  label: Fenergo Process API
+  slug: fenergo-process-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-process-api-openapi.yml
+- filename: fenergo-product-api-openapi.yml
+  format: yaml
+  label: Fenergo Product API
+  slug: fenergo-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-product-api-openapi.yml
+- filename: fenergo-productaccesslayer-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Access Layer API
+  slug: fenergo-productaccesslayer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productaccesslayer-api-openapi.yml
+- filename: fenergo-productdocumentmodel-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Document Model API
+  slug: fenergo-productdocumentmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productdocumentmodel-api-openapi.yml
+- filename: fenergo-productdocumentrequirement-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Document Requirement API
+  slug: fenergo-productdocumentrequirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productdocumentrequirement-api-openapi.yml
+- filename: fenergo-productdraft-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Draft API
+  slug: fenergo-productdraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productdraft-api-openapi.yml
+- filename: fenergo-productdraftconflictresolution-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Draft Conflict Resolution API
+  slug: fenergo-productdraftconflictresolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productdraftconflictresolution-api-openapi.yml
+- filename: fenergo-productrequirementset-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Requirement Set API
+  slug: fenergo-productrequirementset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productrequirementset-api-openapi.yml
+- filename: fenergo-productrequirementsinscope-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Requirements In Scope API
+  slug: fenergo-productrequirementsinscope-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productrequirementsinscope-api-openapi.yml
+- filename: fenergo-productrequirementtag-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Requirement Tag API
+  slug: fenergo-productrequirementtag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productrequirementtag-api-openapi.yml
+- filename: fenergo-productrule-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Rule API
+  slug: fenergo-productrule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productrule-api-openapi.yml
+- filename: fenergo-productrules-api-openapi.yml
+  format: yaml
+  label: Fenergo Product Rules API
+  slug: fenergo-productrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-productrules-api-openapi.yml
+- filename: fenergo-profiles-api-openapi.yml
+  format: yaml
+  label: Fenergo Profiles API
+  slug: fenergo-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-profiles-api-openapi.yml
+- filename: fenergo-projectedmetrics-api-openapi.yml
+  format: yaml
+  label: Fenergo Projected Metrics API
+  slug: fenergo-projectedmetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-projectedmetrics-api-openapi.yml
+- filename: fenergo-protected-api-openapi.yml
+  format: yaml
+  label: Fenergo Protected API
+  slug: fenergo-protected-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-protected-api-openapi.yml
+- filename: fenergo-providers-configuration-api-openapi.yml
+  format: yaml
+  label: Fenergo Providers Configuration API
+  slug: fenergo-providers-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-providers-configuration-api-openapi.yml
+- filename: fenergo-publicdashboards-api-openapi.yml
+  format: yaml
+  label: Fenergo Public Dashboards API
+  slug: fenergo-publicdashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-publicdashboards-api-openapi.yml
+- filename: fenergo-publish-api-openapi.yml
+  format: yaml
+  label: Fenergo Publish API
+  slug: fenergo-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-publish-api-openapi.yml
+- filename: fenergo-qafindings-api-openapi.yml
+  format: yaml
+  label: Fenergo Qa Findings API
+  slug: fenergo-qafindings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-qafindings-api-openapi.yml
+- filename: fenergo-query-api-openapi.yml
+  format: yaml
+  label: Fenergo Query API
+  slug: fenergo-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-query-api-openapi.yml
+- filename: fenergo-rag-api-openapi.yml
+  format: yaml
+  label: Fenergo Rag API
+  slug: fenergo-rag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-rag-api-openapi.yml
+- filename: fenergo-receptor-api-openapi.yml
+  format: yaml
+  label: Fenergo Receptor API
+  slug: fenergo-receptor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-receptor-api-openapi.yml
+- filename: fenergo-relatedpartyaccesslayersinheritanceconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Related Party Access Layers Inheritance Configuration API
+  slug: fenergo-relatedpartyaccesslayersinheritanceconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-relatedpartyaccesslayersinheritanceconfiguration-api-openapi.yml
+- filename: fenergo-relatedpartyrequirement-api-openapi.yml
+  format: yaml
+  label: Fenergo Related Party Requirement API
+  slug: fenergo-relatedpartyrequirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-relatedpartyrequirement-api-openapi.yml
+- filename: fenergo-report-api-openapi.yml
+  format: yaml
+  label: Fenergo Report API
+  slug: fenergo-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-report-api-openapi.yml
+- filename: fenergo-reportbranding-api-openapi.yml
+  format: yaml
+  label: Fenergo Report Branding API
+  slug: fenergo-reportbranding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reportbranding-api-openapi.yml
+- filename: fenergo-requirements-api-openapi.yml
+  format: yaml
+  label: Fenergo Requirements API
+  slug: fenergo-requirements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-requirements-api-openapi.yml
+- filename: fenergo-requirementset-api-openapi.yml
+  format: yaml
+  label: Fenergo Requirement Set API
+  slug: fenergo-requirementset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-requirementset-api-openapi.yml
+- filename: fenergo-requirementsinscope-api-openapi.yml
+  format: yaml
+  label: Fenergo Requirements In Scope API
+  slug: fenergo-requirementsinscope-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-requirementsinscope-api-openapi.yml
+- filename: fenergo-review-api-openapi.yml
+  format: yaml
+  label: Fenergo Review API
+  slug: fenergo-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-review-api-openapi.yml
+- filename: fenergo-reviewandapprovalconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Review And Approval Configuration API
+  slug: fenergo-reviewandapprovalconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewandapprovalconfiguration-api-openapi.yml
+- filename: fenergo-reviewandapprovalconfigurationquery-api-openapi.yml
+  format: yaml
+  label: Fenergo Review And Approval Configuration Query API
+  slug: fenergo-reviewandapprovalconfigurationquery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewandapprovalconfigurationquery-api-openapi.yml
+- filename: fenergo-reviewandapprovaltask-api-openapi.yml
+  format: yaml
+  label: Fenergo Review And Approval Task API
+  slug: fenergo-reviewandapprovaltask-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewandapprovaltask-api-openapi.yml
+- filename: fenergo-reviewconfig-api-openapi.yml
+  format: yaml
+  label: Fenergo Review Config API
+  slug: fenergo-reviewconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewconfig-api-openapi.yml
+- filename: fenergo-reviewmanager-api-openapi.yml
+  format: yaml
+  label: Fenergo Review Manager API
+  slug: fenergo-reviewmanager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewmanager-api-openapi.yml
+- filename: fenergo-reviewmanagerconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Review Manager Configuration API
+  slug: fenergo-reviewmanagerconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reviewmanagerconfiguration-api-openapi.yml
+- filename: fenergo-richtexteditor-api-openapi.yml
+  format: yaml
+  label: Fenergo Rich Text Editor API
+  slug: fenergo-richtexteditor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-richtexteditor-api-openapi.yml
+- filename: fenergo-riskcalculatoroptionmodel-api-openapi.yml
+  format: yaml
+  label: Fenergo Risk Calculator Option Model API
+  slug: fenergo-riskcalculatoroptionmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-riskcalculatoroptionmodel-api-openapi.yml
+- filename: fenergo-riskconfiguration-api-openapi.yml
+  format: yaml
+  label: Fenergo Risk Configuration API
+  slug: fenergo-riskconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-riskconfiguration-api-openapi.yml
+- filename: fenergo-riskexport-api-openapi.yml
+  format: yaml
+  label: Fenergo Risk Export API
+  slug: fenergo-riskexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-riskexport-api-openapi.yml
+- filename: fenergo-riskmodel-api-openapi.yml
+  format: yaml
+  label: Fenergo Risk Model API
+  slug: fenergo-riskmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-riskmodel-api-openapi.yml
+- filename: fenergo-rules-api-openapi.yml
+  format: yaml
+  label: Fenergo Rules API
+  slug: fenergo-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-rules-api-openapi.yml
+- filename: fenergo-schedule-api-openapi.yml
+  format: yaml
+  label: Fenergo Schedule API
+  slug: fenergo-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-schedule-api-openapi.yml
+- filename: fenergo-schema-api-openapi.yml
+  format: yaml
+  label: Fenergo Schema API
+  slug: fenergo-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-schema-api-openapi.yml
+- filename: fenergo-schemas-api-openapi.yml
+  format: yaml
+  label: Fenergo Schemas API
+  slug: fenergo-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-schemas-api-openapi.yml
+- filename: fenergo-scopedentity-api-openapi.yml
+  format: yaml
+  label: Fenergo Scoped Entity API
+  slug: fenergo-scopedentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-scopedentity-api-openapi.yml
+- filename: fenergo-scopingruleset-api-openapi.yml
+  format: yaml
+  label: Fenergo Scoping Rule Set API
+  slug: fenergo-scopingruleset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-scopingruleset-api-openapi.yml
+- filename: fenergo-scorecards-api-openapi.yml
+  format: yaml
+  label: Fenergo Scorecards API
+  slug: fenergo-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-scorecards-api-openapi.yml
+- filename: fenergo-screeningentity-api-openapi.yml
+  format: yaml
+  label: Fenergo Screening Entity API
+  slug: fenergo-screeningentity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-screeningentity-api-openapi.yml
+- filename: fenergo-search-api-openapi.yml
+  format: yaml
+  label: Fenergo Search API
+  slug: fenergo-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-search-api-openapi.yml
+- filename: fenergo-selfserviceclientmanagement-api-openapi.yml
+  format: yaml
+  label: Fenergo Self Service Client Management API
+  slug: fenergo-selfserviceclientmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-selfserviceclientmanagement-api-openapi.yml
+- filename: fenergo-selfserviceusermanagement-api-openapi.yml
+  format: yaml
+  label: Fenergo Self Service User Management API
+  slug: fenergo-selfserviceusermanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-selfserviceusermanagement-api-openapi.yml
+- filename: fenergo-sensitivedataaccesslog-api-openapi.yml
+  format: yaml
+  label: Fenergo Sensitive Data Access Log API
+  slug: fenergo-sensitivedataaccesslog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-sensitivedataaccesslog-api-openapi.yml
+- filename: fenergo-significanceagentconfig-api-openapi.yml
+  format: yaml
+  label: Fenergo Significance Agent Config API
+  slug: fenergo-significanceagentconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-significanceagentconfig-api-openapi.yml
+- filename: fenergo-significanceresult-api-openapi.yml
+  format: yaml
+  label: Fenergo Significance Result API
+  slug: fenergo-significanceresult-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-significanceresult-api-openapi.yml
+- filename: fenergo-significancerule-api-openapi.yml
+  format: yaml
+  label: Fenergo Significance Rule API
+  slug: fenergo-significancerule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-significancerule-api-openapi.yml
+- filename: fenergo-state-api-openapi.yml
+  format: yaml
+  label: Fenergo State API
+  slug: fenergo-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-state-api-openapi.yml
+- filename: fenergo-tag-api-openapi.yml
+  format: yaml
+  label: Fenergo Tag API
+  slug: fenergo-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tag-api-openapi.yml
+- filename: fenergo-taskdailymetrics-api-openapi.yml
+  format: yaml
+  label: Fenergo Task Daily Metrics API
+  slug: fenergo-taskdailymetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-taskdailymetrics-api-openapi.yml
+- filename: fenergo-taskdashboardconfigurationversion-api-openapi.yml
+  format: yaml
+  label: Fenergo Task Dashboard Configuration Version API
+  slug: fenergo-taskdashboardconfigurationversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-taskdashboardconfigurationversion-api-openapi.yml
+- filename: fenergo-taskqueuedashboard-api-openapi.yml
+  format: yaml
+  label: Fenergo Task Queue Dashboard API
+  slug: fenergo-taskqueuedashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-taskqueuedashboard-api-openapi.yml
+- filename: fenergo-tasks-api-openapi.yml
+  format: yaml
+  label: Fenergo Tasks API
+  slug: fenergo-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-tasks-api-openapi.yml
+- filename: fenergo-team-api-openapi.yml
+  format: yaml
+  label: Fenergo Team API
+  slug: fenergo-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-team-api-openapi.yml
+- filename: fenergo-teamtasks-api-openapi.yml
+  format: yaml
+  label: Fenergo Team Tasks API
+  slug: fenergo-teamtasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-teamtasks-api-openapi.yml
+- filename: fenergo-template-api-openapi.yml
+  format: yaml
+  label: Fenergo Template API
+  slug: fenergo-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-template-api-openapi.yml
+- filename: fenergo-temporarydocumentmodel-api-openapi.yml
+  format: yaml
+  label: Fenergo Temporary Document Model API
+  slug: fenergo-temporarydocumentmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-temporarydocumentmodel-api-openapi.yml
+- filename: fenergo-thresholdmodel-api-openapi.yml
+  format: yaml
+  label: Fenergo Threshold Model API
+  slug: fenergo-thresholdmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-thresholdmodel-api-openapi.yml
+- filename: fenergo-transactionalertmetrics-api-openapi.yml
+  format: yaml
+  label: Fenergo Transaction Alert Metrics API
+  slug: fenergo-transactionalertmetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-transactionalertmetrics-api-openapi.yml
+- filename: fenergo-transactions-api-openapi.yml
+  format: yaml
+  label: Fenergo Transactions API
+  slug: fenergo-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-transactions-api-openapi.yml
+- filename: fenergo-transformerlibrary-api-openapi.yml
+  format: yaml
+  label: Fenergo Transformer Library API
+  slug: fenergo-transformerlibrary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-transformerlibrary-api-openapi.yml
+- filename: fenergo-ultimatebeneficialowner-api-openapi.yml
+  format: yaml
+  label: Fenergo Ultimate Beneficial Owner API
+  slug: fenergo-ultimatebeneficialowner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-ultimatebeneficialowner-api-openapi.yml
+- filename: fenergo-unassignedtasks-api-openapi.yml
+  format: yaml
+  label: Fenergo Unassigned Tasks API
+  slug: fenergo-unassignedtasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-unassignedtasks-api-openapi.yml
+- filename: fenergo-unwrappingrequirementstatus-api-openapi.yml
+  format: yaml
+  label: Fenergo Unwrapping Requirement Status API
+  slug: fenergo-unwrappingrequirementstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-unwrappingrequirementstatus-api-openapi.yml
+- filename: fenergo-user-api-openapi.yml
+  format: yaml
+  label: Fenergo User API
+  slug: fenergo-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-user-api-openapi.yml
+- filename: fenergo-userdashboards-api-openapi.yml
+  format: yaml
+  label: Fenergo User Dashboards API
+  slug: fenergo-userdashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-userdashboards-api-openapi.yml
+- filename: fenergo-userjourneydashboard-api-openapi.yml
+  format: yaml
+  label: Fenergo User Journey Dashboard API
+  slug: fenergo-userjourneydashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-userjourneydashboard-api-openapi.yml
+- filename: fenergo-userpreference-api-openapi.yml
+  format: yaml
+  label: Fenergo User Preference API
+  slug: fenergo-userpreference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-userpreference-api-openapi.yml
+- filename: fenergo-users-api-openapi.yml
+  format: yaml
+  label: Fenergo Users API
+  slug: fenergo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-users-api-openapi.yml
+- filename: fenergo-validationrule-api-openapi.yml
+  format: yaml
+  label: Fenergo Validation Rule API
+  slug: fenergo-validationrule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-validationrule-api-openapi.yml
+- filename: fenergo-verification-api-openapi.yml
+  format: yaml
+  label: Fenergo Verification API
+  slug: fenergo-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-verification-api-openapi.yml
+- filename: fenergo-webhooks-api-openapi.yml
+  format: yaml
+  label: Fenergo Webhooks API
+  slug: fenergo-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-webhooks-api-openapi.yml
+- filename: fenergo-workspace-api-openapi.yml
+  format: yaml
+  label: Fenergo Workspace API
+  slug: fenergo-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-workspace-api-openapi.yml
+- filename: fenergo-esignature-api-openapi.yml
+  format: yaml
+  label: Fenergo E Signature API
+  slug: fenergo-esignature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-esignature-api-openapi.yml
+- filename: fenergo-bulk-actions-api-openapi.yml
+  format: yaml
+  label: Fenergo Bulk Actions API
+  slug: fenergo-bulk-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bulk-actions-api-openapi.yml
+- filename: fenergo-bulk-load-api-openapi.yml
+  format: yaml
+  label: Fenergo Bulk Load API
+  slug: fenergo-bulk-load-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-bulk-load-api-openapi.yml
+- filename: fenergo-business-processes-api-openapi.yml
+  format: yaml
+  label: Fenergo Business Processes API
+  slug: fenergo-business-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-business-processes-api-openapi.yml
+- filename: fenergo-change-management-api-openapi.yml
+  format: yaml
+  label: Fenergo Change Management API
+  slug: fenergo-change-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-change-management-api-openapi.yml
+- filename: fenergo-data-deletion-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Deletion API
+  slug: fenergo-data-deletion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-deletion-api-openapi.yml
+- filename: fenergo-data-source-api-openapi.yml
+  format: yaml
+  label: Fenergo Data Source API
+  slug: fenergo-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-data-source-api-openapi.yml
+- filename: fenergo-document-configuration-api-openapi.yml
+  format: yaml
+  label: Fenergo Document Configuration API
+  slug: fenergo-document-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-document-configuration-api-openapi.yml
+- filename: fenergo-document-model-api-openapi.yml
+  format: yaml
+  label: Fenergo Document Model API
+  slug: fenergo-document-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-document-model-api-openapi.yml
+- filename: fenergo-email-template-api-openapi.yml
+  format: yaml
+  label: Fenergo Email Template API
+  slug: fenergo-email-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-email-template-api-openapi.yml
+- filename: fenergo-entity-report-api-openapi.yml
+  format: yaml
+  label: Fenergo Entity Report API
+  slug: fenergo-entity-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-entity-report-api-openapi.yml
+- filename: fenergo-event-notifications-api-openapi.yml
+  format: yaml
+  label: Fenergo Event Notifications API
+  slug: fenergo-event-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-event-notifications-api-openapi.yml
+- filename: fenergo-event-types-api-openapi.yml
+  format: yaml
+  label: Fenergo Event Types API
+  slug: fenergo-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-event-types-api-openapi.yml
+- filename: fenergo-global-settings-api-openapi.yml
+  format: yaml
+  label: Fenergo Global Settings API
+  slug: fenergo-global-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-global-settings-api-openapi.yml
+- filename: fenergo-legal-hold-api-openapi.yml
+  format: yaml
+  label: Fenergo Legal Hold API
+  slug: fenergo-legal-hold-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-legal-hold-api-openapi.yml
+- filename: fenergo-ongoing-screening-api-openapi.yml
+  format: yaml
+  label: Fenergo Ongoing Screening API
+  slug: fenergo-ongoing-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-ongoing-screening-api-openapi.yml
+- filename: fenergo-query-definition-api-openapi.yml
+  format: yaml
+  label: Fenergo Query Definition API
+  slug: fenergo-query-definition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-query-definition-api-openapi.yml
+- filename: fenergo-reference-data-api-openapi.yml
+  format: yaml
+  label: Fenergo Reference Data API
+  slug: fenergo-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-reference-data-api-openapi.yml
+- filename: fenergo-related-data-api-openapi.yml
+  format: yaml
+  label: Fenergo Related Data API
+  slug: fenergo-related-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-related-data-api-openapi.yml
+- filename: fenergo-resource-types-api-openapi.yml
+  format: yaml
+  label: Fenergo Resource Types API
+  slug: fenergo-resource-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-resource-types-api-openapi.yml
+- filename: fenergo-risk-assessment-api-openapi.yml
+  format: yaml
+  label: Fenergo Risk Assessment API
+  slug: fenergo-risk-assessment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-risk-assessment-api-openapi.yml
+- filename: fenergo-service-provider-config-api-openapi.yml
+  format: yaml
+  label: Fenergo Service Provider Config API
+  slug: fenergo-service-provider-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-service-provider-config-api-openapi.yml
+- filename: fenergo-start-flow-api-openapi.yml
+  format: yaml
+  label: Fenergo Start Flow API
+  slug: fenergo-start-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-start-flow-api-openapi.yml
+- filename: fenergo-user-settings-api-openapi.yml
+  format: yaml
+  label: Fenergo User Settings API
+  slug: fenergo-user-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-user-settings-api-openapi.yml
+- filename: fenergo-user-tasks-api-openapi.yml
+  format: yaml
+  label: Fenergo User Tasks API
+  slug: fenergo-user-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/openapi/fenergo-user-tasks-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO/IEC 27001:2022
@@ -893,7 +1709,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/h
 summary_line: ISO/IEC 27001:2022, SOC 2 Type II (SSAE 18)
 tags:
 - Compliance
-- Financial Services
+- Financial-Services
 - KYC
 - AML
 - Onboarding
@@ -902,7 +1718,7 @@ tags:
 - Screening
 - Risk
 - RegTech
-- SaaS
+- Software-as-a-Service
 - Identity
 trust_url: https://trust.fenergo.com/
 ---

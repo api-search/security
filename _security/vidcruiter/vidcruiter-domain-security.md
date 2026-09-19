@@ -40,7 +40,7 @@ tags:
 - Recruitment
 - Video Interviewing
 - Hiring
-- HR Tech
+- Human Resources
 - Applicant Tracking
 - ATS Integration
 - Candidate Screening

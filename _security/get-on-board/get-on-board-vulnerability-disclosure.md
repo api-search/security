@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/openapi/get-on-board-authentication-api-openapi.yml
 - filename: get-on-board-board-api-openapi.yml
   format: yaml
-  label: Get On Board Board+ API
+  label: Get On Board+ API
   slug: get-on-board-board-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/openapi/get-on-board-board-api-openapi.yml

@@ -54,24 +54,12 @@ api_specs:
   slug: conga-accountpackagesettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-accountpackagesettings-api-openapi.yml
-- filename: conga-accountroles-api-openapi.yml
-  format: yaml
-  label: Conga Account Roles API
-  slug: conga-accountroles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-accountroles-api-openapi.yml
 - filename: conga-accounts-api-openapi.yml
   format: yaml
   label: Conga Accounts API
   slug: conga-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-accounts-api-openapi.yml
-- filename: conga-accountsettings-api-openapi.yml
-  format: yaml
-  label: Conga Account Settings API
-  slug: conga-accountsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-accountsettings-api-openapi.yml
 - filename: conga-accountsigninglogos-api-openapi.yml
   format: yaml
   label: Conga Account Signing Logos API
@@ -144,12 +132,6 @@ api_specs:
   slug: conga-admin-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-admin-permissions-api-openapi.yml
-- filename: conga-adminsettings-api-openapi.yml
-  format: yaml
-  label: Conga Admin Settings API
-  slug: conga-adminsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-adminsettings-api-openapi.yml
 - filename: conga-adobesign-api-openapi.yml
   format: yaml
   label: Conga Adobe Sign API
@@ -348,12 +330,6 @@ api_specs:
   slug: conga-bundlelineitemstructure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-bundlelineitemstructure-api-openapi.yml
-- filename: conga-businessobject-api-openapi.yml
-  format: yaml
-  label: Conga Business Object API
-  slug: conga-businessobject-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-businessobject-api-openapi.yml
 - filename: conga-businessobjects-api-openapi.yml
   format: yaml
   label: Conga Business Objects API
@@ -372,18 +348,6 @@ api_specs:
   slug: conga-cart-analyzers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-cart-analyzers-api-openapi.yml
-- filename: conga-cartactions-api-openapi.yml
-  format: yaml
-  label: Conga Cart Actions API
-  slug: conga-cartactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-cartactions-api-openapi.yml
-- filename: conga-cartitems-api-openapi.yml
-  format: yaml
-  label: Conga Cart Items API
-  slug: conga-cartitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-cartitems-api-openapi.yml
 - filename: conga-carts-api-openapi.yml
   format: yaml
   label: Conga Carts API
@@ -480,12 +444,6 @@ api_specs:
   slug: conga-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-configuration-api-openapi.yml
-- filename: conga-configurationmanagement-api-openapi.yml
-  format: yaml
-  label: Conga Configuration Management API
-  slug: conga-configurationmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-configurationmanagement-api-openapi.yml
 - filename: conga-configurations-api-openapi.yml
   format: yaml
   label: Conga Configurations API
@@ -494,19 +452,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-configurations-api-openapi.yml
 - filename: conga-conga-hooks-api-openapi.yml
   format: yaml
-  label: Conga Conga Hooks API
+  label: Conga Hooks API
   slug: conga-conga-hooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-conga-hooks-api-openapi.yml
 - filename: conga-conga-hooks-rules-api-openapi.yml
   format: yaml
-  label: Conga Conga Hooks Rules API
+  label: Conga Hooks Rules API
   slug: conga-conga-hooks-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-conga-hooks-rules-api-openapi.yml
 - filename: conga-congasign-api-openapi.yml
   format: yaml
-  label: Conga Conga Sign API
+  label: Conga Sign API
   slug: conga-congasign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-congasign-api-openapi.yml
@@ -690,30 +648,12 @@ api_specs:
   slug: conga-custom-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-custom-plans-api-openapi.yml
-- filename: conga-custombranding-api-openapi.yml
-  format: yaml
-  label: Conga Custom Branding API
-  slug: conga-custombranding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-custombranding-api-openapi.yml
 - filename: conga-customeronboarded-api-openapi.yml
   format: yaml
   label: Conga Customer Onboarded API
   slug: conga-customeronboarded-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-customeronboarded-api-openapi.yml
-- filename: conga-customerregistration-api-openapi.yml
-  format: yaml
-  label: Conga Customer Registration API
-  slug: conga-customerregistration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-customerregistration-api-openapi.yml
-- filename: conga-customfields-api-openapi.yml
-  format: yaml
-  label: Conga Custom Fields API
-  slug: conga-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-customfields-api-openapi.yml
 - filename: conga-customsettings-api-openapi.yml
   format: yaml
   label: Conga Custom Settings API
@@ -732,12 +672,6 @@ api_specs:
   slug: conga-datacorrection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-datacorrection-api-openapi.yml
-- filename: conga-datamanagement-api-openapi.yml
-  format: yaml
-  label: Conga Data Management API
-  slug: conga-datamanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-datamanagement-api-openapi.yml
 - filename: conga-deal-color-bands-api-openapi.yml
   format: yaml
   label: Conga Deal Color Bands API
@@ -810,12 +744,6 @@ api_specs:
   slug: conga-documentprotection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-documentprotection-api-openapi.yml
-- filename: conga-documentreview-api-openapi.yml
-  format: yaml
-  label: Conga Document Review API
-  slug: conga-documentreview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-documentreview-api-openapi.yml
 - filename: conga-documents-api-openapi.yml
   format: yaml
   label: Conga Documents API
@@ -1188,12 +1116,6 @@ api_specs:
   slug: conga-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-jobs-api-openapi.yml
-- filename: conga-jobstatus-api-openapi.yml
-  format: yaml
-  label: Conga Job Status API
-  slug: conga-jobstatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-jobstatus-api-openapi.yml
 - filename: conga-json-api-openapi.yml
   format: yaml
   label: Conga JSON API
@@ -1260,12 +1182,6 @@ api_specs:
   slug: conga-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-notification-api-openapi.yml
-- filename: conga-oauth2-api-openapi.yml
-  format: yaml
-  label: Conga O Auth2 API
-  slug: conga-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-oauth2-api-openapi.yml
 - filename: conga-object-definition-api-openapi.yml
   format: yaml
   label: Conga Object Definition API
@@ -1368,12 +1284,6 @@ api_specs:
   slug: conga-packagemigration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-packagemigration-api-openapi.yml
-- filename: conga-passwordpolicy-api-openapi.yml
-  format: yaml
-  label: Conga Password Policy API
-  slug: conga-passwordpolicy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-passwordpolicy-api-openapi.yml
 - filename: conga-payment-terms-api-openapi.yml
   format: yaml
   label: Conga Payment Terms API
@@ -1494,12 +1404,6 @@ api_specs:
   slug: conga-priceescalator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-priceescalator-api-openapi.yml
-- filename: conga-pricelists-api-openapi.yml
-  format: yaml
-  label: Conga Price Lists API
-  slug: conga-pricelists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-pricelists-api-openapi.yml
 - filename: conga-pricewaterfall-api-openapi.yml
   format: yaml
   label: Conga Price Waterfall API
@@ -1722,12 +1626,6 @@ api_specs:
   slug: conga-reviewer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-reviewer-api-openapi.yml
-- filename: conga-reviewsites-api-openapi.yml
-  format: yaml
-  label: Conga Review Sites API
-  slug: conga-reviewsites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-reviewsites-api-openapi.yml
 - filename: conga-role-admin-api-openapi.yml
   format: yaml
   label: Conga Role Admin API
@@ -1782,12 +1680,6 @@ api_specs:
   slug: conga-scheduler-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-scheduler-api-openapi.yml
-- filename: conga-schemametadata-api-openapi.yml
-  format: yaml
-  label: Conga Schema Metadata API
-  slug: conga-schemametadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-schemametadata-api-openapi.yml
 - filename: conga-search-admin-api-openapi.yml
   format: yaml
   label: Conga Search Admin API
@@ -1800,12 +1692,6 @@ api_specs:
   slug: conga-search-runtime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-search-runtime-api-openapi.yml
-- filename: conga-searchfilters-api-openapi.yml
-  format: yaml
-  label: Conga Search Filters API
-  slug: conga-searchfilters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-searchfilters-api-openapi.yml
 - filename: conga-sender-api-openapi.yml
   format: yaml
   label: Conga Sender API
@@ -1848,12 +1734,6 @@ api_specs:
   slug: conga-signaturelayout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-signaturelayout-api-openapi.yml
-- filename: conga-smartsearch-api-openapi.yml
-  format: yaml
-  label: Conga Smart Search API
-  slug: conga-smartsearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-smartsearch-api-openapi.yml
 - filename: conga-solution-api-openapi.yml
   format: yaml
   label: Conga Solution API
@@ -1890,12 +1770,6 @@ api_specs:
   slug: conga-summarygroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-summarygroups-api-openapi.yml
-- filename: conga-systemproperties-api-openapi.yml
-  format: yaml
-  label: Conga System Properties API
-  slug: conga-systemproperties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-systemproperties-api-openapi.yml
 - filename: conga-tax-codes-api-openapi.yml
   format: yaml
   label: Conga Tax Codes API
@@ -2016,12 +1890,6 @@ api_specs:
   slug: conga-userdashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-userdashboard-api-openapi.yml
-- filename: conga-usergroup-api-openapi.yml
-  format: yaml
-  label: Conga User Group API
-  slug: conga-usergroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-usergroup-api-openapi.yml
 - filename: conga-validation-api-openapi.yml
   format: yaml
   label: Conga Validation API
@@ -2070,6 +1938,126 @@ api_specs:
   slug: conga-waterfalls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-waterfalls-api-openapi.yml
+- filename: conga-oauth2-api-openapi.yml
+  format: yaml
+  label: Conga O Auth2 API
+  slug: conga-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-oauth2-api-openapi.yml
+- filename: conga-account-roles-api-openapi.yml
+  format: yaml
+  label: Conga Account Roles API
+  slug: conga-account-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-account-roles-api-openapi.yml
+- filename: conga-account-settings-api-openapi.yml
+  format: yaml
+  label: Conga Account Settings API
+  slug: conga-account-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-account-settings-api-openapi.yml
+- filename: conga-admin-settings-api-openapi.yml
+  format: yaml
+  label: Conga Admin Settings API
+  slug: conga-admin-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-admin-settings-api-openapi.yml
+- filename: conga-business-object-api-openapi.yml
+  format: yaml
+  label: Conga Business Object API
+  slug: conga-business-object-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-business-object-api-openapi.yml
+- filename: conga-cart-actions-api-openapi.yml
+  format: yaml
+  label: Conga Cart Actions API
+  slug: conga-cart-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-cart-actions-api-openapi.yml
+- filename: conga-cart-items-api-openapi.yml
+  format: yaml
+  label: Conga Cart Items API
+  slug: conga-cart-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-cart-items-api-openapi.yml
+- filename: conga-configuration-management-api-openapi.yml
+  format: yaml
+  label: Conga Configuration Management API
+  slug: conga-configuration-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-configuration-management-api-openapi.yml
+- filename: conga-custom-branding-api-openapi.yml
+  format: yaml
+  label: Conga Custom Branding API
+  slug: conga-custom-branding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-custom-branding-api-openapi.yml
+- filename: conga-custom-fields-api-openapi.yml
+  format: yaml
+  label: Conga Custom Fields API
+  slug: conga-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-custom-fields-api-openapi.yml
+- filename: conga-customer-registration-api-openapi.yml
+  format: yaml
+  label: Conga Customer Registration API
+  slug: conga-customer-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-customer-registration-api-openapi.yml
+- filename: conga-data-management-api-openapi.yml
+  format: yaml
+  label: Conga Data Management API
+  slug: conga-data-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-data-management-api-openapi.yml
+- filename: conga-document-review-api-openapi.yml
+  format: yaml
+  label: Conga Document Review API
+  slug: conga-document-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-document-review-api-openapi.yml
+- filename: conga-job-status-api-openapi.yml
+  format: yaml
+  label: Conga Job Status API
+  slug: conga-job-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-job-status-api-openapi.yml
+- filename: conga-password-policy-api-openapi.yml
+  format: yaml
+  label: Conga Password Policy API
+  slug: conga-password-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-password-policy-api-openapi.yml
+- filename: conga-review-sites-api-openapi.yml
+  format: yaml
+  label: Conga Review Sites API
+  slug: conga-review-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-review-sites-api-openapi.yml
+- filename: conga-schema-metadata-api-openapi.yml
+  format: yaml
+  label: Conga Schema Metadata API
+  slug: conga-schema-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-schema-metadata-api-openapi.yml
+- filename: conga-search-filters-api-openapi.yml
+  format: yaml
+  label: Conga Search Filters API
+  slug: conga-search-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-search-filters-api-openapi.yml
+- filename: conga-smart-search-api-openapi.yml
+  format: yaml
+  label: Conga Smart Search API
+  slug: conga-smart-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-smart-search-api-openapi.yml
+- filename: conga-system-properties-api-openapi.yml
+  format: yaml
+  label: Conga System Properties API
+  slug: conga-system-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/openapi/conga-system-properties-api-openapi.yml
 description: ''
 domains:
 - caa:

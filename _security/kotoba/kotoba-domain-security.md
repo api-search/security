@@ -56,7 +56,7 @@ tags:
 - Text-to-Speech
 - Translation
 - Real-Time
-- WebSockets
+- WebSocket
 - Audio
 - Transcription
 ---

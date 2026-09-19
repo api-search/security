@@ -384,24 +384,12 @@ api_specs:
   slug: tricentis-test-suite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-test-suite-api-openapi.yml
-- filename: tricentis-testcases-api-openapi.yml
-  format: yaml
-  label: Tricentis Testcases API
-  slug: tricentis-testcases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-testcases-api-openapi.yml
 - filename: tricentis-testrunlogs-api-openapi.yml
   format: yaml
   label: Tricentis Testrunlogs API
   slug: tricentis-testrunlogs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-testrunlogs-api-openapi.yml
-- filename: tricentis-testruns-api-openapi.yml
-  format: yaml
-  label: Tricentis Testruns API
-  slug: tricentis-testruns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-testruns-api-openapi.yml
 - filename: tricentis-tests-api-openapi.yml
   format: yaml
   label: Tricentis Tests API
@@ -426,12 +414,6 @@ api_specs:
   slug: tricentis-tests-test-analysis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-tests-test-analysis-api-openapi.yml
-- filename: tricentis-testsuites-api-openapi.yml
-  format: yaml
-  label: Tricentis Testsuites API
-  slug: tricentis-testsuites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-testsuites-api-openapi.yml
 - filename: tricentis-tosca-api-openapi.yml
   format: yaml
   label: Tricentis Tosca API
@@ -612,6 +594,12 @@ api_specs:
   slug: tricentis-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-workspaces-api-openapi.yml
+- filename: tricentis-test-suites-api-openapi.yml
+  format: yaml
+  label: Tricentis Test Suites API
+  slug: tricentis-test-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/openapi/tricentis-test-suites-api-openapi.yml
 description: ''
 domains:
 - caa: []

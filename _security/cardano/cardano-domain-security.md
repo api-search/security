@@ -2,85 +2,85 @@
 api_specs:
 - filename: cardano-cardano-accounts-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Accounts API
+  label: Cardano » Accounts API
   slug: cardano-cardano-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-accounts-api-openapi.yml
 - filename: cardano-cardano-addresses-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Addresses API
+  label: Cardano » Addresses API
   slug: cardano-cardano-addresses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-addresses-api-openapi.yml
 - filename: cardano-cardano-assets-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Assets API
+  label: Cardano » Assets API
   slug: cardano-cardano-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-assets-api-openapi.yml
 - filename: cardano-cardano-blocks-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Blocks API
+  label: Cardano » Blocks API
   slug: cardano-cardano-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-blocks-api-openapi.yml
 - filename: cardano-cardano-epochs-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Epochs API
+  label: Cardano » Epochs API
   slug: cardano-cardano-epochs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-epochs-api-openapi.yml
 - filename: cardano-cardano-governance-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Governance API
+  label: Cardano » Governance API
   slug: cardano-cardano-governance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-governance-api-openapi.yml
 - filename: cardano-cardano-ledger-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Ledger API
+  label: Cardano » Ledger API
   slug: cardano-cardano-ledger-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-ledger-api-openapi.yml
 - filename: cardano-cardano-mempool-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Mempool API
+  label: Cardano » Mempool API
   slug: cardano-cardano-mempool-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-mempool-api-openapi.yml
 - filename: cardano-cardano-metadata-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Metadata API
+  label: Cardano » Metadata API
   slug: cardano-cardano-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-metadata-api-openapi.yml
 - filename: cardano-cardano-network-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Network API
+  label: Cardano » Network API
   slug: cardano-cardano-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-network-api-openapi.yml
 - filename: cardano-cardano-pools-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Pools API
+  label: Cardano » Pools API
   slug: cardano-cardano-pools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-pools-api-openapi.yml
 - filename: cardano-cardano-scripts-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Scripts API
+  label: Cardano » Scripts API
   slug: cardano-cardano-scripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-scripts-api-openapi.yml
 - filename: cardano-cardano-transactions-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Transactions API
+  label: Cardano » Transactions API
   slug: cardano-cardano-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-transactions-api-openapi.yml
 - filename: cardano-cardano-utilities-api-openapi.yml
   format: yaml
-  label: Cardano Cardano » Utilities API
+  label: Cardano » Utilities API
   slug: cardano-cardano-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-utilities-api-openapi.yml

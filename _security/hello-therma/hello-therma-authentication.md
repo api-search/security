@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hello-therma/r
 summary_line: 1 scheme
 tags:
 - Company
-- Internet of Things
+- IoT
 - Energy
 - Sustainability
 - Cold Chain

@@ -55,7 +55,7 @@ tags:
 - Subscription
 - Boleto
 - Pix
-- Credit Card
+- Credit Cards
 - Marketplace
 - Split Payments
 - Financial Infrastructure

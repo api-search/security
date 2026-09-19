@@ -43,5 +43,5 @@ tags:
 - Reporting
 - Business Intelligence
 - Content
-- Embeds
+- Embed
 ---

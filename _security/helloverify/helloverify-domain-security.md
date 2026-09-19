@@ -39,5 +39,5 @@ tags:
 - KYC
 - Primary Source Verification
 - Compliance
-- HR Tech
+- Human Resources
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: togai-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/openapi/togai-accounts-api-openapi.yml
-- filename: togai-addons-api-openapi.yml
-  format: yaml
-  label: Togai AddOns API
-  slug: togai-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/openapi/togai-addons-api-openapi.yml
 - filename: togai-aliases-api-openapi.yml
   format: yaml
   label: Togai Aliases API
@@ -150,6 +144,12 @@ api_specs:
   slug: togai-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/openapi/togai-wallet-api-openapi.yml
+- filename: togai-add-ons-api-openapi.yml
+  format: yaml
+  label: Togai Add Ons API
+  slug: togai-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/openapi/togai-add-ons-api-openapi.yml
 description: ''
 domains:
 - caa:

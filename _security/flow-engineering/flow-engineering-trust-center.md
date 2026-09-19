@@ -29,7 +29,7 @@ tags:
 - MBSE
 - AI Agents
 - CAD
-- Product Lifecycle Management
+- PLM
 - GraphQL
 trust_url: https://flowengineering.com/security
 ---

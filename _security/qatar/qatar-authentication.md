@@ -2,18 +2,36 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: qatar-qu-sso-oidc-openapi.yml
+- filename: qatar-client-registration-api-openapi.yml
   format: yaml
-  label: Qatar University Single Sign-On (OpenID Connect / OAuth 2.0)
-  slug: qu-sso-oidc
+  label: Qatar University Client Registration API
+  slug: qatar-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-qu-sso-oidc-openapi.yml
-- filename: qatar-qupress-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-client-registration-api-openapi.yml
+- filename: qatar-discovery-api-openapi.yml
   format: yaml
-  label: QU Press Open Journal System OAI-PMH API
-  slug: qupress-oai
+  label: Qatar University Discovery API
+  slug: qatar-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-qupress-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-discovery-api-openapi.yml
+- filename: qatar-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Qatar University OAI PMH API
+  slug: qatar-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oai-pmh-api-openapi.yml
+- filename: qatar-openid-connect-api-openapi.yml
+  format: yaml
+  label: Qatar University OpenID Connect API
+  slug: qatar-openid-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-openid-connect-api-openapi.yml
+- filename: qatar-oauth-api-openapi.yml
+  format: yaml
+  label: Qatar University O Auth API
+  slug: qatar-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oauth-api-openapi.yml
 auth_types:
 - none
 - oauth2

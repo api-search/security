@@ -26,13 +26,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-search-api-openapi.yml
 - filename: tollbit-tollbit-content-api-openapi.yml
   format: yaml
-  label: Tollbit Tollbit Content API
+  label: Tollbit Content API
   slug: tollbit-tollbit-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-tollbit-content-api-openapi.yml
 - filename: tollbit-tollbit-subdomain-api-openapi.yml
   format: yaml
-  label: Tollbit Tollbit Subdomain API
+  label: Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/openapi/tollbit-tollbit-subdomain-api-openapi.yml

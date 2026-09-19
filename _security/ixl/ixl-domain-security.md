@@ -44,7 +44,8 @@ tags:
 - Science
 - Social Studies
 - Spanish
-- Diagnostic
+- Diagnostics
 - Rostering
 - SSO
+- Identity Federation
 ---

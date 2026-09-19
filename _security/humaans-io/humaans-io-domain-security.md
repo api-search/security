@@ -134,9 +134,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/security/humaans-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - People Operations
 - People Analytics
 - Onboarding
@@ -147,6 +146,6 @@ tags:
 - Workflow-Automation
 - AI Companion
 - Agentic AI
-- UK
+- United Kingdom
 - London
 ---

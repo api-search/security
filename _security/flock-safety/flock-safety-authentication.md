@@ -32,12 +32,6 @@ api_specs:
   slug: flock-safety-lpr-hotlist-alert-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-lpr-hotlist-alert-subscriptions-api-openapi.yml
-- filename: flock-safety-oauth2-api-openapi.yml
-  format: yaml
-  label: Flock Safety OAuth2 API
-  slug: flock-safety-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-oauth2-api-openapi.yml
 - filename: flock-safety-plate-reads-api-openapi.yml
   format: yaml
   label: Flock Safety Plate Reads API
@@ -62,6 +56,12 @@ api_specs:
   slug: flock-safety-vehicle-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-vehicle-images-api-openapi.yml
+- filename: flock-safety-oauth2-api-openapi.yml
+  format: yaml
+  label: Flock Safety O Auth2 API
+  slug: flock-safety-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-oauth2-api-openapi.yml
 auth_types:
 - http
 - oauth2

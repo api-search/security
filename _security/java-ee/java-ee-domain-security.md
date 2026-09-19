@@ -35,5 +35,5 @@ tags:
 - Jakarta EE
 - Java
 - Java EE
-- Specifications
+- Specification
 ---

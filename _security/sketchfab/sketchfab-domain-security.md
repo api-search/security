@@ -6,18 +6,6 @@ api_specs:
   slug: sketchfab-download-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-download-api-openapi.yml
-- filename: sketchfab-oembed-api-openapi.yml
-  format: yaml
-  label: Sketchfab oEmbed API
-  slug: sketchfab-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-oembed-api-openapi.yml
-- filename: sketchfab-oauth-api-openapi.yml
-  format: yaml
-  label: Sketchfab OAuth 2.0 API
-  slug: sketchfab-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-oauth-api-openapi.yml
 - filename: sketchfab-bookmarks-api-openapi.yml
   format: yaml
   label: Sketchfab Bookmarks API
@@ -78,6 +66,18 @@ api_specs:
   slug: sketchfab-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-users-api-openapi.yml
+- filename: sketchfab-o-embed-api-openapi.yml
+  format: yaml
+  label: Sketchfab o Embed API
+  slug: sketchfab-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-o-embed-api-openapi.yml
+- filename: sketchfab-oauth-api-openapi.yml
+  format: yaml
+  label: Sketchfab O Auth API
+  slug: sketchfab-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:

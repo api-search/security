@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: chocodata-openapi.json
-  format: json
-  label: Chocodata Scraper API
-  slug: chocodata-scraper-api
+- filename: chocodata-amazon-api-openapi.yml
+  format: yaml
+  label: Chocodata Amazon API
+  slug: chocodata-amazon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-amazon-api-openapi.yml
+- filename: chocodata-chocodata-api-openapi.yml
+  format: yaml
+  label: Chocodata Chocodata API
+  slug: chocodata-chocodata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-chocodata-api-openapi.yml
+- filename: chocodata-reddit-api-openapi.yml
+  format: yaml
+  label: Chocodata Reddit API
+  slug: chocodata-reddit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-reddit-api-openapi.yml
+- filename: chocodata-universal-api-openapi.yml
+  format: yaml
+  label: Chocodata Universal API
+  slug: chocodata-universal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-universal-api-openapi.yml
+- filename: chocodata-youtube-api-openapi.yml
+  format: yaml
+  label: Chocodata Youtube API
+  slug: chocodata-youtube-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-youtube-api-openapi.yml
+- filename: chocodata-app-store-api-openapi.yml
+  format: yaml
+  label: Chocodata App Store API
+  slug: chocodata-app-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-app-store-api-openapi.yml
+- filename: chocodata-google-play-api-openapi.yml
+  format: yaml
+  label: Chocodata Google Play API
+  slug: chocodata-google-play-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-google-play-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

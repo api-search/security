@@ -47,7 +47,7 @@ tags:
 - Company
 - Creator Economy
 - CRM
-- Memberships
+- Membership
 - Payments
 - Email Marketing
 - Newsletters

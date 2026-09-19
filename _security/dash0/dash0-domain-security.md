@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-oauth-2-0-api-openapi.yml
 - filename: dash0-prometheus-api-api-openapi.yml
   format: yaml
-  label: Dash0 Prometheus API API
+  label: Dash0 Prometheus API
   slug: dash0-prometheus-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-prometheus-api-api-openapi.yml

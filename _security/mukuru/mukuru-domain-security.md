@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mukuru/refs/heads/main/security/mukuru-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Remittance
+- Remittances
 - Money Transfer
 - Cross-Border Payments
 - Africa
@@ -38,7 +38,7 @@ tags:
 - Diaspora
 - Mobile Money
 - Wallets
-- Prepaid Card
+- Prepaid Cards
 - Funeral Insurance
 - Disbursements
 - Collection

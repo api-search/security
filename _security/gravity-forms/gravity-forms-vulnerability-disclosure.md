@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-feeds-api-openapi.yml
 - filename: gravity-forms-forms-api-openapi.yml
   format: yaml
-  label: Gravity Forms Forms API
+  label: Gravity Forms API
   slug: gravity-forms-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-forms-api-openapi.yml

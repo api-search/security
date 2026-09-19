@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-markets-api-openapi.yml
 - filename: pendle-pendle-emission-api-openapi.yml
   format: yaml
-  label: Pendle Pendle Emission API
+  label: Pendle Emission API
   slug: pendle-pendle-emission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-pendle-emission-api-openapi.yml

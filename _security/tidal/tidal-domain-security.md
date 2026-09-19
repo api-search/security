@@ -102,12 +102,6 @@ api_specs:
   slug: tidal-dspsharinglinks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-dspsharinglinks-api-openapi.yml
-- filename: tidal-dynamicmodules-api-openapi.yml
-  format: yaml
-  label: TIDAL dynamicModules API
-  slug: tidal-dynamicmodules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-dynamicmodules-api-openapi.yml
 - filename: tidal-dynamicpages-api-openapi.yml
   format: yaml
   label: TIDAL dynamicPages API
@@ -198,18 +192,6 @@ api_specs:
   slug: tidal-searchhistoryentries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-searchhistoryentries-api-openapi.yml
-- filename: tidal-searchresults-api-openapi.yml
-  format: yaml
-  label: TIDAL searchResults API
-  slug: tidal-searchresults-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-searchresults-api-openapi.yml
-- filename: tidal-searchsuggestions-api-openapi.yml
-  format: yaml
-  label: TIDAL searchSuggestions API
-  slug: tidal-searchsuggestions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-searchsuggestions-api-openapi.yml
 - filename: tidal-shares-api-openapi.yml
   format: yaml
   label: TIDAL shares API
@@ -366,18 +348,6 @@ api_specs:
   slug: tidal-userofflinemixes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-userofflinemixes-api-openapi.yml
-- filename: tidal-userrecommendations-api-openapi.yml
-  format: yaml
-  label: TIDAL userRecommendations API
-  slug: tidal-userrecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-userrecommendations-api-openapi.yml
-- filename: tidal-userreports-api-openapi.yml
-  format: yaml
-  label: TIDAL userReports API
-  slug: tidal-userreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-userreports-api-openapi.yml
 - filename: tidal-videomanifests-api-openapi.yml
   format: yaml
   label: TIDAL videoManifests API
@@ -390,6 +360,36 @@ api_specs:
   slug: tidal-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-videos-api-openapi.yml
+- filename: tidal-user-reports-api-openapi.yml
+  format: yaml
+  label: TIDAL User Reports API
+  slug: tidal-user-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-user-reports-api-openapi.yml
+- filename: tidal-dynamic-modules-api-openapi.yml
+  format: yaml
+  label: TIDAL Dynamic Modules API
+  slug: tidal-dynamic-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-dynamic-modules-api-openapi.yml
+- filename: tidal-search-results-api-openapi.yml
+  format: yaml
+  label: TIDAL Search Results API
+  slug: tidal-search-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-search-results-api-openapi.yml
+- filename: tidal-search-suggestions-api-openapi.yml
+  format: yaml
+  label: TIDAL Search Suggestions API
+  slug: tidal-search-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-search-suggestions-api-openapi.yml
+- filename: tidal-user-recommendations-api-openapi.yml
+  format: yaml
+  label: TIDAL User Recommendations API
+  slug: tidal-user-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-user-recommendations-api-openapi.yml
 description: ''
 domains:
 - caa: []

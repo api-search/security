@@ -138,12 +138,12 @@ api_specs:
   slug: gala-games-walletextensioncompat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/openapi/gala-games-walletextensioncompat-api-openapi.yml
-- filename: gala-games-whatsnew-api-openapi.yml
+- filename: gala-games-whats-new-api-openapi.yml
   format: yaml
   label: Gala Games Whats New API
-  slug: gala-games-whatsnew-api
+  slug: gala-games-whats-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/openapi/gala-games-whatsnew-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/openapi/gala-games-whats-new-api-openapi.yml
 description: ''
 domains:
 - caa: []

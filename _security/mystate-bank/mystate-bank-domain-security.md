@@ -42,12 +42,6 @@ api_specs:
   slug: mystate-bank-banking-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-banking-products-api-openapi.yml
-- filename: mystate-bank-products-api-openapi.yml
-  format: yaml
-  label: MyState Bank Products API
-  slug: mystate-bank-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/openapi/mystate-bank-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

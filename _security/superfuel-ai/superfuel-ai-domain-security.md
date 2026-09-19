@@ -35,7 +35,7 @@ tags:
 - Amazon
 - Amazon Sellers
 - Listing Optimization
-- AI Agent
+- AI Agents
 - Workflows
 - Software-as-a-Service
 ---

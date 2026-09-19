@@ -36,7 +36,6 @@ summary_line: ISO/IEC 27001, SOC 2
 tags:
 - Company
 - Human Resources
-- HR Tech
 - Payroll
 - Employee Data
 - Software-as-a-Service

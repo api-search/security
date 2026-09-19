@@ -51,12 +51,6 @@ api_specs:
   slug: hm-land-registry-notifications-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-notifications-api-api-openapi.yml
-- filename: hm-land-registry-official-copies-api-openapi.yml
-  format: yaml
-  label: HM Land Registry Official Copies API
-  slug: hm-land-registry-official-copies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-copies-api-openapi.yml
 - filename: hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
   format: yaml
   label: HM Land Registry Official Search of Whole with Data API

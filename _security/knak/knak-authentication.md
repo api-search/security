@@ -9,12 +9,6 @@ api_specs:
   slug: knak-asset-custom-fieldsets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-custom-fieldsets-api-openapi.yml
-- filename: knak-assetfolders-api-openapi.yml
-  format: yaml
-  label: Knak AssetFolders API
-  slug: knak-assetfolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-assetfolders-api-openapi.yml
 - filename: knak-assets-api-openapi.yml
   format: yaml
   label: Knak Assets API
@@ -75,12 +69,6 @@ api_specs:
   slug: knak-modules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-modules-api-openapi.yml
-- filename: knak-oauth2-api-openapi.yml
-  format: yaml
-  label: Knak OAuth2 API
-  slug: knak-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-oauth2-api-openapi.yml
 - filename: knak-project-management-api-openapi.yml
   format: yaml
   label: Knak Project Management API
@@ -165,6 +153,18 @@ api_specs:
   slug: knak-translation-request-created-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-translation-request-created-api-openapi.yml
+- filename: knak-oauth2-api-openapi.yml
+  format: yaml
+  label: Knak O Auth2 API
+  slug: knak-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-oauth2-api-openapi.yml
+- filename: knak-asset-folders-api-openapi.yml
+  format: yaml
+  label: Knak Asset Folders API
+  slug: knak-asset-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/knak-asset-folders-api-openapi.yml
 auth_types:
 - http
 - oauth2

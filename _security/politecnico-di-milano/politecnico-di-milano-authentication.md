@@ -2,30 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: politecnico-di-milano-opendata-openapi.yml
+- filename: politecnico-di-milano-catalog-api-openapi.yml
   format: yaml
-  label: Politecnico di Milano Open Data
-  slug: open-data
+  label: Politecnico di Milano Catalog API
+  slug: politecnico-di-milano-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-opendata-openapi.yml
-- filename: politecnico-di-milano-iris-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-catalog-api-openapi.yml
+- filename: politecnico-di-milano-distributions-api-openapi.yml
   format: yaml
-  label: Re.Public@Polimi OAI-PMH
-  slug: iris-oai-pmh
+  label: Politecnico di Milano Distributions API
+  slug: politecnico-di-milano-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-iris-oai-pmh-openapi.yml
-- filename: politecnico-di-milano-politesi-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-distributions-api-openapi.yml
+- filename: politecnico-di-milano-federation-api-openapi.yml
   format: yaml
-  label: POLITESI OAI-PMH
-  slug: politesi-oai-pmh
+  label: Politecnico di Milano Federation API
+  slug: politecnico-di-milano-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-politesi-oai-pmh-openapi.yml
-- filename: politecnico-di-milano-shibboleth-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-federation-api-openapi.yml
+- filename: politecnico-di-milano-harvesting-api-openapi.yml
   format: yaml
-  label: Politecnico di Milano Shibboleth Identity Provider
-  slug: shibboleth-idp
+  label: Politecnico di Milano Harvesting API
+  slug: politecnico-di-milano-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-shibboleth-idp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-harvesting-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

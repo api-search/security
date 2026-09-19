@@ -18,12 +18,6 @@ api_specs:
   slug: flyte-executions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-executions-api-openapi.yml
-- filename: flyte-launchplans-api-openapi.yml
-  format: yaml
-  label: Flyte LaunchPlans API
-  slug: flyte-launchplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-launchplans-api-openapi.yml
 - filename: flyte-matchableattributes-api-openapi.yml
   format: yaml
   label: Flyte MatchableAttributes API
@@ -36,24 +30,12 @@ api_specs:
   slug: flyte-namedentities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-namedentities-api-openapi.yml
-- filename: flyte-nodeexecutions-api-openapi.yml
-  format: yaml
-  label: Flyte NodeExecutions API
-  slug: flyte-nodeexecutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-nodeexecutions-api-openapi.yml
 - filename: flyte-projects-api-openapi.yml
   format: yaml
   label: Flyte Projects API
   slug: flyte-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-projects-api-openapi.yml
-- filename: flyte-taskexecutions-api-openapi.yml
-  format: yaml
-  label: Flyte TaskExecutions API
-  slug: flyte-taskexecutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-taskexecutions-api-openapi.yml
 - filename: flyte-tasks-api-openapi.yml
   format: yaml
   label: Flyte Tasks API
@@ -72,6 +54,24 @@ api_specs:
   slug: flyte-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-workflows-api-openapi.yml
+- filename: flyte-launch-plans-api-openapi.yml
+  format: yaml
+  label: Flyte Launch Plans API
+  slug: flyte-launch-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-launch-plans-api-openapi.yml
+- filename: flyte-node-executions-api-openapi.yml
+  format: yaml
+  label: Flyte Node Executions API
+  slug: flyte-node-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-node-executions-api-openapi.yml
+- filename: flyte-task-executions-api-openapi.yml
+  format: yaml
+  label: Flyte Task Executions API
+  slug: flyte-task-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-task-executions-api-openapi.yml
 description: ''
 domains:
 - caa: []

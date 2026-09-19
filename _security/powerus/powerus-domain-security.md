@@ -37,6 +37,6 @@ tags:
 - Marketplace
 - Skilled Trades
 - Employment
-- HR Tech
+- Human Resources
 - Germany
 ---

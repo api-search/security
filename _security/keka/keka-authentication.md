@@ -119,7 +119,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/keka-hr-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keka/refs/heads/main/authentication/keka-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- HR
 - Human Resources
 - Payroll
 - Attendance

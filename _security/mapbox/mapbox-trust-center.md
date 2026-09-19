@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-activity-api-openapi.yml
 - filename: mapbox-mapbox-tiling-service-api-api-openapi.yml
   format: yaml
-  label: Mapbox Mapbox Tiling Service API API
+  label: Mapbox Tiling Service API
   slug: mapbox-mapbox-tiling-service-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-mapbox-tiling-service-api-api-openapi.yml

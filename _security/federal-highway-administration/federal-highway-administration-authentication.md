@@ -2,12 +2,72 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: federal-highway-administration-v2x-app-api-openapi.json
-  format: json
-  label: FHWA V2X App API
-  slug: v2x-app-api
+- filename: federal-highway-administration-authentication-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Authentication API
+  slug: federal-highway-administration-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-v2x-app-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-authentication-api-openapi.yml
+- filename: federal-highway-administration-configuration-rest-controller-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Configuration Rest Controller API
+  slug: federal-highway-administration-configuration-rest-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-configuration-rest-controller-api-openapi.yml
+- filename: federal-highway-administration-deposit-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Deposit API
+  slug: federal-highway-administration-deposit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-deposit-api-openapi.yml
+- filename: federal-highway-administration-geofence-deployments-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Geofence Deployments API
+  slug: federal-highway-administration-geofence-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-geofence-deployments-api-openapi.yml
+- filename: federal-highway-administration-geofence-expiration-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Geofence Expiration API
+  slug: federal-highway-administration-geofence-expiration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-geofence-expiration-api-openapi.yml
+- filename: federal-highway-administration-path-management-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Path Management API
+  slug: federal-highway-administration-path-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-path-management-api-openapi.yml
+- filename: federal-highway-administration-registration-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Registration API
+  slug: federal-highway-administration-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-registration-api-openapi.yml
+- filename: federal-highway-administration-secret-management-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Secret Management API
+  slug: federal-highway-administration-secret-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-secret-management-api-openapi.yml
+- filename: federal-highway-administration-tim-configuration-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration TIM Configuration API
+  slug: federal-highway-administration-tim-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-tim-configuration-api-openapi.yml
+- filename: federal-highway-administration-user-limits-management-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration User Limits Management API
+  slug: federal-highway-administration-user-limits-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-user-limits-management-api-openapi.yml
+- filename: federal-highway-administration-vendor-limits-management-api-openapi.yml
+  format: yaml
+  label: Federal Highway Administration Vendor Limits Management API
+  slug: federal-highway-administration-vendor-limits-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/openapi/federal-highway-administration-vendor-limits-management-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,9 +101,9 @@ tags:
 - Federal-Government
 - Transportation
 - Highways
-- Bridges
-- Connected-Vehicles
+- Bridge
+- Connected Vehicles
 - V2X
 - Open-Source
-- Open-Data
+- Open Data
 ---

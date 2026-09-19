@@ -45,12 +45,6 @@ api_specs:
   slug: opsmill-menu-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-menu-api-openapi.yml
-- filename: opsmill-oauth2-api-openapi.yml
-  format: yaml
-  label: OpsMill Oauth2 API
-  slug: opsmill-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-oauth2-api-openapi.yml
 - filename: opsmill-oidc-api-openapi.yml
   format: yaml
   label: OpsMill Oidc API
@@ -93,6 +87,12 @@ api_specs:
   slug: opsmill-transform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-transform-api-openapi.yml
+- filename: opsmill-oauth2-api-openapi.yml
+  format: yaml
+  label: OpsMill Oauth2 API
+  slug: opsmill-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 - http

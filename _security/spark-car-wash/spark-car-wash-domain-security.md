@@ -36,7 +36,7 @@ tags:
 - Consumer Services
 - Retail
 - Subscription
-- Memberships
+- Membership
 - New Jersey
 - United States
 ---

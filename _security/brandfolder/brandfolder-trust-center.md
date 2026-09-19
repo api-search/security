@@ -99,7 +99,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandfolder/re
 summary_line: SOC 2, HIPAA
 tags:
 - Digital Asset Management
-- DAM
 - Brand Management
 - Assets
 - Media

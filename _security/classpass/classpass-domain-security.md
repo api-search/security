@@ -41,7 +41,7 @@ tags:
 - Wellness
 - Class Booking
 - Marketplace
-- Studios
+- Studio
 - Gyms
 - Scheduling
 - Partner API

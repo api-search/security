@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: khalifa-khazna-oai-pmh-openapi.yml
+- filename: khalifa-oai-pmh-api-openapi.yml
   format: yaml
-  label: Khazna OAI-PMH Repository
-  slug: khazna-oai-pmh
+  label: Khalifa University Oai Pmh API
+  slug: khalifa-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/openapi/khalifa-khazna-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/openapi/khalifa-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - API Mocking
 - CRUD
-- Mock Server
+- Mock Servers
 - Mocking
 - Platform
 - Prototyping

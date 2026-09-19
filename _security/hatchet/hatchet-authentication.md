@@ -45,12 +45,6 @@ api_specs:
   slug: hatchet-github-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/openapi/hatchet-github-api-openapi.yml
-- filename: hatchet-healthcheck-api-openapi.yml
-  format: yaml
-  label: Hatchet Healthcheck API
-  slug: hatchet-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/openapi/hatchet-healthcheck-api-openapi.yml
 - filename: hatchet-log-api-openapi.yml
   format: yaml
   label: Hatchet Log API
@@ -165,6 +159,12 @@ api_specs:
   slug: hatchet-workflow-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/openapi/hatchet-workflow-runs-api-openapi.yml
+- filename: hatchet-health-check-api-openapi.yml
+  format: yaml
+  label: Hatchet Health Check API
+  slug: hatchet-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/openapi/hatchet-health-check-api-openapi.yml
 auth_types:
 - apiKey
 - http

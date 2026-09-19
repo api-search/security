@@ -86,7 +86,7 @@ tags:
 - Consumer Packaged Goods
 - Retail
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - Shopify

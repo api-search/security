@@ -32,7 +32,7 @@ tags:
 - Company
 - Venture Capital
 - Seed Fund
-- Marketplaces
+- Marketplace
 - Early Stage
 - Investment
 - San Francisco

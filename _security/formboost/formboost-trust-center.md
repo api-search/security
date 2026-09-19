@@ -22,17 +22,17 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://formboo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formboost/refs/heads/main/security/formboost-trust-center.yml
 summary_line: trust center published
 tags:
-- forms
+- Forms
 - form-backend
-- html-forms
-- serverless
-- static-sites
-- react
-- nextjs
-- vue
-- webhooks
-- no-code
-- developer-tools
-- spam-filtering
+- HTML Forms
+- Serverless
+- Static Sites
+- React
+- Next.js
+- Vue
+- Webhook
+- No-Code
+- Developer Tools
+- Spam Filtering
 trust_url: https://formboost.app/security
 ---

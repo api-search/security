@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Dairy
-- Internet of Things
+- IoT
 - Agriculture
 - Supply Chain
 - Cold Chain

@@ -1,17 +1,131 @@
 ---
 api_specs:
-- filename: autogpt-external-api-openapi.json
-  format: json
-  label: AutoGPT External API
-  slug: autogpt
+- filename: autogpt-analytics-api-openapi.yml
+  format: yaml
+  label: AutoGPT Analytics API
+  slug: autogpt-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-external-api-openapi.json
-- filename: autogpt-agent-server-openapi.json
-  format: json
-  label: AutoGPT Agent Server API
-  slug: autogpt-agent-server
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-analytics-api-openapi.yml
+- filename: autogpt-auth-email-api-openapi.yml
+  format: yaml
+  label: AutoGPT Auth Email API
+  slug: autogpt-auth-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-agent-server-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-auth-email-api-openapi.yml
+- filename: autogpt-blocks-api-openapi.yml
+  format: yaml
+  label: AutoGPT Blocks API
+  slug: autogpt-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-blocks-api-openapi.yml
+- filename: autogpt-briefings-api-openapi.yml
+  format: yaml
+  label: AutoGPT Briefings API
+  slug: autogpt-briefings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-briefings-api-openapi.yml
+- filename: autogpt-copilot-webhooks-api-openapi.yml
+  format: yaml
+  label: AutoGPT Copilot Webhooks API
+  slug: autogpt-copilot-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-copilot-webhooks-api-openapi.yml
+- filename: autogpt-graphs-api-openapi.yml
+  format: yaml
+  label: AutoGPT Graphs API
+  slug: autogpt-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-graphs-api-openapi.yml
+- filename: autogpt-health-api-openapi.yml
+  format: yaml
+  label: AutoGPT Health API
+  slug: autogpt-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-health-api-openapi.yml
+- filename: autogpt-home-api-openapi.yml
+  format: yaml
+  label: AutoGPT Home API
+  slug: autogpt-home-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-home-api-openapi.yml
+- filename: autogpt-integrations-api-openapi.yml
+  format: yaml
+  label: AutoGPT Integrations API
+  slug: autogpt-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-integrations-api-openapi.yml
+- filename: autogpt-meta-api-openapi.yml
+  format: yaml
+  label: AutoGPT Meta API
+  slug: autogpt-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-meta-api-openapi.yml
+- filename: autogpt-monitoring-api-openapi.yml
+  format: yaml
+  label: AutoGPT Monitoring API
+  slug: autogpt-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-monitoring-api-openapi.yml
+- filename: autogpt-platform-linking-api-openapi.yml
+  format: yaml
+  label: AutoGPT Platform Linking API
+  slug: autogpt-platform-linking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-platform-linking-api-openapi.yml
+- filename: autogpt-push-api-openapi.yml
+  format: yaml
+  label: AutoGPT Push API
+  slug: autogpt-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-push-api-openapi.yml
+- filename: autogpt-search-api-openapi.yml
+  format: yaml
+  label: AutoGPT Search API
+  slug: autogpt-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-search-api-openapi.yml
+- filename: autogpt-store-api-openapi.yml
+  format: yaml
+  label: AutoGPT Store API
+  slug: autogpt-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-store-api-openapi.yml
+- filename: autogpt-tools-api-openapi.yml
+  format: yaml
+  label: AutoGPT Tools API
+  slug: autogpt-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-tools-api-openapi.yml
+- filename: autogpt-user-api-openapi.yml
+  format: yaml
+  label: AutoGPT User API
+  slug: autogpt-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-user-api-openapi.yml
+- filename: autogpt-v1-api-openapi.yml
+  format: yaml
+  label: AutoGPT V1 API
+  slug: autogpt-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-v1-api-openapi.yml
+- filename: autogpt-v2-api-openapi.yml
+  format: yaml
+  label: AutoGPT V2 API
+  slug: autogpt-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-v2-api-openapi.yml
+- filename: autogpt-workspace-api-openapi.yml
+  format: yaml
+  label: AutoGPT Workspace API
+  slug: autogpt-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-workspace-api-openapi.yml
+- filename: autogpt-oauth-api-openapi.yml
+  format: yaml
+  label: AutoGPT OAUTH API
+  slug: autogpt-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/openapi/autogpt-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

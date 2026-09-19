@@ -27,12 +27,6 @@ api_specs:
   slug: triton-one-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-endpoints-api-openapi.yml
-- filename: triton-one-standard-api-openapi.yml
-  format: yaml
-  label: Triton One Standard API
-  slug: triton-one-standard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-standard-api-openapi.yml
 - filename: triton-one-subscriptions-api-openapi.yml
   format: yaml
   label: Triton One Subscriptions API

@@ -18,18 +18,6 @@ api_specs:
   slug: apache-flink-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-datasets-api-openapi.yml
-- filename: apache-flink-jars-api-openapi.yml
-  format: yaml
-  label: Apache Flink Jars API
-  slug: apache-flink-jars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jars-api-openapi.yml
-- filename: apache-flink-jobmanager-api-openapi.yml
-  format: yaml
-  label: Apache Flink Jobmanager API
-  slug: apache-flink-jobmanager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jobmanager-api-openapi.yml
 - filename: apache-flink-jobs-api-openapi.yml
   format: yaml
   label: Apache Flink Jobs API
@@ -48,12 +36,24 @@ api_specs:
   slug: apache-flink-savepoint-disposal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-savepoint-disposal-api-openapi.yml
-- filename: apache-flink-taskmanagers-api-openapi.yml
+- filename: apache-flink-jars-api-openapi.yml
   format: yaml
-  label: Apache Flink Taskmanagers API
-  slug: apache-flink-taskmanagers-api
+  label: Apache Flink Jars API
+  slug: apache-flink-jars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-taskmanagers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jars-api-openapi.yml
+- filename: apache-flink-job-manager-api-openapi.yml
+  format: yaml
+  label: Apache Flink Job Manager API
+  slug: apache-flink-job-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-job-manager-api-openapi.yml
+- filename: apache-flink-task-managers-api-openapi.yml
+  format: yaml
+  label: Apache Flink Task Managers API
+  slug: apache-flink-task-managers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-task-managers-api-openapi.yml
 description: ''
 domains:
 - caa:

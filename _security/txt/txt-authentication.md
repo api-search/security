@@ -35,7 +35,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-models-api-openapi.yml
 - filename: txt-responses-api-api-openapi.yml
   format: yaml
-  label: .txt responses-api API
+  label: .txt responses-api
   slug: txt-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-responses-api-api-openapi.yml

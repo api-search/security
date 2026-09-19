@@ -30,12 +30,12 @@ api_specs:
   slug: ceros-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-folders-api-openapi.yml
-- filename: ceros-oembed-api-openapi.yml
+- filename: ceros-o-embed-api-openapi.yml
   format: yaml
-  label: Ceros Oembed API
-  slug: ceros-oembed-api
+  label: Ceros o Embed API
+  slug: ceros-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/openapi/ceros-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

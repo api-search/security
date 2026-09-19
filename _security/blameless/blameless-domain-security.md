@@ -35,7 +35,7 @@ tags:
 - SRE
 - Incident Management
 - Reliability
-- Service Level Objectives
+- SLO
 - Retrospectives
 - On-Call
 - DevOps

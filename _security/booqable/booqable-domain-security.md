@@ -113,7 +113,7 @@ tags:
 - Rental Management
 - Inventory
 - Equipment Rental
-- Bookings
+- Booking
 - Order
 - E-Commerce
 - JSON:API

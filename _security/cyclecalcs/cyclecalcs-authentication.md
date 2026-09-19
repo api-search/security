@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-conventions-api-openapi.yml
 - filename: cyclecalcs-cyclecalcs-astronomy-api-api-openapi.yml
   format: yaml
-  label: CycleCalcs CycleCalcs Astronomy API API
+  label: CycleCalcs Astronomy API
   slug: cyclecalcs-cyclecalcs-astronomy-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-cyclecalcs-astronomy-api-api-openapi.yml

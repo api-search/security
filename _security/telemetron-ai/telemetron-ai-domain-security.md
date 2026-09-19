@@ -62,7 +62,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Customer-Support
-- Internet of Things
+- IoT
 - Hardware
 - Telemetry
 - Support Tickets

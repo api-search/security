@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetapult/refs/
 summary_line: TLSv1.3
 tags:
 - Company
-- Consumer
 - Gaming
 - Mobile Games
 - Game Studios

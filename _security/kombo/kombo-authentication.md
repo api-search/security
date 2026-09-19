@@ -22,37 +22,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-general-api-openapi.yml
 - filename: kombo-kombo-connect-api-openapi.yml
   format: yaml
-  label: Kombo Kombo Connect API
+  label: Kombo Connect API
   slug: kombo-kombo-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-connect-api-openapi.yml
 - filename: kombo-unified-ats-api-api-openapi.yml
   format: yaml
-  label: Kombo Unified ATS API API
+  label: Kombo Unified ATS API
   slug: kombo-unified-ats-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-api-api-openapi.yml
 - filename: kombo-unified-ats-assessment-background-check-api-api-openapi.yml
   format: yaml
-  label: Kombo Unified ATS (Assessment & Background Check) API API
+  label: Kombo Unified ATS (Assessment & Background Check) API
   slug: kombo-unified-ats-assessment-background-check-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-assessment-background-check-api-api-openapi.yml
 - filename: kombo-unified-hris-api-api-openapi.yml
   format: yaml
-  label: Kombo Unified HRIS API API
+  label: Kombo Unified HRIS API
   slug: kombo-unified-hris-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-hris-api-api-openapi.yml
 - filename: kombo-unified-lms-api-api-openapi.yml
   format: yaml
-  label: Kombo Unified LMS API API
+  label: Kombo Unified LMS API
   slug: kombo-unified-lms-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-lms-api-api-openapi.yml
 - filename: kombo-kombo-api-api-openapi.yml
   format: yaml
-  label: Kombo Kombo API
+  label: Kombo API
   slug: kombo-kombo-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-api-api-openapi.yml

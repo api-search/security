@@ -12,12 +12,12 @@ api_specs:
   slug: humanitec-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-public-api-openapi.yml
-- filename: humanitec-userrole-api-openapi.yml
+- filename: humanitec-user-role-api-openapi.yml
   format: yaml
-  label: Humanitec UserRole API
-  slug: humanitec-userrole-api
+  label: Humanitec User Role API
+  slug: humanitec-user-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-userrole-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-user-role-api-openapi.yml
 description: ''
 domains:
 - caa: []

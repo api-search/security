@@ -264,12 +264,6 @@ api_specs:
   slug: impact-radius-report-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/openapi/impact-radius-report-export-api-openapi.yml
-- filename: impact-radius-reportexport-api-openapi.yml
-  format: yaml
-  label: Impact Radius Report Export API
-  slug: impact-radius-reportexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/openapi/impact-radius-reportexport-api-openapi.yml
 - filename: impact-radius-reports-api-openapi.yml
   format: yaml
   label: Impact Radius Reports API

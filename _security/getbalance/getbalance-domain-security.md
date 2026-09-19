@@ -44,7 +44,7 @@ tags:
 - Payments
 - B2B Payments
 - Trade Credit
-- BNPL
+- Buy Now Pay Later
 - Accounts Receivable
 - Financial Infrastructure
 - Fintech

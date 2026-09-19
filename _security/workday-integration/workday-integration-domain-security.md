@@ -212,13 +212,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-identity-management-api-openapi.yml
 - filename: workday-integration-integration-events-api-openapi.yml
   format: yaml
-  label: Workday Integration Integration Events API
+  label: Workday Integration Events API
   slug: workday-integration-integration-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-integration-events-api-openapi.yml
 - filename: workday-integration-integration-systems-api-openapi.yml
   format: yaml
-  label: Workday Integration Integration Systems API
+  label: Workday Integration Systems API
   slug: workday-integration-integration-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-integration-systems-api-openapi.yml
@@ -324,18 +324,6 @@ api_specs:
   slug: workday-integration-payroll-australia-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-australia-api-openapi.yml
-- filename: workday-integration-payroll-canada-api-openapi.yml
-  format: yaml
-  label: Workday Integration Payroll Canada API
-  slug: workday-integration-payroll-canada-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-canada-api-openapi.yml
-- filename: workday-integration-payroll-france-api-openapi.yml
-  format: yaml
-  label: Workday Integration Payroll France API
-  slug: workday-integration-payroll-france-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-france-api-openapi.yml
 - filename: workday-integration-payroll-inputs-api-openapi.yml
   format: yaml
   label: Workday Integration Payroll Inputs API
@@ -348,12 +336,6 @@ api_specs:
   slug: workday-integration-payroll-interface-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-interface-api-openapi.yml
-- filename: workday-integration-payroll-uk-api-openapi.yml
-  format: yaml
-  label: Workday Integration Payroll UK API
-  slug: workday-integration-payroll-uk-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/openapi/workday-integration-payroll-uk-api-openapi.yml
 - filename: workday-integration-performance-reviews-api-openapi.yml
   format: yaml
   label: Workday Integration Performance Reviews API

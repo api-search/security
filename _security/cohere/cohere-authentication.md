@@ -93,5 +93,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cohere-c
   \  - openapi/cohere-tokenize-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/authentication/cohere-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Artificial Intelligence
+- Natural Language Processing
+- Embeddings
+- Vector Search
+- Tokenization
+- LLM
 ---

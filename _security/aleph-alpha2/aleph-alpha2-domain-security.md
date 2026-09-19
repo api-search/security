@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Machine-Learning
 - Generative AI
 - Sovereign AI

@@ -214,5 +214,5 @@ tags:
 - Demand Response
 - Solar
 - Home Energy
-- Internet of Things
+- IoT
 ---

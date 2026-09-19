@@ -6,24 +6,12 @@ api_specs:
   slug: ntropy-account-holder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-account-holder-api-openapi.yml
-- filename: ntropy-accountholders-api-openapi.yml
-  format: yaml
-  label: Ntropy accountHolders API
-  slug: ntropy-accountholders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-accountholders-api-openapi.yml
 - filename: ntropy-bank-statements-api-openapi.yml
   format: yaml
   label: Ntropy Bank statements API
   slug: ntropy-bank-statements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-bank-statements-api-openapi.yml
-- filename: ntropy-bankstatements-api-openapi.yml
-  format: yaml
-  label: Ntropy bankStatements API
-  slug: ntropy-bankstatements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-bankstatements-api-openapi.yml
 - filename: ntropy-batches-api-openapi.yml
   format: yaml
   label: Ntropy batches API
@@ -96,6 +84,12 @@ api_specs:
   slug: ntropy-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-webhooks-api-openapi.yml
+- filename: ntropy-account-holders-api-openapi.yml
+  format: yaml
+  label: Ntropy Account Holders API
+  slug: ntropy-account-holders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-account-holders-api-openapi.yml
 description: ''
 domains:
 - caa: []

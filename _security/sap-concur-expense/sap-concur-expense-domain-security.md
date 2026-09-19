@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-allocations-api-openapi.yml
 - filename: sap-concur-expense-expense-entries-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Expense Entries API
+  label: SAP Concur Expense Entries API
   slug: sap-concur-expense-expense-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-expense-entries-api-openapi.yml
 - filename: sap-concur-expense-expense-reports-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Expense Reports API
+  label: SAP Concur Expense Reports API
   slug: sap-concur-expense-expense-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-expense-reports-api-openapi.yml

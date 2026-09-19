@@ -3,18 +3,18 @@ anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
-- filename: prismatic-graphql-api-openapi.yml
-  format: yaml
-  label: Prismatics GraphQL API
-  slug: prismatics-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-graphql-api-openapi.yml
 - filename: prismatic-authentication-api-openapi.yml
   format: yaml
   label: Prismatic Authentication API
   slug: prismatic-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-authentication-api-openapi.yml
+- filename: prismatic-graph-ql-api-openapi.yml
+  format: yaml
+  label: Prismatic Graph QL API
+  slug: prismatic-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/openapi/prismatic-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http

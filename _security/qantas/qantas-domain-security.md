@@ -40,7 +40,7 @@ tags:
 - Travel
 - Australia
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - Booking

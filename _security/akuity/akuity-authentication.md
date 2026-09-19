@@ -2,24 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: akuity-apikeyservice-api-openapi.yml
-  format: yaml
-  label: Akuity API Key Service API
-  slug: akuity-apikeyservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-apikeyservice-api-openapi.yml
 - filename: akuity-argocdservice-api-openapi.yml
   format: yaml
   label: Akuity Argo CD Service API
   slug: akuity-argocdservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-argocdservice-api-openapi.yml
-- filename: akuity-authservice-api-openapi.yml
-  format: yaml
-  label: Akuity Auth Service API
-  slug: akuity-authservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-authservice-api-openapi.yml
 - filename: akuity-customroleservice-api-openapi.yml
   format: yaml
   label: Akuity Custom Role Service API
@@ -50,6 +38,18 @@ api_specs:
   slug: akuity-systemservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-systemservice-api-openapi.yml
+- filename: akuity-api-key-service-api-openapi.yml
+  format: yaml
+  label: Akuity Api Key Service API
+  slug: akuity-api-key-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-api-key-service-api-openapi.yml
+- filename: akuity-auth-service-api-openapi.yml
+  format: yaml
+  label: Akuity Auth Service API
+  slug: akuity-auth-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/openapi/akuity-auth-service-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -2,7 +2,7 @@
 api_specs:
 - filename: amazon-documentdb-amazon-documentdb-api-api-openapi.yml
   format: yaml
-  label: Amazon DocumentDB Amazon DocumentDB API API
+  label: Amazon DocumentDB Amazon DocumentDB API
   slug: amazon-documentdb-amazon-documentdb-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-amazon-documentdb-api-api-openapi.yml

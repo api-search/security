@@ -2,12 +2,78 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: stream-security-api-openapi.json
-  format: json
-  label: Stream Security API
-  slug: stream-security-api
+- filename: stream-security-attack-paths-api-openapi.yml
+  format: yaml
+  label: Stream.Security Attack Paths API
+  slug: stream-security-attack-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-attack-paths-api-openapi.yml
+- filename: stream-security-canaries-api-openapi.yml
+  format: yaml
+  label: Stream.Security Canaries API
+  slug: stream-security-canaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-canaries-api-openapi.yml
+- filename: stream-security-config-changes-api-openapi.yml
+  format: yaml
+  label: Stream.Security Config Changes API
+  slug: stream-security-config-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-config-changes-api-openapi.yml
+- filename: stream-security-detection-rules-api-openapi.yml
+  format: yaml
+  label: Stream.Security Detection Rules API
+  slug: stream-security-detection-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-detection-rules-api-openapi.yml
+- filename: stream-security-integrations-api-openapi.yml
+  format: yaml
+  label: Stream.Security Integrations API
+  slug: stream-security-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-integrations-api-openapi.yml
+- filename: stream-security-inventory-api-openapi.yml
+  format: yaml
+  label: Stream.Security Inventory API
+  slug: stream-security-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-inventory-api-openapi.yml
+- filename: stream-security-network-identity-logs-api-openapi.yml
+  format: yaml
+  label: Stream.Security Network & Identity Logs API
+  slug: stream-security-network-identity-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-network-identity-logs-api-openapi.yml
+- filename: stream-security-notifications-api-openapi.yml
+  format: yaml
+  label: Stream.Security Notifications API
+  slug: stream-security-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-notifications-api-openapi.yml
+- filename: stream-security-posture-security-api-openapi.yml
+  format: yaml
+  label: Stream.Security Posture Security API
+  slug: stream-security-posture-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-posture-security-api-openapi.yml
+- filename: stream-security-threat-detection-api-openapi.yml
+  format: yaml
+  label: Stream.Security Threat Detection API
+  slug: stream-security-threat-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-threat-detection-api-openapi.yml
+- filename: stream-security-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Stream.Security Vulnerabilities API
+  slug: stream-security-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-vulnerabilities-api-openapi.yml
+- filename: stream-security-workspaces-api-openapi.yml
+  format: yaml
+  label: Stream.Security Workspaces API
+  slug: stream-security-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/openapi/stream-security-workspaces-api-openapi.yml
 auth_types:
 - http
 description: ''

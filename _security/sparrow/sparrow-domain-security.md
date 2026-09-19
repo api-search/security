@@ -64,7 +64,6 @@ tags:
 - Company
 - Leave Management
 - Human Resources
-- HR Tech
 - Payroll
 - Compliance
 - Employee Benefits

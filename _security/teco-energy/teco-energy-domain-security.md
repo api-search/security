@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-billing-api-openapi.yml
 - filename: teco-energy-energy-usage-api-openapi.yml
   format: yaml
-  label: TECO Energy Energy Usage API
+  label: TECO Energy Usage API
   slug: teco-energy-energy-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-energy-usage-api-openapi.yml

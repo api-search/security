@@ -45,7 +45,6 @@ tags:
 - Cards
 - Card Issuing
 - Pix
-- LatAm
 - Latin America
 - Brazil
 - Argentina
@@ -62,7 +61,7 @@ tags:
 - Tokenization
 - Embedded Finance
 - Money Transfer
-- Remittance
+- Remittances
 - Gaming Payments
 - Marketplace Payments
 - Payroll

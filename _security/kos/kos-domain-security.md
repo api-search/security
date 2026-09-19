@@ -38,6 +38,6 @@ tags:
 - Finance
 - Accounts Payable
 - Enterprise Software
-- Data Centers
+- Data-Center
 - Infrastructure
 ---

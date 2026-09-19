@@ -38,5 +38,5 @@ tags:
 - News Aggregation
 - Journalism
 - Media Monitoring
-- Consumer Apps
+- Consumer App
 ---

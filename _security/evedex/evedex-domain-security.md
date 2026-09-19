@@ -18,12 +18,6 @@ api_specs:
   slug: evedex-aml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-aml-api-openapi.yml
-- filename: evedex-apikey-api-openapi.yml
-  format: yaml
-  label: EVEDEX API Key API
-  slug: evedex-apikey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-apikey-api-openapi.yml
 - filename: evedex-article-api-openapi.yml
   format: yaml
   label: EVEDEX Article API
@@ -300,12 +294,6 @@ api_specs:
   slug: evedex-message-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-message-api-openapi.yml
-- filename: evedex-mobileapp-api-openapi.yml
-  format: yaml
-  label: EVEDEX Mobile App API
-  slug: evedex-mobileapp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-mobileapp-api-openapi.yml
 - filename: evedex-module-api-openapi.yml
   format: yaml
   label: EVEDEX Module API
@@ -330,24 +318,12 @@ api_specs:
   slug: evedex-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-notifications-api-openapi.yml
-- filename: evedex-oauth-api-openapi.yml
-  format: yaml
-  label: EVEDEX OAUTH API
-  slug: evedex-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-oauth-api-openapi.yml
 - filename: evedex-order-api-openapi.yml
   format: yaml
   label: EVEDEX Order API
   slug: evedex-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-order-api-openapi.yml
-- filename: evedex-paymentservice-api-openapi.yml
-  format: yaml
-  label: EVEDEX Payment Service API
-  slug: evedex-paymentservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-paymentservice-api-openapi.yml
 - filename: evedex-paysystem-api-openapi.yml
   format: yaml
   label: EVEDEX Paysystem API
@@ -378,12 +354,6 @@ api_specs:
   slug: evedex-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-product-api-openapi.yml
-- filename: evedex-promocodes-api-openapi.yml
-  format: yaml
-  label: EVEDEX Promocodes API
-  slug: evedex-promocodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-promocodes-api-openapi.yml
 - filename: evedex-public-profile-api-openapi.yml
   format: yaml
   label: EVEDEX Public profile API
@@ -468,12 +438,6 @@ api_specs:
   slug: evedex-sharecontent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-sharecontent-api-openapi.yml
-- filename: evedex-shortlink-api-openapi.yml
-  format: yaml
-  label: EVEDEX Short Link API
-  slug: evedex-shortlink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-shortlink-api-openapi.yml
 - filename: evedex-simulator-api-openapi.yml
   format: yaml
   label: EVEDEX Simulator API
@@ -516,12 +480,6 @@ api_specs:
   slug: evedex-strategy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-strategy-api-openapi.yml
-- filename: evedex-subaccount-api-openapi.yml
-  format: yaml
-  label: EVEDEX Sub Account API
-  slug: evedex-subaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-subaccount-api-openapi.yml
 - filename: evedex-subscription-api-openapi.yml
   format: yaml
   label: EVEDEX Subscription API
@@ -642,6 +600,48 @@ api_specs:
   slug: evedex-yield-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-yield-api-openapi.yml
+- filename: evedex-oauth-api-openapi.yml
+  format: yaml
+  label: EVEDEX OAUTH API
+  slug: evedex-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-oauth-api-openapi.yml
+- filename: evedex-api-key-api-openapi.yml
+  format: yaml
+  label: EVEDEX API Key API
+  slug: evedex-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-api-key-api-openapi.yml
+- filename: evedex-mobile-app-api-openapi.yml
+  format: yaml
+  label: EVEDEX Mobile App API
+  slug: evedex-mobile-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-mobile-app-api-openapi.yml
+- filename: evedex-payment-service-api-openapi.yml
+  format: yaml
+  label: EVEDEX Payment Service API
+  slug: evedex-payment-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-payment-service-api-openapi.yml
+- filename: evedex-promo-codes-api-openapi.yml
+  format: yaml
+  label: EVEDEX Promo Codes API
+  slug: evedex-promo-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-promo-codes-api-openapi.yml
+- filename: evedex-short-link-api-openapi.yml
+  format: yaml
+  label: EVEDEX Short Link API
+  slug: evedex-short-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-short-link-api-openapi.yml
+- filename: evedex-sub-account-api-openapi.yml
+  format: yaml
+  label: EVEDEX Sub Account API
+  slug: evedex-sub-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-sub-account-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -651,22 +651,21 @@ domains:
   domain: evedex.com
   spf: true
 hosts:
-- cert_expires: Oct  1 18:29:33 2026 GMT
+- cert_expires: Mar 11 23:59:59 2027 GMT
+  host: evedex.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov 29 23:57:34 2026 GMT
   host: docs.evedex.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Mar 11 23:59:59 2027 GMT
-  host: auth.evedex.com
-  hsts: true
-  hsts_max_age: 63072000
-  https: true
-  tls_version: TLSv1.3
 - cert_expires: Mar  2 23:59:59 2027 GMT
-  host: swagger.evedex.com
-  hsts: true
-  hsts_max_age: 31536000
+  host: auth-api.evedex.com
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -675,14 +674,14 @@ layout: security
 method: probed
 name: Evedex Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EVEDEX, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for EVEDEX, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: EVEDEX
 provider_slug: evedex
 slug: evedex-domain-security
 source_filename: evedex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.evedex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 18:29:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth.evedex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: swagger.evedex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: evedex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: evedex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.evedex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:57:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth-api.evedex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: evedex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/security/evedex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

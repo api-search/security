@@ -36,7 +36,7 @@ tags:
 - Food
 - Procurement
 - Food Tech
-- BNPL
+- Buy Now Pay Later
 - Logistics
 - Nigeria
 - Africa

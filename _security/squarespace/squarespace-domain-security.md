@@ -60,12 +60,6 @@ api_specs:
   slug: squarespace-discounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
-- filename: squarespace-webhooksubscriptions-api-openapi.yml
-  format: yaml
-  label: Squarespace Webhook Subscriptions API
-  slug: squarespace-webhooksubscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhooksubscriptions-api-openapi.yml
 - filename: squarespace-websites-api-openapi.yml
   format: yaml
   label: Squarespace Websites API

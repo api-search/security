@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Legal
-- Law Firm
+- Law Firms
 - Legal Tech
 - Contracts
 - Contract Review

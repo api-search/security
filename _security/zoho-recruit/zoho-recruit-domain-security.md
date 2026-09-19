@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/openapi/zoho-recruit-job-openings-api-openapi.yml
 - filename: zoho-recruit-zoho-recruit-api-api-openapi.yml
   format: yaml
-  label: Zoho Recruit Zoho Recruit API API
+  label: Zoho Recruit Zoho Recruit API
   slug: zoho-recruit-zoho-recruit-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/openapi/zoho-recruit-zoho-recruit-api-api-openapi.yml
@@ -61,6 +61,6 @@ tags:
 - ATS
 - Recruiting
 - Recruitment CRM
-- HR
+- Human Resources
 - Zoho
 ---

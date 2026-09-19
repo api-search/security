@@ -56,7 +56,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/r
 summary_line: http · 1 scheme
 tags:
 - HTTP
-- HTTPS
 - Debugging
 - Proxy
 - Interception

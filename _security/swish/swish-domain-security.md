@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Food Delivery
 - Quick Commerce
-- Cloud Kitchens
+- Cloud Kitchen
 - Last-Mile Logistics
 - Bengaluru
 - India

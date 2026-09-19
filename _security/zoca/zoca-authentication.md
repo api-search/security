@@ -20,12 +20,6 @@ api_specs:
   slug: zoca-addongroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/openapi/zoca-addongroups-api-openapi.yml
-- filename: zoca-addons-api-openapi.yml
-  format: yaml
-  label: Zoca Addons API
-  slug: zoca-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/openapi/zoca-addons-api-openapi.yml
 - filename: zoca-aeo-lead-magnet-api-openapi.yml
   format: yaml
   label: Zoca Aeo Lead Magnet API
@@ -1160,6 +1154,12 @@ api_specs:
   slug: zoca-zoho-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/openapi/zoca-zoho-api-openapi.yml
+- filename: zoca-add-ons-api-openapi.yml
+  format: yaml
+  label: Zoca Add Ons API
+  slug: zoca-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/openapi/zoca-add-ons-api-openapi.yml
 auth_types:
 - http
 description: ''

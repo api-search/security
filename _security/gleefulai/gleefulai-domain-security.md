@@ -60,12 +60,6 @@ api_specs:
   slug: gleefulai-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-health-api-openapi.yml
-- filename: gleefulai-llms-api-openapi.yml
-  format: yaml
-  label: Gleeful AI Llms API
-  slug: gleefulai-llms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-llms-api-openapi.yml
 - filename: gleefulai-meta-api-openapi.yml
   format: yaml
   label: Gleeful AI Meta API
@@ -102,6 +96,12 @@ api_specs:
   slug: gleefulai-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-status-api-openapi.yml
+- filename: gleefulai-llms-api-openapi.yml
+  format: yaml
+  label: Gleeful AI Llms API
+  slug: gleefulai-llms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/openapi/gleefulai-llms-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -135,7 +135,7 @@ tags:
 - Micropayments
 - SEO
 - Audit
-- Website
+- Websites
 - Content
 - Crawlers
 - Monetization

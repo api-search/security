@@ -2,18 +2,72 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: supra-rpc-node-openapi.yml
+- filename: supra-accounts-api-openapi.yml
   format: yaml
-  label: Supra RPC Node API
-  slug: supra-rpc-node-api
+  label: Supra Accounts API
+  slug: supra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-rpc-node-openapi.yml
-- filename: supra-rpc-node-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-accounts-api-openapi.yml
+- filename: supra-block-api-openapi.yml
   format: yaml
-  label: Supra Automation API
-  slug: supra-automation-api
+  label: Supra Block API
+  slug: supra-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-rpc-node-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-block-api-openapi.yml
+- filename: supra-consensus-api-openapi.yml
+  format: yaml
+  label: Supra Consensus API
+  slug: supra-consensus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-consensus-api-openapi.yml
+- filename: supra-events-api-openapi.yml
+  format: yaml
+  label: Supra Events API
+  slug: supra-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-events-api-openapi.yml
+- filename: supra-faucet-api-openapi.yml
+  format: yaml
+  label: Supra Faucet API
+  slug: supra-faucet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-faucet-api-openapi.yml
+- filename: supra-proofs-api-openapi.yml
+  format: yaml
+  label: Supra Proofs API
+  slug: supra-proofs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-proofs-api-openapi.yml
+- filename: supra-tables-api-openapi.yml
+  format: yaml
+  label: Supra Tables API
+  slug: supra-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-tables-api-openapi.yml
+- filename: supra-transactions-api-openapi.yml
+  format: yaml
+  label: Supra Transactions API
+  slug: supra-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-transactions-api-openapi.yml
+- filename: supra-version-api-openapi.yml
+  format: yaml
+  label: Supra Version API
+  slug: supra-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-version-api-openapi.yml
+- filename: supra-view-api-openapi.yml
+  format: yaml
+  label: Supra View API
+  slug: supra-view-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-view-api-openapi.yml
+- filename: supra-websocket-api-openapi.yml
+  format: yaml
+  label: Supra Web Socket API
+  slug: supra-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/openapi/supra-websocket-api-openapi.yml
 auth_types: []
 description: 'Supra runs two authentication regimes side by side. The Layer 1 node RPC is fully public and keyless — no API key, no OAuth, no securityScheme in the OpenAPI at all — because authority on a blockchain comes from the signature inside the transaction payload, not from a credential on the HTTP call. The oracle Price Feeds REST and WebSocket APIs are the opposite: an x-api-key header is mandatory, and the key is issued by hand through a Google Form request, with the surface labelled Early Access.'
 kind: authentication
@@ -68,7 +122,7 @@ summary_line: 2 schemes
 tags:
 - Blockchain
 - Layer 1
-- Oracles
+- Oracle
 - Web3
 - Market Data
 - Smart Contracts

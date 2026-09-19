@@ -58,9 +58,8 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Chat
-- Chat Completion
+- Chat Completions
 - LLM
-- Large Language Models
 - Reasoning
 - Code Completion
 ---

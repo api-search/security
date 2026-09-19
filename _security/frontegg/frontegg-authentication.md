@@ -80,12 +80,6 @@ api_specs:
   slug: frontegg-approval-flows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-approval-flows-api-openapi.yml
-- filename: frontegg-authenticate-with-env-credentials-api-openapi.yml
-  format: yaml
-  label: Frontegg Authenticate With Env Credentials API
-  slug: frontegg-authenticate-with-env-credentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-authenticate-with-env-credentials-api-openapi.yml
 - filename: frontegg-core-settings-api-openapi.yml
   format: yaml
   label: Frontegg Core Settings API
@@ -254,12 +248,6 @@ api_specs:
   slug: frontegg-rebac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-rebac-api-openapi.yml
-- filename: frontegg-resources-api-openapi.yml
-  format: yaml
-  label: Frontegg Resources API
-  slug: frontegg-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-resources-api-openapi.yml
 - filename: frontegg-roles-api-openapi.yml
   format: yaml
   label: Frontegg Roles API
@@ -332,12 +320,6 @@ api_specs:
   slug: frontegg-sub-accounts-and-hierarchy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-sub-accounts-and-hierarchy-api-openapi.yml
-- filename: frontegg-sub-accounts-api-openapi.yml
-  format: yaml
-  label: Frontegg Sub-accounts API
-  slug: frontegg-sub-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-sub-accounts-api-openapi.yml
 - filename: frontegg-tenants-other-api-openapi.yml
   format: yaml
   label: Frontegg Tenants_other API
@@ -386,6 +368,12 @@ api_specs:
   slug: frontegg-users-applications-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-users-applications-management-api-openapi.yml
+- filename: frontegg-subaccounts-api-openapi.yml
+  format: yaml
+  label: Frontegg Subaccounts API
+  slug: frontegg-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/openapi/frontegg-subaccounts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -433,4 +421,5 @@ tags:
 - SCIM
 - Entitlements
 - OpenID Connect
+- Identity Federation
 ---

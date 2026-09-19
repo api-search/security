@@ -396,12 +396,6 @@ api_specs:
   slug: benchling-appconfigvalue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-appconfigvalue-api-openapi.yml
-- filename: benchling-appinstallation-api-openapi.yml
-  format: yaml
-  label: Benchling App Installation API
-  slug: benchling-appinstallation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-appinstallation-api-openapi.yml
 - filename: benchling-appsession-api-openapi.yml
   format: yaml
   label: Benchling App Session API
@@ -414,12 +408,6 @@ api_specs:
   slug: benchling-assembly-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-assembly-api-openapi.yml
-- filename: benchling-auditlog-api-openapi.yml
-  format: yaml
-  label: Benchling Audit Log API
-  slug: benchling-auditlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-auditlog-api-openapi.yml
 - filename: benchling-box-api-openapi.yml
   format: yaml
   label: Benchling Box API
@@ -432,12 +420,6 @@ api_specs:
   slug: benchling-boxschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-boxschema-api-openapi.yml
-- filename: benchling-bulkexport-api-openapi.yml
-  format: yaml
-  label: Benchling Bulk Export API
-  slug: benchling-bulkexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-bulkexport-api-openapi.yml
 - filename: benchling-chart-api-openapi.yml
   format: yaml
   label: Benchling Chart API
@@ -756,12 +738,6 @@ api_specs:
   slug: benchling-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-organization-api-openapi.yml
-- filename: benchling-pipelinestep-api-openapi.yml
-  format: yaml
-  label: Benchling Pipeline Step API
-  slug: benchling-pipelinestep-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-pipelinestep-api-openapi.yml
 - filename: benchling-pipelinestepdata-api-openapi.yml
   format: yaml
   label: Benchling Pipeline Step Data API
@@ -1188,12 +1164,6 @@ api_specs:
   slug: benchling-workflowoutputschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-workflowoutputschema-api-openapi.yml
-- filename: benchling-workflowtask-api-openapi.yml
-  format: yaml
-  label: Benchling Workflow Task API
-  slug: benchling-workflowtask-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-workflowtask-api-openapi.yml
 - filename: benchling-workflowtaskgroup-api-openapi.yml
   format: yaml
   label: Benchling Workflow Task Group API
@@ -1218,6 +1188,36 @@ api_specs:
   slug: benchling-worksheet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-worksheet-api-openapi.yml
+- filename: benchling-app-installation-api-openapi.yml
+  format: yaml
+  label: Benchling App Installation API
+  slug: benchling-app-installation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-app-installation-api-openapi.yml
+- filename: benchling-audit-log-api-openapi.yml
+  format: yaml
+  label: Benchling Audit Log API
+  slug: benchling-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-audit-log-api-openapi.yml
+- filename: benchling-bulk-export-api-openapi.yml
+  format: yaml
+  label: Benchling Bulk Export API
+  slug: benchling-bulk-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-bulk-export-api-openapi.yml
+- filename: benchling-pipeline-step-api-openapi.yml
+  format: yaml
+  label: Benchling Pipeline Step API
+  slug: benchling-pipeline-step-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-pipeline-step-api-openapi.yml
+- filename: benchling-workflow-task-api-openapi.yml
+  format: yaml
+  label: Benchling Workflow Task API
+  slug: benchling-workflow-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-workflow-task-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type 2

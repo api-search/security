@@ -302,12 +302,6 @@ api_specs:
   slug: incentivio-multilingual-message-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-multilingual-message-controller-api-openapi.yml
-- filename: incentivio-oauth-2-controller-api-openapi.yml
-  format: yaml
-  label: Incentivio OAUTH 2 Controller API
-  slug: incentivio-oauth-2-controller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-oauth-2-controller-api-openapi.yml
 - filename: incentivio-offer-distribution-controller-api-openapi.yml
   format: yaml
   label: Incentivio Offer Distribution Controller API
@@ -518,6 +512,12 @@ api_specs:
   slug: incentivio-web-app-config-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-web-app-config-controller-api-openapi.yml
+- filename: incentivio-o-auth-2-controller-api-openapi.yml
+  format: yaml
+  label: Incentivio o auth 2 controller API
+  slug: incentivio-o-auth-2-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/openapi/incentivio-o-auth-2-controller-api-openapi.yml
 auth_types: []
 description: 'Incentivio publishes no narrative authentication documentation, and neither OpenAPI definition declares a securityScheme — the springdoc generator emitted none. The auth model was therefore established by probe: both production services answer unauthenticated requests with `WWW-Authenticate: Bearer realm="restservice"`, and both serve RFC 8414 OAuth 2.0 Authorization Server Metadata anonymously at /.well-known/oauth-authorization-server. The metadata is a Spring Authorization Server document describing authorization_code (with PKCE S256), client_credentials, refresh_token, device_code and token-exchange grants. There are two separate issuers, one per audience.'
 kind: authentication

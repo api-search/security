@@ -97,7 +97,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Music
 - Lyrics
-- Annotations
+- Annotation
 - Crowdsourced
 - Reference Data
 - Public APIs

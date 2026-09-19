@@ -27,7 +27,7 @@ tags:
 - KYB
 - Financial-Services
 - Insurance
-- HR Tech
+- Human Resources
 - Lending
 - API Infrastructure
 - Fintech

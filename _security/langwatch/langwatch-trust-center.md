@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-graphs-api-openapi.yml
 - filename: langwatch-langwatch-api-api-openapi.yml
   format: yaml
-  label: LangWatch LangWatch API API
+  label: LangWatch API
   slug: langwatch-langwatch-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-langwatch-api-api-openapi.yml

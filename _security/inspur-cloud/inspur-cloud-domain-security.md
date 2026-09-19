@@ -60,7 +60,7 @@ tags:
 - Identity
 - Database
 - Containers
-- Internet of Things
+- IoT
 - Blockchain
 - China
 - Company

@@ -63,12 +63,6 @@ api_specs:
   slug: portainer-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-endpoints-api-openapi.yml
-- filename: portainer-gitops-api-openapi.yml
-  format: yaml
-  label: Portainer gitops API
-  slug: portainer-gitops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-gitops-api-openapi.yml
 - filename: portainer-helm-api-openapi.yml
   format: yaml
   label: Portainer helm API
@@ -195,6 +189,12 @@ api_specs:
   slug: portainer-websocket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-websocket-api-openapi.yml
+- filename: portainer-git-ops-api-openapi.yml
+  format: yaml
+  label: Portainer Git Ops API
+  slug: portainer-git-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/openapi/portainer-git-ops-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

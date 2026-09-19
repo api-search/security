@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netsuite-accou
 summary_line: TLSv1.3 · DMARC
 tags:
 - Accounting
-- Financials
+- Financial
 - General Ledger
 - Accounts Payable
 - Accounts Receivable

@@ -54,6 +54,48 @@ api_specs:
   slug: agave-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-vendors-api-openapi.yml
+- filename: agave-common-api-openapi.yml
+  format: yaml
+  label: Agave Common API
+  slug: agave-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-common-api-openapi.yml
+- filename: agave-customer-management-api-openapi.yml
+  format: yaml
+  label: Agave Customer Management API
+  slug: agave-customer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-customer-management-api-openapi.yml
+- filename: agave-file-management-api-openapi.yml
+  format: yaml
+  label: Agave File Management API
+  slug: agave-file-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-file-management-api-openapi.yml
+- filename: agave-financials-management-api-openapi.yml
+  format: yaml
+  label: Agave Financials Management API
+  slug: agave-financials-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-financials-management-api-openapi.yml
+- filename: agave-project-management-api-openapi.yml
+  format: yaml
+  label: Agave Project Management API
+  slug: agave-project-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-project-management-api-openapi.yml
+- filename: agave-service-management-api-openapi.yml
+  format: yaml
+  label: Agave Service Management API
+  slug: agave-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-service-management-api-openapi.yml
+- filename: agave-webhooks-api-openapi.yml
+  format: yaml
+  label: Agave Webhooks API
+  slug: agave-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

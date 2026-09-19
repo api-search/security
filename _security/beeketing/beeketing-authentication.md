@@ -39,12 +39,6 @@ api_specs:
   slug: beeketing-customer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-customer-api-openapi.yml
-- filename: beeketing-discountcode-api-openapi.yml
-  format: yaml
-  label: Beeketing Discount Code API
-  slug: beeketing-discountcode-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-discountcode-api-openapi.yml
 - filename: beeketing-domain-api-openapi.yml
   format: yaml
   label: Beeketing Domain API
@@ -165,6 +159,12 @@ api_specs:
   slug: beeketing-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-webhook-api-openapi.yml
+- filename: beeketing-discount-code-api-openapi.yml
+  format: yaml
+  label: Beeketing Discount Code API
+  slug: beeketing-discount-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-discount-code-api-openapi.yml
 auth_types:
 - oauth2
 - http

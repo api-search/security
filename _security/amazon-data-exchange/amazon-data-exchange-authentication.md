@@ -9,12 +9,6 @@ api_specs:
   slug: amazon-data-exchange-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-assets-api-openapi.yml
-- filename: amazon-data-exchange-data-sets-api-openapi.yml
-  format: yaml
-  label: Amazon Data Exchange Data Sets API
-  slug: amazon-data-exchange-data-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-data-sets-api-openapi.yml
 - filename: amazon-data-exchange-event-actions-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Event Actions API
@@ -39,6 +33,12 @@ api_specs:
   slug: amazon-data-exchange-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-tags-api-openapi.yml
+- filename: amazon-data-exchange-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Datasets API
+  slug: amazon-data-exchange-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-datasets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

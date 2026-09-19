@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-aql-search-api-openapi.yml
 - filename: artifactory-artifactory-extensions-api-openapi.yml
   format: yaml
-  label: JFrog Artifactory Artifactory Extensions API
+  label: JFrog Artifactory Extensions API
   slug: artifactory-artifactory-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-artifactory-extensions-api-openapi.yml

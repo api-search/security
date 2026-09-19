@@ -34,7 +34,7 @@ tags:
 - Company
 - Consumer
 - Food and Beverage
-- Cloud Kitchens
+- Cloud Kitchen
 - Restaurant
 - Food Delivery
 - Hospitality

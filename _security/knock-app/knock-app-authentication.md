@@ -116,12 +116,6 @@ api_specs:
   slug: knock-app-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/openapi/knock-app-messages-api-openapi.yml
-- filename: knock-app-microsoft-teams-api-openapi.yml
-  format: yaml
-  label: Knock Microsoft Teams API
-  slug: knock-app-microsoft-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/openapi/knock-app-microsoft-teams-api-openapi.yml
 - filename: knock-app-objects-api-openapi.yml
   format: yaml
   label: Knock Objects API
@@ -134,12 +128,6 @@ api_specs:
   slug: knock-app-partials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/openapi/knock-app-partials-api-openapi.yml
-- filename: knock-app-preferences-api-openapi.yml
-  format: yaml
-  label: Knock Preferences API
-  slug: knock-app-preferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/openapi/knock-app-preferences-api-openapi.yml
 - filename: knock-app-providers-api-openapi.yml
   format: yaml
   label: Knock Providers API
@@ -152,12 +140,6 @@ api_specs:
   slug: knock-app-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/openapi/knock-app-schedules-api-openapi.yml
-- filename: knock-app-slack-api-openapi.yml
-  format: yaml
-  label: Knock Slack API
-  slug: knock-app-slack-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/openapi/knock-app-slack-api-openapi.yml
 - filename: knock-app-subscriptions-api-openapi.yml
   format: yaml
   label: Knock Subscriptions API

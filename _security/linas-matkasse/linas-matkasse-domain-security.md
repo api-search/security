@@ -36,7 +36,7 @@ tags:
 - Food and Beverage
 - E-Commerce
 - Subscription
-- Meal Kits
+- Meal Kit
 - Grocery Delivery
 - Sweden
 - Scandinavia

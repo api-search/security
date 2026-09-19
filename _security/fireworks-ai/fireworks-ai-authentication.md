@@ -8,24 +8,6 @@ api_specs:
   slug: fireworks-ai-anthropic-messages-openapi-other-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
-- filename: fireworks-ai-chat-api-openapi.yml
-  format: yaml
-  label: Fireworks AI Chat API
-  slug: fireworks-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-chat-api-openapi.yml
-- filename: fireworks-ai-completions-api-openapi.yml
-  format: yaml
-  label: Fireworks AI Completions API
-  slug: fireworks-ai-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-completions-api-openapi.yml
-- filename: fireworks-ai-gateway-api-openapi.yml
-  format: yaml
-  label: Fireworks AI Gateway API
-  slug: fireworks-ai-gateway-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-api-openapi.yml
 - filename: fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
   format: yaml
   label: Fireworks AI gateway-extra.openapi_Gateway API
@@ -38,18 +20,6 @@ api_specs:
   slug: fireworks-ai-gateway-openapi-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
-- filename: fireworks-ai-messages-api-openapi.yml
-  format: yaml
-  label: Fireworks AI Messages API
-  slug: fireworks-ai-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-messages-api-openapi.yml
-- filename: fireworks-ai-responses-api-openapi.yml
-  format: yaml
-  label: Fireworks AI Responses API
-  slug: fireworks-ai-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-responses-api-openapi.yml
 - filename: fireworks-ai-responses-openapi-other-api-openapi.yml
   format: yaml
   label: Fireworks AI responses.openapi_other API

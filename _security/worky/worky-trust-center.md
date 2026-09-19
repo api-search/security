@@ -20,7 +20,6 @@ summary_line: trust center published
 tags:
 - Company
 - Payroll
-- HR
 - Human Resources
 - Mexico
 - CFDI

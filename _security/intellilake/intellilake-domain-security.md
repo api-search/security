@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intellilake/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Startup
+- Startups
 - Venture Backed
 - Anthemis
 - Portfolio

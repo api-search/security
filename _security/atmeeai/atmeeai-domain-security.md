@@ -38,6 +38,6 @@ tags:
 - Voice
 - Video
 - Personas
-- Digital Twins
+- Digital Twin
 - Consumer
 ---

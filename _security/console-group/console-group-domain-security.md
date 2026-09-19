@@ -94,6 +94,6 @@ tags:
 - Rentals
 - Tenancy
 - Commercial Real Estate
-- Inspections
+- Inspection
 - Payments
 ---

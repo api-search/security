@@ -1,125 +1,143 @@
 ---
 api_specs:
-- filename: freddie-mac-affordable-check-openapi.json
-  format: json
-  label: Freddie Mac Affordable Check
-  slug: affordable-check
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-affordable-check-openapi.json
-- filename: freddie-mac-beyond-ace-openapi.yaml
+- filename: freddie-mac-affordable-check-api-openapi.yml
   format: yaml
-  label: Freddie Mac Beyond ACE
-  slug: beyond-ace
+  label: Freddie Mac Affordable Check API
+  slug: freddie-mac-affordable-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-beyond-ace-openapi.yaml
-- filename: freddie-mac-cash-committing-openapi.json
-  format: json
-  label: Freddie Mac Cash Committing
-  slug: cash-committing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-cash-committing-openapi.json
-- filename: freddie-mac-cash-pricing-openapi.json
-  format: json
-  label: Freddie Mac Cash Pricing
-  slug: cash-pricing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-cash-pricing-openapi.json
-- filename: freddie-mac-cash-settlement-purchase-statement-openapi.json
-  format: json
-  label: Freddie Mac Cash Settlement Purchase Statement
-  slug: cash-settlement-purchase-statement
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-cash-settlement-purchase-statement-openapi.json
-- filename: freddie-mac-current-mortgage-snapshot-openapi.json
-  format: json
-  label: Freddie Mac Current Mortgage Snapshot
-  slug: current-mortgage-snapshot
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-current-mortgage-snapshot-openapi.json
-- filename: freddie-mac-data-share-openapi.json
-  format: json
-  label: Freddie Mac Data Share
-  slug: data-share
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-data-share-openapi.json
-- filename: freddie-mac-data-share-bid-tape-openapi.json
-  format: json
-  label: Freddie Mac Data Share Bid Tape
-  slug: data-share-bid-tape
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-data-share-bid-tape-openapi.json
-- filename: freddie-mac-guarantor-committing-openapi.json
-  format: json
-  label: Freddie Mac Guarantor Committing
-  slug: guarantor-committing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-guarantor-committing-openapi.json
-- filename: freddie-mac-guarantor-pricing-openapi.json
-  format: json
-  label: Freddie Mac Guarantor Pricing
-  slug: guarantor-pricing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-guarantor-pricing-openapi.json
-- filename: freddie-mac-guarantor-settlement-purchase-statement-openapi.json
-  format: json
-  label: Freddie Mac Guarantor Settlement Purchase Statement
-  slug: guarantor-settlement-purchase-statement
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-guarantor-settlement-purchase-statement-openapi.json
-- filename: freddie-mac-income-limits-openapi.json
-  format: json
-  label: Freddie Mac Income Limits
-  slug: income-limits
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-income-limits-openapi.json
-- filename: freddie-mac-loan-closing-advisor-loan-submission-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-affordable-check-api-openapi.yml
+- filename: freddie-mac-cash-committing-api-openapi.yml
   format: yaml
-  label: Freddie Mac Loan Closing Advisor Loan Submission
-  slug: loan-closing-advisor-loan-submission
+  label: Freddie Mac Cash Committing API
+  slug: freddie-mac-cash-committing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-loan-closing-advisor-loan-submission-openapi.yaml
-- filename: freddie-mac-loan-import-openapi.json
-  format: json
-  label: Freddie Mac Loan Import
-  slug: loan-import
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-cash-committing-api-openapi.yml
+- filename: freddie-mac-cash-pricing-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Cash Pricing API
+  slug: freddie-mac-cash-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-loan-import-openapi.json
-- filename: freddie-mac-loan-look-up-openapi.json
-  format: json
-  label: Freddie Mac Loan Look Up
-  slug: loan-look-up
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-cash-pricing-api-openapi.yml
+- filename: freddie-mac-current-mortgage-snapshot-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Current Mortgage Snapshot API
+  slug: freddie-mac-current-mortgage-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-loan-look-up-openapi.json
-- filename: freddie-mac-property-insights-openapi.json
-  format: json
-  label: Freddie Mac Property Insights
-  slug: property-insights
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-current-mortgage-snapshot-api-openapi.yml
+- filename: freddie-mac-data-share-api-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Data Share API
+  slug: freddie-mac-data-share-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-property-insights-openapi.json
-- filename: freddie-mac-resolve-liquidation-openapi.json
-  format: json
-  label: Freddie Mac Resolve Liquidation
-  slug: resolve-liquidation
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-data-share-api-api-openapi.yml
+- filename: freddie-mac-data-share-bid-tape-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Data Share Bid Tape API
+  slug: freddie-mac-data-share-bid-tape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-liquidation-openapi.json
-- filename: freddie-mac-resolve-retention-openapi.json
-  format: json
-  label: Freddie Mac Resolve Retention
-  slug: resolve-retention
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-data-share-bid-tape-api-openapi.yml
+- filename: freddie-mac-guarantor-committing-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Guarantor Committing API
+  slug: freddie-mac-guarantor-committing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-retention-openapi.json
-- filename: freddie-mac-resolve-valuation-pricing-openapi.json
-  format: json
-  label: Freddie Mac Resolve Valuation & Pricing
-  slug: resolve-valuation-pricing
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-guarantor-committing-api-openapi.yml
+- filename: freddie-mac-guarantor-pricing-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Guarantor Pricing API
+  slug: freddie-mac-guarantor-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-valuation-pricing-openapi.json
-- filename: freddie-mac-resolve-workout-options-openapi.json
-  format: json
-  label: Freddie Mac Resolve Workout Options
-  slug: resolve-workout-options
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-guarantor-pricing-api-openapi.yml
+- filename: freddie-mac-income-limits-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Income Limits API
+  slug: freddie-mac-income-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-workout-options-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-income-limits-api-openapi.yml
+- filename: freddie-mac-lcla-submission-request-api-openapi.yml
+  format: yaml
+  label: Freddie Mac LCLA Submission Request API
+  slug: freddie-mac-lcla-submission-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-lcla-submission-request-api-openapi.yml
+- filename: freddie-mac-loan-import-api-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Loan Import API
+  slug: freddie-mac-loan-import-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-loan-import-api-api-openapi.yml
+- filename: freddie-mac-loan-look-up-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Loan Look Up API
+  slug: freddie-mac-loan-look-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-loan-look-up-api-openapi.yml
+- filename: freddie-mac-metadata-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Metadata API
+  slug: freddie-mac-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-metadata-api-openapi.yml
+- filename: freddie-mac-property-data-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Property Data API
+  slug: freddie-mac-property-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-property-data-api-openapi.yml
+- filename: freddie-mac-property-data-images-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Property Data Images API
+  slug: freddie-mac-property-data-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-property-data-images-api-openapi.yml
+- filename: freddie-mac-property-data-pdf-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Property Data PDF API
+  slug: freddie-mac-property-data-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-property-data-pdf-api-openapi.yml
+- filename: freddie-mac-property-insights-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Property Insights API
+  slug: freddie-mac-property-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-property-insights-api-openapi.yml
+- filename: freddie-mac-purchase-advice-guarantor-controller-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Purchase Advice Guarantor Controller API
+  slug: freddie-mac-purchase-advice-guarantor-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-purchase-advice-guarantor-controller-api-openapi.yml
+- filename: freddie-mac-resolve-liquidation-api-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Resolve Liquidation API
+  slug: freddie-mac-resolve-liquidation-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-liquidation-api-api-openapi.yml
+- filename: freddie-mac-resolve-retention-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Resolve Retention API
+  slug: freddie-mac-resolve-retention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-retention-api-openapi.yml
+- filename: freddie-mac-resolve-valuation-pricing-api-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Resolve Valuation & Pricing API
+  slug: freddie-mac-resolve-valuation-pricing-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-valuation-pricing-api-api-openapi.yml
+- filename: freddie-mac-resolve-workout-options-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Resolve Workout Options API
+  slug: freddie-mac-resolve-workout-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-resolve-workout-options-api-openapi.yml
+- filename: freddie-mac-submission-status-api-openapi.yml
+  format: yaml
+  label: Freddie Mac Submission Status API
+  slug: freddie-mac-submission-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/openapi/freddie-mac-submission-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -168,7 +186,7 @@ tags:
 - Lending
 - Servicing
 - Origination
-- Secondary-Market
+- Secondary Market
 - MISMO
 - Fortune 100
 ---

@@ -39,7 +39,7 @@ tags:
 - Creator Economy
 - Online Courses
 - Digital Products
-- Memberships
+- Membership
 - Email Marketing
 - No Public API
 - Zapier Only

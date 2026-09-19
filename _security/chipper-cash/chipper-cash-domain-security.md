@@ -47,7 +47,7 @@ tags:
 - Identity Verification
 - Merchant Payments
 - Payouts
-- Network API
+- Network APIs
 - Pay With Chipper
 - tbDEX
 - Unicorn

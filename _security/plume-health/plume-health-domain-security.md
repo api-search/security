@@ -34,7 +34,6 @@ tags:
 - Health
 - Healthcare
 - Telehealth
-- Telemedicine
 - Gender-Affirming Care
 - Mental Health
 - HIPAA

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: hanyang-repository-oai-pmh-openapi.yml
+- filename: hanyang-oai-pmh-api-openapi.yml
   format: yaml
-  label: Repository at Hanyang University — OAI-PMH
-  slug: repository-oai-pmh
+  label: Hanyang University OAI PMH API
+  slug: hanyang-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/openapi/hanyang-repository-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/openapi/hanyang-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,4 +50,5 @@ tags:
 - OAI-PMH
 - Authentication
 - OpenAPI
+- Identity Federation
 ---

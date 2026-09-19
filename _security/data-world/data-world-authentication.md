@@ -32,12 +32,6 @@ api_specs:
   slug: data-world-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-datasets-api-openapi.yml
-- filename: data-world-dois-api-openapi.yml
-  format: yaml
-  label: data.world DOIs API
-  slug: data-world-dois-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-dois-api-openapi.yml
 - filename: data-world-experimental-api-openapi.yml
   format: yaml
   label: data.world experimental API
@@ -134,12 +128,6 @@ api_specs:
   slug: data-world-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-search-api-openapi.yml
-- filename: data-world-serviceaccount-api-openapi.yml
-  format: yaml
-  label: data.world serviceaccount API
-  slug: data-world-serviceaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-serviceaccount-api-openapi.yml
 - filename: data-world-streams-api-openapi.yml
   format: yaml
   label: data.world streams API
@@ -182,6 +170,18 @@ api_specs:
   slug: data-world-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-webhooks-api-openapi.yml
+- filename: data-world-dois-api-openapi.yml
+  format: yaml
+  label: data.world DO Is API
+  slug: data-world-dois-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-dois-api-openapi.yml
+- filename: data-world-service-account-api-openapi.yml
+  format: yaml
+  label: data.world Service Account API
+  slug: data-world-service-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-service-account-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -37,6 +37,6 @@ tags:
 - Artificial Intelligence
 - Tutoring
 - AI Assistant
-- Korea
+- South Korea
 - Consumer
 ---

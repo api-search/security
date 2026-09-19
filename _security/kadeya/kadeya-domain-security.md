@@ -33,7 +33,7 @@ tags:
 - Company
 - Climate Technology
 - Sustainability
-- Beverage
+- Beverages
 - Hydration
 - Reusable Packaging
 - Vending

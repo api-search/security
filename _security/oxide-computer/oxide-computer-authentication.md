@@ -255,7 +255,7 @@ tags:
 - Networking
 - Storage
 - Hardware
-- On-Premise
+- On-Premises
 - Private Cloud
 - Open-Source
 ---

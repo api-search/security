@@ -37,7 +37,7 @@ tags:
 - Asset Management
 - Banking
 - CLOs
-- Competition
+- Competitions
 - Corporate
 - Crisis Management
 - Cryptocurrency
@@ -56,7 +56,7 @@ tags:
 - Investigations
 - Investment Management
 - Law
-- Law Firm
+- Law Firms
 - Legal
 - Legal Services
 - Life Sciences

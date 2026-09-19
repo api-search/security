@@ -18,12 +18,6 @@ api_specs:
   slug: brave-browser-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-browser-news-api-openapi.yml
-- filename: brave-browser-spellcheck-api-openapi.yml
-  format: yaml
-  label: Brave Spellcheck API
-  slug: brave-browser-spellcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-browser-spellcheck-api-openapi.yml
 - filename: brave-browser-suggest-api-openapi.yml
   format: yaml
   label: Brave Suggest API
@@ -48,60 +42,12 @@ api_specs:
   slug: brave-browser-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-browser-web-api-openapi.yml
-- filename: brave-campaigns-api-openapi.yml
+- filename: brave-browser-spell-check-api-openapi.yml
   format: yaml
-  label: Brave campaigns API
-  slug: brave-campaigns-api
+  label: Brave Spell Check API
+  slug: brave-browser-spell-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-campaigns-api-openapi.yml
-- filename: brave-images-api-openapi.yml
-  format: yaml
-  label: Brave images API
-  slug: brave-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-images-api-openapi.yml
-- filename: brave-local-api-openapi.yml
-  format: yaml
-  label: Brave local API
-  slug: brave-local-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-local-api-openapi.yml
-- filename: brave-news-api-openapi.yml
-  format: yaml
-  label: Brave news API
-  slug: brave-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-news-api-openapi.yml
-- filename: brave-reporting-api-openapi.yml
-  format: yaml
-  label: Brave reporting API
-  slug: brave-reporting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-reporting-api-openapi.yml
-- filename: brave-spellcheck-api-openapi.yml
-  format: yaml
-  label: Brave spellcheck API
-  slug: brave-spellcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-spellcheck-api-openapi.yml
-- filename: brave-suggest-api-openapi.yml
-  format: yaml
-  label: Brave suggest API
-  slug: brave-suggest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-suggest-api-openapi.yml
-- filename: brave-videos-api-openapi.yml
-  format: yaml
-  label: Brave videos API
-  slug: brave-videos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-videos-api-openapi.yml
-- filename: brave-web-api-openapi.yml
-  format: yaml
-  label: Brave web API
-  slug: brave-web-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/openapi/brave-browser-spell-check-api-openapi.yml
 description: ''
 domains:
 - caa:

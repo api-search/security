@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/preset-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/authentication/preset-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- BI
+- Business Intelligence
 - Analytics
 - Superset
 - Dashboards

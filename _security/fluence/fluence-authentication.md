@@ -27,12 +27,6 @@ api_specs:
   slug: fluence-publicip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-publicip-api-openapi.yml
-- filename: fluence-securitygroup-api-openapi.yml
-  format: yaml
-  label: Fluence SecurityGroup API
-  slug: fluence-securitygroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-securitygroup-api-openapi.yml
 - filename: fluence-service-api-openapi.yml
   format: yaml
   label: Fluence Service API
@@ -65,16 +59,22 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-users-api-openapi.yml
 - filename: fluence-vms-api-openapi.yml
   format: yaml
-  label: Fluence VMs API
+  label: Fluence V Ms API
   slug: fluence-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vms-api-openapi.yml
 - filename: fluence-vpcs-api-openapi.yml
   format: yaml
-  label: Fluence VPCs API
+  label: Fluence VP Cs API
   slug: fluence-vpcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vpcs-api-openapi.yml
+- filename: fluence-security-group-api-openapi.yml
+  format: yaml
+  label: Fluence Security Group API
+  slug: fluence-security-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-security-group-api-openapi.yml
 auth_types:
 - apiKey
 - http

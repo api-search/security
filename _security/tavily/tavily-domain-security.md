@@ -78,7 +78,7 @@ tags:
 - Search
 - Web Search
 - AI Agents
-- LLMs
+- LLM
 - Extract
 - Crawl
 - Sitemap

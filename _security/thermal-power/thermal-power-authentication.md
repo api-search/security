@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-plant-operations-api-openapi.yml
 - filename: thermal-power-power-operations-api-openapi.yml
   format: yaml
-  label: Thermal Power Power Operations API
+  label: Thermal Power Operations API
   slug: thermal-power-power-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-power-operations-api-openapi.yml

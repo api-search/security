@@ -38,12 +38,6 @@ api_specs:
   slug: algoseek-bucketupdate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-bucketupdate-api-openapi.yml
-- filename: algoseek-cloudstorage-api-openapi.yml
-  format: yaml
-  label: AlgoSeek CloudStorage API
-  slug: algoseek-cloudstorage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-cloudstorage-api-openapi.yml
 - filename: algoseek-csvcolumn-api-openapi.yml
   format: yaml
   label: AlgoSeek CSVColumn API
@@ -122,12 +116,6 @@ api_specs:
   slug: algoseek-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-documentation-api-openapi.yml
-- filename: algoseek-healthcheck-api-openapi.yml
-  format: yaml
-  label: AlgoSeek Healthcheck API
-  slug: algoseek-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-healthcheck-api-openapi.yml
 - filename: algoseek-identity-api-openapi.yml
   format: yaml
   label: AlgoSeek Identity API
@@ -158,12 +146,6 @@ api_specs:
   slug: algoseek-s3object-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-s3object-api-openapi.yml
-- filename: algoseek-sampledata-api-openapi.yml
-  format: yaml
-  label: AlgoSeek SampleData API
-  slug: algoseek-sampledata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-sampledata-api-openapi.yml
 - filename: algoseek-sqlcolumn-api-openapi.yml
   format: yaml
   label: AlgoSeek SQLColumn API
@@ -200,6 +182,24 @@ api_specs:
   slug: algoseek-vendor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-vendor-api-openapi.yml
+- filename: algoseek-cloud-storage-api-openapi.yml
+  format: yaml
+  label: AlgoSeek Cloud Storage API
+  slug: algoseek-cloud-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-cloud-storage-api-openapi.yml
+- filename: algoseek-health-check-api-openapi.yml
+  format: yaml
+  label: AlgoSeek Health Check API
+  slug: algoseek-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-health-check-api-openapi.yml
+- filename: algoseek-sample-data-api-openapi.yml
+  format: yaml
+  label: AlgoSeek Sample Data API
+  slug: algoseek-sample-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/openapi/algoseek-sample-data-api-openapi.yml
 auth_types:
 - http
 description: ''

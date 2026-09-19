@@ -37,6 +37,6 @@ tags:
 - LGBTQ
 - Community
 - Media
-- Mobile Apps
+- Mobile App
 - Consumer
 ---

@@ -26,13 +26,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-liff-api-openapi.yml
 - filename: line-line-module-api-openapi.yml
   format: yaml
-  label: LINE Line Module API
+  label: LINE Module API
   slug: line-line-module-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-api-openapi.yml
 - filename: line-line-module-attach-api-openapi.yml
   format: yaml
-  label: LINE Line Module Attach API
+  label: LINE Module Attach API
   slug: line-line-module-attach-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-attach-api-openapi.yml
@@ -123,7 +123,7 @@ tags:
 - Marketing
 - Webhook
 - OpenID Connect
-- Audience
+- Audiences
 - Analytics
 - Japan
 ---

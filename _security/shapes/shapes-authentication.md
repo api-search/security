@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-models-api-openapi.yml
 - filename: shapes-shapes-api-openapi.yml
   format: yaml
-  label: Shapes Shapes API
+  label: Shapes API
   slug: shapes-shapes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-shapes-api-openapi.yml

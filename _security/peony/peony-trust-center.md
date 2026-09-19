@@ -28,7 +28,7 @@ tags:
 - Due Diligence
 - Mergers and Acquisitions
 - Document Security
-- E-Signatures
+- E-Signature
 - Data Room
 - Software-as-a-Service
 trust_url: https://www.peony.ink/features/security

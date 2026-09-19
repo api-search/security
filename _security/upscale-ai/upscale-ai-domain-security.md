@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Networking
 - AI Infrastructure
-- Data Centers
+- Data-Center
 - Ethernet
 - Hardware
 - SONiC

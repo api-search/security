@@ -80,7 +80,7 @@ tags:
 - Banking
 - Building Society
 - Savings
-- Mortgages
+- Mortgage
 - Open Banking
 - Open Data
 - PSD2

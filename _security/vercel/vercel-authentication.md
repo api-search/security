@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vercel-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/authentication/vercel-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI Gateways
+- AI Gateway
 - Gateways
 - Observability
 - Webhook

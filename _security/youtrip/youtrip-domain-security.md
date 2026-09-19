@@ -37,6 +37,6 @@ tags:
 - Travel
 - Multi-Currency Wallet
 - Foreign Exchange
-- Prepaid Card
+- Prepaid Cards
 - Singapore
 ---

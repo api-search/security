@@ -37,5 +37,5 @@ tags:
 - Life Sciences
 - Healthcare
 - Clinical Trials
-- Antibody Drug Conjugates
+- Antibody-Drug Conjugates
 ---

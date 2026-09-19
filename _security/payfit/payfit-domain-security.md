@@ -92,7 +92,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payroll
 - Human Resources
-- HR Tech
 - Europe Payroll
 - Time and Attendance
 - Employee Management

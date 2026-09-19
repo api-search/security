@@ -54,18 +54,6 @@ api_specs:
   slug: google-analytics-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reports-api-openapi.yml
-- filename: google-analytics-user-deletion-api-openapi.yml
-  format: yaml
-  label: Google Analytics User Deletion API
-  slug: google-analytics-user-deletion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-deletion-api-openapi.yml
-- filename: google-analytics-useractivity-api-openapi.yml
-  format: yaml
-  label: Google Analytics userActivity API
-  slug: google-analytics-useractivity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-useractivity-api-openapi.yml
 - filename: google-analytics-userdeletion-api-openapi.yml
   format: yaml
   label: Google Analytics userDeletion API
@@ -78,6 +66,12 @@ api_specs:
   slug: google-analytics-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-validation-api-openapi.yml
+- filename: google-analytics-user-activity-api-openapi.yml
+  format: yaml
+  label: Google Analytics User Activity API
+  slug: google-analytics-user-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-activity-api-openapi.yml
 description: ''
 domains:
 - caa:

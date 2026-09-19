@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/openapi/controlup-devices-api-openapi.yml
 - filename: controlup-dynamic-query-api-api-openapi.yml
   format: yaml
-  label: ControlUp Dynamic Query API API
+  label: ControlUp Dynamic Query API
   slug: controlup-dynamic-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/openapi/controlup-dynamic-query-api-api-openapi.yml
@@ -239,7 +239,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/openapi/controlup-processes-api-openapi.yml
 - filename: controlup-public-api-api-openapi.yml
   format: yaml
-  label: ControlUp Public API API
+  label: ControlUp Public API
   slug: controlup-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/openapi/controlup-public-api-api-openapi.yml

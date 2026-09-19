@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: agentic-ai-foundation-mcp-registry-openapi.yaml
+- filename: agentic-ai-foundation-auth-api-openapi.yml
   format: yaml
-  label: Official MCP Registry API
-  slug: mcp-registry
+  label: Agentic AI Foundation Auth API
+  slug: agentic-ai-foundation-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-mcp-registry-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-auth-api-openapi.yml
+- filename: agentic-ai-foundation-health-api-openapi.yml
+  format: yaml
+  label: Agentic AI Foundation Health API
+  slug: agentic-ai-foundation-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-health-api-openapi.yml
+- filename: agentic-ai-foundation-ping-api-openapi.yml
+  format: yaml
+  label: Agentic AI Foundation Ping API
+  slug: agentic-ai-foundation-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-ping-api-openapi.yml
+- filename: agentic-ai-foundation-publish-api-openapi.yml
+  format: yaml
+  label: Agentic AI Foundation Publish API
+  slug: agentic-ai-foundation-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-publish-api-openapi.yml
+- filename: agentic-ai-foundation-servers-api-openapi.yml
+  format: yaml
+  label: Agentic AI Foundation Servers API
+  slug: agentic-ai-foundation-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-servers-api-openapi.yml
+- filename: agentic-ai-foundation-validate-api-openapi.yml
+  format: yaml
+  label: Agentic AI Foundation Validate API
+  slug: agentic-ai-foundation-validate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-validate-api-openapi.yml
+- filename: agentic-ai-foundation-version-api-openapi.yml
+  format: yaml
+  label: Agentic AI Foundation Version API
+  slug: agentic-ai-foundation-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -41,7 +41,7 @@ tags:
 - HRIS
 - Payroll
 - Benefits
-- HR
+- Human Resources
 - Unified-API
 - Workforce
 trust_url: https://www.tryfinch.com/company/security

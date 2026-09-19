@@ -71,8 +71,8 @@ tags:
 - Africa
 - Wallets
 - Savings
-- BNPL
-- Bank Transfer
+- Buy Now Pay Later
+- Bank Transfers
 - Card Payments
 - USSD
 - Agent Banking

@@ -39,5 +39,5 @@ tags:
 - Commercial Real Estate
 - Retail
 - Hospitality
-- Data Centers
+- Data-Center
 ---

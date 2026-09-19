@@ -40,7 +40,7 @@ tags:
 - Science
 - Collaboration
 - Analytics
-- Machine Learning
-- SaaS
+- Machine-Learning
+- Software-as-a-Service
 - Data
 ---

@@ -26,12 +26,6 @@ api_specs:
   slug: xcel-energy-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-configuration-api-openapi.yml
-- filename: xcel-energy-demandresponse-api-openapi.yml
-  format: yaml
-  label: Xcel Energy DemandResponse API
-  slug: xcel-energy-demandresponse-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-demandresponse-api-openapi.yml
 - filename: xcel-energy-der-api-openapi.yml
   format: yaml
   label: Xcel Energy DER API
@@ -44,18 +38,6 @@ api_specs:
   slug: xcel-energy-devicecapability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-devicecapability-api-openapi.yml
-- filename: xcel-energy-deviceinformation-api-openapi.yml
-  format: yaml
-  label: Xcel Energy DeviceInformation API
-  slug: xcel-energy-deviceinformation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-deviceinformation-api-openapi.yml
-- filename: xcel-energy-devicestatus-api-openapi.yml
-  format: yaml
-  label: Xcel Energy DeviceStatus API
-  slug: xcel-energy-devicestatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-devicestatus-api-openapi.yml
 - filename: xcel-energy-electricpowerqualitysummary-api-openapi.yml
   format: yaml
   label: Xcel Energy ElectricPowerQualitySummary API
@@ -152,12 +134,6 @@ api_specs:
   slug: xcel-energy-selfdevice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-selfdevice-api-openapi.yml
-- filename: xcel-energy-servicestatus-api-openapi.yml
-  format: yaml
-  label: Xcel Energy ServiceStatus API
-  slug: xcel-energy-servicestatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-servicestatus-api-openapi.yml
 - filename: xcel-energy-subscription-api-openapi.yml
   format: yaml
   label: Xcel Energy Subscription API
@@ -176,6 +152,30 @@ api_specs:
   slug: xcel-energy-usagepoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-usagepoint-api-openapi.yml
+- filename: xcel-energy-demand-response-api-openapi.yml
+  format: yaml
+  label: Xcel Energy Demand Response API
+  slug: xcel-energy-demand-response-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-demand-response-api-openapi.yml
+- filename: xcel-energy-device-information-api-openapi.yml
+  format: yaml
+  label: Xcel Energy Device Information API
+  slug: xcel-energy-device-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-device-information-api-openapi.yml
+- filename: xcel-energy-device-status-api-openapi.yml
+  format: yaml
+  label: Xcel Energy Device Status API
+  slug: xcel-energy-device-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-device-status-api-openapi.yml
+- filename: xcel-energy-service-status-api-openapi.yml
+  format: yaml
+  label: Xcel Energy Service Status API
+  slug: xcel-energy-service-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-service-status-api-openapi.yml
 auth_types:
 - http
 - mutualTLS

@@ -248,12 +248,6 @@ api_specs:
   slug: oper-credits-sign-in-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-sign-in-api-openapi.yml
-- filename: oper-credits-sign-up-api-openapi.yml
-  format: yaml
-  label: Oper Credits Sign Up API
-  slug: oper-credits-sign-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-sign-up-api-openapi.yml
 - filename: oper-credits-simulators-api-openapi.yml
   format: yaml
   label: Oper Credits Simulators API
@@ -286,7 +280,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-third-parties-api-openapi.yml
 - filename: oper-credits-third-party-api-api-openapi.yml
   format: yaml
-  label: Oper Credits Third Party Api API
+  label: Oper Credits Third Party Api
   slug: oper-credits-third-party-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-third-party-api-api-openapi.yml
@@ -314,6 +308,12 @@ api_specs:
   slug: oper-credits-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-webhooks-api-openapi.yml
+- filename: oper-credits-signup-api-openapi.yml
+  format: yaml
+  label: Oper Credits Signup API
+  slug: oper-credits-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/openapi/oper-credits-signup-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -346,7 +346,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oper-credits/r
 summary_line: http · 1 scheme
 tags:
 - Company
-- Mortgages
+- Mortgage
 - Lending
 - Credit
 - Fintech

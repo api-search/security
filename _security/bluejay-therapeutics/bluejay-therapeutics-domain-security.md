@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluejay-therap
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Pharmaceuticals
 - Life Sciences
 - hepatology

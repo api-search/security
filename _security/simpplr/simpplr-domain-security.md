@@ -54,7 +54,7 @@ tags:
 - Employee Communications
 - Digital Workplace
 - Internal Communications
-- HR
+- Human Resources
 - Collaboration
 - Enterprise Software
 - Salesforce

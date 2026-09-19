@@ -18,12 +18,12 @@ api_specs:
   slug: helidon-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-metrics-api-openapi.yml
-- filename: helidon-openapi-api-openapi.yml
+- filename: helidon-open-api-api-openapi.yml
   format: yaml
-  label: Helidon OpenAPI API
-  slug: helidon-openapi-api
+  label: Helidon Open API
+  slug: helidon-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-openapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-open-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - Java
 - MicroProfile
 - Microservices

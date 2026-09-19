@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afero/refs/hea
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Internet of Things
+- IoT
 - IoT Platform
 - Connected Devices
 - Device Management

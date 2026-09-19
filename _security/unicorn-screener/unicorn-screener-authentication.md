@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Unicorn Screener API
-  slug: unicorn-screener-api
+- filename: unicorn-screener-agent-api-openapi.yml
+  format: yaml
+  label: Unicorn Screener Agent API
+  slug: unicorn-screener-agent-api
   spec_type: OpenAPI
-  url: https://unicornscreener.vc/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-agent-api-openapi.yml
+- filename: unicorn-screener-autocomplete-api-openapi.yml
+  format: yaml
+  label: Unicorn Screener Autocomplete API
+  slug: unicorn-screener-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-autocomplete-api-openapi.yml
+- filename: unicorn-screener-request-report-api-openapi.yml
+  format: yaml
+  label: Unicorn Screener Request Report API
+  slug: unicorn-screener-request-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-request-report-api-openapi.yml
+- filename: unicorn-screener-screen-status-api-openapi.yml
+  format: yaml
+  label: Unicorn Screener Screen Status API
+  slug: unicorn-screener-screen-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicorn-screener/refs/heads/main/openapi/unicorn-screener-screen-status-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

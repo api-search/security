@@ -34,7 +34,7 @@ tags:
 - Fortune 500
 - Housing
 - Multifamily
-- Property-Management
+- Property Management
 - Real-Estate
 - REIT
 ---

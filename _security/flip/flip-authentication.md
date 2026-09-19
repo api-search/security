@@ -35,8 +35,8 @@ tags:
 - Payments
 - Payment Gateway
 - Money Transfer
-- Disbursement
-- Remittance
+- Disbursements
+- Remittances
 - Fintech
 - Indonesia
 - International Transfer

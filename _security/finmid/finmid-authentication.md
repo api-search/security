@@ -51,5 +51,5 @@ tags:
 - Capital
 - Financing
 - Payments
-- Marketplaces
+- Marketplace
 ---

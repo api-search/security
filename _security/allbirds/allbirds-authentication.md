@@ -53,6 +53,6 @@ tags:
 - Apparel
 - Sustainability
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 ---

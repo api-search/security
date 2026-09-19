@@ -368,7 +368,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/portkey-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/authentication/portkey-authentication.yml
 summary_line: apiKey/http · 6 schemes
 tags:
-- AI Gateways
+- AI Gateway
 - Gateways
 - Governance
 - Guardrails

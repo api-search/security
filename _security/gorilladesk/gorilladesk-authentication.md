@@ -32,12 +32,6 @@ api_specs:
   slug: gorilladesk-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-user-api-openapi.yml
-- filename: gorilladesk-users-api-openapi.yml
-  format: yaml
-  label: GorillaDesk Users API
-  slug: gorilladesk-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/openapi/gorilladesk-users-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -82,7 +82,7 @@ tags:
 - IDP
 - Enterprise
 - Automation
-- GenAI
+- Generative AI
 - FedRAMP
 trust_url: https://www.hyperscience.ai/security/
 ---

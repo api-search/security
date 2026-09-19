@@ -37,5 +37,5 @@ tags:
 - Big Data
 - Medical Data
 - China
-- Hospital
+- Hospitals
 ---

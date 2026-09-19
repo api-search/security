@@ -72,7 +72,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingspeak/ref
 summary_line: apiKey · 2 schemes
 tags:
 - IoT
-- Internet of Things
 - Analytics
 - Time Series
 - MQTT

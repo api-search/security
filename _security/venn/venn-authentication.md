@@ -28,14 +28,14 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://api.venn.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/venn/refs/heads/main/authentication/venn-authentication.yml
 summary_line: 0 schemes
 tags:
-- Real Estate
+- Real-Estate
 - Property Management
 - Multifamily
 - Resident Experience
-- Proptech
+- PropTech
 - Leasing
 - Community
 - Payments
 - GraphQL
-- Mobile Apps
+- Mobile App
 ---

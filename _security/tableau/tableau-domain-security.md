@@ -117,4 +117,5 @@ tags:
 - Business Intelligence
 - Dashboards
 - Data Visualization
+- Tableau
 ---

@@ -9,12 +9,6 @@ api_specs:
   slug: bigeye-agentservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-agentservice-api-openapi.yml
-- filename: bigeye-apikeyservice-api-openapi.yml
-  format: yaml
-  label: Bigeye API Key Service API
-  slug: bigeye-apikeyservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-apikeyservice-api-openapi.yml
 - filename: bigeye-catalogrebuildsservice-api-openapi.yml
   format: yaml
   label: Bigeye Catalog Rebuilds Service API
@@ -171,12 +165,6 @@ api_specs:
   slug: bigeye-objectownerservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-objectownerservice-api-openapi.yml
-- filename: bigeye-queryservice-api-openapi.yml
-  format: yaml
-  label: Bigeye Query Service API
-  slug: bigeye-queryservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-queryservice-api-openapi.yml
 - filename: bigeye-roleservice-api-openapi.yml
   format: yaml
   label: Bigeye Role Service API
@@ -207,12 +195,6 @@ api_specs:
   slug: bigeye-schemaservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-schemaservice-api-openapi.yml
-- filename: bigeye-searchservice-api-openapi.yml
-  format: yaml
-  label: Bigeye Search Service API
-  slug: bigeye-searchservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-searchservice-api-openapi.yml
 - filename: bigeye-serviceaccountapikeyservice-api-openapi.yml
   format: yaml
   label: Bigeye Service Account API Key Service API
@@ -267,6 +249,24 @@ api_specs:
   slug: bigeye-workspaceservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-workspaceservice-api-openapi.yml
+- filename: bigeye-api-key-service-api-openapi.yml
+  format: yaml
+  label: Bigeye Api Key Service API
+  slug: bigeye-api-key-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-api-key-service-api-openapi.yml
+- filename: bigeye-query-service-api-openapi.yml
+  format: yaml
+  label: Bigeye Query Service API
+  slug: bigeye-query-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-query-service-api-openapi.yml
+- filename: bigeye-search-service-api-openapi.yml
+  format: yaml
+  label: Bigeye Search Service API
+  slug: bigeye-search-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/openapi/bigeye-search-service-api-openapi.yml
 auth_types:
 - apiKey
 - http

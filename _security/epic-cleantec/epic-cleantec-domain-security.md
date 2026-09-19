@@ -39,5 +39,5 @@ tags:
 - Buildings
 - Real-Estate
 - Climate Tech
-- Internet of Things
+- IoT
 ---

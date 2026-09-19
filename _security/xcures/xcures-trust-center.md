@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: xcures-patient-registry-api-openapi.yml
+- filename: xcures-application-api-openapi.yml
   format: yaml
-  label: xCures Public API
-  slug: xcures-public-api
+  label: xCures Application API
+  slug: xcures-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-patient-registry-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-application-api-openapi.yml
+- filename: xcures-checklist-api-openapi.yml
+  format: yaml
+  label: xCures Checklist API
+  slug: xcures-checklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-checklist-api-openapi.yml
+- filename: xcures-clinical-concepts-api-openapi.yml
+  format: yaml
+  label: xCures Clinical Concepts API
+  slug: xcures-clinical-concepts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-clinical-concepts-api-openapi.yml
+- filename: xcures-document-api-openapi.yml
+  format: yaml
+  label: xCures Document API
+  slug: xcures-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-document-api-openapi.yml
+- filename: xcures-fhir-api-openapi.yml
+  format: yaml
+  label: xCures FHIR API
+  slug: xcures-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-fhir-api-openapi.yml
+- filename: xcures-project-api-openapi.yml
+  format: yaml
+  label: xCures Project API
+  slug: xcures-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-project-api-openapi.yml
+- filename: xcures-query-api-openapi.yml
+  format: yaml
+  label: xCures Query API
+  slug: xcures-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-query-api-openapi.yml
+- filename: xcures-reciprocity-template-api-openapi.yml
+  format: yaml
+  label: xCures Reciprocity Template API
+  slug: xcures-reciprocity-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-reciprocity-template-api-openapi.yml
+- filename: xcures-subject-api-openapi.yml
+  format: yaml
+  label: xCures Subject API
+  slug: xcures-subject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-subject-api-openapi.yml
+- filename: xcures-summary-api-openapi.yml
+  format: yaml
+  label: xCures Summary API
+  slug: xcures-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-summary-api-openapi.yml
+- filename: xcures-oauth-api-openapi.yml
+  format: yaml
+  label: xCures O Auth API
+  slug: xcures-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/openapi/xcures-oauth-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -35,7 +95,7 @@ tags:
 - Interoperability
 - FHIR
 - Oncology
-- Real World Data
+- Real-World Data
 - Clinical Data
 - Artificial Intelligence
 - TEFCA

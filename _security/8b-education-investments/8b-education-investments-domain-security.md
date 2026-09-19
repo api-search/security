@@ -33,9 +33,9 @@ tags:
 - Company
 - Education
 - Student Loans
-- Financial Services
+- Financial-Services
 - Lending
-- FinTech
+- Fintech
 - Africa
 - Higher Education
 - Study Abroad

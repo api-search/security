@@ -48,12 +48,6 @@ api_specs:
   slug: procurify-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-locations-api-openapi.yml
-- filename: procurify-oauth-api-openapi.yml
-  format: yaml
-  label: Procurify oauth API
-  slug: procurify-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-oauth-api-openapi.yml
 - filename: procurify-order-items-api-openapi.yml
   format: yaml
   label: Procurify order-items API
@@ -102,6 +96,12 @@ api_specs:
   slug: procurify-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-vendors-api-openapi.yml
+- filename: procurify-oauth-api-openapi.yml
+  format: yaml
+  label: Procurify OAUTH API
+  slug: procurify-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: canopy-openapi.json
-  format: json
-  label: Canopy Connect API
-  slug: canopy-connect-api
+- filename: canopy-consent-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Consent API
+  slug: canopy-consent-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-consent-api-api-openapi.yml
+- filename: canopy-enrichment-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Enrichment API
+  slug: canopy-enrichment-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-enrichment-api-api-openapi.yml
+- filename: canopy-misc-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Misc API
+  slug: canopy-misc-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-misc-api-api-openapi.yml
+- filename: canopy-monitorings-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Monitorings API
+  slug: canopy-monitorings-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-monitorings-api-api-openapi.yml
+- filename: canopy-policy-check-team-setting-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Policy Check Team Setting API
+  slug: canopy-policy-check-team-setting-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-check-team-setting-api-api-openapi.yml
+- filename: canopy-policy-forms-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Policy Forms API
+  slug: canopy-policy-forms-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-forms-api-api-openapi.yml
+- filename: canopy-policy-search-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Policy Search API
+  slug: canopy-policy-search-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-search-api-api-openapi.yml
+- filename: canopy-pulls-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Pulls API
+  slug: canopy-pulls-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-pulls-api-api-openapi.yml
+- filename: canopy-servicings-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Servicings API
+  slug: canopy-servicings-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-servicings-api-api-openapi.yml
+- filename: canopy-teams-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Teams API
+  slug: canopy-teams-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-teams-api-api-openapi.yml
+- filename: canopy-webhooks-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Webhooks API
+  slug: canopy-webhooks-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-webhooks-api-api-openapi.yml
+- filename: canopy-whitelabel-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Whitelabel API
+  slug: canopy-whitelabel-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-whitelabel-api-api-openapi.yml
+- filename: canopy-widgets-api-api-openapi.yml
+  format: yaml
+  label: Canopy Connect Widgets API
+  slug: canopy-widgets-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-widgets-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

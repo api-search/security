@@ -262,8 +262,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/authentication/beehiiv-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Newsletter
-- Creator
+- Newsletters
+- Creators
 - Email
 - Subscription
 - Publishing

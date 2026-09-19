@@ -36,6 +36,42 @@ api_specs:
   slug: kensho-scribe-batch-v1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-transcription-api-openapi.yml
+- filename: sp-global-funding-rounds-api-openapi.yml
+  format: yaml
+  label: S&P Global Funding Rounds API
+  slug: sp-global-funding-rounds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/sp-global-funding-rounds-api-openapi.yml
+- filename: s-and-p-global-authentication-api-openapi.yml
+  format: yaml
+  label: S&P Global Authentication API
+  slug: s-and-p-global-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/s-and-p-global-authentication-api-openapi.yml
+- filename: s-and-p-global-entity-resolution-api-openapi.yml
+  format: yaml
+  label: S&P Global Entity Resolution API
+  slug: s-and-p-global-entity-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/s-and-p-global-entity-resolution-api-openapi.yml
+- filename: s-and-p-global-market-data-api-openapi.yml
+  format: yaml
+  label: S&P Global Market Data API
+  slug: s-and-p-global-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/s-and-p-global-market-data-api-openapi.yml
+- filename: s-and-p-global-reference-data-api-openapi.yml
+  format: yaml
+  label: S&P Global Reference Data API
+  slug: s-and-p-global-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/s-and-p-global-reference-data-api-openapi.yml
+- filename: s-and-p-global-search-api-openapi.yml
+  format: yaml
+  label: S&P Global Search API
+  slug: s-and-p-global-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/openapi/s-and-p-global-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

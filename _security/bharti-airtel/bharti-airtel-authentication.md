@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-account-details-api-openapi.yml
 - filename: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api-openapi.yml
   format: yaml
-  label: Bharti Airtel Airtel IQ Sample CDR(Call Data Record) API
+  label: Bharti Airtel IQ Sample CDR(Call Data Record) API
   slug: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/openapi/bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api-openapi.yml
@@ -242,4 +242,5 @@ tags:
 - Identity Verification
 - Carrier Billing
 - Consent Management
+- Machine-to-Machine
 ---

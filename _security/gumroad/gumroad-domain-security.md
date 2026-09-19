@@ -51,7 +51,7 @@ tags:
 - Digital Commerce
 - Creator Economy
 - Digital Products
-- Memberships
+- Membership
 - License Keys
 - Affiliates
 - E-Commerce

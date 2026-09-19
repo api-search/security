@@ -33,7 +33,7 @@ tags:
 - Company
 - Automotive
 - Digital Retail
-- Dealerships
+- Dealership
 - Conversational Commerce
 - Artificial Intelligence
 - Lead Generation

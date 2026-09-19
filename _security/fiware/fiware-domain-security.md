@@ -107,7 +107,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Context Information
 - Devices
-- Internet of Things
+- IoT
 - Linked Data
 - NGSI
 - Smart Cities

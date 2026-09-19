@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-one/re
 summary_line: oauth2 · 1 scheme
 tags:
 - Auto Finance
-- Authorizations
+- Authorization
 - Banking
 - Credit Cards
 - Credit Offers

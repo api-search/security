@@ -38,12 +38,6 @@ api_specs:
   slug: viagogo-listingconstraints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-listingconstraints-api-openapi.yml
-- filename: viagogo-paymentmethods-api-openapi.yml
-  format: yaml
-  label: viagogo Payment Methods API
-  slug: viagogo-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-paymentmethods-api-openapi.yml
 - filename: viagogo-payments-api-openapi.yml
   format: yaml
   label: viagogo Payments API
@@ -128,6 +122,12 @@ api_specs:
   slug: viagogo-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-topics-api-openapi.yml
+- filename: viagogo-payment-methods-api-openapi.yml
+  format: yaml
+  label: viagogo Payment Methods API
+  slug: viagogo-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-payment-methods-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

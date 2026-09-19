@@ -18,42 +18,18 @@ api_specs:
   slug: clerk-io-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-campaigns-api-openapi.yml
-- filename: clerk-io-catalog-api-openapi.yml
-  format: yaml
-  label: Clerk.io Catalog API
-  slug: clerk-io-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-catalog-api-openapi.yml
-- filename: clerk-io-logging-api-openapi.yml
-  format: yaml
-  label: Clerk.io Logging API
-  slug: clerk-io-logging-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-logging-api-openapi.yml
 - filename: clerk-io-merchandising-api-openapi.yml
   format: yaml
   label: Clerk.io Merchandising API
   slug: clerk-io-merchandising-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-merchandising-api-openapi.yml
-- filename: clerk-io-parcels-api-openapi.yml
-  format: yaml
-  label: Clerk.io Parcels API
-  slug: clerk-io-parcels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-parcels-api-openapi.yml
 - filename: clerk-io-privacy-api-openapi.yml
   format: yaml
   label: Clerk.io Privacy API
   slug: clerk-io-privacy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-privacy-api-openapi.yml
-- filename: clerk-io-product-data-api-openapi.yml
-  format: yaml
-  label: Clerk.io Product Data API
-  slug: clerk-io-product-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-product-data-api-openapi.yml
 - filename: clerk-io-recommendations-api-openapi.yml
   format: yaml
   label: Clerk.io Recommendations API
@@ -66,18 +42,78 @@ api_specs:
   slug: clerk-io-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-search-api-openapi.yml
-- filename: clerk-io-subscribers-api-openapi.yml
+- filename: clerk-io-categories-api-openapi.yml
   format: yaml
-  label: Clerk.io Subscribers API
-  slug: clerk-io-subscribers-api
+  label: Clerk.io Categories API
+  slug: clerk-io-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-subscribers-api-openapi.yml
-- filename: clerk-io-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-categories-api-openapi.yml
+- filename: clerk-io-customers-api-openapi.yml
   format: yaml
-  label: Clerk.io Tokens API
-  slug: clerk-io-tokens-api
+  label: Clerk.io Customers API
+  slug: clerk-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-customers-api-openapi.yml
+- filename: clerk-io-customized-search-api-openapi.yml
+  format: yaml
+  label: Clerk.io Customized Search API
+  slug: clerk-io-customized-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-customized-search-api-openapi.yml
+- filename: clerk-io-log-api-openapi.yml
+  format: yaml
+  label: Clerk.io Log API
+  slug: clerk-io-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-log-api-openapi.yml
+- filename: clerk-io-orders-api-openapi.yml
+  format: yaml
+  label: Clerk.io Orders API
+  slug: clerk-io-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-orders-api-openapi.yml
+- filename: clerk-io-pages-api-openapi.yml
+  format: yaml
+  label: Clerk.io Pages API
+  slug: clerk-io-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-pages-api-openapi.yml
+- filename: clerk-io-product-api-openapi.yml
+  format: yaml
+  label: Clerk.io Product API
+  slug: clerk-io-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-product-api-openapi.yml
+- filename: clerk-io-products-api-openapi.yml
+  format: yaml
+  label: Clerk.io Products API
+  slug: clerk-io-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-products-api-openapi.yml
+- filename: clerk-io-redirects-api-openapi.yml
+  format: yaml
+  label: Clerk.io Redirects API
+  slug: clerk-io-redirects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-redirects-api-openapi.yml
+- filename: clerk-io-subscriber-api-openapi.yml
+  format: yaml
+  label: Clerk.io Subscriber API
+  slug: clerk-io-subscriber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-subscriber-api-openapi.yml
+- filename: clerk-io-synonyms-api-openapi.yml
+  format: yaml
+  label: Clerk.io Synonyms API
+  slug: clerk-io-synonyms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-synonyms-api-openapi.yml
+- filename: clerk-io-token-api-openapi.yml
+  format: yaml
+  label: Clerk.io Token API
+  slug: clerk-io-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/openapi/clerk-io-token-api-openapi.yml
 description: ''
 domains:
 - caa:

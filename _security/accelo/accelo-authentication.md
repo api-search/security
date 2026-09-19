@@ -32,18 +32,18 @@ api_specs:
   slug: accelo-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-jobs-api-openapi.yml
-- filename: accelo-oauth-api-openapi.yml
-  format: yaml
-  label: Accelo OAuth API
-  slug: accelo-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-oauth-api-openapi.yml
 - filename: accelo-tasks-api-openapi.yml
   format: yaml
   label: Accelo Tasks API
   slug: accelo-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-tasks-api-openapi.yml
+- filename: accelo-oauth-api-openapi.yml
+  format: yaml
+  label: Accelo O Auth API
+  slug: accelo-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-oauth-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

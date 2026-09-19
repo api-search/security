@@ -134,5 +134,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whatsapp-business-management-api-openapi.yml, openapi/whatsapp-cloud-api-openapi.yml,\n  openapi/whatsapp-flows-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: System User Token with whatsapp_business_management permission\n  sources:\n  - openapi/whatsapp-business-management-api-openapi.yml\n  - openapi/whatsapp-cloud-api-openapi.yml\n  - openapi/whatsapp-flows-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/authentication/whatsapp-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Messaging
+- Forms
+- Self-Hosted
+- Analytics
 ---

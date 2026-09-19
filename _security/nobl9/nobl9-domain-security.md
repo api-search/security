@@ -45,7 +45,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Reliability
 - SLO
-- Service Level Objectives
 - SRE
 - Observability
 - Error Budgets

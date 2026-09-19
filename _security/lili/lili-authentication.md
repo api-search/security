@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: lili-lili-api-openapi.yml
   format: yaml
-  label: Lili Lili API
+  label: Lili API
   slug: lili-lili-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-lili-api-openapi.yml

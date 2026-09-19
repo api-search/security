@@ -12,12 +12,6 @@ api_specs:
   slug: symphony-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-app-api-openapi.yml
-- filename: symphony-audittrail-api-openapi.yml
-  format: yaml
-  label: Symphony Audittrail API
-  slug: symphony-audittrail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-audittrail-api-openapi.yml
 - filename: symphony-authenticate-api-openapi.yml
   format: yaml
   label: Symphony Authenticate API
@@ -30,12 +24,6 @@ api_specs:
   slug: symphony-channelco-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-channelco-api-openapi.yml
-- filename: symphony-datafeeds-api-openapi.yml
-  format: yaml
-  label: Symphony Datafeeds API
-  slug: symphony-datafeeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-datafeeds-api-openapi.yml
 - filename: symphony-dlp-api-openapi.yml
   format: yaml
   label: Symphony Dlp API
@@ -120,6 +108,18 @@ api_specs:
   slug: symphony-util-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-util-api-openapi.yml
+- filename: symphony-audit-trail-api-openapi.yml
+  format: yaml
+  label: Symphony Audit Trail API
+  slug: symphony-audit-trail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-audit-trail-api-openapi.yml
+- filename: symphony-data-feeds-api-openapi.yml
+  format: yaml
+  label: Symphony Data Feeds API
+  slug: symphony-data-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-data-feeds-api-openapi.yml
 description: ''
 domains:
 - caa: []

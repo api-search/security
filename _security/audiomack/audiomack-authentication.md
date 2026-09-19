@@ -20,12 +20,6 @@ api_specs:
   slug: audiomack-music-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-music-api-openapi.yml
-- filename: audiomack-oauth-api-openapi.yml
-  format: yaml
-  label: Audiomack OAuth API
-  slug: audiomack-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-oauth-api-openapi.yml
 - filename: audiomack-playlist-api-openapi.yml
   format: yaml
   label: Audiomack Playlist API
@@ -50,6 +44,12 @@ api_specs:
   slug: audiomack-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-user-api-openapi.yml
+- filename: audiomack-oauth-api-openapi.yml
+  format: yaml
+  label: Audiomack O Auth API
+  slug: audiomack-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

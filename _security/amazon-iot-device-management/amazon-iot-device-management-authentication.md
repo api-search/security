@@ -135,12 +135,6 @@ api_specs:
   slug: amazon-iot-device-management-dimensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-dimensions-api-openapi.yml
-- filename: amazon-iot-device-management-domainconfigurations-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management DomainConfigurations API
-  slug: amazon-iot-device-management-domainconfigurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-domainconfigurations-api-openapi.yml
 - filename: amazon-iot-device-management-dynamic-thing-groups-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Dynamic Thing Groups API
@@ -207,12 +201,6 @@ api_specs:
   slug: amazon-iot-device-management-keys-and-certificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-keys-and-certificate-api-openapi.yml
-- filename: amazon-iot-device-management-loggingoptions-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management LoggingOptions API
-  slug: amazon-iot-device-management-loggingoptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-loggingoptions-api-openapi.yml
 - filename: amazon-iot-device-management-managed-job-templates-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Managed Job Templates API
@@ -231,12 +219,6 @@ api_specs:
   slug: amazon-iot-device-management-mitigationactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-mitigationactions-api-openapi.yml
-- filename: amazon-iot-device-management-otaupdates-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management OtaUpdates API
-  slug: amazon-iot-device-management-otaupdates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-otaupdates-api-openapi.yml
 - filename: amazon-iot-device-management-policies-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Policies API
@@ -387,24 +369,12 @@ api_specs:
   slug: amazon-iot-device-management-untag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-untag-api-openapi.yml
-- filename: amazon-iot-device-management-v2logginglevel-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management V2LoggingLevel API
-  slug: amazon-iot-device-management-v2logginglevel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-v2logginglevel-api-openapi.yml
 - filename: amazon-iot-device-management-v2logginglevel-targettype-targetname-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-device-management-v2logginglevel-targettype-targetname-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-v2logginglevel-targettype-targetname-api-openapi.yml
-- filename: amazon-iot-device-management-v2loggingoptions-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management V2LoggingOptions API
-  slug: amazon-iot-device-management-v2loggingoptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-v2loggingoptions-api-openapi.yml
 - filename: amazon-iot-device-management-violation-events-starttime-endtime-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Violation Events#startTime&endTime API
@@ -417,6 +387,36 @@ api_specs:
   slug: amazon-iot-device-management-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-violations-api-openapi.yml
+- filename: amazon-iot-device-management-domain-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management Domain Configurations API
+  slug: amazon-iot-device-management-domain-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-domain-configurations-api-openapi.yml
+- filename: amazon-iot-device-management-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management Logging Options API
+  slug: amazon-iot-device-management-logging-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-logging-options-api-openapi.yml
+- filename: amazon-iot-device-management-ota-updates-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management OTA Updates API
+  slug: amazon-iot-device-management-ota-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-ota-updates-api-openapi.yml
+- filename: amazon-iot-device-management-v2-logging-level-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management V2 Logging Level API
+  slug: amazon-iot-device-management-v2-logging-level-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-v2-logging-level-api-openapi.yml
+- filename: amazon-iot-device-management-v2-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management V2 Logging Options API
+  slug: amazon-iot-device-management-v2-logging-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-v2-logging-options-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

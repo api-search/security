@@ -32,12 +32,6 @@ api_specs:
   slug: optum-apc-cross-codes-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-apc-cross-codes-apis-api-openapi.yml
-- filename: optum-apip-api-openapi.yml
-  format: yaml
-  label: Optum Apip API
-  slug: optum-apip-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-apip-api-openapi.yml
 - filename: optum-application-wadl-api-openapi.yml
   format: yaml
   label: Optum Application.wadl API
@@ -356,24 +350,12 @@ api_specs:
   slug: optum-dme-and-pen-fee-schedule-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-dme-and-pen-fee-schedule-apis-api-openapi.yml
-- filename: optum-documentreference-api-openapi.yml
-  format: yaml
-  label: Optum Document Reference API
-  slug: optum-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-documentreference-api-openapi.yml
 - filename: optum-documentretrieve-api-openapi.yml
   format: yaml
   label: Optum Document Retrieve API
   slug: optum-documentretrieve-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-documentretrieve-api-openapi.yml
-- filename: optum-documentsearch-api-openapi.yml
-  format: yaml
-  label: Optum Document Search API
-  slug: optum-documentsearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-documentsearch-api-openapi.yml
 - filename: optum-drg-calculator-apis-api-openapi.yml
   format: yaml
   label: Optum DRG Calculator APIs API
@@ -518,12 +500,6 @@ api_specs:
   slug: optum-health-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-health-check-api-openapi.yml
-- filename: optum-healthcheck-api-openapi.yml
-  format: yaml
-  label: Optum Health Check API
-  slug: optum-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-healthcheck-api-openapi.yml
 - filename: optum-i-oce-edits-apis-api-openapi.yml
   format: yaml
   label: Optum I-OCE Edits APIs API
@@ -730,7 +706,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-opsi-codes-apis-api-openapi.yml
 - filename: optum-optum-specialty-articles-api-openapi.yml
   format: yaml
-  label: Optum Optum Specialty Articles API
+  label: Optum Specialty Articles API
   slug: optum-optum-specialty-articles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-optum-specialty-articles-api-openapi.yml
@@ -860,12 +836,6 @@ api_specs:
   slug: optum-qpp-mips-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-qpp-mips-apis-api-openapi.yml
-- filename: optum-queryservice-api-openapi.yml
-  format: yaml
-  label: Optum Query Service API
-  slug: optum-queryservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-queryservice-api-openapi.yml
 - filename: optum-questionnairepackage-api-openapi.yml
   format: yaml
   label: Optum Questionnaire Package API
@@ -992,6 +962,18 @@ api_specs:
   slug: optum-wage-index-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-wage-index-api-api-openapi.yml
+- filename: optum-document-reference-api-openapi.yml
+  format: yaml
+  label: Optum Document Reference API
+  slug: optum-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-document-reference-api-openapi.yml
+- filename: optum-query-service-api-openapi.yml
+  format: yaml
+  label: Optum Query Service API
+  slug: optum-query-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/openapi/optum-query-service-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -1068,7 +1050,7 @@ tags:
 - Dental
 - Da Vinci
 - Patient Access
-- Remittance
+- Remittances
 - Attachments
 - Payer Directory
 ---

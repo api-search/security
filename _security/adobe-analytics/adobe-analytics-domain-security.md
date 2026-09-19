@@ -80,13 +80,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-account-api-openapi.yml
 - filename: adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
   format: yaml
-  label: Adobe Analytics Analytics Cloud Locations Account API
+  label: Adobe Analytics Cloud Locations Account API
   slug: adobe-analytics-analytics-cloud-locations-account-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
 - filename: adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
   format: yaml
-  label: Adobe Analytics Analytics Cloud Locations Location API
+  label: Adobe Analytics Cloud Locations Location API
   slug: adobe-analytics-analytics-cloud-locations-location-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml

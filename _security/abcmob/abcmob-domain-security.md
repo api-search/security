@@ -34,7 +34,7 @@ tags:
 - Mobile Applications
 - Application Development
 - Enterprise Software
-- Cross Platform
+- Cross-Platform
 - Banking
 - Hospitality
 - United States

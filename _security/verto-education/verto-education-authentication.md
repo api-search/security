@@ -65,7 +65,7 @@ tags:
 - College Admissions
 - Students
 - Travel
-- Model Context Protocol
-- OAuth
+- MCP
+- Authentication
 - Agents
 ---

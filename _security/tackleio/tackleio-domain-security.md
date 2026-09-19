@@ -102,12 +102,6 @@ api_specs:
   slug: tackleio-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/openapi/tackleio-products-api-openapi.yml
-- filename: tackleio-public-api-openapi.yml
-  format: yaml
-  label: Tackle.io public API
-  slug: tackleio-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/openapi/tackleio-public-api-openapi.yml
 - filename: tackleio-referrals-api-openapi.yml
   format: yaml
   label: Tackle.io Referrals API

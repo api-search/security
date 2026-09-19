@@ -32,13 +32,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-metrics-api-openapi.yml
 - filename: toolhouse-sdk-api-api-openapi.yml
   format: yaml
-  label: Toolhouse SDK API API
+  label: Toolhouse SDK API
   slug: toolhouse-sdk-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-sdk-api-api-openapi.yml
 - filename: toolhouse-user-api-api-openapi.yml
   format: yaml
-  label: Toolhouse User API API
+  label: Toolhouse User API
   slug: toolhouse-user-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-user-api-api-openapi.yml

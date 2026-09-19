@@ -84,7 +84,7 @@ tags:
 - E-Commerce
 - Footwear
 - Consumer Goods
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - Shopify

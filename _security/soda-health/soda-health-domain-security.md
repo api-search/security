@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-evermore-docs-portal-api-openapi.yml
 - filename: soda-health-health-api-openapi.yml
   format: yaml
-  label: Soda Health health API
+  label: Soda Health API
   slug: soda-health-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-health-api-openapi.yml

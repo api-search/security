@@ -614,5 +614,6 @@ tags:
 - DevSecOps
 - Runners
 - Container Registry
+- Developer Tools
 trust_url: https://trust.gitlab.com/
 ---

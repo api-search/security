@@ -43,10 +43,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/security/velocity-global-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- EOR
 - Employer of Record
 - Global Employment
-- HR
+- Human Resources
 - Payroll
 - Compliance
 - International Hiring

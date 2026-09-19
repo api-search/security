@@ -95,7 +95,7 @@ summary_line: apiKey/http/oauth2/openIdConnect · 5 schemes
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Security
 - Camera
 - Consumer Electronics

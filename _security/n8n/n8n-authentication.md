@@ -4,12 +4,6 @@ api_key_in:
 - header
 - cookie
 api_specs:
-- filename: n8n-public-api-openapi.yml
-  format: yaml
-  label: N8n
-  slug: n8n
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-public-api-openapi.yml
 - filename: n8n-audit-api-openapi.yml
   format: yaml
   label: N8n Audit API
@@ -64,12 +58,6 @@ api_specs:
   slug: n8n-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-projects-api-openapi.yml
-- filename: n8n-sourcecontrol-api-openapi.yml
-  format: yaml
-  label: N8n SourceControl API
-  slug: n8n-sourcecontrol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-sourcecontrol-api-openapi.yml
 - filename: n8n-tags-api-openapi.yml
   format: yaml
   label: N8n Tags API
@@ -94,6 +82,60 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+- filename: n8n-evaluation-api-openapi.yml
+  format: yaml
+  label: n8n Evaluation API
+  slug: n8n-evaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-evaluation-api-openapi.yml
+- filename: n8n-logstreaming-api-openapi.yml
+  format: yaml
+  label: n8n Log Streaming API
+  slug: n8n-logstreaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-logstreaming-api-openapi.yml
+- filename: n8n-n8npackage-api-openapi.yml
+  format: yaml
+  label: n8n N8n Package API
+  slug: n8n-n8npackage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-n8npackage-api-openapi.yml
+- filename: n8n-settingsldap-api-openapi.yml
+  format: yaml
+  label: n8n Settings Ldap API
+  slug: n8n-settingsldap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsldap-api-openapi.yml
+- filename: n8n-settingsotel-api-openapi.yml
+  format: yaml
+  label: n8n Settings Otel API
+  slug: n8n-settingsotel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsotel-api-openapi.yml
+- filename: n8n-settingsssooidc-api-openapi.yml
+  format: yaml
+  label: n8n Settings SSO Oidc API
+  slug: n8n-settingsssooidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsssooidc-api-openapi.yml
+- filename: n8n-settingsssosaml-api-openapi.yml
+  format: yaml
+  label: n8n Settings SSO Saml API
+  slug: n8n-settingsssosaml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsssosaml-api-openapi.yml
+- filename: n8n-security-policy-api-openapi.yml
+  format: yaml
+  label: n8n security policy API
+  slug: n8n-security-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-security-policy-api-openapi.yml
+- filename: n8n-source-control-api-openapi.yml
+  format: yaml
+  label: n8n Source Control API
+  slug: n8n-source-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-source-control-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -145,5 +187,5 @@ tags:
 - Integration
 - Workflows
 - Automation
-- Low Code
+- Low-Code
 ---

@@ -8,18 +8,18 @@ api_specs:
   slug: ultrahuman-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-metrics-api-openapi.yml
-- filename: ultrahuman-oauth-api-openapi.yml
-  format: yaml
-  label: Ultrahuman OAuth API
-  slug: ultrahuman-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-oauth-api-openapi.yml
 - filename: ultrahuman-user-api-openapi.yml
   format: yaml
   label: Ultrahuman User API
   slug: ultrahuman-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-user-api-openapi.yml
+- filename: ultrahuman-oauth-api-openapi.yml
+  format: yaml
+  label: Ultrahuman O Auth API
+  slug: ultrahuman-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/openapi/ultrahuman-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-companies-api-openapi.yml
 - filename: cobee-oauth-api-openapi.yml
   format: yaml
-  label: Cobee by Pluxee Oauth API
+  label: Cobee by Pluxee OAUTH API
   slug: cobee-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-oauth-api-openapi.yml

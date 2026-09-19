@@ -57,7 +57,7 @@ tags:
 - Nostr
 - Decentralized Social
 - Open Protocol
-- Relays
+- Relay
 - WebSocket
 - Signed Events
 - NIP

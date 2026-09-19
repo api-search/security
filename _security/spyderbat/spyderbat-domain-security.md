@@ -102,12 +102,6 @@ api_specs:
   slug: spyderbat-notificationtarget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-notificationtarget-api-openapi.yml
-- filename: spyderbat-notificationtemplate-api-openapi.yml
-  format: yaml
-  label: Spyderbat Notification Template API
-  slug: spyderbat-notificationtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-notificationtemplate-api-openapi.yml
 - filename: spyderbat-org-api-openapi.yml
   format: yaml
   label: Spyderbat Org API
@@ -126,12 +120,6 @@ api_specs:
   slug: spyderbat-rbac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-rbac-api-openapi.yml
-- filename: spyderbat-savedquery-api-openapi.yml
-  format: yaml
-  label: Spyderbat Saved Query API
-  slug: spyderbat-savedquery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-savedquery-api-openapi.yml
 - filename: spyderbat-searchset-api-openapi.yml
   format: yaml
   label: Spyderbat Search Set API
@@ -174,6 +162,18 @@ api_specs:
   slug: spyderbat-watchlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-watchlist-api-openapi.yml
+- filename: spyderbat-notification-template-api-openapi.yml
+  format: yaml
+  label: Spyderbat Notification Template API
+  slug: spyderbat-notification-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-notification-template-api-openapi.yml
+- filename: spyderbat-saved-query-api-openapi.yml
+  format: yaml
+  label: Spyderbat Saved Query API
+  slug: spyderbat-saved-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-saved-query-api-openapi.yml
 description: ''
 domains:
 - caa: []

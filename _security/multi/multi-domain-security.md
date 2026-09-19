@@ -38,4 +38,5 @@ tags:
 - Remote Work
 - macOS
 - Productivity
+- Defunct
 ---

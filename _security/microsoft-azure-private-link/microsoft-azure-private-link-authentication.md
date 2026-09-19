@@ -37,14 +37,23 @@ schemes:
     scopes: 1
   name: azure_auth
   sources:
-  - openapi/microsoft-azure-private-link-openapi.yml
+  - openapi/microsoft-azure-private-link-operations-api-openapi.yml
+  - openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
   type: oauth2
 slug: microsoft-azure-private-link-authentication
 source_filename: microsoft-azure-private-link-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-private-link-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-private-link-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsoft-azure-private-link-operations-api-openapi.yml, openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-private-link-operations-api-openapi.yml\n  - openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/authentication/microsoft-azure-private-link-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Networking
+- Private Connectivity
+- Cloud Infrastructure
+- Virtual Networks
+- DNS
+- Security
+- Azure Resource Manager
+- Infrastructure-as-a-Service
 ---

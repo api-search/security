@@ -203,7 +203,7 @@ tags:
 - SMART on FHIR
 - Da Vinci PDEX
 - CARIN Blue Button
-- Payer
+- Payers
 - Provider Directory
 - Formulary
 - HL7

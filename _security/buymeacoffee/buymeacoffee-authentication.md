@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/r
 summary_line: http · 1 scheme
 tags:
 - Creator Economy
-- Memberships
+- Membership
 - Subscription
 - Tips
 - Payments

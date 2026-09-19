@@ -37,5 +37,5 @@ tags:
 - Demand Planning
 - Analytics
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 ---

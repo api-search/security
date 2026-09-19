@@ -38,6 +38,6 @@ tags:
 - Scientific Computing
 - Climate Technology
 - Open Source Models
-- Data Centers
+- Data-Center
 - Manufacturing
 ---

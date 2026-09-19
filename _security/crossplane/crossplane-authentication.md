@@ -77,7 +77,7 @@ tags:
 - Apache 2.0
 - CNCF
 - Cloud-Native
-- Composition
+- COMPOSITION
 - Control Plane
 - Custom Resource Definitions
 - Graduated

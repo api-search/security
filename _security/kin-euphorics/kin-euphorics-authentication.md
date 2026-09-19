@@ -65,6 +65,6 @@ tags:
 - Shopify
 - Direct to Consumer
 - Agentic Commerce
-- UCP
+- Universal Commerce Protocol
 - MCP
 ---

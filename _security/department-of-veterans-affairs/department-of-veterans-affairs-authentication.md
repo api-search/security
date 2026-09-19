@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: department-of-veterans-affairs-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Department of Veterans Affairs (VA) AllergyIntolerance API
-  slug: department-of-veterans-affairs-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/openapi/department-of-veterans-affairs-allergyintolerance-api-openapi.yml
 - filename: department-of-veterans-affairs-appeals-api-openapi.yml
   format: yaml
   label: Department of Veterans Affairs (VA) Appeals API
@@ -51,12 +45,6 @@ api_specs:
   slug: department-of-veterans-affairs-intent-to-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/openapi/department-of-veterans-affairs-intent-to-file-api-openapi.yml
-- filename: department-of-veterans-affairs-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Department of Veterans Affairs (VA) MedicationRequest API
-  slug: department-of-veterans-affairs-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/openapi/department-of-veterans-affairs-medicationrequest-api-openapi.yml
 - filename: department-of-veterans-affairs-nearbyfacilities-api-openapi.yml
   format: yaml
   label: Department of Veterans Affairs (VA) NearbyFacilities API
@@ -105,6 +93,18 @@ api_specs:
   slug: department-of-veterans-affairs-veterans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/openapi/department-of-veterans-affairs-veterans-api-openapi.yml
+- filename: department-of-veterans-affairs-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Department of Veterans Affairs (VA) Allergy Intolerance API
+  slug: department-of-veterans-affairs-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/openapi/department-of-veterans-affairs-allergy-intolerance-api-openapi.yml
+- filename: department-of-veterans-affairs-medication-request-api-openapi.yml
+  format: yaml
+  label: Department of Veterans Affairs (VA) Medication Request API
+  slug: department-of-veterans-affairs-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/openapi/department-of-veterans-affairs-medication-request-api-openapi.yml
 auth_types:
 - apiKey
 - http

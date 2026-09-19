@@ -37,5 +37,5 @@ tags:
 - Threat Intelligence
 - Consumer Hardware
 - IoT
-- Appliance
+- Appliances
 ---

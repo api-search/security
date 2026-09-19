@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whop-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/authentication/whop-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Memberships
+- Membership
 - Payments
 - Creator Economy
 - Marketplace

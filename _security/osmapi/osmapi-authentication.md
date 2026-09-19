@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-models-api-openapi.yml
 - filename: osmapi-osmapi-health-api-api-openapi.yml
   format: yaml
-  label: osmAPI OsmAPI Health API API
+  label: osmAPI Health API
   slug: osmapi-osmapi-health-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-osmapi-health-api-api-openapi.yml
@@ -58,7 +58,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Anthropic
-- Gateway
+- Gateways
 - LLM
 - OpenAI
 - Routing

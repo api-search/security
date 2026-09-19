@@ -40,12 +40,6 @@ api_specs:
   slug: beazley-definitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-definitions-api-openapi.yml
-- filename: beazley-faqs-api-openapi.yml
-  format: yaml
-  label: Beazley Faqs API
-  slug: beazley-faqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-faqs-api-openapi.yml
 - filename: beazley-health-api-openapi.yml
   format: yaml
   label: Beazley Health API
@@ -118,6 +112,12 @@ api_specs:
   slug: beazley-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-search-api-openapi.yml
+- filename: beazley-faqs-api-openapi.yml
+  format: yaml
+  label: Beazley Faqs API
+  slug: beazley-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-faqs-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Every Beazley API is fronted by Azure API Management and secured with an APIM subscription key. The key travels either in the Ocp-Apim-Subscription-Key request header or as a subscription-key query parameter; both schemes are declared in all fourteen published OpenAPI documents and both are accepted at the top level of every operation. There is no OAuth 2.0, no OpenID Connect and no mutual TLS anywhere on the public surface: neither /.well-known/openid-configuration nor /.well-known/oauth-authorization-server is served on any Beazley host.'

@@ -31,8 +31,8 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/security/86repairs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Restaurants
-- Foodservice
+- Restaurant
+- Food Service
 - Facilities Management
 - Maintenance
 - Field Service Management

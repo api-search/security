@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-billing-api-openapi.yml
 - filename: anchorbrowser-browser-sessions-api-openapi.yml
   format: yaml
-  label: Anchor Browser Browser Sessions API
+  label: Anchor Browser Sessions API
   slug: anchorbrowser-browser-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-browser-sessions-api-openapi.yml

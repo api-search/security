@@ -44,5 +44,5 @@ tags:
 - Inventory
 - Order
 - Returns
-- Carriers
+- Carrier
 ---

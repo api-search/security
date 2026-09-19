@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Beverage
+- Beverages
 - Energy Drinks
 - Consumer Packaged Goods
 - Retail

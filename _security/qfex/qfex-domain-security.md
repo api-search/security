@@ -86,7 +86,7 @@ tags:
 - WebSocket
 - FX
 - Commodities
-- Equities
+- Stocks
 - Financial-Services
 - CLI
 - Fintech

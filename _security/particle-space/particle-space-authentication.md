@@ -65,5 +65,5 @@ tags:
 - Property Data
 - PropTech
 - Listings
-- Valuations
+- Valuation
 ---

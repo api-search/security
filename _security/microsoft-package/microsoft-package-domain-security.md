@@ -18,12 +18,12 @@ api_specs:
   slug: microsoft-package-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-search-api-openapi.yml
-- filename: microsoft-package-serviceindex-api-openapi.yml
+- filename: microsoft-package-service-index-api-openapi.yml
   format: yaml
-  label: Microsoft Package ServiceIndex API
-  slug: microsoft-package-serviceindex-api
+  label: Microsoft Package Service Index API
+  slug: microsoft-package-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-serviceindex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-service-index-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,6 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-pack
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Azure Artifacts
+- Developer Tools
 - Microsoft
 - NuGet
 - Package Management

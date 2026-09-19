@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-webhooks-api-openapi.yml
 - filename: evervault-evervault-api-api-openapi.yml
   format: yaml
-  label: Evervault Evervault API
+  label: Evervault API
   slug: evervault-evervault-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/openapi/evervault-evervault-api-api-openapi.yml

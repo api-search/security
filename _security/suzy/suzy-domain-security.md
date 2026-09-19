@@ -41,7 +41,7 @@ tags:
 - Software-as-a-Service
 - Consumer Insights
 - Market Research
-- Survey
+- Surveys
 - Audiences
 - Artificial Intelligence
 ---

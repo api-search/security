@@ -40,12 +40,6 @@ api_specs:
   slug: lone-wolf-business-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-business-contacts-api-openapi.yml
-- filename: lone-wolf-ccs-api-openapi.yml
-  format: yaml
-  label: Lone Wolf Technologies C Cs API
-  slug: lone-wolf-ccs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-ccs-api-openapi.yml
 - filename: lone-wolf-classification-api-openapi.yml
   format: yaml
   label: Lone Wolf Technologies Classification API
@@ -394,6 +388,12 @@ api_specs:
   slug: lone-wolf-users-and-offices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-users-and-offices-api-openapi.yml
+- filename: lone-wolf-c-cs-api-openapi.yml
+  format: yaml
+  label: Lone Wolf Technologies C Cs API
+  slug: lone-wolf-c-cs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-c-cs-api-openapi.yml
 auth_types:
 - apiKey
 - http

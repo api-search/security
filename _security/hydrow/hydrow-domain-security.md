@@ -39,5 +39,5 @@ tags:
 - Health
 - Streaming Media
 - Subscription
-- Internet of Things
+- IoT
 ---

@@ -12,12 +12,6 @@ api_specs:
   slug: newswhip-articlesbyhrefs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-articlesbyhrefs-api-openapi.yml
-- filename: newswhip-content-api-openapi.yml
-  format: yaml
-  label: NewsWhip Content API
-  slug: newswhip-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-content-api-openapi.yml
 - filename: newswhip-fbinfluencers-api-openapi.yml
   format: yaml
   label: NewsWhip FbInfluencers API
@@ -30,12 +24,6 @@ api_specs:
   slug: newswhip-fbposts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-fbposts-api-openapi.yml
-- filename: newswhip-influencers-api-openapi.yml
-  format: yaml
-  label: NewsWhip Influencers API
-  slug: newswhip-influencers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-influencers-api-openapi.yml
 - filename: newswhip-local-api-openapi.yml
   format: yaml
   label: NewsWhip Local API
@@ -48,12 +36,6 @@ api_specs:
   slug: newswhip-publisher-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-publisher-api-openapi.yml
-- filename: newswhip-rankings-api-openapi.yml
-  format: yaml
-  label: NewsWhip Rankings API
-  slug: newswhip-rankings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-rankings-api-openapi.yml
 - filename: newswhip-region-api-openapi.yml
   format: yaml
   label: NewsWhip Region API
@@ -66,18 +48,6 @@ api_specs:
   slug: newswhip-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-search-api-openapi.yml
-- filename: newswhip-social-api-openapi.yml
-  format: yaml
-  label: NewsWhip Social API
-  slug: newswhip-social-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-social-api-openapi.yml
-- filename: newswhip-statistics-api-openapi.yml
-  format: yaml
-  label: NewsWhip Statistics API
-  slug: newswhip-statistics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/openapi/newswhip-statistics-api-openapi.yml
 - filename: newswhip-stats-api-openapi.yml
   format: yaml
   label: NewsWhip Stats API

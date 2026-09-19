@@ -50,7 +50,7 @@ tags:
 - PropTech
 - Real-Estate
 - Property Management
-- Inspections
+- Inspection
 - Maintenance
 - Multifamily
 - gRPC

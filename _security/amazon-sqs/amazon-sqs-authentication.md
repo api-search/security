@@ -61,5 +61,5 @@ tags:
 - Distributed Systems
 - Messaging
 - Microservices
-- Queue
+- Queues
 ---

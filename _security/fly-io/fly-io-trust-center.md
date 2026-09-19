@@ -18,12 +18,6 @@ api_specs:
   slug: fly-io-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-apps-api-openapi.yml
-- filename: fly-io-oauth-api-openapi.yml
-  format: yaml
-  label: fly-io OAuth API
-  slug: fly-io-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
 - filename: fly-io-sso-api-openapi.yml
   format: yaml
   label: fly-io SSO API
@@ -48,6 +42,12 @@ api_specs:
   slug: fly-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-webhooks-api-openapi.yml
+- filename: fly-io-oauth-api-openapi.yml
+  format: yaml
+  label: Fly Io O Auth API
+  slug: fly-io-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -67,6 +67,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://fly.io/security\nurl: https://fly.io/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://fly.io/security\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/security/fly-io-trust-center.yml
 summary_line: SOC 2, ISO 27001
-tags: []
+tags:
+- Platform
+- Infrastructure
+- Edge Computing
+- Networking
 trust_url: https://fly.io/security
 ---

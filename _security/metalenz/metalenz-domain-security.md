@@ -36,12 +36,12 @@ api_specs:
   slug: metalenz-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-discovery-api-openapi.yml
-- filename: metalenz-oembed-api-openapi.yml
+- filename: metalenz-o-embed-api-openapi.yml
   format: yaml
-  label: Metalenz oEmbed API
-  slug: metalenz-oembed-api
+  label: Metalenz o Embed API
+  slug: metalenz-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

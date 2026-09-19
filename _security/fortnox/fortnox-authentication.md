@@ -132,7 +132,7 @@ tags:
 - Invoicing
 - Bookkeeping
 - Sweden
-- Nordics
+- Nordic
 - Finance
 - Vouchers
 - Customers

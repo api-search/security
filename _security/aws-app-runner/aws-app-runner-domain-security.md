@@ -1,14 +1,8 @@
 ---
 api_specs:
-- filename: aws-app-runner-auto-scaling-api-openapi.yml
-  format: yaml
-  label: AWS App Runner Auto Scaling API
-  slug: aws-app-runner-auto-scaling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-auto-scaling-api-openapi.yml
 - filename: aws-app-runner-aws-app-runner-api-api-openapi.yml
   format: yaml
-  label: AWS App Runner AWS App Runner API API
+  label: AWS App Runner AWS App Runner API
   slug: aws-app-runner-aws-app-runner-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-aws-app-runner-api-api-openapi.yml
@@ -24,12 +18,6 @@ api_specs:
   slug: aws-app-runner-custom-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-custom-domains-api-openapi.yml
-- filename: aws-app-runner-deleteservice-api-openapi.yml
-  format: yaml
-  label: 'AWS App Runner #DeleteService API'
-  slug: aws-app-runner-deleteservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-deleteservice-api-openapi.yml
 - filename: aws-app-runner-deployments-api-openapi.yml
   format: yaml
   label: AWS App Runner Deployments API
@@ -42,12 +30,6 @@ api_specs:
   slug: aws-app-runner-describeservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-describeservice-api-openapi.yml
-- filename: aws-app-runner-listservices-api-openapi.yml
-  format: yaml
-  label: 'AWS App Runner #ListServices API'
-  slug: aws-app-runner-listservices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-listservices-api-openapi.yml
 - filename: aws-app-runner-observability-api-openapi.yml
   format: yaml
   label: AWS App Runner Observability API
@@ -66,18 +48,36 @@ api_specs:
   slug: aws-app-runner-resumeservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-resumeservice-api-openapi.yml
-- filename: aws-app-runner-updateservice-api-openapi.yml
-  format: yaml
-  label: 'AWS App Runner #UpdateService API'
-  slug: aws-app-runner-updateservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-updateservice-api-openapi.yml
 - filename: aws-app-runner-vpc-api-openapi.yml
   format: yaml
   label: AWS App Runner VPC API
   slug: aws-app-runner-vpc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-vpc-api-openapi.yml
+- filename: aws-app-runner-autoscaling-api-openapi.yml
+  format: yaml
+  label: AWS App Runner Autoscaling API
+  slug: aws-app-runner-autoscaling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-autoscaling-api-openapi.yml
+- filename: aws-app-runner-delete-service-api-openapi.yml
+  format: yaml
+  label: AWS App Runner Delete Service API
+  slug: aws-app-runner-delete-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-delete-service-api-openapi.yml
+- filename: aws-app-runner-list-services-api-openapi.yml
+  format: yaml
+  label: AWS App Runner List Services API
+  slug: aws-app-runner-list-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-list-services-api-openapi.yml
+- filename: aws-app-runner-update-service-api-openapi.yml
+  format: yaml
+  label: AWS App Runner Update Service API
+  slug: aws-app-runner-update-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-update-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,6 +113,7 @@ tags:
 - CI/CD
 - Containers
 - Deployment
+- Developer Tools
 - Microservices
 - Serverless
 ---

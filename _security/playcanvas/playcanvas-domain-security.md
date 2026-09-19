@@ -36,12 +36,6 @@ api_specs:
   slug: playcanvas-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-projects-api-openapi.yml
-- filename: playcanvas-ratelimits-api-openapi.yml
-  format: yaml
-  label: PlayCanvas RateLimits API
-  slug: playcanvas-ratelimits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-ratelimits-api-openapi.yml
 - filename: playcanvas-scenes-api-openapi.yml
   format: yaml
   label: PlayCanvas Scenes API
@@ -54,6 +48,12 @@ api_specs:
   slug: playcanvas-splats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-splats-api-openapi.yml
+- filename: playcanvas-rate-limits-api-openapi.yml
+  format: yaml
+  label: PlayCanvas Rate Limits API
+  slug: playcanvas-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/openapi/playcanvas-rate-limits-api-openapi.yml
 description: ''
 domains:
 - caa: []

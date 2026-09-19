@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: lightdash-aiagents-api-openapi.yml
-  format: yaml
-  label: Lightdash AiAgents API
-  slug: lightdash-aiagents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-aiagents-api-openapi.yml
 - filename: lightdash-bulk-action-api-openapi.yml
   format: yaml
   label: Lightdash Bulk action API
@@ -300,6 +294,12 @@ api_specs:
   slug: lightdash-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-validation-api-openapi.yml
+- filename: lightdash-ai-agents-api-openapi.yml
+  format: yaml
+  label: Lightdash AI Agents API
+  slug: lightdash-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-ai-agents-api-openapi.yml
 description: ''
 domains:
 - caa: []

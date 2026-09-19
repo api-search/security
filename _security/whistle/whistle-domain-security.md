@@ -33,7 +33,6 @@ tags:
 - Proxy
 - Network Debugging
 - HTTP
-- HTTPS
 - WebSocket
 - Developer Tools
 ---

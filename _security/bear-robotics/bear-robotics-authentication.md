@@ -93,6 +93,6 @@ tags:
 - gRPC
 - Protobuf
 - Webhook
-- Internet of Things
+- IoT
 - Company
 ---

@@ -47,7 +47,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - ABI
 - Bytecode Alliance
-- Component
+- Components
 - Interfaces
 - Modular
 - Specification

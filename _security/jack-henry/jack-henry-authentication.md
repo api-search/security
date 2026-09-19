@@ -212,12 +212,6 @@ api_specs:
   slug: jack-henry-user-context-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/openapi/jack-henry-user-context-api-openapi.yml
-- filename: jack-henry-userinfo-api-openapi.yml
-  format: yaml
-  label: Jack Henry & Associates UserInfo API
-  slug: jack-henry-userinfo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/openapi/jack-henry-userinfo-api-openapi.yml
 - filename: jack-henry-wire-transfers-api-openapi.yml
   format: yaml
   label: Jack Henry & Associates Wire Transfers API
@@ -230,6 +224,12 @@ api_specs:
   slug: jack-henry-zelle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/openapi/jack-henry-zelle-api-openapi.yml
+- filename: jack-henry-user-info-api-openapi.yml
+  format: yaml
+  label: Jack Henry & Associates User Info API
+  slug: jack-henry-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/openapi/jack-henry-user-info-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -277,7 +277,7 @@ tags:
 - Fraud
 - Open Banking
 - Community Banks
-- Credit Unions
+- Credit Union
 - Fintech
 - Authentication
 - OpenID Connect

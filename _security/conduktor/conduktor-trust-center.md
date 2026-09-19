@@ -69,6 +69,6 @@ tags:
 - Streaming
 - Data Governance
 - Kafka Management
-- Gateway
+- Gateways
 trust_url: https://www.conduktor.io/kafka-security
 ---

@@ -38,5 +38,4 @@ tags:
 - Human Resources
 - Compliance
 - Employment
-- HR Tech
 ---

@@ -164,31 +164,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-outbound-calling-api-openapi.yml
 - filename: zoom-phone-phone-devices-api-openapi.yml
   format: yaml
-  label: Zoom Phone Phone Devices API
+  label: Zoom Phone Devices API
   slug: zoom-phone-phone-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-phone-devices-api-openapi.yml
 - filename: zoom-phone-phone-numbers-api-openapi.yml
   format: yaml
-  label: Zoom Phone Phone Numbers API
+  label: Zoom Phone Numbers API
   slug: zoom-phone-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-phone-numbers-api-openapi.yml
 - filename: zoom-phone-phone-plan-api-openapi.yml
   format: yaml
-  label: Zoom Phone Phone Plan API
+  label: Zoom Phone Plan API
   slug: zoom-phone-phone-plan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-phone-plan-api-openapi.yml
 - filename: zoom-phone-phone-plans-api-openapi.yml
   format: yaml
-  label: Zoom Phone Phone Plans API
+  label: Zoom Phone Plans API
   slug: zoom-phone-phone-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-phone-plans-api-openapi.yml
 - filename: zoom-phone-phone-roles-api-openapi.yml
   format: yaml
-  label: Zoom Phone Phone Roles API
+  label: Zoom Phone Roles API
   slug: zoom-phone-phone-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/openapi/zoom-phone-phone-roles-api-openapi.yml

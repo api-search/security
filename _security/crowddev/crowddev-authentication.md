@@ -34,7 +34,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-maintainer-roles-api-openapi.yml
 - filename: crowddev-member-affiliations-api-api-openapi.yml
   format: yaml
-  label: Crowd.dev Member Affiliations API API
+  label: Crowd.dev Member Affiliations API
   slug: crowddev-member-affiliations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-affiliations-api-api-openapi.yml
@@ -46,7 +46,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-identities-api-openapi.yml
 - filename: crowddev-member-organizations-api-api-openapi.yml
   format: yaml
-  label: Crowd.dev Member Organizations API API
+  label: Crowd.dev Member Organizations API
   slug: crowddev-member-organizations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-organizations-api-api-openapi.yml

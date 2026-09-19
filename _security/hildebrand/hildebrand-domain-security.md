@@ -18,12 +18,6 @@ api_specs:
   slug: hildebrand-account-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/openapi/hildebrand-account-session-api-openapi.yml
-- filename: hildebrand-accountsession-api-openapi.yml
-  format: yaml
-  label: Hildebrand Accountsession API
-  slug: hildebrand-accountsession-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/openapi/hildebrand-accountsession-api-openapi.yml
 - filename: hildebrand-alert-api-openapi.yml
   format: yaml
   label: Hildebrand Alert API
@@ -78,12 +72,6 @@ api_specs:
   slug: hildebrand-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/openapi/hildebrand-notification-api-openapi.yml
-- filename: hildebrand-oauth-api-openapi.yml
-  format: yaml
-  label: Hildebrand O Auth API
-  slug: hildebrand-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/openapi/hildebrand-oauth-api-openapi.yml
 - filename: hildebrand-resource-api-openapi.yml
   format: yaml
   label: Hildebrand Resource API
@@ -132,6 +120,12 @@ api_specs:
   slug: hildebrand-virtual-entity-type-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/openapi/hildebrand-virtual-entity-type-api-openapi.yml
+- filename: hildebrand-oauth-api-openapi.yml
+  format: yaml
+  label: Hildebrand O Auth API
+  slug: hildebrand-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/openapi/hildebrand-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

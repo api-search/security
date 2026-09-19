@@ -45,7 +45,7 @@ tags:
 - HL7 FHIR
 - Medication Management
 - Digital Health
-- Low Code
+- Low-Code
 - AQL
 - Slovenia
 ---

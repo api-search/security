@@ -36,12 +36,6 @@ api_specs:
   slug: beazley-definitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-definitions-api-openapi.yml
-- filename: beazley-faqs-api-openapi.yml
-  format: yaml
-  label: Beazley Faqs API
-  slug: beazley-faqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-faqs-api-openapi.yml
 - filename: beazley-health-api-openapi.yml
   format: yaml
   label: Beazley Health API
@@ -114,6 +108,12 @@ api_specs:
   slug: beazley-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-search-api-openapi.yml
+- filename: beazley-faqs-api-openapi.yml
+  format: yaml
+  label: Beazley Faqs API
+  slug: beazley-faqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-faqs-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO/IEC 27001

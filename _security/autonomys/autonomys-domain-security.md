@@ -2,7 +2,7 @@
 api_specs:
 - filename: autonomys-auto-drive-api-api-openapi.yml
   format: yaml
-  label: Autonomys Auto Drive API API
+  label: Autonomys Auto Drive API
   slug: autonomys-auto-drive-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/autonomys-auto-drive-api-api-openapi.yml

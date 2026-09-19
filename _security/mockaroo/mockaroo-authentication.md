@@ -72,7 +72,7 @@ tags:
 - Developer Tools
 - QA Testing
 - Realistic Data
-- Schemas
+- Schema
 - Datasets
 - Public APIs
 ---

@@ -224,5 +224,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sitecore
   \  - openapi/sitecore-discover-api-openapi.yml\n  - openapi/sitecore-ordercloud-api-openapi.yml\n  - openapi/sitecore-xm-cloud-rest-api-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key authentication. Provide the API key in the Authorization header obtained\n    from the Sitecore Personalize instance configuration.\n  sources:\n  - openapi/sitecore-personalize-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/authentication/sitecore-authentication.yml
 summary_line: apiKey/http · 3 schemes
-tags: []
+tags:
+- Headless CMS
+- Customer Data Platform
+- Content Management
 ---

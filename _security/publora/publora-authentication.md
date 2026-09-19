@@ -3,12 +3,54 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: publora-openapi-original.json
-  format: json
-  label: Publora API
-  slug: publora-api
+- filename: publora-connections-api-openapi.yml
+  format: yaml
+  label: Publora Connections API
+  slug: publora-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-connections-api-openapi.yml
+- filename: publora-linkedin-analytics-api-openapi.yml
+  format: yaml
+  label: Publora LinkedIn Analytics API
+  slug: publora-linkedin-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-linkedin-analytics-api-openapi.yml
+- filename: publora-logs-api-openapi.yml
+  format: yaml
+  label: Publora Logs API
+  slug: publora-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-logs-api-openapi.yml
+- filename: publora-media-api-openapi.yml
+  format: yaml
+  label: Publora Media API
+  slug: publora-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-media-api-openapi.yml
+- filename: publora-platform-analytics-api-openapi.yml
+  format: yaml
+  label: Publora Platform Analytics API
+  slug: publora-platform-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-platform-analytics-api-openapi.yml
+- filename: publora-posts-api-openapi.yml
+  format: yaml
+  label: Publora Posts API
+  slug: publora-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-posts-api-openapi.yml
+- filename: publora-webhooks-api-openapi.yml
+  format: yaml
+  label: Publora Webhooks API
+  slug: publora-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-webhooks-api-openapi.yml
+- filename: publora-workspace-api-openapi.yml
+  format: yaml
+  label: Publora Workspace API
+  slug: publora-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-workspace-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -39,12 +81,12 @@ source_yaml: "generated: '2026-09-11'\nmethod: derived\nsource: openapi/publora-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/authentication/publora-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Social Media
+- Social-Media
 - Publishing
 - Scheduling
 - MCP
 - Content
 - Social Media Management
-- Webhooks
+- Webhook
 - AI Agents
 ---

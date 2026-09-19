@@ -100,7 +100,7 @@ tags:
 - Artificial Intelligence
 - Productivity
 - Goal Tracking
-- OKR
+- OKRs
 - Workflow-Automation
 - Team Collaboration
 - Business Reviews

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: advancedmaterialstechnologyengineering-openapi.json
-  format: json
-  label: AMTE Business Object OpenAPI (H3 Yun / 氚云 low-code BPM platform)
-  slug: amte-business-object-openapi-h3-yun-氚云-low-code-bpm-platform
+- filename: advancedmaterialstechnologyengineering-object-api-openapi.yml
+  format: yaml
+  label: Advanced Materials Technology & Engineering Object API
+  slug: advancedmaterialstechnologyengineering-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmaterialstechnologyengineering/refs/heads/main/openapi/advancedmaterialstechnologyengineering-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/advancedmaterialstechnologyengineering/refs/heads/main/openapi/advancedmaterialstechnologyengineering-object-api-openapi.yml
 description: ''
 domains:
 - caa: []

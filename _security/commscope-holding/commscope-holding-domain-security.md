@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: commscope-holding-accesspoints-api-openapi.yml
-  format: yaml
-  label: CommScope Holding AccessPoints API
-  slug: commscope-holding-accesspoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-accesspoints-api-openapi.yml
 - filename: commscope-holding-activities-api-openapi.yml
   format: yaml
   label: CommScope Holding Activities API
@@ -48,6 +42,12 @@ api_specs:
   slug: commscope-holding-venues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-venues-api-openapi.yml
+- filename: commscope-holding-access-points-api-openapi.yml
+  format: yaml
+  label: CommScope Holding Access Points API
+  slug: commscope-holding-access-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-access-points-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-data-subscriptions-api-openapi.yml
 - filename: hopin-events-api-openapi.yml
   format: yaml
-  label: RingCentral Events Events API
+  label: RingCentral Events API
   slug: hopin-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-events-api-openapi.yml

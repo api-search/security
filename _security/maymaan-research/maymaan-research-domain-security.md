@@ -45,6 +45,6 @@ tags:
 - Manufacturing
 - Hardware
 - Sustainability
-- Data Centers
+- Data-Center
 - Automotive
 ---

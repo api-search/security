@@ -14,18 +14,18 @@ api_specs:
   slug: microsoft-entra-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-groups-api-openapi.yml
-- filename: microsoft-entra-serviceprincipals-api-openapi.yml
-  format: yaml
-  label: Microsoft Entra ServicePrincipals API
-  slug: microsoft-entra-serviceprincipals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-serviceprincipals-api-openapi.yml
 - filename: microsoft-entra-users-api-openapi.yml
   format: yaml
   label: Microsoft Entra Users API
   slug: microsoft-entra-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-users-api-openapi.yml
+- filename: microsoft-entra-service-principals-api-openapi.yml
+  format: yaml
+  label: Microsoft Entra Service Principals API
+  slug: microsoft-entra-service-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-service-principals-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -74,4 +74,5 @@ tags:
 - Network Security
 - Security
 - Zero Trust
+- Identity Federation
 ---

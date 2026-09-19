@@ -66,7 +66,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-monitor-api-openapi.yml
 - filename: langflow-openai-responses-api-api-openapi.yml
   format: yaml
-  label: Langflow OpenAI Responses API API
+  label: Langflow OpenAI Responses API
   slug: langflow-openai-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openai-responses-api-api-openapi.yml

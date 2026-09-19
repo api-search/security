@@ -54,7 +54,7 @@ tags:
 - Freight
 - Supply Chain
 - Ports
-- Terminals
+- Terminal
 - Track and Trace
 - DCSA
 - EDI

@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Metaverse
-- Avatar
+- Avatars
 - Social
 - Gaming
 - Mobile

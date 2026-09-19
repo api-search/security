@@ -92,6 +92,6 @@ tags:
 - AVM
 - Listings
 - MCP
-- AI Agent
+- AI Agents
 - REST API
 ---

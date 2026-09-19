@@ -3,24 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: vastdata-activedirectory-api-openapi.yml
-  format: yaml
-  label: VAST Data activedirectory API
-  slug: vastdata-activedirectory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-activedirectory-api-openapi.yml
 - filename: vastdata-alarms-api-openapi.yml
   format: yaml
   label: VAST Data alarms API
   slug: vastdata-alarms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-alarms-api-openapi.yml
-- filename: vastdata-apitokens-api-openapi.yml
-  format: yaml
-  label: VAST Data apitokens API
-  slug: vastdata-apitokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-apitokens-api-openapi.yml
 - filename: vastdata-basicsettings-api-openapi.yml
   format: yaml
   label: VAST Data basicsettings API
@@ -45,12 +33,6 @@ api_specs:
   slug: vastdata-block-hosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-block-hosts-api-openapi.yml
-- filename: vastdata-blockhosts-api-openapi.yml
-  format: yaml
-  label: VAST Data blockhosts API
-  slug: vastdata-blockhosts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-blockhosts-api-openapi.yml
 - filename: vastdata-blockmappings-api-openapi.yml
   format: yaml
   label: VAST Data blockmappings API
@@ -195,12 +177,6 @@ api_specs:
   slug: vastdata-eventdefinitionconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-eventdefinitionconfigs-api-openapi.yml
-- filename: vastdata-eventdefinitions-api-openapi.yml
-  format: yaml
-  label: VAST Data eventdefinitions API
-  slug: vastdata-eventdefinitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-eventdefinitions-api-openapi.yml
 - filename: vastdata-events-api-openapi.yml
   format: yaml
   label: VAST Data events API
@@ -249,12 +225,6 @@ api_specs:
   slug: vastdata-hosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-hosts-api-openapi.yml
-- filename: vastdata-iamroles-api-openapi.yml
-  format: yaml
-  label: VAST Data iamroles API
-  slug: vastdata-iamroles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-iamroles-api-openapi.yml
 - filename: vastdata-indestructibility-api-openapi.yml
   format: yaml
   label: VAST Data indestructibility API
@@ -459,12 +429,6 @@ api_specs:
   slug: vastdata-protectedpaths-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-protectedpaths-api-openapi.yml
-- filename: vastdata-protectionpolicies-api-openapi.yml
-  format: yaml
-  label: VAST Data protectionpolicies API
-  slug: vastdata-protectionpolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-protectionpolicies-api-openapi.yml
 - filename: vastdata-psus-api-openapi.yml
   format: yaml
   label: VAST Data psus API
@@ -477,12 +441,6 @@ api_specs:
   slug: vastdata-qos-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-qos-policies-api-openapi.yml
-- filename: vastdata-qospolicies-api-openapi.yml
-  format: yaml
-  label: VAST Data qospolicies API
-  slug: vastdata-qospolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-qospolicies-api-openapi.yml
 - filename: vastdata-quotaentityinfos-api-openapi.yml
   format: yaml
   label: VAST Data quotaentityinfos API
@@ -513,12 +471,6 @@ api_specs:
   slug: vastdata-realms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-realms-api-openapi.yml
-- filename: vastdata-replicationpolicies-api-openapi.yml
-  format: yaml
-  label: VAST Data replicationpolicies API
-  slug: vastdata-replicationpolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-replicationpolicies-api-openapi.yml
 - filename: vastdata-replicationrestorepoints-api-openapi.yml
   format: yaml
   label: VAST Data replicationrestorepoints API
@@ -603,12 +555,6 @@ api_specs:
   slug: vastdata-support-bundles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-support-bundles-api-openapi.yml
-- filename: vastdata-supportbundles-api-openapi.yml
-  format: yaml
-  label: VAST Data supportbundles API
-  slug: vastdata-supportbundles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-supportbundles-api-openapi.yml
 - filename: vastdata-supporteddrives-api-openapi.yml
   format: yaml
   label: VAST Data supporteddrives API
@@ -633,12 +579,6 @@ api_specs:
   slug: vastdata-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-tenants-api-openapi.yml
-- filename: vastdata-tlscertificates-api-openapi.yml
-  format: yaml
-  label: VAST Data tlscertificates API
-  slug: vastdata-tlscertificates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-tlscertificates-api-openapi.yml
 - filename: vastdata-token-api-openapi.yml
   format: yaml
   label: VAST Data token API
@@ -723,24 +663,12 @@ api_specs:
   slug: vastdata-vm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vm-api-openapi.yml
-- filename: vastdata-vms-api-openapi.yml
-  format: yaml
-  label: VAST Data vms API
-  slug: vastdata-vms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vms-api-openapi.yml
 - filename: vastdata-volumes-api-openapi.yml
   format: yaml
   label: VAST Data Volumes API
   slug: vastdata-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-volumes-api-openapi.yml
-- filename: vastdata-vpntunnels-api-openapi.yml
-  format: yaml
-  label: VAST Data vpntunnels API
-  slug: vastdata-vpntunnels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vpntunnels-api-openapi.yml
 - filename: vastdata-vsettings-api-openapi.yml
   format: yaml
   label: VAST Data vsettings API
@@ -759,6 +687,60 @@ api_specs:
   slug: vastdata-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-webhooks-api-openapi.yml
+- filename: vastdata-vms-api-openapi.yml
+  format: yaml
+  label: VAST Data Vms API
+  slug: vastdata-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vms-api-openapi.yml
+- filename: vastdata-active-directory-api-openapi.yml
+  format: yaml
+  label: VAST Data Active Directory API
+  slug: vastdata-active-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-active-directory-api-openapi.yml
+- filename: vastdata-api-tokens-api-openapi.yml
+  format: yaml
+  label: VAST Data API Tokens API
+  slug: vastdata-api-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-api-tokens-api-openapi.yml
+- filename: vastdata-event-definitions-api-openapi.yml
+  format: yaml
+  label: VAST Data Event Definitions API
+  slug: vastdata-event-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-event-definitions-api-openapi.yml
+- filename: vastdata-iam-roles-api-openapi.yml
+  format: yaml
+  label: VAST Data IAM Roles API
+  slug: vastdata-iam-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-iam-roles-api-openapi.yml
+- filename: vastdata-protection-policies-api-openapi.yml
+  format: yaml
+  label: VAST Data Protection Policies API
+  slug: vastdata-protection-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-protection-policies-api-openapi.yml
+- filename: vastdata-replication-policies-api-openapi.yml
+  format: yaml
+  label: VAST Data Replication Policies API
+  slug: vastdata-replication-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-replication-policies-api-openapi.yml
+- filename: vastdata-tls-certificates-api-openapi.yml
+  format: yaml
+  label: VAST Data TLS Certificates API
+  slug: vastdata-tls-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-tls-certificates-api-openapi.yml
+- filename: vastdata-vpn-tunnels-api-openapi.yml
+  format: yaml
+  label: VAST Data Vpn Tunnels API
+  slug: vastdata-vpn-tunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vpn-tunnels-api-openapi.yml
 auth_types:
 - apiKey
 - http

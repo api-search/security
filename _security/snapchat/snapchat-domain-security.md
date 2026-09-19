@@ -6,18 +6,18 @@ api_specs:
   slug: snapchat-conversion-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-conversion-events-api-openapi.yml
-- filename: snapchat-oauth-api-openapi.yml
-  format: yaml
-  label: Snapchat OAuth API
-  slug: snapchat-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
 - filename: snapchat-user-profile-api-openapi.yml
   format: yaml
   label: Snapchat User Profile API
   slug: snapchat-user-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-user-profile-api-openapi.yml
+- filename: snapchat-oauth-api-openapi.yml
+  format: yaml
+  label: Snapchat O Auth API
+  slug: snapchat-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

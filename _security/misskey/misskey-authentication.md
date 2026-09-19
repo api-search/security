@@ -223,7 +223,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/h
 summary_line: http · 1 scheme
 tags:
 - Open-Source
-- Social Networks
+- Social Network
 - Fediverse
 - ActivityPub
 - Decentralized

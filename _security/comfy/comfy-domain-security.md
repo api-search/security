@@ -35,6 +35,6 @@ tags:
 - Workplace Experience
 - Smart Buildings
 - PropTech
-- Internet of Things
+- IoT
 - Acquired
 ---

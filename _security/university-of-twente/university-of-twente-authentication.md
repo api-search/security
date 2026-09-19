@@ -8,6 +8,12 @@ api_specs:
   slug: energy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-energy-api-openapi.yml
+- filename: university-of-twente-dashboard-api-openapi.yml
+  format: yaml
+  label: University of Twente Dashboard API
+  slug: university-of-twente-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-dashboard-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

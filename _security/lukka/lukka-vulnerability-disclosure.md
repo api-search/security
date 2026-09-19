@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/asyncapi/lukka-market-data-streaming-asyncapi.yml
 - filename: lukka-analytics-analytics-api-api-openapi.yml
   format: yaml
-  label: Lukka Analytics - Analytics API API
+  label: Lukka Analytics - Analytics API
   slug: lukka-analytics-analytics-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-analytics-analytics-api-api-openapi.yml

@@ -80,7 +80,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/openapi/coordinate-webhooks-api-openapi.yml
 - filename: coordinate-coordinate-rest-api-api-openapi.yml
   format: yaml
-  label: Coordinate Coordinate REST API
+  label: Coordinate REST API
   slug: coordinate-coordinate-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/openapi/coordinate-coordinate-rest-api-api-openapi.yml

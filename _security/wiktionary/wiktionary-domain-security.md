@@ -24,12 +24,6 @@ api_specs:
   slug: wiktionary-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-history-api-openapi.yml
-- filename: wiktionary-opensearch-api-openapi.yml
-  format: yaml
-  label: Wiktionary OpenSearch API
-  slug: wiktionary-opensearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-opensearch-api-openapi.yml
 - filename: wiktionary-page-api-openapi.yml
   format: yaml
   label: Wiktionary Page API
@@ -66,6 +60,12 @@ api_specs:
   slug: wiktionary-transform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-transform-api-openapi.yml
+- filename: wiktionary-open-search-api-openapi.yml
+  format: yaml
+  label: Wiktionary Open Search API
+  slug: wiktionary-open-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-open-search-api-openapi.yml
 description: ''
 domains:
 - caa:

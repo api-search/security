@@ -38,5 +38,5 @@ tags:
 - Logistics
 - Consumer Marketplace
 - Urban Infrastructure
-- Internet of Things
+- IoT
 ---

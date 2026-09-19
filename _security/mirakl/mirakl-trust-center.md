@@ -152,7 +152,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-mapping-api-openapi.yml
 - filename: mirakl-mirakl-connect-channel-platform-webhooks-api-openapi.yml
   format: yaml
-  label: Mirakl Mirakl Connect Channel Platform Webhooks API
+  label: Mirakl Connect Channel Platform Webhooks API
   slug: mirakl-mirakl-connect-channel-platform-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/openapi/mirakl-mirakl-connect-channel-platform-webhooks-api-openapi.yml

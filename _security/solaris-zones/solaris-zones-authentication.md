@@ -155,7 +155,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zones-zone-statistics-api-openapi.yml
 - filename: solaris-zones-zones-api-openapi.yml
   format: yaml
-  label: Solaris Zones Zones API
+  label: Solaris Zones API
   slug: solaris-zones-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zones-zones-api-openapi.yml
@@ -206,7 +206,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Containers
 - Kernel Zones
-- Operating Systems
+- Operating System
 - Oracle
 - RAD
 - Resource Management

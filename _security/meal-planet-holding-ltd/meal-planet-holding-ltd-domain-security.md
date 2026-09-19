@@ -38,6 +38,6 @@ tags:
 - Marketplace
 - Subscription
 - Consumer App
-- UAE
+- United Arab Emirates
 - Food
 ---

@@ -50,12 +50,6 @@ api_specs:
   slug: covalent-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-discovery-api-openapi.yml
-- filename: covalent-graphql-api-openapi.yml
-  format: yaml
-  label: Covalent GraphQL API
-  slug: covalent-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-graphql-api-openapi.yml
 - filename: covalent-info-api-openapi.yml
   format: yaml
   label: Covalent Info API
@@ -98,6 +92,12 @@ api_specs:
   slug: covalent-transforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-transforms-api-openapi.yml
+- filename: covalent-graph-ql-api-openapi.yml
+  format: yaml
+  label: Covalent Graph QL API
+  slug: covalent-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''

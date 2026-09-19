@@ -30,12 +30,6 @@ api_specs:
   slug: orionis-biosciences-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-news-api-openapi.yml
-- filename: orionis-biosciences-oembed-api-openapi.yml
-  format: yaml
-  label: Orionis Biosciences O Embed API
-  slug: orionis-biosciences-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-oembed-api-openapi.yml
 - filename: orionis-biosciences-pages-api-openapi.yml
   format: yaml
   label: Orionis Biosciences Pages API
@@ -66,6 +60,12 @@ api_specs:
   slug: orionis-biosciences-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-users-api-openapi.yml
+- filename: orionis-biosciences-o-embed-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences o Embed API
+  slug: orionis-biosciences-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -42,12 +42,12 @@ api_specs:
   slug: xgs-energy-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-discovery-api-openapi.yml
-- filename: xgs-energy-oembed-api-openapi.yml
+- filename: xgs-energy-o-embed-api-openapi.yml
   format: yaml
-  label: XGS Energy oEmbed API
-  slug: xgs-energy-oembed-api
+  label: XGS Energy o Embed API
+  slug: xgs-energy-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

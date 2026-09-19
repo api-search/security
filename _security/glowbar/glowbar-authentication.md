@@ -92,5 +92,5 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP
-- Memberships
+- Membership
 ---

@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-consumption-api-openapi.yml
 - filename: neon-data-api-api-openapi.yml
   format: yaml
-  label: Neon Data API API
+  label: Neon Data API
   slug: neon-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-data-api-api-openapi.yml
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/security/neon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Databases
+- Database
 - Serverless
 - Postgres
 - Infrastructure

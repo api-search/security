@@ -35,7 +35,7 @@ tags:
 - Fusion Energy
 - Clean Energy
 - Inertial Confinement Fusion
-- Laser
+- Lasers
 - Power Generation
 - Climate Tech
 ---

@@ -37,6 +37,6 @@ tags:
 - Longevity
 - Healthcare
 - Aging
-- Clinic
+- Clinics
 - New York City
 ---

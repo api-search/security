@@ -81,7 +81,7 @@ summary_line: http · 1 scheme
 tags:
 - Roadmapping
 - Product Management
-- OKR
+- OKRs
 - Roadmaps
 - Features
 - Product Strategy

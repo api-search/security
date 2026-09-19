@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Records Management
 - Information Management
-- Data Centers
+- Data-Center
 - Digital Transformation
 - Storage
 - Fortune 1000

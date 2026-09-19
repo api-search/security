@@ -30,12 +30,6 @@ api_specs:
   slug: amazon-iot-twinmaker-tags-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-list-api-openapi.yml
-- filename: amazon-iot-twinmaker-tags-resourcearn-tagkeys-api-openapi.yml
-  format: yaml
-  label: Amazon IoT TwinMaker Tags#resourceARN&tagKeys API
-  slug: amazon-iot-twinmaker-tags-resourcearn-tagkeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-resourcearn-tagkeys-api-openapi.yml
 - filename: amazon-iot-twinmaker-workspaces-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Workspaces API
@@ -48,6 +42,12 @@ api_specs:
   slug: amazon-iot-twinmaker-workspaces-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+- filename: amazon-iot-twinmaker-tags-resource-arn-tag-keys-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Tags#resource Arn&tag Keys API
+  slug: amazon-iot-twinmaker-tags-resource-arn-tag-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-resource-arn-tag-keys-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

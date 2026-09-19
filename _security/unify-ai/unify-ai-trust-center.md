@@ -71,7 +71,6 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - LLM
 - Artificial Intelligence
-- Large Language Models
 - LLM Routing
 - Model Gateway
 - AI Gateway

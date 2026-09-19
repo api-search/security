@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Investments
+- Investment
 - Portfolio-Management
 - Wealth Management
 - Financial Data

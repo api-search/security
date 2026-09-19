@@ -36,5 +36,5 @@ tags:
 - Bluetooth
 - Offline Payments
 - Digital Wallet
-- UAE
+- United Arab Emirates
 ---

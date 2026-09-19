@@ -55,5 +55,5 @@ tags:
 - E-Commerce
 - Parcel Lockers
 - Returns
-- Nordics
+- Nordic
 ---

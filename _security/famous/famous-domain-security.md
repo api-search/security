@@ -75,7 +75,7 @@ tags:
 - Marketing
 - Print on Demand
 - Merchandise
-- Storefronts
+- Storefront
 - Order
 - Payouts
 ---

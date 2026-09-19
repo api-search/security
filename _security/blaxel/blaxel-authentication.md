@@ -110,7 +110,7 @@ tags:
 - Artificial Intelligence
 - Agents
 - Infrastructure
-- Sandboxes
+- Sandbox
 - MCP
 - Compute
 - Serverless

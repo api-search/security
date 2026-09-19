@@ -46,7 +46,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Business Applications
-- OKR
+- OKRs
 - Strategy Execution
 - Goal Management
 - Performance Management

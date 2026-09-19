@@ -194,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-projects-api-openapi.yml
 - filename: keboola-public-api-api-openapi.yml
   format: yaml
-  label: Keboola Public API API
+  label: Keboola Public API
   slug: keboola-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-public-api-api-openapi.yml

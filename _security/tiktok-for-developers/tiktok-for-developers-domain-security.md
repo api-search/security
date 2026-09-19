@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tiktok-for-developers-oauth-api-openapi.yml
-  format: yaml
-  label: TikTok for Developers OAuth API
-  slug: tiktok-for-developers-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/openapi/tiktok-for-developers-oauth-api-openapi.yml
 - filename: tiktok-for-developers-post-api-openapi.yml
   format: yaml
   label: TikTok for Developers Post API
@@ -48,6 +42,12 @@ api_specs:
   slug: tiktok-for-developers-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/openapi/tiktok-for-developers-video-api-openapi.yml
+- filename: tiktok-for-developers-oauth-api-openapi.yml
+  format: yaml
+  label: TikTok for Developers O Auth API
+  slug: tiktok-for-developers-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/openapi/tiktok-for-developers-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

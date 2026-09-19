@@ -15,18 +15,6 @@ api_specs:
   slug: act-activityseries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-activityseries-api-openapi.yml
-- filename: act-customentities-api-openapi.yml
-  format: yaml
-  label: Act! CRM Custom Entities API
-  slug: act-customentities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-customentities-api-openapi.yml
-- filename: act-documenttypes-api-openapi.yml
-  format: yaml
-  label: Act! CRM Document Types API
-  slug: act-documenttypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-documenttypes-api-openapi.yml
 - filename: act-historytypes-api-openapi.yml
   format: yaml
   label: Act! CRM History Types API
@@ -57,18 +45,30 @@ api_specs:
   slug: act-supplementalfiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-supplementalfiles-api-openapi.yml
-- filename: act-syncdata-api-openapi.yml
+- filename: act-custom-entities-api-openapi.yml
+  format: yaml
+  label: Act! CRM Custom Entities API
+  slug: act-custom-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-custom-entities-api-openapi.yml
+- filename: act-document-types-api-openapi.yml
+  format: yaml
+  label: Act! CRM Document Types API
+  slug: act-document-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-document-types-api-openapi.yml
+- filename: act-sync-data-api-openapi.yml
   format: yaml
   label: Act! CRM Sync Data API
-  slug: act-syncdata-api
+  slug: act-sync-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-syncdata-api-openapi.yml
-- filename: act-tasktypes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-sync-data-api-openapi.yml
+- filename: act-task-types-api-openapi.yml
   format: yaml
   label: Act! CRM Task Types API
-  slug: act-tasktypes-api
+  slug: act-task-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-tasktypes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/openapi/act-task-types-api-openapi.yml
 auth_types:
 - apiKey
 - http

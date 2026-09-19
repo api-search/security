@@ -36,6 +36,6 @@ tags:
 - Corporate Training
 - EdTech
 - Enablement
-- Assessments
-- Simulations
+- Assessment
+- Simulation
 ---

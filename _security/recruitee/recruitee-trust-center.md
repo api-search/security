@@ -23,7 +23,7 @@ tags:
 - Recruiting
 - ATS
 - Applicant Tracking
-- HR
+- Human Resources
 - Hiring
 - Careers Site
 - Tellent

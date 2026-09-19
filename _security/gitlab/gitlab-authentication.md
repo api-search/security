@@ -144,7 +144,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/he
 summary_line: apiKey/http · 3 schemes
 tags:
 - Code
+- Developer Tools
 - Platform
 - Software Development
 - Source Control
+- GitLab
 ---

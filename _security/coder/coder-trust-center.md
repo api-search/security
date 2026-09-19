@@ -186,6 +186,6 @@ tags:
 - Cloud Development Environments
 - AI Agents
 - Infrastructure
-- Workspaces
+- Workspace
 trust_url: https://trust.coder.com/
 ---

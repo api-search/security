@@ -258,12 +258,6 @@ api_specs:
   slug: sentry-system-user-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/openapi/sentry-system-user-feedback-api-openapi.yml
-- filename: sentry-system-users-api-openapi.yml
-  format: yaml
-  label: Sentry Users API
-  slug: sentry-system-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/openapi/sentry-system-users-api-openapi.yml
 - filename: sentry-webhooks-asyncapi.yml
   format: yaml
   label: Sentry Integration Platform API

@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-license-api-openapi.yml
 - filename: lightrun-lightrun-feature-flags-status-api-openapi.yml
   format: yaml
-  label: Lightrun Lightrun feature flags status API
+  label: Lightrun feature flags status API
   slug: lightrun-lightrun-feature-flags-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-lightrun-feature-flags-status-api-openapi.yml

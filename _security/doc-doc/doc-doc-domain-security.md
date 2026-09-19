@@ -30,9 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doc-doc/refs/h
 summary_line: DMARC
 tags:
 - Company
-- Telemedicine
-- Healthcare
 - Telehealth
+- Healthcare
 - Medical
 - Wellbeing
 - Latin America

@@ -44,7 +44,7 @@ tags:
 - ATS
 - Applicant Tracking
 - Recruiting
-- HR
+- Human Resources
 - Hiring
 - Employer Branding
 ---

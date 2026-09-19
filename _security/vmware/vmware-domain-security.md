@@ -12,12 +12,6 @@ api_specs:
   slug: vmware-content-library-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-content-library-api-openapi.yml
-- filename: vmware-datacenters-api-openapi.yml
-  format: yaml
-  label: VMware Datacenters API
-  slug: vmware-datacenters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-datacenters-api-openapi.yml
 - filename: vmware-datastores-api-openapi.yml
   format: yaml
   label: VMware Datastores API
@@ -86,10 +80,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-power-api-openapi.yml
 - filename: vmware-vms-api-openapi.yml
   format: yaml
-  label: VMware VMs API
+  label: VMware V Ms API
   slug: vmware-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vms-api-openapi.yml
+- filename: vmware-data-centers-api-openapi.yml
+  format: yaml
+  label: VMware Data Centers API
+  slug: vmware-data-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-data-centers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -151,4 +151,5 @@ tags:
 - Hybrid Cloud
 - Infrastructure
 - Virtualization
+- VMware
 ---

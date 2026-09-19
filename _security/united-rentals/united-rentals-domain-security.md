@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-locations-api-openapi.yml
 - filename: united-rentals-rentals-api-openapi.yml
   format: yaml
-  label: United Rentals Rentals API
+  label: United Rentals API
   slug: united-rentals-rentals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-rentals-api-openapi.yml

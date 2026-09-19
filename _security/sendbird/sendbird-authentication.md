@@ -57,5 +57,11 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/sendbir
   \ from the Sendbird Dashboard.\n  sources:\n  - openapi/sendbird-platform-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/authentication/sendbird-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- Customer-Support
+- Voice
+- Video
+- Omnichannel
+- WhatsApp
+- SMS
 ---

@@ -35,6 +35,6 @@ tags:
 - Medical Aesthetics
 - Cosmetic Medicine
 - Aesthetics
-- Clinic
+- Clinics
 - Consumer Health
 ---

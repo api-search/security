@@ -8,12 +8,6 @@ api_specs:
   slug: zoho-crm-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-actions-api-openapi.yml
-- filename: zoho-crm-apis-api-openapi.yml
-  format: yaml
-  label: Zoho CRM APIS API
-  slug: zoho-crm-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-apis-api-openapi.yml
 - filename: zoho-crm-appointments-s-api-openapi.yml
   format: yaml
   label: Zoho CRM Appointments S API
@@ -218,6 +212,12 @@ api_specs:
   slug: zoho-crm-zoho-crm-related-records-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-zoho-crm-related-records-api-api-openapi.yml
+- filename: zoho-crm-apis-api-openapi.yml
+  format: yaml
+  label: Zoho CRM APIS API
+  slug: zoho-crm-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/openapi/zoho-crm-apis-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

@@ -2,12 +2,66 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: openapi.json
-  format: json
-  label: FlightFinder Aviation Safety Data API
-  slug: flightfinder-aviation-safety-data-api
+- filename: flightfinder-aircraft-api-openapi.yml
+  format: yaml
+  label: FlightFinder Aircraft API
+  slug: flightfinder-aircraft-api
   spec_type: OpenAPI
-  url: https://himaxym.com/api/v1/data/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-aircraft-api-openapi.yml
+- filename: flightfinder-airports-api-openapi.yml
+  format: yaml
+  label: FlightFinder Airports API
+  slug: flightfinder-airports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-airports-api-openapi.yml
+- filename: flightfinder-drone-sightings-api-openapi.yml
+  format: yaml
+  label: FlightFinder Drone Sightings API
+  slug: flightfinder-drone-sightings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-drone-sightings-api-openapi.yml
+- filename: flightfinder-events-api-openapi.yml
+  format: yaml
+  label: FlightFinder Events API
+  slug: flightfinder-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-events-api-openapi.yml
+- filename: flightfinder-keys-api-openapi.yml
+  format: yaml
+  label: FlightFinder Keys API
+  slug: flightfinder-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-keys-api-openapi.yml
+- filename: flightfinder-laser-strikes-api-openapi.yml
+  format: yaml
+  label: FlightFinder Laser Strikes API
+  slug: flightfinder-laser-strikes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-laser-strikes-api-openapi.yml
+- filename: flightfinder-narratives-api-openapi.yml
+  format: yaml
+  label: FlightFinder Narratives API
+  slug: flightfinder-narratives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-narratives-api-openapi.yml
+- filename: flightfinder-ping-api-openapi.yml
+  format: yaml
+  label: FlightFinder Ping API
+  slug: flightfinder-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-ping-api-openapi.yml
+- filename: flightfinder-sources-api-openapi.yml
+  format: yaml
+  label: FlightFinder Sources API
+  slug: flightfinder-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-sources-api-openapi.yml
+- filename: flightfinder-wildlife-strikes-api-openapi.yml
+  format: yaml
+  label: FlightFinder Wildlife Strikes API
+  slug: flightfinder-wildlife-strikes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/openapi/flightfinder-wildlife-strikes-api-openapi.yml
 auth_types:
 - http
 - none

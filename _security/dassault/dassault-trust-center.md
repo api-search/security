@@ -6,12 +6,6 @@ api_specs:
   slug: dassault-accreditations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-accreditations-api-openapi.yml
-- filename: dassault-apikeys-api-openapi.yml
-  format: yaml
-  label: Dassault Systèmes apikeys API
-  slug: dassault-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-apikeys-api-openapi.yml
 - filename: dassault-leads-opportunities-api-openapi.yml
   format: yaml
   label: Dassault Systèmes leads-opportunities API
@@ -36,6 +30,12 @@ api_specs:
   slug: dassault-price-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-price-lists-api-openapi.yml
+- filename: dassault-api-keys-api-openapi.yml
+  format: yaml
+  label: Dassault Systèmes API Keys API
+  slug: dassault-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-api-keys-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -58,7 +58,6 @@ summary_line: ISO 27001, GDPR
 tags:
 - 3DEXPERIENCE
 - PLM
-- Product Lifecycle Management
 - CAD
 - Manufacturing
 - SolidWorks

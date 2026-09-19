@@ -52,7 +52,7 @@ tags:
 - Competitive Intelligence
 - Web Data
 - Common-Crawl
-- link-building
+- Link Building
 - Developer Tools
 - MCP
 ---

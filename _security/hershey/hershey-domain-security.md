@@ -2,13 +2,14 @@
 description: ''
 domains:
 - caa: []
-  dmarc: false
+  dmarc: true
+  dmarc_policy: reject
   dnssec: false
-  domain: hershey.com
+  domain: thehersheycompany.com
   spf: true
 hosts:
-- cert_expires: Jan 16 11:48:01 2027 GMT
-  host: www.hershey.com
+- cert_expires: Feb  5 21:38:24 2027 GMT
+  host: www.thehersheycompany.com
   hsts: true
   hsts_max_age: 300
   https: true
@@ -19,16 +20,22 @@ layout: security
 method: probed
 name: Hershey Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Hershey, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+overview: 'Domain security posture for Hershey, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Hershey
 provider_slug: hershey
 slug: hershey-domain-security
 source_filename: hershey-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hershey.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 11:48:01 2027 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: hershey.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thehersheycompany.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 21:38:24 2027 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: thehersheycompany.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hershey/refs/heads/main/security/hershey-domain-security.yml
-summary_line: TLSv1.3 · HSTS
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500
+- Consumer Packaged Goods
+- Food and Beverage
+- Confectionery
+- Snacks
+- Manufacturing
+- Retail
 ---

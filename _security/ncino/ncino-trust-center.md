@@ -537,7 +537,7 @@ tags:
 - Mortgage
 - Loan Origination
 - Deposits
-- Credit Unions
+- Credit Union
 - Salesforce
 - eVault
 - eNote

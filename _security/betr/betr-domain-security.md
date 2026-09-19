@@ -65,7 +65,7 @@ tags:
 - Sports
 - Media
 - Entertainment
-- Mobile Apps
+- Mobile App
 - Consumer
 - Responsible Gaming
 ---

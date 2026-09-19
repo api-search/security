@@ -106,7 +106,7 @@ summary_line: SOC 2, HIPAA
 tags:
 - Company
 - Artificial Intelligence
-- Spreadsheet
+- Spreadsheets
 - Analytics
 - Data
 - Developer Tools

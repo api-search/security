@@ -6,12 +6,6 @@ api_specs:
   slug: neurable-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-core-api-openapi.yml
-- filename: neurable-oauth-api-openapi.yml
-  format: yaml
-  label: Neurable O Auth API
-  slug: neurable-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-oauth-api-openapi.yml
 - filename: neurable-oidc-api-openapi.yml
   format: yaml
   label: Neurable OIDC API
@@ -30,6 +24,12 @@ api_specs:
   slug: neurable-protected-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-protected-api-openapi.yml
+- filename: neurable-oauth-api-openapi.yml
+  format: yaml
+  label: Neurable O Auth API
+  slug: neurable-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/openapi/neurable-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

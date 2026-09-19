@@ -102,12 +102,12 @@ api_specs:
   slug: truto-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/openapi/truto-tasks-api-openapi.yml
-- filename: truto-timeoff-api-openapi.yml
+- filename: truto-time-off-api-openapi.yml
   format: yaml
-  label: Truto Timeoff API
-  slug: truto-timeoff-api
+  label: Truto Time Off API
+  slug: truto-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/openapi/truto-timeoff-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/openapi/truto-time-off-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

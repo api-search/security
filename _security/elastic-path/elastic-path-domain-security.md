@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/openapi/elastic-path-accounts-api-openapi.yml
 - filename: elastic-path-administrator-latest-releases-catalog-api-api-openapi.yml
   format: yaml
-  label: Elastic Path Administrator Latest Releases Catalog API API
+  label: Elastic Path Administrator Latest Releases Catalog API
   slug: elastic-path-administrator-latest-releases-catalog-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/openapi/elastic-path-administrator-latest-releases-catalog-api-api-openapi.yml
@@ -518,7 +518,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/openapi/elastic-path-settings-api-openapi.yml
 - filename: elastic-path-shopper-catalog-api-api-openapi.yml
   format: yaml
-  label: Elastic Path Shopper Catalog API API
+  label: Elastic Path Shopper Catalog API
   slug: elastic-path-shopper-catalog-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/openapi/elastic-path-shopper-catalog-api-api-openapi.yml
@@ -642,7 +642,7 @@ tags:
 - E-Commerce
 - B2B
 - Product
-- Catalogs
+- Catalog
 - Order
 - Promotions
 - Subscription

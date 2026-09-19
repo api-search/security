@@ -216,7 +216,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Affiliate Marketing
 - Performance Marketing
-- Conversions
+- Conversion
 - Publishers
 - Analytics
 - Attribution

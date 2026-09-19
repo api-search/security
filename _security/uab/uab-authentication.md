@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: uab-ddd-openapi.yml
+- filename: uab-oai-pmh-api-openapi.yml
   format: yaml
-  label: DDD — Dipòsit Digital de Documents de la UAB (OAI-PMH 2.0)
-  slug: ddd-oai-pmh
+  label: Autonomous University of Barcelona OAI PMH API
+  slug: uab-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-ddd-openapi.yml
-- filename: uab-ddd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-oai-pmh-api-openapi.yml
+- filename: uab-search-api-openapi.yml
   format: yaml
-  label: DDD Invenio Search and Export Interface
-  slug: ddd-search
+  label: Autonomous University of Barcelona Search API
+  slug: uab-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-ddd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-search-api-openapi.yml
 auth_types: []
 description: UAB's programmable surface splits cleanly in two on authentication. Everything that carries scholarly metadata out of the institution — OAI-PMH harvesting and Invenio export at ddd, traces, ifmuc and the journal platform — is open and anonymous, with no key, no registration and no quota published. Everything that touches a person is behind the institution's own Apereo CAS server, which speaks CAS 3.0 to UAB applications and SAML 2.0 to federated relying parties. There is no API-key programme, no OAuth authorization server for third-party developers, and no self-service developer registration anywhere on the estate.
 kind: authentication

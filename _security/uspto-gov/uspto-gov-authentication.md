@@ -87,30 +87,6 @@ api_specs:
   slug: uspto-gov-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-status-api-openapi.yml
-- filename: uspto-assignments-api-openapi.yml
-  format: yaml
-  label: USPTO Assignments API
-  slug: uspto-assignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-assignments-api-openapi.yml
-- filename: uspto-patents-api-openapi.yml
-  format: yaml
-  label: USPTO Patents API
-  slug: uspto-patents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-patents-api-openapi.yml
-- filename: uspto-ptab-api-openapi.yml
-  format: yaml
-  label: USPTO PTAB API
-  slug: uspto-ptab-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-ptab-api-openapi.yml
-- filename: uspto-trademarks-api-openapi.yml
-  format: yaml
-  label: USPTO Trademarks API
-  slug: uspto-trademarks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-trademarks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

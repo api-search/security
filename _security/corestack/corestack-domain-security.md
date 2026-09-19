@@ -18,12 +18,6 @@ api_specs:
   slug: corestack-ai-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-ai-agent-api-openapi.yml
-- filename: corestack-aigovernance-api-openapi.yml
-  format: yaml
-  label: CoreStack AI Governance API
-  slug: corestack-aigovernance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-aigovernance-api-openapi.yml
 - filename: corestack-application-health-api-openapi.yml
   format: yaml
   label: CoreStack Application Health API
@@ -48,12 +42,6 @@ api_specs:
   slug: corestack-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-attachments-api-openapi.yml
-- filename: corestack-auditlog-api-openapi.yml
-  format: yaml
-  label: CoreStack Audit Log API
-  slug: corestack-auditlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-auditlog-api-openapi.yml
 - filename: corestack-authorization-api-openapi.yml
   format: yaml
   label: CoreStack Authorization API
@@ -252,12 +240,6 @@ api_specs:
   slug: corestack-master-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-master-data-api-openapi.yml
-- filename: corestack-masteraccount-api-openapi.yml
-  format: yaml
-  label: CoreStack Master Account API
-  slug: corestack-masteraccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-masteraccount-api-openapi.yml
 - filename: corestack-masteraccount-billing-api-openapi.yml
   format: yaml
   label: CoreStack MasterAccount Billing API
@@ -444,12 +426,6 @@ api_specs:
   slug: corestack-tagginggovernancepostures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-tagginggovernancepostures-api-openapi.yml
-- filename: corestack-usergroups-api-openapi.yml
-  format: yaml
-  label: CoreStack User Groups API
-  slug: corestack-usergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-usergroups-api-openapi.yml
 - filename: corestack-userpreference-api-openapi.yml
   format: yaml
   label: CoreStack User Preference API
@@ -504,6 +480,30 @@ api_specs:
   slug: corestack-zoho-incident-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-zoho-incident-api-openapi.yml
+- filename: corestack-ai-governance-api-openapi.yml
+  format: yaml
+  label: CoreStack AI Governance API
+  slug: corestack-ai-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-ai-governance-api-openapi.yml
+- filename: corestack-audit-log-api-openapi.yml
+  format: yaml
+  label: CoreStack Audit Log API
+  slug: corestack-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-audit-log-api-openapi.yml
+- filename: corestack-master-account-api-openapi.yml
+  format: yaml
+  label: CoreStack Master Account API
+  slug: corestack-master-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-master-account-api-openapi.yml
+- filename: corestack-user-groups-api-openapi.yml
+  format: yaml
+  label: CoreStack User Groups API
+  slug: corestack-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/openapi/corestack-user-groups-api-openapi.yml
 description: ''
 domains:
 - caa:

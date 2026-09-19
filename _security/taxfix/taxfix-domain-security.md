@@ -34,7 +34,6 @@ tags:
 - Company
 - Fintech
 - Tax
-- Taxes
 - Tax Filing
 - Personal Finance
 - Germany

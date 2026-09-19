@@ -23,7 +23,7 @@ tags:
 - Appointments
 - Scheduling
 - Marketplace
-- Salons
+- Salon
 - Barbershops
 - Spas
 - Payments

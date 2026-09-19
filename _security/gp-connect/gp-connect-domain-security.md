@@ -90,7 +90,7 @@ tags:
 - Appointments
 - Prescriptions
 - Interoperability
-- UK
+- United Kingdom
 - Patient Records
 - Electronic Health Records
 - FHIR STU3

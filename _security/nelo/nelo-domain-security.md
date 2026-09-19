@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Consumer Credit
 - Payments
 - Mexico

@@ -8,12 +8,6 @@ api_specs:
   slug: hotel-engine-catalogservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-catalogservice-api-openapi.yml
-- filename: hotel-engine-contentservice-api-openapi.yml
-  format: yaml
-  label: Engine Content Service API
-  slug: hotel-engine-contentservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-contentservice-api-openapi.yml
 - filename: hotel-engine-lodgingbookingservice-api-openapi.yml
   format: yaml
   label: Engine Lodging Booking Service API
@@ -26,6 +20,12 @@ api_specs:
   slug: hotel-engine-lodgingshoppingservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
+- filename: hotel-engine-content-service-api-openapi.yml
+  format: yaml
+  label: Engine Content Service API
+  slug: hotel-engine-content-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-content-service-api-openapi.yml
 auth_types:
 - mutualTLS
 description: ''

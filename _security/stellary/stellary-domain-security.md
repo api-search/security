@@ -36,13 +36,13 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/security/stellary-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- project-management
-- productivity
-- AI-agents
-- agent-orchestration
+- Project Management
+- Productivity
+- AI Agents
+- Agent Orchestration
 - MCP
-- remote-mcp
-- developer-tools
-- SaaS
-- collaboration
+- Remote MCP
+- Developer Tools
+- Software-as-a-Service
+- Collaboration
 ---

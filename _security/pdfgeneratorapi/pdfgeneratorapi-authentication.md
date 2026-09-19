@@ -54,5 +54,5 @@ tags:
 - Document Generation
 - Templates
 - Reporting
-- Workspaces
+- Workspace
 ---

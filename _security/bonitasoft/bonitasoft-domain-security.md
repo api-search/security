@@ -180,12 +180,6 @@ api_specs:
   slug: bonitasoft-customuservalue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/openapi/bonitasoft-customuservalue-api-openapi.yml
-- filename: bonitasoft-dataretention-api-openapi.yml
-  format: yaml
-  label: Bonitasoft Data Retention API
-  slug: bonitasoft-dataretention-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/openapi/bonitasoft-dataretention-api-openapi.yml
 - filename: bonitasoft-delegation-api-openapi.yml
   format: yaml
   label: Bonitasoft Delegation API
@@ -456,6 +450,12 @@ api_specs:
   slug: bonitasoft-usertask-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/openapi/bonitasoft-usertask-api-openapi.yml
+- filename: bonitasoft-data-retention-api-openapi.yml
+  format: yaml
+  label: Bonitasoft Data Retention API
+  slug: bonitasoft-data-retention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/openapi/bonitasoft-data-retention-api-openapi.yml
 description: ''
 domains:
 - caa:

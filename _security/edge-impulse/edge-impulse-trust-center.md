@@ -48,24 +48,12 @@ api_specs:
   slug: edge-impulse-dsp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-dsp-api-openapi.yml
-- filename: edge-impulse-emailverification-api-openapi.yml
-  format: yaml
-  label: Edge Impulse EmailVerification API
-  slug: edge-impulse-emailverification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-emailverification-api-openapi.yml
 - filename: edge-impulse-export-api-openapi.yml
   format: yaml
   label: Edge Impulse Export API
   slug: edge-impulse-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-export-api-openapi.yml
-- filename: edge-impulse-featureflags-api-openapi.yml
-  format: yaml
-  label: Edge Impulse FeatureFlags API
-  slug: edge-impulse-featureflags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-featureflags-api-openapi.yml
 - filename: edge-impulse-health-api-openapi.yml
   format: yaml
   label: Edge Impulse Health API
@@ -74,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-health-api-openapi.yml
 - filename: edge-impulse-impulse-api-openapi.yml
   format: yaml
-  label: Edge Impulse Impulse API
+  label: Edge Impulse API
   slug: edge-impulse-impulse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-impulse-api-openapi.yml
@@ -132,12 +120,6 @@ api_specs:
   slug: edge-impulse-organizationdatacampaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationdatacampaigns-api-openapi.yml
-- filename: edge-impulse-organizationjobs-api-openapi.yml
-  format: yaml
-  label: Edge Impulse OrganizationJobs API
-  slug: edge-impulse-organizationjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organizationjobs-api-openapi.yml
 - filename: edge-impulse-organizationpipelines-api-openapi.yml
   format: yaml
   label: Edge Impulse OrganizationPipelines API
@@ -180,12 +162,6 @@ api_specs:
   slug: edge-impulse-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-themes-api-openapi.yml
-- filename: edge-impulse-thirdpartyauth-api-openapi.yml
-  format: yaml
-  label: Edge Impulse ThirdPartyAuth API
-  slug: edge-impulse-thirdpartyauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-thirdpartyauth-api-openapi.yml
 - filename: edge-impulse-uploadportal-api-openapi.yml
   format: yaml
   label: Edge Impulse UploadPortal API
@@ -198,18 +174,54 @@ api_specs:
   slug: edge-impulse-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-user-api-openapi.yml
-- filename: edge-impulse-whitelabels-api-openapi.yml
-  format: yaml
-  label: Edge Impulse Whitelabels API
-  slug: edge-impulse-whitelabels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-whitelabels-api-openapi.yml
 - filename: edge-impulse-remote-management-asyncapi.yml
   format: yaml
   label: Edge Impulse Remote Management API
   slug: edge-impulse-remote-management-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/asyncapi/edge-impulse-remote-management-asyncapi.yml
+- filename: edge-impulse-integrations-api-openapi.yml
+  format: yaml
+  label: Edge Impulse Integrations API
+  slug: edge-impulse-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-integrations-api-openapi.yml
+- filename: edge-impulse-postprocessing-api-openapi.yml
+  format: yaml
+  label: Edge Impulse Post Processing API
+  slug: edge-impulse-postprocessing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-postprocessing-api-openapi.yml
+- filename: edge-impulse-email-verification-api-openapi.yml
+  format: yaml
+  label: Edge Impulse Email Verification API
+  slug: edge-impulse-email-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-email-verification-api-openapi.yml
+- filename: edge-impulse-feature-flags-api-openapi.yml
+  format: yaml
+  label: Edge Impulse Feature Flags API
+  slug: edge-impulse-feature-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-feature-flags-api-openapi.yml
+- filename: edge-impulse-organization-jobs-api-openapi.yml
+  format: yaml
+  label: Edge Impulse Organization Jobs API
+  slug: edge-impulse-organization-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-organization-jobs-api-openapi.yml
+- filename: edge-impulse-third-party-auth-api-openapi.yml
+  format: yaml
+  label: Edge Impulse Third Party Auth API
+  slug: edge-impulse-third-party-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-third-party-auth-api-openapi.yml
+- filename: edge-impulse-white-labels-api-openapi.yml
+  format: yaml
+  label: Edge Impulse White Labels API
+  slug: edge-impulse-white-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-white-labels-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -232,12 +244,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/r
 summary_line: SOC 2 Type II
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Embedded Machine Learning
 - Edge AI
 - MLOps
-- Computer Vision
-- Internet of Things
+- Computer-Vision
+- IoT
 - Model Deployment
 - Developer Tools
 trust_url: https://www.edgeimpulse.com/security

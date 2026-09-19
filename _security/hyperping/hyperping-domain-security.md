@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: hyperping-healthchecks-api-openapi.yml
-  format: yaml
-  label: Hyperping Healthchecks API
-  slug: hyperping-healthchecks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-healthchecks-api-openapi.yml
 - filename: hyperping-incidents-api-openapi.yml
   format: yaml
   label: Hyperping Incidents API
@@ -42,6 +36,12 @@ api_specs:
   slug: hyperping-status-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-status-pages-api-openapi.yml
+- filename: hyperping-health-checks-api-openapi.yml
+  format: yaml
+  label: Hyperping Health Checks API
+  slug: hyperping-health-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-health-checks-api-openapi.yml
 description: ''
 domains:
 - caa: []

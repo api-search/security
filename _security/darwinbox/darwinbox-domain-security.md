@@ -50,7 +50,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/darwinbox/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - HRMS
-- HR
 - Human Resources
 - Payroll
 - Recruitment

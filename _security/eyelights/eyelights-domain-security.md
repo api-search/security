@@ -35,7 +35,7 @@ tags:
 - Head-Up Display
 - Wearables
 - Hardware
-- Motorcycle
+- Motorcycles
 - Aviation
 - Navigation
 - Consumer Electronics

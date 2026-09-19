@@ -177,4 +177,5 @@ tags:
 - SAML
 - Passwordless
 - Open-Source
+- Identity Federation
 ---

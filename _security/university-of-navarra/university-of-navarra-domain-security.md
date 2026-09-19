@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-navarra-revistas-oai-pmh-openapi.yml
+- filename: university-of-navarra-harvesting-api-openapi.yml
   format: yaml
-  label: Revistas Cientificas OAI-PMH (Servicio de Publicaciones)
-  slug: revistas-oai-pmh
+  label: University of Navarra Harvesting API
+  slug: university-of-navarra-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-revistas-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-harvesting-api-openapi.yml
 description: ''
 domains:
 - caa: []

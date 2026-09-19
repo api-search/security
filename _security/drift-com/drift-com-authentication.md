@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-playbooks-api-openapi.yml
 - filename: drift-com-scim-api-api-openapi.yml
   format: yaml
-  label: Drift SCIM API API
+  label: Drift SCIM API
   slug: drift-com-scim-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-scim-api-api-openapi.yml

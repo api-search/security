@@ -42,12 +42,6 @@ api_specs:
   slug: monetizenow-credit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-credit-api-openapi.yml
-- filename: monetizenow-creditnote-api-openapi.yml
-  format: yaml
-  label: MonetizeNow Credit Note API
-  slug: monetizenow-creditnote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-creditnote-api-openapi.yml
 - filename: monetizenow-invoice-api-openapi.yml
   format: yaml
   label: MonetizeNow Invoice API
@@ -78,12 +72,6 @@ api_specs:
   slug: monetizenow-payment-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-payment-gateway-api-openapi.yml
-- filename: monetizenow-paymentmethod-api-openapi.yml
-  format: yaml
-  label: MonetizeNow Payment Method API
-  slug: monetizenow-paymentmethod-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-paymentmethod-api-openapi.yml
 - filename: monetizenow-price-uplift-configuration-api-openapi.yml
   format: yaml
   label: MonetizeNow Price Uplift Configuration API
@@ -126,6 +114,18 @@ api_specs:
   slug: monetizenow-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-usage-api-openapi.yml
+- filename: monetizenow-credit-note-api-openapi.yml
+  format: yaml
+  label: MonetizeNow Credit Note API
+  slug: monetizenow-credit-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-credit-note-api-openapi.yml
+- filename: monetizenow-payment-method-api-openapi.yml
+  format: yaml
+  label: MonetizeNow Payment Method API
+  slug: monetizenow-payment-method-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-payment-method-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II

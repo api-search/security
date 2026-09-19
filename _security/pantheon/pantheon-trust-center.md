@@ -35,6 +35,6 @@ tags:
 - DevOps
 - Deployment
 - Sites
-- Environments
+- Environment
 trust_url: https://pantheon.io/security
 ---

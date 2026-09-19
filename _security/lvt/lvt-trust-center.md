@@ -30,12 +30,6 @@ api_specs:
   slug: lvt-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-media-api-openapi.yml
-- filename: lvt-publickeys-api-openapi.yml
-  format: yaml
-  label: LVT Public Keys API
-  slug: lvt-publickeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-publickeys-api-openapi.yml
 - filename: lvt-streams-api-openapi.yml
   format: yaml
   label: LVT Streams API
@@ -54,6 +48,12 @@ api_specs:
   slug: lvt-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-webhooks-api-openapi.yml
+- filename: lvt-public-keys-api-openapi.yml
+  format: yaml
+  label: LVT Public Keys API
+  slug: lvt-public-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-public-keys-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

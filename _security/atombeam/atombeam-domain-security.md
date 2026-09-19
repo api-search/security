@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Data Compression
-- Internet of Things
+- IoT
 - Edge Computing
 - Satellite Communications
 - Machine-Learning

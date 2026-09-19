@@ -140,12 +140,6 @@ api_specs:
   slug: mux-com-playback-restrictions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-playback-restrictions-api-openapi.yml
-- filename: mux-com-real-time-api-openapi.yml
-  format: yaml
-  label: Mux Real-Time API
-  slug: mux-com-real-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-real-time-api-openapi.yml
 - filename: mux-com-signing-keys-api-openapi.yml
   format: yaml
   label: Mux Signing Keys API
@@ -220,10 +214,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-playback-ids-api-openapi.yml
 - filename: mux-com-mux-api-api-openapi.yml
   format: yaml
-  label: Mux Mux API
+  label: Mux API
   slug: mux-com-mux-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-mux-api-api-openapi.yml
+- filename: mux-com-realtime-api-openapi.yml
+  format: yaml
+  label: Mux Realtime API
+  slug: mux-com-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-realtime-api-openapi.yml
 auth_types:
 - http
 description: ''

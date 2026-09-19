@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Brands
-- Logos
+- Logo
 - Brand Assets
 - Company Data
 - Firmographics

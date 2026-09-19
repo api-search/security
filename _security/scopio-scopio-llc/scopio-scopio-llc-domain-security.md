@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Scopio Scopio Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Scopio, Scopio LLC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Scopio, Scopio LLC
+overview: 'Domain security posture for Scopio, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Scopio
 provider_slug: scopio-scopio-llc
 slug: scopio-scopio-llc-domain-security
 source_filename: scopio-scopio-llc-domain-security.yml

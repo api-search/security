@@ -49,7 +49,7 @@ tags:
 - Company
 - Travel
 - Trip Planning
-- Mobile Apps
+- Mobile App
 - Consumer
 - Defunct
 ---

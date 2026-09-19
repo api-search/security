@@ -35,7 +35,6 @@ tags:
 - Health
 - Healthcare
 - Telehealth
-- Telemedicine
 - Virtual Care
 - EHR Integration
 ---

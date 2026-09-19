@@ -215,7 +215,7 @@ tags:
 - Market Data
 - Real-Time
 - Historical Data
-- Equities
+- Stocks
 - Options
 - Futures
 - Crypto

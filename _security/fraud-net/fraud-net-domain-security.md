@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: fraud-net-public-apis-openapi.json
-  format: json
-  label: Fraud.net Public API
-  slug: public-api
+- filename: fraud-net-banking-fintech-api-openapi.yml
+  format: yaml
+  label: Fraud.net Banking / Fintech API
+  slug: fraud-net-banking-fintech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-public-apis-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-banking-fintech-api-openapi.yml
+- filename: fraud-net-commerce-api-openapi.yml
+  format: yaml
+  label: Fraud.net Commerce API
+  slug: fraud-net-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-commerce-api-openapi.yml
+- filename: fraud-net-identity-api-openapi.yml
+  format: yaml
+  label: Fraud.net Identity API
+  slug: fraud-net-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/openapi/fraud-net-identity-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,5 +70,5 @@ tags:
 - Compliance
 - Identity
 - Banking
-- Machine Learning
+- Machine-Learning
 ---

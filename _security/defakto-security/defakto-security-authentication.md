@@ -88,4 +88,6 @@ tags:
 - gRPC
 - Machine Identity
 - Agentic AI
+- Developer Tools
+- Identity Federation
 ---

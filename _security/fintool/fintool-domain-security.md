@@ -37,5 +37,5 @@ tags:
 - Investment Research
 - SEC Filings
 - Fintech
-- Large Language Models
+- LLM
 ---

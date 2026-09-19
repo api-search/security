@@ -2,12 +2,42 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: tongji-reference-metadata-openapi.yml
+- filename: tongji-ai-services-api-openapi.yml
   format: yaml
-  label: Tongji University Open Platform
-  slug: open-platform
+  label: Tongji University AI Services API
+  slug: tongji-ai-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-reference-metadata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-ai-services-api-openapi.yml
+- filename: tongji-assets-and-procurement-api-openapi.yml
+  format: yaml
+  label: Tongji University Assets and Procurement API
+  slug: tongji-assets-and-procurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-assets-and-procurement-api-openapi.yml
+- filename: tongji-education-data-verification-api-openapi.yml
+  format: yaml
+  label: Tongji University Education Data Verification API
+  slug: tongji-education-data-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-education-data-verification-api-openapi.yml
+- filename: tongji-library-api-openapi.yml
+  format: yaml
+  label: Tongji University Library API
+  slug: tongji-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-library-api-openapi.yml
+- filename: tongji-reference-metadata-api-openapi.yml
+  format: yaml
+  label: Tongji University Reference Metadata API
+  slug: tongji-reference-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-reference-metadata-api-openapi.yml
+- filename: tongji-research-api-openapi.yml
+  format: yaml
+  label: Tongji University Research API
+  slug: tongji-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-research-api-openapi.yml
 auth_types:
 - none
 - oauth2

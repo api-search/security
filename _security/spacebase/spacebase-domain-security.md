@@ -36,5 +36,5 @@ tags:
 - Co-Working
 - Workspace Booking
 - Venue Marketplace
-- Bookings
+- Booking
 ---

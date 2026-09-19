@@ -75,8 +75,8 @@ tags:
 - Financial Data
 - Investing
 - Pre-IPO
-- Secondary Markets
-- Valuations
+- Secondary Market
+- Valuation
 - Fintech
 - MCP
 ---

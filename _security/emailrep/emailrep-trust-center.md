@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: emailrep-reports-api-openapi.yml
+- filename: emailrep-query-email-address-api-openapi.yml
   format: yaml
-  label: EmailRep Reports API
-  slug: emailrep-reports-api
+  label: EmailRep Query email address API
+  slug: emailrep-query-email-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-reports-api-openapi.yml
-- filename: emailrep-reputation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-query-email-address-api-openapi.yml
+- filename: emailrep-report-email-address-api-openapi.yml
   format: yaml
-  label: EmailRep Reputation API
-  slug: emailrep-reputation-api
+  label: EmailRep Report email address API
+  slug: emailrep-report-email-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-reputation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/openapi/emailrep-report-email-address-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

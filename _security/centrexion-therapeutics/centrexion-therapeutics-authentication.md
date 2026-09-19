@@ -26,12 +26,6 @@ api_specs:
   slug: centrexion-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/centrexion-therapeutics/refs/heads/main/openapi/centrexion-therapeutics-media-api-openapi.yml
-- filename: centrexion-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Centrexion Therapeutics Oembed API
-  slug: centrexion-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centrexion-therapeutics/refs/heads/main/openapi/centrexion-therapeutics-oembed-api-openapi.yml
 - filename: centrexion-therapeutics-pages-api-openapi.yml
   format: yaml
   label: Centrexion Therapeutics Pages API
@@ -62,6 +56,12 @@ api_specs:
   slug: centrexion-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/centrexion-therapeutics/refs/heads/main/openapi/centrexion-therapeutics-taxonomy-api-openapi.yml
+- filename: centrexion-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Centrexion Therapeutics o Embed API
+  slug: centrexion-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centrexion-therapeutics/refs/heads/main/openapi/centrexion-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

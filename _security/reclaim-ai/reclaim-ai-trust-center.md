@@ -282,18 +282,6 @@ api_specs:
   slug: reclaim-ai-oauth-2-0-client-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-oauth-2-0-client-management-api-openapi.yml
-- filename: reclaim-ai-oauth-api-openapi.yml
-  format: yaml
-  label: Reclaim.ai Oauth API
-  slug: reclaim-ai-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-oauth-api-openapi.yml
-- filename: reclaim-ai-oauth2-api-openapi.yml
-  format: yaml
-  label: Reclaim.ai Oauth2 API
-  slug: reclaim-ai-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-oauth2-api-openapi.yml
 - filename: reclaim-ai-ok-api-openapi.yml
   format: yaml
   label: Reclaim.ai Ok API
@@ -498,6 +486,18 @@ api_specs:
   slug: reclaim-ai-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-well-known-api-openapi.yml
+- filename: reclaim-ai-oauth-api-openapi.yml
+  format: yaml
+  label: Reclaim.ai OAUTH API
+  slug: reclaim-ai-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-oauth-api-openapi.yml
+- filename: reclaim-ai-oauth2-api-openapi.yml
+  format: yaml
+  label: Reclaim.ai Oauth2 API
+  slug: reclaim-ai-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/openapi/reclaim-ai-oauth2-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

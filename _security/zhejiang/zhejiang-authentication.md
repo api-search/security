@@ -48,7 +48,7 @@ tags:
 - C9 League
 - Double First-Class
 - Identity Federation
-- Single Sign-On
+- SSO
 - Open Source Mirror
 - Library
 ---

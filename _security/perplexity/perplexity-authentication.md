@@ -83,5 +83,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/perplexity-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/perplexity-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/authentication/perplexity-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Artificial Intelligence
+- LLM
+- Search
+- Agents
+- Embeddings
+- Research
 ---

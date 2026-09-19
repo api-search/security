@@ -58,5 +58,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bluebeam-studio-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authserver.bluebeam.com/auth/oauth/authorize\n    tokenUrl: https://authserver.bluebeam.com/auth/oauth/token\n    scopes: 3\n  sources:\n  - openapi/bluebeam-studio-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/authentication/bluebeam-authentication.yml
 summary_line: oauth2 · 1 scheme
-tags: []
+tags:
+- Construction
+- PDF
+- Project Management
+- Documents
 ---

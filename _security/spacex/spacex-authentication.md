@@ -120,8 +120,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Space
-- Launch
-- Satellites
+- Launches
+- Satellite
 - Starlink
 - Falcon 9
 - Falcon Heavy

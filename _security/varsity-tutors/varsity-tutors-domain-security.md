@@ -40,6 +40,6 @@ tags:
 - K-12
 - Live Classes
 - Rostering
-- Single Sign-On
+- SSO
 - Artificial Intelligence
 ---

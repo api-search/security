@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-careers-api-openapi.yml
 - filename: compresr-compresr-platform-api-api-openapi.yml
   format: yaml
-  label: Compresr Compresr Platform API API
+  label: Compresr Platform API
   slug: compresr-compresr-platform-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-compresr-platform-api-api-openapi.yml
@@ -114,12 +114,6 @@ api_specs:
   slug: compresr-newsletter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-newsletter-api-openapi.yml
-- filename: compresr-oauth-api-openapi.yml
-  format: yaml
-  label: Compresr OAuth API
-  slug: compresr-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-oauth-api-openapi.yml
 - filename: compresr-oauth-authorization-api-openapi.yml
   format: yaml
   label: Compresr OAuth Authorization API
@@ -162,6 +156,12 @@ api_specs:
   slug: compresr-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-usage-api-openapi.yml
+- filename: compresr-oauth-api-openapi.yml
+  format: yaml
+  label: Compresr O Auth API
+  slug: compresr-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

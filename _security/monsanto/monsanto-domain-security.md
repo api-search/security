@@ -30,6 +30,6 @@ tags:
 - Agriculture
 - Biotechnology
 - Crop Science
-- Seeds
+- Seed
 - Fortune 500
 ---

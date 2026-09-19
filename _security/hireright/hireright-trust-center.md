@@ -27,6 +27,5 @@ tags:
 - Human Resources
 - Compliance
 - Employment
-- HR Tech
 trust_url: https://trust.hireright.com/
 ---

@@ -56,7 +56,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - HTTP
-- HTTPS
 - Debugging
 - Proxy
 - Interception

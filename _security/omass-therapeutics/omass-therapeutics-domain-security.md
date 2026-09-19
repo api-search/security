@@ -37,5 +37,5 @@ tags:
 - Drug Discovery
 - Mass Spectrometry
 - Immunology
-- Rare Diseases
+- Rare Disease
 ---

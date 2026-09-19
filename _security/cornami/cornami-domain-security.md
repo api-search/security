@@ -36,6 +36,6 @@ tags:
 - High Performance Computing
 - Fully Homomorphic Encryption
 - Confidential Computing
-- AI Accelerator
+- AI Accelerators
 - Privacy Preserving Machine Learning
 ---

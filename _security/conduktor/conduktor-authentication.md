@@ -83,5 +83,5 @@ tags:
 - Streaming
 - Data Governance
 - Kafka Management
-- Gateway
+- Gateways
 ---

@@ -36,7 +36,7 @@ tags:
 - Electric Vehicles
 - Charging Infrastructure
 - Energy
-- Internet of Things
+- IoT
 - Embedded Systems
 - Mobility
 ---

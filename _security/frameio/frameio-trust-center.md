@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: frameio-account-permissions-api-openapi.yml
-  format: yaml
-  label: Frame.io Account Permissions API
-  slug: frameio-account-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/openapi/frameio-account-permissions-api-openapi.yml
 - filename: frameio-accounts-api-openapi.yml
   format: yaml
   label: Frame.io Accounts API
@@ -120,6 +114,12 @@ api_specs:
   slug: frameio-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/openapi/frameio-workspaces-api-openapi.yml
+- filename: frameio-accountpermissions-api-openapi.yml
+  format: yaml
+  label: Frame.io Accountpermissions API
+  slug: frameio-accountpermissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/openapi/frameio-accountpermissions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

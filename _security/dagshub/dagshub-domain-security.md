@@ -18,12 +18,6 @@ api_specs:
   slug: dagshub-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-orgs-api-openapi.yml
-- filename: dagshub-pullrequests-api-openapi.yml
-  format: yaml
-  label: DagsHub PullRequests API
-  slug: dagshub-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pullrequests-api-openapi.yml
 - filename: dagshub-repos-api-openapi.yml
   format: yaml
   label: DagsHub Repos API
@@ -48,6 +42,12 @@ api_specs:
   slug: dagshub-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-users-api-openapi.yml
+- filename: dagshub-pull-requests-api-openapi.yml
+  format: yaml
+  label: DagsHub Pull Requests API
+  slug: dagshub-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pull-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/security/dagshub-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- ML
+- Machine-Learning
 - MLOps
 - Data Versioning
 - Git

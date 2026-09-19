@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: 1token-1ndex-openapi.yml
+- filename: 1token-public-api-openapi.yml
   format: yaml
-  label: 1Token 1ndex Public Strategy Overview API
-  slug: 1token-1ndex-public-strategy-overview-api
+  label: 1Token Public API
+  slug: 1token-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/openapi/1token-1ndex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/openapi/1token-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +43,7 @@ summary_line: TLSv1.3
 tags:
 - Digital Assets
 - Crypto
-- Portfolio Management
+- Portfolio-Management
 - Risk Management
 - Fund Administration
 - Reconciliation

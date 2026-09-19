@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Tradebook
 - Electronic Trading
-- Equities
+- Stocks
 - Futures
 - Options
 - FX

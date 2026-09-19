@@ -105,12 +105,12 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: https://drinkol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/authentication/olipop-authentication.yml
 summary_line: none/apiKey/oauth2/openIdConnect/agent-profile · 5 schemes
 tags:
-- Beverage
+- Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - GraphQL

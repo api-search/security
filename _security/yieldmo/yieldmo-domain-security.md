@@ -118,7 +118,6 @@ tags:
 - Contextual Targeting
 - Ad Formats
 - Supply Side Platform
-- SSP
 - Campaign Reporting
 - Attention Analytics
 - MCP

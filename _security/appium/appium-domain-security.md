@@ -14,13 +14,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-alerts-api-openapi.yml
 - filename: appium-appium-device-api-openapi.yml
   format: yaml
-  label: Appium Appium Device API
+  label: Appium Device API
   slug: appium-appium-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-appium-device-api-openapi.yml
 - filename: appium-appium-session-api-openapi.yml
   format: yaml
-  label: Appium Appium Session API
+  label: Appium Session API
   slug: appium-appium-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-appium-session-api-openapi.yml

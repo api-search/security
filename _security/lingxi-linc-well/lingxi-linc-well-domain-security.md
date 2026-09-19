@@ -36,7 +36,6 @@ tags:
 - Healthcare
 - Health Technology
 - Telehealth
-- Telemedicine
 - Digital Health
 - Clinics
 - Pharmacy

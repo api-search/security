@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: openapi
-  format: yaml
-  label: USGS Water Data APIs
-  slug: water-data-ogc-api
-  spec_type: OpenAPI
-  url: https://api.waterdata.usgs.gov/ogcapi/v0/openapi
 - filename: u-s-geological-survey-catalog-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Catalog API
@@ -252,6 +246,12 @@ api_specs:
   slug: u-s-geological-survey-topographic-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-topographic-codes-api-openapi.yml
+- filename: u-s-geological-survey-collections-api-openapi.yml
+  format: yaml
+  label: U.S. Geological Survey Collections API
+  slug: u-s-geological-survey-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-collections-api-openapi.yml
 description: ''
 domains:
 - caa: []

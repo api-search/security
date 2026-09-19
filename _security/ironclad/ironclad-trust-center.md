@@ -98,7 +98,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - LegalOps

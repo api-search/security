@@ -35,7 +35,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-subnets-api-openapi.yml
 - filename: amazon-vpc-vpcs-api-openapi.yml
   format: yaml
-  label: Amazon VPC VPCs API
+  label: Amazon VPC VP Cs API
   slug: amazon-vpc-vpcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-vpcs-api-openapi.yml

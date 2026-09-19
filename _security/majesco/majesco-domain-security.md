@@ -33,10 +33,10 @@ domains:
   domain: majesco.com
   spf: true
 hosts:
-- cert_expires: Sep 12 05:40:00 2026 GMT
+- cert_expires: Mar  2 16:04:32 2027 GMT
   host: www.majesco.com
   hsts: true
-  hsts_max_age: 31536000
+  hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -52,8 +52,18 @@ slug: majesco-domain-security
 source_filename: majesco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.majesco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 05:40:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: majesco.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.majesco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 16:04:32 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: majesco.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/security/majesco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
-tags: []
+tags:
+- Insurance
+- Insurtech
+- Policy Administration
+- Claims
+- Billing
+- Underwriting
+- Life and Annuity
+- Property and Casualty
+- Absence Management
+- Enterprise Software
 ---

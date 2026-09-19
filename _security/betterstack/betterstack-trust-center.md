@@ -55,6 +55,6 @@ tags:
 - On-Call
 - Error Tracking
 - OpenTelemetry
-- Model Context Protocol
+- MCP
 trust_url: https://betterstack.com/security
 ---

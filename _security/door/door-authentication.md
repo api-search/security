@@ -92,7 +92,7 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
 - Access Control
-- Smart Building
+- Smart Buildings
 - PropTech
 - Physical Security
 - IoT

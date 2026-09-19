@@ -105,9 +105,9 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Agents
-- Sandboxes
+- Sandbox
 - VMs
-- MicroVMs
+- MicroVM
 - Git
 - Code Execution
 - JavaScript

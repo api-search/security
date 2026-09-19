@@ -6,12 +6,6 @@ api_specs:
   slug: bloomreach-autosuggest-api-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-autosuggest-api-v2-api-openapi.yml
-- filename: bloomreach-bestseller-api-v1-api-openapi.yml
-  format: yaml
-  label: Bloomreach Bestseller API v1 API
-  slug: bloomreach-bestseller-api-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-bestseller-api-v1-api-openapi.yml
 - filename: bloomreach-catalog-configuration-api-openapi.yml
   format: yaml
   label: Bloomreach Catalog configuration API
@@ -30,12 +24,6 @@ api_specs:
   slug: bloomreach-category-based-widget-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-category-based-widget-products-api-openapi.yml
-- filename: bloomreach-content-search-api-v1-api-openapi.yml
-  format: yaml
-  label: Bloomreach Content Search API v1 API
-  slug: bloomreach-content-search-api-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-content-search-api-v1-api-openapi.yml
 - filename: bloomreach-feed-indexing-api-openapi.yml
   format: yaml
   label: Bloomreach Feed indexing API
@@ -108,12 +96,6 @@ api_specs:
   slug: bloomreach-personalization-based-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-personalization-based-widgets-api-openapi.yml
-- filename: bloomreach-product-category-search-api-v1-api-openapi.yml
-  format: yaml
-  label: Bloomreach Product & Category Search API v1 API
-  slug: bloomreach-product-category-search-api-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/openapi/bloomreach-product-category-search-api-v1-api-openapi.yml
 - filename: bloomreach-view-catalogs-data-api-openapi.yml
   format: yaml
   label: Bloomreach View Catalogs data API

@@ -47,7 +47,7 @@ tags:
 - Image-Generation
 - Generative AI
 - Creative Tools
-- Brand
+- Brands
 - Machine-Learning
 - Media
 ---

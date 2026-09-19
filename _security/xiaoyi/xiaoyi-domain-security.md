@@ -35,6 +35,6 @@ tags:
 - Camera
 - Smart Home
 - Consumer Electronics
-- Internet of Things
+- IoT
 - China
 ---

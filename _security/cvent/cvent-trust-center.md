@@ -18,30 +18,12 @@ api_specs:
   slug: cvent-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-events-api-openapi.yml
-- filename: cvent-exhibitors-api-openapi.yml
-  format: yaml
-  label: Cvent Exhibitors API
-  slug: cvent-exhibitors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-exhibitors-api-openapi.yml
-- filename: cvent-oauth-api-openapi.yml
-  format: yaml
-  label: Cvent OAuth API
-  slug: cvent-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-oauth-api-openapi.yml
 - filename: cvent-sessions-api-openapi.yml
   format: yaml
   label: Cvent Sessions API
   slug: cvent-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-sessions-api-openapi.yml
-- filename: cvent-webhooks-api-openapi.yml
-  format: yaml
-  label: Cvent Webhooks API
-  slug: cvent-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-webhooks-api-openapi.yml
 - filename: cvent-appointments-api-openapi.yml
   format: yaml
   label: Cvent Appointments API
@@ -156,12 +138,6 @@ api_specs:
   slug: cvent-event-travel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-event-travel-api-openapi.yml
-- filename: cvent-events-plus-hub-api-openapi.yml
-  format: yaml
-  label: Cvent Events+ Hub API
-  slug: cvent-events-plus-hub-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-events-plus-hub-api-openapi.yml
 - filename: cvent-exhibitor-content-api-openapi.yml
   format: yaml
   label: Cvent Exhibitor Content API
@@ -336,6 +312,30 @@ api_specs:
   slug: cvent-webcasts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-webcasts-api-openapi.yml
+- filename: cvent-authentication-api-openapi.yml
+  format: yaml
+  label: Cvent Authentication API
+  slug: cvent-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-authentication-api-openapi.yml
+- filename: cvent-events-hub-api-openapi.yml
+  format: yaml
+  label: Cvent Events+ Hub API
+  slug: cvent-events-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-events-hub-api-openapi.yml
+- filename: cvent-exhibitor-api-openapi.yml
+  format: yaml
+  label: Cvent Exhibitor API
+  slug: cvent-exhibitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-exhibitor-api-openapi.yml
+- filename: cvent-hooks-api-openapi.yml
+  format: yaml
+  label: Cvent Hooks API
+  slug: cvent-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/openapi/cvent-hooks-api-openapi.yml
 certification_count: 7
 certifications:
 - ISO 27001
@@ -375,7 +375,7 @@ tags:
 - Hybrid Events
 - Meetings
 - Authentication
-- Passkey
+- Passkeys
 - Registration
 - REST API
 - SOAP API
@@ -387,5 +387,6 @@ tags:
 - Virtual Events
 - Webhook
 - White Label
+- Identity Federation
 trust_url: https://trust.cvent.com/
 ---

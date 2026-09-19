@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-secrets-api-openapi.yml
 - filename: sponge-sponge-card-api-openapi.yml
   format: yaml
-  label: Sponge Sponge Card API
+  label: Sponge Card API
   slug: sponge-sponge-card-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-sponge-card-api-openapi.yml

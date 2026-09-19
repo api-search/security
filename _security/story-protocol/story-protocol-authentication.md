@@ -21,12 +21,6 @@ api_specs:
   slug: story-protocol-ipassets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/story-protocol/refs/heads/main/openapi/story-protocol-ipassets-api-openapi.yml
-- filename: story-protocol-ipgroup-api-openapi.yml
-  format: yaml
-  label: Story Protocol IPGroup API
-  slug: story-protocol-ipgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/story-protocol/refs/heads/main/openapi/story-protocol-ipgroup-api-openapi.yml
 - filename: story-protocol-iplicenseterms-api-openapi.yml
   format: yaml
   label: Story Protocol IPLicenseTerms API
@@ -81,6 +75,12 @@ api_specs:
   slug: story-protocol-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/story-protocol/refs/heads/main/openapi/story-protocol-transactions-api-openapi.yml
+- filename: story-protocol-ip-group-api-openapi.yml
+  format: yaml
+  label: Story Protocol IP Group API
+  slug: story-protocol-ip-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/story-protocol/refs/heads/main/openapi/story-protocol-ip-group-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -30,7 +30,7 @@ tags:
 - AI Agents
 - SCIM
 - Identity Provisioning
-- Single Sign-On
+- SSO
 - Interactive Demos
 - Product Tours
 trust_url: https://trust.saleo.io/

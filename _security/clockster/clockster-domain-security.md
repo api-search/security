@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clockster/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HR
+- Human Resources
 - Workforce Management
 - Time Tracking
 - Attendance

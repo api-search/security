@@ -183,12 +183,6 @@ api_specs:
   slug: rwth-aachen-university-resourcegraphcontent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resourcegraphcontent-api-openapi.yml
-- filename: rwth-aachen-university-resourcetype-api-openapi.yml
-  format: yaml
-  label: RWTH Aachen University ResourceType API
-  slug: rwth-aachen-university-resourcetype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resourcetype-api-openapi.yml
 - filename: rwth-aachen-university-resourcetypegitlab-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ResourceTypeGitLab API
@@ -213,12 +207,6 @@ api_specs:
   slug: rwth-aachen-university-self-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-self-api-openapi.yml
-- filename: rwth-aachen-university-selfapitoken-api-openapi.yml
-  format: yaml
-  label: RWTH Aachen University SelfApiToken API
-  slug: rwth-aachen-university-selfapitoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-selfapitoken-api-openapi.yml
 - filename: rwth-aachen-university-selfsession-api-openapi.yml
   format: yaml
   label: RWTH Aachen University SelfSession API
@@ -237,12 +225,6 @@ api_specs:
   slug: rwth-aachen-university-storagecontent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-storagecontent-api-openapi.yml
-- filename: rwth-aachen-university-systemstatus-api-openapi.yml
-  format: yaml
-  label: RWTH Aachen University SystemStatus API
-  slug: rwth-aachen-university-systemstatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-systemstatus-api-openapi.yml
 - filename: rwth-aachen-university-title-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Title API
@@ -285,6 +267,24 @@ api_specs:
   slug: rwth-aachen-university-vocabulary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-vocabulary-api-openapi.yml
+- filename: rwth-aachen-university-resource-type-api-openapi.yml
+  format: yaml
+  label: RWTH Aachen University Resource Type API
+  slug: rwth-aachen-university-resource-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resource-type-api-openapi.yml
+- filename: rwth-aachen-university-self-api-token-api-openapi.yml
+  format: yaml
+  label: RWTH Aachen University Self API Token API
+  slug: rwth-aachen-university-self-api-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-self-api-token-api-openapi.yml
+- filename: rwth-aachen-university-system-status-api-openapi.yml
+  format: yaml
+  label: RWTH Aachen University System Status API
+  slug: rwth-aachen-university-system-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-system-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

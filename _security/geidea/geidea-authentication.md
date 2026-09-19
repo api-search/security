@@ -10,7 +10,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-checkout-api-openapi.yml
 - filename: geidea-direct-api-api-openapi.yml
   format: yaml
-  label: Geidea Direct API API
+  label: Geidea Direct API
   slug: geidea-direct-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-direct-api-api-openapi.yml

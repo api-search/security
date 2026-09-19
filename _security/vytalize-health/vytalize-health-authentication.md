@@ -47,7 +47,7 @@ summary_line: openIdConnect · 1 scheme
 tags:
 - Company
 - Healthcare
-- Value Based Care
+- Value-Based Care
 - Accountable Care Organization
 - Medicare
 - Population Health

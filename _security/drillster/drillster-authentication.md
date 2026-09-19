@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://www.dri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/authentication/drillster-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Assessments
+- Assessment
 - Education
 - Learning
 - Quizzes
@@ -60,5 +60,5 @@ tags:
 - LMS
 - Adaptive Learning
 - Compliance Training
-- Webhooks
+- Webhook
 ---

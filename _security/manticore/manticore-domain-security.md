@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-index-api-openapi.yml
 - filename: manticore-search-api-openapi.yml
   format: yaml
-  label: Manticore Search Search API
+  label: Manticore Search API
   slug: manticore-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-search-api-openapi.yml

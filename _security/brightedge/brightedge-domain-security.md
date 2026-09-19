@@ -48,12 +48,6 @@ api_specs:
   slug: brightedge-chrome-extension-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-chrome-extension-api-openapi.yml
-- filename: brightedge-chromeextension-api-openapi.yml
-  format: yaml
-  label: BrightEdge chromeextension API
-  slug: brightedge-chromeextension-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-chromeextension-api-openapi.yml
 - filename: brightedge-core-api-openapi.yml
   format: yaml
   label: BrightEdge core API

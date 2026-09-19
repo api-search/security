@@ -26,6 +26,30 @@ api_specs:
   slug: azure-container-registry-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-webhooks-api-openapi.yml
+- filename: azure-container-registry-blobs-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Blobs API
+  slug: microsoft-azure-container-registry-blobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-blobs-api-openapi.yml
+- filename: azure-container-registry-manifests-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Manifests API
+  slug: microsoft-azure-container-registry-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-manifests-api-openapi.yml
+- filename: azure-container-registry-repositories-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Repositories API
+  slug: microsoft-azure-container-registry-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-repositories-api-openapi.yml
+- filename: azure-container-registry-tags-api-openapi.yml
+  format: yaml
+  label: Azure Container Registry Tags API
+  slug: microsoft-azure-container-registry-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-tags-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

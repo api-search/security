@@ -53,5 +53,5 @@ tags:
 - Code Editing
 - Fast Apply
 - Embeddings
-- Sandboxes
+- Sandbox
 ---

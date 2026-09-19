@@ -6,12 +6,6 @@ api_specs:
   slug: saxo-account-values-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-account-values-api-openapi.yml
-- filename: saxo-accountgroups-api-openapi.yml
-  format: yaml
-  label: Saxo Bank AccountGroups API
-  slug: saxo-accountgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-accountgroups-api-openapi.yml
 - filename: saxo-accounts-api-openapi.yml
   format: yaml
   label: Saxo Bank Accounts API
@@ -96,12 +90,6 @@ api_specs:
   slug: saxo-client-renewals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-client-renewals-api-openapi.yml
-- filename: saxo-clientinfo-api-openapi.yml
-  format: yaml
-  label: Saxo Bank ClientInfo API
-  slug: saxo-clientinfo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-clientinfo-api-openapi.yml
 - filename: saxo-clients-api-openapi.yml
   format: yaml
   label: Saxo Bank Clients API
@@ -474,6 +462,18 @@ api_specs:
   slug: saxo-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-users-api-openapi.yml
+- filename: saxo-account-groups-api-openapi.yml
+  format: yaml
+  label: Saxo Bank Account Groups API
+  slug: saxo-account-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-account-groups-api-openapi.yml
+- filename: saxo-client-info-api-openapi.yml
+  format: yaml
+  label: Saxo Bank Client Info API
+  slug: saxo-client-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/saxo-client-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -530,7 +530,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Investment Banking
 - Trading
-- Equities
+- Stocks
 - Forex
 - Options
 - Futures

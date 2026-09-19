@@ -150,12 +150,6 @@ api_specs:
   slug: extole-javascript-core-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-javascript-core-extensions-api-openapi.yml
-- filename: extole-optout-api-openapi.yml
-  format: yaml
-  label: Extole Optout API
-  slug: extole-optout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-optout-api-openapi.yml
 - filename: extole-persons-api-openapi.yml
   format: yaml
   label: Extole Persons API
@@ -264,6 +258,12 @@ api_specs:
   slug: extole-zone-rendering-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-zone-rendering-api-openapi.yml
+- filename: extole-opt-out-api-openapi.yml
+  format: yaml
+  label: Extole opt Out API
+  slug: extole-opt-out-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/openapi/extole-opt-out-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001

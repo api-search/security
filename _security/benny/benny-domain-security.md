@@ -29,7 +29,7 @@ tags:
 - Company
 - Fintech
 - Financial-Services
-- Startup
+- Startups
 - Venture Backed
 - Matrix Partners
 ---

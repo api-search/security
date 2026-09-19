@@ -392,6 +392,30 @@ api_specs:
   slug: linkedin-user-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-user-streaming-api-openapi.yml
+- filename: linkedin-adaccountusers-api-openapi.yml
+  format: yaml
+  label: Microsoft LinkedIn AdAccountUsers API
+  slug: microsoft-linkedin-adaccountusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-adaccountusers-api-openapi.yml
+- filename: linkedin-ad-campaign-groups-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Campaign Groups API
+  slug: linkedin-ad-campaign-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-ad-campaign-groups-api-openapi.yml
+- filename: linkedin-ad-campaigns-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Campaigns API
+  slug: linkedin-ad-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-ad-campaigns-api-openapi.yml
+- filename: linkedin-ad-creatives-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Creatives API
+  slug: linkedin-ad-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-ad-creatives-api-openapi.yml
 auth_types:
 - http
 - oauth2

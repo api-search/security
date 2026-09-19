@@ -3,18 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-healthomics-annotationstore-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics AnnotationStore API
-  slug: amazon-healthomics-annotationstore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-annotationstore-api-openapi.yml
-- filename: amazon-healthomics-annotationstores-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics AnnotationStores API
-  slug: amazon-healthomics-annotationstores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-annotationstores-api-openapi.yml
 - filename: amazon-healthomics-import-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Import API
@@ -39,12 +27,6 @@ api_specs:
   slug: amazon-healthomics-run-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-run-api-openapi.yml
-- filename: amazon-healthomics-rungroup-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics RunGroup API
-  slug: amazon-healthomics-rungroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-rungroup-api-openapi.yml
 - filename: amazon-healthomics-sequencestore-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Sequencestore API
@@ -63,24 +45,42 @@ api_specs:
   slug: amazon-healthomics-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-tags-api-openapi.yml
-- filename: amazon-healthomics-variantstore-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics VariantStore API
-  slug: amazon-healthomics-variantstore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-variantstore-api-openapi.yml
-- filename: amazon-healthomics-variantstores-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics VariantStores API
-  slug: amazon-healthomics-variantstores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-variantstores-api-openapi.yml
 - filename: amazon-healthomics-workflow-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Workflow API
   slug: amazon-healthomics-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-workflow-api-openapi.yml
+- filename: amazon-healthomics-annotation-store-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Annotation Store API
+  slug: amazon-healthomics-annotation-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-annotation-store-api-openapi.yml
+- filename: amazon-healthomics-annotation-stores-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Annotation Stores API
+  slug: amazon-healthomics-annotation-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-annotation-stores-api-openapi.yml
+- filename: amazon-healthomics-run-group-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Run Group API
+  slug: amazon-healthomics-run-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-run-group-api-openapi.yml
+- filename: amazon-healthomics-variant-store-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Variant Store API
+  slug: amazon-healthomics-variant-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-variant-store-api-openapi.yml
+- filename: amazon-healthomics-variant-stores-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Variant Stores API
+  slug: amazon-healthomics-variant-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-variant-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

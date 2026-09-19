@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail Technology
-- Convenience Store
+- Convenience Stores
 - Scan Data
 - Loyalty
 - Point-of-Sale

@@ -26,12 +26,6 @@ api_specs:
   slug: jenavalve-technology-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/openapi/jenavalve-technology-media-api-openapi.yml
-- filename: jenavalve-technology-oembed-api-openapi.yml
-  format: yaml
-  label: JenaValve Technology O Embed API
-  slug: jenavalve-technology-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/openapi/jenavalve-technology-oembed-api-openapi.yml
 - filename: jenavalve-technology-seo-api-openapi.yml
   format: yaml
   label: JenaValve Technology SEO API
@@ -44,6 +38,12 @@ api_specs:
   slug: jenavalve-technology-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/openapi/jenavalve-technology-taxonomy-api-openapi.yml
+- filename: jenavalve-technology-o-embed-api-openapi.yml
+  format: yaml
+  label: JenaValve Technology o Embed API
+  slug: jenavalve-technology-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/openapi/jenavalve-technology-o-embed-api-openapi.yml
 auth_types:
 - none
 - http

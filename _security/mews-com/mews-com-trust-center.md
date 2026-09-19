@@ -473,7 +473,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Hospitality
-- Hotel
+- Hotels
 - PMS
 - Property Management
 - Travel

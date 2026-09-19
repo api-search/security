@@ -304,7 +304,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cumulocity/ref
 summary_line: http · 2 schemes
 tags:
 - IoT
-- Internet of Things
 - Industrial IoT
 - AIoT
 - Device Management

@@ -39,6 +39,6 @@ tags:
 - Energy
 - Smart Charging
 - Payments
-- Nordics
+- Nordic
 - Sustainability
 ---

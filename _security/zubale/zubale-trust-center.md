@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-cancel-tasks-api-openapi.yml
 - filename: zubale-delivery-api-api-openapi.yml
   format: yaml
-  label: Zubale Delivery API API
+  label: Zubale Delivery API
   slug: zubale-delivery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-delivery-api-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
 - filename: zubale-picking-delivery-api-api-openapi.yml
   format: yaml
-  label: Zubale Picking & Delivery API API
+  label: Zubale Picking & Delivery API
   slug: zubale-picking-delivery-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-picking-delivery-api-api-openapi.yml

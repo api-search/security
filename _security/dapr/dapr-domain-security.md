@@ -60,12 +60,6 @@ api_specs:
   slug: dapr-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-secrets-api-openapi.yml
-- filename: dapr-serviceinvocation-api-openapi.yml
-  format: yaml
-  label: Dapr ServiceInvocation API
-  slug: dapr-serviceinvocation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-serviceinvocation-api-openapi.yml
 - filename: dapr-state-api-openapi.yml
   format: yaml
   label: Dapr State API
@@ -78,6 +72,12 @@ api_specs:
   slug: dapr-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-workflow-api-openapi.yml
+- filename: dapr-service-invocation-api-openapi.yml
+  format: yaml
+  label: Dapr Service Invocation API
+  slug: dapr-service-invocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-service-invocation-api-openapi.yml
 description: ''
 domains:
 - caa: []

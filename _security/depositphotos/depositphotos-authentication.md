@@ -50,7 +50,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Stock Photos
 - Image
-- Videos
+- Video
 - Vectors
 - Media
 - Creative Assets

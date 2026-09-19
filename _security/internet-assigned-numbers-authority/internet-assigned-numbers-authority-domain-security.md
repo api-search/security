@@ -47,7 +47,7 @@ tags:
 - DNS
 - IP Addressing
 - Media Types
-- Protocols
+- Protocol
 - Standards
-- Timezones
+- Timezone
 ---

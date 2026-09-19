@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-scraper-api-openapi-original.json
-  format: json
-  label: Amazon Scraper REST API
-  slug: amazon-scraper-rest-api
+- filename: amazon-scraper-api-amazon-api-openapi.yml
+  format: yaml
+  label: Amazon Scraper API Amazon API
+  slug: amazon-scraper-api-amazon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/openapi/amazon-scraper-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/openapi/amazon-scraper-api-amazon-api-openapi.yml
 description: ''
 domains:
 - caa: []

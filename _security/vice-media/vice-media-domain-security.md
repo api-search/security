@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: vice-media-wp-rest-openapi.yml
+- filename: vice-media-oembed-1-0-api-openapi.yml
   format: yaml
-  label: VICE WordPress REST API
-  slug: vice-media-wordpress-rest-api
+  label: Vice Media Oembed/1.0 API
+  slug: vice-media-oembed-1-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/_ae-authored/vice-media-wp-rest-openapi.yml
-- filename: vice-media-video-wp-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-oembed-1-0-api-openapi.yml
+- filename: vice-media-root-api-openapi.yml
   format: yaml
-  label: VICE Video WordPress REST API
-  slug: vice-media-video-wordpress-rest-api
+  label: Vice Media Root API
+  slug: vice-media-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/_ae-authored/vice-media-video-wp-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-root-api-openapi.yml
+- filename: vice-media-wp-abilities-v1-api-openapi.yml
+  format: yaml
+  label: Vice Media Wp Abilities/v1 API
+  slug: vice-media-wp-abilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-wp-abilities-v1-api-openapi.yml
+- filename: vice-media-wp-v2-api-openapi.yml
+  format: yaml
+  label: Vice Media Wp/v2 API
+  slug: vice-media-wp-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-wp-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

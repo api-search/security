@@ -44,7 +44,7 @@ tags:
 - Hardware Engineering
 - Systems Engineering
 - Requirements Management
-- Product Lifecycle Management
+- PLM
 - Collaboration
 - CAD
 - Aerospace

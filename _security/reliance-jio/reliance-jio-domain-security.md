@@ -2,13 +2,13 @@
 api_specs:
 - filename: reliance-jio-jioeventscpaasplatform-api-openapi.yml
   format: yaml
-  label: Reliance Jio Jio Events Cpaas Platform API
+  label: Reliance Jio Events Cpaas Platform API
   slug: reliance-jio-jioeventscpaasplatform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jioeventscpaasplatform-api-openapi.yml
 - filename: reliance-jio-jiomeetcpaasplatform-api-openapi.yml
   format: yaml
-  label: Reliance Jio Jio Meet Cpaas Platform API
+  label: Reliance Jio Meet Cpaas Platform API
   slug: reliance-jio-jiomeetcpaasplatform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeetcpaasplatform-api-openapi.yml

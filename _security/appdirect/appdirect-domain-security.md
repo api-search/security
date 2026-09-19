@@ -282,12 +282,6 @@ api_specs:
   slug: appdirect-payment-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-payment-methods-api-openapi.yml
-- filename: appdirect-paymentinstrument-api-openapi.yml
-  format: yaml
-  label: AppDirect PaymentInstrument API
-  slug: appdirect-paymentinstrument-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-paymentinstrument-api-openapi.yml
 - filename: appdirect-paymentplan-api-openapi.yml
   format: yaml
   label: AppDirect PaymentPlan API
@@ -308,7 +302,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-product-api-openapi.yml
 - filename: appdirect-product-management-api-api-openapi.yml
   format: yaml
-  label: AppDirect Product Management API API
+  label: AppDirect Product Management API
   slug: appdirect-product-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-product-management-api-api-openapi.yml
@@ -318,12 +312,6 @@ api_specs:
   slug: appdirect-productcontext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-productcontext-api-openapi.yml
-- filename: appdirect-purchaseorder-api-openapi.yml
-  format: yaml
-  label: AppDirect PurchaseOrder API
-  slug: appdirect-purchaseorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-purchaseorder-api-openapi.yml
 - filename: appdirect-question-api-openapi.yml
   format: yaml
   label: AppDirect Question API
@@ -384,18 +372,6 @@ api_specs:
   slug: appdirect-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-settings-api-openapi.yml
-- filename: appdirect-shoppingcart-api-openapi.yml
-  format: yaml
-  label: AppDirect ShoppingCart API
-  slug: appdirect-shoppingcart-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-shoppingcart-api-openapi.yml
-- filename: appdirect-subscriptionassignments-api-openapi.yml
-  format: yaml
-  label: AppDirect SubscriptionAssignments API
-  slug: appdirect-subscriptionassignments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-subscriptionassignments-api-openapi.yml
 - filename: appdirect-subscriptions-api-openapi.yml
   format: yaml
   label: AppDirect Subscriptions API
@@ -444,12 +420,36 @@ api_specs:
   slug: appdirect-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-user-api-openapi.yml
-- filename: appdirect-useraccounts-api-openapi.yml
+- filename: appdirect-payment-instrument-api-openapi.yml
   format: yaml
-  label: AppDirect UserAccounts API
-  slug: appdirect-useraccounts-api
+  label: AppDirect Payment Instrument API
+  slug: appdirect-payment-instrument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-useraccounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-payment-instrument-api-openapi.yml
+- filename: appdirect-purchase-order-api-openapi.yml
+  format: yaml
+  label: AppDirect Purchase Order API
+  slug: appdirect-purchase-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-purchase-order-api-openapi.yml
+- filename: appdirect-shopping-cart-api-openapi.yml
+  format: yaml
+  label: AppDirect Shopping Cart API
+  slug: appdirect-shopping-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-shopping-cart-api-openapi.yml
+- filename: appdirect-subscription-assignments-api-openapi.yml
+  format: yaml
+  label: AppDirect Subscription Assignments API
+  slug: appdirect-subscription-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-subscription-assignments-api-openapi.yml
+- filename: appdirect-user-accounts-api-openapi.yml
+  format: yaml
+  label: AppDirect User Accounts API
+  slug: appdirect-user-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-user-accounts-api-openapi.yml
 description: ''
 domains:
 - caa:

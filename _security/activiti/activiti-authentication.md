@@ -283,7 +283,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/activiti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/authentication/activiti-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- BPM
 - Business Process Management
 - Workflows
 - BPMN

@@ -58,7 +58,7 @@ summary_line: 2 schemes
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Inference
 - API Gateway
 - GPU

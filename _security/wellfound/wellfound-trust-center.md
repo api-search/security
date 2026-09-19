@@ -29,7 +29,7 @@ tags:
 - Startups
 - MCP
 - agent-native
-- OAuth
+- Authentication
 - AI Sourcing
 trust_url: ''
 ---

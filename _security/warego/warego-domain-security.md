@@ -38,7 +38,7 @@ tags:
 - Supply Chain
 - Logistics
 - 3PL
-- Ecommerce
+- E-Commerce
 - Retail
 - Wholesale Distribution
 - Manufacturing

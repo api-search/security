@@ -62,12 +62,6 @@ api_specs:
   slug: leadping-leadstatuschanges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-leadstatuschanges-api-openapi.yml
-- filename: leadping-leadstatuses-api-openapi.yml
-  format: yaml
-  label: Leadping Lead Statuses API
-  slug: leadping-leadstatuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-leadstatuses-api-openapi.yml
 - filename: leadping-notifications-api-openapi.yml
   format: yaml
   label: Leadping Notifications API
@@ -86,18 +80,6 @@ api_specs:
   slug: leadping-outbounddelivery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-outbounddelivery-api-openapi.yml
-- filename: leadping-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Leadping Payment Methods API
-  slug: leadping-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-paymentmethods-api-openapi.yml
-- filename: leadping-phonenumbers-api-openapi.yml
-  format: yaml
-  label: Leadping Phone Numbers API
-  slug: leadping-phonenumbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-phonenumbers-api-openapi.yml
 - filename: leadping-sms-api-openapi.yml
   format: yaml
   label: Leadping Sms API
@@ -164,6 +146,36 @@ api_specs:
   slug: leadping-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-wallets-api-openapi.yml
+- filename: leadping-blogarticles-api-openapi.yml
+  format: yaml
+  label: Leadping Blog Articles API
+  slug: leadping-blogarticles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-blogarticles-api-openapi.yml
+- filename: leadping-leadping-api-api-openapi.yml
+  format: yaml
+  label: Leadping Leadping API
+  slug: leadping-leadping-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-leadping-api-api-openapi.yml
+- filename: leadping-lead-statuses-api-openapi.yml
+  format: yaml
+  label: Leadping Lead Statuses API
+  slug: leadping-lead-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-lead-statuses-api-openapi.yml
+- filename: leadping-payment-methods-api-openapi.yml
+  format: yaml
+  label: Leadping Payment Methods API
+  slug: leadping-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-payment-methods-api-openapi.yml
+- filename: leadping-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Leadping Phone Numbers API
+  slug: leadping-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-phone-numbers-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -221,7 +233,7 @@ tags:
 - MCP
 - Lead intake
 - Conversations
-- Automations
+- Automation
 - Suppression & opt-out
 - Webhook
 ---

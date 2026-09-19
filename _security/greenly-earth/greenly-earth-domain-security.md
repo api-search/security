@@ -18,12 +18,6 @@ api_specs:
   slug: greenly-earth-offsetprojects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-offsetprojects-api-openapi.yml
-- filename: greenly-earth-purchasecategories-api-openapi.yml
-  format: yaml
-  label: Greenly purchaseCategories API
-  slug: greenly-earth-purchasecategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-purchasecategories-api-openapi.yml
 - filename: greenly-earth-ready-api-openapi.yml
   format: yaml
   label: Greenly ready API
@@ -42,6 +36,12 @@ api_specs:
   slug: greenly-earth-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-users-api-openapi.yml
+- filename: greenly-earth-purchase-categories-api-openapi.yml
+  format: yaml
+  label: Greenly Purchase Categories API
+  slug: greenly-earth-purchase-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-purchase-categories-api-openapi.yml
 description: ''
 domains:
 - caa: []

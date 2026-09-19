@@ -45,6 +45,6 @@ tags:
 - Energy
 - Master Limited Partnership
 - Oil and Gas
-- Pipeline
+- Pipelines
 - Gathering And Processing
 ---

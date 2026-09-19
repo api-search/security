@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/material-depot
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Interior Design
 - Construction Materials
 - Building Materials

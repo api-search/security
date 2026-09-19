@@ -112,7 +112,7 @@ tags:
 - Appointments
 - Automation
 - Booking
-- Calendars
+- Calendar
 - Meetings
 - Scheduling
 ---

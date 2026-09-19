@@ -50,12 +50,12 @@ api_specs:
   slug: nikang-therapeutics-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nikang-therapeutics/refs/heads/main/openapi/nikang-therapeutics-comments-api-openapi.yml
-- filename: nikang-therapeutics-oembed-api-openapi.yml
+- filename: nikang-therapeutics-o-embed-api-openapi.yml
   format: yaml
-  label: NiKang Therapeutics oEmbed API
-  slug: nikang-therapeutics-oembed-api
+  label: NiKang Therapeutics o Embed API
+  slug: nikang-therapeutics-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nikang-therapeutics/refs/heads/main/openapi/nikang-therapeutics-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nikang-therapeutics/refs/heads/main/openapi/nikang-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

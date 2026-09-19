@@ -87,12 +87,6 @@ api_specs:
   slug: docusign-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-authentication-api-openapi.yml
-- filename: docusign-billingplans-api-openapi.yml
-  format: yaml
-  label: Docusign BillingPlans API
-  slug: docusign-billingplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-billingplans-api-openapi.yml
 - filename: docusign-chunkeduploads-api-openapi.yml
   format: yaml
   label: Docusign ChunkedUploads API
@@ -111,12 +105,6 @@ api_specs:
   slug: docusign-closingstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-closingstatuses-api-openapi.yml
-- filename: docusign-cloudstorage-api-openapi.yml
-  format: yaml
-  label: Docusign CloudStorage API
-  slug: docusign-cloudstorage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-cloudstorage-api-openapi.yml
 - filename: docusign-cloudstorageproviders-api-openapi.yml
   format: yaml
   label: Docusign CloudStorageProviders API
@@ -171,12 +159,6 @@ api_specs:
   slug: docusign-currencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-currencies-api-openapi.yml
-- filename: docusign-customtabs-api-openapi.yml
-  format: yaml
-  label: Docusign CustomTabs API
-  slug: docusign-customtabs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-customtabs-api-openapi.yml
 - filename: docusign-dataset-api-openapi.yml
   format: yaml
   label: Docusign DataSet API
@@ -345,18 +327,6 @@ api_specs:
   slug: docusign-formdetails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-formdetails-api-openapi.yml
-- filename: docusign-formgroups-api-openapi.yml
-  format: yaml
-  label: Docusign FormGroups API
-  slug: docusign-formgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-formgroups-api-openapi.yml
-- filename: docusign-formlibraries-api-openapi.yml
-  format: yaml
-  label: Docusign FormLibraries API
-  slug: docusign-formlibraries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-formlibraries-api-openapi.yml
 - filename: docusign-formproviders-api-openapi.yml
   format: yaml
   label: Docusign FormProviders API
@@ -375,24 +345,6 @@ api_specs:
   slug: docusign-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-groups-api-openapi.yml
-- filename: docusign-groupusers-api-openapi.yml
-  format: yaml
-  label: Docusign GroupUsers API
-  slug: docusign-groupusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-groupusers-api-openapi.yml
-- filename: docusign-identityproviders-api-openapi.yml
-  format: yaml
-  label: Docusign IdentityProviders API
-  slug: docusign-identityproviders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-identityproviders-api-openapi.yml
-- filename: docusign-identityverifications-api-openapi.yml
-  format: yaml
-  label: Docusign IdentityVerifications API
-  slug: docusign-identityverifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-identityverifications-api-openapi.yml
 - filename: docusign-invoices-api-openapi.yml
   format: yaml
   label: Docusign Invoices API
@@ -453,12 +405,6 @@ api_specs:
   slug: docusign-powerforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-powerforms-api-openapi.yml
-- filename: docusign-propertytypes-api-openapi.yml
-  format: yaml
-  label: Docusign PropertyTypes API
-  slug: docusign-propertytypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-propertytypes-api-openapi.yml
 - filename: docusign-recipients-api-openapi.yml
   format: yaml
   label: Docusign Recipients API
@@ -477,12 +423,6 @@ api_specs:
   slug: docusign-requestlogs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-requestlogs-api-openapi.yml
-- filename: docusign-reserveddomains-api-openapi.yml
-  format: yaml
-  label: Docusign ReservedDomains API
-  slug: docusign-reserveddomains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-reserveddomains-api-openapi.yml
 - filename: docusign-resources-api-openapi.yml
   format: yaml
   label: Docusign Resources API
@@ -519,12 +459,6 @@ api_specs:
   slug: docusign-rooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-rooms-api-openapi.yml
-- filename: docusign-roomtemplates-api-openapi.yml
-  format: yaml
-  label: Docusign RoomTemplates API
-  slug: docusign-roomtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-roomtemplates-api-openapi.yml
 - filename: docusign-sellerdecisiontypes-api-openapi.yml
   format: yaml
   label: Docusign SellerDecisionTypes API
@@ -597,12 +531,6 @@ api_specs:
   slug: docusign-taskresponsibilitytypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-taskresponsibilitytypes-api-openapi.yml
-- filename: docusign-taskstatuses-api-openapi.yml
-  format: yaml
-  label: Docusign TaskStatuses API
-  slug: docusign-taskstatuses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-taskstatuses-api-openapi.yml
 - filename: docusign-templatebulkrecipients-api-openapi.yml
   format: yaml
   label: Docusign TemplateBulkRecipients API
@@ -711,24 +639,12 @@ api_specs:
   slug: docusign-usercustomsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-usercustomsettings-api-openapi.yml
-- filename: docusign-userexport-api-openapi.yml
-  format: yaml
-  label: Docusign UserExport API
-  slug: docusign-userexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-userexport-api-openapi.yml
 - filename: docusign-userimport-api-openapi.yml
   format: yaml
   label: Docusign UserImport API
   slug: docusign-userimport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-userimport-api-openapi.yml
-- filename: docusign-userprofiles-api-openapi.yml
-  format: yaml
-  label: Docusign UserProfiles API
-  slug: docusign-userprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-userprofiles-api-openapi.yml
 - filename: docusign-users-api-openapi.yml
   format: yaml
   label: Docusign Users API
@@ -747,18 +663,6 @@ api_specs:
   slug: docusign-usersocialaccountlogins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-usersocialaccountlogins-api-openapi.yml
-- filename: docusign-workflowinstancemanagement-api-openapi.yml
-  format: yaml
-  label: Docusign WorkflowInstanceManagement API
-  slug: docusign-workflowinstancemanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-workflowinstancemanagement-api-openapi.yml
-- filename: docusign-workflowmanagement-api-openapi.yml
-  format: yaml
-  label: Docusign WorkflowManagement API
-  slug: docusign-workflowmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-workflowmanagement-api-openapi.yml
 - filename: docusign-workflowtrigger-api-openapi.yml
   format: yaml
   label: Docusign WorkflowTrigger API
@@ -777,6 +681,102 @@ api_specs:
   slug: docusign-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-workspaces-api-openapi.yml
+- filename: docusign-billing-plans-api-openapi.yml
+  format: yaml
+  label: Docusign Billing Plans API
+  slug: docusign-billing-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-billing-plans-api-openapi.yml
+- filename: docusign-cloud-storage-api-openapi.yml
+  format: yaml
+  label: Docusign Cloud Storage API
+  slug: docusign-cloud-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-cloud-storage-api-openapi.yml
+- filename: docusign-custom-tabs-api-openapi.yml
+  format: yaml
+  label: Docusign Custom Tabs API
+  slug: docusign-custom-tabs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-custom-tabs-api-openapi.yml
+- filename: docusign-form-groups-api-openapi.yml
+  format: yaml
+  label: Docusign Form Groups API
+  slug: docusign-form-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-form-groups-api-openapi.yml
+- filename: docusign-form-libraries-api-openapi.yml
+  format: yaml
+  label: Docusign Form Libraries API
+  slug: docusign-form-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-form-libraries-api-openapi.yml
+- filename: docusign-group-users-api-openapi.yml
+  format: yaml
+  label: Docusign Group Users API
+  slug: docusign-group-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-group-users-api-openapi.yml
+- filename: docusign-identity-providers-api-openapi.yml
+  format: yaml
+  label: Docusign Identity Providers API
+  slug: docusign-identity-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-identity-providers-api-openapi.yml
+- filename: docusign-identity-verifications-api-openapi.yml
+  format: yaml
+  label: Docusign Identity Verifications API
+  slug: docusign-identity-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-identity-verifications-api-openapi.yml
+- filename: docusign-property-types-api-openapi.yml
+  format: yaml
+  label: Docusign Property Types API
+  slug: docusign-property-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-property-types-api-openapi.yml
+- filename: docusign-reserved-domains-api-openapi.yml
+  format: yaml
+  label: Docusign Reserved Domains API
+  slug: docusign-reserved-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-reserved-domains-api-openapi.yml
+- filename: docusign-room-templates-api-openapi.yml
+  format: yaml
+  label: Docusign Room Templates API
+  slug: docusign-room-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-room-templates-api-openapi.yml
+- filename: docusign-task-statuses-api-openapi.yml
+  format: yaml
+  label: Docusign Task Statuses API
+  slug: docusign-task-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-task-statuses-api-openapi.yml
+- filename: docusign-user-export-api-openapi.yml
+  format: yaml
+  label: Docusign User Export API
+  slug: docusign-user-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-user-export-api-openapi.yml
+- filename: docusign-user-profiles-api-openapi.yml
+  format: yaml
+  label: Docusign User Profiles API
+  slug: docusign-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-user-profiles-api-openapi.yml
+- filename: docusign-workflow-instance-management-api-openapi.yml
+  format: yaml
+  label: Docusign Workflow Instance Management API
+  slug: docusign-workflow-instance-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-workflow-instance-management-api-openapi.yml
+- filename: docusign-workflow-management-api-openapi.yml
+  format: yaml
+  label: Docusign Workflow Management API
+  slug: docusign-workflow-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-workflow-management-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -840,6 +840,6 @@ tags:
 - Contracts
 - Digital Transaction Management
 - Documents
-- Electronic Signatures
+- Electronic Signature
 - E-Signature
 ---

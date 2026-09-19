@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: schemasure-openapi.json
-  format: json
-  label: SchemaSure Structured Extraction API
-  slug: schemasure-structured-extraction-api
+- filename: schemasure-health-api-openapi.yml
+  format: yaml
+  label: SchemaSure Health API
+  slug: schemasure-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schemasure/refs/heads/main/openapi/schemasure-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/schemasure/refs/heads/main/openapi/schemasure-health-api-openapi.yml
+- filename: schemasure-image-extraction-x402-v2-api-openapi.yml
+  format: yaml
+  label: SchemaSure Image extraction · x402 V2 API
+  slug: schemasure-image-extraction-x402-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schemasure/refs/heads/main/openapi/schemasure-image-extraction-x402-v2-api-openapi.yml
+- filename: schemasure-legacy-v1-evaluation-api-api-openapi.yml
+  format: yaml
+  label: SchemaSure Legacy V1 evaluation API
+  slug: schemasure-legacy-v1-evaluation-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schemasure/refs/heads/main/openapi/schemasure-legacy-v1-evaluation-api-api-openapi.yml
+- filename: schemasure-primary-x402-v2-api-api-openapi.yml
+  format: yaml
+  label: SchemaSure Primary x402 V2 API
+  slug: schemasure-primary-x402-v2-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schemasure/refs/heads/main/openapi/schemasure-primary-x402-v2-api-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

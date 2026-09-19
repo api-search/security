@@ -42,12 +42,6 @@ api_specs:
   slug: keycorp-ach-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-transactions-api-openapi.yml
-- filename: keycorp-healthcheck-api-openapi.yml
-  format: yaml
-  label: KeyCorp Health Check API
-  slug: keycorp-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-healthcheck-api-openapi.yml
 - filename: keycorp-imagecheck-api-openapi.yml
   format: yaml
   label: KeyCorp Image Check API
@@ -108,6 +102,12 @@ api_specs:
   slug: keycorp-wire-rtp-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-wire-rtp-v2-api-openapi.yml
+- filename: keycorp-health-check-api-openapi.yml
+  format: yaml
+  label: KeyCorp Health Check API
+  slug: keycorp-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-health-check-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -169,5 +169,5 @@ tags:
 - Embedded Banking
 - ACH
 - Real-Time Payments
-- Wire Transfer
+- Wire Transfers
 ---

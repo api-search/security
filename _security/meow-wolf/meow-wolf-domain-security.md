@@ -40,5 +40,5 @@ tags:
 - Museums
 - Tourism
 - Retail
-- Mobile Apps
+- Mobile App
 ---

@@ -1,119 +1,347 @@
 ---
 api_specs:
-- filename: logz-io-api-openapi.yml
-  format: yaml
-  label: Logz.io Search Logs API
-  slug: logz-io-search-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
-  format: yaml
-  label: Logz.io Archive and Restore API
-  slug: logz-io-archive-restore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
-  format: yaml
-  label: Logz.io Drop Filters API
-  slug: logz-io-drop-filters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+- filename: logz-io-alerts-api-openapi.yml
   format: yaml
   label: Logz.io Alerts API
   slug: logz-io-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-alerts-api-openapi.yml
+- filename: logz-io-archive-logs-api-openapi.yml
   format: yaml
-  label: Logz.io Notification Endpoints API
-  slug: logz-io-notification-endpoints-api
+  label: Logz.io Archive logs API
+  slug: logz-io-archive-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-archive-logs-api-openapi.yml
+- filename: logz-io-associated-accounts-api-openapi.yml
   format: yaml
-  label: Logz.io Users API
-  slug: logz-io-users-api
+  label: Logz.io Associated accounts API
+  slug: logz-io-associated-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-associated-accounts-api-openapi.yml
+- filename: logz-io-authentication-groups-api-openapi.yml
   format: yaml
-  label: Logz.io Tokens API
-  slug: logz-io-tokens-api
+  label: Logz.io Authentication groups API
+  slug: logz-io-authentication-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-authentication-groups-api-openapi.yml
+- filename: logz-io-connect-to-cloudtrail-api-openapi.yml
   format: yaml
-  label: Logz.io Accounts API
-  slug: logz-io-accounts-api
+  label: Logz.io Connect to CloudTrail API
+  slug: logz-io-connect-to-cloudtrail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-connect-to-cloudtrail-api-openapi.yml
+- filename: logz-io-connect-to-s3-buckets-api-openapi.yml
   format: yaml
-  label: Logz.io Metrics Prometheus API
-  slug: logz-io-metrics-prometheus-api
+  label: Logz.io Connect to S3 Buckets API
+  slug: logz-io-connect-to-s3-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-connect-to-s3-buckets-api-openapi.yml
+- filename: logz-io-dashboards-create-new-api-openapi.yml
   format: yaml
-  label: Logz.io Grafana API
-  slug: logz-io-grafana-api
+  label: Logz.io Dashboards create new API
+  slug: logz-io-dashboards-create-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-create-new-api-openapi.yml
+- filename: logz-io-dashboards-create-new-folder-api-openapi.yml
   format: yaml
-  label: Logz.io Perses API
-  slug: logz-io-perses-api
+  label: Logz.io Dashboards create new folder API
+  slug: logz-io-dashboards-create-new-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-create-new-folder-api-openapi.yml
+- filename: logz-io-dashboards-delete-api-openapi.yml
   format: yaml
-  label: Logz.io Cloud SIEM API
-  slug: logz-io-cloud-siem-api
+  label: Logz.io Dashboards delete API
+  slug: logz-io-dashboards-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-delete-api-openapi.yml
+- filename: logz-io-dashboards-delete-folder-api-openapi.yml
   format: yaml
-  label: Logz.io Log Shipping API
-  slug: logz-io-log-shipping-api
+  label: Logz.io Dashboards delete folder API
+  slug: logz-io-dashboards-delete-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-delete-folder-api-openapi.yml
+- filename: logz-io-dashboards-get-all-api-openapi.yml
   format: yaml
-  label: Logz.io Parsing Pipelines API
-  slug: logz-io-parsing-pipelines-api
+  label: Logz.io Dashboards get all API
+  slug: logz-io-dashboards-get-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-get-all-api-openapi.yml
+- filename: logz-io-dashboards-get-all-folders-api-openapi.yml
   format: yaml
-  label: Logz.io Lookup Lists API
-  slug: logz-io-lookup-lists-api
+  label: Logz.io Dashboards get all folders API
+  slug: logz-io-dashboards-get-all-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-get-all-folders-api-openapi.yml
+- filename: logz-io-dashboards-get-all-global-data-sources-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards get all global data sources API
+  slug: logz-io-dashboards-get-all-global-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-get-all-global-data-sources-api-openapi.yml
+- filename: logz-io-dashboards-get-by-id-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards get by ID API
+  slug: logz-io-dashboards-get-by-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-get-by-id-api-openapi.yml
+- filename: logz-io-dashboards-get-by-user-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards get by user API
+  slug: logz-io-dashboards-get-by-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-get-by-user-api-openapi.yml
+- filename: logz-io-dashboards-get-folder-by-name-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards get folder by name API
+  slug: logz-io-dashboards-get-folder-by-name-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-get-folder-by-name-api-openapi.yml
+- filename: logz-io-dashboards-move-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards move API
+  slug: logz-io-dashboards-move-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-move-api-openapi.yml
+- filename: logz-io-dashboards-rename-folder-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards rename folder API
+  slug: logz-io-dashboards-rename-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-rename-folder-api-openapi.yml
+- filename: logz-io-dashboards-search-folder-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards search folder API
+  slug: logz-io-dashboards-search-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-search-folder-api-openapi.yml
+- filename: logz-io-dashboards-update-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards update API
+  slug: logz-io-dashboards-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-update-api-openapi.yml
+- filename: logz-io-dashboards-update-folder-api-openapi.yml
+  format: yaml
+  label: Logz.io Dashboards update folder API
+  slug: logz-io-dashboards-update-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-dashboards-update-folder-api-openapi.yml
+- filename: logz-io-delete-object-api-api-openapi.yml
+  format: yaml
+  label: Logz.io Delete object API
+  slug: logz-io-delete-object-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-delete-object-api-api-openapi.yml
+- filename: logz-io-deployments-api-openapi.yml
+  format: yaml
+  label: Logz.io Deployments API
+  slug: logz-io-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-deployments-api-openapi.yml
+- filename: logz-io-drop-filters-api-openapi.yml
+  format: yaml
+  label: Logz.io Drop filters API
+  slug: logz-io-drop-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-drop-filters-api-openapi.yml
+- filename: logz-io-grafana-alerting-provisioning-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana alerting provisioning API
+  slug: logz-io-grafana-alerting-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-alerting-provisioning-api-openapi.yml
+- filename: logz-io-grafana-annotations-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana annotations API
+  slug: logz-io-grafana-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-annotations-api-openapi.yml
+- filename: logz-io-grafana-contact-points-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana contact points API
+  slug: logz-io-grafana-contact-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-contact-points-api-openapi.yml
+- filename: logz-io-grafana-dashboard-search-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana dashboard search API
+  slug: logz-io-grafana-dashboard-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-dashboard-search-api-openapi.yml
+- filename: logz-io-grafana-dashboards-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana dashboards API
+  slug: logz-io-grafana-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-dashboards-api-openapi.yml
+- filename: logz-io-grafana-data-source-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana data source API
+  slug: logz-io-grafana-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-data-source-api-openapi.yml
+- filename: logz-io-grafana-folders-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana Folders API
+  slug: logz-io-grafana-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-folders-api-openapi.yml
+- filename: logz-io-grafana-silence-management-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana silence management API
+  slug: logz-io-grafana-silence-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-silence-management-api-openapi.yml
+- filename: logz-io-grafana-snapshots-api-openapi.yml
+  format: yaml
+  label: Logz.io Grafana snapshots API
+  slug: logz-io-grafana-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-grafana-snapshots-api-openapi.yml
+- filename: logz-io-import-or-export-kibana-objects-api-openapi.yml
+  format: yaml
+  label: Logz.io Import or export Kibana objects API
+  slug: logz-io-import-or-export-kibana-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-import-or-export-kibana-objects-api-openapi.yml
+- filename: logz-io-insights-api-openapi.yml
   format: yaml
   label: Logz.io Insights API
   slug: logz-io-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-insights-api-openapi.yml
+- filename: logz-io-label-values-api-openapi.yml
   format: yaml
-  label: Logz.io Deployment Markers API
-  slug: logz-io-deployments-api
+  label: Logz.io Label Values API
+  slug: logz-io-label-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-label-values-api-openapi.yml
+- filename: logz-io-labels-api-openapi.yml
   format: yaml
-  label: Logz.io OpenSearch Snapshots API
-  slug: logz-io-snapshots-api
+  label: Logz.io Labels API
+  slug: logz-io-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
-- filename: logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-labels-api-openapi.yml
+- filename: logz-io-logz-io-snapshots-api-openapi.yml
   format: yaml
-  label: Logz.io Audit Trail API
-  slug: logz-io-audit-trail-api
+  label: Logz.io Logz.io snapshots API
+  slug: logz-io-logz-io-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-logz-io-snapshots-api-openapi.yml
+- filename: logz-io-lookup-lists-api-openapi.yml
+  format: yaml
+  label: Logz.io Lookup lists API
+  slug: logz-io-lookup-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-lookup-lists-api-openapi.yml
+- filename: logz-io-manage-api-tokens-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage API tokens API
+  slug: logz-io-manage-api-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-api-tokens-api-openapi.yml
+- filename: logz-io-manage-log-shipping-tokens-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage log shipping tokens API
+  slug: logz-io-manage-log-shipping-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-log-shipping-tokens-api-openapi.yml
+- filename: logz-io-manage-metrics-account-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage metrics account API
+  slug: logz-io-manage-metrics-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-metrics-account-api-openapi.yml
+- filename: logz-io-manage-notification-endpoints-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage notification endpoints API
+  slug: logz-io-manage-notification-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-notification-endpoints-api-openapi.yml
+- filename: logz-io-manage-shared-tokens-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage shared tokens API
+  slug: logz-io-manage-shared-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-shared-tokens-api-openapi.yml
+- filename: logz-io-manage-time-based-log-accounts-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage time-based log accounts API
+  slug: logz-io-manage-time-based-log-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-time-based-log-accounts-api-openapi.yml
+- filename: logz-io-manage-users-api-openapi.yml
+  format: yaml
+  label: Logz.io Manage users API
+  slug: logz-io-manage-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-manage-users-api-openapi.yml
+- filename: logz-io-parsing-api-openapi.yml
+  format: yaml
+  label: Logz.io Parsing API
+  slug: logz-io-parsing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-parsing-api-openapi.yml
+- filename: logz-io-query-api-openapi.yml
+  format: yaml
+  label: Logz.io Query API
+  slug: logz-io-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-query-api-openapi.yml
+- filename: logz-io-range-query-api-openapi.yml
+  format: yaml
+  label: Logz.io Range Query API
+  slug: logz-io-range-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-range-query-api-openapi.yml
+- filename: logz-io-restore-logs-api-openapi.yml
+  format: yaml
+  label: Logz.io Restore logs API
+  slug: logz-io-restore-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-restore-logs-api-openapi.yml
+- filename: logz-io-retrieve-audit-trail-api-openapi.yml
+  format: yaml
+  label: Logz.io Retrieve audit trail API
+  slug: logz-io-retrieve-audit-trail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-retrieve-audit-trail-api-openapi.yml
+- filename: logz-io-search-logs-api-openapi.yml
+  format: yaml
+  label: Logz.io Search logs API
+  slug: logz-io-search-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-search-logs-api-openapi.yml
+- filename: logz-io-security-account-api-openapi.yml
+  format: yaml
+  label: Logz.io Security account API
+  slug: logz-io-security-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-security-account-api-openapi.yml
+- filename: logz-io-security-events-api-openapi.yml
+  format: yaml
+  label: Logz.io Security events API
+  slug: logz-io-security-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-security-events-api-openapi.yml
+- filename: logz-io-security-rules-api-openapi.yml
+  format: yaml
+  label: Logz.io Security rules API
+  slug: logz-io-security-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-security-rules-api-openapi.yml
+- filename: logz-io-time-series-api-openapi.yml
+  format: yaml
+  label: Logz.io Time Series API
+  slug: logz-io-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-time-series-api-openapi.yml
+- filename: logz-io-whoami-api-openapi.yml
+  format: yaml
+  label: Logz.io Whoami API
+  slug: logz-io-whoami-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/openapi/logz-io-whoami-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

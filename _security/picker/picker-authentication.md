@@ -15,12 +15,6 @@ api_specs:
   slug: picker-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-admin-api-openapi.yml
-- filename: picker-antifraud-api-openapi.yml
-  format: yaml
-  label: Picker antiFraud API
-  slug: picker-antifraud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-antifraud-api-openapi.yml
 - filename: picker-appversion-api-openapi.yml
   format: yaml
   label: Picker appVersion API
@@ -123,12 +117,6 @@ api_specs:
   slug: picker-chatbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-chatbot-api-openapi.yml
-- filename: picker-cronjobs-api-openapi.yml
-  format: yaml
-  label: Picker cronJobs API
-  slug: picker-cronjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cronjobs-api-openapi.yml
 - filename: picker-customer-api-openapi.yml
   format: yaml
   label: Picker customer API
@@ -297,12 +285,6 @@ api_specs:
   slug: picker-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-service-api-openapi.yml
-- filename: picker-serviceprovider-api-openapi.yml
-  format: yaml
-  label: Picker serviceProvider API
-  slug: picker-serviceprovider-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-serviceprovider-api-openapi.yml
 - filename: picker-share-my-ride-api-openapi.yml
   format: yaml
   label: Picker Share My Ride API
@@ -387,6 +369,24 @@ api_specs:
   slug: picker-vtex-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-vtex-api-openapi.yml
+- filename: picker-anti-fraud-api-openapi.yml
+  format: yaml
+  label: Picker anti Fraud API
+  slug: picker-anti-fraud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-anti-fraud-api-openapi.yml
+- filename: picker-cron-jobs-api-openapi.yml
+  format: yaml
+  label: Picker Cron Jobs API
+  slug: picker-cron-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cron-jobs-api-openapi.yml
+- filename: picker-service-provider-api-openapi.yml
+  format: yaml
+  label: Picker Service Provider API
+  slug: picker-service-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-service-provider-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

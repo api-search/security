@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: macquarie-research-portal-oai-pmh-openapi.yml
+- filename: macquarie-harvesting-api-openapi.yml
   format: yaml
-  label: Macquarie University Research Portal OAI-PMH
-  slug: research-portal-oai-pmh
+  label: Macquarie University Harvesting API
+  slug: macquarie-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-research-portal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-harvesting-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -102,7 +102,7 @@ tags:
 - Private Sales
 - Marketplace
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 ---

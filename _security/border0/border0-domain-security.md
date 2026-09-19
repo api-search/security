@@ -128,7 +128,7 @@ tags:
 - Infrastructure
 - VPN
 - SSH
-- Databases
+- Database
 - Kubernetes
 - Company
 ---

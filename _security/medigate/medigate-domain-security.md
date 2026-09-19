@@ -36,7 +36,7 @@ tags:
 - Cybersecurity
 - Healthcare
 - Medical Devices
-- Internet of Things
+- IoT
 - Device Security
 - Network Security
 ---

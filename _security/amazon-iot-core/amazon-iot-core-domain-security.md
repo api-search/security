@@ -132,12 +132,6 @@ api_specs:
   slug: amazon-iot-core-dimensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-dimensions-api-openapi.yml
-- filename: amazon-iot-core-domainconfigurations-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core DomainConfigurations API
-  slug: amazon-iot-core-domainconfigurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-domainconfigurations-api-openapi.yml
 - filename: amazon-iot-core-dynamic-thing-groups-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Dynamic Thing Groups API
@@ -204,12 +198,6 @@ api_specs:
   slug: amazon-iot-core-keys-and-certificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-keys-and-certificate-api-openapi.yml
-- filename: amazon-iot-core-loggingoptions-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core LoggingOptions API
-  slug: amazon-iot-core-loggingoptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-loggingoptions-api-openapi.yml
 - filename: amazon-iot-core-managed-job-templates-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Managed Job Templates API
@@ -228,12 +216,6 @@ api_specs:
   slug: amazon-iot-core-mitigationactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-mitigationactions-api-openapi.yml
-- filename: amazon-iot-core-otaupdates-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core OtaUpdates API
-  slug: amazon-iot-core-otaupdates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-otaupdates-api-openapi.yml
 - filename: amazon-iot-core-policies-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Policies API
@@ -390,24 +372,12 @@ api_specs:
   slug: amazon-iot-core-untag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-untag-api-openapi.yml
-- filename: amazon-iot-core-v2logginglevel-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core V2LoggingLevel API
-  slug: amazon-iot-core-v2logginglevel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-v2logginglevel-api-openapi.yml
 - filename: amazon-iot-core-v2logginglevel-targettype-targetname-api-openapi.yml
   format: yaml
   label: Amazon IoT Core V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-core-v2logginglevel-targettype-targetname-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-v2logginglevel-targettype-targetname-api-openapi.yml
-- filename: amazon-iot-core-v2loggingoptions-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core V2LoggingOptions API
-  slug: amazon-iot-core-v2loggingoptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-v2loggingoptions-api-openapi.yml
 - filename: amazon-iot-core-violation-events-starttime-endtime-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Violation Events#startTime&endTime API
@@ -420,6 +390,36 @@ api_specs:
   slug: amazon-iot-core-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-violations-api-openapi.yml
+- filename: amazon-iot-core-domain-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Domain Configurations API
+  slug: amazon-iot-core-domain-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-domain-configurations-api-openapi.yml
+- filename: amazon-iot-core-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Logging Options API
+  slug: amazon-iot-core-logging-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-logging-options-api-openapi.yml
+- filename: amazon-iot-core-ota-updates-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core OTA Updates API
+  slug: amazon-iot-core-ota-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-ota-updates-api-openapi.yml
+- filename: amazon-iot-core-v2-logging-level-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core V2 Logging Level API
+  slug: amazon-iot-core-v2-logging-level-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-v2-logging-level-api-openapi.yml
+- filename: amazon-iot-core-v2-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core V2 Logging Options API
+  slug: amazon-iot-core-v2-logging-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-v2-logging-options-api-openapi.yml
 description: ''
 domains:
 - caa: []

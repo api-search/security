@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: yoodli-api-openapi.yml
+- filename: yoodli-multi-org-management-api-openapi.yml
   format: yaml
-  label: Yoodli API
-  slug: yoodli-api
+  label: Yoodli Multi Org Management API
+  slug: yoodli-multi-org-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/openapi/yoodli-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/openapi/yoodli-multi-org-management-api-openapi.yml
+- filename: yoodli-organization-user-management-api-openapi.yml
+  format: yaml
+  label: Yoodli Organization User Management API
+  slug: yoodli-organization-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/openapi/yoodli-organization-user-management-api-openapi.yml
+- filename: yoodli-speech-api-openapi.yml
+  format: yaml
+  label: Yoodli Speech API
+  slug: yoodli-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/openapi/yoodli-speech-api-openapi.yml
+- filename: yoodli-user-group-management-api-openapi.yml
+  format: yaml
+  label: Yoodli User Group Management API
+  slug: yoodli-user-group-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/openapi/yoodli-user-group-management-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2
@@ -28,14 +46,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/he
 summary_line: SOC 2 Type 2, GDPR
 tags:
 - Artificial Intelligence
-- Communication
+- Communications
 - Coaching
 - Learning and Development
 - Sales Enablement
 - Speech Analysis
 - Human Resources
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - Identity Management
 trust_url: https://trust.yoodli.ai/
 ---

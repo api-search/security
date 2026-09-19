@@ -21,12 +21,6 @@ api_specs:
   slug: moodys-rms-accountv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-accountv1-api-openapi.yml
-- filename: moodys-rms-accountv2-api-openapi.yml
-  format: yaml
-  label: Moody's RMS Account V2 API
-  slug: moodys-rms-accountv2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-accountv2-api-openapi.yml
 - filename: moodys-rms-aggregate-portfoliov1-api-openapi.yml
   format: yaml
   label: Moody's RMS Aggregate PortfolioV1 API
@@ -195,12 +189,6 @@ api_specs:
   slug: moodys-rms-logins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-logins-api-openapi.yml
-- filename: moodys-rms-metricsv1-api-openapi.yml
-  format: yaml
-  label: Moody's RMS Metrics V1 API
-  slug: moodys-rms-metricsv1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-metricsv1-api-openapi.yml
 - filename: moodys-rms-metricsv2-api-openapi.yml
   format: yaml
   label: Moody's RMS Metrics V2 API
@@ -297,6 +285,18 @@ api_specs:
   slug: moodys-rms-workflowsv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-workflowsv1-api-openapi.yml
+- filename: moodys-rms-account-v2-api-openapi.yml
+  format: yaml
+  label: Moody's RMS Account V2 API
+  slug: moodys-rms-account-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-account-v2-api-openapi.yml
+- filename: moodys-rms-metrics-v1-api-openapi.yml
+  format: yaml
+  label: Moody's RMS Metrics V1 API
+  slug: moodys-rms-metrics-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-metrics-v1-api-openapi.yml
 auth_types:
 - apiKey
 - accessToken

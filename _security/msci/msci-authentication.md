@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/msci/refs/head
 summary_line: oauth2/openIdConnect · 3 schemes
 tags:
 - Financial Data
-- Indexes
+- Index
 - ESG
 - Climate
 - Risk Analytics

@@ -56,7 +56,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Telecommunications
 - Sweden
-- Nordics
+- Nordic
 - Baltics
 - Mobile Network Operator
 - Network APIs

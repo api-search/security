@@ -36,7 +36,7 @@ tags:
 - Telehealth
 - Home Care
 - Diagnostics
-- Hospital
+- Hospitals
 - Consumer Health
 - Insurance
 - India

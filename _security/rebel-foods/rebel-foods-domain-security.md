@@ -46,7 +46,7 @@ tags:
 - Company
 - Food and Beverage
 - Restaurant
-- Cloud Kitchens
+- Cloud Kitchen
 - Food Delivery
 - Consumer
 - Logistics

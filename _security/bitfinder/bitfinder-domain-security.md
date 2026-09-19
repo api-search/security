@@ -62,7 +62,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Air Quality
-- Internet of Things
 - IoT
 - Environmental Monitoring
 - Smart Home

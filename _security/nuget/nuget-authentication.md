@@ -21,6 +21,30 @@ api_specs:
   slug: nuget-service-index-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-service-index-api-openapi.yml
+- filename: nuget-autocomplete-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Autocomplete API
+  slug: microsoft-nuget-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-autocomplete-api-openapi.yml
+- filename: nuget-flatcontainer-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Flatcontainer API
+  slug: microsoft-nuget-flatcontainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-flatcontainer-api-openapi.yml
+- filename: nuget-query-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Query API
+  slug: microsoft-nuget-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-query-api-openapi.yml
+- filename: nuget-registration5-gz-semver2-api-openapi.yml
+  format: yaml
+  label: Microsoft NuGet Registration5 Gz Semver2 API
+  slug: microsoft-nuget-registration5-gz-semver2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration5-gz-semver2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -57,4 +81,5 @@ tags:
 - Dependencies
 - Software Distribution
 - Registry
+- Developer Tools
 ---

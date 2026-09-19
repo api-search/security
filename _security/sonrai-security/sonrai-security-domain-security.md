@@ -39,5 +39,4 @@ tags:
 - Cloud Permissions
 - Least Privilege
 - GraphQL
-- IAM
 ---

@@ -18,12 +18,6 @@ api_specs:
   slug: bugsnag-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-comments-api-openapi.yml
-- filename: bugsnag-currentuser-api-openapi.yml
-  format: yaml
-  label: bugsnag CurrentUser API
-  slug: bugsnag-currentuser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-currentuser-api-openapi.yml
 - filename: bugsnag-errors-api-openapi.yml
   format: yaml
   label: bugsnag Errors API
@@ -42,12 +36,6 @@ api_specs:
   slug: bugsnag-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-events-api-openapi.yml
-- filename: bugsnag-notifications-api-openapi.yml
-  format: yaml
-  label: bugsnag Notifications API
-  slug: bugsnag-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-notifications-api-openapi.yml
 - filename: bugsnag-organizations-api-openapi.yml
   format: yaml
   label: bugsnag Organizations API
@@ -96,6 +84,24 @@ api_specs:
   slug: bugsnag-trends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-trends-api-openapi.yml
+- filename: bugsnag-current-user-api-openapi.yml
+  format: yaml
+  label: Bugsnag Current User API
+  slug: bugsnag-current-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-current-user-api-openapi.yml
+- filename: bugsnag-error-reporting-api-openapi.json
+  format: json
+  label: BugSnag Error Reporting API
+  slug: bugsnag-error-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-error-reporting-api-openapi.json
+- filename: bugsnag-upload-api-openapi.json
+  format: json
+  label: BugSnag Upload API
+  slug: bugsnag-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-upload-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -106,6 +112,11 @@ domains:
   spf: true
 hosts:
 - cert_expires: Oct 11 23:59:59 2026 GMT
+  host: bugsnag.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 11 23:59:59 2026 GMT
   host: docs.bugsnag.com
   hsts: false
   https: true
@@ -114,11 +125,6 @@ hosts:
   host: api.bugsnag.com
   hsts: true
   hsts_max_age: 31536000
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 11 23:59:59 2026 GMT
-  host: notify.bugsnag.com
-  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -134,8 +140,15 @@ slug: bugsnag-domain-security
 source_filename: bugsnag-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.bugsnag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: false\n- host: api.bugsnag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: notify.bugsnag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: bugsnag.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bugsnag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: null\n- host: docs.bugsnag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: false\n- host: api.bugsnag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bugsnag.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/security/bugsnag-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Monitoring
+- Observability
+- Error Monitoring
+- Application Performance Monitoring
+- Distributed Tracing
+- Developer Tools
+- SmartBear
 ---

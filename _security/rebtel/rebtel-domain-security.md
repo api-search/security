@@ -36,7 +36,7 @@ tags:
 - VoIP
 - International Calling
 - Mobile Top-Up
-- Remittance
+- Remittances
 - Consumer
 - Messaging
 - Sweden

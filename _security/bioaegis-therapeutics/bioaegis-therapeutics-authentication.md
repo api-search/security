@@ -26,12 +26,6 @@ api_specs:
   slug: bioaegis-therapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/openapi/bioaegis-therapeutics-media-api-openapi.yml
-- filename: bioaegis-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: BioAegis Therapeutics Oembed API
-  slug: bioaegis-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/openapi/bioaegis-therapeutics-oembed-api-openapi.yml
 - filename: bioaegis-therapeutics-pages-api-openapi.yml
   format: yaml
   label: BioAegis Therapeutics Pages API
@@ -62,6 +56,12 @@ api_specs:
   slug: bioaegis-therapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/openapi/bioaegis-therapeutics-taxonomy-api-openapi.yml
+- filename: bioaegis-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: BioAegis Therapeutics o Embed API
+  slug: bioaegis-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/openapi/bioaegis-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bioaegis-thera
 summary_line: 1 scheme
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Biotechnology
 - Clinical Trials
 - Immunology

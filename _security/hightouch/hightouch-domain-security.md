@@ -30,24 +30,36 @@ api_specs:
   slug: hightouch-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-campaigns-api-openapi.yml
-- filename: hightouch-ai-decisioning-api-openapi.yml
-  format: yaml
-  label: Hightouch AI Decisioning API
-  slug: hightouch-ai-decisioning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-ai-decisioning-api-openapi.yml
 - filename: hightouch-events-api-openapi.yml
   format: yaml
   label: Hightouch Events API
   slug: hightouch-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-events-api-openapi.yml
-- filename: hightouch-identity-resolution-api-openapi.yml
+- filename: hightouch-decision-engine-api-openapi.yml
   format: yaml
-  label: Hightouch Identity Resolution API
-  slug: hightouch-identity-resolution-api
+  label: Hightouch Decision Engine API
+  slug: hightouch-decision-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-identity-resolution-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-decision-engine-api-openapi.yml
+- filename: hightouch-id-graphs-api-openapi.yml
+  format: yaml
+  label: Hightouch Id Graphs API
+  slug: hightouch-id-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-id-graphs-api-openapi.yml
+- filename: hightouch-idr-api-openapi.yml
+  format: yaml
+  label: Hightouch Idr API
+  slug: hightouch-idr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-idr-api-openapi.yml
+- filename: hightouch-sync-sequences-api-openapi.yml
+  format: yaml
+  label: Hightouch Sync Sequences API
+  slug: hightouch-sync-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-sequences-api-openapi.yml
 description: ''
 domains:
 - caa:

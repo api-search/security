@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Country Calling Codes API
-  slug: country-calling-codes-api
+- filename: country-calling-codes-calling-codes-api-openapi.yml
+  format: yaml
+  label: Country Calling Codes Calling codes API
+  slug: country-calling-codes-calling-codes-api
   spec_type: OpenAPI
-  url: https://www.countrycalling.codes/api/calling-codes/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/openapi/country-calling-codes-calling-codes-api-openapi.yml
+- filename: country-calling-codes-phone-formatting-api-openapi.yml
+  format: yaml
+  label: Country Calling Codes Phone formatting API
+  slug: country-calling-codes-phone-formatting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/openapi/country-calling-codes-phone-formatting-api-openapi.yml
+- filename: country-calling-codes-phone-workflows-api-openapi.yml
+  format: yaml
+  label: Country Calling Codes Phone workflows API
+  slug: country-calling-codes-phone-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/openapi/country-calling-codes-phone-workflows-api-openapi.yml
+- filename: country-calling-codes-service-api-openapi.yml
+  format: yaml
+  label: Country Calling Codes Service API
+  slug: country-calling-codes-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/openapi/country-calling-codes-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,10 +55,10 @@ source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/security/country-calling-codes-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- data
-- reference
-- telecom
-- phone
-- openapi
-- mcp
+- Data
+- Reference
+- Telecom
+- Phone
+- OpenAPI
+- MCP
 ---

@@ -34,7 +34,7 @@ tags:
 - Automotive
 - Electric Vehicles
 - Luxury Vehicles
-- Connected Vehicle
+- Connected Vehicles
 - Battery Technology
 - Powertrain
 - Manufacturing

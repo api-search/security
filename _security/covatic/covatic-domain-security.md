@@ -24,12 +24,6 @@ api_specs:
   slug: covatic-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-campaigns-api-openapi.yml
-- filename: covatic-chatgpt-api-openapi.yml
-  format: yaml
-  label: Covatic Chat GPT API
-  slug: covatic-chatgpt-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-chatgpt-api-openapi.yml
 - filename: covatic-commons-api-openapi.yml
   format: yaml
   label: Covatic Commons API
@@ -108,6 +102,12 @@ api_specs:
   slug: covatic-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-users-api-openapi.yml
+- filename: covatic-chat-gpt-api-openapi.yml
+  format: yaml
+  label: Covatic Chat GPT API
+  slug: covatic-chat-gpt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-chat-gpt-api-openapi.yml
 description: ''
 domains:
 - caa: []

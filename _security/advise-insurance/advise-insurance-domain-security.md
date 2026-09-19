@@ -40,7 +40,7 @@ tags:
 - Insurance
 - Health Insurance
 - Medicare
-- Health Care
+- Healthcare
 - Insurtech
 - Enrollment
 - Telesales

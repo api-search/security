@@ -42,12 +42,6 @@ api_specs:
   slug: hathora-logsv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-logsv1-api-openapi.yml
-- filename: hathora-metricsv1-api-openapi.yml
-  format: yaml
-  label: Hathora MetricsV1 API
-  slug: hathora-metricsv1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-metricsv1-api-openapi.yml
 - filename: hathora-processesv3-api-openapi.yml
   format: yaml
   label: Hathora ProcessesV3 API
@@ -66,6 +60,12 @@ api_specs:
   slug: hathora-tokensv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-tokensv1-api-openapi.yml
+- filename: hathora-metrics-v1-api-openapi.yml
+  format: yaml
+  label: Hathora Metrics V1 API
+  slug: hathora-metrics-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-metrics-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

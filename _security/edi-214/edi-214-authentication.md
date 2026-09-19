@@ -50,5 +50,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stedi-edi214-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key in format \"Key {your_api_key}\" for Stedi platform access\n  sources:\n  - openapi/stedi-edi214-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/authentication/edi-214-authentication.yml
 summary_line: apiKey · 1 scheme
-tags: []
+tags:
+- EDI
+- Logistics
+- Transaction
 ---

@@ -37,5 +37,5 @@ tags:
 - Employee Wellbeing
 - EAP
 - Coaching
-- HR
+- Human Resources
 ---

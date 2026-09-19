@@ -220,5 +220,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: doc.sitecore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 08:11:35 2026 GMT\n  hsts: null\n- host: edge.sitecorecloud.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 20:04:59 2026 GMT\n  hsts: null\n- host: xmapps-api.sitecorecloud.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 20:04:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sitecore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: sitecorecloud.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/security/sitecore-domain-security.yml
 summary_line: TLSv1.3 · DMARC
-tags: []
+tags:
+- Headless CMS
+- Customer Data Platform
+- Content Management
 ---

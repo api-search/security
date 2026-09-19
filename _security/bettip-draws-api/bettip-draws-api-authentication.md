@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bettip-draws-api-openapi.json
-  format: json
-  label: BetTip Draws API
-  slug: bettip-draws-api
+- filename: bettip-draws-api-gosloto-api-openapi.yml
+  format: yaml
+  label: BetTip Draws API Gosloto API
+  slug: bettip-draws-api-gosloto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-gosloto-api-openapi.yml
+- filename: bettip-draws-api-lotto-api-openapi.yml
+  format: yaml
+  label: BetTip Draws API Lotto API
+  slug: bettip-draws-api-lotto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-lotto-api-openapi.yml
+- filename: bettip-draws-api-uk49s-api-openapi.yml
+  format: yaml
+  label: BetTip Draws API Uk49s API
+  slug: bettip-draws-api-uk49s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-uk49s-api-openapi.yml
+- filename: bettip-draws-api-world-api-openapi.yml
+  format: yaml
+  label: BetTip Draws API World API
+  slug: bettip-draws-api-world-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/openapi/bettip-draws-api-world-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -38,7 +56,7 @@ tags:
 - CSV
 - OpenAPI
 - Sports/Betting data
-- Reference data
-- Open data
+- Reference Data
+- Open Data
 - Gambling & Betting
 ---

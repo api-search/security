@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-node-api-openapi.yml
 - filename: reposit-power-power-station-api-openapi.yml
   format: yaml
-  label: Reposit Power Power Station API
+  label: Reposit Power Station API
   slug: reposit-power-power-station-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-power-station-api-openapi.yml

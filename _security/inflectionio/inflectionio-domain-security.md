@@ -77,6 +77,6 @@ tags:
 - MCP
 - Agents
 - Artificial Intelligence
-- Customer Journeys
+- Customer Journey
 - Webhook
 ---

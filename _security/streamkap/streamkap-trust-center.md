@@ -76,7 +76,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Streaming
 - ETL
-- CDC
+- Change Data Capture
 - Kafka
 - Flink
 - Data Integration

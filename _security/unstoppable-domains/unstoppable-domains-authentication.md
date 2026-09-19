@@ -82,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-transfers-api-openapi.yml
 - filename: unstoppable-domains-domains-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domains API
+  label: Unstoppable Domains API
   slug: unstoppable-domains-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domains-api-openapi.yml

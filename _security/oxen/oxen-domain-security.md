@@ -168,7 +168,7 @@ tags:
 - Inference
 - Datasets
 - MLOps
-- Large Language Models
+- LLM
 - Model Deployment
 - Developer Tools
 - Version Control

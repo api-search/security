@@ -24,12 +24,6 @@ api_specs:
   slug: lightup-datapoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-datapoints-api-openapi.yml
-- filename: lightup-datasources-api-openapi.yml
-  format: yaml
-  label: Lightup Datasources API
-  slug: lightup-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-datasources-api-openapi.yml
 - filename: lightup-health-check-api-openapi.yml
   format: yaml
   label: Lightup Health check API
@@ -72,6 +66,12 @@ api_specs:
   slug: lightup-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-workspaces-api-openapi.yml
+- filename: lightup-data-sources-api-openapi.yml
+  format: yaml
+  label: Lightup Data Sources API
+  slug: lightup-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-data-sources-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2

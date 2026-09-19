@@ -53,7 +53,7 @@ tags:
 - Commercial Real Estate
 - Residential Real Estate
 - Real Estate Data
-- Marketplaces
+- Marketplace
 - Analytics
 - Listings
 - PropTech

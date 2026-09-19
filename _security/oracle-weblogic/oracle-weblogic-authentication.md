@@ -112,19 +112,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-security-api-openapi.yml
 - filename: oracle-weblogic-server-lifecycle-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server Server Lifecycle API
+  label: Oracle WebLogic Server Lifecycle API
   slug: oracle-weblogic-server-lifecycle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-server-lifecycle-api-openapi.yml
 - filename: oracle-weblogic-server-runtime-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server Server Runtime API
+  label: Oracle WebLogic Server Runtime API
   slug: oracle-weblogic-server-runtime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-server-runtime-api-openapi.yml
 - filename: oracle-weblogic-server-templates-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server Server Templates API
+  label: Oracle WebLogic Server Templates API
   slug: oracle-weblogic-server-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-server-templates-api-openapi.yml
@@ -146,108 +146,48 @@ api_specs:
   slug: oracle-weblogic-thread-pool-runtime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-thread-pool-runtime-api-openapi.yml
-- filename: weblogic-application-deployments-api-openapi.yml
+- filename: oracle-weblogic-applications-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Application Deployments API
-  slug: weblogic-application-deployments-api
+  label: Oracle WebLogic Server Applications API
+  slug: oracle-weblogic-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-application-deployments-api-openapi.yml
-- filename: weblogic-applications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-applications-api-openapi.yml
+- filename: oracle-weblogic-deployment-operations-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Applications API
-  slug: weblogic-applications-api
+  label: Oracle WebLogic Server Deployment Operations API
+  slug: oracle-weblogic-deployment-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-applications-api-openapi.yml
-- filename: weblogic-clusters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-deployment-operations-api-openapi.yml
+- filename: oracle-weblogic-diagnostics-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Clusters API
-  slug: weblogic-clusters-api
+  label: Oracle WebLogic Server Diagnostics API
+  slug: oracle-weblogic-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-clusters-api-openapi.yml
-- filename: weblogic-data-sources-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-diagnostics-api-openapi.yml
+- filename: oracle-weblogic-edit-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Data Sources API
-  slug: weblogic-data-sources-api
+  label: Oracle WebLogic Server Edit API
+  slug: oracle-weblogic-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-data-sources-api-openapi.yml
-- filename: weblogic-deployment-operations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-edit-api-openapi.yml
+- filename: oracle-weblogic-health-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Deployment Operations API
-  slug: weblogic-deployment-operations-api
+  label: Oracle WebLogic Server Health API
+  slug: oracle-weblogic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-deployment-operations-api-openapi.yml
-- filename: weblogic-diagnostics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-health-api-openapi.yml
+- filename: oracle-weblogic-lifecycle-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Diagnostics API
-  slug: weblogic-diagnostics-api
+  label: Oracle WebLogic Server Lifecycle API
+  slug: oracle-weblogic-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-diagnostics-api-openapi.yml
-- filename: weblogic-domain-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-lifecycle-api-openapi.yml
+- filename: oracle-weblogic-upload-api-openapi.yml
   format: yaml
-  label: Oracle WebLogic Server APIs Domain Configuration API
-  slug: weblogic-domain-configuration-api
+  label: Oracle WebLogic Server Upload API
+  slug: oracle-weblogic-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-domain-configuration-api-openapi.yml
-- filename: weblogic-domain-runtime-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Domain Runtime API
-  slug: weblogic-domain-runtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-domain-runtime-api-openapi.yml
-- filename: weblogic-edit-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Edit API
-  slug: weblogic-edit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-edit-api-openapi.yml
-- filename: weblogic-health-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Health API
-  slug: weblogic-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-health-api-openapi.yml
-- filename: weblogic-jms-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs JMS API
-  slug: weblogic-jms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-jms-api-openapi.yml
-- filename: weblogic-library-deployments-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Library Deployments API
-  slug: weblogic-library-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-library-deployments-api-openapi.yml
-- filename: weblogic-lifecycle-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Lifecycle API
-  slug: weblogic-lifecycle-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-lifecycle-api-openapi.yml
-- filename: weblogic-server-configuration-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Server Configuration API
-  slug: weblogic-server-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-server-configuration-api-openapi.yml
-- filename: weblogic-server-runtime-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Server Runtime API
-  slug: weblogic-server-runtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-server-runtime-api-openapi.yml
-- filename: weblogic-servers-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Servers API
-  slug: weblogic-servers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-servers-api-openapi.yml
-- filename: weblogic-upload-api-openapi.yml
-  format: yaml
-  label: Oracle WebLogic Server APIs Upload API
-  slug: weblogic-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/weblogic-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-upload-api-openapi.yml
 auth_types:
 - http
 description: ''

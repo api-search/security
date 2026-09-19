@@ -36,7 +36,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Product Information Management
-- PIM
 - E-Commerce
 - Product Data Syndication
 - Retail

@@ -53,7 +53,7 @@ tags:
 - Content
 - Media
 - Social
-- Recommendation
+- Recommendations
 - Publishing
 - ByteDance
 - China

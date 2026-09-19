@@ -29,7 +29,7 @@ tags:
 - Escrow
 - Fintech
 - Cross-Border Payments
-- Marketplaces
+- Marketplace
 - Compliance
 - KYC
 - Trust and Safety

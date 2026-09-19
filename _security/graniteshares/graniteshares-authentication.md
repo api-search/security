@@ -50,7 +50,7 @@ tags:
 - Fintech
 - ETFs
 - Asset Management
-- Investments
+- Investment
 - Leveraged ETFs
 - Financial-Services
 ---

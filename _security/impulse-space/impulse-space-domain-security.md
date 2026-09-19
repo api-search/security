@@ -37,5 +37,5 @@ tags:
 - Orbital Transfer
 - In-Space Mobility
 - Launch Services
-- Satellites
+- Satellite
 ---

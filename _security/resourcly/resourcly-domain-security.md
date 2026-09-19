@@ -30,12 +30,6 @@ api_specs:
   slug: resourcly-business-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-business-api-openapi.yml
-- filename: resourcly-datasources-api-openapi.yml
-  format: yaml
-  label: Resourcly datasources API
-  slug: resourcly-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-datasources-api-openapi.yml
 - filename: resourcly-documents-api-openapi.yml
   format: yaml
   label: Resourcly documents API
@@ -132,6 +126,12 @@ api_specs:
   slug: resourcly-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-upload-api-openapi.yml
+- filename: resourcly-data-sources-api-openapi.yml
+  format: yaml
+  label: Resourcly Data Sources API
+  slug: resourcly-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-data-sources-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -40,11 +40,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/security/culture-amp-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 tags:
-- HR
+- Human Resources
 - Employee Engagement
 - Performance Management
 - People Analytics
 - Surveys
-- Human Resources
 trust_url: https://security.cultureamp.com/
 ---

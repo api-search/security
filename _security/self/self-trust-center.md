@@ -26,7 +26,7 @@ tags:
 - Consumer Finance
 - Banking
 - Financial-Services
-- Credit Card
+- Credit Cards
 - Lending
 trust_url: https://www.self.inc/trust
 ---

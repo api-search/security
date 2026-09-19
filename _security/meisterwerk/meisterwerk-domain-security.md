@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Software-as-a-Service
-- Trades
+- Trade
 - Handwerk
 - Field Service
 - Scheduling

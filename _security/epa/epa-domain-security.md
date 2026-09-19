@@ -354,12 +354,6 @@ api_specs:
   slug: epa-glossary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-glossary-api-openapi.yml
-- filename: epa-graphql-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency GraphQL API
-  slug: epa-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-graphql-api-openapi.yml
 - filename: epa-health-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Health API
@@ -456,12 +450,6 @@ api_specs:
   slug: epa-mats-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-mats-methods-api-openapi.yml
-- filename: epa-meta-data-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Meta Data API
-  slug: epa-meta-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-meta-data-api-openapi.yml
 - filename: epa-metadata-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Metadata API
@@ -624,12 +612,6 @@ api_specs:
   slug: epa-sample-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-sample-data-api-openapi.yml
-- filename: epa-sign-up-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Sign Up API
-  slug: epa-sign-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-sign-up-api-openapi.yml
 - filename: epa-spans-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Spans API
@@ -768,6 +750,18 @@ api_specs:
   slug: epa-uv-index-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-uv-index-api-openapi.yml
+- filename: epa-graph-ql-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Graph QL API
+  slug: epa-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-graph-ql-api-openapi.yml
+- filename: epa-signup-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Signup API
+  slug: epa-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/openapi/epa-signup-api-openapi.yml
 description: ''
 domains:
 - caa: []

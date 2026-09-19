@@ -84,12 +84,6 @@ api_specs:
   slug: amazon-inspector-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/openapi/amazon-inspector-members-api-openapi.yml
-- filename: amazon-inspector-organizationconfiguration-api-openapi.yml
-  format: yaml
-  label: Amazon Inspector Organizationconfiguration API
-  slug: amazon-inspector-organizationconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/openapi/amazon-inspector-organizationconfiguration-api-openapi.yml
 - filename: amazon-inspector-reporting-api-openapi.yml
   format: yaml
   label: Amazon Inspector Reporting API
@@ -132,6 +126,12 @@ api_specs:
   slug: amazon-inspector-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/openapi/amazon-inspector-vulnerabilities-api-openapi.yml
+- filename: amazon-inspector-organization-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Organization Configuration API
+  slug: amazon-inspector-organization-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/openapi/amazon-inspector-organization-configuration-api-openapi.yml
 description: ''
 domains:
 - caa: []

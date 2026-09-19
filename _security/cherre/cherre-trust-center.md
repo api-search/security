@@ -6,12 +6,12 @@ api_specs:
   slug: cherre-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-auth-api-openapi.yml
-- filename: cherre-graphql-api-openapi.yml
+- filename: cherre-graph-ql-api-openapi.yml
   format: yaml
-  label: Cherre GraphQL API
-  slug: cherre-graphql-api
+  label: Cherre Graph QL API
+  slug: cherre-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graph-ql-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

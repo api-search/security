@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000
 - Healthcare
-- Health Care Services
+- Healthcare Services
 - Physician Services
 - Pediatrics
 - Neonatology

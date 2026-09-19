@@ -14,24 +14,12 @@ api_specs:
   slug: harri-annualrates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-annualrates-api-openapi.yml
-- filename: harri-bankaccounts-api-openapi.yml
-  format: yaml
-  label: Harri Bank Accounts API
-  slug: harri-bankaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-bankaccounts-api-openapi.yml
 - filename: harri-corporate-users-api-openapi.yml
   format: yaml
   label: Harri Corporate Users API
   slug: harri-corporate-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-corporate-users-api-openapi.yml
-- filename: harri-costcenters-api-openapi.yml
-  format: yaml
-  label: Harri Cost Centers API
-  slug: harri-costcenters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-costcenters-api-openapi.yml
 - filename: harri-deprecated-annualrates-api-openapi.yml
   format: yaml
   label: Harri Deprecated AnnualRates API
@@ -398,12 +386,6 @@ api_specs:
   slug: harri-hourlyrates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-hourlyrates-api-openapi.yml
-- filename: harri-jobtitle-api-openapi.yml
-  format: yaml
-  label: Harri Job Title API
-  slug: harri-jobtitle-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-jobtitle-api-openapi.yml
 - filename: harri-location-api-openapi.yml
   format: yaml
   label: Harri Location API
@@ -470,6 +452,24 @@ api_specs:
   slug: harri-troncs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-troncs-api-openapi.yml
+- filename: harri-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Harri Bank Accounts API
+  slug: harri-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-bank-accounts-api-openapi.yml
+- filename: harri-cost-centers-api-openapi.yml
+  format: yaml
+  label: Harri Cost Centers API
+  slug: harri-cost-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-cost-centers-api-openapi.yml
+- filename: harri-job-title-api-openapi.yml
+  format: yaml
+  label: Harri Job Title API
+  slug: harri-job-title-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/openapi/harri-job-title-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

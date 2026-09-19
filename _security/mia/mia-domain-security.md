@@ -40,7 +40,7 @@ tags:
 - Automotive
 - Dealership
 - Phone Agent
-- Customer Communications
+- Customer Communication
 - SMS
 - Automotive Retail
 ---

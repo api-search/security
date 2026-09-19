@@ -3,36 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: advancedmd-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: AdvancedMD Allergy Intolerance API
-  slug: advancedmd-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-allergyintolerance-api-openapi.yml
 - filename: advancedmd-authentication-api-openapi.yml
   format: yaml
   label: AdvancedMD Authentication API
   slug: advancedmd-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-authentication-api-openapi.yml
-- filename: advancedmd-c-cda-api-openapi.yml
-  format: yaml
-  label: AdvancedMD C CDA API
-  slug: advancedmd-c-cda-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-c-cda-api-openapi.yml
 - filename: advancedmd-cancel-bulk-data-export-api-openapi.yml
   format: yaml
   label: AdvancedMD Cancel Bulk Data Export API
   slug: advancedmd-cancel-bulk-data-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-cancel-bulk-data-export-api-openapi.yml
-- filename: advancedmd-careplan-api-openapi.yml
-  format: yaml
-  label: AdvancedMD Care Plan API
-  slug: advancedmd-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-careplan-api-openapi.yml
 - filename: advancedmd-careteam-api-openapi.yml
   format: yaml
   label: AdvancedMD Care Team API
@@ -75,12 +57,6 @@ api_specs:
   slug: advancedmd-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-diagnosticreport-api-openapi.yml
-- filename: advancedmd-documentreference-api-openapi.yml
-  format: yaml
-  label: AdvancedMD Document Reference API
-  slug: advancedmd-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-documentreference-api-openapi.yml
 - filename: advancedmd-encounter-api-openapi.yml
   format: yaml
   label: AdvancedMD Encounter API
@@ -117,12 +93,6 @@ api_specs:
   slug: advancedmd-medicationdispense-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-medicationdispense-api-openapi.yml
-- filename: advancedmd-medicationrequest-api-openapi.yml
-  format: yaml
-  label: AdvancedMD Medication Request API
-  slug: advancedmd-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-medicationrequest-api-openapi.yml
 - filename: advancedmd-observation-api-openapi.yml
   format: yaml
   label: AdvancedMD Observation API
@@ -183,6 +153,36 @@ api_specs:
   slug: advancedmd-start-bulk-data-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-start-bulk-data-export-api-openapi.yml
+- filename: advancedmd-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: AdvancedMD Allergy Intolerance API
+  slug: advancedmd-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-allergy-intolerance-api-openapi.yml
+- filename: advancedmd-care-plan-api-openapi.yml
+  format: yaml
+  label: AdvancedMD Care plan API
+  slug: advancedmd-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-care-plan-api-openapi.yml
+- filename: advancedmd-ccda-api-openapi.yml
+  format: yaml
+  label: AdvancedMD CCDA API
+  slug: advancedmd-ccda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-ccda-api-openapi.yml
+- filename: advancedmd-document-reference-api-openapi.yml
+  format: yaml
+  label: AdvancedMD Document Reference API
+  slug: advancedmd-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-document-reference-api-openapi.yml
+- filename: advancedmd-medication-request-api-openapi.yml
+  format: yaml
+  label: AdvancedMD Medication Request API
+  slug: advancedmd-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-medication-request-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

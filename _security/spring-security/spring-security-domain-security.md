@@ -100,4 +100,5 @@ tags:
 - SAML
 - Security
 - Spring Framework
+- Identity Federation
 ---

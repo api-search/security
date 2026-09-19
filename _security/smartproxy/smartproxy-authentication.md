@@ -15,12 +15,6 @@ api_specs:
   slug: smartproxy-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-endpoints-api-openapi.yml
-- filename: smartproxy-sub-users-api-openapi.yml
-  format: yaml
-  label: Smartproxy Sub-Users API
-  slug: smartproxy-sub-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-sub-users-api-openapi.yml
 - filename: smartproxy-subscriptions-api-openapi.yml
   format: yaml
   label: Smartproxy Subscriptions API
@@ -39,6 +33,12 @@ api_specs:
   slug: smartproxy-whitelisted-ips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-whitelisted-ips-api-openapi.yml
+- filename: smartproxy-subusers-api-openapi.yml
+  format: yaml
+  label: Smartproxy Subusers API
+  slug: smartproxy-subusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-subusers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

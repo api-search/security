@@ -50,25 +50,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-electricity-usage-api-openapi.yml
 - filename: origin-energy-energy-account-balances-api-openapi.yml
   format: yaml
-  label: Origin Energy Energy Account Balances API
+  label: Origin Energy Account Balances API
   slug: origin-energy-energy-account-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-account-balances-api-openapi.yml
 - filename: origin-energy-energy-account-billing-api-openapi.yml
   format: yaml
-  label: Origin Energy Energy Account Billing API
+  label: Origin Energy Account Billing API
   slug: origin-energy-energy-account-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-account-billing-api-openapi.yml
 - filename: origin-energy-energy-accounts-api-openapi.yml
   format: yaml
-  label: Origin Energy Energy Accounts API
+  label: Origin Energy Accounts API
   slug: origin-energy-energy-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-accounts-api-openapi.yml
 - filename: origin-energy-energy-plans-api-openapi.yml
   format: yaml
-  label: Origin Energy Energy Plans API
+  label: Origin Energy Plans API
   slug: origin-energy-energy-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-plans-api-openapi.yml

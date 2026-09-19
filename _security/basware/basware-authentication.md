@@ -26,12 +26,6 @@ api_specs:
   slug: basware-advancedvalidations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-advancedvalidations-api-openapi.yml
-- filename: basware-applicationgroups-api-openapi.yml
-  format: yaml
-  label: Basware ApplicationGroups API
-  slug: basware-applicationgroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-applicationgroups-api-openapi.yml
 - filename: basware-companies-deprecated-api-openapi.yml
   format: yaml
   label: Basware Companies (deprecated) API
@@ -44,12 +38,6 @@ api_specs:
   slug: basware-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-contracts-api-openapi.yml
-- filename: basware-costcenters-api-openapi.yml
-  format: yaml
-  label: Basware CostCenters API
-  slug: basware-costcenters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-costcenters-api-openapi.yml
 - filename: basware-data-extract-api-openapi.yml
   format: yaml
   label: Basware Data extract API
@@ -64,7 +52,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-directory-france-lookup-api-openapi.yml
 - filename: basware-document-import-api-api-openapi.yml
   format: yaml
-  label: Basware Document Import API API
+  label: Basware Document Import API
   slug: basware-document-import-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-document-import-api-api-openapi.yml
@@ -74,12 +62,6 @@ api_specs:
   slug: basware-errorfeedbacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-errorfeedbacks-api-openapi.yml
-- filename: basware-exchangerates-api-openapi.yml
-  format: yaml
-  label: Basware ExchangeRates API
-  slug: basware-exchangerates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-exchangerates-api-openapi.yml
 - filename: basware-exportedcontracts-api-openapi.yml
   format: yaml
   label: Basware ExportedContracts API
@@ -134,12 +116,6 @@ api_specs:
   slug: basware-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-organizations-api-openapi.yml
-- filename: basware-paymentterms-api-openapi.yml
-  format: yaml
-  label: Basware PaymentTerms API
-  slug: basware-paymentterms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-paymentterms-api-openapi.yml
 - filename: basware-projects-v1-deprecated-api-openapi.yml
   format: yaml
   label: Basware Projects v1 (deprecated) API
@@ -158,36 +134,12 @@ api_specs:
   slug: basware-purchasegoodsreceipts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-purchasegoodsreceipts-api-openapi.yml
-- filename: basware-purchaseorders-api-openapi.yml
-  format: yaml
-  label: Basware PurchaseOrders API
-  slug: basware-purchaseorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-purchaseorders-api-openapi.yml
-- filename: basware-purchaserequisitions-api-openapi.yml
-  format: yaml
-  label: Basware PurchaseRequisitions API
-  slug: basware-purchaserequisitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-purchaserequisitions-api-openapi.yml
-- filename: basware-requeststatus-api-openapi.yml
-  format: yaml
-  label: Basware RequestStatus API
-  slug: basware-requeststatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-requeststatus-api-openapi.yml
 - filename: basware-subscribe-to-notifications-api-openapi.yml
   format: yaml
   label: Basware Subscribe to notifications API
   slug: basware-subscribe-to-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-subscribe-to-notifications-api-openapi.yml
-- filename: basware-taxcodes-api-openapi.yml
-  format: yaml
-  label: Basware TaxCodes API
-  slug: basware-taxcodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-taxcodes-api-openapi.yml
 - filename: basware-tokens-api-openapi.yml
   format: yaml
   label: Basware Tokens API
@@ -200,12 +152,6 @@ api_specs:
   slug: basware-usergroupassociatedusers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-usergroupassociatedusers-api-openapi.yml
-- filename: basware-usergroups-api-openapi.yml
-  format: yaml
-  label: Basware UserGroups API
-  slug: basware-usergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-usergroups-api-openapi.yml
 - filename: basware-users-api-openapi.yml
   format: yaml
   label: Basware Users API
@@ -236,6 +182,60 @@ api_specs:
   slug: basware-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-well-known-api-openapi.yml
+- filename: basware-application-groups-api-openapi.yml
+  format: yaml
+  label: Basware Application Groups API
+  slug: basware-application-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-application-groups-api-openapi.yml
+- filename: basware-cost-centers-api-openapi.yml
+  format: yaml
+  label: Basware Cost Centers API
+  slug: basware-cost-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-cost-centers-api-openapi.yml
+- filename: basware-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Basware Exchange Rates API
+  slug: basware-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-exchange-rates-api-openapi.yml
+- filename: basware-payment-terms-api-openapi.yml
+  format: yaml
+  label: Basware Payment Terms API
+  slug: basware-payment-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-payment-terms-api-openapi.yml
+- filename: basware-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Basware Purchase Orders API
+  slug: basware-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-purchase-orders-api-openapi.yml
+- filename: basware-purchase-requisitions-api-openapi.yml
+  format: yaml
+  label: Basware Purchase Requisitions API
+  slug: basware-purchase-requisitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-purchase-requisitions-api-openapi.yml
+- filename: basware-request-status-api-openapi.yml
+  format: yaml
+  label: Basware Request Status API
+  slug: basware-request-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-request-status-api-openapi.yml
+- filename: basware-tax-codes-api-openapi.yml
+  format: yaml
+  label: Basware Tax Codes API
+  slug: basware-tax-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-tax-codes-api-openapi.yml
+- filename: basware-user-groups-api-openapi.yml
+  format: yaml
+  label: Basware User Groups API
+  slug: basware-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-user-groups-api-openapi.yml
 auth_types:
 - http
 - oauth2

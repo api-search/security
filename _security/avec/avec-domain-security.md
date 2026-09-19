@@ -37,6 +37,6 @@ tags:
 - Artificial Intelligence
 - Gmail
 - Email Management
-- Consumer Application
+- Consumer Applications
 - iOS
 ---

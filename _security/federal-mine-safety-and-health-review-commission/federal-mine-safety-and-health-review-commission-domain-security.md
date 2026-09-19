@@ -34,7 +34,7 @@ tags:
 - Federal-Government
 - Mine Safety
 - Adjudication
-- Occupational-Safety
+- Occupational Safety
 - Legal
 - Regulatory-Enforcement
 ---

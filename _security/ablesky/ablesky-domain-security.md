@@ -75,7 +75,7 @@ tags:
 - E-Learning
 - Online Courses
 - Learning Management
-- SaaS
+- Software-as-a-Service
 - Training
 - K-12
 - Live Streaming

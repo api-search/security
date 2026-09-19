@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosign/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache 2.0
-- Attestations
+- Attestation
 - CLI
 - Code Signing
 - Containers

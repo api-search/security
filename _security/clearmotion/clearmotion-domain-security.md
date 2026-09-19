@@ -36,7 +36,7 @@ tags:
 - Automotive Technology
 - Suspension
 - Mobility
-- Connected Vehicle
+- Connected Vehicles
 - Road Data
 - Machine-Learning
 - ADAS

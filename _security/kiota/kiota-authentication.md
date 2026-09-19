@@ -40,7 +40,7 @@ tags:
 - OpenAPI
 - SDK
 - Developer Tools
-- API Clients
+- API Client
 - Open-Source
 - CLI
 - JSON-Schema

@@ -122,7 +122,7 @@ tags:
 - Criminal Records
 - Compliance
 - Trust and Safety
-- HR Tech
+- Human Resources
 - Recruiting
 - PropTech
 - Tenant Screening

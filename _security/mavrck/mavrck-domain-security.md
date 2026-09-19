@@ -6,12 +6,6 @@ api_specs:
   slug: mavrck-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-instance-level-api-openapi.yml
-- filename: mavrck-accountinvitations-api-openapi.yml
-  format: yaml
-  label: Mavrck Account Invitations API
-  slug: mavrck-accountinvitations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-accountinvitations-api-openapi.yml
 - filename: mavrck-action-groups-api-openapi.yml
   format: yaml
   label: Mavrck Action Groups API
@@ -48,12 +42,6 @@ api_specs:
   slug: mavrck-actiongroupcustomstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-actiongroupcustomstatuses-api-openapi.yml
-- filename: mavrck-actiongroups-api-openapi.yml
-  format: yaml
-  label: Mavrck Action Groups API
-  slug: mavrck-actiongroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-actiongroups-api-openapi.yml
 - filename: mavrck-actiongroupscheduledmessages-api-openapi.yml
   format: yaml
   label: Mavrck Action Group Scheduled Messages API
@@ -144,12 +132,6 @@ api_specs:
   slug: mavrck-backfill-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-backfill-analytics-api-openapi.yml
-- filename: mavrck-batchjobs-api-openapi.yml
-  format: yaml
-  label: Mavrck Batch Jobs API
-  slug: mavrck-batchjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-batchjobs-api-openapi.yml
 - filename: mavrck-bazaarvoice-api-openapi.yml
   format: yaml
   label: Mavrck Bazaar Voice API
@@ -318,12 +300,6 @@ api_specs:
   slug: mavrck-datapoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-datapoints-api-openapi.yml
-- filename: mavrck-datasubjectrequest-api-openapi.yml
-  format: yaml
-  label: Mavrck Data Subject Request API
-  slug: mavrck-datasubjectrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-datasubjectrequest-api-openapi.yml
 - filename: mavrck-dbinfluenceragreementhistoryfields-api-openapi.yml
   format: yaml
   label: Mavrck DB Influencer Agreement History Fields API
@@ -366,48 +342,18 @@ api_specs:
   slug: mavrck-email-suppressions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-email-suppressions-api-openapi.yml
-- filename: mavrck-emailsettings-api-openapi.yml
-  format: yaml
-  label: Mavrck Email Settings API
-  slug: mavrck-emailsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-emailsettings-api-openapi.yml
 - filename: mavrck-entitlements-api-openapi.yml
   format: yaml
   label: Mavrck Entitlements API
   slug: mavrck-entitlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-entitlements-api-openapi.yml
-- filename: mavrck-eventlogs-api-openapi.yml
-  format: yaml
-  label: Mavrck Event Logs API
-  slug: mavrck-eventlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-eventlogs-api-openapi.yml
-- filename: mavrck-exchangerates-api-openapi.yml
-  format: yaml
-  label: Mavrck Exchange Rates API
-  slug: mavrck-exchangerates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-exchangerates-api-openapi.yml
-- filename: mavrck-expiringaccesstokens-api-openapi.yml
-  format: yaml
-  label: Mavrck Expiring Access Tokens API
-  slug: mavrck-expiringaccesstokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-expiringaccesstokens-api-openapi.yml
 - filename: mavrck-exports-api-openapi.yml
   format: yaml
   label: Mavrck Exports API
   slug: mavrck-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-exports-api-openapi.yml
-- filename: mavrck-externalclients-api-openapi.yml
-  format: yaml
-  label: Mavrck External Clients API
-  slug: mavrck-externalclients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-externalclients-api-openapi.yml
 - filename: mavrck-facebookprofile-api-openapi.yml
   format: yaml
   label: Mavrck Facebook Profile API
@@ -426,12 +372,6 @@ api_specs:
   slug: mavrck-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-features-api-openapi.yml
-- filename: mavrck-giftcards-api-openapi.yml
-  format: yaml
-  label: Mavrck Gift Cards API
-  slug: mavrck-giftcards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-giftcards-api-openapi.yml
 - filename: mavrck-globaluser-api-openapi.yml
   format: yaml
   label: Mavrck Global User API
@@ -714,18 +654,6 @@ api_specs:
   slug: mavrck-openaisearch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-openaisearch-api-openapi.yml
-- filename: mavrck-optin-api-openapi.yml
-  format: yaml
-  label: Mavrck Opt In API
-  slug: mavrck-optin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-optin-api-openapi.yml
-- filename: mavrck-paymentaccount-api-openapi.yml
-  format: yaml
-  label: Mavrck Payment Account API
-  slug: mavrck-paymentaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-paymentaccount-api-openapi.yml
 - filename: mavrck-paymentappadmins-api-openapi.yml
   format: yaml
   label: Mavrck Payment App Admins API
@@ -828,12 +756,6 @@ api_specs:
   slug: mavrck-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-public-api-openapi.yml
-- filename: mavrck-referralprogram-api-openapi.yml
-  format: yaml
-  label: Mavrck Referral Program API
-  slug: mavrck-referralprogram-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-referralprogram-api-openapi.yml
 - filename: mavrck-reports-api-openapi.yml
   format: yaml
   label: Mavrck Reports API
@@ -890,7 +812,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-shopifyaccount-api-openapi.yml
 - filename: mavrck-shopifyadminapi-api-openapi.yml
   format: yaml
-  label: Mavrck Shopify Admin API API
+  label: Mavrck Shopify Admin API
   slug: mavrck-shopifyadminapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-shopifyadminapi-api-openapi.yml
@@ -924,12 +846,6 @@ api_specs:
   slug: mavrck-specs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-specs-api-openapi.yml
-- filename: mavrck-stripepayments-api-openapi.yml
-  format: yaml
-  label: Mavrck Stripe Payments API
-  slug: mavrck-stripepayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-stripepayments-api-openapi.yml
 - filename: mavrck-subscribers-api-openapi.yml
   format: yaml
   label: Mavrck Subscribers API
@@ -990,12 +906,6 @@ api_specs:
   slug: mavrck-tracking-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-tracking-link-api-openapi.yml
-- filename: mavrck-trackinglinks-api-openapi.yml
-  format: yaml
-  label: Mavrck Tracking Links API
-  slug: mavrck-trackinglinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-trackinglinks-api-openapi.yml
 - filename: mavrck-translations-api-openapi.yml
   format: yaml
   label: Mavrck Translations API
@@ -1014,12 +924,6 @@ api_specs:
   slug: mavrck-urlmetadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-urlmetadata-api-openapi.yml
-- filename: mavrck-useraccount-api-openapi.yml
-  format: yaml
-  label: Mavrck User Account API
-  slug: mavrck-useraccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-useraccount-api-openapi.yml
 - filename: mavrck-webhooks-api-openapi.yml
   format: yaml
   label: Mavrck Webhooks API
@@ -1086,6 +990,96 @@ api_specs:
   slug: mavrck-social-network-level-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-social-network-level-api-openapi.yml
+- filename: mavrck-account-invitations-api-openapi.yml
+  format: yaml
+  label: Mavrck Account Invitations API
+  slug: mavrck-account-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-account-invitations-api-openapi.yml
+- filename: mavrck-batch-jobs-api-openapi.yml
+  format: yaml
+  label: Mavrck Batch Jobs API
+  slug: mavrck-batch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-batch-jobs-api-openapi.yml
+- filename: mavrck-data-subject-request-api-openapi.yml
+  format: yaml
+  label: Mavrck Data Subject Request API
+  slug: mavrck-data-subject-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-data-subject-request-api-openapi.yml
+- filename: mavrck-email-settings-api-openapi.yml
+  format: yaml
+  label: Mavrck Email Settings API
+  slug: mavrck-email-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-email-settings-api-openapi.yml
+- filename: mavrck-event-logs-api-openapi.yml
+  format: yaml
+  label: Mavrck Event Logs API
+  slug: mavrck-event-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-event-logs-api-openapi.yml
+- filename: mavrck-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Mavrck Exchange Rates API
+  slug: mavrck-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-exchange-rates-api-openapi.yml
+- filename: mavrck-expiring-access-tokens-api-openapi.yml
+  format: yaml
+  label: Mavrck Expiring Access Tokens API
+  slug: mavrck-expiring-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-expiring-access-tokens-api-openapi.yml
+- filename: mavrck-external-clients-api-openapi.yml
+  format: yaml
+  label: Mavrck External Clients API
+  slug: mavrck-external-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-external-clients-api-openapi.yml
+- filename: mavrck-gift-cards-api-openapi.yml
+  format: yaml
+  label: Mavrck Gift Cards API
+  slug: mavrck-gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-gift-cards-api-openapi.yml
+- filename: mavrck-opt-in-api-openapi.yml
+  format: yaml
+  label: Mavrck Opt In API
+  slug: mavrck-opt-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-opt-in-api-openapi.yml
+- filename: mavrck-payment-account-api-openapi.yml
+  format: yaml
+  label: Mavrck Payment Account API
+  slug: mavrck-payment-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-payment-account-api-openapi.yml
+- filename: mavrck-referral-program-api-openapi.yml
+  format: yaml
+  label: Mavrck Referral Program API
+  slug: mavrck-referral-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-referral-program-api-openapi.yml
+- filename: mavrck-stripe-payments-api-openapi.yml
+  format: yaml
+  label: Mavrck Stripe Payments API
+  slug: mavrck-stripe-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-stripe-payments-api-openapi.yml
+- filename: mavrck-tracking-links-api-openapi.yml
+  format: yaml
+  label: Mavrck Tracking Links API
+  slug: mavrck-tracking-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-tracking-links-api-openapi.yml
+- filename: mavrck-user-account-api-openapi.yml
+  format: yaml
+  label: Mavrck User Account API
+  slug: mavrck-user-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-user-account-api-openapi.yml
 description: ''
 domains:
 - caa: []

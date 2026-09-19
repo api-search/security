@@ -7,7 +7,7 @@ domains:
   domain: dredd.org
   spf: false
 hosts:
-- cert_expires: Oct  3 20:30:06 2026 GMT
+- cert_expires: Dec  2 03:01:56 2026 GMT
   host: dredd.org
   hsts: false
   https: true
@@ -25,7 +25,7 @@ slug: dredd-domain-security
 source_filename: dredd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dredd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 20:30:06 2026 GMT\n  hsts: false\ndomains:\n- domain: dredd.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dredd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 03:01:56 2026 GMT\n  hsts: false\ndomains:\n- domain: dredd.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/security/dredd-domain-security.yml
 summary_line: TLSv1.3
 tags:
@@ -34,4 +34,9 @@ tags:
 - OpenAPI
 - API Blueprint
 - Tooling
+- Developer Tools
+- Command Line
+- Continuous Integration
+- JSON-Schema
+- Open-Source
 ---

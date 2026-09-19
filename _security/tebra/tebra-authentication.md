@@ -27,18 +27,6 @@ api_specs:
   slug: tebra-patient-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-patient-api-openapi.yml
-- filename: tebra-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Tebra Allergy Intolerance API
-  slug: tebra-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-allergyintolerance-api-openapi.yml
-- filename: tebra-careplan-api-openapi.yml
-  format: yaml
-  label: Tebra Care Plan API
-  slug: tebra-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-careplan-api-openapi.yml
 - filename: tebra-careteam-api-openapi.yml
   format: yaml
   label: Tebra Care Team API
@@ -63,12 +51,6 @@ api_specs:
   slug: tebra-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-diagnosticreport-api-openapi.yml
-- filename: tebra-documentreference-api-openapi.yml
-  format: yaml
-  label: Tebra Document Reference API
-  slug: tebra-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documentreference-api-openapi.yml
 - filename: tebra-encounter-api-openapi.yml
   format: yaml
   label: Tebra Encounter API
@@ -99,12 +81,6 @@ api_specs:
   slug: tebra-medication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-api-openapi.yml
-- filename: tebra-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Tebra Medication Request API
-  slug: tebra-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medicationrequest-api-openapi.yml
 - filename: tebra-observation-api-openapi.yml
   format: yaml
   label: Tebra Observation API
@@ -123,12 +99,6 @@ api_specs:
   slug: tebra-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-api-openapi.yml
-- filename: tebra-practitionerrole-api-openapi.yml
-  format: yaml
-  label: Tebra Practitioner Role API
-  slug: tebra-practitionerrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitionerrole-api-openapi.yml
 - filename: tebra-procedure-api-openapi.yml
   format: yaml
   label: Tebra Procedure API
@@ -141,6 +111,36 @@ api_specs:
   slug: tebra-provenance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-provenance-api-openapi.yml
+- filename: tebra-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Tebra Allergy Intolerance API
+  slug: tebra-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-allergy-intolerance-api-openapi.yml
+- filename: tebra-care-plan-api-openapi.yml
+  format: yaml
+  label: Tebra Care plan API
+  slug: tebra-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-care-plan-api-openapi.yml
+- filename: tebra-document-reference-api-openapi.yml
+  format: yaml
+  label: Tebra Document Reference API
+  slug: tebra-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-document-reference-api-openapi.yml
+- filename: tebra-medication-request-api-openapi.yml
+  format: yaml
+  label: Tebra Medication Request API
+  slug: tebra-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-request-api-openapi.yml
+- filename: tebra-practitioner-role-api-openapi.yml
+  format: yaml
+  label: Tebra Practitioner Role API
+  slug: tebra-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-role-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

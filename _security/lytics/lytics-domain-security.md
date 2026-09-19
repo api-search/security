@@ -42,18 +42,6 @@ api_specs:
   slug: lytics-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-content-api-openapi.yml
-- filename: lytics-datamodels-api-openapi.yml
-  format: yaml
-  label: Lytics Data Models API
-  slug: lytics-datamodels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-datamodels-api-openapi.yml
-- filename: lytics-dataupload-api-openapi.yml
-  format: yaml
-  label: Lytics Data Upload API
-  slug: lytics-dataupload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-dataupload-api-openapi.yml
 - filename: lytics-experience-api-openapi.yml
   format: yaml
   label: Lytics Experience API
@@ -204,6 +192,18 @@ api_specs:
   slug: lytics-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-workflow-api-openapi.yml
+- filename: lytics-data-models-api-openapi.yml
+  format: yaml
+  label: Lytics Data models API
+  slug: lytics-data-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-data-models-api-openapi.yml
+- filename: lytics-data-upload-api-openapi.yml
+  format: yaml
+  label: Lytics Data Upload API
+  slug: lytics-data-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/openapi/lytics-data-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []

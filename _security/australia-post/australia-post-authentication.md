@@ -44,7 +44,7 @@ tags:
 - Delivery
 - E-Commerce
 - Labels
-- Locations
+- Location
 - Logistics
 - Parcel Locker
 - Postal

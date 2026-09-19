@@ -12,12 +12,6 @@ api_specs:
   slug: mindmaze-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-media-api-openapi.yml
-- filename: mindmaze-oembed-api-openapi.yml
-  format: yaml
-  label: MindMaze O Embed API
-  slug: mindmaze-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-oembed-api-openapi.yml
 - filename: mindmaze-pages-api-openapi.yml
   format: yaml
   label: MindMaze Pages API
@@ -42,6 +36,12 @@ api_specs:
   slug: mindmaze-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-taxonomy-api-openapi.yml
+- filename: mindmaze-o-embed-api-openapi.yml
+  format: yaml
+  label: MindMaze o Embed API
+  slug: mindmaze-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

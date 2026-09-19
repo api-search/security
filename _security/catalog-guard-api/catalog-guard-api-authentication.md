@@ -35,7 +35,7 @@ tags:
 - catalog-validation
 - Shopify
 - Data Quality
-- csv-validation
+- CSV validation
 - product-data-qa
 - data-preflight
 - Data Validation

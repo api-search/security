@@ -55,7 +55,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Regenerative Agriculture
 - Food and Beverage
 - Shopify

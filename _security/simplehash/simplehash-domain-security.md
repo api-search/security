@@ -47,7 +47,7 @@ tags:
 - Blockchain
 - Web3
 - Cryptocurrency
-- Token
+- Tokens
 - Metadata
 - Multi-Chain
 - Ethereum

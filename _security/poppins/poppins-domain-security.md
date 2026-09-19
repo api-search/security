@@ -35,7 +35,7 @@ tags:
 - Health
 - Digital Health
 - Digital Therapeutics
-- Medical Device
+- Medical Devices
 - Education
 - Dyslexia
 - Children

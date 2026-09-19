@@ -38,18 +38,18 @@ api_specs:
   slug: ksq-therapeutics-posts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ksq-therapeutics/refs/heads/main/openapi/ksq-therapeutics-posts-api-openapi.yml
-- filename: ksq-therapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: KSQ Therapeutics oEmbed API
-  slug: ksq-therapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ksq-therapeutics/refs/heads/main/openapi/ksq-therapeutics-oembed-api-openapi.yml
 - filename: ksq-therapeutics-press-release-api-openapi.yml
   format: yaml
   label: KSQ Therapeutics Press Release API
   slug: ksq-therapeutics-press-release-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ksq-therapeutics/refs/heads/main/openapi/ksq-therapeutics-press-release-api-openapi.yml
+- filename: ksq-therapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: KSQ Therapeutics o Embed API
+  slug: ksq-therapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ksq-therapeutics/refs/heads/main/openapi/ksq-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

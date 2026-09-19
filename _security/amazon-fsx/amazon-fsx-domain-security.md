@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-fsx-file-systems-api-openapi.yml
+- filename: amazon-fsx-filesystems-api-openapi.yml
   format: yaml
-  label: Amazon FSx File Systems API
-  slug: amazon-fsx-file-systems-api
+  label: Amazon FSx Filesystems API
+  slug: amazon-fsx-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/openapi/amazon-fsx-file-systems-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/openapi/amazon-fsx-filesystems-api-openapi.yml
 description: ''
 domains:
 - caa: []

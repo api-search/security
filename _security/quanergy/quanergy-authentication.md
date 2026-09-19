@@ -85,7 +85,7 @@ tags:
 - Perception
 - Crowd Management
 - Industrial Automation
-- Internet of Things
+- IoT
 - gRPC
 - Streaming
 - Hardware

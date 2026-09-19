@@ -2,7 +2,7 @@
 api_specs:
 - filename: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml
   format: yaml
-  label: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API API
+  label: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API
   slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml

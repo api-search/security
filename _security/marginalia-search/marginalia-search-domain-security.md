@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-filters-api-openapi.yml
 - filename: marginalia-search-search-api-openapi.yml
   format: yaml
-  label: Marginalia Search Search API
+  label: Marginalia Search API
   slug: marginalia-search-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-search-api-openapi.yml

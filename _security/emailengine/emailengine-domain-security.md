@@ -42,12 +42,6 @@ api_specs:
   slug: emailengine-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-logs-api-openapi.yml
-- filename: emailengine-oauth2-api-openapi.yml
-  format: yaml
-  label: EmailEngine Oauth2 API
-  slug: emailengine-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-oauth2-api-openapi.yml
 - filename: emailengine-outbox-api-openapi.yml
   format: yaml
   label: EmailEngine Outbox API
@@ -78,6 +72,12 @@ api_specs:
   slug: emailengine-webhookroutes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-webhookroutes-api-openapi.yml
+- filename: emailengine-oauth2-api-openapi.yml
+  format: yaml
+  label: EmailEngine Oauth2 API
+  slug: emailengine-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/openapi/emailengine-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

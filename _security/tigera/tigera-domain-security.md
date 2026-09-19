@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tigera-apis-api-openapi.yml
-  format: yaml
-  label: Tigera APIS API
-  slug: tigera-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
 - filename: tigera-projectcalicoorg-api-openapi.yml
   format: yaml
   label: Tigera Projectcalico Org API
@@ -24,6 +18,12 @@ api_specs:
   slug: tigera-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-version-api-openapi.yml
+- filename: tigera-apis-api-openapi.yml
+  format: yaml
+  label: Tigera APIS API
+  slug: tigera-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
 description: TLS/HSTS posture per host and DNS security records per registrable domain. Both public domains (tigera.io, calicocloud.io) publish SPF and a DMARC policy of p=reject; neither publishes DS records, so DNSSEC is not signed. tigera.io publishes no CAA record; calicocloud.io does, restricting issuance to Google Trust Services, DigiCert and Let's Encrypt. Every reachable host negotiates TLS 1.3 with HSTS at one year or more, and status.calicocloud.io is preload-eligible.
 domains:
 - caa: []

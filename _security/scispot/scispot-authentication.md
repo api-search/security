@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Laboratory
-- Life Science
+- Life Sciences
 - LIMS
 - ELN
 - Biotech

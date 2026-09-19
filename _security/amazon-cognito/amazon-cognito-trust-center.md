@@ -785,5 +785,6 @@ tags:
 - SAML
 - User Management
 - Federated Identity
+- Identity Federation
 trust_url: https://aws.amazon.com/compliance/
 ---

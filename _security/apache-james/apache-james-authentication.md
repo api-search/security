@@ -8,12 +8,6 @@ api_specs:
   slug: apache-james-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-domains-api-openapi.yml
-- filename: apache-james-healthcheck-api-openapi.yml
-  format: yaml
-  label: Apache James HealthCheck API
-  slug: apache-james-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-healthcheck-api-openapi.yml
 - filename: apache-james-mailboxes-api-openapi.yml
   format: yaml
   label: Apache James Mailboxes API
@@ -50,6 +44,12 @@ api_specs:
   slug: apache-james-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-users-api-openapi.yml
+- filename: apache-james-health-check-api-openapi.yml
+  format: yaml
+  label: Apache James Health Check API
+  slug: apache-james-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-health-check-api-openapi.yml
 auth_types:
 - http
 description: ''

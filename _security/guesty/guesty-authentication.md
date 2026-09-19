@@ -65,6 +65,6 @@ tags:
 - Hospitality
 - Property Management
 - Reservations
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 ---

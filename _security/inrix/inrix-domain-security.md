@@ -18,12 +18,6 @@ api_specs:
   slug: inrix-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-application-api-openapi.yml
-- filename: inrix-applicationmanagement-api-openapi.yml
-  format: yaml
-  label: INRIX Application Management API
-  slug: inrix-applicationmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-applicationmanagement-api-openapi.yml
 - filename: inrix-auth-api-openapi.yml
   format: yaml
   label: INRIX Auth API
@@ -42,12 +36,6 @@ api_specs:
   slug: inrix-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-device-api-openapi.yml
-- filename: inrix-emailtemplate-api-openapi.yml
-  format: yaml
-  label: INRIX Email Template API
-  slug: inrix-emailtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-emailtemplate-api-openapi.yml
 - filename: inrix-metadata-api-openapi.yml
   format: yaml
   label: INRIX Metadata API
@@ -72,12 +60,24 @@ api_specs:
   slug: inrix-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-api-openapi.yml
-- filename: inrix-usergroup-api-openapi.yml
+- filename: inrix-application-management-api-openapi.yml
+  format: yaml
+  label: INRIX Application Management API
+  slug: inrix-application-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-application-management-api-openapi.yml
+- filename: inrix-email-template-api-openapi.yml
+  format: yaml
+  label: INRIX Email Template API
+  slug: inrix-email-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-email-template-api-openapi.yml
+- filename: inrix-user-group-api-openapi.yml
   format: yaml
   label: INRIX User Group API
-  slug: inrix-usergroup-api
+  slug: inrix-user-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-usergroup-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-group-api-openapi.yml
 description: ''
 domains:
 - caa: []

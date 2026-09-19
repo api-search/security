@@ -35,5 +35,5 @@ tags:
 - Wearables
 - Continuous Glucose Monitoring
 - Diabetes
-- Internet of Things
+- IoT
 ---

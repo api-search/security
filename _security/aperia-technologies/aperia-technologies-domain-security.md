@@ -45,5 +45,5 @@ tags:
 - Automatic Tire Inflation
 - Predictive Maintenance
 - IoT
-- Connected Vehicle
+- Connected Vehicles
 ---

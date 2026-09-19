@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-codex-testnet-vmc5bxalmp-api-openapi.yml
 - filename: conduit-conduit-demo-cdk-g3-api-openapi.yml
   format: yaml
-  label: Conduit Conduit Demo Cdk G3 API
+  label: Conduit Demo Cdk G3 API
   slug: conduit-conduit-demo-cdk-g3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-conduit-demo-cdk-g3-api-openapi.yml
@@ -359,7 +359,7 @@ tags:
 - Company
 - Crypto Infrastructure
 - Blockchain
-- Rollups
+- Rollup
 - RPC Nodes
 - Web3
 - Ethereum

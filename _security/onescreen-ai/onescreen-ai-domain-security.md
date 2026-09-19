@@ -33,7 +33,7 @@ tags:
 - Company
 - Advertising
 - Out-of-Home
-- DOOH
+- Digital Out Of Home
 - Advertising Technology
 - Marketing
 - Media

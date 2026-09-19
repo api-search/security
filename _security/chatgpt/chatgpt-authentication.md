@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openapi.yaml
+- filename: chatgpt-chat-completions-api-openapi.yml
   format: yaml
   label: ChatGPT API
   slug: chatgpt-api
   spec_type: OpenAPI
-  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/openapi/chatgpt-chat-completions-api-openapi.yml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Responses API

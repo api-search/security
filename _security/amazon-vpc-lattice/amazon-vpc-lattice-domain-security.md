@@ -126,12 +126,6 @@ api_specs:
   slug: amazon-vpc-lattice-deleterule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-deleterule-api-openapi.yml
-- filename: amazon-vpc-lattice-deleteservice-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice DeleteService API
-  slug: amazon-vpc-lattice-deleteservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-deleteservice-api-openapi.yml
 - filename: amazon-vpc-lattice-deleteservicenetwork-api-openapi.yml
   format: yaml
   label: Amazon VPC Lattice DeleteServiceNetwork API
@@ -288,12 +282,6 @@ api_specs:
   slug: amazon-vpc-lattice-listresourcegateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listresourcegateways-api-openapi.yml
-- filename: amazon-vpc-lattice-listrules-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice ListRules API
-  slug: amazon-vpc-lattice-listrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listrules-api-openapi.yml
 - filename: amazon-vpc-lattice-listservicenetworkresourceassociations-api-openapi.yml
   format: yaml
   label: Amazon VPC Lattice ListServiceNetworkResourceAssociations API
@@ -324,30 +312,12 @@ api_specs:
   slug: amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api-openapi.yml
-- filename: amazon-vpc-lattice-listservices-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice ListServices API
-  slug: amazon-vpc-lattice-listservices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listservices-api-openapi.yml
-- filename: amazon-vpc-lattice-listtagsforresource-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice ListTagsForResource API
-  slug: amazon-vpc-lattice-listtagsforresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listtagsforresource-api-openapi.yml
 - filename: amazon-vpc-lattice-listtargetgroups-api-openapi.yml
   format: yaml
   label: Amazon VPC Lattice ListTargetGroups API
   slug: amazon-vpc-lattice-listtargetgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listtargetgroups-api-openapi.yml
-- filename: amazon-vpc-lattice-listtargets-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice ListTargets API
-  slug: amazon-vpc-lattice-listtargets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-listtargets-api-openapi.yml
 - filename: amazon-vpc-lattice-putauthpolicy-api-openapi.yml
   format: yaml
   label: Amazon VPC Lattice PutAuthPolicy API
@@ -372,18 +342,6 @@ api_specs:
   slug: amazon-vpc-lattice-startdomainverification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-startdomainverification-api-openapi.yml
-- filename: amazon-vpc-lattice-tagresource-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice TagResource API
-  slug: amazon-vpc-lattice-tagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-tagresource-api-openapi.yml
-- filename: amazon-vpc-lattice-untagresource-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice UntagResource API
-  slug: amazon-vpc-lattice-untagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-untagresource-api-openapi.yml
 - filename: amazon-vpc-lattice-updateaccesslogsubscription-api-openapi.yml
   format: yaml
   label: Amazon VPC Lattice UpdateAccessLogSubscription API
@@ -414,12 +372,6 @@ api_specs:
   slug: amazon-vpc-lattice-updaterule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-updaterule-api-openapi.yml
-- filename: amazon-vpc-lattice-updateservice-api-openapi.yml
-  format: yaml
-  label: Amazon VPC Lattice UpdateService API
-  slug: amazon-vpc-lattice-updateservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-updateservice-api-openapi.yml
 - filename: amazon-vpc-lattice-updateservicenetwork-api-openapi.yml
   format: yaml
   label: Amazon VPC Lattice UpdateServiceNetwork API
@@ -438,6 +390,54 @@ api_specs:
   slug: amazon-vpc-lattice-updatetargetgroup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-updatetargetgroup-api-openapi.yml
+- filename: amazon-vpc-lattice-delete-service-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice Delete Service API
+  slug: amazon-vpc-lattice-delete-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-delete-service-api-openapi.yml
+- filename: amazon-vpc-lattice-list-rules-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice List Rules API
+  slug: amazon-vpc-lattice-list-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-list-rules-api-openapi.yml
+- filename: amazon-vpc-lattice-list-services-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice List Services API
+  slug: amazon-vpc-lattice-list-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-list-services-api-openapi.yml
+- filename: amazon-vpc-lattice-list-tags-for-resource-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice List Tags For Resource API
+  slug: amazon-vpc-lattice-list-tags-for-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-list-tags-for-resource-api-openapi.yml
+- filename: amazon-vpc-lattice-list-targets-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice List Targets API
+  slug: amazon-vpc-lattice-list-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-list-targets-api-openapi.yml
+- filename: amazon-vpc-lattice-tag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice Tag Resource API
+  slug: amazon-vpc-lattice-tag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-tag-resource-api-openapi.yml
+- filename: amazon-vpc-lattice-untag-resource-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice Untag Resource API
+  slug: amazon-vpc-lattice-untag-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-untag-resource-api-openapi.yml
+- filename: amazon-vpc-lattice-update-service-api-openapi.yml
+  format: yaml
+  label: Amazon VPC Lattice Update Service API
+  slug: amazon-vpc-lattice-update-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/openapi/amazon-vpc-lattice-update-service-api-openapi.yml
 description: ''
 domains:
 - caa: []

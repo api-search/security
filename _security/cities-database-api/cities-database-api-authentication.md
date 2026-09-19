@@ -41,7 +41,7 @@ tags:
 - Cities
 - Data
 - Geography
-- Locations
+- Location
 - Reference Data
 - Travel
 ---

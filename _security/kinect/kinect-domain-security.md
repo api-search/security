@@ -44,4 +44,5 @@ tags:
 - Shopify
 - LLM
 - Universal Commerce Protocol
+- Direct to Consumer
 ---

@@ -110,12 +110,6 @@ api_specs:
   slug: c1-appaccessrequestdefaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-appaccessrequestdefaults-api-openapi.yml
-- filename: c1-appusers-api-openapi.yml
-  format: yaml
-  label: C1 AppUsers API
-  slug: c1-appusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-appusers-api-openapi.yml
 - filename: c1-attribute-api-openapi.yml
   format: yaml
   label: C1 Attribute API
@@ -278,6 +272,12 @@ api_specs:
   slug: c1-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-webhook-api-openapi.yml
+- filename: c1-app-users-api-openapi.yml
+  format: yaml
+  label: C1 App Users API
+  slug: c1-app-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-users-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -324,7 +324,7 @@ tags:
 - Company
 - Identity
 - Access Management
-- IAM
+- Identity and Access Management
 - Identity Governance
 - Access Control
 - Authorization

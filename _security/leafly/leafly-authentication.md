@@ -52,6 +52,6 @@ tags:
 - POS Integration
 - Retail
 - Marketplace
-- Strains
+- Strain
 - E-Commerce
 ---

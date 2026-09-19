@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/he
 summary_line: http · 1 scheme
 tags:
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Lending
 - Payments
 - Consumer

@@ -135,12 +135,6 @@ api_specs:
   slug: domain-group-propertyradar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertyradar-api-openapi.yml
-- filename: domain-group-propertysearch-api-openapi.yml
-  format: yaml
-  label: Domain Group Property Search API
-  slug: domain-group-propertysearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertysearch-api-openapi.yml
 - filename: domain-group-propertyzoningperils-api-openapi.yml
   format: yaml
   label: Domain Group Property Zoning Perils API
@@ -171,6 +165,12 @@ api_specs:
   slug: domain-group-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-webhooks-api-openapi.yml
+- filename: domain-group-property-search-api-openapi.yml
+  format: yaml
+  label: Domain Group Property Search API
+  slug: domain-group-property-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-property-search-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -126,8 +126,8 @@ tags:
 - Training
 - Courses
 - User
-- Enrollments
+- Enrollment
 - Education
-- HR Tech
+- Human Resources
 - Cloud
 ---

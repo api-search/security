@@ -2,12 +2,18 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: unified-mcp-service-openapi.json
-  format: json
-  label: Unified MCP Service
-  slug: unified-mcp-service
+- filename: unified-health-api-openapi.yml
+  format: yaml
+  label: Unified Health API
+  slug: unified-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-mcp-service-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-health-api-openapi.yml
+- filename: unified-unified-mcp-service-api-openapi.yml
+  format: yaml
+  label: Unified Unified Mcp Service API
+  slug: unified-unified-mcp-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-unified-mcp-service-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -71,7 +77,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Advertising
-- Social Media
+- Social-Media
 - Digital Advertising
 - Marketing
 - Analytics

@@ -171,6 +171,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/ref
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artifact Management
+- Developer Tools
 - DevOps
 - DevSecOps
 - Distribution

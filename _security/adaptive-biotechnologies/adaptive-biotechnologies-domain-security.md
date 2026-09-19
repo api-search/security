@@ -44,7 +44,7 @@ tags:
 - Immunology
 - Clinical Diagnostics
 - Oncology
-- Health Care
+- Healthcare
 - Laboratory
 - Precision Medicine
 - Data

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amerihealth-caritas-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: AmeriHealth Caritas AllergyIntolerance API
-  slug: amerihealth-caritas-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-allergyintolerance-api-openapi.yml
 - filename: amerihealth-caritas-claim-api-openapi.yml
   format: yaml
   label: AmeriHealth Caritas Claim API
@@ -36,24 +30,12 @@ api_specs:
   slug: amerihealth-caritas-explanationofbenefit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-explanationofbenefit-api-openapi.yml
-- filename: amerihealth-caritas-healthcareservice-api-openapi.yml
-  format: yaml
-  label: AmeriHealth Caritas HealthcareService API
-  slug: amerihealth-caritas-healthcareservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-healthcareservice-api-openapi.yml
 - filename: amerihealth-caritas-immunization-api-openapi.yml
   format: yaml
   label: AmeriHealth Caritas Immunization API
   slug: amerihealth-caritas-immunization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-immunization-api-openapi.yml
-- filename: amerihealth-caritas-insuranceplan-api-openapi.yml
-  format: yaml
-  label: AmeriHealth Caritas InsurancePlan API
-  slug: amerihealth-caritas-insuranceplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-insuranceplan-api-openapi.yml
 - filename: amerihealth-caritas-list-api-openapi.yml
   format: yaml
   label: AmeriHealth Caritas List API
@@ -84,12 +66,6 @@ api_specs:
   slug: amerihealth-caritas-medicationknowledge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-medicationknowledge-api-openapi.yml
-- filename: amerihealth-caritas-medicationrequest-api-openapi.yml
-  format: yaml
-  label: AmeriHealth Caritas MedicationRequest API
-  slug: amerihealth-caritas-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-medicationrequest-api-openapi.yml
 - filename: amerihealth-caritas-observation-api-openapi.yml
   format: yaml
   label: AmeriHealth Caritas Observation API
@@ -120,12 +96,6 @@ api_specs:
   slug: amerihealth-caritas-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-practitioner-api-openapi.yml
-- filename: amerihealth-caritas-practitionerrole-api-openapi.yml
-  format: yaml
-  label: AmeriHealth Caritas PractitionerRole API
-  slug: amerihealth-caritas-practitionerrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-practitionerrole-api-openapi.yml
 - filename: amerihealth-caritas-procedure-api-openapi.yml
   format: yaml
   label: AmeriHealth Caritas Procedure API
@@ -138,6 +108,36 @@ api_specs:
   slug: amerihealth-caritas-system-level-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-system-level-operations-api-openapi.yml
+- filename: amerihealth-caritas-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: AmeriHealth Caritas Allergy Intolerance API
+  slug: amerihealth-caritas-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-allergy-intolerance-api-openapi.yml
+- filename: amerihealth-caritas-healthcare-service-api-openapi.yml
+  format: yaml
+  label: AmeriHealth Caritas Healthcare Service API
+  slug: amerihealth-caritas-healthcare-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-healthcare-service-api-openapi.yml
+- filename: amerihealth-caritas-insurance-plan-api-openapi.yml
+  format: yaml
+  label: AmeriHealth Caritas Insurance Plan API
+  slug: amerihealth-caritas-insurance-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-insurance-plan-api-openapi.yml
+- filename: amerihealth-caritas-medication-request-api-openapi.yml
+  format: yaml
+  label: AmeriHealth Caritas Medication Request API
+  slug: amerihealth-caritas-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-medication-request-api-openapi.yml
+- filename: amerihealth-caritas-practitioner-role-api-openapi.yml
+  format: yaml
+  label: AmeriHealth Caritas Practitioner Role API
+  slug: amerihealth-caritas-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/openapi/amerihealth-caritas-practitioner-role-api-openapi.yml
 description: ''
 domains:
 - caa: []

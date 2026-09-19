@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: filecoin-http-api
+- filename: api.yml
   format: yaml
   label: Filecoin HTTP REST API
   slug: filecoin-http-rest-api
   spec_type: OpenAPI
-  url: https://github.com/filecoin-project/filecoin-http-api
+  url: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/openapi/_original/api.yml
 description: ''
 domains:
 - caa: []

@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: uab-ddd-openapi.yml
+- filename: uab-oai-pmh-api-openapi.yml
   format: yaml
-  label: DDD — Dipòsit Digital de Documents de la UAB (OAI-PMH 2.0)
-  slug: ddd-oai-pmh
+  label: Autonomous University of Barcelona OAI PMH API
+  slug: uab-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-ddd-openapi.yml
-- filename: uab-ddd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-oai-pmh-api-openapi.yml
+- filename: uab-search-api-openapi.yml
   format: yaml
-  label: DDD Invenio Search and Export Interface
-  slug: ddd-search
+  label: Autonomous University of Barcelona Search API
+  slug: uab-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-ddd-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/openapi/uab-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

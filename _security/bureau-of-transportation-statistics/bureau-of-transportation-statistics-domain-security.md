@@ -12,12 +12,54 @@ api_specs:
   slug: bureau-of-transportation-statistics-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
-- filename: bureau-of-transportation-statistics-geodata-search-openapi.json
-  format: json
-  label: BTS Geospatial Search API (NTAD)
-  slug: bts-geospatial-search-api
+- filename: bureau-of-transportation-statistics-catalog-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Catalog API
+  slug: bureau-of-transportation-statistics-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-geodata-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-catalog-api-openapi.yml
+- filename: bureau-of-transportation-statistics-collection-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Collection API
+  slug: bureau-of-transportation-statistics-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-collection-api-openapi.yml
+- filename: bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Geoservice Beta API
+  slug: bureau-of-transportation-statistics-geoservice-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
+- filename: bureau-of-transportation-statistics-ogcitem-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Ogc Item API
+  slug: bureau-of-transportation-statistics-ogcitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcitem-api-openapi.yml
+- filename: bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Ogc Item Aggregation API
+  slug: bureau-of-transportation-statistics-ogcitemaggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
+- filename: bureau-of-transportation-statistics-ogcroot-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Ogc Root API
+  slug: bureau-of-transportation-statistics-ogcroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcroot-api-openapi.yml
+- filename: bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Ogc Root Conformance API
+  slug: bureau-of-transportation-statistics-ogcrootconformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
+- filename: bureau-of-transportation-statistics-queryable-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Queryable API
+  slug: bureau-of-transportation-statistics-queryable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-queryable-api-openapi.yml
 description: ''
 domains:
 - caa: []

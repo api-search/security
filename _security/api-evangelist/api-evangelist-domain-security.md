@@ -6,12 +6,6 @@ api_specs:
   slug: api-evangelist-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-account-api-openapi.yml
-- filename: api-evangelist-apis-api-openapi.yml
-  format: yaml
-  label: API Evangelist AP Is API
-  slug: api-evangelist-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-apis-api-openapi.yml
 - filename: api-evangelist-areas-api-openapi.yml
   format: yaml
   label: API Evangelist Areas API
@@ -120,6 +114,12 @@ api_specs:
   slug: api-evangelist-toolbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-toolbox-api-openapi.yml
+- filename: api-evangelist-apis-api-openapi.yml
+  format: yaml
+  label: API Evangelist AP Is API
+  slug: api-evangelist-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

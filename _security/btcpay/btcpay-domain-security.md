@@ -114,12 +114,6 @@ api_specs:
   slug: btcpay-serveremail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-serveremail-api-openapi.yml
-- filename: btcpay-serverinfo-api-openapi.yml
-  format: yaml
-  label: BTCPay Server ServerInfo API
-  slug: btcpay-serverinfo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-serverinfo-api-openapi.yml
 - filename: btcpay-store-payment-methods-api-openapi.yml
   format: yaml
   label: BTCPay Server Store (Payment Methods) API
@@ -186,6 +180,12 @@ api_specs:
   slug: btcpay-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-webhooks-api-openapi.yml
+- filename: btcpay-server-info-api-openapi.yml
+  format: yaml
+  label: BTCPay Server Server Info API
+  slug: btcpay-server-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-server-info-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -38,12 +38,6 @@ api_specs:
   slug: hellosign-fax-line-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-fax-line-api-openapi.yml
-- filename: hellosign-oauth-api-openapi.yml
-  format: yaml
-  label: Dropbox Sign (HelloSign) OAuth API
-  slug: hellosign-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-oauth-api-openapi.yml
 - filename: hellosign-report-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Report API
@@ -80,6 +74,12 @@ api_specs:
   slug: hellosign-callbacks-and-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-callbacks-and-events-api-openapi.yml
+- filename: hellosign-oauth-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) O Auth API
+  slug: hellosign-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -123,7 +123,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - E-Signature
-- Electronic Signatures
+- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

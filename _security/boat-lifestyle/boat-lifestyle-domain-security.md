@@ -37,7 +37,7 @@ tags:
 - Retail
 - Audio
 - Wearables
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 - India

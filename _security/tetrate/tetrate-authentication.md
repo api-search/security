@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: tetrate-apis-api-openapi.yml
-  format: yaml
-  label: Tetrate APIs API
-  slug: tetrate-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-apis-api-openapi.yml
 - filename: tetrate-applications-api-openapi.yml
   format: yaml
   label: Tetrate Applications API
@@ -63,6 +57,12 @@ api_specs:
   slug: tetrate-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-workspaces-api-openapi.yml
+- filename: tetrate-apis-api-openapi.yml
+  format: yaml
+  label: Tetrate AP Is API
+  slug: tetrate-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-apis-api-openapi.yml
 auth_types:
 - apiKey
 - http

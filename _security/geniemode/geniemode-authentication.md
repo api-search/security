@@ -196,7 +196,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/openapi/geniemode-generic-utils-controller-api-openapi.yml
 - filename: geniemode-geniemode-entity-controller-api-openapi.yml
   format: yaml
-  label: Geniemode Geniemode Entity Controller API
+  label: Geniemode Entity Controller API
   slug: geniemode-geniemode-entity-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/openapi/geniemode-geniemode-entity-controller-api-openapi.yml
@@ -554,12 +554,6 @@ api_specs:
   slug: geniemode-web-engage-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/openapi/geniemode-web-engage-controller-api-openapi.yml
-- filename: geniemode-workflow-controller-api-openapi.yml
-  format: yaml
-  label: Geniemode Workflow Controller API
-  slug: geniemode-workflow-controller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/openapi/geniemode-workflow-controller-api-openapi.yml
 - filename: geniemode-workflow-step-controller-api-openapi.yml
   format: yaml
   label: Geniemode Workflow Step Controller API
@@ -572,6 +566,12 @@ api_specs:
   slug: geniemode-workflow-step-order-map-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/openapi/geniemode-workflow-step-order-map-controller-api-openapi.yml
+- filename: geniemode-work-flow-controller-api-openapi.yml
+  format: yaml
+  label: Geniemode work flow controller API
+  slug: geniemode-work-flow-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/openapi/geniemode-work-flow-controller-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

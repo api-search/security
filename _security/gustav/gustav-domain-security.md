@@ -38,6 +38,6 @@ tags:
 - Recruiting
 - Marketplace
 - Contingent Workforce
-- HR Tech
+- Human Resources
 - ATS Integration
 ---

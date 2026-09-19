@@ -48,7 +48,7 @@ tags:
 - Quotes
 - Bind
 - Policy
-- Endorsement
+- Endorsements
 - Renewal
 - Insurtech
 ---

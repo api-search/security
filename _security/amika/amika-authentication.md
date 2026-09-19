@@ -131,7 +131,7 @@ tags:
 - AI Agents
 - Coding Agents
 - Developer Tools
-- Sandboxes
+- Sandbox
 - Infrastructure
 - CI/CD
 - Automation

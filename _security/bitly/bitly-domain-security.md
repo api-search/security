@@ -108,7 +108,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Links
-- URL Shortener
+- URL Shorteners
 - QR Codes
 - Analytics
 - Marketing

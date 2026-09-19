@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Recruiting
-- HR Tech
+- Human Resources
 - Employee Referrals
 - Talent Acquisition
 - Hiring

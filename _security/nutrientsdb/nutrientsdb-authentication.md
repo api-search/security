@@ -39,7 +39,7 @@ tags:
 - Data
 - Search
 - Sample Data
-- Dataset
+- Datasets
 - ai-builders
 - Reference Data
 - Open Data

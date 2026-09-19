@@ -248,12 +248,6 @@ api_specs:
   slug: oper-sign-in-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/openapi/oper-sign-in-api-openapi.yml
-- filename: oper-sign-up-api-openapi.yml
-  format: yaml
-  label: Oper Sign Up API
-  slug: oper-sign-up-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/openapi/oper-sign-up-api-openapi.yml
 - filename: oper-simulators-api-openapi.yml
   format: yaml
   label: Oper Simulators API
@@ -286,7 +280,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/openapi/oper-third-parties-api-openapi.yml
 - filename: oper-third-party-api-api-openapi.yml
   format: yaml
-  label: Oper Third Party Api API
+  label: Oper Third Party Api
   slug: oper-third-party-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/openapi/oper-third-party-api-api-openapi.yml
@@ -314,6 +308,12 @@ api_specs:
   slug: oper-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/openapi/oper-webhooks-api-openapi.yml
+- filename: oper-signup-api-openapi.yml
+  format: yaml
+  label: Oper Signup API
+  slug: oper-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/openapi/oper-signup-api-openapi.yml
 auth_types:
 - http
 description: ''

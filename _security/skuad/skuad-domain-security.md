@@ -38,5 +38,4 @@ tags:
 - Contractor Management
 - Compliance
 - Workforce Management
-- HR Tech
 ---

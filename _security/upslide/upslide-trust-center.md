@@ -30,7 +30,7 @@ tags:
 - Microsoft-365
 - PowerPoint
 - Excel
-- AI Assistants
+- AI Assistant
 - MCP
 trust_url: https://upslide.com/upslide-security/
 ---

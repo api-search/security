@@ -40,7 +40,7 @@ tags:
 - Banking
 - Finance
 - Open Banking
-- Korea
+- South Korea
 - Fintech
 - Account Management
 - Transfers

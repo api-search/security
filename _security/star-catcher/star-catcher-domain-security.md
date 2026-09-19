@@ -33,7 +33,7 @@ tags:
 - Company
 - Frontier Tech
 - Space
-- Satellites
+- Satellite
 - Power Beaming
 - Energy
 - Space Infrastructure

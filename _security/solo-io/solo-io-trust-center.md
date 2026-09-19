@@ -12,12 +12,6 @@ api_specs:
   slug: solo-io-api-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-api-products-api-openapi.yml
-- filename: solo-io-apis-api-openapi.yml
-  format: yaml
-  label: Solo.io AP Is API
-  slug: solo-io-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-apis-api-openapi.yml
 - filename: solo-io-applications-api-openapi.yml
   format: yaml
   label: Solo.io Applications API
@@ -90,6 +84,12 @@ api_specs:
   slug: solo-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-webhooks-api-openapi.yml
+- filename: solo-io-apis-api-openapi.yml
+  format: yaml
+  label: Solo.io AP Is API
+  slug: solo-io-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-apis-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

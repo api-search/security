@@ -90,7 +90,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phraseanet/ref
 summary_line: TLSv1.3
 tags:
 - Digital Asset Management
-- DAM
 - Media
 - Metadata
 - Open-Source

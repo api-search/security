@@ -1,17 +1,41 @@
 ---
 api_specs:
-- filename: brown-bdr-api-openapi.yml
+- filename: brown-collections-api-openapi.yml
   format: yaml
-  label: Brown Digital Repository (BDR) API
-  slug: bdr-api
+  label: Brown University Collections API
+  slug: brown-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-api-openapi.yml
-- filename: brown-bdr-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-collections-api-openapi.yml
+- filename: brown-discovery-api-openapi.yml
   format: yaml
-  label: Brown Digital Repository IIIF Image and Presentation API
-  slug: bdr-iiif
+  label: Brown University Discovery API
+  slug: brown-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-discovery-api-openapi.yml
+- filename: brown-iiif-image-api-openapi.yml
+  format: yaml
+  label: Brown University IIIF Image API
+  slug: brown-iiif-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-iiif-image-api-openapi.yml
+- filename: brown-iiif-presentation-api-openapi.yml
+  format: yaml
+  label: Brown University IIIF Presentation API
+  slug: brown-iiif-presentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-iiif-presentation-api-openapi.yml
+- filename: brown-items-api-openapi.yml
+  format: yaml
+  label: Brown University Items API
+  slug: brown-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-items-api-openapi.yml
+- filename: brown-search-api-openapi.yml
+  format: yaml
+  label: Brown University Search API
+  slug: brown-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

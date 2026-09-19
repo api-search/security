@@ -35,7 +35,7 @@ tags:
 - OLED
 - Smart Packaging
 - Hardware
-- Internet of Things
+- IoT
 - Sustainability
 - Manufacturing
 - Medical

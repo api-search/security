@@ -242,12 +242,6 @@ api_specs:
   slug: nationgraph-rag-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/openapi/nationgraph-rag-files-api-openapi.yml
-- filename: nationgraph-rfps-api-openapi.yml
-  format: yaml
-  label: NationGraph RFPs API
-  slug: nationgraph-rfps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/openapi/nationgraph-rfps-api-openapi.yml
 - filename: nationgraph-scheduling-api-openapi.yml
   format: yaml
   label: NationGraph Scheduling API
@@ -338,6 +332,12 @@ api_specs:
   slug: nationgraph-youtube-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/openapi/nationgraph-youtube-api-openapi.yml
+- filename: nationgraph-rfps-api-openapi.yml
+  format: yaml
+  label: NationGraph RF Ps API
+  slug: nationgraph-rfps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/openapi/nationgraph-rfps-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

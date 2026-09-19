@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: abbyy-vantage-processing-openapi.yml
+- filename: abbyy-catalogrecords-api-openapi.yml
   format: yaml
-  label: ABBYY Vantage Processing REST API
-  slug: abbyy-vantage-processing
+  label: ABBYY Catalog Records API
+  slug: abbyy-catalogrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-vantage-processing-openapi.yml
-- filename: abbyy-vantage-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-catalogrecords-api-openapi.yml
+- filename: abbyy-catalogs-api-openapi.yml
   format: yaml
-  label: ABBYY Vantage Reporting API
-  slug: abbyy-vantage-reporting
+  label: ABBYY Catalogs API
+  slug: abbyy-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-vantage-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-catalogs-api-openapi.yml
+- filename: abbyy-invites-api-openapi.yml
+  format: yaml
+  label: ABBYY Invites API
+  slug: abbyy-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-invites-api-openapi.yml
+- filename: abbyy-report-api-openapi.yml
+  format: yaml
+  label: ABBYY Report API
+  slug: abbyy-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-report-api-openapi.yml
+- filename: abbyy-report-v1-api-openapi.yml
+  format: yaml
+  label: ABBYY Report v1 API
+  slug: abbyy-report-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-report-v1-api-openapi.yml
+- filename: abbyy-skills-api-openapi.yml
+  format: yaml
+  label: ABBYY Skills API
+  slug: abbyy-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-skills-api-openapi.yml
+- filename: abbyy-transactions-api-openapi.yml
+  format: yaml
+  label: ABBYY Transactions API
+  slug: abbyy-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-transactions-api-openapi.yml
+- filename: abbyy-transaction-documents-api-openapi.yml
+  format: yaml
+  label: ABBYY Transaction Documents API
+  slug: abbyy-transaction-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/openapi/abbyy-transaction-documents-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

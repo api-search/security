@@ -213,24 +213,12 @@ api_specs:
   slug: windmill-npm-proxy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-npm-proxy-api-openapi.yml
-- filename: windmill-oauth-api-openapi.yml
-  format: yaml
-  label: Windmill oauth API
-  slug: windmill-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-oauth-api-openapi.yml
 - filename: windmill-oidc-api-openapi.yml
   format: yaml
   label: Windmill oidc API
   slug: windmill-oidc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-oidc-api-openapi.yml
-- filename: windmill-openapi-api-openapi.yml
-  format: yaml
-  label: Windmill openapi API
-  slug: windmill-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-openapi-api-openapi.yml
 - filename: windmill-path-autocomplete-api-openapi.yml
   format: yaml
   label: Windmill path_autocomplete API
@@ -357,6 +345,18 @@ api_specs:
   slug: windmill-workspace-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-workspace-integration-api-openapi.yml
+- filename: windmill-oauth-api-openapi.yml
+  format: yaml
+  label: Windmill OAUTH API
+  slug: windmill-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-oauth-api-openapi.yml
+- filename: windmill-open-api-api-openapi.yml
+  format: yaml
+  label: Windmill Open API
+  slug: windmill-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-open-api-api-openapi.yml
 auth_types:
 - apiKey
 - http

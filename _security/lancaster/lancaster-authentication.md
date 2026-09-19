@@ -8,12 +8,12 @@ api_specs:
   slug: lancaster-oai2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
-- filename: lancaster-identityfederation-api-openapi.yml
+- filename: lancaster-idp-api-openapi.yml
   format: yaml
-  label: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
-  slug: identity-federation
+  label: Lancaster University Idp API
+  slug: lancaster-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-identityfederation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-idp-api-openapi.yml
 auth_types: []
 description: Lancaster University publishes no API key programme, no developer registration and no OAuth authorisation server of its own. Its one open machine-readable API is unauthenticated; its identity surface is the authentication system itself; everything else on a lancaster.ac.uk or lancs.ac.uk hostname that a client might want is behind institutional single sign-on.
 kind: authentication

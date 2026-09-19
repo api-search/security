@@ -12,12 +12,6 @@ api_specs:
   slug: housesigma-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-media-api-openapi.yml
-- filename: housesigma-oembed-api-openapi.yml
-  format: yaml
-  label: HouseSigma O Embed API
-  slug: housesigma-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-oembed-api-openapi.yml
 - filename: housesigma-pages-api-openapi.yml
   format: yaml
   label: HouseSigma Pages API
@@ -54,6 +48,12 @@ api_specs:
   slug: housesigma-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-users-api-openapi.yml
+- filename: housesigma-o-embed-api-openapi.yml
+  format: yaml
+  label: HouseSigma o Embed API
+  slug: housesigma-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

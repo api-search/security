@@ -45,5 +45,5 @@ tags:
 - CAEP
 - Shared Signals
 - Zero Standing Privilege
-- IAM
+- Identity and Access Management
 ---

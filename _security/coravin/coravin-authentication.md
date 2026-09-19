@@ -49,7 +49,7 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Wine
-- Beverage
+- Beverages
 - Consumer Products
 - E-Commerce
 - Shopify

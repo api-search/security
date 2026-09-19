@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: customers-bank-accountaccess-api-openapi.yml
-  format: yaml
-  label: Customers Bank Account Access API
-  slug: customers-bank-accountaccess-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-accountaccess-api-openapi.yml
 - filename: customers-bank-accountcontroltype-api-openapi.yml
   format: yaml
   label: Customers Bank Account Control Type API
@@ -24,12 +18,6 @@ api_specs:
   slug: customers-bank-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-accounts-api-openapi.yml
-- filename: customers-bank-addressbook-api-openapi.yml
-  format: yaml
-  label: Customers Bank Address Book API
-  slug: customers-bank-addressbook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-addressbook-api-openapi.yml
 - filename: customers-bank-authenticate-api-openapi.yml
   format: yaml
   label: Customers Bank Authenticate API
@@ -42,24 +30,12 @@ api_specs:
   slug: customers-bank-banks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-banks-api-openapi.yml
-- filename: customers-bank-booktransfers-api-openapi.yml
-  format: yaml
-  label: Customers Bank Book Transfers API
-  slug: customers-bank-booktransfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-booktransfers-api-openapi.yml
 - filename: customers-bank-booktransfersearch-api-openapi.yml
   format: yaml
   label: Customers Bank Book Transfer Search API
   slug: customers-bank-booktransfersearch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-booktransfersearch-api-openapi.yml
-- filename: customers-bank-clientcredentials-api-openapi.yml
-  format: yaml
-  label: Customers Bank Client Credentials API
-  slug: customers-bank-clientcredentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-clientcredentials-api-openapi.yml
 - filename: customers-bank-correspondentinstructions-api-openapi.yml
   format: yaml
   label: Customers Bank Correspondent Instructions API
@@ -78,12 +54,6 @@ api_specs:
   slug: customers-bank-eventhistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-eventhistory-api-openapi.yml
-- filename: customers-bank-eventtypes-api-openapi.yml
-  format: yaml
-  label: Customers Bank Event Types API
-  slug: customers-bank-eventtypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-eventtypes-api-openapi.yml
 - filename: customers-bank-homerealmdiscovery-api-openapi.yml
   format: yaml
   label: Customers Bank Home Realm Discovery API
@@ -174,12 +144,6 @@ api_specs:
   slug: customers-bank-partners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-partners-api-openapi.yml
-- filename: customers-bank-referencedata-api-openapi.yml
-  format: yaml
-  label: Customers Bank Reference Data API
-  slug: customers-bank-referencedata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-referencedata-api-openapi.yml
 - filename: customers-bank-searchincomingwiresv-api-openapi.yml
   format: yaml
   label: Customers Bank Search Incoming Wires V API
@@ -210,24 +174,60 @@ api_specs:
   slug: customers-bank-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-users-api-openapi.yml
-- filename: customers-bank-usersettings-api-openapi.yml
-  format: yaml
-  label: Customers Bank User Settings API
-  slug: customers-bank-usersettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-usersettings-api-openapi.yml
 - filename: customers-bank-webhooks-api-openapi.yml
   format: yaml
   label: Customers Bank Webhooks API
   slug: customers-bank-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-webhooks-api-openapi.yml
-- filename: customers-bank-webpubsub-api-openapi.yml
+- filename: customers-bank-account-access-api-openapi.yml
+  format: yaml
+  label: Customers Bank Account Access API
+  slug: customers-bank-account-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-account-access-api-openapi.yml
+- filename: customers-bank-address-book-api-openapi.yml
+  format: yaml
+  label: Customers Bank Address Book API
+  slug: customers-bank-address-book-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-address-book-api-openapi.yml
+- filename: customers-bank-book-transfers-api-openapi.yml
+  format: yaml
+  label: Customers Bank Book Transfers API
+  slug: customers-bank-book-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-book-transfers-api-openapi.yml
+- filename: customers-bank-client-credentials-api-openapi.yml
+  format: yaml
+  label: Customers Bank Client Credentials API
+  slug: customers-bank-client-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-client-credentials-api-openapi.yml
+- filename: customers-bank-event-types-api-openapi.yml
+  format: yaml
+  label: Customers Bank Event Types API
+  slug: customers-bank-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-event-types-api-openapi.yml
+- filename: customers-bank-reference-data-api-openapi.yml
+  format: yaml
+  label: Customers Bank Reference Data API
+  slug: customers-bank-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-reference-data-api-openapi.yml
+- filename: customers-bank-user-settings-api-openapi.yml
+  format: yaml
+  label: Customers Bank User Settings API
+  slug: customers-bank-user-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-user-settings-api-openapi.yml
+- filename: customers-bank-web-pub-sub-api-openapi.yml
   format: yaml
   label: Customers Bank Web Pub Sub API
-  slug: customers-bank-webpubsub-api
+  slug: customers-bank-web-pub-sub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-webpubsub-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/openapi/customers-bank-web-pub-sub-api-openapi.yml
 description: ''
 domains:
 - caa:

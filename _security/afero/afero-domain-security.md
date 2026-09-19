@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afero/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Internet of Things
+- IoT
 - IoT Platform
 - Connected Devices
 - Device Management

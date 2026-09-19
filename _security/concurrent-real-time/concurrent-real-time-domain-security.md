@@ -35,7 +35,7 @@ tags:
 - Real-Time Computing
 - Embedded Systems
 - Linux
-- Operating Systems
+- Operating System
 - Simulation
 - Aerospace and Defense
 - Hardware-in-the-Loop

@@ -92,12 +92,18 @@ api_specs:
   slug: politecnico-di-torino-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-tickets-api-openapi.yml
-- filename: politecnico-di-torino-public-search-api-openapi.yml
+- filename: politecnico-di-torino-campus-api-openapi.yml
   format: yaml
-  label: PoliTO Public Search Web Services (people, departments, teachings, rooms)
-  slug: public-search-services
+  label: Politecnico di Torino Campus API
+  slug: politecnico-di-torino-campus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-public-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-campus-api-openapi.yml
+- filename: politecnico-di-torino-directory-api-openapi.yml
+  format: yaml
+  label: Politecnico di Torino Directory API
+  slug: politecnico-di-torino-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-directory-api-openapi.yml
 auth_types:
 - http
 description: ''

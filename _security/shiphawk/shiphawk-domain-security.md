@@ -46,7 +46,7 @@ tags:
 - Fulfillment
 - E-Commerce
 - Supply Chain
-- Carriers
+- Carrier
 - Rate Shopping
 - Tracking
 - Webhook

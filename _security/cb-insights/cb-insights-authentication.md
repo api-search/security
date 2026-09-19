@@ -20,12 +20,6 @@ api_specs:
   slug: cb-insights-chatcbi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-chatcbi-api-openapi.yml
-- filename: cb-insights-financialtransactions-api-openapi.yml
-  format: yaml
-  label: CB Insights Financial Transactions API
-  slug: cb-insights-financialtransactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-financialtransactions-api-openapi.yml
 - filename: cb-insights-firmographics-api-openapi.yml
   format: yaml
   label: CB Insights Firmographics API
@@ -68,6 +62,12 @@ api_specs:
   slug: cb-insights-strategymap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-strategymap-api-openapi.yml
+- filename: cb-insights-financial-transactions-api-openapi.yml
+  format: yaml
+  label: CB Insights Financial Transactions API
+  slug: cb-insights-financial-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-financial-transactions-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

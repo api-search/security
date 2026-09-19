@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-diff-api-openapi.yml
 - filename: hoverfly-hoverfly-api-openapi.yml
   format: yaml
-  label: Hoverfly Hoverfly API
+  label: Hoverfly API
   slug: hoverfly-hoverfly-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-hoverfly-api-openapi.yml

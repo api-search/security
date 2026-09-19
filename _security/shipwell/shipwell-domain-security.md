@@ -6,12 +6,6 @@ api_specs:
   slug: shipwell-carriers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-carriers-api-openapi.yml
-- filename: shipwell-events-and-webhooks-api-openapi.yml
-  format: yaml
-  label: Shipwell Events and Webhooks API
-  slug: shipwell-events-and-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-events-and-webhooks-api-openapi.yml
 - filename: shipwell-orders-api-openapi.yml
   format: yaml
   label: Shipwell Orders API
@@ -30,6 +24,12 @@ api_specs:
   slug: shipwell-shipments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-shipments-api-openapi.yml
+- filename: shipwell-events-webhooks-api-openapi.yml
+  format: yaml
+  label: Shipwell Events & Webhooks API
+  slug: shipwell-events-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-events-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

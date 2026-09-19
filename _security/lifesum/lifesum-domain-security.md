@@ -42,7 +42,7 @@ tags:
 - Nutrition
 - Fitness
 - Wellness
-- Mobile Apps
+- Mobile App
 - Consumer
 - Food Tracking
 ---

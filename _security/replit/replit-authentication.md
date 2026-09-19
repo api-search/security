@@ -51,7 +51,8 @@ summary_line: http · 1 scheme
 tags:
 - Code
 - Compiling
+- Developer Tools
 - Development Environment
-- Programming Languages
+- Programming Language
 - Version Control
 ---

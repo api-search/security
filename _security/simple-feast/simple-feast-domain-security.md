@@ -32,4 +32,5 @@ tags:
 - Meal Delivery
 - Plant-Based
 - E-Commerce
+- Defunct
 ---

@@ -335,7 +335,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens-plm/re
 summary_line: apiKey/http · 2 schemes
 tags:
 - PLM
-- Product Lifecycle Management
 - Teamcenter
 - NX
 - Solid Edge

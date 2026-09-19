@@ -32,18 +32,18 @@ api_specs:
   slug: scorecard-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-systems-api-openapi.yml
-- filename: scorecard-testcases-api-openapi.yml
+- filename: scorecard-test-cases-api-openapi.yml
   format: yaml
-  label: Scorecard Testcases API
-  slug: scorecard-testcases-api
+  label: Scorecard Test Cases API
+  slug: scorecard-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-testcases-api-openapi.yml
-- filename: scorecard-testsets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-test-cases-api-openapi.yml
+- filename: scorecard-test-sets-api-openapi.yml
   format: yaml
-  label: Scorecard Testsets API
-  slug: scorecard-testsets-api
+  label: Scorecard Test Sets API
+  slug: scorecard-test-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-testsets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-test-sets-api-openapi.yml
 auth_types:
 - http
 description: ''

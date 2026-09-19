@@ -241,7 +241,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unlock-protoco
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain
-- Memberships
+- Membership
 - Subscription
 - NFT
 - Ticketing

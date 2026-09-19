@@ -42,18 +42,18 @@ api_specs:
   slug: hydrostor-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-discovery-api-openapi.yml
-- filename: hydrostor-oembed-api-openapi.yml
-  format: yaml
-  label: Hydrostor oEmbed API
-  slug: hydrostor-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-oembed-api-openapi.yml
 - filename: hydrostor-seo-api-openapi.yml
   format: yaml
   label: Hydrostor SEO Metadata API
   slug: hydrostor-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-seo-api-openapi.yml
+- filename: hydrostor-o-embed-api-openapi.yml
+  format: yaml
+  label: Hydrostor o Embed API
+  slug: hydrostor-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

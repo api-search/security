@@ -71,7 +71,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Access Management
 - Google Cloud
-- IAM
+- Identity and Access Management
 - Identity
 - Permissions
 - Security

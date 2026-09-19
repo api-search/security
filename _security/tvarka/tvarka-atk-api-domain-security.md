@@ -1,38 +1,8 @@
 ---
 api_specs:
-- filename: tvarka-atk-api-auth-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API Auth API
-  slug: tvarka-atk-api-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-auth-api-openapi.yml
-- filename: tvarka-atk-api-erasure-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API Erasure API
-  slug: tvarka-atk-api-erasure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-erasure-api-openapi.yml
-- filename: tvarka-atk-api-ltv-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API LTV API
-  slug: tvarka-atk-api-ltv-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-ltv-api-openapi.yml
-- filename: tvarka-atk-api-pairing-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API Pairing API
-  slug: tvarka-atk-api-pairing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-pairing-api-openapi.yml
-- filename: tvarka-atk-api-sign-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API Sign API
-  slug: tvarka-atk-api-sign-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-sign-api-openapi.yml
 - filename: auth.json
   format: json
-  label: Tvarka ATK API Tvarka ATK API API
+  label: Tvarka ATK API Tvarka ATK API
   slug: tvarka-atk-api-tvarka-atk-api-api
   spec_type: Postman
   url: https://atk.tvarka.pro/postman/auth.json
@@ -42,24 +12,78 @@ api_specs:
   slug: tvarka-atk-api-tvarka-atk-qes-signing-api-paid-tier-addendum-api
   spec_type: Postman
   url: https://atk.tvarka.pro/postman/auth.json
-- filename: tvarka-atk-api-validation-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API Validation API
-  slug: tvarka-atk-api-validation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-validation-api-openapi.yml
-- filename: tvarka-atk-api-well-known-api-openapi.yml
-  format: yaml
-  label: Tvarka ATK API Well Known API
-  slug: tvarka-atk-api-well-known-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-atk-api-well-known-api-openapi.yml
 - filename: tvarka-sign-api-openapi.yml
   format: yaml
   label: Tvarka Sign API
   slug: tvarka-sign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-sign-api-openapi.yml
+- filename: tvarka-auth-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Auth API
+  slug: tvarka-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-auth-api-openapi.yml
+- filename: tvarka-batches-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Batches API
+  slug: tvarka-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-batches-api-openapi.yml
+- filename: tvarka-erasure-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Erasure API
+  slug: tvarka-erasure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-erasure-api-openapi.yml
+- filename: tvarka-files-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Files API
+  slug: tvarka-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-files-api-openapi.yml
+- filename: tvarka-ltv-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API LTV API
+  slug: tvarka-ltv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-ltv-api-openapi.yml
+- filename: tvarka-pairing-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Pairing API
+  slug: tvarka-pairing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-pairing-api-openapi.yml
+- filename: tvarka-signings-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Signings API
+  slug: tvarka-signings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-signings-api-openapi.yml
+- filename: tvarka-tvarka-atk-api-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Tvarka ATK API
+  slug: tvarka-tvarka-atk-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-atk-api-api-openapi.yml
+- filename: tvarka-tvarka-sign-api-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Tvarka Sign API
+  slug: tvarka-tvarka-sign-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-sign-api-api-openapi.yml
+- filename: tvarka-validation-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Validation API
+  slug: tvarka-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-validation-api-openapi.yml
+- filename: tvarka-well-known-api-openapi.yml
+  format: yaml
+  label: Tvarka ATK API Well Known API
+  slug: tvarka-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-well-known-api-openapi.yml
 description: ''
 domains:
 - caa:

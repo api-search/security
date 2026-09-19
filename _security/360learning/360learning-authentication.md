@@ -134,12 +134,12 @@ api_specs:
   slug: 360learning-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-user-api-openapi.yml
-- filename: 360learning-xapi-api-openapi.yml
+- filename: 360learning-x-api-api-openapi.yml
   format: yaml
-  label: 360Learning Xapi API
-  slug: 360learning-xapi-api
+  label: 360Learning x API
+  slug: 360learning-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-xapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-x-api-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -197,6 +197,6 @@ tags:
 - E-Learning
 - Training
 - Collaborative Learning
-- HR Tech
+- Human Resources
 - Skills
 ---

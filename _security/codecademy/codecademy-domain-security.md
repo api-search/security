@@ -37,7 +37,7 @@ tags:
 - Bootcamps
 - Developer Education
 - Career Paths
-- Certifications
+- Certification
 - Skillsoft
 - EdTech
 - Workforce Development

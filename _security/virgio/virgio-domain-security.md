@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virgio/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Fashion
 - Retail
 - E-Commerce

@@ -58,7 +58,7 @@ tags:
 - Recruitment
 - Skills Assessment
 - Talent
-- HR Tech
+- Human Resources
 - AI Grading
 - ATS Integration
 ---

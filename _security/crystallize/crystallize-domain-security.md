@@ -44,7 +44,6 @@ tags:
 - Commerce
 - Headless Commerce
 - Product Information Management
-- PIM
 - GraphQL
 - Catalog
 - Search

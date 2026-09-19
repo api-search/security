@@ -38,6 +38,6 @@ tags:
 - Scientific Computing
 - Workflow Orchestration
 - Enterprise Software
-- Open Source
+- Open-Source
 - Research
 ---

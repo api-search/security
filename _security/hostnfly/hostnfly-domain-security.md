@@ -35,7 +35,7 @@ tags:
 - Applicative Saas
 - Property Management
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Airbnb
 - Hospitality
 - Concierge

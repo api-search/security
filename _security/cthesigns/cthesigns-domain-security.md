@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Cancer Detection
 - Clinical Decision Support
-- Medical Device
+- Medical Devices
 - Digital Health
 - NHS
 ---

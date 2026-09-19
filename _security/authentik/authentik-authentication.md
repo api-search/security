@@ -104,12 +104,6 @@ api_specs:
   slug: authentik-managed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-managed-api-openapi.yml
-- filename: authentik-oauth2-api-openapi.yml
-  format: yaml
-  label: Authentik OAuth2 API
-  slug: authentik-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-oauth2-api-openapi.yml
 - filename: authentik-outposts-api-openapi.yml
   format: yaml
   label: Authentik Outposts API
@@ -164,6 +158,12 @@ api_specs:
   slug: authentik-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-tenants-api-openapi.yml
+- filename: authentik-oauth2-api-openapi.yml
+  format: yaml
+  label: Authentik Oauth2 API
+  slug: authentik-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-oauth2-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -219,23 +219,14 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://docs.go
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/authentication/authentik-authentication.yml
 summary_line: http · 4 schemes
 tags:
-- API Management
-- Agent Accounts
 - Authentication
 - Authorization
 - Identity Provider
-- Kubernetes
 - LDAP
 - Open-Source
 - OpenID Connect
-- RADIUS
-- RBAC
 - SAML
 - SCIM
 - Self-Hosted
-- Service Accounts
-- Shared Signals Framework
-- Single Sign-On
-- Terraform
-- Zero Trust
+- Identity Federation
 ---

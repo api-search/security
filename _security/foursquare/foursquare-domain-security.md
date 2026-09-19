@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foursquare/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
-- Locations
+- Location
 - Places
 - Geocoding
 - Recommendations

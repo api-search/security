@@ -49,5 +49,5 @@ tags:
 - Auctions
 - Market Data
 - Collectors
-- Investors
+- Investor
 ---

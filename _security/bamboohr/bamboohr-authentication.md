@@ -85,9 +85,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bamboohr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/authentication/bamboohr-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Payroll
 - Time Tracking
 - Applicant Tracking

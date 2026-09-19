@@ -40,6 +40,6 @@ tags:
 - Embodied AI
 - Robotics
 - 3D Generation
-- Digital Twins
+- Digital Twin
 - Synthetic Data
 ---

@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/he
 summary_line: SOC 2, PCI DSS
 tags:
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Lending
 - Payments
 - Consumer

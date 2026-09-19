@@ -102,12 +102,6 @@ api_specs:
   slug: slash-merchant-category-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-merchant-category-api-openapi.yml
-- filename: slash-oauth2-api-openapi.yml
-  format: yaml
-  label: Slash Oauth2 API
-  slug: slash-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-oauth2-api-openapi.yml
 - filename: slash-task-api-openapi.yml
   format: yaml
   label: Slash Task API
@@ -156,6 +150,12 @@ api_specs:
   slug: slash-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-well-known-api-openapi.yml
+- filename: slash-oauth2-api-openapi.yml
+  format: yaml
+  label: Slash Oauth2 API
+  slug: slash-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

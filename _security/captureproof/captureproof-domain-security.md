@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- Telemedicine
+- Telehealth
 - Medical Imaging
 - Remote Patient Monitoring
 - Digital Health

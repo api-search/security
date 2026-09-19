@@ -44,9 +44,9 @@ tags:
 - Automotive
 - Vehicles
 - Marketplace
-- Dealer
+- Dealers
 - Listings
-- Valuations
+- Valuation
 - VIN
 - VRM
 - Inventory

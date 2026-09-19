@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: federal-mediation-and-conciliation-service-wp-content-openapi.yml
+- filename: federal-mediation-and-conciliation-service-directory-api-openapi.yml
   format: yaml
-  label: FMCS Public Content API
-  slug: fmcs-public-content-api
+  label: Federal Mediation and Conciliation Service Directory API
+  slug: federal-mediation-and-conciliation-service-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-wp-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-directory-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-discovery-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service Discovery API
+  slug: federal-mediation-and-conciliation-service-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-discovery-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-documents-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service Documents API
+  slug: federal-mediation-and-conciliation-service-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-documents-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-events-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service Events API
+  slug: federal-mediation-and-conciliation-service-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-events-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-faq-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service FAQ API
+  slug: federal-mediation-and-conciliation-service-faq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-faq-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-news-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service News API
+  slug: federal-mediation-and-conciliation-service-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-news-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-pages-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service Pages API
+  slug: federal-mediation-and-conciliation-service-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-pages-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-search-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service Search API
+  slug: federal-mediation-and-conciliation-service-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-search-api-openapi.yml
+- filename: federal-mediation-and-conciliation-service-taxonomy-api-openapi.yml
+  format: yaml
+  label: Federal Mediation and Conciliation Service Taxonomy API
+  slug: federal-mediation-and-conciliation-service-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-taxonomy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,8 +90,8 @@ tags:
 - Labor
 - Mediation
 - Arbitration
-- Dispute-Resolution
+- Dispute Resolution
 - Government
-- Public-Sector
+- Public Sector
 - Content
 ---

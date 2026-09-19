@@ -91,7 +91,7 @@ tags:
 - Consumer-Permissioned
 - Account Data
 - Transaction
-- Investments
+- Investment
 - Insurance
 - Tax Data
 - Payroll

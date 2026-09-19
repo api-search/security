@@ -68,6 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-central/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artifacts
+- Developer Tools
 - Java
 - JVM
 - Maven

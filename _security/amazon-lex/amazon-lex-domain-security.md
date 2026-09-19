@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: amazon-lex-bots-api-openapi.yml
+- filename: amazon-lex-models-v2-openapi.yml
   format: yaml
   label: Amazon Lex Bots API
   slug: amazon-lex-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-models-v2-openapi.yml
+- filename: amazon-lex-runtime-v2-openapi.yml
+  format: yaml
+  label: Amazon Lex Runtime V2 API
+  slug: amazon-lex-runtime-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-runtime-v2-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -21,7 +27,7 @@ domains:
   domain: amazonaws.com
   spf: true
 hosts:
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Mar  4 23:59:59 2027 GMT
   host: aws.amazon.com
   hsts: true
   hsts_max_age: 47304000
@@ -47,8 +53,16 @@ slug: amazon-lex-domain-security
 source_filename: amazon-lex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: models-v2-lex.amazonaws.com\n  https: false\n- host: models-v2-lex.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: models-v2-lex.amazonaws.com\n  https: false\n- host: models-v2-lex.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/security/amazon-lex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Artificial Intelligence
+- Conversational AI
+- Chatbots
+- Natural Language Processing
+- Speech
+- Voice
+- Contact Center
+- Customer Service
 ---

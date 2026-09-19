@@ -66,12 +66,6 @@ api_specs:
   slug: lead-bank-lending-simulation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-lending-simulation-api-openapi.yml
-- filename: lead-bank-oauth-api-openapi.yml
-  format: yaml
-  label: Lead Bank OAuth API
-  slug: lead-bank-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-oauth-api-openapi.yml
 - filename: lead-bank-originator-api-openapi.yml
   format: yaml
   label: Lead Bank Originator API
@@ -96,6 +90,12 @@ api_specs:
   slug: lead-bank-wire-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-wire-api-openapi.yml
+- filename: lead-bank-oauth-api-openapi.yml
+  format: yaml
+  label: Lead Bank O Auth API
+  slug: lead-bank-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

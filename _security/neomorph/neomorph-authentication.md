@@ -44,12 +44,6 @@ api_specs:
   slug: neomorph-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-discovery-api-openapi.yml
-- filename: neomorph-oembed-api-openapi.yml
-  format: yaml
-  label: Neomorph oEmbed API
-  slug: neomorph-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-oembed-api-openapi.yml
 - filename: neomorph-categories-api-openapi.yml
   format: yaml
   label: Neomorph Categories API
@@ -74,6 +68,12 @@ api_specs:
   slug: neomorph-team-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-team-categories-api-openapi.yml
+- filename: neomorph-o-embed-api-openapi.yml
+  format: yaml
+  label: Neomorph o Embed API
+  slug: neomorph-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/openapi/neomorph-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

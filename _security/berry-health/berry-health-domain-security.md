@@ -33,7 +33,6 @@ tags:
 - Healthcare
 - Digital Health
 - Telehealth
-- Telemedicine
 - Consumer Health
 - Mental Health
 - Dermatology

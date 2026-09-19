@@ -36,7 +36,7 @@ tags:
 - Slack
 - Collaboration
 - Team Building
-- HR Tech
+- Human Resources
 - Creator Economy
 - Social
 - Messaging

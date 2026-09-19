@@ -37,8 +37,8 @@ tags:
 - Nutrition
 - Supplements
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 - Shopify
 ---

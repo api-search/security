@@ -76,7 +76,7 @@ tags:
 - Voice
 - Identity Verification
 - Mobility Data
-- Digital Signatures
+- Digital Signature
 - eSIM
 - Artificial Intelligence
 ---

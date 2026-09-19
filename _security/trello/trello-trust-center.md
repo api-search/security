@@ -30,12 +30,6 @@ api_specs:
   slug: trello-checklists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-checklists-api-openapi.yml
-- filename: trello-customfields-api-openapi.yml
-  format: yaml
-  label: trello CustomFields API
-  slug: trello-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-customfields-api-openapi.yml
 - filename: trello-labels-api-openapi.yml
   format: yaml
   label: trello Labels API
@@ -90,6 +84,18 @@ api_specs:
   slug: trello-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-webhooks-api-openapi.yml
+- filename: trello-custom-fields-api-openapi.yml
+  format: yaml
+  label: Trello Custom Fields API
+  slug: trello-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-custom-fields-api-openapi.yml
+- filename: trello-rest-api-openapi.json
+  format: json
+  label: Trello REST API
+  slug: trello-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-rest-api-openapi.json
 certification_count: 1
 certifications:
 - FedRAMP
@@ -105,9 +111,17 @@ slug: trello-trust-center
 source_filename: trello-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
+source_yaml: "generated: '2026-09-17'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/security/trello-trust-center.yml
 summary_line: FedRAMP
-tags: []
+tags:
+- Project Management
+- Kanban
+- Task Management
+- Collaboration
+- Productivity
+- Workflows
+- Boards
+- Atlassian
 trust_url: https://www.atlassian.com/trust
 ---

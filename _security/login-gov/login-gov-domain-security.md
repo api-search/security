@@ -36,12 +36,12 @@ api_specs:
   slug: login-gov-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-token-api-openapi.yml
-- filename: login-gov-userinfo-api-openapi.yml
+- filename: login-gov-user-info-api-openapi.yml
   format: yaml
-  label: Login.gov UserInfo API
-  slug: login-gov-userinfo-api
+  label: Login.gov User Info API
+  slug: login-gov-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-userinfo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/openapi/login-gov-user-info-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,4 +99,5 @@ tags:
 - SAML
 - IAL2
 - AAL2
+- Identity Federation
 ---

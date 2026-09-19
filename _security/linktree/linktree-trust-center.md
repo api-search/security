@@ -27,7 +27,7 @@ tags:
 - Analytics
 - MCP
 - Agents
-- Design System
+- Design Systems
 - Developer Tools
 trust_url: https://linktr.ee/s/about/trust-center/
 ---

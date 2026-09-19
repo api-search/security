@@ -6,12 +6,6 @@ api_specs:
   slug: zoho-cliq-bots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-bots-api-openapi.yml
-- filename: zoho-cliq-buttons-api-openapi.yml
-  format: yaml
-  label: Zoho Cliq buttons API
-  slug: zoho-cliq-buttons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-buttons-api-openapi.yml
 - filename: zoho-cliq-chats-api-openapi.yml
   format: yaml
   label: Zoho Cliq chats API
@@ -102,12 +96,6 @@ api_specs:
   slug: zoho-cliq-reminders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-reminders-api-openapi.yml
-- filename: zoho-cliq-scheduledmessages-api-openapi.yml
-  format: yaml
-  label: Zoho Cliq scheduledmessages API
-  slug: zoho-cliq-scheduledmessages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-scheduledmessages-api-openapi.yml
 - filename: zoho-cliq-slashcommands-api-openapi.yml
   format: yaml
   label: Zoho Cliq slashcommands API
@@ -126,12 +114,18 @@ api_specs:
   slug: zoho-cliq-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-threads-api-openapi.yml
-- filename: zoho-cliq-userpreferences-api-openapi.yml
+- filename: zoho-cliq-scheduled-messages-api-openapi.yml
   format: yaml
-  label: Zoho Cliq userpreferences API
-  slug: zoho-cliq-userpreferences-api
+  label: Zoho Cliq Scheduled Messages API
+  slug: zoho-cliq-scheduled-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-userpreferences-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-scheduled-messages-api-openapi.yml
+- filename: zoho-cliq-user-preferences-api-openapi.yml
+  format: yaml
+  label: Zoho Cliq User Preferences API
+  slug: zoho-cliq-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-user-preferences-api-openapi.yml
 description: ''
 domains:
 - caa:

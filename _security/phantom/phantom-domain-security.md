@@ -53,7 +53,7 @@ tags:
 - Crypto
 - Cryptocurrency
 - Deep Links
-- Embedded Wallet
+- Embedded Wallets
 - Ethereum
 - EVM
 - Monad

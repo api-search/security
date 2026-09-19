@@ -9,12 +9,6 @@ api_specs:
   slug: oauth2-proxy-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-metrics-api-openapi.yml
-- filename: oauth2-proxy-oauth2-api-openapi.yml
-  format: yaml
-  label: Oauth2-Proxy Oauth2 API
-  slug: oauth2-proxy-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-oauth2-api-openapi.yml
 - filename: oauth2-proxy-oauth2-proxy-endpoints-api-openapi.yml
   format: yaml
   label: Oauth2-Proxy OAuth2 Proxy Endpoints API
@@ -39,6 +33,12 @@ api_specs:
   slug: oauth2-proxy-robots-txt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-robots-txt-api-openapi.yml
+- filename: oauth2-proxy-oauth2-api-openapi.yml
+  format: yaml
+  label: Oauth2-Proxy Oauth2 API
+  slug: oauth2-proxy-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

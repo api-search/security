@@ -39,11 +39,11 @@ tags:
 - AI API
 - LLM/AI gateway
 - model aggregation
-- OpenAI-compatible
-- model routing
+- OpenAI-Compatible
+- Model Routing
 - provider failover
-- text generation
-- image generation
-- video generation
-- developer tools
+- Text Generation
+- Image-Generation
+- Video Generation
+- Developer Tools
 ---

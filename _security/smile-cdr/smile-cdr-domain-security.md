@@ -58,7 +58,7 @@ tags:
 - Prior Authorization
 - Digital Quality Measures
 - CQL
-- Payer
-- Provider
+- Payers
+- Providers
 - Health Information Exchange
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Credit
 - Fintech
-- Credit Card
+- Credit Cards
 - Payments
 - Banking
 - India

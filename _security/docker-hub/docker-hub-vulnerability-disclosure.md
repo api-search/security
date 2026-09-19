@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-audit-logs-api-openapi.yml
 - filename: docker-hub-authentication-api-api-openapi.yml
   format: yaml
-  label: Docker Hub authentication-api API
+  label: Docker Hub authentication-api
   slug: docker-hub-authentication-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-authentication-api-api-openapi.yml

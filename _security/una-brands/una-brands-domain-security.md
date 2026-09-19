@@ -37,5 +37,5 @@ tags:
 - Consumer Goods
 - Retail
 - Singapore
-- APAC
+- Asia Pacific
 ---

@@ -42,6 +42,6 @@ tags:
 - Prompt Injection
 - Guardrails
 - Red Teaming
-- GenAI
+- Generative AI
 trust_url: https://www.lakera.ai/security
 ---

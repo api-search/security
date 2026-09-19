@@ -24,18 +24,6 @@ api_specs:
   slug: distru-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-contacts-api-openapi.yml
-- filename: distru-customfields-api-openapi.yml
-  format: yaml
-  label: Distru CustomFields API
-  slug: distru-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-customfields-api-openapi.yml
-- filename: distru-fileattachments-api-openapi.yml
-  format: yaml
-  label: Distru FileAttachments API
-  slug: distru-fileattachments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-fileattachments-api-openapi.yml
 - filename: distru-inventory-api-openapi.yml
   format: yaml
   label: Distru Inventory API
@@ -72,12 +60,6 @@ api_specs:
   slug: distru-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-packages-api-openapi.yml
-- filename: distru-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Distru PaymentMethods API
-  slug: distru-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-paymentmethods-api-openapi.yml
 - filename: distru-productposmappings-api-openapi.yml
   format: yaml
   label: Distru ProductPosMappings API
@@ -114,18 +96,36 @@ api_specs:
   slug: distru-strains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-strains-api-openapi.yml
-- filename: distru-testresults-api-openapi.yml
-  format: yaml
-  label: Distru TestResults API
-  slug: distru-testresults-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-testresults-api-openapi.yml
 - filename: distru-vehicles-api-openapi.yml
   format: yaml
   label: Distru Vehicles API
   slug: distru-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-vehicles-api-openapi.yml
+- filename: distru-custom-fields-api-openapi.yml
+  format: yaml
+  label: Distru Custom Fields API
+  slug: distru-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-custom-fields-api-openapi.yml
+- filename: distru-file-attachments-api-openapi.yml
+  format: yaml
+  label: Distru File Attachments API
+  slug: distru-file-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-file-attachments-api-openapi.yml
+- filename: distru-payment-methods-api-openapi.yml
+  format: yaml
+  label: Distru Payment Methods API
+  slug: distru-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-payment-methods-api-openapi.yml
+- filename: distru-test-results-api-openapi.yml
+  format: yaml
+  label: Distru Test Results API
+  slug: distru-test-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-test-results-api-openapi.yml
 description: ''
 domains:
 - caa: []

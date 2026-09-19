@@ -141,7 +141,7 @@ tags:
 - Attack Surface
 - Threat Intelligence
 - Reconnaissance
-- Network
+- Networks
 - DNS
 - Scanning
 - Public APIs

@@ -237,12 +237,6 @@ api_specs:
   slug: 8x8-phone-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-phone-calls-api-openapi.yml
-- filename: 8x8-phonenumbers-api-openapi.yml
-  format: yaml
-  label: 8x8 Phone Numbers API
-  slug: 8x8-phonenumbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-phonenumbers-api-openapi.yml
 - filename: 8x8-queue-agent-activity-api-openapi.yml
   format: yaml
   label: 8x8 Queue Agent Activity API
@@ -387,12 +381,6 @@ api_specs:
   slug: 8x8-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-webhooks-api-openapi.yml
-- filename: 8x8-webhooks-configuration-api-api-openapi.yml
-  format: yaml
-  label: 8x8 Webhooks Configuration API
-  slug: 8x8-webhooks-configuration-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-webhooks-configuration-api-api-openapi.yml
 - filename: 8x8-workflow-definition-management-api-openapi.yml
   format: yaml
   label: 8x8 Workflow Definition Management API
@@ -411,6 +399,12 @@ api_specs:
   slug: 8x8-workflow-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-workflow-triggers-api-openapi.yml
+- filename: 8x8-phone-numbers-api-openapi.yml
+  format: yaml
+  label: 8x8 Phone Numbers API
+  slug: 8x8-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/openapi/8x8-phone-numbers-api-openapi.yml
 auth_types:
 - apiKey
 - http

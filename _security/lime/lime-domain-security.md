@@ -72,7 +72,7 @@ tags:
 - Electric Scooters
 - Electric Bikes
 - E-Bikes
-- E-Scooters
+- E-Scooter
 - Transportation
 - Urban Mobility
 - GBFS

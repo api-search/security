@@ -48,9 +48,10 @@ tags:
 - Research
 - Identity Federation
 - Authentication
-- Single Sign-On
+- SSO
 - Research Computing
 - Open Source Mirror
 - Version Control
 - Library
+- Developer Tools
 ---

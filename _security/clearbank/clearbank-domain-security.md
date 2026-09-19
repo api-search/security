@@ -6,12 +6,6 @@ api_specs:
   slug: clearbank-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-accounts-api-openapi.yml
-- filename: clearbank-cop-api-openapi.yml
-  format: yaml
-  label: ClearBank Co P API
-  slug: clearbank-cop-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-cop-api-openapi.yml
 - filename: clearbank-createfxquoteendpoint-api-openapi.yml
   format: yaml
   label: ClearBank Create Fx Quote Endpoint API
@@ -90,6 +84,12 @@ api_specs:
   slug: clearbank-secondaryreferencedata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-secondaryreferencedata-api-openapi.yml
+- filename: clearbank-co-p-api-openapi.yml
+  format: yaml
+  label: ClearBank Co P API
+  slug: clearbank-co-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-co-p-api-openapi.yml
 description: ''
 domains:
 - caa: []

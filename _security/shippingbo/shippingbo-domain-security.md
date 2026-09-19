@@ -49,7 +49,7 @@ tags:
 - Multi-Carrier
 - Fulfillment
 - 3PL
-- Marketplaces
+- Marketplace
 - Webhook
 - Authentication
 - Software-as-a-Service

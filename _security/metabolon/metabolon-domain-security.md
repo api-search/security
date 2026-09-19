@@ -42,12 +42,6 @@ api_specs:
   slug: metabolon-labvantagefiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-labvantagefiles-api-openapi.yml
-- filename: metabolon-pipelinestatus-api-openapi.yml
-  format: yaml
-  label: Metabolon Pipeline Status API
-  slug: metabolon-pipelinestatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-pipelinestatus-api-openapi.yml
 - filename: metabolon-projects-api-openapi.yml
   format: yaml
   label: Metabolon Projects API
@@ -108,6 +102,12 @@ api_specs:
   slug: metabolon-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-users-api-openapi.yml
+- filename: metabolon-pipeline-status-api-openapi.yml
+  format: yaml
+  label: Metabolon Pipeline Status API
+  slug: metabolon-pipeline-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/openapi/metabolon-pipeline-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

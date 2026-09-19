@@ -50,7 +50,7 @@ tags:
 - Company
 - Navigation
 - Cycling
-- Motorcycle
+- Motorcycles
 - Hardware
 - GPS
 - Location

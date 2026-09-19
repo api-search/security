@@ -108,12 +108,6 @@ api_specs:
   slug: listrak-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-event-api-openapi.yml
-- filename: listrak-eventconfigurations-api-openapi.yml
-  format: yaml
-  label: Listrak EventConfigurations API
-  slug: listrak-eventconfigurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-eventconfigurations-api-openapi.yml
 - filename: listrak-eventgroup-api-openapi.yml
   format: yaml
   label: Listrak EventGroup API
@@ -138,24 +132,12 @@ api_specs:
   slug: listrak-forget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-forget-api-openapi.yml
-- filename: listrak-ippool-api-openapi.yml
-  format: yaml
-  label: Listrak IpPool API
-  slug: listrak-ippool-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-ippool-api-openapi.yml
 - filename: listrak-list-api-openapi.yml
   format: yaml
   label: Listrak List API
   slug: listrak-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-list-api-openapi.yml
-- filename: listrak-listimport-api-openapi.yml
-  format: yaml
-  label: Listrak ListImport API
-  slug: listrak-listimport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-listimport-api-openapi.yml
 - filename: listrak-listimportcontact-api-openapi.yml
   format: yaml
   label: Listrak ListImportContact API
@@ -288,12 +270,6 @@ api_specs:
   slug: listrak-sendercode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-sendercode-api-openapi.yml
-- filename: listrak-splittest-api-openapi.yml
-  format: yaml
-  label: Listrak SplitTest API
-  slug: listrak-splittest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-splittest-api-openapi.yml
 - filename: listrak-tickets-api-openapi.yml
   format: yaml
   label: Listrak Tickets API
@@ -336,6 +312,30 @@ api_specs:
   slug: listrak-fonts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-fonts-api-openapi.yml
+- filename: listrak-event-configurations-api-openapi.yml
+  format: yaml
+  label: Listrak Event Configurations API
+  slug: listrak-event-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-event-configurations-api-openapi.yml
+- filename: listrak-ip-pool-api-openapi.yml
+  format: yaml
+  label: Listrak IP Pool API
+  slug: listrak-ip-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-ip-pool-api-openapi.yml
+- filename: listrak-list-import-api-openapi.yml
+  format: yaml
+  label: Listrak List Import API
+  slug: listrak-list-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-list-import-api-openapi.yml
+- filename: listrak-split-test-api-openapi.yml
+  format: yaml
+  label: Listrak Split Test API
+  slug: listrak-split-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-split-test-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

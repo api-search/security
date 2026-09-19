@@ -36,7 +36,7 @@ tags:
 - Children
 - Education
 - Sleep
-- Mobile Apps
+- Mobile App
 - Subscription
 - Media
 ---

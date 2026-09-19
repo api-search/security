@@ -38,5 +38,5 @@ tags:
 - Marketplace
 - On-Demand
 - Health
-- Bookings
+- Booking
 ---

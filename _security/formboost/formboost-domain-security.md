@@ -31,16 +31,16 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formboost/refs/heads/main/security/formboost-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- forms
+- Forms
 - form-backend
-- html-forms
-- serverless
-- static-sites
-- react
-- nextjs
-- vue
-- webhooks
-- no-code
-- developer-tools
-- spam-filtering
+- HTML Forms
+- Serverless
+- Static Sites
+- React
+- Next.js
+- Vue
+- Webhook
+- No-Code
+- Developer Tools
+- Spam Filtering
 ---

@@ -54,7 +54,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Human Resources
-- HR Tech
 - Payroll
 - Employee Data
 - Software-as-a-Service

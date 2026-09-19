@@ -6,12 +6,6 @@ api_specs:
   slug: embat-accountingaccounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-accountingaccounts-api-openapi.yml
-- filename: embat-accountingentries-api-openapi.yml
-  format: yaml
-  label: Embat AccountingEntries API
-  slug: embat-accountingentries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-accountingentries-api-openapi.yml
 - filename: embat-attributes-api-openapi.yml
   format: yaml
   label: Embat Attributes API
@@ -90,12 +84,6 @@ api_specs:
   slug: embat-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-operations-api-openapi.yml
-- filename: embat-paymentorders-api-openapi.yml
-  format: yaml
-  label: Embat PaymentOrders API
-  slug: embat-paymentorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-paymentorders-api-openapi.yml
 - filename: embat-payments-api-openapi.yml
   format: yaml
   label: Embat Payments API
@@ -132,6 +120,18 @@ api_specs:
   slug: embat-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-transactions-api-openapi.yml
+- filename: embat-accounting-entries-api-openapi.yml
+  format: yaml
+  label: Embat Accounting Entries API
+  slug: embat-accounting-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-accounting-entries-api-openapi.yml
+- filename: embat-payment-orders-api-openapi.yml
+  format: yaml
+  label: Embat Payment Orders API
+  slug: embat-payment-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-payment-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

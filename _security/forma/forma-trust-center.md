@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forma/refs/hea
 summary_line: SOC 2 Type 2, HIPAA, GDPR
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Employee Benefits
 - Lifestyle Spending Accounts
 - Flexible Spending Accounts

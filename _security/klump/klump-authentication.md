@@ -47,7 +47,6 @@ tags:
 - Company
 - Payments
 - Buy Now Pay Later
-- BNPL
 - Fintech
 - Lending
 - Checkout

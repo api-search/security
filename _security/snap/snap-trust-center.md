@@ -40,7 +40,7 @@ tags:
 - Camera
 - Authentication
 - Identity
-- Conversions
+- Conversion
 - Attribution
 - SDK
 trust_url: https://trust.snap.com/

@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
 - Natural Gas
-- Pipeline
+- Pipelines
 - Infrastructure
 - Fortune 500
 - Midstream

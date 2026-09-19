@@ -34,5 +34,5 @@ tags:
 - Portfolio
 - 500 Global
 - Unverified
-- Lead
+- Leads
 ---

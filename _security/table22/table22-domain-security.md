@@ -36,7 +36,7 @@ tags:
 - Food and Beverage
 - Hospitality
 - E-Commerce
-- Memberships
+- Membership
 - Recurring Revenue
 - Wine Clubs
 - Fulfillment

@@ -18,12 +18,6 @@ api_specs:
   slug: pulsoid-heart-rate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-heart-rate-api-openapi.yml
-- filename: pulsoid-oauth2-api-openapi.yml
-  format: yaml
-  label: Pulsoid OAuth2 API
-  slug: pulsoid-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-oauth2-api-openapi.yml
 - filename: pulsoid-profile-api-openapi.yml
   format: yaml
   label: Pulsoid Profile API
@@ -48,6 +42,12 @@ api_specs:
   slug: pulsoid-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-widgets-api-openapi.yml
+- filename: pulsoid-oauth2-api-openapi.yml
+  format: yaml
+  label: Pulsoid O Auth2 API
+  slug: pulsoid-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

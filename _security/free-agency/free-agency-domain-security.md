@@ -38,5 +38,5 @@ tags:
 - Marketplace
 - Job
 - Artificial Intelligence
-- Newsletter
+- Newsletters
 ---

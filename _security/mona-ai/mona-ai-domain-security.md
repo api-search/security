@@ -34,7 +34,6 @@ tags:
 - Company
 - Recruiting
 - Human Resources
-- HR Tech
 - AI Agents
 - Automation
 - Germany

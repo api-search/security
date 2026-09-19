@@ -37,7 +37,7 @@ tags:
 - Telecommunications
 - Wireless
 - 5G
-- Non-Terrestrial Networks
+- Non-Terrestrial Network
 - Satellite Communications
 - Channel Coding
 - Forward Error Correction

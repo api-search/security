@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Market Research
-- Survey
+- Surveys
 - Brand Measurement
 - Advertising
 - Analytics

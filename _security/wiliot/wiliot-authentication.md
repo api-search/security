@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/he
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
-- Internet of Things
+- IoT
 - Ambient IoT
 - Supply Chain
 - Asset Tracking

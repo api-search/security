@@ -64,6 +64,6 @@ tags:
 - Artificial Intelligence
 - LLM
 - Model Router
-- Gateway
+- Gateways
 - Cost Optimization
 ---

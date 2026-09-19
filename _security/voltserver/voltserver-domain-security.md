@@ -39,6 +39,6 @@ tags:
 - Electrical
 - Hardware
 - Data-Center
-- Building
+- Buildings
 - Energy
 ---

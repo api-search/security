@@ -48,12 +48,6 @@ api_specs:
   slug: phoenix-healthz-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-healthz-api-openapi.yml
-- filename: phoenix-oauth2-api-openapi.yml
-  format: yaml
-  label: Arize Phoenix Oauth2 API
-  slug: phoenix-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-oauth2-api-openapi.yml
 - filename: phoenix-projects-api-openapi.yml
   format: yaml
   label: Arize Phoenix projects API
@@ -102,6 +96,12 @@ api_specs:
   slug: phoenix-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-users-api-openapi.yml
+- filename: phoenix-oauth2-api-openapi.yml
+  format: yaml
+  label: Arize Phoenix Oauth2 API
+  slug: phoenix-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

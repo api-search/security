@@ -54,12 +54,12 @@ api_specs:
   slug: iecure-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iecure/refs/heads/main/openapi/iecure-comments-api-openapi.yml
-- filename: iecure-oembed-api-openapi.yml
+- filename: iecure-o-embed-api-openapi.yml
   format: yaml
-  label: iECURE oEmbed API
-  slug: iecure-oembed-api
+  label: iECURE o Embed API
+  slug: iecure-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iecure/refs/heads/main/openapi/iecure-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iecure/refs/heads/main/openapi/iecure-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

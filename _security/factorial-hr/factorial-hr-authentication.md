@@ -15,12 +15,12 @@ api_specs:
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
-- filename: factorial-resources-api-openapi.yml
+- filename: factorial-hr-resources-api-openapi.yml
   format: yaml
   label: Factorial Resources API
-  slug: factorial-resources-api
+  slug: factorial-hr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-resources-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-resources-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -61,7 +61,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/factoria
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/authentication/factorial-hr-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- HR
 - Human Resources
 - Payroll
 - Time Off

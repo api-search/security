@@ -105,7 +105,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Streaming
 - ETL
-- CDC
+- Change Data Capture
 - Kafka
 - Flink
 - Data Integration

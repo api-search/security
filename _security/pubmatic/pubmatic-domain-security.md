@@ -35,7 +35,6 @@ tags:
 - AdTech
 - Programmatic Advertising
 - Supply Side Platform
-- SSP
 - Header Bidding
 - OpenWrap
 - Prebid

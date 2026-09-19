@@ -2,18 +2,18 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: indian-institute-of-technology-kharagpur-idr-opensearch-openapi.yml
+- filename: indian-institute-of-technology-kharagpur-continuing-education-api-openapi.yml
   format: yaml
-  label: IIT Kharagpur Institutional Digital Repository OpenSearch Interface
-  slug: idr-opensearch
+  label: Indian Institute of Technology Kharagpur Continuing Education API
+  slug: indian-institute-of-technology-kharagpur-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-idr-opensearch-openapi.yml
-- filename: indian-institute-of-technology-kharagpur-erp-cep-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-continuing-education-api-openapi.yml
+- filename: indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
   format: yaml
-  label: IIT Kharagpur ERP Continuing Education Programme Brochure Endpoint
-  slug: erp-cep-brochures
+  label: Indian Institute of Technology Kharagpur Open Search API
+  slug: indian-institute-of-technology-kharagpur-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-erp-cep-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/openapi/indian-institute-of-technology-kharagpur-open-search-api-openapi.yml
 auth_types:
 - none
 - session

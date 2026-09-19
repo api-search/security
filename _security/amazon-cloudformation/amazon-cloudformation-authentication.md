@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-cloudformation-change-sets-api-openapi.yml
-  format: yaml
-  label: Amazon CloudFormation Change Sets API
-  slug: amazon-cloudformation-change-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-change-sets-api-openapi.yml
 - filename: amazon-cloudformation-resources-api-openapi.yml
   format: yaml
   label: Amazon CloudFormation Resources API
@@ -27,6 +21,12 @@ api_specs:
   slug: amazon-cloudformation-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-templates-api-openapi.yml
+- filename: amazon-cloudformation-changesets-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Changesets API
+  slug: amazon-cloudformation-changesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-changesets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

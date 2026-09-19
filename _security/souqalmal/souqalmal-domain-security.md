@@ -39,6 +39,6 @@ tags:
 - Credit Cards
 - Insurance
 - Financial Coaching
-- UAE
+- United Arab Emirates
 - Middle East
 ---

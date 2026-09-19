@@ -52,8 +52,9 @@ tags:
 - Code Push
 - OTA Updates
 - Mobile
-- Mobile Apps
+- Mobile App
 - Deployment
 - CI/CD
 - DevOps
+- Developer Tools
 ---

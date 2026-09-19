@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: qut-eprints-oai-pmh-openapi.yml
+- filename: qut-authorization-api-openapi.yml
   format: yaml
-  label: QUT ePrints OAI-PMH 2.0
-  slug: qut-eprints-oai-pmh-20
+  label: Queensland University of Technology Authorization API
+  slug: qut-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-eprints-oai-pmh-openapi.yml
-- filename: qut-esoe-openid-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-authorization-api-openapi.yml
+- filename: qut-client-registration-api-openapi.yml
   format: yaml
-  label: QUT ESOE OpenID Connect Provider
-  slug: qut-esoe-openid-connect-provider
+  label: Queensland University of Technology Client Registration API
+  slug: qut-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-esoe-openid-connect-openapi.yml
-- filename: qut-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-client-registration-api-openapi.yml
+- filename: qut-datasets-api-openapi.yml
   format: yaml
-  label: QUT ePrints REST Interface
-  slug: qut-eprints-rest-interface
+  label: Queensland University of Technology Datasets API
+  slug: qut-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-datasets-api-openapi.yml
+- filename: qut-discovery-api-openapi.yml
+  format: yaml
+  label: Queensland University of Technology Discovery API
+  slug: qut-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-discovery-api-openapi.yml
+- filename: qut-identity-api-openapi.yml
+  format: yaml
+  label: Queensland University of Technology Identity API
+  slug: qut-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-identity-api-openapi.yml
+- filename: qut-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Queensland University of Technology OAI PMH API
+  slug: qut-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-oai-pmh-api-openapi.yml
+- filename: qut-token-api-openapi.yml
+  format: yaml
+  label: Queensland University of Technology Token API
+  slug: qut-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/openapi/qut-token-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -70,9 +70,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Global Employment
 - Employer of Record
-- EOR
 - Payroll
-- HR
+- Human Resources
 - Compliance
 - Contractors
 - International Hiring

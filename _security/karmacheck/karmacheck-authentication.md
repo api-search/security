@@ -91,7 +91,7 @@ tags:
 - Motor Vehicle Records
 - Occupational Health Screening
 - Drug Screening
-- HR Tech
+- Human Resources
 - Staffing
 - Healthcare
 - Compliance

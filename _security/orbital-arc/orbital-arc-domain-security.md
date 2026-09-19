@@ -33,7 +33,7 @@ tags:
 - Space
 - Aerospace
 - Electric Propulsion
-- Satellites
+- Satellite
 - Deep Tech
 - Hardware
 ---

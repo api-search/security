@@ -40,7 +40,7 @@ tags:
 - Financial Crime Compliance
 - Anti-Money Laundering
 - Sanctions Screening
-- Know Your Customer
+- KYC
 - Transaction Monitoring
 - Adverse Media Monitoring
 - Intelligent Document Processing

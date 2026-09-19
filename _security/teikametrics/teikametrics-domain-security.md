@@ -50,7 +50,7 @@ tags:
 - Advertising
 - Retail
 - E-Commerce
-- Marketplaces
+- Marketplace
 - Artificial Intelligence
 - Analytics
 - Amazon

@@ -21,24 +21,12 @@ api_specs:
   slug: bmo-accounttransactionimages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-accounttransactionimages-api-openapi.yml
-- filename: bmo-accountvalidation-api-openapi.yml
-  format: yaml
-  label: BMO Account Validation API
-  slug: bmo-accountvalidation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-accountvalidation-api-openapi.yml
 - filename: bmo-getpaymentstatus-api-openapi.yml
   format: yaml
   label: BMO Get Payment Status API
   slug: bmo-getpaymentstatus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-getpaymentstatus-api-openapi.yml
-- filename: bmo-oauth20-api-openapi.yml
-  format: yaml
-  label: BMO Oauth20 API
-  slug: bmo-oauth20-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-oauth20-api-openapi.yml
 - filename: bmo-obtain-payment-status-api-openapi.yml
   format: yaml
   label: BMO Obtain Payment Status API
@@ -51,18 +39,6 @@ api_specs:
   slug: bmo-obtain-service-agreement-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-obtain-service-agreement-list-api-openapi.yml
-- filename: bmo-paymentinitiation-api-openapi.yml
-  format: yaml
-  label: BMO Payment Initiation API
-  slug: bmo-paymentinitiation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-paymentinitiation-api-openapi.yml
-- filename: bmo-paymentstatus-api-openapi.yml
-  format: yaml
-  label: BMO Payment Status API
-  slug: bmo-paymentstatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-paymentstatus-api-openapi.yml
 - filename: bmo-paymentstatusupdate-api-openapi.yml
   format: yaml
   label: BMO Payment Status Update API
@@ -141,6 +117,30 @@ api_specs:
   slug: bmo-tppacharrangementcompany-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tppacharrangementcompany-api-openapi.yml
+- filename: bmo-account-validation-api-openapi.yml
+  format: yaml
+  label: BMO Account Validation API
+  slug: bmo-account-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-account-validation-api-openapi.yml
+- filename: bmo-oauth-2-0-api-openapi.yml
+  format: yaml
+  label: BMO OAuth 2.0 API
+  slug: bmo-oauth-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-oauth-2-0-api-openapi.yml
+- filename: bmo-payment-initiation-api-openapi.yml
+  format: yaml
+  label: BMO Payment Initiation API
+  slug: bmo-payment-initiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-payment-initiation-api-openapi.yml
+- filename: bmo-payment-status-api-openapi.yml
+  format: yaml
+  label: BMO Payment Status API
+  slug: bmo-payment-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-payment-status-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

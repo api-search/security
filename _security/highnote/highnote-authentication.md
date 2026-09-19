@@ -3,48 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: highnote-graphql-api-openapi.yml
+- filename: highnote-graph-ql-api-openapi.yml
   format: yaml
-  label: Highnote Issuing API
-  slug: highnote-issuing-api
+  label: Highnote Graph QL API
+  slug: highnote-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
-- filename: highnote-graphql-api-openapi.yml
-  format: yaml
-  label: Highnote Account Holders & Onboarding API
-  slug: highnote-account-holders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
-- filename: highnote-graphql-api-openapi.yml
-  format: yaml
-  label: Highnote Acquiring API
-  slug: highnote-acquiring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
-- filename: highnote-graphql-api-openapi.yml
-  format: yaml
-  label: Highnote Money Movement API
-  slug: highnote-money-movement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
-- filename: highnote-graphql-api-openapi.yml
-  format: yaml
-  label: Highnote Transactions & Disputes API
-  slug: highnote-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
-- filename: highnote-graphql-api-openapi.yml
-  format: yaml
-  label: Highnote Spend Controls & Collaborative Authorization API
-  slug: highnote-spend-controls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
-- filename: highnote-graphql-api-openapi.yml
-  format: yaml
-  label: Highnote Webhooks & Event Notifications API
-  slug: highnote-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/openapi/highnote-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''

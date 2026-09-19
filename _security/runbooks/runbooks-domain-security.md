@@ -33,7 +33,7 @@ tags:
 - ITSM
 - ITAM
 - IT Operations
-- Managed Service Provider
+- Managed Service Providers
 - Help Desk
 - Asset Management
 - Incident Management

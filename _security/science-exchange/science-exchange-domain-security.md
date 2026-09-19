@@ -108,12 +108,6 @@ api_specs:
   slug: science-exchange-rfq-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/openapi/science-exchange-rfq-messages-api-openapi.yml
-- filename: science-exchange-rfqs-api-openapi.yml
-  format: yaml
-  label: Science Exchange rfqs API
-  slug: science-exchange-rfqs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/openapi/science-exchange-rfqs-api-openapi.yml
 - filename: science-exchange-services-api-openapi.yml
   format: yaml
   label: Science Exchange services API
@@ -138,6 +132,12 @@ api_specs:
   slug: science-exchange-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/openapi/science-exchange-users-api-openapi.yml
+- filename: science-exchange-rfqs-api-openapi.yml
+  format: yaml
+  label: Science Exchange Rfqs API
+  slug: science-exchange-rfqs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/openapi/science-exchange-rfqs-api-openapi.yml
 description: ''
 domains:
 - caa:

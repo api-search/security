@@ -6,12 +6,6 @@ api_specs:
   slug: oracle-goldengate-artifacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-artifacts-api-openapi.yml
-- filename: oracle-goldengate-asyncapi-api-openapi.yml
-  format: yaml
-  label: Oracle GoldenGate AsyncAPI API
-  slug: oracle-goldengate-asyncapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-asyncapi-api-openapi.yml
 - filename: oracle-goldengate-certificates-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate Certificates API
@@ -222,6 +216,12 @@ api_specs:
   slug: oracle-goldengate-work-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-work-requests-api-openapi.yml
+- filename: oracle-goldengate-async-api-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate Async API
+  slug: oracle-goldengate-async-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-async-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -262,7 +262,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/security/oracle-goldengate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- CDC
+- Change Data Capture
 - Data Integration
 - Data Synchronization
 - Database

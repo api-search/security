@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Marketplace
-- Auction
+- Auctions
 - Collectibles
 - E-Commerce
 - Art

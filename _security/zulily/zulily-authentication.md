@@ -68,7 +68,7 @@ tags:
 - Retail
 - Shopping
 - Commerce
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - Shopify

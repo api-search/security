@@ -27,15 +27,9 @@ api_specs:
   slug: crystal-reports-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-metadata-api-openapi.yml
-- filename: crystal-reports-odata-api-openapi.yml
-  format: yaml
-  label: Crystal Reports OData API
-  slug: crystal-reports-odata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-odata-api-openapi.yml
 - filename: crystal-reports-reports-api-openapi.yml
   format: yaml
-  label: Crystal Reports Reports API
+  label: Crystal Reports API
   slug: crystal-reports-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-reports-api-openapi.yml
@@ -45,6 +39,12 @@ api_specs:
   slug: crystal-reports-repository-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-repository-api-openapi.yml
+- filename: crystal-reports-odata-api-openapi.yml
+  format: yaml
+  label: Crystal Reports O Data API
+  slug: crystal-reports-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-odata-api-openapi.yml
 auth_types:
 - apiKey
 - http

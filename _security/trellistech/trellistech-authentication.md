@@ -74,7 +74,7 @@ tags:
 - Company
 - Property Management
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - AI Agents
 - Hospitality
 - Task Management

@@ -60,7 +60,7 @@ tags:
 - Account-to-Account
 - ISO 20022
 - Payment Scheme
-- Rails
+- Rail
 - PayTo
 - PayID
 - Open Banking

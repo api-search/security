@@ -111,12 +111,6 @@ api_specs:
   slug: influxdb-notificationendpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-notificationendpoints-api-openapi.yml
-- filename: influxdb-notificationrules-api-openapi.yml
-  format: yaml
-  label: InfluxDB NotificationRules API
-  slug: influxdb-notificationrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-notificationrules-api-openapi.yml
 - filename: influxdb-organizations-api-openapi.yml
   format: yaml
   label: InfluxDB Organizations API
@@ -171,12 +165,6 @@ api_specs:
   slug: influxdb-setup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-setup-api-openapi.yml
-- filename: influxdb-signin-api-openapi.yml
-  format: yaml
-  label: InfluxDB Signin API
-  slug: influxdb-signin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-signin-api-openapi.yml
 - filename: influxdb-signout-api-openapi.yml
   format: yaml
   label: InfluxDB Signout API
@@ -243,6 +231,18 @@ api_specs:
   slug: influxdb-write-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-write-api-openapi.yml
+- filename: influxdb-notification-rules-api-openapi.yml
+  format: yaml
+  label: InfluxDB Notification Rules API
+  slug: influxdb-notification-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-notification-rules-api-openapi.yml
+- filename: influxdb-sign-in-api-openapi.yml
+  format: yaml
+  label: InfluxDB Sign In API
+  slug: influxdb-sign-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/openapi/influxdb-sign-in-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -4,12 +4,6 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: vanilla-forums-addons-api-openapi.yml
-  format: yaml
-  label: Vanilla Forums Addons API
-  slug: vanilla-forums-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-addons-api-openapi.yml
 - filename: vanilla-forums-ai-processing-preferences-api-openapi.yml
   format: yaml
   label: Vanilla Forums AI Processing Preferences API
@@ -100,12 +94,6 @@ api_specs:
   slug: vanilla-forums-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-dashboard-api-openapi.yml
-- filename: vanilla-forums-datasource-api-openapi.yml
-  format: yaml
-  label: Vanilla Forums DataSource API
-  slug: vanilla-forums-datasource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-datasource-api-openapi.yml
 - filename: vanilla-forums-discussion-statuses-api-openapi.yml
   format: yaml
   label: Vanilla Forums Discussion Statuses API
@@ -136,12 +124,6 @@ api_specs:
   slug: vanilla-forums-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-emails-api-openapi.yml
-- filename: vanilla-forums-emailtemplates-api-openapi.yml
-  format: yaml
-  label: Vanilla Forums emailTemplates API
-  slug: vanilla-forums-emailtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-emailtemplates-api-openapi.yml
 - filename: vanilla-forums-exports-api-openapi.yml
   format: yaml
   label: Vanilla Forums Exports API
@@ -352,6 +334,18 @@ api_specs:
   slug: vanilla-forums-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-widgets-api-openapi.yml
+- filename: vanilla-forums-add-ons-api-openapi.yml
+  format: yaml
+  label: Vanilla Forums Add Ons API
+  slug: vanilla-forums-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-add-ons-api-openapi.yml
+- filename: vanilla-forums-data-source-api-openapi.yml
+  format: yaml
+  label: Vanilla Forums Data Source API
+  slug: vanilla-forums-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-data-source-api-openapi.yml
 auth_types:
 - http bearer (personal access token)
 - http bearer (JWT)

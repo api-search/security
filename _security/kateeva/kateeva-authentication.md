@@ -38,18 +38,18 @@ api_specs:
   slug: kateeva-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-discovery-api-openapi.yml
-- filename: kateeva-oembed-api-openapi.yml
-  format: yaml
-  label: Kateeva oEmbed API
-  slug: kateeva-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-oembed-api-openapi.yml
 - filename: kateeva-seo-api-openapi.yml
   format: yaml
   label: Kateeva SEO Metadata API
   slug: kateeva-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-seo-api-openapi.yml
+- filename: kateeva-o-embed-api-openapi.yml
+  format: yaml
+  label: Kateeva o Embed API
+  slug: kateeva-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-o-embed-api-openapi.yml
 auth_types: []
 description: Kateeva publishes no developer program and issues no API credentials. The WordPress REST content API behind kateeva.com is anonymously readable — no key, token, signature or account is required to read posts, pages, media, taxonomies, search, oEmbed, SEO metadata or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface.
 kind: authentication

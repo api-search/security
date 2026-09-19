@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - 3D
-- Digital Twins
+- Digital Twin
 - Geospatial
 - Gaming
 - Simulation

@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: wizehire-scout-service-openapi.yml
+- filename: wizehire-agent-api-openapi.yml
   format: yaml
-  label: Wizehire Scout Service API
-  slug: wizehire-scout-service-api
+  label: WizeHire Agent API
+  slug: wizehire-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-scout-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-agent-api-openapi.yml
+- filename: wizehire-candidates-api-openapi.yml
+  format: yaml
+  label: WizeHire Candidates API
+  slug: wizehire-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-candidates-api-openapi.yml
+- filename: wizehire-health-api-openapi.yml
+  format: yaml
+  label: WizeHire Health API
+  slug: wizehire-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-health-api-openapi.yml
+- filename: wizehire-interviews-api-openapi.yml
+  format: yaml
+  label: WizeHire Interviews API
+  slug: wizehire-interviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-interviews-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -43,7 +61,6 @@ tags:
 - Talent Assessment
 - Small Business
 - Artificial Intelligence
-- Job Boards
+- Job Board
 - Onboarding
-- HR Tech
 ---

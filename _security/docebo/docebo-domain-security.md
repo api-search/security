@@ -49,9 +49,9 @@ tags:
 - E-Learning
 - Training
 - Courses
-- Certifications
+- Certification
 - Gamification
 - Learning Plans
-- HR Tech
+- Human Resources
 - AI Learning
 ---

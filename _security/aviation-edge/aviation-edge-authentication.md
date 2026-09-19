@@ -3,18 +3,6 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: aviation-edge-openapi.yml
-  format: yaml
-  label: Aviation Edge
-  slug: aviation-edge
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/_original/aviation-edge-openapi.yml
-- filename: aviation-edge-real-time-api-openapi.yml
-  format: yaml
-  label: Aviation Edge Real-Time API
-  slug: aviation-edge-real-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-real-time-api-openapi.yml
 - filename: aviation-edge-reference-api-openapi.yml
   format: yaml
   label: Aviation Edge Reference API
@@ -35,10 +23,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-schedules-api-openapi.yml
 - filename: aviation-edge-notams-api-openapi.yml
   format: yaml
-  label: Aviation Edge NOTAMs API
+  label: Aviation Edge NOTA Ms API
   slug: aviation-edge-notams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-notams-api-openapi.yml
+- filename: aviation-edge-realtime-api-openapi.yml
+  format: yaml
+  label: Aviation Edge Realtime API
+  slug: aviation-edge-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-realtime-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

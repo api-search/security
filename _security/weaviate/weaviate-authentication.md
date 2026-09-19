@@ -51,12 +51,6 @@ api_specs:
   slug: weaviate-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-export-api-openapi.yml
-- filename: weaviate-graphql-api-openapi.yml
-  format: yaml
-  label: Weaviate graphql API
-  slug: weaviate-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-graphql-api-openapi.yml
 - filename: weaviate-mcp-api-openapi.yml
   format: yaml
   label: Weaviate mcp API
@@ -125,7 +119,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-users-api-openapi.yml
 - filename: weaviate-weaviate-rest-api-api-openapi.yml
   format: yaml
-  label: Weaviate Weaviate REST API API
+  label: Weaviate REST API
   slug: weaviate-weaviate-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-weaviate-rest-api-api-openapi.yml
@@ -135,6 +129,12 @@ api_specs:
   slug: weaviate-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-well-known-api-openapi.yml
+- filename: weaviate-graph-ql-api-openapi.yml
+  format: yaml
+  label: Weaviate Graph QL API
+  slug: weaviate-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http

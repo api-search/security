@@ -39,7 +39,7 @@ tags:
 - Wearables
 - Fitness
 - Interoperability
-- Open Standards
+- Open Standard
 - Open-Source
 - JSON-Schema
 - IEEE 1752

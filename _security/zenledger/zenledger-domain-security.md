@@ -1,17 +1,83 @@
 ---
 api_specs:
-- filename: zenledger-compliance-api-openapi.yml
+- filename: zenledger-authentication-api-openapi.yml
   format: yaml
-  label: ZenLedger Compliance Suite API
-  slug: zenledger-compliance-suite-api
+  label: ZenLedger Authentication API
+  slug: zenledger-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-compliance-api-openapi.yml
-- filename: zenledger-aggregator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-authentication-api-openapi.yml
+- filename: zenledger-companies-api-openapi.yml
   format: yaml
-  label: ZenLedger Aggregator Suite API
-  slug: zenledger-aggregator-suite-api
+  label: ZenLedger Companies API
+  slug: zenledger-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-aggregator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-companies-api-openapi.yml
+- filename: zenledger-holdings-api-openapi.yml
+  format: yaml
+  label: ZenLedger Holdings API
+  slug: zenledger-holdings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-holdings-api-openapi.yml
+- filename: zenledger-imports-api-openapi.yml
+  format: yaml
+  label: ZenLedger Imports API
+  slug: zenledger-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-imports-api-openapi.yml
+- filename: zenledger-polymarkets-api-openapi.yml
+  format: yaml
+  label: ZenLedger Polymarkets API
+  slug: zenledger-polymarkets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-polymarkets-api-openapi.yml
+- filename: zenledger-portfolios-api-openapi.yml
+  format: yaml
+  label: ZenLedger Portfolios API
+  slug: zenledger-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-portfolios-api-openapi.yml
+- filename: zenledger-supported-chains-api-openapi.yml
+  format: yaml
+  label: ZenLedger Supported Chains API
+  slug: zenledger-supported-chains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-supported-chains-api-openapi.yml
+- filename: zenledger-supported-currencies-api-openapi.yml
+  format: yaml
+  label: ZenLedger Supported Currencies API
+  slug: zenledger-supported-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-supported-currencies-api-openapi.yml
+- filename: zenledger-supported-exchanges-and-wallets-api-openapi.yml
+  format: yaml
+  label: ZenLedger Supported Exchanges and Wallets API
+  slug: zenledger-supported-exchanges-and-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-supported-exchanges-and-wallets-api-openapi.yml
+- filename: zenledger-taxes-api-openapi.yml
+  format: yaml
+  label: ZenLedger Taxes API
+  slug: zenledger-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-taxes-api-openapi.yml
+- filename: zenledger-transactions-api-openapi.yml
+  format: yaml
+  label: ZenLedger Transactions API
+  slug: zenledger-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-transactions-api-openapi.yml
+- filename: zenledger-users-api-openapi.yml
+  format: yaml
+  label: ZenLedger Users API
+  slug: zenledger-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-users-api-openapi.yml
+- filename: zenledger-wallet-screening-api-openapi.yml
+  format: yaml
+  label: ZenLedger Wallet Screening API
+  slug: zenledger-wallet-screening-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/openapi/zenledger-wallet-screening-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +132,7 @@ tags:
 - RegTech
 - Accounting
 - Sanctions Screening
-- Financial Services
+- Financial-Services
 - Portfolio Aggregation
 - Cryptocurrency
 ---

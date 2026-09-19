@@ -45,5 +45,5 @@ tags:
 - Electronic Health Records
 - Machine-Learning
 - Patient Monitoring
-- Internet of Things
+- IoT
 ---

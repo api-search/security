@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Software-as-a-Service
-- HR Tech
+- Human Resources
 - Internal Communications
 - Employee Engagement
 - People Operations

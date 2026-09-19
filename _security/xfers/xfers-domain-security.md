@@ -36,12 +36,6 @@ api_specs:
   slug: xfers-disbursements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/openapi/xfers-disbursements-api-openapi.yml
-- filename: xfers-e-signature-api-openapi.yml
-  format: yaml
-  label: Xfers E-signature API
-  slug: xfers-e-signature-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/openapi/xfers-e-signature-api-openapi.yml
 - filename: xfers-fixed-virtual-account-bank-transfers-api-openapi.yml
   format: yaml
   label: Xfers Fixed Virtual Account Bank Transfers API
@@ -120,6 +114,12 @@ api_specs:
   slug: xfers-withdraw-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/openapi/xfers-withdraw-api-openapi.yml
+- filename: xfers-esignature-api-openapi.yml
+  format: yaml
+  label: Xfers E Signature API
+  slug: xfers-esignature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/openapi/xfers-esignature-api-openapi.yml
 description: ''
 domains:
 - caa: []

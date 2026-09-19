@@ -2,18 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: trusona-verification-api-openapi.yml
+- filename: trusona-devices-api-openapi.yml
   format: yaml
-  label: Trusona ATO Protect Verification API
-  slug: trusona-ato-protect-verification-api
+  label: Trusona Devices API
+  slug: trusona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-verification-api-openapi.yml
-- filename: trusona-driver-license-verification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-devices-api-openapi.yml
+- filename: trusona-documents-api-openapi.yml
   format: yaml
-  label: Trusona Driver License Verification API (IDV API)
-  slug: trusona-driver-license-verification-api-idv-api
+  label: Trusona Documents API
+  slug: trusona-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-driver-license-verification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-documents-api-openapi.yml
+- filename: trusona-encrypted-verifications-api-openapi.yml
+  format: yaml
+  label: Trusona Encrypted Verifications API
+  slug: trusona-encrypted-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-encrypted-verifications-api-openapi.yml
+- filename: trusona-id-verifications-api-openapi.yml
+  format: yaml
+  label: Trusona ID Verifications API
+  slug: trusona-id-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-id-verifications-api-openapi.yml
+- filename: trusona-messages-api-openapi.yml
+  format: yaml
+  label: Trusona Messages API
+  slug: trusona-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-messages-api-openapi.yml
+- filename: trusona-risk-scores-api-openapi.yml
+  format: yaml
+  label: Trusona Risk Scores API
+  slug: trusona-risk-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-risk-scores-api-openapi.yml
+- filename: trusona-verifications-api-openapi.yml
+  format: yaml
+  label: Trusona Verifications API
+  slug: trusona-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-verifications-api-openapi.yml
 auth_types:
 - http
 description: ''

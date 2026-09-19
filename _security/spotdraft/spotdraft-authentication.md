@@ -356,7 +356,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs
 summary_line: apiKey/http · 6 schemes
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - E-Signature

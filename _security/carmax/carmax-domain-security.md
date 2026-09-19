@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Auto Financing
 - Auto Retail
-- Appraisals
+- Appraisal
 - Automotive
 - Omnichannel
 - Retail

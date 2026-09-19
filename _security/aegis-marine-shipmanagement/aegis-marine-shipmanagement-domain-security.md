@@ -12,12 +12,6 @@ api_specs:
   slug: aegis-marine-shipmanagement-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-media-api-openapi.yml
-- filename: aegis-marine-shipmanagement-taxonomy-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Taxonomy API
-  slug: aegis-marine-shipmanagement-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-taxonomy-api-openapi.yml
 - filename: aegis-marine-shipmanagement-search-api-openapi.yml
   format: yaml
   label: Aegis Marine Shipmanagement Search API
@@ -30,18 +24,30 @@ api_specs:
   slug: aegis-marine-shipmanagement-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-discovery-api-openapi.yml
-- filename: aegis-marine-shipmanagement-oembed-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement oEmbed API
-  slug: aegis-marine-shipmanagement-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-oembed-api-openapi.yml
 - filename: aegis-marine-shipmanagement-seo-api-openapi.yml
   format: yaml
   label: Aegis Marine Shipmanagement SEO Metadata API
   slug: aegis-marine-shipmanagement-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-seo-api-openapi.yml
+- filename: aegis-marine-shipmanagement-categories-api-openapi.yml
+  format: yaml
+  label: Aegis Marine Shipmanagement Categories API
+  slug: aegis-marine-shipmanagement-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-categories-api-openapi.yml
+- filename: aegis-marine-shipmanagement-tags-api-openapi.yml
+  format: yaml
+  label: Aegis Marine Shipmanagement Tags API
+  slug: aegis-marine-shipmanagement-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-tags-api-openapi.yml
+- filename: aegis-marine-shipmanagement-o-embed-api-openapi.yml
+  format: yaml
+  label: Aegis Marine Shipmanagement o Embed API
+  slug: aegis-marine-shipmanagement-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

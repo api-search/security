@@ -45,7 +45,7 @@ tags:
 - Space
 - Earth Observation
 - Hyperspectral Imaging
-- Satellites
+- Satellite
 - Geospatial
 - Remote Sensing
 - Open Data

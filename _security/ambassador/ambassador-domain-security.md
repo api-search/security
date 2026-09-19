@@ -24,18 +24,18 @@ api_specs:
   slug: ambassador-modules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-modules-api-openapi.yml
-- filename: ambassador-ratelimits-api-openapi.yml
-  format: yaml
-  label: Ambassador RateLimits API
-  slug: ambassador-ratelimits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-ratelimits-api-openapi.yml
 - filename: ambassador-tlscontexts-api-openapi.yml
   format: yaml
   label: Ambassador TLSContexts API
   slug: ambassador-tlscontexts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-tlscontexts-api-openapi.yml
+- filename: ambassador-rate-limits-api-openapi.yml
+  format: yaml
+  label: Ambassador Rate Limits API
+  slug: ambassador-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-rate-limits-api-openapi.yml
 description: ''
 domains:
 - caa: []

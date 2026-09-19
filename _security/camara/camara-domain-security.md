@@ -45,4 +45,5 @@ tags:
 - GSMA
 - Connectivity
 - 5G
+- CAMARA
 ---

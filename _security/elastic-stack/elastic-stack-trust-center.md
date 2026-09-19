@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-doc-api-openapi.yml
 - filename: elastic-stack-elasticsearch-api-api-openapi.yml
   format: yaml
-  label: Elastic Stack Elasticsearch API API
+  label: Elastic Stack Elasticsearch API
   slug: elastic-stack-elasticsearch-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/openapi/elastic-stack-elasticsearch-api-api-openapi.yml

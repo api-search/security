@@ -33,7 +33,7 @@ tags:
 - Space
 - Satellite
 - Optical Communications
-- Free Space Optics
+- Free-Space Optics
 - Laser Communications
 - Telecommunications
 - Aerospace

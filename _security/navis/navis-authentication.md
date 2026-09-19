@@ -69,8 +69,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navis/refs/hea
 summary_line: apiKey/http · 2 schemes
 tags:
 - Maritime
-- Port
+- Ports
 - Terminal
-- Container
+- Containers
 - Logistics
 ---

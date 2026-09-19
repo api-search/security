@@ -8,12 +8,6 @@ api_specs:
   slug: apiida-alarms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-alarms-api-openapi.yml
-- filename: apiida-apis-api-openapi.yml
-  format: yaml
-  label: APIIDA Apis API
-  slug: apiida-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-apis-api-openapi.yml
 - filename: apiida-deployments-api-openapi.yml
   format: yaml
   label: APIIDA Deployments API
@@ -38,6 +32,12 @@ api_specs:
   slug: apiida-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-versions-api-openapi.yml
+- filename: apiida-apis-api-openapi.yml
+  format: yaml
+  label: APIIDA APIS API
+  slug: apiida-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-apis-api-openapi.yml
 auth_types:
 - http
 description: ''

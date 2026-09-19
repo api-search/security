@@ -1,17 +1,35 @@
 ---
 api_specs:
-- filename: georgia-institute-of-technology-gtplaces-openapi.yml
-  format: yaml
-  label: GT Places API
-  slug: gt-places
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-gtplaces-openapi.yml
 - filename: georgia-institute-of-technology-api-api-openapi.yml
   format: yaml
   label: Georgia Tech SUMS REST API
   slug: sums
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-api-api-openapi.yml
+- filename: georgia-institute-of-technology-buildings-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Buildings API
+  slug: georgia-institute-of-technology-buildings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-buildings-api-openapi.yml
+- filename: georgia-institute-of-technology-buildings-id-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Buildings ID API
+  slug: georgia-institute-of-technology-buildings-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-buildings-id-api-openapi.yml
+- filename: georgia-institute-of-technology-categories-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Categories API
+  slug: georgia-institute-of-technology-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-categories-api-openapi.yml
+- filename: georgia-institute-of-technology-tags-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Tags API
+  slug: georgia-institute-of-technology-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

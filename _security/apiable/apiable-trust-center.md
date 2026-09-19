@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: apiable-platform-api-openapi.json
-  format: json
-  label: Apiable Platform API
-  slug: platform-api
+- filename: apiable-companies-api-openapi.yml
+  format: yaml
+  label: Apiable Companies API
+  slug: apiable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-platform-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-companies-api-openapi.yml
+- filename: apiable-custom-properties-api-openapi.yml
+  format: yaml
+  label: Apiable Custom Properties API
+  slug: apiable-custom-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-custom-properties-api-openapi.yml
+- filename: apiable-docs-api-openapi.yml
+  format: yaml
+  label: Apiable Docs API
+  slug: apiable-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-docs-api-openapi.yml
+- filename: apiable-files-api-openapi.yml
+  format: yaml
+  label: Apiable Files API
+  slug: apiable-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-files-api-openapi.yml
+- filename: apiable-invitations-api-openapi.yml
+  format: yaml
+  label: Apiable Invitations API
+  slug: apiable-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-invitations-api-openapi.yml
+- filename: apiable-plans-api-openapi.yml
+  format: yaml
+  label: Apiable Plans API
+  slug: apiable-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-plans-api-openapi.yml
+- filename: apiable-products-api-openapi.yml
+  format: yaml
+  label: Apiable Products API
+  slug: apiable-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-products-api-openapi.yml
+- filename: apiable-subscriptions-api-openapi.yml
+  format: yaml
+  label: Apiable Subscriptions API
+  slug: apiable-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-subscriptions-api-openapi.yml
+- filename: apiable-teams-api-openapi.yml
+  format: yaml
+  label: Apiable Teams API
+  slug: apiable-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-teams-api-openapi.yml
+- filename: apiable-users-api-openapi.yml
+  format: yaml
+  label: Apiable Users API
+  slug: apiable-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-users-api-openapi.yml
+- filename: apiable-webhooks-api-openapi.yml
+  format: yaml
+  label: Apiable Webhooks API
+  slug: apiable-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-webhooks-api-openapi.yml
+- filename: apiable-server-info-api-openapi.yml
+  format: yaml
+  label: Apiable Server Info API
+  slug: apiable-server-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-server-info-api-openapi.yml
 certification_count: 3
 certifications:
 - AWS Well-Architected Framework Review
@@ -35,6 +101,7 @@ tags:
 - API Portal
 - Developer Experience
 - Developer Portal
+- Developer Tools
 - Kong
 - Platform
 - Self-Service

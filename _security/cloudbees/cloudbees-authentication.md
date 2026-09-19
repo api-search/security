@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cloudbees-unify-openapi.yml
-  format: yaml
-  label: CloudBees Unify Platform API
-  slug: unify
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-unify-openapi.yml
 - filename: cloudbees-computer-api-openapi.yml
   format: yaml
   label: CloudBees Computer API
@@ -50,6 +44,78 @@ api_specs:
   slug: cloudbees-xml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-xml-api-openapi.yml
+- filename: cloudbees-components-api-openapi.yml
+  format: yaml
+  label: CloudBees Components API
+  slug: cloudbees-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-components-api-openapi.yml
+- filename: cloudbees-environments-api-openapi.yml
+  format: yaml
+  label: CloudBees Environments API
+  slug: cloudbees-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-environments-api-openapi.yml
+- filename: cloudbees-flag-configurations-api-openapi.yml
+  format: yaml
+  label: CloudBees Flag configurations API
+  slug: cloudbees-flag-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-configurations-api-openapi.yml
+- filename: cloudbees-flag-custom-properties-api-openapi.yml
+  format: yaml
+  label: CloudBees Flag custom properties API
+  slug: cloudbees-flag-custom-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-custom-properties-api-openapi.yml
+- filename: cloudbees-flag-lifecycle-api-openapi.yml
+  format: yaml
+  label: CloudBees Flag lifecycle API
+  slug: cloudbees-flag-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-lifecycle-api-openapi.yml
+- filename: cloudbees-flags-api-openapi.yml
+  format: yaml
+  label: CloudBees Flags API
+  slug: cloudbees-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flags-api-openapi.yml
+- filename: cloudbees-organizations-api-openapi.yml
+  format: yaml
+  label: CloudBees Organizations API
+  slug: cloudbees-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-organizations-api-openapi.yml
+- filename: cloudbees-runs-api-openapi.yml
+  format: yaml
+  label: CloudBees Runs API
+  slug: cloudbees-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-runs-api-openapi.yml
+- filename: cloudbees-target-groups-api-openapi.yml
+  format: yaml
+  label: CloudBees Target groups API
+  slug: cloudbees-target-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-target-groups-api-openapi.yml
+- filename: cloudbees-team-memberships-api-openapi.yml
+  format: yaml
+  label: CloudBees Team Memberships API
+  slug: cloudbees-team-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-team-memberships-api-openapi.yml
+- filename: cloudbees-teams-api-openapi.yml
+  format: yaml
+  label: CloudBees Teams API
+  slug: cloudbees-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-teams-api-openapi.yml
+- filename: cloudbees-users-api-openapi.yml
+  format: yaml
+  label: CloudBees Users API
+  slug: cloudbees-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-users-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -113,6 +179,7 @@ tags:
 - CI/CD
 - Continuous Delivery
 - Continuous Integration
+- Developer Tools
 - DevOps
 - Feature Flags
 - Feature Management

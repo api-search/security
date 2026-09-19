@@ -51,6 +51,6 @@ tags:
 - Expense Tracking
 - Fintech
 - Banking
-- Consumer Apps
+- Consumer App
 - Company
 ---

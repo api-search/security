@@ -34,7 +34,7 @@ tags:
 - Application
 - Shopify
 - E-Commerce
-- Audits
+- Audit
 - AI Agents
 - Analytics
 ---

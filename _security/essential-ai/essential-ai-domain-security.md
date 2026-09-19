@@ -37,7 +37,7 @@ summary_line: TLSv1.3
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - open-weight-models
 - AI Research
 - Foundation Models

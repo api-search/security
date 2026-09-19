@@ -40,4 +40,5 @@ tags:
 - Lifestyle
 - Fashion
 - India
+- Direct to Consumer
 ---

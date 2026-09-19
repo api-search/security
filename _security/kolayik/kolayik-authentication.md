@@ -102,7 +102,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Human Resources
-- HR
 - Payroll
 - HCM
 - Employee Management

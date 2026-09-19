@@ -1,137 +1,131 @@
 ---
 api_specs:
-- filename: tmdb-api-openapi-original.yml
-  format: yaml
-  label: TMDB API
-  slug: tmdb-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-api-openapi-original.yml
-- filename: the-movie-database-account-api-openapi.yml
+- filename: tmdb-account-api-openapi.yml
   format: yaml
   label: The Movie Database Account API
-  slug: the-movie-database-account-api
+  slug: tmdb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-account-api-openapi.yml
-- filename: the-movie-database-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-account-api-openapi.yml
+- filename: tmdb-authentication-api-openapi.yml
   format: yaml
   label: The Movie Database Authentication API
-  slug: the-movie-database-authentication-api
+  slug: tmdb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-authentication-api-openapi.yml
-- filename: the-movie-database-certification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-authentication-api-openapi.yml
+- filename: tmdb-certification-api-openapi.yml
   format: yaml
   label: The Movie Database Certification API
-  slug: the-movie-database-certification-api
+  slug: tmdb-certification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-certification-api-openapi.yml
-- filename: the-movie-database-collection-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-certification-api-openapi.yml
+- filename: tmdb-collection-api-openapi.yml
   format: yaml
   label: The Movie Database Collection API
-  slug: the-movie-database-collection-api
+  slug: tmdb-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-collection-api-openapi.yml
-- filename: the-movie-database-company-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-collection-api-openapi.yml
+- filename: tmdb-company-api-openapi.yml
   format: yaml
   label: The Movie Database Company API
-  slug: the-movie-database-company-api
+  slug: tmdb-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-company-api-openapi.yml
-- filename: the-movie-database-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-company-api-openapi.yml
+- filename: tmdb-configuration-api-openapi.yml
   format: yaml
   label: The Movie Database Configuration API
-  slug: the-movie-database-configuration-api
+  slug: tmdb-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-configuration-api-openapi.yml
-- filename: the-movie-database-credit-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-configuration-api-openapi.yml
+- filename: tmdb-credit-api-openapi.yml
   format: yaml
   label: The Movie Database Credit API
-  slug: the-movie-database-credit-api
+  slug: tmdb-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-credit-api-openapi.yml
-- filename: the-movie-database-discover-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-credit-api-openapi.yml
+- filename: tmdb-discover-api-openapi.yml
   format: yaml
   label: The Movie Database Discover API
-  slug: the-movie-database-discover-api
+  slug: tmdb-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-discover-api-openapi.yml
-- filename: the-movie-database-find-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-discover-api-openapi.yml
+- filename: tmdb-find-api-openapi.yml
   format: yaml
   label: The Movie Database Find API
-  slug: the-movie-database-find-api
+  slug: tmdb-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-find-api-openapi.yml
-- filename: the-movie-database-genre-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-find-api-openapi.yml
+- filename: tmdb-genre-api-openapi.yml
   format: yaml
   label: The Movie Database Genre API
-  slug: the-movie-database-genre-api
+  slug: tmdb-genre-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-genre-api-openapi.yml
-- filename: the-movie-database-guest-session-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-genre-api-openapi.yml
+- filename: tmdb-guest-session-api-openapi.yml
   format: yaml
   label: The Movie Database Guest Session API
-  slug: the-movie-database-guest-session-api
+  slug: tmdb-guest-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-guest-session-api-openapi.yml
-- filename: the-movie-database-keyword-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-guest-session-api-openapi.yml
+- filename: tmdb-keyword-api-openapi.yml
   format: yaml
   label: The Movie Database Keyword API
-  slug: the-movie-database-keyword-api
+  slug: tmdb-keyword-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-keyword-api-openapi.yml
-- filename: the-movie-database-list-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-keyword-api-openapi.yml
+- filename: tmdb-list-api-openapi.yml
   format: yaml
   label: The Movie Database List API
-  slug: the-movie-database-list-api
+  slug: tmdb-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-list-api-openapi.yml
-- filename: the-movie-database-movie-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-list-api-openapi.yml
+- filename: tmdb-movie-api-openapi.yml
   format: yaml
   label: The Movie Database Movie API
-  slug: the-movie-database-movie-api
+  slug: tmdb-movie-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-movie-api-openapi.yml
-- filename: the-movie-database-network-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-movie-api-openapi.yml
+- filename: tmdb-network-api-openapi.yml
   format: yaml
   label: The Movie Database Network API
-  slug: the-movie-database-network-api
+  slug: tmdb-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-network-api-openapi.yml
-- filename: the-movie-database-person-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-network-api-openapi.yml
+- filename: tmdb-person-api-openapi.yml
   format: yaml
   label: The Movie Database Person API
-  slug: the-movie-database-person-api
+  slug: tmdb-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-person-api-openapi.yml
-- filename: the-movie-database-review-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-person-api-openapi.yml
+- filename: tmdb-review-api-openapi.yml
   format: yaml
   label: The Movie Database Review API
-  slug: the-movie-database-review-api
+  slug: tmdb-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-review-api-openapi.yml
-- filename: the-movie-database-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-review-api-openapi.yml
+- filename: tmdb-search-api-openapi.yml
   format: yaml
   label: The Movie Database Search API
-  slug: the-movie-database-search-api
+  slug: tmdb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-search-api-openapi.yml
-- filename: the-movie-database-trending-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-search-api-openapi.yml
+- filename: tmdb-trending-api-openapi.yml
   format: yaml
   label: The Movie Database Trending API
-  slug: the-movie-database-trending-api
+  slug: tmdb-trending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-trending-api-openapi.yml
-- filename: the-movie-database-tv-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-trending-api-openapi.yml
+- filename: tmdb-tv-api-openapi.yml
   format: yaml
   label: The Movie Database Tv API
-  slug: the-movie-database-tv-api
+  slug: tmdb-tv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-tv-api-openapi.yml
-- filename: the-movie-database-watch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-tv-api-openapi.yml
+- filename: tmdb-watch-api-openapi.yml
   format: yaml
   label: The Movie Database Watch API
-  slug: the-movie-database-watch-api
+  slug: tmdb-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/the-movie-database-watch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/openapi/tmdb-watch-api-openapi.yml
 description: ''
 domains:
 - caa:

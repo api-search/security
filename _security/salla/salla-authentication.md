@@ -149,9 +149,9 @@ tags:
 - E-Commerce
 - GCC
 - Headless Commerce
-- Merchant
+- Merchants
 - MENA
-- Online Stores
+- Online Store
 - Retail
 - Saudi Arabia
 - SMB

@@ -42,12 +42,12 @@ api_specs:
   slug: scylladb-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-pricing-api-openapi.yml
-- filename: scylladb-vectorsearch-api-openapi.yml
+- filename: scylladb-vector-search-api-openapi.yml
   format: yaml
-  label: ScyllaDB VectorSearch API
-  slug: scylladb-vectorsearch-api
+  label: ScyllaDB Vector Search API
+  slug: scylladb-vector-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-vectorsearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-vector-search-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

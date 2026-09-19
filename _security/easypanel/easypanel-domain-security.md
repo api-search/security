@@ -47,7 +47,7 @@ tags:
 - SSL
 - Let's Encrypt
 - Zero Downtime Deployment
-- Database Backups
+- Database Backup
 - VPS
 - DevOps
 - Infrastructure

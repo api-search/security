@@ -72,5 +72,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rockwell-factorytalk-optix-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://optix.example.com/auth/token\n    scopes: 3\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: FactoryTalk Optix API key\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/authentication/rockwell-factorytalk-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
-tags: []
+tags:
+- Automation
+- Manufacturing
+- Cloud
+- Recipes
 ---

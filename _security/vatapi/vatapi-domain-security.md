@@ -45,9 +45,9 @@ tags:
 - VAT
 - Tax
 - EU
-- UK
+- United Kingdom
 - Compliance
-- Invoice
+- Invoices
 - VIES
 - Business Verification
 ---

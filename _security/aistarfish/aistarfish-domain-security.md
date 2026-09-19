@@ -35,6 +35,6 @@ tags:
 - Digital Health
 - Oncology
 - Patient Management
-- Mobile Apps
+- Mobile App
 - China
 ---

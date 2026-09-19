@@ -35,7 +35,7 @@ tags:
 - Insurtech
 - Insurance
 - Event
-- Conference
+- Conferences
 - Innovation
 - Clarion Events
 ---

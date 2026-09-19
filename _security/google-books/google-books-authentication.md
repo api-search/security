@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-books-mylibrary-api-openapi.yml
-  format: yaml
-  label: Google Books Mylibrary API
-  slug: google-books-mylibrary-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-mylibrary-api-openapi.yml
 - filename: google-books-users-api-openapi.yml
   format: yaml
   label: Google Books Users API
@@ -21,6 +15,12 @@ api_specs:
   slug: google-books-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-volumes-api-openapi.yml
+- filename: google-books-my-library-api-openapi.yml
+  format: yaml
+  label: Google Books My Library API
+  slug: google-books-my-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/google-books-my-library-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

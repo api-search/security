@@ -2,18 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: hbku-fanar-api-openapi.yml
+- filename: hbku-arabic-nlp-api-openapi.yml
   format: yaml
-  label: Fanar API
-  slug: fanar-api
+  label: Hamad Bin Khalifa University Arabic NLP API
+  slug: hbku-arabic-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-fanar-api-openapi.yml
-- filename: hbku-farasa-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-arabic-nlp-api-openapi.yml
+- filename: hbku-audio-api-openapi.yml
   format: yaml
-  label: Farasa Web API
-  slug: farasa-api
+  label: Hamad Bin Khalifa University Audio API
+  slug: hbku-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-farasa-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-audio-api-openapi.yml
+- filename: hbku-chat-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Chat API
+  slug: hbku-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-chat-api-openapi.yml
+- filename: hbku-images-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Images API
+  slug: hbku-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-images-api-openapi.yml
+- filename: hbku-models-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Models API
+  slug: hbku-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-models-api-openapi.yml
+- filename: hbku-moderations-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Moderations API
+  slug: hbku-moderations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-moderations-api-openapi.yml
+- filename: hbku-poems-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Poems API
+  slug: hbku-poems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-poems-api-openapi.yml
+- filename: hbku-tokens-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Tokens API
+  slug: hbku-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-tokens-api-openapi.yml
+- filename: hbku-translations-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Translations API
+  slug: hbku-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-translations-api-openapi.yml
 auth_types:
 - http-bearer
 - api-key-in-body
@@ -78,7 +120,7 @@ tags:
 - Qatar
 - Middle East
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Natural Language Processing
 - Arabic
 - Research Computing

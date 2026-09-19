@@ -1,11 +1,257 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Grade API
-  slug: grade-api
+- filename: gradetv-admin-api-openapi.yml
+  format: yaml
+  label: Grade Admin API
+  slug: gradetv-admin-api
   spec_type: OpenAPI
-  url: https://gradetv.net/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-admin-api-openapi.yml
+- filename: gradetv-apis-json-api-openapi.yml
+  format: yaml
+  label: Grade Apis.json API
+  slug: gradetv-apis-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-apis-json-api-openapi.yml
+- filename: gradetv-auth-api-openapi.yml
+  format: yaml
+  label: Grade Auth API
+  slug: gradetv-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-auth-api-openapi.yml
+- filename: gradetv-billing-api-openapi.yml
+  format: yaml
+  label: Grade Billing API
+  slug: gradetv-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-billing-api-openapi.yml
+- filename: gradetv-categories-api-openapi.yml
+  format: yaml
+  label: Grade Categories API
+  slug: gradetv-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-categories-api-openapi.yml
+- filename: gradetv-channels-api-openapi.yml
+  format: yaml
+  label: Grade Channels API
+  slug: gradetv-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-channels-api-openapi.yml
+- filename: gradetv-chat-api-openapi.yml
+  format: yaml
+  label: Grade Chat API
+  slug: gradetv-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-chat-api-openapi.yml
+- filename: gradetv-cities-api-openapi.yml
+  format: yaml
+  label: Grade Cities API
+  slug: gradetv-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-cities-api-openapi.yml
+- filename: gradetv-comments-api-openapi.yml
+  format: yaml
+  label: Grade Comments API
+  slug: gradetv-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-comments-api-openapi.yml
+- filename: gradetv-contact-api-openapi.yml
+  format: yaml
+  label: Grade Contact API
+  slug: gradetv-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-contact-api-openapi.yml
+- filename: gradetv-countries-api-openapi.yml
+  format: yaml
+  label: Grade Countries API
+  slug: gradetv-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-countries-api-openapi.yml
+- filename: gradetv-credito-api-openapi.yml
+  format: yaml
+  label: Grade Credito API
+  slug: gradetv-credito-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-credito-api-openapi.yml
+- filename: gradetv-f-api-openapi.yml
+  format: yaml
+  label: Grade F API
+  slug: gradetv-f-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-f-api-openapi.yml
+- filename: gradetv-favorites-api-openapi.yml
+  format: yaml
+  label: Grade Favorites API
+  slug: gradetv-favorites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-favorites-api-openapi.yml
+- filename: gradetv-geo-api-openapi.yml
+  format: yaml
+  label: Grade Geo API
+  slug: gradetv-geo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-geo-api-openapi.yml
+- filename: gradetv-grade-api-openapi.yml
+  format: yaml
+  label: Grade Grade API
+  slug: gradetv-grade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-grade-api-openapi.yml
+- filename: gradetv-groups-api-openapi.yml
+  format: yaml
+  label: Grade Groups API
+  slug: gradetv-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-groups-api-openapi.yml
+- filename: gradetv-guest-api-openapi.yml
+  format: yaml
+  label: Grade Guest API
+  slug: gradetv-guest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-guest-api-openapi.yml
+- filename: gradetv-health-api-openapi.yml
+  format: yaml
+  label: Grade Health API
+  slug: gradetv-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-health-api-openapi.yml
+- filename: gradetv-history-api-openapi.yml
+  format: yaml
+  label: Grade History API
+  slug: gradetv-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-history-api-openapi.yml
+- filename: gradetv-items-api-openapi.yml
+  format: yaml
+  label: Grade Items API
+  slug: gradetv-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-items-api-openapi.yml
+- filename: gradetv-keys-api-openapi.yml
+  format: yaml
+  label: Grade Keys API
+  slug: gradetv-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-keys-api-openapi.yml
+- filename: gradetv-languages-api-openapi.yml
+  format: yaml
+  label: Grade Languages API
+  slug: gradetv-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-languages-api-openapi.yml
+- filename: gradetv-library-api-openapi.yml
+  format: yaml
+  label: Grade Library API
+  slug: gradetv-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-library-api-openapi.yml
+- filename: gradetv-logos-api-openapi.yml
+  format: yaml
+  label: Grade Logos API
+  slug: gradetv-logos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-logos-api-openapi.yml
+- filename: gradetv-m-api-openapi.yml
+  format: yaml
+  label: Grade M API
+  slug: gradetv-m-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-m-api-openapi.yml
+- filename: gradetv-mcp-api-openapi.yml
+  format: yaml
+  label: Grade MCP API
+  slug: gradetv-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-mcp-api-openapi.yml
+- filename: gradetv-me-api-openapi.yml
+  format: yaml
+  label: Grade Me API
+  slug: gradetv-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-me-api-openapi.yml
+- filename: gradetv-metrics-api-openapi.yml
+  format: yaml
+  label: Grade Metrics API
+  slug: gradetv-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-metrics-api-openapi.yml
+- filename: gradetv-networks-api-openapi.yml
+  format: yaml
+  label: Grade Networks API
+  slug: gradetv-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-networks-api-openapi.yml
+- filename: gradetv-nsfw-api-openapi.yml
+  format: yaml
+  label: Grade Nsfw API
+  slug: gradetv-nsfw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-nsfw-api-openapi.yml
+- filename: gradetv-nsfw-consent-api-openapi.yml
+  format: yaml
+  label: Grade Nsfw Consent API
+  slug: gradetv-nsfw-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-nsfw-consent-api-openapi.yml
+- filename: gradetv-okf-api-openapi.yml
+  format: yaml
+  label: Grade Okf API
+  slug: gradetv-okf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-okf-api-openapi.yml
+- filename: gradetv-play-report-api-openapi.yml
+  format: yaml
+  label: Grade Play Report API
+  slug: gradetv-play-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-play-report-api-openapi.yml
+- filename: gradetv-play-reports-api-openapi.yml
+  format: yaml
+  label: Grade Play Reports API
+  slug: gradetv-play-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-play-reports-api-openapi.yml
+- filename: gradetv-producers-api-openapi.yml
+  format: yaml
+  label: Grade Producers API
+  slug: gradetv-producers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-producers-api-openapi.yml
+- filename: gradetv-qualities-api-openapi.yml
+  format: yaml
+  label: Grade Qualities API
+  slug: gradetv-qualities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-qualities-api-openapi.yml
+- filename: gradetv-s-api-openapi.yml
+  format: yaml
+  label: Grade S API
+  slug: gradetv-s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-s-api-openapi.yml
+- filename: gradetv-subdivisions-api-openapi.yml
+  format: yaml
+  label: Grade Subdivisions API
+  slug: gradetv-subdivisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-subdivisions-api-openapi.yml
+- filename: gradetv-tags-api-openapi.yml
+  format: yaml
+  label: Grade Tags API
+  slug: gradetv-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-tags-api-openapi.yml
+- filename: gradetv-visit-api-openapi.yml
+  format: yaml
+  label: Grade Visit API
+  slug: gradetv-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-visit-api-openapi.yml
+- filename: gradetv-well-known-api-openapi.yml
+  format: yaml
+  label: Grade .well Known API
+  slug: gradetv-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradetv/refs/heads/main/openapi/gradetv-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +292,7 @@ tags:
 - EPG
 - TV Guide
 - Content Aggregation
-- Agent-native
+- agent-native
 - MCP
 - x402
 - Micropayments

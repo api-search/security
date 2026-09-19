@@ -37,6 +37,6 @@ tags:
 - Refurbished Electronics
 - Consumer Electronics
 - Retail
-- UAE
+- United Arab Emirates
 - Agentic Commerce
 ---

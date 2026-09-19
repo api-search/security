@@ -74,7 +74,7 @@ tags:
 - Event Streaming
 - Durable Storage
 - Message Streaming
-- Data Feeds
+- Data Feed
 - Observability
 - Developer Tools
 - Infrastructure

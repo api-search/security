@@ -260,7 +260,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking Infrastructure
 - Fintech
-- Investments
+- Investment
 - Securities
 - Fractional Investing
 - Custody

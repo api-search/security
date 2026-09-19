@@ -39,5 +39,5 @@ tags:
 - Logistics
 - Fashion
 - India
-- SaaS
+- Software-as-a-Service
 ---

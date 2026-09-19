@@ -38,5 +38,5 @@ tags:
 - Media
 - Entertainment
 - Creator Economy
-- Mobile Apps
+- Mobile App
 ---

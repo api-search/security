@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflektive/ref
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Performance Management
-- HR
+- Human Resources
 - Employee Feedback
 - Goal Tracking
 - Engagement Surveys

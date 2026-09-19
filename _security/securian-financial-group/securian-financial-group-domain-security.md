@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securian-finan
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 1000
-- Financial Services
+- Financial-Services
 - Insurance
 - Life Insurance
 - Annuities

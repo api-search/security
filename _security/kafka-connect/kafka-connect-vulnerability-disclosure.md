@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-connectors-api-openapi.yml
 - filename: kafka-connect-kafka-connect-rest-api-api-openapi.yml
   format: yaml
-  label: Kafka Connect Kafka Connect REST API API
+  label: Kafka Connect Kafka Connect REST API
   slug: kafka-connect-kafka-connect-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-kafka-connect-rest-api-api-openapi.yml

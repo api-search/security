@@ -73,5 +73,5 @@ tags:
 - USDC
 - Webhook
 - Charges
-- Checkouts
+- Checkout
 ---

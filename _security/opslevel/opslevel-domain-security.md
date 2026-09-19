@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: opslevel-graphql-api-openapi.yml
+- filename: opslevel-graph-ql-api-openapi.yml
   format: yaml
-  label: OpsLevel GraphQL API
-  slug: opslevel-graphql-api
+  label: OpsLevel Graph QL API
+  slug: opslevel-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,6 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Portal
+- Developer Tools
 - DevOps
 - Experience
 - Internal Developer Portal

@@ -30,4 +30,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blissmo/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
+- Defunct
 ---

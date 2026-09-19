@@ -154,7 +154,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/h
 summary_line: ISO 27001, PCI DSS, GDPR
 tags:
 - IoT
-- Internet of Things
 - Devices
 - Data Storage
 - Dashboards

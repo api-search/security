@@ -23,7 +23,7 @@ tags:
 - Payments
 - Cross-Border Payments
 - Money Transfer
-- Remittance
+- Remittances
 - Fintech
 - Financial-Services
 - Freelancers

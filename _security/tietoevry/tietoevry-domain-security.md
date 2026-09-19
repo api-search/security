@@ -1,23 +1,131 @@
 ---
 api_specs:
-- filename: tietoevry-openbanking-xs2a-swagger.json
-  format: json
-  label: Tietoevry Open Banking XS2A APIs
-  slug: tietoevry-openbanking-xs2a
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-openbanking-xs2a-swagger.json
-- filename: tietoevry-financial-api-aggregation-swagger.json
-  format: json
-  label: Tietoevry Financial API Aggregation
-  slug: tietoevry-financial-api-aggregation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-financial-api-aggregation-swagger.json
-- filename: tietoevry-sepa-direct-debit-api-gateway.yaml
+- filename: tietoevry-account-consent-service-api-openapi.yml
   format: yaml
-  label: Tietoevry SEPA Direct Debits
-  slug: tietoevry-sepa-direct-debits
+  label: TietoEVRY Account consent service API
+  slug: tietoevry-account-consent-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-sepa-direct-debit-api-gateway.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-account-consent-service-api-openapi.yml
+- filename: tietoevry-account-information-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Account Information Service API
+  slug: tietoevry-account-information-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-account-information-service-api-openapi.yml
+- filename: tietoevry-aggregated-services-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Aggregated services API
+  slug: tietoevry-aggregated-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-aggregated-services-api-openapi.yml
+- filename: tietoevry-bulk-payment-initiation-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Bulk Payment Initiation Service API
+  slug: tietoevry-bulk-payment-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-bulk-payment-initiation-service-api-openapi.yml
+- filename: tietoevry-card-account-information-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Card account information service API
+  slug: tietoevry-card-account-information-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-card-account-information-service-api-openapi.yml
+- filename: tietoevry-card-information-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Card information service API
+  slug: tietoevry-card-information-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-card-information-service-api-openapi.yml
+- filename: tietoevry-confirmation-of-funds-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Confirmation of Funds Service API
+  slug: tietoevry-confirmation-of-funds-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-confirmation-of-funds-service-api-openapi.yml
+- filename: tietoevry-confirmation-of-funds-service-consent-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Confirmation of Funds Service consent API
+  slug: tietoevry-confirmation-of-funds-service-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-confirmation-of-funds-service-consent-api-openapi.yml
+- filename: tietoevry-creditor-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Creditor API
+  slug: tietoevry-creditor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-creditor-api-openapi.yml
+- filename: tietoevry-debtor-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Debtor API
+  slug: tietoevry-debtor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-debtor-api-openapi.yml
+- filename: tietoevry-end-user-management-api-openapi.yml
+  format: yaml
+  label: TietoEVRY End User management API
+  slug: tietoevry-end-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-end-user-management-api-openapi.yml
+- filename: tietoevry-payment-initiation-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Payment Initiation Service API
+  slug: tietoevry-payment-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-payment-initiation-service-api-openapi.yml
+- filename: tietoevry-payment-recall-initiation-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Payment Recall Initiation Service API
+  slug: tietoevry-payment-recall-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-payment-recall-initiation-service-api-openapi.yml
+- filename: tietoevry-periodic-payment-initiation-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Periodic Payment Initiation Service API
+  slug: tietoevry-periodic-payment-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-periodic-payment-initiation-service-api-openapi.yml
+- filename: tietoevry-pre-step-sca-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Pre-step SCA service API
+  slug: tietoevry-pre-step-sca-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-pre-step-sca-service-api-openapi.yml
+- filename: tietoevry-provider-information-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Provider information API
+  slug: tietoevry-provider-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-provider-information-api-openapi.yml
+- filename: tietoevry-request-to-pay-initiation-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Request to pay Initiation Service API
+  slug: tietoevry-request-to-pay-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-request-to-pay-initiation-service-api-openapi.yml
+- filename: tietoevry-signing-baskets-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Signing Baskets Service API
+  slug: tietoevry-signing-baskets-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-signing-baskets-service-api-openapi.yml
+- filename: tietoevry-subscription-initiation-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Subscription Initiation Service API
+  slug: tietoevry-subscription-initiation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-subscription-initiation-service-api-openapi.yml
+- filename: tietoevry-user-roles-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY User Roles service API
+  slug: tietoevry-user-roles-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-user-roles-service-api-openapi.yml
+- filename: tietoevry-users-service-api-openapi.yml
+  format: yaml
+  label: TietoEVRY Users service API
+  slug: tietoevry-users-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-users-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,7 +187,7 @@ tags:
 - Payments
 - SEPA
 - Account Information
-- Financial Services
+- Financial-Services
 - Aggregation
 - Credit
 - Fintech

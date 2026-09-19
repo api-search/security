@@ -37,7 +37,7 @@ tags:
 - Code Optimization
 - Developer Tools
 - DevOps
-- Large Language Models
+- LLM
 - Agentic AI
 - CLI
 ---

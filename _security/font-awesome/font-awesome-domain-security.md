@@ -43,6 +43,6 @@ tags:
 - GraphQL
 - Icon Library
 - Frontend
-- Design System
+- Design Systems
 - Company
 ---

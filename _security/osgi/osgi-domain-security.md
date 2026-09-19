@@ -40,6 +40,6 @@ tags:
 - OSGi
 - Java
 - Modularity
-- Specifications
+- Specification
 - Standards
 ---

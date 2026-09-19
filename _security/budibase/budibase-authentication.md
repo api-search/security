@@ -33,12 +33,30 @@ api_specs:
   slug: budibase-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-users-api-openapi.yml
-- filename: budibase-public-api-openapi.yml
+- filename: budibase-metrics-api-openapi.yml
   format: yaml
-  label: Budibase Public API
-  slug: budibase-public-api
+  label: Budibase Metrics API
+  slug: budibase-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-metrics-api-openapi.yml
+- filename: budibase-roles-api-openapi.yml
+  format: yaml
+  label: Budibase Roles API
+  slug: budibase-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-roles-api-openapi.yml
+- filename: budibase-views-api-openapi.yml
+  format: yaml
+  label: Budibase Views API
+  slug: budibase-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-views-api-openapi.yml
+- filename: budibase-workspaces-api-openapi.yml
+  format: yaml
+  label: Budibase Workspaces API
+  slug: budibase-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: 'The Budibase Public API has exactly one authentication mechanism: a static per-user API key in a request header. There is no OAuth, no token exchange, no refresh, no scopes and no service account. Authorization is inherited wholesale from the RBAC role of the human user who generated the key.'

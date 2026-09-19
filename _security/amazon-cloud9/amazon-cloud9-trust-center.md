@@ -33,5 +33,6 @@ tags:
 - IDE
 - Development
 - Browser-Based
+- Developer Tools
 trust_url: https://aws.amazon.com/compliance/
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: propelauth-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-api-keys-api-openapi.yml
-- filename: propelauth-oauth2-api-openapi.yml
-  format: yaml
-  label: PropelAuth OAuth2 API
-  slug: propelauth-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-oauth2-api-openapi.yml
 - filename: propelauth-access-tokens-api-openapi.yml
   format: yaml
   label: PropelAuth Access Tokens API
@@ -108,6 +102,12 @@ api_specs:
   slug: propelauth-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-validation-api-openapi.yml
+- filename: propelauth-oauth2-api-openapi.yml
+  format: yaml
+  label: PropelAuth O Auth2 API
+  slug: propelauth-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-oauth2-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -138,5 +138,6 @@ tags:
 - SCIM
 - MCP
 - APIKeys
+- Identity Federation
 trust_url: https://www.propelauth.com/security
 ---

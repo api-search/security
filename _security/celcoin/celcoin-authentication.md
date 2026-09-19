@@ -51,12 +51,6 @@ api_specs:
   slug: celcoin-naturalperson-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-naturalperson-api-openapi.yml
-- filename: celcoin-outstandingbalance-api-openapi.yml
-  format: yaml
-  label: Celcoin OutstandingBalance API
-  slug: celcoin-outstandingbalance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-outstandingbalance-api-openapi.yml
 - filename: celcoin-proposal-api-openapi.yml
   format: yaml
   label: Celcoin Proposal API
@@ -75,6 +69,12 @@ api_specs:
   slug: celcoin-taggingjourney-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-taggingjourney-api-openapi.yml
+- filename: celcoin-outstanding-balance-api-openapi.yml
+  format: yaml
+  label: Celcoin Outstanding Balance API
+  slug: celcoin-outstanding-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-outstanding-balance-api-openapi.yml
 auth_types:
 - apiKey
 - http

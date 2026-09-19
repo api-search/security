@@ -36,7 +36,6 @@ tags:
 - Employee Assistance Program
 - EAP
 - Human Resources
-- HR Tech
 - Artificial Intelligence
 - Digital Health
 - South Korea

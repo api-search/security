@@ -36,7 +36,7 @@ tags:
 - Fintech
 - Gamification
 - Banking
-- Credit Unions
+- Credit Union
 - SDK
 - EdTech
 ---

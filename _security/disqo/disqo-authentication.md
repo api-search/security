@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disqo/refs/hea
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company
-- Audience
+- Audiences
 - Market Research
 - Surveys
 - Consumer Insights

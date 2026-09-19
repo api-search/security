@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: aws-waf-aws-wafv2-api-api-openapi.yml
   format: yaml
-  label: AWS WAF AWS WAFV2 API API
+  label: AWS WAF AWS WAFV2 API
   slug: aws-waf-aws-wafv2-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-aws-wafv2-api-api-openapi.yml

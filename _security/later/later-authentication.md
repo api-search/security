@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: later-accountinvitations-api-openapi.yml
-  format: yaml
-  label: Later Account Invitations API
-  slug: later-accountinvitations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-accountinvitations-api-openapi.yml
 - filename: later-action-groups-api-openapi.yml
   format: yaml
   label: Later Action Groups API
@@ -45,12 +39,6 @@ api_specs:
   slug: later-actiongroupcustomstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-actiongroupcustomstatuses-api-openapi.yml
-- filename: later-actiongroups-api-openapi.yml
-  format: yaml
-  label: Later Action Groups API
-  slug: later-actiongroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-actiongroups-api-openapi.yml
 - filename: later-actiongroupscheduledmessages-api-openapi.yml
   format: yaml
   label: Later Action Group Scheduled Messages API
@@ -141,12 +129,6 @@ api_specs:
   slug: later-backfill-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-backfill-analytics-api-openapi.yml
-- filename: later-batchjobs-api-openapi.yml
-  format: yaml
-  label: Later Batch Jobs API
-  slug: later-batchjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-batchjobs-api-openapi.yml
 - filename: later-bazaarvoice-api-openapi.yml
   format: yaml
   label: Later Bazaar Voice API
@@ -315,12 +297,6 @@ api_specs:
   slug: later-datapoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-datapoints-api-openapi.yml
-- filename: later-datasubjectrequest-api-openapi.yml
-  format: yaml
-  label: Later Data Subject Request API
-  slug: later-datasubjectrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-datasubjectrequest-api-openapi.yml
 - filename: later-dbinfluenceragreementhistoryfields-api-openapi.yml
   format: yaml
   label: Later DB Influencer Agreement History Fields API
@@ -363,48 +339,18 @@ api_specs:
   slug: later-email-suppressions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-email-suppressions-api-openapi.yml
-- filename: later-emailsettings-api-openapi.yml
-  format: yaml
-  label: Later Email Settings API
-  slug: later-emailsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-emailsettings-api-openapi.yml
 - filename: later-entitlements-api-openapi.yml
   format: yaml
   label: Later Entitlements API
   slug: later-entitlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-entitlements-api-openapi.yml
-- filename: later-eventlogs-api-openapi.yml
-  format: yaml
-  label: Later Event Logs API
-  slug: later-eventlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-eventlogs-api-openapi.yml
-- filename: later-exchangerates-api-openapi.yml
-  format: yaml
-  label: Later Exchange Rates API
-  slug: later-exchangerates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-exchangerates-api-openapi.yml
-- filename: later-expiringaccesstokens-api-openapi.yml
-  format: yaml
-  label: Later Expiring Access Tokens API
-  slug: later-expiringaccesstokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-expiringaccesstokens-api-openapi.yml
 - filename: later-exports-api-openapi.yml
   format: yaml
   label: Later Exports API
   slug: later-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-exports-api-openapi.yml
-- filename: later-externalclients-api-openapi.yml
-  format: yaml
-  label: Later External Clients API
-  slug: later-externalclients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-externalclients-api-openapi.yml
 - filename: later-facebookprofile-api-openapi.yml
   format: yaml
   label: Later Facebook Profile API
@@ -423,12 +369,6 @@ api_specs:
   slug: later-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-features-api-openapi.yml
-- filename: later-giftcards-api-openapi.yml
-  format: yaml
-  label: Later Gift Cards API
-  slug: later-giftcards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-giftcards-api-openapi.yml
 - filename: later-globaluser-api-openapi.yml
   format: yaml
   label: Later Global User API
@@ -569,7 +509,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-instances-api-openapi.yml
 - filename: later-laterinfluencer-api-openapi.yml
   format: yaml
-  label: Later Later Influencer API
+  label: Later Influencer API
   slug: later-laterinfluencer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-laterinfluencer-api-openapi.yml
@@ -711,18 +651,6 @@ api_specs:
   slug: later-openaisearch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-openaisearch-api-openapi.yml
-- filename: later-optin-api-openapi.yml
-  format: yaml
-  label: Later Opt In API
-  slug: later-optin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-optin-api-openapi.yml
-- filename: later-paymentaccount-api-openapi.yml
-  format: yaml
-  label: Later Payment Account API
-  slug: later-paymentaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-paymentaccount-api-openapi.yml
 - filename: later-paymentappadmins-api-openapi.yml
   format: yaml
   label: Later Payment App Admins API
@@ -825,12 +753,6 @@ api_specs:
   slug: later-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-public-api-openapi.yml
-- filename: later-referralprogram-api-openapi.yml
-  format: yaml
-  label: Later Referral Program API
-  slug: later-referralprogram-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-referralprogram-api-openapi.yml
 - filename: later-reports-api-openapi.yml
   format: yaml
   label: Later Reports API
@@ -921,12 +843,6 @@ api_specs:
   slug: later-specs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-specs-api-openapi.yml
-- filename: later-stripepayments-api-openapi.yml
-  format: yaml
-  label: Later Stripe Payments API
-  slug: later-stripepayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-stripepayments-api-openapi.yml
 - filename: later-subscribers-api-openapi.yml
   format: yaml
   label: Later Subscribers API
@@ -987,12 +903,6 @@ api_specs:
   slug: later-tracking-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-tracking-link-api-openapi.yml
-- filename: later-trackinglinks-api-openapi.yml
-  format: yaml
-  label: Later Tracking Links API
-  slug: later-trackinglinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-trackinglinks-api-openapi.yml
 - filename: later-translations-api-openapi.yml
   format: yaml
   label: Later Translations API
@@ -1011,12 +921,6 @@ api_specs:
   slug: later-urlmetadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-urlmetadata-api-openapi.yml
-- filename: later-useraccount-api-openapi.yml
-  format: yaml
-  label: Later User Account API
-  slug: later-useraccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-useraccount-api-openapi.yml
 - filename: later-webhooks-api-openapi.yml
   format: yaml
   label: Later Webhooks API
@@ -1053,6 +957,96 @@ api_specs:
   slug: later-ytbcbrandchannels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-ytbcbrandchannels-api-openapi.yml
+- filename: later-account-invitations-api-openapi.yml
+  format: yaml
+  label: Later Account Invitations API
+  slug: later-account-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-account-invitations-api-openapi.yml
+- filename: later-batch-jobs-api-openapi.yml
+  format: yaml
+  label: Later Batch Jobs API
+  slug: later-batch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-batch-jobs-api-openapi.yml
+- filename: later-data-subject-request-api-openapi.yml
+  format: yaml
+  label: Later Data Subject Request API
+  slug: later-data-subject-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-data-subject-request-api-openapi.yml
+- filename: later-email-settings-api-openapi.yml
+  format: yaml
+  label: Later Email Settings API
+  slug: later-email-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-email-settings-api-openapi.yml
+- filename: later-event-logs-api-openapi.yml
+  format: yaml
+  label: Later Event Logs API
+  slug: later-event-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-event-logs-api-openapi.yml
+- filename: later-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Later Exchange Rates API
+  slug: later-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-exchange-rates-api-openapi.yml
+- filename: later-expiring-access-tokens-api-openapi.yml
+  format: yaml
+  label: Later Expiring Access Tokens API
+  slug: later-expiring-access-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-expiring-access-tokens-api-openapi.yml
+- filename: later-external-clients-api-openapi.yml
+  format: yaml
+  label: Later External Clients API
+  slug: later-external-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-external-clients-api-openapi.yml
+- filename: later-gift-cards-api-openapi.yml
+  format: yaml
+  label: Later Gift Cards API
+  slug: later-gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-gift-cards-api-openapi.yml
+- filename: later-opt-in-api-openapi.yml
+  format: yaml
+  label: Later Opt In API
+  slug: later-opt-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-opt-in-api-openapi.yml
+- filename: later-payment-account-api-openapi.yml
+  format: yaml
+  label: Later Payment Account API
+  slug: later-payment-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-payment-account-api-openapi.yml
+- filename: later-referral-program-api-openapi.yml
+  format: yaml
+  label: Later Referral Program API
+  slug: later-referral-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-referral-program-api-openapi.yml
+- filename: later-stripe-payments-api-openapi.yml
+  format: yaml
+  label: Later Stripe Payments API
+  slug: later-stripe-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-stripe-payments-api-openapi.yml
+- filename: later-tracking-links-api-openapi.yml
+  format: yaml
+  label: Later Tracking Links API
+  slug: later-tracking-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-tracking-links-api-openapi.yml
+- filename: later-user-account-api-openapi.yml
+  format: yaml
+  label: Later User Account API
+  slug: later-user-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-user-account-api-openapi.yml
 auth_types:
 - apiKey
 - http

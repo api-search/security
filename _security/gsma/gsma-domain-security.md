@@ -30,24 +30,12 @@ api_specs:
   slug: gsma-check-device-swap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-check-device-swap-api-openapi.yml
-- filename: gsma-check-sim-swap-api-openapi.yml
-  format: yaml
-  label: GSMA Check SIM Swap API
-  slug: gsma-check-sim-swap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-check-sim-swap-api-openapi.yml
 - filename: gsma-debit-mandates-api-openapi.yml
   format: yaml
   label: GSMA Debit Mandates API
   slug: gsma-debit-mandates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-debit-mandates-api-openapi.yml
-- filename: gsma-device-reachability-status-api-openapi.yml
-  format: yaml
-  label: GSMA Device reachability status API
-  slug: gsma-device-reachability-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-device-reachability-status-api-openapi.yml
 - filename: gsma-discovery-api-openapi.yml
   format: yaml
   label: GSMA Discovery API
@@ -78,12 +66,6 @@ api_specs:
   slug: gsma-location-retrieval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-location-retrieval-api-openapi.yml
-- filename: gsma-location-verification-api-openapi.yml
-  format: yaml
-  label: GSMA Location Verification API
-  slug: gsma-location-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-location-verification-api-openapi.yml
 - filename: gsma-match-api-openapi.yml
   format: yaml
   label: GSMA Match API
@@ -120,12 +102,6 @@ api_specs:
   slug: gsma-phone-number-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-phone-number-verify-api-openapi.yml
-- filename: gsma-population-density-data-api-openapi.yml
-  format: yaml
-  label: GSMA Population Density Data API
-  slug: gsma-population-density-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-population-density-data-api-openapi.yml
 - filename: gsma-qos-sessions-api-openapi.yml
   format: yaml
   label: GSMA QoS Sessions API
@@ -150,18 +126,6 @@ api_specs:
   slug: gsma-retrieve-device-swap-date-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-retrieve-device-swap-date-api-openapi.yml
-- filename: gsma-retrieve-sim-swap-date-api-openapi.yml
-  format: yaml
-  label: GSMA Retrieve SIM Swap Date API
-  slug: gsma-retrieve-sim-swap-date-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-retrieve-sim-swap-date-api-openapi.yml
-- filename: gsma-roaming-status-retrieval-api-openapi.yml
-  format: yaml
-  label: GSMA Roaming status retrieval API
-  slug: gsma-roaming-status-retrieval-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-roaming-status-retrieval-api-openapi.yml
 - filename: gsma-supporting-api-openapi.yml
   format: yaml
   label: GSMA Supporting API
@@ -249,4 +213,5 @@ tags:
 - 5G
 - Anti-Fraud
 - Specification
+- GSMA
 ---

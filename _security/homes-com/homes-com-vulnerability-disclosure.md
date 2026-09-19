@@ -34,7 +34,7 @@ tags:
 - Rentals
 - PropTech
 - Portal
-- Marketplaces
+- Marketplace
 - Residential Real Estate
 - Real Estate Agents
 - Brokers

@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: vettly-content-moderation-openapi.json
-  format: json
-  label: Vettly REST API
-  slug: vettly-rest-api
+- filename: vettly-moderation-api-openapi.yml
+  format: yaml
+  label: Vettly Moderation API
+  slug: vettly-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/openapi/vettly-content-moderation-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/openapi/vettly-moderation-api-openapi.yml
+- filename: vettly-system-api-openapi.yml
+  format: yaml
+  label: Vettly System API
+  slug: vettly-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/openapi/vettly-system-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -38,14 +44,14 @@ source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/vettly-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/authentication/vettly-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- content-moderation
-- trust-and-safety
-- security
-- text-analysis
-- image-moderation
+- Content Moderation
+- Trust and Safety
+- Security
+- Text Analysis
+- Image Moderation
 - video-moderation
 - UGC
-- compliance
+- Compliance
 - agent-guardrails
 - MCP
 ---

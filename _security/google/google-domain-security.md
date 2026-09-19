@@ -194,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-enables-api-openapi.yml
 - filename: google-file-api-api-openapi.yml
   format: yaml
-  label: Google File Api API
+  label: Google File Api
   slug: google-file-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-file-api-api-openapi.yml

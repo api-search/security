@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: closedloop-public-api-openapi.yaml
+- filename: closedloop-analytics-api-openapi.yml
   format: yaml
-  label: ClosedLoop AI REST API
-  slug: closedloop-ai-rest-api
+  label: ClosedLoop AI Analytics API
+  slug: closedloop-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-public-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-analytics-api-openapi.yml
+- filename: closedloop-competitors-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Competitors API
+  slug: closedloop-competitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-competitors-api-openapi.yml
+- filename: closedloop-context-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Context API
+  slug: closedloop-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-context-api-openapi.yml
+- filename: closedloop-customers-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Customers API
+  slug: closedloop-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-customers-api-openapi.yml
+- filename: closedloop-features-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Features API
+  slug: closedloop-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-features-api-openapi.yml
+- filename: closedloop-insights-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Insights API
+  slug: closedloop-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-insights-api-openapi.yml
+- filename: closedloop-integrations-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Integrations API
+  slug: closedloop-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-integrations-api-openapi.yml
+- filename: closedloop-meta-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Meta API
+  slug: closedloop-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-meta-api-openapi.yml
+- filename: closedloop-products-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Products API
+  slug: closedloop-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-products-api-openapi.yml
+- filename: closedloop-themes-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Themes API
+  slug: closedloop-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-themes-api-openapi.yml
+- filename: closedloop-usage-api-openapi.yml
+  format: yaml
+  label: ClosedLoop AI Usage API
+  slug: closedloop-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

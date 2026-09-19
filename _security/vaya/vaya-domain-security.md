@@ -35,6 +35,6 @@ tags:
 - Astrology
 - Vedic Astrology
 - Consultations
-- Consumer Apps
+- Consumer App
 - India
 ---

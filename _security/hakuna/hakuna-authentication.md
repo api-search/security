@@ -95,7 +95,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Time Tracking
-- HR
+- Human Resources
 - Workforce Management
 - Absence Management
 - Project Tracking

@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: leo1-api-api-openapi.yml
   format: yaml
-  label: Leo1 api API
+  label: Leo1 api
   slug: leo1-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-api-api-openapi.yml

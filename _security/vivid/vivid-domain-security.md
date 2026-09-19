@@ -37,6 +37,6 @@ tags:
 - Neobank
 - Payments
 - Open Banking
-- Investments
+- Investment
 - Europe
 ---

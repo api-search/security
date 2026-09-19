@@ -32,12 +32,6 @@ api_specs:
   slug: printnode-printers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-printers-api-openapi.yml
-- filename: printnode-printjobs-api-openapi.yml
-  format: yaml
-  label: PrintNode PrintJobs API
-  slug: printnode-printjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-printjobs-api-openapi.yml
 - filename: printnode-scales-api-openapi.yml
   format: yaml
   label: PrintNode Scales API
@@ -56,6 +50,12 @@ api_specs:
   slug: printnode-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-webhooks-api-openapi.yml
+- filename: printnode-print-jobs-api-openapi.yml
+  format: yaml
+  label: PrintNode Print Jobs API
+  slug: printnode-print-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-print-jobs-api-openapi.yml
 auth_types:
 - http
 description: ''

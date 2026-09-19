@@ -29,7 +29,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Internet of Things
+- IoT
 - On-Device AI
 - JavaScript
 - Open-Source

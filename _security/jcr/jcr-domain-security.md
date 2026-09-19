@@ -36,5 +36,5 @@ tags:
 - Java
 - JCR
 - JSR-283
-- Standard
+- Standards
 ---

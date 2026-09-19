@@ -35,9 +35,9 @@ tags:
 - Fintech
 - Working Capital
 - Invoice Discounting
-- BNPL
+- Buy Now Pay Later
 - SME Financing
 - Lending
 - Embedded Finance
-- UAE
+- United Arab Emirates
 ---

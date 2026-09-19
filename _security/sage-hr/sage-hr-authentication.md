@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sage-hr-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/authentication/sage-hr-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - SMB

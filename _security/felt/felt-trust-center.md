@@ -92,6 +92,6 @@ tags:
 - Collaborative
 - Mapping
 - Layers
-- Embedding
+- Embeddings
 trust_url: https://felt.com/security
 ---

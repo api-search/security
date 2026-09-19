@@ -55,6 +55,6 @@ tags:
 - Punchout
 - IoT
 - Inventory Management
-- Mobile Apps
+- Mobile App
 - Engineered Equipment
 ---

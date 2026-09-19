@@ -18,12 +18,6 @@ api_specs:
   slug: uipath-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-assets-api-openapi.yml
-- filename: uipath-auditlogs-api-openapi.yml
-  format: yaml
-  label: UiPath AuditLogs API
-  slug: uipath-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-auditlogs-api-openapi.yml
 - filename: uipath-automations-api-openapi.yml
   format: yaml
   label: UiPath Automations API
@@ -156,24 +150,6 @@ api_specs:
   slug: uipath-storagebuckets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-storagebuckets-api-openapi.yml
-- filename: uipath-testcases-api-openapi.yml
-  format: yaml
-  label: UiPath TestCases API
-  slug: uipath-testcases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-testcases-api-openapi.yml
-- filename: uipath-testexecutions-api-openapi.yml
-  format: yaml
-  label: UiPath TestExecutions API
-  slug: uipath-testexecutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-testexecutions-api-openapi.yml
-- filename: uipath-testsets-api-openapi.yml
-  format: yaml
-  label: UiPath TestSets API
-  slug: uipath-testsets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-testsets-api-openapi.yml
 - filename: uipath-users-api-openapi.yml
   format: yaml
   label: UiPath Users API
@@ -192,6 +168,30 @@ api_specs:
   slug: uipath-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-webhooks-api-openapi.yml
+- filename: uipath-audit-logs-api-openapi.yml
+  format: yaml
+  label: UiPath Audit Logs API
+  slug: uipath-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-audit-logs-api-openapi.yml
+- filename: uipath-test-cases-api-openapi.yml
+  format: yaml
+  label: UiPath Test Cases API
+  slug: uipath-test-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-test-cases-api-openapi.yml
+- filename: uipath-test-executions-api-openapi.yml
+  format: yaml
+  label: UiPath Test Executions API
+  slug: uipath-test-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-test-executions-api-openapi.yml
+- filename: uipath-test-sets-api-openapi.yml
+  format: yaml
+  label: UiPath Test Sets API
+  slug: uipath-test-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-test-sets-api-openapi.yml
 description: ''
 domains:
 - caa:

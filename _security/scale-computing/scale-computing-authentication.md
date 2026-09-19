@@ -57,12 +57,6 @@ api_specs:
   slug: scale-computing-organization-salesforce-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-organization-salesforce-account-api-openapi.yml
-- filename: scale-computing-organizationroles-api-openapi.yml
-  format: yaml
-  label: Scale Computing Organization Roles API
-  slug: scale-computing-organizationroles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-organizationroles-api-openapi.yml
 - filename: scale-computing-organizations-api-openapi.yml
   format: yaml
   label: Scale Computing Organizations API
@@ -75,12 +69,6 @@ api_specs:
   slug: scale-computing-organizationuser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-organizationuser-api-openapi.yml
-- filename: scale-computing-organizationusers-api-openapi.yml
-  format: yaml
-  label: Scale Computing Organization Users API
-  slug: scale-computing-organizationusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-organizationusers-api-openapi.yml
 - filename: scale-computing-salesforce-api-openapi.yml
   format: yaml
   label: Scale Computing Salesforce API
@@ -105,6 +93,18 @@ api_specs:
   slug: scale-computing-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-vms-api-openapi.yml
+- filename: scale-computing-organization-roles-api-openapi.yml
+  format: yaml
+  label: Scale Computing Organization Roles API
+  slug: scale-computing-organization-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-organization-roles-api-openapi.yml
+- filename: scale-computing-organization-users-api-openapi.yml
+  format: yaml
+  label: Scale Computing Organization Users API
+  slug: scale-computing-organization-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/openapi/scale-computing-organization-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

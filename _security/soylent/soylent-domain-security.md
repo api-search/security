@@ -39,7 +39,7 @@ tags:
 - E-Commerce
 - Retail
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - Shopify
 - MCP

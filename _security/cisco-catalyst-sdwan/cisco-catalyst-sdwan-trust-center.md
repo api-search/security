@@ -2022,12 +2022,6 @@ api_specs:
   slug: cisco-catalyst-sdwan-real-time-monitoring-wlan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/openapi/cisco-catalyst-sdwan-real-time-monitoring-wlan-api-openapi.yml
-- filename: cisco-catalyst-sdwan-resource-pool-api-openapi.yml
-  format: yaml
-  label: Cisco Catalyst SD-WAN Resource - Pool API
-  slug: cisco-catalyst-sdwan-resource-pool-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/openapi/cisco-catalyst-sdwan-resource-pool-api-openapi.yml
 - filename: cisco-catalyst-sdwan-rules-api-openapi.yml
   format: yaml
   label: Cisco Catalyst SD-WAN Rules API
@@ -2292,6 +2286,12 @@ api_specs:
   slug: cisco-catalyst-sdwan-workflows-controllers-upgrade-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/openapi/cisco-catalyst-sdwan-workflows-controllers-upgrade-api-openapi.yml
+- filename: cisco-catalyst-sdwan-resourcepool-api-openapi.yml
+  format: yaml
+  label: Cisco Catalyst SD-WAN Resourcepool API
+  slug: cisco-catalyst-sdwan-resourcepool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/openapi/cisco-catalyst-sdwan-resourcepool-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

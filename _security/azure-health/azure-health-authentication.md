@@ -38,12 +38,6 @@ api_specs:
   slug: azure-health-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-jobs-api-openapi.yml
-- filename: azure-health-privateendpointconnections-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Health Data Services PrivateEndpointConnections API
-  slug: azure-health-privateendpointconnections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-privateendpointconnections-api-openapi.yml
 - filename: azure-health-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services PrivateLinkResources API
@@ -80,6 +74,12 @@ api_specs:
   slug: azure-health-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaces-api-openapi.yml
+- filename: azure-health-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Health Data Services Private Endpoint Connections API
+  slug: azure-health-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-private-endpoint-connections-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

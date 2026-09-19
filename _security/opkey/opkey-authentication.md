@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-apk-instrumentation-apis-api-openapi.yml
 - filename: opkey-app-center-api-api-openapi.yml
   format: yaml
-  label: Opkey App Center Api API
+  label: Opkey App Center Api
   slug: opkey-app-center-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-app-center-api-api-openapi.yml
@@ -142,4 +142,5 @@ tags:
 - Artificial Intelligence
 - Agents
 - MCP
+- Developer Tools
 ---

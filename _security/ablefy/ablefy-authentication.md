@@ -36,7 +36,7 @@ tags:
 - Online Courses
 - Payments
 - Checkout
-- Memberships
+- Membership
 - Creator Economy
 - E-Commerce
 - Germany

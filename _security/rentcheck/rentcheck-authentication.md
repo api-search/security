@@ -111,12 +111,6 @@ api_specs:
   slug: rentcheck-maintenance-reports-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/openapi/rentcheck-maintenance-reports-v2-api-openapi.yml
-- filename: rentcheck-oauth2-api-openapi.yml
-  format: yaml
-  label: RentCheck oAuth2 API
-  slug: rentcheck-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/openapi/rentcheck-oauth2-api-openapi.yml
 - filename: rentcheck-permission-groups-api-openapi.yml
   format: yaml
   label: RentCheck Permission Groups API
@@ -189,6 +183,12 @@ api_specs:
   slug: rentcheck-work-orders-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/openapi/rentcheck-work-orders-v2-api-openapi.yml
+- filename: rentcheck-oauth2-api-openapi.yml
+  format: yaml
+  label: RentCheck O Auth2 API
+  slug: rentcheck-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/openapi/rentcheck-oauth2-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -240,7 +240,7 @@ tags:
 - Property Inspection
 - Real-Estate
 - PropTech
-- Inspections
+- Inspection
 - Maintenance
 - Rentals
 ---

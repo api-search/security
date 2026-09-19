@@ -37,5 +37,5 @@ tags:
 - Attestation
 - Web3
 - Recruiting
-- HR
+- Human Resources
 ---

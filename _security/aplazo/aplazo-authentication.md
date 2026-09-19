@@ -50,7 +50,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Payments
-- BNPL
 - Buy Now Pay Later
 - Installments
 - Fintech

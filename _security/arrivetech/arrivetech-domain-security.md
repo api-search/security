@@ -40,5 +40,5 @@ tags:
 - Smart Lockers
 - Healthcare Logistics
 - Supply Chain
-- Internet of Things
+- IoT
 ---

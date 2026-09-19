@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: wasmer-graphql-api-openapi.yml
+- filename: wasmer-graph-ql-api-openapi.yml
   format: yaml
-  label: Wasmer GraphQL API
-  slug: wasmer-graphql-api
+  label: Wasmer Graph QL API
+  slug: wasmer-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/openapi/wasmer-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/openapi/wasmer-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''

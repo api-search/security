@@ -366,5 +366,5 @@ tags:
 - Corporate Banking
 - Lending
 - Compliance
-- SMEs
+- SME
 ---

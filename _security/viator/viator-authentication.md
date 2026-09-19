@@ -102,7 +102,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-utility-services-api-openapi.yml
 - filename: viator-viator-apis-api-openapi.yml
   format: yaml
-  label: Viator Viator APIs API
+  label: Viator APIs
   slug: viator-viator-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-viator-apis-api-openapi.yml

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Wine
-- Beverage
+- Beverages
 - Consumer Products
 - E-Commerce
 - Shopify

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Digital Banking
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Fintech
 - Core Banking

@@ -33,10 +33,10 @@ tags:
 - Company
 - Content
 - Media
-- Career
+- Careers
 - Membership
 - Subscription
-- Newsletter
+- Newsletters
 - Professional Development
-- Korea
+- South Korea
 ---

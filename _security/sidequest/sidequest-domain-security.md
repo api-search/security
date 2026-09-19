@@ -12,12 +12,6 @@ api_specs:
   slug: sidequest-developers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-developers-api-openapi.yml
-- filename: sidequest-oauth2-api-openapi.yml
-  format: yaml
-  label: SideQuest OAuth2 API
-  slug: sidequest-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-oauth2-api-openapi.yml
 - filename: sidequest-users-api-openapi.yml
   format: yaml
   label: SideQuest Users API
@@ -30,6 +24,12 @@ api_specs:
   slug: sidequest-usersapps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-usersapps-api-openapi.yml
+- filename: sidequest-oauth2-api-openapi.yml
+  format: yaml
+  label: SideQuest O Auth2 API
+  slug: sidequest-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

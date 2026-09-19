@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: the-bank-of-london-api-openapi.json
-  format: json
-  label: Bank of London API
-  slug: bank-of-london-api
+- filename: the-bank-of-london-accounts-api-openapi.yml
+  format: yaml
+  label: The Bank of London Accounts API
+  slug: the-bank-of-london-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-accounts-api-openapi.yml
+- filename: the-bank-of-london-confirmation-of-payee-api-openapi.yml
+  format: yaml
+  label: The Bank of London Confirmation of Payee API
+  slug: the-bank-of-london-confirmation-of-payee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-confirmation-of-payee-api-openapi.yml
+- filename: the-bank-of-london-customer-management-api-openapi.yml
+  format: yaml
+  label: The Bank of London Customer Management API
+  slug: the-bank-of-london-customer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-customer-management-api-openapi.yml
+- filename: the-bank-of-london-mandates-direct-debits-api-openapi.yml
+  format: yaml
+  label: The Bank of London Mandates (Direct Debits) API
+  slug: the-bank-of-london-mandates-direct-debits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-mandates-direct-debits-api-openapi.yml
+- filename: the-bank-of-london-payments-v2-api-openapi.yml
+  format: yaml
+  label: The Bank of London Payments V2 API
+  slug: the-bank-of-london-payments-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-payments-v2-api-openapi.yml
+- filename: the-bank-of-london-standing-orders-api-openapi.yml
+  format: yaml
+  label: The Bank of London Standing Orders API
+  slug: the-bank-of-london-standing-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-standing-orders-api-openapi.yml
+- filename: the-bank-of-london-statements-api-openapi.yml
+  format: yaml
+  label: The Bank of London Statements API
+  slug: the-bank-of-london-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-statements-api-openapi.yml
+- filename: the-bank-of-london-transactions-api-openapi.yml
+  format: yaml
+  label: The Bank of London Transactions API
+  slug: the-bank-of-london-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-transactions-api-openapi.yml
+- filename: the-bank-of-london-virtual-account-management-api-openapi.yml
+  format: yaml
+  label: The Bank of London Virtual Account Management API
+  slug: the-bank-of-london-virtual-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-virtual-account-management-api-openapi.yml
+- filename: the-bank-of-london-webhook-management-api-openapi.yml
+  format: yaml
+  label: The Bank of London Webhook Management API
+  slug: the-bank-of-london-webhook-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-webhook-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

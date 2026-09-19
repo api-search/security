@@ -43,4 +43,5 @@ tags:
 - Consumer
 - Social
 - Vegan
+- Defunct
 ---

@@ -24,7 +24,7 @@ tags:
 - Company
 - Legal
 - Legal Tech
-- Law Firm
+- Law Firms
 - Artificial Intelligence
 - Contracts
 - Y Combinator

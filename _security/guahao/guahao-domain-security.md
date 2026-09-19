@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Telemedicine
+- Telehealth
 - Appointment Booking
 - China
 - Internet Hospital

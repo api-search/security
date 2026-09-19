@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-company-search-api-openapi.yml
 - filename: zoominfo-compliance-api-api-openapi.yml
   format: yaml
-  label: ZoomInfo Compliance API API
+  label: ZoomInfo Compliance API
   slug: zoominfo-compliance-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-compliance-api-api-openapi.yml
@@ -134,7 +134,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-usage-api-openapi.yml
 - filename: zoominfo-websights-api-api-openapi.yml
   format: yaml
-  label: ZoomInfo WebSights API API
+  label: ZoomInfo WebSights API
   slug: zoominfo-websights-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-websights-api-api-openapi.yml

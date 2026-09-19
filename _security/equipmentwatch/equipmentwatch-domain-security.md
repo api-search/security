@@ -1,41 +1,47 @@
 ---
 api_specs:
-- filename: equipmentwatch-api-openapi.yaml
+- filename: equipmentwatch-bulk-api-openapi.yml
   format: yaml
-  label: EquipmentWatch Taxonomy API
-  slug: taxonomy
+  label: Equipmentwatch Bulk API
+  slug: equipmentwatch-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-api-openapi.yaml
-- filename: equipmentwatch-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-bulk-api-openapi.yml
+- filename: equipmentwatch-cost-api-openapi.yml
   format: yaml
-  label: EquipmentWatch Specs API
-  slug: specs
+  label: Equipmentwatch Cost API
+  slug: equipmentwatch-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-api-openapi.yaml
-- filename: equipmentwatch-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-cost-api-openapi.yml
+- filename: equipmentwatch-rental-api-openapi.yml
   format: yaml
-  label: EquipmentWatch Verification API
-  slug: verification
+  label: Equipmentwatch Rental API
+  slug: equipmentwatch-rental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-api-openapi.yaml
-- filename: equipmentwatch-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-rental-api-openapi.yml
+- filename: equipmentwatch-specifications-api-openapi.yml
   format: yaml
-  label: EquipmentWatch Costs API
-  slug: costs
+  label: Equipmentwatch Specifications API
+  slug: equipmentwatch-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-api-openapi.yaml
-- filename: equipmentwatch-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-specifications-api-openapi.yml
+- filename: equipmentwatch-taxonomy-api-openapi.yml
   format: yaml
-  label: EquipmentWatch Values API
-  slug: values
+  label: Equipmentwatch Taxonomy API
+  slug: equipmentwatch-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-api-openapi.yaml
-- filename: equipmentwatch-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-taxonomy-api-openapi.yml
+- filename: equipmentwatch-values-api-openapi.yml
   format: yaml
-  label: EquipmentWatch Retail Rental API
-  slug: retail-rental
+  label: Equipmentwatch Values API
+  slug: equipmentwatch-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-values-api-openapi.yml
+- filename: equipmentwatch-verification-api-openapi.yml
+  format: yaml
+  label: Equipmentwatch Verification API
+  slug: equipmentwatch-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/openapi/equipmentwatch-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []

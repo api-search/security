@@ -34,6 +34,6 @@ tags:
 - Annuities
 - Fortune 500
 - Insurance
-- Investments
+- Investment
 - Life Insurance
 ---

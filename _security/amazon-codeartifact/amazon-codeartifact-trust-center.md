@@ -110,5 +110,6 @@ tags:
 - Maven
 - PyPI
 - NuGet
+- Developer Tools
 trust_url: https://aws.amazon.com/compliance/
 ---

@@ -55,5 +55,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Photos
 - Stock Media
-- Videos
+- Video
 ---

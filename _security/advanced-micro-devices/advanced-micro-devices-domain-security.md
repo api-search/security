@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-credits-api-openapi.yml
 - filename: advanced-micro-devices-devices-api-openapi.yml
   format: yaml
-  label: Advanced Micro Devices Devices API
+  label: Advanced Micro Devices API
   slug: advanced-micro-devices-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-devices-api-openapi.yml

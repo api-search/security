@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Cardiology
 - Electrophysiology
 - Cardiac Ablation

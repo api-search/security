@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - E-Commerce
 - Payments
 - Digital Banking

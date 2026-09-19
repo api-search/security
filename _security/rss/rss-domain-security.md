@@ -54,5 +54,5 @@ tags:
 - Content
 - XML
 - Specification
-- Standard
+- Standards
 ---

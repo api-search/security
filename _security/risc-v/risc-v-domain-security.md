@@ -33,13 +33,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - C API
-- Compiler
+- Compilers
 - Hardware
 - Instruction Set Architecture
 - Linux Foundation
 - Open Hardware
 - Open-Source
-- Processor
+- Processors
 - RISC-V
 - Simulator
 ---

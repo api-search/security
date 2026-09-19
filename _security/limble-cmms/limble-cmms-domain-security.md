@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: limble-cmms-limble-api-v2-openapi.yml
+  format: yaml
+  label: Limble API V2
+  slug: limble-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/openapi/limble-cmms-limble-api-v2-openapi.yml
 - filename: limble-cmms-routes-api-openapi.yml
   format: yaml
   label: Limble CMMS Routes API

@@ -23,7 +23,7 @@ tags:
 - Fintech
 - Digital Banking
 - Banking
-- Credit Unions
+- Credit Union
 - Community Banks
 - Financial-Services
 - Account Opening

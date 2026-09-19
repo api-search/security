@@ -81,12 +81,6 @@ api_specs:
   slug: jfrog-experiments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/openapi/jfrog-experiments-api-openapi.yml
-- filename: jfrog-graphql-api-openapi.yml
-  format: yaml
-  label: JFrog GraphQL API
-  slug: jfrog-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/openapi/jfrog-graphql-api-openapi.yml
 - filename: jfrog-groups-api-openapi.yml
   format: yaml
   label: JFrog Groups API
@@ -321,6 +315,12 @@ api_specs:
   slug: jfrog-workers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/openapi/jfrog-workers-api-openapi.yml
+- filename: jfrog-graph-ql-api-openapi.yml
+  format: yaml
+  label: JFrog Graph QL API
+  slug: jfrog-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/openapi/jfrog-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -399,6 +399,7 @@ tags:
 - Artifactory
 - CI/CD
 - Container Registry
+- Developer Tools
 - DevOps
 - MLOps
 - Package Management

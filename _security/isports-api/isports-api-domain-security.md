@@ -2,7 +2,7 @@
 api_specs:
 - filename: isports-api-basketball-common-api-api-openapi.yml
   format: yaml
-  label: iSports API Basketball Common API API
+  label: iSports API Basketball Common API
   slug: isports-api-basketball-common-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/openapi/isports-api-basketball-common-api-api-openapi.yml
@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/openapi/isports-api-basketball-stats-api-openapi.yml
 - filename: isports-api-football-common-api-api-openapi.yml
   format: yaml
-  label: iSports API Football Common API API
+  label: iSports API Football Common API
   slug: isports-api-football-common-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/openapi/isports-api-football-common-api-api-openapi.yml

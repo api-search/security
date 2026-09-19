@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: uq-status-openapi.yml
+- filename: uq-issues-api-openapi.yml
   format: yaml
-  label: UQ Status API
-  slug: status-api
+  label: University of Queensland Issues API
+  slug: uq-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/openapi/uq-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/openapi/uq-issues-api-openapi.yml
+- filename: uq-status-api-openapi.yml
+  format: yaml
+  label: University of Queensland Status API
+  slug: uq-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/openapi/uq-status-api-openapi.yml
 description: ''
 domains:
 - caa:

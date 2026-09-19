@@ -330,12 +330,6 @@ api_specs:
   slug: akkio-nonce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-nonce-api-openapi.yml
-- filename: akkio-oauth-api-openapi.yml
-  format: yaml
-  label: Akkio O Auth API
-  slug: akkio-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-oauth-api-openapi.yml
 - filename: akkio-parse-api-openapi.yml
   format: yaml
   label: Akkio Parse API
@@ -468,6 +462,12 @@ api_specs:
   slug: akkio-zapier-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-zapier-api-api-openapi.yml
+- filename: akkio-oauth-api-openapi.yml
+  format: yaml
+  label: Akkio O Auth API
+  slug: akkio-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/openapi/akkio-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:

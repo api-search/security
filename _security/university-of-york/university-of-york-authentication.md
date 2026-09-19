@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-york-digital-collections-search-openapi.yml
+- filename: university-of-york-iiif-image-api-openapi.yml
   format: yaml
-  label: University of York Digital Collections Search API
-  slug: digital-collections-search
+  label: University of York IIIF Image API
+  slug: university-of-york-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-digital-collections-search-openapi.yml
-- filename: university-of-york-digital-collections-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-iiif-image-api-openapi.yml
+- filename: university-of-york-iiif-presentation-api-openapi.yml
   format: yaml
-  label: University of York Digital Collections IIIF APIs
-  slug: digital-collections-iiif
+  label: University of York IIIF Presentation API
+  slug: university-of-york-iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-digital-collections-iiif-openapi.yml
-- filename: university-of-york-research-portal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-iiif-presentation-api-openapi.yml
+- filename: university-of-york-oai-pmh-api-openapi.yml
   format: yaml
-  label: University of York Research Portal OAI-PMH
-  slug: research-portal-oai-pmh
+  label: University of York OAI PMH API
+  slug: university-of-york-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-research-portal-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-oai-pmh-api-openapi.yml
+- filename: university-of-york-search-api-openapi.yml
+  format: yaml
+  label: University of York Search API
+  slug: university-of-york-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-search-api-openapi.yml
 auth_types: []
 description: How the University of York's institution-operated API surfaces authenticate — which is, on every one of them, not at all. All three contracts in this repository answer unauthenticated GET requests from an arbitrary client with no key, no token, no registration and no referer check. That is recorded as a positive fact about access clarity, not as a gap. Where authentication IS required at York it sits on surfaces this repository does not describe, and those are listed under out_of_scope below so the absence of a key here is not mistaken for the whole picture.
 kind: authentication

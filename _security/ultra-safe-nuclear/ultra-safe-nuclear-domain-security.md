@@ -74,7 +74,7 @@ tags:
 - Energy
 - Nuclear
 - Advanced Reactors
-- Small Modular Reactors
+- Small Modular Reactor
 - Nuclear Fuel
 - Space
 - Manufacturing

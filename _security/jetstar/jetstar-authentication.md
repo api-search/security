@@ -54,7 +54,7 @@ tags:
 - Travel
 - Australia
 - Aviation
-- Airline
+- Airlines
 - Low Cost Carrier
 - Distribution
 - Booking

@@ -735,7 +735,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/small-improvem
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Performance Management
-- HR
+- Human Resources
 - Employee Feedback
 - OKRs
 - 1:1 Meetings

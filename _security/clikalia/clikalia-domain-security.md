@@ -36,7 +36,7 @@ tags:
 - Real-Estate
 - iBuyer
 - Housing
-- Mortgages
+- Mortgage
 - Renovation
 - Spain
 - Mexico

@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rippling
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/authentication/rippling-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- HR
+- Human Resources
 - HCM
 - Payroll
 - IT
@@ -60,4 +60,5 @@ tags:
 - SCIM
 - Devices
 - Spend Management
+- Identity Federation
 ---

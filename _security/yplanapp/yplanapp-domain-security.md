@@ -34,7 +34,8 @@ tags:
 - Event
 - Event Discovery
 - Ticketing
-- Bookings
+- Booking
 - Mobile
 - Entertainment
+- Defunct
 ---

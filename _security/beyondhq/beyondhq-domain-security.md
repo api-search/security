@@ -34,7 +34,7 @@ tags:
 - Distributed Work
 - Hybrid Work
 - Real-Estate
-- HR Tech
+- Human Resources
 - Location Intelligence
 - Talent Analytics
 ---

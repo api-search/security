@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Interview Preparation
-- Career
+- Careers
 - Productivity
 - Consumer
 - Desktop Application

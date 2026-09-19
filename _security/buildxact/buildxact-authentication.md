@@ -86,7 +86,7 @@ tags:
 - Material Pricing
 - Builders
 - Remodelers
-- Trades
+- Trade
 - Software-as-a-Service
 - Australia
 - Autodesk

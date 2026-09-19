@@ -21,18 +21,18 @@ api_specs:
   slug: layerzero-ofts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-ofts-api-openapi.yml
-- filename: layerzero-openapi-api-openapi.yml
-  format: yaml
-  label: LayerZero openapi API
-  slug: layerzero-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-openapi-api-openapi.yml
 - filename: layerzero-transfer-api-openapi.yml
   format: yaml
   label: LayerZero Transfer API
   slug: layerzero-transfer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-transfer-api-openapi.yml
+- filename: layerzero-open-api-api-openapi.yml
+  format: yaml
+  label: LayerZero Open API
+  slug: layerzero-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-open-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -42,6 +42,6 @@ tags:
 - Genomics
 - Artificial Intelligence
 - Plant Breeding
-- Seeds
+- Seed
 - Food and Beverage
 ---

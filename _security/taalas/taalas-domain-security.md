@@ -59,8 +59,8 @@ tags:
 - Artificial Intelligence
 - AI Inference
 - Semiconductors
-- AI Accelerator
-- Large Language Models
+- AI Accelerators
+- LLM
 - Llama
 - Inference API
 - OpenAI-Compatible

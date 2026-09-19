@@ -12,12 +12,6 @@ api_specs:
   slug: accuweather-ads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-ads-api-openapi.yml
-- filename: accuweather-airquality-api-openapi.yml
-  format: yaml
-  label: AccuWeather AirQuality API
-  slug: accuweather-airquality-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-airquality-api-openapi.yml
 - filename: accuweather-autocomplete-api-openapi.yml
   format: yaml
   label: AccuWeather Autocomplete API
@@ -126,6 +120,12 @@ api_specs:
   slug: accuweather-wintercast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-wintercast-api-openapi.yml
+- filename: accuweather-air-quality-api-openapi.yml
+  format: yaml
+  label: AccuWeather Air Quality API
+  slug: accuweather-air-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-air-quality-api-openapi.yml
 description: ''
 domains:
 - caa: []

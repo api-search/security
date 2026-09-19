@@ -9,12 +9,6 @@ api_specs:
   slug: airstack-casts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-casts-api-openapi.yml
-- filename: airstack-fids-api-openapi.yml
-  format: yaml
-  label: Airstack FIDs API
-  slug: airstack-fids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-fids-api-openapi.yml
 - filename: airstack-hubevents-api-openapi.yml
   format: yaml
   label: Airstack HubEvents API
@@ -51,12 +45,6 @@ api_specs:
   slug: airstack-submitmessage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-submitmessage-api-openapi.yml
-- filename: airstack-userdata-api-openapi.yml
-  format: yaml
-  label: Airstack UserData API
-  slug: airstack-userdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-userdata-api-openapi.yml
 - filename: airstack-usernames-api-openapi.yml
   format: yaml
   label: Airstack Usernames API
@@ -81,6 +69,18 @@ api_specs:
   slug: airstack-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-webhooks-api-openapi.yml
+- filename: airstack-fids-api-openapi.yml
+  format: yaml
+  label: Airstack FI Ds API
+  slug: airstack-fids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-fids-api-openapi.yml
+- filename: airstack-user-data-api-openapi.yml
+  format: yaml
+  label: Airstack User Data API
+  slug: airstack-user-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-user-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -2,7 +2,7 @@
 api_specs:
 - filename: harbor-compliance-compliance-filings-api-openapi.yml
   format: yaml
-  label: Harbor Compliance Compliance Filings API
+  label: Harbor Compliance Filings API
   slug: harbor-compliance-compliance-filings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-compliance-filings-api-openapi.yml

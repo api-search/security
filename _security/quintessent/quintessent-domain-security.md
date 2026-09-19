@@ -34,7 +34,7 @@ tags:
 - Deep Tech
 - Photonics
 - Semiconductors
-- Optical Interconnects
+- Optical Interconnect
 - Quantum Dot
 - AI Infrastructure
 - Hardware

@@ -35,7 +35,7 @@ tags:
 - Identity
 - Access Management
 - Authentication
-- Single Sign-On
+- SSO
 - Privileged Access Management
 - Healthcare
 - Security

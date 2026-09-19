@@ -12,12 +12,6 @@ api_specs:
   slug: slope-software-authorize-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-authorize-api-openapi.yml
-- filename: slope-software-datatables-api-openapi.yml
-  format: yaml
-  label: Slope Software DataTables API
-  slug: slope-software-datatables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-datatables-api-openapi.yml
 - filename: slope-software-decrementtables-api-openapi.yml
   format: yaml
   label: Slope Software DecrementTables API
@@ -84,6 +78,12 @@ api_specs:
   slug: slope-software-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-users-api-openapi.yml
+- filename: slope-software-data-tables-api-openapi.yml
+  format: yaml
+  label: Slope Software Data Tables API
+  slug: slope-software-data-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/openapi/slope-software-data-tables-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -129,7 +129,7 @@ tags:
 - Financial-Services
 - Life Insurance
 - Annuities
-- Pension
+- Pensions
 - Risk Management
 - Cloud
 - Reporting

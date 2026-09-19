@@ -58,5 +58,5 @@ tags:
 - Students
 - Career Services
 - Consumer Services
-- Status Page
+- Status Pages
 ---

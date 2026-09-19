@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: firehydrant-api-openapi.yml
-  format: yaml
-  label: FireHydrant
-  slug: firehydrant
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-api-openapi.yml
 - filename: firehydrant-audits-api-openapi.yml
   format: yaml
   label: FireHydrant Audits API
@@ -99,6 +93,84 @@ api_specs:
   slug: firehydrant-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-teams-api-openapi.yml
+- filename: firehydrant-account-settings-api-openapi.yml
+  format: yaml
+  label: FireHydrant Account Settings API
+  slug: firehydrant-account-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-account-settings-api-openapi.yml
+- filename: firehydrant-alerts-api-openapi.yml
+  format: yaml
+  label: FireHydrant Alerts API
+  slug: firehydrant-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-alerts-api-openapi.yml
+- filename: firehydrant-communication-api-openapi.yml
+  format: yaml
+  label: FireHydrant Communication API
+  slug: firehydrant-communication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-communication-api-openapi.yml
+- filename: firehydrant-incident-settings-api-openapi.yml
+  format: yaml
+  label: FireHydrant Incident Settings API
+  slug: firehydrant-incident-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-incident-settings-api-openapi.yml
+- filename: firehydrant-integrations-api-openapi.yml
+  format: yaml
+  label: FireHydrant Integrations API
+  slug: firehydrant-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-integrations-api-openapi.yml
+- filename: firehydrant-metrics-api-openapi.yml
+  format: yaml
+  label: FireHydrant Metrics API
+  slug: firehydrant-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-metrics-api-openapi.yml
+- filename: firehydrant-metrics-reporting-api-openapi.yml
+  format: yaml
+  label: FireHydrant Metrics/Reporting API
+  slug: firehydrant-metrics-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-metrics-reporting-api-openapi.yml
+- filename: firehydrant-retrospectives-api-openapi.yml
+  format: yaml
+  label: FireHydrant Retrospectives API
+  slug: firehydrant-retrospectives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-retrospectives-api-openapi.yml
+- filename: firehydrant-scim-api-openapi.yml
+  format: yaml
+  label: FireHydrant SCIM API
+  slug: firehydrant-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-scim-api-openapi.yml
+- filename: firehydrant-status-pages-api-openapi.yml
+  format: yaml
+  label: FireHydrant Status Pages API
+  slug: firehydrant-status-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-status-pages-api-openapi.yml
+- filename: firehydrant-tasks-api-openapi.yml
+  format: yaml
+  label: FireHydrant Tasks API
+  slug: firehydrant-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-tasks-api-openapi.yml
+- filename: firehydrant-users-api-openapi.yml
+  format: yaml
+  label: FireHydrant Users API
+  slug: firehydrant-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-users-api-openapi.yml
+- filename: firehydrant-webhooks-api-openapi.yml
+  format: yaml
+  label: FireHydrant Webhooks API
+  slug: firehydrant-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http

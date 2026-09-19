@@ -147,12 +147,6 @@ api_specs:
   slug: equinix-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-invoices-api-openapi.yml
-- filename: equinix-ipaddresses-api-openapi.yml
-  format: yaml
-  label: Equinix IPAddresses API
-  slug: equinix-ipaddresses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-ipaddresses-api-openapi.yml
 - filename: equinix-licenses-api-openapi.yml
   format: yaml
   label: Equinix Licenses API
@@ -231,24 +225,12 @@ api_specs:
   slug: equinix-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-organizations-api-openapi.yml
-- filename: equinix-otps-api-openapi.yml
-  format: yaml
-  label: Equinix OTPs API
-  slug: equinix-otps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-otps-api-openapi.yml
 - filename: equinix-passwordresettokens-api-openapi.yml
   format: yaml
   label: Equinix PasswordResetTokens API
   slug: equinix-passwordresettokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-passwordresettokens-api-openapi.yml
-- filename: equinix-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Equinix PaymentMethods API
-  slug: equinix-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-paymentmethods-api-openapi.yml
 - filename: equinix-plans-api-openapi.yml
   format: yaml
   label: Equinix Plans API
@@ -351,12 +333,6 @@ api_specs:
   slug: equinix-spotmarket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-spotmarket-api-openapi.yml
-- filename: equinix-sshkeys-api-openapi.yml
-  format: yaml
-  label: Equinix SSHKeys API
-  slug: equinix-sshkeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-sshkeys-api-openapi.yml
 - filename: equinix-statistics-api-openapi.yml
   format: yaml
   label: Equinix Statistics API
@@ -399,12 +375,6 @@ api_specs:
   slug: equinix-transferrequests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-transferrequests-api-openapi.yml
-- filename: equinix-twofactorauth-api-openapi.yml
-  format: yaml
-  label: Equinix TwoFactorAuth API
-  slug: equinix-twofactorauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-twofactorauth-api-openapi.yml
 - filename: equinix-usages-api-openapi.yml
   format: yaml
   label: Equinix Usages API
@@ -417,12 +387,6 @@ api_specs:
   slug: equinix-use-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-use-api-openapi.yml
-- filename: equinix-userdata-api-openapi.yml
-  format: yaml
-  label: Equinix Userdata API
-  slug: equinix-userdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-userdata-api-openapi.yml
 - filename: equinix-users-api-openapi.yml
   format: yaml
   label: Equinix Users API
@@ -447,6 +411,42 @@ api_specs:
   slug: equinix-vrfs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-vrfs-api-openapi.yml
+- filename: equinix-otps-api-openapi.yml
+  format: yaml
+  label: Equinix OT Ps API
+  slug: equinix-otps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-otps-api-openapi.yml
+- filename: equinix-ip-addresses-api-openapi.yml
+  format: yaml
+  label: Equinix IP Addresses API
+  slug: equinix-ip-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-ip-addresses-api-openapi.yml
+- filename: equinix-payment-methods-api-openapi.yml
+  format: yaml
+  label: Equinix Payment Methods API
+  slug: equinix-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-payment-methods-api-openapi.yml
+- filename: equinix-ssh-keys-api-openapi.yml
+  format: yaml
+  label: Equinix SSH Keys API
+  slug: equinix-ssh-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-ssh-keys-api-openapi.yml
+- filename: equinix-two-factor-auth-api-openapi.yml
+  format: yaml
+  label: Equinix Two Factor Auth API
+  slug: equinix-two-factor-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-two-factor-auth-api-openapi.yml
+- filename: equinix-user-data-api-openapi.yml
+  format: yaml
+  label: Equinix User Data API
+  slug: equinix-user-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-user-data-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -489,7 +489,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/h
 summary_line: apiKey/http · 2 schemes
 tags:
 - Fortune 1000
-- Data Centers
+- Data-Center
 - Interconnection
 - Colocation
 - Bare Metal

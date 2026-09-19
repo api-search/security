@@ -79,7 +79,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appian/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
-- BPM
 - Business Process Management
 - Enterprise Software
 - Low-Code

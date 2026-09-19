@@ -9,12 +9,6 @@ api_specs:
   slug: developerhub-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-documentation-api-openapi.yml
-- filename: developerhub-pages-api-openapi.yml
-  format: yaml
-  label: DeveloperHub Pages API
-  slug: developerhub-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-pages-api-openapi.yml
 - filename: developerhub-project-api-openapi.yml
   format: yaml
   label: DeveloperHub Project API
@@ -27,24 +21,30 @@ api_specs:
   slug: developerhub-reader-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reader-access-api-openapi.yml
-- filename: developerhub-references-api-openapi.yml
-  format: yaml
-  label: DeveloperHub References API
-  slug: developerhub-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-references-api-openapi.yml
-- filename: developerhub-versions-api-openapi.yml
-  format: yaml
-  label: DeveloperHub Versions API
-  slug: developerhub-versions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-versions-api-openapi.yml
 - filename: developerhub-changelog-api-openapi.yml
   format: yaml
   label: DeveloperHub Changelog API
   slug: developerhub-changelog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-changelog-api-openapi.yml
+- filename: developerhub-page-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Page API
+  slug: developerhub-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-page-api-openapi.yml
+- filename: developerhub-reference-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Reference API
+  slug: developerhub-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reference-api-openapi.yml
+- filename: developerhub-version-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Version API
+  slug: developerhub-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-version-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -118,11 +118,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/developerhub/r
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - API Reference
-- Developer Portals
+- Developer Portal
 - Documentation
 - Knowledge Base
 - OpenAPI
 - Docs as Code
-- Model Context Protocol
+- MCP
 - Agent Skills
 ---

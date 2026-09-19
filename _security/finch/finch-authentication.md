@@ -53,7 +53,7 @@ tags:
 - HRIS
 - Payroll
 - Benefits
-- HR
+- Human Resources
 - Unified-API
 - Workforce
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: creatoriq-brand-safety-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/openapi/creatoriq-brand-safety-api-openapi.yml
-- filename: creatoriq-brandsafety-api-openapi.yml
-  format: yaml
-  label: CreatorIQ Brand Safety API
-  slug: creatoriq-brandsafety-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/openapi/creatoriq-brandsafety-api-openapi.yml
 - filename: creatoriq-campaign-api-openapi.yml
   format: yaml
   label: CreatorIQ Campaign API

@@ -39,7 +39,7 @@ tags:
 - One-Click Install
 - Image-Generation
 - Video Generation
-- Large Language Models
+- LLM
 - Text-to-Speech
 - Voice Cloning
 - Hugging Face

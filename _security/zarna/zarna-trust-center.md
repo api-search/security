@@ -23,7 +23,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Private Equity
-- Investments
+- Investment
 - Financial-Services
 - Deal Management
 trust_url: https://www.zarnaai.com/#security

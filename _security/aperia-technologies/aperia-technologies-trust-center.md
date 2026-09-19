@@ -33,6 +33,6 @@ tags:
 - Automatic Tire Inflation
 - Predictive Maintenance
 - IoT
-- Connected Vehicle
+- Connected Vehicles
 trust_url: https://aperia-technologies.secureframetrust.com/
 ---

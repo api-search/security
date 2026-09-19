@@ -36,12 +36,6 @@ api_specs:
   slug: videoamp-currency-of-record-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-currency-of-record-api-openapi.yml
-- filename: videoamp-datastreams-api-openapi.yml
-  format: yaml
-  label: VideoAmp Data Streams API
-  slug: videoamp-datastreams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-datastreams-api-openapi.yml
 - filename: videoamp-datastreamtypes-api-openapi.yml
   format: yaml
   label: VideoAmp Data Stream Types API
@@ -84,6 +78,12 @@ api_specs:
   slug: videoamp-shares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-shares-api-openapi.yml
+- filename: videoamp-data-streams-api-openapi.yml
+  format: yaml
+  label: VideoAmp Data Streams API
+  slug: videoamp-data-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-data-streams-api-openapi.yml
 certification_count: 0
 certifications: []
 description: VideoAmp operates a Vanta-hosted trust center at trust.videoamp.com. The host resolves and returns HTTP 200, and the served document is a Vanta trust report shell (data-signature-manifest-url on assets.vanta.com, meta keywords "Trust, Security, Compliance, Automation", slug id kc0vaj770r912yhumz0k2). The page body is rendered entirely client-side, so the certification list, subprocessor list and document library could not be read anonymously.

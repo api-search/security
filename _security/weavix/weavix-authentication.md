@@ -88,7 +88,7 @@ tags:
 - Messaging
 - Push To Talk
 - Industrial
-- Internet of Things
+- IoT
 - Location Tracking
 - Alerts
 - Company

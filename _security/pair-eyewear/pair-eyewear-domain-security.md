@@ -38,7 +38,7 @@ tags:
 - Retail
 - Shopify
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 ---

@@ -66,7 +66,7 @@ tags:
 - Document Generation
 - PDF
 - Templates
-- Digital Signatures
+- Digital Signature
 - Workflows
 - Document-Management
 - Secure Documents

@@ -24,7 +24,7 @@ tags:
 - Company
 - Security
 - Identity
-- IAM
+- Identity and Access Management
 - Authentication
 - AI Agents
 - Governance

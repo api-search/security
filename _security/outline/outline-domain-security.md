@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: outline-accessrequests-api-openapi.yml
-  format: yaml
-  label: Outline AccessRequests API
-  slug: outline-accessrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-accessrequests-api-openapi.yml
 - filename: outline-attachments-api-openapi.yml
   format: yaml
   label: Outline Attachments API
@@ -48,12 +42,6 @@ api_specs:
   slug: outline-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-events-api-openapi.yml
-- filename: outline-fileoperations-api-openapi.yml
-  format: yaml
-  label: Outline FileOperations API
-  slug: outline-fileoperations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-fileoperations-api-openapi.yml
 - filename: outline-groups-api-openapi.yml
   format: yaml
   label: Outline Groups API
@@ -66,12 +54,6 @@ api_specs:
   slug: outline-oauthauthentications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauthauthentications-api-openapi.yml
-- filename: outline-oauthclients-api-openapi.yml
-  format: yaml
-  label: Outline OAuthClients API
-  slug: outline-oauthclients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauthclients-api-openapi.yml
 - filename: outline-revisions-api-openapi.yml
   format: yaml
   label: Outline Revisions API
@@ -108,6 +90,24 @@ api_specs:
   slug: outline-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-views-api-openapi.yml
+- filename: outline-access-requests-api-openapi.yml
+  format: yaml
+  label: Outline Access Requests API
+  slug: outline-access-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-access-requests-api-openapi.yml
+- filename: outline-file-operations-api-openapi.yml
+  format: yaml
+  label: Outline File Operations API
+  slug: outline-file-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-file-operations-api-openapi.yml
+- filename: outline-oauth-clients-api-openapi.yml
+  format: yaml
+  label: Outline OAuth Clients API
+  slug: outline-oauth-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauth-clients-api-openapi.yml
 description: ''
 domains:
 - caa:

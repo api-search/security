@@ -37,7 +37,7 @@ tags:
 - Company
 - Fintech
 - Personal Finance
-- Credit Scores
+- Credit Score
 - Credit Monitoring
 - Lending
 - Consumer Finance

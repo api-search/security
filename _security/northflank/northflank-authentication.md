@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: northflank-addons-api-openapi.yml
-  format: yaml
-  label: Northflank Addons API
-  slug: northflank-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-addons-api-openapi.yml
 - filename: northflank-jobs-api-openapi.yml
   format: yaml
   label: Northflank Jobs API
@@ -26,6 +20,12 @@ api_specs:
   slug: northflank-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-services-api-openapi.yml
+- filename: northflank-add-ons-api-openapi.yml
+  format: yaml
+  label: Northflank Add Ons API
+  slug: northflank-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-add-ons-api-openapi.yml
 auth_types:
 - http
 description: ''

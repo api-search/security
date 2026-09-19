@@ -56,7 +56,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Buy Now Pay Later
-- BNPL
 - Payments
 - Japan
 - Checkout

@@ -24,12 +24,6 @@ api_specs:
   slug: justworks-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-webhooks-api-openapi.yml
-- filename: justworks-oauth-api-openapi.yml
-  format: yaml
-  label: Justworks OAuth API
-  slug: justworks-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-oauth-api-openapi.yml
 - filename: justworks-deduction-types-api-openapi.yml
   format: yaml
   label: Justworks Deduction Types API
@@ -66,6 +60,12 @@ api_specs:
   slug: justworks-time-off-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-requests-api-openapi.yml
+- filename: justworks-oauth-api-openapi.yml
+  format: yaml
+  label: Justworks O Auth API
+  slug: justworks-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -110,7 +110,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - PEO
 - Payroll
-- HR
 - Human Resources
 - Benefits
 - Health Insurance

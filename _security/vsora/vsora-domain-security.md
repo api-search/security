@@ -36,5 +36,5 @@ tags:
 - AI Inference
 - Edge AI
 - Hardware
-- Data Centers
+- Data-Center
 ---

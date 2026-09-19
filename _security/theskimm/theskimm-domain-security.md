@@ -34,7 +34,7 @@ tags:
 - Company
 - Consumer
 - Media
-- Newsletter
+- Newsletters
 - Email
 - Content
 - Publishing

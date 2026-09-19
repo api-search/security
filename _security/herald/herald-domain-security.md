@@ -104,5 +104,5 @@ tags:
 - Insurtech
 - Commercial Insurance
 - Quoting
-- Carriers
+- Carrier
 ---

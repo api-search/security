@@ -30,12 +30,6 @@ api_specs:
   slug: gladia-live-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-live-v2-api-openapi.yml
-- filename: gladia-openrouter-api-openapi.yml
-  format: yaml
-  label: Gladia OpenRouter API
-  slug: gladia-openrouter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-openrouter-api-openapi.yml
 - filename: gladia-pre-recorded-v2-api-openapi.yml
   format: yaml
   label: Gladia Pre-recorded V2 API
@@ -54,6 +48,12 @@ api_specs:
   slug: gladia-transcription-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v2-api-openapi.yml
+- filename: gladia-open-router-api-openapi.yml
+  format: yaml
+  label: Gladia Open Router API
+  slug: gladia-open-router-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-open-router-api-openapi.yml
 description: ''
 domains:
 - caa:

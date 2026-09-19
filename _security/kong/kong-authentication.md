@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: kong-acls-api-openapi.yml
-  format: yaml
-  label: Kong ACLs API
-  slug: kong-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-acls-api-openapi.yml
 - filename: kong-add-ons-api-openapi.yml
   format: yaml
   label: Kong Add-Ons API
@@ -17,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-add-ons-api-openapi.yml
 - filename: kong-api-api-openapi.yml
   format: yaml
-  label: Kong API API
+  label: Kong API
   slug: kong-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-api-api-openapi.yml
@@ -147,12 +141,6 @@ api_specs:
   slug: kong-basic-auth-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-basic-auth-credentials-api-openapi.yml
-- filename: kong-ca-certificates-api-openapi.yml
-  format: yaml
-  label: Kong CA Certificates API
-  slug: kong-ca-certificates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-ca-certificates-api-openapi.yml
 - filename: kong-catalog-integrations-api-openapi.yml
   format: yaml
   label: Kong Catalog Integrations API
@@ -261,12 +249,6 @@ api_specs:
   slug: kong-custom-plugin-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-custom-plugin-schemas-api-openapi.yml
-- filename: kong-customplugins-api-openapi.yml
-  format: yaml
-  label: Kong CustomPlugins API
-  slug: kong-customplugins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-customplugins-api-openapi.yml
 - filename: kong-dashboards-api-openapi.yml
   format: yaml
   label: Kong Dashboards API
@@ -429,12 +411,6 @@ api_specs:
   slug: kong-invites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-invites-api-openapi.yml
-- filename: kong-jwts-api-openapi.yml
-  format: yaml
-  label: Kong JWTs API
-  slug: kong-jwts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-jwts-api-openapi.yml
 - filename: kong-keys-api-openapi.yml
   format: yaml
   label: Kong Keys API
@@ -795,6 +771,30 @@ api_specs:
   slug: kong-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-workspaces-api-openapi.yml
+- filename: kong-acls-api-openapi.yml
+  format: yaml
+  label: Kong AC Ls API
+  slug: kong-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-acls-api-openapi.yml
+- filename: kong-jwts-api-openapi.yml
+  format: yaml
+  label: Kong JW Ts API
+  slug: kong-jwts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-jwts-api-openapi.yml
+- filename: kong-cacertificates-api-openapi.yml
+  format: yaml
+  label: Kong Cacertificates API
+  slug: kong-cacertificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-cacertificates-api-openapi.yml
+- filename: kong-custom-plugins-api-openapi.yml
+  format: yaml
+  label: Kong Custom Plugins API
+  slug: kong-custom-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-custom-plugins-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -37,6 +37,6 @@ tags:
 - Personal Loans
 - Debt Consolidation
 - Consumer Finance
-- Credit Unions
+- Credit Union
 - Financial-Services
 ---

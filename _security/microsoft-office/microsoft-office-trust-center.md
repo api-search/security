@@ -56,5 +56,6 @@ tags:
 - Microsoft
 - Office
 - Productivity
+- Microsoft Office
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

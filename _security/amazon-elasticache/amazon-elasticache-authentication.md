@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: amazon-elasticache-amazon-elasticache-api-api-openapi.yml
   format: yaml
-  label: Amazon ElastiCache Amazon ElastiCache API API
+  label: Amazon ElastiCache Amazon ElastiCache API
   slug: amazon-elasticache-amazon-elasticache-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/openapi/amazon-elasticache-amazon-elasticache-api-api-openapi.yml

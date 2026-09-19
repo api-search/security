@@ -27,6 +27,5 @@ tags:
 - Pay Equity
 - Salary Bands
 - Human Resources
-- HR Tech
 trust_url: https://figures.hr/security
 ---

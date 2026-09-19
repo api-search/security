@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: wego-api-openapi.json
-  format: json
-  label: Wego API
-  slug: wego-api
+- filename: wego-countries-api-openapi.yml
+  format: yaml
+  label: Wego Countries API
+  slug: wego-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-countries-api-openapi.yml
+- filename: wego-feedback-api-openapi.yml
+  format: yaml
+  label: Wego Feedback API
+  slug: wego-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-feedback-api-openapi.yml
+- filename: wego-flights-api-openapi.yml
+  format: yaml
+  label: Wego Flights API
+  slug: wego-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-flights-api-openapi.yml
+- filename: wego-health-api-openapi.yml
+  format: yaml
+  label: Wego Health API
+  slug: wego-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-health-api-openapi.yml
+- filename: wego-hotels-api-openapi.yml
+  format: yaml
+  label: Wego Hotels API
+  slug: wego-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-hotels-api-openapi.yml
+- filename: wego-places-api-openapi.yml
+  format: yaml
+  label: Wego Places API
+  slug: wego-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-places-api-openapi.yml
+- filename: wego-user-api-openapi.yml
+  format: yaml
+  label: Wego User API
+  slug: wego-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/openapi/wego-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +91,7 @@ tags:
 - Hotels
 - Metasearch
 - Booking
-- Agent Native
+- agent-native
 - Tourism
 - Search
 ---

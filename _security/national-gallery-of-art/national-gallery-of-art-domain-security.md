@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Art
 - Federal-Government
-- Museum
+- Museums
 - Open Data
 - Cultural Heritage
 ---

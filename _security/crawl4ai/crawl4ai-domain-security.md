@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: crawl4ai-crawl-api-openapi.yml
+  format: yaml
+  label: Crawl4AI Crawl API
+  slug: crawl4ai-crawl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/openapi/crawl4ai-crawl-api-openapi.yml
 description: ''
 domains:
 - caa: []

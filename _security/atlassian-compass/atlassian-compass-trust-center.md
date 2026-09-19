@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: atlassian-compass-compass-rest-api-openapi.json
-  format: json
-  label: Atlassian Compass REST API
-  slug: atlassian-compass-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-compass-rest-api-openapi.json
 - filename: atlassian-compass-events-api-openapi.yml
   format: yaml
   label: Atlassian Compass Events API
@@ -18,6 +12,30 @@ api_specs:
   slug: atlassian-compass-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-metrics-api-openapi.yml
+- filename: atlassian-compass-attachment-rest-controller-api-openapi.yml
+  format: yaml
+  label: Atlassian Compass Attachment Rest Controller API
+  slug: atlassian-compass-attachment-rest-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
+- filename: atlassian-compass-entitlement-rest-controller-api-openapi.yml
+  format: yaml
+  label: Atlassian Compass Entitlement Rest Controller API
+  slug: atlassian-compass-entitlement-rest-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
+- filename: atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
+  format: yaml
+  label: Atlassian Compass Incoming Webhooks Rest Controller API
+  slug: atlassian-compass-incoming-webhooks-rest-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
+- filename: atlassian-compass-package-dependencies-api-openapi.yml
+  format: yaml
+  label: Atlassian Compass Package Dependencies API
+  slug: atlassian-compass-package-dependencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-package-dependencies-api-openapi.yml
 certification_count: 1
 certifications:
 - FedRAMP

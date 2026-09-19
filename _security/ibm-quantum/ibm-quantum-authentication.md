@@ -116,5 +116,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ibm-quan
   \ Qiskit Runtime instance\n  sources:\n  - openapi/ibm-quantum-runtime-analytics-openapi.yml\n  - openapi/ibm-quantum-runtime-backends-openapi.yml\n  - openapi/ibm-quantum-runtime-instances-openapi.yml\n  - openapi/ibm-quantum-runtime-jobs-openapi.yml\n  - openapi/ibm-quantum-runtime-sessions-openapi.yml\n  - openapi/ibm-quantum-runtime-versions-openapi.yml\n- name: ApiVersion\n  type: apiKey\n  in: header\n  parameter: IBM-API-Version\n  description: API version, e.g. 2026-03-15\n  sources:\n  - openapi/ibm-quantum-runtime-analytics-openapi.yml\n  - openapi/ibm-quantum-runtime-backends-openapi.yml\n  - openapi/ibm-quantum-runtime-instances-openapi.yml\n  - openapi/ibm-quantum-runtime-jobs-openapi.yml\n  - openapi/ibm-quantum-runtime-sessions-openapi.yml\n  - openapi/ibm-quantum-runtime-versions-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/authentication/ibm-quantum-authentication.yml
 summary_line: apiKey/http · 3 schemes
-tags: []
+tags:
+- Quantum Computing
+- Analytics
+- Job
 ---

@@ -18,12 +18,6 @@ api_specs:
   slug: kentik-asgroupservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-asgroupservice-api-openapi.yml
-- filename: kentik-auditservice-api-openapi.yml
-  format: yaml
-  label: Kentik AuditService API
-  slug: kentik-auditservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-auditservice-api-openapi.yml
 - filename: kentik-bgpmonitoringadminservice-api-openapi.yml
   format: yaml
   label: Kentik BgpMonitoringAdminService API
@@ -144,6 +138,12 @@ api_specs:
   slug: kentik-userservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-userservice-api-openapi.yml
+- filename: kentik-audit-service-api-openapi.yml
+  format: yaml
+  label: Kentik Audit Service API
+  slug: kentik-audit-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-audit-service-api-openapi.yml
 description: ''
 domains:
 - caa:

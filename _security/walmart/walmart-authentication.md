@@ -14,18 +14,6 @@ api_specs:
   slug: walmart-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-authorization-api-openapi.yml
-- filename: walmart-dsv-cost-api-openapi.yml
-  format: yaml
-  label: Walmart DSV Cost API
-  slug: walmart-dsv-cost-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dsv-cost-api-openapi.yml
-- filename: walmart-dsv-orders-api-openapi.yml
-  format: yaml
-  label: Walmart DSV Orders API
-  slug: walmart-dsv-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dsv-orders-api-openapi.yml
 - filename: walmart-feeds-api-openapi.yml
   format: yaml
   label: Walmart Feeds API
@@ -74,12 +62,6 @@ api_specs:
   slug: walmart-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-notifications-api-openapi.yml
-- filename: walmart-on-request-report-api-openapi.yml
-  format: yaml
-  label: Walmart On-Request Report API
-  slug: walmart-on-request-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-on-request-report-api-openapi.yml
 - filename: walmart-on-request-reports-api-openapi.yml
   format: yaml
   label: Walmart On Request Reports API

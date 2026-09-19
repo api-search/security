@@ -121,7 +121,7 @@ tags:
 - Health IT
 - ONC Certified
 - USCDI
-- OAuth 2.0
+- Authentication
 - Telehealth
 - Health Information Exchange
 ---

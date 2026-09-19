@@ -2,61 +2,61 @@
 api_specs:
 - filename: thriva-appointments-api-api-openapi.yml
   format: yaml
-  label: Thriva Appointments API API
+  label: Thriva Appointments API
   slug: thriva-appointments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-appointments-api-api-openapi.yml
 - filename: thriva-auth-api-api-openapi.yml
   format: yaml
-  label: Thriva Auth API API
+  label: Thriva Auth API
   slug: thriva-auth-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-auth-api-api-openapi.yml
 - filename: thriva-biomarkers-api-api-openapi.yml
   format: yaml
-  label: Thriva Biomarkers API API
+  label: Thriva Biomarkers API
   slug: thriva-biomarkers-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-biomarkers-api-api-openapi.yml
 - filename: thriva-bulk-orders-api-api-openapi.yml
   format: yaml
-  label: Thriva Bulk Orders API API
+  label: Thriva Bulk Orders API
   slug: thriva-bulk-orders-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-bulk-orders-api-api-openapi.yml
 - filename: thriva-escalations-api-api-openapi.yml
   format: yaml
-  label: Thriva Escalations API API
+  label: Thriva Escalations API
   slug: thriva-escalations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-escalations-api-api-openapi.yml
 - filename: thriva-orders-api-api-openapi.yml
   format: yaml
-  label: Thriva Orders API API
+  label: Thriva Orders API
   slug: thriva-orders-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-orders-api-api-openapi.yml
 - filename: thriva-result-attachments-api-api-openapi.yml
   format: yaml
-  label: Thriva Result attachments API API
+  label: Thriva Result attachments API
   slug: thriva-result-attachments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-result-attachments-api-api-openapi.yml
 - filename: thriva-results-api-api-openapi.yml
   format: yaml
-  label: Thriva Results API API
+  label: Thriva Results API
   slug: thriva-results-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-results-api-api-openapi.yml
 - filename: thriva-tracking-api-api-openapi.yml
   format: yaml
-  label: Thriva Tracking API API
+  label: Thriva Tracking API
   slug: thriva-tracking-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-tracking-api-api-openapi.yml
 - filename: thriva-users-api-api-openapi.yml
   format: yaml
-  label: Thriva Users API API
+  label: Thriva Users API
   slug: thriva-users-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-users-api-api-openapi.yml

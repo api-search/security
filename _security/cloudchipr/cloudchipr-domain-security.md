@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: cloudchipr-enterprise-api-openapi.yml
+- filename: cloudchipr-accounts-api-openapi.yml
   format: yaml
-  label: CloudChipr API
-  slug: cloudchipr-api
+  label: CloudChipr Accounts API
+  slug: cloudchipr-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-enterprise-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-accounts-api-openapi.yml
+- filename: cloudchipr-budgets-api-openapi.yml
+  format: yaml
+  label: CloudChipr Budgets API
+  slug: cloudchipr-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-budgets-api-openapi.yml
+- filename: cloudchipr-categories-api-openapi.yml
+  format: yaml
+  label: CloudChipr Categories API
+  slug: cloudchipr-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-categories-api-openapi.yml
+- filename: cloudchipr-custom-data-api-openapi.yml
+  format: yaml
+  label: CloudChipr Custom Data API
+  slug: cloudchipr-custom-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-custom-data-api-openapi.yml
+- filename: cloudchipr-dashboards-api-openapi.yml
+  format: yaml
+  label: CloudChipr Dashboards API
+  slug: cloudchipr-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-dashboards-api-openapi.yml
+- filename: cloudchipr-filters-api-openapi.yml
+  format: yaml
+  label: CloudChipr Filters API
+  slug: cloudchipr-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-filters-api-openapi.yml
+- filename: cloudchipr-regions-api-openapi.yml
+  format: yaml
+  label: CloudChipr Regions API
+  slug: cloudchipr-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-regions-api-openapi.yml
+- filename: cloudchipr-resource-explorer-api-openapi.yml
+  format: yaml
+  label: CloudChipr Resource Explorer API
+  slug: cloudchipr-resource-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-resource-explorer-api-openapi.yml
+- filename: cloudchipr-resources-api-openapi.yml
+  format: yaml
+  label: CloudChipr Resources API
+  slug: cloudchipr-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-resources-api-openapi.yml
+- filename: cloudchipr-savings-opportunities-api-openapi.yml
+  format: yaml
+  label: CloudChipr Savings Opportunities API
+  slug: cloudchipr-savings-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-savings-opportunities-api-openapi.yml
+- filename: cloudchipr-widgets-api-openapi.yml
+  format: yaml
+  label: CloudChipr Widgets API
+  slug: cloudchipr-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-widgets-api-openapi.yml
 description: ''
 domains:
 - caa: []

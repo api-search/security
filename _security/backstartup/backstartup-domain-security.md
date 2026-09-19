@@ -42,5 +42,5 @@ tags:
 - Bookkeeping
 - Colombia
 - Latin America
-- Taxes
+- Tax
 ---

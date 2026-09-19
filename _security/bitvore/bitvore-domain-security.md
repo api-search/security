@@ -2,7 +2,7 @@
 api_specs:
 - filename: bitvore-alert-api-api-openapi.yml
   format: yaml
-  label: Bitvore Alert API API
+  label: Bitvore Alert API
   slug: bitvore-alert-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-alert-api-api-openapi.yml
@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-corporate-news-api-openapi.yml
 - filename: bitvore-datasets-api-api-openapi.yml
   format: yaml
-  label: Bitvore Datasets API API
+  label: Bitvore Datasets API
   slug: bitvore-datasets-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-datasets-api-api-openapi.yml
@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-entity-api-openapi.yml
 - filename: bitvore-filings-api-api-openapi.yml
   format: yaml
-  label: Bitvore Filings API API
+  label: Bitvore Filings API
   slug: bitvore-filings-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-filings-api-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-intel-api-openapi.yml
 - filename: bitvore-muni-api-api-openapi.yml
   format: yaml
-  label: Bitvore Muni API API
+  label: Bitvore Muni API
   slug: bitvore-muni-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-muni-api-api-openapi.yml
@@ -74,19 +74,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-muni-news-api-openapi.yml
 - filename: bitvore-news-api-api-openapi.yml
   format: yaml
-  label: Bitvore News API API
+  label: Bitvore News API
   slug: bitvore-news-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-news-api-api-openapi.yml
-- filename: bitvore-oauth2-api-openapi.yml
-  format: yaml
-  label: Bitvore O Auth2 API
-  slug: bitvore-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-oauth2-api-openapi.yml
 - filename: bitvore-organizations-api-api-openapi.yml
   format: yaml
-  label: Bitvore Organizations API API
+  label: Bitvore Organizations API
   slug: bitvore-organizations-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-organizations-api-api-openapi.yml
@@ -98,13 +92,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-portfolio-api-openapi.yml
 - filename: bitvore-portfolios-api-api-openapi.yml
   format: yaml
-  label: Bitvore Portfolios API API
+  label: Bitvore Portfolios API
   slug: bitvore-portfolios-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-portfolios-api-api-openapi.yml
 - filename: bitvore-sentiment-scores-api-api-openapi.yml
   format: yaml
-  label: Bitvore Sentiment Scores API API
+  label: Bitvore Sentiment Scores API
   slug: bitvore-sentiment-scores-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-sentiment-scores-api-api-openapi.yml
@@ -114,6 +108,12 @@ api_specs:
   slug: bitvore-sentiment-scores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-sentiment-scores-api-openapi.yml
+- filename: bitvore-oauth2-api-openapi.yml
+  format: yaml
+  label: Bitvore O Auth2 API
+  slug: bitvore-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

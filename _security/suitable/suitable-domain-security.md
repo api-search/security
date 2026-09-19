@@ -42,6 +42,6 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Hiring
-- HR Tech
+- Human Resources
 - Engineering Talent
 ---

@@ -444,7 +444,7 @@ tags:
 - Connected TV
 - CTV
 - OTT
-- Demand-Side Platform
+- DSP
 - Programmatic Advertising
 - Media
 - Marketing

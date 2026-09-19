@@ -56,7 +56,7 @@ tags:
 - Applicant Tracking
 - Recruitment CRM
 - Interview Scheduling
-- Jobs
-- Model Context Protocol
+- Job
+- MCP
 - Government
 ---

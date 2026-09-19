@@ -42,7 +42,7 @@ tags:
 - Air Quality
 - Consumer IoT
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 ---

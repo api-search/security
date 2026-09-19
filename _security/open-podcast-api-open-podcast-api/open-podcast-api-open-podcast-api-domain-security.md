@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Audio
 - Episodes
-- Open Standards
+- Open Standard
 - Podcasts
 - Subscription
 - Sync

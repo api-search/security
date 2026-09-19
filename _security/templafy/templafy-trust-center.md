@@ -18,12 +18,6 @@ api_specs:
   slug: templafy-datasourceitems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-datasourceitems-api-openapi.yml
-- filename: templafy-datasources-api-openapi.yml
-  format: yaml
-  label: Templafy DataSources API
-  slug: templafy-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-datasources-api-openapi.yml
 - filename: templafy-documents-api-openapi.yml
   format: yaml
   label: Templafy Documents API
@@ -60,12 +54,6 @@ api_specs:
   slug: templafy-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-links-api-openapi.yml
-- filename: templafy-pdfs-api-openapi.yml
-  format: yaml
-  label: Templafy Pdfs API
-  slug: templafy-pdfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-pdfs-api-openapi.yml
 - filename: templafy-presentations-api-openapi.yml
   format: yaml
   label: Templafy Presentations API
@@ -102,6 +90,18 @@ api_specs:
   slug: templafy-textelements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-textelements-api-openapi.yml
+- filename: templafy-pdfs-api-openapi.yml
+  format: yaml
+  label: Templafy Pdfs API
+  slug: templafy-pdfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-pdfs-api-openapi.yml
+- filename: templafy-data-sources-api-openapi.yml
+  format: yaml
+  label: Templafy Data Sources API
+  slug: templafy-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/openapi/templafy-data-sources-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

@@ -38,10 +38,19 @@
   through untouched, everything else is JSON-stringified into a single text
   content part. Tool authors keep returning plain objects.
 
-  MEASUREMENT. See /webmcp/beacon in cloudflare-worker/src/worker.js and the
-  "WebMCP adoption" section of cloudflare-worker/QUERIES.md. Positives (a capable
-  browser, a tool call) beacon at 100%; the no-capability case beacons at 1% so
-  there is an unbiased denominator without paying for a write on every pageview.
+  MEASUREMENT. /webmcp/beacon is served by apis-io-aws `lambdas/webmcp-beacon`
+  behind the CloudFront distribution; read it with the Logs Insights queries in
+  apis-io-aws/WEBMCP-QUERIES.md. Positives (a capable browser, a tool call) beacon
+  at 100%; the no-capability case beacons at 1% so there is an unbiased denominator
+  without paying for a write on every pageview.
+
+  IT USED TO BE A CLOUDFLARE WORKER, and that is why this note is emphatic. The
+  handler in cloudflare-worker/src/worker.js still exists and wrangler.toml still
+  claims `routes = ["apis.io/*"]`, but apis.io has been served by CloudFront since
+  the migration, so the Worker was never in the request path: /webmcp/beacon
+  answered the site's 404 page ~5,793x/day and every event was lost. If this
+  endpoint ever starts 404ing again, that is the failure mode to check first —
+  nothing on the page will tell you, because a beacon has no reader.
 {%- endcomment -%}
 <script>
 (function () {

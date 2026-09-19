@@ -9,12 +9,6 @@ api_specs:
   slug: roku-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-apps-api-openapi.yml
-- filename: roku-asyncapi-api-openapi.yml
-  format: yaml
-  label: Roku asyncapi API
-  slug: roku-asyncapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-asyncapi-api-openapi.yml
 - filename: roku-billing-api-openapi.yml
   format: yaml
   label: Roku Billing API
@@ -99,12 +93,6 @@ api_specs:
   slug: roku-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-query-api-openapi.yml
-- filename: roku-serviceaccounts-api-openapi.yml
-  format: yaml
-  label: Roku serviceaccounts API
-  slug: roku-serviceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-serviceaccounts-api-openapi.yml
 - filename: roku-snapshots-api-openapi.yml
   format: yaml
   label: Roku snapshots API
@@ -129,6 +117,18 @@ api_specs:
   slug: roku-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-validation-api-openapi.yml
+- filename: roku-async-api-api-openapi.yml
+  format: yaml
+  label: Roku Async API
+  slug: roku-async-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-async-api-api-openapi.yml
+- filename: roku-service-accounts-api-openapi.yml
+  format: yaml
+  label: Roku Service Accounts API
+  slug: roku-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-service-accounts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

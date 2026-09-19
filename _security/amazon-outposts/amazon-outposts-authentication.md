@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-orders-api-openapi.yml
 - filename: amazon-outposts-outposts-api-openapi.yml
   format: yaml
-  label: Amazon Outposts Outposts API
+  label: Amazon Outposts API
   slug: amazon-outposts-outposts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-outposts-api-openapi.yml

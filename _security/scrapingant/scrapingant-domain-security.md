@@ -12,6 +12,12 @@ api_specs:
   slug: scrapingant-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-usage-api-openapi.yml
+- filename: scrapingant-general-api-openapi.yml
+  format: yaml
+  label: ScrapingAnt General API
+  slug: scrapingant-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-general-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +58,7 @@ tags:
 - Proxies
 - Scraping
 - Web Scraping
-- Headless Browsers
+- Headless Browser
 - AI Agents
 - MCP
 - LLM

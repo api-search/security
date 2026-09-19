@@ -123,5 +123,5 @@ tags:
 - Blockchain
 - Zero Knowledge
 - Market Data
-- WebSockets
+- WebSocket
 ---

@@ -42,7 +42,7 @@ tags:
 - Ultrasound
 - Point-of-Care Ultrasound
 - Artificial Intelligence
-- Medical Device
+- Medical Devices
 - DICOM
 - France
 ---

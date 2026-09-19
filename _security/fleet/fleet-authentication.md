@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: fleet-fleet-api-openapi.yml
   format: yaml
-  label: Fleet Fleet API
+  label: Fleet API
   slug: fleet-fleet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/openapi/fleet-fleet-api-openapi.yml

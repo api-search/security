@@ -644,18 +644,18 @@ api_specs:
   slug: fulcrumpro-vendor-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-vendor-contact-api-openapi.yml
-- filename: fulcrumpro-work-order-api-openapi.yml
-  format: yaml
-  label: Fulcrumpro Work Order API
-  slug: fulcrumpro-work-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-work-order-api-openapi.yml
 - filename: fulcrumpro-workcenter-api-openapi.yml
   format: yaml
   label: Fulcrumpro WorkCenter API
   slug: fulcrumpro-workcenter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-workcenter-api-openapi.yml
+- filename: fulcrumpro-workorder-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Workorder API
+  slug: fulcrumpro-workorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-workorder-api-openapi.yml
 auth_types:
 - http
 description: ''

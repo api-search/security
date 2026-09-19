@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-buyers-api-openapi.yml
 - filename: kriya-onboarding-api-api-openapi.yml
   format: yaml
-  label: Kriya Onboarding API API
+  label: Kriya Onboarding API
   slug: kriya-onboarding-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/openapi/kriya-onboarding-api-api-openapi.yml

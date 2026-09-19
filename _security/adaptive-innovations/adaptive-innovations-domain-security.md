@@ -38,7 +38,7 @@ tags:
 - Company
 - Healthcare
 - Home Health
-- Health Care Services
+- Healthcare Services
 - Artificial Intelligence
 - Clinical Operations
 - Medicare

@@ -18,12 +18,6 @@ api_specs:
   slug: simplifi-simplifipay-card-program-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-program-api-openapi.yml
-- filename: simplifi-simplifipay-document-api-openapi.yml
-  format: yaml
-  label: Simplifi/Simplifipay Document API
-  slug: simplifi-simplifipay-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-document-api-openapi.yml
 - filename: simplifi-simplifipay-fee-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Fee API
@@ -74,8 +68,8 @@ layout: security
 method: probed
 name: Simplifi Simplifipay Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Simplifi/Simplifipay, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Simplifi/Simplifipay
+overview: 'Domain security posture for Simplifipay, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Simplifipay
 provider_slug: simplifi-simplifipay
 slug: simplifi-simplifipay-domain-security
 source_filename: simplifi-simplifipay-domain-security.yml

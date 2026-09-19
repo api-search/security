@@ -2,36 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: linkedin-ads-adaccounts-api-openapi.yml
-  format: yaml
-  label: LinkedIn Marketing API AdAccounts API
-  slug: linkedin-ads-adaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adaccounts-api-openapi.yml
 - filename: linkedin-ads-adbudgetpricing-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
-- filename: linkedin-ads-adtargetingentities-api-openapi.yml
-  format: yaml
-  label: LinkedIn Marketing API AdTargetingEntities API
-  slug: linkedin-ads-adtargetingentities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingentities-api-openapi.yml
 - filename: linkedin-ads-adtargetingfacets-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API AdTargetingFacets API
   slug: linkedin-ads-adtargetingfacets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
-- filename: linkedin-ads-audiencecounts-api-openapi.yml
+- filename: linkedin-ads-ad-accounts-api-openapi.yml
   format: yaml
-  label: LinkedIn Marketing API AudienceCounts API
-  slug: linkedin-ads-audiencecounts-api
+  label: LinkedIn Marketing API Ad Accounts API
+  slug: linkedin-ads-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audiencecounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-accounts-api-openapi.yml
+- filename: linkedin-ads-ad-targeting-entities-api-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API Ad Targeting Entities API
+  slug: linkedin-ads-ad-targeting-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
+- filename: linkedin-ads-audience-counts-api-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API Audience Counts API
+  slug: linkedin-ads-audience-counts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audience-counts-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

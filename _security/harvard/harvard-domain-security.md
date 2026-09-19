@@ -84,12 +84,6 @@ api_specs:
   slug: harvard-edit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-edit-api-openapi.yml
-- filename: harvard-externaltools-api-openapi.yml
-  format: yaml
-  label: Harvard University External Tools API
-  slug: harvard-externaltools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-externaltools-api-openapi.yml
 - filename: harvard-files-api-openapi.yml
   format: yaml
   label: Harvard University Files API
@@ -204,12 +198,6 @@ api_specs:
   slug: harvard-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-search-api-openapi.yml
-- filename: harvard-sendfeedback-api-openapi.yml
-  format: yaml
-  label: Harvard University Sendfeedback API
-  slug: harvard-sendfeedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-sendfeedback-api-openapi.yml
 - filename: harvard-uploaddatasetlogo-api-openapi.yml
   format: yaml
   label: Harvard University Upload Dataset Logo API
@@ -228,6 +216,18 @@ api_specs:
   slug: harvard-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-workflows-api-openapi.yml
+- filename: harvard-external-tools-api-openapi.yml
+  format: yaml
+  label: Harvard University External Tools API
+  slug: harvard-external-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-external-tools-api-openapi.yml
+- filename: harvard-send-feedback-api-openapi.yml
+  format: yaml
+  label: Harvard University Send Feedback API
+  slug: harvard-send-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-send-feedback-api-openapi.yml
 description: ''
 domains:
 - caa: []

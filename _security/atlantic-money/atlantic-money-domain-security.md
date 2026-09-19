@@ -35,7 +35,7 @@ tags:
 - Money Transfer
 - Payments
 - Foreign Exchange
-- Remittance
+- Remittances
 - Financial-Services
 - FCA Regulated
 ---

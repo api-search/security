@@ -20,12 +20,12 @@ api_specs:
   slug: florist-one-giftbaskets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-giftbaskets-api-openapi.yml
-- filename: florist-one-shoppingcart-api-openapi.yml
+- filename: florist-one-shopping-cart-api-openapi.yml
   format: yaml
-  label: Florist One ShoppingCart API
-  slug: florist-one-shoppingcart-api
+  label: Florist One Shopping Cart API
+  slug: florist-one-shopping-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-shoppingcart-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-shopping-cart-api-openapi.yml
 auth_types:
 - http
 description: ''

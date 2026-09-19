@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: software-ag-apis-api-openapi.yml
-  format: yaml
-  label: Software AG APIs API
-  slug: software-ag-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
 - filename: software-ag-applications-api-openapi.yml
   format: yaml
   label: Software AG Applications API
@@ -24,6 +18,12 @@ api_specs:
   slug: software-ag-publishing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-publishing-api-openapi.yml
+- filename: software-ag-apis-api-openapi.yml
+  format: yaml
+  label: Software AG AP Is API
+  slug: software-ag-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []

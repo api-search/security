@@ -39,6 +39,6 @@ tags:
 - Electric Vehicles
 - Farm Management
 - Telemetry
-- Internet of Things
+- IoT
 - Artificial Intelligence
 ---

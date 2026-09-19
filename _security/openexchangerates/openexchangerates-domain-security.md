@@ -12,18 +12,6 @@ api_specs:
   slug: openexchangerates-currencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-currencies-api-openapi.yml
-- filename: openexchangerates-historical-rates-api-openapi.yml
-  format: yaml
-  label: Open Exchange Rates Historical Rates API
-  slug: openexchangerates-historical-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-historical-rates-api-openapi.yml
-- filename: openexchangerates-latest-rates-api-openapi.yml
-  format: yaml
-  label: Open Exchange Rates Latest Rates API
-  slug: openexchangerates-latest-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-latest-rates-api-openapi.yml
 - filename: openexchangerates-ohlc-api-openapi.yml
   format: yaml
   label: Open Exchange Rates OHLC API
@@ -44,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-usage-api-openapi.yml
 - filename: openexchangerates-rates-api-openapi.yml
   format: yaml
-  label: Open Exchange Rates Rates API
+  label: Open Exchange Rates API
   slug: openexchangerates-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-rates-api-openapi.yml

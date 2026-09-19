@@ -144,12 +144,6 @@ api_specs:
   slug: mef-performanceprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-performanceprofile-api-openapi.yml
-- filename: mef-performancereport-api-openapi.yml
-  format: yaml
-  label: MEF Performance Report API
-  slug: mef-performancereport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-performancereport-api-openapi.yml
 - filename: mef-pricing-discovery-api-openapi.yml
   format: yaml
   label: MEF Pricing Discovery API
@@ -186,12 +180,6 @@ api_specs:
   slug: mef-productorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-productorder-api-openapi.yml
-- filename: mef-productspecification-api-openapi.yml
-  format: yaml
-  label: MEF Product Specification API
-  slug: mef-productspecification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-productspecification-api-openapi.yml
 - filename: mef-quote-api-openapi.yml
   format: yaml
   label: MEF Quote API
@@ -228,12 +216,6 @@ api_specs:
   slug: mef-service-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-service-order-api-openapi.yml
-- filename: mef-servicespecification-api-openapi.yml
-  format: yaml
-  label: MEF Service Specification API
-  slug: mef-servicespecification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-servicespecification-api-openapi.yml
 - filename: mef-servicespecificationnotification-api-openapi.yml
   format: yaml
   label: MEF Service Specification Notification API
@@ -288,12 +270,6 @@ api_specs:
   slug: mef-testprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-testprofile-api-openapi.yml
-- filename: mef-testresult-api-openapi.yml
-  format: yaml
-  label: MEF Test Result API
-  slug: mef-testresult-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-testresult-api-openapi.yml
 - filename: mef-topic-api-openapi.yml
   format: yaml
   label: MEF Topic API
@@ -306,12 +282,6 @@ api_specs:
   slug: mef-trackingrecord-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-trackingrecord-api-openapi.yml
-- filename: mef-troubleticket-api-openapi.yml
-  format: yaml
-  label: MEF Trouble Ticket API
-  slug: mef-troubleticket-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-troubleticket-api-openapi.yml
 - filename: mef-troubleticket-operations-api-openapi.yml
   format: yaml
   label: MEF troubleTicket operations API
@@ -324,6 +294,36 @@ api_specs:
   slug: mef-workorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-workorder-api-openapi.yml
+- filename: mef-performance-report-api-openapi.yml
+  format: yaml
+  label: MEF Performance Report API
+  slug: mef-performance-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-performance-report-api-openapi.yml
+- filename: mef-product-specification-api-openapi.yml
+  format: yaml
+  label: MEF Product Specification API
+  slug: mef-product-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-product-specification-api-openapi.yml
+- filename: mef-service-specification-api-openapi.yml
+  format: yaml
+  label: MEF Service Specification API
+  slug: mef-service-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-service-specification-api-openapi.yml
+- filename: mef-test-result-api-openapi.yml
+  format: yaml
+  label: MEF Test Result API
+  slug: mef-test-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-test-result-api-openapi.yml
+- filename: mef-trouble-ticket-api-openapi.yml
+  format: yaml
+  label: MEF Trouble Ticket API
+  slug: mef-trouble-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/openapi/mef-trouble-ticket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -371,4 +371,5 @@ tags:
 - Service Orchestration
 - Interconnection
 - Certification
+- MEF
 ---

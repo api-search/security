@@ -114,7 +114,7 @@ tags:
 - Home Energy Management
 - Solar
 - Batteries
-- Internet of Things
+- IoT
 - Smart Home
 - Electric Vehicles
 - Cleantech

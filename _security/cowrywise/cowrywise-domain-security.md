@@ -42,7 +42,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Fintech
 - Wealth Management
-- Investments
+- Investment
 - Savings
 - Mutual Funds
 - Nigeria

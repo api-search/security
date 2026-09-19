@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fintech
 - Savings
-- Investments
+- Investment
 - Digital Wallet
 - Micro Savings
 - Goal Based Savings

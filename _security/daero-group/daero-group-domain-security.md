@@ -39,5 +39,5 @@ tags:
 - Mobile
 - Voice
 - Project Management
-- Trades
+- Trade
 ---

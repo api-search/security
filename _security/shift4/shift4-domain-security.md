@@ -78,12 +78,6 @@ api_specs:
   slug: shift4-payment-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-payment-links-api-openapi.yml
-- filename: shift4-paypal-api-openapi.yml
-  format: yaml
-  label: Shift4 Pay Pal API
-  slug: shift4-paypal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-paypal-api-openapi.yml
 - filename: shift4-qr-payments-api-openapi.yml
   format: yaml
   label: Shift4 QR Payments API
@@ -126,6 +120,12 @@ api_specs:
   slug: shift4-updater-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-updater-api-openapi.yml
+- filename: shift4-pay-pal-api-openapi.yml
+  format: yaml
+  label: Shift4 Pay Pal API
+  slug: shift4-pay-pal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-pay-pal-api-openapi.yml
 description: ''
 domains:
 - caa: []

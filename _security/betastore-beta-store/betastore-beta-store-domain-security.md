@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Betastore Beta Store Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for BetaStore, Beta Store, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: BetaStore, Beta Store
+overview: 'Domain security posture for BetaStore, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: BetaStore
 provider_slug: betastore-beta-store
 slug: betastore-beta-store-domain-security
 source_filename: betastore-beta-store-domain-security.yml

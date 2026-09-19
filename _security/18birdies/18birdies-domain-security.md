@@ -51,5 +51,5 @@ tags:
 - Social
 - Analytics
 - Tournaments
-- Subscriptions
+- Subscription
 ---

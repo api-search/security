@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: sentera-graphql-api-openapi.yml
+- filename: sentera-graph-ql-api-openapi.yml
   format: yaml
-  label: Sentera GraphQL API
-  slug: sentera-graphql-api
+  label: Sentera Graph QL API
+  slug: sentera-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

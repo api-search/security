@@ -38,5 +38,5 @@ tags:
 - Retail
 - Food Delivery
 - Sweden
-- Nordics
+- Nordic
 ---

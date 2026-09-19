@@ -36,7 +36,7 @@ tags:
 - Entertainment
 - Mobile App
 - Consumer
-- UAE
+- United Arab Emirates
 - Middle East
 - Discovery
 ---

@@ -44,12 +44,6 @@ api_specs:
   slug: automile-clienttextmessage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-clienttextmessage-api-openapi.yml
-- filename: automile-clientusers-api-openapi.yml
-  format: yaml
-  label: Automile ClientUsers API
-  slug: automile-clientusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-clientusers-api-openapi.yml
 - filename: automile-echo-api-openapi.yml
   format: yaml
   label: Automile Echo API
@@ -68,12 +62,6 @@ api_specs:
   slug: automile-login-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-login-api-openapi.yml
-- filename: automile-oauth-api-openapi.yml
-  format: yaml
-  label: Automile OAuth API
-  slug: automile-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-oauth-api-openapi.yml
 - filename: automile-order-api-openapi.yml
   format: yaml
   label: Automile Order API
@@ -470,6 +458,18 @@ api_specs:
   slug: automile-resourceownerworkorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-resourceownerworkorder-api-openapi.yml
+- filename: automile-oauth-api-openapi.yml
+  format: yaml
+  label: Automile O Auth API
+  slug: automile-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-oauth-api-openapi.yml
+- filename: automile-client-users-api-openapi.yml
+  format: yaml
+  label: Automile Client Users API
+  slug: automile-client-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/openapi/automile-client-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

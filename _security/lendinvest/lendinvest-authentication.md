@@ -82,7 +82,7 @@ tags:
 - Company
 - Fintech
 - Lending
-- Mortgages
+- Mortgage
 - Property Finance
 - Real-Estate
 - Financial-Services

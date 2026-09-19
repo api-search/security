@@ -30,12 +30,54 @@ api_specs:
   slug: bonneville-power-administration-transmission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-transmission-api-openapi.yml
-- filename: bonneville-power-administration-data-search-api-openapi.yml
+- filename: bonneville-power-administration-catalog-api-openapi.yml
   format: yaml
-  label: Bonneville Power Administration Data Search API
-  slug: bonneville-power-administration-data-search-api
+  label: Bonneville Power Administration Catalog API
+  slug: bonneville-power-administration-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-data-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-catalog-api-openapi.yml
+- filename: bonneville-power-administration-collection-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Collection API
+  slug: bonneville-power-administration-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-collection-api-openapi.yml
+- filename: bonneville-power-administration-geoservice-beta-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Geoservice Beta API
+  slug: bonneville-power-administration-geoservice-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-geoservice-beta-api-openapi.yml
+- filename: bonneville-power-administration-ogcitem-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Ogc Item API
+  slug: bonneville-power-administration-ogcitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcitem-api-openapi.yml
+- filename: bonneville-power-administration-ogcitemaggregation-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Ogc Item Aggregation API
+  slug: bonneville-power-administration-ogcitemaggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcitemaggregation-api-openapi.yml
+- filename: bonneville-power-administration-ogcroot-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Ogc Root API
+  slug: bonneville-power-administration-ogcroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcroot-api-openapi.yml
+- filename: bonneville-power-administration-ogcrootconformance-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Ogc Root Conformance API
+  slug: bonneville-power-administration-ogcrootconformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcrootconformance-api-openapi.yml
+- filename: bonneville-power-administration-queryable-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Queryable API
+  slug: bonneville-power-administration-queryable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-queryable-api-openapi.yml
 description: ''
 domains:
 - caa:

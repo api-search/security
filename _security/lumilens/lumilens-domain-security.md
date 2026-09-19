@@ -33,10 +33,10 @@ tags:
 - Company
 - Photonics
 - Optical Networking
-- Interconnects
+- Interconnect
 - Semiconductors
 - Silicon Photonics
-- Data Centers
+- Data-Center
 - Artificial Intelligence
 - Hardware
 ---

@@ -68,6 +68,6 @@ tags:
 - Insurance
 - Payroll
 - Embedded Benefits
-- HR
+- Human Resources
 trust_url: https://trust.thatch.com/
 ---

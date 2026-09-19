@@ -15,12 +15,6 @@ api_specs:
   slug: layup-technologies-absaeftservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-absaeftservice-api-openapi.yml
-- filename: layup-technologies-authservice-api-openapi.yml
-  format: yaml
-  label: LayUp Technologies authService API
-  slug: layup-technologies-authservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-authservice-api-openapi.yml
 - filename: layup-technologies-bankservice-api-openapi.yml
   format: yaml
   label: LayUp Technologies BankService API
@@ -123,12 +117,6 @@ api_specs:
   slug: layup-technologies-paymentprovidersettlementservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-paymentprovidersettlementservice-api-openapi.yml
-- filename: layup-technologies-paymentservice-api-openapi.yml
-  format: yaml
-  label: LayUp Technologies PaymentService API
-  slug: layup-technologies-paymentservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-paymentservice-api-openapi.yml
 - filename: layup-technologies-paymentservicev2-api-openapi.yml
   format: yaml
   label: LayUp Technologies PaymentServiceV2 API
@@ -177,6 +165,18 @@ api_specs:
   slug: layup-technologies-verifyservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-verifyservice-api-openapi.yml
+- filename: layup-technologies-auth-service-api-openapi.yml
+  format: yaml
+  label: LayUp Technologies Auth Service API
+  slug: layup-technologies-auth-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-auth-service-api-openapi.yml
+- filename: layup-technologies-payment-service-api-openapi.yml
+  format: yaml
+  label: LayUp Technologies Payment Service API
+  slug: layup-technologies-payment-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/openapi/layup-technologies-payment-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -209,7 +209,7 @@ tags:
 - Payments
 - Lay-By
 - Save Now Buy Later
-- BNPL
+- Buy Now Pay Later
 - Instalments
 - Fintech
 - South Africa

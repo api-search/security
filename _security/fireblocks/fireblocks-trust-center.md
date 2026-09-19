@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fiat-accounts-api-openapi.yml
 - filename: fireblocks-fireblocks-network-api-openapi.yml
   format: yaml
-  label: fireblocks Fireblocks Network API
+  label: fireblocks Network API
   slug: fireblocks-fireblocks-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fireblocks-network-api-openapi.yml
@@ -231,6 +231,12 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.fireblocks.com/\nurl: https://trust.fireblocks.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\nevidence:\n- source: https://trust.fireblocks.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/security/fireblocks-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
-tags: []
+tags:
+- Digital Assets
+- Custody
+- Vault
+- Transaction
+- Tokenization
+- Stablecoins
 trust_url: https://trust.fireblocks.com/
 ---

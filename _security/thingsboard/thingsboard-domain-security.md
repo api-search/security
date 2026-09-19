@@ -386,7 +386,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingsboard/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT
-- Internet of Things
 - Device Management
 - Telemetry
 - Open-Source

@@ -34,7 +34,7 @@ tags:
 - Energy
 - Renewable Energy
 - Microinverter
-- Photovoltaic
+- Photovoltaics
 - Hardware
 - Power Electronics
 ---

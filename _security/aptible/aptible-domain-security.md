@@ -12,12 +12,6 @@ api_specs:
   slug: aptible-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-actions-api-openapi.yml
-- filename: aptible-activityreports-api-openapi.yml
-  format: yaml
-  label: Aptible Activity Reports API
-  slug: aptible-activityreports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-activityreports-api-openapi.yml
 - filename: aptible-apps-api-openapi.yml
   format: yaml
   label: Aptible Apps API
@@ -78,12 +72,6 @@ api_specs:
   slug: aptible-containers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-containers-api-openapi.yml
-- filename: aptible-databasecredentials-api-openapi.yml
-  format: yaml
-  label: Aptible Database Credentials API
-  slug: aptible-databasecredentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-databasecredentials-api-openapi.yml
 - filename: aptible-databases-api-openapi.yml
   format: yaml
   label: Aptible Databases API
@@ -288,18 +276,30 @@ api_specs:
   slug: aptible-vpcpeers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-vpcpeers-api-openapi.yml
-- filename: aptible-vpntunnels-api-openapi.yml
-  format: yaml
-  label: Aptible Vpn Tunnels API
-  slug: aptible-vpntunnels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-vpntunnels-api-openapi.yml
 - filename: aptible-worker-api-openapi.yml
   format: yaml
   label: Aptible Worker API
   slug: aptible-worker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-worker-api-openapi.yml
+- filename: aptible-activity-reports-api-openapi.yml
+  format: yaml
+  label: Aptible Activity Reports API
+  slug: aptible-activity-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-activity-reports-api-openapi.yml
+- filename: aptible-database-credentials-api-openapi.yml
+  format: yaml
+  label: Aptible Database Credentials API
+  slug: aptible-database-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-database-credentials-api-openapi.yml
+- filename: aptible-vpn-tunnels-api-openapi.yml
+  format: yaml
+  label: Aptible Vpn Tunnels API
+  slug: aptible-vpn-tunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-vpn-tunnels-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -348,7 +348,7 @@ tags:
 - Platform-as-a-Service
 - Cloud Infrastructure
 - Deployment
-- Managed Databases
+- Managed Database
 - Security
 - Compliance
 - HIPAA

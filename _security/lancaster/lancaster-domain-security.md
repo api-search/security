@@ -6,12 +6,12 @@ api_specs:
   slug: lancaster-oai2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
-- filename: lancaster-identityfederation-api-openapi.yml
+- filename: lancaster-idp-api-openapi.yml
   format: yaml
-  label: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
-  slug: identity-federation
+  label: Lancaster University Idp API
+  slug: lancaster-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-identityfederation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-idp-api-openapi.yml
 description: ''
 domains:
 - caa: []

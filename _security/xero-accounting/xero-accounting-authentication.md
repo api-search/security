@@ -8,18 +8,6 @@ api_specs:
   slug: xero-accounting-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-accounts-api-openapi.yml
-- filename: xero-accounting-banktransactions-api-openapi.yml
-  format: yaml
-  label: Xero Accounting BankTransactions API
-  slug: xero-accounting-banktransactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-banktransactions-api-openapi.yml
-- filename: xero-accounting-banktransfers-api-openapi.yml
-  format: yaml
-  label: Xero Accounting BankTransfers API
-  slug: xero-accounting-banktransfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-banktransfers-api-openapi.yml
 - filename: xero-accounting-batchpayments-api-openapi.yml
   format: yaml
   label: Xero Accounting BatchPayments API
@@ -38,6 +26,18 @@ api_specs:
   slug: xero-accounting-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-invoices-api-openapi.yml
+- filename: xero-accounting-bank-transactions-api-openapi.yml
+  format: yaml
+  label: Xero Accounting Bank Transactions API
+  slug: xero-accounting-bank-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-bank-transactions-api-openapi.yml
+- filename: xero-accounting-bank-transfers-api-openapi.yml
+  format: yaml
+  label: Xero Accounting Bank Transfers API
+  slug: xero-accounting-bank-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/openapi/xero-accounting-bank-transfers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

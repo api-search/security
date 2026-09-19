@@ -260,7 +260,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/openapi/magnite-keys-api-openapi.yml
 - filename: magnite-magnite-programmatic-api-openapi.yml
   format: yaml
-  label: Magnite Magnite Programmatic API
+  label: Magnite Programmatic API
   slug: magnite-magnite-programmatic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/openapi/magnite-magnite-programmatic-api-openapi.yml
@@ -488,7 +488,7 @@ tags:
 - Advertising
 - Programmatic Advertising
 - Sell-Side Platform
-- SSP
+- Supply Side Platform
 - Connected TV
 - CTV
 - OTT

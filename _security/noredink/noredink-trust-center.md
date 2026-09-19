@@ -27,7 +27,7 @@ tags:
 - K-12
 - Authentication
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Rostering
 - Identity
 trust_url: https://trust.noredink.com

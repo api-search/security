@@ -131,7 +131,7 @@ tags:
 - AI Agents
 - Agent Memory
 - Context
-- LLMs
+- LLM
 - Retrieval
 - Vectors
 - LangChain

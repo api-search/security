@@ -35,6 +35,6 @@ tags:
 - Marketing
 - Data
 - Attribution
-- Audience
+- Audiences
 - Identity Resolution
 ---

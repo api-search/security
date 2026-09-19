@@ -88,10 +88,10 @@ tags:
 - Artificial Intelligence
 - Agents
 - Market Data
-- Equities
+- Stocks
 - Economic Data
 - SEC Filings
-- Retrieval Augmented Generation
+- RAG
 - MCP
 trust_url: https://linqalpha.com/security
 ---

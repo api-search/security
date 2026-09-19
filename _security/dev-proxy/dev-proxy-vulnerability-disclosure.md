@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-jwt-api-openapi.yml
 - filename: dev-proxy-proxy-api-openapi.yml
   format: yaml
-  label: Dev Proxy Proxy API
+  label: Dev Proxy API
   slug: dev-proxy-proxy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-proxy-api-openapi.yml

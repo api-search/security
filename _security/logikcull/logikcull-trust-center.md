@@ -31,7 +31,7 @@ tags:
 - eDiscovery
 - Legal
 - Document-Management
-- Legal Holds
+- Legal Hold
 - Redaction
 - Production Sets
 - Cloud

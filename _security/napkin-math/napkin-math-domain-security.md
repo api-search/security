@@ -37,7 +37,7 @@ tags:
 - Health
 - Diet
 - Artificial Intelligence
-- Consumer Application
-- Mobile Application
+- Consumer Applications
+- Mobile Applications
 - iOS
 ---

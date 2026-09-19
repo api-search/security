@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-validation-api-openapi.yml
 - filename: enrich-so-enrich-api-openapi.yml
   format: yaml
-  label: Enrich Enrich API
+  label: Enrich API
   slug: enrich-so-enrich-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-enrich-api-openapi.yml

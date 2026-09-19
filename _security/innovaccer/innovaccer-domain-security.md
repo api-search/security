@@ -39,6 +39,6 @@ tags:
 - Population Health
 - Artificial Intelligence
 - Data Platform
-- Design System
+- Design Systems
 - MCP
 ---

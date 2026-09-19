@@ -35,8 +35,8 @@ tags:
 - Surgical Video
 - Veterinary
 - Education
-- Video On Demand
+- Video-on-Demand
 - Virtual Reality
-- Health Care
+- Healthcare
 - South Korea
 ---

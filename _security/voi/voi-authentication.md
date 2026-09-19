@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Micromobility
-- E-Scooters
+- E-Scooter
 - E-Bikes
 - Mobility As A Service
 - Transportation

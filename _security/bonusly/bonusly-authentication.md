@@ -70,7 +70,7 @@ tags:
 - Employee Recognition
 - Rewards
 - Employee Engagement
-- HR
+- Human Resources
 - Company Culture
 - Bonuses
 ---

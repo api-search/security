@@ -74,4 +74,5 @@ tags:
 - JSON-RPC
 - Rollup
 - Bridge
+- Optimism
 ---

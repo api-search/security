@@ -119,7 +119,7 @@ tags:
 - Crypto Payments
 - Digital Assets
 - Wallets
-- Exchanges
+- Exchange
 - Embedded Finance
 - Stablecoins
 - Payments

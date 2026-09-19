@@ -67,6 +67,14 @@ header:
         items:
           - { key: regions, label: Regions, url: 'https://apis.io/regions/' }
           - { key: countries, label: Countries, url: 'https://apis.io/countries/' }
+      # Regulations sit under Catalog rather than Artifacts on purpose. A standard is an
+      # artifact a provider can publish; a law is context that reaches a cohort whether the
+      # provider acknowledges it or not. The section's value is the join — every regulation
+      # links to the countries, regions and industries it binds, and each of those pages
+      # links back. See scripts/build_regulations.py.
+      - header: Governance
+        items:
+          - { key: regulations, label: Regulations, url: 'https://apis.io/regulations/' }
       - header: Market
         items:
           - { key: vcs, label: Venture Capital, url: 'https://apis.io/vcs/' }
@@ -96,6 +104,7 @@ header:
           - { key: events, label: Event Channels, url: 'https://apis.io/channels/' }
       - header: Agents & Governance
         items:
+          - { key: agents, label: Agent Registry, url: 'https://apis.io/agents/' }
           - { key: mcp, label: MCP Servers, url: 'https://apis.io/servers/' }
           - { key: a2a, label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
           - { key: ard, label: Agent Discovery, url: 'https://apis.io/ard/' }
@@ -151,11 +160,13 @@ footer:
       items:
         - { label: Providers, url: 'https://apis.io/providers/' }
         - { label: APIs, url: 'https://apis.io/apis/' }
+        - { label: Agents, url: 'https://apis.io/agents/' }
         - { label: Tags, url: 'https://apis.io/tags/' }
         - { label: Industries, url: 'https://apis.io/industries/' }
         - { label: Areas, url: 'https://apis.io/areas/' }
         - { label: Regions, url: 'https://apis.io/regions/' }
         - { label: Countries, url: 'https://apis.io/countries/' }
+        - { label: Regulations, url: 'https://apis.io/regulations/' }
         - { label: Venture Capital, url: 'https://apis.io/vcs/' }
         - { label: Secondary Market, url: 'https://apis.io/secondary-market/' }
         - { label: API Estates, url: 'https://apis.io/estates/' }
@@ -163,7 +174,6 @@ footer:
 
     - header: Artifacts
       items:
-        - { label: Business Capabilities, url: 'https://apis.io/capabilities/' }
         - { label: OpenAPI Extensions, url: 'https://apis.io/extensions/' }
         - { label: HTTP Headers, url: 'https://apis.io/headers/' }
         - { label: Schemas, url: 'https://apis.io/schemas/' }

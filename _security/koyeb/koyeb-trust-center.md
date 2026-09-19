@@ -126,30 +126,6 @@ api_specs:
   slug: koyeb-organizationconfirmations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organizationconfirmations-api-openapi.yml
-- filename: koyeb-organizationinvitations-api-openapi.yml
-  format: yaml
-  label: Koyeb OrganizationInvitations API
-  slug: koyeb-organizationinvitations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organizationinvitations-api-openapi.yml
-- filename: koyeb-organizationmembers-api-openapi.yml
-  format: yaml
-  label: Koyeb OrganizationMembers API
-  slug: koyeb-organizationmembers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organizationmembers-api-openapi.yml
-- filename: koyeb-organizationquotas-api-openapi.yml
-  format: yaml
-  label: Koyeb OrganizationQuotas API
-  slug: koyeb-organizationquotas-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organizationquotas-api-openapi.yml
-- filename: koyeb-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Koyeb PaymentMethods API
-  slug: koyeb-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-paymentmethods-api-openapi.yml
 - filename: koyeb-persistentvolumes-api-openapi.yml
   format: yaml
   label: Koyeb PersistentVolumes API
@@ -264,6 +240,30 @@ api_specs:
   slug: koyeb-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-test-api-openapi.yml
+- filename: koyeb-organization-invitations-api-openapi.yml
+  format: yaml
+  label: Koyeb Organization Invitations API
+  slug: koyeb-organization-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organization-invitations-api-openapi.yml
+- filename: koyeb-organization-members-api-openapi.yml
+  format: yaml
+  label: Koyeb Organization Members API
+  slug: koyeb-organization-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organization-members-api-openapi.yml
+- filename: koyeb-organization-quotas-api-openapi.yml
+  format: yaml
+  label: Koyeb Organization Quotas API
+  slug: koyeb-organization-quotas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organization-quotas-api-openapi.yml
+- filename: koyeb-payment-methods-api-openapi.yml
+  format: yaml
+  label: Koyeb Payment Methods API
+  slug: koyeb-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-payment-methods-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -298,7 +298,7 @@ tags:
 - Compute
 - Hosting
 - Postgres
-- Sandboxes
+- Sandbox
 - Edge Network
 - Infrastructure as Code
 trust_url: https://trust.koyeb.com/

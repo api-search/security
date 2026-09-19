@@ -35,7 +35,7 @@ tags:
 - Movies
 - Entertainment
 - CMS
-- Mobile Apps
+- Mobile App
 - Ticketing
 - Analytics
 - Loyalty

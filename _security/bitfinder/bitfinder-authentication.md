@@ -64,7 +64,6 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Air Quality
-- Internet of Things
 - IoT
 - Environmental Monitoring
 - Smart Home

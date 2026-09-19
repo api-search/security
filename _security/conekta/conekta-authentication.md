@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: conekta-antifraud-api-openapi.yml
-  format: yaml
-  label: Conekta Antifraud API
-  slug: conekta-antifraud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-antifraud-api-openapi.yml
 - filename: conekta-api-keys-api-openapi.yml
   format: yaml
   label: Conekta Api Keys API
@@ -152,6 +146,12 @@ api_specs:
   slug: conekta-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-webhooks-api-openapi.yml
+- filename: conekta-anti-fraud-api-openapi.yml
+  format: yaml
+  label: Conekta anti Fraud API
+  slug: conekta-anti-fraud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-anti-fraud-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -188,11 +188,10 @@ tags:
 - SPEI
 - Mexico
 - Latin America
-- LatAm
 - Fintech
 - Subscription
 - Anti-Fraud
 - Checkout
-- BNPL
+- Buy Now Pay Later
 - 3D Secure
 ---

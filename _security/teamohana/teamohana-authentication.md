@@ -57,11 +57,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Headcount Management
 - Headcount Planning
 - Workforce Planning
-- Human Resources
 - Talent Acquisition
 - Finance
 - SCIM

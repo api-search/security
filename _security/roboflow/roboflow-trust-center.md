@@ -104,7 +104,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/openapi/roboflow-readiness-api-openapi.yml
 - filename: roboflow-roboflow-inference-server-api-openapi.yml
   format: yaml
-  label: Roboflow Roboflow Inference Server API
+  label: Roboflow Inference Server API
   slug: roboflow-roboflow-inference-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/openapi/roboflow-roboflow-inference-server-api-openapi.yml

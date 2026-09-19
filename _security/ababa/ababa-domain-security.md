@@ -54,5 +54,5 @@ tags:
 - Job Search
 - Artificial Intelligence
 - Japan
-- SaaS
+- Software-as-a-Service
 ---

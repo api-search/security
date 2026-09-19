@@ -45,7 +45,6 @@ tags:
 - Connectivity
 - Broadband
 - IoT
-- Internet of Things
 - Open Gateway
 - CAMARA
 - Network APIs

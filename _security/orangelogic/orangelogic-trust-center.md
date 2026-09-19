@@ -20,11 +20,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orangelogic/re
 summary_line: HIPAA, GDPR
 tags:
 - Digital Asset Management
-- DAM
 - Media Asset Management
 - MAM
 - Enterprise
 - Metadata
-- Archive
+- Archives
 trust_url: https://www.orangelogic.com/security
 ---

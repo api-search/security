@@ -8,12 +8,6 @@ api_specs:
   slug: corelogic-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-contacts-api-openapi.yml
-- filename: corelogic-customproperty-api-openapi.yml
-  format: yaml
-  label: CoreLogic (Cotality) CustomProperty API
-  slug: corelogic-customproperty-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-customproperty-api-openapi.yml
 - filename: corelogic-dashboardapi-api-openapi.yml
   format: yaml
   label: CoreLogic (Cotality) DashboardAPI API
@@ -110,18 +104,6 @@ api_specs:
   slug: corelogic-propertyunittypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-propertyunittypes-api-openapi.yml
-- filename: corelogic-savedsearches-api-openapi.yml
-  format: yaml
-  label: CoreLogic (Cotality) SavedSearches API
-  slug: corelogic-savedsearches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-savedsearches-api-openapi.yml
-- filename: corelogic-teammembers-api-openapi.yml
-  format: yaml
-  label: CoreLogic (Cotality) TeamMembers API
-  slug: corelogic-teammembers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-teammembers-api-openapi.yml
 - filename: corelogic-teams-api-openapi.yml
   format: yaml
   label: CoreLogic (Cotality) Teams API
@@ -134,6 +116,24 @@ api_specs:
   slug: corelogic-userregistry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-userregistry-api-openapi.yml
+- filename: corelogic-custom-property-api-openapi.yml
+  format: yaml
+  label: CoreLogic (Cotality) Custom Property API
+  slug: corelogic-custom-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-custom-property-api-openapi.yml
+- filename: corelogic-saved-searches-api-openapi.yml
+  format: yaml
+  label: CoreLogic (Cotality) Saved Searches API
+  slug: corelogic-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-saved-searches-api-openapi.yml
+- filename: corelogic-team-members-api-openapi.yml
+  format: yaml
+  label: CoreLogic (Cotality) Team Members API
+  slug: corelogic-team-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-team-members-api-openapi.yml
 auth_types:
 - http
 - oauth2

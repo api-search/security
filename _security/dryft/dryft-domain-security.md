@@ -36,6 +36,6 @@ tags:
 - Supply Chain
 - Procurement
 - Automation
-- Enterprise Resource Planning
+- ERP
 - AI Agents
 ---

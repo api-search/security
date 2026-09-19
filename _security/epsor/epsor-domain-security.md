@@ -37,7 +37,7 @@ tags:
 - Employee Savings
 - Retirement
 - Épargne Salariale
-- HR
+- Human Resources
 - Compensation and Benefits
 - ESG
 - France

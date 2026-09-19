@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: voltair-apikeys-api-openapi.yml
-  format: yaml
-  label: Voltair ApiKeys API
-  slug: voltair-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-apikeys-api-openapi.yml
 - filename: voltair-assets-api-openapi.yml
   format: yaml
   label: Voltair Assets API
@@ -96,6 +90,12 @@ api_specs:
   slug: voltair-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-webhooks-api-openapi.yml
+- filename: voltair-api-keys-api-openapi.yml
+  format: yaml
+  label: Voltair API Keys API
+  slug: voltair-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voltair/refs/heads/main/openapi/voltair-api-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []

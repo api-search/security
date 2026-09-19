@@ -34,5 +34,5 @@ tags:
 - Equipment
 - Food Service
 - Work Orders
-- Service
+- Services
 ---

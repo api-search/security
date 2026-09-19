@@ -36,12 +36,6 @@ api_specs:
   slug: orbii-tech-ltd-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-general-api-openapi.yml
-- filename: orbii-tech-ltd-ibans-api-openapi.yml
-  format: yaml
-  label: Orbii Tech Ltd IBANs API
-  slug: orbii-tech-ltd-ibans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-ibans-api-openapi.yml
 - filename: orbii-tech-ltd-invoices-api-openapi.yml
   format: yaml
   label: Orbii Tech Ltd Invoices API
@@ -78,12 +72,6 @@ api_specs:
   slug: orbii-tech-ltd-orbii-api-rewaa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-orbii-api-rewaa-api-openapi.yml
-- filename: orbii-tech-ltd-pdfs-api-openapi.yml
-  format: yaml
-  label: Orbii Tech Ltd PDFs API
-  slug: orbii-tech-ltd-pdfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-pdfs-api-openapi.yml
 - filename: orbii-tech-ltd-raw-numbers-api-openapi.yml
   format: yaml
   label: Orbii Tech Ltd Raw Numbers API
@@ -186,6 +174,18 @@ api_specs:
   slug: orbii-tech-ltd-zipped-csv-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-zipped-csv-upload-api-openapi.yml
+- filename: orbii-tech-ltd-ibans-api-openapi.yml
+  format: yaml
+  label: Orbii Tech Ltd IBA Ns API
+  slug: orbii-tech-ltd-ibans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-ibans-api-openapi.yml
+- filename: orbii-tech-ltd-pdfs-api-openapi.yml
+  format: yaml
+  label: Orbii Tech Ltd PD Fs API
+  slug: orbii-tech-ltd-pdfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/openapi/orbii-tech-ltd-pdfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

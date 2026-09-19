@@ -35,6 +35,6 @@ tags:
 - E-Commerce
 - Artificial Intelligence
 - MCP
-- Korea
+- South Korea
 - Discovery
 ---

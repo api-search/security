@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: dips-federation-service-openapi.yml
+- filename: dips-account-api-openapi.yml
   format: yaml
-  label: DIPS Federation Service
-  slug: dips-federation-service
+  label: DIPS Account API
+  slug: dips-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-federation-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-account-api-openapi.yml
+- filename: dips-connect-api-openapi.yml
+  format: yaml
+  label: DIPS Connect API
+  slug: dips-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-connect-api-openapi.yml
+- filename: dips-consent-api-openapi.yml
+  format: yaml
+  label: DIPS Consent API
+  slug: dips-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-consent-api-openapi.yml
+- filename: dips-default-api-openapi.yml
+  format: yaml
+  label: DIPS * API
+  slug: dips-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-default-api-openapi.yml
+- filename: dips-home-api-openapi.yml
+  format: yaml
+  label: DIPS Home API
+  slug: dips-home-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-home-api-openapi.yml
+- filename: dips-login-api-openapi.yml
+  format: yaml
+  label: DIPS Login API
+  slug: dips-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-login-api-openapi.yml
+- filename: dips-status-api-openapi.yml
+  format: yaml
+  label: DIPS Status API
+  slug: dips-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-status-api-openapi.yml
+- filename: dips-well-known-api-openapi.yml
+  format: yaml
+  label: DIPS .well Known API
+  slug: dips-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-well-known-api-openapi.yml
+- filename: dips-user-role-api-openapi.yml
+  format: yaml
+  label: DIPS User Role API
+  slug: dips-user-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-user-role-api-openapi.yml
 description: ''
 domains:
 - caa:

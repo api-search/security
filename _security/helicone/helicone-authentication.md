@@ -231,7 +231,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/helicone
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/authentication/helicone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI Gateways
+- AI Gateway
 - AI Monitoring
 - Gateways
 - LLM Observability

@@ -10,6 +10,12 @@ api_specs:
   slug: dashbot-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/openapi/dashbot-export-api-openapi.yml
+- filename: dashbot-index-api-openapi.yml
+  format: yaml
+  label: Dashbot Index API
+  slug: dashbot-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/openapi/dashbot-index-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -57,7 +63,7 @@ tags:
 - Ai Ml
 - Conversational Analytics
 - Chatbots
-- Voice Assistants
+- Voice Assistant
 - Customer Experience
 - Data Enrichment
 - Analytics

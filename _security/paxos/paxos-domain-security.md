@@ -146,7 +146,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/openapi/paxos-orders-api-openapi.yml
 - filename: paxos-paxos-transfers-api-openapi.yml
   format: yaml
-  label: Paxos Paxos Transfers API
+  label: Paxos Transfers API
   slug: paxos-paxos-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/openapi/paxos-paxos-transfers-api-openapi.yml

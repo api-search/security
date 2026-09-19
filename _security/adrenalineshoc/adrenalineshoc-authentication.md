@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc
 summary_line: none/oauth2/openIdConnect/apiKey · 6 schemes
 tags:
 - Company
-- Beverage
+- Beverages
 - Energy Drinks
 - Consumer Packaged Goods
 - Retail

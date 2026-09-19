@@ -133,4 +133,5 @@ tags:
 - Streaming
 - Podcasts
 - Playlists
+- Spotify
 ---

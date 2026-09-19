@@ -90,8 +90,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/security/beds24-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Vacation Rental
-- Hotel
+- Vacation Rentals
+- Hotels
 - Channel Manager
 - Property Management System
 - Booking Engine

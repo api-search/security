@@ -37,6 +37,6 @@ tags:
 - Investment Management
 - Blockchain
 - Venture Capital
-- Hedge Fund
+- Hedge Funds
 - Acquired
 ---

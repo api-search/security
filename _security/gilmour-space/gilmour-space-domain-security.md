@@ -36,7 +36,7 @@ tags:
 - Aerospace
 - Rocket Launch
 - Space Launch Vehicles
-- Satellites
+- Satellite
 - Manufacturing
 - Deep Tech
 - Australia

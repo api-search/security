@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Conversational AI
-- Virtual Agent
+- Virtual Agents
 - ITSM
 - Employee Experience
 - Enterprise AI

@@ -31,11 +31,11 @@ tags:
 - LIMS
 - Electronic Lab Notebook
 - R&D Data Management
-- Product Lifecycle Management
+- PLM
 - Quality Management
 - Materials Science
 - Chemicals
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 trust_url: ''
 ---

@@ -195,14 +195,14 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Boot
 - Cgroups
-- Container
+- Containers
 - D-Bus
 - Init
 - IPC
-- Journal
+- Journals
 - Linux
 - Logging
-- Network
+- Networks
 - Open-Source
 - PID 1
 - Service Manager

@@ -48,12 +48,12 @@ api_specs:
   slug: ionetix-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-discovery-api-openapi.yml
-- filename: ionetix-oembed-api-openapi.yml
+- filename: ionetix-o-embed-api-openapi.yml
   format: yaml
-  label: Ionetix oEmbed API
-  slug: ionetix-oembed-api
+  label: Ionetix o Embed API
+  slug: ionetix-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

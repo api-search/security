@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: hkust-path-advisor-openapi.yml
+- filename: hkust-buildings-api-openapi.yml
   format: yaml
-  label: HKUST Path Advisor API
-  slug: path-advisor
+  label: Hong Kong University of Science and Technology Buildings API
+  slug: hkust-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-path-advisor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-buildings-api-openapi.yml
+- filename: hkust-floors-api-openapi.yml
+  format: yaml
+  label: Hong Kong University of Science and Technology Floors API
+  slug: hkust-floors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-floors-api-openapi.yml
+- filename: hkust-nodes-api-openapi.yml
+  format: yaml
+  label: Hong Kong University of Science and Technology Nodes API
+  slug: hkust-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-nodes-api-openapi.yml
+- filename: hkust-tags-api-openapi.yml
+  format: yaml
+  label: Hong Kong University of Science and Technology Tags API
+  slug: hkust-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []

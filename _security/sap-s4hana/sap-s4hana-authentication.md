@@ -80,7 +80,6 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Business Applications
 - Cloud
-- Enterprise Resource Planning
 - ERP
 - Finance
 - Human Resources

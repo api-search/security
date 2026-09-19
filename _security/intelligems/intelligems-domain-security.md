@@ -1,29 +1,59 @@
 ---
 api_specs:
-- filename: intelligems-analytics-api-openapi.yml
+- filename: intelligems-create-custom-event-api-openapi.yml
   format: yaml
-  label: Intelligems Analytics API
-  slug: intelligems-analytics-api
+  label: Intelligems Create Custom Event API
+  slug: intelligems-create-custom-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-analytics-api-openapi.yml
-- filename: intelligems-experiences-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-create-custom-event-api-openapi.yml
+- filename: intelligems-create-experience-api-openapi.yml
   format: yaml
-  label: Intelligems Experiences API
-  slug: intelligems-experiences-api
+  label: Intelligems Create Experience API
+  slug: intelligems-create-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-experiences-api-openapi.yml
-- filename: intelligems-holiday-benchmark-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-create-experience-api-openapi.yml
+- filename: intelligems-fetch-experience-data-api-openapi.yml
   format: yaml
-  label: Intelligems Holiday Benchmark API
-  slug: intelligems-holiday-benchmark-api
+  label: Intelligems Fetch Experience Data API
+  slug: intelligems-fetch-experience-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-holiday-benchmark-api-openapi.yml
-- filename: intelligems-custom-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-fetch-experience-data-api-openapi.yml
+- filename: intelligems-fetch-experience-list-api-openapi.yml
   format: yaml
-  label: Intelligems Custom Events API
-  slug: intelligems-custom-events-api
+  label: Intelligems Fetch Experience List API
+  slug: intelligems-fetch-experience-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-custom-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-fetch-experience-list-api-openapi.yml
+- filename: intelligems-fetch-sitewide-analytics-api-openapi.yml
+  format: yaml
+  label: Intelligems Fetch Sitewide Analytics API
+  slug: intelligems-fetch-sitewide-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-fetch-sitewide-analytics-api-openapi.yml
+- filename: intelligems-get-experience-export-api-openapi.yml
+  format: yaml
+  label: Intelligems Get Experience Export API
+  slug: intelligems-get-experience-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-get-experience-export-api-openapi.yml
+- filename: intelligems-get-holiday-benchmark-data-api-openapi.yml
+  format: yaml
+  label: Intelligems Get Holiday Benchmark Data API
+  slug: intelligems-get-holiday-benchmark-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-get-holiday-benchmark-data-api-openapi.yml
+- filename: intelligems-perform-experience-action-api-openapi.yml
+  format: yaml
+  label: Intelligems Perform Experience Action API
+  slug: intelligems-perform-experience-action-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-perform-experience-action-api-openapi.yml
+- filename: intelligems-update-experience-api-openapi.yml
+  format: yaml
+  label: Intelligems Update Experience API
+  slug: intelligems-update-experience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-update-experience-api-openapi.yml
 description: ''
 domains:
 - caa: []

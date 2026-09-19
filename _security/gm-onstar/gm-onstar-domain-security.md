@@ -32,14 +32,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gm-onstar/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Telematics
 - Fleet Management
 - Vehicle Data
 - Vehicle Location
 - Vehicle Diagnostics
 - Driver Behavior
-- Electric Vehicle
+- Electric Vehicles
 - EV Charging
 - OnStar
 - General Motors

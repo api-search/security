@@ -32,12 +32,6 @@ api_specs:
   slug: paytronix-menu-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-menu-items-api-openapi.yml
-- filename: paytronix-oauth-api-openapi.yml
-  format: yaml
-  label: Paytronix OAuth API
-  slug: paytronix-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-oauth-api-openapi.yml
 - filename: paytronix-orders-api-openapi.yml
   format: yaml
   label: Paytronix Orders API
@@ -74,6 +68,12 @@ api_specs:
   slug: paytronix-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-transaction-api-openapi.yml
+- filename: paytronix-oauth-api-openapi.yml
+  format: yaml
+  label: Paytronix O Auth API
+  slug: paytronix-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

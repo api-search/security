@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-blocklist-api-openapi.yml
 - filename: boost-boost-api-openapi.yml
   format: yaml
-  label: Boost Boost API
+  label: Boost API
   slug: boost-boost-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-boost-api-openapi.yml

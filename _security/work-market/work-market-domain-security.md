@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: work-market-addressbook-api-openapi.yml
-  format: yaml
-  label: Work Market Addressbook API
-  slug: work-market-addressbook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-addressbook-api-openapi.yml
 - filename: work-market-assignments-api-openapi.yml
   format: yaml
   label: Work Market Assignments API
@@ -60,6 +54,12 @@ api_specs:
   slug: work-market-updatecheckin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-updatecheckin-api-openapi.yml
+- filename: work-market-address-book-api-openapi.yml
+  format: yaml
+  label: Work Market Address Book API
+  slug: work-market-address-book-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-address-book-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -116,6 +116,6 @@ tags:
 - Gig Economy
 - Human Resources
 - Payments
-- Field Services
+- Field Service
 - Staffing
 ---

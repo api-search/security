@@ -2,18 +2,90 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: aedifion-openapi.yml
-  format: yaml
-  label: aedifion HTTP API
-  slug: aedifion-http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-openapi.yml
 - filename: aedifion-mqtt-asyncapi.yml
   format: yaml
   label: aedifion MQTT API
   slug: aedifion-mqtt-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-mqtt-asyncapi.yml
+- filename: aedifion-ai-api-openapi.yml
+  format: yaml
+  label: Aedifion AI API
+  slug: aedifion-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-ai-api-openapi.yml
+- filename: aedifion-alert-api-openapi.yml
+  format: yaml
+  label: Aedifion Alert API
+  slug: aedifion-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-alert-api-openapi.yml
+- filename: aedifion-analytics-api-openapi.yml
+  format: yaml
+  label: Aedifion Analytics API
+  slug: aedifion-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-analytics-api-openapi.yml
+- filename: aedifion-company-api-openapi.yml
+  format: yaml
+  label: Aedifion Company API
+  slug: aedifion-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-company-api-openapi.yml
+- filename: aedifion-component-api-openapi.yml
+  format: yaml
+  label: Aedifion Component API
+  slug: aedifion-component-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-component-api-openapi.yml
+- filename: aedifion-controls-api-openapi.yml
+  format: yaml
+  label: Aedifion Controls API
+  slug: aedifion-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-controls-api-openapi.yml
+- filename: aedifion-datapoint-api-openapi.yml
+  format: yaml
+  label: Aedifion Datapoint API
+  slug: aedifion-datapoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-datapoint-api-openapi.yml
+- filename: aedifion-meta-api-openapi.yml
+  format: yaml
+  label: Aedifion Meta API
+  slug: aedifion-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-meta-api-openapi.yml
+- filename: aedifion-project-api-openapi.yml
+  format: yaml
+  label: Aedifion Project API
+  slug: aedifion-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-project-api-openapi.yml
+- filename: aedifion-realm-api-openapi.yml
+  format: yaml
+  label: Aedifion Realm API
+  slug: aedifion-realm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-realm-api-openapi.yml
+- filename: aedifion-task-api-openapi.yml
+  format: yaml
+  label: Aedifion Task API
+  slug: aedifion-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-task-api-openapi.yml
+- filename: aedifion-user-api-openapi.yml
+  format: yaml
+  label: Aedifion User API
+  slug: aedifion-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-user-api-openapi.yml
+- filename: aedifion-time-series-api-openapi.yml
+  format: yaml
+  label: Aedifion Time Series API
+  slug: aedifion-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-time-series-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -98,8 +170,8 @@ tags:
 - Building Automation
 - Smart Buildings
 - Energy Management
-- Internet of Things
-- Real Estate
+- IoT
+- Real-Estate
 - HVAC
 - Sustainability
 - Time Series

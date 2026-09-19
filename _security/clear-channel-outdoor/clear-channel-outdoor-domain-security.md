@@ -58,7 +58,6 @@ tags:
 - OOH
 - Programmatic
 - Digital Out Of Home
-- DOOH
 - pDOOH
 - OpenRTB
 - OpenDirect

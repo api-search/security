@@ -18,12 +18,6 @@ api_specs:
   slug: life-biosciences-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/openapi/life-biosciences-media-api-openapi.yml
-- filename: life-biosciences-oembed-api-openapi.yml
-  format: yaml
-  label: Life Biosciences O Embed API
-  slug: life-biosciences-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/openapi/life-biosciences-oembed-api-openapi.yml
 - filename: life-biosciences-pages-api-openapi.yml
   format: yaml
   label: Life Biosciences Pages API
@@ -48,6 +42,12 @@ api_specs:
   slug: life-biosciences-taxonomies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/openapi/life-biosciences-taxonomies-api-openapi.yml
+- filename: life-biosciences-o-embed-api-openapi.yml
+  format: yaml
+  label: Life Biosciences o Embed API
+  slug: life-biosciences-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/openapi/life-biosciences-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

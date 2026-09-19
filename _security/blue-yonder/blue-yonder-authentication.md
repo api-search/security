@@ -63,5 +63,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blue-yonder-warehouse-management-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.blueyonder.example.com/oauth/token\n    scopes: 2\n  sources:\n  - openapi/blue-yonder-warehouse-management-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/blue-yonder-warehouse-management-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/authentication/blue-yonder-authentication.yml
 summary_line: http/oauth2 · 2 schemes
-tags: []
+tags:
+- Supply Chain
+- Forecasting
+- Retail
+- Logistics
+- API Management
 ---

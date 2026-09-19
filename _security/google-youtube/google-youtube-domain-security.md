@@ -12,18 +12,6 @@ api_specs:
   slug: google-youtube-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-channels-api-openapi.yml
-- filename: google-youtube-commentthreads-api-openapi.yml
-  format: yaml
-  label: YouTube Data CommentThreads API
-  slug: google-youtube-commentthreads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-commentthreads-api-openapi.yml
-- filename: google-youtube-playlistitems-api-openapi.yml
-  format: yaml
-  label: YouTube Data PlaylistItems API
-  slug: google-youtube-playlistitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-playlistitems-api-openapi.yml
 - filename: google-youtube-playlists-api-openapi.yml
   format: yaml
   label: YouTube Data Playlists API
@@ -48,6 +36,18 @@ api_specs:
   slug: google-youtube-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-videos-api-openapi.yml
+- filename: google-youtube-comment-threads-api-openapi.yml
+  format: yaml
+  label: YouTube Data Comment Threads API
+  slug: google-youtube-comment-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-comment-threads-api-openapi.yml
+- filename: google-youtube-playlist-items-api-openapi.yml
+  format: yaml
+  label: YouTube Data Playlist Items API
+  slug: google-youtube-playlist-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/google-youtube-playlist-items-api-openapi.yml
 description: ''
 domains:
 - caa:

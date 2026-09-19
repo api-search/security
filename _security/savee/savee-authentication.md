@@ -91,5 +91,5 @@ tags:
 - Image
 - Creative
 - Moodboards
-- Artificial Intelligence (AI)
+- Artificial Intelligence
 ---

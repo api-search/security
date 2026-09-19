@@ -211,5 +211,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/refiniti
   \ apiKey\n  in: header\n  parameter: x-ag-access-token\n  description: Open PermID API key. Registered users receive an API key that is shared across\n    PermID Entity Search, Record Matching, and Intelligent Tagging services.\n  sources:\n  - openapi/refinitiv-permid-entity-search-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using Base64-encoded username and password credentials.\n  sources:\n  - openapi/refinitiv-qual-id-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/authentication/refinitiv-authentication.yml
 summary_line: apiKey/http · 4 schemes
-tags: []
+tags:
+- Financial Data
+- Streaming
+- Trading
+- News
 ---

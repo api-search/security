@@ -75,12 +75,6 @@ api_specs:
   slug: synack-missions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-missions-api-openapi.yml
-- filename: synack-mobileapps-api-openapi.yml
-  format: yaml
-  label: Synack mobileapps API
-  slug: synack-mobileapps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-mobileapps-api-openapi.yml
 - filename: synack-patch-verifications-api-openapi.yml
   format: yaml
   label: Synack Patch Verifications API
@@ -129,12 +123,18 @@ api_specs:
   slug: synack-vulnerability-statuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerability-statuses-api-openapi.yml
-- filename: synack-webapps-api-openapi.yml
+- filename: synack-mobile-apps-api-openapi.yml
   format: yaml
-  label: Synack webapps API
-  slug: synack-webapps-api
+  label: Synack Mobile Apps API
+  slug: synack-mobile-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-webapps-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-mobile-apps-api-openapi.yml
+- filename: synack-web-apps-api-openapi.yml
+  format: yaml
+  label: Synack Web Apps API
+  slug: synack-web-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-web-apps-api-openapi.yml
 auth_types:
 - apiKey
 - http

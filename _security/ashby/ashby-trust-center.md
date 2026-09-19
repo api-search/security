@@ -343,7 +343,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/security/ashby-trust-center.yml
 summary_line: SOC 2
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Analytics

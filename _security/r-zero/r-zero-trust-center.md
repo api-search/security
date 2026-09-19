@@ -22,7 +22,7 @@ tags:
 - Smart Buildings
 - Occupancy
 - Sensors
-- Internet of Things
+- IoT
 - Indoor Air Quality
 - Energy Efficiency
 - HVAC

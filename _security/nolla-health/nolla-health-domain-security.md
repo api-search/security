@@ -35,7 +35,6 @@ tags:
 - Health
 - Healthcare
 - Telehealth
-- Telemedicine
 - Dermatology
 - Digital Health
 - Artificial Intelligence

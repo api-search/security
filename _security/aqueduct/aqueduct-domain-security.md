@@ -18,12 +18,6 @@ api_specs:
   slug: aqueduct-invoice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoice-api-openapi.yml
-- filename: aqueduct-invoicelineitem-api-openapi.yml
-  format: yaml
-  label: Aqueduct InvoiceLineItem API
-  slug: aqueduct-invoicelineitem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoicelineitem-api-openapi.yml
 - filename: aqueduct-pricemodel-api-openapi.yml
   format: yaml
   label: Aqueduct PriceModel API
@@ -60,6 +54,12 @@ api_specs:
   slug: aqueduct-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-webhooks-api-openapi.yml
+- filename: aqueduct-invoice-line-item-api-openapi.yml
+  format: yaml
+  label: Aqueduct Invoice Line Item API
+  slug: aqueduct-invoice-line-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoice-line-item-api-openapi.yml
 description: ''
 domains:
 - caa: []

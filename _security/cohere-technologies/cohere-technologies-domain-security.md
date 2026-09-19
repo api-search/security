@@ -37,5 +37,5 @@ tags:
 - Open RAN
 - Spectrum Efficiency
 - OTFS
-- Non-Terrestrial Networks
+- Non-Terrestrial Network
 ---

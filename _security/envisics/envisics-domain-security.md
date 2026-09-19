@@ -30,12 +30,6 @@ api_specs:
   slug: envisics-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-discovery-api-openapi.yml
-- filename: envisics-oembed-api-openapi.yml
-  format: yaml
-  label: Envisics oEmbed API
-  slug: envisics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-oembed-api-openapi.yml
 - filename: envisics-seo-api-openapi.yml
   format: yaml
   label: Envisics SEO Metadata API
@@ -60,6 +54,12 @@ api_specs:
   slug: envisics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-users-api-openapi.yml
+- filename: envisics-o-embed-api-openapi.yml
+  format: yaml
+  label: Envisics o Embed API
+  slug: envisics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

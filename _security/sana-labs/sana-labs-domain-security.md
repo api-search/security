@@ -60,12 +60,12 @@ api_specs:
   slug: sana-labs-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-users-api-openapi.yml
-- filename: sana-labs-xapi-api-openapi.yml
+- filename: sana-labs-x-api-api-openapi.yml
   format: yaml
-  label: Sana xAPI API
-  slug: sana-labs-xapi-api
+  label: Sana x API
+  slug: sana-labs-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-xapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-x-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: wise-3ds-api-openapi.yml
-  format: yaml
-  label: Wise 3ds API
-  slug: wise-3ds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/openapi/wise-3ds-api-openapi.yml
 - filename: wise-activity-api-openapi.yml
   format: yaml
   label: Wise activity API
@@ -290,6 +284,12 @@ api_specs:
   slug: wise-webhook-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/openapi/wise-webhook-event-api-openapi.yml
+- filename: wise-3-ds-api-openapi.yml
+  format: yaml
+  label: Wise 3 DS API
+  slug: wise-3-ds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/openapi/wise-3-ds-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -8,12 +8,6 @@ api_specs:
   slug: luma-health-appointments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-appointments-api-openapi.yml
-- filename: luma-health-appointmenttypes-api-openapi.yml
-  format: yaml
-  label: Luma Health Appointment Types API
-  slug: luma-health-appointmenttypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-appointmenttypes-api-openapi.yml
 - filename: luma-health-assistantactions-api-openapi.yml
   format: yaml
   label: Luma Health Assistant Actions API
@@ -104,36 +98,18 @@ api_specs:
   slug: luma-health-checklists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-checklists-api-openapi.yml
-- filename: luma-health-checklisttemplates-api-openapi.yml
-  format: yaml
-  label: Luma Health Checklist Templates API
-  slug: luma-health-checklisttemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-checklisttemplates-api-openapi.yml
 - filename: luma-health-customwebstyles-api-openapi.yml
   format: yaml
   label: Luma Health Custom Web Styles API
   slug: luma-health-customwebstyles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-customwebstyles-api-openapi.yml
-- filename: luma-health-engagementevents-api-openapi.yml
-  format: yaml
-  label: Luma Health Engagement Events API
-  slug: luma-health-engagementevents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-engagementevents-api-openapi.yml
 - filename: luma-health-engagements-api-openapi.yml
   format: yaml
   label: Luma Health Engagements API
   slug: luma-health-engagements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-engagements-api-openapi.yml
-- filename: luma-health-engagementsettings-api-openapi.yml
-  format: yaml
-  label: Luma Health Engagement Settings API
-  slug: luma-health-engagementsettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-engagementsettings-api-openapi.yml
 - filename: luma-health-estimates-api-openapi.yml
   format: yaml
   label: Luma Health Estimates API
@@ -170,12 +146,6 @@ api_specs:
   slug: luma-health-feedbackresponsespromoterhistories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-feedbackresponsespromoterhistories-api-openapi.yml
-- filename: luma-health-fileuploads-api-openapi.yml
-  format: yaml
-  label: Luma Health File Uploads API
-  slug: luma-health-fileuploads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-fileuploads-api-openapi.yml
 - filename: luma-health-groups-api-openapi.yml
   format: yaml
   label: Luma Health Groups API
@@ -242,12 +212,6 @@ api_specs:
   slug: luma-health-patientcreditcards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-patientcreditcards-api-openapi.yml
-- filename: luma-health-patientforms-api-openapi.yml
-  format: yaml
-  label: Luma Health Patient Forms API
-  slug: luma-health-patientforms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-patientforms-api-openapi.yml
 - filename: luma-health-patientformtemplates-api-openapi.yml
   format: yaml
   label: Luma Health Patient Form Templates API
@@ -332,12 +296,6 @@ api_specs:
   slug: luma-health-squigglies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-squigglies-api-openapi.yml
-- filename: luma-health-systemaudits-api-openapi.yml
-  format: yaml
-  label: Luma Health System Audits API
-  slug: luma-health-systemaudits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-systemaudits-api-openapi.yml
 - filename: luma-health-users-api-openapi.yml
   format: yaml
   label: Luma Health Users API
@@ -350,6 +308,48 @@ api_specs:
   slug: luma-health-waitlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-waitlists-api-openapi.yml
+- filename: luma-health-appointment-types-api-openapi.yml
+  format: yaml
+  label: Luma Health Appointment Types API
+  slug: luma-health-appointment-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-appointment-types-api-openapi.yml
+- filename: luma-health-checklist-templates-api-openapi.yml
+  format: yaml
+  label: Luma Health Checklist Templates API
+  slug: luma-health-checklist-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-checklist-templates-api-openapi.yml
+- filename: luma-health-engagement-events-api-openapi.yml
+  format: yaml
+  label: Luma Health Engagement Events API
+  slug: luma-health-engagement-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-engagement-events-api-openapi.yml
+- filename: luma-health-engagement-settings-api-openapi.yml
+  format: yaml
+  label: Luma Health Engagement Settings API
+  slug: luma-health-engagement-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-engagement-settings-api-openapi.yml
+- filename: luma-health-file-uploads-api-openapi.yml
+  format: yaml
+  label: Luma Health File Uploads API
+  slug: luma-health-file-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-file-uploads-api-openapi.yml
+- filename: luma-health-patient-forms-api-openapi.yml
+  format: yaml
+  label: Luma Health Patient Forms API
+  slug: luma-health-patient-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-patient-forms-api-openapi.yml
+- filename: luma-health-system-audits-api-openapi.yml
+  format: yaml
+  label: Luma Health system Audits API
+  slug: luma-health-system-audits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-system-audits-api-openapi.yml
 auth_types:
 - http
 description: ''

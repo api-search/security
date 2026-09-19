@@ -36,5 +36,5 @@ tags:
 - Java
 - JMS
 - Messaging
-- Standard
+- Standards
 ---

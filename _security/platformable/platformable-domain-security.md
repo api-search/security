@@ -33,7 +33,7 @@ tags:
 - API Governance
 - Consultancy
 - Digital Health
-- Ecosystems
+- Ecosystem
 - Open Banking
 - Open Ecosystems
 - Platform

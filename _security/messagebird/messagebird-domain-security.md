@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: messagebird-bird-api-openapi.yml
+  format: yaml
+  label: Bird API
+  slug: bird-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-bird-api-openapi.yml
 - filename: messagebird-available-numbers-api-openapi.yml
   format: yaml
   label: messagebird Available Numbers API
@@ -108,40 +114,35 @@ api_specs:
   slug: messagebird-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-webhooks-api-openapi.yml
-- filename: messagebird-whatsapp-messages-api-openapi.yml
-  format: yaml
-  label: messagebird WhatsApp Messages API
-  slug: messagebird-whatsapp-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/openapi/messagebird-whatsapp-messages-api-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
   - 0 issue "trust-provider.com"
   - 0 issue "usertrust.com"
-  - 0 issue "amazon.com"
-  - 0 issue "amazonaws.com"
-  - 0 issue "amazontrust.com"
-  - 0 issue "awstrust.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: messagebird.com
   spf: true
 hosts:
-- cert_expires: Sep 27 03:47:49 2026 GMT
+- cert_expires: Dec 23 23:59:59 2026 GMT
+  host: messagebird.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov 21 21:11:04 2026 GMT
   host: developers.messagebird.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 27 18:34:36 2026 GMT
+- cert_expires: Nov 20 03:55:57 2026 GMT
   host: rest.messagebird.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Sep 27 18:34:36 2026 GMT
-  host: voice.messagebird.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -151,15 +152,25 @@ layout: security
 method: probed
 name: Messagebird Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Messagebird, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Messagebird, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Messagebird
 provider_slug: messagebird
 slug: messagebird-domain-security
 source_filename: messagebird-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.messagebird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 03:47:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rest.messagebird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 18:34:36 2026 GMT\n  hsts: null\n- host: voice.messagebird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 18:34:36 2026 GMT\n  hsts: null\ndomains:\n- domain: messagebird.com\n  dnssec: false\n  caa:\n  - 0 issue \"trust-provider.com\"\n  - 0 issue \"usertrust.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: messagebird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.messagebird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 21:11:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: rest.messagebird.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 03:55:57 2026 GMT\n  hsts: null\ndomains:\n- domain: messagebird.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"trust-provider.com\"\n  - 0 issue \"usertrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/security/messagebird-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Communications
+- Messaging
+- SMS
+- Email
+- WhatsApp
+- Voice
+- Verification
+- CPaaS
+- Webhook
+- Agents
 ---

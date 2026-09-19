@@ -50,5 +50,5 @@ tags:
 - Open-Source
 - OpenTelemetry
 - Tracing
-- GenAI
+- Generative AI
 ---

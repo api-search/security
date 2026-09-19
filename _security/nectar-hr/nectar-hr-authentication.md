@@ -70,7 +70,7 @@ tags:
 - Employee Recognition
 - Rewards
 - Points
-- HR
+- Human Resources
 - Employee Engagement
 - Culture
 - People Operations

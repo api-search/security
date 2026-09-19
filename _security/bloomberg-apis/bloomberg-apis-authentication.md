@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: bloomberg-apis-apiauth-api-openapi.yml
-  format: yaml
-  label: Bloomberg APIs apiauth API
-  slug: bloomberg-apis-apiauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-apiauth-api-openapi.yml
 - filename: bloomberg-apis-apiflds-api-openapi.yml
   format: yaml
   label: Bloomberg APIs apiflds API
@@ -45,18 +39,24 @@ api_specs:
   slug: bloomberg-apis-pagedata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-pagedata-api-openapi.yml
-- filename: bloomberg-apis-refdata-api-openapi.yml
-  format: yaml
-  label: Bloomberg APIs refdata API
-  slug: bloomberg-apis-refdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-refdata-api-openapi.yml
 - filename: bloomberg-apis-tasvc-api-openapi.yml
   format: yaml
   label: Bloomberg APIs tasvc API
   slug: bloomberg-apis-tasvc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-tasvc-api-openapi.yml
+- filename: bloomberg-apis-api-auth-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs API Auth API
+  slug: bloomberg-apis-api-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-api-auth-api-openapi.yml
+- filename: bloomberg-apis-ref-data-api-openapi.yml
+  format: yaml
+  label: Bloomberg APIs Ref Data API
+  slug: bloomberg-apis-ref-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-ref-data-api-openapi.yml
 auth_types:
 - apiKey
 - http

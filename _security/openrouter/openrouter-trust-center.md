@@ -62,8 +62,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openrouter/ref
 summary_line: SOC 2
 tags:
 - Artificial Intelligence
-- Gateway
-- Large Language Models
+- Gateways
+- LLM
 - Router
 trust_url: https://trust.openrouter.ai/
 ---

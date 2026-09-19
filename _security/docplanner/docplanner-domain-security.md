@@ -39,5 +39,5 @@ tags:
 - Software-as-a-Service
 - Marketplace
 - Doctors
-- Telemedicine
+- Telehealth
 ---

@@ -74,7 +74,6 @@ summary_line: apiKey · 2 schemes
 tags:
 - Payments
 - Buy Now Pay Later
-- BNPL
 - Instalments
 - E-Commerce
 - Checkout

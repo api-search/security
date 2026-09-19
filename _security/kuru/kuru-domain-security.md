@@ -57,6 +57,6 @@ tags:
 - Blockchain
 - Monad
 - Liquidity
-- Swaps
+- Swap
 - Web3
 ---

@@ -137,7 +137,7 @@ tags:
 - Technographics
 - Firmographics
 - People Data
-- Mobile Apps
+- Mobile App
 - SDK Intelligence
 - App Store
 - Web Technology

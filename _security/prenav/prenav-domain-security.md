@@ -33,7 +33,7 @@ tags:
 - Company
 - Drones
 - Infrastructure Inspection
-- Digital Twins
+- Digital Twin
 - Deep Learning
 - Computer-Vision
 - Photogrammetry

@@ -71,6 +71,6 @@ tags:
 - Fintech
 - Business Banking
 - Bookkeeping
-- Taxes
+- Tax
 - Self-Employed
 ---

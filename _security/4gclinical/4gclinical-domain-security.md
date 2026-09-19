@@ -42,7 +42,7 @@ tags:
 - Trial Supply Management
 - RTSM
 - Clinical Supply Chain
-- Pharmaceutical
+- Pharmaceuticals
 - Healthcare
 - Forecasting
 - Company

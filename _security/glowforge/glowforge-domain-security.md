@@ -36,7 +36,7 @@ tags:
 - Laser Cutting
 - 3D Printing
 - Manufacturing
-- Makers
+- Maker
 - Consumer Electronics
 - IoT
 ---

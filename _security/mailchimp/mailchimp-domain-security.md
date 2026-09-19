@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: mailchimp-allowlists-api-openapi.yml
-  format: yaml
-  label: Mailchimp Allowlists API
-  slug: mailchimp-allowlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-allowlists-api-openapi.yml
 - filename: mailchimp-automations-api-openapi.yml
   format: yaml
   label: Mailchimp Automations API
@@ -42,12 +36,6 @@ api_specs:
   slug: mailchimp-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-exports-api-openapi.yml
-- filename: mailchimp-ips-api-openapi.yml
-  format: yaml
-  label: Mailchimp IPs API
-  slug: mailchimp-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-ips-api-openapi.yml
 - filename: mailchimp-lists-api-openapi.yml
   format: yaml
   label: Mailchimp Lists API
@@ -138,18 +126,6 @@ api_specs:
   slug: mailchimp-accountexport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-accountexport-api-openapi.yml
-- filename: mailchimp-accountexports-api-openapi.yml
-  format: yaml
-  label: Mailchimp Account Exports API
-  slug: mailchimp-accountexports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-accountexports-api-openapi.yml
-- filename: mailchimp-activityfeed-api-openapi.yml
-  format: yaml
-  label: Mailchimp Activity Feed API
-  slug: mailchimp-activityfeed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-activityfeed-api-openapi.yml
 - filename: mailchimp-audiences-api-openapi.yml
   format: yaml
   label: Mailchimp Audiences API
@@ -186,36 +162,12 @@ api_specs:
   slug: mailchimp-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-contacts-api-openapi.yml
-- filename: mailchimp-customerjourneys-api-openapi.yml
-  format: yaml
-  label: Mailchimp Customer Journeys API
-  slug: mailchimp-customerjourneys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-customerjourneys-api-openapi.yml
-- filename: mailchimp-facebookads-api-openapi.yml
-  format: yaml
-  label: Mailchimp Facebook Ads API
-  slug: mailchimp-facebookads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-facebookads-api-openapi.yml
-- filename: mailchimp-filemanager-api-openapi.yml
-  format: yaml
-  label: Mailchimp File Manager API
-  slug: mailchimp-filemanager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-filemanager-api-openapi.yml
 - filename: mailchimp-inbound-api-openapi.yml
   format: yaml
   label: Mailchimp Inbound API
   slug: mailchimp-inbound-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-inbound-api-openapi.yml
-- filename: mailchimp-landingpages-api-openapi.yml
-  format: yaml
-  label: Mailchimp Landing Pages API
-  slug: mailchimp-landingpages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-landingpages-api-openapi.yml
 - filename: mailchimp-mctemplates-api-openapi.yml
   format: yaml
   label: Mailchimp Mctemplates API
@@ -246,12 +198,6 @@ api_specs:
   slug: mailchimp-sms-campaigns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-sms-campaigns-api-openapi.yml
-- filename: mailchimp-templatefolders-api-openapi.yml
-  format: yaml
-  label: Mailchimp Template Folders API
-  slug: mailchimp-templatefolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-templatefolders-api-openapi.yml
 - filename: mailchimp-urls-api-openapi.yml
   format: yaml
   label: Mailchimp URLS API
@@ -264,6 +210,60 @@ api_specs:
   slug: mailchimp-verifieddomains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-verifieddomains-api-openapi.yml
+- filename: mailchimp-ips-api-openapi.yml
+  format: yaml
+  label: Mailchimp Ips API
+  slug: mailchimp-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-ips-api-openapi.yml
+- filename: mailchimp-account-exports-api-openapi.yml
+  format: yaml
+  label: Mailchimp Account Exports API
+  slug: mailchimp-account-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-account-exports-api-openapi.yml
+- filename: mailchimp-activity-feed-api-openapi.yml
+  format: yaml
+  label: Mailchimp Activity Feed API
+  slug: mailchimp-activity-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-activity-feed-api-openapi.yml
+- filename: mailchimp-allow-lists-api-openapi.yml
+  format: yaml
+  label: Mailchimp Allow Lists API
+  slug: mailchimp-allow-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-allow-lists-api-openapi.yml
+- filename: mailchimp-customer-journeys-api-openapi.yml
+  format: yaml
+  label: Mailchimp customer Journeys API
+  slug: mailchimp-customer-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-customer-journeys-api-openapi.yml
+- filename: mailchimp-facebook-ads-api-openapi.yml
+  format: yaml
+  label: Mailchimp facebook Ads API
+  slug: mailchimp-facebook-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-facebook-ads-api-openapi.yml
+- filename: mailchimp-file-manager-api-openapi.yml
+  format: yaml
+  label: Mailchimp File Manager API
+  slug: mailchimp-file-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-file-manager-api-openapi.yml
+- filename: mailchimp-landing-pages-api-openapi.yml
+  format: yaml
+  label: Mailchimp Landing Pages API
+  slug: mailchimp-landing-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-landing-pages-api-openapi.yml
+- filename: mailchimp-template-folders-api-openapi.yml
+  format: yaml
+  label: Mailchimp Template Folders API
+  slug: mailchimp-template-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-template-folders-api-openapi.yml
 description: ''
 domains:
 - caa:

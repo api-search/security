@@ -60,12 +60,6 @@ api_specs:
   slug: dealhub-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-authentication-api-openapi.yml
-- filename: dealhub-banktransactions-api-openapi.yml
-  format: yaml
-  label: DealHub Bank Transactions API
-  slug: dealhub-banktransactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-banktransactions-api-openapi.yml
 - filename: dealhub-billing-api-openapi.yml
   format: yaml
   label: DealHub Billing API
@@ -150,12 +144,6 @@ api_specs:
   slug: dealhub-experimental-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-experimental-api-openapi.yml
-- filename: dealhub-external-query-api-openapi.yml
-  format: yaml
-  label: DealHub External Query API
-  slug: dealhub-external-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-external-query-api-openapi.yml
 - filename: dealhub-foreign-exchange-api-openapi.yml
   format: yaml
   label: DealHub Foreign Exchange API
@@ -210,12 +198,6 @@ api_specs:
   slug: dealhub-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-jobs-api-openapi.yml
-- filename: dealhub-metricsreporting-api-openapi.yml
-  format: yaml
-  label: DealHub Metrics Reporting API
-  slug: dealhub-metricsreporting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-metricsreporting-api-openapi.yml
 - filename: dealhub-notifications-api-openapi.yml
   format: yaml
   label: DealHub Notifications API
@@ -294,12 +276,6 @@ api_specs:
   slug: dealhub-quote-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-quote-management-api-openapi.yml
-- filename: dealhub-ratecard-api-openapi.yml
-  format: yaml
-  label: DealHub Rate Card API
-  slug: dealhub-ratecard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-ratecard-api-openapi.yml
 - filename: dealhub-refunds-api-openapi.yml
   format: yaml
   label: DealHub Refunds API
@@ -378,6 +354,24 @@ api_specs:
   slug: dealhub-version-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-version-management-api-openapi.yml
+- filename: dealhub-bank-transactions-api-openapi.yml
+  format: yaml
+  label: DealHub Bank Transactions API
+  slug: dealhub-bank-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-bank-transactions-api-openapi.yml
+- filename: dealhub-metrics-reporting-api-openapi.yml
+  format: yaml
+  label: DealHub Metrics/Reporting API
+  slug: dealhub-metrics-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-metrics-reporting-api-openapi.yml
+- filename: dealhub-rate-card-api-openapi.yml
+  format: yaml
+  label: DealHub Rate Card API
+  slug: dealhub-rate-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/openapi/dealhub-rate-card-api-openapi.yml
 description: ''
 domains:
 - caa:

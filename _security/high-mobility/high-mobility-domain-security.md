@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/high-mobility/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Automotive
-- Connected Cars
+- Connected Car
 - IoT
 - Vehicle Data
 ---

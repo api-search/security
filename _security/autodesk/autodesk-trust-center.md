@@ -18,12 +18,6 @@ api_specs:
   slug: autodesk-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-admin-api-openapi.yml
-- filename: autodesk-appbundles-api-openapi.yml
-  format: yaml
-  label: Autodesk AppBundles API
-  slug: autodesk-appbundles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-appbundles-api-openapi.yml
 - filename: autodesk-authorization-api-openapi.yml
   format: yaml
   label: Autodesk Authorization API
@@ -282,12 +276,18 @@ api_specs:
   slug: autodesk-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-versions-api-openapi.yml
-- filename: autodesk-workitems-api-openapi.yml
+- filename: autodesk-app-bundles-api-openapi.yml
   format: yaml
-  label: Autodesk WorkItems API
-  slug: autodesk-workitems-api
+  label: Autodesk App Bundles API
+  slug: autodesk-app-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-workitems-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-app-bundles-api-openapi.yml
+- filename: autodesk-work-items-api-openapi.yml
+  format: yaml
+  label: Autodesk Work Items API
+  slug: autodesk-work-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/openapi/autodesk-work-items-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -320,7 +320,7 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twins
+- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

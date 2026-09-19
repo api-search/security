@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Business Applications
-- OKR
+- OKRs
 - Strategy Execution
 - Goal Management
 - Performance Management

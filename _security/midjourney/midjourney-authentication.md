@@ -55,5 +55,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/midjourney-image-generation-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: API key obtained from the Midjourney Enterprise dashboard. Include in the Authorization\n    header as a Bearer token.\n  sources:\n  - openapi/midjourney-image-generation-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/authentication/midjourney-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Image-Generation
+- Artificial Intelligence
+- Creative Tools
+- Job
 ---

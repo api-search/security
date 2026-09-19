@@ -44,7 +44,7 @@ summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Gender
 - Name
-- Prediction
+- Predictions
 - Demographics
 - Machine-Learning
 - Statistics

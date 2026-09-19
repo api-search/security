@@ -37,6 +37,6 @@ tags:
 - Robotics
 - Lunar Logistics
 - Spacecraft
-- Satellites
+- Satellite
 - Defense and Space
 ---

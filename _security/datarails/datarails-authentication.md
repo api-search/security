@@ -8,12 +8,6 @@ api_specs:
   slug: datarails-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
-- filename: datarails-oauth-api-openapi.yml
-  format: yaml
-  label: Datarails OAUTH API
-  slug: datarails-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
@@ -26,6 +20,12 @@ api_specs:
   slug: datarails-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+- filename: datarails-oauth-api-openapi.yml
+  format: yaml
+  label: Datarails OAUTH API
+  slug: datarails-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - http

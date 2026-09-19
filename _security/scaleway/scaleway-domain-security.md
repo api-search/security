@@ -6,12 +6,6 @@ api_specs:
   slug: scaleway-access-control-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-access-control-list-api-openapi.yml
-- filename: scaleway-acls-api-openapi.yml
-  format: yaml
-  label: Scaleway ACLs API
-  slug: scaleway-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-acls-api-openapi.yml
 - filename: scaleway-alert-subscribers-api-openapi.yml
   format: yaml
   label: Scaleway Alert Subscribers API
@@ -174,18 +168,6 @@ api_specs:
   slug: scaleway-ip-addresses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-ip-addresses-api-openapi.yml
-- filename: scaleway-ips-api-openapi.yml
-  format: yaml
-  label: Scaleway IPs API
-  slug: scaleway-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-ips-api-openapi.yml
-- filename: scaleway-jwts-api-openapi.yml
-  format: yaml
-  label: Scaleway JWTs API
-  slug: scaleway-jwts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-jwts-api-openapi.yml
 - filename: scaleway-load-balancer-api-openapi.yml
   format: yaml
   label: Scaleway Load Balancer API
@@ -426,18 +408,36 @@ api_specs:
   slug: scaleway-vpc-connectors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-vpc-connectors-api-openapi.yml
-- filename: scaleway-vpcs-api-openapi.yml
-  format: yaml
-  label: Scaleway VPCs API
-  slug: scaleway-vpcs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-vpcs-api-openapi.yml
 - filename: scaleway-webhooks-api-openapi.yml
   format: yaml
   label: Scaleway Webhooks API
   slug: scaleway-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-webhooks-api-openapi.yml
+- filename: scaleway-acls-api-openapi.yml
+  format: yaml
+  label: Scaleway AC Ls API
+  slug: scaleway-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-acls-api-openapi.yml
+- filename: scaleway-ips-api-openapi.yml
+  format: yaml
+  label: Scaleway I Ps API
+  slug: scaleway-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-ips-api-openapi.yml
+- filename: scaleway-jwts-api-openapi.yml
+  format: yaml
+  label: Scaleway JW Ts API
+  slug: scaleway-jwts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-jwts-api-openapi.yml
+- filename: scaleway-vpcs-api-openapi.yml
+  format: yaml
+  label: Scaleway VP Cs API
+  slug: scaleway-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-vpcs-api-openapi.yml
 description: ''
 domains:
 - caa:

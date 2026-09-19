@@ -86,7 +86,6 @@ tags:
 - Financial-Services
 - Fintech
 - Buy Now Pay Later
-- BNPL
 - Bread Pay
 - Private Label Credit
 - Co Brand Credit Cards

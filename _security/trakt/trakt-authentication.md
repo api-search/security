@@ -14,12 +14,6 @@ api_specs:
   slug: trakt-certifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-certifications-api-openapi.yml
-- filename: trakt-checkin-api-openapi.yml
-  format: yaml
-  label: Trakt Checkin API
-  slug: trakt-checkin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-checkin-api-openapi.yml
 - filename: trakt-comments-api-openapi.yml
   format: yaml
   label: Trakt Comments API
@@ -74,12 +68,6 @@ api_specs:
   slug: trakt-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-notes-api-openapi.yml
-- filename: trakt-oauth-api-openapi.yml
-  format: yaml
-  label: Trakt OAuth API
-  slug: trakt-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-oauth-api-openapi.yml
 - filename: trakt-people-api-openapi.yml
   format: yaml
   label: Trakt People API
@@ -134,6 +122,18 @@ api_specs:
   slug: trakt-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-users-api-openapi.yml
+- filename: trakt-oauth-api-openapi.yml
+  format: yaml
+  label: Trakt O Auth API
+  slug: trakt-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-oauth-api-openapi.yml
+- filename: trakt-check-in-api-openapi.yml
+  format: yaml
+  label: Trakt Check In API
+  slug: trakt-check-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/openapi/trakt-check-in-api-openapi.yml
 auth_types:
 - http
 description: ''

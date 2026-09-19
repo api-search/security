@@ -35,13 +35,11 @@ source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/security/bkash-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Company
-- Fintech
 - Payments
-- Payment Gateway
 - Mobile Financial Services
-- Digital Wallet
-- Bangladesh
+- Fintech
 - Checkout
-- Webhook
+- Bangladesh
+- Digital Wallet
+- Payment Gateway
 ---

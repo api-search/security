@@ -39,4 +39,5 @@ tags:
 - E-Commerce
 - India
 - D2C
+- Direct to Consumer
 ---

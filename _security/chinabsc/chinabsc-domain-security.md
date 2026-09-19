@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company
 - Healthcare
-- Telemedicine
+- Telehealth
 - Remote Consultation
 - Medical Imaging
 - DICOM

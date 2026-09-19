@@ -52,7 +52,7 @@ tags:
 - Energy
 - Federal-Government
 - Marine
-- Oceans
+- Ocean
 - GIS
 - Offshore
 - Environmental

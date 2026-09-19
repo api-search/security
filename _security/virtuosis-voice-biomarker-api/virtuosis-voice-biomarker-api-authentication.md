@@ -65,9 +65,9 @@ summary_line: http · 1 scheme
 tags:
 - Digital Health
 - voice biomarkers
-- speech analysis
+- Speech Analysis
 - acoustic analysis
-- Medical Device
+- Medical Devices
 - Mental Health
 - Wellbeing
 - neurodegenerative screening

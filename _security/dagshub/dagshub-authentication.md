@@ -20,12 +20,6 @@ api_specs:
   slug: dagshub-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-orgs-api-openapi.yml
-- filename: dagshub-pullrequests-api-openapi.yml
-  format: yaml
-  label: DagsHub PullRequests API
-  slug: dagshub-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pullrequests-api-openapi.yml
 - filename: dagshub-repos-api-openapi.yml
   format: yaml
   label: DagsHub Repos API
@@ -50,6 +44,12 @@ api_specs:
   slug: dagshub-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-users-api-openapi.yml
+- filename: dagshub-pull-requests-api-openapi.yml
+  format: yaml
+  label: DagsHub Pull Requests API
+  slug: dagshub-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pull-requests-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dagshub-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/authentication/dagshub-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- ML
+- Machine-Learning
 - MLOps
 - Data Versioning
 - Git

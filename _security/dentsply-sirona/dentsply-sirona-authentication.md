@@ -3,24 +3,36 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: dentsply-sirona-intraoral-modality-openapi.yml
+- filename: dentsply-sirona-devices-api-openapi.yml
   format: yaml
-  label: Dentsply Sirona Intraoral Imaging Modality API
-  slug: dsio-modality-api
+  label: Dentsply Sirona Devices API
+  slug: dentsply-sirona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-intraoral-modality-openapi.yml
-- filename: dentsply-sirona-intraoral-filters-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-devices-api-openapi.yml
+- filename: dentsply-sirona-exposures-api-openapi.yml
   format: yaml
-  label: Dentsply Sirona Intraoral Imaging Filters API
-  slug: dsio-filters-api
+  label: Dentsply Sirona Exposures API
+  slug: dentsply-sirona-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-intraoral-filters-openapi.yml
-- filename: dentsply-sirona-intraoral-exposure-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-exposures-api-openapi.yml
+- filename: dentsply-sirona-filters-api-openapi.yml
   format: yaml
-  label: Intraoral Exposure API
-  slug: io-exposure-api
+  label: Dentsply Sirona Filters API
+  slug: dentsply-sirona-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-intraoral-exposure-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-filters-api-openapi.yml
+- filename: dentsply-sirona-generators-api-openapi.yml
+  format: yaml
+  label: Dentsply Sirona Generators API
+  slug: dentsply-sirona-generators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-generators-api-openapi.yml
+- filename: dentsply-sirona-images-api-openapi.yml
+  format: yaml
+  label: Dentsply Sirona Images API
+  slug: dentsply-sirona-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-images-api-openapi.yml
 auth_types:
 - apiKey
 - http

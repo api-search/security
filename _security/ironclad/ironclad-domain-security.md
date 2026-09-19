@@ -123,7 +123,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - LegalOps

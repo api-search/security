@@ -51,12 +51,12 @@ api_specs:
   slug: democracy-works-voting-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-voting-locations-api-openapi.yml
-- filename: democracy-works-elections-v1-api-openapi.yml
+- filename: democracy-works-election-authorities-api-openapi.yml
   format: yaml
-  label: Democracy Works Elections API v1 (legacy)
-  slug: democracy-works-elections-v1-api
+  label: Democracy Works Election Authorities API
+  slug: democracy-works-election-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-elections-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/openapi/democracy-works-election-authorities-api-openapi.yml
 auth_types:
 - apiKey
 description: A single API-key header, no OAuth, no scopes, and no self-service issuance. Note that the two live generations of this API use DIFFERENT auth headers — the v1 surface, still served, uses an Authorization header with an "apikey" prefix.

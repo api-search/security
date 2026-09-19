@@ -1,59 +1,53 @@
 ---
 api_specs:
-- filename: llms.txt
-  format: yaml
-  label: HiBob Bob API
-  slug: bob-api
-  spec_type: OpenAPI
-  url: https://apidocs.hibob.com/llms.txt
-- filename: hibob-attendance-api-openapi.yml
+- filename: bob-attendance-api-openapi.yml
   format: yaml
   label: HiBob Attendance API
-  slug: hibob-attendance-api
+  slug: bob-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-attendance-api-openapi.yml
-- filename: hibob-documents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-attendance-api-openapi.yml
+- filename: bob-documents-api-openapi.yml
   format: yaml
   label: HiBob Documents API
-  slug: hibob-documents-api
+  slug: bob-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-documents-api-openapi.yml
-- filename: hibob-employee-tables-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-documents-api-openapi.yml
+- filename: bob-employee-tables-api-openapi.yml
   format: yaml
   label: HiBob Employee Tables API
-  slug: hibob-employee-tables-api
+  slug: bob-employee-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-employee-tables-api-openapi.yml
-- filename: hibob-goals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-employee-tables-api-openapi.yml
+- filename: bob-goals-api-openapi.yml
   format: yaml
   label: HiBob Goals API
-  slug: hibob-goals-api
+  slug: bob-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-goals-api-openapi.yml
-- filename: hibob-hiring-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-goals-api-openapi.yml
+- filename: bob-hiring-api-openapi.yml
   format: yaml
   label: HiBob Hiring API
-  slug: hibob-hiring-api
+  slug: bob-hiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-hiring-api-openapi.yml
-- filename: hibob-learning-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-hiring-api-openapi.yml
+- filename: bob-learning-api-openapi.yml
   format: yaml
   label: HiBob Learning API
-  slug: hibob-learning-api
+  slug: bob-learning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-learning-api-openapi.yml
-- filename: hibob-people-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-learning-api-openapi.yml
+- filename: bob-people-api-openapi.yml
   format: yaml
   label: HiBob People API
-  slug: hibob-people-api
+  slug: bob-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-people-api-openapi.yml
-- filename: hibob-projects-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-people-api-openapi.yml
+- filename: bob-projects-api-openapi.yml
   format: yaml
   label: HiBob Projects API
-  slug: hibob-projects-api
+  slug: bob-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/hibob-projects-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/openapi/bob-projects-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -98,7 +92,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/security/bob-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
 - Human Resources
 - HRIS
 - Employee Management
@@ -108,5 +101,5 @@ tags:
 - Workforce Planning
 - Onboarding
 - Goals
-- OKR
+- OKRs
 ---

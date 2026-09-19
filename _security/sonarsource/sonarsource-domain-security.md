@@ -126,12 +126,6 @@ api_specs:
   slug: sonarsource-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-properties-api-openapi.yml
-- filename: sonarsource-qualitygates-api-openapi.yml
-  format: yaml
-  label: SonarSource qualitygates API
-  slug: sonarsource-qualitygates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-qualitygates-api-openapi.yml
 - filename: sonarsource-qualityprofiles-api-openapi.yml
   format: yaml
   label: SonarSource qualityprofiles API
@@ -156,12 +150,6 @@ api_specs:
   slug: sonarsource-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-sources-api-openapi.yml
-- filename: sonarsource-timemachine-api-openapi.yml
-  format: yaml
-  label: SonarSource timemachine API
-  slug: sonarsource-timemachine-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-timemachine-api-openapi.yml
 - filename: sonarsource-user-groups-api-openapi.yml
   format: yaml
   label: SonarSource user_groups API
@@ -192,12 +180,24 @@ api_specs:
   slug: sonarsource-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-webhooks-api-openapi.yml
-- filename: sonarsource-webservices-api-openapi.yml
+- filename: sonarsource-quality-gates-api-openapi.yml
   format: yaml
-  label: SonarSource webservices API
-  slug: sonarsource-webservices-api
+  label: SonarSource Quality Gates API
+  slug: sonarsource-quality-gates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-webservices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-quality-gates-api-openapi.yml
+- filename: sonarsource-time-machine-api-openapi.yml
+  format: yaml
+  label: SonarSource Time Machine API
+  slug: sonarsource-time-machine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-time-machine-api-openapi.yml
+- filename: sonarsource-web-services-api-openapi.yml
+  format: yaml
+  label: SonarSource Web Services API
+  slug: sonarsource-web-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-web-services-api-openapi.yml
 description: ''
 domains:
 - caa:

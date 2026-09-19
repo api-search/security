@@ -113,7 +113,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Field Service
 - Job Management
-- Trades
+- Trade
 - Scheduling
 - Dispatch
 - Invoicing

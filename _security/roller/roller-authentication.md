@@ -37,7 +37,7 @@ tags:
 - Venue Management
 - Attractions
 - Ticketing
-- Bookings
+- Booking
 - Point-of-Sale
 - Payments
 - Leisure

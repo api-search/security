@@ -37,8 +37,8 @@ tags:
 - Forex Card
 - Zero Forex Markup
 - Multi-Currency
-- Prepaid Card
-- Debit Card
+- Prepaid Cards
+- Debit Cards
 - Secured Credit Card
 - Savings Account
 - Outbound Remittance

@@ -3,108 +3,36 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: getstream-application-api-openapi.yml
+- filename: getstream-product-chat-api-openapi.yml
   format: yaml
-  label: Stream Application API
-  slug: getstream-application-api
+  label: Stream Product:chat API
+  slug: getstream-product-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-application-api-openapi.yml
-- filename: getstream-campaigns-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-chat-api-openapi.yml
+- filename: getstream-product-common-api-openapi.yml
   format: yaml
-  label: Stream Campaigns API
-  slug: getstream-campaigns-api
+  label: Stream Product:common API
+  slug: getstream-product-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-campaigns-api-openapi.yml
-- filename: getstream-channels-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-common-api-openapi.yml
+- filename: getstream-product-feeds-api-openapi.yml
   format: yaml
-  label: Stream Channels API
-  slug: getstream-channels-api
+  label: Stream Product:feeds API
+  slug: getstream-product-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-channels-api-openapi.yml
-- filename: getstream-devices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-feeds-api-openapi.yml
+- filename: getstream-product-moderation-api-openapi.yml
   format: yaml
-  label: Stream Devices API
-  slug: getstream-devices-api
+  label: Stream Product:moderation API
+  slug: getstream-product-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-devices-api-openapi.yml
-- filename: getstream-members-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-moderation-api-openapi.yml
+- filename: getstream-product-video-api-openapi.yml
   format: yaml
-  label: Stream Members API
-  slug: getstream-members-api
+  label: Stream Product:video API
+  slug: getstream-product-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-members-api-openapi.yml
-- filename: getstream-messages-api-openapi.yml
-  format: yaml
-  label: Stream Messages API
-  slug: getstream-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-messages-api-openapi.yml
-- filename: getstream-moderation-api-openapi.yml
-  format: yaml
-  label: Stream Moderation API
-  slug: getstream-moderation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-moderation-api-openapi.yml
-- filename: getstream-permissions-api-openapi.yml
-  format: yaml
-  label: Stream Permissions API
-  slug: getstream-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-permissions-api-openapi.yml
-- filename: getstream-reactions-api-openapi.yml
-  format: yaml
-  label: Stream Reactions API
-  slug: getstream-reactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-reactions-api-openapi.yml
-- filename: getstream-roles-api-openapi.yml
-  format: yaml
-  label: Stream Roles API
-  slug: getstream-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-roles-api-openapi.yml
-- filename: getstream-threads-api-openapi.yml
-  format: yaml
-  label: Stream Threads API
-  slug: getstream-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-threads-api-openapi.yml
-- filename: getstream-users-api-openapi.yml
-  format: yaml
-  label: Stream Users API
-  slug: getstream-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-users-api-openapi.yml
-- filename: stream-io-product-chat-api-openapi.yml
-  format: yaml
-  label: Stream product:chat API
-  slug: stream-io-product-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-chat-api-openapi.yml
-- filename: stream-io-product-common-api-openapi.yml
-  format: yaml
-  label: Stream product:common API
-  slug: stream-io-product-common-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-common-api-openapi.yml
-- filename: stream-io-product-feeds-api-openapi.yml
-  format: yaml
-  label: Stream product:feeds API
-  slug: stream-io-product-feeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-feeds-api-openapi.yml
-- filename: stream-io-product-moderation-api-openapi.yml
-  format: yaml
-  label: Stream product:moderation API
-  slug: stream-io-product-moderation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-moderation-api-openapi.yml
-- filename: stream-io-product-video-api-openapi.yml
-  format: yaml
-  label: Stream product:video API
-  slug: stream-io-product-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/stream-io-product-video-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-video-api-openapi.yml
 auth_types:
 - apiKey
 - http

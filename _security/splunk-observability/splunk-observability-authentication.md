@@ -159,12 +159,6 @@ api_specs:
   slug: splunk-observability-signalflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-signalflow-api-openapi.yml
-- filename: splunk-observability-slos-api-openapi.yml
-  format: yaml
-  label: Splunk Observability Cloud SL Os API
-  slug: splunk-observability-slos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-slos-api-openapi.yml
 - filename: splunk-observability-splunk-observability-cloud-audit-events-api-openapi.yml
   format: yaml
   label: Splunk Observability Cloud Splunk Observability Cloud Audit Events API
@@ -291,6 +285,12 @@ api_specs:
   slug: splunk-observability-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-teams-api-openapi.yml
+- filename: splunk-observability-slos-api-openapi.yml
+  format: yaml
+  label: Splunk Observability Cloud SL Os API
+  slug: splunk-observability-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/openapi/splunk-observability-slos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -145,5 +145,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api-docs.planetscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 06:07:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.planetscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: planetscale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 17:50:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: planetscale.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/security/planetscale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
-tags: []
+tags:
+- Application
+- Authorization
+- Edge Computing
 ---

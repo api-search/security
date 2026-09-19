@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Medical Technology
-- Medical Device
+- Medical Devices
 - Neonatal Care
 - Healthcare
 - Biotechnology

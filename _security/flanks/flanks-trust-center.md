@@ -25,7 +25,7 @@ tags:
 - Financial Data
 - Data Aggregation
 - Fintech
-- Investments
+- Investment
 - Open Banking
 trust_url: https://www.flanks.io/security-and-privacy
 ---

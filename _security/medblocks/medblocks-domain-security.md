@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: medblocks-platform-openapi.json
-  format: json
-  label: Medblocks Platform API
-  slug: medblocks-platform-api
+- filename: medblocks-certificates-api-openapi.yml
+  format: yaml
+  label: Medblocks Certificates API
+  slug: medblocks-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-platform-openapi.json
-- filename: medblocks-public-site-openapi.json
-  format: json
-  label: Medblocks Public Site API
-  slug: medblocks-public-site-api
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-certificates-api-openapi.yml
+- filename: medblocks-connections-api-openapi.yml
+  format: yaml
+  label: Medblocks Connections API
+  slug: medblocks-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-public-site-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-connections-api-openapi.yml
+- filename: medblocks-events-api-openapi.yml
+  format: yaml
+  label: Medblocks Events API
+  slug: medblocks-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-events-api-openapi.yml
+- filename: medblocks-feeds-api-openapi.yml
+  format: yaml
+  label: Medblocks Feeds API
+  slug: medblocks-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-feeds-api-openapi.yml
+- filename: medblocks-health-api-openapi.yml
+  format: yaml
+  label: Medblocks Health API
+  slug: medblocks-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-health-api-openapi.yml
+- filename: medblocks-launch-contexts-api-openapi.yml
+  format: yaml
+  label: Medblocks Launch Contexts API
+  slug: medblocks-launch-contexts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-launch-contexts-api-openapi.yml
+- filename: medblocks-patient-sessions-api-openapi.yml
+  format: yaml
+  label: Medblocks Patient Sessions API
+  slug: medblocks-patient-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patient-sessions-api-openapi.yml
+- filename: medblocks-patients-api-openapi.yml
+  format: yaml
+  label: Medblocks Patients API
+  slug: medblocks-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patients-api-openapi.yml
+- filename: medblocks-webhooks-api-openapi.yml
+  format: yaml
+  label: Medblocks Webhooks API
+  slug: medblocks-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +100,7 @@ tags:
 - Patient Access
 - Health Data
 - SMART on FHIR
-- Webhooks
-- Model Context Protocol
+- Webhook
+- MCP
 - Company
 ---

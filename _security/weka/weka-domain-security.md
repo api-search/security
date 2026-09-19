@@ -30,12 +30,6 @@ api_specs:
   slug: weka-containers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-containers-api-openapi.yml
-- filename: weka-dataservice-api-openapi.yml
-  format: yaml
-  label: Weka DataService API
-  slug: weka-dataservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-dataservice-api-openapi.yml
 - filename: weka-default-network-api-openapi.yml
   format: yaml
   label: Weka Default network API
@@ -266,10 +260,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-user-api-openapi.yml
 - filename: weka-weka-home-api-openapi.yml
   format: yaml
-  label: Weka Weka home API
+  label: Weka home API
   slug: weka-weka-home-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-weka-home-api-openapi.yml
+- filename: weka-data-service-api-openapi.yml
+  format: yaml
+  label: Weka Data Service API
+  slug: weka-data-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-data-service-api-openapi.yml
 description: ''
 domains:
 - caa:

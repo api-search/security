@@ -174,12 +174,12 @@ api_specs:
   slug: buttondown-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-webhooks-api-openapi.yml
-- filename: buttondown-buttondown-webhooks-api-api-openapi.yml
+- filename: buttondown-buttondown-api-api-openapi.yml
   format: yaml
-  label: Buttondown Buttondown Webhooks API
-  slug: buttondown-buttondown-webhooks-api-api
+  label: Buttondown Buttondown API
+  slug: buttondown-buttondown-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-webhooks-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -231,7 +231,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buttondown/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
-- Automations
+- Automation
 - Email
 - Markdown
 - Newsletters

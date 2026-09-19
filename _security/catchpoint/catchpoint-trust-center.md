@@ -12,12 +12,6 @@ api_specs:
   slug: catchpoint-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-alerts-api-openapi.yml
-- filename: catchpoint-asns-api-openapi.yml
-  format: yaml
-  label: Catchpoint ASNs API
-  slug: catchpoint-asns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-asns-api-openapi.yml
 - filename: catchpoint-assertions-api-openapi.yml
   format: yaml
   label: Catchpoint Assertions API
@@ -102,12 +96,6 @@ api_specs:
   slug: catchpoint-node-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-node-api-openapi.yml
-- filename: catchpoint-nodegroup-api-openapi.yml
-  format: yaml
-  label: Catchpoint NodeGroup API
-  slug: catchpoint-nodegroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-nodegroup-api-openapi.yml
 - filename: catchpoint-nodeutilization-api-openapi.yml
   format: yaml
   label: Catchpoint NodeUtilization API
@@ -162,30 +150,42 @@ api_specs:
   slug: catchpoint-testtemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-testtemplates-api-openapi.yml
-- filename: catchpoint-usagereport-api-openapi.yml
-  format: yaml
-  label: Catchpoint UsageReport API
-  slug: catchpoint-usagereport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-usagereport-api-openapi.yml
-- filename: catchpoint-useridentity-api-openapi.yml
-  format: yaml
-  label: Catchpoint UserIdentity API
-  slug: catchpoint-useridentity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-useridentity-api-openapi.yml
-- filename: catchpoint-userrole-api-openapi.yml
-  format: yaml
-  label: Catchpoint UserRole API
-  slug: catchpoint-userrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-userrole-api-openapi.yml
 - filename: catchpoint-workflow-api-openapi.yml
   format: yaml
   label: Catchpoint Workflow API
   slug: catchpoint-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-workflow-api-openapi.yml
+- filename: catchpoint-asns-api-openapi.yml
+  format: yaml
+  label: Catchpoint AS Ns API
+  slug: catchpoint-asns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-asns-api-openapi.yml
+- filename: catchpoint-node-group-api-openapi.yml
+  format: yaml
+  label: Catchpoint Node Group API
+  slug: catchpoint-node-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-node-group-api-openapi.yml
+- filename: catchpoint-usage-report-api-openapi.yml
+  format: yaml
+  label: Catchpoint Usage Report API
+  slug: catchpoint-usage-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-usage-report-api-openapi.yml
+- filename: catchpoint-user-identity-api-openapi.yml
+  format: yaml
+  label: Catchpoint User Identity API
+  slug: catchpoint-user-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-user-identity-api-openapi.yml
+- filename: catchpoint-user-role-api-openapi.yml
+  format: yaml
+  label: Catchpoint User Role API
+  slug: catchpoint-user-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/openapi/catchpoint-user-role-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2

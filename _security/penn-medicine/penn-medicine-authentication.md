@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/
 summary_line: oauth2 · 1 scheme
 tags:
 - Healthcare
-- Hospital
+- Hospitals
 - Academic Medical Center
 - FHIR
 - SMART on FHIR

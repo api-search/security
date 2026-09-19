@@ -33,7 +33,7 @@ tags:
 - Insurtech
 - ACORD Forms
 - Risk Data
-- Digital Signatures
+- Digital Signature
 - Insurance Applications
 - Webhook
 ---

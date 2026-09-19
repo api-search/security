@@ -46,7 +46,7 @@ tags:
 - Employee Recognition
 - Rewards
 - Engagement
-- HR Tech
+- Human Resources
 - Incentives
 - Points
 ---

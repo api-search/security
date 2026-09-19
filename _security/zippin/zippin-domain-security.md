@@ -43,12 +43,12 @@ tags:
 - Company
 - Retail
 - Retail Technology
-- Checkout Free
+- Checkout-Free
 - Cashierless
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
-- Machine Learning
-- Point of Sale
+- Machine-Learning
+- Point-of-Sale
 - Payments
 - Loyalty
 - Inventory

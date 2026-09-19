@@ -25,6 +25,6 @@ tags:
 - Employee Benefits
 - Wellness
 - Digital Health
-- HR Tech
+- Human Resources
 trust_url: https://www.modernhealth.com/security
 ---

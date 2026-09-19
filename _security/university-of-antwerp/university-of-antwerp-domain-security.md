@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: university-of-antwerp-irua-oai-pmh-openapi.yml
+- filename: university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
   format: yaml
-  label: IRUA OAI-PMH Metadata Interface
-  slug: irua-oai-pmh
+  label: University of Antwerp IRUA OAI PMH Metadata Interface API
+  slug: university-of-antwerp-irua-oai-pmh-metadata-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
 description: ''
 domains:
 - caa: []

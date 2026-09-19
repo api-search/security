@@ -67,7 +67,7 @@ tags:
 - Company
 - Advertising
 - AdTech
-- Demand-Side Platform
+- DSP
 - Programmatic Advertising
 - Mobile Advertising
 - Reporting

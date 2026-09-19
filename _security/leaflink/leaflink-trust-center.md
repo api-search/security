@@ -438,12 +438,6 @@ api_specs:
   slug: leaflink-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/openapi/leaflink-products-api-openapi.yml
-- filename: leaflink-promocodes-api-openapi.yml
-  format: yaml
-  label: LeafLink Promocodes API
-  slug: leaflink-promocodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/openapi/leaflink-promocodes-api-openapi.yml
 - filename: leaflink-reports-api-openapi.yml
   format: yaml
   label: LeafLink Reports API
@@ -528,6 +522,12 @@ api_specs:
   slug: leaflink-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/openapi/leaflink-vendors-api-openapi.yml
+- filename: leaflink-promo-codes-api-openapi.yml
+  format: yaml
+  label: LeafLink Promo Codes API
+  slug: leaflink-promo-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/openapi/leaflink-promo-codes-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

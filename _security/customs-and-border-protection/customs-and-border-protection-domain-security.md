@@ -61,7 +61,7 @@ tags:
 - EDI
 - Export
 - Federal-Government
-- Imports
+- Import
 - International Trade
 - Manifests
 - Single Window

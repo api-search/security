@@ -47,7 +47,7 @@ tags:
 - Blockchain
 - DeFi
 - Cross-Chain
-- Swaps
+- Swap
 - Bridge
 - Lending
 - Liquidity

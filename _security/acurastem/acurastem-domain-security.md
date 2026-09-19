@@ -39,6 +39,6 @@ tags:
 - Neurodegenerative Disease
 - ALS
 - Stem Cells
-- Machine Learning
+- Machine-Learning
 - Private Company
 ---

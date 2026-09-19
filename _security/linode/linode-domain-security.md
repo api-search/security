@@ -26,13 +26,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-images-api-openapi.yml
 - filename: linode-linode-instances-api-openapi.yml
   format: yaml
-  label: linode Linode Instances API
+  label: linode Instances API
   slug: linode-linode-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-linode-instances-api-openapi.yml
 - filename: linode-linode-kubernetes-engine-lke-api-openapi.yml
   format: yaml
-  label: linode Linode Kubernetes Engine (LKE) API
+  label: linode Kubernetes Engine (LKE) API
   slug: linode-linode-kubernetes-engine-lke-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-linode-kubernetes-engine-lke-api-openapi.yml
@@ -118,31 +118,37 @@ description: ''
 domains:
 - caa: []
   dmarc: true
-  dmarc_policy: quarantine
+  dmarc_policy: reject
   dnssec: true
   domain: akamai.com
   spf: true
-- caa: []
-  dmarc: true
-  dmarc_policy: reject
+- caa:
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  - 0 issuewild "amazonaws.com"
+  dmarc: false
   dnssec: false
-  domain: linode.com
-  spf: true
+  domain: readthedocs.io
+  spf: false
 hosts:
-- cert_expires: Sep 10 06:16:17 2026 GMT
+- cert_expires: Nov 19 05:32:09 2026 GMT
   host: techdocs.akamai.com
-  hsts: null
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  7 18:51:00 2026 GMT
-  host: api.linode.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Aug 27 13:13:23 2026 GMT
+- cert_expires: Oct 25 13:31:53 2026 GMT
   host: linode-api4.readthedocs.io
   hsts: true
   hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov 23 08:22:53 2026 GMT
+  host: pkg.go.dev
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -151,15 +157,27 @@ layout: security
 method: probed
 name: Linode Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Linode, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Linode, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Linode
 provider_slug: linode
 slug: linode-domain-security
 source_filename: linode-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: techdocs.akamai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 06:16:17 2026 GMT\n  hsts: null\n- host: api.linode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 18:51:00 2026 GMT\n  hsts: null\n- host: linode-api4.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: akamai.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: linode.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: techdocs.akamai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 05:32:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: linode-api4.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 13:31:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: pkg.go.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 08:22:53 2026 GMT\n  hsts: false\ndomains:\n- domain: akamai.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/security/linode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
-tags: []
+tags:
+- Cloud Computing
+- Infrastructure-as-a-Service
+- Virtual Machines
+- Kubernetes
+- Object Storage
+- Block Storage
+- DNS
+- Managed Database
+- Networking
+- GPU
+- Load Balancer
+- Developer Tools
 ---

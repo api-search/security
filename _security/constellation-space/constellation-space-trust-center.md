@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-
 summary_line: trust center published
 tags:
 - Company
-- Satellites
+- Satellite
 - Space
 - Telemetry
 - Machine-Learning

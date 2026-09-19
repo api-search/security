@@ -36,5 +36,5 @@ tags:
 - Game Studio
 - Real-Estate
 - Entertainment
-- Consumer Apps
+- Consumer App
 ---

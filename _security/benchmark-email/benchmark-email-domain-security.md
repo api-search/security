@@ -50,13 +50,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-contact-reports-metrics-api-openapi.yml
 - filename: benchmark-email-email-editor-api-openapi.yml
   format: yaml
-  label: Benchmark Email Email Editor API
+  label: Benchmark Email Editor API
   slug: benchmark-email-email-editor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-editor-api-openapi.yml
 - filename: benchmark-email-email-email-rss-creation-api-openapi.yml
   format: yaml
-  label: Benchmark Email Email  Email Rss Creation API
+  label: Benchmark Email Rss Creation API
   slug: benchmark-email-email-email-rss-creation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-email-rss-creation-api-openapi.yml
@@ -188,19 +188,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-contact-structure-api-openapi.yml
 - filename: benchmark-email-email-campaign-api-openapi.yml
   format: yaml
-  label: Benchmark Email Email Campaign API
+  label: Benchmark Email Campaign API
   slug: benchmark-email-email-campaign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-campaign-api-openapi.yml
 - filename: benchmark-email-email-domain-api-openapi.yml
   format: yaml
-  label: Benchmark Email Email Domain API
+  label: Benchmark Email Domain API
   slug: benchmark-email-email-domain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-domain-api-openapi.yml
 - filename: benchmark-email-email-template-api-openapi.yml
   format: yaml
-  label: Benchmark Email Email Template API
+  label: Benchmark Email Template API
   slug: benchmark-email-email-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-template-api-openapi.yml

@@ -41,7 +41,6 @@ tags:
 - Marketing
 - Brand Management
 - Digital Asset Management
-- DAM
 - Content
 - GraphQL
 - Creative Operations

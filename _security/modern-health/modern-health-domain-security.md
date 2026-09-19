@@ -37,5 +37,5 @@ tags:
 - Employee Benefits
 - Wellness
 - Digital Health
-- HR Tech
+- Human Resources
 ---

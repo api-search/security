@@ -41,7 +41,7 @@ tags:
 - Aerospace
 - Space
 - Launch Services
-- Satellites
+- Satellite
 - Spacecraft
 - Space Systems
 - Defense

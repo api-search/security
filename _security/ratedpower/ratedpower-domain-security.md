@@ -34,7 +34,7 @@ tags:
 - Company
 - Solar
 - Renewable Energy
-- Photovoltaic
+- Photovoltaics
 - Energy Storage
 - BESS
 - Engineering

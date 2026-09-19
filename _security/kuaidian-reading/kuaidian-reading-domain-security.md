@@ -34,7 +34,7 @@ tags:
 - Reading
 - Publishing
 - Content
-- Mobile Apps
+- Mobile App
 - Social
 - China
 ---

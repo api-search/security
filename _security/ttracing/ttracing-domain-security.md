@@ -35,7 +35,7 @@ tags:
 - Gaming Furniture
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 - Malaysia

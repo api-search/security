@@ -78,12 +78,6 @@ api_specs:
   slug: codag-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-internal-api-openapi.yml
-- filename: codag-oauth-api-openapi.yml
-  format: yaml
-  label: Codag Oauth API
-  slug: codag-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-oauth-api-openapi.yml
 - filename: codag-onboard-api-openapi.yml
   format: yaml
   label: Codag Onboard API
@@ -114,6 +108,12 @@ api_specs:
   slug: codag-whoami-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-whoami-api-openapi.yml
+- filename: codag-oauth-api-openapi.yml
+  format: yaml
+  label: Codag OAUTH API
+  slug: codag-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

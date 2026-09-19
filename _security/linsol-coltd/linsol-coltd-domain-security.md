@@ -33,7 +33,7 @@ tags:
 - Company
 - Safety
 - Industrial Safety
-- Internet of Things
+- IoT
 - Hardware
 - Acoustics
 - Sensors

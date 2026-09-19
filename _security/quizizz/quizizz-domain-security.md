@@ -40,5 +40,5 @@ tags:
 - MCP
 - LTI
 - Rostering
-- Single Sign-On
+- SSO
 ---

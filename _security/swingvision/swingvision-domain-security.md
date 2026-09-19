@@ -38,5 +38,5 @@ tags:
 - Artificial Intelligence
 - Computer-Vision
 - Video Analytics
-- Mobile Apps
+- Mobile App
 ---

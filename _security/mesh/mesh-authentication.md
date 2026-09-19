@@ -102,7 +102,7 @@ tags:
 - Digital Assets
 - Financial-Services
 - Wallets
-- Exchanges
+- Exchange
 - Transfers
 - Stablecoins
 - Embedded Finance

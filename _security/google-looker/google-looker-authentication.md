@@ -47,5 +47,9 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/authentication/google-looker-authentication.yml
 summary_line: http · 1 scheme
-tags: []
+tags:
+- Analytics
+- Business Intelligence
+- Data Visualization
+- Reporting
 ---

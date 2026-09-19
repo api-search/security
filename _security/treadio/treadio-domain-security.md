@@ -18,12 +18,6 @@ api_specs:
   slug: treadio-addoncharges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-addoncharges-api-openapi.yml
-- filename: treadio-addons-api-openapi.yml
-  format: yaml
-  label: tread.io AddOns API
-  slug: treadio-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-addons-api-openapi.yml
 - filename: treadio-agave-api-openapi.yml
   format: yaml
   label: tread.io Agave API
@@ -114,12 +108,6 @@ api_specs:
   slug: treadio-equipmenttype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-equipmenttype-api-openapi.yml
-- filename: treadio-fileattachments-api-openapi.yml
-  format: yaml
-  label: tread.io FileAttachments API
-  slug: treadio-fileattachments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-fileattachments-api-openapi.yml
 - filename: treadio-foremen-api-openapi.yml
   format: yaml
   label: tread.io Foremen API
@@ -138,12 +126,6 @@ api_specs:
   slug: treadio-geofencetriggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-geofencetriggers-api-openapi.yml
-- filename: treadio-iamroles-api-openapi.yml
-  format: yaml
-  label: tread.io IamRoles API
-  slug: treadio-iamroles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-iamroles-api-openapi.yml
 - filename: treadio-integrations-api-openapi.yml
   format: yaml
   label: tread.io Integrations API
@@ -348,6 +330,24 @@ api_specs:
   slug: treadio-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-users-api-openapi.yml
+- filename: treadio-add-ons-api-openapi.yml
+  format: yaml
+  label: tread.io Add Ons API
+  slug: treadio-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-add-ons-api-openapi.yml
+- filename: treadio-file-attachments-api-openapi.yml
+  format: yaml
+  label: tread.io File Attachments API
+  slug: treadio-file-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-file-attachments-api-openapi.yml
+- filename: treadio-iam-roles-api-openapi.yml
+  format: yaml
+  label: tread.io IAM Roles API
+  slug: treadio-iam-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/openapi/treadio-iam-roles-api-openapi.yml
 description: ''
 domains:
 - caa: []

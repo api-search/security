@@ -80,12 +80,12 @@ api_specs:
   slug: iggenix-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iggenix/refs/heads/main/openapi/iggenix-discovery-api-openapi.yml
-- filename: iggenix-oembed-api-openapi.yml
+- filename: iggenix-o-embed-api-openapi.yml
   format: yaml
-  label: IgGenix oEmbed API
-  slug: iggenix-oembed-api
+  label: IgGenix o Embed API
+  slug: iggenix-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iggenix/refs/heads/main/openapi/iggenix-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iggenix/refs/heads/main/openapi/iggenix-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''

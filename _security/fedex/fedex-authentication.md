@@ -50,7 +50,7 @@ tags:
 - Freight
 - Logistics
 - Pickup
-- Rating
+- Ratings
 - Shipping
 - Tracking
 - Webhook

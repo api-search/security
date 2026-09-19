@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: moonscale-liveavatar-api-openapi.yml
+- filename: moonscale-live-avatar-api-openapi.yml
   format: yaml
   label: Moonscale Live Avatar API
-  slug: moonscale-liveavatar-api
+  slug: moonscale-live-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/openapi/moonscale-liveavatar-api-openapi.yml
-- filename: moonscale-videogeneration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/openapi/moonscale-live-avatar-api-openapi.yml
+- filename: moonscale-video-generation-api-openapi.yml
   format: yaml
   label: Moonscale Video Generation API
-  slug: moonscale-videogeneration-api
+  slug: moonscale-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/openapi/moonscale-videogeneration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/openapi/moonscale-video-generation-api-openapi.yml
 description: ''
 domains:
 - caa: []

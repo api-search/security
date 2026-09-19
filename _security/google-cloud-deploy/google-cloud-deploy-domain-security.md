@@ -73,6 +73,6 @@ tags:
 - Deployment
 - DevOps
 - Kubernetes
-- Pipeline
+- Pipelines
 - Release Management
 ---

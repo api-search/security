@@ -27,7 +27,7 @@ tags:
 - Cybersecurity
 - Healthcare
 - Medical Devices
-- Internet of Things
+- IoT
 - Device Security
 - Network Security
 trust_url: https://claroty.com/trust

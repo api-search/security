@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: plaid-plaid-api-openapi.yml
   format: yaml
-  label: Plaid Plaid API
+  label: Plaid API
   slug: plaid-plaid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-plaid-api-openapi.yml

@@ -48,7 +48,7 @@ tags:
 - Tick Data
 - Trading
 - Analytics
-- Equities
+- Stocks
 - ETFs
 - Transaction Cost Analysis
 - Liquidity

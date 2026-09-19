@@ -28,12 +28,6 @@ api_specs:
   slug: image-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-images-api-openapi.yml
-- filename: fabric-origin-common-metadata-api-openapi.yml
-  format: yaml
-  label: Fabric Origin Common Data API
-  slug: common-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-common-metadata-api-openapi.yml
 - filename: fabric-origin-entertainment-api-openapi.yml
   format: yaml
   label: Fabric Origin Entertainment API
@@ -52,60 +46,66 @@ api_specs:
   slug: fabric-origin-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-videos-api-openapi.yml
-- filename: fabric-origin-video-analytics-api-openapi.yml
-  format: yaml
-  label: Fabric Origin Video Analytics API
-  slug: video-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-video-analytics-api-openapi.yml
 - filename: fabric-origin-fandango-api-openapi.yml
   format: yaml
   label: Fabric Origin Fandango API
   slug: fandango-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-fandango-api-openapi.yml
-- filename: fabric-origin-captions-translations-api-openapi.yml
-  format: yaml
-  label: Fabric Origin Captions and Translations API
-  slug: captions-translations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-captions-translations-api-openapi.yml
 - filename: fabric-origin-metacritic-api-openapi.yml
   format: yaml
   label: Fabric Origin Metacritic API
   slug: metacritic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-metacritic-api-openapi.yml
-- filename: fabric-origin-common-sense-media-api-openapi.yml
+- filename: fabric-origin-analytics-api-openapi.yml
   format: yaml
-  label: Fabric Origin Common Sense Media API
-  slug: common-sense-media-api
+  label: Fabric Origin Analytics API
+  slug: fabric-origin-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-common-sense-media-api-openapi.yml
-- filename: fabric-origin-rotten-tomatoes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-analytics-api-openapi.yml
+- filename: fabric-origin-common-api-openapi.yml
   format: yaml
-  label: Fabric Origin Rotten Tomatoes API
-  slug: rotten-tomatoes-api
+  label: Fabric Origin Common API
+  slug: fabric-origin-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rotten-tomatoes-api-openapi.yml
-- filename: fabric-origin-rabbit-recommendations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-common-api-openapi.yml
+- filename: fabric-origin-commonsense-api-openapi.yml
   format: yaml
-  label: Fabric Origin Rabbit Recommendations API
-  slug: rabbit-recommendations-api
+  label: Fabric Origin Commonsense API
+  slug: fabric-origin-commonsense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rabbit-recommendations-api-openapi.yml
-- filename: fabric-origin-tv-grid-online-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-commonsense-api-openapi.yml
+- filename: fabric-origin-katchmedia-api-openapi.yml
   format: yaml
-  label: Fabric Origin TV Grid Online API
-  slug: tv-grid-online-api
+  label: Fabric Origin Katchmedia API
+  slug: fabric-origin-katchmedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-tv-grid-online-api-openapi.yml
-- filename: fabric-origin-katch-media-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-katchmedia-api-openapi.yml
+- filename: fabric-origin-rabbitrecommendations-api-openapi.yml
   format: yaml
-  label: Fabric Origin Katch Media API
-  slug: katch-media-api
+  label: Fabric Origin Rabbitrecommendations API
+  slug: fabric-origin-rabbitrecommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-katch-media-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rabbitrecommendations-api-openapi.yml
+- filename: fabric-origin-rev-api-openapi.yml
+  format: yaml
+  label: Fabric Origin Rev API
+  slug: fabric-origin-rev-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rev-api-openapi.yml
+- filename: fabric-origin-rottentomatoes-api-openapi.yml
+  format: yaml
+  label: Fabric Origin Rottentomatoes API
+  slug: fabric-origin-rottentomatoes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rottentomatoes-api-openapi.yml
+- filename: fabric-origin-tvgrid-api-openapi.yml
+  format: yaml
+  label: Fabric Origin Tvgrid API
+  slug: fabric-origin-tvgrid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-tvgrid-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -145,7 +145,7 @@ tags:
 - Games
 - Celebrities
 - Trailers
-- Images
+- Image
 - TV Listings
 - Market Intelligence
 - Media

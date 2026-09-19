@@ -6,12 +6,6 @@ api_specs:
   slug: orion-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-alerts-api-openapi.yml
-- filename: orion-health-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Orion Health AllergyIntolerance API
-  slug: orion-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-allergyintolerance-api-openapi.yml
 - filename: orion-health-analytics-api-openapi.yml
   format: yaml
   label: Orion Health Analytics API
@@ -30,12 +24,6 @@ api_specs:
   slug: orion-care-programs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-care-programs-api-openapi.yml
-- filename: orion-health-careplan-api-openapi.yml
-  format: yaml
-  label: Orion Health CarePlan API
-  slug: orion-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-careplan-api-openapi.yml
 - filename: orion-health-cohorts-api-openapi.yml
   format: yaml
   label: Orion Health Cohorts API
@@ -72,12 +60,6 @@ api_specs:
   slug: orion-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-diagnosticreport-api-openapi.yml
-- filename: orion-health-documentreference-api-openapi.yml
-  format: yaml
-  label: Orion Health DocumentReference API
-  slug: orion-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-documentreference-api-openapi.yml
 - filename: orion-health-documents-api-openapi.yml
   format: yaml
   label: Orion Health Documents API
@@ -102,12 +84,6 @@ api_specs:
   slug: orion-lookup-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-lookup-tables-api-openapi.yml
-- filename: orion-health-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Orion Health MedicationRequest API
-  slug: orion-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-medicationrequest-api-openapi.yml
 - filename: orion-health-message-queues-api-openapi.yml
   format: yaml
   label: Orion Health Message Queues API
@@ -192,6 +168,30 @@ api_specs:
   slug: orion-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-routes-api-openapi.yml
+- filename: orion-health-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Orion Health Allergy Intolerance API
+  slug: orion-health-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-allergy-intolerance-api-openapi.yml
+- filename: orion-health-care-plan-api-openapi.yml
+  format: yaml
+  label: Orion Health Care plan API
+  slug: orion-health-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-care-plan-api-openapi.yml
+- filename: orion-health-document-reference-api-openapi.yml
+  format: yaml
+  label: Orion Health Document Reference API
+  slug: orion-health-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-document-reference-api-openapi.yml
+- filename: orion-health-medication-request-api-openapi.yml
+  format: yaml
+  label: Orion Health Medication Request API
+  slug: orion-health-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-medication-request-api-openapi.yml
 description: ''
 domains:
 - caa: []

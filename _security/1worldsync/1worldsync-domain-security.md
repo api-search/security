@@ -55,7 +55,6 @@ tags:
 - Master Data
 - Digital Shelf
 - Product Information Management
-- PIM
 - CPG
 - Retail
 - GS1

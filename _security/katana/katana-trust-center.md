@@ -54,12 +54,6 @@ api_specs:
   slug: katana-customeraddresscontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-customeraddresscontroller-api-openapi.yml
-- filename: katana-customercontroller-api-openapi.yml
-  format: yaml
-  label: Katana CustomerController API
-  slug: katana-customercontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-customercontroller-api-openapi.yml
 - filename: katana-customfielddefinitioncontroller-api-openapi.yml
   format: yaml
   label: Katana CustomFieldDefinitionController API
@@ -78,12 +72,6 @@ api_specs:
   slug: katana-demandforecastcontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-demandforecastcontroller-api-openapi.yml
-- filename: katana-factorycontroller-api-openapi.yml
-  format: yaml
-  label: Katana FactoryController API
-  slug: katana-factorycontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-factorycontroller-api-openapi.yml
 - filename: katana-inventorycontroller-api-openapi.yml
   format: yaml
   label: Katana InventoryController API
@@ -102,12 +90,6 @@ api_specs:
   slug: katana-itemscustomfieldscollectioncontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-itemscustomfieldscollectioncontroller-api-openapi.yml
-- filename: katana-locationcontroller-api-openapi.yml
-  format: yaml
-  label: Katana LocationController API
-  slug: katana-locationcontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-locationcontroller-api-openapi.yml
 - filename: katana-maketoordermocontroller-api-openapi.yml
   format: yaml
   label: Katana MakeToOrderMOController API
@@ -354,36 +336,54 @@ api_specs:
   slug: katana-unlinkvariantbinlocationcontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-unlinkvariantbinlocationcontroller-api-openapi.yml
-- filename: katana-userscontroller-api-openapi.yml
-  format: yaml
-  label: Katana UsersController API
-  slug: katana-userscontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-userscontroller-api-openapi.yml
 - filename: katana-variantbinlocationcontroller-api-openapi.yml
   format: yaml
   label: Katana VariantBinLocationController API
   slug: katana-variantbinlocationcontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-variantbinlocationcontroller-api-openapi.yml
-- filename: katana-variantcontroller-api-openapi.yml
-  format: yaml
-  label: Katana VariantController API
-  slug: katana-variantcontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-variantcontroller-api-openapi.yml
-- filename: katana-webhookcontroller-api-openapi.yml
-  format: yaml
-  label: Katana WebhookController API
-  slug: katana-webhookcontroller-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-webhookcontroller-api-openapi.yml
 - filename: katana-webhooklogscontroller-api-openapi.yml
   format: yaml
   label: Katana WebhookLogsController API
   slug: katana-webhooklogscontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-webhooklogscontroller-api-openapi.yml
+- filename: katana-customer-controller-api-openapi.yml
+  format: yaml
+  label: Katana Customer Controller API
+  slug: katana-customer-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-customer-controller-api-openapi.yml
+- filename: katana-factory-controller-api-openapi.yml
+  format: yaml
+  label: Katana Factory Controller API
+  slug: katana-factory-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-factory-controller-api-openapi.yml
+- filename: katana-location-controller-api-openapi.yml
+  format: yaml
+  label: Katana Location Controller API
+  slug: katana-location-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-location-controller-api-openapi.yml
+- filename: katana-users-controller-api-openapi.yml
+  format: yaml
+  label: Katana Users Controller API
+  slug: katana-users-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-users-controller-api-openapi.yml
+- filename: katana-variant-controller-api-openapi.yml
+  format: yaml
+  label: Katana Variant Controller API
+  slug: katana-variant-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-variant-controller-api-openapi.yml
+- filename: katana-webhook-controller-api-openapi.yml
+  format: yaml
+  label: Katana webhook controller API
+  slug: katana-webhook-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/openapi/katana-webhook-controller-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

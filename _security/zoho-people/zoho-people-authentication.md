@@ -88,9 +88,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zoho-peo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/authentication/zoho-people-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- HR
-- HRMS
 - Human Resources
+- HRMS
 - HRIS
 - Employee Management
 - Attendance

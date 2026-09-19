@@ -2,18 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: vanderbilt-television-news-archive-openapi.yml
+- filename: vanderbilt-broadcasts-api-openapi.yml
   format: yaml
-  label: Vanderbilt Television News Archive API
-  slug: television-news-archive
+  label: Vanderbilt University Broadcasts API
+  slug: vanderbilt-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-television-news-archive-openapi.yml
-- filename: vanderbilt-sparql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-broadcasts-api-openapi.yml
+- filename: vanderbilt-metadata-api-openapi.yml
   format: yaml
-  label: Vanderbilt Libraries SPARQL Endpoint
-  slug: sparql
+  label: Vanderbilt University Metadata API
+  slug: vanderbilt-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-sparql-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-metadata-api-openapi.yml
+- filename: vanderbilt-search-api-openapi.yml
+  format: yaml
+  label: Vanderbilt University Search API
+  slug: vanderbilt-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-search-api-openapi.yml
+- filename: vanderbilt-service-api-openapi.yml
+  format: yaml
+  label: Vanderbilt University Service API
+  slug: vanderbilt-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-service-api-openapi.yml
+- filename: vanderbilt-sparql-api-openapi.yml
+  format: yaml
+  label: Vanderbilt University SPARQL API
+  slug: vanderbilt-sparql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-sparql-api-openapi.yml
 auth_types: []
 description: How authentication works across Vanderbilt's institution-operated programmable surfaces. The distinguishing fact for this institution is that its three public read APIs need no credential at all, while everything that touches a person's account runs through Vanderbilt's federated identity estate.
 kind: authentication

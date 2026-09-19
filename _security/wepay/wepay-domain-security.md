@@ -32,7 +32,7 @@ tags:
 - Payments
 - Payment Processing
 - Platform Payments
-- Marketplaces
+- Marketplace
 - Fintech
 - Merchant Onboarding
 - Payouts

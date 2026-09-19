@@ -34,7 +34,7 @@ tags:
 - Job
 - Recruiting
 - Employment
-- Career
+- Careers
 - Internships
 - Human Resources
 - Latin America

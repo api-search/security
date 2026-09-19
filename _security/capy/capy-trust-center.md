@@ -93,7 +93,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Software Engineering
 - Developer Tools
 - Automation

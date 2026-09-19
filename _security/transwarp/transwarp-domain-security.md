@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Big Data
-- Databases
-- Vector Databases
+- Database
+- Vector Database
 - Artificial Intelligence
 - Data Analytics
 - Graph Databases

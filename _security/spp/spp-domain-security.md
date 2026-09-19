@@ -12,12 +12,6 @@ api_specs:
   slug: spp-monitoring-sets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-monitoring-sets-api-openapi.yml
-- filename: spp-real-time-api-openapi.yml
-  format: yaml
-  label: Southwest Power Pool Real Time API
-  slug: spp-real-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-real-time-api-openapi.yml
 - filename: spp-seasonal-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Seasonal API
@@ -36,6 +30,12 @@ api_specs:
   slug: spp-temporary-aar-exceptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-temporary-aar-exceptions-api-openapi.yml
+- filename: spp-realtime-api-openapi.yml
+  format: yaml
+  label: Southwest Power Pool Realtime API
+  slug: spp-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-realtime-api-openapi.yml
 description: ''
 domains:
 - caa: []

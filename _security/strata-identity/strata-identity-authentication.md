@@ -66,10 +66,11 @@ tags:
 - Identity Orchestration
 - Authentication
 - Authorization
-- Single Sign-On
-- IAM
+- SSO
+- Identity and Access Management
 - SAML
 - OpenID Connect
 - AI Identity
 - Security
+- Identity Federation
 ---

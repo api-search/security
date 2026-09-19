@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Herbie Herbie Plan Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Herbie, Herbie Plan, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: Herbie, Herbie Plan
+overview: 'Domain security posture for Herbie, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: Herbie
 provider_slug: herbie-herbie-plan
 slug: herbie-herbie-plan-domain-security
 source_filename: herbie-herbie-plan-domain-security.yml

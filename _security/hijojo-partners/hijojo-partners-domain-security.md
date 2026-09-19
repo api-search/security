@@ -54,7 +54,7 @@ tags:
 - Financial-Services
 - Investment Management
 - Private Markets
-- Secondary Markets
+- Secondary Market
 - Pre-IPO
 - Venture Capital
 - Fintech

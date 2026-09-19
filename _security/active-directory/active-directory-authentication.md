@@ -44,6 +44,12 @@ api_specs:
   slug: active-directory-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-users-api-openapi.yml
+- filename: active-directory-directory-roles-api-openapi.yml
+  format: yaml
+  label: Microsoft Active Directory Roles API
+  slug: microsoft-active-directory-directory-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-directory-roles-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

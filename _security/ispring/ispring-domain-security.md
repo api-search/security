@@ -185,7 +185,7 @@ tags:
 - Learning Management System
 - Training
 - Courses
-- Enrollments
+- Enrollment
 - User
 - Group
 - Reporting

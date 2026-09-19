@@ -1,0 +1,128 @@
+{%- comment -%}
+  One de facto standard. Rendered from _data/standards.yml, which
+  scripts/build_standards.py generates from the api-commons profiles — so the counts here
+  and the counts in the profile cannot drift apart.
+
+  The page leads with HOW IT WAS MEASURED rather than with the numbers, because every one
+  of these standards was measured differently and the method is what makes the tiers mean
+  anything.
+{%- endcomment -%}
+{%- assign s = include.s -%}
+<style>
+  .std-hero { padding: 2rem 0 1rem; border-bottom: 1px solid #e3e7ee; margin-bottom: 1.5rem; }
+  .std-hero .eyebrow { font-family: monospace; font-size: .78rem; text-transform: uppercase; letter-spacing: .09em; color: #6c757d; }
+  .std-hero h1 { font-size: 2.15rem; font-weight: 700; color: #1a1a2e; margin: .35rem 0 .5rem; }
+  .std-hero p.lead { color: #4a5568; max-width: 760px; line-height: 1.65; }
+  .std-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: #e3e7ee; border: 1px solid #e3e7ee; border-radius: 10px; overflow: hidden; margin: 1.5rem 0; }
+  .std-fact { background: #fff; padding: .85rem 1rem; }
+  .std-fact b { display: block; font-family: monospace; font-size: 1.4rem; color: #1a1a2e; font-variant-numeric: tabular-nums; }
+  .std-fact span { font-size: .74rem; color: #6c757d; text-transform: uppercase; letter-spacing: .06em; }
+  .std-sec { margin: 2rem 0; }
+  .std-sec h2 { font-size: 1.25rem; font-weight: 700; color: #1a1a2e; margin-bottom: .5rem; }
+  .std-sec p { color: #4a5568; line-height: 1.65; max-width: 820px; }
+  .std-table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: .75rem 0; }
+  .std-table th { text-align: left; font-size: .72rem; text-transform: uppercase; letter-spacing: .07em; color: #6c757d; padding: .55rem .75rem; border-bottom: 1px solid #dde3ec; }
+  .std-table td { padding: .55rem .75rem; border-bottom: 1px solid #eef1f6; color: #4a5568; vertical-align: top; }
+  .std-table td.k { color: #1a1a2e; font-weight: 600; white-space: nowrap; }
+  .tier-pill { display: inline-block; font-family: monospace; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; padding: .12rem .45rem; border-radius: 4px; }
+  .tier-core { background: #dcebe8; color: #0e6e62; }
+  .tier-extended { background: #f3e8d2; color: #8a5e12; }
+  .tier-vendor { background: #f0e2e3; color: #7e4f55; }
+  .art-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: .65rem; margin-top: .75rem; }
+  .art-card { display: block; border: 1px solid #e3e7ee; border-radius: 8px; padding: .7rem .85rem; text-decoration: none; color: inherit; background: #fff; }
+  .art-card:hover { border-color: #5b21b6; text-decoration: none; color: inherit; }
+  .art-card strong { display: block; color: #1a1a2e; font-size: .92rem; }
+  .art-card code { font-size: .72rem; color: #6c757d; word-break: break-all; }
+  .ops { font-family: monospace; font-size: .84rem; color: #1a1a2e; line-height: 1.9; }
+  .ops span { background: #f4f6f8; border: 1px solid #e3e7ee; border-radius: 4px; padding: .1rem .4rem; margin-right: .3rem; display: inline-block; }
+  .callout { background: #f8fafc; border-left: 4px solid #5b21b6; padding: .9rem 1.1rem; border-radius: 0 8px 8px 0; margin: 1rem 0; color: #4a5568; font-size: .93rem; line-height: 1.6; }
+</style>
+
+<div class="std-hero">
+  <p class="eyebrow">API Commons &middot; {{ s.domain_name }}{% if s.standard_class == 'ratified' %} &middot; ratified standard{% else %} &middot; de facto{% endif %}</p>
+  <h1>{{ s.name }}</h1>
+  <p class="lead">{{ s.cohort_definition }}</p>
+</div>
+
+<div class="std-facts">
+  <div class="std-fact"><b>{{ s.operations }}</b><span>operations graded</span></div>
+  <div class="std-fact"><b>{{ s.tiers.core }}</b><span>core tier</span></div>
+  <div class="std-fact"><b>{{ s.tiers.extended }}</b><span>extended</span></div>
+  <div class="std-fact"><b>{{ s.tiers.vendor }}</b><span>vendor only</span></div>
+  <div class="std-fact"><b>{{ s.adopters.total }}</b><span>adopters recorded</span></div>
+</div>
+
+{% if s.standard_class == 'ratified' %}
+<div class="callout" style="border-left-color:#8a5e12;">
+  <strong>This one was ratified.</strong> {{ s.standard_class_note }}
+</div>
+{% endif %}
+
+<div class="std-sec">
+  <h2>How it was measured</h2>
+  <p>{{ s.measurement }}</p>
+  {% if s.cohort_type == 'version-drift' %}
+  <div class="callout"><strong>This is a version-drift cohort.</strong> These are not independent
+  reimplementations of one interface — they are the same software at different releases, so an
+  absent operation usually means an older install rather than a design decision.</div>
+  {% endif %}
+</div>
+
+{% if s.core_operations and s.core_operations.size > 0 %}
+<div class="std-sec">
+  <h2>The core tier</h2>
+  <p>What a provider has to implement before a compatibility claim means anything. Every
+  placement is measured, and the evidence for each sits in the tier profile.</p>
+  <p class="ops">{% for op in s.core_operations %}<span>{{ op }}</span>{% endfor %}</p>
+</div>
+{% endif %}
+
+<div class="std-sec">
+  <h2>Adopters</h2>
+  <table class="std-table">
+    <thead><tr><th>Evidence</th><th>Count</th><th>What it means</th></tr></thead>
+    <tbody>
+      {% if s.adopters.evidence.tested %}<tr><td class="k">tested</td><td>{{ s.adopters.evidence.tested }}</td><td>The operations were called against a live endpoint.</td></tr>{% endif %}
+      {% if s.adopters.evidence.declared %}<tr><td class="k">declared</td><td>{{ s.adopters.evidence.declared }}</td><td>Publishes a machine-readable spec declaring them.</td></tr>{% endif %}
+      {% assign vm = s.adopters.evidence["vendor-matrix"] %}{% if vm %}<tr><td class="k">vendor-matrix</td><td>{{ vm }}</td><td>Publishes their own compatibility table.</td></tr>{% endif %}
+      {% if s.adopters.evidence.prose %}<tr><td class="k">prose</td><td>{{ s.adopters.evidence.prose }}</td><td>Says so, and publishes nothing a reader can check.</td></tr>{% endif %}
+    </tbody>
+  </table>
+  <p>Every entry in the registry carries the URL it was read from and the date it was read. A
+  claim is never promoted to a verdict.</p>
+
+  {% if s.adopters_reaching and s.adopters_reaching.size > 0 %}
+  <h3 style="font-size:1rem;font-weight:700;color:#1a1a2e;margin:1.25rem 0 .4rem;">Providers that reach a tier</h3>
+  <p style="margin-bottom:.6rem;">{{ s.adopters_reaching_total }} of the {{ s.adopters.total }} recorded adopters demonstrably reach the core tier or better{% if s.adopters_reaching_total > s.adopters_reaching.size %}. The {{ s.adopters_reaching.size }} below link to their catalog pages; the registry and matrix carry the rest{% endif %}.</p>
+  <p class="ops">{% for a in s.adopters_reaching %}<span><a href="https://apis.io/providers/{{ a.slug }}/" style="color:#1a1a2e;text-decoration:none;">{{ a.name }}</a></span>{% endfor %}</p>
+  {% endif %}
+</div>
+
+<div class="std-sec">
+  <h2>Artifacts</h2>
+  <p>Everything this standard publishes. All of it is generated from the profile, so a
+  re-measurement moves every artifact together.</p>
+  <div class="art-grid">
+    {% for a in s.artifacts %}
+    <a class="art-card" href="{{ a.url }}" target="_blank" rel="noopener">
+      <strong>{{ a.label }}</strong>
+      <code>{{ a.url | replace: 'https://raw.githubusercontent.com/api-commons/', '' | replace: 'https://github.com/api-commons/', '' }}</code>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="std-sec">
+  <h2>Source</h2>
+  <table class="std-table">
+    <tbody>
+      <tr><td class="k">Originator</td><td>{{ s.originator }}</td></tr>
+      {% if s.source.repository %}<tr><td class="k">Read from</td><td><a href="{{ s.source.repository }}" target="_blank" rel="noopener">{{ s.source.repository }}</a></td></tr>{% endif %}
+      {% if s.source.license %}<tr><td class="k">Upstream licence</td><td>{{ s.source.license }}</td></tr>{% endif %}
+      {% if s.source.commit %}<tr><td class="k">Pinned at</td><td><code>{{ s.source.commit }}</code></td></tr>{% endif %}
+      <tr><td class="k">API Commons</td><td><a href="{{ s.commons_url }}">{{ s.commons_url }}</a> &middot; <a href="{{ s.repo }}" target="_blank" rel="noopener">{{ s.repo }}</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p><a href="/standards/">&larr; All standards from practice</a></p>

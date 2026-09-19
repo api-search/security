@@ -37,5 +37,5 @@ tags:
 - Errands
 - Property Technology
 - Consumer
-- Apartment
+- Apartments
 ---

@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: wherobots-apikey-api-openapi.yml
-  format: yaml
-  label: Wherobots apikey API
-  slug: wherobots-apikey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-apikey-api-openapi.yml
 - filename: wherobots-audit-log-api-openapi.yml
   format: yaml
   label: Wherobots audit-log API
@@ -207,6 +201,12 @@ api_specs:
   slug: wherobots-workos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-workos-api-openapi.yml
+- filename: wherobots-api-key-api-openapi.yml
+  format: yaml
+  label: Wherobots API Key API
+  slug: wherobots-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-api-key-api-openapi.yml
 auth_types:
 - apiKey
 - http

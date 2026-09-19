@@ -110,7 +110,7 @@ tags:
 - Fintech
 - Private Markets
 - SPV
-- Investments
+- Investment
 - Escrow
 - Fund Administration
 - MENA

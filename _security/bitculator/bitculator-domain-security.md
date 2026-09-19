@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Bitculator Data API
-  slug: bitculator-data-api
+- filename: bitculator-alarms-api-openapi.yml
+  format: yaml
+  label: Bitculator Alarms API
+  slug: bitculator-alarms-api
   spec_type: OpenAPI
-  url: https://bitculator.com/api/v1/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-alarms-api-openapi.yml
+- filename: bitculator-calculators-api-openapi.yml
+  format: yaml
+  label: Bitculator Calculators API
+  slug: bitculator-calculators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-calculators-api-openapi.yml
+- filename: bitculator-coins-api-openapi.yml
+  format: yaml
+  label: Bitculator Coins API
+  slug: bitculator-coins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-coins-api-openapi.yml
+- filename: bitculator-conversion-api-openapi.yml
+  format: yaml
+  label: Bitculator Conversion API
+  slug: bitculator-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-conversion-api-openapi.yml
+- filename: bitculator-editorial-api-openapi.yml
+  format: yaml
+  label: Bitculator Editorial API
+  slug: bitculator-editorial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-editorial-api-openapi.yml
+- filename: bitculator-exchanges-api-openapi.yml
+  format: yaml
+  label: Bitculator Exchanges API
+  slug: bitculator-exchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-exchanges-api-openapi.yml
+- filename: bitculator-global-market-api-openapi.yml
+  format: yaml
+  label: Bitculator Global Market API
+  slug: bitculator-global-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-global-market-api-openapi.yml
+- filename: bitculator-indicators-api-openapi.yml
+  format: yaml
+  label: Bitculator Indicators API
+  slug: bitculator-indicators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-indicators-api-openapi.yml
+- filename: bitculator-liquidations-api-openapi.yml
+  format: yaml
+  label: Bitculator Liquidations API
+  slug: bitculator-liquidations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-liquidations-api-openapi.yml
+- filename: bitculator-markets-api-openapi.yml
+  format: yaml
+  label: Bitculator Markets API
+  slug: bitculator-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-markets-api-openapi.yml
+- filename: bitculator-meta-api-openapi.yml
+  format: yaml
+  label: Bitculator Meta API
+  slug: bitculator-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-meta-api-openapi.yml
+- filename: bitculator-prices-api-openapi.yml
+  format: yaml
+  label: Bitculator Prices API
+  slug: bitculator-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-prices-api-openapi.yml
+- filename: bitculator-sentiment-api-openapi.yml
+  format: yaml
+  label: Bitculator Sentiment API
+  slug: bitculator-sentiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-sentiment-api-openapi.yml
+- filename: bitculator-wallets-api-openapi.yml
+  format: yaml
+  label: Bitculator Wallets API
+  slug: bitculator-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-wallets-api-openapi.yml
+- filename: bitculator-webhooks-api-openapi.yml
+  format: yaml
+  label: Bitculator Webhooks API
+  slug: bitculator-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/openapi/bitculator-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -30,18 +30,18 @@ api_specs:
   slug: inference-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/asyncapi/azure-openai-asyncapi.yml
-- filename: azure-openai-audio-api-openapi.yml
+- filename: microsoft-azure-openai-audio-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Audio API
-  slug: azure-openai-audio-api
+  slug: microsoft-azure-openai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/azure-openai-audio-api-openapi.yml
-- filename: azure-openai-chat-completions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-audio-api-openapi.yml
+- filename: microsoft-azure-openai-chat-completions-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Chat Completions API
-  slug: azure-openai-chat-completions-api
+  slug: microsoft-azure-openai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/azure-openai-chat-completions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,6 +97,6 @@ tags:
 - Embeddings
 - GPT
 - Generative AI
-- Large Language Models
+- LLM
 - OpenAI
 ---

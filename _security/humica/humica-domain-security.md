@@ -45,7 +45,6 @@ tags:
 - Company
 - Human Resources
 - Payroll
-- HR Tech
 - Benefits
 - Applicant Tracking
 - Employer of Record

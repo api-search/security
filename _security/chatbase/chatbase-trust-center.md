@@ -52,7 +52,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence
 - Chatbots
-- AI Agent
+- AI Agents
 - Customer-Support
 - Conversational AI
 trust_url: https://www.chatbase.co/security

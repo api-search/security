@@ -72,7 +72,7 @@ tags:
 - Solar
 - Energy
 - Renewable Energy
-- Photovoltaic
+- Photovoltaics
 - Geospatial
 - Site Selection
 - Engineering Design

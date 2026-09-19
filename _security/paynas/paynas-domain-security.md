@@ -31,9 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paynas/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- HR
-- Payroll
 - Human Resources
+- Payroll
 - Employee Benefits
 - Fintech
 - Payroll Cards

@@ -56,7 +56,7 @@ tags:
 - Operational Risk
 - Risk Management
 - Non-Financial Risk
-- Financial Services
+- Financial-Services
 - Banking
 - Compliance
 - Regulatory Technology

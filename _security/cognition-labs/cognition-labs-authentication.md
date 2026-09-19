@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognition-labs
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- AI Agent
+- AI Agents
 - Autonomous Coding
 - Software Engineering
 - LLM

@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - Enterprise AI
 - Model Fine-Tuning

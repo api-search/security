@@ -75,7 +75,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Roadmapping
 - Product Management
-- OKR
+- OKRs
 - Roadmaps
 - Features
 - Product Strategy

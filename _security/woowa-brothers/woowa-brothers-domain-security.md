@@ -35,7 +35,7 @@ tags:
 - Food Delivery
 - Quick Commerce
 - Logistics
-- Mobile Apps
+- Mobile App
 - South Korea
 - E-Commerce
 ---

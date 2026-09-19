@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Local AI
 - Inference
-- Large Language Models
+- LLM
 - Developer Tools
 - Model Routing
 - Desktop Application

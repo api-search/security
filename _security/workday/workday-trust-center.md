@@ -150,12 +150,6 @@ api_specs:
   slug: workday-pay-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/workday-pay-groups-api-openapi.yml
-- filename: workday-pay-slips-api-openapi.yml
-  format: yaml
-  label: Workday Pay Slips API
-  slug: workday-pay-slips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/workday-pay-slips-api-openapi.yml
 - filename: workday-payroll-inputs-api-openapi.yml
   format: yaml
   label: Workday Payroll Inputs API
@@ -276,6 +270,12 @@ api_specs:
   slug: workday-workers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/workday-workers-api-openapi.yml
+- filename: workday-payslips-api-openapi.yml
+  format: yaml
+  label: Workday Payslips API
+  slug: workday-payslips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/workday-payslips-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

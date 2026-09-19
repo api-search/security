@@ -2,13 +2,13 @@
 api_specs:
 - filename: salesforce-flow-flow-definitions-api-openapi.yml
   format: yaml
-  label: Salesforce Flow Flow Definitions API
+  label: Salesforce Flow Definitions API
   slug: salesforce-flow-flow-definitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-definitions-api-openapi.yml
 - filename: salesforce-flow-flow-interviews-api-openapi.yml
   format: yaml
-  label: Salesforce Flow Flow Interviews API
+  label: Salesforce Flow Interviews API
   slug: salesforce-flow-flow-interviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-interviews-api-openapi.yml

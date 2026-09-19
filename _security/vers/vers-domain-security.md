@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-vm-api-openapi.yml
 - filename: vers-vms-api-openapi.yml
   format: yaml
-  label: Vers vms API
+  label: Vers Vms API
   slug: vers-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/openapi/vers-vms-api-openapi.yml

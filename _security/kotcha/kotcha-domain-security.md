@@ -38,7 +38,7 @@ tags:
 - Health
 - Coaching
 - Artificial Intelligence
-- Mobile Application
+- Mobile Applications
 - Wearables
 - Consumer
 ---

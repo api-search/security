@@ -87,5 +87,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Vector Databases
+- Vector Database
 ---

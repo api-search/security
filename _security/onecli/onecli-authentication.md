@@ -182,7 +182,7 @@ tags:
 - AI Agents
 - Secrets Management
 - Credentials
-- Gateway
+- Gateways
 - Authentication
 - Developer Tools
 - MCP

@@ -55,7 +55,7 @@ tags:
 - Investment Banking
 - Prime Brokerage
 - Fixed Income
-- Equities
+- Stocks
 - Real Estate Finance
 - Market Data
 - SPAC

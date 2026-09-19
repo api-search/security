@@ -34,7 +34,7 @@ tags:
 - Company
 - Construction
 - Payroll
-- HR
+- Human Resources
 - Compliance
 - Fintech
 - Workforce Management

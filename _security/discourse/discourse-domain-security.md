@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/openapi/discourse-categories-api-openapi.yml
 - filename: discourse-discourse-calendar-events-api-openapi.yml
   format: yaml
-  label: Discourse Discourse Calendar - Events API
+  label: Discourse Calendar - Events API
   slug: discourse-discourse-calendar-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/openapi/discourse-discourse-calendar-events-api-openapi.yml

@@ -46,12 +46,6 @@ api_specs:
   slug: appsflyer-add-excluded-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-add-excluded-app-api-openapi.yml
-- filename: appsflyer-additional-identifiers-handling-api-openapi.yml
-  format: yaml
-  label: AppsFlyer Additional Identifiers Handling API
-  slug: appsflyer-additional-identifiers-handling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-additional-identifiers-handling-api-openapi.yml
 - filename: appsflyer-aggregate-user-acquisition-and-retargeting-api-openapi.yml
   format: yaml
   label: AppsFlyer Aggregate (user acquisition and retargeting) API
@@ -148,12 +142,6 @@ api_specs:
   slug: appsflyer-create-audience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-create-audience-api-openapi.yml
-- filename: appsflyer-download-events-api-openapi.yml
-  format: yaml
-  label: AppsFlyer Download Events API
-  slug: appsflyer-download-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-download-events-api-openapi.yml
 - filename: appsflyer-event-types-api-openapi.yml
   format: yaml
   label: AppsFlyer Event Types API
@@ -262,12 +250,6 @@ api_specs:
   slug: appsflyer-managing-users-in-bulk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-managing-users-in-bulk-api-openapi.yml
-- filename: appsflyer-master-report-api-openapi.yml
-  format: yaml
-  label: AppsFlyer Master Report API
-  slug: appsflyer-master-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-master-report-api-openapi.yml
 - filename: appsflyer-measure-first-app-opens-api-openapi.yml
   format: yaml
   label: AppsFlyer Measure first app opens API
@@ -376,12 +358,6 @@ api_specs:
   slug: appsflyer-skan-performance-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-skan-performance-report-api-openapi.yml
-- filename: appsflyer-skan-postbacks-api-openapi.yml
-  format: yaml
-  label: AppsFlyer SKAN postbacks API
-  slug: appsflyer-skan-postbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/openapi/appsflyer-skan-postbacks-api-openapi.yml
 - filename: appsflyer-store-commission-rates-api-openapi.yml
   format: yaml
   label: AppsFlyer Store commission rates API

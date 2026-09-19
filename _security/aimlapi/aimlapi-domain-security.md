@@ -60,12 +60,60 @@ api_specs:
   slug: aimlapi-wip-completions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-wip-completions-api-openapi.yml
-- filename: aimlapi-inference-openapi.yml
+- filename: aimlapi-batches-api-openapi.yml
   format: yaml
-  label: AIMLAPI Inference API
-  slug: aimlapi-inference-api
+  label: AIMLAPI Batches API
+  slug: aimlapi-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-inference-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-batches-api-openapi.yml
+- filename: aimlapi-embeddings-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Embeddings API
+  slug: aimlapi-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-embeddings-api-openapi.yml
+- filename: aimlapi-generate-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Generate API
+  slug: aimlapi-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-generate-api-openapi.yml
+- filename: aimlapi-messages-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Messages API
+  slug: aimlapi-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-messages-api-openapi.yml
+- filename: aimlapi-ocr-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Ocr API
+  slug: aimlapi-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-ocr-api-openapi.yml
+- filename: aimlapi-responses-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Responses API
+  slug: aimlapi-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-responses-api-openapi.yml
+- filename: aimlapi-stt-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Stt API
+  slug: aimlapi-stt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-stt-api-openapi.yml
+- filename: aimlapi-tts-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Tts API
+  slug: aimlapi-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-tts-api-openapi.yml
+- filename: aimlapi-video-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Video API
+  slug: aimlapi-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

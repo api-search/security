@@ -50,12 +50,6 @@ api_specs:
   slug: ritten-insurance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-insurance-api-openapi.yml
-- filename: ritten-oauth-api-openapi.yml
-  format: yaml
-  label: Ritten OAUTH API
-  slug: ritten-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-oauth-api-openapi.yml
 - filename: ritten-organizations-api-openapi.yml
   format: yaml
   label: Ritten Organizations API
@@ -92,6 +86,12 @@ api_specs:
   slug: ritten-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-webhooks-api-openapi.yml
+- filename: ritten-oauth-api-openapi.yml
+  format: yaml
+  label: Ritten OAUTH API
+  slug: ritten-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/openapi/ritten-oauth-api-openapi.yml
 auth_types:
 - oauth2
 - http

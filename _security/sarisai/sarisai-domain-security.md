@@ -34,7 +34,7 @@ tags:
 - Company
 - Fintech
 - Banking
-- Credit Unions
+- Credit Union
 - AI Agents
 - Workflow-Automation
 - Lending

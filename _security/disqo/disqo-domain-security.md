@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disqo/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Audience
+- Audiences
 - Market Research
 - Surveys
 - Consumer Insights

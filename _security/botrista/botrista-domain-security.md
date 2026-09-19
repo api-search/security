@@ -78,7 +78,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Robotics
-- Beverage
+- Beverages
 - Food Service
 - Automation
 - Restaurant Technology

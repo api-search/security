@@ -74,6 +74,6 @@ tags:
 - Shipping
 - Logistics
 - Parcel Delivery
-- Carriers
+- Carrier
 - Fulfillment
 ---

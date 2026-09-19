@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: fieldguide-api-api-openapi.yml
   format: yaml
-  label: Fieldguide api API
+  label: Fieldguide api
   slug: fieldguide-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-api-api-openapi.yml

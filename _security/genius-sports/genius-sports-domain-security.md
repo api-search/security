@@ -134,7 +134,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-sourcerequests-api-openapi.yml
 - filename: genius-sports-sports-api-openapi.yml
   format: yaml
-  label: Genius Sports Sports API
+  label: Genius Sports API
   slug: genius-sports-sports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-sports-api-openapi.yml

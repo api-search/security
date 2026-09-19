@@ -26,12 +26,6 @@ api_specs:
   slug: sense-talent-labs-certification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-certification-api-openapi.yml
-- filename: sense-talent-labs-clientcontact-api-openapi.yml
-  format: yaml
-  label: Sense Talent Labs Client Contact API
-  slug: sense-talent-labs-clientcontact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-clientcontact-api-openapi.yml
 - filename: sense-talent-labs-company-api-openapi.yml
   format: yaml
   label: Sense Talent Labs Company API
@@ -68,6 +62,12 @@ api_specs:
   slug: sense-talent-labs-submission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-submission-api-openapi.yml
+- filename: sense-talent-labs-client-contact-api-openapi.yml
+  format: yaml
+  label: Sense Talent Labs Client Contact API
+  slug: sense-talent-labs-client-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/openapi/sense-talent-labs-client-contact-api-openapi.yml
 auth_types:
 - http
 - oauth2

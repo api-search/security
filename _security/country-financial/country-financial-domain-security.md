@@ -47,7 +47,7 @@ tags:
 - Home Insurance
 - Illinois
 - Insurance
-- Investments
+- Investment
 - Life Insurance
 - Mutual Insurance
 - Retirement Planning

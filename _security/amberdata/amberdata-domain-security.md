@@ -96,12 +96,6 @@ api_specs:
   slug: amberdata-liquidity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-liquidity-api-openapi.yml
-- filename: amberdata-marketcap-api-openapi.yml
-  format: yaml
-  label: Amberdata Marketcap API
-  slug: amberdata-marketcap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-marketcap-api-openapi.yml
 - filename: amberdata-metrics-api-openapi.yml
   format: yaml
   label: Amberdata Metrics API
@@ -168,6 +162,12 @@ api_specs:
   slug: amberdata-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-volumes-api-openapi.yml
+- filename: amberdata-market-cap-api-openapi.yml
+  format: yaml
+  label: Amberdata Market Cap API
+  slug: amberdata-market-cap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-market-cap-api-openapi.yml
 description: ''
 domains:
 - caa: []

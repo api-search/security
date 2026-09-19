@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/openapi/rocketreach-account-api-openapi.yml
 - filename: rocketreach-company-data-api-api-openapi.yml
   format: yaml
-  label: RocketReach Company Data API API
+  label: RocketReach Company Data API
   slug: rocketreach-company-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/openapi/rocketreach-company-data-api-api-openapi.yml
 - filename: rocketreach-people-data-api-api-openapi.yml
   format: yaml
-  label: RocketReach People Data API API
+  label: RocketReach People Data API
   slug: rocketreach-people-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/openapi/rocketreach-people-data-api-api-openapi.yml

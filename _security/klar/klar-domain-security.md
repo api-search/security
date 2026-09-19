@@ -36,7 +36,7 @@ tags:
 - Banking
 - Credit Cards
 - Consumer Lending
-- Investments
+- Investment
 - Insurance
 - Mexico
 - Latin America

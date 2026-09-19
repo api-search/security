@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sigma-al
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/authentication/sigma-aldrich-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Life Science
+- Life Sciences
 - Chemistry
 - Biochemistry
 - Laboratory

@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: listings-api-analytics-api-openapi.yml
   format: yaml
-  label: Listings API
-  slug: listings-api
+  label: Listings API Analytics API
+  slug: listings-api-analytics-api
   spec_type: OpenAPI
-  url: https://listingsapi.com/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-analytics-api-openapi.yml
+- filename: listings-api-connected-accounts-api-openapi.yml
+  format: yaml
+  label: Listings API Connected Accounts API
+  slug: listings-api-connected-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-connected-accounts-api-openapi.yml
+- filename: listings-api-listings-api-openapi.yml
+  format: yaml
+  label: Listings API Listings API
+  slug: listings-api-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-listings-api-openapi.yml
+- filename: listings-api-locations-api-openapi.yml
+  format: yaml
+  label: Listings API Locations API
+  slug: listings-api-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-locations-api-openapi.yml
+- filename: listings-api-posts-api-openapi.yml
+  format: yaml
+  label: Listings API Posts API
+  slug: listings-api-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-posts-api-openapi.yml
+- filename: listings-api-reviews-api-openapi.yml
+  format: yaml
+  label: Listings API Reviews API
+  slug: listings-api-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-reviews-api-openapi.yml
+- filename: listings-api-supporting-apis-api-openapi.yml
+  format: yaml
+  label: Listings API Supporting APIs API
+  slug: listings-api-supporting-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/openapi/listings-api-supporting-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +96,7 @@ summary_line: apiKey · 3 schemes
 tags:
 - Business Listings
 - Local SEO
-- Locations
+- Location
 - Reviews
 - Google Business Profile
 - Analytics

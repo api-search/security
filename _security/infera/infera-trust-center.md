@@ -25,7 +25,7 @@ tags:
 - Biotech
 - Life Sciences
 - Artificial Intelligence
-- Protocols
+- Protocol
 - Software-as-a-Service
 - Automation
 trust_url: https://www.infera.bio/security

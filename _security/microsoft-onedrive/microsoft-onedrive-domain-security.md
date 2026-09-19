@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-onedrive-driveitems-api-openapi.yml
-  format: yaml
-  label: Microsoft OneDrive DriveItems API
-  slug: microsoft-onedrive-driveitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-driveitems-api-openapi.yml
 - filename: microsoft-onedrive-drives-api-openapi.yml
   format: yaml
   label: Microsoft OneDrive Drives API
@@ -18,6 +12,12 @@ api_specs:
   slug: microsoft-onedrive-sharing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-sharing-api-openapi.yml
+- filename: microsoft-onedrive-drive-items-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Drive Items API
+  slug: microsoft-onedrive-drive-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-drive-items-api-openapi.yml
 description: ''
 domains:
 - caa:

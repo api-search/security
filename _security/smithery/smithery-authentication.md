@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - MCP
 - AI Agents
 - Developer Tools

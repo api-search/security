@@ -6,12 +6,6 @@ api_specs:
   slug: nooks-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-accounts-api-openapi.yml
-- filename: nooks-calldispositions-api-openapi.yml
-  format: yaml
-  label: Nooks Call Dispositions API
-  slug: nooks-calldispositions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-calldispositions-api-openapi.yml
 - filename: nooks-calls-api-openapi.yml
   format: yaml
   label: Nooks Calls API
@@ -24,12 +18,6 @@ api_specs:
   slug: nooks-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-emails-api-openapi.yml
-- filename: nooks-emailtemplates-api-openapi.yml
-  format: yaml
-  label: Nooks Email Templates API
-  slug: nooks-emailtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-emailtemplates-api-openapi.yml
 - filename: nooks-introspection-api-openapi.yml
   format: yaml
   label: Nooks Introspection API
@@ -44,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-mailboxes-api-openapi.yml
 - filename: nooks-nooks-sequencing-api-api-openapi.yml
   format: yaml
-  label: Nooks Nooks Sequencing API
+  label: Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-nooks-sequencing-api-api-openapi.yml
@@ -66,12 +54,6 @@ api_specs:
   slug: nooks-sequences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequences-api-openapi.yml
-- filename: nooks-sequencestates-api-openapi.yml
-  format: yaml
-  label: Nooks Sequence States API
-  slug: nooks-sequencestates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequencestates-api-openapi.yml
 - filename: nooks-sequencesteps-api-openapi.yml
   format: yaml
   label: Nooks Sequence Steps API
@@ -90,6 +72,24 @@ api_specs:
   slug: nooks-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-users-api-openapi.yml
+- filename: nooks-call-dispositions-api-openapi.yml
+  format: yaml
+  label: Nooks Call Dispositions API
+  slug: nooks-call-dispositions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-call-dispositions-api-openapi.yml
+- filename: nooks-email-templates-api-openapi.yml
+  format: yaml
+  label: Nooks Email Templates API
+  slug: nooks-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-email-templates-api-openapi.yml
+- filename: nooks-sequence-states-api-openapi.yml
+  format: yaml
+  label: Nooks Sequence States API
+  slug: nooks-sequence-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequence-states-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2 Type 2

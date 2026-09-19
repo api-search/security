@@ -209,7 +209,7 @@ tags:
 - Hotels
 - Rail
 - Car Rental
-- Expense
+- Expenses
 - Duty of Care
 - Reporting
 ---

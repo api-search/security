@@ -24,7 +24,6 @@ tags:
 - Legal Tech
 - Legal AI
 - Contract Lifecycle Management
-- CLM
 - Contract Management
 - Electronic Signature
 - Artificial Intelligence

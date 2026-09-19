@@ -91,9 +91,9 @@ tags:
 - Identity and Access Management
 - Data Security
 - Agents
-- Model Context Protocol
+- MCP
 - Infrastructure
-- Databases
+- Database
 - Kubernetes
 - Compliance
 - Audit

@@ -35,12 +35,12 @@ tags:
 - unblock
 - no account
 - no install
-- browser
+- Browser
 - agent-native
 - WebMCP
-- llms.txt
-- privacy
-- anonymity
+- llms-txt
+- Privacy
+- Anonymity
 - network filtering circumvention
 - consumer utility
 ---

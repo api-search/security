@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acto/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Sales Enablement
 - Learning Management
 - Field Force Effectiveness

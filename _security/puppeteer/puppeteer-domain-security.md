@@ -31,6 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Browser Automation
-- Headless Browsers
+- Headless Browser
 - Scraping
 ---

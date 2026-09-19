@@ -106,7 +106,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Music
 - Lyrics
-- Annotations
+- Annotation
 - Crowdsourced
 - Reference Data
 - Public APIs

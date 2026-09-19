@@ -60,12 +60,6 @@ api_specs:
   slug: hiro-mempool-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-mempool-api-openapi.yml
-- filename: hiro-microblocks-api-openapi.yml
-  format: yaml
-  label: Hiro Microblocks API
-  slug: hiro-microblocks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-microblocks-api-openapi.yml
 - filename: hiro-mining-api-openapi.yml
   format: yaml
   label: Hiro Mining API
@@ -144,6 +138,12 @@ api_specs:
   slug: hiro-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-transactions-api-openapi.yml
+- filename: hiro-micro-blocks-api-openapi.yml
+  format: yaml
+  label: Hiro Micro Blocks API
+  slug: hiro-micro-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-micro-blocks-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -39,6 +39,6 @@ tags:
 - Pensions
 - Open Banking
 - Consumer Finance
-- Mobile Apps
+- Mobile App
 - United Kingdom
 ---

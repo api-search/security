@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charlieh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/authentication/charliehr-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - Leave

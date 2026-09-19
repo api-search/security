@@ -59,7 +59,7 @@ tags:
 - Company
 - Chatbots
 - Conversational AI
-- Voice Assistants
+- Voice Assistant
 - Bot Design
 - Prototyping
 - Developer Tools

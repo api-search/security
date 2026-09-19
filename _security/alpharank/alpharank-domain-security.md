@@ -34,7 +34,7 @@ tags:
 - Company
 - Financial-Services
 - Banking
-- Credit Unions
+- Credit Union
 - Analytics
 - Marketing
 - Fintech

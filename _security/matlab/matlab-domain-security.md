@@ -19,14 +19,14 @@ domains:
   dmarc_policy: reject
   dnssec: false
   domain: thingspeak.com
-  spf: false
+  spf: true
 hosts:
 - cert_expires: Oct 25 23:59:59 2026 GMT
   host: www.mathworks.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug  4 23:59:59 2026 GMT
+- cert_expires: Jan 28 23:59:59 2027 GMT
   host: api.thingspeak.com
   hsts: false
   https: true
@@ -44,7 +44,7 @@ slug: matlab-domain-security
 source_filename: matlab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mathworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: null\n- host: api.thingspeak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: mathworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: thingspeak.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mathworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: null\n- host: api.thingspeak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: mathworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: thingspeak.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/security/matlab-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

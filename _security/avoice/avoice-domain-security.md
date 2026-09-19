@@ -37,7 +37,7 @@ tags:
 - AECO
 - AI Agents
 - Design Automation
-- Specifications
+- Specification
 - Construction Administration
 - Productivity
 - Y Combinator

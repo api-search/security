@@ -50,7 +50,7 @@ tags:
 - Sports Statistics
 - Media and Entertainment
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - GraphQL
 - Fantasy Sports
 ---

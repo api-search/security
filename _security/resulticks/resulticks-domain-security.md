@@ -52,7 +52,7 @@ tags:
 - Customer Data Platform
 - MarTech
 - Campaign Management
-- Audience
+- Audiences
 - Analytics
 - Messaging
 - SMS

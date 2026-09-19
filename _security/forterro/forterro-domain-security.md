@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - ERP
-- Enterprise Resource Planning
 - Industrial Software
 - Manufacturing
 - Warehouse Management

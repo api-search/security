@@ -4,12 +4,78 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: api-league-openapi.json
-  format: json
-  label: API League Platform
-  slug: api-league-platform
+- filename: api-league-art-api-openapi.yml
+  format: yaml
+  label: API League Art API
+  slug: api-league-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/_original/api-league-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-art-api-openapi.yml
+- filename: api-league-books-api-openapi.yml
+  format: yaml
+  label: API League Books API
+  slug: api-league-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-books-api-openapi.yml
+- filename: api-league-food-api-openapi.yml
+  format: yaml
+  label: API League Food API
+  slug: api-league-food-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-food-api-openapi.yml
+- filename: api-league-games-api-openapi.yml
+  format: yaml
+  label: API League Games API
+  slug: api-league-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-games-api-openapi.yml
+- filename: api-league-humor-api-openapi.yml
+  format: yaml
+  label: API League Humor API
+  slug: api-league-humor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-humor-api-openapi.yml
+- filename: api-league-knowledge-api-openapi.yml
+  format: yaml
+  label: API League Knowledge API
+  slug: api-league-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-knowledge-api-openapi.yml
+- filename: api-league-math-api-openapi.yml
+  format: yaml
+  label: API League Math API
+  slug: api-league-math-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-math-api-openapi.yml
+- filename: api-league-media-api-openapi.yml
+  format: yaml
+  label: API League Media API
+  slug: api-league-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-media-api-openapi.yml
+- filename: api-league-news-api-openapi.yml
+  format: yaml
+  label: API League News API
+  slug: api-league-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-news-api-openapi.yml
+- filename: api-league-storage-api-openapi.yml
+  format: yaml
+  label: API League Storage API
+  slug: api-league-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-storage-api-openapi.yml
+- filename: api-league-text-api-openapi.yml
+  format: yaml
+  label: API League Text API
+  slug: api-league-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-text-api-openapi.yml
+- filename: api-league-web-api-openapi.yml
+  format: yaml
+  label: API League Web API
+  slug: api-league-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-web-api-openapi.yml
 auth_types:
 - apiKey
 description: 'API League authenticates with a single API key and nothing else. There is no OAuth, no OIDC, no scopes, no service accounts and no key rotation surface documented — one key grants the whole 55-operation surface, and the plan attached to that key is what varies. Two interchangeable apiKey schemes are declared in the OpenAPI and applied globally, and the provider documents both: `?api-key=YOUR-API-KEY` in the query string, or the `x-api-key` request header.
@@ -77,12 +143,8 @@ tags:
 - Books
 - Developer Tools
 - Food
-- Games
 - Humor
-- Media
 - News
-- OpenAPI
 - SDK
 - Text Processing
-- Web Scraping
 ---

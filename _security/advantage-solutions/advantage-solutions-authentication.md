@@ -62,12 +62,6 @@ api_specs:
   slug: advantage-solutions-mrktblog-posts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/openapi/advantage-solutions-mrktblog-posts-api-openapi.yml
-- filename: advantage-solutions-oembed-api-openapi.yml
-  format: yaml
-  label: Advantage Solutions Oembed API
-  slug: advantage-solutions-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/openapi/advantage-solutions-oembed-api-openapi.yml
 - filename: advantage-solutions-pages-api-openapi.yml
   format: yaml
   label: Advantage Solutions Pages API
@@ -134,6 +128,12 @@ api_specs:
   slug: advantage-solutions-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/openapi/advantage-solutions-users-api-openapi.yml
+- filename: advantage-solutions-o-embed-api-openapi.yml
+  format: yaml
+  label: Advantage Solutions o Embed API
+  slug: advantage-solutions-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/openapi/advantage-solutions-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''

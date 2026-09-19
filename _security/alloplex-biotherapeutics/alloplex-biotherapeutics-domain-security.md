@@ -12,12 +12,6 @@ api_specs:
   slug: alloplex-biotherapeutics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/openapi/alloplex-biotherapeutics-media-api-openapi.yml
-- filename: alloplex-biotherapeutics-oembed-api-openapi.yml
-  format: yaml
-  label: Alloplex Biotherapeutics Oembed API
-  slug: alloplex-biotherapeutics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/openapi/alloplex-biotherapeutics-oembed-api-openapi.yml
 - filename: alloplex-biotherapeutics-pages-api-openapi.yml
   format: yaml
   label: Alloplex Biotherapeutics Pages API
@@ -42,6 +36,12 @@ api_specs:
   slug: alloplex-biotherapeutics-taxonomy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/openapi/alloplex-biotherapeutics-taxonomy-api-openapi.yml
+- filename: alloplex-biotherapeutics-o-embed-api-openapi.yml
+  format: yaml
+  label: Alloplex Biotherapeutics o Embed API
+  slug: alloplex-biotherapeutics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/openapi/alloplex-biotherapeutics-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

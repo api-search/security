@@ -98,12 +98,6 @@ api_specs:
   slug: auth0-db-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-db-connections-api-openapi.yml
-- filename: auth0-dbconnections-api-openapi.yml
-  format: yaml
-  label: Auth0 DbConnections API
-  slug: auth0-dbconnections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-dbconnections-api-openapi.yml
 - filename: auth0-deprecated-authenticate-api-openapi.yml
   format: yaml
   label: Auth0 Deprecated > Authenticate API
@@ -490,4 +484,5 @@ tags:
 - SAML
 - Security
 - SCIM
+- Identity Federation
 ---

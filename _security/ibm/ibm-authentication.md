@@ -80,7 +80,7 @@ tags:
 - Cloud Computing
 - Containers
 - Data Governance
-- Databases
+- Database
 - DevOps
 - Enterprise
 - Generative AI

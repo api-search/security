@@ -53,5 +53,5 @@ tags:
 - agent-native
 - Arazzo
 - JSON-Schema
-- AgentSkill
+- Agent Skills
 ---

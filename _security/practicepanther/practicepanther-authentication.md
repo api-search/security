@@ -20,18 +20,6 @@ api_specs:
   slug: practicepanther-activity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-activity-api-openapi.yml
-- filename: practicepanther-customfield-api-openapi.yml
-  format: yaml
-  label: PracticePanther CustomField API
-  slug: practicepanther-customfield-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-customfield-api-openapi.yml
-- filename: practicepanther-emailtemplate-api-openapi.yml
-  format: yaml
-  label: PracticePanther EmailTemplate API
-  slug: practicepanther-emailtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-emailtemplate-api-openapi.yml
 - filename: practicepanther-expense-api-openapi.yml
   format: yaml
   label: PracticePanther Expense API
@@ -80,24 +68,12 @@ api_specs:
   slug: practicepanther-relationship-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-relationship-api-openapi.yml
-- filename: practicepanther-salestax-api-openapi.yml
-  format: yaml
-  label: PracticePanther SalesTax API
-  slug: practicepanther-salestax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-salestax-api-openapi.yml
 - filename: practicepanther-tag-api-openapi.yml
   format: yaml
   label: PracticePanther Tag API
   slug: practicepanther-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-tag-api-openapi.yml
-- filename: practicepanther-timeentry-api-openapi.yml
-  format: yaml
-  label: PracticePanther TimeEntry API
-  slug: practicepanther-timeentry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-timeentry-api-openapi.yml
 - filename: practicepanther-user-api-openapi.yml
   format: yaml
   label: PracticePanther User API
@@ -176,12 +152,6 @@ api_specs:
   slug: practicepanther-v1depositslipspdf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-v1depositslipspdf-api-openapi.yml
-- filename: practicepanther-v1expenses-api-openapi.yml
-  format: yaml
-  label: PracticePanther V1Expenses API
-  slug: practicepanther-v1expenses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-v1expenses-api-openapi.yml
 - filename: practicepanther-v1firmpayments-api-openapi.yml
   format: yaml
   label: PracticePanther V1FirmPayments API
@@ -242,6 +212,36 @@ api_specs:
   slug: practicepanther-v1trustbooksonboardingnotifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-v1trustbooksonboardingnotifications-api-openapi.yml
+- filename: practicepanther-custom-field-api-openapi.yml
+  format: yaml
+  label: PracticePanther Custom Field API
+  slug: practicepanther-custom-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-custom-field-api-openapi.yml
+- filename: practicepanther-email-template-api-openapi.yml
+  format: yaml
+  label: PracticePanther Email Template API
+  slug: practicepanther-email-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-email-template-api-openapi.yml
+- filename: practicepanther-sales-tax-api-openapi.yml
+  format: yaml
+  label: PracticePanther Sales tax API
+  slug: practicepanther-sales-tax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-sales-tax-api-openapi.yml
+- filename: practicepanther-time-entry-api-openapi.yml
+  format: yaml
+  label: PracticePanther Time entry API
+  slug: practicepanther-time-entry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-time-entry-api-openapi.yml
+- filename: practicepanther-v1-expenses-api-openapi.yml
+  format: yaml
+  label: PracticePanther v1 - Expenses API
+  slug: practicepanther-v1-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-v1-expenses-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

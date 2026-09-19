@@ -12,12 +12,6 @@ api_specs:
   slug: leanlaw-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-codes-api-openapi.yml
-- filename: leanlaw-customfield-api-openapi.yml
-  format: yaml
-  label: LeanLaw Custom Field API
-  slug: leanlaw-customfield-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-customfield-api-openapi.yml
 - filename: leanlaw-expense-api-openapi.yml
   format: yaml
   label: LeanLaw Expense API
@@ -48,18 +42,24 @@ api_specs:
   slug: leanlaw-practicearea-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-practicearea-api-openapi.yml
-- filename: leanlaw-timeentry-api-openapi.yml
-  format: yaml
-  label: LeanLaw Time Entry API
-  slug: leanlaw-timeentry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-timeentry-api-openapi.yml
 - filename: leanlaw-user-api-openapi.yml
   format: yaml
   label: LeanLaw User API
   slug: leanlaw-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-user-api-openapi.yml
+- filename: leanlaw-custom-field-api-openapi.yml
+  format: yaml
+  label: LeanLaw Custom Field API
+  slug: leanlaw-custom-field-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-custom-field-api-openapi.yml
+- filename: leanlaw-time-entry-api-openapi.yml
+  format: yaml
+  label: LeanLaw Time entry API
+  slug: leanlaw-time-entry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-time-entry-api-openapi.yml
 description: ''
 domains:
 - caa: []

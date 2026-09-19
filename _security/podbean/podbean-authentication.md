@@ -26,18 +26,18 @@ api_specs:
   slug: podbean-file-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-file-upload-api-openapi.yml
-- filename: podbean-oembed-api-openapi.yml
-  format: yaml
-  label: Podbean oEmbed API
-  slug: podbean-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-oembed-api-openapi.yml
 - filename: podbean-podcast-api-openapi.yml
   format: yaml
   label: Podbean Podcast API
   slug: podbean-podcast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-podcast-api-openapi.yml
+- filename: podbean-o-embed-api-openapi.yml
+  format: yaml
+  label: Podbean o Embed API
+  slug: podbean-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-o-embed-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

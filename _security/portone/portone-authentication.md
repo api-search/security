@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: portone-b2b-api-openapi.yml
-  format: yaml
-  label: PortOne B2b API
-  slug: portone-b2b-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-b2b-api-openapi.yml
 - filename: portone-banks-api-openapi.yml
   format: yaml
   label: PortOne Banks API
@@ -116,6 +110,12 @@ api_specs:
   slug: portone-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-token-api-openapi.yml
+- filename: portone-b2-b-api-openapi.yml
+  format: yaml
+  label: PortOne B2 B API
+  slug: portone-b2-b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-b2-b-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -164,7 +164,7 @@ tags:
 - Payments
 - Payment Orchestration
 - Fintech
-- Korea
+- South Korea
 - Billing
 - Identity Verification
 ---

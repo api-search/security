@@ -6,12 +6,6 @@ api_specs:
   slug: materials-project-defect-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/materials-project/refs/heads/main/openapi/materials-project-defect-tasks-api-openapi.yml
-- filename: materials-project-dois-api-openapi.yml
-  format: yaml
-  label: Materials Project DOIs API
-  slug: materials-project-dois-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-project/refs/heads/main/openapi/materials-project-dois-api-openapi.yml
 - filename: materials-project-jcesr-electrolyte-genome-api-openapi.yml
   format: yaml
   label: Materials Project JCESR Electrolyte Genome API
@@ -174,6 +168,12 @@ api_specs:
   slug: materials-project-molecules-summary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/materials-project/refs/heads/main/openapi/materials-project-molecules-summary-api-openapi.yml
+- filename: materials-project-dois-api-openapi.yml
+  format: yaml
+  label: Materials Project DO Is API
+  slug: materials-project-dois-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materials-project/refs/heads/main/openapi/materials-project-dois-api-openapi.yml
 description: ''
 domains:
 - caa: []

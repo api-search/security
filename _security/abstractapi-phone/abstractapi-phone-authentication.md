@@ -41,7 +41,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Number Verification
 - Phone Validation
-- Phone Number
+- Phone Numbers
 - Phone Number Lookup
 - Verification
 - Carrier Lookup

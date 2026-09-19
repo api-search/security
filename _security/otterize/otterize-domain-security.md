@@ -44,6 +44,6 @@ tags:
 - Cloud Native Security
 - Zero Trust
 - DevSecOps
-- IAM
+- Identity and Access Management
 - Open-Source
 ---

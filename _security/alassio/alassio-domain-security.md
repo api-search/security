@@ -34,7 +34,6 @@ tags:
 - Financial-Services
 - Payroll
 - Human Resources
-- HR Tech
 - Payroll Software
 - Software-as-a-Service
 - France

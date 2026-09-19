@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: striim-tql-files-rest-api-5-4-0-2-openapi.yml
+- filename: striim-application-api-openapi.yml
   format: yaml
-  label: Striim Application Management REST API
-  slug: striim-application-management-rest-api
+  label: Striim Application API
+  slug: striim-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tql-files-rest-api-5-4-0-2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-application-api-openapi.yml
+- filename: striim-applicationmetadata-api-openapi.yml
+  format: yaml
+  label: Striim Application Metadata API
+  slug: striim-applicationmetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-applicationmetadata-api-openapi.yml
+- filename: striim-checkpoint-api-openapi.yml
+  format: yaml
+  label: Striim Checkpoint API
+  slug: striim-checkpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-checkpoint-api-openapi.yml
+- filename: striim-monitoring-api-openapi.yml
+  format: yaml
+  label: Striim Monitoring API
+  slug: striim-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-monitoring-api-openapi.yml
+- filename: striim-template-api-openapi.yml
+  format: yaml
+  label: Striim Template API
+  slug: striim-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-template-api-openapi.yml
+- filename: striim-tqlfiles-api-openapi.yml
+  format: yaml
+  label: Striim Tqlfiles API
+  slug: striim-tqlfiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tqlfiles-api-openapi.yml
+- filename: striim-tungsten-api-openapi.yml
+  format: yaml
+  label: Striim Tungsten API
+  slug: striim-tungsten-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tungsten-api-openapi.yml
 description: ''
 domains:
 - caa:

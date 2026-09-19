@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-data-pump-api-openapi.yml
 - filename: oracle-database-database-homes-api-openapi.yml
   format: yaml
-  label: Oracle Database Database Homes API
+  label: Oracle Database Homes API
   slug: oracle-database-database-homes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-database-homes-api-openapi.yml

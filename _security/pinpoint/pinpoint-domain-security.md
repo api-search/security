@@ -65,6 +65,6 @@ tags:
 - ATS
 - Recruitment
 - Hiring
-- HR Tech
+- Human Resources
 - JSON:API
 ---

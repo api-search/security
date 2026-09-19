@@ -25,6 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeship/refs/
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - Continuous Integration
+- Developer Tools
 - Public APIs
 trust_url: https://trust.cloudbees.com/
 ---

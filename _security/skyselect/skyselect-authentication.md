@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyselect/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Aviation
 - Procurement
 - Supply Chain

@@ -36,7 +36,7 @@ tags:
 - Profile Page
 - Personal Branding
 - Website Builder
-- Landing Page
+- Landing Pages
 - Portfolio
 - Artificial Intelligence
 - Lead Capture

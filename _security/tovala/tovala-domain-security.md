@@ -48,7 +48,7 @@ tags:
 - Meal Delivery
 - Smart Ovens
 - Kitchen Appliances
-- Internet of Things
+- IoT
 - Consumer
 - Food Technology
 ---

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: quorum-divisionorders-api-openapi.yml
-  format: yaml
-  label: Quorum Software DivisionOrders API
-  slug: quorum-divisionorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-divisionorders-api-openapi.yml
 - filename: quorum-leases-api-openapi.yml
   format: yaml
   label: Quorum Software Leases API
@@ -30,6 +24,12 @@ api_specs:
   slug: quorum-wells-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-wells-api-openapi.yml
+- filename: quorum-division-orders-api-openapi.yml
+  format: yaml
+  label: Quorum Software Division Orders API
+  slug: quorum-division-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-division-orders-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

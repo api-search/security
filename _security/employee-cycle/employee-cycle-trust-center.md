@@ -21,7 +21,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employee-cycle
 summary_line: SOC 2, GDPR, CCPA
 tags:
 - Company
-- HR
 - Human Resources
 - People Analytics
 - HR Analytics

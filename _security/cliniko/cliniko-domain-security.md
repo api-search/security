@@ -93,6 +93,6 @@ tags:
 - Patients
 - EHR
 - Clinics
-- Bookings
+- Booking
 - Software-as-a-Service
 ---

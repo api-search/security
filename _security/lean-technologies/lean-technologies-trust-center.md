@@ -36,12 +36,6 @@ api_specs:
   slug: lean-technologies-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-balances-api-openapi.yml
-- filename: lean-technologies-bank-api-openapi.yml
-  format: yaml
-  label: Lean Technologies Bank API
-  slug: lean-technologies-bank-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-bank-api-openapi.yml
 - filename: lean-technologies-bank-statements-report-api-openapi.yml
   format: yaml
   label: Lean Technologies Bank Statements Report API
@@ -78,12 +72,6 @@ api_specs:
   slug: lean-technologies-cashflow-patterns-new-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-cashflow-patterns-new-api-openapi.yml
-- filename: lean-technologies-cashflows-api-openapi.yml
-  format: yaml
-  label: Lean Technologies Cashflows API
-  slug: lean-technologies-cashflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-cashflows-api-openapi.yml
 - filename: lean-technologies-consents-account-on-file-api-openapi.yml
   format: yaml
   label: Lean Technologies Consents Account On File API
@@ -144,12 +132,6 @@ api_specs:
   slug: lean-technologies-direct-debits-raw-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-direct-debits-raw-data-api-openapi.yml
-- filename: lean-technologies-enrichment-api-openapi.yml
-  format: yaml
-  label: Lean Technologies Enrichment API
-  slug: lean-technologies-enrichment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-enrichment-api-openapi.yml
 - filename: lean-technologies-entities-api-openapi.yml
   format: yaml
   label: Lean Technologies Entities API
@@ -402,6 +384,12 @@ api_specs:
   slug: lean-technologies-transactions-raw-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-transactions-raw-data-api-openapi.yml
+- filename: lean-technologies-cash-flows-api-openapi.yml
+  format: yaml
+  label: Lean Technologies Cash Flows API
+  slug: lean-technologies-cash-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-cash-flows-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II
@@ -429,7 +417,7 @@ tags:
 - Financial Data
 - Fintech
 - MENA
-- UAE
+- United Arab Emirates
 - Saudi Arabia
 - Pay by Bank
 - Bank Data

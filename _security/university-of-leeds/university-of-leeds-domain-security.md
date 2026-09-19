@@ -1,29 +1,35 @@
 ---
 api_specs:
-- filename: university-of-leeds-research-data-oai-pmh-openapi.yml
+- filename: university-of-leeds-facets-api-openapi.yml
   format: yaml
-  label: Research Data Leeds Repository (OAI-PMH)
-  slug: research-data-oai
+  label: University of Leeds Facets API
+  slug: university-of-leeds-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-research-data-oai-pmh-openapi.yml
-- filename: university-of-leeds-digital-library-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-facets-api-openapi.yml
+- filename: university-of-leeds-iiif-image-api-openapi.yml
   format: yaml
-  label: Leeds Digital Library (OAI-PMH and OpenSearch)
-  slug: digital-library
+  label: University of Leeds IIIF Image API
+  slug: university-of-leeds-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-digital-library-openapi.yml
-- filename: university-of-leeds-spacefinder-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-iiif-image-api-openapi.yml
+- filename: university-of-leeds-oai-pmh-api-openapi.yml
   format: yaml
-  label: Spacefinder Campus Space Data
-  slug: spacefinder
+  label: University of Leeds OAI PMH API
+  slug: university-of-leeds-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-spacefinder-openapi.yml
-- filename: university-of-leeds-library-floorplans-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-oai-pmh-api-openapi.yml
+- filename: university-of-leeds-spaces-api-openapi.yml
   format: yaml
-  label: Library Floor Plans IIIF Image API
-  slug: library-floorplans-iiif
+  label: University of Leeds Spaces API
+  slug: university-of-leeds-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-library-floorplans-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-spaces-api-openapi.yml
+- filename: university-of-leeds-open-search-api-openapi.yml
+  format: yaml
+  label: University of Leeds Open Search API
+  slug: university-of-leeds-open-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-leeds/refs/heads/main/openapi/university-of-leeds-open-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

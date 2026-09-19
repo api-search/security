@@ -20,7 +20,7 @@ summary_line: trust center published
 tags:
 - Digital Banking
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Fintech
 - Core Banking

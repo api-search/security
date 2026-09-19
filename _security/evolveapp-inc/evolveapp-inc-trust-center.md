@@ -26,7 +26,7 @@ tags:
 - Corporate Training
 - EdTech
 - Enablement
-- Assessments
-- Simulations
+- Assessment
+- Simulation
 trust_url: https://trust.evolveplatform.ai/
 ---

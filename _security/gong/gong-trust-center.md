@@ -180,7 +180,7 @@ summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27017, ISO/IEC 27018, IS
 tags:
 - Sales
 - Revenue Intelligence
-- Conversation
+- Conversations
 - Analytics
 - Artificial Intelligence
 - Conversation Intelligence

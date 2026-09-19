@@ -87,7 +87,7 @@ summary_line: http · 2 schemes
 tags:
 - HCM
 - Workforce Management
-- HR
+- Human Resources
 - Payroll
 - Time and Attendance
 - Benefits

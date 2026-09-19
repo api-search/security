@@ -49,10 +49,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llama/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Machine-Learning
 - Meta
 - Open-Source
-- LLM
 - Natural Language Processing
 ---

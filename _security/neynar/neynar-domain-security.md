@@ -60,12 +60,6 @@ api_specs:
   slug: neynar-feed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-feed-api-openapi.yml
-- filename: neynar-fids-api-openapi.yml
-  format: yaml
-  label: Neynar Fids API
-  slug: neynar-fids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-fids-api-openapi.yml
 - filename: neynar-fname-api-openapi.yml
   format: yaml
   label: Neynar fname API
@@ -132,12 +126,6 @@ api_specs:
   slug: neynar-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-notifications-api-openapi.yml
-- filename: neynar-onchain-api-openapi.yml
-  format: yaml
-  label: Neynar Onchain API
-  slug: neynar-onchain-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-onchain-api-openapi.yml
 - filename: neynar-onchainevents-api-openapi.yml
   format: yaml
   label: Neynar OnChainEvents API
@@ -210,12 +198,6 @@ api_specs:
   slug: neynar-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-user-api-openapi.yml
-- filename: neynar-userdata-api-openapi.yml
-  format: yaml
-  label: Neynar UserData API
-  slug: neynar-userdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-userdata-api-openapi.yml
 - filename: neynar-usernames-api-openapi.yml
   format: yaml
   label: Neynar Usernames API
@@ -234,6 +216,24 @@ api_specs:
   slug: neynar-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-webhook-api-openapi.yml
+- filename: neynar-fids-api-openapi.yml
+  format: yaml
+  label: Neynar Fids API
+  slug: neynar-fids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-fids-api-openapi.yml
+- filename: neynar-on-chain-api-openapi.yml
+  format: yaml
+  label: Neynar On Chain API
+  slug: neynar-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-on-chain-api-openapi.yml
+- filename: neynar-user-data-api-openapi.yml
+  format: yaml
+  label: Neynar User Data API
+  slug: neynar-user-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-user-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -284,7 +284,7 @@ tags:
 - Social Graph
 - Casts
 - Channels
-- Feeds
+- Feed
 - Reactions
 - Notification
 - Webhook

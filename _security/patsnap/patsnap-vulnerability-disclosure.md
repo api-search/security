@@ -200,19 +200,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/openapi/patsnap-patent-valuation-data-api-openapi.yml
 - filename: patsnap-patsnap-academy-course-api-openapi.yml
   format: yaml
-  label: Patsnap Patsnap Academy Course API
+  label: Patsnap Academy Course API
   slug: patsnap-patsnap-academy-course-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/openapi/patsnap-patsnap-academy-course-api-openapi.yml
 - filename: patsnap-patsnap-analysis-report-api-openapi.yml
   format: yaml
-  label: Patsnap Patsnap Analysis Report API
+  label: Patsnap Analysis Report API
   slug: patsnap-patsnap-analysis-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/openapi/patsnap-patsnap-analysis-report-api-openapi.yml
 - filename: patsnap-patsnap-llm-api-openapi.yml
   format: yaml
-  label: Patsnap Patsnap LLM API
+  label: Patsnap LLM API
   slug: patsnap-patsnap-llm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/openapi/patsnap-patsnap-llm-api-openapi.yml

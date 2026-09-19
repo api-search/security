@@ -23,7 +23,7 @@ tags:
 - Design
 - Collaboration
 - Prototyping
-- Workspaces
+- Workspace
 - Documents
 - Libraries
 - Components

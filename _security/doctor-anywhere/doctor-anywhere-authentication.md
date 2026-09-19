@@ -50,7 +50,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Digital Health
 - Health Screening
 - Corporate Wellness

@@ -84,7 +84,7 @@ tags:
 - Experience
 - Attractions
 - Ticketing
-- Bookings
+- Booking
 - Marketplace
 - Partner API
 - Affiliates

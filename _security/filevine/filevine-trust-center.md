@@ -48,12 +48,12 @@ api_specs:
   slug: filevine-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-webhooks-api-openapi.yml
-- filename: filevine-timeentries-api-openapi.yml
+- filename: filevine-time-entries-api-openapi.yml
   format: yaml
-  label: Filevine TimeEntries API
-  slug: filevine-timeentries-api
+  label: Filevine Time Entries API
+  slug: filevine-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-timeentries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-time-entries-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -83,7 +83,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, G
 tags:
 - Legal
 - Case Management
-- Matters
+- Matter
 - Intake
 - Documents
 - LOIS

@@ -45,12 +45,6 @@ api_specs:
   slug: 7digital-interactive-radio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-interactive-radio-api-openapi.yml
-- filename: 7digital-iplookup-api-openapi.yml
-  format: yaml
-  label: 7digital IpLookup API
-  slug: 7digital-iplookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-iplookup-api-openapi.yml
 - filename: 7digital-logging-api-openapi.yml
   format: yaml
   label: 7digital Logging API
@@ -141,6 +135,12 @@ api_specs:
   slug: 7digital-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-users-api-openapi.yml
+- filename: 7digital-ip-lookup-api-openapi.yml
+  format: yaml
+  label: 7digital IP Lookup API
+  slug: 7digital-ip-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-ip-lookup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

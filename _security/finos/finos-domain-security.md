@@ -6,12 +6,6 @@ api_specs:
   slug: finos-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-admin-api-openapi.yml
-- filename: finos-appentitlement-api-openapi.yml
-  format: yaml
-  label: FINOS AppEntitlement API
-  slug: finos-appentitlement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-appentitlement-api-openapi.yml
 - filename: finos-application-api-openapi.yml
   format: yaml
   label: FINOS Application API
@@ -24,12 +18,6 @@ api_specs:
   slug: finos-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-attachments-api-openapi.yml
-- filename: finos-audittrail-api-openapi.yml
-  format: yaml
-  label: FINOS AuditTrail API
-  slug: finos-audittrail-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-audittrail-api-openapi.yml
 - filename: finos-certificateauthentication-api-openapi.yml
   format: yaml
   label: FINOS CertificateAuthentication API
@@ -48,12 +36,6 @@ api_specs:
   slug: finos-connection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-connection-api-openapi.yml
-- filename: finos-datafeed-api-openapi.yml
-  format: yaml
-  label: FINOS Datafeed API
-  slug: finos-datafeed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-datafeed-api-openapi.yml
 - filename: finos-datahose-api-openapi.yml
   format: yaml
   label: FINOS Datahose API
@@ -180,6 +162,24 @@ api_specs:
   slug: finos-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-violations-api-openapi.yml
+- filename: finos-app-entitlement-api-openapi.yml
+  format: yaml
+  label: FINOS App Entitlement API
+  slug: finos-app-entitlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-app-entitlement-api-openapi.yml
+- filename: finos-audit-trail-api-openapi.yml
+  format: yaml
+  label: FINOS Audit Trail API
+  slug: finos-audit-trail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-audit-trail-api-openapi.yml
+- filename: finos-data-feed-api-openapi.yml
+  format: yaml
+  label: FINOS Data Feed API
+  slug: finos-data-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-data-feed-api-openapi.yml
 description: ''
 domains:
 - caa:

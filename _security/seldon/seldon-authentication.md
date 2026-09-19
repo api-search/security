@@ -14,18 +14,6 @@ api_specs:
   slug: seldon-alertingservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-alertingservice-api-openapi.yml
-- filename: seldon-applicationlogs-api-openapi.yml
-  format: yaml
-  label: Seldon ApplicationLogs API
-  slug: seldon-applicationlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-applicationlogs-api-openapi.yml
-- filename: seldon-batchjobs-api-openapi.yml
-  format: yaml
-  label: Seldon BatchJobs API
-  slug: seldon-batchjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-batchjobs-api-openapi.yml
 - filename: seldon-driftdetector-api-openapi.yml
   format: yaml
   label: Seldon DriftDetector API
@@ -50,24 +38,12 @@ api_specs:
   slug: seldon-explain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-explain-api-openapi.yml
-- filename: seldon-gitops-api-openapi.yml
-  format: yaml
-  label: Seldon GitOps API
-  slug: seldon-gitops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-gitops-api-openapi.yml
 - filename: seldon-health-api-openapi.yml
   format: yaml
   label: Seldon health API
   slug: seldon-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-api-openapi.yml
-- filename: seldon-healthcheckservice-api-openapi.yml
-  format: yaml
-  label: Seldon HealthcheckService API
-  slug: seldon-healthcheckservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-healthcheckservice-api-openapi.yml
 - filename: seldon-inferencelogsservice-api-openapi.yml
   format: yaml
   label: Seldon InferenceLogsService API
@@ -158,6 +134,30 @@ api_specs:
   slug: seldon-seldondeployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-seldondeployments-api-openapi.yml
+- filename: seldon-application-logs-api-openapi.yml
+  format: yaml
+  label: Seldon Application Logs API
+  slug: seldon-application-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-application-logs-api-openapi.yml
+- filename: seldon-batch-jobs-api-openapi.yml
+  format: yaml
+  label: Seldon Batch Jobs API
+  slug: seldon-batch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-batch-jobs-api-openapi.yml
+- filename: seldon-git-ops-api-openapi.yml
+  format: yaml
+  label: Seldon Git Ops API
+  slug: seldon-git-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-git-ops-api-openapi.yml
+- filename: seldon-health-check-service-api-openapi.yml
+  format: yaml
+  label: Seldon Health Check Service API
+  slug: seldon-health-check-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-check-service-api-openapi.yml
 auth_types:
 - http
 - oauth2

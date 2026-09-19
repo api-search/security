@@ -55,9 +55,9 @@ tags:
 - Automotive
 - Manufacturing
 - Electric Vehicles
-- Powersports
+- Power-Sports
 - Autocycles
 - Dealer Network
-- Model Context Protocol
+- MCP
 - Utah
 ---

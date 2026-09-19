@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: paperform-coupons-api-openapi.yml
   format: yaml
-  label: Paperform API
-  slug: paperform-api
+  label: Paperform Coupons API
+  slug: paperform-coupons-api
   spec_type: OpenAPI
-  url: https://paperform.readme.io/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-coupons-api-openapi.yml
+- filename: paperform-files-api-openapi.yml
+  format: yaml
+  label: Paperform Files API
+  slug: paperform-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-files-api-openapi.yml
+- filename: paperform-form-fields-api-openapi.yml
+  format: yaml
+  label: Paperform Form Fields API
+  slug: paperform-form-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-form-fields-api-openapi.yml
+- filename: paperform-forms-api-openapi.yml
+  format: yaml
+  label: Paperform Forms API
+  slug: paperform-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-forms-api-openapi.yml
+- filename: paperform-papersign-documents-api-openapi.yml
+  format: yaml
+  label: Paperform Papersign Documents API
+  slug: paperform-papersign-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-papersign-documents-api-openapi.yml
+- filename: paperform-papersign-folders-api-openapi.yml
+  format: yaml
+  label: Paperform Papersign Folders API
+  slug: paperform-papersign-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-papersign-folders-api-openapi.yml
+- filename: paperform-papersign-spaces-api-openapi.yml
+  format: yaml
+  label: Paperform Papersign Spaces API
+  slug: paperform-papersign-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-papersign-spaces-api-openapi.yml
+- filename: paperform-papersign-webhooks-api-openapi.yml
+  format: yaml
+  label: Paperform Papersign Webhooks API
+  slug: paperform-papersign-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-papersign-webhooks-api-openapi.yml
+- filename: paperform-partial-submissions-api-openapi.yml
+  format: yaml
+  label: Paperform Partial Submissions API
+  slug: paperform-partial-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-partial-submissions-api-openapi.yml
+- filename: paperform-products-api-openapi.yml
+  format: yaml
+  label: Paperform Products API
+  slug: paperform-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-products-api-openapi.yml
+- filename: paperform-spaces-api-openapi.yml
+  format: yaml
+  label: Paperform Spaces API
+  slug: paperform-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-spaces-api-openapi.yml
+- filename: paperform-submissions-api-openapi.yml
+  format: yaml
+  label: Paperform Submissions API
+  slug: paperform-submissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-submissions-api-openapi.yml
+- filename: paperform-translations-api-openapi.yml
+  format: yaml
+  label: Paperform Translations API
+  slug: paperform-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-translations-api-openapi.yml
+- filename: paperform-webhooks-api-openapi.yml
+  format: yaml
+  label: Paperform Webhooks API
+  slug: paperform-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/openapi/paperform-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

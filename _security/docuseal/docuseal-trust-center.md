@@ -48,6 +48,6 @@ tags:
 - Templates
 - Open-Source
 - Webhook
-- Embedding
+- Embeddings
 trust_url: https://trust.docuseal.com/
 ---

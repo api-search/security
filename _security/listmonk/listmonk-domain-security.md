@@ -115,7 +115,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/
 summary_line: TLSv1.3
 tags:
 - Email
-- Newsletter
+- Newsletters
 - Mailing List
 - Marketing
 - Transactional Email

@@ -54,12 +54,6 @@ api_specs:
   slug: aloft-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/openapi/aloft-auth-api-openapi.yml
-- filename: aloft-auto-tags-api-openapi.yml
-  format: yaml
-  label: Aloft Auto Tags API
-  slug: aloft-auto-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/openapi/aloft-auto-tags-api-openapi.yml
 - filename: aloft-batteries-api-openapi.yml
   format: yaml
   label: Aloft Batteries API
@@ -216,6 +210,12 @@ api_specs:
   slug: aloft-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/openapi/aloft-workflows-api-openapi.yml
+- filename: aloft-autotags-api-openapi.yml
+  format: yaml
+  label: Aloft Autotags API
+  slug: aloft-autotags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/openapi/aloft-autotags-api-openapi.yml
 description: ''
 domains:
 - caa: []

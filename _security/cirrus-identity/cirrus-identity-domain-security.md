@@ -41,11 +41,12 @@ tags:
 - Company
 - Identity
 - Authentication
-- Single Sign-On
+- SSO
 - SAML
 - OIDC
 - Higher Education
 - Identity Management
 - Federation
 - Logs
+- Identity Federation
 ---

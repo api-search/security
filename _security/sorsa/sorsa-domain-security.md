@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-search-api-openapi.yml
 - filename: sorsa-sorsa-info-crypto-related-api-openapi.yml
   format: yaml
-  label: Sorsa Sorsa Info Crypto Related API
+  label: Sorsa Info Crypto Related API
   slug: sorsa-sorsa-info-crypto-related-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-sorsa-info-crypto-related-api-openapi.yml

@@ -35,6 +35,6 @@ tags:
 - Gaming
 - Entertainment
 - Music
-- Consumer Apps
+- Consumer App
 - New York
 ---

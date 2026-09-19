@@ -72,7 +72,6 @@ tags:
 - Small Business
 - Tax
 - Tax Preparation
-- Taxes
 - Time Tracking
 - Fortune 1000
 ---

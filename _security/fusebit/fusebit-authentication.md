@@ -2,12 +2,114 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: fusebit-http-api-core-openapi.yml
+- filename: fusebit-accounts-api-openapi.yml
   format: yaml
-  label: Fusebit HTTP API
-  slug: apis
+  label: Fusebit Accounts API
+  slug: fusebit-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-http-api-core-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-accounts-api-openapi.yml
+- filename: fusebit-boundaries-api-openapi.yml
+  format: yaml
+  label: Fusebit Boundaries API
+  slug: fusebit-boundaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-boundaries-api-openapi.yml
+- filename: fusebit-clients-api-openapi.yml
+  format: yaml
+  label: Fusebit Clients API
+  slug: fusebit-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-clients-api-openapi.yml
+- filename: fusebit-connector-api-openapi.yml
+  format: yaml
+  label: Fusebit Connector API
+  slug: fusebit-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-connector-api-openapi.yml
+- filename: fusebit-connector-tags-api-openapi.yml
+  format: yaml
+  label: Fusebit Connector/Tags API
+  slug: fusebit-connector-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-connector-tags-api-openapi.yml
+- filename: fusebit-functions-api-openapi.yml
+  format: yaml
+  label: Fusebit Functions API
+  slug: fusebit-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-functions-api-openapi.yml
+- filename: fusebit-identity-api-openapi.yml
+  format: yaml
+  label: Fusebit Identity API
+  slug: fusebit-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-identity-api-openapi.yml
+- filename: fusebit-identity-tags-api-openapi.yml
+  format: yaml
+  label: Fusebit Identity/Tags API
+  slug: fusebit-identity-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-identity-tags-api-openapi.yml
+- filename: fusebit-install-api-openapi.yml
+  format: yaml
+  label: Fusebit Install API
+  slug: fusebit-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-install-api-openapi.yml
+- filename: fusebit-install-tags-api-openapi.yml
+  format: yaml
+  label: Fusebit Install/Tags API
+  slug: fusebit-install-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-install-tags-api-openapi.yml
+- filename: fusebit-integration-api-openapi.yml
+  format: yaml
+  label: Fusebit Integration API
+  slug: fusebit-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-integration-api-openapi.yml
+- filename: fusebit-integration-tags-api-openapi.yml
+  format: yaml
+  label: Fusebit Integration/Tags API
+  slug: fusebit-integration-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-integration-tags-api-openapi.yml
+- filename: fusebit-issuers-api-openapi.yml
+  format: yaml
+  label: Fusebit Issuers API
+  slug: fusebit-issuers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-issuers-api-openapi.yml
+- filename: fusebit-registry-api-openapi.yml
+  format: yaml
+  label: Fusebit Registry API
+  slug: fusebit-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-registry-api-openapi.yml
+- filename: fusebit-session-api-openapi.yml
+  format: yaml
+  label: Fusebit Session API
+  slug: fusebit-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-session-api-openapi.yml
+- filename: fusebit-storage-api-openapi.yml
+  format: yaml
+  label: Fusebit Storage API
+  slug: fusebit-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-storage-api-openapi.yml
+- filename: fusebit-subscriptions-api-openapi.yml
+  format: yaml
+  label: Fusebit Subscriptions API
+  slug: fusebit-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-subscriptions-api-openapi.yml
+- filename: fusebit-users-api-openapi.yml
+  format: yaml
+  label: Fusebit Users API
+  slug: fusebit-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/openapi/fusebit-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,6 +153,7 @@ tags:
 - Embedded iPaaS
 - Integration
 - Serverless
-- OAuth
+- Authentication
 - Acquired
+- Defunct
 ---

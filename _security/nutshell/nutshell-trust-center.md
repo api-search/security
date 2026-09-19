@@ -132,18 +132,18 @@ api_specs:
   slug: nutshell-filter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-filter-api-openapi.yml
-- filename: nutshell-productcategories-api-openapi.yml
-  format: yaml
-  label: Nutshell Product Categories API
-  slug: nutshell-productcategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-productcategories-api-openapi.yml
 - filename: nutshell-stagesets-pipelines-api-openapi.yml
   format: yaml
   label: Nutshell Stagesets (Pipelines) API
   slug: nutshell-stagesets-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-stagesets-pipelines-api-openapi.yml
+- filename: nutshell-product-categories-api-openapi.yml
+  format: yaml
+  label: Nutshell Product Categories API
+  slug: nutshell-product-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-product-categories-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

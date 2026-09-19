@@ -384,12 +384,6 @@ api_specs:
   slug: bynder-trash-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-trash-api-openapi.yml
-- filename: bynder-upload-api-openapi.yml
-  format: yaml
-  label: Bynder Upload API
-  slug: bynder-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-upload-api-openapi.yml
 - filename: bynder-user-usage-api-openapi.yml
   format: yaml
   label: Bynder User Usage API
@@ -408,12 +402,6 @@ api_specs:
   slug: bynder-users-id-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-users-id-api-openapi.yml
-- filename: bynder-authentication-api-openapi.yml
-  format: yaml
-  label: Bynder Authentication API
-  slug: bynder-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-authentication-api-openapi.yml
 - filename: bynder-step-1-get-closest-amazons3-upload-endpoint-api-openapi.yml
   format: yaml
   label: Bynder Step 1 Get closest AmazonS3 upload endpoint API
@@ -438,12 +426,6 @@ api_specs:
   slug: bynder-step-3b-register-uploaded-chunk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-3b-register-uploaded-chunk-api-openapi.yml
-- filename: bynder-step-4-api-openapi.yml
-  format: yaml
-  label: Bynder Step 4 API
-  slug: bynder-step-4-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-4-api-openapi.yml
 - filename: bynder-step-4-either-finalise-uploaded-file-api-openapi.yml
   format: yaml
   label: Bynder Step 4 EITHER Finalise uploaded file API
@@ -456,24 +438,12 @@ api_specs:
   slug: bynder-step-4-or-finalize-and-save-an-additional-uploaded-file-as-a-new-asset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-4-or-finalize-and-save-an-additional-uploaded-file-as-a-new-asset-api-openapi.yml
-- filename: bynder-step-5-api-openapi.yml
-  format: yaml
-  label: Bynder Step 5 API
-  slug: bynder-step-5-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-5-api-openapi.yml
 - filename: bynder-step-5-poll-for-processing-status-api-openapi.yml
   format: yaml
   label: Bynder Step 5 Poll for processing status API
   slug: bynder-step-5-poll-for-processing-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-5-poll-for-processing-status-api-openapi.yml
-- filename: bynder-step-6-api-openapi.yml
-  format: yaml
-  label: Bynder Step 6 API
-  slug: bynder-step-6-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-step-6-api-openapi.yml
 - filename: bynder-step-6-either-save-as-a-new-asset-api-openapi.yml
   format: yaml
   label: Bynder Step 6 EITHER Save as a new asset API
@@ -510,7 +480,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/he
 summary_line: SOC 2, ISO 27001, ISO 27018, HIPAA, GDPR
 tags:
 - Digital Asset Management
-- DAM
 - Brand Management
 - Content Management
 - Marketing

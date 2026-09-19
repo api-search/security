@@ -37,7 +37,7 @@ tags:
 - Fulfillment
 - Logistics
 - Supply Chain
-- Consumer Brands
+- Consumer Brand
 - Creators
 - Artificial Intelligence
 ---

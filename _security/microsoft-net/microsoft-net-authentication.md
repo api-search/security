@@ -21,12 +21,12 @@ api_specs:
   slug: microsoft-net-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-search-api-openapi.yml
-- filename: microsoft-net-serviceindex-api-openapi.yml
+- filename: microsoft-net-service-index-api-openapi.yml
   format: yaml
-  label: Microsoft .NET ServiceIndex API
-  slug: microsoft-net-serviceindex-api
+  label: Microsoft .NET Service Index API
+  slug: microsoft-net-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-serviceindex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-service-index-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

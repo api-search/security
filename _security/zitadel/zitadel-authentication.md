@@ -78,4 +78,5 @@ tags:
 - Identity Management
 - Open-Source
 - OIDC
+- Identity Federation
 ---

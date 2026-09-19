@@ -41,7 +41,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/openapi/cyware-code-snippets-api-openapi.yml
 - filename: cyware-create-intel-via-open-api-api-openapi.yml
   format: yaml
-  label: Cyware Create Intel via Open API API
+  label: Cyware Create Intel via Open API
   slug: cyware-create-intel-via-open-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/openapi/cyware-create-intel-via-open-api-api-openapi.yml

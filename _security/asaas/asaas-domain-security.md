@@ -46,7 +46,7 @@ tags:
 - Subscription
 - Pix
 - Boleto
-- Credit Card
+- Credit Cards
 - Checkout
 - Split Payments
 - Webhook

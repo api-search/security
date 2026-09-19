@@ -8,7 +8,7 @@ domains:
   domain: centurycommunities.com
   spf: true
 hosts:
-- cert_expires: Aug 24 05:44:50 2026 GMT
+- cert_expires: Nov 18 21:58:05 2026 GMT
   host: www.centurycommunities.com
   hsts: true
   hsts_max_age: 5184000
@@ -31,10 +31,14 @@ slug: century-communities-domain-security
 source_filename: century-communities-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.centurycommunities.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 05:44:50 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\n- host: developer.centurycommunities.com\n  https: false\n- host: api.centurycommunities.com\n  https: false\ndomains:\n- domain: centurycommunities.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.centurycommunities.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 21:58:05 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\n- host: developer.centurycommunities.com\n  https: false\n- host: api.centurycommunities.com\n  https: false\ndomains:\n- domain: centurycommunities.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/century-communities/refs/heads/main/security/century-communities-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real-Estate
 - Homebuilding
+- Construction
+- Content Management
+- Consumer
+- Mortgage
 ---

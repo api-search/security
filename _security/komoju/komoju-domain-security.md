@@ -98,7 +98,7 @@ tags:
 - Konbini
 - Cards
 - PayPay
-- Bank Transfer
+- Bank Transfers
 - E-Money
 - Checkout
 - Fintech

@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: victoria-university-of-wellington-website-globalobject-openapi.yml
+- filename: victoria-university-of-wellington-researchrepository-api-openapi.yml
   format: yaml
-  label: Website Global Object
-  slug: website-global-object
+  label: Victoria University of Wellington Research Repository API
+  slug: victoria-university-of-wellington-researchrepository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-website-globalobject-openapi.yml
-- filename: victoria-university-of-wellington-identity-federation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-researchrepository-api-openapi.yml
+- filename: victoria-university-of-wellington-website-api-openapi.yml
   format: yaml
-  label: Shibboleth Identity Provider (Tuakiri / eduGAIN)
-  slug: identity-federation
+  label: Victoria University of Wellington Website API
+  slug: victoria-university-of-wellington-website-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-identity-federation-openapi.yml
-- filename: victoria-university-of-wellington-institutional-repository-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-website-api-openapi.yml
+- filename: victoria-university-of-wellington-identity-federation-api-openapi.yml
   format: yaml
-  label: Institutional Repository (self-hosted DSpace)
-  slug: institutional-repository
+  label: Victoria University of Wellington Identity Federation API
+  slug: victoria-university-of-wellington-identity-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-institutional-repository-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-identity-federation-api-openapi.yml
 description: ''
 domains:
 - caa: []

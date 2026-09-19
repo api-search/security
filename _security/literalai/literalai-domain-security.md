@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: literalai-graphql-api-openapi.yml
+- filename: literalai-graph-ql-api-openapi.yml
   format: yaml
-  label: Literal AI GraphQL API
-  slug: literalai-graphql-api
+  label: Literal AI Graph QL API
+  slug: literalai-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa: []

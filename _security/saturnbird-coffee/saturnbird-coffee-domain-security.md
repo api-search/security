@@ -34,7 +34,7 @@ tags:
 - Company
 - Consumer
 - Coffee
-- Beverage
+- Beverages
 - E-Commerce
 - Consumer Packaged Goods
 - Retail

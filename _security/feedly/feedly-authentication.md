@@ -27,12 +27,6 @@ api_specs:
   slug: feedly-custom-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/openapi/feedly-custom-agents-api-openapi.yml
-- filename: feedly-cves-api-openapi.yml
-  format: yaml
-  label: Feedly CV Es API
-  slug: feedly-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/openapi/feedly-cves-api-openapi.yml
 - filename: feedly-detection-rules-api-openapi.yml
   format: yaml
   label: Feedly Detection Rules API
@@ -177,6 +171,12 @@ api_specs:
   slug: feedly-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/openapi/feedly-vulnerabilities-api-openapi.yml
+- filename: feedly-cves-api-openapi.yml
+  format: yaml
+  label: Feedly CV Es API
+  slug: feedly-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/openapi/feedly-cves-api-openapi.yml
 auth_types:
 - apiKey
 - http

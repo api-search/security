@@ -23,7 +23,6 @@ tags:
 - Payments
 - Compensation
 - Human Resources
-- HR Tech
 - Total Rewards
 - Compensation Management
 - Software-as-a-Service

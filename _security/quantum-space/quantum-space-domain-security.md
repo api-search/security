@@ -34,7 +34,7 @@ tags:
 - Space
 - Aerospace
 - Defense
-- Satellites
+- Satellite
 - Spacecraft
 - Orbital Mobility
 - National Security

@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Banking
 - Savings Account
-- Debit Card
+- Debit Cards
 - Financial Advisory
 - Personal Finance
 - Mobile Banking

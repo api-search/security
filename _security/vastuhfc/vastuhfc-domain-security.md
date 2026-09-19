@@ -35,7 +35,7 @@ tags:
 - Housing Finance
 - Home Loans
 - Lending
-- Mortgages
+- Mortgage
 - Affordable Housing
 - India
 ---

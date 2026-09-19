@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: workspot-control-openapi-original.json
-  format: json
-  label: Workspot Control REST API
-  slug: control
+- filename: workspot-apis-api-openapi.yml
+  format: yaml
+  label: Workspot AP Is API
+  slug: workspot-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-control-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-apis-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -78,5 +78,5 @@ tags:
 - Cloud Infrastructure
 - Enterprise IT
 - Workspace Management
-- SaaS
+- Software-as-a-Service
 ---

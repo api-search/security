@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: usm-repository-oai-pmh-openapi.yml
+- filename: usm-export-api-openapi.yml
   format: yaml
-  label: USM Repository OAI-PMH
-  slug: eprints-oai
+  label: Universiti Sains Malaysia Export API
+  slug: usm-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-oai-pmh-openapi.yml
-- filename: usm-repository-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-export-api-openapi.yml
+- filename: usm-oai-pmh-api-openapi.yml
   format: yaml
-  label: USM Repository EPrints REST and Export
-  slug: eprints-rest
+  label: Universiti Sains Malaysia OAI PMH API
+  slug: usm-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-eprints-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-oai-pmh-api-openapi.yml
+- filename: usm-repository-api-openapi.yml
+  format: yaml
+  label: Universiti Sains Malaysia Repository API
+  slug: usm-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/openapi/usm-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []

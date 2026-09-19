@@ -51,5 +51,5 @@ tags:
 - Business Intelligence
 - Data
 - Pipelines
-- Visualizations
+- Visualization
 ---

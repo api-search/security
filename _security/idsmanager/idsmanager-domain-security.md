@@ -35,7 +35,7 @@ tags:
 - Authorization
 - Security
 - Zero Trust
-- Single Sign-On
+- SSO
 - IDaaS
 - Multi-Factor Authentication
 - API Gateway

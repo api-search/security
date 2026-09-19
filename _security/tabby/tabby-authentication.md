@@ -62,7 +62,6 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://docs.ta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/authentication/tabby-authentication.yml
 summary_line: 1 scheme
 tags:
-- BNPL
 - Buy Now Pay Later
 - Consumer Finance
 - E-Commerce
@@ -71,5 +70,5 @@ tags:
 - MENA
 - Payments
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 ---

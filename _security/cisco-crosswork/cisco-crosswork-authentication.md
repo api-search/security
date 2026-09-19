@@ -59,7 +59,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-alarms-api-openapi.yml
 - filename: cisco-crosswork-alert-api-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Alert API API
+  label: Cisco Crosswork Alert API
   slug: cisco-crosswork-alert-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-alert-api-api-openapi.yml
@@ -101,7 +101,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-command-api-openapi.yml
 - filename: cisco-crosswork-crosswork-health-api-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Crosswork Health API API
+  label: Cisco Crosswork Health API
   slug: cisco-crosswork-crosswork-health-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-crosswork-health-api-api-openapi.yml
@@ -219,12 +219,6 @@ api_specs:
   slug: cisco-crosswork-flat-l3vpn-retrieval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-flat-l3vpn-retrieval-api-openapi.yml
-- filename: cisco-crosswork-get-api-openapi.yml
-  format: yaml
-  label: Cisco Crosswork Get API
-  slug: cisco-crosswork-get-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-get-api-openapi.yml
 - filename: cisco-crosswork-get-credentials-api-openapi.yml
   format: yaml
   label: Cisco Crosswork Get Credentials API
@@ -381,12 +375,6 @@ api_specs:
   slug: cisco-crosswork-password-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-password-api-openapi.yml
-- filename: cisco-crosswork-post-api-openapi.yml
-  format: yaml
-  label: Cisco Crosswork Post API
-  slug: cisco-crosswork-post-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-post-api-openapi.yml
 - filename: cisco-crosswork-put-replace-destinations-api-openapi.yml
   format: yaml
   label: Cisco Crosswork Put/Replace destinations API
@@ -437,7 +425,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-tlsmanager-api-openapi.yml
 - filename: cisco-crosswork-troubleshooting-api-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Troubleshooting API API
+  label: Cisco Crosswork Troubleshooting API
   slug: cisco-crosswork-troubleshooting-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-troubleshooting-api-api-openapi.yml
@@ -491,7 +479,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-update-via-csv-file-api-openapi.yml
 - filename: cisco-crosswork-version-api-api-openapi.yml
   format: yaml
-  label: Cisco Crosswork Version API API
+  label: Cisco Crosswork Version API
   slug: cisco-crosswork-version-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-version-api-api-openapi.yml
@@ -519,12 +507,6 @@ api_specs:
   slug: cisco-crosswork-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-event-api-openapi.yml
-- filename: cisco-crosswork-eventtype-api-openapi.yml
-  format: yaml
-  label: Cisco Crosswork Event Type API
-  slug: cisco-crosswork-eventtype-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-eventtype-api-openapi.yml
 - filename: cisco-crosswork-forms-api-openapi.yml
   format: yaml
   label: Cisco Crosswork Forms API
@@ -549,12 +531,6 @@ api_specs:
   slug: cisco-crosswork-payload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-payload-api-openapi.yml
-- filename: cisco-crosswork-publickey-api-openapi.yml
-  format: yaml
-  label: Cisco Crosswork Public Key API
-  slug: cisco-crosswork-publickey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-publickey-api-openapi.yml
 - filename: cisco-crosswork-resources-api-openapi.yml
   format: yaml
   label: Cisco Crosswork Resources API
@@ -597,6 +573,18 @@ api_specs:
   slug: cisco-crosswork-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-workflow-api-openapi.yml
+- filename: cisco-crosswork-event-type-api-openapi.yml
+  format: yaml
+  label: Cisco Crosswork Event Type API
+  slug: cisco-crosswork-event-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-event-type-api-openapi.yml
+- filename: cisco-crosswork-public-key-api-openapi.yml
+  format: yaml
+  label: Cisco Crosswork Public Key API
+  slug: cisco-crosswork-public-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswork/refs/heads/main/openapi/cisco-crosswork-public-key-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -733,7 +721,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-crosswor
 summary_line: apiKey/http · 3 schemes
 tags:
 - Network Automation
-- Service Provider
+- Service Providers
 - Orchestration
 - Networking
 - Assurance

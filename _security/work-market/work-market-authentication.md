@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: work-market-addressbook-api-openapi.yml
-  format: yaml
-  label: Work Market Addressbook API
-  slug: work-market-addressbook-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-addressbook-api-openapi.yml
 - filename: work-market-assignments-api-openapi.yml
   format: yaml
   label: Work Market Assignments API
@@ -63,6 +57,12 @@ api_specs:
   slug: work-market-updatecheckin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-updatecheckin-api-openapi.yml
+- filename: work-market-address-book-api-openapi.yml
+  format: yaml
+  label: Work Market Address Book API
+  slug: work-market-address-book-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/openapi/work-market-address-book-api-openapi.yml
 auth_types:
 - accessToken
 description: The WorkMarket Employer API uses an API token/secret pair exchanged for a short-lived access token. Credentials are generated in the WorkMarket web app; the client POSTs them to the authorization endpoint and then sends the returned access token as a Bearer credential in the Authorization header on subsequent requests. The published Swagger 2.0 spec declares no securityDefinitions; the scheme below is taken from the live API reference (which models it as an apiKey-style Authorization header) and the authorization operation in the spec.
@@ -100,6 +100,6 @@ tags:
 - Gig Economy
 - Human Resources
 - Payments
-- Field Services
+- Field Service
 - Staffing
 ---

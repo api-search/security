@@ -24,24 +24,24 @@ api_specs:
   slug: calico-hostendpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-hostendpoint-api-openapi.yml
-- filename: calico-ippool-api-openapi.yml
-  format: yaml
-  label: Calico IPPool API
-  slug: calico-ippool-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-ippool-api-openapi.yml
-- filename: calico-networkpolicy-api-openapi.yml
-  format: yaml
-  label: Calico NetworkPolicy API
-  slug: calico-networkpolicy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-networkpolicy-api-openapi.yml
 - filename: calico-profile-api-openapi.yml
   format: yaml
   label: Calico Profile API
   slug: calico-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-profile-api-openapi.yml
+- filename: calico-ip-pool-api-openapi.yml
+  format: yaml
+  label: Calico IP Pool API
+  slug: calico-ip-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-ip-pool-api-openapi.yml
+- filename: calico-network-policy-api-openapi.yml
+  format: yaml
+  label: Calico Network Policy API
+  slug: calico-network-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-network-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []

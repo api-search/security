@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-deals-api-openapi.yml
 - filename: fixture-fixture-api-api-openapi.yml
   format: yaml
-  label: Fixture Fixture API API
+  label: Fixture API
   slug: fixture-fixture-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-fixture-api-api-openapi.yml

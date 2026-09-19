@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-agent-api-openapi.yml
 - filename: tako-tako-api-openapi.yml
   format: yaml
-  label: Tako tako API
+  label: Tako API
   slug: tako-tako-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-tako-api-openapi.yml

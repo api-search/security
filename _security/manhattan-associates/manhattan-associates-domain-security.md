@@ -77,5 +77,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.manh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 05:03:27 2026 GMT\n  hsts: false\n- host: www.manh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 07:59:19 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: platform.developer.manh.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 05:03:27 2026 GMT\n  hsts: null\ndomains:\n- domain: manh.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/security/manhattan-associates-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
-tags: []
+tags:
+- Logistics
+- Supply Chain
+- Platform
+- Software-as-a-Service
+- Transportation
 ---

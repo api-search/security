@@ -73,7 +73,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/peoplefo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/authentication/peopleforce-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- HR
 - Human Resources
 - Recruitment
 - Employees

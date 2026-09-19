@@ -34,7 +34,7 @@ tags:
 - Hospitality
 - Property Management
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Travel
 - Real-Estate
 - Dubai

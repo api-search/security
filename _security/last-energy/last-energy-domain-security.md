@@ -34,10 +34,10 @@ tags:
 - Company
 - Energy
 - Nuclear Energy
-- Small Modular Reactors
+- Small Modular Reactor
 - Electricity
 - Power Generation
-- Data Centers
+- Data-Center
 - Industrial
 - Clean Energy
 - Infrastructure

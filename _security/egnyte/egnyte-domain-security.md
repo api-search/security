@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: egnyte-file-system-api-openapi.yml
-  format: yaml
-  label: Egnyte File System API
-  slug: egnyte-file-system-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-file-system-api-openapi.yml
 - filename: egnyte-groups-api-openapi.yml
   format: yaml
   label: Egnyte Groups API
@@ -30,6 +24,12 @@ api_specs:
   slug: egnyte-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-users-api-openapi.yml
+- filename: egnyte-filesystem-api-openapi.yml
+  format: yaml
+  label: Egnyte Filesystem API
+  slug: egnyte-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-filesystem-api-openapi.yml
 description: ''
 domains:
 - caa: []

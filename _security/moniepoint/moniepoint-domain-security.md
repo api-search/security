@@ -78,12 +78,6 @@ api_specs:
   slug: moniepoint-single-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-single-transfers-api-openapi.yml
-- filename: moniepoint-sub-accounts-api-openapi.yml
-  format: yaml
-  label: Moniepoint Sub-Accounts API
-  slug: moniepoint-sub-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-sub-accounts-api-openapi.yml
 - filename: moniepoint-transactions-api-openapi.yml
   format: yaml
   label: Moniepoint Transactions API
@@ -108,6 +102,12 @@ api_specs:
   slug: moniepoint-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-wallets-api-openapi.yml
+- filename: moniepoint-subaccounts-api-openapi.yml
+  format: yaml
+  label: Moniepoint Subaccounts API
+  slug: moniepoint-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-subaccounts-api-openapi.yml
 description: ''
 domains:
 - caa: []

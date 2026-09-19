@@ -2,12 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: chinese-narrative-chapter-lock-openapi.json
-  format: json
-  label: cultureBiz chapter-lock
-  slug: culturebiz-chapter-lock
+- filename: chinese-narrative-chapter-lock-culturebiz-chapter-lock-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock CultureBiz Chapter Lock API
+  slug: chinese-narrative-chapter-lock-culturebiz-chapter-lock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-culturebiz-chapter-lock-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-docs-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Docs API
+  slug: chinese-narrative-chapter-lock-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-docs-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-examples-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Examples API
+  slug: chinese-narrative-chapter-lock-examples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-examples-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-go-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Go API
+  slug: chinese-narrative-chapter-lock-go-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-go-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-health-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Health API
+  slug: chinese-narrative-chapter-lock-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-health-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-lock-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Lock API
+  slug: chinese-narrative-chapter-lock-lock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-lock-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-metrics-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Metrics API
+  slug: chinese-narrative-chapter-lock-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-metrics-api-openapi.yml
+- filename: chinese-narrative-chapter-lock-use-api-openapi.yml
+  format: yaml
+  label: Chinese Narrative Chapter Lock Use API
+  slug: chinese-narrative-chapter-lock-use-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/openapi/chinese-narrative-chapter-lock-use-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -40,14 +82,14 @@ source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: >-\n  Derived fr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/authentication/chinese-narrative-chapter-lock-authentication.yml
 summary_line: 2 schemes
 tags:
-- localization
-- translation
+- Localization
+- Translation
 - NLP
 - terminology-management
-- CAT
+- Cats
 - MT-preprocessing
 - chinese-language
-- webnovels
-- publishing
-- entertainment
+- Web Novels
+- Publishing
+- Entertainment
 ---

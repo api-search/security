@@ -32,12 +32,6 @@ api_specs:
   slug: beyond-pricing-listings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-listings-api-openapi.yml
-- filename: beyond-pricing-oauth2-api-openapi.yml
-  format: yaml
-  label: Beyond Pricing OAuth2 API
-  slug: beyond-pricing-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-oauth2-api-openapi.yml
 - filename: beyond-pricing-users-api-openapi.yml
   format: yaml
   label: Beyond Pricing Users API
@@ -50,6 +44,12 @@ api_specs:
   slug: beyond-pricing-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-webhooks-api-openapi.yml
+- filename: beyond-pricing-oauth2-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing O Auth2 API
+  slug: beyond-pricing-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-oauth2-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 - Revenue Management
 - Dynamic Pricing

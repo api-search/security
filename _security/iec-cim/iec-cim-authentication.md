@@ -69,5 +69,8 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iec-cim-61968-distribution-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.utility.example.com/oauth/token\n    scopes: 2\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/authentication/iec-cim-authentication.yml
 summary_line: http/oauth2 · 2 schemes
-tags: []
+tags:
+- Energy
+- Utilities
+- Metering
 ---

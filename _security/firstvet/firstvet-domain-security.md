@@ -38,7 +38,6 @@ tags:
 - Veterinary
 - Telehealth
 - Pet Care
-- Telemedicine
 - Health
 - Sweden
 ---

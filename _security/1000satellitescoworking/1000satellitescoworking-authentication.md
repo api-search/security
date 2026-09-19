@@ -2,12 +2,66 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: 1000satellitescoworking-content-api-openapi.yml
+- filename: 1000satellitescoworking-categories-api-openapi.yml
   format: yaml
-  label: 1000 Satellites Content API (WordPress REST wp/v2)
-  slug: content-api
+  label: 1000 Satellites Categories API
+  slug: 1000satellitescoworking-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-content-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-categories-api-openapi.yml
+- filename: 1000satellitescoworking-comments-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Comments API
+  slug: 1000satellitescoworking-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-comments-api-openapi.yml
+- filename: 1000satellitescoworking-media-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Media API
+  slug: 1000satellitescoworking-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-media-api-openapi.yml
+- filename: 1000satellitescoworking-pages-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Pages API
+  slug: 1000satellitescoworking-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-pages-api-openapi.yml
+- filename: 1000satellitescoworking-posts-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Posts API
+  slug: 1000satellitescoworking-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-posts-api-openapi.yml
+- filename: 1000satellitescoworking-search-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Search API
+  slug: 1000satellitescoworking-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-search-api-openapi.yml
+- filename: 1000satellitescoworking-statuses-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Statuses API
+  slug: 1000satellitescoworking-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-statuses-api-openapi.yml
+- filename: 1000satellitescoworking-tags-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Tags API
+  slug: 1000satellitescoworking-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-tags-api-openapi.yml
+- filename: 1000satellitescoworking-taxonomies-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Taxonomies API
+  slug: 1000satellitescoworking-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-taxonomies-api-openapi.yml
+- filename: 1000satellitescoworking-types-api-openapi.yml
+  format: yaml
+  label: 1000 Satellites Types API
+  slug: 1000satellitescoworking-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1000satellitescoworking/refs/heads/main/openapi/1000satellitescoworking-types-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -68,9 +122,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1000satellites
 summary_line: none/oauth2 · 3 schemes
 tags:
 - Company
-- Coworking
-- Flexible Workspace
-- Real Estate
+- Co-Working
+- Flex Office
+- Real-Estate
 - Office Space
 - Workplace
 - Meeting Rooms

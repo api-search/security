@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: MyStars FaaS Fulfilment API
-  slug: mystars-faas-fulfilment-api
+- filename: mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api-openapi.yml
+  format: yaml
+  label: MyStars FaaS — Fulfilment API MyStars FaaS — Fulfilment API
+  slug: mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api
   spec_type: OpenAPI
-  url: https://mystars.tg/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api-openapi.yml
+- filename: mystars-faas-fulfilment-api-orders-api-openapi.yml
+  format: yaml
+  label: MyStars FaaS — Fulfilment API Orders API
+  slug: mystars-faas-fulfilment-api-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-orders-api-openapi.yml
+- filename: mystars-faas-fulfilment-api-pricing-api-openapi.yml
+  format: yaml
+  label: MyStars FaaS — Fulfilment API Pricing API
+  slug: mystars-faas-fulfilment-api-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-pricing-api-openapi.yml
+- filename: mystars-faas-fulfilment-api-recipients-api-openapi.yml
+  format: yaml
+  label: MyStars FaaS — Fulfilment API Recipients API
+  slug: mystars-faas-fulfilment-api-recipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mystars-faas-fulfilment-api/refs/heads/main/openapi/mystars-faas-fulfilment-api-recipients-api-openapi.yml
 description: ''
 domains:
 - caa: []

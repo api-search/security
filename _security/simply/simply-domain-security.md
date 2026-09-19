@@ -38,7 +38,7 @@ tags:
 - Consumer
 - Music Education
 - Art Education
-- Mobile Apps
+- Mobile App
 - Creative Learning
 - Artificial Intelligence
 - Extended Reality

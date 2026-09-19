@@ -55,7 +55,7 @@ tags:
 - Big Data
 - Machine-Learning
 - Semantic Search
-- Retrieval Augmented Generation
+- RAG
 - Open-Source
 - Tensor
 - Recommendations

@@ -2,24 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: morningstar-oauth-api-openapi.yml
+- filename: morningstar-token-api-openapi.yml
   format: yaml
   label: Morningstar Authentication API
   slug: morningstar-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-token-api-openapi.yml
 - filename: morningstar-corporate-actions-api-openapi.yml
   format: yaml
   label: Morningstar Time Series API
   slug: morningstar-time-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-corporate-actions-api-openapi.yml
-- filename: morningstar-data-points-api-openapi.yml
+- filename: morningstar-screener-api-openapi.yml
   format: yaml
   label: Morningstar Screener APIs
   slug: morningstar-screener-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-data-points-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-screener-api-openapi.yml
 - filename: morningstar-aggregates-financials-api-openapi.yml
   format: yaml
   label: Morningstar Investment Details APIs
@@ -86,6 +86,18 @@ api_specs:
   slug: morningstar-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-morningstar-agent-api-openapi.yml
+- filename: morningstar-oauth-api-openapi.yml
+  format: yaml
+  label: Morningstar OAUTH API
+  slug: morningstar-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-oauth-api-openapi.yml
+- filename: morningstar-datapoints-api-openapi.yml
+  format: yaml
+  label: Morningstar Datapoints API
+  slug: morningstar-datapoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-datapoints-api-openapi.yml
 auth_types:
 - http-basic (token issuance)
 - bearer (API calls)
@@ -245,10 +257,10 @@ tags:
 - Market Data
 - Investing
 - Stocks
-- Funds
+- Fund
 - Real-Time
 - Reference Data
 - Portfolio Analytics
 - Research
-- Indexes
+- Index
 ---

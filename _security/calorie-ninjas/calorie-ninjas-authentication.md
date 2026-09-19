@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas
 summary_line: apiKey · 1 scheme
 tags:
 - Beverages
-- Foods
+- Food
 - Image Recognition
 - Nutrition
 - Recipes

@@ -33,7 +33,7 @@ tags:
 - Company
 - Recruiting
 - Talent Acquisition
-- HR Tech
+- Human Resources
 - Hiring
 - Recruitment Automation
 - Artificial Intelligence

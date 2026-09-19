@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payment-links-api-openapi.yml
 - filename: pinch-payments-payments-api-openapi.yml
   format: yaml
-  label: Pinch Payments Payments API
+  label: Pinch Payments API
   slug: pinch-payments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payments-api-openapi.yml

@@ -26,6 +26,6 @@ tags:
 - Employee Wellbeing
 - EAP
 - Coaching
-- HR
+- Human Resources
 trust_url: https://trust.unmind.com/
 ---

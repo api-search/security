@@ -50,7 +50,7 @@ tags:
 - Distributed Ledger
 - Permissioned Blockchain
 - Open-Source
-- Data Centers
+- Data-Center
 - Mining Hardware
 - Enterprise Blockchain
 ---

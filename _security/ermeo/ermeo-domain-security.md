@@ -60,6 +60,6 @@ tags:
 - Field Operations
 - Industrial
 - Maintenance
-- Inspections
+- Inspection
 - Software-as-a-Service
 ---

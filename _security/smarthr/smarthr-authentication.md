@@ -68,7 +68,6 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/smarthr-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/authentication/smarthr-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- HR
 - Human Resources
 - HRIS
 - Labor Management

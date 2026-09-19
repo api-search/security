@@ -37,6 +37,5 @@ tags:
 - Surveys
 - Employee Feedback
 - Sentiment Analysis
-- HR Tech
 - Pulse Surveys
 ---

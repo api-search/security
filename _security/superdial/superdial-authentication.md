@@ -3,12 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: superdial-api-openapi.yml
+- filename: superdial-authentication-api-openapi.yml
   format: yaml
-  label: SuperDial API
-  slug: superdial-api
+  label: SuperDial Authentication API
+  slug: superdial-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/openapi/superdial-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/openapi/superdial-authentication-api-openapi.yml
+- filename: superdial-requests-api-openapi.yml
+  format: yaml
+  label: SuperDial Requests API
+  slug: superdial-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/openapi/superdial-requests-api-openapi.yml
+- filename: superdial-schemas-api-openapi.yml
+  format: yaml
+  label: SuperDial Schemas API
+  slug: superdial-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/openapi/superdial-schemas-api-openapi.yml
 auth_types:
 - apiKey
 - http

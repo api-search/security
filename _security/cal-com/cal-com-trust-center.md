@@ -90,12 +90,6 @@ api_specs:
   slug: cal-com-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/openapi/cal-com-me-api-openapi.yml
-- filename: cal-com-oauth2-api-openapi.yml
-  format: yaml
-  label: Cal.com OAuth2 API
-  slug: cal-com-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/openapi/cal-com-oauth2-api-openapi.yml
 - filename: cal-com-schedules-api-openapi.yml
   format: yaml
   label: Cal.com Schedules API
@@ -132,6 +126,12 @@ api_specs:
   slug: cal-com-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/openapi/cal-com-webhooks-api-openapi.yml
+- filename: cal-com-oauth2-api-openapi.yml
+  format: yaml
+  label: Cal.com O Auth2 API
+  slug: cal-com-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/openapi/cal-com-oauth2-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

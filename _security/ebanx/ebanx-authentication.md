@@ -77,7 +77,7 @@ tags:
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LatAm
+- Latin America
 - Emerging Markets
 - Pix
 - Boleto

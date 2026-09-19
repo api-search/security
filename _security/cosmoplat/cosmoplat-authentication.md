@@ -117,7 +117,7 @@ tags:
 - Company
 - Industrial Internet
 - Industrial IoT
-- Internet of Things
+- IoT
 - Manufacturing
 - Smart Factory
 - Device Management

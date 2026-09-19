@@ -36,7 +36,7 @@ tags:
 - Investment Management
 - Registered Investment Adviser
 - Brokerage
-- Financial Services
-- Portfolio Management
+- Financial-Services
+- Portfolio-Management
 - Fintech
 ---

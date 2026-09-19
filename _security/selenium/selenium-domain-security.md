@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/
 summary_line: TLSv1.3
 tags:
 - Automation
-- Browsers
+- Browser
 - End-to-End Testing
 - Quality Assurance
 - Testing

@@ -50,6 +50,6 @@ tags:
 - Retail
 - Beverages
 - Subscription
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 ---

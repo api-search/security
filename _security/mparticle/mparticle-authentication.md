@@ -130,7 +130,7 @@ tags:
 - CDP
 - Analytics
 - Identity Resolution
-- Audience
+- Audiences
 - Data Pipeline
 - Marketing Data
 - Event Streaming

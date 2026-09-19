@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: sigma-computing-accounttypes-api-openapi.yml
-  format: yaml
-  label: Sigma Computing Account Types API
-  slug: sigma-computing-accounttypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-accounttypes-api-openapi.yml
-- filename: sigma-computing-apiconnectors-api-openapi.yml
-  format: yaml
-  label: Sigma Computing API Connectors API
-  slug: sigma-computing-apiconnectors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-apiconnectors-api-openapi.yml
-- filename: sigma-computing-apicredentials-api-openapi.yml
-  format: yaml
-  label: Sigma Computing API Credentials API
-  slug: sigma-computing-apicredentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-apicredentials-api-openapi.yml
 - filename: sigma-computing-auth-api-openapi.yml
   format: yaml
   label: Sigma Computing Auth API
@@ -36,12 +18,6 @@ api_specs:
   slug: sigma-computing-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-credentials-api-openapi.yml
-- filename: sigma-computing-datamodels-api-openapi.yml
-  format: yaml
-  label: Sigma Computing Data Models API
-  slug: sigma-computing-datamodels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-datamodels-api-openapi.yml
 - filename: sigma-computing-datasets-api-openapi.yml
   format: yaml
   label: Sigma Computing Datasets API
@@ -108,12 +84,6 @@ api_specs:
   slug: sigma-computing-saml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-saml-api-openapi.yml
-- filename: sigma-computing-sharedtemplates-api-openapi.yml
-  format: yaml
-  label: Sigma Computing Shared Templates API
-  slug: sigma-computing-sharedtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-sharedtemplates-api-openapi.yml
 - filename: sigma-computing-shortcuts-api-openapi.yml
   format: yaml
   label: Sigma Computing Shortcuts API
@@ -156,12 +126,6 @@ api_specs:
   slug: sigma-computing-translations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-translations-api-openapi.yml
-- filename: sigma-computing-userattributes-api-openapi.yml
-  format: yaml
-  label: Sigma Computing User Attributes API
-  slug: sigma-computing-userattributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-userattributes-api-openapi.yml
 - filename: sigma-computing-webhooks-api-openapi.yml
   format: yaml
   label: Sigma Computing Webhooks API
@@ -228,6 +192,18 @@ api_specs:
   slug: sigma-computing-user-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-user-attributes-api-openapi.yml
+- filename: sigma-computing-account-types-api-openapi.yml
+  format: yaml
+  label: Sigma Computing Account Types API
+  slug: sigma-computing-account-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-account-types-api-openapi.yml
+- filename: sigma-computing-data-models-api-openapi.yml
+  format: yaml
+  label: Sigma Computing Data models API
+  slug: sigma-computing-data-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/openapi/sigma-computing-data-models-api-openapi.yml
 certification_count: 11
 certifications:
 - SOC 1

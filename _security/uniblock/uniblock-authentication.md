@@ -21,12 +21,6 @@ api_specs:
   slug: uniblock-market-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-market-data-api-openapi.yml
-- filename: uniblock-nfts-api-openapi.yml
-  format: yaml
-  label: Uniblock NFTs API
-  slug: uniblock-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-nfts-api-openapi.yml
 - filename: uniblock-scan-api-openapi.yml
   format: yaml
   label: Uniblock Scan API
@@ -45,6 +39,12 @@ api_specs:
   slug: uniblock-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-transactions-api-openapi.yml
+- filename: uniblock-nfts-api-openapi.yml
+  format: yaml
+  label: Uniblock NF Ts API
+  slug: uniblock-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-nfts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

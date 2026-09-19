@@ -34,7 +34,7 @@ tags:
 - Company
 - Health Tech
 - Surgery
-- Telemedicine
+- Telehealth
 - Medical Devices
 - WebRTC
 - SDK

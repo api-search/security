@@ -54,5 +54,5 @@ tags:
 - Prompt Injection
 - Guardrails
 - Red Teaming
-- GenAI
+- Generative AI
 ---

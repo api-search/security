@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: corbado-connecttokens-api-openapi.yml
-  format: yaml
-  label: Corbado ConnectTokens API
-  slug: corbado-connecttokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-connecttokens-api-openapi.yml
 - filename: corbado-exports-api-openapi.yml
   format: yaml
   label: Corbado Exports API
@@ -44,6 +38,12 @@ api_specs:
   slug: corbado-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-users-api-openapi.yml
+- filename: corbado-connect-tokens-api-openapi.yml
+  format: yaml
+  label: Corbado Connect Tokens API
+  slug: corbado-connect-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-connect-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''

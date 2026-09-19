@@ -52,5 +52,5 @@ tags:
 - USDC
 - Agent Payments
 - paid-placement
-- Leaderboard
+- Leaderboards
 ---

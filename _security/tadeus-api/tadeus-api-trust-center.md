@@ -84,7 +84,7 @@ tags:
 - Research
 - Interviews
 - Workforce
-- HR Tech
+- Human Resources
 - Conversational AI
 - Employee Experience
 - AI Agents

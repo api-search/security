@@ -26,12 +26,6 @@ api_specs:
   slug: runpod-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-endpoints-api-openapi.yml
-- filename: runpod-networkvolumes-api-openapi.yml
-  format: yaml
-  label: RunPod Networkvolumes API
-  slug: runpod-networkvolumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-networkvolumes-api-openapi.yml
 - filename: runpod-openapi-json-api-openapi.yml
   format: yaml
   label: RunPod Openapi.json API
@@ -50,6 +44,12 @@ api_specs:
   slug: runpod-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-templates-api-openapi.yml
+- filename: runpod-network-volumes-api-openapi.yml
+  format: yaml
+  label: RunPod Network Volumes API
+  slug: runpod-network-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-network-volumes-api-openapi.yml
 auth_types:
 - http
 description: ''

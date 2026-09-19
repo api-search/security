@@ -6,18 +6,18 @@ api_specs:
   slug: first-street-enterprise-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-enterprise-api-openapi.yml
-- filename: first-street-graphql-api-openapi.yml
-  format: yaml
-  label: First Street Graphql API
-  slug: first-street-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-graphql-api-openapi.yml
 - filename: first-street-maps-api-openapi.yml
   format: yaml
   label: First Street Maps API
   slug: first-street-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-maps-api-openapi.yml
+- filename: first-street-graph-ql-api-openapi.yml
+  format: yaml
+  label: First Street Graph QL API
+  slug: first-street-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-graph-ql-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -45,7 +45,7 @@ tags:
 - Modeling
 - Geospatial
 - Insurance
-- Real Estate
+- Real-Estate
 - Data
 - GraphQL
 - Mapping

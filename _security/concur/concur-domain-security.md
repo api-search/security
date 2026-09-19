@@ -61,7 +61,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Expense Management
 - Finance
-- Invoice
+- Invoices
 - SAP
 - Travel
 ---

@@ -38,6 +38,6 @@ tags:
 - Silicon Capacitors
 - Artificial Intelligence
 - High Performance Computing
-- Data Centers
+- Data-Center
 - Electronics
 ---

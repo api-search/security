@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: azure-function-apps-webapps-api-openapi.yml
+- filename: azure-function-apps-web-apps-api-openapi.yml
   format: yaml
-  label: Azure Function Apps WebApps API
-  slug: azure-function-apps-webapps-api
+  label: Azure Function Apps Web Apps API
+  slug: azure-function-apps-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/openapi/azure-function-apps-webapps-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/openapi/azure-function-apps-web-apps-api-openapi.yml
 description: ''
 domains:
 - caa:

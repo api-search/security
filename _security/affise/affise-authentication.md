@@ -213,7 +213,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Affiliate Marketing
 - Performance Marketing
-- Conversions
+- Conversion
 - Publishers
 - Analytics
 - Attribution

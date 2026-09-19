@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: nextgen-healthcare-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: NextGen Healthcare Allergy Intolerance API
-  slug: nextgen-healthcare-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-allergyintolerance-api-openapi.yml
-- filename: nextgen-healthcare-careplan-api-openapi.yml
-  format: yaml
-  label: NextGen Healthcare Care Plan API
-  slug: nextgen-healthcare-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-careplan-api-openapi.yml
 - filename: nextgen-healthcare-careteam-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Care Team API
@@ -50,12 +38,6 @@ api_specs:
   slug: nextgen-healthcare-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-diagnosticreport-api-openapi.yml
-- filename: nextgen-healthcare-documentreference-api-openapi.yml
-  format: yaml
-  label: NextGen Healthcare Document Reference API
-  slug: nextgen-healthcare-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-documentreference-api-openapi.yml
 - filename: nextgen-healthcare-encounter-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Encounter API
@@ -92,24 +74,12 @@ api_specs:
   slug: nextgen-healthcare-location-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-location-api-openapi.yml
-- filename: nextgen-healthcare-medicationadministration-api-openapi.yml
-  format: yaml
-  label: NextGen Healthcare Medication Administration API
-  slug: nextgen-healthcare-medicationadministration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medicationadministration-api-openapi.yml
 - filename: nextgen-healthcare-medicationdispense-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Medication Dispense API
   slug: nextgen-healthcare-medicationdispense-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medicationdispense-api-openapi.yml
-- filename: nextgen-healthcare-medicationrequest-api-openapi.yml
-  format: yaml
-  label: NextGen Healthcare Medication Request API
-  slug: nextgen-healthcare-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medicationrequest-api-openapi.yml
 - filename: nextgen-healthcare-observation-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Observation API
@@ -140,12 +110,6 @@ api_specs:
   slug: nextgen-healthcare-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-practitioner-api-openapi.yml
-- filename: nextgen-healthcare-practitionerrole-api-openapi.yml
-  format: yaml
-  label: NextGen Healthcare Practitioner Role API
-  slug: nextgen-healthcare-practitionerrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-practitionerrole-api-openapi.yml
 - filename: nextgen-healthcare-procedure-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Procedure API
@@ -170,6 +134,42 @@ api_specs:
   slug: nextgen-healthcare-specimen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-specimen-api-openapi.yml
+- filename: nextgen-healthcare-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: NextGen Healthcare Allergy Intolerance API
+  slug: nextgen-healthcare-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-allergy-intolerance-api-openapi.yml
+- filename: nextgen-healthcare-care-plan-api-openapi.yml
+  format: yaml
+  label: NextGen Healthcare Care plan API
+  slug: nextgen-healthcare-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-care-plan-api-openapi.yml
+- filename: nextgen-healthcare-document-reference-api-openapi.yml
+  format: yaml
+  label: NextGen Healthcare Document Reference API
+  slug: nextgen-healthcare-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-document-reference-api-openapi.yml
+- filename: nextgen-healthcare-medication-administration-api-openapi.yml
+  format: yaml
+  label: NextGen Healthcare Medication Administration API
+  slug: nextgen-healthcare-medication-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medication-administration-api-openapi.yml
+- filename: nextgen-healthcare-medication-request-api-openapi.yml
+  format: yaml
+  label: NextGen Healthcare Medication Request API
+  slug: nextgen-healthcare-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medication-request-api-openapi.yml
+- filename: nextgen-healthcare-practitioner-role-api-openapi.yml
+  format: yaml
+  label: NextGen Healthcare Practitioner Role API
+  slug: nextgen-healthcare-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-practitioner-role-api-openapi.yml
 auth_types:
 - http
 - oauth2

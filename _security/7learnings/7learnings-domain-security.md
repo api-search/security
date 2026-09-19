@@ -39,10 +39,10 @@ tags:
 - Price Optimization
 - Predictive Pricing
 - Demand Forecasting
-- Machine Learning
-- Ecommerce
+- Machine-Learning
+- E-Commerce
 - Performance Marketing
 - Data Integration
 - Germany
-- SaaS
+- Software-as-a-Service
 ---

@@ -94,7 +94,7 @@ tags:
 - Fintech
 - Embedded Finance
 - Lending
-- BNPL
+- Buy Now Pay Later
 - Credit
 - Payments
 - KYC

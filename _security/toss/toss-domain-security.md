@@ -56,7 +56,7 @@ tags:
 - Payments
 - Fintech
 - Banking
-- Korea
+- South Korea
 - Digital Wallet
 - Credit Scoring
 - Identity Verification

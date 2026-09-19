@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/security/spire-global-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Satellites
+- Satellite
 - Earth Observation
 - AIS
 - Maritime

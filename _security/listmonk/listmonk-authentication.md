@@ -137,7 +137,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/
 summary_line: http/apiKey · 2 schemes
 tags:
 - Email
-- Newsletter
+- Newsletters
 - Mailing List
 - Marketing
 - Transactional Email

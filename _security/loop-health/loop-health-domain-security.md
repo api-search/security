@@ -37,7 +37,7 @@ tags:
 - Healthcare
 - Employee Benefits
 - Health Assurance
-- Telemedicine
+- Telehealth
 - Insurtech
 - India
 ---

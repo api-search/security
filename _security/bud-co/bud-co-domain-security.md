@@ -114,12 +114,6 @@ api_specs:
   slug: bud-co-manage-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-manage-payments-api-openapi.yml
-- filename: bud-co-oauth2-api-openapi.yml
-  format: yaml
-  label: Bud Financial OAuth2 API
-  slug: bud-co-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-oauth2-api-openapi.yml
 - filename: bud-co-product-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Product Finder API
@@ -192,6 +186,12 @@ api_specs:
   slug: bud-co-transaction-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-transaction-search-api-openapi.yml
+- filename: bud-co-oauth2-api-openapi.yml
+  format: yaml
+  label: Bud Financial O Auth2 API
+  slug: bud-co-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -246,7 +246,7 @@ tags:
 - PISP
 - Financial Data
 - Fintech
-- UK
+- United Kingdom
 - Artificial Intelligence
 - Machine-Learning
 ---

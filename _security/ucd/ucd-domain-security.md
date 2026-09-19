@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ucd-oai-pmh-openapi.yml
+- filename: ucd-oai-pmh-api-openapi.yml
   format: yaml
-  label: Research Repository UCD — OAI-PMH 2.0
-  slug: oai-pmh
+  label: University College Dublin OAI PMH API
+  slug: ucd-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []

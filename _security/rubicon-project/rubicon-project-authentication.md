@@ -513,7 +513,7 @@ tags:
 - AdTech
 - Programmatic Advertising
 - Sell-Side Platform
-- SSP
+- Supply Side Platform
 - Real-Time Bidding
 - Connected TV
 - Ad Serving

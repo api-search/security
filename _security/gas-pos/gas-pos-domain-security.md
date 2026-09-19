@@ -33,7 +33,7 @@ tags:
 - Point-of-Sale
 - Payments
 - Fuel
-- Convenience Store
+- Convenience Stores
 - Truck Stop
 - Retail
 - EMV

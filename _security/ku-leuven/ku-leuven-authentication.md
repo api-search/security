@@ -80,12 +80,6 @@ api_specs:
   slug: ku-leuven-edit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-edit-api-openapi.yml
-- filename: ku-leuven-externaltools-api-openapi.yml
-  format: yaml
-  label: KU Leuven ExternalTools API
-  slug: ku-leuven-externaltools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-externaltools-api-openapi.yml
 - filename: ku-leuven-files-api-openapi.yml
   format: yaml
   label: KU Leuven Files API
@@ -194,12 +188,6 @@ api_specs:
   slug: ku-leuven-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-search-api-openapi.yml
-- filename: ku-leuven-sendfeedback-api-openapi.yml
-  format: yaml
-  label: KU Leuven Sendfeedback API
-  slug: ku-leuven-sendfeedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-sendfeedback-api-openapi.yml
 - filename: ku-leuven-uploaddatasetlogo-api-openapi.yml
   format: yaml
   label: KU Leuven uploadDatasetLogo API
@@ -266,6 +254,18 @@ api_specs:
   slug: ku-leuven-vacancies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-vacancies-api-openapi.yml
+- filename: ku-leuven-external-tools-api-openapi.yml
+  format: yaml
+  label: KU Leuven External Tools API
+  slug: ku-leuven-external-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-external-tools-api-openapi.yml
+- filename: ku-leuven-send-feedback-api-openapi.yml
+  format: yaml
+  label: KU Leuven Send Feedback API
+  slug: ku-leuven-send-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-send-feedback-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -218,12 +218,6 @@ api_specs:
   slug: gofundme-like-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/openapi/gofundme-like-api-openapi.yml
-- filename: gofundme-magiclink-api-openapi.yml
-  format: yaml
-  label: GoFundMe Magic Link API
-  slug: gofundme-magiclink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/openapi/gofundme-magiclink-api-openapi.yml
 - filename: gofundme-matched-transaction-api-openapi.yml
   format: yaml
   label: GoFundMe Matched Transaction API
@@ -422,6 +416,12 @@ api_specs:
   slug: gofundme-whitelisted-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/openapi/gofundme-whitelisted-currency-api-openapi.yml
+- filename: gofundme-magic-link-api-openapi.yml
+  format: yaml
+  label: GoFundMe Magic Link API
+  slug: gofundme-magic-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/openapi/gofundme-magic-link-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

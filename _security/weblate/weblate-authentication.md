@@ -4,12 +4,6 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: weblate-addons-api-openapi.yml
-  format: yaml
-  label: Weblate addons API
-  slug: weblate-addons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-addons-api-openapi.yml
 - filename: weblate-categories-api-openapi.yml
   format: yaml
   label: Weblate categories API
@@ -136,6 +130,12 @@ api_specs:
   slug: weblate-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-webhooks-api-openapi.yml
+- filename: weblate-add-ons-api-openapi.yml
+  format: yaml
+  label: Weblate Add Ons API
+  slug: weblate-add-ons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-add-ons-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

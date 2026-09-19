@@ -32,11 +32,11 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Holding Company
-- Consumer Apps
-- Mobile Apps
+- Consumer App
+- Mobile App
 - Software
 - Software-as-a-Service
-- Acquisitions
+- Acquisition
 - Publicly Traded
 - Italy
 - Portfolio

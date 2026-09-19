@@ -36,18 +36,13 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/security/clearstream-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- API Platform
 - Capital Markets
 - Collateral Management
 - Custody
 - Financial-Services
 - ISO 15022
 - ISO 20022
-- Mutual TLS
-- OAuth 2.0
-- Post-Trade
 - Post-Trade Infrastructure
-- SCIM
 - Securities
 - Settlement
 - Swift

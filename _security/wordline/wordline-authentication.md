@@ -254,12 +254,6 @@ api_specs:
   slug: wordline-event-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wordline/refs/heads/main/openapi/wordline-event-store-api-openapi.yml
-- filename: wordline-healthcheck-api-openapi.yml
-  format: yaml
-  label: Worldline HealthCheck API
-  slug: wordline-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordline/refs/heads/main/openapi/wordline-healthcheck-api-openapi.yml
 - filename: wordline-holding-api-openapi.yml
   format: yaml
   label: Worldline Holding API
@@ -428,6 +422,12 @@ api_specs:
   slug: wordline-user-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wordline/refs/heads/main/openapi/wordline-user-resource-api-openapi.yml
+- filename: wordline-health-check-api-openapi.yml
+  format: yaml
+  label: Worldline Health Check API
+  slug: wordline-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wordline/refs/heads/main/openapi/wordline-health-check-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -97,5 +97,5 @@ tags:
 - Gaming
 - Tournaments
 - Brackets
-- Competition
+- Competitions
 ---

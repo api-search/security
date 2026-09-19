@@ -67,7 +67,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Inference
-- Large Language Models
+- LLM
 - Developer Tools
 - Cloud Computing
 - Semiconductors

@@ -126,12 +126,6 @@ api_specs:
   slug: nexgen-cloud-email-opt-in-out-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-email-opt-in-out-api-openapi.yml
-- filename: nexgen-cloud-email-preferences-api-openapi.yml
-  format: yaml
-  label: NexGen Cloud Email Preferences API
-  slug: nexgen-cloud-email-preferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-email-preferences-api-openapi.yml
 - filename: nexgen-cloud-environment-api-openapi.yml
   format: yaml
   label: NexGen Cloud Environment API
@@ -204,12 +198,6 @@ api_specs:
   slug: nexgen-cloud-invite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-invite-api-openapi.yml
-- filename: nexgen-cloud-keypair-api-openapi.yml
-  format: yaml
-  label: NexGen Cloud Keypair API
-  slug: nexgen-cloud-keypair-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-keypair-api-openapi.yml
 - filename: nexgen-cloud-knowledge-bases-api-openapi.yml
   format: yaml
   label: NexGen Cloud Knowledge Bases API
@@ -390,6 +378,12 @@ api_specs:
   slug: nexgen-cloud-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-vouchers-api-openapi.yml
+- filename: nexgen-cloud-key-pair-api-openapi.yml
+  format: yaml
+  label: NexGen Cloud Key Pair API
+  slug: nexgen-cloud-key-pair-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/openapi/nexgen-cloud-key-pair-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

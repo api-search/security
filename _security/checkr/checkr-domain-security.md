@@ -131,7 +131,7 @@ tags:
 - Background Checks
 - Employment Screening
 - Compliance
-- HR Tech
+- Human Resources
 - Identity Verification
 - Criminal Records
 ---

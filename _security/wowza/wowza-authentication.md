@@ -80,12 +80,6 @@ api_specs:
   slug: wowza-quality-of-experience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-quality-of-experience-api-openapi.yml
-- filename: wowza-real-time-api-openapi.yml
-  format: yaml
-  label: Wowza real_time API
-  slug: wowza-real-time-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-real-time-api-openapi.yml
 - filename: wowza-recordings-api-openapi.yml
   format: yaml
   label: Wowza recordings API
@@ -266,6 +260,12 @@ api_specs:
   slug: wowza-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-webhooks-api-openapi.yml
+- filename: wowza-realtime-api-openapi.yml
+  format: yaml
+  label: Wowza Realtime API
+  slug: wowza-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-realtime-api-openapi.yml
 auth_types:
 - http
 description: ''

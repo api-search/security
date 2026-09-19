@@ -307,5 +307,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freshwor
   \ Use your API key as the username and X as the password. The API key can be found\n    in your Freshdesk profile settings.\n  sources:\n  - openapi/freshworks-freshdesk-api-openapi.yml\n  - openapi/freshworks-freshservice-api-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Token-based authentication. Use the format \"Token token=your_api_key\".\n  sources:\n  - openapi/freshworks-freshsales-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/authentication/freshworks-authentication.yml
 summary_line: apiKey/http · 4 schemes
-tags: []
+tags:
+- Analytics
+- Campaigns
+- Email Marketing
+- Marketing
+- Marketing Automation
+- Freshworks
 ---

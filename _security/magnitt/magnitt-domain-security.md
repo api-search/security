@@ -35,7 +35,7 @@ tags:
 - Startups
 - Data Platform
 - Market Research
-- Investors
+- Investor
 - MENA
 - Emerging Markets
 - Analytics

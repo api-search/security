@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-discovery-recommendation-api-openapi.yml
 - filename: true-fit-fit-recommendation-api-openapi.yml
   format: yaml
-  label: True Fit Fit Recommendation API
+  label: True Fit Recommendation API
   slug: true-fit-fit-recommendation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-fit-recommendation-api-openapi.yml

@@ -98,12 +98,6 @@ api_specs:
   slug: kanastra-pix-transfer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-pix-transfer-api-openapi.yml
-- filename: kanastra-qrcodes-api-openapi.yml
-  format: yaml
-  label: Kanastra QRCodes API
-  slug: kanastra-qrcodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-qrcodes-api-openapi.yml
 - filename: kanastra-ted-transfer-api-openapi.yml
   format: yaml
   label: Kanastra TED Transfer API
@@ -122,6 +116,12 @@ api_specs:
   slug: kanastra-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-wallet-api-openapi.yml
+- filename: kanastra-qr-codes-api-openapi.yml
+  format: yaml
+  label: Kanastra QR Codes API
+  slug: kanastra-qr-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/openapi/kanastra-qr-codes-api-openapi.yml
 auth_types:
 - http
 - private_key_jwt

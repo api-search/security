@@ -33,7 +33,7 @@ tags:
 - Company
 - Health
 - Digital Health
-- Medical Device
+- Medical Devices
 - Dermatology
 - Patient Engagement
 - Mobile App

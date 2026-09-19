@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: university-of-antwerp-irua-oai-pmh-openapi.yml
+- filename: university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
   format: yaml
-  label: IRUA OAI-PMH Metadata Interface
-  slug: irua-oai-pmh
+  label: University of Antwerp IRUA OAI PMH Metadata Interface API
+  slug: university-of-antwerp-irua-oai-pmh-metadata-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
 auth_types: []
 description: 'How access is established across the University of Antwerp''s surfaces. There is no API key programme, no OAuth authorization server the institution operates for third parties, and no developer registration of any kind. Access is binary: metadata harvesting is fully anonymous, and everything else is behind institutional SAML single sign-on.'
 kind: authentication

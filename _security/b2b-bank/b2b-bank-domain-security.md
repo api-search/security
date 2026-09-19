@@ -37,6 +37,6 @@ tags:
 - Schedule I Bank
 - Broker Bank
 - Deposits
-- Mortgages
+- Mortgage
 - Lending
 ---

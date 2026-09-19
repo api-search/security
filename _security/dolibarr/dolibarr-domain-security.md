@@ -51,6 +51,6 @@ tags:
 - Product
 - Project
 - Banking
-- HR
+- Human Resources
 - Business
 ---

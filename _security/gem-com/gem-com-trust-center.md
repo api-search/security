@@ -29,6 +29,6 @@ tags:
 - Sourcing
 - Talent Marketing
 - Agentic AI
-- HR Tech
+- Human Resources
 trust_url: https://www.gem.com/compliance/security
 ---

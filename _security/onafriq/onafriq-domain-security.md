@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Mobile Money
-- Remittance
+- Remittances
 - Cross-Border Payments
 - Disbursements
 - Payouts

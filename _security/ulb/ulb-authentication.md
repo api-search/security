@@ -2,18 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ulb-difusion-export-openapi.yml
+- filename: ulb-group-api-openapi.yml
   format: yaml
-  label: DI-fusion Export API
-  slug: difusion-export
+  label: Université libre de Bruxelles Group API
+  slug: ulb-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-difusion-export-openapi.yml
-- filename: ulb-difusion-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-group-api-openapi.yml
+- filename: ulb-oai-pmh-api-openapi.yml
   format: yaml
-  label: DI-fusion OAI-PMH Harvesting Endpoint
-  slug: difusion-oai-pmh
+  label: Université libre de Bruxelles OAI PMH API
+  slug: ulb-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-difusion-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-oai-pmh-api-openapi.yml
+- filename: ulb-scholar-api-openapi.yml
+  format: yaml
+  label: Université libre de Bruxelles Scholar API
+  slug: ulb-scholar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-scholar-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

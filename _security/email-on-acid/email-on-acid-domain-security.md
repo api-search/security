@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Testing
 - Email Previews
-- Email Clients
+- Email Client
 - Spam Testing
 - Accessibility
 - HTML Validation

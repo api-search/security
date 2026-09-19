@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: threatlocker-actionlog-api-openapi.yml
-  format: yaml
-  label: ThreatLocker Action Log API
-  slug: threatlocker-actionlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-actionlog-api-openapi.yml
 - filename: threatlocker-application-api-openapi.yml
   format: yaml
   label: ThreatLocker Application API
   slug: threatlocker-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-application-api-openapi.yml
-- filename: threatlocker-approvalrequest-api-openapi.yml
-  format: yaml
-  label: ThreatLocker Approval Request API
-  slug: threatlocker-approvalrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-approvalrequest-api-openapi.yml
 - filename: threatlocker-computer-api-openapi.yml
   format: yaml
   label: ThreatLocker Computer API
@@ -108,6 +96,18 @@ api_specs:
   slug: threatlocker-vdihyperv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-vdihyperv-api-openapi.yml
+- filename: threatlocker-action-log-api-openapi.yml
+  format: yaml
+  label: ThreatLocker Action Log API
+  slug: threatlocker-action-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-action-log-api-openapi.yml
+- filename: threatlocker-approval-request-api-openapi.yml
+  format: yaml
+  label: ThreatLocker Approval Request API
+  slug: threatlocker-approval-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/openapi/threatlocker-approval-request-api-openapi.yml
 description: ''
 domains:
 - caa: []

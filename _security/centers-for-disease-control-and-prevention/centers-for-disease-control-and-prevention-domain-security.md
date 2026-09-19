@@ -12,18 +12,72 @@ api_specs:
   slug: centers-for-disease-control-and-prevention-soda-v3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-soda-v3-api-openapi.yml
-- filename: centers-for-disease-control-and-prevention-dibbs-ecr-refiner-openapi.json
-  format: json
-  label: CDC DIBBs eCR Refiner API
-  slug: dibbs-ecr-refiner
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-dibbs-ecr-refiner-openapi.json
-- filename: centers-for-disease-control-and-prevention-dibbs-query-connector-openapi.yaml
+- filename: centers-for-disease-control-and-prevention-app-notifications-api-openapi.yml
   format: yaml
-  label: CDC DIBBs Query Connector API
-  slug: dibbs-query-connector
+  label: Centers for Disease Control and Prevention App Notifications API
+  slug: centers-for-disease-control-and-prevention-app-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-dibbs-query-connector-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-app-notifications-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-code-systems-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Code Systems API
+  slug: centers-for-disease-control-and-prevention-code-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-code-systems-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-conditions-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Conditions API
+  slug: centers-for-disease-control-and-prevention-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-conditions-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-configurations-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Configurations API
+  slug: centers-for-disease-control-and-prevention-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-configurations-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-events-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Events API
+  slug: centers-for-disease-control-and-prevention-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-events-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-query-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Query API
+  slug: centers-for-disease-control-and-prevention-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-query-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-query-connector-api-openapi-3-0-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Query Connector API OpenAPI 3.0 API
+  slug: centers-for-disease-control-and-prevention-query-connector-api-openapi-3-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-query-connector-api-openapi-3-0-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-releases-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Releases API
+  slug: centers-for-disease-control-and-prevention-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-releases-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-simulator-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Simulator API
+  slug: centers-for-disease-control-and-prevention-simulator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-simulator-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-tes-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention Tes API
+  slug: centers-for-disease-control-and-prevention-tes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-tes-api-openapi.yml
+- filename: centers-for-disease-control-and-prevention-user-api-openapi.yml
+  format: yaml
+  label: Centers for Disease Control and Prevention User API
+  slug: centers-for-disease-control-and-prevention-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/openapi/centers-for-disease-control-and-prevention-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +120,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/security/centers-for-disease-control-and-prevention-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- CDC
+- Change Data Capture
 - Environmental Health
 - Epidemiology
 - Federal-Government

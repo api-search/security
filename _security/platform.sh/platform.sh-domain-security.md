@@ -90,12 +90,6 @@ api_specs:
   slug: platform.sh-domain-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-domain-management-api-openapi.yml
-- filename: platform.sh-entrypoint-api-openapi.yml
-  format: yaml
-  label: Platform.sh Entrypoint API
-  slug: platform.sh-entrypoint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-entrypoint-api-openapi.yml
 - filename: platform.sh-environment-activity-api-openapi.yml
   format: yaml
   label: Platform.sh Environment Activity API
@@ -186,12 +180,6 @@ api_specs:
   slug: platform.sh-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-organizations-api-openapi.yml
-- filename: platform.sh-phonenumber-api-openapi.yml
-  format: yaml
-  label: Platform.sh Phone Number API
-  slug: platform.sh-phonenumber-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-phonenumber-api-openapi.yml
 - filename: platform.sh-profiles-api-openapi.yml
   format: yaml
   label: Platform.sh Profiles API
@@ -360,6 +348,18 @@ api_specs:
   slug: platform.sh-vouchers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-vouchers-api-openapi.yml
+- filename: platform.sh-entry-point-api-openapi.yml
+  format: yaml
+  label: Platform.sh Entry Point API
+  slug: platform.sh-entry-point-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-entry-point-api-openapi.yml
+- filename: platform.sh-phone-number-api-openapi.yml
+  format: yaml
+  label: Platform.sh Phone Number API
+  slug: platform.sh-phone-number-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/openapi/platform.sh-phone-number-api-openapi.yml
 description: ''
 domains:
 - caa: []

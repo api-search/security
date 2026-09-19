@@ -36,6 +36,6 @@ tags:
 - Infrastructure
 - Project Management
 - Predictive Analytics
-- Data Centers
+- Data-Center
 - Software-as-a-Service
 ---

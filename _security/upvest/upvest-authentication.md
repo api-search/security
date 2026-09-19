@@ -247,7 +247,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Banking Infrastructure
 - Fintech
-- Investments
+- Investment
 - Securities
 - Fractional Investing
 - Custody

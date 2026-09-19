@@ -36,7 +36,7 @@ tags:
 - Defense
 - Aerospace
 - Spacecraft
-- Satellites
+- Satellite
 - Autonomous Systems
 - Orbital
 ---

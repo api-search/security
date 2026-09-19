@@ -123,12 +123,6 @@ api_specs:
   slug: rentberry-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/openapi/rentberry-notifications-api-openapi.yml
-- filename: rentberry-oauth-api-openapi.yml
-  format: yaml
-  label: Rentberry O Auth API
-  slug: rentberry-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/openapi/rentberry-oauth-api-openapi.yml
 - filename: rentberry-payments-api-openapi.yml
   format: yaml
   label: Rentberry Payments API
@@ -273,6 +267,12 @@ api_specs:
   slug: rentberry-virtual-tours-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/openapi/rentberry-virtual-tours-api-openapi.yml
+- filename: rentberry-oauth-api-openapi.yml
+  format: yaml
+  label: Rentberry O Auth API
+  slug: rentberry-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/openapi/rentberry-oauth-api-openapi.yml
 auth_types:
 - token
 description: ''

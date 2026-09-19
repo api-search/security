@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: bitwise-etfs-api-openapi.yml
-  format: yaml
-  label: Bitwise ETFs API
-  slug: bitwise-etfs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-etfs-api-openapi.yml
 - filename: bitwise-funds-api-openapi.yml
   format: yaml
   label: Bitwise Funds API
@@ -18,6 +12,12 @@ api_specs:
   slug: bitwise-indexes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-indexes-api-openapi.yml
+- filename: bitwise-etfs-api-openapi.yml
+  format: yaml
+  label: Bitwise ET Fs API
+  slug: bitwise-etfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-etfs-api-openapi.yml
 description: ''
 domains:
 - caa: []

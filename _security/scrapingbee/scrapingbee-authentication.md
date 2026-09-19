@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: scrapingbee-google-search-api-api-openapi.yml
   format: yaml
-  label: ScrapingBee Google Search API API
+  label: ScrapingBee Google Search API
   slug: scrapingbee-google-search-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-google-search-api-api-openapi.yml
 - filename: scrapingbee-html-api-api-openapi.yml
   format: yaml
-  label: ScrapingBee HTML API API
+  label: ScrapingBee HTML API
   slug: scrapingbee-html-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-html-api-api-openapi.yml

@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/booking-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/authentication/booking-holdings-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Accommodations
+- Accommodation
 - Airlines
 - Car Rentals
 - Hospitality

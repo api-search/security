@@ -15,12 +15,6 @@ api_specs:
   slug: onomondo-network-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-network-lists-api-openapi.yml
-- filename: onomondo-sims-api-openapi.yml
-  format: yaml
-  label: Onomondo SIMs API
-  slug: onomondo-sims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sims-api-openapi.yml
 - filename: onomondo-sms-api-openapi.yml
   format: yaml
   label: Onomondo SMS API
@@ -45,6 +39,12 @@ api_specs:
   slug: onomondo-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-webhooks-api-openapi.yml
+- filename: onomondo-sims-api-openapi.yml
+  format: yaml
+  label: Onomondo SI Ms API
+  slug: onomondo-sims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sims-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -1,41 +1,197 @@
 ---
 api_specs:
-- filename: eu-open-data-portal-hub-search-openapi.yaml
-  format: yaml
-  label: EU Open Data Portal Search API (hub-search)
-  slug: eu-open-data-portal-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-hub-search-openapi.yaml
-- filename: eu-open-data-portal-hub-repo-openapi.yaml
-  format: yaml
-  label: EU Open Data Portal Registry API (hub-repo)
-  slug: eu-open-data-portal-registry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-hub-repo-openapi.yaml
-- filename: eu-open-data-portal-mqa-metrics-cache-openapi.yaml
-  format: yaml
-  label: EU Open Data Portal MQA Metrics Cache API
-  slug: eu-open-data-portal-mqa-metrics-cache-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-mqa-metrics-cache-openapi.yaml
-- filename: eu-open-data-portal-mqa-shacl-openapi.yaml
-  format: yaml
-  label: EU Open Data Portal SHACL Validation API
-  slug: eu-open-data-portal-mqa-shacl-validation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-mqa-shacl-openapi.yaml
-- filename: eu-open-data-portal-mqa-reporter-openapi.yaml
-  format: yaml
-  label: EU Open Data Portal MQA Metrics Reporter API
-  slug: eu-open-data-portal-mqa-metrics-reporter-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-mqa-reporter-openapi.yaml
 - filename: eu-open-data-portal-hub-statistics-swagger.json
   format: json
   label: EU Open Data Portal Statistics API
   slug: eu-open-data-portal-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-hub-statistics-swagger.json
+- filename: eu-open-data-portal-action-api-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Action API
+  slug: eu-open-data-portal-action-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-action-api-api-openapi.yml
+- filename: eu-open-data-portal-actions-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Actions API
+  slug: eu-open-data-portal-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-actions-api-openapi.yml
+- filename: eu-open-data-portal-administration-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Administration API
+  slug: eu-open-data-portal-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-administration-api-openapi.yml
+- filename: eu-open-data-portal-catalogues-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Catalogues API
+  slug: eu-open-data-portal-catalogues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-catalogues-api-openapi.yml
+- filename: eu-open-data-portal-ckan-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Ckan API
+  slug: eu-open-data-portal-ckan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-ckan-api-openapi.yml
+- filename: eu-open-data-portal-countries-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Countries API
+  slug: eu-open-data-portal-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-countries-api-openapi.yml
+- filename: eu-open-data-portal-custom-resources-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Custom Resources API
+  slug: eu-open-data-portal-custom-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-custom-resources-api-openapi.yml
+- filename: eu-open-data-portal-data-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Data API
+  slug: eu-open-data-portal-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-data-api-openapi.yml
+- filename: eu-open-data-portal-data-services-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Data Services API
+  slug: eu-open-data-portal-data-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-data-services-api-openapi.yml
+- filename: eu-open-data-portal-dataset-series-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Dataset Series API
+  slug: eu-open-data-portal-dataset-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-dataset-series-api-openapi.yml
+- filename: eu-open-data-portal-datasets-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Datasets API
+  slug: eu-open-data-portal-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-datasets-api-openapi.yml
+- filename: eu-open-data-portal-dcat-resources-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal DCAT Resources API
+  slug: eu-open-data-portal-dcat-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-dcat-resources-api-openapi.yml
+- filename: eu-open-data-portal-distributions-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Distributions API
+  slug: eu-open-data-portal-distributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-distributions-api-openapi.yml
+- filename: eu-open-data-portal-drafts-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Drafts API
+  slug: eu-open-data-portal-drafts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-drafts-api-openapi.yml
+- filename: eu-open-data-portal-editorialcontent-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Editorial Content API
+  slug: eu-open-data-portal-editorialcontent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-editorialcontent-api-openapi.yml
+- filename: eu-open-data-portal-feeds-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Feeds API
+  slug: eu-open-data-portal-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-feeds-api-openapi.yml
+- filename: eu-open-data-portal-gazetteer-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Gazetteer API
+  slug: eu-open-data-portal-gazetteer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-gazetteer-api-openapi.yml
+- filename: eu-open-data-portal-generate-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Generate API
+  slug: eu-open-data-portal-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-generate-api-openapi.yml
+- filename: eu-open-data-portal-global-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Global API
+  slug: eu-open-data-portal-global-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-global-api-openapi.yml
+- filename: eu-open-data-portal-maintenance-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Maintenance API
+  slug: eu-open-data-portal-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-maintenance-api-openapi.yml
+- filename: eu-open-data-portal-organizations-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Organizations API
+  slug: eu-open-data-portal-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-organizations-api-openapi.yml
+- filename: eu-open-data-portal-persistent-identifiers-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Persistent Identifiers API
+  slug: eu-open-data-portal-persistent-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-persistent-identifiers-api-openapi.yml
+- filename: eu-open-data-portal-report-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Report API
+  slug: eu-open-data-portal-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-report-api-openapi.yml
+- filename: eu-open-data-portal-reports-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Reports API
+  slug: eu-open-data-portal-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-reports-api-openapi.yml
+- filename: eu-open-data-portal-resources-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Resources API
+  slug: eu-open-data-portal-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-resources-api-openapi.yml
+- filename: eu-open-data-portal-search-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Search API
+  slug: eu-open-data-portal-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-search-api-openapi.yml
+- filename: eu-open-data-portal-sitemap-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Sitemap API
+  slug: eu-open-data-portal-sitemap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-sitemap-api-openapi.yml
+- filename: eu-open-data-portal-test-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Test API
+  slug: eu-open-data-portal-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-test-api-openapi.yml
+- filename: eu-open-data-portal-translation-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Translation API
+  slug: eu-open-data-portal-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-translation-api-openapi.yml
+- filename: eu-open-data-portal-validation-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Validation API
+  slug: eu-open-data-portal-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-validation-api-openapi.yml
+- filename: eu-open-data-portal-vocabularies-api-openapi.yml
+  format: yaml
+  label: EU Open Data Portal Vocabularies API
+  slug: eu-open-data-portal-vocabularies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-vocabularies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,5 +232,5 @@ tags:
 - DCAT-AP
 - Data Quality
 - Metadata
-- Catalogs
+- Catalog
 ---

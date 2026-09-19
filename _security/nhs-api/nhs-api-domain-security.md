@@ -92,7 +92,7 @@ tags:
 - Healthcare
 - FHIR
 - NHS
-- UK
+- United Kingdom
 - HL7
 - Electronic Prescriptions
 - Patient Demographics

@@ -36,12 +36,6 @@ api_specs:
   slug: cruz-foam-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-discovery-api-openapi.yml
-- filename: cruz-foam-oembed-api-openapi.yml
-  format: yaml
-  label: Cruz Foam oEmbed API
-  slug: cruz-foam-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-oembed-api-openapi.yml
 - filename: cruz-foam-seo-api-openapi.yml
   format: yaml
   label: Cruz Foam SEO Metadata API
@@ -72,6 +66,12 @@ api_specs:
   slug: cruz-foam-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-users-api-openapi.yml
+- filename: cruz-foam-o-embed-api-openapi.yml
+  format: yaml
+  label: Cruz Foam o Embed API
+  slug: cruz-foam-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

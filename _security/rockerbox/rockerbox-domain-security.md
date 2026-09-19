@@ -51,7 +51,7 @@ tags:
 - Marketing Mix Modeling
 - Incrementality Testing
 - Media Spend
-- Customer Journeys
+- Customer Journey
 - Marketing Analytics
 - Data Warehousing
 - Conversion Tracking

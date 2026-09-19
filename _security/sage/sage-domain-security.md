@@ -102,5 +102,5 @@ tags:
 - Cloud Software
 - ERP
 - Payroll
-- HR
+- Human Resources
 ---

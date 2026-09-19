@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: einride-authenticationservice-api-openapi.yml
-  format: yaml
-  label: Einride AuthenticationService API
-  slug: einride-authenticationservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-authenticationservice-api-openapi.yml
 - filename: einride-bookingservice-api-openapi.yml
   format: yaml
   label: Einride BookingService API
@@ -21,6 +15,12 @@ api_specs:
   slug: einride-shipmentservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-shipmentservice-api-openapi.yml
+- filename: einride-authentication-service-api-openapi.yml
+  format: yaml
+  label: Einride Authentication Service API
+  slug: einride-authentication-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-authentication-service-api-openapi.yml
 auth_types:
 - bearer
 description: ''

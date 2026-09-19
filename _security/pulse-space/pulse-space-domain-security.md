@@ -33,7 +33,7 @@ tags:
 - Company
 - Space
 - Aerospace
-- Satellites
+- Satellite
 - Power
 - Energy
 - Hardware

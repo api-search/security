@@ -36,12 +36,6 @@ api_specs:
   slug: looker-studio-manifest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-manifest-api-openapi.yml
-- filename: looker-studio-oembed-api-openapi.yml
-  format: yaml
-  label: Looker Studio oEmbed API
-  slug: looker-studio-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-oembed-api-openapi.yml
 - filename: looker-studio-permissions-api-openapi.yml
   format: yaml
   label: Looker Studio Permissions API
@@ -66,6 +60,12 @@ api_specs:
   slug: looker-studio-visualization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-visualization-api-openapi.yml
+- filename: looker-studio-o-embed-api-openapi.yml
+  format: yaml
+  label: Looker Studio o Embed API
+  slug: looker-studio-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa:

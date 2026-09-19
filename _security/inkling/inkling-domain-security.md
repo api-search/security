@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inkling/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Learning
 - Training
 - Employee Enablement

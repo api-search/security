@@ -6,12 +6,6 @@ api_specs:
   slug: coinflow-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-authentication-api-openapi.yml
-- filename: coinflow-cardtokenization-api-openapi.yml
-  format: yaml
-  label: Coinflow cardTokenization API
-  slug: coinflow-cardtokenization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-cardtokenization-api-openapi.yml
 - filename: coinflow-checkout-api-openapi.yml
   format: yaml
   label: Coinflow checkout API
@@ -84,6 +78,12 @@ api_specs:
   slug: coinflow-withdraw-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-withdraw-api-openapi.yml
+- filename: coinflow-card-tokenization-api-openapi.yml
+  format: yaml
+  label: Coinflow Card Tokenization API
+  slug: coinflow-card-tokenization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-card-tokenization-api-openapi.yml
 description: ''
 domains:
 - caa: []

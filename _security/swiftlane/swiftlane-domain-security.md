@@ -35,7 +35,7 @@ tags:
 - Access Control
 - Physical Security
 - Video Intercom
-- Smart Building
+- Smart Buildings
 - Facial Recognition
 - PropTech
 - IoT

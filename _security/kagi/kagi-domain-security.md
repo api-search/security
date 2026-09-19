@@ -58,6 +58,6 @@ tags:
 - OpenAPI
 - Pay-Per-Use
 - Privacy
-- LLMs
+- LLM
 - Web Index
 ---

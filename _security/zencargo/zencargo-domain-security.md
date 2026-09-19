@@ -63,7 +63,7 @@ tags:
 - Logistics
 - Ocean Freight
 - Shipment Tracking
-- Bookings
+- Booking
 - Supply Chain Visibility
 - Freight
 - Software-as-a-Service

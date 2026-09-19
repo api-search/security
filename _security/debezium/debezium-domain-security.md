@@ -61,9 +61,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/
 summary_line: TLSv1.3
 tags:
 - Apache Kafka
-- CDC
 - Change Data Capture
-- Databases
+- Database
 - Event Streaming
 - Open-Source
 ---

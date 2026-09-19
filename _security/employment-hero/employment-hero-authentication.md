@@ -95,11 +95,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/employme
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/authentication/employment-hero-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- HR
+- Human Resources
 - HRIS
 - Payroll
 - Recruitment
 - Employee Benefits
 - Workforce Management
-- HR Tech
 ---

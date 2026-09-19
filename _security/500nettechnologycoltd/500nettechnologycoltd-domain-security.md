@@ -33,7 +33,7 @@ tags:
 - Systems Integration
 - Smart Buildings
 - Smart Factory
-- Internet of Things
+- IoT
 - Artificial Intelligence
 - Energy Management
 - Building Automation

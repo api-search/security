@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: test-ai-opentestdata-openapi.yaml
+- filename: test-ai-data-api-openapi.yml
   format: yaml
-  label: OpenTestData API
-  slug: opentestdata-api
+  label: test.ai Data API
+  slug: test-ai-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-opentestdata-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-data-api-openapi.yml
+- filename: test-ai-ping-api-openapi.yml
+  format: yaml
+  label: test.ai Ping API
+  slug: test-ai-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-ping-api-openapi.yml
+- filename: test-ai-search-api-openapi.yml
+  format: yaml
+  label: test.ai Search API
+  slug: test-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-search-api-openapi.yml
+- filename: test-ai-tests-api-openapi.yml
+  format: yaml
+  label: test.ai Tests API
+  slug: test-ai-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-tests-api-openapi.yml
+- filename: test-ai-users-api-openapi.yml
+  format: yaml
+  label: test.ai Users API
+  slug: test-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/openapi/test-ai-users-api-openapi.yml
 auth_types:
 - http
 description: ''
