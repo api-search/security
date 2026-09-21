@@ -180,6 +180,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/security/freddie-mac-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
+- Freddie Mac
 - Federal-Government
 - Housing
 - Mortgage

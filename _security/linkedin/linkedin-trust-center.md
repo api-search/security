@@ -440,6 +440,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/security/linkedin-trust-center.yml
 summary_line: ISO 22301, ISO 27001, ISO 27018, SOC 2, PCI DSS
 tags:
+- LinkedIn
 - Business
 - Careers
 - Marketing

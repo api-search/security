@@ -1,0 +1,53 @@
+---
+api_specs:
+- filename: geoloods-openapi.json
+  format: json
+  label: Geoloods API
+  slug: geoloods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-openapi.json
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: true
+  domain: geoloods.io
+  spf: true
+hosts:
+- cert_expires: Nov 14 09:01:32 2026 GMT
+  host: geoloods.io
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov 14 08:58:20 2026 GMT
+  host: api.geoloods.io
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 2
+kind: domain-security
+layout: security
+method: probed
+name: Geoloods Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Geoloods, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
+provider_name: Geoloods
+provider_slug: geoloods
+slug: geoloods-domain-security
+source_filename: geoloods-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: geoloods.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 09:01:32 2026 GMT\n  hsts: false\n- host: api.geoloods.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 08:58:20 2026 GMT\n  hsts: null\ndomains:\n- domain: geoloods.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/security/geoloods-domain-security.yml
+summary_line: TLSv1.3 · DNSSEC
+tags:
+- Geocoding
+- Place Search
+- Location
+- Coordinates
+- Mapping
+- Geospatial
+- Agents
+- OpenAPI
+- llms-txt
+---

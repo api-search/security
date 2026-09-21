@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qname/refs/hea
 summary_line: 0 schemes
 tags:
 - WHOIS
-- rdap
+- RDAP
 - domain-research
 - Domain Search
 - batch-lookup

@@ -50,6 +50,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/app-stor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/authentication/apple-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Apple
 - Developers
 - iOS
 - macOS

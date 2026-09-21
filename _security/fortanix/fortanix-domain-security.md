@@ -5,7 +5,7 @@ api_specs:
   label: Fortanix Confidential Computing Manager REST API
   slug: ccm
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-ccm-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/_original/fortanix-ccm-openapi-original.json
 - filename: fortanix-account-extensions-api-openapi.yml
   format: yaml
   label: Fortanix Account Extensions API

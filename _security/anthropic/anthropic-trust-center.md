@@ -281,10 +281,11 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-trust-center.yml
 summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001:2022, ISO/IEC 42001:2023, HIPAA
 tags:
+- LLM
+- Anthropic
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- LLM
 - Machine-Learning
 - MCP
 - Agents

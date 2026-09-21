@@ -157,6 +157,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blockfro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/authentication/cardano-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Cardano
 - Blockchain
 - Cryptocurrency
 - Proof of Stake

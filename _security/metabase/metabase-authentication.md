@@ -98,6 +98,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/metabase
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/authentication/metabase-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
+- Metabase
 - Analytics
 - Business Intelligence
 - Dashboards

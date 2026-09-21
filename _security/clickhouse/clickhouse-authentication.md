@@ -128,6 +128,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/authentication/clickhouse-authentication.yml
 summary_line: http/apiKey/oauth2 · 0 schemes
 tags:
+- ClickHouse
 - Analytics
 - Cloud Database
 - Column-Oriented

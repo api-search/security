@@ -245,6 +245,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nsource: >-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, PCI DSS 4.0, FIPS 140-2, FIPS 140-3, Common Criteria, FedRAMP High
 tags:
+- Red Hat
 - Cloud
 - Containers
 - Enterprise

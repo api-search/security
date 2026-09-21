@@ -167,6 +167,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contact-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/authentication/servicenow-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
+- ServiceNow
 - Automation
 - Cloud Services
 - Digital Workflows

@@ -210,6 +210,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/paypal-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/authentication/paypal-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
+- PayPal
 - Billing
 - Commerce
 - Disputes

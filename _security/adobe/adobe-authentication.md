@@ -306,13 +306,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/authentication/adobe-authentication.yml
 summary_line: http/apiKey/oauth2 · 3 schemes
 tags:
+- E-Signature
+- Adobe
 - Fortune 1000
 - Analytics
 - Creative Cloud
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

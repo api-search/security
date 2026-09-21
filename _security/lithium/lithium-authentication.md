@@ -621,6 +621,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lithium
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/authentication/lithium-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
+- Lithium
 - Company
 - MarTech
 - Community

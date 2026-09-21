@@ -108,10 +108,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/d-id-age
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/authentication/d-id-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
+- Avatars
+- DID
 - AI Video
 - Digital Humans
 - Talking Head
-- Avatars
 - Generative AI
 - Video Generation
 - Real-Time Streaming

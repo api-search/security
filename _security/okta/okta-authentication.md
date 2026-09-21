@@ -189,12 +189,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/okta-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/authentication/okta-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- SSO
+- Okta
 - Identity
 - Workforce Identity
 - Customer Identity
 - Authentication
 - Authorization
-- SSO
 - Multi-Factor Authentication
 - Identity Governance
 - Privileged Access

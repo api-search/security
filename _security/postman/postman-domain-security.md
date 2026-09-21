@@ -309,6 +309,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/security/postman-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Environment
+- Flow
+- Specification
+- Workspace
+- Postman
 - AI Agent Builder
 - AI Agents
 - API Catalog
@@ -329,8 +334,6 @@ tags:
 - Collection
 - Compliance
 - Discovery
-- Environment
-- Flow
 - GraphQL
 - gRPC
 - HTTP
@@ -347,11 +350,9 @@ tags:
 - Public API Network
 - Secret Scanning
 - Spec Hub
-- Specification
 - SSO
 - Testing
 - Vault
 - WebSocket
 - Workflows
-- Workspace
 ---

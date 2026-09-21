@@ -108,7 +108,7 @@ tags:
 - digital notarization
 - Timestamping
 - proof-of-existence
-- content authenticity
+- Content Authenticity
 - Provenance
 - Copyright
 - IP protection

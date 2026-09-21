@@ -198,6 +198,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/security/bazaarvoice-trust-center.yml
 summary_line: ISO/IEC 27001:2013, CSA CAIQ, GDPR, CCPA
 tags:
+- BazaarVoice
 - Company
 - Reviews
 - Ratings

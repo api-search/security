@@ -115,10 +115,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/security/rabbitmq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
+- Queues
+- RabbitMQ
 - AMQP
 - Distributed Systems
 - Event Streaming
 - Message Broker
 - Messaging
-- Queues
 ---

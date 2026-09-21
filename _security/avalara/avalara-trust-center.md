@@ -429,5 +429,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/h
 summary_line: SOC 2 Type 2
 tags:
 - Tax
+- Avalara
 trust_url: ''
 ---

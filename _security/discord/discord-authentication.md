@@ -174,6 +174,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/discord-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/authentication/discord-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
+- Discord
 - Chat
 - Communications
 - Gaming

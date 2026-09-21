@@ -71,7 +71,7 @@ tags:
 - Developer Tools
 - OpenAPI
 - WebMCP
-- browser agents
+- Browser Agents
 - payments (QR)
 - Agent Readiness
 - llms-txt

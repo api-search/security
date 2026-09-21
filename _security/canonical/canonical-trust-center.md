@@ -669,6 +669,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://ubuntu.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/security/canonical-trust-center.yml
 summary_line: trust center published
 tags:
+- Canonical
 - Cloud
 - Linux
 - Open-Source

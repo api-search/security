@@ -25,6 +25,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  probe-secur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-trust-center.yml
 summary_line: trust center published
 tags:
+- Cloud Native Buildpacks
 - Build Tools
 - CI/CD
 - Cloud-Native

@@ -90,6 +90,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microso
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/authentication/microsoft-teams-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
+- Microsoft Teams
 - Chat
 - Collaboration
 - Communications

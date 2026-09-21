@@ -266,6 +266,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/security/cox-automotive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
+- Cox Automotive
 - Automotive
 - Vehicle Data
 - Vehicle Valuations

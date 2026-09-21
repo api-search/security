@@ -1,0 +1,50 @@
+---
+description: ''
+domains:
+- caa:
+  - 0 issuewild "ssl.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: true
+  domain: agenthaven.dev
+  spf: false
+hosts:
+- cert_expires: Dec  5 12:20:26 2026 GMT
+  host: agenthaven.dev
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Agenthaven Dev Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Agent Bench, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=quarantine).'
+provider_name: Agent Bench
+provider_slug: agenthaven-dev
+slug: agenthaven-dev-domain-security
+source_filename: agenthaven-dev-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agenthaven.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 12:20:26 2026 GMT\n  hsts: false\ndomains:\n- domain: agenthaven.dev\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/security/agenthaven-dev-domain-security.yml
+summary_line: TLSv1.3 · DNSSEC · DMARC
+tags:
+- Agents
+- A2A
+- MCP
+- Agentic Commerce
+- DNS-AID
+- Travel
+- Flights
+- Payments
+- Agent Identity
+- Proof of Concept
+- agent-native
+---

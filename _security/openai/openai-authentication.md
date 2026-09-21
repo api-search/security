@@ -368,7 +368,8 @@ source_yaml: "generated: '2026-08-27'\nmethod: derived\nsource: openapi/openai-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/authentication/openai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Artificial Intelligence
 - LLM
+- OpenAI
+- Artificial Intelligence
 - T1
 ---

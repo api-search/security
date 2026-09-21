@@ -54,6 +54,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/meta-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/authentication/meta-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
+- Meta
 - Advertising
 - Analytics
 - Artificial Intelligence

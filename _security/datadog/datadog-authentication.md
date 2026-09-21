@@ -726,10 +726,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/datadog-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/authentication/datadog-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
+- Visualization
+- Datadog
 - Analytics
 - Dashboards
 - Monitoring
 - Platform
 - T1
-- Visualization
 ---

@@ -67,6 +67,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/security/neo4j-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
 tags:
+- Neo4j
 - Graph Database
 - Cypher
 - Cloud

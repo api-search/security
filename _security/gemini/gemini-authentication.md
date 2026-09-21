@@ -71,6 +71,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gemini-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/authentication/gemini-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
+- LLM
+- Gemini
 - Agents
 - Artificial Intelligence
 - Audio Understanding
@@ -81,7 +83,6 @@ tags:
 - Function Calling
 - Generative AI
 - Image-Generation
-- LLM
 - Machine-Learning
 - Multi-Modal
 - Structured Output

@@ -276,31 +276,31 @@ api_specs:
   slug: juniper-wlans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/openapi/juniper-wlans-api-openapi.yml
-- filename: juniper-networks-junos-telemetry-asyncapi.yml
+- filename: juniper-mist-api-openapi.yml
   format: yaml
-  label: Junos XML API
-  slug: junos-xml-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/asyncapi/juniper-networks-junos-telemetry-asyncapi.yml
+  label: Juniper Mist API
+  slug: juniper-mist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/openapi/juniper-mist-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 128 issue "amazon.com"
-  - 128 issue "ZScaler.com"
   - 128 issue "digicert.com"
   - 128 issue "letsencrypt.org"
   - 128 issue "sectigo.com"
+  - 128 issue "amazon.com"
+  - 128 issue "ZScaler.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: juniper.net
   spf: true
 - caa:
-  - 0 issue "comodoca.com"
   - 0 issue "digicert.com"
   - 0 issue "letsencrypt.org"
   - 0 iodef "mailto:certs@mistsys.com"
   - 0 issue "amazonaws.com"
+  - 0 issue "comodoca.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
@@ -309,16 +309,15 @@ domains:
 hosts:
 - host: developer.juniper.net
   https: false
-- cert_expires: Oct 14 23:59:59 2026 GMT
+- cert_expires: Mar 10 23:59:59 2027 GMT
   host: www.juniper.net
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Mar 20 23:59:59 2027 GMT
-  host: www.mist.com
-  hsts: true
-  hsts_max_age: 31536000
+- cert_expires: Mar 12 23:59:59 2027 GMT
+  host: api.mist.com
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -327,14 +326,14 @@ layout: security
 method: probed
 name: Juniper Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Juniper Networks, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Juniper Networks, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Juniper Networks
 provider_slug: juniper
 slug: juniper-domain-security
 source_filename: juniper-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.juniper.net\n  https: false\n- host: www.juniper.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.mist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: juniper.net\n  dnssec: false\n  caa:\n  - 128 issue \"amazon.com\"\n  - 128 issue \"ZScaler.com\"\n  - 128 issue \"digicert.com\"\n  - 128 issue \"letsencrypt.org\"\n  - 128 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mist.com\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:certs@mistsys.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.juniper.net\n  https: false\n- host: www.juniper.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: juniper.net\n  dnssec: false\n  caa:\n  - 128 issue \"digicert.com\"\n  - 128 issue \"letsencrypt.org\"\n  - 128 issue \"sectigo.com\"\n  - 128 issue \"amazon.com\"\n  - 128 issue \"ZScaler.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mist.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:certs@mistsys.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/security/juniper-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -1,20 +1,27 @@
 ---
+api_specs:
+- filename: postman-minis
+  format: yaml
+  label: Axonius
+  slug: axonius
+  spec_type: Postman
+  url: https://github.com/Axonius/postman-minis
 description: ''
 domains:
 - caa:
+  - 0 issue "amazonaws.com"
   - 0 issue "awstrust.com"
   - 0 issue "axonius.okta.com"
   - 0 issue "digicert.com"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog"
-  - 0 issuewild "amazontrust.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: axonius.com
   spf: true
 hosts:
-- cert_expires: Oct  3 11:29:59 2026 GMT
+- cert_expires: Dec  5 20:50:44 2026 GMT
   host: www.axonius.com
   hsts: null
   https: true
@@ -32,7 +39,7 @@ slug: axonius-domain-security
 source_filename: axonius-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.axonius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 11:29:59 2026 GMT\n  hsts: null\ndomains:\n- domain: axonius.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"axonius.okta.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.axonius.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 20:50:44 2026 GMT\n  hsts: null\ndomains:\n- domain: axonius.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"axonius.okta.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -40,4 +47,7 @@ tags:
 - Cybersecurity
 - SaaS Management
 - SaaS Security
+- Vulnerability Management
+- IT Asset Management
+- Security Operations
 ---

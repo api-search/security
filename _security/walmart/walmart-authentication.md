@@ -188,6 +188,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/authentication/walmart-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
+- Walmart
 - Commerce
 - Retail
 - Fortune 100

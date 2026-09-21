@@ -33,6 +33,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://g
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/authentication/buildpacks-authentication.yml
 summary_line: 0 schemes
 tags:
+- Cloud Native Buildpacks
 - Build Tools
 - CI/CD
 - Cloud-Native

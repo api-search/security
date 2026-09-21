@@ -111,6 +111,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/argo-cd-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/authentication/argocd-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- ArgoCD
 - DevOps
 - GitOps
 - Kubernetes

@@ -105,7 +105,7 @@ tags:
 - Forecasting
 - Predictions
 - Market Data
-- trading-signals
+- Trading Signals
 - Research
 - AI Agents
 - MCP

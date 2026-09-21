@@ -313,6 +313,8 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/security/autodesk-trust-center.yml
 summary_line: SOC 2, SOC 3, ISO 27001, ISO 27701, ISO 27017, ISO 27018, ISO 42001
 tags:
+- Digital Twin
+- Autodesk
 - Fortune 1000
 - 3D Modeling
 - Architecture
@@ -320,7 +322,6 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

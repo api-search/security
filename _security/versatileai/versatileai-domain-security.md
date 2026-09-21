@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Versatileai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for versatile.ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: versatile.ai
+overview: 'Domain security posture for Versatile, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Versatile
 provider_slug: versatileai
 slug: versatileai-domain-security
 source_filename: versatileai-domain-security.yml

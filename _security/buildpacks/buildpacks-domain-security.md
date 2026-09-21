@@ -49,6 +49,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
+- Cloud Native Buildpacks
 - Build Tools
 - CI/CD
 - Cloud-Native

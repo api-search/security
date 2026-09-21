@@ -196,6 +196,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: 20 first-party 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/authentication/freddie-mac-authentication.yml
 summary_line: http · 2 schemes
 tags:
+- Freddie Mac
 - Federal-Government
 - Housing
 - Mortgage

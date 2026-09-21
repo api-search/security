@@ -5,7 +5,7 @@ api_specs:
   label: Elastic Cloud API
   slug: elastic-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/elk-stack-elastic-cloud-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/openapi/_original/elk-stack-elastic-cloud-swagger.json
 - filename: elk-stack-accounts-api-openapi.yml
   format: yaml
   label: Elastic Stack (ELK Stack) Accounts API

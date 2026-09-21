@@ -184,6 +184,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/security/walmart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Walmart
 - Commerce
 - Retail
 - Fortune 100

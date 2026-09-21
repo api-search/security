@@ -79,6 +79,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/neo4j-au
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/authentication/neo4j-authentication.yml
 summary_line: http · 2 schemes
 tags:
+- Neo4j
 - Graph Database
 - Cypher
 - Cloud

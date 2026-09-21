@@ -271,6 +271,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/security/postman-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
+- Environment
+- Flow
+- Specification
+- Workspace
+- Postman
 - AI Agent Builder
 - AI Agents
 - API Catalog
@@ -291,8 +296,6 @@ tags:
 - Collection
 - Compliance
 - Discovery
-- Environment
-- Flow
 - GraphQL
 - gRPC
 - HTTP
@@ -309,12 +312,10 @@ tags:
 - Public API Network
 - Secret Scanning
 - Spec Hub
-- Specification
 - SSO
 - Testing
 - Vault
 - WebSocket
 - Workflows
-- Workspace
 trust_url: https://security.postman.com/
 ---

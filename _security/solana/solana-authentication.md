@@ -61,6 +61,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/solana-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/authentication/solana-authentication.yml
 summary_line: 0 schemes
 tags:
+- Solana
 - Blockchain
 - Cryptocurrency
 - Web3

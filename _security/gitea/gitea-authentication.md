@@ -138,6 +138,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gitea-re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/authentication/gitea-authentication.yml
 summary_line: apiKey/http · 7 schemes
 tags:
+- Gitea
 - Git
 - Source Control
 - DevOps

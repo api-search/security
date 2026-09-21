@@ -30,4 +30,9 @@ tags:
 - Chemicals
 - Manufacturing
 - Building Products
+- Chlor-Alkali
+- PVC
+- Vinyls
+- Defunct
+- Acquired
 ---

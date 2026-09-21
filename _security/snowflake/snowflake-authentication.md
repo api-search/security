@@ -372,6 +372,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: >-\n  Baseline 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/authentication/snowflake-authentication.yml
 summary_line: http-bearer/oauth2 · 4 schemes
 tags:
+- Snowflake
 - Data
 - Data Warehouse
 - Data Lakehouse

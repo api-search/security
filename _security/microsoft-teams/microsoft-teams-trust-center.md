@@ -85,6 +85,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/security/microsoft-teams-trust-center.yml
 summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, FedRAMP, HIPAA / HITECH, PCI DSS, CSA STAR, GDPR
 tags:
+- Microsoft Teams
 - Chat
 - Collaboration
 - Communications

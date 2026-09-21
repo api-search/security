@@ -161,11 +161,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zoom-mee
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/authentication/zoom-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
+- Video
+- Zoom
 - Chat
 - Collaboration
 - Communications
 - Meetings
 - Video Conferencing
-- Video
 - Webinars
 ---

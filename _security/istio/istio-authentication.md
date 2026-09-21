@@ -106,6 +106,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/istio-ex
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/authentication/istio-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Istio
 - CNCF
 - Kubernetes
 - Microservices

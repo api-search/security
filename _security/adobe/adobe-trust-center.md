@@ -271,13 +271,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/security/adobe-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, CSA STAR, GDPR, C5 (Germany), IRAP (Australia), TISAX
 tags:
+- E-Signature
+- Adobe
 - Fortune 1000
 - Analytics
 - Creative Cloud
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

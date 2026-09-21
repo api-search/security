@@ -205,12 +205,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/security/okta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- SSO
+- Okta
 - Identity
 - Workforce Identity
 - Customer Identity
 - Authentication
 - Authorization
-- SSO
 - Multi-Factor Authentication
 - Identity Governance
 - Privileged Access

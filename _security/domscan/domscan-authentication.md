@@ -256,7 +256,7 @@ tags:
 - Domains
 - DNS
 - WHOIS
-- rdap
+- RDAP
 - SSL/TLS
 - Email Security
 - Domain Valuation

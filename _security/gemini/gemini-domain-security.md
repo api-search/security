@@ -82,6 +82,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/security/gemini-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- LLM
+- Gemini
 - Agents
 - Artificial Intelligence
 - Audio Understanding
@@ -92,7 +94,6 @@ tags:
 - Function Calling
 - Generative AI
 - Image-Generation
-- LLM
 - Machine-Learning
 - Multi-Modal
 - Structured Output

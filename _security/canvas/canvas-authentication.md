@@ -907,6 +907,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/canvas-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/authentication/canvas-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
+- Canvas
 - Education
 - EdTech
 - GraphQL

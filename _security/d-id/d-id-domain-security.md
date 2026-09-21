@@ -102,10 +102,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/security/d-id-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
+- Avatars
+- DID
 - AI Video
 - Digital Humans
 - Talking Head
-- Avatars
 - Generative AI
 - Video Generation
 - Real-Time Streaming

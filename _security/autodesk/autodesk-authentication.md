@@ -347,6 +347,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/autodesk
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/authentication/autodesk-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:
+- Digital Twin
+- Autodesk
 - Fortune 1000
 - 3D Modeling
 - Architecture
@@ -354,7 +356,6 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

@@ -885,6 +885,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/security/canvas-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
+- Canvas
 - Education
 - EdTech
 - GraphQL

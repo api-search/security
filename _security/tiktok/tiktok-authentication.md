@@ -106,6 +106,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tiktok-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/authentication/tiktok-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
+- TikTok
 - Advertising
 - Commerce
 - Content

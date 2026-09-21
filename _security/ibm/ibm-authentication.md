@@ -74,13 +74,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ibm-clou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/authentication/ibm-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Database
+- IBM
 - API Management
 - Artificial Intelligence
 - Billing
 - Cloud Computing
 - Containers
 - Data Governance
-- Database
 - DevOps
 - Enterprise
 - Generative AI

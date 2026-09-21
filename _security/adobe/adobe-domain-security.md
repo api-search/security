@@ -288,13 +288,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/security/adobe-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
+- E-Signature
+- Adobe
 - Fortune 1000
 - Analytics
 - Creative Cloud
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

@@ -259,6 +259,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/red-hat-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/authentication/red-hat-authentication.yml
 summary_line: http · 2 schemes
 tags:
+- Red Hat
 - Cloud
 - Containers
 - Enterprise

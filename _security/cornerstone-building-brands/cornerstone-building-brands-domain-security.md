@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cornerstone-building-brands-content-api-openapi.yml
+  format: yaml
+  label: Cornerstone Building Brands Content API (WordPress REST wp/v2)
+  slug: cornerstone-building-brands-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cornerstone-building-brands/refs/heads/main/openapi/cornerstone-building-brands-content-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,7 +15,7 @@ domains:
   domain: cornerstonebuildingbrands.com
   spf: true
 hosts:
-- cert_expires: Sep 14 17:24:24 2026 GMT
+- cert_expires: Nov 12 18:29:45 2026 GMT
   host: www.cornerstonebuildingbrands.com
   hsts: true
   hsts_max_age: 63072000
@@ -31,10 +38,16 @@ slug: cornerstone-building-brands-domain-security
 source_filename: cornerstone-building-brands-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cornerstonebuildingbrands.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 17:24:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.cornerstonebuildingbrands.com\n  https: false\n- host: api.cornerstonebuildingbrands.com\n  https: false\ndomains:\n- domain: cornerstonebuildingbrands.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cornerstonebuildingbrands.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 18:29:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.cornerstonebuildingbrands.com\n  https: false\n- host: api.cornerstonebuildingbrands.com\n  https: false\ndomains:\n- domain: cornerstonebuildingbrands.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cornerstone-building-brands/refs/heads/main/security/cornerstone-building-brands-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Building Products
 - Construction
+- Manufacturing
+- Building Materials
+- Content
+- MCP
+- WordPress
+- News
 ---

@@ -5,31 +5,31 @@ api_specs:
   label: Citizens Accounts API
   slug: citizens-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-accounts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-accounts-openapi.yml
 - filename: citizens-financial-group-statements-openapi.yml
   format: yaml
   label: Citizens Statements API
   slug: citizens-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-statements-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-statements-openapi.yml
 - filename: citizens-financial-group-authorize-openapi.yml
   format: yaml
   label: Citizens Authorize API
   slug: citizens-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-authorize-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-authorize-openapi.yml
 - filename: citizens-financial-group-atm-locator-openapi.yml
   format: yaml
   label: Citizens ATM Locator API
   slug: citizens-atm-locator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-atm-locator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-atm-locator-openapi.yml
 - filename: citizens-financial-group-branch-locator-openapi.yml
   format: yaml
   label: Citizens Branch Locator API
   slug: citizens-branch-locator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-branch-locator-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-branch-locator-openapi.yml
 - filename: citizens-financial-group-account-transfer-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Account Transfer API

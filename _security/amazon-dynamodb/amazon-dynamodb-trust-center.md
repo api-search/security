@@ -30,12 +30,6 @@ api_specs:
   slug: amazon-dynamodb-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-transactions-api-openapi.yml
-- filename: dynamodb-streams-asyncapi.yml
-  format: yaml
-  label: Amazon DynamoDB Streams API
-  slug: amazon-dynamodb-streams-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -55,7 +49,7 @@ slug: amazon-dynamodb-trust-center
 source_filename: amazon-dynamodb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
+source_yaml: "generated: '2026-09-18'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/security/amazon-dynamodb-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:

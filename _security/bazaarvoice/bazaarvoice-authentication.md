@@ -258,6 +258,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource:\n- openapi/_ori
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/authentication/bazaarvoice-authentication.yml
 summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
+- BazaarVoice
 - Company
 - Reviews
 - Ratings

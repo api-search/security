@@ -321,6 +321,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: openapi/ledger-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/authentication/ledger-authentication.yml
 summary_line: apiKey/http-bearer · 7 schemes
 tags:
+- Ledger
 - Cryptocurrency
 - Digital Assets
 - Hardware Wallet

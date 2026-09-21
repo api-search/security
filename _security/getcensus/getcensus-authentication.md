@@ -94,12 +94,13 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://fivetra
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/authentication/getcensus-authentication.yml
 summary_line: http · 2 schemes
 tags:
+- Sync
+- Census
 - Reverse ETL
 - Data Activation
 - Data Warehouse
 - CRM
 - Marketing Automation
 - Segments
-- Sync
 - SQL
 ---

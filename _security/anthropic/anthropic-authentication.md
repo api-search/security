@@ -303,10 +303,11 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\ndocs: https://docs.anth
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/authentication/anthropic-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- LLM
+- Anthropic
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- LLM
 - Machine-Learning
 - MCP
 - Agents

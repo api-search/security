@@ -184,9 +184,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/youtube-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/authentication/youtube-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
+- Video
+- YouTube
 - Google
 - Media
 - Social
 - Streaming
-- Video
 ---

@@ -14,13 +14,13 @@ domains:
   domain: ansi.org
   spf: true
 hosts:
-- cert_expires: Sep 27 13:36:09 2026 GMT
+- cert_expires: Nov 26 21:59:38 2026 GMT
   host: cemanet.org
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 20 20:13:06 2026 GMT
+- cert_expires: Nov 18 19:53:48 2026 GMT
   host: webstore.ansi.org
   hsts: null
   https: true
@@ -38,7 +38,7 @@ slug: belts-domain-security
 source_filename: belts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cemanet.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 13:36:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webstore.ansi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 20:13:06 2026 GMT\n  hsts: null\ndomains:\n- domain: cemanet.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: ansi.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cemanet.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 21:59:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: webstore.ansi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 19:53:48 2026 GMT\n  hsts: null\ndomains:\n- domain: cemanet.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: ansi.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/security/belts-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

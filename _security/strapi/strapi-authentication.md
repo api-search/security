@@ -133,6 +133,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/strapi-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/authentication/strapi-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
+- Strapi
 - CMS
 - Content Management
 - Headless CMS

@@ -473,6 +473,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/auth0-ma
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/authentication/auth0-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
+- Auth0
 - AI Agents
 - Authentication
 - Authorization

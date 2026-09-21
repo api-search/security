@@ -258,12 +258,6 @@ api_specs:
   slug: sentry-system-user-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/openapi/sentry-system-user-feedback-api-openapi.yml
-- filename: sentry-webhooks-asyncapi.yml
-  format: yaml
-  label: Sentry Integration Platform API
-  slug: sentry-integration-platform-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/asyncapi/sentry-webhooks-asyncapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type I

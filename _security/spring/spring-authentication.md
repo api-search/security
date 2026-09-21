@@ -108,6 +108,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spring-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/authentication/spring-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Spring Framework
 - Artificial Intelligence
 - Cloud-Native
 - Enterprise

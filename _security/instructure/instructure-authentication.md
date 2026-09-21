@@ -115,12 +115,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/instruct
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/authentication/instructure-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
+- Enrollment
+- Instructure
 - EdTech
 - Education
 - LMS
 - Canvas
 - Courses
-- Enrollment
 - Assignments
 - Grades
 - Discussions

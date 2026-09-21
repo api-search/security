@@ -125,6 +125,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kraken-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/authentication/kraken-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
+- Kraken
 - Cryptocurrency
 - Exchange
 - Trading

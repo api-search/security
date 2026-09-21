@@ -109,6 +109,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/daily-co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/authentication/daily-co-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Daily
 - Real-Time
 - WebRTC
 - Video

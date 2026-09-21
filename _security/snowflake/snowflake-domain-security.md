@@ -319,6 +319,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/security/snowflake-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
+- Snowflake
 - Data
 - Data Warehouse
 - Data Lakehouse

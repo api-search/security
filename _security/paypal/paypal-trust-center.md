@@ -186,6 +186,7 @@ source_yaml: "generated: '2026-07-14'\nmethod: searched\nprobe: false\nsource: h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/security/paypal-trust-center.yml
 summary_line: PCI DSS, PCI P2PE, ISO/IEC 27001, SOC 1, SOC 2 Type II
 tags:
+- PayPal
 - Billing
 - Commerce
 - Disputes

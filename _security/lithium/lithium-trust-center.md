@@ -581,6 +581,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/security/lithium-trust-center.yml
 summary_line: ISO 27001, SOC 2 Type II, FedRAMP, FISMA
 tags:
+- Lithium
 - Company
 - MarTech
 - Community

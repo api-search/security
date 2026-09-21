@@ -99,12 +99,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/security/instructure-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
+- Enrollment
+- Instructure
 - EdTech
 - Education
 - LMS
 - Canvas
 - Courses
-- Enrollment
 - Assignments
 - Grades
 - Discussions

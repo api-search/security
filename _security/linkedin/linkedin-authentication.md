@@ -487,6 +487,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/linkedin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/authentication/linkedin-authentication.yml
 summary_line: http/oauth2 · 4 schemes
 tags:
+- LinkedIn
 - Business
 - Careers
 - Marketing

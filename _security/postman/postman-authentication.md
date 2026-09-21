@@ -291,6 +291,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/postman-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/authentication/postman-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Environment
+- Flow
+- Specification
+- Workspace
+- Postman
 - AI Agent Builder
 - AI Agents
 - API Catalog
@@ -311,8 +316,6 @@ tags:
 - Collection
 - Compliance
 - Discovery
-- Environment
-- Flow
 - GraphQL
 - gRPC
 - HTTP
@@ -329,11 +332,9 @@ tags:
 - Public API Network
 - Secret Scanning
 - Spec Hub
-- Specification
 - SSO
 - Testing
 - Vault
 - WebSocket
 - Workflows
-- Workspace
 ---

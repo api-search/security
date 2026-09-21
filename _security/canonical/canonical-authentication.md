@@ -707,6 +707,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/canonic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/authentication/canonical-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
+- Canonical
 - Cloud
 - Linux
 - Open-Source

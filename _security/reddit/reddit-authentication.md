@@ -103,6 +103,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reddit-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/authentication/reddit-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
+- Reddit
 - Advertising
 - Communities
 - Content

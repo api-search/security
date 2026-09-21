@@ -79,10 +79,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/security/d-id-trust-center.yml
 summary_line: GDPR
 tags:
+- Avatars
+- DID
 - AI Video
 - Digital Humans
 - Talking Head
-- Avatars
 - Generative AI
 - Video Generation
 - Real-Time Streaming

@@ -121,6 +121,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: false\nsource: >
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/security/servicenow-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001:2022, ISO 27017, ISO 27018, FedRAMP (High P-ATO, first achieved 2019), IRAP
 tags:
+- ServiceNow
 - Automation
 - Cloud Services
 - Digital Workflows

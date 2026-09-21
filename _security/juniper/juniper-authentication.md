@@ -279,71 +279,138 @@ api_specs:
   slug: juniper-wlans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/openapi/juniper-wlans-api-openapi.yml
-- filename: juniper-networks-junos-telemetry-asyncapi.yml
+- filename: juniper-mist-api-openapi.yml
   format: yaml
-  label: Junos XML API
-  slug: junos-xml-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/asyncapi/juniper-networks-junos-telemetry-asyncapi.yml
+  label: Juniper Mist API
+  slug: juniper-mist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/openapi/juniper-mist-api-openapi.yml
 auth_types:
 - apiKey
 - http
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 5
+mechanism_count: 6
 method: derived
 name: Juniper Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Juniper Networks secures its APIs with apiKey and http across 5 declared security schemes, as derived from its OpenAPI definitions.
+overview: Juniper Networks secures its APIs with apiKey and http across 6 declared security schemes, as derived from its OpenAPI definitions.
 provider_name: Juniper Networks
 provider_slug: juniper
-scheme_count: 5
+scheme_count: 6
 schemes:
-- description: Authentication token obtained from the /aaa/login endpoint. Include as AuthToken header in all requests.
-  in: header
-  name: authToken
-  parameter: AuthToken
-  sources:
-  - openapi/juniper-apstra-openapi.yml
-  type: apiKey
 - description: API token obtained from the login endpoint
   in: header
   name: apiKey
   parameter: X-Auth-Token
   sources:
-  - openapi/juniper-atp-cloud-openapi.yml
+  - openapi/juniper-allowlists-and-blocklists-api-openapi.yml
+  - openapi/juniper-authentication-api-openapi.yml
+  - openapi/juniper-enrolled-devices-api-openapi.yml
+  - openapi/juniper-file-analysis-api-openapi.yml
+  - openapi/juniper-indicators-of-compromise-api-openapi.yml
+  - openapi/juniper-reports-api-openapi.yml
+  - openapi/juniper-threat-intelligence-api-openapi.yml
   type: apiKey
 - description: Keystone token authentication. Obtain a token from the Keystone identity service and pass it as X-Auth-Token header.
   name: keystoneAuth
   scheme: bearer
   sources:
-  - openapi/juniper-contrail-openapi.yml
-  - openapi/juniper-mist-openapi.yml
+  - openapi/juniper-analytics-api-openapi.yml
+  - openapi/juniper-bgp-routers-api-openapi.yml
+  - openapi/juniper-clients-api-openapi.yml
+  - openapi/juniper-devices-api-openapi.yml
+  - openapi/juniper-floating-ips-api-openapi.yml
+  - openapi/juniper-insights-api-openapi.yml
+  - openapi/juniper-inventory-api-openapi.yml
+  - openapi/juniper-maps-api-openapi.yml
+  - openapi/juniper-network-ipam-api-openapi.yml
+  - openapi/juniper-network-policies-api-openapi.yml
+  - openapi/juniper-organizations-api-openapi.yml
+  - openapi/juniper-projects-api-openapi.yml
+  - openapi/juniper-rf-templates-api-openapi.yml
+  - openapi/juniper-routing-instances-api-openapi.yml
+  - openapi/juniper-security-groups-api-openapi.yml
+  - openapi/juniper-self-api-openapi.yml
+  - openapi/juniper-service-instances-api-openapi.yml
+  - openapi/juniper-site-groups-api-openapi.yml
+  - openapi/juniper-sites-api-openapi.yml
+  - openapi/juniper-virtual-networks-api-openapi.yml
+  - openapi/juniper-wan-edges-api-openapi.yml
+  - openapi/juniper-webhooks-api-openapi.yml
+  - openapi/juniper-wlans-api-openapi.yml
   type: http
-- description: HTTP Basic authentication with Junos device credentials
+- description: HTTP Basic authentication with Junos Space user credentials
   name: basicAuth
   scheme: basic
   sources:
-  - openapi/juniper-junos-rest-api-openapi.yml
-  - openapi/juniper-junos-space-openapi.yml
+  - openapi/juniper-audit-logs-api-openapi.yml
+  - openapi/juniper-configuration-api-openapi.yml
+  - openapi/juniper-devices-api-openapi.yml
+  - openapi/juniper-jobs-api-openapi.yml
+  - openapi/juniper-operational-api-openapi.yml
+  - openapi/juniper-rpc-api-openapi.yml
+  - openapi/juniper-scripts-api-openapi.yml
+  - openapi/juniper-software-management-api-openapi.yml
+  - openapi/juniper-tag-management-api-openapi.yml
+  - openapi/juniper-users-api-openapi.yml
   type: http
+- description: Authentication token obtained from the /aaa/login endpoint. Include as AuthToken header in all requests.
+  in: header
+  name: authToken
+  parameter: AuthToken
+  sources:
+  - openapi/juniper-authentication-api-openapi.yml
+  - openapi/juniper-blueprints-api-openapi.yml
+  - openapi/juniper-configlets-api-openapi.yml
+  - openapi/juniper-connectivity-templates-api-openapi.yml
+  - openapi/juniper-design-api-openapi.yml
+  - openapi/juniper-intent-checks-api-openapi.yml
+  - openapi/juniper-resources-api-openapi.yml
+  - openapi/juniper-systems-api-openapi.yml
+  - openapi/juniper-virtual-networks-api-openapi.yml
+  type: apiKey
 - description: CSRF token for session-based authentication.
   in: header
   name: csrfToken
   parameter: X-CSRFToken
   sources:
-  - openapi/juniper-mist-openapi.yml
+  - openapi/juniper-clients-api-openapi.yml
+  - openapi/juniper-devices-api-openapi.yml
+  - openapi/juniper-insights-api-openapi.yml
+  - openapi/juniper-inventory-api-openapi.yml
+  - openapi/juniper-maps-api-openapi.yml
+  - openapi/juniper-mist-api-openapi.yml
+  - openapi/juniper-organizations-api-openapi.yml
+  - openapi/juniper-rf-templates-api-openapi.yml
+  - openapi/juniper-self-api-openapi.yml
+  - openapi/juniper-site-groups-api-openapi.yml
+  - openapi/juniper-sites-api-openapi.yml
+  - openapi/juniper-wan-edges-api-openapi.yml
+  - openapi/juniper-webhooks-api-openapi.yml
+  - openapi/juniper-wlans-api-openapi.yml
+  type: apiKey
+- description: "Preferred authentication method for automation and integrations. Send the API token in the HTTP `Authorization` header.\n\n**Format**:\n  `Authorization: Token {apitoken}`\n\n**Notes**:\n* An API token generated for a specific admin has the same privileges as that admin\n* An API token is automatically removed if it is not used for more than 90 days\n* SSO admins cannot generate admin API tokens. Use orga"
+  in: header
+  name: apiToken
+  parameter: Authorization
+  sources:
+  - openapi/juniper-mist-api-openapi.yml
   type: apiKey
 slug: juniper-authentication
 source_filename: juniper-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/juniper-apstra-openapi.yml, openapi/juniper-atp-cloud-openapi.yml, openapi/juniper-contrail-openapi.yml,\n  openapi/juniper-junos-rest-api-openapi.yml, openapi/juniper-junos-space-openapi.yml, openapi/juniper-mist-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: AuthToken\n  description: Authentication token obtained from the /aaa/login endpoint. Include as AuthToken\n    header in all requests.\n  sources:\n  - openapi/juniper-apstra-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: API token obtained from the login endpoint\n  sources:\n  - openapi/juniper-atp-cloud-openapi.yml\n- name: keystoneAuth\n  type: http\n  scheme: bearer\n  description: Keystone token authentication. Obtain a token from the Keystone identity service\n    and pass it as X-Auth-Token header.\n\
-  \  sources:\n  - openapi/juniper-contrail-openapi.yml\n  - openapi/juniper-mist-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with Junos device credentials\n  sources:\n  - openapi/juniper-junos-rest-api-openapi.yml\n  - openapi/juniper-junos-space-openapi.yml\n- name: csrfToken\n  type: apiKey\n  in: header\n  parameter: X-CSRFToken\n  description: CSRF token for session-based authentication.\n  sources:\n  - openapi/juniper-mist-openapi.yml\n"
+source_yaml: "generated: '2026-09-18'\nmethod: derived\nsource: openapi/juniper-allowlists-and-blocklists-api-openapi.yml, openapi/juniper-analytics-api-openapi.yml,\n  openapi/juniper-audit-logs-api-openapi.yml, openapi/juniper-authentication-api-openapi.yml,\n  openapi/juniper-bgp-routers-api-openapi.yml, openapi/juniper-blueprints-api-openapi.yml, openapi/juniper-clients-api-openapi.yml,\n  openapi/juniper-configlets-api-openapi.yml, openapi/juniper-configuration-api-openapi.yml,\n  openapi/juniper-connectivity-templates-api-openapi.yml, openapi/juniper-design-api-openapi.yml,\n  openapi/juniper-devices-api-openapi.yml ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: API token obtained from the login endpoint\n  sources:\n  - openapi/juniper-allowlists-and-blocklists-api-openapi.yml\n  - openapi/juniper-authentication-api-openapi.yml\n  - openapi/juniper-enrolled-devices-api-openapi.yml\n\
+  \  - openapi/juniper-file-analysis-api-openapi.yml\n  - openapi/juniper-indicators-of-compromise-api-openapi.yml\n  - openapi/juniper-reports-api-openapi.yml\n  - openapi/juniper-threat-intelligence-api-openapi.yml\n- name: keystoneAuth\n  type: http\n  scheme: bearer\n  description: Keystone token authentication. Obtain a token from the Keystone identity service\n    and pass it as X-Auth-Token header.\n  sources:\n  - openapi/juniper-analytics-api-openapi.yml\n  - openapi/juniper-bgp-routers-api-openapi.yml\n  - openapi/juniper-clients-api-openapi.yml\n  - openapi/juniper-devices-api-openapi.yml\n  - openapi/juniper-floating-ips-api-openapi.yml\n  - openapi/juniper-insights-api-openapi.yml\n  - openapi/juniper-inventory-api-openapi.yml\n  - openapi/juniper-maps-api-openapi.yml\n  - openapi/juniper-network-ipam-api-openapi.yml\n  - openapi/juniper-network-policies-api-openapi.yml\n  - openapi/juniper-organizations-api-openapi.yml\n  - openapi/juniper-projects-api-openapi.yml\n  - openapi/juniper-rf-templates-api-openapi.yml\n\
+  \  - openapi/juniper-routing-instances-api-openapi.yml\n  - openapi/juniper-security-groups-api-openapi.yml\n  - openapi/juniper-self-api-openapi.yml\n  - openapi/juniper-service-instances-api-openapi.yml\n  - openapi/juniper-site-groups-api-openapi.yml\n  - openapi/juniper-sites-api-openapi.yml\n  - openapi/juniper-virtual-networks-api-openapi.yml\n  - openapi/juniper-wan-edges-api-openapi.yml\n  - openapi/juniper-webhooks-api-openapi.yml\n  - openapi/juniper-wlans-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication with Junos Space user credentials\n  sources:\n  - openapi/juniper-audit-logs-api-openapi.yml\n  - openapi/juniper-configuration-api-openapi.yml\n  - openapi/juniper-devices-api-openapi.yml\n  - openapi/juniper-jobs-api-openapi.yml\n  - openapi/juniper-operational-api-openapi.yml\n  - openapi/juniper-rpc-api-openapi.yml\n  - openapi/juniper-scripts-api-openapi.yml\n  - openapi/juniper-software-management-api-openapi.yml\n\
+  \  - openapi/juniper-tag-management-api-openapi.yml\n  - openapi/juniper-users-api-openapi.yml\n- name: authToken\n  type: apiKey\n  in: header\n  parameter: AuthToken\n  description: Authentication token obtained from the /aaa/login endpoint. Include as AuthToken\n    header in all requests.\n  sources:\n  - openapi/juniper-authentication-api-openapi.yml\n  - openapi/juniper-blueprints-api-openapi.yml\n  - openapi/juniper-configlets-api-openapi.yml\n  - openapi/juniper-connectivity-templates-api-openapi.yml\n  - openapi/juniper-design-api-openapi.yml\n  - openapi/juniper-intent-checks-api-openapi.yml\n  - openapi/juniper-resources-api-openapi.yml\n  - openapi/juniper-systems-api-openapi.yml\n  - openapi/juniper-virtual-networks-api-openapi.yml\n- name: csrfToken\n  type: apiKey\n  in: header\n  parameter: X-CSRFToken\n  description: CSRF token for session-based authentication.\n  sources:\n  - openapi/juniper-clients-api-openapi.yml\n  - openapi/juniper-devices-api-openapi.yml\n  - openapi/juniper-insights-api-openapi.yml\n\
+  \  - openapi/juniper-inventory-api-openapi.yml\n  - openapi/juniper-maps-api-openapi.yml\n  - openapi/juniper-mist-api-openapi.yml\n  - openapi/juniper-organizations-api-openapi.yml\n  - openapi/juniper-rf-templates-api-openapi.yml\n  - openapi/juniper-self-api-openapi.yml\n  - openapi/juniper-site-groups-api-openapi.yml\n  - openapi/juniper-sites-api-openapi.yml\n  - openapi/juniper-wan-edges-api-openapi.yml\n  - openapi/juniper-webhooks-api-openapi.yml\n  - openapi/juniper-wlans-api-openapi.yml\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Preferred authentication method for automation and integrations. Send the API token in the HTTP `Authorization` header.\n\n    **Format**:\n      `Authorization: Token {apitoken}`\n\n    **Notes**:\n    * An API token generated for a specific admin has the same privileges as that admin\n    * An API token is automatically removed if it is not used for more than 90 days\n    * SSO admins cannot generate\
+  \ admin API tokens. Use orga\n  sources:\n  - openapi/juniper-mist-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/authentication/juniper-authentication.yml
-summary_line: apiKey/http · 5 schemes
+summary_line: apiKey/http · 6 schemes
 tags:
 - Artificial Intelligence
 - Automation

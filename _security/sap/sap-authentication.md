@@ -147,6 +147,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-ai-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/authentication/sap-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
+- SAP
 - Artificial Intelligence
 - BTP
 - Business Applications

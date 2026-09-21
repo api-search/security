@@ -8,7 +8,7 @@ api_specs:
   label: EU Open Data Portal Statistics API
   slug: eu-open-data-portal-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-hub-statistics-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/_original/eu-open-data-portal-hub-statistics-swagger.json
 - filename: eu-open-data-portal-action-api-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Action API

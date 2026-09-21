@@ -5,7 +5,7 @@ api_specs:
   label: PEXA Exchange API
   slug: pexa-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-exchange-api-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/_original/pexa-exchange-api-swagger.json
 - filename: pexa-billing-api-openapi.yml
   format: yaml
   label: PEXA Billing API

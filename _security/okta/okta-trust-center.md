@@ -184,12 +184,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/security/okta-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR, FIPS 140
 tags:
+- SSO
+- Okta
 - Identity
 - Workforce Identity
 - Customer Identity
 - Authentication
 - Authorization
-- SSO
 - Multi-Factor Authentication
 - Identity Governance
 - Privileged Access

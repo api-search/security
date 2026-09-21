@@ -174,7 +174,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radar-cnpj/ref
 summary_line: 5 schemes
 tags:
 - Business & Company Data
-- Government/Open Data
+- Government open data
 - Receita Federal
 - CNPJ
 - Brazil

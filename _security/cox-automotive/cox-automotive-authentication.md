@@ -243,6 +243,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: openapi/cox-aut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/authentication/cox-automotive-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
+- Cox Automotive
 - Automotive
 - Vehicle Data
 - Vehicle Valuations

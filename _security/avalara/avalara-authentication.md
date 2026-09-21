@@ -479,4 +479,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/h
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Tax
+- Avalara
 ---

@@ -286,6 +286,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apigee-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/authentication/apigee-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
+- Apigee
 - Advanced API Security
 - Agentic AI
 - Analytics

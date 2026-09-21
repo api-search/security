@@ -832,6 +832,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kong-gat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/authentication/kong-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
+- Kong
 - API Gateway
 - AI Gateway
 - AI Connectivity

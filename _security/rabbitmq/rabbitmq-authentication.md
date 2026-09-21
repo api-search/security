@@ -114,10 +114,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rabbitmq
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/authentication/rabbitmq-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Queues
+- RabbitMQ
 - AMQP
 - Distributed Systems
 - Event Streaming
 - Message Broker
 - Messaging
-- Queues
 ---

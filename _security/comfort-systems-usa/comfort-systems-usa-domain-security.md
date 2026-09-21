@@ -8,7 +8,7 @@ domains:
   domain: comfortsystemsusa.com
   spf: true
 hosts:
-- cert_expires: Aug 23 01:53:57 2026 GMT
+- cert_expires: Nov  4 15:34:01 2026 GMT
   host: www.comfortsystemsusa.com
   hsts: false
   https: true
@@ -30,11 +30,18 @@ slug: comfort-systems-usa-domain-security
 source_filename: comfort-systems-usa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.comfortsystemsusa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 01:53:57 2026 GMT\n  hsts: false\n- host: developer.comfortsystemsusa.com\n  https: false\n- host: api.comfortsystemsusa.com\n  https: false\ndomains:\n- domain: comfortsystemsusa.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.comfortsystemsusa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 15:34:01 2026 GMT\n  hsts: false\n- host: developer.comfortsystemsusa.com\n  https: false\n- host: api.comfortsystemsusa.com\n  https: false\ndomains:\n- domain: comfortsystemsusa.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comfort-systems-usa/refs/heads/main/security/comfort-systems-usa-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - HVAC
 - Mechanical
 - Construction
+- Electrical
+- Plumbing
+- Building Automation
+- Modular Construction
+- Building Services
+- Energy Management
+- Fortune 1000
 ---

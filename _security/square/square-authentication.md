@@ -295,8 +295,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/square-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/authentication/square-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Restaurant
 - Booking
+- Location
+- Square
+- Restaurant
 - Catalog
 - Checkout
 - Customers
@@ -307,7 +309,6 @@ tags:
 - Inventory
 - Invoicing
 - Labor
-- Location
 - Loyalty
 - Merchants
 - Order

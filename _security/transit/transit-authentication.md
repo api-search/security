@@ -111,6 +111,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/transit-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/authentication/transit-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Transit
 - Public Transit
 - Real-Time
 - Trip Planning

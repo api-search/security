@@ -10670,6 +10670,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ace-prov
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/authentication/microsoft-azure-authentication.yml
 summary_line: apiKey/http/oauth2 · 18 schemes
 tags:
+- Microsoft Azure
 - API Management
 - Cloud
 - Cloud Computing

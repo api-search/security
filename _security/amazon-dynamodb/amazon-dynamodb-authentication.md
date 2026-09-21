@@ -32,12 +32,6 @@ api_specs:
   slug: amazon-dynamodb-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-transactions-api-openapi.yml
-- filename: dynamodb-streams-asyncapi.yml
-  format: yaml
-  label: Amazon DynamoDB Streams API
-  slug: amazon-dynamodb-streams-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
 auth_types:
 - http
 description: ''
@@ -57,13 +51,17 @@ schemes:
   name: sigv4Auth
   scheme: bearer
   sources:
-  - openapi/amazon-dynamodb-openapi.yml
+  - openapi/amazon-dynamodb-batch-api-openapi.yml
+  - openapi/amazon-dynamodb-items-api-openapi.yml
+  - openapi/amazon-dynamodb-queries-api-openapi.yml
+  - openapi/amazon-dynamodb-tables-api-openapi.yml
+  - openapi/amazon-dynamodb-transactions-api-openapi.yml
   type: http
 slug: amazon-dynamodb-authentication
 source_filename: amazon-dynamodb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-dynamodb-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: sigv4Auth\n  type: http\n  scheme: bearer\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-dynamodb-openapi.yml\n"
+source_yaml: "generated: '2026-09-18'\nmethod: derived\nsource: openapi/amazon-dynamodb-batch-api-openapi.yml, openapi/amazon-dynamodb-items-api-openapi.yml,\n  openapi/amazon-dynamodb-queries-api-openapi.yml, openapi/amazon-dynamodb-tables-api-openapi.yml,\n  openapi/amazon-dynamodb-transactions-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: sigv4Auth\n  type: http\n  scheme: bearer\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-dynamodb-batch-api-openapi.yml\n  - openapi/amazon-dynamodb-items-api-openapi.yml\n  - openapi/amazon-dynamodb-queries-api-openapi.yml\n  - openapi/amazon-dynamodb-tables-api-openapi.yml\n  - openapi/amazon-dynamodb-transactions-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/authentication/amazon-dynamodb-authentication.yml
 summary_line: http · 1 scheme
 tags:

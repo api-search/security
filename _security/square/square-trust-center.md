@@ -276,8 +276,10 @@ source_yaml: "generated: '2026-07-14'\nmethod: searched\nprobe: false\nsource: h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/security/square-trust-center.yml
 summary_line: PCI DSS, PCI SAQ A, ISO 27001, EMVCo
 tags:
-- Restaurant
 - Booking
+- Location
+- Square
+- Restaurant
 - Catalog
 - Checkout
 - Customers
@@ -288,7 +290,6 @@ tags:
 - Inventory
 - Invoicing
 - Labor
-- Location
 - Loyalty
 - Merchants
 - Order

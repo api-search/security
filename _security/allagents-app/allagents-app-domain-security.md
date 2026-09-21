@@ -1,0 +1,48 @@
+---
+api_specs:
+- filename: allagents-app-openapi.yml
+  format: yaml
+  label: allagents Directory API
+  slug: allagents-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: true
+  domain: allagents.app
+  spf: true
+hosts:
+- cert_expires: Dec 16 13:56:56 2026 GMT
+  host: allagents.app
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Allagents App Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for allagents, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: allagents
+provider_slug: allagents-app
+slug: allagents-app-domain-security
+source_filename: allagents-app-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: allagents.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 13:56:56 2026 GMT\n  hsts: false\ndomains:\n- domain: allagents.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/security/allagents-app-domain-security.yml
+summary_line: TLSv1.3 · DNSSEC · DMARC
+tags:
+- Company
+- AI Agents
+- Agent Directory
+- A2A
+- Discovery
+- Search
+- Registry
+- Switzerland
+---

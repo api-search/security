@@ -116,10 +116,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/greenhou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/authentication/greenhouse-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
+- Human Resources
+- Greenhouse
 - ATS
 - Recruiting
 - Candidates
 - Job
 - Onboarding
-- Human Resources
 ---
