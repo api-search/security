@@ -1,7 +1,4 @@
 ---
-anonymous_access: false
-api_key_in:
-- header
 api_specs:
 - filename: payrix-accounts-api-openapi.yml
   format: yaml
@@ -801,63 +798,54 @@ api_specs:
   slug: payrix-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/openapi/payrix-vendors-api-openapi.yml
-auth_types:
-- apiKey
 description: ''
-kind: authentication
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: payrix.com
+  spf: true
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: worldpay.com
+  spf: true
+hosts:
+- cert_expires: Nov 12 11:14:47 2026 GMT
+  host: payrix.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Mar  8 23:59:59 2027 GMT
+  host: docs.worldpay.com
+  hsts: true
+  hsts_max_age: 15768000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Oct 30 19:23:17 2026 GMT
+  host: api.payrix.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
+kind: domain-security
 layout: security
-mechanism_count: 5
-method: derived
-name: Payrix Authentication
-name_suffix: Authentication
-oauth_flows: []
-overview: Payrix secures its APIs with apiKey across 5 declared security schemes, as derived from its OpenAPI definitions.
+method: probed
+name: Payrix Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Payrix, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Payrix
 provider_slug: payrix
-scheme_count: 5
-schemes:
-- in: header
-  name: apiKey
-  parameter: APIKEY
-  sources:
-  - openapi/payrix-merchant-openapi.yml
-  - openapi/payrix-partner-openapi.yml
-  type: apiKey
-- in: header
-  name: sessionKey
-  parameter: SESSIONKEY
-  sources:
-  - openapi/payrix-merchant-openapi.yml
-  - openapi/payrix-partner-openapi.yml
-  type: apiKey
-- in: header
-  name: txnSessionKey
-  parameter: TXNSESSIONKEY
-  sources:
-  - openapi/payrix-merchant-openapi.yml
-  - openapi/payrix-partner-openapi.yml
-  type: apiKey
-- in: header
-  name: username
-  parameter: USERNAME
-  sources:
-  - openapi/payrix-merchant-openapi.yml
-  - openapi/payrix-partner-openapi.yml
-  type: apiKey
-- in: header
-  name: password
-  parameter: PASSWORD
-  sources:
-  - openapi/payrix-merchant-openapi.yml
-  - openapi/payrix-partner-openapi.yml
-  type: apiKey
-slug: payrix-authentication
-source_filename: payrix-authentication.yml
-source_heading: Authentication Profile
+slug: payrix-domain-security
+source_filename: payrix-domain-security.yml
+source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-20'\nmethod: derived\nsource: openapi/payrix-merchant-openapi.yml, openapi/payrix-partner-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: APIKEY\n  sources:\n  - openapi/payrix-merchant-openapi.yml\n  - openapi/payrix-partner-openapi.yml\n- name: sessionKey\n  type: apiKey\n  in: header\n  parameter: SESSIONKEY\n  sources:\n  - openapi/payrix-merchant-openapi.yml\n  - openapi/payrix-partner-openapi.yml\n- name: txnSessionKey\n  type: apiKey\n  in: header\n  parameter: TXNSESSIONKEY\n  sources:\n  - openapi/payrix-merchant-openapi.yml\n  - openapi/payrix-partner-openapi.yml\n- name: username\n  type: apiKey\n  in: header\n  parameter: USERNAME\n  sources:\n  - openapi/payrix-merchant-openapi.yml\n  - openapi/payrix-partner-openapi.yml\n- name: password\n  type: apiKey\n  in: header\n  parameter: PASSWORD\n  sources:\n  - openapi/payrix-merchant-openapi.yml\n  - openapi/payrix-partner-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/authentication/payrix-authentication.yml
-summary_line: apiKey · 5 schemes
+source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: payrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 11:14:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.worldpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.payrix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 19:23:17 2026 GMT\n  hsts: null\ndomains:\n- domain: payrix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: worldpay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/security/payrix-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
