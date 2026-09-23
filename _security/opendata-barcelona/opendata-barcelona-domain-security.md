@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opendata-barce
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- OpenData
+- Open Data
 - Barcelona
 - Government
-- DataPortal
+- Data Portal
 ---

@@ -855,5 +855,5 @@ tags:
 - Fintech
 - Payouts
 - Chargebacks
-- Subscriptions
+- Subscription
 ---

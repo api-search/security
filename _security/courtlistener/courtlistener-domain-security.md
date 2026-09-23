@@ -33,8 +33,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/courtlistener/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Legal
-- Nonprofit
-- OpenData
+- Non-Profit
+- Open Data
 - CourtListener
 - FreeLaw
 ---

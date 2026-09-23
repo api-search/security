@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docketbird/ref
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- LegalTech
+- Legal Tech
 - CourtFiling
-- DocumentManagement
+- Document-Management
 - Automation
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aivick/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- FoodTech
+- Food Tech
 - Health
 - ICT
 - Wellness

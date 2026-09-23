@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opendata-paris
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- OpenData
+- Open Data
 - Government
 - Transparency
 - Paris

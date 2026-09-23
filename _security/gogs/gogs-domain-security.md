@@ -87,7 +87,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Git
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open-Source
 - Go
 ---

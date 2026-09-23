@@ -95,7 +95,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Git
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open-Source
 - Go
 ---

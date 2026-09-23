@@ -35,5 +35,4 @@ tags:
 - Music
 - Lyrics
 - Data Licensing
-- API
 ---

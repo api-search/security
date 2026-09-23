@@ -41,5 +41,4 @@ tags:
 - Banking
 - Payments
 - Fintech
-- API
 ---
