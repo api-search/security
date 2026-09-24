@@ -56,6 +56,7 @@ header:
           - { key: tags, label: Tags, url: 'https://apis.io/tags/' }
           - { key: industries, label: Industries, url: 'https://apis.io/industries/' }
           - { key: areas, label: Areas, url: 'https://apis.io/areas/' }
+          - { key: topics, label: Topics, url: 'https://apis.io/topics/' }
       - header: Business Architecture
         items:
           - { key: capabilities, label: Business Capabilities, url: 'https://apis.io/capabilities/' }
@@ -164,6 +165,7 @@ footer:
         - { label: Tags, url: 'https://apis.io/tags/' }
         - { label: Industries, url: 'https://apis.io/industries/' }
         - { label: Areas, url: 'https://apis.io/areas/' }
+        - { label: Topics, url: 'https://apis.io/topics/' }
         - { label: Regions, url: 'https://apis.io/regions/' }
         - { label: Countries, url: 'https://apis.io/countries/' }
         - { label: Regulations, url: 'https://apis.io/regulations/' }
