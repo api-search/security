@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Note Taking
-- Knowledge-Management
+- Knowledge Management
 - Spaced Repetition
 - Flashcards
 - Education

@@ -34,9 +34,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Infrastructure
-- Data-Center
+- Data Center
 - Energy
 - Predevelopment
-- Workflow-Automation
+- Workflow Automation
 - Site Selection
 ---

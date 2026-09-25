@@ -34,7 +34,7 @@ tags:
 - Container Images
 - Infrastructure
 - OCI
-- Open-Source
+- Open Source
 - Operating System
 - System Updates
 ---

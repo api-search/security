@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-account-api-openapi.yml
 - filename: polkadot-accounts-api-openapi.yml
   format: yaml
-  label: Polkadot accounts API
+  label: Polkadot Accounts API
   slug: polkadot-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-accounts-api-openapi.yml
 - filename: polkadot-ahm-api-openapi.yml
   format: yaml
-  label: Polkadot ahm API
+  label: Polkadot Ahm API
   slug: polkadot-ahm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-ahm-api-openapi.yml
@@ -44,13 +44,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-block-api-openapi.yml
 - filename: polkadot-blocks-api-openapi.yml
   format: yaml
-  label: Polkadot blocks API
+  label: Polkadot Blocks API
   slug: polkadot-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-blocks-api-openapi.yml
 - filename: polkadot-capabilities-api-openapi.yml
   format: yaml
-  label: Polkadot capabilities API
+  label: Polkadot Capabilities API
   slug: polkadot-capabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-capabilities-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-contracts-api-openapi.yml
 - filename: polkadot-coretime-api-openapi.yml
   format: yaml
-  label: Polkadot coretime API
+  label: Polkadot Coretime API
   slug: polkadot-coretime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-coretime-api-openapi.yml
@@ -128,7 +128,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-governance-api-openapi.yml
 - filename: polkadot-health-api-openapi.yml
   format: yaml
-  label: Polkadot health API
+  label: Polkadot Health API
   slug: polkadot-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-health-api-openapi.yml
@@ -170,7 +170,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-multisig-api-openapi.yml
 - filename: polkadot-node-api-openapi.yml
   format: yaml
-  label: Polkadot node API
+  label: Polkadot Node API
   slug: polkadot-node-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-node-api-openapi.yml
@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-nominationpools-api-openapi.yml
 - filename: polkadot-pallets-api-openapi.yml
   format: yaml
-  label: Polkadot pallets API
+  label: Polkadot Pallets API
   slug: polkadot-pallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-pallets-api-openapi.yml
@@ -194,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-parachain-api-openapi.yml
 - filename: polkadot-paras-api-openapi.yml
   format: yaml
-  label: Polkadot paras API
+  label: Polkadot Paras API
   slug: polkadot-paras-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-paras-api-openapi.yml
@@ -218,7 +218,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-rc-accounts-api-openapi.yml
 - filename: polkadot-rc-api-openapi.yml
   format: yaml
-  label: Polkadot rc API
+  label: Polkadot Rc API
   slug: polkadot-rc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-rc-api-openapi.yml
@@ -260,7 +260,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-rc-transaction-api-openapi.yml
 - filename: polkadot-runtime-api-openapi.yml
   format: yaml
-  label: Polkadot runtime API
+  label: Polkadot Runtime API
   slug: polkadot-runtime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-runtime-api-openapi.yml
@@ -302,13 +302,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-tokens-api-openapi.yml
 - filename: polkadot-trace-api-openapi.yml
   format: yaml
-  label: Polkadot trace API
+  label: Polkadot Trace API
   slug: polkadot-trace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-trace-api-openapi.yml
 - filename: polkadot-transaction-api-openapi.yml
   format: yaml
-  label: Polkadot transaction API
+  label: Polkadot Transaction API
   slug: polkadot-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-transaction-api-openapi.yml
@@ -320,7 +320,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-uniques-api-openapi.yml
 - filename: polkadot-version-api-openapi.yml
   format: yaml
-  label: Polkadot version API
+  label: Polkadot Version API
   slug: polkadot-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/openapi/polkadot-version-api-openapi.yml

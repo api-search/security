@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.up.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/authentication/bendigo-and-adelaide-bank-authentication.yml
 summary_line: none/openIdConnect/oauth2/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

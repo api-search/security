@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Insurtech
-- Real-Estate
+- Real Estate
 - Property Management
 - Rentals
 - Security Deposits

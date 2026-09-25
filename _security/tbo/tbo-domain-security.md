@@ -32,7 +32,6 @@ summary_line: TLSv1.2 · HSTS · DNSSEC
 tags:
 - Travel
 - Distribution
-- API
 - B2B
 - Platform
 ---

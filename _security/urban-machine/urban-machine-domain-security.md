@@ -37,5 +37,5 @@ tags:
 - Construction
 - Wood Reclamation
 - Circular Economy
-- Computer-Vision
+- Computer Vision
 ---

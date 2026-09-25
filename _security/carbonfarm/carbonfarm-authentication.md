@@ -145,7 +145,7 @@ tags:
 - MRV
 - Satellite Imagery
 - Remote Sensing
-- Machine-Learning
+- Machine Learning
 - Sustainability
 - Content Management
 ---

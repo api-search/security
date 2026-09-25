@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics
-- Financial
-- Financial-Services
+- Finance
+- Financial Services
 - Trading
 ---

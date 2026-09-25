@@ -38,7 +38,7 @@ tags:
 - Apache
 - Data Federation
 - Framework
-- Open-Source
+- Open Source
 - Query Optimization
 - SQL
 ---

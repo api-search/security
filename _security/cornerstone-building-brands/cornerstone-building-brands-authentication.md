@@ -1,13 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: cornerstone-building-brands-content-api-openapi.yml
-  format: yaml
-  label: Cornerstone Building Brands Content API (WordPress REST wp/v2)
-  slug: cornerstone-building-brands-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornerstone-building-brands/refs/heads/main/openapi/cornerstone-building-brands-content-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -62,7 +55,6 @@ tags:
 - Construction
 - Manufacturing
 - Building Materials
-- Content
 - MCP
 - WordPress
 - News

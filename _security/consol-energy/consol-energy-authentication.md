@@ -2,12 +2,6 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: consol-energy-discovery-api-openapi.yml
-  format: yaml
-  label: Core Natural Resources Discovery API
-  slug: discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-discovery-api-openapi.yml
 - filename: consol-energy-leadership-api-openapi.yml
   format: yaml
   label: CONSOL Energy Leadership API

@@ -78,7 +78,7 @@ summary_line: oauth2/openIdConnect/http · 3 schemes
 tags:
 - Analytics
 - Datasets
-- Financial-Services
+- Financial Services
 - Market Data
 - Reference Data
 - Historical Data

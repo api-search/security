@@ -71,6 +71,6 @@ tags:
 - Java EE
 - Microservices
 - Middleware
-- Open-Source
+- Open Source
 - Red Hat
 ---

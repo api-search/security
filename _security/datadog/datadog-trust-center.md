@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: datadog-dashboards-api-openapi.yml
-  format: yaml
-  label: Datadog Dashboards API
-  slug: datadog-dashboards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-dashboards-api-openapi.yml
-- filename: datadog-teams-api-openapi.yml
-  format: yaml
-  label: Datadog Teams API
-  slug: datadog-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-teams-api-openapi.yml
-- filename: datadog-audit-api-openapi.yml
-  format: yaml
-  label: Datadog Audit API
-  slug: datadog-audit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-audit-api-openapi.yml
 - filename: datadog-account-api-openapi.yml
   format: yaml
   label: Datadog Account API

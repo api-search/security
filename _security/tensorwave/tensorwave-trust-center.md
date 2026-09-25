@@ -55,13 +55,13 @@ summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Computing
 - GPU
 - Infrastructure
 - Inference
 - Model Training
 - High Performance Computing
-- Data-Center
+- Data Center
 trust_url: https://security.tensorwave.com/
 ---

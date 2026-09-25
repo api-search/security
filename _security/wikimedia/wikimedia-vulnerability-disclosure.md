@@ -2,13 +2,13 @@
 api_specs:
 - filename: wikimedia-articles-api-openapi.yml
   format: yaml
-  label: Wikimedia articles API
+  label: Wikimedia Articles API
   slug: wikimedia-articles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-articles-api-openapi.yml
 - filename: wikimedia-batches-api-openapi.yml
   format: yaml
-  label: Wikimedia batches API
+  label: Wikimedia Batches API
   slug: wikimedia-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-batches-api-openapi.yml
@@ -20,13 +20,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-citation-api-openapi.yml
 - filename: wikimedia-codes-api-openapi.yml
   format: yaml
-  label: Wikimedia codes API
+  label: Wikimedia Codes API
   slug: wikimedia-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-codes-api-openapi.yml
 - filename: wikimedia-languages-api-openapi.yml
   format: yaml
-  label: Wikimedia languages API
+  label: Wikimedia Languages API
   slug: wikimedia-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-languages-api-openapi.yml
@@ -44,13 +44,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-mobile-api-openapi.yml
 - filename: wikimedia-namespaces-api-openapi.yml
   format: yaml
-  label: Wikimedia namespaces API
+  label: Wikimedia Namespaces API
   slug: wikimedia-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-namespaces-api-openapi.yml
 - filename: wikimedia-offline-api-openapi.yml
   format: yaml
-  label: Wikimedia offline API
+  label: Wikimedia Offline API
   slug: wikimedia-offline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-offline-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-page-content-api-openapi.yml
 - filename: wikimedia-projects-api-openapi.yml
   format: yaml
-  label: Wikimedia projects API
+  label: Wikimedia Projects API
   slug: wikimedia-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-projects-api-openapi.yml
@@ -80,19 +80,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-recommendation-api-openapi.yml
 - filename: wikimedia-snapshots-api-openapi.yml
   format: yaml
-  label: Wikimedia snapshots API
+  label: Wikimedia Snapshots API
   slug: wikimedia-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-snapshots-api-openapi.yml
 - filename: wikimedia-structured-contents-api-openapi.yml
   format: yaml
-  label: Wikimedia structured-contents API
+  label: Wikimedia Structured Contents API
   slug: wikimedia-structured-contents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-structured-contents-api-openapi.yml
 - filename: wikimedia-structured-snapshots-api-openapi.yml
   format: yaml
-  label: Wikimedia structured-snapshots API
+  label: Wikimedia Structured Snapshots API
   slug: wikimedia-structured-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-structured-snapshots-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-transforms-api-openapi.yml
 - filename: wikimedia-wikidata-api-openapi.yml
   format: yaml
-  label: Wikimedia wikidata API
+  label: Wikimedia Wikidata API
   slug: wikimedia-wikidata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/openapi/wikimedia-wikidata-api-openapi.yml

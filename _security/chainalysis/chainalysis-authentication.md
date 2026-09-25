@@ -78,10 +78,10 @@ summary_line: 3 schemes
 tags:
 - Compliance
 - AML
-- KYT
+- Transaction Monitoring
 - Sanctions
 - Investigations
 - Blockchain Analytics
-- Risk
+- Risk Management
 - Crypto
 ---

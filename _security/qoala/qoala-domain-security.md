@@ -66,6 +66,6 @@ tags:
 - Claims
 - Southeast Asia
 - Indonesia
-- Financial-Services
+- Financial Services
 - Partner API
 ---

@@ -69,10 +69,10 @@ summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Science
-- Agentic AI
+- AI Agents
 - Predictive Analytics
 - Generative AI
 ---

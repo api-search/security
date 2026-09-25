@@ -35,7 +35,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Networking
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Infrastructure
 - Telemetry

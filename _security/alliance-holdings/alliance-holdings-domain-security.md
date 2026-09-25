@@ -34,6 +34,6 @@ tags:
 - Coal
 - Mining
 - Natural Resources
-- Financial-Services
+- Financial Services
 - Holding Company
 ---

@@ -70,6 +70,6 @@ tags:
 - AI Agents
 - GraphQL
 - MCP
-- agent-native
+- Agent-Native
 - Customer Context Graph
 ---

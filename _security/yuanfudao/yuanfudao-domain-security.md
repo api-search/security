@@ -36,6 +36,6 @@ tags:
 - Online Learning
 - Tutoring
 - Artificial Intelligence
-- Mobile Applications
+- Mobile App
 - China
 ---

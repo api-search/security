@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: walrus-protocol-routes-api-openapi.yml
   format: yaml
-  label: Walrus Protocol routes API
+  label: Walrus Protocol Routes API
   slug: walrus-protocol-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/openapi/walrus-protocol-routes-api-openapi.yml

@@ -38,10 +38,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Payments
 - Rent Payments
 - Consumer Finance
 - Bill Pay
-- Real-Estate
+- Real Estate
 ---

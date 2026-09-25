@@ -42,6 +42,6 @@ tags:
 - AI Assistant
 - Chatbots
 - Consumer
-- Image-Generation
+- Image Generation
 - WhatsApp
 ---

@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyvision/refs
 summary_line: http · 1 scheme
 tags:
 - Facial Recognition
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Physical Security
 - Access Control

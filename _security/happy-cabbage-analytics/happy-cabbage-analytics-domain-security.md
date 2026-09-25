@@ -140,5 +140,5 @@ tags:
 - Wholesale
 - Demand Forecasting
 - Supply Chain
-- agent-native
+- Agent-Native
 ---

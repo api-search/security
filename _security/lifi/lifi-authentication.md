@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: lifi-advanced-api-openapi.yml
   format: yaml
-  label: LI.FI advanced API
+  label: LI.FI Advanced API
   slug: lifi-advanced-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/openapi/lifi-advanced-api-openapi.yml

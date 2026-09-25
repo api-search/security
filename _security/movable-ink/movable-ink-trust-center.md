@@ -33,7 +33,7 @@ tags:
 - Customer Data
 - Mobile SDK
 - Artificial Intelligence
-- Advertising Technology
+- AdTech
 - Content
 - Event
 trust_url: https://trust.movableink.com/

@@ -64,7 +64,7 @@ tags:
 - Software Reviews
 - Build vs Buy
 - Search
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Authentication

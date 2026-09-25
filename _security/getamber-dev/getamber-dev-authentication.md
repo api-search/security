@@ -89,5 +89,5 @@ tags:
 - MCP
 - A2A
 - x402
-- agent-native
+- Agent-Native
 ---

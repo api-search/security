@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xata/refs/head
 summary_line: HIPAA, GDPR
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - Serverless
 - Developer Tools
 - Branching

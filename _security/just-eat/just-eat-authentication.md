@@ -83,7 +83,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-order-webhooks-api-openapi.yml
 - filename: just-eat-publicly-accessible-api-openapi.yml
   format: yaml
-  label: Just Eat publicly-accessible API
+  label: Just Eat Publicly Accessible API
   slug: just-eat-publicly-accessible-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/just-eat/refs/heads/main/openapi/just-eat-publicly-accessible-api-openapi.yml

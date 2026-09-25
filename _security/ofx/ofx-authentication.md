@@ -61,8 +61,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Payments
-- Money-Transfer
-- FinTech
+- Money Transfer
+- Fintech
 - Banking
-- API
 ---

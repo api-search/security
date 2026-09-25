@@ -10,8 +10,8 @@ method: searched
 name: Kunlunyaochi Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: 沈阳百事通网络科技有限公司 declares 3 security scheme(s) across its OpenAPI definitions.
-provider_name: 沈阳百事通网络科技有限公司
+overview: 昆仑瑶池 (Kunlun Yaochi) declares 3 security scheme(s) across its OpenAPI definitions.
+provider_name: 昆仑瑶池 (Kunlun Yaochi)
 provider_slug: kunlunyaochi-com
 scheme_count: 3
 schemes:

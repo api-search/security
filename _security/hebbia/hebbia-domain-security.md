@@ -41,7 +41,7 @@ tags:
 - Document AI
 - Due Diligence
 - Enterprise Search
-- Financial-Services
+- Financial Services
 - Generative AI
 - Investment Research
 - Knowledge

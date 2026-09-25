@@ -98,7 +98,7 @@ tags:
 - concurrency-control
 - State Management
 - Database
-- Postgres
+- PostgreSQL
 - real-time-sync
 - MCP
 - Developer Tools

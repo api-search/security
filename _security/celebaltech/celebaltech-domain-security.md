@@ -35,7 +35,7 @@ tags:
 - Consulting
 - Artificial Intelligence
 - Data Engineering
-- Machine-Learning
+- Machine Learning
 - Cloud
 - Generative AI
 - Databricks

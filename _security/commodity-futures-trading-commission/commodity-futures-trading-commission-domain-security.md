@@ -46,8 +46,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CFTC
 - Commitments of Traders
-- Federal-Government
-- Financial
+- Federal Government
+- Finance
 - Futures
 - Open Data
 - SODA

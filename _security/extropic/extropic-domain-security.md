@@ -38,6 +38,6 @@ tags:
 - Thermodynamic Computing
 - Probabilistic Computing
 - Energy-Based Models
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 ---

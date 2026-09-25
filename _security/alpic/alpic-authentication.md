@@ -4,49 +4,49 @@ api_key_in: []
 api_specs:
 - filename: alpic-analytics-api-openapi.yml
   format: yaml
-  label: Alpic analytics API
+  label: Alpic Analytics API
   slug: alpic-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-analytics-api-openapi.yml
 - filename: alpic-beacon-api-openapi.yml
   format: yaml
-  label: Alpic beacon API
+  label: Alpic Beacon API
   slug: alpic-beacon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-beacon-api-openapi.yml
 - filename: alpic-deployments-api-openapi.yml
   format: yaml
-  label: Alpic deployments API
+  label: Alpic Deployments API
   slug: alpic-deployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-deployments-api-openapi.yml
 - filename: alpic-distribution-api-openapi.yml
   format: yaml
-  label: Alpic distribution API
+  label: Alpic Distribution API
   slug: alpic-distribution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-distribution-api-openapi.yml
 - filename: alpic-environments-api-openapi.yml
   format: yaml
-  label: Alpic environments API
+  label: Alpic Environments API
   slug: alpic-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-environments-api-openapi.yml
 - filename: alpic-projects-api-openapi.yml
   format: yaml
-  label: Alpic projects API
+  label: Alpic Projects API
   slug: alpic-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-projects-api-openapi.yml
 - filename: alpic-teams-api-openapi.yml
   format: yaml
-  label: Alpic teams API
+  label: Alpic Teams API
   slug: alpic-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-teams-api-openapi.yml
 - filename: alpic-tunnels-api-openapi.yml
   format: yaml
-  label: Alpic tunnels API
+  label: Alpic Tunnels API
   slug: alpic-tunnels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-tunnels-api-openapi.yml
@@ -86,5 +86,5 @@ tags:
 - Developer Tools
 - Deployment
 - ChatGPT Apps
-- Agentic
+- AI Agents
 ---

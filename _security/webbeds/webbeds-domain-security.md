@@ -34,5 +34,4 @@ tags:
 - Marketplace
 - B2B
 - Hospitality
-- API
 ---

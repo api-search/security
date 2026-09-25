@@ -389,4 +389,5 @@ tags:
 - Payments
 - ACH
 - Wires
+- Embedded Finance
 ---

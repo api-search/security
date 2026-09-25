@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-conditionrule-api-openapi.yml
 - filename: apache-dubbo-metrics-api-openapi.yml
   format: yaml
-  label: Apache Dubbo metrics API
+  label: Apache Dubbo Metrics API
   slug: apache-dubbo-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-metrics-api-openapi.yml
@@ -126,7 +126,7 @@ tags:
 - Go
 - Java
 - Microservices
-- Open-Source
+- Open Source
 - RPC
 - Service Discovery
 - Service Mesh

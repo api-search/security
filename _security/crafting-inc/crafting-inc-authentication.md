@@ -13,8 +13,8 @@ method: searched
 name: Crafting Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Crafting, Inc. secures its APIs with token, sso, and mutualTLS across 5 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Crafting, Inc.
+overview: Crafting secures its APIs with token, sso, and mutualTLS across 5 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Crafting
 provider_slug: crafting-inc
 scheme_count: 5
 schemes:

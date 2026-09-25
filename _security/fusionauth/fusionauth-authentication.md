@@ -268,4 +268,5 @@ tags:
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication
+- Identity Federation
 ---

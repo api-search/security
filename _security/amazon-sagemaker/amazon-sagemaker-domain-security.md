@@ -64,7 +64,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Inference
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Training
 ---

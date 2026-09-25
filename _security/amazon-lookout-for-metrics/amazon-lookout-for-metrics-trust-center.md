@@ -193,8 +193,9 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Anomaly Detection
 - Business Intelligence
-- Machine-Learning
+- Machine Learning
 - Metrics
 - Monitoring
+- Defunct
 trust_url: https://aws.amazon.com/compliance/
 ---

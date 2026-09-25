@@ -49,10 +49,10 @@ tags:
 - Company
 - Fraud Detection
 - Fraud Prevention
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Risk Management
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Device Intelligence
 - Banking

@@ -34,7 +34,7 @@ tags:
 - Robotics
 - Artificial Intelligence
 - Research
-- Open-Source
+- Open Source
 - Humanoid Robots
 - Foundation Models
 - Embodied AI

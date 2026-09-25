@@ -59,7 +59,7 @@ tags:
 - Artificial Intelligence
 - AI Detection
 - Content Moderation
-- Machine-Learning
+- Machine Learning
 - Text Analysis
 - Natural Language Processing
 - Education

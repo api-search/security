@@ -36,6 +36,6 @@ tags:
 - Construction Technology
 - Preconstruction
 - Artificial Intelligence
-- Machine-Learning
-- Agentic AI
+- Machine Learning
+- AI Agents
 ---

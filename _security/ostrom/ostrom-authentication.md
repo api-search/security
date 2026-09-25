@@ -87,7 +87,7 @@ tags:
 - Company
 - Energy
 - Electricity
-- Green Energy
+- Renewable Energy
 - Smart Meter
 - Dynamic Pricing
 - Germany

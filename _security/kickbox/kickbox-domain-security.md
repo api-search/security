@@ -81,7 +81,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Verification
-- Email Validation
 - Deliverability
 - Data Quality
 - Email

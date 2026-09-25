@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-geography-api-openapi.yml
 - filename: despegar-hotel-api-openapi.yml
   format: yaml
-  label: Despegar hotel API
+  label: Despegar Hotel API
   slug: despegar-hotel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/openapi/despegar-hotel-api-openapi.yml

@@ -35,4 +35,5 @@ tags:
 - Lodging
 - Travel
 - Fortune 500
+- Booking
 ---

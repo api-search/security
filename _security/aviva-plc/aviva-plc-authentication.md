@@ -13,8 +13,8 @@ name_suffix: Authentication
 oauth_flows:
 - authorizationCode
 - clientCredentials
-overview: Aviva plc secures its APIs with oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
-provider_name: Aviva plc
+overview: Aviva secures its APIs with oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
+provider_name: Aviva
 provider_slug: aviva-plc
 scheme_count: 2
 schemes:

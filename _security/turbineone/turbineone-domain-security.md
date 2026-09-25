@@ -35,8 +35,8 @@ tags:
 - Ai Ml
 - Defense
 - Edge AI
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - National Security
 - Autonomy
 ---

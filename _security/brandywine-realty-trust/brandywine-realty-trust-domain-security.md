@@ -37,5 +37,5 @@ tags:
 - Office
 - Philadelphia
 - REIT
-- Real-Estate
+- Real Estate
 ---

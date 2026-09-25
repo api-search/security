@@ -131,8 +131,9 @@ tags:
 - Process Intelligence
 - Data
 - Analytics
-- Machine-Learning
+- Machine Learning
 - AI Agents
 - Enterprise
+- Workflow Automation
 trust_url: https://trust.celonis.com/
 ---

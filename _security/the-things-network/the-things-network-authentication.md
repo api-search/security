@@ -422,7 +422,7 @@ summary_line: apiKey/oauth2/http · 5 schemes
 tags:
 - LoRaWAN
 - IoT
-- Open-Source
+- Open Source
 - Network Server
 - LPWAN
 - Telemetry

@@ -48,7 +48,7 @@ tags:
 - Generative Biology
 - Generative AI
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 - Biotechnology
 - Biopharma
 - Drug Discovery

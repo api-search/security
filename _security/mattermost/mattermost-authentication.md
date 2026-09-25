@@ -64,7 +64,8 @@ tags:
 - Messaging
 - Collaboration
 - Team Chat
-- Open-Source
+- Open Source
 - DevOps
 - Self-Hosted
+- Real-Time
 ---

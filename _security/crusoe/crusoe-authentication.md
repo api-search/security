@@ -453,7 +453,7 @@ tags:
 - AI Infrastructure
 - Cloud Computing
 - GPU Compute
-- Machine-Learning
+- Machine Learning
 - Inference
 - Kubernetes
 - Object Storage

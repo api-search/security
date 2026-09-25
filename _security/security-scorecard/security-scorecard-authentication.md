@@ -40,7 +40,7 @@ tags:
 - Enterprise
 - Cybersecurity
 - Security Ratings
-- Third-Party Risk
+- Third-Party Risk Management
 - Risk Management
 - Attack Surface
 - Compliance

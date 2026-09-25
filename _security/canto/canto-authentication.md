@@ -4,115 +4,115 @@ api_key_in: []
 api_specs:
 - filename: canto-bulk-products-catalogs-api-openapi.yml
   format: yaml
-  label: Canto bulk_products_catalogs API
+  label: Canto Bulk Products Catalogs API
   slug: canto-bulk-products-catalogs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-bulk-products-catalogs-api-openapi.yml
 - filename: canto-bulk-products-channel-templates-api-openapi.yml
   format: yaml
-  label: Canto bulk_products_channel_templates API
+  label: Canto Bulk Products Channel Templates API
   slug: canto-bulk-products-channel-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-bulk-products-channel-templates-api-openapi.yml
 - filename: canto-dimensions-api-openapi.yml
   format: yaml
-  label: Canto dimensions API
+  label: Canto Dimensions API
   slug: canto-dimensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-dimensions-api-openapi.yml
 - filename: canto-filter-api-openapi.yml
   format: yaml
-  label: Canto filter API
+  label: Canto Filter API
   slug: canto-filter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-filter-api-openapi.yml
 - filename: canto-import-settings-api-openapi.yml
   format: yaml
-  label: Canto import_settings API
+  label: Canto Import Settings API
   slug: canto-import-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-import-settings-api-openapi.yml
 - filename: canto-imports-api-openapi.yml
   format: yaml
-  label: Canto imports API
+  label: Canto Imports API
   slug: canto-imports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-imports-api-openapi.yml
 - filename: canto-options-api-openapi.yml
   format: yaml
-  label: Canto options API
+  label: Canto Options API
   slug: canto-options-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-options-api-openapi.yml
 - filename: canto-product-catalog-products-api-openapi.yml
   format: yaml
-  label: Canto product_catalog_products API
+  label: Canto Product Catalog Products API
   slug: canto-product-catalog-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-catalog-products-api-openapi.yml
 - filename: canto-product-catalogs-api-openapi.yml
   format: yaml
-  label: Canto product_catalogs API
+  label: Canto Product Catalogs API
   slug: canto-product-catalogs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-catalogs-api-openapi.yml
 - filename: canto-product-categories-api-openapi.yml
   format: yaml
-  label: Canto product_categories API
+  label: Canto Product Categories API
   slug: canto-product-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-categories-api-openapi.yml
 - filename: canto-product-channel-template-products-api-openapi.yml
   format: yaml
-  label: Canto product_channel_template_products API
+  label: Canto Product Channel Template Products API
   slug: canto-product-channel-template-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-channel-template-products-api-openapi.yml
 - filename: canto-product-channel-templates-api-openapi.yml
   format: yaml
-  label: Canto product_channel_templates API
+  label: Canto Product Channel Templates API
   slug: canto-product-channel-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-channel-templates-api-openapi.yml
 - filename: canto-product-custom-attributes-api-openapi.yml
   format: yaml
-  label: Canto product_custom_attributes API
+  label: Canto Product Custom Attributes API
   slug: canto-product-custom-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-custom-attributes-api-openapi.yml
 - filename: canto-product-share-links-api-openapi.yml
   format: yaml
-  label: Canto product_share_links API
+  label: Canto Product Share Links API
   slug: canto-product-share-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-share-links-api-openapi.yml
 - filename: canto-product-types-api-openapi.yml
   format: yaml
-  label: Canto product_types API
+  label: Canto Product Types API
   slug: canto-product-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-product-types-api-openapi.yml
 - filename: canto-products-api-openapi.yml
   format: yaml
-  label: Canto products API
+  label: Canto Products API
   slug: canto-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-products-api-openapi.yml
 - filename: canto-variants-api-openapi.yml
   format: yaml
-  label: Canto variants API
+  label: Canto Variants API
   slug: canto-variants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-variants-api-openapi.yml
 - filename: canto-webhook-events-api-openapi.yml
   format: yaml
-  label: Canto webhook_events API
+  label: Canto Webhook Events API
   slug: canto-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-webhook-events-api-openapi.yml
 - filename: canto-webhooks-api-openapi.yml
   format: yaml
-  label: Canto webhooks API
+  label: Canto Webhooks API
   slug: canto-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/openapi/canto-webhooks-api-openapi.yml

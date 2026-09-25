@@ -177,7 +177,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Influencer Marketing
 - Creator Economy
-- Social-Media
+- Social Media
 - Marketing
 - Campaign Management
 - creator-crm

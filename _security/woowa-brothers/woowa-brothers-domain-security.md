@@ -38,4 +38,5 @@ tags:
 - Mobile App
 - South Korea
 - E-Commerce
+- Restaurant
 ---

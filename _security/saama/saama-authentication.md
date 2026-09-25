@@ -31,7 +31,7 @@ tags:
 - Clinical Data Management
 - Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Pharmaceuticals
 - Healthcare
 - Data Platform

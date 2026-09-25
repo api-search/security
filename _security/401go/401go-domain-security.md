@@ -107,7 +107,7 @@ tags:
 - Company
 - Retirement
 - 401k
-- Financial-Services
+- Financial Services
 - Fintech
 - Payroll
 - Human Resources

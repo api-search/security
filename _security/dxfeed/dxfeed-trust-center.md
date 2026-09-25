@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/security/dxfeed-trust-center.yml
 summary_line: SOC 2
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Historical Data

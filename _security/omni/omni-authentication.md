@@ -82,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/openapi/omni-dashboard-filters-api-openapi.yml
 - filename: omni-dbt-api-openapi.yml
   format: yaml
-  label: Omni dbt API
+  label: Omni Dbt API
   slug: omni-dbt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/openapi/omni-dbt-api-openapi.yml

@@ -79,5 +79,5 @@ tags:
 - Database
 - Distributed
 - NoSQL
-- Open-Source
+- Open Source
 ---

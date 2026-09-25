@@ -288,7 +288,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Apigee
 - Advanced API Security
-- Agentic AI
+- AI Agents
 - Analytics
 - API Gateway
 - API Governance

@@ -39,5 +39,5 @@ tags:
 - Audit
 - Fintech
 - Banking
-- Regulatory Technology
+- RegTech
 ---

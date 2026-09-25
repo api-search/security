@@ -2,37 +2,37 @@
 api_specs:
 - filename: upwind-access-management-api-openapi.yml
   format: yaml
-  label: Upwind access-management API
+  label: Upwind Access Management API
   slug: upwind-access-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-access-management-api-openapi.yml
 - filename: upwind-api-security-api-openapi.yml
   format: yaml
-  label: Upwind api-security API
+  label: Upwind API Security API
   slug: upwind-api-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-api-security-api-openapi.yml
 - filename: upwind-cloud-accounts-api-openapi.yml
   format: yaml
-  label: Upwind cloud-accounts API
+  label: Upwind Cloud Accounts API
   slug: upwind-cloud-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-cloud-accounts-api-openapi.yml
 - filename: upwind-configurations-api-openapi.yml
   format: yaml
-  label: Upwind configurations API
+  label: Upwind Configurations API
   slug: upwind-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-configurations-api-openapi.yml
 - filename: upwind-events-api-openapi.yml
   format: yaml
-  label: Upwind events API
+  label: Upwind Events API
   slug: upwind-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-events-api-openapi.yml
 - filename: upwind-integrations-api-openapi.yml
   format: yaml
-  label: Upwind integrations API
+  label: Upwind Integrations API
   slug: upwind-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-integrations-api-openapi.yml
@@ -44,25 +44,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-inventory-api-openapi.yml
 - filename: upwind-packages-api-openapi.yml
   format: yaml
-  label: Upwind packages API
+  label: Upwind Packages API
   slug: upwind-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-packages-api-openapi.yml
 - filename: upwind-threats-api-openapi.yml
   format: yaml
-  label: Upwind threats API
+  label: Upwind Threats API
   slug: upwind-threats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-threats-api-openapi.yml
 - filename: upwind-vulnerabilities-api-openapi.yml
   format: yaml
-  label: Upwind vulnerabilities API
+  label: Upwind Vulnerabilities API
   slug: upwind-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-vulnerabilities-api-openapi.yml
 - filename: upwind-workflows-api-openapi.yml
   format: yaml
-  label: Upwind workflows API
+  label: Upwind Workflows API
   slug: upwind-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/openapi/upwind-workflows-api-openapi.yml

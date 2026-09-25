@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/security/mlsgrid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real-Estate
+- Real Estate
 - Property Listings
 - MLS
 - RESO

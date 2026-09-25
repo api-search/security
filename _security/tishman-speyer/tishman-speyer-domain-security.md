@@ -39,7 +39,7 @@ tags:
 - Office
 - Property Management
 - PropTech
-- Real-Estate
+- Real Estate
 - Real Estate Development
 - Residential
 - Tenant Experience

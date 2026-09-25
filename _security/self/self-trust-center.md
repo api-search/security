@@ -25,7 +25,7 @@ tags:
 - Credit Building
 - Consumer Finance
 - Banking
-- Financial-Services
+- Financial Services
 - Credit Cards
 - Lending
 trust_url: https://www.self.inc/trust

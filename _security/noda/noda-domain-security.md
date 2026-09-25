@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Enterprise
-- Agentic AI
+- AI Agents
 - Building Operations
 - Commercial Real Estate
 - Energy Management

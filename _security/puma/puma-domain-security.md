@@ -97,5 +97,5 @@ tags:
 - Rack
 - Application Server
 - HTTP
-- Open-Source
+- Open Source
 ---

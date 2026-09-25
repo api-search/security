@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palebluedotai/
 summary_line: 2 schemes
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - API Gateway

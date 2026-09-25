@@ -34,7 +34,7 @@ tags:
 - Telecommunications
 - Enterprise
 - Networking
-- Data-Center
+- Data Center
 - Cloud
 - Connectivity
 - Voice

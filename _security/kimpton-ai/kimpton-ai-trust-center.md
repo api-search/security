@@ -22,8 +22,8 @@ tags:
 - Artificial Intelligence
 - Investment Research
 - Fintech
-- Financial-Services
-- Portfolio-Management
+- Financial Services
+- Portfolio Management
 - Trade Analytics
 - Research Automation
 - Hedge Funds

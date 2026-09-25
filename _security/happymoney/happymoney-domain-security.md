@@ -38,5 +38,5 @@ tags:
 - Debt Consolidation
 - Consumer Finance
 - Credit Union
-- Financial-Services
+- Financial Services
 ---

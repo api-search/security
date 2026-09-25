@@ -37,4 +37,5 @@ tags:
 - Oncology
 - Real-World Data
 - Artificial Intelligence
+- Diagnostics
 ---

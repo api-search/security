@@ -29,8 +29,8 @@ layout: security
 method: probed
 name: Spotwise Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Spotwise, Inc., probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Spotwise, Inc.
+overview: 'Domain security posture for Spotwise, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Spotwise
 provider_slug: spotwise-inc
 slug: spotwise-inc-domain-security
 source_filename: spotwise-inc-domain-security.yml

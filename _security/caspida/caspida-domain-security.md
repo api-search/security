@@ -31,7 +31,7 @@ tags:
 - Security
 - Cybersecurity
 - Analytics
-- Machine-Learning
+- Machine Learning
 - User Behavior Analytics
 - Acquired
 ---

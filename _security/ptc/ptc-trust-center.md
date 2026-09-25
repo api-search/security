@@ -38,8 +38,8 @@ tags:
 - Augmented Reality
 - Field Service Management
 - Manufacturing
-- IIoT
 - CAD
 - Digital Transformation
+- Industrial
 trust_url: https://www.ptc.com/en/about/trust-center/
 ---

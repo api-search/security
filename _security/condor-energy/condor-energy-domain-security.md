@@ -38,7 +38,7 @@ tags:
 - Energy Procurement
 - Energy Management
 - Sustainability
-- Data-Center
+- Data Center
 - Price Risk Management
 - Artificial Intelligence
 - Analytics

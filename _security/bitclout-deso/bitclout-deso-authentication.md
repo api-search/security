@@ -49,7 +49,7 @@ tags:
 - Blockchain
 - Decentralized Social
 - Web3
-- Social-Media
+- Social Media
 - NFT
 - Creator Economy
 ---

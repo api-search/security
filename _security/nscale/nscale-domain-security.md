@@ -78,4 +78,5 @@ tags:
 - Inference
 - Serverless
 - Cloud Compute
+- Real-Time
 ---

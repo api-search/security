@@ -40,7 +40,7 @@ tags:
 - Talent Intelligence
 - AI Sourcing
 - Talent Analytics
-- Agentic AI
+- AI Agents
 - Embedded AI
 - Human Resources
 ---

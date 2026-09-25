@@ -159,7 +159,7 @@ tags:
 - Addresses
 - Geocoding
 - Open Data
-- Document-Management
+- Document Management
 - Identity
 - Government
 - France

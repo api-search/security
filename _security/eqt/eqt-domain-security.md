@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Eqt Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EQT Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: EQT Corporation
+overview: 'Domain security posture for EQT, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: EQT
 provider_slug: eqt
 slug: eqt-domain-security
 source_filename: eqt-domain-security.yml

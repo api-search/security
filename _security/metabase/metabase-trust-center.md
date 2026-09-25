@@ -85,7 +85,7 @@ tags:
 - Business Intelligence
 - Dashboards
 - Data Visualization
-- Open-Source
+- Open Source
 - SQL
 trust_url: https://www.metabase.com/security/
 ---

@@ -70,8 +70,8 @@ tags:
 - Community Association Management
 - CAM
 - Property Management
-- Real-Estate
+- Real Estate
 - Accounting
-- Workflow-Automation
+- Workflow Automation
 - Vendor Management
 ---

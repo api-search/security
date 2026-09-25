@@ -39,7 +39,7 @@ tags:
 - Telehealth
 - Rehabilitation
 - Physical Therapy
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Healthcare
 ---

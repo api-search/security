@@ -43,7 +43,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Agents
 - Enterprise
 - Document Processing
@@ -53,4 +53,5 @@ tags:
 - Insurance
 - Healthcare
 - MCP
+- A2A
 ---

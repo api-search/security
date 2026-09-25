@@ -42,7 +42,7 @@ tags:
 - Stablecoins
 - Cryptocurrency
 - Blockchain
-- Financial-Services
+- Financial Services
 - Wallets
 - Cards
 - Cross-Border Payments

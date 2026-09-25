@@ -95,8 +95,9 @@ tags:
 - Micropayments
 - x402
 - MCP
-- agent-native
+- Agent-Native
 - Webhook
 - AI Coding Agents
-- Open-Source
+- Open Source
+- A2A
 ---

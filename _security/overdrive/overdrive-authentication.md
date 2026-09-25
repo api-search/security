@@ -57,7 +57,7 @@ summary_line: oauth2 · 3 schemes
 tags:
 - Company
 - Books
-- Libraries
+- Library
 - Ebooks
 - Audiobooks
 - Digital Media

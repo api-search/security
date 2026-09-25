@@ -4,25 +4,25 @@ api_key_in: []
 api_specs:
 - filename: zipline-ai-fetch-api-openapi.yml
   format: yaml
-  label: Zipline Ai fetch API
+  label: Zipline Ai Fetch API
   slug: zipline-ai-fetch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-fetch-api-openapi.yml
 - filename: zipline-ai-health-api-openapi.yml
   format: yaml
-  label: Zipline Ai health API
+  label: Zipline Ai Health API
   slug: zipline-ai-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-health-api-openapi.yml
 - filename: zipline-ai-schema-api-openapi.yml
   format: yaml
-  label: Zipline Ai schema API
+  label: Zipline Ai Schema API
   slug: zipline-ai-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-schema-api-openapi.yml
 - filename: zipline-ai-workflow-api-openapi.yml
   format: yaml
-  label: Zipline Ai workflow API
+  label: Zipline Ai Workflow API
   slug: zipline-ai-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/openapi/zipline-ai-workflow-api-openapi.yml

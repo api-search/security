@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: https://www.centu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/century-communities/refs/heads/main/authentication/century-communities-authentication.yml
 summary_line: 1 scheme
 tags:
-- Real-Estate
+- Real Estate
 - Homebuilding
 - Construction
 - Content Management

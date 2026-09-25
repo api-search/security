@@ -5,25 +5,25 @@ api_key_in:
 api_specs:
 - filename: apurata-config-api-openapi.yml
   format: yaml
-  label: Apurata config API
+  label: Apurata Config API
   slug: apurata-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-config-api-openapi.yml
 - filename: apurata-orders-api-openapi.yml
   format: yaml
-  label: Apurata orders API
+  label: Apurata Orders API
   slug: apurata-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-orders-api-openapi.yml
 - filename: apurata-refunds-api-openapi.yml
   format: yaml
-  label: Apurata refunds API
+  label: Apurata Refunds API
   slug: apurata-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-refunds-api-openapi.yml
 - filename: apurata-widgets-api-openapi.yml
   format: yaml
-  label: Apurata widgets API
+  label: Apurata Widgets API
   slug: apurata-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-widgets-api-openapi.yml
@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/h
 summary_line: http/apiKey · 4 schemes
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Buy Now Pay Later

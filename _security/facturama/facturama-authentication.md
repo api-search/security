@@ -31,9 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facturama/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- Electronic Invoicing
-- CFDI
 - E-Invoicing
+- CFDI
 - Mexico
 - Tax Compliance
 - SAT

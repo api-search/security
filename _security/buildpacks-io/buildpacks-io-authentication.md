@@ -41,7 +41,7 @@ tags:
 - Container Images
 - Build Automation
 - CNCF
-- Open-Source
+- Open Source
 - Developer Tools
 - OCI
 - Specification

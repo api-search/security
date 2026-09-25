@@ -60,4 +60,5 @@ tags:
 - Production Monitoring
 - Industrial IoT
 - Smart Manufacturing
+- Geospatial
 ---

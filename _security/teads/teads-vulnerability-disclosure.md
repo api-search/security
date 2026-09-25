@@ -26,7 +26,6 @@ tags:
 - Company
 - Advertising
 - AdTech
-- Advertising Technology
 - Video Advertising
 - Conversions API
 - Contextual Advertising

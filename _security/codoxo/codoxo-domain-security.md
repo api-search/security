@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - Fraud Detection
 - Payment Integrity
-- Machine-Learning
+- Machine Learning
 - Payers
 ---

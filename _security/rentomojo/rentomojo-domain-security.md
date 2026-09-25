@@ -38,6 +38,5 @@ tags:
 - Rental Marketplace
 - E-Commerce
 - India
-- D2C
 - Direct to Consumer
 ---

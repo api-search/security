@@ -179,7 +179,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/h
 summary_line: http/openIdConnect · 2 schemes
 tags:
 - Company
-- Advertising Technology
 - AdTech
 - Audience Intelligence
 - Data Management Platform

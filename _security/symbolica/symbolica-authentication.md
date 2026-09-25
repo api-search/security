@@ -39,9 +39,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Agentic AI
+- AI Agents
 - SDK
 - Developer Tools
 - LLM
-- Machine-Learning
+- Machine Learning
 ---

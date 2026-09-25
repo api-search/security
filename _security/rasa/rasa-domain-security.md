@@ -75,6 +75,6 @@ tags:
 - Voice Assistant
 - NLU
 - LLM
-- Machine-Learning
+- Machine Learning
 - Agents
 ---

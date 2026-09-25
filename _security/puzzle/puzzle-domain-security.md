@@ -201,11 +201,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Accounting
-- Financial
+- Finance
 - Bookkeeping
 - Fintech
 - General Ledger
 - Payroll
-- agent-native
+- Agent-Native
 - MCP
 ---

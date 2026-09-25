@@ -148,7 +148,7 @@ tags:
 - Privacy Operations
 - Consent Management
 - AI Governance
-- Third-Party Risk
+- Third-Party Risk Management
 - Compliance
 - Security
 ---

@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/security/publora-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Social-Media
+- Social Media
 - Publishing
 - Scheduling
 - MCP

@@ -41,7 +41,7 @@ tags:
 - Contract Lifecycle Management
 - Procurement
 - Source-to-Pay
-- Workflow-Automation
+- Workflow Automation
 - ServiceNow
 - Artificial Intelligence
 - Legal Tech

@@ -78,7 +78,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glacier-bancor
 summary_line: 1 scheme
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - OpenID Connect
 - Authentication

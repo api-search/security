@@ -62,14 +62,14 @@ summary_line: oauth2/http/mutualTLS · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - AIOps
 - Model Deployment
 - Model Monitoring
 - Inference
 - Data Annotation
-- Computer-Vision
+- Computer Vision
 - Agentic Workflows
 - Defense
 - GovTech

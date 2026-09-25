@@ -220,7 +220,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/he
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - ORM
 - Developer Tools
 - Application Hosting

@@ -36,7 +36,7 @@ tags:
 - Networking
 - Infrastructure
 - Switches
-- Data-Center
+- Data Center
 - Cloud
 - Ethernet
 - Optics

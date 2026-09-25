@@ -23,7 +23,7 @@ summary_line: SOC 2 Type II, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Legal Tech
 - Professional Services
 - Microsoft Office

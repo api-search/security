@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-attributes-api-openapi.yml
 - filename: erply-auth-api-openapi.yml
   format: yaml
-  label: Erply auth API
+  label: Erply Auth API
   slug: erply-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-auth-api-openapi.yml
@@ -35,25 +35,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-brand-api-openapi.yml
 - filename: erply-clsf-api-openapi.yml
   format: yaml
-  label: Erply clsf API
+  label: Erply Clsf API
   slug: erply-clsf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-clsf-api-openapi.yml
 - filename: erply-clsf-device-properties-api-openapi.yml
   format: yaml
-  label: Erply clsf-device-properties API
+  label: Erply Clsf Device Properties API
   slug: erply-clsf-device-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-clsf-device-properties-api-openapi.yml
 - filename: erply-clsf-events-api-openapi.yml
   format: yaml
-  label: Erply clsf-events API
+  label: Erply Clsf Events API
   slug: erply-clsf-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-clsf-events-api-openapi.yml
 - filename: erply-clsf-labels-api-openapi.yml
   format: yaml
-  label: Erply clsf-labels API
+  label: Erply Clsf Labels API
   slug: erply-clsf-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-clsf-labels-api-openapi.yml
@@ -65,13 +65,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-country-api-openapi.yml
 - filename: erply-device-api-openapi.yml
   format: yaml
-  label: Erply device API
+  label: Erply Device API
   slug: erply-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-device-api-openapi.yml
 - filename: erply-event-api-openapi.yml
   format: yaml
-  label: Erply event API
+  label: Erply Event API
   slug: erply-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-event-api-openapi.yml
@@ -89,7 +89,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-external-ids-api-openapi.yml
 - filename: erply-form-api-openapi.yml
   format: yaml
-  label: Erply form API
+  label: Erply Form API
   slug: erply-form-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-form-api-openapi.yml
@@ -101,13 +101,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-franchise-products-api-openapi.yml
 - filename: erply-item-api-openapi.yml
   format: yaml
-  label: Erply item API
+  label: Erply Item API
   slug: erply-item-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-item-api-openapi.yml
 - filename: erply-label-api-openapi.yml
   format: yaml
-  label: Erply label API
+  label: Erply Label API
   slug: erply-label-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-label-api-openapi.yml
@@ -149,7 +149,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-matrix-product-variation-api-openapi.yml
 - filename: erply-note-api-openapi.yml
   format: yaml
-  label: Erply note API
+  label: Erply Note API
   slug: erply-note-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-note-api-openapi.yml
@@ -173,7 +173,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-permissions-api-openapi.yml
 - filename: erply-printout-api-openapi.yml
   format: yaml
-  label: Erply printout API
+  label: Erply Printout API
   slug: erply-printout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-printout-api-openapi.yml
@@ -293,19 +293,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-products-api-openapi.yml
 - filename: erply-report-api-openapi.yml
   format: yaml
-  label: Erply report API
+  label: Erply Report API
   slug: erply-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-report-api-openapi.yml
 - filename: erply-resource-api-openapi.yml
   format: yaml
-  label: Erply resource API
+  label: Erply Resource API
   slug: erply-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-resource-api-openapi.yml
 - filename: erply-row-api-openapi.yml
   format: yaml
-  label: Erply row API
+  label: Erply Row API
   slug: erply-row-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-row-api-openapi.yml
@@ -323,13 +323,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-supplier-api-openapi.yml
 - filename: erply-sync-api-openapi.yml
   format: yaml
-  label: Erply sync API
+  label: Erply Sync API
   slug: erply-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-sync-api-openapi.yml
 - filename: erply-task-api-openapi.yml
   format: yaml
-  label: Erply task API
+  label: Erply Task API
   slug: erply-task-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-task-api-openapi.yml
@@ -341,7 +341,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-tasks-api-openapi.yml
 - filename: erply-template-api-openapi.yml
   format: yaml
-  label: Erply template API
+  label: Erply Template API
   slug: erply-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-template-api-openapi.yml
@@ -365,19 +365,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-warehouse-locations-api-openapi.yml
 - filename: erply-webhook-api-openapi.yml
   format: yaml
-  label: Erply webhook API
+  label: Erply Webhook API
   slug: erply-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-webhook-api-openapi.yml
 - filename: erply-webhook-configuration-api-openapi.yml
   format: yaml
-  label: Erply webhook-configuration API
+  label: Erply Webhook Configuration API
   slug: erply-webhook-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-webhook-configuration-api-openapi.yml
 - filename: erply-workorder-api-openapi.yml
   format: yaml
-  label: Erply workorder API
+  label: Erply Workorder API
   slug: erply-workorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-workorder-api-openapi.yml

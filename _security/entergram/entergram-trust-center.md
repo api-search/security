@@ -119,7 +119,7 @@ tags:
 - Communications
 - CRM
 - Telegram
-- Customer-Support
+- Customer Support
 - Ticketing
 - Sales
 - MCP

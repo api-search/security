@@ -83,7 +83,7 @@ tags:
 - Containers
 - Kubernetes
 - Multi-Cluster
-- Open-Source
+- Open Source
 - SUSE
 - Platform Engineering
 ---

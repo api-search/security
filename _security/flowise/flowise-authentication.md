@@ -4,79 +4,79 @@ api_key_in: []
 api_specs:
 - filename: flowise-assistants-api-openapi.yml
   format: yaml
-  label: Flowise assistants API
+  label: Flowise Assistants API
   slug: flowise-assistants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-assistants-api-openapi.yml
 - filename: flowise-attachments-api-openapi.yml
   format: yaml
-  label: Flowise attachments API
+  label: Flowise Attachments API
   slug: flowise-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-attachments-api-openapi.yml
 - filename: flowise-chatflows-api-openapi.yml
   format: yaml
-  label: Flowise chatflows API
+  label: Flowise Chatflows API
   slug: flowise-chatflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-chatflows-api-openapi.yml
 - filename: flowise-chatmessage-api-openapi.yml
   format: yaml
-  label: Flowise chatmessage API
+  label: Flowise Chatmessage API
   slug: flowise-chatmessage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-chatmessage-api-openapi.yml
 - filename: flowise-document-store-api-openapi.yml
   format: yaml
-  label: Flowise document-store API
+  label: Flowise Document Store API
   slug: flowise-document-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-document-store-api-openapi.yml
 - filename: flowise-feedback-api-openapi.yml
   format: yaml
-  label: Flowise feedback API
+  label: Flowise Feedback API
   slug: flowise-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-feedback-api-openapi.yml
 - filename: flowise-leads-api-openapi.yml
   format: yaml
-  label: Flowise leads API
+  label: Flowise Leads API
   slug: flowise-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-leads-api-openapi.yml
 - filename: flowise-ping-api-openapi.yml
   format: yaml
-  label: Flowise ping API
+  label: Flowise Ping API
   slug: flowise-ping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-ping-api-openapi.yml
 - filename: flowise-prediction-api-openapi.yml
   format: yaml
-  label: Flowise prediction API
+  label: Flowise Prediction API
   slug: flowise-prediction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-prediction-api-openapi.yml
 - filename: flowise-tools-api-openapi.yml
   format: yaml
-  label: Flowise tools API
+  label: Flowise Tools API
   slug: flowise-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-tools-api-openapi.yml
 - filename: flowise-upsert-history-api-openapi.yml
   format: yaml
-  label: Flowise upsert-history API
+  label: Flowise Upsert History API
   slug: flowise-upsert-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-upsert-history-api-openapi.yml
 - filename: flowise-variables-api-openapi.yml
   format: yaml
-  label: Flowise variables API
+  label: Flowise Variables API
   slug: flowise-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-variables-api-openapi.yml
 - filename: flowise-vector-api-openapi.yml
   format: yaml
-  label: Flowise vector API
+  label: Flowise Vector API
   slug: flowise-vector-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-vector-api-openapi.yml
@@ -118,7 +118,7 @@ tags:
 - LangChain
 - RAG
 - Chatbots
-- Open-Source
+- Open Source
 - Node.js
 - TypeScript
 ---

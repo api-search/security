@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northspyre/ref
 summary_line: SOC 2
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Real Estate Development
 - Project Management
 - Construction

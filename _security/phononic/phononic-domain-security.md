@@ -36,7 +36,7 @@ tags:
 - Hardware
 - Cooling
 - Thermal Management
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Optoelectronics
 - Sustainability

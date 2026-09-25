@@ -468,5 +468,5 @@ tags:
 - Compliance
 - Data Privacy
 - MCP
-- agent-native
+- Agent-Native
 ---

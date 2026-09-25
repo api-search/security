@@ -259,4 +259,5 @@ tags:
 - Geocoding
 - Demographics
 - Location Intelligence
+- Geospatial
 ---

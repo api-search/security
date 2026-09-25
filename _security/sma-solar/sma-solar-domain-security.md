@@ -42,5 +42,5 @@ tags:
 - Solar
 - Energy
 - Inverters
-- Renewable
+- Renewables
 ---

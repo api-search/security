@@ -35,6 +35,6 @@ tags:
 - Co-Working
 - Office Space
 - Workspace
-- Real-Estate
+- Real Estate
 - Malaysia
 ---

@@ -34,7 +34,7 @@ tags:
 - Enterprise Saas
 - Artificial Intelligence
 - Interpretability
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - LLM
 - AI Safety

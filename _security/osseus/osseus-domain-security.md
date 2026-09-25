@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Research Intelligence
-- Knowledge-Management
+- Knowledge Management
 - AI Agents
 - R&D
 - Security

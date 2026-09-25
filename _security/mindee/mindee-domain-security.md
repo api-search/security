@@ -89,9 +89,9 @@ tags:
 - OCR
 - IDP
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Invoices
 - Receipts
 - IDS
-- Computer-Vision
+- Computer Vision
 ---

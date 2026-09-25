@@ -32,7 +32,7 @@ tags:
 - Automation
 - Healthcare
 - Insurance
-- Financial-Services
+- Financial Services
 - Agents
 trust_url: https://trust.ushur.ai/
 ---

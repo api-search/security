@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: google-analytics-accounts-api-openapi.yml
   format: yaml
-  label: Google Analytics accounts API
+  label: Google Analytics Accounts API
   slug: google-analytics-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accounts-api-openapi.yml
 - filename: google-analytics-accountsummaries-api-openapi.yml
   format: yaml
-  label: Google Analytics accountSummaries API
+  label: Google Analytics Account Summaries API
   slug: google-analytics-accountsummaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accountsummaries-api-openapi.yml
 - filename: google-analytics-data-api-openapi.yml
   format: yaml
-  label: Google Analytics data API
+  label: Google Analytics Data API
   slug: google-analytics-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-data-api-openapi.yml
@@ -28,37 +28,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-events-api-openapi.yml
 - filename: google-analytics-management-api-openapi.yml
   format: yaml
-  label: Google Analytics management API
+  label: Google Analytics Management API
   slug: google-analytics-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-management-api-openapi.yml
 - filename: google-analytics-metadata-api-openapi.yml
   format: yaml
-  label: Google Analytics metadata API
+  label: Google Analytics Metadata API
   slug: google-analytics-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-metadata-api-openapi.yml
 - filename: google-analytics-properties-api-openapi.yml
   format: yaml
-  label: Google Analytics properties API
+  label: Google Analytics Properties API
   slug: google-analytics-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-properties-api-openapi.yml
 - filename: google-analytics-provisioning-api-openapi.yml
   format: yaml
-  label: Google Analytics provisioning API
+  label: Google Analytics Provisioning API
   slug: google-analytics-provisioning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-provisioning-api-openapi.yml
 - filename: google-analytics-reports-api-openapi.yml
   format: yaml
-  label: Google Analytics reports API
+  label: Google Analytics Reports API
   slug: google-analytics-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reports-api-openapi.yml
 - filename: google-analytics-userdeletion-api-openapi.yml
   format: yaml
-  label: Google Analytics userDeletion API
+  label: Google Analytics User Deletion API
   slug: google-analytics-userdeletion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-userdeletion-api-openapi.yml
@@ -74,6 +74,24 @@ api_specs:
   slug: google-analytics-user-activity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-activity-api-openapi.yml
+- filename: google-analytics-4-accounts-api-openapi.yml
+  format: yaml
+  label: Google Analytics 4 Accounts API
+  slug: google-analytics-4-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-4-accounts-api-openapi.yml
+- filename: google-analytics-4-accountsummaries-api-openapi.yml
+  format: yaml
+  label: Google Analytics 4 Account Summaries API
+  slug: google-analytics-4-accountsummaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-4-accountsummaries-api-openapi.yml
+- filename: google-analytics-4-properties-api-openapi.yml
+  format: yaml
+  label: Google Analytics 4 Properties API
+  slug: google-analytics-4-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-4-properties-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -163,6 +181,6 @@ tags:
 - Metrics
 - Reporting
 - Web Analytics
-- Machine-Learning
+- Machine Learning
 - Attribution
 ---

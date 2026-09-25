@@ -139,4 +139,6 @@ tags:
 - Retail
 - Retail Media
 - Sponsored Products
+- A2A
+- AdTech
 ---

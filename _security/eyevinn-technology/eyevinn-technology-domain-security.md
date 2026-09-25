@@ -56,7 +56,7 @@ tags:
 - HLS
 - Live Streaming
 - Media Over QUIC
-- Open-Source
+- Open Source
 - Open Source Cloud
 - OSC
 - Player Analytics

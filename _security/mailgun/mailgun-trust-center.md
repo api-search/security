@@ -68,7 +68,7 @@ tags:
 - Email
 - Transactional Email
 - SMTP
-- Email Validation
+- Email Verification
 - Email Delivery
 - Messaging
 trust_url: https://trust.sinch.com:443/?product=mailgun

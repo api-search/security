@@ -43,7 +43,7 @@ tags:
 - Broadcast Graphics
 - Sports Analytics
 - Performance Analytics
-- Computer-Vision
+- Computer Vision
 - SkeleTRACK
 - Tennis
 - Football

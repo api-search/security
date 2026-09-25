@@ -84,7 +84,7 @@ tags:
 - MFA
 - Step-Up
 - Passwordless
-- Risk
+- Risk Management
 - Biometrics
 - Identity Verification
 ---

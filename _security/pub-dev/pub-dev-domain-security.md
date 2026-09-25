@@ -36,5 +36,5 @@ tags:
 - Flutter
 - Package Registry
 - Package Management
-- Open-Source
+- Open Source
 ---

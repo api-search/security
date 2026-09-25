@@ -19,5 +19,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigris/refs/he
 summary_line: SOC 2
 tags:
 - Company
+- A2A
 trust_url: https://trust.tigrisdata.com/
 ---

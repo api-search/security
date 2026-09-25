@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/openapi/xfers-convenience-store-transfers-api-openapi.yml
 - filename: xfers-cutting-edge-api-openapi.yml
   format: yaml
-  label: Xfers cutting_edge API
+  label: Xfers Cutting Edge API
   slug: xfers-cutting-edge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xfers/refs/heads/main/openapi/xfers-cutting-edge-api-openapi.yml

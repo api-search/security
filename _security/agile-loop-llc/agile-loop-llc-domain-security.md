@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Agile Loop Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Agile Loop L.L.C., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Agile Loop L.L.C.
+overview: 'Domain security posture for Agile Loop, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Agile Loop
 provider_slug: agile-loop-llc
 slug: agile-loop-llc-domain-security
 source_filename: agile-loop-llc-domain-security.yml

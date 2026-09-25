@@ -160,8 +160,7 @@ tags:
 - Multi-Agent Systems
 - Python Framework
 - LLM
-- Machine-Learning
-- Agentic AI
-- Open-Source
+- Machine Learning
+- Open Source
 - Agent Runtime
 ---

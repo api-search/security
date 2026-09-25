@@ -44,14 +44,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - twitter
 - X
-- Social-Media
+- Social Media
 - Social Data
 - Search
 - Analytics
 - Research
 - Developer Tools
 - MCP
-- agent-native
+- Agent-Native
 - llms-txt
 - REST API
 ---

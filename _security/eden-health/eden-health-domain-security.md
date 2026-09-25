@@ -14,247 +14,247 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-addons-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-app-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.app API
+  label: Eden Health Grdn.routes.impl.app API
   slug: eden-health-grdn-routes-impl-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-app-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-appointments-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.appointments API
+  label: Eden Health Grdn.routes.impl.appointments API
   slug: eden-health-grdn-routes-impl-appointments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-appointments-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-assignment-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.assignment API
+  label: Eden Health Grdn.routes.impl.assignment API
   slug: eden-health-grdn-routes-impl-assignment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-assignment-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-athena-providers-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.athena-providers API
+  label: Eden Health Grdn.routes.impl.athena Providers API
   slug: eden-health-grdn-routes-impl-athena-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-athena-providers-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-auth-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.auth API
+  label: Eden Health Grdn.routes.impl.auth API
   slug: eden-health-grdn-routes-impl-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-auth-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-bookable-entities-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.bookable-entities API
+  label: Eden Health Grdn.routes.impl.bookable Entities API
   slug: eden-health-grdn-routes-impl-bookable-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-bookable-entities-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-brad-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.brad API
+  label: Eden Health Grdn.routes.impl.brad API
   slug: eden-health-grdn-routes-impl-brad-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-brad-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-bug-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.bug API
+  label: Eden Health Grdn.routes.impl.bug API
   slug: eden-health-grdn-routes-impl-bug-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-bug-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-care-pods-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.care-pods API
+  label: Eden Health Grdn.routes.impl.care Pods API
   slug: eden-health-grdn-routes-impl-care-pods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-care-pods-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-careteam-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.careteam API
+  label: Eden Health Grdn.routes.impl.careteam API
   slug: eden-health-grdn-routes-impl-careteam-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-careteam-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-channel-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.channel API
+  label: Eden Health Grdn.routes.impl.channel API
   slug: eden-health-grdn-routes-impl-channel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-channel-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-chat-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.chat API
+  label: Eden Health Grdn.routes.impl.chat API
   slug: eden-health-grdn-routes-impl-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-chat-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-configuration-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.configuration API
+  label: Eden Health Grdn.routes.impl.configuration API
   slug: eden-health-grdn-routes-impl-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-configuration-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-consent-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.consent API
+  label: Eden Health Grdn.routes.impl.consent API
   slug: eden-health-grdn-routes-impl-consent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-consent-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-demographics-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.demographics API
+  label: Eden Health Grdn.routes.impl.demographics API
   slug: eden-health-grdn-routes-impl-demographics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-demographics-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-document-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.document API
+  label: Eden Health Grdn.routes.impl.document API
   slug: eden-health-grdn-routes-impl-document-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-document-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-eligibility-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.eligibility API
+  label: Eden Health Grdn.routes.impl.eligibility API
   slug: eden-health-grdn-routes-impl-eligibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-eligibility-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-event-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.event API
+  label: Eden Health Grdn.routes.impl.event API
   slug: eden-health-grdn-routes-impl-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-event-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-feedback-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.feedback API
+  label: Eden Health Grdn.routes.impl.feedback API
   slug: eden-health-grdn-routes-impl-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-feedback-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-images-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.images API
+  label: Eden Health Grdn.routes.impl.images API
   slug: eden-health-grdn-routes-impl-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-images-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-insurance-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.insurance API
+  label: Eden Health Grdn.routes.impl.insurance API
   slug: eden-health-grdn-routes-impl-insurance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-insurance-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-macros-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.macros API
+  label: Eden Health Grdn.routes.impl.macros API
   slug: eden-health-grdn-routes-impl-macros-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-macros-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-member-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.member API
+  label: Eden Health Grdn.routes.impl.member API
   slug: eden-health-grdn-routes-impl-member-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-member-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-membership-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.membership API
+  label: Eden Health Grdn.routes.impl.membership API
   slug: eden-health-grdn-routes-impl-membership-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-membership-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-next-step-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.next-step API
+  label: Eden Health Grdn.routes.impl.next Step API
   slug: eden-health-grdn-routes-impl-next-step-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-next-step-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-patients-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.patients API
+  label: Eden Health Grdn.routes.impl.patients API
   slug: eden-health-grdn-routes-impl-patients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-patients-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-pediatric-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.pediatric API
+  label: Eden Health Grdn.routes.impl.pediatric API
   slug: eden-health-grdn-routes-impl-pediatric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-pediatric-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-popup-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.popup API
+  label: Eden Health Grdn.routes.impl.popup API
   slug: eden-health-grdn-routes-impl-popup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-popup-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-provider-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.provider API
+  label: Eden Health Grdn.routes.impl.provider API
   slug: eden-health-grdn-routes-impl-provider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-provider-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-provider-groups-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.provider-groups API
+  label: Eden Health Grdn.routes.impl.provider Groups API
   slug: eden-health-grdn-routes-impl-provider-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-provider-groups-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-screener-response-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.screener-response API
+  label: Eden Health Grdn.routes.impl.screener Response API
   slug: eden-health-grdn-routes-impl-screener-response-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-screener-response-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-screeners-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.screeners API
+  label: Eden Health Grdn.routes.impl.screeners API
   slug: eden-health-grdn-routes-impl-screeners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-screeners-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-sendbird-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.sendbird API
+  label: Eden Health Grdn.routes.impl.sendbird API
   slug: eden-health-grdn-routes-impl-sendbird-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-sendbird-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-sponsor-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.sponsor API
+  label: Eden Health Grdn.routes.impl.sponsor API
   slug: eden-health-grdn-routes-impl-sponsor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-sponsor-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-sponsor-user-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.sponsor-user API
+  label: Eden Health Grdn.routes.impl.sponsor User API
   slug: eden-health-grdn-routes-impl-sponsor-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-sponsor-user-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-ticklers-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.ticklers API
+  label: Eden Health Grdn.routes.impl.ticklers API
   slug: eden-health-grdn-routes-impl-ticklers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-ticklers-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-tools-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.tools API
+  label: Eden Health Grdn.routes.impl.tools API
   slug: eden-health-grdn-routes-impl-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-tools-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-validation-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.validation API
+  label: Eden Health Grdn.routes.impl.validation API
   slug: eden-health-grdn-routes-impl-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-validation-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-video-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.video API
+  label: Eden Health Grdn.routes.impl.video API
   slug: eden-health-grdn-routes-impl-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-video-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-video-visit-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.video-visit API
+  label: Eden Health Grdn.routes.impl.video Visit API
   slug: eden-health-grdn-routes-impl-video-visit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-video-visit-api-openapi.yml
 - filename: eden-health-grdn-routes-impl-visitor-api-openapi.yml
   format: yaml
-  label: Eden Health grdn.routes.impl.visitor API
+  label: Eden Health Grdn.routes.impl.visitor API
   slug: eden-health-grdn-routes-impl-visitor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/openapi/eden-health-grdn-routes-impl-visitor-api-openapi.yml

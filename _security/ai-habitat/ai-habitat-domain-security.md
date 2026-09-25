@@ -46,9 +46,9 @@ tags:
 - Simulation
 - Embodied AI
 - Robotics
-- Computer-Vision
+- Computer Vision
 - Reinforcement Learning
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Research
 ---

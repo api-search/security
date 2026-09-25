@@ -117,7 +117,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Embeddings
-- Image-Generation
+- Image Generation
 - Language Models
 - Speech
 ---

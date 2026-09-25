@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Compliance
-- Regulatory Technology
+- RegTech
 - Product Compliance
 - Retail
 - Artificial Intelligence

@@ -5,79 +5,79 @@ api_key_in:
 api_specs:
 - filename: resourcly-analytics-api-openapi.yml
   format: yaml
-  label: Resourcly analytics API
+  label: Resourcly Analytics API
   slug: resourcly-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-analytics-api-openapi.yml
 - filename: resourcly-auth-api-openapi.yml
   format: yaml
-  label: Resourcly auth API
+  label: Resourcly Auth API
   slug: resourcly-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-auth-api-openapi.yml
 - filename: resourcly-bom-comparisons-api-openapi.yml
   format: yaml
-  label: Resourcly bom-comparisons API
+  label: Resourcly Bom Comparisons API
   slug: resourcly-bom-comparisons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-bom-comparisons-api-openapi.yml
 - filename: resourcly-boms-api-openapi.yml
   format: yaml
-  label: Resourcly boms API
+  label: Resourcly Boms API
   slug: resourcly-boms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-boms-api-openapi.yml
 - filename: resourcly-business-api-openapi.yml
   format: yaml
-  label: Resourcly business API
+  label: Resourcly Business API
   slug: resourcly-business-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-business-api-openapi.yml
 - filename: resourcly-documents-api-openapi.yml
   format: yaml
-  label: Resourcly documents API
+  label: Resourcly Documents API
   slug: resourcly-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-documents-api-openapi.yml
 - filename: resourcly-drive-api-openapi.yml
   format: yaml
-  label: Resourcly drive API
+  label: Resourcly Drive API
   slug: resourcly-drive-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-drive-api-openapi.yml
 - filename: resourcly-duplicates-api-openapi.yml
   format: yaml
-  label: Resourcly duplicates API
+  label: Resourcly Duplicates API
   slug: resourcly-duplicates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-duplicates-api-openapi.yml
 - filename: resourcly-email-api-openapi.yml
   format: yaml
-  label: Resourcly email API
+  label: Resourcly Email API
   slug: resourcly-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-email-api-openapi.yml
 - filename: resourcly-feedback-api-openapi.yml
   format: yaml
-  label: Resourcly feedback API
+  label: Resourcly Feedback API
   slug: resourcly-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-feedback-api-openapi.yml
 - filename: resourcly-health-api-openapi.yml
   format: yaml
-  label: Resourcly health API
+  label: Resourcly Health API
   slug: resourcly-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-health-api-openapi.yml
 - filename: resourcly-imports-api-openapi.yml
   format: yaml
-  label: Resourcly imports API
+  label: Resourcly Imports API
   slug: resourcly-imports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-imports-api-openapi.yml
 - filename: resourcly-inventory-api-openapi.yml
   format: yaml
-  label: Resourcly inventory API
+  label: Resourcly Inventory API
   slug: resourcly-inventory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-inventory-api-openapi.yml
@@ -89,43 +89,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-items-api-openapi.yml
 - filename: resourcly-release-notes-api-openapi.yml
   format: yaml
-  label: Resourcly release-notes API
+  label: Resourcly Release Notes API
   slug: resourcly-release-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-release-notes-api-openapi.yml
 - filename: resourcly-search-api-openapi.yml
   format: yaml
-  label: Resourcly search API
+  label: Resourcly Search API
   slug: resourcly-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-search-api-openapi.yml
 - filename: resourcly-storage-api-openapi.yml
   format: yaml
-  label: Resourcly storage API
+  label: Resourcly Storage API
   slug: resourcly-storage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-storage-api-openapi.yml
 - filename: resourcly-supplier-data-requests-api-openapi.yml
   format: yaml
-  label: Resourcly supplier-data-requests API
+  label: Resourcly Supplier Data Requests API
   slug: resourcly-supplier-data-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-supplier-data-requests-api-openapi.yml
 - filename: resourcly-supplier-portal-api-openapi.yml
   format: yaml
-  label: Resourcly supplier-portal API
+  label: Resourcly Supplier Portal API
   slug: resourcly-supplier-portal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-supplier-portal-api-openapi.yml
 - filename: resourcly-suppliers-api-openapi.yml
   format: yaml
-  label: Resourcly suppliers API
+  label: Resourcly Suppliers API
   slug: resourcly-suppliers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-suppliers-api-openapi.yml
 - filename: resourcly-upload-api-openapi.yml
   format: yaml
-  label: Resourcly upload API
+  label: Resourcly Upload API
   slug: resourcly-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-upload-api-openapi.yml

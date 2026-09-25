@@ -11,13 +11,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-discovery-api-openapi.yml
 - filename: layerzero-messages-api-openapi.yml
   format: yaml
-  label: LayerZero messages API
+  label: LayerZero Messages API
   slug: layerzero-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-messages-api-openapi.yml
 - filename: layerzero-ofts-api-openapi.yml
   format: yaml
-  label: LayerZero ofts API
+  label: LayerZero Ofts API
   slug: layerzero-ofts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/openapi/layerzero-ofts-api-openapi.yml

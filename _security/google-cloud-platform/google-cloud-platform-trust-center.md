@@ -77,5 +77,6 @@ tags:
 - Cloud Computing
 - Infrastructure
 - Platform-as-a-Service
+- A2A
 trust_url: https://cloud.google.com/security/compliance
 ---

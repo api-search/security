@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: llamaparse-extract-api-openapi.yml
-  format: yaml
-  label: LlamaParse Extract API
-  slug: llamaparse-extract-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-extract-api-openapi.yml
-- filename: llamaparse-classify-api-openapi.yml
-  format: yaml
-  label: LlamaParse Classify API
-  slug: llamaparse-classify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-classify-api-openapi.yml
 - filename: llamaparse-agent-data-api-openapi.yml
   format: yaml
   label: LlamaParse Agent Data API

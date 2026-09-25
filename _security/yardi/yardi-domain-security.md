@@ -84,7 +84,7 @@ tags:
 - Multifamily
 - Property Management
 - PropTech
-- Real-Estate
+- Real Estate
 - Residential
 - Self Storage
 - Senior Living

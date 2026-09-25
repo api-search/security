@@ -44,7 +44,7 @@ tags:
 - Advisory
 - Professional Services
 - Big Four
-- Risk
+- Risk Management
 - Deals
 - Technology
 - Artificial Intelligence

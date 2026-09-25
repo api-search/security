@@ -12,8 +12,8 @@ method: searched
 name: Joyspace Technologies Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: JoySpace Technologies, Inc. secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: JoySpace Technologies, Inc.
+overview: JoySpace Technologies secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: JoySpace Technologies
 provider_slug: joyspace-technologies-inc
 scheme_count: 1
 schemes:

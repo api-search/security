@@ -34,12 +34,12 @@ tags:
 - Company
 - Construction
 - Construction Management
-- Real-Estate
+- Real Estate
 - Multifamily
 - Prefabrication
 - Modular Construction
 - Mass Timber
-- Property Technology
+- PropTech
 - Owner's Representation
 - Sustainability
 - Professional Services

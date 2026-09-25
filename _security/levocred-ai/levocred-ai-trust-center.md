@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Private Credit
 - Lending
 - Credit Risk

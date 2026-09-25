@@ -46,5 +46,5 @@ tags:
 - Group Benefits
 - Voluntary Benefits
 - Brokers
-- Financial-Services
+- Financial Services
 ---

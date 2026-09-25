@@ -27,14 +27,14 @@ summary_line: 0 schemes
 tags:
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Customer Service
 - Contact Center
 - Voice
 - Chatbots
-- Knowledge-Management
+- Knowledge Management
 - RegTech
 ---

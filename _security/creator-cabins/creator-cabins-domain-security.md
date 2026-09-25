@@ -36,5 +36,5 @@ tags:
 - Community
 - DAO
 - Network City
-- Real-Estate
+- Real Estate
 ---

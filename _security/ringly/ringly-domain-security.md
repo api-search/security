@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Voice
-- Customer-Support
+- Customer Support
 - E-Commerce
 - Shopify
 - Phone Support

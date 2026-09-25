@@ -35,7 +35,7 @@ tags:
 - AgTech
 - Agriculture
 - Fintech
-- Financial-Services
+- Financial Services
 - Insurance
 - Lending
 - Africa

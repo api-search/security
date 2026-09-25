@@ -91,7 +91,7 @@ tags:
 - Hotels
 - Metasearch
 - Booking
-- agent-native
+- Agent-Native
 - Tourism
 - Search
 ---

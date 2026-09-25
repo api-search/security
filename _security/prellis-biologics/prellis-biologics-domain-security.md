@@ -37,7 +37,7 @@ tags:
 - Antibody Discovery
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Bioprinting
 - Therapeutics
 - Research

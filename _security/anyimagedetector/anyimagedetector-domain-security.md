@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - AI image detection
 - Image Analysis
-- Computer-Vision
+- Computer Vision
 - Content Moderation
 - Trust and Safety
 - Fact Checking

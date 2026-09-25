@@ -52,13 +52,13 @@ tags:
 - Postman
 - MCP
 - llms-txt
-- agent-native
+- Agent-Native
 - APIKeys
 - IP Geolocation
 - DNS
 - WHOIS
 - SSL
-- Email Validation
+- Email Verification
 - Phone Validation
 - Exchange Rates
 - metals prices

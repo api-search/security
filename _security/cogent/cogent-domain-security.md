@@ -36,7 +36,7 @@ tags:
 - Vulnerability Management
 - CTEM
 - Exposure Management
-- Agentic AI
+- AI Agents
 - Cybersecurity
 - Remediation
 ---

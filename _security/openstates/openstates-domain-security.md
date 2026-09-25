@@ -2,25 +2,25 @@
 api_specs:
 - filename: openstates-bills-api-openapi.yml
   format: yaml
-  label: Open States bills API
+  label: Open States Bills API
   slug: openstates-bills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-bills-api-openapi.yml
 - filename: openstates-committees-api-openapi.yml
   format: yaml
-  label: Open States committees API
+  label: Open States Committees API
   slug: openstates-committees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-committees-api-openapi.yml
 - filename: openstates-events-api-openapi.yml
   format: yaml
-  label: Open States events API
+  label: Open States Events API
   slug: openstates-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-events-api-openapi.yml
 - filename: openstates-jurisdictions-api-openapi.yml
   format: yaml
-  label: Open States jurisdictions API
+  label: Open States Jurisdictions API
   slug: openstates-jurisdictions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-jurisdictions-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-metrics-api-openapi.yml
 - filename: openstates-people-api-openapi.yml
   format: yaml
-  label: Open States people API
+  label: Open States People API
   slug: openstates-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-people-api-openapi.yml

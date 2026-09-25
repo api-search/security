@@ -33,7 +33,7 @@ tags:
 - Ratings
 - Underwriting
 - Banking
-- Financial-Services
+- Financial Services
 - Decisioning
 - Artificial Intelligence
 trust_url: https://earnix.com/why-earnix/how-we-do-it/trust-center/

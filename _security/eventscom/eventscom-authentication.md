@@ -714,6 +714,6 @@ tags:
 - Business Intelligence
 - Artificial Intelligence
 - MCP
-- agent-native
+- Agent-Native
 - No-Code
 ---

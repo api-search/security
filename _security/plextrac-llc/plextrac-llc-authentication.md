@@ -11,8 +11,8 @@ method: searched
 name: Plextrac Llc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: PlexTrac, LLC secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: PlexTrac, LLC
+overview: PlexTrac secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: PlexTrac
 provider_slug: plextrac-llc
 scheme_count: 1
 schemes:

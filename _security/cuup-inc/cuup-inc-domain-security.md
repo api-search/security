@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Cuup Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CUUP, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: CUUP, Inc.
+overview: 'Domain security posture for CUUP, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: CUUP
 provider_slug: cuup-inc
 slug: cuup-inc-domain-security
 source_filename: cuup-inc-domain-security.yml

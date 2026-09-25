@@ -33,9 +33,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Fintech
-- Machine-Learning
+- Machine Learning
 - Synthetic Data
 - Credit Scoring
-- Financial-Services
-- Risk
+- Financial Services
+- Risk Management
 ---

@@ -37,5 +37,5 @@ tags:
 - Material Handling
 - Manufacturing
 - Fulfillment
-- Open-Source
+- Open Source
 ---

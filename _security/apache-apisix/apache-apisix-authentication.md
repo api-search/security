@@ -141,6 +141,6 @@ tags:
 - Kubernetes
 - Lua
 - NGINX
-- Open-Source
+- Open Source
 - Traffic Management
 ---

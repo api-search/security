@@ -806,8 +806,8 @@ method: searched
 name: Elk Stack Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Elastic Stack (ELK Stack) secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Elastic Stack (ELK Stack)
+overview: Elastic Stack secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Elastic Stack
 provider_slug: elk-stack
 scheme_count: 2
 schemes:
@@ -858,5 +858,5 @@ tags:
 - Security
 - Vector Database
 - SIEM
-- Machine-Learning
+- Machine Learning
 ---

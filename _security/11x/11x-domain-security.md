@@ -52,4 +52,5 @@ tags:
 - Voice
 - CRM
 - Go-To-Market
+- A2A
 ---

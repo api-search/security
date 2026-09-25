@@ -2,13 +2,13 @@
 api_specs:
 - filename: listrak-app-push-mobile-client-device-api-openapi.yml
   format: yaml
-  label: Listrak app-push-mobile-client-device API
+  label: Listrak App Push Mobile Client Device API
   slug: listrak-app-push-mobile-client-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-app-push-mobile-client-device-api-openapi.yml
 - filename: listrak-app-push-mobile-client-engagements-api-openapi.yml
   format: yaml
-  label: Listrak app-push-mobile-client-engagements API
+  label: Listrak App Push Mobile Client Engagements API
   slug: listrak-app-push-mobile-client-engagements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-app-push-mobile-client-engagements-api-openapi.yml

@@ -2,79 +2,79 @@
 api_specs:
 - filename: zocdoc-appointments-api-openapi.yml
   format: yaml
-  label: Zocdoc appointments API
+  label: Zocdoc Appointments API
   slug: zocdoc-appointments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-appointments-api-openapi.yml
 - filename: zocdoc-calendar-integration-timeslots-api-openapi.yml
   format: yaml
-  label: Zocdoc calendar-integration-timeslots API
+  label: Zocdoc Calendar Integration Timeslots API
   slug: zocdoc-calendar-integration-timeslots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml
 - filename: zocdoc-credentials-api-openapi.yml
   format: yaml
-  label: Zocdoc credentials API
+  label: Zocdoc Credentials API
   slug: zocdoc-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-credentials-api-openapi.yml
 - filename: zocdoc-facilities-api-openapi.yml
   format: yaml
-  label: Zocdoc facilities API
+  label: Zocdoc Facilities API
   slug: zocdoc-facilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-facilities-api-openapi.yml
 - filename: zocdoc-insurance-reference-api-openapi.yml
   format: yaml
-  label: Zocdoc insurance-reference API
+  label: Zocdoc Insurance Reference API
   slug: zocdoc-insurance-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-insurance-reference-api-openapi.yml
 - filename: zocdoc-provider-locations-api-openapi.yml
   format: yaml
-  label: Zocdoc provider-locations API
+  label: Zocdoc Provider Locations API
   slug: zocdoc-provider-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-provider-locations-api-openapi.yml
 - filename: zocdoc-providers-api-openapi.yml
   format: yaml
-  label: Zocdoc providers API
+  label: Zocdoc Providers API
   slug: zocdoc-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-providers-api-openapi.yml
 - filename: zocdoc-reference-api-openapi.yml
   format: yaml
-  label: Zocdoc reference API
+  label: Zocdoc Reference API
   slug: zocdoc-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reference-api-openapi.yml
 - filename: zocdoc-schedulable-entities-api-openapi.yml
   format: yaml
-  label: Zocdoc schedulable-entities API
+  label: Zocdoc Schedulable Entities API
   slug: zocdoc-schedulable-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-schedulable-entities-api-openapi.yml
 - filename: zocdoc-webhook-api-openapi.yml
   format: yaml
-  label: Zocdoc webhook API
+  label: Zocdoc Webhook API
   slug: zocdoc-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-webhook-api-openapi.yml
 - filename: zocdoc-reviews-api-openapi.yml
   format: yaml
-  label: Zocdoc reviews API
+  label: Zocdoc Reviews API
   slug: zocdoc-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reviews-api-openapi.yml
 - filename: zocdoc-specialties-api-openapi.yml
   format: yaml
-  label: Zocdoc specialties API
+  label: Zocdoc Specialties API
   slug: zocdoc-specialties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-specialties-api-openapi.yml
 - filename: zocdoc-visit-reasons-api-openapi.yml
   format: yaml
-  label: Zocdoc visit-reasons API
+  label: Zocdoc Visit Reasons API
   slug: zocdoc-visit-reasons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-visit-reasons-api-openapi.yml

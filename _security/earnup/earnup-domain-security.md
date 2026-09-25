@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Debt Repayment
 - Personal Finance
 - Payments

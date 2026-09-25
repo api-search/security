@@ -236,8 +236,9 @@ tags:
 - Blockchain
 - AML
 - Compliance
-- Financial-Services
+- Financial Services
 - Analytics
 - Prediction Markets
 - MCP
+- Real-Time
 ---

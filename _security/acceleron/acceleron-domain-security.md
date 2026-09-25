@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acceleron/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Biopharmaceutical
 - Pharmaceuticals
 - Life Sciences

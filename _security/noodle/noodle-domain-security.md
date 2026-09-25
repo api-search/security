@@ -38,5 +38,5 @@ tags:
 - Creator Economy
 - Brazil
 - Foreign Exchange
-- Financial-Services
+- Financial Services
 ---

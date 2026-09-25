@@ -34,7 +34,7 @@ tags:
 - Software-as-a-Service
 - CMS
 - Content Management
-- Open-Source
+- Open Source
 - ASP.NET
 - .NET
 - Web Framework

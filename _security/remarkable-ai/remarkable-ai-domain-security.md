@@ -79,6 +79,6 @@ tags:
 - Personalization
 - E-Commerce
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - Marketing
 ---

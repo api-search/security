@@ -5,31 +5,31 @@ api_key_in:
 api_specs:
 - filename: sarvam-chat-api-openapi.yml
   format: yaml
-  label: Sarvam chat API
+  label: Sarvam Chat API
   slug: sarvam-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-chat-api-openapi.yml
 - filename: sarvam-pronunciationdictionary-api-openapi.yml
   format: yaml
-  label: Sarvam pronunciationDictionary API
+  label: Sarvam Pronunciation Dictionary API
   slug: sarvam-pronunciationdictionary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-pronunciationdictionary-api-openapi.yml
 - filename: sarvam-speechtotextjob-api-openapi.yml
   format: yaml
-  label: Sarvam speechToTextJob API
+  label: Sarvam Speech To Text Job API
   slug: sarvam-speechtotextjob-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speechtotextjob-api-openapi.yml
 - filename: sarvam-speechtotexttranslatejob-api-openapi.yml
   format: yaml
-  label: Sarvam speechToTextTranslateJob API
+  label: Sarvam Speech To Text Translate Job API
   slug: sarvam-speechtotexttranslatejob-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speechtotexttranslatejob-api-openapi.yml
 - filename: sarvam-text-api-openapi.yml
   format: yaml
-  label: Sarvam text API
+  label: Sarvam Text API
   slug: sarvam-text-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-text-api-openapi.yml
@@ -89,7 +89,7 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Speech-to-Text
 - Text-to-Speech
 - Translation
@@ -97,4 +97,5 @@ tags:
 - Document Intelligence
 - Indian Languages
 - Voice
+- Real-Time
 ---

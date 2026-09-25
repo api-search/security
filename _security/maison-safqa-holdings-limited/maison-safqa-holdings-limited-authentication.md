@@ -25,8 +25,8 @@ method: derived
 name: Maison Safqa Holdings Limited Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Maison Safqa Holdings Limited secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Maison Safqa Holdings Limited
+overview: Maison Safqa secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Maison Safqa
 provider_slug: maison-safqa-holdings-limited
 scheme_count: 1
 schemes:

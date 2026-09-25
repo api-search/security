@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - MLS
 - Listings
 - Property Data

@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - GPU

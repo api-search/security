@@ -14,8 +14,8 @@ method: searched
 name: Co Legal Be Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Co-Legal B.V. secures its APIs with none, apiKey, and http across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Co-Legal B.V.
+overview: Co-Legal secures its APIs with none, apiKey, and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Co-Legal
 provider_slug: co-legal-be
 scheme_count: 3
 schemes:
@@ -81,7 +81,7 @@ tags:
 - European Union
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Artificial Intelligence
 - Legal Tech
 ---

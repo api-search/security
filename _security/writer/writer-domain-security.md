@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-kg-api-api-openapi.yml
 - filename: writer-template-api-openapi.yml
   format: yaml
-  label: Writer template API
+  label: Writer Template API
   slug: writer-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-template-api-openapi.yml

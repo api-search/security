@@ -27,6 +27,6 @@ tags:
 - Telehealth
 - Nutrition
 - Consumer Health
-- Mobile Applications
+- Mobile App
 trust_url: https://trust.noom.com/
 ---

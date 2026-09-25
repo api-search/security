@@ -351,7 +351,7 @@ tags:
 - Payments
 - Card Processing
 - Acquiring
-- Financial-Services
+- Financial Services
 - Tokenization
 - 3D Secure
 - Disputes

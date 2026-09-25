@@ -160,4 +160,5 @@ tags:
 - Activity Tracking
 - Sensors
 - Bluetooth
+- Wellness
 ---

@@ -25,7 +25,7 @@ summary_line: SOC 2 Type 2, SOC 2 Type 1, CSA STAR, GDPR, CCPA, CPRA
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Growth Financing
 - Venture Debt
 - Artificial Intelligence

@@ -105,7 +105,7 @@ tags:
 - Metrics
 - OpenTelemetry
 - ClickHouse
-- Open-Source
+- Open Source
 - Alerting
 - Dashboards
 - Session Replay

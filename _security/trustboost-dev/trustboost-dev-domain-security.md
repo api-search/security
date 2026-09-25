@@ -48,5 +48,5 @@ tags:
 - Agentic Commerce
 - Solana
 - Compliance
-- agent-native
+- Agent-Native
 ---

@@ -64,4 +64,5 @@ tags:
 - Expenses
 - Reimbursement
 - Spending
+- Accounting
 ---

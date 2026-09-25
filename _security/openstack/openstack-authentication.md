@@ -120,7 +120,7 @@ tags:
 - OpenStack
 - Cloud Platform
 - Infrastructure-as-a-Service
-- Open-Source
+- Open Source
 - Virtualization
 - Linux Foundation
 ---

@@ -21,7 +21,7 @@ tags:
 - Annuities
 - Benefits
 - Employee Benefits
-- Financial-Services
+- Financial Services
 - Insurance
 - Life Insurance
 - Stop Loss

@@ -37,7 +37,7 @@ tags:
 - Healthcare Analytics
 - Health Data
 - Generative AI
-- Agentic AI
+- AI Agents
 - Clinical Decision Support
 - Life Sciences
 - Health Systems

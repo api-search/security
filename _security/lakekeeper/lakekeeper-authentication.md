@@ -138,7 +138,7 @@ tags:
 - Apache Iceberg
 - Data Catalog
 - Lakehouse
-- Open-Source
+- Open Source
 - Rust
 - Data Governance
 - Access Control

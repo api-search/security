@@ -11,49 +11,49 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-default-api-openapi.yml
 - filename: hume-ai-subpackage-batch-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_batch API
+  label: Hume AI Subpackage Batch API
   slug: hume-ai-subpackage-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-batch-api-openapi.yml
 - filename: hume-ai-subpackage-chatgroups-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_chatGroups API
+  label: Hume AI Subpackage Chat Groups API
   slug: hume-ai-subpackage-chatgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chatgroups-api-openapi.yml
 - filename: hume-ai-subpackage-chats-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_chats API
+  label: Hume AI Subpackage Chats API
   slug: hume-ai-subpackage-chats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chats-api-openapi.yml
 - filename: hume-ai-subpackage-configs-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_configs API
+  label: Hume AI Subpackage Configs API
   slug: hume-ai-subpackage-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-configs-api-openapi.yml
 - filename: hume-ai-subpackage-controlplane-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_controlPlane API
+  label: Hume AI Subpackage Control Plane API
   slug: hume-ai-subpackage-controlplane-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-controlplane-api-openapi.yml
 - filename: hume-ai-subpackage-prompts-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_prompts API
+  label: Hume AI Subpackage Prompts API
   slug: hume-ai-subpackage-prompts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-prompts-api-openapi.yml
 - filename: hume-ai-subpackage-tools-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_tools API
+  label: Hume AI Subpackage Tools API
   slug: hume-ai-subpackage-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-tools-api-openapi.yml
 - filename: hume-ai-subpackage-voices-api-openapi.yml
   format: yaml
-  label: Hume AI subpackage_voices API
+  label: Hume AI Subpackage Voices API
   slug: hume-ai-subpackage-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-voices-api-openapi.yml
@@ -100,4 +100,6 @@ tags:
 - Empathic
 - Emotion
 - Multi-Modal
+- Conversational AI
+- Real-Time
 ---

@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Financial Data
 - Speech-to-Text
 - Transcription

@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-funnels-api-openapi.yml
 - filename: smartlook-mappingfiles-api-openapi.yml
   format: yaml
-  label: Smartlook mappingFiles API
+  label: Smartlook Mapping Files API
   slug: smartlook-mappingfiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-mappingfiles-api-openapi.yml

@@ -168,7 +168,7 @@ tags:
 - Technical SEO
 - SEO auditing
 - Developer Tools
-- agent-native
+- Agent-Native
 - MCP
 - x402
 ---

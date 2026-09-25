@@ -52,8 +52,8 @@ layout: security
 method: probed
 name: Acutus Medical Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Acutus Medical, Inc., probed live across 4 host(s) and 2 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Acutus Medical, Inc.
+overview: 'Domain security posture for Acutus Medical, probed live across 4 host(s) and 2 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Acutus Medical
 provider_slug: acutus-medical
 slug: acutus-medical-domain-security
 source_filename: acutus-medical-domain-security.yml

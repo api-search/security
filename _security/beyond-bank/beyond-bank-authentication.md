@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.bey
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/authentication/beyond-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

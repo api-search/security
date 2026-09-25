@@ -5,61 +5,61 @@ api_key_in:
 api_specs:
 - filename: atomicwork-assets-api-openapi.yml
   format: yaml
-  label: Atomicwork assets API
+  label: Atomicwork Assets API
   slug: atomicwork-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-assets-api-openapi.yml
 - filename: atomicwork-businesshourconfig-api-openapi.yml
   format: yaml
-  label: Atomicwork businessHourConfig API
+  label: Atomicwork Business Hour Config API
   slug: atomicwork-businesshourconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-businesshourconfig-api-openapi.yml
 - filename: atomicwork-entities-api-openapi.yml
   format: yaml
-  label: Atomicwork entities API
+  label: Atomicwork Entities API
   slug: atomicwork-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-entities-api-openapi.yml
 - filename: atomicwork-forms-api-openapi.yml
   format: yaml
-  label: Atomicwork forms API
+  label: Atomicwork Forms API
   slug: atomicwork-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-forms-api-openapi.yml
 - filename: atomicwork-problems-api-openapi.yml
   format: yaml
-  label: Atomicwork problems API
+  label: Atomicwork Problems API
   slug: atomicwork-problems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-problems-api-openapi.yml
 - filename: atomicwork-requests-api-openapi.yml
   format: yaml
-  label: Atomicwork requests API
+  label: Atomicwork Requests API
   slug: atomicwork-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-requests-api-openapi.yml
 - filename: atomicwork-tags-api-openapi.yml
   format: yaml
-  label: Atomicwork tags API
+  label: Atomicwork Tags API
   slug: atomicwork-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-tags-api-openapi.yml
 - filename: atomicwork-users-api-openapi.yml
   format: yaml
-  label: Atomicwork users API
+  label: Atomicwork Users API
   slug: atomicwork-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-users-api-openapi.yml
 - filename: atomicwork-workflows-api-openapi.yml
   format: yaml
-  label: Atomicwork workflows API
+  label: Atomicwork Workflows API
   slug: atomicwork-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-workflows-api-openapi.yml
 - filename: atomicwork-workspaces-api-openapi.yml
   format: yaml
-  label: Atomicwork workspaces API
+  label: Atomicwork Workspaces API
   slug: atomicwork-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/openapi/atomicwork-workspaces-api-openapi.yml

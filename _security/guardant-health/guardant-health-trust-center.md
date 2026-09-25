@@ -44,5 +44,6 @@ tags:
 - Liquid Biopsy
 - Genomics
 - EMR Integration
+- Diagnostics
 trust_url: https://trust.guardanthealth.com/
 ---

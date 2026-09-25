@@ -45,7 +45,8 @@ tags:
 - Telephony
 - STIR/SHAKEN
 - MCP
-- agent-native
+- Agent-Native
 - Compliance
 - Company
+- A2A
 ---

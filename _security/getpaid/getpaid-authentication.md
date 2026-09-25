@@ -90,6 +90,6 @@ tags:
 - Marketplace
 - Onboarding
 - Subscription
-- Agent Payments
+- Agentic Payments
 - Europe
 ---

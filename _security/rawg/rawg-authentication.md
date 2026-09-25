@@ -5,55 +5,55 @@ api_key_in:
 api_specs:
 - filename: rawg-creator-roles-api-openapi.yml
   format: yaml
-  label: RAWG creator-roles API
+  label: RAWG Creator Roles API
   slug: rawg-creator-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-creator-roles-api-openapi.yml
 - filename: rawg-creators-api-openapi.yml
   format: yaml
-  label: RAWG creators API
+  label: RAWG Creators API
   slug: rawg-creators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-creators-api-openapi.yml
 - filename: rawg-developers-api-openapi.yml
   format: yaml
-  label: RAWG developers API
+  label: RAWG Developers API
   slug: rawg-developers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-developers-api-openapi.yml
 - filename: rawg-games-api-openapi.yml
   format: yaml
-  label: RAWG games API
+  label: RAWG Games API
   slug: rawg-games-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-games-api-openapi.yml
 - filename: rawg-genres-api-openapi.yml
   format: yaml
-  label: RAWG genres API
+  label: RAWG Genres API
   slug: rawg-genres-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-genres-api-openapi.yml
 - filename: rawg-platforms-api-openapi.yml
   format: yaml
-  label: RAWG platforms API
+  label: RAWG Platforms API
   slug: rawg-platforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-platforms-api-openapi.yml
 - filename: rawg-publishers-api-openapi.yml
   format: yaml
-  label: RAWG publishers API
+  label: RAWG Publishers API
   slug: rawg-publishers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-publishers-api-openapi.yml
 - filename: rawg-stores-api-openapi.yml
   format: yaml
-  label: RAWG stores API
+  label: RAWG Stores API
   slug: rawg-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-stores-api-openapi.yml
 - filename: rawg-tags-api-openapi.yml
   format: yaml
-  label: RAWG tags API
+  label: RAWG Tags API
   slug: rawg-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-tags-api-openapi.yml

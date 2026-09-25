@@ -105,5 +105,5 @@ tags:
 - Helm Charts
 - Package Registry
 - Discovery
-- Open-Source
+- Open Source
 ---

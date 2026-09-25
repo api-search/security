@@ -37,8 +37,8 @@ layout: security
 method: probed
 name: Maison Safqa Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Maison Safqa Holdings Limited, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Maison Safqa Holdings Limited
+overview: 'Domain security posture for Maison Safqa, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Maison Safqa
 provider_slug: maison-safqa-holdings-limited
 slug: maison-safqa-holdings-limited-domain-security
 source_filename: maison-safqa-holdings-limited-domain-security.yml

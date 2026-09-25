@@ -43,7 +43,6 @@ tags:
 - Media Generation
 - Web Intelligence
 - Data Quality
-- Utilities
-- agent-native
+- Agent-Native
 trust_url: https://delx.ai/trust
 ---

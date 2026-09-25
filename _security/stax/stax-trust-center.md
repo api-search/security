@@ -166,7 +166,7 @@ tags:
 - Surcharging
 - Point-of-Sale
 - Tokenization
-- Financial-Services
+- Financial Services
 - Fintech
 - Card Present
 - Merchant Onboarding

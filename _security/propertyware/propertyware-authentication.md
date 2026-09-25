@@ -129,7 +129,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyware/r
 summary_line: apiKey · 3 schemes
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rental Properties
 - Single-Family Rental
 - Leases

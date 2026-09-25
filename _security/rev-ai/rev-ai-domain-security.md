@@ -50,4 +50,5 @@ tags:
 - Sentiment Analysis
 - Topic Extraction
 - Language Identification
+- Voice
 ---

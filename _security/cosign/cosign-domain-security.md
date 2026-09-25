@@ -68,7 +68,7 @@ tags:
 - Keyless
 - OCI
 - OIDC
-- Open-Source
+- Open Source
 - Rekor
 - Sigstore
 - Supply Chain

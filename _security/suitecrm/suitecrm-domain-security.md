@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - CRM
-- Open-Source
+- Open Source
 - Software-as-a-Service
 - Self-Hosted
 - Enterprise

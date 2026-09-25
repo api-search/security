@@ -2,7 +2,7 @@
 api_specs:
 - filename: clover-health-fhir-r4-formulary-api-api-openapi.yml
   format: yaml
-  label: Clover Health fhir-r4-formulary-api
+  label: Clover Health Fhir R4 Formulary API
   slug: clover-health-fhir-r4-formulary-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml

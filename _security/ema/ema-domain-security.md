@@ -37,6 +37,6 @@ tags:
 - AI Employees
 - Automation
 - Enterprise
-- Workflow-Automation
+- Workflow Automation
 - Conversational AI
 ---

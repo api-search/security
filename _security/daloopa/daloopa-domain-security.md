@@ -166,7 +166,7 @@ tags:
 - Earnings
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
 - Agent Skills
 - Webhook
 - Data Warehouse

@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-deposit-api-openapi.yml
 - filename: sushiswap-liquidity-providers-api-openapi.yml
   format: yaml
-  label: SushiSwap liquidity-providers API
+  label: SushiSwap Liquidity Providers API
   slug: sushiswap-liquidity-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-liquidity-providers-api-openapi.yml
@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-pool-api-openapi.yml
 - filename: sushiswap-price-api-openapi.yml
   format: yaml
-  label: SushiSwap price API
+  label: SushiSwap Price API
   slug: sushiswap-price-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-price-api-openapi.yml
@@ -32,13 +32,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-quote-api-openapi.yml
 - filename: sushiswap-swap-api-openapi.yml
   format: yaml
-  label: SushiSwap swap API
+  label: SushiSwap Swap API
   slug: sushiswap-swap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-swap-api-openapi.yml
 - filename: sushiswap-token-api-openapi.yml
   format: yaml
-  label: SushiSwap token API
+  label: SushiSwap Token API
   slug: sushiswap-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-token-api-openapi.yml

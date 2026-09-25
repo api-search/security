@@ -48,7 +48,7 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Code Assistant
-- Open-Source
+- Open Source
 - VS Code
 - JetBrains
 - CLI

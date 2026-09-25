@@ -31,7 +31,7 @@ tags:
 - Log Aggregation
 - Observability
 - Monitoring
-- Open-Source
+- Open Source
 - LogQL
 - OpenTelemetry
 - Telemetry

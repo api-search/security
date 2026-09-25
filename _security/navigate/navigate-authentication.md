@@ -131,7 +131,7 @@ tags:
 - Company
 - PropTech
 - Construction
-- Real-Estate
+- Real Estate
 - Artificial Intelligence
 - Field Service
 - Construction Technology

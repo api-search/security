@@ -34,7 +34,7 @@ tags:
 - Life Sciences
 - Drug Development
 - R&D Operations
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - AI Agents
 - Operations Platform

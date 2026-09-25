@@ -23,8 +23,8 @@ layout: security
 method: probed
 name: Continental Ag Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Continental AG, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Continental AG
+overview: 'Domain security posture for Continental, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Continental
 provider_slug: continental-ag
 slug: continental-ag-domain-security
 source_filename: continental-ag-domain-security.yml

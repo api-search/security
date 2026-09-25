@@ -96,6 +96,6 @@ tags:
 - Compute
 - GPU
 - Inference
-- Machine-Learning
+- Machine Learning
 - Serverless
 ---

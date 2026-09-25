@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Scenario X Global Holding Pte Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SCENARIO-X GLOBAL HOLDING PTE. LTD., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: SCENARIO-X GLOBAL HOLDING PTE. LTD.
+overview: 'Domain security posture for SCENARIO-X GLOBAL HOLDING, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: SCENARIO-X GLOBAL HOLDING
 provider_slug: scenario-x-global-holding-pte-ltd
 slug: scenario-x-global-holding-pte-ltd-domain-security
 source_filename: scenario-x-global-holding-pte-ltd-domain-security.yml
@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scenario-x-glo
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Risk Management
 - Stress Testing
 - RegTech

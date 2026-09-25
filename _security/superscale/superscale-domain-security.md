@@ -43,7 +43,6 @@ tags:
 - MCP
 - A2A
 - Agent Skills
-- Advertising Technology
 - Video Generation
 - Media Buying
 ---

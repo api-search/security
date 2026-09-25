@@ -243,7 +243,7 @@ summary_line: SOC 2
 tags:
 - Company
 - AI Agents
-- Open-Source
+- Open Source
 - Desktop
 - Agent Runtime
 - MCP

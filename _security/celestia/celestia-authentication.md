@@ -111,7 +111,7 @@ tags:
 - Data Availability
 - Web3
 - Infrastructure
-- Open-Source
+- Open Source
 - JSON-RPC
 - Modular Blockchain
 - Rollup

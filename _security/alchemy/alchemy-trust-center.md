@@ -61,5 +61,7 @@ tags:
 - NFT
 - Indexing
 - Account Abstraction
+- Real-Time
+- Ethereum
 trust_url: https://www.alchemy.com/security
 ---

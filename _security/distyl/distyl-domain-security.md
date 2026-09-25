@@ -34,10 +34,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Enterprise AI
-- Agentic AI
 - AI Agents
-- Machine-Learning
+- Machine Learning
 - Healthcare
-- Financial-Services
-- Telecom
+- Financial Services
+- Telecommunications
 ---

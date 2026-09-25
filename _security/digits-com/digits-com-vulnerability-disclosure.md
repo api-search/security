@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: digits-com-webhooks-api-openapi.yml
-  format: yaml
-  label: Digits Webhooks API
-  slug: digits-com-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-webhooks-api-openapi.yml
 - filename: digits-com-chart-of-accounts-api-openapi.yml
   format: yaml
   label: Digits Chart of Accounts API

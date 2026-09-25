@@ -102,6 +102,6 @@ tags:
 - MCP
 - Stablecoins
 - API Discovery
-- Open-Source
+- Open Source
 - Developer Tools
 ---

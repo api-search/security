@@ -105,10 +105,10 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Industrial IoT
-- IIoT
 - Maritime
 - Operational Data
 - Time Series
 - Sensors
 - Data Infrastructure
+- Real-Time
 ---

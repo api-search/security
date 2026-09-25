@@ -155,4 +155,6 @@ tags:
 - Hyperliquid
 - GoldRush
 - AI Agents
+- Real-Time
+- Ethereum
 ---

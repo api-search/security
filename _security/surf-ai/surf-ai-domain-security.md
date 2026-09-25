@@ -43,5 +43,5 @@ tags:
 - Cybersecurity
 - Security Operations
 - Exposure Management
-- Agentic AI
+- AI Agents
 ---

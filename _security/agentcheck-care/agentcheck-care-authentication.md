@@ -91,7 +91,7 @@ tags:
 - Prompt Injection
 - LLM Evaluation
 - A2A
-- agent-native
+- Agent-Native
 - Chatbots
 - Compliance
 - Developer Tools

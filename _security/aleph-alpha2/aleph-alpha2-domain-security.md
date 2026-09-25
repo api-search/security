@@ -45,7 +45,7 @@ tags:
 - Company
 - Artificial Intelligence
 - LLM
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - Sovereign AI
 - Inference API

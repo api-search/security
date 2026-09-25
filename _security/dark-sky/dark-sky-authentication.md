@@ -49,7 +49,7 @@ tags:
 - Forecast
 - Hyperlocal
 - Precipitation
-- Machine-Learning
+- Machine Learning
 - REST
 - Apple
 ---

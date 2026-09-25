@@ -1,55 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: aegis-marine-shipmanagement-pages-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Pages API
-  slug: aegis-marine-shipmanagement-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-pages-api-openapi.yml
-- filename: aegis-marine-shipmanagement-media-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Media API
-  slug: aegis-marine-shipmanagement-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-media-api-openapi.yml
-- filename: aegis-marine-shipmanagement-search-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Search API
-  slug: aegis-marine-shipmanagement-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-search-api-openapi.yml
-- filename: aegis-marine-shipmanagement-discovery-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Discovery API
-  slug: aegis-marine-shipmanagement-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-discovery-api-openapi.yml
-- filename: aegis-marine-shipmanagement-seo-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement SEO Metadata API
-  slug: aegis-marine-shipmanagement-seo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-seo-api-openapi.yml
-- filename: aegis-marine-shipmanagement-categories-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Categories API
-  slug: aegis-marine-shipmanagement-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-categories-api-openapi.yml
-- filename: aegis-marine-shipmanagement-tags-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement Tags API
-  slug: aegis-marine-shipmanagement-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-tags-api-openapi.yml
-- filename: aegis-marine-shipmanagement-o-embed-api-openapi.yml
-  format: yaml
-  label: Aegis Marine Shipmanagement o Embed API
-  slug: aegis-marine-shipmanagement-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/openapi/aegis-marine-shipmanagement-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -88,5 +39,4 @@ tags:
 - Crew Management
 - Logistics
 - Guyana
-- Content
 ---

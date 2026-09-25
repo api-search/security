@@ -43,7 +43,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Business Communications
 - Conversations
-- Customer-Support
+- Customer Support
 - Google
 - Messaging
 ---

@@ -41,8 +41,8 @@ tags:
 - Differential Privacy
 - Synthetic Data
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Data Governance
 - SQL
-- Open-Source
+- Open Source
 ---

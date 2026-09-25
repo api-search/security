@@ -36,7 +36,7 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Warehouse Automation
 - Supply Chain

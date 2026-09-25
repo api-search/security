@@ -37,6 +37,6 @@ tags:
 - Enterprise AI
 - Compliance
 - Security
-- Machine-Learning
+- Machine Learning
 - Observability
 ---

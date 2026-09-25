@@ -2,49 +2,49 @@
 api_specs:
 - filename: loc-amendments-api-openapi.yml
   format: yaml
-  label: Library of Congress amendments API
+  label: Library of Congress Amendments API
   slug: loc-amendments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-amendments-api-openapi.yml
 - filename: loc-bill-api-openapi.yml
   format: yaml
-  label: Library of Congress bill API
+  label: Library of Congress Bill API
   slug: loc-bill-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-bill-api-openapi.yml
 - filename: loc-bound-congressional-record-api-openapi.yml
   format: yaml
-  label: Library of Congress bound-congressional-record API
+  label: Library of Congress Bound Congressional Record API
   slug: loc-bound-congressional-record-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-bound-congressional-record-api-openapi.yml
 - filename: loc-collections-api-openapi.yml
   format: yaml
-  label: Library of Congress collections API
+  label: Library of Congress Collections API
   slug: loc-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-collections-api-openapi.yml
 - filename: loc-committee-api-openapi.yml
   format: yaml
-  label: Library of Congress committee API
+  label: Library of Congress Committee API
   slug: loc-committee-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-api-openapi.yml
 - filename: loc-committee-meeting-api-openapi.yml
   format: yaml
-  label: Library of Congress committee-meeting API
+  label: Library of Congress Committee Meeting API
   slug: loc-committee-meeting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-meeting-api-openapi.yml
 - filename: loc-committee-print-api-openapi.yml
   format: yaml
-  label: Library of Congress committee-print API
+  label: Library of Congress Committee Print API
   slug: loc-committee-print-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-print-api-openapi.yml
 - filename: loc-committee-report-api-openapi.yml
   format: yaml
-  label: Library of Congress committee-report API
+  label: Library of Congress Committee Report API
   slug: loc-committee-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-report-api-openapi.yml
@@ -56,91 +56,91 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-congress-api-openapi.yml
 - filename: loc-congressional-record-api-openapi.yml
   format: yaml
-  label: Library of Congress congressional-record API
+  label: Library of Congress Congressional Record API
   slug: loc-congressional-record-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-congressional-record-api-openapi.yml
 - filename: loc-crsreport-api-openapi.yml
   format: yaml
-  label: Library of Congress crsreport API
+  label: Library of Congress Crsreport API
   slug: loc-crsreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-crsreport-api-openapi.yml
 - filename: loc-daily-congressional-record-api-openapi.yml
   format: yaml
-  label: Library of Congress daily-congressional-record API
+  label: Library of Congress Daily Congressional Record API
   slug: loc-daily-congressional-record-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-daily-congressional-record-api-openapi.yml
 - filename: loc-formats-api-openapi.yml
   format: yaml
-  label: Library of Congress formats API
+  label: Library of Congress Formats API
   slug: loc-formats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-formats-api-openapi.yml
 - filename: loc-hearing-api-openapi.yml
   format: yaml
-  label: Library of Congress hearing API
+  label: Library of Congress Hearing API
   slug: loc-hearing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-hearing-api-openapi.yml
 - filename: loc-house-communication-api-openapi.yml
   format: yaml
-  label: Library of Congress house-communication API
+  label: Library of Congress House Communication API
   slug: loc-house-communication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-house-communication-api-openapi.yml
 - filename: loc-house-requirement-api-openapi.yml
   format: yaml
-  label: Library of Congress house-requirement API
+  label: Library of Congress House Requirement API
   slug: loc-house-requirement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-house-requirement-api-openapi.yml
 - filename: loc-house-vote-api-openapi.yml
   format: yaml
-  label: Library of Congress house-vote API
+  label: Library of Congress House Vote API
   slug: loc-house-vote-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-house-vote-api-openapi.yml
 - filename: loc-items-api-openapi.yml
   format: yaml
-  label: Library of Congress items API
+  label: Library of Congress Items API
   slug: loc-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-items-api-openapi.yml
 - filename: loc-member-api-openapi.yml
   format: yaml
-  label: Library of Congress member API
+  label: Library of Congress Member API
   slug: loc-member-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-member-api-openapi.yml
 - filename: loc-nomination-api-openapi.yml
   format: yaml
-  label: Library of Congress nomination API
+  label: Library of Congress Nomination API
   slug: loc-nomination-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-nomination-api-openapi.yml
 - filename: loc-search-api-openapi.yml
   format: yaml
-  label: Library of Congress search API
+  label: Library of Congress Search API
   slug: loc-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-search-api-openapi.yml
 - filename: loc-senate-communication-api-openapi.yml
   format: yaml
-  label: Library of Congress senate-communication API
+  label: Library of Congress Senate Communication API
   slug: loc-senate-communication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-senate-communication-api-openapi.yml
 - filename: loc-summaries-api-openapi.yml
   format: yaml
-  label: Library of Congress summaries API
+  label: Library of Congress Summaries API
   slug: loc-summaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-summaries-api-openapi.yml
 - filename: loc-treaty-api-openapi.yml
   format: yaml
-  label: Library of Congress treaty API
+  label: Library of Congress Treaty API
   slug: loc-treaty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-treaty-api-openapi.yml

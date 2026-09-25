@@ -27,9 +27,9 @@ tags:
 - Transaction Monitoring
 - Device Intelligence
 - Behavioral Biometrics
-- Risk
+- Risk Management
 - Financial Crime
-- Agentic AI
+- AI Agents
 - Fintech
 trust_url: https://www.sardine.ai/security
 ---

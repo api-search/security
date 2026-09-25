@@ -27,10 +27,10 @@ tags:
 - Law Firms
 - Document Drafting
 - RAG
-- Agentic AI
+- AI Agents
 - Private AI
 - Single Tenant
-- Knowledge-Management
+- Knowledge Management
 - Canada
 - Toronto
 trust_url: https://www.alexi.com/security

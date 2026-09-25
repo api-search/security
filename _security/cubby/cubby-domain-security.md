@@ -49,7 +49,7 @@ tags:
 - Self Storage
 - Property Management
 - Facility Management
-- Real-Estate
+- Real Estate
 - Payments
 - Software-as-a-Service
 - Artificial Intelligence

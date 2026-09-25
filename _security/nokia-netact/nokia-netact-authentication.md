@@ -62,5 +62,5 @@ tags:
 - Network Management
 - OSS
 - SNMP
-- Telecom
+- Telecommunications
 ---

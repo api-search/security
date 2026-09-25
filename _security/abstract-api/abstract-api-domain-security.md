@@ -119,7 +119,7 @@ tags:
 - Company Enrichment
 - Contacts
 - Currency
-- Email Validation
+- Email Verification
 - Exchange Rates
 - IBAN Validation
 - Image Processing
@@ -131,4 +131,5 @@ tags:
 - Timezone
 - VAT Validation
 - Web Scraping
+- A2A
 ---

@@ -45,7 +45,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Image Processing
-- Computer-Vision
+- Computer Vision
 - Video
 - Generative AI
 - Photo Editing

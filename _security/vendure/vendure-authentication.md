@@ -65,11 +65,11 @@ tags:
 - Headless Commerce
 - E-Commerce
 - GraphQL
-- Open-Source
+- Open Source
 - TypeScript
 - NestJS
 - B2B
-- B2C
+- Consumer
 - Storefront
 - Plugins
 ---

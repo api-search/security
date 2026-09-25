@@ -32,7 +32,7 @@ tags:
 - Groceries
 - Food
 - Self-Hosted
-- Open-Source
+- Open Source
 - Household
 - Calendar
 - CalDAV

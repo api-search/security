@@ -136,10 +136,10 @@ tags:
 - Company
 - Third-Party Risk Management
 - Vendor Management
-- Risk
+- Risk Management
 - Compliance
 - Contracts
-- Financial-Services
+- Financial Services
 - Due Diligence
 - SCIM
 ---

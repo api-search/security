@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transcr
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Audio Processing
-- Machine-Learning
+- Machine Learning
 - Speech Recognition
 - Speech-to-Text
 - Transcription

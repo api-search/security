@@ -163,5 +163,5 @@ tags:
 - MCP
 - Developer Tools
 - Productivity
-- Open-Source
+- Open Source
 ---

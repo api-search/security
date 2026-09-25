@@ -73,7 +73,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Medical Data
 - Clinical Decision Support

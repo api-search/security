@@ -34,7 +34,7 @@ tags:
 - Company
 - Aquaculture
 - AgriTech
-- Computer-Vision
+- Computer Vision
 - Robotics
 - Artificial Intelligence
 - Quality Inspection

@@ -47,9 +47,9 @@ tags:
 - Alternative Investment
 - Credit
 - Private Equity
-- Real-Estate
+- Real Estate
 - Infrastructure
 - Asset Management
 - Secondaries
-- Financial-Services
+- Financial Services
 ---

@@ -64,7 +64,7 @@ tags:
 - Agriculture
 - AgTech
 - Crop Intelligence
-- Computer-Vision
+- Computer Vision
 - Aerial Scouting
 - Precision Agriculture
 ---

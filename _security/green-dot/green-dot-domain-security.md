@@ -27,8 +27,8 @@ layout: security
 method: probed
 name: Green Dot Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Green Dot Corporation, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Green Dot Corporation
+overview: 'Domain security posture for Green Dot, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Green Dot
 provider_slug: green-dot
 slug: green-dot-domain-security
 source_filename: green-dot-domain-security.yml

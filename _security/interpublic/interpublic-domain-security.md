@@ -18,12 +18,6 @@ api_specs:
   slug: oembed-1-0-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/openapi/interpublic-oembed-1-0-api-openapi.yml
-- filename: interpublic-root-api-openapi.yml
-  format: yaml
-  label: Interpublic Group WordPress REST Index API
-  slug: root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/openapi/interpublic-root-api-openapi.yml
 description: ''
 domains:
 - caa: []

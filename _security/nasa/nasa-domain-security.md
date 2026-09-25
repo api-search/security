@@ -101,4 +101,6 @@ tags:
 - Government
 - Science
 - Space
+- Geospatial
+- Government Data
 ---

@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-panoram
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Camera
-- Computer-Vision
+- Computer Vision
 - Edge ML
 - Industrial IoT
 trust_url: https://aws.amazon.com/compliance/

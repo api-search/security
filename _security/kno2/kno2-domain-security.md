@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/security/kno2-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Healthcare Interoperability
+- Interoperability
 - Clinical Records
 - Health Information Exchange
 - Direct Secure Messaging

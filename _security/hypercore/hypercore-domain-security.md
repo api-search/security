@@ -49,6 +49,6 @@ tags:
 - Commercial Real Estate
 - Loan Servicing
 - Fintech
-- Financial-Services
+- Financial Services
 - GraphQL
 ---

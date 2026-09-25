@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rentals
 - Tenant Management
 - Lease Management

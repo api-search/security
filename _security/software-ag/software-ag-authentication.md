@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-publishing-api-openapi.yml
 - filename: software-ag-apis-api-openapi.yml
   format: yaml
-  label: Software AG AP Is API
+  label: Software AG APIs API
   slug: software-ag-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml

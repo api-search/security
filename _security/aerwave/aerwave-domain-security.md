@@ -63,7 +63,7 @@ tags:
 - Company
 - Managed WiFi
 - Multifamily
-- Real-Estate
+- Real Estate
 - Telecommunications
 - Internet Service Provider
 - Connectivity

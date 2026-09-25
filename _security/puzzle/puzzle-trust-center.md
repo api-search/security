@@ -172,12 +172,12 @@ summary_line: SOC 2
 tags:
 - Company
 - Accounting
-- Financial
+- Finance
 - Bookkeeping
 - Fintech
 - General Ledger
 - Payroll
-- agent-native
+- Agent-Native
 - MCP
 trust_url: https://trust.puzzle.io
 ---

@@ -8,31 +8,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/asyncapi/highrise-bot-api-asyncapi.yml
 - filename: highrise-grabs-api-openapi.yml
   format: yaml
-  label: Highrise grabs API
+  label: Highrise Grabs API
   slug: highrise-grabs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-grabs-api-openapi.yml
 - filename: highrise-items-api-openapi.yml
   format: yaml
-  label: Highrise items API
+  label: Highrise Items API
   slug: highrise-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-items-api-openapi.yml
 - filename: highrise-posts-api-openapi.yml
   format: yaml
-  label: Highrise posts API
+  label: Highrise Posts API
   slug: highrise-posts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-posts-api-openapi.yml
 - filename: highrise-rooms-api-openapi.yml
   format: yaml
-  label: Highrise rooms API
+  label: Highrise Rooms API
   slug: highrise-rooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-rooms-api-openapi.yml
 - filename: highrise-users-api-openapi.yml
   format: yaml
-  label: Highrise users API
+  label: Highrise Users API
   slug: highrise-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/openapi/highrise-users-api-openapi.yml
@@ -88,4 +88,5 @@ tags:
 - Bots
 - Developer Platform
 - Chat
+- Real-Time
 ---

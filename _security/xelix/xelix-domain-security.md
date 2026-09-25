@@ -40,4 +40,5 @@ tags:
 - Vendor Management
 - Procure-to-Pay
 - Reconciliation
+- Procurement
 ---

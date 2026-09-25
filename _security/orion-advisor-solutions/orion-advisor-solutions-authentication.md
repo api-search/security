@@ -3480,6 +3480,6 @@ tags:
 - Financial Planning
 - Billing
 - Reporting
-- Risk
+- Risk Management
 - RIA-technology
 ---

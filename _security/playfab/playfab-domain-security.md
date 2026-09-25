@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: playfab-authentication-api-openapi.yml
-  format: yaml
-  label: PlayFab Authentication API
-  slug: playfab-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
 - filename: playfab-account-api-openapi.yml
   format: yaml
   label: PlayFab Account API

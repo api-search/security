@@ -53,5 +53,5 @@ tags:
 - Voice
 - TTS
 - Real-Time
-- Conversational
+- Conversational AI
 ---

@@ -23,5 +23,6 @@ tags:
 - Async
 - Communications
 - Software-as-a-Service
+- Collaboration
 trust_url: https://www.atlassian.com/legal/security-measures
 ---

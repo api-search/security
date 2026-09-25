@@ -33,8 +33,8 @@ layout: security
 method: probed
 name: Graco Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Graco Inc, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Graco Inc
+overview: 'Domain security posture for Graco, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Graco
 provider_slug: graco
 slug: graco-domain-security
 source_filename: graco-domain-security.yml

@@ -34,6 +34,6 @@ tags:
 - PHP
 - Programming Language
 - Web Development
-- Open-Source
+- Open Source
 - Server-Side Scripting
 ---

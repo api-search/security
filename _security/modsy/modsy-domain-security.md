@@ -35,5 +35,5 @@ tags:
 - Interior Design
 - 3D Visualization
 - Homes
-- Real-Estate
+- Real Estate
 ---

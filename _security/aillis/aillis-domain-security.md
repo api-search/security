@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Medical Devices
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Diagnostics
 - Medical Imaging
 - Japan

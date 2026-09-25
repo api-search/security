@@ -55,5 +55,5 @@ tags:
 - AI Gateway
 - Agent Infrastructure
 - Webhook
-- agent-native
+- Agent-Native
 ---

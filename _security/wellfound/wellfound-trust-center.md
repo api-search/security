@@ -28,7 +28,7 @@ tags:
 - Job Board
 - Startups
 - MCP
-- agent-native
+- Agent-Native
 - Authentication
 - AI Sourcing
 trust_url: ''

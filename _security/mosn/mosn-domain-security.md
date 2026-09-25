@@ -35,5 +35,5 @@ tags:
 - Proxy
 - API Gateway
 - Cloud-Native
-- Open-Source
+- Open Source
 ---

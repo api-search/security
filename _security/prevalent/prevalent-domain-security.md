@@ -39,7 +39,7 @@ tags:
 - Company
 - Cybersecurity
 - Third-Party Risk Management
-- TPRM
 - Vendor Risk
 - Governance Risk Compliance
+- Risk Management
 ---

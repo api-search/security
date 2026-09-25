@@ -109,5 +109,6 @@ tags:
 - Compute
 - GPU
 - Inference
-- Machine-Learning
+- Machine Learning
+- Real-Time
 ---

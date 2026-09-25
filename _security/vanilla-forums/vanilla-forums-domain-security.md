@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-drafts-api-openapi.yml
 - filename: vanilla-forums-email-templates-api-openapi.yml
   format: yaml
-  label: Vanilla Forums email-templates API
+  label: Vanilla Forums Email Templates API
   slug: vanilla-forums-email-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/openapi/vanilla-forums-email-templates-api-openapi.yml

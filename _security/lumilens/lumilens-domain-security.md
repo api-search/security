@@ -36,7 +36,7 @@ tags:
 - Interconnect
 - Semiconductors
 - Silicon Photonics
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Hardware
 ---

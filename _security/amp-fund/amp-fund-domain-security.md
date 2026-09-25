@@ -37,6 +37,6 @@ tags:
 - Infrastructure
 - Venture Capital
 - Public Benefit Corporation
-- Data-Center
+- Data Center
 - GPU
 ---

@@ -79,5 +79,6 @@ tags:
 - Agent Skills
 - RPA
 - Enterprise Automation
+- A2A
 trust_url: https://trust.abbyy.com/
 ---

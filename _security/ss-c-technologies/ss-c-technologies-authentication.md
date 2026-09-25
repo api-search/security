@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: >-\n  openapi/s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/authentication/ss-c-technologies-authentication.yml
 summary_line: http/session-token/srp/openIdConnect · 5 schemes
 tags:
-- Financial-Services
+- Financial Services
 - Investment Management
 - Fund Administration
 - Wealth Management

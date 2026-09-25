@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Planby Technologies Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Planby Technologies, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Planby Technologies, Inc.
+overview: 'Domain security posture for Planby Technologies, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Planby Technologies
 provider_slug: planby-technologies-inc
 slug: planby-technologies-inc-domain-security
 source_filename: planby-technologies-inc-domain-security.yml

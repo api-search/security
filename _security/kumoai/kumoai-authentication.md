@@ -62,7 +62,7 @@ summary_line: apiKey/snowflakeCredentials/http · 4 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Predictive Analytics
 - Graph Neural Networks
 - Foundation Models

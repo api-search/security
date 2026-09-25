@@ -122,7 +122,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-repository-api-openapi.yml
 - filename: sageox-runs-api-openapi.yml
   format: yaml
-  label: Sageox runs API
+  label: Sageox Runs API
   slug: sageox-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-runs-api-openapi.yml
@@ -176,4 +176,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
+- A2A
 ---

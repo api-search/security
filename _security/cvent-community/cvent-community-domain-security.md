@@ -64,7 +64,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Certification
 - Community
-- Customer-Support
+- Customer Support
 - Cvent Academy
 - Education
 - Forums

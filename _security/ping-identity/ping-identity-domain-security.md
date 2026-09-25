@@ -125,4 +125,5 @@ tags:
 - Authorization
 - SSO
 - MFA
+- Identity Federation
 ---

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Lunchlab Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for lunchlab Corp., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: lunchlab Corp.
+overview: 'Domain security posture for lunchlab, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: lunchlab
 provider_slug: lunchlab-corp
 slug: lunchlab-corp-domain-security
 source_filename: lunchlab-corp-domain-security.yml

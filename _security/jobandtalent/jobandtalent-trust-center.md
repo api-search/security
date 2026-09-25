@@ -23,7 +23,7 @@ tags:
 - Marketplace
 - Staffing
 - Workforce
-- Recruitment
+- Recruiting
 - Employment
 - Human Resources
 trust_url: https://www.jobandtalent.com/security

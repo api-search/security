@@ -41,4 +41,5 @@ tags:
 - Retail
 - E-Commerce
 - Fortune 500
+- Fashion
 ---

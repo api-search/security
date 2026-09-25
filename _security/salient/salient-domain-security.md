@@ -36,7 +36,7 @@ tags:
 - Lending
 - Loan Servicing
 - Collection
-- Financial-Services
+- Financial Services
 - Fintech
 - AI Agents
 - Compliance

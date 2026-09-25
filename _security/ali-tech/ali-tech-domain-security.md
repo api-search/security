@@ -34,6 +34,6 @@ tags:
 - Artificial Intelligence
 - AI Infrastructure
 - Compute
-- Machine-Learning
+- Machine Learning
 - Cost Optimization
 ---

@@ -37,7 +37,7 @@ tags:
 - Company
 - Banking
 - Digital Banking
-- Financial-Services
+- Financial Services
 - Consumer Finance
 - SME Lending
 - Wealth Management

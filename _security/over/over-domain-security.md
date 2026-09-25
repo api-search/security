@@ -37,7 +37,7 @@ tags:
 - Generative AI
 - Video Generation
 - Gaming
-- Machine-Learning
+- Machine Learning
 - SDK
 - Python
 ---

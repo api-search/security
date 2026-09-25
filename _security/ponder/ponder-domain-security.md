@@ -32,6 +32,6 @@ tags:
 - DataFrames
 - Analytics
 - Python
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 ---

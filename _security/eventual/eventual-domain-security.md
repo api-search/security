@@ -40,7 +40,7 @@ tags:
 - Artificial Intelligence
 - Multi-Modal
 - Analytics
-- Open-Source
+- Open Source
 - Python
 - Rust
 - DataFrames

@@ -1,43 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: elisa-categories-api-openapi.yml
-  format: yaml
-  label: ELISA Categories API
-  slug: elisa-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-categories-api-openapi.yml
-- filename: elisa-doc-api-openapi.yml
-  format: yaml
-  label: ELISA Doc API
-  slug: elisa-doc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-doc-api-openapi.yml
-- filename: elisa-events-api-openapi.yml
-  format: yaml
-  label: ELISA Events API
-  slug: elisa-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-events-api-openapi.yml
-- filename: elisa-organizers-api-openapi.yml
-  format: yaml
-  label: ELISA Organizers API
-  slug: elisa-organizers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-organizers-api-openapi.yml
-- filename: elisa-tags-api-openapi.yml
-  format: yaml
-  label: ELISA Tags API
-  slug: elisa-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-tags-api-openapi.yml
-- filename: elisa-venues-api-openapi.yml
-  format: yaml
-  label: ELISA Venues API
-  slug: elisa-venues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-venues-api-openapi.yml
 auth_types: []
 description: Authentication profile for the ELISA API surface at https://elisa.tech/wp-json/. Established by reading the authentication block the WordPress REST root advertises about itself and by making live unauthenticated calls against the published operations.
 kind: authentication
@@ -82,7 +45,7 @@ tags:
 - Linux Foundation
 - Safety
 - Functional Safety
-- Open-Source
+- Open Source
 - Automotive
 - Aerospace
 - Medical Devices

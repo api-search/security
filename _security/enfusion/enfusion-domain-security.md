@@ -36,7 +36,7 @@ tags:
 - Investment Management
 - Hedge Funds
 - Asset Management
-- Portfolio-Management
+- Portfolio Management
 - OMS
 - Trading
 - Compliance

@@ -91,6 +91,6 @@ tags:
 - Fake Data
 - Mocking
 - Developer Tools
-- Open-Source
+- Open Source
 - Public APIs
 ---

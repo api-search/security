@@ -33,7 +33,7 @@ tags:
 - Company
 - LiDAR
 - 3D Perception
-- Computer-Vision
+- Computer Vision
 - Deep Learning
 - Edge Computing
 - Intelligent Transportation

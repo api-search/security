@@ -40,8 +40,7 @@ tags:
 - Company
 - Ai Ml
 - Enterprise AI
-- Agentic AI
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Voice Agents
 ---

@@ -36,5 +36,5 @@ tags:
 - Marketplace
 - Media and Entertainment
 - Booking
-- Real-Estate
+- Real Estate
 ---

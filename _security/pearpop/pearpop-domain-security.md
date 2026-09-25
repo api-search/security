@@ -47,7 +47,7 @@ tags:
 - Company
 - Creator Economy
 - Influencer Marketing
-- Social-Media
+- Social Media
 - Marketing
 - Marketplace
 - Talent Management

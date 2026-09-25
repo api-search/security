@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Facial Recognition
-- Computer-Vision
+- Computer Vision
 - Messaging Security
 - CPaaS
 - Gaming

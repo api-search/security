@@ -39,5 +39,5 @@ tags:
 - Serverless
 - AWS Lambda
 - Monitoring
-- Open-Source
+- Open Source
 ---

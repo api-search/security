@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: quantum-art-admin-api-openapi.yml
   format: yaml
-  label: Quantum Art admin API
+  label: Quantum Art Admin API
   slug: quantum-art-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-admin-api-openapi.yml
@@ -118,7 +118,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-qaas-backend-api-api-openapi.yml
 - filename: quantum-art-qiskit-provider-api-openapi.yml
   format: yaml
-  label: Quantum Art qiskit-provider API
+  label: Quantum Art Qiskit Provider API
   slug: quantum-art-qiskit-provider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-qiskit-provider-api-openapi.yml
@@ -130,7 +130,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-register-api-openapi.yml
 - filename: quantum-art-registration-api-openapi.yml
   format: yaml
-  label: Quantum Art registration API
+  label: Quantum Art Registration API
   slug: quantum-art-registration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/openapi/quantum-art-registration-api-openapi.yml
@@ -190,7 +190,7 @@ tags:
 - Quantum as a Service
 - Qiskit
 - Developer Tools
-- Machine-Learning
+- Machine Learning
 - Optimization
 - Finance
 - Chemistry

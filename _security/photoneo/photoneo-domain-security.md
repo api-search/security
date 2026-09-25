@@ -33,7 +33,7 @@ tags:
 - Company
 - 3D Vision
 - Machine Vision
-- Computer-Vision
+- Computer Vision
 - Robotics
 - Automation
 - Bin Picking

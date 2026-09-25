@@ -212,7 +212,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-nodetypes-api-openapi.yml
 - filename: scaleway-offers-api-openapi.yml
   format: yaml
-  label: Scaleway offers API
+  label: Scaleway Offers API
   slug: scaleway-offers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/openapi/scaleway-offers-api-openapi.yml

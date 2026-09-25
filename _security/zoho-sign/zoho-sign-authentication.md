@@ -61,7 +61,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Electronic Signature
 - E-Signature
-- Document-Management
+- Document Management
 - Digital Signature
 - Signature Workflows
 - Templates

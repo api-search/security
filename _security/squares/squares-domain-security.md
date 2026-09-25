@@ -36,5 +36,5 @@ tags:
 - Co-Working
 - Travel
 - Booking
-- Real-Estate
+- Real Estate
 ---

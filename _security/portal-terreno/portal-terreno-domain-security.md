@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portal-terreno
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Classifieds
 - Marketplace
 - Land

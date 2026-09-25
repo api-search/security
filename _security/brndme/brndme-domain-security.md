@@ -33,7 +33,6 @@ tags:
 - Company
 - Consumer
 - House of Brands
-- D2C
 - E-Commerce
 - Health
 - Wellness

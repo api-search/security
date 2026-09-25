@@ -34,7 +34,7 @@ tags:
 - Asset Management
 - Capital Markets
 - Stocks
-- Financial-Services
+- Financial Services
 - Fixed Income
 - Fortune 500
 - Investment Banking

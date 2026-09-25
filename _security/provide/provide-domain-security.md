@@ -36,7 +36,7 @@ tags:
 - Fintech
 - Banking
 - Lending
-- Financial-Services
+- Financial Services
 - Practice Finance
 - SBA Loans
 ---

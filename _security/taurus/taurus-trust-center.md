@@ -28,7 +28,7 @@ tags:
 - Tokenization
 - Blockchain
 - Trading
-- Financial-Services
+- Financial Services
 - Fintech
 - Institutional
 trust_url: https://www.taurushq.com/security

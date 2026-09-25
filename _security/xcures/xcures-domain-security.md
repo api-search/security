@@ -123,4 +123,5 @@ tags:
 - Patient Data
 - HITRUST
 - HIPAA
+- A2A
 ---

@@ -39,12 +39,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
 - AI Automation
-- Agentic AI
 - MCP
-- Workflow-Automation
+- Workflow Automation
 - Virtual Assistant
 - Productivity
 - Email
 - Meetings
 - Slack
+- A2A
 ---

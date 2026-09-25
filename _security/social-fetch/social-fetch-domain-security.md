@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/security/social-fetch-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Social-Media
+- Social Media
 - Web Scraping
 - Data Extraction
 - Social Listening
@@ -203,7 +203,7 @@ tags:
 - JSON:API
 - REST
 - MCP
-- agent-native
+- Agent-Native
 - TypeScript SDK
 - Transcripts
 - ads intelligence

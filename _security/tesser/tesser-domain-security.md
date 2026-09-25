@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-currencies-api-openapi.yml
 - filename: tesser-health-api-openapi.yml
   format: yaml
-  label: Tesser health API
+  label: Tesser Health API
   slug: tesser-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-health-api-openapi.yml
@@ -80,7 +80,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-users-api-openapi.yml
 - filename: tesser-webhooks-api-openapi.yml
   format: yaml
-  label: Tesser webhooks API
+  label: Tesser Webhooks API
   slug: tesser-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-webhooks-api-openapi.yml

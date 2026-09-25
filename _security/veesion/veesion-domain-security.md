@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Video Surveillance
 - Retail
 - Loss Prevention

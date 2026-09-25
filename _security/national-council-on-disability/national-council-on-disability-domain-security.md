@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-counc
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Disability
-- Federal-Government
+- Federal Government
 - Policy
 - Civil Rights
 - Healthcare

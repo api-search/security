@@ -4,241 +4,241 @@ api_key_in: []
 api_specs:
 - filename: workos-admin-portal-api-openapi.yml
   format: yaml
-  label: WorkOS admin-portal API
+  label: WorkOS Admin Portal API
   slug: workos-admin-portal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-admin-portal-api-openapi.yml
 - filename: workos-api-keys-api-openapi.yml
   format: yaml
-  label: WorkOS api_keys API
+  label: WorkOS API Keys API
   slug: workos-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-api-keys-api-openapi.yml
 - filename: workos-application-client-secrets-api-openapi.yml
   format: yaml
-  label: WorkOS application.client-secrets API
+  label: WorkOS Application.client Secrets API
   slug: workos-application-client-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-application-client-secrets-api-openapi.yml
 - filename: workos-applications-api-openapi.yml
   format: yaml
-  label: WorkOS applications API
+  label: WorkOS Applications API
   slug: workos-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-applications-api-openapi.yml
 - filename: workos-audit-logs-api-openapi.yml
   format: yaml
-  label: WorkOS audit-logs API
+  label: WorkOS Audit Logs API
   slug: workos-audit-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-audit-logs-api-openapi.yml
 - filename: workos-authorization-api-openapi.yml
   format: yaml
-  label: WorkOS authorization API
+  label: WorkOS Authorization API
   slug: workos-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-authorization-api-openapi.yml
 - filename: workos-connections-api-openapi.yml
   format: yaml
-  label: WorkOS connections API
+  label: WorkOS Connections API
   slug: workos-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-connections-api-openapi.yml
 - filename: workos-directories-api-openapi.yml
   format: yaml
-  label: WorkOS directories API
+  label: WorkOS Directories API
   slug: workos-directories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-directories-api-openapi.yml
 - filename: workos-directory-groups-api-openapi.yml
   format: yaml
-  label: WorkOS directory-groups API
+  label: WorkOS Directory Groups API
   slug: workos-directory-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-directory-groups-api-openapi.yml
 - filename: workos-directory-users-api-openapi.yml
   format: yaml
-  label: WorkOS directory-users API
+  label: WorkOS Directory Users API
   slug: workos-directory-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-directory-users-api-openapi.yml
 - filename: workos-events-api-openapi.yml
   format: yaml
-  label: WorkOS events API
+  label: WorkOS Events API
   slug: workos-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-events-api-openapi.yml
 - filename: workos-feature-flags-api-openapi.yml
   format: yaml
-  label: WorkOS feature-flags API
+  label: WorkOS Feature Flags API
   slug: workos-feature-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-feature-flags-api-openapi.yml
 - filename: workos-feature-flags-targets-api-openapi.yml
   format: yaml
-  label: WorkOS feature-flags.targets API
+  label: WorkOS Feature Flags.targets API
   slug: workos-feature-flags-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-feature-flags-targets-api-openapi.yml
 - filename: workos-groups-api-openapi.yml
   format: yaml
-  label: WorkOS groups API
+  label: WorkOS Groups API
   slug: workos-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-groups-api-openapi.yml
 - filename: workos-multi-factor-auth-api-openapi.yml
   format: yaml
-  label: WorkOS multi-factor-auth API
+  label: WorkOS Multi Factor Auth API
   slug: workos-multi-factor-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-multi-factor-auth-api-openapi.yml
 - filename: workos-multi-factor-auth-challenges-api-openapi.yml
   format: yaml
-  label: WorkOS multi-factor-auth.challenges API
+  label: WorkOS Multi Factor Auth.challenges API
   slug: workos-multi-factor-auth-challenges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-multi-factor-auth-challenges-api-openapi.yml
 - filename: workos-organization-domains-api-openapi.yml
   format: yaml
-  label: WorkOS organization-domains API
+  label: WorkOS Organization Domains API
   slug: workos-organization-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organization-domains-api-openapi.yml
 - filename: workos-organizations-api-keys-api-openapi.yml
   format: yaml
-  label: WorkOS organizations.api_keys API
+  label: WorkOS Organizations.api Keys API
   slug: workos-organizations-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organizations-api-keys-api-openapi.yml
 - filename: workos-organizations-api-openapi.yml
   format: yaml
-  label: WorkOS organizations API
+  label: WorkOS Organizations API
   slug: workos-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organizations-api-openapi.yml
 - filename: workos-organizations-feature-flags-api-openapi.yml
   format: yaml
-  label: WorkOS organizations.feature-flags API
+  label: WorkOS Organizations.feature Flags API
   slug: workos-organizations-feature-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organizations-feature-flags-api-openapi.yml
 - filename: workos-permissions-api-openapi.yml
   format: yaml
-  label: WorkOS permissions API
+  label: WorkOS Permissions API
   slug: workos-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-permissions-api-openapi.yml
 - filename: workos-pipes-api-openapi.yml
   format: yaml
-  label: WorkOS pipes API
+  label: WorkOS Pipes API
   slug: workos-pipes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-pipes-api-openapi.yml
 - filename: workos-radar-api-openapi.yml
   format: yaml
-  label: WorkOS radar API
+  label: WorkOS Radar API
   slug: workos-radar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-radar-api-openapi.yml
 - filename: workos-sso-api-openapi.yml
   format: yaml
-  label: WorkOS sso API
+  label: WorkOS SSO API
   slug: workos-sso-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-sso-api-openapi.yml
 - filename: workos-user-management-authentication-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.authentication API
+  label: WorkOS User Management.authentication API
   slug: workos-user-management-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-authentication-api-openapi.yml
 - filename: workos-user-management-cors-origins-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.cors-origins API
+  label: WorkOS User Management.cors Origins API
   slug: workos-user-management-cors-origins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-cors-origins-api-openapi.yml
 - filename: workos-user-management-data-providers-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.data-providers API
+  label: WorkOS User Management.data Providers API
   slug: workos-user-management-data-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-data-providers-api-openapi.yml
 - filename: workos-user-management-invitations-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.invitations API
+  label: WorkOS User Management.invitations API
   slug: workos-user-management-invitations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-invitations-api-openapi.yml
 - filename: workos-user-management-jwt-template-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.jwt-template API
+  label: WorkOS User Management.jwt Template API
   slug: workos-user-management-jwt-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-jwt-template-api-openapi.yml
 - filename: workos-user-management-magic-auth-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.magic-auth API
+  label: WorkOS User Management.magic Auth API
   slug: workos-user-management-magic-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-magic-auth-api-openapi.yml
 - filename: workos-user-management-multi-factor-authentication-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.multi-factor-authentication API
+  label: WorkOS User Management.multi Factor Authentication API
   slug: workos-user-management-multi-factor-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-multi-factor-authentication-api-openapi.yml
 - filename: workos-user-management-organization-membership-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.organization-membership API
+  label: WorkOS User Management.organization Membership API
   slug: workos-user-management-organization-membership-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-organization-membership-api-openapi.yml
 - filename: workos-user-management-organization-membership-groups-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.organization-membership.groups API
+  label: WorkOS User Management.organization Membership.groups API
   slug: workos-user-management-organization-membership-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-organization-membership-groups-api-openapi.yml
 - filename: workos-user-management-redirect-uris-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.redirect-uris API
+  label: WorkOS User Management.redirect Uris API
   slug: workos-user-management-redirect-uris-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-redirect-uris-api-openapi.yml
 - filename: workos-user-management-session-tokens-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.session-tokens API
+  label: WorkOS User Management.session Tokens API
   slug: workos-user-management-session-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-session-tokens-api-openapi.yml
 - filename: workos-user-management-users-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.users API
+  label: WorkOS User Management.users API
   slug: workos-user-management-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-users-api-openapi.yml
 - filename: workos-user-management-users-authorized-applications-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.users.authorized-applications API
+  label: WorkOS User Management.users.authorized Applications API
   slug: workos-user-management-users-authorized-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-users-authorized-applications-api-openapi.yml
 - filename: workos-user-management-users-feature-flags-api-openapi.yml
   format: yaml
-  label: WorkOS user-management.users.feature-flags API
+  label: WorkOS User Management.users.feature Flags API
   slug: workos-user-management-users-feature-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-users-feature-flags-api-openapi.yml
 - filename: workos-webhooks-api-openapi.yml
   format: yaml
-  label: WorkOS webhooks API
+  label: WorkOS Webhooks API
   slug: workos-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-webhooks-api-openapi.yml
 - filename: workos-widgets-api-openapi.yml
   format: yaml
-  label: WorkOS widgets API
+  label: WorkOS Widgets API
   slug: workos-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-widgets-api-openapi.yml

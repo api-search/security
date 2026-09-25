@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Waters Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Waters Corporation, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Waters Corporation
+overview: 'Domain security posture for Waters, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Waters
 provider_slug: waters
 slug: waters-domain-security
 source_filename: waters-domain-security.yml

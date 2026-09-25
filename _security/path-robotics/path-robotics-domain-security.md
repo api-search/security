@@ -48,12 +48,12 @@ tags:
 - World Models
 - Obsidian
 - Weld World Model
-- Computer-Vision
+- Computer Vision
 - LiDAR
 - Defense
 - Shipbuilding
 - Energy Infrastructure
-- Data-Center
+- Data Center
 - Heavy Industry
 - Hardware
 - Columbus Ohio

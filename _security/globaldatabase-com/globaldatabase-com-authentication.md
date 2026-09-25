@@ -87,7 +87,7 @@ tags:
 - Compliance
 - Business Verification
 - Beneficial Ownership
-- Financial
+- Finance
 - Credit Risk
 - Data Enrichment
 - Prospecting

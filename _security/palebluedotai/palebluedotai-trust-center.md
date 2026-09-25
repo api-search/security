@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palebluedotai/
 summary_line: ISO/IEC 27001, SOC 2, SOC 3
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - API Gateway

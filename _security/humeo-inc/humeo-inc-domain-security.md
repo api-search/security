@@ -23,8 +23,8 @@ layout: security
 method: probed
 name: Humeo Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Humeo, INC., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Humeo, INC.
+overview: 'Domain security posture for Humeo, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Humeo
 provider_slug: humeo-inc
 slug: humeo-inc-domain-security
 source_filename: humeo-inc-domain-security.yml

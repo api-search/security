@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: bmll Python SDK
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmll-technologies/refs/heads/main/authentication/bmll-technologies-authentication.yml
 summary_line: key-pair-jwt/bearer/apiKey · 3 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Order Book
 - Stocks

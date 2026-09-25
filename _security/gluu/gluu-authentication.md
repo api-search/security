@@ -585,7 +585,7 @@ tags:
 - FIDO2
 - Identity and Access Management
 - Identities
-- Open-Source
+- Open Source
 - OpenID Connect
 - SCIM
 - Identity Federation

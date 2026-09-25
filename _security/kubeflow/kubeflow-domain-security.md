@@ -58,9 +58,9 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Model Serving
 - Model Training
-- Open-Source
+- Open Source
 ---

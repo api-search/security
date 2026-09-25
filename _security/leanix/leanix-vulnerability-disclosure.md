@@ -2,31 +2,31 @@
 api_specs:
 - filename: leanix-configurations-api-openapi.yml
   format: yaml
-  label: LeanIX configurations API
+  label: LeanIX Configurations API
   slug: leanix-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-configurations-api-openapi.yml
 - filename: leanix-examples-api-openapi.yml
   format: yaml
-  label: LeanIX examples API
+  label: LeanIX Examples API
   slug: leanix-examples-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-examples-api-openapi.yml
 - filename: leanix-fastsynchronizationruns-api-openapi.yml
   format: yaml
-  label: LeanIX fastSynchronizationRuns API
+  label: LeanIX Fast Synchronization Runs API
   slug: leanix-fastsynchronizationruns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-fastsynchronizationruns-api-openapi.yml
 - filename: leanix-storages-api-openapi.yml
   format: yaml
-  label: LeanIX storages API
+  label: LeanIX Storages API
   slug: leanix-storages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-storages-api-openapi.yml
 - filename: leanix-synchronizationruns-api-openapi.yml
   format: yaml
-  label: LeanIX synchronizationRuns API
+  label: LeanIX Synchronization Runs API
   slug: leanix-synchronizationruns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-synchronizationruns-api-openapi.yml

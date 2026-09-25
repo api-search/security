@@ -82,4 +82,5 @@ tags:
 - Cards
 - Acquiring
 - Cross-Border
+- Agentic Commerce
 ---

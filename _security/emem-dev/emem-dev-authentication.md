@@ -17,8 +17,8 @@ method: searched
 name: Emem Dev Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Vortx AI Private Limited declares 4 security scheme(s) across its OpenAPI definitions.
-provider_name: Vortx AI Private Limited
+overview: emem declares 4 security scheme(s) across its OpenAPI definitions.
+provider_name: emem
 provider_slug: emem-dev
 scheme_count: 4
 schemes:
@@ -82,6 +82,7 @@ tags:
 - Provenance
 - Cryptography
 - MCP
-- Open-Source
+- Open Source
 - India
+- A2A
 ---

@@ -2,109 +2,109 @@
 api_specs:
 - filename: cable-alerts-api-openapi.yml
   format: yaml
-  label: Cable alerts API
+  label: Cable Alerts API
   slug: cable-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-alerts-api-openapi.yml
 - filename: cable-authentication-api-openapi.yml
   format: yaml
-  label: Cable authentication API
+  label: Cable Authentication API
   slug: cable-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-authentication-api-openapi.yml
 - filename: cable-business-api-openapi.yml
   format: yaml
-  label: Cable business API
+  label: Cable Business API
   slug: cable-business-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-business-api-openapi.yml
 - filename: cable-checks-api-openapi.yml
   format: yaml
-  label: Cable checks API
+  label: Cable Checks API
   slug: cable-checks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-checks-api-openapi.yml
 - filename: cable-company-api-openapi.yml
   format: yaml
-  label: Cable company API
+  label: Cable Company API
   slug: cable-company-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-company-api-openapi.yml
 - filename: cable-customersar-api-openapi.yml
   format: yaml
-  label: Cable customerSar API
+  label: Cable Customer Sar API
   slug: cable-customersar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-customersar-api-openapi.yml
 - filename: cable-helper-api-openapi.yml
   format: yaml
-  label: Cable helper API
+  label: Cable Helper API
   slug: cable-helper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-helper-api-openapi.yml
 - filename: cable-onboardingflow-api-openapi.yml
   format: yaml
-  label: Cable onboardingFlow API
+  label: Cable Onboarding Flow API
   slug: cable-onboardingflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-onboardingflow-api-openapi.yml
 - filename: cable-person-api-openapi.yml
   format: yaml
-  label: Cable person API
+  label: Cable Person API
   slug: cable-person-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-person-api-openapi.yml
 - filename: cable-retail-api-openapi.yml
   format: yaml
-  label: Cable retail API
+  label: Cable Retail API
   slug: cable-retail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-retail-api-openapi.yml
 - filename: cable-screening-api-openapi.yml
   format: yaml
-  label: Cable screening API
+  label: Cable Screening API
   slug: cable-screening-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-screening-api-openapi.yml
 - filename: cable-suspiciousactivities-api-openapi.yml
   format: yaml
-  label: Cable suspiciousActivities API
+  label: Cable Suspicious Activities API
   slug: cable-suspiciousactivities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-suspiciousactivities-api-openapi.yml
 - filename: cable-transactionalerts-api-openapi.yml
   format: yaml
-  label: Cable transactionAlerts API
+  label: Cable Transaction Alerts API
   slug: cable-transactionalerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionalerts-api-openapi.yml
 - filename: cable-transactionchecks-api-openapi.yml
   format: yaml
-  label: Cable transactionChecks API
+  label: Cable Transaction Checks API
   slug: cable-transactionchecks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionchecks-api-openapi.yml
 - filename: cable-transactions-api-openapi.yml
   format: yaml
-  label: Cable transactions API
+  label: Cable Transactions API
   slug: cable-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactions-api-openapi.yml
 - filename: cable-transactionsuspiciousactivities-api-openapi.yml
   format: yaml
-  label: Cable transactionSuspiciousActivities API
+  label: Cable Transaction Suspicious Activities API
   slug: cable-transactionsuspiciousactivities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionsuspiciousactivities-api-openapi.yml
 - filename: cable-upload-api-openapi.yml
   format: yaml
-  label: Cable upload API
+  label: Cable Upload API
   slug: cable-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-upload-api-openapi.yml
 - filename: cable-utilities-api-openapi.yml
   format: yaml
-  label: Cable utilities API
+  label: Cable Utilities API
   slug: cable-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-utilities-api-openapi.yml
@@ -167,7 +167,7 @@ tags:
 - Compliance
 - Financial Crime
 - RegTech
-- Anti-Money Laundering
+- AML
 - Transaction Monitoring
 - Screening
 - Risk Assessment

@@ -2,25 +2,25 @@
 api_specs:
 - filename: fastino-labs-anthropic-compat-api-openapi.yml
   format: yaml
-  label: Fastino Labs anthropic-compat API
+  label: Fastino Labs Anthropic Compat API
   slug: fastino-labs-anthropic-compat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-anthropic-compat-api-openapi.yml
 - filename: fastino-labs-inference-api-openapi.yml
   format: yaml
-  label: Fastino Labs inference API
+  label: Fastino Labs Inference API
   slug: fastino-labs-inference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-api-openapi.yml
 - filename: fastino-labs-inference-history-api-openapi.yml
   format: yaml
-  label: Fastino Labs inference-history API
+  label: Fastino Labs Inference History API
   slug: fastino-labs-inference-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-history-api-openapi.yml
 - filename: fastino-labs-openai-compat-api-openapi.yml
   format: yaml
-  label: Fastino Labs openai-compat API
+  label: Fastino Labs Openai Compat API
   slug: fastino-labs-openai-compat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-openai-compat-api-openapi.yml
@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Small Language Models
 - Fine-Tuning
 - Inference

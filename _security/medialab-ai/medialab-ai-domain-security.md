@@ -105,6 +105,6 @@ tags:
 - Image
 - Music
 - Messaging
-- Communities
+- Community
 - Holding Company
 ---

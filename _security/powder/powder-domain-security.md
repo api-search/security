@@ -39,4 +39,5 @@ tags:
 - Media
 - Desktop Application
 - Discontinued
+- Defunct
 ---

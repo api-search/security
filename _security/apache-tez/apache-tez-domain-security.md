@@ -40,5 +40,5 @@ tags:
 - Execution Engine
 - Hadoop
 - YARN
-- Open-Source
+- Open Source
 ---

@@ -184,7 +184,7 @@ tags:
 - Data Enrichment
 - Geolocation
 - Monitoring & Alerts
-- agent-native
+- Agent-Native
 - MCP
 - Micropayments
 - x402

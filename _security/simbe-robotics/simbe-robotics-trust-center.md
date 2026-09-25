@@ -22,7 +22,7 @@ tags:
 - Robotics
 - Retail
 - Inventory
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Store Intelligence
 - RFID

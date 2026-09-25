@@ -36,7 +36,7 @@ tags:
 - Component Testing
 - Design Systems
 - Front-End Development
-- Open-Source
+- Open Source
 - React
 - UI Components
 - Visual Testing

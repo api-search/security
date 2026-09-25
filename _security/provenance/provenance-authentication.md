@@ -36,7 +36,7 @@ summary_line: none-for-reads/signature-based-for-writes · 2 schemes
 tags:
 - Company
 - Blockchain
-- Financial-Services
+- Financial Services
 - Tokenization
 - Real World Assets
 - Cosmos SDK

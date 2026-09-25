@@ -42,7 +42,7 @@ tags:
 - Electronic Health Records
 - Clinical Data
 - Interoperability
-- HL7 FHIR
+- FHIR
 - Medication Management
 - Digital Health
 - Low-Code

@@ -46,7 +46,7 @@ tags:
 - Logistics
 - Supply Chain
 - Warehousing
-- Real-Estate
+- Real Estate
 - Temperature Controlled
 - Cold Chain
 - EDI

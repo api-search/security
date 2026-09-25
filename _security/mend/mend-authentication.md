@@ -88,7 +88,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/openapi/mend-dependencies-source-files-api-openapi.yml
 - filename: mend-domain-controller-api-openapi.yml
   format: yaml
-  label: Mend domain-controller API
+  label: Mend Domain Controller API
   slug: mend-domain-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/openapi/mend-domain-controller-api-openapi.yml
@@ -190,13 +190,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/openapi/mend-policies-project-api-openapi.yml
 - filename: mend-product-attribution-report-controller-api-openapi.yml
   format: yaml
-  label: Mend product-attribution-report-controller API
+  label: Mend Product Attribution Report Controller API
   slug: mend-product-attribution-report-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/openapi/mend-product-attribution-report-controller-api-openapi.yml
 - filename: mend-project-attribution-report-controller-api-openapi.yml
   format: yaml
-  label: Mend project-attribution-report-controller API
+  label: Mend Project Attribution Report Controller API
   slug: mend-project-attribution-report-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/openapi/mend-project-attribution-report-controller-api-openapi.yml

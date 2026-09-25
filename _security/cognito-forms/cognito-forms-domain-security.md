@@ -71,7 +71,7 @@ tags:
 - Forms
 - Form Builder
 - Form Entries
-- Workflow-Automation
+- Workflow Automation
 - Data Collection
 - OData
 ---

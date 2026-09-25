@@ -82,6 +82,6 @@ tags:
 - Artificial Intelligence
 - LLM
 - RAG
-- Open-Source
+- Open Source
 - Orchestration
 ---

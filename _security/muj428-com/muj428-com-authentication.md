@@ -17,8 +17,8 @@ method: searched
 name: Muj428 Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: MUJ428 LLC declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: MUJ428 LLC
+overview: MUJ428 declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: MUJ428
 provider_slug: muj428-com
 scheme_count: 0
 schemes: []
@@ -40,7 +40,7 @@ tags:
 - MCP
 - x402
 - Payments
-- Risk
+- Risk Management
 - Verification
-- agent-native
+- Agent-Native
 ---

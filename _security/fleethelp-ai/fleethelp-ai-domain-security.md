@@ -35,6 +35,6 @@ tags:
 - Agent Support
 - DevOps
 - Telegram
-- agent-native
+- Agent-Native
 - Canada
 ---

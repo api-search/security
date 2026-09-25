@@ -38,5 +38,5 @@ tags:
 - Data Access
 - Data Integration
 - Developer Tools
-- Open-Source
+- Open Source
 ---

@@ -36,6 +36,6 @@ tags:
 - Design Marketplace
 - Crowdsourcing
 - Construction
-- Real-Estate
+- Real Estate
 - E-Learning
 ---

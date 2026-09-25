@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: alliance-resource-partners-content-openapi.yml
-  format: yaml
-  label: Alliance Resource Partners Content API
-  slug: alliance-resource-partners-content-api
+- filename: alliance-resource-partners-wp-routes-original.json
+  format: json
+  label: Alliance Resource Partners Website (WordPress REST)
+  slug: arlp-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/openapi/_original/alliance-resource-partners-content-openapi.yml
-- filename: alliance-resource-partners-o-embed-api-openapi.yml
-  format: yaml
-  label: Alliance Resource Partners o Embed API
-  slug: alliance-resource-partners-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/openapi/alliance-resource-partners-o-embed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/openapi/alliance-resource-partners-wp-routes-original.json
 description: ''
 domains:
 - caa: []
@@ -48,6 +42,5 @@ tags:
 - Energy
 - Royalties
 - Natural Resources
-- Content
 - Corporate
 ---

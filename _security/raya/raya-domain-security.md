@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- Social Networking
+- Social Network
 - Dating
 - Community
 - Membership

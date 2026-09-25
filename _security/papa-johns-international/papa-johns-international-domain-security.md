@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Food Service
 - Restaurant
-- QSR
+- Quick Service Restaurant
 - Pizza
 - Online Ordering
 - Delivery

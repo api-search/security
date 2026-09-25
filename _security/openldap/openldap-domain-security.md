@@ -34,6 +34,6 @@ tags:
 - LDAP
 - Identity
 - Authentication
-- Open-Source
+- Open Source
 - Infrastructure
 ---

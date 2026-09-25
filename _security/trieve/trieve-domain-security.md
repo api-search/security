@@ -72,5 +72,5 @@ tags:
 - Hybrid Search
 - Recommendations
 - Analytics
-- Open-Source
+- Open Source
 ---

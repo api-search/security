@@ -37,6 +37,6 @@ tags:
 - Developer Tools
 - SDK
 - Web Components
-- Open-Source
+- Open Source
 - Lottie
 ---

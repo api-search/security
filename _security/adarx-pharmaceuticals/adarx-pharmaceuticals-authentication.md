@@ -4,52 +4,10 @@ api_key_in: []
 api_specs:
 - filename: adarx-pharmaceuticals-clinics-api-openapi.yml
   format: yaml
-  label: ADARx Pharmaceuticals Clinics API
-  slug: adarx-pharmaceuticals-clinics-api
+  label: ADARx Pharmaceuticals Website (WordPress REST)
+  slug: adarx-com-website-wordpress-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-clinics-api-openapi.yml
-- filename: adarx-pharmaceuticals-content-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Content API
-  slug: adarx-pharmaceuticals-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-content-api-openapi.yml
-- filename: adarx-pharmaceuticals-embed-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Embed API
-  slug: adarx-pharmaceuticals-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-embed-api-openapi.yml
-- filename: adarx-pharmaceuticals-index-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Index API
-  slug: adarx-pharmaceuticals-index-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-index-api-openapi.yml
-- filename: adarx-pharmaceuticals-media-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Media API
-  slug: adarx-pharmaceuticals-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-media-api-openapi.yml
-- filename: adarx-pharmaceuticals-people-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals People API
-  slug: adarx-pharmaceuticals-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-people-api-openapi.yml
-- filename: adarx-pharmaceuticals-search-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Search API
-  slug: adarx-pharmaceuticals-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-search-api-openapi.yml
-- filename: adarx-pharmaceuticals-taxonomy-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Taxonomy API
-  slug: adarx-pharmaceuticals-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-taxonomy-api-openapi.yml
 auth_types:
 - http
 description: ''

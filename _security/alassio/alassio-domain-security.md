@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alassio/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payroll
 - Human Resources
 - Payroll Software

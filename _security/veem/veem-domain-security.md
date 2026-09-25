@@ -2,85 +2,85 @@
 api_specs:
 - filename: veem-attachment-controller-api-openapi.yml
   format: yaml
-  label: Veem attachment-controller API
+  label: Veem Attachment Controller API
   slug: veem-attachment-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-attachment-controller-api-openapi.yml
 - filename: veem-bank-account-controller-api-openapi.yml
   format: yaml
-  label: Veem bank-account-controller API
+  label: Veem Bank Account Controller API
   slug: veem-bank-account-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-bank-account-controller-api-openapi.yml
 - filename: veem-beneficial-owner-information-controller-api-openapi.yml
   format: yaml
-  label: Veem beneficial-owner-information-controller API
+  label: Veem Beneficial Owner Information Controller API
   slug: veem-beneficial-owner-information-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-beneficial-owner-information-controller-api-openapi.yml
 - filename: veem-claimless-payment-controller-api-openapi.yml
   format: yaml
-  label: Veem claimless-payment-controller API
+  label: Veem Claimless Payment Controller API
   slug: veem-claimless-payment-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-claimless-payment-controller-api-openapi.yml
 - filename: veem-contact-controller-api-openapi.yml
   format: yaml
-  label: Veem contact-controller API
+  label: Veem Contact Controller API
   slug: veem-contact-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-contact-controller-api-openapi.yml
 - filename: veem-crypto-wallet-controller-api-openapi.yml
   format: yaml
-  label: Veem crypto-wallet-controller API
+  label: Veem Crypto Wallet Controller API
   slug: veem-crypto-wallet-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-crypto-wallet-controller-api-openapi.yml
 - filename: veem-customer-controller-api-openapi.yml
   format: yaml
-  label: Veem customer-controller API
+  label: Veem Customer Controller API
   slug: veem-customer-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-customer-controller-api-openapi.yml
 - filename: veem-exchange-rate-controller-api-openapi.yml
   format: yaml
-  label: Veem exchange-rate-controller API
+  label: Veem Exchange Rate Controller API
   slug: veem-exchange-rate-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-exchange-rate-controller-api-openapi.yml
 - filename: veem-invoice-controller-api-openapi.yml
   format: yaml
-  label: Veem invoice-controller API
+  label: Veem Invoice Controller API
   slug: veem-invoice-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-invoice-controller-api-openapi.yml
 - filename: veem-meta-controller-api-openapi.yml
   format: yaml
-  label: Veem meta-controller API
+  label: Veem Meta Controller API
   slug: veem-meta-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-meta-controller-api-openapi.yml
 - filename: veem-open-account-controller-api-openapi.yml
   format: yaml
-  label: Veem open-account-controller API
+  label: Veem Open Account Controller API
   slug: veem-open-account-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-open-account-controller-api-openapi.yml
 - filename: veem-payment-controller-api-openapi.yml
   format: yaml
-  label: Veem payment-controller API
+  label: Veem Payment Controller API
   slug: veem-payment-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-payment-controller-api-openapi.yml
 - filename: veem-wallet-controller-api-openapi.yml
   format: yaml
-  label: Veem wallet-controller API
+  label: Veem Wallet Controller API
   slug: veem-wallet-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-wallet-controller-api-openapi.yml
 - filename: veem-webhook-controller-api-openapi.yml
   format: yaml
-  label: Veem webhook-controller API
+  label: Veem Webhook Controller API
   slug: veem-webhook-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-webhook-controller-api-openapi.yml

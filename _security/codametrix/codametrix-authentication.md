@@ -65,7 +65,7 @@ tags:
 - Revenue Cycle Management
 - Clinical Documentation
 - Healthcare AI
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - EHR Integration
 - Status

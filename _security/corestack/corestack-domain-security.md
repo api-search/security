@@ -564,6 +564,6 @@ tags:
 - Policy as Code
 - cloudops
 - MCP
-- agent-native
+- Agent-Native
 - Kubernetes
 ---

@@ -146,7 +146,7 @@ tags:
 - Coding Analytics
 - Leaderboards
 - IDE Plugins
-- Open-Source
+- Open Source
 - Public APIs
 trust_url: https://wakatime.com/legal/data-security
 ---

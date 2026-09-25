@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/security/flatin-pt-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Real-Estate
+- Real Estate
 - Property Tax
 - Tax
 - IMI

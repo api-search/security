@@ -135,4 +135,6 @@ tags:
 - Blockchain
 - Trading
 - Digital Assets
+- A2A
+- Ethereum
 ---

@@ -72,5 +72,5 @@ tags:
 - Java
 - Security
 - Apache
-- Open-Source
+- Open Source
 ---

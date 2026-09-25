@@ -78,7 +78,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database
 - Document Store
-- Key-Value
+- Key-Value Store
 - NoSQL
 - Serverless
 ---

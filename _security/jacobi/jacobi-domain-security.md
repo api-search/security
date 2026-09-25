@@ -54,6 +54,6 @@ tags:
 - Risk Analytics
 - model-portfolios
 - ocio
-- Financial-Services
+- Financial Services
 - Software-as-a-Service
 ---

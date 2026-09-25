@@ -35,5 +35,4 @@ tags:
 - Streaming
 - Russian
 - Entertainment
-- API
 ---

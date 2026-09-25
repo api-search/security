@@ -39,5 +39,5 @@ tags:
 - Identity
 - Detection and Response
 - Google Workspace
-- Microsoft-365
+- Microsoft 365
 ---

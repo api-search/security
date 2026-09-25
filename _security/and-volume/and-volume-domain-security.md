@@ -37,7 +37,7 @@ tags:
 - Institutional Investing
 - Fintech
 - Artificial Intelligence
-- Portfolio-Management
+- Portfolio Management
 - Blockchain
 - Treasury Management
 ---

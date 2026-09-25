@@ -72,5 +72,6 @@ tags:
 - GraphQL
 - Webhook
 - Software-as-a-Service
+- Scheduling
 trust_url: https://www.qminder.com/security/
 ---

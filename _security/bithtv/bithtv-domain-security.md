@@ -36,6 +36,6 @@ tags:
 - Content Creation
 - Artificial Intelligence
 - Media
-- Social-Media
+- Social Media
 - Creator Tools
 ---

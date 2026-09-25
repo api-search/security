@@ -257,5 +257,6 @@ tags:
 - iPaaS
 - MCP
 - Rebrand
-- Unified-API
+- Unified API
+- A2A
 ---

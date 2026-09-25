@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: >-\n  live anonym
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administrative-conference-of-the-united-states/refs/heads/main/authentication/administrative-conference-of-the-united-states-authentication.yml
 summary_line: 0 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Regulatory Reform
 - Administrative Law
 - Government Efficiency

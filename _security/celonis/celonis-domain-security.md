@@ -146,7 +146,8 @@ tags:
 - Process Intelligence
 - Data
 - Analytics
-- Machine-Learning
+- Machine Learning
 - AI Agents
 - Enterprise
+- Workflow Automation
 ---

@@ -90,6 +90,7 @@ tags:
 - Orchestration
 - Workflows
 - Runbook
-- Open-Source
+- Open Source
 - IT Operations
+- Scheduling
 ---

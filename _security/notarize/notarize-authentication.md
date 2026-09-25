@@ -61,7 +61,7 @@ tags:
 - Identity Verification
 - E-Signature
 - Digital Credentials
-- Real-Estate
+- Real Estate
 - Mortgage
 - Legal Tech
 ---

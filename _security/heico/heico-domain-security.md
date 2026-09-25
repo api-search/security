@@ -23,8 +23,8 @@ layout: security
 method: probed
 name: Heico Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for HEICO Corporation, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: HEICO Corporation
+overview: 'Domain security posture for HEICO, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: HEICO
 provider_slug: heico
 slug: heico-domain-security
 source_filename: heico-domain-security.yml

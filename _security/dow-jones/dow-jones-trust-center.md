@@ -299,7 +299,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.dow
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/security/dow-jones-trust-center.yml
 summary_line: ISO/IEC 27001, ISAE 3000 (Revised) — Sanctions Assurance
 tags:
-- Financial
+- Finance
 - Market Data
 - News
 - Publishing

@@ -26,5 +26,6 @@ tags:
 - Fleet Management
 - Energy Management
 - Transportation
+- Mobility
 trust_url: https://trust.chargepoint.com/
 ---

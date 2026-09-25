@@ -54,9 +54,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/security/zerobounce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Email Validation
-- Email Deliverability
 - Email Verification
+- Email Deliverability
 - Marketing
 - Lead Scoring
 - Anti-Spam
@@ -64,4 +63,5 @@ tags:
 - Email Finder
 - Deliverability Monitoring
 - DMARC
+- Email
 ---

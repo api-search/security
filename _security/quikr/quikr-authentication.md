@@ -60,7 +60,7 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Real-Estate
+- Real Estate
 - Automotive
 - Job
 - E-Commerce

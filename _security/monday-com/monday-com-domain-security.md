@@ -53,4 +53,6 @@ tags:
 - CRM
 - Automation
 - GraphQL
+- Collaboration
+- A2A
 ---

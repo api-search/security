@@ -166,7 +166,7 @@ tags:
 - Enterprise Software
 - Platform-as-a-Service
 - Workflows
-- Financial-Services
+- Financial Services
 - Insurance
 - Government
 - Application Modernization

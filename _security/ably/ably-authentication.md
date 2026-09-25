@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: ably-apps-api-openapi.yml
   format: yaml
-  label: Ably apps API
+  label: Ably Apps API
   slug: ably-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-apps-api-openapi.yml
@@ -22,13 +22,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-history-api-openapi.yml
 - filename: ably-keys-api-openapi.yml
   format: yaml
-  label: Ably keys API
+  label: Ably Keys API
   slug: ably-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-keys-api-openapi.yml
 - filename: ably-namespaces-api-openapi.yml
   format: yaml
-  label: Ably namespaces API
+  label: Ably Namespaces API
   slug: ably-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-namespaces-api-openapi.yml
@@ -46,13 +46,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-push-api-openapi.yml
 - filename: ably-queues-api-openapi.yml
   format: yaml
-  label: Ably queues API
+  label: Ably Queues API
   slug: ably-queues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-queues-api-openapi.yml
 - filename: ably-rules-api-openapi.yml
   format: yaml
-  label: Ably rules API
+  label: Ably Rules API
   slug: ably-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-rules-api-openapi.yml
@@ -70,7 +70,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-status-api-openapi.yml
 - filename: ably-tokens-api-openapi.yml
   format: yaml
-  label: Ably tokens API
+  label: Ably Tokens API
   slug: ably-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-tokens-api-openapi.yml

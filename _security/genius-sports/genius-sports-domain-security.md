@@ -26,19 +26,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-horses-api-openapi.yml
 - filename: genius-sports-competitors-players-api-openapi.yml
   format: yaml
-  label: Genius Sports competitors/players API
+  label: Genius Sports Competitors/players API
   slug: genius-sports-competitors-players-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-players-api-openapi.yml
 - filename: genius-sports-competitors-tbds-api-openapi.yml
   format: yaml
-  label: Genius Sports competitors/tbds API
+  label: Genius Sports Competitors/tbds API
   slug: genius-sports-competitors-tbds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-tbds-api-openapi.yml
 - filename: genius-sports-competitors-teams-api-openapi.yml
   format: yaml
-  label: Genius Sports competitors/teams API
+  label: Genius Sports Competitors/teams API
   slug: genius-sports-competitors-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-teams-api-openapi.yml

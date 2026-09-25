@@ -32,7 +32,7 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Automation
 - Manufacturing

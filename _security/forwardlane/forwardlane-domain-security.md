@@ -34,7 +34,7 @@ tags:
 - Company
 - Decision Intelligence
 - Enterprise AI
-- Financial-Services
+- Financial Services
 - Private Markets
 - Natural Language Analytics
 - Compliance

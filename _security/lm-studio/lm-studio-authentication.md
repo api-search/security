@@ -60,7 +60,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Local LLM
-- Machine-Learning
+- Machine Learning
 - Inference
 - Developer Tools
 - LLM

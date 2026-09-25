@@ -33,10 +33,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Science
-- Agentic AI
+- AI Agents
 - Predictive Analytics
 - Generative AI
 ---

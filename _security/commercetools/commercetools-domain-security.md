@@ -132,4 +132,5 @@ tags:
 - GraphQL
 - REST
 - SDK
+- Agentic Commerce
 ---

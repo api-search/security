@@ -42,8 +42,8 @@ summary_line: oauth2/session · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Video Analytics
 - Vision Agents
 - Edge AI

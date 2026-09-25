@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accessfintech/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Post-Trade
 - Settlement

@@ -22,8 +22,8 @@ tags:
 - Industrial Automation
 - Manufacturing
 - Industrial IoT
-- IIoT
 - Industrial Data
 - Energy
+- Industrial
 trust_url: https://www.aveva.com/en/legal/trust/
 ---

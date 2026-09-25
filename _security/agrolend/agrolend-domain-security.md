@@ -73,7 +73,7 @@ tags:
 - Company
 - Agriculture
 - AgTech
-- Financial-Services
+- Financial Services
 - Lending
 - Credit
 - Fintech

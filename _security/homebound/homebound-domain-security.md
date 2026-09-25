@@ -34,7 +34,7 @@ tags:
 - Company
 - Construction Tech
 - Homebuilding
-- Real-Estate
+- Real Estate
 - PropTech
 - Home Construction
 - Disaster Rebuild

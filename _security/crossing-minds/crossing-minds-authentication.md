@@ -34,7 +34,7 @@ tags:
 - Ai Ml
 - Recommendations
 - Personalization
-- Machine-Learning
+- Machine Learning
 - Recommender System
 - Retrieval
 - E-Commerce

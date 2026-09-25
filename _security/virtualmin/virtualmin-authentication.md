@@ -43,6 +43,6 @@ tags:
 - Database
 - SSL
 - WordPress
-- Open-Source
+- Open Source
 - Linux
 ---

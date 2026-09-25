@@ -62,8 +62,8 @@ summary_line: aws-sigv4/http-bearer · 2 schemes
 tags:
 - Foundation Models
 - Generative AI
-- Image-Generation
-- Machine-Learning
+- Image Generation
+- Machine Learning
 - Multi-Modal
 - Speech
 - Video Generation

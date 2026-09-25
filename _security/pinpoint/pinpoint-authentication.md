@@ -57,8 +57,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pinpoint
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/authentication/pinpoint-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- ATS
-- Recruitment
+- Applicant Tracking
+- Recruiting
 - Hiring
 - Human Resources
 - JSON:API

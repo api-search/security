@@ -54,6 +54,7 @@ tags:
 - Manufacturing
 - PLC
 - SCADA
-- IIoT
+- Industrial IoT
 - Fortune 500
+- Industrial
 ---

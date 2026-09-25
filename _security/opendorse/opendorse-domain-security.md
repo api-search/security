@@ -74,7 +74,7 @@ tags:
 - NIL
 - Marketplace
 - Endorsements
-- Social-Media
+- Social Media
 - Compliance
 - Higher Education
 - Payments

@@ -37,7 +37,7 @@ tags:
 - Building Automation
 - Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Predictive Maintenance
 - Smart Buildings
 ---

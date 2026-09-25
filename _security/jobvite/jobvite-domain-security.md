@@ -50,7 +50,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobvite/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Applicant Tracking
-- ATS
 - Recruiting
 - Human Resources
 - Talent Acquisition

@@ -42,7 +42,7 @@ tags:
 - Hoteling
 - Meeting Rooms
 - Occupancy Analytics
-- Real-Estate
+- Real Estate
 - Floor Plans
 - GraphQL
 - IWMS

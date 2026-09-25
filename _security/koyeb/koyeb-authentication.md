@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: koyeb-activity-api-openapi.yml
   format: yaml
-  label: Koyeb activity API
+  label: Koyeb Activity API
   slug: koyeb-activity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-activity-api-openapi.yml
@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-archives-api-openapi.yml
 - filename: koyeb-billing-api-openapi.yml
   format: yaml
-  label: Koyeb billing API
+  label: Koyeb Billing API
   slug: koyeb-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-billing-api-openapi.yml
@@ -101,7 +101,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-intercom-api-openapi.yml
 - filename: koyeb-invite-api-openapi.yml
   format: yaml
-  label: Koyeb invite API
+  label: Koyeb Invite API
   slug: koyeb-invite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-invite-api-openapi.yml
@@ -119,7 +119,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-metrics-api-openapi.yml
 - filename: koyeb-organization-api-openapi.yml
   format: yaml
-  label: Koyeb organization API
+  label: Koyeb Organization API
   slug: koyeb-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-organization-api-openapi.yml
@@ -203,7 +203,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-snapshots-api-openapi.yml
 - filename: koyeb-sso-api-openapi.yml
   format: yaml
-  label: Koyeb sso API
+  label: Koyeb SSO API
   slug: koyeb-sso-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/openapi/koyeb-sso-api-openapi.yml
@@ -315,7 +315,7 @@ tags:
 - Developer Tools
 - Compute
 - Hosting
-- Postgres
+- PostgreSQL
 - Sandbox
 - Edge Network
 - Infrastructure as Code

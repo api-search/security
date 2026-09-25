@@ -34,8 +34,8 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Robotic Process Automation
+- RPA
 - Computer Use
-- Workflow-Automation
+- Workflow Automation
 - UI Automation
 ---

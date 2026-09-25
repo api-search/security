@@ -330,7 +330,7 @@ tags:
 - CRM
 - Sales
 - Automation
-- Pipeline
+- Pipelines
 - Cloud
 trust_url: https://www.coevera.com/security/
 ---

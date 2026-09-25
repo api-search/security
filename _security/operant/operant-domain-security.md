@@ -38,7 +38,7 @@ tags:
 - Runtime Security
 - Cloud Security
 - Kubernetes
-- Agentic AI
+- AI Agents
 - CADR
 - Detection and Response
 ---

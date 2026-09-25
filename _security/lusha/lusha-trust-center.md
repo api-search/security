@@ -9,7 +9,7 @@ api_specs:
 - filename: lusha-enrich-api-openapi.yml
   format: yaml
   label: Lusha Enrich API
-  slug: lusha-enrichment-api
+  slug: lusha-enrich-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-enrich-api-openapi.yml
 - filename: lusha-search-enrich-api-openapi.yml

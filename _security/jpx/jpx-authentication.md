@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://jpx-jqu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/authentication/jpx-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Exchange

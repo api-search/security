@@ -38,7 +38,7 @@ tags:
 - Hedge Funds
 - Algorithmic Trading
 - Quantitative Trading
-- Machine-Learning
+- Machine Learning
 - Asset Management
 - Investment
 ---

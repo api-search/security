@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/workato-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/authentication/workato-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Agentic
+- AI Agents
 - API Management
 - Automation
 - B2B
@@ -104,4 +104,5 @@ tags:
 - iPaaS
 - Orchestration
 - Workflows
+- Workflow Automation
 ---

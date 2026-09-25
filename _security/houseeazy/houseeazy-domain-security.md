@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Consumer
-- Real-Estate
+- Real Estate
 - PropTech
 - Property
 - Resale

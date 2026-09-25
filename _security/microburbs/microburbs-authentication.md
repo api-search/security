@@ -242,7 +242,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microburbs/ref
 summary_line: http · 1 scheme
 tags:
 - Property Data
-- Real-Estate
+- Real Estate
 - Australia
 - Demographics
 - Location Intelligence

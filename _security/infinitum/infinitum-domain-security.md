@@ -42,7 +42,7 @@ tags:
 - Manufacturing
 - Industrial Automation
 - Building Automation
-- Data-Center
+- Data Center
 - HVAC
 - Energy Efficiency
 - IoT

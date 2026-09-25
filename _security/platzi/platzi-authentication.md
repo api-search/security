@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: platzi-auth-api-openapi.yml
   format: yaml
-  label: Platzi auth API
+  label: Platzi Auth API
   slug: platzi-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-auth-api-openapi.yml
 - filename: platzi-categories-api-openapi.yml
   format: yaml
-  label: Platzi categories API
+  label: Platzi Categories API
   slug: platzi-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-categories-api-openapi.yml
 - filename: platzi-files-api-openapi.yml
   format: yaml
-  label: Platzi files API
+  label: Platzi Files API
   slug: platzi-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-files-api-openapi.yml
@@ -28,13 +28,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-locations-api-openapi.yml
 - filename: platzi-products-api-openapi.yml
   format: yaml
-  label: Platzi products API
+  label: Platzi Products API
   slug: platzi-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-products-api-openapi.yml
 - filename: platzi-users-api-openapi.yml
   format: yaml
-  label: Platzi users API
+  label: Platzi Users API
   slug: platzi-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/openapi/platzi-users-api-openapi.yml

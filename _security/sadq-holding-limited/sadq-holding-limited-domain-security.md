@@ -127,8 +127,8 @@ layout: security
 method: probed
 name: Sadq Holding Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Sadq Holding Limited, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Sadq Holding Limited
+overview: 'Domain security posture for Sadq, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Sadq
 provider_slug: sadq-holding-limited
 slug: sadq-holding-limited-domain-security
 source_filename: sadq-holding-limited-domain-security.yml
@@ -143,7 +143,7 @@ tags:
 - Digital Signature
 - Identity
 - KYB
-- Document-Management
+- Document Management
 - Saudi Arabia
 - Nafath
 - Webhook

@@ -37,7 +37,7 @@ tags:
 - Supply Chain
 - Logistics
 - Freight Forwarding
-- Robotic Process Automation
+- RPA
 - Digital Workers
 - Enterprise Software
 - E-Commerce

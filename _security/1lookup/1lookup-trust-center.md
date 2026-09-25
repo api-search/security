@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/h
 summary_line: trust center published
 tags:
 - Phone Validation
-- Email Validation
+- Email Verification
 - IP Intelligence
 - Fraud and Risk
 - Data Enrichment

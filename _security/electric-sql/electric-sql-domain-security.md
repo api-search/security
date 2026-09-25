@@ -58,7 +58,7 @@ tags:
 - Database
 - Sync
 - Local-First
-- Postgres
+- PostgreSQL
 - Real-Time
-- Open-Source
+- Open Source
 ---

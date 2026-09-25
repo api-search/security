@@ -29,7 +29,7 @@ tags:
 - Asset Management
 - Commercial Real Estate
 - Fund Management
-- Portfolio-Management
+- Portfolio Management
 - Real Estate Software
 - Valuation
 trust_url: ''

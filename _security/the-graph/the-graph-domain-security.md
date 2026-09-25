@@ -65,4 +65,5 @@ tags:
 - GraphQL
 - Subgraph
 - Multi-Chain
+- Ethereum
 ---

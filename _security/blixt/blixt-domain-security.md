@@ -37,6 +37,6 @@ tags:
 - Hardware
 - Electrical Distribution
 - Deep Tech
-- Data-Center
+- Data Center
 - Sweden
 ---

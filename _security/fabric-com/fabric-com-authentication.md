@@ -347,7 +347,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-tracking-api-openapi.yml
 - filename: fabric-com-transfer-shipment-controller-api-openapi.yml
   format: yaml
-  label: fabric transfer-shipment-controller API
+  label: fabric Transfer Shipment Controller API
   slug: fabric-com-transfer-shipment-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/openapi/fabric-com-transfer-shipment-controller-api-openapi.yml

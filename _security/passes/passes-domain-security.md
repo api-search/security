@@ -44,5 +44,5 @@ tags:
 - Subscription
 - Payments
 - Content
-- Social-Media
+- Social Media
 ---

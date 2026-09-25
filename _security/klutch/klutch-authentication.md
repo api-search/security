@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klutch/refs/he
 summary_line: http/oauth2 · 4 schemes
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Credit Cards
 - Payments

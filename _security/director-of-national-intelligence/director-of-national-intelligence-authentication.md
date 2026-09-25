@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: openapi/director-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/authentication/director-of-national-intelligence-authentication.yml
 summary_line: none · 0 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Intelligence
 - National Security
 - Government

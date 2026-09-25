@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Endless Studios Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Endless Studios LLC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Endless Studios LLC
+overview: 'Domain security posture for Endless Studios, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Endless Studios
 provider_slug: endless-studios-llc
 slug: endless-studios-llc-domain-security
 source_filename: endless-studios-llc-domain-security.yml

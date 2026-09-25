@@ -40,6 +40,6 @@ tags:
 - Hybrid Apps
 - JavaScript
 - Mobile
-- Open-Source
+- Open Source
 - Plugins
 ---

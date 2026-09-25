@@ -2,13 +2,13 @@
 api_specs:
 - filename: runloop-ai-agents-api-openapi.yml
   format: yaml
-  label: Runloop agents API
+  label: Runloop Agents API
   slug: runloop-ai-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-agents-api-openapi.yml
 - filename: runloop-ai-axons-api-openapi.yml
   format: yaml
-  label: Runloop axons API
+  label: Runloop Axons API
   slug: runloop-ai-axons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-axons-api-openapi.yml
@@ -80,37 +80,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-shelltools-api-openapi.yml
 - filename: runloop-ai-executions-api-openapi.yml
   format: yaml
-  label: Runloop executions API
+  label: Runloop Executions API
   slug: runloop-ai-executions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-executions-api-openapi.yml
 - filename: runloop-ai-gateway-configs-api-openapi.yml
   format: yaml
-  label: Runloop gateway-configs API
+  label: Runloop Gateway Configs API
   slug: runloop-ai-gateway-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-gateway-configs-api-openapi.yml
 - filename: runloop-ai-mcp-configs-api-openapi.yml
   format: yaml
-  label: Runloop mcp-configs API
+  label: Runloop MCP Configs API
   slug: runloop-ai-mcp-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-mcp-configs-api-openapi.yml
 - filename: runloop-ai-network-policies-api-openapi.yml
   format: yaml
-  label: Runloop network-policies API
+  label: Runloop Network Policies API
   slug: runloop-ai-network-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-network-policies-api-openapi.yml
 - filename: runloop-ai-objects-api-openapi.yml
   format: yaml
-  label: Runloop objects API
+  label: Runloop Objects API
   slug: runloop-ai-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-objects-api-openapi.yml
 - filename: runloop-ai-restricted-keys-api-openapi.yml
   format: yaml
-  label: Runloop restricted_keys API
+  label: Runloop Restricted Keys API
   slug: runloop-ai-restricted-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-restricted-keys-api-openapi.yml
@@ -128,13 +128,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-scenarioscorer-api-openapi.yml
 - filename: runloop-ai-secrets-api-openapi.yml
   format: yaml
-  label: Runloop secrets API
+  label: Runloop Secrets API
   slug: runloop-ai-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-secrets-api-openapi.yml
 - filename: runloop-ai-streaming-api-openapi.yml
   format: yaml
-  label: Runloop streaming API
+  label: Runloop Streaming API
   slug: runloop-ai-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-streaming-api-openapi.yml

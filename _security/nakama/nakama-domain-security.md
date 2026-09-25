@@ -101,5 +101,5 @@ tags:
 - Matchmaking
 - Leaderboards
 - Social
-- Open-Source
+- Open Source
 ---

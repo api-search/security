@@ -57,4 +57,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/
 summary_line: http · 1 scheme
 tags:
 - Documentation
+- API Documentation
+- Developer Portal
+- Artificial Intelligence
+- MCP
 ---

@@ -68,5 +68,5 @@ tags:
 - Networks
 - Networking
 - Security
-- Telecom
+- Telecommunications
 ---

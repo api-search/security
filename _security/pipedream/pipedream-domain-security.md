@@ -152,4 +152,5 @@ tags:
 - Embedded Integrations
 - Managed Auth
 - AI Agents
+- Workflow Automation
 ---

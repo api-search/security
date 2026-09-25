@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cultural Heritage
-- Libraries
+- Library
 - Archives
 - Museums
 - Open Data

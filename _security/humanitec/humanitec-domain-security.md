@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-agents-api-openapi.yml
 - filename: humanitec-public-api-openapi.yml
   format: yaml
-  label: Humanitec public API
+  label: Humanitec Public API
   slug: humanitec-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-public-api-openapi.yml

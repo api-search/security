@@ -151,7 +151,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Local Payment Methods
-- Financial-Services
+- Financial Services
 - Fintech
 - Acquiring
 - Checkout

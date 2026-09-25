@@ -21,10 +21,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Banking
-- Financial-Services
+- Financial Services
 - Conversational AI
 - Customer Engagement
 - Relationship Banking
-- Agentic AI
+- AI Agents
 trust_url: https://agentiq.com/security-and-accessibility
 ---

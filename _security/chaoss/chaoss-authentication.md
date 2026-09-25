@@ -158,7 +158,7 @@ tags:
 - Linux Foundation
 - Metrics
 - Observability
-- Open-Source
-- Risk
+- Open Source
+- Risk Management
 - Sustainability
 ---

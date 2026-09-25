@@ -234,7 +234,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-amfdeployments-api-openapi.yml
 - filename: microsoft-azure-amlfilesystems-api-openapi.yml
   format: yaml
-  label: Microsoft Azure amlFilesystems API
+  label: Microsoft Azure Aml Filesystems API
   slug: microsoft-azure-amlfilesystems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-amlfilesystems-api-openapi.yml
@@ -1842,13 +1842,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customimages-api-openapi.yml
 - filename: microsoft-azure-customizationpolicies-api-openapi.yml
   format: yaml
-  label: Microsoft Azure customizationPolicies API
+  label: Microsoft Azure Customization Policies API
   slug: microsoft-azure-customizationpolicies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customizationpolicies-api-openapi.yml
 - filename: microsoft-azure-customlocations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure customLocations API
+  label: Microsoft Azure Custom Locations API
   slug: microsoft-azure-customlocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-customlocations-api-openapi.yml
@@ -1986,7 +1986,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataproductscatalogs-api-openapi.yml
 - filename: microsoft-azure-dataregistries-api-openapi.yml
   format: yaml
-  label: Microsoft Azure dataRegistries API
+  label: Microsoft Azure Data Registries API
   slug: microsoft-azure-dataregistries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-dataregistries-api-openapi.yml
@@ -2100,7 +2100,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deleteaccessreviewscheduledefinition-api-openapi.yml
 - filename: microsoft-azure-deletedapplications-api-openapi.yml
   format: yaml
-  label: Microsoft Azure deletedApplications API
+  label: Microsoft Azure Deleted Applications API
   slug: microsoft-azure-deletedapplications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deletedapplications-api-openapi.yml
@@ -2148,7 +2148,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deployment-management-api-openapi.yml
 - filename: microsoft-azure-deploymentmanifests-api-openapi.yml
   format: yaml
-  label: Microsoft Azure deploymentManifests API
+  label: Microsoft Azure Deployment Manifests API
   slug: microsoft-azure-deploymentmanifests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-deploymentmanifests-api-openapi.yml
@@ -2262,7 +2262,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-devopspolicy-api-openapi.yml
 - filename: microsoft-azure-diagnosticoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure diagnosticOperations API
+  label: Microsoft Azure Diagnostic Operations API
   slug: microsoft-azure-diagnosticoperations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnosticoperations-api-openapi.yml
@@ -2274,13 +2274,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnostics-api-openapi.yml
 - filename: microsoft-azure-diagnostics-diskinspection-api-openapi.yml
   format: yaml
-  label: Microsoft Azure diagnostics_DiskInspection API
+  label: Microsoft Azure Diagnostics Disk Inspection API
   slug: microsoft-azure-diagnostics-diskinspection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnostics-diskinspection-api-openapi.yml
 - filename: microsoft-azure-diagnostics-spotplacementrecommender-api-openapi.yml
   format: yaml
-  label: Microsoft Azure diagnostics_SpotPlacementRecommender API
+  label: Microsoft Azure Diagnostics Spot Placement Recommender API
   slug: microsoft-azure-diagnostics-spotplacementrecommender-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-diagnostics-spotplacementrecommender-api-openapi.yml
@@ -2334,7 +2334,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-disco-templates-api-openapi.yml
 - filename: microsoft-azure-discoversolutions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure discoverSolutions API
+  label: Microsoft Azure Discover Solutions API
   slug: microsoft-azure-discoversolutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discoversolutions-api-openapi.yml
@@ -2358,7 +2358,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discovery-templates-api-openapi.yml
 - filename: microsoft-azure-discoverysolutions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure discoverySolutions API
+  label: Microsoft Azure Discovery Solutions API
   slug: microsoft-azure-discoverysolutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-discoverysolutions-api-openapi.yml
@@ -2580,7 +2580,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-enrollmentgroup-api-openapi.yml
 - filename: microsoft-azure-enrollmentgroups-api-openapi.yml
   format: yaml
-  label: Microsoft Azure enrollmentGroups API
+  label: Microsoft Azure Enrollment Groups API
   slug: microsoft-azure-enrollmentgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-enrollmentgroups-api-openapi.yml
@@ -2880,7 +2880,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-features-api-openapi.yml
 - filename: microsoft-azure-featurestatesets-api-openapi.yml
   format: yaml
-  label: Microsoft Azure featureStateSets API
+  label: Microsoft Azure Feature State Sets API
   slug: microsoft-azure-featurestatesets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-featurestatesets-api-openapi.yml
@@ -3996,7 +3996,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-key-api-openapi.yml
 - filename: microsoft-azure-keyphrases-api-openapi.yml
   format: yaml
-  label: Microsoft Azure keyPhrases API
+  label: Microsoft Azure Key Phrases API
   slug: microsoft-azure-keyphrases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-keyphrases-api-openapi.yml
@@ -4080,7 +4080,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-layout-api-openapi.yml
 - filename: microsoft-azure-ledgeridentity-api-openapi.yml
   format: yaml
-  label: Microsoft Azure ledgerIdentity API
+  label: Microsoft Azure Ledger Identity API
   slug: microsoft-azure-ledgeridentity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-ledgeridentity-api-openapi.yml
@@ -6066,7 +6066,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-receivedshare-api-openapi.yml
 - filename: microsoft-azure-recognizetext-api-openapi.yml
   format: yaml
-  label: Microsoft Azure recognizeText API
+  label: Microsoft Azure Recognize Text API
   slug: microsoft-azure-recognizetext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-recognizetext-api-openapi.yml
@@ -6144,7 +6144,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registeredserver-resource-api-openapi.yml
 - filename: microsoft-azure-registerstorageconfiguration-api-openapi.yml
   format: yaml
-  label: Microsoft Azure registerStorageConfiguration API
+  label: Microsoft Azure Register Storage Configuration API
   slug: microsoft-azure-registerstorageconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-registerstorageconfiguration-api-openapi.yml
@@ -6462,7 +6462,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcesetruleconfig-api-openapi.yml
 - filename: microsoft-azure-resourcesyncrules-api-openapi.yml
   format: yaml
-  label: Microsoft Azure resourceSyncRules API
+  label: Microsoft Azure Resource Sync Rules API
   slug: microsoft-azure-resourcesyncrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-resourcesyncrules-api-openapi.yml
@@ -6816,7 +6816,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-selfservicepolicies-api-openapi.yml
 - filename: microsoft-azure-sensitivitysettings-api-openapi.yml
   format: yaml
-  label: Microsoft Azure sensitivitySettings API
+  label: Microsoft Azure Sensitivity Settings API
   slug: microsoft-azure-sensitivitysettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sensitivitysettings-api-openapi.yml
@@ -7182,7 +7182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-sim-swap-api-openapi.yml
 - filename: microsoft-azure-simplifiedsolutions-api-openapi.yml
   format: yaml
-  label: Microsoft Azure simplifiedSolutions API
+  label: Microsoft Azure Simplified Solutions API
   slug: microsoft-azure-simplifiedsolutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-simplifiedsolutions-api-openapi.yml
@@ -7344,7 +7344,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-split-clone-volume-api-openapi.yml
 - filename: microsoft-azure-spotplacementrecommender-api-openapi.yml
   format: yaml
-  label: Microsoft Azure spotPlacementRecommender API
+  label: Microsoft Azure Spot Placement Recommender API
   slug: microsoft-azure-spotplacementrecommender-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-spotplacementrecommender-api-openapi.yml
@@ -7920,19 +7920,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-dependent-api-openapi.yml
 - filename: microsoft-azure-text-detectgroundedness-api-openapi.yml
   format: yaml
-  label: Microsoft Azure text:detectGroundedness API
+  label: Microsoft Azure Text:detect Groundedness API
   slug: microsoft-azure-text-detectgroundedness-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-detectgroundedness-api-openapi.yml
 - filename: microsoft-azure-text-detectjailbreak-api-openapi.yml
   format: yaml
-  label: Microsoft Azure text:detectJailbreak API
+  label: Microsoft Azure Text:detect Jailbreak API
   slug: microsoft-azure-text-detectjailbreak-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-detectjailbreak-api-openapi.yml
 - filename: microsoft-azure-text-detectprotectedmaterial-api-openapi.yml
   format: yaml
-  label: Microsoft Azure text:detectProtectedMaterial API
+  label: Microsoft Azure Text:detect Protected Material API
   slug: microsoft-azure-text-detectprotectedmaterial-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-detectprotectedmaterial-api-openapi.yml
@@ -7944,7 +7944,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-independent-api-openapi.yml
 - filename: microsoft-azure-text-shieldprompt-api-openapi.yml
   format: yaml
-  label: Microsoft Azure text:shieldPrompt API
+  label: Microsoft Azure Text:shield Prompt API
   slug: microsoft-azure-text-shieldprompt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-text-shieldprompt-api-openapi.yml
@@ -7956,7 +7956,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-textmoderation-api-openapi.yml
 - filename: microsoft-azure-textoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure textOperations API
+  label: Microsoft Azure Text Operations API
   slug: microsoft-azure-textoperations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-textoperations-api-openapi.yml
@@ -8310,7 +8310,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validateprobe-api-openapi.yml
 - filename: microsoft-azure-validatestorageconfiguration-api-openapi.yml
   format: yaml
-  label: Microsoft Azure validateStorageConfiguration API
+  label: Microsoft Azure Validate Storage Configuration API
   slug: microsoft-azure-validatestorageconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-validatestorageconfiguration-api-openapi.yml
@@ -8628,7 +8628,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vpngateways-api-openapi.yml
 - filename: microsoft-azure-vpnlinkconnections-api-openapi.yml
   format: yaml
-  label: Microsoft Azure vpnLinkConnections API
+  label: Microsoft Azure Vpn Link Connections API
   slug: microsoft-azure-vpnlinkconnections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-vpnlinkconnections-api-openapi.yml

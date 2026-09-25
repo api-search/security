@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Pall Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Pall Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Pall Corporation
+overview: 'Domain security posture for Pall, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Pall
 provider_slug: pall
 slug: pall-domain-security
 source_filename: pall-domain-security.yml

@@ -37,5 +37,5 @@ tags:
 - Social
 - Chat
 - Mobile
-- Communities
+- Community
 ---

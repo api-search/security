@@ -44,9 +44,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tagove/refs/he
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Live Chat
-- Conversational
+- Conversational AI
 - Co-Browsing
 - Chatbots
 - Webhook

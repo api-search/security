@@ -38,5 +38,5 @@ tags:
 - Drug Discovery
 - Therapeutics
 - Neuroimmunology
-- Machine-Learning
+- Machine Learning
 ---

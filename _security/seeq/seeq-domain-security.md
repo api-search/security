@@ -34,8 +34,9 @@ tags:
 - Manufacturing
 - Industrial Analytics
 - Time Series
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Process Manufacturing
 - Data Analytics
+- Industrial
 ---

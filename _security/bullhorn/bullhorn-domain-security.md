@@ -33,9 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Staffing
-- Recruitment
+- Recruiting
 - Applicant Tracking
-- ATS
 - CRM
 - Human Resources
 - REST

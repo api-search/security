@@ -148,7 +148,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land
 summary_line: none/oauth2/openIdConnect · 6 schemes
 tags:
 - Environment
-- Federal-Government
+- Federal Government
 - Land
 - Resources
 - GIS

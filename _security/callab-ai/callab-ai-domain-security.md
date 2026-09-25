@@ -50,6 +50,6 @@ tags:
 - Voice Agents
 - Call Automation
 - PBX
-- Customer-Support
+- Customer Support
 - AI Agents
 ---

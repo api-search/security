@@ -36,7 +36,7 @@ tags:
 - Monorepo
 - Workspace
 - Plug'n'Play
-- Open-Source
+- Open Source
 - Berry
 - Yarn 4
 ---

@@ -72,4 +72,5 @@ tags:
 - Serverless
 - GPU
 - Bittensor
+- Real-Time
 ---

@@ -40,7 +40,6 @@ tags:
 - Manufacturing
 - Industrial IoT
 - Edge Computing
-- IIoT
 - Unified Namespace
 - MQTT
 - DataOps

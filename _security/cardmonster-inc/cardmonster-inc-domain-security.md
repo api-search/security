@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Cardmonster Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CardMonster Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: CardMonster Inc.
+overview: 'Domain security posture for CardMonster, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: CardMonster
 provider_slug: cardmonster-inc
 slug: cardmonster-inc-domain-security
 source_filename: cardmonster-inc-domain-security.yml

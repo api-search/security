@@ -50,7 +50,7 @@ summary_line: 0 schemes
 tags:
 - Data
 - Reference
-- Telecom
+- Telecommunications
 - Phone
 - OpenAPI
 - MCP

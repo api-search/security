@@ -40,5 +40,5 @@ tags:
 - S&OP
 - Supply Chain Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 ---

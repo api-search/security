@@ -280,5 +280,6 @@ tags:
 - MCP
 - Multi-Agent
 - RAG
-- Open-Source
+- Open Source
+- Real-Time
 ---

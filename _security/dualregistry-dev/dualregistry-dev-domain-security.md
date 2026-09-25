@@ -46,5 +46,5 @@ tags:
 - Payments
 - Intent Trading
 - Machine Economy
-- agent-native
+- Agent-Native
 ---

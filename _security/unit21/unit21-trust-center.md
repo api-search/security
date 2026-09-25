@@ -21,11 +21,10 @@ summary_line: SOC 2, GDPR
 tags:
 - Fraud Detection
 - AML
-- Anti-Money Laundering
 - Compliance
 - Fintech
 - Transaction Monitoring
-- Risk
+- Risk Management
 - SAR
 - Financial Crime
 - Suspicious Activity Reports

@@ -34,6 +34,6 @@ tags:
 - Wearables
 - Heart Rate
 - Cardiovascular
-- Machine-Learning
+- Machine Learning
 - Consumer Health
 ---

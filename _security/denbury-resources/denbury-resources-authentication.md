@@ -1,37 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: denbury-resources-pages-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Pages API
-  slug: denbury-resources-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-pages-api-openapi.yml
-- filename: denbury-resources-media-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Media API
-  slug: denbury-resources-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-media-api-openapi.yml
-- filename: denbury-resources-search-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Search API
-  slug: denbury-resources-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-search-api-openapi.yml
-- filename: denbury-resources-discovery-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Discovery API
-  slug: denbury-resources-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-discovery-api-openapi.yml
-- filename: denbury-resources-o-embed-api-openapi.yml
-  format: yaml
-  label: Denbury Resources o Embed API
-  slug: denbury-resources-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-o-embed-api-openapi.yml
 auth_types: []
 description: 'Denbury Inc. runs no developer program, issues no API keys, and documents no authentication. The WordPress core REST API behind www.denbury.com is the only machine-readable surface, and its public half needs no credentials at all: every route captured in openapi/ answers anonymously and advertises `Allow: GET`. The write half of the same routes exists but is refused anonymously.'
 kind: authentication
@@ -85,6 +54,5 @@ tags:
 - ExxonMobil
 - Oil and Gas
 - Fortune 1000
-- Content
 - Carbon Sequestration
 ---

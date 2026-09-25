@@ -58,6 +58,6 @@ tags:
 - cost-engineering
 - Digital Manufacturing
 - Sustainability
-- Workflow-Automation
+- Workflow Automation
 - CAD
 ---

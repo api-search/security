@@ -47,7 +47,7 @@ tags:
 - AI Agents
 - LLM
 - Prompt Engineering
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Company
 ---

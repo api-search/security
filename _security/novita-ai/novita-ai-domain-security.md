@@ -48,10 +48,11 @@ tags:
 - Inference
 - GPU
 - OpenAI-Compatible
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio
 - Embeddings
 - Sandbox
 - MCP
+- A2A
 ---

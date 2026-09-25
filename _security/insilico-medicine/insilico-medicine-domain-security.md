@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insilico-medic
 summary_line: TLSv1.3 · DMARC
 tags:
 - Drug Discovery
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Generative AI
 - Generative Chemistry

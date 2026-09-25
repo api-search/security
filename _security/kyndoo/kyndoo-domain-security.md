@@ -66,7 +66,7 @@ tags:
 - Company
 - Influencer Marketing
 - Marketing
-- Social-Media
+- Social Media
 - Advertising
 - Customer Data Platform
 - Analytics

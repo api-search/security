@@ -36,7 +36,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Image-Generation
+- Image Generation
 - Video Generation
 - Text-to-Speech
 - Creative Tools

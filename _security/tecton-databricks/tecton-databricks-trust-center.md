@@ -24,7 +24,7 @@ tags:
 - AI Infrastructure
 - Feature Store
 - Feature Platform
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Real-Time
 - Databricks

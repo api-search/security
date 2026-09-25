@@ -51,7 +51,7 @@ tags:
 - API Gateway
 - Authentication
 - Hadoop
-- Open-Source
+- Open Source
 - Security
 - SSO
 ---

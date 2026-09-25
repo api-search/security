@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-application-contracts-api-openapi.yml
 - filename: lendkey-applications-api-openapi.yml
   format: yaml
-  label: LendKey applications API
+  label: LendKey Applications API
   slug: lendkey-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-applications-api-openapi.yml
 - filename: lendkey-auth-api-openapi.yml
   format: yaml
-  label: LendKey auth API
+  label: LendKey Auth API
   slug: lendkey-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-auth-api-openapi.yml
@@ -38,19 +38,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-disbursements-api-openapi.yml
 - filename: lendkey-email-api-openapi.yml
   format: yaml
-  label: LendKey email API
+  label: LendKey Email API
   slug: lendkey-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-email-api-openapi.yml
 - filename: lendkey-internal-api-openapi.yml
   format: yaml
-  label: LendKey internal API
+  label: LendKey Internal API
   slug: lendkey-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-internal-api-openapi.yml
 - filename: lendkey-leads-api-openapi.yml
   format: yaml
-  label: LendKey leads API
+  label: LendKey Leads API
   slug: lendkey-leads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-leads-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-loans-api-openapi.yml
 - filename: lendkey-onboarding-api-openapi.yml
   format: yaml
-  label: LendKey onboarding API
+  label: LendKey Onboarding API
   slug: lendkey-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/openapi/lendkey-onboarding-api-openapi.yml
@@ -151,7 +151,7 @@ tags:
 - Credit Union
 - Banking
 - Loan Origination
-- Financial-Services
+- Financial Services
 - Payments
 - E-Signature
 - Treasury

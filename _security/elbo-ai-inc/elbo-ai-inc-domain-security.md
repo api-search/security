@@ -57,8 +57,8 @@ layout: security
 method: probed
 name: Elbo Ai Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ELBO AI, INC, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: ELBO AI, INC
+overview: 'Domain security posture for Puppetry, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Puppetry
 provider_slug: elbo-ai-inc
 slug: elbo-ai-inc-domain-security
 source_filename: elbo-ai-inc-domain-security.yml

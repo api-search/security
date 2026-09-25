@@ -49,11 +49,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Detection
 - AML
-- Anti-Money Laundering
 - Compliance
 - Fintech
 - Transaction Monitoring
-- Risk
+- Risk Management
 - SAR
 - Financial Crime
 - Suspicious Activity Reports

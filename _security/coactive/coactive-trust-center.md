@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-agentic-search-agenticsearch-api-openapi.yml
 - filename: coactive-celebrity-detection-api-openapi.yml
   format: yaml
-  label: Coactive celebrity-detection API
+  label: Coactive Celebrity Detection API
   slug: coactive-celebrity-detection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-celebrity-detection-api-openapi.yml
 - filename: coactive-classification-api-openapi.yml
   format: yaml
-  label: Coactive classification API
+  label: Coactive Classification API
   slug: coactive-classification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-classification-api-openapi.yml
 - filename: coactive-concept-api-openapi.yml
   format: yaml
-  label: Coactive concept API
+  label: Coactive Concept API
   slug: coactive-concept-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-concept-api-openapi.yml
@@ -56,13 +56,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-datasets-encoder-api-openapi.yml
 - filename: coactive-dynamictags-api-openapi.yml
   format: yaml
-  label: Coactive dynamicTags API
+  label: Coactive Dynamic Tags API
   slug: coactive-dynamictags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-dynamictags-api-openapi.yml
 - filename: coactive-ingestion-api-openapi.yml
   format: yaml
-  label: Coactive ingestion API
+  label: Coactive Ingestion API
   slug: coactive-ingestion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-ingestion-api-openapi.yml
@@ -80,13 +80,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-ingestion-status-api-openapi.yml
 - filename: coactive-queries-api-openapi.yml
   format: yaml
-  label: Coactive queries API
+  label: Coactive Queries API
   slug: coactive-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-queries-api-openapi.yml
 - filename: coactive-search-metadata-filter-api-openapi.yml
   format: yaml
-  label: Coactive search-metadata-filter API
+  label: Coactive Search Metadata Filter API
   slug: coactive-search-metadata-filter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-search-metadata-filter-api-openapi.yml
@@ -154,14 +154,14 @@ tags:
 - Company
 - Artificial Intelligence
 - Multimodal AI
-- Computer-Vision
+- Computer Vision
 - Video Intelligence
 - Image Search
 - Content Intelligence
 - Semantic Search
 - Contextual Advertising
 - Metadata
-- Machine-Learning
+- Machine Learning
 - Media
 trust_url: https://www.coactive.ai/security
 ---

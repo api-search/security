@@ -48,7 +48,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - LLM Observability
 - ML Monitoring
-- Open-Source
+- Open Source
 - OpenTelemetry
 - Phoenix
 - Tracing

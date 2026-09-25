@@ -118,4 +118,5 @@ tags:
 - Voice AI
 - Recording
 - Transcription
+- Voice
 ---

@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-admin-api-openapi.yml
 - filename: fossology-auth-api-openapi.yml
   format: yaml
-  label: FOSSology auth API
+  label: FOSSology Auth API
   slug: fossology-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-auth-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-groups-api-openapi.yml
 - filename: fossology-info-api-openapi.yml
   format: yaml
-  label: FOSSology info API
+  label: FOSSology Info API
   slug: fossology-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-info-api-openapi.yml
@@ -126,5 +126,5 @@ tags:
 - Linux Foundation
 - Scanning
 - SPDX
-- Open-Source
+- Open Source
 ---

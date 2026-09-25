@@ -39,8 +39,8 @@ tags:
 - Healthcare
 - Pharmacy
 - Artificial Intelligence
-- Workflow-Automation
-- Machine-Learning
+- Workflow Automation
+- Machine Learning
 - 340B
 - Prior Authorization
 ---

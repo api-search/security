@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speedhome/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Rental
 - Marketplace
 - PropTech

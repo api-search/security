@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/authentication/thetadata-authentication.yml
 summary_line: apiKey/credentials · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Options
 - Stocks

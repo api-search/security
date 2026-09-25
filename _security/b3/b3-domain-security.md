@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-cu-api-openapi.yml
 - filename: b3-faucet-api-openapi.yml
   format: yaml
-  label: B3 faucet API
+  label: B3 Faucet API
   slug: b3-faucet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-faucet-api-openapi.yml
@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-metrics-api-openapi.yml
 - filename: b3-onboarding-api-openapi.yml
   format: yaml
-  label: B3 onboarding API
+  label: B3 Onboarding API
   slug: b3-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-onboarding-api-openapi.yml
@@ -152,7 +152,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-search-api-openapi.yml
 - filename: b3-seo-api-openapi.yml
   format: yaml
-  label: B3 seo API
+  label: B3 Seo API
   slug: b3-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-seo-api-openapi.yml
@@ -164,7 +164,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-statistics-api-openapi.yml
 - filename: b3-tags-api-openapi.yml
   format: yaml
-  label: B3 tags API
+  label: B3 Tags API
   slug: b3-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-tags-api-openapi.yml
@@ -194,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-triggers-api-openapi.yml
 - filename: b3-wallets-api-openapi.yml
   format: yaml
-  label: B3 wallets API
+  label: B3 Wallets API
   slug: b3-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-wallets-api-openapi.yml
@@ -206,7 +206,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-webhook-events-api-openapi.yml
 - filename: b3-workflow-templates-api-openapi.yml
   format: yaml
-  label: B3 workflow-templates API
+  label: B3 Workflow Templates API
   slug: b3-workflow-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflow-templates-api-openapi.yml
@@ -468,7 +468,7 @@ tags:
 - Crypto
 - Blockchain
 - Web3
-- Workflow-Automation
+- Workflow Automation
 - On-Chain Data
 - Gaming
 - Payments

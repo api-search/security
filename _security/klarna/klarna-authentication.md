@@ -206,4 +206,5 @@ tags:
 - PSD2
 - Consumer Credit
 - Sweden
+- Agentic Commerce
 ---

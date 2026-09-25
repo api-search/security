@@ -36,13 +36,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aisera/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Conversational AI
 - ITSM
 - Customer Service
 - Enterprise Search
 - AI Copilot
-- Knowledge-Management
-- Workflow-Automation
+- Knowledge Management
+- Workflow Automation
 - LLM
 ---

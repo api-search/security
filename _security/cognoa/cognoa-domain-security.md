@@ -44,7 +44,7 @@ tags:
 - Pediatrics
 - Diagnostics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Software as a Medical Device
 - Behavioral Health
 ---

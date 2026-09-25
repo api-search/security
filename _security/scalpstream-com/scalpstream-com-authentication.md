@@ -42,5 +42,5 @@ tags:
 - USDC
 - XRP Ledger
 - llms-txt
-- JSON-Schema
+- JSON Schema
 ---

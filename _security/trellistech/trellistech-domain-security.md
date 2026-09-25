@@ -2,13 +2,13 @@
 api_specs:
 - filename: trellistech-properties-api-openapi.yml
   format: yaml
-  label: Trellis properties API
+  label: Trellis Properties API
   slug: trellistech-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-properties-api-openapi.yml
 - filename: trellistech-tasks-api-openapi.yml
   format: yaml
-  label: Trellis tasks API
+  label: Trellis Tasks API
   slug: trellistech-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/openapi/trellistech-tasks-api-openapi.yml

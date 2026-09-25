@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: >-\n  live prob
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/authentication/quotemedia-authentication.yml
 summary_line: entitlement-id/session-token/credentials · 3 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Options

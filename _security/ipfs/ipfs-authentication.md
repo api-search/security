@@ -154,7 +154,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-ping-api-openapi.yml
 - filename: ipfs-pins-api-openapi.yml
   format: yaml
-  label: IPFS pins API
+  label: IPFS Pins API
   slug: ipfs-pins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-pins-api-openapi.yml

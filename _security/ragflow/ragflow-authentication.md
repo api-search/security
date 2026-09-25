@@ -44,9 +44,9 @@ tags:
 - Search
 - Vector Database
 - Document Processing
-- Knowledge-Management
+- Knowledge Management
 - Agents
-- Open-Source
+- Open Source
 - LLM
 - MCP
 ---

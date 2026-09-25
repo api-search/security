@@ -38,6 +38,6 @@ tags:
 - Disaggregated Networking
 - Cloud Networking
 - AI Fabric
-- Telco
+- Telecommunications
 - NETCONF
 ---

@@ -34,12 +34,12 @@ summary_line: none · 0 schemes
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Rentals
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- agent-native
+- Agent-Native
 - MCP
 - Search
 ---

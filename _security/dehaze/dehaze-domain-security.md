@@ -34,7 +34,7 @@ tags:
 - Company
 - Health Tech
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Digital Health
 - Chronic Disease
 - Diagnostics

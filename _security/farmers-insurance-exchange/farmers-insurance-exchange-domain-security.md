@@ -67,6 +67,6 @@ tags:
 - Property and Casualty
 - Auto Insurance
 - Home Insurance
-- Financial-Services
+- Financial Services
 - United States
 ---

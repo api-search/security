@@ -158,5 +158,5 @@ tags:
 - Creator Economy
 - Web3
 - Airtime
-- agent-native
+- Agent-Native
 ---

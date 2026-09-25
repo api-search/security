@@ -77,7 +77,7 @@ tags:
 - Digital Biology
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Protein Design
 - Structure Prediction
 - Life Sciences

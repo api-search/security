@@ -54,4 +54,5 @@ tags:
 - 4G
 - Israel
 - Acquired
+- Defunct
 ---

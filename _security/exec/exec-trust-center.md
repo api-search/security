@@ -81,7 +81,7 @@ tags:
 - Roleplay
 - Coaching
 - Learning
-- Knowledge-Management
+- Knowledge Management
 - LMS
 trust_url: https://app.vanta.com/exec.com/trust/j0xkhh5zesxvojinovqlpm
 ---

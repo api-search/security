@@ -76,7 +76,7 @@ tags:
 - Eclipse Foundation
 - Java
 - Linked Data
-- Open-Source
+- Open Source
 - RDF
 - Semantic Web
 - SPARQL

@@ -128,4 +128,5 @@ tags:
 - Digital Twin
 - Simulation
 - Spatial Simulation
+- Defunct
 ---

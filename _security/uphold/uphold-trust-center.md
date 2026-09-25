@@ -173,6 +173,7 @@ tags:
 - Embedded Finance
 - Travel Rule
 - Webhook
-- agent-native
+- Agent-Native
+- A2A
 trust_url: https://trust.uphold.com/
 ---

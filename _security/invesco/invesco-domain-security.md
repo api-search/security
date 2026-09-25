@@ -36,6 +36,6 @@ tags:
 - ETFs
 - QQQ
 - Mutual Funds
-- Financial-Services
+- Financial Services
 - Public Company
 ---

@@ -21,7 +21,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Governance
-- Machine-Learning
+- Machine Learning
 - Compliance
 - Risk Management
 - Insurance

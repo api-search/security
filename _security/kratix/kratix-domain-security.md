@@ -33,6 +33,6 @@ tags:
 - Developer Experience
 - Internal Developer Platform
 - Kubernetes
-- Open-Source
+- Open Source
 - Platform Engineering
 ---

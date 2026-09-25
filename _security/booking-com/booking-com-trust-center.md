@@ -120,5 +120,6 @@ tags:
 - Marketplace
 - OTA
 - Attractions
+- A2A
 trust_url: https://trust.booking.com/
 ---

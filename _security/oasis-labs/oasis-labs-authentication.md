@@ -44,7 +44,7 @@ tags:
 - Confidential Computing
 - Blockchain
 - Differential Privacy
-- Machine-Learning
+- Machine Learning
 - Developer Platform
 - Web3
 ---

@@ -45,7 +45,7 @@ tags:
 - Leaderboards
 - Evaluation
 - Datasets
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Cloudflare Workers

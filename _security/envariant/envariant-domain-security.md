@@ -33,7 +33,7 @@ tags:
 - Artificial Intelligence
 - Interpretability
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 - AI Safety
 - Model Steering
 - LLM

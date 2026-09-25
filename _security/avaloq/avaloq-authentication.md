@@ -64,7 +64,7 @@ summary_line: http · 1 scheme
 tags:
 - Banking
 - Digital Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Wealth Management

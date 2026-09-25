@@ -35,4 +35,5 @@ tags:
 - Consumer Brand
 - E-Commerce
 - Apparel
+- Fashion
 ---

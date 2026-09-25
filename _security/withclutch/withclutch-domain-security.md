@@ -41,7 +41,7 @@ tags:
 - Lending
 - Loan Origination
 - Account Opening
-- Financial-Services
+- Financial Services
 - Fintech
 - Banking
 - Data Export

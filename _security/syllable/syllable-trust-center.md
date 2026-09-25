@@ -279,5 +279,6 @@ tags:
 - Telephony
 - SMS
 - Customer Experience
+- A2A
 trust_url: https://trust.syllable.ai/
 ---

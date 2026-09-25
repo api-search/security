@@ -2,19 +2,19 @@
 api_specs:
 - filename: typingdna-advanced-api-openapi.yml
   format: yaml
-  label: TypingDNA advanced API
+  label: TypingDNA Advanced API
   slug: typingdna-advanced-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-advanced-api-openapi.yml
 - filename: typingdna-optional-api-openapi.yml
   format: yaml
-  label: TypingDNA optional API
+  label: TypingDNA Optional API
   slug: typingdna-optional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-optional-api-openapi.yml
 - filename: typingdna-standard-api-openapi.yml
   format: yaml
-  label: TypingDNA standard API
+  label: TypingDNA Standard API
   slug: typingdna-standard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-standard-api-openapi.yml

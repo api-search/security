@@ -59,7 +59,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-workspaces-api-openapi.yml
 - filename: tetrate-apis-api-openapi.yml
   format: yaml
-  label: Tetrate AP Is API
+  label: Tetrate APIs API
   slug: tetrate-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-apis-api-openapi.yml

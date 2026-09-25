@@ -47,5 +47,6 @@ tags:
 - Fintech
 - Wallets
 - Blockchain
-- Financial-Services
+- Financial Services
+- Real-Time
 ---

@@ -31,10 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peptone/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Drug Discovery
 - Proteins
-- Machine-Learning
+- Machine Learning
 - Protein Engineering
 - Intrinsically Disordered Proteins
 ---

@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: cofactr-batch-api-openapi.yml
   format: yaml
-  label: Cofactr batch API
+  label: Cofactr Batch API
   slug: cofactr-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-batch-api-openapi.yml
 - filename: cofactr-products-api-openapi.yml
   format: yaml
-  label: Cofactr products API
+  label: Cofactr Products API
   slug: cofactr-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/cofactr-products-api-openapi.yml

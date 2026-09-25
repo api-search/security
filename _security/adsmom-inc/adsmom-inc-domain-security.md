@@ -109,8 +109,8 @@ layout: security
 method: probed
 name: Adsmom Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Adsmom Inc., probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Adsmom Inc.
+overview: 'Domain security posture for Adsmom, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Adsmom
 provider_slug: adsmom-inc
 slug: adsmom-inc-domain-security
 source_filename: adsmom-inc-domain-security.yml
@@ -131,6 +131,6 @@ tags:
 - OpenAPI
 - REST
 - Analytics
-- Social-Media
-- agent-native
+- Social Media
+- Agent-Native
 ---

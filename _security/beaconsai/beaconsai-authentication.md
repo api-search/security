@@ -61,5 +61,5 @@ tags:
 - Creator Monetization
 - Influencer Software
 - MCP
-- agent-native
+- Agent-Native
 ---

@@ -53,7 +53,7 @@ tags:
 - Law Firms
 - Matter Management
 - Intake Management
-- Document-Management
+- Document Management
 - Time Tracking
 - Billing
 - Client Communications

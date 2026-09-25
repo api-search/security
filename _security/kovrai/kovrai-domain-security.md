@@ -35,5 +35,5 @@ tags:
 - Governance
 - Cloud
 - Artificial Intelligence
-- Risk
+- Risk Management
 ---

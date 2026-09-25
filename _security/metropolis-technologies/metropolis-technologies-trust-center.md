@@ -21,7 +21,7 @@ summary_line: SOC 2, PCI DSS
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Parking
 - Payments
 - Mobility

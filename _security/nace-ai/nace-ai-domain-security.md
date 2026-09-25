@@ -2,13 +2,13 @@
 api_specs:
 - filename: nace-ai-health-api-openapi.yml
   format: yaml
-  label: Nace Ai health API
+  label: Nace Ai Health API
   slug: nace-ai-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-health-api-openapi.yml
 - filename: nace-ai-public-api-api-openapi.yml
   format: yaml
-  label: Nace Ai public-api
+  label: Nace Ai Public API
   slug: nace-ai-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-public-api-api-openapi.yml
@@ -61,7 +61,7 @@ tags:
 - Document Processing
 - Data Extraction
 - OCR
-- Machine-Learning
+- Machine Learning
 - Enterprise Automation
 - MCP
 ---

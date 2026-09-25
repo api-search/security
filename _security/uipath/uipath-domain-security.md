@@ -240,11 +240,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Automation
-- Robotic Process Automation
 - RPA
 - Artificial Intelligence
 - Document Processing
 - Enterprise Automation
 - Orchestration
 - Testing
+- Workflow Automation
 ---

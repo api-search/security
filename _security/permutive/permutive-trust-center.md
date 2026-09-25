@@ -71,5 +71,6 @@ tags:
 - Identity
 - Segmentation
 - Agents
+- A2A
 trust_url: https://trust.permutive.com/
 ---

@@ -67,7 +67,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - IoT
 - Hardware
 - Telemetry

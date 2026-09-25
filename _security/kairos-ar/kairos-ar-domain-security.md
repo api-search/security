@@ -64,9 +64,9 @@ tags:
 - Facial Recognition
 - Biometrics
 - Emotion Analysis
-- Computer-Vision
+- Computer Vision
 - Identity
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Image Analysis
 ---

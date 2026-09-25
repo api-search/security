@@ -32,8 +32,8 @@ tags:
 - Company
 - Agriculture
 - Robotics
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Artificial Intelligence
 - AgTech
 - Autonomy

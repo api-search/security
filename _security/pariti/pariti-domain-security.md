@@ -32,10 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pariti/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Talent Acquisition
 - Hiring
-- Recruiting
 - Artificial Intelligence
 - Human Resources
 ---

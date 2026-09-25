@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Embedded Finance
 - Banking as a Service
 - Payments

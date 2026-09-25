@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Computational Photography
 - Imaging
-- Machine-Learning
+- Machine Learning
 - Neural ISP
 - Camera
 - Smartphones

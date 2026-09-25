@@ -72,7 +72,7 @@ summary_line: oauth2/http/apiKey · 2 schemes
 tags:
 - 3D
 - Spatial Computing
-- Computer-Vision
+- Computer Vision
 - depth-estimation
 - Image Processing
 - Video Processing

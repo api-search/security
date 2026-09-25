@@ -32,19 +32,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-customers-api-openapi.yml
 - filename: chariot-deposits-api-openapi.yml
   format: yaml
-  label: Chariot deposits API
+  label: Chariot Deposits API
   slug: chariot-deposits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-deposits-api-openapi.yml
 - filename: chariot-disbursements-api-openapi.yml
   format: yaml
-  label: Chariot disbursements API
+  label: Chariot Disbursements API
   slug: chariot-disbursements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-disbursements-api-openapi.yml
 - filename: chariot-donations-api-openapi.yml
   format: yaml
-  label: Chariot donations API
+  label: Chariot Donations API
   slug: chariot-donations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-donations-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-events-api-openapi.yml
 - filename: chariot-financial-accounts-api-openapi.yml
   format: yaml
-  label: Chariot financial_accounts API
+  label: Chariot Financial Accounts API
   slug: chariot-financial-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-financial-accounts-api-openapi.yml
@@ -98,25 +98,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-grants-api-openapi.yml
 - filename: chariot-inboundtransfers-api-openapi.yml
   format: yaml
-  label: Chariot inboundTransfers API
+  label: Chariot Inbound Transfers API
   slug: chariot-inboundtransfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-inboundtransfers-api-openapi.yml
 - filename: chariot-mailbox-api-openapi.yml
   format: yaml
-  label: Chariot mailbox API
+  label: Chariot Mailbox API
   slug: chariot-mailbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-mailbox-api-openapi.yml
 - filename: chariot-nonprofitaddresses-api-openapi.yml
   format: yaml
-  label: Chariot nonprofitAddresses API
+  label: Chariot Nonprofit Addresses API
   slug: chariot-nonprofitaddresses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-nonprofitaddresses-api-openapi.yml
 - filename: chariot-nonprofitcontacts-api-openapi.yml
   format: yaml
-  label: Chariot nonprofitContacts API
+  label: Chariot Nonprofit Contacts API
   slug: chariot-nonprofitcontacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-nonprofitcontacts-api-openapi.yml
@@ -134,13 +134,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-programs-api-openapi.yml
 - filename: chariot-properties-api-openapi.yml
   format: yaml
-  label: Chariot properties API
+  label: Chariot Properties API
   slug: chariot-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-properties-api-openapi.yml
 - filename: chariot-recurring-grants-api-openapi.yml
   format: yaml
-  label: Chariot recurring_grants API
+  label: Chariot Recurring Grants API
   slug: chariot-recurring-grants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-recurring-grants-api-openapi.yml
@@ -158,7 +158,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-transactions-api-openapi.yml
 - filename: chariot-unintegrated-grants-api-openapi.yml
   format: yaml
-  label: Chariot unintegrated_grants API
+  label: Chariot Unintegrated Grants API
   slug: chariot-unintegrated-grants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-unintegrated-grants-api-openapi.yml

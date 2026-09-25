@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AIOps
-- Machine-Learning
+- Machine Learning
 - Log Management
 - Observability
 - Anomaly Detection

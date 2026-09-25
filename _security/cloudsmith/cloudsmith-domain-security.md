@@ -2,133 +2,133 @@
 api_specs:
 - filename: cloudsmith-audit-log-api-openapi.yml
   format: yaml
-  label: Cloudsmith audit-log API
+  label: Cloudsmith Audit Log API
   slug: cloudsmith-audit-log-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-audit-log-api-openapi.yml
 - filename: cloudsmith-badges-api-openapi.yml
   format: yaml
-  label: Cloudsmith badges API
+  label: Cloudsmith Badges API
   slug: cloudsmith-badges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-badges-api-openapi.yml
 - filename: cloudsmith-broadcasts-api-openapi.yml
   format: yaml
-  label: Cloudsmith broadcasts API
+  label: Cloudsmith Broadcasts API
   slug: cloudsmith-broadcasts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-broadcasts-api-openapi.yml
 - filename: cloudsmith-bulk-action-api-openapi.yml
   format: yaml
-  label: Cloudsmith bulk-action API
+  label: Cloudsmith Bulk Action API
   slug: cloudsmith-bulk-action-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-bulk-action-api-openapi.yml
 - filename: cloudsmith-distros-api-openapi.yml
   format: yaml
-  label: Cloudsmith distros API
+  label: Cloudsmith Distros API
   slug: cloudsmith-distros-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-distros-api-openapi.yml
 - filename: cloudsmith-entitlements-api-openapi.yml
   format: yaml
-  label: Cloudsmith entitlements API
+  label: Cloudsmith Entitlements API
   slug: cloudsmith-entitlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-entitlements-api-openapi.yml
 - filename: cloudsmith-files-api-openapi.yml
   format: yaml
-  label: Cloudsmith files API
+  label: Cloudsmith Files API
   slug: cloudsmith-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-files-api-openapi.yml
 - filename: cloudsmith-formats-api-openapi.yml
   format: yaml
-  label: Cloudsmith formats API
+  label: Cloudsmith Formats API
   slug: cloudsmith-formats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-formats-api-openapi.yml
 - filename: cloudsmith-metrics-api-openapi.yml
   format: yaml
-  label: Cloudsmith metrics API
+  label: Cloudsmith Metrics API
   slug: cloudsmith-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-metrics-api-openapi.yml
 - filename: cloudsmith-namespaces-api-openapi.yml
   format: yaml
-  label: Cloudsmith namespaces API
+  label: Cloudsmith Namespaces API
   slug: cloudsmith-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-namespaces-api-openapi.yml
 - filename: cloudsmith-orgs-api-openapi.yml
   format: yaml
-  label: Cloudsmith orgs API
+  label: Cloudsmith Orgs API
   slug: cloudsmith-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-orgs-api-openapi.yml
 - filename: cloudsmith-packages-api-openapi.yml
   format: yaml
-  label: Cloudsmith packages API
+  label: Cloudsmith Packages API
   slug: cloudsmith-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-packages-api-openapi.yml
 - filename: cloudsmith-quota-api-openapi.yml
   format: yaml
-  label: Cloudsmith quota API
+  label: Cloudsmith Quota API
   slug: cloudsmith-quota-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-quota-api-openapi.yml
 - filename: cloudsmith-rates-api-openapi.yml
   format: yaml
-  label: Cloudsmith rates API
+  label: Cloudsmith Rates API
   slug: cloudsmith-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-rates-api-openapi.yml
 - filename: cloudsmith-recycle-bin-api-openapi.yml
   format: yaml
-  label: Cloudsmith recycle-bin API
+  label: Cloudsmith Recycle Bin API
   slug: cloudsmith-recycle-bin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-recycle-bin-api-openapi.yml
 - filename: cloudsmith-repos-api-openapi.yml
   format: yaml
-  label: Cloudsmith repos API
+  label: Cloudsmith Repos API
   slug: cloudsmith-repos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-repos-api-openapi.yml
 - filename: cloudsmith-status-api-openapi.yml
   format: yaml
-  label: Cloudsmith status API
+  label: Cloudsmith Status API
   slug: cloudsmith-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-status-api-openapi.yml
 - filename: cloudsmith-storage-regions-api-openapi.yml
   format: yaml
-  label: Cloudsmith storage-regions API
+  label: Cloudsmith Storage Regions API
   slug: cloudsmith-storage-regions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-storage-regions-api-openapi.yml
 - filename: cloudsmith-user-api-openapi.yml
   format: yaml
-  label: Cloudsmith user API
+  label: Cloudsmith User API
   slug: cloudsmith-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-user-api-openapi.yml
 - filename: cloudsmith-users-api-openapi.yml
   format: yaml
-  label: Cloudsmith users API
+  label: Cloudsmith Users API
   slug: cloudsmith-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-users-api-openapi.yml
 - filename: cloudsmith-vulnerabilities-api-openapi.yml
   format: yaml
-  label: Cloudsmith vulnerabilities API
+  label: Cloudsmith Vulnerabilities API
   slug: cloudsmith-vulnerabilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-vulnerabilities-api-openapi.yml
 - filename: cloudsmith-webhooks-api-openapi.yml
   format: yaml
-  label: Cloudsmith webhooks API
+  label: Cloudsmith Webhooks API
   slug: cloudsmith-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/openapi/cloudsmith-webhooks-api-openapi.yml

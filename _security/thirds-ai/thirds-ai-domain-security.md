@@ -47,6 +47,6 @@ tags:
 - Branded Content
 - Developer Tools
 - MCP Server
-- agent-native
+- Agent-Native
 - marketing-ops
 ---

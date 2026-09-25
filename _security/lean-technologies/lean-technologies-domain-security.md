@@ -338,7 +338,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-raw-data-api-openapi.yml
 - filename: lean-technologies-reconciliation-api-openapi.yml
   format: yaml
-  label: Lean Technologies reconciliation API
+  label: Lean Technologies Reconciliation API
   slug: lean-technologies-reconciliation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/openapi/lean-technologies-reconciliation-api-openapi.yml

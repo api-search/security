@@ -49,6 +49,6 @@ tags:
 - Streaming
 - OTT
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Entertainment
 ---

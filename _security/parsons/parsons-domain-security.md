@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Parsons Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Parsons Corporation, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: Parsons Corporation
+overview: 'Domain security posture for Parsons, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Parsons
 provider_slug: parsons
 slug: parsons-domain-security
 source_filename: parsons-domain-security.yml

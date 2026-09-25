@@ -42,7 +42,7 @@ tags:
 - Logs
 - Metrics
 - Observability
-- Open-Source
+- Open Source
 - Rust
 - Traces
 ---

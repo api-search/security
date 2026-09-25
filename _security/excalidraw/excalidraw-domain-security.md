@@ -46,6 +46,6 @@ tags:
 - Collaboration
 - Whiteboard
 - Diagramming
-- Open-Source
+- Open Source
 - Drawing
 ---

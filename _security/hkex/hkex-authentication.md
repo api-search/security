@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://www.hke
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/authentication/hkex-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Derivatives

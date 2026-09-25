@@ -711,7 +711,7 @@ tags:
 - Canonical
 - Cloud
 - Linux
-- Open-Source
+- Open Source
 - Ubuntu
 - Containers
 - Bare Metal

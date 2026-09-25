@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-document-items-api-openapi.yml
 - filename: miro-documents-api-openapi.yml
   format: yaml
-  label: Miro documents API
+  label: Miro Documents API
   slug: miro-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-documents-api-openapi.yml
@@ -128,7 +128,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-flowchart-shapes-experimental-api-openapi.yml
 - filename: miro-frames-api-openapi.yml
   format: yaml
-  label: Miro frames API
+  label: Miro Frames API
   slug: miro-frames-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-frames-api-openapi.yml
@@ -140,7 +140,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-group-api-openapi.yml
 - filename: miro-groups-api-openapi.yml
   format: yaml
-  label: Miro groups API
+  label: Miro Groups API
   slug: miro-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-groups-api-openapi.yml
@@ -152,7 +152,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-image-items-api-openapi.yml
 - filename: miro-images-api-openapi.yml
   format: yaml
-  label: Miro images API
+  label: Miro Images API
   slug: miro-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-images-api-openapi.yml
@@ -236,7 +236,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-sticky-note-items-api-openapi.yml
 - filename: miro-tags-api-openapi.yml
   format: yaml
-  label: Miro tags API
+  label: Miro Tags API
   slug: miro-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-tags-api-openapi.yml
@@ -272,7 +272,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-text-items-api-openapi.yml
 - filename: miro-tokens-api-openapi.yml
   format: yaml
-  label: Miro tokens API
+  label: Miro Tokens API
   slug: miro-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-tokens-api-openapi.yml
@@ -359,4 +359,5 @@ tags:
 - Visual Collaboration
 - Diagramming
 - Software-as-a-Service
+- Collaboration
 ---

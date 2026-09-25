@@ -59,12 +59,12 @@ summary_line: 0 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Computing
 - GPU
 - Infrastructure
 - Inference
 - Model Training
 - High Performance Computing
-- Data-Center
+- Data Center
 ---

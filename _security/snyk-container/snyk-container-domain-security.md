@@ -74,5 +74,5 @@ tags:
 - Security
 - Vulnerability Management
 - DevSecOps
-- Open-Source
+- Open Source
 ---

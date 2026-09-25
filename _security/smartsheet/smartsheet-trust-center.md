@@ -54,7 +54,7 @@ tags:
 - Project Management
 - Collaboration
 - Productivity
-- Workflow-Automation
+- Workflow Automation
 - Spreadsheets
 trust_url: https://www.smartsheet.com/trust
 ---

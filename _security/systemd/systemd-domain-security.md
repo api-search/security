@@ -203,7 +203,7 @@ tags:
 - Linux
 - Logging
 - Networks
-- Open-Source
+- Open Source
 - PID 1
 - Service Manager
 - System

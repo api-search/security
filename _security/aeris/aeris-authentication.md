@@ -506,7 +506,7 @@ tags:
 - M2M
 - eSIM
 - SIM Management
-- Telecom
+- Telecommunications
 - Device Management
 - IoT Security
 - Connectivity Management Platform

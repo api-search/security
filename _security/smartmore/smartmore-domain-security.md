@@ -34,7 +34,7 @@ tags:
 - Company
 - Industrial AI
 - Machine Vision
-- Computer-Vision
+- Computer Vision
 - Smart Manufacturing
 - Quality Inspection
 - Deep Learning

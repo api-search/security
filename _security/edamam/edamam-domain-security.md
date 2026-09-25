@@ -72,4 +72,5 @@ tags:
 - Food
 - Nutrition
 - UPC
+- Food and Beverage
 ---

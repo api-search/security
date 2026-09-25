@@ -34,7 +34,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Clinical Trials
 - Foundation Models
 - Life Sciences

@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/export-import-
 summary_line: 0 schemes
 tags:
 - Export
-- Federal-Government
+- Federal Government
 - Finance
 - Import
 - Open Data

@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-groups-api-openapi.yml
 - filename: interos-health-api-openapi.yml
   format: yaml
-  label: Interos health API
+  label: Interos Health API
   slug: interos-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-health-api-openapi.yml
@@ -67,6 +67,6 @@ tags:
 - Supply Chain
 - Risk Management
 - Supplier Risk
-- Third-Party Risk
+- Third-Party Risk Management
 - Artificial Intelligence
 ---

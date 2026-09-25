@@ -56,8 +56,8 @@ method: searched
 name: Edfapay Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: EdfaPay, Inc. secures its APIs with apiKey and signature across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: EdfaPay, Inc.
+overview: EdfaPay secures its APIs with apiKey and signature across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: EdfaPay
 provider_slug: edfapay-inc
 scheme_count: 2
 schemes:

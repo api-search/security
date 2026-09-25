@@ -168,5 +168,5 @@ tags:
 - Staking
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
 ---

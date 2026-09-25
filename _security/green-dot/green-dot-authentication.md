@@ -13,8 +13,8 @@ name: Green Dot Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: Green Dot Corporation secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: Green Dot Corporation
+overview: Green Dot secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Green Dot
 provider_slug: green-dot
 scheme_count: 2
 schemes:

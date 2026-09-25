@@ -34,7 +34,7 @@ tags:
 - Co-Working
 - Workspace Management
 - Distributed Teams
-- Real-Estate
+- Real Estate
 - Spend Management
 - Booking
 - Software-as-a-Service

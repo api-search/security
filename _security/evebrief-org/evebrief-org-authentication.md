@@ -41,7 +41,7 @@ tags:
 - EVM
 - Security
 - Fraud Detection
-- Risk
-- agent-native
+- Risk Management
+- Agent-Native
 - Market Intelligence
 ---

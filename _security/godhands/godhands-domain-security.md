@@ -42,8 +42,8 @@ tags:
 - AI Agents
 - Computer Use
 - Desktop Automation
-- Robotic Process Automation
-- Workflow-Automation
+- RPA
+- Workflow Automation
 - Automation Infrastructure
 - Agent Runtime
 - Y Combinator

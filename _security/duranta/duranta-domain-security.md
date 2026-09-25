@@ -34,7 +34,7 @@ tags:
 - Company
 - PropTech
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Geospatial
 - Digital Twin
 - Landscaping

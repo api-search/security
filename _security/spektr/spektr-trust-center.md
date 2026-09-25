@@ -82,7 +82,7 @@ tags:
 - KYC
 - Onboarding
 - Transaction Monitoring
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 - Enterprise
 trust_url: https://www.spektr.com/trust

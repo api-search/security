@@ -37,9 +37,9 @@ tags:
 - Energy Disaggregation
 - Non-Intrusive Load Monitoring
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Generative AI
-- Agentic AI
+- AI Agents
 - Demand-Side Management
 - Demand Response
 - Load Flexibility

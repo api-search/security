@@ -36,7 +36,7 @@ summary_line: http · 1 scheme
 tags:
 - Title Insurance
 - Escrow
-- Real-Estate
+- Real Estate
 - Closing
 - Settlement
 - PropTech

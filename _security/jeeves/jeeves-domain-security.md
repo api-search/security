@@ -42,6 +42,6 @@ tags:
 - Spend Management
 - Global Payments
 - Stablecoins
-- Financial-Services
+- Financial Services
 - Corporate Credit
 ---

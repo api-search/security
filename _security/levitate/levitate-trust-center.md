@@ -45,11 +45,11 @@ tags:
 - Contacts
 - Small Business
 - Insurance
-- Financial-Services
+- Financial Services
 - Non-Profit
 - Marketing Automation
 - MCP
-- agent-native
+- Agent-Native
 - Software-as-a-Service
 trust_url: https://trust.levitate.ai
 ---

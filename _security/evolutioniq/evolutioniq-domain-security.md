@@ -36,6 +36,6 @@ tags:
 - Insurance
 - Insurtech
 - Claims
-- Machine-Learning
+- Machine Learning
 - Health
 ---

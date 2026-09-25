@@ -36,7 +36,7 @@ tags:
 - Inspection
 - Food Service
 - Hospitality
-- Regulatory Technology
+- RegTech
 - Saudi Arabia
 - Mobile
 ---

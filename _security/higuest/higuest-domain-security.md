@@ -36,6 +36,6 @@ tags:
 - Short-Term Rental
 - Vacation Rentals
 - Travel
-- Real-Estate
+- Real Estate
 - Dubai
 ---

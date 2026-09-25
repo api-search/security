@@ -91,4 +91,5 @@ tags:
 - Fintech
 - Wallets
 - Visa
+- A2A
 ---

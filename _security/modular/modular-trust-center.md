@@ -20,7 +20,7 @@ summary_line: SOC 2 Type 2
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - GPU

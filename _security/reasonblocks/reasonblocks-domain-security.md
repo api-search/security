@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-health-api-openapi.yml
 - filename: reasonblocks-monitor-api-openapi.yml
   format: yaml
-  label: ReasonBlocks monitor API
+  label: ReasonBlocks Monitor API
   slug: reasonblocks-monitor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-api-openapi.yml
@@ -106,7 +106,7 @@ tags:
 - Developer Tools
 - Token Optimization
 - Agent Steering
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - SDK
 ---

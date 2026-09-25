@@ -302,6 +302,6 @@ tags:
 - Key-Value Store
 - Object Storage
 - Infrastructure
-- Agentic AI
-- Open-Source
+- AI Agents
+- Open Source
 ---

@@ -50,6 +50,6 @@ tags:
 - AI Agents
 - Sales Enablement
 - Account Based Marketing
-- Workflow-Automation
+- Workflow Automation
 - MCP
 ---

@@ -50,7 +50,7 @@ tags:
 - Company
 - Backend-as-a-Service
 - Mobile
-- Open-Source
+- Open Source
 - REST API
 - Database
 - Authentication

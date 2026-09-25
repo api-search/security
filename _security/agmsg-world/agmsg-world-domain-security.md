@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Messaging
 - AI Agents
-- Agent-to-Agent
+- A2A
 - Chat
 - Channels
 - Group Chat
@@ -52,5 +52,4 @@ tags:
 - Micropayments
 - Agent Communication
 - Agentic Web
-- A2A
 ---

@@ -50,6 +50,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openfigi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/authentication/openfigi-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Financial
+- Finance
 - Instruments
 ---

@@ -36,6 +36,6 @@ tags:
 - Insurtech
 - Embedded Insurance
 - Underwriting
-- Financial-Services
+- Financial Services
 - Policy Administration
 ---

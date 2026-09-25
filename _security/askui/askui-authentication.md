@@ -5,91 +5,91 @@ api_key_in:
 api_specs:
 - filename: askui-access-tokens-api-openapi.yml
   format: yaml
-  label: AskUI access-tokens API
+  label: AskUI Access Tokens API
   slug: askui-access-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-access-tokens-api-openapi.yml
 - filename: askui-agent-executions-api-openapi.yml
   format: yaml
-  label: AskUI agent-executions API
+  label: AskUI Agent Executions API
   slug: askui-agent-executions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-agent-executions-api-openapi.yml
 - filename: askui-agents-api-openapi.yml
   format: yaml
-  label: AskUI agents API
+  label: AskUI Agents API
   slug: askui-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-agents-api-openapi.yml
 - filename: askui-analytics-api-openapi.yml
   format: yaml
-  label: AskUI analytics API
+  label: AskUI Analytics API
   slug: askui-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-analytics-api-openapi.yml
 - filename: askui-auth-api-openapi.yml
   format: yaml
-  label: AskUI auth API
+  label: AskUI Auth API
   slug: askui-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-auth-api-openapi.yml
 - filename: askui-billing-api-openapi.yml
   format: yaml
-  label: AskUI billing API
+  label: AskUI Billing API
   slug: askui-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-billing-api-openapi.yml
 - filename: askui-dashboard-api-openapi.yml
   format: yaml
-  label: AskUI dashboard API
+  label: AskUI Dashboard API
   slug: askui-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-dashboard-api-openapi.yml
 - filename: askui-files-api-openapi.yml
   format: yaml
-  label: AskUI files API
+  label: AskUI Files API
   slug: askui-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-files-api-openapi.yml
 - filename: askui-invites-api-openapi.yml
   format: yaml
-  label: AskUI invites API
+  label: AskUI Invites API
   slug: askui-invites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-invites-api-openapi.yml
 - filename: askui-runner-jobs-api-openapi.yml
   format: yaml
-  label: AskUI runner-jobs API
+  label: AskUI Runner Jobs API
   slug: askui-runner-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-runner-jobs-api-openapi.yml
 - filename: askui-runs-api-openapi.yml
   format: yaml
-  label: AskUI runs API
+  label: AskUI Runs API
   slug: askui-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-runs-api-openapi.yml
 - filename: askui-schedules-api-openapi.yml
   format: yaml
-  label: AskUI schedules API
+  label: AskUI Schedules API
   slug: askui-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-schedules-api-openapi.yml
 - filename: askui-tools-api-openapi.yml
   format: yaml
-  label: AskUI tools API
+  label: AskUI Tools API
   slug: askui-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-tools-api-openapi.yml
 - filename: askui-workspace-memberships-api-openapi.yml
   format: yaml
-  label: AskUI workspace-memberships API
+  label: AskUI Workspace Memberships API
   slug: askui-workspace-memberships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspace-memberships-api-openapi.yml
 - filename: askui-workspaces-api-openapi.yml
   format: yaml
-  label: AskUI workspaces API
+  label: AskUI Workspaces API
   slug: askui-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspaces-api-openapi.yml

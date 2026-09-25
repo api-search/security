@@ -31,13 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hosta-ai/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Property Technology
 - PropTech
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Property Assessment
 - Insurance
 - Construction
-- Real-Estate
+- Real Estate
 - Spatial Analytics
 ---

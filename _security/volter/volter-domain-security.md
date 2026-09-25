@@ -36,6 +36,6 @@ tags:
 - Renewable Energy
 - Solar
 - Energy Management
-- Real-Estate
+- Real Estate
 - Sustainability
 ---

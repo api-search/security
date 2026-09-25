@@ -56,7 +56,7 @@ tags:
 - Developer Tools
 - Usage-Based Billing
 - Prepaid billing
-- agent-native
+- Agent-Native
 - Agent Skills
 - Model Routing
 ---

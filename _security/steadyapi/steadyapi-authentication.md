@@ -43,7 +43,7 @@ tags:
 - Data
 - Finance
 - Stock Market
-- Social-Media
+- Social Media
 - Reddit
 - Data as a Service
 - Web Data

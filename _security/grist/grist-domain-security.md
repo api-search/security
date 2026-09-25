@@ -2,49 +2,49 @@
 api_specs:
 - filename: grist-attachments-api-openapi.yml
   format: yaml
-  label: Grist attachments API
+  label: Grist Attachments API
   slug: grist-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-attachments-api-openapi.yml
 - filename: grist-columns-api-openapi.yml
   format: yaml
-  label: Grist columns API
+  label: Grist Columns API
   slug: grist-columns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-columns-api-openapi.yml
 - filename: grist-data-api-openapi.yml
   format: yaml
-  label: Grist data API
+  label: Grist Data API
   slug: grist-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-data-api-openapi.yml
 - filename: grist-docs-api-openapi.yml
   format: yaml
-  label: Grist docs API
+  label: Grist Docs API
   slug: grist-docs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-docs-api-openapi.yml
 - filename: grist-forms-api-openapi.yml
   format: yaml
-  label: Grist forms API
+  label: Grist Forms API
   slug: grist-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-forms-api-openapi.yml
 - filename: grist-orgs-api-openapi.yml
   format: yaml
-  label: Grist orgs API
+  label: Grist Orgs API
   slug: grist-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-orgs-api-openapi.yml
 - filename: grist-profile-api-openapi.yml
   format: yaml
-  label: Grist profile API
+  label: Grist Profile API
   slug: grist-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-profile-api-openapi.yml
 - filename: grist-records-api-openapi.yml
   format: yaml
-  label: Grist records API
+  label: Grist Records API
   slug: grist-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-records-api-openapi.yml
@@ -56,49 +56,49 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-service-accounts-api-openapi.yml
 - filename: grist-session-api-openapi.yml
   format: yaml
-  label: Grist session API
+  label: Grist Session API
   slug: grist-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-session-api-openapi.yml
 - filename: grist-sql-api-openapi.yml
   format: yaml
-  label: Grist sql API
+  label: Grist Sql API
   slug: grist-sql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-sql-api-openapi.yml
 - filename: grist-tables-api-openapi.yml
   format: yaml
-  label: Grist tables API
+  label: Grist Tables API
   slug: grist-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-tables-api-openapi.yml
 - filename: grist-templates-api-openapi.yml
   format: yaml
-  label: Grist templates API
+  label: Grist Templates API
   slug: grist-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-templates-api-openapi.yml
 - filename: grist-users-api-openapi.yml
   format: yaml
-  label: Grist users API
+  label: Grist Users API
   slug: grist-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-users-api-openapi.yml
 - filename: grist-webhooks-api-openapi.yml
   format: yaml
-  label: Grist webhooks API
+  label: Grist Webhooks API
   slug: grist-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-webhooks-api-openapi.yml
 - filename: grist-widgets-api-openapi.yml
   format: yaml
-  label: Grist widgets API
+  label: Grist Widgets API
   slug: grist-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-widgets-api-openapi.yml
 - filename: grist-workspaces-api-openapi.yml
   format: yaml
-  label: Grist workspaces API
+  label: Grist Workspaces API
   slug: grist-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-workspaces-api-openapi.yml
@@ -152,5 +152,5 @@ tags:
 - No-Code
 - Data Management
 - Webhook
-- Open-Source
+- Open Source
 ---

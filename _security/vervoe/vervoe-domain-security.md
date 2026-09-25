@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vervoe/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Hiring
-- Recruitment
+- Recruiting
 - Skills Assessment
 - Talent
 - Human Resources

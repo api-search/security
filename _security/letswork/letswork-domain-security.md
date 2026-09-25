@@ -36,7 +36,7 @@ tags:
 - Workspace
 - Booking
 - Marketplace
-- Real-Estate
+- Real Estate
 - Productivity
 - Future Of Work
 - Travel

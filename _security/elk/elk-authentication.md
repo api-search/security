@@ -29,9 +29,9 @@ summary_line: 0 schemes
 tags:
 - Fediverse
 - Mastodon
-- Open-Source
-- Social Networking
-- Social-Media
+- Open Source
+- Social Network
+- Social Media
 - Web-Client
 - Progressive Web App
 - Authentication

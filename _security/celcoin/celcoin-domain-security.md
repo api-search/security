@@ -116,7 +116,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking as a Service
-- Backend-as-a-Service
 - Pix
 - Boleto
 - TED

@@ -2,7 +2,7 @@
 api_specs:
 - filename: sonatype-nexus-assets-api-openapi.yml
   format: yaml
-  label: Sonatype Nexus assets API
+  label: Sonatype Nexus Assets API
   slug: sonatype-nexus-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-assets-api-openapi.yml
@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-community-edition-eula-api-openapi.yml
 - filename: sonatype-nexus-components-api-openapi.yml
   format: yaml
-  label: Sonatype Nexus components API
+  label: Sonatype Nexus Components API
   slug: sonatype-nexus-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/openapi/sonatype-nexus-components-api-openapi.yml

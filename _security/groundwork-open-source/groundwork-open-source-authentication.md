@@ -5,37 +5,37 @@ api_key_in:
 api_specs:
 - filename: groundwork-open-source-agent-api-openapi.yml
   format: yaml
-  label: Groundwork Open Source agent API
+  label: Groundwork Open Source Agent API
   slug: groundwork-open-source-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-agent-api-openapi.yml
 - filename: groundwork-open-source-alert-api-openapi.yml
   format: yaml
-  label: Groundwork Open Source alert API
+  label: Groundwork Open Source Alert API
   slug: groundwork-open-source-alert-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-alert-api-openapi.yml
 - filename: groundwork-open-source-downtimes-api-openapi.yml
   format: yaml
-  label: Groundwork Open Source downtimes API
+  label: Groundwork Open Source Downtimes API
   slug: groundwork-open-source-downtimes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-downtimes-api-openapi.yml
 - filename: groundwork-open-source-inventory-api-openapi.yml
   format: yaml
-  label: Groundwork Open Source inventory API
+  label: Groundwork Open Source Inventory API
   slug: groundwork-open-source-inventory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-inventory-api-openapi.yml
 - filename: groundwork-open-source-metric-api-openapi.yml
   format: yaml
-  label: Groundwork Open Source metric API
+  label: Groundwork Open Source Metric API
   slug: groundwork-open-source-metric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-metric-api-openapi.yml
 - filename: groundwork-open-source-metrics-api-openapi.yml
   format: yaml
-  label: Groundwork Open Source metrics API
+  label: Groundwork Open Source Metrics API
   slug: groundwork-open-source-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/openapi/groundwork-open-source-metrics-api-openapi.yml
@@ -86,6 +86,6 @@ tags:
 - Observability
 - Metrics
 - Event
-- Open-Source
+- Open Source
 - Nagios
 ---

@@ -36,6 +36,6 @@ tags:
 - Wellness
 - Consumer Applications
 - Support Groups
-- Mobile Applications
+- Mobile App
 - Subscription
 ---

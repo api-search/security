@@ -144,6 +144,6 @@ tags:
 - Agriculture
 - Data
 - Supply Chain
-- Risk
+- Risk Management
 - Sustainability
 ---

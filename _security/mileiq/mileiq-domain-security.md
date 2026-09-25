@@ -2,13 +2,13 @@
 api_specs:
 - filename: mileiq-groups-api-openapi.yml
   format: yaml
-  label: MileIQ groups API
+  label: MileIQ Groups API
   slug: mileiq-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-groups-api-openapi.yml
 - filename: mileiq-users-api-openapi.yml
   format: yaml
-  label: MileIQ users API
+  label: MileIQ Users API
   slug: mileiq-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-users-api-openapi.yml

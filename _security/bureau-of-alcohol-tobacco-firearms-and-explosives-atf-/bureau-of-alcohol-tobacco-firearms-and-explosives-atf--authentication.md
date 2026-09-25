@@ -52,7 +52,7 @@ summary_line: 0 schemes
 tags:
 - Alcohol
 - Explosives
-- Federal-Government
+- Federal Government
 - Firearms
 - Geospatial
 - Law Enforcement

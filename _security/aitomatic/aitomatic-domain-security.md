@@ -37,6 +37,6 @@ tags:
 - Industrial AI
 - Neurosymbolic
 - Semiconductors
-- Open-Source
-- Machine-Learning
+- Open Source
+- Machine Learning
 ---

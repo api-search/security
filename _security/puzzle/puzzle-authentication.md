@@ -194,11 +194,11 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Accounting
-- Financial
+- Finance
 - Bookkeeping
 - Fintech
 - General Ledger
 - Payroll
-- agent-native
+- Agent-Native
 - MCP
 ---

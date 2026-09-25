@@ -46,5 +46,5 @@ tags:
 - Supply Chain
 - Southeast Asia
 - Decentralized Identity
-- agent-native
+- Agent-Native
 ---

@@ -42,7 +42,7 @@ tags:
 - Clinical
 - Deployment
 - FHIR
-- Agent2Agent
+- A2A
 - HIPAA
 - Life Sciences
 ---

@@ -139,7 +139,7 @@ tags:
 - People
 - SMB
 - Leave Management
-- Recruitment
+- Recruiting
 - Performance
 - Timesheets
 - Onboarding

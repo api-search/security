@@ -38,5 +38,5 @@ tags:
 - Containers
 - Developer Tools
 - Continuous Integration
-- Open-Source
+- Open Source
 ---

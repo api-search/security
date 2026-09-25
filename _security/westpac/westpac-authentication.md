@@ -53,8 +53,8 @@ method: derived
 name: Westpac Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Westpac Banking Corporation declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: Westpac Banking Corporation
+overview: Westpac declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: Westpac
 provider_slug: westpac
 scheme_count: 0
 schemes: []
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/westpac-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/authentication/westpac-authentication.yml
 summary_line: 0 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

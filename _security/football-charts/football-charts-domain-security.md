@@ -66,6 +66,6 @@ tags:
 - probability-models
 - monte-carlo
 - MCP
-- agent-native
+- Agent-Native
 - Free API
 ---

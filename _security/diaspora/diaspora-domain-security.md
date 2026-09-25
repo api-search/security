@@ -128,10 +128,10 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Privacy
 - Fediverse
 - Messaging

@@ -37,6 +37,6 @@ tags:
 - Compliance
 - EPR
 - Recyclability
-- Regulatory Technology
+- RegTech
 - ESG
 ---

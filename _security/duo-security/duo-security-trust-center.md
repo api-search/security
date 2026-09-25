@@ -67,5 +67,6 @@ tags:
 - MFA
 - Zero Trust
 - Identity
+- Identity Federation
 trust_url: https://duo.com/support/security-and-reliability
 ---

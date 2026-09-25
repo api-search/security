@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: derived\nsource: openapi/federal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-laboratory-consortium-for-technology-transfer/refs/heads/main/authentication/federal-laboratory-consortium-for-technology-transfer-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Technology-Transfer
 - Research
 - Laboratories

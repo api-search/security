@@ -49,7 +49,7 @@ tags:
 - JetBrains
 - Self-Hosting
 - On-Premises
-- Open-Source
+- Open Source
 - LSP
 - MCP
 - Fine-Tuning

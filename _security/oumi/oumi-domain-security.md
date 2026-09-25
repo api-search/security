@@ -40,12 +40,12 @@ tags:
 - Company
 - Economic Health
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Foundation Models
 - Fine-Tuning
 - Model Training
-- Open-Source
+- Open Source
 - MLOps
 - Developer Tools
 - Inference

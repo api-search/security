@@ -39,5 +39,5 @@ tags:
 - KYC
 - AI Agents
 - Compliance
-- Financial-Services
+- Financial Services
 ---

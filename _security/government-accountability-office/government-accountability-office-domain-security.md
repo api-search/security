@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Accountability
 - Auditing
-- Federal-Government
+- Federal Government
 - Government
 - United States
 ---

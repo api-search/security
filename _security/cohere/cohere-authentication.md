@@ -100,4 +100,5 @@ tags:
 - Vector Search
 - Tokenization
 - LLM
+- Canada
 ---

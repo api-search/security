@@ -60,5 +60,5 @@ tags:
 - Guardrails
 - Knowledge Retrieval
 - RAG
-- agent-native
+- Agent-Native
 ---

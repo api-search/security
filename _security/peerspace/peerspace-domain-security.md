@@ -43,5 +43,5 @@ tags:
 - Event Spaces
 - Booking
 - Travel
-- Real-Estate
+- Real Estate
 ---

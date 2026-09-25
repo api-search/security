@@ -125,7 +125,7 @@ tags:
 - Column-Oriented
 - Database
 - OLAP
-- Open-Source
+- Open Source
 - Real-Time
 - SQL
 trust_url: https://trust.clickhouse.com/

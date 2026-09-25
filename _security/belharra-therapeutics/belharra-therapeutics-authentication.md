@@ -1,55 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: belharra-therapeutics-custom-types-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Custom Types API
-  slug: belharra-therapeutics-custom-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-custom-types-api-openapi.yml
-- filename: belharra-therapeutics-discovery-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Discovery API
-  slug: belharra-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-discovery-api-openapi.yml
-- filename: belharra-therapeutics-media-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Media API
-  slug: belharra-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-media-api-openapi.yml
-- filename: belharra-therapeutics-pages-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Pages API
-  slug: belharra-therapeutics-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-pages-api-openapi.yml
-- filename: belharra-therapeutics-posts-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Posts API
-  slug: belharra-therapeutics-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-posts-api-openapi.yml
-- filename: belharra-therapeutics-search-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Search API
-  slug: belharra-therapeutics-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-search-api-openapi.yml
-- filename: belharra-therapeutics-taxonomy-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics Taxonomy API
-  slug: belharra-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-taxonomy-api-openapi.yml
-- filename: belharra-therapeutics-o-embed-api-openapi.yml
-  format: yaml
-  label: Belharra Therapeutics o Embed API
-  slug: belharra-therapeutics-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/openapi/belharra-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

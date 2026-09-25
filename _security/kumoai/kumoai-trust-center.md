@@ -21,7 +21,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Predictive Analytics
 - Graph Neural Networks
 - Foundation Models

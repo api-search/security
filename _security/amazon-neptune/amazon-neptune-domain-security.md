@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/_original/amazon-neptune-ml-openapi.yml
 - filename: amazon-neptune-opencypher-openapi.yml
   format: yaml
-  label: Amazon Neptune openCypher API
+  label: Amazon Neptune Open Cypher API
   slug: amazon-neptune-opencypher
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/_original/amazon-neptune-opencypher-openapi.yml

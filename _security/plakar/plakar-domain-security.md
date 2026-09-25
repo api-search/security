@@ -36,7 +36,7 @@ tags:
 - Backup
 - Data Protection
 - Disaster Recovery
-- Open-Source
+- Open Source
 - Encryption
 - Deduplication
 - Storage

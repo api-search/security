@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Detoure Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Detoure Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=none).'
-provider_name: Detoure Inc
+overview: 'Domain security posture for Detoure, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=none).'
+provider_name: Detoure
 provider_slug: detoure-inc
 slug: detoure-inc-domain-security
 source_filename: detoure-inc-domain-security.yml

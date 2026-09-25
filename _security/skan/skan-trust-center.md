@@ -26,6 +26,5 @@ tags:
 - AI Agents
 - Enterprise Automation
 - Workflow Intelligence
-- Agentic AI
 trust_url: https://trust.skan.ai/
 ---

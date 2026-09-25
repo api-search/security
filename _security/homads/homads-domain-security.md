@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Rentals
 - Mid-Term Rental
-- Real-Estate
+- Real Estate
 - Marketplace
 - Neighborhood Data
 ---

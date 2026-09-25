@@ -36,7 +36,7 @@ tags:
 - Accounting
 - Tax
 - Web3
-- Financial-Services
+- Financial Services
 - Japan
 - Data Management
 - Blockchain

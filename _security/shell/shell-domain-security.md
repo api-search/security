@@ -116,14 +116,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shell/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Aviation
-- Electric Vehicle Charging
+- EV Charging
 - Energy
 - Fleet Management
 - Fuel
 - Gas
 - Loyalty
 - Lubricants
-- Mobility
 - Oil and Gas
 - Renewable Energy
 ---

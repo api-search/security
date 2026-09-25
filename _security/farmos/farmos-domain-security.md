@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture
 - Farm Management
-- Open-Source
+- Open Source
 - JSON:API
 - Recordkeeping
 - Self-Hosted

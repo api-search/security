@@ -28,8 +28,8 @@ method: searched
 name: Moltrust Ch Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: CryptoKRI GmbH secures its APIs with apiKey, http-bearer (declared, not live), x402-payment, and admin-key (undeclared) across 6 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: CryptoKRI GmbH
+overview: MolTrust secures its APIs with apiKey, http-bearer (declared, not live), x402-payment, and admin-key (undeclared) across 6 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: MolTrust
 provider_slug: moltrust-ch
 scheme_count: 6
 schemes:
@@ -115,5 +115,5 @@ tags:
 - A2A
 - MCP
 - x402
-- agent-native
+- Agent-Native
 ---

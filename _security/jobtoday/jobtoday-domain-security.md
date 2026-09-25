@@ -39,7 +39,7 @@ tags:
 - Company
 - Consumer
 - Job
-- Recruitment
+- Recruiting
 - Hiring
 - Marketplace
 - Employment

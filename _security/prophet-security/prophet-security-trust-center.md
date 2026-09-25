@@ -28,6 +28,6 @@ tags:
 - SOC
 - Security Operations
 - Threat Detection
-- Agentic AI
+- AI Agents
 trust_url: https://trust.prophetsecurity.ai/
 ---

@@ -35,7 +35,7 @@ tags:
 - Security
 - Artificial Intelligence
 - AI Security
-- Agentic AI
+- AI Agents
 - Runtime Security
 - LLM Security
 - MCP

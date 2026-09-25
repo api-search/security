@@ -546,7 +546,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://api.dat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/authentication/general-services-administration-authentication.yml
 summary_line: apiKey/http · 6 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Procurement
 - Acquisition
 - Open Data

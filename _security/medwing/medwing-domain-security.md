@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- Recruitment
+- Recruiting
 - Staffing
 - Nursing
 - Human Resources

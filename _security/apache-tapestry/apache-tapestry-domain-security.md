@@ -39,6 +39,6 @@ tags:
 - Java
 - Web Applications
 - Web Framework
-- Open-Source
+- Open Source
 - AJAX
 ---

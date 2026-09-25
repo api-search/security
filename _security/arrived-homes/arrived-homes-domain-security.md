@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - PropTech
-- Real-Estate
+- Real Estate
 - Real Estate Investing
 - Fractional Ownership
 - Passive Income

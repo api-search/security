@@ -6,12 +6,6 @@ api_specs:
   slug: hasura-graphql-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/asyncapi/hasura-asyncapi.yml
-- filename: hasura-metadata-api-openapi.yml
-  format: yaml
-  label: Hasura Metadata API
-  slug: hasura-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
 - filename: hasura-healthz-api-openapi.yml
   format: yaml
   label: Hasura Healthz API
@@ -110,4 +104,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Access
 - GraphQL
+- Real-Time
 ---

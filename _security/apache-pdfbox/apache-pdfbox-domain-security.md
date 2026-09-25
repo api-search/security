@@ -71,5 +71,5 @@ tags:
 - PDF
 - Text Extraction
 - Apache
-- Open-Source
+- Open Source
 ---

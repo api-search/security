@@ -31,7 +31,7 @@ tags:
 - Artificial Intelligence
 - Contact Center
 - Customer Experience
-- Machine-Learning
+- Machine Learning
 - Enterprise AI
 - Call Routing
 - CCaaS

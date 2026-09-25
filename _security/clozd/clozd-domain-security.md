@@ -101,5 +101,5 @@ tags:
 - Revenue Intelligence
 - Software-as-a-Service
 - MCP
-- agent-native
+- Agent-Native
 ---

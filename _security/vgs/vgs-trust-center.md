@@ -2,25 +2,25 @@
 api_specs:
 - filename: vgs-aliases-api-openapi.yml
   format: yaml
-  label: Very Good Security aliases API
+  label: Very Good Security Aliases API
   slug: vgs-aliases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-aliases-api-openapi.yml
 - filename: vgs-organizations-api-openapi.yml
   format: yaml
-  label: Very Good Security organizations API
+  label: Very Good Security Organizations API
   slug: vgs-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-organizations-api-openapi.yml
 - filename: vgs-routes-api-openapi.yml
   format: yaml
-  label: Very Good Security routes API
+  label: Very Good Security Routes API
   slug: vgs-routes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-routes-api-openapi.yml
 - filename: vgs-vaults-api-openapi.yml
   format: yaml
-  label: Very Good Security vaults API
+  label: Very Good Security Vaults API
   slug: vgs-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-vaults-api-openapi.yml

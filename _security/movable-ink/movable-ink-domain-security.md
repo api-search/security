@@ -59,7 +59,7 @@ tags:
 - Customer Data
 - Mobile SDK
 - Artificial Intelligence
-- Advertising Technology
+- AdTech
 - Content
 - Event
 ---

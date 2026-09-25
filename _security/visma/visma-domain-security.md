@@ -1204,7 +1204,7 @@ tags:
 - Business Software
 - ERP
 - Enterprise
-- Financial-Services
+- Financial Services
 - Human Resources
 - Invoicing
 - Nordic

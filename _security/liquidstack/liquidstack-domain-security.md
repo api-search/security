@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquidstack/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Data-Center
+- Data Center
 - Liquid Cooling
 - Immersion Cooling
 - Thermal Management

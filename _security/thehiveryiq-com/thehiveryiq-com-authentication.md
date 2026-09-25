@@ -132,6 +132,6 @@ tags:
 - Inference
 - LLM Routing
 - Compliance
-- agent-native
+- Agent-Native
 - United States
 ---

@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/appmixer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/authentication/appmixer-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Agentic
+- AI Agents
 - Automation
 - Embedded iPaaS
 - Integration

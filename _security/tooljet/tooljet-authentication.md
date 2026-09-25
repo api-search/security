@@ -57,9 +57,9 @@ summary_line: http · 1 scheme
 tags:
 - Low-Code
 - Internal Tools
-- Open-Source
+- Open Source
 - Application Builder
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Dashboards
 - AI Agents

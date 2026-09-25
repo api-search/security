@@ -35,7 +35,7 @@ tags:
 - Biotechnology
 - Pharmaceuticals
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Genomics
 - Multiomics
 - Therapeutics

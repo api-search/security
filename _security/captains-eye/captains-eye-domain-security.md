@@ -35,7 +35,7 @@ tags:
 - Maritime
 - Video Analytics
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Safety
 - Monitoring
 - Shipping

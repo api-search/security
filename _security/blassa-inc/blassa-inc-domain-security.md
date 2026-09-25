@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Blassa Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Blassa Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
-provider_name: Blassa Inc.
+overview: 'Domain security posture for Blassa, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: Blassa
 provider_slug: blassa-inc
 slug: blassa-inc-domain-security
 source_filename: blassa-inc-domain-security.yml

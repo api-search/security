@@ -93,7 +93,7 @@ tags:
 - Post-Quantum Cryptography
 - Verification
 - Fintech
-- agent-native
+- Agent-Native
 - Algorand
 - United Kingdom
 ---

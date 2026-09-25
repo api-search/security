@@ -43,6 +43,6 @@ tags:
 - Application Security
 - Provenance
 - DevSecOps
-- Open-Source
+- Open Source
 - Artifact Tracking
 ---

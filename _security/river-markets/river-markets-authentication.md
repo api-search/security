@@ -5,31 +5,31 @@ api_key_in:
 api_specs:
 - filename: river-markets-balance-api-openapi.yml
   format: yaml
-  label: River Markets balance API
+  label: River Markets Balance API
   slug: river-markets-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-balance-api-openapi.yml
 - filename: river-markets-complex-orders-api-openapi.yml
   format: yaml
-  label: River Markets complex-orders API
+  label: River Markets Complex Orders API
   slug: river-markets-complex-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-complex-orders-api-openapi.yml
 - filename: river-markets-fair-values-api-openapi.yml
   format: yaml
-  label: River Markets fair-values API
+  label: River Markets Fair Values API
   slug: river-markets-fair-values-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fair-values-api-openapi.yml
 - filename: river-markets-fills-api-openapi.yml
   format: yaml
-  label: River Markets fills API
+  label: River Markets Fills API
   slug: river-markets-fills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fills-api-openapi.yml
 - filename: river-markets-generic-assets-api-openapi.yml
   format: yaml
-  label: River Markets generic-assets API
+  label: River Markets Generic Assets API
   slug: river-markets-generic-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-generic-assets-api-openapi.yml
@@ -41,37 +41,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-markets-api-openapi.yml
 - filename: river-markets-orders-api-openapi.yml
   format: yaml
-  label: River Markets orders API
+  label: River Markets Orders API
   slug: river-markets-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-orders-api-openapi.yml
 - filename: river-markets-positions-api-openapi.yml
   format: yaml
-  label: River Markets positions API
+  label: River Markets Positions API
   slug: river-markets-positions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-positions-api-openapi.yml
 - filename: river-markets-prices-api-openapi.yml
   format: yaml
-  label: River Markets prices API
+  label: River Markets Prices API
   slug: river-markets-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-prices-api-openapi.yml
 - filename: river-markets-subaccounts-api-openapi.yml
   format: yaml
-  label: River Markets subaccounts API
+  label: River Markets Subaccounts API
   slug: river-markets-subaccounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-subaccounts-api-openapi.yml
 - filename: river-markets-tradeprints-api-openapi.yml
   format: yaml
-  label: River Markets tradeprints API
+  label: River Markets Tradeprints API
   slug: river-markets-tradeprints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-tradeprints-api-openapi.yml
 - filename: river-markets-watchlists-api-openapi.yml
   format: yaml
-  label: River Markets watchlists API
+  label: River Markets Watchlists API
   slug: river-markets-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-watchlists-api-openapi.yml
@@ -137,9 +137,10 @@ tags:
 - Prediction Markets
 - Trading
 - Prime Brokerage
-- Financial-Services
+- Financial Services
 - Order Management
 - Market Data
 - WebSocket
 - Fintech
+- Real-Time
 ---

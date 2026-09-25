@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GPU
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Computing
 - Graphics
 - Fortune 1000

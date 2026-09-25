@@ -36,4 +36,5 @@ tags:
 - Consumer Packaged Goods
 - Food
 - Snacks
+- Food and Beverage
 ---

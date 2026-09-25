@@ -74,8 +74,8 @@ method: searched
 name: Bitpowr Technologies Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: BitPowr Technologies, Inc. secures its APIs with http and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: BitPowr Technologies, Inc.
+overview: BitPowr Technologies secures its APIs with http and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: BitPowr Technologies
 provider_slug: bitpowr-technologies-inc
 scheme_count: 2
 schemes:

@@ -37,5 +37,5 @@ tags:
 - Agents
 - Reasoning
 - Reinforcement Learning
-- Open-Source
+- Open Source
 ---

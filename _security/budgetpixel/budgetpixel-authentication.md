@@ -254,7 +254,7 @@ tags:
 - Content Moderation
 - Creative Tools
 - Design
-- agent-native
+- Agent-Native
 - MCP
 - MCP Server
 - Artificial Intelligence
@@ -269,5 +269,5 @@ tags:
 - Upscaling
 - Credit
 - Model Aggregator
-- Agent Card
+- A2A
 ---

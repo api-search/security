@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Alleghany Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Alleghany Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Alleghany Corporation
+overview: 'Domain security posture for Alleghany, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Alleghany
 provider_slug: alleghany
 slug: alleghany-domain-security
 source_filename: alleghany-domain-security.yml
@@ -37,7 +37,7 @@ tags:
 - Specialty Insurance
 - Excess and Surplus
 - Surety
-- Financial-Services
+- Financial Services
 - Holding Company
 - Berkshire Hathaway Subsidiary
 - Toys And Collectibles

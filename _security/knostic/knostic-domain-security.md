@@ -2,25 +2,25 @@
 api_specs:
 - filename: knostic-extensions-api-openapi.yml
   format: yaml
-  label: Knostic extensions API
+  label: Knostic Extensions API
   slug: knostic-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-extensions-api-openapi.yml
 - filename: knostic-mcp-api-openapi.yml
   format: yaml
-  label: Knostic mcp API
+  label: Knostic MCP API
   slug: knostic-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-mcp-api-openapi.yml
 - filename: knostic-scans-api-openapi.yml
   format: yaml
-  label: Knostic scans API
+  label: Knostic Scans API
   slug: knostic-scans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-scans-api-openapi.yml
 - filename: knostic-skills-api-openapi.yml
   format: yaml
-  label: Knostic skills API
+  label: Knostic Skills API
   slug: knostic-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-skills-api-openapi.yml

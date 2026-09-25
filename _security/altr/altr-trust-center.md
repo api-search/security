@@ -432,6 +432,6 @@ tags:
 - Compliance
 - Data Privacy
 - MCP
-- agent-native
+- Agent-Native
 trust_url: https://trust.altr.com/
 ---

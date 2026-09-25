@@ -111,5 +111,6 @@ tags:
 - Human Resources
 - Identity Verification
 - Criminal Records
+- Recruiting
 trust_url: https://security.checkr.com/
 ---

@@ -112,7 +112,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-token-api-openapi.yml
 - filename: portone-b2-b-api-openapi.yml
   format: yaml
-  label: PortOne B2 B API
+  label: PortOne B2B API
   slug: portone-b2-b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-b2-b-api-openapi.yml

@@ -37,5 +37,5 @@ tags:
 - Virtualization
 - Formal Verification
 - Microhypervisor
-- Open-Source
+- Open Source
 ---

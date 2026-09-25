@@ -175,5 +175,6 @@ tags:
 - Digital Experience Management
 - Intelligence
 - Observability
+- Monitoring
 trust_url: https://trust.dynatrace.com/
 ---

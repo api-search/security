@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Surgical Supply Chain
 - Charge Capture
 - Medical Devices

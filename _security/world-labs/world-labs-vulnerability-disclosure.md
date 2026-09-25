@@ -2,7 +2,7 @@
 api_specs:
 - filename: world-labs-credits-api-openapi.yml
   format: yaml
-  label: World Labs credits API
+  label: World Labs Credits API
   slug: world-labs-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/world-labs/refs/heads/main/openapi/world-labs-credits-api-openapi.yml

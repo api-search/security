@@ -463,7 +463,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - Audit
 - GRC

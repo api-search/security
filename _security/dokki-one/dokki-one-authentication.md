@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Collaboration
-- Knowledge-Management
+- Knowledge Management
 - Documents
 - Agents
 - MCP

@@ -35,6 +35,6 @@ tags:
 - Construction
 - Home Improvement
 - Contractor Marketplace
-- Real-Estate
+- Real Estate
 - PropTech
 ---

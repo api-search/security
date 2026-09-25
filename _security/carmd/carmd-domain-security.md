@@ -42,11 +42,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automobiles
 - Cars
-- Diagnostics
 - Vehicles
 - Automotive
 - OBD-II
 - Agentic Commerce
 - MCP
 - E-Commerce
+- Vehicle Diagnostics
 ---

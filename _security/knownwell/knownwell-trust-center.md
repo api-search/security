@@ -2,61 +2,61 @@
 api_specs:
 - filename: knownwell-alignment-api-openapi.yml
   format: yaml
-  label: Knownwell alignment API
+  label: Knownwell Alignment API
   slug: knownwell-alignment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-alignment-api-openapi.yml
 - filename: knownwell-api-keys-api-openapi.yml
   format: yaml
-  label: Knownwell api-keys API
+  label: Knownwell API Keys API
   slug: knownwell-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-api-keys-api-openapi.yml
 - filename: knownwell-clients-api-openapi.yml
   format: yaml
-  label: Knownwell clients API
+  label: Knownwell Clients API
   slug: knownwell-clients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-clients-api-openapi.yml
 - filename: knownwell-documentation-api-openapi.yml
   format: yaml
-  label: Knownwell documentation API
+  label: Knownwell Documentation API
   slug: knownwell-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-documentation-api-openapi.yml
 - filename: knownwell-health-api-openapi.yml
   format: yaml
-  label: Knownwell health API
+  label: Knownwell Health API
   slug: knownwell-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-health-api-openapi.yml
 - filename: knownwell-portfolios-api-openapi.yml
   format: yaml
-  label: Knownwell portfolios API
+  label: Knownwell Portfolios API
   slug: knownwell-portfolios-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-portfolios-api-openapi.yml
 - filename: knownwell-root-api-openapi.yml
   format: yaml
-  label: Knownwell root API
+  label: Knownwell Root API
   slug: knownwell-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-root-api-openapi.yml
 - filename: knownwell-status-api-openapi.yml
   format: yaml
-  label: Knownwell status API
+  label: Knownwell Status API
   slug: knownwell-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-status-api-openapi.yml
 - filename: knownwell-streams-api-openapi.yml
   format: yaml
-  label: Knownwell streams API
+  label: Knownwell Streams API
   slug: knownwell-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-streams-api-openapi.yml
 - filename: knownwell-topics-api-openapi.yml
   format: yaml
-  label: Knownwell topics API
+  label: Knownwell Topics API
   slug: knownwell-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-topics-api-openapi.yml

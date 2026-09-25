@@ -40,7 +40,7 @@ tags:
 - Search
 - E-Commerce
 - Retail
-- Machine-Learning
+- Machine Learning
 - MACH
 - Mastercard
 ---

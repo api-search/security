@@ -37,7 +37,7 @@ tags:
 - Artificial Intelligence
 - Medical Writing
 - Pharma
-- Biotech
+- Biotechnology
 - Compliance
 - Document Automation
 - Y Combinator

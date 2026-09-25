@@ -11,8 +11,8 @@ method: searched
 name: Vertical Bar Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Vertical Bar Inc. secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Vertical Bar Inc.
+overview: Vertical Bar secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Vertical Bar
 provider_slug: vertical-bar-inc
 scheme_count: 1
 schemes:

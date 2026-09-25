@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Co-Working
 - Flexible Workspace
-- Real-Estate
+- Real Estate
 - Workspace Booking
 - Workplace Management
 - Booking

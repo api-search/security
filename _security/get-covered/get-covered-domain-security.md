@@ -46,7 +46,7 @@ tags:
 - Insurtech
 - Renters Insurance
 - Property Management
-- Real-Estate
+- Real Estate
 - Compliance
 - Risk Management
 - Embedded Insurance

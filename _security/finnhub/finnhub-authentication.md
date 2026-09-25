@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/finnhub-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/authentication/finnhub-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Forex
@@ -53,4 +53,5 @@ tags:
 - Fundamentals
 - News
 - WebSocket
+- Real-Time
 ---

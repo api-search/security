@@ -53,7 +53,7 @@ tags:
 - Drug Discovery
 - Antibody Engineering
 - Synthetic Biology
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Data Licensing
 - Life Sciences

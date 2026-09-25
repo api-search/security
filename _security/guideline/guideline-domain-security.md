@@ -37,7 +37,7 @@ tags:
 - Retirement
 - 401k
 - IRA
-- Financial-Services
+- Financial Services
 - Fintech
 - Payroll
 - Investing

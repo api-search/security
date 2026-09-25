@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CMS
 - Content Management
-- Open-Source
+- Open Source
 - PHP
 - REST API
 - Articles

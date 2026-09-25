@@ -90,7 +90,7 @@ tags:
 - Oncology
 - Drug Development
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Biotechnology
 - Precision Medicine

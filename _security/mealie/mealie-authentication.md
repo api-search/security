@@ -401,7 +401,7 @@ tags:
 - Meal Planning
 - Shopping Lists
 - Self-Hosted
-- Open-Source
+- Open Source
 - Household
 - Nutrition
 - Home Automation

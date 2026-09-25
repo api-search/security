@@ -48,4 +48,5 @@ tags:
 - Distribution
 - Supply Chain
 - E-Commerce
+- Food and Beverage
 ---

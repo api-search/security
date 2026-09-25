@@ -34,7 +34,6 @@ tags:
 - Company
 - Electric Vehicles
 - Automotive
-- EV
 - Electric Truck
 - Manufacturing
 - Mobility

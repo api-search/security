@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Legal Tech
 - Professional Services
 - Microsoft Office

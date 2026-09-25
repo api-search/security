@@ -302,7 +302,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heron/refs/hea
 summary_line: SOC 2
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Document Automation
 - Underwriting
 - Lending
@@ -312,5 +312,6 @@ tags:
 - Bank Statements
 - Transaction Enrichment
 - Agent Ready
+- A2A
 trust_url: https://www.herondata.io/security
 ---

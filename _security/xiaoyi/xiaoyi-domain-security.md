@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaoyi/refs/he
 summary_line: TLSv1.2
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Edge Computing
 - Camera
 - Smart Home

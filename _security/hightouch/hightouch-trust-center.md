@@ -92,5 +92,6 @@ tags:
 - Advertising
 - AI Agents
 - Data Warehouse
+- A2A
 trust_url: https://hightouch.com/platform/security
 ---

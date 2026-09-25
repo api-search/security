@@ -34,8 +34,8 @@ tags:
 - Company
 - Enterprise Software
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Asset Management
 - Data Infrastructure
-- Agentic AI
+- AI Agents
 ---

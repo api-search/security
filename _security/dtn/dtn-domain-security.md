@@ -584,7 +584,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-zulu-icing-airmet-api-openapi.yml
 - filename: dtn-apis-api-openapi.yml
   format: yaml
-  label: DTN AP Is API
+  label: DTN APIs API
   slug: dtn-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-apis-api-openapi.yml
@@ -639,4 +639,5 @@ tags:
 - Forecasting
 - Observations
 - Commodities
+- Real-Time
 ---

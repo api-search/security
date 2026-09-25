@@ -25,10 +25,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/h
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR
 tags:
 - Recruiting CRM
-- ATS
+- Applicant Tracking
 - Sourcing
 - Talent Marketing
-- Agentic AI
+- AI Agents
 - Human Resources
+- Recruiting
 trust_url: https://www.gem.com/compliance/security
 ---

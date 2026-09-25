@@ -61,5 +61,6 @@ tags:
 - Email Testing
 - Marketing Tools
 - Quality Assurance
+- Email
 trust_url: https://trust.validity.com/
 ---

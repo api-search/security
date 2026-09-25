@@ -2185,7 +2185,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ixon-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ixon/refs/heads/main/authentication/ixon-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- IIoT
 - Industrial IoT
 - Machine Connectivity
 - Remote Access

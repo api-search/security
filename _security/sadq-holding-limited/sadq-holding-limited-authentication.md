@@ -98,8 +98,8 @@ name: Sadq Holding Limited Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: Sadq Holding Limited secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: Sadq Holding Limited
+overview: Sadq secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Sadq
 provider_slug: sadq-holding-limited
 scheme_count: 2
 schemes:
@@ -137,7 +137,7 @@ tags:
 - Digital Signature
 - Identity
 - KYB
-- Document-Management
+- Document Management
 - Saudi Arabia
 - Nafath
 - Webhook

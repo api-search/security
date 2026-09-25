@@ -2,25 +2,25 @@
 api_specs:
 - filename: energy-charts-api-import-export-api-openapi.yml
   format: yaml
-  label: Energy Charts API import_export API
+  label: Energy Charts API Import Export API
   slug: energy-charts-api-import-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-api-openapi.yml
 - filename: energy-charts-api-power-api-openapi.yml
   format: yaml
-  label: Energy Charts API power API
+  label: Energy Charts API Power API
   slug: energy-charts-api-power-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-api-openapi.yml
 - filename: energy-charts-api-prices-api-openapi.yml
   format: yaml
-  label: Energy Charts API prices API
+  label: Energy Charts API Prices API
   slug: energy-charts-api-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-api-openapi.yml
 - filename: energy-charts-api-ren-share-api-openapi.yml
   format: yaml
-  label: Energy Charts API ren_share API
+  label: Energy Charts API Ren Share API
   slug: energy-charts-api-ren-share-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-api-openapi.yml

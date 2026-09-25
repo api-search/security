@@ -2,49 +2,49 @@
 api_specs:
 - filename: restate-cluster-health-api-openapi.yml
   format: yaml
-  label: Restate cluster_health API
+  label: Restate Cluster Health API
   slug: restate-cluster-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-cluster-health-api-openapi.yml
 - filename: restate-deployment-api-openapi.yml
   format: yaml
-  label: Restate deployment API
+  label: Restate Deployment API
   slug: restate-deployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-deployment-api-openapi.yml
 - filename: restate-health-api-openapi.yml
   format: yaml
-  label: Restate health API
+  label: Restate Health API
   slug: restate-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-health-api-openapi.yml
 - filename: restate-invocation-api-openapi.yml
   format: yaml
-  label: Restate invocation API
+  label: Restate Invocation API
   slug: restate-invocation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-invocation-api-openapi.yml
 - filename: restate-service-api-openapi.yml
   format: yaml
-  label: Restate service API
+  label: Restate Service API
   slug: restate-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-api-openapi.yml
 - filename: restate-service-handler-api-openapi.yml
   format: yaml
-  label: Restate service_handler API
+  label: Restate Service Handler API
   slug: restate-service-handler-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-handler-api-openapi.yml
 - filename: restate-subscription-api-openapi.yml
   format: yaml
-  label: Restate subscription API
+  label: Restate Subscription API
   slug: restate-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-subscription-api-openapi.yml
 - filename: restate-version-api-openapi.yml
   format: yaml
-  label: Restate version API
+  label: Restate Version API
   slug: restate-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-version-api-openapi.yml

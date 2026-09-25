@@ -38,6 +38,6 @@ tags:
 - Developer Tools
 - SDK
 - MCP
-- Open-Source
+- Open Source
 - Artificial Intelligence
 ---

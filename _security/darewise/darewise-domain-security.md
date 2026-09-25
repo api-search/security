@@ -49,5 +49,5 @@ tags:
 - Metaverse
 - Unreal Engine
 - Entertainment
-- Open-Source
+- Open Source
 ---

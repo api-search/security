@@ -303,4 +303,5 @@ tags:
 - Workforce
 - MCP
 - AI Agents
+- Payroll
 ---

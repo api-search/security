@@ -11,8 +11,8 @@ method: searched
 name: Blassa Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Blassa Inc. secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Blassa Inc.
+overview: Blassa secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Blassa
 provider_slug: blassa-inc
 scheme_count: 1
 schemes:

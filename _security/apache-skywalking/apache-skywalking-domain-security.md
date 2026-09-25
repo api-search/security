@@ -41,6 +41,6 @@ tags:
 - Distributed Tracing
 - Monitoring
 - Observability
-- Open-Source
+- Open Source
 - Tracing
 ---

@@ -124,9 +124,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication
 - User Management
-- Open-Source
+- Open Source
 - Self-Hosted
 - Identity
 - Organization
 - RBAC
+- A2A
 ---

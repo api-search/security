@@ -32,9 +32,9 @@ tags:
 - Company
 - Advertising
 - Data
-- Machine-Learning
+- Machine Learning
 - Credit Scoring
-- Financial-Services
+- Financial Services
 - Audience Targeting
 - AdTech
 ---

@@ -105,5 +105,7 @@ tags:
 - SDK
 - Terraform
 - Testing
+- SDK Generation
+- A2A
 trust_url: https://trust.speakeasy.com/
 ---

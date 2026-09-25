@@ -32,7 +32,7 @@ tags:
 - No-Code
 - Low-Code
 - Business Process Management
-- Workflow-Automation
+- Workflow Automation
 - Sales
 - Marketing
 - Customer Service

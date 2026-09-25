@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-agreements-api-openapi.yml
 - filename: opply-api-api-openapi.yml
   format: yaml
-  label: Opply api
+  label: Opply API
   slug: opply-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-api-api-openapi.yml

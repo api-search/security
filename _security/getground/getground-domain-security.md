@@ -43,7 +43,7 @@ tags:
 - Buy-to-Let
 - Fintech
 - PropTech
-- Real-Estate
+- Real Estate
 - Accounting
 - Limited Company
 - Landlords

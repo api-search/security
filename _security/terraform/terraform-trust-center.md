@@ -80,7 +80,7 @@ tags:
 - Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
-- Open-Source
+- Open Source
 - HashiCorp
 trust_url: https://www.hashicorp.com/trust
 ---

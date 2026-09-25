@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-build-api-openapi.yml
 - filename: lambdatest-extensions-api-openapi.yml
   format: yaml
-  label: LambdaTest extensions API
+  label: LambdaTest Extensions API
   slug: lambdatest-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-extensions-api-openapi.yml
@@ -58,13 +58,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-organisation-api-openapi.yml
 - filename: lambdatest-platforms-api-openapi.yml
   format: yaml
-  label: LambdaTest platforms API
+  label: LambdaTest Platforms API
   slug: lambdatest-platforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-platforms-api-openapi.yml
 - filename: lambdatest-prerun-api-openapi.yml
   format: yaml
-  label: LambdaTest prerun API
+  label: LambdaTest Prerun API
   slug: lambdatest-prerun-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-prerun-api-openapi.yml
@@ -94,7 +94,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-test-api-openapi.yml
 - filename: lambdatest-tunnel-api-openapi.yml
   format: yaml
-  label: LambdaTest tunnel API
+  label: LambdaTest Tunnel API
   slug: lambdatest-tunnel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-tunnel-api-openapi.yml
@@ -106,7 +106,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-upload-screenshots-api-openapi.yml
 - filename: lambdatest-user-files-api-openapi.yml
   format: yaml
-  label: LambdaTest user-files API
+  label: LambdaTest User Files API
   slug: lambdatest-user-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/openapi/lambdatest-user-files-api-openapi.yml

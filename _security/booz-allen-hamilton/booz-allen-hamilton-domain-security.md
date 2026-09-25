@@ -44,7 +44,7 @@ tags:
 - Consulting
 - Cybersecurity
 - Defense
-- Federal-Government
+- Federal Government
 - Intelligence
 - Management Consulting
 - Technology

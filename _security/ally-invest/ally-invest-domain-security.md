@@ -1,29 +1,5 @@
 ---
 api_specs:
-- filename: ally-invest-orders-api-openapi.yml
-  format: yaml
-  label: Ally Invest Orders API
-  slug: ally-invest-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-orders-api-openapi.yml
-- filename: ally-invest-market-data-api-openapi.yml
-  format: yaml
-  label: Ally Invest Market Data API
-  slug: ally-invest-market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-market-data-api-openapi.yml
-- filename: ally-invest-watchlists-api-openapi.yml
-  format: yaml
-  label: Ally Invest Watchlists API
-  slug: ally-invest-watchlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-watchlists-api-openapi.yml
-- filename: ally-invest-member-api-openapi.yml
-  format: yaml
-  label: Ally Invest Member API
-  slug: ally-invest-member-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-member-api-openapi.yml
 - filename: ally-invest-accounts-api-openapi.yml
   format: yaml
   label: Ally Invest Accounts API

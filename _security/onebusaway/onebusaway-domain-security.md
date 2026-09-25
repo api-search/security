@@ -2,7 +2,7 @@
 api_specs:
 - filename: onebusaway-default-api-openapi.yml
   format: yaml
-  label: OneBusAway default API
+  label: OneBusAway Default API
   slug: onebusaway-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-default-api-openapi.yml
@@ -66,7 +66,7 @@ tags:
 - Departures
 - Bus
 - GTFS
-- Open-Source
+- Open Source
 - Stop Data
 - Trip Planning
 - Service Alerts

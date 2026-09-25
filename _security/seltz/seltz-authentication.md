@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: seltz-answer-api-openapi.yml
   format: yaml
-  label: Seltz answer API
+  label: Seltz Answer API
   slug: seltz-answer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/openapi/seltz-answer-api-openapi.yml
 - filename: seltz-search-api-openapi.yml
   format: yaml
-  label: Seltz search API
+  label: Seltz Search API
   slug: seltz-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/openapi/seltz-search-api-openapi.yml

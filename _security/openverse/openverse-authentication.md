@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: openverse-audio-api-openapi.yml
   format: yaml
-  label: Openverse audio API
+  label: Openverse Audio API
   slug: openverse-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-audio-api-openapi.yml
 - filename: openverse-auth-api-openapi.yml
   format: yaml
-  label: Openverse auth API
+  label: Openverse Auth API
   slug: openverse-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-auth-api-openapi.yml
 - filename: openverse-images-api-openapi.yml
   format: yaml
-  label: Openverse images API
+  label: Openverse Images API
   slug: openverse-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-images-api-openapi.yml

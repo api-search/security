@@ -37,7 +37,7 @@ tags:
 - Generative AI
 - E-Commerce
 - Product Photography
-- Image-Generation
+- Image Generation
 - Video Generation
 - Retail
 ---

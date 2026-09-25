@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Wow Ai Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Wow AI LTD., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Wow AI LTD.
+overview: 'Domain security posture for WOW AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: WOW AI
 provider_slug: wow-ai-ltd
 slug: wow-ai-ltd-domain-security
 source_filename: wow-ai-ltd-domain-security.yml

@@ -10,19 +10,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-analyticsexplorations-api-openapi.yml
 - filename: growthbook-archetypes-api-openapi.yml
   format: yaml
-  label: GrowthBook archetypes API
+  label: GrowthBook Archetypes API
   slug: growthbook-archetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-archetypes-api-openapi.yml
 - filename: growthbook-attributes-api-openapi.yml
   format: yaml
-  label: GrowthBook attributes API
+  label: GrowthBook Attributes API
   slug: growthbook-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-attributes-api-openapi.yml
 - filename: growthbook-code-references-api-openapi.yml
   format: yaml
-  label: GrowthBook code-references API
+  label: GrowthBook Code References API
   slug: growthbook-code-references-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-code-references-api-openapi.yml
@@ -34,103 +34,103 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-dashboards-api-openapi.yml
 - filename: growthbook-data-sources-api-openapi.yml
   format: yaml
-  label: GrowthBook data-sources API
+  label: GrowthBook Data Sources API
   slug: growthbook-data-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-data-sources-api-openapi.yml
 - filename: growthbook-dimensions-api-openapi.yml
   format: yaml
-  label: GrowthBook dimensions API
+  label: GrowthBook Dimensions API
   slug: growthbook-dimensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-dimensions-api-openapi.yml
 - filename: growthbook-environments-api-openapi.yml
   format: yaml
-  label: GrowthBook environments API
+  label: GrowthBook Environments API
   slug: growthbook-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-environments-api-openapi.yml
 - filename: growthbook-experiments-api-openapi.yml
   format: yaml
-  label: GrowthBook experiments API
+  label: GrowthBook Experiments API
   slug: growthbook-experiments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-experiments-api-openapi.yml
 - filename: growthbook-fact-metrics-api-openapi.yml
   format: yaml
-  label: GrowthBook fact-metrics API
+  label: GrowthBook Fact Metrics API
   slug: growthbook-fact-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-fact-metrics-api-openapi.yml
 - filename: growthbook-fact-tables-api-openapi.yml
   format: yaml
-  label: GrowthBook fact-tables API
+  label: GrowthBook Fact Tables API
   slug: growthbook-fact-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-fact-tables-api-openapi.yml
 - filename: growthbook-feature-revisions-api-openapi.yml
   format: yaml
-  label: GrowthBook feature-revisions API
+  label: GrowthBook Feature Revisions API
   slug: growthbook-feature-revisions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-feature-revisions-api-openapi.yml
 - filename: growthbook-feature-revisions-v2-api-openapi.yml
   format: yaml
-  label: GrowthBook feature-revisions-v2 API
+  label: GrowthBook Feature Revisions V2 API
   slug: growthbook-feature-revisions-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-feature-revisions-v2-api-openapi.yml
 - filename: growthbook-features-api-openapi.yml
   format: yaml
-  label: GrowthBook features API
+  label: GrowthBook Features API
   slug: growthbook-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-features-api-openapi.yml
 - filename: growthbook-features-v2-api-openapi.yml
   format: yaml
-  label: GrowthBook features-v2 API
+  label: GrowthBook Features V2 API
   slug: growthbook-features-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-features-v2-api-openapi.yml
 - filename: growthbook-members-api-openapi.yml
   format: yaml
-  label: GrowthBook members API
+  label: GrowthBook Members API
   slug: growthbook-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-members-api-openapi.yml
 - filename: growthbook-metrics-api-openapi.yml
   format: yaml
-  label: GrowthBook metrics API
+  label: GrowthBook Metrics API
   slug: growthbook-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-metrics-api-openapi.yml
 - filename: growthbook-namespaces-api-openapi.yml
   format: yaml
-  label: GrowthBook namespaces API
+  label: GrowthBook Namespaces API
   slug: growthbook-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-namespaces-api-openapi.yml
 - filename: growthbook-organizations-api-openapi.yml
   format: yaml
-  label: GrowthBook organizations API
+  label: GrowthBook Organizations API
   slug: growthbook-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-organizations-api-openapi.yml
 - filename: growthbook-projects-api-openapi.yml
   format: yaml
-  label: GrowthBook projects API
+  label: GrowthBook Projects API
   slug: growthbook-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-projects-api-openapi.yml
 - filename: growthbook-queries-api-openapi.yml
   format: yaml
-  label: GrowthBook queries API
+  label: GrowthBook Queries API
   slug: growthbook-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-queries-api-openapi.yml
 - filename: growthbook-ramp-schedules-api-openapi.yml
   format: yaml
-  label: GrowthBook ramp-schedules API
+  label: GrowthBook Ramp Schedules API
   slug: growthbook-ramp-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-ramp-schedules-api-openapi.yml
@@ -142,13 +142,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-rampscheduletemplates-api-openapi.yml
 - filename: growthbook-saved-groups-api-openapi.yml
   format: yaml
-  label: GrowthBook saved-groups API
+  label: GrowthBook Saved Groups API
   slug: growthbook-saved-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-saved-groups-api-openapi.yml
 - filename: growthbook-sdk-connections-api-openapi.yml
   format: yaml
-  label: GrowthBook sdk-connections API
+  label: GrowthBook SDK Connections API
   slug: growthbook-sdk-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-sdk-connections-api-openapi.yml
@@ -160,19 +160,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-sdk-payload-api-openapi.yml
 - filename: growthbook-segments-api-openapi.yml
   format: yaml
-  label: GrowthBook segments API
+  label: GrowthBook Segments API
   slug: growthbook-segments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-segments-api-openapi.yml
 - filename: growthbook-settings-api-openapi.yml
   format: yaml
-  label: GrowthBook settings API
+  label: GrowthBook Settings API
   slug: growthbook-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-settings-api-openapi.yml
 - filename: growthbook-snapshots-api-openapi.yml
   format: yaml
-  label: GrowthBook snapshots API
+  label: GrowthBook Snapshots API
   slug: growthbook-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-snapshots-api-openapi.yml
@@ -190,13 +190,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-transform-copy-api-openapi.yml
 - filename: growthbook-usage-api-openapi.yml
   format: yaml
-  label: GrowthBook usage API
+  label: GrowthBook Usage API
   slug: growthbook-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-usage-api-openapi.yml
 - filename: growthbook-visual-changesets-api-openapi.yml
   format: yaml
-  label: GrowthBook visual-changesets API
+  label: GrowthBook Visual Changesets API
   slug: growthbook-visual-changesets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/openapi/growthbook-visual-changesets-api-openapi.yml
@@ -269,7 +269,7 @@ summary_line: http · 2 schemes
 tags:
 - Feature Flags
 - Experimentation
-- Open-Source
+- Open Source
 - A/B Testing
 - Analytics
 ---

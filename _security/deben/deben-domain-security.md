@@ -34,7 +34,7 @@ tags:
 - Company
 - Treasury Management
 - Cash Management
-- Financial-Services
+- Financial Services
 - Fintech
 - Liquidity Planning
 - Reconciliation

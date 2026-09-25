@@ -166,9 +166,9 @@ tags:
 - AI Agents
 - AI Automation
 - Agent Platform
-- Workflow-Automation
+- Workflow Automation
 - MCP
-- Open-Source
+- Open Source
 - No-Code
 - LLM Orchestration
 - Agent Marketplace

@@ -75,7 +75,7 @@ tags:
 - Ai Ml
 - Legal
 - Contract Management
-- Document-Management
+- Document Management
 - Asset Intelligence
 - Compliance
 - Software-as-a-Service

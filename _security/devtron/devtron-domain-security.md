@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-authentication-api-openapi.yml
 - filename: devtron-bulk-other-api-openapi.yml
   format: yaml
-  label: Devtron bulk_other API
+  label: Devtron Bulk Other API
   slug: devtron-bulk-other-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-bulk-other-api-openapi.yml

@@ -57,7 +57,7 @@ tags:
 - OpenTofu
 - Developer Tools
 - Webhook
-- Open-Source
+- Open Source
 - SDK
 - CLI
 ---

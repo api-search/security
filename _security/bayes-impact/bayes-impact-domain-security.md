@@ -38,6 +38,6 @@ tags:
 - Public Services
 - Civic Tech
 - Employment
-- Open-Source
+- Open Source
 - Protobuf
 ---

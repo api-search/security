@@ -12,8 +12,8 @@ method: searched
 name: Lua Global Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Lua Global Inc secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Lua Global Inc
+overview: Lua AI secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Lua AI
 provider_slug: lua-global-inc
 scheme_count: 1
 schemes:

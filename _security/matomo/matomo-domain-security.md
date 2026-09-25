@@ -420,7 +420,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Web Analytics
-- Open-Source
+- Open Source
 - Privacy
 - Data Ownership
 - Self-Hosted

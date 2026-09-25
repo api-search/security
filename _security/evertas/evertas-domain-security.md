@@ -37,6 +37,6 @@ tags:
 - Digital Assets
 - Risk Management
 - Underwriting
-- Financial-Services
+- Financial Services
 - Blockchain
 ---

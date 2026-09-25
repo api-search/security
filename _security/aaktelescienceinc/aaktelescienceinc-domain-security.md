@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Aaktelescienceinc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for AAK Tele-Science, Inc., probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: AAK Tele-Science, Inc.
+overview: 'Domain security posture for AAK Tele-Science, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: AAK Tele-Science
 provider_slug: aaktelescienceinc
 slug: aaktelescienceinc-domain-security
 source_filename: aaktelescienceinc-domain-security.yml
@@ -40,7 +40,7 @@ tags:
 - Science
 - Collaboration
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Software-as-a-Service
 - Data
 ---

@@ -126,6 +126,6 @@ tags:
 - Deliverability
 - DMARC
 - Email Authentication
-- Email Validation
+- Email Verification
 - Analytics
 ---

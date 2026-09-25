@@ -78,9 +78,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willo/refs/hea
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Video Interviewing
-- Recruitment
+- Recruiting
 - Human Resources
-- ATS
+- Applicant Tracking
 - Screening
 - Async Video
 trust_url: https://trust.willo.video/

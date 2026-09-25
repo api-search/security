@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Miruvor Ai Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Miruvor AI Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Miruvor AI Inc.
+overview: 'Domain security posture for Miruvor AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Miruvor AI
 provider_slug: miruvor-ai-inc
 slug: miruvor-ai-inc-domain-security
 source_filename: miruvor-ai-inc-domain-security.yml
@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Neuromorphic Computing
 - Continual Learning
 - Spiking Neural Networks

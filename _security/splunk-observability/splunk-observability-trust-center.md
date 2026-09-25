@@ -330,5 +330,6 @@ tags:
 - Logging
 - SignalFlow
 - MCP
+- Real-Time
 trust_url: https://customertrust.splunk.com/
 ---

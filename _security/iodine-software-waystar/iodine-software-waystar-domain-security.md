@@ -35,7 +35,7 @@ tags:
 - Clinical Documentation Integrity
 - Revenue Cycle Management
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Health IT
 - EHR Integration
 ---

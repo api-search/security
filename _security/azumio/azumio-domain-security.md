@@ -41,7 +41,7 @@ tags:
 - Digital Health
 - Nutrition
 - Food Recognition
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Fitness
 - Diabetes

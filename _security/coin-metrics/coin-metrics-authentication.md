@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: openapi/coin-me
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/authentication/coin-metrics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Crypto
 - Blockchain

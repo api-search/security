@@ -54,7 +54,7 @@ tags:
 - Financial Planning
 - Tax-Loss Harvesting
 - Retirement Planning
-- Portfolio-Management
+- Portfolio Management
 - 401k
 - Fintech
 - Wealth Management

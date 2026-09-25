@@ -47,7 +47,7 @@ tags:
 - Robotics as a Service
 - Manufacturing
 - No-Code
-- Computer-Vision
+- Computer Vision
 - Physical AI
 - Automation
 ---

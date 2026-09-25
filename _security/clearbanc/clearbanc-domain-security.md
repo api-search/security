@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Finance
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Working Capital

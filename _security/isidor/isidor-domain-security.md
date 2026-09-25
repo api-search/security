@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Enterprise AI
-- Machine-Learning
+- Machine Learning
 - Data Pipeline
 - Model Training
 - Evaluation

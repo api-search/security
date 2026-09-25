@@ -35,4 +35,5 @@ tags:
 - Consumer Goods
 - Energy Drinks
 - Fortune 500
+- Food and Beverage
 ---

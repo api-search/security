@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Advertising
-- Advertising Technology
+- AdTech
 - Artificial Intelligence
 - Marketing
 - Media

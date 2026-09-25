@@ -40,7 +40,7 @@ summary_line: 2 schemes
 tags:
 - Phone Validation
 - Phone Numbers
-- Telecom
+- Telecommunications
 - Data
 - Validation
 - Carrier Lookup

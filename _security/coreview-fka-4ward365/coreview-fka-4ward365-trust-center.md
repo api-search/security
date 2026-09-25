@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4
 summary_line: SOC 2, ISO 27001, ISO 27018, CIS, FedRAMP, IRAP, GDPR
 tags:
 - Company
-- Microsoft-365
+- Microsoft 365
 - SaaS Management
 - Governance
 - Security

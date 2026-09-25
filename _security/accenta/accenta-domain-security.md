@@ -48,7 +48,7 @@ tags:
 - Sustainability
 - Energy Management
 - Artificial Intelligence
-- Real-Estate
+- Real Estate
 - IoT
 - France
 ---

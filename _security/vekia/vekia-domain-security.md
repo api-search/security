@@ -36,7 +36,7 @@ tags:
 - Inventory Optimization
 - Replenishment
 - Retail
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Logistics
 - France

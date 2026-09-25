@@ -60,5 +60,5 @@ tags:
 - OAI-PMH
 - Library
 - Research Computing
-- Open-Source
+- Open Source
 ---

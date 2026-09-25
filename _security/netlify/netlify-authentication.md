@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: netlify-accounttype-api-openapi.yml
   format: yaml
-  label: Netlify accountType API
+  label: Netlify Account Type API
   slug: netlify-accounttype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-accounttype-api-openapi.yml
@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-asset-api-openapi.yml
 - filename: netlify-assetpublicsignature-api-openapi.yml
   format: yaml
-  label: Netlify assetPublicSignature API
+  label: Netlify Asset Public Signature API
   slug: netlify-assetpublicsignature-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-assetpublicsignature-api-openapi.yml
@@ -28,13 +28,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-build-api-openapi.yml
 - filename: netlify-buildhook-api-openapi.yml
   format: yaml
-  label: Netlify buildHook API
+  label: Netlify Build Hook API
   slug: netlify-buildhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-buildhook-api-openapi.yml
 - filename: netlify-buildlogmsg-api-openapi.yml
   format: yaml
-  label: Netlify buildLogMsg API
+  label: Netlify Build Log Msg API
   slug: netlify-buildlogmsg-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-buildlogmsg-api-openapi.yml
@@ -46,25 +46,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-deploy-api-openapi.yml
 - filename: netlify-deployedbranch-api-openapi.yml
   format: yaml
-  label: Netlify deployedBranch API
+  label: Netlify Deployed Branch API
   slug: netlify-deployedbranch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-deployedbranch-api-openapi.yml
 - filename: netlify-deploykey-api-openapi.yml
   format: yaml
-  label: Netlify deployKey API
+  label: Netlify Deploy Key API
   slug: netlify-deploykey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-deploykey-api-openapi.yml
 - filename: netlify-devserverhook-api-openapi.yml
   format: yaml
-  label: Netlify devServerHook API
+  label: Netlify Dev Server Hook API
   slug: netlify-devserverhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-devserverhook-api-openapi.yml
 - filename: netlify-dnszone-api-openapi.yml
   format: yaml
-  label: Netlify dnsZone API
+  label: Netlify Dns Zone API
   slug: netlify-dnszone-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-dnszone-api-openapi.yml
@@ -94,7 +94,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-hook-api-openapi.yml
 - filename: netlify-hooktype-api-openapi.yml
   format: yaml
-  label: Netlify hookType API
+  label: Netlify Hook Type API
   slug: netlify-hooktype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-hooktype-api-openapi.yml
@@ -118,7 +118,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-purge-api-openapi.yml
 - filename: netlify-serviceinstance-api-openapi.yml
   format: yaml
-  label: Netlify serviceInstance API
+  label: Netlify Service Instance API
   slug: netlify-serviceinstance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-serviceinstance-api-openapi.yml
@@ -130,7 +130,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-site-api-openapi.yml
 - filename: netlify-snicertificate-api-openapi.yml
   format: yaml
-  label: Netlify sniCertificate API
+  label: Netlify Sni Certificate API
   slug: netlify-snicertificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-snicertificate-api-openapi.yml

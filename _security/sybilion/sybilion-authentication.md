@@ -159,7 +159,7 @@ tags:
 - Trading analytics
 - AI decision support
 - MCP
-- agent-native
+- Agent-Native
 - Causal Inference
 - Anomaly Detection
 ---

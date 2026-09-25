@@ -203,7 +203,7 @@ tags:
 - Image Processing
 - Video
 - Generative AI
-- Machine-Learning
+- Machine Learning
 - Media
 - Content Creation
 - Developer Tools

@@ -38,5 +38,4 @@ tags:
 - AI Agents
 - Enterprise Automation
 - Workflow Intelligence
-- Agentic AI
 ---

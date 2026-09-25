@@ -22,7 +22,7 @@ tags:
 - Company
 - Data Enrichment
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Relationship Intelligence
 - Sales Intelligence
 - Prospecting

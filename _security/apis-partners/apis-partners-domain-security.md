@@ -35,7 +35,7 @@ tags:
 - Venture
 - Private Equity
 - Fintech
-- Financial-Services
+- Financial Services
 - Payments
 - Investor
 - Emerging Markets

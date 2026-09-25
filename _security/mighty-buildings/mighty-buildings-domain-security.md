@@ -41,7 +41,7 @@ tags:
 - Prefabrication
 - Modular Housing
 - Housing
-- Real-Estate
+- Real Estate
 - Building Materials
 - Robotics
 - Sustainability

@@ -6,205 +6,205 @@ api_key_in:
 api_specs:
 - filename: kaltura-accesscontrolprofile-api-openapi.yml
   format: yaml
-  label: Kaltura accessControlProfile API
+  label: Kaltura Access Control Profile API
   slug: kaltura-accesscontrolprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-accesscontrolprofile-api-openapi.yml
 - filename: kaltura-analytics-api-openapi.yml
   format: yaml
-  label: Kaltura analytics API
+  label: Kaltura Analytics API
   slug: kaltura-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-analytics-api-openapi.yml
 - filename: kaltura-annotation-api-openapi.yml
   format: yaml
-  label: Kaltura annotation API
+  label: Kaltura Annotation API
   slug: kaltura-annotation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-annotation-api-openapi.yml
 - filename: kaltura-announcement-api-openapi.yml
   format: yaml
-  label: Kaltura announcement API
+  label: Kaltura Announcement API
   slug: kaltura-announcement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-announcement-api-openapi.yml
 - filename: kaltura-apptoken-api-openapi.yml
   format: yaml
-  label: Kaltura appToken API
+  label: Kaltura App Token API
   slug: kaltura-apptoken-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-apptoken-api-openapi.yml
 - filename: kaltura-aspera-api-openapi.yml
   format: yaml
-  label: Kaltura aspera API
+  label: Kaltura Aspera API
   slug: kaltura-aspera-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-aspera-api-openapi.yml
 - filename: kaltura-asset-api-openapi.yml
   format: yaml
-  label: Kaltura asset API
+  label: Kaltura Asset API
   slug: kaltura-asset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-asset-api-openapi.yml
 - filename: kaltura-assetcomment-api-openapi.yml
   format: yaml
-  label: Kaltura assetComment API
+  label: Kaltura Asset Comment API
   slug: kaltura-assetcomment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-assetcomment-api-openapi.yml
 - filename: kaltura-assetfile-api-openapi.yml
   format: yaml
-  label: Kaltura assetFile API
+  label: Kaltura Asset File API
   slug: kaltura-assetfile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-assetfile-api-openapi.yml
 - filename: kaltura-assethistory-api-openapi.yml
   format: yaml
-  label: Kaltura assetHistory API
+  label: Kaltura Asset History API
   slug: kaltura-assethistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-assethistory-api-openapi.yml
 - filename: kaltura-assetstatistics-api-openapi.yml
   format: yaml
-  label: Kaltura assetStatistics API
+  label: Kaltura Asset Statistics API
   slug: kaltura-assetstatistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-assetstatistics-api-openapi.yml
 - filename: kaltura-assetstruct-api-openapi.yml
   format: yaml
-  label: Kaltura assetStruct API
+  label: Kaltura Asset Struct API
   slug: kaltura-assetstruct-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-assetstruct-api-openapi.yml
 - filename: kaltura-attachmentasset-api-openapi.yml
   format: yaml
-  label: Kaltura attachmentAsset API
+  label: Kaltura Attachment Asset API
   slug: kaltura-attachmentasset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-attachmentasset-api-openapi.yml
 - filename: kaltura-attuverse-api-openapi.yml
   format: yaml
-  label: Kaltura attUverse API
+  label: Kaltura Att Uverse API
   slug: kaltura-attuverse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-attuverse-api-openapi.yml
 - filename: kaltura-avn-api-openapi.yml
   format: yaml
-  label: Kaltura avn API
+  label: Kaltura Avn API
   slug: kaltura-avn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-avn-api-openapi.yml
 - filename: kaltura-baseentry-api-openapi.yml
   format: yaml
-  label: Kaltura baseEntry API
+  label: Kaltura Base Entry API
   slug: kaltura-baseentry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-baseentry-api-openapi.yml
 - filename: kaltura-batch-api-openapi.yml
   format: yaml
-  label: Kaltura batch API
+  label: Kaltura Batch API
   slug: kaltura-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-batch-api-openapi.yml
 - filename: kaltura-batchcontrol-api-openapi.yml
   format: yaml
-  label: Kaltura batchcontrol API
+  label: Kaltura Batchcontrol API
   slug: kaltura-batchcontrol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-batchcontrol-api-openapi.yml
 - filename: kaltura-beacon-api-openapi.yml
   format: yaml
-  label: Kaltura beacon API
+  label: Kaltura Beacon API
   slug: kaltura-beacon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-beacon-api-openapi.yml
 - filename: kaltura-bookmark-api-openapi.yml
   format: yaml
-  label: Kaltura bookmark API
+  label: Kaltura Bookmark API
   slug: kaltura-bookmark-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-bookmark-api-openapi.yml
 - filename: kaltura-bulk-api-openapi.yml
   format: yaml
-  label: Kaltura bulk API
+  label: Kaltura Bulk API
   slug: kaltura-bulk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-bulk-api-openapi.yml
 - filename: kaltura-bulkupload-api-openapi.yml
   format: yaml
-  label: Kaltura bulkUpload API
+  label: Kaltura Bulk Upload API
   slug: kaltura-bulkupload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-bulkupload-api-openapi.yml
 - filename: kaltura-bumper-api-openapi.yml
   format: yaml
-  label: Kaltura bumper API
+  label: Kaltura Bumper API
   slug: kaltura-bumper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-bumper-api-openapi.yml
 - filename: kaltura-businessprocesscase-api-openapi.yml
   format: yaml
-  label: Kaltura businessProcessCase API
+  label: Kaltura Business Process Case API
   slug: kaltura-businessprocesscase-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-businessprocesscase-api-openapi.yml
 - filename: kaltura-businessprocessserver-api-openapi.yml
   format: yaml
-  label: Kaltura businessProcessServer API
+  label: Kaltura Business Process Server API
   slug: kaltura-businessprocessserver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-businessprocessserver-api-openapi.yml
 - filename: kaltura-captionasset-api-openapi.yml
   format: yaml
-  label: Kaltura captionAsset API
+  label: Kaltura Caption Asset API
   slug: kaltura-captionasset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-captionasset-api-openapi.yml
 - filename: kaltura-captionassetitem-api-openapi.yml
   format: yaml
-  label: Kaltura captionAssetItem API
+  label: Kaltura Caption Asset Item API
   slug: kaltura-captionassetitem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-captionassetitem-api-openapi.yml
 - filename: kaltura-captionparams-api-openapi.yml
   format: yaml
-  label: Kaltura captionParams API
+  label: Kaltura Caption Params API
   slug: kaltura-captionparams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-captionparams-api-openapi.yml
 - filename: kaltura-capturespace-api-openapi.yml
   format: yaml
-  label: Kaltura captureSpace API
+  label: Kaltura Capture Space API
   slug: kaltura-capturespace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-capturespace-api-openapi.yml
 - filename: kaltura-category-api-openapi.yml
   format: yaml
-  label: Kaltura category API
+  label: Kaltura Category API
   slug: kaltura-category-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-category-api-openapi.yml
 - filename: kaltura-categoryentry-api-openapi.yml
   format: yaml
-  label: Kaltura categoryEntry API
+  label: Kaltura Category Entry API
   slug: kaltura-categoryentry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-categoryentry-api-openapi.yml
 - filename: kaltura-categoryuser-api-openapi.yml
   format: yaml
-  label: Kaltura categoryUser API
+  label: Kaltura Category User API
   slug: kaltura-categoryuser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-categoryuser-api-openapi.yml
 - filename: kaltura-cdnadapterprofile-api-openapi.yml
   format: yaml
-  label: Kaltura cdnAdapterProfile API
+  label: Kaltura Cdn Adapter Profile API
   slug: kaltura-cdnadapterprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-cdnadapterprofile-api-openapi.yml
 - filename: kaltura-cdnpartnersettings-api-openapi.yml
   format: yaml
-  label: Kaltura cdnPartnerSettings API
+  label: Kaltura Cdn Partner Settings API
   slug: kaltura-cdnpartnersettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-cdnpartnersettings-api-openapi.yml
@@ -216,181 +216,181 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-cdvradapterprofile-api-openapi.yml
 - filename: kaltura-channel-api-openapi.yml
   format: yaml
-  label: Kaltura channel API
+  label: Kaltura Channel API
   slug: kaltura-channel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-channel-api-openapi.yml
 - filename: kaltura-collection-api-openapi.yml
   format: yaml
-  label: Kaltura collection API
+  label: Kaltura Collection API
   slug: kaltura-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-collection-api-openapi.yml
 - filename: kaltura-comcastmrss-api-openapi.yml
   format: yaml
-  label: Kaltura comcastMrss API
+  label: Kaltura Comcast Mrss API
   slug: kaltura-comcastmrss-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-comcastmrss-api-openapi.yml
 - filename: kaltura-compensation-api-openapi.yml
   format: yaml
-  label: Kaltura compensation API
+  label: Kaltura Compensation API
   slug: kaltura-compensation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-compensation-api-openapi.yml
 - filename: kaltura-configurationgroup-api-openapi.yml
   format: yaml
-  label: Kaltura configurationGroup API
+  label: Kaltura Configuration Group API
   slug: kaltura-configurationgroup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-configurationgroup-api-openapi.yml
 - filename: kaltura-configurationgroupdevice-api-openapi.yml
   format: yaml
-  label: Kaltura configurationGroupDevice API
+  label: Kaltura Configuration Group Device API
   slug: kaltura-configurationgroupdevice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-configurationgroupdevice-api-openapi.yml
 - filename: kaltura-configurationgrouptag-api-openapi.yml
   format: yaml
-  label: Kaltura configurationGroupTag API
+  label: Kaltura Configuration Group Tag API
   slug: kaltura-configurationgrouptag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-configurationgrouptag-api-openapi.yml
 - filename: kaltura-configurations-api-openapi.yml
   format: yaml
-  label: Kaltura configurations API
+  label: Kaltura Configurations API
   slug: kaltura-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-configurations-api-openapi.yml
 - filename: kaltura-confmaps-api-openapi.yml
   format: yaml
-  label: Kaltura confMaps API
+  label: Kaltura Conf Maps API
   slug: kaltura-confmaps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-confmaps-api-openapi.yml
 - filename: kaltura-contentdistributionbatch-api-openapi.yml
   format: yaml
-  label: Kaltura contentDistributionBatch API
+  label: Kaltura Content Distribution Batch API
   slug: kaltura-contentdistributionbatch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-contentdistributionbatch-api-openapi.yml
 - filename: kaltura-conversionprofile-api-openapi.yml
   format: yaml
-  label: Kaltura conversionProfile API
+  label: Kaltura Conversion Profile API
   slug: kaltura-conversionprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-conversionprofile-api-openapi.yml
 - filename: kaltura-conversionprofileassetparams-api-openapi.yml
   format: yaml
-  label: Kaltura conversionProfileAssetParams API
+  label: Kaltura Conversion Profile Asset Params API
   slug: kaltura-conversionprofileassetparams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-conversionprofileassetparams-api-openapi.yml
 - filename: kaltura-country-api-openapi.yml
   format: yaml
-  label: Kaltura country API
+  label: Kaltura Country API
   slug: kaltura-country-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-country-api-openapi.yml
 - filename: kaltura-coupon-api-openapi.yml
   format: yaml
-  label: Kaltura coupon API
+  label: Kaltura Coupon API
   slug: kaltura-coupon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-coupon-api-openapi.yml
 - filename: kaltura-cuepoint-api-openapi.yml
   format: yaml
-  label: Kaltura cuePoint API
+  label: Kaltura Cue Point API
   slug: kaltura-cuepoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-cuepoint-api-openapi.yml
 - filename: kaltura-currency-api-openapi.yml
   format: yaml
-  label: Kaltura currency API
+  label: Kaltura Currency API
   slug: kaltura-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-currency-api-openapi.yml
 - filename: kaltura-data-api-openapi.yml
   format: yaml
-  label: Kaltura data API
+  label: Kaltura Data API
   slug: kaltura-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-data-api-openapi.yml
 - filename: kaltura-deliveryprofile-api-openapi.yml
   format: yaml
-  label: Kaltura deliveryProfile API
+  label: Kaltura Delivery Profile API
   slug: kaltura-deliveryprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-deliveryprofile-api-openapi.yml
 - filename: kaltura-devicebrand-api-openapi.yml
   format: yaml
-  label: Kaltura deviceBrand API
+  label: Kaltura Device Brand API
   slug: kaltura-devicebrand-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-devicebrand-api-openapi.yml
 - filename: kaltura-devicefamily-api-openapi.yml
   format: yaml
-  label: Kaltura deviceFamily API
+  label: Kaltura Device Family API
   slug: kaltura-devicefamily-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-devicefamily-api-openapi.yml
 - filename: kaltura-distributionprofile-api-openapi.yml
   format: yaml
-  label: Kaltura distributionProfile API
+  label: Kaltura Distribution Profile API
   slug: kaltura-distributionprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-distributionprofile-api-openapi.yml
 - filename: kaltura-distributionprovider-api-openapi.yml
   format: yaml
-  label: Kaltura distributionProvider API
+  label: Kaltura Distribution Provider API
   slug: kaltura-distributionprovider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-distributionprovider-api-openapi.yml
 - filename: kaltura-documents-api-openapi.yml
   format: yaml
-  label: Kaltura documents API
+  label: Kaltura Documents API
   slug: kaltura-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-documents-api-openapi.yml
 - filename: kaltura-doubleclick-api-openapi.yml
   format: yaml
-  label: Kaltura doubleClick API
+  label: Kaltura Double Click API
   slug: kaltura-doubleclick-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-doubleclick-api-openapi.yml
 - filename: kaltura-drmlicenseaccess-api-openapi.yml
   format: yaml
-  label: Kaltura drmLicenseAccess API
+  label: Kaltura Drm License Access API
   slug: kaltura-drmlicenseaccess-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-drmlicenseaccess-api-openapi.yml
 - filename: kaltura-drmpolicy-api-openapi.yml
   format: yaml
-  label: Kaltura drmPolicy API
+  label: Kaltura Drm Policy API
   slug: kaltura-drmpolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-drmpolicy-api-openapi.yml
 - filename: kaltura-drmprofile-api-openapi.yml
   format: yaml
-  label: Kaltura drmProfile API
+  label: Kaltura Drm Profile API
   slug: kaltura-drmprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-drmprofile-api-openapi.yml
 - filename: kaltura-dropfolder-api-openapi.yml
   format: yaml
-  label: Kaltura dropFolder API
+  label: Kaltura Drop Folder API
   slug: kaltura-dropfolder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-dropfolder-api-openapi.yml
 - filename: kaltura-dropfolderfile-api-openapi.yml
   format: yaml
-  label: Kaltura dropFolderFile API
+  label: Kaltura Drop Folder File API
   slug: kaltura-dropfolderfile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-dropfolderfile-api-openapi.yml
 - filename: kaltura-email-api-openapi.yml
   format: yaml
-  label: Kaltura email API
+  label: Kaltura Email API
   slug: kaltura-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-email-api-openapi.yml
@@ -402,37 +402,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-emailingestionprofile-api-openapi.yml
 - filename: kaltura-engagement-api-openapi.yml
   format: yaml
-  label: Kaltura engagement API
+  label: Kaltura Engagement API
   slug: kaltura-engagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-engagement-api-openapi.yml
 - filename: kaltura-engagementadapter-api-openapi.yml
   format: yaml
-  label: Kaltura engagementAdapter API
+  label: Kaltura Engagement Adapter API
   slug: kaltura-engagementadapter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-engagementadapter-api-openapi.yml
 - filename: kaltura-entitlement-api-openapi.yml
   format: yaml
-  label: Kaltura entitlement API
+  label: Kaltura Entitlement API
   slug: kaltura-entitlement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-entitlement-api-openapi.yml
 - filename: kaltura-entrydistribution-api-openapi.yml
   format: yaml
-  label: Kaltura entryDistribution API
+  label: Kaltura Entry Distribution API
   slug: kaltura-entrydistribution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-entrydistribution-api-openapi.yml
 - filename: kaltura-entryservernode-api-openapi.yml
   format: yaml
-  label: Kaltura entryServerNode API
+  label: Kaltura Entry Server Node API
   slug: kaltura-entryservernode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-entryservernode-api-openapi.yml
 - filename: kaltura-entryvendortask-api-openapi.yml
   format: yaml
-  label: Kaltura entryVendorTask API
+  label: Kaltura Entry Vendor Task API
   slug: kaltura-entryvendortask-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-entryvendortask-api-openapi.yml
@@ -444,307 +444,307 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-esearch-api-openapi.yml
 - filename: kaltura-eventnotificationtemplate-api-openapi.yml
   format: yaml
-  label: Kaltura eventNotificationTemplate API
+  label: Kaltura Event Notification Template API
   slug: kaltura-eventnotificationtemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-eventnotificationtemplate-api-openapi.yml
 - filename: kaltura-exporttask-api-openapi.yml
   format: yaml
-  label: Kaltura exportTask API
+  label: Kaltura Export Task API
   slug: kaltura-exporttask-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-exporttask-api-openapi.yml
 - filename: kaltura-externalchannelprofile-api-openapi.yml
   format: yaml
-  label: Kaltura externalChannelProfile API
+  label: Kaltura External Channel Profile API
   slug: kaltura-externalchannelprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-externalchannelprofile-api-openapi.yml
 - filename: kaltura-favorite-api-openapi.yml
   format: yaml
-  label: Kaltura favorite API
+  label: Kaltura Favorite API
   slug: kaltura-favorite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-favorite-api-openapi.yml
 - filename: kaltura-fileasset-api-openapi.yml
   format: yaml
-  label: Kaltura fileAsset API
+  label: Kaltura File Asset API
   slug: kaltura-fileasset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-fileasset-api-openapi.yml
 - filename: kaltura-filesync-api-openapi.yml
   format: yaml
-  label: Kaltura fileSync API
+  label: Kaltura File Sync API
   slug: kaltura-filesync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-filesync-api-openapi.yml
 - filename: kaltura-filesyncimportbatch-api-openapi.yml
   format: yaml
-  label: Kaltura filesyncImportBatch API
+  label: Kaltura Filesync Import Batch API
   slug: kaltura-filesyncimportbatch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-filesyncimportbatch-api-openapi.yml
 - filename: kaltura-flavorasset-api-openapi.yml
   format: yaml
-  label: Kaltura flavorAsset API
+  label: Kaltura Flavor Asset API
   slug: kaltura-flavorasset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-flavorasset-api-openapi.yml
 - filename: kaltura-flavorparams-api-openapi.yml
   format: yaml
-  label: Kaltura flavorParams API
+  label: Kaltura Flavor Params API
   slug: kaltura-flavorparams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-flavorparams-api-openapi.yml
 - filename: kaltura-flavorparamsoutput-api-openapi.yml
   format: yaml
-  label: Kaltura flavorParamsOutput API
+  label: Kaltura Flavor Params Output API
   slug: kaltura-flavorparamsoutput-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-flavorparamsoutput-api-openapi.yml
 - filename: kaltura-followtvseries-api-openapi.yml
   format: yaml
-  label: Kaltura followTvSeries API
+  label: Kaltura Follow Tv Series API
   slug: kaltura-followtvseries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-followtvseries-api-openapi.yml
 - filename: kaltura-genericdistributionprovider-api-openapi.yml
   format: yaml
-  label: Kaltura genericDistributionProvider API
+  label: Kaltura Generic Distribution Provider API
   slug: kaltura-genericdistributionprovider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-genericdistributionprovider-api-openapi.yml
 - filename: kaltura-genericdistributionprovideraction-api-openapi.yml
   format: yaml
-  label: Kaltura genericDistributionProviderAction API
+  label: Kaltura Generic Distribution Provider Action API
   slug: kaltura-genericdistributionprovideraction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-genericdistributionprovideraction-api-openapi.yml
 - filename: kaltura-group-api-openapi.yml
   format: yaml
-  label: Kaltura group API
+  label: Kaltura Group API
   slug: kaltura-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-group-api-openapi.yml
 - filename: kaltura-homenetwork-api-openapi.yml
   format: yaml
-  label: Kaltura homeNetwork API
+  label: Kaltura Home Network API
   slug: kaltura-homenetwork-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-homenetwork-api-openapi.yml
 - filename: kaltura-household-api-openapi.yml
   format: yaml
-  label: Kaltura household API
+  label: Kaltura Household API
   slug: kaltura-household-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-household-api-openapi.yml
 - filename: kaltura-householddevice-api-openapi.yml
   format: yaml
-  label: Kaltura householdDevice API
+  label: Kaltura Household Device API
   slug: kaltura-householddevice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householddevice-api-openapi.yml
 - filename: kaltura-householdlimitations-api-openapi.yml
   format: yaml
-  label: Kaltura householdLimitations API
+  label: Kaltura Household Limitations API
   slug: kaltura-householdlimitations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householdlimitations-api-openapi.yml
 - filename: kaltura-householdpaymentgateway-api-openapi.yml
   format: yaml
-  label: Kaltura householdPaymentGateway API
+  label: Kaltura Household Payment Gateway API
   slug: kaltura-householdpaymentgateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householdpaymentgateway-api-openapi.yml
 - filename: kaltura-householdpaymentmethod-api-openapi.yml
   format: yaml
-  label: Kaltura householdPaymentMethod API
+  label: Kaltura Household Payment Method API
   slug: kaltura-householdpaymentmethod-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householdpaymentmethod-api-openapi.yml
 - filename: kaltura-householdpremiumservice-api-openapi.yml
   format: yaml
-  label: Kaltura householdPremiumService API
+  label: Kaltura Household Premium Service API
   slug: kaltura-householdpremiumservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householdpremiumservice-api-openapi.yml
 - filename: kaltura-householdquota-api-openapi.yml
   format: yaml
-  label: Kaltura householdQuota API
+  label: Kaltura Household Quota API
   slug: kaltura-householdquota-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householdquota-api-openapi.yml
 - filename: kaltura-householduser-api-openapi.yml
   format: yaml
-  label: Kaltura householdUser API
+  label: Kaltura Household User API
   slug: kaltura-householduser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-householduser-api-openapi.yml
 - filename: kaltura-image-api-openapi.yml
   format: yaml
-  label: Kaltura image API
+  label: Kaltura Image API
   slug: kaltura-image-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-image-api-openapi.yml
 - filename: kaltura-imagetype-api-openapi.yml
   format: yaml
-  label: Kaltura imageType API
+  label: Kaltura Image Type API
   slug: kaltura-imagetype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-imagetype-api-openapi.yml
 - filename: kaltura-inboxmessage-api-openapi.yml
   format: yaml
-  label: Kaltura inboxMessage API
+  label: Kaltura Inbox Message API
   slug: kaltura-inboxmessage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-inboxmessage-api-openapi.yml
 - filename: kaltura-integration-api-openapi.yml
   format: yaml
-  label: Kaltura integration API
+  label: Kaltura Integration API
   slug: kaltura-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-integration-api-openapi.yml
 - filename: kaltura-interactivity-api-openapi.yml
   format: yaml
-  label: Kaltura interactivity API
+  label: Kaltura Interactivity API
   slug: kaltura-interactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-interactivity-api-openapi.yml
 - filename: kaltura-jobs-api-openapi.yml
   format: yaml
-  label: Kaltura jobs API
+  label: Kaltura Jobs API
   slug: kaltura-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-jobs-api-openapi.yml
 - filename: kaltura-language-api-openapi.yml
   format: yaml
-  label: Kaltura language API
+  label: Kaltura Language API
   slug: kaltura-language-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-language-api-openapi.yml
 - filename: kaltura-licensedurl-api-openapi.yml
   format: yaml
-  label: Kaltura licensedUrl API
+  label: Kaltura Licensed URL API
   slug: kaltura-licensedurl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-licensedurl-api-openapi.yml
 - filename: kaltura-like-api-openapi.yml
   format: yaml
-  label: Kaltura like API
+  label: Kaltura Like API
   slug: kaltura-like-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-like-api-openapi.yml
 - filename: kaltura-liveconversionprofile-api-openapi.yml
   format: yaml
-  label: Kaltura liveConversionProfile API
+  label: Kaltura Live Conversion Profile API
   slug: kaltura-liveconversionprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-liveconversionprofile-api-openapi.yml
 - filename: kaltura-livereports-api-openapi.yml
   format: yaml
-  label: Kaltura liveReports API
+  label: Kaltura Live Reports API
   slug: kaltura-livereports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-livereports-api-openapi.yml
 - filename: kaltura-livestats-api-openapi.yml
   format: yaml
-  label: Kaltura liveStats API
+  label: Kaltura Live Stats API
   slug: kaltura-livestats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-livestats-api-openapi.yml
 - filename: kaltura-livestream-api-openapi.yml
   format: yaml
-  label: Kaltura liveStream API
+  label: Kaltura Live Stream API
   slug: kaltura-livestream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-livestream-api-openapi.yml
 - filename: kaltura-media-api-openapi.yml
   format: yaml
-  label: Kaltura media API
+  label: Kaltura Media API
   slug: kaltura-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-media-api-openapi.yml
 - filename: kaltura-mediafiletype-api-openapi.yml
   format: yaml
-  label: Kaltura mediaFileType API
+  label: Kaltura Media File Type API
   slug: kaltura-mediafiletype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-mediafiletype-api-openapi.yml
 - filename: kaltura-meta-api-openapi.yml
   format: yaml
-  label: Kaltura meta API
+  label: Kaltura Meta API
   slug: kaltura-meta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-meta-api-openapi.yml
 - filename: kaltura-metadata-api-openapi.yml
   format: yaml
-  label: Kaltura metadata API
+  label: Kaltura Metadata API
   slug: kaltura-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-metadata-api-openapi.yml
 - filename: kaltura-metadatabatch-api-openapi.yml
   format: yaml
-  label: Kaltura metadataBatch API
+  label: Kaltura Metadata Batch API
   slug: kaltura-metadatabatch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-metadatabatch-api-openapi.yml
 - filename: kaltura-metadataprofile-api-openapi.yml
   format: yaml
-  label: Kaltura metadataProfile API
+  label: Kaltura Metadata Profile API
   slug: kaltura-metadataprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-metadataprofile-api-openapi.yml
 - filename: kaltura-ndn-api-openapi.yml
   format: yaml
-  label: Kaltura ndn API
+  label: Kaltura Ndn API
   slug: kaltura-ndn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-ndn-api-openapi.yml
 - filename: kaltura-notification-api-openapi.yml
   format: yaml
-  label: Kaltura notification API
+  label: Kaltura Notification API
   slug: kaltura-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-notification-api-openapi.yml
 - filename: kaltura-notificationspartnersettings-api-openapi.yml
   format: yaml
-  label: Kaltura notificationsPartnerSettings API
+  label: Kaltura Notifications Partner Settings API
   slug: kaltura-notificationspartnersettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-notificationspartnersettings-api-openapi.yml
 - filename: kaltura-notificationssettings-api-openapi.yml
   format: yaml
-  label: Kaltura notificationsSettings API
+  label: Kaltura Notifications Settings API
   slug: kaltura-notificationssettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-notificationssettings-api-openapi.yml
 - filename: kaltura-ossadapterprofile-api-openapi.yml
   format: yaml
-  label: Kaltura ossAdapterProfile API
+  label: Kaltura Oss Adapter Profile API
   slug: kaltura-ossadapterprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-ossadapterprofile-api-openapi.yml
 - filename: kaltura-ottcategory-api-openapi.yml
   format: yaml
-  label: Kaltura ottCategory API
+  label: Kaltura Ott Category API
   slug: kaltura-ottcategory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-ottcategory-api-openapi.yml
 - filename: kaltura-ottuser-api-openapi.yml
   format: yaml
-  label: Kaltura ottUser API
+  label: Kaltura Ott User API
   slug: kaltura-ottuser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-ottuser-api-openapi.yml
 - filename: kaltura-parentalrule-api-openapi.yml
   format: yaml
-  label: Kaltura parentalRule API
+  label: Kaltura Parental Rule API
   slug: kaltura-parentalrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-parentalrule-api-openapi.yml
 - filename: kaltura-partner-api-openapi.yml
   format: yaml
-  label: Kaltura partner API
+  label: Kaltura Partner API
   slug: kaltura-partner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-partner-api-openapi.yml
@@ -756,337 +756,337 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-partnercatalogitem-api-openapi.yml
 - filename: kaltura-paymentgatewayprofile-api-openapi.yml
   format: yaml
-  label: Kaltura paymentGatewayProfile API
+  label: Kaltura Payment Gateway Profile API
   slug: kaltura-paymentgatewayprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-paymentgatewayprofile-api-openapi.yml
 - filename: kaltura-paymentmethodprofile-api-openapi.yml
   format: yaml
-  label: Kaltura paymentMethodProfile API
+  label: Kaltura Payment Method Profile API
   slug: kaltura-paymentmethodprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-paymentmethodprofile-api-openapi.yml
 - filename: kaltura-permission-api-openapi.yml
   format: yaml
-  label: Kaltura permission API
+  label: Kaltura Permission API
   slug: kaltura-permission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-permission-api-openapi.yml
 - filename: kaltura-permissionitem-api-openapi.yml
   format: yaml
-  label: Kaltura permissionItem API
+  label: Kaltura Permission Item API
   slug: kaltura-permissionitem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-permissionitem-api-openapi.yml
 - filename: kaltura-personalfeed-api-openapi.yml
   format: yaml
-  label: Kaltura personalFeed API
+  label: Kaltura Personal Feed API
   slug: kaltura-personalfeed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-personalfeed-api-openapi.yml
 - filename: kaltura-pexip-api-openapi.yml
   format: yaml
-  label: Kaltura pexip API
+  label: Kaltura Pexip API
   slug: kaltura-pexip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-pexip-api-openapi.yml
 - filename: kaltura-pin-api-openapi.yml
   format: yaml
-  label: Kaltura pin API
+  label: Kaltura Pin API
   slug: kaltura-pin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-pin-api-openapi.yml
 - filename: kaltura-playlist-api-openapi.yml
   format: yaml
-  label: Kaltura playlist API
+  label: Kaltura Playlist API
   slug: kaltura-playlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-playlist-api-openapi.yml
 - filename: kaltura-playreadydrm-api-openapi.yml
   format: yaml
-  label: Kaltura playReadyDrm API
+  label: Kaltura Play Ready Drm API
   slug: kaltura-playreadydrm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-playreadydrm-api-openapi.yml
 - filename: kaltura-poll-api-openapi.yml
   format: yaml
-  label: Kaltura poll API
+  label: Kaltura Poll API
   slug: kaltura-poll-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-poll-api-openapi.yml
 - filename: kaltura-ppv-api-openapi.yml
   format: yaml
-  label: Kaltura ppv API
+  label: Kaltura Ppv API
   slug: kaltura-ppv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-ppv-api-openapi.yml
 - filename: kaltura-pricedetails-api-openapi.yml
   format: yaml
-  label: Kaltura priceDetails API
+  label: Kaltura Price Details API
   slug: kaltura-pricedetails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-pricedetails-api-openapi.yml
 - filename: kaltura-priceplan-api-openapi.yml
   format: yaml
-  label: Kaltura pricePlan API
+  label: Kaltura Price Plan API
   slug: kaltura-priceplan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-priceplan-api-openapi.yml
 - filename: kaltura-purchasesettings-api-openapi.yml
   format: yaml
-  label: Kaltura purchaseSettings API
+  label: Kaltura Purchase Settings API
   slug: kaltura-purchasesettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-purchasesettings-api-openapi.yml
 - filename: kaltura-quiz-api-openapi.yml
   format: yaml
-  label: Kaltura quiz API
+  label: Kaltura Quiz API
   slug: kaltura-quiz-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-quiz-api-openapi.yml
 - filename: kaltura-rating-api-openapi.yml
   format: yaml
-  label: Kaltura rating API
+  label: Kaltura Rating API
   slug: kaltura-rating-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-rating-api-openapi.yml
 - filename: kaltura-ratio-api-openapi.yml
   format: yaml
-  label: Kaltura ratio API
+  label: Kaltura Ratio API
   slug: kaltura-ratio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-ratio-api-openapi.yml
 - filename: kaltura-reachprofile-api-openapi.yml
   format: yaml
-  label: Kaltura reachProfile API
+  label: Kaltura Reach Profile API
   slug: kaltura-reachprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-reachprofile-api-openapi.yml
 - filename: kaltura-recommendationprofile-api-openapi.yml
   format: yaml
-  label: Kaltura recommendationProfile API
+  label: Kaltura Recommendation Profile API
   slug: kaltura-recommendationprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-recommendationprofile-api-openapi.yml
 - filename: kaltura-recording-api-openapi.yml
   format: yaml
-  label: Kaltura recording API
+  label: Kaltura Recording API
   slug: kaltura-recording-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-recording-api-openapi.yml
 - filename: kaltura-region-api-openapi.yml
   format: yaml
-  label: Kaltura region API
+  label: Kaltura Region API
   slug: kaltura-region-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-region-api-openapi.yml
 - filename: kaltura-registrysettings-api-openapi.yml
   format: yaml
-  label: Kaltura registrySettings API
+  label: Kaltura Registry Settings API
   slug: kaltura-registrysettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-registrysettings-api-openapi.yml
 - filename: kaltura-reminder-api-openapi.yml
   format: yaml
-  label: Kaltura reminder API
+  label: Kaltura Reminder API
   slug: kaltura-reminder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-reminder-api-openapi.yml
 - filename: kaltura-report-api-openapi.yml
   format: yaml
-  label: Kaltura report API
+  label: Kaltura Report API
   slug: kaltura-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-report-api-openapi.yml
 - filename: kaltura-responseprofile-api-openapi.yml
   format: yaml
-  label: Kaltura responseProfile API
+  label: Kaltura Response Profile API
   slug: kaltura-responseprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-responseprofile-api-openapi.yml
 - filename: kaltura-scheduledtaskprofile-api-openapi.yml
   format: yaml
-  label: Kaltura scheduledTaskProfile API
+  label: Kaltura Scheduled Task Profile API
   slug: kaltura-scheduledtaskprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-scheduledtaskprofile-api-openapi.yml
 - filename: kaltura-scheduleevent-api-openapi.yml
   format: yaml
-  label: Kaltura scheduleEvent API
+  label: Kaltura Schedule Event API
   slug: kaltura-scheduleevent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-scheduleevent-api-openapi.yml
 - filename: kaltura-scheduleeventresource-api-openapi.yml
   format: yaml
-  label: Kaltura scheduleEventResource API
+  label: Kaltura Schedule Event Resource API
   slug: kaltura-scheduleeventresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-scheduleeventresource-api-openapi.yml
 - filename: kaltura-scheduleresource-api-openapi.yml
   format: yaml
-  label: Kaltura scheduleResource API
+  label: Kaltura Schedule Resource API
   slug: kaltura-scheduleresource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-scheduleresource-api-openapi.yml
 - filename: kaltura-schema-api-openapi.yml
   format: yaml
-  label: Kaltura schema API
+  label: Kaltura Schema API
   slug: kaltura-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-schema-api-openapi.yml
 - filename: kaltura-searchhistory-api-openapi.yml
   format: yaml
-  label: Kaltura searchHistory API
+  label: Kaltura Search History API
   slug: kaltura-searchhistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-searchhistory-api-openapi.yml
 - filename: kaltura-seriesrecording-api-openapi.yml
   format: yaml
-  label: Kaltura seriesRecording API
+  label: Kaltura Series Recording API
   slug: kaltura-seriesrecording-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-seriesrecording-api-openapi.yml
 - filename: kaltura-session-api-openapi.yml
   format: yaml
-  label: Kaltura session API
+  label: Kaltura Session API
   slug: kaltura-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-session-api-openapi.yml
 - filename: kaltura-sharepointextension-api-openapi.yml
   format: yaml
-  label: Kaltura sharepointExtension API
+  label: Kaltura Sharepoint Extension API
   slug: kaltura-sharepointextension-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-sharepointextension-api-openapi.yml
 - filename: kaltura-social-api-openapi.yml
   format: yaml
-  label: Kaltura social API
+  label: Kaltura Social API
   slug: kaltura-social-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-social-api-openapi.yml
 - filename: kaltura-socialaction-api-openapi.yml
   format: yaml
-  label: Kaltura socialAction API
+  label: Kaltura Social Action API
   slug: kaltura-socialaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-socialaction-api-openapi.yml
 - filename: kaltura-socialcomment-api-openapi.yml
   format: yaml
-  label: Kaltura socialComment API
+  label: Kaltura Social Comment API
   slug: kaltura-socialcomment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-socialcomment-api-openapi.yml
 - filename: kaltura-socialfriendactivity-api-openapi.yml
   format: yaml
-  label: Kaltura socialFriendActivity API
+  label: Kaltura Social Friend Activity API
   slug: kaltura-socialfriendactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-socialfriendactivity-api-openapi.yml
 - filename: kaltura-sso-api-openapi.yml
   format: yaml
-  label: Kaltura sso API
+  label: Kaltura SSO API
   slug: kaltura-sso-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-sso-api-openapi.yml
 - filename: kaltura-stats-api-openapi.yml
   format: yaml
-  label: Kaltura stats API
+  label: Kaltura Stats API
   slug: kaltura-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-stats-api-openapi.yml
 - filename: kaltura-storageprofile-api-openapi.yml
   format: yaml
-  label: Kaltura storageProfile API
+  label: Kaltura Storage Profile API
   slug: kaltura-storageprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-storageprofile-api-openapi.yml
 - filename: kaltura-subscription-api-openapi.yml
   format: yaml
-  label: Kaltura subscription API
+  label: Kaltura Subscription API
   slug: kaltura-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-subscription-api-openapi.yml
 - filename: kaltura-subscriptionset-api-openapi.yml
   format: yaml
-  label: Kaltura subscriptionSet API
+  label: Kaltura Subscription Set API
   slug: kaltura-subscriptionset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-subscriptionset-api-openapi.yml
 - filename: kaltura-synacorhbo-api-openapi.yml
   format: yaml
-  label: Kaltura synacorHbo API
+  label: Kaltura Synacor Hbo API
   slug: kaltura-synacorhbo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-synacorhbo-api-openapi.yml
 - filename: kaltura-syndicationfeed-api-openapi.yml
   format: yaml
-  label: Kaltura syndicationFeed API
+  label: Kaltura Syndication Feed API
   slug: kaltura-syndicationfeed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-syndicationfeed-api-openapi.yml
 - filename: kaltura-system-api-openapi.yml
   format: yaml
-  label: Kaltura system API
+  label: Kaltura System API
   slug: kaltura-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-system-api-openapi.yml
 - filename: kaltura-systempartner-api-openapi.yml
   format: yaml
-  label: Kaltura systemPartner API
+  label: Kaltura System Partner API
   slug: kaltura-systempartner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-systempartner-api-openapi.yml
 - filename: kaltura-tag-api-openapi.yml
   format: yaml
-  label: Kaltura tag API
+  label: Kaltura Tag API
   slug: kaltura-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-tag-api-openapi.yml
 - filename: kaltura-thumbasset-api-openapi.yml
   format: yaml
-  label: Kaltura thumbAsset API
+  label: Kaltura Thumb Asset API
   slug: kaltura-thumbasset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-thumbasset-api-openapi.yml
 - filename: kaltura-thumbnail-api-openapi.yml
   format: yaml
-  label: Kaltura thumbnail API
+  label: Kaltura Thumbnail API
   slug: kaltura-thumbnail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-thumbnail-api-openapi.yml
 - filename: kaltura-thumbparams-api-openapi.yml
   format: yaml
-  label: Kaltura thumbParams API
+  label: Kaltura Thumb Params API
   slug: kaltura-thumbparams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-thumbparams-api-openapi.yml
 - filename: kaltura-thumbparamsoutput-api-openapi.yml
   format: yaml
-  label: Kaltura thumbParamsOutput API
+  label: Kaltura Thumb Params Output API
   slug: kaltura-thumbparamsoutput-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-thumbparamsoutput-api-openapi.yml
 - filename: kaltura-timeshiftedtvpartnersettings-api-openapi.yml
   format: yaml
-  label: Kaltura timeShiftedTvPartnerSettings API
+  label: Kaltura Time Shifted Tv Partner Settings API
   slug: kaltura-timeshiftedtvpartnersettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-timeshiftedtvpartnersettings-api-openapi.yml
 - filename: kaltura-timewarner-api-openapi.yml
   format: yaml
-  label: Kaltura timeWarner API
+  label: Kaltura Time Warner API
   slug: kaltura-timewarner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-timewarner-api-openapi.yml
 - filename: kaltura-topic-api-openapi.yml
   format: yaml
-  label: Kaltura topic API
+  label: Kaltura Topic API
   slug: kaltura-topic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-topic-api-openapi.yml
 - filename: kaltura-transaction-api-openapi.yml
   format: yaml
-  label: Kaltura transaction API
+  label: Kaltura Transaction API
   slug: kaltura-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-transaction-api-openapi.yml
@@ -1104,133 +1104,133 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-uiconf-api-openapi.yml
 - filename: kaltura-unicorn-api-openapi.yml
   format: yaml
-  label: Kaltura unicorn API
+  label: Kaltura Unicorn API
   slug: kaltura-unicorn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-unicorn-api-openapi.yml
 - filename: kaltura-unifiedpayment-api-openapi.yml
   format: yaml
-  label: Kaltura unifiedPayment API
+  label: Kaltura Unified Payment API
   slug: kaltura-unifiedpayment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-unifiedpayment-api-openapi.yml
 - filename: kaltura-upload-api-openapi.yml
   format: yaml
-  label: Kaltura upload API
+  label: Kaltura Upload API
   slug: kaltura-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-upload-api-openapi.yml
 - filename: kaltura-uploadtoken-api-openapi.yml
   format: yaml
-  label: Kaltura uploadToken API
+  label: Kaltura Upload Token API
   slug: kaltura-uploadtoken-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-uploadtoken-api-openapi.yml
 - filename: kaltura-user-api-openapi.yml
   format: yaml
-  label: Kaltura user API
+  label: Kaltura User API
   slug: kaltura-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-user-api-openapi.yml
 - filename: kaltura-userassetrule-api-openapi.yml
   format: yaml
-  label: Kaltura userAssetRule API
+  label: Kaltura User Asset Rule API
   slug: kaltura-userassetrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-userassetrule-api-openapi.yml
 - filename: kaltura-userassetslistitem-api-openapi.yml
   format: yaml
-  label: Kaltura userAssetsListItem API
+  label: Kaltura User Assets List Item API
   slug: kaltura-userassetslistitem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-userassetslistitem-api-openapi.yml
 - filename: kaltura-userentry-api-openapi.yml
   format: yaml
-  label: Kaltura userEntry API
+  label: Kaltura User Entry API
   slug: kaltura-userentry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-userentry-api-openapi.yml
 - filename: kaltura-userinterest-api-openapi.yml
   format: yaml
-  label: Kaltura userInterest API
+  label: Kaltura User Interest API
   slug: kaltura-userinterest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-userinterest-api-openapi.yml
 - filename: kaltura-userloginpin-api-openapi.yml
   format: yaml
-  label: Kaltura userLoginPin API
+  label: Kaltura User Login Pin API
   slug: kaltura-userloginpin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-userloginpin-api-openapi.yml
 - filename: kaltura-uverse-api-openapi.yml
   format: yaml
-  label: Kaltura uverse API
+  label: Kaltura Uverse API
   slug: kaltura-uverse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-uverse-api-openapi.yml
 - filename: kaltura-uverseclicktoorder-api-openapi.yml
   format: yaml
-  label: Kaltura uverseClickToOrder API
+  label: Kaltura Uverse Click To Order API
   slug: kaltura-uverseclicktoorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-uverseclicktoorder-api-openapi.yml
 - filename: kaltura-varconsole-api-openapi.yml
   format: yaml
-  label: Kaltura varConsole API
+  label: Kaltura Var Console API
   slug: kaltura-varconsole-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-varconsole-api-openapi.yml
 - filename: kaltura-vendorcatalogitem-api-openapi.yml
   format: yaml
-  label: Kaltura vendorCatalogItem API
+  label: Kaltura Vendor Catalog Item API
   slug: kaltura-vendorcatalogitem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-vendorcatalogitem-api-openapi.yml
 - filename: kaltura-vendorintegration-api-openapi.yml
   format: yaml
-  label: Kaltura vendorIntegration API
+  label: Kaltura Vendor Integration API
   slug: kaltura-vendorintegration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-vendorintegration-api-openapi.yml
 - filename: kaltura-virtualevent-api-openapi.yml
   format: yaml
-  label: Kaltura virtualEvent API
+  label: Kaltura Virtual Event API
   slug: kaltura-virtualevent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-virtualevent-api-openapi.yml
 - filename: kaltura-virusscanprofile-api-openapi.yml
   format: yaml
-  label: Kaltura virusScanProfile API
+  label: Kaltura Virus Scan Profile API
   slug: kaltura-virusscanprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-virusscanprofile-api-openapi.yml
 - filename: kaltura-volatileinteractivity-api-openapi.yml
   format: yaml
-  label: Kaltura volatileInteractivity API
+  label: Kaltura Volatile Interactivity API
   slug: kaltura-volatileinteractivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-volatileinteractivity-api-openapi.yml
 - filename: kaltura-webexvendor-api-openapi.yml
   format: yaml
-  label: Kaltura webexVendor API
+  label: Kaltura Webex Vendor API
   slug: kaltura-webexvendor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-webexvendor-api-openapi.yml
 - filename: kaltura-widevinedrm-api-openapi.yml
   format: yaml
-  label: Kaltura widevineDrm API
+  label: Kaltura Widevine Drm API
   slug: kaltura-widevinedrm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-widevinedrm-api-openapi.yml
 - filename: kaltura-widget-api-openapi.yml
   format: yaml
-  label: Kaltura widget API
+  label: Kaltura Widget API
   slug: kaltura-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-widget-api-openapi.yml
 - filename: kaltura-zoomvendor-api-openapi.yml
   format: yaml
-  label: Kaltura zoomVendor API
+  label: Kaltura Zoom Vendor API
   slug: kaltura-zoomvendor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/openapi/kaltura-zoomvendor-api-openapi.yml
@@ -1381,5 +1381,5 @@ tags:
 - Analytics
 - Virtual Classroom
 - OTT
-- Open-Source
+- Open Source
 ---

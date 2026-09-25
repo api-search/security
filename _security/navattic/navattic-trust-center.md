@@ -41,5 +41,6 @@ tags:
 - MCP
 - Agents
 - Product Analytics
+- A2A
 trust_url: https://trust.navattic.com/
 ---

@@ -34,6 +34,6 @@ tags:
 - DLC
 - Non-Custodial
 - Options Trading
-- Open-Source
+- Open Source
 - Lightning Network
 ---

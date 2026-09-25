@@ -86,5 +86,6 @@ tags:
 - Segmentation
 - Transactional Email
 - MCP
+- Email
 trust_url: https://www.mailerlite.com/trust-page
 ---

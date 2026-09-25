@@ -71,5 +71,5 @@ tags:
 - Security
 - Fraud Prevention
 - Synthetic Media
-- Machine-Learning
+- Machine Learning
 ---

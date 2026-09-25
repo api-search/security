@@ -2,25 +2,25 @@
 api_specs:
 - filename: topi-catalog-api-openapi.yml
   format: yaml
-  label: Topi catalog API
+  label: Topi Catalog API
   slug: topi-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-catalog-api-openapi.yml
 - filename: topi-offer-api-openapi.yml
   format: yaml
-  label: Topi offer API
+  label: Topi Offer API
   slug: topi-offer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-offer-api-openapi.yml
 - filename: topi-order-api-openapi.yml
   format: yaml
-  label: Topi order API
+  label: Topi Order API
   slug: topi-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-order-api-openapi.yml
 - filename: topi-shipment-api-openapi.yml
   format: yaml
-  label: Topi shipment API
+  label: Topi Shipment API
   slug: topi-shipment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipment-api-openapi.yml

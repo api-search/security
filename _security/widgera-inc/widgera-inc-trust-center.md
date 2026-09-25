@@ -9,8 +9,8 @@ kind: trust-center
 layout: security
 name: Widgera Inc Trust Center
 name_suffix: Trust Center
-overview: Widgera, Inc. maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
-provider_name: Widgera, Inc.
+overview: Widgera maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+provider_name: Widgera
 provider_slug: widgera-inc
 slug: widgera-inc-trust-center
 source_filename: widgera-inc-trust-center.yml
@@ -26,7 +26,7 @@ tags:
 - Business Operations
 - Adaptive OS
 - CRM
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Customer Interaction
 trust_url: https://widgera.com/

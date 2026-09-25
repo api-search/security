@@ -289,5 +289,6 @@ tags:
 - Observability
 - Performance Monitoring
 - Real-Time Monitoring
+- Monitoring
 trust_url: https://sentry.io/security/
 ---

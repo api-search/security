@@ -25,7 +25,7 @@ tags:
 - Banking
 - Credit Union
 - Community Banks
-- Financial-Services
+- Financial Services
 - Account Opening
 - Lending
 trust_url: https://bankjoy.com/security

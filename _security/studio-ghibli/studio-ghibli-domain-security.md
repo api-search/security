@@ -82,6 +82,6 @@ tags:
 - Species
 - Vehicles
 - Public APIs
-- Open-Source
+- Open Source
 - Read Only
 ---

@@ -67,7 +67,7 @@ tags:
 - Parking
 - Payments
 - Automotive
-- Financial-Services
+- Financial Services
 - Authentication
 - Taiwan
 ---

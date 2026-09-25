@@ -38,6 +38,6 @@ tags:
 - Governance Risk and Compliance
 - Legal Research
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Insurance
 ---

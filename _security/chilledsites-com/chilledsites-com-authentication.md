@@ -67,7 +67,7 @@ tags:
 - Artificial Intelligence
 - No-Code
 - Web Hosting
-- Image-Generation
+- Image Generation
 - Video Generation
 - Advertising
 - MCP

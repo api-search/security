@@ -19,8 +19,8 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Agentic AI
+- Machine Learning
+- AI Agents
 - Data Science
 - MLOps
 - Enterprise AI

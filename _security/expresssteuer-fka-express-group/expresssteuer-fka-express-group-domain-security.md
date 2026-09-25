@@ -34,7 +34,7 @@ tags:
 - Tax
 - Taxation
 - Fintech
-- Financial-Services
+- Financial Services
 - Germany
 - Tax Filing
 - Consumer

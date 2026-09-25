@@ -35,7 +35,7 @@ tags:
 - Wealth Management
 - Investment
 - Fintech
-- Financial-Services
+- Financial Services
 - Asset Management
 - Robo-Advisor
 ---

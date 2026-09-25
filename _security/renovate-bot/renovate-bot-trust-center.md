@@ -22,7 +22,7 @@ tags:
 - Bots
 - Automation
 - Software Supply Chain
-- Open-Source
+- Open Source
 - Mend
 - AGPLv3
 - Node.js

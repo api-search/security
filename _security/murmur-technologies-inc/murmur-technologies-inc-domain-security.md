@@ -72,8 +72,8 @@ layout: security
 method: probed
 name: Murmur Technologies Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Murmur Technologies INC, probed live across 5 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Murmur Technologies INC
+overview: 'Domain security posture for Murmur Technologies, probed live across 5 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Murmur Technologies
 provider_slug: murmur-technologies-inc
 slug: murmur-technologies-inc-domain-security
 source_filename: murmur-technologies-inc-domain-security.yml

@@ -39,4 +39,5 @@ tags:
 - Sustainability
 - Utilities
 - Wind
+- Clean Energy
 ---

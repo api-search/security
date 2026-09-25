@@ -50,6 +50,6 @@ tags:
 - Prototyping
 - Workspace
 - Documents
-- Libraries
+- Library
 - Components
 ---

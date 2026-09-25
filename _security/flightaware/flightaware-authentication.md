@@ -5,43 +5,43 @@ api_key_in:
 api_specs:
 - filename: flightaware-airports-api-openapi.yml
   format: yaml
-  label: FlightAware airports API
+  label: FlightAware Airports API
   slug: flightaware-airports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-airports-api-openapi.yml
 - filename: flightaware-alerts-api-openapi.yml
   format: yaml
-  label: FlightAware alerts API
+  label: FlightAware Alerts API
   slug: flightaware-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-alerts-api-openapi.yml
 - filename: flightaware-flights-api-openapi.yml
   format: yaml
-  label: FlightAware flights API
+  label: FlightAware Flights API
   slug: flightaware-flights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-flights-api-openapi.yml
 - filename: flightaware-foresight-api-openapi.yml
   format: yaml
-  label: FlightAware foresight API
+  label: FlightAware Foresight API
   slug: flightaware-foresight-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-foresight-api-openapi.yml
 - filename: flightaware-history-api-openapi.yml
   format: yaml
-  label: FlightAware history API
+  label: FlightAware History API
   slug: flightaware-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-history-api-openapi.yml
 - filename: flightaware-miscellaneous-api-openapi.yml
   format: yaml
-  label: FlightAware miscellaneous API
+  label: FlightAware Miscellaneous API
   slug: flightaware-miscellaneous-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-miscellaneous-api-openapi.yml
 - filename: flightaware-operators-api-openapi.yml
   format: yaml
-  label: FlightAware operators API
+  label: FlightAware Operators API
   slug: flightaware-operators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-operators-api-openapi.yml

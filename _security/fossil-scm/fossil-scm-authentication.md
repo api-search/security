@@ -43,9 +43,9 @@ source_yaml: "generated: '2026-09-22'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/authentication/fossil-scm-authentication.yml
 summary_line: 2 schemes
 tags:
-- Version-Control
-- Open-Source
+- Version Control
+- Open Source
 - SCM
 - Distributed
-- Configuration-Management
+- Configuration Management
 ---

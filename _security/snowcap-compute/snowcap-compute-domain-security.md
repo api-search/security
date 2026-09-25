@@ -36,6 +36,6 @@ tags:
 - Semiconductors
 - Hardware
 - Artificial Intelligence
-- Data-Center
+- Data Center
 - Deep Tech
 ---

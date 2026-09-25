@@ -43,7 +43,7 @@ tags:
 - Synthetic Biology
 - Biotechnology
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Protein Models
 - Bioinformatics
 - Inference API

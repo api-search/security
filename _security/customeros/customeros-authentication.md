@@ -115,5 +115,6 @@ tags:
 - Email Verification
 - Enrichment
 - GraphQL
-- Open-Source
+- Open Source
+- A2A
 ---

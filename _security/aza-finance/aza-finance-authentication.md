@@ -152,7 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aza-finance/re
 summary_line: apiKey · 4 schemes
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Foreign Exchange
 - Cross-Border Payments

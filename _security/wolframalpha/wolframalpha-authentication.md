@@ -61,7 +61,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence
 - Computational Knowledge
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Public APIs
 - Search

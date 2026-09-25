@@ -16,8 +16,8 @@ layout: security
 method: probed
 name: Oblix Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Oblix Inc., probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Oblix Inc.
+overview: 'Domain security posture for Oblix, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Oblix
 provider_slug: oblix-inc
 slug: oblix-inc-domain-security
 source_filename: oblix-inc-domain-security.yml

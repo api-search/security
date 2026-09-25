@@ -40,7 +40,7 @@ tags:
 - Manufacturing
 - Distribution
 - Supply Chain
-- Financial
+- Finance
 - Accounting
 - Inventory
 - Mid-Market

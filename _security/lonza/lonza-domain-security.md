@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Pharmaceuticals
-- Biotech
+- Biotechnology
 - CDMO
 - Manufacturing
 - Life Sciences

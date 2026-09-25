@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-deposits-api-openapi.yml
 - filename: breeze-fund-api-openapi.yml
   format: yaml
-  label: Breeze fund API
+  label: Breeze Fund API
   slug: breeze-fund-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-fund-api-openapi.yml

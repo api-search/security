@@ -49,7 +49,7 @@ tags:
 - Food Systems
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Ontario
 - Canada
 ---

@@ -129,5 +129,5 @@ tags:
 - Data Platform
 - Vector Search
 - Developer Tools
-- Open-Source
+- Open Source
 ---

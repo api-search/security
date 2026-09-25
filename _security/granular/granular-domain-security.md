@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Agriculture
 - Farm Management
-- Financial
+- Finance
 - Crop Planning
 - Agronomy
 ---

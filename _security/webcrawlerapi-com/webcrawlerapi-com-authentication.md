@@ -77,5 +77,5 @@ tags:
 - Structured Data
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 ---

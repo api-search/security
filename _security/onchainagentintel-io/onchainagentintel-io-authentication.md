@@ -88,5 +88,5 @@ tags:
 - A2A
 - Smart Contracts
 - Security Audits
-- agent-native
+- Agent-Native
 ---

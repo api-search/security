@@ -32,9 +32,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AGI
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Speech AI
 - Research
-- Open-Source
+- Open Source
 ---

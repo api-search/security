@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-api-key-manager-admin-api-openapi.yml
 - filename: syndicate-call-api-openapi.yml
   format: yaml
-  label: Syndicate call API
+  label: Syndicate Call API
   slug: syndicate-call-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-call-api-openapi.yml
 - filename: syndicate-transact-api-openapi.yml
   format: yaml
-  label: Syndicate transact API
+  label: Syndicate Transact API
   slug: syndicate-transact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-transact-api-openapi.yml
 - filename: syndicate-wallet-api-openapi.yml
   format: yaml
-  label: Syndicate wallet API
+  label: Syndicate Wallet API
   slug: syndicate-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-wallet-api-openapi.yml

@@ -115,7 +115,7 @@ tags:
 - Framework
 - Java
 - Microservices
-- Open-Source
+- Open Source
 - REST
 - Spring Boot
 ---

@@ -37,7 +37,7 @@ tags:
 - Flexible Circuits
 - Wiring Harness
 - Battery
-- Data-Center
+- Data Center
 - Automotive
 - Hardware
 ---

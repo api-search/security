@@ -39,5 +39,5 @@ tags:
 - Net Lease Real Estate
 - Insurance Solutions
 - Asset Management
-- Financial-Services
+- Financial Services
 ---

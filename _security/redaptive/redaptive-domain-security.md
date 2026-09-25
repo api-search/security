@@ -53,7 +53,7 @@ tags:
 - ESG Reporting
 - Metering
 - Buildings
-- Real-Estate
+- Real Estate
 - Industrial
 - Climate Tech
 ---

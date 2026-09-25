@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - Visual Support
-- Customer-Support
+- Customer Support
 - Field Service
 - Remote Assistance
 - Video Support

@@ -110,12 +110,6 @@ api_specs:
   slug: microsoft-azure-api-management-apiwiki-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apiwiki-api-openapi.yml
-- filename: microsoft-azure-api-management-authentication-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management Authentication API
-  slug: microsoft-azure-api-management-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-authentication-api-openapi.yml
 - filename: microsoft-azure-api-management-backend-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Backend API
@@ -254,12 +248,6 @@ api_specs:
   slug: microsoft-azure-api-management-policyfragment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-policyfragment-api-openapi.yml
-- filename: microsoft-azure-api-management-portal-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management Portal API
-  slug: microsoft-azure-api-management-portal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-portal-api-openapi.yml
 - filename: microsoft-azure-api-management-product-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Product API
@@ -284,12 +272,6 @@ api_specs:
   slug: microsoft-azure-api-management-productpolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-productpolicy-api-openapi.yml
-- filename: microsoft-azure-api-management-products-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management Products API
-  slug: microsoft-azure-api-management-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-products-api-openapi.yml
 - filename: microsoft-azure-api-management-productsubscription-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ProductSubscription API
@@ -362,12 +344,6 @@ api_specs:
   slug: microsoft-azure-api-management-workspacepolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-workspacepolicy-api-openapi.yml
-- filename: microsoft-azure-api-management-apis-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management AP Is API
-  slug: microsoft-azure-api-management-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-apis-api-openapi.yml
 - filename: microsoft-azure-api-management-api-product-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Api Product API

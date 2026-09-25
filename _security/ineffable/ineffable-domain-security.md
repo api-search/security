@@ -36,6 +36,6 @@ tags:
 - Reinforcement Learning
 - Superintelligence
 - AI Research
-- Machine-Learning
+- Machine Learning
 - AI Lab
 ---

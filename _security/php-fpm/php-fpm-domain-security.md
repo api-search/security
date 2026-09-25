@@ -49,5 +49,5 @@ tags:
 - Process Manager
 - Web Server
 - Application Server
-- Open-Source
+- Open Source
 ---

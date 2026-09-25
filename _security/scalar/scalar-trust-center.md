@@ -2,31 +2,31 @@
 api_specs:
 - filename: scalar-access-groups-api-openapi.yml
   format: yaml
-  label: Scalar access-groups API
+  label: Scalar Access Groups API
   slug: scalar-access-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-access-groups-api-openapi.yml
 - filename: scalar-analytics-api-openapi.yml
   format: yaml
-  label: Scalar analytics API
+  label: Scalar Analytics API
   slug: scalar-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-analytics-api-openapi.yml
 - filename: scalar-api-docs-api-openapi.yml
   format: yaml
-  label: Scalar api-docs API
+  label: Scalar API Docs API
   slug: scalar-api-docs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-docs-api-openapi.yml
 - filename: scalar-auth-api-openapi.yml
   format: yaml
-  label: Scalar auth API
+  label: Scalar Auth API
   slug: scalar-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-auth-api-openapi.yml
 - filename: scalar-docs-api-openapi.yml
   format: yaml
-  label: Scalar docs API
+  label: Scalar Docs API
   slug: scalar-docs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-docs-api-openapi.yml
@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-forgejo-api-openapi.yml
 - filename: scalar-github-api-openapi.yml
   format: yaml
-  label: Scalar github API
+  label: Scalar Github API
   slug: scalar-github-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-github-api-openapi.yml
@@ -56,85 +56,85 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-internal-api-openapi.yml
 - filename: scalar-login-portals-api-openapi.yml
   format: yaml
-  label: Scalar login-portals API
+  label: Scalar Login Portals API
   slug: scalar-login-portals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-login-portals-api-openapi.yml
 - filename: scalar-payment-api-openapi.yml
   format: yaml
-  label: Scalar payment API
+  label: Scalar Payment API
   slug: scalar-payment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-payment-api-openapi.yml
 - filename: scalar-publish-api-openapi.yml
   format: yaml
-  label: Scalar publish API
+  label: Scalar Publish API
   slug: scalar-publish-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-publish-api-openapi.yml
 - filename: scalar-pubsub-api-openapi.yml
   format: yaml
-  label: Scalar pubsub API
+  label: Scalar Pubsub API
   slug: scalar-pubsub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-pubsub-api-openapi.yml
 - filename: scalar-rules-api-openapi.yml
   format: yaml
-  label: Scalar rules API
+  label: Scalar Rules API
   slug: scalar-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-rules-api-openapi.yml
 - filename: scalar-schemas-api-openapi.yml
   format: yaml
-  label: Scalar schemas API
+  label: Scalar Schemas API
   slug: scalar-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-schemas-api-openapi.yml
 - filename: scalar-share-api-openapi.yml
   format: yaml
-  label: Scalar share API
+  label: Scalar Share API
   slug: scalar-share-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-share-api-openapi.yml
 - filename: scalar-signup-api-openapi.yml
   format: yaml
-  label: Scalar signup API
+  label: Scalar Signup API
   slug: scalar-signup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-signup-api-openapi.yml
 - filename: scalar-team-api-openapi.yml
   format: yaml
-  label: Scalar team API
+  label: Scalar Team API
   slug: scalar-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-team-api-openapi.yml
 - filename: scalar-themes-api-openapi.yml
   format: yaml
-  label: Scalar themes API
+  label: Scalar Themes API
   slug: scalar-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-themes-api-openapi.yml
 - filename: scalar-utility-api-openapi.yml
   format: yaml
-  label: Scalar utility API
+  label: Scalar Utility API
   slug: scalar-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-utility-api-openapi.yml
 - filename: scalar-vcs-api-openapi.yml
   format: yaml
-  label: Scalar vcs API
+  label: Scalar VCS API
   slug: scalar-vcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-vcs-api-openapi.yml
 - filename: scalar-waitlist-api-openapi.yml
   format: yaml
-  label: Scalar waitlist API
+  label: Scalar Waitlist API
   slug: scalar-waitlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-waitlist-api-openapi.yml
 - filename: scalar-workspace-api-openapi.yml
   format: yaml
-  label: Scalar workspace API
+  label: Scalar Workspace API
   slug: scalar-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-workspace-api-openapi.yml

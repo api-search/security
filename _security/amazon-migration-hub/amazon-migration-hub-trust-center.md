@@ -125,8 +125,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/security/amazon-migration-hub-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Migration
+- Cloud Migration
+- Cloud
 trust_url: https://aws.amazon.com/compliance/
 ---

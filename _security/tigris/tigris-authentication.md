@@ -36,4 +36,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigris/refs/he
 summary_line: apiKey/awsSignatureV4 · 1 scheme
 tags:
 - Company
+- A2A
 ---

@@ -53,7 +53,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Communications
 - Conversations
-- Customer-Support
+- Customer Support
 - Google
 - Messaging
 ---

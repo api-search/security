@@ -94,7 +94,7 @@ tags:
 - Email
 - Transactional Email
 - SMTP
-- Email Validation
+- Email Verification
 - Email Delivery
 - Messaging
 ---

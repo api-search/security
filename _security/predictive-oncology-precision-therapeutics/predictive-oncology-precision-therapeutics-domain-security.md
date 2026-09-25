@@ -35,7 +35,7 @@ tags:
 - Oncology
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Precision Medicine
 - Biotechnology
 ---

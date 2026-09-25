@@ -57,7 +57,7 @@ tags:
 - AI Observability
 - ML Monitoring
 - LLM Monitoring
-- Open-Source
+- Open Source
 - whylogs
 - LangKit
 - Discontinued

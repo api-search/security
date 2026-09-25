@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Compliance
-- Financial-Services
+- Financial Services
 - Customer Experience
 - Governance Risk Compliance
 - AI Agents

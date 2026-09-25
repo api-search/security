@@ -148,7 +148,7 @@ tags:
 - Company
 - Compliance
 - Governance
-- Risk
+- Risk Management
 - Security
 - GRC
 - Audit

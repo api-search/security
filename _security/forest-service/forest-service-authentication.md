@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forest-service
 summary_line: 0 schemes
 tags:
 - Agriculture
-- Federal-Government
+- Federal Government
 - Forests
 - Geospatial
 - Open Data

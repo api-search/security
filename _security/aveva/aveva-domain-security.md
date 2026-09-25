@@ -53,7 +53,7 @@ tags:
 - Industrial Automation
 - Manufacturing
 - Industrial IoT
-- IIoT
 - Industrial Data
 - Energy
+- Industrial
 ---

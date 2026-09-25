@@ -45,7 +45,7 @@ tags:
 - Amazon
 - TikTok
 - Keyword Research
-- Image-Generation
+- Image Generation
 - Video Generation
 - MCP
 ---

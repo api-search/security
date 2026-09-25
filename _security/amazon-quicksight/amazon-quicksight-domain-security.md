@@ -61,7 +61,7 @@ tags:
 - Analytics
 - Business Intelligence
 - Dashboards
-- Machine-Learning
+- Machine Learning
 - Reporting
 - Visualization
 ---

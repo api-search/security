@@ -30,7 +30,7 @@ summary_line: SOC 2 Type 2, SOC 1 Type 2, FedRAMP High, CMMC Level 2, NIST 800-5
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - National Security
 - Defense
 - Generative AI

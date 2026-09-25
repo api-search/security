@@ -60,5 +60,5 @@ tags:
 - Roaming
 - Connectivity
 - IoT
-- Telecom
+- Telecommunications
 ---

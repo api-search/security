@@ -78,4 +78,5 @@ tags:
 - Crypto
 - Markets
 - Polymarket
+- Real-Time
 ---

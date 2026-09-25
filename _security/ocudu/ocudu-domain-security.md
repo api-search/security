@@ -34,5 +34,5 @@ tags:
 - Artificial Intelligence
 - Linux Foundation
 - RAN
-- Telecom
+- Telecommunications
 ---

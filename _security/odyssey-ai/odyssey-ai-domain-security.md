@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - World Models
 - Generative AI
-- Machine-Learning
+- Machine Learning
 - Research
 - Simulation
 - 3D

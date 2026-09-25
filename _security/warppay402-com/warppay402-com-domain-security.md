@@ -42,7 +42,7 @@ tags:
 - AI Agents
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Web Scraping
 - Data Extraction
 - Blockchain

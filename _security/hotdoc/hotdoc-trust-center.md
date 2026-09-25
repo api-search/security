@@ -29,5 +29,6 @@ tags:
 - Primary Care
 - Digital Health
 - e-Prescribing
+- Scheduling
 trust_url: https://practices.hotdoc.com.au/security/
 ---

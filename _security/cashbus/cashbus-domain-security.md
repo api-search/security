@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cashbus/refs/h
 summary_line: TLSv1.2
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Microfinance

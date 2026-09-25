@@ -37,7 +37,7 @@ tags:
 - Logistics
 - Mobility
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Autonomous Vehicles
 - Telematics
 - Aviation

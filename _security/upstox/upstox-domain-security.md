@@ -175,7 +175,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Stock Trading
 - Brokerage
 - Market Data

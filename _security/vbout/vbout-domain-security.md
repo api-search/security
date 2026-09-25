@@ -116,7 +116,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing Automation
 - Email Marketing
-- Social-Media
+- Social Media
 - Lead Management
 - Landing Pages
 - Chatbots

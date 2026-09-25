@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Enterprise
-- Recruitment
+- Recruiting
 - Human Resources
 - Job Search
 - Hiring

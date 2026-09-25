@@ -209,7 +209,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-webhooks-api-openapi.yml
 - filename: tyk-apis-api-openapi.yml
   format: yaml
-  label: Tyk AP Is API
+  label: Tyk APIs API
   slug: tyk-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-apis-api-openapi.yml
@@ -284,5 +284,5 @@ tags:
 - API Gateway
 - API Management
 - GraphQL
-- Open-Source
+- Open Source
 ---

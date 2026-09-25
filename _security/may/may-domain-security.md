@@ -69,7 +69,7 @@ tags:
 - Pregnancy
 - Maternal Health
 - Consumer Health
-- Mobile Applications
+- Mobile App
 - Employee Benefits
 - France
 ---

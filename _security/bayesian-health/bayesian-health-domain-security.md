@@ -36,7 +36,7 @@ tags:
 - Healthcare
 - Clinical AI
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Sepsis
 - Patient Monitoring
 - Clinical Decision Support

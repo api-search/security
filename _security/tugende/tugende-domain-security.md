@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tugende/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Asset Finance
 - Lease-to-Own
 - Fintech

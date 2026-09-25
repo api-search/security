@@ -71,7 +71,7 @@ summary_line: HSTS
 tags:
 - AI Coding Assistant
 - Code Completion
-- Open-Source
+- Open Source
 - Developer Tools
 - LLM
 - Artificial Intelligence

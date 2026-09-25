@@ -34,7 +34,7 @@ tags:
 - Company
 - Frontier Tech
 - Lab Automation
-- Biotech
+- Biotechnology
 - Life Sciences
 - Robotics
 - Synthetic Biology

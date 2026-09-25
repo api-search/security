@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visterra/refs/
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Biologics
 - Therapeutics
 - Antibodies

@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/subex-re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/authentication/subex-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Telecom
+- Telecommunications
 - Revenue Assurance
 - Fraud Management
 - Analytics

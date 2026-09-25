@@ -36,6 +36,6 @@ tags:
 - Cybersecurity
 - Cloud Computing
 - Fortune 500
-- Federal-Government
+- Federal Government
 - Artificial Intelligence
 ---

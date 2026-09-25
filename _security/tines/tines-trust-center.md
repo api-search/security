@@ -66,7 +66,7 @@ summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 tags:
 - Security Automation
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Security Operations
 - SOAR
 - Incident Response

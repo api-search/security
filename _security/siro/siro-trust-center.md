@@ -128,5 +128,6 @@ tags:
 - Speech-to-Text
 - Webhook
 - Integration
+- A2A
 trust_url: https://trust.siro.ai/
 ---

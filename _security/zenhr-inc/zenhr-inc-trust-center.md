@@ -356,8 +356,8 @@ kind: trust-center
 layout: security
 name: Zenhr Inc Trust Center
 name_suffix: Trust Center
-overview: ZenHR Inc maintains a public trust center documenting SOC 2 Type II compliance.
-provider_name: ZenHR Inc
+overview: ZenHR maintains a public trust center documenting SOC 2 Type II compliance.
+provider_name: ZenHR
 provider_slug: zenhr-inc
 slug: zenhr-inc-trust-center
 source_filename: zenhr-inc-trust-center.yml

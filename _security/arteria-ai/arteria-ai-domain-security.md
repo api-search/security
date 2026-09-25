@@ -39,11 +39,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Legal Tech
-- Financial-Services
+- Financial Services
 - Document Automation
 - Contract Lifecycle Management
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Onboarding
 - Regulatory Reporting
 - Derivatives

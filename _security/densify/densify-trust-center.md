@@ -126,8 +126,9 @@ tags:
 - Container Optimization
 - FinOps
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - Recommendations
 - Rightsizing
+- A2A
 trust_url: https://kubex.ai/product/security/
 ---

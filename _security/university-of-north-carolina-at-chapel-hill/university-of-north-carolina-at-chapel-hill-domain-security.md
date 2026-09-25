@@ -62,5 +62,5 @@ tags:
 - Course Catalog
 - Identity Federation
 - Geospatial
-- Open-Source
+- Open Source
 ---

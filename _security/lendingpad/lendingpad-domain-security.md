@@ -36,8 +36,8 @@ tags:
 - LOS
 - Lending
 - Fintech
-- Financial-Services
-- Real-Estate
+- Financial Services
+- Real Estate
 - Partner API
 - Gated API
 ---

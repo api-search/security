@@ -40,5 +40,5 @@ tags:
 - Deep Learning
 - Edge Computing
 - Model Optimization
-- Open-Source
+- Open Source
 ---

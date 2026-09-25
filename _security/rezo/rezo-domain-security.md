@@ -35,8 +35,8 @@ tags:
 - Customer Experience
 - Contact Center
 - Conversational AI
-- Agentic AI
-- Customer-Support
+- AI Agents
+- Customer Support
 - Speech Analytics
 - Automation
 ---

@@ -16,37 +16,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-countries-api-openapi.yml
 - filename: paywithmybank-customers-api-openapi.yml
   format: yaml
-  label: PayWithMyBank (Trustly) customers API
+  label: PayWithMyBank (Trustly) Customers API
   slug: paywithmybank-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-customers-api-openapi.yml
 - filename: paywithmybank-identity-api-openapi.yml
   format: yaml
-  label: PayWithMyBank (Trustly) identity API
+  label: PayWithMyBank (Trustly) Identity API
   slug: paywithmybank-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-identity-api-openapi.yml
 - filename: paywithmybank-networkcheckapi-api-openapi.yml
   format: yaml
-  label: PayWithMyBank (Trustly) networkCheckApi API
+  label: PayWithMyBank (Trustly) Network Check API
   slug: paywithmybank-networkcheckapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-networkcheckapi-api-openapi.yml
 - filename: paywithmybank-payments-api-openapi.yml
   format: yaml
-  label: PayWithMyBank (Trustly) payments API
+  label: PayWithMyBank (Trustly) Payments API
   slug: paywithmybank-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-payments-api-openapi.yml
 - filename: paywithmybank-transactions-api-openapi.yml
   format: yaml
-  label: PayWithMyBank (Trustly) transactions API
+  label: PayWithMyBank (Trustly) Transactions API
   slug: paywithmybank-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-transactions-api-openapi.yml
 - filename: paywithmybank-verifycustomer-api-openapi.yml
   format: yaml
-  label: PayWithMyBank (Trustly) verifyCustomer API
+  label: PayWithMyBank (Trustly) Verify Customer API
   slug: paywithmybank-verifycustomer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-verifycustomer-api-openapi.yml

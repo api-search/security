@@ -33,5 +33,6 @@ tags:
 - Training Data
 - Annotation
 - GraphQL
+- Real-Time
 trust_url: https://trust.kili-technology.com/
 ---

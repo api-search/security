@@ -47,6 +47,6 @@ tags:
 - WebXR
 - TypeScript
 - glTF
-- Open-Source
+- Open Source
 - Microsoft
 ---

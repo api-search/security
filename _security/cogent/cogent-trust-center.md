@@ -25,7 +25,7 @@ tags:
 - Vulnerability Management
 - CTEM
 - Exposure Management
-- Agentic AI
+- AI Agents
 - Cybersecurity
 - Remediation
 trust_url: https://trust.cogent.security/

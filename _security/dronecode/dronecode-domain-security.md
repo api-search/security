@@ -72,6 +72,6 @@ tags:
 - Autopilot
 - Aerial Robotics
 - gRPC
-- Open-Source
+- Open Source
 - Linux Foundation
 ---

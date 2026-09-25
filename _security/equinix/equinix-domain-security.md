@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-authentication-api-openapi.yml
 - filename: equinix-availability-api-openapi.yml
   format: yaml
-  label: Equinix availability API
+  label: Equinix Availability API
   slug: equinix-availability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-availability-api-openapi.yml
@@ -380,7 +380,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-usages-api-openapi.yml
 - filename: equinix-use-api-openapi.yml
   format: yaml
-  label: Equinix use API
+  label: Equinix Use API
   slug: equinix-use-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/equinix-use-api-openapi.yml
@@ -487,7 +487,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 1000
-- Data-Center
+- Data Center
 - Interconnection
 - Colocation
 - Bare Metal

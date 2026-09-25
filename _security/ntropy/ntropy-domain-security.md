@@ -14,13 +14,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-bank-statements-api-openapi.yml
 - filename: ntropy-batches-api-openapi.yml
   format: yaml
-  label: Ntropy batches API
+  label: Ntropy Batches API
   slug: ntropy-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-batches-api-openapi.yml
 - filename: ntropy-categories-api-openapi.yml
   format: yaml
-  label: Ntropy categories API
+  label: Ntropy Categories API
   slug: ntropy-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-categories-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-enrichment-api-openapi.yml
 - filename: ntropy-entities-api-openapi.yml
   format: yaml
-  label: Ntropy entities API
+  label: Ntropy Entities API
   slug: ntropy-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-entities-api-openapi.yml
@@ -50,13 +50,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-misc-api-openapi.yml
 - filename: ntropy-personalization-api-openapi.yml
   format: yaml
-  label: Ntropy personalization API
+  label: Ntropy Personalization API
   slug: ntropy-personalization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-personalization-api-openapi.yml
 - filename: ntropy-recurrence-api-openapi.yml
   format: yaml
-  label: Ntropy recurrence API
+  label: Ntropy Recurrence API
   slug: ntropy-recurrence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-recurrence-api-openapi.yml
@@ -68,19 +68,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-reporting-api-openapi.yml
 - filename: ntropy-reports-api-openapi.yml
   format: yaml
-  label: Ntropy reports API
+  label: Ntropy Reports API
   slug: ntropy-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-reports-api-openapi.yml
 - filename: ntropy-transactions-api-openapi.yml
   format: yaml
-  label: Ntropy transactions API
+  label: Ntropy Transactions API
   slug: ntropy-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-transactions-api-openapi.yml
 - filename: ntropy-webhooks-api-openapi.yml
   format: yaml
-  label: Ntropy webhooks API
+  label: Ntropy Webhooks API
   slug: ntropy-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/openapi/ntropy-webhooks-api-openapi.yml

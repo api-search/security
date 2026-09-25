@@ -43,7 +43,7 @@ tags:
 - Retirement
 - Annuities
 - Mutual Insurance
-- Financial-Services
+- Financial Services
 - Trucking
 - Wisconsin
 - United States

@@ -69,7 +69,7 @@ tags:
 - CRM
 - GraphQL
 - MCP
-- agent-native
+- Agent-Native
 - Software-as-a-Service
 - Company
 ---

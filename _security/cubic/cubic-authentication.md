@@ -17,8 +17,8 @@ method: probed
 name: Cubic Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Cubic Corporation declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: Cubic Corporation
+overview: Cubic declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: Cubic
 provider_slug: cubic
 scheme_count: 0
 schemes: []

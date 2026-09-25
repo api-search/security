@@ -48,4 +48,5 @@ tags:
 - Webhook
 - Saudi Arabia
 - MENA
+- Restaurant
 ---

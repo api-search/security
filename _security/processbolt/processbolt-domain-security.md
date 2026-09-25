@@ -37,8 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/processbolt/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Vendor Risk Management
-- Third-Party Risk
+- Third-Party Risk Management
 - Governance Risk Compliance
 - Cybersecurity
 - Risk Assessment

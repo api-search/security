@@ -82,8 +82,8 @@ tags:
 - Embeddings
 - Function Calling
 - Generative AI
-- Image-Generation
-- Machine-Learning
+- Image Generation
+- Machine Learning
 - Multi-Modal
 - Structured Output
 - Text-to-Speech

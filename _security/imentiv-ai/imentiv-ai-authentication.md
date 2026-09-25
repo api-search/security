@@ -70,6 +70,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Emotion Detection
-- Machine-Learning
+- Machine Learning
 - Video Analysis
 ---

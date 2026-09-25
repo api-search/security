@@ -43,7 +43,7 @@ summary_line: TLSv1.3
 tags:
 - Digital Assets
 - Crypto
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
 - Fund Administration
 - Reconciliation

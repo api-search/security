@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Workplaced Technologies Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Workplaced Technologies Ltd, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Workplaced Technologies Ltd
+overview: 'Domain security posture for Workplaced Technologies, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Workplaced Technologies
 provider_slug: workplaced-technologies-ltd
 slug: workplaced-technologies-ltd-domain-security
 source_filename: workplaced-technologies-ltd-domain-security.yml
@@ -35,6 +35,6 @@ tags:
 - Occupancy
 - Desk Booking
 - Workplace Analytics
-- Real-Estate
+- Real Estate
 - Software-as-a-Service
 ---

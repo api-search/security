@@ -25,6 +25,6 @@ tags:
 - Knowledge Graph
 - Pharmaceuticals
 - Research
-- Agentic AI
+- AI Agents
 trust_url: https://trust.causaly.com/
 ---

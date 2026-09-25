@@ -290,5 +290,5 @@ tags:
 - Standards
 - Orchestration
 - Monetization
-- Open-Source
+- Open Source
 ---

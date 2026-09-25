@@ -42,8 +42,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Image-Generation
+- Machine Learning
+- Image Generation
 - Generative AI
 - Text-to-Image
 - Image to Image

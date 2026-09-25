@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Big Data
 - Interactive Computing
-- Open-Source
+- Open Source
 - REST
 - Spark
 ---

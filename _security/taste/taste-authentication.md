@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: taste-health-api-openapi.yml
   format: yaml
-  label: Taste health API
+  label: Taste Health API
   slug: taste-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/openapi/taste-health-api-openapi.yml
@@ -60,7 +60,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Design
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 - Prompt Engineering
 - Content Generation

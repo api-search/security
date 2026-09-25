@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Gotcha Technology Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for GOTCHA Technology Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: GOTCHA Technology Inc.
+overview: 'Domain security posture for GOTCHA Technology, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: GOTCHA Technology
 provider_slug: gotcha-technology-inc
 slug: gotcha-technology-inc-domain-security
 source_filename: gotcha-technology-inc-domain-security.yml
@@ -31,9 +31,9 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Emotion AI
 - Facial Analysis
-- Machine-Learning
+- Machine Learning
 - Affective Computing
 ---

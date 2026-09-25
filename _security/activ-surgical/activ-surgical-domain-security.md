@@ -37,7 +37,7 @@ tags:
 - Surgical Robotics
 - Medical Imaging
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Augmented Reality
 - Digital Health
 ---

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Accessvascular Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Access Vascular, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Access Vascular, Inc.
+overview: 'Domain security posture for Access Vascular, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Access Vascular
 provider_slug: accessvascular
 slug: accessvascular-domain-security
 source_filename: accessvascular-domain-security.yml

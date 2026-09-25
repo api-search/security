@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-cross-validation-api-openapi.yml
 - filename: nixtla-excluded-api-openapi.yml
   format: yaml
-  label: Nixtla excluded API
+  label: Nixtla Excluded API
   slug: nixtla-excluded-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-excluded-api-openapi.yml
@@ -71,7 +71,7 @@ tags:
 - Time Series
 - Forecasting
 - Anomaly Detection
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Foundation Models
 - Predictive Analytics

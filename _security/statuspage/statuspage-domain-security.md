@@ -80,4 +80,5 @@ tags:
 - Uptime
 - Reliability
 - Atlassian
+- Monitoring
 ---

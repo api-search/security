@@ -21,7 +21,7 @@ tags:
 - ITSM
 - IT Operations
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Service Desk
 - Digital Twin
 - Enterprise Software

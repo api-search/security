@@ -4,73 +4,73 @@ api_key_in: []
 api_specs:
 - filename: paid-agents-api-openapi.yml
   format: yaml
-  label: Paid agents API
+  label: Paid Agents API
   slug: paid-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-agents-api-openapi.yml
 - filename: paid-analyticsexperimental-api-openapi.yml
   format: yaml
-  label: Paid analyticsExperimental API
+  label: Paid Analytics Experimental API
   slug: paid-analyticsexperimental-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-analyticsexperimental-api-openapi.yml
 - filename: paid-checkouts-api-openapi.yml
   format: yaml
-  label: Paid checkouts API
+  label: Paid Checkouts API
   slug: paid-checkouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-checkouts-api-openapi.yml
 - filename: paid-contacts-api-openapi.yml
   format: yaml
-  label: Paid contacts API
+  label: Paid Contacts API
   slug: paid-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-contacts-api-openapi.yml
 - filename: paid-costs-api-openapi.yml
   format: yaml
-  label: Paid costs API
+  label: Paid Costs API
   slug: paid-costs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-costs-api-openapi.yml
 - filename: paid-credits-api-openapi.yml
   format: yaml
-  label: Paid credits API
+  label: Paid Credits API
   slug: paid-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-credits-api-openapi.yml
 - filename: paid-customer-groups-api-openapi.yml
   format: yaml
-  label: Paid customer-groups API
+  label: Paid Customer Groups API
   slug: paid-customer-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-customer-groups-api-openapi.yml
 - filename: paid-customer-portals-api-openapi.yml
   format: yaml
-  label: Paid customer-portals API
+  label: Paid Customer Portals API
   slug: paid-customer-portals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-customer-portals-api-openapi.yml
 - filename: paid-customers-api-openapi.yml
   format: yaml
-  label: Paid customers API
+  label: Paid Customers API
   slug: paid-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-customers-api-openapi.yml
 - filename: paid-customviewsexperimental-api-openapi.yml
   format: yaml
-  label: Paid customViewsExperimental API
+  label: Paid Custom Views Experimental API
   slug: paid-customviewsexperimental-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-customviewsexperimental-api-openapi.yml
 - filename: paid-invoices-api-openapi.yml
   format: yaml
-  label: Paid invoices API
+  label: Paid Invoices API
   slug: paid-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-invoices-api-openapi.yml
 - filename: paid-orders-api-openapi.yml
   format: yaml
-  label: Paid orders API
+  label: Paid Orders API
   slug: paid-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-orders-api-openapi.yml
@@ -82,55 +82,55 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-orders-lines-api-openapi.yml
 - filename: paid-plans-api-openapi.yml
   format: yaml
-  label: Paid plans API
+  label: Paid Plans API
   slug: paid-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-plans-api-openapi.yml
 - filename: paid-pricing-api-openapi.yml
   format: yaml
-  label: Paid pricing API
+  label: Paid Pricing API
   slug: paid-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-pricing-api-openapi.yml
 - filename: paid-products-api-openapi.yml
   format: yaml
-  label: Paid products API
+  label: Paid Products API
   slug: paid-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-products-api-openapi.yml
 - filename: paid-signals-api-openapi.yml
   format: yaml
-  label: Paid signals API
+  label: Paid Signals API
   slug: paid-signals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-signals-api-openapi.yml
 - filename: paid-traces-api-openapi.yml
   format: yaml
-  label: Paid traces API
+  label: Paid Traces API
   slug: paid-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-traces-api-openapi.yml
 - filename: paid-usage-api-openapi.yml
   format: yaml
-  label: Paid usage API
+  label: Paid Usage API
   slug: paid-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-usage-api-openapi.yml
 - filename: paid-value-models-api-openapi.yml
   format: yaml
-  label: Paid value-models API
+  label: Paid Value Models API
   slug: paid-value-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-value-models-api-openapi.yml
 - filename: paid-value-receipts-api-openapi.yml
   format: yaml
-  label: Paid value-receipts API
+  label: Paid Value Receipts API
   slug: paid-value-receipts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-value-receipts-api-openapi.yml
 - filename: paid-webhooks-api-openapi.yml
   format: yaml
-  label: Paid webhooks API
+  label: Paid Webhooks API
   slug: paid-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/openapi/paid-webhooks-api-openapi.yml

@@ -74,8 +74,8 @@ layout: security
 method: probed
 name: Westpac Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Westpac Banking Corporation, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Westpac Banking Corporation
+overview: 'Domain security posture for Westpac, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Westpac
 provider_slug: westpac
 slug: westpac-domain-security
 source_filename: westpac-domain-security.yml
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/security/westpac-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

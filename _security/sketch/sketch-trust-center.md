@@ -25,7 +25,7 @@ tags:
 - Prototyping
 - Workspace
 - Documents
-- Libraries
+- Library
 - Components
 trust_url: https://www.sketch.com/security/
 ---

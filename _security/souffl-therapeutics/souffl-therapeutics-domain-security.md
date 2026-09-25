@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/souffl-therape
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Therapeutics
 - Genetic Medicine
 - siRNA

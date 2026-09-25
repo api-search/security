@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Agriculture
 - Farms
-- Federal-Government
+- Federal Government
 - Finance
 - Regulations
 - Geospatial

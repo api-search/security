@@ -56,6 +56,6 @@ tags:
 - Course Catalog
 - Identity Federation
 - Research Repository
-- Open-Source
+- Open Source
 - Student Information System
 ---

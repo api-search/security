@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: mindmaze-discovery-api-openapi.yml
-  format: yaml
-  label: MindMaze Discovery API
-  slug: mindmaze-discovery-api
+- filename: mindmaze-content-wp-routes-original.json
+  format: json
+  label: MindMaze Website (WordPress REST)
+  slug: mindmazetherapeutics-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-discovery-api-openapi.yml
-- filename: mindmaze-media-api-openapi.yml
-  format: yaml
-  label: MindMaze Media API
-  slug: mindmaze-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-media-api-openapi.yml
-- filename: mindmaze-pages-api-openapi.yml
-  format: yaml
-  label: MindMaze Pages API
-  slug: mindmaze-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-pages-api-openapi.yml
-- filename: mindmaze-posts-api-openapi.yml
-  format: yaml
-  label: MindMaze Posts API
-  slug: mindmaze-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-posts-api-openapi.yml
-- filename: mindmaze-search-api-openapi.yml
-  format: yaml
-  label: MindMaze Search API
-  slug: mindmaze-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-search-api-openapi.yml
-- filename: mindmaze-taxonomy-api-openapi.yml
-  format: yaml
-  label: MindMaze Taxonomy API
-  slug: mindmaze-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-taxonomy-api-openapi.yml
-- filename: mindmaze-o-embed-api-openapi.yml
-  format: yaml
-  label: MindMaze o Embed API
-  slug: mindmaze-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-o-embed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-content-wp-routes-original.json
 description: ''
 domains:
 - caa: []

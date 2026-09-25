@@ -35,7 +35,7 @@ tags:
 - Health
 - Healthcare
 - Payments
-- Financial-Services
+- Financial Services
 - Insurance
 - Benefits
 - Analytics

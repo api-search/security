@@ -39,5 +39,4 @@ tags:
 - Human Resources
 - AI Agents
 - Job Search
-- Recruitment
 ---

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Samastha Synergy Pte Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Samastha Synergy Pte. Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Samastha Synergy Pte. Ltd.
+overview: 'Domain security posture for Djoin, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Djoin
 provider_slug: samastha-synergy-pte-ltd
 slug: samastha-synergy-pte-ltd-domain-security
 source_filename: samastha-synergy-pte-ltd-domain-security.yml
@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Indonesia
 - Cooperatives
 - Financial Institutions

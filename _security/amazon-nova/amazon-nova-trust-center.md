@@ -37,8 +37,8 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Foundation Models
 - Generative AI
-- Image-Generation
-- Machine-Learning
+- Image Generation
+- Machine Learning
 - Multi-Modal
 - Speech
 - Video Generation

@@ -117,7 +117,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Investment Research
 - Artificial Intelligence
 - Agents

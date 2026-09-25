@@ -42,5 +42,5 @@ tags:
 - WebSocket
 - Fintech
 - Crypto Infrastructure
-- Portfolio-Management
+- Portfolio Management
 ---

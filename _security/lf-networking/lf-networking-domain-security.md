@@ -33,6 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Linux Foundation
 - Networking
-- Open-Source
-- Telecom
+- Open Source
+- Telecommunications
 ---

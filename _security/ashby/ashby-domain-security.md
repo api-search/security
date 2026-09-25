@@ -362,7 +362,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Human Resources
-- ATS
+- Applicant Tracking
 - Recruiting
 - Analytics
 - Sourcing

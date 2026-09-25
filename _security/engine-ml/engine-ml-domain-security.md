@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Experiment Tracking
 - Distributed Training

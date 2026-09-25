@@ -80,7 +80,7 @@ tags:
 - Quizzes
 - Polls
 - Conversational Forms
-- Open-Source
+- Open Source
 - Webhook
 - No-Code
 - Form Builder

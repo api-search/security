@@ -68,7 +68,7 @@ tags:
 - Copilot
 - Enterprise
 - LLM
-- Microsoft-365
+- Microsoft 365
 - Natural Language Processing
 - Productivity
 ---

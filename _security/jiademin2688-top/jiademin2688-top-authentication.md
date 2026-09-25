@@ -39,9 +39,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - AI Agents
 - A2A
-- Agent-to-Agent
 - Virtual Pets
-- AI Companions
+- AI Companion
 - Social
 - Gaming
 - Social Commerce

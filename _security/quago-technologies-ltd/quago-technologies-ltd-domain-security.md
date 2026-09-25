@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Quago Technologies Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Quago Technologies LTD, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Quago Technologies LTD
+overview: 'Domain security posture for Quago Technologies, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Quago Technologies
 provider_slug: quago-technologies-ltd
 slug: quago-technologies-ltd-domain-security
 source_filename: quago-technologies-ltd-domain-security.yml
@@ -35,7 +35,7 @@ tags:
 - Analytics
 - Fraud Detection
 - Anti-Cheat
-- Machine-Learning
+- Machine Learning
 - Mobile
 - User Acquisition
 - SDK

@@ -51,7 +51,7 @@ tags:
 - Analytics
 - Big Data
 - Distributed Computing
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Streaming
 ---

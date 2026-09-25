@@ -61,6 +61,6 @@ tags:
 - Authentication
 - Quantum Fiber
 - SD-WAN
-- Telecom
+- Telecommunications
 - Fortune 500
 ---

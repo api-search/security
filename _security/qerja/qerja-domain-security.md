@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Human Resources
-- Recruitment
+- Recruiting
 - Job
 - HR Technology
 - Indonesia

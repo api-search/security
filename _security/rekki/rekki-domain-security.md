@@ -2,31 +2,31 @@
 api_specs:
 - filename: rekki-catalog-api-openapi.yml
   format: yaml
-  label: REKKI catalog API
+  label: REKKI Catalog API
   slug: rekki-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-catalog-api-openapi.yml
 - filename: rekki-connect-customers-api-openapi.yml
   format: yaml
-  label: REKKI connect_customers API
+  label: REKKI Connect Customers API
   slug: rekki-connect-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-connect-customers-api-openapi.yml
 - filename: rekki-general-api-openapi.yml
   format: yaml
-  label: REKKI general API
+  label: REKKI General API
   slug: rekki-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-general-api-openapi.yml
 - filename: rekki-order-guide-api-openapi.yml
   format: yaml
-  label: REKKI order-guide API
+  label: REKKI Order Guide API
   slug: rekki-order-guide-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-order-guide-api-openapi.yml
 - filename: rekki-orders-api-openapi.yml
   format: yaml
-  label: REKKI orders API
+  label: REKKI Orders API
   slug: rekki-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-orders-api-openapi.yml

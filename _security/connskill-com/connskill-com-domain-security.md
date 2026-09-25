@@ -32,8 +32,8 @@ layout: security
 method: probed
 name: Connskill Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CONNSKILL GmbH & Co. KG, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: CONNSKILL GmbH & Co. KG
+overview: 'Domain security posture for CONNSKILL, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: CONNSKILL
 provider_slug: connskill-com
 slug: connskill-com-domain-security
 source_filename: connskill-com-domain-security.yml
@@ -49,7 +49,7 @@ tags:
 - SERP
 - Keyword Research
 - x402
-- Agent Payments
+- Agentic Payments
 - AI Agents
 - MCP
 - A2A

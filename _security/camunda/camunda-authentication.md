@@ -94,4 +94,5 @@ tags:
 - Business Process Management
 - Process Automation
 - Workflows
+- Workflow Automation
 ---

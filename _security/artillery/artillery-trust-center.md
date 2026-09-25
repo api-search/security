@@ -21,7 +21,7 @@ summary_line: trust center published
 tags:
 - Load Testing
 - Performance Testing
-- Open-Source
+- Open Source
 - Testing
 - DevOps
 - Node.js

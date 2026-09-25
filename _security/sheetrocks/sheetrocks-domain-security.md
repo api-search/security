@@ -33,7 +33,7 @@ tags:
 - Company
 - Spreadsheets
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Salesforce
 - Embedded Analytics
 - Business Applications

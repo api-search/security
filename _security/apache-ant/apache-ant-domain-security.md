@@ -40,6 +40,6 @@ tags:
 - Build Tools
 - CI/CD
 - Java
-- Open-Source
+- Open Source
 - XML
 ---

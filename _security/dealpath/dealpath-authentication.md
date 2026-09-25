@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dealpath/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Deal Management
 - Commercial Real Estate

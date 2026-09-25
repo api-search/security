@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Data Curation
 - Active Learning
 - Embeddings

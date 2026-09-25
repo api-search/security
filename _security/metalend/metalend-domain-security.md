@@ -105,6 +105,6 @@ tags:
 - Web3
 - Stablecoins
 - Payments
-- agent-native
+- Agent-Native
 - Blockchain
 ---

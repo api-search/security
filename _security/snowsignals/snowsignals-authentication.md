@@ -80,7 +80,7 @@ tags:
 - trendvane
 - DaaS
 - MCP
-- agent-native
+- Agent-Native
 - Financial Data
 - x402
 ---

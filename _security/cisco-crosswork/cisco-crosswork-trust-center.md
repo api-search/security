@@ -607,11 +607,11 @@ tags:
 - Orchestration
 - Networking
 - Assurance
-- Telecom
+- Telecommunications
 - RESTCONF
 - YANG
 - Zero Touch Provisioning
-- Workflow-Automation
+- Workflow Automation
 - Traffic Engineering
 - MCP
 - Telemetry

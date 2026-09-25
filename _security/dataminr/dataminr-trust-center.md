@@ -27,7 +27,7 @@ tags:
 - Company
 - Analytics
 - Threat Intelligence
-- Risk
+- Risk Management
 - Real-Time
 - Security
 - Artificial Intelligence

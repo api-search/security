@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  CommBank 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/authentication/commonwealth-bank-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS/none · 4 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Consumer Banking
 - Business Banking

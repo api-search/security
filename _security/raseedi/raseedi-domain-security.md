@@ -33,10 +33,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Mobile Payments
 - Egypt
 - Lending
-- Telecom
+- Telecommunications
 - Financial Inclusion
 ---

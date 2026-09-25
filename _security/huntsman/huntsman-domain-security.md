@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Huntsman Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Huntsman Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Huntsman Corporation
+overview: 'Domain security posture for Huntsman, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Huntsman
 provider_slug: huntsman
 slug: huntsman-domain-security
 source_filename: huntsman-domain-security.yml

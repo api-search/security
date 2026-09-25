@@ -4,55 +4,55 @@ api_key_in: []
 api_specs:
 - filename: windstream-holdings-agents-api-openapi.yml
   format: yaml
-  label: Windstream Holdings agents API
+  label: Windstream Holdings Agents API
   slug: windstream-holdings-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-agents-api-openapi.yml
 - filename: windstream-holdings-auto-attendants-api-openapi.yml
   format: yaml
-  label: Windstream Holdings auto-attendants API
+  label: Windstream Holdings Auto Attendants API
   slug: windstream-holdings-auto-attendants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-auto-attendants-api-openapi.yml
 - filename: windstream-holdings-calls-api-openapi.yml
   format: yaml
-  label: Windstream Holdings calls API
+  label: Windstream Holdings Calls API
   slug: windstream-holdings-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-calls-api-openapi.yml
 - filename: windstream-holdings-extensions-api-openapi.yml
   format: yaml
-  label: Windstream Holdings extensions API
+  label: Windstream Holdings Extensions API
   slug: windstream-holdings-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-extensions-api-openapi.yml
 - filename: windstream-holdings-products-api-openapi.yml
   format: yaml
-  label: Windstream Holdings products API
+  label: Windstream Holdings Products API
   slug: windstream-holdings-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-products-api-openapi.yml
 - filename: windstream-holdings-roles-api-openapi.yml
   format: yaml
-  label: Windstream Holdings roles API
+  label: Windstream Holdings Roles API
   slug: windstream-holdings-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-roles-api-openapi.yml
 - filename: windstream-holdings-system-api-openapi.yml
   format: yaml
-  label: Windstream Holdings system API
+  label: Windstream Holdings System API
   slug: windstream-holdings-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-system-api-openapi.yml
 - filename: windstream-holdings-tenants-api-openapi.yml
   format: yaml
-  label: Windstream Holdings tenants API
+  label: Windstream Holdings Tenants API
   slug: windstream-holdings-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-tenants-api-openapi.yml
 - filename: windstream-holdings-users-api-openapi.yml
   format: yaml
-  label: Windstream Holdings users API
+  label: Windstream Holdings Users API
   slug: windstream-holdings-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-users-api-openapi.yml
@@ -96,7 +96,7 @@ tags:
 - Managed Service
 - Network Communications
 - SD-WAN
-- Telecom
+- Telecommunications
 - UCaaS
 - Unified Communications
 - Fortune 500

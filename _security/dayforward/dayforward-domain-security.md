@@ -52,7 +52,7 @@ tags:
 - Insurance
 - Life Insurance
 - Insurtech
-- Financial-Services
+- Financial Services
 - Underwriting
 - Policy Administration
 - Software-as-a-Service

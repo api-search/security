@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: automat-extract-api-openapi.yml
   format: yaml
-  label: Automat extract API
+  label: Automat Extract API
   slug: automat-extract-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/openapi/automat-extract-api-openapi.yml
@@ -40,7 +40,6 @@ tags:
 - Enterprise Saas
 - Automation
 - RPA
-- Robotic Process Automation
 - Document Extraction
 - IDP
 - iPaaS

@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: onsi-members-api-openapi.yml
   format: yaml
-  label: Onsi members API
+  label: Onsi Members API
   slug: onsi-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-members-api-openapi.yml
 - filename: onsi-pay-api-openapi.yml
   format: yaml
-  label: Onsi pay API
+  label: Onsi Pay API
   slug: onsi-pay-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-pay-api-openapi.yml

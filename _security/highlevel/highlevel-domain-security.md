@@ -751,11 +751,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highlevel/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SaaS
-- Marketing
-- CRM
-- Automation
-- SaaS
+- Software-as-a-Service
 - Marketing
 - CRM
 - Automation

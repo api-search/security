@@ -355,8 +355,8 @@ tags:
 - Robotics
 - Edge AI
 - Fleet Management
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - IoT
 - Embedded
 - gRPC

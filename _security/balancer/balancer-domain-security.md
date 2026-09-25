@@ -49,5 +49,5 @@ tags:
 - Multi-Chain
 - GraphQL
 - Smart Order Router
-- Open-Source
+- Open Source
 ---

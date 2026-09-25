@@ -68,7 +68,7 @@ tags:
 - Bug Tracker
 - Debian
 - Linux
-- Open-Source
+- Open Source
 - Operating System
 - Package Management
 - Source Code

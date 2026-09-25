@@ -100,7 +100,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-test-api-openapi.yml
 - filename: obol-tvs-api-openapi.yml
   format: yaml
-  label: Obol tvs API
+  label: Obol Tvs API
   slug: obol-tvs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-tvs-api-openapi.yml

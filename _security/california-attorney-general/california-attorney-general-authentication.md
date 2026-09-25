@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live anonymous pr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/authentication/california-attorney-general-authentication.yml
 summary_line: 0 schemes
 tags:
-- State-Government
+- State Government
 - California
 - Criminal Justice
 - Open Data

@@ -35,6 +35,6 @@ tags:
 - Enterprise Software
 - AI Services
 - Consulting
-- Agentic AI
+- AI Agents
 - SAP
 ---

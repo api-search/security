@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Holding Company
 - Investment Banking
-- Financial-Services
+- Financial Services
 - Historical
 - Fortune 500
 ---

@@ -382,4 +382,5 @@ tags:
 - Payments
 - E-Commerce
 - Omnichannel
+- Canada
 ---

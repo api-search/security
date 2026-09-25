@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-ai-search-api-openapi.yml
 - filename: se-ranking-backlinks-api-openapi.yml
   format: yaml
-  label: SE Ranking backlinks API
+  label: SE Ranking Backlinks API
   slug: se-ranking-backlinks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-backlinks-api-openapi.yml

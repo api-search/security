@@ -94,7 +94,7 @@ tags:
 - Exhibitions
 - Agents
 - A2A
-- agent-native
+- Agent-Native
 - Curation
 - Provenance
 - Ledger

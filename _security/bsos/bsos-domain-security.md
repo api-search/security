@@ -37,5 +37,5 @@ tags:
 - Payments
 - Tokenization
 - RWA
-- Financial-Services
+- Financial Services
 ---

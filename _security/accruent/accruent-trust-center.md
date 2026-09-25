@@ -267,6 +267,6 @@ tags:
 - Engineering Document Management
 - Built Environment
 - Enterprise Software
-- Real-Estate
+- Real Estate
 trust_url: https://trust.accruent.com/
 ---

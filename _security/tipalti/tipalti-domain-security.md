@@ -66,4 +66,6 @@ tags:
 - Financial Automation
 - Fintech
 - B2B Payments
+- Accounting
+- Invoicing
 ---

@@ -39,5 +39,5 @@ tags:
 - Higher Education
 - Fundraising
 - Compliance
-- Financial-Services
+- Financial Services
 ---

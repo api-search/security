@@ -2,61 +2,61 @@
 api_specs:
 - filename: method-security-audit-api-openapi.yml
   format: yaml
-  label: Method Security audit API
+  label: Method Security Audit API
   slug: method-security-audit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-audit-api-openapi.yml
 - filename: method-security-auth-api-openapi.yml
   format: yaml
-  label: Method Security auth API
+  label: Method Security Auth API
   slug: method-security-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-auth-api-openapi.yml
 - filename: method-security-blueprints-api-openapi.yml
   format: yaml
-  label: Method Security blueprints API
+  label: Method Security Blueprints API
   slug: method-security-blueprints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-blueprints-api-openapi.yml
 - filename: method-security-environments-api-openapi.yml
   format: yaml
-  label: Method Security environments API
+  label: Method Security Environments API
   slug: method-security-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-environments-api-openapi.yml
 - filename: method-security-issues-api-openapi.yml
   format: yaml
-  label: Method Security issues API
+  label: Method Security Issues API
   slug: method-security-issues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-issues-api-openapi.yml
 - filename: method-security-reports-api-openapi.yml
   format: yaml
-  label: Method Security reports API
+  label: Method Security Reports API
   slug: method-security-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-reports-api-openapi.yml
 - filename: method-security-signals-api-openapi.yml
   format: yaml
-  label: Method Security signals API
+  label: Method Security Signals API
   slug: method-security-signals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-signals-api-openapi.yml
 - filename: method-security-skills-api-openapi.yml
   format: yaml
-  label: Method Security skills API
+  label: Method Security Skills API
   slug: method-security-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-skills-api-openapi.yml
 - filename: method-security-system-api-openapi.yml
   format: yaml
-  label: Method Security system API
+  label: Method Security System API
   slug: method-security-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-system-api-openapi.yml
 - filename: method-security-targets-api-openapi.yml
   format: yaml
-  label: Method Security targets API
+  label: Method Security Targets API
   slug: method-security-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/openapi/method-security-targets-api-openapi.yml

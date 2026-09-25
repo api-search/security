@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-announcedreturns-api-openapi.yml
 - filename: zalando-attribute-types-api-openapi.yml
   format: yaml
-  label: Zalando attribute-types API
+  label: Zalando Attribute Types API
   slug: zalando-attribute-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-attribute-types-api-openapi.yml
 - filename: zalando-attribute-values-api-openapi.yml
   format: yaml
-  label: Zalando attribute-values API
+  label: Zalando Attribute Values API
   slug: zalando-attribute-values-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-attribute-values-api-openapi.yml
@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-logistic-centers-api-openapi.yml
 - filename: zalando-offer-blockers-api-openapi.yml
   format: yaml
-  label: Zalando offer-blockers API
+  label: Zalando Offer Blockers API
   slug: zalando-offer-blockers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-offer-blockers-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-outlines-api-openapi.yml
 - filename: zalando-prices-api-openapi.yml
   format: yaml
-  label: Zalando prices API
+  label: Zalando Prices API
   slug: zalando-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-prices-api-openapi.yml
@@ -104,7 +104,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-shipments-api-openapi.yml
 - filename: zalando-stocks-api-openapi.yml
   format: yaml
-  label: Zalando stocks API
+  label: Zalando Stocks API
   slug: zalando-stocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-stocks-api-openapi.yml

@@ -34,7 +34,7 @@ tags:
 - Business Applications
 - PropTech
 - Property Management
-- Real-Estate
+- Real Estate
 - Condominium Management
 - Fintech
 - France

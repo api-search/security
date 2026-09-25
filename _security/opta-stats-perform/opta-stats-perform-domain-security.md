@@ -37,7 +37,7 @@ tags:
 - Live Data
 - Event Data
 - Player Tracking
-- Computer-Vision
+- Computer Vision
 - Predictive Models
 - Betting Data
 - Fantasy Data

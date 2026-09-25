@@ -111,7 +111,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Shopping Cart
-- Open-Source
+- Open Source
 - Self-Hosted
 - Product
 - Order

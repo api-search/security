@@ -36,5 +36,5 @@ tags:
 - Personalization
 - Rankings
 - Recommendations
-- Machine-Learning
+- Machine Learning
 ---

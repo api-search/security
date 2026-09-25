@@ -27,7 +27,7 @@ tags:
 - Treasury
 - Hedging
 - Fintech
-- Financial-Services
+- Financial Services
 - Payments
 trust_url: https://www.kantox.com/security
 ---

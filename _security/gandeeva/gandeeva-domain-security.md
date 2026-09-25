@@ -37,7 +37,7 @@ tags:
 - Precision Medicine
 - Cryo-EM
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Structural Biology
 - Oncology
 - Molecular Glues

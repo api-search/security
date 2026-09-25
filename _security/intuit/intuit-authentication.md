@@ -62,8 +62,8 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Accounting
 - Custom Fields
-- Financial
-- Financial-Services
+- Finance
+- Financial Services
 - Invoicing
 - Payments
 - Payroll

@@ -81,14 +81,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ai Ml
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources
 - ITSM
 - Employee Experience
-- Workflow-Automation
+- Workflow Automation
 - Conversational AI
 - MCP
-- Knowledge-Management
+- Knowledge Management
 ---

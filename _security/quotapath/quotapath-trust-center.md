@@ -2,43 +2,43 @@
 api_specs:
 - filename: quotapath-data-api-openapi.yml
   format: yaml
-  label: QuotaPath data API
+  label: QuotaPath Data API
   slug: quotapath-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-data-api-openapi.yml
 - filename: quotapath-deal-api-openapi.yml
   format: yaml
-  label: QuotaPath deal API
+  label: QuotaPath Deal API
   slug: quotapath-deal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-deal-api-openapi.yml
 - filename: quotapath-path-api-openapi.yml
   format: yaml
-  label: QuotaPath path API
+  label: QuotaPath Path API
   slug: quotapath-path-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-path-api-openapi.yml
 - filename: quotapath-payout-api-openapi.yml
   format: yaml
-  label: QuotaPath payout API
+  label: QuotaPath Payout API
   slug: quotapath-payout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-payout-api-openapi.yml
 - filename: quotapath-plan-api-openapi.yml
   format: yaml
-  label: QuotaPath plan API
+  label: QuotaPath Plan API
   slug: quotapath-plan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-plan-api-openapi.yml
 - filename: quotapath-team-api-openapi.yml
   format: yaml
-  label: QuotaPath team API
+  label: QuotaPath Team API
   slug: quotapath-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-team-api-openapi.yml
 - filename: quotapath-user-api-openapi.yml
   format: yaml
-  label: QuotaPath user API
+  label: QuotaPath User API
   slug: quotapath-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-user-api-openapi.yml

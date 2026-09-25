@@ -32,8 +32,8 @@ layout: security
 method: probed
 name: Tarx Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for TARXAN Inc, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: TARXAN Inc
+overview: 'Domain security posture for TARXAN, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: TARXAN
 provider_slug: tarx-com
 slug: tarx-com-domain-security
 source_filename: tarx-com-domain-security.yml

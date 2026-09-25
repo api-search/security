@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Microsoft-365
+- Microsoft 365
 - SaaS Management
 - Governance
 - Security

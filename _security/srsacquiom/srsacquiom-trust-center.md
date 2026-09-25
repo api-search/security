@@ -21,7 +21,7 @@ summary_line: SOC 2, SOC 3
 tags:
 - Company
 - Mergers and Acquisitions
-- Financial-Services
+- Financial Services
 - Escrow
 - Payments
 - Loan Agency

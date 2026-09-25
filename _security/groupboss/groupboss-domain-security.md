@@ -36,7 +36,7 @@ tags:
 - Marketing Automation
 - Email Marketing
 - CRM
-- Social-Media
+- Social Media
 - Community
 - Browser Extension
 - Software-as-a-Service

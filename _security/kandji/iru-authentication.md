@@ -137,5 +137,5 @@ tags:
 - Workforce Identity
 - IT Operations
 - MCP
-- agent-native
+- Agent-Native
 ---

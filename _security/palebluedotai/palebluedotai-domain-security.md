@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palebluedotai/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - API Gateway

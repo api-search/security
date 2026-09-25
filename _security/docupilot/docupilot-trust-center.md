@@ -2,79 +2,79 @@
 api_specs:
 - filename: docupilot-ai-api-openapi.yml
   format: yaml
-  label: Docupilot ai API
+  label: Docupilot AI API
   slug: docupilot-ai-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-ai-api-openapi.yml
 - filename: docupilot-append-api-openapi.yml
   format: yaml
-  label: Docupilot append API
+  label: Docupilot Append API
   slug: docupilot-append-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-append-api-openapi.yml
 - filename: docupilot-application-api-openapi.yml
   format: yaml
-  label: Docupilot application API
+  label: Docupilot Application API
   slug: docupilot-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-application-api-openapi.yml
 - filename: docupilot-auth-tokens-api-openapi.yml
   format: yaml
-  label: Docupilot auth_tokens API
+  label: Docupilot Auth Tokens API
   slug: docupilot-auth-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-auth-tokens-api-openapi.yml
 - filename: docupilot-community-api-openapi.yml
   format: yaml
-  label: Docupilot community API
+  label: Docupilot Community API
   slug: docupilot-community-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-community-api-openapi.yml
 - filename: docupilot-content-blocks-api-openapi.yml
   format: yaml
-  label: Docupilot content_blocks API
+  label: Docupilot Content Blocks API
   slug: docupilot-content-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-content-blocks-api-openapi.yml
 - filename: docupilot-convert-api-openapi.yml
   format: yaml
-  label: Docupilot convert API
+  label: Docupilot Convert API
   slug: docupilot-convert-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-convert-api-openapi.yml
 - filename: docupilot-demographic-api-openapi.yml
   format: yaml
-  label: Docupilot demographic API
+  label: Docupilot Demographic API
   slug: docupilot-demographic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-demographic-api-openapi.yml
 - filename: docupilot-domain-api-openapi.yml
   format: yaml
-  label: Docupilot domain API
+  label: Docupilot Domain API
   slug: docupilot-domain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-domain-api-openapi.yml
 - filename: docupilot-esign-folders-api-openapi.yml
   format: yaml
-  label: Docupilot esign-folders API
+  label: Docupilot Esign Folders API
   slug: docupilot-esign-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-esign-folders-api-openapi.yml
 - filename: docupilot-esign-settings-api-openapi.yml
   format: yaml
-  label: Docupilot esign-settings API
+  label: Docupilot Esign Settings API
   slug: docupilot-esign-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-esign-settings-api-openapi.yml
 - filename: docupilot-extensions-api-openapi.yml
   format: yaml
-  label: Docupilot extensions API
+  label: Docupilot Extensions API
   slug: docupilot-extensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-extensions-api-openapi.yml
 - filename: docupilot-folders-api-openapi.yml
   format: yaml
-  label: Docupilot folders API
+  label: Docupilot Folders API
   slug: docupilot-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-folders-api-openapi.yml
@@ -86,115 +86,115 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-gallery-templates-api-openapi.yml
 - filename: docupilot-general-api-openapi.yml
   format: yaml
-  label: Docupilot general API
+  label: Docupilot General API
   slug: docupilot-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-general-api-openapi.yml
 - filename: docupilot-generate-api-openapi.yml
   format: yaml
-  label: Docupilot generate API
+  label: Docupilot Generate API
   slug: docupilot-generate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-generate-api-openapi.yml
 - filename: docupilot-generate-bulk-api-openapi.yml
   format: yaml
-  label: Docupilot generate_bulk API
+  label: Docupilot Generate Bulk API
   slug: docupilot-generate-bulk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-generate-bulk-api-openapi.yml
 - filename: docupilot-history-api-openapi.yml
   format: yaml
-  label: Docupilot history API
+  label: Docupilot History API
   slug: docupilot-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-history-api-openapi.yml
 - filename: docupilot-invitation-api-openapi.yml
   format: yaml
-  label: Docupilot invitation API
+  label: Docupilot Invitation API
   slug: docupilot-invitation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-invitation-api-openapi.yml
 - filename: docupilot-invitations-api-openapi.yml
   format: yaml
-  label: Docupilot invitations API
+  label: Docupilot Invitations API
   slug: docupilot-invitations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-invitations-api-openapi.yml
 - filename: docupilot-linked-accounts-api-openapi.yml
   format: yaml
-  label: Docupilot linked_accounts API
+  label: Docupilot Linked Accounts API
   slug: docupilot-linked-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-linked-accounts-api-openapi.yml
 - filename: docupilot-merge-history-api-openapi.yml
   format: yaml
-  label: Docupilot merge_history API
+  label: Docupilot Merge History API
   slug: docupilot-merge-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-merge-history-api-openapi.yml
 - filename: docupilot-mfa-api-openapi.yml
   format: yaml
-  label: Docupilot mfa API
+  label: Docupilot Mfa API
   slug: docupilot-mfa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-mfa-api-openapi.yml
 - filename: docupilot-organization-api-openapi.yml
   format: yaml
-  label: Docupilot organization API
+  label: Docupilot Organization API
   slug: docupilot-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-organization-api-openapi.yml
 - filename: docupilot-organization-onboarding-api-openapi.yml
   format: yaml
-  label: Docupilot organization_onboarding API
+  label: Docupilot Organization Onboarding API
   slug: docupilot-organization-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-organization-onboarding-api-openapi.yml
 - filename: docupilot-pdf-api-openapi.yml
   format: yaml
-  label: Docupilot pdf API
+  label: Docupilot PDF API
   slug: docupilot-pdf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-pdf-api-openapi.yml
 - filename: docupilot-permissions-api-openapi.yml
   format: yaml
-  label: Docupilot permissions API
+  label: Docupilot Permissions API
   slug: docupilot-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-permissions-api-openapi.yml
 - filename: docupilot-personalization-api-openapi.yml
   format: yaml
-  label: Docupilot personalization API
+  label: Docupilot Personalization API
   slug: docupilot-personalization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-personalization-api-openapi.yml
 - filename: docupilot-saml-api-openapi.yml
   format: yaml
-  label: Docupilot saml API
+  label: Docupilot Saml API
   slug: docupilot-saml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-saml-api-openapi.yml
 - filename: docupilot-scim-api-openapi.yml
   format: yaml
-  label: Docupilot scim API
+  label: Docupilot SCIM API
   slug: docupilot-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-scim-api-openapi.yml
 - filename: docupilot-subscription-api-openapi.yml
   format: yaml
-  label: Docupilot subscription API
+  label: Docupilot Subscription API
   slug: docupilot-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-subscription-api-openapi.yml
 - filename: docupilot-team-api-openapi.yml
   format: yaml
-  label: Docupilot team API
+  label: Docupilot Team API
   slug: docupilot-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-team-api-openapi.yml
 - filename: docupilot-template-delivery-api-openapi.yml
   format: yaml
-  label: Docupilot template_delivery API
+  label: Docupilot Template Delivery API
   slug: docupilot-template-delivery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-template-delivery-api-openapi.yml
@@ -206,31 +206,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-template-versioning-api-openapi.yml
 - filename: docupilot-templates-api-openapi.yml
   format: yaml
-  label: Docupilot templates API
+  label: Docupilot Templates API
   slug: docupilot-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-templates-api-openapi.yml
 - filename: docupilot-user-api-openapi.yml
   format: yaml
-  label: Docupilot user API
+  label: Docupilot User API
   slug: docupilot-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-user-api-openapi.yml
 - filename: docupilot-user-satisfaction-survey-api-openapi.yml
   format: yaml
-  label: Docupilot user_satisfaction_survey API
+  label: Docupilot User Satisfaction Survey API
   slug: docupilot-user-satisfaction-survey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-user-satisfaction-survey-api-openapi.yml
 - filename: docupilot-users-api-openapi.yml
   format: yaml
-  label: Docupilot users API
+  label: Docupilot Users API
   slug: docupilot-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-users-api-openapi.yml
 - filename: docupilot-workspaces-api-openapi.yml
   format: yaml
-  label: Docupilot workspaces API
+  label: Docupilot Workspaces API
   slug: docupilot-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/openapi/docupilot-workspaces-api-openapi.yml
@@ -267,6 +267,6 @@ tags:
 - Document Automation
 - Template Engine
 - E-Signature
-- Workflow-Automation
+- Workflow Automation
 trust_url: https://trust.docupilot.com/
 ---

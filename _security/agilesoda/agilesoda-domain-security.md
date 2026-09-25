@@ -35,7 +35,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Machine-Learning
+- Machine Learning
 - Enterprise Software
 - Document Processing
 - Optical Character Recognition

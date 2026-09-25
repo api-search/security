@@ -37,7 +37,7 @@ tags:
 - Stateful Services
 - Streaming APIs
 - Data Connectors
-- Open-Source
+- Open Source
 - WebSocket
 - SwimOS
 ---

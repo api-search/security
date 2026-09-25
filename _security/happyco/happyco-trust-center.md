@@ -20,7 +20,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property Management
 - Inspection
 - Maintenance

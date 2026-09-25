@@ -34,7 +34,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic
 - Automation
 - Stealth
 ---

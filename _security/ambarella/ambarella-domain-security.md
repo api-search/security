@@ -34,7 +34,7 @@ tags:
 - Company
 - Semiconductors
 - Edge AI
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Automotive
 - Robotics

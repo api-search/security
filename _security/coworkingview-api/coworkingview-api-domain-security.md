@@ -116,11 +116,11 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Co-Working
 - Flexible Workspace
-- Real-Estate
+- Real Estate
 - Location Services
 - Search
 - Comparison
 - MCP
-- agent-native
+- Agent-Native
 - Business
 ---

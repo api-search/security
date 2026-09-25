@@ -2,103 +2,103 @@
 api_specs:
 - filename: schematic-accounts-api-openapi.yml
   format: yaml
-  label: Schematic accounts API
+  label: Schematic Accounts API
   slug: schematic-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-accounts-api-openapi.yml
 - filename: schematic-billing-api-openapi.yml
   format: yaml
-  label: Schematic billing API
+  label: Schematic Billing API
   slug: schematic-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-billing-api-openapi.yml
 - filename: schematic-checkout-api-openapi.yml
   format: yaml
-  label: Schematic checkout API
+  label: Schematic Checkout API
   slug: schematic-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-checkout-api-openapi.yml
 - filename: schematic-companies-api-openapi.yml
   format: yaml
-  label: Schematic companies API
+  label: Schematic Companies API
   slug: schematic-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-companies-api-openapi.yml
 - filename: schematic-components-api-openapi.yml
   format: yaml
-  label: Schematic components API
+  label: Schematic Components API
   slug: schematic-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-components-api-openapi.yml
 - filename: schematic-componentspublic-api-openapi.yml
   format: yaml
-  label: Schematic componentspublic API
+  label: Schematic Componentspublic API
   slug: schematic-componentspublic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-componentspublic-api-openapi.yml
 - filename: schematic-credits-api-openapi.yml
   format: yaml
-  label: Schematic credits API
+  label: Schematic Credits API
   slug: schematic-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-credits-api-openapi.yml
 - filename: schematic-entitlements-api-openapi.yml
   format: yaml
-  label: Schematic entitlements API
+  label: Schematic Entitlements API
   slug: schematic-entitlements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-entitlements-api-openapi.yml
 - filename: schematic-events-api-openapi.yml
   format: yaml
-  label: Schematic events API
+  label: Schematic Events API
   slug: schematic-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-events-api-openapi.yml
 - filename: schematic-features-api-openapi.yml
   format: yaml
-  label: Schematic features API
+  label: Schematic Features API
   slug: schematic-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-features-api-openapi.yml
 - filename: schematic-insights-api-openapi.yml
   format: yaml
-  label: Schematic insights API
+  label: Schematic Insights API
   slug: schematic-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-insights-api-openapi.yml
 - filename: schematic-planbundle-api-openapi.yml
   format: yaml
-  label: Schematic planbundle API
+  label: Schematic Planbundle API
   slug: schematic-planbundle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-planbundle-api-openapi.yml
 - filename: schematic-plangroups-api-openapi.yml
   format: yaml
-  label: Schematic plangroups API
+  label: Schematic Plangroups API
   slug: schematic-plangroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-plangroups-api-openapi.yml
 - filename: schematic-planmigrations-api-openapi.yml
   format: yaml
-  label: Schematic planmigrations API
+  label: Schematic Planmigrations API
   slug: schematic-planmigrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-planmigrations-api-openapi.yml
 - filename: schematic-plans-api-openapi.yml
   format: yaml
-  label: Schematic plans API
+  label: Schematic Plans API
   slug: schematic-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-plans-api-openapi.yml
 - filename: schematic-scheduledcheckout-api-openapi.yml
   format: yaml
-  label: Schematic scheduledcheckout API
+  label: Schematic Scheduledcheckout API
   slug: schematic-scheduledcheckout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-scheduledcheckout-api-openapi.yml
 - filename: schematic-webhooks-api-openapi.yml
   format: yaml
-  label: Schematic webhooks API
+  label: Schematic Webhooks API
   slug: schematic-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-webhooks-api-openapi.yml

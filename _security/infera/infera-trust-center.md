@@ -22,7 +22,7 @@ summary_line: SOC 2 Type II, HIPAA
 tags:
 - Company
 - Laboratory Automation
-- Biotech
+- Biotechnology
 - Life Sciences
 - Artificial Intelligence
 - Protocol

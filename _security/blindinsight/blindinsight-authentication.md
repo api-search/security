@@ -5,115 +5,115 @@ api_key_in:
 api_specs:
 - filename: blindinsight-accounts-api-openapi.yml
   format: yaml
-  label: BlindInsight accounts API
+  label: BlindInsight Accounts API
   slug: blindinsight-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-accounts-api-openapi.yml
 - filename: blindinsight-blindllm-api-openapi.yml
   format: yaml
-  label: BlindInsight blindllm API
+  label: BlindInsight Blindllm API
   slug: blindinsight-blindllm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-blindllm-api-openapi.yml
 - filename: blindinsight-blindllm-queries-api-openapi.yml
   format: yaml
-  label: BlindInsight blindllm-queries API
+  label: BlindInsight Blindllm Queries API
   slug: blindinsight-blindllm-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-blindllm-queries-api-openapi.yml
 - filename: blindinsight-csrf-api-openapi.yml
   format: yaml
-  label: BlindInsight csrf API
+  label: BlindInsight Csrf API
   slug: blindinsight-csrf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-csrf-api-openapi.yml
 - filename: blindinsight-datasets-api-openapi.yml
   format: yaml
-  label: BlindInsight datasets API
+  label: BlindInsight Datasets API
   slug: blindinsight-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-datasets-api-openapi.yml
 - filename: blindinsight-delete-jobs-api-openapi.yml
   format: yaml
-  label: BlindInsight delete-jobs API
+  label: BlindInsight Delete Jobs API
   slug: blindinsight-delete-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-delete-jobs-api-openapi.yml
 - filename: blindinsight-files-api-openapi.yml
   format: yaml
-  label: BlindInsight files API
+  label: BlindInsight Files API
   slug: blindinsight-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-files-api-openapi.yml
 - filename: blindinsight-grants-api-openapi.yml
   format: yaml
-  label: BlindInsight grants API
+  label: BlindInsight Grants API
   slug: blindinsight-grants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-grants-api-openapi.yml
 - filename: blindinsight-identities-api-openapi.yml
   format: yaml
-  label: BlindInsight identities API
+  label: BlindInsight Identities API
   slug: blindinsight-identities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-identities-api-openapi.yml
 - filename: blindinsight-jobs-api-openapi.yml
   format: yaml
-  label: BlindInsight jobs API
+  label: BlindInsight Jobs API
   slug: blindinsight-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-jobs-api-openapi.yml
 - filename: blindinsight-materials-api-openapi.yml
   format: yaml
-  label: BlindInsight materials API
+  label: BlindInsight Materials API
   slug: blindinsight-materials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-materials-api-openapi.yml
 - filename: blindinsight-organizations-api-openapi.yml
   format: yaml
-  label: BlindInsight organizations API
+  label: BlindInsight Organizations API
   slug: blindinsight-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-organizations-api-openapi.yml
 - filename: blindinsight-records-api-openapi.yml
   format: yaml
-  label: BlindInsight records API
+  label: BlindInsight Records API
   slug: blindinsight-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-records-api-openapi.yml
 - filename: blindinsight-requests-api-openapi.yml
   format: yaml
-  label: BlindInsight requests API
+  label: BlindInsight Requests API
   slug: blindinsight-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-requests-api-openapi.yml
 - filename: blindinsight-schemas-api-openapi.yml
   format: yaml
-  label: BlindInsight schemas API
+  label: BlindInsight Schemas API
   slug: blindinsight-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-schemas-api-openapi.yml
 - filename: blindinsight-status-api-openapi.yml
   format: yaml
-  label: BlindInsight status API
+  label: BlindInsight Status API
   slug: blindinsight-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-status-api-openapi.yml
 - filename: blindinsight-token-api-openapi.yml
   format: yaml
-  label: BlindInsight token API
+  label: BlindInsight Token API
   slug: blindinsight-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-token-api-openapi.yml
 - filename: blindinsight-users-api-openapi.yml
   format: yaml
-  label: BlindInsight users API
+  label: BlindInsight Users API
   slug: blindinsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-users-api-openapi.yml
 - filename: blindinsight-ws-api-openapi.yml
   format: yaml
-  label: BlindInsight ws API
+  label: BlindInsight Ws API
   slug: blindinsight-ws-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-ws-api-openapi.yml
@@ -165,7 +165,8 @@ tags:
 - Privacy
 - Confidential Computing
 - Data
-- Machine-Learning
+- Machine Learning
 - Compliance
 - Cryptography
+- Real-Time
 ---

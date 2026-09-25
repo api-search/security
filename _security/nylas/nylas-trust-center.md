@@ -277,5 +277,6 @@ tags:
 - Email
 - Messaging
 - Scheduling
+- A2A
 trust_url: https://trust.nylas.com/public
 ---

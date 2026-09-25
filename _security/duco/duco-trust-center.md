@@ -20,13 +20,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duco/refs/head
 summary_line: SOC 2 Type 2, ISO 27001
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Data Automation
 - Reconciliation
 - Data Quality
 - Capital Markets
 - Regulatory Reporting
-- Agentic AI
+- AI Agents
 - Fintech
 trust_url: https://du.co/about/trust-and-security/
 ---

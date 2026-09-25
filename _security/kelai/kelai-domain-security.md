@@ -35,7 +35,7 @@ tags:
 - Quantitative Finance
 - Hedge Funds
 - Trading
-- Machine-Learning
+- Machine Learning
 - Fintech
 - Investment Research
 - AI Agents

@@ -83,7 +83,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Enterprise Search
-- Knowledge-Management
-- Machine-Learning
+- Knowledge Management
+- Machine Learning
 - Natural-Language
+- Search
 ---

@@ -30,7 +30,7 @@ tags:
 - Microsoft Teams
 - Sales Automation
 - Revenue Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
 trust_url: https://www.gorattle.com/security
 ---

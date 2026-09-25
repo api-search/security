@@ -2,457 +2,457 @@
 api_specs:
 - filename: charthop-access-api-openapi.yml
   format: yaml
-  label: Charthop access API
+  label: Charthop Access API
   slug: charthop-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-access-api-openapi.yml
 - filename: charthop-action-api-openapi.yml
   format: yaml
-  label: Charthop action API
+  label: Charthop Action API
   slug: charthop-action-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-action-api-openapi.yml
 - filename: charthop-ai-api-openapi.yml
   format: yaml
-  label: Charthop ai API
+  label: Charthop AI API
   slug: charthop-ai-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-ai-api-openapi.yml
 - filename: charthop-ai-credit-limit-api-openapi.yml
   format: yaml
-  label: Charthop ai-credit-limit API
+  label: Charthop AI Credit Limit API
   slug: charthop-ai-credit-limit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-ai-credit-limit-api-openapi.yml
 - filename: charthop-ai-hint-api-openapi.yml
   format: yaml
-  label: Charthop ai-hint API
+  label: Charthop AI Hint API
   slug: charthop-ai-hint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-ai-hint-api-openapi.yml
 - filename: charthop-ai-prompt-api-openapi.yml
   format: yaml
-  label: Charthop ai-prompt API
+  label: Charthop AI Prompt API
   slug: charthop-ai-prompt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-ai-prompt-api-openapi.yml
 - filename: charthop-app-api-openapi.yml
   format: yaml
-  label: Charthop app API
+  label: Charthop App API
   slug: charthop-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-app-api-openapi.yml
 - filename: charthop-approval-api-openapi.yml
   format: yaml
-  label: Charthop approval API
+  label: Charthop Approval API
   slug: charthop-approval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-approval-api-openapi.yml
 - filename: charthop-approval-delegate-api-openapi.yml
   format: yaml
-  label: Charthop approval-delegate API
+  label: Charthop Approval Delegate API
   slug: charthop-approval-delegate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-approval-delegate-api-openapi.yml
 - filename: charthop-approval-request-api-openapi.yml
   format: yaml
-  label: Charthop approval-request API
+  label: Charthop Approval Request API
   slug: charthop-approval-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-approval-request-api-openapi.yml
 - filename: charthop-assessment-api-openapi.yml
   format: yaml
-  label: Charthop assessment API
+  label: Charthop Assessment API
   slug: charthop-assessment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-assessment-api-openapi.yml
 - filename: charthop-band-api-openapi.yml
   format: yaml
-  label: Charthop band API
+  label: Charthop Band API
   slug: charthop-band-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-band-api-openapi.yml
 - filename: charthop-billing-api-openapi.yml
   format: yaml
-  label: Charthop billing API
+  label: Charthop Billing API
   slug: charthop-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-billing-api-openapi.yml
 - filename: charthop-budget-api-openapi.yml
   format: yaml
-  label: Charthop budget API
+  label: Charthop Budget API
   slug: charthop-budget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-budget-api-openapi.yml
 - filename: charthop-budget-pool-api-openapi.yml
   format: yaml
-  label: Charthop budget-pool API
+  label: Charthop Budget Pool API
   slug: charthop-budget-pool-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-budget-pool-api-openapi.yml
 - filename: charthop-calendar-api-openapi.yml
   format: yaml
-  label: Charthop calendar API
+  label: Charthop Calendar API
   slug: charthop-calendar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-calendar-api-openapi.yml
 - filename: charthop-category-api-openapi.yml
   format: yaml
-  label: Charthop category API
+  label: Charthop Category API
   slug: charthop-category-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-category-api-openapi.yml
 - filename: charthop-category-sort-api-openapi.yml
   format: yaml
-  label: Charthop category-sort API
+  label: Charthop Category Sort API
   slug: charthop-category-sort-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-category-sort-api-openapi.yml
 - filename: charthop-change-api-openapi.yml
   format: yaml
-  label: Charthop change API
+  label: Charthop Change API
   slug: charthop-change-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-change-api-openapi.yml
 - filename: charthop-comment-api-openapi.yml
   format: yaml
-  label: Charthop comment API
+  label: Charthop Comment API
   slug: charthop-comment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-comment-api-openapi.yml
 - filename: charthop-comp-review-api-openapi.yml
   format: yaml
-  label: Charthop comp-review API
+  label: Charthop Comp Review API
   slug: charthop-comp-review-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-comp-review-api-openapi.yml
 - filename: charthop-content-api-openapi.yml
   format: yaml
-  label: Charthop content API
+  label: Charthop Content API
   slug: charthop-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-content-api-openapi.yml
 - filename: charthop-customer-api-openapi.yml
   format: yaml
-  label: Charthop customer API
+  label: Charthop Customer API
   slug: charthop-customer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-customer-api-openapi.yml
 - filename: charthop-data-view-api-openapi.yml
   format: yaml
-  label: Charthop data-view API
+  label: Charthop Data View API
   slug: charthop-data-view-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-data-view-api-openapi.yml
 - filename: charthop-email-template-api-openapi.yml
   format: yaml
-  label: Charthop email-template API
+  label: Charthop Email Template API
   slug: charthop-email-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-email-template-api-openapi.yml
 - filename: charthop-event-api-openapi.yml
   format: yaml
-  label: Charthop event API
+  label: Charthop Event API
   slug: charthop-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-event-api-openapi.yml
 - filename: charthop-exchange-rate-api-openapi.yml
   format: yaml
-  label: Charthop exchange-rate API
+  label: Charthop Exchange Rate API
   slug: charthop-exchange-rate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-exchange-rate-api-openapi.yml
 - filename: charthop-export-api-openapi.yml
   format: yaml
-  label: Charthop export API
+  label: Charthop Export API
   slug: charthop-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-export-api-openapi.yml
 - filename: charthop-expression-api-openapi.yml
   format: yaml
-  label: Charthop expression API
+  label: Charthop Expression API
   slug: charthop-expression-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-expression-api-openapi.yml
 - filename: charthop-field-api-openapi.yml
   format: yaml
-  label: Charthop field API
+  label: Charthop Field API
   slug: charthop-field-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-field-api-openapi.yml
 - filename: charthop-file-api-openapi.yml
   format: yaml
-  label: Charthop file API
+  label: Charthop File API
   slug: charthop-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-file-api-openapi.yml
 - filename: charthop-form-api-openapi.yml
   format: yaml
-  label: Charthop form API
+  label: Charthop Form API
   slug: charthop-form-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-form-api-openapi.yml
 - filename: charthop-form-response-api-openapi.yml
   format: yaml
-  label: Charthop form-response API
+  label: Charthop Form Response API
   slug: charthop-form-response-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-form-response-api-openapi.yml
 - filename: charthop-goal-api-openapi.yml
   format: yaml
-  label: Charthop goal API
+  label: Charthop Goal API
   slug: charthop-goal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-goal-api-openapi.yml
 - filename: charthop-goal-type-api-openapi.yml
   format: yaml
-  label: Charthop goal-type API
+  label: Charthop Goal Type API
   slug: charthop-goal-type-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-goal-type-api-openapi.yml
 - filename: charthop-goalprogress-api-openapi.yml
   format: yaml
-  label: Charthop goalProgress API
+  label: Charthop Goal Progress API
   slug: charthop-goalprogress-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-goalprogress-api-openapi.yml
 - filename: charthop-goaltarget-api-openapi.yml
   format: yaml
-  label: Charthop goalTarget API
+  label: Charthop Goal Target API
   slug: charthop-goaltarget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-goaltarget-api-openapi.yml
 - filename: charthop-group-api-openapi.yml
   format: yaml
-  label: Charthop group API
+  label: Charthop Group API
   slug: charthop-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-group-api-openapi.yml
 - filename: charthop-group-type-api-openapi.yml
   format: yaml
-  label: Charthop group-type API
+  label: Charthop Group Type API
   slug: charthop-group-type-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-group-type-api-openapi.yml
 - filename: charthop-guideline-api-openapi.yml
   format: yaml
-  label: Charthop guideline API
+  label: Charthop Guideline API
   slug: charthop-guideline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-guideline-api-openapi.yml
 - filename: charthop-import-api-openapi.yml
   format: yaml
-  label: Charthop import API
+  label: Charthop Import API
   slug: charthop-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-import-api-openapi.yml
 - filename: charthop-job-api-openapi.yml
   format: yaml
-  label: Charthop job API
+  label: Charthop Job API
   slug: charthop-job-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-job-api-openapi.yml
 - filename: charthop-job-code-api-openapi.yml
   format: yaml
-  label: Charthop job-code API
+  label: Charthop Job Code API
   slug: charthop-job-code-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-job-code-api-openapi.yml
 - filename: charthop-job-level-api-openapi.yml
   format: yaml
-  label: Charthop job-level API
+  label: Charthop Job Level API
   slug: charthop-job-level-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-job-level-api-openapi.yml
 - filename: charthop-legaldoc-api-openapi.yml
   format: yaml
-  label: Charthop legalDoc API
+  label: Charthop Legal Doc API
   slug: charthop-legaldoc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-legaldoc-api-openapi.yml
 - filename: charthop-mcp-api-openapi.yml
   format: yaml
-  label: Charthop mcp API
+  label: Charthop MCP API
   slug: charthop-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-mcp-api-openapi.yml
 - filename: charthop-media-api-openapi.yml
   format: yaml
-  label: Charthop media API
+  label: Charthop Media API
   slug: charthop-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-media-api-openapi.yml
 - filename: charthop-message-api-openapi.yml
   format: yaml
-  label: Charthop message API
+  label: Charthop Message API
   slug: charthop-message-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-message-api-openapi.yml
 - filename: charthop-metric-api-openapi.yml
   format: yaml
-  label: Charthop metric API
+  label: Charthop Metric API
   slug: charthop-metric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-metric-api-openapi.yml
 - filename: charthop-multiplier-api-openapi.yml
   format: yaml
-  label: Charthop multiplier API
+  label: Charthop Multiplier API
   slug: charthop-multiplier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-multiplier-api-openapi.yml
 - filename: charthop-notification-api-openapi.yml
   format: yaml
-  label: Charthop notification API
+  label: Charthop Notification API
   slug: charthop-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-notification-api-openapi.yml
 - filename: charthop-org-api-openapi.yml
   format: yaml
-  label: Charthop org API
+  label: Charthop Org API
   slug: charthop-org-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-org-api-openapi.yml
 - filename: charthop-org-config-api-openapi.yml
   format: yaml
-  label: Charthop org-config API
+  label: Charthop Org Config API
   slug: charthop-org-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-org-config-api-openapi.yml
 - filename: charthop-person-api-openapi.yml
   format: yaml
-  label: Charthop person API
+  label: Charthop Person API
   slug: charthop-person-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-person-api-openapi.yml
 - filename: charthop-policy-api-openapi.yml
   format: yaml
-  label: Charthop policy API
+  label: Charthop Policy API
   slug: charthop-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-policy-api-openapi.yml
 - filename: charthop-preload-api-openapi.yml
   format: yaml
-  label: Charthop preload API
+  label: Charthop Preload API
   slug: charthop-preload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-preload-api-openapi.yml
 - filename: charthop-process-api-openapi.yml
   format: yaml
-  label: Charthop process API
+  label: Charthop Process API
   slug: charthop-process-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-process-api-openapi.yml
 - filename: charthop-product-api-openapi.yml
   format: yaml
-  label: Charthop product API
+  label: Charthop Product API
   slug: charthop-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-product-api-openapi.yml
 - filename: charthop-profile-tab-api-openapi.yml
   format: yaml
-  label: Charthop profile-tab API
+  label: Charthop Profile Tab API
   slug: charthop-profile-tab-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-profile-tab-api-openapi.yml
 - filename: charthop-query-api-openapi.yml
   format: yaml
-  label: Charthop query API
+  label: Charthop Query API
   slug: charthop-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-query-api-openapi.yml
 - filename: charthop-question-api-openapi.yml
   format: yaml
-  label: Charthop question API
+  label: Charthop Question API
   slug: charthop-question-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-question-api-openapi.yml
 - filename: charthop-report-api-openapi.yml
   format: yaml
-  label: Charthop report API
+  label: Charthop Report API
   slug: charthop-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-report-api-openapi.yml
 - filename: charthop-reportchart-api-openapi.yml
   format: yaml
-  label: Charthop reportChart API
+  label: Charthop Report Chart API
   slug: charthop-reportchart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-reportchart-api-openapi.yml
 - filename: charthop-role-api-openapi.yml
   format: yaml
-  label: Charthop role API
+  label: Charthop Role API
   slug: charthop-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-role-api-openapi.yml
 - filename: charthop-saml-api-openapi.yml
   format: yaml
-  label: Charthop saml API
+  label: Charthop Saml API
   slug: charthop-saml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-saml-api-openapi.yml
 - filename: charthop-scenario-api-openapi.yml
   format: yaml
-  label: Charthop scenario API
+  label: Charthop Scenario API
   slug: charthop-scenario-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-scenario-api-openapi.yml
 - filename: charthop-search-api-openapi.yml
   format: yaml
-  label: Charthop search API
+  label: Charthop Search API
   slug: charthop-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-search-api-openapi.yml
 - filename: charthop-signature-request-api-openapi.yml
   format: yaml
-  label: Charthop signature-request API
+  label: Charthop Signature Request API
   slug: charthop-signature-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-signature-request-api-openapi.yml
 - filename: charthop-status-api-openapi.yml
   format: yaml
-  label: Charthop status API
+  label: Charthop Status API
   slug: charthop-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-status-api-openapi.yml
 - filename: charthop-stock-api-openapi.yml
   format: yaml
-  label: Charthop stock API
+  label: Charthop Stock API
   slug: charthop-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-stock-api-openapi.yml
 - filename: charthop-stockgrant-api-openapi.yml
   format: yaml
-  label: Charthop stockgrant API
+  label: Charthop Stockgrant API
   slug: charthop-stockgrant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-stockgrant-api-openapi.yml
 - filename: charthop-stripe-api-openapi.yml
   format: yaml
-  label: Charthop stripe API
+  label: Charthop Stripe API
   slug: charthop-stripe-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-stripe-api-openapi.yml
 - filename: charthop-table-api-openapi.yml
   format: yaml
-  label: Charthop table API
+  label: Charthop Table API
   slug: charthop-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-table-api-openapi.yml
 - filename: charthop-task-api-openapi.yml
   format: yaml
-  label: Charthop task API
+  label: Charthop Task API
   slug: charthop-task-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-task-api-openapi.yml
 - filename: charthop-task-config-api-openapi.yml
   format: yaml
-  label: Charthop task-config API
+  label: Charthop Task Config API
   slug: charthop-task-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-task-config-api-openapi.yml
 - filename: charthop-template-api-openapi.yml
   format: yaml
-  label: Charthop template API
+  label: Charthop Template API
   slug: charthop-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-template-api-openapi.yml
@@ -464,43 +464,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-time-off-ledger-api-openapi.yml
 - filename: charthop-timeoffadjustment-api-openapi.yml
   format: yaml
-  label: Charthop timeoffAdjustment API
+  label: Charthop Timeoff Adjustment API
   slug: charthop-timeoffadjustment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-timeoffadjustment-api-openapi.yml
 - filename: charthop-timeoffpolicy-api-openapi.yml
   format: yaml
-  label: Charthop timeOffPolicy API
+  label: Charthop Time Off Policy API
   slug: charthop-timeoffpolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-timeoffpolicy-api-openapi.yml
 - filename: charthop-transcript-api-openapi.yml
   format: yaml
-  label: Charthop transcript API
+  label: Charthop Transcript API
   slug: charthop-transcript-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-transcript-api-openapi.yml
 - filename: charthop-usage-api-openapi.yml
   format: yaml
-  label: Charthop usage API
+  label: Charthop Usage API
   slug: charthop-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-usage-api-openapi.yml
 - filename: charthop-user-api-openapi.yml
   format: yaml
-  label: Charthop user API
+  label: Charthop User API
   slug: charthop-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-user-api-openapi.yml
 - filename: charthop-webauthn-api-openapi.yml
   format: yaml
-  label: Charthop webauthn API
+  label: Charthop Webauthn API
   slug: charthop-webauthn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-webauthn-api-openapi.yml
 - filename: charthop-well-known-api-openapi.yml
   format: yaml
-  label: Charthop well-known API
+  label: Charthop Well Known API
   slug: charthop-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-well-known-api-openapi.yml

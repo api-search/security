@@ -40,5 +40,5 @@ tags:
 - Data Quality
 - CLI
 - MCP
-- Open-Source
+- Open Source
 ---

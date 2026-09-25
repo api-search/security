@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\ndocs: https://kb.dxfeed
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/authentication/dxfeed-authentication.yml
 summary_line: http-basic (login/password credentials)/dxLink AUTH token (protocol message) · 3 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Historical Data

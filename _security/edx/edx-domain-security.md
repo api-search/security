@@ -54,6 +54,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EdTech
 - Online Learning
-- Open-Source
+- Open Source
 - MOOC
 ---

@@ -43,7 +43,7 @@ tags:
 - Brokerage
 - ETFs
 - Finance
-- Financial-Services
+- Financial Services
 - Fixed Income
 - Index Investing
 - Institutional Investment

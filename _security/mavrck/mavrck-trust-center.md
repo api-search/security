@@ -1108,7 +1108,7 @@ tags:
 - Creator Economy
 - Marketing
 - Advertising
-- Social-Media
+- Social Media
 - Creators
 - Campaigns
 - Campaign Performance

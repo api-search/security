@@ -32,4 +32,5 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Sports And Fitness
 - Public APIs
+- Sports
 ---

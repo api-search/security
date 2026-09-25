@@ -201,7 +201,7 @@ tags:
 - AI Gateway
 - DSPy
 - LangChain
-- Open-Source
+- Open Source
 - MCP
 - FinOps
 trust_url: https://langwatch.ai/trust

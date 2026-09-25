@@ -42,7 +42,7 @@ tags:
 - Insurance Distribution
 - Producer Management
 - Incentive Compensation
-- Agentic AI
+- AI Agents
 - MCP
 - API-First
 ---

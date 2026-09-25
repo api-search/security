@@ -36,5 +36,6 @@ tags:
 - Production Monitoring
 - Industrial IoT
 - Smart Manufacturing
+- Geospatial
 trust_url: https://geocloud.hexagon.com/security-compliance/
 ---

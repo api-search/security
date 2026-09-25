@@ -2,19 +2,19 @@
 api_specs:
 - filename: hipay-balance-api-openapi.yml
   format: yaml
-  label: HiPay balance API
+  label: HiPay Balance API
   slug: hipay-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-balance-api-openapi.yml
 - filename: hipay-bank-info-api-openapi.yml
   format: yaml
-  label: HiPay bank-info API
+  label: HiPay Bank Info API
   slug: hipay-bank-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-bank-info-api-openapi.yml
 - filename: hipay-captcha-generation-api-openapi.yml
   format: yaml
-  label: HiPay captcha-generation API
+  label: HiPay Captcha Generation API
   slug: hipay-captcha-generation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-captcha-generation-api-openapi.yml
@@ -26,31 +26,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-connector-api-openapi.yml
 - filename: hipay-constants-api-openapi.yml
   format: yaml
-  label: HiPay constants API
+  label: HiPay Constants API
   slug: hipay-constants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-constants-api-openapi.yml
 - filename: hipay-identification-api-openapi.yml
   format: yaml
-  label: HiPay identification API
+  label: HiPay Identification API
   slug: hipay-identification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-identification-api-openapi.yml
 - filename: hipay-invoice-api-openapi.yml
   format: yaml
-  label: HiPay invoice API
+  label: HiPay Invoice API
   slug: hipay-invoice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-invoice-api-openapi.yml
 - filename: hipay-maintenance-api-openapi.yml
   format: yaml
-  label: HiPay maintenance API
+  label: HiPay Maintenance API
   slug: hipay-maintenance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-maintenance-api-openapi.yml
 - filename: hipay-merchant-group-api-openapi.yml
   format: yaml
-  label: HiPay merchant-group API
+  label: HiPay Merchant Group API
   slug: hipay-merchant-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-merchant-group-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-order-api-openapi.yml
 - filename: hipay-payments-api-openapi.yml
   format: yaml
-  label: HiPay payments API
+  label: HiPay Payments API
   slug: hipay-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-payments-api-openapi.yml
@@ -80,13 +80,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-sessions-api-openapi.yml
 - filename: hipay-settlement-api-openapi.yml
   format: yaml
-  label: HiPay settlement API
+  label: HiPay Settlement API
   slug: hipay-settlement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-settlement-api-openapi.yml
 - filename: hipay-tokenization-api-openapi.yml
   format: yaml
-  label: HiPay tokenization API
+  label: HiPay Tokenization API
   slug: hipay-tokenization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-tokenization-api-openapi.yml
@@ -98,25 +98,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-transaction-api-openapi.yml
 - filename: hipay-transfer-api-openapi.yml
   format: yaml
-  label: HiPay transfer API
+  label: HiPay Transfer API
   slug: hipay-transfer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-transfer-api-openapi.yml
 - filename: hipay-ubo-api-openapi.yml
   format: yaml
-  label: HiPay ubo API
+  label: HiPay Ubo API
   slug: hipay-ubo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-ubo-api-openapi.yml
 - filename: hipay-user-account-api-openapi.yml
   format: yaml
-  label: HiPay user-account API
+  label: HiPay User Account API
   slug: hipay-user-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-user-account-api-openapi.yml
 - filename: hipay-withdrawal-api-openapi.yml
   format: yaml
-  label: HiPay withdrawal API
+  label: HiPay Withdrawal API
   slug: hipay-withdrawal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-withdrawal-api-openapi.yml

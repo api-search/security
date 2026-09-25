@@ -38,8 +38,8 @@ layout: security
 method: probed
 name: Aes Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for AES Corporation, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: AES Corporation
+overview: 'Domain security posture for AES, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: AES
 provider_slug: aes
 slug: aes-domain-security
 source_filename: aes-domain-security.yml

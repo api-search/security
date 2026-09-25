@@ -103,5 +103,6 @@ tags:
 - Patient Data
 - HITRUST
 - HIPAA
+- A2A
 trust_url: https://xcures.com/trust/
 ---

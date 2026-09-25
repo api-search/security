@@ -1,26 +1,20 @@
 ---
 api_specs:
+- filename: paraswap-prices-api-openapi.yml
+  format: yaml
+  label: ParaSwap Prices API
+  slug: paraswap-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-prices-api-openapi.yml
 - filename: paraswap-tokens-api-openapi.yml
   format: yaml
   label: ParaSwap Tokens API
   slug: paraswap-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-tokens-api-openapi.yml
-- filename: paraswap-prices-api-openapi.yml
-  format: yaml
-  label: ParaSwap prices API
-  slug: paraswap-prices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-prices-api-openapi.yml
-- filename: paraswap-tokens-api-openapi.yml
-  format: yaml
-  label: ParaSwap tokens API
-  slug: paraswap-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-tokens-api-openapi.yml
 - filename: paraswap-transactions-api-openapi.yml
   format: yaml
-  label: ParaSwap transactions API
+  label: ParaSwap Transactions API
   slug: paraswap-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-transactions-api-openapi.yml

@@ -81,7 +81,6 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/_origin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/authentication/cloudfront-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Alias
 - CDN
 - Caching
 - Content Delivery

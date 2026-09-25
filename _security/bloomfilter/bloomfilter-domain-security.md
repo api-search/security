@@ -39,6 +39,6 @@ tags:
 - Process Mining
 - Observability
 - Compliance
-- Workflow-Automation
+- Workflow Automation
 - DevOps
 ---

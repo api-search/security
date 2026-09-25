@@ -4,67 +4,67 @@ api_key_in: []
 api_specs:
 - filename: livepeer-asset-api-openapi.yml
   format: yaml
-  label: Livepeer asset API
+  label: Livepeer Asset API
   slug: livepeer-asset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-asset-api-openapi.yml
 - filename: livepeer-generate-api-openapi.yml
   format: yaml
-  label: Livepeer generate API
+  label: Livepeer Generate API
   slug: livepeer-generate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-generate-api-openapi.yml
 - filename: livepeer-metrics-api-openapi.yml
   format: yaml
-  label: Livepeer metrics API
+  label: Livepeer Metrics API
   slug: livepeer-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-metrics-api-openapi.yml
 - filename: livepeer-multistream-api-openapi.yml
   format: yaml
-  label: Livepeer multistream API
+  label: Livepeer Multistream API
   slug: livepeer-multistream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-multistream-api-openapi.yml
 - filename: livepeer-playback-api-openapi.yml
   format: yaml
-  label: Livepeer playback API
+  label: Livepeer Playback API
   slug: livepeer-playback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-playback-api-openapi.yml
 - filename: livepeer-room-api-openapi.yml
   format: yaml
-  label: Livepeer room API
+  label: Livepeer Room API
   slug: livepeer-room-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-room-api-openapi.yml
 - filename: livepeer-session-api-openapi.yml
   format: yaml
-  label: Livepeer session API
+  label: Livepeer Session API
   slug: livepeer-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-session-api-openapi.yml
 - filename: livepeer-stream-api-openapi.yml
   format: yaml
-  label: Livepeer stream API
+  label: Livepeer Stream API
   slug: livepeer-stream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-stream-api-openapi.yml
 - filename: livepeer-task-api-openapi.yml
   format: yaml
-  label: Livepeer task API
+  label: Livepeer Task API
   slug: livepeer-task-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-task-api-openapi.yml
 - filename: livepeer-transcode-api-openapi.yml
   format: yaml
-  label: Livepeer transcode API
+  label: Livepeer Transcode API
   slug: livepeer-transcode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-transcode-api-openapi.yml
 - filename: livepeer-webhook-api-openapi.yml
   format: yaml
-  label: Livepeer webhook API
+  label: Livepeer Webhook API
   slug: livepeer-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-webhook-api-openapi.yml

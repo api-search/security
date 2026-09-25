@@ -48,7 +48,7 @@ tags:
 - GitHub Actions
 - Ephemeral Compute
 - Build & Test Infrastructure
-- agent-native
+- Agent-Native
 - AI Coding Agents
 - Developer Tools
 ---

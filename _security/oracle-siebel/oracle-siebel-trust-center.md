@@ -105,5 +105,6 @@ tags:
 - Oracle
 - Sales Automation
 - Service Automation
+- Real-Time
 trust_url: https://www.oracle.com/trust/
 ---

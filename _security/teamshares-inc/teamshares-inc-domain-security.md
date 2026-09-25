@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Teamshares Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Teamshares Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Teamshares Inc
+overview: 'Domain security posture for Teamshares, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Teamshares
 provider_slug: teamshares-inc
 slug: teamshares-inc-domain-security
 source_filename: teamshares-inc-domain-security.yml
@@ -36,5 +36,5 @@ tags:
 - Employee Ownership
 - Small Business
 - Acquisition
-- Financial-Services
+- Financial Services
 ---

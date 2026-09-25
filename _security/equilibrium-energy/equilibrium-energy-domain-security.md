@@ -35,10 +35,10 @@ tags:
 - Energy
 - Power
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Energy Trading
 - Forecasting
 - Optimization
 - Clean Energy
-- Machine-Learning
+- Machine Learning
 ---

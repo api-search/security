@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-la
 summary_line: DMARC
 tags:
 - Company
-- Financial
+- Finance
 - Market Data
 - Trading
 - Low Latency

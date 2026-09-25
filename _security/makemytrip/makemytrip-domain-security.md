@@ -34,6 +34,5 @@ tags:
 - Company
 - Travel
 - Booking
-- API
 - India
 ---

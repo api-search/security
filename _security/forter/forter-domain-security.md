@@ -86,6 +86,7 @@ tags:
 - Chargebacks
 - Account Protection
 - E-Commerce
-- Risk
-- Machine-Learning
+- Risk Management
+- Machine Learning
+- A2A
 ---

@@ -43,7 +43,7 @@ tags:
 - Employee Benefits
 - Benefits Administration
 - Group Insurance
-- Financial-Services
+- Financial Services
 - Annuities
 - Disability Insurance
 - Dental Insurance

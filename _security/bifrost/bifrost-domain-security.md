@@ -63,7 +63,7 @@ tags:
 - AI Gateway
 - LLM
 - Load Balancing
-- Open-Source
+- Open Source
 - OpenAI-Compatible
 - MCP
 ---

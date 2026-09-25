@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Automation
-- Workflow-Automation
+- Workflow Automation
 - Web Scraping
 - Data Enrichment
 - Browser Extension

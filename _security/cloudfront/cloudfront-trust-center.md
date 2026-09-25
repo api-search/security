@@ -59,7 +59,6 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/security/cloudfront-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
-- Alias
 - CDN
 - Caching
 - Content Delivery

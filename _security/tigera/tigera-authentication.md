@@ -121,5 +121,5 @@ tags:
 - Microsegmentation
 - Zero Trust
 - eBPF
-- Open-Source
+- Open Source
 ---

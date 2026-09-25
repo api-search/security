@@ -69,10 +69,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
-- Image-Generation
+- Image Generation
 - Generative AI
 - Decentralized Compute
 - GPU

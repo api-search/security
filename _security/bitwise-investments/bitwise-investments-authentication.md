@@ -38,6 +38,6 @@ tags:
 - ETFs
 - Index Funds
 - Market Data
-- Financial-Services
+- Financial Services
 - Investment Management
 ---

@@ -38,12 +38,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
 - Financial Crime Compliance
-- Anti-Money Laundering
+- AML
 - Sanctions Screening
 - KYC
 - Transaction Monitoring
 - Adverse Media Monitoring
 - Intelligent Document Processing
-- Robotic Process Automation
+- RPA
 - Banking
 ---

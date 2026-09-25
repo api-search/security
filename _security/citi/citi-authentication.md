@@ -861,7 +861,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citi/refs/head
 summary_line: apiKey/http/oauth2/unknown · 10 schemes
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - Payments
 - Treasury

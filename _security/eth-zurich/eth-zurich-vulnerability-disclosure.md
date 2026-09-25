@@ -2,19 +2,19 @@
 api_specs:
 - filename: eth-zurich-bitstreams-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology bitstreams API
+  label: ETH Zurich – Swiss Federal Institute of Technology Bitstreams API
   slug: eth-zurich-bitstreams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-bitstreams-api-openapi.yml
 - filename: eth-zurich-collections-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology collections API
+  label: ETH Zurich – Swiss Federal Institute of Technology Collections API
   slug: eth-zurich-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-collections-api-openapi.yml
 - filename: eth-zurich-communities-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology communities API
+  label: ETH Zurich – Swiss Federal Institute of Technology Communities API
   slug: eth-zurich-communities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-communities-api-openapi.yml
@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-dossiers-api-openapi.yml
 - filename: eth-zurich-e-maps-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology e-maps API
+  label: ETH Zurich – Swiss Federal Institute of Technology E Maps API
   slug: eth-zurich-e-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-e-maps-api-openapi.yml
@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-e-pics-items-api-openapi.yml
 - filename: eth-zurich-e-rara-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology e-rara API
+  label: ETH Zurich – Swiss Federal Institute of Technology E Rara API
   slug: eth-zurich-e-rara-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-e-rara-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-geo-container-api-openapi.yml
 - filename: eth-zurich-geo-topics-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology geo-topics API
+  label: ETH Zurich – Swiss Federal Institute of Technology Geo Topics API
   slug: eth-zurich-geo-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-geo-topics-api-openapi.yml
@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-geodata-api-openapi.yml
 - filename: eth-zurich-handle-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology handle API
+  label: ETH Zurich – Swiss Federal Institute of Technology Handle API
   slug: eth-zurich-handle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-handle-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-information-about-a-person-api-openapi.yml
 - filename: eth-zurich-items-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology items API
+  label: ETH Zurich – Swiss Federal Institute of Technology Items API
   slug: eth-zurich-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-items-api-openapi.yml
@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-routes-api-openapi.yml
 - filename: eth-zurich-search-api-openapi.yml
   format: yaml
-  label: ETH Zurich – Swiss Federal Institute of Technology search API
+  label: ETH Zurich – Swiss Federal Institute of Technology Search API
   slug: eth-zurich-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-search-api-openapi.yml

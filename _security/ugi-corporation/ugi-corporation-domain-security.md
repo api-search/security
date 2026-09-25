@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Ugi Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for UGI Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: UGI Corporation
+overview: 'Domain security posture for UGI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: UGI
 provider_slug: ugi-corporation
 slug: ugi-corporation-domain-security
 source_filename: ugi-corporation-domain-security.yml

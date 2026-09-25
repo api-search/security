@@ -2,31 +2,6 @@
 anonymous_access: false
 api_key_in:
 - header
-api_specs:
-- filename: vice-media-oembed-1-0-api-openapi.yml
-  format: yaml
-  label: Vice Media Oembed/1.0 API
-  slug: vice-media-oembed-1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-oembed-1-0-api-openapi.yml
-- filename: vice-media-root-api-openapi.yml
-  format: yaml
-  label: Vice Media Root API
-  slug: vice-media-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-root-api-openapi.yml
-- filename: vice-media-wp-abilities-v1-api-openapi.yml
-  format: yaml
-  label: Vice Media Wp Abilities/v1 API
-  slug: vice-media-wp-abilities-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-wp-abilities-v1-api-openapi.yml
-- filename: vice-media-wp-v2-api-openapi.yml
-  format: yaml
-  label: Vice Media Wp/v2 API
-  slug: vice-media-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/openapi/vice-media-wp-v2-api-openapi.yml
 auth_types:
 - http
 - apiKey

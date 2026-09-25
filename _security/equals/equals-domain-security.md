@@ -58,4 +58,5 @@ tags:
 - Revenue Operations
 - Reporting
 - MCP
+- A2A
 ---

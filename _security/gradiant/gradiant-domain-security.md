@@ -37,7 +37,7 @@ tags:
 - Desalination
 - Industrial Water
 - Semiconductors
-- Data-Center
+- Data Center
 - Clean Technology
 - Sustainability
 - Specialty Chemicals

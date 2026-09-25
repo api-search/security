@@ -291,7 +291,7 @@ tags:
 - Purchase-To-Pay
 - Accounts Payable
 - Procurement
-- Electronic Invoicing
 - Finance Automation
 - B2B Payments
+- Invoicing
 ---

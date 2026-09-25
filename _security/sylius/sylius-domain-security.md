@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sylius/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
-- Open-Source
+- Open Source
 - Headless Commerce
 - REST API
 - Symfony

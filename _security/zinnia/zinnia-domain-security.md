@@ -306,11 +306,11 @@ tags:
 - Annuities
 - Policy Administration
 - Insurtech
-- Financial-Services
+- Financial Services
 - Third Party Administration
 - New Business
 - Order Entry
-- Document-Management
+- Document Management
 - Underwriting
 - Enterprise
 ---

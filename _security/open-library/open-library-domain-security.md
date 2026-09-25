@@ -1,41 +1,5 @@
 ---
 api_specs:
-- filename: open-library-search-api-openapi.yml
-  format: yaml
-  label: Open Library Search API
-  slug: open-library-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-search-api-openapi.yml
-- filename: open-library-works-api-openapi.yml
-  format: yaml
-  label: Open Library Works API
-  slug: open-library-works-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-works-api-openapi.yml
-- filename: open-library-editions-api-openapi.yml
-  format: yaml
-  label: Open Library Editions API
-  slug: open-library-editions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-editions-api-openapi.yml
-- filename: open-library-authors-api-openapi.yml
-  format: yaml
-  label: Open Library Authors API
-  slug: open-library-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-authors-api-openapi.yml
-- filename: open-library-subjects-api-openapi.yml
-  format: yaml
-  label: Open Library Subjects API
-  slug: open-library-subjects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-subjects-api-openapi.yml
-- filename: open-library-lists-api-openapi.yml
-  format: yaml
-  label: Open Library Lists API
-  slug: open-library-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-lists-api-openapi.yml
 - filename: open-library-authors-api-openapi.yml
   format: yaml
   label: Open Library Authors API
@@ -123,7 +87,7 @@ tags:
 - Books
 - Catalog
 - Covers
-- Libraries
+- Library
 - Open Data
 - Reading Lists
 - Search

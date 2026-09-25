@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - Agriculture
 - Automation
-- Machine-Learning
+- Machine Learning
 - Y Combinator
 ---

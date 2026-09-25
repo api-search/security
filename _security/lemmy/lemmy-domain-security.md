@@ -125,10 +125,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/security/lemmy-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Communities
+- Community
 - Federated
 - Fediverse
 - Link Aggregator
-- Open-Source
+- Open Source
 - Social Network
 ---

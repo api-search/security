@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Accounting
 - Invoicing
-- Financial
+- Finance
 - Small Business
 - Bookkeeping
 - Payments

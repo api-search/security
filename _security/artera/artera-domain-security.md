@@ -61,5 +61,5 @@ tags:
 - Health IT
 - EHR Integration
 - FHIR
-- Agentic AI
+- AI Agents
 ---

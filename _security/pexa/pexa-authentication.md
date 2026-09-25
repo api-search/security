@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource:\n- https://deve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/authentication/pexa-authentication.yml
 summary_line: oauth2/mutualTLS · 3 schemes
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Conveyancing
 - Property Settlement

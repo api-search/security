@@ -51,7 +51,7 @@ tags:
 - Presto
 - Hive
 - Airflow
-- Machine-Learning
+- Machine Learning
 - Cloud
 - Data Engineering
 ---

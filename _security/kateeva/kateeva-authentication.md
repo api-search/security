@@ -1,55 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: kateeva-posts-api-openapi.yml
-  format: yaml
-  label: Kateeva Posts API
-  slug: kateeva-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-posts-api-openapi.yml
-- filename: kateeva-pages-api-openapi.yml
-  format: yaml
-  label: Kateeva Pages API
-  slug: kateeva-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-pages-api-openapi.yml
-- filename: kateeva-media-api-openapi.yml
-  format: yaml
-  label: Kateeva Media API
-  slug: kateeva-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-media-api-openapi.yml
-- filename: kateeva-taxonomy-api-openapi.yml
-  format: yaml
-  label: Kateeva Taxonomy API
-  slug: kateeva-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-taxonomy-api-openapi.yml
-- filename: kateeva-search-api-openapi.yml
-  format: yaml
-  label: Kateeva Search API
-  slug: kateeva-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-search-api-openapi.yml
-- filename: kateeva-discovery-api-openapi.yml
-  format: yaml
-  label: Kateeva Discovery API
-  slug: kateeva-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-discovery-api-openapi.yml
-- filename: kateeva-seo-api-openapi.yml
-  format: yaml
-  label: Kateeva SEO Metadata API
-  slug: kateeva-seo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-seo-api-openapi.yml
-- filename: kateeva-o-embed-api-openapi.yml
-  format: yaml
-  label: Kateeva o Embed API
-  slug: kateeva-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-o-embed-api-openapi.yml
 auth_types: []
 description: Kateeva publishes no developer program and issues no API credentials. The WordPress REST content API behind kateeva.com is anonymously readable — no key, token, signature or account is required to read posts, pages, media, taxonomies, search, oEmbed, SEO metadata or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface.
 kind: authentication
@@ -85,5 +36,4 @@ tags:
 - Materials Deposition
 - Consumer Electronics
 - Hardware
-- Content
 ---

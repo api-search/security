@@ -60,4 +60,5 @@ tags:
 - Address Matching
 - Identifiers
 - POI
+- Geospatial
 ---

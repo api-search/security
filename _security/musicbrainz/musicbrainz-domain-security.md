@@ -154,6 +154,6 @@ tags:
 - Works
 - Labels
 - Cover Art
-- Open-Source
+- Open Source
 - Non-Profit
 ---

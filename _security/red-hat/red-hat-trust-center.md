@@ -252,6 +252,6 @@ tags:
 - Hybrid Cloud
 - Kubernetes
 - Linux
-- Open-Source
+- Open Source
 trust_url: https://www.redhat.com/en/trust
 ---

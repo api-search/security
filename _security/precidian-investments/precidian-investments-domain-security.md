@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/precidian-inve
 summary_line: TLSv1.3
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Asset Management
 - Exchange-Traded Funds
 - Mutual Funds

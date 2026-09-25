@@ -113,7 +113,7 @@ tags:
 - Institutional Repository
 - OAI-PMH
 - Identity Federation
-- Open-Source
+- Open Source
 - Medical Imaging
 - Library
 ---

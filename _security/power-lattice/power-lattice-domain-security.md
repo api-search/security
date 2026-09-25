@@ -36,5 +36,5 @@ tags:
 - Power Management
 - AI Infrastructure
 - Hardware
-- Data-Center
+- Data Center
 ---

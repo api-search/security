@@ -28,6 +28,6 @@ tags:
 - Music
 - Media
 - Marketing
-- Advertising Technology
+- AdTech
 trust_url: ''
 ---

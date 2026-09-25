@@ -59,5 +59,5 @@ tags:
 - Market Intelligence
 - GraphQL
 - MCP
-- agent-native
+- Agent-Native
 ---

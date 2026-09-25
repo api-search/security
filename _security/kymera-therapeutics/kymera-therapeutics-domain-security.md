@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kymera-therape
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Life Sciences
 - Drug Discovery

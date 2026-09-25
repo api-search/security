@@ -38,9 +38,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tagove/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Live Chat
-- Conversational
+- Conversational AI
 - Co-Browsing
 - Chatbots
 - Webhook

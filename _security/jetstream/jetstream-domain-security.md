@@ -34,7 +34,7 @@ tags:
 - Cybersecurity
 - AI Governance
 - AI Security
-- Agentic AI
+- AI Agents
 - Runtime Governance
 - Compliance
 - FinOps

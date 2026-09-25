@@ -30,8 +30,8 @@ tags:
 - Consumer
 - Classifieds
 - Marketplace
-- Real-Estate
-- Recruitment
+- Real Estate
+- Recruiting
 - Local Services
 - China
 ---

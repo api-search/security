@@ -85,7 +85,7 @@ tags:
 - Licensing
 - Certification
 - Drivers Education
-- Real-Estate
+- Real Estate
 - Insurance
 - Mortgage
 - Compliance Training

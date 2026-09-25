@@ -76,7 +76,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-search-api-openapi.yml
 - filename: readme-apis-api-openapi.yml
   format: yaml
-  label: ReadMe AP Is API
+  label: ReadMe APIs API
   slug: readme-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/openapi/readme-apis-api-openapi.yml
@@ -123,4 +123,7 @@ tags:
 - Artificial Intelligence
 - MCP
 - Bi-Directional Sync
+- API Documentation
+- Developer Portal
+- OpenAPI
 ---

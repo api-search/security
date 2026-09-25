@@ -66,6 +66,6 @@ tags:
 - LLM
 - Inference
 - Agents
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 ---

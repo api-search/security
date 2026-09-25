@@ -1,53 +1,5 @@
 ---
 api_specs:
-- filename: helpscout-threads-api-openapi.yml
-  format: yaml
-  label: Help Scout Threads API
-  slug: helpscout-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-threads-api-openapi.yml
-- filename: helpscout-customers-api-openapi.yml
-  format: yaml
-  label: Help Scout Customers API
-  slug: helpscout-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-customers-api-openapi.yml
-- filename: helpscout-mailboxes-api-openapi.yml
-  format: yaml
-  label: Help Scout Mailboxes API
-  slug: helpscout-mailboxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-mailboxes-api-openapi.yml
-- filename: helpscout-users-api-openapi.yml
-  format: yaml
-  label: Help Scout Users API
-  slug: helpscout-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-users-api-openapi.yml
-- filename: helpscout-teams-api-openapi.yml
-  format: yaml
-  label: Help Scout Teams API
-  slug: helpscout-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-teams-api-openapi.yml
-- filename: helpscout-tags-api-openapi.yml
-  format: yaml
-  label: Help Scout Tags API
-  slug: helpscout-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-tags-api-openapi.yml
-- filename: helpscout-workflows-api-openapi.yml
-  format: yaml
-  label: Help Scout Workflows API
-  slug: helpscout-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-workflows-api-openapi.yml
-- filename: helpscout-webhooks-asyncapi.yml
-  format: yaml
-  label: Help Scout Webhooks API
-  slug: helpscout-webhooks-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/asyncapi/helpscout-webhooks-asyncapi.yml
 - filename: helpscout-conversations-api-openapi.yml
   format: yaml
   label: Help Scout Conversations API
@@ -145,7 +97,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/security/helpscout-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Customer-Support
+- Customer Support
 - Help Desk
 - Email
 - Live Chat

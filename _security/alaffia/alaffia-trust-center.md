@@ -27,7 +27,7 @@ tags:
 - Claims
 - Utilization Management
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Insurtech
 - Health Tech
 - United States

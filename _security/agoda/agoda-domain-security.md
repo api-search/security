@@ -41,6 +41,6 @@ tags:
 - Company
 - Travel
 - Booking
-- Hotel
+- Hotels
 - Online
 ---

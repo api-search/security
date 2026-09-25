@@ -39,7 +39,7 @@ tags:
 - GraphQL
 - CRM
 - Customer Experience
-- Open-Source
+- Open Source
 - Marketing Automation
 - Sales Pipeline
 - Help Desk

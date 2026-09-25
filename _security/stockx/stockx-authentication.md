@@ -87,4 +87,5 @@ tags:
 - Catalog
 - Selling
 - Order
+- Fashion
 ---

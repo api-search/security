@@ -40,5 +40,5 @@ tags:
 - Methane
 - Analytics
 - Climate
-- Machine-Learning
+- Machine Learning
 ---

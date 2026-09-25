@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://github.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/authentication/maystreet-authentication.yml
 summary_line: http-bearer/custom-header · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Trading

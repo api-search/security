@@ -143,7 +143,7 @@ summary_line: http · 1 scheme
 tags:
 - Payments
 - Local Payment Methods
-- Financial-Services
+- Financial Services
 - Fintech
 - Acquiring
 - Checkout

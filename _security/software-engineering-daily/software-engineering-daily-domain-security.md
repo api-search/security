@@ -34,5 +34,5 @@ tags:
 - Podcasts
 - Software Engineering
 - Technical Content
-- Open-Source
+- Open Source
 ---

@@ -42,7 +42,7 @@ tags:
 - Payroll
 - Benefits
 - Human Resources
-- Unified-API
+- Unified API
 - Workforce
 trust_url: https://www.tryfinch.com/company/security
 ---

@@ -514,5 +514,7 @@ tags:
 - Booking
 - Reservations
 - Point-of-Sale
+- Restaurant
+- Real-Time
 trust_url: https://www.oracle.com/trust/
 ---

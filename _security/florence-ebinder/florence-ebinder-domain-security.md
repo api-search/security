@@ -39,6 +39,6 @@ tags:
 - Clinical Research
 - Healthcare
 - Life Sciences
-- Document-Management
+- Document Management
 - Partner API
 ---

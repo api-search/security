@@ -36,8 +36,8 @@ tags:
 - Homeland Security
 - Public Safety
 - Video Intelligence
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Intelligence Analysis
-- Agentic AI
+- AI Agents
 ---

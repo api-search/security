@@ -47,7 +47,7 @@ tags:
 - Video Editing
 - Slideshow
 - Marketing
-- Social-Media
+- Social Media
 - Content Creation
 - Software-as-a-Service
 ---

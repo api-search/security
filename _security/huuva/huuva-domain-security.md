@@ -38,4 +38,5 @@ tags:
 - Consumer
 - Finland
 - Ordering Platform
+- Restaurant
 ---

@@ -91,7 +91,7 @@ tags:
 - Semantic Search
 - Embeddings
 - Artificial Intelligence
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Ecommerce Search
 ---

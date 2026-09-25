@@ -35,5 +35,5 @@ tags:
 - Reverse Proxy
 - Load Balancing
 - Rust
-- Open-Source
+- Open Source
 ---

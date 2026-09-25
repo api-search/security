@@ -37,6 +37,6 @@ tags:
 - Proposal Automation
 - Sales Enablement
 - Questionnaire
-- Knowledge-Management
+- Knowledge Management
 - Software-as-a-Service
 ---

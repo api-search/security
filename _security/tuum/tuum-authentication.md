@@ -79,5 +79,5 @@ tags:
 - Lending
 - Cards
 - Fintech
-- Financial-Services
+- Financial Services
 ---

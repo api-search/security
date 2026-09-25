@@ -48,5 +48,5 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Automation
-- Open-Source
+- Open Source
 ---

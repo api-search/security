@@ -24,7 +24,6 @@ tags:
 - Company
 - AI Governance
 - AI Agents
-- Agentic AI
 - AI Security
 - Observability
 - Compliance

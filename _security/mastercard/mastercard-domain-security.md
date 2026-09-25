@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-acquirer-api-openapi.yml
 - filename: mastercard-acquirer-merchant-i-ds-api-openapi.yml
   format: yaml
-  label: Mastercard Acquirer  Merchant  I Ds API
+  label: Mastercard Acquirer  Merchant  IDs API
   slug: mastercard-acquirer-merchant-i-ds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-acquirer-merchant-i-ds-api-openapi.yml
@@ -639,9 +639,10 @@ tags:
 - Mastercard
 - Credit Cards
 - Digital Identity
-- Financial-Services
+- Financial Services
 - Fraud Detection
 - Open Banking
 - Payments
 - Fortune 500
+- Agentic Commerce
 ---

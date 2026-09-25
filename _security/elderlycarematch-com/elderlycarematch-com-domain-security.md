@@ -44,7 +44,7 @@ tags:
 - Healthcare
 - Agents
 - A2A
-- agent-native
+- Agent-Native
 - Washington State
 - United States
 ---

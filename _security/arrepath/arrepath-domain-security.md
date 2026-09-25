@@ -34,7 +34,7 @@ tags:
 - Biotech Therapeutics
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infectious Disease
 - Antibacterials
 - Pharmaceuticals

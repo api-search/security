@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Equity Analysis
 - Financial Data
-- Financial-Services
+- Financial Services
 - Investment Ratings
 - Stock Research
 ---

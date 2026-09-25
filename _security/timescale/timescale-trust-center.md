@@ -96,6 +96,6 @@ tags:
 - Data Platform
 - Vector Search
 - Developer Tools
-- Open-Source
+- Open Source
 trust_url: https://www.tigerdata.com/security
 ---

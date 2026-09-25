@@ -49,6 +49,6 @@ tags:
 - Reinsurance
 - Marketplace
 - Risk Scoring
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 ---

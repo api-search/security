@@ -112,7 +112,7 @@ tags:
 - Consent
 - Credit Cards
 - FDX
-- Financial-Services
+- Financial Services
 - Loyalty
 - Open Banking
 - Pay with Points

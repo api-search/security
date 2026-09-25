@@ -2,13 +2,13 @@
 api_specs:
 - filename: phoenix-annotation-configs-api-openapi.yml
   format: yaml
-  label: Arize Phoenix annotation_configs API
+  label: Arize Phoenix Annotation Configs API
   slug: phoenix-annotation-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-annotation-configs-api-openapi.yml
 - filename: phoenix-annotations-api-openapi.yml
   format: yaml
-  label: Arize Phoenix annotations API
+  label: Arize Phoenix Annotations API
   slug: phoenix-annotations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-annotations-api-openapi.yml
@@ -26,19 +26,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-auth-api-openapi.yml
 - filename: phoenix-chat-api-openapi.yml
   format: yaml
-  label: Arize Phoenix chat API
+  label: Arize Phoenix Chat API
   slug: phoenix-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-chat-api-openapi.yml
 - filename: phoenix-datasets-api-openapi.yml
   format: yaml
-  label: Arize Phoenix datasets API
+  label: Arize Phoenix Datasets API
   slug: phoenix-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-datasets-api-openapi.yml
 - filename: phoenix-experiments-api-openapi.yml
   format: yaml
-  label: Arize Phoenix experiments API
+  label: Arize Phoenix Experiments API
   slug: phoenix-experiments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-experiments-api-openapi.yml
@@ -50,13 +50,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-healthz-api-openapi.yml
 - filename: phoenix-projects-api-openapi.yml
   format: yaml
-  label: Arize Phoenix projects API
+  label: Arize Phoenix Projects API
   slug: phoenix-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-projects-api-openapi.yml
 - filename: phoenix-prompts-api-openapi.yml
   format: yaml
-  label: Arize Phoenix prompts API
+  label: Arize Phoenix Prompts API
   slug: phoenix-prompts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-prompts-api-openapi.yml
@@ -68,31 +68,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-readyz-api-openapi.yml
 - filename: phoenix-secrets-api-openapi.yml
   format: yaml
-  label: Arize Phoenix secrets API
+  label: Arize Phoenix Secrets API
   slug: phoenix-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-secrets-api-openapi.yml
 - filename: phoenix-sessions-api-openapi.yml
   format: yaml
-  label: Arize Phoenix sessions API
+  label: Arize Phoenix Sessions API
   slug: phoenix-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-sessions-api-openapi.yml
 - filename: phoenix-spans-api-openapi.yml
   format: yaml
-  label: Arize Phoenix spans API
+  label: Arize Phoenix Spans API
   slug: phoenix-spans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-spans-api-openapi.yml
 - filename: phoenix-traces-api-openapi.yml
   format: yaml
-  label: Arize Phoenix traces API
+  label: Arize Phoenix Traces API
   slug: phoenix-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-traces-api-openapi.yml
 - filename: phoenix-users-api-openapi.yml
   format: yaml
-  label: Arize Phoenix users API
+  label: Arize Phoenix Users API
   slug: phoenix-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-users-api-openapi.yml
@@ -146,7 +146,7 @@ tags:
 - Tracing
 - LLMOps
 - AI Monitoring
-- Open-Source
+- Open Source
 - Prompt Engineering
 - Datasets
 - Experiments

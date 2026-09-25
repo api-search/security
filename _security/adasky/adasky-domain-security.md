@@ -36,7 +36,7 @@ tags:
 - Sensors
 - ADAS
 - Autonomous Vehicles
-- Computer-Vision
+- Computer Vision
 - Smart Cities
 - Hardware
 - Israel

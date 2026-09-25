@@ -277,4 +277,5 @@ tags:
 - Identity Governance
 - Identity Management
 - OpenID Connect
+- Identity Federation
 ---

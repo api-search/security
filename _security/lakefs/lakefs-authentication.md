@@ -5,97 +5,97 @@ api_key_in:
 api_specs:
 - filename: lakefs-actions-api-openapi.yml
   format: yaml
-  label: lakeFS actions API
+  label: lakeFS Actions API
   slug: lakefs-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-actions-api-openapi.yml
 - filename: lakefs-auth-api-openapi.yml
   format: yaml
-  label: lakeFS auth API
+  label: lakeFS Auth API
   slug: lakefs-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-auth-api-openapi.yml
 - filename: lakefs-branches-api-openapi.yml
   format: yaml
-  label: lakeFS branches API
+  label: lakeFS Branches API
   slug: lakefs-branches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-branches-api-openapi.yml
 - filename: lakefs-commits-api-openapi.yml
   format: yaml
-  label: lakeFS commits API
+  label: lakeFS Commits API
   slug: lakefs-commits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-commits-api-openapi.yml
 - filename: lakefs-config-api-openapi.yml
   format: yaml
-  label: lakeFS config API
+  label: lakeFS Config API
   slug: lakefs-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-config-api-openapi.yml
 - filename: lakefs-experimental-api-openapi.yml
   format: yaml
-  label: lakeFS experimental API
+  label: lakeFS Experimental API
   slug: lakefs-experimental-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-experimental-api-openapi.yml
 - filename: lakefs-external-api-openapi.yml
   format: yaml
-  label: lakeFS external API
+  label: lakeFS External API
   slug: lakefs-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-external-api-openapi.yml
 - filename: lakefs-import-api-openapi.yml
   format: yaml
-  label: lakeFS import API
+  label: lakeFS Import API
   slug: lakefs-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-import-api-openapi.yml
 - filename: lakefs-internal-api-openapi.yml
   format: yaml
-  label: lakeFS internal API
+  label: lakeFS Internal API
   slug: lakefs-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-internal-api-openapi.yml
 - filename: lakefs-metadata-api-openapi.yml
   format: yaml
-  label: lakeFS metadata API
+  label: lakeFS Metadata API
   slug: lakefs-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-metadata-api-openapi.yml
 - filename: lakefs-objects-api-openapi.yml
   format: yaml
-  label: lakeFS objects API
+  label: lakeFS Objects API
   slug: lakefs-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-objects-api-openapi.yml
 - filename: lakefs-pulls-api-openapi.yml
   format: yaml
-  label: lakeFS pulls API
+  label: lakeFS Pulls API
   slug: lakefs-pulls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-pulls-api-openapi.yml
 - filename: lakefs-refs-api-openapi.yml
   format: yaml
-  label: lakeFS refs API
+  label: lakeFS Refs API
   slug: lakefs-refs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-refs-api-openapi.yml
 - filename: lakefs-repositories-api-openapi.yml
   format: yaml
-  label: lakeFS repositories API
+  label: lakeFS Repositories API
   slug: lakefs-repositories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-repositories-api-openapi.yml
 - filename: lakefs-staging-api-openapi.yml
   format: yaml
-  label: lakeFS staging API
+  label: lakeFS Staging API
   slug: lakefs-staging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-staging-api-openapi.yml
 - filename: lakefs-tags-api-openapi.yml
   format: yaml
-  label: lakeFS tags API
+  label: lakeFS Tags API
   slug: lakefs-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-tags-api-openapi.yml
@@ -161,5 +161,5 @@ tags:
 - Data Version Control
 - Data Lake
 - Git-like
-- Open-Source
+- Open Source
 ---

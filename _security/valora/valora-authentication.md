@@ -4,25 +4,25 @@ api_key_in: []
 api_specs:
 - filename: valora-hooks-api-openapi.yml
   format: yaml
-  label: Valora hooks API
+  label: Valora Hooks API
   slug: valora-hooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-hooks-api-openapi.yml
 - filename: valora-swaps-api-openapi.yml
   format: yaml
-  label: Valora swaps API
+  label: Valora Swaps API
   slug: valora-swaps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-swaps-api-openapi.yml
 - filename: valora-tokens-api-openapi.yml
   format: yaml
-  label: Valora tokens API
+  label: Valora Tokens API
   slug: valora-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-tokens-api-openapi.yml
 - filename: valora-transactions-api-openapi.yml
   format: yaml
-  label: Valora transactions API
+  label: Valora Transactions API
   slug: valora-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/openapi/valora-transactions-api-openapi.yml

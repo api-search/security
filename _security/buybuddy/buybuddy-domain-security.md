@@ -35,7 +35,7 @@ tags:
 - Retail
 - Merchandising
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Inventory
 - Demand Forecasting
 - Pricing

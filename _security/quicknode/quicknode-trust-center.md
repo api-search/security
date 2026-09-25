@@ -78,5 +78,8 @@ tags:
 - Streams
 - IPFS
 - Multi-Chain
+- Real-Time
+- A2A
+- Ethereum
 trust_url: https://trust.quicknode.com/
 ---

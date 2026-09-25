@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-users-api-openapi.yml
 - filename: sana-x-api-api-openapi.yml
   format: yaml
-  label: Sana x API
+  label: Sana X API
   slug: sana-x-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-x-api-api-openapi.yml
@@ -113,7 +113,7 @@ tags:
 - Artificial Intelligence
 - Learning Management
 - LMS
-- Knowledge-Management
+- Knowledge Management
 - Agents
 - SCIM
 - xAPI

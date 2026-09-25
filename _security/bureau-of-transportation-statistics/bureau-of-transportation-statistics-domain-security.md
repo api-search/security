@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  live DNS/TL
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/security/bureau-of-transportation-statistics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Statistics
 - Transportation
 - Aviation

@@ -150,7 +150,7 @@ tags:
 - Performance Monitoring
 - Uptime Monitoring
 - Application Monitoring
-- Open-Source
+- Open Source
 - Sentry Compatible
 - Observability
 - Logging

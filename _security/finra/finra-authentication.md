@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finra/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Compliance
-- Financial
+- Finance
 - Regulations
 - Securities
 - Market Data

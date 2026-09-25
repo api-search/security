@@ -42,6 +42,6 @@ tags:
 - Image Recognition
 - Spatial Computing
 - Visual Positioning
-- Computer-Vision
+- Computer Vision
 - Developer Tools
 ---

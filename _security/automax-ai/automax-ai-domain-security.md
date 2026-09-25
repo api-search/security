@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automax-ai/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Appraisal
 - Property Valuation
 - Mortgage

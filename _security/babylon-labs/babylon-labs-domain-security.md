@@ -2,7 +2,7 @@
 api_specs:
 - filename: babylon-labs-shared-api-openapi.yml
   format: yaml
-  label: Babylon Labs shared API
+  label: Babylon Labs Shared API
   slug: babylon-labs-shared-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-shared-api-openapi.yml

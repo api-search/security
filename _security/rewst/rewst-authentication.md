@@ -44,7 +44,7 @@ tags:
 - Automation
 - iPaaS
 - RPA
-- Workflow-Automation
+- Workflow Automation
 - MSP
 - Integration
 - Webhook

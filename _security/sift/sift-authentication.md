@@ -76,9 +76,9 @@ summary_line: http · 1 scheme
 tags:
 - Fraud Detection
 - Fraud Prevention
-- Risk
+- Risk Management
 - Trust and Safety
-- Machine-Learning
+- Machine Learning
 - Payment Fraud
 - Account Takeover
 - Chargebacks

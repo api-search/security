@@ -37,7 +37,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - AI Safety
-- Risk
+- Risk Management
 - Security
 - Y Combinator
 ---

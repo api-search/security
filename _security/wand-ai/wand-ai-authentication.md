@@ -63,7 +63,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
 - Enterprise Software
 - Workforce Automation
 - Orchestration

@@ -73,7 +73,7 @@ tags:
 - Education
 - Student Housing
 - Study Abroad
-- Real-Estate
+- Real Estate
 - Marketplace
 - Lending
 - Travel

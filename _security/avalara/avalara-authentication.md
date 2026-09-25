@@ -480,4 +480,5 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Tax
 - Avalara
+- Accounting
 ---

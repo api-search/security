@@ -36,6 +36,6 @@ tags:
 - Infrastructure
 - Edge Computing
 - GPU
-- Data-Center
+- Data Center
 - Real-Time AI
 ---

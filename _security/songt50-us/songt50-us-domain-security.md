@@ -37,10 +37,10 @@ tags:
 - News
 - Weather
 - Air Quality
-- Real-Estate
+- Real Estate
 - Economic Statistics
 - Stock Market
 - Agriculture
 - South Korea
-- agent-native
+- Agent-Native
 ---

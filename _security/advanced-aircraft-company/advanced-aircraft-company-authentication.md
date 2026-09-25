@@ -76,5 +76,4 @@ tags:
 - VTOL
 - Manufacturing
 - Public Safety
-- Content
 ---

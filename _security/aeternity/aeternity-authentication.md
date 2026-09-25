@@ -135,10 +135,11 @@ tags:
 - Cryptocurrency
 - Web3
 - Distributed Ledger
-- Open-Source
+- Open Source
 - GraphQL
 - State Channels
 - Oracle
 - Naming System
 - Developer Tools
+- Real-Time
 ---

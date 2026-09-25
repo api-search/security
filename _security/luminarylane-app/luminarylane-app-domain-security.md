@@ -34,12 +34,12 @@ tags:
 - Marketing
 - Marketing Automation
 - AI Agents
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Brand Management
 - Content Generation
 - Campaign Management
-- Social-Media
+- Social Media
 - Software-as-a-Service
 ---

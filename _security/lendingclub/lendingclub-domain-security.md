@@ -53,7 +53,7 @@ tags:
 - Fintech
 - Personal Loans
 - Banking
-- Financial-Services
+- Financial Services
 - Marketplace Lending
 - Consumer Lending
 ---

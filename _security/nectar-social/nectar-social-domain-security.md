@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Social-Media
+- Social Media
 - Community Management
 - Social Listening
 - Influencer Marketing

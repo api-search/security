@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Cultural Heritage
-- Libraries
+- Library
 - Archives
 - Museums
 - Open Data

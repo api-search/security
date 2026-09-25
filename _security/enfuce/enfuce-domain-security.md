@@ -78,4 +78,5 @@ tags:
 - Card Issuing
 - Fintech
 - API Platform
+- A2A
 ---

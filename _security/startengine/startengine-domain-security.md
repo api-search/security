@@ -36,7 +36,7 @@ tags:
 - Crowdfunding
 - Private Markets
 - Capital Markets
-- Financial-Services
+- Financial Services
 - Transfer Agent
 - Securities
 ---

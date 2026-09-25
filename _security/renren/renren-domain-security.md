@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Consumer
-- Social Networking
-- Social-Media
+- Social Network
+- Social Media
 - Web
 - China
 ---

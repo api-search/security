@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appfolio/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Residential
 - Commercial
 - Community Associations
@@ -47,7 +47,7 @@ tags:
 - Accounting
 - Leasing
 - Maintenance
-- Agentic AI
+- AI Agents
 - Realm-X
 - AppFolio Stack
 ---

@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-marketplace-api-openapi.yml
 - filename: dedaluslabs-private-api-openapi.yml
   format: yaml
-  label: Dedalus Labs private API
+  label: Dedalus Labs Private API
   slug: dedaluslabs-private-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-private-api-openapi.yml

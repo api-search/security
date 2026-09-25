@@ -35,7 +35,7 @@ tags:
 - Exchange-Traded Funds
 - Fund Infrastructure
 - Asset Management
-- Financial-Services
+- Financial Services
 - Fintech
 - Indexing
 - Regulatory Compliance

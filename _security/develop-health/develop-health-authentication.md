@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: develop-health-public-api-api-openapi.yml
   format: yaml
-  label: Develop Health public-api
+  label: Develop Health Public API
   slug: develop-health-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-public-api-api-openapi.yml

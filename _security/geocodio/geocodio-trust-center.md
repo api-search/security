@@ -50,5 +50,6 @@ tags:
 - Addresses
 - Data Append
 - Census
+- Geospatial
 trust_url: https://www.geocod.io/security
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Fintech
-- AI
-- DigitalBanking
+- Artificial Intelligence
+- Digital Banking
 - ESG
 ---

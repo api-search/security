@@ -62,6 +62,6 @@ tags:
 - Continuous Delivery
 - Continuous Integration
 - DevOps
-- Open-Source
+- Open Source
 - Remote Access API
 ---

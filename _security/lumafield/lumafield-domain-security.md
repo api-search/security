@@ -38,5 +38,5 @@ tags:
 - Hardware
 - Analysis
 - Quality
-- Computer-Vision
+- Computer Vision
 ---

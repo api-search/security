@@ -228,5 +228,5 @@ tags:
 - Infrastructure
 - Observability
 - MCP
-- agent-native
+- Agent-Native
 ---

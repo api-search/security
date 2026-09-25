@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Investing
 - Robo-Advisor
-- Financial-Services
+- Financial Services
 - Singapore
 - Hong Kong
 ---

@@ -78,7 +78,7 @@ tags:
 - Lakehouse
 - RAG
 - Agent Memory
-- Open-Source
+- Open Source
 - Embeddings
 - Full-Text Search
 - Hybrid Search

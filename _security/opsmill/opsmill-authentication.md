@@ -137,5 +137,5 @@ tags:
 - DevOps
 - Configuration Management
 - AIOps
-- Open-Source
+- Open Source
 ---

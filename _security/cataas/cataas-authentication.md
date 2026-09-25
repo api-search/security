@@ -59,6 +59,6 @@ tags:
 - Animals
 - Cats
 - Image
-- Open-Source
+- Open Source
 - Public APIs
 ---

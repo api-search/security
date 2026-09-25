@@ -139,7 +139,7 @@ tags:
 - Data Sources
 - Dust
 - Enterprise AI
-- Knowledge-Management
+- Knowledge Management
 - LLM
 - MCP
 - Multi-Model

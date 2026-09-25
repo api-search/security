@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.ban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/authentication/bankvic-authentication.yml
 summary_line: none-public/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

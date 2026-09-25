@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Employment
-- Recruitment
+- Recruiting
 - Job
 - Hiring
 - Human Resources

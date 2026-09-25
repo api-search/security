@@ -40,6 +40,6 @@ tags:
 - Documentation
 - Knowledge Base
 - Self-Hosted
-- Open-Source
+- Open Source
 - Content Management
 ---

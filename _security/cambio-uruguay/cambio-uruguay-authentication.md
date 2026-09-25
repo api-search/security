@@ -109,6 +109,6 @@ tags:
 - Uruguay
 - Latin America
 - MCP
-- agent-native
-- Open-Source
+- Agent-Native
+- Open Source
 ---

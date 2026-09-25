@@ -33,6 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Credit Data
-- Financial-Services
+- Financial Services
 - Lending
 ---

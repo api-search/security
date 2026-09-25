@@ -40,7 +40,7 @@ tags:
 - Distributed Systems
 - Java
 - Maven
-- Open-Source
+- Open Source
 - Service Discovery
 - ZooKeeper
 ---

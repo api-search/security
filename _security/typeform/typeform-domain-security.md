@@ -73,7 +73,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Forms
 - Surveys
-- Conversational
+- Conversational AI
 - Lead Capture
 - Software-as-a-Service
 - Webhook

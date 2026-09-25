@@ -30,8 +30,8 @@ layout: security
 method: probed
 name: Blank Rome Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Blank Rome LLP, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Blank Rome LLP
+overview: 'Domain security posture for Blank Rome, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Blank Rome
 provider_slug: blank-rome
 slug: blank-rome-domain-security
 source_filename: blank-rome-domain-security.yml

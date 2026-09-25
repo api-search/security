@@ -341,5 +341,6 @@ tags:
 - business-documents
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
+- Procurement
 ---

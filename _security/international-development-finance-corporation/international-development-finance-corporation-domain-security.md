@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Development Finance
 - Emerging Markets
-- Federal-Government
+- Federal Government
 - Investment
 - Open Data
 ---

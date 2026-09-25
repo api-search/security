@@ -36,6 +36,6 @@ tags:
 - Loan Origination
 - Loan Servicing
 - Auto Finance
-- Financial-Services
+- Financial Services
 - Software-as-a-Service
 ---

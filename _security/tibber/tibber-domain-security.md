@@ -70,7 +70,7 @@ tags:
 - Smart Home
 - Smart Meter
 - ElectricityPricing
-- Electric Vehicle Charging
+- EV Charging
 - HeatPump
 - SolarInverter
 - Home Battery

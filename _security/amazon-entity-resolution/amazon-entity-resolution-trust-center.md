@@ -45,6 +45,6 @@ tags:
 - Data Integration
 - Data Matching
 - Entity Resolution
-- Machine-Learning
+- Machine Learning
 trust_url: https://aws.amazon.com/compliance/
 ---

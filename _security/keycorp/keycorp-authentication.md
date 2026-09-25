@@ -156,7 +156,7 @@ summary_line: http/mutualTLS · 2 schemes
 tags:
 - Banking
 - Commercial Banking
-- Financial-Services
+- Financial Services
 - Fortune 500
 - Payments
 - United States

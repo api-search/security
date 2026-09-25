@@ -43,6 +43,6 @@ tags:
 - MDR
 - SOC
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Threat Detection
 ---

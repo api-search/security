@@ -36,7 +36,7 @@ tags:
 - Analytics
 - Database
 - SQL
-- Machine-Learning
+- Machine Learning
 - Big Data
 - Cloud Data Platform
 - IBM

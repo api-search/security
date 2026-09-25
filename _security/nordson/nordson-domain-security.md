@@ -23,8 +23,8 @@ layout: security
 method: probed
 name: Nordson Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Nordson Corporation, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Nordson Corporation
+overview: 'Domain security posture for Nordson, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Nordson
 provider_slug: nordson
 slug: nordson-domain-security
 source_filename: nordson-domain-security.yml

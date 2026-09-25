@@ -268,7 +268,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/banno-ad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/authentication/jack-henry-authentication.yml
 summary_line: http/openIdConnect · 2 schemes
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Core Banking
 - Digital Banking
@@ -281,4 +281,5 @@ tags:
 - Fintech
 - Authentication
 - OpenID Connect
+- Real-Time
 ---

@@ -6,8 +6,8 @@ kind: trust-center
 layout: security
 name: Spotwise Inc Trust Center
 name_suffix: Trust Center
-overview: Spotwise, Inc. maintains a public trust center covering its security and compliance posture.
-provider_name: Spotwise, Inc.
+overview: Spotwise maintains a public trust center covering its security and compliance posture.
+provider_name: Spotwise
 provider_slug: spotwise-inc
 slug: spotwise-inc-trust-center
 source_filename: spotwise-inc-trust-center.yml

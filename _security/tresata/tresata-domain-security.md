@@ -35,7 +35,7 @@ tags:
 - Data
 - Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data Management
 - Entity Resolution
 - Big Data

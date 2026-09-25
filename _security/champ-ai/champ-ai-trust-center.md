@@ -25,7 +25,7 @@ tags:
 - AI Agents
 - Automation
 - Business Process Outsourcing
-- Workflow-Automation
+- Workflow Automation
 - Document Intelligence
 - Voice AI
 - Healthcare

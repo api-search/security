@@ -69,5 +69,5 @@ tags:
 - Cloud-Native
 - Kubernetes
 - Azure
-- Open-Source
+- Open Source
 ---

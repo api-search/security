@@ -52,7 +52,7 @@ tags:
 - Enterprise Saas
 - Fraud Detection
 - Fraud Prevention
-- Machine-Learning
+- Machine Learning
 - Risk Scoring
 - Payments
 - Identity

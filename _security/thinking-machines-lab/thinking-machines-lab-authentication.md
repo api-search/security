@@ -59,7 +59,7 @@ summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Fine-Tuning
 - Model Training

@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/security/election-assistance-commission-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Elections
 - Voting
 - Open Data

@@ -145,6 +145,6 @@ tags:
 - Fintech
 - Payments
 - Webhook
-- Financial-Services
+- Financial Services
 - Dunning
 ---

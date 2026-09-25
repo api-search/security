@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Banking
 - Embedded Finance
 - Banking as a Service

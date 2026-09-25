@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Co Legal Be Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Co-Legal B.V., probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Co-Legal B.V.
+overview: 'Domain security posture for Co-Legal, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Co-Legal
 provider_slug: co-legal-be
 slug: co-legal-be-domain-security
 source_filename: co-legal-be-domain-security.yml
@@ -49,7 +49,7 @@ tags:
 - European Union
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Artificial Intelligence
 - Legal Tech
 ---

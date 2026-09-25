@@ -76,7 +76,7 @@ tags:
 - Network Security
 - Router
 - VPN
-- Open-Source
+- Open Source
 - FreeBSD
 - Netgate
 ---

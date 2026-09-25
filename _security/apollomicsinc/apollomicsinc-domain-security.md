@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Apollomicsinc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Apollomics, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Apollomics, Inc.
+overview: 'Domain security posture for Apollomics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Apollomics
 provider_slug: apollomicsinc
 slug: apollomicsinc-domain-security
 source_filename: apollomicsinc-domain-security.yml

@@ -37,7 +37,7 @@ tags:
 - Visual Development
 - Web Design
 - CMS
-- Open-Source
+- Open Source
 - CLI
 - MCP
 - Developer Tools

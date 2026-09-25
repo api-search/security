@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Merklebase Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Merklebase, Inc., probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Merklebase, Inc.
+overview: 'Domain security posture for Merklebase, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Merklebase
 provider_slug: merklebase-inc
 slug: merklebase-inc-domain-security
 source_filename: merklebase-inc-domain-security.yml
@@ -29,9 +29,9 @@ tags:
 - Company
 - Digital Assets
 - Cryptocurrency
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
-- Financial-Services
+- Financial Services
 - Institutional Finance
 - Data Management
 ---

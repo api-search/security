@@ -67,7 +67,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Embeddings
-- Machine-Learning
+- Machine Learning
 - Reranking
 - Search
 ---

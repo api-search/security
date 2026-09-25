@@ -91,4 +91,6 @@ tags:
 - NFT
 - Indexing
 - Account Abstraction
+- Real-Time
+- Ethereum
 ---

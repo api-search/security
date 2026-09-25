@@ -36,5 +36,5 @@ tags:
 - Fraud Detection
 - Security
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 ---

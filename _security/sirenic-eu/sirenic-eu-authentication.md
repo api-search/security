@@ -77,7 +77,6 @@ tags:
 - Company Data
 - Business Registry
 - KYB
-- Know Your Business
 - Sanctions Screening
 - Financial Data
 - Credit Risk

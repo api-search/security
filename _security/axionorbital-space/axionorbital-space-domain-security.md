@@ -35,11 +35,11 @@ tags:
 - Earth Observation
 - Satellite Imagery
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Space Technology
 - SAR
 - Remote Sensing
-- Machine-Learning
+- Machine Learning
 - Defense and Intelligence
 - Geospatial
 ---

@@ -30,6 +30,6 @@ tags:
 - Commercial Real Estate
 - Development
 - Feasibility Analysis
-- Real-Estate
+- Real Estate
 trust_url: ''
 ---

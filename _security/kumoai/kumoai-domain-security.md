@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Predictive Analytics
 - Graph Neural Networks
 - Foundation Models

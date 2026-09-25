@@ -66,7 +66,7 @@ tags:
 - Audio
 - Artificial Intelligence
 - Voice
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - Media
 ---

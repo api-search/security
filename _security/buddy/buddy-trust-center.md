@@ -23,5 +23,6 @@ tags:
 - Continuous Integration
 - Developer Tools
 - Public APIs
+- A2A
 trust_url: https://buddy.works/security
 ---

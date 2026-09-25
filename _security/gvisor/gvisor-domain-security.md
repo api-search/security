@@ -33,7 +33,7 @@ tags:
 - Containers
 - Kernel
 - Linux
-- Open-Source
+- Open Source
 - Sandboxing
 - Security
 ---

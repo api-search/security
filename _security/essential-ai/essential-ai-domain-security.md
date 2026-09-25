@@ -36,13 +36,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/essential-ai/r
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - open-weight-models
 - AI Research
 - Foundation Models
 - training-datasets
-- Open-Source
+- Open Source
 - Generative AI
-- Agentic AI
+- AI Agents
 ---

@@ -37,7 +37,7 @@ summary_line: http-basic · 1 scheme
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property Management
 - Inspection
 - Maintenance

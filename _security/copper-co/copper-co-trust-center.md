@@ -134,7 +134,7 @@ tags:
 - Company
 - Digital Asset Custody
 - Cryptocurrency
-- Financial-Services
+- Financial Services
 - Institutional Finance
 - Prime Brokerage
 - Collateral Management
@@ -143,5 +143,6 @@ tags:
 - Staking
 - Blockchain
 - Treasury Management
+- A2A
 trust_url: https://copper.co/en/security
 ---

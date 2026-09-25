@@ -23,7 +23,7 @@ summary_line: ISO/IEC 27001
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Generative AI
 - LLM Inference

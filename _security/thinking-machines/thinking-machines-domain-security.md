@@ -43,7 +43,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Fine-Tuning
 - LLM
 - Model Training

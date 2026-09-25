@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/
 summary_line: SOC 2 Type 2, GDPR
 tags:
 - MSP
-- Microsoft-365
+- Microsoft 365
 - SaaS Management
 - SaaS Security
 - Shadow IT

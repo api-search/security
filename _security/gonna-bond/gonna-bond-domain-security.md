@@ -53,5 +53,5 @@ tags:
 - Algorand
 - Blockchain
 - Payments
-- agent-native
+- Agent-Native
 ---

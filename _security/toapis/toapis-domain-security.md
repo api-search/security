@@ -43,7 +43,8 @@ tags:
 - Model Routing
 - provider failover
 - Text Generation
-- Image-Generation
+- Image Generation
 - Video Generation
 - Developer Tools
+- A2A
 ---

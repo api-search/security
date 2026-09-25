@@ -98,12 +98,12 @@ source_yaml: "generated: '2026-09-09'\nmethod: derived\nsource: openapi/federal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/authentication/federal-highway-administration-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Federal-Government
+- Federal Government
 - Transportation
 - Highways
 - Bridge
 - Connected Vehicles
 - V2X
-- Open-Source
+- Open Source
 - Open Data
 ---

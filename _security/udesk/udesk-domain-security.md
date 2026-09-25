@@ -46,7 +46,7 @@ tags:
 - Ticketing
 - Chatbots
 - CRM
-- Knowledge-Management
+- Knowledge Management
 - Software-as-a-Service
 - China
 ---

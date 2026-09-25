@@ -36,7 +36,7 @@ tags:
 - Chatbots
 - Live Chat
 - Help Desk
-- Customer-Support
+- Customer Support
 - Omnichannel
 - Shared Inbox
 - CRM

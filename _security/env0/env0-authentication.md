@@ -112,4 +112,5 @@ tags:
 - Platform Engineering
 - Cloud Governance
 - Drift Detection
+- A2A
 ---

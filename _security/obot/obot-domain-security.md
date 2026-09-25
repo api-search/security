@@ -39,7 +39,7 @@ tags:
 - MCP
 - AI Agents
 - MCP Gateway
-- Open-Source
+- Open Source
 - Agent Governance
 - Access Control
 - Developer Tools

@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: cabify-delivery-api-openapi.yml
   format: yaml
-  label: Cabify delivery API
+  label: Cabify Delivery API
   slug: cabify-delivery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-delivery-api-openapi.yml
@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-estimates-api-openapi.yml
 - filename: cabify-hubs-api-openapi.yml
   format: yaml
-  label: Cabify hubs API
+  label: Cabify Hubs API
   slug: cabify-hubs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-hubs-api-openapi.yml
@@ -28,7 +28,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-journeys-api-openapi.yml
 - filename: cabify-label-api-openapi.yml
   format: yaml
-  label: Cabify label API
+  label: Cabify Label API
   slug: cabify-label-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-label-api-openapi.yml
@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-labels-api-openapi.yml
 - filename: cabify-parcels-api-openapi.yml
   format: yaml
-  label: Cabify parcels API
+  label: Cabify Parcels API
   slug: cabify-parcels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-parcels-api-openapi.yml
@@ -52,31 +52,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-sales-api-openapi.yml
 - filename: cabify-shipment-api-openapi.yml
   format: yaml
-  label: Cabify shipment API
+  label: Cabify Shipment API
   slug: cabify-shipment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipment-api-openapi.yml
 - filename: cabify-shipping-types-api-openapi.yml
   format: yaml
-  label: Cabify shipping_types API
+  label: Cabify Shipping Types API
   slug: cabify-shipping-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipping-types-api-openapi.yml
 - filename: cabify-status-api-openapi.yml
   format: yaml
-  label: Cabify status API
+  label: Cabify Status API
   slug: cabify-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-status-api-openapi.yml
 - filename: cabify-users-api-openapi.yml
   format: yaml
-  label: Cabify users API
+  label: Cabify Users API
   slug: cabify-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-users-api-openapi.yml
 - filename: cabify-webhooks-api-openapi.yml
   format: yaml
-  label: Cabify webhooks API
+  label: Cabify Webhooks API
   slug: cabify-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-webhooks-api-openapi.yml

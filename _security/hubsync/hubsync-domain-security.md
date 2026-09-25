@@ -34,8 +34,8 @@ tags:
 - Company
 - Tax
 - Accounting
-- Workflow-Automation
-- Document-Management
+- Workflow Automation
+- Document Management
 - Electronic Signature
 - Professional Services
 - Artificial Intelligence

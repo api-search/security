@@ -4,31 +4,31 @@ api_key_in: []
 api_specs:
 - filename: leapsome-absences-api-openapi.yml
   format: yaml
-  label: Leapsome absences API
+  label: Leapsome Absences API
   slug: leapsome-absences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-absences-api-openapi.yml
 - filename: leapsome-auth-api-openapi.yml
   format: yaml
-  label: Leapsome auth API
+  label: Leapsome Auth API
   slug: leapsome-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-auth-api-openapi.yml
 - filename: leapsome-documents-api-openapi.yml
   format: yaml
-  label: Leapsome documents API
+  label: Leapsome Documents API
   slug: leapsome-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-documents-api-openapi.yml
 - filename: leapsome-feedback-api-openapi.yml
   format: yaml
-  label: Leapsome feedback API
+  label: Leapsome Feedback API
   slug: leapsome-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-feedback-api-openapi.yml
 - filename: leapsome-goals-api-openapi.yml
   format: yaml
-  label: Leapsome goals API
+  label: Leapsome Goals API
   slug: leapsome-goals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-goals-api-openapi.yml
@@ -46,13 +46,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-leapsome-api-api-openapi.yml
 - filename: leapsome-payroll-api-openapi.yml
   format: yaml
-  label: Leapsome payroll API
+  label: Leapsome Payroll API
   slug: leapsome-payroll-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-payroll-api-openapi.yml
 - filename: leapsome-reviews-api-openapi.yml
   format: yaml
-  label: Leapsome reviews API
+  label: Leapsome Reviews API
   slug: leapsome-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-reviews-api-openapi.yml
@@ -64,13 +64,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-schemas-api-openapi.yml
 - filename: leapsome-users-api-openapi.yml
   format: yaml
-  label: Leapsome users API
+  label: Leapsome Users API
   slug: leapsome-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-users-api-openapi.yml
 - filename: leapsome-worklocations-api-openapi.yml
   format: yaml
-  label: Leapsome workLocations API
+  label: Leapsome Work Locations API
   slug: leapsome-worklocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-worklocations-api-openapi.yml

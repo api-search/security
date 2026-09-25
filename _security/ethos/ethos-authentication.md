@@ -38,7 +38,7 @@ tags:
 - Life Insurance
 - Insurtech
 - Underwriting
-- Financial-Services
+- Financial Services
 - Estate Planning
 - Partnership API
 ---

@@ -72,7 +72,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Security
 - Password Manager
-- Open-Source
+- Open Source
 - Vault
 - Identity
 - SCIM

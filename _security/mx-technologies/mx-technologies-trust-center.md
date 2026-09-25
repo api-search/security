@@ -2,7 +2,7 @@
 api_specs:
 - filename: mx-technologies-accounts-api-openapi.yml
   format: yaml
-  label: MX Technologies accounts API
+  label: MX Technologies Accounts API
   slug: mx-technologies-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-accounts-api-openapi.yml
@@ -14,31 +14,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-ach-return-api-openapi.yml
 - filename: mx-technologies-budgets-api-openapi.yml
   format: yaml
-  label: MX Technologies budgets API
+  label: MX Technologies Budgets API
   slug: mx-technologies-budgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-budgets-api-openapi.yml
 - filename: mx-technologies-categories-api-openapi.yml
   format: yaml
-  label: MX Technologies categories API
+  label: MX Technologies Categories API
   slug: mx-technologies-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-categories-api-openapi.yml
 - filename: mx-technologies-goals-api-openapi.yml
   format: yaml
-  label: MX Technologies goals API
+  label: MX Technologies Goals API
   slug: mx-technologies-goals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-goals-api-openapi.yml
 - filename: mx-technologies-insights-api-openapi.yml
   format: yaml
-  label: MX Technologies insights API
+  label: MX Technologies Insights API
   slug: mx-technologies-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-insights-api-openapi.yml
 - filename: mx-technologies-institutions-api-openapi.yml
   format: yaml
-  label: MX Technologies institutions API
+  label: MX Technologies Institutions API
   slug: mx-technologies-institutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-institutions-api-openapi.yml
@@ -62,19 +62,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-managed-data-deprecated-api-openapi.yml
 - filename: mx-technologies-members-api-openapi.yml
   format: yaml
-  label: MX Technologies members API
+  label: MX Technologies Members API
   slug: mx-technologies-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-members-api-openapi.yml
 - filename: mx-technologies-merchants-api-openapi.yml
   format: yaml
-  label: MX Technologies merchants API
+  label: MX Technologies Merchants API
   slug: mx-technologies-merchants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-merchants-api-openapi.yml
 - filename: mx-technologies-microdeposits-api-openapi.yml
   format: yaml
-  label: MX Technologies microdeposits API
+  label: MX Technologies Microdeposits API
   slug: mx-technologies-microdeposits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-microdeposits-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-monthly-cash-flow-profile-api-openapi.yml
 - filename: mx-technologies-notifications-api-openapi.yml
   format: yaml
-  label: MX Technologies notifications API
+  label: MX Technologies Notifications API
   slug: mx-technologies-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-notifications-api-openapi.yml
@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-processor-token-api-openapi.yml
 - filename: mx-technologies-rewards-api-openapi.yml
   format: yaml
-  label: MX Technologies rewards API
+  label: MX Technologies Rewards API
   slug: mx-technologies-rewards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-rewards-api-openapi.yml
@@ -110,19 +110,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-spending-plan-api-openapi.yml
 - filename: mx-technologies-statements-api-openapi.yml
   format: yaml
-  label: MX Technologies statements API
+  label: MX Technologies Statements API
   slug: mx-technologies-statements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-statements-api-openapi.yml
 - filename: mx-technologies-taggings-api-openapi.yml
   format: yaml
-  label: MX Technologies taggings API
+  label: MX Technologies Taggings API
   slug: mx-technologies-taggings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-taggings-api-openapi.yml
 - filename: mx-technologies-tags-api-openapi.yml
   format: yaml
-  label: MX Technologies tags API
+  label: MX Technologies Tags API
   slug: mx-technologies-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-tags-api-openapi.yml
@@ -134,13 +134,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-transaction-rules-api-openapi.yml
 - filename: mx-technologies-transactions-api-openapi.yml
   format: yaml
-  label: MX Technologies transactions API
+  label: MX Technologies Transactions API
   slug: mx-technologies-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-transactions-api-openapi.yml
 - filename: mx-technologies-users-api-openapi.yml
   format: yaml
-  label: MX Technologies users API
+  label: MX Technologies Users API
   slug: mx-technologies-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-users-api-openapi.yml
@@ -152,7 +152,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-verifiable-credentials-api-openapi.yml
 - filename: mx-technologies-widgets-api-openapi.yml
   format: yaml
-  label: MX Technologies widgets API
+  label: MX Technologies Widgets API
   slug: mx-technologies-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-widgets-api-openapi.yml

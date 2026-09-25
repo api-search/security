@@ -2,60 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ionetix-posts-api-openapi.yml
-  format: yaml
-  label: Ionetix Posts API
-  slug: ionetix-posts-api
+- filename: ionetix-wp-json-route-index.json
+  format: json
+  label: Ionetix Website (WordPress REST)
+  slug: ionetix-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-posts-api-openapi.yml
-- filename: ionetix-pages-api-openapi.yml
-  format: yaml
-  label: Ionetix Pages API
-  slug: ionetix-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-pages-api-openapi.yml
-- filename: ionetix-media-api-openapi.yml
-  format: yaml
-  label: Ionetix Media API
-  slug: ionetix-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-media-api-openapi.yml
-- filename: ionetix-taxonomy-api-openapi.yml
-  format: yaml
-  label: Ionetix Taxonomy API
-  slug: ionetix-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-taxonomy-api-openapi.yml
-- filename: ionetix-search-api-openapi.yml
-  format: yaml
-  label: Ionetix Search API
-  slug: ionetix-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-search-api-openapi.yml
-- filename: ionetix-users-api-openapi.yml
-  format: yaml
-  label: Ionetix Users API
-  slug: ionetix-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-users-api-openapi.yml
-- filename: ionetix-comments-api-openapi.yml
-  format: yaml
-  label: Ionetix Comments API
-  slug: ionetix-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-comments-api-openapi.yml
-- filename: ionetix-discovery-api-openapi.yml
-  format: yaml
-  label: Ionetix Discovery API
-  slug: ionetix-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-discovery-api-openapi.yml
-- filename: ionetix-o-embed-api-openapi.yml
-  format: yaml
-  label: Ionetix o Embed API
-  slug: ionetix-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-o-embed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/openapi/ionetix-wp-json-route-index.json
 auth_types:
 - http
 description: ''
@@ -104,5 +56,4 @@ tags:
 - Oncology
 - Isotopes
 - Manufacturing
-- Content
 ---

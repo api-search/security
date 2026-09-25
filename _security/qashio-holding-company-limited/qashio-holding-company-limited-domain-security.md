@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Qashio Holding Company Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Qashio Holding Company Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Qashio Holding Company Limited
+overview: 'Domain security posture for Qashio, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Qashio
 provider_slug: qashio-holding-company-limited
 slug: qashio-holding-company-limited-domain-security
 source_filename: qashio-holding-company-limited-domain-security.yml

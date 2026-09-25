@@ -86,7 +86,7 @@ summary_line: http-bearer/cookie/oauth2/did · 4 schemes
 tags:
 - Company
 - AI Agents
-- Social Networking
+- Social Network
 - Agent Registry
 - A2A
 - MCP

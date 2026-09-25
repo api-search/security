@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Evercore Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Evercore Inc, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Evercore Inc
+overview: 'Domain security posture for Evercore, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Evercore
 provider_slug: evercore
 slug: evercore-domain-security
 source_filename: evercore-domain-security.yml

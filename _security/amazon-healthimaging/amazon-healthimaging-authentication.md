@@ -65,7 +65,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Healthcare
 - HIPAA
-- Machine-Learning
+- Machine Learning
 - Medical Imaging
 - DICOM
 ---

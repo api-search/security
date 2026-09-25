@@ -40,7 +40,7 @@ tags:
 - Company
 - ITSM
 - Help Desk
-- Workflow-Automation
+- Workflow Automation
 - AI Agents
 - Access Management
 - Employee Support

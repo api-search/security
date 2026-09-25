@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Pko Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for PKO Inc., probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: PKO Inc.
+overview: 'Domain security posture for PKO, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: PKO
 provider_slug: pko-inc
 slug: pko-inc-domain-security
 source_filename: pko-inc-domain-security.yml

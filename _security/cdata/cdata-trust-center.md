@@ -112,5 +112,6 @@ tags:
 - Database
 - NoSQL
 - SQL
+- A2A
 trust_url: https://www.cdata.com/security/
 ---

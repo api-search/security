@@ -32,7 +32,7 @@ tags:
 - Company
 - Ai Apps
 - Trust and Safety
-- Machine-Learning
+- Machine Learning
 - Background Checks
 - Risk Assessment
 - Acquired

@@ -37,7 +37,7 @@ tags:
 - Digital Twin
 - HVAC
 - Energy
-- Data-Center
+- Data Center
 - Sustainability
 - IoT
 ---

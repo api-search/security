@@ -44,7 +44,7 @@ tags:
 - Company
 - Robotics
 - Robot Learning
-- Machine-Learning
+- Machine Learning
 - Imitation Learning
 - Reinforcement Learning
 - Teleoperation

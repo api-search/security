@@ -68,5 +68,5 @@ tags:
 - Commerce
 - Workflows
 - Webhook
-- Open-Source
+- Open Source
 ---

@@ -98,7 +98,7 @@ tags:
 - Matter Management
 - Governance Risk and Compliance
 - Compliance
-- Workflow-Automation
+- Workflow Automation
 - Contract Lifecycle Management
 - HR Compliance
 - Risk Management

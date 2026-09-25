@@ -117,7 +117,7 @@ tags:
 - Financial Reporting
 - Enterprise Software
 - Accounting
-- Real-Estate
+- Real Estate
 - Asset Management
 - ERP Integration
 - Compliance

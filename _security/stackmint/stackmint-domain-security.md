@@ -47,7 +47,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - AI Governance
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Enterprise AI
 - MCP
 - Semantic Layer

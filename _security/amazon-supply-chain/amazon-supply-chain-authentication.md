@@ -71,6 +71,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - ERP Integration
 - Logistics
-- Machine-Learning
+- Machine Learning
 - Supply Chain
 ---

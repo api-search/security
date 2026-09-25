@@ -209,6 +209,6 @@ tags:
 - Agentic Payments
 - Cards
 - KYC
-- Financial-Services
+- Financial Services
 - Foreign Exchange
 ---

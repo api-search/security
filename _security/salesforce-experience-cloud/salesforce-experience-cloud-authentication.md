@@ -273,7 +273,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-exp
 summary_line: http/oauth2 · 2 schemes
 tags:
 - CMS
-- Communities
+- Community
 - CRM
 - Customer Portal
 - Digital Experience

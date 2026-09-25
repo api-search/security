@@ -30,5 +30,6 @@ tags:
 - Voice
 - CRM
 - Go-To-Market
+- A2A
 trust_url: https://trust.11x.ai/
 ---

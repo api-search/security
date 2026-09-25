@@ -480,4 +480,8 @@ tags:
 - Platform
 - Search
 - T1
+- Agentic Commerce
+- Universal Commerce Protocol
+- AP2
+- A2A
 ---

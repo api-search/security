@@ -94,4 +94,5 @@ tags:
 - Last Mile Delivery
 - On-Demand
 - Order
+- Restaurant
 ---

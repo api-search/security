@@ -90,6 +90,7 @@ tags:
 - Email Verification
 - Enrichment
 - GraphQL
-- Open-Source
+- Open Source
+- A2A
 trust_url: https://docs.customeros.ai/security-and-compliance
 ---

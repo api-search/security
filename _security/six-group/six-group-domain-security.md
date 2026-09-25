@@ -8,7 +8,7 @@ api_specs:
   url: https://docs.blink.six-group.com/docs/downloads
 - filename: six-group-card-management-api-openapi.yml
   format: yaml
-  label: SIX debiX API
+  label: SIX Debi X API
   slug: debix-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/openapi/six-group-card-management-api-openapi.yml
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/security/six-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Reference Data

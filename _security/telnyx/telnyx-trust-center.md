@@ -1039,5 +1039,6 @@ tags:
 - Voice
 - SMS
 - IoT
+- Telecommunications
 trust_url: https://trust.telnyx.com/
 ---

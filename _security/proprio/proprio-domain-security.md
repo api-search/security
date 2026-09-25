@@ -37,7 +37,7 @@ tags:
 - Medical Devices
 - MedTech
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Light Field Imaging
 - Spine Surgery
 - Healthcare

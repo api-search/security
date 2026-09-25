@@ -13,8 +13,8 @@ kind: trust-center
 layout: security
 name: Scvd Store Trust Center
 name_suffix: Trust Center
-overview: Record Creative Co. LLC maintains a public trust center covering its security and compliance posture.
-provider_name: Record Creative Co. LLC
+overview: SCVD General Store maintains a public trust center covering its security and compliance posture.
+provider_name: SCVD General Store
 provider_slug: scvd-store
 slug: scvd-store-trust-center
 source_filename: scvd-store-trust-center.yml
@@ -42,7 +42,7 @@ tags:
 - A2A
 - Universal Commerce Protocol
 - Signatures
-- agent-native
+- Agent-Native
 - United States
 trust_url: https://scvd.store/trust
 ---

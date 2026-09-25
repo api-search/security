@@ -45,5 +45,5 @@ tags:
 - Social Impact
 - Insurance
 - Indonesia
-- Open-Source
+- Open Source
 ---

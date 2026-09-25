@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Indoor Mapping
 - Indoor Navigation
 - Augmented Reality

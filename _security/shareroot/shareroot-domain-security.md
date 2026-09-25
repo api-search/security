@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Marketing
-- Social-Media
+- Social Media
 - User Generated Content
 - Digital Experience
 - Advertising

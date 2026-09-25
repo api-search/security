@@ -32,13 +32,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-categories-api-openapi.yml
 - filename: propelplm-change-api-openapi.yml
   format: yaml
-  label: Propel Software (Propel PLM) change API
+  label: Propel Software (Propel PLM) Change API
   slug: propelplm-change-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-change-api-openapi.yml
 - filename: propelplm-channels-api-openapi.yml
   format: yaml
-  label: Propel Software (Propel PLM) channels API
+  label: Propel Software (Propel PLM) Channels API
   slug: propelplm-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-channels-api-openapi.yml
@@ -68,19 +68,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-manufacturerpart-api-openapi.yml
 - filename: propelplm-markup-api-openapi.yml
   format: yaml
-  label: Propel Software (Propel PLM) markup API
+  label: Propel Software (Propel PLM) Markup API
   slug: propelplm-markup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-markup-api-openapi.yml
 - filename: propelplm-products-api-openapi.yml
   format: yaml
-  label: Propel Software (Propel PLM) products API
+  label: Propel Software (Propel PLM) Products API
   slug: propelplm-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-products-api-openapi.yml
 - filename: propelplm-variants-api-openapi.yml
   format: yaml
-  label: Propel Software (Propel PLM) variants API
+  label: Propel Software (Propel PLM) Variants API
   slug: propelplm-variants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-variants-api-openapi.yml

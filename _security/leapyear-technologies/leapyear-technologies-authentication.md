@@ -52,7 +52,7 @@ tags:
 - AI Infrastructure
 - Differential Privacy
 - Data Privacy
-- Machine-Learning
+- Machine Learning
 - Data Clean Rooms
 - Privacy Enhancing Technologies
 - Acquired

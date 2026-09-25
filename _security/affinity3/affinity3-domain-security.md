@@ -37,7 +37,7 @@ tags:
 - User Generated Content
 - Marketing
 - E-Commerce
-- Social-Media
+- Social Media
 - Shopify
 - Direct to Consumer
 ---

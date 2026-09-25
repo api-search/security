@@ -24,6 +24,6 @@ tags:
 - Human Resources
 - Interviewing
 - Talent Acquisition
-- ATS
+- Applicant Tracking
 trust_url: https://trust.qualifi.hr/
 ---

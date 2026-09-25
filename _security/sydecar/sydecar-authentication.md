@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sydecar/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Venture Capital
 - SPV

@@ -36,7 +36,7 @@ tags:
 - Identity
 - KYC
 - KYB
-- Financial-Services
+- Financial Services
 - Insurance
 - Human Resources
 - Lending

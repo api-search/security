@@ -54,7 +54,7 @@ tags:
 - WebSocket
 - OpenAPI
 - MCP
-- agent-native
+- Agent-Native
 - llms-txt
 - SDK
 - Postman

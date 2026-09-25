@@ -37,7 +37,7 @@ tags:
 - Media
 - Marketplace
 - Mexico
-- Real-Estate
+- Real Estate
 - Drone
 - Virtual Tours
 ---

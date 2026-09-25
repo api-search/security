@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Fmc Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for FMC Corporation, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: FMC Corporation
+overview: 'Domain security posture for FMC, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: FMC
 provider_slug: fmc-corporation
 slug: fmc-corporation-domain-security
 source_filename: fmc-corporation-domain-security.yml

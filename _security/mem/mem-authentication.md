@@ -12,7 +12,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-coreapi-service-info-api-openapi.yml
 - filename: mem-external-api-openapi.yml
   format: yaml
-  label: Mem external API
+  label: Mem External API
   slug: mem-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-api-openapi.yml
@@ -63,7 +63,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
 - Notes
-- Knowledge-Management
+- Knowledge Management
 - Productivity
 - Artificial Intelligence
 - Note Taking

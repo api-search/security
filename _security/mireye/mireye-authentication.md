@@ -163,7 +163,7 @@ tags:
 - AI Agents
 - MCP
 - Government Data
-- Risk
+- Risk Management
 - Insurance
 - Data
 ---

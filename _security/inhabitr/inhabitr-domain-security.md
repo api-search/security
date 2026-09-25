@@ -46,7 +46,7 @@ tags:
 - Company
 - Furniture Rental
 - Commercial Real Estate
-- Property Technology
+- PropTech
 - Hospitality
 - Multifamily
 - Interior Design

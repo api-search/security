@@ -2,25 +2,25 @@
 api_specs:
 - filename: spaitial-files-api-openapi.yml
   format: yaml
-  label: SpAItial files API
+  label: SpAItial Files API
   slug: spaitial-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-files-api-openapi.yml
 - filename: spaitial-models-api-openapi.yml
   format: yaml
-  label: SpAItial models API
+  label: SpAItial Models API
   slug: spaitial-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-models-api-openapi.yml
 - filename: spaitial-panoramas-api-openapi.yml
   format: yaml
-  label: SpAItial panoramas API
+  label: SpAItial Panoramas API
   slug: spaitial-panoramas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-panoramas-api-openapi.yml
 - filename: spaitial-worlds-api-openapi.yml
   format: yaml
-  label: SpAItial worlds API
+  label: SpAItial Worlds API
   slug: spaitial-worlds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-worlds-api-openapi.yml

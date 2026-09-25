@@ -47,7 +47,7 @@ tags:
 - Database
 - NoSQL
 - Real-Time
-- Key-Value
+- Key-Value Store
 - In-Memory
 - Vector Database
 - High Performance

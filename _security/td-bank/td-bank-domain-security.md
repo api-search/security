@@ -134,7 +134,7 @@ tags:
 - Consent
 - Consumer Banking
 - FDX
-- Financial-Services
+- Financial Services
 - Merchant Solutions
 - Notification
 - Open Banking

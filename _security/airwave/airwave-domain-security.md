@@ -34,7 +34,7 @@ tags:
 - Field Service
 - Smart Glasses
 - Wearables
-- Computer-Vision
+- Computer Vision
 - Industrial
 - AI Assistant
 - Inspection Reports

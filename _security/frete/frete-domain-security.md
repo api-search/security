@@ -81,5 +81,5 @@ tags:
 - Fintech
 - Brazil
 - Latin America
-- Machine-Learning
+- Machine Learning
 ---

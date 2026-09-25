@@ -36,6 +36,6 @@ tags:
 - Loan Management
 - Loan Servicing
 - Loan Origination
-- Financial-Services
+- Financial Services
 - Software-as-a-Service
 ---

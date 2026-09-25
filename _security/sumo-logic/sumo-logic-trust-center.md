@@ -2,145 +2,145 @@
 api_specs:
 - filename: sumo-logic-accesskeymanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic accessKeyManagement API
+  label: Sumo Logic Access Key Management API
   slug: sumo-logic-accesskeymanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-accesskeymanagement-api-openapi.yml
 - filename: sumo-logic-appmanagementv2-api-openapi.yml
   format: yaml
-  label: Sumo Logic appManagementV2 API
+  label: Sumo Logic App Management V2 API
   slug: sumo-logic-appmanagementv2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-appmanagementv2-api-openapi.yml
 - filename: sumo-logic-archivemanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic archiveManagement API
+  label: Sumo Logic Archive Management API
   slug: sumo-logic-archivemanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-archivemanagement-api-openapi.yml
 - filename: sumo-logic-dashboardmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic dashboardManagement API
+  label: Sumo Logic Dashboard Management API
   slug: sumo-logic-dashboardmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-dashboardmanagement-api-openapi.yml
 - filename: sumo-logic-datadeletionrules-api-openapi.yml
   format: yaml
-  label: Sumo Logic dataDeletionRules API
+  label: Sumo Logic Data Deletion Rules API
   slug: sumo-logic-datadeletionrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-datadeletionrules-api-openapi.yml
 - filename: sumo-logic-datamaskingmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic dataMaskingManagement API
+  label: Sumo Logic Data Masking Management API
   slug: sumo-logic-datamaskingmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-datamaskingmanagement-api-openapi.yml
 - filename: sumo-logic-dynamicparsingrulemanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic dynamicParsingRuleManagement API
+  label: Sumo Logic Dynamic Parsing Rule Management API
   slug: sumo-logic-dynamicparsingrulemanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-dynamicparsingrulemanagement-api-openapi.yml
 - filename: sumo-logic-extractionrulemanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic extractionRuleManagement API
+  label: Sumo Logic Extraction Rule Management API
   slug: sumo-logic-extractionrulemanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-extractionrulemanagement-api-openapi.yml
 - filename: sumo-logic-fieldmanagementv1-api-openapi.yml
   format: yaml
-  label: Sumo Logic fieldManagementV1 API
+  label: Sumo Logic Field Management V1 API
   slug: sumo-logic-fieldmanagementv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-fieldmanagementv1-api-openapi.yml
 - filename: sumo-logic-foldermanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic folderManagement API
+  label: Sumo Logic Folder Management API
   slug: sumo-logic-foldermanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-foldermanagement-api-openapi.yml
 - filename: sumo-logic-healthevents-api-openapi.yml
   format: yaml
-  label: Sumo Logic healthEvents API
+  label: Sumo Logic Health Events API
   slug: sumo-logic-healthevents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-healthevents-api-openapi.yml
 - filename: sumo-logic-ingestbudgetmanagementv2-api-openapi.yml
   format: yaml
-  label: Sumo Logic ingestBudgetManagementV2 API
+  label: Sumo Logic Ingest Budget Management V2 API
   slug: sumo-logic-ingestbudgetmanagementv2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-ingestbudgetmanagementv2-api-openapi.yml
 - filename: sumo-logic-logsdataforwardingmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic logsDataForwardingManagement API
+  label: Sumo Logic Logs Data Forwarding Management API
   slug: sumo-logic-logsdataforwardingmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-logsdataforwardingmanagement-api-openapi.yml
 - filename: sumo-logic-logsearchesestimatedusage-api-openapi.yml
   format: yaml
-  label: Sumo Logic logSearchesEstimatedUsage API
+  label: Sumo Logic Log Searches Estimated Usage API
   slug: sumo-logic-logsearchesestimatedusage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-logsearchesestimatedusage-api-openapi.yml
 - filename: sumo-logic-logsearchesmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic logSearchesManagement API
+  label: Sumo Logic Log Searches Management API
   slug: sumo-logic-logsearchesmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-logsearchesmanagement-api-openapi.yml
 - filename: sumo-logic-lookupmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic lookupManagement API
+  label: Sumo Logic Lookup Management API
   slug: sumo-logic-lookupmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-lookupmanagement-api-openapi.yml
 - filename: sumo-logic-macromanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic macroManagement API
+  label: Sumo Logic Macro Management API
   slug: sumo-logic-macromanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-macromanagement-api-openapi.yml
 - filename: sumo-logic-metricsquery-api-openapi.yml
   format: yaml
-  label: Sumo Logic metricsQuery API
+  label: Sumo Logic Metrics Query API
   slug: sumo-logic-metricsquery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-metricsquery-api-openapi.yml
 - filename: sumo-logic-metricssearchesmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic metricsSearchesManagement API
+  label: Sumo Logic Metrics Searches Management API
   slug: sumo-logic-metricssearchesmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-metricssearchesmanagement-api-openapi.yml
 - filename: sumo-logic-metricssearchesmanagementv2-api-openapi.yml
   format: yaml
-  label: Sumo Logic metricsSearchesManagementV2 API
+  label: Sumo Logic Metrics Searches Management V2 API
   slug: sumo-logic-metricssearchesmanagementv2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-metricssearchesmanagementv2-api-openapi.yml
 - filename: sumo-logic-monitorslibrarymanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic monitorsLibraryManagement API
+  label: Sumo Logic Monitors Library Management API
   slug: sumo-logic-monitorslibrarymanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-monitorslibrarymanagement-api-openapi.yml
 - filename: sumo-logic-mutingscheduleslibrarymanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic mutingSchedulesLibraryManagement API
+  label: Sumo Logic Muting Schedules Library Management API
   slug: sumo-logic-mutingscheduleslibrarymanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-mutingscheduleslibrarymanagement-api-openapi.yml
 - filename: sumo-logic-oauthmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic oauthManagement API
+  label: Sumo Logic OAUTH Management API
   slug: sumo-logic-oauthmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-oauthmanagement-api-openapi.yml
 - filename: sumo-logic-orgsmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic orgsManagement API
+  label: Sumo Logic Orgs Management API
   slug: sumo-logic-orgsmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-orgsmanagement-api-openapi.yml
@@ -152,109 +152,109 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-otcollectormanagementexternal-api-openapi.yml
 - filename: sumo-logic-parserslibrarymanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic parsersLibraryManagement API
+  label: Sumo Logic Parsers Library Management API
   slug: sumo-logic-parserslibrarymanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-parserslibrarymanagement-api-openapi.yml
 - filename: sumo-logic-partitionmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic partitionManagement API
+  label: Sumo Logic Partition Management API
   slug: sumo-logic-partitionmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-partitionmanagement-api-openapi.yml
 - filename: sumo-logic-policiesmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic policiesManagement API
+  label: Sumo Logic Policies Management API
   slug: sumo-logic-policiesmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-policiesmanagement-api-openapi.yml
 - filename: sumo-logic-rolemanagementv2-api-openapi.yml
   format: yaml
-  label: Sumo Logic roleManagementV2 API
+  label: Sumo Logic Role Management V2 API
   slug: sumo-logic-rolemanagementv2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-rolemanagementv2-api-openapi.yml
 - filename: sumo-logic-samlconfigurationmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic samlConfigurationManagement API
+  label: Sumo Logic Saml Configuration Management API
   slug: sumo-logic-samlconfigurationmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-samlconfigurationmanagement-api-openapi.yml
 - filename: sumo-logic-scheduledviewmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic scheduledViewManagement API
+  label: Sumo Logic Scheduled View Management API
   slug: sumo-logic-scheduledviewmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-scheduledviewmanagement-api-openapi.yml
 - filename: sumo-logic-schemabasemanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic schemaBaseManagement API
+  label: Sumo Logic Schema Base Management API
   slug: sumo-logic-schemabasemanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-schemabasemanagement-api-openapi.yml
 - filename: sumo-logic-serviceaccountmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic serviceAccountManagement API
+  label: Sumo Logic Service Account Management API
   slug: sumo-logic-serviceaccountmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-serviceaccountmanagement-api-openapi.yml
 - filename: sumo-logic-serviceallowlistmanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic serviceAllowlistManagement API
+  label: Sumo Logic Service Allowlist Management API
   slug: sumo-logic-serviceallowlistmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-serviceallowlistmanagement-api-openapi.yml
 - filename: sumo-logic-servicemap-api-openapi.yml
   format: yaml
-  label: Sumo Logic serviceMap API
+  label: Sumo Logic Service Map API
   slug: sumo-logic-servicemap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-servicemap-api-openapi.yml
 - filename: sumo-logic-sloslibrarymanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic slosLibraryManagement API
+  label: Sumo Logic Slos Library Management API
   slug: sumo-logic-sloslibrarymanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-sloslibrarymanagement-api-openapi.yml
 - filename: sumo-logic-sourcetemplatemanagementexternal-api-openapi.yml
   format: yaml
-  label: Sumo Logic sourceTemplateManagementExternal API
+  label: Sumo Logic Source Template Management External API
   slug: sumo-logic-sourcetemplatemanagementexternal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-sourcetemplatemanagementexternal-api-openapi.yml
 - filename: sumo-logic-spananalytics-api-openapi.yml
   format: yaml
-  label: Sumo Logic spanAnalytics API
+  label: Sumo Logic Span Analytics API
   slug: sumo-logic-spananalytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-spananalytics-api-openapi.yml
 - filename: sumo-logic-threatintelingest-api-openapi.yml
   format: yaml
-  label: Sumo Logic threatIntelIngest API
+  label: Sumo Logic Threat Intel Ingest API
   slug: sumo-logic-threatintelingest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-threatintelingest-api-openapi.yml
 - filename: sumo-logic-threatintelingestproducer-api-openapi.yml
   format: yaml
-  label: Sumo Logic threatIntelIngestProducer API
+  label: Sumo Logic Threat Intel Ingest Producer API
   slug: sumo-logic-threatintelingestproducer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-threatintelingestproducer-api-openapi.yml
 - filename: sumo-logic-tokenslibrarymanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic tokensLibraryManagement API
+  label: Sumo Logic Tokens Library Management API
   slug: sumo-logic-tokenslibrarymanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-tokenslibrarymanagement-api-openapi.yml
 - filename: sumo-logic-traces-api-openapi.yml
   format: yaml
-  label: Sumo Logic traces API
+  label: Sumo Logic Traces API
   slug: sumo-logic-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-traces-api-openapi.yml
 - filename: sumo-logic-transformationrulemanagement-api-openapi.yml
   format: yaml
-  label: Sumo Logic transformationRuleManagement API
+  label: Sumo Logic Transformation Rule Management API
   slug: sumo-logic-transformationrulemanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/openapi/sumo-logic-transformationrulemanagement-api-openapi.yml

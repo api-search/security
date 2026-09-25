@@ -32,4 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Science And Math
 - Public APIs
+- Research Data
+- Scholarly
+- Citations
+- Open Data
 ---

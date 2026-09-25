@@ -51,10 +51,10 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Media Generation
 - Video Generation
-- Image-Generation
+- Image Generation
 - Audio Generation
 - Text-to-Speech
 - LLM

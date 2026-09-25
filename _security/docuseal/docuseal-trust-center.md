@@ -43,10 +43,10 @@ tags:
 - Document Signing
 - E-Signature
 - Electronic Signature
-- Document-Management
+- Document Management
 - PDF
 - Templates
-- Open-Source
+- Open Source
 - Webhook
 - Embeddings
 trust_url: https://trust.docuseal.com/

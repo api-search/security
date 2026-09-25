@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-create-a-mandate-api-openapi.yml
 - filename: ordo-ordo-hosted-api-openapi.yml
   format: yaml
-  label: Ordo hosted API
+  label: Ordo Hosted API
   slug: ordo-ordo-hosted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-ordo-hosted-api-openapi.yml

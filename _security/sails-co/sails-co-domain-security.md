@@ -39,5 +39,5 @@ tags:
 - ORM
 - REST API
 - JavaScript
-- Open-Source
+- Open Source
 ---

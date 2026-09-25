@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Clinovas Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Clinovas LTD, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Clinovas LTD
+overview: 'Domain security posture for Clinovas, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Clinovas
 provider_slug: clinovas-ltd
 slug: clinovas-ltd-domain-security
 source_filename: clinovas-ltd-domain-security.yml

@@ -40,6 +40,6 @@ tags:
 - Scientific Data
 - Lab Automation
 - Instrument Integration
-- Biotech
+- Biotechnology
 - Pharma
 ---

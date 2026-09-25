@@ -97,5 +97,6 @@ tags:
 - Security
 - Visualization
 - Cloud
+- Monitoring
 trust_url: https://www.elastic.co/trust
 ---

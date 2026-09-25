@@ -125,7 +125,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-watches-api-openapi.yml
 - filename: apis-io-apis-api-openapi.yml
   format: yaml
-  label: APIs.io AP Is API
+  label: APIs.io APIs API
   slug: apis-io-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
@@ -200,4 +200,5 @@ tags:
 - Agent Skills
 - OpenAPI
 - API Governance
+- A2A
 ---

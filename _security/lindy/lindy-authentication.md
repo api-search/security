@@ -28,12 +28,12 @@ summary_line: 0 schemes
 tags:
 - AI Agents
 - AI Automation
-- Agentic AI
 - MCP
-- Workflow-Automation
+- Workflow Automation
 - Virtual Assistant
 - Productivity
 - Email
 - Meetings
 - Slack
+- A2A
 ---

@@ -65,4 +65,5 @@ tags:
 - Audio
 - Generative
 - TTS
+- Music
 ---

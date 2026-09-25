@@ -88,13 +88,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-component-api-openapi.yml
 - filename: deutsche-telekom-deleting-api-openapi.yml
   format: yaml
-  label: Deutsche Telekom deleting API
+  label: Deutsche Telekom Deleting API
   slug: deutsche-telekom-deleting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-deleting-api-openapi.yml
 - filename: deutsche-telekom-downloading-api-openapi.yml
   format: yaml
-  label: Deutsche Telekom downloading API
+  label: Deutsche Telekom Downloading API
   slug: deutsche-telekom-downloading-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-downloading-api-openapi.yml
@@ -136,7 +136,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-key-api-openapi.yml
 - filename: deutsche-telekom-onboarding-api-openapi.yml
   format: yaml
-  label: Deutsche Telekom onboarding API
+  label: Deutsche Telekom Onboarding API
   slug: deutsche-telekom-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-onboarding-api-openapi.yml
@@ -196,13 +196,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-scope-mappings-api-openapi.yml
 - filename: deutsche-telekom-secrets-api-openapi.yml
   format: yaml
-  label: Deutsche Telekom secrets API
+  label: Deutsche Telekom Secrets API
   slug: deutsche-telekom-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-secrets-api-openapi.yml
 - filename: deutsche-telekom-uploading-api-openapi.yml
   format: yaml
-  label: Deutsche Telekom uploading API
+  label: Deutsche Telekom Uploading API
   slug: deutsche-telekom-uploading-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-uploading-api-openapi.yml
@@ -273,7 +273,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-telek
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Telecommunications
-- Telco
 - Mobile Network Operator
 - CPaaS
 - Network APIs
@@ -288,7 +287,7 @@ tags:
 - Magenta
 - MagentaBusiness
 - API Gateway
-- Open-Source
+- Open Source
 - Germany
 - Europe
 ---

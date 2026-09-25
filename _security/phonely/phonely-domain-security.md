@@ -66,7 +66,7 @@ tags:
 - Contact Center
 - SMS
 - Webhook
-- Workflow-Automation
+- Workflow Automation
 - Scheduling
 - CRM
 ---

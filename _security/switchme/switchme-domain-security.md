@@ -35,5 +35,5 @@ tags:
 - India
 - Lending
 - Mobile
-- Financial-Services
+- Financial Services
 ---

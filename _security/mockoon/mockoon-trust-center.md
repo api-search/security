@@ -33,6 +33,6 @@ tags:
 - Desktop
 - CLI
 - Platform
-- Open-Source
+- Open Source
 trust_url: https://mockoon.com/trust/
 ---

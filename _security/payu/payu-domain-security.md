@@ -137,7 +137,7 @@ tags:
 - Payments
 - Payment Processing
 - Fintech
-- Financial-Services
+- Financial Services
 - Subscription
 - Fraud Detection
 - Checkout

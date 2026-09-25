@@ -2,85 +2,85 @@
 api_specs:
 - filename: withings-answers-api-openapi.yml
   format: yaml
-  label: Withings answers API
+  label: Withings Answers API
   slug: withings-answers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-answers-api-openapi.yml
 - filename: withings-device-api-openapi.yml
   format: yaml
-  label: Withings device API
+  label: Withings Device API
   slug: withings-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-device-api-openapi.yml
 - filename: withings-dropshipment-api-openapi.yml
   format: yaml
-  label: Withings dropshipment API
+  label: Withings Dropshipment API
   slug: withings-dropshipment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-dropshipment-api-openapi.yml
 - filename: withings-heart-api-openapi.yml
   format: yaml
-  label: Withings heart API
+  label: Withings Heart API
   slug: withings-heart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-heart-api-openapi.yml
 - filename: withings-measure-api-openapi.yml
   format: yaml
-  label: Withings measure API
+  label: Withings Measure API
   slug: withings-measure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-measure-api-openapi.yml
 - filename: withings-notify-api-openapi.yml
   format: yaml
-  label: Withings notify API
+  label: Withings Notify API
   slug: withings-notify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-notify-api-openapi.yml
 - filename: withings-nudge-api-openapi.yml
   format: yaml
-  label: Withings nudge API
+  label: Withings Nudge API
   slug: withings-nudge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-nudge-api-openapi.yml
 - filename: withings-nudgecampaign-api-openapi.yml
   format: yaml
-  label: Withings nudgecampaign API
+  label: Withings Nudgecampaign API
   slug: withings-nudgecampaign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-nudgecampaign-api-openapi.yml
 - filename: withings-order-api-openapi.yml
   format: yaml
-  label: Withings order API
+  label: Withings Order API
   slug: withings-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-order-api-openapi.yml
 - filename: withings-signature-api-openapi.yml
   format: yaml
-  label: Withings signature API
+  label: Withings Signature API
   slug: withings-signature-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-signature-api-openapi.yml
 - filename: withings-sleep-api-openapi.yml
   format: yaml
-  label: Withings sleep API
+  label: Withings Sleep API
   slug: withings-sleep-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-sleep-api-openapi.yml
 - filename: withings-stetho-api-openapi.yml
   format: yaml
-  label: Withings stetho API
+  label: Withings Stetho API
   slug: withings-stetho-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-stetho-api-openapi.yml
 - filename: withings-survey-api-openapi.yml
   format: yaml
-  label: Withings survey API
+  label: Withings Survey API
   slug: withings-survey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-survey-api-openapi.yml
 - filename: withings-user-api-openapi.yml
   format: yaml
-  label: Withings user API
+  label: Withings User API
   slug: withings-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-user-api-openapi.yml
@@ -155,4 +155,5 @@ tags:
 - Remote Patient Monitoring
 - Authentication
 - Webhook
+- Wellness
 ---

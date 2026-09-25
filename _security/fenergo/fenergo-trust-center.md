@@ -1709,14 +1709,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/h
 summary_line: ISO/IEC 27001:2022, SOC 2 Type II (SSAE 18)
 tags:
 - Compliance
-- Financial-Services
+- Financial Services
 - KYC
 - AML
 - Onboarding
 - Client Lifecycle Management
 - Transaction Monitoring
 - Screening
-- Risk
+- Risk Management
 - RegTech
 - Software-as-a-Service
 - Identity

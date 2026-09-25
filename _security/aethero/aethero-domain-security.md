@@ -35,7 +35,7 @@ tags:
 - Edge Computing
 - Satellite
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Aerospace
 - Defense
 - Hardware

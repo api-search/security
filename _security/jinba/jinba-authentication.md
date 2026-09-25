@@ -140,7 +140,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Workflow-Automation
+- Workflow Automation
 - Enterprise
 - MCP
 - Low-Code

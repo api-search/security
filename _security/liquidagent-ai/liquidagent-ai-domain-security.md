@@ -55,8 +55,8 @@ tags:
 - Base
 - Solana
 - AI Agents
-- agent-native
+- Agent-Native
 - A2A
-- Portfolio-Management
+- Portfolio Management
 - Market Data
 ---

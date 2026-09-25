@@ -22,7 +22,7 @@ tags:
 - Company
 - Enterprise
 - Documentation
-- Knowledge-Management
+- Knowledge Management
 - Collaboration
 - Wiki
 - Productivity

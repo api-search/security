@@ -43,7 +43,7 @@ summary_line: oauth2 · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Predictive Analytics
 - Data Preparation

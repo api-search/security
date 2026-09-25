@@ -59,5 +59,5 @@ tags:
 - Statistics
 - Geospatial
 - Market News
-- Federal-Government
+- Federal Government
 ---

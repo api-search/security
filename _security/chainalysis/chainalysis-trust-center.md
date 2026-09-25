@@ -26,11 +26,11 @@ summary_line: verified, verified_note, claimed_indirect
 tags:
 - Compliance
 - AML
-- KYT
+- Transaction Monitoring
 - Sanctions
 - Investigations
 - Blockchain Analytics
-- Risk
+- Risk Management
 - Crypto
 trust_url: ''
 ---

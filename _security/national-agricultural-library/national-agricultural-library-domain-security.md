@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-agric
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Agriculture
-- Federal-Government
+- Federal Government
 - Library
 - Food
 - Nutrition

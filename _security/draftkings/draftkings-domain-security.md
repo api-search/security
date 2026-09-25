@@ -37,4 +37,5 @@ tags:
 - Online Casino
 - Sports Betting
 - Sportsbook
+- Sports
 ---

@@ -37,6 +37,6 @@ tags:
 - Clinical Research
 - Life Sciences
 - Data Analytics
-- Biotech
+- Biotechnology
 - HIPAA
 ---

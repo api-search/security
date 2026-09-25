@@ -104,7 +104,7 @@ tags:
 - Deal Flow
 - Valuation
 - Investment
-- Financial-Services
+- Financial Services
 - Agents
 - A2A
 - France

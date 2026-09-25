@@ -36,7 +36,7 @@ tags:
 - ETFs
 - Asset Management
 - Investing
-- Financial-Services
+- Financial Services
 - Thematic Investing
 - Fintech
 ---

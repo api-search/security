@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/police-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/authentication/police-bank-authentication.yml
 summary_line: 0 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

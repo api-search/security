@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Data Analytics
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Artificial Intelligence
 - Data Science

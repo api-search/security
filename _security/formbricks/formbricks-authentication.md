@@ -79,5 +79,5 @@ tags:
 - Experience Management
 - Feedback
 - Forms
-- Open-Source
+- Open Source
 ---

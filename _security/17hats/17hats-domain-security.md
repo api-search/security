@@ -37,7 +37,7 @@ tags:
 - Invoicing
 - Scheduling
 - Bookkeeping
-- Workflow-Automation
+- Workflow Automation
 - Contract Management
 - Payments
 - Software-as-a-Service

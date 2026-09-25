@@ -2,25 +2,25 @@
 api_specs:
 - filename: university-of-cambridge-group-api-openapi.yml
   format: yaml
-  label: University of Cambridge group API
+  label: University of Cambridge Group API
   slug: university-of-cambridge-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-group-api-openapi.yml
 - filename: university-of-cambridge-ibis-api-openapi.yml
   format: yaml
-  label: University of Cambridge ibis API
+  label: University of Cambridge Ibis API
   slug: university-of-cambridge-ibis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-ibis-api-openapi.yml
 - filename: university-of-cambridge-institution-api-openapi.yml
   format: yaml
-  label: University of Cambridge institution API
+  label: University of Cambridge Institution API
   slug: university-of-cambridge-institution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-institution-api-openapi.yml
 - filename: university-of-cambridge-person-api-openapi.yml
   format: yaml
-  label: University of Cambridge person API
+  label: University of Cambridge Person API
   slug: university-of-cambridge-person-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-person-api-openapi.yml

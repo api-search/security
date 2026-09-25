@@ -34,7 +34,7 @@ tags:
 - Marketplace
 - Construction
 - Homebuilding
-- Real-Estate
+- Real Estate
 - PropTech
 - India
 - Project Management

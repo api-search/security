@@ -58,5 +58,5 @@ tags:
 - Recurring Billing
 - Fraud Detection
 - Webhook
-- Financial-Services
+- Financial Services
 ---

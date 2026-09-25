@@ -36,6 +36,6 @@ tags:
 - Compliance
 - Regulatory Change Management
 - Policy Management
-- Financial-Services
+- Financial Services
 - GovTech
 ---

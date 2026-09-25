@@ -35,7 +35,7 @@ tags:
 - Cloud Saas
 - Industrial AI
 - IoT
-- Computer-Vision
+- Computer Vision
 - Workplace Safety
 - Predictive Maintenance
 - Drones

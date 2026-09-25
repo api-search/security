@@ -2,25 +2,25 @@
 api_specs:
 - filename: thoughtly-agent-api-openapi.yml
   format: yaml
-  label: Thoughtly agent API
+  label: Thoughtly Agent API
   slug: thoughtly-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-agent-api-openapi.yml
 - filename: thoughtly-contact-api-openapi.yml
   format: yaml
-  label: Thoughtly contact API
+  label: Thoughtly Contact API
   slug: thoughtly-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-contact-api-openapi.yml
 - filename: thoughtly-user-api-openapi.yml
   format: yaml
-  label: Thoughtly user API
+  label: Thoughtly User API
   slug: thoughtly-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-user-api-openapi.yml
 - filename: thoughtly-webhooks-api-openapi.yml
   format: yaml
-  label: Thoughtly webhooks API
+  label: Thoughtly Webhooks API
   slug: thoughtly-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/openapi/thoughtly-webhooks-api-openapi.yml

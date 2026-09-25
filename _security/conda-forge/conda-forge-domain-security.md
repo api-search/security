@@ -54,5 +54,5 @@ tags:
 - Packages
 - Scientific Computing
 - Python
-- Open-Source
+- Open Source
 ---

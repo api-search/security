@@ -41,7 +41,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - GPU

@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/he
 summary_line: http · 1 scheme
 tags:
 - Connected Worker
-- Knowledge-Management
+- Knowledge Management
 - Manufacturing
 - Skills Management
 - Training

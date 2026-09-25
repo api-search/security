@@ -175,5 +175,6 @@ tags:
 - Data API
 - Streams
 - Indexing
+- Ethereum
 trust_url: https://moralis.com/security/
 ---

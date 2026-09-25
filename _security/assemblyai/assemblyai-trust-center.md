@@ -44,5 +44,7 @@ tags:
 - Speech
 - Transcription
 - Speech-to-Text
+- Voice
+- Real-Time
 trust_url: https://www.assemblyai.com/security
 ---

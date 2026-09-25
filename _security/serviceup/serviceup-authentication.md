@@ -48,7 +48,7 @@ tags:
 - Automotive
 - Insurance
 - Maintenance
-- Agentic AI
+- AI Agents
 - MCP
 - Transportation
 ---

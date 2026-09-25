@@ -24,8 +24,8 @@ tags:
 - Customer Experience
 - Contact Center
 - Conversational AI
-- Agentic AI
-- Customer-Support
+- AI Agents
+- Customer Support
 - Speech Analytics
 - Automation
 trust_url: https://www.rezo.ai/trust-and-compliance

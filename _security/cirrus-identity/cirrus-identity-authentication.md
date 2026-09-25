@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: cirrus-identity-endpoints-api-openapi.yml
   format: yaml
-  label: Cirrus Identity endpoints API
+  label: Cirrus Identity Endpoints API
   slug: cirrus-identity-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/openapi/cirrus-identity-endpoints-api-openapi.yml

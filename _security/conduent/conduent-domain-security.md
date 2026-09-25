@@ -40,7 +40,7 @@ tags:
 - Government
 - Healthcare
 - Transportation
-- Financial-Services
+- Financial Services
 - Customer Experience
 - Learning
 - Webhook

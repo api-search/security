@@ -27,7 +27,7 @@ tags:
 - Consumer Finance
 - Lending
 - Telematics
-- Mobile Applications
+- Mobile App
 - Artificial Intelligence
 trust_url: https://trust.jerry.ai/
 ---

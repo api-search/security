@@ -8,8 +8,8 @@ kind: trust-center
 layout: security
 name: Plextrac Llc Trust Center
 name_suffix: Trust Center
-overview: PlexTrac, LLC maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
-provider_name: PlexTrac, LLC
+overview: PlexTrac maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
+provider_name: PlexTrac
 provider_slug: plextrac-llc
 slug: plextrac-llc-trust-center
 source_filename: plextrac-llc-trust-center.yml

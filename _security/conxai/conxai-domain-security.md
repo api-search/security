@@ -2,31 +2,31 @@
 api_specs:
 - filename: conxai-annotations-api-openapi.yml
   format: yaml
-  label: Conxai annotations API
+  label: Conxai Annotations API
   slug: conxai-annotations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-annotations-api-openapi.yml
 - filename: conxai-camera-api-openapi.yml
   format: yaml
-  label: Conxai camera API
+  label: Conxai Camera API
   slug: conxai-camera-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-camera-api-openapi.yml
 - filename: conxai-document-types-api-openapi.yml
   format: yaml
-  label: Conxai document-types API
+  label: Conxai Document Types API
   slug: conxai-document-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-document-types-api-openapi.yml
 - filename: conxai-documents-api-openapi.yml
   format: yaml
-  label: Conxai documents API
+  label: Conxai Documents API
   slug: conxai-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-documents-api-openapi.yml
 - filename: conxai-exports-api-openapi.yml
   format: yaml
-  label: Conxai exports API
+  label: Conxai Exports API
   slug: conxai-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-exports-api-openapi.yml
@@ -38,67 +38,67 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-images-api-openapi.yml
 - filename: conxai-integrations-api-openapi.yml
   format: yaml
-  label: Conxai integrations API
+  label: Conxai Integrations API
   slug: conxai-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-integrations-api-openapi.yml
 - filename: conxai-production-tracking-api-openapi.yml
   format: yaml
-  label: Conxai production_tracking API
+  label: Conxai Production Tracking API
   slug: conxai-production-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-production-tracking-api-openapi.yml
 - filename: conxai-project-api-openapi.yml
   format: yaml
-  label: Conxai project API
+  label: Conxai Project API
   slug: conxai-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-project-api-openapi.yml
 - filename: conxai-projects-api-openapi.yml
   format: yaml
-  label: Conxai projects API
+  label: Conxai Projects API
   slug: conxai-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-projects-api-openapi.yml
 - filename: conxai-samples-api-openapi.yml
   format: yaml
-  label: Conxai samples API
+  label: Conxai Samples API
   slug: conxai-samples-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-samples-api-openapi.yml
 - filename: conxai-schema-api-openapi.yml
   format: yaml
-  label: Conxai schema API
+  label: Conxai Schema API
   slug: conxai-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-schema-api-openapi.yml
 - filename: conxai-summary-table-api-openapi.yml
   format: yaml
-  label: Conxai summary-table API
+  label: Conxai Summary Table API
   slug: conxai-summary-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-summary-table-api-openapi.yml
 - filename: conxai-use-cases-api-openapi.yml
   format: yaml
-  label: Conxai use-cases API
+  label: Conxai Use Cases API
   slug: conxai-use-cases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-use-cases-api-openapi.yml
 - filename: conxai-users-api-openapi.yml
   format: yaml
-  label: Conxai users API
+  label: Conxai Users API
   slug: conxai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-users-api-openapi.yml
 - filename: conxai-workflow-api-openapi.yml
   format: yaml
-  label: Conxai workflow API
+  label: Conxai Workflow API
   slug: conxai-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-workflow-api-openapi.yml
 - filename: conxai-workflow-table-api-openapi.yml
   format: yaml
-  label: Conxai workflow-table API
+  label: Conxai Workflow Table API
   slug: conxai-workflow-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-workflow-table-api-openapi.yml
@@ -156,7 +156,7 @@ tags:
 - AEC
 - Artificial Intelligence
 - Document Processing
-- Computer-Vision
-- Agentic AI
-- Machine-Learning
+- Computer Vision
+- AI Agents
+- Machine Learning
 ---

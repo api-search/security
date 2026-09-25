@@ -53,6 +53,6 @@ tags:
 - BSP
 - Graph Processing
 - Hadoop
-- Open-Source
+- Open Source
 - Retired
 ---

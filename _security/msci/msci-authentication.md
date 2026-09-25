@@ -73,7 +73,7 @@ tags:
 - ESG
 - Climate
 - Risk Analytics
-- Real-Estate
+- Real Estate
 - Private Assets
 - Investing
 ---

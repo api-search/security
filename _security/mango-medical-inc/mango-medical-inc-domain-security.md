@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Mango Medical Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Mango Medical Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Mango Medical Inc
+overview: 'Domain security posture for Mango Medical, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Mango Medical
 provider_slug: mango-medical-inc
 slug: mango-medical-inc-domain-security
 source_filename: mango-medical-inc-domain-security.yml

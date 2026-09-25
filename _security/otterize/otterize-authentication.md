@@ -49,5 +49,5 @@ tags:
 - Zero Trust
 - DevSecOps
 - Identity and Access Management
-- Open-Source
+- Open Source
 ---

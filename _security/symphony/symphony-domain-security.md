@@ -162,7 +162,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Collaboration
 - Communications
-- Financial-Services
+- Financial Services
 - Messaging
 - Secure Communication
 ---

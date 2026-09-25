@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Software-as-a-Service
-- Customer-Support
+- Customer Support
 - AI Agents
 - Self-Service
 - Troubleshooting

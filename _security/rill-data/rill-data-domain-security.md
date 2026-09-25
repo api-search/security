@@ -45,6 +45,6 @@ tags:
 - Metrics
 - Data
 - OLAP
-- Open-Source
+- Open Source
 - Developer Tools
 ---

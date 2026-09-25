@@ -74,7 +74,7 @@ tags:
 - Code Generation
 - gRPC
 - Kafka
-- Open-Source
+- Open Source
 - Protocol Buffers
 - Schema Registry
 - SDK

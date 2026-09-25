@@ -75,8 +75,8 @@ layout: security
 method: probed
 name: Steute Technologies Gmbh And Co Kg Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for steute Technologies GmbH & Co. KG, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: steute Technologies GmbH & Co. KG
+overview: 'Domain security posture for steute Technologies, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: steute Technologies
 provider_slug: steute-technologies-gmbh-and-co-kg
 slug: steute-technologies-gmbh-and-co-kg-domain-security
 source_filename: steute-technologies-gmbh-and-co-kg-domain-security.yml
@@ -89,7 +89,7 @@ tags:
 - Company
 - Industrial
 - Manufacturing
-- IIoT
+- Industrial IoT
 - Wireless
 - Sensors
 - Switches

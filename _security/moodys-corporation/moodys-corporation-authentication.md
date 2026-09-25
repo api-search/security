@@ -69,8 +69,8 @@ name: Moodys Corporation Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: Moody's Corporation secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
-provider_name: Moody's Corporation
+overview: Moody's secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+provider_name: Moody's
 provider_slug: moodys-corporation
 scheme_count: 2
 schemes:
@@ -107,6 +107,6 @@ tags:
 - ESG
 - Financial Data
 - KYC
-- Risk
+- Risk Management
 - Fortune 1000
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Textiles
 - Manufacturing
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Quality Control
 - Sustainability

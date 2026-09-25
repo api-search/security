@@ -38,6 +38,6 @@ tags:
 - Reasoning
 - Coding Agents
 - Reinforcement Learning
-- Open-Source
+- Open Source
 - Hugging Face
 ---

@@ -76,5 +76,5 @@ tags:
 - Multilingual
 - Streaming
 - SDK
-- Open-Source
+- Open Source
 ---

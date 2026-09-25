@@ -38,6 +38,6 @@ tags:
 - Aerospace
 - Defense
 - Space
-- Telecom
+- Telecommunications
 - Hardware
 ---

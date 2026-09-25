@@ -36,7 +36,7 @@ tags:
 - Entity Resolution
 - Graph Analytics
 - Financial Crime
-- Risk
+- Risk Management
 - Customer Intelligence
 - Artificial Intelligence
 ---

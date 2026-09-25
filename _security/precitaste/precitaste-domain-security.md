@@ -36,7 +36,7 @@ tags:
 - Restaurant
 - Food Service
 - Demand Forecasting
-- Computer-Vision
+- Computer Vision
 - Kitchen Operations
 - Inventory Management
 - Food Waste

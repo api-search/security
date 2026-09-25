@@ -34,7 +34,7 @@ tags:
 - Casinos
 - Gaming
 - Hospitality
-- Real-Estate
+- Real Estate
 - REIT
 - Triple-Net Lease
 ---

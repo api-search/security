@@ -33,10 +33,10 @@ tags:
 - Company
 - Enterprise Saas
 - Mortgage
-- Real-Estate
+- Real Estate
 - Appraisal
 - Collateral Underwriting
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Document Processing
 ---

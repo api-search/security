@@ -23,9 +23,9 @@ tags:
 - Artificial Intelligence
 - Annotation
 - Data Labeling
-- Computer-Vision
+- Computer Vision
 - NLP
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Image Annotation
 - Video Annotation

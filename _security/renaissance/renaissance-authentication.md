@@ -112,5 +112,5 @@ tags:
 - Ed-Fi
 - Rostering
 - Interoperability
-- Machine-Learning
+- Machine Learning
 ---

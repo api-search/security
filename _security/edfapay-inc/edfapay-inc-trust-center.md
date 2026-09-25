@@ -50,8 +50,8 @@ kind: trust-center
 layout: security
 name: Edfapay Inc Trust Center
 name_suffix: Trust Center
-overview: EdfaPay, Inc. maintains a public trust center documenting PCI DSS compliance.
-provider_name: EdfaPay, Inc.
+overview: EdfaPay maintains a public trust center documenting PCI DSS compliance.
+provider_name: EdfaPay
 provider_slug: edfapay-inc
 slug: edfapay-inc-trust-center
 source_filename: edfapay-inc-trust-center.yml

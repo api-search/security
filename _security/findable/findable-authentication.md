@@ -55,7 +55,6 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
 - Building Intelligence
-- Property Technology
 - PropTech
 - Facilities Management
 - Building Documentation

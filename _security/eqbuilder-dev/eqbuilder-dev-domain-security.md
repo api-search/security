@@ -46,7 +46,7 @@ tags:
 - Emotional Intelligence
 - Conversational AI
 - x402
-- Agent Payments
+- Agentic Payments
 - MCP
 - A2A
 - Developer Tools

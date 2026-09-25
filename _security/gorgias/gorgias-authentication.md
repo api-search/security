@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gorgias-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/authentication/gorgias-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Customer-Support
+- Customer Support
 - Help Desk
 - E-Commerce
 - Shopify

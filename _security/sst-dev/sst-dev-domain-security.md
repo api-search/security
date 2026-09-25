@@ -37,6 +37,6 @@ tags:
 - Full-Stack
 - Functions
 - Containers
-- Open-Source
+- Open Source
 - Framework
 ---

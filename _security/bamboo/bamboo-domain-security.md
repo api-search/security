@@ -174,7 +174,7 @@ tags:
 - Fractional Shares
 - Africa
 - Nigeria
-- Portfolio-Management
+- Portfolio Management
 - Brokerage
 - Fintech
 ---

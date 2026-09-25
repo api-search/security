@@ -22,8 +22,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
-- Customer-Support
+- AI Agents
+- Customer Support
 - Sales
 - Voice
 - Automation

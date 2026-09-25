@@ -125,6 +125,6 @@ tags:
 - Search
 - Analytics
 - Observability
-- Open-Source
+- Open Source
 - Security
 ---

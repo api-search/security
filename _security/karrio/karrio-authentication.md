@@ -178,7 +178,7 @@ tags:
 - Package Tracking
 - Carrier
 - Fulfillment
-- Open-Source
+- Open Source
 - Multi-Carrier
 - Ratings
 - Webhook

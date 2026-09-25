@@ -37,5 +37,6 @@ tags:
 - Blockchain
 - Onchain
 - Multi-Chain
+- Ethereum
 trust_url: https://trust.dune.com/
 ---

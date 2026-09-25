@@ -27,8 +27,8 @@ tags:
 - Chargebacks
 - E-Commerce
 - Payments
-- Risk
-- Machine-Learning
+- Risk Management
+- Machine Learning
 - Account Takeover
 - Policy Abuse
 - 3D

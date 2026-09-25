@@ -41,8 +41,8 @@ tags:
 - Procurement
 - Spend Management
 - Supplier Management
-- Agentic AI
-- Workflow-Automation
+- AI Agents
+- Workflow Automation
 - Enterprise Software
 - ProcureTech
 ---

@@ -165,7 +165,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Influencer Marketing
 - Creator Economy
-- Social-Media
+- Social Media
 - Marketing
 - Campaign Management
 - creator-crm

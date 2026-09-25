@@ -45,7 +45,7 @@ tags:
 - Postal Automation
 - Foundation Models
 - Sim2Real
-- Computer-Vision
+- Computer Vision
 - Fleet Management
 - AmbiOS
 - AmbiSort

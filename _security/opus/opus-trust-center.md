@@ -2,31 +2,31 @@
 api_specs:
 - filename: opus-brand-templates-api-openapi.yml
   format: yaml
-  label: Opus brand-templates API
+  label: Opus Brand Templates API
   slug: opus-brand-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-brand-templates-api-openapi.yml
 - filename: opus-censor-jobs-api-openapi.yml
   format: yaml
-  label: Opus censor-jobs API
+  label: Opus Censor Jobs API
   slug: opus-censor-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-censor-jobs-api-openapi.yml
 - filename: opus-clip-project-api-openapi.yml
   format: yaml
-  label: Opus clip-project API
+  label: Opus Clip Project API
   slug: opus-clip-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-clip-project-api-openapi.yml
 - filename: opus-collection-api-openapi.yml
   format: yaml
-  label: Opus collection API
+  label: Opus Collection API
   slug: opus-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-api-openapi.yml
 - filename: opus-collection-content-api-openapi.yml
   format: yaml
-  label: Opus collection-content API
+  label: Opus Collection Content API
   slug: opus-collection-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-content-api-openapi.yml
@@ -38,19 +38,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-exportableclip-api-openapi.yml
 - filename: opus-generative-jobs-api-openapi.yml
   format: yaml
-  label: Opus generative-jobs API
+  label: Opus Generative Jobs API
   slug: opus-generative-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-generative-jobs-api-openapi.yml
 - filename: opus-social-posting-api-openapi.yml
   format: yaml
-  label: Opus social-posting API
+  label: Opus Social Posting API
   slug: opus-social-posting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-social-posting-api-openapi.yml
 - filename: opus-transcripts-api-openapi.yml
   format: yaml
-  label: Opus transcripts API
+  label: Opus Transcripts API
   slug: opus-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-transcripts-api-openapi.yml
@@ -81,7 +81,7 @@ tags:
 - Video Editing
 - Short-Form Video
 - Content Creation
-- Social-Media
+- Social Media
 - Media
 - Agents
 trust_url: https://trust.opus.pro/

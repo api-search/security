@@ -27,6 +27,6 @@ tags:
 - Contract Management
 - Electronic Signature
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 trust_url: https://trust.aline.co/
 ---

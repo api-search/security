@@ -39,5 +39,6 @@ tags:
 - Managed Database
 - AIOps
 - Developer Tools
+- A2A
 trust_url: https://deployxa.com/trust
 ---

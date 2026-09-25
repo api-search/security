@@ -78,7 +78,7 @@ tags:
 - Company
 - GPU
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Semiconductors
 - Speech Recognition
 - Text-to-Speech

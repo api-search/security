@@ -81,5 +81,6 @@ tags:
 - LLM
 - Grounded Language Model
 - Enterprise
+- Real-Time
 trust_url: https://contextual.ai/security
 ---

@@ -65,7 +65,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bonds
 - Brokerage
-- Financial
+- Finance
 - Futures
 - Options
 - Stocks

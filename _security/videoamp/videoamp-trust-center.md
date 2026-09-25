@@ -113,6 +113,6 @@ tags:
 - Attribution
 - Data Collaboration
 - MCP
-- agent-native
+- Agent-Native
 trust_url: https://trust.videoamp.com/
 ---

@@ -17,8 +17,8 @@ method: probed
 name: Remerrill Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: R.E. Merrill & Associates, Inc. declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: R.E. Merrill & Associates, Inc.
+overview: R.E. Merrill & Associates declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: R.E. Merrill & Associates
 provider_slug: remerrill-com
 scheme_count: 0
 schemes: []
@@ -39,7 +39,7 @@ tags:
 - Distribution
 - Agents
 - A2A
-- agent-native
+- Agent-Native
 - Texas
 - United States
 ---

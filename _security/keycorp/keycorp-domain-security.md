@@ -160,7 +160,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Banking
 - Commercial Banking
-- Financial-Services
+- Financial Services
 - Fortune 500
 - Payments
 - United States

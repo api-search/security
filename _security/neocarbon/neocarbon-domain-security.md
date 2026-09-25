@@ -33,7 +33,7 @@ tags:
 - Company
 - Climate Tech
 - Carbon Capture
-- Data-Center
+- Data Center
 - Cooling
 - Sustainability
 - Waste Heat Recovery

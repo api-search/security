@@ -28,7 +28,7 @@ tags:
 - LLM
 - Voice Assistant
 - Classroom Technology
-- Machine-Learning
+- Machine Learning
 - Responsible AI
 trust_url: https://trust.merlyn.org/
 ---

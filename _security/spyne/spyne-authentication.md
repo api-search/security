@@ -46,8 +46,8 @@ tags:
 - Automotive
 - Image
 - Video
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Dealership
 - Media Processing
 - Webhook

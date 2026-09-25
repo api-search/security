@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://w
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/authentication/bank-of-queensland-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

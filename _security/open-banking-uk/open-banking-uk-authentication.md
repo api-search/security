@@ -290,7 +290,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-banking-u
 summary_line: oauth2 · 2 schemes
 tags:
 - Open Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Account Information
 - PSD2

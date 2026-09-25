@@ -52,7 +52,7 @@ tags:
 - HRMS
 - Human Resources
 - Payroll
-- Recruitment
+- Recruiting
 - Performance Management
 - Attendance
 - Workforce Analytics

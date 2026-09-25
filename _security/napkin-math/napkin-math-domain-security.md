@@ -38,6 +38,6 @@ tags:
 - Diet
 - Artificial Intelligence
 - Consumer Applications
-- Mobile Applications
+- Mobile App
 - iOS
 ---

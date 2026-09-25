@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/re
 summary_line: observed, observed_note, how_to_close
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Classification
 - Content Moderation
 - Decision Support
@@ -40,7 +40,8 @@ tags:
 - LLM Alternative
 - Agent Skills
 - MCP
-- agent-native
+- Agent-Native
 - Developer Tools
+- A2A
 trust_url: https://trust.typesafe.ai/
 ---

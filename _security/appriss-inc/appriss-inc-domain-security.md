@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Appriss Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Appriss Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Appriss Inc.
+overview: 'Domain security posture for Appriss, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Appriss
 provider_slug: appriss-inc
 slug: appriss-inc-domain-security
 source_filename: appriss-inc-domain-security.yml

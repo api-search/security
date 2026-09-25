@@ -146,7 +146,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Feed Reader
-- Open-Source
+- Open Source
 - Self-Hosted
 - Minimalist
 - Privacy

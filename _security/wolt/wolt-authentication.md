@@ -57,4 +57,5 @@ tags:
 - Webhook
 - Authentication
 - Point-of-Sale
+- Restaurant
 ---

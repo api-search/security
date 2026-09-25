@@ -2,37 +2,37 @@
 api_specs:
 - filename: reload-channels-api-openapi.yml
   format: yaml
-  label: Reload channels API
+  label: Reload Channels API
   slug: reload-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-channels-api-openapi.yml
 - filename: reload-files-api-openapi.yml
   format: yaml
-  label: Reload files API
+  label: Reload Files API
   slug: reload-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-files-api-openapi.yml
 - filename: reload-memory-api-openapi.yml
   format: yaml
-  label: Reload memory API
+  label: Reload Memory API
   slug: reload-memory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-memory-api-openapi.yml
 - filename: reload-messages-api-openapi.yml
   format: yaml
-  label: Reload messages API
+  label: Reload Messages API
   slug: reload-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-messages-api-openapi.yml
 - filename: reload-tasks-api-openapi.yml
   format: yaml
-  label: Reload tasks API
+  label: Reload Tasks API
   slug: reload-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-tasks-api-openapi.yml
 - filename: reload-workspace-api-openapi.yml
   format: yaml
-  label: Reload workspace API
+  label: Reload Workspace API
   slug: reload-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-workspace-api-openapi.yml

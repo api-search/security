@@ -33,7 +33,7 @@ tags:
 - Capital Markets
 - Financial Technology
 - Market Data
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
 - Trading
 ---

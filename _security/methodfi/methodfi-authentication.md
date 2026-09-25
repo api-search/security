@@ -276,8 +276,8 @@ method: searched
 name: Methodfi Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: MethodFi secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: MethodFi
+overview: Method Financial secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Method Financial
 provider_slug: methodfi
 scheme_count: 2
 schemes:

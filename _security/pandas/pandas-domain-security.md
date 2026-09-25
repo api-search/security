@@ -33,6 +33,6 @@ tags:
 - Data Analysis
 - Data Science
 - Library
-- Open-Source
+- Open Source
 - Python
 ---

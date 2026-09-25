@@ -52,7 +52,7 @@ tags:
 - Company
 - Banking
 - Fintech
-- Financial-Services
+- Financial Services
 - Payments
 - Open Banking
 - Account

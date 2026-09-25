@@ -411,4 +411,6 @@ tags:
 - E-Commerce
 - Segmentation
 - Webhook
+- A2A
+- Email
 ---

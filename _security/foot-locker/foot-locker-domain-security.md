@@ -38,4 +38,5 @@ tags:
 - E-Commerce
 - Sneakers
 - Omnichannel
+- Fashion
 ---

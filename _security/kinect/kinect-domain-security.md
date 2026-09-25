@@ -40,7 +40,7 @@ tags:
 - Agentic Commerce
 - Conversational Commerce
 - Brand Agents
-- D2C
+- Consumer
 - Shopify
 - LLM
 - Universal Commerce Protocol

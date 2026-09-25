@@ -34,6 +34,6 @@ tags:
 - Egypt
 - Syndicate
 - Membership
-- Mobile Applications
+- Mobile App
 - Fintech
 ---

@@ -377,4 +377,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Robotics
 - Simulation
+- Defunct
 ---

@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Agents
-- Real-Estate
+- Real Estate
 - Brokers
 - CRM
 - Delivery

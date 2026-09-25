@@ -61,7 +61,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Social-Media
+- Social Media
 - Community Management
 - Social Listening
 - Influencer Marketing

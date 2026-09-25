@@ -24,7 +24,7 @@ tags:
 - Artificial Intelligence
 - Penetration Testing
 - Application Security
-- Agentic AI
+- AI Agents
 - Offensive Security
 trust_url: https://trust.tenzai.com/
 ---

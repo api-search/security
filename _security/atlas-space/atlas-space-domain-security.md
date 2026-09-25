@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Space
-- SaaS
+- Software-as-a-Service
 - Ground-Network
-- Satellite-Operations
+- Satellite Operations
 ---

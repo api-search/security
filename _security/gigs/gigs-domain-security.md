@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gigs/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Telecom
+- Telecommunications
 - Connectivity
 - eSIM
 - MVNO

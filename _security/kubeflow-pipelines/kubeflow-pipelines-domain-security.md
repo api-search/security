@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Data Science
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Orchestration
 - Pipelines

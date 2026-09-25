@@ -69,7 +69,7 @@ summary_line: http · 1 scheme
 tags:
 - LLM
 - Inference
-- Open-Source
+- Open Source
 - GPU
 - OpenAI-Compatible
 - Self-Hosted

@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Energy Trading
 - Battery Storage
-- Data-Center
+- Data Center
 - Grid Optimization
 - Clean Energy
 ---

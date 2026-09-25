@@ -48,7 +48,7 @@ tags:
 - Scrum
 - Kanban
 - Issue Tracking
-- Open-Source
+- Open Source
 - Sprints
 - User Stories
 - Epic

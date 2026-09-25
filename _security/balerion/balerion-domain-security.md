@@ -36,7 +36,7 @@ tags:
 - Mortgage
 - Lending
 - Underwriting
-- Agentic AI
+- AI Agents
 - Loan Origination
-- Financial-Services
+- Financial Services
 ---

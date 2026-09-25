@@ -2,55 +2,55 @@
 api_specs:
 - filename: standard-metrics-budgets-api-openapi.yml
   format: yaml
-  label: Standard Metrics budgets API
+  label: Standard Metrics Budgets API
   slug: standard-metrics-budgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-budgets-api-openapi.yml
 - filename: standard-metrics-cap-table-api-openapi.yml
   format: yaml
-  label: Standard Metrics cap_table API
+  label: Standard Metrics Cap Table API
   slug: standard-metrics-cap-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-cap-table-api-openapi.yml
 - filename: standard-metrics-companies-api-openapi.yml
   format: yaml
-  label: Standard Metrics companies API
+  label: Standard Metrics Companies API
   slug: standard-metrics-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-companies-api-openapi.yml
 - filename: standard-metrics-custom-columns-api-openapi.yml
   format: yaml
-  label: Standard Metrics custom-columns API
+  label: Standard Metrics Custom Columns API
   slug: standard-metrics-custom-columns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-custom-columns-api-openapi.yml
 - filename: standard-metrics-documents-api-openapi.yml
   format: yaml
-  label: Standard Metrics documents API
+  label: Standard Metrics Documents API
   slug: standard-metrics-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-documents-api-openapi.yml
 - filename: standard-metrics-firm-details-api-openapi.yml
   format: yaml
-  label: Standard Metrics firm-details API
+  label: Standard Metrics Firm Details API
   slug: standard-metrics-firm-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-firm-details-api-openapi.yml
 - filename: standard-metrics-funds-api-openapi.yml
   format: yaml
-  label: Standard Metrics funds API
+  label: Standard Metrics Funds API
   slug: standard-metrics-funds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-funds-api-openapi.yml
 - filename: standard-metrics-information-reports-api-openapi.yml
   format: yaml
-  label: Standard Metrics information-reports API
+  label: Standard Metrics Information Reports API
   slug: standard-metrics-information-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-reports-api-openapi.yml
 - filename: standard-metrics-information-requests-api-openapi.yml
   format: yaml
-  label: Standard Metrics information-requests API
+  label: Standard Metrics Information Requests API
   slug: standard-metrics-information-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-requests-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-metrics-api-openapi.yml
 - filename: standard-metrics-notes-api-openapi.yml
   format: yaml
-  label: Standard Metrics notes API
+  label: Standard Metrics Notes API
   slug: standard-metrics-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-notes-api-openapi.yml
@@ -74,13 +74,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-o-api-openapi.yml
 - filename: standard-metrics-users-api-openapi.yml
   format: yaml
-  label: Standard Metrics users API
+  label: Standard Metrics Users API
   slug: standard-metrics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-users-api-openapi.yml
 - filename: standard-metrics-whoami-api-openapi.yml
   format: yaml
-  label: Standard Metrics whoami API
+  label: Standard Metrics Whoami API
   slug: standard-metrics-whoami-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-whoami-api-openapi.yml
@@ -107,7 +107,7 @@ tags:
 - Company
 - Venture Capital
 - Private Equity
-- Portfolio-Management
+- Portfolio Management
 - Financial Data
 - Investment Data
 - Cap Table

@@ -360,5 +360,7 @@ tags:
 - E-Commerce
 - Segmentation
 - Webhook
+- A2A
+- Email
 trust_url: https://www.activecampaign.com/security
 ---

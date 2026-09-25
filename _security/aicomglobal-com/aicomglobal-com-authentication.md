@@ -151,6 +151,6 @@ tags:
 - Agent Discovery
 - Agent Messaging
 - Developer Tools
-- agent-native
+- Agent-Native
 - United Kingdom
 ---

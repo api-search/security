@@ -50,6 +50,6 @@ tags:
 - Marketing Analytics
 - ai-personas
 - MCP
-- agent-native
+- Agent-Native
 - GDPR
 ---

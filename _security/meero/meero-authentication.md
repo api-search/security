@@ -102,7 +102,7 @@ tags:
 - Automotive
 - Image
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Photography
 - Media Processing
 - E-Commerce

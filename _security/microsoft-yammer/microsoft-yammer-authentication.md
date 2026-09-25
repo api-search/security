@@ -92,7 +92,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Enterprise Social
 - Microsoft
-- Social Networking
+- Social Network
 - Viva Engage
 - Yammer
 ---

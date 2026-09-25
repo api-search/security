@@ -69,5 +69,5 @@ tags:
 - iPaaS
 - Marketplace
 - Software-as-a-Service
-- Workflow-Automation
+- Workflow Automation
 ---

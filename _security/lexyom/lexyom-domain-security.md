@@ -34,7 +34,7 @@ tags:
 - Legal
 - Legal Services
 - Law Firms
-- Financial-Services
+- Financial Services
 - Regulatory Compliance
 - Licensing
 - Trademarks

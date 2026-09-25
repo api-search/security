@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: appalachian-regional-commission-research-api-openapi.yml
-  format: yaml
-  label: ARC Research and Data API
-  slug: arc-research-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-research-api-openapi.yml
 - filename: appalachian-regional-commission-geospatial-api-openapi.yml
   format: yaml
   label: ARC Geospatial API
   slug: arc-geospatial-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-geospatial-api-openapi.yml
-- filename: appalachian-regional-commission-programs-api-openapi.yml
-  format: yaml
-  label: ARC Programs API
-  slug: arc-programs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-programs-api-openapi.yml
-- filename: appalachian-regional-commission-content-api-openapi.yml
-  format: yaml
-  label: ARC Content API
-  slug: arc-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-content-api-openapi.yml
-- filename: appalachian-regional-commission-taxonomy-api-openapi.yml
-  format: yaml
-  label: ARC Taxonomy API
-  slug: arc-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-taxonomy-api-openapi.yml
-- filename: appalachian-regional-commission-discovery-api-openapi.yml
-  format: yaml
-  label: ARC API Discovery
-  slug: arc-api-discovery
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/openapi/appalachian-regional-commission-discovery-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +64,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Appalachia
 - Economic Development
-- Federal-Government
+- Federal Government
 - Geospatial
 - Government
 - Infrastructure

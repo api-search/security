@@ -30,5 +30,6 @@ tags:
 - Sentiment Analysis
 - Topic Extraction
 - Language Identification
+- Voice
 trust_url: https://www.rev.ai/security
 ---

@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/new-york
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/authentication/new-york-public-library-whats-on-the-menu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Libraries
+- Library
 - Menus
 - Restaurant
 - History

@@ -286,5 +286,6 @@ tags:
 - Segments
 - SMS
 - Transactional Email
+- A2A
 trust_url: https://app.conveyor.com/profile/customer-io
 ---

@@ -35,8 +35,8 @@ tags:
 - Intelligent Transportation
 - Road Safety
 - Traffic Analytics
-- Computer-Vision
+- Computer Vision
 - V2X
 - Smart Cities
-- Machine-Learning
+- Machine Learning
 ---

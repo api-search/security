@@ -88,9 +88,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willo/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Video Interviewing
-- Recruitment
+- Recruiting
 - Human Resources
-- ATS
+- Applicant Tracking
 - Screening
 - Async Video
 ---

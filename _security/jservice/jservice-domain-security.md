@@ -49,7 +49,7 @@ tags:
 - Games And Comics
 - Trivia
 - Jeopardy
-- Open-Source
+- Open Source
 - Ruby
 - Rail
 - Public APIs

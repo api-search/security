@@ -90,5 +90,5 @@ tags:
 - Vehicle Images
 - MCP
 - Agent Tools
-- Machine-Learning
+- Machine Learning
 ---

@@ -35,7 +35,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-custom-tabs-api-openapi.yml
 - filename: ninjaone-devices-api-openapi.yml
   format: yaml
-  label: NinjaOne devices API
+  label: NinjaOne Devices API
   slug: ninjaone-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-devices-api-openapi.yml
@@ -47,7 +47,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-document-templates-api-openapi.yml
 - filename: ninjaone-groups-api-openapi.yml
   format: yaml
-  label: NinjaOne groups API
+  label: NinjaOne Groups API
   slug: ninjaone-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-groups-api-openapi.yml
@@ -65,13 +65,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-location-api-openapi.yml
 - filename: ninjaone-management-api-openapi.yml
   format: yaml
-  label: NinjaOne management API
+  label: NinjaOne Management API
   slug: ninjaone-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-management-api-openapi.yml
 - filename: ninjaone-organization-api-openapi.yml
   format: yaml
-  label: NinjaOne organization API
+  label: NinjaOne Organization API
   slug: ninjaone-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-organization-api-openapi.yml
@@ -89,7 +89,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-organization-documents-api-openapi.yml
 - filename: ninjaone-queries-api-openapi.yml
   format: yaml
-  label: NinjaOne queries API
+  label: NinjaOne Queries API
   slug: ninjaone-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-queries-api-openapi.yml
@@ -101,13 +101,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-related-items-api-openapi.yml
 - filename: ninjaone-system-api-openapi.yml
   format: yaml
-  label: NinjaOne system API
+  label: NinjaOne System API
   slug: ninjaone-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-system-api-openapi.yml
 - filename: ninjaone-ticketing-api-openapi.yml
   format: yaml
-  label: NinjaOne ticketing API
+  label: NinjaOne Ticketing API
   slug: ninjaone-ticketing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-ticketing-api-openapi.yml
@@ -131,7 +131,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-vulnerability-management-api-openapi.yml
 - filename: ninjaone-webhooks-api-openapi.yml
   format: yaml
-  label: NinjaOne webhooks API
+  label: NinjaOne Webhooks API
   slug: ninjaone-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-webhooks-api-openapi.yml

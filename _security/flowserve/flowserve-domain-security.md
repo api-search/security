@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Industrial
 - Flow Control
-- IIoT
+- Industrial IoT
 - Manufacturing
 - Fortune 1000
 ---

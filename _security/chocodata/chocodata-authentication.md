@@ -84,6 +84,6 @@ tags:
 - social-media-data
 - Proxy
 - MCP
-- agent-native
+- Agent-Native
 - structured-json
 ---

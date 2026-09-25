@@ -89,7 +89,7 @@ tags:
 - Contact Center
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Conversational AI
 - Voice
 - Co-Browsing

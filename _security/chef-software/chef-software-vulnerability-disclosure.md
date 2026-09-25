@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-eventfeedservice-api-openapi.yml
 - filename: chef-software-hidden-api-openapi.yml
   format: yaml
-  label: Chef Software hidden API
+  label: Chef Software Hidden API
   slug: chef-software-hidden-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-hidden-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-nodesservice-api-openapi.yml
 - filename: chef-software-policies-api-openapi.yml
   format: yaml
-  label: Chef Software policies API
+  label: Chef Software Policies API
   slug: chef-software-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-policies-api-openapi.yml
@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-profilesservice-api-openapi.yml
 - filename: chef-software-projects-api-openapi.yml
   format: yaml
-  label: Chef Software projects API
+  label: Chef Software Projects API
   slug: chef-software-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-projects-api-openapi.yml
@@ -116,19 +116,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-reportmanagerservice-api-openapi.yml
 - filename: chef-software-retention-api-openapi.yml
   format: yaml
-  label: Chef Software retention API
+  label: Chef Software Retention API
   slug: chef-software-retention-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-retention-api-openapi.yml
 - filename: chef-software-roles-api-openapi.yml
   format: yaml
-  label: Chef Software roles API
+  label: Chef Software Roles API
   slug: chef-software-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-roles-api-openapi.yml
 - filename: chef-software-rules-api-openapi.yml
   format: yaml
-  label: Chef Software rules API
+  label: Chef Software Rules API
   slug: chef-software-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-rules-api-openapi.yml
@@ -140,7 +140,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-secretsservice-api-openapi.yml
 - filename: chef-software-service-groups-api-openapi.yml
   format: yaml
-  label: Chef Software service_groups API
+  label: Chef Software Service Groups API
   slug: chef-software-service-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-service-groups-api-openapi.yml
@@ -152,19 +152,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-statsservice-api-openapi.yml
 - filename: chef-software-teams-api-openapi.yml
   format: yaml
-  label: Chef Software teams API
+  label: Chef Software Teams API
   slug: chef-software-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-teams-api-openapi.yml
 - filename: chef-software-tokens-api-openapi.yml
   format: yaml
-  label: Chef Software tokens API
+  label: Chef Software Tokens API
   slug: chef-software-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-tokens-api-openapi.yml
 - filename: chef-software-users-api-openapi.yml
   format: yaml
-  label: Chef Software users API
+  label: Chef Software Users API
   slug: chef-software-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-users-api-openapi.yml

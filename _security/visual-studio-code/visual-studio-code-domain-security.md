@@ -34,7 +34,7 @@ tags:
 - Code Editor
 - Developer Tools
 - IDE
-- Open-Source
+- Open Source
 - Extension API
 - Microsoft
 ---

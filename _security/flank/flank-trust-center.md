@@ -27,6 +27,5 @@ tags:
 - AI Agents
 - Contract Management
 - Legal Operations
-- Agentic AI
 trust_url: https://trust.flank.ai/
 ---

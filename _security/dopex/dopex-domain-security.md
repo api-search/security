@@ -2,43 +2,43 @@
 api_specs:
 - filename: dopex-deposit-api-openapi.yml
   format: yaml
-  label: Dopex deposit API
+  label: Dopex Deposit API
   slug: dopex-deposit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-deposit-api-openapi.yml
 - filename: dopex-exercise-api-openapi.yml
   format: yaml
-  label: Dopex exercise API
+  label: Dopex Exercise API
   slug: dopex-exercise-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-exercise-api-openapi.yml
 - filename: dopex-option-markets-api-openapi.yml
   format: yaml
-  label: Dopex option-markets API
+  label: Dopex Option Markets API
   slug: dopex-option-markets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-option-markets-api-openapi.yml
 - filename: dopex-purchase-api-openapi.yml
   format: yaml
-  label: Dopex purchase API
+  label: Dopex Purchase API
   slug: dopex-purchase-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-purchase-api-openapi.yml
 - filename: dopex-stats-api-openapi.yml
   format: yaml
-  label: Dopex stats API
+  label: Dopex Stats API
   slug: dopex-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-stats-api-openapi.yml
 - filename: dopex-strikes-chain-api-openapi.yml
   format: yaml
-  label: Dopex strikes-chain API
+  label: Dopex Strikes Chain API
   slug: dopex-strikes-chain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-strikes-chain-api-openapi.yml
 - filename: dopex-withdraw-api-openapi.yml
   format: yaml
-  label: Dopex withdraw API
+  label: Dopex Withdraw API
   slug: dopex-withdraw-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-withdraw-api-openapi.yml

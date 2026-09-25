@@ -50,13 +50,12 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Advertising
-- Advertising Technology
 - AdTech
 - Retargeting
 - Audience Targeting
 - Dynamic Creative Optimization
 - Marketing
-- Machine-Learning
+- Machine Learning
 - Acquired
 - Defunct
 ---

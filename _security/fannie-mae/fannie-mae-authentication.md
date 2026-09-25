@@ -47,10 +47,10 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  https://fms
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fannie-mae/refs/heads/main/authentication/fannie-mae-authentication.yml
 summary_line: 4 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Housing
 - Mortgage
 - Finance
-- GSE
+- Government-Sponsored Enterprise
 - Fortune 100
 ---

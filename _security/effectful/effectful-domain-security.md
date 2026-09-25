@@ -33,8 +33,8 @@ tags:
 - Company
 - Developer Tools
 - TypeScript
-- Libraries
-- Open-Source
+- Library
+- Open Source
 - Functional Programming
 - SDK
 - Observability

@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/security/wikikv-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Knowledge-Management
+- Knowledge Management
 - RAG
 - AI Agents
 - MCP
@@ -47,5 +47,5 @@ tags:
 - Troubleshooting
 - Developer Tools
 - Open Knowledge
-- agent-native
+- Agent-Native
 ---

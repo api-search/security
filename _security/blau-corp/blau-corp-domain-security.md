@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Blau Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Blau Corp, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Blau Corp
+overview: 'Domain security posture for Blau, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Blau
 provider_slug: blau-corp
 slug: blau-corp-domain-security
 source_filename: blau-corp-domain-security.yml

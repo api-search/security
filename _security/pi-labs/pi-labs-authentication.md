@@ -38,6 +38,6 @@ tags:
 - Evaluation
 - LLM
 - Scoring
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 ---

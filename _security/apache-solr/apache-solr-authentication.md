@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: apache-solr-schema-api-openapi.yml
-  format: yaml
-  label: Apache Solr Schema API
-  slug: apache-solr-schema-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-schema-api-openapi.yml
-- filename: apache-solr-collections-api-openapi.yml
-  format: yaml
-  label: Apache Solr Collections API
-  slug: apache-solr-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-collections-api-openapi.yml
 - filename: apache-solr-cluster-api-openapi.yml
   format: yaml
   label: Apache Solr Cluster API
@@ -78,6 +66,6 @@ tags:
 - Lucene
 - Search
 - SolrCloud
-- Open-Source
+- Open Source
 - Java
 ---

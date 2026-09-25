@@ -50,85 +50,85 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-mocks-api-openapi.yml
 - filename: postman-analytics-api-openapi.yml
   format: yaml
-  label: Postman analytics API
+  label: Postman Analytics API
   slug: postman-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-analytics-api-openapi.yml
 - filename: postman-api-api-openapi.yml
   format: yaml
-  label: Postman api
+  label: Postman API
   slug: postman-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-api-openapi.yml
 - filename: postman-apicatalog-api-openapi.yml
   format: yaml
-  label: Postman apiCatalog API
+  label: Postman API Catalog API
   slug: postman-apicatalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apicatalog-api-openapi.yml
 - filename: postman-billing-api-openapi.yml
   format: yaml
-  label: Postman billing API
+  label: Postman Billing API
   slug: postman-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-billing-api-openapi.yml
 - filename: postman-comments-api-openapi.yml
   format: yaml
-  label: Postman comments API
+  label: Postman Comments API
   slug: postman-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-comments-api-openapi.yml
 - filename: postman-components-api-openapi.yml
   format: yaml
-  label: Postman components API
+  label: Postman Components API
   slug: postman-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-components-api-openapi.yml
 - filename: postman-groups-api-openapi.yml
   format: yaml
-  label: Postman groups API
+  label: Postman Groups API
   slug: postman-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-groups-api-openapi.yml
 - filename: postman-import-api-openapi.yml
   format: yaml
-  label: Postman import API
+  label: Postman Import API
   slug: postman-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-import-api-openapi.yml
 - filename: postman-postbot-api-openapi.yml
   format: yaml
-  label: Postman postbot API
+  label: Postman Postbot API
   slug: postman-postbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-postbot-api-openapi.yml
 - filename: postman-scim-api-openapi.yml
   format: yaml
-  label: Postman scim API
+  label: Postman SCIM API
   slug: postman-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-scim-api-openapi.yml
 - filename: postman-search-api-openapi.yml
   format: yaml
-  label: Postman search API
+  label: Postman Search API
   slug: postman-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-search-api-openapi.yml
 - filename: postman-specs-api-openapi.yml
   format: yaml
-  label: Postman specs API
+  label: Postman Specs API
   slug: postman-specs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-specs-api-openapi.yml
 - filename: postman-teams-api-openapi.yml
   format: yaml
-  label: Postman teams API
+  label: Postman Teams API
   slug: postman-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-teams-api-openapi.yml
 - filename: postman-users-api-openapi.yml
   format: yaml
-  label: Postman users API
+  label: Postman Users API
   slug: postman-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-users-api-openapi.yml
@@ -176,7 +176,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-server-responses-api-openapi.yml
 - filename: postman-sdks-api-openapi.yml
   format: yaml
-  label: Postman Sd Ks API
+  label: Postman SDKs API
   slug: postman-sdks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-sdks-api-openapi.yml

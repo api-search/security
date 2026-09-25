@@ -34,7 +34,7 @@ tags:
 - Customer Service
 - Voice AI
 - Contact Center Automation
-- Agentic AI
+- AI Agents
 - Conversation Intelligence
 trust_url: https://www.replicant.com/safety-ai-security
 ---

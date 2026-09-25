@@ -35,7 +35,7 @@ tags:
 - Deep Tech
 - Climate Tech
 - Methane
-- Biotech
+- Biotechnology
 - Agriculture
 - Carbon Credits
 ---

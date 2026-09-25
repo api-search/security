@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/
 summary_line: 5 schemes
 tags:
 - Company
-- Advertising Technology
+- AdTech
 - Marketing Technology
 - E-Commerce
 - Marketing Automation

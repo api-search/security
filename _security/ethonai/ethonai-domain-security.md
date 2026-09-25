@@ -35,7 +35,7 @@ tags:
 - Manufacturing
 - Manufacturing Analytics
 - Quality Management
-- Machine-Learning
+- Machine Learning
 - Causal AI
 - Industry 4.0
 - IoT

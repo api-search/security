@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Contact Center
-- Knowledge-Management
+- Knowledge Management
 - Software-as-a-Service
 - Search
 ---

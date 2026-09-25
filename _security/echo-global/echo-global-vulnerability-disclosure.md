@@ -2,49 +2,49 @@
 api_specs:
 - filename: echo-global-documents-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics documents API
+  label: Echo Global Logistics Documents API
   slug: echo-global-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-documents-api-openapi.yml
 - filename: echo-global-health-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics health API
+  label: Echo Global Logistics Health API
   slug: echo-global-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-health-api-openapi.yml
 - filename: echo-global-ping-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics ping API
+  label: Echo Global Logistics Ping API
   slug: echo-global-ping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-ping-api-openapi.yml
 - filename: echo-global-query-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics query API
+  label: Echo Global Logistics Query API
   slug: echo-global-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-query-api-openapi.yml
 - filename: echo-global-quotes-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics quotes API
+  label: Echo Global Logistics Quotes API
   slug: echo-global-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-quotes-api-openapi.yml
 - filename: echo-global-rates-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics rates API
+  label: Echo Global Logistics Rates API
   slug: echo-global-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-rates-api-openapi.yml
 - filename: echo-global-shipments-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics shipments API
+  label: Echo Global Logistics Shipments API
   slug: echo-global-shipments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-shipments-api-openapi.yml
 - filename: echo-global-token-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics token API
+  label: Echo Global Logistics Token API
   slug: echo-global-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml

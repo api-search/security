@@ -101,5 +101,5 @@ tags:
 - Stablecoins
 - Risk Scoring
 - Analytics
-- agent-native
+- Agent-Native
 ---

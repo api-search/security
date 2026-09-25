@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Jains Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Jain Irrigation Systems Ltd, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Jain Irrigation Systems Ltd
+overview: 'Domain security posture for Jain Irrigation Systems, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Jain Irrigation Systems
 provider_slug: jains
 slug: jains-domain-security
 source_filename: jains-domain-security.yml

@@ -74,10 +74,12 @@ tags:
 - Order Management
 - Clearing
 - Custody
-- Financial-Services
+- Financial Services
 - Prediction Markets
 - Staking
 - Derivatives
 - WebSocket
 - FIX
+- Real-Time
+- A2A
 ---

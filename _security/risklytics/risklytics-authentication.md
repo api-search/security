@@ -35,11 +35,11 @@ tags:
 - Company
 - Insurance
 - Insurtech
-- Risk
+- Risk Management
 - Wildfire
 - Property
 - Catastrophe
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Underwriting
 ---

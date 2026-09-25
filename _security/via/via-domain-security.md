@@ -37,4 +37,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/via/refs/heads
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
+- Human Resources
+- Employer of Record
+- Global Employment
+- Payroll
+- Remote Work
 ---

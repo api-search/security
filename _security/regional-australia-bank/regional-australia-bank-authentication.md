@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/regional
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/authentication/regional-australia-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

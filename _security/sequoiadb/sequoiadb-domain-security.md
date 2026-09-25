@@ -35,7 +35,7 @@ tags:
 - NoSQL
 - Distributed Database
 - Document Database
-- Financial-Services
-- Open-Source
+- Financial Services
+- Open Source
 - Vector Database
 ---

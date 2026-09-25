@@ -39,5 +39,4 @@ tags:
 - Verification
 - EDA
 - AI Agents
-- Agentic AI
 ---

@@ -61,6 +61,7 @@ tags:
 - Voice
 - Audio
 - Conversational AI
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
+- Real-Time
 ---

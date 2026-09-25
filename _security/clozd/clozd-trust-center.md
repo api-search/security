@@ -75,6 +75,6 @@ tags:
 - Revenue Intelligence
 - Software-as-a-Service
 - MCP
-- agent-native
+- Agent-Native
 trust_url: https://trust.clozd.com
 ---

@@ -48,4 +48,5 @@ tags:
 - GraphQL
 - LEMUR
 - GNSS-RO
+- Geospatial
 ---

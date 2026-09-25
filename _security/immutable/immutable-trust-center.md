@@ -131,5 +131,6 @@ tags:
 - Customer Data Platform
 - Authentication
 - Developer Platform
+- A2A
 trust_url: ''
 ---

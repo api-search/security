@@ -70,7 +70,7 @@ tags:
 - CPT
 - HCPCS
 - MCP
-- agent-native
+- Agent-Native
 - OpenAPI
 - llms-txt
 ---

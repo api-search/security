@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: hatch-contacts-api-openapi.yml
   format: yaml
-  label: Hatch contacts API
+  label: Hatch Contacts API
   slug: hatch-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/openapi/hatch-contacts-api-openapi.yml

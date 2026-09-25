@@ -102,7 +102,7 @@ tags:
 - MCP
 - MFA
 - OIDC
-- Open-Source
+- Open Source
 - Passkeys
 - SAML
 - SCIM

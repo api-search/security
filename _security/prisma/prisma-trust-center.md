@@ -164,7 +164,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/he
 summary_line: trust center published
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - ORM
 - Developer Tools
 - Application Hosting

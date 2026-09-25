@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Air Traffic Control
 - Aviation Safety
-- Machine-Learning
+- Machine Learning
 - Datasets
 - Transportation
 ---

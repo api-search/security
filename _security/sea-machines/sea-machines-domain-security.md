@@ -47,6 +47,6 @@ tags:
 - Autonomy
 - Robotics
 - Maritime
-- Computer-Vision
+- Computer Vision
 - Telemetry
 ---

@@ -35,7 +35,7 @@ tags:
 - Insurance
 - Auto Insurance
 - Insurtech
-- Financial-Services
+- Financial Services
 - Claims
 - Partner API
 ---

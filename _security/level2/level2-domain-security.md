@@ -87,7 +87,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Trading
 - Fintech
-- Financial-Services
+- Financial Services
 - Automation
 - No-Code
 - Backtesting

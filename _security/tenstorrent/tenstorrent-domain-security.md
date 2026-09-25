@@ -34,11 +34,11 @@ tags:
 - AI Hardware
 - RISC-V
 - Accelerator
-- Open-Source
+- Open Source
 - Compilers
 - MLIR
 - PyTorch
 - JAX
 - SDK
-- Data-Center
+- Data Center
 ---

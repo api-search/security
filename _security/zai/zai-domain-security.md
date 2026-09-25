@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/openapi/zai-marketplaces-api-openapi.yml
 - filename: zai-payids-api-openapi.yml
   format: yaml
-  label: Zai Pay I Ds API
+  label: Zai PayIDs API
   slug: zai-payids-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/openapi/zai-payids-api-openapi.yml

@@ -353,7 +353,8 @@ tags:
 - Text-to-Speech
 - Voice Cloning
 - MCP
-- agent-native
+- Agent-Native
 - Saudi Arabia
 - MENA
+- A2A
 ---

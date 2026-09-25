@@ -91,14 +91,14 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Banking
 - Business Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Embedded Finance
 - Onboarding
 - KYC
 - Webhook
 - MCP
-- agent-native
+- Agent-Native
 - Invoicing
 - Bill Pay
 - Accounting

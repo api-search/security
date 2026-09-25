@@ -38,7 +38,7 @@ tags:
 - AI Agents
 - MCP
 - Organizational Memory
-- Knowledge-Management
+- Knowledge Management
 - Developer Tools
 - Y Combinator
 ---

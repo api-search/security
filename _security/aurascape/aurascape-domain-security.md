@@ -35,7 +35,7 @@ tags:
 - AI Security
 - Security
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Data Protection
 - Data Loss Prevention
 - Governance

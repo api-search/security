@@ -54,6 +54,6 @@ tags:
 - Agentic Commerce
 - OpenAI-Compatible
 - Self-Hosted
-- agent-native
+- Agent-Native
 - Montenegro
 ---

@@ -36,7 +36,7 @@ tags:
 - Space
 - Satellite
 - Launch Vehicles
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Energy
 - Solar Power

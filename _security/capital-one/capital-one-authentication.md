@@ -41,7 +41,7 @@ tags:
 - Credit Cards
 - Credit Offers
 - DevExchange
-- Financial-Services
+- Financial Services
 - FDX
 - Open Banking
 - Authentication

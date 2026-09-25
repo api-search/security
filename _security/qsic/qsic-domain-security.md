@@ -40,5 +40,5 @@ tags:
 - Music
 - Media
 - Marketing
-- Advertising Technology
+- AdTech
 ---

@@ -36,7 +36,7 @@ tags:
 - Industrial
 - Operational Data
 - Time Series
-- IIoT
+- Industrial IoT
 - PI System
 - Manufacturing
 ---

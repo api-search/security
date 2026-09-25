@@ -102,6 +102,6 @@ tags:
 - Infrastructure
 - Networks
 - Alerting
-- Open-Source
+- Open Source
 - Observability
 ---

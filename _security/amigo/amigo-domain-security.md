@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/openapi/amigo-conversation-api-openapi.yml
 - filename: amigo-conversations-api-openapi.yml
   format: yaml
-  label: Amigo conversations API
+  label: Amigo Conversations API
   slug: amigo-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/openapi/amigo-conversations-api-openapi.yml

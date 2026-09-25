@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Lending
 - Banking
-- Financial-Services
+- Financial Services
 - Loan Origination
 - Account Opening
 - Fraud

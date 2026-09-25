@@ -10,8 +10,8 @@ kind: trust-center
 layout: security
 name: Appriss Inc Trust Center
 name_suffix: Trust Center
-overview: Appriss Inc. maintains a public trust center documenting ISO/IEC 27001, GDPR, CCPA, and PIPEDA compliance.
-provider_name: Appriss Inc.
+overview: Appriss maintains a public trust center documenting ISO/IEC 27001, GDPR, CCPA, and PIPEDA compliance.
+provider_name: Appriss
 provider_slug: appriss-inc
 slug: appriss-inc-trust-center
 source_filename: appriss-inc-trust-center.yml

@@ -5,85 +5,85 @@ api_key_in:
 api_specs:
 - filename: fixie-accounts-api-openapi.yml
   format: yaml
-  label: Fixie accounts API
+  label: Fixie Accounts API
   slug: fixie-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-accounts-api-openapi.yml
 - filename: fixie-agents-api-openapi.yml
   format: yaml
-  label: Fixie agents API
+  label: Fixie Agents API
   slug: fixie-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-agents-api-openapi.yml
 - filename: fixie-api-keys-api-openapi.yml
   format: yaml
-  label: Fixie api_keys API
+  label: Fixie API Keys API
   slug: fixie-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-api-keys-api-openapi.yml
 - filename: fixie-call-throttles-api-openapi.yml
   format: yaml
-  label: Fixie call_throttles API
+  label: Fixie Call Throttles API
   slug: fixie-call-throttles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-call-throttles-api-openapi.yml
 - filename: fixie-calls-api-openapi.yml
   format: yaml
-  label: Fixie calls API
+  label: Fixie Calls API
   slug: fixie-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-calls-api-openapi.yml
 - filename: fixie-corpora-api-openapi.yml
   format: yaml
-  label: Fixie corpora API
+  label: Fixie Corpora API
   slug: fixie-corpora-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-corpora-api-openapi.yml
 - filename: fixie-deleted-calls-api-openapi.yml
   format: yaml
-  label: Fixie deleted_calls API
+  label: Fixie Deleted Calls API
   slug: fixie-deleted-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-deleted-calls-api-openapi.yml
 - filename: fixie-models-api-openapi.yml
   format: yaml
-  label: Fixie models API
+  label: Fixie Models API
   slug: fixie-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-models-api-openapi.yml
 - filename: fixie-schema-api-openapi.yml
   format: yaml
-  label: Fixie schema API
+  label: Fixie Schema API
   slug: fixie-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-schema-api-openapi.yml
 - filename: fixie-sip-api-openapi.yml
   format: yaml
-  label: Fixie sip API
+  label: Fixie Sip API
   slug: fixie-sip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-sip-api-openapi.yml
 - filename: fixie-telephony-configs-api-openapi.yml
   format: yaml
-  label: Fixie telephony_configs API
+  label: Fixie Telephony Configs API
   slug: fixie-telephony-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-telephony-configs-api-openapi.yml
 - filename: fixie-tools-api-openapi.yml
   format: yaml
-  label: Fixie tools API
+  label: Fixie Tools API
   slug: fixie-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-tools-api-openapi.yml
 - filename: fixie-voices-api-openapi.yml
   format: yaml
-  label: Fixie voices API
+  label: Fixie Voices API
   slug: fixie-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-voices-api-openapi.yml
 - filename: fixie-webhooks-api-openapi.yml
   format: yaml
-  label: Fixie webhooks API
+  label: Fixie Webhooks API
   slug: fixie-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-webhooks-api-openapi.yml
@@ -124,7 +124,7 @@ tags:
 - Speech
 - Agents
 - Telephony
-- Machine-Learning
+- Machine Learning
 - SIP
 - Webhook
 ---

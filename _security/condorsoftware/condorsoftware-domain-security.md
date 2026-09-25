@@ -36,7 +36,7 @@ tags:
 - Clinical Trials
 - Financial Intelligence
 - Pharmaceuticals
-- Biotech
+- Biotechnology
 - FinOps
 - Artificial Intelligence
 ---

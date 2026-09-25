@@ -40,7 +40,7 @@ tags:
 - Construction
 - Big Data
 - Data
-- Real-Estate
+- Real Estate
 - Analytics
 - CRM
 - South Korea

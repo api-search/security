@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - x402
-- Agent Payments
+- Agentic Payments
 - MCP
 - A2A
 - AI Gateway

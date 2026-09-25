@@ -130,5 +130,7 @@ tags:
 - Email Campaigns
 - Software-as-a-Service
 - Commerce
+- A2A
+- Email
 trust_url: https://kit.com/security
 ---

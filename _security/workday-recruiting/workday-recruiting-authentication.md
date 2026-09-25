@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: workday-recruiting-agentdefinition-api-openapi.yml
   format: yaml
-  label: Workday Recruiting agentDefinition API
+  label: Workday Recruiting Agent Definition API
   slug: workday-recruiting-agentdefinition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/openapi/workday-recruiting-agentdefinition-api-openapi.yml

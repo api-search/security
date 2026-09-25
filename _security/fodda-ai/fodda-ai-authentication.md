@@ -152,7 +152,7 @@ tags:
 - Institutional Data
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Machine Payments
 - Company
 ---

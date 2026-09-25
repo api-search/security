@@ -39,6 +39,6 @@ tags:
 - Analytics
 - Natural Language Processing
 - Data Fusion
-- Machine-Learning
+- Machine Learning
 - United Kingdom
 ---

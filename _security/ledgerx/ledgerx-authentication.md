@@ -54,7 +54,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Enterprise
-- Financial-Services
+- Financial Services
 - Derivatives
 - Trading
 - Cryptocurrency
@@ -63,4 +63,5 @@ tags:
 - Market Data
 - WebSocket
 - Regulated Markets
+- Real-Time
 ---

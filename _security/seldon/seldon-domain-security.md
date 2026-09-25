@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-explain-api-openapi.yml
 - filename: seldon-health-api-openapi.yml
   format: yaml
-  label: Seldon health API
+  label: Seldon Health API
   slug: seldon-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-api-openapi.yml
@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-loadtestjobs-api-openapi.yml
 - filename: seldon-metadata-api-openapi.yml
   format: yaml
-  label: Seldon metadata API
+  label: Seldon Metadata API
   slug: seldon-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-metadata-api-openapi.yml
@@ -200,7 +200,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/he
 summary_line: TLSv1.3 · HSTS
 tags:
 - MLOps
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - Inference
 - Kubernetes

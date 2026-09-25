@@ -17,8 +17,8 @@ method: searched
 name: Optionsahoy Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: AlphaLatitude Inc. declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: AlphaLatitude Inc.
+overview: OptionsAhoy declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: OptionsAhoy
 provider_slug: optionsahoy-com
 scheme_count: 0
 schemes: []
@@ -42,7 +42,7 @@ tags:
 - Calculators
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Deterministic
 - United States
 ---

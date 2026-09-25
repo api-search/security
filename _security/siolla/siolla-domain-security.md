@@ -41,7 +41,7 @@ tags:
 - Fintech
 - Investment
 - Wealth Management
-- Portfolio-Management
+- Portfolio Management
 - Sharia-Compliant
 - Saudi Arabia
 - Mobile App

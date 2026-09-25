@@ -311,5 +311,5 @@ tags:
 - Rank Tracking
 - Site Audit
 - Brand Monitoring
-- Social-Media
+- Social Media
 ---

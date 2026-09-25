@@ -79,7 +79,7 @@ tags:
 - Foundation Models
 - Generative Biology
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 - Protein Design
 - Protein Folding
 - Protein Language Models

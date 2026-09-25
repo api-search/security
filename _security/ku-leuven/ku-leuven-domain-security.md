@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-access-api-openapi.yml
 - filename: ku-leuven-addfilestodataset-api-openapi.yml
   format: yaml
-  label: KU Leuven addFilesToDataset API
+  label: KU Leuven Add Files To Dataset API
   slug: ku-leuven-addfilestodataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-addfilestodataset-api-openapi.yml
 - filename: ku-leuven-addfiletodataset-api-openapi.yml
   format: yaml
-  label: KU Leuven addFileToDataset API
+  label: KU Leuven Add File To Dataset API
   slug: ku-leuven-addfiletodataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-addfiletodataset-api-openapi.yml
 - filename: ku-leuven-addglobusfilestodataset-api-openapi.yml
   format: yaml
-  label: KU Leuven addGlobusFilesToDataset API
+  label: KU Leuven Add Globus Files To Dataset API
   slug: ku-leuven-addglobusfilestodataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-addglobusfilestodataset-api-openapi.yml
@@ -164,7 +164,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-pids-api-openapi.yml
 - filename: ku-leuven-replacefilesindataset-api-openapi.yml
   format: yaml
-  label: KU Leuven replaceFilesInDataset API
+  label: KU Leuven Replace Files In Dataset API
   slug: ku-leuven-replacefilesindataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-replacefilesindataset-api-openapi.yml
@@ -176,7 +176,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-roles-api-openapi.yml
 - filename: ku-leuven-saveauxiliaryfilewithversion-api-openapi.yml
   format: yaml
-  label: KU Leuven saveAuxiliaryFileWithVersion API
+  label: KU Leuven Save Auxiliary File With Version API
   slug: ku-leuven-saveauxiliaryfilewithversion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-saveauxiliaryfilewithversion-api-openapi.yml
@@ -188,7 +188,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-search-api-openapi.yml
 - filename: ku-leuven-uploaddatasetlogo-api-openapi.yml
   format: yaml
-  label: KU Leuven uploadDatasetLogo API
+  label: KU Leuven Upload Dataset Logo API
   slug: ku-leuven-uploaddatasetlogo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-uploaddatasetlogo-api-openapi.yml

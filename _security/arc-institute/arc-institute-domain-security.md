@@ -42,7 +42,7 @@ tags:
 - Evo 2
 - Bioinformatics
 - Non-Profit
-- Open-Source
-- Machine-Learning
+- Open Source
+- Machine Learning
 - AI for Science
 ---

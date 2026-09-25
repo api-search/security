@@ -40,6 +40,6 @@ tags:
 - Digital Assets
 - Blockchain
 - Ethereum
-- Financial-Services
+- Financial Services
 - Yield
 ---

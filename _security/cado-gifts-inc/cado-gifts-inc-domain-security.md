@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Cado Gifts Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Cado Gifts, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Cado Gifts, Inc.
+overview: 'Domain security posture for Cado Gifts, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Cado Gifts
 provider_slug: cado-gifts-inc
 slug: cado-gifts-inc-domain-security
 source_filename: cado-gifts-inc-domain-security.yml

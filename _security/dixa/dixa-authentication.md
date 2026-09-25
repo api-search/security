@@ -153,7 +153,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Customer Service
-- Conversational
+- Conversational AI
 - Omnichannel
 - CX
 - Help Desk

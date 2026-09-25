@@ -1383,7 +1383,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchling/refs
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Life Sciences
-- Biotech
+- Biotechnology
 - R&D
 - Molecular Biology
 - Laboratory Information Management

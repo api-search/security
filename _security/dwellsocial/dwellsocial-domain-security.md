@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dwellsocial/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Food And Drink
+- Food and Beverage
 - Food Delivery
 - Restaurant
 - Community

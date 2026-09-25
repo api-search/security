@@ -29,7 +29,7 @@ summary_line: 0 schemes
 tags:
 - Business Process Management
 - Decision Management
-- Workflow-Automation
+- Workflow Automation
 - Low-Code
 - BPMN
 - DMN

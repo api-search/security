@@ -47,7 +47,7 @@ tags:
 - Enforcement
 - ESG
 - Financial Restructuring
-- Financial-Services
+- Financial Services
 - Fintech
 - Global Finance
 - Government Contracts
@@ -69,7 +69,7 @@ tags:
 - Private Credit
 - Private Equity
 - Product Liability
-- Real-Estate
+- Real Estate
 - Regulatory
 - Sovereign Wealth Funds
 - Sustainability

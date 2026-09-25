@@ -56,5 +56,6 @@ tags:
 - Search
 - Knowledge Base
 - Unstructured Data
+- Real-Time
 trust_url: https://www.progress.com/agentic-rag/features/security-and-privacy
 ---

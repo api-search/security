@@ -245,5 +245,5 @@ tags:
 - Medicaid
 - Health Insurance
 - EHR
-- Machine-Learning
+- Machine Learning
 ---

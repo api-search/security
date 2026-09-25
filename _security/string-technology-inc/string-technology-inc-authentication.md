@@ -14,8 +14,8 @@ method: searched
 name: String Technology Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: String Technology Inc secures its APIs with apiKey, walletSignature, and session across 4 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: String Technology Inc
+overview: String Technology secures its APIs with apiKey, walletSignature, and session across 4 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: String Technology
 provider_slug: string-technology-inc
 scheme_count: 4
 schemes:

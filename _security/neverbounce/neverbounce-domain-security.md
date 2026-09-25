@@ -69,11 +69,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neverbounce/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Verification
-- Email Validation
 - Email Hygiene
 - Deliverability
 - Marketing
 - List Cleaning
 - Data Quality
 - ZoomInfo
+- Email
 ---

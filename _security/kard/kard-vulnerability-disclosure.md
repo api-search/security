@@ -2,7 +2,7 @@
 api_specs:
 - filename: kard-attributions-api-openapi.yml
   format: yaml
-  label: Kard attributions API
+  label: Kard Attributions API
   slug: kard-attributions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-attributions-api-openapi.yml
@@ -56,19 +56,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-ping-api-openapi.yml
 - filename: kard-rewards-api-openapi.yml
   format: yaml
-  label: Kard rewards API
+  label: Kard Rewards API
   slug: kard-rewards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-rewards-api-openapi.yml
 - filename: kard-transactions-api-openapi.yml
   format: yaml
-  label: Kard transactions API
+  label: Kard Transactions API
   slug: kard-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-transactions-api-openapi.yml
 - filename: kard-users-api-openapi.yml
   format: yaml
-  label: Kard users API
+  label: Kard Users API
   slug: kard-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-api-openapi.yml

@@ -55,8 +55,8 @@ method: derived
 name: Ncr Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: NCR secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: NCR
+overview: NCR Voyix secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: NCR Voyix
 provider_slug: ncr
 scheme_count: 1
 schemes:
@@ -78,7 +78,6 @@ tags:
 - Restaurant
 - Retail
 - Banking
-- ATM
 - Point-of-Sale
 - Commerce
 - Fortune 500

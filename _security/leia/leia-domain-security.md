@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - 3D
 - Spatial Computing
-- Computer-Vision
+- Computer Vision
 - depth-estimation
 - Image Processing
 - Video Processing

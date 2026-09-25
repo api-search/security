@@ -31,13 +31,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elementl/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Open-Source
+- Open Source
 - Data Orchestration
 - Data Engineering
 - Data Pipeline
 - DataOps
 - Observability
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Cloud
 ---

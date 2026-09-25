@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Phone Validation
 - Phone Numbers
-- Telecom
+- Telecommunications
 - Data
 - Validation
 - Carrier Lookup

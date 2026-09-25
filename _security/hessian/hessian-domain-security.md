@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Y Combinator
 - Forward Deployed
 ---

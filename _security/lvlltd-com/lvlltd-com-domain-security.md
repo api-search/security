@@ -47,6 +47,6 @@ tags:
 - Micropayments
 - Stablecoins
 - Marketplace
-- agent-native
+- Agent-Native
 - United States
 ---

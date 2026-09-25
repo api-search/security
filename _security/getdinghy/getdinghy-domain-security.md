@@ -34,5 +34,5 @@ tags:
 - Freelancers
 - Contractors
 - United Kingdom
-- Financial-Services
+- Financial Services
 ---

@@ -273,8 +273,8 @@ kind: trust-center
 layout: security
 name: Methodfi Trust Center
 name_suffix: Trust Center
-overview: MethodFi maintains a public trust center documenting SOC 2 and PCI DSS compliance.
-provider_name: MethodFi
+overview: Method Financial maintains a public trust center documenting SOC 2 and PCI DSS compliance.
+provider_name: Method Financial
 provider_slug: methodfi
 slug: methodfi-trust-center
 source_filename: methodfi-trust-center.yml

@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administration
 summary_line: 2 schemes
 tags:
 - Aging
-- Federal-Government
+- Federal Government
 - Healthcare
 - Disability
 - Independent Living

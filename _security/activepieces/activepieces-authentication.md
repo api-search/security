@@ -87,8 +87,9 @@ summary_line: http · 1 scheme
 tags:
 - Automation
 - No-Code
-- Open-Source
+- Open Source
 - Workflows
 - AI Agents
 - MCP
+- Workflow Automation
 ---

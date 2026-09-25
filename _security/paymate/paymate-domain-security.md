@@ -88,7 +88,7 @@ tags:
 - Invoice Discounting
 - Working Capital
 - Commercial Cards
-- Financial-Services
+- Financial Services
 - India
 - Fintech
 - Company

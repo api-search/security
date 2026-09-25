@@ -8,25 +8,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-ca-api-openapi.yml
 - filename: sigstore-entries-api-openapi.yml
   format: yaml
-  label: Sigstore entries API
+  label: Sigstore Entries API
   slug: sigstore-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-entries-api-openapi.yml
 - filename: sigstore-index-api-openapi.yml
   format: yaml
-  label: Sigstore index API
+  label: Sigstore Index API
   slug: sigstore-index-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-index-api-openapi.yml
 - filename: sigstore-pubkey-api-openapi.yml
   format: yaml
-  label: Sigstore pubkey API
+  label: Sigstore Pubkey API
   slug: sigstore-pubkey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-pubkey-api-openapi.yml
 - filename: sigstore-tlog-api-openapi.yml
   format: yaml
-  label: Sigstore tlog API
+  label: Sigstore Tlog API
   slug: sigstore-tlog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-tlog-api-openapi.yml
@@ -80,7 +80,7 @@ tags:
 - Code Signing
 - Containers
 - Cryptography
-- Open-Source
+- Open Source
 - PKI
 - Security
 - Software Supply Chain

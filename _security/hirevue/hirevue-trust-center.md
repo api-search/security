@@ -27,5 +27,6 @@ tags:
 - Scheduling
 - Conversational AI
 - Human Resources
+- Recruiting
 trust_url: https://trust.hirevue.com/
 ---

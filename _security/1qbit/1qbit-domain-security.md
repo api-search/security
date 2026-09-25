@@ -33,7 +33,7 @@ tags:
 - Company
 - Quantum Computing
 - Optimization
-- Machine-Learning
+- Machine Learning
 - Simulation
 - Scientific Computing
 - Research

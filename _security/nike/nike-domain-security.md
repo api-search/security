@@ -33,4 +33,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nike/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fortune 500
+- Fashion
+- Apparel
+- Footwear
+- Sportswear
+- Sporting Goods
 ---

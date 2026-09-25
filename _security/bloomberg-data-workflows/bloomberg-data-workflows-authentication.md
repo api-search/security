@@ -74,7 +74,7 @@ summary_line: 3 schemes
 tags:
 - Enterprise Data
 - Financial Analytics
-- Financial-Services
+- Financial Services
 - Investment Management
 - Market Data
 - Reference Data

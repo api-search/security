@@ -33,7 +33,7 @@ tags:
 - Company
 - Ai Enterprise Software
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - World Models
 - AI Research
 - Robotics

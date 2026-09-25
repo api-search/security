@@ -4,67 +4,67 @@ api_key_in: []
 api_specs:
 - filename: origin-protocol-account-api-openapi.yml
   format: yaml
-  label: Origin Protocol account API
+  label: Origin Protocol Account API
   slug: origin-protocol-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-account-api-openapi.yml
 - filename: origin-protocol-arm-api-openapi.yml
   format: yaml
-  label: Origin Protocol arm API
+  label: Origin Protocol Arm API
   slug: origin-protocol-arm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-arm-api-openapi.yml
 - filename: origin-protocol-beacon-chain-api-openapi.yml
   format: yaml
-  label: Origin Protocol beacon-chain API
+  label: Origin Protocol Beacon Chain API
   slug: origin-protocol-beacon-chain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-beacon-chain-api-openapi.yml
 - filename: origin-protocol-cache-api-openapi.yml
   format: yaml
-  label: Origin Protocol cache API
+  label: Origin Protocol Cache API
   slug: origin-protocol-cache-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-cache-api-openapi.yml
 - filename: origin-protocol-defillama-api-openapi.yml
   format: yaml
-  label: Origin Protocol defillama API
+  label: Origin Protocol Defillama API
   slug: origin-protocol-defillama-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-defillama-api-openapi.yml
 - filename: origin-protocol-dune-api-openapi.yml
   format: yaml
-  label: Origin Protocol dune API
+  label: Origin Protocol Dune API
   slug: origin-protocol-dune-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-dune-api-openapi.yml
 - filename: origin-protocol-hyperliquid-api-openapi.yml
   format: yaml
-  label: Origin Protocol hyperliquid API
+  label: Origin Protocol Hyperliquid API
   slug: origin-protocol-hyperliquid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-hyperliquid-api-openapi.yml
 - filename: origin-protocol-merkl-api-openapi.yml
   format: yaml
-  label: Origin Protocol merkl API
+  label: Origin Protocol Merkl API
   slug: origin-protocol-merkl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-merkl-api-openapi.yml
 - filename: origin-protocol-oeth-api-openapi.yml
   format: yaml
-  label: Origin Protocol oeth API
+  label: Origin Protocol Oeth API
   slug: origin-protocol-oeth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-oeth-api-openapi.yml
 - filename: origin-protocol-ofac-api-openapi.yml
   format: yaml
-  label: Origin Protocol ofac API
+  label: Origin Protocol Ofac API
   slug: origin-protocol-ofac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-ofac-api-openapi.yml
 - filename: origin-protocol-ogn-api-openapi.yml
   format: yaml
-  label: Origin Protocol ogn API
+  label: Origin Protocol Ogn API
   slug: origin-protocol-ogn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-ogn-api-openapi.yml
@@ -76,25 +76,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-protocol-api-openapi.yml
 - filename: origin-protocol-reports-api-openapi.yml
   format: yaml
-  label: Origin Protocol reports API
+  label: Origin Protocol Reports API
   slug: origin-protocol-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-reports-api-openapi.yml
 - filename: origin-protocol-strapi-api-openapi.yml
   format: yaml
-  label: Origin Protocol strapi API
+  label: Origin Protocol Strapi API
   slug: origin-protocol-strapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-strapi-api-openapi.yml
 - filename: origin-protocol-supply-api-openapi.yml
   format: yaml
-  label: Origin Protocol supply API
+  label: Origin Protocol Supply API
   slug: origin-protocol-supply-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-supply-api-openapi.yml
 - filename: origin-protocol-token-api-openapi.yml
   format: yaml
-  label: Origin Protocol token API
+  label: Origin Protocol Token API
   slug: origin-protocol-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/openapi/origin-protocol-token-api-openapi.yml

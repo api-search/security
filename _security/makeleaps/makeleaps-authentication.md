@@ -43,7 +43,7 @@ tags:
 - Accounting
 - Finance
 - Payments
-- Document-Management
+- Document Management
 - E-Invoicing
 - Software-as-a-Service
 - Japan

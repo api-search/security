@@ -308,7 +308,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/openapi/agicap-user-rights-api-openapi.yml
 - filename: agicap-webhooks-api-openapi.yml
   format: yaml
-  label: Agicap webhooks API
+  label: Agicap Webhooks API
   slug: agicap-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/openapi/agicap-webhooks-api-openapi.yml
@@ -339,7 +339,7 @@ tags:
 - Banking
 - Accounts Receivable
 - E-Invoicing
-- Financial-Services
+- Financial Services
 - Fintech
 - Applicative Saas
 trust_url: https://trust.agicap.com/

@@ -419,7 +419,7 @@ tags:
 - Vacation Rentals
 - Hospitality
 - Travel
-- Real-Estate
+- Real Estate
 - Channel Management
 - Reservations
 - Revenue Management

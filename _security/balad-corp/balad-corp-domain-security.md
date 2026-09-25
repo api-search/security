@@ -72,8 +72,8 @@ layout: security
 method: probed
 name: Balad Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for BALAD CORP, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: BALAD CORP
+overview: 'Domain security posture for BALAD, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: BALAD
 provider_slug: balad-corp
 slug: balad-corp-domain-security
 source_filename: balad-corp-domain-security.yml

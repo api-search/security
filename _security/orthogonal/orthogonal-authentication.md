@@ -433,9 +433,10 @@ tags:
 - AI Agents
 - API Discovery
 - API Marketplace
-- Agent Payments
+- Agentic Payments
 - MCP
 - Data Enrichment
 - Crypto
 - Stablecoins
+- A2A
 ---

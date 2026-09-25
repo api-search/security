@@ -25,7 +25,7 @@ tags:
 - Creator Management
 - Affiliate Marketing
 - Marketing
-- Social-Media
+- Social Media
 - E-Commerce
 trust_url: https://grin.co/security/
 ---

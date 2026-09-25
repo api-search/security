@@ -119,7 +119,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/ref
 summary_line: x402-payment/http-bearer/api-key-header · 4 schemes
 tags:
 - x402
-- Agent Payments
+- Agentic Payments
 - MCP
 - A2A
 - AI Gateway

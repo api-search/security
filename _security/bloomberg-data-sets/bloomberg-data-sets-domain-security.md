@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics
 - Datasets
-- Financial-Services
+- Financial Services
 - Market Data
 - Reference Data
 - Historical Data

@@ -5,67 +5,67 @@ api_key_in:
 api_specs:
 - filename: nhost-authentication-api-openapi.yml
   format: yaml
-  label: Nhost authentication API
+  label: Nhost Authentication API
   slug: nhost-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-authentication-api-openapi.yml
 - filename: nhost-documentation-api-openapi.yml
   format: yaml
-  label: Nhost documentation API
+  label: Nhost Documentation API
   slug: nhost-documentation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-documentation-api-openapi.yml
 - filename: nhost-excludeme-api-openapi.yml
   format: yaml
-  label: Nhost excludeme API
+  label: Nhost Excludeme API
   slug: nhost-excludeme-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-excludeme-api-openapi.yml
 - filename: nhost-files-api-openapi.yml
   format: yaml
-  label: Nhost files API
+  label: Nhost Files API
   slug: nhost-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-files-api-openapi.yml
 - filename: nhost-operations-api-openapi.yml
   format: yaml
-  label: Nhost operations API
+  label: Nhost Operations API
   slug: nhost-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-operations-api-openapi.yml
 - filename: nhost-security-api-openapi.yml
   format: yaml
-  label: Nhost security API
+  label: Nhost Security API
   slug: nhost-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-security-api-openapi.yml
 - filename: nhost-session-api-openapi.yml
   format: yaml
-  label: Nhost session API
+  label: Nhost Session API
   slug: nhost-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-session-api-openapi.yml
 - filename: nhost-storage-api-openapi.yml
   format: yaml
-  label: Nhost storage API
+  label: Nhost Storage API
   slug: nhost-storage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-storage-api-openapi.yml
 - filename: nhost-system-api-openapi.yml
   format: yaml
-  label: Nhost system API
+  label: Nhost System API
   slug: nhost-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-system-api-openapi.yml
 - filename: nhost-user-api-openapi.yml
   format: yaml
-  label: Nhost user API
+  label: Nhost User API
   slug: nhost-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-user-api-openapi.yml
 - filename: nhost-verification-api-openapi.yml
   format: yaml
-  label: Nhost verification API
+  label: Nhost Verification API
   slug: nhost-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-verification-api-openapi.yml
@@ -113,7 +113,7 @@ tags:
 - File Storage
 - Serverless Functions
 - Real-Time
-- Open-Source
+- Open Source
 - Firebase Alternative
 - Backend-as-a-Service
 ---

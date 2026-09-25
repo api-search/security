@@ -32,6 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Developer Community
 - Media
-- Open-Source
+- Open Source
 - Podcasts
 ---

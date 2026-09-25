@@ -506,7 +506,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/openapi/qovery-service-main-calls-api-openapi.yml
 - filename: qovery-service-status-api-openapi.yml
   format: yaml
-  label: Qovery service_status API
+  label: Qovery Service Status API
   slug: qovery-service-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/openapi/qovery-service-status-api-openapi.yml

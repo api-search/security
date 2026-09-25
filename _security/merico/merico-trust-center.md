@@ -25,7 +25,7 @@ tags:
 - DevOps
 - DORA Metrics
 - Software Analytics
-- Open-Source
+- Open Source
 - Data Platform
 trust_url: https://www.devinsight.ai/security-trust
 ---

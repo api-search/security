@@ -41,6 +41,6 @@ tags:
 - Credit Management
 - Debt Management
 - Debt Recovery
-- Financial-Services
+- Financial Services
 - Recoveries
 ---

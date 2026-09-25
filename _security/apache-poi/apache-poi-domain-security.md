@@ -67,5 +67,5 @@ tags:
 - PowerPoint
 - Word
 - Apache
-- Open-Source
+- Open Source
 ---

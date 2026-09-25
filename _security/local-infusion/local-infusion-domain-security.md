@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: local-infusion-wp-v2-api-openapi.yml
-  format: yaml
-  label: Local Infusion WordPress Content API
-  slug: local-infusion-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-wp-v2-api-openapi.yml
 - filename: local-infusion-mcp-api-openapi.yml
   format: yaml
   label: Local Infusion MCP API
   slug: local-infusion-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-mcp-api-openapi.yml
-- filename: local-infusion-wp-abilities-v1-api-openapi.yml
-  format: yaml
-  label: Local Infusion WordPress Abilities API
-  slug: local-infusion-wp-abilities-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-wp-abilities-v1-api-openapi.yml
-- filename: local-infusion-root-api-openapi.yml
-  format: yaml
-  label: Local Infusion WordPress Root API
-  slug: local-infusion-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-root-api-openapi.yml
-- filename: local-infusion-oembed-1-0-api-openapi.yml
-  format: yaml
-  label: Local Infusion oEmbed API
-  slug: local-infusion-oembed-1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-oembed-1-0-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -412,4 +412,5 @@ tags:
 - Infrastructure as Code
 - MCP
 - Agent Ready
+- A2A
 ---

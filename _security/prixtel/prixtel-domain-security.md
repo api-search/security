@@ -38,7 +38,6 @@ tags:
 - Mobile Network Operator
 - Mobile Plans
 - Wireless
-- Telecom
 - France
 - Europe
 ---

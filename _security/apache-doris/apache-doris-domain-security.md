@@ -41,7 +41,7 @@ tags:
 - Lakehouse
 - MPP
 - OLAP
-- Open-Source
+- Open Source
 - Real-Time
 - SQL
 ---

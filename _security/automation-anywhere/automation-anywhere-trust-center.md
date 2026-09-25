@@ -155,14 +155,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-any
 summary_line: ISO 27001, ISO 9001, ISO 42001, ISO 22301, SOC 1, SOC 2, HIPAA, HITRUST, Cyber Essentials
 tags:
 - RPA
-- Robotic Process Automation
 - Intelligent Automation
 - Agentic Process Automation
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Document Automation
 - Process Orchestration
 - Enterprise Automation
 - Bots
+- A2A
 trust_url: ''
 ---

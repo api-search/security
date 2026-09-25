@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atomwise/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Drug Discovery
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Structure-Based Drug Design
 - Virtual Screening

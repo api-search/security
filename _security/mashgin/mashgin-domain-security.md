@@ -35,7 +35,7 @@ tags:
 - Frontier
 - Retail
 - Self-Checkout
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Payments
 ---

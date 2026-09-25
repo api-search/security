@@ -27,7 +27,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Edge Computing
-- Data-Center
+- Data Center
 - Colocation
 - Infrastructure
 - Device Management
@@ -35,6 +35,6 @@ tags:
 - Telemetry
 - IoT
 - gRPC
-- Open-Source
+- Open Source
 - Kubernetes
 ---

@@ -41,6 +41,6 @@ tags:
 - Insider Threat
 - Artificial Intelligence
 - Unstructured Data
-- Microsoft-365
+- Microsoft 365
 - Google Workspace
 ---

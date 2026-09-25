@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stonex/refs/he
 summary_line: http · 1 scheme
 tags:
 - Finance
-- Financial-Services
+- Financial Services
 - Payments
 - Clearing
 - Futures

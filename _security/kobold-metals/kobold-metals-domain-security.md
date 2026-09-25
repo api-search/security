@@ -37,7 +37,7 @@ tags:
 - Mining
 - Mineral Exploration
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Geoscience
 - Energy Transition
 - Copper

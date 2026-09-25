@@ -28,7 +28,6 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Enterprise
-- Robotic Process Automation
 - RPA
 - Hyper-Automation
 - Automation

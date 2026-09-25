@@ -32,7 +32,7 @@ tags:
 - CMS
 - Content Management
 - Git-based
-- Open-Source
+- Open Source
 - SDK
 - Static Sites
 ---

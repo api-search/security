@@ -87,5 +87,6 @@ tags:
 - SSO
 - Vault
 - Zero Trust
+- Identity Federation
 trust_url: https://trust.cyberark.com/
 ---

@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - AI Agents
-- Agent Payments
+- Agentic Payments
 - Identity
 - Payments
 - Authentication

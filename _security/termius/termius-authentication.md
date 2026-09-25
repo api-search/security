@@ -4,13 +4,13 @@ api_key_in: []
 api_specs:
 - filename: termius-group-api-openapi.yml
   format: yaml
-  label: Termius group API
+  label: Termius Group API
   slug: termius-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/openapi/termius-group-api-openapi.yml
 - filename: termius-host-api-openapi.yml
   format: yaml
-  label: Termius host API
+  label: Termius Host API
   slug: termius-host-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/openapi/termius-host-api-openapi.yml

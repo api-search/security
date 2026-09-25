@@ -161,7 +161,7 @@ tags:
 - Authorization
 - Access Control
 - Knowledge Graph
-- Agentic AI
+- AI Agents
 - MCP
 - Security
 - AuthZEN

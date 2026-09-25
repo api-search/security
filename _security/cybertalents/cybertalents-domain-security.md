@@ -36,6 +36,6 @@ tags:
 - Security Training
 - Capture The Flag
 - Talent Assessment
-- Recruitment
+- Recruiting
 - Certification
 ---

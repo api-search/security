@@ -43,6 +43,6 @@ tags:
 - Ratings
 - Embedded Insurance
 - Behavioral Science
-- Machine-Learning
+- Machine Learning
 - LLM
 ---

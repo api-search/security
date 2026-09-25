@@ -104,9 +104,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Detection
 - Fraud Prevention
-- Risk
+- Risk Management
 - Trust and Safety
-- Machine-Learning
+- Machine Learning
 - Payment Fraud
 - Account Takeover
 - Chargebacks

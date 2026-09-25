@@ -72,6 +72,30 @@ api_specs:
   slug: fcc-projection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-projection-api-openapi.yml
+- filename: federal-communications-commission-datasets-api-openapi.yml
+  format: yaml
+  label: Federal Communications Commission Datasets API
+  slug: federal-communications-commission-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-datasets-api-openapi.yml
+- filename: federal-communications-commission-filings-api-openapi.yml
+  format: yaml
+  label: Federal Communications Commission Filings API
+  slug: federal-communications-commission-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-filings-api-openapi.yml
+- filename: federal-communications-commission-pirate-radio-api-openapi.yml
+  format: yaml
+  label: Federal Communications Commission Pirate Radio API
+  slug: federal-communications-commission-pirate-radio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-pirate-radio-api-openapi.yml
+- filename: federal-communications-commission-proceedings-api-openapi.yml
+  format: yaml
+  label: Federal Communications Commission Proceedings API
+  slug: federal-communications-commission-proceedings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-proceedings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -113,7 +137,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/security/fcc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Telecommunications
 - Radio
 - Broadband

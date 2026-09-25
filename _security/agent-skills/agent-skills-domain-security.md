@@ -52,6 +52,5 @@ tags:
 - Tool Use
 - Function Calling
 - MCP
-- Agentic AI
 - Automation
 ---

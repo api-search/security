@@ -125,7 +125,7 @@ tags:
 - Artificial Intelligence
 - AI Coding Agents
 - Developer Tools
-- Open-Source
+- Open Source
 - CLI
 - Terminal
 - LLM

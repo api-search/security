@@ -37,7 +37,7 @@ tags:
 - Point Cloud
 - Geospatial
 - Automotive
-- Machine-Learning
+- Machine Learning
 - Acquired
 - United States
 ---

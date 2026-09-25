@@ -29,6 +29,6 @@ tags:
 - Threat Intelligence
 - Vulnerability Management
 - Managed Security Services
-- Agentic AI
+- AI Agents
 trust_url: https://security.deepwatch.com/
 ---

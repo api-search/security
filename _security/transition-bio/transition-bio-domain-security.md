@@ -34,7 +34,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Microfluidics
 - Proteomics

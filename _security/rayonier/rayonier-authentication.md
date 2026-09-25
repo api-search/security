@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rayonier/refs/
 summary_line: none/apiKey/oauth2 · 4 schemes
 tags:
 - Timber
-- Real-Estate
+- Real Estate
 - Forest Products
 - Geospatial
 - ArcGIS REST

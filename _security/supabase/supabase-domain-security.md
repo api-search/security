@@ -165,7 +165,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backend-as-a-Service
 - PostgreSQL
-- Open-Source
+- Open Source
 - Authentication
 - Real-Time
 - Storage

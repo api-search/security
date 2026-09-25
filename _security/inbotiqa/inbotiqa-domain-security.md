@@ -35,8 +35,8 @@ tags:
 - Shared Inbox
 - Workflows
 - Fintech
-- Financial-Services
-- Machine-Learning
+- Financial Services
+- Machine Learning
 - Productivity
 - Collaboration
 - Software-as-a-Service

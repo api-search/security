@@ -89,5 +89,6 @@ tags:
 - Passwords
 - Security
 - Secrets
+- Canada
 trust_url: https://1password.com/security
 ---

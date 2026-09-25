@@ -62,5 +62,5 @@ tags:
 - API Management
 - Developer Portal
 - LLM
-- Open-Source
+- Open Source
 ---

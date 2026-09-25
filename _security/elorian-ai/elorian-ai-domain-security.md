@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Multi-Modal
-- Computer-Vision
+- Computer Vision
 - Visual Reasoning
 - Robotics
 - Research

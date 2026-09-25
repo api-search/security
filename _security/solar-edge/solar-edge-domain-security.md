@@ -108,4 +108,5 @@ tags:
 - Inverters
 - Renewable Energy
 - IoT
+- Clean Energy
 ---

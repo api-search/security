@@ -2,67 +2,67 @@
 api_specs:
 - filename: val-town-alias-api-openapi.yml
   format: yaml
-  label: Val Town alias API
+  label: Val Town Alias API
   slug: val-town-alias-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-alias-api-openapi.yml
 - filename: val-town-blobs-api-openapi.yml
   format: yaml
-  label: Val Town blobs API
+  label: Val Town Blobs API
   slug: val-town-blobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-blobs-api-openapi.yml
 - filename: val-town-connections-api-openapi.yml
   format: yaml
-  label: Val Town connections API
+  label: Val Town Connections API
   slug: val-town-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-connections-api-openapi.yml
 - filename: val-town-emails-api-openapi.yml
   format: yaml
-  label: Val Town emails API
+  label: Val Town Emails API
   slug: val-town-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-emails-api-openapi.yml
 - filename: val-town-files-api-openapi.yml
   format: yaml
-  label: Val Town files API
+  label: Val Town Files API
   slug: val-town-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-files-api-openapi.yml
 - filename: val-town-me-api-openapi.yml
   format: yaml
-  label: Val Town me API
+  label: Val Town Me API
   slug: val-town-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-me-api-openapi.yml
 - filename: val-town-orgs-api-openapi.yml
   format: yaml
-  label: Val Town orgs API
+  label: Val Town Orgs API
   slug: val-town-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-orgs-api-openapi.yml
 - filename: val-town-sqlite-api-openapi.yml
   format: yaml
-  label: Val Town sqlite API
+  label: Val Town Sqlite API
   slug: val-town-sqlite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-sqlite-api-openapi.yml
 - filename: val-town-telemetry-api-openapi.yml
   format: yaml
-  label: Val Town telemetry API
+  label: Val Town Telemetry API
   slug: val-town-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-telemetry-api-openapi.yml
 - filename: val-town-users-api-openapi.yml
   format: yaml
-  label: Val Town users API
+  label: Val Town Users API
   slug: val-town-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-users-api-openapi.yml
 - filename: val-town-vals-api-openapi.yml
   format: yaml
-  label: Val Town vals API
+  label: Val Town Vals API
   slug: val-town-vals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-vals-api-openapi.yml

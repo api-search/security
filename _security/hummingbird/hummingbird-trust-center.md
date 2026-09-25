@@ -23,7 +23,7 @@ tags:
 - Fintech
 - Compliance
 - RegTech
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Transaction Monitoring
 - Regulatory Reporting

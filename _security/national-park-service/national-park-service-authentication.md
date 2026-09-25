@@ -99,6 +99,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-park-
 summary_line: apiKey · 1 scheme
 tags:
 - Conservation
-- Federal-Government
+- Federal Government
 - Parks
 ---

@@ -40,7 +40,7 @@ tags:
 - Company
 - Photography
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Image Processing
 - Photo Culling
 - Photo Editing

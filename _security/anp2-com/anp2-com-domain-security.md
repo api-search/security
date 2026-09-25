@@ -47,6 +47,6 @@ tags:
 - Task Coordination
 - Event Log
 - Ed25519
-- agent-native
-- Open-Source
+- Agent-Native
+- Open Source
 ---

@@ -151,7 +151,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Backend-as-a-Service
 - PostgreSQL
-- Open-Source
+- Open Source
 - Authentication
 - Real-Time
 - Storage

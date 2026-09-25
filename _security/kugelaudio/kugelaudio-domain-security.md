@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-audio-api-openapi.yml
 - filename: kugelaudio-billing-api-openapi.yml
   format: yaml
-  label: KugelAudio billing API
+  label: KugelAudio Billing API
   slug: kugelaudio-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-billing-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-health-api-openapi.yml
 - filename: kugelaudio-license-api-openapi.yml
   format: yaml
-  label: KugelAudio license API
+  label: KugelAudio License API
   slug: kugelaudio-license-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/openapi/kugelaudio-license-api-openapi.yml
@@ -134,7 +134,7 @@ tags:
 - Voice Cloning
 - Audio
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Streaming
 - Real-Time
 - Conversational AI

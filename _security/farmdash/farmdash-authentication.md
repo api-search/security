@@ -152,4 +152,5 @@ tags:
 - Hyperliquid
 - Wallet Intelligence
 - zero custody
+- A2A
 ---

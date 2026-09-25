@@ -39,5 +39,5 @@ tags:
 - Critical Infrastructure
 - Public Safety
 - Robotics
-- Computer-Vision
+- Computer Vision
 ---

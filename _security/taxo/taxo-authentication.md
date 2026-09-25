@@ -44,7 +44,7 @@ tags:
 - Accounting
 - Tax
 - Fintech
-- Electronic Invoicing
+- E-Invoicing
 - Facturación Electrónica
 - CFDI
 - SRI

@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apache
 - Load Balancer
-- Open-Source
+- Open Source
 - Proxy
 - Reverse Proxy
 - Web Server

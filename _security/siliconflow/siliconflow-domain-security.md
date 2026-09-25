@@ -106,10 +106,10 @@ tags:
 - Artificial Intelligence
 - LLM
 - Inference
-- Open-Source
+- Open Source
 - OpenAI-Compatible
 - Anthropic Compatible
-- Image-Generation
+- Image Generation
 - Audio
 - Video
 ---

@@ -29,8 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - Cybersecurity
-- Third-Party Risk
-- Vendor Risk Management
+- Third-Party Risk Management
 - Risk Management
 - GRC
 - Security Assessment

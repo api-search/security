@@ -5,109 +5,109 @@ api_key_in:
 api_specs:
 - filename: replicated-apps-api-openapi.yml
   format: yaml
-  label: Replicated apps API
+  label: Replicated Apps API
   slug: replicated-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-apps-api-openapi.yml
 - filename: replicated-channelreleases-api-openapi.yml
   format: yaml
-  label: Replicated channelReleases API
+  label: Replicated Channel Releases API
   slug: replicated-channelreleases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-channelreleases-api-openapi.yml
 - filename: replicated-channels-api-openapi.yml
   format: yaml
-  label: Replicated channels API
+  label: Replicated Channels API
   slug: replicated-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-channels-api-openapi.yml
 - filename: replicated-clusteraddons-api-openapi.yml
   format: yaml
-  label: Replicated clusterAddons API
+  label: Replicated Cluster Addons API
   slug: replicated-clusteraddons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-clusteraddons-api-openapi.yml
 - filename: replicated-clusters-api-openapi.yml
   format: yaml
-  label: Replicated clusters API
+  label: Replicated Clusters API
   slug: replicated-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-clusters-api-openapi.yml
 - filename: replicated-cmx-api-openapi.yml
   format: yaml
-  label: Replicated cmx API
+  label: Replicated Cmx API
   slug: replicated-cmx-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-cmx-api-openapi.yml
 - filename: replicated-customers-api-openapi.yml
   format: yaml
-  label: Replicated customers API
+  label: Replicated Customers API
   slug: replicated-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-customers-api-openapi.yml
 - filename: replicated-enterpriseportal-api-openapi.yml
   format: yaml
-  label: Replicated enterprisePortal API
+  label: Replicated Enterprise Portal API
   slug: replicated-enterpriseportal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-enterpriseportal-api-openapi.yml
 - filename: replicated-externalregistries-api-openapi.yml
   format: yaml
-  label: Replicated externalRegistries API
+  label: Replicated External Registries API
   slug: replicated-externalregistries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-externalregistries-api-openapi.yml
 - filename: replicated-instances-api-openapi.yml
   format: yaml
-  label: Replicated instances API
+  label: Replicated Instances API
   slug: replicated-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-instances-api-openapi.yml
 - filename: replicated-networks-api-openapi.yml
   format: yaml
-  label: Replicated networks API
+  label: Replicated Networks API
   slug: replicated-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-networks-api-openapi.yml
 - filename: replicated-notifications-api-openapi.yml
   format: yaml
-  label: Replicated notifications API
+  label: Replicated Notifications API
   slug: replicated-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-notifications-api-openapi.yml
 - filename: replicated-policy-api-openapi.yml
   format: yaml
-  label: Replicated policy API
+  label: Replicated Policy API
   slug: replicated-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-policy-api-openapi.yml
 - filename: replicated-registry-api-openapi.yml
   format: yaml
-  label: Replicated registry API
+  label: Replicated Registry API
   slug: replicated-registry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-registry-api-openapi.yml
 - filename: replicated-releases-api-openapi.yml
   format: yaml
-  label: Replicated releases API
+  label: Replicated Releases API
   slug: replicated-releases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-releases-api-openapi.yml
 - filename: replicated-team-api-openapi.yml
   format: yaml
-  label: Replicated team API
+  label: Replicated Team API
   slug: replicated-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-team-api-openapi.yml
 - filename: replicated-telemetry-api-openapi.yml
   format: yaml
-  label: Replicated telemetry API
+  label: Replicated Telemetry API
   slug: replicated-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-telemetry-api-openapi.yml
 - filename: replicated-user-api-openapi.yml
   format: yaml
-  label: Replicated user API
+  label: Replicated User API
   slug: replicated-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/openapi/replicated-user-api-openapi.yml

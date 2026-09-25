@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: att-oauth-api-openapi.yml
-  format: yaml
-  label: AT&T OAuth 2.0 API
-  slug: att-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
 - filename: att-balance-management-api-openapi.yml
   format: yaml
   label: AT&T Balance Management API
@@ -161,7 +155,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sms-api-openapi.yml
 - filename: att-oauth-api-openapi.yml
   format: yaml
-  label: AT&T O Auth API
+  label: AT&T OAuth 2.0 API
   slug: att-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml

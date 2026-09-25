@@ -35,6 +35,6 @@ tags:
 - Generative AI
 - Photography
 - Headshots
-- Image-Generation
+- Image Generation
 - Creative Tools
 ---

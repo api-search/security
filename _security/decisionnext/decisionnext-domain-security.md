@@ -39,7 +39,7 @@ tags:
 - Company
 - Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Forecasting
 - Commodities
 - Agriculture

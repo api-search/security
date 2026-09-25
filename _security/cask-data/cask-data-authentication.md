@@ -48,7 +48,7 @@ tags:
 - ETL
 - Big Data
 - Analytics
-- Open-Source
+- Open Source
 - Hadoop
 - CDAP
 ---

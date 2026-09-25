@@ -99,9 +99,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer-Support
+- Customer Support
 - Customer Experience
-- Knowledge-Management
+- Knowledge Management
 - Conversational AI
 - Voice AI
 - Help Desk

@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/security/unity-bank-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

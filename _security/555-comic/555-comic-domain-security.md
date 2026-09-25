@@ -36,6 +36,6 @@ tags:
 - Storytelling
 - Virtual Influencers
 - Anime
-- Social-Media
+- Social Media
 - ARG
 ---

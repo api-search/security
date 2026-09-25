@@ -351,6 +351,6 @@ tags:
 - Fintech
 - Banking
 - Loan Origination
-- Real-Estate
-- Financial-Services
+- Real Estate
+- Financial Services
 ---

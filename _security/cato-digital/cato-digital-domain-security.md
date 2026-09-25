@@ -41,7 +41,7 @@ tags:
 - Infrastructure
 - GPU
 - AI Compute
-- Data-Center
+- Data Center
 - Sustainability
 - Infrastructure-as-a-Service
 - Hosting

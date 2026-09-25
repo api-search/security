@@ -39,10 +39,10 @@ tags:
 - Ai Ml
 - Drug Discovery
 - Generative AI
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Antibody Design
 - Genomics
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 ---

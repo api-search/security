@@ -68,9 +68,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magichour/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Video
-- Image-Generation
+- Image Generation
 - Audio
 - Generative AI
 - Voice Cloning
 - Text-to-Video
+- A2A
 ---

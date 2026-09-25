@@ -44,7 +44,7 @@ summary_line: 2 schemes
 tags:
 - Insurance
 - Annuities
-- Financial-Services
+- Financial Services
 - Life Insurance
 - Retirement
 - Pension-Risk-Transfer

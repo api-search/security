@@ -82,4 +82,5 @@ tags:
 - Video Messaging
 - Webhook
 - MCP
+- A2A
 ---

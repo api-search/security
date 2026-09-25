@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Fintech
-- Risk
+- Risk Management
 - Fraud
 - Payments
 - Merchant Onboarding

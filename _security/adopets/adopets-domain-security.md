@@ -2,19 +2,19 @@
 api_specs:
 - filename: adopets-payment-request-api-openapi.yml
   format: yaml
-  label: Adopets payment-request API
+  label: Adopets Payment Request API
   slug: adopets-payment-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-request-api-openapi.yml
 - filename: adopets-payment-transaction-api-openapi.yml
   format: yaml
-  label: Adopets payment-transaction API
+  label: Adopets Payment Transaction API
   slug: adopets-payment-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-transaction-api-openapi.yml
 - filename: adopets-system-auth-api-openapi.yml
   format: yaml
-  label: Adopets system-auth API
+  label: Adopets System Auth API
   slug: adopets-system-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-system-auth-api-openapi.yml

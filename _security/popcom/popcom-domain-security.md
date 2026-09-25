@@ -36,7 +36,7 @@ tags:
 - Vending
 - Kiosk
 - Retail Technology
-- Computer-Vision
+- Computer Vision
 - Analytics
 - Robotics
 ---

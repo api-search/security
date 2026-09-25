@@ -2336,7 +2336,7 @@ tags:
 - Analytics
 - Domains
 - E-Commerce
-- Open-Source
+- Open Source
 - Developer Tools
 - MCP
 trust_url: https://wpvip.com/trust/

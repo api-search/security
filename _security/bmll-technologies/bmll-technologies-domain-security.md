@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmll-technologies/refs/heads/main/security/bmll-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Financial
+- Finance
 - Market Data
 - Order Book
 - Stocks

@@ -35,7 +35,7 @@ tags:
 - Office Space
 - Flexible Workspace
 - Workspace
-- Real-Estate
+- Real Estate
 - PropTech
 - Indonesia
 ---

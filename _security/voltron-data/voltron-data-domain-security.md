@@ -51,5 +51,5 @@ tags:
 - SQL
 - Query Engines
 - Apache Arrow
-- Open-Source
+- Open Source
 ---

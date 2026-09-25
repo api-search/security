@@ -43,7 +43,7 @@ tags:
 - cost-engineering
 - Digital Manufacturing
 - Sustainability
-- Workflow-Automation
+- Workflow Automation
 - CAD
 trust_url: https://www.apriori.com/security/
 ---

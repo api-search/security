@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Caresense Pte Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Caresense Pte. Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
-provider_name: Caresense Pte. Ltd.
+overview: 'Domain security posture for Caresense, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: Caresense
 provider_slug: caresense-pte-ltd
 slug: caresense-pte-ltd-domain-security
 source_filename: caresense-pte-ltd-domain-security.yml
@@ -40,5 +40,5 @@ tags:
 - Telehealth
 - Wellness
 - Singapore
-- Mobile Applications
+- Mobile App
 ---

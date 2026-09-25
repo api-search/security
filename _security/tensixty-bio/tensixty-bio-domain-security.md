@@ -34,7 +34,7 @@ tags:
 - Biotechnology
 - Oncology
 - Cancer
-- Machine-Learning
+- Machine Learning
 - Antibody Discovery
 - Therapeutics
 - Life Sciences

@@ -47,7 +47,7 @@ tags:
 - Games
 - Personality Assessment
 - Surveys & Polls
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Research

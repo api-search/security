@@ -36,7 +36,7 @@ tags:
 - Web3
 - Artificial Intelligence
 - Reinforcement Learning
-- Machine-Learning
+- Machine Learning
 - gRPC
 - SDK
 - Developer Tools

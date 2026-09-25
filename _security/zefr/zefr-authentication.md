@@ -51,8 +51,8 @@ tags:
 - Content Intelligence
 - Content Moderation
 - Video
-- Social-Media
+- Social Media
 - Advertising
 - Media Measurement
-- Machine-Learning
+- Machine Learning
 ---

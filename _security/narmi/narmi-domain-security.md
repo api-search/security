@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-account-balances-api-openapi.yml
 - filename: narmi-accounts-api-openapi.yml
   format: yaml
-  label: Narmi accounts API
+  label: Narmi Accounts API
   slug: narmi-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-accounts-api-openapi.yml
@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-ach-transfers-api-openapi.yml
 - filename: narmi-alerts-api-openapi.yml
   format: yaml
-  label: Narmi alerts API
+  label: Narmi Alerts API
   slug: narmi-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-alerts-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-card-linked-offers-api-openapi.yml
 - filename: narmi-cards-api-openapi.yml
   format: yaml
-  label: Narmi cards API
+  label: Narmi Cards API
   slug: narmi-cards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-cards-api-openapi.yml
@@ -74,25 +74,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-data-access-management-api-openapi.yml
 - filename: narmi-deposits-api-openapi.yml
   format: yaml
-  label: Narmi deposits API
+  label: Narmi Deposits API
   slug: narmi-deposits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-deposits-api-openapi.yml
 - filename: narmi-documents-api-openapi.yml
   format: yaml
-  label: Narmi documents API
+  label: Narmi Documents API
   slug: narmi-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-documents-api-openapi.yml
 - filename: narmi-enrollments-api-openapi.yml
   format: yaml
-  label: Narmi enrollments API
+  label: Narmi Enrollments API
   slug: narmi-enrollments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-enrollments-api-openapi.yml
 - filename: narmi-express-checkout-api-openapi.yml
   format: yaml
-  label: Narmi express-checkout API
+  label: Narmi Express Checkout API
   slug: narmi-express-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-express-checkout-api-openapi.yml
@@ -122,7 +122,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-instant-transfers-api-openapi.yml
 - filename: narmi-institution-api-openapi.yml
   format: yaml
-  label: Narmi institution API
+  label: Narmi Institution API
   slug: narmi-institution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-institution-api-openapi.yml
@@ -134,49 +134,49 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-international-wires-api-openapi.yml
 - filename: narmi-me-api-openapi.yml
   format: yaml
-  label: Narmi me API
+  label: Narmi Me API
   slug: narmi-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-me-api-openapi.yml
 - filename: narmi-merchants-api-openapi.yml
   format: yaml
-  label: Narmi merchants API
+  label: Narmi Merchants API
   slug: narmi-merchants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-merchants-api-openapi.yml
 - filename: narmi-mfa-api-openapi.yml
   format: yaml
-  label: Narmi mfa API
+  label: Narmi Mfa API
   slug: narmi-mfa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-mfa-api-openapi.yml
 - filename: narmi-payees-api-openapi.yml
   format: yaml
-  label: Narmi payees API
+  label: Narmi Payees API
   slug: narmi-payees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-payees-api-openapi.yml
 - filename: narmi-payments-api-openapi.yml
   format: yaml
-  label: Narmi payments API
+  label: Narmi Payments API
   slug: narmi-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-payments-api-openapi.yml
 - filename: narmi-ping-api-openapi.yml
   format: yaml
-  label: Narmi ping API
+  label: Narmi Ping API
   slug: narmi-ping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-ping-api-openapi.yml
 - filename: narmi-recipients-api-openapi.yml
   format: yaml
-  label: Narmi recipients API
+  label: Narmi Recipients API
   slug: narmi-recipients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-recipients-api-openapi.yml
 - filename: narmi-reports-api-openapi.yml
   format: yaml
-  label: Narmi reports API
+  label: Narmi Reports API
   slug: narmi-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-reports-api-openapi.yml
@@ -194,19 +194,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-scheduled-transfers-api-openapi.yml
 - filename: narmi-subscriptions-api-openapi.yml
   format: yaml
-  label: Narmi subscriptions API
+  label: Narmi Subscriptions API
   slug: narmi-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-subscriptions-api-openapi.yml
 - filename: narmi-support-api-openapi.yml
   format: yaml
-  label: Narmi support API
+  label: Narmi Support API
   slug: narmi-support-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-support-api-openapi.yml
 - filename: narmi-surveys-api-openapi.yml
   format: yaml
-  label: Narmi surveys API
+  label: Narmi Surveys API
   slug: narmi-surveys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-surveys-api-openapi.yml
@@ -218,19 +218,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-swift-wire-templates-api-openapi.yml
 - filename: narmi-teams-api-openapi.yml
   format: yaml
-  label: Narmi teams API
+  label: Narmi Teams API
   slug: narmi-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-teams-api-openapi.yml
 - filename: narmi-threads-api-openapi.yml
   format: yaml
-  label: Narmi threads API
+  label: Narmi Threads API
   slug: narmi-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-threads-api-openapi.yml
 - filename: narmi-transactions-api-openapi.yml
   format: yaml
-  label: Narmi transactions API
+  label: Narmi Transactions API
   slug: narmi-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-transactions-api-openapi.yml
@@ -242,13 +242,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-unverified-ach-transactions-api-openapi.yml
 - filename: narmi-users-api-openapi.yml
   format: yaml
-  label: Narmi users API
+  label: Narmi Users API
   slug: narmi-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-users-api-openapi.yml
 - filename: narmi-whatismyip-api-openapi.yml
   format: yaml
-  label: Narmi whatismyip API
+  label: Narmi Whatismyip API
   slug: narmi-whatismyip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-whatismyip-api-openapi.yml
@@ -260,7 +260,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-wire-recipients-api-openapi.yml
 - filename: narmi-wires-api-openapi.yml
   format: yaml
-  label: Narmi wires API
+  label: Narmi Wires API
   slug: narmi-wires-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/openapi/narmi-wires-api-openapi.yml
@@ -305,5 +305,5 @@ tags:
 - Wires
 - FedNow
 - Cards
-- Financial-Services
+- Financial Services
 ---

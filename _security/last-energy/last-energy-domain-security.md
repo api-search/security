@@ -37,7 +37,7 @@ tags:
 - Small Modular Reactor
 - Electricity
 - Power Generation
-- Data-Center
+- Data Center
 - Industrial
 - Clean Energy
 - Infrastructure

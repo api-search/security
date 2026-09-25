@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/midjourn
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/authentication/midjourney-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Image-Generation
+- Image Generation
 - Artificial Intelligence
 - Creative Tools
 - Job

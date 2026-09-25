@@ -1,71 +1,11 @@
 ---
 api_specs:
-- filename: caamtech-akismet-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Akismet/v1 API
-  slug: caamtech-akismet-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-akismet-v1-api-openapi.yml
 - filename: caamtech-mcp-api-openapi.yml
   format: yaml
   label: CaaMTech MCP API
   slug: caamtech-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-mcp-api-openapi.yml
-- filename: caamtech-objectcache-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Objectcache/v1 API
-  slug: caamtech-objectcache-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-objectcache-v1-api-openapi.yml
-- filename: caamtech-oembed-1-0-api-openapi.yml
-  format: yaml
-  label: CaaMTech Oembed/1.0 API
-  slug: caamtech-oembed-1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-oembed-1-0-api-openapi.yml
-- filename: caamtech-regenerate-thumbnails-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Regenerate Thumbnails/v1 API
-  slug: caamtech-regenerate-thumbnails-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-regenerate-thumbnails-v1-api-openapi.yml
-- filename: caamtech-root-api-openapi.yml
-  format: yaml
-  label: CaaMTech Root API
-  slug: caamtech-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-root-api-openapi.yml
-- filename: caamtech-wp-abilities-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Wp Abilities/v1 API
-  slug: caamtech-wp-abilities-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-wp-abilities-v1-api-openapi.yml
-- filename: caamtech-wp-block-editor-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Wp Block Editor/v1 API
-  slug: caamtech-wp-block-editor-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-wp-block-editor-v1-api-openapi.yml
-- filename: caamtech-wp-site-health-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Wp Site Health/v1 API
-  slug: caamtech-wp-site-health-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-wp-site-health-v1-api-openapi.yml
-- filename: caamtech-wp-v2-api-openapi.yml
-  format: yaml
-  label: CaaMTech Wp/v2 API
-  slug: caamtech-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-wp-v2-api-openapi.yml
-- filename: caamtech-wpforms-v1-api-openapi.yml
-  format: yaml
-  label: CaaMTech Wpforms/v1 API
-  slug: caamtech-wpforms-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-wpforms-v1-api-openapi.yml
 description: ''
 domains:
 - caa: []

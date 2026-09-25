@@ -35,7 +35,7 @@ tags:
 - Banking
 - Core Banking
 - Fintech
-- Financial-Services
+- Financial Services
 - Banking as a Service
 - Digital Banking
 ---

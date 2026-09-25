@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: helmerich-and-payne-survey-validation-controller-api-openapi.yml
   format: yaml
-  label: Helmerich And Payne Survey Validation Controller API
+  label: Helmerich & Payne Survey Validation Controller API
   slug: helmerich-and-payne-survey-validation-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/openapi/helmerich-and-payne-survey-validation-controller-api-openapi.yml
@@ -17,8 +17,8 @@ method: probed
 name: Helmerich And Payne Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Helmerich And Payne declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: Helmerich And Payne
+overview: Helmerich & Payne declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: Helmerich & Payne
 provider_slug: helmerich-and-payne
 scheme_count: 0
 schemes: []

@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - Digital Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Wealth Management

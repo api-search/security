@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Allsale Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ALLSALE Corp., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: ALLSALE Corp.
+overview: 'Domain security posture for ALLSALE, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: ALLSALE
 provider_slug: allsale-corp
 slug: allsale-corp-domain-security
 source_filename: allsale-corp-domain-security.yml

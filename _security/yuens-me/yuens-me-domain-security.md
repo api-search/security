@@ -50,5 +50,5 @@ tags:
 - Recruiting
 - Professional Profile
 - Job Matching
-- Open-Source
+- Open Source
 ---

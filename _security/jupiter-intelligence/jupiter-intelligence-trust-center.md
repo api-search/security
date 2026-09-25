@@ -26,5 +26,6 @@ tags:
 - Financial Risk
 - ESG
 - Analytics
+- Climate
 trust_url: https://www.jupiterintel.com/security
 ---

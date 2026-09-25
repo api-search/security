@@ -48,5 +48,5 @@ tags:
 - Data Discovery
 - Data Quality
 - Data Lineage
-- Open-Source
+- Open Source
 ---

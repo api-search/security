@@ -39,5 +39,5 @@ tags:
 - Speech Recognition
 - SDK
 - Real-Time
-- Machine-Learning
+- Machine Learning
 ---

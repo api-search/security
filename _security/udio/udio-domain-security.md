@@ -42,4 +42,5 @@ tags:
 - Audio
 - Generative
 - Songs
+- Music
 ---

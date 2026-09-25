@@ -185,6 +185,7 @@ tags:
 - Layer 1
 - EVM
 - Gaming
-- agent-native
+- Agent-Native
 - MCP
+- A2A
 ---

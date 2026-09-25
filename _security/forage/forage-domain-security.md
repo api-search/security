@@ -58,5 +58,5 @@ tags:
 - Government Benefits
 - Grocery
 - Checkout
-- Financial-Services
+- Financial Services
 ---

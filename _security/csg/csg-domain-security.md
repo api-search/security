@@ -77,5 +77,5 @@ tags:
 - Customer Engagement
 - Payments
 - Revenue Management
-- Telecom
+- Telecommunications
 ---

@@ -83,7 +83,7 @@ tags:
 - Billing
 - Entitlements
 - CloudEvents
-- Open-Source
+- Open Source
 - Artificial Intelligence
 trust_url: https://openmeter.io/security
 ---

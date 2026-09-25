@@ -44,7 +44,7 @@ tags:
 - Hospitality
 - Channel Manager
 - Direct Booking
-- Real-Estate
+- Real Estate
 - Travel
 - Booking
 - Reservations

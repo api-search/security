@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-api-v1-api-openapi.yml
 - filename: bentoml-auth-api-openapi.yml
   format: yaml
-  label: BentoML auth API
+  label: BentoML Auth API
   slug: bentoml-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-auth-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-bento-resource-api-openapi.yml
 - filename: bentoml-bentos-api-openapi.yml
   format: yaml
-  label: BentoML bentos API
+  label: BentoML Bentos API
   slug: bentoml-bentos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-bentos-api-openapi.yml
@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-cluster-resource-for-admin-panel-api-openapi.yml
 - filename: bentoml-clusters-api-openapi.yml
   format: yaml
-  label: BentoML clusters API
+  label: BentoML Clusters API
   slug: bentoml-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-clusters-api-openapi.yml
@@ -116,7 +116,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-customer-resource-api-openapi.yml
 - filename: bentoml-customers-api-openapi.yml
   format: yaml
-  label: BentoML customers API
+  label: BentoML Customers API
   slug: bentoml-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-customers-api-openapi.yml
@@ -176,19 +176,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-host-cluster-resource-api-openapi.yml
 - filename: bentoml-host-clusters-api-openapi.yml
   format: yaml
-  label: BentoML host_clusters API
+  label: BentoML Host Clusters API
   slug: bentoml-host-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-host-clusters-api-openapi.yml
 - filename: bentoml-instance-types-api-openapi.yml
   format: yaml
-  label: BentoML instance_types API
+  label: BentoML Instance Types API
   slug: bentoml-instance-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-instance-types-api-openapi.yml
 - filename: bentoml-labels-api-openapi.yml
   format: yaml
-  label: BentoML labels API
+  label: BentoML Labels API
   slug: bentoml-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-labels-api-openapi.yml
@@ -242,7 +242,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-model-resource-api-openapi.yml
 - filename: bentoml-models-api-openapi.yml
   format: yaml
-  label: BentoML models API
+  label: BentoML Models API
   slug: bentoml-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-models-api-openapi.yml
@@ -278,7 +278,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-organization-secrets-with-template-api-openapi.yml
 - filename: bentoml-plans-api-openapi.yml
   format: yaml
-  label: BentoML plans API
+  label: BentoML Plans API
   slug: bentoml-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-plans-api-openapi.yml
@@ -320,7 +320,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-terminal-record-resource-api-openapi.yml
 - filename: bentoml-usage-api-openapi.yml
   format: yaml
-  label: BentoML usage API
+  label: BentoML Usage API
   slug: bentoml-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-usage-api-openapi.yml
@@ -332,7 +332,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-user-resource-api-openapi.yml
 - filename: bentoml-users-api-openapi.yml
   format: yaml
-  label: BentoML users API
+  label: BentoML Users API
   slug: bentoml-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/openapi/bentoml-users-api-openapi.yml
@@ -397,7 +397,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/security/bentoml-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - Inference
 - Artificial Intelligence

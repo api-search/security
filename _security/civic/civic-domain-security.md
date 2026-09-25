@@ -2,13 +2,13 @@
 api_specs:
 - filename: civic-pass-api-openapi.yml
   format: yaml
-  label: Civic pass API
+  label: Civic Pass API
   slug: civic-pass-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-pass-api-openapi.yml
 - filename: civic-piirequest-api-openapi.yml
   format: yaml
-  label: Civic piirequest API
+  label: Civic Piirequest API
   slug: civic-piirequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-piirequest-api-openapi.yml

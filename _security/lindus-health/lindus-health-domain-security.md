@@ -39,7 +39,7 @@ tags:
 - CRO
 - Life Sciences
 - Pharmaceuticals
-- Biotech
+- Biotechnology
 - CDISC
 - Patient Recruitment
 ---

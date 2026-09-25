@@ -92,4 +92,5 @@ tags:
 - Strain
 - Heart Rate
 - Performance
+- Wellness
 ---

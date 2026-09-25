@@ -38,7 +38,7 @@ tags:
 - Personal Finance
 - Consumer Fintech
 - Sustainability
-- Mobile Applications
+- Mobile App
 - Consumer Applications
 - California
 ---

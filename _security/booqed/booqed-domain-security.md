@@ -38,6 +38,6 @@ tags:
 - Space Management
 - Co-Working
 - Meeting Rooms
-- Real-Estate
+- Real Estate
 - Hardware
 ---

@@ -2,7 +2,7 @@
 api_specs:
 - filename: helmerich-and-payne-survey-validation-controller-api-openapi.yml
   format: yaml
-  label: Helmerich And Payne Survey Validation Controller API
+  label: Helmerich & Payne Survey Validation Controller API
   slug: helmerich-and-payne-survey-validation-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/openapi/helmerich-and-payne-survey-validation-controller-api-openapi.yml
@@ -38,8 +38,8 @@ layout: security
 method: probed
 name: Helmerich And Payne Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Helmerich And Payne, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Helmerich And Payne
+overview: 'Domain security posture for Helmerich & Payne, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Helmerich & Payne
 provider_slug: helmerich-and-payne
 slug: helmerich-and-payne-domain-security
 source_filename: helmerich-and-payne-domain-security.yml

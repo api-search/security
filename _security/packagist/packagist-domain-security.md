@@ -74,7 +74,7 @@ tags:
 - PHP
 - Package Registry
 - Dependency Management
-- Open-Source
+- Open Source
 - Developer Tools
 - Software Supply Chain
 - Security Advisories

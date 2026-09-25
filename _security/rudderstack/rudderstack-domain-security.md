@@ -53,7 +53,7 @@ tags:
 - Customer Data Platform
 - CDP
 - Data Pipeline
-- Open-Source
+- Open Source
 - Event Streaming
 - Reverse ETL
 - Analytics

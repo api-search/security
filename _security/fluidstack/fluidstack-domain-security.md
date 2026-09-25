@@ -90,7 +90,7 @@ tags:
 - Cloud
 - Compute
 - Infrastructure
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Training
 - Inference
@@ -99,5 +99,5 @@ tags:
 - Bare Metal
 - NVIDIA
 - InfiniBand
-- Data-Center
+- Data Center
 ---

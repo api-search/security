@@ -37,7 +37,7 @@ tags:
 - Drug Discovery
 - Protein Design
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Antibodies
 - Generative Models
 - Pharmaceuticals

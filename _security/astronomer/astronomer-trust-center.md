@@ -116,7 +116,7 @@ tags:
 - Apache Airflow
 - Data Pipeline
 - Data Engineering
-- Workflow-Automation
+- Workflow Automation
 - MLOps
 - Managed Platform
 trust_url: https://trust.astronomer.io/

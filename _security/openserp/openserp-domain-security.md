@@ -77,6 +77,6 @@ tags:
 - Content Extraction
 - AI Grounding
 - Rank Tracking
-- Open-Source
+- Open Source
 - Developer Tools
 ---

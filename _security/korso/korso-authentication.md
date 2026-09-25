@@ -64,7 +64,7 @@ tags:
 - Agents
 - MCP
 - Developer Tools
-- Open-Source
+- Open Source
 - Agent Coordination
 - Y Combinator
 ---

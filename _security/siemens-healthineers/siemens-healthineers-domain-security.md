@@ -52,4 +52,5 @@ tags:
 - Healthcare IT
 - Medical Devices
 - Teamplay
+- Diagnostics
 ---

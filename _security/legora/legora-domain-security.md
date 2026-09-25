@@ -36,7 +36,7 @@ tags:
 - Law Firms
 - Legal Research
 - Collaborative AI
-- Agentic AI
+- AI Agents
 - Document Review
 - Drafting
 - Workflows

@@ -85,8 +85,8 @@ layout: security
 method: probed
 name: Algebras Ai Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Algebras AI Inc., probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
-provider_name: Algebras AI Inc.
+overview: 'Domain security posture for Algebras AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
+provider_name: Algebras AI
 provider_slug: algebras-ai-inc
 slug: algebras-ai-inc-domain-security
 source_filename: algebras-ai-inc-domain-security.yml

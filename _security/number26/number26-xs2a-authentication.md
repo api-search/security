@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: number26-default-api-openapi.yml
   format: yaml
-  label: Number26 default API
+  label: Number26 Default API
   slug: number26-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/openapi/number26-default-api-openapi.yml

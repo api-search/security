@@ -9,8 +9,8 @@ kind: trust-center
 layout: security
 name: Canditech Ltd Trust Center
 name_suffix: Trust Center
-overview: Canditech Ltd. maintains a public trust center documenting ISO/IEC 27001:2013, GDPR, and PCI DSS (via third-party certified billing processor) compliance.
-provider_name: Canditech Ltd.
+overview: Canditech maintains a public trust center documenting ISO/IEC 27001:2013, GDPR, and PCI DSS (via third-party certified billing processor) compliance.
+provider_name: Canditech
 provider_slug: canditech-ltd
 slug: canditech-ltd-trust-center
 source_filename: canditech-ltd-trust-center.yml

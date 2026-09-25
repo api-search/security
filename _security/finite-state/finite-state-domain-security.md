@@ -69,4 +69,5 @@ tags:
 - Compliance
 - Cybersecurity
 - IoT
+- A2A
 ---

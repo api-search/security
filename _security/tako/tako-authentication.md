@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: tako-agent-api-openapi.yml
   format: yaml
-  label: Tako agent API
+  label: Tako Agent API
   slug: tako-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-agent-api-openapi.yml

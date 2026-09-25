@@ -41,10 +41,10 @@ tags:
 - 3D
 - Digital Twin
 - Spatial Data
-- Real-Estate
+- Real Estate
 - Construction
 - GraphQL
 - SDK
-- Computer-Vision
+- Computer Vision
 - Property Intelligence
 ---

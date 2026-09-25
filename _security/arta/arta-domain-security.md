@@ -35,6 +35,6 @@ tags:
 - Investing
 - Private Markets
 - Alternative Investments
-- Financial-Services
+- Financial Services
 - Investment Adviser
 ---

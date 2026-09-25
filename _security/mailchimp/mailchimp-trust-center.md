@@ -300,5 +300,6 @@ tags:
 - E-Commerce
 - Webhook
 - Marketing Analytics
+- Email
 trust_url: https://mailchimp.com/about/security/
 ---

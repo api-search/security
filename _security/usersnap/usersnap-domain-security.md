@@ -2,25 +2,25 @@
 api_specs:
 - filename: usersnap-feedback-api-openapi.yml
   format: yaml
-  label: Usersnap feedback API
+  label: Usersnap Feedback API
   slug: usersnap-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-feedback-api-openapi.yml
 - filename: usersnap-pre-submit-api-openapi.yml
   format: yaml
-  label: Usersnap pre_submit API
+  label: Usersnap Pre Submit API
   slug: usersnap-pre-submit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-pre-submit-api-openapi.yml
 - filename: usersnap-project-api-openapi.yml
   format: yaml
-  label: Usersnap project API
+  label: Usersnap Project API
   slug: usersnap-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-project-api-openapi.yml
 - filename: usersnap-submit-api-openapi.yml
   format: yaml
-  label: Usersnap submit API
+  label: Usersnap Submit API
   slug: usersnap-submit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-submit-api-openapi.yml

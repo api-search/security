@@ -38,6 +38,6 @@ tags:
 - Point of Care
 - Laboratory
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Israel
 ---

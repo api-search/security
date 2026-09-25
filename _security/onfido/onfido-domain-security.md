@@ -143,4 +143,8 @@ tags:
 - Authentication
 - Identity
 - Verification
+- Identity Verification
+- KYC
+- Document Verification
+- Biometrics
 ---

@@ -45,8 +45,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Agentic AI
+- Machine Learning
+- AI Agents
 - Data Science
 - MLOps
 - Enterprise AI

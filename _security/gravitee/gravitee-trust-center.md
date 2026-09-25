@@ -2,7 +2,7 @@
 api_specs:
 - filename: gravitee-alerts-api-openapi.yml
   format: yaml
-  label: Gravitee alerts API
+  label: Gravitee Alerts API
   slug: gravitee-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-alerts-api-openapi.yml
@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-api-products-api-openapi.yml
 - filename: gravitee-application-api-openapi.yml
   format: yaml
-  label: Gravitee application API
+  label: Gravitee Application API
   slug: gravitee-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-application-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-applications-api-openapi.yml
 - filename: gravitee-audit-api-openapi.yml
   format: yaml
-  label: Gravitee audit API
+  label: Gravitee Audit API
   slug: gravitee-audit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-audit-api-openapi.yml
@@ -62,13 +62,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-certificate-api-openapi.yml
 - filename: gravitee-data-sources-api-openapi.yml
   format: yaml
-  label: Gravitee data-sources API
+  label: Gravitee Data Sources API
   slug: gravitee-data-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-data-sources-api-openapi.yml
 - filename: gravitee-dataplane-api-openapi.yml
   format: yaml
-  label: Gravitee dataPlane API
+  label: Gravitee Data Plane API
   slug: gravitee-dataplane-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-dataplane-api-openapi.yml
@@ -80,25 +80,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-device-identifiers-api-openapi.yml
 - filename: gravitee-devices-api-openapi.yml
   format: yaml
-  label: Gravitee devices API
+  label: Gravitee Devices API
   slug: gravitee-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-devices-api-openapi.yml
 - filename: gravitee-dictionary-api-openapi.yml
   format: yaml
-  label: Gravitee dictionary API
+  label: Gravitee Dictionary API
   slug: gravitee-dictionary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-dictionary-api-openapi.yml
 - filename: gravitee-domain-api-openapi.yml
   format: yaml
-  label: Gravitee domain API
+  label: Gravitee Domain API
   slug: gravitee-domain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-domain-api-openapi.yml
 - filename: gravitee-email-api-openapi.yml
   format: yaml
-  label: Gravitee email API
+  label: Gravitee Email API
   slug: gravitee-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-email-api-openapi.yml
@@ -116,19 +116,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-factor-api-openapi.yml
 - filename: gravitee-flow-api-openapi.yml
   format: yaml
-  label: Gravitee flow API
+  label: Gravitee Flow API
   slug: gravitee-flow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-flow-api-openapi.yml
 - filename: gravitee-form-api-openapi.yml
   format: yaml
-  label: Gravitee form API
+  label: Gravitee Form API
   slug: gravitee-form-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-form-api-openapi.yml
 - filename: gravitee-group-api-openapi.yml
   format: yaml
-  label: Gravitee group API
+  label: Gravitee Group API
   slug: gravitee-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-group-api-openapi.yml
@@ -176,7 +176,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-plans-api-openapi.yml
 - filename: gravitee-platform-api-openapi.yml
   format: yaml
-  label: Gravitee platform API
+  label: Gravitee Platform API
   slug: gravitee-platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-platform-api-openapi.yml
@@ -194,7 +194,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-plugins-api-openapi.yml
 - filename: gravitee-protected-resource-api-openapi.yml
   format: yaml
-  label: Gravitee protected-resource API
+  label: Gravitee Protected Resource API
   slug: gravitee-protected-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-protected-resource-api-openapi.yml
@@ -212,19 +212,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-resource-api-openapi.yml
 - filename: gravitee-role-api-openapi.yml
   format: yaml
-  label: Gravitee role API
+  label: Gravitee Role API
   slug: gravitee-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-role-api-openapi.yml
 - filename: gravitee-scope-api-openapi.yml
   format: yaml
-  label: Gravitee scope API
+  label: Gravitee Scope API
   slug: gravitee-scope-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-scope-api-openapi.yml
 - filename: gravitee-sharding-tags-api-openapi.yml
   format: yaml
-  label: Gravitee sharding-tags API
+  label: Gravitee Sharding Tags API
   slug: gravitee-sharding-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-sharding-tags-api-openapi.yml
@@ -236,7 +236,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-subscriptions-api-openapi.yml
 - filename: gravitee-theme-api-openapi.yml
   format: yaml
-  label: Gravitee theme API
+  label: Gravitee Theme API
   slug: gravitee-theme-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-theme-api-openapi.yml
@@ -248,7 +248,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-ui-api-openapi.yml
 - filename: gravitee-user-api-openapi.yml
   format: yaml
-  label: Gravitee user API
+  label: Gravitee User API
   slug: gravitee-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-user-api-openapi.yml
@@ -266,7 +266,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-users-api-openapi.yml
 - filename: gravitee-apis-api-openapi.yml
   format: yaml
-  label: Gravitee AP Is API
+  label: Gravitee APIs API
   slug: gravitee-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/openapi/gravitee-apis-api-openapi.yml
@@ -304,7 +304,6 @@ tags:
 - Access Management
 - Identity
 - Event-Driven
-- Event Management
 - Kafka Gateway
 - Kafka
 - MQTT
@@ -316,7 +315,7 @@ tags:
 - LLM Proxy
 - Multi-Gateway Federation
 - Developer Portal
-- Open-Source
+- Open Source
 - Apache 2.0
 trust_url: https://trust.gravitee.io/
 ---

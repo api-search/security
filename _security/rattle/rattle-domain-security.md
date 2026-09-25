@@ -60,6 +60,6 @@ tags:
 - Microsoft Teams
 - Sales Automation
 - Revenue Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
 ---

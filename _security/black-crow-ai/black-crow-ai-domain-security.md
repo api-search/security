@@ -51,7 +51,7 @@ tags:
 - Company
 - E-Commerce
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Marketing
 - Advertising
 - Personalization

@@ -44,7 +44,7 @@ tags:
 - No-Code
 - Low-Code
 - Enterprise Software
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
 - Integration
 - Field Service

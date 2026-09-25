@@ -34,7 +34,7 @@ tags:
 - Big Data
 - Database
 - Database Optimization
-- Machine-Learning
+- Machine Learning
 - PostgreSQL
 - MySQL
 - Defunct

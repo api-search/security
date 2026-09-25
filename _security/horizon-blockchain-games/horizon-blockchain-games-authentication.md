@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
 - filename: horizon-blockchain-games-public-api-openapi.yml
   format: yaml
-  label: Horizon Blockchain Games public API
+  label: Horizon Blockchain Games Public API
   slug: horizon-blockchain-games-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-public-api-openapi.yml
@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-rpc-api-openapi.yml
 - filename: horizon-blockchain-games-secret-api-openapi.yml
   format: yaml
-  label: Horizon Blockchain Games secret API
+  label: Horizon Blockchain Games Secret API
   slug: horizon-blockchain-games-secret-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-secret-api-openapi.yml

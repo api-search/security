@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-reviews-api-openapi.yml
 - filename: common-sense-media-system-api-openapi.yml
   format: yaml
-  label: Common Sense Media system API
+  label: Common Sense Media System API
   slug: common-sense-media-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-system-api-openapi.yml

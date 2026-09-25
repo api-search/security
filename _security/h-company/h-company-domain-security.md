@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-environments-api-openapi.yml
 - filename: h-company-quota-api-openapi.yml
   format: yaml
-  label: H Company quota API
+  label: H Company Quota API
   slug: h-company-quota-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-quota-api-openapi.yml
@@ -99,7 +99,7 @@ tags:
 - Agents
 - Computer Use
 - Automation
-- Machine-Learning
+- Machine Learning
 - Browser Automation
 - LLM
 - MCP

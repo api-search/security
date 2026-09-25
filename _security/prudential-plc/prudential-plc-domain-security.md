@@ -126,8 +126,8 @@ layout: security
 method: probed
 name: Prudential Plc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Prudential plc, probed live across 7 host(s) and 7 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 7 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Prudential plc
+overview: 'Domain security posture for Prudential, probed live across 7 host(s) and 7 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 7 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Prudential
 provider_slug: prudential-plc
 slug: prudential-plc-domain-security
 source_filename: prudential-plc-domain-security.yml

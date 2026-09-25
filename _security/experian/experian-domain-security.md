@@ -108,9 +108,9 @@ tags:
 - Fraud Prevention
 - Data Quality
 - Address Validation
-- Email Validation
+- Email Verification
 - Phone Validation
 - Data Enrichment
-- Financial-Services
+- Financial Services
 - Risk Management
 ---

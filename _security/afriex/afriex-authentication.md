@@ -91,7 +91,7 @@ tags:
 - Remittances
 - Cross-Border Payments
 - Fintech
-- Financial-Services
+- Financial Services
 - Foreign Exchange
 - Mobile Money
 - Money Transfer
@@ -99,4 +99,5 @@ tags:
 - Stablecoins
 - Virtual Accounts
 - Webhook
+- A2A
 ---

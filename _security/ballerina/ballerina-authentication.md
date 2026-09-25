@@ -78,7 +78,7 @@ summary_line: 2 schemes
 tags:
 - Integration
 - Orchestration
-- Open-Source
+- Open Source
 - Programming Language
 - Package Registry
 - Developer Tools

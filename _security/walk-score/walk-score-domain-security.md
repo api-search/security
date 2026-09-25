@@ -69,7 +69,7 @@ tags:
 - Transit
 - Bikeability
 - Location
-- Real-Estate
+- Real Estate
 - Urban Planning
 - Transportation
 ---

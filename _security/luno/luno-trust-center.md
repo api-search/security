@@ -35,6 +35,7 @@ tags:
 - Fintech
 - Wallets
 - Blockchain
-- Financial-Services
+- Financial Services
+- Real-Time
 trust_url: https://trust.luno.com/
 ---

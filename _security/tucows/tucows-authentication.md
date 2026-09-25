@@ -46,5 +46,5 @@ tags:
 - SSL
 - Email
 - Registrar
-- Telecom
+- Telecommunications
 ---

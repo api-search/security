@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: scrunch-ai-agent-traffic-api-openapi.yml
   format: yaml
-  label: Scrunch AI agent-traffic API
+  label: Scrunch AI Agent Traffic API
   slug: scrunch-ai-agent-traffic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-agent-traffic-api-openapi.yml
 - filename: scrunch-ai-ai-referrals-api-openapi.yml
   format: yaml
-  label: Scrunch AI ai-referrals API
+  label: Scrunch AI AI Referrals API
   slug: scrunch-ai-ai-referrals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-ai-referrals-api-openapi.yml
 - filename: scrunch-ai-axp-render-api-openapi.yml
   format: yaml
-  label: Scrunch AI axp-render API
+  label: Scrunch AI Axp Render API
   slug: scrunch-ai-axp-render-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-axp-render-api-openapi.yml
@@ -28,7 +28,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-brands-api-openapi.yml
 - filename: scrunch-ai-orchestration-api-openapi.yml
   format: yaml
-  label: Scrunch AI orchestration API
+  label: Scrunch AI Orchestration API
   slug: scrunch-ai-orchestration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-orchestration-api-openapi.yml
@@ -58,7 +58,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-responses-api-openapi.yml
 - filename: scrunch-ai-sitemap-api-openapi.yml
   format: yaml
-  label: Scrunch AI sitemap API
+  label: Scrunch AI Sitemap API
   slug: scrunch-ai-sitemap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-sitemap-api-openapi.yml

@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  Live probes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/authentication/10x-banking-technology-services-authentication.yml
 summary_line: 1 scheme
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Core Banking
 - Cloud-Native

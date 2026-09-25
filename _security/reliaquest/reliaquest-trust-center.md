@@ -34,7 +34,7 @@ tags:
 - Incident Response
 - Threat Intelligence
 - Digital Risk Protection
-- Agentic AI
+- AI Agents
 - GraphQL
 trust_url: https://reliaquest.com/resources/greymatter-faq/data-privacy-and-compliance-faq/
 ---

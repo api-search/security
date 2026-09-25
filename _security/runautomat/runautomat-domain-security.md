@@ -2,7 +2,7 @@
 api_specs:
 - filename: runautomat-extract-api-openapi.yml
   format: yaml
-  label: Runautomat extract API
+  label: Runautomat Extract API
   slug: runautomat-extract-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/openapi/runautomat-extract-api-openapi.yml
@@ -40,10 +40,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Automation
-- Robotic Process Automation
+- RPA
 - Document Processing
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data Extraction
 - iPaaS
 - Agents

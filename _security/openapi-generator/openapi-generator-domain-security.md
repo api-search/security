@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Code Generation
 - Documentation
-- Open-Source
+- Open Source
 - OpenAPI
 - SDK
 - API Tooling
@@ -58,4 +58,5 @@ tags:
 - Swagger
 - Server Stubs
 - Codegen
+- SDK Generation
 ---

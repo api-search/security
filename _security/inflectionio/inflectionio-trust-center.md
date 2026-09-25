@@ -68,5 +68,6 @@ tags:
 - Artificial Intelligence
 - Customer Journey
 - Webhook
+- A2A
 trust_url: https://docs.inflection.io/agents/mcp-trust-security
 ---

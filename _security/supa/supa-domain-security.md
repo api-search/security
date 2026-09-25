@@ -35,9 +35,9 @@ tags:
 - Data Labeling
 - Data Annotation
 - Training Data
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Data Curation
 - RLHF
-- Computer-Vision
+- Computer Vision
 ---

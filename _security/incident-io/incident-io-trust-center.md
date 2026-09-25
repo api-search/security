@@ -171,5 +171,6 @@ summary_line: SOC 2
 tags:
 - AIOps
 - Incident Management
+- Monitoring
 trust_url: https://trust.incident.io/
 ---

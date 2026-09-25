@@ -56,25 +56,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountsessions-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentmanagedapi-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps integrationServiceEnvironmentManagedApi API
+  label: Azure Logic Apps Integration Service Environment Managed API
   slug: azure-logic-apps-integrationserviceenvironmentmanagedapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentmanagedapi-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentmanagedapis-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps integrationServiceEnvironmentManagedApis API
+  label: Azure Logic Apps Integration Service Environment Managed APIs API
   slug: azure-logic-apps-integrationserviceenvironmentmanagedapis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentmanagedapis-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentnetworkhealth-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps integrationServiceEnvironmentNetworkHealth API
+  label: Azure Logic Apps Integration Service Environment Network Health API
   slug: azure-logic-apps-integrationserviceenvironmentnetworkhealth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentnetworkhealth-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentrestart-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps integrationServiceEnvironmentRestart API
+  label: Azure Logic Apps Integration Service Environment Restart API
   slug: azure-logic-apps-integrationserviceenvironmentrestart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentrestart-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironments-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentskus-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps integrationServiceEnvironmentSkus API
+  label: Azure Logic Apps Integration Service Environment Skus API
   slug: azure-logic-apps-integrationserviceenvironmentskus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentskus-api-openapi.yml

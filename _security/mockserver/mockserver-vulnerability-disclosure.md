@@ -2,19 +2,19 @@
 api_specs:
 - filename: mockserver-control-api-openapi.yml
   format: yaml
-  label: MockServer control API
+  label: MockServer Control API
   slug: mockserver-control-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-control-api-openapi.yml
 - filename: mockserver-expectation-api-openapi.yml
   format: yaml
-  label: MockServer expectation API
+  label: MockServer Expectation API
   slug: mockserver-expectation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-expectation-api-openapi.yml
 - filename: mockserver-verify-api-openapi.yml
   format: yaml
-  label: MockServer verify API
+  label: MockServer Verify API
   slug: mockserver-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-verify-api-openapi.yml

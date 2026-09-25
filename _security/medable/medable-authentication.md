@@ -65,5 +65,5 @@ tags:
 - Healthcare
 - Decentralized Clinical Trials
 - Backend-as-a-Service
-- Agentic AI
+- AI Agents
 ---

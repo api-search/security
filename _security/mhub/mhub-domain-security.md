@@ -32,8 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mhub/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real-Estate
-- Property Technology
+- Real Estate
 - PropTech
 - Malaysia
 - Sales

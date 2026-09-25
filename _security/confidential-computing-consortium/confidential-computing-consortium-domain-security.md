@@ -35,7 +35,7 @@ tags:
 - Confidential Computing
 - Hardware
 - Linux Foundation
-- Open-Source
+- Open Source
 - Privacy
 - Security
 - TEE

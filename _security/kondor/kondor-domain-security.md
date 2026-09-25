@@ -33,7 +33,7 @@ tags:
 - Algorithmic Trading
 - Crypto
 - Expert Advisors
-- Financial
+- Finance
 - Fintech
 - MetaTrader
 - Trading

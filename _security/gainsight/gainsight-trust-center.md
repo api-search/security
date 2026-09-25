@@ -211,5 +211,6 @@ tags:
 - Software-as-a-Service
 - MCP
 - Retention
+- Community
 trust_url: https://trust.gainsight.com/
 ---

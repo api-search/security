@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: cloudguard-waf-api-openapi.yml
-  format: yaml
-  label: CloudGuard WAF API
-  slug: cloudguard-waf-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/openapi/cloudguard-waf-api-openapi.yml
 - filename: cloudguard-access-lease-api-openapi.yml
   format: yaml
   label: CloudGuard Access Lease API

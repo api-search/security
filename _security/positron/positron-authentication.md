@@ -83,9 +83,9 @@ tags:
 - LLM
 - Transformers
 - OpenAI-Compatible
-- Machine-Learning
+- Machine Learning
 - Semiconductors
-- Data-Center
+- Data Center
 - llm-serving
 - Model Hosting
 ---

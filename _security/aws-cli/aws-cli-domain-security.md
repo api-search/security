@@ -35,5 +35,5 @@ tags:
 - Cloud Computing
 - Command Line Interface
 - DevOps
-- Open-Source
+- Open Source
 ---

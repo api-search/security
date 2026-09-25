@@ -45,6 +45,6 @@ tags:
 - Insurance Solutions
 - Investment Management
 - Private Equity
-- Real-Estate
+- Real Estate
 - Renewable Energy
 ---

@@ -44,5 +44,5 @@ tags:
 - Protect API
 - SDK
 - ACORD
-- Financial-Services
+- Financial Services
 ---

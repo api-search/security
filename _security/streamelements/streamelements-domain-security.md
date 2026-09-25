@@ -2,85 +2,85 @@
 api_specs:
 - filename: streamelements-activities-api-openapi.yml
   format: yaml
-  label: StreamElements activities API
+  label: StreamElements Activities API
   slug: streamelements-activities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-activities-api-openapi.yml
 - filename: streamelements-bot-api-openapi.yml
   format: yaml
-  label: StreamElements bot API
+  label: StreamElements Bot API
   slug: streamelements-bot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-bot-api-openapi.yml
 - filename: streamelements-channels-api-openapi.yml
   format: yaml
-  label: StreamElements channels API
+  label: StreamElements Channels API
   slug: streamelements-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-channels-api-openapi.yml
 - filename: streamelements-chatstats-api-openapi.yml
   format: yaml
-  label: StreamElements chatstats API
+  label: StreamElements Chatstats API
   slug: streamelements-chatstats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-chatstats-api-openapi.yml
 - filename: streamelements-commands-api-openapi.yml
   format: yaml
-  label: StreamElements commands API
+  label: StreamElements Commands API
   slug: streamelements-commands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-commands-api-openapi.yml
 - filename: streamelements-contests-api-openapi.yml
   format: yaml
-  label: StreamElements contests API
+  label: StreamElements Contests API
   slug: streamelements-contests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-contests-api-openapi.yml
 - filename: streamelements-filters-api-openapi.yml
   format: yaml
-  label: StreamElements filters API
+  label: StreamElements Filters API
   slug: streamelements-filters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-filters-api-openapi.yml
 - filename: streamelements-giveaways-api-openapi.yml
   format: yaml
-  label: StreamElements giveaways API
+  label: StreamElements Giveaways API
   slug: streamelements-giveaways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-giveaways-api-openapi.yml
 - filename: streamelements-loyalties-api-openapi.yml
   format: yaml
-  label: StreamElements loyalties API
+  label: StreamElements Loyalties API
   slug: streamelements-loyalties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-loyalties-api-openapi.yml
 - filename: streamelements-modules-api-openapi.yml
   format: yaml
-  label: StreamElements modules API
+  label: StreamElements Modules API
   slug: streamelements-modules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-modules-api-openapi.yml
 - filename: streamelements-overlays-api-openapi.yml
   format: yaml
-  label: StreamElements overlays API
+  label: StreamElements Overlays API
   slug: streamelements-overlays-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-overlays-api-openapi.yml
 - filename: streamelements-points-api-openapi.yml
   format: yaml
-  label: StreamElements points API
+  label: StreamElements Points API
   slug: streamelements-points-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-points-api-openapi.yml
 - filename: streamelements-redemptions-api-openapi.yml
   format: yaml
-  label: StreamElements redemptions API
+  label: StreamElements Redemptions API
   slug: streamelements-redemptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-redemptions-api-openapi.yml
 - filename: streamelements-sessions-api-openapi.yml
   format: yaml
-  label: StreamElements sessions API
+  label: StreamElements Sessions API
   slug: streamelements-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-sessions-api-openapi.yml
@@ -104,43 +104,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-single-user-api-openapi.yml
 - filename: streamelements-songrequests-api-openapi.yml
   format: yaml
-  label: StreamElements songrequests API
+  label: StreamElements Songrequests API
   slug: streamelements-songrequests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-songrequests-api-openapi.yml
 - filename: streamelements-stats-api-openapi.yml
   format: yaml
-  label: StreamElements stats API
+  label: StreamElements Stats API
   slug: streamelements-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-stats-api-openapi.yml
 - filename: streamelements-store-api-openapi.yml
   format: yaml
-  label: StreamElements store API
+  label: StreamElements Store API
   slug: streamelements-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-store-api-openapi.yml
 - filename: streamelements-themes-api-openapi.yml
   format: yaml
-  label: StreamElements themes API
+  label: StreamElements Themes API
   slug: streamelements-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-themes-api-openapi.yml
 - filename: streamelements-timers-api-openapi.yml
   format: yaml
-  label: StreamElements timers API
+  label: StreamElements Timers API
   slug: streamelements-timers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-timers-api-openapi.yml
 - filename: streamelements-tips-api-openapi.yml
   format: yaml
-  label: StreamElements tips API
+  label: StreamElements Tips API
   slug: streamelements-tips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-tips-api-openapi.yml
 - filename: streamelements-users-api-openapi.yml
   format: yaml
-  label: StreamElements users API
+  label: StreamElements Users API
   slug: streamelements-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/openapi/streamelements-users-api-openapi.yml

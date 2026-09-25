@@ -32,7 +32,7 @@ tags:
 - Company
 - B2B
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Graphic Design
 - Generative AI
 - Benchmarks

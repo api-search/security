@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/authentication/americorps-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal-Government
+- Federal Government
 - National Service
 - Volunteerism
 - Community Development

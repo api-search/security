@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Ai Ml
-- Financial-Services
+- Financial Services
 - Wealth Management
 - Client Management
 - Onboarding

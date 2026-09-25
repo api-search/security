@@ -36,7 +36,7 @@ tags:
 - Chip Monitoring
 - Deep Data Analytics
 - Electronics
-- Machine-Learning
+- Machine Learning
 - Reliability
 - Silicon Lifecycle Management
 - Test and Measurement

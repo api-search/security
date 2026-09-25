@@ -98,7 +98,7 @@ tags:
 - Generative AI
 - Hybrid Cloud
 - Infrastructure
-- Machine-Learning
+- Machine Learning
 - Networking
 - Observability
 - Security
@@ -107,4 +107,5 @@ tags:
 - Watson
 - Watsonx
 - Fortune 100
+- A2A
 ---

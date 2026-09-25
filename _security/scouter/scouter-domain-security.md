@@ -36,6 +36,6 @@ tags:
 - Media Production
 - Location Rental
 - Event
-- Real-Estate
+- Real Estate
 - Mexico
 ---

@@ -85,10 +85,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kombo-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/authentication/kombo-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- ATS
+- Applicant Tracking
 - Embedded iPaaS
 - HRIS
 - LMS
 - Payroll
-- Unified-API
+- Unified API
+- Recruiting
 ---

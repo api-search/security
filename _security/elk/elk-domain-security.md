@@ -31,9 +31,9 @@ summary_line: TLSv1.3
 tags:
 - Fediverse
 - Mastodon
-- Open-Source
-- Social Networking
-- Social-Media
+- Open Source
+- Social Network
+- Social Media
 - Web-Client
 - Progressive Web App
 - Authentication

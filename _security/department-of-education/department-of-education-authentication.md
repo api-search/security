@@ -40,7 +40,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - College Scorecard
 - Education
-- Federal-Government
+- Federal Government
 - Higher Education
 - IPEDS
 - K-12

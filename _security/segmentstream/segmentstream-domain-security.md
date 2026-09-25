@@ -52,4 +52,5 @@ tags:
 - BigQuery
 - MCP
 - AI Agents
+- A2A
 ---

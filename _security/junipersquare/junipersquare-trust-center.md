@@ -31,6 +31,6 @@ tags:
 - Private Equity
 - Investor Relations
 - MCP
-- Agentic AI
+- AI Agents
 trust_url: https://trust.junipersquare.com/
 ---

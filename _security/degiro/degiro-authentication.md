@@ -17,43 +17,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
 - filename: degiro-config-api-openapi.yml
   format: yaml
-  label: DEGIRO config API
+  label: DEGIRO Config API
   slug: degiro-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-config-api-openapi.yml
 - filename: degiro-login-api-openapi.yml
   format: yaml
-  label: DEGIRO login API
+  label: DEGIRO Login API
   slug: degiro-login-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-login-api-openapi.yml
 - filename: degiro-pa-api-openapi.yml
   format: yaml
-  label: DEGIRO pa API
+  label: DEGIRO Pa API
   slug: degiro-pa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-pa-api-openapi.yml
 - filename: degiro-product-search-api-openapi.yml
   format: yaml
-  label: DEGIRO product-search API
+  label: DEGIRO Product Search API
   slug: degiro-product-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
 - filename: degiro-reporting-api-openapi.yml
   format: yaml
-  label: DEGIRO reporting API
+  label: DEGIRO Reporting API
   slug: degiro-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
 - filename: degiro-settings-api-openapi.yml
   format: yaml
-  label: DEGIRO settings API
+  label: DEGIRO Settings API
   slug: degiro-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-settings-api-openapi.yml
 - filename: degiro-trading-api-openapi.yml
   format: yaml
-  label: DEGIRO trading API
+  label: DEGIRO Trading API
   slug: degiro-trading-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-trading-api-openapi.yml
@@ -99,4 +99,5 @@ tags:
 - Portfolio
 - Market Data
 - Finance
+- Investing
 ---

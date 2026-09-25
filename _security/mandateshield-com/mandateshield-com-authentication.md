@@ -64,6 +64,6 @@ tags:
 - x402
 - AP2
 - Stripe
-- agent-native
+- Agent-Native
 - Switzerland
 ---

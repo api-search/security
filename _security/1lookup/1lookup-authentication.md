@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Phone Validation
-- Email Validation
+- Email Verification
 - IP Intelligence
 - Fraud and Risk
 - Data Enrichment

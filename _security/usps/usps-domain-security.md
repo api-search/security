@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: united-states-postal-service-addresses-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Addresses API
+  slug: addresses
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-addresses-api-openapi.yml
+- filename: united-states-postal-service-carrier-pickup-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Carrier Pickup API
+  slug: usps-carrier-pickup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-carrier-pickup-api-openapi.yml
+- filename: united-states-postal-service-domestic-prices-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Domestic Prices API
+  slug: prices
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-domestic-prices-api-openapi.yml
+- filename: united-states-postal-service-tracking-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Tracking API
+  slug: tracking
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -31,8 +56,8 @@ layout: security
 method: probed
 name: Usps Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for USPS, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: USPS
+overview: 'Domain security posture for United States Postal Service, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: United States Postal Service
 provider_slug: usps
 slug: usps-domain-security
 source_filename: usps-domain-security.yml
@@ -42,10 +67,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/security/usps-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Government
+- Postal Service
 - Shipping
-- Postal
-- Address Validation
-- Tracking
-- Labels
 - Logistics
+- Address Validation
+- Package Tracking
 ---

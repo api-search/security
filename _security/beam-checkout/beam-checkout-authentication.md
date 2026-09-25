@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beam-checkout/
 summary_line: http · 3 schemes
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Checkout
 - Card Payments

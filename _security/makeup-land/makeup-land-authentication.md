@@ -20,8 +20,8 @@ method: searched
 name: Makeup Land Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: א. ט. הפקות בע״מ / A.T. Hafakot Ltd. secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: א. ט. הפקות בע״מ / A.T. Hafakot Ltd.
+overview: makeup.land secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: makeup.land
 provider_slug: makeup-land
 scheme_count: 2
 schemes:
@@ -79,6 +79,7 @@ tags:
 - Product Search
 - Agentic Commerce
 - MCP
-- agent-native
+- Agent-Native
 - Israel
+- A2A
 ---

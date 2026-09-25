@@ -5,49 +5,49 @@ api_key_in:
 api_specs:
 - filename: veho-labels-api-openapi.yml
   format: yaml
-  label: Veho labels API
+  label: Veho Labels API
   slug: veho-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-labels-api-openapi.yml
 - filename: veho-manifests-api-openapi.yml
   format: yaml
-  label: Veho manifests API
+  label: Veho Manifests API
   slug: veho-manifests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-manifests-api-openapi.yml
 - filename: veho-merchants-api-openapi.yml
   format: yaml
-  label: Veho merchants API
+  label: Veho Merchants API
   slug: veho-merchants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-merchants-api-openapi.yml
 - filename: veho-orders-api-openapi.yml
   format: yaml
-  label: Veho orders API
+  label: Veho Orders API
   slug: veho-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-orders-api-openapi.yml
 - filename: veho-packages-api-openapi.yml
   format: yaml
-  label: Veho packages API
+  label: Veho Packages API
   slug: veho-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-packages-api-openapi.yml
 - filename: veho-quotes-api-openapi.yml
   format: yaml
-  label: Veho quotes API
+  label: Veho Quotes API
   slug: veho-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-quotes-api-openapi.yml
 - filename: veho-webhooks-api-openapi.yml
   format: yaml
-  label: Veho webhooks API
+  label: Veho Webhooks API
   slug: veho-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-webhooks-api-openapi.yml
 - filename: veho-zips-api-openapi.yml
   format: yaml
-  label: Veho zips API
+  label: Veho Zips API
   slug: veho-zips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/openapi/veho-zips-api-openapi.yml

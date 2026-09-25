@@ -37,6 +37,6 @@ tags:
 - Renewable Energy
 - Wind Energy
 - Airborne Wind
-- Open-Source
+- Open Source
 - Alphabet
 ---

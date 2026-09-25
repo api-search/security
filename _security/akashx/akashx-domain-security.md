@@ -37,5 +37,5 @@ tags:
 - Analytics
 - SQL
 - Lakehouse
-- Machine-Learning
+- Machine Learning
 ---

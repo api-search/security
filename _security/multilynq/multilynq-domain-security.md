@@ -33,7 +33,7 @@ tags:
 - Fixed Income
 - Bond Trading
 - Capital Markets
-- Financial-Services
+- Financial Services
 - Market Data
 - Trading Connectivity
 - Fintech

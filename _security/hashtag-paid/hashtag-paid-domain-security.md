@@ -36,7 +36,7 @@ tags:
 - Influencer Marketing
 - Marketing
 - Advertising
-- Social-Media
+- Social Media
 - Content
 - Marketplace
 - Creator Economy

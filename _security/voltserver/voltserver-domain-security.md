@@ -38,7 +38,7 @@ tags:
 - Class 4 Power
 - Electrical
 - Hardware
-- Data-Center
+- Data Center
 - Buildings
 - Energy
 ---

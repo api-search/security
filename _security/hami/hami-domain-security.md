@@ -55,7 +55,7 @@ tags:
 - Kubernetes
 - GPU Sharing
 - Scheduling
-- Open-Source
+- Open Source
 - Infrastructure
 - Observability
 - Heterogeneous Computing

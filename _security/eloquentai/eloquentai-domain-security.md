@@ -33,10 +33,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
 - Customer Service
 - Customer Support Automation
-- Financial-Services
+- Financial Services
 - Fintech
 - Regulated Industries
 ---

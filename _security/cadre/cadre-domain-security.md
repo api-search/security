@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Investment
-- Real-Estate
+- Real Estate
 - Private Markets
 - Wealth Management
 - Alternative Investments

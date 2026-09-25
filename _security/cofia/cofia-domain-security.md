@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Agents
 - Productivity
 - Y Combinator

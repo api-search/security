@@ -37,7 +37,7 @@ tags:
 - Metals And Mining
 - Process Control
 - Model Predictive Control
-- Machine-Learning
+- Machine Learning
 - Manufacturing
 - Optimization
 - Cement

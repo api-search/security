@@ -41,7 +41,7 @@ tags:
 - MCP
 - A2A
 - Developer Tools
-- Open-Source
+- Open Source
 - Rust
 - Agent Discovery
 - Public Goods

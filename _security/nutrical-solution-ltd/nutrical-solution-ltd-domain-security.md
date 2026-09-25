@@ -66,8 +66,8 @@ layout: security
 method: probed
 name: Nutrical Solution Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Nutrical Solution Ltd, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Nutrical Solution Ltd
+overview: 'Domain security posture for Nutrical Solution, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Nutrical Solution
 provider_slug: nutrical-solution-ltd
 slug: nutrical-solution-ltd-domain-security
 source_filename: nutrical-solution-ltd-domain-security.yml

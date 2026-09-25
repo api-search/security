@@ -2,25 +2,25 @@
 api_specs:
 - filename: coinpaprika-coins-api-openapi.yml
   format: yaml
-  label: CoinPaprika coins API
+  label: CoinPaprika Coins API
   slug: coinpaprika-coins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-coins-api-openapi.yml
 - filename: coinpaprika-global-api-openapi.yml
   format: yaml
-  label: CoinPaprika global API
+  label: CoinPaprika Global API
   slug: coinpaprika-global-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-global-api-openapi.yml
 - filename: coinpaprika-search-api-openapi.yml
   format: yaml
-  label: CoinPaprika search API
+  label: CoinPaprika Search API
   slug: coinpaprika-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-search-api-openapi.yml
 - filename: coinpaprika-ticker-api-openapi.yml
   format: yaml
-  label: CoinPaprika ticker API
+  label: CoinPaprika Ticker API
   slug: coinpaprika-ticker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-ticker-api-openapi.yml

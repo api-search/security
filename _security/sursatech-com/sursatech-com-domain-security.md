@@ -33,13 +33,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI Agents
 - A2A
-- Agent-to-Agent
 - AI Consulting
 - Product Engineering
 - Software Development
 - RAG
 - QA Automation
 - Nepal
-- agent-native
+- Agent-Native
 - Company
 ---

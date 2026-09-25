@@ -50,6 +50,6 @@ tags:
 - Message Broker
 - Messaging
 - MQTT
-- Open-Source
+- Open Source
 - STOMP
 ---

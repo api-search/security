@@ -36,7 +36,7 @@ tags:
 - no account
 - no install
 - Browser
-- agent-native
+- Agent-Native
 - WebMCP
 - llms-txt
 - Privacy

@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: tessell-activity-center-api-openapi.yml
   format: yaml
-  label: Tessell activity-center API
+  label: Tessell Activity Center API
   slug: tessell-activity-center-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-activity-center-api-openapi.yml
@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-ad-domain-governance-api-openapi.yml
 - filename: tessell-alert-controller-api-openapi.yml
   format: yaml
-  label: Tessell alert-controller API
+  label: Tessell Alert Controller API
   slug: tessell-alert-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-alert-controller-api-openapi.yml
@@ -40,19 +40,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-availability-machine-api-openapi.yml
 - filename: tessell-azure-netapp-admin-controller-api-openapi.yml
   format: yaml
-  label: Tessell azure-netapp-admin-controller API
+  label: Tessell Azure Netapp Admin Controller API
   slug: tessell-azure-netapp-admin-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-azure-netapp-admin-controller-api-openapi.yml
 - filename: tessell-azure-netapp-service-controller-api-openapi.yml
   format: yaml
-  label: Tessell azure-netapp-service-controller API
+  label: Tessell Azure Netapp Service Controller API
   slug: tessell-azure-netapp-service-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-azure-netapp-service-controller-api-openapi.yml
 - filename: tessell-cloud-resource-api-openapi.yml
   format: yaml
-  label: Tessell cloud-resource API
+  label: Tessell Cloud Resource API
   slug: tessell-cloud-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-cloud-resource-api-openapi.yml
@@ -82,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-conversation-api-openapi.yml
 - filename: tessell-conversationcontrollerdeprecated-api-openapi.yml
   format: yaml
-  label: Tessell conversationControllerDeprecated API
+  label: Tessell Conversation Controller Deprecated API
   slug: tessell-conversationcontrollerdeprecated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-conversationcontrollerdeprecated-api-openapi.yml
@@ -94,7 +94,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-data-access-policy-api-openapi.yml
 - filename: tessell-data-pipeline-api-openapi.yml
   format: yaml
-  label: Tessell data-pipeline API
+  label: Tessell Data Pipeline API
   slug: tessell-data-pipeline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-data-pipeline-api-openapi.yml
@@ -118,7 +118,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-database-api-openapi.yml
 - filename: tessell-dataflix-controller-api-openapi.yml
   format: yaml
-  label: Tessell dataflix-controller API
+  label: Tessell Dataflix Controller API
   slug: tessell-dataflix-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-dataflix-controller-api-openapi.yml
@@ -148,7 +148,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-db-profile-api-openapi.yml
 - filename: tessell-db-schema-controller-api-openapi.yml
   format: yaml
-  label: Tessell db-schema-controller API
+  label: Tessell Db Schema Controller API
   slug: tessell-db-schema-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-db-schema-controller-api-openapi.yml
@@ -196,19 +196,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-event-api-openapi.yml
 - filename: tessell-exadata-infrastructure-api-openapi.yml
   format: yaml
-  label: Tessell exadata-infrastructure API
+  label: Tessell Exadata Infrastructure API
   slug: tessell-exadata-infrastructure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-exadata-infrastructure-api-openapi.yml
 - filename: tessell-fsx-netapp-admin-controller-api-openapi.yml
   format: yaml
-  label: Tessell fsx-netapp-admin-controller API
+  label: Tessell Fsx Netapp Admin Controller API
   slug: tessell-fsx-netapp-admin-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-fsx-netapp-admin-controller-api-openapi.yml
 - filename: tessell-fsx-netapp-service-controller-api-openapi.yml
   format: yaml
-  label: Tessell fsx-netapp-service-controller API
+  label: Tessell Fsx Netapp Service Controller API
   slug: tessell-fsx-netapp-service-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-fsx-netapp-service-controller-api-openapi.yml
@@ -226,7 +226,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-identity-providers-api-openapi.yml
 - filename: tessell-infra-deployment-api-openapi.yml
   format: yaml
-  label: Tessell infra-deployment API
+  label: Tessell Infra Deployment API
   slug: tessell-infra-deployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-infra-deployment-api-openapi.yml
@@ -250,7 +250,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-logs-api-openapi.yml
 - filename: tessell-maintenance-window-api-openapi.yml
   format: yaml
-  label: Tessell maintenance-window API
+  label: Tessell Maintenance Window API
   slug: tessell-maintenance-window-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-maintenance-window-api-openapi.yml
@@ -310,7 +310,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-roles-api-openapi.yml
 - filename: tessell-rpo-policy-api-openapi.yml
   format: yaml
-  label: Tessell rpo-policy API
+  label: Tessell Rpo Policy API
   slug: tessell-rpo-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-rpo-policy-api-openapi.yml
@@ -322,13 +322,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-sample-dataset-api-openapi.yml
 - filename: tessell-security-profiles-acls-api-openapi.yml
   format: yaml
-  label: Tessell security-profiles-acls API
+  label: Tessell Security Profiles Acls API
   slug: tessell-security-profiles-acls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-security-profiles-acls-api-openapi.yml
 - filename: tessell-security-profiles-api-openapi.yml
   format: yaml
-  label: Tessell security-profiles API
+  label: Tessell Security Profiles API
   slug: tessell-security-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-security-profiles-api-openapi.yml
@@ -340,7 +340,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-service-plan-api-openapi.yml
 - filename: tessell-service-refresh-controller-api-openapi.yml
   format: yaml
-  label: Tessell service-refresh-controller API
+  label: Tessell Service Refresh Controller API
   slug: tessell-service-refresh-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-service-refresh-controller-api-openapi.yml
@@ -436,7 +436,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessell-service-precheck-controller-api-openapi.yml
 - filename: tessell-tessellgatewayservicecontroller-api-openapi.yml
   format: yaml
-  label: Tessell tessellGatewayServiceController API
+  label: Tessell Tessell Gateway Service Controller API
   slug: tessell-tessellgatewayservicecontroller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-tessellgatewayservicecontroller-api-openapi.yml
@@ -448,7 +448,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-ticket-api-openapi.yml
 - filename: tessell-ticketcontrollerdeprecated-api-openapi.yml
   format: yaml
-  label: Tessell ticketControllerDeprecated API
+  label: Tessell Ticket Controller Deprecated API
   slug: tessell-ticketcontrollerdeprecated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/openapi/tessell-ticketcontrollerdeprecated-api-openapi.yml

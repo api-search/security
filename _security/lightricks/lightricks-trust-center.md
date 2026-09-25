@@ -2,13 +2,13 @@
 api_specs:
 - filename: lightricks-asyncvideogeneration-api-openapi.yml
   format: yaml
-  label: Lightricks asyncVideoGeneration API
+  label: Lightricks Async Video Generation API
   slug: lightricks-asyncvideogeneration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-asyncvideogeneration-api-openapi.yml
 - filename: lightricks-upload-api-openapi.yml
   format: yaml
-  label: Lightricks upload API
+  label: Lightricks Upload API
   slug: lightricks-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-upload-api-openapi.yml
@@ -47,7 +47,7 @@ tags:
 - Video
 - Video Generation
 - Media
-- Machine-Learning
+- Machine Learning
 - Creative Tools
 trust_url: https://trust.lightricks.com/
 ---

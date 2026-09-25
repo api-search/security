@@ -35,7 +35,7 @@ tags:
 - Energy Storage
 - Offshore Wind
 - Renewable Energy
-- Data-Center
+- Data Center
 - Deep Tech
 - New Zealand
 ---

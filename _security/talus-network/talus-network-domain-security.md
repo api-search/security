@@ -38,6 +38,6 @@ tags:
 - Developer Tools
 - SDK
 - Rust
-- Workflow-Automation
+- Workflow Automation
 - Sui Move
 ---

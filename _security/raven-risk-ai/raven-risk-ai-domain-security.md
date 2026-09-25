@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Credit Risk
-- Financial-Services
+- Financial Services
 - Fintech
 - Due Diligence
 - Risk Assessment

@@ -38,4 +38,5 @@ tags:
 - Logistics
 - E-Commerce
 - India
+- Restaurant
 ---

@@ -39,7 +39,7 @@ tags:
 - Price Optimization
 - Predictive Pricing
 - Demand Forecasting
-- Machine-Learning
+- Machine Learning
 - E-Commerce
 - Performance Marketing
 - Data Integration

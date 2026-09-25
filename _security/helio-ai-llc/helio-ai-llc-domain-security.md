@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Helio Ai Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Helio AI LLC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Helio AI LLC
+overview: 'Domain security posture for Helio AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Helio AI
 provider_slug: helio-ai-llc
 slug: helio-ai-llc-domain-security
 source_filename: helio-ai-llc-domain-security.yml
@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Recruiting
-- ATS
+- Applicant Tracking
 - Human Resources
 - Artificial Intelligence
 - Talent Acquisition

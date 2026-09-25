@@ -36,7 +36,7 @@ tags:
 - Power Electronics
 - Grid Infrastructure
 - Solid-State Transformers
-- Data-Center
+- Data Center
 - Renewable Energy
 - Hardware
 ---

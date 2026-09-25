@@ -86,6 +86,6 @@ tags:
 - Data Analytics
 - Data Preparation
 - ETL
-- Machine-Learning
+- Machine Learning
 trust_url: https://aws.amazon.com/compliance/
 ---

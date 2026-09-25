@@ -132,7 +132,7 @@ tags:
 - Analytics
 - Business Management
 - Marketing
-- Social-Media
+- Social Media
 - Messaging
 - Commerce
 - Agents

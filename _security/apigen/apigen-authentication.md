@@ -90,6 +90,6 @@ tags:
 - Code
 - Documentation
 - Generation
-- Open-Source
+- Open Source
 - PHP
 ---

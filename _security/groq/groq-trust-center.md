@@ -80,5 +80,6 @@ tags:
 - Inference
 - LPU
 - Low Latency
+- Real-Time
 trust_url: https://groq.com/security
 ---

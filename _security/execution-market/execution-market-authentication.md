@@ -96,5 +96,5 @@ tags:
 - Web3
 - Blockchain
 - DAO
-- agent-native
+- Agent-Native
 ---

@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - Robotics
 - Automation
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 ---

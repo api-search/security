@@ -87,6 +87,9 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Customer Service
-- Customer-Support
+- Customer Support
 - Messaging
+- Conversational AI
+- Help Desk
+- Chatbots
 ---

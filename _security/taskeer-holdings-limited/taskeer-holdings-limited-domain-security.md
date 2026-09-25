@@ -15,8 +15,8 @@ layout: security
 method: probed
 name: Taskeer Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Taskeer Holdings Limited, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Taskeer Holdings Limited
+overview: 'Domain security posture for Taskeer, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Taskeer
 provider_slug: taskeer-holdings-limited
 slug: taskeer-holdings-limited-domain-security
 source_filename: taskeer-holdings-limited-domain-security.yml

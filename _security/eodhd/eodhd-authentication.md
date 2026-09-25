@@ -210,7 +210,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: openapi/eodhd-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/authentication/eodhd-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stock Options
 - Stocks
@@ -219,4 +219,5 @@ tags:
 - Cryptocurrency
 - Fundamentals
 - News
+- Real-Time
 ---

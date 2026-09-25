@@ -126,4 +126,5 @@ tags:
 - Digital Rewards
 - Prepaid Cards
 - Payments
+- Loyalty
 ---

@@ -103,9 +103,11 @@ tags:
 - Trading
 - AI Agents
 - MCP
-- agent-native
+- Agent-Native
 - Blockchain
 - DeFi
-- Financial-Services
+- Financial Services
 - Market Data
+- A2A
+- Real-Time
 ---

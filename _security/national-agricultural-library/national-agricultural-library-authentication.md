@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-agric
 summary_line: apiKey · 1 scheme
 tags:
 - Agriculture
-- Federal-Government
+- Federal Government
 - Library
 - Food
 - Nutrition

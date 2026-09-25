@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-feeds-api-openapi.yml
 - filename: pyth-rest-api-openapi.yml
   format: yaml
-  label: Pyth rest API
+  label: Pyth Rest API
   slug: pyth-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-rest-api-openapi.yml

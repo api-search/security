@@ -24,7 +24,7 @@ tags:
 - Privacy
 - Search
 - Federated Learning
-- Machine-Learning
+- Machine Learning
 - Germany
 trust_url: https://trust.noxtua.com/
 ---

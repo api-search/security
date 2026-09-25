@@ -136,7 +136,7 @@ summary_line: ISO/IEC 27001:2022
 tags:
 - Influencer Marketing
 - Creator Economy
-- Social-Media
+- Social Media
 - Marketing
 - Campaign Management
 - creator-crm

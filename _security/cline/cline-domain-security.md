@@ -38,5 +38,5 @@ tags:
 - JetBrains
 - CLI
 - MCP
-- Open-Source
+- Open Source
 ---

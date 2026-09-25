@@ -700,4 +700,5 @@ tags:
 - Marketing
 - PPC
 - Google Ads
+- AdTech
 ---

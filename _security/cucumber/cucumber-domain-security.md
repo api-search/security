@@ -34,7 +34,7 @@ tags:
 - BDD
 - Behavior-Driven Development
 - Gherkin
-- Open-Source
+- Open Source
 - Quality Assurance
 - Test Framework
 - Testing

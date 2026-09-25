@@ -146,7 +146,7 @@ tags:
 - AI Agents
 - MCP
 - Orchestration
-- Workflow-Automation
+- Workflow Automation
 - Connectors
 - Agent Gateway
 - Embedded Integration

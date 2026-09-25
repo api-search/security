@@ -61,15 +61,15 @@ summary_line: SOC 2 Type 2, SOC 1, ISO/IEC 27001, ISO/IEC 27017:2015, ISO/IEC 27
 tags:
 - Company
 - Ai Ml
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources
 - ITSM
 - Employee Experience
-- Workflow-Automation
+- Workflow Automation
 - Conversational AI
 - MCP
-- Knowledge-Management
+- Knowledge Management
 trust_url: https://trust.leena.ai/
 ---

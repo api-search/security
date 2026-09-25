@@ -32,6 +32,6 @@ tags:
 - Accounts Payable
 - B2B
 - Canada
-- Financial-Services
+- Financial Services
 - Acquired
 ---

@@ -54,7 +54,7 @@ tags:
 - Linux Foundation
 - Linux on Z
 - Mainframe
-- Open-Source
+- Open Source
 - z/OS
 - z/VM
 ---

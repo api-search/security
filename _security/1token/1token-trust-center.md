@@ -28,7 +28,7 @@ summary_line: SOC 2 Type II
 tags:
 - Digital Assets
 - Crypto
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
 - Fund Administration
 - Reconciliation

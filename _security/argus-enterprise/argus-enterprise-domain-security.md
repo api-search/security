@@ -124,6 +124,6 @@ tags:
 - Asset Management
 - Cash Flow Modeling
 - Commercial Real Estate
-- Portfolio-Management
+- Portfolio Management
 - Valuation
 ---

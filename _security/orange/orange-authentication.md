@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange/refs/he
 summary_line: openIdConnect · 1 scheme
 tags:
 - Networks
-- Telecom
+- Telecommunications
 - Identity
 - Messaging
 - Location

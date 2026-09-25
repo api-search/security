@@ -36,6 +36,6 @@ tags:
 - Developer Tools
 - Code Modernization
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Legacy Modernization
 ---

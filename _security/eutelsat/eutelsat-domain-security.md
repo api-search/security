@@ -33,6 +33,6 @@ tags:
 - Company
 - Satellite
 - Communications
-- GEO
+- Geo
 - LEO
 ---

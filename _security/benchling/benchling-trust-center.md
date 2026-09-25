@@ -1244,7 +1244,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchling/refs
 summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2025
 tags:
 - Life Sciences
-- Biotech
+- Biotechnology
 - R&D
 - Molecular Biology
 - Laboratory Information Management

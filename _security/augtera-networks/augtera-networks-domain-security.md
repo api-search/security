@@ -35,7 +35,7 @@ tags:
 - Networking
 - AIOps
 - Network Monitoring
-- Machine-Learning
-- Data-Center
+- Machine Learning
+- Data Center
 - Acquired
 ---

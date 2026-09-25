@@ -35,5 +35,5 @@ tags:
 - Security
 - Vulnerability Management
 - Exposure Management
-- Risk
+- Risk Management
 ---

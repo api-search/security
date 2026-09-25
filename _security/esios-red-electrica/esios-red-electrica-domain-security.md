@@ -46,6 +46,5 @@ tags:
 - Company
 - Energy
 - Data
-- API
 - Spain
 ---

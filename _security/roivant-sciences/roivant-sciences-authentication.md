@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/datavant
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/authentication/roivant-sciences-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Drug Development
 - Clinical Trials

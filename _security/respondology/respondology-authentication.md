@@ -68,7 +68,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Content Moderation
-- Social-Media
+- Social Media
 - Comment Moderation
 - Trust and Safety
 - Artificial Intelligence

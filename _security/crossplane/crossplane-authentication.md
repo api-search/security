@@ -84,7 +84,7 @@ tags:
 - Infrastructure as Code
 - Kubernetes
 - Multi-Cloud
-- Open-Source
+- Open Source
 - Platform Engineering
 - Providers
 ---

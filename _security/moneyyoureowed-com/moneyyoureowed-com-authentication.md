@@ -33,5 +33,5 @@ tags:
 - Agents
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 ---

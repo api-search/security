@@ -118,5 +118,6 @@ tags:
 - Real-Time Data
 - Technical Indicators
 - Fundamentals
+- Real-Time
 trust_url: https://security.twelvedata.com/
 ---

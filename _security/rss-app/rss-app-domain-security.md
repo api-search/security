@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - RSS
-- No-code
+- No-Code
 - Automation
 - Content
 ---

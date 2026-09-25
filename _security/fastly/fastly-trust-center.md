@@ -514,5 +514,6 @@ tags:
 - Streaming
 - Webhook
 - Logging
+- Real-Time
 trust_url: https://www.fastly.com/compliance
 ---

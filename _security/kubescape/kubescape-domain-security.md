@@ -104,5 +104,5 @@ tags:
 - Compliance
 - Runtime Security
 - CNCF
-- Open-Source
+- Open Source
 ---

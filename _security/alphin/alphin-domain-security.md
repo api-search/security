@@ -35,7 +35,7 @@ tags:
 - Marketing
 - Local Marketing
 - Small Business
-- Social-Media
+- Social Media
 - Reviews
 - Advertising
 - Software-as-a-Service

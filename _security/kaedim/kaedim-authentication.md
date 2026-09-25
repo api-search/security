@@ -73,5 +73,5 @@ tags:
 - 3D Models
 - Asset Generation
 - Content Generation
-- Machine-Learning
+- Machine Learning
 ---

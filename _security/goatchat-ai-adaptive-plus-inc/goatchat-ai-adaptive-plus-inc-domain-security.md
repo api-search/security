@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Goatchat Ai Adaptive Plus Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for GoatChat AI - Adaptive Plus Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: GoatChat AI - Adaptive Plus Inc.
+overview: 'Domain security posture for GoatChat AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: GoatChat AI
 provider_slug: goatchat-ai-adaptive-plus-inc
 slug: goatchat-ai-adaptive-plus-inc-domain-security
 source_filename: goatchat-ai-adaptive-plus-inc-domain-security.yml
@@ -35,5 +35,5 @@ tags:
 - Conversational AI
 - Chatbots
 - LLM
-- Machine-Learning
+- Machine Learning
 ---

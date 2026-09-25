@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aible/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AutoML
 - Analytics
 - Data Science

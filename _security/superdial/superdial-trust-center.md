@@ -47,5 +47,6 @@ tags:
 - Prior Authorization
 - Benefits Verification
 - Automation
+- A2A
 trust_url: https://app.vanta.com/thesuperbill.com/trust/yxpg5guedf5rle15cka4ab
 ---

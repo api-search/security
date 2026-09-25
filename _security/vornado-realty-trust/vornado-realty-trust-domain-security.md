@@ -34,5 +34,5 @@ tags:
 - Fortune 500
 - New York City
 - REIT
-- Real-Estate
+- Real Estate
 ---

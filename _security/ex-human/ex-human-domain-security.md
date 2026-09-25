@@ -2,13 +2,13 @@
 api_specs:
 - filename: ex-human-animations-api-openapi.yml
   format: yaml
-  label: Ex-Human animations API
+  label: Ex-Human Animations API
   slug: ex-human-animations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-animations-api-openapi.yml
 - filename: ex-human-chatbot-api-openapi.yml
   format: yaml
-  label: Ex-Human chatbot API
+  label: Ex-Human Chatbot API
   slug: ex-human-chatbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-chatbot-api-openapi.yml
@@ -64,10 +64,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- AI Companions
+- AI Companion
 - Generative AI
 - Text-to-Speech
-- Image-Generation
+- Image Generation
 - Video Generation
 - Avatars
 - Multi-Modal

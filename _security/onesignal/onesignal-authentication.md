@@ -162,4 +162,5 @@ tags:
 - Lifecycle Marketing
 - MCP
 - Agent Ready
+- A2A
 ---

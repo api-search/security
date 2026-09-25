@@ -80,6 +80,6 @@ tags:
 - Marketing
 - Data Science
 - Automation
-- Agentic AI
-- B2C
+- AI Agents
+- Consumer
 ---

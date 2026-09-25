@@ -5,19 +5,19 @@ api_key_in:
 api_specs:
 - filename: aito-technologies-data-api-openapi.yml
   format: yaml
-  label: Aito Technologies data API
+  label: Aito Technologies Data API
   slug: aito-technologies-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-data-api-openapi.yml
 - filename: aito-technologies-query-api-openapi.yml
   format: yaml
-  label: Aito Technologies query API
+  label: Aito Technologies Query API
   slug: aito-technologies-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-query-api-openapi.yml
 - filename: aito-technologies-schema-api-openapi.yml
   format: yaml
-  label: Aito Technologies schema API
+  label: Aito Technologies Schema API
   slug: aito-technologies-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-schema-api-openapi.yml
@@ -56,7 +56,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Predictive Database
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Recommendations
 - Search

@@ -142,7 +142,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Commercial Real Estate
-- Real-Estate
+- Real Estate
 - PropTech
 - CRE Financing
 - Lending

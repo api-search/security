@@ -38,6 +38,6 @@ tags:
 - Semiconductors
 - Robotics
 - Perimeter Security
-- Computer-Vision
+- Computer Vision
 - Hardware
 ---

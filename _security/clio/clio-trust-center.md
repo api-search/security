@@ -521,7 +521,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Billing
 - Calendaring
-- Document-Management
+- Document Management
 - Law Firms
 - Legal
 - Matter Management
@@ -529,5 +529,6 @@ tags:
 - Practice Management
 - Time Tracking
 - Trust Accounting
+- Canada
 trust_url: https://trust.clio.com/
 ---

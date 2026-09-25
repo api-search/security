@@ -34,9 +34,9 @@ tags:
 - Company
 - Property Intelligence
 - Geospatial
-- Computer-Vision
-- Machine-Learning
-- Real-Estate
+- Computer Vision
+- Machine Learning
+- Real Estate
 - Insurance
 - Underwriting
 - Aerial Imagery

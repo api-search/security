@@ -90,7 +90,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Enterprise Search
-- Knowledge-Management
-- Machine-Learning
+- Knowledge Management
+- Machine Learning
 - Natural-Language
+- Search
 ---

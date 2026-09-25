@@ -76,8 +76,8 @@ tags:
 - Data Infrastructure
 - Developer Tools
 - Cloud
-- Open-Source
+- Open Source
 - gRPC
-- Agentic AI
+- AI Agents
 trust_url: https://trust.kurrent.io/
 ---

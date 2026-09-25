@@ -2,121 +2,121 @@
 api_specs:
 - filename: socket-alerts-api-openapi.yml
   format: yaml
-  label: Socket alerts API
+  label: Socket Alerts API
   slug: socket-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-alerts-api-openapi.yml
 - filename: socket-api-tokens-api-openapi.yml
   format: yaml
-  label: Socket api-tokens API
+  label: Socket API Tokens API
   slug: socket-api-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-api-tokens-api-openapi.yml
 - filename: socket-audit-log-api-openapi.yml
   format: yaml
-  label: Socket audit-log API
+  label: Socket Audit Log API
   slug: socket-audit-log-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-audit-log-api-openapi.yml
 - filename: socket-dependencies-api-openapi.yml
   format: yaml
-  label: Socket dependencies API
+  label: Socket Dependencies API
   slug: socket-dependencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-dependencies-api-openapi.yml
 - filename: socket-deprecated-api-openapi.yml
   format: yaml
-  label: Socket deprecated API
+  label: Socket Deprecated API
   slug: socket-deprecated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-deprecated-api-openapi.yml
 - filename: socket-diff-scans-api-openapi.yml
   format: yaml
-  label: Socket diff-scans API
+  label: Socket Diff Scans API
   slug: socket-diff-scans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-diff-scans-api-openapi.yml
 - filename: socket-fixes-api-openapi.yml
   format: yaml
-  label: Socket fixes API
+  label: Socket Fixes API
   slug: socket-fixes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-fixes-api-openapi.yml
 - filename: socket-full-scans-api-openapi.yml
   format: yaml
-  label: Socket full-scans API
+  label: Socket Full Scans API
   slug: socket-full-scans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-full-scans-api-openapi.yml
 - filename: socket-license-policy-api-openapi.yml
   format: yaml
-  label: Socket license-policy API
+  label: Socket License Policy API
   slug: socket-license-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-license-policy-api-openapi.yml
 - filename: socket-metadata-api-openapi.yml
   format: yaml
-  label: Socket metadata API
+  label: Socket Metadata API
   slug: socket-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-metadata-api-openapi.yml
 - filename: socket-org-settings-api-openapi.yml
   format: yaml
-  label: Socket org-settings API
+  label: Socket Org Settings API
   slug: socket-org-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-org-settings-api-openapi.yml
 - filename: socket-org-snapshots-api-openapi.yml
   format: yaml
-  label: Socket org-snapshots API
+  label: Socket Org Snapshots API
   slug: socket-org-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-org-snapshots-api-openapi.yml
 - filename: socket-packages-api-openapi.yml
   format: yaml
-  label: Socket packages API
+  label: Socket Packages API
   slug: socket-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-packages-api-openapi.yml
 - filename: socket-repo-labels-api-openapi.yml
   format: yaml
-  label: Socket repo-labels API
+  label: Socket Repo Labels API
   slug: socket-repo-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-repo-labels-api-openapi.yml
 - filename: socket-repos-api-openapi.yml
   format: yaml
-  label: Socket repos API
+  label: Socket Repos API
   slug: socket-repos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-repos-api-openapi.yml
 - filename: socket-security-policy-api-openapi.yml
   format: yaml
-  label: Socket security-policy API
+  label: Socket Security Policy API
   slug: socket-security-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-security-policy-api-openapi.yml
 - filename: socket-telemetry-api-openapi.yml
   format: yaml
-  label: Socket telemetry API
+  label: Socket Telemetry API
   slug: socket-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-telemetry-api-openapi.yml
 - filename: socket-threat-feed-api-openapi.yml
   format: yaml
-  label: Socket threat-feed API
+  label: Socket Threat Feed API
   slug: socket-threat-feed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-threat-feed-api-openapi.yml
 - filename: socket-triage-api-openapi.yml
   format: yaml
-  label: Socket triage API
+  label: Socket Triage API
   slug: socket-triage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-triage-api-openapi.yml
 - filename: socket-webhooks-api-openapi.yml
   format: yaml
-  label: Socket webhooks API
+  label: Socket Webhooks API
   slug: socket-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-webhooks-api-openapi.yml

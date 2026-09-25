@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: coperniq-accounts-api-openapi.yml
   format: yaml
-  label: Coperniq accounts API
+  label: Coperniq Accounts API
   slug: coperniq-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-accounts-api-openapi.yml
@@ -17,133 +17,133 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-ahjs-api-openapi.yml
 - filename: coperniq-appointments-api-openapi.yml
   format: yaml
-  label: Coperniq appointments API
+  label: Coperniq Appointments API
   slug: coperniq-appointments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-appointments-api-openapi.yml
 - filename: coperniq-assets-api-openapi.yml
   format: yaml
-  label: Coperniq assets API
+  label: Coperniq Assets API
   slug: coperniq-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-assets-api-openapi.yml
 - filename: coperniq-authentication-api-openapi.yml
   format: yaml
-  label: Coperniq authentication API
+  label: Coperniq Authentication API
   slug: coperniq-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-authentication-api-openapi.yml
 - filename: coperniq-bills-api-openapi.yml
   format: yaml
-  label: Coperniq bills API
+  label: Coperniq Bills API
   slug: coperniq-bills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-bills-api-openapi.yml
 - filename: coperniq-calls-api-openapi.yml
   format: yaml
-  label: Coperniq calls API
+  label: Coperniq Calls API
   slug: coperniq-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-calls-api-openapi.yml
 - filename: coperniq-contacts-api-openapi.yml
   format: yaml
-  label: Coperniq contacts API
+  label: Coperniq Contacts API
   slug: coperniq-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-contacts-api-openapi.yml
 - filename: coperniq-files-api-openapi.yml
   format: yaml
-  label: Coperniq files API
+  label: Coperniq Files API
   slug: coperniq-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-files-api-openapi.yml
 - filename: coperniq-forms-api-openapi.yml
   format: yaml
-  label: Coperniq forms API
+  label: Coperniq Forms API
   slug: coperniq-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-forms-api-openapi.yml
 - filename: coperniq-invoices-api-openapi.yml
   format: yaml
-  label: Coperniq invoices API
+  label: Coperniq Invoices API
   slug: coperniq-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-invoices-api-openapi.yml
 - filename: coperniq-labels-api-openapi.yml
   format: yaml
-  label: Coperniq labels API
+  label: Coperniq Labels API
   slug: coperniq-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-labels-api-openapi.yml
 - filename: coperniq-notes-api-openapi.yml
   format: yaml
-  label: Coperniq notes API
+  label: Coperniq Notes API
   slug: coperniq-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-notes-api-openapi.yml
 - filename: coperniq-opportunities-api-openapi.yml
   format: yaml
-  label: Coperniq opportunities API
+  label: Coperniq Opportunities API
   slug: coperniq-opportunities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-opportunities-api-openapi.yml
 - filename: coperniq-payments-api-openapi.yml
   format: yaml
-  label: Coperniq payments API
+  label: Coperniq Payments API
   slug: coperniq-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-payments-api-openapi.yml
 - filename: coperniq-projects-api-openapi.yml
   format: yaml
-  label: Coperniq projects API
+  label: Coperniq Projects API
   slug: coperniq-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-projects-api-openapi.yml
 - filename: coperniq-properties-api-openapi.yml
   format: yaml
-  label: Coperniq properties API
+  label: Coperniq Properties API
   slug: coperniq-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-properties-api-openapi.yml
 - filename: coperniq-quotes-api-openapi.yml
   format: yaml
-  label: Coperniq quotes API
+  label: Coperniq Quotes API
   slug: coperniq-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-quotes-api-openapi.yml
 - filename: coperniq-reminders-api-openapi.yml
   format: yaml
-  label: Coperniq reminders API
+  label: Coperniq Reminders API
   slug: coperniq-reminders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-reminders-api-openapi.yml
 - filename: coperniq-sites-api-openapi.yml
   format: yaml
-  label: Coperniq sites API
+  label: Coperniq Sites API
   slug: coperniq-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-sites-api-openapi.yml
 - filename: coperniq-taxes-api-openapi.yml
   format: yaml
-  label: Coperniq taxes API
+  label: Coperniq Taxes API
   slug: coperniq-taxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-taxes-api-openapi.yml
 - filename: coperniq-users-api-openapi.yml
   format: yaml
-  label: Coperniq users API
+  label: Coperniq Users API
   slug: coperniq-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-users-api-openapi.yml
 - filename: coperniq-vendors-api-openapi.yml
   format: yaml
-  label: Coperniq vendors API
+  label: Coperniq Vendors API
   slug: coperniq-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-vendors-api-openapi.yml
 - filename: coperniq-workflows-api-openapi.yml
   format: yaml
-  label: Coperniq workflows API
+  label: Coperniq Workflows API
   slug: coperniq-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-workflows-api-openapi.yml

@@ -34,11 +34,11 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Banking
-- Financial-Services
+- Financial Services
 - Compliance
 - Financial Crime
 - RegTech
-- Anti-Money Laundering
+- AML
 - KYC
 - Fraud
 - Back Office

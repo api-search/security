@@ -722,7 +722,7 @@ summary_line: trust center published
 tags:
 - Infrastructure
 - Cloud Operations
-- Data-Center
+- Data Center
 - Compute
 - Networking
 - Enterprise

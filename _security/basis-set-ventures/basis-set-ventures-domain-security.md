@@ -34,7 +34,7 @@ tags:
 - Company
 - Venture Capital
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Seed Stage
 - Early Stage
 - AI Infrastructure

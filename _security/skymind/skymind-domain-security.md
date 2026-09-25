@@ -52,7 +52,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Simulation
 - Optimization

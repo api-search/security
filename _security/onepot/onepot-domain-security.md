@@ -37,7 +37,7 @@ tags:
 - Small Molecule Synthesis
 - Contract Research Organization
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Lab Automation
 - Life Sciences
 ---

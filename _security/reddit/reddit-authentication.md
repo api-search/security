@@ -105,8 +105,8 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Reddit
 - Advertising
-- Communities
+- Community
 - Content
-- Social-Media
+- Social Media
 - Social News
 ---

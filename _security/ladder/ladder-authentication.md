@@ -38,7 +38,7 @@ tags:
 - Life Insurance
 - Embedded Finance
 - Embedded Insurance
-- Financial-Services
+- Financial Services
 - Fintech
 - Quoting
 ---

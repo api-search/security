@@ -2,60 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: workable-jobs-api-openapi.yml
-  format: yaml
-  label: Workable Jobs API
-  slug: workable-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-jobs-api-openapi.yml
-- filename: workable-candidates-api-openapi.yml
-  format: yaml
-  label: Workable Candidates API
-  slug: workable-candidates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-candidates-api-openapi.yml
-- filename: workable-stages-api-openapi.yml
-  format: yaml
-  label: Workable Stages API
-  slug: workable-stages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-stages-api-openapi.yml
-- filename: workable-members-api-openapi.yml
-  format: yaml
-  label: Workable Members API
-  slug: workable-members-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-members-api-openapi.yml
-- filename: workable-recruiters-api-openapi.yml
-  format: yaml
-  label: Workable Recruiters API
-  slug: workable-recruiters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-recruiters-api-openapi.yml
-- filename: workable-departments-api-openapi.yml
-  format: yaml
-  label: Workable Departments API
-  slug: workable-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-departments-api-openapi.yml
-- filename: workable-custom-attributes-api-openapi.yml
-  format: yaml
-  label: Workable Custom Attributes API
-  slug: workable-custom-attributes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-custom-attributes-api-openapi.yml
-- filename: workable-offers-api-openapi.yml
-  format: yaml
-  label: Workable Offers API
-  slug: workable-offers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-offers-api-openapi.yml
-- filename: workable-events-api-openapi.yml
-  format: yaml
-  label: Workable Events API
-  slug: workable-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/openapi/workable-events-api-openapi.yml
 - filename: workable-accounts-api-openapi.yml
   format: yaml
   label: Workable Accounts API
@@ -184,7 +130,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workable/refs/
 summary_line: http · 1 scheme
 tags:
 - Human Resources
-- ATS
+- Applicant Tracking
 - Recruiting
 - Sourcing
 - Video Interviews

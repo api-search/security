@@ -40,6 +40,6 @@ tags:
 - Cloud-Native
 - Containers
 - Kubernetes
-- Open-Source
+- Open Source
 - Standards
 ---

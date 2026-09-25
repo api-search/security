@@ -161,5 +161,6 @@ tags:
 - Hourly Workers
 - Labor Forecasting
 - Human Resources
+- Scheduling
 trust_url: https://trust.wheniwork.com/
 ---

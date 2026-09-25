@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Verification
 - Formal Methods
-- Machine-Learning
+- Machine Learning
 - Research
 - Compilers
 - LLM

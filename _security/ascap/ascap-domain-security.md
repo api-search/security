@@ -33,6 +33,6 @@ tags:
 - Music
 - Licensing
 - Royalties
-- Nonprofit
+- Non-Profit
 - Creators
 ---

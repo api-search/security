@@ -39,7 +39,7 @@ tags:
 - Life Sciences
 - Chemistry
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Drug Discovery
 - Research and Development
 ---

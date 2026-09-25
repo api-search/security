@@ -131,7 +131,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/re
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Generative AI
 - Creative

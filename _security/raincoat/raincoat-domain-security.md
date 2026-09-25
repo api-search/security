@@ -38,7 +38,7 @@ tags:
 - Climate
 - Natural Disasters
 - Embedded Insurance
-- Financial-Services
-- Risk
+- Financial Services
+- Risk Management
 - Geospatial Data
 ---

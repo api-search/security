@@ -72,7 +72,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Inference
-- Open-Source
+- Open Source
 - Alibaba
 - Multi-Modal
 ---

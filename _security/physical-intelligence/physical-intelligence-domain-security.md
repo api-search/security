@@ -37,7 +37,7 @@ tags:
 - Embodied AI
 - Reinforcement Learning
 - Imitation Learning
-- Open-Source
+- Open Source
 - Open Weights
 - pi0
 - openpi

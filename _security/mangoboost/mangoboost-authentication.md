@@ -29,9 +29,9 @@ summary_line: 0 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infrastructure
-- Data-Center
+- Data Center
 - Semiconductors
 - Hardware
 - Storage

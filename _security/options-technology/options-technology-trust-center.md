@@ -18,7 +18,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nurl: https://www.option
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/security/options-technology-trust-center.yml
 summary_line: trust center published
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Streaming

@@ -34,10 +34,10 @@ tags:
 - Company
 - Dev Tools Ai
 - Robotics
-- Computer-Vision
+- Computer Vision
 - Physical AI
 - Data Visualization
 - SDK
-- Open-Source
+- Open Source
 - MCP
 ---

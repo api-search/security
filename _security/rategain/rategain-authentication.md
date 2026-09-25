@@ -66,7 +66,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Hospitality
-- TravelTech
-- SaaS
-- RevenueManagement
+- Travel Tech
+- Software-as-a-Service
+- Revenue Management
 ---

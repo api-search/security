@@ -102,7 +102,7 @@ tags:
 - Company
 - Alternative Investments
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Fintech
 - Private Markets
 - Asset Management

@@ -34,7 +34,7 @@ tags:
 - Containers
 - Linux
 - OCI
-- Open-Source
+- Open Source
 - CNCF
 - Open Container Initiative
 - Cloud-Native

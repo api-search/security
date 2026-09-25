@@ -82,11 +82,11 @@ tags:
 - AI Agents
 - MCP
 - A2A
-- Agent Payments
+- Agentic Payments
 - Auctions
 - Mechanism Design
 - Pricing Optimization
 - Artificial Intelligence
-- agent-native
+- Agent-Native
 - Developer Tools
 ---

@@ -41,7 +41,7 @@ tags:
 - Theorem Proving
 - Developer Tools
 - Code Analysis
-- Financial-Services
+- Financial Services
 - gRPC
 - MCP
 ---

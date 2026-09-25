@@ -36,6 +36,6 @@ tags:
 - Fuel Cells
 - On-Site Power
 - Backup Power
-- Data-Center
+- Data Center
 - Clean Energy
 ---

@@ -188,6 +188,84 @@ api_specs:
   slug: pingcap-trends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-trends-api-openapi.yml
+- filename: tidb-chat2data-api-openapi.yml
+  format: yaml
+  label: tidb Chat2Data API
+  slug: tidb-chat2data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-chat2data-api-openapi.yml
+- filename: tidb-data-summaries-api-openapi.yml
+  format: yaml
+  label: tidb Data Summaries API
+  slug: tidb-data-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-data-summaries-api-openapi.yml
+- filename: tidb-ddl-api-openapi.yml
+  format: yaml
+  label: tidb DDL API
+  slug: tidb-ddl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-ddl-api-openapi.yml
+- filename: tidb-diagnostics-api-openapi.yml
+  format: yaml
+  label: tidb Diagnostics API
+  slug: tidb-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-diagnostics-api-openapi.yml
+- filename: tidb-mvcc-api-openapi.yml
+  format: yaml
+  label: tidb MVCC API
+  slug: tidb-mvcc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-mvcc-api-openapi.yml
+- filename: tidb-schema-api-openapi.yml
+  format: yaml
+  label: tidb Schema API
+  slug: tidb-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-schema-api-openapi.yml
+- filename: tidb-sessions-api-openapi.yml
+  format: yaml
+  label: tidb Sessions API
+  slug: tidb-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-sessions-api-openapi.yml
+- filename: tidb-settings-api-openapi.yml
+  format: yaml
+  label: tidb Settings API
+  slug: tidb-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-settings-api-openapi.yml
+- filename: tidb-sql-refinement-api-openapi.yml
+  format: yaml
+  label: tidb SQL Refinement API
+  slug: tidb-sql-refinement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-sql-refinement-api-openapi.yml
+- filename: tidb-statistics-api-openapi.yml
+  format: yaml
+  label: tidb Statistics API
+  slug: tidb-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-statistics-api-openapi.yml
+- filename: tidb-status-api-openapi.yml
+  format: yaml
+  label: tidb Status API
+  slug: tidb-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/tidb-status-api-openapi.yml
+- filename: tidb-cloud-premium-v1beta2-openapi-original.json
+  format: json
+  label: TiDB Cloud Premium API
+  slug: tidb-cloud-premium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/_original/tidb-cloud-premium-v1beta2-openapi-original.json
+- filename: tidb-cloud-msp-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud MSP API
+  slug: tidb-cloud-msp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/_original/tidb-cloud-msp-v1beta1-openapi-original.json
 auth_types:
 - http
 description: ''
@@ -272,6 +350,6 @@ tags:
 - Vector Search
 - Data Migration
 - Change Data Capture
-- Open-Source
+- Open Source
 - Infrastructure
 ---

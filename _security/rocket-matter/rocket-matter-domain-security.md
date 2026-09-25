@@ -296,8 +296,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- LegalTech
-- SaaS
-- PracticeManagement
+- Legal Tech
+- Software-as-a-Service
+- Practice Management
 - Cloud
 ---

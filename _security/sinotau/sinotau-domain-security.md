@@ -35,7 +35,7 @@ tags:
 - Radiopharmaceuticals
 - Nuclear Medicine
 - Healthcare
-- Biotech
+- Biotechnology
 - Oncology
 - China
 ---

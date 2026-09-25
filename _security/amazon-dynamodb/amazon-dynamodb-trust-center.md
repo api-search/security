@@ -55,7 +55,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Database
 - Document Store
-- Key-Value
+- Key-Value Store
 - NoSQL
 - Serverless
 trust_url: https://aws.amazon.com/compliance/

@@ -65,4 +65,5 @@ tags:
 - SOC Automation
 - Threat Detection
 - MCP
+- A2A
 ---

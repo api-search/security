@@ -17,8 +17,8 @@ layout: security
 method: probed
 name: Cdi Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CDI Corp, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: CDI Corp
+overview: 'Domain security posture for CDI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: CDI
 provider_slug: cdi-corp
 slug: cdi-corp-domain-security
 source_filename: cdi-corp-domain-security.yml

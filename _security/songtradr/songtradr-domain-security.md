@@ -60,7 +60,7 @@ tags:
 - Music Metadata
 - audio-tagging
 - Semantic Search
-- Machine-Learning
+- Machine Learning
 - Media
 - Entertainment
 - Rights Management

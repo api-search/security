@@ -77,7 +77,7 @@ tags:
 - Authentication
 - Authorization
 - Identity Management
-- Open-Source
+- Open Source
 - OIDC
 - Identity Federation
 ---

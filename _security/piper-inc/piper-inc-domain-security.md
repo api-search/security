@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Piper Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Piper Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Piper Inc.
+overview: 'Domain security posture for Piper, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Piper
 provider_slug: piper-inc
 slug: piper-inc-domain-security
 source_filename: piper-inc-domain-security.yml

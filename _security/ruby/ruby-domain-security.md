@@ -113,6 +113,6 @@ tags:
 - REST
 - API Client
 - Framework
-- Libraries
+- Library
 - Package Registry
 ---

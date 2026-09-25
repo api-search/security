@@ -38,6 +38,6 @@ tags:
 - Home Loans
 - Refinance
 - Home Equity
-- Real-Estate
+- Real Estate
 - Fintech
 ---

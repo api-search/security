@@ -387,13 +387,14 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/authentication/bindbee-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
-- ATS
+- Applicant Tracking
 - HR Integration
 - HRIS
 - Workforce
-- Unified-API
+- Unified API
 - Payroll
 - LMS
 - Employee Data
 - Integration
+- A2A
 ---

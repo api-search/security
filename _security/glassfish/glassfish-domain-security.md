@@ -33,7 +33,7 @@ tags:
 - Application Server
 - Jakarta EE
 - Java EE
-- Open-Source
+- Open Source
 - Eclipse Foundation
 - Servlet Container
 - Reference Implementation

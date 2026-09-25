@@ -101,7 +101,7 @@ tags:
 - Spatial Data
 - GIS
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Analysis-ready data
 - Spatial Tokens
 - Sentinel-2

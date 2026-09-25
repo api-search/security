@@ -32,7 +32,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Manufacturing
-- Machine-Learning
+- Machine Learning
 - Predictive Quality
 - Defect Detection
 - Industrial

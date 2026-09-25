@@ -33,11 +33,11 @@ tags:
 - AI Launcher
 - AI Browser
 - Local AI
-- Open-Source
+- Open Source
 - Desktop Application
 - Script Runner
 - One-Click Install
-- Image-Generation
+- Image Generation
 - Video Generation
 - LLM
 - Text-to-Speech

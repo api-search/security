@@ -42,10 +42,10 @@ tags:
 - Mortgage Servicing
 - Loss Mitigation
 - Default Servicing
-- Financial-Services
+- Financial Services
 - Fintech
-- Real-Estate
-- Workflow-Automation
+- Real Estate
+- Workflow Automation
 - Acquired
 - Defunct
 ---

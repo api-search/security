@@ -29,9 +29,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/security/zerobounce-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
-- Email Validation
-- Email Deliverability
 - Email Verification
+- Email Deliverability
 - Marketing
 - Lead Scoring
 - Anti-Spam
@@ -39,5 +38,6 @@ tags:
 - Email Finder
 - Deliverability Monitoring
 - DMARC
+- Email
 trust_url: https://trust.zerobounce.net/
 ---

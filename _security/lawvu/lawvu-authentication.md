@@ -213,7 +213,7 @@ tags:
 - Legal Operations
 - Contract Lifecycle Management
 - Matter Management
-- Document-Management
+- Document Management
 - Spend Management
 - Software-as-a-Service
 - Workflows

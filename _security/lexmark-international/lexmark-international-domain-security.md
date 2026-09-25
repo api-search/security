@@ -50,6 +50,6 @@ tags:
 - Imaging
 - IoT
 - Managed Print Services
-- Document-Management
+- Document Management
 - Fortune 1000
 ---

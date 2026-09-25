@@ -41,7 +41,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - United States
 - Banking
-- Financial-Services
+- Financial Services
 - Treasury Management
 - API Banking
 - ACH

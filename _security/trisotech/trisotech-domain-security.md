@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Process Management
 - Decision Management
-- Workflow-Automation
+- Workflow Automation
 - Low-Code
 - BPMN
 - DMN

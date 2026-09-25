@@ -2,25 +2,25 @@
 api_specs:
 - filename: zippykid-account-api-openapi.yml
   format: yaml
-  label: ZippyKid account API
+  label: ZippyKid Account API
   slug: zippykid-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-account-api-openapi.yml
 - filename: zippykid-activity-api-openapi.yml
   format: yaml
-  label: ZippyKid activity API
+  label: ZippyKid Activity API
   slug: zippykid-activity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-activity-api-openapi.yml
 - filename: zippykid-auth-api-openapi.yml
   format: yaml
-  label: ZippyKid auth API
+  label: ZippyKid Auth API
   slug: zippykid-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-auth-api-openapi.yml
 - filename: zippykid-collaborators-api-openapi.yml
   format: yaml
-  label: ZippyKid collaborators API
+  label: ZippyKid Collaborators API
   slug: zippykid-collaborators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-collaborators-api-openapi.yml
@@ -32,19 +32,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-http-api-openapi.yml
 - filename: zippykid-mu-plugins-api-openapi.yml
   format: yaml
-  label: ZippyKid mu-plugins API
+  label: ZippyKid Mu Plugins API
   slug: zippykid-mu-plugins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-mu-plugins-api-openapi.yml
 - filename: zippykid-sites-api-openapi.yml
   format: yaml
-  label: ZippyKid sites API
+  label: ZippyKid Sites API
   slug: zippykid-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-sites-api-openapi.yml
 - filename: zippykid-zones-api-openapi.yml
   format: yaml
-  label: ZippyKid zones API
+  label: ZippyKid Zones API
   slug: zippykid-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-zones-api-openapi.yml

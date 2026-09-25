@@ -59,4 +59,5 @@ tags:
 - Historical Data
 - Kalshi
 - Polymarket
+- Real-Time
 ---

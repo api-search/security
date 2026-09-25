@@ -20,13 +20,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessments-api-openapi.yml
 - filename: synack-asset-relationships-api-openapi.yml
   format: yaml
-  label: Synack asset-relationships API
+  label: Synack Asset Relationships API
   slug: synack-asset-relationships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-asset-relationships-api-openapi.yml
 - filename: synack-assetproviders-api-openapi.yml
   format: yaml
-  label: Synack assetproviders API
+  label: Synack Assetproviders API
   slug: synack-assetproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assetproviders-api-openapi.yml
@@ -44,19 +44,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-comments-api-openapi.yml
 - filename: synack-credentials-api-openapi.yml
   format: yaml
-  label: Synack credentials API
+  label: Synack Credentials API
   slug: synack-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-credentials-api-openapi.yml
 - filename: synack-external-relationships-api-openapi.yml
   format: yaml
-  label: Synack external-relationships API
+  label: Synack External Relationships API
   slug: synack-external-relationships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-external-relationships-api-openapi.yml
 - filename: synack-health-api-openapi.yml
   format: yaml
-  label: Synack health API
+  label: Synack Health API
   slug: synack-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-health-api-openapi.yml
@@ -104,7 +104,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tests-api-openapi.yml
 - filename: synack-users-api-openapi.yml
   format: yaml
-  label: Synack users API
+  label: Synack Users API
   slug: synack-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-users-api-openapi.yml

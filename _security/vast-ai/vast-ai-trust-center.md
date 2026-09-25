@@ -87,7 +87,7 @@ tags:
 - Cloud
 - Compute
 - GPU
-- Machine-Learning
+- Machine Learning
 - Marketplace
 - Serverless
 trust_url: https://vast.ai/compliance

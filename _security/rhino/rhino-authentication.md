@@ -89,7 +89,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Insurance
 - Insurtech
-- Real-Estate
+- Real Estate
 - Property Management
 - Rentals
 - Security Deposits

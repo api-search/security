@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imaginode/refs
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Text-to-Speech
 - MCP

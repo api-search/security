@@ -70,6 +70,6 @@ tags:
 - Agent Training
 - Reinforcement Learning
 - White Label
-- Open-Source
+- Open Source
 - Strata
 ---

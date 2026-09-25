@@ -5,55 +5,55 @@ api_key_in:
 api_specs:
 - filename: laka-accounts-api-openapi.yml
   format: yaml
-  label: Laka accounts API
+  label: Laka Accounts API
   slug: laka-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-accounts-api-openapi.yml
 - filename: laka-claims-api-openapi.yml
   format: yaml
-  label: Laka claims API
+  label: Laka Claims API
   slug: laka-claims-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-claims-api-openapi.yml
 - filename: laka-deeplinks-api-openapi.yml
   format: yaml
-  label: Laka deeplinks API
+  label: Laka Deeplinks API
   slug: laka-deeplinks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-deeplinks-api-openapi.yml
 - filename: laka-fleets-api-openapi.yml
   format: yaml
-  label: Laka fleets API
+  label: Laka Fleets API
   slug: laka-fleets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-fleets-api-openapi.yml
 - filename: laka-policies-api-openapi.yml
   format: yaml
-  label: Laka policies API
+  label: Laka Policies API
   slug: laka-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-policies-api-openapi.yml
 - filename: laka-quote-api-openapi.yml
   format: yaml
-  label: Laka quote API
+  label: Laka Quote API
   slug: laka-quote-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-quote-api-openapi.yml
 - filename: laka-quotes-api-openapi.yml
   format: yaml
-  label: Laka quotes API
+  label: Laka Quotes API
   slug: laka-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-quotes-api-openapi.yml
 - filename: laka-reporting-api-openapi.yml
   format: yaml
-  label: Laka reporting API
+  label: Laka Reporting API
   slug: laka-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-reporting-api-openapi.yml
 - filename: laka-tasks-api-openapi.yml
   format: yaml
-  label: Laka tasks API
+  label: Laka Tasks API
   slug: laka-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/openapi/laka-tasks-api-openapi.yml

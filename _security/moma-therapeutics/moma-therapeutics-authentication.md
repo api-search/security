@@ -1,67 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: moma-therapeutics-posts-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Content Posts API
-  slug: moma-therapeutics-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-posts-api-openapi.yml
-- filename: moma-therapeutics-pages-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Content Pages API
-  slug: moma-therapeutics-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-pages-api-openapi.yml
-- filename: moma-therapeutics-team-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Team API
-  slug: moma-therapeutics-team-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-team-api-openapi.yml
-- filename: moma-therapeutics-media-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Media API
-  slug: moma-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-media-api-openapi.yml
-- filename: moma-therapeutics-taxonomy-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Taxonomy API
-  slug: moma-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-taxonomy-api-openapi.yml
-- filename: moma-therapeutics-discovery-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Discovery API
-  slug: moma-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-discovery-api-openapi.yml
-- filename: moma-therapeutics-search-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Search API
-  slug: moma-therapeutics-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-search-api-openapi.yml
-- filename: moma-therapeutics-comments-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Comments API
-  slug: moma-therapeutics-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-comments-api-openapi.yml
-- filename: moma-therapeutics-options-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics Site Options API
-  slug: moma-therapeutics-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-options-api-openapi.yml
-- filename: moma-therapeutics-o-embed-api-openapi.yml
-  format: yaml
-  label: MOMA Therapeutics o Embed API
-  slug: moma-therapeutics-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/openapi/moma-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -95,6 +34,6 @@ tags:
 - Precision Medicine
 - Life Sciences
 - Structural Biology
-- Machine-Learning
+- Machine Learning
 - content-api
 ---

@@ -49,5 +49,5 @@ tags:
 - Stablecoins
 - Cryptocurrency
 - Payments
-- Financial-Services
+- Financial Services
 ---

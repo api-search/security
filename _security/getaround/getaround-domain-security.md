@@ -37,4 +37,5 @@ tags:
 - Fleet Management
 - Peer-to-Peer
 - Discontinued
+- Defunct
 ---

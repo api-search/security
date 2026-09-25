@@ -75,7 +75,7 @@ tags:
 - Agent Discovery
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Cloud Infrastructure
 - Terraform
 - Infrastructure as Code
@@ -84,6 +84,6 @@ tags:
 - Distributed Ledger
 - Hyperledger Fabric
 - Insurance
-- Financial-Services
-- Open-Source
+- Financial Services
+- Open Source
 ---

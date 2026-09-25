@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Internet
 - Networks
-- Data-Center
+- Data Center
 - Telecommunications
 - Colocation
 - Bandwidth

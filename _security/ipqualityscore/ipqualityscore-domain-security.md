@@ -70,6 +70,6 @@ tags:
 - Fraud Prevention
 - IP Reputation
 - Proxy Detection
-- Email Validation
+- Email Verification
 - Threat Intelligence
 ---

@@ -52,8 +52,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Datasets
-- Machine-Learning
+- Machine Learning
 - Python SDK
 ---

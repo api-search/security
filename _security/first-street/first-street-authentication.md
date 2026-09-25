@@ -79,12 +79,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-street/r
 summary_line: apiKey/http · 2 schemes
 tags:
 - Climate
-- Risk
+- Risk Management
 - Environment
 - Modeling
 - Geospatial
 - Insurance
-- Real-Estate
+- Real Estate
 - Data
 - GraphQL
 - Mapping

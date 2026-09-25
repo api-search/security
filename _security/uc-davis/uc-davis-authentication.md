@@ -124,5 +124,5 @@ tags:
 - Digital Collections
 - Library
 - Health
-- Open-Source
+- Open Source
 ---

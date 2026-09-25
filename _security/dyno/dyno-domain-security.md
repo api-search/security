@@ -158,13 +158,13 @@ tags:
 - Gene Delivery
 - AAV Capsid
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Drug Discovery
 - Healthcare
 - Protein Design
 - Protein Structure Prediction
 - Bioinformatics
 - Computational Biology
-- Agentic AI
+- AI Agents
 - Life Sciences
 ---

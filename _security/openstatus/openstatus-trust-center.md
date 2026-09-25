@@ -54,7 +54,7 @@ tags:
 - Uptime
 - Status Pages
 - Incidents
-- Open-Source
+- Open Source
 - Observability
 trust_url: https://www.openstatus.dev/security
 ---

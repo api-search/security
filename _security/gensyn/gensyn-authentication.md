@@ -43,7 +43,7 @@ summary_line: apiKey/wallet-signing · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Decentralized Compute
 - Blockchain
 - Prediction Markets

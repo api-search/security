@@ -55,7 +55,7 @@ tags:
 - EHR
 - Artificial Intelligence
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Risk Adjustment
 - Prior Authorization
 - HIPAA

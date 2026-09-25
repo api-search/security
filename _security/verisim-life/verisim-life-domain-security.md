@@ -38,5 +38,5 @@ tags:
 - Life Sciences
 - Pharmaceuticals
 - Biosimulation
-- Machine-Learning
+- Machine Learning
 ---

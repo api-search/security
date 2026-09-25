@@ -137,7 +137,7 @@ tags:
 - Video
 - Physical Security
 - Surveillance
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Camera
 - Analytics

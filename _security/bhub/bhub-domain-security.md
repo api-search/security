@@ -38,5 +38,5 @@ tags:
 - Brazil
 - Tax
 - SMB
-- Financial-Services
+- Financial Services
 ---

@@ -146,7 +146,7 @@ tags:
 - Deliverability
 - CRM
 - Multi-tenant SaaS
-- agent-native
+- Agent-Native
 - MCP
 - Web3 payments
 - x402

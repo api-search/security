@@ -99,7 +99,7 @@ tags:
 - Document Store
 - JSON
 - NoSQL
-- Open-Source
+- Open Source
 - Replication
 - REST
 ---

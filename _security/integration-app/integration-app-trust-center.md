@@ -286,6 +286,7 @@ tags:
 - Integration Marketplace
 - MCP
 - Self-Hosting
-- Unified-API
+- Unified API
+- A2A
 trust_url: https://trust.getmembrane.com/
 ---

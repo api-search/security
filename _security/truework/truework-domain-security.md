@@ -2,25 +2,25 @@
 api_specs:
 - filename: truework-subpackage-orders-api-openapi.yml
   format: yaml
-  label: Truework subpackage_orders API
+  label: Truework Subpackage Orders API
   slug: truework-subpackage-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-orders-api-openapi.yml
 - filename: truework-subpackage-qualificationchecks-api-openapi.yml
   format: yaml
-  label: Truework subpackage_qualificationChecks API
+  label: Truework Subpackage Qualification Checks API
   slug: truework-subpackage-qualificationchecks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-qualificationchecks-api-openapi.yml
 - filename: truework-subpackage-reports-api-openapi.yml
   format: yaml
-  label: Truework subpackage_reports API
+  label: Truework Subpackage Reports API
   slug: truework-subpackage-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-reports-api-openapi.yml
 - filename: truework-subpackage-tenantproperties-api-openapi.yml
   format: yaml
-  label: Truework subpackage_tenantProperties API
+  label: Truework Subpackage Tenant Properties API
   slug: truework-subpackage-tenantproperties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-tenantproperties-api-openapi.yml

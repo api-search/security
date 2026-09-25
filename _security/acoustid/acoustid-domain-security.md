@@ -39,6 +39,6 @@ tags:
 - Fingerprinting
 - Music
 - MusicBrainz
-- Open-Source
+- Open Source
 - Identification
 ---

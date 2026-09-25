@@ -36,7 +36,7 @@ tags:
 - Dictation
 - Speech-to-Text
 - Artificial Intelligence
-- Open-Source
+- Open Source
 - Healthcare
 - Pathology
 - Productivity

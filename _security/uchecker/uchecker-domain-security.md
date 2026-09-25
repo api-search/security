@@ -60,6 +60,6 @@ tags:
 - DKIM
 - DMARC
 - MCP
-- agent-native
+- Agent-Native
 - Data Quality
 ---

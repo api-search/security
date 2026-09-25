@@ -44,9 +44,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Data Curation
-- Machine-Learning
+- Machine Learning
 - Visual Inspection
 - Data Explorer
 - MLOps

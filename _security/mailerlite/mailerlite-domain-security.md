@@ -96,4 +96,5 @@ tags:
 - Segmentation
 - Transactional Email
 - MCP
+- Email
 ---

@@ -255,8 +255,8 @@ layout: security
 method: probed
 name: Lucidya Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Lucidya Ltd, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: Lucidya Ltd
+overview: 'Domain security posture for Lucidya, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Lucidya
 provider_slug: lucidya-ltd
 slug: lucidya-ltd-domain-security
 source_filename: lucidya-ltd-domain-security.yml

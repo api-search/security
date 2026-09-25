@@ -69,7 +69,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/authentication/amazon-msk-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Streaming
+- Kafka
+- Apache Kafka
+- Event Streaming
+- Data Pipeline
 ---

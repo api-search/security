@@ -68,12 +68,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spade/refs/hea
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Transaction Enrichment
 - Merchant Intelligence
 - Payments
 - Data Enrichment
 - Fraud and Risk
 - Fintech
+- A2A
 trust_url: https://www.spade.com/security
 ---

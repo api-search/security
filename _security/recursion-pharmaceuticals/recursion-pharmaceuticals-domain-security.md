@@ -32,14 +32,14 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Drug Discovery
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Phenomics
 - Cellular Imaging
 - Transcriptomics
 - Proteomics
 - Chemistry
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Open Datasets
 - Open Source Models

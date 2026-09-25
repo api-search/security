@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-feed-api-openapi.yml
 - filename: neynar-fname-api-openapi.yml
   format: yaml
-  label: Neynar fname API
+  label: Neynar Fname API
   slug: neynar-fname-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-fname-api-openapi.yml
@@ -134,13 +134,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-onchainevents-api-openapi.yml
 - filename: neynar-organization-api-openapi.yml
   format: yaml
-  label: Neynar organization API
+  label: Neynar Organization API
   slug: neynar-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-organization-api-openapi.yml
 - filename: neynar-portal-api-openapi.yml
   format: yaml
-  label: Neynar portal API
+  label: Neynar Portal API
   slug: neynar-portal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-portal-api-openapi.yml
@@ -170,7 +170,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-storage-api-openapi.yml
 - filename: neynar-studio-api-openapi.yml
   format: yaml
-  label: Neynar studio API
+  label: Neynar Studio API
   slug: neynar-studio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-studio-api-openapi.yml
@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-subscribers-api-openapi.yml
 - filename: neynar-subscription-api-openapi.yml
   format: yaml
-  label: Neynar subscription API
+  label: Neynar Subscription API
   slug: neynar-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-subscription-api-openapi.yml

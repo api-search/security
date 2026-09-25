@@ -38,7 +38,7 @@ tags:
 - AI Coding Agents
 - Framework
 - SDK
-- Open-Source
+- Open Source
 - Desktop Application
 - Y Combinator
 ---

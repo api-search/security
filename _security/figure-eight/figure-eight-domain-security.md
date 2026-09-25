@@ -128,7 +128,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data Labeling
 - Data Annotation
 - Training Data

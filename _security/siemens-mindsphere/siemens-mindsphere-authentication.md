@@ -36,8 +36,8 @@ method: derived
 name: Siemens Mindsphere Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Siemens MindSphere secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Siemens MindSphere
+overview: Siemens Insights Hub (MindSphere) secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Siemens Insights Hub (MindSphere)
 provider_slug: siemens-mindsphere
 scheme_count: 1
 schemes:

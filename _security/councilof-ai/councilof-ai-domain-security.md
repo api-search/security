@@ -32,8 +32,8 @@ layout: security
 method: probed
 name: Councilof Ai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CSOAI Ltd, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: CSOAI Ltd
+overview: 'Domain security posture for Council of AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Council of AI
 provider_slug: councilof-ai
 slug: councilof-ai-domain-security
 source_filename: councilof-ai-domain-security.yml
@@ -54,6 +54,6 @@ tags:
 - MCP
 - x402
 - Agentic Commerce
-- agent-native
+- Agent-Native
 - United Kingdom
 ---

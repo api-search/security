@@ -76,4 +76,5 @@ tags:
 - MCP
 - Agents
 - Sales Automation
+- A2A
 ---

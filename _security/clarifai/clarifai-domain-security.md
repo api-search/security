@@ -48,13 +48,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - NLP
 - Image Recognition
 - Object Detection
 - Text Analysis
 - Visual Search
-- Machine-Learning
+- Machine Learning
 - Custom Model Training
 - gRPC
 ---

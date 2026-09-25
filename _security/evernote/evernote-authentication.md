@@ -44,7 +44,7 @@ tags:
 - Company
 - Note Taking
 - Productivity
-- Knowledge-Management
+- Knowledge Management
 - Notes
 - Content
 - Software-as-a-Service

@@ -38,6 +38,6 @@ tags:
 - MLOps
 - Analytics Engineering
 - Developer Tools
-- Open-Source
+- Open Source
 - Artificial Intelligence
 ---

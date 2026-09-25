@@ -35,7 +35,7 @@ tags:
 - Southeast Asia
 - E-Commerce
 - Digital Entertainment
-- Financial-Services
+- Financial Services
 - Shopee
 - Garena
 - SeaMoney

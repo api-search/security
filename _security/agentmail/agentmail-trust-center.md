@@ -2,31 +2,31 @@
 api_specs:
 - filename: agentmail-agent-api-openapi.yml
   format: yaml
-  label: AgentMail agent API
+  label: AgentMail Agent API
   slug: agentmail-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-agent-api-openapi.yml
 - filename: agentmail-api-keys-api-openapi.yml
   format: yaml
-  label: AgentMail api-keys API
+  label: AgentMail API Keys API
   slug: agentmail-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-api-keys-api-openapi.yml
 - filename: agentmail-auth-api-openapi.yml
   format: yaml
-  label: AgentMail auth API
+  label: AgentMail Auth API
   slug: agentmail-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-auth-api-openapi.yml
 - filename: agentmail-domains-api-openapi.yml
   format: yaml
-  label: AgentMail domains API
+  label: AgentMail Domains API
   slug: agentmail-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-domains-api-openapi.yml
 - filename: agentmail-drafts-api-openapi.yml
   format: yaml
-  label: AgentMail drafts API
+  label: AgentMail Drafts API
   slug: agentmail-drafts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-drafts-api-openapi.yml
@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-api-keys-api-openapi.yml
 - filename: agentmail-inboxes-api-openapi.yml
   format: yaml
-  label: AgentMail inboxes API
+  label: AgentMail Inboxes API
   slug: agentmail-inboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-api-openapi.yml
@@ -86,19 +86,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-webhooks-api-openapi.yml
 - filename: agentmail-lists-api-openapi.yml
   format: yaml
-  label: AgentMail lists API
+  label: AgentMail Lists API
   slug: agentmail-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-lists-api-openapi.yml
 - filename: agentmail-metrics-api-openapi.yml
   format: yaml
-  label: AgentMail metrics API
+  label: AgentMail Metrics API
   slug: agentmail-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-metrics-api-openapi.yml
 - filename: agentmail-organizations-api-openapi.yml
   format: yaml
-  label: AgentMail organizations API
+  label: AgentMail Organizations API
   slug: agentmail-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-organizations-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-api-keys-api-openapi.yml
 - filename: agentmail-pods-api-openapi.yml
   format: yaml
-  label: AgentMail pods API
+  label: AgentMail Pods API
   slug: agentmail-pods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-api-openapi.yml
@@ -158,13 +158,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-webhooks-api-openapi.yml
 - filename: agentmail-threads-api-openapi.yml
   format: yaml
-  label: AgentMail threads API
+  label: AgentMail Threads API
   slug: agentmail-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-threads-api-openapi.yml
 - filename: agentmail-webhooks-api-openapi.yml
   format: yaml
-  label: AgentMail webhooks API
+  label: AgentMail Webhooks API
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-webhooks-api-openapi.yml
@@ -205,7 +205,7 @@ tags:
 - SMTP
 - IMAP
 - MCP
-- Agentic
 - Developer Tools
+- Real-Time
 trust_url: https://docs.agentmail.to/documentation/resources/security-privacy/soc-2-compliance
 ---

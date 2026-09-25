@@ -115,6 +115,6 @@ tags:
 - Content Management
 - Headless CMS
 - Node.js
-- Open-Source
+- Open Source
 trust_url: https://strapi.io/security
 ---

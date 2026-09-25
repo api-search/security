@@ -710,5 +710,7 @@ tags:
 - Video
 - Voice
 - Twilio
+- Telecommunications
+- Real-Time
 trust_url: https://security.twilio.com/
 ---

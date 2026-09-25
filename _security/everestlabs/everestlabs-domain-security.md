@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Robotics
 - Recycling
-- Computer-Vision
+- Computer Vision
 - Sustainability
 - Waste Management
 - Analytics

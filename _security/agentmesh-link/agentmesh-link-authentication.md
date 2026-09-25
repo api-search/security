@@ -94,6 +94,6 @@ tags:
 - Task Routing
 - Messaging
 - Artificial Intelligence
-- agent-native
+- Agent-Native
 - Developer Tools
 ---

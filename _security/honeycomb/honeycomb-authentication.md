@@ -178,4 +178,6 @@ tags:
 - Telemetry
 - Analytics
 - Data Management
+- Monitoring
+- A2A
 ---

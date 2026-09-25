@@ -153,12 +153,12 @@ tags:
 - Dental Insurance
 - Disability
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Carrier
 - FHIR
 - Patient Access
 - Provider Directory
-- Healthcare Interoperability
+- Interoperability
 - CMS-9115-F
 - DentaQuest
 - SMART on FHIR

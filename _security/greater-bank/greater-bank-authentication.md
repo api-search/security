@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/greater-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/authentication/greater-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 2 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

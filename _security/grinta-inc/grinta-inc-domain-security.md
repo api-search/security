@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Grinta Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Grinta Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Grinta Inc
+overview: 'Domain security posture for Grinta, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Grinta
 provider_slug: grinta-inc
 slug: grinta-inc-domain-security
 source_filename: grinta-inc-domain-security.yml

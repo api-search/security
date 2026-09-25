@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://portal.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/authentication/pico-trading-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Trading
 - Real-Time

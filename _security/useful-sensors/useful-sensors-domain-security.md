@@ -56,6 +56,6 @@ tags:
 - Voice
 - Edge AI
 - On-Device AI
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 ---

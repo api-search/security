@@ -43,14 +43,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Customer Service
 - Contact Center
 - Voice
 - Chatbots
-- Knowledge-Management
+- Knowledge Management
 - RegTech
 ---

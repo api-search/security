@@ -45,6 +45,6 @@ tags:
 - Home Insurance
 - Life Insurance
 - Property Casualty
-- Financial-Services
+- Financial Services
 - Fortune 500
 ---

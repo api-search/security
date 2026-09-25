@@ -11,8 +11,8 @@ method: probed
 name: Aar Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: AAR Corp secures its APIs with http-bearer across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: AAR Corp
+overview: AAR secures its APIs with http-bearer across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: AAR
 provider_slug: aar
 scheme_count: 1
 schemes:

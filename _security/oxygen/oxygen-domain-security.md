@@ -34,6 +34,6 @@ tags:
 - Fintech
 - Banking
 - Neobank
-- Financial-Services
+- Financial Services
 - Payments
 ---

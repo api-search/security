@@ -130,7 +130,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xata/refs/head
 summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - Serverless
 - Developer Tools
 - Branching

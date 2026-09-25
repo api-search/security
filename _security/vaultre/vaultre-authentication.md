@@ -364,7 +364,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/authentication/vaultre-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - New Zealand
 - PropTech

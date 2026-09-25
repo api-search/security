@@ -37,9 +37,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lane/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Commercial Real Estate
-- Property Technology
+- PropTech
 - Workplace
 - Tenant Experience
 - Building Access

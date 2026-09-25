@@ -90,7 +90,7 @@ tags:
 - Artificial Intelligence
 - Data Quality
 - Data Labeling
-- Machine-Learning
+- Machine Learning
 - Human-in-the-Loop
 - Attestation
 - Blockchain

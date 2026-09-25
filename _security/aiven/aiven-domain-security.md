@@ -249,9 +249,10 @@ tags:
 - ClickHouse
 - Redis
 - MySQL
-- Open-Source
+- Open Source
 - Cloud Database
 - Database-as-a-Service
 - Data Streaming
 - Data Platform
+- Database
 ---

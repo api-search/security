@@ -33,7 +33,7 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Robot Learning
 - Hardware

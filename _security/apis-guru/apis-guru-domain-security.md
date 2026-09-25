@@ -2,7 +2,7 @@
 api_specs:
 - filename: apis-guru-apis-api-openapi.yml
   format: yaml
-  label: APIs.guru AP Is API
+  label: APIs.guru APIs API
   slug: apis-guru-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-apis-api-openapi.yml
@@ -47,6 +47,6 @@ tags:
 - API Discovery
 - Community
 - GraphQL
-- Open-Source
+- Open Source
 - OpenAPI
 ---

@@ -46,4 +46,5 @@ tags:
 - Leave Management
 - Payroll
 - Workforce
+- Scheduling
 ---

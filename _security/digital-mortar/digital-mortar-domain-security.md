@@ -33,7 +33,7 @@ tags:
 - People Counting
 - Queue Management
 - Occupancy Analytics
-- Computer-Vision
+- Computer Vision
 - Shopper Journey
 - Physical Retail
 - Software-as-a-Service

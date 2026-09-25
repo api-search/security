@@ -78,7 +78,7 @@ tags:
 - News
 - Patents
 - Research
-- Financial-Services
+- Financial Services
 - Energy
 - Mining
 ---

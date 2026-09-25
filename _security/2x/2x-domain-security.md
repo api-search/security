@@ -120,6 +120,6 @@ tags:
 - Revenue Operations
 - Commercial Intelligence
 - Customer Success
-- Agentic AI
+- AI Agents
 - Demand Generation
 ---

@@ -31,8 +31,8 @@ layout: security
 method: probed
 name: Adonmoprivatelimited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Adonmo Private Limited, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Adonmo Private Limited
+overview: 'Domain security posture for Adonmo, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Adonmo
 provider_slug: adonmoprivatelimited
 slug: adonmoprivatelimited-domain-security
 source_filename: adonmoprivatelimited-domain-security.yml

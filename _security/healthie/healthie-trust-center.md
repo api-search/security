@@ -59,5 +59,7 @@ tags:
 - Telehealth
 - Wellness
 - Webhook
+- Real-Time
+- FHIR
 trust_url: https://trust.gethealthie.com
 ---

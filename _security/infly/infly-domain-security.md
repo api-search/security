@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Generative AI
 - AI Agents

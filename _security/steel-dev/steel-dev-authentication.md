@@ -61,5 +61,5 @@ tags:
 - Web Automation
 - Scraping
 - AI Agents
-- Open-Source
+- Open Source
 ---

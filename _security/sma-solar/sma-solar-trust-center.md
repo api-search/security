@@ -30,6 +30,6 @@ tags:
 - Solar
 - Energy
 - Inverters
-- Renewable
+- Renewables
 trust_url: https://www.sma.de/en/cybersecurity
 ---

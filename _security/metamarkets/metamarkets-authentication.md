@@ -44,4 +44,5 @@ tags:
 - Programmatic Advertising
 - OpenRTB
 - Business Intelligence
+- Defunct
 ---

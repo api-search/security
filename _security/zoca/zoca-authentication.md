@@ -1203,7 +1203,7 @@ tags:
 - Booking
 - Local SEO
 - Google Business Profile
-- Social-Media
+- Social Media
 - Salon Software
 - Spa
 - Software-as-a-Service

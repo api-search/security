@@ -54,6 +54,6 @@ tags:
 - x402
 - NLWeb
 - Accessibility
-- agent-native
+- Agent-Native
 - Australia
 ---

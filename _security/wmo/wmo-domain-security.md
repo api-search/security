@@ -2,31 +2,31 @@
 api_specs:
 - filename: wmo-jobs-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization jobs API
+  label: World Meteorological Organization Jobs API
   slug: wmo-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-jobs-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization pywcmp-wis2-wcmp2-ets API
+  label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Ets API
   slug: wmo-pywcmp-wis2-wcmp2-ets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization pywcmp-wis2-wcmp2-kpi API
+  label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Kpi API
   slug: wmo-pywcmp-wis2-wcmp2-kpi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
 - filename: wmo-server-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization server API
+  label: World Meteorological Organization Server API
   slug: wmo-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-server-api-openapi.yml
 - filename: wmo-wis2-discovery-metadata-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization wis2-discovery-metadata API
+  label: World Meteorological Organization Wis2 Discovery Metadata API
   slug: wmo-wis2-discovery-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-wis2-discovery-metadata-api-openapi.yml

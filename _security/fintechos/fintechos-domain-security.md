@@ -37,7 +37,7 @@ tags:
 - Insurance
 - Lending
 - Low-Code
-- Financial-Services
+- Financial Services
 - Digital Transformation
 - Product Operations
 - Artificial Intelligence

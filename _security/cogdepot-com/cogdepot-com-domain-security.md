@@ -59,6 +59,6 @@ tags:
 - Escrow
 - Negotiation
 - Trust
-- agent-native
+- Agent-Native
 - Agentic Commerce
 ---

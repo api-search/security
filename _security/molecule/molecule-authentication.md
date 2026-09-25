@@ -75,7 +75,7 @@ tags:
 - IP-NFT
 - Tokenization
 - Life Sciences
-- Biotech
+- Biotechnology
 - Research Funding
 - AI Agents
 - MCP

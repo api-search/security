@@ -23,7 +23,7 @@ tags:
 - Banking
 - Core Banking
 - Fintech
-- Financial-Services
+- Financial Services
 - Lending
 - Microfinance
 - Emerging Markets

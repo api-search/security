@@ -231,7 +231,7 @@ tags:
 - Transfer Agent
 - Custody
 - Blockchain
-- Financial-Services
+- Financial Services
 - Securities
 - Market Data
 - FIX Protocol

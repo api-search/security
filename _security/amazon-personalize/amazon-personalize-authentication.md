@@ -41,7 +41,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Customer Experience
-- Machine-Learning
+- Machine Learning
 - Personalization
 - Recommendations
 ---

@@ -233,5 +233,5 @@ tags:
 - Boleto
 - Banking as a Service
 - Brazil
-- Financial-Services
+- Financial Services
 ---

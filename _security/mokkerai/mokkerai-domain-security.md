@@ -36,6 +36,6 @@ tags:
 - Product Photography
 - E-Commerce
 - Background Removal
-- Computer-Vision
+- Computer Vision
 - Generative AI
 ---

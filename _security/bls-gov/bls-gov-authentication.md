@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bls-publ
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/authentication/bls-gov-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Federal-Government
+- Federal Government
 - Labor Statistics
 - Economic Data
 - Consumer Price Index
@@ -62,4 +62,5 @@ tags:
 - Productivity
 - Open Data
 - Time Series
+- Government Data
 ---

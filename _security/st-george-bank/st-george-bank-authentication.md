@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  The harve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/authentication/st-george-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

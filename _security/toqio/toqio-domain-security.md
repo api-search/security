@@ -80,7 +80,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-compliance-api-openapi.yml
 - filename: toqio-compliance-controller-api-openapi.yml
   format: yaml
-  label: Toqio compliance-controller API
+  label: Toqio Compliance Controller API
   slug: toqio-compliance-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-compliance-controller-api-openapi.yml
@@ -218,7 +218,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-onboarding-api-openapi.yml
 - filename: toqio-onboarding-controller-api-openapi.yml
   format: yaml
-  label: Toqio onboarding-controller API
+  label: Toqio Onboarding Controller API
   slug: toqio-onboarding-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-onboarding-controller-api-openapi.yml
@@ -230,7 +230,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-otp-api-openapi.yml
 - filename: toqio-pre-signed-url-controller-api-openapi.yml
   format: yaml
-  label: Toqio pre-signed-url-controller API
+  label: Toqio Pre Signed URL Controller API
   slug: toqio-pre-signed-url-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/openapi/toqio-pre-signed-url-controller-api-openapi.yml

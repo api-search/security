@@ -21,13 +21,13 @@ summary_line: SOC 2, ISO 27001
 tags:
 - AI Agents
 - AI Automation
-- Agentic AI
 - MCP
-- Workflow-Automation
+- Workflow Automation
 - Virtual Assistant
 - Productivity
 - Email
 - Meetings
 - Slack
+- A2A
 trust_url: https://app.drata.com/trust/9cb791f0-0c38-11ee-865f-029d78a187d9
 ---

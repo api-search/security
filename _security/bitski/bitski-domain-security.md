@@ -2,7 +2,7 @@
 api_specs:
 - filename: bitski-activity-api-openapi.yml
   format: yaml
-  label: Bitski activity API
+  label: Bitski Activity API
   slug: bitski-activity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-activity-api-openapi.yml

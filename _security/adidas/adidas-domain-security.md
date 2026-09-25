@@ -33,4 +33,6 @@ tags:
 - Athletic Apparel
 - Footwear
 - Sportswear
+- Fashion
+- Apparel
 ---

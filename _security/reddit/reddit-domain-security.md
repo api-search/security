@@ -112,8 +112,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Reddit
 - Advertising
-- Communities
+- Community
 - Content
-- Social-Media
+- Social Media
 - Social News
 ---

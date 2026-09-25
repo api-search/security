@@ -38,7 +38,7 @@ tags:
 - Company
 - Bitcoin Services
 - Cryptocurrency
-- Financial-Services
+- Financial Services
 - Banking
 - Authentication
 ---

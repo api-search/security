@@ -29,8 +29,8 @@ layout: security
 method: probed
 name: Getbalance Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Getbalance, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Getbalance
+overview: 'Domain security posture for Balance, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Balance
 provider_slug: getbalance
 slug: getbalance-domain-security
 source_filename: getbalance-domain-security.yml

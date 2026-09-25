@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Cap Table
 - Equity Management
-- Portfolio-Management
+- Portfolio Management
 - Alternative Assets
 - Fintech
 - Software-as-a-Service

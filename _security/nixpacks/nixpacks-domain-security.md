@@ -45,7 +45,7 @@ tags:
 - Container Images
 - Application Packaging
 - Railway
-- Open-Source
+- Open Source
 - Rust
 - DevOps
 - Platform Engineering

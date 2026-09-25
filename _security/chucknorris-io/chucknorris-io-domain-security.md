@@ -51,6 +51,6 @@ tags:
 - Entertainment
 - Jokes
 - Chuck Norris
-- Open-Source
+- Open Source
 - Public APIs
 ---

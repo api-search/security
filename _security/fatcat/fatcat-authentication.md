@@ -5,67 +5,67 @@ api_key_in:
 api_specs:
 - filename: fatcat-auth-api-openapi.yml
   format: yaml
-  label: Fatcat auth API
+  label: Fatcat Auth API
   slug: fatcat-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-auth-api-openapi.yml
 - filename: fatcat-changelog-api-openapi.yml
   format: yaml
-  label: Fatcat changelog API
+  label: Fatcat Changelog API
   slug: fatcat-changelog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-changelog-api-openapi.yml
 - filename: fatcat-containers-api-openapi.yml
   format: yaml
-  label: Fatcat containers API
+  label: Fatcat Containers API
   slug: fatcat-containers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-containers-api-openapi.yml
 - filename: fatcat-creators-api-openapi.yml
   format: yaml
-  label: Fatcat creators API
+  label: Fatcat Creators API
   slug: fatcat-creators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-creators-api-openapi.yml
 - filename: fatcat-editgroups-api-openapi.yml
   format: yaml
-  label: Fatcat editgroups API
+  label: Fatcat Editgroups API
   slug: fatcat-editgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-editgroups-api-openapi.yml
 - filename: fatcat-editors-api-openapi.yml
   format: yaml
-  label: Fatcat editors API
+  label: Fatcat Editors API
   slug: fatcat-editors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-editors-api-openapi.yml
 - filename: fatcat-files-api-openapi.yml
   format: yaml
-  label: Fatcat files API
+  label: Fatcat Files API
   slug: fatcat-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-files-api-openapi.yml
 - filename: fatcat-filesets-api-openapi.yml
   format: yaml
-  label: Fatcat filesets API
+  label: Fatcat Filesets API
   slug: fatcat-filesets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-filesets-api-openapi.yml
 - filename: fatcat-releases-api-openapi.yml
   format: yaml
-  label: Fatcat releases API
+  label: Fatcat Releases API
   slug: fatcat-releases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-releases-api-openapi.yml
 - filename: fatcat-webcaptures-api-openapi.yml
   format: yaml
-  label: Fatcat webcaptures API
+  label: Fatcat Webcaptures API
   slug: fatcat-webcaptures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-webcaptures-api-openapi.yml
 - filename: fatcat-works-api-openapi.yml
   format: yaml
-  label: Fatcat works API
+  label: Fatcat Works API
   slug: fatcat-works-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-works-api-openapi.yml

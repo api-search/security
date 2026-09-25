@@ -5,19 +5,19 @@ api_key_in:
 api_specs:
 - filename: currencybeacon-conversion-api-openapi.yml
   format: yaml
-  label: CurrencyBeacon conversion API
+  label: CurrencyBeacon Conversion API
   slug: currencybeacon-conversion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-conversion-api-openapi.yml
 - filename: currencybeacon-currencies-api-openapi.yml
   format: yaml
-  label: CurrencyBeacon currencies API
+  label: CurrencyBeacon Currencies API
   slug: currencybeacon-currencies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-currencies-api-openapi.yml
 - filename: currencybeacon-rates-api-openapi.yml
   format: yaml
-  label: CurrencyBeacon rates API
+  label: CurrencyBeacon Rates API
   slug: currencybeacon-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-rates-api-openapi.yml

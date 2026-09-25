@@ -35,6 +35,7 @@ tags:
 - Collaboration
 - GraphQL
 - Team Productivity
-- Open-Source
+- Open Source
+- Real-Time
 trust_url: https://www.parabol.co/security-faq/
 ---

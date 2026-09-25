@@ -75,6 +75,6 @@ tags:
 - Data Pipeline
 - ETL
 - Software-as-a-Service
-- Unified-API
+- Unified API
 trust_url: https://trust.fivetran.com/
 ---

@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise Data
 - Financial Analytics
-- Financial-Services
+- Financial Services
 - Investment Management
 - Market Data
 - Reference Data

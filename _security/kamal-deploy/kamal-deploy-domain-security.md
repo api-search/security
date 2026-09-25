@@ -43,7 +43,7 @@ tags:
 - Rolling Deploys
 - Rail
 - Ruby
-- Open-Source
+- Open Source
 - 37signals
 - Basecamp
 - On-Premises

@@ -57,7 +57,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Invoicing
-- Electronic Invoicing
+- E-Invoicing
 - PEPPOL
 - Accounting
 - Invoice Financing

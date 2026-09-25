@@ -101,7 +101,7 @@ tags:
 - Agentic Analytics
 - Decision Intelligence
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data
 - Embedded Analytics
 - MCP
@@ -109,4 +109,5 @@ tags:
 - Pharmaceuticals
 - Consumer Packaged Goods
 - Financial Planning
+- Real-Time
 ---

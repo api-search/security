@@ -868,7 +868,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Design
 - Prototyping
-- Open-Source
+- Open Source
 - Self-Hosted
 - Figma Alternative
 - UI Design

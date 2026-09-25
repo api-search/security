@@ -33,7 +33,7 @@ tags:
 - Entertainment
 - Augmented Reality
 - 3D Mapping
-- Computer-Vision
+- Computer Vision
 - Gaming
 - Acquired
 ---

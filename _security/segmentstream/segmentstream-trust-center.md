@@ -29,5 +29,6 @@ tags:
 - BigQuery
 - MCP
 - AI Agents
+- A2A
 trust_url: https://segmentstream.com/trust
 ---

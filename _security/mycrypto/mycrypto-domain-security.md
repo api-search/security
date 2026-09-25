@@ -39,6 +39,6 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Web3
-- Open-Source
+- Open Source
 - Non-Custodial
 ---

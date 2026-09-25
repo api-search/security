@@ -33,7 +33,7 @@ tags:
 - Robotics
 - Welding
 - Manufacturing
-- Computer-Vision
+- Computer Vision
 - Industrial Automation
 - Hardware
 - Machine Intelligence

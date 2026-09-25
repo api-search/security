@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Us Health Partners Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for US Health Partners, LLC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: US Health Partners, LLC
+overview: 'Domain security posture for US Health Partners, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: US Health Partners
 provider_slug: us-health-partners-llc
 slug: us-health-partners-llc-domain-security
 source_filename: us-health-partners-llc-domain-security.yml

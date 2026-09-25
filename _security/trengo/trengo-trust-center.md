@@ -73,6 +73,6 @@ tags:
 - Shared Inbox
 - Messaging
 - WhatsApp
-- Customer-Support
+- Customer Support
 trust_url: https://trengo.com/security
 ---

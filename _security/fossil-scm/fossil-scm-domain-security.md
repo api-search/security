@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/security/fossil-scm-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Version-Control
-- Open-Source
+- Version Control
+- Open Source
 - SCM
 - Distributed
-- Configuration-Management
+- Configuration Management
 ---

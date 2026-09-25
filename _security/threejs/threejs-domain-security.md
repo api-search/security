@@ -35,7 +35,7 @@ tags:
 - WebGPU
 - JavaScript
 - Rendering
-- Open-Source
+- Open Source
 - Game Development
 - Visualization
 ---

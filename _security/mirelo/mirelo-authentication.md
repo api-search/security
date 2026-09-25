@@ -41,5 +41,5 @@ tags:
 - Video
 - Text to Audio
 - Audio to MIDI
-- Machine-Learning
+- Machine Learning
 ---

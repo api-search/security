@@ -36,7 +36,7 @@ tags:
 - IoT
 - Sensors
 - Urban Data
-- Computer-Vision
+- Computer Vision
 - Environmental Monitoring
 - Parking
 - Mobility

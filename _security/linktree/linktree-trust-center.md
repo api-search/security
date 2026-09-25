@@ -22,12 +22,13 @@ tags:
 - Media
 - Link in Bio
 - Creator Economy
-- Social-Media
+- Social Media
 - Marketing
 - Analytics
 - MCP
 - Agents
 - Design Systems
 - Developer Tools
+- Australia
 trust_url: https://linktr.ee/s/about/trust-center/
 ---

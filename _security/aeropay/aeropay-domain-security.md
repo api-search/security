@@ -96,7 +96,7 @@ tags:
 - Open Banking
 - Fintech
 - Bank linking
-- Financial-Services
+- Financial Services
 - Real-Time Payments
 - Webhook
 - Payouts

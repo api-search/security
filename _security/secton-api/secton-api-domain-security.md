@@ -56,5 +56,5 @@ tags:
 - Developer Tools
 - OpenAI-Compatible
 - Streaming
-- Machine-Learning
+- Machine Learning
 ---

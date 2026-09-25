@@ -35,7 +35,7 @@ tags:
 - Brokerage
 - Capital Markets
 - Financial Planning
-- Financial-Services
+- Financial Services
 - Investment Banking
 - Investment Management
 - Private Company

@@ -2,43 +2,43 @@
 api_specs:
 - filename: dryad-datasets-api-openapi.yml
   format: yaml
-  label: Dryad datasets API
+  label: Dryad Datasets API
   slug: dryad-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-datasets-api-openapi.yml
 - filename: dryad-files-api-openapi.yml
   format: yaml
-  label: Dryad files API
+  label: Dryad Files API
   slug: dryad-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-files-api-openapi.yml
 - filename: dryad-internal-api-openapi.yml
   format: yaml
-  label: Dryad internal API
+  label: Dryad Internal API
   slug: dryad-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-internal-api-openapi.yml
 - filename: dryad-reports-api-openapi.yml
   format: yaml
-  label: Dryad reports API
+  label: Dryad Reports API
   slug: dryad-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-reports-api-openapi.yml
 - filename: dryad-root-api-openapi.yml
   format: yaml
-  label: Dryad root API
+  label: Dryad Root API
   slug: dryad-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-root-api-openapi.yml
 - filename: dryad-search-api-openapi.yml
   format: yaml
-  label: Dryad search API
+  label: Dryad Search API
   slug: dryad-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-search-api-openapi.yml
 - filename: dryad-versions-api-openapi.yml
   format: yaml
-  label: Dryad versions API
+  label: Dryad Versions API
   slug: dryad-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-versions-api-openapi.yml

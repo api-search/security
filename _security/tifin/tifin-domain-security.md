@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tifin/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Wealth Management
 - Asset Management
 - Artificial Intelligence

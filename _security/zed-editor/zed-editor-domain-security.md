@@ -35,7 +35,7 @@ tags:
 - IDE
 - Rust
 - GPU Accelerated
-- Open-Source
+- Open Source
 - AI Coding
 - Agentic Editing
 - Real-Time Collaboration

@@ -33,9 +33,9 @@ tags:
 - Fintech
 - Financial Identity
 - Credit Scoring
-- Financial-Services
+- Financial Services
 - Mobile
 - Underbanked
-- Machine-Learning
+- Machine Learning
 - Financial Inclusion
 ---

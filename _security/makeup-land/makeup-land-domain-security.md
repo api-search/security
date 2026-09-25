@@ -33,8 +33,8 @@ layout: security
 method: probed
 name: Makeup Land Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for א. ט. הפקות בע״מ / A.T. Hafakot Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: א. ט. הפקות בע״מ / A.T. Hafakot Ltd.
+overview: 'Domain security posture for makeup.land, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: makeup.land
 provider_slug: makeup-land
 slug: makeup-land-domain-security
 source_filename: makeup-land-domain-security.yml
@@ -54,6 +54,7 @@ tags:
 - Product Search
 - Agentic Commerce
 - MCP
-- agent-native
+- Agent-Native
 - Israel
+- A2A
 ---

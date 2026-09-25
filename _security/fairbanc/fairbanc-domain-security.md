@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/
 summary_line: DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Buy Now Pay Later

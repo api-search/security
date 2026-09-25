@@ -72,12 +72,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/security/conductor-oss-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Agentic AI
+- AI Agents
 - Durable Execution
 - Event-Driven
 - Microservices
 - Netflix
-- Open-Source
+- Open Source
 - Orchestration
 - Workflow Engine
 - Workflows

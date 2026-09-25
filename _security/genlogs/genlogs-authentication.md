@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-alerts-api-openapi.yml
 - filename: genlogs-auth-api-openapi.yml
   format: yaml
-  label: GenLogs auth API
+  label: GenLogs Auth API
   slug: genlogs-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-auth-api-openapi.yml
@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-carrier-api-openapi.yml
 - filename: genlogs-carrier-vetting-api-openapi.yml
   format: yaml
-  label: GenLogs carrier-vetting API
+  label: GenLogs Carrier Vetting API
   slug: genlogs-carrier-vetting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/openapi/genlogs-carrier-vetting-api-openapi.yml

@@ -135,11 +135,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/h
 summary_line: http · 1 scheme
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Banking
 - Payments
 - Card Issuing
 - ACH
 - Lending
 - JSON:API
+- Embedded Finance
 ---

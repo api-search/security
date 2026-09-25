@@ -2,7 +2,7 @@
 api_specs:
 - filename: panther-alert-api-openapi.yml
   format: yaml
-  label: Panther alert API
+  label: Panther Alert API
   slug: panther-alert-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-alert-api-openapi.yml
@@ -20,13 +20,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-aws-cloud-account-api-openapi.yml
 - filename: panther-comment-api-openapi.yml
   format: yaml
-  label: Panther comment API
+  label: Panther Comment API
   slug: panther-comment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-comment-api-openapi.yml
 - filename: panther-contexttag-api-openapi.yml
   format: yaml
-  label: Panther contexttag API
+  label: Panther Contexttag API
   slug: panther-contexttag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-contexttag-api-openapi.yml
@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-gcs-source-api-openapi.yml
 - filename: panther-global-api-openapi.yml
   format: yaml
-  label: Panther global API
+  label: Panther Global API
   slug: panther-global-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-global-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-log-source-alarm-api-openapi.yml
 - filename: panther-policy-api-openapi.yml
   format: yaml
-  label: Panther policy API
+  label: Panther Policy API
   slug: panther-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-policy-api-openapi.yml
@@ -86,19 +86,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-pub-sub-source-api-openapi.yml
 - filename: panther-query-api-openapi.yml
   format: yaml
-  label: Panther query API
+  label: Panther Query API
   slug: panther-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-query-api-openapi.yml
 - filename: panther-role-api-openapi.yml
   format: yaml
-  label: Panther role API
+  label: Panther Role API
   slug: panther-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-role-api-openapi.yml
 - filename: panther-rule-api-openapi.yml
   format: yaml
-  label: Panther rule API
+  label: Panther Rule API
   slug: panther-rule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-rule-api-openapi.yml
@@ -122,7 +122,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-simple-rule-api-openapi.yml
 - filename: panther-user-api-openapi.yml
   format: yaml
-  label: Panther user API
+  label: Panther User API
   slug: panther-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/openapi/panther-user-api-openapi.yml

@@ -56,7 +56,7 @@ tags:
 - Debt Collection
 - Payments
 - Credit
-- Financial-Services
+- Financial Services
 - Personal Finance
 - AI Agents
 - Consumer Finance

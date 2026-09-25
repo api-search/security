@@ -36,6 +36,6 @@ tags:
 - Legal Tech
 - Information Governance
 - Analytics
-- Machine-Learning
+- Machine Learning
 - OpenText
 ---

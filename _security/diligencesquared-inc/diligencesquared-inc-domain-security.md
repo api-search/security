@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Diligencesquared Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Diligencesquared Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Diligencesquared Inc
+overview: 'Domain security posture for Diligencesquared, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Diligencesquared
 provider_slug: diligencesquared-inc
 slug: diligencesquared-inc-domain-security
 source_filename: diligencesquared-inc-domain-security.yml

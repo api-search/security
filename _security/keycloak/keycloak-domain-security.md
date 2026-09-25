@@ -73,4 +73,5 @@ tags:
 - OpenID Connect
 - Security
 - SSO
+- Identity Federation
 ---

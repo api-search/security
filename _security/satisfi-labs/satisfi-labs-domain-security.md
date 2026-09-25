@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Chatbots
 - Customer Experience
 - Sports

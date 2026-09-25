@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Orchestration
-- Workflow-Automation
+- Workflow Automation
 - Agents
 - Enterprise
 - Governance

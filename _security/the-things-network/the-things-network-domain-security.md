@@ -409,7 +409,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LoRaWAN
 - IoT
-- Open-Source
+- Open Source
 - Network Server
 - LPWAN
 - Telemetry

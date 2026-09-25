@@ -38,6 +38,6 @@ tags:
 - Drivers
 - CLI
 - DuckDB
-- Open-Source
+- Open Source
 - Agent Skills
 ---

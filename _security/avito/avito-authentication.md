@@ -46,7 +46,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-autostrategy-api-openapi.yml
 - filename: avito-balance-api-openapi.yml
   format: yaml
-  label: Avito balance API
+  label: Avito Balance API
   slug: avito-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-balance-api-openapi.yml
@@ -130,7 +130,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-getemployeesv1-api-openapi.yml
 - filename: avito-invite-api-openapi.yml
   format: yaml
-  label: Avito invite API
+  label: Avito Invite API
   slug: avito-invite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-invite-api-openapi.yml
@@ -190,7 +190,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-parcelprocessing-api-openapi.yml
 - filename: avito-profile-api-openapi.yml
   format: yaml
-  label: Avito profile API
+  label: Avito Profile API
   slug: avito-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-profile-api-openapi.yml
@@ -244,7 +244,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-specialoffers-api-openapi.yml
 - filename: avito-statistics-api-openapi.yml
   format: yaml
-  label: Avito statistics API
+  label: Avito Statistics API
   slug: avito-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-statistics-api-openapi.yml
@@ -256,7 +256,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-stock-management-api-openapi.yml
 - filename: avito-targeting-api-openapi.yml
   format: yaml
-  label: Avito targeting API
+  label: Avito Targeting API
   slug: avito-targeting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-targeting-api-openapi.yml
@@ -280,7 +280,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-terminalmanagement-api-openapi.yml
 - filename: avito-transactions-api-openapi.yml
   format: yaml
-  label: Avito transactions API
+  label: Avito Transactions API
   slug: avito-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/avito-transactions-api-openapi.yml
@@ -402,7 +402,7 @@ tags:
 - Classifieds
 - Marketplace
 - E-Commerce
-- Real-Estate
+- Real Estate
 - Automotive
 - Job
 - Advertising

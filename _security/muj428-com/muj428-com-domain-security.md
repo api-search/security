@@ -38,8 +38,8 @@ layout: security
 method: probed
 name: Muj428 Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for MUJ428 LLC, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: MUJ428 LLC
+overview: 'Domain security posture for MUJ428, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: MUJ428
 provider_slug: muj428-com
 slug: muj428-com-domain-security
 source_filename: muj428-com-domain-security.yml
@@ -56,7 +56,7 @@ tags:
 - MCP
 - x402
 - Payments
-- Risk
+- Risk Management
 - Verification
-- agent-native
+- Agent-Native
 ---

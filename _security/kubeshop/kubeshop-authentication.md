@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: kubeshop-api-api-openapi.yml
   format: yaml
-  label: Kubeshop api
+  label: Kubeshop API
   slug: kubeshop-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-api-api-openapi.yml
 - filename: kubeshop-artifacts-api-openapi.yml
   format: yaml
-  label: Kubeshop artifacts API
+  label: Kubeshop Artifacts API
   slug: kubeshop-artifacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-artifacts-api-openapi.yml
 - filename: kubeshop-cluster-resources-api-openapi.yml
   format: yaml
-  label: Kubeshop cluster-resources API
+  label: Kubeshop Cluster Resources API
   slug: kubeshop-cluster-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-cluster-resources-api-openapi.yml
@@ -28,25 +28,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-executions-api-openapi.yml
 - filename: kubeshop-executor-api-openapi.yml
   format: yaml
-  label: Kubeshop executor API
+  label: Kubeshop Executor API
   slug: kubeshop-executor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-executor-api-openapi.yml
 - filename: kubeshop-keymap-api-openapi.yml
   format: yaml
-  label: Kubeshop keymap API
+  label: Kubeshop Keymap API
   slug: kubeshop-keymap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-keymap-api-openapi.yml
 - filename: kubeshop-labels-api-openapi.yml
   format: yaml
-  label: Kubeshop labels API
+  label: Kubeshop Labels API
   slug: kubeshop-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-labels-api-openapi.yml
 - filename: kubeshop-logs-api-openapi.yml
   format: yaml
-  label: Kubeshop logs API
+  label: Kubeshop Logs API
   slug: kubeshop-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-logs-api-openapi.yml
@@ -58,13 +58,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-organizations-api-openapi.yml
 - filename: kubeshop-repository-api-openapi.yml
   format: yaml
-  label: Kubeshop repository API
+  label: Kubeshop Repository API
   slug: kubeshop-repository-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-repository-api-openapi.yml
 - filename: kubeshop-secrets-api-openapi.yml
   format: yaml
-  label: Kubeshop secrets API
+  label: Kubeshop Secrets API
   slug: kubeshop-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-secrets-api-openapi.yml
@@ -76,37 +76,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-status-pages-api-openapi.yml
 - filename: kubeshop-tags-api-openapi.yml
   format: yaml
-  label: Kubeshop tags API
+  label: Kubeshop Tags API
   slug: kubeshop-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-tags-api-openapi.yml
 - filename: kubeshop-template-api-openapi.yml
   format: yaml
-  label: Kubeshop template API
+  label: Kubeshop Template API
   slug: kubeshop-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-template-api-openapi.yml
 - filename: kubeshop-templates-api-openapi.yml
   format: yaml
-  label: Kubeshop templates API
+  label: Kubeshop Templates API
   slug: kubeshop-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-templates-api-openapi.yml
 - filename: kubeshop-test-sources-api-openapi.yml
   format: yaml
-  label: Kubeshop test-sources API
+  label: Kubeshop Test Sources API
   slug: kubeshop-test-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-sources-api-openapi.yml
 - filename: kubeshop-test-suites-api-openapi.yml
   format: yaml
-  label: Kubeshop test-suites API
+  label: Kubeshop Test Suites API
   slug: kubeshop-test-suites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-suites-api-openapi.yml
 - filename: kubeshop-test-triggers-api-openapi.yml
   format: yaml
-  label: Kubeshop test-triggers API
+  label: Kubeshop Test Triggers API
   slug: kubeshop-test-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-triggers-api-openapi.yml
@@ -118,7 +118,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-workflows-api-openapi.yml
 - filename: kubeshop-tests-api-openapi.yml
   format: yaml
-  label: Kubeshop tests API
+  label: Kubeshop Tests API
   slug: kubeshop-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-tests-api-openapi.yml
@@ -130,13 +130,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-users-api-openapi.yml
 - filename: kubeshop-webhook-api-openapi.yml
   format: yaml
-  label: Kubeshop webhook API
+  label: Kubeshop Webhook API
   slug: kubeshop-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-webhook-api-openapi.yml
 - filename: kubeshop-webhook-template-api-openapi.yml
   format: yaml
-  label: Kubeshop webhook-template API
+  label: Kubeshop Webhook Template API
   slug: kubeshop-webhook-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-webhook-template-api-openapi.yml
@@ -208,6 +208,6 @@ tags:
 - DevOps
 - Cloud-Native
 - Quality Assurance
-- Open-Source
+- Open Source
 - MCP
 ---

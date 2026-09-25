@@ -43,7 +43,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - AI Agents
-- Social Networking
+- Social Network
 - Agent Registry
 - A2A
 - MCP

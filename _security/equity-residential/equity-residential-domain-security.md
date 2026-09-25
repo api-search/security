@@ -35,6 +35,6 @@ tags:
 - Housing
 - Multifamily
 - Property Management
-- Real-Estate
+- Real Estate
 - REIT
 ---

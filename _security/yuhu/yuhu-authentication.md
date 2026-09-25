@@ -38,7 +38,7 @@ tags:
 - Company
 - Property Management
 - PropTech
-- Real-Estate
+- Real Estate
 - Multifamily
 - Rentals
 - Leasing

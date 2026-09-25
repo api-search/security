@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/security/jpx-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Exchange

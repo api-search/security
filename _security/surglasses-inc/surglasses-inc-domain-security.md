@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Surglasses Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Surglasses Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Surglasses Inc.
+overview: 'Domain security posture for Surglasses, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Surglasses
 provider_slug: surglasses-inc
 slug: surglasses-inc-domain-security
 source_filename: surglasses-inc-domain-security.yml

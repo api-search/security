@@ -2,7 +2,7 @@
 api_specs:
 - filename: salad-transcription-api-default-api-openapi.yml
   format: yaml
-  label: Salad Transcription API default API
+  label: Salad Transcription API Default API
   slug: salad-transcription-api-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/openapi/salad-transcription-api-default-api-openapi.yml

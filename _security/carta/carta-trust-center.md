@@ -28,5 +28,6 @@ tags:
 - Investor Portfolio
 - Private Markets
 - Fintech
+- Startups
 trust_url: https://trust.carta.com/
 ---

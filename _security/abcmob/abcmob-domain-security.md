@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Mobile
-- Mobile Applications
+- Mobile App
 - Application Development
 - Enterprise Software
 - Cross-Platform

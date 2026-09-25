@@ -2,19 +2,19 @@
 api_specs:
 - filename: the-promenade-payments-api-openapi.yml
   format: yaml
-  label: The Promenade payments API
+  label: The Promenade Payments API
   slug: the-promenade-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/openapi/the-promenade-payments-api-openapi.yml
 - filename: the-promenade-session-api-openapi.yml
   format: yaml
-  label: The Promenade session API
+  label: The Promenade Session API
   slug: the-promenade-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/openapi/the-promenade-session-api-openapi.yml
 - filename: the-promenade-signup-api-openapi.yml
   format: yaml
-  label: The Promenade signup API
+  label: The Promenade Signup API
   slug: the-promenade-signup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/openapi/the-promenade-signup-api-openapi.yml

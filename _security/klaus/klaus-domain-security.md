@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Quality Assurance
-- Customer-Support
+- Customer Support
 - Customer Experience
 - Conversation Analytics
 - Contact Center

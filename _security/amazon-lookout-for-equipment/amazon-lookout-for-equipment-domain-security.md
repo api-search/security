@@ -53,6 +53,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Equipment Monitoring
 - Industrial IoT
-- Machine-Learning
+- Machine Learning
 - Predictive Maintenance
 ---

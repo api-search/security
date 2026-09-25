@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Beervana International Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Beervana International Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Beervana International Limited
+overview: 'Domain security posture for Beervana International, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Beervana International
 provider_slug: beervana-international-limited
 slug: beervana-international-limited-domain-security
 source_filename: beervana-international-limited-domain-security.yml

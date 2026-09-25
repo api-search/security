@@ -59,7 +59,7 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Engineering Metrics
-- Open-Source
+- Open Source
 - MCP
 - Agency Holding Company
 ---

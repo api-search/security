@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/head
 summary_line: apiKey/http · 2 schemes
 tags:
 - Database
-- Key-Value
+- Key-Value Store
 - NoSQL
 - Serverless
 ---

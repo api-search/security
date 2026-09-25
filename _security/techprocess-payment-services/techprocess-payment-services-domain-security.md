@@ -32,7 +32,7 @@ tags:
 - Company
 - Payments
 - Payment Gateway
-- Financial-Services
+- Financial Services
 - India
 - Checkout
 - E-Commerce

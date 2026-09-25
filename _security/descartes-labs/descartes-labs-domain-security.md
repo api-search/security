@@ -38,7 +38,7 @@ tags:
 - Raster
 - Vectors
 - GIS
-- Machine-Learning
+- Machine Learning
 - Geospatial Analytics
 - Agriculture
 - Mining

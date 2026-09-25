@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Saul Ewing Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Saul Ewing LLP, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Saul Ewing LLP
+overview: 'Domain security posture for Saul Ewing, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Saul Ewing
 provider_slug: saul-ewing
 slug: saul-ewing-domain-security
 source_filename: saul-ewing-domain-security.yml
@@ -37,7 +37,7 @@ tags:
 - Corporate
 - Mergers and Acquisitions
 - Bankruptcy
-- Real-Estate
+- Real Estate
 - Public Finance
 - Life Sciences
 - Intellectual Property

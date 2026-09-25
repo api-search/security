@@ -42,5 +42,5 @@ tags:
 - Chip Design
 - EDA
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 ---

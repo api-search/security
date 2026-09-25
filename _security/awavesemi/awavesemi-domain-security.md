@@ -33,7 +33,7 @@ tags:
 - Company
 - Semiconductors
 - Hardware
-- Data-Center
+- Data Center
 - Silicon
 - Qualcomm
 - Acquired

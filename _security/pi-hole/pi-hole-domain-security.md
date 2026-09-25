@@ -77,6 +77,6 @@ tags:
 - Ad Blocking
 - Network Security
 - Privacy
-- Open-Source
+- Open Source
 - Self-Hosted
 ---

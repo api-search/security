@@ -89,8 +89,8 @@ layout: security
 method: probed
 name: Aar Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for AAR Corp, probed live across 8 host(s) and 4 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: AAR Corp
+overview: 'Domain security posture for AAR, probed live across 8 host(s) and 4 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: AAR
 provider_slug: aar
 slug: aar-domain-security
 source_filename: aar-domain-security.yml

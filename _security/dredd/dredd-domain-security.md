@@ -37,6 +37,6 @@ tags:
 - Developer Tools
 - Command Line
 - Continuous Integration
-- JSON-Schema
-- Open-Source
+- JSON Schema
+- Open Source
 ---

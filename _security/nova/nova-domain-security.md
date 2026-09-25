@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - SAP
-- Agentic AI
+- AI Agents
 - Enterprise Software
 - Developer Productivity
 - Code Intelligence

@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Sadbhaveng Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Sadbhav Engineering Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Sadbhav Engineering Limited
+overview: 'Domain security posture for Sadbhav Engineering, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Sadbhav Engineering
 provider_slug: sadbhaveng
 slug: sadbhaveng-domain-security
 source_filename: sadbhaveng-domain-security.yml

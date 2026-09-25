@@ -2,13 +2,13 @@
 api_specs:
 - filename: turborepo-analytics-api-openapi.yml
   format: yaml
-  label: Turborepo analytics API
+  label: Turborepo Analytics API
   slug: turborepo-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-analytics-api-openapi.yml
 - filename: turborepo-artifacts-api-openapi.yml
   format: yaml
-  label: Turborepo artifacts API
+  label: Turborepo Artifacts API
   slug: turborepo-artifacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-artifacts-api-openapi.yml
@@ -66,7 +66,7 @@ tags:
 - JavaScript
 - TypeScript
 - Caching
-- Open-Source
+- Open Source
 - Rust
 - Vercel
 - Developer Tools

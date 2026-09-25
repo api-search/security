@@ -35,7 +35,7 @@ tags:
 - Enterprise
 - Artificial Intelligence
 - Construction
-- Agentic AI
+- AI Agents
 - Procurement
 - Compliance
 ---

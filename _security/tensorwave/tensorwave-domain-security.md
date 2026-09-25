@@ -79,12 +79,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Computing
 - GPU
 - Infrastructure
 - Inference
 - Model Training
 - High Performance Computing
-- Data-Center
+- Data Center
 ---

@@ -34,11 +34,12 @@ tags:
 - MCP
 - Python
 - Framework
-- Open-Source
+- Open Source
 - AI Agents
 - Tools
 - Resources
 - Prompts
 - LLM
 - Anthropic
+- A2A
 ---

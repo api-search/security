@@ -72,7 +72,7 @@ tags:
 - Agent Networks
 - Agent Evaluation
 - MCP
-- Agent2Agent
+- A2A
 - Behavioral Evidence
 - Agent Assurance
 - Multi-Agent Collaboration

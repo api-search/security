@@ -122,10 +122,10 @@ summary_line: openIdConnect · 1 scheme
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Privacy
 - Fediverse
 - Messaging

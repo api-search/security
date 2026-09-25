@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-marketplace-api-openapi.yml
 - filename: sequence-public-api-openapi.yml
   format: yaml
-  label: Sequence public API
+  label: Sequence Public API
   slug: sequence-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-public-api-openapi.yml
@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-rpc-api-openapi.yml
 - filename: sequence-secret-api-openapi.yml
   format: yaml
-  label: Sequence secret API
+  label: Sequence Secret API
   slug: sequence-secret-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/openapi/sequence-secret-api-openapi.yml

@@ -44,7 +44,7 @@ tags:
 - Ingress Controller
 - API Gateway
 - Kubernetes
-- Open-Source
+- Open Source
 - Networking
 - Traefik
 ---

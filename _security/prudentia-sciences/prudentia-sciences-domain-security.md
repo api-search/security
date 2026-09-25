@@ -34,7 +34,7 @@ tags:
 - Company
 - Life Sciences
 - Pharmaceuticals
-- Biotech
+- Biotechnology
 - Mergers and Acquisitions
 - Artificial Intelligence
 - Data

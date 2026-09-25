@@ -128,7 +128,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-chat-sessions-api-openapi.yml
 - filename: appdirect-checkoutitemdetails-api-openapi.yml
   format: yaml
-  label: AppDirect checkoutItemDetails API
+  label: AppDirect Checkout Item Details API
   slug: appdirect-checkoutitemdetails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/openapi/appdirect-checkoutitemdetails-api-openapi.yml

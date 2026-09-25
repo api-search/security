@@ -95,4 +95,5 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence
 - Vector Database
+- Database
 ---

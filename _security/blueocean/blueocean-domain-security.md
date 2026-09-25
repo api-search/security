@@ -149,7 +149,7 @@ tags:
 - Company
 - Marketing
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Brand Intelligence
 - Marketing Automation
 - Analytics

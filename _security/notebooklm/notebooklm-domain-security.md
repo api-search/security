@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Research
-- Knowledge-Management
+- Knowledge Management
 - Document Analysis
 - Generative AI
 - Google

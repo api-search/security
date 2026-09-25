@@ -35,7 +35,7 @@ tags:
 - Agriculture
 - AgTech
 - Precision Agriculture
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Crop Protection
 - Sensors

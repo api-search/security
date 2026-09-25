@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/sendbir
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/authentication/sendbird-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Customer-Support
+- Customer Support
 - Voice
 - Video
 - Omnichannel

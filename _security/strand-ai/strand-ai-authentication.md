@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Spatial Biology
 - Bioinformatics

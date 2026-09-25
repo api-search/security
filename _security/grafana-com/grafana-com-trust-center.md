@@ -104,7 +104,7 @@ tags:
 - Traces
 - Profiling
 - Alerting
-- Open-Source
+- Open Source
 - Grafana Labs
 trust_url: https://trust.grafana.com/
 ---

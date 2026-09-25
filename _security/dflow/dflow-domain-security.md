@@ -2,43 +2,43 @@
 api_specs:
 - filename: dflow-admin-api-openapi.yml
   format: yaml
-  label: DFlow admin API
+  label: DFlow Admin API
   slug: dflow-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-admin-api-openapi.yml
 - filename: dflow-intent-api-openapi.yml
   format: yaml
-  label: DFlow intent API
+  label: DFlow Intent API
   slug: dflow-intent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-intent-api-openapi.yml
 - filename: dflow-order-api-openapi.yml
   format: yaml
-  label: DFlow order API
+  label: DFlow Order API
   slug: dflow-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-order-api-openapi.yml
 - filename: dflow-prediction-market-api-openapi.yml
   format: yaml
-  label: DFlow prediction_market API
+  label: DFlow Prediction Market API
   slug: dflow-prediction-market-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-prediction-market-api-openapi.yml
 - filename: dflow-swap-api-openapi.yml
   format: yaml
-  label: DFlow swap API
+  label: DFlow Swap API
   slug: dflow-swap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-swap-api-openapi.yml
 - filename: dflow-tokens-api-openapi.yml
   format: yaml
-  label: DFlow tokens API
+  label: DFlow Tokens API
   slug: dflow-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-tokens-api-openapi.yml
 - filename: dflow-venues-api-openapi.yml
   format: yaml
-  label: DFlow venues API
+  label: DFlow Venues API
   slug: dflow-venues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-venues-api-openapi.yml
@@ -93,4 +93,5 @@ tags:
 - MEV Protection
 - Prediction Markets
 - Agent Ready
+- Real-Time
 ---

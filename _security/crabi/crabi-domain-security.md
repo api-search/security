@@ -36,7 +36,7 @@ tags:
 - Insurtech
 - Auto Insurance
 - Mexico
-- Financial-Services
+- Financial Services
 - Fintech
 - Mobile
 ---

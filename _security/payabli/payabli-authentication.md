@@ -17,13 +17,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-boarding-api-openapi.yml
 - filename: payabli-chargebacks-api-openapi.yml
   format: yaml
-  label: Payabli chargeBacks API
+  label: Payabli Charge Backs API
   slug: payabli-chargebacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-chargebacks-api-openapi.yml
 - filename: payabli-checkcapture-api-openapi.yml
   format: yaml
-  label: Payabli checkCapture API
+  label: Payabli Check Capture API
   slug: payabli-checkcapture-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-checkcapture-api-openapi.yml
@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-funding-api-openapi.yml
 - filename: payabli-ghostcard-api-openapi.yml
   format: yaml
-  label: Payabli ghostCard API
+  label: Payabli Ghost Card API
   slug: payabli-ghostcard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-ghostcard-api-openapi.yml
@@ -77,13 +77,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-management-api-openapi.yml
 - filename: payabli-moneyin-api-openapi.yml
   format: yaml
-  label: Payabli moneyIn API
+  label: Payabli Money In API
   slug: payabli-moneyin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-moneyin-api-openapi.yml
 - filename: payabli-moneyout-api-openapi.yml
   format: yaml
-  label: Payabli moneyOut API
+  label: Payabli Money Out API
   slug: payabli-moneyout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-moneyout-api-openapi.yml
@@ -113,13 +113,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-organization-api-openapi.yml
 - filename: payabli-paymentmethoddomain-api-openapi.yml
   format: yaml
-  label: Payabli paymentMethodDomain API
+  label: Payabli Payment Method Domain API
   slug: payabli-paymentmethoddomain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-paymentmethoddomain-api-openapi.yml
 - filename: payabli-payoutsubscription-api-openapi.yml
   format: yaml
-  label: Payabli payoutSubscription API
+  label: Payabli Payout Subscription API
   slug: payabli-payoutsubscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-payoutsubscription-api-openapi.yml
@@ -161,7 +161,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-token-api-openapi.yml
 - filename: payabli-tokenstorage-api-openapi.yml
   format: yaml
-  label: Payabli tokenStorage API
+  label: Payabli Token Storage API
   slug: payabli-tokenstorage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-tokenstorage-api-openapi.yml

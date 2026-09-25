@@ -26,7 +26,7 @@ tags:
 - Compliance
 - Risk Management
 - AI Safety
-- Regulatory Technology
-- Agentic AI
+- RegTech
+- AI Agents
 trust_url: https://www.luminos.ai/security
 ---

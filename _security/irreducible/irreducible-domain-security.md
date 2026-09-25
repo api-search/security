@@ -38,6 +38,6 @@ tags:
 - SNARK
 - Blockchain
 - Privacy
-- Open-Source
+- Open Source
 - Rust
 ---

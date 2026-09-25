@@ -84,4 +84,5 @@ tags:
 - Banking
 - Compliance
 - MCP
+- A2A
 ---

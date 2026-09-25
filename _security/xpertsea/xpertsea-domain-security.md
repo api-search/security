@@ -55,5 +55,5 @@ tags:
 - Shrimp Farming
 - Agriculture Technology
 - Artificial Intelligence
-- Mobile Applications
+- Mobile App
 ---

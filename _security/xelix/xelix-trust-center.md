@@ -30,5 +30,6 @@ tags:
 - Vendor Management
 - Procure-to-Pay
 - Reconciliation
+- Procurement
 trust_url: https://trust.xelix.com/
 ---

@@ -76,7 +76,7 @@ summary_line: oauth2 · 3 schemes
 tags:
 - ATM
 - Banking
-- Financial-Services
+- Financial Services
 - Italy
 - Mobile Payments
 - Payments

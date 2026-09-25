@@ -163,9 +163,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hugging-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/authentication/hugging-face-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Computer-Vision
+- Computer Vision
 - Embeddings
-- Image-Generation
+- Image Generation
 - LLM
 - Hugging Face
 ---

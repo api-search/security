@@ -51,6 +51,6 @@ tags:
 - Data Science
 - Programming Language
 - Package Registry
-- Machine-Learning
+- Machine Learning
 - Pharma
 ---

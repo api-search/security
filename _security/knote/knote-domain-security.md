@@ -28,7 +28,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Startups
-- Knowledge-Management
+- Knowledge Management
 - Notes
 - Productivity
 - Collaboration

@@ -386,7 +386,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - No-Code
 - Database
-- Open-Source
+- Open Source
 - REST API
 - Self-Hosted
 - Tables

@@ -29,7 +29,7 @@ tags:
 - Insurtech
 - Pet Insurance
 - Pet Care
-- Financial-Services
+- Financial Services
 - Consumer
 - United Kingdom
 trust_url: https://trust.manypets.com/

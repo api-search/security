@@ -78,6 +78,6 @@ tags:
 - Incident Response
 - Threat Intelligence
 - Digital Risk Protection
-- Agentic AI
+- AI Agents
 - GraphQL
 ---

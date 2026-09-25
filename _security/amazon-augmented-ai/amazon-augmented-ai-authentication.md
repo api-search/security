@@ -41,6 +41,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Amazon Augmented AI
 - Human-in-the-Loop
-- Machine-Learning
+- Machine Learning
 - AI Review
 ---

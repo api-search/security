@@ -25,8 +25,8 @@ layout: security
 method: probed
 name: Usadata Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for USADATA, Inc., probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: USADATA, Inc.
+overview: 'Domain security posture for USADATA, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: USADATA
 provider_slug: usadata-inc
 slug: usadata-inc-domain-security
 source_filename: usadata-inc-domain-security.yml

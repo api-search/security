@@ -42,7 +42,7 @@ tags:
 - Lending
 - Fintech
 - Home Loans
-- Real-Estate
+- Real Estate
 - Marketplace
 - Consumer Finance
 ---

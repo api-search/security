@@ -177,7 +177,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Backend-as-a-Service
 - PostgreSQL
-- Open-Source
+- Open Source
 - Authentication
 - Real-Time
 - Storage

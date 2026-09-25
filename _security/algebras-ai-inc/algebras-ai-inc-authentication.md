@@ -67,8 +67,8 @@ method: derived
 name: Algebras Ai Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Algebras AI Inc. secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Algebras AI Inc.
+overview: Algebras AI secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Algebras AI
 provider_slug: algebras-ai-inc
 scheme_count: 1
 schemes:

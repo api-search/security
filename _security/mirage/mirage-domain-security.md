@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-audio-api-openapi.yml
 - filename: mirage-health-api-openapi.yml
   format: yaml
-  label: Mirage health API
+  label: Mirage Health API
   slug: mirage-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-health-api-openapi.yml
 - filename: mirage-internal-api-openapi.yml
   format: yaml
-  label: Mirage internal API
+  label: Mirage Internal API
   slug: mirage-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-internal-api-openapi.yml
@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-meta-text-overlays-api-openapi.yml
 - filename: mirage-root-api-openapi.yml
   format: yaml
-  label: Mirage root API
+  label: Mirage Root API
   slug: mirage-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-root-api-openapi.yml
@@ -98,5 +98,5 @@ tags:
 - Media
 - Content Creation
 - Text-to-Speech
-- Machine-Learning
+- Machine Learning
 ---

@@ -56,7 +56,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/h
 summary_line: SOC 2, GDPR, CCPA
 tags:
 - Email Verification
-- Email Validation
 - Deliverability
 - Data Quality
 - Email

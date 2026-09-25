@@ -51,5 +51,5 @@ tags:
 - Lead Generation
 - Consumer Health
 - Webhook
-- JSON-Schema
+- JSON Schema
 ---

@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-company-groups-api-openapi.yml
 - filename: cubesoftware-compliance-api-openapi.yml
   format: yaml
-  label: Cube compliance API
+  label: Cube Compliance API
   slug: cubesoftware-compliance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-compliance-api-openapi.yml

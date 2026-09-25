@@ -150,7 +150,7 @@ tags:
 - Company
 - Payments
 - Banking
-- Financial-Services
+- Financial Services
 - E-Commerce
 - Marketplace
 - Money Transfer

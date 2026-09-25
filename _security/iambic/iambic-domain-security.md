@@ -34,7 +34,7 @@ tags:
 - Drug Discovery
 - AI for Science
 - Therapeutics
-- Biotech
+- Biotechnology
 - Oncology
 - Clinical-Stage Pipeline
 - Generative Chemistry

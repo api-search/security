@@ -72,6 +72,6 @@ tags:
 - eSIM
 - Connectivity
 - Travel Data
-- Telecom
+- Telecommunications
 - Mobile
 ---

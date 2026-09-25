@@ -42,7 +42,7 @@ tags:
 - Sky Segmentation
 - Niantic
 - Niantic Spatial
-- Open-Source
+- Open Source
 - JavaScript SDK
 - TypeScript
 - A-Frame

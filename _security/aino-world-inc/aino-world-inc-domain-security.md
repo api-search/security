@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Aino World Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Aino World Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Aino World Inc.
+overview: 'Domain security posture for Aino World, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Aino World
 provider_slug: aino-world-inc
 slug: aino-world-inc-domain-security
 source_filename: aino-world-inc-domain-security.yml
@@ -38,7 +38,7 @@ tags:
 - Mapping
 - Location Intelligence
 - Urban Planning
-- Real-Estate
+- Real Estate
 - Artificial Intelligence
 - Data
 ---

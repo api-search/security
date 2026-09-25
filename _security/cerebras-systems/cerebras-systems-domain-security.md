@@ -76,7 +76,7 @@ tags:
 - Company
 - AI Infrastructure
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - Developer Tools

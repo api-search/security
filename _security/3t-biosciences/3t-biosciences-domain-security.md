@@ -30,11 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3t-biosciences
 summary_line: TLSv1.3
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Immunotherapy
 - Oncology
 - TCR Therapeutics
 - Cell Therapy
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 ---

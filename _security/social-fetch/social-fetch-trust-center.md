@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: https://www.soc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/security/social-fetch-trust-center.yml
 summary_line: trust center published
 tags:
-- Social-Media
+- Social Media
 - Web Scraping
 - Data Extraction
 - Social Listening
@@ -184,7 +184,7 @@ tags:
 - JSON:API
 - REST
 - MCP
-- agent-native
+- Agent-Native
 - TypeScript SDK
 - Transcripts
 - ads intelligence

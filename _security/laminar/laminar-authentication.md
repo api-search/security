@@ -60,5 +60,5 @@ tags:
 - Evaluation
 - Monitoring
 - Developer Tools
-- Open-Source
+- Open Source
 ---

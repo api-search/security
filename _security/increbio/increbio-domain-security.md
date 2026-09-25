@@ -34,7 +34,7 @@ tags:
 - Company
 - Food
 - Beverages
-- Biotech
+- Biotechnology
 - Health
 - Sugar Reduction
 - Consumer Packaged Goods

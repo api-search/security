@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Compliance
 - RegTech
-- Financial-Services
+- Financial Services
 - SEC
 - FINRA
 - Governance

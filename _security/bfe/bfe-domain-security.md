@@ -50,7 +50,7 @@ summary_line: TLSv1.3
 tags:
 - Load Balancer
 - Networking
-- Open-Source
+- Open Source
 - Traffic Management
 - CNCF
 - Baidu

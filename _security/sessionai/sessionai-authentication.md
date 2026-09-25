@@ -85,7 +85,7 @@ tags:
 - Retail
 - Personalization
 - Marketing
-- Agentic AI
+- AI Agents
 - Decisioning
 - Customer Data
 - Event

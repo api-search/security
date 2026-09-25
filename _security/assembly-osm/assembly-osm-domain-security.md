@@ -41,7 +41,7 @@ tags:
 - Modular Construction
 - Off-Site Manufacturing
 - Prefabrication
-- Real-Estate
+- Real Estate
 - Housing
 - Architecture
 - Digital Twin

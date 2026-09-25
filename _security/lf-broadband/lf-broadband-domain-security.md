@@ -48,8 +48,8 @@ tags:
 - Broadband
 - Linux Foundation
 - Networking
-- Telecom
+- Telecommunications
 - PON
-- Open-Source
+- Open Source
 - SDN
 ---

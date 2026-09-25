@@ -39,11 +39,11 @@ tags:
 - Company
 - Artificial Intelligence
 - Causal AI
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Decision Intelligence
 - Analytics
 - Agents
-- Open-Source
+- Open Source
 - Python
 ---

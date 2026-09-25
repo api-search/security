@@ -34,7 +34,7 @@ tags:
 - AI Security
 - AI Red Teaming
 - LLM Security
-- Agentic AI
+- AI Agents
 - Adversarial Machine Learning
 - AI Governance
 - Cybersecurity

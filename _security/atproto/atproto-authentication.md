@@ -4,49 +4,49 @@ api_key_in: []
 api_specs:
 - filename: atproto-actor-api-openapi.yml
   format: yaml
-  label: AT Protocol actor API
+  label: AT Protocol Actor API
   slug: atproto-actor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-actor-api-openapi.yml
 - filename: atproto-feed-api-openapi.yml
   format: yaml
-  label: AT Protocol feed API
+  label: AT Protocol Feed API
   slug: atproto-feed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-feed-api-openapi.yml
 - filename: atproto-graph-api-openapi.yml
   format: yaml
-  label: AT Protocol graph API
+  label: AT Protocol Graph API
   slug: atproto-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-graph-api-openapi.yml
 - filename: atproto-identity-api-openapi.yml
   format: yaml
-  label: AT Protocol identity API
+  label: AT Protocol Identity API
   slug: atproto-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-identity-api-openapi.yml
 - filename: atproto-notification-api-openapi.yml
   format: yaml
-  label: AT Protocol notification API
+  label: AT Protocol Notification API
   slug: atproto-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-notification-api-openapi.yml
 - filename: atproto-repo-api-openapi.yml
   format: yaml
-  label: AT Protocol repo API
+  label: AT Protocol Repo API
   slug: atproto-repo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-repo-api-openapi.yml
 - filename: atproto-server-api-openapi.yml
   format: yaml
-  label: AT Protocol server API
+  label: AT Protocol Server API
   slug: atproto-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-server-api-openapi.yml
 - filename: atproto-sync-api-openapi.yml
   format: yaml
-  label: AT Protocol sync API
+  label: AT Protocol Sync API
   slug: atproto-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-sync-api-openapi.yml
@@ -87,10 +87,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/atproto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/authentication/atproto-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Social Networking
+- Social Network
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Bluesky
 - Fediverse
 - Identity

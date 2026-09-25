@@ -1,49 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: dalcor-pharmaceuticals-categories-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Categories API
-  slug: dalcor-pharmaceuticals-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-categories-api-openapi.yml
-- filename: dalcor-pharmaceuticals-comments-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Comments API
-  slug: dalcor-pharmaceuticals-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-comments-api-openapi.yml
-- filename: dalcor-pharmaceuticals-discovery-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Discovery API
-  slug: dalcor-pharmaceuticals-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-discovery-api-openapi.yml
-- filename: dalcor-pharmaceuticals-media-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Media API
-  slug: dalcor-pharmaceuticals-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-media-api-openapi.yml
-- filename: dalcor-pharmaceuticals-pages-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Pages API
-  slug: dalcor-pharmaceuticals-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-pages-api-openapi.yml
-- filename: dalcor-pharmaceuticals-posts-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Posts API
-  slug: dalcor-pharmaceuticals-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-posts-api-openapi.yml
-- filename: dalcor-pharmaceuticals-search-api-openapi.yml
-  format: yaml
-  label: DalCor Pharmaceuticals Search API
-  slug: dalcor-pharmaceuticals-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/openapi/dalcor-pharmaceuticals-search-api-openapi.yml
 auth_types:
 - http
 description: ''

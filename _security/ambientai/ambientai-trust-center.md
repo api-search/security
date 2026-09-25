@@ -20,12 +20,12 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Physical Security
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Video Analytics
 - Access Control
 - Threat Detection
 - Enterprise Security
-- Agentic AI
+- AI Agents
 trust_url: https://www.ambient.ai/blog/security-privacy-by-design
 ---

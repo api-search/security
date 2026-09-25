@@ -10,8 +10,8 @@ method: searched
 name: Kubit Ai Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Kubit AI, Inc. declares 3 security scheme(s) across its OpenAPI definitions.
-provider_name: Kubit AI, Inc.
+overview: Kubit AI declares 3 security scheme(s) across its OpenAPI definitions.
+provider_name: Kubit AI
 provider_slug: kubit-ai-inc
 scheme_count: 3
 schemes:

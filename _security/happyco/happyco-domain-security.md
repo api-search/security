@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property Management
 - Inspection
 - Maintenance

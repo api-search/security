@@ -78,6 +78,6 @@ tags:
 - Copilot
 - Extensibility
 - Generative AI
-- Microsoft-365
+- Microsoft 365
 - Productivity
 ---

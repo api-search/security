@@ -210,7 +210,7 @@ tags:
 - Water Infrastructure
 - Sewer Inspection
 - Asset Management
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - GIS
 - Public Works

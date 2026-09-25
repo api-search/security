@@ -72,10 +72,9 @@ summary_line: 0 schemes
 tags:
 - AI Agents
 - Linux Foundation
-- Open-Source
+- Open Source
 - Standards
 - MCP
-- Agentic AI
 - Interoperability
 - Agent Protocols
 - A2A

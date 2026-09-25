@@ -286,7 +286,7 @@ tags:
 - Business Process Management
 - Workflows
 - BPMN
-- Open-Source
+- Open Source
 - Process Automation
 - Java
 - REST API

@@ -54,4 +54,5 @@ tags:
 - Fargate
 - EKS
 - Spot Instances
+- Scheduling
 ---

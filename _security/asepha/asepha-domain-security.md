@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Pharmacy
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 - AI Agents
 - Medication Management
 - Healthcare Compliance

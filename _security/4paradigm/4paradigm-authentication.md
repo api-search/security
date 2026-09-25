@@ -155,10 +155,10 @@ summary_line: apiKey/openIdConnect/none · 6 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Feature Store
 - Database
-- Open-Source
+- Open Source
 - MLOps
 - Agents
 - Robotics

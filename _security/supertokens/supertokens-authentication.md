@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supertokens/re
 summary_line: apiKey · 1 scheme
 tags:
 - Authentication
-- Open-Source
+- Open Source
 - Session Management
 - Social Login
 - Passwordless
@@ -103,4 +103,5 @@ tags:
 - Multi-Tenancy
 - Node.js
 - Self-Hosted
+- Identity Federation
 ---

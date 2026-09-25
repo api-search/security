@@ -382,5 +382,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/h
 summary_line: apiKey · 3 schemes
 tags:
 - Integration
-- Unified-API
+- Unified API
+- A2A
 ---

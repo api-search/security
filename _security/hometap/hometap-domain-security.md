@@ -34,7 +34,7 @@ tags:
 - Company
 - Fintech
 - Home Equity
-- Real-Estate
+- Real Estate
 - Lending
 - Mortgage
 - Consumer Finance

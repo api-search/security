@@ -30,7 +30,7 @@ tags:
 - Company
 - Security
 - Fraud Detection
-- Risk
+- Risk Management
 - Decisioning
 - Identity Verification
 - KYC

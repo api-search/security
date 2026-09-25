@@ -39,4 +39,5 @@ tags:
 - Hospitality
 - Reservations
 - Restaurant
+- Booking
 ---

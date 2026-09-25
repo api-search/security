@@ -36,7 +36,7 @@ tags:
 - Physical AI
 - Evaluation
 - Benchmarks
-- Open-Source
-- Machine-Learning
+- Open Source
+- Machine Learning
 - Vision Language Action
 ---

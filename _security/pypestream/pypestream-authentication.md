@@ -221,7 +221,7 @@ summary_line: apiKey/http · 4 schemes
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Contact Center
 - Customer Service
 - Customer Engagement
@@ -230,4 +230,5 @@ tags:
 - Messaging
 - Analytics
 - Enterprise Software
+- Real-Time
 ---

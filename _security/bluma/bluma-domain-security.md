@@ -50,7 +50,7 @@ tags:
 - Marketing
 - Content Creation
 - Short-Form Video
-- Social-Media
+- Social Media
 - Generative AI
 - Creative Tools
 - Text-to-Speech

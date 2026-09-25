@@ -43,6 +43,6 @@ tags:
 - Storage
 - Flash Storage
 - Enterprise Storage
-- Data-Center
+- Data Center
 - Acquired
 ---

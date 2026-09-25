@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/security/defense-health-agency-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Defense
 - Department of Defense
 - Health

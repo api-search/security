@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  Consumer 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/authentication/mystate-bank-authentication.yml
 summary_line: none/oauth2/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

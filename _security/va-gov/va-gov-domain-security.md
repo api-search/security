@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-enrolled-benefits-api-openapi.yml
 - filename: va-gov-facilities-api-openapi.yml
   format: yaml
-  label: VA Lighthouse facilities API
+  label: VA Lighthouse Facilities API
   slug: va-gov-facilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-facilities-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-letters-api-openapi.yml
 - filename: va-gov-loanreviewpublic-api-openapi.yml
   format: yaml
-  label: VA Lighthouse loanReviewPublic API
+  label: VA Lighthouse Loan Review Public API
   slug: va-gov-loanreviewpublic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-loanreviewpublic-api-openapi.yml
@@ -201,8 +201,8 @@ layout: security
 method: probed
 name: Va Gov Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for VA Lighthouse, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: VA Lighthouse
+overview: 'Domain security posture for Department of Veterans Affairs (VA Lighthouse), probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Department of Veterans Affairs (VA Lighthouse)
 provider_slug: va-gov
 slug: va-gov-domain-security
 source_filename: va-gov-domain-security.yml

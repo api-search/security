@@ -44,10 +44,10 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Generative AI
 - Creative Tools
 - Brands
-- Machine-Learning
+- Machine Learning
 - Media
 ---

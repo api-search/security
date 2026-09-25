@@ -2,13 +2,13 @@
 api_specs:
 - filename: leo1-api-api-openapi.yml
   format: yaml
-  label: Leo1 api
+  label: Leo1 API
   slug: leo1-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-api-api-openapi.yml
 - filename: leo1-auth-api-openapi.yml
   format: yaml
-  label: Leo1 auth API
+  label: Leo1 Auth API
   slug: leo1-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-auth-api-openapi.yml
@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-communication-api-openapi.yml
 - filename: leo1-documents-api-openapi.yml
   format: yaml
-  label: Leo1 documents API
+  label: Leo1 Documents API
   slug: leo1-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-documents-api-openapi.yml
@@ -38,19 +38,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-enach-api-openapi.yml
 - filename: leo1-fee-collections-api-openapi.yml
   format: yaml
-  label: Leo1 fee_collections API
+  label: Leo1 Fee Collections API
   slug: leo1-fee-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-fee-collections-api-openapi.yml
 - filename: leo1-fee-dues-api-openapi.yml
   format: yaml
-  label: Leo1 fee_dues API
+  label: Leo1 Fee Dues API
   slug: leo1-fee-dues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-fee-dues-api-openapi.yml
 - filename: leo1-institute-api-openapi.yml
   format: yaml
-  label: Leo1 institute API
+  label: Leo1 Institute API
   slug: leo1-institute-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-institute-api-openapi.yml
@@ -110,19 +110,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-operations-api-openapi.yml
 - filename: leo1-payment-api-openapi.yml
   format: yaml
-  label: Leo1 payment API
+  label: Leo1 Payment API
   slug: leo1-payment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-payment-api-openapi.yml
 - filename: leo1-penalty-api-openapi.yml
   format: yaml
-  label: Leo1 penalty API
+  label: Leo1 Penalty API
   slug: leo1-penalty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-penalty-api-openapi.yml
 - filename: leo1-refund-api-openapi.yml
   format: yaml
-  label: Leo1 refund API
+  label: Leo1 Refund API
   slug: leo1-refund-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-refund-api-openapi.yml
@@ -146,7 +146,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-student-account-api-openapi.yml
 - filename: leo1-student-api-openapi.yml
   format: yaml
-  label: Leo1 student API
+  label: Leo1 Student API
   slug: leo1-student-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-student-api-openapi.yml
@@ -176,19 +176,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-switch-feature-api-openapi.yml
 - filename: leo1-transactions-api-openapi.yml
   format: yaml
-  label: Leo1 transactions API
+  label: Leo1 Transactions API
   slug: leo1-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-transactions-api-openapi.yml
 - filename: leo1-user-api-openapi.yml
   format: yaml
-  label: Leo1 user API
+  label: Leo1 User API
   slug: leo1-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-user-api-openapi.yml
 - filename: leo1-waiver-api-openapi.yml
   format: yaml
-  label: Leo1 waiver API
+  label: Leo1 Waiver API
   slug: leo1-waiver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-waiver-api-openapi.yml

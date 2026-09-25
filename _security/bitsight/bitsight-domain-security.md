@@ -39,4 +39,5 @@ tags:
 - Attack Surface Management
 - Threat Intelligence
 - Vendor Risk
+- Risk Management
 ---

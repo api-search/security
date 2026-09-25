@@ -4,73 +4,73 @@ api_key_in: []
 api_specs:
 - filename: capy-automations-api-openapi.yml
   format: yaml
-  label: Capy automations API
+  label: Capy Automations API
   slug: capy-automations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-automations-api-openapi.yml
 - filename: capy-browser-snapshots-api-openapi.yml
   format: yaml
-  label: Capy browser-snapshots API
+  label: Capy Browser Snapshots API
   slug: capy-browser-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-browser-snapshots-api-openapi.yml
 - filename: capy-environment-variables-api-openapi.yml
   format: yaml
-  label: Capy environment-variables API
+  label: Capy Environment Variables API
   slug: capy-environment-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-environment-variables-api-openapi.yml
 - filename: capy-models-api-openapi.yml
   format: yaml
-  label: Capy models API
+  label: Capy Models API
   slug: capy-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-models-api-openapi.yml
 - filename: capy-projects-api-openapi.yml
   format: yaml
-  label: Capy projects API
+  label: Capy Projects API
   slug: capy-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-projects-api-openapi.yml
 - filename: capy-sessions-api-openapi.yml
   format: yaml
-  label: Capy sessions API
+  label: Capy Sessions API
   slug: capy-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-sessions-api-openapi.yml
 - filename: capy-setup-api-openapi.yml
   format: yaml
-  label: Capy setup API
+  label: Capy Setup API
   slug: capy-setup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-setup-api-openapi.yml
 - filename: capy-snapshots-api-openapi.yml
   format: yaml
-  label: Capy snapshots API
+  label: Capy Snapshots API
   slug: capy-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-snapshots-api-openapi.yml
 - filename: capy-tags-api-openapi.yml
   format: yaml
-  label: Capy tags API
+  label: Capy Tags API
   slug: capy-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-tags-api-openapi.yml
 - filename: capy-tasks-api-openapi.yml
   format: yaml
-  label: Capy tasks API
+  label: Capy Tasks API
   slug: capy-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-tasks-api-openapi.yml
 - filename: capy-threads-api-openapi.yml
   format: yaml
-  label: Capy threads API
+  label: Capy Threads API
   slug: capy-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-threads-api-openapi.yml
 - filename: capy-usage-api-openapi.yml
   format: yaml
-  label: Capy usage API
+  label: Capy Usage API
   slug: capy-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-usage-api-openapi.yml

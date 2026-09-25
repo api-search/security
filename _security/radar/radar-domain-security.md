@@ -89,4 +89,5 @@ tags:
 - Geofencing
 - Routing
 - Maps
+- Geospatial
 ---

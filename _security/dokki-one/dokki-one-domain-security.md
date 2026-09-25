@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Collaboration
-- Knowledge-Management
+- Knowledge Management
 - Documents
 - Agents
 - MCP

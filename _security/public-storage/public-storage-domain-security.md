@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Self Storage
 - REIT
-- Real-Estate
+- Real Estate
 - Consumer Services
 - Fortune 1000
 ---

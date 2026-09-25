@@ -84,7 +84,7 @@ tags:
 - Segmentation
 - Developer Tools
 - DevOps
-- Open-Source
+- Open Source
 - Software-as-a-Service
 - MCP
 - Agent Ready

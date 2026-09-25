@@ -163,7 +163,7 @@ tags:
 - Shoppable Media
 - Product Availability
 - MCP
-- agent-native
+- Agent-Native
 - Reporting
 - CPG
 ---

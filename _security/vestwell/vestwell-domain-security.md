@@ -42,7 +42,7 @@ tags:
 - Workplace Savings
 - 401k
 - 529 College Savings
-- Financial-Services
+- Financial Services
 - Fintech
 - Recordkeeping
 - Payroll Integration

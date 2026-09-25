@@ -35,7 +35,7 @@ tags:
 - Cloud
 - Compliance
 - Governance
-- Risk
+- Risk Management
 - Security
 - GRC
 - SOC 2

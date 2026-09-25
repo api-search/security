@@ -2,43 +2,43 @@
 api_specs:
 - filename: newstore-address-api-openapi.yml
   format: yaml
-  label: Newstore address API
+  label: Newstore Address API
   slug: newstore-address-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-address-api-openapi.yml
 - filename: newstore-audit-events-api-openapi.yml
   format: yaml
-  label: Newstore audit-events API
+  label: Newstore Audit Events API
   slug: newstore-audit-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-audit-events-api-openapi.yml
 - filename: newstore-cart-api-openapi.yml
   format: yaml
-  label: Newstore cart API
+  label: Newstore Cart API
   slug: newstore-cart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-cart-api-openapi.yml
 - filename: newstore-cashboxes-api-openapi.yml
   format: yaml
-  label: Newstore cashboxes API
+  label: Newstore Cashboxes API
   slug: newstore-cashboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-cashboxes-api-openapi.yml
 - filename: newstore-customer-configuration-api-openapi.yml
   format: yaml
-  label: Newstore customer-configuration API
+  label: Newstore Customer Configuration API
   slug: newstore-customer-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-customer-configuration-api-openapi.yml
 - filename: newstore-customer-profile-api-openapi.yml
   format: yaml
-  label: Newstore customer-profile API
+  label: Newstore Customer Profile API
   slug: newstore-customer-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-customer-profile-api-openapi.yml
 - filename: newstore-data-api-openapi.yml
   format: yaml
-  label: Newstore data API
+  label: Newstore Data API
   slug: newstore-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-data-api-openapi.yml
@@ -50,13 +50,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-easypostadapterconfig-api-openapi.yml
 - filename: newstore-fulfillment-requests-api-openapi.yml
   format: yaml
-  label: Newstore fulfillment-requests API
+  label: Newstore Fulfillment Requests API
   slug: newstore-fulfillment-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-fulfillment-requests-api-openapi.yml
 - filename: newstore-identity-providers-api-openapi.yml
   format: yaml
-  label: Newstore identity-providers API
+  label: Newstore Identity Providers API
   slug: newstore-identity-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-identity-providers-api-openapi.yml
@@ -74,25 +74,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-inventory-configuration-api-openapi.yml
 - filename: newstore-order-injection-api-openapi.yml
   format: yaml
-  label: Newstore order-injection API
+  label: Newstore Order Injection API
   slug: newstore-order-injection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-order-injection-api-openapi.yml
 - filename: newstore-order-injection-config-api-openapi.yml
   format: yaml
-  label: Newstore order-injection-config API
+  label: Newstore Order Injection Config API
   slug: newstore-order-injection-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-order-injection-config-api-openapi.yml
 - filename: newstore-orders-api-openapi.yml
   format: yaml
-  label: Newstore orders API
+  label: Newstore Orders API
   slug: newstore-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-orders-api-openapi.yml
 - filename: newstore-package-types-api-openapi.yml
   format: yaml
-  label: Newstore package-types API
+  label: Newstore Package Types API
   slug: newstore-package-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-package-types-api-openapi.yml
@@ -110,19 +110,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-product-export-api-openapi.yml
 - filename: newstore-profiles-api-openapi.yml
   format: yaml
-  label: Newstore profiles API
+  label: Newstore Profiles API
   slug: newstore-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-profiles-api-openapi.yml
 - filename: newstore-provider-rates-api-openapi.yml
   format: yaml
-  label: Newstore provider-rates API
+  label: Newstore Provider Rates API
   slug: newstore-provider-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-provider-rates-api-openapi.yml
 - filename: newstore-providers-api-openapi.yml
   format: yaml
-  label: Newstore providers API
+  label: Newstore Providers API
   slug: newstore-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-providers-api-openapi.yml
@@ -134,109 +134,109 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-reason-codes-api-openapi.yml
 - filename: newstore-reservations-api-openapi.yml
   format: yaml
-  label: Newstore reservations API
+  label: Newstore Reservations API
   slug: newstore-reservations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-reservations-api-openapi.yml
 - filename: newstore-roles-api-openapi.yml
   format: yaml
-  label: Newstore roles API
+  label: Newstore Roles API
   slug: newstore-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-roles-api-openapi.yml
 - filename: newstore-routing-api-openapi.yml
   format: yaml
-  label: Newstore routing API
+  label: Newstore Routing API
   slug: newstore-routing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-routing-api-openapi.yml
 - filename: newstore-routing-config-api-openapi.yml
   format: yaml
-  label: Newstore routing-config API
+  label: Newstore Routing Config API
   slug: newstore-routing-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-routing-config-api-openapi.yml
 - filename: newstore-routing-ruleset-api-openapi.yml
   format: yaml
-  label: Newstore routing-ruleset API
+  label: Newstore Routing Ruleset API
   slug: newstore-routing-ruleset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-routing-ruleset-api-openapi.yml
 - filename: newstore-sales-orders-api-openapi.yml
   format: yaml
-  label: Newstore sales-orders API
+  label: Newstore Sales Orders API
   slug: newstore-sales-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-sales-orders-api-openapi.yml
 - filename: newstore-shipment-configurations-api-openapi.yml
   format: yaml
-  label: Newstore shipment-configurations API
+  label: Newstore Shipment Configurations API
   slug: newstore-shipment-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-shipment-configurations-api-openapi.yml
 - filename: newstore-shipping-labels-api-openapi.yml
   format: yaml
-  label: Newstore shipping-labels API
+  label: Newstore Shipping Labels API
   slug: newstore-shipping-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-shipping-labels-api-openapi.yml
 - filename: newstore-shipping-option-audits-api-openapi.yml
   format: yaml
-  label: Newstore shipping-option-audits API
+  label: Newstore Shipping Option Audits API
   slug: newstore-shipping-option-audits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-shipping-option-audits-api-openapi.yml
 - filename: newstore-stock-api-openapi.yml
   format: yaml
-  label: Newstore stock API
+  label: Newstore Stock API
   slug: newstore-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-stock-api-openapi.yml
 - filename: newstore-store-tax-configuration-api-openapi.yml
   format: yaml
-  label: Newstore store-tax-configuration API
+  label: Newstore Store Tax Configuration API
   slug: newstore-store-tax-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-store-tax-configuration-api-openapi.yml
 - filename: newstore-stores-api-openapi.yml
   format: yaml
-  label: Newstore stores API
+  label: Newstore Stores API
   slug: newstore-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-stores-api-openapi.yml
 - filename: newstore-tax-transactions-api-openapi.yml
   format: yaml
-  label: Newstore tax-transactions API
+  label: Newstore Tax Transactions API
   slug: newstore-tax-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-tax-transactions-api-openapi.yml
 - filename: newstore-tenant-config-api-openapi.yml
   format: yaml
-  label: Newstore tenant-config API
+  label: Newstore Tenant Config API
   slug: newstore-tenant-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-tenant-config-api-openapi.yml
 - filename: newstore-tenant-tax-configuration-api-openapi.yml
   format: yaml
-  label: Newstore tenant-tax-configuration API
+  label: Newstore Tenant Tax Configuration API
   slug: newstore-tenant-tax-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-tenant-tax-configuration-api-openapi.yml
 - filename: newstore-token-operations-api-openapi.yml
   format: yaml
-  label: Newstore token-operations API
+  label: Newstore Token Operations API
   slug: newstore-token-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-token-operations-api-openapi.yml
 - filename: newstore-tppe-api-openapi.yml
   format: yaml
-  label: Newstore tppe API
+  label: Newstore Tppe API
   slug: newstore-tppe-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-tppe-api-openapi.yml
 - filename: newstore-users-api-openapi.yml
   format: yaml
-  label: Newstore users API
+  label: Newstore Users API
   slug: newstore-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/openapi/newstore-users-api-openapi.yml

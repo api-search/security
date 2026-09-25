@@ -38,5 +38,5 @@ tags:
 - SOC
 - Security Operations
 - Threat Detection
-- Agentic AI
+- AI Agents
 ---

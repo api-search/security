@@ -106,7 +106,7 @@ tags:
 - Email
 - Email Signatures
 - Email Signature Management
-- Microsoft-365
+- Microsoft 365
 - Google Workspace
 - Marketing
 - Productivity

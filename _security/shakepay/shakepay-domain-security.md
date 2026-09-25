@@ -40,7 +40,7 @@ tags:
 - Payments
 - Cryptocurrency
 - Bitcoin
-- Financial-Services
+- Financial Services
 - Canada
 - Fintech
 ---

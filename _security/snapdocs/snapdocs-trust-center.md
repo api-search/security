@@ -22,7 +22,7 @@ tags:
 - Company
 - PropTech
 - Mortgage
-- Real-Estate
+- Real Estate
 - Fintech
 - eClosing
 - Title and Settlement

@@ -49,7 +49,7 @@ tags:
 - Video
 - Y Combinator
 - MCP
-- agent-native
+- Agent-Native
 - Analytics
 - Conversation Intelligence
 trust_url: https://trust.delve.co/karumi

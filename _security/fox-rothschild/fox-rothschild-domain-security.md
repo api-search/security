@@ -32,8 +32,8 @@ layout: security
 method: probed
 name: Fox Rothschild Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Fox Rothschild LLP, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Fox Rothschild LLP
+overview: 'Domain security posture for Fox Rothschild, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Fox Rothschild
 provider_slug: fox-rothschild
 slug: fox-rothschild-domain-security
 source_filename: fox-rothschild-domain-security.yml

@@ -36,7 +36,7 @@ tags:
 - Machine Vision
 - Manufacturing
 - Quality Control
-- Computer-Vision
+- Computer Vision
 - Edge AI
 - Industrial Automation
 ---

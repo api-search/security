@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: 99-minutos-coverage-api-openapi.yml
   format: yaml
-  label: 99 Minutos coverage API
+  label: 99 Minutos Coverage API
   slug: 99-minutos-coverage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-coverage-api-openapi.yml
 - filename: 99-minutos-documents-api-openapi.yml
   format: yaml
-  label: 99 Minutos documents API
+  label: 99 Minutos Documents API
   slug: 99-minutos-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-documents-api-openapi.yml
 - filename: 99-minutos-locations-api-openapi.yml
   format: yaml
-  label: 99 Minutos locations API
+  label: 99 Minutos Locations API
   slug: 99-minutos-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-locations-api-openapi.yml
@@ -28,25 +28,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-orders-api-openapi.yml
 - filename: 99-minutos-shipments-api-openapi.yml
   format: yaml
-  label: 99 Minutos shipments API
+  label: 99 Minutos Shipments API
   slug: 99-minutos-shipments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-shipments-api-openapi.yml
 - filename: 99-minutos-shipping-rates-api-openapi.yml
   format: yaml
-  label: 99 Minutos shipping-rates API
+  label: 99 Minutos Shipping Rates API
   slug: 99-minutos-shipping-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-shipping-rates-api-openapi.yml
 - filename: 99-minutos-super-geocoding-api-openapi.yml
   format: yaml
-  label: 99 Minutos super-geocoding API
+  label: 99 Minutos Super Geocoding API
   slug: 99-minutos-super-geocoding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-super-geocoding-api-openapi.yml
 - filename: 99-minutos-webhooks-api-openapi.yml
   format: yaml
-  label: 99 Minutos webhooks API
+  label: 99 Minutos Webhooks API
   slug: 99-minutos-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-webhooks-api-openapi.yml

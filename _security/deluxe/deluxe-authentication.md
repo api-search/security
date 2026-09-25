@@ -90,8 +90,8 @@ method: derived
 name: Deluxe Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Deluxe Corporation secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Deluxe Corporation
+overview: Deluxe secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Deluxe
 provider_slug: deluxe
 scheme_count: 2
 schemes:

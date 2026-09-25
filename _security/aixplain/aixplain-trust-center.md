@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Autonomous-Work
 - Enterprise
 - Platform

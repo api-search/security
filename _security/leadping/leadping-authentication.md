@@ -229,11 +229,12 @@ tags:
 - Communications
 - Voice/calling
 - Compliance & consent
-- agent-native
+- Agent-Native
 - MCP
 - Lead intake
 - Conversations
 - Automation
 - Suppression & opt-out
 - Webhook
+- A2A
 ---

@@ -94,7 +94,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Generative AI

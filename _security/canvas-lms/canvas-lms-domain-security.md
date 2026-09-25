@@ -121,7 +121,7 @@ tags:
 - LTI
 - Higher Education
 - K-12
-- Open-Source
+- Open Source
 - AGPL
 - Canvas
 ---

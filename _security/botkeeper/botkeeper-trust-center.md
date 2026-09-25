@@ -23,7 +23,7 @@ tags:
 - Company
 - Accounting
 - Bookkeeping
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 - Automation
 - Software-as-a-Service

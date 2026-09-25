@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Flex Pharma Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Flex Pharma, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Flex Pharma, Inc.
+overview: 'Domain security posture for Flex Pharma, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Flex Pharma
 provider_slug: flex-pharma-inc
 slug: flex-pharma-inc-domain-security
 source_filename: flex-pharma-inc-domain-security.yml

@@ -59,7 +59,6 @@ summary_line: apiKey · 2 schemes
 tags:
 - Email
 - Email Verification
-- Email Validation
 - SMTP
 - MX Records
 - Catch-All Detection

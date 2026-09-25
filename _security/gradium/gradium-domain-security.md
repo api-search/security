@@ -2,7 +2,7 @@
 api_specs:
 - filename: gradium-metering-api-openapi.yml
   format: yaml
-  label: Gradium metering API
+  label: Gradium Metering API
   slug: gradium-metering-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/openapi/gradium-metering-api-openapi.yml
@@ -85,4 +85,5 @@ tags:
 - WebSocket
 - Developer API
 - Voice Agents
+- Real-Time
 ---

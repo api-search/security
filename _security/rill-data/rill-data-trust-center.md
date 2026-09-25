@@ -32,7 +32,7 @@ tags:
 - Metrics
 - Data
 - OLAP
-- Open-Source
+- Open Source
 - Developer Tools
 trust_url: https://trust.rilldata.com/
 ---

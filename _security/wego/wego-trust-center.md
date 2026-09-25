@@ -67,7 +67,7 @@ tags:
 - Hotels
 - Metasearch
 - Booking
-- agent-native
+- Agent-Native
 - Tourism
 - Search
 trust_url: https://trust.wego.com/

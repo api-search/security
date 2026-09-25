@@ -37,5 +37,6 @@ tags:
 - Uptime
 - Reliability
 - Atlassian
+- Monitoring
 trust_url: https://www.atlassian.com/trust
 ---

@@ -158,5 +158,6 @@ tags:
 - Workflows
 - Automation
 - Low-Code
+- Workflow Automation
 trust_url: https://trust.n8n.io/
 ---

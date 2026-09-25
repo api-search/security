@@ -77,6 +77,6 @@ tags:
 - Data Preparation
 - Data Science
 - ETL
-- Machine-Learning
+- Machine Learning
 - Predictive Analytics
 ---

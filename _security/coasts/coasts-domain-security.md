@@ -39,6 +39,6 @@ tags:
 - Local Development
 - AI Agents
 - Developer Productivity
-- Open-Source
+- Open Source
 - DevOps
 ---

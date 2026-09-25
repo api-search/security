@@ -33,7 +33,7 @@ summary_line: 0 schemes
 tags:
 - Digital Assets
 - Crypto
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
 - Fund Administration
 - Reconciliation

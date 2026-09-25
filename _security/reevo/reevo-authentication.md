@@ -161,4 +161,5 @@ tags:
 - Agents
 - MCP
 - Sales Engagement
+- A2A
 ---

@@ -55,5 +55,5 @@ tags:
 - Content Management
 - Visual Editing
 - Markdown
-- Open-Source
+- Open Source
 ---

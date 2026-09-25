@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\ndocs:\n- https://docs.m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/authentication/mlsgrid-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Real-Estate
+- Real Estate
 - Property Listings
 - MLS
 - RESO

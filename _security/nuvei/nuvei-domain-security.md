@@ -120,7 +120,7 @@ tags:
 - Payouts
 - Alternative Payment Methods
 - Fraud
-- Risk
+- Risk Management
 - Currency Conversion
 - iGaming
 - E-Commerce

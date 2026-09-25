@@ -34,7 +34,7 @@ tags:
 - Memory
 - AI Agents
 - MCP
-- Knowledge-Management
+- Knowledge Management
 - Context
 - Productivity
 - Y Combinator

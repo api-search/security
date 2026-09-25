@@ -502,15 +502,15 @@ tags:
 - Data
 - Search
 - Scraping
-- Social-Media
+- Social Media
 - E-Commerce
 - SEO
 - Enrichment
 - MCP
-- agent-native
+- Agent-Native
 - Web Data
 - API Marketplace
-- Agent Payments
+- Agentic Payments
 - x402
 trust_url: ''
 ---

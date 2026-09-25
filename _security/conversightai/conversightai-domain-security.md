@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Supply Chain
 - Decision Intelligence
-- Agentic AI
+- AI Agents
 - Analytics
 - Data
 - Enterprise

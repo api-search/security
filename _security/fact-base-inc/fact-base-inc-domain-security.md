@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Fact Base Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Fact Base Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Fact Base Inc.
+overview: 'Domain security posture for Fact Base, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Fact Base
 provider_slug: fact-base-inc
 slug: fact-base-inc-domain-security
 source_filename: fact-base-inc-domain-security.yml

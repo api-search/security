@@ -33,7 +33,7 @@ tags:
 - Company
 - Careers
 - Mentoring
-- Recruitment
+- Recruiting
 - Education
 - Job
 - Community

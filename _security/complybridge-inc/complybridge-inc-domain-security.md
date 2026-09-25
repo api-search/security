@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Complybridge Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ComplyBridge, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: ComplyBridge, Inc.
+overview: 'Domain security posture for ComplyBridge, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: ComplyBridge
 provider_slug: complybridge-inc
 slug: complybridge-inc-domain-security
 source_filename: complybridge-inc-domain-security.yml
@@ -34,8 +34,7 @@ tags:
 - Company
 - Compliance
 - RegTech
-- Financial-Services
-- Regulatory Technology
+- Financial Services
 - MiCA
 - PSD2
 - GDPR

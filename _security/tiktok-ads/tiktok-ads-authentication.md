@@ -174,7 +174,7 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Advertising
 - Marketing
-- Social-Media
+- Social Media
 - Ad Campaigns
 - Performance Marketing
 - Conversion Tracking

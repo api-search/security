@@ -36,8 +36,8 @@ tags:
 - Synthetic Data
 - Simulation
 - Autonomous Vehicles
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Robotics
 - SDK
 ---

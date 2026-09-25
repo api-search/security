@@ -4,181 +4,181 @@ api_key_in: []
 api_specs:
 - filename: sonarsource-authentication-api-openapi.yml
   format: yaml
-  label: SonarSource authentication API
+  label: SonarSource Authentication API
   slug: sonarsource-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-authentication-api-openapi.yml
 - filename: sonarsource-ce-api-openapi.yml
   format: yaml
-  label: SonarSource ce API
+  label: SonarSource Ce API
   slug: sonarsource-ce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-ce-api-openapi.yml
 - filename: sonarsource-components-api-openapi.yml
   format: yaml
-  label: SonarSource components API
+  label: SonarSource Components API
   slug: sonarsource-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-components-api-openapi.yml
 - filename: sonarsource-duplications-api-openapi.yml
   format: yaml
-  label: SonarSource duplications API
+  label: SonarSource Duplications API
   slug: sonarsource-duplications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-duplications-api-openapi.yml
 - filename: sonarsource-favorites-api-openapi.yml
   format: yaml
-  label: SonarSource favorites API
+  label: SonarSource Favorites API
   slug: sonarsource-favorites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-favorites-api-openapi.yml
 - filename: sonarsource-favourites-api-openapi.yml
   format: yaml
-  label: SonarSource favourites API
+  label: SonarSource Favourites API
   slug: sonarsource-favourites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-favourites-api-openapi.yml
 - filename: sonarsource-hotspots-api-openapi.yml
   format: yaml
-  label: SonarSource hotspots API
+  label: SonarSource Hotspots API
   slug: sonarsource-hotspots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-hotspots-api-openapi.yml
 - filename: sonarsource-issues-api-openapi.yml
   format: yaml
-  label: SonarSource issues API
+  label: SonarSource Issues API
   slug: sonarsource-issues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-issues-api-openapi.yml
 - filename: sonarsource-languages-api-openapi.yml
   format: yaml
-  label: SonarSource languages API
+  label: SonarSource Languages API
   slug: sonarsource-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-languages-api-openapi.yml
 - filename: sonarsource-measures-api-openapi.yml
   format: yaml
-  label: SonarSource measures API
+  label: SonarSource Measures API
   slug: sonarsource-measures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-measures-api-openapi.yml
 - filename: sonarsource-metrics-api-openapi.yml
   format: yaml
-  label: SonarSource metrics API
+  label: SonarSource Metrics API
   slug: sonarsource-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-metrics-api-openapi.yml
 - filename: sonarsource-notifications-api-openapi.yml
   format: yaml
-  label: SonarSource notifications API
+  label: SonarSource Notifications API
   slug: sonarsource-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-notifications-api-openapi.yml
 - filename: sonarsource-permissions-api-openapi.yml
   format: yaml
-  label: SonarSource permissions API
+  label: SonarSource Permissions API
   slug: sonarsource-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-permissions-api-openapi.yml
 - filename: sonarsource-project-analyses-api-openapi.yml
   format: yaml
-  label: SonarSource project_analyses API
+  label: SonarSource Project Analyses API
   slug: sonarsource-project-analyses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-analyses-api-openapi.yml
 - filename: sonarsource-project-badges-api-openapi.yml
   format: yaml
-  label: SonarSource project_badges API
+  label: SonarSource Project Badges API
   slug: sonarsource-project-badges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-badges-api-openapi.yml
 - filename: sonarsource-project-branches-api-openapi.yml
   format: yaml
-  label: SonarSource project_branches API
+  label: SonarSource Project Branches API
   slug: sonarsource-project-branches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-branches-api-openapi.yml
 - filename: sonarsource-project-links-api-openapi.yml
   format: yaml
-  label: SonarSource project_links API
+  label: SonarSource Project Links API
   slug: sonarsource-project-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-links-api-openapi.yml
 - filename: sonarsource-project-pull-requests-api-openapi.yml
   format: yaml
-  label: SonarSource project_pull_requests API
+  label: SonarSource Project Pull Requests API
   slug: sonarsource-project-pull-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-pull-requests-api-openapi.yml
 - filename: sonarsource-project-tags-api-openapi.yml
   format: yaml
-  label: SonarSource project_tags API
+  label: SonarSource Project Tags API
   slug: sonarsource-project-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-tags-api-openapi.yml
 - filename: sonarsource-projects-api-openapi.yml
   format: yaml
-  label: SonarSource projects API
+  label: SonarSource Projects API
   slug: sonarsource-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-projects-api-openapi.yml
 - filename: sonarsource-properties-api-openapi.yml
   format: yaml
-  label: SonarSource properties API
+  label: SonarSource Properties API
   slug: sonarsource-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-properties-api-openapi.yml
 - filename: sonarsource-qualityprofiles-api-openapi.yml
   format: yaml
-  label: SonarSource qualityprofiles API
+  label: SonarSource Qualityprofiles API
   slug: sonarsource-qualityprofiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-qualityprofiles-api-openapi.yml
 - filename: sonarsource-rules-api-openapi.yml
   format: yaml
-  label: SonarSource rules API
+  label: SonarSource Rules API
   slug: sonarsource-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-rules-api-openapi.yml
 - filename: sonarsource-settings-api-openapi.yml
   format: yaml
-  label: SonarSource settings API
+  label: SonarSource Settings API
   slug: sonarsource-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-settings-api-openapi.yml
 - filename: sonarsource-sources-api-openapi.yml
   format: yaml
-  label: SonarSource sources API
+  label: SonarSource Sources API
   slug: sonarsource-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-sources-api-openapi.yml
 - filename: sonarsource-user-groups-api-openapi.yml
   format: yaml
-  label: SonarSource user_groups API
+  label: SonarSource User Groups API
   slug: sonarsource-user-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-user-groups-api-openapi.yml
 - filename: sonarsource-user-properties-api-openapi.yml
   format: yaml
-  label: SonarSource user_properties API
+  label: SonarSource User Properties API
   slug: sonarsource-user-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-user-properties-api-openapi.yml
 - filename: sonarsource-user-tokens-api-openapi.yml
   format: yaml
-  label: SonarSource user_tokens API
+  label: SonarSource User Tokens API
   slug: sonarsource-user-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-user-tokens-api-openapi.yml
 - filename: sonarsource-users-api-openapi.yml
   format: yaml
-  label: SonarSource users API
+  label: SonarSource Users API
   slug: sonarsource-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-users-api-openapi.yml
 - filename: sonarsource-webhooks-api-openapi.yml
   format: yaml
-  label: SonarSource webhooks API
+  label: SonarSource Webhooks API
   slug: sonarsource-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-webhooks-api-openapi.yml

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: azure-ad-me-api-openapi.yml
-  format: yaml
-  label: Azure Active Directory Me API
-  slug: azure-ad-me-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-me-api-openapi.yml
 - filename: azure-ad-admin-peopleadminsettings-api-openapi.yml
   format: yaml
   label: Microsoft Entra ID (formerly Azure AD) Admin.people Admin Settings API
@@ -700,7 +694,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-invitations-user-api-openapi.yml
 - filename: azure-ad-me-api-openapi.yml
   format: yaml
-  label: Microsoft Entra ID (formerly Azure AD) Me API
+  label: Azure Active Directory Me API
   slug: azure-ad-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-me-api-openapi.yml

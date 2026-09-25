@@ -263,7 +263,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Ai Enterprise Software
-- Real-Estate
+- Real Estate
 - Construction
 - PropTech
 - Financial Management

@@ -55,8 +55,8 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Google Cloud
 - Job
-- Machine-Learning
-- Recruitment
+- Machine Learning
+- Recruiting
 - Search
 - Talent
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webfinancehold
 summary_line: TLSv1.3
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Holding Company
 - Debt Portfolio Management
 - Receivables

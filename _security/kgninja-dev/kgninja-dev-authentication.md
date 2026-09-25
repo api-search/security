@@ -61,6 +61,6 @@ tags:
 - JSON
 - Cryptography
 - Cloudflare Workers
-- agent-native
+- Agent-Native
 - Japan
 ---

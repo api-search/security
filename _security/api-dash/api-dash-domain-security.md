@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - API Client
-- Open-Source
+- Open Source
 - Flutter
 - Desktop
 - Mobile

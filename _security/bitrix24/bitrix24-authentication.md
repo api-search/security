@@ -261,7 +261,7 @@ tags:
 - Task
 - Telephony
 - Contact Center
-- Document-Management
+- Document Management
 - Human Resources
 - Business Suite
 ---

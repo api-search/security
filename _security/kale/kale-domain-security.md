@@ -36,6 +36,6 @@ tags:
 - User Generated Content
 - Influencer Marketing
 - Rewards
-- Social-Media
+- Social Media
 - Marketing
 ---

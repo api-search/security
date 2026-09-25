@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gigs/refs/head
 summary_line: http · 1 scheme
 tags:
 - Company
-- Telecom
+- Telecommunications
 - Connectivity
 - eSIM
 - MVNO

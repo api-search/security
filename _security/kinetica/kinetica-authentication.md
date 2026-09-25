@@ -96,6 +96,7 @@ tags:
 - Streaming
 - Data Infrastructure
 - MCP
-- agent-native
+- Agent-Native
 - RAG
+- A2A
 ---

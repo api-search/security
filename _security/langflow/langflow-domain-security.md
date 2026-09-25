@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-mcp-api-openapi.yml
 - filename: langflow-mcp-projects-api-openapi.yml
   format: yaml
-  label: Langflow mcp_projects API
+  label: Langflow MCP Projects API
   slug: langflow-mcp-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-mcp-projects-api-openapi.yml
@@ -139,6 +139,6 @@ tags:
 - LangChain
 - RAG
 - MCP
-- Open-Source
+- Open Source
 - FastAPI
 ---

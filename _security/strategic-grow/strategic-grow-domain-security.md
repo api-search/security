@@ -32,7 +32,7 @@ tags:
 - Company
 - Prefab
 - PropTech
-- Real-Estate
+- Real Estate
 - Construction
 - Architecture
 - Design

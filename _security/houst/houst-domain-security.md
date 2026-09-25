@@ -38,5 +38,5 @@ tags:
 - Vacation Rentals
 - Hospitality
 - PropTech
-- Real-Estate
+- Real Estate
 ---

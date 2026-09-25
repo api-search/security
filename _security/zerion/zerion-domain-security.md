@@ -2,25 +2,25 @@
 api_specs:
 - filename: zerion-chains-api-openapi.yml
   format: yaml
-  label: Zerion chains API
+  label: Zerion Chains API
   slug: zerion-chains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-chains-api-openapi.yml
 - filename: zerion-dapps-api-openapi.yml
   format: yaml
-  label: Zerion dapps API
+  label: Zerion Dapps API
   slug: zerion-dapps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-dapps-api-openapi.yml
 - filename: zerion-fungibles-api-openapi.yml
   format: yaml
-  label: Zerion fungibles API
+  label: Zerion Fungibles API
   slug: zerion-fungibles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-fungibles-api-openapi.yml
 - filename: zerion-gas-api-openapi.yml
   format: yaml
-  label: Zerion gas API
+  label: Zerion Gas API
   slug: zerion-gas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-gas-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-subscriptions-to-transactions-api-openapi.yml
 - filename: zerion-swap-api-openapi.yml
   format: yaml
-  label: Zerion swap API
+  label: Zerion Swap API
   slug: zerion-swap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-swap-api-openapi.yml
@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallet-sets-api-openapi.yml
 - filename: zerion-wallets-api-openapi.yml
   format: yaml
-  label: Zerion wallets API
+  label: Zerion Wallets API
   slug: zerion-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallets-api-openapi.yml

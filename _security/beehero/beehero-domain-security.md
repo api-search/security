@@ -76,5 +76,5 @@ tags:
 - Sensors
 - Environmental Data
 - MCP
-- agent-native
+- Agent-Native
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lagou/refs/hea
 summary_line: TLSv1.2
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Job
 - Hiring
 - Human Resources

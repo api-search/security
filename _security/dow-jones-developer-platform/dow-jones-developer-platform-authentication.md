@@ -194,7 +194,7 @@ summary_line: oauth2/openIdConnect/http/apiKey · 4 schemes
 tags:
 - Business Data
 - Compliance
-- Financial
+- Finance
 - Market Data
 - News
 - Risk and Compliance

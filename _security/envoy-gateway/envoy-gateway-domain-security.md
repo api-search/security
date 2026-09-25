@@ -34,7 +34,7 @@ tags:
 - CNCF
 - Envoy
 - Kubernetes
-- Open-Source
+- Open Source
 - Gateway API
 - Ingress
 - Service Mesh

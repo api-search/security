@@ -57,7 +57,7 @@ tags:
 - Graduated
 - Kubernetes
 - Networking
-- Open-Source
+- Open Source
 - Plugins
 - Prometheus
 - Service Discovery

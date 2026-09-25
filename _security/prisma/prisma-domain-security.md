@@ -191,7 +191,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - ORM
 - Developer Tools
 - Application Hosting

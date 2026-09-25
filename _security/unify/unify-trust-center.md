@@ -58,5 +58,6 @@ tags:
 - MCP
 - Agent Skills
 - Webhook
+- A2A
 trust_url: https://trust.unifygtm.com/
 ---

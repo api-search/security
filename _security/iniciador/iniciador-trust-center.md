@@ -27,6 +27,6 @@ tags:
 - Brazil
 - FAPI
 - Authentication
-- Financial-Services
+- Financial Services
 trust_url: https://trust.iniciador.com.br/
 ---

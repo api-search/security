@@ -47,7 +47,7 @@ tags:
 - anonymous hosting
 - offshore hosting
 - Crypto Payments
-- agent-native
+- Agent-Native
 - MCP
 - x402
 ---

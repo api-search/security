@@ -17,13 +17,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-billing-api-openapi.yml
 - filename: roku-builds-api-openapi.yml
   format: yaml
-  label: Roku builds API
+  label: Roku Builds API
   slug: roku-builds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-builds-api-openapi.yml
 - filename: roku-devices-api-openapi.yml
   format: yaml
-  label: Roku devices API
+  label: Roku Devices API
   slug: roku-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-devices-api-openapi.yml
@@ -41,13 +41,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-discovery-api-openapi.yml
 - filename: roku-groups-api-openapi.yml
   format: yaml
-  label: Roku groups API
+  label: Roku Groups API
   slug: roku-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-groups-api-openapi.yml
 - filename: roku-healthz-api-openapi.yml
   format: yaml
-  label: Roku healthz API
+  label: Roku Healthz API
   slug: roku-healthz-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-healthz-api-openapi.yml
@@ -65,25 +65,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-keypress-api-openapi.yml
 - filename: roku-organisation-roles-api-openapi.yml
   format: yaml
-  label: Roku organisation-roles API
+  label: Roku Organisation Roles API
   slug: roku-organisation-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-organisation-roles-api-openapi.yml
 - filename: roku-organisations-api-openapi.yml
   format: yaml
-  label: Roku organisations API
+  label: Roku Organisations API
   slug: roku-organisations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-organisations-api-openapi.yml
 - filename: roku-personal-access-tokens-api-openapi.yml
   format: yaml
-  label: Roku personal-access-tokens API
+  label: Roku Personal Access Tokens API
   slug: roku-personal-access-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-personal-access-tokens-api-openapi.yml
 - filename: roku-projects-api-openapi.yml
   format: yaml
-  label: Roku projects API
+  label: Roku Projects API
   slug: roku-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-projects-api-openapi.yml
@@ -95,7 +95,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-query-api-openapi.yml
 - filename: roku-snapshots-api-openapi.yml
   format: yaml
-  label: Roku snapshots API
+  label: Roku Snapshots API
   slug: roku-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-snapshots-api-openapi.yml
@@ -107,7 +107,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-subscription-api-openapi.yml
 - filename: roku-users-api-openapi.yml
   format: yaml
-  label: Roku users API
+  label: Roku Users API
   slug: roku-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-users-api-openapi.yml

@@ -37,6 +37,6 @@ tags:
 - Insurtech
 - API Reliability
 - Integration
-- Open-Source
+- Open Source
 - 500 Global
 ---

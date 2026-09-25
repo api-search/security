@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Fashionlab Nordic Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for FashionLab Nordic Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: FashionLab Nordic Inc.
+overview: 'Domain security posture for FashionLab Nordic, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: FashionLab Nordic
 provider_slug: fashionlab-nordic-inc
 slug: fashionlab-nordic-inc-domain-security
 source_filename: fashionlab-nordic-inc-domain-security.yml

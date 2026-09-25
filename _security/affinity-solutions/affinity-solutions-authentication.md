@@ -66,7 +66,7 @@ tags:
 - Marketing
 - Advertising
 - Measurements
-- Financial-Services
+- Financial Services
 - Retail
 - MCP
 ---

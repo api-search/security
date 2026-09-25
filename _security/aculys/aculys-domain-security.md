@@ -33,7 +33,7 @@ tags:
 - Company
 - Health Tech
 - Pharmaceuticals
-- Biotech
+- Biotechnology
 - Neurology
 - Japan
 ---

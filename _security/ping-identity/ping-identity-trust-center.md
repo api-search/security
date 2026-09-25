@@ -91,5 +91,6 @@ tags:
 - Authorization
 - SSO
 - MFA
+- Identity Federation
 trust_url: https://www.pingidentity.com/en-us/docs/legal/security-exhibit
 ---

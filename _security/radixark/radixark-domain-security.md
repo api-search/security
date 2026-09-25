@@ -39,9 +39,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Reinforcement Learning
-- Open-Source
+- Open Source
 ---

@@ -59,6 +59,7 @@ tags:
 - Medical Coding
 - Clinical Documentation
 - Agents
-- Machine-Learning
+- Machine Learning
+- Real-Time
 trust_url: https://trust.corti.ai
 ---

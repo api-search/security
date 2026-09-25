@@ -34,7 +34,7 @@ tags:
 - Defense
 - Drones
 - Counter-UAS
-- Computer-Vision
+- Computer Vision
 - Thermal Imaging
 - Artificial Intelligence
 - Hardware

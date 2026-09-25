@@ -118,9 +118,9 @@ tags:
 - Text-to-SQL
 - Dashboards
 - Business Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Alerts
-- agent-native
+- Agent-Native
 - llms-txt
 - OpenAPI
 - Webhook

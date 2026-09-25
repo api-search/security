@@ -20,7 +20,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Tax
 - Accounting
 - Fintech

@@ -87,5 +87,5 @@ tags:
 - LaTeX
 - Handwriting
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 ---

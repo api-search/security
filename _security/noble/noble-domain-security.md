@@ -28,11 +28,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noble/refs/hea
 summary_line: DMARC
 tags:
 - Company
-- Risk
+- Risk Management
 - Credit Decisioning
 - Underwriting
 - Fintech
-- Financial-Services
+- Financial Services
 - Identity Verification
 - Lending
 - No-Code

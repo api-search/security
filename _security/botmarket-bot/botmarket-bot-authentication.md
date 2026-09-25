@@ -33,7 +33,7 @@ tags:
 - Protocol
 - x402
 - Open Data
-- agent-native
+- Agent-Native
 - Non-Profit
 - Mexico
 ---

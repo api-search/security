@@ -33,14 +33,14 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Financial Crime Compliance
-- Anti-Money Laundering
+- AML
 - Sanctions Screening
 - Transaction Monitoring
 - KYC
 - Adverse Media
 - RegTech
 - Artificial Intelligence
-- Agentic AI
-- Financial-Services
+- AI Agents
+- Financial Services
 - Compliance
 ---

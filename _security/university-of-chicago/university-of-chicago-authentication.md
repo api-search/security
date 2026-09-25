@@ -294,7 +294,7 @@ tags:
 - Identity Federation
 - OAI-PMH
 - IIIF
-- Open-Source
+- Open Source
 - Data Commons
 - Digital Collections
 - Research Computing

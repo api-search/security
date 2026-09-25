@@ -56,48 +56,6 @@ api_specs:
   slug: github-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-users-api-openapi.yml
-- filename: github-checks-api-openapi.yml
-  format: yaml
-  label: GitHub Checks API
-  slug: github-checks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-checks-api-openapi.yml
-- filename: github-packages-api-openapi.yml
-  format: yaml
-  label: GitHub Packages API
-  slug: github-packages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-packages-api-openapi.yml
-- filename: github-billing-api-openapi.yml
-  format: yaml
-  label: GitHub Billing API
-  slug: github-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-billing-api-openapi.yml
-- filename: github-migrations-api-openapi.yml
-  format: yaml
-  label: GitHub Migrations API
-  slug: github-migrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-migrations-api-openapi.yml
-- filename: github-secret-scanning-api-openapi.yml
-  format: yaml
-  label: GitHub Secret Scanning API
-  slug: github-secret-scanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-secret-scanning-api-openapi.yml
-- filename: github-reactions-api-openapi.yml
-  format: yaml
-  label: GitHub Reactions API
-  slug: github-reactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-reactions-api-openapi.yml
-- filename: github-dependency-graph-api-openapi.yml
-  format: yaml
-  label: GitHub Dependency Graph API
-  slug: github-dependency-graph-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-dependency-graph-api-openapi.yml
 - filename: github-actions-api-openapi.yml
   format: yaml
   label: GitHub Actions API
@@ -148,7 +106,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-dependabot-api-openapi.yml
 - filename: github-dependency-graph-api-openapi.yml
   format: yaml
-  label: GitHub Dependency-Graph API
+  label: GitHub Dependency Graph API
   slug: github-dependency-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-dependency-graph-api-openapi.yml
@@ -232,7 +190,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-reactions-api-openapi.yml
 - filename: github-secret-scanning-api-openapi.yml
   format: yaml
-  label: GitHub Secret-Scanning API
+  label: GitHub Secret Scanning API
   slug: github-secret-scanning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-secret-scanning-api-openapi.yml

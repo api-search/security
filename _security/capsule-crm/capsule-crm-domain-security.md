@@ -30,6 +30,24 @@ api_specs:
   slug: capsule-crm-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-tasks-api-openapi.yml
+- filename: capsule-opportunities-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Opportunities API (v2 reference)
+  slug: capsule-opportunities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-opportunities-api-openapi.yml
+- filename: capsule-parties-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Parties API (v2 reference)
+  slug: capsule-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-parties-api-openapi.yml
+- filename: capsule-projects-api-openapi.yml
+  format: yaml
+  label: Capsule CRM Projects (Kases) API
+  slug: capsule-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-projects-api-openapi.yml
 description: ''
 domains:
 - caa:

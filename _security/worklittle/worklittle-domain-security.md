@@ -138,7 +138,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worklittle/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Job Search
-- ATS
+- Applicant Tracking
 - Recruiting
 - Workforce Intelligence
 - Job Board

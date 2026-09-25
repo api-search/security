@@ -3,42 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: effect-photonics-wp-v2-api-openapi.yml
-  format: yaml
-  label: EFFECT Photonics Wp/v2 API
-  slug: effect-photonics-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/effect-photonics-wp-v2-api-openapi.yml
-- filename: effect-photonics-effect-v1-api-openapi.yml
-  format: yaml
-  label: EFFECT Photonics Effect/v1 API
-  slug: effect-photonics-effect-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/effect-photonics-effect-v1-api-openapi.yml
 - filename: effect-photonics-mcp-api-openapi.yml
   format: yaml
   label: EFFECT Photonics MCP API
   slug: effect-photonics-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/effect-photonics-mcp-api-openapi.yml
-- filename: effect-photonics-wp-abilities-v1-api-openapi.yml
-  format: yaml
-  label: EFFECT Photonics Wp Abilities/v1 API
-  slug: effect-photonics-wp-abilities-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/effect-photonics-wp-abilities-v1-api-openapi.yml
-- filename: effect-photonics-oembed-1-0-api-openapi.yml
-  format: yaml
-  label: EFFECT Photonics Oembed/1.0 API
-  slug: effect-photonics-oembed-1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/effect-photonics-oembed-1-0-api-openapi.yml
-- filename: effect-photonics-root-api-openapi.yml
-  format: yaml
-  label: EFFECT Photonics Root API
-  slug: effect-photonics-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/effect-photonics-root-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -296,7 +296,7 @@ tags:
 - Programmatic Advertising
 - Campaign Management
 - Ad Serving
-- Machine-Learning
+- Machine Learning
 - Mobile Marketing
 - Reporting
 - user-events

@@ -36,6 +36,6 @@ tags:
 - Wealth Management
 - Robo-Advisor
 - Investing
-- Financial-Services
+- Financial Services
 - WealthTech
 ---

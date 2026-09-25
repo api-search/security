@@ -112,12 +112,12 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image-Generation
+- Image Generation
 - Music Generation
 - Text-to-Speech
 - Face Swap
 - API Aggregator
-- Machine-Learning
+- Machine Learning
 - Media
 - Webhook
 ---

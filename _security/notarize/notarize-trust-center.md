@@ -31,7 +31,7 @@ tags:
 - Identity Verification
 - E-Signature
 - Digital Credentials
-- Real-Estate
+- Real Estate
 - Mortgage
 - Legal Tech
 trust_url: https://security.proof.com/

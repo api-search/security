@@ -36,7 +36,7 @@ tags:
 - AI Inference
 - NPU
 - Hardware
-- Machine-Learning
+- Machine Learning
 - SDK
 - Semiconductors
 ---

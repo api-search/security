@@ -36,8 +36,8 @@ tags:
 - Satellite Imagery
 - Earth Observation
 - Remote Sensing
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Artificial Intelligence
 - Supply Chain
 - Commodities

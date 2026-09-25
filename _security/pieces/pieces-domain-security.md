@@ -91,4 +91,5 @@ tags:
 - On-Device
 - Local API
 - Long-Term Memory
+- Real-Time
 ---

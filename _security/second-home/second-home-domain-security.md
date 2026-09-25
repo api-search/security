@@ -36,6 +36,6 @@ tags:
 - Workspace
 - Flexible Office
 - Cultural Venue
-- Real-Estate
+- Real Estate
 - Community
 ---

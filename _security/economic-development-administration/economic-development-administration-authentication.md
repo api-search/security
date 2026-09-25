@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/economic-devel
 summary_line: 1 scheme
 tags:
 - Economic Development
-- Federal-Government
+- Federal Government
 - Grants
 - Public Sector
 - Regional Development

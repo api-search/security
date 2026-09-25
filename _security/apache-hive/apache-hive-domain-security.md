@@ -59,6 +59,6 @@ tags:
 - Data Warehouse
 - ETL
 - Hadoop
-- Open-Source
+- Open Source
 - SQL
 ---

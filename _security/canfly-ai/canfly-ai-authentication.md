@@ -86,6 +86,6 @@ tags:
 - MCP
 - USDC
 - OpenClaw
-- agent-native
+- Agent-Native
 - Taiwan
 ---

@@ -45,6 +45,6 @@ tags:
 - Agents
 - Foundation Models
 - Action Models
-- Workflow-Automation
+- Workflow Automation
 - Multi-Modal
 ---

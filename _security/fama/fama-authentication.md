@@ -47,8 +47,8 @@ tags:
 - Employment Screening
 - Background Checks
 - Human Resources
-- Social-Media
-- Risk
+- Social Media
+- Risk Management
 - Compliance
 - Artificial Intelligence
 ---

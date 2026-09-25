@@ -65,7 +65,7 @@ tags:
 - Video
 - Y Combinator
 - MCP
-- agent-native
+- Agent-Native
 - Analytics
 - Conversation Intelligence
 ---

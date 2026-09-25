@@ -354,7 +354,7 @@ tags:
 - Analytics
 - dbt
 - Semantic Layer
-- Open-Source
+- Open Source
 - Dashboards
 - Data
 ---

@@ -35,6 +35,6 @@ tags:
 - Fashion
 - Market Intelligence
 - Analytics
-- Computer-Vision
+- Computer Vision
 - E-Commerce
 ---

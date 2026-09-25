@@ -45,8 +45,8 @@ tags:
 - Defense
 - Department of Defense
 - DTIC
-- Federal-Government
-- Knowledge-Management
+- Federal Government
+- Knowledge Management
 - Library
 - Research
 - Scientific and Technical Information

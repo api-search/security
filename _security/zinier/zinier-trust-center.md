@@ -23,7 +23,7 @@ tags:
 - Artificial Intelligence
 - Field Service Management
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Field Service
 - Enterprise Software
 trust_url: https://www.zinier.com/resources/security-compliance

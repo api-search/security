@@ -52,5 +52,6 @@ tags:
 - Phone Intelligence
 - SMS
 - Verification
+- Telecommunications
 trust_url: https://www.telesign.com/security
 ---

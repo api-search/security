@@ -43,7 +43,7 @@ tags:
 - Issuer Processing
 - Ledger
 - Banking
-- Financial-Services
+- Financial Services
 - Embedded Finance
 - Fintech
 - Virtual Accounts

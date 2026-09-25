@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: qualtrics-automations-api-openapi.yml
   format: yaml
-  label: Qualtrics automations API
+  label: Qualtrics Automations API
   slug: qualtrics-automations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-automations-api-openapi.yml
@@ -23,13 +23,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-distributions-api-openapi.yml
 - filename: qualtrics-file-api-openapi.yml
   format: yaml
-  label: Qualtrics file API
+  label: Qualtrics File API
   slug: qualtrics-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-file-api-openapi.yml
 - filename: qualtrics-files-api-openapi.yml
   format: yaml
-  label: Qualtrics files API
+  label: Qualtrics Files API
   slug: qualtrics-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/openapi/qualtrics-files-api-openapi.yml

@@ -19,8 +19,8 @@ method: searched
 name: Connskill Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: CONNSKILL GmbH & Co. KG secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: CONNSKILL GmbH & Co. KG
+overview: CONNSKILL secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: CONNSKILL
 provider_slug: connskill-com
 scheme_count: 2
 schemes:
@@ -96,7 +96,7 @@ tags:
 - SERP
 - Keyword Research
 - x402
-- Agent Payments
+- Agentic Payments
 - AI Agents
 - MCP
 - A2A

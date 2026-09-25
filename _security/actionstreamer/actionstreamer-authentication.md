@@ -347,6 +347,6 @@ tags:
 - Device Management
 - Public Safety
 - Industrial
-- Computer-Vision
+- Computer Vision
 - Media
 ---

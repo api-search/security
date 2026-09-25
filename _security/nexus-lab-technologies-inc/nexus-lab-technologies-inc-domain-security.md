@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Nexus Lab Technologies Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Nexus Lab Technologies, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Nexus Lab Technologies, Inc.
+overview: 'Domain security posture for Nexus Lab Technologies, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Nexus Lab Technologies
 provider_slug: nexus-lab-technologies-inc
 slug: nexus-lab-technologies-inc-domain-security
 source_filename: nexus-lab-technologies-inc-domain-security.yml
@@ -34,7 +34,7 @@ tags:
 - Aviation
 - Sustainability
 - Climate
-- Machine-Learning
+- Machine Learning
 - Contrails
 - Flight Optimization
 - Aerospace

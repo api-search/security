@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - ERP
 - Cloud ERP
-- Financial
+- Finance
 - Human Resources
 - Payroll
 - Project Management

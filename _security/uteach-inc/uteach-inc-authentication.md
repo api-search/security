@@ -12,8 +12,8 @@ method: searched
 name: Uteach Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Uteach, Inc. secures its APIs with apiKey and http-bearer across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Uteach, Inc.
+overview: Uteach secures its APIs with apiKey and http-bearer across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Uteach
 provider_slug: uteach-inc
 scheme_count: 2
 schemes:

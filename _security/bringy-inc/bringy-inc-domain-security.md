@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Bringy Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Bringy, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Bringy, Inc.
+overview: 'Domain security posture for Bringy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Bringy
 provider_slug: bringy-inc
 slug: bringy-inc-domain-security
 source_filename: bringy-inc-domain-security.yml
@@ -32,7 +32,7 @@ tags:
 - Company
 - Insurance
 - Insurtech
-- Financial-Services
+- Financial Services
 - Insurance Brokerage
 - Fintech
 - Egypt

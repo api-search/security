@@ -211,10 +211,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AI Models
 - LLM
-- Image-Generation
+- Image Generation
 - Video Generation
 - Speech
 - Embeddings

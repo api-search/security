@@ -105,4 +105,5 @@ tags:
 - E-Commerce
 - Marketing
 - Retail
+- A2A
 ---

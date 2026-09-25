@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/
 summary_line: openIdConnect/jwt · 2 schemes
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Co-Browsing
 - Session Replay
 - Customer Experience

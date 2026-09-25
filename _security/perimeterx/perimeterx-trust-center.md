@@ -24,7 +24,7 @@ tags:
 - Fraud Prevention
 - Ad Fraud
 - Account Takeover
-- Agentic AI
+- AI Agents
 - Cybersecurity
 trust_url: https://trust.humansecurity.com/
 ---

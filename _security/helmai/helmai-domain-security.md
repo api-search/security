@@ -36,8 +36,8 @@ tags:
 - Autonomous Driving
 - Automotive
 - ADAS
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Generative AI
 - Simulation
 - Robotics

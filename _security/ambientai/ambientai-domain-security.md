@@ -33,11 +33,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Physical Security
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Video Analytics
 - Access Control
 - Threat Detection
 - Enterprise Security
-- Agentic AI
+- AI Agents
 ---

@@ -37,5 +37,5 @@ tags:
 - Payments
 - Energy
 - Sustainability
-- Property Technology
+- PropTech
 ---

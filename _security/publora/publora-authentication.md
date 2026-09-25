@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: derived\nsource: openapi/publora-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/authentication/publora-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Social-Media
+- Social Media
 - Publishing
 - Scheduling
 - MCP

@@ -41,6 +41,6 @@ tags:
 - RAG
 - LLM
 - MLOps
-- Open-Source
+- Open Source
 - AI Agents
 ---

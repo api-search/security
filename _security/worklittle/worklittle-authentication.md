@@ -143,7 +143,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worklittle/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Job Search
-- ATS
+- Applicant Tracking
 - Recruiting
 - Workforce Intelligence
 - Job Board

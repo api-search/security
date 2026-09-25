@@ -74,9 +74,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.zer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/authentication/zerobounce-authentication.yml
 summary_line: 3 schemes
 tags:
-- Email Validation
-- Email Deliverability
 - Email Verification
+- Email Deliverability
 - Marketing
 - Lead Scoring
 - Anti-Spam
@@ -84,4 +83,5 @@ tags:
 - Email Finder
 - Deliverability Monitoring
 - DMARC
+- Email
 ---

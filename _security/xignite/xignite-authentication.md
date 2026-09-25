@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: derived\nsource: openapi/xignite-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/authentication/xignite-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Real-Time

@@ -35,6 +35,6 @@ tags:
 - AI Chips
 - Edge Computing
 - Compute-in-Memory
-- Machine-Learning
+- Machine Learning
 - Hardware
 ---

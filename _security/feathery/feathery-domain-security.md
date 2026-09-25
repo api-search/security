@@ -102,7 +102,7 @@ tags:
 - Multi-Step Forms
 - Document Intelligence
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Insurance
 - Wealth Management
 - E-Signature

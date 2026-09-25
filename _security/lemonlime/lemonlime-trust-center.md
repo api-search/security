@@ -26,9 +26,9 @@ summary_line: SOC 2, GDPR, HIPAA, PCI DSS
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - MCP
 - Enterprise Software
 - Software-as-a-Service

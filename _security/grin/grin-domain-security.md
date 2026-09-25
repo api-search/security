@@ -48,6 +48,6 @@ tags:
 - Creator Management
 - Affiliate Marketing
 - Marketing
-- Social-Media
+- Social Media
 - E-Commerce
 ---

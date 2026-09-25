@@ -42,7 +42,7 @@ tags:
 - Prior Authorization
 - Revenue Cycle Management
 - Payer Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Gastroenterology
 - Artificial Intelligence
 - Specialty Pharmacy

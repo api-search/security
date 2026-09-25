@@ -6,7 +6,7 @@ api_key_in:
 api_specs:
 - filename: brick-blue-openapi.yml
   format: yaml
-  label: brick.blue hub API
+  label: brick.blue Hub API
   slug: hub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-openapi.yml
@@ -163,6 +163,6 @@ tags:
 - Stablecoins
 - LLM Inference
 - Prediction Markets
-- agent-native
+- Agent-Native
 - Developer Tools
 ---

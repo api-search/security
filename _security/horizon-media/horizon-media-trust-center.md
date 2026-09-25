@@ -31,7 +31,7 @@ tags:
 - Programmatic
 - Retail Media
 - Sports Marketing
-- Social-Media
+- Social Media
 - Influencer Marketing
 - Cultural Intelligence
 - Data Platform

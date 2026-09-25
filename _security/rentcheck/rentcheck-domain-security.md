@@ -225,7 +225,7 @@ tags:
 - Company
 - Property Management
 - Property Inspection
-- Real-Estate
+- Real Estate
 - PropTech
 - Inspection
 - Maintenance

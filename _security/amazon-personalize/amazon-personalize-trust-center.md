@@ -31,7 +31,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Artificial Intelligence
 - Customer Experience
-- Machine-Learning
+- Machine Learning
 - Personalization
 - Recommendations
 trust_url: https://aws.amazon.com/compliance/

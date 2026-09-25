@@ -33,7 +33,7 @@ tags:
 - Company
 - Payments
 - Fintech
-- Financial-Services
+- Financial Services
 - Checkout
 - E-Commerce
 - Subscription

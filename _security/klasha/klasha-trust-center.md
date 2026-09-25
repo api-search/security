@@ -29,6 +29,6 @@ tags:
 - Foreign Exchange
 - Virtual Accounts
 - Checkout
-- Financial-Services
+- Financial Services
 trust_url: https://www.klasha.com/compliance
 ---

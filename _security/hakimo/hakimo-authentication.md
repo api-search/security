@@ -31,7 +31,7 @@ tags:
 - Video Surveillance
 - Access Control
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Security Operations
 - Remote Guarding
 - Alarm Monitoring

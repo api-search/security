@@ -2,19 +2,19 @@
 api_specs:
 - filename: vastdata-alarms-api-openapi.yml
   format: yaml
-  label: VAST Data alarms API
+  label: VAST Data Alarms API
   slug: vastdata-alarms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-alarms-api-openapi.yml
 - filename: vastdata-basicsettings-api-openapi.yml
   format: yaml
-  label: VAST Data basicsettings API
+  label: VAST Data Basicsettings API
   slug: vastdata-basicsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-basicsettings-api-openapi.yml
 - filename: vastdata-bgpconfigs-api-openapi.yml
   format: yaml
-  label: VAST Data bgpconfigs API
+  label: VAST Data Bgpconfigs API
   slug: vastdata-bgpconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-bgpconfigs-api-openapi.yml
@@ -32,31 +32,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-block-hosts-api-openapi.yml
 - filename: vastdata-blockmappings-api-openapi.yml
   format: yaml
-  label: VAST Data blockmappings API
+  label: VAST Data Blockmappings API
   slug: vastdata-blockmappings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-blockmappings-api-openapi.yml
 - filename: vastdata-callhomeconfigs-api-openapi.yml
   format: yaml
-  label: VAST Data callhomeconfigs API
+  label: VAST Data Callhomeconfigs API
   slug: vastdata-callhomeconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-callhomeconfigs-api-openapi.yml
 - filename: vastdata-capacity-api-openapi.yml
   format: yaml
-  label: VAST Data capacity API
+  label: VAST Data Capacity API
   slug: vastdata-capacity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-capacity-api-openapi.yml
 - filename: vastdata-carriers-api-openapi.yml
   format: yaml
-  label: VAST Data carriers API
+  label: VAST Data Carriers API
   slug: vastdata-carriers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-carriers-api-openapi.yml
 - filename: vastdata-cboxes-api-openapi.yml
   format: yaml
-  label: VAST Data cboxes API
+  label: VAST Data Cboxes API
   slug: vastdata-cboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-cboxes-api-openapi.yml
@@ -68,19 +68,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-certificates-api-openapi.yml
 - filename: vastdata-challengetokens-api-openapi.yml
   format: yaml
-  label: VAST Data challengetokens API
+  label: VAST Data Challengetokens API
   slug: vastdata-challengetokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-challengetokens-api-openapi.yml
 - filename: vastdata-clusters-api-openapi.yml
   format: yaml
-  label: VAST Data clusters API
+  label: VAST Data Clusters API
   slug: vastdata-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-clusters-api-openapi.yml
 - filename: vastdata-cnodegroups-api-openapi.yml
   format: yaml
-  label: VAST Data cnodegroups API
+  label: VAST Data Cnodegroups API
   slug: vastdata-cnodegroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-cnodegroups-api-openapi.yml
@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-cnodes-api-openapi.yml
 - filename: vastdata-columns-api-openapi.yml
   format: yaml
-  label: VAST Data columns API
+  label: VAST Data Columns API
   slug: vastdata-columns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-columns-api-openapi.yml
@@ -104,109 +104,109 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-compute-clusters-api-openapi.yml
 - filename: vastdata-config-api-openapi.yml
   format: yaml
-  label: VAST Data config API
+  label: VAST Data Config API
   slug: vastdata-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-config-api-openapi.yml
 - filename: vastdata-dataspace-api-openapi.yml
   format: yaml
-  label: VAST Data dataspace API
+  label: VAST Data Dataspace API
   slug: vastdata-dataspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-dataspace-api-openapi.yml
 - filename: vastdata-dboxes-api-openapi.yml
   format: yaml
-  label: VAST Data dboxes API
+  label: VAST Data Dboxes API
   slug: vastdata-dboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-dboxes-api-openapi.yml
 - filename: vastdata-delta-api-openapi.yml
   format: yaml
-  label: VAST Data delta API
+  label: VAST Data Delta API
   slug: vastdata-delta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-delta-api-openapi.yml
 - filename: vastdata-dnodes-api-openapi.yml
   format: yaml
-  label: VAST Data dnodes API
+  label: VAST Data Dnodes API
   slug: vastdata-dnodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-dnodes-api-openapi.yml
 - filename: vastdata-dns-api-openapi.yml
   format: yaml
-  label: VAST Data dns API
+  label: VAST Data Dns API
   slug: vastdata-dns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-dns-api-openapi.yml
 - filename: vastdata-dtrays-api-openapi.yml
   format: yaml
-  label: VAST Data dtrays API
+  label: VAST Data Dtrays API
   slug: vastdata-dtrays-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-dtrays-api-openapi.yml
 - filename: vastdata-eboxes-api-openapi.yml
   format: yaml
-  label: VAST Data eboxes API
+  label: VAST Data Eboxes API
   slug: vastdata-eboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-eboxes-api-openapi.yml
 - filename: vastdata-encryptedpaths-api-openapi.yml
   format: yaml
-  label: VAST Data encryptedpaths API
+  label: VAST Data Encryptedpaths API
   slug: vastdata-encryptedpaths-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-encryptedpaths-api-openapi.yml
 - filename: vastdata-encryptiongroups-api-openapi.yml
   format: yaml
-  label: VAST Data encryptiongroups API
+  label: VAST Data Encryptiongroups API
   slug: vastdata-encryptiongroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-encryptiongroups-api-openapi.yml
 - filename: vastdata-envs-api-openapi.yml
   format: yaml
-  label: VAST Data envs API
+  label: VAST Data Envs API
   slug: vastdata-envs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-envs-api-openapi.yml
 - filename: vastdata-eventdefinitionconfigs-api-openapi.yml
   format: yaml
-  label: VAST Data eventdefinitionconfigs API
+  label: VAST Data Eventdefinitionconfigs API
   slug: vastdata-eventdefinitionconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-eventdefinitionconfigs-api-openapi.yml
 - filename: vastdata-events-api-openapi.yml
   format: yaml
-  label: VAST Data events API
+  label: VAST Data Events API
   slug: vastdata-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-events-api-openapi.yml
 - filename: vastdata-fans-api-openapi.yml
   format: yaml
-  label: VAST Data fans API
+  label: VAST Data Fans API
   slug: vastdata-fans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-fans-api-openapi.yml
 - filename: vastdata-filesystem-api-openapi.yml
   format: yaml
-  label: VAST Data filesystem API
+  label: VAST Data Filesystem API
   slug: vastdata-filesystem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-filesystem-api-openapi.yml
 - filename: vastdata-folders-api-openapi.yml
   format: yaml
-  label: VAST Data folders API
+  label: VAST Data Folders API
   slug: vastdata-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-folders-api-openapi.yml
 - filename: vastdata-globalsnapstreams-api-openapi.yml
   format: yaml
-  label: VAST Data globalsnapstreams API
+  label: VAST Data Globalsnapstreams API
   slug: vastdata-globalsnapstreams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-globalsnapstreams-api-openapi.yml
 - filename: vastdata-groups-api-openapi.yml
   format: yaml
-  label: VAST Data groups API
+  label: VAST Data Groups API
   slug: vastdata-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-groups-api-openapi.yml
@@ -218,37 +218,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-health-api-openapi.yml
 - filename: vastdata-hosts-api-openapi.yml
   format: yaml
-  label: VAST Data hosts API
+  label: VAST Data Hosts API
   slug: vastdata-hosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-hosts-api-openapi.yml
 - filename: vastdata-indestructibility-api-openapi.yml
   format: yaml
-  label: VAST Data indestructibility API
+  label: VAST Data Indestructibility API
   slug: vastdata-indestructibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-indestructibility-api-openapi.yml
 - filename: vastdata-injections-api-openapi.yml
   format: yaml
-  label: VAST Data injections API
+  label: VAST Data Injections API
   slug: vastdata-injections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-injections-api-openapi.yml
 - filename: vastdata-iodata-api-openapi.yml
   format: yaml
-  label: VAST Data iodata API
+  label: VAST Data Iodata API
   slug: vastdata-iodata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-iodata-api-openapi.yml
 - filename: vastdata-issues-api-openapi.yml
   format: yaml
-  label: VAST Data issues API
+  label: VAST Data Issues API
   slug: vastdata-issues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-issues-api-openapi.yml
 - filename: vastdata-kafkabroker-api-openapi.yml
   format: yaml
-  label: VAST Data kafkabroker API
+  label: VAST Data Kafkabroker API
   slug: vastdata-kafkabroker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-kafkabroker-api-openapi.yml
@@ -260,175 +260,175 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-kerberos-api-openapi.yml
 - filename: vastdata-ldaps-api-openapi.yml
   format: yaml
-  label: VAST Data ldaps API
+  label: VAST Data Ldaps API
   slug: vastdata-ldaps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-ldaps-api-openapi.yml
 - filename: vastdata-licenses-api-openapi.yml
   format: yaml
-  label: VAST Data licenses API
+  label: VAST Data Licenses API
   slug: vastdata-licenses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-licenses-api-openapi.yml
 - filename: vastdata-localproviders-api-openapi.yml
   format: yaml
-  label: VAST Data localproviders API
+  label: VAST Data Localproviders API
   slug: vastdata-localproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-localproviders-api-openapi.yml
 - filename: vastdata-locals3keys-api-openapi.yml
   format: yaml
-  label: VAST Data locals3keys API
+  label: VAST Data Locals3keys API
   slug: vastdata-locals3keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-locals3keys-api-openapi.yml
 - filename: vastdata-locks-api-openapi.yml
   format: yaml
-  label: VAST Data locks API
+  label: VAST Data Locks API
   slug: vastdata-locks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-locks-api-openapi.yml
 - filename: vastdata-login-api-openapi.yml
   format: yaml
-  label: VAST Data login API
+  label: VAST Data Login API
   slug: vastdata-login-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-login-api-openapi.yml
 - filename: vastdata-logout-api-openapi.yml
   format: yaml
-  label: VAST Data logout API
+  label: VAST Data Logout API
   slug: vastdata-logout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-logout-api-openapi.yml
 - filename: vastdata-managedapplications-api-openapi.yml
   format: yaml
-  label: VAST Data managedapplications API
+  label: VAST Data Managedapplications API
   slug: vastdata-managedapplications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-managedapplications-api-openapi.yml
 - filename: vastdata-managers-api-openapi.yml
   format: yaml
-  label: VAST Data managers API
+  label: VAST Data Managers API
   slug: vastdata-managers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-managers-api-openapi.yml
 - filename: vastdata-metrics-api-openapi.yml
   format: yaml
-  label: VAST Data metrics API
+  label: VAST Data Metrics API
   slug: vastdata-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-metrics-api-openapi.yml
 - filename: vastdata-modules-api-openapi.yml
   format: yaml
-  label: VAST Data modules API
+  label: VAST Data Modules API
   slug: vastdata-modules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-modules-api-openapi.yml
 - filename: vastdata-monitors-api-openapi.yml
   format: yaml
-  label: VAST Data monitors API
+  label: VAST Data Monitors API
   slug: vastdata-monitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-monitors-api-openapi.yml
 - filename: vastdata-nativereplicationremotetargets-api-openapi.yml
   format: yaml
-  label: VAST Data nativereplicationremotetargets API
+  label: VAST Data Nativereplicationremotetargets API
   slug: vastdata-nativereplicationremotetargets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-nativereplicationremotetargets-api-openapi.yml
 - filename: vastdata-nicports-api-openapi.yml
   format: yaml
-  label: VAST Data nicports API
+  label: VAST Data Nicports API
   slug: vastdata-nicports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-nicports-api-openapi.yml
 - filename: vastdata-nics-api-openapi.yml
   format: yaml
-  label: VAST Data nics API
+  label: VAST Data Nics API
   slug: vastdata-nics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-nics-api-openapi.yml
 - filename: vastdata-nis-api-openapi.yml
   format: yaml
-  label: VAST Data nis API
+  label: VAST Data Nis API
   slug: vastdata-nis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-nis-api-openapi.yml
 - filename: vastdata-nvrams-api-openapi.yml
   format: yaml
-  label: VAST Data nvrams API
+  label: VAST Data Nvrams API
   slug: vastdata-nvrams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-nvrams-api-openapi.yml
 - filename: vastdata-objectpermissions-api-openapi.yml
   format: yaml
-  label: VAST Data objectpermissions API
+  label: VAST Data Objectpermissions API
   slug: vastdata-objectpermissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-objectpermissions-api-openapi.yml
 - filename: vastdata-oidcs-api-openapi.yml
   format: yaml
-  label: VAST Data oidcs API
+  label: VAST Data Oidcs API
   slug: vastdata-oidcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-oidcs-api-openapi.yml
 - filename: vastdata-openfilehandles-api-openapi.yml
   format: yaml
-  label: VAST Data openfilehandles API
+  label: VAST Data Openfilehandles API
   slug: vastdata-openfilehandles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-openfilehandles-api-openapi.yml
 - filename: vastdata-openfiles-api-openapi.yml
   format: yaml
-  label: VAST Data openfiles API
+  label: VAST Data Openfiles API
   slug: vastdata-openfiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-openfiles-api-openapi.yml
 - filename: vastdata-openfilesqueries-api-openapi.yml
   format: yaml
-  label: VAST Data openfilesqueries API
+  label: VAST Data Openfilesqueries API
   slug: vastdata-openfilesqueries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-openfilesqueries-api-openapi.yml
 - filename: vastdata-permissions-api-openapi.yml
   format: yaml
-  label: VAST Data permissions API
+  label: VAST Data Permissions API
   slug: vastdata-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-permissions-api-openapi.yml
 - filename: vastdata-ports-api-openapi.yml
   format: yaml
-  label: VAST Data ports API
+  label: VAST Data Ports API
   slug: vastdata-ports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-ports-api-openapi.yml
 - filename: vastdata-projectioncolumns-api-openapi.yml
   format: yaml
-  label: VAST Data projectioncolumns API
+  label: VAST Data Projectioncolumns API
   slug: vastdata-projectioncolumns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-projectioncolumns-api-openapi.yml
 - filename: vastdata-projections-api-openapi.yml
   format: yaml
-  label: VAST Data projections API
+  label: VAST Data Projections API
   slug: vastdata-projections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-projections-api-openapi.yml
 - filename: vastdata-prometheusmetrics-api-openapi.yml
   format: yaml
-  label: VAST Data prometheusmetrics API
+  label: VAST Data Prometheusmetrics API
   slug: vastdata-prometheusmetrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-prometheusmetrics-api-openapi.yml
 - filename: vastdata-protectedpaths-api-openapi.yml
   format: yaml
-  label: VAST Data protectedpaths API
+  label: VAST Data Protectedpaths API
   slug: vastdata-protectedpaths-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-protectedpaths-api-openapi.yml
 - filename: vastdata-psus-api-openapi.yml
   format: yaml
-  label: VAST Data psus API
+  label: VAST Data Psus API
   slug: vastdata-psus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-psus-api-openapi.yml
@@ -440,19 +440,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-qos-policies-api-openapi.yml
 - filename: vastdata-quotaentityinfos-api-openapi.yml
   format: yaml
-  label: VAST Data quotaentityinfos API
+  label: VAST Data Quotaentityinfos API
   slug: vastdata-quotaentityinfos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-quotaentityinfos-api-openapi.yml
 - filename: vastdata-quotagroups-api-openapi.yml
   format: yaml
-  label: VAST Data quotagroups API
+  label: VAST Data Quotagroups API
   slug: vastdata-quotagroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-quotagroups-api-openapi.yml
 - filename: vastdata-quotas-api-openapi.yml
   format: yaml
-  label: VAST Data quotas API
+  label: VAST Data Quotas API
   slug: vastdata-quotas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-quotas-api-openapi.yml
@@ -464,31 +464,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-racks-api-openapi.yml
 - filename: vastdata-realms-api-openapi.yml
   format: yaml
-  label: VAST Data realms API
+  label: VAST Data Realms API
   slug: vastdata-realms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-realms-api-openapi.yml
 - filename: vastdata-replicationrestorepoints-api-openapi.yml
   format: yaml
-  label: VAST Data replicationrestorepoints API
+  label: VAST Data Replicationrestorepoints API
   slug: vastdata-replicationrestorepoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-replicationrestorepoints-api-openapi.yml
 - filename: vastdata-replicationstreams-api-openapi.yml
   format: yaml
-  label: VAST Data replicationstreams API
+  label: VAST Data Replicationstreams API
   slug: vastdata-replicationstreams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-replicationstreams-api-openapi.yml
 - filename: vastdata-replicationtargets-api-openapi.yml
   format: yaml
-  label: VAST Data replicationtargets API
+  label: VAST Data Replicationtargets API
   slug: vastdata-replicationtargets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-replicationtargets-api-openapi.yml
 - filename: vastdata-roles-api-openapi.yml
   format: yaml
-  label: VAST Data roles API
+  label: VAST Data Roles API
   slug: vastdata-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-roles-api-openapi.yml
@@ -500,49 +500,49 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-s3-keys-api-openapi.yml
 - filename: vastdata-s3lifecyclerules-api-openapi.yml
   format: yaml
-  label: VAST Data s3lifecyclerules API
+  label: VAST Data S3lifecyclerules API
   slug: vastdata-s3lifecyclerules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-s3lifecyclerules-api-openapi.yml
 - filename: vastdata-s3policies-api-openapi.yml
   format: yaml
-  label: VAST Data s3policies API
+  label: VAST Data S3policies API
   slug: vastdata-s3policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-s3policies-api-openapi.yml
 - filename: vastdata-schemas-api-openapi.yml
   format: yaml
-  label: VAST Data schemas API
+  label: VAST Data Schemas API
   slug: vastdata-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-schemas-api-openapi.yml
 - filename: vastdata-settingsdiff-api-openapi.yml
   format: yaml
-  label: VAST Data settingsdiff API
+  label: VAST Data Settingsdiff API
   slug: vastdata-settingsdiff-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-settingsdiff-api-openapi.yml
 - filename: vastdata-snapshotpolicies-api-openapi.yml
   format: yaml
-  label: VAST Data snapshotpolicies API
+  label: VAST Data Snapshotpolicies API
   slug: vastdata-snapshotpolicies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-snapshotpolicies-api-openapi.yml
 - filename: vastdata-snapshots-api-openapi.yml
   format: yaml
-  label: VAST Data snapshots API
+  label: VAST Data Snapshots API
   slug: vastdata-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-snapshots-api-openapi.yml
 - filename: vastdata-ssds-api-openapi.yml
   format: yaml
-  label: VAST Data ssds API
+  label: VAST Data Ssds API
   slug: vastdata-ssds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-ssds-api-openapi.yml
 - filename: vastdata-subnetmanager-api-openapi.yml
   format: yaml
-  label: VAST Data subnetmanager API
+  label: VAST Data Subnetmanager API
   slug: vastdata-subnetmanager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-subnetmanager-api-openapi.yml
@@ -554,19 +554,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-support-bundles-api-openapi.yml
 - filename: vastdata-supporteddrives-api-openapi.yml
   format: yaml
-  label: VAST Data supporteddrives API
+  label: VAST Data Supporteddrives API
   slug: vastdata-supporteddrives-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-supporteddrives-api-openapi.yml
 - filename: vastdata-switches-api-openapi.yml
   format: yaml
-  label: VAST Data switches API
+  label: VAST Data Switches API
   slug: vastdata-switches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-switches-api-openapi.yml
 - filename: vastdata-tables-api-openapi.yml
   format: yaml
-  label: VAST Data tables API
+  label: VAST Data Tables API
   slug: vastdata-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-tables-api-openapi.yml
@@ -578,61 +578,61 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-tenants-api-openapi.yml
 - filename: vastdata-token-api-openapi.yml
   format: yaml
-  label: VAST Data token API
+  label: VAST Data Token API
   slug: vastdata-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-token-api-openapi.yml
 - filename: vastdata-topics-api-openapi.yml
   format: yaml
-  label: VAST Data topics API
+  label: VAST Data Topics API
   slug: vastdata-topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-topics-api-openapi.yml
 - filename: vastdata-userquotas-api-openapi.yml
   format: yaml
-  label: VAST Data userquotas API
+  label: VAST Data Userquotas API
   slug: vastdata-userquotas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-userquotas-api-openapi.yml
 - filename: vastdata-users-api-openapi.yml
   format: yaml
-  label: VAST Data users API
+  label: VAST Data Users API
   slug: vastdata-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-users-api-openapi.yml
 - filename: vastdata-vastauditlog-api-openapi.yml
   format: yaml
-  label: VAST Data vastauditlog API
+  label: VAST Data Vastauditlog API
   slug: vastdata-vastauditlog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vastauditlog-api-openapi.yml
 - filename: vastdata-vastcatalogconfig-api-openapi.yml
   format: yaml
-  label: VAST Data vastcatalogconfig API
+  label: VAST Data Vastcatalogconfig API
   slug: vastdata-vastcatalogconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vastcatalogconfig-api-openapi.yml
 - filename: vastdata-vastcatalogindexedcolumns-api-openapi.yml
   format: yaml
-  label: VAST Data vastcatalogindexedcolumns API
+  label: VAST Data Vastcatalogindexedcolumns API
   slug: vastdata-vastcatalogindexedcolumns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vastcatalogindexedcolumns-api-openapi.yml
 - filename: vastdata-vastdb-api-openapi.yml
   format: yaml
-  label: VAST Data vastdb API
+  label: VAST Data Vastdb API
   slug: vastdata-vastdb-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vastdb-api-openapi.yml
 - filename: vastdata-versions-api-openapi.yml
   format: yaml
-  label: VAST Data versions API
+  label: VAST Data Versions API
   slug: vastdata-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-versions-api-openapi.yml
 - filename: vastdata-viewpolicies-api-openapi.yml
   format: yaml
-  label: VAST Data viewpolicies API
+  label: VAST Data Viewpolicies API
   slug: vastdata-viewpolicies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-viewpolicies-api-openapi.yml
@@ -644,19 +644,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-views-api-openapi.yml
 - filename: vastdata-vippools-api-openapi.yml
   format: yaml
-  label: VAST Data vippools API
+  label: VAST Data Vippools API
   slug: vastdata-vippools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vippools-api-openapi.yml
 - filename: vastdata-vips-api-openapi.yml
   format: yaml
-  label: VAST Data vips API
+  label: VAST Data Vips API
   slug: vastdata-vips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vips-api-openapi.yml
 - filename: vastdata-vm-api-openapi.yml
   format: yaml
-  label: VAST Data vm API
+  label: VAST Data Vm API
   slug: vastdata-vm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vm-api-openapi.yml
@@ -668,19 +668,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-volumes-api-openapi.yml
 - filename: vastdata-vsettings-api-openapi.yml
   format: yaml
-  label: VAST Data vsettings API
+  label: VAST Data Vsettings API
   slug: vastdata-vsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vsettings-api-openapi.yml
 - filename: vastdata-vtasks-api-openapi.yml
   format: yaml
-  label: VAST Data vtasks API
+  label: VAST Data Vtasks API
   slug: vastdata-vtasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-vtasks-api-openapi.yml
 - filename: vastdata-webhooks-api-openapi.yml
   format: yaml
-  label: VAST Data webhooks API
+  label: VAST Data Webhooks API
   slug: vastdata-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vastdata/refs/heads/main/openapi/vastdata-webhooks-api-openapi.yml

@@ -65,5 +65,5 @@ tags:
 - Telehealth
 - Nutrition
 - Consumer Health
-- Mobile Applications
+- Mobile App
 ---

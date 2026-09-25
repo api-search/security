@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - On-Demand Staffing
-- Recruitment
+- Recruiting
 - Hiring
 - Temporary Work
 - Human Resources

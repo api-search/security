@@ -2,49 +2,49 @@
 api_specs:
 - filename: momence-auth-api-openapi.yml
   format: yaml
-  label: Momence auth API
+  label: Momence Auth API
   slug: momence-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-auth-api-openapi.yml
 - filename: momence-host-api-openapi.yml
   format: yaml
-  label: Momence host API
+  label: Momence Host API
   slug: momence-host-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-api-openapi.yml
 - filename: momence-host-checkout-api-openapi.yml
   format: yaml
-  label: Momence host-checkout API
+  label: Momence Host Checkout API
   slug: momence-host-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-checkout-api-openapi.yml
 - filename: momence-member-addresses-api-openapi.yml
   format: yaml
-  label: Momence member-addresses API
+  label: Momence Member Addresses API
   slug: momence-member-addresses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-addresses-api-openapi.yml
 - filename: momence-member-api-openapi.yml
   format: yaml
-  label: Momence member API
+  label: Momence Member API
   slug: momence-member-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-api-openapi.yml
 - filename: momence-member-checkout-api-openapi.yml
   format: yaml
-  label: Momence member-checkout API
+  label: Momence Member Checkout API
   slug: momence-member-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-checkout-api-openapi.yml
 - filename: momence-member-host-api-openapi.yml
   format: yaml
-  label: Momence member-host API
+  label: Momence Member Host API
   slug: momence-member-host-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-host-api-openapi.yml
 - filename: momence-member-sessions-api-openapi.yml
   format: yaml
-  label: Momence member-sessions API
+  label: Momence Member Sessions API
   slug: momence-member-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-sessions-api-openapi.yml

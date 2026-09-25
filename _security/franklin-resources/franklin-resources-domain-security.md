@@ -54,7 +54,7 @@ tags:
 - Fortune 500
 - Investment Management
 - Asset Management
-- Financial-Services
+- Financial Services
 - Mutual Funds
 - Exchange-Traded Funds
 - Fund Data

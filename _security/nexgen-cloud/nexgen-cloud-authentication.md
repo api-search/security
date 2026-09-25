@@ -430,7 +430,7 @@ tags:
 - Cloud
 - GPU
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infrastructure
 - Compute
 - Kubernetes

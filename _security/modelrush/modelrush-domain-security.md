@@ -97,5 +97,5 @@ tags:
 - Multi-Modal
 - Model Hosting
 - Speech
-- Image-Generation
+- Image Generation
 ---

@@ -34,7 +34,7 @@ tags:
 - Drug Design
 - AI Drug Design
 - Precision Medicine
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Generative Chemistry
 - Centaur Chemist
@@ -43,7 +43,7 @@ tags:
 - Oncology
 - Small Molecule
 - Computational Chemistry
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Acquired
 ---

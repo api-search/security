@@ -27,6 +27,6 @@ tags:
 - Government Benefits
 - Grocery
 - Checkout
-- Financial-Services
+- Financial Services
 trust_url: https://trust.joinforage.app/
 ---

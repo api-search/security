@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Debt Collections
 - Loan Servicing
-- Financial-Services
+- Financial Services
 - Contact Center
 - Healthcare RCM
 ---

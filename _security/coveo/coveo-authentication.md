@@ -1002,8 +1002,9 @@ tags:
 - Commerce
 - Customers
 - Experience
-- Machine-Learning
+- Machine Learning
 - Personalization
 - Recommendations
 - Search
+- Canada
 ---

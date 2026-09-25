@@ -211,7 +211,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial
+- Finance
 - Payments
 - Wealth Management
 - Fortune 500

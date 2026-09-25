@@ -37,5 +37,5 @@ tags:
 - Artificial Intelligence
 - Document Intelligence
 - Fraud Detection
-- Machine-Learning
+- Machine Learning
 ---

@@ -25,7 +25,7 @@ tags:
 - Company
 - Analytics
 - Automation
-- Agentic AI
+- AI Agents
 - Finance
 - Data Preparation
 - No-Code

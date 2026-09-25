@@ -71,7 +71,7 @@ tags:
 - Edge Computing
 - Artificial Intelligence
 - High Performance Computing
-- Data-Center
+- Data Center
 - Hardware
 - GPU
 - PCIe

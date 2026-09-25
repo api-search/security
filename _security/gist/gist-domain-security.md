@@ -99,5 +99,5 @@ tags:
 - Content Licensing
 - Media
 - RAG
-- Advertising Technology
+- AdTech
 ---

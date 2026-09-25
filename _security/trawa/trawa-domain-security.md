@@ -43,7 +43,6 @@ tags:
 - Electricity
 - Renewable Energy
 - Sustainability
-- Green Energy
 - Procurement
 - Software-as-a-Service
 - Germany

@@ -80,7 +80,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Business Travel
 - Expense Management
-- Financial-Services
+- Financial Services
 - Invoice Management
 - Travel Management
 ---

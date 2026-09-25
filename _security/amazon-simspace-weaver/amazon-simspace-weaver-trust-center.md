@@ -111,5 +111,6 @@ tags:
 - Digital Twin
 - Simulation
 - Spatial Simulation
+- Defunct
 trust_url: https://aws.amazon.com/compliance/
 ---

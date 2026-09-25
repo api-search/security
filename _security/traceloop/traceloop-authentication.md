@@ -5,25 +5,25 @@ api_key_in:
 api_specs:
 - filename: traceloop-auto-monitor-setups-api-openapi.yml
   format: yaml
-  label: Traceloop auto-monitor-setups API
+  label: Traceloop Auto Monitor Setups API
   slug: traceloop-auto-monitor-setups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-auto-monitor-setups-api-openapi.yml
 - filename: traceloop-evaluators-api-openapi.yml
   format: yaml
-  label: Traceloop evaluators API
+  label: Traceloop Evaluators API
   slug: traceloop-evaluators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-evaluators-api-openapi.yml
 - filename: traceloop-metrics-api-openapi.yml
   format: yaml
-  label: Traceloop metrics API
+  label: Traceloop Metrics API
   slug: traceloop-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-metrics-api-openapi.yml
 - filename: traceloop-organizations-api-openapi.yml
   format: yaml
-  label: Traceloop organizations API
+  label: Traceloop Organizations API
   slug: traceloop-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-organizations-api-openapi.yml
@@ -64,5 +64,5 @@ tags:
 - Evaluation
 - LLM Gateway
 - Prompt Management
-- Machine-Learning
+- Machine Learning
 ---

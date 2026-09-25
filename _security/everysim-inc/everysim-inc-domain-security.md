@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Everysim Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EverySim Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: EverySim Inc.
+overview: 'Domain security posture for EverySim, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: EverySim
 provider_slug: everysim-inc
 slug: everysim-inc-domain-security
 source_filename: everysim-inc-domain-security.yml

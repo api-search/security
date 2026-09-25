@@ -74,7 +74,7 @@ tags:
 - Compute
 - GPU
 - Inference
-- Machine-Learning
+- Machine Learning
 - Serverless
 trust_url: https://trust.runpod.io/
 ---

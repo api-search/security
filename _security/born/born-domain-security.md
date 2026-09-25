@@ -37,7 +37,7 @@ tags:
 - Company
 - Consumer
 - Artificial Intelligence
-- AI Companions
+- AI Companion
 - Mobile App
 - Social
 - Gaming

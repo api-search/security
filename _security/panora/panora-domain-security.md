@@ -32,6 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - CRM
 - Integration
-- Open-Source
-- Unified-API
+- Open Source
+- Unified API
 ---

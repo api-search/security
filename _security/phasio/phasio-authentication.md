@@ -16,13 +16,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-addresses-api-openapi.yml
 - filename: phasio-cart-resource-api-openapi.yml
   format: yaml
-  label: Phasio cart-resource API
+  label: Phasio Cart Resource API
   slug: phasio-cart-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-cart-resource-api-openapi.yml
 - filename: phasio-constraint-resource-api-openapi.yml
   format: yaml
-  label: Phasio constraint-resource API
+  label: Phasio Constraint Resource API
   slug: phasio-constraint-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-constraint-resource-api-openapi.yml
@@ -160,7 +160,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-customer-thread-file-controller-api-openapi.yml
 - filename: phasio-equation-resource-api-openapi.yml
   format: yaml
-  label: Phasio equation-resource API
+  label: Phasio Equation Resource API
   slug: phasio-equation-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-equation-resource-api-openapi.yml
@@ -526,7 +526,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-metrics-controller-api-openapi.yml
 - filename: phasio-payment-term-resource-api-openapi.yml
   format: yaml
-  label: Phasio payment-term-resource API
+  label: Phasio Payment Term Resource API
   slug: phasio-payment-term-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-payment-term-resource-api-openapi.yml
@@ -544,7 +544,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-user-authentication-controller-api-openapi.yml
 - filename: phasio-webhook-resource-api-openapi.yml
   format: yaml
-  label: Phasio webhook-resource API
+  label: Phasio Webhook Resource API
   slug: phasio-webhook-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/openapi/phasio-webhook-resource-api-openapi.yml

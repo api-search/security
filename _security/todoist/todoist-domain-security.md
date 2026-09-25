@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: todoist-sync-api-openapi.yml
-  format: yaml
-  label: Todoist Sync API v9
-  slug: todoist-sync-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-sync-api-openapi.yml
 - filename: todoist-comments-api-openapi.yml
   format: yaml
   label: Todoist Comments API

@@ -244,6 +244,7 @@ tags:
 - Government
 - Regulated Industries
 - MCP
-- agent-native
+- Agent-Native
+- A2A
 trust_url: https://trust.seekr.com/
 ---

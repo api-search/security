@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: >-\n  Live anonym
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/authentication/ginnie-mae-authentication.yml
 summary_line: 0 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Housing
 - Mortgage
 - Mortgage-Backed Securities

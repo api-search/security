@@ -282,7 +282,7 @@ tags:
 - Compliance
 - SOC 2
 - ISO 27001
-- Risk
+- Risk Management
 - CMMC
 - FedRAMP
 - Security

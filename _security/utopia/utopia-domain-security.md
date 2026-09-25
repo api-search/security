@@ -35,5 +35,5 @@ tags:
 - Design
 - Low-Code
 - React
-- Open-Source
+- Open Source
 ---

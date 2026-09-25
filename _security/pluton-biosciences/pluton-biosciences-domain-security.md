@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture
 - AgTech
-- Biotech
+- Biotechnology
 - Microbials
 - Soil Carbon
 - Discovery Platform

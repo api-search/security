@@ -218,4 +218,5 @@ tags:
 - Messaging
 - Multi-Location
 - Artificial Intelligence
+- A2A
 ---

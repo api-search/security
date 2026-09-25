@@ -49,7 +49,7 @@ tags:
 - Broker-Dealer
 - Cetera Financial Group
 - Defunct
-- Financial-Services
+- Financial Services
 - Independent Advisor
 - Investment Banking
 - Wealth Management

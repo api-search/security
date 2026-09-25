@@ -36,7 +36,7 @@ tags:
 - AI Infrastructure
 - Memory
 - Servers
-- Data-Center
+- Data Center
 - Hardware
 - Artificial Intelligence
 ---

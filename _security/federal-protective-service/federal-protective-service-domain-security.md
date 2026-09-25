@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-protective-service/refs/heads/main/security/federal-protective-service-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Security
 - Law Enforcement
 - Public Safety

@@ -125,7 +125,7 @@ summary_line: apiKey/http/oauth2 · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - MCP
 - Document Intelligence
 - Agents

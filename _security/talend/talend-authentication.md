@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: talend-connections-api-openapi.yml
-  format: yaml
-  label: Talend Cloud Connections API
-  slug: talend-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-connections-api-openapi.yml
 - filename: talend-artifacts-api-openapi.yml
   format: yaml
   label: Talend Artifacts API
@@ -129,4 +123,5 @@ tags:
 - ETL
 - Orchestration
 - Pipelines
+- Data Catalog
 ---

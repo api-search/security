@@ -38,6 +38,6 @@ tags:
 - Export Control
 - Sanctions Screening
 - Supply Chain
-- Risk
+- Risk Management
 - Artificial Intelligence
 ---

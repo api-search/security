@@ -33,7 +33,7 @@ tags:
 - Biological Compute
 - Neurotechnology
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Wetware
 - Compute
 - Research

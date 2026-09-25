@@ -324,8 +324,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - CRM
 - HRIS
-- Unified-API
-- Open-Source
+- Unified API
+- Open Source
 - Integration
 - Sales Engagement
 - Ticketing

@@ -35,7 +35,6 @@ tags:
 - Commerce
 - E-Commerce
 - K-Beauty
-- D2C
 - Brand Aggregator
 - South Korea
 - Direct to Consumer

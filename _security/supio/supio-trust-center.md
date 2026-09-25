@@ -24,7 +24,7 @@ tags:
 - Legal
 - Legal Tech
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Personal Injury
 - Document Automation
 - Case Management

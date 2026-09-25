@@ -65,4 +65,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadridge/ref
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Fortune 1000
+- Wealth Management
 ---

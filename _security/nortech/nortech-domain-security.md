@@ -104,10 +104,10 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Industrial IoT
-- IIoT
 - Maritime
 - Operational Data
 - Time Series
 - Sensors
 - Data Infrastructure
+- Real-Time
 ---

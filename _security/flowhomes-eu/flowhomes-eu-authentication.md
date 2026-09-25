@@ -103,5 +103,5 @@ tags:
 - MCP
 - A2A
 - Agents
-- agent-native
+- Agent-Native
 ---

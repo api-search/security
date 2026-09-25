@@ -45,5 +45,5 @@ tags:
 - Knowledge Graph
 - Pharmaceuticals
 - Research
-- Agentic AI
+- AI Agents
 ---

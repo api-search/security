@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Cloudastructure Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CloudAStructure Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: CloudAStructure Inc
+overview: 'Domain security posture for CloudAStructure, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: CloudAStructure
 provider_slug: cloudastructure-inc
 slug: cloudastructure-inc-domain-security
 source_filename: cloudastructure-inc-domain-security.yml
@@ -35,7 +35,7 @@ tags:
 - Video Surveillance
 - Physical Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Remote Guarding
 - Cloud Security
 - Facial Recognition

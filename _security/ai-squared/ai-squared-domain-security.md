@@ -105,11 +105,12 @@ tags:
 - Data Integration
 - Reverse ETL
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Customer Data Platform
 - Data Activation
-- Workflow-Automation
-- Open-Source
+- Workflow Automation
+- Open Source
 - MCP
 - Enterprise
+- A2A
 ---

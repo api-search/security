@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-projects-api-openapi.yml
 - filename: smartbear-apis-api-openapi.yml
   format: yaml
-  label: SmartBear AP Is API
+  label: SmartBear APIs API
   slug: smartbear-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml

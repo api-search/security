@@ -47,7 +47,7 @@ tags:
 - Django
 - Python
 - Headless CMS
-- Open-Source
+- Open Source
 - REST API
 - Pages
 - Image

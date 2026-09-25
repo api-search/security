@@ -84,4 +84,5 @@ tags:
 - Clean Energy
 - Construction
 - Device Metrics
+- Defunct
 ---

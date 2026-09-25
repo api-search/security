@@ -36,6 +36,6 @@ tags:
 - Compliance
 - Risk Management
 - AI Safety
-- Regulatory Technology
-- Agentic AI
+- RegTech
+- AI Agents
 ---

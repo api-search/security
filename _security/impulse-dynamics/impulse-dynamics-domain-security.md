@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: impulse-dynamics-wp-v2-api-openapi.yml
-  format: yaml
-  label: Impulse Dynamics wp/v2 API
-  slug: impulse-dynamics-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-wp-v2-api-openapi.yml
 - filename: impulse-dynamics-mcp-api-openapi.yml
   format: yaml
   label: Impulse Dynamics MCP API
   slug: impulse-dynamics-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-mcp-api-openapi.yml
-- filename: impulse-dynamics-wp-abilities-v1-api-openapi.yml
-  format: yaml
-  label: Impulse Dynamics wp-abilities/v1 API
-  slug: impulse-dynamics-wp-abilities-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-wp-abilities-v1-api-openapi.yml
-- filename: impulse-dynamics-oembed-1-0-api-openapi.yml
-  format: yaml
-  label: Impulse Dynamics oEmbed/1.0 API
-  slug: impulse-dynamics-oembed-1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-oembed-1-0-api-openapi.yml
-- filename: impulse-dynamics-root-api-openapi.yml
-  format: yaml
-  label: Impulse Dynamics Root API
-  slug: impulse-dynamics-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/impulse-dynamics-root-api-openapi.yml
 description: ''
 domains:
 - caa: []

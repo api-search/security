@@ -1,55 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: hpsf-events-api-openapi.yml
-  format: yaml
-  label: HPSF Events API
-  slug: hpsf-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-events-api-openapi.yml
-- filename: hpsf-categories-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Categories API
-  slug: hpsf-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-categories-api-openapi.yml
-- filename: hpsf-common-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Common API
-  slug: hpsf-common-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-common-api-openapi.yml
-- filename: hpsf-doc-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Doc API
-  slug: hpsf-doc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-doc-api-openapi.yml
-- filename: hpsf-events-pro-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Events Pro API
-  slug: hpsf-events-pro-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-events-pro-api-openapi.yml
-- filename: hpsf-organizers-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Organizers API
-  slug: hpsf-organizers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-organizers-api-openapi.yml
-- filename: hpsf-tags-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Tags API
-  slug: hpsf-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-tags-api-openapi.yml
-- filename: hpsf-venues-api-openapi.yml
-  format: yaml
-  label: High Performance Software Foundation Venues API
-  slug: hpsf-venues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/openapi/hpsf-venues-api-openapi.yml
 auth_types:
 - none
 - http
@@ -102,7 +53,7 @@ summary_line: none/http · 2 schemes
 tags:
 - HPC
 - Linux Foundation
-- Open-Source
+- Open Source
 - Scientific Computing
 - Foundations
 - Supercomputing

@@ -119,7 +119,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-toolbox-api-openapi.yml
 - filename: api-evangelist-apis-api-openapi.yml
   format: yaml
-  label: API Evangelist AP Is API
+  label: API Evangelist APIs API
   slug: api-evangelist-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-apis-api-openapi.yml
@@ -169,4 +169,5 @@ tags:
 - Agents
 - API Standards
 - API Vocabulary
+- A2A
 ---

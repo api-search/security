@@ -35,7 +35,7 @@ tags:
 - AgTech
 - Precision Agriculture
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Weed Management
 - Precision Spraying
 ---

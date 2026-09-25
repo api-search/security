@@ -17,8 +17,8 @@ oauth_flows:
 - implicit
 - password
 - deviceCode
-overview: EverySim Inc. secures its APIs with oauth2 and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode, clientCredentials, implicit, password, and deviceCode flow(s).
-provider_name: EverySim Inc.
+overview: EverySim secures its APIs with oauth2 and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode, clientCredentials, implicit, password, and deviceCode flow(s).
+provider_name: EverySim
 provider_slug: everysim-inc
 scheme_count: 2
 schemes:

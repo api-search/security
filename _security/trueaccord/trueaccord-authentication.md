@@ -40,9 +40,9 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Debt Collection
-- Financial-Services
+- Financial Services
 - Fintech
-- Machine-Learning
+- Machine Learning
 - Collection
 - Consumer Finance
 ---

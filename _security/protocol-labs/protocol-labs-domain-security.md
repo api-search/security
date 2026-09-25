@@ -38,7 +38,7 @@ tags:
 - Filecoin
 - LibP2P
 - Web3
-- Open-Source
+- Open Source
 - Research and Development
 - Distributed Storage
 ---

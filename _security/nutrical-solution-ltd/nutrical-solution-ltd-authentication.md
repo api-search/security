@@ -49,8 +49,8 @@ method: derived
 name: Nutrical Solution Ltd Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Nutrical Solution Ltd secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Nutrical Solution Ltd
+overview: Nutrical Solution secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Nutrical Solution
 provider_slug: nutrical-solution-ltd
 scheme_count: 2
 schemes:

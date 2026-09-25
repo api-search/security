@@ -21,7 +21,7 @@ tags:
 - Company
 - AI Agents
 - Agent Platform
-- Workflow-Automation
+- Workflow Automation
 - Knowledge Work
 - MCP
 - Integration

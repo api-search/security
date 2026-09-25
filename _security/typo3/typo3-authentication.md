@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-release-api-openapi.yml
 - filename: typo3-sitepackage-api-openapi.yml
   format: yaml
-  label: TYPO3 sitepackage API
+  label: TYPO3 Sitepackage API
   slug: typo3-sitepackage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-sitepackage-api-openapi.yml
@@ -60,5 +60,5 @@ tags:
 - PHP
 - Headless
 - JSON:API
-- Open-Source
+- Open Source
 ---

@@ -39,4 +39,5 @@ tags:
 - Alternative Protein
 - Consumer Packaged Goods
 - Sustainability
+- Food and Beverage
 ---

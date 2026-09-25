@@ -239,5 +239,6 @@ tags:
 - Voice
 - Verification
 - CPaaS
+- Telecommunications
 trust_url: https://trust.sinch.com/
 ---

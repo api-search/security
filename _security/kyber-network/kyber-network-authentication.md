@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-service-api-openapi.yml
 - filename: kyber-network-swap-api-openapi.yml
   format: yaml
-  label: Kyber Network swap API
+  label: Kyber Network Swap API
   slug: kyber-network-swap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/openapi/kyber-network-swap-api-openapi.yml

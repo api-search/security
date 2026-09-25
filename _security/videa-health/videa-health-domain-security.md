@@ -43,7 +43,7 @@ tags:
 - Medical Imaging
 - Radiograph Analysis
 - Diagnostics
-- Computer-Vision
+- Computer Vision
 - FDA Cleared
 - Gated API
 ---

@@ -156,5 +156,5 @@ tags:
 - Credential Broker
 - API Gateway
 - Agent Security
-- agent-native
+- Agent-Native
 ---

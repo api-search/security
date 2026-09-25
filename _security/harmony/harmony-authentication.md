@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: harmony-tickets-api-openapi.yml
   format: yaml
-  label: Harmony tickets API
+  label: Harmony Tickets API
   slug: harmony-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/openapi/harmony-tickets-api-openapi.yml

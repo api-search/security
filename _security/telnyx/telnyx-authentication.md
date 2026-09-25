@@ -1065,4 +1065,5 @@ tags:
 - Voice
 - SMS
 - IoT
+- Telecommunications
 ---

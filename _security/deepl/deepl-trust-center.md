@@ -68,8 +68,9 @@ tags:
 - Deep Learning
 - Glossary
 - Localization
-- Machine-Learning
+- Machine Learning
 - Machine Translation
 - Translation
+- Real-Time
 trust_url: https://deepl.safebase.us/
 ---

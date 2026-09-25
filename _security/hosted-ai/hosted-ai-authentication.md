@@ -51,7 +51,7 @@ tags:
 - GPUaaS
 - Cloud Infrastructure
 - Neocloud
-- Machine-Learning
+- Machine Learning
 - AI Infrastructure
 - Multi-Tenancy
 - Service Providers

@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alterestate/re
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - CRM
 - Property Management
 - Lead Management

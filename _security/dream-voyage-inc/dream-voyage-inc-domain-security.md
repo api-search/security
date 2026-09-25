@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Dream Voyage Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Dream Voyage Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Dream Voyage Inc.
+overview: 'Domain security posture for Dream Voyage, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Dream Voyage
 provider_slug: dream-voyage-inc
 slug: dream-voyage-inc-domain-security
 source_filename: dream-voyage-inc-domain-security.yml

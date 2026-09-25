@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Classification
 - Content Moderation
 - Decision Support
@@ -65,6 +65,7 @@ tags:
 - LLM Alternative
 - Agent Skills
 - MCP
-- agent-native
+- Agent-Native
 - Developer Tools
+- A2A
 ---

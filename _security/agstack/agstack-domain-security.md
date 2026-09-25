@@ -2,7 +2,7 @@
 api_specs:
 - filename: agstack-api-api-openapi.yml
   format: yaml
-  label: AgStack Foundation api
+  label: AgStack Foundation API
   slug: agstack-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-api-api-openapi.yml
@@ -80,7 +80,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Agriculture
 - Linux Foundation
-- Open-Source
+- Open Source
 - Geospatial
 - Precision Agriculture
 - Linked Data

@@ -57,7 +57,7 @@ tags:
 - Activities
 - Norway
 - Marketplace
-- agent-native
+- Agent-Native
 - A2A
 - MCP
 - Booking

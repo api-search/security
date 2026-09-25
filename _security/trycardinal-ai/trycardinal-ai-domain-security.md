@@ -103,5 +103,5 @@ tags:
 - Revenue Operations
 - AI Agents
 - Lead Generation
-- Machine-Learning
+- Machine Learning
 ---

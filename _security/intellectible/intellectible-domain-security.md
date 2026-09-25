@@ -48,9 +48,9 @@ tags:
 - GovCon
 - Proposals
 - CRM
-- Workflow-Automation
+- Workflow Automation
 - Pricing
-- Knowledge-Management
+- Knowledge Management
 - Enterprise Software
 - Professional Services
 ---

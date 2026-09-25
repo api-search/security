@@ -50,7 +50,7 @@ summary_line: 2 schemes
 tags:
 - x402
 - USDC
-- Agent Payments
+- Agentic Payments
 - paid-placement
 - Leaderboards
 ---

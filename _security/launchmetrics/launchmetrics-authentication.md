@@ -76,7 +76,7 @@ tags:
 - Marketing
 - Public Relations
 - Media Monitoring
-- Social-Media
+- Social Media
 - Analytics
 - Fashion
 - Luxury

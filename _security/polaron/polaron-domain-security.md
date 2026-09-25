@@ -34,7 +34,7 @@ tags:
 - Company
 - Materials Science
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Microscopy
 - Microstructure
 - Batteries

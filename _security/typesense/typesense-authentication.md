@@ -80,8 +80,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesense/refs
 summary_line: apiKey · 2 schemes
 tags:
 - Full-Text Search
-- Open-Source
+- Open Source
 - Search Engines
 - Typo Tolerance
 - Vector Search
+- Search
 ---

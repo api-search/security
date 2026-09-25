@@ -35,7 +35,7 @@ tags:
 - Construction
 - Construction Technology
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Drones
 - Geospatial
 - Digital Twin

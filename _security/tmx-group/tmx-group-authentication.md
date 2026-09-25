@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://docs.tm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/authentication/tmx-group-authentication.yml
 summary_line: apiKey/http-bearer · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Exchange

@@ -53,7 +53,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Load Testing
 - Performance Testing
-- Open-Source
+- Open Source
 - Testing
 - DevOps
 - Node.js

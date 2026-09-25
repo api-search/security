@@ -174,7 +174,7 @@ summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
 - Company
 - Backend-as-a-Service
-- agent-native
+- Agent-Native
 - Cloud Infrastructure
 - Database
 - Authentication
@@ -184,6 +184,6 @@ tags:
 - AI Gateway
 - Payments
 - Real-Time
-- Open-Source
+- Open Source
 - Y Combinator
 ---

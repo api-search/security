@@ -39,6 +39,6 @@ tags:
 - Soil Microbiome
 - Agriculture
 - DNA Sequencing
-- Machine-Learning
+- Machine Learning
 - Sustainability
 ---

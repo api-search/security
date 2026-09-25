@@ -37,5 +37,5 @@ tags:
 - IoT
 - Electrochromic
 - Building Automation
-- Real-Estate
+- Real Estate
 ---

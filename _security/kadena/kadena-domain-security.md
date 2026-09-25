@@ -2,97 +2,97 @@
 api_specs:
 - filename: kadena-block-api-openapi.yml
   format: yaml
-  label: Kadena block API
+  label: Kadena Block API
   slug: kadena-block-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-block-api-openapi.yml
 - filename: kadena-blockhash-api-openapi.yml
   format: yaml
-  label: Kadena blockhash API
+  label: Kadena Blockhash API
   slug: kadena-blockhash-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-blockhash-api-openapi.yml
 - filename: kadena-config-api-openapi.yml
   format: yaml
-  label: Kadena config API
+  label: Kadena Config API
   slug: kadena-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-config-api-openapi.yml
 - filename: kadena-cut-api-openapi.yml
   format: yaml
-  label: Kadena cut API
+  label: Kadena Cut API
   slug: kadena-cut-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-cut-api-openapi.yml
 - filename: kadena-endpoint-listen-api-openapi.yml
   format: yaml
-  label: Kadena endpoint-listen API
+  label: Kadena Endpoint Listen API
   slug: kadena-endpoint-listen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-listen-api-openapi.yml
 - filename: kadena-endpoint-local-api-openapi.yml
   format: yaml
-  label: Kadena endpoint-local API
+  label: Kadena Endpoint Local API
   slug: kadena-endpoint-local-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-local-api-openapi.yml
 - filename: kadena-endpoint-poll-api-openapi.yml
   format: yaml
-  label: Kadena endpoint-poll API
+  label: Kadena Endpoint Poll API
   slug: kadena-endpoint-poll-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-poll-api-openapi.yml
 - filename: kadena-endpoint-private-api-openapi.yml
   format: yaml
-  label: Kadena endpoint-private API
+  label: Kadena Endpoint Private API
   slug: kadena-endpoint-private-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-private-api-openapi.yml
 - filename: kadena-endpoint-send-api-openapi.yml
   format: yaml
-  label: Kadena endpoint-send API
+  label: Kadena Endpoint Send API
   slug: kadena-endpoint-send-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-send-api-openapi.yml
 - filename: kadena-endpoint-spv-api-openapi.yml
   format: yaml
-  label: Kadena endpoint-spv API
+  label: Kadena Endpoint Spv API
   slug: kadena-endpoint-spv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-spv-api-openapi.yml
 - filename: kadena-header-api-openapi.yml
   format: yaml
-  label: Kadena header API
+  label: Kadena Header API
   slug: kadena-header-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-header-api-openapi.yml
 - filename: kadena-mempool-api-openapi.yml
   format: yaml
-  label: Kadena mempool API
+  label: Kadena Mempool API
   slug: kadena-mempool-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-mempool-api-openapi.yml
 - filename: kadena-mining-api-openapi.yml
   format: yaml
-  label: Kadena mining API
+  label: Kadena Mining API
   slug: kadena-mining-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-mining-api-openapi.yml
 - filename: kadena-misc-api-openapi.yml
   format: yaml
-  label: Kadena misc API
+  label: Kadena Misc API
   slug: kadena-misc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-misc-api-openapi.yml
 - filename: kadena-payload-api-openapi.yml
   format: yaml
-  label: Kadena payload API
+  label: Kadena Payload API
   slug: kadena-payload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-payload-api-openapi.yml
 - filename: kadena-peer-api-openapi.yml
   format: yaml
-  label: Kadena peer API
+  label: Kadena Peer API
   slug: kadena-peer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-peer-api-openapi.yml

@@ -54,4 +54,5 @@ tags:
 - CRM
 - Payments
 - Self-Care
+- Scheduling
 ---

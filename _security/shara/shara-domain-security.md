@@ -35,7 +35,7 @@ tags:
 - Lending
 - SME Finance
 - Working Capital
-- Financial-Services
+- Financial Services
 - Nigeria
 - Loans
 ---

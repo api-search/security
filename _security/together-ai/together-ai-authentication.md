@@ -70,7 +70,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-endpoints-api-openapi.yml
 - filename: together-ai-evaluation-api-openapi.yml
   format: yaml
-  label: Together AI evaluation API
+  label: Together AI Evaluation API
   slug: together-ai-evaluation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-evaluation-api-openapi.yml

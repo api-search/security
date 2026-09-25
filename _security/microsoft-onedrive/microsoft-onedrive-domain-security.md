@@ -73,5 +73,5 @@ tags:
 - File Storage
 - File
 - Microsoft
-- Microsoft-365
+- Microsoft 365
 ---

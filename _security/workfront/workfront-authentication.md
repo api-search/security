@@ -152,7 +152,7 @@ tags:
 - Collaboration
 - Approvals
 - Resource Management
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Adobe
 - MCP

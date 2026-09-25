@@ -24,6 +24,18 @@ api_specs:
   slug: pge-usagepoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+- filename: pg-and-e-subscriptions-api-openapi.yml
+  format: yaml
+  label: PG&E Subscriptions API
+  slug: pg-and-e-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pg-and-e-subscriptions-api-openapi.yml
+- filename: pg-and-e-usage-api-openapi.yml
+  format: yaml
+  label: PG&E Usage API
+  slug: pg-and-e-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pg-and-e-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

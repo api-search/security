@@ -55,5 +55,5 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine-Learning
+- Machine Learning
 ---

@@ -56,7 +56,7 @@ summary_line: http-bearer/apiKey · 2 schemes
 tags:
 - AI image detection
 - Image Analysis
-- Computer-Vision
+- Computer Vision
 - Content Moderation
 - Trust and Safety
 - Fact Checking

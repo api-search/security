@@ -84,7 +84,7 @@ tags:
 - Forms
 - Documents
 - E-Signature
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Authentication
 trust_url: https://trust.intellistack.com/

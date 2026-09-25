@@ -49,6 +49,6 @@ tags:
 - SMB
 - Triggers and Actions
 - Webhook
-- Workflow-Automation
+- Workflow Automation
 - Workflows
 ---

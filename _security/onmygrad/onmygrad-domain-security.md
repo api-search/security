@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - EdTech
-- Recruitment
+- Recruiting
 - Careers
 - Human Resources
 - Campus Recruitment

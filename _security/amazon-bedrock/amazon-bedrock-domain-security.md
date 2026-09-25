@@ -89,7 +89,7 @@ tags:
 - Foundation Models
 - Generative AI
 - LLM
-- Machine-Learning
+- Machine Learning
 - RAG
 - Agents
 - Responsible AI

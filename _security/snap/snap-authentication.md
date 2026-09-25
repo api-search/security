@@ -44,7 +44,7 @@ tags:
 - Company
 - Advertising
 - Marketing
-- Social-Media
+- Social Media
 - Augmented Reality
 - Camera
 - Authentication

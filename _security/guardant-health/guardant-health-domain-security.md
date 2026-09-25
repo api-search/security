@@ -58,4 +58,5 @@ tags:
 - Liquid Biopsy
 - Genomics
 - EMR Integration
+- Diagnostics
 ---

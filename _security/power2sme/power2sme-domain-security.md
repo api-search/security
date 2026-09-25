@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/openapi/power2sme-static-information-api-openapi.yml
 - filename: power2sme-true-caller-controller-api-openapi.yml
   format: yaml
-  label: Power2SME true-caller-controller API
+  label: Power2SME True Caller Controller API
   slug: power2sme-true-caller-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/openapi/power2sme-true-caller-controller-api-openapi.yml

@@ -57,7 +57,8 @@ tags:
 - EHI Export
 - Patient Consent
 - Self-Hosted
-- Open-Source
+- Open Source
 - HL7
 - Healthcare Connectivity
+- A2A
 ---

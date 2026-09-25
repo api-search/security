@@ -101,5 +101,5 @@ tags:
 - Playbooks
 - Case Management
 - Security Operations
-- Agentic AI
+- AI Agents
 ---

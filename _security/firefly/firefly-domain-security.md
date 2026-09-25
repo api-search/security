@@ -35,7 +35,6 @@ tags:
 - Advertising
 - Digital Out Of Home
 - Mobility
-- Advertising Technology
 - AdTech
 - Marketing
 - Measurements

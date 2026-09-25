@@ -48,7 +48,7 @@ tags:
 - Work Orders
 - Field Service
 - Maintenance
-- Real-Estate
+- Real Estate
 - GraphQL
 - Webhook
 - Vendor Network

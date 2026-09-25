@@ -1,19 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: quaker-houghton-tribe-events-v1-openapi-original.json
-  format: json
-  label: Quaker Houghton Events API
-  slug: quaker-houghton-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaker-houghton/refs/heads/main/openapi/_original/quaker-houghton-tribe-events-v1-openapi-original.json
-- filename: quaker-houghton-tec-v1-openapi-original.json
-  format: json
-  label: Quaker Houghton TEC v1 Events API
-  slug: quaker-houghton-tec-v1-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaker-houghton/refs/heads/main/openapi/_original/quaker-houghton-tec-v1-openapi-original.json
 auth_types: []
 description: 'Authentication profile for every machine surface home.quakerhoughton.com publishes. Three distinct postures coexist on one host: anonymous keyless reads on the Events Calendar APIs, HTTP Basic (WordPress Application Passwords) on their writes, and OAuth 2.1 with PKCE on the MCP server. Quaker Houghton publishes no authentication documentation of its own — every fact here is read from a served contract or discovery document.'
 kind: authentication

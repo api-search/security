@@ -283,6 +283,6 @@ tags:
 - Rank Tracking
 - Site Audit
 - Brand Monitoring
-- Social-Media
+- Social Media
 trust_url: https://trust.ahrefs.com/
 ---

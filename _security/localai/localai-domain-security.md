@@ -187,15 +187,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localai/refs/h
 summary_line: TLSv1.3
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Self-Hosted
-- Open-Source
+- Open Source
 - Agents
 - MCP
 - Speech
-- Computer-Vision
+- Computer Vision
 - Embeddings
 - Edge Computing
+- Real-Time
 ---

@@ -44,7 +44,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Messaging
 - AI Agents
-- Agent-to-Agent
+- A2A
 - Chat
 - Channels
 - Group Chat
@@ -52,5 +52,4 @@ tags:
 - Micropayments
 - Agent Communication
 - Agentic Web
-- A2A
 ---

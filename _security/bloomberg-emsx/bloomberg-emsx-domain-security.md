@@ -96,7 +96,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bloomberg
 - Execution Management
-- Financial-Services
+- Financial Services
 - Order Management
 - Trading
 ---

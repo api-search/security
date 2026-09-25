@@ -153,7 +153,7 @@ tags:
 - Dead-mans-switch
 - Alerting
 - Status Pages
-- agent-native
+- Agent-Native
 - MCP
 - x402
 - Micropayments

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: docusign-workspaces-api-openapi.yml
-  format: yaml
-  label: Docusign Workspaces API
-  slug: docusign-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-workspaces-api-openapi.yml
 - filename: docusign-accountbrands-api-openapi.yml
   format: yaml
   label: Docusign AccountBrands API

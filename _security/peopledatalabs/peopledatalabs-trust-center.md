@@ -108,5 +108,6 @@ tags:
 - Reference Data
 - Firmographics
 - Identity Resolution
+- A2A
 trust_url: https://www.peopledatalabs.com/security
 ---

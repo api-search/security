@@ -4,13 +4,13 @@ api_key_in: []
 api_specs:
 - filename: poolside-ai-chat-api-openapi.yml
   format: yaml
-  label: Poolside chat API
+  label: Poolside Chat API
   slug: poolside-ai-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-chat-api-openapi.yml
 - filename: poolside-ai-models-api-openapi.yml
   format: yaml
-  label: Poolside models API
+  label: Poolside Models API
   slug: poolside-ai-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/openapi/poolside-ai-models-api-openapi.yml

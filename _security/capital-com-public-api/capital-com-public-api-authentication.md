@@ -98,7 +98,7 @@ tags:
 - CFD
 - Commodities
 - Cryptocurrency
-- Financial
+- Finance
 - Forex
 - Indices
 - Market Data
@@ -106,4 +106,5 @@ tags:
 - Streaming
 - Trading
 - WebSocket
+- Real-Time
 ---

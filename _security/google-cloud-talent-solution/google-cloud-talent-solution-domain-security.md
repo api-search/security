@@ -65,8 +65,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Google Cloud
 - Job
-- Machine-Learning
-- Recruitment
+- Machine Learning
+- Recruiting
 - Search
 - Talent
 ---

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Elkroom Co Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ELKROOM CO., LTD., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: ELKROOM CO., LTD.
+overview: 'Domain security posture for ELKROOM, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: ELKROOM
 provider_slug: elkroom-co-ltd
 slug: elkroom-co-ltd-domain-security
 source_filename: elkroom-co-ltd-domain-security.yml

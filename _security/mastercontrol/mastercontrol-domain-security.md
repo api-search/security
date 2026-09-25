@@ -41,7 +41,7 @@ tags:
 - Manufacturing
 - Life Sciences
 - Compliance
-- Document-Management
+- Document Management
 - Regulatory
 - Enterprise Software
 ---

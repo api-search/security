@@ -72,5 +72,5 @@ tags:
 - Containers
 - LXC
 - Clustering
-- Open-Source
+- Open Source
 ---

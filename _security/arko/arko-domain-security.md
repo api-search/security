@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Arko Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ARKO Corp, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: ARKO Corp
+overview: 'Domain security posture for ARKO, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: ARKO
 provider_slug: arko
 slug: arko-domain-security
 source_filename: arko-domain-security.yml

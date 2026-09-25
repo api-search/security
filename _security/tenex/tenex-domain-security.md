@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property Management
 - Facility Management
 - Tenant Experience

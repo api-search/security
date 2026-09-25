@@ -100,7 +100,7 @@ summary_line: http · 1 scheme
 tags:
 - Database
 - Serverless
-- Postgres
+- PostgreSQL
 - Infrastructure
 - Authentication
 - Edge

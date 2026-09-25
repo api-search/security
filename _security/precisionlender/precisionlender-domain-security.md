@@ -37,6 +37,6 @@ tags:
 - Lending
 - Pricing
 - Profitability
-- Financial-Services
+- Financial Services
 - Fintech
 ---

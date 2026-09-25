@@ -38,5 +38,5 @@ tags:
 - Energy Efficiency
 - Heating Controls
 - IoT
-- Property Technology
+- PropTech
 ---

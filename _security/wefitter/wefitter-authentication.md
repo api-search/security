@@ -5,55 +5,55 @@ api_key_in:
 api_specs:
 - filename: wefitter-app-api-openapi.yml
   format: yaml
-  label: WeFitter app API
+  label: WeFitter App API
   slug: wefitter-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-app-api-openapi.yml
 - filename: wefitter-challenge-api-openapi.yml
   format: yaml
-  label: WeFitter challenge API
+  label: WeFitter Challenge API
   slug: wefitter-challenge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-challenge-api-openapi.yml
 - filename: wefitter-connection-api-openapi.yml
   format: yaml
-  label: WeFitter connection API
+  label: WeFitter Connection API
   slug: wefitter-connection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-connection-api-openapi.yml
 - filename: wefitter-insights-api-openapi.yml
   format: yaml
-  label: WeFitter insights API
+  label: WeFitter Insights API
   slug: wefitter-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-insights-api-openapi.yml
 - filename: wefitter-loyalty-api-openapi.yml
   format: yaml
-  label: WeFitter loyalty API
+  label: WeFitter Loyalty API
   slug: wefitter-loyalty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-loyalty-api-openapi.yml
 - filename: wefitter-notification-api-openapi.yml
   format: yaml
-  label: WeFitter notification API
+  label: WeFitter Notification API
   slug: wefitter-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-notification-api-openapi.yml
 - filename: wefitter-profile-api-openapi.yml
   format: yaml
-  label: WeFitter profile API
+  label: WeFitter Profile API
   slug: wefitter-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-profile-api-openapi.yml
 - filename: wefitter-team-api-openapi.yml
   format: yaml
-  label: WeFitter team API
+  label: WeFitter Team API
   slug: wefitter-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-team-api-openapi.yml
 - filename: wefitter-token-api-openapi.yml
   format: yaml
-  label: WeFitter token API
+  label: WeFitter Token API
   slug: wefitter-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-token-api-openapi.yml

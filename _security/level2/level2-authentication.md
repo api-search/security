@@ -108,7 +108,7 @@ summary_line: http/apiKey · 2 schemes
 tags:
 - Trading
 - Fintech
-- Financial-Services
+- Financial Services
 - Automation
 - No-Code
 - Backtesting

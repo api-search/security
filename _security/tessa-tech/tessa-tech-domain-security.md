@@ -67,6 +67,6 @@ tags:
 - Agent Directory
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Company
 ---

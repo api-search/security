@@ -38,7 +38,7 @@ tags:
 - EdTech
 - Mathematics
 - Learning
-- Computer-Vision
+- Computer Vision
 - Mobile App
 - Consumer
 - Google

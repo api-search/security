@@ -57,7 +57,7 @@ tags:
 - Headless
 - E-Commerce
 - GraphQL
-- Open-Source
+- Open Source
 - Python
 - TypeScript
 ---

@@ -23,7 +23,7 @@ tags:
 - Agents
 - MCP
 - Documentation
-- Knowledge-Management
+- Knowledge Management
 - Developer Tools
 - Context
 trust_url: https://app.vanta.com/productnow.ai/trust/44ksof903njus1ij3x2cev

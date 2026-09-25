@@ -513,7 +513,7 @@ summary_line: trust center published
 tags:
 - Banking
 - Core Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Fintech
 trust_url: ''

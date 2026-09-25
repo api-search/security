@@ -33,7 +33,7 @@ summary_line: interactive-login/token/jwt/mtls/acl · 0 schemes
 tags:
 - Company
 - AI Infrastructure
-- Agentic AI
+- AI Agents
 - Actor Model
 - Distributed Systems
 - Reactive

@@ -113,5 +113,5 @@ tags:
 - Analyst Ratings
 - news-signals
 - MCP
-- agent-native
+- Agent-Native
 ---

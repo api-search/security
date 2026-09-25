@@ -89,7 +89,7 @@ tags:
 - Chat
 - Collaboration
 - Communications
-- Microsoft-365
+- Microsoft 365
 - Productivity
 - Video Conferencing
 trust_url: https://www.microsoft.com/en-us/trust-center

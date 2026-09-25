@@ -32,7 +32,7 @@ tags:
 - AI Operations
 - CRISP-ML(Q)
 - DevOps
-- Machine-Learning
+- Machine Learning
 - ML Engineering
 - ML Governance
 - ML Pipelines

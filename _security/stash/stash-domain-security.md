@@ -46,7 +46,7 @@ tags:
 - Investing
 - Banking
 - Fractional Shares
-- Portfolio-Management
+- Portfolio Management
 - Financial Education
 - Robo-Advisor
 - Stock-Back

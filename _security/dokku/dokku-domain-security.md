@@ -38,7 +38,7 @@ tags:
 - Deployment
 - DevOps
 - Heroku Alternative
-- Open-Source
+- Open Source
 - Git Push Deploy
 - Kubernetes
 - Nomad

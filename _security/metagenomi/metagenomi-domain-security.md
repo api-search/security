@@ -40,7 +40,7 @@ tags:
 - Genomics
 - Drug Discovery
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 - Metagenomics
 - Research
 ---

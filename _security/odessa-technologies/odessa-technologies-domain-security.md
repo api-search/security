@@ -40,5 +40,5 @@ tags:
 - Servicing
 - Remarketing
 - Low-Code
-- Financial-Services
+- Financial Services
 ---

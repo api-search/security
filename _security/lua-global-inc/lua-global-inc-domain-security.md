@@ -31,8 +31,8 @@ layout: security
 method: probed
 name: Lua Global Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Lua Global Inc, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
-provider_name: Lua Global Inc
+overview: 'Domain security posture for Lua AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
+provider_name: Lua AI
 provider_slug: lua-global-inc
 slug: lua-global-inc-domain-security
 source_filename: lua-global-inc-domain-security.yml

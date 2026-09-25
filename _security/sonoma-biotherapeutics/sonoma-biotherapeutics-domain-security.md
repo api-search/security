@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonoma-biother
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Cell Therapy
 - Immunology
 - Autoimmune

@@ -32,7 +32,7 @@ tags:
 - Cloud Development
 - Infrastructure as Code
 - Developer Tools
-- Open-Source
+- Open Source
 - SDK
 - CLI
 ---

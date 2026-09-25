@@ -216,12 +216,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/he
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA
 tags:
 - Automation
-- Robotic Process Automation
 - RPA
 - Artificial Intelligence
 - Document Processing
 - Enterprise Automation
 - Orchestration
 - Testing
+- Workflow Automation
 trust_url: https://trust.uipath.com/
 ---

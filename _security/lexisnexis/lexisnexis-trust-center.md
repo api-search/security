@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexisnexis/ref
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Legal
-- Risk
+- Risk Management
 - Identity Verification
 - Fraud Detection
 - Compliance

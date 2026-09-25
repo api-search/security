@@ -5,19 +5,19 @@ api_key_in:
 api_specs:
 - filename: biconomy-instructions-api-openapi.yml
   format: yaml
-  label: Biconomy instructions API
+  label: Biconomy Instructions API
   slug: biconomy-instructions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-instructions-api-openapi.yml
 - filename: biconomy-mee-api-openapi.yml
   format: yaml
-  label: Biconomy mee API
+  label: Biconomy Mee API
   slug: biconomy-mee-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-mee-api-openapi.yml
 - filename: biconomy-root-api-openapi.yml
   format: yaml
-  label: Biconomy root API
+  label: Biconomy Root API
   slug: biconomy-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-root-api-openapi.yml
@@ -104,4 +104,5 @@ tags:
 - Smart Sessions
 - Wallets
 - Web3
+- A2A
 ---

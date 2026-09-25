@@ -36,6 +36,6 @@ tags:
 - GUI
 - REST
 - WebSocket
-- Open-Source
+- Open Source
 - Testing
 ---

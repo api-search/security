@@ -88,7 +88,7 @@ tags:
 - Developer Tools
 - Extensions
 - IDE
-- Machine-Learning
+- Machine Learning
 - MCP
 - Metrics
 - Productivity

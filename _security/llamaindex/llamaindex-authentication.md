@@ -146,7 +146,7 @@ tags:
 - Agents
 - Framework
 - LLM
-- Open-Source
+- Open Source
 - RAG
 - LlamaIndex
 ---

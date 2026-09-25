@@ -93,9 +93,9 @@ tags:
 - Hybrid Search
 - JavaScript
 - LLM
-- Machine-Learning
+- Machine Learning
 - Multi-Modal
-- Open-Source
+- Open Source
 - Python
 - RAG
 - Retrieval
@@ -104,4 +104,5 @@ tags:
 - Serverless
 - TypeScript
 - Vector Database
+- Database
 ---

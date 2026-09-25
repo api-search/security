@@ -62,5 +62,5 @@ tags:
 - Multimodal AI
 - Content Moderation
 - AI Agents
-- Machine-Learning
+- Machine Learning
 ---

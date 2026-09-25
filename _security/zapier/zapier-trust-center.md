@@ -89,5 +89,6 @@ tags:
 - Zapier
 - Integration
 - iPaaS
+- Workflow Automation
 trust_url: https://trust.zapier.com/
 ---

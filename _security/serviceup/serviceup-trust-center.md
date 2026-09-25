@@ -25,7 +25,7 @@ tags:
 - Automotive
 - Insurance
 - Maintenance
-- Agentic AI
+- AI Agents
 - MCP
 - Transportation
 trust_url: https://trust.serviceup.com/

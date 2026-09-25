@@ -38,7 +38,7 @@ tags:
 - Data Lakehouse
 - Analytics
 - SQL Query Engine
-- Open-Source
+- Open Source
 - Data
 - Acquired
 ---

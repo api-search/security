@@ -56,7 +56,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Client Libraries
 - Code Generation
-- Open-Source
+- Open Source
 - OpenAPI
 - SDK
+- SDK Generation
 ---

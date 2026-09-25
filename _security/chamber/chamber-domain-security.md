@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - GPU
 - AIOps
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Infrastructure
 - Cloud

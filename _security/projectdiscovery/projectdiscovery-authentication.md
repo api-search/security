@@ -11,43 +11,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-asset-api-openapi.yml
 - filename: projectdiscovery-assets-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery assets API
+  label: ProjectDiscovery Assets API
   slug: projectdiscovery-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-assets-api-openapi.yml
 - filename: projectdiscovery-chaos-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery chaos API
+  label: ProjectDiscovery Chaos API
   slug: projectdiscovery-chaos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-chaos-api-openapi.yml
 - filename: projectdiscovery-configurations-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery configurations API
+  label: ProjectDiscovery Configurations API
   slug: projectdiscovery-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-configurations-api-openapi.yml
 - filename: projectdiscovery-enumerations-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery enumerations API
+  label: ProjectDiscovery Enumerations API
   slug: projectdiscovery-enumerations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-enumerations-api-openapi.yml
 - filename: projectdiscovery-export-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery export API
+  label: ProjectDiscovery Export API
   slug: projectdiscovery-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-export-api-openapi.yml
 - filename: projectdiscovery-history-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery history API
+  label: ProjectDiscovery History API
   slug: projectdiscovery-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-history-api-openapi.yml
 - filename: projectdiscovery-internal-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery internal API
+  label: ProjectDiscovery Internal API
   slug: projectdiscovery-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-internal-api-openapi.yml
@@ -59,25 +59,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-leaks-api-openapi.yml
 - filename: projectdiscovery-results-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery results API
+  label: ProjectDiscovery Results API
   slug: projectdiscovery-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-results-api-openapi.yml
 - filename: projectdiscovery-retests-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery retests API
+  label: ProjectDiscovery Retests API
   slug: projectdiscovery-retests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-retests-api-openapi.yml
 - filename: projectdiscovery-scan-log-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery scan_log API
+  label: ProjectDiscovery Scan Log API
   slug: projectdiscovery-scan-log-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-scan-log-api-openapi.yml
 - filename: projectdiscovery-scans-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery scans API
+  label: ProjectDiscovery Scans API
   slug: projectdiscovery-scans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-scans-api-openapi.yml
@@ -95,25 +95,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-template-api-openapi.yml
 - filename: projectdiscovery-template-v2-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery template/v2 API
+  label: ProjectDiscovery Template/v2 API
   slug: projectdiscovery-template-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-template-v2-api-openapi.yml
 - filename: projectdiscovery-templates-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery templates API
+  label: ProjectDiscovery Templates API
   slug: projectdiscovery-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-templates-api-openapi.yml
 - filename: projectdiscovery-users-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery users API
+  label: ProjectDiscovery Users API
   slug: projectdiscovery-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-users-api-openapi.yml
 - filename: projectdiscovery-vuln-api-openapi.yml
   format: yaml
-  label: ProjectDiscovery vuln API
+  label: ProjectDiscovery Vuln API
   slug: projectdiscovery-vuln-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/openapi/projectdiscovery-vuln-api-openapi.yml

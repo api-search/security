@@ -21,8 +21,8 @@ method: searched
 name: Scvd Store Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Record Creative Co. LLC secures its APIs with none (anonymous), x402 payment signature (per-call), http bearer (one narrow scope), and http basic (back office, not for agents) across 5 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Record Creative Co. LLC
+overview: SCVD General Store secures its APIs with none (anonymous), x402 payment signature (per-call), http bearer (one narrow scope), and http basic (back office, not for agents) across 5 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: SCVD General Store
 provider_slug: scvd-store
 scheme_count: 5
 schemes:
@@ -108,6 +108,6 @@ tags:
 - A2A
 - Universal Commerce Protocol
 - Signatures
-- agent-native
+- Agent-Native
 - United States
 ---

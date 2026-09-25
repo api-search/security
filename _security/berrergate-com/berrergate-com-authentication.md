@@ -43,5 +43,5 @@ tags:
 - API Discovery
 - AI Inference
 - Research
-- agent-native
+- Agent-Native
 ---

@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-forest-l
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Flux
 - Open Weights
 - BFL

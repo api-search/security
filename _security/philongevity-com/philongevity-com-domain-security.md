@@ -40,7 +40,7 @@ tags:
 - Longevity
 - MCP
 - A2A
-- Agent Payments
+- Agentic Payments
 - x402
 - Artificial Intelligence
 ---

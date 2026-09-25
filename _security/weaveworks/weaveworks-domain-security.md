@@ -35,6 +35,6 @@ tags:
 - Kubernetes
 - Container Networking
 - Cloud-Native
-- Open-Source
+- Open Source
 - DevOps
 ---

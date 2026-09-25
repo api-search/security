@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Kernel
 - Linux
-- Open-Source
+- Open Source
 - Operating System
 - Unix
 - Userspace API

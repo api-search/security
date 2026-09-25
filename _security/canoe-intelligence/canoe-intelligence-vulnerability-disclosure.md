@@ -89,7 +89,7 @@ tags:
 - capital-calls
 - k-1-tax-documents
 - Portfolio Reporting
-- Financial-Services
+- Financial Services
 - Fintech
 - Wealth Management
 - Institutional Investors

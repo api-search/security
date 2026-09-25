@@ -64,7 +64,7 @@ tags:
 - Payroll
 - Time Off
 - Time Tracking
-- ATS
+- Applicant Tracking
 - Performance
 - Finance
 - Expenses

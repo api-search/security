@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/security/konbiniapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Social-Media
+- Social Media
 - Instagram
 - TikTok
 - X
@@ -82,4 +82,5 @@ tags:
 - MCP
 - Agent Skills
 - Agents
+- A2A
 ---

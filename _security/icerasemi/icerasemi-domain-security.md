@@ -33,4 +33,5 @@ tags:
 - Modem
 - Wireless
 - Fabless
+- Defunct
 ---

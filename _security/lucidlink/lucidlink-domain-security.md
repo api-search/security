@@ -74,7 +74,7 @@ tags:
 - Object Storage
 - Developer Platform
 - MCP
-- Agentic AI
+- AI Agents
 - Zero-Knowledge Encryption
 - Identity and Access Management
 ---

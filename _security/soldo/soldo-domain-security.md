@@ -332,7 +332,7 @@ tags:
 - Company
 - Consumer
 - Fintech
-- Financial-Services
+- Financial Services
 - Spend Management
 - Expense Management
 - Business Cards

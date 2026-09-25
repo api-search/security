@@ -37,7 +37,7 @@ tags:
 - Physical AI
 - Traffic Safety
 - Public Safety
-- Computer-Vision
+- Computer Vision
 - Road Safety
 - Law Enforcement
 - Artificial Intelligence

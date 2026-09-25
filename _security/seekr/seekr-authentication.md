@@ -263,5 +263,6 @@ tags:
 - Government
 - Regulated Industries
 - MCP
-- agent-native
+- Agent-Native
+- A2A
 ---

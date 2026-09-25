@@ -36,7 +36,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
 - AI Agents
 - Digital Workers
 - Business Process Automation

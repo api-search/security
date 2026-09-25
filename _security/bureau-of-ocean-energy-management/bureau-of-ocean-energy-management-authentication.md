@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocea
 summary_line: 0 schemes
 tags:
 - Energy
-- Federal-Government
+- Federal Government
 - Marine
 - Ocean
 - GIS

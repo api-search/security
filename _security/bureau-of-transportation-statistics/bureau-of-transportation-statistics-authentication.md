@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/bureau-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/authentication/bureau-of-transportation-statistics-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Statistics
 - Transportation
 - Aviation

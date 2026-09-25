@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Corporate Cards
 - Spend Management
 - Payments

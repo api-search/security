@@ -283,4 +283,5 @@ tags:
 - Text-to-SQL
 - Data Warehouse
 - Enterprise
+- A2A
 ---

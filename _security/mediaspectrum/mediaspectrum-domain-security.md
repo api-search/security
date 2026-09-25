@@ -36,5 +36,5 @@ tags:
 - Content Management
 - Media
 - Software-as-a-Service
-- Advertising Technology
+- AdTech
 ---

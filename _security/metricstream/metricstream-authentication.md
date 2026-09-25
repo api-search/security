@@ -28,14 +28,14 @@ summary_line: 0 schemes
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Audit
 - Enterprise Software
-- Regulatory Technology
+- RegTech
 - Cyber Risk
-- Third-Party Risk
+- Third-Party Risk Management
 - Operational Resilience
 - ESG
 ---

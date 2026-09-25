@@ -51,7 +51,7 @@ tags:
 - MCP
 - Games
 - Ed25519
-- agent-native
+- Agent-Native
 - Recreation
 - Reason Lab
 - Luanti

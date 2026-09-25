@@ -55,7 +55,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Healthcare
 - HIPAA
-- Machine-Learning
+- Machine Learning
 - Medical Imaging
 - DICOM
 trust_url: https://aws.amazon.com/compliance/

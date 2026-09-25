@@ -266,6 +266,7 @@ tags:
 - business-documents
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
+- Procurement
 trust_url: https://tradeshift.com/security/
 ---

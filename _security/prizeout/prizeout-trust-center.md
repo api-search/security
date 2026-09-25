@@ -23,7 +23,7 @@ tags:
 - Rewards
 - Gift Cards
 - Payouts
-- Financial-Services
+- Financial Services
 - Credit Union
 - Banking
 - Loyalty

@@ -35,9 +35,9 @@ tags:
 - Content Management
 - Business Process Management
 - Customer Communication Management
-- Document-Management
+- Document Management
 - Intelligent Document Processing
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Digital Transformation
 ---

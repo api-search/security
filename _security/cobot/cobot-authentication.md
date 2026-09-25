@@ -314,7 +314,7 @@ tags:
 - Co-Working
 - Workspace Management
 - Space Management
-- Real-Estate
+- Real Estate
 - Booking
 - Reservations
 - Membership

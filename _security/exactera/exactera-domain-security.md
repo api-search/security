@@ -36,7 +36,7 @@ tags:
 - Transfer Pricing
 - Tax Compliance
 - Regulatory Compliance
-- Financial-Services
+- Financial Services
 - R&D Tax Credits
 - Software-as-a-Service
 ---

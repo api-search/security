@@ -46,5 +46,6 @@ tags:
 - Latin America
 - Mexico
 - Fintech
+- Real-Time
 trust_url: https://bitso.com/trust
 ---

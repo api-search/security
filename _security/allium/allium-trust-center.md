@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-explorer-api-openapi.yml
 - filename: allium-ping-api-openapi.yml
   format: yaml
-  label: Allium ping API
+  label: Allium Ping API
   slug: allium-ping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-ping-api-openapi.yml

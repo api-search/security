@@ -30,5 +30,6 @@ tags:
 - Control Tower
 - Enterprise Software
 - Artificial Intelligence
+- Canada
 trust_url: https://www.kinaxis.com/en/trust-center
 ---

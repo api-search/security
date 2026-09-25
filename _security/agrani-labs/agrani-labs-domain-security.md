@@ -34,7 +34,7 @@ tags:
 - AI Chips
 - GPU
 - Artificial Intelligence
-- Data-Center
+- Data Center
 - Compute Infrastructure
 - Hardware
 - Deep Tech

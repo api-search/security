@@ -41,7 +41,8 @@ tags:
 - SDK
 - Developer Tools
 - API Client
-- Open-Source
+- Open Source
 - CLI
-- JSON-Schema
+- JSON Schema
+- SDK Generation
 ---

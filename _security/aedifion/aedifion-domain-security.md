@@ -136,7 +136,7 @@ tags:
 - Smart Buildings
 - Energy Management
 - IoT
-- Real-Estate
+- Real Estate
 - HVAC
 - Sustainability
 - Time Series
@@ -146,4 +146,5 @@ tags:
 - ESG
 - PropTech
 - Germany
+- Real-Time
 ---

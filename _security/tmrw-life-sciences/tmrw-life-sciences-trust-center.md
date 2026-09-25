@@ -28,7 +28,7 @@ tags:
 - Healthcare
 - Medical Devices
 - Cryostorage
-- Biotech
+- Biotechnology
 - Automation
 trust_url: https://www.tmrwlifesciences.com/security/
 ---

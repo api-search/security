@@ -60,7 +60,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - CME Group
 - Derivatives
-- Financial-Services
+- Financial Services
 - OSTTRA
 - Portfolio Compression
 - Post-Trade Services

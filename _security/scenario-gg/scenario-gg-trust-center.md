@@ -22,7 +22,7 @@ tags:
 - Game Assets
 - Game Development
 - Generative AI
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio Generation
 - 3D Assets

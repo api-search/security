@@ -56,5 +56,7 @@ tags:
 - Routing
 - Gateways
 - Observability
+- Real-Time
+- A2A
 trust_url: https://www.requesty.ai/security
 ---

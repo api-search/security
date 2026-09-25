@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Autonomous-Work
 - Enterprise
 - Platform

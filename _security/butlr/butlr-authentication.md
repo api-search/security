@@ -62,5 +62,5 @@ tags:
 - IoT
 - GraphQL
 - Webhook
-- Real-Estate
+- Real Estate
 ---

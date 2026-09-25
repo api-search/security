@@ -60,5 +60,5 @@ tags:
 - Fintech
 - Open Banking
 - Transaction
-- Unified-API
+- Unified API
 ---

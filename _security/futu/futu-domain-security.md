@@ -39,5 +39,5 @@ tags:
 - Stocks
 - Options
 - Investing
-- Financial-Services
+- Financial Services
 ---

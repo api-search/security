@@ -291,8 +291,8 @@ summary_line: TLSv1.3
 tags:
 - CRM
 - HRIS
-- Unified-API
-- Open-Source
+- Unified API
+- Open Source
 - Integration
 - Sales Engagement
 - Ticketing

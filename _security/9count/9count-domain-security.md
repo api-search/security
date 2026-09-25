@@ -45,9 +45,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Consumer App
-- Social Networking
+- Social Network
 - Dating
-- Mobile Applications
+- Mobile App
 - Social Discovery
 - Consumer Internet
 - Media and Entertainment

@@ -102,7 +102,7 @@ tags:
 - Deliverability
 - DMARC
 - Email Authentication
-- Email Validation
+- Email Verification
 - Analytics
 trust_url: https://trust.validity.com/
 ---

@@ -5,85 +5,85 @@ api_key_in:
 api_specs:
 - filename: fermyon-accounts-api-openapi.yml
   format: yaml
-  label: Fermyon accounts API
+  label: Fermyon Accounts API
   slug: fermyon-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-accounts-api-openapi.yml
 - filename: fermyon-apps-api-openapi.yml
   format: yaml
-  label: Fermyon apps API
+  label: Fermyon Apps API
   slug: fermyon-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-apps-api-openapi.yml
 - filename: fermyon-auth-tokens-api-openapi.yml
   format: yaml
-  label: Fermyon auth-tokens API
+  label: Fermyon Auth Tokens API
   slug: fermyon-auth-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-auth-tokens-api-openapi.yml
 - filename: fermyon-channels-api-openapi.yml
   format: yaml
-  label: Fermyon channels API
+  label: Fermyon Channels API
   slug: fermyon-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-channels-api-openapi.yml
 - filename: fermyon-custom-domains-api-openapi.yml
   format: yaml
-  label: Fermyon custom-domains API
+  label: Fermyon Custom Domains API
   slug: fermyon-custom-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-custom-domains-api-openapi.yml
 - filename: fermyon-device-codes-api-openapi.yml
   format: yaml
-  label: Fermyon device-codes API
+  label: Fermyon Device Codes API
   slug: fermyon-device-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-device-codes-api-openapi.yml
 - filename: fermyon-key-value-pairs-api-openapi.yml
   format: yaml
-  label: Fermyon key-value-pairs API
+  label: Fermyon Key Value Pairs API
   slug: fermyon-key-value-pairs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-key-value-pairs-api-openapi.yml
 - filename: fermyon-key-value-stores-api-openapi.yml
   format: yaml
-  label: Fermyon key-value-stores API
+  label: Fermyon Key Value Stores API
   slug: fermyon-key-value-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-key-value-stores-api-openapi.yml
 - filename: fermyon-oci-api-openapi.yml
   format: yaml
-  label: Fermyon oci API
+  label: Fermyon Oci API
   slug: fermyon-oci-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-oci-api-openapi.yml
 - filename: fermyon-payments-api-openapi.yml
   format: yaml
-  label: Fermyon payments API
+  label: Fermyon Payments API
   slug: fermyon-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-payments-api-openapi.yml
 - filename: fermyon-personal-access-tokens-api-openapi.yml
   format: yaml
-  label: Fermyon personal-access-tokens API
+  label: Fermyon Personal Access Tokens API
   slug: fermyon-personal-access-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-personal-access-tokens-api-openapi.yml
 - filename: fermyon-revisions-api-openapi.yml
   format: yaml
-  label: Fermyon revisions API
+  label: Fermyon Revisions API
   slug: fermyon-revisions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-revisions-api-openapi.yml
 - filename: fermyon-sql-databases-api-openapi.yml
   format: yaml
-  label: Fermyon sql-databases API
+  label: Fermyon Sql Databases API
   slug: fermyon-sql-databases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-sql-databases-api-openapi.yml
 - filename: fermyon-variable-pairs-api-openapi.yml
   format: yaml
-  label: Fermyon variable-pairs API
+  label: Fermyon Variable Pairs API
   slug: fermyon-variable-pairs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-variable-pairs-api-openapi.yml

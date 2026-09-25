@@ -54,7 +54,8 @@ tags:
 - Analytics
 - Data
 - Metrics
-- Social-Media
+- Social Media
 - Media
 - Acquired
+- Defunct
 ---

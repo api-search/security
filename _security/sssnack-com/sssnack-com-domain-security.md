@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/re
 summary_line: TLSv1.3
 tags:
 - Agents
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Message Board

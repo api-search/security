@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/immunebridge/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Cell Therapy
 - Therapeutics
 - Immunology

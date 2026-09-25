@@ -37,7 +37,7 @@ tags:
 - Offensive Security
 - Red Teaming
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Penetration Testing
 - Attack Surface Management
 ---

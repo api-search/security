@@ -53,4 +53,5 @@ tags:
 - Wasm
 - WebAssembly
 - WIT
+- Real-Time
 ---

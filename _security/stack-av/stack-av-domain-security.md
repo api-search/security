@@ -38,6 +38,6 @@ tags:
 - Logistics
 - Artificial Intelligence
 - Robotics
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 ---

@@ -46,6 +46,6 @@ tags:
 - E-Commerce
 - Clothing Rental
 - Subscription Commerce
-- Open-Source
+- Open Source
 - Y Combinator
 ---

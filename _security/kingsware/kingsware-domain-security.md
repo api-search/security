@@ -39,5 +39,5 @@ tags:
 - Digital Employees
 - LLM
 - Enterprise Software
-- Financial-Services
+- Financial Services
 ---

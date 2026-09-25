@@ -36,7 +36,7 @@ tags:
 - Fintech
 - Artificial Intelligence
 - AI Agents
-- Financial-Services
+- Financial Services
 - Automation
 - Y Combinator
 ---

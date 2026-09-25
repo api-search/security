@@ -57,6 +57,6 @@ tags:
 - Metrics
 - Monitoring
 - Observability
-- Open-Source
+- Open Source
 - Tracing
 ---

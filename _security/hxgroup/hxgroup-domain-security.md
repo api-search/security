@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Hxgroup Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Hexing Electrical Co., Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Hexing Electrical Co., Ltd.
+overview: 'Domain security posture for Hexing Electrical, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Hexing Electrical
 provider_slug: hxgroup
 slug: hxgroup-domain-security
 source_filename: hxgroup-domain-security.yml

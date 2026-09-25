@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Idex Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for IDEX Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: IDEX Corporation
+overview: 'Domain security posture for IDEX, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: IDEX
 provider_slug: idex
 slug: idex-domain-security
 source_filename: idex-domain-security.yml

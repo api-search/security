@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tomtom-geocoding-api-openapi.yml
-  format: yaml
-  label: TomTom Geocoding API
-  slug: tomtom-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-geocoding-api-openapi.yml
 - filename: tomtom-additional-data-api-openapi.yml
   format: yaml
   label: TomTom Additional Data API
@@ -147,4 +141,5 @@ tags:
 - Geospatial
 - Routing
 - Geocoding
+- Mobility
 ---

@@ -42,7 +42,7 @@ tags:
 - Video Surveillance
 - Home Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Monitoring
 - IoT
 - Commerce

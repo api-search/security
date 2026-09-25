@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Latin America
 - Developer Portal
 - Status Pages

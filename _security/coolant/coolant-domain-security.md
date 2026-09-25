@@ -35,7 +35,7 @@ tags:
 - Carbon Removal
 - Forest Monitoring
 - Spatial Intelligence
-- Computer-Vision
+- Computer Vision
 - Drones
 - MRV
 ---

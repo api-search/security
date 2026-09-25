@@ -53,5 +53,6 @@ tags:
 - Video Messaging
 - Webhook
 - MCP
+- A2A
 trust_url: https://security.sendspark.com/
 ---

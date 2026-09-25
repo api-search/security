@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Hospitality
 - Travel
-- Real-Estate
+- Real Estate
 - PropTech
 - Short-Term Rental
 - Aparthotel

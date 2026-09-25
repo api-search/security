@@ -38,5 +38,5 @@ tags:
 - User Acquisition
 - Advertising
 - Creative
-- Agentic AI
+- AI Agents
 ---

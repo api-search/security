@@ -127,7 +127,7 @@ tags:
 - Falcon Heavy
 - Dragon
 - Rockets
-- Open-Source
+- Open Source
 - Community
 - REST
 - GraphQL

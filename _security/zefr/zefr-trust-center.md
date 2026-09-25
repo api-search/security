@@ -28,9 +28,9 @@ tags:
 - Content Intelligence
 - Content Moderation
 - Video
-- Social-Media
+- Social Media
 - Advertising
 - Media Measurement
-- Machine-Learning
+- Machine Learning
 trust_url: https://trust.zefr.com/
 ---

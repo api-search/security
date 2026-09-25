@@ -36,6 +36,6 @@ tags:
 - Liquid Biopsy
 - Cancer Screening
 - Genomics
-- Machine-Learning
+- Machine Learning
 - Healthcare
 ---

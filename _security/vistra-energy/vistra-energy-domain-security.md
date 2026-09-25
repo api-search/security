@@ -105,8 +105,8 @@ layout: security
 method: probed
 name: Vistra Energy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Vistra Corp, probed live across 10 host(s) and 7 registrable domain(s). 10 host(s) serve HTTPS (up to TLSv1.3); 7 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Vistra Corp
+overview: 'Domain security posture for Vistra, probed live across 10 host(s) and 7 registrable domain(s). 10 host(s) serve HTTPS (up to TLSv1.3); 7 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Vistra
 provider_slug: vistra-energy
 slug: vistra-energy-domain-security
 source_filename: vistra-energy-domain-security.yml

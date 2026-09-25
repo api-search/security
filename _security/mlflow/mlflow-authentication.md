@@ -71,9 +71,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mlflow-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/authentication/mlflow-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Generative AI
 - Experiment Tracking
-- Open-Source
+- Open Source
 ---

@@ -36,7 +36,7 @@ tags:
 - Digital Banking
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Open Banking
 - SDK
 ---

@@ -35,7 +35,7 @@ tags:
 - Banking
 - Savings
 - Deposits
-- Financial-Services
+- Financial Services
 - Germany
 - Defunct
 ---

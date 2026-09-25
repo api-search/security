@@ -36,7 +36,7 @@ tags:
 - Fire Detection
 - Situational Awareness
 - Geospatial
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Emergency Management
 - Public Safety

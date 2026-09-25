@@ -419,7 +419,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Headless Commerce
-- Open-Source
+- Open Source
 - Commerce
 - Storefront
 - Order Management

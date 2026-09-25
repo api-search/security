@@ -36,7 +36,7 @@ tags:
 - Protein Structure Prediction
 - Antibody Design
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Bioinformatics
 - Artificial Intelligence
 ---

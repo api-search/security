@@ -36,7 +36,7 @@ tags:
 - API Governance
 - MCP
 - Agent Skills
-- Open-Source
+- Open Source
 - Developer Tools
 - API Specification
 - Spec-Driven Integration

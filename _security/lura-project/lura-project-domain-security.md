@@ -33,5 +33,5 @@ tags:
 - Go
 - Linux Foundation
 - Microservices
-- Open-Source
+- Open Source
 ---

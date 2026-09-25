@@ -37,5 +37,5 @@ tags:
 - Banking Infrastructure
 - Fintech
 - Compliance
-- Financial-Services
+- Financial Services
 ---

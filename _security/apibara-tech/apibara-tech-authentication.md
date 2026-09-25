@@ -55,5 +55,5 @@ tags:
 - REST
 - JSON:API
 - MCP
-- agent-native
+- Agent-Native
 ---

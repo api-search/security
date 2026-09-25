@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Wealth Management
-- Financial-Services
+- Financial Services
 - WealthTech
 - Salesforce
 - Onboarding

@@ -2,13 +2,13 @@
 api_specs:
 - filename: wine-searcher-market-price-api-openapi.yml
   format: yaml
-  label: Wine-Searcher market-price API
+  label: Wine-Searcher Market Price API
   slug: wine-searcher-market-price-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-market-price-api-openapi.yml
 - filename: wine-searcher-wine-check-api-openapi.yml
   format: yaml
-  label: Wine-Searcher wine-check API
+  label: Wine-Searcher Wine Check API
   slug: wine-searcher-wine-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-wine-check-api-openapi.yml

@@ -2,55 +2,55 @@
 api_specs:
 - filename: figshare-altmetric-api-openapi.yml
   format: yaml
-  label: Figshare altmetric API
+  label: Figshare Altmetric API
   slug: figshare-altmetric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-altmetric-api-openapi.yml
 - filename: figshare-articles-api-openapi.yml
   format: yaml
-  label: Figshare articles API
+  label: Figshare Articles API
   slug: figshare-articles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-articles-api-openapi.yml
 - filename: figshare-authors-api-openapi.yml
   format: yaml
-  label: Figshare authors API
+  label: Figshare Authors API
   slug: figshare-authors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-authors-api-openapi.yml
 - filename: figshare-collections-api-openapi.yml
   format: yaml
-  label: Figshare collections API
+  label: Figshare Collections API
   slug: figshare-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-collections-api-openapi.yml
 - filename: figshare-institutions-api-openapi.yml
   format: yaml
-  label: Figshare institutions API
+  label: Figshare Institutions API
   slug: figshare-institutions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-institutions-api-openapi.yml
 - filename: figshare-other-api-openapi.yml
   format: yaml
-  label: Figshare other API
+  label: Figshare Other API
   slug: figshare-other-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-other-api-openapi.yml
 - filename: figshare-profiles-api-openapi.yml
   format: yaml
-  label: Figshare profiles API
+  label: Figshare Profiles API
   slug: figshare-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-profiles-api-openapi.yml
 - filename: figshare-projects-api-openapi.yml
   format: yaml
-  label: Figshare projects API
+  label: Figshare Projects API
   slug: figshare-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-projects-api-openapi.yml
 - filename: figshare-symplectic-api-openapi.yml
   format: yaml
-  label: Figshare symplectic API
+  label: Figshare Symplectic API
   slug: figshare-symplectic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-symplectic-api-openapi.yml

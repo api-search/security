@@ -67,5 +67,5 @@ tags:
 - Agent Orchestration
 - Tool Ranking
 - Semantic Search
-- agent-native
+- Agent-Native
 ---

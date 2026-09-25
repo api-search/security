@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cardiology
 - Echocardiography
 - Medical Imaging

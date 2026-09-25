@@ -59,7 +59,7 @@ tags:
 - Document Recognition
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - AI Agents
 - Data
 - Search

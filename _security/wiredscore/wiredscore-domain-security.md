@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Vertical Software
-- Real-Estate
+- Real Estate
 - PropTech
 - Building Certification
 - Smart Buildings

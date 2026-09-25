@@ -21,7 +21,7 @@ summary_line: SOC 2 Type 2, HIPAA
 tags:
 - Company
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Orchestration
 - AI Agents
 - Governance

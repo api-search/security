@@ -35,7 +35,7 @@ tags:
 - Generic Programming
 - ISO Standard
 - Object-Oriented
-- Open-Source
+- Open Source
 - Programming Language
 - Standards
 - Systems Programming

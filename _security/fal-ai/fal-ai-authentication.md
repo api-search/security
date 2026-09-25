@@ -86,11 +86,12 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Generative Media
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio Generation
 - Inference
 - Serverless
 - GPU
 - MCP
+- Real-Time
 ---

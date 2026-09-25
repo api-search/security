@@ -35,7 +35,7 @@ tags:
 - Chatbots
 - Natural Language Processing
 - Voice Interfaces
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Python
 ---

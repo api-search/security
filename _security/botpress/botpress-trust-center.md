@@ -57,9 +57,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence
-- Conversational
+- Conversational AI
 - Chat
-- Open-Source
+- Open Source
 - Bot Builder
 - LLM
 trust_url: https://app.drata.com/trust/9cb618e1-0c38-11ee-865f-029d78a187d9

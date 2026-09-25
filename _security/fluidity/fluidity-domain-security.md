@@ -46,4 +46,5 @@ tags:
 - Blockchain
 - Tokenization
 - Rewards
+- Defunct
 ---

@@ -117,4 +117,5 @@ tags:
 - Agent Infrastructure
 - MCP
 - Cloud Browsers
+- A2A
 ---

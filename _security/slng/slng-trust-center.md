@@ -122,5 +122,6 @@ tags:
 - Speech Recognition
 - Artificial Intelligence
 - API Gateway
+- Real-Time
 trust_url: https://trust.slng.ai
 ---

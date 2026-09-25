@@ -114,7 +114,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Agents
 - A2A
-- agent-native
+- Agent-Native
 - Identity
 - Memory
 - Community

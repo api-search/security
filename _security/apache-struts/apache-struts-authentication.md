@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: apache-struts-resource-api-openapi.yml
   format: yaml
-  label: Apache Struts resource API
+  label: Apache Struts Resource API
   slug: apache-struts-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-struts/refs/heads/main/openapi/apache-struts-resource-api-openapi.yml
@@ -41,5 +41,5 @@ tags:
 - MVC
 - Web Applications
 - Web Framework
-- Open-Source
+- Open Source
 ---

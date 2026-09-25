@@ -73,4 +73,5 @@ tags:
 - Procurement
 - Buyer Intelligence
 - MCP
+- A2A
 ---

@@ -5,79 +5,79 @@ api_key_in:
 api_specs:
 - filename: coinflow-authentication-api-openapi.yml
   format: yaml
-  label: Coinflow authentication API
+  label: Coinflow Authentication API
   slug: coinflow-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-authentication-api-openapi.yml
 - filename: coinflow-checkout-api-openapi.yml
   format: yaml
-  label: Coinflow checkout API
+  label: Coinflow Checkout API
   slug: coinflow-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-checkout-api-openapi.yml
 - filename: coinflow-customers-api-openapi.yml
   format: yaml
-  label: Coinflow customers API
+  label: Coinflow Customers API
   slug: coinflow-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-customers-api-openapi.yml
 - filename: coinflow-events-api-openapi.yml
   format: yaml
-  label: Coinflow events API
+  label: Coinflow Events API
   slug: coinflow-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-events-api-openapi.yml
 - filename: coinflow-marketplace-api-openapi.yml
   format: yaml
-  label: Coinflow marketplace API
+  label: Coinflow Marketplace API
   slug: coinflow-marketplace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-marketplace-api-openapi.yml
 - filename: coinflow-merchant-api-openapi.yml
   format: yaml
-  label: Coinflow merchant API
+  label: Coinflow Merchant API
   slug: coinflow-merchant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchant-api-openapi.yml
 - filename: coinflow-merchantsubscription-api-openapi.yml
   format: yaml
-  label: Coinflow merchantSubscription API
+  label: Coinflow Merchant Subscription API
   slug: coinflow-merchantsubscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchantsubscription-api-openapi.yml
 - filename: coinflow-redeem-api-openapi.yml
   format: yaml
-  label: Coinflow redeem API
+  label: Coinflow Redeem API
   slug: coinflow-redeem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-redeem-api-openapi.yml
 - filename: coinflow-refund-api-openapi.yml
   format: yaml
-  label: Coinflow refund API
+  label: Coinflow Refund API
   slug: coinflow-refund-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-refund-api-openapi.yml
 - filename: coinflow-submerchant-api-openapi.yml
   format: yaml
-  label: Coinflow subMerchant API
+  label: Coinflow Sub Merchant API
   slug: coinflow-submerchant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-submerchant-api-openapi.yml
 - filename: coinflow-subscription-api-openapi.yml
   format: yaml
-  label: Coinflow subscription API
+  label: Coinflow Subscription API
   slug: coinflow-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-subscription-api-openapi.yml
 - filename: coinflow-utilities-api-openapi.yml
   format: yaml
-  label: Coinflow utilities API
+  label: Coinflow Utilities API
   slug: coinflow-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-utilities-api-openapi.yml
 - filename: coinflow-withdraw-api-openapi.yml
   format: yaml
-  label: Coinflow withdraw API
+  label: Coinflow Withdraw API
   slug: coinflow-withdraw-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-withdraw-api-openapi.yml

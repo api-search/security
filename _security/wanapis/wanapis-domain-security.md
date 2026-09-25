@@ -93,7 +93,7 @@ tags:
 - Claude
 - Gemini
 - DeepSeek
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio
 - Multi-Modal

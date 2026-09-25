@@ -123,7 +123,7 @@ tags:
 - Trade
 - Commodities
 - Compliance
-- Risk
+- Risk Management
 - Event Streaming
 - Webhook
 ---

@@ -25,14 +25,14 @@ summary_line: ISO 27001, SOC 2 Type II, HIPAA
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Audit
 - Enterprise Software
-- Regulatory Technology
+- RegTech
 - Cyber Risk
-- Third-Party Risk
+- Third-Party Risk Management
 - Operational Resilience
 - ESG
 trust_url: https://www.metricstream.com/about-us/trust-center.htm

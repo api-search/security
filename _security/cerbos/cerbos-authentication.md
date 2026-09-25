@@ -83,7 +83,7 @@ tags:
 - Access Control
 - Authorization
 - AuthZEN
-- Open-Source
+- Open Source
 - PBAC
 - PDP
 - Permissions

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Autonomous Retail
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Retail Technology
 - Checkout-Free

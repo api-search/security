@@ -2,7 +2,7 @@
 api_specs:
 - filename: google-indexing-urlnotifications-api-openapi.yml
   format: yaml
-  label: Google Indexing urlNotifications API
+  label: Google Indexing URL Notifications API
   slug: google-indexing-urlnotifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/google-indexing-urlnotifications-api-openapi.yml

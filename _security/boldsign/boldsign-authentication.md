@@ -108,7 +108,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - E-Signature
 - Electronic Signature
-- Document-Management
+- Document Management
 - Embedded Signing
 - Webhook
 - Templates

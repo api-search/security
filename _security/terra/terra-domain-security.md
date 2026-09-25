@@ -38,5 +38,5 @@ tags:
 - Offensive Security
 - Red Teaming
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 ---

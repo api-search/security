@@ -53,12 +53,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs
 summary_line: http · 1 scheme
 tags:
 - Fraud
-- Risk
+- Risk Management
 - Commerce
 - Payments
 - Security
 - Compliance
 - Identity
 - Banking
-- Machine-Learning
+- Machine Learning
 ---

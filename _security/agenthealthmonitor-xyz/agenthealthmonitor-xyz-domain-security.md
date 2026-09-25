@@ -42,8 +42,8 @@ layout: security
 method: probed
 name: Agenthealthmonitor Xyz Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Digital Intensity Ltd, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Digital Intensity Ltd
+overview: 'Domain security posture for Agent Health Monitor, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Agent Health Monitor
 provider_slug: agenthealthmonitor-xyz
 slug: agenthealthmonitor-xyz-domain-security
 source_filename: agenthealthmonitor-xyz-domain-security.yml
@@ -66,5 +66,6 @@ tags:
 - Web3
 - Verifiable Credentials
 - Developer Tools
-- agent-native
+- Agent-Native
+- A2A
 ---

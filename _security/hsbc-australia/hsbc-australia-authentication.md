@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://public.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/authentication/hsbc-australia-authentication.yml
 summary_line: none/openIdConnect/oauth2/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

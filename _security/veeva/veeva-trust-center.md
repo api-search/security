@@ -66,7 +66,7 @@ tags:
 - Clinical Trials
 - Regulatory
 - Quality Management
-- Document-Management
+- Document Management
 - Content Management
 - Healthcare
 - Software-as-a-Service

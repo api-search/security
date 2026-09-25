@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Business Services
-- Real-Estate
+- Real Estate
 - Facility Management
 - Material Handling
 - Food & Catering

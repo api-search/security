@@ -38,7 +38,8 @@ tags:
 - Ride Hailing
 - Alphabet
 - LiDAR
-- Computer-Vision
+- Computer Vision
 - Open Dataset
 - Simulation
+- Mobility
 ---

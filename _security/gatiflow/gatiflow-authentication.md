@@ -51,7 +51,7 @@ tags:
 - Developer Signals
 - Trends
 - Hiring
-- Open-Source
+- Open Source
 - Research
 - B2B SaaS
 - Artificial Intelligence

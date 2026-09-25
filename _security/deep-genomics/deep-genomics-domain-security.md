@@ -37,5 +37,5 @@ tags:
 - Drug Discovery
 - Genetic Medicine
 - Healthcare
-- Machine-Learning
+- Machine Learning
 ---

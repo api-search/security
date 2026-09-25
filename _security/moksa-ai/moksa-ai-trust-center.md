@@ -24,7 +24,7 @@ tags:
 - Surveillance
 - Video Analytics
 - Security
-- Computer-Vision
+- Computer Vision
 - Threat Detection
 trust_url: ''
 ---

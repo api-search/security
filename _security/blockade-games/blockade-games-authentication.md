@@ -46,7 +46,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - 3D
 - Gaming
 - Virtual Reality

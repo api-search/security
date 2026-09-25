@@ -76,7 +76,7 @@ tags:
 - DevOps
 - CI/CD
 - Builds
-- Open-Source
+- Open Source
 - Hosted
 - GitHub
 ---

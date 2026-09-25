@@ -143,9 +143,9 @@ tags:
 - Performance Management
 - Time Off
 - Compensation
-- Workflow-Automation
+- Workflow Automation
 - AI Companion
-- Agentic AI
+- AI Agents
 - United Kingdom
 - London
 ---

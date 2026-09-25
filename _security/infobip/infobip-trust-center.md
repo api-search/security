@@ -86,5 +86,6 @@ tags:
 - Omnichannel
 - Aggregator
 - Customer Engagement
+- Communications
 trust_url: https://www.infobip.com/security-trust-center
 ---

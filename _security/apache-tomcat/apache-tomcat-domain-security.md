@@ -2,19 +2,19 @@
 api_specs:
 - filename: apache-tomcat-applications-api-openapi.yml
   format: yaml
-  label: Apache Tomcat applications API
+  label: Apache Tomcat Applications API
   slug: apache-tomcat-applications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-applications-api-openapi.yml
 - filename: apache-tomcat-server-api-openapi.yml
   format: yaml
-  label: Apache Tomcat server API
+  label: Apache Tomcat Server API
   slug: apache-tomcat-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-server-api-openapi.yml
 - filename: apache-tomcat-sessions-api-openapi.yml
   format: yaml
-  label: Apache Tomcat sessions API
+  label: Apache Tomcat Sessions API
   slug: apache-tomcat-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-sessions-api-openapi.yml
@@ -57,7 +57,7 @@ tags:
 - Application Server
 - Java
 - JSP
-- Open-Source
+- Open Source
 - Servlet
 - Web Server
 ---

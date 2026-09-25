@@ -32,13 +32,13 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Zero-Knowledge Proofs
-- Machine-Learning
+- Machine Learning
 - Verifiable AI
 - ZKML
 - Cryptography
 - ONNX
 - Blockchain
-- Open-Source
+- Open Source
 - SDK
 - CLI
 ---

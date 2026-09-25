@@ -46,4 +46,5 @@ tags:
 - Sustainability
 - Energy
 - Switzerland
+- Climate
 ---

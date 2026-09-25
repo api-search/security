@@ -2,7 +2,7 @@
 api_specs:
 - filename: evermuse-ingestion-api-openapi.yml
   format: yaml
-  label: Evermuse ingestion API
+  label: Evermuse Ingestion API
   slug: evermuse-ingestion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/openapi/evermuse-ingestion-api-openapi.yml

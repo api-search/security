@@ -27,6 +27,36 @@ api_specs:
   slug: thefork-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reviews-api-openapi.yml
+- filename: lafourchette-booking-flow-api-openapi.yml
+  format: yaml
+  label: TheFork Booking flow API
+  slug: lafourchette-booking-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/lafourchette-booking-flow-api-openapi.yml
+- filename: lafourchette-data-api-openapi.yml
+  format: yaml
+  label: TheFork Data API
+  slug: lafourchette-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/lafourchette-data-api-openapi.yml
+- filename: lafourchette-phone-api-openapi.yml
+  format: yaml
+  label: TheFork Phone API
+  slug: lafourchette-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/lafourchette-phone-api-openapi.yml
+- filename: lafourchette-review-flow-api-openapi.yml
+  format: yaml
+  label: TheFork Review flow API
+  slug: lafourchette-review-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/lafourchette-review-flow-api-openapi.yml
+- filename: lafourchette-v1-api-openapi.yml
+  format: yaml
+  label: TheFork V1 API
+  slug: lafourchette-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/lafourchette-v1-api-openapi.yml
 auth_types:
 - apiKey
 - http

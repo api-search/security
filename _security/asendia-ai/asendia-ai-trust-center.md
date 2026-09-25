@@ -23,7 +23,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Recruitment
+- Recruiting
 - Staffing
 - Human Resources
 - AI Agents

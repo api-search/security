@@ -35,9 +35,9 @@ tags:
 - Mortgage
 - Lending
 - Loan Origination
-- Financial-Services
+- Financial Services
 - Fintech
-- Real-Estate
+- Real Estate
 - Artificial Intelligence
 - Agents
 ---

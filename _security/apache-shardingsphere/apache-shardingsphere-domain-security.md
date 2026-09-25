@@ -72,5 +72,5 @@ tags:
 - Sharding
 - SQL
 - Apache
-- Open-Source
+- Open Source
 ---

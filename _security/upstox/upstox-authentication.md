@@ -185,7 +185,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/he
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Stock Trading
 - Brokerage
 - Market Data

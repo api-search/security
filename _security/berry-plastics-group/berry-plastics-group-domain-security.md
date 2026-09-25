@@ -38,4 +38,5 @@ tags:
 - Consumer Goods
 - Industrial
 - Fortune 500
+- Defunct
 ---

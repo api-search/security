@@ -137,7 +137,7 @@ tags:
 - Artificial Intelligence
 - Freight
 - Logistics
-- Machine-Learning
+- Machine Learning
 - Pricing
 - Transportation
 ---

@@ -86,7 +86,7 @@ tags:
 - Incident Response
 - Security Awareness Training
 - Phishing Simulation
-- Microsoft-365
+- Microsoft 365
 - Google Workspace
 - SOC Automation
 - Deepfake Detection

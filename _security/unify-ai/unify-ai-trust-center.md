@@ -80,6 +80,6 @@ tags:
 - Benchmarking
 - Model Comparison
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 trust_url: https://unify.ai/security
 ---

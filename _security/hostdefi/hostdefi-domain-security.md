@@ -96,4 +96,5 @@ tags:
 - DeFi
 - rug pull
 - x402
+- A2A
 ---

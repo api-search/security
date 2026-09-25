@@ -171,7 +171,7 @@ tags:
 - Developer Portal
 - Internal Developer Platform
 - Software Catalog
-- Open-Source
+- Open Source
 - Platform Engineering
 - Software Templates
 - CNCF

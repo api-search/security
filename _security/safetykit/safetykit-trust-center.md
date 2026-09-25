@@ -25,7 +25,7 @@ tags:
 - Trust and Safety
 - Fraud Detection
 - Content Moderation
-- Risk
+- Risk Management
 - AI Agents
 - Compliance
 trust_url: https://trust.safetykit.com/

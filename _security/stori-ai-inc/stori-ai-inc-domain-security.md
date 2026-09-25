@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Stori Ai Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for STORI AI Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: STORI AI Inc.
+overview: 'Domain security posture for STORI AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: STORI AI
 provider_slug: stori-ai-inc
 slug: stori-ai-inc-domain-security
 source_filename: stori-ai-inc-domain-security.yml
@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Content Marketing
-- Social-Media
+- Social Media
 - Marketing
 - Branding
 - Content Creation

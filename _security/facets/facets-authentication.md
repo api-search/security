@@ -58,7 +58,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/facets/refs/heads/main/openapi/facets-modules-repo-api-openapi.yml
 - filename: facets-public-ap-is-api-openapi.yml
   format: yaml
-  label: Facets Public Ap Is API
+  label: Facets Public APIs API
   slug: facets-public-ap-is-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/facets/refs/heads/main/openapi/facets-public-ap-is-api-openapi.yml

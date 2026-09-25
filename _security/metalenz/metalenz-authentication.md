@@ -1,49 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: metalenz-press-releases-api-openapi.yml
-  format: yaml
-  label: Metalenz Press Releases API
-  slug: metalenz-press-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-press-releases-api-openapi.yml
-- filename: metalenz-pages-api-openapi.yml
-  format: yaml
-  label: Metalenz Pages API
-  slug: metalenz-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-pages-api-openapi.yml
-- filename: metalenz-media-api-openapi.yml
-  format: yaml
-  label: Metalenz Media API
-  slug: metalenz-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-media-api-openapi.yml
-- filename: metalenz-taxonomy-api-openapi.yml
-  format: yaml
-  label: Metalenz Taxonomy API
-  slug: metalenz-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-taxonomy-api-openapi.yml
-- filename: metalenz-search-api-openapi.yml
-  format: yaml
-  label: Metalenz Search API
-  slug: metalenz-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-search-api-openapi.yml
-- filename: metalenz-discovery-api-openapi.yml
-  format: yaml
-  label: Metalenz Discovery API
-  slug: metalenz-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-discovery-api-openapi.yml
-- filename: metalenz-o-embed-api-openapi.yml
-  format: yaml
-  label: Metalenz o Embed API
-  slug: metalenz-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-o-embed-api-openapi.yml
 auth_types: []
 description: Metalenz publishes no developer program and issues no API credentials. The WordPress REST content API behind metalenz.com is anonymously readable — no key, token, signature or account is required to read press releases, pages, media, taxonomies, search, oEmbed or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface. Separately, Metalenz runs a credential-gated documentation portal at docs.metalenz.com behind Microsoft Entra ID; that is a human login, not an API credential.
 kind: authentication
@@ -80,7 +37,7 @@ tags:
 - Face Authentication
 - Polarization Imaging
 - 3D Sensing
-- Computer-Vision
+- Computer Vision
 - Consumer Electronics
 - Automotive
 - Robotics

@@ -32,6 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - AI Photography
-- Image-Generation
+- Image Generation
 - Product Photos
 ---

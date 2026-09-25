@@ -29,7 +29,7 @@ tags:
 - Financial Data
 - Financial Technology
 - Investment Management
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
 - SimCorp One
 - Streaming

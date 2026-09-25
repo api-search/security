@@ -37,7 +37,7 @@ tags:
 - React Native
 - Retail
 - Omnichannel
-- Open-Source
+- Open Source
 - SDK
 - CLI
 ---

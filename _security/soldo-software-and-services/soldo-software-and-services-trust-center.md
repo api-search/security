@@ -311,7 +311,7 @@ tags:
 - Business Cards
 - Prepaid Cards
 - Fintech
-- Financial-Services
+- Financial Services
 - Webhook
 trust_url: https://www.soldo.com/en-gb/security/
 ---

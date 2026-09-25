@@ -57,5 +57,4 @@ tags:
 - Textiles
 - Precision Fermentation
 - Japan
-- Content
 ---

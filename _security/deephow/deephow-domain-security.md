@@ -34,10 +34,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Manufacturing
-- Knowledge-Management
+- Knowledge Management
 - Video
 - Training
-- Computer-Vision
+- Computer Vision
 - Industrial
 - SOP Verification
 ---

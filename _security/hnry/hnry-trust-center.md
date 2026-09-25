@@ -24,7 +24,7 @@ tags:
 - Payments
 - Invoicing
 - Expense Management
-- Financial-Services
+- Financial Services
 - Sole Traders
 - Payroll
 - Fintech

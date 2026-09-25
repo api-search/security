@@ -39,4 +39,5 @@ tags:
 - Recovery Audit
 - Vendor Management
 - Acquired
+- Procurement
 ---

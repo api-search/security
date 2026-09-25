@@ -34,6 +34,5 @@ tags:
 - Music
 - Licensing
 - Royalties
-- API
 - Collective
 ---

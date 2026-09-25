@@ -74,6 +74,6 @@ tags:
 - Low-Code
 - Enterprise
 - API Gateway
-- Workflow-Automation
+- Workflow Automation
 - Connectors
 ---

@@ -45,5 +45,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/
 summary_line: SOC 2, ISO 27001
 tags:
 - Documentation
+- API Documentation
+- Developer Portal
+- Artificial Intelligence
+- MCP
 trust_url: https://security.mintlify.com/
 ---

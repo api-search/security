@@ -46,5 +46,5 @@ tags:
 - Registry
 - Evidence
 - Research Commons
-- agent-native
+- Agent-Native
 ---

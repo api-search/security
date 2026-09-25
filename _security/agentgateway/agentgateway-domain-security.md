@@ -72,8 +72,8 @@ tags:
 - API Gateway
 - MCP
 - LLM
-- Agent-to-Agent
-- Open-Source
+- A2A
+- Open Source
 - CNCF
 - Observability
 - Security

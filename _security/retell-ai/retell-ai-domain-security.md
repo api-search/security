@@ -516,5 +516,6 @@ tags:
 - Voice
 - Agents
 - Real-Time
-- Conversational
+- Conversational AI
+- Voice AI
 ---

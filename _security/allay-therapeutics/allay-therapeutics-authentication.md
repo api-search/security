@@ -1,55 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: allay-therapeutics-comments-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Comments API
-  slug: allay-therapeutics-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-comments-api-openapi.yml
-- filename: allay-therapeutics-discovery-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Discovery API
-  slug: allay-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-discovery-api-openapi.yml
-- filename: allay-therapeutics-media-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Media API
-  slug: allay-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-media-api-openapi.yml
-- filename: allay-therapeutics-pages-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Pages API
-  slug: allay-therapeutics-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-pages-api-openapi.yml
-- filename: allay-therapeutics-posts-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Posts API
-  slug: allay-therapeutics-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-posts-api-openapi.yml
-- filename: allay-therapeutics-search-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Search API
-  slug: allay-therapeutics-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-search-api-openapi.yml
-- filename: allay-therapeutics-taxonomy-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics Taxonomy API
-  slug: allay-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-taxonomy-api-openapi.yml
-- filename: allay-therapeutics-o-embed-api-openapi.yml
-  format: yaml
-  label: Allay Therapeutics o Embed API
-  slug: allay-therapeutics-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/openapi/allay-therapeutics-o-embed-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

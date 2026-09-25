@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiverse-com
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM Inference
 - Model Compression
 - Quantum Computing

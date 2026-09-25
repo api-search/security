@@ -100,6 +100,7 @@ tags:
 - Community Management
 - Member Tracking
 - Community Analytics
-- Open-Source
+- Open Source
 - Developer Engagement
+- Defunct
 ---

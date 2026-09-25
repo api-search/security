@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-activity-action-items-api-openapi.yml
 - filename: workboard-custom-attributes-api-openapi.yml
   format: yaml
-  label: WorkBoard custom-attributes API
+  label: WorkBoard Custom Attributes API
   slug: workboard-custom-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-custom-attributes-api-openapi.yml

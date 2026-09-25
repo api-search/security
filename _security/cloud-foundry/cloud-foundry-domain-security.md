@@ -322,7 +322,7 @@ tags:
 - Cloud Foundry Foundation
 - Containers
 - Multi-Cloud
-- Open-Source
+- Open Source
 - Platform-as-a-Service
 - Platform
 ---

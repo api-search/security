@@ -174,4 +174,5 @@ tags:
 - Hourly Workers
 - Labor Forecasting
 - Human Resources
+- Scheduling
 ---

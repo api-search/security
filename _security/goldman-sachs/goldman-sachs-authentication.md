@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goldman-sachs/
 summary_line: oauth2/http/mutualTLS · 4 schemes
 tags:
 - Banking
-- Financial
+- Finance
 - Investment Banking
 - Money Center
 - Institutional

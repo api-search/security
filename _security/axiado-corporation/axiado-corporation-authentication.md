@@ -12,8 +12,8 @@ method: searched
 name: Axiado Corporation Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Axiado Corporation secures its APIs with application-privilege and code-signing across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Axiado Corporation
+overview: Axiado secures its APIs with application-privilege and code-signing across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Axiado
 provider_slug: axiado-corporation
 scheme_count: 3
 schemes:
@@ -53,7 +53,7 @@ tags:
 - Semiconductors
 - Hardware Security
 - Platform Security
-- Data-Center
+- Data Center
 - Cybersecurity
 - Baseboard Management Controller
 - Root of Trust

@@ -53,7 +53,7 @@ tags:
 - Credit Risk
 - Small Business
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Document Intelligence
 - KYB
 - Fraud Detection

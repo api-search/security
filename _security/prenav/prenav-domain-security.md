@@ -35,7 +35,7 @@ tags:
 - Infrastructure Inspection
 - Digital Twin
 - Deep Learning
-- Computer-Vision
+- Computer Vision
 - Photogrammetry
 - Synthetic Data
 - Asset Management

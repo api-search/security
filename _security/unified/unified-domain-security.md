@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Advertising
-- Social-Media
+- Social Media
 - Digital Advertising
 - Marketing
 - Analytics

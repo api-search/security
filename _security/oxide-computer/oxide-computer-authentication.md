@@ -257,5 +257,5 @@ tags:
 - Hardware
 - On-Premises
 - Private Cloud
-- Open-Source
+- Open Source
 ---

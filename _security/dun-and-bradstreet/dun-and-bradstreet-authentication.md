@@ -166,7 +166,7 @@ tags:
 - Company Data
 - D-U-N-S Number
 - Credit
-- Risk
+- Risk Management
 - Master Data
 - Data Enrichment
 - Identity Resolution

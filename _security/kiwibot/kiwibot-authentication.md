@@ -43,5 +43,5 @@ tags:
 - Warehouse Automation
 - Advertising
 - ROS
-- Open-Source
+- Open Source
 ---

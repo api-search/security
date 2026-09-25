@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-admin-api-openapi.yml
 - filename: parcha-admin-billing-api-openapi.yml
   format: yaml
-  label: Parcha admin-billing API
+  label: Parcha Admin Billing API
   slug: parcha-admin-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-admin-billing-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-document-management-api-openapi.yml
 - filename: parcha-document-requests-api-openapi.yml
   format: yaml
-  label: Parcha document-requests API
+  label: Parcha Document Requests API
   slug: parcha-document-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-document-requests-api-openapi.yml
@@ -320,7 +320,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-runflashcheck-api-openapi.yml
 - filename: parcha-schemas-api-openapi.yml
   format: yaml
-  label: Parcha schemas API
+  label: Parcha Schemas API
   slug: parcha-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/openapi/parcha-schemas-api-openapi.yml
@@ -424,7 +424,7 @@ tags:
 - AML
 - Sanctions Screening
 - Identity Verification
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 trust_url: https://trust.parcha.com/
 ---

@@ -49,7 +49,7 @@ summary_line: apiKey · 3 schemes
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Contact Center
 - Customer Service Automation
 - Chatbots

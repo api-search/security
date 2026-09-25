@@ -229,9 +229,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-american
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Title Insurance
-- Real-Estate
+- Real Estate
 - Settlement Services
-- Financial-Services
+- Financial Services
 - Mortgage
 - Property Data
 - Identity Verification

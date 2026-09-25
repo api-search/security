@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/life-sciences/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Life Sciences
-- Biotech
+- Biotechnology
 - Pharma
 - Healthcare
 - Clinical Trials

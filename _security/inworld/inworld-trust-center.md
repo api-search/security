@@ -61,6 +61,7 @@ tags:
 - Voice
 - Characters
 - Games
-- Conversational
+- Conversational AI
+- A2A
 trust_url: https://inworld.ai/security
 ---

@@ -49,6 +49,6 @@ tags:
 - JavaScript
 - Legacy
 - MVC
-- Open-Source
+- Open Source
 - Single Page Application
 ---

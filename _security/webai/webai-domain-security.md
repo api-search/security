@@ -36,7 +36,7 @@ tags:
 - On-Device AI
 - Edge AI
 - Sovereign AI
-- Machine-Learning
+- Machine Learning
 - Privacy
 - Local Inference
 - macOS

@@ -129,7 +129,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - MCP
 - Document Intelligence
 - Agents

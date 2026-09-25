@@ -40,7 +40,7 @@ tags:
 - Autonomous Systems
 - Security
 - Surveillance
-- Computer-Vision
+- Computer Vision
 - Defense
 - Physical Security
 ---

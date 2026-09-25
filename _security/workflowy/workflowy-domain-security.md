@@ -56,6 +56,6 @@ tags:
 - Task Management
 - List
 - Collaboration
-- Knowledge-Management
+- Knowledge Management
 - AI Assistant
 ---

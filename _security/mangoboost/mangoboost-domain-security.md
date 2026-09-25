@@ -41,9 +41,9 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infrastructure
-- Data-Center
+- Data Center
 - Semiconductors
 - Hardware
 - Storage

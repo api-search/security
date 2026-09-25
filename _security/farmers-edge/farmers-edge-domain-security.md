@@ -2,67 +2,67 @@
 api_specs:
 - filename: farmers-edge-canplug-api-openapi.yml
   format: yaml
-  label: Farmers Edge canplug API
+  label: Farmers Edge Canplug API
   slug: farmers-edge-canplug-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-canplug-api-openapi.yml
 - filename: farmers-edge-carbon-api-openapi.yml
   format: yaml
-  label: Farmers Edge carbon API
+  label: Farmers Edge Carbon API
   slug: farmers-edge-carbon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-carbon-api-openapi.yml
 - filename: farmers-edge-client-api-openapi.yml
   format: yaml
-  label: Farmers Edge client API
+  label: Farmers Edge Client API
   slug: farmers-edge-client-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-client-api-openapi.yml
 - filename: farmers-edge-contact-api-openapi.yml
   format: yaml
-  label: Farmers Edge contact API
+  label: Farmers Edge Contact API
   slug: farmers-edge-contact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-contact-api-openapi.yml
 - filename: farmers-edge-gridcalc-api-openapi.yml
   format: yaml
-  label: Farmers Edge gridcalc API
+  label: Farmers Edge Gridcalc API
   slug: farmers-edge-gridcalc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-gridcalc-api-openapi.yml
 - filename: farmers-edge-hefty-api-openapi.yml
   format: yaml
-  label: Farmers Edge hefty API
+  label: Farmers Edge Hefty API
   slug: farmers-edge-hefty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-hefty-api-openapi.yml
 - filename: farmers-edge-integrations-api-openapi.yml
   format: yaml
-  label: Farmers Edge integrations API
+  label: Farmers Edge Integrations API
   slug: farmers-edge-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-integrations-api-openapi.yml
 - filename: farmers-edge-labcommand-api-openapi.yml
   format: yaml
-  label: Farmers Edge labcommand API
+  label: Farmers Edge Labcommand API
   slug: farmers-edge-labcommand-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-labcommand-api-openapi.yml
 - filename: farmers-edge-payments-api-openapi.yml
   format: yaml
-  label: Farmers Edge payments API
+  label: Farmers Edge Payments API
   slug: farmers-edge-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-payments-api-openapi.yml
 - filename: farmers-edge-recengine-api-openapi.yml
   format: yaml
-  label: Farmers Edge recengine API
+  label: Farmers Edge Recengine API
   slug: farmers-edge-recengine-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-recengine-api-openapi.yml
 - filename: farmers-edge-token-login-api-openapi.yml
   format: yaml
-  label: Farmers Edge token-login API
+  label: Farmers Edge Token Login API
   slug: farmers-edge-token-login-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/openapi/farmers-edge-token-login-api-openapi.yml

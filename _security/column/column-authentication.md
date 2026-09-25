@@ -141,7 +141,8 @@ summary_line: http · 1 scheme
 tags:
 - Fintech
 - Banking
-- Backend-as-a-Service
+- Banking as a Service
 - ACH
 - Wires
+- Embedded Finance
 ---

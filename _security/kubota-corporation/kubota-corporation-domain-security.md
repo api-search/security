@@ -30,8 +30,8 @@ layout: security
 method: probed
 name: Kubota Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Kubota Corporation, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Kubota Corporation
+overview: 'Domain security posture for Kubota, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Kubota
 provider_slug: kubota-corporation
 slug: kubota-corporation-domain-security
 source_filename: kubota-corporation-domain-security.yml

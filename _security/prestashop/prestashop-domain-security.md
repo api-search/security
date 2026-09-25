@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prestashop/ref
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - E-Commerce
-- Open-Source
+- Open Source
 - Product
 - Order
 - Customers

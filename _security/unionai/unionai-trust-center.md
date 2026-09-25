@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/h
 summary_line: SOC 2, HIPAA
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Orchestration
 - Workflows
 - MLOps

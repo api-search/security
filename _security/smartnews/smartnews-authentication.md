@@ -4,13 +4,13 @@ api_key_in: []
 api_specs:
 - filename: smartnews-ad-api-openapi.yml
   format: yaml
-  label: SmartNews ad API
+  label: SmartNews Ad API
   slug: smartnews-ad-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-ad-api-openapi.yml
 - filename: smartnews-ad-group-api-openapi.yml
   format: yaml
-  label: SmartNews ad-group API
+  label: SmartNews Ad Group API
   slug: smartnews-ad-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-ad-group-api-openapi.yml
@@ -22,13 +22,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-article-category-api-openapi.yml
 - filename: smartnews-campaign-api-openapi.yml
   format: yaml
-  label: SmartNews campaign API
+  label: SmartNews Campaign API
   slug: smartnews-campaign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-campaign-api-openapi.yml
 - filename: smartnews-catalog-api-openapi.yml
   format: yaml
-  label: SmartNews catalog API
+  label: SmartNews Catalog API
   slug: smartnews-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-catalog-api-openapi.yml
@@ -40,43 +40,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-channel-alias-label-api-openapi.yml
 - filename: smartnews-custom-audience-api-openapi.yml
   format: yaml
-  label: SmartNews custom-audience API
+  label: SmartNews Custom Audience API
   slug: smartnews-custom-audience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-custom-audience-api-openapi.yml
 - filename: smartnews-developer-app-api-openapi.yml
   format: yaml
-  label: SmartNews developer-app API
+  label: SmartNews Developer App API
   slug: smartnews-developer-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-developer-app-api-openapi.yml
 - filename: smartnews-insights-api-openapi.yml
   format: yaml
-  label: SmartNews insights API
+  label: SmartNews Insights API
   slug: smartnews-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-insights-api-openapi.yml
 - filename: smartnews-interests-api-openapi.yml
   format: yaml
-  label: SmartNews interests API
+  label: SmartNews Interests API
   slug: smartnews-interests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-interests-api-openapi.yml
 - filename: smartnews-locations-api-openapi.yml
   format: yaml
-  label: SmartNews locations API
+  label: SmartNews Locations API
   slug: smartnews-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-locations-api-openapi.yml
 - filename: smartnews-media-file-api-openapi.yml
   format: yaml
-  label: SmartNews media-file API
+  label: SmartNews Media File API
   slug: smartnews-media-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-media-file-api-openapi.yml
 - filename: smartnews-pixel-api-openapi.yml
   format: yaml
-  label: SmartNews pixel API
+  label: SmartNews Pixel API
   slug: smartnews-pixel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-pixel-api-openapi.yml

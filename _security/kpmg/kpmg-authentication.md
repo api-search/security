@@ -62,7 +62,7 @@ tags:
 - Trusted AI
 - ESG
 - Sustainability
-- Risk
+- Risk Management
 - Regulations
 - Cybersecurity
 - Strategy

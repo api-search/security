@@ -37,7 +37,7 @@ tags:
 - Fintech
 - Lending
 - Banking
-- Machine-Learning
+- Machine Learning
 - Risk Management
 - Singapore
 ---

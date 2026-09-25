@@ -37,6 +37,6 @@ tags:
 - React
 - Node.js
 - TypeScript
-- Open-Source
+- Open Source
 - AI Coding
 ---

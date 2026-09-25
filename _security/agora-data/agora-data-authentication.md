@@ -168,7 +168,7 @@ tags:
 - Auto Finance
 - Automotive
 - Lending
-- Financial-Services
+- Financial Services
 - Fintech
 - Loan Origination
 - Data Analytics

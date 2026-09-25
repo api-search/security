@@ -36,6 +36,6 @@ tags:
 - Containers
 - Docker
 - Reproducible Builds
-- Open-Source
+- Open Source
 - Developer Tools
 ---

@@ -76,12 +76,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/re
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Developer-First
-- Workflow-Automation
+- Workflow Automation
 - Background Jobs
 - Durable Execution
 - TypeScript
 - AI Agents
 - Real-Time
-- Open-Source
+- Open Source
 trust_url: https://trigger.dev/security
 ---

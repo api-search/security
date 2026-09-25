@@ -70,5 +70,5 @@ tags:
 - Background Checks
 - Credit Monitoring
 - Consumer Data
-- Financial-Services
+- Financial Services
 ---

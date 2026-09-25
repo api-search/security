@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landlordstudio
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rental Income
 - Expense Tracking
 - Tenant Screening

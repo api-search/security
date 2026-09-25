@@ -45,5 +45,6 @@ tags:
 - Podcasting
 - Transcription
 - Video Editing
+- Audio
 trust_url: https://www.descript.com/security
 ---

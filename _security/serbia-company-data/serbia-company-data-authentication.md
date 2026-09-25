@@ -75,5 +75,5 @@ tags:
 - OpenAPI
 - Financial Statements
 - pay-per-call
-- agent-native
+- Agent-Native
 ---

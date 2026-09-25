@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: South State Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for South State Corporation, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: South State Corporation
+overview: 'Domain security posture for South State, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: South State
 provider_slug: south-state-corporation
 slug: south-state-corporation-domain-security
 source_filename: south-state-corporation-domain-security.yml
@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/south-state-co
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Regional Bank
 - Treasury Management
 - Fortune 1000

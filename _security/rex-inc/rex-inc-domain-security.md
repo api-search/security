@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Rex Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Rex Inc, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Rex Inc
+overview: 'Domain security posture for Rex, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Rex
 provider_slug: rex-inc
 slug: rex-inc-domain-security
 source_filename: rex-inc-domain-security.yml
@@ -42,7 +42,7 @@ tags:
 - Fitness
 - Nutrition
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Wearables
 - Y Combinator
 ---

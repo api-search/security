@@ -22,7 +22,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Predictive Analytics
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Forecasting
 - Business Intelligence

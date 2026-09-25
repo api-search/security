@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Lending
 - Asset Financing
-- Financial-Services
+- Financial Services
 - Working Capital
 - Africa
 - Uganda

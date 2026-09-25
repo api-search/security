@@ -38,5 +38,5 @@ tags:
 - Attack Surface Management
 - Cybersecurity
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 ---

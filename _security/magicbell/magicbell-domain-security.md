@@ -8,19 +8,19 @@ api_specs:
   url: https://documenter.getpostman.com/view/2269098/2sAYdhLAjv
 - filename: magicbell-integrations-api-openapi.yml
   format: yaml
-  label: MagicBell integrations API
+  label: MagicBell Integrations API
   slug: magicbell-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/openapi/magicbell-integrations-api-openapi.yml
 - filename: magicbell-project-api-openapi.yml
   format: yaml
-  label: MagicBell project API
+  label: MagicBell Project API
   slug: magicbell-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/openapi/magicbell-project-api-openapi.yml
 - filename: magicbell-user-api-openapi.yml
   format: yaml
-  label: MagicBell user API
+  label: MagicBell User API
   slug: magicbell-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/openapi/magicbell-user-api-openapi.yml

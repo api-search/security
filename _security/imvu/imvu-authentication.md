@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imvu/refs/head
 summary_line: 0 schemes
 tags:
 - Company
-- Social Networking
+- Social Network
 - Virtual Worlds
 - Metaverse
 - Gaming

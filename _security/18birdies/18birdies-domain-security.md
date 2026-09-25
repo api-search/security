@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Golf
 - Sports
-- Mobile Applications
+- Mobile App
 - Location
 - Geolocation
 - Mapping

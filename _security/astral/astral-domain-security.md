@@ -39,6 +39,6 @@ tags:
 - Code Formatter
 - Type Checker
 - CLI
-- Open-Source
+- Open Source
 - Rust
 ---

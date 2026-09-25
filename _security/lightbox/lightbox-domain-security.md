@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: lightbox-zoning-api-zoning-api-openapi.yml
+  format: yaml
+  label: LightBox Zoning API
+  slug: lightbox-zoning-api-zoning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/openapi/lightbox-zoning-api-zoning-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,5 +40,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Location Intelligence
 - Property Data
-- Real-Estate
+- Real Estate
 ---

@@ -256,7 +256,7 @@ tags:
 - MCP
 - SCIM
 - Composable Commerce
-- Agentic AI
+- AI Agents
 - Webhook
 - Image Delivery
 ---

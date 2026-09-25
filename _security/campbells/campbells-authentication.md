@@ -48,7 +48,7 @@ tags:
 - Recipes
 - Brands
 - Nutrition
-- Content
 - Product Catalog
 - WordPress
+- Food and Beverage
 ---

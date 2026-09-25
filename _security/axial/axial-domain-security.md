@@ -35,7 +35,7 @@ tags:
 - Mergers and Acquisitions
 - Private Capital
 - Deal Sourcing
-- Financial-Services
+- Financial Services
 - Middle Market
 - Investment Banking
 - Marketplace

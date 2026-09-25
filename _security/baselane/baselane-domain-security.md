@@ -42,7 +42,7 @@ tags:
 - PropTech
 - Landlord Banking
 - Rent Collection
-- Real-Estate
+- Real Estate
 - Banking
 - Bookkeeping
 ---

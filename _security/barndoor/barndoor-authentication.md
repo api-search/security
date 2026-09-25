@@ -78,7 +78,6 @@ summary_line: http · 1 scheme
 tags:
 - AI Agents
 - AI Governance
-- Agentic AI
 - MCP
 - Policy Enforcement
 - Authentication

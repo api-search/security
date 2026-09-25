@@ -68,9 +68,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - AI Agents
 - Conversations
-- Financial-Services
+- Financial Services
 - Regulated
 ---

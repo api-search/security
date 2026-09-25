@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-currencies-api-openapi.yml
 - filename: frankfurter-current-rates-api-openapi.yml
   format: yaml
-  label: Frankfurter current-rates API
+  label: Frankfurter Current Rates API
   slug: frankfurter-current-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-current-rates-api-openapi.yml
 - filename: frankfurter-historical-rates-api-openapi.yml
   format: yaml
-  label: Frankfurter historical-rates API
+  label: Frankfurter Historical Rates API
   slug: frankfurter-historical-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-historical-rates-api-openapi.yml
 - filename: frankfurter-metadata-api-openapi.yml
   format: yaml
-  label: Frankfurter metadata API
+  label: Frankfurter Metadata API
   slug: frankfurter-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-metadata-api-openapi.yml
@@ -74,7 +74,7 @@ tags:
 - Currency Exchange
 - Foreign Exchange
 - FX
-- Open-Source
+- Open Source
 - MIT
 - Self-Hosted
 - Public APIs

@@ -21,9 +21,8 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Staffing
-- Recruitment
+- Recruiting
 - Applicant Tracking
-- ATS
 - CRM
 - Human Resources
 - REST

@@ -33,7 +33,7 @@ tags:
 - Cloud-Native
 - Containers
 - Kubernetes
-- Open-Source
+- Open Source
 - Persistent Storage
 - Storage
 ---

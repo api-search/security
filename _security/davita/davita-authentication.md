@@ -2,19 +2,6 @@
 anonymous_access: false
 api_key_in:
 - header
-api_specs:
-- filename: davita-davita-v1-api-openapi.yml
-  format: yaml
-  label: DaVita Davita V1 API
-  slug: davita-davita-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/openapi/davita-davita-v1-api-openapi.yml
-- filename: davita-wp-v2-api-openapi.yml
-  format: yaml
-  label: DaVita Wp V2 API
-  slug: davita-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/openapi/davita-wp-v2-api-openapi.yml
 auth_types:
 - apiKey
 - http

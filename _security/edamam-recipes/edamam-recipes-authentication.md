@@ -42,7 +42,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-nutrition-details-api-openapi.yml
 - filename: edamam-recipes-planner-api-openapi.yml
   format: yaml
-  label: Edamam planner API
+  label: Edamam Planner API
   slug: edamam-recipes-planner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-planner-api-openapi.yml
@@ -60,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-shopping-list-api-openapi.yml
 - filename: edamam-recipes-values-api-openapi.yml
   format: yaml
-  label: Edamam values API
+  label: Edamam Values API
   slug: edamam-recipes-values-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-values-api-openapi.yml
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/edamam-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/authentication/edamam-recipes-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
-- Food And Drink
+- Food and Beverage
 - Recipes
 - Nutrition
 - Diet

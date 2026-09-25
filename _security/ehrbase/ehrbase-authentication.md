@@ -155,7 +155,7 @@ tags:
 - Clinical Data
 - openEHR
 - Interoperability
-- Open-Source
+- Open Source
 - Database
 - Standards
 ---

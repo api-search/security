@@ -36,7 +36,7 @@ tags:
 - AI Agents
 - Healthcare
 - Revenue Cycle Management
-- Workflow-Automation
+- Workflow Automation
 - Automation
 - Productivity
 ---

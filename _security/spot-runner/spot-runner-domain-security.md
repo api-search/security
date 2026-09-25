@@ -37,6 +37,6 @@ tags:
 - CTV
 - Online Video
 - Contextual Advertising
-- Agentic AI
+- AI Agents
 - Media Planning
 ---

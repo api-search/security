@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: nucleus-security-vulnerabilities-api-openapi.yml
-  format: yaml
-  label: Nucleus Security Vulnerabilities API
-  slug: nucleus-security-vulnerabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nucleus-security/refs/heads/main/openapi/nucleus-security-vulnerabilities-api-openapi.yml
 auth_types: []
 description: 'Nucleus Security authenticates three distinct surfaces three different ways: the tenant platform REST API with a static API key in an `x-apikey` header, both MCP servers with OAuth 2.1 authorization-code + PKCE, and the public vulnerability intelligence API with nothing at all.'
 kind: authentication

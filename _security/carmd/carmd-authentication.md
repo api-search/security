@@ -36,11 +36,11 @@ summary_line: 0 schemes
 tags:
 - Automobiles
 - Cars
-- Diagnostics
 - Vehicles
 - Automotive
 - OBD-II
 - Agentic Commerce
 - MCP
 - E-Commerce
+- Vehicle Diagnostics
 ---

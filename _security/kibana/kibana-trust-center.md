@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-agent-builder-api-openapi.yml
 - filename: kibana-alerting-api-openapi.yml
   format: yaml
-  label: Kibana alerting API
+  label: Kibana Alerting API
   slug: kibana-alerting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-alerting-api-openapi.yml
@@ -50,13 +50,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-apm-sourcemaps-api-openapi.yml
 - filename: kibana-cases-api-openapi.yml
   format: yaml
-  label: Kibana cases API
+  label: Kibana Cases API
   slug: kibana-cases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-cases-api-openapi.yml
 - filename: kibana-connectors-api-openapi.yml
   format: yaml
-  label: Kibana connectors API
+  label: Kibana Connectors API
   slug: kibana-connectors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-connectors-api-openapi.yml
@@ -182,13 +182,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-fleet-uninstall-tokens-api-openapi.yml
 - filename: kibana-logstash-api-openapi.yml
   format: yaml
-  label: Kibana logstash API
+  label: Kibana Logstash API
   slug: kibana-logstash-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-logstash-api-openapi.yml
 - filename: kibana-maintenance-window-api-openapi.yml
   format: yaml
-  label: Kibana maintenance-window API
+  label: Kibana Maintenance Window API
   slug: kibana-maintenance-window-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-maintenance-window-api-openapi.yml
@@ -200,19 +200,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-message-signing-service-api-openapi.yml
 - filename: kibana-ml-api-openapi.yml
   format: yaml
-  label: Kibana ml API
+  label: Kibana Ml API
   slug: kibana-ml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-ml-api-openapi.yml
 - filename: kibana-observability-ai-assistant-api-openapi.yml
   format: yaml
-  label: Kibana observability_ai_assistant API
+  label: Kibana Observability AI Assistant API
   slug: kibana-observability-ai-assistant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-observability-ai-assistant-api-openapi.yml
 - filename: kibana-roles-api-openapi.yml
   format: yaml
-  label: Kibana roles API
+  label: Kibana Roles API
   slug: kibana-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-roles-api-openapi.yml
@@ -302,7 +302,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-short-url-api-openapi.yml
 - filename: kibana-slo-api-openapi.yml
   format: yaml
-  label: Kibana slo API
+  label: Kibana Slo API
   slug: kibana-slo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-slo-api-openapi.yml
@@ -314,19 +314,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-spaces-api-openapi.yml
 - filename: kibana-streams-api-openapi.yml
   format: yaml
-  label: Kibana streams API
+  label: Kibana Streams API
   slug: kibana-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-streams-api-openapi.yml
 - filename: kibana-synthetics-api-openapi.yml
   format: yaml
-  label: Kibana synthetics API
+  label: Kibana Synthetics API
   slug: kibana-synthetics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-synthetics-api-openapi.yml
 - filename: kibana-system-api-openapi.yml
   format: yaml
-  label: Kibana system API
+  label: Kibana System API
   slug: kibana-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-system-api-openapi.yml
@@ -338,13 +338,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-task-manager-api-openapi.yml
 - filename: kibana-upgrade-api-openapi.yml
   format: yaml
-  label: Kibana upgrade API
+  label: Kibana Upgrade API
   slug: kibana-upgrade-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-upgrade-api-openapi.yml
 - filename: kibana-uptime-api-openapi.yml
   format: yaml
-  label: Kibana uptime API
+  label: Kibana Uptime API
   slug: kibana-uptime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-uptime-api-openapi.yml
@@ -356,7 +356,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-user-session-api-openapi.yml
 - filename: kibana-workflows-api-openapi.yml
   format: yaml
-  label: Kibana workflows API
+  label: Kibana Workflows API
   slug: kibana-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/openapi/kibana-workflows-api-openapi.yml

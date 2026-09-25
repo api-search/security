@@ -97,7 +97,7 @@ tags:
 - Artificial Intelligence
 - Content Delivery
 - LTI
-- Libraries
+- Library
 - Student Engagement
 - Publishing
 ---

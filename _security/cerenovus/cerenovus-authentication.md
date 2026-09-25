@@ -54,7 +54,7 @@ tags:
 - AI Agents
 - Enterprise Software
 - Decision Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Private Equity
 - Due Diligence
 - MCP

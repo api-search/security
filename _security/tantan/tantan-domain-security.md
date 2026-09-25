@@ -35,6 +35,6 @@ tags:
 - Dating
 - Social
 - Mobile
-- Social Networking
+- Social Network
 - Online Dating
 ---

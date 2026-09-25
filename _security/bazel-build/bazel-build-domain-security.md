@@ -64,7 +64,7 @@ tags:
 - Developer Tools
 - Hermetic Builds
 - Monorepo
-- Open-Source
+- Open Source
 - Remote Execution
 - Starlark
 ---

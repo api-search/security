@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/ref
 summary_line: http · 1 scheme
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Card Issuing
 - Banking
 - Payments

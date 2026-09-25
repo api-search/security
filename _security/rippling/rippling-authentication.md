@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: rippling-platform-api-openapi.yml
-  format: yaml
-  label: Rippling Platform API
-  slug: rippling-platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/openapi/rippling-platform-api-openapi.yml
 - filename: rippling-webhooks-asyncapi.yml
   format: yaml
   label: Rippling Webhooks API

@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/security/workato-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Agentic
+- AI Agents
 - API Management
 - Automation
 - B2B
@@ -119,4 +119,5 @@ tags:
 - iPaaS
 - Orchestration
 - Workflows
+- Workflow Automation
 ---

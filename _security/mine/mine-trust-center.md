@@ -137,7 +137,7 @@ tags:
 - Privacy Operations
 - Consent Management
 - AI Governance
-- Third-Party Risk
+- Third-Party Risk Management
 - Compliance
 - Security
 trust_url: https://www.mineos.ai/about-security

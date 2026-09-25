@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Microblogging
 - India
 - Consumer

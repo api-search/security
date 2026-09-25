@@ -16,8 +16,8 @@ layout: security
 method: probed
 name: Hopshop Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for HopShop Inc., probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: HopShop Inc.
+overview: 'Domain security posture for HopShop, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: HopShop
 provider_slug: hopshop-inc
 slug: hopshop-inc-domain-security
 source_filename: hopshop-inc-domain-security.yml

@@ -59,9 +59,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magichour/refs
 summary_line: http · 1 scheme
 tags:
 - AI Video
-- Image-Generation
+- Image Generation
 - Audio
 - Generative AI
 - Voice Cloning
 - Text-to-Video
+- A2A
 ---

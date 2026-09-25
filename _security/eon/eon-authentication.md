@@ -4,67 +4,67 @@ api_key_in: []
 api_specs:
 - filename: eon-accounts-api-openapi.yml
   format: yaml
-  label: Eon accounts API
+  label: Eon Accounts API
   slug: eon-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-accounts-api-openapi.yml
 - filename: eon-actionapprovals-api-openapi.yml
   format: yaml
-  label: Eon actionApprovals API
+  label: Eon Action Approvals API
   slug: eon-actionapprovals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-actionapprovals-api-openapi.yml
 - filename: eon-auth-api-openapi.yml
   format: yaml
-  label: Eon auth API
+  label: Eon Auth API
   slug: eon-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-auth-api-openapi.yml
 - filename: eon-backups-api-openapi.yml
   format: yaml
-  label: Eon backups API
+  label: Eon Backups API
   slug: eon-backups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-backups-api-openapi.yml
 - filename: eon-billing-api-openapi.yml
   format: yaml
-  label: Eon billing API
+  label: Eon Billing API
   slug: eon-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-billing-api-openapi.yml
 - filename: eon-dashboard-api-openapi.yml
   format: yaml
-  label: Eon dashboard API
+  label: Eon Dashboard API
   slug: eon-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-dashboard-api-openapi.yml
 - filename: eon-iam-api-openapi.yml
   format: yaml
-  label: Eon iam API
+  label: Eon Iam API
   slug: eon-iam-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-iam-api-openapi.yml
 - filename: eon-jobs-api-openapi.yml
   format: yaml
-  label: Eon jobs API
+  label: Eon Jobs API
   slug: eon-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-jobs-api-openapi.yml
 - filename: eon-resources-api-openapi.yml
   format: yaml
-  label: Eon resources API
+  label: Eon Resources API
   slug: eon-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-resources-api-openapi.yml
 - filename: eon-snapshots-api-openapi.yml
   format: yaml
-  label: Eon snapshots API
+  label: Eon Snapshots API
   slug: eon-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-snapshots-api-openapi.yml
 - filename: eon-vaults-api-openapi.yml
   format: yaml
-  label: Eon vaults API
+  label: Eon Vaults API
   slug: eon-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-vaults-api-openapi.yml

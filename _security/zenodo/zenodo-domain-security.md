@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: zenodo-oai-pmh-api-openapi.yml
-  format: yaml
-  label: Zenodo OAI-PMH API
-  slug: zenodo-oai-pmh-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/openapi/zenodo-oai-pmh-api-openapi.yml
 - filename: zenodo-access-api-openapi.yml
   format: yaml
   label: Zenodo Access API
@@ -206,4 +200,5 @@ tags:
 - Metadata
 - Harvesting
 - Research Data
+- Data Catalog
 ---

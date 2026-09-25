@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Hess Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Hess Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Hess Corporation
+overview: 'Domain security posture for Hess, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Hess
 provider_slug: hess-corporation
 slug: hess-corporation-domain-security
 source_filename: hess-corporation-domain-security.yml

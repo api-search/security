@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ERP
 - CRM
-- Open-Source
+- Open Source
 - Invoices
 - Contacts
 - Order

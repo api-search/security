@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: ada-end-users-api-openapi.yml
-  format: yaml
-  label: Ada End Users API
-  slug: ada-end-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
-- filename: ada-conversations-api-openapi.yml
-  format: yaml
-  label: Ada Conversations API
-  slug: ada-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
 - filename: ada-channels-api-openapi.yml
   format: yaml
   label: Ada Channels API
@@ -96,24 +84,6 @@ api_specs:
   slug: ada-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-variables-api-openapi.yml
-- filename: ada-knowledge-api-openapi.yml
-  format: yaml
-  label: Ada Knowledge API
-  slug: ada-knowledge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-api-openapi.yml
-- filename: ada-conversations-api-openapi.yml
-  format: yaml
-  label: Ada Conversations API
-  slug: ada-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
-- filename: ada-end-users-api-openapi.yml
-  format: yaml
-  label: Ada End Users API
-  slug: ada-end-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
 - filename: ada-audit-log-api-openapi.yml
   format: yaml
   label: Ada Audit Log API
@@ -185,6 +155,7 @@ tags:
 - Help Desk
 - CRM
 - Integration
-- Knowledge-Management
+- Knowledge Management
 - Data Export
+- Canada
 ---

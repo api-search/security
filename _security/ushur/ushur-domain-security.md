@@ -46,6 +46,6 @@ tags:
 - Automation
 - Healthcare
 - Insurance
-- Financial-Services
+- Financial Services
 - Agents
 ---

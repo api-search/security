@@ -2,7 +2,7 @@
 api_specs:
 - filename: stacks-ai-analytics-api-openapi.yml
   format: yaml
-  label: Stacks Ai analytics API
+  label: Stacks Ai Analytics API
   slug: stacks-ai-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-analytics-api-openapi.yml

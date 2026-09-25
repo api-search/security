@@ -82,7 +82,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/h
 summary_line: apiKey/http · 2 schemes
 tags:
 - Email Verification
-- Email Validation
 - Deliverability
 - Data Quality
 - Email

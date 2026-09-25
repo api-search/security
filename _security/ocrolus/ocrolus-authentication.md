@@ -154,6 +154,6 @@ tags:
 - Income Verification
 - Bank Statement Analysis
 - Mortgage
-- Machine-Learning
+- Machine Learning
 - Cash Flow Analytics
 ---

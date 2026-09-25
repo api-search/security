@@ -2,163 +2,163 @@
 api_specs:
 - filename: signoz-alerts-api-openapi.yml
   format: yaml
-  label: SigNoz alerts API
+  label: SigNoz Alerts API
   slug: signoz-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-alerts-api-openapi.yml
 - filename: signoz-authdomains-api-openapi.yml
   format: yaml
-  label: SigNoz authdomains API
+  label: SigNoz Authdomains API
   slug: signoz-authdomains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-authdomains-api-openapi.yml
 - filename: signoz-authz-api-openapi.yml
   format: yaml
-  label: SigNoz authz API
+  label: SigNoz Authz API
   slug: signoz-authz-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-authz-api-openapi.yml
 - filename: signoz-channels-api-openapi.yml
   format: yaml
-  label: SigNoz channels API
+  label: SigNoz Channels API
   slug: signoz-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-channels-api-openapi.yml
 - filename: signoz-dashboard-api-openapi.yml
   format: yaml
-  label: SigNoz dashboard API
+  label: SigNoz Dashboard API
   slug: signoz-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-dashboard-api-openapi.yml
 - filename: signoz-downtimeschedules-api-openapi.yml
   format: yaml
-  label: SigNoz downtimeschedules API
+  label: SigNoz Downtimeschedules API
   slug: signoz-downtimeschedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-downtimeschedules-api-openapi.yml
 - filename: signoz-features-api-openapi.yml
   format: yaml
-  label: SigNoz features API
+  label: SigNoz Features API
   slug: signoz-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-features-api-openapi.yml
 - filename: signoz-fields-api-openapi.yml
   format: yaml
-  label: SigNoz fields API
+  label: SigNoz Fields API
   slug: signoz-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-fields-api-openapi.yml
 - filename: signoz-gateway-api-openapi.yml
   format: yaml
-  label: SigNoz gateway API
+  label: SigNoz Gateway API
   slug: signoz-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-gateway-api-openapi.yml
 - filename: signoz-global-api-openapi.yml
   format: yaml
-  label: SigNoz global API
+  label: SigNoz Global API
   slug: signoz-global-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-global-api-openapi.yml
 - filename: signoz-health-api-openapi.yml
   format: yaml
-  label: SigNoz health API
+  label: SigNoz Health API
   slug: signoz-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-health-api-openapi.yml
 - filename: signoz-inframonitoring-api-openapi.yml
   format: yaml
-  label: SigNoz inframonitoring API
+  label: SigNoz Inframonitoring API
   slug: signoz-inframonitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-inframonitoring-api-openapi.yml
 - filename: signoz-llmpricingrules-api-openapi.yml
   format: yaml
-  label: SigNoz llmpricingrules API
+  label: SigNoz Llmpricingrules API
   slug: signoz-llmpricingrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-llmpricingrules-api-openapi.yml
 - filename: signoz-logs-api-openapi.yml
   format: yaml
-  label: SigNoz logs API
+  label: SigNoz Logs API
   slug: signoz-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-logs-api-openapi.yml
 - filename: signoz-metrics-api-openapi.yml
   format: yaml
-  label: SigNoz metrics API
+  label: SigNoz Metrics API
   slug: signoz-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-metrics-api-openapi.yml
 - filename: signoz-orgs-api-openapi.yml
   format: yaml
-  label: SigNoz orgs API
+  label: SigNoz Orgs API
   slug: signoz-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-orgs-api-openapi.yml
 - filename: signoz-preferences-api-openapi.yml
   format: yaml
-  label: SigNoz preferences API
+  label: SigNoz Preferences API
   slug: signoz-preferences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-preferences-api-openapi.yml
 - filename: signoz-querier-api-openapi.yml
   format: yaml
-  label: SigNoz querier API
+  label: SigNoz Querier API
   slug: signoz-querier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-querier-api-openapi.yml
 - filename: signoz-role-api-openapi.yml
   format: yaml
-  label: SigNoz role API
+  label: SigNoz Role API
   slug: signoz-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-role-api-openapi.yml
 - filename: signoz-routepolicies-api-openapi.yml
   format: yaml
-  label: SigNoz routepolicies API
+  label: SigNoz Routepolicies API
   slug: signoz-routepolicies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-routepolicies-api-openapi.yml
 - filename: signoz-rules-api-openapi.yml
   format: yaml
-  label: SigNoz rules API
+  label: SigNoz Rules API
   slug: signoz-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-rules-api-openapi.yml
 - filename: signoz-sessions-api-openapi.yml
   format: yaml
-  label: SigNoz sessions API
+  label: SigNoz Sessions API
   slug: signoz-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-sessions-api-openapi.yml
 - filename: signoz-spanmapper-api-openapi.yml
   format: yaml
-  label: SigNoz spanmapper API
+  label: SigNoz Spanmapper API
   slug: signoz-spanmapper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-spanmapper-api-openapi.yml
 - filename: signoz-tracedetail-api-openapi.yml
   format: yaml
-  label: SigNoz tracedetail API
+  label: SigNoz Tracedetail API
   slug: signoz-tracedetail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-tracedetail-api-openapi.yml
 - filename: signoz-traces-api-openapi.yml
   format: yaml
-  label: SigNoz traces API
+  label: SigNoz Traces API
   slug: signoz-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-traces-api-openapi.yml
 - filename: signoz-users-api-openapi.yml
   format: yaml
-  label: SigNoz users API
+  label: SigNoz Users API
   slug: signoz-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-users-api-openapi.yml
 - filename: signoz-zeus-api-openapi.yml
   format: yaml
-  label: SigNoz zeus API
+  label: SigNoz Zeus API
   slug: signoz-zeus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-zeus-api-openapi.yml
@@ -216,5 +216,6 @@ tags:
 - Metrics
 - Observability
 - OpenTelemetry
-- Open-Source
+- Open Source
+- Monitoring
 ---

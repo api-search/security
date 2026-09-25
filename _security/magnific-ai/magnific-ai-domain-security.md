@@ -50,8 +50,8 @@ tags:
 - Image Upscaling
 - Image Enhancement
 - Generative AI
-- Image-Generation
-- Computer-Vision
+- Image Generation
+- Computer Vision
 - Creative Tools
 - Relight
 - Style Transfer

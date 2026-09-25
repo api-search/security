@@ -4,127 +4,127 @@ api_key_in: []
 api_specs:
 - filename: whiplash-merchandising-bundle-items-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising bundle_items API
+  label: Whiplash Merchandising Bundle Items API
   slug: whiplash-merchandising-bundle-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-bundle-items-api-openapi.yml
 - filename: whiplash-merchandising-consumer-returns-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising consumer_returns API
+  label: Whiplash Merchandising Consumer Returns API
   slug: whiplash-merchandising-consumer-returns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-consumer-returns-api-openapi.yml
 - filename: whiplash-merchandising-customers-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising customers API
+  label: Whiplash Merchandising Customers API
   slug: whiplash-merchandising-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-customers-api-openapi.yml
 - filename: whiplash-merchandising-documents-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising documents API
+  label: Whiplash Merchandising Documents API
   slug: whiplash-merchandising-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-documents-api-openapi.yml
 - filename: whiplash-merchandising-items-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising items API
+  label: Whiplash Merchandising Items API
   slug: whiplash-merchandising-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-items-api-openapi.yml
 - filename: whiplash-merchandising-load-scacs-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising load_scacs API
+  label: Whiplash Merchandising Load Scacs API
   slug: whiplash-merchandising-load-scacs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-load-scacs-api-openapi.yml
 - filename: whiplash-merchandising-notification-events-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising notification_events API
+  label: Whiplash Merchandising Notification Events API
   slug: whiplash-merchandising-notification-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-notification-events-api-openapi.yml
 - filename: whiplash-merchandising-notification-subscriptions-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising notification_subscriptions API
+  label: Whiplash Merchandising Notification Subscriptions API
   slug: whiplash-merchandising-notification-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-notification-subscriptions-api-openapi.yml
 - filename: whiplash-merchandising-order-documents-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising order_documents API
+  label: Whiplash Merchandising Order Documents API
   slug: whiplash-merchandising-order-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-order-documents-api-openapi.yml
 - filename: whiplash-merchandising-order-items-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising order_items API
+  label: Whiplash Merchandising Order Items API
   slug: whiplash-merchandising-order-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-order-items-api-openapi.yml
 - filename: whiplash-merchandising-order-totes-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising order_totes API
+  label: Whiplash Merchandising Order Totes API
   slug: whiplash-merchandising-order-totes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-order-totes-api-openapi.yml
 - filename: whiplash-merchandising-orders-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising orders API
+  label: Whiplash Merchandising Orders API
   slug: whiplash-merchandising-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-orders-api-openapi.yml
 - filename: whiplash-merchandising-originators-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising originators API
+  label: Whiplash Merchandising Originators API
   slug: whiplash-merchandising-originators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-originators-api-openapi.yml
 - filename: whiplash-merchandising-packages-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising packages API
+  label: Whiplash Merchandising Packages API
   slug: whiplash-merchandising-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-packages-api-openapi.yml
 - filename: whiplash-merchandising-projects-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising projects API
+  label: Whiplash Merchandising Projects API
   slug: whiplash-merchandising-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-projects-api-openapi.yml
 - filename: whiplash-merchandising-scancodes-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising scancodes API
+  label: Whiplash Merchandising Scancodes API
   slug: whiplash-merchandising-scancodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-scancodes-api-openapi.yml
 - filename: whiplash-merchandising-shipnotice-items-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising shipnotice_items API
+  label: Whiplash Merchandising Shipnotice Items API
   slug: whiplash-merchandising-shipnotice-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-shipnotice-items-api-openapi.yml
 - filename: whiplash-merchandising-shipnotices-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising shipnotices API
+  label: Whiplash Merchandising Shipnotices API
   slug: whiplash-merchandising-shipnotices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-shipnotices-api-openapi.yml
 - filename: whiplash-merchandising-simulate-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising simulate API
+  label: Whiplash Merchandising Simulate API
   slug: whiplash-merchandising-simulate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-simulate-api-openapi.yml
 - filename: whiplash-merchandising-templates-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising templates API
+  label: Whiplash Merchandising Templates API
   slug: whiplash-merchandising-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-templates-api-openapi.yml
 - filename: whiplash-merchandising-wholesale-items-api-openapi.yml
   format: yaml
-  label: Whiplash Merchandising wholesale_items API
+  label: Whiplash Merchandising Wholesale Items API
   slug: whiplash-merchandising-wholesale-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/openapi/whiplash-merchandising-wholesale-items-api-openapi.yml

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Leadstate Incorporated Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Leadstate Incorporated, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Leadstate Incorporated
+overview: 'Domain security posture for Leadstate, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Leadstate
 provider_slug: leadstate-incorporated
 slug: leadstate-incorporated-domain-security
 source_filename: leadstate-incorporated-domain-security.yml
@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadstate-inco
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Real-Estate
-- Property Technology
+- Real Estate
+- PropTech
 - Artificial Intelligence
 - Generative Video
 - 3D Visualization

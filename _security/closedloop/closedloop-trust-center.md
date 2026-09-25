@@ -97,7 +97,7 @@ tags:
 - Customer Feedback
 - Voice of Customer
 - Product Management
-- Agentic AI
+- AI Agents
 - MCP
 - SaaS analytics
 - A2A

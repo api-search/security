@@ -2,7 +2,7 @@
 api_specs:
 - filename: humanmirror-fr-x402-openapi.yml
   format: yaml
-  label: HumanMirror x402 API
+  label: HumanMirror X402 API
   slug: x402
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-x402-openapi.yml

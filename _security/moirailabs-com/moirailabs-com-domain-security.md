@@ -53,5 +53,5 @@ tags:
 - AI Agents
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 ---

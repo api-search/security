@@ -40,7 +40,7 @@ tags:
 - Aquaculture
 - Shrimp Farming
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Mobile App
 - Agriculture Technology
 - Ecuador

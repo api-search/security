@@ -94,7 +94,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - Model Deployment
@@ -102,5 +102,5 @@ tags:
 - MLOps
 - GPU
 - Speech-to-Text
-- Image-Generation
+- Image Generation
 ---

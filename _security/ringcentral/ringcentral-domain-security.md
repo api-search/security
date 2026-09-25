@@ -1,29 +1,5 @@
 ---
 api_specs:
-- filename: ringcentral-sms-api-openapi.yml
-  format: yaml
-  label: RingCentral SMS API
-  slug: ringcentral-sms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/openapi/ringcentral-sms-api-openapi.yml
-- filename: ringcentral-fax-api-openapi.yml
-  format: yaml
-  label: RingCentral Fax API
-  slug: ringcentral-fax-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/openapi/ringcentral-fax-api-openapi.yml
-- filename: ringcentral-call-log-api-openapi.yml
-  format: yaml
-  label: RingCentral Call Log API
-  slug: ringcentral-call-log-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/openapi/ringcentral-call-log-api-openapi.yml
-- filename: ringcentral-presence-api-openapi.yml
-  format: yaml
-  label: RingCentral Presence API
-  slug: ringcentral-presence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/openapi/ringcentral-presence-api-openapi.yml
 - filename: ringcentral-subscriptions-asyncapi.yaml
   format: yaml
   label: RingCentral Webhooks and Subscriptions API
@@ -524,4 +500,6 @@ tags:
 - SMS
 - Messaging
 - Fax
+- Telecommunications
+- Real-Time
 ---

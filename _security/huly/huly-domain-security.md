@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Project Management
 - Collaboration
-- Open-Source
+- Open Source
 - Productivity
 - SDK
 ---

@@ -11,8 +11,8 @@ method: derived
 name: Usadata Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: USADATA, Inc. secures its APIs with custom-soap-body-credential across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: USADATA, Inc.
+overview: USADATA secures its APIs with custom-soap-body-credential across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: USADATA
 provider_slug: usadata-inc
 scheme_count: 1
 schemes:

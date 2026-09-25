@@ -150,7 +150,7 @@ summary_line: ISO/IEC 27001, ISAE 3000 (Revised) — Sanctions Assurance, Dow Jo
 tags:
 - Business Data
 - Compliance
-- Financial
+- Finance
 - Market Data
 - News
 - Risk and Compliance

@@ -38,7 +38,7 @@ tags:
 - COI
 - Risk Management
 - Construction
-- Real-Estate
+- Real Estate
 - Property Management
 - Insurtech
 ---

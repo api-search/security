@@ -8,8 +8,8 @@ kind: trust-center
 layout: security
 name: Cpower Inc Trust Center
 name_suffix: Trust Center
-overview: CPower, Inc. maintains a public trust center documenting ISO 27001:2013 and SOC 2 compliance.
-provider_name: CPower, Inc.
+overview: CPower maintains a public trust center documenting ISO 27001:2013 and SOC 2 compliance.
+provider_name: CPower
 provider_slug: cpower-inc
 slug: cpower-inc-trust-center
 source_filename: cpower-inc-trust-center.yml

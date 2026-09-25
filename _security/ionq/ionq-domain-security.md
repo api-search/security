@@ -2,13 +2,13 @@
 api_specs:
 - filename: ionq-backends-api-openapi.yml
   format: yaml
-  label: IonQ backends API
+  label: IonQ Backends API
   slug: ionq-backends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-backends-api-openapi.yml
 - filename: ionq-characterizations-api-openapi.yml
   format: yaml
-  label: IonQ characterizations API
+  label: IonQ Characterizations API
   slug: ionq-characterizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-characterizations-api-openapi.yml
@@ -26,13 +26,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-sessions-api-openapi.yml
 - filename: ionq-usage-api-openapi.yml
   format: yaml
-  label: IonQ usage API
+  label: IonQ Usage API
   slug: ionq-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-usage-api-openapi.yml
 - filename: ionq-whoami-api-openapi.yml
   format: yaml
-  label: IonQ whoami API
+  label: IonQ Whoami API
   slug: ionq-whoami-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-whoami-api-openapi.yml

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubervu/refs/he
 summary_line: TLSv1.2 · HSTS · DNSSEC
 tags:
 - Company
-- Social-Media
+- Social Media
 - Analytics
 - Monitoring
 - Acquired

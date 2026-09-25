@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Renotag Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Renotag, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Renotag, Inc.
+overview: 'Domain security posture for Renotag, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Renotag
 provider_slug: renotag-inc
 slug: renotag-inc-domain-security
 source_filename: renotag-inc-domain-security.yml

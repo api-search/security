@@ -34,9 +34,10 @@ tags:
 - OpenAPI
 - SDK
 - Developer Tools
-- Open-Source
-- JSON-Schema
+- Open Source
+- JSON Schema
 - Client Libraries
 - API Design
 - OpenTelemetry
+- SDK Generation
 ---

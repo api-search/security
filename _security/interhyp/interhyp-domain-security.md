@@ -2,49 +2,49 @@
 api_specs:
 - filename: interhyp-commands-api-openapi.yml
   format: yaml
-  label: Interhyp commands API
+  label: Interhyp Commands API
   slug: interhyp-commands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-commands-api-openapi.yml
 - filename: interhyp-documents-api-openapi.yml
   format: yaml
-  label: Interhyp documents API
+  label: Interhyp Documents API
   slug: interhyp-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-documents-api-openapi.yml
 - filename: interhyp-financing-application-api-openapi.yml
   format: yaml
-  label: Interhyp financing-application API
+  label: Interhyp Financing Application API
   slug: interhyp-financing-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-financing-application-api-openapi.yml
 - filename: interhyp-info-api-openapi.yml
   format: yaml
-  label: Interhyp info API
+  label: Interhyp Info API
   slug: interhyp-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-info-api-openapi.yml
 - filename: interhyp-logbook-api-openapi.yml
   format: yaml
-  label: Interhyp logbook API
+  label: Interhyp Logbook API
   slug: interhyp-logbook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-logbook-api-openapi.yml
 - filename: interhyp-pre-submission-checks-api-openapi.yml
   format: yaml
-  label: Interhyp pre-submission-checks API
+  label: Interhyp Pre Submission Checks API
   slug: interhyp-pre-submission-checks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-pre-submission-checks-api-openapi.yml
 - filename: interhyp-protocol-api-openapi.yml
   format: yaml
-  label: Interhyp protocol API
+  label: Interhyp Protocol API
   slug: interhyp-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-protocol-api-openapi.yml
 - filename: interhyp-submissions-api-openapi.yml
   format: yaml
-  label: Interhyp submissions API
+  label: Interhyp Submissions API
   slug: interhyp-submissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/openapi/interhyp-submissions-api-openapi.yml
@@ -100,7 +100,7 @@ tags:
 - Mortgage
 - Lending
 - Baufinanzierung
-- Real-Estate
+- Real Estate
 - Banking
 - Germany
 - API-First

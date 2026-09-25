@@ -36,7 +36,7 @@ tags:
 - Contextual Advertising
 - Content Moderation
 - Natural Language Processing
-- Machine-Learning
+- Machine Learning
 - Marketing Technology
 - Privacy
 ---

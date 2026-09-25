@@ -33,6 +33,6 @@ tags:
 - Hospitality
 - Technology
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Company
 ---

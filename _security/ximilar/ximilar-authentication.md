@@ -36,11 +36,11 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: https://docs.xi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/authentication/ximilar-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Computer-Vision
+- Computer Vision
 - Image Recognition
 - Visual Search
 - Image Tagging
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - OCR
 - Collectibles

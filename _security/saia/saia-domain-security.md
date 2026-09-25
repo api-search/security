@@ -27,8 +27,8 @@ layout: security
 method: probed
 name: Saia Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Saia Inc, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Saia Inc
+overview: 'Domain security posture for Saia, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Saia
 provider_slug: saia
 slug: saia-domain-security
 source_filename: saia-domain-security.yml

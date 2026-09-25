@@ -86,5 +86,6 @@ tags:
 - Fundamentals
 - Financial Statements
 - Historical
+- Real-Time
 trust_url: https://site.financialmodelingprep.com/trust
 ---

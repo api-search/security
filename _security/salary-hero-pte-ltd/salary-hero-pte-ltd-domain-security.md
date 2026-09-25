@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Salary Hero Pte Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SALARY HERO PTE. LTD, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: SALARY HERO PTE. LTD
+overview: 'Domain security posture for SALARY HERO, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: SALARY HERO
 provider_slug: salary-hero-pte-ltd
 slug: salary-hero-pte-ltd-domain-security
 source_filename: salary-hero-pte-ltd-domain-security.yml
@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salary-hero-pt
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Earned Wage Access
 - Financial Wellness

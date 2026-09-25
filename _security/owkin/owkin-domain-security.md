@@ -33,12 +33,12 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Biotech
+- Biotechnology
 - Drug Discovery
 - Healthcare
-- Machine-Learning
+- Machine Learning
 - Precision Medicine
 - Life Sciences
 - Federated Learning
-- Agentic AI
+- AI Agents
 ---

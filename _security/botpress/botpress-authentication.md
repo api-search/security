@@ -68,9 +68,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Conversational
+- Conversational AI
 - Chat
-- Open-Source
+- Open Source
 - Bot Builder
 - LLM
 ---

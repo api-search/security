@@ -36,6 +36,6 @@ tags:
 - Marketing Technology
 - Personalization
 - Advertising
-- Machine-Learning
+- Machine Learning
 - Austin
 ---

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Kaizntree Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Kaizntree Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Kaizntree Inc.
+overview: 'Domain security posture for Kaizntree, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Kaizntree
 provider_slug: kaizntree-inc
 slug: kaizntree-inc-domain-security
 source_filename: kaizntree-inc-domain-security.yml

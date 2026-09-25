@@ -70,7 +70,7 @@ tags:
 - Database
 - Time Series
 - SQL
-- Open-Source
+- Open Source
 - Performance
 - ILP
 - PostgreSQL

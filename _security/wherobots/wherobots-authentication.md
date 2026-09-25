@@ -5,43 +5,43 @@ api_key_in:
 api_specs:
 - filename: wherobots-audit-log-api-openapi.yml
   format: yaml
-  label: Wherobots audit-log API
+  label: Wherobots Audit Log API
   slug: wherobots-audit-log-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-audit-log-api-openapi.yml
 - filename: wherobots-catalogs-api-openapi.yml
   format: yaml
-  label: Wherobots catalogs API
+  label: Wherobots Catalogs API
   slug: wherobots-catalogs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-catalogs-api-openapi.yml
 - filename: wherobots-cloud-connections-api-openapi.yml
   format: yaml
-  label: Wherobots cloud-connections API
+  label: Wherobots Cloud Connections API
   slug: wherobots-cloud-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-cloud-connections-api-openapi.yml
 - filename: wherobots-coupon-api-openapi.yml
   format: yaml
-  label: Wherobots coupon API
+  label: Wherobots Coupon API
   slug: wherobots-coupon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-coupon-api-openapi.yml
 - filename: wherobots-environment-override-preset-api-openapi.yml
   format: yaml
-  label: Wherobots environment-override--preset API
+  label: Wherobots Environment Override Preset API
   slug: wherobots-environment-override-preset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-environment-override-preset-api-openapi.yml
 - filename: wherobots-environment-preset-api-openapi.yml
   format: yaml
-  label: Wherobots environment-preset API
+  label: Wherobots Environment Preset API
   slug: wherobots-environment-preset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-environment-preset-api-openapi.yml
 - filename: wherobots-files-api-openapi.yml
   format: yaml
-  label: Wherobots files API
+  label: Wherobots Files API
   slug: wherobots-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-files-api-openapi.yml
@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-flags-api-openapi.yml
 - filename: wherobots-foreign-catalog-api-openapi.yml
   format: yaml
-  label: Wherobots foreign-catalog API
+  label: Wherobots Foreign Catalog API
   slug: wherobots-foreign-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-foreign-catalog-api-openapi.yml
@@ -71,133 +71,133 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-is-super-user-api-openapi.yml
 - filename: wherobots-jupyter-lab-api-openapi.yml
   format: yaml
-  label: Wherobots jupyter_lab API
+  label: Wherobots Jupyter Lab API
   slug: wherobots-jupyter-lab-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-jupyter-lab-api-openapi.yml
 - filename: wherobots-management-api-openapi.yml
   format: yaml
-  label: Wherobots management API
+  label: Wherobots Management API
   slug: wherobots-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-management-api-openapi.yml
 - filename: wherobots-me-api-openapi.yml
   format: yaml
-  label: Wherobots me API
+  label: Wherobots Me API
   slug: wherobots-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-me-api-openapi.yml
 - filename: wherobots-orb-api-openapi.yml
   format: yaml
-  label: Wherobots orb API
+  label: Wherobots Orb API
   slug: wherobots-orb-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-orb-api-openapi.yml
 - filename: wherobots-organization-api-openapi.yml
   format: yaml
-  label: Wherobots organization API
+  label: Wherobots Organization API
   slug: wherobots-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-organization-api-openapi.yml
 - filename: wherobots-quota-api-openapi.yml
   format: yaml
-  label: Wherobots quota API
+  label: Wherobots Quota API
   slug: wherobots-quota-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-quota-api-openapi.yml
 - filename: wherobots-rasterflow-api-openapi.yml
   format: yaml
-  label: Wherobots rasterflow API
+  label: Wherobots Rasterflow API
   slug: wherobots-rasterflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-rasterflow-api-openapi.yml
 - filename: wherobots-runs-api-openapi.yml
   format: yaml
-  label: Wherobots runs API
+  label: Wherobots Runs API
   slug: wherobots-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-runs-api-openapi.yml
 - filename: wherobots-service-api-openapi.yml
   format: yaml
-  label: Wherobots service API
+  label: Wherobots Service API
   slug: wherobots-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-service-api-openapi.yml
 - filename: wherobots-service-token-endpoint-api-openapi.yml
   format: yaml
-  label: Wherobots service_token_endpoint API
+  label: Wherobots Service Token Endpoint API
   slug: wherobots-service-token-endpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-service-token-endpoint-api-openapi.yml
 - filename: wherobots-solution-notebooks-api-openapi.yml
   format: yaml
-  label: Wherobots solution_notebooks API
+  label: Wherobots Solution Notebooks API
   slug: wherobots-solution-notebooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-solution-notebooks-api-openapi.yml
 - filename: wherobots-sql-api-openapi.yml
   format: yaml
-  label: Wherobots sql API
+  label: Wherobots Sql API
   slug: wherobots-sql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-sql-api-openapi.yml
 - filename: wherobots-storage-api-openapi.yml
   format: yaml
-  label: Wherobots storage API
+  label: Wherobots Storage API
   slug: wherobots-storage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-storage-api-openapi.yml
 - filename: wherobots-stripe-api-openapi.yml
   format: yaml
-  label: Wherobots stripe API
+  label: Wherobots Stripe API
   slug: wherobots-stripe-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-stripe-api-openapi.yml
 - filename: wherobots-subscriptions-api-openapi.yml
   format: yaml
-  label: Wherobots subscriptions API
+  label: Wherobots Subscriptions API
   slug: wherobots-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-subscriptions-api-openapi.yml
 - filename: wherobots-superuser-api-openapi.yml
   format: yaml
-  label: Wherobots superuser API
+  label: Wherobots Superuser API
   slug: wherobots-superuser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-superuser-api-openapi.yml
 - filename: wherobots-union-executions-api-openapi.yml
   format: yaml
-  label: Wherobots union-executions API
+  label: Wherobots Union Executions API
   slug: wherobots-union-executions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-union-executions-api-openapi.yml
 - filename: wherobots-usage-api-openapi.yml
   format: yaml
-  label: Wherobots usage API
+  label: Wherobots Usage API
   slug: wherobots-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-usage-api-openapi.yml
 - filename: wherobots-user-management-api-openapi.yml
   format: yaml
-  label: Wherobots user-management API
+  label: Wherobots User Management API
   slug: wherobots-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-user-management-api-openapi.yml
 - filename: wherobots-users-api-openapi.yml
   format: yaml
-  label: Wherobots users API
+  label: Wherobots Users API
   slug: wherobots-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-users-api-openapi.yml
 - filename: wherobots-webhook-api-openapi.yml
   format: yaml
-  label: Wherobots webhook API
+  label: Wherobots Webhook API
   slug: wherobots-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-webhook-api-openapi.yml
 - filename: wherobots-workos-api-openapi.yml
   format: yaml
-  label: Wherobots workos API
+  label: Wherobots Workos API
   slug: wherobots-workos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/openapi/wherobots-workos-api-openapi.yml

@@ -43,10 +43,11 @@ tags:
 - Monitoring Reporting Verification
 - Satellite Imagery
 - Remote Sensing
-- Machine-Learning
+- Machine Learning
 - Biomass Estimation
 - Climate Tech
 - Sustainability
 - ESG
 - Voluntary Carbon Market
+- Climate
 ---

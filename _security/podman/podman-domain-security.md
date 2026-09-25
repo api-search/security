@@ -2,13 +2,13 @@
 api_specs:
 - filename: podman-artifacts-api-openapi.yml
   format: yaml
-  label: Podman artifacts API
+  label: Podman Artifacts API
   slug: podman-artifacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-artifacts-api-openapi.yml
 - filename: podman-containers-api-openapi.yml
   format: yaml
-  label: Podman containers API
+  label: Podman Containers API
   slug: podman-containers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-containers-api-openapi.yml
@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-containers-compat-api-openapi.yml
 - filename: podman-exec-api-openapi.yml
   format: yaml
-  label: Podman exec API
+  label: Podman Exec API
   slug: podman-exec-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-exec-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-exec-compat-api-openapi.yml
 - filename: podman-images-api-openapi.yml
   format: yaml
-  label: Podman images API
+  label: Podman Images API
   slug: podman-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-images-api-openapi.yml
@@ -44,13 +44,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-images-compat-api-openapi.yml
 - filename: podman-manifests-api-openapi.yml
   format: yaml
-  label: Podman manifests API
+  label: Podman Manifests API
   slug: podman-manifests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-manifests-api-openapi.yml
 - filename: podman-networks-api-openapi.yml
   format: yaml
-  label: Podman networks API
+  label: Podman Networks API
   slug: podman-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-networks-api-openapi.yml
@@ -62,19 +62,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-networks-compat-api-openapi.yml
 - filename: podman-pods-api-openapi.yml
   format: yaml
-  label: Podman pods API
+  label: Podman Pods API
   slug: podman-pods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-pods-api-openapi.yml
 - filename: podman-quadlets-api-openapi.yml
   format: yaml
-  label: Podman quadlets API
+  label: Podman Quadlets API
   slug: podman-quadlets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-quadlets-api-openapi.yml
 - filename: podman-secrets-api-openapi.yml
   format: yaml
-  label: Podman secrets API
+  label: Podman Secrets API
   slug: podman-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-secrets-api-openapi.yml
@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-secrets-compat-api-openapi.yml
 - filename: podman-system-api-openapi.yml
   format: yaml
-  label: Podman system API
+  label: Podman System API
   slug: podman-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-system-api-openapi.yml
@@ -98,7 +98,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-system-compat-api-openapi.yml
 - filename: podman-volumes-api-openapi.yml
   format: yaml
-  label: Podman volumes API
+  label: Podman Volumes API
   slug: podman-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-volumes-api-openapi.yml
@@ -148,5 +148,5 @@ tags:
 - Containers
 - DevOps
 - OCI
-- Open-Source
+- Open Source
 ---

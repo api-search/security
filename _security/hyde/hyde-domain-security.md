@@ -34,7 +34,7 @@ tags:
 - Company
 - Ai Apps
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reasoning Models
 - Enterprise AI
 - Model Training

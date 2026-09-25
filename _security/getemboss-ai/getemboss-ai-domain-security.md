@@ -58,7 +58,7 @@ tags:
 - Form Filling
 - Fax
 - Data Extraction
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - x402

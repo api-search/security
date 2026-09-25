@@ -442,5 +442,6 @@ tags:
 - Identity Verification
 - Webhook
 - Cloud Communications
+- Communications
 trust_url: https://www.8x8.com/why-8x8/security-and-compliance
 ---

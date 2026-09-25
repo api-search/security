@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: redefine-meat-wc-store-v1-api-openapi.yml
-  format: yaml
-  label: Redefine Meat Wc/store/v1 API
-  slug: redefine-meat-wc-store-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redefine-meat/refs/heads/main/openapi/redefine-meat-wc-store-v1-api-openapi.yml
-- filename: redefine-meat-wp-v2-api-openapi.yml
-  format: yaml
-  label: Redefine Meat Wp/v2 API
-  slug: redefine-meat-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redefine-meat/refs/heads/main/openapi/redefine-meat-wp-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []

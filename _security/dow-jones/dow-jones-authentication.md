@@ -363,7 +363,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: openapi/dow-jon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/authentication/dow-jones-authentication.yml
 summary_line: oauth2/http bearer/apiKey · 5 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - News
 - Publishing

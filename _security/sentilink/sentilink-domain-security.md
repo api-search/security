@@ -53,7 +53,7 @@ tags:
 - Synthetic Identity
 - Account Takeover
 - First-Party Fraud
-- Financial-Services
+- Financial Services
 - Risk Scoring
 - Fintech
 - KYC

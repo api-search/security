@@ -38,5 +38,5 @@ tags:
 - Order Fulfillment
 - Piece Picking
 - Logistics
-- Machine-Learning
+- Machine Learning
 ---

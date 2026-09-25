@@ -5,49 +5,49 @@ api_key_in:
 api_specs:
 - filename: mem0-agents-api-openapi.yml
   format: yaml
-  label: Mem0 agents API
+  label: Mem0 Agents API
   slug: mem0-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-agents-api-openapi.yml
 - filename: mem0-apps-api-openapi.yml
   format: yaml
-  label: Mem0 apps API
+  label: Mem0 Apps API
   slug: mem0-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-apps-api-openapi.yml
 - filename: mem0-entities-api-openapi.yml
   format: yaml
-  label: Mem0 entities API
+  label: Mem0 Entities API
   slug: mem0-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-entities-api-openapi.yml
 - filename: mem0-events-api-openapi.yml
   format: yaml
-  label: Mem0 events API
+  label: Mem0 Events API
   slug: mem0-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-events-api-openapi.yml
 - filename: mem0-exports-api-openapi.yml
   format: yaml
-  label: Mem0 exports API
+  label: Mem0 Exports API
   slug: mem0-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-exports-api-openapi.yml
 - filename: mem0-feedback-api-openapi.yml
   format: yaml
-  label: Mem0 feedback API
+  label: Mem0 Feedback API
   slug: mem0-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-feedback-api-openapi.yml
 - filename: mem0-memories-api-openapi.yml
   format: yaml
-  label: Mem0 memories API
+  label: Mem0 Memories API
   slug: mem0-memories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-memories-api-openapi.yml
 - filename: mem0-organizations-api-openapi.yml
   format: yaml
-  label: Mem0 organizations API
+  label: Mem0 Organizations API
   slug: mem0-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-organizations-api-openapi.yml
@@ -59,31 +59,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-project-api-openapi.yml
 - filename: mem0-projects-api-openapi.yml
   format: yaml
-  label: Mem0 projects API
+  label: Mem0 Projects API
   slug: mem0-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-projects-api-openapi.yml
 - filename: mem0-runs-api-openapi.yml
   format: yaml
-  label: Mem0 runs API
+  label: Mem0 Runs API
   slug: mem0-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-runs-api-openapi.yml
 - filename: mem0-stats-api-openapi.yml
   format: yaml
-  label: Mem0 stats API
+  label: Mem0 Stats API
   slug: mem0-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-stats-api-openapi.yml
 - filename: mem0-users-api-openapi.yml
   format: yaml
-  label: Mem0 users API
+  label: Mem0 Users API
   slug: mem0-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-users-api-openapi.yml
 - filename: mem0-webhooks-api-openapi.yml
   format: yaml
-  label: Mem0 webhooks API
+  label: Mem0 Webhooks API
   slug: mem0-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-webhooks-api-openapi.yml
@@ -128,6 +128,6 @@ tags:
 - CrewAI
 - AutoGen
 - LlamaIndex
-- Open-Source
+- Open Source
 - Infrastructure
 ---

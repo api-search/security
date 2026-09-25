@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/kno2-att
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/authentication/kno2-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Healthcare Interoperability
+- Interoperability
 - Clinical Records
 - Health Information Exchange
 - Direct Secure Messaging

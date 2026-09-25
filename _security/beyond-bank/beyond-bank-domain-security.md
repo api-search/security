@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/security/beyond-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-chain-agnostic-api-openapi.yml
 - filename: blockaid-cosigner-api-openapi.yml
   format: yaml
-  label: Blockaid cosigner API
+  label: Blockaid Cosigner API
   slug: blockaid-cosigner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-cosigner-api-openapi.yml
@@ -59,7 +59,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-external-api-integrations-api-openapi.yml
 - filename: blockaid-external-api-openapi.yml
   format: yaml
-  label: Blockaid external API
+  label: Blockaid External API
   slug: blockaid-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-external-api-openapi.yml

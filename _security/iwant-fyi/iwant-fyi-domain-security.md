@@ -51,5 +51,5 @@ tags:
 - A2A
 - Open Protocol
 - x402
-- agent-native
+- Agent-Native
 ---

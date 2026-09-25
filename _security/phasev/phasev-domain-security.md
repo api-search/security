@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Clinical Trials
 - Biopharma
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Healthcare
 - Drug Development

@@ -104,5 +104,5 @@ tags:
 - No Public API
 - Design Systems
 - Agent Skills
-- Open-Source
+- Open Source
 ---

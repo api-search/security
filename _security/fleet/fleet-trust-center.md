@@ -33,7 +33,7 @@ tags:
 - Endpoint Security
 - Vulnerability Management
 - osquery
-- Open-Source
+- Open Source
 - DevOps
 trust_url: https://trust.fleetdm.com/
 ---

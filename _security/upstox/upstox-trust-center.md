@@ -156,7 +156,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/he
 summary_line: ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO 22301:2019
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Stock Trading
 - Brokerage
 - Market Data

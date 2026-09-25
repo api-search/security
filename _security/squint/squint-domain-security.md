@@ -36,6 +36,6 @@ tags:
 - Industrial AI
 - Frontline Operations
 - Augmented Reality
-- Knowledge-Management
-- Workflow-Automation
+- Knowledge Management
+- Workflow Automation
 ---

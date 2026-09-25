@@ -38,7 +38,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine Vision
-- Computer-Vision
+- Computer Vision
 - Manufacturing
 - Quality Inspection
 - Industrial Automation

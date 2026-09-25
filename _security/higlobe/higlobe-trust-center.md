@@ -25,7 +25,7 @@ tags:
 - Money Transfer
 - Remittances
 - Fintech
-- Financial-Services
+- Financial Services
 - Freelancers
 - Receiving Accounts
 trust_url: https://higlobe.com/security

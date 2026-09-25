@@ -114,5 +114,5 @@ tags:
 - MCP
 - A2A
 - GitHub Actions
-- agent-native
+- Agent-Native
 ---

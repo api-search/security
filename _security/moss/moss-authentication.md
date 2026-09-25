@@ -40,4 +40,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moss/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Company
+- A2A
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics
 - Energy
-- Financial-Services
+- Financial Services
 - Information Services
 - Legacy
 ---

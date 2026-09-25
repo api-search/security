@@ -434,6 +434,6 @@ tags:
 - DMN
 - Process Automation
 - Case Management
-- Open-Source
+- Open Source
 - REST API
 ---

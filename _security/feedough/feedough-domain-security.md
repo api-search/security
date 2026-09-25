@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: Feedough WordPress REST API
-  slug: wordpress-rest-api
-  spec_type: OpenAPI
-  url: https://www.feedough.com/wp-json/
 description: ''
 domains:
 - caa:

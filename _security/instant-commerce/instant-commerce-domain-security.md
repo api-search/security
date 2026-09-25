@@ -42,5 +42,5 @@ tags:
 - Conversion Rate Optimization
 - Developer Tools
 - MCP
-- agent-native
+- Agent-Native
 ---

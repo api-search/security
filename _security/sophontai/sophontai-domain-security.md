@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Medical Imaging
 - Foundation Models
-- Open-Source
+- Open Source
 - Research
 ---

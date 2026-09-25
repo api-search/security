@@ -110,4 +110,5 @@ tags:
 - Payments
 - Reward Distribution
 - Prepaid Cards
+- Loyalty
 ---

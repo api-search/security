@@ -94,4 +94,5 @@ tags:
 - Places
 - Routing
 - Solar
+- Geospatial
 ---

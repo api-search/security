@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-credits-api-openapi.yml
 - filename: mindlogic-gateway-api-openapi.yml
   format: yaml
-  label: Mindlogic gateway API
+  label: Mindlogic Gateway API
   slug: mindlogic-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-gateway-api-openapi.yml

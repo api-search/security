@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Eas Innovations Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EAS Innovations Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: EAS Innovations Inc
+overview: 'Domain security posture for ELEV8, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: ELEV8
 provider_slug: eas-innovations-inc
 slug: eas-innovations-inc-domain-security
 source_filename: eas-innovations-inc-domain-security.yml

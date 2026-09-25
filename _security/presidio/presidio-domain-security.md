@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Presidio Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Presidio Inc, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Presidio Inc
+overview: 'Domain security posture for Presidio, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Presidio
 provider_slug: presidio
 slug: presidio-domain-security
 source_filename: presidio-domain-security.yml

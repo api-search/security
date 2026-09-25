@@ -170,13 +170,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-any
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - RPA
-- Robotic Process Automation
 - Intelligent Automation
 - Agentic Process Automation
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Document Automation
 - Process Orchestration
 - Enterprise Automation
 - Bots
+- A2A
 ---

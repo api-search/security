@@ -92,9 +92,9 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/transuni
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/authentication/transunion-authentication.yml
 summary_line: apiKey/ip-allowlist/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Credit Reporting
-- Risk
+- Risk Management
 - Identity
 - Fraud
 - Marketing

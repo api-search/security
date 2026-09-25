@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Eye Tracking
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Hardware
 - Virtual Reality

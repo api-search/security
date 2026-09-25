@@ -93,7 +93,7 @@ summary_line: 4 schemes
 tags:
 - Enterprise API
 - Financial Analytics
-- Financial-Services
+- Financial Services
 - Market Data
 - Real-Time Data
 ---

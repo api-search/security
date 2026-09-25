@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://cloud-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/authentication/onetick-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Tick Data
 - Historical Data

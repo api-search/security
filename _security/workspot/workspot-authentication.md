@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: workspot-apis-api-openapi.yml
   format: yaml
-  label: Workspot AP Is API
+  label: Workspot APIs API
   slug: workspot-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-apis-api-openapi.yml

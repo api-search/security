@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-client-api-openapi.yml
 - filename: sequel-company-api-openapi.yml
   format: yaml
-  label: Sequel company API
+  label: Sequel Company API
   slug: sequel-company-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-api-openapi.yml
@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-overrides-api-openapi.yml
 - filename: sequel-event-api-openapi.yml
   format: yaml
-  label: Sequel event API
+  label: Sequel Event API
   slug: sequel-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-api-openapi.yml
@@ -62,13 +62,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-media-api-openapi.yml
 - filename: sequel-networking-api-openapi.yml
   format: yaml
-  label: Sequel networking API
+  label: Sequel Networking API
   slug: sequel-networking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-networking-api-openapi.yml
 - filename: sequel-platform-api-openapi.yml
   format: yaml
-  label: Sequel platform API
+  label: Sequel Platform API
   slug: sequel-platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-platform-api-openapi.yml

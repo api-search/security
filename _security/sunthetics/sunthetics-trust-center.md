@@ -21,7 +21,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Chemistry
 - Research and Development
 - Design of Experiments

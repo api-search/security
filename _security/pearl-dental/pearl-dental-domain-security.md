@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Dental
-- Computer-Vision
+- Computer Vision
 - Radiology
 - Medical Imaging
 - Pathology Detection

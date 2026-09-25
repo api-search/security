@@ -47,5 +47,5 @@ tags:
 - Rent Collection
 - Lease Agreements
 - Maintenance Requests
-- Real-Estate
+- Real Estate
 ---

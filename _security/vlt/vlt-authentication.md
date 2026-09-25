@@ -50,5 +50,5 @@ tags:
 - Serverless
 - npm
 - Dependency Management
-- Open-Source
+- Open Source
 ---

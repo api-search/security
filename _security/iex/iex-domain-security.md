@@ -38,6 +38,6 @@ tags:
 - Trading
 - Stocks
 - Options
-- Financial-Services
+- Financial Services
 - Market Infrastructure
 ---

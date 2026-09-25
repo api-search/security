@@ -51,7 +51,6 @@ tags:
 - Identity and Access Management
 - Secrets Management
 - AI Agents
-- Agentic AI
 - Kubernetes
 - Cloud Security
 - Workload Identity

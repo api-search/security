@@ -324,4 +324,5 @@ tags:
 - E-Commerce
 - Webhook
 - Marketing Analytics
+- Email
 ---

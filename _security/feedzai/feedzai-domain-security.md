@@ -41,9 +41,9 @@ tags:
 - Fraud Prevention
 - Financial Crime
 - Risk Management
-- Anti-Money Laundering
+- AML
 - RiskOps
-- Machine-Learning
+- Machine Learning
 - Payments
 - Transaction Monitoring
 - KYC

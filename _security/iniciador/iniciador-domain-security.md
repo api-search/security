@@ -58,5 +58,5 @@ tags:
 - Brazil
 - FAPI
 - Authentication
-- Financial-Services
+- Financial Services
 ---

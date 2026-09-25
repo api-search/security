@@ -41,7 +41,7 @@ tags:
 - People Data
 - Contact Enrichment
 - Email Finder
-- Email Validation
+- Email Verification
 - Phone Lookup
 - corporate registries
 - KYB / compliance
@@ -51,4 +51,5 @@ tags:
 - LinkedIn data
 - MCP
 - AI Agents
+- A2A
 ---

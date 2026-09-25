@@ -73,7 +73,7 @@ tags:
 - Semiconductors
 - Power Management
 - Electronic Components
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Automotive
 - Hardware

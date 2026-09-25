@@ -37,8 +37,8 @@ tags:
 - ETL
 - Data Pipeline
 - Python
-- Open-Source
+- Open Source
 - Data Integration
-- Agentic
+- AI Agents
 - MCP
 ---

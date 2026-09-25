@@ -244,7 +244,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Generative AI
 - Sovereign AI

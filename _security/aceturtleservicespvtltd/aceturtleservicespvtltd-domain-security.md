@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Aceturtleservicespvtltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Ace Turtle Services Pvt Ltd, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Ace Turtle Services Pvt Ltd
+overview: 'Domain security posture for Ace Turtle Services, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Ace Turtle Services
 provider_slug: aceturtleservicespvtltd
 slug: aceturtleservicespvtltd-domain-security
 source_filename: aceturtleservicespvtltd-domain-security.yml

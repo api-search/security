@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-canbus-api-openapi.yml
 - filename: polymath-filesystem-api-openapi.yml
   format: yaml
-  label: Polymath Robotics filesystem API
+  label: Polymath Robotics Filesystem API
   slug: polymath-filesystem-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-filesystem-api-openapi.yml
@@ -32,13 +32,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-media-api-openapi.yml
 - filename: polymath-ros-api-openapi.yml
   format: yaml
-  label: Polymath Robotics ros API
+  label: Polymath Robotics Ros API
   slug: polymath-ros-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-ros-api-openapi.yml
 - filename: polymath-systemd-api-openapi.yml
   format: yaml
-  label: Polymath Robotics systemd API
+  label: Polymath Robotics Systemd API
   slug: polymath-systemd-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-systemd-api-openapi.yml
@@ -111,7 +111,7 @@ tags:
 - Autonomy
 - Industrial Vehicles
 - Off-Highway
-- Machine-Learning
+- Machine Learning
 - Simulation
 - Teleoperation
 - Automation

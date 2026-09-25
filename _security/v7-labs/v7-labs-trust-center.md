@@ -63,6 +63,6 @@ tags:
 - Data Labeling
 - Annotation
 - Document AI
-- Computer-Vision
+- Computer Vision
 trust_url: https://trust.v7labs.com/
 ---

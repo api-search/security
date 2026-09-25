@@ -75,7 +75,7 @@ tags:
 - Physical Security
 - IoT
 - Multifamily
-- Real-Estate
+- Real Estate
 - Smart Lock
 - Building Automation
 ---

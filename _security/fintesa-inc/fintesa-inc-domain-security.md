@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Fintesa Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Fintesa Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Fintesa Inc.
+overview: 'Domain security posture for Fintesa, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Fintesa
 provider_slug: fintesa-inc
 slug: fintesa-inc-domain-security
 source_filename: fintesa-inc-domain-security.yml
@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintesa-inc/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Merchants

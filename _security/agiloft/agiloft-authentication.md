@@ -127,7 +127,7 @@ tags:
 - Procurement
 - Enterprise Software
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Document Automation
 - Webhook
 - SCIM

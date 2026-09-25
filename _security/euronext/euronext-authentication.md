@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: |\n  Euronext p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/euronext/refs/heads/main/authentication/euronext-authentication.yml
 summary_line: apiKey/token/mutualTLS · 4 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Exchange

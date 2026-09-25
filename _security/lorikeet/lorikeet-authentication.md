@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - AI Agents
 - Support Automation
 - Workflows

@@ -51,6 +51,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon Augmented AI
 - Human-in-the-Loop
-- Machine-Learning
+- Machine Learning
 - AI Review
 ---

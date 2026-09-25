@@ -116,5 +116,7 @@ tags:
 - Agents
 - Real-Time
 - CPaaS
+- Conversational AI
+- Voice AI
 trust_url: https://security.vapi.ai/
 ---

@@ -2,7 +2,7 @@
 api_specs:
 - filename: near-accounts-api-openapi.yml
   format: yaml
-  label: NEAR Protocol accounts API
+  label: NEAR Protocol Accounts API
   slug: near-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-accounts-api-openapi.yml
@@ -164,7 +164,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-experimental-view-state-api-openapi.yml
 - filename: near-fungible-tokens-api-openapi.yml
   format: yaml
-  label: NEAR Protocol fungible-tokens API
+  label: NEAR Protocol Fungible Tokens API
   slug: near-fungible-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-fungible-tokens-api-openapi.yml
@@ -308,13 +308,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-next-light-client-block-api-openapi.yml
 - filename: near-non-fungible-tokens-api-openapi.yml
   format: yaml
-  label: NEAR Protocol non-fungible-tokens API
+  label: NEAR Protocol Non Fungible Tokens API
   slug: near-non-fungible-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-non-fungible-tokens-api-openapi.yml
 - filename: near-public-key-api-openapi.yml
   format: yaml
-  label: NEAR Protocol public-key API
+  label: NEAR Protocol Public Key API
   slug: near-public-key-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-public-key-api-openapi.yml
@@ -332,7 +332,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-send-tx-api-openapi.yml
 - filename: near-staking-api-openapi.yml
   format: yaml
-  label: NEAR Protocol staking API
+  label: NEAR Protocol Staking API
   slug: near-staking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-staking-api-openapi.yml
@@ -344,7 +344,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-status-api-openapi.yml
 - filename: near-system-api-openapi.yml
   format: yaml
-  label: NEAR Protocol system API
+  label: NEAR Protocol System API
   slug: near-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/openapi/near-system-api-openapi.yml

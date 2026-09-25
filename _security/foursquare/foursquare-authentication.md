@@ -86,4 +86,5 @@ tags:
 - Recommendations
 - Reviews
 - Movement
+- Geospatial
 ---

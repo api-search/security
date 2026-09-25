@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - 3D Scanning
-- Computer-Vision
+- Computer Vision
 - Spatial Computing
 - LiDAR
 - CAD

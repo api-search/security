@@ -409,7 +409,7 @@ tags:
 - Company
 - Sports Technology
 - Fantasy Sports
-- Open-Source
+- Open Source
 - Developer Tools
 - Platform Engineering
 - Authentication
@@ -423,5 +423,5 @@ tags:
 - Feature Flags
 - India
 - MCP
-- agent-native
+- Agent-Native
 ---

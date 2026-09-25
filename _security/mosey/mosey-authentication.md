@@ -110,7 +110,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Compliance
-- Regulatory Technology
+- RegTech
 - State Compliance
 - Tax
 - Payroll

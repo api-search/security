@@ -2,25 +2,25 @@
 api_specs:
 - filename: http-toolkit-client-api-openapi.yml
   format: yaml
-  label: HTTP Toolkit client API
+  label: HTTP Toolkit Client API
   slug: http-toolkit-client-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-client-api-openapi.yml
 - filename: http-toolkit-config-api-openapi.yml
   format: yaml
-  label: HTTP Toolkit config API
+  label: HTTP Toolkit Config API
   slug: http-toolkit-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-config-api-openapi.yml
 - filename: http-toolkit-interceptors-api-openapi.yml
   format: yaml
-  label: HTTP Toolkit interceptors API
+  label: HTTP Toolkit Interceptors API
   slug: http-toolkit-interceptors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-interceptors-api-openapi.yml
 - filename: http-toolkit-server-api-openapi.yml
   format: yaml
-  label: HTTP Toolkit server API
+  label: HTTP Toolkit Server API
   slug: http-toolkit-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-server-api-openapi.yml
@@ -62,5 +62,5 @@ tags:
 - Mocking
 - Testing
 - Developer Tools
-- Open-Source
+- Open Source
 ---

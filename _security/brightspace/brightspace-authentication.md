@@ -80,12 +80,6 @@ api_specs:
   slug: brightspace-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-versions-api-openapi.yml
-- filename: brightspace-data-hub-api-openapi.yml
-  format: yaml
-  label: Brightspace Data Hub (BDS) API
-  slug: brightspace-data-hub-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-data-hub-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -127,4 +121,5 @@ tags:
 - Valence
 - D2L
 - Brightspace
+- Canada
 ---

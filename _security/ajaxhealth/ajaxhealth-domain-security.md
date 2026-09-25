@@ -33,6 +33,6 @@ tags:
 - Investment
 - Healthcare
 - MedTech
-- VentureCapital
+- Venture Capital
 - Company
 ---

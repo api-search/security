@@ -46,6 +46,6 @@ tags:
 - SaaS Backup
 - Data Protection
 - Cloud Backup
-- Microsoft-365
+- Microsoft 365
 - Google Workspace
 ---

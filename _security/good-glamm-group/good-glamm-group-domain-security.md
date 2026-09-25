@@ -36,7 +36,6 @@ tags:
 - Beauty
 - Personal Care
 - Cosmetics
-- D2C
 - E-Commerce
 - Content-to-Commerce
 - India

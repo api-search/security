@@ -36,7 +36,7 @@ tags:
 - Database
 - MySQL
 - SQL
-- Open-Source
+- Open Source
 - Extensions
 - Developer Tools
 ---

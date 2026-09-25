@@ -84,6 +84,6 @@ tags:
 - Ed-Fi
 - Rostering
 - Interoperability
-- Machine-Learning
+- Machine Learning
 trust_url: https://trust.renaissance.com/
 ---

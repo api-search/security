@@ -148,7 +148,7 @@ tags:
 - Base
 - Solana
 - x402
-- Agent Payments
+- Agentic Payments
 - A2A
 - MCP
 - Autonomous Agents

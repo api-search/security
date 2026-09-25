@@ -37,7 +37,7 @@ tags:
 - Cybersecurity
 - DevSecOps
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Vulnerability Management
 - Supply Chain Security
 ---

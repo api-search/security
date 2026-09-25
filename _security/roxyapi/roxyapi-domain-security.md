@@ -145,5 +145,6 @@ tags:
 - MCP Server
 - OpenAPI
 - llms-txt
-- agent-native
+- Agent-Native
+- A2A
 ---

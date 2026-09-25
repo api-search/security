@@ -130,7 +130,7 @@ tags:
 - Construction
 - Project Management
 - BIM
-- Document-Management
+- Document Management
 - Field Management
 - Issues Tracking
 - Cost Management

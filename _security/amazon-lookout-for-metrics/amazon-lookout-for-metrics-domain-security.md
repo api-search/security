@@ -210,7 +210,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Anomaly Detection
 - Business Intelligence
-- Machine-Learning
+- Machine Learning
 - Metrics
 - Monitoring
+- Defunct
 ---

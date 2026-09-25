@@ -1,49 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: kartos-therapeutics-content-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics Content API
-  slug: kartos-therapeutics-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-content-api-openapi.yml
-- filename: kartos-therapeutics-discovery-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics Discovery API
-  slug: kartos-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-discovery-api-openapi.yml
-- filename: kartos-therapeutics-media-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics Media API
-  slug: kartos-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-media-api-openapi.yml
-- filename: kartos-therapeutics-people-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics People API
-  slug: kartos-therapeutics-people-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-people-api-openapi.yml
-- filename: kartos-therapeutics-science-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics Science API
-  slug: kartos-therapeutics-science-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-science-api-openapi.yml
-- filename: kartos-therapeutics-taxonomy-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics Taxonomy API
-  slug: kartos-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-taxonomy-api-openapi.yml
-- filename: kartos-therapeutics-o-embed-api-openapi.yml
-  format: yaml
-  label: Kartos Therapeutics o Embed API
-  slug: kartos-therapeutics-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/openapi/kartos-therapeutics-o-embed-api-openapi.yml
 auth_types:
 - http
 description: ''

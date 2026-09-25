@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/r
 summary_line: none/payment · 2 schemes
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Records
 - Property Data
 - Public Records
@@ -106,7 +106,7 @@ tags:
 - Agentic Commerce
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Chicago
 - Illinois
 ---

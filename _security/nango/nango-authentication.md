@@ -65,6 +65,6 @@ tags:
 - Integration
 - Authentication
 - Syncing
-- Unified-API
+- Unified API
 - Webhook
 ---

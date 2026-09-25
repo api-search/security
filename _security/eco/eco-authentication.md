@@ -53,5 +53,5 @@ tags:
 - DeFi
 - Web3
 - Infrastructure
-- Financial-Services
+- Financial Services
 ---

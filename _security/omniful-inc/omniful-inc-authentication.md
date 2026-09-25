@@ -216,8 +216,8 @@ method: derived
 name: Omniful Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Omniful, Inc. secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Omniful, Inc.
+overview: Omniful secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Omniful
 provider_slug: omniful-inc
 scheme_count: 1
 schemes:

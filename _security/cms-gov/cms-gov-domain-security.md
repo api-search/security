@@ -150,6 +150,174 @@ api_specs:
   slug: cms-gov-submissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-submissions-api-openapi.yml
+- filename: cms-api-reference-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services API Reference API
+  slug: cms-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-api-reference-api-openapi.yml
+- filename: cms-bulk-data-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Bulk Data API
+  slug: cms-bulk-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-bulk-data-api-openapi.yml
+- filename: cms-code-search-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Code Search API
+  slug: cms-code-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-code-search-api-openapi.yml
+- filename: cms-cost-search-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Cost Search API
+  slug: cms-cost-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-cost-search-api-openapi.yml
+- filename: cms-enrollments-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Enrollments API
+  slug: cms-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-enrollments-api-openapi.yml
+- filename: cms-geography-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Geography API
+  slug: cms-geography-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-geography-api-openapi.yml
+- filename: cms-households-eligibility-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Households & Eligibility API
+  slug: cms-households-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-households-eligibility-api-openapi.yml
+- filename: cms-insurance-issuers-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Insurance Issuers API
+  slug: cms-insurance-issuers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-insurance-issuers-api-openapi.yml
+- filename: cms-insurance-plans-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Insurance Plans API
+  slug: cms-insurance-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-insurance-plans-api-openapi.yml
+- filename: cms-plans-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Plans API
+  slug: cms-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-plans-api-openapi.yml
+- filename: cms-provider-drug-coverage-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Provider & Drug Coverage API
+  slug: cms-provider-drug-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-provider-drug-coverage-api-openapi.yml
+- filename: cms-1-export-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services 1. Export API
+  slug: cms-1-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-1-export-api-openapi.yml
+- filename: cms-2-status-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services 2. Status API
+  slug: cms-2-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-2-status-api-openapi.yml
+- filename: cms-3-download-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services 3. Download API
+  slug: cms-3-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-3-download-api-openapi.yml
+- filename: cms-4-capabilities-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services 4. Capabilities API
+  slug: cms-4-capabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-4-capabilities-api-openapi.yml
+- filename: cms-admin-api-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Admin API
+  slug: cms-admin-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-admin-api-api-openapi.yml
+- filename: cms-attribution-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Attribution API
+  slug: cms-attribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-attribution-api-openapi.yml
+- filename: cms-auth-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Auth API
+  slug: cms-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-auth-api-openapi.yml
+- filename: cms-capabilities-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Capabilities API
+  slug: cms-capabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-capabilities-api-openapi.yml
+- filename: cms-data-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Data API
+  slug: cms-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-data-api-openapi.yml
+- filename: cms-download-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Download API
+  slug: cms-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-download-api-openapi.yml
+- filename: cms-export-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Export API
+  slug: cms-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-export-api-openapi.yml
+- filename: cms-group-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Group API
+  slug: cms-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-group-api-openapi.yml
+- filename: cms-health-api-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Health API
+  slug: cms-health-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-health-api-api-openapi.yml
+- filename: cms-job-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Job API
+  slug: cms-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-job-api-openapi.yml
+- filename: cms-maintenance-mode-api-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Maintenance Mode API
+  slug: cms-maintenance-mode-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-maintenance-mode-api-api-openapi.yml
+- filename: cms-metadata-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Metadata API
+  slug: cms-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-metadata-api-openapi.yml
+- filename: cms-status-api-openapi.yml
+  format: yaml
+  label: Centers for Medicare and Medicaid Services Status API
+  slug: cms-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

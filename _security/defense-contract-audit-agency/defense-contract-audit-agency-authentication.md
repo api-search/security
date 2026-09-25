@@ -63,12 +63,12 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  live HTTP p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/authentication/defense-contract-audit-agency-authentication.yml
 summary_line: none/openIdConnect · 2 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Defense
 - Department of Defense
 - Audit
 - Contract Audit
-- Financial
+- Finance
 - Government Contracting
 - CAGE Code
 - Unique Entity Identifier

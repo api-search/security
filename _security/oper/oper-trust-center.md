@@ -340,6 +340,6 @@ tags:
 - Loan Origination
 - Digital Mortgage
 - Underwriting
-- Financial-Services
+- Financial Services
 trust_url: https://www.opercredits.com/compliance
 ---

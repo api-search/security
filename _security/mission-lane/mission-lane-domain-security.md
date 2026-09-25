@@ -42,7 +42,7 @@ tags:
 - Credit Cards
 - Fintech
 - Consumer Finance
-- Financial-Services
+- Financial Services
 - Lending
 - Payments
 ---

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Tecost Sa Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Tecost SA, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Tecost SA
+overview: 'Domain security posture for Tecost, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Tecost
 provider_slug: tecost-sa
 slug: tecost-sa-domain-security
 source_filename: tecost-sa-domain-security.yml

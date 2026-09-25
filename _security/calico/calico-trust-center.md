@@ -74,7 +74,7 @@ tags:
 - Network Policy
 - Network Security
 - Networking
-- Open-Source
+- Open Source
 - Service Mesh
 trust_url: https://www.tigera.io/tigera-products/calico-cloud-trust-center/
 ---

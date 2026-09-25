@@ -38,7 +38,7 @@ tags:
 - Ratings
 - Underwriting
 - Banking
-- Financial-Services
+- Financial Services
 - Decisioning
 - Artificial Intelligence
 ---

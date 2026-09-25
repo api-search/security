@@ -25,7 +25,7 @@ tags:
 - Company
 - Supply Chain
 - Risk Management
-- Third-Party Risk
+- Third-Party Risk Management
 - Compliance
 - Due Diligence
 - Software Supply Chain

@@ -2,13 +2,13 @@
 api_specs:
 - filename: moveworks-authentication-api-openapi.yml
   format: yaml
-  label: Moveworks authentication API
+  label: Moveworks Authentication API
   slug: moveworks-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-authentication-api-openapi.yml
 - filename: moveworks-conversations-api-openapi.yml
   format: yaml
-  label: Moveworks conversations API
+  label: Moveworks Conversations API
   slug: moveworks-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-conversations-api-openapi.yml
@@ -20,40 +20,46 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-default-api-openapi.yml
 - filename: moveworks-deprecated-api-openapi.yml
   format: yaml
-  label: Moveworks deprecated API
+  label: Moveworks Deprecated API
   slug: moveworks-deprecated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-deprecated-api-openapi.yml
 - filename: moveworks-events-api-openapi.yml
   format: yaml
-  label: Moveworks events API
+  label: Moveworks Events API
   slug: moveworks-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-events-api-openapi.yml
 - filename: moveworks-messages-api-openapi.yml
   format: yaml
-  label: Moveworks messages API
+  label: Moveworks Messages API
   slug: moveworks-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-messages-api-openapi.yml
 - filename: moveworks-responses-api-openapi.yml
   format: yaml
-  label: Moveworks responses API
+  label: Moveworks Responses API
   slug: moveworks-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-responses-api-openapi.yml
 - filename: moveworks-smartforms-api-openapi.yml
   format: yaml
-  label: Moveworks smartForms API
+  label: Moveworks Smart Forms API
   slug: moveworks-smartforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-smartforms-api-openapi.yml
 - filename: moveworks-webhooks-api-openapi.yml
   format: yaml
-  label: Moveworks webhooks API
+  label: Moveworks Webhooks API
   slug: moveworks-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-webhooks-api-openapi.yml
+- filename: moveworks-servicenow-records-api-openapi.yml
+  format: yaml
+  label: Moveworks Data API
+  slug: moveworks-servicenow-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-servicenow-records-api-openapi.yml
 certification_count: 10
 certifications:
 - SOC 2 Type 2
@@ -84,7 +90,7 @@ summary_line: SOC 2 Type 2, ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 4200
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - AI Assistant
 - Enterprise Automation
 - Conversational AI

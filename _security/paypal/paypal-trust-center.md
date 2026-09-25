@@ -197,5 +197,6 @@ tags:
 - Subscription
 - Tokens
 - Webhook
+- Agentic Commerce
 trust_url: https://www.paypal-trustcenter.com/
 ---

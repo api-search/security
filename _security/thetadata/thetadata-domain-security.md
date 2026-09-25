@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/security/thetadata-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Financial
+- Finance
 - Market Data
 - Options
 - Stocks

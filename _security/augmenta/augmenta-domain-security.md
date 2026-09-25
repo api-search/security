@@ -44,6 +44,6 @@ tags:
 - Generative Design
 - Computational Geometry
 - Optimization
-- Data-Center
+- Data Center
 - Prefabrication
 ---

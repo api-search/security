@@ -108,7 +108,7 @@ tags:
 - AI Agents
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Provenance
 - Weather
 - Natural Hazards

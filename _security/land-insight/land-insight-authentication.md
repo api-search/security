@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/land-insight/r
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property
 - Land
 - Planning

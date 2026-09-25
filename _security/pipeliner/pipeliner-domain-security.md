@@ -346,6 +346,6 @@ tags:
 - CRM
 - Sales
 - Automation
-- Pipeline
+- Pipelines
 - Cloud
 ---

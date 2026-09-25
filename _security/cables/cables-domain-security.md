@@ -37,13 +37,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cables/refs/he
 summary_line: TLSv1.3
 tags:
 - MCP Server
-- agent-native
+- Agent-Native
 - x402
 - pay-per-call
-- Machine-Learning
+- Machine Learning
 - tensorflow-js
 - NLP
-- Computer-Vision
+- Computer Vision
 - Social Media Analytics
 - OpenAPI
 - Solana

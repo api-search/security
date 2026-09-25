@@ -2,133 +2,133 @@
 api_specs:
 - filename: emory-annotation-api-openapi.yml
   format: yaml
-  label: Emory University annotation API
+  label: Emory University Annotation API
   slug: emory-annotation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-annotation-api-openapi.yml
 - filename: emory-api-key-api-openapi.yml
   format: yaml
-  label: Emory University api_key API
+  label: Emory University API Key API
   slug: emory-api-key-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-api-key-api-openapi.yml
 - filename: emory-assetstore-api-openapi.yml
   format: yaml
-  label: Emory University assetstore API
+  label: Emory University Assetstore API
   slug: emory-assetstore-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-assetstore-api-openapi.yml
 - filename: emory-collection-api-openapi.yml
   format: yaml
-  label: Emory University collection API
+  label: Emory University Collection API
   slug: emory-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-collection-api-openapi.yml
 - filename: emory-dicomweb-assetstore-api-openapi.yml
   format: yaml
-  label: Emory University dicomweb_assetstore API
+  label: Emory University Dicomweb Assetstore API
   slug: emory-dicomweb-assetstore-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-dicomweb-assetstore-api-openapi.yml
 - filename: emory-file-api-openapi.yml
   format: yaml
-  label: Emory University file API
+  label: Emory University File API
   slug: emory-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-file-api-openapi.yml
 - filename: emory-files-api-openapi.yml
   format: yaml
-  label: Emory University files API
+  label: Emory University Files API
   slug: emory-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-files-api-openapi.yml
 - filename: emory-folder-api-openapi.yml
   format: yaml
-  label: Emory University folder API
+  label: Emory University Folder API
   slug: emory-folder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-folder-api-openapi.yml
 - filename: emory-group-api-openapi.yml
   format: yaml
-  label: Emory University group API
+  label: Emory University Group API
   slug: emory-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-group-api-openapi.yml
 - filename: emory-histomicsui-api-openapi.yml
   format: yaml
-  label: Emory University histomicsui API
+  label: Emory University Histomicsui API
   slug: emory-histomicsui-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-histomicsui-api-openapi.yml
 - filename: emory-homepage-api-openapi.yml
   format: yaml
-  label: Emory University homepage API
+  label: Emory University Homepage API
   slug: emory-homepage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-homepage-api-openapi.yml
 - filename: emory-item-api-openapi.yml
   format: yaml
-  label: Emory University item API
+  label: Emory University Item API
   slug: emory-item-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-item-api-openapi.yml
 - filename: emory-job-api-openapi.yml
   format: yaml
-  label: Emory University job API
+  label: Emory University Job API
   slug: emory-job-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-job-api-openapi.yml
 - filename: emory-large-image-api-openapi.yml
   format: yaml
-  label: Emory University large_image API
+  label: Emory University Large Image API
   slug: emory-large-image-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-large-image-api-openapi.yml
 - filename: emory-notification-api-openapi.yml
   format: yaml
-  label: Emory University notification API
+  label: Emory University Notification API
   slug: emory-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-notification-api-openapi.yml
 - filename: emory-resource-api-openapi.yml
   format: yaml
-  label: Emory University resource API
+  label: Emory University Resource API
   slug: emory-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-resource-api-openapi.yml
 - filename: emory-slicer-cli-web-api-openapi.yml
   format: yaml
-  label: Emory University slicer_cli_web API
+  label: Emory University Slicer Cli Web API
   slug: emory-slicer-cli-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-slicer-cli-web-api-openapi.yml
 - filename: emory-system-api-openapi.yml
   format: yaml
-  label: Emory University system API
+  label: Emory University System API
   slug: emory-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-system-api-openapi.yml
 - filename: emory-tcga-api-openapi.yml
   format: yaml
-  label: Emory University tcga API
+  label: Emory University Tcga API
   slug: emory-tcga-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-tcga-api-openapi.yml
 - filename: emory-token-api-openapi.yml
   format: yaml
-  label: Emory University token API
+  label: Emory University Token API
   slug: emory-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-token-api-openapi.yml
 - filename: emory-user-api-openapi.yml
   format: yaml
-  label: Emory University user API
+  label: Emory University User API
   slug: emory-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-user-api-openapi.yml
 - filename: emory-worker-api-openapi.yml
   format: yaml
-  label: Emory University worker API
+  label: Emory University Worker API
   slug: emory-worker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-worker-api-openapi.yml
@@ -190,7 +190,7 @@ tags:
 - Georgia
 - Atlanta
 - Research
-- Libraries
+- Library
 - Research Repository
 - Library Catalog
 - Course Catalog

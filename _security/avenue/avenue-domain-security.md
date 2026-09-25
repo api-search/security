@@ -33,7 +33,7 @@ tags:
 - Company
 - Cloud Saas
 - Observability
-- Workflow-Automation
+- Workflow Automation
 - Alerting
 - Revenue Operations
 - Task Queue

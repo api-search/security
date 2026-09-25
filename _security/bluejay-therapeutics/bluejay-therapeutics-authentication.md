@@ -1,43 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: bluejay-therapeutics-content-api-openapi.yml
-  format: yaml
-  label: Bluejay Therapeutics Content API
-  slug: bluejay-therapeutics-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/openapi/bluejay-therapeutics-content-api-openapi.yml
-- filename: bluejay-therapeutics-discovery-api-openapi.yml
-  format: yaml
-  label: Bluejay Therapeutics Discovery API
-  slug: bluejay-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/openapi/bluejay-therapeutics-discovery-api-openapi.yml
-- filename: bluejay-therapeutics-embed-api-openapi.yml
-  format: yaml
-  label: Bluejay Therapeutics Embed API
-  slug: bluejay-therapeutics-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/openapi/bluejay-therapeutics-embed-api-openapi.yml
-- filename: bluejay-therapeutics-empty-collections-api-openapi.yml
-  format: yaml
-  label: Bluejay Therapeutics Empty Collections API
-  slug: bluejay-therapeutics-empty-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/openapi/bluejay-therapeutics-empty-collections-api-openapi.yml
-- filename: bluejay-therapeutics-media-api-openapi.yml
-  format: yaml
-  label: Bluejay Therapeutics Media API
-  slug: bluejay-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/openapi/bluejay-therapeutics-media-api-openapi.yml
-- filename: bluejay-therapeutics-taxonomy-api-openapi.yml
-  format: yaml
-  label: Bluejay Therapeutics Taxonomy API
-  slug: bluejay-therapeutics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/openapi/bluejay-therapeutics-taxonomy-api-openapi.yml
 auth_types: []
 description: 'The Bluejay Therapeutics Content API is the WordPress REST API behind bluejaytx.com. Its public read surface is entirely unauthenticated: posts, pages, media, categories, tags, search, types, taxonomies, statuses and the oEmbed provider all answer anonymously. Authentication exists only for the write and administrative surface, which is closed to the public.'
 kind: authentication

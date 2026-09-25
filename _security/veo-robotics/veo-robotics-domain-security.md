@@ -35,6 +35,6 @@ tags:
 - Robotics
 - Industrial Automation
 - Machine Safety
-- Computer-Vision
+- Computer Vision
 - Manufacturing
 ---

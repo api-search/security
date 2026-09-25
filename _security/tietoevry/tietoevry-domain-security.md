@@ -187,7 +187,7 @@ tags:
 - Payments
 - SEPA
 - Account Information
-- Financial-Services
+- Financial Services
 - Aggregation
 - Credit
 - Fintech

@@ -159,9 +159,9 @@ tags:
 - 3D Generation
 - Artificial Intelligence
 - Generative AI
-- Image-Generation
+- Image Generation
 - Image Editing
-- Machine-Learning
+- Machine Learning
 - Stable Diffusion
 - Text-to-Image
 - Video Generation

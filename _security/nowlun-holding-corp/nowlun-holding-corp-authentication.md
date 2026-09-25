@@ -12,8 +12,8 @@ name: Nowlun Holding Corp Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Nowlun Holding Corp. secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: Nowlun Holding Corp.
+overview: Nowlun secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Nowlun
 provider_slug: nowlun-holding-corp
 scheme_count: 1
 schemes:

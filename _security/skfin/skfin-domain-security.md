@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Skfin Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SK Finance Ltd, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: SK Finance Ltd
+overview: 'Domain security posture for SK Finance, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: SK Finance
 provider_slug: skfin
 slug: skfin-domain-security
 source_filename: skfin-domain-security.yml
@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skfin/refs/hea
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - NBFC
 - Vehicle Finance

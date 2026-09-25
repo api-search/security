@@ -41,5 +41,5 @@ tags:
 - Software-as-a-Service
 - Energy
 - Utilities
-- Telecom
+- Telecommunications
 ---

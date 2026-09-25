@@ -32,7 +32,7 @@ tags:
 - Company
 - Fintech
 - Banking
-- Financial-Services
+- Financial Services
 - Remittances
 - Migrant
 - Insurance

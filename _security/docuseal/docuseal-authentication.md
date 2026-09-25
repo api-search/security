@@ -53,10 +53,10 @@ tags:
 - Document Signing
 - E-Signature
 - Electronic Signature
-- Document-Management
+- Document Management
 - PDF
 - Templates
-- Open-Source
+- Open Source
 - Webhook
 - Embeddings
 ---

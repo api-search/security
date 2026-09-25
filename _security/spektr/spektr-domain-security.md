@@ -98,7 +98,7 @@ tags:
 - KYC
 - Onboarding
 - Transaction Monitoring
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 - Enterprise
 ---

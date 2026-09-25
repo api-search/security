@@ -27,6 +27,6 @@ tags:
 - KYC
 - AI Agents
 - Compliance
-- Financial-Services
+- Financial Services
 trust_url: https://trust.bretton.com/
 ---

@@ -238,7 +238,7 @@ tags:
 - Commerce
 - Headless Commerce
 - API-First
-- B2C
+- Consumer
 - B2B
 - Subscription
 - Marketplace

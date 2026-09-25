@@ -170,8 +170,9 @@ tags:
 - CNAE
 - SICAF
 - Document Extraction
-- agent-native
+- Agent-Native
 - MCP
 - x402
 - Machine-Payable
+- Procurement
 ---

@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\ndocs: https://docs.deve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/authentication/deutsche-boerse-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Derivatives

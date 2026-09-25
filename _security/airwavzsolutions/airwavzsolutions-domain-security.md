@@ -38,7 +38,7 @@ tags:
 - Wi-Fi
 - Fiber
 - Private 5G
-- Real-Estate
+- Real Estate
 - United States
 - Company
 ---

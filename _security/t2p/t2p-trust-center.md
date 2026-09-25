@@ -26,7 +26,7 @@ tags:
 - Card Issuing
 - E-Wallet
 - Escrow
-- Financial-Services
+- Financial Services
 - Thailand
 trust_url: https://trust.t2pco.com/
 ---

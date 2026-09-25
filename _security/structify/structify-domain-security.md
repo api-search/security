@@ -2,73 +2,73 @@
 api_specs:
 - filename: structify-account-api-openapi.yml
   format: yaml
-  label: Structify account API
+  label: Structify Account API
   slug: structify-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-account-api-openapi.yml
 - filename: structify-admin-api-openapi.yml
   format: yaml
-  label: Structify admin API
+  label: Structify Admin API
   slug: structify-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-admin-api-openapi.yml
 - filename: structify-chat-api-openapi.yml
   format: yaml
-  label: Structify chat API
+  label: Structify Chat API
   slug: structify-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-chat-api-openapi.yml
 - filename: structify-chat-templates-api-openapi.yml
   format: yaml
-  label: Structify chat_templates API
+  label: Structify Chat Templates API
   slug: structify-chat-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-chat-templates-api-openapi.yml
 - filename: structify-code-api-openapi.yml
   format: yaml
-  label: Structify code API
+  label: Structify Code API
   slug: structify-code-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-code-api-openapi.yml
 - filename: structify-connector-catalog-api-openapi.yml
   format: yaml
-  label: Structify connector_catalog API
+  label: Structify Connector Catalog API
   slug: structify-connector-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-connector-catalog-api-openapi.yml
 - filename: structify-connectors-api-openapi.yml
   format: yaml
-  label: Structify connectors API
+  label: Structify Connectors API
   slug: structify-connectors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-connectors-api-openapi.yml
 - filename: structify-dataset-api-openapi.yml
   format: yaml
-  label: Structify dataset API
+  label: Structify Dataset API
   slug: structify-dataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-dataset-api-openapi.yml
 - filename: structify-documents-api-openapi.yml
   format: yaml
-  label: Structify documents API
+  label: Structify Documents API
   slug: structify-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-documents-api-openapi.yml
 - filename: structify-entity-api-openapi.yml
   format: yaml
-  label: Structify entity API
+  label: Structify Entity API
   slug: structify-entity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-entity-api-openapi.yml
 - filename: structify-jobs-api-openapi.yml
   format: yaml
-  label: Structify jobs API
+  label: Structify Jobs API
   slug: structify-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-jobs-api-openapi.yml
 - filename: structify-match-api-openapi.yml
   format: yaml
-  label: Structify match API
+  label: Structify Match API
   slug: structify-match-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-match-api-openapi.yml
@@ -80,115 +80,115 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-nango-api-openapi.yml
 - filename: structify-project-api-openapi.yml
   format: yaml
-  label: Structify project API
+  label: Structify Project API
   slug: structify-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-project-api-openapi.yml
 - filename: structify-public-sessions-api-openapi.yml
   format: yaml
-  label: Structify public_sessions API
+  label: Structify Public Sessions API
   slug: structify-public-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-public-sessions-api-openapi.yml
 - filename: structify-sandbox-api-openapi.yml
   format: yaml
-  label: Structify sandbox API
+  label: Structify Sandbox API
   slug: structify-sandbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-sandbox-api-openapi.yml
 - filename: structify-scrape-api-openapi.yml
   format: yaml
-  label: Structify scrape API
+  label: Structify Scrape API
   slug: structify-scrape-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-scrape-api-openapi.yml
 - filename: structify-server-api-openapi.yml
   format: yaml
-  label: Structify server API
+  label: Structify Server API
   slug: structify-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-server-api-openapi.yml
 - filename: structify-sessions-api-openapi.yml
   format: yaml
-  label: Structify sessions API
+  label: Structify Sessions API
   slug: structify-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-sessions-api-openapi.yml
 - filename: structify-slack-api-openapi.yml
   format: yaml
-  label: Structify slack API
+  label: Structify Slack API
   slug: structify-slack-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-slack-api-openapi.yml
 - filename: structify-source-api-openapi.yml
   format: yaml
-  label: Structify source API
+  label: Structify Source API
   slug: structify-source-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-source-api-openapi.yml
 - filename: structify-structure-api-openapi.yml
   format: yaml
-  label: Structify structure API
+  label: Structify Structure API
   slug: structify-structure-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-structure-api-openapi.yml
 - filename: structify-team-api-openapi.yml
   format: yaml
-  label: Structify team API
+  label: Structify Team API
   slug: structify-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-team-api-openapi.yml
 - filename: structify-teams-api-openapi.yml
   format: yaml
-  label: Structify teams API
+  label: Structify Teams API
   slug: structify-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-teams-api-openapi.yml
 - filename: structify-transactions-api-openapi.yml
   format: yaml
-  label: Structify transactions API
+  label: Structify Transactions API
   slug: structify-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-transactions-api-openapi.yml
 - filename: structify-usage-api-openapi.yml
   format: yaml
-  label: Structify usage API
+  label: Structify Usage API
   slug: structify-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-usage-api-openapi.yml
 - filename: structify-user-api-openapi.yml
   format: yaml
-  label: Structify user API
+  label: Structify User API
   slug: structify-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-user-api-openapi.yml
 - filename: structify-webhook-api-openapi.yml
   format: yaml
-  label: Structify webhook API
+  label: Structify Webhook API
   slug: structify-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-webhook-api-openapi.yml
 - filename: structify-whitelabel-api-openapi.yml
   format: yaml
-  label: Structify whitelabel API
+  label: Structify Whitelabel API
   slug: structify-whitelabel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-whitelabel-api-openapi.yml
 - filename: structify-wiki-api-openapi.yml
   format: yaml
-  label: Structify wiki API
+  label: Structify Wiki API
   slug: structify-wiki-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-wiki-api-openapi.yml
 - filename: structify-workflow-api-openapi.yml
   format: yaml
-  label: Structify workflow API
+  label: Structify Workflow API
   slug: structify-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-workflow-api-openapi.yml
 - filename: structify-workflow-schedule-api-openapi.yml
   format: yaml
-  label: Structify workflow_schedule API
+  label: Structify Workflow Schedule API
   slug: structify-workflow-schedule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/openapi/structify-workflow-schedule-api-openapi.yml
@@ -243,4 +243,5 @@ tags:
 - Knowledge Graph
 - ETL
 - Data Enrichment
+- A2A
 ---

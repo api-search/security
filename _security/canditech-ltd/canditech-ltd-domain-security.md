@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Canditech Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Canditech Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Canditech Ltd.
+overview: 'Domain security posture for Canditech, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Canditech
 provider_slug: canditech-ltd
 slug: canditech-ltd-domain-security
 source_filename: canditech-ltd-domain-security.yml

@@ -35,7 +35,7 @@ tags:
 - Speech-to-Text
 - Voice AI
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Real-Time
 - SDK
 ---

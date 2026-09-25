@@ -117,4 +117,6 @@ tags:
 - Odds
 - Sports Betting
 - Sportsbook
+- Real-Time
+- Sports
 ---

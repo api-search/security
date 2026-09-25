@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/h
 summary_line: SOC 2 Type 2, GDPR, CASA Tier 2, CASA Tier 3, OWASP ASVS
 tags:
 - AI Automation
-- Workflow-Automation
+- Workflow Automation
 - Web Scraping
 - Data Enrichment
 - Browser Extension

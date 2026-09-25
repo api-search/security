@@ -49,7 +49,7 @@ tags:
 - Perpetual Futures
 - Trading
 - Exchange
-- Financial-Services
+- Financial Services
 - WebSocket
 - FIX
 - Market Data

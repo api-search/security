@@ -36,7 +36,7 @@ tags:
 - Database
 - Distributed Database
 - Sharding
-- Open-Source
+- Open Source
 - Scalability
 - Analytics
 - Microsoft

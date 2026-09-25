@@ -45,5 +45,5 @@ tags:
 - Data Loss Prevention
 - Shadow AI
 - Identity
-- Agentic AI
+- AI Agents
 ---

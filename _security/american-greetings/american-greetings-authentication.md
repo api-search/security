@@ -1,19 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: american-greetings-oembed-1-0-api-openapi.yml
-  format: yaml
-  label: American Greetings Oembed/1.0 API
-  slug: american-greetings-oembed-1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/openapi/american-greetings-oembed-1-0-api-openapi.yml
-- filename: american-greetings-wp-v2-api-openapi.yml
-  format: yaml
-  label: American Greetings Wp/v2 API
-  slug: american-greetings-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/openapi/american-greetings-wp-v2-api-openapi.yml
 auth_types:
 - http
 description: ''

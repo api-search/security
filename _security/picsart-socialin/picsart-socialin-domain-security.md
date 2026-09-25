@@ -206,6 +206,6 @@ tags:
 - Creative Tools
 - Image Processing
 - Background Removal
-- Machine-Learning
+- Machine Learning
 - Content Generation
 ---

@@ -38,6 +38,6 @@ tags:
 - Contract Management
 - Contract Drafting
 - Artificial Intelligence
-- Document-Management
+- Document Management
 - Legal AI
 ---

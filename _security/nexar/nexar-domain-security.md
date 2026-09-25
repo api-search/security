@@ -90,10 +90,10 @@ tags:
 - Mapping
 - Geospatial
 - Transportation
-- Computer-Vision
+- Computer Vision
 - Autonomous Vehicles
 - Smart Cities
 - Imagery
 - Road Data
-- Machine-Learning
+- Machine Learning
 ---

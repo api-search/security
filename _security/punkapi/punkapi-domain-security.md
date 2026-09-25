@@ -35,13 +35,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/security/punkapi-domain-security.yml
 summary_line: DNSSEC
 tags:
-- Food And Drink
+- Food and Beverage
 - Beer
 - BrewDog
 - DIY Dog
 - Recipes
-- Open-Source
+- Open Source
 - Public APIs
 - REST
 - Deprecated
+- Defunct
 ---

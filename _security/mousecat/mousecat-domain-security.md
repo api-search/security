@@ -36,7 +36,7 @@ tags:
 - Fraud Investigation
 - Risk Operations
 - Artificial Intelligence
-- Agentic AI
-- Financial-Services
+- AI Agents
+- Financial Services
 - Security
 ---

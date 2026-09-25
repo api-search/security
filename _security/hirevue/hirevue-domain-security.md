@@ -40,4 +40,5 @@ tags:
 - Scheduling
 - Conversational AI
 - Human Resources
+- Recruiting
 ---

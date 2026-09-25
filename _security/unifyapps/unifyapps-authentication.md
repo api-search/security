@@ -45,7 +45,7 @@ summary_line: jwt/oauth2/basic/custom · 4 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Integration Platform
 - iPaaS
 - Automation

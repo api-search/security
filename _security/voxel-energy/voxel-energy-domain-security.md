@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voxel-energy/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Data-Center
+- Data Center
 - Energy
 - Solar Power
 - Renewable Energy

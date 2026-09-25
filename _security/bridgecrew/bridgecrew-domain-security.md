@@ -39,5 +39,5 @@ tags:
 - Static Analysis
 - Terraform
 - Checkov
-- Open-Source
+- Open Source
 ---

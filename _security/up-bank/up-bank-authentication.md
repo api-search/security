@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/up-bank
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/authentication/up-bank-authentication.yml
 summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

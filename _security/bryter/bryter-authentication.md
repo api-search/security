@@ -38,7 +38,7 @@ tags:
 - Automation
 - No-Code
 - Legal Tech
-- Workflow-Automation
+- Workflow Automation
 - Document Automation
 - Artificial Intelligence
 - Compliance

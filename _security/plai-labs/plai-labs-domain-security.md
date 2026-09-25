@@ -43,6 +43,6 @@ tags:
 - Enterprise
 - Regulated Industries
 - Life Sciences
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 ---

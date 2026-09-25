@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: balena-devices-api-openapi.yml
-  format: yaml
-  label: Balena Devices API
-  slug: balena-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-devices-api-openapi.yml
-- filename: balena-releases-api-openapi.yml
-  format: yaml
-  label: Balena Releases API
-  slug: balena-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-releases-api-openapi.yml
 - filename: balena-applications-api-openapi.yml
   format: yaml
   label: Balena Applications API

@@ -46,5 +46,5 @@ tags:
 - GraphQL
 - REST
 - Free
-- Open-Source
+- Open Source
 ---

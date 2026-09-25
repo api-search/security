@@ -1,73 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: apa-discovery-api-openapi.yml
-  format: yaml
-  label: APA Corporation
-  slug: apa-corporation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-discovery-api-openapi.yml
-- filename: apa-ticker-api-openapi.yml
-  format: yaml
-  label: APA Corporation Ticker API
-  slug: apa-ticker-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-ticker-api-openapi.yml
-- filename: apa-newsroom-api-openapi.yml
-  format: yaml
-  label: APA Corporation Newsroom API
-  slug: apa-newsroom-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-newsroom-api-openapi.yml
-- filename: apa-leadership-api-openapi.yml
-  format: yaml
-  label: APA Corporation Leadership API
-  slug: apa-leadership-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-leadership-api-openapi.yml
-- filename: apa-pages-api-openapi.yml
-  format: yaml
-  label: APA Corporation Pages API
-  slug: apa-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-pages-api-openapi.yml
-- filename: apa-feed-items-api-openapi.yml
-  format: yaml
-  label: APA Corporation Feed Items API
-  slug: apa-feed-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-feed-items-api-openapi.yml
-- filename: apa-taxonomy-api-openapi.yml
-  format: yaml
-  label: APA Corporation Taxonomy API
-  slug: apa-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-taxonomy-api-openapi.yml
-- filename: apa-authors-api-openapi.yml
-  format: yaml
-  label: APA Corporation Authors API
-  slug: apa-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-authors-api-openapi.yml
-- filename: apa-search-api-openapi.yml
-  format: yaml
-  label: APA Corporation Search API
-  slug: apa-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-search-api-openapi.yml
-- filename: apa-media-api-openapi.yml
-  format: yaml
-  label: APA Corporation Media API
-  slug: apa-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-media-api-openapi.yml
-- filename: apa-o-embed-api-openapi.yml
-  format: yaml
-  label: APA Corporation o Embed API
-  slug: apa-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-o-embed-api-openapi.yml
 auth_types: []
 description: 'Authentication profile for the APA Corporation REST surface at https://apacorp.com/wp-json. The headline fact is that there is none to obtain: every operation profiled in this repository was called anonymously on 2026-09-14 and answered 200 with real data. APA publishes no developer program, no API keys, no sign-up, no OAuth. The only credential the surface knows about is the WordPress application password, which the site''s own root document advertises, and which is needed only for the write methods and the context=edit projection that are deliberately out of scope here.'
 kind: authentication
@@ -77,8 +10,8 @@ method: probed
 name: Apa Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: APA Corporation declares 2 security scheme(s) across its OpenAPI definitions.
-provider_name: APA Corporation
+overview: APA declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: APA
 provider_slug: apa
 scheme_count: 2
 schemes:

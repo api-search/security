@@ -51,5 +51,5 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Data Collection
 - Logging
-- Open-Source
+- Open Source
 ---

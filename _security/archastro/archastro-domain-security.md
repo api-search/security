@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-agents-api-openapi.yml
 - filename: archastro-auth-api-openapi.yml
   format: yaml
-  label: Archastro auth API
+  label: Archastro Auth API
   slug: archastro-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-auth-api-openapi.yml
@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-files-api-openapi.yml
 - filename: archastro-s2s-api-openapi.yml
   format: yaml
-  label: Archastro s2s API
+  label: Archastro S2s API
   slug: archastro-s2s-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-s2s-api-openapi.yml
@@ -92,7 +92,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - AI Agents
-- Agentic
 - Developer Platform
 - Automation
 - Integration

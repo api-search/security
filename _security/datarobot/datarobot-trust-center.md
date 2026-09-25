@@ -19,10 +19,10 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Science
-- Agentic AI
+- AI Agents
 - Predictive Analytics
 - Generative AI
 trust_url: https://trust.datarobot.com

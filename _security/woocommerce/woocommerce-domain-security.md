@@ -171,7 +171,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - WooCommerce
 - E-Commerce
-- Open-Source
+- Open Source
 - Order
 - Product
 - WordPress

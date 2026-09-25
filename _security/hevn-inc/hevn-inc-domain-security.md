@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-activity-api-openapi.yml
 - filename: hevn-inc-apps-api-openapi.yml
   format: yaml
-  label: Hevn Inc apps API
+  label: Hevn Inc Apps API
   slug: hevn-inc-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-apps-api-openapi.yml
 - filename: hevn-inc-apps-transfer-api-openapi.yml
   format: yaml
-  label: Hevn Inc apps-transfer API
+  label: Hevn Inc Apps Transfer API
   slug: hevn-inc-apps-transfer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-apps-transfer-api-openapi.yml
 - filename: hevn-inc-auth-api-openapi.yml
   format: yaml
-  label: Hevn Inc auth API
+  label: Hevn Inc Auth API
   slug: hevn-inc-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-auth-api-openapi.yml
@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-chat-api-openapi.yml
 - filename: hevn-inc-contracts-api-openapi.yml
   format: yaml
-  label: Hevn Inc contracts API
+  label: Hevn Inc Contracts API
   slug: hevn-inc-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-contracts-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-devices-api-openapi.yml
 - filename: hevn-inc-documents-api-openapi.yml
   format: yaml
-  label: Hevn Inc documents API
+  label: Hevn Inc Documents API
   slug: hevn-inc-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-documents-api-openapi.yml
@@ -86,19 +86,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-incorporate-api-openapi.yml
 - filename: hevn-inc-invoices-api-openapi.yml
   format: yaml
-  label: Hevn Inc invoices API
+  label: Hevn Inc Invoices API
   slug: hevn-inc-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-invoices-api-openapi.yml
 - filename: hevn-inc-kyb-api-openapi.yml
   format: yaml
-  label: Hevn Inc kyb API
+  label: Hevn Inc Kyb API
   slug: hevn-inc-kyb-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-kyb-api-openapi.yml
 - filename: hevn-inc-mcp-api-openapi.yml
   format: yaml
-  label: Hevn Inc mcp API
+  label: Hevn Inc MCP API
   slug: hevn-inc-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-mcp-api-openapi.yml
@@ -122,19 +122,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-root-api-openapi.yml
 - filename: hevn-inc-team-api-openapi.yml
   format: yaml
-  label: Hevn Inc team API
+  label: Hevn Inc Team API
   slug: hevn-inc-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-team-api-openapi.yml
 - filename: hevn-inc-tee-api-openapi.yml
   format: yaml
-  label: Hevn Inc tee API
+  label: Hevn Inc Tee API
   slug: hevn-inc-tee-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-tee-api-openapi.yml
 - filename: hevn-inc-tee-local-api-openapi.yml
   format: yaml
-  label: Hevn Inc tee-local API
+  label: Hevn Inc Tee Local API
   slug: hevn-inc-tee-local-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-tee-local-api-openapi.yml
@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-2-fa-api-openapi.yml
 - filename: hevn-inc-b2-b-api-openapi.yml
   format: yaml
-  label: Hevn Inc B2 B API
+  label: Hevn Inc B2B API
   slug: hevn-inc-b2-b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-b2-b-api-openapi.yml
@@ -225,8 +225,8 @@ layout: security
 method: probed
 name: Hevn Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Hevn Inc, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
-provider_name: Hevn Inc
+overview: 'Domain security posture for Hevn, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: Hevn
 provider_slug: hevn-inc
 slug: hevn-inc-domain-security
 source_filename: hevn-inc-domain-security.yml
@@ -237,7 +237,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Banking
 - Payments

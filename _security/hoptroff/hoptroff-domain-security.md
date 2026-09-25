@@ -40,6 +40,6 @@ tags:
 - IEEE 1588
 - Traceability
 - Compliance
-- Financial-Services
+- Financial Services
 - MiFID II
 ---

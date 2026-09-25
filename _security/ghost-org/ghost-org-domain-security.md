@@ -241,6 +241,7 @@ tags:
 - Membership
 - Subscription
 - CMS
-- Open-Source
+- Open Source
 - Content
+- A2A
 ---

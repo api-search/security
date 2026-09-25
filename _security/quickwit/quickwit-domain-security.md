@@ -78,7 +78,7 @@ tags:
 - Observability
 - Full-Text Search
 - Cloud-Native
-- Open-Source
+- Open Source
 - Distributed Tracing
 - Analytics
 ---

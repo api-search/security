@@ -35,7 +35,7 @@ tags:
 - Dental AI
 - Healthcare
 - Radiograph Analysis
-- Computer-Vision
+- Computer Vision
 - Medical Imaging
 - Caries Detection
 - Insurance

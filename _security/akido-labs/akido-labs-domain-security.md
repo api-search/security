@@ -37,6 +37,6 @@ tags:
 - Clinical Decision Support
 - Primary Care
 - Health Technology
-- Machine-Learning
+- Machine Learning
 - Medical
 ---

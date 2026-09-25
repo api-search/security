@@ -21,7 +21,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Chatbots
 - Customer Experience
 - Sports

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: decart-realtime-api-openapi.yml
-  format: yaml
-  label: Decart Realtime API
-  slug: decart-realtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-realtime-api-openapi.yml
 - filename: decart-client-api-openapi.yml
   format: yaml
   label: Decart Client API
@@ -98,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decart/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Video
 - Video Generation
 - Video Editing
@@ -111,4 +105,5 @@ tags:
 - Media
 - Developer Tools
 - Company
+- A2A
 ---

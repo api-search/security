@@ -33,7 +33,7 @@ tags:
 - Company
 - Economic Health
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Genomics
 - Biology
 - AI Research Lab

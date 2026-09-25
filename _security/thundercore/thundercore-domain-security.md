@@ -52,4 +52,5 @@ tags:
 - JSON-RPC
 - Web3
 - Layer 1
+- Real-Time
 ---

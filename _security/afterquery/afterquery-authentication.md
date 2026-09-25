@@ -34,7 +34,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Data
 - Evaluation
@@ -43,4 +43,5 @@ tags:
 - Research
 - Agents
 - MCP
+- A2A
 ---

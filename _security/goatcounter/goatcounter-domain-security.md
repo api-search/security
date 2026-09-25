@@ -100,7 +100,7 @@ tags:
 - Privacy
 - Statistics
 - Web Analytics
-- Open-Source
+- Open Source
 - Self-Hosted
 - Event
 - Data Export

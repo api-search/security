@@ -138,8 +138,8 @@ tags:
 - Web Scraping
 - SERP
 - E-Commerce
-- Social-Media
-- Real-Estate
+- Social Media
+- Real Estate
 - Job
 - Travel
 - News
@@ -147,7 +147,7 @@ tags:
 - Reviews
 - Company Intelligence
 - MCP
-- agent-native
+- Agent-Native
 - REST
 - OpenAPI
 - llms-txt

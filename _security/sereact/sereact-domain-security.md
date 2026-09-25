@@ -36,7 +36,7 @@ tags:
 - Robotics
 - Warehouse Automation
 - Physical AI
-- Computer-Vision
+- Computer Vision
 - Logistics
 - Fulfillment
 ---

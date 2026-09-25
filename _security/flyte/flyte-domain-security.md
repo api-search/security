@@ -111,6 +111,6 @@ tags:
 - CNCF
 - Data Orchestration
 - Kubernetes
-- Machine-Learning
-- Workflow-Automation
+- Machine Learning
+- Workflow Automation
 ---

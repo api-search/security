@@ -25,8 +25,8 @@ tags:
 - Mortgage
 - Lending
 - Underwriting
-- Agentic AI
+- AI Agents
 - Loan Origination
-- Financial-Services
+- Financial Services
 trust_url: https://trust.balerion.ai/
 ---

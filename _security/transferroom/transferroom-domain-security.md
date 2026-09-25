@@ -37,7 +37,7 @@ tags:
 - Soccer
 - Sports
 - Transfer Market
-- Recruitment
+- Recruiting
 - Scouting
 - Market Intelligence
 - Data

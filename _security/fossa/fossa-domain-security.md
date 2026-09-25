@@ -50,7 +50,7 @@ tags:
 - Company
 - Security
 - Software Supply Chain
-- Open-Source
+- Open Source
 - License Compliance
 - Vulnerability Management
 - SBOM

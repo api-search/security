@@ -39,7 +39,7 @@ tags:
 - Savings
 - Consumer Finance
 - Payments
-- Mobile Applications
+- Mobile App
 - France
 - Europe
 - Regulated

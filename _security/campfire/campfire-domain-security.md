@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-cash-management-api-openapi.yml
 - filename: campfire-coa-api-openapi.yml
   format: yaml
-  label: Campfire coa API
+  label: Campfire Coa API
   slug: campfire-coa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-coa-api-openapi.yml

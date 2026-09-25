@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consumer-produ
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Consumer Protection
-- Federal-Government
+- Federal Government
 - Hazards
 - Open Data
 - Product Safety

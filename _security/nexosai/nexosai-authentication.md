@@ -140,7 +140,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - AI Gateway
-- Machine-Learning
+- Machine Learning
 - Embeddings
 - Agents
 - Developer Tools

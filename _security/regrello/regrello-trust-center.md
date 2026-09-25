@@ -25,9 +25,9 @@ tags:
 - Company
 - Manufacturing
 - Supply Chain
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Process Orchestration
 trust_url: https://www.regrello.com/security
 ---

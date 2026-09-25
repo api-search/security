@@ -651,7 +651,8 @@ tags:
 - Semantic Search
 - RAG
 - MCP
-- agent-native
+- Agent-Native
 - Signals
 - Telemetry
+- Real-Time
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Consumer Insights
 - Fintech
-- Financial-Services
+- Financial Services
 - Fraud Detection
 - Identity Verification
 - KYC

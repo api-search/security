@@ -34,6 +34,6 @@ tags:
 - C#
 - HTTP Client
 - NuGet
-- Open-Source
+- Open Source
 - SDK
 ---

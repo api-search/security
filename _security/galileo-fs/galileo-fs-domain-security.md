@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Card Issuing
 - Banking
 - Payments

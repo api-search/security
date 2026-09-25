@@ -38,6 +38,6 @@ tags:
 - Food and Beverage
 - Hospitality
 - Loyalty
-- Mobile Applications
+- Mobile App
 - Germany
 ---

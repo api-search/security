@@ -41,7 +41,7 @@ tags:
 - Data Privacy
 - Test Data Management
 - Compliance
-- Machine-Learning
+- Machine Learning
 - Database
 - Developer Tools
 ---

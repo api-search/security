@@ -96,7 +96,7 @@ tags:
 - Git
 - Peer-to-Peer
 - Version Control
-- Open-Source
+- Open Source
 - Decentralized
 - Developer Tools API
 ---

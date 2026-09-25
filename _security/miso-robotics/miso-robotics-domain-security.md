@@ -37,7 +37,7 @@ tags:
 - Restaurant
 - Food Service
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Workforce Management
 - Point-of-Sale
 ---

@@ -76,4 +76,6 @@ tags:
 - Ordering
 - Retail
 - Fortune 500
+- Restaurant
+- Food and Beverage
 ---

@@ -94,4 +94,5 @@ tags:
 - MCP
 - Monitoring
 - OpenAPI
+- A2A
 ---

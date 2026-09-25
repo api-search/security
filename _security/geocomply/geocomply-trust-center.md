@@ -26,7 +26,7 @@ tags:
 - KYC
 - Anti-Fraud
 - iGaming
-- Financial-Services
+- Financial Services
 - Security
 trust_url: https://trust.geocomply.com/
 ---

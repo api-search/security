@@ -38,5 +38,5 @@ tags:
 - Receivables Finance
 - Dynamic Discounting
 - Fintech
-- Financial-Services
+- Financial Services
 ---

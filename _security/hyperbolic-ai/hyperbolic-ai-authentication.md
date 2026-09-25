@@ -70,9 +70,9 @@ tags:
 - Decentralized
 - DePIN
 - GPU
-- Image-Generation
+- Image Generation
 - Inference
 - LLM
 - Marketplace
-- Open-Source
+- Open Source
 ---

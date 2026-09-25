@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Cpower Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CPower, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: CPower, Inc.
+overview: 'Domain security posture for CPower, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: CPower
 provider_slug: cpower-inc
 slug: cpower-inc-domain-security
 source_filename: cpower-inc-domain-security.yml

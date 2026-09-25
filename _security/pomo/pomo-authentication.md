@@ -671,7 +671,7 @@ tags:
 - Software-as-a-Service
 - Answer Engine Optimization
 - Advertising
-- Social-Media
+- Social Media
 - Influencer Marketing
 - Campaign Management
 ---

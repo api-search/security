@@ -42,7 +42,7 @@ tags:
 - Hardware
 - Human Interface Devices
 - Embedded
-- Open-Source
+- Open Source
 - Device SDK
 - Music Technology
 ---

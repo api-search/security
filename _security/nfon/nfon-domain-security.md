@@ -14,13 +14,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-accounts-api-openapi.yml
 - filename: nfon-address-api-openapi.yml
   format: yaml
-  label: Nfon address API
+  label: Nfon Address API
   slug: nfon-address-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-address-api-openapi.yml
 - filename: nfon-authentication-api-openapi.yml
   format: yaml
-  label: Nfon authentication API
+  label: Nfon Authentication API
   slug: nfon-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-authentication-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-blacklist-profiles-api-openapi.yml
 - filename: nfon-clip-screened-prefixes-api-openapi.yml
   format: yaml
-  label: Nfon clip-screened-prefixes API
+  label: Nfon Clip Screened Prefixes API
   slug: nfon-clip-screened-prefixes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-clip-screened-prefixes-api-openapi.yml
@@ -206,7 +206,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-direct-calls-api-openapi.yml
 - filename: nfon-import-export-api-openapi.yml
   format: yaml
-  label: Nfon import-export API
+  label: Nfon Import Export API
   slug: nfon-import-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-import-export-api-openapi.yml
@@ -218,7 +218,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-integration-types-api-openapi.yml
 - filename: nfon-licenses-api-openapi.yml
   format: yaml
-  label: Nfon licenses API
+  label: Nfon Licenses API
   slug: nfon-licenses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-licenses-api-openapi.yml
@@ -242,7 +242,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-phone-extensions-api-openapi.yml
 - filename: nfon-queue-profiles-api-openapi.yml
   format: yaml
-  label: Nfon queue-profiles API
+  label: Nfon Queue Profiles API
   slug: nfon-queue-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-queue-profiles-api-openapi.yml
@@ -254,13 +254,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-rating-profiles-api-openapi.yml
 - filename: nfon-records-api-openapi.yml
   format: yaml
-  label: Nfon records API
+  label: Nfon Records API
   slug: nfon-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-records-api-openapi.yml
 - filename: nfon-references-api-openapi.yml
   format: yaml
-  label: Nfon references API
+  label: Nfon References API
   slug: nfon-references-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-references-api-openapi.yml
@@ -272,7 +272,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-sip-servers-api-openapi.yml
 - filename: nfon-sites-api-openapi.yml
   format: yaml
-  label: Nfon sites API
+  label: Nfon Sites API
   slug: nfon-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-sites-api-openapi.yml
@@ -302,13 +302,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-timezones-api-openapi.yml
 - filename: nfon-trial-templates-api-openapi.yml
   format: yaml
-  label: Nfon trial-templates API
+  label: Nfon Trial Templates API
   slug: nfon-trial-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-trial-templates-api-openapi.yml
 - filename: nfon-trunks-api-openapi.yml
   format: yaml
-  label: Nfon trunks API
+  label: Nfon Trunks API
   slug: nfon-trunks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/openapi/nfon-trunks-api-openapi.yml
@@ -361,7 +361,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nfon/refs/head
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Telecom
+- Telecommunications
 - Cloud Telephony
 - UCaaS
 - CPaaS

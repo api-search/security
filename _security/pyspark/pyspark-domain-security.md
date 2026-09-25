@@ -38,7 +38,7 @@ tags:
 - Big Data
 - Data Processing
 - Distributed Computing
-- Machine-Learning
+- Machine Learning
 - Python
 - Streaming
 ---

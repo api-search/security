@@ -41,7 +41,7 @@ tags:
 - Company
 - On-Device AI
 - Inference
-- Machine-Learning
+- Machine Learning
 - SDK
 - Mobile
 - Edge AI

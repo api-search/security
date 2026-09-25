@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Accupulsemedical Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for AccuPulse Medical Technology Co., Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: AccuPulse Medical Technology Co., Ltd.
+overview: 'Domain security posture for AccuPulse Medical, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: AccuPulse Medical
 provider_slug: accupulsemedical
 slug: accupulsemedical-domain-security
 source_filename: accupulsemedical-domain-security.yml

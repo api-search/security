@@ -70,6 +70,6 @@ tags:
 - Big Data
 - cube
 - OLAP
-- Open-Source
+- Open Source
 - SQL
 ---

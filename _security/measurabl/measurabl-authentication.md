@@ -185,7 +185,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs
 summary_line: oauth2 · 1 scheme
 tags:
 - ESG
-- Real-Estate
+- Real Estate
 - Sustainability
 - Carbon Accounting
 - Energy Management

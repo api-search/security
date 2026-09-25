@@ -78,6 +78,6 @@ tags:
 - Conversational AI
 - Generative AI
 - LLM
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 ---

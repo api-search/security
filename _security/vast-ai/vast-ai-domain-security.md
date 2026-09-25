@@ -108,7 +108,7 @@ tags:
 - Cloud
 - Compute
 - GPU
-- Machine-Learning
+- Machine Learning
 - Marketplace
 - Serverless
 ---

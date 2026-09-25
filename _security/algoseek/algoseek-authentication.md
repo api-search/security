@@ -262,7 +262,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: derived\nsource: openapi/algoseek
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/authentication/algoseek-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Options

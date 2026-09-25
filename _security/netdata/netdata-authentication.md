@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: netdata-alerts-api-openapi.yml
   format: yaml
-  label: Netdata alerts API
+  label: Netdata Alerts API
   slug: netdata-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-alerts-api-openapi.yml
 - filename: netdata-charts-api-openapi.yml
   format: yaml
-  label: Netdata charts API
+  label: Netdata Charts API
   slug: netdata-charts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-charts-api-openapi.yml

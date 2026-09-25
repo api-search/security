@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Leasing
 - Multifamily
 - Artificial Intelligence

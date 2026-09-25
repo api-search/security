@@ -72,5 +72,5 @@ tags:
 - OLAP
 - Real-Time
 - Apache
-- Open-Source
+- Open Source
 ---

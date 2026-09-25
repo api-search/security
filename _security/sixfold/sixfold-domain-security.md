@@ -40,6 +40,6 @@ tags:
 - Risk Assessment
 - Submission Triage
 - Document Processing
-- Agentic AI
+- AI Agents
 - Enterprise Saas
 ---

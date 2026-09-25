@@ -63,7 +63,7 @@ summary_line: http · 1 scheme
 tags:
 - Data Science
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Orchestration
 - Pipelines

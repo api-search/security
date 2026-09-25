@@ -33,6 +33,6 @@ tags:
 - Company
 - Satellite
 - Connectivity
-- GroundStation
+- Ground Station
 - Space
 ---

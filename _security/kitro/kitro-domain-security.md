@@ -38,7 +38,7 @@ tags:
 - Food Service
 - Analytics
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - IoT
 - Switzerland
 ---

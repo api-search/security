@@ -6,31 +6,31 @@ api_key_in:
 api_specs:
 - filename: university-of-warsaw-apiref-api-openapi.yml
   format: yaml
-  label: University of Warsaw apiref API
+  label: University of Warsaw Apiref API
   slug: university-of-warsaw-apiref-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-apiref-api-openapi.yml
 - filename: university-of-warsaw-apisrv-api-openapi.yml
   format: yaml
-  label: University of Warsaw apisrv API
+  label: University of Warsaw Apisrv API
   slug: university-of-warsaw-apisrv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-apisrv-api-openapi.yml
 - filename: university-of-warsaw-calendar-api-openapi.yml
   format: yaml
-  label: University of Warsaw calendar API
+  label: University of Warsaw Calendar API
   slug: university-of-warsaw-calendar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-calendar-api-openapi.yml
 - filename: university-of-warsaw-courses-api-openapi.yml
   format: yaml
-  label: University of Warsaw courses API
+  label: University of Warsaw Courses API
   slug: university-of-warsaw-courses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-courses-api-openapi.yml
 - filename: university-of-warsaw-fac-api-openapi.yml
   format: yaml
-  label: University of Warsaw fac API
+  label: University of Warsaw Fac API
   slug: university-of-warsaw-fac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-fac-api-openapi.yml

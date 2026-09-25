@@ -190,7 +190,7 @@ tags:
 - Directory
 - Search & Discovery
 - x402
-- Agent Payments
+- Agentic Payments
 - Community
 - UGC
 ---

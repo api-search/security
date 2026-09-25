@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-bin-lookup-api-openapi.yml
 - filename: cybersource-bankaccountvalidation-api-openapi.yml
   format: yaml
-  label: CyberSource bankAccountValidation API
+  label: CyberSource Bank Account Validation API
   slug: cybersource-bankaccountvalidation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-bankaccountvalidation-api-openapi.yml
@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-bin-lookup-api-openapi.yml
 - filename: cybersource-capture-api-openapi.yml
   format: yaml
-  label: CyberSource capture API
+  label: CyberSource Capture API
   slug: cybersource-capture-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-capture-api-openapi.yml
@@ -74,7 +74,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-credentials-api-openapi.yml
 - filename: cybersource-credit-api-openapi.yml
   format: yaml
-  label: CyberSource credit API
+  label: CyberSource Credit API
   slug: cybersource-credit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-credit-api-openapi.yml
@@ -224,7 +224,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-offers-api-openapi.yml
 - filename: cybersource-orders-api-openapi.yml
   format: yaml
-  label: CyberSource orders API
+  label: CyberSource Orders API
   slug: cybersource-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-orders-api-openapi.yml
@@ -254,13 +254,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-payment-links-api-openapi.yml
 - filename: cybersource-payment-tokens-api-openapi.yml
   format: yaml
-  label: CyberSource payment-tokens API
+  label: CyberSource Payment Tokens API
   slug: cybersource-payment-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-payment-tokens-api-openapi.yml
 - filename: cybersource-payments-api-openapi.yml
   format: yaml
-  label: CyberSource payments API
+  label: CyberSource Payments API
   slug: cybersource-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-payments-api-openapi.yml
@@ -296,7 +296,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-push-funds-api-openapi.yml
 - filename: cybersource-refund-api-openapi.yml
   format: yaml
-  label: CyberSource refund API
+  label: CyberSource Refund API
   slug: cybersource-refund-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-refund-api-openapi.yml
@@ -338,7 +338,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-retrieval-summaries-api-openapi.yml
 - filename: cybersource-reversal-api-openapi.yml
   format: yaml
-  label: CyberSource reversal API
+  label: CyberSource Reversal API
   slug: cybersource-reversal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-reversal-api-openapi.yml
@@ -368,7 +368,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-subscriptions-follow-ons-api-openapi.yml
 - filename: cybersource-taxes-api-openapi.yml
   format: yaml
-  label: CyberSource taxes API
+  label: CyberSource Taxes API
   slug: cybersource-taxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-taxes-api-openapi.yml
@@ -422,7 +422,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-verification-api-openapi.yml
 - filename: cybersource-void-api-openapi.yml
   format: yaml
-  label: CyberSource void API
+  label: CyberSource Void API
   slug: cybersource-void-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/openapi/cybersource-void-api-openapi.yml

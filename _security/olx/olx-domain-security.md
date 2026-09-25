@@ -54,6 +54,6 @@ tags:
 - Classifieds
 - E-Commerce
 - Automotive
-- Real-Estate
+- Real Estate
 - Partner API
 ---

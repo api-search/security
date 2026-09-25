@@ -40,12 +40,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-street/r
 summary_line: SOC 2 Type II
 tags:
 - Climate
-- Risk
+- Risk Management
 - Environment
 - Modeling
 - Geospatial
 - Insurance
-- Real-Estate
+- Real Estate
 - Data
 - GraphQL
 - Mapping

@@ -42,6 +42,6 @@ tags:
 - x402
 - Decentralized Identity
 - Content Authenticity
-- agent-native
+- Agent-Native
 - United States
 ---

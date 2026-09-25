@@ -71,5 +71,5 @@ tags:
 - Coaching
 - Sales Enablement
 - Speech Analytics
-- Machine-Learning
+- Machine Learning
 ---

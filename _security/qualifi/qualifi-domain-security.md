@@ -37,5 +37,5 @@ tags:
 - Human Resources
 - Interviewing
 - Talent Acquisition
-- ATS
+- Applicant Tracking
 ---

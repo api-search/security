@@ -46,6 +46,6 @@ tags:
 - Child Safety
 - Identity
 - Privacy
-- Regulatory Technology
+- RegTech
 - Gaming
 ---

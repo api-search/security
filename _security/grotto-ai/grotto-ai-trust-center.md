@@ -25,7 +25,7 @@ tags:
 - Leasing
 - Sales Coaching
 - PropTech
-- Real-Estate
+- Real Estate
 - Conversation Intelligence
 trust_url: https://trust.grotto.ai/
 ---

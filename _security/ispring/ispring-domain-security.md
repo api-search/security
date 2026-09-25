@@ -2,121 +2,121 @@
 api_specs:
 - filename: ispring-assignments-api-openapi.yml
   format: yaml
-  label: iSpring Learn assignments API
+  label: iSpring Learn Assignments API
   slug: ispring-assignments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-assignments-api-openapi.yml
 - filename: ispring-certificate-api-openapi.yml
   format: yaml
-  label: iSpring Learn certificate API
+  label: iSpring Learn Certificate API
   slug: ispring-certificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-certificate-api-openapi.yml
 - filename: ispring-content-api-openapi.yml
   format: yaml
-  label: iSpring Learn content API
+  label: iSpring Learn Content API
   slug: ispring-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-content-api-openapi.yml
 - filename: ispring-department-api-openapi.yml
   format: yaml
-  label: iSpring Learn department API
+  label: iSpring Learn Department API
   slug: ispring-department-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-department-api-openapi.yml
 - filename: ispring-departments-api-openapi.yml
   format: yaml
-  label: iSpring Learn departments API
+  label: iSpring Learn Departments API
   slug: ispring-departments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-departments-api-openapi.yml
 - filename: ispring-enrollment-api-openapi.yml
   format: yaml
-  label: iSpring Learn enrollment API
+  label: iSpring Learn Enrollment API
   slug: ispring-enrollment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-enrollment-api-openapi.yml
 - filename: ispring-gamification-api-openapi.yml
   format: yaml
-  label: iSpring Learn gamification API
+  label: iSpring Learn Gamification API
   slug: ispring-gamification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-gamification-api-openapi.yml
 - filename: ispring-group-api-openapi.yml
   format: yaml
-  label: iSpring Learn group API
+  label: iSpring Learn Group API
   slug: ispring-group-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-group-api-openapi.yml
 - filename: ispring-jobtraining-api-openapi.yml
   format: yaml
-  label: iSpring Learn jobtraining API
+  label: iSpring Learn Jobtraining API
   slug: ispring-jobtraining-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-jobtraining-api-openapi.yml
 - filename: ispring-learning-track-api-openapi.yml
   format: yaml
-  label: iSpring Learn learning_track API
+  label: iSpring Learn Learning Track API
   slug: ispring-learning-track-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-learning-track-api-openapi.yml
 - filename: ispring-performance-management-api-openapi.yml
   format: yaml
-  label: iSpring Learn performance-management API
+  label: iSpring Learn Performance Management API
   slug: ispring-performance-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-performance-management-api-openapi.yml
 - filename: ispring-quizzes-api-openapi.yml
   format: yaml
-  label: iSpring Learn quizzes API
+  label: iSpring Learn Quizzes API
   slug: ispring-quizzes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-quizzes-api-openapi.yml
 - filename: ispring-report-api-openapi.yml
   format: yaml
-  label: iSpring Learn report API
+  label: iSpring Learn Report API
   slug: ispring-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-report-api-openapi.yml
 - filename: ispring-results-api-openapi.yml
   format: yaml
-  label: iSpring Learn results API
+  label: iSpring Learn Results API
   slug: ispring-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-results-api-openapi.yml
 - filename: ispring-statistics-api-openapi.yml
   format: yaml
-  label: iSpring Learn statistics API
+  label: iSpring Learn Statistics API
   slug: ispring-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-statistics-api-openapi.yml
 - filename: ispring-task-api-openapi.yml
   format: yaml
-  label: iSpring Learn task API
+  label: iSpring Learn Task API
   slug: ispring-task-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-task-api-openapi.yml
 - filename: ispring-token-api-openapi.yml
   format: yaml
-  label: iSpring Learn token API
+  label: iSpring Learn Token API
   slug: ispring-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-token-api-openapi.yml
 - filename: ispring-training-api-openapi.yml
   format: yaml
-  label: iSpring Learn training API
+  label: iSpring Learn Training API
   slug: ispring-training-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-training-api-openapi.yml
 - filename: ispring-user-api-openapi.yml
   format: yaml
-  label: iSpring Learn user API
+  label: iSpring Learn User API
   slug: ispring-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-user-api-openapi.yml
 - filename: ispring-webhook-api-openapi.yml
   format: yaml
-  label: iSpring Learn webhook API
+  label: iSpring Learn Webhook API
   slug: ispring-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-webhook-api-openapi.yml

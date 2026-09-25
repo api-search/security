@@ -36,6 +36,6 @@ tags:
 - Advertising
 - Marketing
 - Video Promotion
-- Social-Media
+- Social Media
 - Creators
 ---

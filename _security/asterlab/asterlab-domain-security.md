@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - OpenAI-Compatible

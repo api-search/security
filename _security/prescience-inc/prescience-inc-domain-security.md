@@ -23,8 +23,8 @@ layout: security
 method: probed
 name: Prescience Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Prescience Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Prescience Inc
+overview: 'Domain security posture for Prescience, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Prescience
 provider_slug: prescience-inc
 slug: prescience-inc-domain-security
 source_filename: prescience-inc-domain-security.yml
@@ -40,7 +40,7 @@ tags:
 - Employee Benefits
 - Insurance
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Startups
 - Y Combinator
 ---

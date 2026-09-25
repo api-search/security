@@ -47,7 +47,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Observability
-- Open-Source
+- Open Source
 - OpenTelemetry
 - Tracing
 - Generative AI

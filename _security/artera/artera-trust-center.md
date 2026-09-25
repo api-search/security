@@ -31,6 +31,6 @@ tags:
 - Health IT
 - EHR Integration
 - FHIR
-- Agentic AI
+- AI Agents
 trust_url: https://safebase.artera.io/
 ---

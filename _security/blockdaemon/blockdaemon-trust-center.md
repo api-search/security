@@ -33,5 +33,6 @@ tags:
 - Tokenization
 - Institutional
 - Crypto
+- Ethereum
 trust_url: https://www.blockdaemon.com/security
 ---

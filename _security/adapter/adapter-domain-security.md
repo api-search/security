@@ -8,19 +8,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-adapter-api-api-openapi.yml
 - filename: adapter-assets-api-openapi.yml
   format: yaml
-  label: Adapter assets API
+  label: Adapter Assets API
   slug: adapter-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-assets-api-openapi.yml
 - filename: adapter-auth-api-openapi.yml
   format: yaml
-  label: Adapter auth API
+  label: Adapter Auth API
   slug: adapter-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-auth-api-openapi.yml
 - filename: adapter-conversations-api-openapi.yml
   format: yaml
-  label: Adapter conversations API
+  label: Adapter Conversations API
   slug: adapter-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-conversations-api-openapi.yml
@@ -38,13 +38,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-imessage-api-openapi.yml
 - filename: adapter-knowledge-api-openapi.yml
   format: yaml
-  label: Adapter knowledge API
+  label: Adapter Knowledge API
   slug: adapter-knowledge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-knowledge-api-openapi.yml
 - filename: adapter-life-api-openapi.yml
   format: yaml
-  label: Adapter life API
+  label: Adapter Life API
   slug: adapter-life-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-life-api-openapi.yml
@@ -56,19 +56,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-line-api-openapi.yml
 - filename: adapter-location-api-openapi.yml
   format: yaml
-  label: Adapter location API
+  label: Adapter Location API
   slug: adapter-location-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-location-api-openapi.yml
 - filename: adapter-management-api-openapi.yml
   format: yaml
-  label: Adapter management API
+  label: Adapter Management API
   slug: adapter-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-management-api-openapi.yml
 - filename: adapter-oauth-connect-api-openapi.yml
   format: yaml
-  label: Adapter oauth-connect API
+  label: Adapter OAUTH Connect API
   slug: adapter-oauth-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-oauth-connect-api-openapi.yml
@@ -80,13 +80,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-openapi-json-api-openapi.yml
 - filename: adapter-proxy-api-openapi.yml
   format: yaml
-  label: Adapter proxy API
+  label: Adapter Proxy API
   slug: adapter-proxy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-proxy-api-openapi.yml
 - filename: adapter-radar-api-openapi.yml
   format: yaml
-  label: Adapter radar API
+  label: Adapter Radar API
   slug: adapter-radar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-radar-api-openapi.yml
@@ -98,13 +98,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-redoc-api-openapi.yml
 - filename: adapter-reminders-api-openapi.yml
   format: yaml
-  label: Adapter reminders API
+  label: Adapter Reminders API
   slug: adapter-reminders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-reminders-api-openapi.yml
 - filename: adapter-reranking-api-openapi.yml
   format: yaml
-  label: Adapter reranking API
+  label: Adapter Reranking API
   slug: adapter-reranking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-reranking-api-openapi.yml
@@ -122,7 +122,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-sms-api-openapi.yml
 - filename: adapter-support-api-openapi.yml
   format: yaml
-  label: Adapter support API
+  label: Adapter Support API
   slug: adapter-support-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/openapi/adapter-support-api-openapi.yml

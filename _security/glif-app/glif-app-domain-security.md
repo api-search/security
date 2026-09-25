@@ -48,8 +48,9 @@ tags:
 - Creative AI
 - Generative AI
 - Video Generation
-- Image-Generation
+- Image Generation
 - ComfyUI
 - MCP
 - LLM Apps
+- A2A
 ---

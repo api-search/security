@@ -52,7 +52,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Enterprise
-- Financial-Services
+- Financial Services
 - Debt Collection
 - Loan Recovery
 - Lending

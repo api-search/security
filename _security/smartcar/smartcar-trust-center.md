@@ -58,5 +58,6 @@ tags:
 - Fleet Management
 - EV Management
 - Telematics
+- Electric Vehicles
 trust_url: https://trust.smartcar.com/
 ---

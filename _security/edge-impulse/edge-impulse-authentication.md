@@ -407,12 +407,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/r
 summary_line: apiKey · 4 schemes
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Embedded Machine Learning
 - Edge AI
 - MLOps
-- Computer-Vision
+- Computer Vision
 - IoT
 - Model Deployment
 - Developer Tools
+- Real-Time
+- A2A
 ---

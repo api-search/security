@@ -83,5 +83,6 @@ tags:
 - MCP
 - Monitoring
 - OpenAPI
+- A2A
 trust_url: https://redocly.com/security
 ---

@@ -4,13 +4,13 @@ api_key_in: []
 api_specs:
 - filename: pleo-accounting-entries-api-openapi.yml
   format: yaml
-  label: Pleo accounting-entries API
+  label: Pleo Accounting Entries API
   slug: pleo-accounting-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounting-entries-api-openapi.yml
 - filename: pleo-accounting-entries-external-api-openapi.yml
   format: yaml
-  label: Pleo accounting-entries-external API
+  label: Pleo Accounting Entries External API
   slug: pleo-accounting-entries-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounting-entries-external-api-openapi.yml
@@ -94,7 +94,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-external-clients-api-openapi.yml
 - filename: pleo-external-vendors-api-openapi.yml
   format: yaml
-  label: Pleo external-vendors API
+  label: Pleo External Vendors API
   slug: pleo-external-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-external-vendors-api-openapi.yml
@@ -112,19 +112,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-subscriptions-api-openapi.yml
 - filename: pleo-tag-groups-api-openapi.yml
   format: yaml
-  label: Pleo tag-groups API
+  label: Pleo Tag Groups API
   slug: pleo-tag-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tag-groups-api-openapi.yml
 - filename: pleo-tags-api-openapi.yml
   format: yaml
-  label: Pleo tags API
+  label: Pleo Tags API
   slug: pleo-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tags-api-openapi.yml
 - filename: pleo-tax-codes-api-openapi.yml
   format: yaml
-  label: Pleo tax-codes API
+  label: Pleo Tax Codes API
   slug: pleo-tax-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tax-codes-api-openapi.yml

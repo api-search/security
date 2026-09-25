@@ -38,5 +38,5 @@ tags:
 - ADAS
 - Sensor Calibration
 - Automation
-- Computer-Vision
+- Computer Vision
 ---

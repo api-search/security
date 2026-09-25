@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Media
 - Video Generation
-- Image-Generation
+- Image Generation
 - Automation
 - Templates
 - Rendering

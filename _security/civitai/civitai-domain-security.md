@@ -108,7 +108,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Stable Diffusion
 - SDXL

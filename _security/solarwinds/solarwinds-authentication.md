@@ -210,4 +210,5 @@ tags:
 - Log Management
 - Network Monitoring
 - Observability
+- Monitoring
 ---

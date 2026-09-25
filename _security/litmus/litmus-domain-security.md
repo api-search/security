@@ -87,4 +87,5 @@ tags:
 - Email Testing
 - Marketing Tools
 - Quality Assurance
+- Email
 ---

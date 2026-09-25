@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Chimelabs Holdings Pty Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Chimelabs Holdings PTY LTD, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Chimelabs Holdings PTY LTD
+overview: 'Domain security posture for Chimelabs, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Chimelabs
 provider_slug: chimelabs-holdings-pty-ltd
 slug: chimelabs-holdings-pty-ltd-domain-security
 source_filename: chimelabs-holdings-pty-ltd-domain-security.yml

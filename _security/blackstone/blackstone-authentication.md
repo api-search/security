@@ -32,6 +32,6 @@ tags:
 - Finance
 - Investment Management
 - Private Equity
-- Real-Estate
+- Real Estate
 - Fortune 500
 ---

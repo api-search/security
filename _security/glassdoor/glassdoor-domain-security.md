@@ -44,6 +44,6 @@ tags:
 - Employer Reviews
 - Job Search
 - Salaries
-- Recruitment
+- Recruiting
 - Employer Branding
 ---

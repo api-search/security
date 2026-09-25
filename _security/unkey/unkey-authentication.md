@@ -4,37 +4,37 @@ api_key_in: []
 api_specs:
 - filename: unkey-analytics-api-openapi.yml
   format: yaml
-  label: Unkey analytics API
+  label: Unkey Analytics API
   slug: unkey-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-analytics-api-openapi.yml
 - filename: unkey-deploy-api-openapi.yml
   format: yaml
-  label: Unkey deploy API
+  label: Unkey Deploy API
   slug: unkey-deploy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-deploy-api-openapi.yml
 - filename: unkey-identities-api-openapi.yml
   format: yaml
-  label: Unkey identities API
+  label: Unkey Identities API
   slug: unkey-identities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-identities-api-openapi.yml
 - filename: unkey-keys-api-openapi.yml
   format: yaml
-  label: Unkey keys API
+  label: Unkey Keys API
   slug: unkey-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-keys-api-openapi.yml
 - filename: unkey-liveness-api-openapi.yml
   format: yaml
-  label: Unkey liveness API
+  label: Unkey Liveness API
   slug: unkey-liveness-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-liveness-api-openapi.yml
 - filename: unkey-permissions-api-openapi.yml
   format: yaml
-  label: Unkey permissions API
+  label: Unkey Permissions API
   slug: unkey-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-permissions-api-openapi.yml

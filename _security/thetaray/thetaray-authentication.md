@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: https://api.theta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/authentication/thetaray-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Transaction Monitoring
 - Sanctions Screening

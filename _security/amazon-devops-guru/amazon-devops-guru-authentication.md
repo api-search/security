@@ -119,6 +119,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Anomaly Detection
 - DevOps
-- Machine-Learning
+- Machine Learning
 - Operational Intelligence
 ---

@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Scientific Research
 - Developer Tools
 - Agents

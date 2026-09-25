@@ -35,5 +35,5 @@ tags:
 - Longevity
 - Wellness
 - Diagnostics
-- AI
+- Artificial Intelligence
 ---

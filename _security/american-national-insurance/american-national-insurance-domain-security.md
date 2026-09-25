@@ -37,6 +37,6 @@ tags:
 - Health Insurance
 - Property Casualty
 - Pensions
-- Financial-Services
+- Financial Services
 - Fortune 1000
 ---

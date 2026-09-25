@@ -261,7 +261,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/alto-ap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/authentication/alto-vebra-authentication.yml
 summary_line: apiKey/oauth2 · 5 schemes
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Listings

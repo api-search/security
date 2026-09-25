@@ -35,6 +35,6 @@ tags:
 - Healthcare
 - Life Sciences
 - Clinical Trials
-- Open-Source
+- Open Source
 - Fortune 500
 ---

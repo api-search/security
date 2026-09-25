@@ -36,5 +36,5 @@ tags:
 - Property Management
 - Consumer Services
 - Techstars
-- Real-Estate
+- Real Estate
 ---

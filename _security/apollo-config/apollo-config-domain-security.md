@@ -72,6 +72,6 @@ tags:
 - Distributed Systems
 - Java
 - Microservices
-- Open-Source
+- Open Source
 - Real-Time Configuration
 ---

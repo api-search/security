@@ -124,7 +124,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-business-transitions-api-openapi.yml
 - filename: marqeta-businesses-api-openapi.yml
   format: yaml
-  label: Marqeta businesses API
+  label: Marqeta Businesses API
   slug: marqeta-businesses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-businesses-api-openapi.yml
@@ -154,13 +154,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-cardholder-balances-api-openapi.yml
 - filename: marqeta-cards-api-openapi.yml
   format: yaml
-  label: Marqeta cards API
+  label: Marqeta Cards API
   slug: marqeta-cards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-cards-api-openapi.yml
 - filename: marqeta-chargebacks-api-openapi.yml
   format: yaml
-  label: Marqeta chargebacks API
+  label: Marqeta Chargebacks API
   slug: marqeta-chargebacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-chargebacks-api-openapi.yml
@@ -268,7 +268,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-journal-entries-api-openapi.yml
 - filename: marqeta-kyc-api-openapi.yml
   format: yaml
-  label: Marqeta kyc API
+  label: Marqeta Kyc API
   slug: marqeta-kyc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-kyc-api-openapi.yml
@@ -292,7 +292,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-mcc-groups-api-openapi.yml
 - filename: marqeta-merchantgroups-api-openapi.yml
   format: yaml
-  label: Marqeta merchantgroups API
+  label: Marqeta Merchantgroups API
   slug: marqeta-merchantgroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-merchantgroups-api-openapi.yml
@@ -328,7 +328,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-peer-transfers-api-openapi.yml
 - filename: marqeta-ping-api-openapi.yml
   format: yaml
-  label: Marqeta ping API
+  label: Marqeta Ping API
   slug: marqeta-ping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-ping-api-openapi.yml
@@ -400,7 +400,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-rewards-api-openapi.yml
 - filename: marqeta-simulate-api-openapi.yml
   format: yaml
-  label: Marqeta simulate API
+  label: Marqeta Simulate API
   slug: marqeta-simulate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/openapi/marqeta-simulate-api-openapi.yml
@@ -506,7 +506,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/h
 summary_line: http · 1 scheme
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Card Issuing
 - Payments
 - Embedded Finance

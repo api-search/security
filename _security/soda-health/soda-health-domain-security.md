@@ -2,13 +2,13 @@
 api_specs:
 - filename: soda-health-docs-api-openapi.yml
   format: yaml
-  label: Soda Health docs API
+  label: Soda Health Docs API
   slug: soda-health-docs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-api-openapi.yml
 - filename: soda-health-docs-auth-api-openapi.yml
   format: yaml
-  label: Soda Health docs-auth API
+  label: Soda Health Docs Auth API
   slug: soda-health-docs-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/openapi/soda-health-docs-auth-api-openapi.yml

@@ -35,7 +35,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - AI Governance
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Enterprise AI
 - MCP
 - Semantic Layer

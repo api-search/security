@@ -24,8 +24,8 @@ method: derived
 name: Reachware Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Reachware Inc. secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Reachware Inc.
+overview: Reachware secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Reachware
 provider_slug: reachware-inc
 scheme_count: 1
 schemes:

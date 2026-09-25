@@ -57,8 +57,8 @@ tags:
 - Dogs
 - Image
 - Animals
-- Open-Source
+- Open Source
 - Free API
-- Machine-Learning
+- Machine Learning
 - Education
 ---

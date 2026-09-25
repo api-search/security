@@ -24,9 +24,9 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Robotic Process Automation
+- RPA
 - Computer Use
-- Workflow-Automation
+- Workflow Automation
 - UI Automation
 trust_url: https://trust.ramain.ai/
 ---

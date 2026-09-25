@@ -252,5 +252,6 @@ tags:
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication
+- Identity Federation
 trust_url: https://trust.fusionauth.io/
 ---

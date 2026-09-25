@@ -21,7 +21,7 @@ tags:
 - Digital Banking
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Fintech
 - Core Banking
 - Digital Account Opening

@@ -28,11 +28,11 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - IoT
 - On-Device AI
 - JavaScript
-- Open-Source
+- Open Source
 - SDK
-- Computer-Vision
+- Computer Vision
 ---

@@ -124,8 +124,8 @@ tags:
 - Company
 - Emotion AI
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Facial Coding
 - Facial Expression Analysis
 - Media Analytics

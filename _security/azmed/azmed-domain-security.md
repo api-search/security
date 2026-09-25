@@ -37,5 +37,5 @@ tags:
 - Radiology
 - Healthcare
 - Diagnostics
-- Machine-Learning
+- Machine Learning
 ---

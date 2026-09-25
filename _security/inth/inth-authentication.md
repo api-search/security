@@ -74,5 +74,6 @@ tags:
 - Compliance
 - Consent
 - Developer Tools
-- Open-Source
+- Open Source
+- A2A
 ---

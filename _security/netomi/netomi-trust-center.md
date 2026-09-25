@@ -226,10 +226,10 @@ summary_line: SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA, PDPA
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Customer Experience
 - Customer Service
-- Customer-Support
+- Customer Support
 - Conversational AI
 - Chatbots
 - Chat

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Social
-- Social-Media
+- Social Media
 - Photo Sharing
 - Consumer
 - Mobile

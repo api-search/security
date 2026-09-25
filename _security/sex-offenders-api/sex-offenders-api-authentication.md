@@ -52,7 +52,7 @@ tags:
 - Criminal Justice
 - Government Data
 - Geospatial
-- Real-Estate
-- Risk
+- Real Estate
+- Risk Management
 - People Data
 ---

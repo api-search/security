@@ -43,7 +43,7 @@ tags:
 - Semiconductors
 - Robotics
 - Edge AI
-- Machine-Learning
+- Machine Learning
 - MCP
 - Agent Skills
 - Developer Tools

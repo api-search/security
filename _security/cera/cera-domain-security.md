@@ -38,5 +38,5 @@ tags:
 - Remote Monitoring
 - Digital Health
 - Elderly Care
-- Machine-Learning
+- Machine Learning
 ---

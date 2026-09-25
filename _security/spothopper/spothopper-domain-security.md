@@ -37,7 +37,7 @@ tags:
 - Websites
 - SEO
 - Reviews
-- Social-Media
+- Social Media
 - Email Marketing
 - SMS
 - Small Business

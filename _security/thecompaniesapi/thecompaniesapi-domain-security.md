@@ -2,73 +2,73 @@
 api_specs:
 - filename: thecompaniesapi-actions-api-openapi.yml
   format: yaml
-  label: The Companies API actions API
+  label: The Companies API Actions API
   slug: thecompaniesapi-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-actions-api-openapi.yml
 - filename: thecompaniesapi-analytics-api-openapi.yml
   format: yaml
-  label: The Companies API analytics API
+  label: The Companies API Analytics API
   slug: thecompaniesapi-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-analytics-api-openapi.yml
 - filename: thecompaniesapi-companies-api-openapi.yml
   format: yaml
-  label: The Companies API companies API
+  label: The Companies API Companies API
   slug: thecompaniesapi-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-companies-api-openapi.yml
 - filename: thecompaniesapi-industries-api-openapi.yml
   format: yaml
-  label: The Companies API industries API
+  label: The Companies API Industries API
   slug: thecompaniesapi-industries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-industries-api-openapi.yml
 - filename: thecompaniesapi-job-titles-api-openapi.yml
   format: yaml
-  label: The Companies API job-titles API
+  label: The Companies API Job Titles API
   slug: thecompaniesapi-job-titles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-job-titles-api-openapi.yml
 - filename: thecompaniesapi-lists-api-openapi.yml
   format: yaml
-  label: The Companies API lists API
+  label: The Companies API Lists API
   slug: thecompaniesapi-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-lists-api-openapi.yml
 - filename: thecompaniesapi-locations-api-openapi.yml
   format: yaml
-  label: The Companies API locations API
+  label: The Companies API Locations API
   slug: thecompaniesapi-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-locations-api-openapi.yml
 - filename: thecompaniesapi-prompts-api-openapi.yml
   format: yaml
-  label: The Companies API prompts API
+  label: The Companies API Prompts API
   slug: thecompaniesapi-prompts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-prompts-api-openapi.yml
 - filename: thecompaniesapi-teams-api-openapi.yml
   format: yaml
-  label: The Companies API teams API
+  label: The Companies API Teams API
   slug: thecompaniesapi-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-teams-api-openapi.yml
 - filename: thecompaniesapi-technologies-api-openapi.yml
   format: yaml
-  label: The Companies API technologies API
+  label: The Companies API Technologies API
   slug: thecompaniesapi-technologies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-technologies-api-openapi.yml
 - filename: thecompaniesapi-users-api-openapi.yml
   format: yaml
-  label: The Companies API users API
+  label: The Companies API Users API
   slug: thecompaniesapi-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-users-api-openapi.yml
 - filename: thecompaniesapi-utilities-api-openapi.yml
   format: yaml
-  label: The Companies API utilities API
+  label: The Companies API Utilities API
   slug: thecompaniesapi-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-utilities-api-openapi.yml

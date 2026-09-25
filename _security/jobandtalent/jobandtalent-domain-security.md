@@ -41,7 +41,7 @@ tags:
 - Marketplace
 - Staffing
 - Workforce
-- Recruitment
+- Recruiting
 - Employment
 - Human Resources
 ---

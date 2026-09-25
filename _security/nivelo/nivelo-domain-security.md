@@ -41,7 +41,7 @@ tags:
 - ACH
 - Fintech
 - Payroll
-- Risk
+- Risk Management
 - Fraud Detection
 - Money Movement
 - Real-Time Payments

@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://apisb.e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/authentication/morgan-stanley-authentication.yml
 summary_line: oauth1/oauth2 · 2 schemes
 tags:
-- Financial
+- Finance
 - Investment Banking
 - Wealth Management
 - Brokerage

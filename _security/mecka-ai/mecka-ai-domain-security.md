@@ -38,6 +38,6 @@ tags:
 - Embodied AI
 - Training Data
 - Datasets
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 ---

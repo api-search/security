@@ -33,7 +33,7 @@ tags:
 - Frontier Tech
 - Artificial Intelligence
 - Machine Vision
-- Computer-Vision
+- Computer Vision
 - Industrial Automation
 - Manufacturing
 - Quality Inspection

@@ -41,7 +41,7 @@ tags:
 - Artificial Intelligence
 - Keyboard
 - Predictive Text
-- Machine-Learning
+- Machine Learning
 - Mobile
 - Microsoft
 ---

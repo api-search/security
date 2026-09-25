@@ -33,10 +33,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
-- Financial-Services
+- Financial Services
 - Enterprise Software
-- Workflow-Automation
+- Workflow Automation
 - AI Governance
 - Model Risk Management
 - Insurance

@@ -2,31 +2,31 @@
 api_specs:
 - filename: opusclip-brand-templates-api-openapi.yml
   format: yaml
-  label: OpusClip brand-templates API
+  label: OpusClip Brand Templates API
   slug: opusclip-brand-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-brand-templates-api-openapi.yml
 - filename: opusclip-censor-jobs-api-openapi.yml
   format: yaml
-  label: OpusClip censor-jobs API
+  label: OpusClip Censor Jobs API
   slug: opusclip-censor-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-censor-jobs-api-openapi.yml
 - filename: opusclip-clip-project-api-openapi.yml
   format: yaml
-  label: OpusClip clip-project API
+  label: OpusClip Clip Project API
   slug: opusclip-clip-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-clip-project-api-openapi.yml
 - filename: opusclip-collection-api-openapi.yml
   format: yaml
-  label: OpusClip collection API
+  label: OpusClip Collection API
   slug: opusclip-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-api-openapi.yml
 - filename: opusclip-collection-content-api-openapi.yml
   format: yaml
-  label: OpusClip collection-content API
+  label: OpusClip Collection Content API
   slug: opusclip-collection-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-content-api-openapi.yml
@@ -38,19 +38,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-exportableclip-api-openapi.yml
 - filename: opusclip-generative-jobs-api-openapi.yml
   format: yaml
-  label: OpusClip generative-jobs API
+  label: OpusClip Generative Jobs API
   slug: opusclip-generative-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-generative-jobs-api-openapi.yml
 - filename: opusclip-social-posting-api-openapi.yml
   format: yaml
-  label: OpusClip social-posting API
+  label: OpusClip Social Posting API
   slug: opusclip-social-posting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-social-posting-api-openapi.yml
 - filename: opusclip-transcripts-api-openapi.yml
   format: yaml
-  label: OpusClip transcripts API
+  label: OpusClip Transcripts API
   slug: opusclip-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-transcripts-api-openapi.yml
@@ -97,7 +97,7 @@ tags:
 - Artificial Intelligence
 - Video Editing
 - Short-Form Video
-- Social-Media
+- Social Media
 - Content Creation
 - MCP
 - Developer API

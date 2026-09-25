@@ -38,4 +38,5 @@ tags:
 - Web3
 - Blockchain
 - Self-Custody
+- Defunct
 ---

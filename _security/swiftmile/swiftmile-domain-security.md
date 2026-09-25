@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Micromobility
-- Electric Vehicle Charging
+- EV Charging
 - Transportation
 - IoT
 - Hardware

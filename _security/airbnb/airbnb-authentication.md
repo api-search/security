@@ -107,4 +107,5 @@ tags:
 - Hospitality
 - Travel
 - Airbnb
+- Booking
 ---

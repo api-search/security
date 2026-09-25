@@ -54,9 +54,8 @@ summary_line: oauth2/session-token · 2 schemes
 tags:
 - Company
 - Staffing
-- Recruitment
+- Recruiting
 - Applicant Tracking
-- ATS
 - CRM
 - Human Resources
 - REST

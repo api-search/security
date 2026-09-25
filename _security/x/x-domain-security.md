@@ -209,7 +209,7 @@ tags:
 - Conversations
 - X
 - Social
-- Social-Media
+- Social Media
 - Posts
 - User
 - Direct Messages

@@ -34,7 +34,7 @@ tags:
 - Loss Prevention
 - Retail
 - Physical Security
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Theft Detection
 - Artificial Intelligence

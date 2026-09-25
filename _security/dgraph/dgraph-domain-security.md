@@ -38,6 +38,6 @@ tags:
 - Graph Database
 - Distributed Database
 - Real-Time
-- Open-Source
+- Open Source
 - Knowledge Graph
 ---

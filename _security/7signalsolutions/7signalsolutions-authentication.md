@@ -298,6 +298,6 @@ tags:
 - Endpoint Monitoring
 - Time Series
 - MCP
-- agent-native
+- Agent-Native
 - Company
 ---

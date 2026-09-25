@@ -39,7 +39,7 @@ tags:
 - Industrial Heat
 - Thermophotovoltaics
 - Manufacturing
-- Data-Center
+- Data Center
 - Decarbonization
 - Climate Tech
 - California

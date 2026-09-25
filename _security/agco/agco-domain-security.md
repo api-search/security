@@ -401,5 +401,4 @@ tags:
 - Manufacturing
 - Telematics
 - Precision Agriculture
-- Diagnostics
 ---

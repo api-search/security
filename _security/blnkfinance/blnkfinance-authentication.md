@@ -81,15 +81,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/re
 summary_line: apiKey/http/oauth2 · 0 schemes
 tags:
 - Fintech
-- Financial-Services
+- Financial Services
 - Ledger
 - double-entry-accounting
 - Payments
 - Wallets
 - Lending
 - Banking Infrastructure
-- Open-Source
+- Open Source
 - MCP
 - AI Agents
 - Developer Tools
+- A2A
 ---

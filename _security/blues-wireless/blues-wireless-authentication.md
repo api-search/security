@@ -4,31 +4,31 @@ api_key_in: []
 api_specs:
 - filename: blues-wireless-alert-api-openapi.yml
   format: yaml
-  label: Blues alert API
+  label: Blues Alert API
   slug: blues-wireless-alert-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-alert-api-openapi.yml
 - filename: blues-wireless-authorization-api-openapi.yml
   format: yaml
-  label: Blues authorization API
+  label: Blues Authorization API
   slug: blues-wireless-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-authorization-api-openapi.yml
 - filename: blues-wireless-billing-account-api-openapi.yml
   format: yaml
-  label: Blues billing_account API
+  label: Blues Billing Account API
   slug: blues-wireless-billing-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-billing-account-api-openapi.yml
 - filename: blues-wireless-device-api-openapi.yml
   format: yaml
-  label: Blues device API
+  label: Blues Device API
   slug: blues-wireless-device-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-device-api-openapi.yml
 - filename: blues-wireless-event-api-openapi.yml
   format: yaml
-  label: Blues event API
+  label: Blues Event API
   slug: blues-wireless-event-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-event-api-openapi.yml
@@ -40,43 +40,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-external-devices-api-openapi.yml
 - filename: blues-wireless-jobs-api-openapi.yml
   format: yaml
-  label: Blues jobs API
+  label: Blues Jobs API
   slug: blues-wireless-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-jobs-api-openapi.yml
 - filename: blues-wireless-monitor-api-openapi.yml
   format: yaml
-  label: Blues monitor API
+  label: Blues Monitor API
   slug: blues-wireless-monitor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-monitor-api-openapi.yml
 - filename: blues-wireless-organization-api-openapi.yml
   format: yaml
-  label: Blues organization API
+  label: Blues Organization API
   slug: blues-wireless-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-organization-api-openapi.yml
 - filename: blues-wireless-project-api-openapi.yml
   format: yaml
-  label: Blues project API
+  label: Blues Project API
   slug: blues-wireless-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-project-api-openapi.yml
 - filename: blues-wireless-route-api-openapi.yml
   format: yaml
-  label: Blues route API
+  label: Blues Route API
   slug: blues-wireless-route-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-route-api-openapi.yml
 - filename: blues-wireless-usage-api-openapi.yml
   format: yaml
-  label: Blues usage API
+  label: Blues Usage API
   slug: blues-wireless-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-usage-api-openapi.yml
 - filename: blues-wireless-webhook-api-openapi.yml
   format: yaml
-  label: Blues webhook API
+  label: Blues Webhook API
   slug: blues-wireless-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-webhook-api-openapi.yml

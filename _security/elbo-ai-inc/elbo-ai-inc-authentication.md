@@ -42,8 +42,8 @@ method: derived
 name: Elbo Ai Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: ELBO AI, INC secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: ELBO AI, INC
+overview: Puppetry secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Puppetry
 provider_slug: elbo-ai-inc
 scheme_count: 1
 schemes:

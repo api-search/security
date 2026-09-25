@@ -71,6 +71,6 @@ tags:
 - Application Platform
 - Cloud Database
 - Online Forms
-- Workflow-Automation
+- Workflow Automation
 trust_url: https://www.caspio.com/compliance/
 ---

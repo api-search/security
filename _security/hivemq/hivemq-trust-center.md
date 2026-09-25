@@ -52,5 +52,6 @@ tags:
 - Message Broker
 - Pub-Sub
 - WebSocket
+- Real-Time
 trust_url: https://www.hivemq.com/solutions/technology/hivemq-security/
 ---

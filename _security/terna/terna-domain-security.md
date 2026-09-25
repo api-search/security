@@ -42,5 +42,5 @@ tags:
 - Transmission
 - Infrastructure
 - Italy
-- Renewable
+- Renewables
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - ADU
 - Accessory Dwelling Units
-- Real-Estate
+- Real Estate
 - PropTech
 - Construction
 - Property Management

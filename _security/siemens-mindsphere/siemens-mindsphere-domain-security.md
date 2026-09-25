@@ -62,8 +62,8 @@ layout: security
 method: probed
 name: Siemens Mindsphere Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Siemens MindSphere, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: Siemens MindSphere
+overview: 'Domain security posture for Siemens Insights Hub (MindSphere), probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Siemens Insights Hub (MindSphere)
 provider_slug: siemens-mindsphere
 slug: siemens-mindsphere-domain-security
 source_filename: siemens-mindsphere-domain-security.yml

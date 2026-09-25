@@ -46,5 +46,5 @@ tags:
 - West Africa
 - UEMOA
 - B2B Payments
-- Financial-Services
+- Financial Services
 ---

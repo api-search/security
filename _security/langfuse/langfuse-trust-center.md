@@ -193,7 +193,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Observability
-- Open-Source
+- Open Source
 - Evaluation
 trust_url: https://langfuse.com/security
 ---

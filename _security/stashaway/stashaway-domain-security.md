@@ -112,7 +112,7 @@ tags:
 - Wealth Management
 - Investing
 - Robo-Advisor
-- Financial-Services
+- Financial Services
 - Asset Management
 - ETFs
 - Cash Management

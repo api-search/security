@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switch-therape
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Biotech
 - Biotechnology
 - Pharmaceuticals
 - Genetic Medicine

@@ -262,7 +262,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-user-api-openapi.yml
 - filename: weka-weka-home-api-openapi.yml
   format: yaml
-  label: Weka home API
+  label: Weka Home API
   slug: weka-weka-home-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/openapi/weka-weka-home-api-openapi.yml

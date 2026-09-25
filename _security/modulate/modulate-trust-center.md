@@ -96,8 +96,9 @@ tags:
 - Content Moderation
 - Trust and Safety
 - Audio
-- Machine-Learning
+- Machine Learning
 - PII Redaction
 - Voice Intelligence
+- Real-Time
 trust_url: https://www.modulate.ai/compliance
 ---

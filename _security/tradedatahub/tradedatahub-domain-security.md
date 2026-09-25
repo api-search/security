@@ -57,7 +57,7 @@ tags:
 - Lead Generation
 - Sales Intelligence
 - x402
-- agent-native
+- Agent-Native
 - llms-txt
 - OpenAPI
 ---

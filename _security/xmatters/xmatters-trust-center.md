@@ -89,6 +89,6 @@ tags:
 - Service Reliability
 - DevOps
 - Communications
-- Workflow-Automation
+- Workflow Automation
 trust_url: https://trust.everbridge.com/
 ---

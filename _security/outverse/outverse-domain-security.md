@@ -39,7 +39,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer-Support
+- Customer Support
 - Customer Service
 - Support Automation
 - Voice

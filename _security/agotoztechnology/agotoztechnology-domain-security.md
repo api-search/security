@@ -40,6 +40,6 @@ tags:
 - SASE
 - DDoS Protection
 - Cloud Connectivity
-- Data-Center
+- Data Center
 - Telecommunications
 ---

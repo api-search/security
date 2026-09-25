@@ -28,7 +28,7 @@ summary_line: ISO/IEC 27001:2022, SecNumCloud, GDPR, EU AI Act, EcoVadis Silver
 tags:
 - Company
 - Software-as-a-Service
-- Knowledge-Management
+- Knowledge Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

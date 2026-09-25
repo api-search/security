@@ -40,7 +40,7 @@ tags:
 - Venture Backed
 - DCVC Portfolio
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Medicinal Chemistry
 - Small Molecule
 - Neurodegenerative Disease

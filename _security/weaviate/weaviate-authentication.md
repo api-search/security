@@ -5,115 +5,115 @@ api_key_in:
 api_specs:
 - filename: weaviate-authz-api-openapi.yml
   format: yaml
-  label: Weaviate authz API
+  label: Weaviate Authz API
   slug: weaviate-authz-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-authz-api-openapi.yml
 - filename: weaviate-backups-api-openapi.yml
   format: yaml
-  label: Weaviate backups API
+  label: Weaviate Backups API
   slug: weaviate-backups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-backups-api-openapi.yml
 - filename: weaviate-batch-api-openapi.yml
   format: yaml
-  label: Weaviate batch API
+  label: Weaviate Batch API
   slug: weaviate-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-batch-api-openapi.yml
 - filename: weaviate-classifications-api-openapi.yml
   format: yaml
-  label: Weaviate classifications API
+  label: Weaviate Classifications API
   slug: weaviate-classifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-classifications-api-openapi.yml
 - filename: weaviate-cluster-api-openapi.yml
   format: yaml
-  label: Weaviate cluster API
+  label: Weaviate Cluster API
   slug: weaviate-cluster-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-cluster-api-openapi.yml
 - filename: weaviate-discovery-api-openapi.yml
   format: yaml
-  label: Weaviate discovery API
+  label: Weaviate Discovery API
   slug: weaviate-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-discovery-api-openapi.yml
 - filename: weaviate-distributedtasks-api-openapi.yml
   format: yaml
-  label: Weaviate distributedTasks API
+  label: Weaviate Distributed Tasks API
   slug: weaviate-distributedtasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-distributedtasks-api-openapi.yml
 - filename: weaviate-export-api-openapi.yml
   format: yaml
-  label: Weaviate export API
+  label: Weaviate Export API
   slug: weaviate-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-export-api-openapi.yml
 - filename: weaviate-mcp-api-openapi.yml
   format: yaml
-  label: Weaviate mcp API
+  label: Weaviate MCP API
   slug: weaviate-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-mcp-api-openapi.yml
 - filename: weaviate-meta-api-openapi.yml
   format: yaml
-  label: Weaviate meta API
+  label: Weaviate Meta API
   slug: weaviate-meta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-meta-api-openapi.yml
 - filename: weaviate-namespaces-api-openapi.yml
   format: yaml
-  label: Weaviate namespaces API
+  label: Weaviate Namespaces API
   slug: weaviate-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-namespaces-api-openapi.yml
 - filename: weaviate-nodes-api-openapi.yml
   format: yaml
-  label: Weaviate nodes API
+  label: Weaviate Nodes API
   slug: weaviate-nodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-nodes-api-openapi.yml
 - filename: weaviate-objects-api-openapi.yml
   format: yaml
-  label: Weaviate objects API
+  label: Weaviate Objects API
   slug: weaviate-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-objects-api-openapi.yml
 - filename: weaviate-oidc-api-openapi.yml
   format: yaml
-  label: Weaviate oidc API
+  label: Weaviate Oidc API
   slug: weaviate-oidc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-oidc-api-openapi.yml
 - filename: weaviate-references-api-openapi.yml
   format: yaml
-  label: Weaviate references API
+  label: Weaviate References API
   slug: weaviate-references-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-references-api-openapi.yml
 - filename: weaviate-replication-api-openapi.yml
   format: yaml
-  label: Weaviate replication API
+  label: Weaviate Replication API
   slug: weaviate-replication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-replication-api-openapi.yml
 - filename: weaviate-schema-api-openapi.yml
   format: yaml
-  label: Weaviate schema API
+  label: Weaviate Schema API
   slug: weaviate-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-schema-api-openapi.yml
 - filename: weaviate-tokenize-api-openapi.yml
   format: yaml
-  label: Weaviate tokenize API
+  label: Weaviate Tokenize API
   slug: weaviate-tokenize-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-tokenize-api-openapi.yml
 - filename: weaviate-users-api-openapi.yml
   format: yaml
-  label: Weaviate users API
+  label: Weaviate Users API
   slug: weaviate-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-users-api-openapi.yml
@@ -175,9 +175,10 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Vector Database
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Semantic Search
-- Open-Source
+- Open Source
 - GraphQL
 - Kubernetes
+- Database
 ---

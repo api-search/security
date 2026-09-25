@@ -524,7 +524,7 @@ summary_line: oauth2/openIdConnect · 3 schemes
 tags:
 - Eclipse Foundation
 - Foundations
-- Open-Source
+- Open Source
 - Standards
 - Developer Tools
 - Extensions

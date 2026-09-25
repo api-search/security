@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-09-20'\nmethod: searched\nsource: https://curator
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/authentication/curatorsearch-authentication.yml
 summary_line: none · 0 schemes
 tags:
-- agent-native
+- Agent-Native
 - MCP
 - OpenAPI
 - llms-txt

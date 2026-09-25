@@ -39,7 +39,7 @@ tags:
 - Buy Now Pay Later
 - Investing
 - Payments
-- Financial-Services
+- Financial Services
 - Mobile Banking
 - Central Asia
 - Uzbekistan

@@ -237,6 +237,6 @@ tags:
 - Security Automation
 - Artificial Intelligence
 - MCP
-- agent-native
+- Agent-Native
 - Webhook
 ---

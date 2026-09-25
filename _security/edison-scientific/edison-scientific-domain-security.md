@@ -38,5 +38,5 @@ tags:
 - Life Sciences
 - Research
 - R&D
-- Machine-Learning
+- Machine Learning
 ---

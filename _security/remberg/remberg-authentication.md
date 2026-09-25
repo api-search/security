@@ -5,115 +5,115 @@ api_key_in:
 api_specs:
 - filename: remberg-ai-chat-api-openapi.yml
   format: yaml
-  label: Remberg ai-chat API
+  label: Remberg AI Chat API
   slug: remberg-ai-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-ai-chat-api-openapi.yml
 - filename: remberg-asset-status-signals-api-openapi.yml
   format: yaml
-  label: Remberg asset-status-signals API
+  label: Remberg Asset Status Signals API
   slug: remberg-asset-status-signals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-asset-status-signals-api-openapi.yml
 - filename: remberg-asset-types-api-openapi.yml
   format: yaml
-  label: Remberg asset-types API
+  label: Remberg Asset Types API
   slug: remberg-asset-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-asset-types-api-openapi.yml
 - filename: remberg-assets-api-openapi.yml
   format: yaml
-  label: Remberg assets API
+  label: Remberg Assets API
   slug: remberg-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-assets-api-openapi.yml
 - filename: remberg-contacts-api-openapi.yml
   format: yaml
-  label: Remberg contacts API
+  label: Remberg Contacts API
   slug: remberg-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-contacts-api-openapi.yml
 - filename: remberg-failure-types-api-openapi.yml
   format: yaml
-  label: Remberg failure-types API
+  label: Remberg Failure Types API
   slug: remberg-failure-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-failure-types-api-openapi.yml
 - filename: remberg-files-api-openapi.yml
   format: yaml
-  label: Remberg files API
+  label: Remberg Files API
   slug: remberg-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-files-api-openapi.yml
 - filename: remberg-forms-api-openapi.yml
   format: yaml
-  label: Remberg forms API
+  label: Remberg Forms API
   slug: remberg-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-forms-api-openapi.yml
 - filename: remberg-inventories-api-openapi.yml
   format: yaml
-  label: Remberg inventories API
+  label: Remberg Inventories API
   slug: remberg-inventories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-inventories-api-openapi.yml
 - filename: remberg-organizations-api-openapi.yml
   format: yaml
-  label: Remberg organizations API
+  label: Remberg Organizations API
   slug: remberg-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-organizations-api-openapi.yml
 - filename: remberg-part-stock-changes-api-openapi.yml
   format: yaml
-  label: Remberg part-stock-changes API
+  label: Remberg Part Stock Changes API
   slug: remberg-part-stock-changes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-part-stock-changes-api-openapi.yml
 - filename: remberg-parts-api-openapi.yml
   format: yaml
-  label: Remberg parts API
+  label: Remberg Parts API
   slug: remberg-parts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-parts-api-openapi.yml
 - filename: remberg-procedure-templates-api-openapi.yml
   format: yaml
-  label: Remberg procedure-templates API
+  label: Remberg Procedure Templates API
   slug: remberg-procedure-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-procedure-templates-api-openapi.yml
 - filename: remberg-tickets-api-openapi.yml
   format: yaml
-  label: Remberg tickets API
+  label: Remberg Tickets API
   slug: remberg-tickets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-tickets-api-openapi.yml
 - filename: remberg-user-groups-api-openapi.yml
   format: yaml
-  label: Remberg user-groups API
+  label: Remberg User Groups API
   slug: remberg-user-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-user-groups-api-openapi.yml
 - filename: remberg-user-roles-api-openapi.yml
   format: yaml
-  label: Remberg user-roles API
+  label: Remberg User Roles API
   slug: remberg-user-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-user-roles-api-openapi.yml
 - filename: remberg-users-api-openapi.yml
   format: yaml
-  label: Remberg users API
+  label: Remberg Users API
   slug: remberg-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-users-api-openapi.yml
 - filename: remberg-work-orders-api-openapi.yml
   format: yaml
-  label: Remberg work-orders API
+  label: Remberg Work Orders API
   slug: remberg-work-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-work-orders-api-openapi.yml
 - filename: remberg-work-requests-api-openapi.yml
   format: yaml
-  label: Remberg work-requests API
+  label: Remberg Work Requests API
   slug: remberg-work-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-work-requests-api-openapi.yml

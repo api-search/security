@@ -42,5 +42,5 @@ tags:
 - DevOps
 - Continuous Integration
 - Software Quality
-- Agentic AI
+- AI Agents
 ---

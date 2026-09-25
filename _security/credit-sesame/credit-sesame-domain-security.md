@@ -38,5 +38,5 @@ tags:
 - Personal Finance
 - Fintech
 - Identity Protection
-- Financial-Services
+- Financial Services
 ---

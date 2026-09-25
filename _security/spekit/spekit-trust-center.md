@@ -57,7 +57,7 @@ tags:
 - Sales Enablement
 - Revenue Enablement
 - Digital Adoption
-- Knowledge-Management
+- Knowledge Management
 - MCP
 - Artificial Intelligence
 - Analytics

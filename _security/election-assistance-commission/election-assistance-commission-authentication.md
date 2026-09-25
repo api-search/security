@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: >-\n  live anonym
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/authentication/election-assistance-commission-authentication.yml
 summary_line: 0 schemes
 tags:
-- Federal-Government
+- Federal Government
 - Elections
 - Voting
 - Open Data

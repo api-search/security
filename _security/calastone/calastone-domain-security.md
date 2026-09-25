@@ -36,7 +36,7 @@ tags:
 - Fund
 - Asset Management
 - Fund Administration
-- Financial-Services
+- Financial Services
 - Money Markets
 - Settlement
 - Tokenization

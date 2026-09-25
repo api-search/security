@@ -61,8 +61,8 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Low-Code
-- Workflow-Automation
-- Agentic AI
+- Workflow Automation
+- AI Agents
 - Audit and Compliance
 - Collaboration
 - Enterprise Software

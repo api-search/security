@@ -72,4 +72,5 @@ tags:
 - Uptime
 - Telemetry
 - Status Pages
+- Scheduling
 ---

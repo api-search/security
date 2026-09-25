@@ -33,5 +33,5 @@ tags:
 - Go
 - Code Generation
 - Schema-First
-- Open-Source
+- Open Source
 ---

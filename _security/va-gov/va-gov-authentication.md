@@ -71,7 +71,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-enrolled-benefits-api-openapi.yml
 - filename: va-gov-facilities-api-openapi.yml
   format: yaml
-  label: VA Lighthouse facilities API
+  label: VA Lighthouse Facilities API
   slug: va-gov-facilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-facilities-api-openapi.yml
@@ -113,7 +113,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-letters-api-openapi.yml
 - filename: va-gov-loanreviewpublic-api-openapi.yml
   format: yaml
-  label: VA Lighthouse loanReviewPublic API
+  label: VA Lighthouse Loan Review Public API
   slug: va-gov-loanreviewpublic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-loanreviewpublic-api-openapi.yml
@@ -191,8 +191,8 @@ name_suffix: Authentication
 oauth_flows:
 - authorizationCode
 - clientCredentials
-overview: VA Lighthouse secures its APIs with apiKey, http, and oauth2 across 6 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
-provider_name: VA Lighthouse
+overview: Department of Veterans Affairs (VA Lighthouse) secures its APIs with apiKey, http, and oauth2 across 6 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
+provider_name: Department of Veterans Affairs (VA Lighthouse)
 provider_slug: va-gov
 scheme_count: 6
 schemes:

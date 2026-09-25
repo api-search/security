@@ -49,8 +49,8 @@ tags:
 - Transportation
 - Payments
 - IoT
-- Computer-Vision
-- Real-Estate
-- Electric Vehicle Charging
+- Computer Vision
+- Real Estate
+- EV Charging
 - Reservations
 ---

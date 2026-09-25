@@ -36,7 +36,7 @@ tags:
 - Credit Underwriting
 - Fraud Detection
 - Artificial Intelligence
-- Machine-Learning
-- Financial-Services
+- Machine Learning
+- Financial Services
 - Fintech
 ---

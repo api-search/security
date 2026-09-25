@@ -152,6 +152,6 @@ tags:
 - Financial Analytics
 - Insurance
 - KYC
-- Risk
+- Risk Management
 - Screening
 ---

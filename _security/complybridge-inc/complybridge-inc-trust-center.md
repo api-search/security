@@ -9,8 +9,8 @@ kind: trust-center
 layout: security
 name: Complybridge Inc Trust Center
 name_suffix: Trust Center
-overview: ComplyBridge, Inc. maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
-provider_name: ComplyBridge, Inc.
+overview: ComplyBridge maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+provider_name: ComplyBridge
 provider_slug: complybridge-inc
 slug: complybridge-inc-trust-center
 source_filename: complybridge-inc-trust-center.yml
@@ -23,8 +23,7 @@ tags:
 - Company
 - Compliance
 - RegTech
-- Financial-Services
-- Regulatory Technology
+- Financial Services
 - MiCA
 - PSD2
 - GDPR

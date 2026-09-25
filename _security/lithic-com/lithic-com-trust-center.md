@@ -213,5 +213,6 @@ tags:
 - Issuer Processor
 - KYC
 - Banking as a Service
+- Embedded Finance
 trust_url: https://trust.lithic.com/
 ---

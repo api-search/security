@@ -412,7 +412,7 @@ tags:
 - DMN
 - Process Automation
 - Case Management
-- Open-Source
+- Open Source
 - REST API
 trust_url: https://trust.flowable.com/
 ---

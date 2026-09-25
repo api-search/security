@@ -176,4 +176,5 @@ tags:
 - Brand Visibility
 - Citations
 - MCP
+- A2A
 ---

@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-admin-api-openapi.yml
 - filename: skedulo-api-controller-api-openapi.yml
   format: yaml
-  label: Skedulo api-controller API
+  label: Skedulo API Controller API
   slug: skedulo-api-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-api-controller-api-openapi.yml
@@ -275,7 +275,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-schedule-summaries-api-openapi.yml
 - filename: skedulo-scheduling-api-openapi.yml
   format: yaml
-  label: Skedulo scheduling API
+  label: Skedulo Scheduling API
   slug: skedulo-scheduling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-scheduling-api-openapi.yml
@@ -341,7 +341,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-templates-api-openapi.yml
 - filename: skedulo-tenant-controller-api-openapi.yml
   format: yaml
-  label: Skedulo tenant-controller API
+  label: Skedulo Tenant Controller API
   slug: skedulo-tenant-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/openapi/skedulo-tenant-controller-api-openapi.yml

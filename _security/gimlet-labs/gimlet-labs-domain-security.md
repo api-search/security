@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 - Inference
 - Agents
 - Compilers

@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: agora-real-estate-agora-content-api-openapi.yml
-  format: yaml
-  label: Agora Real Estate Agora Content API
-  slug: agora-real-estate-agora-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/openapi/agora-real-estate-agora-content-api-openapi.yml
-- filename: agora-real-estate-wordpress-content-api-openapi.yml
-  format: yaml
-  label: Agora Real Estate WordPress Content API
-  slug: agora-real-estate-wordpress-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/openapi/agora-real-estate-wordpress-content-api-openapi.yml
 - filename: agora-real-estate-o-embed-api-openapi.yml
   format: yaml
   label: Agora Real Estate o Embed API
@@ -60,7 +48,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/security/agora-real-estate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real-Estate
+- Real Estate
 - Investment Management
 - Private Equity
 - Fund Administration

@@ -68,7 +68,7 @@ tags:
 - Contextual Advertising
 - Brand Safety
 - content-classification
-- Computer-Vision
+- Computer Vision
 - Natural Language Processing
 - Video Analysis
 - Image Analysis

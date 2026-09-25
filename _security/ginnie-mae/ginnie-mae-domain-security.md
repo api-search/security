@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/security/ginnie-mae-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Housing
 - Mortgage
 - Mortgage-Backed Securities

@@ -101,7 +101,7 @@ tags:
 - Sports Betting
 - Sportsbook
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Odds
 - Player Props
 - Data

@@ -227,8 +227,8 @@ method: searched
 name: Lucidya Ltd Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Lucidya Ltd declares 1 security scheme(s) across its OpenAPI definitions.
-provider_name: Lucidya Ltd
+overview: Lucidya declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: Lucidya
 provider_slug: lucidya-ltd
 scheme_count: 1
 schemes:

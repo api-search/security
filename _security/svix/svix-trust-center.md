@@ -218,7 +218,7 @@ tags:
 - HIPAA
 - PCI DSS
 - GDPR
-- Open-Source
+- Open Source
 - Rust
 - Polyglot SDK
 - Terraform

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Fediverse
 - Mastodon
 - ActivityPub

@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: vivenu-api-api-openapi.yml
   format: yaml
-  label: vivenu api
+  label: vivenu API
   slug: vivenu-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/openapi/vivenu-api-api-openapi.yml

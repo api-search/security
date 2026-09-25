@@ -209,7 +209,7 @@ tags:
 - Payments
 - Open Banking
 - Banking
-- Financial-Services
+- Financial Services
 - Account-to-Account
 - PSD2
 - Variable Recurring Payments

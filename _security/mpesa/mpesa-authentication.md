@@ -64,7 +64,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-transaction-status-api-openapi.yml
 - filename: mpesa-b2-b-api-openapi.yml
   format: yaml
-  label: M-Pesa (Safaricom Daraja) B2 B API
+  label: M-Pesa (Safaricom Daraja) B2B API
   slug: mpesa-b2-b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/openapi/mpesa-b2-b-api-openapi.yml

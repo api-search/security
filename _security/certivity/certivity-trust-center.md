@@ -21,7 +21,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certivity/refs
 summary_line: ISO/IEC 27001:2024, TISAX, GDPR
 tags:
 - Company
-- Regulatory Technology
 - RegTech
 - Compliance
 - Regulatory Intelligence

@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Pvh Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for PVH Corp, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: PVH Corp
+overview: 'Domain security posture for PVH, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: PVH
 provider_slug: pvh-corp
 slug: pvh-corp-domain-security
 source_filename: pvh-corp-domain-security.yml

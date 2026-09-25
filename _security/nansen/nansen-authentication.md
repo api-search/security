@@ -46,4 +46,5 @@ tags:
 - Smart Money
 - Analytics
 - Multi-Chain
+- Ethereum
 ---

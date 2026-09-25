@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-authorize-api-openapi.yml
 - filename: keboola-configuration-api-openapi.yml
   format: yaml
-  label: Keboola configuration API
+  label: Keboola Configuration API
   slug: keboola-configuration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-configuration-api-openapi.yml
@@ -113,13 +113,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-encrypt-api-openapi.yml
 - filename: keboola-health-api-openapi.yml
   format: yaml
-  label: Keboola health API
+  label: Keboola Health API
   slug: keboola-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-health-api-openapi.yml
 - filename: keboola-import-api-openapi.yml
   format: yaml
-  label: Keboola import API
+  label: Keboola Import API
   slug: keboola-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-import-api-openapi.yml
@@ -131,7 +131,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-internal-api-openapi.yml
 - filename: keboola-jobs-api-openapi.yml
   format: yaml
-  label: Keboola jobs API
+  label: Keboola Jobs API
   slug: keboola-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-jobs-api-openapi.yml
@@ -203,7 +203,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-public-api-api-openapi.yml
 - filename: keboola-queries-api-openapi.yml
   format: yaml
-  label: Keboola queries API
+  label: Keboola Queries API
   slug: keboola-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-queries-api-openapi.yml
@@ -215,13 +215,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-resolve-config-variables-api-openapi.yml
 - filename: keboola-schedules-api-openapi.yml
   format: yaml
-  label: Keboola schedules API
+  label: Keboola Schedules API
   slug: keboola-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-schedules-api-openapi.yml
 - filename: keboola-service-api-openapi.yml
   format: yaml
-  label: Keboola service API
+  label: Keboola Service API
   slug: keboola-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-service-api-openapi.yml
@@ -269,7 +269,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-super-ui-management-api-openapi.yml
 - filename: keboola-test-api-openapi.yml
   format: yaml
-  label: Keboola test API
+  label: Keboola Test API
   slug: keboola-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/openapi/keboola-test-api-openapi.yml

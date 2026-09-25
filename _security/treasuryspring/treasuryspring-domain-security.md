@@ -125,7 +125,7 @@ tags:
 - Cash Management
 - Treasury
 - Investment
-- Financial-Services
+- Financial Services
 - Fixed Term Funds
 - Payments
 - MCP

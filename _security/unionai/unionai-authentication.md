@@ -96,7 +96,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/h
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Orchestration
 - Workflows
 - MLOps

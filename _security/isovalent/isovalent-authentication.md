@@ -4,25 +4,25 @@ api_key_in: []
 api_specs:
 - filename: isovalent-bgp-api-openapi.yml
   format: yaml
-  label: Isovalent bgp API
+  label: Isovalent Bgp API
   slug: isovalent-bgp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-bgp-api-openapi.yml
 - filename: isovalent-connectivity-api-openapi.yml
   format: yaml
-  label: Isovalent connectivity API
+  label: Isovalent Connectivity API
   slug: isovalent-connectivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-connectivity-api-openapi.yml
 - filename: isovalent-daemon-api-openapi.yml
   format: yaml
-  label: Isovalent daemon API
+  label: Isovalent Daemon API
   slug: isovalent-daemon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-daemon-api-openapi.yml
 - filename: isovalent-endpoint-api-openapi.yml
   format: yaml
-  label: Isovalent endpoint API
+  label: Isovalent Endpoint API
   slug: isovalent-endpoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-endpoint-api-openapi.yml
@@ -34,25 +34,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-healthz-api-openapi.yml
 - filename: isovalent-ipam-api-openapi.yml
   format: yaml
-  label: Isovalent ipam API
+  label: Isovalent Ipam API
   slug: isovalent-ipam-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-ipam-api-openapi.yml
 - filename: isovalent-policy-api-openapi.yml
   format: yaml
-  label: Isovalent policy API
+  label: Isovalent Policy API
   slug: isovalent-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-policy-api-openapi.yml
 - filename: isovalent-prefilter-api-openapi.yml
   format: yaml
-  label: Isovalent prefilter API
+  label: Isovalent Prefilter API
   slug: isovalent-prefilter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-prefilter-api-openapi.yml
 - filename: isovalent-service-api-openapi.yml
   format: yaml
-  label: Isovalent service API
+  label: Isovalent Service API
   slug: isovalent-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/openapi/isovalent-service-api-openapi.yml

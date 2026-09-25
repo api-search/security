@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: ubtech-subscriptions-api-openapi.yml
   format: yaml
-  label: UBTech subscriptions API
+  label: UBTech Subscriptions API
   slug: ubtech-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/openapi/ubtech-subscriptions-api-openapi.yml

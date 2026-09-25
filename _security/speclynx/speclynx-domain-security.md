@@ -34,7 +34,7 @@ tags:
 - API Design
 - AsyncAPI
 - Developer Tools
-- JSON-Schema
+- JSON Schema
 - OpenAPI
 - Toolkit
 - VS Code

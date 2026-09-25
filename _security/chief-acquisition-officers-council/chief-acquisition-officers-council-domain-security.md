@@ -34,7 +34,7 @@ tags:
 - Acquisition
 - CAOC
 - FAR
-- Federal-Government
+- Federal Government
 - GSA
 - Interagency Council
 - OFPP

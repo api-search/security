@@ -45,6 +45,6 @@ tags:
 - Identity
 - OpenID Connect
 - Design Systems
-- Open-Source
+- Open Source
 - Germany
 ---

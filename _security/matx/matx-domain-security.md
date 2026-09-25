@@ -35,7 +35,7 @@ tags:
 - Semiconductors
 - Artificial Intelligence
 - Hardware
-- Machine-Learning
+- Machine Learning
 - LLM
 - AI Accelerators
 - Inference

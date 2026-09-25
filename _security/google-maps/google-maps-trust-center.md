@@ -86,5 +86,6 @@ tags:
 - Places
 - Routing
 - Solar
+- Geospatial
 trust_url: https://mapsplatform.google.com/resources/trust-center/
 ---

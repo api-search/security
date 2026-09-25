@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-accounts-api-openapi.yml
 - filename: modernfi-auth-api-openapi.yml
   format: yaml
-  label: ModernFi auth API
+  label: ModernFi Auth API
   slug: modernfi-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-auth-api-openapi.yml
 - filename: modernfi-custombenchmarks-api-openapi.yml
   format: yaml
-  label: ModernFi customBenchmarks API
+  label: ModernFi Custom Benchmarks API
   slug: modernfi-custombenchmarks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-custombenchmarks-api-openapi.yml
@@ -26,13 +26,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-depositors-api-openapi.yml
 - filename: modernfi-files-api-openapi.yml
   format: yaml
-  label: ModernFi files API
+  label: ModernFi Files API
   slug: modernfi-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-files-api-openapi.yml
 - filename: modernfi-pricinggroups-api-openapi.yml
   format: yaml
-  label: ModernFi pricingGroups API
+  label: ModernFi Pricing Groups API
   slug: modernfi-pricinggroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-pricinggroups-api-openapi.yml
@@ -89,7 +89,7 @@ tags:
 - Deposits
 - Fintech
 - Credit Union
-- Financial-Services
+- Financial Services
 - Deposit Network
 - Treasury
 ---

@@ -108,7 +108,7 @@ tags:
 - Governance Risk and Compliance
 - Risk Management
 - Compliance
-- Workflow-Automation
+- Workflow Automation
 - Audit
 - No-Code
 ---

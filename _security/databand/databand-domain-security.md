@@ -34,8 +34,8 @@ tags:
 - Data Pipeline
 - Data Quality
 - DataOps
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - SDK
 - CLI
 - IBM

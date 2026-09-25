@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Idialogue Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for iDialogue Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
-provider_name: iDialogue Inc.
+overview: 'Domain security posture for iDialogue, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
+provider_name: iDialogue
 provider_slug: idialogue-inc
 slug: idialogue-inc-domain-security
 source_filename: idialogue-inc-domain-security.yml

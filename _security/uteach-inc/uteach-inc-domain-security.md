@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Uteach Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Uteach, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Uteach, Inc.
+overview: 'Domain security posture for Uteach, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Uteach
 provider_slug: uteach-inc
 slug: uteach-inc-domain-security
 source_filename: uteach-inc-domain-security.yml

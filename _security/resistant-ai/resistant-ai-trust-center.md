@@ -39,6 +39,6 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine-Learning
+- Machine Learning
 trust_url: https://trust.resistant.ai/
 ---

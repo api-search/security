@@ -66,6 +66,6 @@ tags:
 - Demand Intelligence
 - Event
 - Forecasting
-- Machine-Learning
+- Machine Learning
 - Real-World Events
 ---

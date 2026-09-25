@@ -210,7 +210,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Central Banking
-- Financial-Services
+- Financial Services
 - ISO 20022
 - Market Infrastructure
 - Messaging

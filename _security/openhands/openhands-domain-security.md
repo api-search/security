@@ -106,7 +106,7 @@ tags:
 - Artificial Intelligence
 - Agents
 - Autonomous
-- Open-Source
+- Open Source
 - Developer Tools
 - Software Engineering
 - Code Generation

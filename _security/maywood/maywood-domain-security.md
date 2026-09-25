@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Investment Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Mergers and Acquisitions
 - Deal Execution

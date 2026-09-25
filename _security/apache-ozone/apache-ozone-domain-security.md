@@ -53,5 +53,5 @@ tags:
 - Object Storage
 - S3 Compatible
 - Apache
-- Open-Source
+- Open Source
 ---

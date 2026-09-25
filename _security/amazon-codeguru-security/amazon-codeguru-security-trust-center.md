@@ -77,5 +77,6 @@ tags:
 - Code Analysis
 - DevSecOps
 - Developer Tools
+- Defunct
 trust_url: https://aws.amazon.com/compliance/
 ---

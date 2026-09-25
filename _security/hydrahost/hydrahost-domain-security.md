@@ -35,7 +35,7 @@ tags:
 - GPU Cloud
 - Bare Metal
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Infrastructure
 - Compute
 - Neocloud

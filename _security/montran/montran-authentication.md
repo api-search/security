@@ -237,7 +237,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Banking
 - Central Banking
-- Financial-Services
+- Financial Services
 - ISO 20022
 - Market Infrastructure
 - Messaging

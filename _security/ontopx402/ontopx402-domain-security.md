@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - x402
 - USDC
-- Agent Payments
+- Agentic Payments
 - paid-placement
 - Leaderboards
 ---

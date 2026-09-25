@@ -38,5 +38,5 @@ tags:
 - Property Management
 - Multifamily
 - Access Control
-- Real-Estate
+- Real Estate
 ---

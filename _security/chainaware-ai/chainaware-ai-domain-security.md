@@ -63,6 +63,6 @@ tags:
 - A2A
 - x402
 - Agents
-- agent-native
+- Agent-Native
 - Estonia
 ---

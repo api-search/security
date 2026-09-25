@@ -56,8 +56,8 @@ method: searched
 name: Whisperr Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Whisperr, Inc. secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Whisperr, Inc.
+overview: Whisperr secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Whisperr
 provider_slug: whisperr-inc
 scheme_count: 3
 schemes:

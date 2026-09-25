@@ -2,7 +2,7 @@
 api_specs:
 - filename: workday-payroll-agentdefinition-api-openapi.yml
   format: yaml
-  label: Workday Payroll agentDefinition API
+  label: Workday Payroll Agent Definition API
   slug: workday-payroll-agentdefinition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-agentdefinition-api-openapi.yml

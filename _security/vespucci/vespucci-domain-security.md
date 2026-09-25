@@ -34,7 +34,7 @@ tags:
 - Analytics
 - Product Analytics
 - Data
-- Machine-Learning
+- Machine Learning
 - User Behavior
 - Segmentation
 - Software-as-a-Service

@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Data
 - Analytics
 - Rentals

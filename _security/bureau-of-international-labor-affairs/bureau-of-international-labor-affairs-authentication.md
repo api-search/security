@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/authentication/bureau-of-international-labor-affairs-authentication.yml
 summary_line: 1 scheme
 tags:
-- Federal-Government
+- Federal Government
 - International
 - Labor
 - Standards

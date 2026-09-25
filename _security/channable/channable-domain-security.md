@@ -2,37 +2,37 @@
 api_specs:
 - filename: channable-order-attachments-api-openapi.yml
   format: yaml
-  label: Channable order_attachments API
+  label: Channable Order Attachments API
   slug: channable-order-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-order-attachments-api-openapi.yml
 - filename: channable-orders-api-openapi.yml
   format: yaml
-  label: Channable orders API
+  label: Channable Orders API
   slug: channable-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-orders-api-openapi.yml
 - filename: channable-returns-api-openapi.yml
   format: yaml
-  label: Channable returns API
+  label: Channable Returns API
   slug: channable-returns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-returns-api-openapi.yml
 - filename: channable-statistics-api-openapi.yml
   format: yaml
-  label: Channable statistics API
+  label: Channable Statistics API
   slug: channable-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-statistics-api-openapi.yml
 - filename: channable-stock-updates-api-openapi.yml
   format: yaml
-  label: Channable stock_updates API
+  label: Channable Stock Updates API
   slug: channable-stock-updates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-stock-updates-api-openapi.yml
 - filename: channable-transporters-api-openapi.yml
   format: yaml
-  label: Channable transporters API
+  label: Channable Transporters API
   slug: channable-transporters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/openapi/channable-transporters-api-openapi.yml

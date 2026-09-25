@@ -5,37 +5,37 @@ api_key_in:
 api_specs:
 - filename: hourone-general-api-openapi.yml
   format: yaml
-  label: Hourone general API
+  label: Hourone General API
   slug: hourone-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-general-api-openapi.yml
 - filename: hourone-keys-api-openapi.yml
   format: yaml
-  label: Hourone keys API
+  label: Hourone Keys API
   slug: hourone-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-keys-api-openapi.yml
 - filename: hourone-playground-api-openapi.yml
   format: yaml
-  label: Hourone playground API
+  label: Hourone Playground API
   slug: hourone-playground-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-playground-api-openapi.yml
 - filename: hourone-videos-api-openapi.yml
   format: yaml
-  label: Hourone videos API
+  label: Hourone Videos API
   slug: hourone-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-videos-api-openapi.yml
 - filename: hourone-voice-preview-api-openapi.yml
   format: yaml
-  label: Hourone voice-preview API
+  label: Hourone Voice Preview API
   slug: hourone-voice-preview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-voice-preview-api-openapi.yml
 - filename: hourone-webhook-api-openapi.yml
   format: yaml
-  label: Hourone webhook API
+  label: Hourone Webhook API
   slug: hourone-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-webhook-api-openapi.yml

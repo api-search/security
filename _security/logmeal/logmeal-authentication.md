@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/logmeal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/authentication/logmeal-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Computer-Vision
+- Computer Vision
 - Food
 - Image Recognition
 - Nutrition

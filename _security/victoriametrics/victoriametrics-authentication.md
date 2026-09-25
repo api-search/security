@@ -64,7 +64,7 @@ tags:
 - Database
 - Time Series
 - Monitoring
-- Open-Source
+- Open Source
 - Prometheus
 - PromQL
 - MetricsQL

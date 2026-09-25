@@ -23,7 +23,6 @@ summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001:2022, GDPR
 tags:
 - Company
 - Third-Party Risk Management
-- TPRM
 - Compliance
 - Procurement
 - Vendor Management

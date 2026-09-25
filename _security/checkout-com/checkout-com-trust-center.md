@@ -59,5 +59,6 @@ tags:
 - Cards
 - Acquiring
 - Cross-Border
+- Agentic Commerce
 trust_url: https://www.checkout.com/docs/payments/ensure-regulatory-compliance/pci-compliance
 ---

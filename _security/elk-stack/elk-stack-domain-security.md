@@ -823,8 +823,8 @@ layout: security
 method: probed
 name: Elk Stack Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Elastic Stack (ELK Stack), probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Elastic Stack (ELK Stack)
+overview: 'Domain security posture for Elastic Stack, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Elastic Stack
 provider_slug: elk-stack
 slug: elk-stack-domain-security
 source_filename: elk-stack-domain-security.yml
@@ -842,5 +842,5 @@ tags:
 - Security
 - Vector Database
 - SIEM
-- Machine-Learning
+- Machine Learning
 ---

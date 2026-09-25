@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/worldcat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/authentication/worldcat-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Libraries
+- Library
 - Bibliographic Records
 - WorldCat
 - OCLC

@@ -95,7 +95,7 @@ tags:
 - Smart Breaker
 - EV Charging
 - Demand Response
-- Data-Center
+- Data Center
 - DCIM
 - PDU
 - UPS

@@ -228,7 +228,7 @@ tags:
 - MCP
 - SCIM
 - Composable Commerce
-- Agentic AI
+- AI Agents
 - Webhook
 - Image Delivery
 trust_url: https://www.contentstack.com/trust

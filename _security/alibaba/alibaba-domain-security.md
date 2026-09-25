@@ -62,7 +62,7 @@ tags:
 - E-Commerce
 - Commerce
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Big Data
 - Storage
 - Networking

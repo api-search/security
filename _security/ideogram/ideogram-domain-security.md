@@ -2,25 +2,25 @@
 api_specs:
 - filename: ideogram-subpackage-datasets-api-openapi.yml
   format: yaml
-  label: Ideogram subpackage_datasets API
+  label: Ideogram Subpackage Datasets API
   slug: ideogram-subpackage-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-datasets-api-openapi.yml
 - filename: ideogram-subpackage-generate-api-openapi.yml
   format: yaml
-  label: Ideogram subpackage_generate API
+  label: Ideogram Subpackage Generate API
   slug: ideogram-subpackage-generate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-generate-api-openapi.yml
 - filename: ideogram-subpackage-models-api-openapi.yml
   format: yaml
-  label: Ideogram subpackage_models API
+  label: Ideogram Subpackage Models API
   slug: ideogram-subpackage-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-models-api-openapi.yml
 - filename: ideogram-subpackage-vision-api-openapi.yml
   format: yaml
-  label: Ideogram subpackage_vision API
+  label: Ideogram Subpackage Vision API
   slug: ideogram-subpackage-vision-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-vision-api-openapi.yml
@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Text
 - Realistic
 - Editing

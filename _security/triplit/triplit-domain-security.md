@@ -79,5 +79,5 @@ tags:
 - Local-First
 - Developer Tools
 - TypeScript
-- Open-Source
+- Open Source
 ---

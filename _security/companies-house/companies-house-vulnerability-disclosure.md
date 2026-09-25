@@ -2,49 +2,49 @@
 api_specs:
 - filename: companies-house-charges-api-openapi.yml
   format: yaml
-  label: Companies House charges API
+  label: Companies House Charges API
   slug: companies-house-charges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-charges-api-openapi.yml
 - filename: companies-house-filinghistory-api-openapi.yml
   format: yaml
-  label: Companies House filingHistory API
+  label: Companies House Filing History API
   slug: companies-house-filinghistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-filinghistory-api-openapi.yml
 - filename: companies-house-insolvency-api-openapi.yml
   format: yaml
-  label: Companies House insolvency API
+  label: Companies House Insolvency API
   slug: companies-house-insolvency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-insolvency-api-openapi.yml
 - filename: companies-house-officerdisqualifications-api-openapi.yml
   format: yaml
-  label: Companies House officerDisqualifications API
+  label: Companies House Officer Disqualifications API
   slug: companies-house-officerdisqualifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-officerdisqualifications-api-openapi.yml
 - filename: companies-house-officers-api-openapi.yml
   format: yaml
-  label: Companies House officers API
+  label: Companies House Officers API
   slug: companies-house-officers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-officers-api-openapi.yml
 - filename: companies-house-personswithsignificantcontrol-api-openapi.yml
   format: yaml
-  label: Companies House personsWithSignificantControl API
+  label: Companies House Persons With Significant Control API
   slug: companies-house-personswithsignificantcontrol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-personswithsignificantcontrol-api-openapi.yml
 - filename: companies-house-registeredofficeaddress-api-openapi.yml
   format: yaml
-  label: Companies House registeredOfficeAddress API
+  label: Companies House Registered Office Address API
   slug: companies-house-registeredofficeaddress-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-registeredofficeaddress-api-openapi.yml
 - filename: companies-house-search-api-openapi.yml
   format: yaml
-  label: Companies House search API
+  label: Companies House Search API
   slug: companies-house-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/openapi/companies-house-search-api-openapi.yml

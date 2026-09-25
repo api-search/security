@@ -43,7 +43,7 @@ tags:
 - ELT
 - Data Pipeline
 - Data Engineering
-- Open-Source
+- Open Source
 - DataOps
 - Singer
 ---

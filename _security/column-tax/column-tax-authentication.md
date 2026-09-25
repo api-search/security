@@ -40,7 +40,7 @@ tags:
 - Tax Filing
 - Embedded Finance
 - E-File
-- Financial-Services
+- Financial Services
 - Banking
 - API-First
 ---

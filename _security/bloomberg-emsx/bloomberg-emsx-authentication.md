@@ -70,7 +70,7 @@ summary_line: http · 1 scheme
 tags:
 - Bloomberg
 - Execution Management
-- Financial-Services
+- Financial Services
 - Order Management
 - Trading
 ---

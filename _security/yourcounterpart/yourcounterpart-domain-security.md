@@ -40,5 +40,5 @@ tags:
 - Small Business
 - API Partner
 - Brokers
-- Financial-Services
+- Financial Services
 ---

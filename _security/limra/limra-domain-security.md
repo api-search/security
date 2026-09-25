@@ -34,7 +34,7 @@ tags:
 - Life Insurance
 - Insurance Research
 - Benchmarking
-- Financial-Services
+- Financial Services
 - Employee Benefits
 - Data Exchange Standards
 - Trade Association

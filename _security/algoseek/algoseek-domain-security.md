@@ -239,7 +239,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/security/algoseek-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Options

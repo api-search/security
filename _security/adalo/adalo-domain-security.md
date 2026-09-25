@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - No-Code
 - App Builder
-- Mobile App Development
+- Mobile Development
 - Web App Development
 - Low-Code
 - Visual Development

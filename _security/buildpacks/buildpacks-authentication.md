@@ -41,5 +41,5 @@ tags:
 - Container Images
 - Containers
 - OCI
-- Open-Source
+- Open Source
 ---

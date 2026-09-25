@@ -34,8 +34,8 @@ tags:
 - Company
 - Job
 - Employment
-- Recruitment
-- Financial-Services
+- Recruiting
+- Financial Services
 - Indonesia
 - Marketplace
 - Human Resources

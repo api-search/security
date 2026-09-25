@@ -4,67 +4,67 @@ api_key_in: []
 api_specs:
 - filename: polar-sh-benefits-api-openapi.yml
   format: yaml
-  label: Polar benefits API
+  label: Polar Benefits API
   slug: polar-sh-benefits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-benefits-api-openapi.yml
 - filename: polar-sh-checkouts-api-openapi.yml
   format: yaml
-  label: Polar checkouts API
+  label: Polar Checkouts API
   slug: polar-sh-checkouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-checkouts-api-openapi.yml
 - filename: polar-sh-customer-portal-api-openapi.yml
   format: yaml
-  label: Polar customer_portal API
+  label: Polar Customer Portal API
   slug: polar-sh-customer-portal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-customer-portal-api-openapi.yml
 - filename: polar-sh-customers-api-openapi.yml
   format: yaml
-  label: Polar customers API
+  label: Polar Customers API
   slug: polar-sh-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-customers-api-openapi.yml
 - filename: polar-sh-events-api-openapi.yml
   format: yaml
-  label: Polar events API
+  label: Polar Events API
   slug: polar-sh-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-events-api-openapi.yml
 - filename: polar-sh-license-keys-api-openapi.yml
   format: yaml
-  label: Polar license_keys API
+  label: Polar License Keys API
   slug: polar-sh-license-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-license-keys-api-openapi.yml
 - filename: polar-sh-meters-api-openapi.yml
   format: yaml
-  label: Polar meters API
+  label: Polar Meters API
   slug: polar-sh-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-meters-api-openapi.yml
 - filename: polar-sh-orders-api-openapi.yml
   format: yaml
-  label: Polar orders API
+  label: Polar Orders API
   slug: polar-sh-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-orders-api-openapi.yml
 - filename: polar-sh-products-api-openapi.yml
   format: yaml
-  label: Polar products API
+  label: Polar Products API
   slug: polar-sh-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-products-api-openapi.yml
 - filename: polar-sh-subscriptions-api-openapi.yml
   format: yaml
-  label: Polar subscriptions API
+  label: Polar Subscriptions API
   slug: polar-sh-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-subscriptions-api-openapi.yml
 - filename: polar-sh-webhooks-api-openapi.yml
   format: yaml
-  label: Polar webhooks API
+  label: Polar Webhooks API
   slug: polar-sh-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-webhooks-api-openapi.yml

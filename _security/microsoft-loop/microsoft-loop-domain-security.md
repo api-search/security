@@ -45,6 +45,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Collaboration
 - Microsoft
-- Microsoft-365
+- Microsoft 365
 - Productivity
 ---

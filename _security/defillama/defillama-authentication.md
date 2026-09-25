@@ -77,5 +77,5 @@ tags:
 - Yield
 - Bridge
 - Aggregator
-- Open-Source
+- Open Source
 ---

@@ -33,7 +33,7 @@ tags:
 - Income Share Agreement
 - Student Lending
 - Fintech
-- Financial-Services
+- Financial Services
 - Tuition
 - Payments
 - Lending

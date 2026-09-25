@@ -194,5 +194,6 @@ tags:
 - Messaging
 - Multi-Location
 - Artificial Intelligence
+- A2A
 trust_url: https://trust.birdeye.com/
 ---

@@ -32,9 +32,9 @@ tags:
 - Company
 - Customer Community
 - Customer Engagement
-- Customer-Support
+- Customer Support
 - Community Platform
-- Social-Media
+- Social Media
 - Software-as-a-Service
 - Acquired
 ---

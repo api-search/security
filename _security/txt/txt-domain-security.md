@@ -2,37 +2,37 @@
 api_specs:
 - filename: txt-batches-api-openapi.yml
   format: yaml
-  label: .txt batches API
+  label: .txt Batches API
   slug: txt-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-batches-api-openapi.yml
 - filename: txt-chat-api-openapi.yml
   format: yaml
-  label: .txt chat API
+  label: .txt Chat API
   slug: txt-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-api-openapi.yml
 - filename: txt-embeddings-api-openapi.yml
   format: yaml
-  label: .txt embeddings API
+  label: .txt Embeddings API
   slug: txt-embeddings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-embeddings-api-openapi.yml
 - filename: txt-files-api-openapi.yml
   format: yaml
-  label: .txt files API
+  label: .txt Files API
   slug: txt-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-files-api-openapi.yml
 - filename: txt-models-api-openapi.yml
   format: yaml
-  label: .txt models API
+  label: .txt Models API
   slug: txt-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-models-api-openapi.yml
 - filename: txt-responses-api-api-openapi.yml
   format: yaml
-  label: .txt responses-api
+  label: .txt Responses API
   slug: txt-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-responses-api-api-openapi.yml
@@ -78,8 +78,8 @@ tags:
 - Artificial Intelligence
 - LLM
 - Structured Outputs
-- JSON-Schema
+- JSON Schema
 - Inference
 - Developer Tools
-- Machine-Learning
+- Machine Learning
 ---

@@ -53,7 +53,7 @@ tags:
 - Medical Diagnostics
 - Precision Medicine
 - Biomarkers
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Medical Imaging
 ---

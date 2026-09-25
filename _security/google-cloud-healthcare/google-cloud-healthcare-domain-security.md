@@ -2,7 +2,7 @@
 api_specs:
 - filename: google-cloud-healthcare-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Healthcare projects API
+  label: Google Cloud Healthcare Projects API
   slug: google-cloud-healthcare-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/openapi/google-cloud-healthcare-projects-api-openapi.yml

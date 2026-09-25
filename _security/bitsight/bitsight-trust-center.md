@@ -28,5 +28,6 @@ tags:
 - Attack Surface Management
 - Threat Intelligence
 - Vendor Risk
+- Risk Management
 trust_url: https://www.bitsight.com/about/trust-center
 ---

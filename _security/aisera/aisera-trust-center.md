@@ -26,14 +26,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aisera/refs/he
 summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO 27001, ISO 22301, HITRUST, GDPR, FIPS-140
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Conversational AI
 - ITSM
 - Customer Service
 - Enterprise Search
 - AI Copilot
-- Knowledge-Management
-- Workflow-Automation
+- Knowledge Management
+- Workflow Automation
 - LLM
 trust_url: https://trust.aisera.com/
 ---

@@ -14,19 +14,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
 - filename: fireworks-ai-gateway-openapi-gateway-api-openapi.yml
   format: yaml
-  label: Fireworks AI gateway.openapi_Gateway API
+  label: Fireworks AI Gateway.openapi Gateway API
   slug: fireworks-ai-gateway-openapi-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
 - filename: fireworks-ai-responses-openapi-other-api-openapi.yml
   format: yaml
-  label: Fireworks AI responses.openapi_other API
+  label: Fireworks AI Responses.openapi Other API
   slug: fireworks-ai-responses-openapi-other-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-responses-openapi-other-api-openapi.yml
 - filename: fireworks-ai-text-completion-openapi-other-api-openapi.yml
   format: yaml
-  label: Fireworks AI text-completion.openapi_other API
+  label: Fireworks AI Text Completion.openapi Other API
   slug: fireworks-ai-text-completion-openapi-other-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-text-completion-openapi-other-api-openapi.yml

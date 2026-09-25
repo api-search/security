@@ -97,12 +97,12 @@ source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/security/federal-highway-administration-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Transportation
 - Highways
 - Bridge
 - Connected Vehicles
 - V2X
-- Open-Source
+- Open Source
 - Open Data
 ---

@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/security/agentsmyth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Artificial Intelligence
 - AI Agents
@@ -50,6 +50,6 @@ tags:
 - Investment Research
 - Market Intelligence
 - MCP
-- agent-native
+- Agent-Native
 - Fintech
 ---

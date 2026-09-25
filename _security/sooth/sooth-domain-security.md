@@ -36,6 +36,6 @@ tags:
 - World Model
 - Foresight
 - Decision Intelligence
-- Risk
-- Machine-Learning
+- Risk Management
+- Machine Learning
 ---

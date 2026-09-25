@@ -47,7 +47,7 @@ tags:
 - Analytics
 - Data Apps
 - Business Intelligence
-- Open-Source
+- Open Source
 - Python
 - JavaScript
 - Charts

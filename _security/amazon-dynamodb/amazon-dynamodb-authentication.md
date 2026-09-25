@@ -67,7 +67,7 @@ summary_line: http · 1 scheme
 tags:
 - Database
 - Document Store
-- Key-Value
+- Key-Value Store
 - NoSQL
 - Serverless
 ---

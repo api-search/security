@@ -55,4 +55,5 @@ tags:
 - Direct to Consumer
 - Agentic Commerce
 - Shopify
+- Fashion
 ---

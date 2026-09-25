@@ -2,13 +2,13 @@
 api_specs:
 - filename: cuein-answers-api-openapi.yml
   format: yaml
-  label: Cuein answers API
+  label: Cuein Answers API
   slug: cuein-answers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-api-openapi.yml
 - filename: cuein-conversations-api-openapi.yml
   format: yaml
-  label: Cuein conversations API
+  label: Cuein Conversations API
   slug: cuein-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
@@ -33,7 +33,7 @@ summary_line: trust center published
 tags:
 - Company
 - Customer Experience
-- Customer-Support
+- Customer Support
 - Conversation Intelligence
 - Generative AI
 - Insights

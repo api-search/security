@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/security/london-stock-exchange-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Financial
+- Finance
 - Stock Exchange
 - Market Data
 - KYC

@@ -45,10 +45,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Investment Management
 - WealthTech
-- Portfolio-Management
+- Portfolio Management
 - Financial Planning
 - Managed Accounts
 - Advisor Technology

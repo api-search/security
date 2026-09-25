@@ -74,6 +74,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleforce/re
 summary_line: http · 1 scheme
 tags:
 - Human Resources
-- Recruitment
+- Recruiting
 - Employees
 ---

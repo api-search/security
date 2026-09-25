@@ -46,12 +46,12 @@ tags:
 - Energy
 - Electric Grid
 - Utilities
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Edge Computing
 - Telemetry
 - Protocol Buffers
-- Open-Source
+- Open Source
 - Grid Edge
 - Power Quality
 ---

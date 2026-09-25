@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chief-human-ca
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - CHCO
-- Federal-Government
+- Federal Government
 - HR Policy
 - Human Capital
 - Human Resources

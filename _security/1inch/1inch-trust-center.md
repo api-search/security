@@ -27,5 +27,6 @@ tags:
 - Web3
 - RPC
 - Market Data
+- A2A
 trust_url: https://1inch.com/security
 ---

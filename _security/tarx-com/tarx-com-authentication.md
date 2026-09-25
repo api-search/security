@@ -10,8 +10,8 @@ method: probed
 name: Tarx Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: TARXAN Inc declares 3 security scheme(s) across its OpenAPI definitions.
-provider_name: TARXAN Inc
+overview: TARXAN declares 3 security scheme(s) across its OpenAPI definitions.
+provider_name: TARXAN
 provider_slug: tarx-com
 scheme_count: 3
 schemes:

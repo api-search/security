@@ -62,6 +62,6 @@ tags:
 - Documentation
 - API Description Language
 - Parsing
-- Open-Source
+- Open Source
 - Developer Tools
 ---

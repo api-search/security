@@ -2,91 +2,91 @@
 api_specs:
 - filename: scott-ai-access-api-openapi.yml
   format: yaml
-  label: Scott Ai access API
+  label: Scott Ai Access API
   slug: scott-ai-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-access-api-openapi.yml
 - filename: scott-ai-agent-counsel-api-openapi.yml
   format: yaml
-  label: Scott Ai agent-counsel API
+  label: Scott Ai Agent Counsel API
   slug: scott-ai-agent-counsel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-agent-counsel-api-openapi.yml
 - filename: scott-ai-agent-counsel-internal-api-openapi.yml
   format: yaml
-  label: Scott Ai agent-counsel-internal API
+  label: Scott Ai Agent Counsel Internal API
   slug: scott-ai-agent-counsel-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-agent-counsel-internal-api-openapi.yml
 - filename: scott-ai-agent-loop-api-openapi.yml
   format: yaml
-  label: Scott Ai agent-loop API
+  label: Scott Ai Agent Loop API
   slug: scott-ai-agent-loop-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-agent-loop-api-openapi.yml
 - filename: scott-ai-agent-loop-internal-api-openapi.yml
   format: yaml
-  label: Scott Ai agent-loop-internal API
+  label: Scott Ai Agent Loop Internal API
   slug: scott-ai-agent-loop-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-agent-loop-internal-api-openapi.yml
 - filename: scott-ai-artifacts-api-openapi.yml
   format: yaml
-  label: Scott Ai artifacts API
+  label: Scott Ai Artifacts API
   slug: scott-ai-artifacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-artifacts-api-openapi.yml
 - filename: scott-ai-auth-api-openapi.yml
   format: yaml
-  label: Scott Ai auth API
+  label: Scott Ai Auth API
   slug: scott-ai-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-auth-api-openapi.yml
 - filename: scott-ai-billing-api-openapi.yml
   format: yaml
-  label: Scott Ai billing API
+  label: Scott Ai Billing API
   slug: scott-ai-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-billing-api-openapi.yml
 - filename: scott-ai-cli-version-api-openapi.yml
   format: yaml
-  label: Scott Ai cli-version API
+  label: Scott Ai Cli Version API
   slug: scott-ai-cli-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-cli-version-api-openapi.yml
 - filename: scott-ai-connected-sources-api-openapi.yml
   format: yaml
-  label: Scott Ai connected-sources API
+  label: Scott Ai Connected Sources API
   slug: scott-ai-connected-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-connected-sources-api-openapi.yml
 - filename: scott-ai-conversations-api-openapi.yml
   format: yaml
-  label: Scott Ai conversations API
+  label: Scott Ai Conversations API
   slug: scott-ai-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-conversations-api-openapi.yml
 - filename: scott-ai-documents-api-openapi.yml
   format: yaml
-  label: Scott Ai documents API
+  label: Scott Ai Documents API
   slug: scott-ai-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-documents-api-openapi.yml
 - filename: scott-ai-e2b-api-openapi.yml
   format: yaml
-  label: Scott Ai e2b API
+  label: Scott Ai E2b API
   slug: scott-ai-e2b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-e2b-api-openapi.yml
 - filename: scott-ai-github-api-openapi.yml
   format: yaml
-  label: Scott Ai github API
+  label: Scott Ai Github API
   slug: scott-ai-github-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-github-api-openapi.yml
 - filename: scott-ai-github-links-api-openapi.yml
   format: yaml
-  label: Scott Ai github-links API
+  label: Scott Ai Github Links API
   slug: scott-ai-github-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-github-links-api-openapi.yml
@@ -98,25 +98,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-health-api-openapi.yml
 - filename: scott-ai-integrations-api-openapi.yml
   format: yaml
-  label: Scott Ai integrations API
+  label: Scott Ai Integrations API
   slug: scott-ai-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-integrations-api-openapi.yml
 - filename: scott-ai-invites-api-openapi.yml
   format: yaml
-  label: Scott Ai invites API
+  label: Scott Ai Invites API
   slug: scott-ai-invites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-invites-api-openapi.yml
 - filename: scott-ai-issues-api-openapi.yml
   format: yaml
-  label: Scott Ai issues API
+  label: Scott Ai Issues API
   slug: scott-ai-issues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-issues-api-openapi.yml
 - filename: scott-ai-notifications-api-openapi.yml
   format: yaml
-  label: Scott Ai notifications API
+  label: Scott Ai Notifications API
   slug: scott-ai-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-notifications-api-openapi.yml
@@ -128,49 +128,49 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-one-shot-api-api-openapi.yml
 - filename: scott-ai-orgs-api-openapi.yml
   format: yaml
-  label: Scott Ai orgs API
+  label: Scott Ai Orgs API
   slug: scott-ai-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-orgs-api-openapi.yml
 - filename: scott-ai-probes-api-openapi.yml
   format: yaml
-  label: Scott Ai probes API
+  label: Scott Ai Probes API
   slug: scott-ai-probes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-probes-api-openapi.yml
 - filename: scott-ai-reviews-api-openapi.yml
   format: yaml
-  label: Scott Ai reviews API
+  label: Scott Ai Reviews API
   slug: scott-ai-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-reviews-api-openapi.yml
 - filename: scott-ai-snapshots-api-openapi.yml
   format: yaml
-  label: Scott Ai snapshots API
+  label: Scott Ai Snapshots API
   slug: scott-ai-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-snapshots-api-openapi.yml
 - filename: scott-ai-sync-chat-api-openapi.yml
   format: yaml
-  label: Scott Ai sync-chat API
+  label: Scott Ai Sync Chat API
   slug: scott-ai-sync-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-sync-chat-api-openapi.yml
 - filename: scott-ai-users-api-openapi.yml
   format: yaml
-  label: Scott Ai users API
+  label: Scott Ai Users API
   slug: scott-ai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-users-api-openapi.yml
 - filename: scott-ai-waitlist-api-openapi.yml
   format: yaml
-  label: Scott Ai waitlist API
+  label: Scott Ai Waitlist API
   slug: scott-ai-waitlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-waitlist-api-openapi.yml
 - filename: scott-ai-walkthroughs-api-openapi.yml
   format: yaml
-  label: Scott Ai walkthroughs API
+  label: Scott Ai Walkthroughs API
   slug: scott-ai-walkthroughs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/openapi/scott-ai-walkthroughs-api-openapi.yml

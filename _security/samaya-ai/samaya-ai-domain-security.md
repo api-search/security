@@ -61,11 +61,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Investment Research
 - AI Agents
 - MCP
-- agent-native
+- Agent-Native
 - Capital Markets
 - Enterprise Search
 - Retrieval

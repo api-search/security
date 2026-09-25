@@ -201,5 +201,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/h
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
 - Documents
+- Collaboration
 trust_url: https://trust.dropbox.com/
 ---

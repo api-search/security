@@ -73,5 +73,5 @@ tags:
 - Liquidity
 - CLMM
 - Launchpad
-- Open-Source
+- Open Source
 ---

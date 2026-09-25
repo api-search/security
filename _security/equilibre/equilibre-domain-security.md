@@ -31,10 +31,10 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Algorithmic Trading
-- Financial-Services
+- Financial Services
 - Quantitative Finance
 - Research Lab
 ---

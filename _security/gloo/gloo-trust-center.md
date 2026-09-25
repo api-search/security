@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-webhooks-api-openapi.yml
 - filename: gloo-apis-api-openapi.yml
   format: yaml
-  label: Gloo AP Is API
+  label: Gloo APIs API
   slug: gloo-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/openapi/gloo-apis-api-openapi.yml
@@ -75,7 +75,7 @@ tags:
 - Istio
 - Kubernetes
 - Kubernetes Gateway API
-- Open-Source
+- Open Source
 - Service Mesh
 trust_url: ''
 ---

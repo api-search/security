@@ -37,7 +37,7 @@ tags:
 - Estimating
 - Takeoff
 - Blueprints
-- Computer-Vision
+- Computer Vision
 - Deep Learning
 - Document AI
 - Drawing Analysis

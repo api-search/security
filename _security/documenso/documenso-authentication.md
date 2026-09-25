@@ -60,6 +60,6 @@ tags:
 - E-Signature
 - Documents
 - Signing
-- Open-Source
+- Open Source
 - DocuSign Alternative
 ---

@@ -36,7 +36,7 @@ tags:
 - Data Science
 - Decision Sciences
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Consulting
 - Business Intelligence
 - Data Engineering

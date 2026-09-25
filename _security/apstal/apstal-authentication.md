@@ -85,7 +85,7 @@ tags:
 - Session Replay
 - Heatmaps
 - MCP
-- agent-native
+- Agent-Native
 - Cookieless
 - llms-txt
 - BigQuery

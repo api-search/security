@@ -5,19 +5,19 @@ api_key_in:
 api_specs:
 - filename: makeswift-locale-api-openapi.yml
   format: yaml
-  label: Makeswift locale API
+  label: Makeswift Locale API
   slug: makeswift-locale-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-locale-api-openapi.yml
 - filename: makeswift-page-api-openapi.yml
   format: yaml
-  label: Makeswift page API
+  label: Makeswift Page API
   slug: makeswift-page-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-page-api-openapi.yml
 - filename: makeswift-site-api-openapi.yml
   format: yaml
-  label: Makeswift site API
+  label: Makeswift Site API
   slug: makeswift-site-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/openapi/makeswift-site-api-openapi.yml

@@ -507,9 +507,9 @@ tags:
 - Workflows
 - BPMN
 - Low-Code
-- Open-Source
+- Open Source
 - Orchestration
-- Agentic AI
+- AI Agents
 - Case Management
 - Java
 ---

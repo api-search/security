@@ -83,7 +83,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/security/sanctions-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Anti-Money Laundering
 - AML
 - Sanctions Screening
 - Compliance

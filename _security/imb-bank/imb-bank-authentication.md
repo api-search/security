@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/authentication/imb-bank-authentication.yml
 summary_line: none/openIdConnect/oauth2/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

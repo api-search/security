@@ -48,5 +48,6 @@ tags:
 - Knowledge Graph
 - CRM
 - Conversation Intelligence
+- A2A
 trust_url: https://app.drata.com/trust/9cbf820f-0c38-11ee-865f-029d78a187d9
 ---

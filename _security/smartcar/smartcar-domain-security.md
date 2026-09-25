@@ -79,4 +79,5 @@ tags:
 - Fleet Management
 - EV Management
 - Telematics
+- Electric Vehicles
 ---

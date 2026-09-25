@@ -38,8 +38,8 @@ layout: security
 method: probed
 name: Aviva Plc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Aviva plc, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: Aviva plc
+overview: 'Domain security posture for Aviva, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Aviva
 provider_slug: aviva-plc
 slug: aviva-plc-domain-security
 source_filename: aviva-plc-domain-security.yml

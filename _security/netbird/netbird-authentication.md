@@ -277,7 +277,7 @@ tags:
 - Networking
 - VPN
 - Zero Trust
-- Open-Source
+- Open Source
 - WireGuard
 - Security
 ---

@@ -36,7 +36,7 @@ tags:
 - Insurtech
 - Pet Insurance
 - Pet Care
-- Financial-Services
+- Financial Services
 - Consumer
 - United Kingdom
 ---

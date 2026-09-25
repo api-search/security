@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Comfi Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Comfi Holdings Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Comfi Holdings Limited
+overview: 'Domain security posture for Comfi, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Comfi
 provider_slug: comfi-holdings-limited
 slug: comfi-holdings-limited-domain-security
 source_filename: comfi-holdings-limited-domain-security.yml

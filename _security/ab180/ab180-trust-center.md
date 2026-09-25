@@ -41,5 +41,6 @@ tags:
 - Mobile
 - Reporting
 - South Korea
+- A2A
 trust_url: https://www.airbridge.io/en/information-security
 ---

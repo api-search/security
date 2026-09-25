@@ -41,7 +41,7 @@ tags:
 - Construction Technology
 - ConTech
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Reality Capture
 - Progress Tracking
 - BIM
@@ -50,7 +50,7 @@ tags:
 - Schedule Management
 - Budget Tracking
 - Capital Projects
-- Data-Center
+- Data Center
 - Healthcare Construction
 - Industrial Construction
 - Drones

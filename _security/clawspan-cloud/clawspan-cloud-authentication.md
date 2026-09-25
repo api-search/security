@@ -97,7 +97,7 @@ summary_line: http/apiKey/wallet-challenge/oauth2 · 5 schemes
 tags:
 - AI Agents
 - Agent Marketplace
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Task Orchestration

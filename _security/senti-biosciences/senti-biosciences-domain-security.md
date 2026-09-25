@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/senti-bioscien
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotech
 - Biotechnology
 - Cell and Gene Therapy
 - Gene Circuits

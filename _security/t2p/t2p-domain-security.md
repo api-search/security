@@ -38,6 +38,6 @@ tags:
 - Card Issuing
 - E-Wallet
 - Escrow
-- Financial-Services
+- Financial Services
 - Thailand
 ---

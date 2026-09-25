@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Clinical Decision Support
 - Early Disease Detection
 - Population Health

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: 110 Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for 1→10, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: 1→10, Inc.
+overview: 'Domain security posture for 1→10, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: 1→10
 provider_slug: '110'
 slug: 110-domain-security
 source_filename: 110-domain-security.yml

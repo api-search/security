@@ -2,7 +2,7 @@
 api_specs:
 - filename: murf-subpackage-auth-api-openapi.yml
   format: yaml
-  label: Murf subpackage_auth API
+  label: Murf Subpackage Auth API
   slug: murf-subpackage-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-auth-api-openapi.yml
@@ -14,31 +14,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
   format: yaml
-  label: Murf subpackage_dubbing.subpackage_dubbing/languages API
+  label: Murf Subpackage Dubbing.subpackage Dubbing/languages API
   slug: murf-subpackage-dubbing-subpackage-dubbing-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
   format: yaml
-  label: Murf subpackage_dubbing.subpackage_dubbing/projects API
+  label: Murf Subpackage Dubbing.subpackage Dubbing/projects API
   slug: murf-subpackage-dubbing-subpackage-dubbing-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
 - filename: murf-subpackage-text-api-openapi.yml
   format: yaml
-  label: Murf subpackage_text API
+  label: Murf Subpackage Text API
   slug: murf-subpackage-text-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-text-api-openapi.yml
 - filename: murf-subpackage-texttospeech-api-openapi.yml
   format: yaml
-  label: Murf subpackage_textToSpeech API
+  label: Murf Subpackage Text To Speech API
   slug: murf-subpackage-texttospeech-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-texttospeech-api-openapi.yml
 - filename: murf-subpackage-voicechanger-api-openapi.yml
   format: yaml
-  label: Murf subpackage_voiceChanger API
+  label: Murf Subpackage Voice Changer API
   slug: murf-subpackage-voicechanger-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-voicechanger-api-openapi.yml

@@ -174,11 +174,11 @@ tags:
 - Artificial Intelligence
 - RAG
 - Enterprise Search
-- Knowledge-Management
+- Knowledge Management
 - Generative AI
 - Document Ingestion
 - Content Connectors
 - Agents
-- Machine-Learning
+- Machine Learning
 - Company
 ---

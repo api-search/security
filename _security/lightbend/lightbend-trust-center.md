@@ -56,7 +56,7 @@ summary_line: SOC 2 Type II, SOC 3 (SOC 2 Type III), ISO/IEC 27001, ISO/IEC 2700
 tags:
 - Company
 - AI Infrastructure
-- Agentic AI
+- AI Agents
 - Actor Model
 - Distributed Systems
 - Reactive

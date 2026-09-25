@@ -64,7 +64,7 @@ tags:
 - WebRTC
 - Audio
 - Video
-- Open-Source
+- Open Source
 - AI Agents
 - Voice
 - Cloud

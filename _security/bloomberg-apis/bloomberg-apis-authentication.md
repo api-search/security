@@ -5,43 +5,43 @@ api_key_in:
 api_specs:
 - filename: bloomberg-apis-apiflds-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs apiflds API
+  label: Bloomberg APIs Apiflds API
   slug: bloomberg-apis-apiflds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-apiflds-api-openapi.yml
 - filename: bloomberg-apis-instruments-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs instruments API
+  label: Bloomberg APIs Instruments API
   slug: bloomberg-apis-instruments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-instruments-api-openapi.yml
 - filename: bloomberg-apis-mktbar-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs mktbar API
+  label: Bloomberg APIs Mktbar API
   slug: bloomberg-apis-mktbar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-mktbar-api-openapi.yml
 - filename: bloomberg-apis-mktdata-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs mktdata API
+  label: Bloomberg APIs Mktdata API
   slug: bloomberg-apis-mktdata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-mktdata-api-openapi.yml
 - filename: bloomberg-apis-mktvwap-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs mktvwap API
+  label: Bloomberg APIs Mktvwap API
   slug: bloomberg-apis-mktvwap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-mktvwap-api-openapi.yml
 - filename: bloomberg-apis-pagedata-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs pagedata API
+  label: Bloomberg APIs Pagedata API
   slug: bloomberg-apis-pagedata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-pagedata-api-openapi.yml
 - filename: bloomberg-apis-tasvc-api-openapi.yml
   format: yaml
-  label: Bloomberg APIs tasvc API
+  label: Bloomberg APIs Tasvc API
   slug: bloomberg-apis-tasvc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/openapi/bloomberg-apis-tasvc-api-openapi.yml

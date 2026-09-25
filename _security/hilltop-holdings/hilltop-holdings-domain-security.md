@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
 - Insurance
-- Financial-Services
+- Financial Services
 - Mortgage
 - Broker-Dealer
 - Wealth Management

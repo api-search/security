@@ -28,7 +28,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-feedback-api-openapi.yml
 - filename: curated-for-you-shopify-api-openapi.yml
   format: yaml
-  label: Curated for You shopify API
+  label: Curated for You Shopify API
   slug: curated-for-you-shopify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-shopify-api-openapi.yml

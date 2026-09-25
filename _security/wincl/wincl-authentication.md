@@ -148,7 +148,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/openapi/wincl-faq-api-openapi.yml
 - filename: wincl-health-check-controller-api-openapi.yml
   format: yaml
-  label: WinCL health-check-controller API
+  label: WinCL Health Check Controller API
   slug: wincl-health-check-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/openapi/wincl-health-check-controller-api-openapi.yml

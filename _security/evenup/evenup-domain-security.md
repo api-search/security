@@ -38,7 +38,7 @@ tags:
 - Demand Letters
 - Medical Records
 - AI Drafting
-- Workflow-Automation
+- Workflow Automation
 - Settlement
 - Litigation
 - Software-as-a-Service

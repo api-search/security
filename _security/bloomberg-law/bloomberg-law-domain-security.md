@@ -35,9 +35,9 @@ source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-law/refs/heads/main/security/bloomberg-law-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- LegalTech
+- Legal Tech
 - Research
 - Analytics
 - Collaboration
-- AI
+- Artificial Intelligence
 ---

@@ -2,7 +2,7 @@
 api_specs:
 - filename: smithery-connect-api-openapi.yml
   format: yaml
-  label: Smithery connect API
+  label: Smithery Connect API
   slug: smithery-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-connect-api-openapi.yml
@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-connect-mcp-api-openapi.yml
 - filename: smithery-domains-api-openapi.yml
   format: yaml
-  label: Smithery domains API
+  label: Smithery Domains API
   slug: smithery-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-domains-api-openapi.yml
@@ -26,31 +26,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-health-api-openapi.yml
 - filename: smithery-namespaces-api-openapi.yml
   format: yaml
-  label: Smithery namespaces API
+  label: Smithery Namespaces API
   slug: smithery-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-namespaces-api-openapi.yml
 - filename: smithery-organizations-api-openapi.yml
   format: yaml
-  label: Smithery organizations API
+  label: Smithery Organizations API
   slug: smithery-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-organizations-api-openapi.yml
 - filename: smithery-servers-api-openapi.yml
   format: yaml
-  label: Smithery servers API
+  label: Smithery Servers API
   slug: smithery-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-servers-api-openapi.yml
 - filename: smithery-skills-api-openapi.yml
   format: yaml
-  label: Smithery skills API
+  label: Smithery Skills API
   slug: smithery-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-skills-api-openapi.yml
 - filename: smithery-tokens-api-openapi.yml
   format: yaml
-  label: Smithery tokens API
+  label: Smithery Tokens API
   slug: smithery-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-tokens-api-openapi.yml

@@ -344,7 +344,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/hea
 summary_line: SOC 2
 tags:
 - Human Resources
-- ATS
+- Applicant Tracking
 - Recruiting
 - Analytics
 - Sourcing

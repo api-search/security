@@ -173,4 +173,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primitive/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
+- A2A
 ---

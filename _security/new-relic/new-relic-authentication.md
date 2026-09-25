@@ -9,12 +9,6 @@ api_specs:
   slug: new-relic-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-alerts-api-openapi.yml
-- filename: new-relic-alerts-api-openapi.yml
-  format: yaml
-  label: New Relic Alerts API
-  slug: new-relic-alerts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-alerts-api-openapi.yml
 - filename: new-relic-applications-api-openapi.yml
   format: yaml
   label: New Relic Applications API
@@ -94,4 +88,5 @@ tags:
 - Observability
 - Performance
 - Platform
+- Real-Time
 ---

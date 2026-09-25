@@ -25,7 +25,7 @@ tags:
 - Cybersecurity
 - Security Operations
 - SIEM
-- Agentic AI
+- AI Agents
 - Threat Detection
 - Security Analytics
 trust_url: https://trust.vega.io/

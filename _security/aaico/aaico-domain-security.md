@@ -57,7 +57,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Agents
 - Enterprise
 - Document Processing
@@ -67,4 +67,5 @@ tags:
 - Insurance
 - Healthcare
 - MCP
+- A2A
 ---

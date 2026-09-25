@@ -141,5 +141,6 @@ tags:
 - Prometheus
 - DevOps
 - Company
+- A2A
 trust_url: https://trust.dash0.com/
 ---

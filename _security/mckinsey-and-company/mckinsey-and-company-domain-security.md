@@ -41,8 +41,8 @@ tags:
 - Digital Transformation
 - Research
 - Insights
-- Open-Source
-- Agentic AI
+- Open Source
+- AI Agents
 - Kubernetes
 - Data Visualization
 - Causal Inference

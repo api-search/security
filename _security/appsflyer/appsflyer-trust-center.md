@@ -434,8 +434,8 @@ tags:
 - Ad Fraud Prevention
 - SKAdNetwork
 - Privacy
-- Advertising Technology
+- AdTech
 - Mobile SDK
-- Agentic AI
+- AI Agents
 trust_url: https://www.appsflyer.com/trust/
 ---

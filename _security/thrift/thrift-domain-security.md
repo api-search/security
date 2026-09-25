@@ -38,7 +38,7 @@ tags:
 - Apache
 - Code Generation
 - Cross-Language
-- Open-Source
+- Open Source
 - RPC
 - SDK
 - Serialization

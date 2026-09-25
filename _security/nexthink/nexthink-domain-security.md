@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-campaigns-api-openapi.yml
 - filename: nexthink-device-deletions-api-openapi.yml
   format: yaml
-  label: Nexthink device-deletions API
+  label: Nexthink Device Deletions API
   slug: nexthink-device-deletions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-device-deletions-api-openapi.yml
 - filename: nexthink-enrichment-api-openapi.yml
   format: yaml
-  label: Nexthink enrichment API
+  label: Nexthink Enrichment API
   slug: nexthink-enrichment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-enrichment-api-openapi.yml

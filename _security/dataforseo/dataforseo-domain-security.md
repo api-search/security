@@ -127,5 +127,5 @@ tags:
 - App Store
 - Business Data
 - AI Optimization
-- Social-Media
+- Social Media
 ---

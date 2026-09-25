@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Safqah Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Safqah Holdings Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Safqah Holdings Limited
+overview: 'Domain security posture for Safqah, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Safqah
 provider_slug: safqah-holdings-limited
 slug: safqah-holdings-limited-domain-security
 source_filename: safqah-holdings-limited-domain-security.yml
@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fintech
-- Real-Estate
+- Real Estate
 - Investment
 - Financing
 - Crowdfunding

@@ -49,8 +49,8 @@ tags:
 - Cryptocurrency
 - Distributed Ledger
 - Permissioned Blockchain
-- Open-Source
-- Data-Center
+- Open Source
+- Data Center
 - Mining Hardware
 - Enterprise Blockchain
 ---

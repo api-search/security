@@ -97,6 +97,5 @@ tags:
 - Media Generation
 - Web Intelligence
 - Data Quality
-- Utilities
-- agent-native
+- Agent-Native
 ---

@@ -34,7 +34,7 @@ tags:
 - Software Development
 - IT Outsourcing
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Consulting
 - Cloud
 - Staff Augmentation

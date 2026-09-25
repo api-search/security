@@ -29,7 +29,7 @@ tags:
 - ArcGIS
 - Equal Opportunity
 - Fair Housing
-- Federal-Government
+- Federal Government
 - Geospatial
 - Housing
 - HUD

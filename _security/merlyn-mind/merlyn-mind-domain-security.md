@@ -39,6 +39,6 @@ tags:
 - LLM
 - Voice Assistant
 - Classroom Technology
-- Machine-Learning
+- Machine Learning
 - Responsible AI
 ---

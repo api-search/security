@@ -165,7 +165,7 @@ tags:
 - Company
 - Logistics
 - Freight
-- Computer-Vision
+- Computer Vision
 - Warehouse
 - Supply Chain
 - Measurements

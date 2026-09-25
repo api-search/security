@@ -174,7 +174,7 @@ tags:
 - Copy Trading
 - Investing
 - Market Data
-- Portfolio-Management
+- Portfolio Management
 - Fintech
 - Trading
 - Stocks

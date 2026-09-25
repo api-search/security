@@ -58,5 +58,5 @@ tags:
 - Payments
 - Banking
 - Dispute Resolution
-- Agentic AI
+- AI Agents
 ---

@@ -11,13 +11,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-audio-api-openapi.yml
 - filename: captions-health-api-openapi.yml
   format: yaml
-  label: Captions health API
+  label: Captions Health API
   slug: captions-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-health-api-openapi.yml
 - filename: captions-internal-api-openapi.yml
   format: yaml
-  label: Captions internal API
+  label: Captions Internal API
   slug: captions-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-api-openapi.yml
@@ -29,7 +29,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-meta-text-overlays-api-openapi.yml
 - filename: captions-root-api-openapi.yml
   format: yaml
-  label: Captions root API
+  label: Captions Root API
   slug: captions-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-root-api-openapi.yml

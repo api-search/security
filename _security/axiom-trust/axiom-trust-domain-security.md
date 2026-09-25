@@ -33,7 +33,7 @@ tags:
 - Trust Services
 - Wealth Management
 - Fiduciary
-- Financial-Services
+- Financial Services
 - Estate Planning
 - Trust Administration
 - Wealth Transfer

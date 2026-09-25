@@ -167,5 +167,5 @@ tags:
 - Dashboards
 - Data Visualization
 - SQL
-- Open-Source
+- Open Source
 ---

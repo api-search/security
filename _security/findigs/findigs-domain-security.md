@@ -83,7 +83,7 @@ tags:
 - Background Checks
 - Fraud Detection
 - Property Management
-- Real-Estate
+- Real Estate
 - PropTech
 - FCRA
 - Fair Housing

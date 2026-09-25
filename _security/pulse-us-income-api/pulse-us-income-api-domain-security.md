@@ -32,6 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Income
 - Underwriting
-- Financial
+- Finance
 - Applicants
 ---

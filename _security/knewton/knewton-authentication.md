@@ -67,7 +67,7 @@ tags:
 - EdTech
 - Adaptive Learning
 - Learning Analytics
-- Machine-Learning
+- Machine Learning
 - Recommendations
 - Courseware
 - Higher Education

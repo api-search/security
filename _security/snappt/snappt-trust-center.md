@@ -69,7 +69,7 @@ tags:
 - Income Verification
 - Property Management
 - Multifamily
-- Real-Estate
+- Real Estate
 - PropTech
 - Tenant Screening
 - Rental Applications

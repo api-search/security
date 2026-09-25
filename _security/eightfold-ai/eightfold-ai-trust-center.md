@@ -26,6 +26,6 @@ tags:
 - AI Interviewing
 - Human Resources
 - Workforce Planning
-- Agentic AI
+- AI Agents
 trust_url: https://trust.eightfold.ai/
 ---

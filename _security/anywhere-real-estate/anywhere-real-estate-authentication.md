@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/authentication/anywhere-real-estate-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
-- Real-Estate
+- Real Estate
 - United States
 - Property Listings
 - MLS

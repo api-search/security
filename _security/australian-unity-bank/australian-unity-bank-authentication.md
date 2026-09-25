@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://consume
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/authentication/australian-unity-bank-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

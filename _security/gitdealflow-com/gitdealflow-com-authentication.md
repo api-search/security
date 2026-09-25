@@ -82,8 +82,8 @@ tags:
 - GitHub
 - Alternative Data
 - Investing
-- Research Data
 - MCP
 - Agents
 - Developer Tools
+- A2A
 ---

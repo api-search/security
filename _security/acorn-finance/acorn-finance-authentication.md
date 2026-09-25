@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acorn-finance/
 summary_line: 1 scheme
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - Loans
 - Home Improvement

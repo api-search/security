@@ -37,5 +37,5 @@ tags:
 - Geospatial
 - Underwriting
 - Property Data
-- Risk
+- Risk Management
 ---

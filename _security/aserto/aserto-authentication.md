@@ -17,13 +17,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authorizer-api-openapi.yml
 - filename: aserto-decision-logs-api-openapi.yml
   format: yaml
-  label: Aserto decision_logs API
+  label: Aserto Decision Logs API
   slug: aserto-decision-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
 - filename: aserto-directory-api-openapi.yml
   format: yaml
-  label: Aserto directory API
+  label: Aserto Directory API
   slug: aserto-directory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-directory-api-openapi.yml

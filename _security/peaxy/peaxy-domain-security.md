@@ -41,5 +41,5 @@ tags:
 - Defense
 - Analytics
 - Data Management
-- Machine-Learning
+- Machine Learning
 ---

@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - eDiscovery
 - Legal
-- Document-Management
+- Document Management
 - Legal Hold
 - Redaction
 - Production Sets

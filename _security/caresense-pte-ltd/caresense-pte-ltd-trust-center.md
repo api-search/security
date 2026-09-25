@@ -6,8 +6,8 @@ kind: trust-center
 layout: security
 name: Caresense Pte Ltd Trust Center
 name_suffix: Trust Center
-overview: Caresense Pte. Ltd. maintains a public trust center covering its security and compliance posture.
-provider_name: Caresense Pte. Ltd.
+overview: Caresense maintains a public trust center covering its security and compliance posture.
+provider_name: Caresense
 provider_slug: caresense-pte-ltd
 slug: caresense-pte-ltd-trust-center
 source_filename: caresense-pte-ltd-trust-center.yml
@@ -27,6 +27,6 @@ tags:
 - Telehealth
 - Wellness
 - Singapore
-- Mobile Applications
+- Mobile App
 trust_url: https://trust.caresense.ai/
 ---

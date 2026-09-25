@@ -37,7 +37,7 @@ tags:
 - eFPGA
 - Hardware
 - Artificial Intelligence
-- Machine-Learning
-- Data-Center
+- Machine Learning
+- Data Center
 - Networking
 ---

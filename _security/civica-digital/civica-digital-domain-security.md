@@ -37,7 +37,7 @@ tags:
 - Public Sector
 - GovTech
 - Digital Transformation
-- Document-Management
+- Document Management
 - Conversational AI
 - Mexico
 ---

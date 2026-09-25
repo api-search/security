@@ -94,4 +94,7 @@ tags:
 - Streams
 - IPFS
 - Multi-Chain
+- Real-Time
+- A2A
+- Ethereum
 ---

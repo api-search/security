@@ -115,6 +115,6 @@ tags:
 - Banking
 - SME
 - Open Banking
-- Electronic Invoicing
+- E-Invoicing
 - Italy
 ---

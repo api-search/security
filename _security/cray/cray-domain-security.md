@@ -34,7 +34,7 @@ tags:
 - High Performance Computing
 - HPC
 - Hardware
-- Data-Center
+- Data Center
 - HPE
 - Acquired
 ---

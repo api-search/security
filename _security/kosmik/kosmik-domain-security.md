@@ -40,4 +40,5 @@ tags:
 - Artificial Intelligence
 - Local-First
 - Sunset
+- Defunct
 ---

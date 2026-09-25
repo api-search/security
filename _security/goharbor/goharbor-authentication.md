@@ -4,25 +4,25 @@ api_key_in: []
 api_specs:
 - filename: goharbor-health-api-openapi.yml
   format: yaml
-  label: GoHarbor health API
+  label: GoHarbor Health API
   slug: goharbor-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-health-api-openapi.yml
 - filename: goharbor-replication-api-openapi.yml
   format: yaml
-  label: GoHarbor replication API
+  label: GoHarbor Replication API
   slug: goharbor-replication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-replication-api-openapi.yml
 - filename: goharbor-scan-api-openapi.yml
   format: yaml
-  label: GoHarbor scan API
+  label: GoHarbor Scan API
   slug: goharbor-scan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-scan-api-openapi.yml
 - filename: goharbor-search-api-openapi.yml
   format: yaml
-  label: GoHarbor search API
+  label: GoHarbor Search API
   slug: goharbor-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-search-api-openapi.yml
@@ -277,7 +277,7 @@ tags:
 - Vulnerability Scanning
 - Supply Chain Security
 - OCI
-- Open-Source
+- Open Source
 - Kubernetes
 - DevOps
 - Replication

@@ -34,7 +34,7 @@ tags:
 - Home Inspection
 - Inspection Reports
 - Field Service
-- Real-Estate
+- Real Estate
 - Scheduling
 - Webhook
 - Zapier

@@ -37,4 +37,5 @@ tags:
 - Casinos
 - Gaming
 - Regulated
+- Sports
 ---

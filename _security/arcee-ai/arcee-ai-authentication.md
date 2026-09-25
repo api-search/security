@@ -207,11 +207,11 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Small Language Models
 - Inference
 - MCP
-- Open-Source
+- Open Source
 - Developer Platform
 ---

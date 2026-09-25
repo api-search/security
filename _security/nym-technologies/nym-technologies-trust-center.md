@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/openapi/nym-technologies-api-status-api-openapi.yml
 - filename: nym-technologies-circulating-supply-api-openapi.yml
   format: yaml
-  label: Nym Technologies circulating-supply API
+  label: Nym Technologies Circulating Supply API
   slug: nym-technologies-circulating-supply-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/openapi/nym-technologies-circulating-supply-api-openapi.yml
 - filename: nym-technologies-contract-cache-api-openapi.yml
   format: yaml
-  label: Nym Technologies contract-cache API
+  label: Nym Technologies Contract Cache API
   slug: nym-technologies-contract-cache-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/openapi/nym-technologies-contract-cache-api-openapi.yml
@@ -50,13 +50,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/openapi/nym-technologies-mixnodes-api-openapi.yml
 - filename: nym-technologies-network-api-openapi.yml
   format: yaml
-  label: Nym Technologies network API
+  label: Nym Technologies Network API
   slug: nym-technologies-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/openapi/nym-technologies-network-api-openapi.yml
 - filename: nym-technologies-network-monitor-status-api-openapi.yml
   format: yaml
-  label: Nym Technologies network-monitor-status API
+  label: Nym Technologies Network Monitor Status API
   slug: nym-technologies-network-monitor-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/openapi/nym-technologies-network-monitor-status-api-openapi.yml

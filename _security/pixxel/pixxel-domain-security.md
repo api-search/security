@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pixxel/refs/heads/main/openapi/pixxel-downloads-api-openapi.yml
 - filename: pixxel-external-api-openapi.yml
   format: yaml
-  label: Pixxel external API
+  label: Pixxel External API
   slug: pixxel-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pixxel/refs/heads/main/openapi/pixxel-external-api-openapi.yml

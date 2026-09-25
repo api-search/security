@@ -108,7 +108,7 @@ tags:
 - Document AI
 - Intelligent Document Processing
 - Data Extraction
-- Workflow-Automation
-- Computer-Vision
+- Workflow Automation
+- Computer Vision
 - No-Code
 ---

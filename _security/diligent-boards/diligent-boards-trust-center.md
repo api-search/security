@@ -24,7 +24,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diligent-board
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR
 tags:
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Board Management

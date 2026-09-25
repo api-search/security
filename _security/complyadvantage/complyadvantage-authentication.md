@@ -230,7 +230,6 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/authentication/complyadvantage-authentication.yml
 summary_line: oauth2-client-credentials/http-bearer/apiKey · 3 schemes
 tags:
-- Anti-Money Laundering
 - AML
 - Fraud Detection
 - Sanctions Screening

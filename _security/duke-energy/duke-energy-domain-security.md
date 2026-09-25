@@ -32,4 +32,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duke-energy/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500
+- Utilities
 ---

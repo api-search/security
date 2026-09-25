@@ -55,14 +55,14 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - Business Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Embedded Finance
 - Onboarding
 - KYC
 - Webhook
 - MCP
-- agent-native
+- Agent-Native
 - Invoicing
 - Bill Pay
 - Accounting

@@ -51,5 +51,5 @@ tags:
 - Cross-Chain
 - Cash Card
 - Liquid Vaults
-- Open-Source
+- Open Source
 ---

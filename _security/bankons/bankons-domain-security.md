@@ -33,7 +33,7 @@ tags:
 - Company
 - Defunct
 - Acquired
-- Financial-Services
+- Financial Services
 - Fintech
 - Mobile
 - Personal Finance

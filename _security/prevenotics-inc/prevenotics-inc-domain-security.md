@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Prevenotics Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Prevenotics, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Prevenotics, Inc.
+overview: 'Domain security posture for Prevenotics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Prevenotics
 provider_slug: prevenotics-inc
 slug: prevenotics-inc-domain-security
 source_filename: prevenotics-inc-domain-security.yml

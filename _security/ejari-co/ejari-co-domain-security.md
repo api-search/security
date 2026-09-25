@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ejari-co/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Fintech
 - Rent Now Pay Later

@@ -37,6 +37,6 @@ tags:
 - Developer Tools
 - Coding Agents
 - CLI
-- Agentic
+- AI Agents
 - Developer OS
 ---

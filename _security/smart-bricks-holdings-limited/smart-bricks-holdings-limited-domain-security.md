@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Smart Bricks Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Smart Bricks Holdings Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Smart Bricks Holdings Limited
+overview: 'Domain security posture for Smart Bricks, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Smart Bricks
 provider_slug: smart-bricks-holdings-limited
 slug: smart-bricks-holdings-limited-domain-security
 source_filename: smart-bricks-holdings-limited-domain-security.yml
@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-bricks-h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Artificial Intelligence
 - Investment

@@ -40,5 +40,5 @@ tags:
 - Private Equity
 - Investor Relations
 - MCP
-- Agentic AI
+- AI Agents
 ---

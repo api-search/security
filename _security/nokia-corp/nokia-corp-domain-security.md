@@ -49,7 +49,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nokia-corp/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications
-- Telecom
 - 5G
 - 6G
 - Mobile Network

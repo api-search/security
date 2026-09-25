@@ -65,7 +65,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database
 - Managed Database
-- Open-Source
+- Open Source
 - PostgreSQL
 - Relational
 ---

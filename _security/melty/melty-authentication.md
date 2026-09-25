@@ -33,6 +33,6 @@ tags:
 - Entertainment
 - France
 - Advertising
-- Open-Source
+- Open Source
 - Identity
 ---

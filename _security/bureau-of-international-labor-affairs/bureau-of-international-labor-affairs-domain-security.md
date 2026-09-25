@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - International
 - Labor
 - Standards

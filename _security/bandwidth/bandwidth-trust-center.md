@@ -77,5 +77,6 @@ tags:
 - Telephony
 - SMS
 - MFA
+- Telecommunications
 trust_url: https://www.bandwidth.com/security/
 ---

@@ -32,5 +32,5 @@ tags:
 - Oncology
 - Drug Discovery
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 ---

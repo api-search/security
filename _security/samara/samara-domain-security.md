@@ -35,7 +35,7 @@ tags:
 - Housing
 - Construction Technology
 - Prefabrication
-- Real-Estate
+- Real Estate
 - Accessory Dwelling Units
 - Modular Homes
 ---

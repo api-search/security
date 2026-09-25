@@ -37,5 +37,4 @@ tags:
 - AI Agents
 - Contract Management
 - Legal Operations
-- Agentic AI
 ---

@@ -37,7 +37,7 @@ summary_line: TLSv1.3
 tags:
 - Construction
 - Construction Technology
-- Real-Estate
+- Real Estate
 - PropTech
 - Sustainability
 - Buildings

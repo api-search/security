@@ -37,7 +37,7 @@ tags:
 - Artificial Intelligence
 - Data Annotation
 - Data Labeling
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Medical Imaging
 - Training Data

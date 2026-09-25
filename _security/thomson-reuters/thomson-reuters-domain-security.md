@@ -39,7 +39,7 @@ tags:
 - Legal
 - Tax
 - Finance
-- Risk
+- Risk Management
 - Fraud
 - Compliance
 - Data

@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/east-west-banc
 summary_line: oauth2 · 1 scheme
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Commercial Banking
 - Treasury Management
 - Open Banking

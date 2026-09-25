@@ -102,7 +102,7 @@ tags:
 - Chatbots
 - Mini Apps
 - Customer Requests
-- Workflow-Automation
+- Workflow Automation
 - MAX
 - Telegram
 - Russian Language

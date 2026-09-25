@@ -386,8 +386,8 @@ layout: security
 method: probed
 name: Zenhr Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ZenHR Inc, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: ZenHR Inc
+overview: 'Domain security posture for ZenHR, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: ZenHR
 provider_slug: zenhr-inc
 slug: zenhr-inc-domain-security
 source_filename: zenhr-inc-domain-security.yml

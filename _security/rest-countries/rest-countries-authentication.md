@@ -116,7 +116,7 @@ tags:
 - Geocoding
 - Geography
 - ISO 3166
-- Open-Source
+- Open Source
 - Public APIs
 - Reference Data
 - Currency

@@ -36,7 +36,7 @@ tags:
 - Tennis
 - Pickleball
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Mobile App
 ---

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Tpp Group Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for TPP GROUP INC., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: TPP GROUP INC.
+overview: 'Domain security posture for TPP GROUP, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: TPP GROUP
 provider_slug: tpp-group-inc
 slug: tpp-group-inc-domain-security
 source_filename: tpp-group-inc-domain-security.yml

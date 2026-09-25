@@ -83,7 +83,7 @@ tags:
 - Banking
 - Core Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Fintech
 - Integration Platform
 - iPaaS

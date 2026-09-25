@@ -34,7 +34,7 @@ tags:
 - Company
 - Retail
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Assortment Optimization
 - Retail Analytics
 - Category Management

@@ -91,11 +91,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spade/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Transaction Enrichment
 - Merchant Intelligence
 - Payments
 - Data Enrichment
 - Fraud and Risk
 - Fintech
+- A2A
 ---

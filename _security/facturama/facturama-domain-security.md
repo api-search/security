@@ -41,9 +41,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facturama/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Electronic Invoicing
-- CFDI
 - E-Invoicing
+- CFDI
 - Mexico
 - Tax Compliance
 - SAT

@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 - Forecasting
 - Time Series
 - Tabular Data

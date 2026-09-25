@@ -77,7 +77,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Advertising
-- Social-Media
+- Social Media
 - Digital Advertising
 - Marketing
 - Analytics

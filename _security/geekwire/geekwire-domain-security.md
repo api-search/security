@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: openapi.yaml
-  format: yaml
-  label: GeekWire WordPress REST API
-  slug: wordpress-rest-api
-  spec_type: OpenAPI
-  url: https://www.geekwire.com/wp-json/
 description: ''
 domains:
 - caa: []

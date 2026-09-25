@@ -93,7 +93,7 @@ tags:
 - Company
 - AI Training Data
 - Data Marketplace
-- Machine-Learning
+- Machine Learning
 - Data Annotation
 - Speech Data
 - Natural Language Processing

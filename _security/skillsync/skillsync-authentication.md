@@ -40,6 +40,6 @@ tags:
 - Coding Assistants
 - MCP
 - CLI
-- Knowledge-Management
+- Knowledge Management
 - Y Combinator
 ---

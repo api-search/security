@@ -2,43 +2,43 @@
 api_specs:
 - filename: cosmo-tech-dataset-api-openapi.yml
   format: yaml
-  label: Cosmo Tech dataset API
+  label: Cosmo Tech Dataset API
   slug: cosmo-tech-dataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-dataset-api-openapi.yml
 - filename: cosmo-tech-meta-api-openapi.yml
   format: yaml
-  label: Cosmo Tech meta API
+  label: Cosmo Tech Meta API
   slug: cosmo-tech-meta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-meta-api-openapi.yml
 - filename: cosmo-tech-organization-api-openapi.yml
   format: yaml
-  label: Cosmo Tech organization API
+  label: Cosmo Tech Organization API
   slug: cosmo-tech-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-organization-api-openapi.yml
 - filename: cosmo-tech-run-api-openapi.yml
   format: yaml
-  label: Cosmo Tech run API
+  label: Cosmo Tech Run API
   slug: cosmo-tech-run-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-run-api-openapi.yml
 - filename: cosmo-tech-runner-api-openapi.yml
   format: yaml
-  label: Cosmo Tech runner API
+  label: Cosmo Tech Runner API
   slug: cosmo-tech-runner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-runner-api-openapi.yml
 - filename: cosmo-tech-solution-api-openapi.yml
   format: yaml
-  label: Cosmo Tech solution API
+  label: Cosmo Tech Solution API
   slug: cosmo-tech-solution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-solution-api-openapi.yml
 - filename: cosmo-tech-workspace-api-openapi.yml
   format: yaml
-  label: Cosmo Tech workspace API
+  label: Cosmo Tech Workspace API
   slug: cosmo-tech-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-workspace-api-openapi.yml

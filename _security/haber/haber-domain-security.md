@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Industrial Automation
 - Smart Manufacturing
-- IIoT
+- Industrial IoT
 - Process Optimization
 - Predictive Analytics
 ---

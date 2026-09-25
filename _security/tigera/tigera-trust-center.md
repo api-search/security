@@ -59,6 +59,6 @@ tags:
 - Microsegmentation
 - Zero Trust
 - eBPF
-- Open-Source
+- Open Source
 trust_url: https://www.tigera.io/tigera-products/calico-cloud-trust-center/
 ---

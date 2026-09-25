@@ -27,6 +27,6 @@ tags:
 - AIOps
 - Root Cause Analysis
 - MCP
-- Agentic AI
+- AI Agents
 trust_url: https://trust.neubird.ai/
 ---

@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property Management
 - Lettings
 - Rentals

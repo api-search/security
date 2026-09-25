@@ -400,7 +400,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/openapi/tvu-networks-search-api-search-srt-api-openapi.yml
 - filename: tvu-networks-shortcut-api-api-openapi.yml
   format: yaml
-  label: TVU Networks shortcut API
+  label: TVU Networks Shortcut API
   slug: tvu-networks-shortcut-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/openapi/tvu-networks-shortcut-api-api-openapi.yml

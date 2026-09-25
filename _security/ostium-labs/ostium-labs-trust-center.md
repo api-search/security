@@ -37,5 +37,6 @@ tags:
 - Web3
 - Market Data
 - SDK
+- Real-Time
 trust_url: https://docs.ostium.com/protocol/security/audits
 ---

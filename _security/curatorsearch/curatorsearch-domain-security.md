@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/security/curatorsearch-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- agent-native
+- Agent-Native
 - MCP
 - OpenAPI
 - llms-txt

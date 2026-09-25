@@ -42,7 +42,7 @@ tags:
 - Company
 - Technology
 - Photography
-- Mobile Applications
+- Mobile App
 - Camera
 - Consumer Applications
 - Video Editing

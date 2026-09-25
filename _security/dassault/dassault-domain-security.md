@@ -2,31 +2,31 @@
 api_specs:
 - filename: dassault-accreditations-api-openapi.yml
   format: yaml
-  label: Dassault Systèmes accreditations API
+  label: Dassault Systèmes Accreditations API
   slug: dassault-accreditations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-accreditations-api-openapi.yml
 - filename: dassault-leads-opportunities-api-openapi.yml
   format: yaml
-  label: Dassault Systèmes leads-opportunities API
+  label: Dassault Systèmes Leads Opportunities API
   slug: dassault-leads-opportunities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-leads-opportunities-api-openapi.yml
 - filename: dassault-orders-api-openapi.yml
   format: yaml
-  label: Dassault Systèmes orders API
+  label: Dassault Systèmes Orders API
   slug: dassault-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-orders-api-openapi.yml
 - filename: dassault-portfolio-items-api-openapi.yml
   format: yaml
-  label: Dassault Systèmes portfolio-items API
+  label: Dassault Systèmes Portfolio Items API
   slug: dassault-portfolio-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-portfolio-items-api-openapi.yml
 - filename: dassault-price-lists-api-openapi.yml
   format: yaml
-  label: Dassault Systèmes price-lists API
+  label: Dassault Systèmes Price Lists API
   slug: dassault-price-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-price-lists-api-openapi.yml

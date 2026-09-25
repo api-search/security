@@ -99,7 +99,7 @@ tags:
 - Messaging
 - SMS
 - Voice
-- Mobile Applications
+- Mobile App
 - Phone Numbers
 - Consumer Applications
 - Small Business

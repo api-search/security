@@ -37,6 +37,6 @@ tags:
 - Treasury
 - Hedging
 - Fintech
-- Financial-Services
+- Financial Services
 - Payments
 ---

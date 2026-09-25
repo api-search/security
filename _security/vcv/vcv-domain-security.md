@@ -2,43 +2,43 @@
 api_specs:
 - filename: vcv-chatbot-api-openapi.yml
   format: yaml
-  label: VCV chatbot API
+  label: VCV Chatbot API
   slug: vcv-chatbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-chatbot-api-openapi.yml
 - filename: vcv-companies-api-openapi.yml
   format: yaml
-  label: VCV companies API
+  label: VCV Companies API
   slug: vcv-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-companies-api-openapi.yml
 - filename: vcv-countries-api-openapi.yml
   format: yaml
-  label: VCV countries API
+  label: VCV Countries API
   slug: vcv-countries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-countries-api-openapi.yml
 - filename: vcv-enumeration-api-openapi.yml
   format: yaml
-  label: VCV enumeration API
+  label: VCV Enumeration API
   slug: vcv-enumeration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-enumeration-api-openapi.yml
 - filename: vcv-integration-api-openapi.yml
   format: yaml
-  label: VCV integration API
+  label: VCV Integration API
   slug: vcv-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-integration-api-openapi.yml
 - filename: vcv-interview-api-openapi.yml
   format: yaml
-  label: VCV interview API
+  label: VCV Interview API
   slug: vcv-interview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-interview-api-openapi.yml
 - filename: vcv-invite-api-openapi.yml
   format: yaml
-  label: VCV invite API
+  label: VCV Invite API
   slug: vcv-invite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-invite-api-openapi.yml
@@ -50,55 +50,55 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-languages-api-openapi.yml
 - filename: vcv-limits-api-openapi.yml
   format: yaml
-  label: VCV limits API
+  label: VCV Limits API
   slug: vcv-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-limits-api-openapi.yml
 - filename: vcv-response-api-openapi.yml
   format: yaml
-  label: VCV response API
+  label: VCV Response API
   slug: vcv-response-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-response-api-openapi.yml
 - filename: vcv-survey-api-openapi.yml
   format: yaml
-  label: VCV survey API
+  label: VCV Survey API
   slug: vcv-survey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-survey-api-openapi.yml
 - filename: vcv-tags-api-openapi.yml
   format: yaml
-  label: VCV tags API
+  label: VCV Tags API
   slug: vcv-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-tags-api-openapi.yml
 - filename: vcv-test-api-openapi.yml
   format: yaml
-  label: VCV test API
+  label: VCV Test API
   slug: vcv-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-test-api-openapi.yml
 - filename: vcv-users-api-openapi.yml
   format: yaml
-  label: VCV users API
+  label: VCV Users API
   slug: vcv-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-users-api-openapi.yml
 - filename: vcv-vacancy-api-openapi.yml
   format: yaml
-  label: VCV vacancy API
+  label: VCV Vacancy API
   slug: vcv-vacancy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-vacancy-api-openapi.yml
 - filename: vcv-videointerview-api-openapi.yml
   format: yaml
-  label: VCV videointerview API
+  label: VCV Videointerview API
   slug: vcv-videointerview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-videointerview-api-openapi.yml
 - filename: vcv-webhook-api-openapi.yml
   format: yaml
-  label: VCV webhook API
+  label: VCV Webhook API
   slug: vcv-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/openapi/vcv-webhook-api-openapi.yml

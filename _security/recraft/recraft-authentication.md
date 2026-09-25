@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/h
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Design
 - Vectors
 - Styles

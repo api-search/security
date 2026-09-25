@@ -52,5 +52,5 @@ tags:
 - Asset Management
 - Investment
 - Leveraged ETFs
-- Financial-Services
+- Financial Services
 ---

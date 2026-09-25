@@ -53,4 +53,5 @@ tags:
 - Ratings Agency
 - Decarbonization
 - Net Zero
+- Climate
 ---

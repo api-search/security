@@ -38,6 +38,6 @@ tags:
 - Payroll
 - Bookkeeping
 - Self-Employed
-- Financial-Services
+- Financial Services
 - Small Business
 ---

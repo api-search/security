@@ -57,4 +57,6 @@ tags:
 - NFT
 - Crypto
 - Web3
+- Real-Time
+- Ethereum
 ---

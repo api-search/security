@@ -85,7 +85,7 @@ tags:
 - Disaster Recovery
 - Dropbox
 - Google Workspace
-- Microsoft-365
+- Microsoft 365
 - OpenText
 - SaaS Backup
 - Salesforce

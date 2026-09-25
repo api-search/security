@@ -275,7 +275,7 @@ tags:
 - Key-Value Store
 - Object Storage
 - Infrastructure
-- Agentic AI
-- Open-Source
+- AI Agents
+- Open Source
 trust_url: https://www.synadia.com/security
 ---

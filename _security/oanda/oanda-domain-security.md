@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: oanda-pricing-api-openapi.yml
-  format: yaml
-  label: OANDA Pricing API
-  slug: oanda-pricing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-pricing-api-openapi.yml
 - filename: oanda-accounts-api-openapi.yml
   format: yaml
   label: OANDA Accounts API
@@ -77,6 +71,6 @@ tags:
 - Forex
 - FX Trading
 - CFD Trading
-- Financial-Services
+- Financial Services
 - Trading APIs
 ---

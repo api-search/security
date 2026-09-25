@@ -72,7 +72,7 @@ tags:
 - Creator Management
 - Creator Economy
 - Marketing
-- Agentic AI
+- AI Agents
 - Agents
 - MCP
 - Agent Skills

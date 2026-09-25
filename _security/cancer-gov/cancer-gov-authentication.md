@@ -353,7 +353,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/ref
 summary_line: apiKey/none · 5 schemes
 tags:
 - Cancer
-- Federal-Government
+- Federal Government
 - Healthcare
 - Research
 - Clinical Trials

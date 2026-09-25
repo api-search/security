@@ -48,7 +48,7 @@ tags:
 - Digital Marketing
 - Small Business
 - WordPress
-- Open-Source
+- Open Source
 - MCP
 - E-Commerce
 ---

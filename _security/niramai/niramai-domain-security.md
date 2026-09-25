@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Medical Imaging
 - Breast Cancer Screening
 - Diagnostics

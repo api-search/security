@@ -324,6 +324,6 @@ tags:
 - Business Cards
 - Prepaid Cards
 - Fintech
-- Financial-Services
+- Financial Services
 - Webhook
 ---

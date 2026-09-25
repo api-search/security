@@ -205,7 +205,6 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/security/complyadvantage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Anti-Money Laundering
 - AML
 - Fraud Detection
 - Sanctions Screening

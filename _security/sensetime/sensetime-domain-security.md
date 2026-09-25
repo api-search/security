@@ -47,10 +47,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - LLM
 - Generative AI
-- Computer-Vision
+- Computer Vision
 - LLM API
 ---

@@ -1,67 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: aira-technologies-posts-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Posts API
-  slug: aira-technologies-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-posts-api-openapi.yml
-- filename: aira-technologies-pages-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Pages API
-  slug: aira-technologies-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-pages-api-openapi.yml
-- filename: aira-technologies-articles-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Articles API
-  slug: aira-technologies-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-articles-api-openapi.yml
-- filename: aira-technologies-events-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Events API
-  slug: aira-technologies-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-events-api-openapi.yml
-- filename: aira-technologies-media-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Media API
-  slug: aira-technologies-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-media-api-openapi.yml
-- filename: aira-technologies-search-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Search API
-  slug: aira-technologies-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-search-api-openapi.yml
-- filename: aira-technologies-discovery-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Discovery API
-  slug: aira-technologies-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-discovery-api-openapi.yml
-- filename: aira-technologies-categories-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Categories API
-  slug: aira-technologies-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-categories-api-openapi.yml
-- filename: aira-technologies-users-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Users API
-  slug: aira-technologies-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-users-api-openapi.yml
-- filename: aira-technologies-o-embed-api-openapi.yml
-  format: yaml
-  label: Aira Technologies o Embed API
-  slug: aira-technologies-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-o-embed-api-openapi.yml
 auth_types: []
 description: Aira Technologies publishes no developer program and issues no API credentials. The WordPress REST content API behind aira-technology.com is anonymously readable — no key, token, signature or account is required to read posts, pages, articles, events, media, categories, authors, search or the discovery metadata. The server declares exactly one authentication method in its own root document, WordPress application passwords, and that method gates only the write and privileged-read operations that are not part of the public surface. The Naavik and RANGPT products Aira actually sells have no public authentication surface at all — there is no developer portal, no signup, no key issuance and no documented token endpoint anywhere on the company's site.
 kind: authentication
@@ -91,7 +30,7 @@ tags:
 - Telecommunications
 - Wireless
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - 5G
 - Radio Access Network
 - Network Automation

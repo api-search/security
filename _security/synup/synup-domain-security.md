@@ -161,7 +161,7 @@ tags:
 - Reputation Management
 - Local SEO
 - Reviews
-- Social-Media
+- Social Media
 - Analytics
 - Business Listings
 - Review Management

@@ -45,14 +45,14 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Audit
 - Enterprise Software
-- Regulatory Technology
+- RegTech
 - Cyber Risk
-- Third-Party Risk
+- Third-Party Risk Management
 - Operational Resilience
 - ESG
 ---

@@ -142,7 +142,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/planetsc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/authentication/planetscale-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Application
-- Authorization
-- Edge Computing
+- Database
+- MySQL
+- PostgreSQL
+- Serverless
 ---

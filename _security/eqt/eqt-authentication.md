@@ -10,8 +10,8 @@ method: probed
 name: Eqt Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: EQT Corporation declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: EQT Corporation
+overview: EQT declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: EQT
 provider_slug: eqt
 scheme_count: 0
 schemes: []

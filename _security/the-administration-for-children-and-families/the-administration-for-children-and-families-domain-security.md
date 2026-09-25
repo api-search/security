@@ -2,7 +2,7 @@
 api_specs:
 - filename: the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
   format: yaml
-  label: The Administration for Children and Families plg_auth_check API
+  label: The Administration for Children and Families Plg Auth Check API
   slug: the-administration-for-children-and-families-plg-auth-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
@@ -74,7 +74,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Children
 - Families
-- Federal-Government
+- Federal Government
 - Health And Human Services
 - Human Services
 - Social Safety Net

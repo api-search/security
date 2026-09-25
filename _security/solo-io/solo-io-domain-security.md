@@ -86,7 +86,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-webhooks-api-openapi.yml
 - filename: solo-io-apis-api-openapi.yml
   format: yaml
-  label: Solo.io AP Is API
+  label: Solo.io APIs API
   slug: solo-io-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/openapi/solo-io-apis-api-openapi.yml
@@ -146,9 +146,9 @@ tags:
 - Istio
 - Envoy
 - AI Gateway
-- Agentic AI
+- AI Agents
 - MCP
 - Developer Portal
 - Cloud-Native
-- Open-Source
+- Open Source
 ---

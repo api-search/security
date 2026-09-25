@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-api-keys-api-openapi.yml
 - filename: bluejay-bland-api-openapi.yml
   format: yaml
-  label: Bluejay bland API
+  label: Bluejay Bland API
   slug: bluejay-bland-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-bland-api-openapi.yml
@@ -263,7 +263,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-regeneration-api-openapi.yml
 - filename: bluejay-retell-api-openapi.yml
   format: yaml
-  label: Bluejay retell API
+  label: Bluejay Retell API
   slug: bluejay-retell-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-retell-api-openapi.yml
@@ -341,7 +341,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-update-schedule-api-openapi.yml
 - filename: bluejay-vapi-api-openapi.yml
   format: yaml
-  label: Bluejay vapi API
+  label: Bluejay Vapi API
   slug: bluejay-vapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/bluejay-vapi-api-openapi.yml

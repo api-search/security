@@ -24,7 +24,7 @@ summary_line: ISO 27001:2013, SOC 2 Type II, GDPR, CCPA
 tags:
 - Company
 - Recruiting
-- ATS
+- Applicant Tracking
 - Human Resources
 - Hiring
 - Employee Referrals

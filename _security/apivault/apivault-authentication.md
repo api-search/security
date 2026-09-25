@@ -110,6 +110,6 @@ tags:
 - API Catalog
 - API Directory
 - API Discovery
-- Open-Source
+- Open Source
 - Public APIs
 ---

@@ -32,5 +32,5 @@ tags:
 - FinOps
 - Governance
 - Multi-Cloud
-- Open-Source
+- Open Source
 ---

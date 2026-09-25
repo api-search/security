@@ -40,6 +40,6 @@ tags:
 - Behavioral Health
 - Prescription Digital Therapeutic
 - Telehealth
-- Mobile Applications
+- Mobile App
 - No Public API
 ---

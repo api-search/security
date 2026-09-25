@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - Fintech
 - Open Banking

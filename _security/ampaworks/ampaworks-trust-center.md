@@ -20,7 +20,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Inventory Management
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Supply Chain
 - Healthcare

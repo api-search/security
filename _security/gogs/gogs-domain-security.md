@@ -88,6 +88,7 @@ tags:
 - Company
 - Git
 - Self-Hosted
-- Open-Source
+- Open Source
 - Go
+- A2A
 ---

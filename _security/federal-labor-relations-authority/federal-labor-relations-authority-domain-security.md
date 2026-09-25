@@ -34,7 +34,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-labor-relations-authority/refs/heads/main/security/federal-labor-relations-authority-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Labor
 - Labor-Relations
 - Collective-Bargaining

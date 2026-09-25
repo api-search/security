@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: bizapi-company-search-api-openapi.yml
-  format: yaml
-  label: BizAPI Company Search API
-  slug: bizapi-company-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/openapi/bizapi-company-search-api-openapi.yml
 auth_types:
 - http
 description: ''

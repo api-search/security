@@ -35,7 +35,7 @@ tags:
 - Aquaculture
 - Fish Farming
 - Monitoring
-- Computer-Vision
+- Computer Vision
 - Edge Computing
 - Artificial Intelligence
 - IoT

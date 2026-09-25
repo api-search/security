@@ -28,7 +28,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-collections-api-openapi.yml
 - filename: magic-eden-instructions-api-openapi.yml
   format: yaml
-  label: Magic Eden instructions API
+  label: Magic Eden Instructions API
   slug: magic-eden-instructions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-instructions-api-openapi.yml
@@ -40,25 +40,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-ixs-api-openapi.yml
 - filename: magic-eden-launchpad-api-openapi.yml
   format: yaml
-  label: Magic Eden launchpad API
+  label: Magic Eden Launchpad API
   slug: magic-eden-launchpad-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-launchpad-api-openapi.yml
 - filename: magic-eden-magic-ticket-api-openapi.yml
   format: yaml
-  label: Magic Eden magic-ticket API
+  label: Magic Eden Magic Ticket API
   slug: magic-eden-magic-ticket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-magic-ticket-api-openapi.yml
 - filename: magic-eden-marketplace-api-openapi.yml
   format: yaml
-  label: Magic Eden marketplace API
+  label: Magic Eden Marketplace API
   slug: magic-eden-marketplace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-marketplace-api-openapi.yml
 - filename: magic-eden-mmm-api-openapi.yml
   format: yaml
-  label: Magic Eden mmm API
+  label: Magic Eden Mmm API
   slug: magic-eden-mmm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-mmm-api-openapi.yml
@@ -112,7 +112,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-tokens-api-openapi.yml
 - filename: magic-eden-wallets-api-openapi.yml
   format: yaml
-  label: Magic Eden wallets API
+  label: Magic Eden Wallets API
   slug: magic-eden-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/openapi/magic-eden-wallets-api-openapi.yml

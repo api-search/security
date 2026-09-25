@@ -48,11 +48,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
-- Diagnostics
 - Electronic Parts Catalog
 - Industrial Tools
 - Manufacturing
 - Repair Information
 - Vehicle Repair
 - Fortune 1000
+- Vehicle Diagnostics
 ---

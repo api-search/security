@@ -80,12 +80,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - RAG
 - Agents
 - LLM
 - Platform-as-a-Service
 - Chat
-- Workflow-Automation
+- Workflow Automation
 - Vector Search
 ---

@@ -146,7 +146,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Auto Insurance
 - Casualty
-- Financial-Services
+- Financial Services
 - Homeowners Insurance
 - Insurance
 - Insurance Verification

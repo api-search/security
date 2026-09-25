@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyrus-biotechn
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Protein Engineering
 - Drug Discovery
 - Structural Biology

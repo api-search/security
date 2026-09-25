@@ -78,6 +78,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP Integration
 - Logistics
-- Machine-Learning
+- Machine Learning
 - Supply Chain
 ---

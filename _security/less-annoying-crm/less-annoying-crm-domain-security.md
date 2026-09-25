@@ -41,5 +41,5 @@ tags:
 - CRM
 - Small Business
 - Contact Management
-- SaaS
+- Software-as-a-Service
 ---

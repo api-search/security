@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Ecobites Pte Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Ecobites Pte. Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Ecobites Pte. Ltd.
+overview: 'Domain security posture for Rec Rec, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Rec Rec
 provider_slug: ecobites-pte-ltd
 slug: ecobites-pte-ltd-domain-security
 source_filename: ecobites-pte-ltd-domain-security.yml

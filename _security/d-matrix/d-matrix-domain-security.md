@@ -37,6 +37,6 @@ tags:
 - Inference
 - Hardware
 - Accelerator
-- Machine-Learning
+- Machine Learning
 - Semiconductors
 ---

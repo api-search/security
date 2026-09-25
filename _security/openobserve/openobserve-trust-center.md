@@ -223,6 +223,6 @@ tags:
 - Metrics
 - Traces
 - RUM
-- Open-Source
+- Open Source
 trust_url: https://security.openobserve.ai/
 ---

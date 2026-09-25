@@ -106,7 +106,7 @@ tags:
 - Weather
 - Forecast
 - Climate
-- Risk
+- Risk Management
 - Air Quality
 - Pollen
 - Lightning

@@ -189,7 +189,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: derived\nsource: openapi/social-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/authentication/social-fetch-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Social-Media
+- Social Media
 - Web Scraping
 - Data Extraction
 - Social Listening
@@ -198,7 +198,7 @@ tags:
 - JSON:API
 - REST
 - MCP
-- agent-native
+- Agent-Native
 - TypeScript SDK
 - Transcripts
 - ads intelligence

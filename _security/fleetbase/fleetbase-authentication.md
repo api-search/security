@@ -95,5 +95,5 @@ tags:
 - Fleet Management
 - Supply Chain
 - Last Mile Delivery
-- Open-Source
+- Open Source
 ---

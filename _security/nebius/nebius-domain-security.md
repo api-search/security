@@ -55,6 +55,6 @@ tags:
 - HPC
 - Inference
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - Storage
 ---

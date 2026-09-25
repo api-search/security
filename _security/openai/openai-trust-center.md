@@ -1,77 +1,5 @@
 ---
 api_specs:
-- filename: openai-responses-api-openapi.yml
-  format: yaml
-  label: OpenAI Responses API
-  slug: openai-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-responses-api-openapi.yml
-- filename: openai-moderations-api-openapi.yml
-  format: yaml
-  label: OpenAI Moderations API
-  slug: openai-moderations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-moderations-api-openapi.yml
-- filename: openai-batch-api-openapi.yml
-  format: yaml
-  label: OpenAI Batch API
-  slug: openai-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-batch-api-openapi.yml
-- filename: openai-vector-stores-api-openapi.yml
-  format: yaml
-  label: OpenAI Vector Stores API
-  slug: openai-vector-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vector-stores-api-openapi.yml
-- filename: openai-uploads-api-openapi.yml
-  format: yaml
-  label: OpenAI Uploads API
-  slug: openai-uploads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-uploads-api-openapi.yml
-- filename: openai-realtime-asyncapi.yml
-  format: yaml
-  label: OpenAI Realtime API
-  slug: openai-realtime-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/asyncapi/openai-realtime-asyncapi.yml
-- filename: openai-evals-api-openapi.yml
-  format: yaml
-  label: OpenAI Evals API
-  slug: openai-evals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-evals-api-openapi.yml
-- filename: openai-videos-api-openapi.yml
-  format: yaml
-  label: OpenAI Videos API
-  slug: openai-videos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
-- filename: openai-conversations-api-openapi.yml
-  format: yaml
-  label: OpenAI Conversations API
-  slug: openai-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-conversations-api-openapi.yml
-- filename: openai-containers-api-openapi.yml
-  format: yaml
-  label: OpenAI Containers API
-  slug: openai-containers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-containers-api-openapi.yml
-- filename: openai-chatkit-api-openapi.yml
-  format: yaml
-  label: OpenAI ChatKit API
-  slug: openai-chatkit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chatkit-api-openapi.yml
-- filename: openai-skills-api-openapi.yml
-  format: yaml
-  label: OpenAI Skills API
-  slug: openai-skills-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-skills-api-openapi.yml
 - filename: openai-assistants-api-openapi.yml
   format: yaml
   label: OpenAI Assistants API
@@ -110,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chat-api-openapi.yml
 - filename: openai-chatkit-api-openapi.yml
   format: yaml
-  label: OpenAI Chatkit API
+  label: OpenAI ChatKit API
   slug: openai-chatkit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chatkit-api-openapi.yml
@@ -284,7 +212,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-users-api-openapi.yml
 - filename: openai-vector-stores-api-openapi.yml
   format: yaml
-  label: OpenAI Vector stores API
+  label: OpenAI Vector Stores API
   slug: openai-vector-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vector-stores-api-openapi.yml
@@ -330,9 +258,6 @@ tags:
 - OpenAI
 - Artificial Intelligence
 - T1
-- API
-- ChatGPT
-- Developers
-- Business
+- Agentic Commerce
 trust_url: https://trust.openai.com/
 ---

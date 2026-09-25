@@ -2,535 +2,535 @@
 api_specs:
 - filename: openpath-auth-api-openapi.yml
   format: yaml
-  label: Openpath auth API
+  label: Openpath Auth API
   slug: openpath-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-auth-api-openapi.yml
 - filename: openpath-billablefeatures-api-openapi.yml
   format: yaml
-  label: Openpath billableFeatures API
+  label: Openpath Billable Features API
   slug: openpath-billablefeatures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-billablefeatures-api-openapi.yml
 - filename: openpath-identities-api-openapi.yml
   format: yaml
-  label: Openpath identities API
+  label: Openpath Identities API
   slug: openpath-identities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-identities-api-openapi.yml
 - filename: openpath-orgs-acumodels-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acuModels API
+  label: Openpath Orgs/acu Models API
   slug: openpath-orgs-acumodels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acumodels-api-openapi.yml
 - filename: openpath-orgs-acuports-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acuPorts API
+  label: Openpath Orgs/acu Ports API
   slug: openpath-orgs-acuports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acuports-api-openapi.yml
 - filename: openpath-orgs-acuporttypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acuPortTypes API
+  label: Openpath Orgs/acu Port Types API
   slug: openpath-orgs-acuporttypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acuporttypes-api-openapi.yml
 - filename: openpath-orgs-acus-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acus API
+  label: Openpath Orgs/acus API
   slug: openpath-orgs-acus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acus-api-openapi.yml
 - filename: openpath-orgs-alarmactions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmActions API
+  label: Openpath Orgs/alarm Actions API
   slug: openpath-orgs-alarmactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmactions-api-openapi.yml
 - filename: openpath-orgs-alarmconfigurations-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmConfigurations API
+  label: Openpath Orgs/alarm Configurations API
   slug: openpath-orgs-alarmconfigurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmconfigurations-api-openapi.yml
 - filename: openpath-orgs-alarmseverities-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmSeverities API
+  label: Openpath Orgs/alarm Severities API
   slug: openpath-orgs-alarmseverities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmseverities-api-openapi.yml
 - filename: openpath-orgs-alarmsext-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmsExt API
+  label: Openpath Orgs/alarms Ext API
   slug: openpath-orgs-alarmsext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmsext-api-openapi.yml
 - filename: openpath-orgs-alarmstatuses-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmStatuses API
+  label: Openpath Orgs/alarm Statuses API
   slug: openpath-orgs-alarmstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmstatuses-api-openapi.yml
 - filename: openpath-orgs-authcerts-api-openapi.yml
   format: yaml
-  label: Openpath orgs/authCerts API
+  label: Openpath Orgs/auth Certs API
   slug: openpath-orgs-authcerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-authcerts-api-openapi.yml
 - filename: openpath-orgs-badgeconfigs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/badgeConfigs API
+  label: Openpath Orgs/badge Configs API
   slug: openpath-orgs-badgeconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-badgeconfigs-api-openapi.yml
 - filename: openpath-orgs-cardformats-api-openapi.yml
   format: yaml
-  label: Openpath orgs/cardFormats API
+  label: Openpath Orgs/card Formats API
   slug: openpath-orgs-cardformats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-cardformats-api-openapi.yml
 - filename: openpath-orgs-cobalt-api-openapi.yml
   format: yaml
-  label: Openpath orgs/cobalt API
+  label: Openpath Orgs/cobalt API
   slug: openpath-orgs-cobalt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-cobalt-api-openapi.yml
 - filename: openpath-orgs-contactsensors-api-openapi.yml
   format: yaml
-  label: Openpath orgs/contactSensors API
+  label: Openpath Orgs/contact Sensors API
   slug: openpath-orgs-contactsensors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-contactsensors-api-openapi.yml
 - filename: openpath-orgs-credentialactiontypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/credentialActionTypes API
+  label: Openpath Orgs/credential Action Types API
   slug: openpath-orgs-credentialactiontypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-credentialactiontypes-api-openapi.yml
 - filename: openpath-orgs-credentials-api-openapi.yml
   format: yaml
-  label: Openpath orgs/credentials API
+  label: Openpath Orgs/credentials API
   slug: openpath-orgs-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-credentials-api-openapi.yml
 - filename: openpath-orgs-credentialtypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/credentialTypes API
+  label: Openpath Orgs/credential Types API
   slug: openpath-orgs-credentialtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-credentialtypes-api-openapi.yml
 - filename: openpath-orgs-customfields-api-openapi.yml
   format: yaml
-  label: Openpath orgs/customFields API
+  label: Openpath Orgs/custom Fields API
   slug: openpath-orgs-customfields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-customfields-api-openapi.yml
 - filename: openpath-orgs-customfieldtypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/customFieldTypes API
+  label: Openpath Orgs/custom Field Types API
   slug: openpath-orgs-customfieldtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-customfieldtypes-api-openapi.yml
 - filename: openpath-orgs-dashboards-api-openapi.yml
   format: yaml
-  label: Openpath orgs/dashboards API
+  label: Openpath Orgs/dashboards API
   slug: openpath-orgs-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-dashboards-api-openapi.yml
 - filename: openpath-orgs-effectivescopes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/effectiveScopes API
+  label: Openpath Orgs/effective Scopes API
   slug: openpath-orgs-effectivescopes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-effectivescopes-api-openapi.yml
 - filename: openpath-orgs-emailalerts-api-openapi.yml
   format: yaml
-  label: Openpath orgs/emailAlerts API
+  label: Openpath Orgs/email Alerts API
   slug: openpath-orgs-emailalerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-emailalerts-api-openapi.yml
 - filename: openpath-orgs-emailalerttypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/emailAlertTypes API
+  label: Openpath Orgs/email Alert Types API
   slug: openpath-orgs-emailalerttypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-emailalerttypes-api-openapi.yml
 - filename: openpath-orgs-entries-api-openapi.yml
   format: yaml
-  label: Openpath orgs/entries API
+  label: Openpath Orgs/entries API
   slug: openpath-orgs-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-entries-api-openapi.yml
 - filename: openpath-orgs-entrystates-api-openapi.yml
   format: yaml
-  label: Openpath orgs/entryStates API
+  label: Openpath Orgs/entry States API
   slug: openpath-orgs-entrystates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-entrystates-api-openapi.yml
 - filename: openpath-orgs-eolsupervisions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/eolSupervisions API
+  label: Openpath Orgs/eol Supervisions API
   slug: openpath-orgs-eolsupervisions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-eolsupervisions-api-openapi.yml
 - filename: openpath-orgs-features-api-openapi.yml
   format: yaml
-  label: Openpath orgs/features API
+  label: Openpath Orgs/features API
   slug: openpath-orgs-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-features-api-openapi.yml
 - filename: openpath-orgs-foballegions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/fobAllegions API
+  label: Openpath Orgs/fob Allegions API
   slug: openpath-orgs-foballegions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-foballegions-api-openapi.yml
 - filename: openpath-orgs-genericinputs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/genericInputs API
+  label: Openpath Orgs/generic Inputs API
   slug: openpath-orgs-genericinputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-genericinputs-api-openapi.yml
 - filename: openpath-orgs-groups-api-openapi.yml
   format: yaml
-  label: Openpath orgs/groups API
+  label: Openpath Orgs/groups API
   slug: openpath-orgs-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-groups-api-openapi.yml
 - filename: openpath-orgs-hookactions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/hookActions API
+  label: Openpath Orgs/hook Actions API
   slug: openpath-orgs-hookactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-hookactions-api-openapi.yml
 - filename: openpath-orgs-hookevents-api-openapi.yml
   format: yaml
-  label: Openpath orgs/hookEvents API
+  label: Openpath Orgs/hook Events API
   slug: openpath-orgs-hookevents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-hookevents-api-openapi.yml
 - filename: openpath-orgs-identityproviders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/identityProviders API
+  label: Openpath Orgs/identity Providers API
   slug: openpath-orgs-identityproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-identityproviders-api-openapi.yml
 - filename: openpath-orgs-identityprovidertypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/identityProviderTypes API
+  label: Openpath Orgs/identity Provider Types API
   slug: openpath-orgs-identityprovidertypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-identityprovidertypes-api-openapi.yml
 - filename: openpath-orgs-ios-api-openapi.yml
   format: yaml
-  label: Openpath orgs/ios API
+  label: Openpath Orgs/ios API
   slug: openpath-orgs-ios-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-ios-api-openapi.yml
 - filename: openpath-orgs-locationmeasurementsourcetypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/locationMeasurementSourceTypes API
+  label: Openpath Orgs/location Measurement Source Types API
   slug: openpath-orgs-locationmeasurementsourcetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-locationmeasurementsourcetypes-api-openapi.yml
 - filename: openpath-orgs-lockdownplans-api-openapi.yml
   format: yaml
-  label: Openpath orgs/lockdownPlans API
+  label: Openpath Orgs/lockdown Plans API
   slug: openpath-orgs-lockdownplans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-lockdownplans-api-openapi.yml
 - filename: openpath-orgs-mailrooms-api-openapi.yml
   format: yaml
-  label: Openpath orgs/mailrooms API
+  label: Openpath Orgs/mailrooms API
   slug: openpath-orgs-mailrooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-mailrooms-api-openapi.yml
 - filename: openpath-orgs-maintenancewindow-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindow API
+  label: Openpath Orgs/maintenance Window API
   slug: openpath-orgs-maintenancewindow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindow-api-openapi.yml
 - filename: openpath-orgs-maintenancewindowacumap-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindowAcuMap API
+  label: Openpath Orgs/maintenance Window Acu Map API
   slug: openpath-orgs-maintenancewindowacumap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindowacumap-api-openapi.yml
 - filename: openpath-orgs-maintenancewindowdefinition-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindowDefinition API
+  label: Openpath Orgs/maintenance Window Definition API
   slug: openpath-orgs-maintenancewindowdefinition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindowdefinition-api-openapi.yml
 - filename: openpath-orgs-maintenancewindowmap-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindowMap API
+  label: Openpath Orgs/maintenance Window Map API
   slug: openpath-orgs-maintenancewindowmap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindowmap-api-openapi.yml
 - filename: openpath-orgs-mobileappconfig-api-openapi.yml
   format: yaml
-  label: Openpath orgs/mobileAppConfig API
+  label: Openpath Orgs/mobile App Config API
   slug: openpath-orgs-mobileappconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-mobileappconfig-api-openapi.yml
 - filename: openpath-orgs-namespaces-api-openapi.yml
   format: yaml
-  label: Openpath orgs/namespaces API
+  label: Openpath Orgs/namespaces API
   slug: openpath-orgs-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-namespaces-api-openapi.yml
 - filename: openpath-orgs-opvideo-devices-api-openapi.yml
   format: yaml
-  label: Openpath orgs/opvideo-devices API
+  label: Openpath Orgs/opvideo Devices API
   slug: openpath-orgs-opvideo-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-opvideo-devices-api-openapi.yml
 - filename: openpath-orgs-orgidentities-api-openapi.yml
   format: yaml
-  label: Openpath orgs/orgIdentities API
+  label: Openpath Orgs/org Identities API
   slug: openpath-orgs-orgidentities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-orgidentities-api-openapi.yml
 - filename: openpath-orgs-orgpackageplans-api-openapi.yml
   format: yaml
-  label: Openpath orgs/orgPackagePlans API
+  label: Openpath Orgs/org Package Plans API
   slug: openpath-orgs-orgpackageplans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-orgpackageplans-api-openapi.yml
 - filename: openpath-orgs-orgpictures-api-openapi.yml
   format: yaml
-  label: Openpath orgs/orgPictures API
+  label: Openpath Orgs/org Pictures API
   slug: openpath-orgs-orgpictures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-orgpictures-api-openapi.yml
 - filename: openpath-orgs-packageplans-api-openapi.yml
   format: yaml
-  label: Openpath orgs/packagePlans API
+  label: Openpath Orgs/package Plans API
   slug: openpath-orgs-packageplans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-packageplans-api-openapi.yml
 - filename: openpath-orgs-palettes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/palettes API
+  label: Openpath Orgs/palettes API
   slug: openpath-orgs-palettes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-palettes-api-openapi.yml
 - filename: openpath-orgs-parcelmessagetypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/parcelMessageTypes API
+  label: Openpath Orgs/parcel Message Types API
   slug: openpath-orgs-parcelmessagetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-parcelmessagetypes-api-openapi.yml
 - filename: openpath-orgs-parcels-api-openapi.yml
   format: yaml
-  label: Openpath orgs/parcels API
+  label: Openpath Orgs/parcels API
   slug: openpath-orgs-parcels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-parcels-api-openapi.yml
 - filename: openpath-orgs-parcelstatuses-api-openapi.yml
   format: yaml
-  label: Openpath orgs/parcelStatuses API
+  label: Openpath Orgs/parcel Statuses API
   slug: openpath-orgs-parcelstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-parcelstatuses-api-openapi.yml
 - filename: openpath-orgs-readers-api-openapi.yml
   format: yaml
-  label: Openpath orgs/readers API
+  label: Openpath Orgs/readers API
   slug: openpath-orgs-readers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-readers-api-openapi.yml
 - filename: openpath-orgs-recentalarms-api-openapi.yml
   format: yaml
-  label: Openpath orgs/recentAlarms API
+  label: Openpath Orgs/recent Alarms API
   slug: openpath-orgs-recentalarms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-recentalarms-api-openapi.yml
 - filename: openpath-orgs-recentalarmsext-api-openapi.yml
   format: yaml
-  label: Openpath orgs/recentAlarmsExt API
+  label: Openpath Orgs/recent Alarms Ext API
   slug: openpath-orgs-recentalarmsext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-recentalarmsext-api-openapi.yml
 - filename: openpath-orgs-relayhardwaretypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/relayHardwareTypes API
+  label: Openpath Orgs/relay Hardware Types API
   slug: openpath-orgs-relayhardwaretypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-relayhardwaretypes-api-openapi.yml
 - filename: openpath-orgs-relays-api-openapi.yml
   format: yaml
-  label: Openpath orgs/relays API
+  label: Openpath Orgs/relays API
   slug: openpath-orgs-relays-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-relays-api-openapi.yml
 - filename: openpath-orgs-reports-api-openapi.yml
   format: yaml
-  label: Openpath orgs/reports API
+  label: Openpath Orgs/reports API
   slug: openpath-orgs-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-reports-api-openapi.yml
 - filename: openpath-orgs-rexs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/rexs API
+  label: Openpath Orgs/rexs API
   slug: openpath-orgs-rexs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-rexs-api-openapi.yml
 - filename: openpath-orgs-roles-api-openapi.yml
   format: yaml
-  label: Openpath orgs/roles API
+  label: Openpath Orgs/roles API
   slug: openpath-orgs-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-roles-api-openapi.yml
 - filename: openpath-orgs-schedules-api-openapi.yml
   format: yaml
-  label: Openpath orgs/schedules API
+  label: Openpath Orgs/schedules API
   slug: openpath-orgs-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-schedules-api-openapi.yml
 - filename: openpath-orgs-scheduletypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/scheduleTypes API
+  label: Openpath Orgs/schedule Types API
   slug: openpath-orgs-scheduletypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-scheduletypes-api-openapi.yml
 - filename: openpath-orgs-scoperesources-api-openapi.yml
   format: yaml
-  label: Openpath orgs/scopeResources API
+  label: Openpath Orgs/scope Resources API
   slug: openpath-orgs-scoperesources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-scoperesources-api-openapi.yml
 - filename: openpath-orgs-sharedusers-api-openapi.yml
   format: yaml
-  label: Openpath orgs/sharedUsers API
+  label: Openpath Orgs/shared Users API
   slug: openpath-orgs-sharedusers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-sharedusers-api-openapi.yml
 - filename: openpath-orgs-sites-api-openapi.yml
   format: yaml
-  label: Openpath orgs/sites API
+  label: Openpath Orgs/sites API
   slug: openpath-orgs-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-sites-api-openapi.yml
 - filename: openpath-orgs-subscriptions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/subscriptions API
+  label: Openpath Orgs/subscriptions API
   slug: openpath-orgs-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-subscriptions-api-openapi.yml
 - filename: openpath-orgs-tasks-api-openapi.yml
   format: yaml
-  label: Openpath orgs/tasks API
+  label: Openpath Orgs/tasks API
   slug: openpath-orgs-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-tasks-api-openapi.yml
 - filename: openpath-orgs-termsagreements-api-openapi.yml
   format: yaml
-  label: Openpath orgs/termsAgreements API
+  label: Openpath Orgs/terms Agreements API
   slug: openpath-orgs-termsagreements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-termsagreements-api-openapi.yml
 - filename: openpath-orgs-thirdpartyreaders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/thirdPartyReaders API
+  label: Openpath Orgs/third Party Readers API
   slug: openpath-orgs-thirdpartyreaders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-thirdpartyreaders-api-openapi.yml
 - filename: openpath-orgs-thirdpartywiegands-api-openapi.yml
   format: yaml
-  label: Openpath orgs/thirdPartyWiegands API
+  label: Openpath Orgs/third Party Wiegands API
   slug: openpath-orgs-thirdpartywiegands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-thirdpartywiegands-api-openapi.yml
 - filename: openpath-orgs-triggermethods-api-openapi.yml
   format: yaml
-  label: Openpath orgs/triggerMethods API
+  label: Openpath Orgs/trigger Methods API
   slug: openpath-orgs-triggermethods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-triggermethods-api-openapi.yml
 - filename: openpath-orgs-triggerpermissionschange-api-openapi.yml
   format: yaml
-  label: Openpath orgs/triggerPermissionsChange API
+  label: Openpath Orgs/trigger Permissions Change API
   slug: openpath-orgs-triggerpermissionschange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-triggerpermissionschange-api-openapi.yml
 - filename: openpath-orgs-unusedinputs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/unusedInputs API
+  label: Openpath Orgs/unused Inputs API
   slug: openpath-orgs-unusedinputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-unusedinputs-api-openapi.yml
 - filename: openpath-orgs-users-api-openapi.yml
   format: yaml
-  label: Openpath orgs/users API
+  label: Openpath Orgs/users API
   slug: openpath-orgs-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-users-api-openapi.yml
 - filename: openpath-orgs-videoprovidertypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/videoProviderTypes API
+  label: Openpath Orgs/video Provider Types API
   slug: openpath-orgs-videoprovidertypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-videoprovidertypes-api-openapi.yml
 - filename: openpath-orgs-widgettypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/widgetTypes API
+  label: Openpath Orgs/widget Types API
   slug: openpath-orgs-widgettypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-widgettypes-api-openapi.yml
 - filename: openpath-orgs-wiegands-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wiegands API
+  label: Openpath Orgs/wiegands API
   slug: openpath-orgs-wiegands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wiegands-api-openapi.yml
 - filename: openpath-orgs-wirelessgateways-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessGateways API
+  label: Openpath Orgs/wireless Gateways API
   slug: openpath-orgs-wirelessgateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelessgateways-api-openapi.yml
 - filename: openpath-orgs-wirelesslockgateways-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockGateways API
+  label: Openpath Orgs/wireless Lock Gateways API
   slug: openpath-orgs-wirelesslockgateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslockgateways-api-openapi.yml
 - filename: openpath-orgs-wirelesslockproviders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockProviders API
+  label: Openpath Orgs/wireless Lock Providers API
   slug: openpath-orgs-wirelesslockproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslockproviders-api-openapi.yml
 - filename: openpath-orgs-wirelesslockreaders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockReaders API
+  label: Openpath Orgs/wireless Lock Readers API
   slug: openpath-orgs-wirelesslockreaders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslockreaders-api-openapi.yml
 - filename: openpath-orgs-wirelesslocks-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLocks API
+  label: Openpath Orgs/wireless Locks API
   slug: openpath-orgs-wirelesslocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslocks-api-openapi.yml
 - filename: openpath-orgs-wirelesslocktemplates-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockTemplates API
+  label: Openpath Orgs/wireless Lock Templates API
   slug: openpath-orgs-wirelesslocktemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslocktemplates-api-openapi.yml
 - filename: openpath-orgs-zones-api-openapi.yml
   format: yaml
-  label: Openpath orgs/zones API
+  label: Openpath Orgs/zones API
   slug: openpath-orgs-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-zones-api-openapi.yml
 - filename: openpath-tokens-api-openapi.yml
   format: yaml
-  label: Openpath tokens API
+  label: Openpath Tokens API
   slug: openpath-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-tokens-api-openapi.yml

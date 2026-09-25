@@ -76,7 +76,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security Automation
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Security Operations
 - SOAR
 - Incident Response

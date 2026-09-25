@@ -43,5 +43,5 @@ tags:
 - Healthcare
 - Compliance
 - Market Intelligence
-- agent-native
+- Agent-Native
 ---

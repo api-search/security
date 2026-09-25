@@ -50,7 +50,7 @@ tags:
 - Banking
 - Core Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Integration
 - iPaaS
 - Payments

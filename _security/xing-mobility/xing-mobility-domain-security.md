@@ -35,7 +35,7 @@ tags:
 - Energy Storage
 - Immersion Cooling
 - Electric Vehicles
-- Data-Center
+- Data Center
 - Manufacturing
 - Taiwan
 ---

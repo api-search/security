@@ -279,7 +279,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ai Enterprise Software
-- Real-Estate
+- Real Estate
 - Construction
 - PropTech
 - Financial Management

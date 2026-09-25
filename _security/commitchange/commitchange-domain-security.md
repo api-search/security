@@ -46,5 +46,5 @@ tags:
 - Ticketing
 - Donor Management
 - Crowdfunding
-- Open-Source
+- Open Source
 ---

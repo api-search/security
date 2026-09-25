@@ -66,7 +66,7 @@ tags:
 - Instalments
 - E-Commerce
 - Checkout
-- Financial-Services
+- Financial Services
 - Point-of-Sale
 - Reconciliation
 - Europe

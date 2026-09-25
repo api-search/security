@@ -67,6 +67,6 @@ tags:
 - IoT
 - Connectivity
 - SIM Management
-- Telecom
+- Telecommunications
 - Mobile Network
 ---

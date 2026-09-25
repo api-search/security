@@ -41,7 +41,7 @@ tags:
 - Geospatial
 - Remote Sensing
 - Satellite Imagery
-- Machine-Learning
+- Machine Learning
 - Crop Health
 - Agricultural Intelligence
 - Insurance

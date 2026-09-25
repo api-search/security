@@ -192,7 +192,7 @@ summary_line: oauth2/apiKey/mutualTLS · 5 schemes
 tags:
 - Banking
 - Buy Now Pay Later
-- Financial-Services
+- Financial Services
 - FDX
 - Locator
 - Open Banking

@@ -35,7 +35,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Genomics
 - Single Cell

@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Integration Platform
 - iPaaS
 - Automation

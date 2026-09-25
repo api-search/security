@@ -39,5 +39,5 @@ tags:
 - Inventory Management
 - Supply Chain
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 ---

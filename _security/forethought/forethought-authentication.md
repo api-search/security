@@ -51,13 +51,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/re
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - Customer Service
 - Generative AI
 - SupportGPT
 - Conversational AI
 - Ticket Triage
-- Agentic AI
+- AI Agents
 - Voice AI
 - Help Desk
 - Multi-Agent

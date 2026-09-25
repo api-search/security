@@ -112,6 +112,7 @@ tags:
 - Asset Performance Management
 - Fleet Management
 - Telematics
-- Machine-Learning
+- Machine Learning
 - Industrial IoT
+- Industrial
 ---

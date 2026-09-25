@@ -170,7 +170,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-webhooks-api-openapi.yml
 - filename: kinde-apis-api-openapi.yml
   format: yaml
-  label: Kinde AP Is API
+  label: Kinde APIs API
   slug: kinde-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-apis-api-openapi.yml

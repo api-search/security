@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: quaker-houghton-tribe-events-v1-openapi-original.json
-  format: json
-  label: Quaker Houghton Events API
-  slug: quaker-houghton-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaker-houghton/refs/heads/main/openapi/_original/quaker-houghton-tribe-events-v1-openapi-original.json
-- filename: quaker-houghton-tec-v1-openapi-original.json
-  format: json
-  label: Quaker Houghton TEC v1 Events API
-  slug: quaker-houghton-tec-v1-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaker-houghton/refs/heads/main/openapi/_original/quaker-houghton-tec-v1-openapi-original.json
 description: ''
 domains:
 - caa: []

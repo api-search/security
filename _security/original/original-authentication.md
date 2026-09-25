@@ -49,7 +49,7 @@ summary_line: 4 schemes
 tags:
 - Company
 - Body Measurement
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Sizing
 - Retail

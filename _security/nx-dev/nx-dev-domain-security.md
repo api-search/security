@@ -61,5 +61,5 @@ tags:
 - TypeScript
 - JavaScript
 - Rust
-- Open-Source
+- Open Source
 ---

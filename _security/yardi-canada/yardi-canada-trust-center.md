@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: false\nurl: http
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/security/yardi-canada-trust-center.yml
 summary_line: SOC 2 (annual), SOC 1 (biannual), SSAE 18, PCI, HIPAA, Sarbanes-Oxley, CSA STAR Level 2, FIPS 140-2 (key management)
 tags:
-- Real-Estate
+- Real Estate
 - Canada
 - Property Management
 - Rentals

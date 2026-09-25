@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - PropTech
-- Real-Estate
+- Real Estate
 - Investment
 - Residential
 - Property Data

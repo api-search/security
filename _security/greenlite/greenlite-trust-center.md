@@ -25,6 +25,6 @@ tags:
 - Plan Review
 - Compliance
 - Government
-- Real-Estate
+- Real Estate
 trust_url: https://trust.greenlite.com/
 ---

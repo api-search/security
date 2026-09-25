@@ -35,7 +35,7 @@ tags:
 - Gaming
 - Interactive Storytelling
 - Generative AI
-- Machine-Learning
+- Machine Learning
 - Video Games
 - Conversational AI
 ---

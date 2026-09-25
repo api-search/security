@@ -37,12 +37,12 @@ tags:
 - Cloud Backup
 - OData
 - SQL
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Connectors
 - Data Management
 - MCP
-- agent-native
+- Agent-Native
 - Data Access
 trust_url: https://skyvia.com/security
 ---

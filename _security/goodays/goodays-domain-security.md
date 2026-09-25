@@ -2,43 +2,43 @@
 api_specs:
 - filename: goodays-core-api-openapi.yml
   format: yaml
-  label: Goodays core API
+  label: Goodays Core API
   slug: goodays-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-core-api-openapi.yml
 - filename: goodays-dashboard-api-openapi.yml
   format: yaml
-  label: Goodays dashboard API
+  label: Goodays Dashboard API
   slug: goodays-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-dashboard-api-openapi.yml
 - filename: goodays-events-api-openapi.yml
   format: yaml
-  label: Goodays events API
+  label: Goodays Events API
   slug: goodays-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-events-api-openapi.yml
 - filename: goodays-response-api-openapi.yml
   format: yaml
-  label: Goodays response API
+  label: Goodays Response API
   slug: goodays-response-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-response-api-openapi.yml
 - filename: goodays-session-api-openapi.yml
   format: yaml
-  label: Goodays session API
+  label: Goodays Session API
   slug: goodays-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-session-api-openapi.yml
 - filename: goodays-solicitation-api-openapi.yml
   format: yaml
-  label: Goodays solicitation API
+  label: Goodays Solicitation API
   slug: goodays-solicitation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-solicitation-api-openapi.yml
 - filename: goodays-stats-api-openapi.yml
   format: yaml
-  label: Goodays stats API
+  label: Goodays Stats API
   slug: goodays-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-stats-api-openapi.yml

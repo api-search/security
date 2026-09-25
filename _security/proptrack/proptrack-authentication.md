@@ -32,7 +32,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Property Data
-- Real-Estate
+- Real Estate
 - Automated Valuation
 - Property Valuation
 - Australia

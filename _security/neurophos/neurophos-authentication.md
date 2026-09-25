@@ -45,7 +45,7 @@ tags:
 - AI Accelerators
 - Semiconductors
 - Metamaterials
-- Data-Center
+- Data Center
 - Deep Tech
 - MCP
 ---

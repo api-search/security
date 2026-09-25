@@ -513,7 +513,7 @@ tags:
 - Commerce
 - Headless
 - E-Commerce
-- Open-Source
+- Open Source
 - Ruby on Rails
 - Ruby
 - TypeScript

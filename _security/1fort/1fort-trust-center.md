@@ -566,8 +566,8 @@ tags:
 - Policy Management
 - premium-finance
 - Payments
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 trust_url: https://security.1fort.com/
 ---

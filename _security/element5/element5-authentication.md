@@ -61,7 +61,7 @@ tags:
 - Healthcare
 - Revenue Cycle Management
 - Post-Acute Care
-- Workflow-Automation
+- Workflow Automation
 - Eligibility Verification
 - Prior Authorization
 - Claims Processing

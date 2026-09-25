@@ -39,5 +39,5 @@ tags:
 - Governance
 - Validation
 - Regulatory Compliance
-- Machine-Learning
+- Machine Learning
 ---

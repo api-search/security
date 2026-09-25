@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Jubilee Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Jubilee Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Jubilee Inc
+overview: 'Domain security posture for Jubilee, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Jubilee
 provider_slug: jubilee-inc
 slug: jubilee-inc-domain-security
 source_filename: jubilee-inc-domain-security.yml
@@ -36,6 +36,6 @@ tags:
 - Video
 - Entertainment
 - Content Production
-- Social-Media
+- Social Media
 - YouTube
 ---

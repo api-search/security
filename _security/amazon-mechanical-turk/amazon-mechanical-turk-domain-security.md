@@ -276,6 +276,6 @@ tags:
 - Crowdsourcing
 - Human Intelligence
 - Labor
-- Machine-Learning
+- Machine Learning
 - Task
 ---

@@ -35,8 +35,8 @@ tags:
 - Cloud
 - Content
 - Documentation
-- Knowledge-Management
-- Customer-Support
+- Knowledge Management
+- Customer Support
 - Customer Experience
 - Analytics
 - Salesforce

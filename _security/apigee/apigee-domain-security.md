@@ -298,7 +298,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Apigee
 - Advanced API Security
-- Agentic AI
+- AI Agents
 - Analytics
 - API Gateway
 - API Governance

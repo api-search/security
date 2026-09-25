@@ -67,5 +67,5 @@ tags:
 - DeFi
 - Finance
 - Investment
-- Portfolio-Management
+- Portfolio Management
 ---

@@ -28,11 +28,10 @@ summary_line: 0 schemes
 tags:
 - Fraud Detection
 - AML
-- Anti-Money Laundering
 - Compliance
 - Fintech
 - Transaction Monitoring
-- Risk
+- Risk Management
 - SAR
 - Financial Crime
 - Suspicious Activity Reports

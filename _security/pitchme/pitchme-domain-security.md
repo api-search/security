@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Data Enrichment
 - Talent Intelligence
 - Human Resources

@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Marketing
-- Social-Media
+- Social Media
 - Promotions
 - Contests
 - Sweepstakes

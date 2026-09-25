@@ -2,115 +2,115 @@
 api_specs:
 - filename: v0-agent-api-openapi.yml
   format: yaml
-  label: v0 agent API
+  label: v0 Agent API
   slug: v0-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-agent-api-openapi.yml
 - filename: v0-blankproject-api-openapi.yml
   format: yaml
-  label: v0 blankProject API
+  label: v0 Blank Project API
   slug: v0-blankproject-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-blankproject-api-openapi.yml
 - filename: v0-chats-api-openapi.yml
   format: yaml
-  label: v0 chats API
+  label: v0 Chats API
   slug: v0-chats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-chats-api-openapi.yml
 - filename: v0-chatscreenshots-api-openapi.yml
   format: yaml
-  label: v0 chatScreenshots API
+  label: v0 Chat Screenshots API
   slug: v0-chatscreenshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-chatscreenshots-api-openapi.yml
 - filename: v0-deployments-api-openapi.yml
   format: yaml
-  label: v0 deployments API
+  label: v0 Deployments API
   slug: v0-deployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-deployments-api-openapi.yml
 - filename: v0-feedback-api-openapi.yml
   format: yaml
-  label: v0 feedback API
+  label: v0 Feedback API
   slug: v0-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-feedback-api-openapi.yml
 - filename: v0-git-api-openapi.yml
   format: yaml
-  label: v0 git API
+  label: v0 Git API
   slug: v0-git-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-git-api-openapi.yml
 - filename: v0-hooks-api-openapi.yml
   format: yaml
-  label: v0 hooks API
+  label: v0 Hooks API
   slug: v0-hooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-hooks-api-openapi.yml
 - filename: v0-iap-api-openapi.yml
   format: yaml
-  label: v0 iap API
+  label: v0 Iap API
   slug: v0-iap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-iap-api-openapi.yml
 - filename: v0-integrations-api-openapi.yml
   format: yaml
-  label: v0 integrations API
+  label: v0 Integrations API
   slug: v0-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-integrations-api-openapi.yml
 - filename: v0-nativeversion-api-openapi.yml
   format: yaml
-  label: v0 nativeVersion API
+  label: v0 Native Version API
   slug: v0-nativeversion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-nativeversion-api-openapi.yml
 - filename: v0-notifications-api-openapi.yml
   format: yaml
-  label: v0 notifications API
+  label: v0 Notifications API
   slug: v0-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-notifications-api-openapi.yml
 - filename: v0-plans-api-openapi.yml
   format: yaml
-  label: v0 plans API
+  label: v0 Plans API
   slug: v0-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-plans-api-openapi.yml
 - filename: v0-products-api-openapi.yml
   format: yaml
-  label: v0 products API
+  label: v0 Products API
   slug: v0-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-products-api-openapi.yml
 - filename: v0-projects-api-openapi.yml
   format: yaml
-  label: v0 projects API
+  label: v0 Projects API
   slug: v0-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-projects-api-openapi.yml
 - filename: v0-reports-api-openapi.yml
   format: yaml
-  label: v0 reports API
+  label: v0 Reports API
   slug: v0-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-reports-api-openapi.yml
 - filename: v0-search-api-openapi.yml
   format: yaml
-  label: v0 search API
+  label: v0 Search API
   slug: v0-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-search-api-openapi.yml
 - filename: v0-terms-api-openapi.yml
   format: yaml
-  label: v0 terms API
+  label: v0 Terms API
   slug: v0-terms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-terms-api-openapi.yml
 - filename: v0-user-api-openapi.yml
   format: yaml
-  label: v0 user API
+  label: v0 User API
   slug: v0-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-user-api-openapi.yml

@@ -79,5 +79,6 @@ tags:
 - Lending
 - Payments
 - Consumer
+- Agentic Commerce
 trust_url: https://trust.affirm.com/
 ---

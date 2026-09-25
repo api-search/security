@@ -39,4 +39,5 @@ tags:
 - Retail
 - Germany
 - Closed
+- Defunct
 ---

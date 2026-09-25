@@ -181,7 +181,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Freddie Mac
-- Federal-Government
+- Federal Government
 - Housing
 - Mortgage
 - Lending
@@ -190,4 +190,5 @@ tags:
 - Secondary Market
 - MISMO
 - Fortune 100
+- Government-Sponsored Enterprise
 ---

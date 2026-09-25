@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Focused Space Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Focused Space, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Focused Space, Inc.
+overview: 'Domain security posture for Focused Space, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Focused Space
 provider_slug: focused-space-inc
 slug: focused-space-inc-domain-security
 source_filename: focused-space-inc-domain-security.yml

@@ -11,25 +11,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-authentication-api-openapi.yml
 - filename: argilla-datasets-api-openapi.yml
   format: yaml
-  label: Argilla datasets API
+  label: Argilla Datasets API
   slug: argilla-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-datasets-api-openapi.yml
 - filename: argilla-fields-api-openapi.yml
   format: yaml
-  label: Argilla fields API
+  label: Argilla Fields API
   slug: argilla-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-fields-api-openapi.yml
 - filename: argilla-info-api-openapi.yml
   format: yaml
-  label: Argilla info API
+  label: Argilla Info API
   slug: argilla-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-info-api-openapi.yml
 - filename: argilla-jobs-api-openapi.yml
   format: yaml
-  label: Argilla jobs API
+  label: Argilla Jobs API
   slug: argilla-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-jobs-api-openapi.yml
@@ -41,55 +41,55 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-metadata-properties-api-openapi.yml
 - filename: argilla-questions-api-openapi.yml
   format: yaml
-  label: Argilla questions API
+  label: Argilla Questions API
   slug: argilla-questions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-questions-api-openapi.yml
 - filename: argilla-records-api-openapi.yml
   format: yaml
-  label: Argilla records API
+  label: Argilla Records API
   slug: argilla-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-records-api-openapi.yml
 - filename: argilla-responses-api-openapi.yml
   format: yaml
-  label: Argilla responses API
+  label: Argilla Responses API
   slug: argilla-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-responses-api-openapi.yml
 - filename: argilla-settings-api-openapi.yml
   format: yaml
-  label: Argilla settings API
+  label: Argilla Settings API
   slug: argilla-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-settings-api-openapi.yml
 - filename: argilla-suggestions-api-openapi.yml
   format: yaml
-  label: Argilla suggestions API
+  label: Argilla Suggestions API
   slug: argilla-suggestions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-suggestions-api-openapi.yml
 - filename: argilla-users-api-openapi.yml
   format: yaml
-  label: Argilla users API
+  label: Argilla Users API
   slug: argilla-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-users-api-openapi.yml
 - filename: argilla-vectors-settings-api-openapi.yml
   format: yaml
-  label: Argilla vectors-settings API
+  label: Argilla Vectors Settings API
   slug: argilla-vectors-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-vectors-settings-api-openapi.yml
 - filename: argilla-webhooks-api-openapi.yml
   format: yaml
-  label: Argilla webhooks API
+  label: Argilla Webhooks API
   slug: argilla-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-webhooks-api-openapi.yml
 - filename: argilla-workspaces-api-openapi.yml
   format: yaml
-  label: Argilla workspaces API
+  label: Argilla Workspaces API
   slug: argilla-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-workspaces-api-openapi.yml
@@ -132,9 +132,9 @@ tags:
 - LLM
 - NLP
 - RLHF
-- Machine-Learning
+- Machine Learning
 - Datasets
-- Open-Source
+- Open Source
 - Human Feedback
 - Fine-Tuning
 - Hugging Face

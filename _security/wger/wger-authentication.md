@@ -479,7 +479,7 @@ tags:
 - Fitness
 - Nutrition
 - Health
-- Open-Source
+- Open Source
 - Self-Hosted
 - Workout Tracking
 - Django

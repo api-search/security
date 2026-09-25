@@ -80,5 +80,5 @@ tags:
 - Analytics
 - Capital Markets
 - Data Science
-- Financial-Services
+- Financial Services
 ---

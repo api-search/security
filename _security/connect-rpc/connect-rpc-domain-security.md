@@ -37,7 +37,7 @@ tags:
 - gRPC
 - gRPC-Web
 - HTTP
-- Open-Source
+- Open Source
 - Protocol Buffers
 - RPC
 - SDK

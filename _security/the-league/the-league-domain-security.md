@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Dating
 - Social
-- Mobile Applications
+- Mobile App
 - Match Group
 - Cowboy Ventures
 ---

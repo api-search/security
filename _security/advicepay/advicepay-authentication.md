@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: https://docs.ad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/authentication/advicepay-authentication.yml
 summary_line: oauth2/apiKey/saml2 · 3 schemes
 tags:
-- Financial-Services
+- Financial Services
 - Payments
 - Billing
 - Invoicing

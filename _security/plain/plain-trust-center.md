@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plain/refs/hea
 summary_line: trust center published
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Customer Service
 - Help Desk
 - Support

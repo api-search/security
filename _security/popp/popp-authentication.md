@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/popp/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Staffing
 - Hiring
 - Conversational AI

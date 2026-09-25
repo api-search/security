@@ -37,7 +37,7 @@ tags:
 - Legal
 - Professional Services
 - Big Four
-- Risk
+- Risk Management
 - Advisory
 - Cybersecurity
 - Human Capital

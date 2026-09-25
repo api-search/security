@@ -39,6 +39,6 @@ tags:
 - Airbnb
 - Hospitality
 - Concierge
-- Real-Estate
+- Real Estate
 - France
 ---

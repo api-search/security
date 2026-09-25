@@ -93,7 +93,7 @@ tags:
 - Banking
 - Cross-Border Payments
 - Financial Messaging
-- Financial-Services
+- Financial Services
 - GPI
 - ISO 20022
 - Payments

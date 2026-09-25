@@ -347,7 +347,7 @@ tags:
 - Open Metadata
 - OAI-PMH
 - Identity Federation
-- Libraries
+- Library
 - Museums
 - Course Catalog
 - Research Computing

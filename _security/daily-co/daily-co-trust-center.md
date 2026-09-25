@@ -109,5 +109,6 @@ tags:
 - Voice AI
 - Recording
 - Transcription
+- Voice
 trust_url: https://www.daily.co/products/security-at-daily/
 ---

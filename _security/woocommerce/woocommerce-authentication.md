@@ -153,7 +153,7 @@ summary_line: http · 1 scheme
 tags:
 - WooCommerce
 - E-Commerce
-- Open-Source
+- Open Source
 - Order
 - Product
 - WordPress

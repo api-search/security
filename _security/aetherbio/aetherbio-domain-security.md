@@ -39,6 +39,6 @@ tags:
 - Advanced Manufacturing
 - Additive Manufacturing
 - Critical Minerals
-- Machine-Learning
+- Machine Learning
 - Aerospace and Defense
 ---

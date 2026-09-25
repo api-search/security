@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goldman-sachs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- Financial
+- Finance
 - Investment Banking
 - Money Center
 - Institutional

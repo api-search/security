@@ -92,6 +92,6 @@ tags:
 - Digital Asset Management
 - Media
 - Metadata
-- Open-Source
+- Open Source
 - Search
 ---

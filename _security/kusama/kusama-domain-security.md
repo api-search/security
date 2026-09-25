@@ -8,49 +8,49 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/asyncapi/kusama-jsonrpc-asyncapi.yml
 - filename: kusama-accounts-api-openapi.yml
   format: yaml
-  label: Kusama accounts API
+  label: Kusama Accounts API
   slug: kusama-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-accounts-api-openapi.yml
 - filename: kusama-ahm-api-openapi.yml
   format: yaml
-  label: Kusama ahm API
+  label: Kusama Ahm API
   slug: kusama-ahm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-ahm-api-openapi.yml
 - filename: kusama-blocks-api-openapi.yml
   format: yaml
-  label: Kusama blocks API
+  label: Kusama Blocks API
   slug: kusama-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-blocks-api-openapi.yml
 - filename: kusama-contracts-api-openapi.yml
   format: yaml
-  label: Kusama contracts API
+  label: Kusama Contracts API
   slug: kusama-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-contracts-api-openapi.yml
 - filename: kusama-coretime-api-openapi.yml
   format: yaml
-  label: Kusama coretime API
+  label: Kusama Coretime API
   slug: kusama-coretime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-coretime-api-openapi.yml
 - filename: kusama-node-api-openapi.yml
   format: yaml
-  label: Kusama node API
+  label: Kusama Node API
   slug: kusama-node-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-node-api-openapi.yml
 - filename: kusama-pallets-api-openapi.yml
   format: yaml
-  label: Kusama pallets API
+  label: Kusama Pallets API
   slug: kusama-pallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-pallets-api-openapi.yml
 - filename: kusama-paras-api-openapi.yml
   format: yaml
-  label: Kusama paras API
+  label: Kusama Paras API
   slug: kusama-paras-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-paras-api-openapi.yml
@@ -62,7 +62,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-rc-accounts-api-openapi.yml
 - filename: kusama-rc-api-openapi.yml
   format: yaml
-  label: Kusama rc API
+  label: Kusama Rc API
   slug: kusama-rc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-rc-api-openapi.yml
@@ -104,25 +104,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-rc-transaction-api-openapi.yml
 - filename: kusama-runtime-api-openapi.yml
   format: yaml
-  label: Kusama runtime API
+  label: Kusama Runtime API
   slug: kusama-runtime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-runtime-api-openapi.yml
 - filename: kusama-staking-api-openapi.yml
   format: yaml
-  label: Kusama staking API
+  label: Kusama Staking API
   slug: kusama-staking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-staking-api-openapi.yml
 - filename: kusama-trace-api-openapi.yml
   format: yaml
-  label: Kusama trace API
+  label: Kusama Trace API
   slug: kusama-trace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-trace-api-openapi.yml
 - filename: kusama-transaction-api-openapi.yml
   format: yaml
-  label: Kusama transaction API
+  label: Kusama Transaction API
   slug: kusama-transaction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/openapi/kusama-transaction-api-openapi.yml
@@ -190,4 +190,5 @@ tags:
 - Blockchain Data
 - Staking
 - Governance
+- Real-Time
 ---

@@ -276,6 +276,6 @@ tags:
 - Standards
 - Orchestration
 - Monetization
-- Open-Source
+- Open Source
 trust_url: https://www.netcracker.com/portfolio/services/netcracker-cybersecurity
 ---

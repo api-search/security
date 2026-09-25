@@ -38,6 +38,6 @@ tags:
 - EHR Integration
 - Clinical Pathways
 - Patient Safety
-- Machine-Learning
+- Machine Learning
 - Medical Devices
 ---

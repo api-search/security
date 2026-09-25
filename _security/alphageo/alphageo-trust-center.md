@@ -23,10 +23,10 @@ tags:
 - Climate Risk
 - Geospatial
 - Analytics
-- Risk
-- Real-Estate
+- Risk Management
+- Real Estate
 - ESG
 - Data
-- Machine-Learning
+- Machine Learning
 trust_url: https://alphageo.ai/security/
 ---

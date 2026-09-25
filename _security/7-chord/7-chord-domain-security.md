@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/7-chord/refs/h
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fixed Income
 - Bond Pricing
 - Artificial Intelligence

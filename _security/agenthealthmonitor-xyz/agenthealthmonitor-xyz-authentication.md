@@ -28,8 +28,8 @@ method: searched
 name: Agenthealthmonitor Xyz Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Digital Intensity Ltd secures its APIs with apiKey, x402-payment, internal-key, and coupon across 4 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Digital Intensity Ltd
+overview: Agent Health Monitor secures its APIs with apiKey, x402-payment, internal-key, and coupon across 4 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Agent Health Monitor
 provider_slug: agenthealthmonitor-xyz
 scheme_count: 4
 schemes:
@@ -141,5 +141,6 @@ tags:
 - Web3
 - Verifiable Credentials
 - Developer Tools
-- agent-native
+- Agent-Native
+- A2A
 ---

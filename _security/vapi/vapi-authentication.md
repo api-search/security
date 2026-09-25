@@ -127,4 +127,6 @@ tags:
 - Agents
 - Real-Time
 - CPaaS
+- Conversational AI
+- Voice AI
 ---

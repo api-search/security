@@ -26,6 +26,6 @@ tags:
 - Life Sciences
 - Research
 - R&D
-- Machine-Learning
+- Machine Learning
 trust_url: https://trust.edisonscientific.com/
 ---

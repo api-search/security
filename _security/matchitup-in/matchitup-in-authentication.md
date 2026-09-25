@@ -75,6 +75,6 @@ tags:
 - MCP
 - A2A
 - Webhook
-- agent-native
+- Agent-Native
 - India
 ---

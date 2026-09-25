@@ -70,4 +70,5 @@ tags:
 - Industrial IoT
 - Smart Buildings
 - Digital Twin
+- Industrial
 ---

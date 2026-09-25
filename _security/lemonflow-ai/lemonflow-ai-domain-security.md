@@ -34,8 +34,8 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer-Support
-- Electric Vehicle Charging
+- Customer Support
+- EV Charging
 - E-Mobility
 - OCPP
 - Chat Widget

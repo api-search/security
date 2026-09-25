@@ -117,7 +117,7 @@ tags:
 - Compute
 - Virtual Machines
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Bare Metal
 - Spot Instances
 - Containers

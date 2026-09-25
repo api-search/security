@@ -40,7 +40,7 @@ tags:
 - Television
 - Parks and Recreation
 - Quotes
-- Open-Source
+- Open Source
 - Public APIs
 - Node.js
 - TypeScript

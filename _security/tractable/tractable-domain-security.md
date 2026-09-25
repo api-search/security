@@ -35,7 +35,7 @@ tags:
 - Claims
 - Auto Insurance
 - Property Insurance
-- Computer-Vision
+- Computer Vision
 - Deep Learning
 - Artificial Intelligence
 - Damage Assessment

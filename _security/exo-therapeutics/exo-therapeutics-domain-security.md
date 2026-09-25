@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exo-therapeuti
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Life Sciences
 - Drug Discovery
 - Pharmaceuticals

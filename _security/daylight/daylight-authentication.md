@@ -114,7 +114,7 @@ tags:
 - MDR
 - Threat Detection
 - Incident Response
-- Agentic AI
+- AI Agents
 - SOC
 - MCP
 ---

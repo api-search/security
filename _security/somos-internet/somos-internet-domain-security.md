@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/somos-internet
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Telecom
+- Telecommunications
 - Internet Service Provider
 - Fiber Optics
 - Broadband

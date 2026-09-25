@@ -41,9 +41,9 @@ tags:
 - E-Commerce
 - Retail
 - Generative AI
-- Image-Generation
+- Image Generation
 - Virtual Try-On
-- Computer-Vision
+- Computer Vision
 - Video Generation
 - Product Photography
 - Creative / Design Tools

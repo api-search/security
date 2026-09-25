@@ -171,8 +171,9 @@ tags:
 - MCP
 - Web3
 - pay-per-call
-- Agent Payments
+- Agentic Payments
 - Stablecoins
 - Compliance
 - Attestation
+- A2A
 ---

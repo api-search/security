@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Community
 - Campus
 - Higher Education

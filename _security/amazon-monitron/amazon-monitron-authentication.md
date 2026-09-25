@@ -51,7 +51,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/authentication/amazon-monitron-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Industrial IoT
+- Predictive Maintenance
+- Monitoring
+- Machine Learning
 ---

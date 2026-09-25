@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Forged Sports Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Forged Sports, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
-provider_name: Forged Sports, Inc.
+overview: 'Domain security posture for Forged Sports, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
+provider_name: Forged Sports
 provider_slug: forged-sports-inc
 slug: forged-sports-inc-domain-security
 source_filename: forged-sports-inc-domain-security.yml

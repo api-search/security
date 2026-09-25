@@ -74,7 +74,7 @@ tags:
 - Company
 - Marketing
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Marketing Technology
 - Audience Intelligence
 - Customer Data Platform

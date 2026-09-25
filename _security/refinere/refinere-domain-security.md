@@ -35,6 +35,6 @@ tags:
 - Data Analytics
 - Benchmarking
 - ESG
-- Portfolio-Management
+- Portfolio Management
 - Software-as-a-Service
 ---

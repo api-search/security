@@ -31,5 +31,5 @@ tags:
 - Kalshi
 - Trading Signals
 - Weather
-- agent-native
+- Agent-Native
 ---

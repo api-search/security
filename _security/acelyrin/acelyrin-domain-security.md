@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Acelyrin Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ACELYRIN, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: ACELYRIN, Inc.
+overview: 'Domain security posture for ACELYRIN, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: ACELYRIN
 provider_slug: acelyrin
 slug: acelyrin-domain-security
 source_filename: acelyrin-domain-security.yml

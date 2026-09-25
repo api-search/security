@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Aeterlinkcorp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Aeterlink Corp., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Aeterlink Corp.
+overview: 'Domain security posture for Aeterlink, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Aeterlink
 provider_slug: aeterlinkcorp
 slug: aeterlinkcorp-domain-security
 source_filename: aeterlinkcorp-domain-security.yml

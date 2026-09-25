@@ -57,7 +57,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Data
 - Reference
-- Telecom
+- Telecommunications
 - Phone
 - OpenAPI
 - MCP

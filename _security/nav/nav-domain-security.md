@@ -50,7 +50,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Business Credit
 - Small Business
-- Financial-Services
+- Financial Services
 - Embedded Finance
 - Lending
 - Credit Score

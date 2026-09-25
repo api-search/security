@@ -38,4 +38,5 @@ tags:
 - Web Performance
 - Website Builder
 - Acquired
+- Defunct
 ---

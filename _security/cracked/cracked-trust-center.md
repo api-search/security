@@ -135,5 +135,6 @@ tags:
 - E-Commerce
 - Finance
 - Weather
+- A2A
 trust_url: https://cracked.ai/trust
 ---

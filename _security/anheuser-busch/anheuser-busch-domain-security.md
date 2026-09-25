@@ -34,4 +34,5 @@ tags:
 - Beverages
 - Consumer Goods
 - Manufacturing
+- Food and Beverage
 ---

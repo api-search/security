@@ -34,6 +34,6 @@ tags:
 - Intermittent Fasting
 - Fitness
 - Consumer Health
-- Mobile Applications
+- Mobile App
 - Germany
 ---

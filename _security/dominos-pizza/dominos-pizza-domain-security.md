@@ -37,6 +37,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Food Service
 - Restaurant
-- QSR
+- Quick Service Restaurant
 - Online Ordering
 ---

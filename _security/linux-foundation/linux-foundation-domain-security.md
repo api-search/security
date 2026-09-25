@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Linux Foundation
 - Non-Profit
-- Open-Source
+- Open Source
 - Technology
 - LFX
 ---

@@ -76,7 +76,7 @@ tags:
 - Developer Tools
 - Artificial Intelligence
 - Developer Experience
-- Knowledge-Management
+- Knowledge Management
 - Code Review
 - MCP
 - AI Agents

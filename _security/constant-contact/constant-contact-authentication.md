@@ -228,4 +228,5 @@ tags:
 - Reporting
 - SMS
 - Surveys
+- Email
 ---

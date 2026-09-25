@@ -41,6 +41,6 @@ tags:
 - Hardware
 - Manufacturing
 - Protocol
-- Open-Source
+- Open Source
 - Embedded
 ---

@@ -34,6 +34,6 @@ tags:
 - Casual Gaming
 - Rewards
 - Consumer
-- Advertising Technology
+- AdTech
 - New York
 ---

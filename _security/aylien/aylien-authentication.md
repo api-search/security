@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-absa-api-openapi.yml
 - filename: aylien-autocomplete-api-openapi.yml
   format: yaml
-  label: AYLIEN autocomplete API
+  label: AYLIEN Autocomplete API
   slug: aylien-autocomplete-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-autocomplete-api-openapi.yml
@@ -23,7 +23,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-classify-api-openapi.yml
 - filename: aylien-cluster-api-openapi.yml
   format: yaml
-  label: AYLIEN cluster API
+  label: AYLIEN Cluster API
   slug: aylien-cluster-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-cluster-api-openapi.yml
@@ -59,7 +59,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-hashtags-api-openapi.yml
 - filename: aylien-histogram-api-openapi.yml
   format: yaml
-  label: AYLIEN histogram API
+  label: AYLIEN Histogram API
   slug: aylien-histogram-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-histogram-api-openapi.yml
@@ -71,7 +71,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-language-api-openapi.yml
 - filename: aylien-related-story-api-openapi.yml
   format: yaml
-  label: AYLIEN related_story API
+  label: AYLIEN Related Story API
   slug: aylien-related-story-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-related-story-api-openapi.yml
@@ -83,7 +83,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-sentiment-api-openapi.yml
 - filename: aylien-story-api-openapi.yml
   format: yaml
-  label: AYLIEN story API
+  label: AYLIEN Story API
   slug: aylien-story-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-story-api-openapi.yml
@@ -95,13 +95,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-summarize-api-openapi.yml
 - filename: aylien-time-series-api-openapi.yml
   format: yaml
-  label: AYLIEN time_series API
+  label: AYLIEN Time Series API
   slug: aylien-time-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-time-series-api-openapi.yml
 - filename: aylien-trends-api-openapi.yml
   format: yaml
-  label: AYLIEN trends API
+  label: AYLIEN Trends API
   slug: aylien-trends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aylien/refs/heads/main/openapi/aylien-trends-api-openapi.yml

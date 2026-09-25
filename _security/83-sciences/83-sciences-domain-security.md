@@ -37,5 +37,5 @@ tags:
 - Research Data
 - Scientific Discovery
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 ---

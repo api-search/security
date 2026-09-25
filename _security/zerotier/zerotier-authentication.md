@@ -5,49 +5,49 @@ api_key_in:
 api_specs:
 - filename: zerotier-controller-api-openapi.yml
   format: yaml
-  label: ZeroTier controller API
+  label: ZeroTier Controller API
   slug: zerotier-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-controller-api-openapi.yml
 - filename: zerotier-network-api-openapi.yml
   format: yaml
-  label: ZeroTier network API
+  label: ZeroTier Network API
   slug: zerotier-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-network-api-openapi.yml
 - filename: zerotier-network-member-api-openapi.yml
   format: yaml
-  label: ZeroTier network-member API
+  label: ZeroTier Network Member API
   slug: zerotier-network-member-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-network-member-api-openapi.yml
 - filename: zerotier-organizations-api-openapi.yml
   format: yaml
-  label: ZeroTier organizations API
+  label: ZeroTier Organizations API
   slug: zerotier-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-organizations-api-openapi.yml
 - filename: zerotier-peer-api-openapi.yml
   format: yaml
-  label: ZeroTier peer API
+  label: ZeroTier Peer API
   slug: zerotier-peer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-peer-api-openapi.yml
 - filename: zerotier-status-api-openapi.yml
   format: yaml
-  label: ZeroTier status API
+  label: ZeroTier Status API
   slug: zerotier-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-status-api-openapi.yml
 - filename: zerotier-user-api-openapi.yml
   format: yaml
-  label: ZeroTier user API
+  label: ZeroTier User API
   slug: zerotier-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-user-api-openapi.yml
 - filename: zerotier-util-api-openapi.yml
   format: yaml
-  label: ZeroTier util API
+  label: ZeroTier Util API
   slug: zerotier-util-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-util-api-openapi.yml

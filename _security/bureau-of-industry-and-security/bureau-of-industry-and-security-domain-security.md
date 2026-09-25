@@ -56,7 +56,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Compliance
 - Export Control
-- Federal-Government
+- Federal Government
 - Industries
 - National Security
 - Screening Lists

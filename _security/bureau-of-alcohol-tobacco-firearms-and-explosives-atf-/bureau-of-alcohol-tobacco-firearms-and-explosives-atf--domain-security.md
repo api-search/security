@@ -57,7 +57,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Alcohol
 - Explosives
-- Federal-Government
+- Federal Government
 - Firearms
 - Geospatial
 - Law Enforcement

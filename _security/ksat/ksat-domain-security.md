@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ksat/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Satellite
-- GroundStation
+- Ground Station
 - Space
 - Communications
 - Norway

@@ -13,8 +13,8 @@ name: Piper Inc Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Piper Inc. secures its APIs with openIdConnect and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: Piper Inc.
+overview: Piper secures its APIs with openIdConnect and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Piper
 provider_slug: piper-inc
 scheme_count: 1
 schemes:

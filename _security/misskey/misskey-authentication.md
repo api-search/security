@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: misskey-account-api-openapi.yml
   format: yaml
-  label: Misskey account API
+  label: Misskey Account API
   slug: misskey-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-account-api-openapi.yml
@@ -16,19 +16,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-admin-api-openapi.yml
 - filename: misskey-antennas-api-openapi.yml
   format: yaml
-  label: Misskey antennas API
+  label: Misskey Antennas API
   slug: misskey-antennas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-antennas-api-openapi.yml
 - filename: misskey-app-api-openapi.yml
   format: yaml
-  label: Misskey app API
+  label: Misskey App API
   slug: misskey-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-app-api-openapi.yml
 - filename: misskey-auth-api-openapi.yml
   format: yaml
-  label: Misskey auth API
+  label: Misskey Auth API
   slug: misskey-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-auth-api-openapi.yml
@@ -40,31 +40,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-bubble-game-api-openapi.yml
 - filename: misskey-channels-api-openapi.yml
   format: yaml
-  label: Misskey channels API
+  label: Misskey Channels API
   slug: misskey-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-channels-api-openapi.yml
 - filename: misskey-charts-api-openapi.yml
   format: yaml
-  label: Misskey charts API
+  label: Misskey Charts API
   slug: misskey-charts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-charts-api-openapi.yml
 - filename: misskey-clip-api-openapi.yml
   format: yaml
-  label: Misskey clip API
+  label: Misskey Clip API
   slug: misskey-clip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-clip-api-openapi.yml
 - filename: misskey-clips-api-openapi.yml
   format: yaml
-  label: Misskey clips API
+  label: Misskey Clips API
   slug: misskey-clips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-clips-api-openapi.yml
 - filename: misskey-drive-api-openapi.yml
   format: yaml
-  label: Misskey drive API
+  label: Misskey Drive API
   slug: misskey-drive-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-drive-api-openapi.yml
@@ -76,37 +76,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-export-custom-emojis-api-openapi.yml
 - filename: misskey-federation-api-openapi.yml
   format: yaml
-  label: Misskey federation API
+  label: Misskey Federation API
   slug: misskey-federation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-federation-api-openapi.yml
 - filename: misskey-flash-api-openapi.yml
   format: yaml
-  label: Misskey flash API
+  label: Misskey Flash API
   slug: misskey-flash-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-flash-api-openapi.yml
 - filename: misskey-flashs-api-openapi.yml
   format: yaml
-  label: Misskey flashs API
+  label: Misskey Flashs API
   slug: misskey-flashs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-flashs-api-openapi.yml
 - filename: misskey-following-api-openapi.yml
   format: yaml
-  label: Misskey following API
+  label: Misskey Following API
   slug: misskey-following-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-following-api-openapi.yml
 - filename: misskey-gallery-api-openapi.yml
   format: yaml
-  label: Misskey gallery API
+  label: Misskey Gallery API
   slug: misskey-gallery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-gallery-api-openapi.yml
 - filename: misskey-hashtags-api-openapi.yml
   format: yaml
-  label: Misskey hashtags API
+  label: Misskey Hashtags API
   slug: misskey-hashtags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-hashtags-api-openapi.yml
@@ -118,31 +118,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-i-api-openapi.yml
 - filename: misskey-lists-api-openapi.yml
   format: yaml
-  label: Misskey lists API
+  label: Misskey Lists API
   slug: misskey-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-lists-api-openapi.yml
 - filename: misskey-meta-api-openapi.yml
   format: yaml
-  label: Misskey meta API
+  label: Misskey Meta API
   slug: misskey-meta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-meta-api-openapi.yml
 - filename: misskey-non-productive-api-openapi.yml
   format: yaml
-  label: Misskey non-productive API
+  label: Misskey Non Productive API
   slug: misskey-non-productive-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-non-productive-api-openapi.yml
 - filename: misskey-notes-api-openapi.yml
   format: yaml
-  label: Misskey notes API
+  label: Misskey Notes API
   slug: misskey-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-notes-api-openapi.yml
 - filename: misskey-notifications-api-openapi.yml
   format: yaml
-  label: Misskey notifications API
+  label: Misskey Notifications API
   slug: misskey-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-notifications-api-openapi.yml
@@ -154,13 +154,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-page-push-api-openapi.yml
 - filename: misskey-pages-api-openapi.yml
   format: yaml
-  label: Misskey pages API
+  label: Misskey Pages API
   slug: misskey-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-pages-api-openapi.yml
 - filename: misskey-reactions-api-openapi.yml
   format: yaml
-  label: Misskey reactions API
+  label: Misskey Reactions API
   slug: misskey-reactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-reactions-api-openapi.yml
@@ -178,7 +178,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-reversi-api-openapi.yml
 - filename: misskey-role-api-openapi.yml
   format: yaml
-  label: Misskey role API
+  label: Misskey Role API
   slug: misskey-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-role-api-openapi.yml
@@ -190,7 +190,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-users-api-openapi.yml
 - filename: misskey-webhooks-api-openapi.yml
   format: yaml
-  label: Misskey webhooks API
+  label: Misskey Webhooks API
   slug: misskey-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/openapi/misskey-webhooks-api-openapi.yml
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/misskey-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/authentication/misskey-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Open-Source
+- Open Source
 - Social Network
 - Fediverse
 - ActivityPub

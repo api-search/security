@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Hedge Funds
 - GraphQL

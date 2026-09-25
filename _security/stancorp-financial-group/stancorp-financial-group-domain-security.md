@@ -34,7 +34,7 @@ tags:
 - Benefits Administration
 - Disability Insurance
 - Employee Benefits
-- Financial-Services
+- Financial Services
 - Insurance
 - Life Insurance
 - Retirement Plans

@@ -61,7 +61,7 @@ tags:
 - Sales Intelligence
 - MCP Server
 - Contact Enrichment
-- Risk
+- Risk Management
 - Fraud
 trust_url: https://trust.runalphaloops.com/
 ---

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Purismev Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for PurismEV Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=none).'
-provider_name: PurismEV Inc.
+overview: 'Domain security posture for PurismEV, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=none).'
+provider_name: PurismEV
 provider_slug: purismev-inc
 slug: purismev-inc-domain-security
 source_filename: purismev-inc-domain-security.yml

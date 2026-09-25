@@ -34,10 +34,10 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Warehouse Automation
 - Logistics
 - Supply Chain
-- Computer-Vision
+- Computer Vision
 - Manufacturing
 ---

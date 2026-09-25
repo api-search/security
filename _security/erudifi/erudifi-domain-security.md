@@ -36,6 +36,6 @@ tags:
 - Education
 - Student Financing
 - Lending
-- Financial-Services
+- Financial Services
 - Southeast Asia
 ---

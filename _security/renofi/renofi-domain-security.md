@@ -41,7 +41,7 @@ tags:
 - Fintech
 - Lending
 - Home Improvement
-- Real-Estate
+- Real Estate
 - Mortgage
 - Home Equity
 - Renovation Financing

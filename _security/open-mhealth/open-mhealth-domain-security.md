@@ -40,8 +40,8 @@ tags:
 - Fitness
 - Interoperability
 - Open Standard
-- Open-Source
-- JSON-Schema
+- Open Source
+- JSON Schema
 - IEEE 1752
 - FHIR
 - HealthKit

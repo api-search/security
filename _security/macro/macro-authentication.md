@@ -39,5 +39,5 @@ tags:
 - Task
 - AI Agents
 - MCP
-- Open-Source
+- Open Source
 ---

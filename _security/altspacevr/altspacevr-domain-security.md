@@ -40,4 +40,5 @@ tags:
 - Metaverse
 - Gaming
 - Discontinued
+- Defunct
 ---

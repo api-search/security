@@ -58,5 +58,5 @@ tags:
 - Consumer Lending
 - Payments
 - hkma-open-api
-- Financial-Services
+- Financial Services
 ---

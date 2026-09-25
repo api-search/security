@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/security/plaid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Financial
+- Finance
 - Fintech
 - Open Banking
 - Bank Accounts

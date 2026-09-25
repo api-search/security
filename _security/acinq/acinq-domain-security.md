@@ -42,7 +42,7 @@ tags:
 - Bitcoin
 - Lightning Network
 - Payments
-- Open-Source
+- Open Source
 - Self-Custody
 - Node Software
 - Cryptocurrency

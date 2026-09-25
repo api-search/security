@@ -40,9 +40,9 @@ tags:
 - Company
 - Ai Ml
 - Edge AI
-- Computer-Vision
+- Computer Vision
 - Embedded
-- Machine-Learning
+- Machine Learning
 - Inference
 - Camera
 ---

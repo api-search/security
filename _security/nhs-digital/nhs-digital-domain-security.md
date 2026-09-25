@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-booking-api-openapi.yml
 - filename: nhs-digital-communication-api-openapi.yml
   format: yaml
-  label: NHS Digital communication API
+  label: NHS Digital Communication API
   slug: nhs-digital-communication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-communication-api-openapi.yml

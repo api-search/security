@@ -73,4 +73,5 @@ tags:
 - Messaging
 - Vector Database
 - Edge Computing
+- Database
 ---

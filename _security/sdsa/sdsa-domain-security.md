@@ -33,7 +33,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic
 - Operating System
 - Developer Platform
 - Stealth Startup

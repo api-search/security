@@ -65,7 +65,7 @@ tags:
 - Data
 - UHNW
 - Prospecting
-- Financial-Services
+- Financial Services
 - CRM
 - People Data
 - Altrata

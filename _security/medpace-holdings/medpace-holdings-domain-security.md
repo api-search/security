@@ -37,5 +37,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Clinical Research
 - CRO
-- Biotech
+- Biotechnology
 ---

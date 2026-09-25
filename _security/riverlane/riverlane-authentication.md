@@ -52,6 +52,6 @@ tags:
 - GraphQL
 - Simulation
 - Research Tools
-- Open-Source
+- Open Source
 - HPC
 ---

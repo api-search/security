@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Consumer Lending
 - Fintech
-- Financial-Services
+- Financial Services
 - Personal Loans
 - Lead Generation
 - Defunct

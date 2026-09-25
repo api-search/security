@@ -6,7 +6,7 @@ api_key_in:
 api_specs:
 - filename: quasar-cluster-api-openapi.yml
   format: yaml
-  label: Quasar cluster API
+  label: Quasar Cluster API
   slug: quasar-cluster-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-cluster-api-openapi.yml
@@ -18,19 +18,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-login-api-openapi.yml
 - filename: quasar-max-in-buffer-size-api-openapi.yml
   format: yaml
-  label: Quasar max-in-buffer-size API
+  label: Quasar Max In Buffer Size API
   slug: quasar-max-in-buffer-size-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-max-in-buffer-size-api-openapi.yml
 - filename: quasar-option-api-openapi.yml
   format: yaml
-  label: Quasar option API
+  label: Quasar Option API
   slug: quasar-option-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-option-api-openapi.yml
 - filename: quasar-parallelism-api-openapi.yml
   format: yaml
-  label: Quasar parallelism API
+  label: Quasar Parallelism API
   slug: quasar-parallelism-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-parallelism-api-openapi.yml
@@ -42,7 +42,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-prometheus-api-openapi.yml
 - filename: quasar-query-api-openapi.yml
   format: yaml
-  label: Quasar query API
+  label: Quasar Query API
   slug: quasar-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-query-api-openapi.yml
@@ -60,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tables-api-openapi.yml
 - filename: quasar-tags-api-openapi.yml
   format: yaml
-  label: Quasar tags API
+  label: Quasar Tags API
   slug: quasar-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tags-api-openapi.yml

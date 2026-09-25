@@ -37,6 +37,6 @@ tags:
 - Trade Data
 - Supply Chain Intelligence
 - Data Feed
-- Risk
+- Risk Management
 - S&P Global
 ---

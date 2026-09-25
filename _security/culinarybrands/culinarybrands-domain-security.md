@@ -34,7 +34,7 @@ tags:
 - Food
 - Beverages
 - Food Service
-- QSR
+- Quick Service Restaurant
 - Coffee
 - Franchise
 - India

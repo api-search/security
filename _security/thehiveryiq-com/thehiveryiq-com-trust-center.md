@@ -47,7 +47,7 @@ tags:
 - Inference
 - LLM Routing
 - Compliance
-- agent-native
+- Agent-Native
 - United States
 trust_url: https://thehiveryiq.com/security/
 ---

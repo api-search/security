@@ -24,7 +24,7 @@ tags:
 - Payroll
 - Bookkeeping
 - Self-Employed
-- Financial-Services
+- Financial Services
 - Small Business
 trust_url: https://trust.collective.com/
 ---

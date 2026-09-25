@@ -80,4 +80,5 @@ tags:
 - Power Platform
 - RPA
 - Workflows
+- Workflow Automation
 ---

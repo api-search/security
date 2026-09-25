@@ -34,7 +34,7 @@ tags:
 - Enterprise
 - Influencer Marketing
 - Marketing
-- Social-Media
+- Social Media
 - Instagram
 - Creator Economy
 - Affiliate Marketing

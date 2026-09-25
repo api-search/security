@@ -35,7 +35,7 @@ tags:
 - Finance
 - Fintech
 - Investment Management
-- Portfolio-Management
+- Portfolio Management
 - Risk Analytics
 - Fortune 500
 ---

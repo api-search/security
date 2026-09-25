@@ -26,7 +26,6 @@ tags:
 - Company
 - Cybersecurity
 - Third-Party Risk Management
-- Vendor Risk Management
 - Security Ratings
 - Governance Risk Compliance
 - Infrastructure Saas

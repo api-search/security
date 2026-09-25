@@ -55,7 +55,7 @@ tags:
 - Contract Management
 - Contract Lifecycle Management
 - Artificial Intelligence
-- Document-Management
+- Document Management
 - Compliance
 - Governance
 - Software-as-a-Service

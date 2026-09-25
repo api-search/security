@@ -44,6 +44,6 @@ tags:
 - OLAP
 - Lakehouse
 - SQL
-- Open-Source
+- Open Source
 - Real-Time Analytics
 ---

@@ -14,19 +14,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzesentiment-api-openapi.yml
 - filename: google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
   format: yaml
-  label: Google Cloud Natural Language documents:analyzeSyntax API
+  label: Google Cloud Natural Language Documents:analyze Syntax API
   slug: google-cloud-natural-language-documents-analyzesyntax-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
 - filename: google-cloud-natural-language-documents-annotatetext-api-openapi.yml
   format: yaml
-  label: Google Cloud Natural Language documents:annotateText API
+  label: Google Cloud Natural Language Documents:annotate Text API
   slug: google-cloud-natural-language-documents-annotatetext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-annotatetext-api-openapi.yml
 - filename: google-cloud-natural-language-documents-classifytext-api-openapi.yml
   format: yaml
-  label: Google Cloud Natural Language documents:classifyText API
+  label: Google Cloud Natural Language Documents:classify Text API
   slug: google-cloud-natural-language-documents-classifytext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-classifytext-api-openapi.yml
@@ -77,7 +77,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Entity Recognition
 - Google Cloud
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Sentiment Analysis
 - Text Analysis

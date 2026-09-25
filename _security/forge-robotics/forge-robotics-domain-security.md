@@ -39,6 +39,6 @@ tags:
 - Autonomous Factories
 - Metal Fabrication
 - Welding
-- Computer-Vision
+- Computer Vision
 - Y Combinator
 ---

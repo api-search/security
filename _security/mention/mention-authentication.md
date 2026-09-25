@@ -154,7 +154,7 @@ tags:
 - Brand Monitoring
 - Media Monitoring
 - Social Listening
-- Social-Media
+- Social Media
 - Sentiment Analysis
 - Reputation Management
 - Influencer Marketing

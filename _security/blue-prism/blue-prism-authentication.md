@@ -149,7 +149,7 @@ tags:
 - Intelligent Automation
 - Business Process Management
 - Process Orchestration
-- Agentic AI
-- Workflow-Automation
+- AI Agents
+- Workflow Automation
 - Enterprise Software
 ---

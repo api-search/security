@@ -33,7 +33,7 @@ tags:
 - Change Tracking
 - Documentation
 - Markdown
-- Open-Source
+- Open Source
 - Release Management
 - Semantic Versioning
 - Software Releases

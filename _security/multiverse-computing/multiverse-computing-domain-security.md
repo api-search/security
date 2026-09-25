@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/multiverse-com
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM Inference
 - Model Compression
 - Quantum Computing

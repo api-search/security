@@ -69,5 +69,6 @@ tags:
 - WHOIS
 - OSINT
 - Security
+- A2A
 trust_url: https://trust.cyble.com/
 ---

@@ -36,7 +36,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - Payments
 - Collection

@@ -68,5 +68,5 @@ tags:
 - Market Data
 - Index Funds
 - ETFs
-- Financial-Services
+- Financial Services
 ---

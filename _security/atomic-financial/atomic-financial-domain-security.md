@@ -53,7 +53,7 @@ tags:
 - Direct Deposit
 - Employment Verification
 - Open Banking
-- Financial
+- Finance
 - Subscription
 - Bill Pay
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharechat/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Social-Media
+- Social Media
 - Social Network
 - Short Video
 - User Generated Content

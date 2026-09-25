@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-auth-api-openapi.yml
 - filename: codag-billing-api-openapi.yml
   format: yaml
-  label: Codag billing API
+  label: Codag Billing API
   slug: codag-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-billing-api-openapi.yml

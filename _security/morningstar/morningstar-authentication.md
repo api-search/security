@@ -253,7 +253,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: openapi/morning
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/authentication/morningstar-authentication.yml
 summary_line: http-basic (token issuance)/bearer (API calls)/oauth2 (MCP server) · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Investing
 - Stocks
@@ -263,4 +263,5 @@ tags:
 - Portfolio Analytics
 - Research
 - Index
+- Wealth Management
 ---

@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Quissly Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Quissly Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Quissly Inc.
+overview: 'Domain security posture for Quissly, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Quissly
 provider_slug: quissly-inc
 slug: quissly-inc-domain-security
 source_filename: quissly-inc-domain-security.yml

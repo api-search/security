@@ -536,7 +536,7 @@ summary_line: http/basic · 2 schemes
 tags:
 - Banking
 - Core Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Fintech
 ---

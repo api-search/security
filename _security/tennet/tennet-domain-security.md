@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
 - Transmission
-- GridOperator
+- Grid Operator
 - Europe
 - Sustainability
 - Company

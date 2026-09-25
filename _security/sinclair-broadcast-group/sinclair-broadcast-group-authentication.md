@@ -1,55 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: sinclair-broadcast-group-corporate-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Corporate API
-  slug: sinclair-broadcast-group-corporate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-corporate-api-openapi.yml
-- filename: sinclair-broadcast-group-embed-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Embed API
-  slug: sinclair-broadcast-group-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-embed-api-openapi.yml
-- filename: sinclair-broadcast-group-media-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Media API
-  slug: sinclair-broadcast-group-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-media-api-openapi.yml
-- filename: sinclair-broadcast-group-press-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Press API
-  slug: sinclair-broadcast-group-press-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-press-api-openapi.yml
-- filename: sinclair-broadcast-group-schema-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Schema API
-  slug: sinclair-broadcast-group-schema-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-schema-api-openapi.yml
-- filename: sinclair-broadcast-group-search-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Search API
-  slug: sinclair-broadcast-group-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-search-api-openapi.yml
-- filename: sinclair-broadcast-group-stations-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Stations API
-  slug: sinclair-broadcast-group-stations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-stations-api-openapi.yml
-- filename: sinclair-broadcast-group-taxonomy-api-openapi.yml
-  format: yaml
-  label: Sinclair, Inc. Taxonomy API
-  slug: sinclair-broadcast-group-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/openapi/sinclair-broadcast-group-taxonomy-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -59,8 +10,8 @@ method: probed
 name: Sinclair Broadcast Group Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Sinclair, Inc. declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: Sinclair, Inc.
+overview: Sinclair declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: Sinclair
 provider_slug: sinclair-broadcast-group
 scheme_count: 0
 schemes: []
@@ -81,7 +32,7 @@ tags:
 - Sports Media
 - Regional Sports Networks
 - Digital Marketing
-- Advertising Technology
+- AdTech
 - NextGen TV
 - ATSC 3.0
 - Media

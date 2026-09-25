@@ -64,7 +64,7 @@ tags:
 - Semantic Search
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Local Business
 - Poland
 ---

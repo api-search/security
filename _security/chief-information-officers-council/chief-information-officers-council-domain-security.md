@@ -35,7 +35,7 @@ tags:
 - Cloud
 - Cybersecurity
 - E-Government
-- Federal-Government
+- Federal Government
 - IT Modernization
 - Information Technology
 - Interagency Council

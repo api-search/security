@@ -2,43 +2,43 @@
 api_specs:
 - filename: safello-account-api-openapi.yml
   format: yaml
-  label: Safello account API
+  label: Safello Account API
   slug: safello-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-account-api-openapi.yml
 - filename: safello-auth-api-openapi.yml
   format: yaml
-  label: Safello auth API
+  label: Safello Auth API
   slug: safello-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-auth-api-openapi.yml
 - filename: safello-compliance-api-openapi.yml
   format: yaml
-  label: Safello compliance API
+  label: Safello Compliance API
   slug: safello-compliance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-compliance-api-openapi.yml
 - filename: safello-market-api-openapi.yml
   format: yaml
-  label: Safello market API
+  label: Safello Market API
   slug: safello-market-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-market-api-openapi.yml
 - filename: safello-orders-api-openapi.yml
   format: yaml
-  label: Safello orders API
+  label: Safello Orders API
   slug: safello-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-orders-api-openapi.yml
 - filename: safello-prices-api-openapi.yml
   format: yaml
-  label: Safello prices API
+  label: Safello Prices API
   slug: safello-prices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-prices-api-openapi.yml
 - filename: safello-wallet-api-openapi.yml
   format: yaml
-  label: Safello wallet API
+  label: Safello Wallet API
   slug: safello-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-wallet-api-openapi.yml

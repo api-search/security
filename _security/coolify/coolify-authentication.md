@@ -142,7 +142,7 @@ tags:
 - Platform-as-a-Service
 - Self-Hosting
 - Deployment
-- Open-Source
+- Open Source
 - Containers
 - Docker
 ---

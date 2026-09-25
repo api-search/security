@@ -132,7 +132,7 @@ tags:
 - RegTech
 - Accounting
 - Sanctions Screening
-- Financial-Services
+- Financial Services
 - Portfolio Aggregation
 - Cryptocurrency
 ---

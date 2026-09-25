@@ -42,7 +42,7 @@ tags:
 - Voice AI
 - Transcription
 - Diarization
-- Machine-Learning
+- Machine Learning
 - Developers
 trust_url: https://trust.reson8.dev/
 ---

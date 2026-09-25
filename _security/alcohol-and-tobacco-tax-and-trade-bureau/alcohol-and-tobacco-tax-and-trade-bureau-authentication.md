@@ -49,7 +49,7 @@ summary_line: none/session-login · 2 schemes
 tags:
 - Alcohol
 - Tobacco
-- Federal-Government
+- Federal Government
 - Excise Tax
 - Regulations
 - Treasury

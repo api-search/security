@@ -8,8 +8,8 @@ kind: trust-center
 layout: security
 name: Kubit Ai Inc Trust Center
 name_suffix: Trust Center
-overview: Kubit AI, Inc. maintains a public trust center documenting enumerated and note compliance.
-provider_name: Kubit AI, Inc.
+overview: Kubit AI maintains a public trust center documenting enumerated and note compliance.
+provider_name: Kubit AI
 provider_slug: kubit-ai-inc
 slug: kubit-ai-inc-trust-center
 source_filename: kubit-ai-inc-trust-center.yml

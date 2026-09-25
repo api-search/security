@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - API Design
 - Documentation
-- Open-Source
+- Open Source
 - OpenAPI
 - REST
 - Standards

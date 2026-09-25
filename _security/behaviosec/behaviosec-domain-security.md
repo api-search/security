@@ -43,6 +43,6 @@ tags:
 - Authentication
 - Identity
 - Security
-- Risk
+- Risk Management
 - Continuous Authentication
 ---

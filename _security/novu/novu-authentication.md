@@ -149,7 +149,7 @@ tags:
 - Push
 - Chat
 - Workflows
-- Open-Source
+- Open Source
 - Subscribers
 - Topic
 - Inbox
@@ -159,4 +159,5 @@ tags:
 - MCP
 - Framework
 - React
+- Real-Time
 ---

@@ -73,6 +73,6 @@ tags:
 - Remote Patient Monitoring
 - Wearables
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MCP
 ---

@@ -38,7 +38,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-safelisting-api-openapi.yml
 - filename: epidemic-sound-sound-effects-api-openapi.yml
   format: yaml
-  label: Epidemic Sound effects API
+  label: Epidemic Sound Effects API
   slug: epidemic-sound-sound-effects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-sound-effects-api-openapi.yml

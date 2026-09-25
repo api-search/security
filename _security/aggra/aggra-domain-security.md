@@ -35,6 +35,6 @@ tags:
 - Lending
 - Collection
 - Software-as-a-Service
-- Machine-Learning
+- Machine Learning
 - India
 ---

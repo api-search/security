@@ -34,7 +34,7 @@ tags:
 - Company
 - Compliance
 - RegTech
-- Financial-Services
+- Financial Services
 - Licensing
 - Money Transmission
 - Lending

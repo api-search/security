@@ -36,7 +36,7 @@ tags:
 - Human Resources
 - Help Desk
 - Internal Support
-- Workflow-Automation
+- Workflow Automation
 - Knowledge Base
 - Onboarding
 ---

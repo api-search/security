@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Emotional Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Research
 ---

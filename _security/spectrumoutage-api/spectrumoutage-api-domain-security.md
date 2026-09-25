@@ -67,7 +67,7 @@ tags:
 - Monitoring
 - Status
 - ZIP Code
-- Telecom
+- Telecommunications
 - ISP
 - Network Status
 - Crowdsourced

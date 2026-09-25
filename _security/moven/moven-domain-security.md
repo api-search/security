@@ -32,7 +32,7 @@ tags:
 - Company
 - Fintech
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - Financial Wellness
 - Banking as a Service

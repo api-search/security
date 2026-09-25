@@ -41,6 +41,6 @@ tags:
 - Sweden
 - Germany
 - France
-- Financial-Services
-- Mobile Applications
+- Financial Services
+- Mobile App
 ---

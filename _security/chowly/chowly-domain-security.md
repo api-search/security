@@ -65,4 +65,5 @@ tags:
 - Delivery
 - POS Integration
 - Menu Sync
+- Food and Beverage
 ---

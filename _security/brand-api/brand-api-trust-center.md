@@ -53,5 +53,6 @@ tags:
 - Brand Context
 - Merchant Enrichment
 - Agent Tools
+- A2A
 trust_url: https://trust.brandfetch.com
 ---

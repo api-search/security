@@ -460,7 +460,7 @@ summary_line: http/oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - Audit
 - GRC

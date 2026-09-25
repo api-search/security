@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: d-id-translations-api-openapi.yml
-  format: yaml
-  label: D-ID Translations API
-  slug: d-id-translations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-translations-api-openapi.yml
 - filename: d-id-agents-api-openapi.yml
   format: yaml
   label: D-ID Agents API

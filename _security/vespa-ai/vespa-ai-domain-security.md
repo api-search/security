@@ -59,10 +59,10 @@ tags:
 - Search
 - Vector Database
 - Big Data
-- Machine-Learning
+- Machine Learning
 - Semantic Search
 - RAG
-- Open-Source
+- Open Source
 - Tensor
 - Recommendations
 ---

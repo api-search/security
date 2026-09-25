@@ -54,7 +54,7 @@ tags:
 - Healthcare
 - Medical Imaging
 - Radiology
-- Machine-Learning
+- Machine Learning
 - DICOM
 - Diagnostics
 - Clinical Decision Support

@@ -96,5 +96,5 @@ tags:
 - Benchmarking
 - Model Comparison
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 ---

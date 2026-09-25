@@ -37,6 +37,6 @@ tags:
 - Meal Kit
 - E-Commerce
 - Subscription
-- Open-Source
+- Open Source
 - Retail
 ---

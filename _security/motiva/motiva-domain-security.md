@@ -62,7 +62,7 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - Oracle Eloqua
 - Personalization

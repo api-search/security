@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Primodium Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Primodium Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Primodium Inc.
+overview: 'Domain security posture for Primodium, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Primodium
 provider_slug: primodium-inc
 slug: primodium-inc-domain-security
 source_filename: primodium-inc-domain-security.yml

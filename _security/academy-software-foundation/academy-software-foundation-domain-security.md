@@ -75,7 +75,7 @@ tags:
 - Color Management
 - Film
 - Linux Foundation
-- Open-Source
+- Open Source
 - Rendering
 - Standards
 - Visual Effects

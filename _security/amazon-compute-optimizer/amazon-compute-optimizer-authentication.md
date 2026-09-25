@@ -161,6 +161,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Cost Optimization
 - FinOps
-- Machine-Learning
+- Machine Learning
 - Resource Recommendations
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Insurance
 - Reinsurance
-- Financial-Services
+- Financial Services
 - Auto Insurance
 - Bermuda
 ---

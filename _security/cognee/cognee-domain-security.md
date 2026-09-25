@@ -2,43 +2,43 @@
 api_specs:
 - filename: cognee-agents-api-openapi.yml
   format: yaml
-  label: Cognee agents API
+  label: Cognee Agents API
   slug: cognee-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-agents-api-openapi.yml
 - filename: cognee-cognify-api-openapi.yml
   format: yaml
-  label: Cognee cognify API
+  label: Cognee Cognify API
   slug: cognee-cognify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-cognify-api-openapi.yml
 - filename: cognee-data-api-openapi.yml
   format: yaml
-  label: Cognee data API
+  label: Cognee Data API
   slug: cognee-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-data-api-openapi.yml
 - filename: cognee-datasets-api-openapi.yml
   format: yaml
-  label: Cognee datasets API
+  label: Cognee Datasets API
   slug: cognee-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-datasets-api-openapi.yml
 - filename: cognee-health-api-openapi.yml
   format: yaml
-  label: Cognee health API
+  label: Cognee Health API
   slug: cognee-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-health-api-openapi.yml
 - filename: cognee-search-api-openapi.yml
   format: yaml
-  label: Cognee search API
+  label: Cognee Search API
   slug: cognee-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-search-api-openapi.yml
 - filename: cognee-settings-api-openapi.yml
   format: yaml
-  label: Cognee settings API
+  label: Cognee Settings API
   slug: cognee-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/openapi/cognee-settings-api-openapi.yml
@@ -90,5 +90,5 @@ tags:
 - Graph Database
 - Vector Search
 - LLM
-- Open-Source
+- Open Source
 ---

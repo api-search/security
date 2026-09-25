@@ -24,7 +24,7 @@ tags:
 - Artificial Intelligence
 - Industrial Automation
 - Smart Manufacturing
-- IIoT
+- Industrial IoT
 - Process Optimization
 - Predictive Analytics
 trust_url: https://www.haberwater.com/security

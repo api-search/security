@@ -65,8 +65,8 @@ tags:
 - LLM
 - Inference
 - GPU
-- Open-Source
+- Open Source
 - Serverless
-- Image-Generation
+- Image Generation
 - Audio
 ---

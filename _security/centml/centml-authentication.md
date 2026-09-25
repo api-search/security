@@ -67,4 +67,5 @@ tags:
 - Inference
 - Serverless
 - GPU
+- Real-Time
 ---

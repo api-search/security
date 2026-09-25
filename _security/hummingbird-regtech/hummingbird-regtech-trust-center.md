@@ -21,7 +21,7 @@ tags:
 - Company
 - RegTech
 - Compliance
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Case Management
 - Transaction Monitoring

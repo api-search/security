@@ -35,8 +35,8 @@ tags:
 - Crypto
 - Artificial Intelligence
 - Agents
-- Open-Source
-- Machine-Learning
+- Open Source
+- Machine Learning
 - AGI
 - Research
 - LLM

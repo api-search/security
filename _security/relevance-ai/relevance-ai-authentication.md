@@ -246,11 +246,12 @@ tags:
 - Multi-Agent Systems
 - Agent Platform
 - MCP
-- agent-native
-- Workflow-Automation
+- Agent-Native
+- Workflow Automation
 - LLM Orchestration
-- Knowledge-Management
+- Knowledge Management
 - Observability
 - Sales Automation
 - GTM Engineering
+- A2A
 ---

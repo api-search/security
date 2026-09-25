@@ -32,6 +32,6 @@ tags:
 - Healthcare
 - Medical Imaging
 - Diagnostics
-- Machine-Learning
+- Machine Learning
 - China
 ---

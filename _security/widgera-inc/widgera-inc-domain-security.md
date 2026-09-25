@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Widgera Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Widgera, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Widgera, Inc.
+overview: 'Domain security posture for Widgera, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Widgera
 provider_slug: widgera-inc
 slug: widgera-inc-domain-security
 source_filename: widgera-inc-domain-security.yml
@@ -35,7 +35,7 @@ tags:
 - Business Operations
 - Adaptive OS
 - CRM
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Customer Interaction
 ---

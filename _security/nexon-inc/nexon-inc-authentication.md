@@ -12,8 +12,8 @@ method: searched
 name: Nexon Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Nexon Inc secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Nexon Inc
+overview: Nexon secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Nexon
 provider_slug: nexon-inc
 scheme_count: 1
 schemes:

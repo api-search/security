@@ -55,8 +55,8 @@ method: searched
 name: Steute Technologies Gmbh And Co Kg Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: steute Technologies GmbH & Co. KG secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: steute Technologies GmbH & Co. KG
+overview: steute Technologies secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: steute Technologies
 provider_slug: steute-technologies-gmbh-and-co-kg
 scheme_count: 2
 schemes:
@@ -87,7 +87,7 @@ tags:
 - Company
 - Industrial
 - Manufacturing
-- IIoT
+- Industrial IoT
 - Wireless
 - Sensors
 - Switches

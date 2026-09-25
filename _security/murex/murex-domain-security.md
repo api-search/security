@@ -174,7 +174,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Capital Markets
 - Enterprise Software
-- Financial-Services
+- Financial Services
 - Fintech
 - Risk Management
 - Trading

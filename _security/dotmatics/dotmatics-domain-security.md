@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scientific Informatics
 - Pharma
-- Biotech
+- Biotechnology
 - Drug Discovery
 - ELN
 - LIMS

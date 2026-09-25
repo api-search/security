@@ -77,6 +77,6 @@ tags:
 - Function-as-a-Service
 - Serverless
 - Apache
-- Open-Source
+- Open Source
 - Functions
 ---

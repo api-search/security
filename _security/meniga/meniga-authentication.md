@@ -45,7 +45,7 @@ tags:
 - Personal Finance Management
 - Open Banking
 - Transaction Enrichment
-- Financial-Services
+- Financial Services
 - Banking
 - SDK
 ---

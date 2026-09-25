@@ -81,7 +81,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/ (secur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/authentication/debounce-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Email Validation
 - Email Verification
 - Deliverability
 - Disposable Email Detection
@@ -91,4 +90,5 @@ tags:
 - Syntax Validation
 - Reverse Email Lookup
 - Logo API
+- A2A
 ---

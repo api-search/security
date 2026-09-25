@@ -41,5 +41,5 @@ tags:
 - Retail
 - E-Commerce
 - Digital Twin
-- Agentic
+- AI Agents
 ---

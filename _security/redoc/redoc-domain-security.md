@@ -41,4 +41,5 @@ tags:
 - OpenAPI
 - Reference
 - Renderer
+- A2A
 ---

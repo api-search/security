@@ -52,6 +52,6 @@ tags:
 - Content Moderation
 - Anti-Abuse
 - Fraud Detection
-- Machine-Learning
+- Machine Learning
 - Risk Intelligence
 ---

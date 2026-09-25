@@ -41,7 +41,7 @@ tags:
 - Vertical Software
 - PropTech
 - Procurement
-- Real-Estate
+- Real Estate
 - Property Management
 - Vendor Management
 - Contract Management

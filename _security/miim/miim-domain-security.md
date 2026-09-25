@@ -31,7 +31,7 @@ summary_line: DMARC
 tags:
 - Company
 - Retail
-- Computer-Vision
+- Computer Vision
 - Movement Intelligence
 - Analytics
 - Artificial Intelligence

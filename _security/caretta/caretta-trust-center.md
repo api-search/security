@@ -34,5 +34,6 @@ tags:
 - MCP
 - Webhook
 - Agents
+- A2A
 trust_url: https://trust.caretta.so
 ---

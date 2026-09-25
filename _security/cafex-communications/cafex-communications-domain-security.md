@@ -57,8 +57,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Low-Code
-- Workflow-Automation
-- Agentic AI
+- Workflow Automation
+- AI Agents
 - Audit and Compliance
 - Collaboration
 - Enterprise Software

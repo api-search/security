@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-09-22'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assembla/refs/heads/main/security/assembla-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- VersionControl
-- CloudHosting
+- Version Control
+- Cloud Hosting
 - DevOps
-- ProjectManagement
+- Project Management
 - Security
 trust_url: https://get.assembla.com/security/
 ---

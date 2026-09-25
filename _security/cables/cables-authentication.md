@@ -33,13 +33,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cables/refs/he
 summary_line: none-for-discovery/x402-payment-for-execution · 0 schemes
 tags:
 - MCP Server
-- agent-native
+- Agent-Native
 - x402
 - pay-per-call
-- Machine-Learning
+- Machine Learning
 - tensorflow-js
 - NLP
-- Computer-Vision
+- Computer Vision
 - Social Media Analytics
 - OpenAPI
 - Solana

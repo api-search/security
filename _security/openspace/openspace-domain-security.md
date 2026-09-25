@@ -39,7 +39,7 @@ tags:
 - Progress Tracking
 - BIM
 - Drone Imagery
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Software-as-a-Service
 - San Francisco

@@ -734,7 +734,7 @@ summary_line: TLSv1.3
 tags:
 - Infrastructure
 - Cloud Operations
-- Data-Center
+- Data Center
 - Compute
 - Networking
 - Enterprise

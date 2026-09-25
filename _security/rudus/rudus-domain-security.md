@@ -34,7 +34,7 @@ tags:
 - Company
 - Construction Technology
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Estimation
 - Takeoff
 - Concrete

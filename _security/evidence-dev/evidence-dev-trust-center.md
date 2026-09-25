@@ -42,6 +42,6 @@ tags:
 - SQL
 - Markdown
 - Data Apps
-- Open-Source
+- Open Source
 trust_url: https://security.evidence.dev/
 ---

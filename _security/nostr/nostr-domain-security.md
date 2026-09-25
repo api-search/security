@@ -63,4 +63,5 @@ tags:
 - NIP
 - Censorship Resistant
 - Self-Sovereign Identity
+- Real-Time
 ---

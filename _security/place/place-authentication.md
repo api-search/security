@@ -115,8 +115,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/place/refs/hea
 summary_line: openIdConnect/oauth2 · 3 schemes
 tags:
 - Company
-- Real-Estate
-- Property Technology
+- Real Estate
 - PropTech
 - CRM
 - Transaction Management

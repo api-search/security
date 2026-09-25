@@ -38,6 +38,6 @@ tags:
 - TPU
 - Compute Kernels
 - CUDA
-- Machine-Learning
+- Machine Learning
 - Hardware Acceleration
 ---

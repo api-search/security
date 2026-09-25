@@ -34,5 +34,5 @@ tags:
 - Europe
 - Governance
 - Linux Foundation
-- Open-Source
+- Open Source
 ---

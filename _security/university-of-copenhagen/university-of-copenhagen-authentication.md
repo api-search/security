@@ -38,7 +38,7 @@ tags:
 - Research
 - Denmark
 - Nordic
-- Open-Source
+- Open Source
 - Research Data
 - Research Repository
 - Identity Federation

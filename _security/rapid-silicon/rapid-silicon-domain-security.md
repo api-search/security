@@ -61,7 +61,7 @@ tags:
 - eFPGA
 - Electronic Design Automation
 - Chip Design
-- Open-Source
+- Open Source
 - Hardware
 - Edge AI
 - Silicon IP

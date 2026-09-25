@@ -39,5 +39,5 @@ tags:
 - Precision Health
 - Diagnostics
 - Biotechnology
-- Machine-Learning
+- Machine Learning
 ---

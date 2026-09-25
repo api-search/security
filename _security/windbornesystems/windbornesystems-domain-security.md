@@ -38,6 +38,6 @@ tags:
 - Atmospheric Data
 - Geospatial
 - Climate
-- Machine-Learning
+- Machine Learning
 - MCP
 ---

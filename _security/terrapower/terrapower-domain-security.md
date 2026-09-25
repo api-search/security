@@ -44,5 +44,5 @@ tags:
 - Targeted Alpha Therapy
 - Cancer Treatment
 - Reactor Design
-- Open-Source
+- Open Source
 ---

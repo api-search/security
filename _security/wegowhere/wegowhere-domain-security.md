@@ -29,7 +29,7 @@ tags:
 - Company
 - Social
 - Mobile App
-- Social Networking
+- Social Network
 - Activity Planning
 - Event
 - Consumer

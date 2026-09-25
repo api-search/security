@@ -122,7 +122,7 @@ tags:
 - Insurance
 - Actuarial Modeling
 - Valuation
-- Financial-Services
+- Financial Services
 - Life Insurance
 - Annuities
 - Pensions

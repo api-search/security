@@ -70,6 +70,6 @@ tags:
 - Voice Cloning
 - Voice Changer
 - Music
-- Machine-Learning
+- Machine Learning
 - DSP
 ---

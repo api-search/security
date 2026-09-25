@@ -35,8 +35,7 @@ tags:
 - Fintech
 - Banking
 - AI Agents
-- Agentic AI
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - United Kingdom
 ---

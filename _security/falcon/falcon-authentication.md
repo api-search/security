@@ -49,7 +49,7 @@ summary_line: http/apiKey · 3 schemes
 tags:
 - Company
 - Infrastructure
-- Financial-Services
+- Financial Services
 - Banking
 - Payments
 - Credit Cards

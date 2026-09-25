@@ -34,7 +34,7 @@ tags:
 - Company
 - Productivity
 - Scheduling
-- Document-Management
+- Document Management
 - Electronic Signature
 - Software-as-a-Service
 - Workflows

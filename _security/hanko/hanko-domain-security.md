@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-metrics-api-openapi.yml
 - filename: hanko-mfa-api-openapi.yml
   format: yaml
-  label: Hanko mfa API
+  label: Hanko Mfa API
   slug: hanko-mfa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-mfa-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-users-api-openapi.yml
 - filename: hanko-webauthn-api-openapi.yml
   format: yaml
-  label: Hanko webauthn API
+  label: Hanko Webauthn API
   slug: hanko-webauthn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-webauthn-api-openapi.yml
@@ -176,6 +176,6 @@ tags:
 - Identity
 - SAML
 - Passwordless
-- Open-Source
+- Open Source
 - Identity Federation
 ---

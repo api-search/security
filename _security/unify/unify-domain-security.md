@@ -82,4 +82,5 @@ tags:
 - MCP
 - Agent Skills
 - Webhook
+- A2A
 ---

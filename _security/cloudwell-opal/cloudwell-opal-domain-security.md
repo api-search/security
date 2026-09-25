@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AppSource
 - Calendar Overlay
-- Microsoft-365
+- Microsoft 365
 - Microsoft Partner
 - Org Chart
 - SharePoint

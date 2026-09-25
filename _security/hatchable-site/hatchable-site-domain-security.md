@@ -48,5 +48,5 @@ tags:
 - A2A
 - pay-per-call
 - Prompt Optimization
-- Agent Payments
+- Agentic Payments
 ---

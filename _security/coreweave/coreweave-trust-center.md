@@ -39,7 +39,8 @@ tags:
 - HPC
 - Inference
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - Storage
+- Data Center
 trust_url: https://trust.coreweave.com/
 ---

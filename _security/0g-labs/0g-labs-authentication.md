@@ -132,6 +132,6 @@ tags:
 - Data Availability
 - OpenAI-Compatible
 - Trusted Execution Environment
-- agent-native
+- Agent-Native
 - Crypto Infrastructure
 ---

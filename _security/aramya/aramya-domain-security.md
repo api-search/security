@@ -35,7 +35,6 @@ tags:
 - Fashion
 - E-Commerce
 - Retail
-- D2C
 - Apparel
 - India
 - Direct to Consumer

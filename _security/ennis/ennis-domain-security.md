@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Ennis Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Ennis Inc, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Ennis Inc
+overview: 'Domain security posture for Ennis, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Ennis
 provider_slug: ennis
 slug: ennis-domain-security
 source_filename: ennis-domain-security.yml

@@ -2,55 +2,55 @@
 api_specs:
 - filename: ory-api-api-openapi.yml
   format: yaml
-  label: Ory api
+  label: Ory API
   slug: ory-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-api-api-openapi.yml
 - filename: ory-courier-api-openapi.yml
   format: yaml
-  label: Ory courier API
+  label: Ory Courier API
   slug: ory-courier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-courier-api-openapi.yml
 - filename: ory-frontend-api-openapi.yml
   format: yaml
-  label: Ory frontend API
+  label: Ory Frontend API
   slug: ory-frontend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-frontend-api-openapi.yml
 - filename: ory-identity-api-openapi.yml
   format: yaml
-  label: Ory identity API
+  label: Ory Identity API
   slug: ory-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-identity-api-openapi.yml
 - filename: ory-jwk-api-openapi.yml
   format: yaml
-  label: Ory jwk API
+  label: Ory Jwk API
   slug: ory-jwk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-jwk-api-openapi.yml
 - filename: ory-metadata-api-openapi.yml
   format: yaml
-  label: Ory metadata API
+  label: Ory Metadata API
   slug: ory-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-metadata-api-openapi.yml
 - filename: ory-oidc-api-openapi.yml
   format: yaml
-  label: Ory oidc API
+  label: Ory Oidc API
   slug: ory-oidc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-oidc-api-openapi.yml
 - filename: ory-permission-api-openapi.yml
   format: yaml
-  label: Ory permission API
+  label: Ory Permission API
   slug: ory-permission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-permission-api-openapi.yml
 - filename: ory-relationship-api-openapi.yml
   format: yaml
-  label: Ory relationship API
+  label: Ory Relationship API
   slug: ory-relationship-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-relationship-api-openapi.yml
@@ -174,5 +174,6 @@ tags:
 - Authorization
 - Identity
 - OpenID Connect
-- Open-Source
+- Open Source
+- Identity Federation
 ---

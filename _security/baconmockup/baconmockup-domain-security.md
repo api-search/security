@@ -29,6 +29,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baconmockup/refs/heads/main/security/baconmockup-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- Food And Drink
+- Food and Beverage
 - Public APIs
 ---

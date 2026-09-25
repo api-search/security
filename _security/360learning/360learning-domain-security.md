@@ -134,7 +134,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-user-api-openapi.yml
 - filename: 360learning-x-api-api-openapi.yml
   format: yaml
-  label: 360Learning x API
+  label: 360Learning X API
   slug: 360learning-x-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-x-api-api-openapi.yml

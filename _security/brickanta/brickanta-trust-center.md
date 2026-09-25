@@ -24,7 +24,7 @@ tags:
 - Enterprise
 - Artificial Intelligence
 - Construction
-- Agentic AI
+- AI Agents
 - Procurement
 - Compliance
 trust_url: https://trust.brickanta.com/

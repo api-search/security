@@ -37,7 +37,7 @@ tags:
 - LLM
 - Knowledge Graph
 - Developer Tools
-- Open-Source
+- Open Source
 - Python
 - MCP
 ---

@@ -39,7 +39,7 @@ tags:
 - Agents
 - MCP
 - Documentation
-- Knowledge-Management
+- Knowledge Management
 - Developer Tools
 - Context
 ---

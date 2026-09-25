@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: >-\n  https://app
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/authentication/agentsmyth-authentication.yml
 summary_line: 2 schemes
 tags:
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Artificial Intelligence
 - AI Agents
@@ -68,6 +68,6 @@ tags:
 - Investment Research
 - Market Intelligence
 - MCP
-- agent-native
+- Agent-Native
 - Fintech
 ---

@@ -40,7 +40,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Yi
-- Open-Source
+- Open Source
 - Foundation Models
 - Inference
 ---

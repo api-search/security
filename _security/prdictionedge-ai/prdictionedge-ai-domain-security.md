@@ -52,11 +52,11 @@ tags:
 - Counterparty Verification
 - Sanctions Screening
 - Legal Entity Identifier
-- Know Your Business
+- KYB
 - Agent Infrastructure
 - Trust and Safety
 - Signed Receipts
 - Agentic Payments
 - A2A
-- agent-native
+- Agent-Native
 ---

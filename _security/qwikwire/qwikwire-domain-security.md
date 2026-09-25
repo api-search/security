@@ -49,7 +49,7 @@ tags:
 - Company
 - Payments
 - Cross-Border Payments
-- Real-Estate
+- Real Estate
 - Fintech
 - Philippines
 - Multi-Currency

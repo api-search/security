@@ -194,4 +194,5 @@ tags:
 - NFT
 - On-Chain Data
 - Prices
+- Real-Time
 ---

@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-projects-api-openapi.yml
 - filename: bitbucket-pipelines-properties-api-openapi.yml
   format: yaml
-  label: Bitbucket Pipelines properties API
+  label: Bitbucket Pipelines Properties API
   slug: bitbucket-pipelines-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-properties-api-openapi.yml

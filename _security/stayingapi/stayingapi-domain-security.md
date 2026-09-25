@@ -74,6 +74,6 @@ tags:
 - Reviews
 - REST
 - MCP
-- agent-native
+- Agent-Native
 - OpenAPI
 ---

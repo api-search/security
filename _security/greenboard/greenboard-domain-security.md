@@ -34,11 +34,11 @@ tags:
 - Company
 - Compliance
 - RegTech
-- Financial-Services
+- Financial Services
 - SEC
 - FINRA
 - Communications Archiving
 - Governance
-- Risk
+- Risk Management
 - Artificial Intelligence
 ---

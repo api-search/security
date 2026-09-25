@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Human Resources
-- Recruitment
+- Recruiting
 - Hiring
 - Talent Acquisition
 - Video Interview

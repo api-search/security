@@ -36,7 +36,7 @@ tags:
 - Mobile Games
 - Interactive Fiction
 - Entertainment
-- Mobile Applications
+- Mobile App
 - Game Development
 - Consumer Software
 ---

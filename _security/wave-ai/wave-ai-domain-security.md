@@ -35,6 +35,6 @@ tags:
 - Generative AI
 - Songwriting
 - Creativity
-- Machine-Learning
+- Machine Learning
 - Consumer SaaS
 ---

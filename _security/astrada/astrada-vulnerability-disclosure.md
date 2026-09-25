@@ -2,91 +2,91 @@
 api_specs:
 - filename: astrada-bank-accounts-api-openapi.yml
   format: yaml
-  label: Astrada bank-accounts API
+  label: Astrada Bank Accounts API
   slug: astrada-bank-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-accounts-api-openapi.yml
 - filename: astrada-bank-links-api-openapi.yml
   format: yaml
-  label: Astrada bank-links API
+  label: Astrada Bank Links API
   slug: astrada-bank-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-links-api-openapi.yml
 - filename: astrada-bank-subscriptions-api-openapi.yml
   format: yaml
-  label: Astrada bank-subscriptions API
+  label: Astrada Bank Subscriptions API
   slug: astrada-bank-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-subscriptions-api-openapi.yml
 - filename: astrada-bank-transactions-api-openapi.yml
   format: yaml
-  label: Astrada bank-transactions API
+  label: Astrada Bank Transactions API
   slug: astrada-bank-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-transactions-api-openapi.yml
 - filename: astrada-bin-lookup-api-openapi.yml
   format: yaml
-  label: Astrada bin-lookup API
+  label: Astrada Bin Lookup API
   slug: astrada-bin-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bin-lookup-api-openapi.yml
 - filename: astrada-card-api-openapi.yml
   format: yaml
-  label: Astrada card API
+  label: Astrada Card API
   slug: astrada-card-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-api-openapi.yml
 - filename: astrada-card-subscription-api-openapi.yml
   format: yaml
-  label: Astrada card-subscription API
+  label: Astrada Card Subscription API
   slug: astrada-card-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-subscription-api-openapi.yml
 - filename: astrada-card-verification-api-openapi.yml
   format: yaml
-  label: Astrada card-verification API
+  label: Astrada Card Verification API
   slug: astrada-card-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-verification-api-openapi.yml
 - filename: astrada-enrollment-methods-api-openapi.yml
   format: yaml
-  label: Astrada enrollment-methods API
+  label: Astrada Enrollment Methods API
   slug: astrada-enrollment-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-enrollment-methods-api-openapi.yml
 - filename: astrada-network-bulk-feeds-api-openapi.yml
   format: yaml
-  label: Astrada network-bulk-feeds API
+  label: Astrada Network Bulk Feeds API
   slug: astrada-network-bulk-feeds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-network-bulk-feeds-api-openapi.yml
 - filename: astrada-subaccounts-api-openapi.yml
   format: yaml
-  label: Astrada subaccounts API
+  label: Astrada Subaccounts API
   slug: astrada-subaccounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-subaccounts-api-openapi.yml
 - filename: astrada-transaction-matches-api-openapi.yml
   format: yaml
-  label: Astrada transaction-matches API
+  label: Astrada Transaction Matches API
   slug: astrada-transaction-matches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-matches-api-openapi.yml
 - filename: astrada-transaction-messages-api-openapi.yml
   format: yaml
-  label: Astrada transaction-messages API
+  label: Astrada Transaction Messages API
   slug: astrada-transaction-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-messages-api-openapi.yml
 - filename: astrada-transactions-api-openapi.yml
   format: yaml
-  label: Astrada transactions API
+  label: Astrada Transactions API
   slug: astrada-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transactions-api-openapi.yml
 - filename: astrada-webhooks-api-openapi.yml
   format: yaml
-  label: Astrada webhooks API
+  label: Astrada Webhooks API
   slug: astrada-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-webhooks-api-openapi.yml

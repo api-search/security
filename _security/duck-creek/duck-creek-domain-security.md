@@ -12,18 +12,6 @@ api_specs:
   slug: duck-creek-claims-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
-- filename: duck-creek-billing-api-openapi.yml
-  format: yaml
-  label: duck-creek Billing API
-  slug: duck-creek-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
-- filename: duck-creek-claims-api-openapi.yml
-  format: yaml
-  label: duck-creek Claims API
-  slug: duck-creek-claims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
 - filename: duck-creek-policies-api-openapi.yml
   format: yaml
   label: duck-creek Policies API

@@ -124,8 +124,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/probabl/refs/h
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Open-Source
-- Machine-Learning
+- Open Source
+- Machine Learning
 - Data Science
 - scikit-learn
 - MLOps

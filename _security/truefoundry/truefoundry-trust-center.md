@@ -79,5 +79,6 @@ tags:
 - Kubernetes
 - LLM Gateway
 - MLOps
+- A2A
 trust_url: https://www.truefoundry.com/security
 ---

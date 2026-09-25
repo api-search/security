@@ -45,6 +45,7 @@ tags:
 - WebRTC
 - Conversational AI
 - SDK
-- Machine-Learning
+- Machine Learning
+- Real-Time
 trust_url: https://trust.krisp.ai/
 ---

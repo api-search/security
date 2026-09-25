@@ -265,7 +265,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - AI Agents
-- Open-Source
+- Open Source
 - Desktop
 - Agent Runtime
 - MCP

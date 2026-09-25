@@ -115,9 +115,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willo/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Interviewing
-- Recruitment
+- Recruiting
 - Human Resources
-- ATS
+- Applicant Tracking
 - Screening
 - Async Video
 ---

@@ -32,9 +32,9 @@ tags:
 - Company
 - Live Streaming
 - Video
-- Social Networking
+- Social Network
 - Entertainment
 - Consumer
-- Mobile Applications
+- Mobile App
 - China
 ---

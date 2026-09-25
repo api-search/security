@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Sl Green Realty Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SL Green Realty Corp., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: SL Green Realty Corp.
+overview: 'Domain security posture for SL Green, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: SL Green
 provider_slug: sl-green-realty
 slug: sl-green-realty-domain-security
 source_filename: sl-green-realty-domain-security.yml
@@ -38,6 +38,6 @@ tags:
 - Office Leasing
 - Office Properties
 - Property Management
-- Real-Estate
+- Real Estate
 - REIT
 ---

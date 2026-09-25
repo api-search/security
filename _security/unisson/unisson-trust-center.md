@@ -2,121 +2,121 @@
 api_specs:
 - filename: unisson-agent-evals-api-openapi.yml
   format: yaml
-  label: Unisson agent-evals API
+  label: Unisson Agent Evals API
   slug: unisson-agent-evals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-agent-evals-api-openapi.yml
 - filename: unisson-agent-integrations-api-openapi.yml
   format: yaml
-  label: Unisson agent-integrations API
+  label: Unisson Agent Integrations API
   slug: unisson-agent-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-agent-integrations-api-openapi.yml
 - filename: unisson-agent-triggers-api-openapi.yml
   format: yaml
-  label: Unisson agent-triggers API
+  label: Unisson Agent Triggers API
   slug: unisson-agent-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-agent-triggers-api-openapi.yml
 - filename: unisson-agents-api-openapi.yml
   format: yaml
-  label: Unisson agents API
+  label: Unisson Agents API
   slug: unisson-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-agents-api-openapi.yml
 - filename: unisson-analytics-api-openapi.yml
   format: yaml
-  label: Unisson analytics API
+  label: Unisson Analytics API
   slug: unisson-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-analytics-api-openapi.yml
 - filename: unisson-appdb-api-openapi.yml
   format: yaml
-  label: Unisson appdb API
+  label: Unisson Appdb API
   slug: unisson-appdb-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-appdb-api-openapi.yml
 - filename: unisson-apps-api-openapi.yml
   format: yaml
-  label: Unisson apps API
+  label: Unisson Apps API
   slug: unisson-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-apps-api-openapi.yml
 - filename: unisson-auth-api-openapi.yml
   format: yaml
-  label: Unisson auth API
+  label: Unisson Auth API
   slug: unisson-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-auth-api-openapi.yml
 - filename: unisson-browser-contexts-api-openapi.yml
   format: yaml
-  label: Unisson browser-contexts API
+  label: Unisson Browser Contexts API
   slug: unisson-browser-contexts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-browser-contexts-api-openapi.yml
 - filename: unisson-chat-api-openapi.yml
   format: yaml
-  label: Unisson chat API
+  label: Unisson Chat API
   slug: unisson-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-chat-api-openapi.yml
 - filename: unisson-code-map-api-openapi.yml
   format: yaml
-  label: Unisson code-map API
+  label: Unisson Code Map API
   slug: unisson-code-map-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-code-map-api-openapi.yml
 - filename: unisson-customer-files-api-openapi.yml
   format: yaml
-  label: Unisson customer-files API
+  label: Unisson Customer Files API
   slug: unisson-customer-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-customer-files-api-openapi.yml
 - filename: unisson-customers-api-openapi.yml
   format: yaml
-  label: Unisson customers API
+  label: Unisson Customers API
   slug: unisson-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-customers-api-openapi.yml
 - filename: unisson-debrief-api-openapi.yml
   format: yaml
-  label: Unisson debrief API
+  label: Unisson Debrief API
   slug: unisson-debrief-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-debrief-api-openapi.yml
 - filename: unisson-discovery-api-openapi.yml
   format: yaml
-  label: Unisson discovery API
+  label: Unisson Discovery API
   slug: unisson-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-discovery-api-openapi.yml
 - filename: unisson-documents-api-openapi.yml
   format: yaml
-  label: Unisson documents API
+  label: Unisson Documents API
   slug: unisson-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-documents-api-openapi.yml
 - filename: unisson-email-drafts-api-openapi.yml
   format: yaml
-  label: Unisson email-drafts API
+  label: Unisson Email Drafts API
   slug: unisson-email-drafts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-email-drafts-api-openapi.yml
 - filename: unisson-emails-api-openapi.yml
   format: yaml
-  label: Unisson emails API
+  label: Unisson Emails API
   slug: unisson-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-emails-api-openapi.yml
 - filename: unisson-external-api-api-openapi.yml
   format: yaml
-  label: Unisson external-api
+  label: Unisson External API
   slug: unisson-external-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-external-api-api-openapi.yml
 - filename: unisson-google-push-api-openapi.yml
   format: yaml
-  label: Unisson google-push API
+  label: Unisson Google Push API
   slug: unisson-google-push-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-google-push-api-openapi.yml
@@ -128,73 +128,73 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-health-api-openapi.yml
 - filename: unisson-imported-databases-api-openapi.yml
   format: yaml
-  label: Unisson imported-databases API
+  label: Unisson Imported Databases API
   slug: unisson-imported-databases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-imported-databases-api-openapi.yml
 - filename: unisson-integrations-api-openapi.yml
   format: yaml
-  label: Unisson integrations API
+  label: Unisson Integrations API
   slug: unisson-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-integrations-api-openapi.yml
 - filename: unisson-internal-auth-sessions-api-openapi.yml
   format: yaml
-  label: Unisson internal-auth-sessions API
+  label: Unisson Internal Auth Sessions API
   slug: unisson-internal-auth-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-internal-auth-sessions-api-openapi.yml
 - filename: unisson-knowledge-base-api-openapi.yml
   format: yaml
-  label: Unisson knowledge-base API
+  label: Unisson Knowledge Base API
   slug: unisson-knowledge-base-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-knowledge-base-api-openapi.yml
 - filename: unisson-live-map-api-openapi.yml
   format: yaml
-  label: Unisson live-map API
+  label: Unisson Live Map API
   slug: unisson-live-map-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-live-map-api-openapi.yml
 - filename: unisson-managed-auth-api-openapi.yml
   format: yaml
-  label: Unisson managed-auth API
+  label: Unisson Managed Auth API
   slug: unisson-managed-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-managed-auth-api-openapi.yml
 - filename: unisson-meetings-api-openapi.yml
   format: yaml
-  label: Unisson meetings API
+  label: Unisson Meetings API
   slug: unisson-meetings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-meetings-api-openapi.yml
 - filename: unisson-memory-api-openapi.yml
   format: yaml
-  label: Unisson memory API
+  label: Unisson Memory API
   slug: unisson-memory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-memory-api-openapi.yml
 - filename: unisson-notifications-api-openapi.yml
   format: yaml
-  label: Unisson notifications API
+  label: Unisson Notifications API
   slug: unisson-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-notifications-api-openapi.yml
 - filename: unisson-onboarding-api-openapi.yml
   format: yaml
-  label: Unisson onboarding API
+  label: Unisson Onboarding API
   slug: unisson-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-onboarding-api-openapi.yml
 - filename: unisson-organizations-api-openapi.yml
   format: yaml
-  label: Unisson organizations API
+  label: Unisson Organizations API
   slug: unisson-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-organizations-api-openapi.yml
 - filename: unisson-products-api-openapi.yml
   format: yaml
-  label: Unisson products API
+  label: Unisson Products API
   slug: unisson-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-products-api-openapi.yml
@@ -206,37 +206,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-readyz-api-openapi.yml
 - filename: unisson-runs-api-openapi.yml
   format: yaml
-  label: Unisson runs API
+  label: Unisson Runs API
   slug: unisson-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-runs-api-openapi.yml
 - filename: unisson-scheduled-runs-api-openapi.yml
   format: yaml
-  label: Unisson scheduled-runs API
+  label: Unisson Scheduled Runs API
   slug: unisson-scheduled-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-scheduled-runs-api-openapi.yml
 - filename: unisson-skills-api-openapi.yml
   format: yaml
-  label: Unisson skills API
+  label: Unisson Skills API
   slug: unisson-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-skills-api-openapi.yml
 - filename: unisson-superadmin-api-openapi.yml
   format: yaml
-  label: Unisson superadmin API
+  label: Unisson Superadmin API
   slug: unisson-superadmin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-superadmin-api-openapi.yml
 - filename: unisson-task-types-api-openapi.yml
   format: yaml
-  label: Unisson task-types API
+  label: Unisson Task Types API
   slug: unisson-task-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-task-types-api-openapi.yml
 - filename: unisson-tasks-api-openapi.yml
   format: yaml
-  label: Unisson tasks API
+  label: Unisson Tasks API
   slug: unisson-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-tasks-api-openapi.yml
@@ -248,19 +248,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-unisson-api-openapi.yml
 - filename: unisson-usage-api-openapi.yml
   format: yaml
-  label: Unisson usage API
+  label: Unisson Usage API
   slug: unisson-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-usage-api-openapi.yml
 - filename: unisson-webhooks-api-openapi.yml
   format: yaml
-  label: Unisson webhooks API
+  label: Unisson Webhooks API
   slug: unisson-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-webhooks-api-openapi.yml
 - filename: unisson-widget-api-openapi.yml
   format: yaml
-  label: Unisson widget API
+  label: Unisson Widget API
   slug: unisson-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/openapi/unisson-widget-api-openapi.yml

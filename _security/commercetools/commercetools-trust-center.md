@@ -114,5 +114,6 @@ tags:
 - GraphQL
 - REST
 - SDK
+- Agentic Commerce
 trust_url: https://trust.commercetools.com/
 ---

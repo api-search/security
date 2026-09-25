@@ -39,4 +39,5 @@ tags:
 - Human Resources
 - Shift Planning
 - Payroll
+- Scheduling
 ---

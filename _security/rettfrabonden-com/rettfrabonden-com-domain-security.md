@@ -44,9 +44,9 @@ tags:
 - Directory
 - Search
 - Geolocation
-- Agent-to-Agent
+- A2A
 - MCP
 - Norway
-- Open-Source
+- Open Source
 - Company
 ---

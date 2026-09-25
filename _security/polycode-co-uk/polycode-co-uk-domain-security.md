@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Polycode Co Uk Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Polycode Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
-provider_name: Polycode Limited
+overview: 'Domain security posture for Polycode, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: Polycode
 provider_slug: polycode-co-uk
 slug: polycode-co-uk-domain-security
 source_filename: polycode-co-uk-domain-security.yml
@@ -44,7 +44,7 @@ tags:
 - Knowledge Graph
 - Research
 - Artificial Intelligence
-- Open-Source
+- Open Source
 - Consulting
 - United Kingdom
 ---

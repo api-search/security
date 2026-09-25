@@ -35,6 +35,6 @@ tags:
 - Credit
 - Software-as-a-Service
 - India
-- Financial-Services
+- Financial Services
 trust_url: https://trust.lentra.ai/
 ---

@@ -158,5 +158,6 @@ tags:
 - RegTech
 - Sanctions Screening
 - Webhook
+- A2A
 trust_url: https://idenfy.com/security/
 ---

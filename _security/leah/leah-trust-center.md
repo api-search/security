@@ -28,7 +28,7 @@ summary_line: ISO/IEC 27001:2022, SOC 2 Type II, SOC 3, SOC 1, GDPR, HIPAA / HIT
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Contract Lifecycle Management
 - Legal
 - Legal Technology

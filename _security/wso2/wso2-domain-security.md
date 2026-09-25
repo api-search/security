@@ -591,9 +591,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - API Management
 - Gateways
-- Open-Source
+- Open Source
 - API Lifecycle
 - GraphQL
 - SOAP
 - REST
+- Identity Federation
 ---

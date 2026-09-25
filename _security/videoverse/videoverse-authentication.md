@@ -132,6 +132,6 @@ tags:
 - Video Editing
 - Highlights
 - Content Creation
-- Machine-Learning
+- Machine Learning
 - Webhook
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Hardware
 - Power Electronics
-- Telecom
+- Telecommunications
 - Energy
 - Power Systems
 ---

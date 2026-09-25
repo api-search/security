@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/plaid-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/authentication/plaid-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
-- Financial
+- Finance
 - Fintech
 - Open Banking
 - Bank Accounts

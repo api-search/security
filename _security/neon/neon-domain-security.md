@@ -117,7 +117,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Database
 - Serverless
-- Postgres
+- PostgreSQL
 - Infrastructure
 - Authentication
 - Edge

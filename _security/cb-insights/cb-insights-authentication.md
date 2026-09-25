@@ -171,7 +171,7 @@ tags:
 - BusinessRelationships
 - predictive-scoring
 - MCP
-- agent-native
+- Agent-Native
 - Data Enrichment
 - Snowflake
 ---

@@ -63,4 +63,5 @@ tags:
 - Blockchain
 - Onchain
 - Multi-Chain
+- Ethereum
 ---

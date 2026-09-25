@@ -26,6 +26,12 @@ api_specs:
   slug: featherless-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-models-api-openapi.yml
+- filename: recursal-ai-inc-account-api-openapi.yml
+  format: yaml
+  label: Featherless AI Account API
+  slug: recursal-ai-inc-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/recursal-ai-inc-account-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -61,4 +67,5 @@ tags:
 - Inference
 - Serverless
 - Open Models
+- Real-Time
 ---

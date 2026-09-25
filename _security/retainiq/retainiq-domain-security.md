@@ -37,7 +37,7 @@ tags:
 - SMS
 - E-Commerce
 - Personalization
-- D2C
+- Consumer
 - Klaviyo
 - Direct to Consumer
 ---

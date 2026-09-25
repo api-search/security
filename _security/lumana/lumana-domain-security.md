@@ -34,7 +34,7 @@ tags:
 - Company
 - Video Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Physical Security
 - Surveillance
 - Video Management

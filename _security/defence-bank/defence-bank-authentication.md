@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/defence
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/authentication/defence-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

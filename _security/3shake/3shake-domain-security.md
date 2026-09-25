@@ -81,7 +81,7 @@ tags:
 - Data Integration
 - ETL
 - iPaaS
-- Workflow-Automation
+- Workflow Automation
 - Vulnerability Scanning
 - Attack Surface Management
 - Cloud Security

@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensanctions/
 summary_line: apiKey · 1 scheme
 tags:
 - Sanctions Screening
-- Anti-Money Laundering
+- AML
 - Politically Exposed Persons
 - Compliance
 - Financial Crime
@@ -72,5 +72,5 @@ tags:
 - Risk Data
 - Due Diligence
 - Public APIs
-- agent-native
+- Agent-Native
 ---

@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Local Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Local Holdings Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Local Holdings Limited
+overview: 'Domain security posture for Local, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Local
 provider_slug: local-holdings-limited
 slug: local-holdings-limited-domain-security
 source_filename: local-holdings-limited-domain-security.yml

@@ -76,5 +76,5 @@ tags:
 - Macroeconomics
 - Public Procurement
 - Marketplace
-- agent-native
+- Agent-Native
 ---

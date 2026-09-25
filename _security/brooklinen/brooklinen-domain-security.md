@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: brooklinen-cart-api-openapi.yml
-  format: yaml
-  label: Brooklinen Cart API
-  slug: brooklinen-cart-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/openapi/brooklinen-cart-api-openapi.yml
-- filename: brooklinen-collections-api-openapi.yml
-  format: yaml
-  label: Brooklinen Collections API
-  slug: brooklinen-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/openapi/brooklinen-collections-api-openapi.yml
-- filename: brooklinen-discovery-api-openapi.yml
-  format: yaml
-  label: Brooklinen Discovery API
-  slug: brooklinen-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/openapi/brooklinen-discovery-api-openapi.yml
-- filename: brooklinen-products-api-openapi.yml
-  format: yaml
-  label: Brooklinen Products API
-  slug: brooklinen-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/openapi/brooklinen-products-api-openapi.yml
-- filename: brooklinen-search-api-openapi.yml
-  format: yaml
-  label: Brooklinen Search API
-  slug: brooklinen-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/openapi/brooklinen-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +40,7 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP
-- agent-native
+- Agent-Native
 - Catalog
 - Checkout
 ---

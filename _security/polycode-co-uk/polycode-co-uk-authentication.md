@@ -22,8 +22,8 @@ method: searched
 name: Polycode Co Uk Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Polycode Limited secures its APIs with none, apiKey, openIdConnect, and hmac across 4 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Polycode Limited
+overview: Polycode secures its APIs with none, apiKey, openIdConnect, and hmac across 4 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Polycode
 provider_slug: polycode-co-uk
 scheme_count: 4
 schemes:
@@ -81,7 +81,7 @@ tags:
 - Knowledge Graph
 - Research
 - Artificial Intelligence
-- Open-Source
+- Open Source
 - Consulting
 - United Kingdom
 ---

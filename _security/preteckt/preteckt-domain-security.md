@@ -35,7 +35,7 @@ tags:
 - Fleet Management
 - Transportation
 - Automotive
-- Machine-Learning
+- Machine Learning
 - Telematics
 - IoT
 ---

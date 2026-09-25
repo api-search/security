@@ -38,8 +38,8 @@ layout: security
 method: probed
 name: Plextrac Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for PlexTrac, LLC, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: PlexTrac, LLC
+overview: 'Domain security posture for PlexTrac, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: PlexTrac
 provider_slug: plextrac-llc
 slug: plextrac-llc-domain-security
 source_filename: plextrac-llc-domain-security.yml

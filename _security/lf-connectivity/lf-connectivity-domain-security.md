@@ -49,8 +49,8 @@ tags:
 - Connectivity
 - Linux Foundation
 - Networking
-- Telecom
+- Telecommunications
 - Wireless
 - 5G
-- Open-Source
+- Open Source
 ---

@@ -46,8 +46,8 @@ tags:
 - Precision Agriculture
 - Robotics
 - Artificial Intelligence
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Sustainability
 - Farm Equipment
 - Switzerland

@@ -197,4 +197,5 @@ tags:
 - Seller APIs
 - Webhook
 - MCP
+- Agentic Commerce
 ---

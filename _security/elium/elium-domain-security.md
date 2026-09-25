@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Software-as-a-Service
-- Knowledge-Management
+- Knowledge Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

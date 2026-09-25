@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Taai Labs Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for TAAI Labs, Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: TAAI Labs, Inc
+overview: 'Domain security posture for Sparkle, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Sparkle
 provider_slug: taai-labs-inc
 slug: taai-labs-inc-domain-security
 source_filename: taai-labs-inc-domain-security.yml

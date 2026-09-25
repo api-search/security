@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Mortgage
 - Mortgage Servicing
-- Financial-Services
-- Real-Estate
+- Financial Services
+- Real Estate
 - Consumer Finance
 - Acquired
 - Rocket Companies

@@ -219,7 +219,7 @@ tags:
 - Company
 - Infrastructure
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Generative AI

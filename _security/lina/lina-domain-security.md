@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Co-Working
-- Real-Estate
+- Real Estate
 - Medical
 - Mental Health
 - Wellness

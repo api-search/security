@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-checkout-api-openapi.yml
 - filename: johrh-internal-api-openapi.yml
   format: yaml
-  label: Johrh internal API
+  label: Johrh Internal API
   slug: johrh-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-internal-api-openapi.yml
@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-products-api-openapi.yml
 - filename: johrh-redirects-api-openapi.yml
   format: yaml
-  label: Johrh redirects API
+  label: Johrh Redirects API
   slug: johrh-redirects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/openapi/johrh-redirects-api-openapi.yml

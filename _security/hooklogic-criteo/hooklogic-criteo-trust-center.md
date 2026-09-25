@@ -75,5 +75,6 @@ tags:
 - E-Commerce
 - Marketing
 - Retail
+- A2A
 trust_url: https://security.criteo.com/
 ---

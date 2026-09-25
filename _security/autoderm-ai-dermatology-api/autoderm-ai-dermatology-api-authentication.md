@@ -78,7 +78,7 @@ tags:
 - White Label
 - Healthcare
 - Medical AI
-- Computer-Vision
+- Computer Vision
 - Medical Devices
 - ICD-10
 - image-classification

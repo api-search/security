@@ -30,7 +30,7 @@ tags:
 - GPU
 - AI Chips
 - Semiconductors
-- Machine-Learning
+- Machine Learning
 - High Performance Computing
 - SDK
 - China

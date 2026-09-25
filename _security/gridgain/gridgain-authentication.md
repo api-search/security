@@ -4,109 +4,109 @@ api_key_in: []
 api_specs:
 - filename: gridgain-authentication-api-openapi.yml
   format: yaml
-  label: GridGain authentication API
+  label: GridGain Authentication API
   slug: gridgain-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-authentication-api-openapi.yml
 - filename: gridgain-cdcmanagement-api-openapi.yml
   format: yaml
-  label: GridGain cdcManagement API
+  label: GridGain Cdc Management API
   slug: gridgain-cdcmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-cdcmanagement-api-openapi.yml
 - filename: gridgain-clusterconfiguration-api-openapi.yml
   format: yaml
-  label: GridGain clusterConfiguration API
+  label: GridGain Cluster Configuration API
   slug: gridgain-clusterconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-clusterconfiguration-api-openapi.yml
 - filename: gridgain-clustermetric-api-openapi.yml
   format: yaml
-  label: GridGain clusterMetric API
+  label: GridGain Cluster Metric API
   slug: gridgain-clustermetric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-clustermetric-api-openapi.yml
 - filename: gridgain-compute-api-openapi.yml
   format: yaml
-  label: GridGain compute API
+  label: GridGain Compute API
   slug: gridgain-compute-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-compute-api-openapi.yml
 - filename: gridgain-dcr-api-openapi.yml
   format: yaml
-  label: GridGain dcr API
+  label: GridGain Dcr API
   slug: gridgain-dcr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-dcr-api-openapi.yml
 - filename: gridgain-deployment-api-openapi.yml
   format: yaml
-  label: GridGain deployment API
+  label: GridGain Deployment API
   slug: gridgain-deployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-deployment-api-openapi.yml
 - filename: gridgain-distribution-api-openapi.yml
   format: yaml
-  label: GridGain distribution API
+  label: GridGain Distribution API
   slug: gridgain-distribution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-distribution-api-openapi.yml
 - filename: gridgain-nodemanagement-api-openapi.yml
   format: yaml
-  label: GridGain nodeManagement API
+  label: GridGain Node Management API
   slug: gridgain-nodemanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-nodemanagement-api-openapi.yml
 - filename: gridgain-nodemetric-api-openapi.yml
   format: yaml
-  label: GridGain nodeMetric API
+  label: GridGain Node Metric API
   slug: gridgain-nodemetric-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-nodemetric-api-openapi.yml
 - filename: gridgain-privilegesgrants-api-openapi.yml
   format: yaml
-  label: GridGain privilegesGrants API
+  label: GridGain Privileges Grants API
   slug: gridgain-privilegesgrants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-privilegesgrants-api-openapi.yml
 - filename: gridgain-recovery-api-openapi.yml
   format: yaml
-  label: GridGain recovery API
+  label: GridGain Recovery API
   slug: gridgain-recovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-recovery-api-openapi.yml
 - filename: gridgain-snapshotmanagement-api-openapi.yml
   format: yaml
-  label: GridGain snapshotManagement API
+  label: GridGain Snapshot Management API
   slug: gridgain-snapshotmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-snapshotmanagement-api-openapi.yml
 - filename: gridgain-sql-api-openapi.yml
   format: yaml
-  label: GridGain sql API
+  label: GridGain Sql API
   slug: gridgain-sql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-sql-api-openapi.yml
 - filename: gridgain-system-api-openapi.yml
   format: yaml
-  label: GridGain system API
+  label: GridGain System API
   slug: gridgain-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-system-api-openapi.yml
 - filename: gridgain-topology-api-openapi.yml
   format: yaml
-  label: GridGain topology API
+  label: GridGain Topology API
   slug: gridgain-topology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-topology-api-openapi.yml
 - filename: gridgain-transactions-api-openapi.yml
   format: yaml
-  label: GridGain transactions API
+  label: GridGain Transactions API
   slug: gridgain-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-transactions-api-openapi.yml
 - filename: gridgain-upgrade-api-openapi.yml
   format: yaml
-  label: GridGain upgrade API
+  label: GridGain Upgrade API
   slug: gridgain-upgrade-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-upgrade-api-openapi.yml

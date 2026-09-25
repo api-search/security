@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micro/refs/hea
 summary_line: TLSv1.3
 tags:
 - Company
-- Open-Source
+- Open Source
 - Go
 - Microservices
 - Framework

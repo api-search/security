@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/authentication/exchange-data-international-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Financial
+- Finance
 - Market Data
 - Corporate Actions
 - Reference Data

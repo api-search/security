@@ -35,6 +35,6 @@ tags:
 - Medical Devices
 - Radiology
 - Clinical Decision Support
-- Machine-Learning
+- Machine Learning
 trust_url: https://security.heartflow.com/
 ---

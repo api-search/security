@@ -121,6 +121,6 @@ tags:
 - Legal Research
 - Compliance
 - Tool Generation
-- agent-native
+- Agent-Native
 - Australia
 ---

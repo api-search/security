@@ -84,4 +84,6 @@ tags:
 - Web3
 - EVM
 - NFT
+- Real-Time
+- Ethereum
 ---

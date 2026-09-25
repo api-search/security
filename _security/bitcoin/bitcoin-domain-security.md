@@ -38,7 +38,7 @@ tags:
 - Bitcoin
 - Digital Currency
 - Payments
-- Open-Source
+- Open Source
 - JSON-RPC
 - Protocol
 ---

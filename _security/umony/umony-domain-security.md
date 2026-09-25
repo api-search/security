@@ -36,5 +36,5 @@ tags:
 - Call Recording
 - Archiving
 - RegTech
-- Financial-Services
+- Financial Services
 ---

@@ -45,7 +45,7 @@ tags:
 - ERP
 - No-Code
 - Enterprise Application Platform
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
 - MCP
 - Integration

@@ -84,7 +84,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Hiring
-- Recruitment
+- Recruiting
 - Technical Assessment
 - Developer Hiring
 - MCP

@@ -56,6 +56,6 @@ tags:
 - Cross-Platform
 - Developer Tools
 - Microsoft
-- Open-Source
+- Open Source
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

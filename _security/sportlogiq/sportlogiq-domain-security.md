@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sports
 - Sports Analytics
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Artificial Intelligence
 - Player Tracking
 - Event Data

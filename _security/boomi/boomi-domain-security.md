@@ -126,4 +126,5 @@ tags:
 - MFT
 - Platform
 - Workflows
+- Workflow Automation
 ---

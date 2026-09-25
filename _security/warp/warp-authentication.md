@@ -4,19 +4,19 @@ api_key_in: []
 api_specs:
 - filename: warp-agent-api-openapi.yml
   format: yaml
-  label: Warp agent API
+  label: Warp Agent API
   slug: warp-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-agent-api-openapi.yml
 - filename: warp-harness-support-api-openapi.yml
   format: yaml
-  label: Warp harness-support API
+  label: Warp Harness Support API
   slug: warp-harness-support-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-harness-support-api-openapi.yml
 - filename: warp-schedules-api-openapi.yml
   format: yaml
-  label: Warp schedules API
+  label: Warp Schedules API
   slug: warp-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml

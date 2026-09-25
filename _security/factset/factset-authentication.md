@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: factset-news-api-openapi.yml
-  format: yaml
-  label: FactSet News API
-  slug: factset-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-news-api-openapi.yml
 - filename: factset-about-api-openapi.yml
   format: yaml
   label: Factset About API
@@ -688,7 +682,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-foreign-exchange-api-openapi.yml
 - filename: factset-fund-api-openapi.yml
   format: yaml
-  label: Factset fund API
+  label: Factset Fund API
   slug: factset-fund-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-fund-api-openapi.yml
@@ -970,7 +964,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-ner-api-openapi.yml
 - filename: factset-news-api-openapi.yml
   format: yaml
-  label: Factset News API
+  label: FactSet News API
   slug: factset-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-news-api-openapi.yml
@@ -1583,7 +1577,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/analytic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/authentication/factset-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Financial
+- Finance
 - Financial Data
 - Investment Analytics
 - Market Data

@@ -46,7 +46,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - AI Agents
-- Agent Payments
+- Agentic Payments
 - Identity
 - Payments
 - Authentication

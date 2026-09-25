@@ -95,13 +95,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-deliver-api-openapi.yml
 - filename: airbus-oneatlas-elevation-orders-api-openapi.yml
   format: yaml
-  label: Airbus OneAtlas elevation/orders API
+  label: Airbus OneAtlas Elevation/orders API
   slug: airbus-oneatlas-elevation-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-elevation-orders-api-openapi.yml
 - filename: airbus-oneatlas-elevation-price-api-openapi.yml
   format: yaml
-  label: Airbus OneAtlas elevation/price API
+  label: Airbus OneAtlas Elevation/price API
   slug: airbus-oneatlas-elevation-price-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-elevation-price-api-openapi.yml
@@ -119,7 +119,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-format-api-openapi.yml
 - filename: airbus-oneatlas-freemium-api-openapi.yml
   format: yaml
-  label: Airbus OneAtlas freemium API
+  label: Airbus OneAtlas Freemium API
   slug: airbus-oneatlas-freemium-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-freemium-api-openapi.yml
@@ -173,7 +173,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-orders-api-openapi.yml
 - filename: airbus-oneatlas-payments-api-openapi.yml
   format: yaml
-  label: Airbus OneAtlas payments API
+  label: Airbus OneAtlas Payments API
   slug: airbus-oneatlas-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-payments-api-openapi.yml
@@ -275,7 +275,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-token-retrieval-api-openapi.yml
 - filename: airbus-oneatlas-user-api-openapi.yml
   format: yaml
-  label: Airbus OneAtlas user API
+  label: Airbus OneAtlas User API
   slug: airbus-oneatlas-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-user-api-openapi.yml
@@ -337,4 +337,5 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Imagery
 - Satellite
+- Geospatial
 ---

@@ -32,7 +32,6 @@ tags:
 - Company
 - Agents
 - A2A
-- Agent Card
 - Discord
 - Chat
 - Multi-Agent

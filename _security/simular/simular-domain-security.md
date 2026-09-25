@@ -37,8 +37,7 @@ tags:
 - Computer Use
 - Browser Automation
 - Desktop Automation
-- Agentic
 - SDK
 - Developer Tools
-- Open-Source
+- Open Source
 ---

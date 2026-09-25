@@ -8,13 +8,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-lookup-api-openapi.yml
 - filename: smarty-street-address-api-openapi.yml
   format: yaml
-  label: Smarty street-address API
+  label: Smarty Street Address API
   slug: smarty-street-address-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-street-address-api-openapi.yml
 - filename: smarty-us-enrichment-api-openapi.yml
   format: yaml
-  label: Smarty us-enrichment API
+  label: Smarty Us Enrichment API
   slug: smarty-us-enrichment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-enrichment-api-openapi.yml
@@ -86,4 +86,5 @@ tags:
 - Location Data
 - International Address
 - US Address
+- Geospatial
 ---

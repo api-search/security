@@ -150,7 +150,7 @@ tags:
 - Document Extraction
 - Document Classification
 - Document Splitting
-- Recruitment
+- Recruiting
 - Banking
 - Insurance
 - Logistics

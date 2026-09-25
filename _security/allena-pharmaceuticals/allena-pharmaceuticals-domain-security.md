@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allena-pharmac
 summary_line: TLSv1.2
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Life Sciences
 - Drug Development

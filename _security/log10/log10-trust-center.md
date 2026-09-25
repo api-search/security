@@ -58,6 +58,6 @@ tags:
 - Debugging
 - LLMOps
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 trust_url: https://trust.log10.io/
 ---

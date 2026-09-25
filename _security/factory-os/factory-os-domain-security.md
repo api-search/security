@@ -38,6 +38,6 @@ tags:
 - Manufacturing
 - Affordable Housing
 - Multifamily Housing
-- Real-Estate
+- Real Estate
 - Construction Technology
 ---

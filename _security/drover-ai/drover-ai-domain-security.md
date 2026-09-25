@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Micromobility
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - IoT
 - Fleet Management

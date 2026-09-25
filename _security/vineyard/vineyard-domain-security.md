@@ -73,7 +73,7 @@ tags:
 - Distributed Systems
 - In-Memory Storage
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - Metadata Management
 - Python
 - Zero-Copy

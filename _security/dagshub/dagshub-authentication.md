@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dagshub-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/authentication/dagshub-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Versioning
 - Git

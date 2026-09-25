@@ -42,6 +42,6 @@ tags:
 - gRPC
 - In-Memory
 - IPC
-- Open-Source
+- Open Source
 - Python
 ---

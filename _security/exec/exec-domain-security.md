@@ -104,6 +104,6 @@ tags:
 - Roleplay
 - Coaching
 - Learning
-- Knowledge-Management
+- Knowledge Management
 - LMS
 ---

@@ -37,5 +37,5 @@ tags:
 - CI/CD
 - Quality Assurance
 - Automation
-- Open-Source
+- Open Source
 ---

@@ -61,5 +61,5 @@ tags:
 - Connectors
 - Distributed Systems
 - Kubernetes
-- Open-Source
+- Open Source
 ---

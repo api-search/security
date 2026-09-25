@@ -20,7 +20,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-airport-info-api-openapi.yml
 - filename: vatsim-atc-api-openapi.yml
   format: yaml
-  label: VATSIM atc API
+  label: VATSIM Atc API
   slug: vatsim-atc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-atc-api-openapi.yml
@@ -32,7 +32,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-audio-api-openapi.yml
 - filename: vatsim-community-api-openapi.yml
   format: yaml
-  label: VATSIM community API
+  label: VATSIM Community API
   slug: vatsim-community-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-community-api-openapi.yml
@@ -56,7 +56,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
 - filename: vatsim-members-api-openapi.yml
   format: yaml
-  label: VATSIM members API
+  label: VATSIM Members API
   slug: vatsim-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-members-api-openapi.yml
@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
 - filename: vatsim-orgs-api-openapi.yml
   format: yaml
-  label: VATSIM orgs API
+  label: VATSIM Orgs API
   slug: vatsim-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-orgs-api-openapi.yml

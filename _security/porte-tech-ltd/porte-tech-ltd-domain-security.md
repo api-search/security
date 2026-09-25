@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Porte Tech Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Porte Tech Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Porte Tech Ltd.
+overview: 'Domain security posture for Porte Tech, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Porte Tech
 provider_slug: porte-tech-ltd
 slug: porte-tech-ltd-domain-security
 source_filename: porte-tech-ltd-domain-security.yml

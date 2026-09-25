@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormhole-api-openapi.yml
 - filename: wormhole-wormholescan-api-openapi.yml
   format: yaml
-  label: Wormhole wormholescan API
+  label: Wormhole Wormholescan API
   slug: wormhole-wormholescan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormholescan-api-openapi.yml

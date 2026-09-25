@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Paycargo Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for PayCargo, LLC, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: PayCargo, LLC
+overview: 'Domain security posture for PayCargo, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: PayCargo
 provider_slug: paycargo-llc
 slug: paycargo-llc-domain-security
 source_filename: paycargo-llc-domain-security.yml

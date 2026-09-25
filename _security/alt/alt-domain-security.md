@@ -39,7 +39,7 @@ tags:
 - Marketplace
 - Auctions
 - Asset Valuation
-- Machine-Learning
+- Machine Learning
 - Lending
 - Fintech
 - E-Commerce

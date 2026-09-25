@@ -36,7 +36,7 @@ tags:
 - Physical AI
 - Tactile Sensing
 - Hardware
-- Machine-Learning
+- Machine Learning
 - Datasets
 - Robot Manipulation
 - Sensors

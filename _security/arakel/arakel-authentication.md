@@ -104,7 +104,7 @@ tags:
 - Federal Spending
 - Federal Register
 - counterparty-due-diligence
-- agent-native
+- Agent-Native
 - x402
 - pay-per-call
 - MCP

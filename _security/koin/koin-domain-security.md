@@ -132,7 +132,7 @@ tags:
 - Buy Now Pay Later
 - Pix
 - E-Commerce
-- Financial-Services
+- Financial Services
 - Brazil
 - Latin America
 - Anti-Fraud

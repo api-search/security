@@ -50,7 +50,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-embeddings-api-openapi.yml
 - filename: langdock-fim-api-openapi.yml
   format: yaml
-  label: Langdock fim API
+  label: Langdock Fim API
   slug: langdock-fim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-fim-api-openapi.yml
@@ -119,7 +119,7 @@ tags:
 - Agents
 - MCP
 - Workflows
-- Knowledge-Management
+- Knowledge Management
 - Germany
 - Europe
 trust_url: https://trust.langdock.com/

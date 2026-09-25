@@ -102,4 +102,5 @@ tags:
 - Lending
 - Payments
 - Consumer
+- Agentic Commerce
 ---

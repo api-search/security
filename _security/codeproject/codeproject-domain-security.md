@@ -121,7 +121,7 @@ tags:
 - Artificial Intelligence
 - Articles
 - Community
-- Computer-Vision
+- Computer Vision
 - Developer Community
 - Face Recognition
 - Forums

@@ -33,7 +33,7 @@ tags:
 - Company
 - Public Safety
 - Safety
-- Mobile Applications
+- Mobile App
 - Location Based Services
 - Real Time Alerts
 - Consumer

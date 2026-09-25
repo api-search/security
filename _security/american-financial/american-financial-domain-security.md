@@ -29,6 +29,6 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-financial/refs/heads/main/security/american-financial-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Financial-Services
+- Financial Services
 - Finance
 ---

@@ -24,7 +24,7 @@ summary_line: SOC 2 Type II, ISO/IEC 27001:2013, SOC 3
 tags:
 - Business Process Management
 - Decision Management
-- Workflow-Automation
+- Workflow Automation
 - Low-Code
 - BPMN
 - DMN

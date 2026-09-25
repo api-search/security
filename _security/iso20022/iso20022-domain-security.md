@@ -42,5 +42,5 @@ tags:
 - Banking
 - ISO Standard
 - Swift
-- Financial-Services
+- Financial Services
 ---

@@ -25,7 +25,7 @@ tags:
 - Child Safety
 - Identity
 - Privacy
-- Regulatory Technology
+- RegTech
 - Gaming
 trust_url: https://security.k-id.com
 ---

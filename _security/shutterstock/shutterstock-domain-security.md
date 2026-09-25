@@ -2,55 +2,55 @@
 api_specs:
 - filename: shutterstock-audio-api-openapi.yml
   format: yaml
-  label: Shutterstock audio API
+  label: Shutterstock Audio API
   slug: shutterstock-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-audio-api-openapi.yml
 - filename: shutterstock-computer-vision-api-openapi.yml
   format: yaml
-  label: Shutterstock computer_vision API
+  label: Shutterstock Computer Vision API
   slug: shutterstock-computer-vision-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-computer-vision-api-openapi.yml
 - filename: shutterstock-contributors-api-openapi.yml
   format: yaml
-  label: Shutterstock contributors API
+  label: Shutterstock Contributors API
   slug: shutterstock-contributors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-contributors-api-openapi.yml
 - filename: shutterstock-editorial-images-api-openapi.yml
   format: yaml
-  label: Shutterstock editorial_images API
+  label: Shutterstock Editorial Images API
   slug: shutterstock-editorial-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-images-api-openapi.yml
 - filename: shutterstock-editorial-video-api-openapi.yml
   format: yaml
-  label: Shutterstock editorial_video API
+  label: Shutterstock Editorial Video API
   slug: shutterstock-editorial-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-video-api-openapi.yml
 - filename: shutterstock-images-api-openapi.yml
   format: yaml
-  label: Shutterstock images API
+  label: Shutterstock Images API
   slug: shutterstock-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-images-api-openapi.yml
 - filename: shutterstock-test-api-openapi.yml
   format: yaml
-  label: Shutterstock test API
+  label: Shutterstock Test API
   slug: shutterstock-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-test-api-openapi.yml
 - filename: shutterstock-users-api-openapi.yml
   format: yaml
-  label: Shutterstock users API
+  label: Shutterstock Users API
   slug: shutterstock-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-users-api-openapi.yml
 - filename: shutterstock-videos-api-openapi.yml
   format: yaml
-  label: Shutterstock videos API
+  label: Shutterstock Videos API
   slug: shutterstock-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-videos-api-openapi.yml

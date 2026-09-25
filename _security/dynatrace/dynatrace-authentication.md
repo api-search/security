@@ -200,4 +200,5 @@ tags:
 - Digital Experience Management
 - Intelligence
 - Observability
+- Monitoring
 ---

@@ -122,5 +122,6 @@ tags:
 - Brand Visibility
 - Citations
 - MCP
+- A2A
 trust_url: https://trust.tryprofound.com/
 ---

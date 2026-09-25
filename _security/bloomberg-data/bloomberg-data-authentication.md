@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-data
 summary_line: 3 schemes
 tags:
 - Analytics
-- Financial-Services
+- Financial Services
 - Market Data
 - News
 - Real-Time Data

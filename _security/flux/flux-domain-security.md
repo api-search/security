@@ -63,8 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flux/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Image-Generation
-- Machine-Learning
-- Open-Source
+- Image Generation
+- Machine Learning
+- Open Source
 - Text-to-Image
 ---

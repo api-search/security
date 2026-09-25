@@ -34,7 +34,7 @@ tags:
 - Governance
 - FedRAMP
 - Government
-- Risk
+- Risk Management
 - Audit
 - Automation
 ---

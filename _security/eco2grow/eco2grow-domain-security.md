@@ -37,6 +37,5 @@ tags:
 - Sustainability
 - Power Purchase Agreement
 - Energy Procurement
-- Green Energy
 - Climate
 ---

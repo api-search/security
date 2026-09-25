@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Research
-- Machine-Learning
+- Machine Learning
 - Superintelligence
 - Deep Learning
 - Research

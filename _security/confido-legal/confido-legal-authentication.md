@@ -42,4 +42,5 @@ tags:
 - Legal Technology
 - Payments
 - Trust Accounting
+- A2A
 ---

@@ -51,7 +51,7 @@ tags:
 - Content Marketing
 - LinkedIn
 - Thought Leadership
-- Social-Media
+- Social Media
 - Lead Generation
 - Personas
 - Y Combinator

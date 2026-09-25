@@ -62,6 +62,6 @@ tags:
 - Compliance
 - Sanctions
 - Fraud
-- Anti-Money Laundering
+- AML
 - Blockchain Intelligence
 ---

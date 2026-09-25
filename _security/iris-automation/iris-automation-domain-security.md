@@ -36,7 +36,7 @@ tags:
 - UAS
 - Detect And Avoid
 - Collision Avoidance
-- Computer-Vision
+- Computer Vision
 - Aviation
 - BVLOS
 ---

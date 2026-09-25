@@ -2,61 +2,61 @@
 api_specs:
 - filename: affinity-auth-api-openapi.yml
   format: yaml
-  label: Affinity auth API
+  label: Affinity Auth API
   slug: affinity-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-auth-api-openapi.yml
 - filename: affinity-companies-api-openapi.yml
   format: yaml
-  label: Affinity companies API
+  label: Affinity Companies API
   slug: affinity-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-companies-api-openapi.yml
 - filename: affinity-companymerges-api-openapi.yml
   format: yaml
-  label: Affinity companyMerges API
+  label: Affinity Company Merges API
   slug: affinity-companymerges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-companymerges-api-openapi.yml
 - filename: affinity-emails-api-openapi.yml
   format: yaml
-  label: Affinity emails API
+  label: Affinity Emails API
   slug: affinity-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-emails-api-openapi.yml
 - filename: affinity-lists-api-openapi.yml
   format: yaml
-  label: Affinity lists API
+  label: Affinity Lists API
   slug: affinity-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-lists-api-openapi.yml
 - filename: affinity-meetings-api-openapi.yml
   format: yaml
-  label: Affinity meetings API
+  label: Affinity Meetings API
   slug: affinity-meetings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-meetings-api-openapi.yml
 - filename: affinity-notes-api-openapi.yml
   format: yaml
-  label: Affinity notes API
+  label: Affinity Notes API
   slug: affinity-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-notes-api-openapi.yml
 - filename: affinity-opportunities-api-openapi.yml
   format: yaml
-  label: Affinity opportunities API
+  label: Affinity Opportunities API
   slug: affinity-opportunities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-opportunities-api-openapi.yml
 - filename: affinity-personmerges-api-openapi.yml
   format: yaml
-  label: Affinity personMerges API
+  label: Affinity Person Merges API
   slug: affinity-personmerges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-personmerges-api-openapi.yml
 - filename: affinity-persons-api-openapi.yml
   format: yaml
-  label: Affinity persons API
+  label: Affinity Persons API
   slug: affinity-persons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-persons-api-openapi.yml

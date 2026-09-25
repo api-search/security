@@ -45,9 +45,9 @@ tags:
 - Retail Technology
 - Checkout-Free
 - Cashierless
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Point-of-Sale
 - Payments
 - Loyalty

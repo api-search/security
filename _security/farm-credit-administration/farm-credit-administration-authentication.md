@@ -44,7 +44,7 @@ summary_line: 2 schemes
 tags:
 - Agriculture
 - Farms
-- Federal-Government
+- Federal Government
 - Finance
 - Regulations
 - Geospatial

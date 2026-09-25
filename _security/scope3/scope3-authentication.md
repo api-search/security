@@ -412,10 +412,11 @@ tags:
 - AdTech
 - Measurements
 - Artificial Intelligence
-- Agentic
+- AI Agents
 - AdCP
 - MCP
 - Programmatic
 - Media Buying
 - Publishing
+- A2A
 ---

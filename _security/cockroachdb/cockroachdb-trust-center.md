@@ -186,5 +186,6 @@ tags:
 - Infrastructure
 - PostgreSQL Compatible
 - SQL
+- Real-Time
 trust_url: https://www.cockroachlabs.com/security/
 ---

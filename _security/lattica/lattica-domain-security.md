@@ -47,7 +47,7 @@ tags:
 - Encryption
 - Confidential Computing
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - Vector Search
 - Security

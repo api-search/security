@@ -47,7 +47,7 @@ tags:
 - Communications
 - Messaging
 - Mobile
-- Telecom
+- Telecommunications
 - Compliance
 - Security
 - Voice

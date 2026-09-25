@@ -46,10 +46,10 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Media Generation
 - Video Generation
-- Image-Generation
+- Image Generation
 - Audio Generation
 - Text-to-Speech
 - LLM

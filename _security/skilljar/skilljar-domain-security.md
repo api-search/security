@@ -398,7 +398,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/openapi/skilljar-quizzes-questions-api-openapi.yml
 - filename: skilljar-tags-api-openapi.yml
   format: yaml
-  label: Skilljar tags API
+  label: Skilljar Tags API
   slug: skilljar-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/openapi/skilljar-tags-api-openapi.yml

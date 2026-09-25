@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: https://www.ssc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/security/ss-c-technologies-trust-center.yml
 summary_line: SOC 1 Type 2
 tags:
-- Financial-Services
+- Financial Services
 - Investment Management
 - Fund Administration
 - Wealth Management

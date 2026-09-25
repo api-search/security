@@ -49,7 +49,7 @@ tags:
 - Workplace Analytics
 - Occupancy
 - Space Utilization
-- Real-Estate
+- Real Estate
 - Wi-Fi Location
 - Building Insights
 - GraphQL

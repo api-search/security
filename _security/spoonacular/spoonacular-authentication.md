@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoonacular/re
 summary_line: apiKey · 1 scheme
 tags:
 - Restaurant
-- Food And Drink
+- Food and Beverage
 - Recipes
 - Nutrition
 - Meal Planning

@@ -53,8 +53,8 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image-Generation
-- Machine-Learning
+- Image Generation
+- Machine Learning
 - Media
 - Content Creation
 - Developer API

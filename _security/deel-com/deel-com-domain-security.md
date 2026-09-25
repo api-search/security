@@ -835,7 +835,7 @@ tags:
 - Employer of Record
 - Contractors
 - HRIS
-- ATS
+- Applicant Tracking
 - Workforce
 - Compliance
 - Immigration

@@ -10,8 +10,8 @@ method: probed
 name: Hni Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: HNI Corporation declares 4 security scheme(s) across its OpenAPI definitions.
-provider_name: HNI Corporation
+overview: HNI declares 4 security scheme(s) across its OpenAPI definitions.
+provider_name: HNI
 provider_slug: hni
 scheme_count: 4
 schemes:

@@ -100,5 +100,6 @@ tags:
 - E-Commerce
 - Agents
 - MCP
+- A2A
 trust_url: https://trust.useboom.ai/
 ---

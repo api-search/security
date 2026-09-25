@@ -41,4 +41,5 @@ tags:
 - Ethereum
 - Self-Sovereign Identity
 - Discontinued
+- Defunct
 ---

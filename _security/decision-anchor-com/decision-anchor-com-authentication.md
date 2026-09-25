@@ -55,6 +55,6 @@ tags:
 - x402
 - Agentic Commerce
 - Multi-Agent Systems
-- agent-native
+- Agent-Native
 - South Korea
 ---

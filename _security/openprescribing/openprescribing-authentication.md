@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openprescribing-spending-api-openapi.yml
-  format: yaml
-  label: OpenPrescribing Spending API
-  slug: openprescribing-spending-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-spending-api-openapi.yml
-- filename: openprescribing-measures-api-openapi.yml
-  format: yaml
-  label: OpenPrescribing Measures API
-  slug: openprescribing-measures-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-measures-api-openapi.yml
 - filename: openprescribing-measures-api-openapi.yml
   format: yaml
   label: OpenPrescribing Measures API

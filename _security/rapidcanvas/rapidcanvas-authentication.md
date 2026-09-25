@@ -48,8 +48,8 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Agentic AI
+- Machine Learning
+- AI Agents
 - Data Science
 - MLOps
 - Enterprise AI

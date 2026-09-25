@@ -25,7 +25,7 @@ tags:
 - Runtime Security
 - Cloud Security
 - Kubernetes
-- Agentic AI
+- AI Agents
 - CADR
 - Detection and Response
 trust_url: https://www.operant.ai/company/about

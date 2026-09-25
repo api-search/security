@@ -46,9 +46,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Technology
 - Fraud Detection
-- Anti-Money Laundering
+- AML
 - Linux Foundation
-- Open-Source
+- Open Source
 - Transaction Monitoring
 - ISO 20022
 - Real-Time

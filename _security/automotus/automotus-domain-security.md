@@ -35,7 +35,7 @@ tags:
 - Smart Cities
 - Urban Mobility
 - Curb Management
-- Computer-Vision
+- Computer Vision
 - Transportation
 - Parking
 - Enforcement

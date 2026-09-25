@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Agent Marketplace
-- Agent-to-Agent
 - A2A
 - MCP
 - Autonomous Agents
@@ -50,5 +49,5 @@ tags:
 - Blockchain
 - Base
 - Reputation
-- agent-native
+- Agent-Native
 ---

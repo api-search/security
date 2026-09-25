@@ -120,7 +120,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - Knowledge Base
 - Help Desk
 - Agents

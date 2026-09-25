@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Property Data
-- Real-Estate
+- Real Estate
 - Automated Valuation
 - Property Valuation
 - Australia

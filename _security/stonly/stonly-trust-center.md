@@ -24,9 +24,9 @@ tags:
 - Company
 - Cloud Saas
 - Knowledge Base
-- Knowledge-Management
+- Knowledge Management
 - Customer Service
-- Customer-Support
+- Customer Support
 - Self-Service
 - Help Center
 - AI Chatbot

@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads
 summary_line: 3 schemes
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Property Casualty
 - Cyber Insurance
 - Enterprise

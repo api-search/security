@@ -76,9 +76,9 @@ source_yaml: "generated: '2026-09-22'\nmethod: derived\nsource: openapi/appen-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/authentication/appen-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Data
 - Annotation
-- TrainingData
+- Training Data
 - Enterprise
 ---

@@ -60,5 +60,6 @@ tags:
 - LangChain
 - LlamaIndex
 - Real-Time
+- A2A
 trust_url: https://trust.tavily.com/
 ---

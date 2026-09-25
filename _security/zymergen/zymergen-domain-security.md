@@ -35,6 +35,6 @@ tags:
 - Biotechnology
 - Biomanufacturing
 - Materials Science
-- Machine-Learning
+- Machine Learning
 - Acquired
 ---

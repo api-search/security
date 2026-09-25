@@ -4,79 +4,79 @@ api_key_in: []
 api_specs:
 - filename: datacite-activities-api-openapi.yml
   format: yaml
-  label: DataCite activities API
+  label: DataCite Activities API
   slug: datacite-activities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-activities-api-openapi.yml
 - filename: datacite-client-prefixes-api-openapi.yml
   format: yaml
-  label: DataCite client-prefixes API
+  label: DataCite Client Prefixes API
   slug: datacite-client-prefixes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-client-prefixes-api-openapi.yml
 - filename: datacite-clients-api-openapi.yml
   format: yaml
-  label: DataCite clients API
+  label: DataCite Clients API
   slug: datacite-clients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-clients-api-openapi.yml
 - filename: datacite-events-api-openapi.yml
   format: yaml
-  label: DataCite events API
+  label: DataCite Events API
   slug: datacite-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-events-api-openapi.yml
 - filename: datacite-heartbeat-api-openapi.yml
   format: yaml
-  label: DataCite heartbeat API
+  label: DataCite Heartbeat API
   slug: datacite-heartbeat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-heartbeat-api-openapi.yml
 - filename: datacite-prefixes-api-openapi.yml
   format: yaml
-  label: DataCite prefixes API
+  label: DataCite Prefixes API
   slug: datacite-prefixes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-prefixes-api-openapi.yml
 - filename: datacite-provider-prefixes-api-openapi.yml
   format: yaml
-  label: DataCite provider-prefixes API
+  label: DataCite Provider Prefixes API
   slug: datacite-provider-prefixes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-provider-prefixes-api-openapi.yml
 - filename: datacite-providers-api-openapi.yml
   format: yaml
-  label: DataCite providers API
+  label: DataCite Providers API
   slug: datacite-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-providers-api-openapi.yml
 - filename: datacite-publishers-api-openapi.yml
   format: yaml
-  label: DataCite publishers API
+  label: DataCite Publishers API
   slug: datacite-publishers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-publishers-api-openapi.yml
 - filename: datacite-report-types-api-openapi.yml
   format: yaml
-  label: DataCite report_types API
+  label: DataCite Report Types API
   slug: datacite-report-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-report-types-api-openapi.yml
 - filename: datacite-reports-api-openapi.yml
   format: yaml
-  label: DataCite reports API
+  label: DataCite Reports API
   slug: datacite-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-reports-api-openapi.yml
 - filename: datacite-repositories-api-openapi.yml
   format: yaml
-  label: DataCite repositories API
+  label: DataCite Repositories API
   slug: datacite-repositories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-repositories-api-openapi.yml
 - filename: datacite-status-api-openapi.yml
   format: yaml
-  label: DataCite status API
+  label: DataCite Status API
   slug: datacite-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/openapi/datacite-status-api-openapi.yml

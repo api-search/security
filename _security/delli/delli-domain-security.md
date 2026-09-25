@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Marketplace
-- Food And Drink
+- Food and Beverage
 - E-Commerce
 - Consumer
 - Independent Makers

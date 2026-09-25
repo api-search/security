@@ -50,6 +50,6 @@ tags:
 - Fraud Prevention
 - Ad Fraud
 - Account Takeover
-- Agentic AI
+- AI Agents
 - Cybersecurity
 ---

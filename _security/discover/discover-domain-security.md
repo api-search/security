@@ -50,7 +50,7 @@ tags:
 - Payments
 - Card Network
 - Tokenization
-- Financial-Services
+- Financial Services
 - Fraud
 - Fortune 500
 ---

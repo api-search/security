@@ -24,7 +24,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supportlogic/r
 summary_line: SOC 2 Type 2, ISO 27001, HIPAA, GDPR, CCPA, FIPS 140-2
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Customer Experience
 - Artificial Intelligence
 - Service Experience

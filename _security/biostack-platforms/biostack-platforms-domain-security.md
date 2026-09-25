@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data
 - Life Sciences
 - Drug Discovery

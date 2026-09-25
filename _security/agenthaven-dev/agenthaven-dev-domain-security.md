@@ -46,5 +46,5 @@ tags:
 - Payments
 - Agent Identity
 - Proof of Concept
-- agent-native
+- Agent-Native
 ---

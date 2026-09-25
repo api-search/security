@@ -113,4 +113,5 @@ tags:
 - Azure AI
 - Autosuggest
 - Visual Search
+- Defunct
 ---

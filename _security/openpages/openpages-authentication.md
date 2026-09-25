@@ -38,11 +38,10 @@ tags:
 - Company
 - B2B
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Regulatory Compliance
-- Risk Management
 - Enterprise Software
 - Watsonx
 - Audit

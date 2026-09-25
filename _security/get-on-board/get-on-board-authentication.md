@@ -183,10 +183,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/get-on-board/r
 summary_line: http · 3 schemes
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Job
 - Hiring
-- ATS
+- Applicant Tracking
 - Talent
 - Developers
 - Latin America

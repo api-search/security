@@ -39,7 +39,7 @@ tags:
 - Insurance
 - Insurtech
 - Car Insurance
-- Financial-Services
+- Financial Services
 - Mobile
 - Authentication
 - United Kingdom

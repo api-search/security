@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Agents
 - Lead Generation

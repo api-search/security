@@ -38,5 +38,5 @@ tags:
 - Credit
 - Software-as-a-Service
 - India
-- Financial-Services
+- Financial Services
 ---

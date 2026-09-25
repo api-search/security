@@ -35,5 +35,5 @@ tags:
 - Enterprise AI
 - AI Applications
 - AI Platform
-- Machine-Learning
+- Machine Learning
 ---

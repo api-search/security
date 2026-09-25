@@ -60,7 +60,7 @@ tags:
 - Currency Conversion
 - Marketplace Payments
 - Fintech
-- Financial-Services
+- Financial Services
 - Mass Payouts
 - Checkout
 - REST

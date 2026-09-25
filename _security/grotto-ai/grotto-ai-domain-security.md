@@ -37,6 +37,6 @@ tags:
 - Leasing
 - Sales Coaching
 - PropTech
-- Real-Estate
+- Real Estate
 - Conversation Intelligence
 ---

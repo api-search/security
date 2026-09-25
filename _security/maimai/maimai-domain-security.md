@@ -36,7 +36,7 @@ tags:
 - Consumer
 - Professional Networking
 - Social Network
-- Recruitment
+- Recruiting
 - Careers
 - China
 ---

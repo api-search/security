@@ -48,6 +48,6 @@ tags:
 - Multimodal AI
 - Content Moderation
 - AI Agents
-- Machine-Learning
+- Machine Learning
 trust_url: https://memories.ai/security
 ---

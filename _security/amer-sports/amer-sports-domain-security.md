@@ -39,4 +39,5 @@ tags:
 - Footwear
 - Sporting Goods
 - Retail
+- Fashion
 ---

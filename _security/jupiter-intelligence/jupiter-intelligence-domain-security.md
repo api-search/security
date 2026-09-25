@@ -43,4 +43,5 @@ tags:
 - Financial Risk
 - ESG
 - Analytics
+- Climate
 ---

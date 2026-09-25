@@ -8,25 +8,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-api-keys-api-openapi.yml
 - filename: alice-collection-api-openapi.yml
   format: yaml
-  label: Alice collection API
+  label: Alice Collection API
   slug: alice-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-collection-api-openapi.yml
 - filename: alice-content-api-openapi.yml
   format: yaml
-  label: Alice content API
+  label: Alice Content API
   slug: alice-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-content-api-openapi.yml
 - filename: alice-flags-api-openapi.yml
   format: yaml
-  label: Alice flags API
+  label: Alice Flags API
   slug: alice-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-flags-api-openapi.yml
 - filename: alice-users-api-openapi.yml
   format: yaml
-  label: Alice users API
+  label: Alice Users API
   slug: alice-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-users-api-openapi.yml

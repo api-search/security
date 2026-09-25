@@ -132,10 +132,11 @@ tags:
 - Backend-as-a-Service
 - Agents
 - Workflows
-- Knowledge-Management
+- Knowledge Management
 - RAG
 - MCP
 - Low-Code
-- Open-Source
+- Open Source
+- A2A
 trust_url: https://security.dify.ai/
 ---

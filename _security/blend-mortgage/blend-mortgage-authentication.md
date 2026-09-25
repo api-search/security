@@ -99,5 +99,5 @@ tags:
 - Fintech
 - Loan Origination
 - Banking
-- Financial-Services
+- Financial Services
 ---

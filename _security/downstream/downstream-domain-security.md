@@ -33,7 +33,7 @@ tags:
 - Amazon Advertising
 - Retail Media
 - E-Commerce
-- Advertising Technology
+- AdTech
 - Marketing Analytics
 - Software-as-a-Service
 - Acquired

@@ -496,7 +496,7 @@ tags:
 - Ad Fraud Prevention
 - SKAdNetwork
 - Privacy
-- Advertising Technology
+- AdTech
 - Mobile SDK
-- Agentic AI
+- AI Agents
 ---

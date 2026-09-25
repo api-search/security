@@ -14,85 +14,85 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/asyncapi/zulip-events-asyncapi.yml
 - filename: zulip-authentication-api-openapi.yml
   format: yaml
-  label: Zulip authentication API
+  label: Zulip Authentication API
   slug: zulip-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-authentication-api-openapi.yml
 - filename: zulip-bots-api-openapi.yml
   format: yaml
-  label: Zulip bots API
+  label: Zulip Bots API
   slug: zulip-bots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-bots-api-openapi.yml
 - filename: zulip-channels-api-openapi.yml
   format: yaml
-  label: Zulip channels API
+  label: Zulip Channels API
   slug: zulip-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-channels-api-openapi.yml
 - filename: zulip-drafts-api-openapi.yml
   format: yaml
-  label: Zulip drafts API
+  label: Zulip Drafts API
   slug: zulip-drafts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-drafts-api-openapi.yml
 - filename: zulip-invites-api-openapi.yml
   format: yaml
-  label: Zulip invites API
+  label: Zulip Invites API
   slug: zulip-invites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-invites-api-openapi.yml
 - filename: zulip-messages-api-openapi.yml
   format: yaml
-  label: Zulip messages API
+  label: Zulip Messages API
   slug: zulip-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-messages-api-openapi.yml
 - filename: zulip-mobile-api-openapi.yml
   format: yaml
-  label: Zulip mobile API
+  label: Zulip Mobile API
   slug: zulip-mobile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-mobile-api-openapi.yml
 - filename: zulip-navigation-views-api-openapi.yml
   format: yaml
-  label: Zulip navigation_views API
+  label: Zulip Navigation Views API
   slug: zulip-navigation-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-navigation-views-api-openapi.yml
 - filename: zulip-real-time-events-api-openapi.yml
   format: yaml
-  label: Zulip real_time_events API
+  label: Zulip Real Time Events API
   slug: zulip-real-time-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-real-time-events-api-openapi.yml
 - filename: zulip-reminders-api-openapi.yml
   format: yaml
-  label: Zulip reminders API
+  label: Zulip Reminders API
   slug: zulip-reminders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-reminders-api-openapi.yml
 - filename: zulip-scheduled-messages-api-openapi.yml
   format: yaml
-  label: Zulip scheduled_messages API
+  label: Zulip Scheduled Messages API
   slug: zulip-scheduled-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-scheduled-messages-api-openapi.yml
 - filename: zulip-server-and-organizations-api-openapi.yml
   format: yaml
-  label: Zulip server_and_organizations API
+  label: Zulip Server And Organizations API
   slug: zulip-server-and-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-server-and-organizations-api-openapi.yml
 - filename: zulip-users-api-openapi.yml
   format: yaml
-  label: Zulip users API
+  label: Zulip Users API
   slug: zulip-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-users-api-openapi.yml
 - filename: zulip-webhooks-api-openapi.yml
   format: yaml
-  label: Zulip webhooks API
+  label: Zulip Webhooks API
   slug: zulip-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-webhooks-api-openapi.yml

@@ -147,7 +147,7 @@ tags:
 - GPU
 - Inference
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Compute
 - Infrastructure
 - OpenAI-Compatible

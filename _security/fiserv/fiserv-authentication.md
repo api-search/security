@@ -219,7 +219,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/he
 summary_line: apiKey/http · 4 schemes
 tags:
 - Banking
-- Financial
+- Finance
 - Payments
 - Wealth Management
 - Fortune 500

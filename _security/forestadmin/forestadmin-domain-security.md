@@ -57,7 +57,7 @@ tags:
 - Admin Panel
 - Internal Tools
 - RBAC
-- Workflow-Automation
+- Workflow Automation
 - CRUD
 - Fintech
 - Compliance

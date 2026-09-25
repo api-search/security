@@ -430,5 +430,6 @@ summary_line: SOC 2 Type 2
 tags:
 - Tax
 - Avalara
+- Accounting
 trust_url: ''
 ---

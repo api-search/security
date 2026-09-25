@@ -48,7 +48,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - ERP
 - CRM
-- Financial
+- Finance
 - Accounting
 - Inventory
 - E-Commerce

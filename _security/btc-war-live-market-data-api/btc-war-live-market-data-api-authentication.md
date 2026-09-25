@@ -46,8 +46,8 @@ tags:
 - MCP
 - Read Only
 - No Authentication
-- agent-native
+- Agent-Native
 - Arazzo
-- JSON-Schema
+- JSON Schema
 - Agent Skills
 ---

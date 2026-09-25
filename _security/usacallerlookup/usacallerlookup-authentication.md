@@ -1,25 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: usacallerlookup-area-codes-api-openapi.yml
-  format: yaml
-  label: USACallerLookup Area codes API
-  slug: usacallerlookup-area-codes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usacallerlookup/refs/heads/main/openapi/usacallerlookup-area-codes-api-openapi.yml
-- filename: usacallerlookup-dataset-api-openapi.yml
-  format: yaml
-  label: USACallerLookup Dataset API
-  slug: usacallerlookup-dataset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usacallerlookup/refs/heads/main/openapi/usacallerlookup-dataset-api-openapi.yml
-- filename: usacallerlookup-numbers-api-openapi.yml
-  format: yaml
-  label: USACallerLookup Numbers API
-  slug: usacallerlookup-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usacallerlookup/refs/heads/main/openapi/usacallerlookup-numbers-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -46,7 +27,7 @@ tags:
 - Caller ID
 - robocall
 - FTC
-- Telecom
+- Telecommunications
 - Open Data
 - Anti-Fraud
 ---

@@ -40,10 +40,10 @@ tags:
 - Fraud Prevention
 - Fraud Detection
 - Financial Crime
-- Anti-Money Laundering
+- AML
 - Behavioral Analytics
 - Risk Scoring
-- Machine-Learning
+- Machine Learning
 - Payments
 - Company
 ---

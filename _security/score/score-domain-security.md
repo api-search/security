@@ -36,5 +36,5 @@ tags:
 - Kubernetes
 - Docker
 - Developer Experience
-- Open-Source
+- Open Source
 ---

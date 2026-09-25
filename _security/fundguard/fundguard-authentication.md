@@ -56,7 +56,7 @@ tags:
 - Asset Management
 - portfolio-accounting
 - Private Markets
-- Financial-Services
+- Financial Services
 - Fintech
 - Software-as-a-Service
 - Artificial Intelligence

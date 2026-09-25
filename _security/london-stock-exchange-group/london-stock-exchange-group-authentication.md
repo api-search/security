@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/authentication/london-stock-exchange-group-authentication.yml
 summary_line: oauth2/hmac-signature · 2 schemes
 tags:
-- Financial
+- Finance
 - Stock Exchange
 - Market Data
 - KYC

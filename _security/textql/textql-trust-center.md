@@ -264,5 +264,6 @@ tags:
 - Text-to-SQL
 - Data Warehouse
 - Enterprise
+- A2A
 trust_url: https://trust.textql.com/
 ---

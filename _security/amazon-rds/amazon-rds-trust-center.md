@@ -52,5 +52,6 @@ tags:
 - Database-as-a-Service
 - Managed Database
 - Relational Databases
+- Database
 trust_url: https://aws.amazon.com/compliance/
 ---

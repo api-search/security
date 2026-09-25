@@ -303,7 +303,7 @@ tags:
 - Non-Human Identity
 - Secrets Management
 - Zero Trust
-- Agentic AI
+- AI Agents
 - MCP
 - Authentication
 - Authorization

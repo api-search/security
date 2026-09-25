@@ -248,5 +248,5 @@ tags:
 - Fintech
 - United Kingdom
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 ---

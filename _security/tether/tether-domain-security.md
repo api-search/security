@@ -83,5 +83,5 @@ tags:
 - Multi-Chain
 - Agents
 - MCP
-- Open-Source
+- Open Source
 ---

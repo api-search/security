@@ -35,7 +35,7 @@ tags:
 - Video
 - Interactive Video
 - Shoppable Video
-- Advertising Technology
+- AdTech
 - First-Party Data
 - Retail
 - Tourism

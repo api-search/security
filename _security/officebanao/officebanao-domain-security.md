@@ -36,7 +36,7 @@ tags:
 - Design and Build
 - Workspace
 - Construction
-- Real-Estate
+- Real Estate
 - PropTech
 - India
 ---

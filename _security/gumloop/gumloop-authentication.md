@@ -119,7 +119,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Agent Platform
 - MCP
 - LLM

@@ -34,7 +34,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: searched\nsource: >-\n  openapi/f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/authentication/flatin-pt-authentication.yml
 summary_line: 1 scheme
 tags:
-- Real-Estate
+- Real Estate
 - Property Tax
 - Tax
 - IMI

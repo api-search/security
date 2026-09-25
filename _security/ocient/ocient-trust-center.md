@@ -41,8 +41,9 @@ tags:
 - Database
 - SQL
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Big Data
 - Geospatial
+- A2A
 trust_url: https://ocient.com/security-and-compliance/
 ---

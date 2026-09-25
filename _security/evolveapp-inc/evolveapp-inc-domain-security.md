@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Evolveapp Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EvolveApp INC., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: EvolveApp INC.
+overview: 'Domain security posture for EvolveApp, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: EvolveApp
 provider_slug: evolveapp-inc
 slug: evolveapp-inc-domain-security
 source_filename: evolveapp-inc-domain-security.yml

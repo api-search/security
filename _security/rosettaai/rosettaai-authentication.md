@@ -35,6 +35,6 @@ tags:
 - Artificial Intelligence
 - Retail
 - Shopify
-- Machine-Learning
+- Machine Learning
 - Conversion Optimization
 ---

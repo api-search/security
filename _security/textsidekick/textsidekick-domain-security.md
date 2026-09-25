@@ -34,7 +34,7 @@ tags:
 - SMS
 - Frontline Workers
 - Workforce Communication
-- Knowledge-Management
+- Knowledge Management
 - Work Orders
 - Artificial Intelligence
 - Y Combinator

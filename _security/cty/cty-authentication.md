@@ -36,7 +36,7 @@ tags:
 - Mobility
 - Urban Planning
 - Smart Cities
-- Computer-Vision
+- Computer Vision
 - Transportation
 - GraphQL
 - Sensors

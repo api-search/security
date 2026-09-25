@@ -39,6 +39,6 @@ tags:
 - Single Cell Analysis
 - Spatial Transcriptomics
 - Bioinformatics
-- Open-Source
+- Open Source
 - Life Sciences
 ---

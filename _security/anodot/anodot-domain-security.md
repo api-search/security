@@ -96,6 +96,6 @@ tags:
 - Business Monitoring
 - Cloud Cost Management
 - FinOps
-- Machine-Learning
+- Machine Learning
 - Observability
 ---

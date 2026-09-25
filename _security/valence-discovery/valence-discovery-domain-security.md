@@ -31,11 +31,11 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Cheminformatics
 - Molecular Design
 - Artificial Intelligence
 - Life Sciences
-- Open-Source
+- Open Source
 - Python
 ---

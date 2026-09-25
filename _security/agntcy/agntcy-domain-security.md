@@ -173,7 +173,7 @@ tags:
 - AI Agents
 - Interoperability
 - Specification
-- Open-Source
+- Open Source
 - Agent Discovery
 - Identity
 - Agent Directory

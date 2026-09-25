@@ -41,7 +41,7 @@ tags:
 - Cerner
 - HIPAA
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Healthcare Automation
 trust_url: https://trust.sully.ai/
 ---

@@ -2,121 +2,121 @@
 api_specs:
 - filename: axway-aca-api-openapi.yml
   format: yaml
-  label: Axway aca API
+  label: Axway Aca API
   slug: axway-aca-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-aca-api-openapi.yml
 - filename: axway-activity-api-openapi.yml
   format: yaml
-  label: Axway activity API
+  label: Axway Activity API
   slug: axway-activity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-activity-api-openapi.yml
 - filename: axway-analytics-api-openapi.yml
   format: yaml
-  label: Axway analytics API
+  label: Axway Analytics API
   slug: axway-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-analytics-api-openapi.yml
 - filename: axway-app-api-openapi.yml
   format: yaml
-  label: Axway app API
+  label: Axway App API
   slug: axway-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-app-api-openapi.yml
 - filename: axway-auth-api-openapi.yml
   format: yaml
-  label: Axway auth API
+  label: Axway Auth API
   slug: axway-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-auth-api-openapi.yml
 - filename: axway-client-api-openapi.yml
   format: yaml
-  label: Axway client API
+  label: Axway Client API
   slug: axway-client-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-client-api-openapi.yml
 - filename: axway-domain-api-openapi.yml
   format: yaml
-  label: Axway domain API
+  label: Axway Domain API
   slug: axway-domain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-domain-api-openapi.yml
 - filename: axway-entitlement-api-openapi.yml
   format: yaml
-  label: Axway entitlement API
+  label: Axway Entitlement API
   slug: axway-entitlement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-entitlement-api-openapi.yml
 - filename: axway-env-api-openapi.yml
   format: yaml
-  label: Axway env API
+  label: Axway Env API
   slug: axway-env-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-env-api-openapi.yml
 - filename: axway-export-api-openapi.yml
   format: yaml
-  label: Axway export API
+  label: Axway Export API
   slug: axway-export-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-export-api-openapi.yml
 - filename: axway-idp-api-openapi.yml
   format: yaml
-  label: Axway idp API
+  label: Axway Idp API
   slug: axway-idp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-idp-api-openapi.yml
 - filename: axway-org-api-openapi.yml
   format: yaml
-  label: Axway org API
+  label: Axway Org API
   slug: axway-org-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-org-api-openapi.yml
 - filename: axway-provider-api-openapi.yml
   format: yaml
-  label: Axway provider API
+  label: Axway Provider API
   slug: axway-provider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-provider-api-openapi.yml
 - filename: axway-role-api-openapi.yml
   format: yaml
-  label: Axway role API
+  label: Axway Role API
   slug: axway-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-role-api-openapi.yml
 - filename: axway-session-api-openapi.yml
   format: yaml
-  label: Axway session API
+  label: Axway Session API
   slug: axway-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-session-api-openapi.yml
 - filename: axway-subscription-api-openapi.yml
   format: yaml
-  label: Axway subscription API
+  label: Axway Subscription API
   slug: axway-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-subscription-api-openapi.yml
 - filename: axway-team-api-openapi.yml
   format: yaml
-  label: Axway team API
+  label: Axway Team API
   slug: axway-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-team-api-openapi.yml
 - filename: axway-telemetry-api-openapi.yml
   format: yaml
-  label: Axway telemetry API
+  label: Axway Telemetry API
   slug: axway-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-telemetry-api-openapi.yml
 - filename: axway-usage-api-openapi.yml
   format: yaml
-  label: Axway usage API
+  label: Axway Usage API
   slug: axway-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-usage-api-openapi.yml
 - filename: axway-user-api-openapi.yml
   format: yaml
-  label: Axway user API
+  label: Axway User API
   slug: axway-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-user-api-openapi.yml

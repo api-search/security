@@ -39,7 +39,7 @@ tags:
 - x402
 - AP2
 - Stripe
-- agent-native
+- Agent-Native
 - Switzerland
 trust_url: https://mandateshield.com/trust
 ---

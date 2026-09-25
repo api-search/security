@@ -65,5 +65,5 @@ tags:
 - Data Grid
 - Distributed Systems
 - In-Memory
-- Open-Source
+- Open Source
 ---

@@ -129,4 +129,5 @@ tags:
 - Brand Context
 - Merchant Enrichment
 - Agent Tools
+- A2A
 ---

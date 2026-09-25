@@ -43,7 +43,7 @@ tags:
 - Fleet Management
 - Video Telematics
 - Driver Safety
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Dash Cam
 - Transportation

@@ -44,7 +44,7 @@ summary_line: 2 schemes
 tags:
 - Developer Tools
 - Git
-- AI
+- Artificial Intelligence
 - Collaboration
 - Platform
 ---

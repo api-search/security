@@ -187,7 +187,7 @@ summary_line: read_from_source, claims, note
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Contact Center
 - Customer Service
 - Customer Engagement
@@ -196,5 +196,6 @@ tags:
 - Messaging
 - Analytics
 - Enterprise Software
+- Real-Time
 trust_url: ''
 ---

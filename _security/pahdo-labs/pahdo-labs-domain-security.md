@@ -37,5 +37,5 @@ tags:
 - Godot
 - Entertainment
 - Consumer
-- Open-Source
+- Open Source
 ---

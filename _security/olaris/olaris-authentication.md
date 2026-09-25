@@ -40,7 +40,7 @@ tags:
 - Diagnostics
 - Precision Medicine
 - Metabolomics
-- Machine-Learning
+- Machine Learning
 - Biomarkers
 - Laboratory
 - Transplant

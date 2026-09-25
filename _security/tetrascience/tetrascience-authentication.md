@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-agents-api-openapi.yml
 - filename: tetrascience-ai-workflows-api-openapi.yml
   format: yaml
-  label: TetraScience ai-workflows API
+  label: TetraScience AI Workflows API
   slug: tetrascience-ai-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-ai-workflows-api-openapi.yml
@@ -35,7 +35,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-audit-trail-api-openapi.yml
 - filename: tetrascience-clusters-api-openapi.yml
   format: yaml
-  label: TetraScience clusters API
+  label: TetraScience Clusters API
   slug: tetrascience-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-clusters-api-openapi.yml
@@ -71,7 +71,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-data-apps-api-openapi.yml
 - filename: tetrascience-databricks-api-openapi.yml
   format: yaml
-  label: TetraScience databricks API
+  label: TetraScience Databricks API
   slug: tetrascience-databricks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-databricks-api-openapi.yml
@@ -107,7 +107,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-ids-api-openapi.yml
 - filename: tetrascience-lakehouse-api-openapi.yml
   format: yaml
-  label: TetraScience lakehouse API
+  label: TetraScience Lakehouse API
   slug: tetrascience-lakehouse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-lakehouse-api-openapi.yml
@@ -185,13 +185,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-tenants-api-openapi.yml
 - filename: tetrascience-tetraflows-api-openapi.yml
   format: yaml
-  label: TetraScience tetraflows API
+  label: TetraScience Tetraflows API
   slug: tetrascience-tetraflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-tetraflows-api-openapi.yml
 - filename: tetrascience-tetraspheres-api-openapi.yml
   format: yaml
-  label: TetraScience tetraspheres API
+  label: TetraScience Tetraspheres API
   slug: tetrascience-tetraspheres-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-tetraspheres-api-openapi.yml
@@ -255,7 +255,7 @@ tags:
 - Scientific Data
 - Life Sciences
 - Pharma
-- Biotech
+- Biotechnology
 - Lab Data
 - Lab Automation
 - Data Platform

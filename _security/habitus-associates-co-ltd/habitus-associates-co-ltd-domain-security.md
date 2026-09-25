@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Habitus Associates Co Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Habitus Associates Co., Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Habitus Associates Co., Ltd.
+overview: 'Domain security posture for Artue, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Artue
 provider_slug: habitus-associates-co-ltd
 slug: habitus-associates-co-ltd-domain-security
 source_filename: habitus-associates-co-ltd-domain-security.yml

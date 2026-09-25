@@ -66,7 +66,7 @@ tags:
 - ETL
 - Identity Management
 - Lakehouse
-- Machine-Learning
+- Machine Learning
 - MLflow
 - Model Serving
 - Security
@@ -74,4 +74,5 @@ tags:
 - Unity Catalog
 - Vector Search
 - Visualize
+- Data Catalog
 ---

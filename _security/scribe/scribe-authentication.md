@@ -54,7 +54,7 @@ tags:
 - Company
 - Ai Ml
 - Documentation
-- Knowledge-Management
+- Knowledge Management
 - Search
 - Workflows
 - Process Documentation

@@ -35,6 +35,6 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Peptides
-- Machine-Learning
+- Machine Learning
 - Therapeutics
 ---

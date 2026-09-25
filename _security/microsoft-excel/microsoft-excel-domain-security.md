@@ -113,7 +113,7 @@ tags:
 - Automation
 - Data Analysis
 - Microsoft
-- Microsoft-365
+- Microsoft 365
 - Office
 - Spreadsheets
 ---

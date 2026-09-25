@@ -48,6 +48,6 @@ tags:
 - Language Detection
 - Natural Language Processing
 - Text Analysis
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 ---

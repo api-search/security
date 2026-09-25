@@ -209,6 +209,6 @@ tags:
 - Infrastructure
 - Observability
 - MCP
-- agent-native
+- Agent-Native
 trust_url: https://trust.nasuni.com/
 ---

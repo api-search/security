@@ -137,5 +137,6 @@ tags:
 - Subscribers
 - Webhook
 - Customer Engagement
+- SMS
 trust_url: https://security.attentive.com/
 ---

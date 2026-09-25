@@ -80,6 +80,6 @@ tags:
 - R
 - Statistics
 - Data Science
-- Open-Source
+- Open Source
 - Programming Language
 ---

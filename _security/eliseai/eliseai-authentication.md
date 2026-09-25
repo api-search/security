@@ -65,7 +65,7 @@ tags:
 - Artificial Intelligence
 - Conversational AI
 - Property Management
-- Real-Estate
+- Real Estate
 - Healthcare
 - Leasing
 - Voice AI

@@ -67,7 +67,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sanction
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/authentication/sanctions-io-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Anti-Money Laundering
 - AML
 - Sanctions Screening
 - Compliance

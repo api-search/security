@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agents
-- Real-Estate
+- Real Estate
 - Brokers
 - CRM
 - Delivery

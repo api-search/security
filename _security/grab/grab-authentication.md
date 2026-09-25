@@ -59,4 +59,5 @@ tags:
 - Loyalty
 - QR Payments
 - Authentication
+- Mobility
 ---

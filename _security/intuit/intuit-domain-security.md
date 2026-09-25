@@ -63,8 +63,8 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Accounting
 - Custom Fields
-- Financial
-- Financial-Services
+- Finance
+- Financial Services
 - Invoicing
 - Payments
 - Payroll

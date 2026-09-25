@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.sum
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/authentication/summerland-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 0 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

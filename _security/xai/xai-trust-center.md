@@ -31,5 +31,6 @@ tags:
 - Foundation Models
 - Grok
 - Generative AI
+- Real-Time
 trust_url: https://x.ai/security
 ---

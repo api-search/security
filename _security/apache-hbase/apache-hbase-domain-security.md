@@ -66,6 +66,6 @@ tags:
 - Database
 - Hadoop
 - NoSQL
-- Open-Source
+- Open Source
 - Wide Column
 ---

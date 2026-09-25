@@ -158,7 +158,7 @@ tags:
 - Developer Tools
 - Utility APIs
 - AI Agents
-- agent-native
+- Agent-Native
 - x402
 - pay-per-call
 - Web3

@@ -40,6 +40,6 @@ tags:
 - Wearables
 - Health Data
 - Artificial Intelligence
-- Biotech
+- Biotechnology
 - Y Combinator
 ---

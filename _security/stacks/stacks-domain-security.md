@@ -38,5 +38,5 @@ tags:
 - Reconciliation
 - ERP
 - Artificial Intelligence
-- Agentic
+- AI Agents
 ---

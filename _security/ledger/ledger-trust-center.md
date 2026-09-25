@@ -276,6 +276,6 @@ tags:
 - Staking
 - Security
 - Agent Skills
-- agent-native
+- Agent-Native
 trust_url: https://enterprise.ledger.com/about
 ---

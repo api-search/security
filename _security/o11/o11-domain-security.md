@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Fintech
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Document Generation
 - Y Combinator

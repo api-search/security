@@ -276,5 +276,6 @@ tags:
 - Workforce
 - MCP
 - AI Agents
+- Payroll
 trust_url: https://trust.remote.com/
 ---

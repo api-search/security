@@ -105,6 +105,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aggregation
 - Banking
-- Financial
+- Finance
 - Financial Data
 ---

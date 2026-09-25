@@ -2,67 +2,67 @@
 api_specs:
 - filename: ipinfo-abuse-api-openapi.yml
   format: yaml
-  label: IPinfo abuse API
+  label: IPinfo Abuse API
   slug: ipinfo-abuse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-abuse-api-openapi.yml
 - filename: ipinfo-asn-api-openapi.yml
   format: yaml
-  label: IPinfo asn API
+  label: IPinfo Asn API
   slug: ipinfo-asn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-asn-api-openapi.yml
 - filename: ipinfo-carrier-api-openapi.yml
   format: yaml
-  label: IPinfo carrier API
+  label: IPinfo Carrier API
   slug: ipinfo-carrier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-carrier-api-openapi.yml
 - filename: ipinfo-company-api-openapi.yml
   format: yaml
-  label: IPinfo company API
+  label: IPinfo Company API
   slug: ipinfo-company-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-company-api-openapi.yml
 - filename: ipinfo-domains-api-openapi.yml
   format: yaml
-  label: IPinfo domains API
+  label: IPinfo Domains API
   slug: ipinfo-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-domains-api-openapi.yml
 - filename: ipinfo-general-api-openapi.yml
   format: yaml
-  label: IPinfo general API
+  label: IPinfo General API
   slug: ipinfo-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-general-api-openapi.yml
 - filename: ipinfo-ipinfo-core-api-openapi.yml
   format: yaml
-  label: IPinfo core API
+  label: IPinfo Core API
   slug: ipinfo-ipinfo-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-core-api-openapi.yml
 - filename: ipinfo-ipinfo-lite-api-openapi.yml
   format: yaml
-  label: IPinfo lite API
+  label: IPinfo Lite API
   slug: ipinfo-ipinfo-lite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-lite-api-openapi.yml
 - filename: ipinfo-ipinfo-max-api-openapi.yml
   format: yaml
-  label: IPinfo max API
+  label: IPinfo Max API
   slug: ipinfo-ipinfo-max-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-max-api-openapi.yml
 - filename: ipinfo-ipinfo-plus-api-openapi.yml
   format: yaml
-  label: IPinfo plus API
+  label: IPinfo Plus API
   slug: ipinfo-ipinfo-plus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ipinfo-plus-api-openapi.yml
 - filename: ipinfo-places-api-openapi.yml
   format: yaml
-  label: IPinfo places API
+  label: IPinfo Places API
   slug: ipinfo-places-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-places-api-openapi.yml
@@ -80,7 +80,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-privacy-detection-extended-api-openapi.yml
 - filename: ipinfo-ranges-api-openapi.yml
   format: yaml
-  label: IPinfo ranges API
+  label: IPinfo Ranges API
   slug: ipinfo-ranges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-ranges-api-openapi.yml
@@ -92,13 +92,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-residential-proxy-detection-api-openapi.yml
 - filename: ipinfo-single-api-openapi.yml
   format: yaml
-  label: IPinfo single API
+  label: IPinfo Single API
   slug: ipinfo-single-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-single-api-openapi.yml
 - filename: ipinfo-whois-api-openapi.yml
   format: yaml
-  label: IPinfo whois API
+  label: IPinfo Whois API
   slug: ipinfo-whois-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/openapi/ipinfo-whois-api-openapi.yml

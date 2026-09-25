@@ -78,6 +78,6 @@ tags:
 - Wi-Fi
 - OSS BSS
 - Connectivity
-- Real-Estate
+- Real Estate
 - Cloud
 ---

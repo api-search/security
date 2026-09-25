@@ -97,6 +97,6 @@ tags:
 - MCP
 - A2A
 - AI Agents
-- agent-native
+- Agent-Native
 - United Arab Emirates
 ---

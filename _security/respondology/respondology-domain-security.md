@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Content Moderation
-- Social-Media
+- Social Media
 - Comment Moderation
 - Trust and Safety
 - Artificial Intelligence

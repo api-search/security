@@ -70,7 +70,7 @@ tags:
 - Sales Enablement
 - RFP Automation
 - Security Questionnaires
-- Knowledge-Management
+- Knowledge Management
 - Go-To-Market
 - MCP
 - Agents

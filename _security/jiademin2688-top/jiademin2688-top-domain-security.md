@@ -31,9 +31,8 @@ summary_line: TLSv1.3
 tags:
 - AI Agents
 - A2A
-- Agent-to-Agent
 - Virtual Pets
-- AI Companions
+- AI Companion
 - Social
 - Gaming
 - Social Commerce

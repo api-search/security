@@ -60,7 +60,7 @@ tags:
 - LLM
 - MCP
 - Agentic Commerce
-- Open-Source
+- Open Source
 - Developer Tools
 - SDK
 - TypeScript

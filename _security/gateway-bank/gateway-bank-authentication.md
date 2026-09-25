@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: DSB Consumer Da
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/authentication/gateway-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect · 0 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

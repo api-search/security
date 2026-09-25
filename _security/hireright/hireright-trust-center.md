@@ -27,5 +27,7 @@ tags:
 - Human Resources
 - Compliance
 - Employment
+- Recruiting
+- Background Checks
 trust_url: https://trust.hireright.com/
 ---

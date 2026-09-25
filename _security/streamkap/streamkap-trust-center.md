@@ -81,5 +81,6 @@ tags:
 - Flink
 - Data Integration
 - Real-Time
+- A2A
 trust_url: https://trust.streamkap.com/
 ---

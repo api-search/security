@@ -2,109 +2,109 @@
 api_specs:
 - filename: evrim-answers-api-openapi.yml
   format: yaml
-  label: Evrim answers API
+  label: Evrim Answers API
   slug: evrim-answers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-answers-api-openapi.yml
 - filename: evrim-blank-api-openapi.yml
   format: yaml
-  label: Evrim blank API
+  label: Evrim Blank API
   slug: evrim-blank-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-blank-api-openapi.yml
 - filename: evrim-bulk-api-openapi.yml
   format: yaml
-  label: Evrim bulk API
+  label: Evrim Bulk API
   slug: evrim-bulk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-bulk-api-openapi.yml
 - filename: evrim-collections-api-openapi.yml
   format: yaml
-  label: Evrim collections API
+  label: Evrim Collections API
   slug: evrim-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-collections-api-openapi.yml
 - filename: evrim-compose-api-openapi.yml
   format: yaml
-  label: Evrim compose API
+  label: Evrim Compose API
   slug: evrim-compose-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-compose-api-openapi.yml
 - filename: evrim-costs-api-openapi.yml
   format: yaml
-  label: Evrim costs API
+  label: Evrim Costs API
   slug: evrim-costs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-costs-api-openapi.yml
 - filename: evrim-created-fields-api-openapi.yml
   format: yaml
-  label: Evrim created-fields API
+  label: Evrim Created Fields API
   slug: evrim-created-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-created-fields-api-openapi.yml
 - filename: evrim-extract-api-openapi.yml
   format: yaml
-  label: Evrim extract API
+  label: Evrim Extract API
   slug: evrim-extract-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-extract-api-openapi.yml
 - filename: evrim-fields-api-openapi.yml
   format: yaml
-  label: Evrim fields API
+  label: Evrim Fields API
   slug: evrim-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-fields-api-openapi.yml
 - filename: evrim-health-api-openapi.yml
   format: yaml
-  label: Evrim health API
+  label: Evrim Health API
   slug: evrim-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-health-api-openapi.yml
 - filename: evrim-prod-api-openapi.yml
   format: yaml
-  label: Evrim prod API
+  label: Evrim Prod API
   slug: evrim-prod-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-prod-api-openapi.yml
 - filename: evrim-profiles-api-openapi.yml
   format: yaml
-  label: Evrim profiles API
+  label: Evrim Profiles API
   slug: evrim-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-profiles-api-openapi.yml
 - filename: evrim-prompt-templates-api-openapi.yml
   format: yaml
-  label: Evrim prompt-templates API
+  label: Evrim Prompt Templates API
   slug: evrim-prompt-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-prompt-templates-api-openapi.yml
 - filename: evrim-questions-api-openapi.yml
   format: yaml
-  label: Evrim questions API
+  label: Evrim Questions API
   slug: evrim-questions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-questions-api-openapi.yml
 - filename: evrim-snapshots-api-openapi.yml
   format: yaml
-  label: Evrim snapshots API
+  label: Evrim Snapshots API
   slug: evrim-snapshots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-snapshots-api-openapi.yml
 - filename: evrim-tags-api-openapi.yml
   format: yaml
-  label: Evrim tags API
+  label: Evrim Tags API
   slug: evrim-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-tags-api-openapi.yml
 - filename: evrim-templates-api-openapi.yml
   format: yaml
-  label: Evrim templates API
+  label: Evrim Templates API
   slug: evrim-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-templates-api-openapi.yml
 - filename: evrim-transform-api-openapi.yml
   format: yaml
-  label: Evrim transform API
+  label: Evrim Transform API
   slug: evrim-transform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/openapi/evrim-transform-api-openapi.yml
@@ -154,6 +154,6 @@ tags:
 - Profiles
 - Entity Resolution
 - Defense
-- Financial-Services
+- Financial Services
 - Government
 ---

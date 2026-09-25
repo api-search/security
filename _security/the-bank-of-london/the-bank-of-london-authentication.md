@@ -127,7 +127,7 @@ tags:
 - Open Banking
 - PSD2
 - Faster Payments
-- Financial-Services
+- Financial Services
 - United Kingdom
 - Virtual Accounts
 ---

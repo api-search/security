@@ -118,7 +118,7 @@ summary_line: SOC 2 Type II
 tags:
 - Company
 - Commercial Real Estate
-- Real-Estate
+- Real Estate
 - PropTech
 - CRE Financing
 - Lending

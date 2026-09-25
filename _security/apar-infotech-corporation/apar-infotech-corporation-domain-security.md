@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Apar Infotech Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Apar Infotech Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Apar Infotech Corporation
+overview: 'Domain security posture for Apar Infotech, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Apar Infotech
 provider_slug: apar-infotech-corporation
 slug: apar-infotech-corporation-domain-security
 source_filename: apar-infotech-corporation-domain-security.yml

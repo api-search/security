@@ -37,7 +37,7 @@ tags:
 - Cyber Risk
 - Underwriting
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Cyber Insurance
 - Insurtech
 ---

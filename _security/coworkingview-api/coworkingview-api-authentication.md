@@ -93,11 +93,11 @@ summary_line: 0 schemes
 tags:
 - Co-Working
 - Flexible Workspace
-- Real-Estate
+- Real Estate
 - Location Services
 - Search
 - Comparison
 - MCP
-- agent-native
+- Agent-Native
 - Business
 ---

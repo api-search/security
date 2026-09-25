@@ -27,6 +27,6 @@ tags:
 - Trust
 - Fraud Detection
 - Fintech
-- Machine-Learning
+- Machine Learning
 trust_url: https://trudenty.com/trust-center
 ---

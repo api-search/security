@@ -168,6 +168,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cost Optimization
 - FinOps
-- Machine-Learning
+- Machine Learning
 - Resource Recommendations
 ---

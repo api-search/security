@@ -84,7 +84,7 @@ tags:
 - Financial Advisors
 - Wealth Management
 - Contact Management
-- Workflow-Automation
+- Workflow Automation
 - Software-as-a-Service
 trust_url: https://www.wealthbox.com/solutions/trust-companies/
 ---

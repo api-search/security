@@ -97,4 +97,5 @@ tags:
 - Agent Skills
 - RPA
 - Enterprise Automation
+- A2A
 ---

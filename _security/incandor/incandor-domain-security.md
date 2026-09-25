@@ -37,5 +37,5 @@ tags:
 - Account Takeover
 - Security
 - Fintech
-- Machine-Learning
+- Machine Learning
 ---

@@ -82,7 +82,7 @@ tags:
 - Infrastructure
 - Private Cloud
 - Hosting
-- Data-Center
+- Data Center
 - Compute
 - Storage
 trust_url: https://www.horizoniq.com/compliance/

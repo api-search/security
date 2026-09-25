@@ -76,9 +76,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylor-morriso
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Homebuilding
-- Real-Estate
+- Real Estate
 - Fortune 1000
 - New Homes
-- Communities
+- Community
 - Mortgage
 ---

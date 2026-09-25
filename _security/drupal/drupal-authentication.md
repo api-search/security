@@ -125,7 +125,7 @@ summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Content Management
 - CMS
-- Open-Source
+- Open Source
 - JSON:API
 - GraphQL
 - Headless

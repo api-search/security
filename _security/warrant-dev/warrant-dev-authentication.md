@@ -72,6 +72,6 @@ tags:
 - ABAC
 - Zanzibar
 - Permissions
-- Open-Source
+- Open Source
 - Retired
 ---

@@ -104,5 +104,6 @@ tags:
 - Security
 - Encryption
 - Messaging
+- A2A
 trust_url: https://www.paubox.com/security
 ---

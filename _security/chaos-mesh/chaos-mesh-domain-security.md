@@ -79,7 +79,7 @@ tags:
 - Fault Injection
 - Kubernetes
 - Observability
-- Open-Source
+- Open Source
 - Reliability
 - Resilience
 - Testing

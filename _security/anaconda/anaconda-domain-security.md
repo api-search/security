@@ -181,7 +181,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Data Science
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Package Management
 - Python

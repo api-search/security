@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoonacular/re
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Restaurant
-- Food And Drink
+- Food and Beverage
 - Recipes
 - Nutrition
 - Meal Planning

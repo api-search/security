@@ -2,115 +2,115 @@
 api_specs:
 - filename: band-ai-agentapiactivity-api-openapi.yml
   format: yaml
-  label: Band AI agentApiActivity API
+  label: Band AI Agent API Activity API
   slug: band-ai-agentapiactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapiactivity-api-openapi.yml
 - filename: band-ai-agentapichats-api-openapi.yml
   format: yaml
-  label: Band AI agentApiChats API
+  label: Band AI Agent API Chats API
   slug: band-ai-agentapichats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapichats-api-openapi.yml
 - filename: band-ai-agentapichattasks-api-openapi.yml
   format: yaml
-  label: Band AI agentApiChatTasks API
+  label: Band AI Agent API Chat Tasks API
   slug: band-ai-agentapichattasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapichattasks-api-openapi.yml
 - filename: band-ai-agentapicontacts-api-openapi.yml
   format: yaml
-  label: Band AI agentApiContacts API
+  label: Band AI Agent API Contacts API
   slug: band-ai-agentapicontacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapicontacts-api-openapi.yml
 - filename: band-ai-agentapicontext-api-openapi.yml
   format: yaml
-  label: Band AI agentApiContext API
+  label: Band AI Agent API Context API
   slug: band-ai-agentapicontext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapicontext-api-openapi.yml
 - filename: band-ai-agentapievents-api-openapi.yml
   format: yaml
-  label: Band AI agentApiEvents API
+  label: Band AI Agent API Events API
   slug: band-ai-agentapievents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapievents-api-openapi.yml
 - filename: band-ai-agentapiidentity-api-openapi.yml
   format: yaml
-  label: Band AI agentApiIdentity API
+  label: Band AI Agent API Identity API
   slug: band-ai-agentapiidentity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapiidentity-api-openapi.yml
 - filename: band-ai-agentapimemories-api-openapi.yml
   format: yaml
-  label: Band AI agentApiMemories API
+  label: Band AI Agent API Memories API
   slug: band-ai-agentapimemories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapimemories-api-openapi.yml
 - filename: band-ai-agentapimessages-api-openapi.yml
   format: yaml
-  label: Band AI agentApiMessages API
+  label: Band AI Agent API Messages API
   slug: band-ai-agentapimessages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapimessages-api-openapi.yml
 - filename: band-ai-agentapiparticipants-api-openapi.yml
   format: yaml
-  label: Band AI agentApiParticipants API
+  label: Band AI Agent API Participants API
   slug: band-ai-agentapiparticipants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapiparticipants-api-openapi.yml
 - filename: band-ai-agentapipeers-api-openapi.yml
   format: yaml
-  label: Band AI agentApiPeers API
+  label: Band AI Agent API Peers API
   slug: band-ai-agentapipeers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-agentapipeers-api-openapi.yml
 - filename: band-ai-humanapiagents-api-openapi.yml
   format: yaml
-  label: Band AI humanApiAgents API
+  label: Band AI Human API Agents API
   slug: band-ai-humanapiagents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapiagents-api-openapi.yml
 - filename: band-ai-humanapichats-api-openapi.yml
   format: yaml
-  label: Band AI humanApiChats API
+  label: Band AI Human API Chats API
   slug: band-ai-humanapichats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapichats-api-openapi.yml
 - filename: band-ai-humanapicontacts-api-openapi.yml
   format: yaml
-  label: Band AI humanApiContacts API
+  label: Band AI Human API Contacts API
   slug: band-ai-humanapicontacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapicontacts-api-openapi.yml
 - filename: band-ai-humanapimemories-api-openapi.yml
   format: yaml
-  label: Band AI humanApiMemories API
+  label: Band AI Human API Memories API
   slug: band-ai-humanapimemories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapimemories-api-openapi.yml
 - filename: band-ai-humanapimessages-api-openapi.yml
   format: yaml
-  label: Band AI humanApiMessages API
+  label: Band AI Human API Messages API
   slug: band-ai-humanapimessages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapimessages-api-openapi.yml
 - filename: band-ai-humanapiparticipants-api-openapi.yml
   format: yaml
-  label: Band AI humanApiParticipants API
+  label: Band AI Human API Participants API
   slug: band-ai-humanapiparticipants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapiparticipants-api-openapi.yml
 - filename: band-ai-humanapipeers-api-openapi.yml
   format: yaml
-  label: Band AI humanApiPeers API
+  label: Band AI Human API Peers API
   slug: band-ai-humanapipeers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapipeers-api-openapi.yml
 - filename: band-ai-humanapiprofile-api-openapi.yml
   format: yaml
-  label: Band AI humanApiProfile API
+  label: Band AI Human API Profile API
   slug: band-ai-humanapiprofile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/openapi/band-ai-humanapiprofile-api-openapi.yml

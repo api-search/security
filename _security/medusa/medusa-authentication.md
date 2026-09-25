@@ -456,7 +456,7 @@ summary_line: http/apiKey · 4 schemes
 tags:
 - E-Commerce
 - Headless Commerce
-- Open-Source
+- Open Source
 - Commerce
 - Storefront
 - Order Management

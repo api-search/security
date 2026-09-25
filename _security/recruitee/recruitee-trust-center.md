@@ -21,7 +21,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Recruiting
-- ATS
 - Applicant Tracking
 - Human Resources
 - Hiring

@@ -146,7 +146,7 @@ tags:
 - Payments
 - Account Information
 - Variable Recurring Payments
-- Financial-Services
+- Financial Services
 - PSD2
 - FCA
 - Berlin Group

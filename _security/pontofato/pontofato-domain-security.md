@@ -139,7 +139,7 @@ tags:
 - proximity search
 - radius search
 - Open Government Data
-- agent-native
+- Agent-Native
 - MCP
 - x402-micropayments
 ---

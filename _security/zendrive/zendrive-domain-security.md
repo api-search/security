@@ -98,6 +98,6 @@ tags:
 - Fleet Management
 - Driving Behavior
 - Mobile SDK
-- Risk
+- Risk Management
 - Acquired
 ---

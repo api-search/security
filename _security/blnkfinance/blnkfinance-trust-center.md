@@ -74,16 +74,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/re
 summary_line: ISO/IEC 27001, GDPR, SOC 2, PCI DSS, HIPAA
 tags:
 - Fintech
-- Financial-Services
+- Financial Services
 - Ledger
 - double-entry-accounting
 - Payments
 - Wallets
 - Lending
 - Banking Infrastructure
-- Open-Source
+- Open Source
 - MCP
 - AI Agents
 - Developer Tools
+- A2A
 trust_url: ''
 ---

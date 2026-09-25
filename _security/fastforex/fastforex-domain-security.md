@@ -2,25 +2,25 @@
 api_specs:
 - filename: fastforex-admin-api-openapi.yml
   format: yaml
-  label: FastForex admin API
+  label: FastForex Admin API
   slug: fastforex-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-admin-api-openapi.yml
 - filename: fastforex-crypto-api-openapi.yml
   format: yaml
-  label: FastForex crypto API
+  label: FastForex Crypto API
   slug: fastforex-crypto-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-crypto-api-openapi.yml
 - filename: fastforex-currency-api-openapi.yml
   format: yaml
-  label: FastForex currency API
+  label: FastForex Currency API
   slug: fastforex-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-currency-api-openapi.yml
 - filename: fastforex-fx-api-openapi.yml
   format: yaml
-  label: FastForex fx API
+  label: FastForex Fx API
   slug: fastforex-fx-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-fx-api-openapi.yml

@@ -169,7 +169,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Business Data
 - Compliance
-- Financial
+- Finance
 - Market Data
 - News
 - Risk and Compliance

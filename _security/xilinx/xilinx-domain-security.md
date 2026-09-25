@@ -38,7 +38,7 @@ tags:
 - Adaptive Computing
 - Hardware Acceleration
 - Embedded Systems
-- Machine-Learning
+- Machine Learning
 - gRPC
-- Open-Source
+- Open Source
 ---

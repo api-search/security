@@ -35,7 +35,7 @@ tags:
 - Cloud-Native
 - Container Security
 - Kubernetes
-- Open-Source
+- Open Source
 - Policy Enforcement
 - Security
 - Supply Chain

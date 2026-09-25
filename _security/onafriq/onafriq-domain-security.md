@@ -59,7 +59,7 @@ tags:
 - Webhook
 - Africa
 - Fintech
-- Financial-Services
+- Financial Services
 - MFS Africa
 - Onafriq
 - Baxi

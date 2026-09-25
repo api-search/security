@@ -2,8 +2,8 @@
 api_specs:
 - filename: re-max-canada-blog-wp-json-index.json
   format: json
-  label: RE/MAX Canada Blog WordPress REST API
-  slug: re-max-canada-blog-wordpress-rest-api
+  label: RE/MAX Canada Website (WordPress REST)
+  slug: blog-remax-ca-website-wordpress-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/re-max-canada/refs/heads/main/openapi/re-max-canada-blog-wp-json-index.json
 description: ''
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/re-max-canada/refs/heads/main/security/re-max-canada-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Real-Estate
+- Real Estate
 - Canada
 - Brokerage
 - Property Listings

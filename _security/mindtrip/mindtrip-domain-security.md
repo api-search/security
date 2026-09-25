@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Travel
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Itinerary Planning
 - Booking
 - Consumer

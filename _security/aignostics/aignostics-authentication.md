@@ -62,7 +62,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Health
 - Healthcare
 - Life Sciences

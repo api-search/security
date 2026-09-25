@@ -37,7 +37,7 @@ tags:
 - Harvesting
 - JavaScript
 - Node.js
-- Open-Source
+- Open Source
 - Playwright
 - Puppeteer
 - Python

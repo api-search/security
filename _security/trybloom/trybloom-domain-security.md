@@ -55,7 +55,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Brand Management
-- Image-Generation
+- Image Generation
 - Artificial Intelligence
 - Agents
 - MCP

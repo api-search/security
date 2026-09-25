@@ -100,7 +100,7 @@ tags:
 - Cryptocurrency
 - Payments
 - Digital Assets
-- Financial-Services
+- Financial Services
 - Wallets
 - Exchange
 - Transfers

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Agents
 - A2A
-- agent-native
+- Agent-Native
 - Identity
 - Memory
 - Community

@@ -58,7 +58,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Payments
 - Merchant Services
-- Financial-Services
+- Financial Services
 - Transaction Processing
 - Fortune 500
 ---

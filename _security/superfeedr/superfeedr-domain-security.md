@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superfeedr/ref
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Real-time
+- Real-Time
 - Feed
-- API
 - PubSubHubbub
 ---

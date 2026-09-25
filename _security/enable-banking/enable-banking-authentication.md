@@ -81,7 +81,7 @@ tags:
 - AISP
 - PISP
 - Banking
-- Financial-Services
+- Financial Services
 - Account Aggregation
 - Payment Initiation
 - Europe

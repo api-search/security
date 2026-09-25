@@ -94,6 +94,6 @@ tags:
 - Staking
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
 trust_url: https://crypto.com/en/security/
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saliogen-thera
 summary_line: TLSv1.3
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Genetic Medicine
 - Gene Therapy
 - Life Sciences

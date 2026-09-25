@@ -37,6 +37,6 @@ tags:
 - Chip Design
 - EDA
 - Verification
-- Agentic AI
+- AI Agents
 - Developer Tools
 ---

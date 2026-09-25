@@ -54,7 +54,7 @@ tags:
 - Machine Payments
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Government
 - Defense
 ---

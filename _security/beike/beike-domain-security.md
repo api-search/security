@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Technology
-- Real-Estate
+- Real Estate
 - Housing
 - Property
 - Marketplace

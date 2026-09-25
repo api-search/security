@@ -39,6 +39,6 @@ tags:
 - Productivity
 - Mobile
 - Artificial Intelligence
-- Document-Management
+- Document Management
 - Software-as-a-Service
 ---

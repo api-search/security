@@ -16,7 +16,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-catalog-resources-api-openapi.yml
 - filename: data-world-connections-api-openapi.yml
   format: yaml
-  label: data.world connections API
+  label: data.world Connections API
   slug: data-world-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-connections-api-openapi.yml
@@ -28,25 +28,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-data-quality-api-openapi.yml
 - filename: data-world-datasets-api-openapi.yml
   format: yaml
-  label: data.world datasets API
+  label: data.world Datasets API
   slug: data-world-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-datasets-api-openapi.yml
 - filename: data-world-experimental-api-openapi.yml
   format: yaml
-  label: data.world experimental API
+  label: data.world Experimental API
   slug: data-world-experimental-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-experimental-api-openapi.yml
 - filename: data-world-files-api-openapi.yml
   format: yaml
-  label: data.world files API
+  label: data.world Files API
   slug: data-world-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-files-api-openapi.yml
 - filename: data-world-insights-api-openapi.yml
   format: yaml
-  label: data.world insights API
+  label: data.world Insights API
   slug: data-world-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-insights-api-openapi.yml
@@ -94,19 +94,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-legacy-catalog-relationships-api-openapi.yml
 - filename: data-world-organizations-api-openapi.yml
   format: yaml
-  label: data.world organizations API
+  label: data.world Organizations API
   slug: data-world-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-organizations-api-openapi.yml
 - filename: data-world-projects-api-openapi.yml
   format: yaml
-  label: data.world projects API
+  label: data.world Projects API
   slug: data-world-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-projects-api-openapi.yml
 - filename: data-world-queries-api-openapi.yml
   format: yaml
-  label: data.world queries API
+  label: data.world Queries API
   slug: data-world-queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-queries-api-openapi.yml
@@ -124,25 +124,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-requests-resource-api-openapi.yml
 - filename: data-world-search-api-openapi.yml
   format: yaml
-  label: data.world search API
+  label: data.world Search API
   slug: data-world-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-search-api-openapi.yml
 - filename: data-world-streams-api-openapi.yml
   format: yaml
-  label: data.world streams API
+  label: data.world Streams API
   slug: data-world-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-streams-api-openapi.yml
 - filename: data-world-tables-api-openapi.yml
   format: yaml
-  label: data.world tables API
+  label: data.world Tables API
   slug: data-world-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-tables-api-openapi.yml
 - filename: data-world-telemetry-api-openapi.yml
   format: yaml
-  label: data.world telemetry API
+  label: data.world Telemetry API
   slug: data-world-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-telemetry-api-openapi.yml
@@ -154,19 +154,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-topics-and-comments-resource-api-openapi.yml
 - filename: data-world-user-api-openapi.yml
   format: yaml
-  label: data.world user API
+  label: data.world User API
   slug: data-world-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-user-api-openapi.yml
 - filename: data-world-users-api-openapi.yml
   format: yaml
-  label: data.world users API
+  label: data.world Users API
   slug: data-world-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-users-api-openapi.yml
 - filename: data-world-webhooks-api-openapi.yml
   format: yaml
-  label: data.world webhooks API
+  label: data.world Webhooks API
   slug: data-world-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/openapi/data-world-webhooks-api-openapi.yml

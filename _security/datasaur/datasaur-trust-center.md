@@ -24,7 +24,7 @@ tags:
 - Enterprise Saas
 - Data Labeling
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - NLP
 - Data Annotation

@@ -111,7 +111,7 @@ summary_line: http · 1 scheme
 tags:
 - AI Evaluation
 - Observability
-- Open-Source
+- Open Source
 - LLM
 - Tracing
 - Prompts

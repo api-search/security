@@ -40,9 +40,9 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - JavaScript
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - Neural Networks
-- Open-Source
+- Open Source
 - Python
 ---

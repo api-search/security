@@ -68,6 +68,6 @@ tags:
 - Analytics
 - Capital Markets
 - Data Science
-- Financial-Services
+- Financial Services
 trust_url: https://trust.korra.com
 ---

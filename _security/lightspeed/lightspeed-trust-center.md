@@ -357,5 +357,6 @@ tags:
 - Payments
 - E-Commerce
 - Omnichannel
+- Canada
 trust_url: ''
 ---

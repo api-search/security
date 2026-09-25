@@ -29,6 +29,6 @@ tags:
 - Data Quality
 - CLI
 - MCP
-- Open-Source
+- Open Source
 trust_url: https://getbruin.com/security/
 ---

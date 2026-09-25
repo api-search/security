@@ -37,5 +37,4 @@ tags:
 - Identity and Access Management
 - AI Agents
 - Cybersecurity
-- Agentic AI
 ---

@@ -38,7 +38,7 @@ tags:
 - Artificial Intelligence
 - Automation
 - VAT Compliance
-- Agentic AI
+- AI Agents
 - Software-as-a-Service
 - United Kingdom
 ---

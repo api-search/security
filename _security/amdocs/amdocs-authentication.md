@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amdocs-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/authentication/amdocs-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Telecom
+- Telecommunications
 - BSS
 - OSS
 - Billing
@@ -66,4 +66,5 @@ tags:
 - MVNO
 - 5G
 - Software-as-a-Service
+- Real-Time
 ---

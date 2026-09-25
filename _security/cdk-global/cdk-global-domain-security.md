@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/asyncapi/fortellis-hello-world-asyncapi.yml
 - filename: cdk-global-adopt-api-openapi.yml
   format: yaml
-  label: CDK Global adopt API
+  label: CDK Global Adopt API
   slug: cdk-global-adopt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-api-openapi.yml
@@ -32,31 +32,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-update-api-openapi.yml
 - filename: cdk-global-cancel-api-openapi.yml
   format: yaml
-  label: CDK Global cancel API
+  label: CDK Global Cancel API
   slug: cdk-global-cancel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-cancel-api-openapi.yml
 - filename: cdk-global-create-api-openapi.yml
   format: yaml
-  label: CDK Global create API
+  label: CDK Global Create API
   slug: cdk-global-create-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-create-api-openapi.yml
 - filename: cdk-global-events-api-openapi.yml
   format: yaml
-  label: CDK Global events API
+  label: CDK Global Events API
   slug: cdk-global-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-events-api-openapi.yml
 - filename: cdk-global-manage-api-openapi.yml
   format: yaml
-  label: CDK Global manage API
+  label: CDK Global Manage API
   slug: cdk-global-manage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-manage-api-openapi.yml
 - filename: cdk-global-query-api-openapi.yml
   format: yaml
-  label: CDK Global query API
+  label: CDK Global Query API
   slug: cdk-global-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-query-api-openapi.yml
@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-service-booking-api-openapi.yml
 - filename: cdk-global-update-api-openapi.yml
   format: yaml
-  label: CDK Global update API
+  label: CDK Global Update API
   slug: cdk-global-update-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-update-api-openapi.yml

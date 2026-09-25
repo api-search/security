@@ -2,49 +2,49 @@
 api_specs:
 - filename: forithmus-admin-api-openapi.yml
   format: yaml
-  label: Forithmus admin API
+  label: Forithmus Admin API
   slug: forithmus-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-admin-api-openapi.yml
 - filename: forithmus-auth-api-openapi.yml
   format: yaml
-  label: Forithmus auth API
+  label: Forithmus Auth API
   slug: forithmus-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-auth-api-openapi.yml
 - filename: forithmus-challenges-api-openapi.yml
   format: yaml
-  label: Forithmus challenges API
+  label: Forithmus Challenges API
   slug: forithmus-challenges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-challenges-api-openapi.yml
 - filename: forithmus-collections-api-openapi.yml
   format: yaml
-  label: Forithmus collections API
+  label: Forithmus Collections API
   slug: forithmus-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-collections-api-openapi.yml
 - filename: forithmus-credits-api-openapi.yml
   format: yaml
-  label: Forithmus credits API
+  label: Forithmus Credits API
   slug: forithmus-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-credits-api-openapi.yml
 - filename: forithmus-data-upload-api-openapi.yml
   format: yaml
-  label: Forithmus data-upload API
+  label: Forithmus Data Upload API
   slug: forithmus-data-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-data-upload-api-openapi.yml
 - filename: forithmus-forum-api-openapi.yml
   format: yaml
-  label: Forithmus forum API
+  label: Forithmus Forum API
   slug: forithmus-forum-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-forum-api-openapi.yml
 - filename: forithmus-groups-api-openapi.yml
   format: yaml
-  label: Forithmus groups API
+  label: Forithmus Groups API
   slug: forithmus-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-groups-api-openapi.yml
@@ -56,91 +56,91 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-health-api-openapi.yml
 - filename: forithmus-images-api-openapi.yml
   format: yaml
-  label: Forithmus images API
+  label: Forithmus Images API
   slug: forithmus-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-images-api-openapi.yml
 - filename: forithmus-leaderboard-api-openapi.yml
   format: yaml
-  label: Forithmus leaderboard API
+  label: Forithmus Leaderboard API
   slug: forithmus-leaderboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-leaderboard-api-openapi.yml
 - filename: forithmus-members-api-openapi.yml
   format: yaml
-  label: Forithmus members API
+  label: Forithmus Members API
   slug: forithmus-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-members-api-openapi.yml
 - filename: forithmus-messages-api-openapi.yml
   format: yaml
-  label: Forithmus messages API
+  label: Forithmus Messages API
   slug: forithmus-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-messages-api-openapi.yml
 - filename: forithmus-notifications-api-openapi.yml
   format: yaml
-  label: Forithmus notifications API
+  label: Forithmus Notifications API
   slug: forithmus-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-notifications-api-openapi.yml
 - filename: forithmus-pages-api-openapi.yml
   format: yaml
-  label: Forithmus pages API
+  label: Forithmus Pages API
   slug: forithmus-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-pages-api-openapi.yml
 - filename: forithmus-payments-api-openapi.yml
   format: yaml
-  label: Forithmus payments API
+  label: Forithmus Payments API
   slug: forithmus-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-payments-api-openapi.yml
 - filename: forithmus-phases-api-openapi.yml
   format: yaml
-  label: Forithmus phases API
+  label: Forithmus Phases API
   slug: forithmus-phases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-phases-api-openapi.yml
 - filename: forithmus-resources-api-openapi.yml
   format: yaml
-  label: Forithmus resources API
+  label: Forithmus Resources API
   slug: forithmus-resources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-resources-api-openapi.yml
 - filename: forithmus-roles-api-openapi.yml
   format: yaml
-  label: Forithmus roles API
+  label: Forithmus Roles API
   slug: forithmus-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-roles-api-openapi.yml
 - filename: forithmus-search-api-openapi.yml
   format: yaml
-  label: Forithmus search API
+  label: Forithmus Search API
   slug: forithmus-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-search-api-openapi.yml
 - filename: forithmus-submissions-api-openapi.yml
   format: yaml
-  label: Forithmus submissions API
+  label: Forithmus Submissions API
   slug: forithmus-submissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-submissions-api-openapi.yml
 - filename: forithmus-timeline-api-openapi.yml
   format: yaml
-  label: Forithmus timeline API
+  label: Forithmus Timeline API
   slug: forithmus-timeline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-timeline-api-openapi.yml
 - filename: forithmus-uploads-api-openapi.yml
   format: yaml
-  label: Forithmus uploads API
+  label: Forithmus Uploads API
   slug: forithmus-uploads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-uploads-api-openapi.yml
 - filename: forithmus-users-api-openapi.yml
   format: yaml
-  label: Forithmus users API
+  label: Forithmus Users API
   slug: forithmus-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-users-api-openapi.yml
@@ -183,7 +183,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Medical Imaging
 - Radiology
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Healthcare AI
 - Challenge Platform

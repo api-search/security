@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis
 summary_line: apiKey · 1 scheme
 tags:
 - IoT
-- Machine-Learning
+- Machine Learning
 - Media
 - Video Streaming
 ---

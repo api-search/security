@@ -32,9 +32,9 @@ tags:
 - Loan Origination
 - Point-of-Sale
 - Fintech
-- Real-Estate
+- Real Estate
 - Software-as-a-Service
 - Banking
-- Financial-Services
+- Financial Services
 - Defunct
 ---

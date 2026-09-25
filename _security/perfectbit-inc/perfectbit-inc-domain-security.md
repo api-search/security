@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Perfectbit Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Perfectbit Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Perfectbit Inc
+overview: 'Domain security posture for Perfectbit, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Perfectbit
 provider_slug: perfectbit-inc
 slug: perfectbit-inc-domain-security
 source_filename: perfectbit-inc-domain-security.yml
@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Data Verification
 - Y Combinator

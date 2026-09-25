@@ -8,43 +8,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-audio-experiences-api-openapi.yml
 - filename: thrive-global-auth-api-openapi.yml
   format: yaml
-  label: Thrive Global auth API
+  label: Thrive Global Auth API
   slug: thrive-global-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-auth-api-openapi.yml
 - filename: thrive-global-content-api-openapi.yml
   format: yaml
-  label: Thrive Global content API
+  label: Thrive Global Content API
   slug: thrive-global-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-content-api-openapi.yml
 - filename: thrive-global-meditations-api-openapi.yml
   format: yaml
-  label: Thrive Global meditations API
+  label: Thrive Global Meditations API
   slug: thrive-global-meditations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-meditations-api-openapi.yml
 - filename: thrive-global-programs-api-openapi.yml
   format: yaml
-  label: Thrive Global programs API
+  label: Thrive Global Programs API
   slug: thrive-global-programs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-programs-api-openapi.yml
 - filename: thrive-global-resets-api-openapi.yml
   format: yaml
-  label: Thrive Global resets API
+  label: Thrive Global Resets API
   slug: thrive-global-resets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-resets-api-openapi.yml
 - filename: thrive-global-search-api-openapi.yml
   format: yaml
-  label: Thrive Global search API
+  label: Thrive Global Search API
   slug: thrive-global-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-search-api-openapi.yml
 - filename: thrive-global-stories-api-openapi.yml
   format: yaml
-  label: Thrive Global stories API
+  label: Thrive Global Stories API
   slug: thrive-global-stories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/openapi/thrive-global-stories-api-openapi.yml

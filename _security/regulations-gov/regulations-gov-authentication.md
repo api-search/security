@@ -11,19 +11,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
 - filename: regulations-gov-comments-api-openapi.yml
   format: yaml
-  label: Regulations.gov comments API
+  label: Regulations.gov Comments API
   slug: regulations-gov-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comments-api-openapi.yml
 - filename: regulations-gov-dockets-api-openapi.yml
   format: yaml
-  label: Regulations.gov dockets API
+  label: Regulations.gov Dockets API
   slug: regulations-gov-dockets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-dockets-api-openapi.yml
 - filename: regulations-gov-documents-api-openapi.yml
   format: yaml
-  label: Regulations.gov documents API
+  label: Regulations.gov Documents API
   slug: regulations-gov-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-documents-api-openapi.yml
@@ -63,4 +63,5 @@ tags:
 - Dockets
 - GSA
 - Open Data
+- Government Data
 ---

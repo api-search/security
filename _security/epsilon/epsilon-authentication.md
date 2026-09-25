@@ -139,7 +139,7 @@ tags:
 - Marketing
 - Advertising
 - Retail Media
-- Advertising Technology
+- AdTech
 - Identity Resolution
 - Customer Data
 - Loyalty

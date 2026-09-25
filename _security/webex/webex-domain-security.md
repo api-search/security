@@ -896,7 +896,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-skill-profile-api-openapi.yml
 - filename: webex-slidosecurepremium-api-openapi.yml
   format: yaml
-  label: Webex slidoSecurePremium API
+  label: Webex Slido Secure Premium API
   slug: webex-slidosecurepremium-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-slidosecurepremium-api-openapi.yml
@@ -1148,7 +1148,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-workspace-call-settings-api-openapi.yml
 - filename: webex-x-api-api-openapi.yml
   format: yaml
-  label: Webex x API
+  label: Webex X API
   slug: webex-x-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-x-api-api-openapi.yml

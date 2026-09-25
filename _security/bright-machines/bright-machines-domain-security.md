@@ -42,7 +42,7 @@ tags:
 - Industrial Automation
 - Robotics
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Digital Twin
 - Electronics
 - Smart Factory

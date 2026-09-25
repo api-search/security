@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live probes of mc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/authentication/view-com-au-authentication.yml
 summary_line: none · 1 scheme
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Property Listings
 - Property Portal
@@ -45,5 +45,5 @@ tags:
 - Rentals
 - Off-Market Property Data
 - MCP
-- agent-native
+- Agent-Native
 ---

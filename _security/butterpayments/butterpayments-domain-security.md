@@ -40,5 +40,5 @@ tags:
 - Chargebacks
 - Card Vault
 - Fintech
-- Machine-Learning
+- Machine Learning
 ---

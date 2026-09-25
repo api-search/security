@@ -51,12 +51,13 @@ tags:
 - Blockchain
 - Tokenization
 - Digital Assets
-- Financial-Services
+- Financial Services
 - Distributed Ledger
 - Smart Contracts
 - Capital Markets
 - Canton Network
 - Daml
 - Stablecoins
+- A2A
 trust_url: https://www.digitalasset.com/trust-center
 ---

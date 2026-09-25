@@ -85,7 +85,7 @@ tags:
 - ETL
 - Hadoop
 - Spark
-- Open-Source
+- Open Source
 - CDAP
 - Metadata
 - Data Governance

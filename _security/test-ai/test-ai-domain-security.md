@@ -98,8 +98,8 @@ tags:
 - Test Automation
 - Quality Assurance
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Selenium
 - Appium
 - Developer Tools

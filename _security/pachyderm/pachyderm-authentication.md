@@ -45,8 +45,8 @@ tags:
 - Data Versioning
 - Data Pipeline
 - Data Lineage
-- Machine-Learning
+- Machine Learning
 - Kubernetes
 - gRPC
-- Open-Source
+- Open Source
 ---

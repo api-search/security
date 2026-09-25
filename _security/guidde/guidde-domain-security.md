@@ -38,7 +38,7 @@ tags:
 - Documentation
 - Video
 - Digital Adoption
-- Knowledge-Management
+- Knowledge Management
 - Training
 - Onboarding
 - Screen Recording

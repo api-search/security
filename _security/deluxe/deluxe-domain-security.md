@@ -110,8 +110,8 @@ layout: security
 method: probed
 name: Deluxe Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Deluxe Corporation, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
-provider_name: Deluxe Corporation
+overview: 'Domain security posture for Deluxe, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
+provider_name: Deluxe
 provider_slug: deluxe
 slug: deluxe-domain-security
 source_filename: deluxe-domain-security.yml

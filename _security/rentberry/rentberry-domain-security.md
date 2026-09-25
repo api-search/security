@@ -313,7 +313,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/security/rentberry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Real-Estate
+- Real Estate
 - PropTech
 - Rentals
 - Rental Marketplace

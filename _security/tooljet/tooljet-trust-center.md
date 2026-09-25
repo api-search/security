@@ -47,9 +47,9 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Low-Code
 - Internal Tools
-- Open-Source
+- Open Source
 - Application Builder
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Dashboards
 - AI Agents

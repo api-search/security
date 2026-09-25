@@ -83,8 +83,8 @@ layout: security
 method: probed
 name: Moodys Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Moody''s Corporation, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: Moody's Corporation
+overview: 'Domain security posture for Moody''s, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Moody's
 provider_slug: moodys-corporation
 slug: moodys-corporation-domain-security
 source_filename: moodys-corporation-domain-security.yml
@@ -103,6 +103,6 @@ tags:
 - ESG
 - Financial Data
 - KYC
-- Risk
+- Risk Management
 - Fortune 1000
 ---

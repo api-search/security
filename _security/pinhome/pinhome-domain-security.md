@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property
 - Mortgage
 - Marketplace

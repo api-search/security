@@ -66,5 +66,5 @@ tags:
 - Orchestration
 - ETL
 - Data Engineering
-- Open-Source
+- Open Source
 ---

@@ -398,7 +398,7 @@ summary_line: http · 1 scheme
 tags:
 - Agile
 - Gantt
-- Open-Source
+- Open Source
 - Project Management
 - Time Tracking
 - Work Packages

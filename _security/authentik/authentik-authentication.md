@@ -223,7 +223,7 @@ tags:
 - Authorization
 - Identity Provider
 - LDAP
-- Open-Source
+- Open Source
 - OpenID Connect
 - SAML
 - SCIM

@@ -54,4 +54,6 @@ tags:
 - Agents
 - Phone
 - Real-Time
+- Conversational AI
+- Voice AI
 ---

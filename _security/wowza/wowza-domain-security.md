@@ -2,31 +2,31 @@
 api_specs:
 - filename: wowza-advanced-token-authentication-api-openapi.yml
   format: yaml
-  label: Wowza advanced_token_authentication API
+  label: Wowza Advanced Token Authentication API
   slug: wowza-advanced-token-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-advanced-token-authentication-api-openapi.yml
 - filename: wowza-analytics-engagement-api-openapi.yml
   format: yaml
-  label: Wowza analytics_engagement API
+  label: Wowza Analytics Engagement API
   slug: wowza-analytics-engagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-analytics-engagement-api-openapi.yml
 - filename: wowza-analytics-ingest-api-openapi.yml
   format: yaml
-  label: Wowza analytics_ingest API
+  label: Wowza Analytics Ingest API
   slug: wowza-analytics-ingest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-analytics-ingest-api-openapi.yml
 - filename: wowza-analytics-popularity-api-openapi.yml
   format: yaml
-  label: Wowza analytics_popularity API
+  label: Wowza Analytics Popularity API
   slug: wowza-analytics-popularity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-analytics-popularity-api-openapi.yml
 - filename: wowza-analytics-viewers-api-openapi.yml
   format: yaml
-  label: Wowza analytics_viewers API
+  label: Wowza Analytics Viewers API
   slug: wowza-analytics-viewers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-analytics-viewers-api-openapi.yml
@@ -38,25 +38,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-applications-api-openapi.yml
 - filename: wowza-assets-api-openapi.yml
   format: yaml
-  label: Wowza assets API
+  label: Wowza Assets API
   slug: wowza-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-assets-api-openapi.yml
 - filename: wowza-categories-api-openapi.yml
   format: yaml
-  label: Wowza categories API
+  label: Wowza Categories API
   slug: wowza-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-categories-api-openapi.yml
 - filename: wowza-clipping-api-openapi.yml
   format: yaml
-  label: Wowza clipping API
+  label: Wowza Clipping API
   slug: wowza-clipping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-clipping-api-openapi.yml
 - filename: wowza-live-streams-api-openapi.yml
   format: yaml
-  label: Wowza live_streams API
+  label: Wowza Live Streams API
   slug: wowza-live-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-live-streams-api-openapi.yml
@@ -68,19 +68,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-machine-stats-api-openapi.yml
 - filename: wowza-players-api-openapi.yml
   format: yaml
-  label: Wowza players API
+  label: Wowza Players API
   slug: wowza-players-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-players-api-openapi.yml
 - filename: wowza-quality-of-experience-api-openapi.yml
   format: yaml
-  label: Wowza quality_of_experience API
+  label: Wowza Quality Of Experience API
   slug: wowza-quality-of-experience-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-quality-of-experience-api-openapi.yml
 - filename: wowza-recordings-api-openapi.yml
   format: yaml
-  label: Wowza recordings API
+  label: Wowza Recordings API
   slug: wowza-recordings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-recordings-api-openapi.yml
@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-rest-information-api-openapi.yml
 - filename: wowza-schedules-api-openapi.yml
   format: yaml
-  label: Wowza schedules API
+  label: Wowza Schedules API
   slug: wowza-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-schedules-api-openapi.yml
@@ -182,61 +182,61 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-servers-configuration-api-openapi.yml
 - filename: wowza-storage-api-openapi.yml
   format: yaml
-  label: Wowza storage API
+  label: Wowza Storage API
   slug: wowza-storage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-storage-api-openapi.yml
 - filename: wowza-stream-sources-api-openapi.yml
   format: yaml
-  label: Wowza stream_sources API
+  label: Wowza Stream Sources API
   slug: wowza-stream-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-stream-sources-api-openapi.yml
 - filename: wowza-stream-targets-api-openapi.yml
   format: yaml
-  label: Wowza stream_targets API
+  label: Wowza Stream Targets API
   slug: wowza-stream-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-stream-targets-api-openapi.yml
 - filename: wowza-transcoders-api-openapi.yml
   format: yaml
-  label: Wowza transcoders API
+  label: Wowza Transcoders API
   slug: wowza-transcoders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-transcoders-api-openapi.yml
 - filename: wowza-usage-account-api-openapi.yml
   format: yaml
-  label: Wowza usage_account API
+  label: Wowza Usage Account API
   slug: wowza-usage-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-usage-account-api-openapi.yml
 - filename: wowza-usage-api-openapi.yml
   format: yaml
-  label: Wowza usage API
+  label: Wowza Usage API
   slug: wowza-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-usage-api-openapi.yml
 - filename: wowza-usage-real-time-streams-api-openapi.yml
   format: yaml
-  label: Wowza usage_real_time_streams API
+  label: Wowza Usage Real Time Streams API
   slug: wowza-usage-real-time-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-usage-real-time-streams-api-openapi.yml
 - filename: wowza-usage-transcoders-api-openapi.yml
   format: yaml
-  label: Wowza usage_transcoders API
+  label: Wowza Usage Transcoders API
   slug: wowza-usage-transcoders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-usage-transcoders-api-openapi.yml
 - filename: wowza-usage-vod-streams-api-openapi.yml
   format: yaml
-  label: Wowza usage_vod_streams API
+  label: Wowza Usage Vod Streams API
   slug: wowza-usage-vod-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-usage-vod-streams-api-openapi.yml
 - filename: wowza-videos-api-openapi.yml
   format: yaml
-  label: Wowza videos API
+  label: Wowza Videos API
   slug: wowza-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-videos-api-openapi.yml
@@ -248,7 +248,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-virtual-hosts-api-openapi.yml
 - filename: wowza-vod-streams-api-openapi.yml
   format: yaml
-  label: Wowza vod_streams API
+  label: Wowza Vod Streams API
   slug: wowza-vod-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/openapi/wowza-vod-streams-api-openapi.yml

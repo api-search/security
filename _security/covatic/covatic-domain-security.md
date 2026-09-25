@@ -161,7 +161,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Advertising Technology
 - AdTech
 - Audience Intelligence
 - Data Management Platform

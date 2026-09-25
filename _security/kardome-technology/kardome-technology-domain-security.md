@@ -36,6 +36,6 @@ tags:
 - Automotive
 - Smart Home
 - Audio
-- Machine-Learning
+- Machine Learning
 - Voice Interface
 ---

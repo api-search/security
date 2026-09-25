@@ -69,6 +69,7 @@ tags:
 - Vector Database
 - Artificial Intelligence
 - Embeddings
-- Open-Source
+- Open Source
 - Cloud-Native
+- Database
 ---

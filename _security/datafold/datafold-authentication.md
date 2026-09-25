@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-audit-logs-api-openapi.yml
 - filename: datafold-bi-added-api-openapi.yml
   format: yaml
-  label: Datafold bi_added API
+  label: Datafold Bi Added API
   slug: datafold-bi-added-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-added-api-openapi.yml
@@ -23,19 +23,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-api-openapi.yml
 - filename: datafold-bi-deleted-api-openapi.yml
   format: yaml
-  label: Datafold bi_deleted API
+  label: Datafold Bi Deleted API
   slug: datafold-bi-deleted-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-deleted-api-openapi.yml
 - filename: datafold-bi-modified-api-openapi.yml
   format: yaml
-  label: Datafold bi_modified API
+  label: Datafold Bi Modified API
   slug: datafold-bi-modified-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-modified-api-openapi.yml
 - filename: datafold-bolt-api-openapi.yml
   format: yaml
-  label: Datafold bolt API
+  label: Datafold Bolt API
   slug: datafold-bolt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bolt-api-openapi.yml
@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-diffs-api-openapi.yml
 - filename: datafold-data-source-added-api-openapi.yml
   format: yaml
-  label: Datafold data_source_added API
+  label: Datafold Data Source Added API
   slug: datafold-data-source-added-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-source-added-api-openapi.yml
@@ -65,7 +65,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-sources-api-openapi.yml
 - filename: datafold-diff-created-api-openapi.yml
   format: yaml
-  label: Datafold diff_created API
+  label: Datafold Diff Created API
   slug: datafold-diff-created-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-diff-created-api-openapi.yml

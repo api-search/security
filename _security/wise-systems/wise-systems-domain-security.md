@@ -37,6 +37,6 @@ tags:
 - Route Optimization
 - Fleet Management
 - Dispatch
-- Machine-Learning
+- Machine Learning
 - Supply Chain
 ---

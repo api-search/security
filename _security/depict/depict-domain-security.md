@@ -74,13 +74,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-media-api-openapi.yml
 - filename: depict-merchant-api-openapi.yml
   format: yaml
-  label: Depict merchant API
+  label: Depict Merchant API
   slug: depict-merchant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-merchant-api-openapi.yml
 - filename: depict-merchant-create-api-openapi.yml
   format: yaml
-  label: Depict merchant-create API
+  label: Depict Merchant Create API
   slug: depict-merchant-create-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-merchant-create-api-openapi.yml
@@ -92,7 +92,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-merchants-api-openapi.yml
 - filename: depict-multi-store-api-openapi.yml
   format: yaml
-  label: Depict multi-store API
+  label: Depict Multi Store API
   slug: depict-multi-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-multi-store-api-openapi.yml
@@ -188,13 +188,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-shopify-collection-template-api-openapi.yml
 - filename: depict-tracking-api-openapi.yml
   format: yaml
-  label: Depict tracking API
+  label: Depict Tracking API
   slug: depict-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-tracking-api-openapi.yml
 - filename: depict-translations-api-openapi.yml
   format: yaml
-  label: Depict translations API
+  label: Depict Translations API
   slug: depict-translations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-translations-api-openapi.yml

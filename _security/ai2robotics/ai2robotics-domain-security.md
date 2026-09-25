@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai2robotics/re
 summary_line: TLSv1.3
 tags:
 - Robotics
-- AI
+- Artificial Intelligence
 - AGI
 - Manufacturing
 - Shenzhen

@@ -2,25 +2,25 @@
 api_specs:
 - filename: bitpanda-assets-api-openapi.yml
   format: yaml
-  label: Bitpanda assets API
+  label: Bitpanda Assets API
   slug: bitpanda-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-assets-api-openapi.yml
 - filename: bitpanda-market-data-api-openapi.yml
   format: yaml
-  label: Bitpanda market-data API
+  label: Bitpanda Market Data API
   slug: bitpanda-market-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-market-data-api-openapi.yml
 - filename: bitpanda-transactions-api-openapi.yml
   format: yaml
-  label: Bitpanda transactions API
+  label: Bitpanda Transactions API
   slug: bitpanda-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-transactions-api-openapi.yml
 - filename: bitpanda-wallets-api-openapi.yml
   format: yaml
-  label: Bitpanda wallets API
+  label: Bitpanda Wallets API
   slug: bitpanda-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-wallets-api-openapi.yml

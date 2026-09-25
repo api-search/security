@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Drug Discovery
 - Artificial Intelligence
-- Biotech
+- Biotechnology
 - Foundation Models
 - Computational Biology
 - Proteins

@@ -87,6 +87,6 @@ tags:
 - Stablecoins
 - Insurance
 - Compliance
-- agent-native
+- Agent-Native
 - United States
 ---

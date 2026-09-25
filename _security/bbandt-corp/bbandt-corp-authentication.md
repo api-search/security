@@ -163,7 +163,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/re
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - Truist
 - BB&T

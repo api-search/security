@@ -39,11 +39,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Credit Ratings
-- Financial-Services
+- Financial Services
 - Financial Data
 - Structured Finance
 - Fixed Income
-- Risk
+- Risk Management
 - Analytics
 - Market Data
 - NRSRO

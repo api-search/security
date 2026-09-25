@@ -118,5 +118,5 @@ tags:
 - AI Search
 - Data Export
 - MCP
-- agent-native
+- Agent-Native
 ---

@@ -63,7 +63,6 @@ summary_line: http/apiKey · 3 schemes
 tags:
 - Company
 - Agent Marketplace
-- Agent-to-Agent
 - A2A
 - MCP
 - Autonomous Agents
@@ -73,5 +72,5 @@ tags:
 - Blockchain
 - Base
 - Reputation
-- agent-native
+- Agent-Native
 ---

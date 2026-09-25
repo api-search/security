@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Ai Enterprise Software
-- Customer-Support
+- Customer Support
 - Conversational AI
 - Chatbots
 - AI Agents

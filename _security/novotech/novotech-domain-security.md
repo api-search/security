@@ -37,7 +37,7 @@ tags:
 - Clinical Trials
 - Clinical Research
 - Drug Development
-- Biotech
+- Biotechnology
 - Biometrics
 - Pharmaceuticals
 ---

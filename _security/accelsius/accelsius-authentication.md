@@ -1,67 +1,6 @@
 ---
 anonymous_access: true
 api_key_in: []
-api_specs:
-- filename: accelsius-content-api-openapi.yml
-  format: yaml
-  label: Accelsius Resources Content API
-  slug: content
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-content-api-openapi.yml
-- filename: accelsius-news-api-openapi.yml
-  format: yaml
-  label: Accelsius News API
-  slug: news
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-news-api-openapi.yml
-- filename: accelsius-pages-api-openapi.yml
-  format: yaml
-  label: Accelsius Pages API
-  slug: pages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-pages-api-openapi.yml
-- filename: accelsius-media-api-openapi.yml
-  format: yaml
-  label: Accelsius Media API
-  slug: media
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-media-api-openapi.yml
-- filename: accelsius-search-api-openapi.yml
-  format: yaml
-  label: Accelsius Search API
-  slug: search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-search-api-openapi.yml
-- filename: accelsius-discovery-api-openapi.yml
-  format: yaml
-  label: Accelsius API Discovery
-  slug: discovery
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-discovery-api-openapi.yml
-- filename: accelsius-categories-api-openapi.yml
-  format: yaml
-  label: Accelsius Categories API
-  slug: accelsius-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-categories-api-openapi.yml
-- filename: accelsius-media-folders-api-openapi.yml
-  format: yaml
-  label: Accelsius Media Folders API
-  slug: accelsius-media-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-media-folders-api-openapi.yml
-- filename: accelsius-registry-api-openapi.yml
-  format: yaml
-  label: Accelsius Registry API
-  slug: accelsius-registry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-registry-api-openapi.yml
-- filename: accelsius-tags-api-openapi.yml
-  format: yaml
-  label: Accelsius Tags API
-  slug: accelsius-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-tags-api-openapi.yml
 auth_types:
 - none
 - http
@@ -116,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs
 summary_line: none/http/cookie · 3 schemes
 tags:
 - Company
-- Data-Center
+- Data Center
 - Liquid Cooling
 - Thermal Management
 - Direct-to-Chip Cooling

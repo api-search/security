@@ -44,5 +44,5 @@ tags:
 - Research Data
 - GNSS
 - Library
-- Open-Source
+- Open Source
 ---

@@ -53,5 +53,5 @@ tags:
 - GIFs
 - Entertainment
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 ---

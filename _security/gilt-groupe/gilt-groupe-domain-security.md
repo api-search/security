@@ -37,5 +37,5 @@ tags:
 - Fashion
 - Flash Sale
 - Scala
-- Open-Source
+- Open Source
 ---

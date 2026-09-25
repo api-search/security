@@ -434,9 +434,9 @@ tags:
 - Device Management
 - Compliance
 - Vulnerability Management
-- Workflow-Automation
+- Workflow Automation
 - Citrix
 - Azure Virtual Desktop
 - MCP
-- agent-native
+- Agent-Native
 ---

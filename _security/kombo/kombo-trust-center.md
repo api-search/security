@@ -76,11 +76,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/security/kombo-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
-- ATS
+- Applicant Tracking
 - Embedded iPaaS
 - HRIS
 - LMS
 - Payroll
-- Unified-API
+- Unified API
+- Recruiting
 trust_url: https://security.kombo.dev/
 ---

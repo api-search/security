@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Emergences Ai Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EMERGENCES AI, INC., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: EMERGENCES AI, INC.
+overview: 'Domain security posture for EMERGENCES AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: EMERGENCES AI
 provider_slug: emergences-ai-inc
 slug: emergences-ai-inc-domain-security
 source_filename: emergences-ai-inc-domain-security.yml
@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Assessment
 - Training
 - Workforce

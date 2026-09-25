@@ -49,7 +49,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Artificial Intelligence
 - Inference
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Training
 trust_url: https://aws.amazon.com/compliance/

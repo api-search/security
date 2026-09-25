@@ -2,175 +2,175 @@
 api_specs:
 - filename: zoho-inventory-batches-api-openapi.yml
   format: yaml
-  label: Zoho Inventory batches API
+  label: Zoho Inventory Batches API
   slug: zoho-inventory-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-batches-api-openapi.yml
 - filename: zoho-inventory-bills-api-openapi.yml
   format: yaml
-  label: Zoho Inventory bills API
+  label: Zoho Inventory Bills API
   slug: zoho-inventory-bills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-bills-api-openapi.yml
 - filename: zoho-inventory-compositeitems-api-openapi.yml
   format: yaml
-  label: Zoho Inventory compositeitems API
+  label: Zoho Inventory Compositeitems API
   slug: zoho-inventory-compositeitems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-compositeitems-api-openapi.yml
 - filename: zoho-inventory-contact-persons-api-openapi.yml
   format: yaml
-  label: Zoho Inventory contact-persons API
+  label: Zoho Inventory Contact Persons API
   slug: zoho-inventory-contact-persons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-contact-persons-api-openapi.yml
 - filename: zoho-inventory-contacts-api-openapi.yml
   format: yaml
-  label: Zoho Inventory contacts API
+  label: Zoho Inventory Contacts API
   slug: zoho-inventory-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-contacts-api-openapi.yml
 - filename: zoho-inventory-credit-notes-api-openapi.yml
   format: yaml
-  label: Zoho Inventory credit-notes API
+  label: Zoho Inventory Credit Notes API
   slug: zoho-inventory-credit-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-credit-notes-api-openapi.yml
 - filename: zoho-inventory-currency-api-openapi.yml
   format: yaml
-  label: Zoho Inventory currency API
+  label: Zoho Inventory Currency API
   slug: zoho-inventory-currency-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-currency-api-openapi.yml
 - filename: zoho-inventory-customer-payments-api-openapi.yml
   format: yaml
-  label: Zoho Inventory customer-payments API
+  label: Zoho Inventory Customer Payments API
   slug: zoho-inventory-customer-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-customer-payments-api-openapi.yml
 - filename: zoho-inventory-delivery-challans-api-openapi.yml
   format: yaml
-  label: Zoho Inventory delivery-challans API
+  label: Zoho Inventory Delivery Challans API
   slug: zoho-inventory-delivery-challans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-delivery-challans-api-openapi.yml
 - filename: zoho-inventory-inventoryadjustments-api-openapi.yml
   format: yaml
-  label: Zoho Inventory inventoryadjustments API
+  label: Zoho Inventory Inventoryadjustments API
   slug: zoho-inventory-inventoryadjustments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-inventoryadjustments-api-openapi.yml
 - filename: zoho-inventory-invoices-api-openapi.yml
   format: yaml
-  label: Zoho Inventory invoices API
+  label: Zoho Inventory Invoices API
   slug: zoho-inventory-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-invoices-api-openapi.yml
 - filename: zoho-inventory-items-api-openapi.yml
   format: yaml
-  label: Zoho Inventory items API
+  label: Zoho Inventory Items API
   slug: zoho-inventory-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-items-api-openapi.yml
 - filename: zoho-inventory-landedcosts-api-openapi.yml
   format: yaml
-  label: Zoho Inventory landedcosts API
+  label: Zoho Inventory Landedcosts API
   slug: zoho-inventory-landedcosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-landedcosts-api-openapi.yml
 - filename: zoho-inventory-locations-api-openapi.yml
   format: yaml
-  label: Zoho Inventory locations API
+  label: Zoho Inventory Locations API
   slug: zoho-inventory-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-locations-api-openapi.yml
 - filename: zoho-inventory-moveorders-api-openapi.yml
   format: yaml
-  label: Zoho Inventory moveorders API
+  label: Zoho Inventory Moveorders API
   slug: zoho-inventory-moveorders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-moveorders-api-openapi.yml
 - filename: zoho-inventory-organizations-api-openapi.yml
   format: yaml
-  label: Zoho Inventory organizations API
+  label: Zoho Inventory Organizations API
   slug: zoho-inventory-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-organizations-api-openapi.yml
 - filename: zoho-inventory-packages-api-openapi.yml
   format: yaml
-  label: Zoho Inventory packages API
+  label: Zoho Inventory Packages API
   slug: zoho-inventory-packages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-packages-api-openapi.yml
 - filename: zoho-inventory-picklists-api-openapi.yml
   format: yaml
-  label: Zoho Inventory picklists API
+  label: Zoho Inventory Picklists API
   slug: zoho-inventory-picklists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-picklists-api-openapi.yml
 - filename: zoho-inventory-purchasereceives-api-openapi.yml
   format: yaml
-  label: Zoho Inventory purchasereceives API
+  label: Zoho Inventory Purchasereceives API
   slug: zoho-inventory-purchasereceives-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-purchasereceives-api-openapi.yml
 - filename: zoho-inventory-putaways-api-openapi.yml
   format: yaml
-  label: Zoho Inventory putaways API
+  label: Zoho Inventory Putaways API
   slug: zoho-inventory-putaways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-putaways-api-openapi.yml
 - filename: zoho-inventory-replenishment-api-openapi.yml
   format: yaml
-  label: Zoho Inventory replenishment API
+  label: Zoho Inventory Replenishment API
   slug: zoho-inventory-replenishment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-replenishment-api-openapi.yml
 - filename: zoho-inventory-reporting-tags-api-openapi.yml
   format: yaml
-  label: Zoho Inventory reporting-tags API
+  label: Zoho Inventory Reporting Tags API
   slug: zoho-inventory-reporting-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-reporting-tags-api-openapi.yml
 - filename: zoho-inventory-retainer-invoices-api-openapi.yml
   format: yaml
-  label: Zoho Inventory retainer-invoices API
+  label: Zoho Inventory Retainer Invoices API
   slug: zoho-inventory-retainer-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-retainer-invoices-api-openapi.yml
 - filename: zoho-inventory-storagelocations-api-openapi.yml
   format: yaml
-  label: Zoho Inventory storagelocations API
+  label: Zoho Inventory Storagelocations API
   slug: zoho-inventory-storagelocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-storagelocations-api-openapi.yml
 - filename: zoho-inventory-tasks-api-openapi.yml
   format: yaml
-  label: Zoho Inventory tasks API
+  label: Zoho Inventory Tasks API
   slug: zoho-inventory-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-tasks-api-openapi.yml
 - filename: zoho-inventory-taxes-api-openapi.yml
   format: yaml
-  label: Zoho Inventory taxes API
+  label: Zoho Inventory Taxes API
   slug: zoho-inventory-taxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-taxes-api-openapi.yml
 - filename: zoho-inventory-unit-of-measurement-api-openapi.yml
   format: yaml
-  label: Zoho Inventory unit_of_measurement API
+  label: Zoho Inventory Unit Of Measurement API
   slug: zoho-inventory-unit-of-measurement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-unit-of-measurement-api-openapi.yml
 - filename: zoho-inventory-users-api-openapi.yml
   format: yaml
-  label: Zoho Inventory users API
+  label: Zoho Inventory Users API
   slug: zoho-inventory-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-users-api-openapi.yml
 - filename: zoho-inventory-vendor-credits-api-openapi.yml
   format: yaml
-  label: Zoho Inventory vendor-credits API
+  label: Zoho Inventory Vendor Credits API
   slug: zoho-inventory-vendor-credits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/zoho-inventory-vendor-credits-api-openapi.yml

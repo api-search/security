@@ -853,7 +853,7 @@ tags:
 - GRC
 - Compliance
 - Consent
-- TPRM
+- Third-Party Risk Management
 - AI Governance
 - Data Governance
 - Risk Management

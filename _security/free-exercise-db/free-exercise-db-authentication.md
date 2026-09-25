@@ -31,6 +31,6 @@ tags:
 - Health
 - Public Domain
 - Datasets
-- JSON-Schema
+- JSON Schema
 - Workouts
 ---

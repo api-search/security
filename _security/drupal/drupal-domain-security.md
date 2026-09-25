@@ -88,7 +88,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Content Management
 - CMS
-- Open-Source
+- Open Source
 - JSON:API
 - GraphQL
 - Headless

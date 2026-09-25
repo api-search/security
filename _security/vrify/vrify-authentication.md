@@ -32,7 +32,7 @@ tags:
 - Mineral Exploration
 - Geoscience
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - 3D Visualization
 - Data Visualization
 - Investor Relations

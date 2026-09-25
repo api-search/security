@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insempra/refs/
 summary_line: TLSv1.3
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Precision Fermentation
 - Synthetic Biology
 - Sustainability

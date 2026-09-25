@@ -243,6 +243,6 @@ tags:
 - isac
 - Indicators of Compromise
 - MCP
-- Agentic AI
+- AI Agents
 trust_url: https://www.cyware.com/compliance
 ---

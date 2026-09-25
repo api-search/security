@@ -14,31 +14,31 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-ddi-api-openapi.yml
 - filename: kegg-find-api-openapi.yml
   format: yaml
-  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) find API
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Find API
   slug: kegg-find-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-find-api-openapi.yml
 - filename: kegg-get-api-openapi.yml
   format: yaml
-  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) get API
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Get API
   slug: kegg-get-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-get-api-openapi.yml
 - filename: kegg-info-api-openapi.yml
   format: yaml
-  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) info API
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Info API
   slug: kegg-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-info-api-openapi.yml
 - filename: kegg-link-api-openapi.yml
   format: yaml
-  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) link API
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Link API
   slug: kegg-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-link-api-openapi.yml
 - filename: kegg-list-api-openapi.yml
   format: yaml
-  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) list API
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) List API
   slug: kegg-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-list-api-openapi.yml

@@ -35,7 +35,7 @@ tags:
 - Cloud Saas
 - Productivity
 - Shortcuts
-- Knowledge-Management
+- Knowledge Management
 - Browser Extension
 - Enterprise
 ---

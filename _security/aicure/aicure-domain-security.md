@@ -38,8 +38,8 @@ tags:
 - Digital Biomarkers
 - Digital Health
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Patient Engagement
 - Life Sciences
-- Open-Source
+- Open Source
 ---

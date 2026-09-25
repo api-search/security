@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Unisub Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Unisub LLC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Unisub LLC
+overview: 'Domain security posture for Unisub, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Unisub
 provider_slug: unisub-llc
 slug: unisub-llc-domain-security
 source_filename: unisub-llc-domain-security.yml

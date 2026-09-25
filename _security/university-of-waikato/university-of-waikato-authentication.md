@@ -178,5 +178,5 @@ tags:
 - SAML
 - OpenID Connect
 - Learning Management
-- Machine-Learning
+- Machine Learning
 ---

@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/h
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Design
 - Vectors
 - Styles

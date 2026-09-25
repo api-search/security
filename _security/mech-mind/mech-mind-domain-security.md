@@ -30,7 +30,7 @@ tags:
 - Company
 - Robotics
 - 3D Vision
-- Computer-Vision
+- Computer Vision
 - Machine Vision
 - Industrial Automation
 - Embodied AI

@@ -728,7 +728,7 @@ tags:
 - SIP
 - asterisk
 - WebRTC
-- Open-Source
+- Open Source
 - Self-Hosted
 - White Label
 - PBX
@@ -740,4 +740,5 @@ tags:
 - Chat
 - Presence
 - CDR
+- Real-Time
 ---

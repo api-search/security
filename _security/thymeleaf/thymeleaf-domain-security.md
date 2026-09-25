@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - HTML
 - Java
-- Open-Source
+- Open Source
 - Server-Side Rendering
 - Spring
 - Spring Boot

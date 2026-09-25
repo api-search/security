@@ -97,8 +97,8 @@ method: searched
 name: Adsmom Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Adsmom Inc. secures its APIs with http and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Adsmom Inc.
+overview: Adsmom secures its APIs with http and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Adsmom
 provider_slug: adsmom-inc
 scheme_count: 1
 schemes:
@@ -132,6 +132,6 @@ tags:
 - OpenAPI
 - REST
 - Analytics
-- Social-Media
-- agent-native
+- Social Media
+- Agent-Native
 ---

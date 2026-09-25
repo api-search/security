@@ -4,25 +4,25 @@ api_key_in: []
 api_specs:
 - filename: orderly-network-admin-api-openapi.yml
   format: yaml
-  label: Orderly Network admin API
+  label: Orderly Network Admin API
   slug: orderly-network-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-admin-api-openapi.yml
 - filename: orderly-network-client-api-openapi.yml
   format: yaml
-  label: Orderly Network client API
+  label: Orderly Network Client API
   slug: orderly-network-client-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-client-api-openapi.yml
 - filename: orderly-network-private-api-openapi.yml
   format: yaml
-  label: Orderly Network private API
+  label: Orderly Network Private API
   slug: orderly-network-private-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-private-api-openapi.yml
 - filename: orderly-network-public-api-openapi.yml
   format: yaml
-  label: Orderly Network public API
+  label: Orderly Network Public API
   slug: orderly-network-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-public-api-openapi.yml
@@ -80,4 +80,5 @@ tags:
 - Web3
 - Blockchain
 - Liquidity
+- Real-Time
 ---

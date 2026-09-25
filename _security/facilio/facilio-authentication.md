@@ -267,7 +267,7 @@ tags:
 - Property Operations
 - Maintenance
 - Asset Management
-- Real-Estate
+- Real Estate
 - IoT
 - Buildings
 ---

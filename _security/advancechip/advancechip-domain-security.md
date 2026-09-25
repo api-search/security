@@ -23,8 +23,8 @@ layout: security
 method: probed
 name: Advancechip Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Advancechip Technology (Hunan) Co., Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Advancechip Technology (Hunan) Co., Ltd.
+overview: 'Domain security posture for Advancechip, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Advancechip
 provider_slug: advancechip
 slug: advancechip-domain-security
 source_filename: advancechip-domain-security.yml

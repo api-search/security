@@ -33,7 +33,7 @@ tags:
 - Budgets
 - CBO
 - Economic Projections
-- Federal-Government
+- Federal Government
 - Legislative Branch
 - Open Data
 - RSS

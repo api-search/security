@@ -46,5 +46,5 @@ tags:
 - Agents
 - MCP
 - Compliance
-- Financial-Services
+- Financial Services
 ---

@@ -66,7 +66,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Integration
 - Orchestration
-- Open-Source
+- Open Source
 - Programming Language
 - Package Registry
 - Developer Tools

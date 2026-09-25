@@ -140,6 +140,6 @@ tags:
 - MCP
 - Developer Tools
 - Productivity
-- Open-Source
+- Open Source
 trust_url: https://screenpipe.com/security
 ---

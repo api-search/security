@@ -73,13 +73,13 @@ summary_line: 2 schemes
 tags:
 - Structured Data Extraction
 - text-to-JSON
-- JSON-Schema
+- JSON Schema
 - Document Parsing
 - Data Cleaning
 - LLM Tooling
 - AI Agents
 - x402-micropayments
-- agent-native
+- Agent-Native
 - A2A
 - MCP
 ---

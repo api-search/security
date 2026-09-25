@@ -61,4 +61,5 @@ tags:
 - Athlete Monitoring
 - GraphQL
 - Analytics
+- Real-Time
 ---

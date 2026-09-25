@@ -35,6 +35,6 @@ tags:
 - Experiential Real Estate
 - Gaming
 - Hospitality
-- Real-Estate
+- Real Estate
 - REIT
 ---

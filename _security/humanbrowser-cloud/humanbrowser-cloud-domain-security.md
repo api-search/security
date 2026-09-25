@@ -52,6 +52,6 @@ tags:
 - CAPTCHA Solving
 - Human-in-the-Loop
 - Computer Use
-- agent-native
+- Agent-Native
 - United Kingdom
 ---

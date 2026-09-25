@@ -95,6 +95,6 @@ tags:
 - Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
-- Open-Source
+- Open Source
 - HashiCorp
 ---

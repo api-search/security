@@ -37,5 +37,6 @@ tags:
 - RAG
 - Agents
 - Documentation
+- Real-Time
 trust_url: https://inkeep.com/security
 ---

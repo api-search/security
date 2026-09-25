@@ -270,10 +270,10 @@ tags:
 - Evaluation
 - Observability
 - Tracing
-- Open-Source
+- Open Source
 - LLMOps
 - RAG
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Monitoring
 ---

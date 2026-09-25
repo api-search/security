@@ -26,8 +26,8 @@ layout: security
 method: probed
 name: Kubit Ai Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Kubit AI, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Kubit AI, Inc.
+overview: 'Domain security posture for Kubit AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Kubit AI
 provider_slug: kubit-ai-inc
 slug: kubit-ai-inc-domain-security
 source_filename: kubit-ai-inc-domain-security.yml

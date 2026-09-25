@@ -49,7 +49,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tim-com/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications
-- Telco
 - Mobile Network Operator
 - Network APIs
 - CAMARA

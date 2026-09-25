@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Livsho Holdings Limited Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Livsho Holdings Limited, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
-provider_name: Livsho Holdings Limited
+overview: 'Domain security posture for Livsho, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Livsho
 provider_slug: livsho-holdings-limited
 slug: livsho-holdings-limited-domain-security
 source_filename: livsho-holdings-limited-domain-security.yml

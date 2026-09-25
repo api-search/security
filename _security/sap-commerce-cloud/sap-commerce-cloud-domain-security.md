@@ -144,6 +144,12 @@ api_specs:
   slug: sap-commerce-cloud-cron-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-cron-jobs-api-openapi.yml
+- filename: 66abfe678b55457fab235ce8039dda71.html
+  format: yaml
+  label: SAP Commerce Cloud OCC API
+  slug: sap-commerce-occ-api
+  spec_type: OpenAPI
+  url: https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/452dcbb0e00f47e88a69cdaeb87a925d/66abfe678b55457fab235ce8039dda71.html
 description: ''
 domains:
 - caa: []
@@ -182,7 +188,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-c
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B
-- B2C
+- Consumer
 - Commerce
 - Customer Experience
 - E-Commerce

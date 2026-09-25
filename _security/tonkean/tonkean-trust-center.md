@@ -25,7 +25,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Process Orchestration
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Enterprise
 - Procurement

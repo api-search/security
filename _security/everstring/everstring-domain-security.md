@@ -48,6 +48,6 @@ tags:
 - Firmographics
 - Account Based Marketing
 - Lead Scoring
-- Machine-Learning
+- Machine Learning
 - Acquired
 ---

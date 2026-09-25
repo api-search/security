@@ -97,7 +97,7 @@ tags:
 - Token Security
 - Scam Detection
 - Smart Contracts
-- Anti-Money Laundering
+- AML
 - Web3
 - DeFi
 ---

@@ -5,37 +5,37 @@ api_key_in:
 api_specs:
 - filename: web-of-science-apis-citations-api-openapi.yml
   format: yaml
-  label: Web of Science APIs citations API
+  label: Web of Science APIs Citations API
   slug: web-of-science-apis-citations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-citations-api-openapi.yml
 - filename: web-of-science-apis-documents-api-openapi.yml
   format: yaml
-  label: Web of Science APIs documents API
+  label: Web of Science APIs Documents API
   slug: web-of-science-apis-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-documents-api-openapi.yml
 - filename: web-of-science-apis-journals-api-openapi.yml
   format: yaml
-  label: Web of Science APIs journals API
+  label: Web of Science APIs Journals API
   slug: web-of-science-apis-journals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-journals-api-openapi.yml
 - filename: web-of-science-apis-records-api-openapi.yml
   format: yaml
-  label: Web of Science APIs records API
+  label: Web of Science APIs Records API
   slug: web-of-science-apis-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-records-api-openapi.yml
 - filename: web-of-science-apis-reports-api-openapi.yml
   format: yaml
-  label: Web of Science APIs reports API
+  label: Web of Science APIs Reports API
   slug: web-of-science-apis-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-reports-api-openapi.yml
 - filename: web-of-science-apis-search-api-openapi.yml
   format: yaml
-  label: Web of Science APIs search API
+  label: Web of Science APIs Search API
   slug: web-of-science-apis-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-search-api-openapi.yml

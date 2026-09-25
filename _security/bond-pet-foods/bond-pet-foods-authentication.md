@@ -3,18 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: bond-pet-foods-wc-store-v1-api-openapi.yml
-  format: yaml
-  label: Bond Pet Foods Wc/store/v1 API
-  slug: bond-pet-foods-wc-store-v1-api
+- filename: bond-pet-foods-wp-rest-index-original.json
+  format: json
+  label: Bond Pet Foods Website (WordPress REST)
+  slug: bondpets-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/openapi/bond-pet-foods-wc-store-v1-api-openapi.yml
-- filename: bond-pet-foods-wp-v2-api-openapi.yml
-  format: yaml
-  label: Bond Pet Foods Wp/v2 API
-  slug: bond-pet-foods-wp-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/openapi/bond-pet-foods-wp-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/openapi/bond-pet-foods-wp-rest-index-original.json
 auth_types:
 - apiKey
 - http

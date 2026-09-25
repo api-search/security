@@ -46,7 +46,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Body Measurement
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Apparel
 - Fashion Technology

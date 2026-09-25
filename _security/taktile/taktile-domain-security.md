@@ -38,8 +38,8 @@ tags:
 - Underwriting
 - Fraud Detection
 - KYC
-- Financial-Services
+- Financial Services
 - Insurance
-- Agentic AI
-- Machine-Learning
+- AI Agents
+- Machine Learning
 ---

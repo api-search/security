@@ -99,7 +99,7 @@ tags:
 - No-Code
 - Low-Code
 - Airtable Alternative
-- Open-Source
+- Open Source
 - Spreadsheets
 - REST API
 - Self-Hosted

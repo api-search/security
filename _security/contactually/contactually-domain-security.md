@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - CRM
-- Real-Estate
+- Real Estate
 - Contact Management
 - Relationships
 - Sales

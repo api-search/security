@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Bumble Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Bumble Inc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Bumble Inc
+overview: 'Domain security posture for Bumble, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Bumble
 provider_slug: bumble
 slug: bumble-domain-security
 source_filename: bumble-domain-security.yml
@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bumble/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Dating
-- Social Networking
+- Social Network
 - Consumer App
 - Mobile
 - Relationships

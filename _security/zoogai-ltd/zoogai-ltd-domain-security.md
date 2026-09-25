@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Zoogai Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Zoog.A.I. Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Zoog.A.I. Ltd.
+overview: 'Domain security posture for Zoog, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Zoog
 provider_slug: zoogai-ltd
 slug: zoogai-ltd-domain-security
 source_filename: zoogai-ltd-domain-security.yml

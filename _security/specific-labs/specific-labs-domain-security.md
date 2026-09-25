@@ -36,7 +36,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Datasets
-- Machine-Learning
+- Machine Learning
 - Benchmarks
 - AI Agents
 - Data

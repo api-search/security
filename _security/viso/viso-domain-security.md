@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Video Analytics
 - Vision Agents
 - Edge AI

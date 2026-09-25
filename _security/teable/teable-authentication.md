@@ -76,6 +76,6 @@ tags:
 - No-Code
 - Database
 - Airtable Alternative
-- Postgres
-- Open-Source
+- PostgreSQL
+- Open Source
 ---

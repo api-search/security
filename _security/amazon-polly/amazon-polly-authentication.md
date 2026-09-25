@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/r
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Speech Synthesis
 - Text-to-Speech
 - TTS

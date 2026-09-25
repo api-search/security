@@ -58,7 +58,7 @@ tags:
 - Food
 - Nutrition
 - Shopping Lists
-- Open-Source
+- Open Source
 - Self-Hosted
 - Home Automation
 - Django

@@ -36,13 +36,13 @@ tags:
 - Company
 - Orchestration
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Integration
 - Kubernetes
 - Infrastructure as Code
 - Terraform
 - Identity and Access Management
-- Agentic AI
+- AI Agents
 - DevOps
 - Self-Hosted
 ---

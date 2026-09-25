@@ -21,7 +21,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Contact Center
 - Customer Service Automation
 - Chatbots

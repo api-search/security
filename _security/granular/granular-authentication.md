@@ -67,7 +67,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Agriculture
 - Farm Management
-- Financial
+- Finance
 - Crop Planning
 - Agronomy
 ---

@@ -76,4 +76,5 @@ tags:
 - Location
 - Three Word Address
 - Maps
+- Geospatial
 ---

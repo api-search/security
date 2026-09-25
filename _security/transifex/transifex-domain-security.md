@@ -163,6 +163,6 @@ tags:
 - L10n
 - Language
 - Content Management
-- Workflow-Automation
+- Workflow Automation
 - Internationalization
 ---

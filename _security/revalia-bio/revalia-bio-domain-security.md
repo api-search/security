@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revalia-bio/re
 summary_line: TLSv1.3
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Artificial Intelligence
 - Drug Development
 - Medical Devices

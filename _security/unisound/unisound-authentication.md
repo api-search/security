@@ -51,6 +51,6 @@ tags:
 - LLM
 - OCR
 - Healthcare
-- Machine-Learning
+- Machine Learning
 - Voice
 ---

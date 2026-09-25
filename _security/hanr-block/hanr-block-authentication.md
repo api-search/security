@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hanr-block/ref
 summary_line: 1 scheme
 tags:
 - Tax Preparation
-- Financial-Services
+- Financial Services
 - Fortune 1000
 - Identity
 - Authentication

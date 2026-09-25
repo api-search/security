@@ -77,4 +77,5 @@ tags:
 - WalletConnect
 - AppKit
 - RPC
+- Real-Time
 ---

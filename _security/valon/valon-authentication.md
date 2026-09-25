@@ -44,9 +44,9 @@ tags:
 - Loan Servicing
 - Lending
 - Fintech
-- Real-Estate
+- Real Estate
 - Insurance
 - Agentic Tools
 - MCP
-- Open-Source
+- Open Source
 ---

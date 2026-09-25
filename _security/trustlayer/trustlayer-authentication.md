@@ -11,19 +11,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-auth-api-openapi.yml
 - filename: trustlayer-branding-api-openapi.yml
   format: yaml
-  label: TrustLayer branding API
+  label: TrustLayer Branding API
   slug: trustlayer-branding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-branding-api-openapi.yml
 - filename: trustlayer-compliance-profiles-api-openapi.yml
   format: yaml
-  label: TrustLayer compliance-profiles API
+  label: TrustLayer Compliance Profiles API
   slug: trustlayer-compliance-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-compliance-profiles-api-openapi.yml
 - filename: trustlayer-contacts-api-openapi.yml
   format: yaml
-  label: TrustLayer contacts API
+  label: TrustLayer Contacts API
   slug: trustlayer-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-contacts-api-openapi.yml
@@ -41,7 +41,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-context-records-api-openapi.yml
 - filename: trustlayer-custom-fields-api-openapi.yml
   format: yaml
-  label: TrustLayer custom-fields API
+  label: TrustLayer Custom Fields API
   slug: trustlayer-custom-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-custom-fields-api-openapi.yml
@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-document-types-api-openapi.yml
 - filename: trustlayer-documents-api-openapi.yml
   format: yaml
-  label: TrustLayer documents API
+  label: TrustLayer Documents API
   slug: trustlayer-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-documents-api-openapi.yml
@@ -65,7 +65,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-parties-api-openapi.yml
 - filename: trustlayer-party-types-api-openapi.yml
   format: yaml
-  label: TrustLayer party-types API
+  label: TrustLayer Party Types API
   slug: trustlayer-party-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-party-types-api-openapi.yml
@@ -95,7 +95,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-projects-api-openapi.yml
 - filename: trustlayer-reports-api-openapi.yml
   format: yaml
-  label: TrustLayer reports API
+  label: TrustLayer Reports API
   slug: trustlayer-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-reports-api-openapi.yml
@@ -113,7 +113,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-requirements-api-openapi.yml
 - filename: trustlayer-tags-api-openapi.yml
   format: yaml
-  label: TrustLayer tags API
+  label: TrustLayer Tags API
   slug: trustlayer-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/openapi/trustlayer-tags-api-openapi.yml

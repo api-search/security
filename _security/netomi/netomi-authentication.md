@@ -265,10 +265,10 @@ summary_line: bearer-jwt/tenant-identifier · 4 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Customer Experience
 - Customer Service
-- Customer-Support
+- Customer Support
 - Conversational AI
 - Chatbots
 - Chat

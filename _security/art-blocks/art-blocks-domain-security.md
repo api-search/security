@@ -68,4 +68,5 @@ tags:
 - Smart Contracts
 - The Graph
 - MCP
+- A2A
 ---

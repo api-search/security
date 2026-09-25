@@ -52,5 +52,5 @@ tags:
 - .NET
 - API Gateway
 - Microservices
-- Open-Source
+- Open Source
 ---

@@ -37,5 +37,5 @@ tags:
 - Software Portfolio
 - Customer Engagement
 - Supply Chain
-- Knowledge-Management
+- Knowledge Management
 ---

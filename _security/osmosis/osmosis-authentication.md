@@ -5,13 +5,13 @@ api_key_in:
 api_specs:
 - filename: osmosis-agent-api-openapi.yml
   format: yaml
-  label: Osmosis agent API
+  label: Osmosis Agent API
   slug: osmosis-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-agent-api-openapi.yml
 - filename: osmosis-knowledge-api-openapi.yml
   format: yaml
-  label: Osmosis knowledge API
+  label: Osmosis Knowledge API
   slug: osmosis-knowledge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/openapi/osmosis-knowledge-api-openapi.yml
@@ -57,6 +57,6 @@ tags:
 - Post-Training
 - Model Training
 - Agents
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 ---

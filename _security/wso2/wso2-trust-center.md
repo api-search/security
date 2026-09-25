@@ -565,10 +565,11 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - API Management
 - Gateways
-- Open-Source
+- Open Source
 - API Lifecycle
 - GraphQL
 - SOAP
 - REST
+- Identity Federation
 trust_url: https://wso2.com/security
 ---

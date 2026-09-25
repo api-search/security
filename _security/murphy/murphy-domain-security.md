@@ -42,6 +42,6 @@ tags:
 - Artificial Intelligence
 - Debt Collection
 - Voice AI
-- Financial-Services
+- Financial Services
 - Collection
 ---

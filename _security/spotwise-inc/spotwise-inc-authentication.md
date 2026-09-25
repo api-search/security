@@ -10,8 +10,8 @@ method: probed
 name: Spotwise Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Spotwise, Inc. declares 3 security scheme(s) across its OpenAPI definitions.
-provider_name: Spotwise, Inc.
+overview: Spotwise declares 3 security scheme(s) across its OpenAPI definitions.
+provider_name: Spotwise
 provider_slug: spotwise-inc
 scheme_count: 3
 schemes:

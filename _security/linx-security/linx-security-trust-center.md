@@ -25,7 +25,7 @@ tags:
 - Access Management
 - Identity Security
 - Non-Human Identity
-- Agentic AI
+- AI Agents
 - MCP
 - IGA
 trust_url: https://trust.linx.security

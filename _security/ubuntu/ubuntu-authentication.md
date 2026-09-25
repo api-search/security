@@ -111,5 +111,5 @@ tags:
 - Security
 - Ubuntu
 - Package Management
-- Open-Source
+- Open Source
 ---

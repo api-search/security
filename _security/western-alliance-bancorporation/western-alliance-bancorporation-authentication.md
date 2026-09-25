@@ -200,7 +200,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-allian
 summary_line: apiKey/http/mutualTLS · 4 schemes
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Treasury Management
 - Payments
 - Account

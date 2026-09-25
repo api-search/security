@@ -77,7 +77,7 @@ tags:
 - Augmented Reality
 - Field Service Management
 - Manufacturing
-- IIoT
 - CAD
 - Digital Transformation
+- Industrial
 ---

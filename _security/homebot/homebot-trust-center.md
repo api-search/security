@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homebot/refs/h
 summary_line: SOC 2 Type 2
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Mortgage
 - PropTech
 - Fintech

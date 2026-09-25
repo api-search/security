@@ -87,6 +87,7 @@ tags:
 - Compute
 - GPU
 - Inference
-- Machine-Learning
+- Machine Learning
+- Real-Time
 trust_url: https://trust.lambda.ai/
 ---

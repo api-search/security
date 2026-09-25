@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/ref
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Data Curation
 - Active Learning
 - Embeddings

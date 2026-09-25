@@ -64,13 +64,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/security/google-gemini-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Code Generation
 - Embeddings
 - Generative AI
-- Image-Generation
+- Image Generation
 - LLM
-- Machine-Learning
+- Machine Learning
 - Multi-Modal
+- Real-Time
 ---

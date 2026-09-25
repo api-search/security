@@ -61,5 +61,5 @@ tags:
 - SQL
 - Markdown
 - Data Apps
-- Open-Source
+- Open Source
 ---

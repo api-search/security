@@ -70,7 +70,7 @@ tags:
 - Microservices
 - Middleware
 - Mocking
-- Open-Source
+- Open Source
 - Plugins
 - REST
 - SDK

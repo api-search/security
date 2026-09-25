@@ -48,5 +48,5 @@ tags:
 - Data Validation
 - AI Implementation
 - Custom AI
-- agent-native
+- Agent-Native
 ---

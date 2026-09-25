@@ -280,6 +280,6 @@ tags:
 - Identity
 - OIDC
 - SAML
-- Open-Source
+- Open Source
 - Identity Federation
 ---

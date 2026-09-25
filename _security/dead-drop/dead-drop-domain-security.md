@@ -64,5 +64,5 @@ tags:
 - Messaging
 - Privacy
 - Anonymous
-- Open-Source
+- Open Source
 ---

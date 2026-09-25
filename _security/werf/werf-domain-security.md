@@ -37,5 +37,5 @@ tags:
 - CNCF
 - Helm
 - Containers
-- Open-Source
+- Open Source
 ---

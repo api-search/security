@@ -1,6 +1,43 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: sap-ariba-invoices-api-openapi.yml
+  format: yaml
+  label: Ariba Invoices API
+  slug: sap-ariba-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/sap-ariba-invoices-api-openapi.yml
+- filename: sap-ariba-purchase-order-line-items-api-openapi.yml
+  format: yaml
+  label: Ariba Purchase Order Line Items API
+  slug: sap-ariba-purchase-order-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/sap-ariba-purchase-order-line-items-api-openapi.yml
+- filename: sap-ariba-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Ariba Purchase Orders API
+  slug: sap-ariba-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/sap-ariba-purchase-orders-api-openapi.yml
+- filename: sap-ariba-receipts-api-openapi.yml
+  format: yaml
+  label: Ariba Receipts API
+  slug: sap-ariba-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/sap-ariba-receipts-api-openapi.yml
+- filename: sap-ariba-requisitions-api-openapi.yml
+  format: yaml
+  label: Ariba Requisitions API
+  slug: sap-ariba-requisitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/sap-ariba-requisitions-api-openapi.yml
+- filename: sap-ariba-suppliers-api-openapi.yml
+  format: yaml
+  label: Ariba Suppliers API
+  slug: sap-ariba-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/openapi/sap-ariba-suppliers-api-openapi.yml
 auth_types: []
 description: Authentication profile for the SAP Ariba API gateway, read from SAP's own developer-portal help set. There is no OpenAPI to derive securitySchemes from - SAP does not publish a machine-readable contract for these APIs anonymously - so every scheme below is transcribed from a cited documentation page rather than from a spec.
 kind: authentication

@@ -87,7 +87,7 @@ tags:
 - CNCF
 - Containers
 - Deployment
-- Open-Source
+- Open Source
 - Orchestration
 - Scaling
 ---

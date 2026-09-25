@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - GRC
 - Compliance
-- Risk
+- Risk Management
 - Audit
 - SOC 2
 ---

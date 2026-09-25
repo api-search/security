@@ -79,5 +79,5 @@ tags:
 - Compliance
 - Managed Service Providers
 - MCP
-- agent-native
+- Agent-Native
 ---

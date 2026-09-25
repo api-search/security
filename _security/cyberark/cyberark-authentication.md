@@ -91,4 +91,5 @@ tags:
 - SSO
 - Vault
 - Zero Trust
+- Identity Federation
 ---

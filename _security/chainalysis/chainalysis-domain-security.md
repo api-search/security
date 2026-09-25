@@ -48,10 +48,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compliance
 - AML
-- KYT
+- Transaction Monitoring
 - Sanctions
 - Investigations
 - Blockchain Analytics
-- Risk
+- Risk Management
 - Crypto
 ---

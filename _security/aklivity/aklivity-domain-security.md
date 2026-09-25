@@ -54,6 +54,6 @@ tags:
 - Kafka Proxy
 - MCP
 - Multi-Protocol
-- Open-Source
+- Open Source
 - Real-Time
 ---

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Rvds Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for RVDS Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: RVDS Inc.
+overview: 'Domain security posture for RVDS, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: RVDS
 provider_slug: rvds-inc
 slug: rvds-inc-domain-security
 source_filename: rvds-inc-domain-security.yml

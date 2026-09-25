@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foodvisor/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Food
 - Health
 - Nutrition

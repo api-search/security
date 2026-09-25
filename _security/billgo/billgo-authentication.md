@@ -80,7 +80,7 @@ summary_line: openIdConnect/oauth2 · 2 schemes
 tags:
 - Payments
 - Bill Pay
-- Financial-Services
+- Financial Services
 - Banking
 - ACH
 - Virtual Cards

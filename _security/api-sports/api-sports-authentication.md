@@ -83,4 +83,5 @@ tags:
 - Fixtures
 - Standings
 - Odds
+- Sports
 ---

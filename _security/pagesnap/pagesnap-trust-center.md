@@ -103,7 +103,7 @@ tags:
 - Web Crawling
 - Change Monitoring
 - llms-txt
-- Agent Payments
+- Agentic Payments
 - Software-as-a-Service
 trust_url: ''
 ---

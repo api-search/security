@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource:\n- openapi/wiki
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/authentication/wikikv-com-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Knowledge-Management
+- Knowledge Management
 - RAG
 - AI Agents
 - MCP
@@ -49,5 +49,5 @@ tags:
 - Troubleshooting
 - Developer Tools
 - Open Knowledge
-- agent-native
+- Agent-Native
 ---

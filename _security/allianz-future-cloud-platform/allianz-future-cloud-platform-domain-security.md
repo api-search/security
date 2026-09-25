@@ -78,7 +78,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Platform
 - Enterprise
-- Financial-Services
+- Financial Services
 - Insurance
 - Platform Engineering
 - Kubernetes

@@ -35,5 +35,5 @@ tags:
 - Kubernetes
 - Local Development
 - Microservices
-- Open-Source
+- Open Source
 ---

@@ -60,7 +60,7 @@ tags:
 - Risk Analytics
 - Geospatial
 - Business Interruption
-- Real-Estate
-- Financial-Services
+- Real Estate
+- Financial Services
 - Artificial Intelligence
 ---

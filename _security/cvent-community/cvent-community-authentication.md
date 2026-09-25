@@ -82,7 +82,7 @@ summary_line: openIdConnect/oauth2/saml2 · 2 schemes
 tags:
 - Certification
 - Community
-- Customer-Support
+- Customer Support
 - Cvent Academy
 - Education
 - Forums

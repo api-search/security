@@ -39,4 +39,5 @@ tags:
 - Defense
 - Infrastructure
 - Communications
+- A2A
 ---

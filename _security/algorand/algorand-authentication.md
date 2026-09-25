@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: algorand-common-api-openapi.yml
   format: yaml
-  label: Algorand common API
+  label: Algorand Common API
   slug: algorand-common-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-common-api-openapi.yml
@@ -17,7 +17,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-key-api-openapi.yml
 - filename: algorand-lookup-api-openapi.yml
   format: yaml
-  label: Algorand lookup API
+  label: Algorand Lookup API
   slug: algorand-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-lookup-api-openapi.yml
@@ -35,7 +35,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-multisig-api-openapi.yml
 - filename: algorand-private-api-openapi.yml
   format: yaml
-  label: Algorand private API
+  label: Algorand Private API
   slug: algorand-private-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-private-api-openapi.yml
@@ -47,13 +47,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-program-api-openapi.yml
 - filename: algorand-public-api-openapi.yml
   format: yaml
-  label: Algorand public API
+  label: Algorand Public API
   slug: algorand-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-public-api-openapi.yml
 - filename: algorand-search-api-openapi.yml
   format: yaml
-  label: Algorand search API
+  label: Algorand Search API
   slug: algorand-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-search-api-openapi.yml

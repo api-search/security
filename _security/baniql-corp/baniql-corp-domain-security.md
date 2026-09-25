@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Baniql Corp Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for BANIQL CORP., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: BANIQL CORP.
+overview: 'Domain security posture for BANIQL, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: BANIQL
 provider_slug: baniql-corp
 slug: baniql-corp-domain-security
 source_filename: baniql-corp-domain-security.yml

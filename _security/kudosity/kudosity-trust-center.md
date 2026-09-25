@@ -101,7 +101,7 @@ tags:
 - CPaaS
 - Webhook
 - MCP
-- agent-native
+- Agent-Native
 - Australia
 - Notification
 - Two-Way Messaging

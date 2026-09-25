@@ -35,7 +35,7 @@ tags:
 - Insurtech
 - Renters Insurance
 - Security Deposit
-- Real-Estate
+- Real Estate
 - PropTech
 - Fintech
 - Credit Building

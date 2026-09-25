@@ -64,4 +64,5 @@ tags:
 - Partner API
 - Product Imagery
 - Retail
+- Fashion
 ---

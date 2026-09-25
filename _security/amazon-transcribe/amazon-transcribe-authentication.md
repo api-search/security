@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transcr
 summary_line: apiKey · 1 scheme
 tags:
 - Audio Processing
-- Machine-Learning
+- Machine Learning
 - Speech Recognition
 - Speech-to-Text
 - Transcription

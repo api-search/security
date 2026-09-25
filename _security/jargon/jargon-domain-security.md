@@ -35,7 +35,7 @@ tags:
 - Data Modelling
 - Domain-Driven Design
 - Domains
-- JSON-Schema
+- JSON Schema
 - OpenAPI
 - Platform
 ---

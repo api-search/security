@@ -56,7 +56,7 @@ tags:
 - Agent Hosting
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Hosting
 - Webhook
 - Personal Assistants

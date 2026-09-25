@@ -39,10 +39,10 @@ tags:
 - Data Science
 - Artificial Intelligence
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Consulting
 - Data Engineering
 - MLOps
-- Agentic AI
+- AI Agents
 - Supply Chain
 ---

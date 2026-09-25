@@ -56,7 +56,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Email
 - Email Verification
-- Email Validation
 - SMTP
 - MX Records
 - Catch-All Detection

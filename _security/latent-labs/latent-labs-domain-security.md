@@ -41,7 +41,7 @@ tags:
 - Antibodies
 - Macrocycles
 - Protein Binders
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Life Sciences
 - AlphaFold

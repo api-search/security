@@ -5,7 +5,7 @@ api_key_in:
 api_specs:
 - filename: packagex-shipments-api-openapi.yml
   format: yaml
-  label: PackageX shipments API
+  label: PackageX Shipments API
   slug: packagex-shipments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/openapi/packagex-shipments-api-openapi.yml
@@ -43,7 +43,7 @@ tags:
 - Logistics
 - Shipping
 - Supply Chain
-- Computer-Vision
+- Computer Vision
 - OCR
 - Package Tracking
 - Fulfillment

@@ -49,12 +49,12 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - AI Security
-- Machine-Learning
+- Machine Learning
 - LLM Security
 - Red Teaming
 - AI Firewall
 - Prompt Injection
 - Model Risk
 - MLOps
-- Agentic AI
+- AI Agents
 ---

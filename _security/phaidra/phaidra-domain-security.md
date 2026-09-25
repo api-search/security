@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ai Ml
-- Data-Center
+- Data Center
 - Industrial Automation
 - Reinforcement Learning
 - Energy Efficiency

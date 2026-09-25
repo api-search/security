@@ -11,19 +11,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-fullhashes-find-api-openapi.yml
 - filename: google-safe-browsing-threatlists-api-openapi.yml
   format: yaml
-  label: Google Safe Browsing threatLists API
+  label: Google Safe Browsing Threat Lists API
   slug: google-safe-browsing-threatlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatlists-api-openapi.yml
 - filename: google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
   format: yaml
-  label: Google Safe Browsing threatListUpdates:fetch API
+  label: Google Safe Browsing Threat List Updates:fetch API
   slug: google-safe-browsing-threatlistupdates-fetch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
 - filename: google-safe-browsing-threatmatches-find-api-openapi.yml
   format: yaml
-  label: Google Safe Browsing threatMatches:find API
+  label: Google Safe Browsing Threat Matches:find API
   slug: google-safe-browsing-threatmatches-find-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatmatches-find-api-openapi.yml

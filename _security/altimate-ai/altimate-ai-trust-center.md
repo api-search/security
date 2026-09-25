@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-account-costs-api-openapi.yml
 - filename: altimate-ai-ade-bench-api-openapi.yml
   format: yaml
-  label: Altimate AI ade-bench API
+  label: Altimate AI Ade Bench API
   slug: altimate-ai-ade-bench-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-ade-bench-api-openapi.yml
@@ -80,7 +80,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-chat-api-openapi.yml
 - filename: altimate-ai-clickhouse-rbac-api-openapi.yml
   format: yaml
-  label: Altimate AI clickhouse-rbac API
+  label: Altimate AI Clickhouse Rbac API
   slug: altimate-ai-clickhouse-rbac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-clickhouse-rbac-api-openapi.yml
@@ -104,7 +104,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-compute-pools-api-openapi.yml
 - filename: altimate-ai-connections-api-openapi.yml
   format: yaml
-  label: Altimate AI connections API
+  label: Altimate AI Connections API
   slug: altimate-ai-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-connections-api-openapi.yml
@@ -410,7 +410,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-knowledge-bases-v2-api-openapi.yml
 - filename: altimate-ai-langfuse-api-openapi.yml
   format: yaml
-  label: Altimate AI langfuse API
+  label: Altimate AI Langfuse API
   slug: altimate-ai-langfuse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-langfuse-api-openapi.yml
@@ -686,7 +686,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-user-group-api-openapi.yml
 - filename: altimate-ai-user-group-rules-api-openapi.yml
   format: yaml
-  label: Altimate AI user-group-rules API
+  label: Altimate AI User Group Rules API
   slug: altimate-ai-user-group-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-user-group-rules-api-openapi.yml

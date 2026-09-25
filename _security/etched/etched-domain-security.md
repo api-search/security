@@ -38,5 +38,5 @@ tags:
 - Accelerator
 - Silicon
 - Pre-Launch
-- Data-Center
+- Data Center
 ---

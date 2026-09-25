@@ -38,4 +38,5 @@ tags:
 - Software-as-a-Service
 - HRIS
 - Employee Scheduling
+- Scheduling
 ---

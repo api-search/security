@@ -53,7 +53,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-teams-api-openapi.yml
 - filename: swaggerhub-apis-api-openapi.yml
   format: yaml
-  label: SwaggerHub AP Is API
+  label: SwaggerHub APIs API
   slug: swaggerhub-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-apis-api-openapi.yml

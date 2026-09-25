@@ -36,7 +36,7 @@ tags:
 - Healthcare
 - Alzheimers
 - Biomarkers
-- Machine-Learning
+- Machine Learning
 - Digital Health
 - Neurology
 - Cognitive Assessment

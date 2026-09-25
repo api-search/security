@@ -21,7 +21,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Title Insurance
 - Escrow
-- Real-Estate
+- Real Estate
 - Closing
 - Settlement
 - PropTech

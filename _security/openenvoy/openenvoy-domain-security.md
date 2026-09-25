@@ -64,4 +64,5 @@ tags:
 - Artificial Intelligence
 - ERP Integration
 - Spend Management
+- Procurement
 ---

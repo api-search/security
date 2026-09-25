@@ -105,7 +105,6 @@ tags:
 - Identity Verification
 - KYC
 - AML
-- Anti-Money Laundering
 - Compliance
 - Biometrics
 - Document Verification
@@ -115,7 +114,7 @@ tags:
 - Watchlist
 - Background Checks
 - Credit Check
-- Risk
+- Risk Management
 - Fraud Prevention
 - Onboarding
 - Latin America

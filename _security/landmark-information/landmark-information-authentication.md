@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/landmar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/authentication/landmark-information-authentication.yml
 summary_line: http/oauth2/apiKey · 3 schemes
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Data
@@ -118,7 +118,7 @@ tags:
 - Land Registry
 - Geospatial
 - Valuation
-- Anti-Money Laundering
+- AML
 - Planning Data
 - Mortgage
 ---

@@ -165,11 +165,9 @@ tags:
 - Network APIs
 - OpenAPI
 - Open Gateway
-- Open-Source
+- Open Source
 - Standards
 - Standards Body
-- Telco
-- Telco API Alliance
-- Telecom
 - Telecommunications
+- Telco API Alliance
 ---

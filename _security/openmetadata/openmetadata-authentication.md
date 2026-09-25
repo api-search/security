@@ -564,7 +564,7 @@ tags:
 - Data Governance
 - Data Lineage
 - Data Quality
-- Open-Source
+- Open Source
 - Data Discovery
 - Data Observability
 ---

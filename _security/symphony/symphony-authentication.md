@@ -166,7 +166,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Collaboration
 - Communications
-- Financial-Services
+- Financial Services
 - Messaging
 - Secure Communication
 ---

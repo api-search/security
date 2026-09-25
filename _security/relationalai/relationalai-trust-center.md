@@ -27,7 +27,7 @@ tags:
 - Semantic Layer
 - Snowflake
 - Graph Analytics
-- Machine-Learning
+- Machine Learning
 - Optimization
 - Reasoning
 - Artificial Intelligence

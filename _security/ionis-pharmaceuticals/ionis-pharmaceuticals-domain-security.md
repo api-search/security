@@ -34,6 +34,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ionis-pharmace
 summary_line: TLSv1.3
 tags:
 - Pharmaceuticals
-- Biotech
+- Biotechnology
 - RNA
 ---

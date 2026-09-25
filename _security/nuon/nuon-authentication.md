@@ -5,109 +5,109 @@ api_key_in:
 api_specs:
 - filename: nuon-accounts-api-openapi.yml
   format: yaml
-  label: Nuon accounts API
+  label: Nuon Accounts API
   slug: nuon-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-accounts-api-openapi.yml
 - filename: nuon-actions-api-openapi.yml
   format: yaml
-  label: Nuon actions API
+  label: Nuon Actions API
   slug: nuon-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-actions-api-openapi.yml
 - filename: nuon-actions-runner-api-openapi.yml
   format: yaml
-  label: Nuon actions/runner API
+  label: Nuon Actions/runner API
   slug: nuon-actions-runner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-actions-runner-api-openapi.yml
 - filename: nuon-apps-api-openapi.yml
   format: yaml
-  label: Nuon apps API
+  label: Nuon Apps API
   slug: nuon-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-apps-api-openapi.yml
 - filename: nuon-auth-api-openapi.yml
   format: yaml
-  label: Nuon auth API
+  label: Nuon Auth API
   slug: nuon-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-auth-api-openapi.yml
 - filename: nuon-components-api-openapi.yml
   format: yaml
-  label: Nuon components API
+  label: Nuon Components API
   slug: nuon-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-components-api-openapi.yml
 - filename: nuon-general-api-openapi.yml
   format: yaml
-  label: Nuon general API
+  label: Nuon General API
   slug: nuon-general-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-general-api-openapi.yml
 - filename: nuon-installs-api-openapi.yml
   format: yaml
-  label: Nuon installs API
+  label: Nuon Installs API
   slug: nuon-installs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-installs-api-openapi.yml
 - filename: nuon-notebooks-api-openapi.yml
   format: yaml
-  label: Nuon notebooks API
+  label: Nuon Notebooks API
   slug: nuon-notebooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-notebooks-api-openapi.yml
 - filename: nuon-onboarding-api-openapi.yml
   format: yaml
-  label: Nuon onboarding API
+  label: Nuon Onboarding API
   slug: nuon-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-onboarding-api-openapi.yml
 - filename: nuon-orgs-api-openapi.yml
   format: yaml
-  label: Nuon orgs API
+  label: Nuon Orgs API
   slug: nuon-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-orgs-api-openapi.yml
 - filename: nuon-policy-reports-api-openapi.yml
   format: yaml
-  label: Nuon policy-reports API
+  label: Nuon Policy Reports API
   slug: nuon-policy-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-policy-reports-api-openapi.yml
 - filename: nuon-queues-api-openapi.yml
   format: yaml
-  label: Nuon queues API
+  label: Nuon Queues API
   slug: nuon-queues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-queues-api-openapi.yml
 - filename: nuon-runbooks-api-openapi.yml
   format: yaml
-  label: Nuon runbooks API
+  label: Nuon Runbooks API
   slug: nuon-runbooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-runbooks-api-openapi.yml
 - filename: nuon-runners-api-openapi.yml
   format: yaml
-  label: Nuon runners API
+  label: Nuon Runners API
   slug: nuon-runners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-runners-api-openapi.yml
 - filename: nuon-runners-runner-api-openapi.yml
   format: yaml
-  label: Nuon runners/runner API
+  label: Nuon Runners/runner API
   slug: nuon-runners-runner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-runners-runner-api-openapi.yml
 - filename: nuon-slack-api-openapi.yml
   format: yaml
-  label: Nuon slack API
+  label: Nuon Slack API
   slug: nuon-slack-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-slack-api-openapi.yml
 - filename: nuon-vcs-api-openapi.yml
   format: yaml
-  label: Nuon vcs API
+  label: Nuon VCS API
   slug: nuon-vcs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-vcs-api-openapi.yml

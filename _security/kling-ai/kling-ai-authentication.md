@@ -90,5 +90,5 @@ tags:
 - Generative Video
 - Lip Sync
 - Virtual Try-On
-- Image-Generation
+- Image Generation
 ---

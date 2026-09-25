@@ -212,7 +212,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/openapi/planradar-users-v1-api-openapi.yml
 - filename: planradar-videos-api-openapi.yml
   format: yaml
-  label: PlanRadar videos API
+  label: PlanRadar Videos API
   slug: planradar-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/openapi/planradar-videos-api-openapi.yml
@@ -250,7 +250,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Construction
-- Real-Estate
+- Real Estate
 - Project Management
 - Documentation
 - Defect Management

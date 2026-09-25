@@ -294,5 +294,5 @@ tags:
 - Staking
 - Security
 - Agent Skills
-- agent-native
+- Agent-Native
 ---

@@ -38,5 +38,5 @@ tags:
 - Digital Commerce
 - Emerging Markets
 - Philippines
-- Financial-Services
+- Financial Services
 ---

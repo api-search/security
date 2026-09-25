@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonneville-pow
 summary_line: 0 schemes
 tags:
 - Energy
-- Federal-Government
+- Federal Government
 - GIS
 - Hydroelectric
 - Pacific Northwest

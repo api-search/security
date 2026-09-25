@@ -40,7 +40,7 @@ tags:
 - Company
 - PropTech
 - Fintech
-- Real-Estate
+- Real Estate
 - Homeownership
 - Mortgage Alternative
 - Shared Ownership

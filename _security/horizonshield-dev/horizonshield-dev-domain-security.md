@@ -41,8 +41,8 @@ layout: security
 method: probed
 name: Horizonshield Dev Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for The HORIZ音s株式会社, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
-provider_name: The HORIZ音s株式会社
+overview: 'Domain security posture for HORIZON SHIELD, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: HORIZON SHIELD
 provider_slug: horizonshield-dev
 slug: horizonshield-dev-domain-security
 source_filename: horizonshield-dev-domain-security.yml
@@ -64,6 +64,6 @@ tags:
 - A2A
 - AP2
 - Agents
-- agent-native
+- Agent-Native
 - Japan
 ---

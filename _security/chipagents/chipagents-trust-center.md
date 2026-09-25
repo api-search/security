@@ -24,7 +24,7 @@ tags:
 - Chip Design
 - EDA
 - Verification
-- Agentic AI
+- AI Agents
 - Developer Tools
 trust_url: https://chipagents.ai/trust-center
 ---

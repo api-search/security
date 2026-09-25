@@ -2,13 +2,13 @@
 api_specs:
 - filename: andel-purchases-api-openapi.yml
   format: yaml
-  label: Andel purchases API
+  label: Andel Purchases API
   slug: andel-purchases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-purchases-api-openapi.yml
 - filename: andel-webhooks-api-openapi.yml
   format: yaml
-  label: Andel webhooks API
+  label: Andel Webhooks API
   slug: andel-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-webhooks-api-openapi.yml

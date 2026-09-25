@@ -37,5 +37,5 @@ tags:
 - PropTech
 - Home Warranty
 - Moving
-- Real-Estate
+- Real Estate
 ---

@@ -23,7 +23,7 @@ tags:
 - AI Observability
 - ML Monitoring
 - LLM Observability
-- Agentic AI
+- AI Agents
 - AI Security
 - AI Governance
 - Model Monitoring

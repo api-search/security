@@ -37,6 +37,6 @@ tags:
 - Rentals
 - Deposits
 - Tenancy
-- Real-Estate
+- Real Estate
 - United Kingdom
 ---

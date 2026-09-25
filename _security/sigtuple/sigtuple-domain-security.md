@@ -37,5 +37,5 @@ tags:
 - Pathology
 - Medical Devices
 - Microscopy
-- Machine-Learning
+- Machine Learning
 ---

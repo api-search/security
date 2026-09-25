@@ -24,8 +24,8 @@ layout: security
 method: probed
 name: Axiado Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Axiado Corporation, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Axiado Corporation
+overview: 'Domain security posture for Axiado, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Axiado
 provider_slug: axiado-corporation
 slug: axiado-corporation-domain-security
 source_filename: axiado-corporation-domain-security.yml
@@ -38,7 +38,7 @@ tags:
 - Semiconductors
 - Hardware Security
 - Platform Security
-- Data-Center
+- Data Center
 - Cybersecurity
 - Baseboard Management Controller
 - Root of Trust

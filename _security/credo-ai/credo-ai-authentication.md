@@ -290,7 +290,7 @@ tags:
 - ai-risk-management
 - Responsible AI
 - Compliance
-- Regulatory Technology
+- RegTech
 - Model Registry
 - Vendor Risk
 - EU AI Act

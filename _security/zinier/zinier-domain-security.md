@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Field Service Management
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Field Service
 - Enterprise Software
 ---

@@ -39,6 +39,6 @@ tags:
 - KYC
 - Anti-Fraud
 - iGaming
-- Financial-Services
+- Financial Services
 - Security
 ---

@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-powe
 summary_line: oauth2 · 1 scheme
 tags:
 - Microsoft Office
-- Microsoft-365
+- Microsoft 365
 - Presentations
 - Productivity
 - Documents

@@ -34,7 +34,7 @@ tags:
 - Capability-Based Security
 - Code Generation
 - IPC
-- Open-Source
+- Open Source
 - Protocol
 - RPC
 - Schema

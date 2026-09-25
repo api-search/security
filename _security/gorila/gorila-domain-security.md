@@ -33,7 +33,7 @@ tags:
 - Company
 - Fintech
 - Investment
-- Portfolio-Management
+- Portfolio Management
 - Wealth Management
 - Financial Data
 - Investment Consolidation

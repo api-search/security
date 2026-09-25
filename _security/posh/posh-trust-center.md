@@ -25,15 +25,15 @@ summary_line: SOC 2 Type II, SOC 3, CSA STAR, CSA AI Trustworthy Pledge
 tags:
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Customer Service
 - Contact Center
 - Voice
 - Chatbots
-- Knowledge-Management
+- Knowledge Management
 - RegTech
 trust_url: https://security.posh.ai/
 ---

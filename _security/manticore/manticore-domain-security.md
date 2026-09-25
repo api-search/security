@@ -14,7 +14,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-search-api-openapi.yml
 - filename: manticore-utils-api-openapi.yml
   format: yaml
-  label: Manticore Search utils API
+  label: Manticore Search Utils API
   slug: manticore-utils-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-utils-api-openapi.yml
@@ -60,6 +60,6 @@ tags:
 - Full-Text Search
 - Vector Search
 - Elasticsearch Compatible
-- Open-Source
+- Open Source
 - Database
 ---

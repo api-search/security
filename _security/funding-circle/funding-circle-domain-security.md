@@ -56,6 +56,6 @@ tags:
 - Small Business
 - Fintech
 - Loans
-- Financial-Services
+- Financial Services
 - Payments
 ---

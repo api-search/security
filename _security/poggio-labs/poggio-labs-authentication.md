@@ -95,7 +95,7 @@ tags:
 - MCP
 - AI Agents
 - Enterprise
-- Open-Source
+- Open Source
 - Goals
 - Gong
 - Slack

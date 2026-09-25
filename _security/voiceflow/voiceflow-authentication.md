@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
-- Conversational
+- Conversational AI
 - Chat
 - Voice
 - Agent Builder

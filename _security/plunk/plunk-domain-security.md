@@ -93,12 +93,12 @@ tags:
 - Transactional Email
 - Marketing
 - Automation
-- Open-Source
+- Open Source
 - Software-as-a-Service
 - Email API
 - Webhook
 - Segmentation
-- Workflow-Automation
+- Workflow Automation
 - Self-Hosted
 - Developer Tools
 ---

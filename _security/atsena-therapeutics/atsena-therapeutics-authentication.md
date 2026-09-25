@@ -3,54 +3,12 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: atsena-therapeutics-categories-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Categories API
-  slug: atsena-therapeutics-categories-api
+- filename: atsena-therapeutics-wp-rest-discovery-original.json
+  format: json
+  label: Atsena Therapeutics Website (WordPress REST)
+  slug: atsenatx-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-categories-api-openapi.yml
-- filename: atsena-therapeutics-discovery-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Discovery API
-  slug: atsena-therapeutics-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-discovery-api-openapi.yml
-- filename: atsena-therapeutics-media-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Media API
-  slug: atsena-therapeutics-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-media-api-openapi.yml
-- filename: atsena-therapeutics-pages-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Pages API
-  slug: atsena-therapeutics-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-pages-api-openapi.yml
-- filename: atsena-therapeutics-posts-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Posts API
-  slug: atsena-therapeutics-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-posts-api-openapi.yml
-- filename: atsena-therapeutics-search-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Search API
-  slug: atsena-therapeutics-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-search-api-openapi.yml
-- filename: atsena-therapeutics-tags-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics Tags API
-  slug: atsena-therapeutics-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-tags-api-openapi.yml
-- filename: atsena-therapeutics-o-embed-api-openapi.yml
-  format: yaml
-  label: Atsena Therapeutics o Embed API
-  slug: atsena-therapeutics-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-o-embed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/openapi/atsena-therapeutics-wp-rest-discovery-original.json
 auth_types:
 - none
 - http

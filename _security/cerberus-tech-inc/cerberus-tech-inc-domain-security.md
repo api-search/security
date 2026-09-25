@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Cerberus Tech Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Cerberus Tech, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Cerberus Tech, Inc.
+overview: 'Domain security posture for C7 Security, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: C7 Security
 provider_slug: cerberus-tech-inc
 slug: cerberus-tech-inc-domain-security
 source_filename: cerberus-tech-inc-domain-security.yml

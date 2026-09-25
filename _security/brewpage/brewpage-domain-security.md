@@ -44,7 +44,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-owner-check-api-openapi.yml
 - filename: brewpage-preview-api-openapi.yml
   format: yaml
-  label: BrewPage preview API
+  label: BrewPage Preview API
   slug: brewpage-preview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-preview-api-openapi.yml

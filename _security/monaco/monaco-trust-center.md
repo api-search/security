@@ -112,5 +112,6 @@ tags:
 - Audiences
 - Sales Engagement
 - Agents
+- A2A
 trust_url: https://trust.monaco.com
 ---

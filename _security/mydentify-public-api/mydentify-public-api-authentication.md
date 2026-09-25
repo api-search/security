@@ -68,7 +68,7 @@ tags:
 - Research
 - Software-as-a-Service
 - Developer Tools
-- agent-native
+- Agent-Native
 - llms-txt
 - Agent Skills
 - Directories

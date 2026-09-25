@@ -36,5 +36,5 @@ tags:
 - PropTech
 - Rentals
 - Wealth
-- Financial-Services
+- Financial Services
 ---

@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/security/bureau-of-consular-affairs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Federal-Government
+- Federal Government
 - Passports
 - Travel
 - Travel Advisories

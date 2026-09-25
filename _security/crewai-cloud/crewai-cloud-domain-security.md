@@ -77,4 +77,5 @@ tags:
 - Automation
 - Observability
 - Human-in-the-Loop
+- A2A
 ---

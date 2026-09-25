@@ -41,7 +41,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise
 - ERP
-- Financial
+- Finance
 - Oracle
 - PeopleSoft
 ---

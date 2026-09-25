@@ -449,6 +449,6 @@ tags:
 - SD-WAN
 - SMS
 - SASE
-- Telco
+- Telecommunications
 - Voice
 ---

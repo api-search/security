@@ -71,4 +71,5 @@ tags:
 - Connected Car
 - IoT
 - Vehicle Data
+- Mobility
 ---

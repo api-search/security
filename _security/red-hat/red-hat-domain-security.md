@@ -270,5 +270,5 @@ tags:
 - Hybrid Cloud
 - Kubernetes
 - Linux
-- Open-Source
+- Open Source
 ---

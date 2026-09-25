@@ -47,7 +47,7 @@ tags:
 - Robotics
 - Industrial Inspection
 - Autonomous Systems
-- Computer-Vision
+- Computer Vision
 - Asset Monitoring
 - Energy
 - Oil and Gas

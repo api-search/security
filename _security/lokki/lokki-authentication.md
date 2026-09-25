@@ -658,4 +658,5 @@ tags:
 - MCP
 - Agents
 - Agent Skills
+- A2A
 ---

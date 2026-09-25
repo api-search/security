@@ -41,7 +41,7 @@ tags:
 - Banking
 - Business Banking
 - Fintech
-- Financial-Services
+- Financial Services
 - Small Business
 - Payments
 ---

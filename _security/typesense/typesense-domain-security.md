@@ -73,8 +73,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesense/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Full-Text Search
-- Open-Source
+- Open Source
 - Search Engines
 - Typo Tolerance
 - Vector Search
+- Search
 ---

@@ -38,7 +38,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vodafone/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications
-- Telco
 - Mobile Network Operator
 - 5G
 - 4G

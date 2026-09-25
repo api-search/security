@@ -32,6 +32,6 @@ tags:
 - Vacation Rentals
 - Short-Term Rental
 - Property Management
-- Real-Estate
+- Real Estate
 - Booking
 ---

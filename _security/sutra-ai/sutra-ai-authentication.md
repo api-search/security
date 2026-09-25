@@ -48,4 +48,5 @@ tags:
 - Multilingual
 - Inference
 - Reasoning
+- Real-Time
 ---

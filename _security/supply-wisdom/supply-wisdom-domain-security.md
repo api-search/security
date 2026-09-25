@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Risk
+- Risk Management
 - Third-Party Risk Management
 - Supply Chain
 - Governance Risk and Compliance

@@ -93,11 +93,12 @@ tags:
 - Ai Apps
 - Contact Center
 - Conversation Intelligence
-- Customer-Support
-- Agentic AI
+- Customer Support
+- AI Agents
 - Voice AI
 - Quality Assurance
 - Reporting
 - OpenAPI
 - Speech Analytics
+- Conversational AI
 ---

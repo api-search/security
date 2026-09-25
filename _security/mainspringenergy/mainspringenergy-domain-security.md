@@ -36,7 +36,7 @@ tags:
 - Power Generation
 - Clean Energy
 - Distributed Energy
-- Data-Center
+- Data Center
 - Hardware
 - Climate
 ---

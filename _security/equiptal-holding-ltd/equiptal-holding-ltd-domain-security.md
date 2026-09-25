@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Equiptal Holding Ltd Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EQUIPTAL HOLDING LTD, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: EQUIPTAL HOLDING LTD
+overview: 'Domain security posture for EQUIPTAL, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: EQUIPTAL
 provider_slug: equiptal-holding-ltd
 slug: equiptal-holding-ltd-domain-security
 source_filename: equiptal-holding-ltd-domain-security.yml

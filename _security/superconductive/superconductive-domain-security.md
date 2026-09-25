@@ -36,6 +36,6 @@ tags:
 - Data Quality
 - Data Validation
 - Data Testing
-- Open-Source
+- Open Source
 - Python
 ---

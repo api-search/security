@@ -31,8 +31,8 @@ layout: security
 method: probed
 name: Csx Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for CSX Corporation, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: CSX Corporation
+overview: 'Domain security posture for CSX, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: CSX
 provider_slug: csx
 slug: csx-domain-security
 source_filename: csx-domain-security.yml

@@ -37,6 +37,6 @@ tags:
 - Peer-to-Peer
 - E-Commerce
 - Blockchain
-- Open-Source
+- Open Source
 - Defunct
 ---

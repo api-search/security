@@ -2,19 +2,19 @@
 api_specs:
 - filename: hitchpin-instant-invoice-share-api-openapi.yml
   format: yaml
-  label: HitchPin instant-invoice-share API
+  label: HitchPin Instant Invoice Share API
   slug: hitchpin-instant-invoice-share-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoice-share-api-openapi.yml
 - filename: hitchpin-instant-invoices-api-openapi.yml
   format: yaml
-  label: HitchPin instant-invoices API
+  label: HitchPin Instant Invoices API
   slug: hitchpin-instant-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoices-api-openapi.yml
 - filename: hitchpin-rendering-api-openapi.yml
   format: yaml
-  label: HitchPin rendering API
+  label: HitchPin Rendering API
   slug: hitchpin-rendering-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-rendering-api-openapi.yml

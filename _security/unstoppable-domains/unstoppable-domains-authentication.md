@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: unstoppable-domains-account-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains account API
+  label: Unstoppable Domains Account API
   slug: unstoppable-domains-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-account-api-openapi.yml
@@ -28,7 +28,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-cart-api-openapi.yml
 - filename: unstoppable-domains-contacts-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains contacts API
+  label: Unstoppable Domains Contacts API
   slug: unstoppable-domains-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-contacts-api-openapi.yml
@@ -40,43 +40,43 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-dns-management-api-openapi.yml
 - filename: unstoppable-domains-dns-records-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains dns-records API
+  label: Unstoppable Domains Dns Records API
   slug: unstoppable-domains-dns-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-dns-records-api-openapi.yml
 - filename: unstoppable-domains-domain-contacts-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domain-contacts API
+  label: Unstoppable Domains Domain Contacts API
   slug: unstoppable-domains-domain-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-contacts-api-openapi.yml
 - filename: unstoppable-domains-domain-flags-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domain-flags API
+  label: Unstoppable Domains Domain Flags API
   slug: unstoppable-domains-domain-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-flags-api-openapi.yml
 - filename: unstoppable-domains-domain-management-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domain-management API
+  label: Unstoppable Domains Domain Management API
   slug: unstoppable-domains-domain-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-management-api-openapi.yml
 - filename: unstoppable-domains-domain-registration-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domain_registration API
+  label: Unstoppable Domains Domain Registration API
   slug: unstoppable-domains-domain-registration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-registration-api-openapi.yml
 - filename: unstoppable-domains-domain-search-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domain-search API
+  label: Unstoppable Domains Domain Search API
   slug: unstoppable-domains-domain-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-search-api-openapi.yml
 - filename: unstoppable-domains-domain-transfers-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains domain-transfers API
+  label: Unstoppable Domains Domain Transfers API
   slug: unstoppable-domains-domain-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-transfers-api-openapi.yml
@@ -88,19 +88,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domains-api-openapi.yml
 - filename: unstoppable-domains-external-domains-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains external_domains API
+  label: Unstoppable Domains External Domains API
   slug: unstoppable-domains-external-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-external-domains-api-openapi.yml
 - filename: unstoppable-domains-external-wallets-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains external_wallets API
+  label: Unstoppable Domains External Wallets API
   slug: unstoppable-domains-external-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-external-wallets-api-openapi.yml
 - filename: unstoppable-domains-hosting-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains hosting API
+  label: Unstoppable Domains Hosting API
   slug: unstoppable-domains-hosting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-hosting-api-openapi.yml
@@ -112,13 +112,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-leads-api-openapi.yml
 - filename: unstoppable-domains-marketplace-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains marketplace API
+  label: Unstoppable Domains Marketplace API
   slug: unstoppable-domains-marketplace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-marketplace-api-openapi.yml
 - filename: unstoppable-domains-operations-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains operations API
+  label: Unstoppable Domains Operations API
   slug: unstoppable-domains-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-operations-api-openapi.yml
@@ -130,7 +130,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-owner-api-openapi.yml
 - filename: unstoppable-domains-owners-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains owners API
+  label: Unstoppable Domains Owners API
   slug: unstoppable-domains-owners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-owners-api-openapi.yml
@@ -142,7 +142,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-portfolio-api-openapi.yml
 - filename: unstoppable-domains-pricing-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains pricing API
+  label: Unstoppable Domains Pricing API
   slug: unstoppable-domains-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-pricing-api-openapi.yml
@@ -160,7 +160,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-rpc-proxy-api-openapi.yml
 - filename: unstoppable-domains-search-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains search API
+  label: Unstoppable Domains Search API
   slug: unstoppable-domains-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-search-api-openapi.yml
@@ -178,25 +178,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-status-api-openapi.yml
 - filename: unstoppable-domains-suggestions-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains suggestions API
+  label: Unstoppable Domains Suggestions API
   slug: unstoppable-domains-suggestions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-suggestions-api-openapi.yml
 - filename: unstoppable-domains-tlds-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains tlds API
+  label: Unstoppable Domains Tlds API
   slug: unstoppable-domains-tlds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-tlds-api-openapi.yml
 - filename: unstoppable-domains-wallets-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains wallets API
+  label: Unstoppable Domains Wallets API
   slug: unstoppable-domains-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-wallets-api-openapi.yml
 - filename: unstoppable-domains-webhooks-api-openapi.yml
   format: yaml
-  label: Unstoppable Domains webhooks API
+  label: Unstoppable Domains Webhooks API
   slug: unstoppable-domains-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-webhooks-api-openapi.yml

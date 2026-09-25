@@ -20,8 +20,8 @@ method: searched
 name: Councilof Ai Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: CSOAI Ltd secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: CSOAI Ltd
+overview: Council of AI secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Council of AI
 provider_slug: councilof-ai
 scheme_count: 3
 schemes:
@@ -77,6 +77,6 @@ tags:
 - MCP
 - x402
 - Agentic Commerce
-- agent-native
+- Agent-Native
 - United Kingdom
 ---

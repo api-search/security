@@ -40,7 +40,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-dashboards-api-openapi.yml
 - filename: pydantic-ai-discovery-api-openapi.yml
   format: yaml
-  label: PydanticAI discovery API
+  label: PydanticAI Discovery API
   slug: pydantic-ai-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-discovery-api-openapi.yml
@@ -149,4 +149,5 @@ tags:
 - Gemini
 - Observability
 - Framework
+- A2A
 ---

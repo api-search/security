@@ -35,7 +35,7 @@ tags:
 - Hotels
 - Revenue Management
 - Dynamic Pricing
-- Machine-Learning
+- Machine Learning
 - Travel
 - Pricing
 ---

@@ -130,7 +130,7 @@ tags:
 - Disability Services
 - Case Management
 - Care Coordination
-- HL7 FHIR
+- FHIR
 - HIPAA
 trust_url: https://trust.monami.io
 ---

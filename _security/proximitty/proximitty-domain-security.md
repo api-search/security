@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Financial-Services
+- Financial Services
 - Commercial Lending
 - Banking
 - Fintech

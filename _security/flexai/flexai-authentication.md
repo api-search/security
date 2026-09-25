@@ -76,7 +76,7 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - OpenAI-Compatible

@@ -38,6 +38,6 @@ tags:
 - Cold Chain
 - Herd Management
 - Milk Procurement
-- Machine-Learning
+- Machine Learning
 - India
 ---

@@ -61,6 +61,6 @@ tags:
 - Call Monitoring
 - Speech Analytics
 - Contact Center
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - National Security
 - Defense
 - Generative AI

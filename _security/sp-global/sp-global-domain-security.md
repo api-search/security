@@ -133,4 +133,5 @@ tags:
 - Mobility
 - Named Entity Recognition
 - Speech-to-Text
+- Real-Time
 ---

@@ -45,7 +45,7 @@ summary_line: http · 1 scheme
 tags:
 - Media
 - Video Generation
-- Image-Generation
+- Image Generation
 - Automation
 - Templates
 - Rendering

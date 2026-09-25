@@ -2,79 +2,79 @@
 api_specs:
 - filename: rhythms-access-requests-api-openapi.yml
   format: yaml
-  label: Rhythms access_requests API
+  label: Rhythms Access Requests API
   slug: rhythms-access-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-access-requests-api-openapi.yml
 - filename: rhythms-chat-refresh-threads-api-openapi.yml
   format: yaml
-  label: Rhythms chat_refresh_threads API
+  label: Rhythms Chat Refresh Threads API
   slug: rhythms-chat-refresh-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-chat-refresh-threads-api-openapi.yml
 - filename: rhythms-connector-requests-api-openapi.yml
   format: yaml
-  label: Rhythms connector_requests API
+  label: Rhythms Connector Requests API
   slug: rhythms-connector-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-connector-requests-api-openapi.yml
 - filename: rhythms-data-sources-api-openapi.yml
   format: yaml
-  label: Rhythms data_sources API
+  label: Rhythms Data Sources API
   slug: rhythms-data-sources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-data-sources-api-openapi.yml
 - filename: rhythms-documents-api-openapi.yml
   format: yaml
-  label: Rhythms documents API
+  label: Rhythms Documents API
   slug: rhythms-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-documents-api-openapi.yml
 - filename: rhythms-explorer-views-api-openapi.yml
   format: yaml
-  label: Rhythms explorer_views API
+  label: Rhythms Explorer Views API
   slug: rhythms-explorer-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-explorer-views-api-openapi.yml
 - filename: rhythms-labels-api-openapi.yml
   format: yaml
-  label: Rhythms labels API
+  label: Rhythms Labels API
   slug: rhythms-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-labels-api-openapi.yml
 - filename: rhythms-mention-access-checks-api-openapi.yml
   format: yaml
-  label: Rhythms mention_access_checks API
+  label: Rhythms Mention Access Checks API
   slug: rhythms-mention-access-checks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-mention-access-checks-api-openapi.yml
 - filename: rhythms-notifications-api-openapi.yml
   format: yaml
-  label: Rhythms notifications API
+  label: Rhythms Notifications API
   slug: rhythms-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-notifications-api-openapi.yml
 - filename: rhythms-objectives-api-openapi.yml
   format: yaml
-  label: Rhythms objectives API
+  label: Rhythms Objectives API
   slug: rhythms-objectives-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-objectives-api-openapi.yml
 - filename: rhythms-teams-api-openapi.yml
   format: yaml
-  label: Rhythms teams API
+  label: Rhythms Teams API
   slug: rhythms-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-teams-api-openapi.yml
 - filename: rhythms-time-periods-api-openapi.yml
   format: yaml
-  label: Rhythms time_periods API
+  label: Rhythms Time Periods API
   slug: rhythms-time-periods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-time-periods-api-openapi.yml
 - filename: rhythms-users-api-openapi.yml
   format: yaml
-  label: Rhythms users API
+  label: Rhythms Users API
   slug: rhythms-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-users-api-openapi.yml
@@ -101,7 +101,7 @@ tags:
 - Productivity
 - Goal Tracking
 - OKRs
-- Workflow-Automation
+- Workflow Automation
 - Team Collaboration
 - Business Reviews
 - MCP

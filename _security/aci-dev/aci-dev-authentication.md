@@ -5,25 +5,25 @@ api_key_in:
 api_specs:
 - filename: aci-dev-app-configurations-api-openapi.yml
   format: yaml
-  label: ACI.dev app-configurations API
+  label: ACI.dev App Configurations API
   slug: aci-dev-app-configurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-app-configurations-api-openapi.yml
 - filename: aci-dev-apps-api-openapi.yml
   format: yaml
-  label: ACI.dev apps API
+  label: ACI.dev Apps API
   slug: aci-dev-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-apps-api-openapi.yml
 - filename: aci-dev-functions-api-openapi.yml
   format: yaml
-  label: ACI.dev functions API
+  label: ACI.dev Functions API
   slug: aci-dev-functions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-functions-api-openapi.yml
 - filename: aci-dev-linked-accounts-api-openapi.yml
   format: yaml
-  label: ACI.dev linked-accounts API
+  label: ACI.dev Linked Accounts API
   slug: aci-dev-linked-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-linked-accounts-api-openapi.yml
@@ -63,7 +63,7 @@ tags:
 - Function Calling
 - MCP
 - Authentication
-- Open-Source
+- Open Source
 - Tool Calling
 - VibeOps
 ---

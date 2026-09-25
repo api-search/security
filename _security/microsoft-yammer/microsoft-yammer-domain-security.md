@@ -111,7 +111,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Enterprise Social
 - Microsoft
-- Social Networking
+- Social Network
 - Viva Engage
 - Yammer
 ---

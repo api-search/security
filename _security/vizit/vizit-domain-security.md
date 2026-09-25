@@ -49,6 +49,6 @@ tags:
 - Content Effectiveness
 - Retail Media
 - Product Detail Pages
-- Machine-Learning
+- Machine Learning
 - Generative AI
 ---

@@ -38,4 +38,5 @@ tags:
 - E-Commerce
 - B2B Commerce
 - Supply Chain
+- Food and Beverage
 ---

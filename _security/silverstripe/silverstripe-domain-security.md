@@ -41,7 +41,7 @@ tags:
 - GraphQL
 - REST API
 - PHP
-- Open-Source
+- Open Source
 - Framework
 - Pages
 - Assets

@@ -86,5 +86,6 @@ tags:
 - Business Process Management
 - Process Automation
 - Workflows
+- Workflow Automation
 trust_url: https://trust.camunda.com/
 ---

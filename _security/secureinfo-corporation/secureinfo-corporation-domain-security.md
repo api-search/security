@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Secureinfo Corporation Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SecureInfo Corporation, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: SecureInfo Corporation
+overview: 'Domain security posture for SecureInfo, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: SecureInfo
 provider_slug: secureinfo-corporation
 slug: secureinfo-corporation-domain-security
 source_filename: secureinfo-corporation-domain-security.yml

@@ -2,7 +2,7 @@
 api_specs:
 - filename: polytomic-subpackage-bulksync-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_bulkSync API
+  label: Polytomic Subpackage Bulk Sync API
   slug: polytomic-subpackage-bulksync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-api-openapi.yml
@@ -14,115 +14,115 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-executions-api-openapi.yml
 - filename: polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_bulkSync.subpackage_bulkSync/schedules API
+  label: Polytomic Subpackage Bulk Sync.subpackage Bulk Sync/schedules API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api-openapi.yml
 - filename: polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_bulkSync.subpackage_bulkSync/schemas API
+  label: Polytomic Subpackage Bulk Sync.subpackage Bulk Sync/schemas API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api-openapi.yml
 - filename: polytomic-subpackage-connections-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_connections API
+  label: Polytomic Subpackage Connections API
   slug: polytomic-subpackage-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-connections-api-openapi.yml
 - filename: polytomic-subpackage-entities-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_entities API
+  label: Polytomic Subpackage Entities API
   slug: polytomic-subpackage-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-entities-api-openapi.yml
 - filename: polytomic-subpackage-events-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_events API
+  label: Polytomic Subpackage Events API
   slug: polytomic-subpackage-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-events-api-openapi.yml
 - filename: polytomic-subpackage-identity-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_identity API
+  label: Polytomic Subpackage Identity API
   slug: polytomic-subpackage-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-identity-api-openapi.yml
 - filename: polytomic-subpackage-jobs-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_jobs API
+  label: Polytomic Subpackage Jobs API
   slug: polytomic-subpackage-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-jobs-api-openapi.yml
 - filename: polytomic-subpackage-models-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_models API
+  label: Polytomic Subpackage Models API
   slug: polytomic-subpackage-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-models-api-openapi.yml
 - filename: polytomic-subpackage-modelsync-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_modelSync API
+  label: Polytomic Subpackage Model Sync API
   slug: polytomic-subpackage-modelsync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-modelsync-api-openapi.yml
 - filename: polytomic-subpackage-modelsync-subpackage-modelsync-executions-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_modelSync.subpackage_modelSync/executions API
+  label: Polytomic Subpackage Model Sync.subpackage Model Sync/executions API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-executions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-modelsync-subpackage-modelsync-executions-api-openapi.yml
 - filename: polytomic-subpackage-modelsync-subpackage-modelsync-targets-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_modelSync.subpackage_modelSync/targets API
+  label: Polytomic Subpackage Model Sync.subpackage Model Sync/targets API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-modelsync-subpackage-modelsync-targets-api-openapi.yml
 - filename: polytomic-subpackage-notifications-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_notifications API
+  label: Polytomic Subpackage Notifications API
   slug: polytomic-subpackage-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-notifications-api-openapi.yml
 - filename: polytomic-subpackage-organization-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_organization API
+  label: Polytomic Subpackage Organization API
   slug: polytomic-subpackage-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-organization-api-openapi.yml
 - filename: polytomic-subpackage-permissions-subpackage-permissions-policies-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_permissions.subpackage_permissions/policies API
+  label: Polytomic Subpackage Permissions.subpackage Permissions/policies API
   slug: polytomic-subpackage-permissions-subpackage-permissions-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-permissions-subpackage-permissions-policies-api-openapi.yml
 - filename: polytomic-subpackage-permissions-subpackage-permissions-roles-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_permissions.subpackage_permissions/roles API
+  label: Polytomic Subpackage Permissions.subpackage Permissions/roles API
   slug: polytomic-subpackage-permissions-subpackage-permissions-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-permissions-subpackage-permissions-roles-api-openapi.yml
 - filename: polytomic-subpackage-queryrunner-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_queryRunner API
+  label: Polytomic Subpackage Query Runner API
   slug: polytomic-subpackage-queryrunner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-queryrunner-api-openapi.yml
 - filename: polytomic-subpackage-schemas-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_schemas API
+  label: Polytomic Subpackage Schemas API
   slug: polytomic-subpackage-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-schemas-api-openapi.yml
 - filename: polytomic-subpackage-users-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_users API
+  label: Polytomic Subpackage Users API
   slug: polytomic-subpackage-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-users-api-openapi.yml
 - filename: polytomic-subpackage-webhooks-api-openapi.yml
   format: yaml
-  label: Polytomic subpackage_webhooks API
+  label: Polytomic Subpackage Webhooks API
   slug: polytomic-subpackage-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-webhooks-api-openapi.yml
@@ -149,7 +149,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Data Integration
 - Reverse ETL
-- Unified-API
+- Unified API
 - ELT
 - Data Sync
 trust_url: https://www.polytomic.com/security

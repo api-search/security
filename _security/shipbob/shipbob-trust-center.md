@@ -2,61 +2,61 @@
 api_specs:
 - filename: shipbob-subpackage-billing-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_billing API
+  label: ShipBob Subpackage Billing API
   slug: shipbob-subpackage-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-billing-api-openapi.yml
 - filename: shipbob-subpackage-channels-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_channels API
+  label: ShipBob Subpackage Channels API
   slug: shipbob-subpackage-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-channels-api-openapi.yml
 - filename: shipbob-subpackage-inventory-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_inventory API
+  label: ShipBob Subpackage Inventory API
   slug: shipbob-subpackage-inventory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-inventory-api-openapi.yml
 - filename: shipbob-subpackage-locations-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_locations API
+  label: ShipBob Subpackage Locations API
   slug: shipbob-subpackage-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-locations-api-openapi.yml
 - filename: shipbob-subpackage-orders-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_orders API
+  label: ShipBob Subpackage Orders API
   slug: shipbob-subpackage-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-orders-api-openapi.yml
 - filename: shipbob-subpackage-products-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_products API
+  label: ShipBob Subpackage Products API
   slug: shipbob-subpackage-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-products-api-openapi.yml
 - filename: shipbob-subpackage-receiving-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_receiving API
+  label: ShipBob Subpackage Receiving API
   slug: shipbob-subpackage-receiving-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-receiving-api-openapi.yml
 - filename: shipbob-subpackage-returns-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_returns API
+  label: ShipBob Subpackage Returns API
   slug: shipbob-subpackage-returns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-returns-api-openapi.yml
 - filename: shipbob-subpackage-simulations-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_simulations API
+  label: ShipBob Subpackage Simulations API
   slug: shipbob-subpackage-simulations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-simulations-api-openapi.yml
 - filename: shipbob-subpackage-webhooks-api-openapi.yml
   format: yaml
-  label: ShipBob subpackage_webhooks API
+  label: ShipBob Subpackage Webhooks API
   slug: shipbob-subpackage-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/openapi/shipbob-subpackage-webhooks-api-openapi.yml

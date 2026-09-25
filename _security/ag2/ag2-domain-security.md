@@ -57,7 +57,7 @@ tags:
 - AgentOS
 - AutoGen
 - Python
-- Open-Source
+- Open Source
 - LLM
 - Group Chat
 - Tool Use

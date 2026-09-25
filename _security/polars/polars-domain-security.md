@@ -38,5 +38,5 @@ tags:
 - Rust
 - Python
 - Analytics
-- Open-Source
+- Open Source
 ---

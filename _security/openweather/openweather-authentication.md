@@ -9,12 +9,6 @@ api_specs:
   slug: openweather-air-pollution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-air-pollution-api-openapi.yml
-- filename: openweather-air-pollution-api-openapi.yml
-  format: yaml
-  label: OpenWeather Air Pollution API
-  slug: openweather-air-pollution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-air-pollution-api-openapi.yml
 - filename: openweather-one-call-api-openapi.yml
   format: yaml
   label: OpenWeather One Call API

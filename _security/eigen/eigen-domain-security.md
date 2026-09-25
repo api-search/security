@@ -35,8 +35,8 @@ tags:
 - Intelligent Document Processing
 - Data Extraction
 - Natural Language Processing
-- Machine-Learning
-- Financial-Services
+- Machine Learning
+- Financial Services
 - Legal Tech
 - Insurance
 ---

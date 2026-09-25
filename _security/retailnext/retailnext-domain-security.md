@@ -38,6 +38,6 @@ tags:
 - Shopper Analytics
 - Foot Traffic
 - Loss Prevention
-- Computer-Vision
+- Computer Vision
 - Physical Retail
 ---

@@ -104,6 +104,6 @@ tags:
 - Business Intelligence
 - Dashboards
 - Data Visualization
-- Open-Source
+- Open Source
 - SQL
 ---

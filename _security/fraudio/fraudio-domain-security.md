@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Detection
 - Payment Fraud
-- Anti-Money Laundering
 - AML
 - Financial Crime
 - Payments
@@ -41,7 +40,7 @@ tags:
 - Payment Service Providers
 - Card Issuers
 - Banking
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Risk Scoring
 - Netherlands

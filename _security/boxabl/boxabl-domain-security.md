@@ -41,7 +41,7 @@ tags:
 - Construction
 - Manufacturing
 - Housing
-- Real-Estate
+- Real Estate
 - Modular Homes
 - Prefabricated Construction
 - Accessory Dwelling Units

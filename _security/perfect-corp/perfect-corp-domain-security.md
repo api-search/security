@@ -93,11 +93,11 @@ tags:
 - Virtual Try-On
 - Image Editing
 - Generative AI
-- Computer-Vision
+- Computer Vision
 - AR
 - visual-commerce
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Video Generation
 - skin-analysis
 - MCP
@@ -106,4 +106,5 @@ tags:
 - Beauty Tech
 - Retail
 - ar-try-on
+- A2A
 ---

@@ -61,7 +61,7 @@ tags:
 - Beijing
 - C9 League
 - Research
-- Open-Source
+- Open Source
 - Mirror
 - Identity Federation
 - Shibboleth

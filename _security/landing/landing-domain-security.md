@@ -40,12 +40,12 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Rentals
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- agent-native
+- Agent-Native
 - MCP
 - Search
 ---

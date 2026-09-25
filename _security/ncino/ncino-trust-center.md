@@ -532,7 +532,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Lending
 - Mortgage
 - Loan Origination

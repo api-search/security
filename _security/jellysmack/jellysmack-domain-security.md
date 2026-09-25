@@ -34,7 +34,7 @@ tags:
 - Applicative Saas
 - Creator Economy
 - Content
-- Social-Media
+- Social Media
 - Video
 - Media
 - Creators

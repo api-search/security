@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Advertising Technology
+- AdTech
 - Marketing Technology
 - E-Commerce
 - Marketing Automation

@@ -64,10 +64,10 @@ summary_line: apiKey/oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - LLM
 - Generative AI
-- Computer-Vision
+- Computer Vision
 - LLM API
 ---

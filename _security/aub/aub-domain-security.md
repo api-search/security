@@ -51,7 +51,7 @@ tags:
 - Research
 - Research Data
 - Open Access
-- Libraries
+- Library
 - Institutional Repository
 - Identity Federation
 - Learning Management

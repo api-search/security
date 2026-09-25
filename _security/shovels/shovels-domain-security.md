@@ -75,7 +75,7 @@ tags:
 - Construction
 - Building Permits
 - Contractors
-- Real-Estate
+- Real Estate
 - Property Data
 - Market Intelligence
 ---

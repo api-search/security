@@ -43,7 +43,7 @@ tags:
 - Antibodies
 - Drug Discovery
 - Therapeutics
-- Machine-Learning
+- Machine Learning
 - Biotechnology
 - Chroma
 - Foundation Models

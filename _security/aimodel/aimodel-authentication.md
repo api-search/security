@@ -2,60 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: aimodel-models-api-openapi.yml
-  format: yaml
-  label: AI model Models API
-  slug: aimodel-models-api
+- filename: aimodel-content-wp-routes-original.json
+  format: json
+  label: AI model Website (WordPress REST)
+  slug: ai-model-jp-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-models-api-openapi.yml
-- filename: aimodel-discovery-api-openapi.yml
-  format: yaml
-  label: AI model Discovery API
-  slug: aimodel-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-discovery-api-openapi.yml
-- filename: aimodel-careers-api-openapi.yml
-  format: yaml
-  label: AI model Careers API
-  slug: aimodel-careers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-careers-api-openapi.yml
-- filename: aimodel-media-api-openapi.yml
-  format: yaml
-  label: AI model Media API
-  slug: aimodel-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-media-api-openapi.yml
-- filename: aimodel-news-api-openapi.yml
-  format: yaml
-  label: AI model News API
-  slug: aimodel-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-news-api-openapi.yml
-- filename: aimodel-notifications-api-openapi.yml
-  format: yaml
-  label: AI model Notifications API
-  slug: aimodel-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-notifications-api-openapi.yml
-- filename: aimodel-pages-api-openapi.yml
-  format: yaml
-  label: AI model Pages API
-  slug: aimodel-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-pages-api-openapi.yml
-- filename: aimodel-search-api-openapi.yml
-  format: yaml
-  label: AI model Search API
-  slug: aimodel-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-search-api-openapi.yml
-- filename: aimodel-taxonomy-api-openapi.yml
-  format: yaml
-  label: AI model Taxonomy API
-  slug: aimodel-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-taxonomy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/openapi/aimodel-content-wp-routes-original.json
 auth_types: []
 description: ''
 kind: authentication

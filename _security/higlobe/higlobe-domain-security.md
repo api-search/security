@@ -37,7 +37,7 @@ tags:
 - Money Transfer
 - Remittances
 - Fintech
-- Financial-Services
+- Financial Services
 - Freelancers
 - Receiving Accounts
 ---

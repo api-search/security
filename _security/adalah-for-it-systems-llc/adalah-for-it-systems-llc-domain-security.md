@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Adalah For It Systems Llc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Adalah for IT Systems LLC, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: Adalah for IT Systems LLC
+overview: 'Domain security posture for Qanoniah, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Qanoniah
 provider_slug: adalah-for-it-systems-llc
 slug: adalah-for-it-systems-llc-domain-security
 source_filename: adalah-for-it-systems-llc-domain-security.yml

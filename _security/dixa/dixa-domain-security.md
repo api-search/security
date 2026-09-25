@@ -169,7 +169,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service
-- Conversational
+- Conversational AI
 - Omnichannel
 - CX
 - Help Desk

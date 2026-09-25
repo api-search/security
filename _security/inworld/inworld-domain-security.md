@@ -82,5 +82,6 @@ tags:
 - Voice
 - Characters
 - Games
-- Conversational
+- Conversational AI
+- A2A
 ---

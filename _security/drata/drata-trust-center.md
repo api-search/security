@@ -339,7 +339,7 @@ tags:
 - Risk Management
 - Trust Center
 - Audit
-- Vendor Risk Management
+- Third-Party Risk Management
 - Compliance Automation
 trust_url: https://trust.drata.com/
 ---

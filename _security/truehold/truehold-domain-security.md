@@ -36,11 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truehold/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Residential Real Estate
 - Sale-Leaseback
 - Home Equity
 - Property Investment
 - Lending
-- Financial-Services
+- Financial Services
 ---

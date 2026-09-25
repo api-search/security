@@ -17,8 +17,8 @@ method: probed
 name: Adonmoprivatelimited Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Adonmo Private Limited declares 1 security scheme(s) across its OpenAPI definitions.
-provider_name: Adonmo Private Limited
+overview: Adonmo declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: Adonmo
 provider_slug: adonmoprivatelimited
 scheme_count: 1
 schemes:

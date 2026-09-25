@@ -5,97 +5,97 @@ api_key_in:
 api_specs:
 - filename: memesio-agent-infra-api-openapi.yml
   format: yaml
-  label: Memesio agent-infra API
+  label: Memesio Agent Infra API
   slug: memesio-agent-infra-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-agent-infra-api-openapi.yml
 - filename: memesio-ai-captions-api-openapi.yml
   format: yaml
-  label: Memesio ai-captions API
+  label: Memesio AI Captions API
   slug: memesio-ai-captions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-captions-api-openapi.yml
 - filename: memesio-ai-jobs-api-openapi.yml
   format: yaml
-  label: Memesio ai-jobs API
+  label: Memesio AI Jobs API
   slug: memesio-ai-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-jobs-api-openapi.yml
 - filename: memesio-ai-providers-api-openapi.yml
   format: yaml
-  label: Memesio ai-providers API
+  label: Memesio AI Providers API
   slug: memesio-ai-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-providers-api-openapi.yml
 - filename: memesio-analytics-api-openapi.yml
   format: yaml
-  label: Memesio analytics API
+  label: Memesio Analytics API
   slug: memesio-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-analytics-api-openapi.yml
 - filename: memesio-auth-api-openapi.yml
   format: yaml
-  label: Memesio auth API
+  label: Memesio Auth API
   slug: memesio-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-auth-api-openapi.yml
 - filename: memesio-billing-api-openapi.yml
   format: yaml
-  label: Memesio billing API
+  label: Memesio Billing API
   slug: memesio-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-billing-api-openapi.yml
 - filename: memesio-collaboration-api-openapi.yml
   format: yaml
-  label: Memesio collaboration API
+  label: Memesio Collaboration API
   slug: memesio-collaboration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-collaboration-api-openapi.yml
 - filename: memesio-compliance-api-openapi.yml
   format: yaml
-  label: Memesio compliance API
+  label: Memesio Compliance API
   slug: memesio-compliance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-compliance-api-openapi.yml
 - filename: memesio-developer-api-api-openapi.yml
   format: yaml
-  label: Memesio developer-api
+  label: Memesio Developer API
   slug: memesio-developer-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-developer-api-api-openapi.yml
 - filename: memesio-growth-api-openapi.yml
   format: yaml
-  label: Memesio growth API
+  label: Memesio Growth API
   slug: memesio-growth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-growth-api-openapi.yml
 - filename: memesio-media-api-openapi.yml
   format: yaml
-  label: Memesio media API
+  label: Memesio Media API
   slug: memesio-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-media-api-openapi.yml
 - filename: memesio-memes-api-openapi.yml
   format: yaml
-  label: Memesio memes API
+  label: Memesio Memes API
   slug: memesio-memes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-memes-api-openapi.yml
 - filename: memesio-public-free-api-openapi.yml
   format: yaml
-  label: Memesio public-free API
+  label: Memesio Public Free API
   slug: memesio-public-free-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-public-free-api-openapi.yml
 - filename: memesio-trend-alerts-api-openapi.yml
   format: yaml
-  label: Memesio trend-alerts API
+  label: Memesio Trend Alerts API
   slug: memesio-trend-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-trend-alerts-api-openapi.yml
 - filename: memesio-video-api-openapi.yml
   format: yaml
-  label: Memesio video API
+  label: Memesio Video API
   slug: memesio-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-video-api-openapi.yml
@@ -138,7 +138,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Memes
 - Media
-- Image-Generation
+- Image Generation
 - Content
 - Developer Tools
 ---

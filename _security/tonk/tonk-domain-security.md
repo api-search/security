@@ -36,7 +36,7 @@ tags:
 - Local-First
 - CRDT
 - Collaboration
-- Open-Source
+- Open Source
 - Data Sync
 - WebAssembly
 ---

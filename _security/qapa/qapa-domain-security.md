@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qapa/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Staffing
 - Temporary Work
 - Human Resources

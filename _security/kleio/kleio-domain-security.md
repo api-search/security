@@ -46,10 +46,10 @@ tags:
 - Conversational AI
 - Knowledge Engine
 - MCP
-- Agent-to-Agent
+- A2A
 - Retail
 - Travel
-- Real-Estate
+- Real Estate
 - Automotive
 - France
 ---

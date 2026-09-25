@@ -36,7 +36,7 @@ tags:
 - eBPF
 - Network Traffic
 - Egress Control
-- Agentic AI
+- AI Agents
 - MCP
 - gRPC
 ---

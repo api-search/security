@@ -47,6 +47,6 @@ tags:
 - Mutual Funds
 - Nigeria
 - Africa
-- Financial-Services
+- Financial Services
 - REST API
 ---

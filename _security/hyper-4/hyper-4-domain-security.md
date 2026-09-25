@@ -33,7 +33,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Knowledge-Management
+- Knowledge Management
 - Knowledge Graph
 - Memory
 - Developer Tools

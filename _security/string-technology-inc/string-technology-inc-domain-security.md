@@ -28,8 +28,8 @@ layout: security
 method: probed
 name: String Technology Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for String Technology Inc, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: String Technology Inc
+overview: 'Domain security posture for String Technology, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: String Technology
 provider_slug: string-technology-inc
 slug: string-technology-inc-domain-security
 source_filename: string-technology-inc-domain-security.yml

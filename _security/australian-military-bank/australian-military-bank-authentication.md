@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://consume
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/authentication/australian-military-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

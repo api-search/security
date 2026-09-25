@@ -266,6 +266,6 @@ tags:
 - Recurring Billing
 - Payouts
 - Foreign Exchange
-- Financial-Services
+- Financial Services
 - Fintech
 ---

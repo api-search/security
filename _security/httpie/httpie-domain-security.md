@@ -50,6 +50,6 @@ tags:
 - Command Line
 - Developer Tools
 - HTTP
-- Open-Source
+- Open Source
 - Sessions
 ---

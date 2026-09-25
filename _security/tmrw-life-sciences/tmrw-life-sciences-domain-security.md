@@ -37,6 +37,6 @@ tags:
 - Healthcare
 - Medical Devices
 - Cryostorage
-- Biotech
+- Biotechnology
 - Automation
 ---

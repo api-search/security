@@ -106,10 +106,10 @@ tags:
 - Marketing
 - Media Measurement
 - Video
-- Computer-Vision
+- Computer Vision
 - Creative Analytics
 - AdTech
 - MCP
-- agent-native
+- Agent-Native
 - MarTech
 ---

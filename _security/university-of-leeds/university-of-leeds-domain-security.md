@@ -81,7 +81,7 @@ tags:
 - Russell Group
 - Research Data
 - Research Repository
-- Libraries
+- Library
 - Open Data
 - OAI-PMH
 - IIIF

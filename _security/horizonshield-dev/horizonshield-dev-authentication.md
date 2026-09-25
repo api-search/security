@@ -17,8 +17,8 @@ method: searched
 name: Horizonshield Dev Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: The HORIZ音s株式会社 declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: The HORIZ音s株式会社
+overview: HORIZON SHIELD declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: HORIZON SHIELD
 provider_slug: horizonshield-dev
 scheme_count: 0
 schemes: []
@@ -46,6 +46,6 @@ tags:
 - A2A
 - AP2
 - Agents
-- agent-native
+- Agent-Native
 - Japan
 ---

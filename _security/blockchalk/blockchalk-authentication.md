@@ -4,7 +4,7 @@ api_key_in: []
 api_specs:
 - filename: blockchalk-chalks-api-openapi.yml
   format: yaml
-  label: BlockChalk chalks API
+  label: BlockChalk Chalks API
   slug: blockchalk-chalks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blockchalk/refs/heads/main/openapi/blockchalk-chalks-api-openapi.yml

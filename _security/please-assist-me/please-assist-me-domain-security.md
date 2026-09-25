@@ -35,7 +35,7 @@ tags:
 - Home Services
 - Cleaning
 - Errands
-- Property Technology
+- PropTech
 - Consumer
 - Apartments
 ---

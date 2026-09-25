@@ -37,6 +37,6 @@ tags:
 - Accelerator
 - Silicon
 - Stealth
-- Data-Center
+- Data Center
 - Acquired
 ---

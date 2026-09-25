@@ -104,7 +104,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-email-accounts-api-openapi.yml
 - filename: lemlist-lemwarm-api-openapi.yml
   format: yaml
-  label: lemlist lemwarm API
+  label: lemlist Lemwarm API
   slug: lemlist-lemwarm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-lemwarm-api-openapi.yml
@@ -188,4 +188,5 @@ tags:
 - Multichannel Messaging
 - Webhook
 - MCP
+- A2A
 ---

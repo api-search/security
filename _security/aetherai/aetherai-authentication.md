@@ -55,7 +55,7 @@ tags:
 - Medical Imaging
 - Artificial Intelligence
 - Diagnostics
-- Machine-Learning
+- Machine Learning
 - Medical Devices
 - Life Sciences
 - MCP

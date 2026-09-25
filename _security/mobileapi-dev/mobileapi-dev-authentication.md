@@ -6,55 +6,55 @@ api_key_in:
 api_specs:
 - filename: mobileapi-dev-api-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev api
+  label: MobileAPI.dev API
   slug: mobileapi-dev-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-api-openapi.yml
 - filename: mobileapi-dev-api-token-auth-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev api-token-auth API
+  label: MobileAPI.dev API Token Auth API
   slug: mobileapi-dev-api-token-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-token-auth-api-openapi.yml
 - filename: mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev demo-x7k9m2p4 API
+  label: MobileAPI.dev Demo X7k9m2p4 API
   slug: mobileapi-dev-demo-x7k9m2p4-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
 - filename: mobileapi-dev-devices-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev devices API
+  label: MobileAPI.dev Devices API
   slug: mobileapi-dev-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-devices-api-openapi.yml
 - filename: mobileapi-dev-images-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev images API
+  label: MobileAPI.dev Images API
   slug: mobileapi-dev-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-images-api-openapi.yml
 - filename: mobileapi-dev-manufacturers-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev manufacturers API
+  label: MobileAPI.dev Manufacturers API
   slug: mobileapi-dev-manufacturers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-manufacturers-api-openapi.yml
 - filename: mobileapi-dev-me-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev me API
+  label: MobileAPI.dev Me API
   slug: mobileapi-dev-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-me-api-openapi.yml
 - filename: mobileapi-dev-payment-successful-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev payment_successful API
+  label: MobileAPI.dev Payment Successful API
   slug: mobileapi-dev-payment-successful-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-payment-successful-api-openapi.yml
 - filename: mobileapi-dev-status-api-openapi.yml
   format: yaml
-  label: MobileAPI.dev status API
+  label: MobileAPI.dev Status API
   slug: mobileapi-dev-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-status-api-openapi.yml

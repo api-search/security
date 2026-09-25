@@ -128,6 +128,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs
 summary_line: http · 1 scheme
 tags:
 - Automation
-- Customer-Support
+- Customer Support
 - Application
 ---

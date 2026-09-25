@@ -21,7 +21,6 @@ summary_line: ISO/IEC 27001:2022, SOC 2 Type I
 tags:
 - Company
 - Building Intelligence
-- Property Technology
 - PropTech
 - Facilities Management
 - Building Documentation

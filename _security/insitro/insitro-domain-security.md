@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Biotechnology
 - Life Sciences
 - Genomics

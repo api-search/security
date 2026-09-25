@@ -66,7 +66,6 @@ tags:
 - Human Resources
 - HRIS
 - Applicant Tracking
-- ATS
 - Recruiting
 - Employee Management
 - Onboarding

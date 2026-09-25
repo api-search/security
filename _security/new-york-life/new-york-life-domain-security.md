@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-york-life/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Life Insurance
 - Wealth Management
 - Fortune 100

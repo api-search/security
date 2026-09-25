@@ -71,9 +71,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Low-Code
 - Internal Tools
-- Open-Source
+- Open Source
 - Application Builder
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Dashboards
 - AI Agents

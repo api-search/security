@@ -2,13 +2,13 @@
 api_specs:
 - filename: leo-labs-catalog-api-openapi.yml
   format: yaml
-  label: LeoLabs catalog API
+  label: LeoLabs Catalog API
   slug: leo-labs-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-catalog-api-openapi.yml
 - filename: leo-labs-instruments-api-openapi.yml
   format: yaml
-  label: LeoLabs instruments API
+  label: LeoLabs Instruments API
   slug: leo-labs-instruments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/openapi/leo-labs-instruments-api-openapi.yml

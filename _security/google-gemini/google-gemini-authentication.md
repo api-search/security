@@ -45,13 +45,14 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-g
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/authentication/google-gemini-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Code Generation
 - Embeddings
 - Generative AI
-- Image-Generation
+- Image Generation
 - LLM
-- Machine-Learning
+- Machine Learning
 - Multi-Modal
+- Real-Time
 ---

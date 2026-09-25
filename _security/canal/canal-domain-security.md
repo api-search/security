@@ -2,103 +2,103 @@
 api_specs:
 - filename: canal-csv-api-openapi.yml
   format: yaml
-  label: Canal csv API
+  label: Canal CSV API
   slug: canal-csv-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-csv-api-openapi.yml
 - filename: canal-fulfillments-api-openapi.yml
   format: yaml
-  label: Canal fulfillments API
+  label: Canal Fulfillments API
   slug: canal-fulfillments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-fulfillments-api-openapi.yml
 - filename: canal-markets-api-openapi.yml
   format: yaml
-  label: Canal markets API
+  label: Canal Markets API
   slug: canal-markets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-markets-api-openapi.yml
 - filename: canal-max-shipping-rates-api-openapi.yml
   format: yaml
-  label: Canal max-shipping-rates API
+  label: Canal Max Shipping Rates API
   slug: canal-max-shipping-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-max-shipping-rates-api-openapi.yml
 - filename: canal-orders-api-openapi.yml
   format: yaml
-  label: Canal orders API
+  label: Canal Orders API
   slug: canal-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-orders-api-openapi.yml
 - filename: canal-product-sets-api-openapi.yml
   format: yaml
-  label: Canal product_sets API
+  label: Canal Product Sets API
   slug: canal-product-sets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-product-sets-api-openapi.yml
 - filename: canal-products-api-openapi.yml
   format: yaml
-  label: Canal products API
+  label: Canal Products API
   slug: canal-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-products-api-openapi.yml
 - filename: canal-refunds-api-openapi.yml
   format: yaml
-  label: Canal refunds API
+  label: Canal Refunds API
   slug: canal-refunds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-refunds-api-openapi.yml
 - filename: canal-returns-api-openapi.yml
   format: yaml
-  label: Canal returns API
+  label: Canal Returns API
   slug: canal-returns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-returns-api-openapi.yml
 - filename: canal-selection-api-openapi.yml
   format: yaml
-  label: Canal selection API
+  label: Canal Selection API
   slug: canal-selection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-selection-api-openapi.yml
 - filename: canal-shipping-api-openapi.yml
   format: yaml
-  label: Canal shipping API
+  label: Canal Shipping API
   slug: canal-shipping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-shipping-api-openapi.yml
 - filename: canal-shipping-rates-api-openapi.yml
   format: yaml
-  label: Canal shipping-rates API
+  label: Canal Shipping Rates API
   slug: canal-shipping-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-shipping-rates-api-openapi.yml
 - filename: canal-shops-api-openapi.yml
   format: yaml
-  label: Canal shops API
+  label: Canal Shops API
   slug: canal-shops-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-shops-api-openapi.yml
 - filename: canal-tax-and-shipping-api-openapi.yml
   format: yaml
-  label: Canal tax-and-shipping API
+  label: Canal Tax And Shipping API
   slug: canal-tax-and-shipping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-tax-and-shipping-api-openapi.yml
 - filename: canal-tax-api-openapi.yml
   format: yaml
-  label: Canal tax API
+  label: Canal Tax API
   slug: canal-tax-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-tax-api-openapi.yml
 - filename: canal-variants-api-openapi.yml
   format: yaml
-  label: Canal variants API
+  label: Canal Variants API
   slug: canal-variants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-variants-api-openapi.yml
 - filename: canal-webhooks-api-openapi.yml
   format: yaml
-  label: Canal webhooks API
+  label: Canal Webhooks API
   slug: canal-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/openapi/canal-webhooks-api-openapi.yml

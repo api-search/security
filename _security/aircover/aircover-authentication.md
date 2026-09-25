@@ -69,7 +69,7 @@ tags:
 - Revenue Intelligence
 - AI Agents
 - MCP
-- agent-native
+- Agent-Native
 - CRM
 - Meetings
 - Transcription

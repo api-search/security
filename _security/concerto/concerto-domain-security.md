@@ -32,5 +32,5 @@ tags:
 - Credit Cards
 - Payments
 - Cards
-- Financial-Services
+- Financial Services
 ---

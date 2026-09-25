@@ -50,7 +50,7 @@ tags:
 - Construction
 - Building Permits
 - Contractors
-- Real-Estate
+- Real Estate
 - Home Improvement
 - Property Data
 - Marketplace

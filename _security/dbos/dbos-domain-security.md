@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - API Composition
 - Durable Execution
-- Postgres
+- PostgreSQL
 - Queues
 - Scheduled Jobs
 - Workflows

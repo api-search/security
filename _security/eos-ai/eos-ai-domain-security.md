@@ -34,7 +34,7 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Clinical Data
 - Data Harmonization
 - Medical Imaging

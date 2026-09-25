@@ -35,7 +35,7 @@ tags:
 - Analytics
 - Business Intelligence
 - Supabase
-- Postgres
+- PostgreSQL
 - Dashboards
 - Data
 - Artificial Intelligence

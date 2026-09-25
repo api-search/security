@@ -38,6 +38,6 @@ tags:
 - Automation
 - Orchestration
 - Service Management
-- Agentic AI
+- AI Agents
 - ITPA
 ---

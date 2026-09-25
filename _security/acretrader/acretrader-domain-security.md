@@ -60,7 +60,7 @@ tags:
 - Farmland
 - Investing
 - Alternative Investments
-- Real-Estate
+- Real Estate
 - Fintech
 - Agriculture
 - Marketplace

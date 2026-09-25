@@ -44,7 +44,7 @@ summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company
 - Federated Learning
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Privacy
 - Artificial Intelligence

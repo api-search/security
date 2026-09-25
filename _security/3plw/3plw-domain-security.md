@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: 3Plw Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for TripleW Ltd., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: TripleW Ltd.
+overview: 'Domain security posture for TripleW, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: TripleW
 provider_slug: 3plw
 slug: 3plw-domain-security
 source_filename: 3plw-domain-security.yml

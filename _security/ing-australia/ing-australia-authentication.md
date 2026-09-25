@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://id.ob.i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/authentication/ing-australia-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

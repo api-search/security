@@ -591,4 +591,5 @@ tags:
 - Asset Management
 - Time Series
 - Industrial AI
+- Industrial
 ---

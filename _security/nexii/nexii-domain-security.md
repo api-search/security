@@ -38,5 +38,5 @@ tags:
 - Sustainability
 - Manufacturing
 - Prefabrication
-- Real-Estate
+- Real Estate
 ---

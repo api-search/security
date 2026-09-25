@@ -61,6 +61,6 @@ tags:
 - Cloud
 - Infrastructure-as-a-Service
 - Infrastructure
-- Open-Source
+- Open Source
 - Virtualization
 ---

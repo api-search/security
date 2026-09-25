@@ -67,8 +67,8 @@ method: searched
 name: Hopae Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Hopae, Inc. secures its APIs with http and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Hopae, Inc.
+overview: Hopae secures its APIs with http and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Hopae
 provider_slug: hopae-inc
 scheme_count: 2
 schemes:

@@ -81,7 +81,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR
 tags:
 - Artificial Intelligence
 - Agents
-- Customer-Support
+- Customer Support
 - Customer Experience
 - Conversational AI
 - Knowledge

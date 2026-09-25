@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Investment
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Investment Platform
 - Brazil
 ---

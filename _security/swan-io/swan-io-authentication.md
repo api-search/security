@@ -95,7 +95,6 @@ summary_line: oauth2/http · 3 schemes
 tags:
 - Embedded Banking
 - Banking as a Service
-- Backend-as-a-Service
 - Payments
 - Account
 - Cards
@@ -105,4 +104,5 @@ tags:
 - France
 - Fintech
 - GraphQL
+- Embedded Finance
 ---

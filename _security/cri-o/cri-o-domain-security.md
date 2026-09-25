@@ -84,7 +84,7 @@ tags:
 - Graduated
 - Kubernetes
 - OCI
-- Open-Source
+- Open Source
 - Prometheus
 - runc
 ---

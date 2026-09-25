@@ -84,7 +84,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Sales Enablement
-- Knowledge-Management
+- Knowledge Management
 - RFP Automation
 - Security Questionnaires
 - MCP

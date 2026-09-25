@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-items-characteristics-api-openapi.yml
 - filename: unitary-ai-moderation-api-openapi.yml
   format: yaml
-  label: Unitary AI moderation API
+  label: Unitary AI Moderation API
   slug: unitary-ai-moderation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/openapi/unitary-ai-moderation-api-openapi.yml
@@ -69,8 +69,8 @@ tags:
 - Content Moderation
 - Trust and Safety
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Video
 - Virtual Agents
 ---

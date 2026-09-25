@@ -41,7 +41,7 @@ tags:
 - Auto Insurance
 - Compliance
 - Credit Union
-- Financial-Services
+- Financial Services
 - Home Insurance
 - Insurance
 - Investment

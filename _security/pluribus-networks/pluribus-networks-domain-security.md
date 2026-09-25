@@ -34,7 +34,7 @@ tags:
 - Networking
 - Software Defined Networking
 - Open Networking
-- Data-Center
+- Data Center
 - Network Operating System
 - Acquired
 ---

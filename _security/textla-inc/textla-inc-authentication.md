@@ -10,8 +10,8 @@ method: probed
 name: Textla Inc Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Textla Inc. declares 0 security scheme(s) across its OpenAPI definitions.
-provider_name: Textla Inc.
+overview: Textla declares 0 security scheme(s) across its OpenAPI definitions.
+provider_name: Textla
 provider_slug: textla-inc
 scheme_count: 0
 schemes: []

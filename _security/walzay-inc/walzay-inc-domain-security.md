@@ -18,8 +18,8 @@ layout: security
 method: probed
 name: Walzay Inc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Walzay Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: Walzay Inc.
+overview: 'Domain security posture for Walzay, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Walzay
 provider_slug: walzay-inc
 slug: walzay-inc-domain-security
 source_filename: walzay-inc-domain-security.yml
@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walzay-inc/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Talent
 - Hiring
 - Marketplace

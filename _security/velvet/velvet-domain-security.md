@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Multimodal AI
-- Machine-Learning
+- Machine Learning
 - Datasets
 - Model Evaluation
 - Video

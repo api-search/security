@@ -37,5 +37,5 @@ tags:
 - Pharmaceuticals
 - Electronic Batch Records
 - Life Sciences
-- Biotech
+- Biotechnology
 ---

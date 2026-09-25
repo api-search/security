@@ -4,61 +4,61 @@ api_key_in: []
 api_specs:
 - filename: simplivity-backups-api-openapi.yml
   format: yaml
-  label: SimpliVity backups API
+  label: SimpliVity Backups API
   slug: simplivity-backups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-backups-api-openapi.yml
 - filename: simplivity-cluster-groups-api-openapi.yml
   format: yaml
-  label: SimpliVity cluster_groups API
+  label: SimpliVity Cluster Groups API
   slug: simplivity-cluster-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-cluster-groups-api-openapi.yml
 - filename: simplivity-datastores-api-openapi.yml
   format: yaml
-  label: SimpliVity datastores API
+  label: SimpliVity Datastores API
   slug: simplivity-datastores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-datastores-api-openapi.yml
 - filename: simplivity-external-stores-api-openapi.yml
   format: yaml
-  label: SimpliVity external_stores API
+  label: SimpliVity External Stores API
   slug: simplivity-external-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-external-stores-api-openapi.yml
 - filename: simplivity-hosts-api-openapi.yml
   format: yaml
-  label: SimpliVity hosts API
+  label: SimpliVity Hosts API
   slug: simplivity-hosts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-hosts-api-openapi.yml
 - filename: simplivity-omnistack-clusters-api-openapi.yml
   format: yaml
-  label: SimpliVity omnistack_clusters API
+  label: SimpliVity Omnistack Clusters API
   slug: simplivity-omnistack-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-omnistack-clusters-api-openapi.yml
 - filename: simplivity-policies-api-openapi.yml
   format: yaml
-  label: SimpliVity policies API
+  label: SimpliVity Policies API
   slug: simplivity-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-policies-api-openapi.yml
 - filename: simplivity-security-api-openapi.yml
   format: yaml
-  label: SimpliVity security API
+  label: SimpliVity Security API
   slug: simplivity-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-security-api-openapi.yml
 - filename: simplivity-tasks-api-openapi.yml
   format: yaml
-  label: SimpliVity tasks API
+  label: SimpliVity Tasks API
   slug: simplivity-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-tasks-api-openapi.yml
 - filename: simplivity-virtual-machines-api-openapi.yml
   format: yaml
-  label: SimpliVity virtual_machines API
+  label: SimpliVity Virtual Machines API
   slug: simplivity-virtual-machines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-virtual-machines-api-openapi.yml
@@ -100,7 +100,7 @@ tags:
 - Virtualization
 - Backup
 - Disaster Recovery
-- Data-Center
+- Data Center
 - Storage
 - Cloud Infrastructure
 - HPE

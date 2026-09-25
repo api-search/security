@@ -564,5 +564,6 @@ tags:
 - Asset Management
 - Time Series
 - Industrial AI
+- Industrial
 trust_url: https://trust.cognite.com/
 ---

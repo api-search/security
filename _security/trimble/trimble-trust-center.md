@@ -36,6 +36,36 @@ api_specs:
   slug: trimble-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+- filename: trimble-navigation-catalyst-api-openapi.yml
+  format: yaml
+  label: Trimble Catalyst API
+  slug: trimble-navigation-catalyst-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-navigation-catalyst-api-openapi.yml
+- filename: trimble-navigation-corrections-api-openapi.yml
+  format: yaml
+  label: Trimble Corrections API
+  slug: trimble-navigation-corrections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-navigation-corrections-api-openapi.yml
+- filename: trimble-navigation-positioning-api-openapi.yml
+  format: yaml
+  label: Trimble Positioning API
+  slug: trimble-navigation-positioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-navigation-positioning-api-openapi.yml
+- filename: trimble-navigation-receiver-api-openapi.yml
+  format: yaml
+  label: Trimble Receiver API
+  slug: trimble-navigation-receiver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-navigation-receiver-api-openapi.yml
+- filename: trimble-navigation-system-api-openapi.yml
+  format: yaml
+  label: Trimble System API
+  slug: trimble-navigation-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-navigation-system-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

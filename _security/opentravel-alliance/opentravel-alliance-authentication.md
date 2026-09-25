@@ -104,5 +104,5 @@ tags:
 - Booking
 - Channels
 - XML
-- JSON-Schema
+- JSON Schema
 ---

@@ -7,8 +7,8 @@ kind: trust-center
 layout: security
 name: Carefull Corporation Trust Center
 name_suffix: Trust Center
-overview: Carefull Corporation maintains a public trust center documenting SOC 2 compliance.
-provider_name: Carefull Corporation
+overview: Carefull maintains a public trust center documenting SOC 2 compliance.
+provider_name: Carefull
 provider_slug: carefull-corporation
 slug: carefull-corporation-trust-center
 source_filename: carefull-corporation-trust-center.yml

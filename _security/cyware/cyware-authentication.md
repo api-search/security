@@ -260,5 +260,5 @@ tags:
 - isac
 - Indicators of Compromise
 - MCP
-- Agentic AI
+- AI Agents
 ---

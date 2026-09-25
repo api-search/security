@@ -53,5 +53,5 @@ tags:
 - Cashback
 - Savings
 - Prescription Discounts
-- Mobile Applications
+- Mobile App
 ---

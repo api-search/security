@@ -36,6 +36,6 @@ tags:
 - Insurance
 - Rentals
 - Deposits
-- Real-Estate
+- Real Estate
 - United Kingdom
 ---

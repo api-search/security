@@ -95,7 +95,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - E-Commerce
 - Shopping Cart
-- Open-Source
+- Open Source
 - Self-Hosted
 - Product
 - Order

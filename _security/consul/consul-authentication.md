@@ -122,7 +122,7 @@ tags:
 - Health Checking
 - Key-Value Store
 - Multi-Datacenter
-- Open-Source
+- Open Source
 - Service Discovery
 - Service Mesh
 ---

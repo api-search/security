@@ -6,54 +6,6 @@ api_specs:
   slug: webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/asyncapi/dev-to-webhooks-asyncapi.yml
-- filename: dev-to-articles-api-openapi.yml
-  format: yaml
-  label: dev-to Articles API
-  slug: dev-to-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-articles-api-openapi.yml
-- filename: dev-to-comments-api-openapi.yml
-  format: yaml
-  label: dev-to Comments API
-  slug: dev-to-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-comments-api-openapi.yml
-- filename: dev-to-followers-api-openapi.yml
-  format: yaml
-  label: dev-to Followers API
-  slug: dev-to-followers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-followers-api-openapi.yml
-- filename: dev-to-organizations-api-openapi.yml
-  format: yaml
-  label: dev-to Organizations API
-  slug: dev-to-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-organizations-api-openapi.yml
-- filename: dev-to-pages-api-openapi.yml
-  format: yaml
-  label: dev-to Pages API
-  slug: dev-to-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-pages-api-openapi.yml
-- filename: dev-to-reactions-api-openapi.yml
-  format: yaml
-  label: dev-to Reactions API
-  slug: dev-to-reactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-reactions-api-openapi.yml
-- filename: dev-to-tags-api-openapi.yml
-  format: yaml
-  label: dev-to Tags API
-  slug: dev-to-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-tags-api-openapi.yml
-- filename: dev-to-users-api-openapi.yml
-  format: yaml
-  label: dev-to Users API
-  slug: dev-to-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-users-api-openapi.yml
 - filename: dev-to-webhooks-api-openapi.yml
   format: yaml
   label: dev-to Webhooks API
@@ -62,34 +14,118 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-webhooks-api-openapi.yml
 - filename: dev-to-display-ads-api-openapi.yml
   format: yaml
-  label: Dev To Display Ads API
+  label: DEV Community Display Ads API
   slug: dev-to-display-ads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-display-ads-api-openapi.yml
-- filename: dev-to-followed-tags-api-openapi.yml
+- filename: devto-agent-sessions-api-openapi.yml
   format: yaml
-  label: Dev To Followed Tags API
-  slug: dev-to-followed-tags-api
+  label: DEV Community Agent Sessions API
+  slug: devto-agent-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-followed-tags-api-openapi.yml
-- filename: dev-to-podcast-episodes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-agent-sessions-api-openapi.yml
+- filename: devto-articles-api-openapi.yml
   format: yaml
-  label: Dev To Podcast Episodes API
-  slug: dev-to-podcast-episodes-api
+  label: DEV Community Articles API
+  slug: devto-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-podcast-episodes-api-openapi.yml
-- filename: dev-to-profile-images-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-articles-api-openapi.yml
+- filename: devto-billboards-api-openapi.yml
   format: yaml
-  label: Dev To profile images API
-  slug: dev-to-profile-images-api
+  label: DEV Community Billboards API
+  slug: devto-billboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-profile-images-api-openapi.yml
-- filename: dev-to-reading-list-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-billboards-api-openapi.yml
+- filename: devto-comments-api-openapi.yml
   format: yaml
-  label: Dev To Reading List API
-  slug: dev-to-reading-list-api
+  label: DEV Community Comments API
+  slug: devto-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-reading-list-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-comments-api-openapi.yml
+- filename: devto-followed-tags-api-openapi.yml
+  format: yaml
+  label: DEV Community Followed Tags API
+  slug: devto-followed-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-followed-tags-api-openapi.yml
+- filename: devto-followers-api-openapi.yml
+  format: yaml
+  label: DEV Community Followers API
+  slug: devto-followers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-followers-api-openapi.yml
+- filename: devto-organizations-api-openapi.yml
+  format: yaml
+  label: DEV Community Organizations API
+  slug: devto-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-organizations-api-openapi.yml
+- filename: devto-pages-api-openapi.yml
+  format: yaml
+  label: DEV Community Pages API
+  slug: devto-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-pages-api-openapi.yml
+- filename: devto-podcast-episodes-api-openapi.yml
+  format: yaml
+  label: DEV Community Podcast Episodes API
+  slug: devto-podcast-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-podcast-episodes-api-openapi.yml
+- filename: devto-profile-images-api-openapi.yml
+  format: yaml
+  label: DEV Community profile images API
+  slug: devto-profile-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-profile-images-api-openapi.yml
+- filename: devto-reactions-api-openapi.yml
+  format: yaml
+  label: DEV Community Reactions API
+  slug: devto-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-reactions-api-openapi.yml
+- filename: devto-segments-api-openapi.yml
+  format: yaml
+  label: DEV Community Segments API
+  slug: devto-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-segments-api-openapi.yml
+- filename: devto-surveys-api-openapi.yml
+  format: yaml
+  label: DEV Community Surveys API
+  slug: devto-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-surveys-api-openapi.yml
+- filename: devto-tags-api-openapi.yml
+  format: yaml
+  label: DEV Community Tags API
+  slug: devto-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-tags-api-openapi.yml
+- filename: devto-trends-api-openapi.yml
+  format: yaml
+  label: DEV Community Trends API
+  slug: devto-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-trends-api-openapi.yml
+- filename: devto-users-api-openapi.yml
+  format: yaml
+  label: DEV Community Users API
+  slug: devto-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-users-api-openapi.yml
+- filename: devto-videos-api-openapi.yml
+  format: yaml
+  label: DEV Community Videos API
+  slug: devto-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-videos-api-openapi.yml
+- filename: devto-reading-list-api-openapi.yml
+  format: yaml
+  label: DEV Community Reading List API
+  slug: devto-reading-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/devto-reading-list-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -123,8 +159,8 @@ layout: security
 method: probed
 name: Dev To Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Dev To, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
-provider_name: Dev To
+overview: 'Domain security posture for DEV Community, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
+provider_name: DEV Community
 provider_slug: dev-to
 slug: dev-to-domain-security
 source_filename: dev-to-domain-security.yml
@@ -139,7 +175,7 @@ tags:
 - Publishing
 - Social
 - Blogging
-- Open-Source
+- Open Source
 - Articles
 - Webhook
 ---

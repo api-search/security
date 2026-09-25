@@ -21,7 +21,7 @@ tags:
 - Company
 - Manufacturing
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Industrial IoT
 - Assembly
 - Worker Safety

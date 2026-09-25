@@ -101,7 +101,7 @@ summary_line: SOC 2 Type 2
 tags:
 - Auto Insurance
 - Casualty
-- Financial-Services
+- Financial Services
 - Homeowners Insurance
 - Insurance
 - Insurance Verification

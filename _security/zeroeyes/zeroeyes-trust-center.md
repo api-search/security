@@ -28,7 +28,7 @@ tags:
 - Security
 - Physical Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Video Surveillance
 - Weapons Detection
 - Public Safety

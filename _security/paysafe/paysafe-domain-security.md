@@ -50,7 +50,7 @@ tags:
 - Payments
 - Digital Wallet
 - Prepaid Cards
-- Financial-Services
+- Financial Services
 - Fintech
 - High-Risk Payments
 ---

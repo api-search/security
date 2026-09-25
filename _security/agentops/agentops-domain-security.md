@@ -48,6 +48,6 @@ tags:
 - Evaluation
 - Tracing
 - Python SDK
-- Open-Source
+- Open Source
 - Agent Frameworks
 ---

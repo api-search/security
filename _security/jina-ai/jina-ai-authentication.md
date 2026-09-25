@@ -59,7 +59,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Embeddings
-- Machine-Learning
+- Machine Learning
 - Reranking
 - Search
 ---

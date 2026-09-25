@@ -37,7 +37,7 @@ tags:
 - Environmental Justice
 - Environmental Policy
 - Executive Office of the President
-- Federal-Government
+- Federal Government
 - Government
 - NEPA
 - Permitting

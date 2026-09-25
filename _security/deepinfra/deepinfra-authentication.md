@@ -71,10 +71,10 @@ tags:
 - LLM
 - Inference
 - Serverless
-- Open-Source
+- Open Source
 - OpenAI-Compatible
 - Anthropic Compatible
-- Image-Generation
+- Image Generation
 - Audio
 - Embeddings
 ---

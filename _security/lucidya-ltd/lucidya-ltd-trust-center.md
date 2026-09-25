@@ -225,8 +225,8 @@ kind: trust-center
 layout: security
 name: Lucidya Ltd Trust Center
 name_suffix: Trust Center
-overview: Lucidya Ltd maintains a public trust center documenting SOC 2 Type 2 and ISO 27001 compliance.
-provider_name: Lucidya Ltd
+overview: Lucidya maintains a public trust center documenting SOC 2 Type 2 and ISO 27001 compliance.
+provider_name: Lucidya
 provider_slug: lucidya-ltd
 slug: lucidya-ltd-trust-center
 source_filename: lucidya-ltd-trust-center.yml

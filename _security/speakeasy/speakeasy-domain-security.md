@@ -122,4 +122,6 @@ tags:
 - SDK
 - Terraform
 - Testing
+- SDK Generation
+- A2A
 ---

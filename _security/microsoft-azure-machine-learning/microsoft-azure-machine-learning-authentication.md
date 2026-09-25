@@ -49,7 +49,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence
 - Azure
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Model Deployment
 - Model Training

@@ -180,7 +180,7 @@ tags:
 - Caching
 - Cloud-Native
 - Load Balancer
-- Open-Source
+- Open Source
 - Reverse Proxy
 - Web Server
 ---

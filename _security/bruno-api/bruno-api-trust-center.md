@@ -22,9 +22,10 @@ tags:
 - API Client
 - API Testing
 - Developer Tools
-- Open-Source
+- Open Source
 - Git-Native
 - CLI
 - Postman Alternative
+- A2A
 trust_url: https://trust.usebruno.com
 ---

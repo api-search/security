@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/bank-of-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/authentication/bank-of-melbourne-authentication.yml
 summary_line: 0 schemes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR
