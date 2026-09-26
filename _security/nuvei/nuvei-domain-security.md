@@ -119,7 +119,7 @@ tags:
 - Acquiring
 - Payouts
 - Alternative Payment Methods
-- Fraud
+- Fraud Prevention
 - Risk Management
 - Currency Conversion
 - iGaming

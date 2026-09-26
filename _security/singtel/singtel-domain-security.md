@@ -42,7 +42,7 @@ tags:
 - Open Gateway
 - SIM Swap
 - Identity Verification
-- Anti-Fraud
+- Fraud Prevention
 - CPaaS
 - Messaging
 - Voice

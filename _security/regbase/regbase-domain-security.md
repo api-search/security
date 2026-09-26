@@ -35,7 +35,7 @@ tags:
 - Regulatory Intelligence
 - Compliance
 - RegTech
-- Legal Technology
+- Legal Tech
 - GovTech
 - Regulatory Monitoring
 - Artificial Intelligence

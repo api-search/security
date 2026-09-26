@@ -114,5 +114,6 @@ tags:
 - Telemetry
 - VPP
 - Flex Events
+- Energy Storage
 trust_url: https://trust.lunarenergy.com/
 ---

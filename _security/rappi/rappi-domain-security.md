@@ -39,7 +39,7 @@ tags:
 - Food Delivery
 - Grocery Delivery
 - On-Demand
-- Last Mile
+- Last Mile Delivery
 - Logistics
 - Super App
 - Fintech

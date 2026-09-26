@@ -35,7 +35,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conagra-brands
 summary_line: 1 scheme
 tags:
 - Branded Foods
-- CPG
 - Consumer Packaged Goods
 - Food Service
 - Fortune 500

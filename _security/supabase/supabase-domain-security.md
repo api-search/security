@@ -172,4 +172,5 @@ tags:
 - Edge Functions
 - Database
 - Identity Federation
+- Serverless
 ---

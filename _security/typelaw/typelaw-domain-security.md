@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Legal
-- Legal Technology
+- Legal Tech
 - Document Automation
 - Court Filings
 - Briefs

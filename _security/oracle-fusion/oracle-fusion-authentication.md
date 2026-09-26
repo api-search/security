@@ -362,7 +362,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/
 summary_line: http · 2 schemes
 tags:
 - Cloud
-- CX
+- Customer Experience
 - Enterprise
 - EPM
 - ERP

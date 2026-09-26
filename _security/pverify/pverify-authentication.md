@@ -142,4 +142,5 @@ tags:
 - Patient Estimation
 - HIPAA
 - Dental
+- Health Insurance
 ---

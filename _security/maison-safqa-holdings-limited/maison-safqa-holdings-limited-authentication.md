@@ -51,6 +51,6 @@ tags:
 - Luxury
 - Marketplace
 - Product Catalog
-- Inventory Management
+- Inventory
 - Shopify
 ---

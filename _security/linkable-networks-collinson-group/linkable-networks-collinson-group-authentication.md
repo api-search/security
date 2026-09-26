@@ -43,4 +43,5 @@ tags:
 - Rewards
 - Advertising
 - Retail
+- Loyalty & Incentives
 ---

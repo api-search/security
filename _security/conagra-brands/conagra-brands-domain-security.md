@@ -43,7 +43,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conagra-brands
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Branded Foods
-- CPG
 - Consumer Packaged Goods
 - Food Service
 - Fortune 500

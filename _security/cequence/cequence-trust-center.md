@@ -30,7 +30,7 @@ tags:
 - Business Logic Abuse
 - CNAPP
 - Cybersecurity
-- Fraud
+- Fraud Prevention
 - Unified API Protection
 trust_url: https://trust.cequence.ai/
 ---

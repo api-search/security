@@ -37,7 +37,7 @@ tags:
 - Pre-Seed
 - Economic Inclusion
 - Los Angeles
-- SMB Software
+- Small Business
 - Consumer Tech
 - Accelerator
 ---

@@ -35,7 +35,7 @@ tags:
 - E-Commerce
 - Omnichannel
 - Order Management
-- Inventory Management
+- Inventory
 - Logistics
 - Fashion
 - India

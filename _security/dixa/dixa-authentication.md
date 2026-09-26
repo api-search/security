@@ -155,7 +155,7 @@ tags:
 - Customer Service
 - Conversational AI
 - Omnichannel
-- CX
+- Customer Experience
 - Help Desk
 - Chat
 - Knowledge Base

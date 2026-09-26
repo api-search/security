@@ -42,5 +42,5 @@ tags:
 - Machine Learning
 - Protein Models
 - Bioinformatics
-- Inference API
+- Inference
 ---

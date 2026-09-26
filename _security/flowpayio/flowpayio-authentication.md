@@ -55,7 +55,7 @@ tags:
 - Lending
 - Embedded Finance
 - Fintech
-- SME
+- Small Business
 - Open Banking
 - Payments
 ---

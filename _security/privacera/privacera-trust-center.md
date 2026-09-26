@@ -24,7 +24,7 @@ tags:
 - Data Security
 - AI Governance
 - Access Control
-- Data Privacy
+- Privacy
 - Apache Ranger
 trust_url: https://privacera.com/trust-center/
 ---

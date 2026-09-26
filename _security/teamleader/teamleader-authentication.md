@@ -118,5 +118,5 @@ tags:
 - Invoicing
 - Project Management
 - Software-as-a-Service
-- SME
+- Small Business
 ---

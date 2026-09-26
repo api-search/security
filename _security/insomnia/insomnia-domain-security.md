@@ -74,4 +74,5 @@ tags:
 - Mocking
 - Platform
 - Testing
+- OpenAPI
 ---

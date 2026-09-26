@@ -33,7 +33,7 @@ tags:
 - Company
 - Food and Beverage
 - Cultivated Meat
-- Agriculture Technology
+- AgTech
 - Consumer Packaged Goods
 - Biotechnology
 - Food Technology

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopventory/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Point-of-Sale
 - Retail
 - E-Commerce

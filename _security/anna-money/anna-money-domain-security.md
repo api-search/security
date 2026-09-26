@@ -41,5 +41,5 @@ tags:
 - Payments
 - E-Money
 - United Kingdom
-- SME
+- Small Business
 ---

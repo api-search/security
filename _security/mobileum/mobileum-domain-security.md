@@ -35,7 +35,7 @@ tags:
 - Enterprise
 - Telecommunications
 - Roaming
-- Fraud Detection
+- Fraud Prevention
 - Revenue Assurance
 - Network Security
 - Analytics

@@ -30,6 +30,6 @@ tags:
 - MSP
 - Device Security
 - GDPR
-- SME
+- Small Business
 trust_url: https://security.cybersmart.com
 ---

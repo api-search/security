@@ -33,7 +33,7 @@ tags:
 - Master Data
 - Digital Shelf
 - Product Information Management
-- CPG
+- Consumer Packaged Goods
 - Retail
 - GS1
 trust_url: https://1worldsync.com/security/

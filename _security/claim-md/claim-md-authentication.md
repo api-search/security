@@ -69,4 +69,5 @@ tags:
 - EDI
 - X12
 - Revenue Cycle
+- Health Insurance
 ---

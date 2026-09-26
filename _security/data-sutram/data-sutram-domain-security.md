@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-sutram/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Financial Services
 - Data Intelligence

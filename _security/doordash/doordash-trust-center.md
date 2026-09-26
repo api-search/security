@@ -142,7 +142,7 @@ summary_line: SOC 2, PCI DSS
 tags:
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - On-Demand
 - Food Delivery
 - Local Commerce

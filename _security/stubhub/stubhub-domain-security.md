@@ -139,9 +139,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Marketplace
-- Tickets
-- Event
 - Ticketing
+- Event
 - Live Events
 - Secondary Market
 - E-Commerce

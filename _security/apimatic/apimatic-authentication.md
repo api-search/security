@@ -105,4 +105,5 @@ tags:
 - Developer Tools
 - Documentation
 - SDK Generation
+- OpenAPI
 ---

@@ -114,4 +114,6 @@ tags:
 - Email
 - Messaging
 - CPaaS
+- Fax
+- Direct Mail
 ---

@@ -74,7 +74,6 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/sift-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/authentication/sift-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Fraud Detection
 - Fraud Prevention
 - Risk Management
 - Trust and Safety

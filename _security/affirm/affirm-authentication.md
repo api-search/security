@@ -94,4 +94,5 @@ tags:
 - Payments
 - Consumer
 - Agentic Commerce
+- Consumer Finance
 ---

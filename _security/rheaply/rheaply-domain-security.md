@@ -34,7 +34,7 @@ tags:
 - Circular Economy
 - Sustainability
 - Asset Management
-- Inventory Management
+- Inventory
 - Reuse Marketplace
 - Decommissioning
 - ESG

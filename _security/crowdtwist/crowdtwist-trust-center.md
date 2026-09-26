@@ -40,5 +40,6 @@ tags:
 - Commerce
 - Segmentation
 - Webhook
+- Loyalty & Incentives
 trust_url: ''
 ---

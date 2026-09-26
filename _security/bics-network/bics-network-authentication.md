@@ -160,13 +160,12 @@ tags:
 - Number Verification
 - Telecommunications
 - Mobile Identity
-- Anti-Fraud
+- Fraud Prevention
 - Device Location
 - OTP
 - SMS
 - Numbering
 - Number Portability
-- Fraud Prevention
 - Carrier
 - CPaaS
 ---

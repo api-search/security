@@ -37,7 +37,7 @@ tags:
 - Financial Services
 - Loan Origination
 - Account Opening
-- Fraud
+- Fraud Prevention
 - Decisioning
 - Buy Now Pay Later
 ---

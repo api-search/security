@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/security/fraud-net-trust-center.yml
 summary_line: SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, NIST 800-53, NTIS
 tags:
-- Fraud
+- Fraud Prevention
 - Risk Management
 - Commerce
 - Payments

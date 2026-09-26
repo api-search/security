@@ -34,7 +34,7 @@ tags:
 - Company
 - Mobile
 - Agriculture
-- AgriTech
+- AgTech
 - Farming
 - India
 - Farmer Advisory

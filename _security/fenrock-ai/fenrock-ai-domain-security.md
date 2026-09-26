@@ -40,6 +40,6 @@ tags:
 - RegTech
 - AML
 - KYC
-- Fraud
+- Fraud Prevention
 - Back Office
 ---

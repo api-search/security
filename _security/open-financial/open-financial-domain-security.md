@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Connected Banking
 - Neobank
-- SMB
+- Small Business
 - Embedded Finance
 - Banking as a Service
 - Payments

@@ -65,7 +65,7 @@ tags:
 - Authentication
 - Identity
 - Identity Verification
-- Fraud Detection
+- Fraud Prevention
 - Account Takeover
 - Security
 - Deepfake Detection

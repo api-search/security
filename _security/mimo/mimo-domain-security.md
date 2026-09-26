@@ -37,6 +37,6 @@ tags:
 - Cash Flow Management
 - Accounting
 - Bookkeeping
-- SMB
+- Small Business
 - B2B
 ---

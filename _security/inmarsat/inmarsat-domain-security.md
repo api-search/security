@@ -58,4 +58,5 @@ tags:
 - NB-NTN
 - Non-Terrestrial Network
 - Viasat
+- Satellite
 ---

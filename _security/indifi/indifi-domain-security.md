@@ -34,7 +34,7 @@ tags:
 - Fintech
 - Lending
 - MSME
-- SMB
+- Small Business
 - Business Loans
 - Digital Lending
 - India

@@ -59,7 +59,7 @@ tags:
 - Restaurant
 - Food Service
 - Hospitality
-- Inventory Management
+- Inventory
 - Labor Scheduling
 - Operations Management
 - Back Office

@@ -106,7 +106,7 @@ tags:
 - Fleet
 - Transportation
 - Insurance
-- Fraud Detection
+- Fraud Prevention
 - Webhook
 - Geospatial
 ---

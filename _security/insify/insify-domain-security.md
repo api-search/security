@@ -37,7 +37,7 @@ tags:
 - Business Insurance
 - Freelancers
 - Self-Employed
-- SME
+- Small Business
 - Netherlands
 - Liability Insurance
 - Disability Insurance

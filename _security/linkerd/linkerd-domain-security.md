@@ -98,4 +98,7 @@ tags:
 - Observability
 - Security
 - Service Mesh
+- Cloud-Native
+- CNCF
+- Graduated
 ---

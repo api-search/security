@@ -38,5 +38,5 @@ tags:
 - Property and Casualty
 - Claims Automation
 - FNOL
-- Fraud Detection
+- Fraud Prevention
 ---

@@ -24,7 +24,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Clinical Documentation
-- Health Technology
+- Health Tech
 - Medical
 - Automation
 - United Kingdom

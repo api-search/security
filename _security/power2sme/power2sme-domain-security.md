@@ -135,7 +135,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Marketplace
-- SME
+- Small Business
 - Procurement
 - India
 - Onboarding

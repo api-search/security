@@ -37,5 +37,5 @@ tags:
 - Family Engagement
 - Long-Term Care
 - Community Engagement
-- Health Technology
+- Health Tech
 ---

@@ -32,7 +32,7 @@ summary_line: SOC 2 Type 2, ISO 27001:2022, UK Cyber Essentials
 tags:
 - Company
 - Risk Assessment
-- Fraud Detection
+- Fraud Prevention
 - Voice Analytics
 - Artificial Intelligence
 - Insurance

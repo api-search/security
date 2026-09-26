@@ -55,7 +55,7 @@ tags:
 - Split Payments
 - Subscription
 - Recurring Billing
-- Anti-Fraud
+- Fraud Prevention
 - 3D
 - Checkout
 - Payment Links

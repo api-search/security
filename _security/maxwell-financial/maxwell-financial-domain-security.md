@@ -37,5 +37,4 @@ tags:
 - Fintech
 - Financial Services
 - Loan Origination
-- Mortgage Technology
 ---

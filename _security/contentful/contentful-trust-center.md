@@ -34,5 +34,6 @@ summary_line: SOC 2, ISO 27001
 tags:
 - CMS
 - Content
+- Content Management
 trust_url: https://www.contentful.com/security/
 ---

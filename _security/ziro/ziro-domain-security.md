@@ -36,7 +36,7 @@ tags:
 - Lending
 - Embedded Finance
 - Payments
-- SMB
+- Small Business
 - Colombia
 - Latin America
 ---

@@ -22,6 +22,9 @@
     badge        badge label shown on each card (uppercase)          [optional]
     color        accent colour — card left border + badge background [optional]
 
+  Item field `provenance` (roadmap#715): 'modeled' adds a MODELED, NO PUBLIC REFERENCE badge, and
+  'unpublished' adds a NOT AN API badge.
+
   Item fields understood (all optional, first match wins for the meta line):
     name / description / summary_line, and one count of:
     class_count(+property_count) / property_count / scope_count /
@@ -49,6 +52,8 @@
     <strong>{{ item }}</strong>
     {%- endif %}
     {%- if include.badge %}<span class="card-badge" style="background: {{ include.color | default: '#6c757d' }};">{{ include.badge }}</span>{% endif %}
+    {%- if item.provenance == 'modeled' %}<span class="card-badge" style="background: #6c757d;" title="A real API behind a partner or contract gate. There is no public reference, so API Evangelist modeled its shape.">MODELED, NO PUBLIC REFERENCE</span>
+    {%- elsif item.provenance == 'unpublished' %}<span class="card-badge" style="background: #9ca3af;" title="The provider publishes no API for this. Listed for completeness and not counted.">NOT AN API</span>{% endif %}
   </div>
   {%- endfor %}
 </div>

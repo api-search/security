@@ -28,5 +28,6 @@ tags:
 - Customer Marketing
 - Shopify
 - Webhook
+- Loyalty & Incentives
 trust_url: https://trust.okendo.io/
 ---

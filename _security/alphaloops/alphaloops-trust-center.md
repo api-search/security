@@ -62,6 +62,6 @@ tags:
 - MCP Server
 - Contact Enrichment
 - Risk Management
-- Fraud
+- Fraud Prevention
 trust_url: https://trust.runalphaloops.com/
 ---

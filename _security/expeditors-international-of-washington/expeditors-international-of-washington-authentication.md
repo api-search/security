@@ -65,4 +65,5 @@ tags:
 - Order Management
 - Customs Brokerage
 - Visibility
+- Freight
 ---

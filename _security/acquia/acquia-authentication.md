@@ -232,4 +232,5 @@ tags:
 - Digital Asset Management
 - Cloud Hosting
 - Headless
+- Content Management
 ---

@@ -120,7 +120,6 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/security/centers-for-disease-control-and-prevention-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Change Data Capture
 - Environmental Health
 - Epidemiology
 - Federal Government

@@ -169,7 +169,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - On-Demand
 - Food Delivery
 - Local Commerce

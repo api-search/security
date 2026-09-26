@@ -31,7 +31,7 @@ tags:
 - Retail Tech
 - Pricing
 - Promotions
-- CPG
+- Consumer Packaged Goods
 - Artificial Intelligence
 - Revenue Management
 - Software-as-a-Service

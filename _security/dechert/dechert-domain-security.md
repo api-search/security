@@ -42,7 +42,7 @@ tags:
 - Crisis Management
 - Cryptocurrency
 - Cybersecurity
-- Data Privacy
+- Privacy
 - Employee Benefits
 - Enforcement
 - ESG

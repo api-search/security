@@ -59,4 +59,5 @@ tags:
 - Media Storage
 - Backup
 - Enterprise Storage
+- Storage
 ---

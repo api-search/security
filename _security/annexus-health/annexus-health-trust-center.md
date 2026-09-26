@@ -22,7 +22,7 @@ summary_line: HITRUST Risk-based, 2-year (r2) Certification
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Patient Access
 - Financial Assistance
 - Oncology

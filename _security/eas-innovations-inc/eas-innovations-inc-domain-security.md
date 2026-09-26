@@ -36,7 +36,7 @@ tags:
 - Software-as-a-Service
 - CRM
 - Accounting
-- Inventory Management
+- Inventory
 - Auto Finance
 - Payments
 ---

@@ -45,7 +45,7 @@ tags:
 - E-Commerce
 - ERP
 - Order Management
-- Inventory Management
+- Inventory
 - Warehouse Management
 - Retail
 - Software-as-a-Service

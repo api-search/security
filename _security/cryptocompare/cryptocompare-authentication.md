@@ -161,7 +161,6 @@ tags:
 - Market Data
 - Reference Rates
 - News
-- Social
 - Blockchain
 - Onchain
 - Order Book

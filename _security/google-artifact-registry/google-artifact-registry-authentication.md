@@ -68,6 +68,12 @@ api_specs:
   slug: google-artifact-registry-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-versions-api-openapi.yml
+- filename: google-cloud-artifact-registry-projects-api-openapi.yml
+  format: yaml
+  label: Google Artifact Registry Projects API
+  slug: google-cloud-artifact-registry-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-cloud-artifact-registry-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

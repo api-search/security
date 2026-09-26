@@ -35,7 +35,7 @@ tags:
 - Pix
 - Digital Accounts
 - Acquiring
-- Anti-Fraud
+- Fraud Prevention
 - Embedded Finance
 - Brazil
 - Latin America

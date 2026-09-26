@@ -78,5 +78,5 @@ tags:
 - Logistics
 - ASRS
 - Supply Chain
-- Inventory Management
+- Inventory
 ---

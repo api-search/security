@@ -274,7 +274,7 @@ tags:
 - Dealer Software
 - Automotive Retail
 - VIN Decoding
-- Inventory Management
+- Inventory
 - Remarketing
 - Event
 - Webhook

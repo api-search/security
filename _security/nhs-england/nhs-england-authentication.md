@@ -155,4 +155,12 @@ tags:
 - Health Data
 - e-Prescribing
 - EHR
+- Clinical
+- Demographics
+- Government
+- Health
+- NHS
+- Open Data
+- Patient Records
+- Prescriptions
 ---

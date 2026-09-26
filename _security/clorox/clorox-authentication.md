@@ -39,7 +39,7 @@ summary_line: none/application-password · 2 schemes
 tags:
 - Cleaning Products
 - Consumer Goods
-- CPG
+- Consumer Packaged Goods
 - Disinfectants
 - Household Products
 - Manufacturer

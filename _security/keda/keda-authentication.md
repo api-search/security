@@ -63,4 +63,5 @@ tags:
 - Event-Driven
 - Graduated
 - Kubernetes
+- Cloud-Native
 ---

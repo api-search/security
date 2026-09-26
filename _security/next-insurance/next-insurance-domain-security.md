@@ -35,7 +35,6 @@ tags:
 - Property and Casualty
 - Commercial Insurance
 - Small Business
-- SMB
 - Embedded Insurance
 - Workers Compensation
 - General Liability

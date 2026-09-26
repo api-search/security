@@ -36,7 +36,6 @@ tags:
 - Payment Gateway
 - Digital Wallet
 - Card Issuing
-- E-Wallet
 - Escrow
 - Financial Services
 - Thailand

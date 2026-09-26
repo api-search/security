@@ -38,7 +38,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Delivery
-- Last-Mile Logistics
+- Last Mile Delivery
 - Indoor Positioning
 - Location Tracking
 - Mobile SDK

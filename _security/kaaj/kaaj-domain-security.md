@@ -56,6 +56,6 @@ tags:
 - AI Agents
 - Document Intelligence
 - KYB
-- Fraud Detection
+- Fraud Prevention
 - Bank Statement Analysis
 ---

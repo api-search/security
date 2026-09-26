@@ -139,5 +139,6 @@ tags:
 - Restaurant
 - Point-of-Sale
 - Webhook
+- Loyalty & Incentives
 trust_url: https://www.hang.com/security
 ---

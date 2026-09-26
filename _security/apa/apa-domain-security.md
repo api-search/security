@@ -35,7 +35,6 @@ tags:
 - Production
 - WordPress
 - REST
-- Content
 - Newsroom
 - Investor Relations
 - Energy Production

@@ -35,7 +35,7 @@ tags:
 - Health Insurance
 - Healthcare
 - Insurance
-- Health Technology
+- Health Tech
 - Telehealth
 - Medicare Advantage
 - Digital Health

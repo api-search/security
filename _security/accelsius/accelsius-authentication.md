@@ -64,6 +64,5 @@ tags:
 - High Performance Computing
 - Hardware
 - Manufacturing
-- Content
 - WordPress
 ---

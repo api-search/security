@@ -40,7 +40,6 @@ tags:
 - Device Fingerprinting
 - Identity
 - Risk Scoring
-- Anti-Fraud
 - Authentication
 - TransUnion
 ---

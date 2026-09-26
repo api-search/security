@@ -38,7 +38,6 @@ tags:
 - Health
 - Life Sciences
 - Medical Technology
-- Content
 - News
 - Careers
 - Event

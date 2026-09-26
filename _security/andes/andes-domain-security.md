@@ -35,7 +35,7 @@ tags:
 - Climate
 - Carbon Removal
 - Agriculture
-- Agriculture Technology
+- AgTech
 - Biotechnology
 - Sustainability
 - Carbon Credits

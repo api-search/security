@@ -50,7 +50,7 @@ tags:
 - Banking as a Service
 - Digital Wallet
 - Cross-Border
-- Fraud
+- Fraud Prevention
 - Open Banking
 - FAPI
 ---

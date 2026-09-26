@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Semiconductors
-- AI Inference
+- Inference
 - AI Hardware
 - Compute
 - Chips

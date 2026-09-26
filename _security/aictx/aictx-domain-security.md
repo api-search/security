@@ -40,5 +40,4 @@ tags:
 - Sensors
 - IoT
 - Open Source
-- Content
 ---

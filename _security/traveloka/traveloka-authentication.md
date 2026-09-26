@@ -128,4 +128,5 @@ tags:
 - OpenTravel
 - Southeast Asia
 - Indonesia
+- Hotels
 ---

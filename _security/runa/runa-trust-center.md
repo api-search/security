@@ -50,5 +50,6 @@ tags:
 - Payments
 - Incentives
 - Payouts
+- Loyalty & Incentives
 trust_url: https://trust.runa.io/
 ---

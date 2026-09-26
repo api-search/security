@@ -105,4 +105,7 @@ tags:
 - Financial Data
 - Regulatory
 - Open Data
+- Consumer Protection
+- Federal Government
+- Financial Services
 ---

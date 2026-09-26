@@ -77,5 +77,5 @@ tags:
 - Business Software
 - CRM
 - Financial Software
-- SME
+- Small Business
 ---

@@ -43,5 +43,4 @@ tags:
 - Market Intelligence
 - Consumer Insights
 - Social Media Analytics
-- Content
 ---

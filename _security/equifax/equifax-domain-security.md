@@ -49,6 +49,6 @@ tags:
 - Credit History
 - Credit Reporting
 - Identity
-- Fraud Detection
+- Fraud Prevention
 - Fortune 1000
 ---

@@ -59,6 +59,6 @@ tags:
 - DICOM
 - Diagnostics
 - Clinical Decision Support
-- Health Technology
+- Health Tech
 - Company
 ---

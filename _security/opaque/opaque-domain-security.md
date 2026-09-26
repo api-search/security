@@ -106,7 +106,7 @@ tags:
 - Confidential Computing
 - confidential-ai
 - AI Governance
-- Data Privacy
+- Privacy
 - Trusted Execution Environment
 - Attestation
 - Agentic Workflows

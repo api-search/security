@@ -61,7 +61,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Ride Hailing
 - Food Delivery
-- Last-Mile Logistics
+- Last Mile Delivery
 - Digital Payments
 - Super App
 - Southeast Asia

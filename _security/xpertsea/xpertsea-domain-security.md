@@ -53,7 +53,7 @@ tags:
 - Fintech
 - Aquaculture
 - Shrimp Farming
-- Agriculture Technology
+- AgTech
 - Artificial Intelligence
 - Mobile App
 ---

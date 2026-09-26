@@ -93,4 +93,6 @@ tags:
 - Infrastructure
 - Edge Computing
 - Networking
+- Hosting
+- Deployment
 ---

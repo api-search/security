@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leapyear/refs/
 summary_line: password/public-key · 3 schemes
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Differential Privacy
 - Machine Learning
 - Analytics

@@ -46,7 +46,7 @@ tags:
 - Procurement
 - Tool Discovery
 - API Discovery
-- AI Inference
+- Inference
 - Research
 - Agent-Native
 ---

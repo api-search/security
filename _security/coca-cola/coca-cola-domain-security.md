@@ -54,4 +54,5 @@ tags:
 - Retail
 - Supply Chain
 - Food and Beverage
+- Consumer Packaged Goods
 ---

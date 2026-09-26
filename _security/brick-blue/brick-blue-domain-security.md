@@ -47,7 +47,7 @@ tags:
 - x402
 - Payments
 - Stablecoins
-- LLM Inference
+- Inference
 - Prediction Markets
 - Agent-Native
 - Developer Tools

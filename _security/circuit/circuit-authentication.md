@@ -108,7 +108,7 @@ tags:
 - Company
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Route Optimization
 - Dispatch
 - Couriers

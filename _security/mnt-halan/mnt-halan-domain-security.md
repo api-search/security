@@ -36,7 +36,7 @@ tags:
 - Consumer Lending
 - SME Lending
 - Digital Payments
-- E-Wallet
+- Digital Wallet
 - Mobile Wallet
 - Prepaid Cards
 - Installment Cards

@@ -122,7 +122,7 @@ tags:
 - Encryption
 - Access Control
 - Zero Trust
-- Data Privacy
+- Privacy
 - OpenTDF
 - Key Management
 ---

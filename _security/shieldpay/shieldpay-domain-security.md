@@ -44,7 +44,7 @@ tags:
 - Company
 - Payments
 - Escrow
-- Legal Technology
+- Legal Tech
 - Fintech
 - Compliance
 - KYC

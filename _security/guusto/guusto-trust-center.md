@@ -44,5 +44,6 @@ tags:
 - Gift Cards
 - Human Resources
 - Rewards and Recognition
+- Loyalty & Incentives
 trust_url: https://security.guusto.com/
 ---

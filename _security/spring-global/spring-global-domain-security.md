@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Software-as-a-Service
-- CPG
+- Consumer Packaged Goods
 - Retail Execution
 - Field Workforce
 - Merchandising

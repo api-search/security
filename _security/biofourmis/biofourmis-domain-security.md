@@ -38,6 +38,6 @@ tags:
 - Hospital at Home
 - Care Delivery
 - Life Sciences
-- Health Technology
+- Health Tech
 - Wearables
 ---

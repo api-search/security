@@ -430,7 +430,7 @@ tags:
 - RBAC
 - PII
 - Compliance
-- Data Privacy
+- Privacy
 - MCP
 - Agent-Native
 trust_url: https://trust.altr.com/

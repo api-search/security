@@ -42,5 +42,5 @@ tags:
 - Software-as-a-Service
 - Taiwan
 - Line
-- SMB
+- Small Business
 ---

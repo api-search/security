@@ -121,7 +121,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/h
 summary_line: apiKey · 2 schemes
 tags:
 - Artificial Intelligence
-- AI Inference
+- Inference
 - LLM
 - GPU Compute
 - Decentralized Compute

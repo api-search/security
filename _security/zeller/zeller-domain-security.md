@@ -40,5 +40,5 @@ tags:
 - Point-of-Sale
 - In-Person Payments
 - Tap to Pay
-- SME
+- Small Business
 ---

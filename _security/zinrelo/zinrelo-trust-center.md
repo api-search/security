@@ -69,5 +69,6 @@ tags:
 - Customer Retention
 - E-Commerce
 - Software-as-a-Service
+- Loyalty & Incentives
 trust_url: https://www.trueloyal.com/terms-and-conditions
 ---

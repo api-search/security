@@ -72,7 +72,7 @@ tags:
 - Memory
 - Knowledge Graph
 - Personalization
-- Data Privacy
+- Privacy
 - Open Source
 - Developer Tools
 - RAG

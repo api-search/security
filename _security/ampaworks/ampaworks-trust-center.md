@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ampaworks/refs
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Computer Vision
 - Artificial Intelligence
 - Supply Chain

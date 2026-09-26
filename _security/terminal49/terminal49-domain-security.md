@@ -91,4 +91,5 @@ tags:
 - Supply Chain
 - Logistics
 - Shipping
+- Freight
 ---

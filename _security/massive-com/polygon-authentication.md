@@ -494,4 +494,5 @@ tags:
 - Real-Time
 - Historical
 - Public APIs
+- Financial Data
 ---

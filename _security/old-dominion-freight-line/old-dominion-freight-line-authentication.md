@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/old-dominion-f
 summary_line: http · 1 scheme
 tags:
 - Freight
-- Less-Than-Truckload
+- LTL
 - Logistics
 - Shipping
 - Transportation

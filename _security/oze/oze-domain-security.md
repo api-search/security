@@ -37,5 +37,4 @@ tags:
 - Invoicing
 - Lending
 - Africa
-- SME
 ---

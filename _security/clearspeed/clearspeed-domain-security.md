@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Risk Assessment
-- Fraud Detection
+- Fraud Prevention
 - Voice Analytics
 - Artificial Intelligence
 - Insurance

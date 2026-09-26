@@ -542,6 +542,5 @@ tags:
 - T1
 - Talk
 - Ticketing
-- Tickets
 - Zendesk
 ---

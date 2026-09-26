@@ -45,7 +45,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Trust and Safety
-- Fraud Detection
+- Fraud Prevention
 - Content Moderation
 - Risk Management
 - AI Agents

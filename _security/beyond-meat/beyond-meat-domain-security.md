@@ -40,7 +40,7 @@ tags:
 - Consumer
 - Food
 - Plant-Based
-- CPG
+- Consumer Packaged Goods
 - Sustainability
 - Retail
 - Food and Beverage

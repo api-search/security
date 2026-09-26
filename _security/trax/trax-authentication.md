@@ -53,7 +53,7 @@ tags:
 - Retail
 - Computer Vision
 - Image Recognition
-- CPG
+- Consumer Packaged Goods
 - Retail Execution
 - Merchandising
 - Software-as-a-Service

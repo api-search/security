@@ -54,7 +54,7 @@ tags:
 - Fintech
 - Disputes
 - Chargebacks
-- Fraud
+- Fraud Prevention
 - Payments
 - Banking
 - Dispute Resolution

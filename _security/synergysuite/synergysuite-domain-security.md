@@ -35,7 +35,7 @@ tags:
 - Hospitality
 - Restaurant Management
 - Back Of House
-- Inventory Management
+- Inventory
 - Food Safety
 - Workforce Scheduling
 - Point Of Sale Integration

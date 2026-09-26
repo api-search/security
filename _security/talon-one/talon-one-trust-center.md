@@ -287,5 +287,6 @@ tags:
 - Discounts
 - E-Commerce
 - Retail
+- Loyalty & Incentives
 trust_url: https://trust.talon.one
 ---

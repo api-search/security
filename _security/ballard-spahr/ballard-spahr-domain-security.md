@@ -39,7 +39,7 @@ tags:
 - Corporate
 - CFPB
 - Cybersecurity
-- Data Privacy
+- Privacy
 - Employment Law
 - Environmental
 - ESG
@@ -56,7 +56,6 @@ tags:
 - Litigation
 - Mergers and Acquisitions
 - Mortgage
-- Privacy
 - Private Equity
 - Public Finance
 - Real Estate

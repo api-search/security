@@ -48,7 +48,7 @@ tags:
 - Delivery
 - Parcel Tracking
 - E-Commerce
-- Last Mile
+- Last Mile Delivery
 - Couriers
 - Cash on Delivery
 - Thailand

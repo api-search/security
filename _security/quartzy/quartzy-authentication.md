@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/h
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Lab Management
-- Inventory Management
+- Inventory
 - Life Sciences
 - Procurement
 - Ordering

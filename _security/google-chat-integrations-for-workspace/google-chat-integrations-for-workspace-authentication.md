@@ -82,7 +82,8 @@ tags:
 - Messaging
 - Collaboration
 - Chat Apps
-- Space
+- Spaces
 - Slash Commands
 - Bots
+- Space
 ---

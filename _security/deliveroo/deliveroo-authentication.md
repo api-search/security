@@ -96,4 +96,5 @@ tags:
 - Marketplace
 - Logistics
 - Restaurant
+- Delivery
 ---

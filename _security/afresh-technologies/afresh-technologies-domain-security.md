@@ -36,7 +36,7 @@ tags:
 - Retail
 - Artificial Intelligence
 - Supply Chain
-- Inventory Management
+- Inventory
 - Demand Forecasting
 - Food Waste
 - Fresh Food

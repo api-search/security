@@ -34,8 +34,9 @@ tags:
 - Company
 - Biotechnology
 - Genetic Medicine
-- Cart
+- CAR-T
 - Cell Therapy
 - Oncology
 - Life Sciences
+- Cart
 ---

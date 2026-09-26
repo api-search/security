@@ -113,7 +113,7 @@ tags:
 - Solid
 - Personal Data Stores
 - Decentralized Identity
-- Data Privacy
+- Privacy
 - Access Control
 - Verifiable Credentials
 - Linked Data

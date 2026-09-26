@@ -57,12 +57,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- AI Inference
+- Inference
 - Semiconductors
 - AI Accelerators
 - LLM
 - Llama
-- Inference API
 - OpenAI-Compatible
 - Hardware
 - Deep Tech

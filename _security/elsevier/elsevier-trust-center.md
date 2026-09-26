@@ -208,5 +208,7 @@ tags:
 - Scientific
 - Technical
 - Elsevier
+- Publishing
+- Scholarly Publishing
 trust_url: https://www.elsevier.com/security
 ---

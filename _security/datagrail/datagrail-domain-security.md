@@ -37,7 +37,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datagrail/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Privacy
-- Data Privacy
 - Privacy Operations
 - Compliance
 - GDPR

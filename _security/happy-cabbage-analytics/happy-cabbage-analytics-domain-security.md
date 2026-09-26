@@ -133,7 +133,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cannabis
 - Retail
-- Inventory Management
+- Inventory
 - Analytics
 - Purchasing
 - Point-of-Sale

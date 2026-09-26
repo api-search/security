@@ -89,5 +89,5 @@ tags:
 - Lead Management
 - Opportunities
 - Contacts
-- SMB
+- Small Business
 ---

@@ -34,7 +34,7 @@ tags:
 - Biotech Therapeutics
 - Biotechnology
 - Cell Therapy
-- Cart
+- CAR-T
 - Autoimmune Disease
 - Immunology
 - Neurology
@@ -42,4 +42,5 @@ tags:
 - Clinical Trials
 - Life Sciences
 - Public Company
+- Cart
 ---

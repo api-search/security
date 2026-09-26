@@ -63,4 +63,5 @@ tags:
 - Market Research
 - Points
 - Fintech
+- Loyalty & Incentives
 ---

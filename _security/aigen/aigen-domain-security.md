@@ -33,7 +33,7 @@ tags:
 - Company
 - Robotics
 - Agriculture
-- Agriculture Technology
+- AgTech
 - Artificial Intelligence
 - Autonomous Systems
 - Machine Vision

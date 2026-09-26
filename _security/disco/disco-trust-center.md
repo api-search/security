@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disco/refs/hea
 summary_line: SOC 2, ISO 27001
 tags:
 - eDiscovery
-- Legal Technology
+- Legal Tech
 - Artificial Intelligence
 - Document Review
 - Litigation

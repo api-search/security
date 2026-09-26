@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osano/refs/hea
 summary_line: SOC 2, Enterprise audit package
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Consent Management
 - Compliance
 - GDPR

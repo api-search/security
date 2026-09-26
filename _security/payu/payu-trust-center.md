@@ -114,7 +114,7 @@ tags:
 - Fintech
 - Financial Services
 - Subscription
-- Fraud Detection
+- Fraud Prevention
 - Checkout
 - Marketplace
 - Tokenization

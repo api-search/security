@@ -212,7 +212,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Order Management
-- Inventory Management
+- Inventory
 - Shipping
 - Dropshipping
 - E-Commerce

@@ -96,7 +96,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - Research Data
-- Data Repository
+- Research Repository
 - Open Science
 - DOI
 - Datasets
@@ -104,4 +104,5 @@ tags:
 - File Storage
 - Open Access
 - Figshare
+- OAI-PMH
 ---

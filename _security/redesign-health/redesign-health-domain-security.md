@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Venture Capital
-- Health Technology
+- Health Tech
 - Digital Health
 - Venture Studio
 - Artificial Intelligence

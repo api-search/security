@@ -274,7 +274,7 @@ tags:
 - Digital Banking
 - Payments
 - Lending
-- Fraud
+- Fraud Prevention
 - Open Banking
 - Community Banks
 - Credit Union

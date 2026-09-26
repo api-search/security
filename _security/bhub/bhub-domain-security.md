@@ -37,6 +37,6 @@ tags:
 - BPO
 - Brazil
 - Tax
-- SMB
+- Small Business
 - Financial Services
 ---

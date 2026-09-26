@@ -54,7 +54,7 @@ tags:
 - OCI
 - Punchout
 - IoT
-- Inventory Management
+- Inventory
 - Mobile App
 - Engineered Equipment
 ---

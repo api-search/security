@@ -49,5 +49,6 @@ tags:
 - Developer Portal
 - Artificial Intelligence
 - MCP
+- OpenAPI
 trust_url: https://security.mintlify.com/
 ---

@@ -36,6 +36,6 @@ tags:
 - Insurance
 - Insurtech
 - Professional Liability
-- SMB
+- Small Business
 - France
 ---

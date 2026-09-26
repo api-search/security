@@ -38,7 +38,7 @@ tags:
 - Procurement
 - Working Capital
 - Bill Pay
-- CPG
+- Consumer Packaged Goods
 - E-Commerce
 - Financing
 ---

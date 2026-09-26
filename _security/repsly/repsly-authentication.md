@@ -88,7 +88,7 @@ tags:
 - Retail Execution
 - Field Sales
 - Merchandising
-- CPG
+- Consumer Packaged Goods
 - Retail Audits
 - Sales Force Automation
 ---

@@ -244,7 +244,8 @@ summary_line: apiKey · 1 scheme
 tags:
 - Security Testing
 - Testing
-- Vulnerability Scanner
+- Vulnerability Scanning
 - DAST
 - Open Source
+- Vulnerability Management
 ---

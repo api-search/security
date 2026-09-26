@@ -118,7 +118,7 @@ tags:
 - Data Governance
 - Data Access Control
 - Data Security
-- Data Privacy
+- Privacy
 - Policy Management
 - Data Marketplace
 - Compliance

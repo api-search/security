@@ -40,7 +40,7 @@ tags:
 - DeFi
 - EVM
 - Security
-- Fraud Detection
+- Fraud Prevention
 - Risk Management
 - Agent-Native
 - Market Intelligence

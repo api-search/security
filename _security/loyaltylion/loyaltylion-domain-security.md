@@ -84,4 +84,5 @@ tags:
 - Points
 - Shopify
 - Retention
+- Loyalty & Incentives
 ---

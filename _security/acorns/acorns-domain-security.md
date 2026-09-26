@@ -45,4 +45,5 @@ tags:
 - Savings
 - Banking
 - Financial Wellness
+- Consumer Finance
 ---

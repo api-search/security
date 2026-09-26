@@ -38,4 +38,5 @@ tags:
 - Rewards
 - People Analytics
 - Software-as-a-Service
+- Loyalty & Incentives
 ---

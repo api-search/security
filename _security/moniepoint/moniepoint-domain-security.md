@@ -169,7 +169,7 @@ tags:
 - Virtual Accounts
 - Direct Debit
 - Bills Payment
-- SMB
+- Small Business
 - Working Capital
 - Unicorn
 ---

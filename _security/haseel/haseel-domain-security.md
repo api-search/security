@@ -36,7 +36,7 @@ tags:
 - E-Commerce
 - Mobile App
 - Produce
-- Agriculture Technology
+- AgTech
 - Last Mile Delivery
 - Saudi Arabia
 ---

@@ -57,7 +57,7 @@ summary_line: apiKey · 4 schemes
 tags:
 - Company
 - Restaurant Operations
-- Inventory Management
+- Inventory
 - Labor & Scheduling
 - Food Cost
 - Kitchen Display

@@ -58,5 +58,5 @@ tags:
 - KSeF
 - Tax
 - Poland
-- SMB
+- Small Business
 ---

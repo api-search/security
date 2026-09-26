@@ -45,9 +45,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/springer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/authentication/springer-nature-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Academic Publishing
+- Scholarly Publishing
 - Open Access
 - Research
 - Scholarly Content
-- Scientific Publishing
+- Publishing
 ---

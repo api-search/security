@@ -84,4 +84,5 @@ tags:
 - Agents
 - MCP
 - Open Source
+- Stablecoin Issuance
 ---

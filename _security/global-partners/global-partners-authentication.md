@@ -68,7 +68,6 @@ tags:
 - Retail Fuel
 - Terminal
 - Fortune 500
-- Content
 - WordPress
 - Terminal Network
 - Retail Locations

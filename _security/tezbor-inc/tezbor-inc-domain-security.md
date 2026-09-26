@@ -34,7 +34,7 @@ tags:
 - Delivery
 - Couriers
 - Shipping
-- Last Mile
+- Last Mile Delivery
 - E-Commerce
 - Uzbekistan
 ---

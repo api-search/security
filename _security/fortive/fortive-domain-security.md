@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fortune 500
 - Industrial Technology
-- Healthcare Technology
+- Health Tech
 - Automation
 - Conglomerate
 ---

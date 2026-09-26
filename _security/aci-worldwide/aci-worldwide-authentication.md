@@ -51,7 +51,7 @@ tags:
 - Acquiring
 - Card Payments
 - E-Commerce
-- Fraud
+- Fraud Prevention
 - Tokenization
 - 3D Secure
 - Bill Payments

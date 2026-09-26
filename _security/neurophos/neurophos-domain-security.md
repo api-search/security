@@ -33,7 +33,7 @@ tags:
 - Company
 - Photonics
 - Optical Computing
-- AI Inference
+- Inference
 - AI Accelerators
 - Semiconductors
 - Metamaterials

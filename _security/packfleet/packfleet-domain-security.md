@@ -34,7 +34,7 @@ tags:
 - Climate
 - Logistics
 - Delivery
-- Last Mile
+- Last Mile Delivery
 - Couriers
 - Electric Vehicles
 - Sustainability

@@ -422,7 +422,7 @@ tags:
 - Company
 - Logistics
 - Delivery
-- Last Mile
+- Last Mile Delivery
 - Couriers
 - E-Commerce
 - Shipping

@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Fraud Detection
+- Fraud Prevention
 - Financial Crime
 - Document Verification
 - Document Forensics

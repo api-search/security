@@ -21,7 +21,7 @@ tags:
 - Food Technology
 - Artificial Intelligence
 - Plant-Based
-- CPG
+- Consumer Packaged Goods
 - Food and Beverage
 - Machine Learning
 - Sustainability

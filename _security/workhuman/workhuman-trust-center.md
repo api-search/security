@@ -29,5 +29,6 @@ tags:
 - Rewards
 - People Analytics
 - Software-as-a-Service
+- Loyalty & Incentives
 trust_url: https://www.workhuman.com/why-workhuman/security-and-privacy/
 ---

@@ -32,5 +32,5 @@ tags:
 - Retail
 - Acquired
 - Pet Snacks
-- CPG
+- Consumer Packaged Goods
 ---

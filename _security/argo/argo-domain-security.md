@@ -134,4 +134,6 @@ tags:
 - Open Source
 - Progressive Delivery
 - Workflow Engine
+- Cloud-Native
+- Graduated
 ---

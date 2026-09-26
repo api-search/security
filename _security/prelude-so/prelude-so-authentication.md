@@ -60,7 +60,7 @@ tags:
 - Phone Verification
 - OTP
 - Authentication
-- Anti-Fraud
+- Fraud Prevention
 - Two-Factor Authentication
 - SMS
 - Phone Number Lookup

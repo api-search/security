@@ -545,7 +545,7 @@ tags:
 - Consent Management
 - Multi-Factor Authentication
 - Identity Verification
-- Fraud Detection
+- Fraud Prevention
 - Agentic Identity
 - Security
 ---

@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positron/refs/
 summary_line: apiKey/http-bearer · 2 schemes
 tags:
 - Artificial Intelligence
-- AI Inference
+- Inference
 - inference-hardware
 - AI Accelerators
 - LLM

@@ -80,5 +80,5 @@ tags:
 - Loyalty Cards
 - Mobile Payments
 - Passes
-- Tickets
+- Ticketing
 ---

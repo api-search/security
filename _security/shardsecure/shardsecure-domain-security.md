@@ -37,6 +37,6 @@ tags:
 - Ransomware Protection
 - Data Resilience
 - Cloud Security
-- Data Privacy
+- Privacy
 - AI Security
 ---

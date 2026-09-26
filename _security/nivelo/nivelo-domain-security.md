@@ -42,7 +42,7 @@ tags:
 - Fintech
 - Payroll
 - Risk Management
-- Fraud Detection
+- Fraud Prevention
 - Money Movement
 - Real-Time Payments
 - Treasury

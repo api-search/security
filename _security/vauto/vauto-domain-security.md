@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
 - Dealership
-- Inventory Management
+- Inventory
 - Appraisal
 - Vehicle Pricing
 - Cox Automotive

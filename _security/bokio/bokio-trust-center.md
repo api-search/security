@@ -122,7 +122,7 @@ tags:
 - Invoicing
 - Payments
 - Sweden
-- SMB
+- Small Business
 - Authentication
 trust_url: https://www.visma.com/trust-centre/
 ---

@@ -40,5 +40,5 @@ tags:
 - Community Associations
 - Accounting
 - PropTech
-- SMB
+- Small Business
 ---

@@ -64,7 +64,7 @@ tags:
 - Master Data
 - Digital Shelf
 - Product Information Management
-- CPG
+- Consumer Packaged Goods
 - Retail
 - GS1
 ---

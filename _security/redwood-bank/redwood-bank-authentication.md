@@ -51,7 +51,7 @@ tags:
 - Financial Services
 - Banking
 - Business Banking
-- SME
+- Small Business
 - Savings
 - Commercial Mortgages
 - Open Banking

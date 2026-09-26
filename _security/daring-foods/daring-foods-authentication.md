@@ -35,5 +35,4 @@ tags:
 - Recipes
 - Food Service
 - Grocery
-- Content
 ---

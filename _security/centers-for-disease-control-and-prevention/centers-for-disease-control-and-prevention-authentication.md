@@ -116,7 +116,6 @@ source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/centers-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/authentication/centers-for-disease-control-and-prevention-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Change Data Capture
 - Environmental Health
 - Epidemiology
 - Federal Government

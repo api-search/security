@@ -48,5 +48,5 @@ tags:
 - HIPAA
 - HITRUST
 - Commure
-- Health Technology
+- Health Tech
 ---

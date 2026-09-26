@@ -69,4 +69,5 @@ tags:
 - Content
 - GraphQL
 - Headless CMS
+- Content Management
 ---

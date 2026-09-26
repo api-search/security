@@ -41,7 +41,7 @@ tags:
 - OSINT
 - Investigations
 - Threat Detection
-- Fraud Detection
+- Fraud Prevention
 - Due Diligence
 - Link Analysis
 - Security

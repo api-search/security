@@ -25,7 +25,7 @@ tags:
 - Security
 - Voice
 - Authentication
-- Fraud Detection
+- Fraud Prevention
 - Deepfake Detection
 - Identity
 - Biometrics

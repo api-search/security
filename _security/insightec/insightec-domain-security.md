@@ -36,6 +36,6 @@ tags:
 - Medical Imaging
 - Focused Ultrasound
 - Neurology
-- Health Technology
+- Health Tech
 - Israel
 ---

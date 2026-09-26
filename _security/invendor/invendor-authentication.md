@@ -289,7 +289,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Vendor Managed Inventory
 - Industrial Vending
 - Supply Chain

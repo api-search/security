@@ -46,7 +46,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Risk Assessment
-- Fraud Detection
+- Fraud Prevention
 - Voice Analytics
 - Artificial Intelligence
 - Insurance

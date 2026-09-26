@@ -151,4 +151,5 @@ tags:
 - MCP
 - AI Agents
 - Software-as-a-Service
+- Integration
 ---

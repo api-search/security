@@ -36,7 +36,7 @@ tags:
 - PBM
 - Health Benefits
 - Benefits Administration
-- Health Technology
+- Health Tech
 - Medicare
 - Insurance
 ---

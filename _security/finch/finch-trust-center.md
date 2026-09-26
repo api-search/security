@@ -44,5 +44,6 @@ tags:
 - Human Resources
 - Unified API
 - Workforce
+- Integration
 trust_url: https://www.tryfinch.com/company/security
 ---

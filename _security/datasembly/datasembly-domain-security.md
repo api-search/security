@@ -37,7 +37,7 @@ tags:
 - Pricing
 - Data
 - Analytics
-- CPG
+- Consumer Packaged Goods
 - Market Intelligence
 - Competitive Intelligence
 ---

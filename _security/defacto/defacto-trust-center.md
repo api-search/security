@@ -139,7 +139,7 @@ tags:
 - Invoice Financing
 - Credit
 - B2B Payments
-- SMB
+- Small Business
 - France
 - Europe
 trust_url: https://trust.getdefacto.com

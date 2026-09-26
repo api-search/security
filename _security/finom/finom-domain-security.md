@@ -38,7 +38,7 @@ tags:
 - Invoicing
 - Accounting
 - SEPA
-- SME
+- Small Business
 - Europe
 - Financial Management
 ---

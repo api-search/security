@@ -36,7 +36,7 @@ tags:
 - Lending
 - Supply Chain Finance
 - Fintech
-- SME
+- Small Business
 - Payments
 - India
 ---

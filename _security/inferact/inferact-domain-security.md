@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine Learning
-- LLM Inference
+- Inference
 - Infrastructure
 - Open Source
 - Model Serving

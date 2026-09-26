@@ -52,7 +52,7 @@ tags:
 - Blockchain
 - Web3
 - DeFi
-- Fraud Detection
+- Fraud Prevention
 - AML
 - Compliance
 - Credit Scoring

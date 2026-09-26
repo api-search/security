@@ -83,7 +83,6 @@ tags:
 - Conversational AI
 - Knowledge Engine
 - MCP
-- A2A
 - Retail
 - Travel
 - Real Estate

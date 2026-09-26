@@ -51,7 +51,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Encryption
-- Data Privacy
+- Privacy
 - Security
 - Application-Layer Encryption
 - Key Management

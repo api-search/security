@@ -61,6 +61,6 @@ tags:
 - Business Software
 - CRM
 - Financial Software
-- SME
+- Small Business
 trust_url: https://www.exact.com/trust
 ---

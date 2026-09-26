@@ -46,4 +46,5 @@ tags:
 - Banking
 - Search
 - Company
+- Loyalty & Incentives
 ---

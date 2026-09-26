@@ -483,7 +483,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Payment Processing
-- Fraud Management
+- Fraud Prevention
 - Tokenization
 - Recurring Billing
 - Payouts

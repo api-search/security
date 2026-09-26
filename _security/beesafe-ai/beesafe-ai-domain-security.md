@@ -33,7 +33,6 @@ tags:
 - Company
 - Fraud Prevention
 - Anti-Scam
-- Fraud Detection
 - Security
 - Artificial Intelligence
 - Financial Services

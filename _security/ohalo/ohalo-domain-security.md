@@ -42,7 +42,7 @@ tags:
 - Unstructured Data
 - Data Discovery
 - Data Classification
-- Data Privacy
+- Privacy
 - Compliance
 - Security
 - Artificial Intelligence

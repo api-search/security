@@ -231,7 +231,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantag
 summary_line: oauth2-client-credentials/http-bearer/apiKey · 3 schemes
 tags:
 - AML
-- Fraud Detection
+- Fraud Prevention
 - Sanctions Screening
 - Compliance
 - PEP Screening

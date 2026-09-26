@@ -60,7 +60,7 @@ tags:
 - Venues
 - Music Discovery
 - tour dates
-- Tickets
+- Ticketing
 - fan notifications
 - Entertainment
 ---

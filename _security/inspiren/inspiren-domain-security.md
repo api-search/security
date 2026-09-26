@@ -40,5 +40,5 @@ tags:
 - Remote Monitoring
 - Artificial Intelligence
 - IoT
-- Health Technology
+- Health Tech
 ---

@@ -35,7 +35,7 @@ tags:
 - Robotics
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Autonomous Vehicles
 - Urban Mobility
 - Food Delivery

@@ -32,7 +32,7 @@ tags:
 - UAV
 - Agriculture
 - Robotics
-- Agricultural Technology
+- AgTech
 - Flight Control
 - eVTOL
 - Hardware

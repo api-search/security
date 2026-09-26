@@ -27,7 +27,7 @@ api_specs:
 - filename: algolia-abtesting-v3-api-openapi.yml
   format: yaml
   label: Algolia A/B Testing API
-  slug: algolia-a-b-testing-api
+  slug: algolia-ab-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-abtesting-v3-api-openapi.yml
 - filename: algolia-personalization-api-openapi.yml

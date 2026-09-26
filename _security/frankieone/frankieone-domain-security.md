@@ -136,6 +136,6 @@ tags:
 - KYC
 - KYB
 - AML
-- Fraud
+- Fraud Prevention
 - Compliance
 ---

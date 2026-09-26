@@ -92,8 +92,8 @@ layout: security
 method: probed
 name: Drillr Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for drillr Public Data API, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: drillr Public Data API
+overview: 'Domain security posture for drillr, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: drillr
 provider_slug: drillr
 slug: drillr-domain-security
 source_filename: drillr-domain-security.yml

@@ -26,7 +26,7 @@ tags:
 - GovTech
 - Relief
 - Utilities
-- Fraud Detection
+- Fraud Prevention
 - Fintech
 trust_url: https://www.promise-pay.com/security
 ---

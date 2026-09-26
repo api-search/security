@@ -60,4 +60,5 @@ tags:
 - White Label
 - Points Redemption
 - Travel Commerce
+- Loyalty & Incentives
 ---

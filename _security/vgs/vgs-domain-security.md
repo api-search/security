@@ -79,7 +79,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
 - Tokenization
-- Data Privacy
+- Privacy
 - PCI Compliance
 - Vault
 ---

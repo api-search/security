@@ -343,5 +343,5 @@ tags:
 - Corporate Banking
 - Lending
 - Compliance
-- SME
+- Small Business
 ---

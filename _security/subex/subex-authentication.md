@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Telecommunications
 - Revenue Assurance
-- Fraud Management
+- Fraud Prevention
 - Analytics
 - BSS/OSS
 ---

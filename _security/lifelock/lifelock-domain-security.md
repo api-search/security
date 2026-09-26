@@ -35,7 +35,7 @@ tags:
 - Cybersecurity
 - Identity
 - Identity Theft Protection
-- Fraud Detection
+- Fraud Prevention
 - Credit Monitoring
 - Dark Web Monitoring
 - Consumer Security

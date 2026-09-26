@@ -91,5 +91,6 @@ tags:
 - Benefits
 - Enterprise Software
 - Embedded Finance
+- Employee Benefits
 trust_url: https://gusto.com/security
 ---

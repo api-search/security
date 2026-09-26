@@ -34,7 +34,7 @@ tags:
 - Company
 - Enterprise
 - Retail
-- Inventory Management
+- Inventory
 - Supply Chain
 - Artificial Intelligence
 - Merchandising

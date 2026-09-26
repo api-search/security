@@ -572,7 +572,7 @@ tags:
 - Company
 - Software-as-a-Service
 - Marketplace
-- SMB
+- Small Business
 - White Label
 - Reseller
 - Marketing

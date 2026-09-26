@@ -66,4 +66,7 @@ tags:
 - Gateways
 - Observability
 - Webhook
+- Serverless
+- Hosting
+- Deployment
 ---

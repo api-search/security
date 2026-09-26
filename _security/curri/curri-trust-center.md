@@ -21,7 +21,7 @@ tags:
 - Vertical Software
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Freight
 - Construction
 - Supply Chain

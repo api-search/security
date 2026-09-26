@@ -40,7 +40,7 @@ tags:
 - Tax
 - Finance
 - Risk Management
-- Fraud
+- Fraud Prevention
 - Compliance
 - Data
 ---

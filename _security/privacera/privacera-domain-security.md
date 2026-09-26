@@ -37,6 +37,6 @@ tags:
 - Data Security
 - AI Governance
 - Access Control
-- Data Privacy
+- Privacy
 - Apache Ranger
 ---

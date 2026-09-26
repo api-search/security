@@ -44,5 +44,6 @@ tags:
 - GraphQL
 - Collaboration
 - A2A
+- Project Management
 trust_url: https://trust.monday.com/
 ---

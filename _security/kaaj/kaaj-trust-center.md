@@ -29,7 +29,7 @@ tags:
 - AI Agents
 - Document Intelligence
 - KYB
-- Fraud Detection
+- Fraud Prevention
 - Bank Statement Analysis
 trust_url: https://kaaj.trust.site
 ---

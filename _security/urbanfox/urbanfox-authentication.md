@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/urbanfo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/authentication/urbanfox-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Fraud Detection
+- Fraud Prevention
 - Payment Fraud
 - Account Takeover
 - Bot Detection

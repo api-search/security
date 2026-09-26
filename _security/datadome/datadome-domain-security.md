@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bot Mitigation
-- Fraud Protection
+- Fraud Prevention
 - Account Protection
 - Ad Fraud
 - DDoS

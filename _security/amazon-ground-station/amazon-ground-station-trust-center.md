@@ -99,5 +99,6 @@ tags:
 - IoT
 - Satellite Communications
 - Space Technology
+- Satellite
 trust_url: https://aws.amazon.com/compliance/
 ---

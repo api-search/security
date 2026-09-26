@@ -29,5 +29,5 @@ tags:
 - FTC
 - Telecommunications
 - Open Data
-- Anti-Fraud
+- Fraud Prevention
 ---

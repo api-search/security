@@ -75,5 +75,5 @@ tags:
 - Document Authentication
 - KYC
 - Biometrics
-- Fraud Detection
+- Fraud Prevention
 ---

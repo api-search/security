@@ -35,5 +35,5 @@ tags:
 - Fulfillment
 - Marketplace
 - Malaysia
-- SME
+- Small Business
 ---

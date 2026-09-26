@@ -87,5 +87,6 @@ tags:
 - Webhook
 - Artificial Intelligence
 - Software-as-a-Service
+- Delivery
 trust_url: https://onfleet.com/security
 ---

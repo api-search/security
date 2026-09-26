@@ -36,6 +36,6 @@ tags:
 - Household Products
 - Health & Hygiene
 - Nutrition
-- CPG
+- Consumer Packaged Goods
 - FTSE 100
 ---

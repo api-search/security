@@ -44,7 +44,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Legal
-- Legal Technology
+- Legal Tech
 - Court Reporting
 - Depositions
 - Litigation Support

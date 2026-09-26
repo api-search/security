@@ -33,7 +33,7 @@ tags:
 - Distributed Computing
 - GPU Compute
 - AI Compute
-- AI Inference
+- Inference
 - AI Training
 - Edge Computing
 - Video Transcoding

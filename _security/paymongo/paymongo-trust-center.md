@@ -85,7 +85,7 @@ tags:
 - Philippines
 - Southeast Asia
 - GCash
-- E-Wallet
+- Digital Wallet
 - Card Payments
 trust_url: https://www.paymongo.com/secure
 ---

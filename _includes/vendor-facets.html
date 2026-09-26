@@ -1,0 +1,105 @@
+{%- comment -%}
+  Vendor facets — shown only on an area VENDOR's page (docs platform, gateway, SDK generator, identity,
+  CDN, status page ...): which Kin Score checks adopting the vendor can move for a provider, at the
+  credit it really earns, and what it earns nothing for.
+
+  Read from _data/vendor_facets.yml at render time (scripts/build_vendor_facets.py), like
+  provider_standards, so the ~27k pages that are not vendors pay nothing for it.
+
+  THE HARD RULE is printed, not implied: a model of what adoption could move. Only a provider's own
+  published artifacts change a Kin Score — never a vendor, a partnership or a sponsorship.
+{%- endcomment -%}
+{%- assign vf = site.data.vendor_facets[page.slug] -%}
+{%- if vf -%}
+<style>
+  .vf-panel { border: 1px solid #e3e7ee; border-radius: 12px; padding: 1.25rem 1.4rem; margin-bottom: 1.5rem; background: #fff; }
+  .vf-meta { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: .75rem; font-size: .8rem; color: #5a6475; }
+  .vf-chip { display: inline-block; padding: .1rem .55rem; border-radius: 999px; background: #eef2f7; color: #334155; font-size: .75rem; }
+  .vf-chip.vf-measured { background: #e6f4ea; color: #1e6b35; }
+  .vf-chip.vf-capability { background: #fff4e5; color: #8a4b00; }
+  .vf-summary { color: #334155; line-height: 1.6; margin: 0 0 1rem; }
+  .vf-surface { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .5rem .9rem; margin-bottom: 1.1rem; }
+  .vf-sf-label { font-size: .78rem; color: #475569; display: flex; justify-content: space-between; gap: .5rem; }
+  .vf-sf-bar { height: 6px; background: #eef2f7; border-radius: 3px; overflow: hidden; margin-top: .2rem; }
+  .vf-sf-fill { height: 100%; background: #3b6fd4; }
+  .vf-sf-agent .vf-sf-fill { background: #7c4dcc; }
+  .vf-table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+  .vf-table th { text-align: left; font-weight: 600; color: #475569; border-bottom: 1px solid #e3e7ee; padding: .4rem .5rem; font-size: .75rem; text-transform: uppercase; letter-spacing: .03em; }
+  .vf-table td { border-bottom: 1px solid #f1f4f8; padding: .5rem; vertical-align: top; }
+  .vf-table td.vf-pts { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .vf-why { display: block; color: #64748b; font-size: .78rem; line-height: 1.45; margin-top: .2rem; }
+  .vf-q { display: inline-block; font-size: .7rem; padding: .05rem .45rem; border-radius: 4px; background: #eef2f7; color: #475569; margin-left: .25rem; }
+  .vf-q-conditional { background: #fff4e5; color: #8a4b00; }
+  .vf-q-saturated { background: #f1f5f9; color: #64748b; }
+  .vf-q-platform, .vf-q-discounted, .vf-q-partial, .vf-q-documented, .vf-q-templated { background: #fdf2f8; color: #9d174d; }
+  .vf-layer { font-size: .72rem; color: #7c4dcc; }
+  .vf-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .9rem; margin: 1.1rem 0; }
+  .vf-stat { background: #f8f9fb; border: 1px solid #e3e7ee; border-radius: 10px; padding: .8rem 1rem; font-size: .86rem; color: #334155; line-height: 1.5; }
+  .vf-stat strong { font-size: 1.05rem; color: #1a1a2e; }
+  .vf-panel details { margin-top: .9rem; }
+  .vf-panel summary { cursor: pointer; font-weight: 600; color: #334155; font-size: .9rem; }
+  .vf-nothing { margin: .6rem 0 0; padding-left: 1.1rem; font-size: .84rem; color: #475569; }
+  .vf-nothing li { margin-bottom: .4rem; }
+  .vf-rule { margin: 1rem 0 0; font-size: .8rem; color: #64748b; border-top: 1px solid #f1f4f8; padding-top: .7rem; }
+  @media (max-width: 640px) { .vf-table .vf-col-feature { display: none; } .vf-panel { padding: 1rem; } }
+</style>
+<h2 class="section-anchor" id="vendor-facets"><a href="#vendor-facets">What adopting {{ vf.name }} moves on the Kin Score</a> <span class="section-count">{{ vf.maps | size }}</span></h2>
+<p class="section-blurb">{{ vf.name }} is an area vendor: providers adopt it to run part of their developer surface. This is the Kin Score checks its features can move for a provider that adopts it, what each one really earns, and what it earns nothing for.</p>
+<div class="vf-panel">
+  <div class="vf-meta">
+    {%- for a in vf.areas %}<span class="vf-chip">{{ a | replace: "-", " " }}</span>{% endfor -%}
+    {%- if vf.basis == "measured" %}<span class="vf-chip vf-measured" title="Compared against detected customers and a matched control">measured</span>{% else %}<span class="vf-chip vf-capability" title="Mapped from the vendor's documented features; customers could not be detected in the catalog">capability map</span>{% endif -%}
+    <span>{{ vf.features }} features checked {{ vf.refreshed }} &middot; rubric v{{ vf.rubric }}</span>
+  </div>
+  <p class="vf-summary">{{ vf.summary | replace: "|", "&#124;" | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+
+  {%- if vf.surface %}
+  <div class="vf-surface">
+    {%- for s in vf.surface %}{%- assign sv = s[1] -%}{%- if sv.reachable > 0 -%}
+    {%- assign pct = sv.reachable | times: 100.0 | divided_by: sv.total -%}
+    <div class="{% if s[0] == 'Agent Readiness' %}vf-sf-agent{% endif %}"><div class="vf-sf-label"><span>{{ s[0] }}</span><span>{{ sv.reachable }} of {{ sv.total }} pts</span></div><div class="vf-sf-bar"><div class="vf-sf-fill" style="width:{{ pct | round: 1 }}%;"></div></div></div>
+    {%- endif -%}{% endfor %}
+  </div>
+  {%- endif %}
+
+  {%- if vf.maps.size > 0 %}
+  <table class="vf-table">
+    <thead><tr><th>Check</th><th>Earns</th><th class="vf-col-feature">Through</th></tr></thead>
+    <tbody>
+    {%- for m in vf.maps %}
+      {%- assign earned = m.points | times: m.credit | round: 1 -%}
+      <tr>
+        <td>{{ m.label }}{% if m.qualifier != "" %}<span class="vf-q vf-q-{{ m.qualifier }}">{{ m.qualifier }}</span>{% endif %}<br><span class="vf-layer">{{ m.facet }}{% if m.delta_pp %} &middot; customers {% if m.delta_pp > 0 %}+{% endif %}{{ m.delta_pp }} pts vs control{% endif %}</span>{% if m.why != "" %}<span class="vf-why">{{ m.why | truncate: 260 | replace: "|", "&#124;" | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</td>
+        <td class="vf-pts">{{ earned }} of {{ m.points }}</td>
+        <td class="vf-col-feature">{% if m.source %}<a href="{{ m.source }}" rel="nofollow noopener">{{ m.feature }}</a>{% else %}{{ m.feature }}{% endif %}</td>
+      </tr>
+    {%- endfor %}
+    </tbody>
+  </table>
+  {%- else %}
+  <p class="vf-summary"><strong>Nothing the Kin Score reads.</strong> {{ vf.name }}'s features serve the provider's operations, not the published surface the score measures.</p>
+  {%- endif %}
+
+  {%- if vf.measured or vf.simulation %}
+  <div class="vf-stats">
+    {%- if vf.measured %}
+    <div class="vf-stat"><strong>{{ vf.measured.cohort }}</strong> detected customers vs {{ vf.measured.control }} comparable providers: composite {{ vf.measured.composite.cohort }} vs {{ vf.measured.composite.control }}, agent readiness {{ vf.measured.agent.cohort }} vs {{ vf.measured.agent.control }}. Association, not cause.</div>
+    {%- endif %}
+    {%- if vf.simulation %}
+    <div class="vf-stat">Across <strong>{{ vf.simulation.providers }}</strong> providers that publish a contract, adopting {{ vf.name }} would move {{ vf.simulation.moved }}. Median lift: composite <strong>+{{ vf.simulation.composite.median }}</strong> (90th percentile +{{ vf.simulation.composite.p90 }}), agent readiness <strong>+{{ vf.simulation.agent.median }}</strong> (+{{ vf.simulation.agent.p90 }}). Conditional rows excluded.</div>
+    {%- endif %}
+  </div>
+  {%- endif %}
+
+  {%- if vf.earns_nothing.size > 0 %}
+  <details>
+    <summary>What {{ vf.name }} ships that earns nothing ({{ vf.earns_nothing | size }})</summary>
+    <ul class="vf-nothing">
+      {%- for e in vf.earns_nothing %}<li><strong>{{ e.feature }}</strong> &mdash; {{ e.why | truncate: 300 | replace: "|", "&#124;" | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
+    </ul>
+  </details>
+  {%- endif %}
+
+  <p class="vf-rule">{{ vf.hard_rule }} <a href="https://apis.io/rating/">The rating is not for sale &rarr;</a> &middot; <a href="{{ vf.artifact }}" rel="nofollow noopener">Full vendor facets artifact</a></p>
+</div>
+{%- endif -%}

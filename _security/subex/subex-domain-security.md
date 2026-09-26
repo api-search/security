@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Telecommunications
 - Revenue Assurance
-- Fraud Management
+- Fraud Prevention
 - Analytics
 - BSS/OSS
 ---

@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cleaning Products
 - Consumer Goods
-- CPG
+- Consumer Packaged Goods
 - Disinfectants
 - Household Products
 - Manufacturer

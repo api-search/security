@@ -129,7 +129,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Marketplace
-- SME
+- Small Business
 - Procurement
 - India
 - Onboarding

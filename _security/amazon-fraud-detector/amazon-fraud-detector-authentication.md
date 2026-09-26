@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-d
 summary_line: apiKey · 1 scheme
 tags:
 - Financial Services
-- Fraud Detection
+- Fraud Prevention
 - Machine Learning
 - Security
 ---

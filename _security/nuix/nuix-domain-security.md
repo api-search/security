@@ -116,6 +116,6 @@ tags:
 - Investigations
 - Compliance
 - Data Processing
-- Legal Technology
+- Legal Tech
 - Intelligence
 ---

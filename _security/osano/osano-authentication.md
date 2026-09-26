@@ -154,7 +154,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osano/refs/hea
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Consent Management
 - Compliance
 - GDPR

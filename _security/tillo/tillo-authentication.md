@@ -68,4 +68,5 @@ tags:
 - Payments
 - Rewards
 - Incentives
+- Loyalty & Incentives
 ---

@@ -51,4 +51,5 @@ tags:
 - Shipping
 - Supply Chain
 - Webhook
+- Freight
 ---

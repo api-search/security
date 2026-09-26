@@ -37,7 +37,7 @@ tags:
 - Loyalty
 - Website Builder
 - Food and Beverage
-- SMB
+- Small Business
 - Software-as-a-Service
 - No Public API
 ---

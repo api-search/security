@@ -133,7 +133,7 @@ tags:
 - Payments
 - Chargebacks
 - Disputes
-- Fraud
+- Fraud Prevention
 - Risk Management
 - Financial Services
 - E-Commerce

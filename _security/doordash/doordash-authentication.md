@@ -224,7 +224,7 @@ summary_line: http/apiKey · 5 schemes
 tags:
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - On-Demand
 - Food Delivery
 - Local Commerce

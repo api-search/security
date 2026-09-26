@@ -38,5 +38,5 @@ tags:
 - E-Commerce
 - Customer Data
 - Shopify
-- CPG
+- Consumer Packaged Goods
 ---

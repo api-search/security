@@ -51,5 +51,5 @@ tags:
 - Segments
 - Webhook
 - Email Deliverability
-- SMB
+- Small Business
 ---

@@ -176,7 +176,7 @@ tags:
 - Bank Verification
 - Biometrics
 - Compliance
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - KYB
 - KYC

@@ -36,6 +36,6 @@ tags:
 - B2B
 - E-Commerce
 - India
-- SMB
+- Small Business
 - Defunct
 ---

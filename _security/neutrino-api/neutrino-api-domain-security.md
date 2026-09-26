@@ -99,7 +99,7 @@ tags:
 - IP Intelligence
 - Security
 - Networking
-- Anti-Fraud
+- Fraud Prevention
 - E-Commerce
 - Payments
 - Imaging

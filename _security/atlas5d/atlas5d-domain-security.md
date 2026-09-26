@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Remote Patient Monitoring
 - Ambient Computing
 - Sensors

@@ -42,7 +42,7 @@ tags:
 - Bookkeeping
 - Accounting
 - MSME
-- SMB
+- Small Business
 - India
 - UPI
 - QR Payments

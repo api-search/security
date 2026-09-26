@@ -37,6 +37,6 @@ tags:
 - Demand Forecasting
 - Inventory Optimization
 - Planning
-- CPG
+- Consumer Packaged Goods
 - Manufacturing
 ---

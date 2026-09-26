@@ -236,4 +236,5 @@ tags:
 - Same-Day Delivery
 - Curbside Pickup
 - Returns
+- Delivery
 ---

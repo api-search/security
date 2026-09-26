@@ -136,5 +136,6 @@ tags:
 - Banking
 - Fintech
 - Webhook
+- Loyalty & Incentives
 trust_url: https://trust.byaccrue.com/
 ---

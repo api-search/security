@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: neso-data-portal-datastore-api-openapi.yml
+  format: yaml
+  label: NESO Data Portal API
+  slug: neso-data-portal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/openapi/neso-data-portal-datastore-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,4 +64,5 @@ tags:
 - Renewables
 - Gas
 - Demand Response
+- Carbon Intensity
 ---

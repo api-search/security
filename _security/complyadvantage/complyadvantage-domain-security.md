@@ -206,7 +206,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantag
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AML
-- Fraud Detection
+- Fraud Prevention
 - Sanctions Screening
 - Compliance
 - PEP Screening

@@ -48,6 +48,6 @@ tags:
 - Contract Review
 - Compliance
 - Professional Services
-- Legal Technology
+- Legal Tech
 - Consulting
 ---

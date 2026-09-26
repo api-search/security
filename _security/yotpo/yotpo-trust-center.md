@@ -53,5 +53,6 @@ tags:
 - Loyalty
 - Retention Marketing
 - UGC
+- Loyalty & Incentives
 trust_url: https://trust.yotpo.com/
 ---

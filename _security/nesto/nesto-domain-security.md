@@ -52,7 +52,6 @@ tags:
 - Mortgage
 - Lending
 - PropTech
-- Mortgage Technology
 - Financial Services
 - Underwriting
 - Loan Servicing

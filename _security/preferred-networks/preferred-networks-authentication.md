@@ -40,7 +40,7 @@ tags:
 - Machine Learning
 - LLM
 - Generative AI
-- LLM Inference
+- Inference
 - Foundation Models
 - Japan
 - Semiconductors

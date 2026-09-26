@@ -34,7 +34,7 @@ tags:
 - Company
 - Fintech
 - Credit Scoring
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Artificial Intelligence
 - Financial Services

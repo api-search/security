@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - AI Commerce
-- CPG
+- Consumer Packaged Goods
 - Retail
 - Product Data
 - E-Commerce

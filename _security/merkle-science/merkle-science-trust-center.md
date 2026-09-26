@@ -34,7 +34,7 @@ tags:
 - AML
 - KYC
 - Risk Management
-- Fraud Detection
+- Fraud Prevention
 - Due Diligence
 - RegTech
 trust_url: https://trust.merklescience.com/

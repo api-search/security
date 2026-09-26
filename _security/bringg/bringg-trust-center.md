@@ -217,5 +217,6 @@ tags:
 - Same-Day Delivery
 - Curbside Pickup
 - Returns
+- Delivery
 trust_url: https://security.bringg.com/
 ---

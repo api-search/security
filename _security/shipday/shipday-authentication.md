@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Local Delivery
 - Dispatch
 ---

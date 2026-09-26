@@ -209,7 +209,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Legal
-- Legal Technology
+- Legal Tech
 - Legal Operations
 - Contract Lifecycle Management
 - Matter Management

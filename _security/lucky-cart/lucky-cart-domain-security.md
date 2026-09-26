@@ -38,7 +38,7 @@ tags:
 - Advertising
 - Personalization
 - Loyalty
-- CPG
+- Consumer Packaged Goods
 - Grocery
 - Promotions
 - Gamification

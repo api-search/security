@@ -106,7 +106,7 @@ tags:
 - Indonesia
 - Southeast Asia
 - SNAP
-- E-Wallet
+- Digital Wallet
 - Virtual Accounts
 - Cards
 - Bank Transfers

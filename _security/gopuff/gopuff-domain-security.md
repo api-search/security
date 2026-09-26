@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quick Commerce
 - Instant Delivery
-- Last Mile
+- Last Mile Delivery
 - Grocery
 - Fulfillment
 - Retail

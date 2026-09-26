@@ -36,7 +36,7 @@ tags:
 - RNA
 - Circular RNA
 - Cell Therapy
-- Cart
+- CAR-T
 - Nanoparticles
 - Drug Discovery
 - Immunology
@@ -44,4 +44,5 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Preclinical
+- Cart
 ---

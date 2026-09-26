@@ -104,5 +104,5 @@ tags:
 - Product Search
 - Retail
 - Affiliates
-- CPG
+- Consumer Packaged Goods
 ---

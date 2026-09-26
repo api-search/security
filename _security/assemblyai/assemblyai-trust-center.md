@@ -46,5 +46,6 @@ tags:
 - Speech-to-Text
 - Voice
 - Real-Time
+- Voice AI
 trust_url: https://www.assemblyai.com/security
 ---

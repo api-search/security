@@ -35,5 +35,5 @@ tags:
 - Diagnostics
 - Pathogen Detection
 - Biotechnology
-- Health Technology
+- Health Tech
 ---

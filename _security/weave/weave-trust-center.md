@@ -78,7 +78,7 @@ tags:
 - Telephony
 - Reviews
 - Scheduling
-- SMB
+- Small Business
 - Developer Platform
 - Authentication
 trust_url: https://trust.getweave.com/

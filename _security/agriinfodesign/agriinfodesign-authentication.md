@@ -370,7 +370,6 @@ tags:
 - Agriculture
 - AgTech
 - Precision Agriculture
-- Precision Farming
 - GNSS
 - GPS
 - RTK

@@ -70,4 +70,5 @@ tags:
 - Finance
 - Crop Planning
 - Agronomy
+- AgTech
 ---

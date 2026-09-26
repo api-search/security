@@ -30,6 +30,6 @@ tags:
 - Employee Benefits
 - Claims
 - Insurance
-- Health Technology
+- Health Tech
 trust_url: https://trust.smithrx.com/
 ---

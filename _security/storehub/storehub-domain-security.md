@@ -35,7 +35,7 @@ tags:
 - Point-of-Sale
 - Retail
 - Restaurant
-- Inventory Management
+- Inventory
 - Payments
 - E-Commerce
 - Loyalty

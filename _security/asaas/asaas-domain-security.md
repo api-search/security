@@ -55,5 +55,5 @@ tags:
 - Invoicing
 - Brazil
 - Fintech
-- SMB
+- Small Business
 ---

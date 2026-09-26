@@ -39,4 +39,7 @@ tags:
 - Valuation
 - Housing Data
 - Transaction Management
+- Listings
+- RESO
+- IDX
 ---

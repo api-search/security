@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Machine Learning
-- LLM Inference
+- Inference
 - Model Compression
 - Quantum Computing
 - Speech-to-Text

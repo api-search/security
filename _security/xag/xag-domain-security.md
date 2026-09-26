@@ -42,5 +42,5 @@ tags:
 - Robotics
 - IoT
 - Precision Agriculture
-- Agricultural Technology
+- AgTech
 ---

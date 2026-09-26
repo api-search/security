@@ -29,7 +29,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Patient Access
 - Financial Assistance
 - Oncology

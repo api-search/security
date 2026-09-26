@@ -235,7 +235,7 @@ tags:
 - ERP
 - Seed-to-Sale
 - Compliance
-- Inventory Management
+- Inventory
 - Supply Chain
 - Track and Trace
 - Manufacturing

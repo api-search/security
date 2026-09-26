@@ -57,5 +57,8 @@ tags:
 - Gateways
 - Observability
 - Webhook
+- Serverless
+- Hosting
+- Deployment
 trust_url: https://security.vercel.com/
 ---

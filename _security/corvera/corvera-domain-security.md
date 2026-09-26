@@ -44,7 +44,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - MCP
-- CPG
 - Consumer Packaged Goods
 - Retail
 - Data

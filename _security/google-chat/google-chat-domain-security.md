@@ -92,5 +92,6 @@ tags:
 - Google
 - Google Workspace
 - Messaging
+- Spaces
 - Space
 ---

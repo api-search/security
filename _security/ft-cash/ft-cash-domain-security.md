@@ -36,7 +36,7 @@ tags:
 - Fintech
 - Payments
 - Lending
-- SME
+- Small Business
 - Financial Inclusion
 - India
 ---

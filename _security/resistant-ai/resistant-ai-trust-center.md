@@ -32,7 +32,7 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Fraud Detection
+- Fraud Prevention
 - Financial Crime
 - Document Verification
 - Document Forensics

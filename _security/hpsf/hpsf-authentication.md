@@ -62,5 +62,4 @@ tags:
 - Conferences
 - Research Computing
 - Non-Profit
-- Content
 ---

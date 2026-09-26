@@ -92,7 +92,7 @@ tags:
 - Singapore
 - Thailand
 - Cards
-- E-Wallet
+- Digital Wallet
 - Payment Token
 - Cross-Border
 - Fintech

@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Delivery
-- Last Mile
+- Last Mile Delivery
 - Logistics
 - Proof of Delivery
 - Electronic Proof Of Delivery

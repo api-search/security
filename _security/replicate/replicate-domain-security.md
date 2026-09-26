@@ -108,4 +108,5 @@ tags:
 - Image Generation
 - Language Models
 - Model Deployment
+- Inference
 ---

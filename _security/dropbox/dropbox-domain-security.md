@@ -232,4 +232,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Documents
 - Collaboration
+- Storage
+- Cloud Storage
+- File Sharing
 ---

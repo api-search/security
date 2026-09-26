@@ -52,7 +52,6 @@ summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Company
 - MCP
-- CPG
 - Consumer Packaged Goods
 - Retail
 - Data

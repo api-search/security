@@ -397,5 +397,8 @@ tags:
 - Advertising
 - MCP
 - Agents
+- Affiliate Marketing
+- Influencer Marketing
+- Referral Marketing
 trust_url: ''
 ---

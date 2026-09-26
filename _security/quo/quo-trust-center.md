@@ -82,5 +82,9 @@ tags:
 - Voice
 - Contacts
 - Webhook
+- Telephony
+- Business Phone
+- CPaaS
+- Contact Center
 trust_url: https://www.quo.com/security
 ---

@@ -42,7 +42,7 @@ tags:
 - Viewability
 - Attention Measurement
 - Invalid Traffic
-- Fraud Detection
+- Fraud Prevention
 - Contextual Targeting
 - Programmatic Advertising
 - Connected TV

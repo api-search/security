@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stryker/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Medical Devices
-- Healthcare Technology
+- Health Tech
 - Fortune 500
 - Medical Equipment
 - Orthopedics

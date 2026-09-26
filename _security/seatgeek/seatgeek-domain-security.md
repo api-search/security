@@ -67,10 +67,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Event
-- Tickets
+- Ticketing
 - Live Events
 - Concerts
 - Sports
 - Venues
-- Ticketing
 ---

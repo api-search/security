@@ -158,5 +158,6 @@ tags:
 - Edge Functions
 - Database
 - Identity Federation
+- Serverless
 trust_url: https://trust.supabase.io/
 ---

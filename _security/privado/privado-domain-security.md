@@ -35,7 +35,6 @@ tags:
 - Company
 - DevOps
 - Privacy
-- Data Privacy
 - Security
 - DevSecOps
 - Code Scanning

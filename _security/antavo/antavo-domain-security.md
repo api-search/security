@@ -232,4 +232,5 @@ tags:
 - Coupons
 - Points
 - Membership
+- Loyalty & Incentives
 ---

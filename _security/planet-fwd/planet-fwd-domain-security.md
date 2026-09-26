@@ -37,6 +37,6 @@ tags:
 - Carbon Accounting
 - Decarbonization
 - Life Cycle Assessment
-- CPG
+- Consumer Packaged Goods
 - Supply Chain
 ---

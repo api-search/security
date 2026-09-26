@@ -68,4 +68,5 @@ tags:
 - Points Programs
 - Redemptions
 - Fintech
+- Loyalty & Incentives
 ---

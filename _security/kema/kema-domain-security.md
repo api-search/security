@@ -44,5 +44,5 @@ tags:
 - Working Capital
 - Payment Links
 - MENA
-- SME
+- Small Business
 ---

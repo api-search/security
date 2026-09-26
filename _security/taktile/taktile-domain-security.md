@@ -36,7 +36,7 @@ tags:
 - Decision Automation
 - Credit Risk
 - Underwriting
-- Fraud Detection
+- Fraud Prevention
 - KYC
 - Financial Services
 - Insurance

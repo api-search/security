@@ -37,7 +37,7 @@ tags:
 - Neuroscience
 - Research Instrumentation
 - Implantable Devices
-- Health Technology
+- Health Tech
 - Assistive Technology
 - Signal Processing
 ---

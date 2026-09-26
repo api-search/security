@@ -739,4 +739,5 @@ tags:
 - Marketing
 - CRM
 - Automation
+- Marketing Automation
 ---

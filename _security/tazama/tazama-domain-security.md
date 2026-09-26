@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Technology
-- Fraud Detection
+- Fraud Prevention
 - AML
 - Linux Foundation
 - Open Source

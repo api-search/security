@@ -38,7 +38,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/featurespace/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention
-- Fraud Detection
 - Financial Crime
 - AML
 - Behavioral Analytics

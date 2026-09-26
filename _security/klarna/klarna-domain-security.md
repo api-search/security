@@ -177,4 +177,5 @@ tags:
 - Consumer Credit
 - Sweden
 - Agentic Commerce
+- Consumer Finance
 ---

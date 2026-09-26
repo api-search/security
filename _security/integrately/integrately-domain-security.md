@@ -46,7 +46,7 @@ tags:
 - iPaaS
 - No-Code
 - SaaS Integration
-- SMB
+- Small Business
 - Triggers and Actions
 - Webhook
 - Workflow Automation

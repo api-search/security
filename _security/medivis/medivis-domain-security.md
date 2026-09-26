@@ -38,5 +38,5 @@ tags:
 - Surgical Navigation
 - Medical Imaging
 - Medical Education
-- Health Technology
+- Health Tech
 ---

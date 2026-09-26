@@ -67,5 +67,5 @@ tags:
 - MCP Server
 - Contact Enrichment
 - Risk Management
-- Fraud
+- Fraud Prevention
 ---

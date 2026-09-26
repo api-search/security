@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Commerce Fulfillment
 - Order Management
-- Inventory Management
+- Inventory
 - Shipment Tracking
 - Returns Management
 - Warehouse Management

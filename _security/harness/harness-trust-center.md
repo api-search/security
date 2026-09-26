@@ -2885,5 +2885,8 @@ tags:
 - Internal Developer Portal
 - Lifecycle
 - Software Delivery
+- CI/CD
+- Continuous Delivery
+- Continuous Integration
 trust_url: https://trust.harness.io/
 ---

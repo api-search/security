@@ -285,7 +285,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Vendor Managed Inventory
 - Industrial Vending
 - Supply Chain

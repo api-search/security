@@ -40,5 +40,4 @@ tags:
 - Network Switching
 - Interconnect
 - Hardware
-- Content
 ---

@@ -46,7 +46,7 @@ tags:
 - Logistics
 - Delivery
 - Moving
-- Last Mile
+- Last Mile Delivery
 - Transportation
 - On-Demand
 - Webhook

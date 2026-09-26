@@ -55,4 +55,5 @@ tags:
 - AI Agents
 - Payments
 - Smart Contracts
+- Loyalty & Incentives
 ---

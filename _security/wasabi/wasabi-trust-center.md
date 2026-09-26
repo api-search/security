@@ -30,5 +30,6 @@ tags:
 - Media Storage
 - Backup
 - Enterprise Storage
+- Storage
 trust_url: https://wasabi.com/cloud-object-storage/security
 ---

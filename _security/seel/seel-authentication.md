@@ -91,6 +91,6 @@ tags:
 - Post-Purchase
 - Returns
 - Extended Warranty
-- Fraud
+- Fraud Prevention
 - Payments
 ---

@@ -35,7 +35,7 @@ tags:
 - Company
 - Fortune 500
 - Freight
-- Less-Than-Truckload
+- LTL
 - Logistics
 - Transportation
 - Trucking

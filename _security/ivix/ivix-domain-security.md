@@ -36,7 +36,7 @@ tags:
 - Tax
 - Compliance
 - Financial Crime
-- Fraud Detection
+- Fraud Prevention
 - Artificial Intelligence
 - Data Analytics
 - Law Enforcement

@@ -118,5 +118,6 @@ tags:
 - CPaaS
 - Conversational AI
 - Voice AI
+- Voice Agents
 trust_url: https://security.vapi.ai/
 ---

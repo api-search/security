@@ -36,6 +36,6 @@ tags:
 - Claims Automation
 - Artificial Intelligence
 - Document Intelligence
-- Fraud Detection
+- Fraud Prevention
 - Machine Learning
 ---

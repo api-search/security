@@ -292,5 +292,6 @@ tags:
 - Marketing
 - Customer Acquisition
 - Software-as-a-Service
+- Loyalty & Incentives
 trust_url: https://security.extole.com/
 ---

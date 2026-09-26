@@ -45,5 +45,5 @@ tags:
 - Booking
 - Software-as-a-Service
 - Fintech
-- SMB
+- Small Business
 ---

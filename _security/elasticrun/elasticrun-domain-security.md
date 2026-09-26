@@ -36,6 +36,6 @@ tags:
 - Supply Chain
 - B2B
 - Last Mile Delivery
-- FMCG
+- Consumer Packaged Goods
 - India
 ---

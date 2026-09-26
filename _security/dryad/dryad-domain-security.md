@@ -82,7 +82,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Research Data
 - Open Science
-- Data Repository
+- Research Repository
 - Datasets
 - Biology
 - Ecology

@@ -99,6 +99,6 @@ tags:
 - MCP
 - Agent-Native
 - Reporting
-- CPG
+- Consumer Packaged Goods
 trust_url: https://www.mikmak.com/security
 ---

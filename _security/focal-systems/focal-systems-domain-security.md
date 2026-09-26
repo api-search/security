@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - Retail Automation
-- Inventory Management
+- Inventory
 - On-Shelf Availability
 - Grocery
 ---

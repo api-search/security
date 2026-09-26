@@ -158,7 +158,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mine/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Data Governance
 - Privacy Operations
 - Consent Management

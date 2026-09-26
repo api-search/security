@@ -40,5 +40,5 @@ tags:
 - Antivirus
 - VPN
 - Parental Controls
-- Fraud Protection
+- Fraud Prevention
 ---

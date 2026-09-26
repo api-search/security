@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Digital Health
 - Pharmacy
 - Health Insurance

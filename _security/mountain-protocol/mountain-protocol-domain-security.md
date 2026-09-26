@@ -42,4 +42,5 @@ tags:
 - Ethereum
 - Financial Services
 - Yield
+- Stablecoin Issuance
 ---

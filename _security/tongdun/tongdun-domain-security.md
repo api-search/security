@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - Risk Management
-- Fraud Detection
-- Anti-Fraud
+- Fraud Prevention
 - Risk Control
 - Financial Services
 - Credit Risk

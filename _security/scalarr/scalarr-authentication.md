@@ -39,6 +39,6 @@ tags:
 - Machine Learning
 - Artificial Intelligence
 - Open Source
-- Fraud Detection
+- Fraud Prevention
 - Mobile Ad Fraud
 ---

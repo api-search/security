@@ -38,5 +38,5 @@ tags:
 - Teleconsultation
 - Insurtech
 - Philippines
-- SME
+- Small Business
 ---

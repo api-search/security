@@ -308,6 +308,48 @@ api_specs:
   slug: keap-ecommerce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-ecommerce-api-openapi.yml
+- filename: keap-user-info-api-openapi.yml
+  format: yaml
+  label: Keap User Info API
+  slug: keap-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-user-info-api-openapi.yml
+- filename: keap-custom-fields-api-openapi.yml
+  format: yaml
+  label: Keap Custom Fields API
+  slug: keap-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-custom-fields-api-openapi.yml
+- filename: keap-dateexpression-api-openapi.yml
+  format: yaml
+  label: Keap Date Expression API
+  slug: keap-dateexpression-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-dateexpression-api-openapi.yml
+- filename: keap-deals-api-openapi.yml
+  format: yaml
+  label: Keap Deals API
+  slug: keap-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-deals-api-openapi.yml
+- filename: keap-display-forms-api-openapi.yml
+  format: yaml
+  label: Keap Display Forms API
+  slug: keap-display-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-display-forms-api-openapi.yml
+- filename: keap-pipelines-api-openapi.yml
+  format: yaml
+  label: Keap Pipelines API
+  slug: keap-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-pipelines-api-openapi.yml
+- filename: keap-stages-api-openapi.yml
+  format: yaml
+  label: Keap Stages API
+  slug: keap-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-stages-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -409,4 +451,5 @@ tags:
 - Webhook
 - MCP
 - Payments
+- Sales Automation
 ---

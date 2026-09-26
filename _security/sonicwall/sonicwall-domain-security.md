@@ -49,5 +49,5 @@ tags:
 - Sandbox
 - Capture ATP
 - SonicOS
-- SMB
+- Small Business
 ---

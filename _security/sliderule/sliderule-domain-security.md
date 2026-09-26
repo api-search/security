@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Risk Management
-- Fraud
+- Fraud Prevention
 - Decisioning
 - Rules Engine
 - Compliance

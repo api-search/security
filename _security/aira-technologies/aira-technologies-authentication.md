@@ -36,5 +36,4 @@ tags:
 - Network Automation
 - Generative AI
 - Observability
-- Content
 ---

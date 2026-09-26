@@ -36,7 +36,7 @@ tags:
 - Payment Orchestration
 - Fintech
 - Tokenization
-- Fraud
+- Fraud Prevention
 - Disputes
 - Reconciliation
 - Checkout

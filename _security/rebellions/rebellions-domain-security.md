@@ -33,7 +33,7 @@ tags:
 - Company
 - Tools Infrastructure
 - Artificial Intelligence
-- AI Inference
+- Inference
 - NPU
 - Hardware
 - Machine Learning

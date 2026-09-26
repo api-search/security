@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Patient Access
 - Financial Assistance
 - Oncology

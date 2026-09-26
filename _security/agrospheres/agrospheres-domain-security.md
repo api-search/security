@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Agriculture
-- Agricultural Technology
+- AgTech
 - Biotechnology
 - Crop Protection
 - Biologicals

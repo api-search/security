@@ -36,7 +36,7 @@ tags:
 - QR Payments
 - Merchant Payments
 - Point-of-Sale
-- SMB
+- Small Business
 - Fintech
 - Lending
 - Buy Now Pay Later

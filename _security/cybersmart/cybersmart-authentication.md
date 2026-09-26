@@ -43,5 +43,5 @@ tags:
 - MSP
 - Device Security
 - GDPR
-- SME
+- Small Business
 ---

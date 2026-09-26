@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prediko/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Demand Forecasting
 - Supply Chain
 - E-Commerce

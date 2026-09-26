@@ -100,4 +100,5 @@ tags:
 - OpenJS Foundation
 - Test Automation
 - WebDriver
+- Testing
 ---

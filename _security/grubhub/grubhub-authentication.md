@@ -148,4 +148,5 @@ tags:
 - Menu Management
 - Hospitality
 - Local Commerce
+- Delivery
 ---

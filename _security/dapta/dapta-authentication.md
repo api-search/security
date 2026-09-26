@@ -48,5 +48,5 @@ tags:
 - MCP
 - Webhook
 - CRM
-- SMB
+- Small Business
 ---

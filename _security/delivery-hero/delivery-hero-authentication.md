@@ -95,4 +95,5 @@ tags:
 - On-Demand
 - Order
 - Restaurant
+- Delivery
 ---

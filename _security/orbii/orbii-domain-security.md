@@ -230,7 +230,7 @@ tags:
 - Fintech
 - Underwriting
 - Banking
-- SME
+- Small Business
 - Embedded Finance
 - MENA
 - Risk Management

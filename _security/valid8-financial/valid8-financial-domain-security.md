@@ -35,7 +35,7 @@ tags:
 - Financial Services
 - Forensic Accounting
 - Fraud Investigation
-- Legal Technology
+- Legal Tech
 - Artificial Intelligence
 - Evidence Management
 ---

@@ -37,6 +37,6 @@ tags:
 - GovTech
 - Relief
 - Utilities
-- Fraud Detection
+- Fraud Prevention
 - Fintech
 ---

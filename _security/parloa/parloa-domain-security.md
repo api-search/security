@@ -49,7 +49,6 @@ tags:
 - Contact Center
 - Conversational AI
 - Customer Experience
-- CX
 - Generative AI
 - Telephony
 - Voice

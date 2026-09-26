@@ -168,6 +168,6 @@ tags:
 - Fintech
 - PayNow
 - Southeast Asia
-- SMB
+- Small Business
 trust_url: https://www.hitpayapp.com/security
 ---

@@ -35,6 +35,6 @@ tags:
 - RISC-V
 - Memory
 - Edge Computing
-- AI Inference
+- Inference
 - Hardware
 ---

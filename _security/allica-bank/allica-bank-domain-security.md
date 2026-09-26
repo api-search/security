@@ -153,7 +153,7 @@ tags:
 - United Kingdom
 - Payments
 - Account Information
-- SME
+- Small Business
 - Business Banking
 - Fintech
 ---

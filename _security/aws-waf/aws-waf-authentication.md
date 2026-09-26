@@ -9,6 +9,24 @@ api_specs:
   slug: aws-waf-aws-wafv2-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-aws-wafv2-api-api-openapi.yml
+- filename: amazon-waf-ip-sets-api-openapi.yml
+  format: yaml
+  label: AWS WAF IP Sets API
+  slug: amazon-waf-ip-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/amazon-waf-ip-sets-api-openapi.yml
+- filename: amazon-waf-rule-groups-api-openapi.yml
+  format: yaml
+  label: AWS WAF Rule Groups API
+  slug: amazon-waf-rule-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/amazon-waf-rule-groups-api-openapi.yml
+- filename: amazon-waf-web-acls-api-openapi.yml
+  format: yaml
+  label: AWS WAF Web ACLs API
+  slug: amazon-waf-web-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/amazon-waf-web-acls-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

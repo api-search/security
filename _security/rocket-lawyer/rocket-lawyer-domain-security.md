@@ -97,7 +97,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Legal
-- Legal Technology
 - Legal Tech
 - Legal Documents
 - Electronic Signature

@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Edge Computing
 - NPU
-- AI Inference
+- Inference
 - Computer Vision
 - Automotive
 - Chips

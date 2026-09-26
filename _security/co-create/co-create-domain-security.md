@@ -49,4 +49,5 @@ tags:
 - Tokens
 - Community
 - Crypto
+- Loyalty & Incentives
 ---

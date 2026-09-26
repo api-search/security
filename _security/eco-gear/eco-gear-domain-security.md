@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Food Technology
-- AgriTech
+- AgTech
 - Freshness Preservation
 - Nano Coating
 - Biomaterials

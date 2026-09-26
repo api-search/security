@@ -42,7 +42,7 @@ tags:
 - AI Agents
 - Contract Lifecycle Management
 - Legal
-- Legal Technology
+- Legal Tech
 - Procurement
 - Source-to-Pay
 - Finance

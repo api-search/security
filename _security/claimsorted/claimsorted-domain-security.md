@@ -41,5 +41,5 @@ tags:
 - Claims
 - Claims Management
 - Third-Party Administrator
-- Fraud Detection
+- Fraud Prevention
 ---

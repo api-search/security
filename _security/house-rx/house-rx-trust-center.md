@@ -25,7 +25,7 @@ tags:
 - Pharmacy
 - Medically Integrated Dispensing
 - Prior Authorization
-- Health Technology
+- Health Tech
 - EHR Integration
 - Patient Care
 trust_url: https://trust.houserx.com/

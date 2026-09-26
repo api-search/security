@@ -44,5 +44,4 @@ tags:
 - Neovim
 - Cursor
 - Acquired
-- Sunset
 ---

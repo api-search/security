@@ -72,5 +72,7 @@ tags:
 - Infrastructure
 - Edge Computing
 - Networking
+- Hosting
+- Deployment
 trust_url: https://fly.io/security
 ---

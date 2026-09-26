@@ -48,7 +48,7 @@ tags:
 - Menus
 - Recipes
 - Trends
-- CPG
+- Consumer Packaged Goods
 - Artificial Intelligence
 - Data
 - Analytics

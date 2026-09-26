@@ -458,7 +458,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Research Data Management
-- Inventory Management
+- Inventory
 - Experiment Management
 - REST API
 - GraphQL

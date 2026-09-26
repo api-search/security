@@ -197,7 +197,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freddie-mac/re
 summary_line: http · 2 schemes
 tags:
 - Freddie Mac
-- Federal Government
 - Housing
 - Mortgage
 - Lending

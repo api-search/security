@@ -101,7 +101,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Fraud Prevention
-- Fraud Detection
 - Chargeback Prevention
 - Account Takeover
 - 3D Secure

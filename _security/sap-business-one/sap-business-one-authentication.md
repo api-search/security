@@ -89,7 +89,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - ERP
 - Accounting
-- Inventory Management
+- Inventory
 - CRM
 - Small Business
 - Midsize Business

@@ -26,7 +26,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://docs.un
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit21/refs/heads/main/authentication/unit21-authentication.yml
 summary_line: 0 schemes
 tags:
-- Fraud Detection
+- Fraud Prevention
 - AML
 - Compliance
 - Fintech

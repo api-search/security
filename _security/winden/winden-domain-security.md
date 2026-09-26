@@ -37,6 +37,6 @@ tags:
 - Credit Cards
 - Payments
 - Cashback
-- SMB
+- Small Business
 - Corporate Cards
 ---

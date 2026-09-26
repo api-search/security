@@ -93,7 +93,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP
 - Accounting
-- Inventory Management
+- Inventory
 - CRM
 - Small Business
 - Midsize Business

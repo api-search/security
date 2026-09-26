@@ -176,5 +176,6 @@ tags:
 - HIPAA
 - Revenue Cycle Management
 - B2B Integration
+- Health Insurance
 trust_url: ''
 ---

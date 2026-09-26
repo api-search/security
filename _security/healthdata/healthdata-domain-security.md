@@ -46,7 +46,6 @@ tags:
 - Hospital Quality
 - Drug Utilization
 - Public Health
-- Change Data Capture
 - CMS
 - FDA
 - NIH

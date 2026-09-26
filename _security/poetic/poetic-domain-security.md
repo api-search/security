@@ -37,5 +37,5 @@ tags:
 - Agents
 - Workflows
 - Compliance
-- Fraud
+- Fraud Prevention
 ---

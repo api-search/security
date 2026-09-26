@@ -34,7 +34,7 @@ tags:
 - Wardrobe
 - Costume Design
 - Production Management
-- Inventory Management
+- Inventory
 - Media and Entertainment
 - Software-as-a-Service
 ---

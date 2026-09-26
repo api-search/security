@@ -54,6 +54,5 @@ tags:
 - Real Estate
 - Rentals
 - Schools
-- Sunset
 - Zillow Group
 ---

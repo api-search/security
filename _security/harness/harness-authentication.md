@@ -2951,4 +2951,7 @@ tags:
 - Internal Developer Portal
 - Lifecycle
 - Software Delivery
+- CI/CD
+- Continuous Delivery
+- Continuous Integration
 ---

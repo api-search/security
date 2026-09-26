@@ -36,7 +36,7 @@ tags:
 - Food Supply Chain
 - Traceability
 - ERP
-- Inventory Management
+- Inventory
 - Order Management
 - Accounting
 - Software-as-a-Service

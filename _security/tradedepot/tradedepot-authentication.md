@@ -36,7 +36,7 @@ tags:
 - Applicative Saas
 - B2B Commerce
 - Retail Distribution
-- FMCG
+- Consumer Packaged Goods
 - E-Commerce
 - Mobile SDKs
 - Africa

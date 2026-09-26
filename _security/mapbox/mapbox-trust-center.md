@@ -46,5 +46,7 @@ tags:
 - Maps
 - Geospatial
 - Location
+- Geocoding
+- Routing
 trust_url: https://trust.mapbox.com/
 ---

@@ -51,6 +51,6 @@ tags:
 - Consumer Credit
 - Business Credit
 - Identity
-- Fraud
+- Fraud Prevention
 - Data
 ---

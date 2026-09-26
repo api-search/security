@@ -149,4 +149,5 @@ tags:
 - Buckets
 - Developer Platform
 - Cloudflare
+- Storage
 ---

@@ -28,6 +28,6 @@ tags:
 - Property and Casualty
 - Claims Automation
 - FNOL
-- Fraud Detection
+- Fraud Prevention
 trust_url: https://www.assured.com/security
 ---

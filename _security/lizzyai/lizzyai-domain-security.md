@@ -36,7 +36,7 @@ tags:
 - Legal AI
 - Generative AI
 - Artificial Intelligence
-- Legal Technology
+- Legal Tech
 - Document Management
 - Contract Review
 - Software-as-a-Service

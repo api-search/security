@@ -36,7 +36,6 @@ tags:
 - Risk Intelligence
 - Payments
 - Trust
-- Fraud Detection
 - Fintech
 - Machine Learning
 ---

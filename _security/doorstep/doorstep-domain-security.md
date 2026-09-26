@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Delivery
-- Last-Mile Logistics
+- Last Mile Delivery
 - Indoor Positioning
 - Location Tracking
 - Mobile SDK

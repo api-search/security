@@ -77,4 +77,10 @@ tags:
 - Healthcare
 - HL7
 - Interoperability
+- CDA
+- DICOM
+- ICD
+- LOINC
+- SNOMED CT
+- US Core
 ---

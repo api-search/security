@@ -41,4 +41,6 @@ tags:
 - Search
 - Solr
 - Open Access
+- Publishing
+- Scholarly Publishing
 ---

@@ -24,7 +24,6 @@ tags:
 - Fraud Prevention
 - Identity Verification
 - KYC
-- Anti-Fraud
 - iGaming
 - Financial Services
 - Security

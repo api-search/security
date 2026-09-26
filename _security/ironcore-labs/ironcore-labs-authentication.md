@@ -65,7 +65,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Encryption
-- Data Privacy
+- Privacy
 - Security
 - Application-Layer Encryption
 - Key Management

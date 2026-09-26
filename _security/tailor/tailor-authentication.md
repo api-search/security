@@ -33,7 +33,7 @@ tags:
 - Retail
 - E-Commerce
 - Supply Chain
-- Inventory Management
+- Inventory
 - GraphQL
 - gRPC
 - Low-Code

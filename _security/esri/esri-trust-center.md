@@ -68,5 +68,7 @@ tags:
 - Mapping
 - Maps
 - Spatial Analysis
+- Geocoding
+- Routing
 trust_url: https://trust.arcgis.com/en/
 ---

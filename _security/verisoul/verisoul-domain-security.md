@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Fake Account Detection
 - Device Fingerprinting

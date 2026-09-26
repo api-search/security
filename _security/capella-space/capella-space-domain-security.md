@@ -88,4 +88,5 @@ tags:
 - Remote Sensing
 - Tasking
 - Catalog
+- Satellite
 ---

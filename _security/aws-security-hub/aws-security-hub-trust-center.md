@@ -66,6 +66,12 @@ api_specs:
   slug: aws-security-hub-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/aws-security-hub-tags-api-openapi.yml
+- filename: amazon-security-hub-integrations-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Integrations API
+  slug: amazon-security-hub-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/openapi/amazon-security-hub-integrations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

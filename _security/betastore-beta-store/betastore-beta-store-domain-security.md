@@ -32,7 +32,7 @@ tags:
 - Company
 - B2B Marketplace
 - Retail
-- FMCG
+- Consumer Packaged Goods
 - Supply Chain
 - Logistics
 - Embedded Finance

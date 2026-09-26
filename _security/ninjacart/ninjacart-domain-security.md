@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - B2B
-- AgriTech
+- AgTech
 - Supply Chain
 - Fresh Produce
 - Agriculture

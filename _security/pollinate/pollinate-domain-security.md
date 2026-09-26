@@ -37,6 +37,6 @@ tags:
 - Merchant Services
 - Banking
 - Fintech
-- SMB
+- Small Business
 - Digital Experience Platform
 ---

@@ -71,6 +71,7 @@ tags:
 - Security
 - CVE
 - CPE
-- Vulnerability
+- Vulnerabilities
 - CVSS
+- Vulnerability Management
 ---

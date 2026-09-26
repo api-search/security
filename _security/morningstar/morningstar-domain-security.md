@@ -149,4 +149,5 @@ tags:
 - Research
 - Index
 - Wealth Management
+- Financial Data
 ---

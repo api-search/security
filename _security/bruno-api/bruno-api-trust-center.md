@@ -27,5 +27,6 @@ tags:
 - CLI
 - Postman Alternative
 - A2A
+- Testing
 trust_url: https://trust.usebruno.com
 ---

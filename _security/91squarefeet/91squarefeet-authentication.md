@@ -38,6 +38,5 @@ tags:
 - Project Management
 - Supply Chain
 - India
-- Content
 - WordPress
 ---

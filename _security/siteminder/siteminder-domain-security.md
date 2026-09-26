@@ -38,4 +38,5 @@ tags:
 - Travel
 - Property Management
 - Reservations
+- Hotels
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Banking
 - Fintech
-- SMB
+- Small Business
 - Cash Flow
 - Bill Pay
 ---

@@ -181,7 +181,7 @@ summary_line: ISO 27001, SOC 1, SOC 2
 tags:
 - Company
 - Legal
-- Legal Technology
+- Legal Tech
 - Legal Operations
 - Contract Lifecycle Management
 - Matter Management

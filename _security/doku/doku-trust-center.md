@@ -65,7 +65,7 @@ tags:
 - SEA
 - SNAP
 - Virtual Accounts
-- E-Wallet
+- Digital Wallet
 - QRIS
 - Direct Debit
 - Payouts

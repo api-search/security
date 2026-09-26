@@ -132,7 +132,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Legal
 - Legal Analytics
-- Legal Technology
+- Legal Tech
 - Litigation
 - Litigation Analytics
 - Court Data

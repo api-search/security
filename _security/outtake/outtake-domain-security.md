@@ -41,7 +41,7 @@ tags:
 - Digital Risk Protection
 - Threat Intelligence
 - Brand Protection
-- Anti-Fraud
+- Fraud Prevention
 - Artificial Intelligence
 - Takedown
 ---

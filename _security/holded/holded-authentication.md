@@ -68,6 +68,6 @@ tags:
 - Accounting
 - Invoicing
 - Business Management
-- SMB
+- Small Business
 - Spain
 ---

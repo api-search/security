@@ -58,7 +58,7 @@ tags:
 - Credit Cards
 - E-Commerce
 - Recurring Billing
-- Fraud Detection
+- Fraud Prevention
 - Webhook
 - Financial Services
 ---

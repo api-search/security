@@ -171,5 +171,7 @@ tags:
 - Customer Data
 - E-Commerce
 - Automation
+- Marketing Automation
+- Email Marketing
 trust_url: https://trust.klaviyo.com/
 ---

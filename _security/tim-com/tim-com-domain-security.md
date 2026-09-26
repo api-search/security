@@ -58,7 +58,7 @@ tags:
 - Number Verification
 - KYC
 - Identity
-- Anti-Fraud
+- Fraud Prevention
 - Italy
 - Brazil
 - 5G

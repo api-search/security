@@ -34,7 +34,7 @@ tags:
 - Health Tech
 - Healthcare
 - Artificial Intelligence
-- Fraud Detection
+- Fraud Prevention
 - Payment Integrity
 - Machine Learning
 - Payers

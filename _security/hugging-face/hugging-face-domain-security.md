@@ -174,4 +174,5 @@ tags:
 - Image Generation
 - LLM
 - Hugging Face
+- Inference
 ---

@@ -66,7 +66,7 @@ summary_line: TLSv1.3
 tags:
 - Shipping
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Parcel
 - E-Commerce
 - Carbon Neutral

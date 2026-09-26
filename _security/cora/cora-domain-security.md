@@ -49,7 +49,7 @@ tags:
 - Pix
 - Boleto
 - Invoicing
-- SMB
+- Small Business
 - Fintech
 - Banking as a Service
 ---

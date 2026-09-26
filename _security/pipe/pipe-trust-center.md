@@ -24,7 +24,7 @@ tags:
 - Lending
 - Payments
 - Cash Flow
-- SMB
+- Small Business
 - Embedded Financial Services
 trust_url: https://trust.pipe.com/
 ---

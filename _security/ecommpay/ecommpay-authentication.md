@@ -51,5 +51,5 @@ tags:
 - Open Banking
 - Payouts
 - Cross-Border
-- Fraud
+- Fraud Prevention
 ---

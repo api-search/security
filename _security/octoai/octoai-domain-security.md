@@ -42,7 +42,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Acquired
 - Defunct
-- AI Inference
+- Inference
 - Generative AI
 - LLM
 - Foundation Models

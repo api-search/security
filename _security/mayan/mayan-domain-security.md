@@ -37,7 +37,7 @@ tags:
 - Advertising
 - Retail Media
 - Marketing Automation
-- Inventory Management
+- Inventory
 - Analytics
 - Software-as-a-Service
 ---

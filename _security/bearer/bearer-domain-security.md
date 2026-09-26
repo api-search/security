@@ -37,7 +37,7 @@ tags:
 - Static Analysis
 - SAST
 - Code Security
-- Data Privacy
+- Privacy
 - Developer Tools
 - CLI
 ---

@@ -66,7 +66,7 @@ tags:
 - Fulfillment
 - Logistics
 - Supply Chain
-- Inventory Management
+- Inventory
 - Order Management
 - Third Party Logistics
 - E-Commerce

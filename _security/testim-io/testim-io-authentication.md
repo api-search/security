@@ -54,8 +54,8 @@ method: searched
 name: Testim Io Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Testim Io secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Testim Io
+overview: Testim secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Testim
 provider_slug: testim-io
 scheme_count: 1
 schemes:
@@ -86,4 +86,8 @@ tags:
 - DevOps
 - Company
 - Developer Tools
+- Testing
+- QA
+- AI Testing
+- End-to-End Testing
 ---

@@ -39,13 +39,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truevault/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Security
 - Compliance
 - HIPAA
 - Data Storage
 - Encryption
 - Identity
-- Privacy
 - PII
 ---

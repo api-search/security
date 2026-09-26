@@ -35,7 +35,7 @@ tags:
 - Self Storage
 - Logistics
 - Warehousing
-- Inventory Management
+- Inventory
 - Moving
 - Mexico
 ---

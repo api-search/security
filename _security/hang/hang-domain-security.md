@@ -167,4 +167,5 @@ tags:
 - Restaurant
 - Point-of-Sale
 - Webhook
+- Loyalty & Incentives
 ---

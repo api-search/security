@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: payload-authentication-api-openapi.yml
+  format: yaml
+  label: Payload Authentication API
+  slug: payload-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payload-authentication-api-openapi.yml
+- filename: payload-collections-api-openapi.yml
+  format: yaml
+  label: Payload Collections API
+  slug: payload-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payload-collections-api-openapi.yml
+- filename: payload-globals-api-openapi.yml
+  format: yaml
+  label: Payload Globals API
+  slug: payload-globals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payload-globals-api-openapi.yml
+- filename: payload-preferences-api-openapi.yml
+  format: yaml
+  label: Payload Preferences API
+  slug: payload-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/openapi/payload-preferences-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,4 +64,8 @@ tags:
 - Open Source
 - Self-Hosted
 - TypeScript
+- Application Framework
+- CMS
+- Content
+- Headless
 ---

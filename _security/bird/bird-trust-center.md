@@ -198,5 +198,10 @@ tags:
 - Messaging
 - Omnichannel
 - Customer Engagement
+- Verification
+- CPaaS
+- Webhook
+- Agents
+- Telecommunications
 trust_url: https://trust.bird.com/
 ---

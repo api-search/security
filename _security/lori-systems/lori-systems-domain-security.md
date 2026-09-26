@@ -44,5 +44,5 @@ tags:
 - Nigeria
 - Uganda
 - Digital Freight
-- Last Mile
+- Last Mile Delivery
 ---

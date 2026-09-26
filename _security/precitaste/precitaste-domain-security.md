@@ -38,6 +38,6 @@ tags:
 - Demand Forecasting
 - Computer Vision
 - Kitchen Operations
-- Inventory Management
+- Inventory
 - Food Waste
 ---

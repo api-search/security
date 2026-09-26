@@ -35,7 +35,6 @@ tags:
 - Security
 - Fraud Prevention
 - Behavioral Biometrics
-- Fraud Detection
 - Financial Crime
 - Identity
 - Banking

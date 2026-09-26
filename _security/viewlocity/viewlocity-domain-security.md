@@ -35,7 +35,7 @@ tags:
 - Supply Chain Management
 - Logistics
 - Transportation
-- Inventory Management
+- Inventory
 - Control Tower
 - Manufacturing
 - Software-as-a-Service

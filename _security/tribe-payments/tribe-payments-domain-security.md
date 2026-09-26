@@ -278,6 +278,6 @@ tags:
 - Open Banking
 - Account-to-Account
 - Banking as a Service
-- Fraud
+- Fraud Prevention
 - Point-of-Sale
 ---

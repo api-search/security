@@ -37,6 +37,6 @@ tags:
 - Sandbox
 - Capture ATP
 - SonicOS
-- SMB
+- Small Business
 trust_url: https://trust.sonicwall.com/
 ---

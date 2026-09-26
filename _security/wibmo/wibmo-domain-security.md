@@ -43,7 +43,7 @@ tags:
 - Fintech
 - Payment Gateway
 - Tokenization
-- Fraud Detection
+- Fraud Prevention
 - 3D Secure
 - Authentication
 - Digital Wallet

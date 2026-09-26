@@ -37,6 +37,6 @@ tags:
 - LLC Formation
 - Registered Agent
 - Compliance
-- SMB
+- Small Business
 - Legal Tech
 ---

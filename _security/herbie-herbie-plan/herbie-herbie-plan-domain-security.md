@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Estate Planning
-- Legal Technology
+- Legal Tech
 - Wills And Trusts
 - Artificial Intelligence
 - Wealth Management

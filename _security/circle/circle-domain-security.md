@@ -94,4 +94,5 @@ tags:
 - Transfers
 - USDC
 - Wallets
+- Stablecoin Issuance
 ---

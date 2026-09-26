@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Nurse Practitioners
 - Independent Practice
 - Practice Management

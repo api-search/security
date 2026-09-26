@@ -75,7 +75,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Machine Learning
-- LLM Inference
+- Inference
 - Model Compression
 - Quantum Computing
 - Speech-to-Text

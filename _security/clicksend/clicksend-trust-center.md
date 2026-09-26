@@ -90,5 +90,7 @@ tags:
 - Email
 - Messaging
 - CPaaS
+- Fax
+- Direct Mail
 trust_url: https://trust.sinch.com:443/?product=clicksend
 ---

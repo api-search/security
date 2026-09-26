@@ -34,7 +34,7 @@ tags:
 - Bar Inventory
 - Hospitality
 - Restaurant
-- Inventory Management
+- Inventory
 - Beverages
 - Point-of-Sale
 - Ordering

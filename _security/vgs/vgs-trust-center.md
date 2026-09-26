@@ -48,7 +48,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Security
 - Tokenization
-- Data Privacy
+- Privacy
 - PCI Compliance
 - Vault
 trust_url: https://security.verygoodsecurity.com/

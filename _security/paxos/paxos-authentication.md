@@ -313,4 +313,5 @@ tags:
 - Blockchain
 - Financial Services
 - Digital Assets
+- Stablecoin Issuance
 ---

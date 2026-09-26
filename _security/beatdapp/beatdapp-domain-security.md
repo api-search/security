@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Trust and Safety
-- Fraud Detection
+- Fraud Prevention
 - Music Streaming
 - Anomaly Detection
 - Content Integrity

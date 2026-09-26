@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Document Verification
 - Identity Verification
 - Income Verification

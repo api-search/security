@@ -120,4 +120,5 @@ tags:
 - Web3
 - Cloud Storage
 - Blockchain
+- Storage
 ---

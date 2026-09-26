@@ -33,7 +33,7 @@ tags:
 - Company
 - Cybersecurity
 - Security
-- SMB
+- Small Business
 - Malware Protection
 - Phishing
 - Security Awareness Training

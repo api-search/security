@@ -109,6 +109,6 @@ tags:
 - Invoicing
 - Project Management
 - Software-as-a-Service
-- SME
+- Small Business
 trust_url: https://www.teamleader.eu/legal/security-teamleader-focus
 ---

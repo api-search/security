@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Warehouse Management
 - WMS
-- Inventory Management
+- Inventory
 - Order Management
 - Fulfillment
 - Supply Chain

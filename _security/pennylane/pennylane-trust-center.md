@@ -142,6 +142,6 @@ tags:
 - Financial Data
 - Banking
 - France
-- SME
+- Small Business
 trust_url: https://www.pennylane.com/fr/securite
 ---

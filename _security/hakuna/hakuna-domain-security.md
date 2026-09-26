@@ -106,5 +106,5 @@ tags:
 - Project Tracking
 - Software-as-a-Service
 - Switzerland
-- SME
+- Small Business
 ---

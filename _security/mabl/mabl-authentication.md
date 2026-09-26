@@ -96,4 +96,5 @@ tags:
 - DevOps
 - AI Testing
 - Platform
+- Testing
 ---

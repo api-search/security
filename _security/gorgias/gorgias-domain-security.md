@@ -131,6 +131,6 @@ tags:
 - Help Desk
 - E-Commerce
 - Shopify
-- Tickets
+- Ticketing
 - Conversations
 ---

@@ -78,7 +78,7 @@ tags:
 - Accounting
 - ERP
 - Invoicing
-- SMB
+- Small Business
 - Switzerland
 trust_url: https://www.bexio.com/en-CH/security
 ---

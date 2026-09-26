@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/security/inscribe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Fraud Detection
+- Fraud Prevention
 - Document Verification
 - Financial Services
 - KYC

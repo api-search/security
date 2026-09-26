@@ -255,7 +255,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security Testing
 - Testing
-- Vulnerability Scanner
+- Vulnerability Scanning
 - DAST
 - Open Source
+- Vulnerability Management
 ---

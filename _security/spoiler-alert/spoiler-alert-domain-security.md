@@ -34,7 +34,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Food Waste
-- Inventory Management
+- Inventory
 - Supply Chain
 - Retail
 - Marketplace

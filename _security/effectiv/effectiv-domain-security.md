@@ -29,7 +29,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Security
-- Fraud Detection
+- Fraud Prevention
 - Risk Management
 - Decisioning
 - Identity Verification

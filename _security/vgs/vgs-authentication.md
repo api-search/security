@@ -64,7 +64,7 @@ summary_line: http · 2 schemes
 tags:
 - Security
 - Tokenization
-- Data Privacy
+- Privacy
 - PCI Compliance
 - Vault
 ---

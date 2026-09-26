@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Local Delivery
 - Dispatch
 ---

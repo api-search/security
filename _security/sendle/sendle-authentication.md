@@ -66,7 +66,7 @@ summary_line: http · 1 scheme
 tags:
 - Shipping
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Parcel
 - E-Commerce
 - Carbon Neutral

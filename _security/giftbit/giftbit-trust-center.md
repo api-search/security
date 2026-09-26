@@ -81,5 +81,6 @@ tags:
 - Reward Distribution
 - Prepaid Cards
 - Loyalty
+- Loyalty & Incentives
 trust_url: https://www.giftbit.com/security
 ---

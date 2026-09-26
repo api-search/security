@@ -82,5 +82,4 @@ tags:
 - Risk Assessment
 - Authentication
 - Fintech
-- Anti-Fraud
 ---

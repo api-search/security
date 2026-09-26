@@ -113,5 +113,5 @@ tags:
 - Accounting
 - Open Source
 - Freelancers
-- SMB
+- Small Business
 ---

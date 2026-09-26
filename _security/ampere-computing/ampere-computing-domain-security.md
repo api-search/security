@@ -48,7 +48,7 @@ tags:
 - Processors
 - Cloud Infrastructure
 - Arm64
-- AI Inference
+- Inference
 - Edge Computing
 - Compute Hardware
 - Open Source

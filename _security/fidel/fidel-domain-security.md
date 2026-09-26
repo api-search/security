@@ -56,4 +56,5 @@ tags:
 - Rewards
 - Webhook
 - SDK
+- Loyalty & Incentives
 ---

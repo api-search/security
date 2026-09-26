@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - eDiscovery
 - Litigation
-- Legal Technology
+- Legal Tech
 - Document Review
 - Predictive Coding
 - Artificial Intelligence

@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/security/fraud-net-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Fraud
+- Fraud Prevention
 - Risk Management
 - Commerce
 - Payments

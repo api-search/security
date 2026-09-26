@@ -37,6 +37,5 @@ tags:
 - Customer Support
 - Slack
 - Microsoft Teams
-- Conversational AI
 - Acquired
 ---

@@ -120,7 +120,7 @@ tags:
 - Human Resources
 - HRIS
 - People
-- SMB
+- Small Business
 - Leave Management
 - Recruiting
 - Performance

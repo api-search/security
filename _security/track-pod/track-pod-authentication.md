@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Delivery
-- Last Mile
+- Last Mile Delivery
 - Logistics
 - Proof of Delivery
 - Electronic Proof Of Delivery

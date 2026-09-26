@@ -39,6 +39,6 @@ tags:
 - Accounting
 - Payroll
 - Expenses
-- SMB
+- Small Business
 - Reconciliation
 ---

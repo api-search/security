@@ -34,8 +34,8 @@ tags:
 - Informal Retail
 - Distribution
 - Supply Chain
-- Last-Mile Logistics
-- FMCG
+- Last Mile Delivery
+- Consumer Packaged Goods
 - Embedded Fintech
 - Inventory Credit
 - Buy Now Pay Later

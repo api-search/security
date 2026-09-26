@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/h
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
-- Data Privacy
+- Privacy
 - PII
 - Tokenization
 - Data Security

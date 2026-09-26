@@ -31,5 +31,6 @@ tags:
 - Workplace
 - Software-as-a-Service
 - Integration
+- Loyalty & Incentives
 trust_url: https://trust.joinassembly.com/
 ---

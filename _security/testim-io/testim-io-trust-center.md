@@ -51,8 +51,8 @@ kind: trust-center
 layout: security
 name: Testim Io Trust Center
 name_suffix: Trust Center
-overview: Testim Io maintains a public trust center documenting SOC 2 Type 2 and ISO/IEC 27001:2022 compliance.
-provider_name: Testim Io
+overview: Testim maintains a public trust center documenting SOC 2 Type 2 and ISO/IEC 27001:2022 compliance.
+provider_name: Testim
 provider_slug: testim-io
 slug: testim-io-trust-center
 source_filename: testim-io-trust-center.yml
@@ -72,5 +72,9 @@ tags:
 - DevOps
 - Company
 - Developer Tools
+- Testing
+- QA
+- AI Testing
+- End-to-End Testing
 trust_url: ''
 ---

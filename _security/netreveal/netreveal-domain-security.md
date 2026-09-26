@@ -34,7 +34,7 @@ tags:
 - AML
 - Compliance
 - Financial Crime
-- Fraud Detection
+- Fraud Prevention
 - Risk Management
 - Sanctions Screening
 ---

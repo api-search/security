@@ -121,5 +121,6 @@ tags:
 - OTA
 - Attractions
 - A2A
+- Hotels
 trust_url: https://trust.booking.com/
 ---

@@ -44,6 +44,6 @@ tags:
 - Agents
 - Compliance
 - KYC
-- Fraud
+- Fraud Prevention
 - Back Office
 ---

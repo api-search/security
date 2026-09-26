@@ -38,7 +38,7 @@ tags:
 - Working Capital
 - Payments
 - Lending
-- SMB
+- Small Business
 - Latin America
 - Financial Intelligence
 ---

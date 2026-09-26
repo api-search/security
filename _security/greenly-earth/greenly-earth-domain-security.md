@@ -99,7 +99,7 @@ tags:
 - Bilan Carbone
 - Life Cycle Assessment
 - Carbon Offsets
-- SMB
+- Small Business
 - Fintech
 - Transaction Enrichment
 ---

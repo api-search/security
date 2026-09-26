@@ -37,7 +37,7 @@ tags:
 - Onboarding
 - Credit Decisioning
 - Bank Statement Analysis
-- Fraud Detection
+- Fraud Prevention
 - Account Aggregator
 - India
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colgate-palmol
 summary_line: TLSv1.3 · DMARC
 tags:
 - Consumer Products
-- CPG
+- Consumer Packaged Goods
 - EDI
 - Home Care
 - Oral Care

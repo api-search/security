@@ -524,7 +524,6 @@ tags:
 - T1
 - Talk
 - Ticketing
-- Tickets
 - Zendesk
 trust_url: https://www.zendesk.com/trust-center/
 ---

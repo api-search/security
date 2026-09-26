@@ -78,7 +78,7 @@ tags:
 - Retail Execution
 - Field Sales
 - Merchandising
-- CPG
+- Consumer Packaged Goods
 - Retail Audits
 - Sales Force Automation
 trust_url: https://www.repsly.com/trust

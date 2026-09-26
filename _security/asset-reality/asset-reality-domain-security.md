@@ -39,6 +39,6 @@ tags:
 - GovTech
 - RegTech
 - Compliance
-- Fraud
+- Fraud Prevention
 - Blockchain Forensics
 ---

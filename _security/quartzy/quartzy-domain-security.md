@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Lab Management
-- Inventory Management
+- Inventory
 - Life Sciences
 - Procurement
 - Ordering

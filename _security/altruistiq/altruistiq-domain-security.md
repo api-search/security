@@ -106,7 +106,7 @@ tags:
 - Product Carbon Footprint
 - Corporate Carbon Footprint
 - Supply Chain
-- FMCG
+- Consumer Packaged Goods
 - Food and Beverage
 - ESG
 - CSRD

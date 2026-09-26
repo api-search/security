@@ -152,4 +152,5 @@ tags:
 - OTA
 - Attractions
 - A2A
+- Hotels
 ---

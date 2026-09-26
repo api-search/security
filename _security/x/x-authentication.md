@@ -233,7 +233,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: https://docs.x.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/authentication/x-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
-- Space
+- Spaces
 - Conversations
 - X
 - Social
@@ -249,4 +249,5 @@ tags:
 - Content
 - Agents
 - MCP
+- Space
 ---

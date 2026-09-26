@@ -40,5 +40,5 @@ tags:
 - DATEV
 - Fintech
 - Business Intelligence
-- SME
+- Small Business
 ---

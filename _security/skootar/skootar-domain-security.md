@@ -36,7 +36,7 @@ tags:
 - Delivery
 - Couriers
 - Messenger
-- Last Mile
+- Last Mile Delivery
 - Transportation
 - Thailand
 ---

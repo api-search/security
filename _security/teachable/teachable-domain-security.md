@@ -117,4 +117,5 @@ tags:
 - Coaching
 - Membership
 - Transaction
+- Creator Economy
 ---

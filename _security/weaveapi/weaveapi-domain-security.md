@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - LLM
-- AI Inference
+- Inference
 - API Gateway
 - Aggregator
 - OpenAI-Compatible

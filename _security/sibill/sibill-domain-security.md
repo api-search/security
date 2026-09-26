@@ -120,7 +120,7 @@ tags:
 - Reconciliation
 - Accounting
 - Banking
-- SME
+- Small Business
 - Open Banking
 - E-Invoicing
 - Italy

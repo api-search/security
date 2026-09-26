@@ -66,7 +66,7 @@ tags:
 - Warehouse Management
 - WMS
 - Order Management
-- Inventory Management
+- Inventory
 - Fulfillment
 - Logistics
 - Supply Chain

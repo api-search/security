@@ -41,7 +41,7 @@ tags:
 - Multi-Channel
 - Marketplace
 - Product Information Management
-- Inventory Management
+- Inventory
 - Order Management
 - Listing Management
 - Retail

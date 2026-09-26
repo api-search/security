@@ -172,6 +172,6 @@ tags:
 - Online Store
 - Retail
 - Saudi Arabia
-- SMB
+- Small Business
 - Storefront
 ---

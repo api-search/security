@@ -214,5 +214,6 @@ tags:
 - Coupons
 - Points
 - Membership
+- Loyalty & Incentives
 trust_url: https://antavo.com/product/loyalty-engine/technology/security/
 ---

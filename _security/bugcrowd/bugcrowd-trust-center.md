@@ -24,5 +24,10 @@ summary_line: SOC 2, ISO 27001, ISO 27018, FedRAMP, CSA STAR
 tags:
 - Security
 - Public APIs
+- Cybersecurity
+- Vulnerability Management
+- Bug Bounty
+- Vulnerability Disclosure
+- Penetration Testing
 trust_url: https://trust.bugcrowd.com/
 ---

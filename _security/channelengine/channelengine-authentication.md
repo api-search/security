@@ -40,7 +40,7 @@ tags:
 - Marketplace Integration
 - Multi-Channel Commerce
 - Order Management
-- Inventory Management
+- Inventory
 - Product Information
 - Retail
 - Webhook

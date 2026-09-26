@@ -247,4 +247,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Unified API
 - Accounting
+- Integration
 ---

@@ -51,6 +51,12 @@ api_specs:
   slug: aws-lambda-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-versions-api-openapi.yml
+- filename: amazon-lambda-functions-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Functions API
+  slug: amazon-lambda-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/amazon-lambda-functions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

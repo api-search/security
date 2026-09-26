@@ -25,7 +25,6 @@ tags:
 - Risk Intelligence
 - Payments
 - Trust
-- Fraud Detection
 - Fintech
 - Machine Learning
 trust_url: https://trudenty.com/trust-center

@@ -90,4 +90,5 @@ tags:
 - DevOps
 - Multi-Cloud
 - Pipelines
+- CI/CD
 ---

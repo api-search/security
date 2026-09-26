@@ -34,6 +34,6 @@ tags:
 - Unattended Retail
 - Micro Markets
 - Payments
-- Inventory Management
+- Inventory
 - Software-as-a-Service
 ---

@@ -35,7 +35,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine Learning
-- LLM Inference
+- Inference
 - Developer Tools
 - Open Source
 - Blockchain

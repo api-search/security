@@ -68,5 +68,6 @@ tags:
 - Employee Engagement
 - Culture
 - People Operations
+- Loyalty & Incentives
 trust_url: https://nectarhr.com/security
 ---

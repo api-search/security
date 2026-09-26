@@ -90,5 +90,5 @@ tags:
 - Point-of-Sale
 - Field Service
 - Pickup and Delivery
-- SMB Software
+- Small Business
 ---

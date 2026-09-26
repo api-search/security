@@ -50,7 +50,7 @@ tags:
 - Mobile
 - CI/CD
 - App Signing
-- Anti-Fraud
+- Fraud Prevention
 - Code Signing
 - Developer Tools
 ---

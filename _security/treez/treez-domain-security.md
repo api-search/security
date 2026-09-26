@@ -269,7 +269,7 @@ tags:
 - Point-of-Sale
 - Retail
 - Dispensary
-- Inventory Management
+- Inventory
 - E-Commerce
 - Payments
 - Compliance

@@ -65,7 +65,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Quick Commerce
 - Instant Delivery
-- Last Mile
+- Last Mile Delivery
 - Grocery
 - Fulfillment
 - Retail

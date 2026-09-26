@@ -28,7 +28,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Commerce Fulfillment
 - Order Management
-- Inventory Management
+- Inventory
 - Shipment Tracking
 - Returns Management
 - Warehouse Management

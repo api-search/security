@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Fake Account Detection
 - Device Fingerprinting

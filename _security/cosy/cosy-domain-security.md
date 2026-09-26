@@ -32,7 +32,7 @@ tags:
 - Company
 - Robotics
 - Retail
-- Inventory Management
+- Inventory
 - Machine Vision
 - Artificial Intelligence
 - Autonomous Robots

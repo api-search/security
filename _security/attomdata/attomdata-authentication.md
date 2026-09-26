@@ -161,6 +161,5 @@ tags:
 - Neighborhood
 - POI
 - Insurance
-- Mortgage Technology
 - PropTech
 ---

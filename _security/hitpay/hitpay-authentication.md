@@ -189,5 +189,5 @@ tags:
 - Fintech
 - PayNow
 - Southeast Asia
-- SMB
+- Small Business
 ---

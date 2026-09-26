@@ -81,7 +81,7 @@ tags:
 - Document OCR
 - Biometrics
 - Face Matching
-- Fraud Detection
+- Fraud Prevention
 - Passport
 - Driver License
 - Liveness Detection

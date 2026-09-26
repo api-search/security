@@ -73,8 +73,8 @@ layout: security
 method: probed
 name: Testim Io Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Testim Io, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Testim Io
+overview: 'Domain security posture for Testim, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Testim
 provider_slug: testim-io
 slug: testim-io-domain-security
 source_filename: testim-io-domain-security.yml
@@ -93,4 +93,8 @@ tags:
 - DevOps
 - Company
 - Developer Tools
+- Testing
+- QA
+- AI Testing
+- End-to-End Testing
 ---

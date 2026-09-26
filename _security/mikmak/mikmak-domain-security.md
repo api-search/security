@@ -125,5 +125,5 @@ tags:
 - MCP
 - Agent-Native
 - Reporting
-- CPG
+- Consumer Packaged Goods
 ---

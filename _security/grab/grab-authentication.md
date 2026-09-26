@@ -51,7 +51,7 @@ summary_line: http · 1 scheme
 tags:
 - Ride Hailing
 - Food Delivery
-- Last-Mile Logistics
+- Last Mile Delivery
 - Digital Payments
 - Super App
 - Southeast Asia

@@ -141,7 +141,7 @@ tags:
 - Credit Scoring
 - Document Intelligence
 - Document Extraction
-- Fraud Detection
+- Fraud Prevention
 - Artificial Intelligence
 - Computer Vision
 - Emerging Markets

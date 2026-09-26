@@ -64,4 +64,5 @@ tags:
 - DeFi
 - Cross-Chain
 - Infrastructure
+- Stablecoin Issuance
 ---

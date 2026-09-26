@@ -54,5 +54,5 @@ tags:
 - Order
 - GraphQL
 - Latin America
-- SMB
+- Small Business
 ---

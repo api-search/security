@@ -38,5 +38,5 @@ tags:
 - Artificial Intelligence
 - Medicare Advantage
 - Population Health
-- Health Technology
+- Health Tech
 ---

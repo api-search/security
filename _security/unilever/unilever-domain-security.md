@@ -34,4 +34,5 @@ tags:
 - Personal Care
 - Food and Beverage
 - Household Products
+- Consumer Packaged Goods
 ---

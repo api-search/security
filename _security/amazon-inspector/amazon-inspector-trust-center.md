@@ -161,5 +161,6 @@ tags:
 - Lambda
 - Security
 - Vulnerability Scanning
+- Vulnerability Management
 trust_url: https://aws.amazon.com/compliance/
 ---

@@ -34,5 +34,5 @@ tags:
 - Physical AI
 - Autonomous Systems
 - Field Operations
-- Agriculture Technology
+- AgTech
 ---

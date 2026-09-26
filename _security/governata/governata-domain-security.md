@@ -35,7 +35,7 @@ tags:
 - Data Management
 - Master Data Management
 - Data Catalog
-- Data Privacy
+- Privacy
 - Metadata
 - Data Quality
 - Data Lineage

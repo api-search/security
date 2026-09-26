@@ -26,7 +26,7 @@ tags:
 - Ad Fraud
 - Client-Side Security
 - Application Security
-- Fraud
+- Fraud Prevention
 - Bot Defender
 - PerimeterX
 - JavaScript Sensor

@@ -25,7 +25,7 @@ tags:
 - BrainOS
 - Cleaning Robots
 - Floor Care
-- Inventory Management
+- Inventory
 - RFID
 - Retail Robotics
 - Robotics

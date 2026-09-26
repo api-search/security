@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Document Verification
 - Identity Verification
 - Income Verification

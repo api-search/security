@@ -77,4 +77,5 @@ tags:
 - Payments
 - Incentives
 - Payouts
+- Loyalty & Incentives
 ---

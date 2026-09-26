@@ -153,7 +153,7 @@ tags:
 - Contract Lifecycle Management
 - Document Intelligence
 - Compliance
-- Legal Technology
+- Legal Tech
 - Enterprise Software
 - Automation
 trust_url: https://www.luminance.com/security/

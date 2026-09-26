@@ -30,6 +30,6 @@ tags:
 - Antivirus
 - VPN
 - Parental Controls
-- Fraud Protection
+- Fraud Prevention
 trust_url: https://www.aura.com/security/security-standards
 ---

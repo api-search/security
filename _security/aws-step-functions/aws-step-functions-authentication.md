@@ -165,6 +165,54 @@ api_specs:
   slug: aws-step-functions-state-machines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-state-machines-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachinealias-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.CreateStateMachineAlias API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachinealias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachinealias-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachinealias-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DeleteStateMachineAlias API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachinealias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachinealias-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachineversion-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DeleteStateMachineVersion API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachineversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachineversion-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachinealias-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeStateMachineAlias API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachinealias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachinealias-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachinealiases-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListStateMachineAliases API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachinealiases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachinealiases-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachineversions-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListStateMachineVersions API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachineversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachineversions-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-publishstatemachineversion-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.PublishStateMachineVersion API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-publishstatemachineversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-publishstatemachineversion-api-openapi.yml
+- filename: amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api-openapi.yml
+  format: yaml
+  label: 'AWS Step Functions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
+  slug: amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

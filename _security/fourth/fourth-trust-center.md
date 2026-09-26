@@ -29,7 +29,7 @@ tags:
 - Workforce Management
 - Restaurant
 - Hospitality
-- Inventory Management
+- Inventory
 - Payroll
 - Scheduling
 - HCM

@@ -41,6 +41,6 @@ tags:
 - Asset Tracking
 - Service Contracts
 - Mobile Workforce
-- Inventory Management
+- Inventory
 - Enterprise Software
 ---

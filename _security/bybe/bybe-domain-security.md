@@ -102,7 +102,7 @@ tags:
 - Rebates
 - Marketing
 - Retail
-- CPG
+- Consumer Packaged Goods
 - Loyalty
 - Payments
 - Disbursements

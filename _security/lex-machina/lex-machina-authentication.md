@@ -140,7 +140,7 @@ summary_line: http · 1 scheme
 tags:
 - Legal
 - Legal Analytics
-- Legal Technology
+- Legal Tech
 - Litigation
 - Litigation Analytics
 - Court Data

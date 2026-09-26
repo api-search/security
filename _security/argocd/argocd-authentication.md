@@ -119,4 +119,6 @@ tags:
 - CNCF
 - Open Source
 - Operator
+- Cloud-Native
+- CI/CD
 ---

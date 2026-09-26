@@ -80,8 +80,8 @@ method: searched
 name: Drillr Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: drillr Public Data API secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: drillr Public Data API
+overview: drillr secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: drillr
 provider_slug: drillr
 scheme_count: 2
 schemes:

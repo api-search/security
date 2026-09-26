@@ -42,6 +42,6 @@ tags:
 - Artificial Intelligence
 - Machine Learning
 - Mobile App
-- Agriculture Technology
+- AgTech
 - Ecuador
 ---

@@ -64,10 +64,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Event
-- Tickets
+- Ticketing
 - Live Events
 - Concerts
 - Sports
 - Venues
-- Ticketing
 ---

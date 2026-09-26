@@ -35,4 +35,7 @@ tags:
 - Deployment
 - GitOps
 - Kubernetes
+- Cloud-Native
+- CNCF
+- Graduated
 ---

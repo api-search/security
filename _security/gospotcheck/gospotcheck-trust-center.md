@@ -102,7 +102,7 @@ tags:
 - Data Collection
 - Surveys
 - Merchandising
-- CPG
+- Consumer Packaged Goods
 - Mobile
 trust_url: https://www.gospotcheck.com/about/disclosure-program
 ---

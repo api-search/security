@@ -55,7 +55,7 @@ tags:
 - Law
 - LawTech
 - Legal
-- Legal Technology
+- Legal Tech
 - Payments
 - Trust Accounting
 - A2A

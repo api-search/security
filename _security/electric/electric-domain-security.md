@@ -39,5 +39,5 @@ tags:
 - MDM
 - SaaS Management
 - Endpoint Security
-- SMB
+- Small Business
 ---

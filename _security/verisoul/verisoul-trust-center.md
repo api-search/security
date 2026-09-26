@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/
 summary_line: trust center published
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Fake Account Detection
 - Device Fingerprinting

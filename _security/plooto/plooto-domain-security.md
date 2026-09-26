@@ -47,5 +47,5 @@ tags:
 - EFT
 - ACH
 - Cross-Border
-- SMB
+- Small Business
 ---

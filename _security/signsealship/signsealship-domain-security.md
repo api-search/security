@@ -90,7 +90,7 @@ tags:
 - Remote Online Notarization
 - Electronic Signature
 - Document Verification
-- Legal Technology
+- Legal Tech
 - Real Estate
 - Title and Escrow
 - Shipping

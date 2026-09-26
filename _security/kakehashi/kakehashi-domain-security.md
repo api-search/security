@@ -37,5 +37,5 @@ tags:
 - Japan
 - Medication
 - Digital Health
-- Inventory Management
+- Inventory
 ---

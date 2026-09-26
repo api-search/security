@@ -34,7 +34,7 @@ tags:
 - Infrastructure
 - Telecommunications
 - Revenue Assurance
-- Fraud Management
+- Fraud Prevention
 - Analytics
 - Big Data
 - Managed Service

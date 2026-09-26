@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Food Manufacturing
 - Fortune 1000
-- FMCG
+- Consumer Packaged Goods
 - Private Label
 - Retail
 ---

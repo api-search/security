@@ -143,7 +143,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mine/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Data Governance
 - Privacy Operations
 - Consent Management

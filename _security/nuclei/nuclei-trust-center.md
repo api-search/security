@@ -231,8 +231,9 @@ summary_line: SOC 2
 tags:
 - Security Testing
 - Testing
-- Vulnerability Scanner
+- Vulnerability Scanning
 - DAST
 - Open Source
+- Vulnerability Management
 trust_url: https://security.projectdiscovery.io/
 ---

@@ -78,7 +78,7 @@ tags:
 - Speech Recognition
 - Text-to-Speech
 - Voice
-- LLM Inference
+- Inference
 - Cloud Computing
 - Developer Tools
 - China

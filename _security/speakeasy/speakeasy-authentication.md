@@ -134,4 +134,5 @@ tags:
 - Testing
 - SDK Generation
 - A2A
+- OpenAPI
 ---

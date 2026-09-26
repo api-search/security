@@ -45,4 +45,5 @@ tags:
 - News
 - WebSocket
 - Real-Time
+- Financial Data
 ---

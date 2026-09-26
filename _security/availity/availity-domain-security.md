@@ -94,4 +94,5 @@ tags:
 - Revenue Cycle Management
 - Payers
 - Price Transparency
+- Health Insurance
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Visual AI
 - Image Certification
-- Fraud Detection
+- Fraud Prevention
 - Insurance
 - Insurtech
 - Deepfake Detection

@@ -69,7 +69,7 @@ tags:
 - APILayer
 - Public APIs
 - Data Quality
-- Anti-Fraud
+- Fraud Prevention
 - Deliverability
 - Communications
 - Developer Tools

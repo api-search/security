@@ -51,5 +51,6 @@ tags:
 - Points Programs
 - Redemptions
 - Fintech
+- Loyalty & Incentives
 trust_url: https://www.xoxoday.com/security
 ---

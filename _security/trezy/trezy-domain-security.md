@@ -36,7 +36,7 @@ tags:
 - Cash Flow Management
 - Financial Forecasting
 - Treasury
-- SMB
+- Small Business
 - Accounting
 - Open Banking
 - Artificial Intelligence

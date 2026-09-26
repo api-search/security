@@ -27,7 +27,7 @@ tags:
 - Credit History
 - Credit Reporting
 - Identity
-- Fraud Detection
+- Fraud Prevention
 - Fortune 1000
 trust_url: https://trust.equifax.com/
 ---

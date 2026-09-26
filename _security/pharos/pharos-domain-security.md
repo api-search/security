@@ -36,6 +36,6 @@ tags:
 - Patient Safety
 - Hospitals
 - Quality Improvement
-- Health Technology
+- Health Tech
 - Clinical
 ---

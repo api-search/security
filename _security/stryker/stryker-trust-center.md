@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stryker/refs/h
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Medical Devices
-- Healthcare Technology
+- Health Tech
 - Fortune 500
 - Medical Equipment
 - Orthopedics

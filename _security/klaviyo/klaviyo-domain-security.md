@@ -188,4 +188,6 @@ tags:
 - Customer Data
 - E-Commerce
 - Automation
+- Marketing Automation
+- Email Marketing
 ---

@@ -38,7 +38,7 @@ tags:
 - Test Data
 - Synthetic Data
 - Data Masking
-- Data Privacy
+- Privacy
 - Test Data Management
 - Compliance
 - Machine Learning

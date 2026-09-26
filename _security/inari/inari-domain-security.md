@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Agriculture
-- Agriculture Technology
+- AgTech
 - Biotechnology
 - Gene Editing
 - Genomics

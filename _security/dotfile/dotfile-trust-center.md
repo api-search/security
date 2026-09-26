@@ -187,7 +187,7 @@ tags:
 - Onboarding
 - Sanctions Screening
 - Document Verification
-- Fraud Detection
+- Fraud Prevention
 - Company Data
 - Beneficial Ownership
 - Case Management

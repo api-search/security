@@ -373,4 +373,5 @@ tags:
 - Restaurant
 - Restaurant Technology
 - Webhook
+- Loyalty & Incentives
 ---

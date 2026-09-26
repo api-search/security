@@ -108,7 +108,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fraud Prevention
-- Fraud Detection
 - Chargeback Prevention
 - Account Takeover
 - 3D Secure

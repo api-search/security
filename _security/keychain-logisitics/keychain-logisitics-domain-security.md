@@ -37,7 +37,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keychain-logis
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- CPG
 - Consumer Packaged Goods
 - Manufacturing
 - Contract Manufacturing

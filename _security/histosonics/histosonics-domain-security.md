@@ -33,7 +33,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- Health Technology
+- Health Tech
 - Oncology
 - Focused Ultrasound
 - Surgical Robotics

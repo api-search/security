@@ -39,7 +39,7 @@ tags:
 - Company
 - Enterprise
 - Behavioral Biometrics
-- Fraud Detection
+- Fraud Prevention
 - Authentication
 - Identity
 - Security

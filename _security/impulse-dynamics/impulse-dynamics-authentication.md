@@ -72,7 +72,7 @@ tags:
 - Cardiology
 - Heart Failure
 - Implantable Devices
-- Health Technology
+- Health Tech
 - Life Sciences
 - Clinical Trials
 - MCP

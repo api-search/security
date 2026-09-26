@@ -82,7 +82,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/
 summary_line: http · 1 scheme
 tags:
 - Legal
-- Legal Technology
 - Legal Tech
 - Legal Documents
 - Electronic Signature

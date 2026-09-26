@@ -49,7 +49,7 @@ tags:
 - Payroll
 - Project Management
 - Procurement
-- Inventory Management
+- Inventory
 - Business Planning
 - PEPPOL
 - E-Invoicing

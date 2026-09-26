@@ -86,5 +86,6 @@ tags:
 - SIP
 - Simulation
 - Knowledge Base
+- Voice AI
 trust_url: https://security.synthflow.ai/
 ---

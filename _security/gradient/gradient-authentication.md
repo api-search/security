@@ -53,7 +53,7 @@ tags:
 - Crypto Web3
 - Artificial Intelligence
 - Machine Learning
-- LLM Inference
+- Inference
 - Decentralized Infrastructure
 - Distributed Computing
 - Edge Computing

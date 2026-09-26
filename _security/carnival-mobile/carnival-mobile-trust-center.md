@@ -6,8 +6,8 @@ kind: trust-center
 layout: security
 name: Carnival Mobile Trust Center
 name_suffix: Trust Center
-overview: Carnival Mobile * maintains a public trust center covering its security and compliance posture.
-provider_name: Carnival Mobile *
+overview: Carnival Mobile maintains a public trust center covering its security and compliance posture.
+provider_name: Carnival Mobile
 provider_slug: carnival-mobile
 slug: carnival-mobile-trust-center
 source_filename: carnival-mobile-trust-center.yml

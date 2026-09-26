@@ -242,12 +242,11 @@ tags:
 - Consent
 - Consent Management
 - DSAR
-- Data Privacy
+- Privacy
 - GDPR
 - IAB TCF
 - MarTech
 - Preference Management
-- Privacy
 - Privacy Requests
 - Regulatory Compliance
 ---

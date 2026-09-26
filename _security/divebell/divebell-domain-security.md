@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/divebell/refs/
 summary_line: DMARC
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Data Discovery
 - Data Classification
 - PII

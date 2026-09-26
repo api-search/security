@@ -35,7 +35,6 @@ tags:
 - Beauty
 - Cleaning Products
 - Consumer Packaged Goods
-- CPG
 - Dental Care
 - Family Planning
 - Fortune 500

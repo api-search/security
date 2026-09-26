@@ -207,5 +207,6 @@ tags:
 - Publishing
 - Media
 - Advertising
+- Creator Economy
 trust_url: https://security.beehiiv.com/
 ---

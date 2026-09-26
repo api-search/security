@@ -96,7 +96,7 @@ tags:
 - Credit Reporting
 - Risk Management
 - Identity
-- Fraud
+- Fraud Prevention
 - Marketing
 - Telecommunications
 - Call Authentication

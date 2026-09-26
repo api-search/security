@@ -38,5 +38,5 @@ tags:
 - Analog Computing
 - Compute-in-Memory
 - Edge AI
-- AI Inference
+- Inference
 ---

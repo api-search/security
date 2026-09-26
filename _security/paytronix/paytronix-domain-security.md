@@ -123,4 +123,5 @@ tags:
 - Guest Engagement
 - Payments
 - Messaging
+- Loyalty & Incentives
 ---

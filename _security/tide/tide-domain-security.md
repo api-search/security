@@ -35,7 +35,7 @@ tags:
 - Fintech
 - Business Banking
 - Payments
-- SME
+- Small Business
 - Accounting
 - Invoicing
 - United Kingdom

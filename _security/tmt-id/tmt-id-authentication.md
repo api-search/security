@@ -151,7 +151,7 @@ tags:
 - Identity Verification
 - Mobile Identity
 - SIM Swap
-- Anti-Fraud
+- Fraud Prevention
 - Number Intelligence
 - Silent Network Authentication
 - GSMA Open Gateway

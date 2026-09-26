@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - ERP
-- Inventory Management
-- CPG
+- Inventory
 - Consumer Packaged Goods
 - Supply Chain
 - Manufacturing

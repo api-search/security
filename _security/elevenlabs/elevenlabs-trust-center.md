@@ -172,5 +172,7 @@ tags:
 - Dubbing
 - Music Generation
 - Real-Time
+- Voice AI
+- Voice Agents
 trust_url: https://compliance.elevenlabs.io/
 ---

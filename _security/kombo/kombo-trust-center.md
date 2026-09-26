@@ -83,5 +83,6 @@ tags:
 - Payroll
 - Unified API
 - Recruiting
+- Integration
 trust_url: https://security.kombo.dev/
 ---

@@ -52,4 +52,5 @@ tags:
 - Crypto Infrastructure
 - Financial Services
 - On/Off-Ramps
+- Stablecoin Issuance
 ---

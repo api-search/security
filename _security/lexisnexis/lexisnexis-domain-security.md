@@ -46,7 +46,7 @@ tags:
 - Legal
 - Risk Management
 - Identity Verification
-- Fraud Detection
+- Fraud Prevention
 - Compliance
 - Analytics
 - Data

@@ -121,5 +121,6 @@ tags:
 - Rewards
 - Campaigns
 - A2A
+- Loyalty & Incentives
 trust_url: ''
 ---

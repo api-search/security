@@ -55,9 +55,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/security/springer-nature-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Academic Publishing
+- Scholarly Publishing
 - Open Access
 - Research
 - Scholarly Content
-- Scientific Publishing
+- Publishing
 ---

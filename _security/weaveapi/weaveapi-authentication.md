@@ -32,7 +32,7 @@ summary_line: apiKey · 0 schemes
 tags:
 - Artificial Intelligence
 - LLM
-- AI Inference
+- Inference
 - API Gateway
 - Aggregator
 - OpenAI-Compatible

@@ -25,7 +25,7 @@ tags:
 - AI Agents
 - Supply Chain
 - Automation
-- Sea Freight
+- Ocean Freight
 - Air Freight
 trust_url: https://trust.gozauber.com/
 ---

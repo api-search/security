@@ -36,7 +36,7 @@ tags:
 - Food Tech
 - Plant-Based
 - Sustainability
-- CPG
+- Consumer Packaged Goods
 - Food Service
 - Sweden
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Big Data
-- Data Privacy
+- Privacy
 - De-Identification
 - Data Governance
 - Data Anonymization

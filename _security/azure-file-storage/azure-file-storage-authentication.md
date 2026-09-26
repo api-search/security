@@ -81,8 +81,8 @@ tags:
 - Storage
 - File Storage
 - File Shares
-- SMB
 - NFS
 - Cloud
 - Azure
+- Server Message Block
 ---

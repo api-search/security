@@ -40,4 +40,5 @@ tags:
 - Workplace
 - Software-as-a-Service
 - Integration
+- Loyalty & Incentives
 ---

@@ -42,5 +42,4 @@ tags:
 - Automotive
 - Robotics
 - Hardware
-- Content
 ---

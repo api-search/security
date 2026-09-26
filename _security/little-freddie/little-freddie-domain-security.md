@@ -36,7 +36,7 @@ tags:
 - Baby Food
 - Organic Food
 - Food and Beverage
-- CPG
+- Consumer Packaged Goods
 - Retail
 - Parenting
 ---

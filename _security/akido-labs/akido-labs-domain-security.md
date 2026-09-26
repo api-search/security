@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - Clinical Decision Support
 - Primary Care
-- Health Technology
+- Health Tech
 - Machine Learning
 - Medical
 ---

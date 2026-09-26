@@ -195,4 +195,5 @@ tags:
 - MODIS
 - OGC
 - STAC
+- Satellite
 ---

@@ -162,7 +162,7 @@ tags:
 - Invoicing
 - Payroll
 - Point-of-Sale
-- SME
+- Small Business
 - Finance
 - Tax
 - Thailand

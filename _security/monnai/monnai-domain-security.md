@@ -35,7 +35,7 @@ tags:
 - Consumer Insights
 - Fintech
 - Financial Services
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - KYC
 - AML

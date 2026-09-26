@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/h
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company
-- Data Privacy
+- Privacy
 - PII
 - Tokenization
 - Data Security

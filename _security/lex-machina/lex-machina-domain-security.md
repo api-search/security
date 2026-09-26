@@ -162,7 +162,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal
 - Legal Analytics
-- Legal Technology
+- Legal Tech
 - Litigation
 - Litigation Analytics
 - Court Data

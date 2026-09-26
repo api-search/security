@@ -42,7 +42,7 @@ tags:
 - Construction
 - Corporate
 - Cybersecurity
-- Data Privacy
+- Privacy
 - Education
 - Employment Law
 - Energy

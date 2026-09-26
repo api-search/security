@@ -76,5 +76,5 @@ tags:
 - Employee Benefits
 - Claims
 - Insurance
-- Health Technology
+- Health Tech
 ---

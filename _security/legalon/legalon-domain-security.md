@@ -50,7 +50,7 @@ tags:
 - Company
 - Technology
 - Legal
-- Legal Technology
+- Legal Tech
 - Contracts
 - Contract Management
 - Contract Lifecycle Management

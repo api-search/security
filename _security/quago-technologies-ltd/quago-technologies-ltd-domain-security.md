@@ -33,7 +33,7 @@ tags:
 - Company
 - Gaming
 - Analytics
-- Fraud Detection
+- Fraud Prevention
 - Anti-Cheat
 - Machine Learning
 - Mobile

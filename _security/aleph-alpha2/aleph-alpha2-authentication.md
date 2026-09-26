@@ -40,7 +40,7 @@ tags:
 - Machine Learning
 - Generative AI
 - Sovereign AI
-- Inference API
+- Inference
 - Embeddings
 - Europe
 - Germany

@@ -70,4 +70,5 @@ tags:
 - SDK
 - Terraform
 - SDK Generation
+- OpenAPI
 ---

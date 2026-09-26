@@ -52,7 +52,7 @@ tags:
 - Gaming
 - Digital Goods
 - Carrier Billing
-- E-Wallets
+- Digital Wallet
 - Payouts
 - Southeast Asia
 - Monetization

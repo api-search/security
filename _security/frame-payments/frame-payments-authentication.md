@@ -49,7 +49,7 @@ tags:
 - Fintech
 - KYC
 - Compliance
-- Fraud Detection
+- Fraud Prevention
 - Billing
 - Payouts
 - Identity Verification

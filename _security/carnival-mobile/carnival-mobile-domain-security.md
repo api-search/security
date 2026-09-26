@@ -25,8 +25,8 @@ layout: security
 method: probed
 name: Carnival Mobile Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Carnival Mobile *, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Carnival Mobile *
+overview: 'Domain security posture for Carnival Mobile, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Carnival Mobile
 provider_slug: carnival-mobile
 slug: carnival-mobile-domain-security
 source_filename: carnival-mobile-domain-security.yml

@@ -114,6 +114,6 @@ tags:
 - Webhook
 - Vertical SaaS
 - Latin America
-- SMB Software
+- Small Business
 - Scheduling
 ---

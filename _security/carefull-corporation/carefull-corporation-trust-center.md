@@ -22,7 +22,7 @@ tags:
 - Company
 - Fintech
 - Financial Safety
-- Fraud Detection
+- Fraud Prevention
 - Identity Theft Protection
 - Elder Care
 - Financial Caregiving

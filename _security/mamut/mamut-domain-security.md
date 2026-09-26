@@ -31,7 +31,7 @@ tags:
 - Accounting
 - ERP
 - Business Software
-- SMB
+- Small Business
 - Norway
 - Visma
 ---

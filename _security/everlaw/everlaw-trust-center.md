@@ -32,7 +32,7 @@ summary_line: ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - eDiscovery
 - Litigation
-- Legal Technology
+- Legal Tech
 - Document Review
 - Predictive Coding
 - Artificial Intelligence

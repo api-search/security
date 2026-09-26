@@ -37,7 +37,7 @@ tags:
 - Parcel Sortation
 - Parcel Induction
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Middle Mile
 - Reverse Logistics
 - Warehouse Automation

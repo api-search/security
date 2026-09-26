@@ -57,7 +57,7 @@ tags:
 - Payroll
 - Tax
 - Financial Reporting
-- SMB
+- Small Business
 - Australia
 - New Zealand
 ---

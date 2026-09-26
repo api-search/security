@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Restaurant Operations
-- Inventory Management
+- Inventory
 - Labor & Scheduling
 - Food Cost
 - Kitchen Display

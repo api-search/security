@@ -29,7 +29,7 @@ tags:
 - Claims Automation
 - Artificial Intelligence
 - Document Intelligence
-- Fraud Detection
+- Fraud Prevention
 - Machine Learning
 trust_url: https://sprout.ai/data-privacy-security/
 ---

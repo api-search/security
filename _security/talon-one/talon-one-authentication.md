@@ -391,4 +391,5 @@ tags:
 - Discounts
 - E-Commerce
 - Retail
+- Loyalty & Incentives
 ---

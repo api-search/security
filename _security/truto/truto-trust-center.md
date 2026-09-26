@@ -139,5 +139,6 @@ tags:
 - MCP
 - AI Agents
 - Software-as-a-Service
+- Integration
 trust_url: https://trust.truto.one/
 ---

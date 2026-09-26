@@ -57,7 +57,6 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/forter-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/authentication/forter-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Fraud Detection
 - Fraud Prevention
 - Identity
 - Trust

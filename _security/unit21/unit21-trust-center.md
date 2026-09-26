@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit21/refs/heads/main/security/unit21-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- Fraud Detection
+- Fraud Prevention
 - AML
 - Compliance
 - Fintech

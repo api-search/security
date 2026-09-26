@@ -51,7 +51,7 @@ tags:
 - Marketplace
 - Influencer Marketing
 - Cross-Border Commerce
-- SME
+- Small Business
 - Southeast Asia
 - Shipping
 - Fulfillment

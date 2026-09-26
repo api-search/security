@@ -220,4 +220,5 @@ tags:
 - Fundamentals
 - News
 - Real-Time
+- Financial Data
 ---

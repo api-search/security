@@ -107,5 +107,6 @@ tags:
 - Testing
 - SDK Generation
 - A2A
+- OpenAPI
 trust_url: https://trust.speakeasy.com/
 ---

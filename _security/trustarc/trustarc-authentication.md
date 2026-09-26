@@ -356,7 +356,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Privacy
-- Data Privacy
 - SCIM
 - Identity
 - Authentication

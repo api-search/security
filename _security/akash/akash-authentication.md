@@ -288,7 +288,7 @@ tags:
 - Blockchain
 - Kubernetes
 - GPU
-- AI Inference
+- Inference
 - Cosmos
 - Web3
 ---

@@ -122,7 +122,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Cannabis
 - Retail
-- Inventory Management
+- Inventory
 - Analytics
 - Purchasing
 - Point-of-Sale

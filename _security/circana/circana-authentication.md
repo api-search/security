@@ -78,7 +78,7 @@ tags:
 - Consumer Data
 - Market Research
 - Retail
-- CPG
+- Consumer Packaged Goods
 - Point-of-Sale
 - Consumer Insights
 - Business Intelligence

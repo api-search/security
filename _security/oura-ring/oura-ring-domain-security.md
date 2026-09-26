@@ -189,4 +189,6 @@ tags:
 - Wearables
 - Wellness
 - Women's Health
+- Heart Rate
+- Smart Ring
 ---

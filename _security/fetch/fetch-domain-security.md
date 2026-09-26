@@ -38,5 +38,5 @@ tags:
 - Receipts
 - Mobile App
 - Advertising
-- CPG
+- Consumer Packaged Goods
 ---

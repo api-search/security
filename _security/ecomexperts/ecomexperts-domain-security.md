@@ -35,7 +35,7 @@ tags:
 - E-Commerce
 - ERP
 - Omnichannel
-- Inventory Management
+- Inventory
 - E-Invoicing
 - Marketplace Integration
 - Mercado Libre

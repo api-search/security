@@ -1250,7 +1250,7 @@ tags:
 - Laboratory Information Management
 - Electronic Lab Notebook
 - Assay Management
-- Inventory Management
+- Inventory
 - Sequence Management
 - Experiment Workflows
 - REST

@@ -34,7 +34,7 @@ tags:
 - Company
 - Trust
 - Estate Planning
-- Legal Technology
+- Legal Tech
 - Financial Technology
 - Wealth Management
 - Y Combinator

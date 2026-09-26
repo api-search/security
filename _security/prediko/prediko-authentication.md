@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prediko/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Demand Forecasting
 - Supply Chain
 - E-Commerce

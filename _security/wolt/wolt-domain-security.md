@@ -40,4 +40,5 @@ tags:
 - Authentication
 - Point-of-Sale
 - Restaurant
+- Delivery
 ---

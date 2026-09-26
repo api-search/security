@@ -38,7 +38,7 @@ tags:
 - Payments
 - Check Processing
 - Deposit Automation
-- Fraud Detection
+- Fraud Prevention
 - Content Management
 - Loan Management
 ---

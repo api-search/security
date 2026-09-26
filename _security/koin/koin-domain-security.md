@@ -135,7 +135,6 @@ tags:
 - Financial Services
 - Brazil
 - Latin America
-- Anti-Fraud
 - Checkout
 - Company
 ---

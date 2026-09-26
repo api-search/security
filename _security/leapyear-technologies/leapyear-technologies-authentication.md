@@ -51,7 +51,7 @@ tags:
 - Company
 - AI Infrastructure
 - Differential Privacy
-- Data Privacy
+- Privacy
 - Machine Learning
 - Data Clean Rooms
 - Privacy Enhancing Technologies

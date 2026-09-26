@@ -33,7 +33,7 @@ tags:
 - Company
 - Agriculture
 - AgTech
-- Precision Farming
+- Precision Agriculture
 - Livestock
 - Poultry
 - Biosecurity

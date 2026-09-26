@@ -268,5 +268,5 @@ tags:
 - WAF
 - Edge Computing
 - Key-Value Storage
-- AI Inference
+- Inference
 ---

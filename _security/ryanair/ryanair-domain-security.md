@@ -36,4 +36,5 @@ tags:
 - Travel
 - Europe
 - LowCost
+- Aviation
 ---

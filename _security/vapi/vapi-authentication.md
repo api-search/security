@@ -129,4 +129,5 @@ tags:
 - CPaaS
 - Conversational AI
 - Voice AI
+- Voice Agents
 ---

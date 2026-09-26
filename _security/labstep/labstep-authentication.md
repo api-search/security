@@ -45,7 +45,7 @@ tags:
 - Laboratory
 - Research Data Management
 - Scientific Software
-- Inventory Management
+- Inventory
 - Biotechnology
 - Chemistry
 - Compliance

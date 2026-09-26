@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
-- AI Inference
+- Inference
 - LLM
 - GPU Compute
 - Decentralized Compute

@@ -58,4 +58,5 @@ tags:
 - Quantitative Analysis
 - Trading
 - Transaction Cost Analysis
+- Financial Data
 ---

@@ -391,5 +391,6 @@ tags:
 - X12
 - EDI
 - Fortune 500
+- Health Insurance
 trust_url: ''
 ---

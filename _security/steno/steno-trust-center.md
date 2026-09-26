@@ -23,7 +23,7 @@ summary_line: SOC 2 Type II, HIPAA
 tags:
 - Company
 - Legal
-- Legal Technology
+- Legal Tech
 - Court Reporting
 - Depositions
 - Litigation Support

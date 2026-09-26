@@ -34,7 +34,7 @@ tags:
 - Company
 - Lending
 - Credit Underwriting
-- Fraud Detection
+- Fraud Prevention
 - Artificial Intelligence
 - Machine Learning
 - Financial Services

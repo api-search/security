@@ -39,5 +39,5 @@ tags:
 - Manufacturing
 - Software-as-a-Service
 - Sustainability
-- Fraud Detection
+- Fraud Prevention
 ---

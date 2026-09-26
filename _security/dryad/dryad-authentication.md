@@ -75,7 +75,7 @@ summary_line: http · 1 scheme
 tags:
 - Research Data
 - Open Science
-- Data Repository
+- Research Repository
 - Datasets
 - Biology
 - Ecology

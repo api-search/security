@@ -54,6 +54,5 @@ tags:
 - Consumer
 - India
 - Retail
-- Content
 - WordPress
 ---

@@ -357,7 +357,7 @@ tags:
 - eDiscovery
 - Legal
 - Document Review
-- Legal Technology
+- Legal Tech
 - Data Processing
 - AI Review
 - Litigation

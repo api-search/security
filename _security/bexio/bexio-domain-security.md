@@ -92,6 +92,6 @@ tags:
 - Accounting
 - ERP
 - Invoicing
-- SMB
+- Small Business
 - Switzerland
 ---

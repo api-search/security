@@ -113,5 +113,6 @@ tags:
 - Patient Estimation
 - HIPAA
 - Dental
+- Health Insurance
 trust_url: https://trust.dosespot.com/
 ---

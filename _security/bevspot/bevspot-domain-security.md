@@ -34,7 +34,7 @@ tags:
 - Ai Apps
 - Restaurant
 - Hospitality
-- Inventory Management
+- Inventory
 - Food and Beverage
 - Point-of-Sale
 - Analytics

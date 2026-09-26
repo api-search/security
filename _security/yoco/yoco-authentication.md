@@ -79,6 +79,6 @@ tags:
 - Online Payments
 - Checkout
 - Point-of-Sale
-- SMB
+- Small Business
 - Financial Infrastructure
 ---

@@ -56,7 +56,7 @@ tags:
 - AML
 - KYC
 - Risk Management
-- Fraud Detection
+- Fraud Prevention
 - Due Diligence
 - RegTech
 ---

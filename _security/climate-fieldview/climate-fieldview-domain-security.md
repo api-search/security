@@ -83,5 +83,6 @@ tags:
 - Harvest
 - Authentication
 - Planting
-- Precision Ag
+- Precision Agriculture
+- AgTech
 ---

@@ -329,5 +329,6 @@ tags:
 - Artificial Intelligence
 - Productivity
 - Transcription
+- Enterprise
 trust_url: https://trust.wispr.ai/
 ---

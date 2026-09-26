@@ -45,7 +45,6 @@ tags:
 - Ticketing
 - Live Music
 - Event
-- Tickets
 - GraphQL
 - Entertainment
 - Partner API

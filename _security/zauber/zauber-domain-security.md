@@ -37,6 +37,6 @@ tags:
 - AI Agents
 - Supply Chain
 - Automation
-- Sea Freight
+- Ocean Freight
 - Air Freight
 ---

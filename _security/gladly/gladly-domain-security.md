@@ -172,7 +172,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gladly/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service
-- CX
+- Customer Experience
 - Contact Center
 - AI Customer Service
 - Conversations

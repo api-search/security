@@ -38,7 +38,7 @@ tags:
 - Neuroscience
 - Implantable Devices
 - neural-interfaces
-- Health Technology
+- Health Tech
 - Clinical Research
 - Deep Tech
 ---

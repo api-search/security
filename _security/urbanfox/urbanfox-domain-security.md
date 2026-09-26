@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/security/urbanfox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Fraud Detection
+- Fraud Prevention
 - Payment Fraud
 - Account Takeover
 - Bot Detection

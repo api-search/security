@@ -175,4 +175,6 @@ tags:
 - Platform Engineering
 - Software Templates
 - CNCF
+- Cloud-Native
+- Incubating
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Agriculture
-- AgriTech
+- AgTech
 - Food Supply Chain
 - Procurement
 - Payments

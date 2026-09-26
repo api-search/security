@@ -61,4 +61,5 @@ tags:
 - Developer Portal
 - Artificial Intelligence
 - MCP
+- OpenAPI
 ---

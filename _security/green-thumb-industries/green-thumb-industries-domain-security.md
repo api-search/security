@@ -33,5 +33,5 @@ tags:
 - Cannabis
 - Retail
 - Consumer Products
-- CPG
+- Consumer Packaged Goods
 ---

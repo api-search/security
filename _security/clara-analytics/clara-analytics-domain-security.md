@@ -39,7 +39,7 @@ tags:
 - Machine Learning
 - Document Intelligence
 - Analytics
-- Fraud Detection
+- Fraud Prevention
 - Workers Compensation
 - Casualty
 ---

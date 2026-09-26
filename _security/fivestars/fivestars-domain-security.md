@@ -39,4 +39,5 @@ tags:
 - Customer Engagement
 - Marketing
 - Small Business
+- Loyalty & Incentives
 ---

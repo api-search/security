@@ -46,4 +46,5 @@ tags:
 - Real-Time
 - Conversational AI
 - Voice AI
+- Voice Agents
 ---

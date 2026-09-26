@@ -31,7 +31,7 @@ summary_line: DMARC
 tags:
 - Company
 - Aquaculture
-- AgriTech
+- AgTech
 - FishTech
 - IoT
 - Fintech

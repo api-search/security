@@ -219,12 +219,11 @@ tags:
 - Consent
 - Consent Management
 - DSAR
-- Data Privacy
+- Privacy
 - GDPR
 - IAB TCF
 - MarTech
 - Preference Management
-- Privacy
 - Privacy Requests
 - Regulatory Compliance
 trust_url: https://www.didomi.io/security

@@ -76,7 +76,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine Learning
-- LLM Inference
+- Inference
 - GPU
 - Model Deployment
 - Serverless

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/general-mills/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Consumer Goods
-- CPG
+- Consumer Packaged Goods
 - Food Products
 - Cereal
 - Baking

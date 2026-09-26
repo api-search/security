@@ -65,4 +65,6 @@ tags:
 - Maps
 - Geospatial
 - Location
+- Geocoding
+- Routing
 ---

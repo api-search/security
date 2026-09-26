@@ -137,5 +137,6 @@ tags:
 - Data Storage
 - Object Storage
 - Scalable Storage
+- Storage
 trust_url: https://aws.amazon.com/compliance/
 ---

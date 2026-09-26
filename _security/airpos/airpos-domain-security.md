@@ -33,7 +33,7 @@ tags:
 - Point-of-Sale
 - Retail
 - Payments
-- Inventory Management
+- Inventory
 - E-Commerce
 - United Kingdom
 - Northern Ireland

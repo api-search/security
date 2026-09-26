@@ -136,9 +136,8 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Marketplace
-- Tickets
-- Event
 - Ticketing
+- Event
 - Live Events
 - Secondary Market
 - E-Commerce

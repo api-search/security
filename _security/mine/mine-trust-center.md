@@ -132,7 +132,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mine/refs/head
 summary_line: SOC 2 Type 2, ISO/IEC 27001, GDPR, CCPA, HIPAA
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Data Governance
 - Privacy Operations
 - Consent Management

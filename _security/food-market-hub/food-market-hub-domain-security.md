@@ -36,7 +36,7 @@ tags:
 - Restaurant
 - Supply Chain
 - Procurement
-- Inventory Management
+- Inventory
 - Hospitality
 - Software-as-a-Service
 - Southeast Asia

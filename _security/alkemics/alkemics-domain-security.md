@@ -38,7 +38,7 @@ tags:
 - Applicative Saas
 - Product Content
 - Product Information Management
-- CPG
+- Consumer Packaged Goods
 - Retail
 - E-Commerce
 - Data Syndication

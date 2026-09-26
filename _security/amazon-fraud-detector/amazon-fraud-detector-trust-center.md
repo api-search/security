@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-d
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Financial Services
-- Fraud Detection
+- Fraud Prevention
 - Machine Learning
 - Security
 trust_url: https://aws.amazon.com/compliance/

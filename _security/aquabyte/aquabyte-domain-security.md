@@ -88,7 +88,7 @@ tags:
 - Sea Lice
 - Fish Welfare
 - Environmental Monitoring
-- Agriculture Technology
+- AgTech
 - Norway
 - Salmon
 - Data

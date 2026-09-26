@@ -41,7 +41,7 @@ tags:
 - Bankruptcy
 - Class Action
 - Settlement Administration
-- Legal Technology
+- Legal Tech
 - Case Management
 - Document Review
 ---

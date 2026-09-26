@@ -44,4 +44,5 @@ tags:
 - AI Agents
 - MCP
 - Berlin
+- Freight
 ---

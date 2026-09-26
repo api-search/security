@@ -36,7 +36,7 @@ tags:
 - Accounting
 - Cash Flow
 - Banking
-- SME
+- Small Business
 - Embedded Finance
 - Financial Management
 ---

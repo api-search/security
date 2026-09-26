@@ -35,7 +35,7 @@ tags:
 - AI Matching
 - EHR Integration
 - HIPAA Compliant
-- Healthcare Technology
+- Health Tech
 - Clinical Research
 - CRO Software
 ---

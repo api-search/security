@@ -47,7 +47,7 @@ tags:
 - Robotics
 - Autonomous Vehicles
 - Agriculture
-- Agricultural Technology
+- AgTech
 - Artificial Intelligence
 - Fleet Management
 - Defense

@@ -109,4 +109,5 @@ tags:
 - IoT
 - Satellite Communications
 - Space Technology
+- Satellite
 ---

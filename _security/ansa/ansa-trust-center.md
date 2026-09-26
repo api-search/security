@@ -68,5 +68,6 @@ tags:
 - Digital Wallet
 - Loyalty
 - Incentives
+- Loyalty & Incentives
 trust_url: https://trust.ansa.dev/
 ---

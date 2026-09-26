@@ -92,4 +92,5 @@ tags:
 - Subscription
 - STAC
 - GIS
+- Satellite
 ---

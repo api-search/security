@@ -35,7 +35,7 @@ tags:
 - Wholesale
 - E-Commerce
 - Order Management
-- Inventory Management
+- Inventory
 - Invoicing
 - Payments
 ---

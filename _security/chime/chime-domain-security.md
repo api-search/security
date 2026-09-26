@@ -100,4 +100,5 @@ tags:
 - Credit Building
 - Peer-to-Peer Payments
 - Consumer Banking
+- Consumer Finance
 ---

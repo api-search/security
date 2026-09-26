@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: openapi/fraud-n
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/authentication/fraud-net-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Fraud
+- Fraud Prevention
 - Risk Management
 - Commerce
 - Payments

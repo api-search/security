@@ -35,7 +35,7 @@ tags:
 - Artificial Intelligence
 - Security
 - Cybersecurity
-- Fraud Detection
+- Fraud Prevention
 - Anti-Phishing
 - Deepfakes
 - Trust and Safety

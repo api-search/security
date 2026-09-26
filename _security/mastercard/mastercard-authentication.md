@@ -631,7 +631,7 @@ tags:
 - Credit Cards
 - Digital Identity
 - Financial Services
-- Fraud Detection
+- Fraud Prevention
 - Open Banking
 - Payments
 - Fortune 500

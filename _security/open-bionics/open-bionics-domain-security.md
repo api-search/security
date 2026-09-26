@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Medical Devices
-- Health Technology
+- Health Tech
 - Prosthetics
 - Bionics
 - Robotics

@@ -18,7 +18,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sentilink/refs/heads/main/security/sentilink-trust-center.yml
 summary_line: SOC 2
 tags:
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Synthetic Identity
 - Account Takeover

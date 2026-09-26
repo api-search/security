@@ -31,6 +31,6 @@ tags:
 - Big Data
 - Data Security
 - Data Observability
-- Data Privacy
+- Privacy
 - Security
 ---

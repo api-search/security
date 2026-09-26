@@ -75,4 +75,5 @@ tags:
 - Logistics
 - Consumer Services
 - Fortune 1000
+- Self Storage
 ---

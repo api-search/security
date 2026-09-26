@@ -38,6 +38,6 @@ tags:
 - Artificial Intelligence
 - Receptionist
 - Telephony
-- SMB
+- Small Business
 - CRM
 ---

@@ -101,7 +101,7 @@ tags:
 - MCP
 - A2A
 - SMS Verification
-- LLM Inference
+- Inference
 - Social Media Marketing
 - Web Analytics
 - Blockchain Data

@@ -37,6 +37,6 @@ tags:
 - Point-of-Sale
 - Invoicing
 - Fintech
-- SMB
+- Small Business
 - Africa
 ---

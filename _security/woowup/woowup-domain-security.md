@@ -56,4 +56,5 @@ tags:
 - Retail
 - E-Commerce
 - Push Notifications
+- Loyalty & Incentives
 ---

@@ -44,6 +44,6 @@ tags:
 - Lending
 - Payments
 - Cash Flow
-- SMB
+- Small Business
 - Embedded Financial Services
 ---

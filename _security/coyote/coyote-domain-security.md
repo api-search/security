@@ -95,7 +95,6 @@ tags:
 - Logistics
 - Truckload
 - LTL
-- Less-Than-Truckload
 - Shipping
 - Supply Chain
 - freight quotes

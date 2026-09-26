@@ -103,7 +103,7 @@ tags:
 - KYC
 - KYB
 - AML
-- Fraud
+- Fraud Prevention
 - Compliance
 trust_url: https://trust.frankieone.com/
 ---

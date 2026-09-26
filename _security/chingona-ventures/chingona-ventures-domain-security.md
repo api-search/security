@@ -37,6 +37,6 @@ tags:
 - Fintech
 - Future Of Work
 - Future of Learning
-- Health Technology
+- Health Tech
 - Early Stage Investing
 ---

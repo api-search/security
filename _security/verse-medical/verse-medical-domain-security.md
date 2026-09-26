@@ -40,6 +40,5 @@ tags:
 - Durable Medical Equipment
 - Home Healthcare
 - Medical Supplies
-- Health Technology
 - DME
 ---

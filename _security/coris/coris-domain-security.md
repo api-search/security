@@ -34,7 +34,7 @@ tags:
 - Company
 - Fintech
 - Risk Management
-- Fraud
+- Fraud Prevention
 - Payments
 - Merchant Onboarding
 - KYB

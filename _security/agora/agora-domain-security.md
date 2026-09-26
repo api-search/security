@@ -75,4 +75,5 @@ tags:
 - Cryptocurrency
 - Blockchain
 - AUSD
+- Stablecoin Issuance
 ---

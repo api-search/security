@@ -140,4 +140,5 @@ tags:
 - Digital Assets
 - Wallets
 - Yield
+- Stablecoin Issuance
 ---

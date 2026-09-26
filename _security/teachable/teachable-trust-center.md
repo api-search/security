@@ -89,5 +89,6 @@ tags:
 - Coaching
 - Membership
 - Transaction
+- Creator Economy
 trust_url: https://www.teachable.com/security
 ---

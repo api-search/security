@@ -46,7 +46,6 @@ tags:
 - Artificial Intelligence
 - Identity Verification
 - Fraud Prevention
-- Fraud Detection
 - Identity Intelligence
 - KYC
 - AML

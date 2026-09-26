@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Agriculture
-- AgriTech
+- AgTech
 - Wholesale
 - B2B
 - Marketplace

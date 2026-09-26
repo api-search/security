@@ -48,4 +48,5 @@ tags:
 - Consumer
 - Block
 - Australia
+- Consumer Finance
 ---

@@ -54,7 +54,7 @@ tags:
 - Payment Orchestration
 - Payment Processing
 - Fintech
-- Fraud Detection
+- Fraud Prevention
 - Smart Routing
 - Checkout
 - Payment Methods

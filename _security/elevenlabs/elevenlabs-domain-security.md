@@ -192,4 +192,6 @@ tags:
 - Dubbing
 - Music Generation
 - Real-Time
+- Voice AI
+- Voice Agents
 ---

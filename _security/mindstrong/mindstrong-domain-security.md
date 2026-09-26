@@ -34,5 +34,5 @@ tags:
 - Digital Health
 - Behavioral Health
 - Digital Biomarkers
-- Health Technology
+- Health Tech
 ---

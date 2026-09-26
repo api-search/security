@@ -67,6 +67,6 @@ tags:
 - Employee Management
 - Absence Management
 - Holiday Tracking
-- SMB
+- Small Business
 - United Kingdom
 ---

@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Food and Beverage
 - Plant-Based
-- CPG
+- Consumer Packaged Goods
 - Non-Dairy
 - Food Service
 ---

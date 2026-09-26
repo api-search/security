@@ -337,7 +337,7 @@ tags:
 - Mobile Money
 - eSIM
 - 5G
-- Anti-Fraud
+- Fraud Prevention
 - Specification
 - GSMA
 ---

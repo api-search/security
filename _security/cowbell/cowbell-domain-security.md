@@ -38,7 +38,7 @@ tags:
 - Risk Management
 - Risk Assessment
 - Continuous Underwriting
-- SMB
+- Small Business
 - Cowbell Factors
 - Cyber Liability
 - Managed Detection and Response

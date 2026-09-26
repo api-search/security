@@ -34,7 +34,7 @@ tags:
 - Company
 - Consumer
 - Healthcare
-- Health Technology
+- Health Tech
 - Telehealth
 - Digital Health
 - Clinics

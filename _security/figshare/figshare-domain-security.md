@@ -110,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Research Data
-- Data Repository
+- Research Repository
 - Open Science
 - DOI
 - Datasets
@@ -118,4 +118,5 @@ tags:
 - File Storage
 - Open Access
 - Figshare
+- OAI-PMH
 ---

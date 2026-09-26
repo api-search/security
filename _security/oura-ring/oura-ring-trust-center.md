@@ -168,5 +168,7 @@ tags:
 - Wearables
 - Wellness
 - Women's Health
+- Heart Rate
+- Smart Ring
 trust_url: https://ouraring.com/security
 ---

@@ -51,6 +51,6 @@ tags:
 - Open Banking
 - Consumer Data Right
 - Account-to-Account
-- Fraud
+- Fraud Prevention
 - Banking as a Service
 ---

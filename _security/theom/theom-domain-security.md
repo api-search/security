@@ -39,5 +39,5 @@ tags:
 - DSPM
 - Artificial Intelligence
 - Cloud Security
-- Data Privacy
+- Privacy
 ---

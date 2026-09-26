@@ -41,7 +41,7 @@ tags:
 - Agriculture
 - Food and Beverage
 - Consumer Packaged Goods
-- Agriculture Technology
+- AgTech
 - E-Commerce
 - Retail
 - Supply Chain

@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/he
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Document Verification
 - Identity Verification
 - Income Verification

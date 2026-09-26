@@ -33,7 +33,7 @@ tags:
 - Company
 - Ai Ml
 - Semiconductors
-- AI Inference
+- Inference
 - Edge AI
 - Hardware
 - Data Center

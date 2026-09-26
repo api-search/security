@@ -35,7 +35,7 @@ tags:
 - Big Data
 - Insurance
 - Insurtech
-- Fraud Detection
+- Fraud Prevention
 - Artificial Intelligence
 - Claims Automation
 - Financial Crime

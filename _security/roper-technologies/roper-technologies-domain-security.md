@@ -53,7 +53,7 @@ tags:
 - Fortune 500
 - Healthcare IT
 - Insurance Technology
-- Legal Technology
+- Legal Tech
 - Software-as-a-Service
 - Vertical Software
 ---

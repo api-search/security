@@ -57,6 +57,174 @@ api_specs:
   slug: nasa-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-search-api-openapi.yml
+- filename: nasa-gov-album-api-openapi.yml
+  format: yaml
+  label: NASA Album API
+  slug: nasa-gov-album-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-album-api-openapi.yml
+- filename: nasa-gov-cad-api-openapi.yml
+  format: yaml
+  label: NASA CAD API
+  slug: nasa-gov-cad-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-cad-api-openapi.yml
+- filename: nasa-gov-categories-api-openapi.yml
+  format: yaml
+  label: NASA Categories API
+  slug: nasa-gov-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-categories-api-openapi.yml
+- filename: nasa-gov-donki-api-openapi.yml
+  format: yaml
+  label: NASA DONKI API
+  slug: nasa-gov-donki-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-donki-api-openapi.yml
+- filename: nasa-gov-earth-api-openapi.yml
+  format: yaml
+  label: NASA Earth API
+  slug: nasa-gov-earth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-earth-api-openapi.yml
+- filename: nasa-gov-enhanced-api-openapi.yml
+  format: yaml
+  label: NASA Enhanced API
+  slug: nasa-gov-enhanced-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-enhanced-api-openapi.yml
+- filename: nasa-gov-events-api-openapi.yml
+  format: yaml
+  label: NASA Events API
+  slug: nasa-gov-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-events-api-openapi.yml
+- filename: nasa-gov-fireball-api-openapi.yml
+  format: yaml
+  label: NASA Fireball API
+  slug: nasa-gov-fireball-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-fireball-api-openapi.yml
+- filename: nasa-gov-layers-api-openapi.yml
+  format: yaml
+  label: NASA Layers API
+  slug: nasa-gov-layers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-layers-api-openapi.yml
+- filename: nasa-gov-locations-api-openapi.yml
+  format: yaml
+  label: NASA Locations API
+  slug: nasa-gov-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-locations-api-openapi.yml
+- filename: nasa-gov-magnitudes-api-openapi.yml
+  format: yaml
+  label: NASA Magnitudes API
+  slug: nasa-gov-magnitudes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-magnitudes-api-openapi.yml
+- filename: nasa-gov-natural-api-openapi.yml
+  format: yaml
+  label: NASA Natural API
+  slug: nasa-gov-natural-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-natural-api-openapi.yml
+- filename: nasa-gov-nhats-api-openapi.yml
+  format: yaml
+  label: NASA NHATS API
+  slug: nasa-gov-nhats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-nhats-api-openapi.yml
+- filename: nasa-gov-observatories-api-openapi.yml
+  format: yaml
+  label: NASA Observatories API
+  slug: nasa-gov-observatories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-observatories-api-openapi.yml
+- filename: nasa-gov-patents-api-openapi.yml
+  format: yaml
+  label: NASA Patents API
+  slug: nasa-gov-patents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-patents-api-openapi.yml
+- filename: nasa-gov-projects-api-openapi.yml
+  format: yaml
+  label: NASA Projects API
+  slug: nasa-gov-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-projects-api-openapi.yml
+- filename: nasa-gov-rovers-api-openapi.yml
+  format: yaml
+  label: NASA Rovers API
+  slug: nasa-gov-rovers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-rovers-api-openapi.yml
+- filename: nasa-gov-sbdb-api-openapi.yml
+  format: yaml
+  label: NASA SBDB API
+  slug: nasa-gov-sbdb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-sbdb-api-openapi.yml
+- filename: nasa-gov-scout-api-openapi.yml
+  format: yaml
+  label: NASA Scout API
+  slug: nasa-gov-scout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-scout-api-openapi.yml
+- filename: nasa-gov-sentry-api-openapi.yml
+  format: yaml
+  label: NASA Sentry API
+  slug: nasa-gov-sentry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-sentry-api-openapi.yml
+- filename: nasa-gov-software-api-openapi.yml
+  format: yaml
+  label: NASA Software API
+  slug: nasa-gov-software-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-software-api-openapi.yml
+- filename: nasa-gov-sources-api-openapi.yml
+  format: yaml
+  label: NASA Sources API
+  slug: nasa-gov-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-sources-api-openapi.yml
+- filename: nasa-gov-spinoff-api-openapi.yml
+  format: yaml
+  label: NASA Spinoff API
+  slug: nasa-gov-spinoff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-spinoff-api-openapi.yml
+- filename: nasa-gov-stations-api-openapi.yml
+  format: yaml
+  label: NASA Stations API
+  slug: nasa-gov-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-stations-api-openapi.yml
+- filename: nasa-gov-tap-api-openapi.yml
+  format: yaml
+  label: NASA TAP API
+  slug: nasa-gov-tap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-tap-api-openapi.yml
+- filename: nasa-gov-tle-api-openapi.yml
+  format: yaml
+  label: NASA TLE API
+  slug: nasa-gov-tle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-tle-api-openapi.yml
+- filename: nasa-gov-weather-api-openapi.yml
+  format: yaml
+  label: NASA Weather API
+  slug: nasa-gov-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-weather-api-openapi.yml
+- filename: nasa-gov-wmts-api-openapi.yml
+  format: yaml
+  label: NASA WMTS API
+  slug: nasa-gov-wmts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-gov-wmts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -98,4 +266,9 @@ tags:
 - Space
 - Geospatial
 - Government Data
+- Astronomy
+- Planetary Science
+- Earth Science
+- Earth Observation
+- Open Data
 ---

@@ -51,6 +51,6 @@ tags:
 - Card Network
 - Tokenization
 - Financial Services
-- Fraud
+- Fraud Prevention
 - Fortune 500
 ---

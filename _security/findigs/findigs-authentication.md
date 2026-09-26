@@ -60,7 +60,7 @@ tags:
 - Income Verification
 - Credit Check
 - Background Checks
-- Fraud Detection
+- Fraud Prevention
 - Property Management
 - Real Estate
 - PropTech

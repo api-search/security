@@ -57,6 +57,6 @@ tags:
 - Time Tracking
 - Billing
 - Client Communications
-- Legal Technology
+- Legal Tech
 - Salesforce
 ---

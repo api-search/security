@@ -29,7 +29,7 @@ tags:
 - Onboarding
 - Credit Decisioning
 - Bank Statement Analysis
-- Fraud Detection
+- Fraud Prevention
 - Account Aggregator
 - India
 trust_url: https://perfios.ai/perfios-trust-center/

@@ -117,6 +117,7 @@ tags:
 - Data Integration
 - EDI
 - Integration
+- iPaaS
 - Management
 - MFT
 - Platform

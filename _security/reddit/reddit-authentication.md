@@ -109,4 +109,5 @@ tags:
 - Content
 - Social Media
 - Social News
+- Social
 ---

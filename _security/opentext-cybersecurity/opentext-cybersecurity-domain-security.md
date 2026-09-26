@@ -231,6 +231,6 @@ tags:
 - Backup and Recovery
 - Managed Service Providers
 - Identity and Access
-- Data Privacy
+- Privacy
 - Enterprise Software
 ---

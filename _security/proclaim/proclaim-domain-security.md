@@ -35,7 +35,7 @@ tags:
 - Oral Health
 - Dental
 - Consumer Devices
-- Health Technology
+- Health Tech
 - Wellness
 - Direct to Consumer
 ---

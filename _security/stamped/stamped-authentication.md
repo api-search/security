@@ -71,4 +71,5 @@ tags:
 - E-Commerce
 - Customer Marketing
 - Shopify
+- Loyalty & Incentives
 ---

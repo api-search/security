@@ -353,7 +353,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Privacy
-- Data Privacy
 - SCIM
 - Identity
 - Authentication

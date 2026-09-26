@@ -44,7 +44,7 @@ tags:
 - Blockchain
 - Compliance
 - Sanctions
-- Fraud
+- Fraud Prevention
 - AML
 - Blockchain Intelligence
 trust_url: https://trust.trmlabs.com/
