@@ -1,0 +1,45 @@
+---
+api_specs:
+- filename: augment-1-openapi-generated.yml
+  format: yaml
+  label: Augment API
+  slug: augment-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs/heads/main/openapi/_ae-authored/augment-1-openapi-generated.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: augment.com
+  spf: true
+hosts:
+- cert_expires: Mar 16 23:59:59 2027 GMT
+  host: www.augment.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Augment 1 Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Augment, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Augment
+provider_slug: augment-1
+slug: augment-1-domain-security
+source_filename: augment-1-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.augment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: augment.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs/heads/main/security/augment-1-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Company
+- AugmentedReality
+- ECommerce
+- 3DVisualization
+- SaaS
+---
