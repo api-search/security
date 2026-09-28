@@ -69,14 +69,14 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - twitter
 - X
-- Social Media
+- Social-Media
 - Social Data
 - Search
 - Analytics
 - Research
 - Developer Tools
 - MCP
-- Agent-Native
+- agent-native
 - llms-txt
 - REST API
 ---

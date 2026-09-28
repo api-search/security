@@ -108,9 +108,11 @@ api_specs:
   slug: screenpipe-vision-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-vision-api-openapi.yml
-certification_count: 3
+certification_count: 5
 certifications:
 - SOC 2
+- ISO 27001
+- PCI DSS
 - HIPAA
 - GDPR
 description: ''
@@ -118,16 +120,16 @@ kind: trust-center
 layout: security
 name: Screenpipe Trust Center
 name_suffix: Trust Center
-overview: Screenpipe maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
+overview: Screenpipe maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Screenpipe
 provider_slug: screenpipe
 slug: screenpipe-trust-center
 source_filename: screenpipe-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://screenpipe.com/security\nurl: https://screenpipe.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://screenpipe.com/security\n  keywords:\n  - soc 2\n  - hipaa\n  - gdpr\n"
+source_yaml: "generated: '2026-09-28'\nmethod: searched\nprobe: true\nsource: https://trust.screenpipe.com/\nurl: https://trust.screenpipe.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.screenpipe.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-trust-center.yml
-summary_line: SOC 2, HIPAA, GDPR
+summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
 - Screen Recording
@@ -140,6 +142,5 @@ tags:
 - MCP
 - Developer Tools
 - Productivity
-- Open Source
-trust_url: https://screenpipe.com/security
+trust_url: https://trust.screenpipe.com/
 ---

@@ -3,12 +3,42 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: machinelibrary-ai-openapi.yml
+- filename: machinelibrary-ai-documents-api-openapi.yml
   format: yaml
-  label: Machine Library API
-  slug: machine-library-api
+  label: Space Frontiers Documents API
+  slug: machinelibrary-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-documents-api-openapi.yml
+- filename: machinelibrary-ai-payments-api-openapi.yml
+  format: yaml
+  label: Space Frontiers Payments API
+  slug: machinelibrary-ai-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-payments-api-openapi.yml
+- filename: machinelibrary-ai-raw-document-downloads-api-openapi.yml
+  format: yaml
+  label: Space Frontiers Raw document downloads API
+  slug: machinelibrary-ai-raw-document-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
+- filename: machinelibrary-ai-recognition-api-openapi.yml
+  format: yaml
+  label: Space Frontiers Recognition API
+  slug: machinelibrary-ai-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-recognition-api-openapi.yml
+- filename: machinelibrary-ai-search-api-openapi.yml
+  format: yaml
+  label: Space Frontiers Search API
+  slug: machinelibrary-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-search-api-openapi.yml
+- filename: machinelibrary-ai-conversations-api-openapi.yml
+  format: yaml
+  label: Space Frontiers Conversations API
+  slug: machinelibrary-ai-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-conversations-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -121,15 +121,15 @@ domains:
   dmarc_policy: quarantine
   dnssec: false
   domain: screenpipe.com
-  spf: false
+  spf: true
 hosts:
-- cert_expires: Oct 13 07:23:35 2026 GMT
+- cert_expires: Dec 15 20:06:13 2026 GMT
   host: screenpi.pe
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 16 15:09:24 2026 GMT
+- cert_expires: Nov 14 16:25:28 2026 GMT
   host: docs.screenpipe.com
   hsts: true
   hsts_max_age: 63072000
@@ -148,7 +148,7 @@ slug: screenpipe-domain-security
 source_filename: screenpipe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: screenpi.pe\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 07:23:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.screenpipe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:09:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: screenpi.pe\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: screenpipe.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: screenpi.pe\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 20:06:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.screenpipe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 16:25:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: screenpi.pe\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: screenpipe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -163,5 +163,4 @@ tags:
 - MCP
 - Developer Tools
 - Productivity
-- Open Source
 ---

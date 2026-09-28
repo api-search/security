@@ -86,6 +86,162 @@ api_specs:
   slug: talend-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-workspaces-api-openapi.yml
+- filename: talend-account-api-openapi.yml
+  format: yaml
+  label: Talend Account API
+  slug: talend-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-account-api-openapi.yml
+- filename: talend-account-subscription-api-openapi.yml
+  format: yaml
+  label: 'Talend account :: subscription API'
+  slug: talend-account-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-account-subscription-api-openapi.yml
+- filename: talend-attributes-api-openapi.yml
+  format: yaml
+  label: Talend Attributes API
+  slug: talend-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-attributes-api-openapi.yml
+- filename: talend-connectionscan-api-openapi.yml
+  format: yaml
+  label: Talend Connection Scan API
+  slug: talend-connectionscan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-connectionscan-api-openapi.yml
+- filename: talend-crawler-api-openapi.yml
+  format: yaml
+  label: Talend Crawler API
+  slug: talend-crawler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-crawler-api-openapi.yml
+- filename: talend-dataset-api-openapi.yml
+  format: yaml
+  label: Talend Dataset API
+  slug: talend-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-dataset-api-openapi.yml
+- filename: talend-datasets-api-openapi.yml
+  format: yaml
+  label: Talend Datasets API
+  slug: talend-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-datasets-api-openapi.yml
+- filename: talend-dynamic-engine-controller-api-openapi.yml
+  format: yaml
+  label: Talend Dynamic Engine Controller API
+  slug: talend-dynamic-engine-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-dynamic-engine-controller-api-openapi.yml
+- filename: talend-dynamic-engine-version-controller-api-openapi.yml
+  format: yaml
+  label: Talend Dynamic Engine Version Controller API
+  slug: talend-dynamic-engine-version-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-dynamic-engine-version-controller-api-openapi.yml
+- filename: talend-eligibles-api-openapi.yml
+  format: yaml
+  label: Talend Eligibles API
+  slug: talend-eligibles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-eligibles-api-openapi.yml
+- filename: talend-environment-controller-api-openapi.yml
+  format: yaml
+  label: Talend Environment Controller API
+  slug: talend-environment-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-environment-controller-api-openapi.yml
+- filename: talend-ip-allowlist-management-api-openapi.yml
+  format: yaml
+  label: Talend IP Allowlist Management API
+  slug: talend-ip-allowlist-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-ip-allowlist-management-api-openapi.yml
+- filename: talend-levels-api-openapi.yml
+  format: yaml
+  label: Talend Levels API
+  slug: talend-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-levels-api-openapi.yml
+- filename: talend-monitoring-api-openapi.yml
+  format: yaml
+  label: Talend Monitoring API
+  slug: talend-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-monitoring-api-openapi.yml
+- filename: talend-orchestration-api-openapi.yml
+  format: yaml
+  label: Talend Orchestration API
+  slug: talend-orchestration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-orchestration-api-openapi.yml
+- filename: talend-scim-2-0-group-management-api-openapi.yml
+  format: yaml
+  label: Talend SCIM 2.0 Group Management API
+  slug: talend-scim-2-0-group-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-scim-2-0-group-management-api-openapi.yml
+- filename: talend-scim-2-0-resource-type-api-openapi.yml
+  format: yaml
+  label: Talend SCIM 2.0 Resource Type API
+  slug: talend-scim-2-0-resource-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-scim-2-0-resource-type-api-openapi.yml
+- filename: talend-scim-2-0-role-management-api-openapi.yml
+  format: yaml
+  label: Talend SCIM 2.0 Role Management API
+  slug: talend-scim-2-0-role-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-scim-2-0-role-management-api-openapi.yml
+- filename: talend-scim-2-0-schema-api-openapi.yml
+  format: yaml
+  label: Talend SCIM 2.0 Schema API
+  slug: talend-scim-2-0-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-scim-2-0-schema-api-openapi.yml
+- filename: talend-scim-2-0-service-provider-config-api-openapi.yml
+  format: yaml
+  label: Talend SCIM 2.0 Service Provider Config API
+  slug: talend-scim-2-0-service-provider-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-scim-2-0-service-provider-config-api-openapi.yml
+- filename: talend-scim-2-0-user-management-api-openapi.yml
+  format: yaml
+  label: Talend SCIM 2.0 User Management API
+  slug: talend-scim-2-0-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-scim-2-0-user-management-api-openapi.yml
+- filename: talend-security-api-openapi.yml
+  format: yaml
+  label: Talend Security API
+  slug: talend-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-security-api-openapi.yml
+- filename: talend-service-accounts-workspaces-permissions-api-openapi.yml
+  format: yaml
+  label: 'Talend service accounts :: workspaces :: permissions API'
+  slug: talend-service-accounts-workspaces-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-service-accounts-workspaces-permissions-api-openapi.yml
+- filename: talend-sharings-api-openapi.yml
+  format: yaml
+  label: Talend Sharings API
+  slug: talend-sharings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-sharings-api-openapi.yml
+- filename: talend-sharingset-api-openapi.yml
+  format: yaml
+  label: Talend Sharing Set API
+  slug: talend-sharingset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-sharingset-api-openapi.yml
+- filename: talend-workspaces-permissions-api-openapi.yml
+  format: yaml
+  label: 'Talend workspaces :: permissions API'
+  slug: talend-workspaces-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/openapi/talend-workspaces-permissions-api-openapi.yml
 auth_types:
 - http
 description: ''

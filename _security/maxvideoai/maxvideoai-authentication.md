@@ -54,9 +54,9 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence
 - Video Generation
-- Image Generation
+- Image-Generation
 - MCP
-- Agent-Native
+- agent-native
 - Text-to-Video
 - Image-to-Video
 - Creative Production
