@@ -45,27 +45,32 @@ domains:
   domain: appstorespy.com
   spf: true
 hosts:
-- cert_expires: Oct 23 01:45:34 2026 GMT
+- cert_expires: Nov 17 05:33:38 2026 GMT
+  host: www.appstorespy.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
+- cert_expires: Dec 22 08:22:55 2026 GMT
   host: api.appstorespy.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
 name: Appstorespy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for AppstoreSpy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for AppstoreSpy, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: AppstoreSpy
 provider_slug: appstorespy
 slug: appstorespy-domain-security
 source_filename: appstorespy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.appstorespy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 01:45:34 2026 GMT\n  hsts: false\ndomains:\n- domain: appstorespy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.appstorespy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 17 05:33:38 2026 GMT\n  hsts: false\n- host: api.appstorespy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 08:22:55 2026 GMT\n  hsts: false\ndomains:\n- domain: appstorespy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/security/appstorespy-domain-security.yml
-summary_line: TLSv1.3 · DNSSEC · DMARC
+summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Mobile App
 - App Store Optimization

@@ -1,0 +1,35 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: bluehexagon.ai
+  spf: true
+hosts:
+- host: bluehexagon.ai
+  https: false
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Blue Hexagon Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Blue Hexagon, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Blue Hexagon
+provider_slug: blue-hexagon
+slug: blue-hexagon-domain-security
+source_filename: blue-hexagon-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bluehexagon.ai\n  https: false\ndomains:\n- domain: bluehexagon.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-hexagon/refs/heads/main/security/blue-hexagon-domain-security.yml
+summary_line: DMARC
+tags:
+- Cybersecurity
+- AI
+- Cloud
+- Threat Detection
+- Enterprise
+---
