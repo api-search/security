@@ -34,7 +34,6 @@ source_yaml: 'generated: ''2026-09-10''
 
   summary: No authentication. Fully public, keyless, unauthenticated REST/static-file API with CORS fully open. The OpenAPI declares no securitySchemes and no security requirement; the provider states no signup and no API key issuance.
 
-  schemes: []
 
   auth_required: false
 

@@ -24,6 +24,12 @@ api_specs:
   slug: farmdash-execution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-execution-api-openapi.yml
+- filename: farmdash-executionauthority-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Execution Authority API
+  slug: farmdash-executionauthority-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-executionauthority-api-openapi.yml
 - filename: farmdash-history-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub History API
@@ -36,6 +42,24 @@ api_specs:
   slug: farmdash-intelligence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-intelligence-api-openapi.yml
+- filename: farmdash-planning-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Planning API
+  slug: farmdash-planning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-planning-api-openapi.yml
+- filename: farmdash-proof-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Proof API
+  slug: farmdash-proof-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-proof-api-openapi.yml
+- filename: farmdash-reputation-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Reputation API
+  slug: farmdash-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-reputation-api-openapi.yml
 - filename: farmdash-research-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Research API
@@ -66,6 +90,12 @@ api_specs:
   slug: farmdash-swap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-swap-api-openapi.yml
+- filename: farmdash-wallet-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Wallet API
+  slug: farmdash-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-wallet-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +127,7 @@ slug: farmdash-domain-security
 source_filename: farmdash-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.farmdash.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:35:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: farmdash.one\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.farmdash.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:35:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: farmdash.one\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/security/farmdash-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

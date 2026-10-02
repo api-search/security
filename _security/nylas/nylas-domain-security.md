@@ -249,19 +249,19 @@ domains:
   domain: nylas.com
   spf: true
 hosts:
-- cert_expires: Sep  4 01:33:30 2026 GMT
+- cert_expires: Dec 31 05:52:49 2026 GMT
   host: www.nylas.com
   hsts: true
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 15 21:08:12 2026 GMT
+- cert_expires: Nov 13 22:14:43 2026 GMT
   host: developer.nylas.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jul 24 21:16:49 2026 GMT
+- cert_expires: Nov  1 16:43:53 2026 GMT
   host: api.us.nylas.com
   hsts: null
   https: true
@@ -279,7 +279,7 @@ slug: nylas-domain-security
 source_filename: nylas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 01:33:30 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:08:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.us.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 24 21:16:49 2026 GMT\n  hsts: null\ndomains:\n- domain: nylas.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 05:52:49 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 22:14:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.us.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 16:43:53 2026 GMT\n  hsts: null\ndomains:\n- domain: nylas.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/security/nylas-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

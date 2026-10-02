@@ -3,22 +3,16 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: listennotes-directory-api-api-openapi.yml
-  format: yaml
-  label: Listen Notes Directory API
-  slug: listennotes-directory-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-directory-api-api-openapi.yml
 - filename: listennotes-insights-api-api-openapi.yml
   format: yaml
   label: Listen Notes Insights API
-  slug: listennotes-insights-api-api
+  slug: insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-insights-api-api-openapi.yml
 - filename: listennotes-playlist-api-api-openapi.yml
   format: yaml
   label: Listen Notes Playlist API
-  slug: listennotes-playlist-api-api
+  slug: playlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-playlist-api-api-openapi.yml
 - filename: listennotes-podcaster-api-api-openapi.yml
@@ -33,6 +27,12 @@ api_specs:
   slug: listennotes-search-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-search-api-api-openapi.yml
+- filename: listennotes-directory-api-api-openapi.yml
+  format: yaml
+  label: Listen Notes Directory API
+  slug: listennotes-directory-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-directory-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

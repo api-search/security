@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: accuracite-api-openapi.json
+  format: json
+  label: AccuraCite API API
+  slug: accuracite-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/openapi/_original/accuracite-api-openapi.json
 auth_types: []
 description: ''
 kind: authentication
