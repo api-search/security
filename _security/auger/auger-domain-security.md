@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auger/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- SupplyChain
+- Supply Chain
 - Finance
 - Automation
-- AI
+- Artificial Intelligence
 ---

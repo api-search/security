@@ -186,7 +186,6 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Construction
 - Software
-- API
 - Cloud
-- ProjectManagement
+- Project Management
 ---

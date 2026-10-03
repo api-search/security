@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B
 - Retail
-- FMCG
+- Consumer Packaged Goods
 - India
 - Marketplace
 ---

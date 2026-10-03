@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bempower/refs/heads/main/security/bempower-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Nonprofit
+- Non-Profit
 - Development
 - Education
 - Water

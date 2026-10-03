@@ -35,7 +35,7 @@ tags:
 - Hardware
 - Robotics
 - Education
-- Steam
+- STEAM
 - SDK
 - Robots
 - EdTech

@@ -33,6 +33,6 @@ tags:
 - Company
 - Luxury
 - Fashion
-- E-commerce
+- E-Commerce
 - Platform
 ---

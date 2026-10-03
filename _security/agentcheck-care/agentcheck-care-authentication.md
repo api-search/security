@@ -2,12 +2,120 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: agentcheck-care-openapi.yml
+- filename: agentcheck-care-a2a-api-openapi.yml
+  format: yaml
+  label: AgentCheck A2a API
+  slug: agentcheck-care-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-a2a-api-openapi.yml
+- filename: agentcheck-care-agentcheckup-api-openapi.yml
+  format: yaml
+  label: AgentCheck Agent Checkup API
+  slug: agentcheck-care-agentcheckup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-agentcheckup-api-openapi.yml
+- filename: agentcheck-care-checkout-api-openapi.yml
+  format: yaml
+  label: AgentCheck Checkout API
+  slug: agentcheck-care-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-checkout-api-openapi.yml
+- filename: agentcheck-care-checkup-api-openapi.yml
   format: yaml
   label: AgentCheck Checkup API
-  slug: agentcheck-checkup-api
+  slug: agentcheck-care-checkup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-checkup-api-openapi.yml
+- filename: agentcheck-care-credits-api-openapi.yml
+  format: yaml
+  label: AgentCheck Credits API
+  slug: agentcheck-care-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-credits-api-openapi.yml
+- filename: agentcheck-care-exam-api-openapi.yml
+  format: yaml
+  label: AgentCheck Exam API
+  slug: agentcheck-care-exam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-exam-api-openapi.yml
+- filename: agentcheck-care-free-scan-status-api-openapi.yml
+  format: yaml
+  label: AgentCheck Free Scan Status API
+  slug: agentcheck-care-free-scan-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-free-scan-status-api-openapi.yml
+- filename: agentcheck-care-free-scans-api-openapi.yml
+  format: yaml
+  label: AgentCheck Free Scans API
+  slug: agentcheck-care-free-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-free-scans-api-openapi.yml
+- filename: agentcheck-care-health-api-openapi.yml
+  format: yaml
+  label: AgentCheck Health API
+  slug: agentcheck-care-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-health-api-openapi.yml
+- filename: agentcheck-care-privacy-api-openapi.yml
+  format: yaml
+  label: AgentCheck Privacy API
+  slug: agentcheck-care-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-privacy-api-openapi.yml
+- filename: agentcheck-care-report-api-openapi.yml
+  format: yaml
+  label: AgentCheck Report API
+  slug: agentcheck-care-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-report-api-openapi.yml
+- filename: agentcheck-care-robots-txt-api-openapi.yml
+  format: yaml
+  label: AgentCheck Robots.txt API
+  slug: agentcheck-care-robots-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-robots-txt-api-openapi.yml
+- filename: agentcheck-care-sitemap-xml-api-openapi.yml
+  format: yaml
+  label: AgentCheck Sitemap.xml API
+  slug: agentcheck-care-sitemap-xml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-sitemap-xml-api-openapi.yml
+- filename: agentcheck-care-stats-api-openapi.yml
+  format: yaml
+  label: AgentCheck Stats API
+  slug: agentcheck-care-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-stats-api-openapi.yml
+- filename: agentcheck-care-stripe-webhook-api-openapi.yml
+  format: yaml
+  label: AgentCheck Stripe Webhook API
+  slug: agentcheck-care-stripe-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-stripe-webhook-api-openapi.yml
+- filename: agentcheck-care-terms-api-openapi.yml
+  format: yaml
+  label: AgentCheck Terms API
+  slug: agentcheck-care-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-terms-api-openapi.yml
+- filename: agentcheck-care-tiers-api-openapi.yml
+  format: yaml
+  label: AgentCheck Tiers API
+  slug: agentcheck-care-tiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-tiers-api-openapi.yml
+- filename: agentcheck-care-validate-bot-api-openapi.yml
+  format: yaml
+  label: AgentCheck Validate Bot API
+  slug: agentcheck-care-validate-bot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-validate-bot-api-openapi.yml
+- filename: agentcheck-care-well-known-api-openapi.yml
+  format: yaml
+  label: AgentCheck .well Known API
+  slug: agentcheck-care-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentcheck-care/refs/heads/main/openapi/agentcheck-care-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - token-in-path

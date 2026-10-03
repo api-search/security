@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benhuatechnolo
 summary_line: TLSv1.3
 tags:
 - Company
-- WaterTreatment
+- Water Treatment
 - Instruments
 - China
 - Technology

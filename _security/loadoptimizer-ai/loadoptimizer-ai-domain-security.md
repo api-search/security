@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Logistics
-- AI
+- Artificial Intelligence
 - Load Planning
 - Optimization
 - Shipping

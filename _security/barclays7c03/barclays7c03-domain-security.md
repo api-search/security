@@ -35,5 +35,4 @@ tags:
 - Finance
 - Global
 - Corporate
-- API
 ---

@@ -36,5 +36,4 @@ tags:
 - Autonomous Agents
 - B2B
 - Y Combinator
-- Startups
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: sma-solar-openapi-generated.yml
+- filename: sma-solar-oauth2-api-openapi.yml
   format: yaml
-  label: SMA Solar Technology API
-  slug: sma-solar-api
+  label: SMA Solar Technology Oauth2 API
+  slug: sma-solar-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sma-solar/refs/heads/main/openapi/_ae-authored/sma-solar-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sma-solar/refs/heads/main/openapi/sma-solar-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -30,12 +30,30 @@ api_specs:
   slug: newcastle-api-metadata-information-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-api-metadata-information-api-openapi.yml
-- filename: newcastle-v1-api-openapi.yml
+- filename: newcastle-collections-api-openapi.yml
   format: yaml
-  label: Newcastle University V1 API
-  slug: newcastle-v1-api
+  label: Newcastle University Collections API
+  slug: newcastle-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-collections-api-openapi.yml
+- filename: newcastle-contentdm-api-openapi.yml
+  format: yaml
+  label: Newcastle University CONTEN Tdm API
+  slug: newcastle-contentdm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-contentdm-api-openapi.yml
+- filename: newcastle-items-api-openapi.yml
+  format: yaml
+  label: Newcastle University Items API
+  slug: newcastle-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-items-api-openapi.yml
+- filename: newcastle-tei-api-openapi.yml
+  format: yaml
+  label: Newcastle University TEI API
+  slug: newcastle-tei-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-tei-api-openapi.yml
 - filename: newcastle-time-series-api-openapi.yml
   format: yaml
   label: Newcastle University Time Series API

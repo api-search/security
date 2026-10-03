@@ -31,6 +31,6 @@ tags:
 - Biotechnology
 - Protein Degradation
 - Therapeutics
-- Korea
+- South Korea
 - AUTOTAC
 ---

@@ -34,5 +34,4 @@ tags:
 - Real Estate
 - Property Management
 - Rentals
-- API
 ---

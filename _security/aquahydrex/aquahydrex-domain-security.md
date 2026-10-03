@@ -34,6 +34,6 @@ tags:
 - Private-Market
 - Liquidity
 - Equity-Administration
-- Secondary-Market
+- Secondary Market
 - Pre-IPO
 ---

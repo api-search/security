@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billfold/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- Events
-- POS
+- Event
+- Point-of-Sale
 - RFID
 - Cashless
 ---

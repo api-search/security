@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstroke/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Technology
 - Data
 - Services

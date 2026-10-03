@@ -990,6 +990,12 @@ api_specs:
   slug: mavrck-social-network-level-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-social-network-level-api-openapi.yml
+- filename: mavrck-path-api-openapi.yml
+  format: yaml
+  label: Mavrck Path API
+  slug: mavrck-path-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/openapi/mavrck-path-api-openapi.yml
 - filename: mavrck-account-invitations-api-openapi.yml
   format: yaml
   label: Mavrck Account Invitations API

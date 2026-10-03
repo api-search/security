@@ -90,7 +90,7 @@ tags:
 - Translation
 - NLP
 - terminology-management
-- Cats
+- Cat
 - MT-preprocessing
 - chinese-language
 - Web Novels

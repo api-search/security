@@ -139,9 +139,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: derived\nsource: openapi/avoma-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/authentication/avoma-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
-- Meeting-Assistant
-- Sales-Enablement
+- Artificial Intelligence
+- Meeting Assistant
+- Sales Enablement
 - Automation
 - Productivity
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automata/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- LabAutomation
-- AI
+- Lab Automation
+- Artificial Intelligence
 - Biotechnology
 - Software
 ---

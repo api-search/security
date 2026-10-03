@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bespinglobal/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud
-- AI
+- Artificial Intelligence
 - Consulting
 - Services
 - Global

@@ -34,6 +34,6 @@ tags:
 - Security
 - Application-Protection
 - DevOps
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

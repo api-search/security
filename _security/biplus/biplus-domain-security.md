@@ -35,5 +35,5 @@ tags:
 - Software
 - IT Outsourcing
 - Vietnam
-- AI
+- Artificial Intelligence
 ---

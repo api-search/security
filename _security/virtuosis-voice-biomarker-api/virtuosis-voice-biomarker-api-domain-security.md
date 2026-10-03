@@ -6,12 +6,6 @@ api_specs:
   slug: virtuosis-voice-biomarker-api-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/openapi/virtuosis-voice-biomarker-api-accounts-api-openapi.yml
-- filename: virtuosis-voice-biomarker-api-default-api-openapi.yml
-  format: yaml
-  label: Virtuosis Voice Biomarker API Voice Biomarker Api Default API
-  slug: virtuosis-voice-biomarker-api-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/openapi/virtuosis-voice-biomarker-api-default-api-openapi.yml
 - filename: virtuosis-voice-biomarker-api-recordings-api-openapi.yml
   format: yaml
   label: Virtuosis Voice Biomarker API Recordings API
@@ -24,6 +18,12 @@ api_specs:
   slug: virtuosis-voice-biomarker-api-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/openapi/virtuosis-voice-biomarker-api-usage-api-openapi.yml
+- filename: virtuosis-voice-biomarker-api-ping-api-openapi.yml
+  format: yaml
+  label: Virtuosis Voice Biomarker API Ping API
+  slug: virtuosis-voice-biomarker-api-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/openapi/virtuosis-voice-biomarker-api-ping-api-openapi.yml
 description: ''
 domains:
 - caa: []

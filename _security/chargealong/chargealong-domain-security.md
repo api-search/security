@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargealong/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- EV
+- Electric Vehicles
 - Charging
 - Data
-- Public API
+- Public APIs
 - Australia
 ---

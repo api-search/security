@@ -45,5 +45,5 @@ tags:
 - Post-Trade Infrastructure
 - Securities
 - Settlement
-- Swift
+- SWIFT
 ---

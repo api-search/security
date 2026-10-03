@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: aixplain-openapi-generated.yml
+- filename: aixplain-agents-api-openapi.yml
   format: yaml
-  label: aiXplain API
-  slug: aixplain-api
+  label: aiXplain Agents API
+  slug: aixplain-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/_ae-authored/aixplain-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/aixplain-agents-api-openapi.yml
+- filename: aixplain-sessions-api-openapi.yml
+  format: yaml
+  label: aiXplain Sessions API
+  slug: aixplain-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/aixplain-sessions-api-openapi.yml
+- filename: aixplain-triggers-api-openapi.yml
+  format: yaml
+  label: aiXplain Triggers API
+  slug: aixplain-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aixplain/refs/heads/main/openapi/aixplain-triggers-api-openapi.yml
 description: ''
 domains:
 - caa: []

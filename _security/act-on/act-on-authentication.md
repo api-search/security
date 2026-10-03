@@ -128,12 +128,6 @@ api_specs:
   slug: act-on-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-token-api-openapi.yml
-- filename: act-on-token-grant-type-password-api-openapi.yml
-  format: yaml
-  label: Act-On Token?grant Type=password API
-  slug: act-on-token-grant-type-password-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/openapi/act-on-token-grant-type-password-api-openapi.yml
 - filename: act-on-ucl-api-openapi.yml
   format: yaml
   label: Act-On Ucl API

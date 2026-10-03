@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: ingest0r-com-openapi.yml
+- filename: ingest0r-com-comps-api-openapi.yml
   format: yaml
-  label: Cook County (Chicago) Property Records API
-  slug: cook-county-property-records-api
+  label: ingest0r Comps API
+  slug: ingest0r-com-comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-comps-api-openapi.yml
+- filename: ingest0r-com-dossier-api-openapi.yml
+  format: yaml
+  label: ingest0r Dossier API
+  slug: ingest0r-com-dossier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-dossier-api-openapi.yml
+- filename: ingest0r-com-parcel-api-openapi.yml
+  format: yaml
+  label: ingest0r Parcel API
+  slug: ingest0r-com-parcel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-parcel-api-openapi.yml
+- filename: ingest0r-com-search-api-openapi.yml
+  format: yaml
+  label: ingest0r Search API
+  slug: ingest0r-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

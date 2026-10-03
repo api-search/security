@@ -2,12 +2,96 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: atvenu-openapi-generated.yml
+- filename: atvenu-atvenu-api-api-openapi.yml
   format: yaml
-  label: atVenu API
-  slug: atvenu-api
+  label: atVenu AtVenu API
+  slug: atvenu-atvenu-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/_ae-authored/atvenu-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-atvenu-api-api-openapi.yml
+- filename: atvenu-download-api-openapi.yml
+  format: yaml
+  label: atVenu Download API
+  slug: atvenu-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-download-api-openapi.yml
+- filename: atvenu-downloads-api-openapi.yml
+  format: yaml
+  label: atVenu Downloads API
+  slug: atvenu-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-downloads-api-openapi.yml
+- filename: atvenu-help-center-api-openapi.yml
+  format: yaml
+  label: atVenu Help Center API
+  slug: atvenu-help-center-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-help-center-api-openapi.yml
+- filename: atvenu-incidents-api-openapi.yml
+  format: yaml
+  label: atVenu Incidents API
+  slug: atvenu-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-incidents-api-openapi.yml
+- filename: atvenu-incremental-api-openapi.yml
+  format: yaml
+  label: atVenu Incremental API
+  slug: atvenu-incremental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-incremental-api-openapi.yml
+- filename: atvenu-register-api-openapi.yml
+  format: yaml
+  label: atVenu Register API
+  slug: atvenu-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-register-api-openapi.yml
+- filename: atvenu-services-api-openapi.yml
+  format: yaml
+  label: atVenu Services API
+  slug: atvenu-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-services-api-openapi.yml
+- filename: atvenu-sunshine-api-openapi.yml
+  format: yaml
+  label: atVenu Sunshine API
+  slug: atvenu-sunshine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-sunshine-api-openapi.yml
+- filename: atvenu-tickets-api-openapi.yml
+  format: yaml
+  label: atVenu Tickets API
+  slug: atvenu-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-tickets-api-openapi.yml
+- filename: atvenu-user-profiles-api-openapi.yml
+  format: yaml
+  label: atVenu User Profiles API
+  slug: atvenu-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-user-profiles-api-openapi.yml
+- filename: atvenu-users-api-openapi.yml
+  format: yaml
+  label: atVenu Users API
+  slug: atvenu-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-users-api-openapi.yml
+- filename: atvenu-webhooks-api-openapi.yml
+  format: yaml
+  label: atVenu Webhooks API
+  slug: atvenu-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-webhooks-api-openapi.yml
+- filename: atvenu-webstore-api-openapi.yml
+  format: yaml
+  label: atVenu Webstore API
+  slug: atvenu-webstore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-webstore-api-openapi.yml
+- filename: atvenu-graph-ql-api-openapi.yml
+  format: yaml
+  label: atVenu Graph QL API
+  slug: atvenu-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atvenu/refs/heads/main/openapi/atvenu-graph-ql-api-openapi.yml
 auth_types: []
 description: Authentication schemes as published on the Zendesk developer pages.
 kind: authentication
@@ -38,5 +122,5 @@ tags:
 - Payments
 - Live Events
 - Commerce
-- POS
+- Point-of-Sale
 ---

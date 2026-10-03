@@ -1,17 +1,89 @@
 ---
 api_specs:
-- filename: agenthealthmonitor-xyz-openapi.yml
+- filename: agenthealthmonitor-xyz-admin-api-openapi.yml
   format: yaml
-  label: Agent Health Monitor API
-  slug: agent-health-monitor-api
+  label: Agent Health Monitor Admin API
+  slug: agenthealthmonitor-xyz-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-openapi.yml
-- filename: agenthealthmonitor-xyz-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-admin-api-openapi.yml
+- filename: agenthealthmonitor-xyz-alerts-api-openapi.yml
   format: yaml
-  label: AHM Verify API
-  slug: ahm-verify-api
+  label: Agent Health Monitor Alerts API
+  slug: agenthealthmonitor-xyz-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-verify-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-alerts-api-openapi.yml
+- filename: agenthealthmonitor-xyz-billing-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Billing API
+  slug: agenthealthmonitor-xyz-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-billing-api-openapi.yml
+- filename: agenthealthmonitor-xyz-coupon-access-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Coupon Access API
+  slug: agenthealthmonitor-xyz-coupon-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-coupon-access-api-openapi.yml
+- filename: agenthealthmonitor-xyz-discovery-info-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Discovery & Info API
+  slug: agenthealthmonitor-xyz-discovery-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-discovery-info-api-openapi.yml
+- filename: agenthealthmonitor-xyz-health-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Health API
+  slug: agenthealthmonitor-xyz-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-health-api-openapi.yml
+- filename: agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Health & Hygiene API
+  slug: agenthealthmonitor-xyz-health-hygiene-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
+- filename: agenthealthmonitor-xyz-optimization-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Optimization API
+  slug: agenthealthmonitor-xyz-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-optimization-api-openapi.yml
+- filename: agenthealthmonitor-xyz-outputs-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Outputs API
+  slug: agenthealthmonitor-xyz-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-outputs-api-openapi.yml
+- filename: agenthealthmonitor-xyz-protection-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Protection API
+  slug: agenthealthmonitor-xyz-protection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-protection-api-openapi.yml
+- filename: agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Scoring & Risk API
+  slug: agenthealthmonitor-xyz-scoring-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
+- filename: agenthealthmonitor-xyz-specs-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Specs API
+  slug: agenthealthmonitor-xyz-specs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-specs-api-openapi.yml
+- filename: agenthealthmonitor-xyz-utility-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Utility API
+  slug: agenthealthmonitor-xyz-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-utility-api-openapi.yml
+- filename: agenthealthmonitor-xyz-verdicts-api-openapi.yml
+  format: yaml
+  label: Agent Health Monitor Verdicts API
+  slug: agenthealthmonitor-xyz-verdicts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-verdicts-api-openapi.yml
 description: ''
 domains:
 - caa: []

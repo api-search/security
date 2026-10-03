@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: seedance2ai-openapi-generated.yml
+- filename: seedance2ai-downloads-api-openapi.yml
   format: yaml
-  label: Seedance2AI (SixBryan LLC) API
-  slug: seedance2ai-api
+  label: Seedance2AI (SixBryan LLC) Downloads API
+  slug: seedance2ai-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seedance2ai/refs/heads/main/openapi/_ae-authored/seedance2ai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seedance2ai/refs/heads/main/openapi/seedance2ai-downloads-api-openapi.yml
+- filename: seedance2ai-image-api-openapi.yml
+  format: yaml
+  label: Seedance2AI (SixBryan LLC) Image API
+  slug: seedance2ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seedance2ai/refs/heads/main/openapi/seedance2ai-image-api-openapi.yml
+- filename: seedance2ai-tasks-api-openapi.yml
+  format: yaml
+  label: Seedance2AI (SixBryan LLC) Tasks API
+  slug: seedance2ai-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seedance2ai/refs/heads/main/openapi/seedance2ai-tasks-api-openapi.yml
+- filename: seedance2ai-video-api-openapi.yml
+  format: yaml
+  label: Seedance2AI (SixBryan LLC) Video API
+  slug: seedance2ai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seedance2ai/refs/heads/main/openapi/seedance2ai-video-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +57,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seedance2ai/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video Generation
-- Multi-modal
+- Multi-Modal
 - Developer Platform
 ---

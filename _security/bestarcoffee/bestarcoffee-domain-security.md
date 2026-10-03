@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bestarcoffee/refs/heads/main/security/bestarcoffee-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- coffee
-- e-commerce
-- retail
-- specialty-coffee
-- online-store
+- Coffee
+- E-Commerce
+- Retail
+- Specialty Coffee
+- Online Store
 - Company
 ---

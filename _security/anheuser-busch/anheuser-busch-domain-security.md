@@ -35,4 +35,5 @@ tags:
 - Consumer Goods
 - Manufacturing
 - Food and Beverage
+- Consumer Packaged Goods
 ---

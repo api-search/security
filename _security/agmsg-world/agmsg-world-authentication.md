@@ -3,12 +3,54 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: agmsg-world-openapi.yml
+- filename: agmsg-world-account-api-openapi.yml
   format: yaml
-  label: AgMsg API
-  slug: agmsg-api
+  label: AgMsg Account API
+  slug: agmsg-world-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-account-api-openapi.yml
+- filename: agmsg-world-channel-api-openapi.yml
+  format: yaml
+  label: AgMsg Channel API
+  slug: agmsg-world-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-channel-api-openapi.yml
+- filename: agmsg-world-group-chat-api-openapi.yml
+  format: yaml
+  label: AgMsg Group Chat API
+  slug: agmsg-world-group-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-group-chat-api-openapi.yml
+- filename: agmsg-world-health-api-openapi.yml
+  format: yaml
+  label: AgMsg Health API
+  slug: agmsg-world-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-health-api-openapi.yml
+- filename: agmsg-world-message-api-openapi.yml
+  format: yaml
+  label: AgMsg Message API
+  slug: agmsg-world-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-message-api-openapi.yml
+- filename: agmsg-world-private-chat-api-openapi.yml
+  format: yaml
+  label: AgMsg Private Chat API
+  slug: agmsg-world-private-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-private-chat-api-openapi.yml
+- filename: agmsg-world-registration-api-openapi.yml
+  format: yaml
+  label: AgMsg Registration API
+  slug: agmsg-world-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-registration-api-openapi.yml
+- filename: agmsg-world-search-api-openapi.yml
+  format: yaml
+  label: AgMsg Search API
+  slug: agmsg-world-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

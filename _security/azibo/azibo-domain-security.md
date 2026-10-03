@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real Estate
 - Property Management
-- FinTech
-- SaaS
+- Fintech
+- Software-as-a-Service
 - Landlord Tools
 - Company
 ---

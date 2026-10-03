@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autobooks/refs/heads/main/security/autobooks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- FinTech
+- Fintech
 - Banking
 - Payments
 - Small Business

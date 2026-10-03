@@ -92,10 +92,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/security/asapp3-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- CustomerExperience
+- Artificial Intelligence
+- Customer Experience
 - Enterprise
-- ContactCenter
+- Contact Center
 - Platform
 - Company
 ---

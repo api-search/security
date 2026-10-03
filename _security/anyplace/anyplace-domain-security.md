@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Housing
-- RemoteWork
+- Remote Work
 - FlexibleLease
 - Apartments
 ---

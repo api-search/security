@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banner-technol
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- RealEstate
+- Real Estate
 - CapEx
-- SaaS
-- PropertyManagement
+- Software-as-a-Service
+- Property Management
 ---

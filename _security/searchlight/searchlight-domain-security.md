@@ -29,7 +29,6 @@ summary_line: DMARC
 tags:
 - Company
 - Services
-- Startups
 - Software-as-a-Service
 - Accel
 - Web Application

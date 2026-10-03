@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: lastdatabase-openapi.yml
+- filename: lastdatabase-leads-api-openapi.yml
   format: yaml
-  label: LastDatabase Lead Search API
-  slug: lead-search-api
+  label: LastDatabase Leads API
+  slug: lastdatabase-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/openapi/lastdatabase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/openapi/lastdatabase-leads-api-openapi.yml
 auth_types:
 - http
 - oauth2

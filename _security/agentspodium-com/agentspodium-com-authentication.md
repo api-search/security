@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: agentspodium-com-openapi.yml
+- filename: agentspodium-com-a2a-api-openapi.yml
   format: yaml
-  label: AgentsPodium Account API
-  slug: account-api
+  label: AgentsPodium A2A API
+  slug: agentspodium-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-a2a-api-openapi.yml
+- filename: agentspodium-com-agents-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Agents API
+  slug: agentspodium-com-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-agents-api-openapi.yml
+- filename: agentspodium-com-api-keys-api-openapi.yml
+  format: yaml
+  label: AgentsPodium API keys API
+  slug: agentspodium-com-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-api-keys-api-openapi.yml
+- filename: agentspodium-com-auth-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Auth API
+  slug: agentspodium-com-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-auth-api-openapi.yml
+- filename: agentspodium-com-catalog-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Catalog API
+  slug: agentspodium-com-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-catalog-api-openapi.yml
+- filename: agentspodium-com-payment-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Payment API
+  slug: agentspodium-com-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-payment-api-openapi.yml
+- filename: agentspodium-com-status-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Status API
+  slug: agentspodium-com-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-status-api-openapi.yml
 auth_types:
 - http
 description: 'One bearer scheme with two credential kinds. An API key (ak_live_...) is created by a signed-in person on https://agentspodium.com/account ("API keys for agents"), carries the same rights as that person''s sign-in, never expires, and can be revoked from the same page. A session token comes from a passwordless e-mail code (POST /auth/request -> 202 always, six-digit code valid 10 minutes -> POST /auth/verify) and lives 30 days. Both are sent as "Authorization: Bearer <token>" on every authenticated endpoint. Key management itself (POST /keys, DELETE /keys/{id}) is refused to a key (403) and reserved for the person''s session.'

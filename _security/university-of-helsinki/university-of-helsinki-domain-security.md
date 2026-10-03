@@ -474,6 +474,30 @@ api_specs:
   slug: university-of-helsinki-warehouse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-warehouse-api-openapi.yml
+- filename: university-of-helsinki-group-api-openapi.yml
+  format: yaml
+  label: University of Helsinki Group API
+  slug: university-of-helsinki-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-group-api-openapi.yml
+- filename: university-of-helsinki-groupnames-api-openapi.yml
+  format: yaml
+  label: University of Helsinki Groupnames API
+  slug: university-of-helsinki-groupnames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-groupnames-api-openapi.yml
+- filename: university-of-helsinki-groups-api-openapi.yml
+  format: yaml
+  label: University of Helsinki Groups API
+  slug: university-of-helsinki-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-groups-api-openapi.yml
+- filename: university-of-helsinki-steeringgroupspeople-api-openapi.yml
+  format: yaml
+  label: University of Helsinki Steeringgroupspeople API
+  slug: university-of-helsinki-steeringgroupspeople-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/openapi/university-of-helsinki-steeringgroupspeople-api-openapi.yml
 - filename: university-of-helsinki-human-resources-api-openapi.yml
   format: yaml
   label: University of Helsinki Human Resources API

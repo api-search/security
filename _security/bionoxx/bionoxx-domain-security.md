@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Biotechnology
-- MolecularDiagnostics
+- Molecular Diagnostics
 - Bioinformatics
-- HealthTech
+- Health Tech
 ---

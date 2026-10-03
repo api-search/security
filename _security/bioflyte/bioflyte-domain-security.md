@@ -12,18 +12,6 @@ api_specs:
   slug: bioflyte-client-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-client-api-openapi.yml
-- filename: bioflyte-comments-api-openapi.yml
-  format: yaml
-  label: BioFlyte Comments API
-  slug: bioflyte-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-comments-api-openapi.yml
-- filename: bioflyte-discovery-api-openapi.yml
-  format: yaml
-  label: BioFlyte Discovery API
-  slug: bioflyte-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-discovery-api-openapi.yml
 - filename: bioflyte-files-api-openapi.yml
   format: yaml
   label: BioFlyte Files API
@@ -42,84 +30,30 @@ api_specs:
   slug: bioflyte-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-locations-api-openapi.yml
-- filename: bioflyte-media-api-openapi.yml
-  format: yaml
-  label: BioFlyte Media API
-  slug: bioflyte-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-media-api-openapi.yml
 - filename: bioflyte-organization-api-openapi.yml
   format: yaml
   label: BioFlyte Organization API
   slug: bioflyte-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-organization-api-openapi.yml
-- filename: bioflyte-pages-api-openapi.yml
-  format: yaml
-  label: BioFlyte Pages API
-  slug: bioflyte-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-pages-api-openapi.yml
 - filename: bioflyte-permissions-api-openapi.yml
   format: yaml
   label: BioFlyte Permissions API
   slug: bioflyte-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-permissions-api-openapi.yml
-- filename: bioflyte-press-releases-api-openapi.yml
-  format: yaml
-  label: BioFlyte Press Releases API
-  slug: bioflyte-press-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-press-releases-api-openapi.yml
-- filename: bioflyte-projects-api-openapi.yml
-  format: yaml
-  label: BioFlyte Projects API
-  slug: bioflyte-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-projects-api-openapi.yml
 - filename: bioflyte-requesthelp-api-openapi.yml
   format: yaml
   label: BioFlyte Request Help API
   slug: bioflyte-requesthelp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-requesthelp-api-openapi.yml
-- filename: bioflyte-resources-api-openapi.yml
-  format: yaml
-  label: BioFlyte Resources API
-  slug: bioflyte-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-resources-api-openapi.yml
-- filename: bioflyte-search-api-openapi.yml
-  format: yaml
-  label: BioFlyte Search API
-  slug: bioflyte-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-search-api-openapi.yml
-- filename: bioflyte-settings-api-openapi.yml
-  format: yaml
-  label: BioFlyte Settings API
-  slug: bioflyte-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-settings-api-openapi.yml
-- filename: bioflyte-taxonomy-api-openapi.yml
-  format: yaml
-  label: BioFlyte Taxonomy API
-  slug: bioflyte-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-taxonomy-api-openapi.yml
 - filename: bioflyte-test-api-openapi.yml
   format: yaml
   label: BioFlyte Test API
   slug: bioflyte-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-test-api-openapi.yml
-- filename: bioflyte-users-api-openapi.yml
-  format: yaml
-  label: BioFlyte Users API
-  slug: bioflyte-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

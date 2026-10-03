@@ -35,6 +35,5 @@ tags:
 - Design
 - Software
 - Video
-- Startups
 - Consumer
 ---

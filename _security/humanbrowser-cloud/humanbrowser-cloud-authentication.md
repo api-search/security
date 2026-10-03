@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
-- filename: humanbrowser-cloud-openapi.json
-  format: json
-  label: Human Browser API
-  slug: human-browser-api
+- filename: humanbrowser-cloud-account-api-openapi.yml
+  format: yaml
+  label: Virix Labs Account API
+  slug: humanbrowser-cloud-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-account-api-openapi.yml
+- filename: humanbrowser-cloud-session-api-openapi.yml
+  format: yaml
+  label: Virix Labs Session API
+  slug: humanbrowser-cloud-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-session-api-openapi.yml
 auth_types:
 - http
 - apiKey

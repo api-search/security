@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: esios-red-electrica-archive-openapi-generated.yml
+- filename: esios-red-electrica-archives-api-openapi.yml
   format: yaml
-  label: Red Electrica (e-sios) archive API
-  slug: archive-api
+  label: Red Electrica (e-sios) Archives API
+  slug: esios-red-electrica-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/_ae-authored/esios-red-electrica-archive-openapi-generated.yml
-- filename: esios-red-electrica-content-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-archives-api-openapi.yml
+- filename: esios-red-electrica-calculator-data-api-openapi.yml
   format: yaml
-  label: Red Electrica (e-sios) content API
-  slug: content-api
+  label: Red Electrica (e-sios) Calculator Data API
+  slug: esios-red-electrica-calculator-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/_ae-authored/esios-red-electrica-content-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-calculator-data-api-openapi.yml
+- filename: esios-red-electrica-contents-api-openapi.yml
+  format: yaml
+  label: Red Electrica (e-sios) Contents API
+  slug: esios-red-electrica-contents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-contents-api-openapi.yml
+- filename: esios-red-electrica-es-api-openapi.yml
+  format: yaml
+  label: Red Electrica (e-sios) Es API
+  slug: esios-red-electrica-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esios-red-electrica/refs/heads/main/openapi/esios-red-electrica-es-api-openapi.yml
 description: ''
 domains:
 - caa: []

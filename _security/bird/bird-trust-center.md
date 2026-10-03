@@ -54,6 +54,300 @@ api_specs:
   slug: bird-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-numbers-api-openapi.yml
+- filename: bird-available-numbers-api-openapi.yml
+  format: yaml
+  label: Bird Available Numbers API
+  slug: bird-available-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-available-numbers-api-openapi.yml
+- filename: bird-balance-api-openapi.yml
+  format: yaml
+  label: Bird Balance API
+  slug: bird-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-balance-api-openapi.yml
+- filename: bird-call-flows-api-openapi.yml
+  format: yaml
+  label: Bird Call Flows API
+  slug: bird-call-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-call-flows-api-openapi.yml
+- filename: bird-calls-api-openapi.yml
+  format: yaml
+  label: Bird Calls API
+  slug: bird-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-calls-api-openapi.yml
+- filename: bird-docs-api-openapi.yml
+  format: yaml
+  label: Bird Docs API
+  slug: bird-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-docs-api-openapi.yml
+- filename: bird-domains-api-openapi.yml
+  format: yaml
+  label: Bird Domains API
+  slug: bird-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-domains-api-openapi.yml
+- filename: bird-email-audiences-api-openapi.yml
+  format: yaml
+  label: Bird Email Audiences API
+  slug: bird-email-audiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-audiences-api-openapi.yml
+- filename: bird-email-broadcasts-api-openapi.yml
+  format: yaml
+  label: Bird Email Broadcasts API
+  slug: bird-email-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-broadcasts-api-openapi.yml
+- filename: bird-email-competitive-api-openapi.yml
+  format: yaml
+  label: Bird Email Competitive API
+  slug: bird-email-competitive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-competitive-api-openapi.yml
+- filename: bird-email-contacts-api-openapi.yml
+  format: yaml
+  label: Bird Email Contacts API
+  slug: bird-email-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-contacts-api-openapi.yml
+- filename: bird-email-inbound-addresses-api-openapi.yml
+  format: yaml
+  label: Bird Email Inbound Addresses API
+  slug: bird-email-inbound-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-inbound-addresses-api-openapi.yml
+- filename: bird-email-inbound-messages-api-openapi.yml
+  format: yaml
+  label: Bird Email Inbound Messages API
+  slug: bird-email-inbound-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-inbound-messages-api-openapi.yml
+- filename: bird-email-inbound-routes-api-openapi.yml
+  format: yaml
+  label: Bird Email Inbound Routes API
+  slug: bird-email-inbound-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-inbound-routes-api-openapi.yml
+- filename: bird-email-inbox-insights-api-openapi.yml
+  format: yaml
+  label: Bird Email Inbox Insights API
+  slug: bird-email-inbox-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-inbox-insights-api-openapi.yml
+- filename: bird-email-mailboxes-api-openapi.yml
+  format: yaml
+  label: Bird Email Mailboxes API
+  slug: bird-email-mailboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-mailboxes-api-openapi.yml
+- filename: bird-email-messages-api-openapi.yml
+  format: yaml
+  label: Bird Email Messages API
+  slug: bird-email-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-messages-api-openapi.yml
+- filename: bird-email-smtp-configs-api-openapi.yml
+  format: yaml
+  label: Bird Email Smtp Configs API
+  slug: bird-email-smtp-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-smtp-configs-api-openapi.yml
+- filename: bird-email-stats-api-openapi.yml
+  format: yaml
+  label: Bird Email Stats API
+  slug: bird-email-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-stats-api-openapi.yml
+- filename: bird-email-suppressions-api-openapi.yml
+  format: yaml
+  label: Bird Email Suppressions API
+  slug: bird-email-suppressions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-suppressions-api-openapi.yml
+- filename: bird-email-templates-api-openapi.yml
+  format: yaml
+  label: Bird Email Templates API
+  slug: bird-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-templates-api-openapi.yml
+- filename: bird-email-threads-api-openapi.yml
+  format: yaml
+  label: Bird Email Threads API
+  slug: bird-email-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-email-threads-api-openapi.yml
+- filename: bird-groups-api-openapi.yml
+  format: yaml
+  label: Bird Groups API
+  slug: bird-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-groups-api-openapi.yml
+- filename: bird-hlr-api-openapi.yml
+  format: yaml
+  label: Bird HLR API
+  slug: bird-hlr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-hlr-api-openapi.yml
+- filename: bird-legs-api-openapi.yml
+  format: yaml
+  label: Bird Legs API
+  slug: bird-legs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-legs-api-openapi.yml
+- filename: bird-lookup-api-openapi.yml
+  format: yaml
+  label: Bird Lookup API
+  slug: bird-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-lookup-api-openapi.yml
+- filename: bird-preferences-api-openapi.yml
+  format: yaml
+  label: Bird Preferences API
+  slug: bird-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-preferences-api-openapi.yml
+- filename: bird-purchased-numbers-api-openapi.yml
+  format: yaml
+  label: Bird Purchased Numbers API
+  slug: bird-purchased-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-purchased-numbers-api-openapi.yml
+- filename: bird-realtime-apps-api-openapi.yml
+  format: yaml
+  label: Bird Realtime Apps API
+  slug: bird-realtime-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-realtime-apps-api-openapi.yml
+- filename: bird-realtime-events-api-openapi.yml
+  format: yaml
+  label: Bird Realtime Events API
+  slug: bird-realtime-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-realtime-events-api-openapi.yml
+- filename: bird-recordings-api-openapi.yml
+  format: yaml
+  label: Bird Recordings API
+  slug: bird-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-recordings-api-openapi.yml
+- filename: bird-sms-keyword-rules-api-openapi.yml
+  format: yaml
+  label: Bird Sms Keyword Rules API
+  slug: bird-sms-keyword-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-sms-keyword-rules-api-openapi.yml
+- filename: bird-sms-messages-api-openapi.yml
+  format: yaml
+  label: Bird Sms Messages API
+  slug: bird-sms-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-sms-messages-api-openapi.yml
+- filename: bird-sms-stats-api-openapi.yml
+  format: yaml
+  label: Bird Sms Stats API
+  slug: bird-sms-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-sms-stats-api-openapi.yml
+- filename: bird-sms-suppressions-api-openapi.yml
+  format: yaml
+  label: Bird Sms Suppressions API
+  slug: bird-sms-suppressions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-sms-suppressions-api-openapi.yml
+- filename: bird-sms-templates-api-openapi.yml
+  format: yaml
+  label: Bird Sms Templates API
+  slug: bird-sms-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-sms-templates-api-openapi.yml
+- filename: bird-templates-api-openapi.yml
+  format: yaml
+  label: Bird Templates API
+  slug: bird-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-templates-api-openapi.yml
+- filename: bird-transcriptions-api-openapi.yml
+  format: yaml
+  label: Bird Transcriptions API
+  slug: bird-transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-transcriptions-api-openapi.yml
+- filename: bird-verify-api-openapi.yml
+  format: yaml
+  label: Bird Verify API
+  slug: bird-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-verify-api-openapi.yml
+- filename: bird-verify-verifications-api-openapi.yml
+  format: yaml
+  label: Bird Verify Verifications API
+  slug: bird-verify-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-verify-verifications-api-openapi.yml
+- filename: bird-voice-calls-api-openapi.yml
+  format: yaml
+  label: Bird Voice Calls API
+  slug: bird-voice-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-voice-calls-api-openapi.yml
+- filename: bird-voice-messages-api-openapi.yml
+  format: yaml
+  label: Bird Voice Messages API
+  slug: bird-voice-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-voice-messages-api-openapi.yml
+- filename: bird-webhooks-api-openapi.yml
+  format: yaml
+  label: Bird Webhooks API
+  slug: bird-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-webhooks-api-openapi.yml
+- filename: bird-whatsapp-business-accounts-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Business Accounts API
+  slug: bird-whatsapp-business-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-whatsapp-business-accounts-api-openapi.yml
+- filename: bird-whatsapp-keyword-rules-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Keyword Rules API
+  slug: bird-whatsapp-keyword-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-whatsapp-keyword-rules-api-openapi.yml
+- filename: bird-whatsapp-messages-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Messages API
+  slug: bird-whatsapp-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-whatsapp-messages-api-openapi.yml
+- filename: bird-whatsapp-numbers-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Numbers API
+  slug: bird-whatsapp-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-whatsapp-numbers-api-openapi.yml
+- filename: bird-whatsapp-stats-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Stats API
+  slug: bird-whatsapp-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-whatsapp-stats-api-openapi.yml
+- filename: bird-whatsapp-templates-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Templates API
+  slug: bird-whatsapp-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-whatsapp-templates-api-openapi.yml
+- filename: bird-workspaces-api-openapi.yml
+  format: yaml
+  label: Bird Workspaces API
+  slug: bird-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-workspaces-api-openapi.yml
 - filename: bird-language-detection-api-openapi.yml
   format: yaml
   label: Bird Language Detection API
@@ -66,108 +360,6 @@ api_specs:
   slug: bird-named-entity-recognition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/bird-named-entity-recognition-api-openapi.yml
-- filename: messagebird-bird-api-openapi.yml
-  format: yaml
-  label: Bird API
-  slug: bird-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-bird-api-openapi.yml
-- filename: messagebird-available-numbers-api-openapi.yml
-  format: yaml
-  label: messagebird Available Numbers API
-  slug: messagebird-available-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-available-numbers-api-openapi.yml
-- filename: messagebird-balance-api-openapi.yml
-  format: yaml
-  label: messagebird Balance API
-  slug: messagebird-balance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-balance-api-openapi.yml
-- filename: messagebird-call-flows-api-openapi.yml
-  format: yaml
-  label: messagebird Call Flows API
-  slug: messagebird-call-flows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-call-flows-api-openapi.yml
-- filename: messagebird-calls-api-openapi.yml
-  format: yaml
-  label: messagebird Calls API
-  slug: messagebird-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-calls-api-openapi.yml
-- filename: messagebird-contacts-api-openapi.yml
-  format: yaml
-  label: messagebird Contacts API
-  slug: messagebird-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-contacts-api-openapi.yml
-- filename: messagebird-conversations-api-openapi.yml
-  format: yaml
-  label: messagebird Conversations API
-  slug: messagebird-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-conversations-api-openapi.yml
-- filename: messagebird-groups-api-openapi.yml
-  format: yaml
-  label: messagebird Groups API
-  slug: messagebird-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-groups-api-openapi.yml
-- filename: messagebird-hlr-api-openapi.yml
-  format: yaml
-  label: messagebird HLR API
-  slug: messagebird-hlr-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-hlr-api-openapi.yml
-- filename: messagebird-legs-api-openapi.yml
-  format: yaml
-  label: messagebird Legs API
-  slug: messagebird-legs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-legs-api-openapi.yml
-- filename: messagebird-purchased-numbers-api-openapi.yml
-  format: yaml
-  label: messagebird Purchased Numbers API
-  slug: messagebird-purchased-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-purchased-numbers-api-openapi.yml
-- filename: messagebird-recordings-api-openapi.yml
-  format: yaml
-  label: messagebird Recordings API
-  slug: messagebird-recordings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-recordings-api-openapi.yml
-- filename: messagebird-templates-api-openapi.yml
-  format: yaml
-  label: messagebird Templates API
-  slug: messagebird-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-templates-api-openapi.yml
-- filename: messagebird-transcriptions-api-openapi.yml
-  format: yaml
-  label: messagebird Transcriptions API
-  slug: messagebird-transcriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-transcriptions-api-openapi.yml
-- filename: messagebird-verify-api-openapi.yml
-  format: yaml
-  label: messagebird Verify API
-  slug: messagebird-verify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-verify-api-openapi.yml
-- filename: messagebird-voice-messages-api-openapi.yml
-  format: yaml
-  label: messagebird Voice Messages API
-  slug: messagebird-voice-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-voice-messages-api-openapi.yml
-- filename: messagebird-webhooks-api-openapi.yml
-  format: yaml
-  label: messagebird Webhooks API
-  slug: messagebird-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/openapi/messagebird-webhooks-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyware-roboti
 summary_line: TLSv1.3 · DMARC
 tags:
 - Robotics
-- AI
+- Artificial Intelligence
 - Industrial Automation
 - Deployable Robots
 - Manufacturing

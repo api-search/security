@@ -615,12 +615,6 @@ api_specs:
   slug: canonical-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-users-api-openapi.yml
-- filename: canonical-v1-api-openapi.yml
-  format: yaml
-  label: Canonical V1 API
-  slug: canonical-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-v1-api-openapi.yml
 - filename: canonical-version-api-openapi.yml
   format: yaml
   label: Canonical Version API
@@ -633,6 +627,60 @@ api_specs:
   slug: canonical-warnings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-warnings-api-openapi.yml
+- filename: canonical-agents-api-openapi.yml
+  format: yaml
+  label: Canonical Agents API
+  slug: canonical-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-agents-api-openapi.yml
+- filename: canonical-client-permissions-api-openapi.yml
+  format: yaml
+  label: Canonical Client Permissions API
+  slug: canonical-client-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-client-permissions-api-openapi.yml
+- filename: canonical-job-api-openapi.yml
+  format: yaml
+  label: Canonical Job API
+  slug: canonical-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-job-api-openapi.yml
+- filename: canonical-oauth2-api-openapi.yml
+  format: yaml
+  label: Canonical Oauth2 API
+  slug: canonical-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-oauth2-api-openapi.yml
+- filename: canonical-queues-api-openapi.yml
+  format: yaml
+  label: Canonical Queues API
+  slug: canonical-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-queues-api-openapi.yml
+- filename: canonical-restricted-queues-api-openapi.yml
+  format: yaml
+  label: Canonical Restricted Queues API
+  slug: canonical-restricted-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-restricted-queues-api-openapi.yml
+- filename: canonical-result-api-openapi.yml
+  format: yaml
+  label: Canonical Result API
+  slug: canonical-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-result-api-openapi.yml
+- filename: canonical-secrets-api-openapi.yml
+  format: yaml
+  label: Canonical Secrets API
+  slug: canonical-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-secrets-api-openapi.yml
+- filename: canonical-testflinger-api-api-openapi.yml
+  format: yaml
+  label: Canonical Testflinger API
+  slug: canonical-testflinger-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-testflinger-api-api-openapi.yml
 - filename: canonical-add-ons-api-openapi.yml
   format: yaml
   label: Canonical Add Ons API

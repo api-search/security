@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentpay/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - Extraction
 - Lookup
 - Tools

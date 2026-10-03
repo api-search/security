@@ -36,18 +36,60 @@ api_specs:
   slug: edf-energy-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-query-api-openapi.yml
-- filename: edf-energy-v1-api-openapi.yml
+- filename: edf-energy-accounts-api-openapi.yml
   format: yaml
-  label: EDF Energy V1 API
-  slug: edf-energy-v1-api
+  label: EDF Energy Accounts API
+  slug: edf-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v1-api-openapi.yml
-- filename: edf-energy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-accounts-api-openapi.yml
+- filename: edf-energy-electricity-meter-points-api-openapi.yml
   format: yaml
-  label: EDF Energy V2 API
-  slug: edf-energy-v2-api
+  label: EDF Energy Electricity Meter Points API
+  slug: edf-energy-electricity-meter-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-electricity-meter-points-api-openapi.yml
+- filename: edf-energy-gas-meter-points-api-openapi.yml
+  format: yaml
+  label: EDF Energy Gas Meter Points API
+  slug: edf-energy-gas-meter-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-gas-meter-points-api-openapi.yml
+- filename: edf-energy-industry-api-openapi.yml
+  format: yaml
+  label: EDF Energy Industry API
+  slug: edf-energy-industry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-industry-api-openapi.yml
+- filename: edf-energy-orders-api-openapi.yml
+  format: yaml
+  label: EDF Energy Orders API
+  slug: edf-energy-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-orders-api-openapi.yml
+- filename: edf-energy-payment-intents-api-openapi.yml
+  format: yaml
+  label: EDF Energy Payment Intents API
+  slug: edf-energy-payment-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-payment-intents-api-openapi.yml
+- filename: edf-energy-products-api-openapi.yml
+  format: yaml
+  label: EDF Energy Products API
+  slug: edf-energy-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-products-api-openapi.yml
+- filename: edf-energy-quotes-api-openapi.yml
+  format: yaml
+  label: EDF Energy Quotes API
+  slug: edf-energy-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-quotes-api-openapi.yml
+- filename: edf-energy-voice-api-openapi.yml
+  format: yaml
+  label: EDF Energy Voice API
+  slug: edf-energy-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-voice-api-openapi.yml
 description: ''
 domains:
 - caa:

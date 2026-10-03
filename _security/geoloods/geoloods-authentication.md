@@ -4,12 +4,42 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: geoloods-openapi.json
-  format: json
-  label: Geoloods API
-  slug: geoloods-api
+- filename: geoloods-agent-api-openapi.yml
+  format: yaml
+  label: Geoloods Agent API
+  slug: geoloods-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-agent-api-openapi.yml
+- filename: geoloods-bbox-api-openapi.yml
+  format: yaml
+  label: Geoloods Bbox API
+  slug: geoloods-bbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-bbox-api-openapi.yml
+- filename: geoloods-countries-api-openapi.yml
+  format: yaml
+  label: Geoloods Countries API
+  slug: geoloods-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-countries-api-openapi.yml
+- filename: geoloods-geocode-api-openapi.yml
+  format: yaml
+  label: Geoloods Geocode API
+  slug: geoloods-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-geocode-api-openapi.yml
+- filename: geoloods-nearby-api-openapi.yml
+  format: yaml
+  label: Geoloods Nearby API
+  slug: geoloods-nearby-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-nearby-api-openapi.yml
+- filename: geoloods-search-api-openapi.yml
+  format: yaml
+  label: Geoloods Search API
+  slug: geoloods-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoloods/refs/heads/main/openapi/geoloods-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

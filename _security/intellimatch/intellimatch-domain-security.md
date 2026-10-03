@@ -39,6 +39,6 @@ tags:
 - Exception Management
 - Banking
 - Treasury
-- Swift
+- SWIFT
 - Data Integrity
 ---

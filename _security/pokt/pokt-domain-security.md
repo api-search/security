@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: pokt-api-api-openapi.yml
-  format: yaml
-  label: Pocket Network API
-  slug: pokt-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-api-api-openapi.yml
 - filename: pokt-msg-api-openapi.yml
   format: yaml
   label: Pocket Network Msg API
@@ -18,6 +12,24 @@ api_specs:
   slug: pokt-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-query-api-openapi.yml
+- filename: pokt-disqualified-endpoints-api-openapi.yml
+  format: yaml
+  label: Pocket Network Disqualified Endpoints API
+  slug: pokt-disqualified-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-disqualified-endpoints-api-openapi.yml
+- filename: pokt-healthz-api-openapi.yml
+  format: yaml
+  label: Pocket Network Healthz API
+  slug: pokt-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-healthz-api-openapi.yml
+- filename: pokt-path-path-api-toolkit-harness-api-openapi.yml
+  format: yaml
+  label: Pocket Network PATH Path API & Toolkit Harness API
+  slug: pokt-path-path-api-toolkit-harness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-path-path-api-toolkit-harness-api-openapi.yml
 description: ''
 domains:
 - caa: []

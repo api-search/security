@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: atomtickets-openapi-generated.yml
+- filename: atomtickets-partner-api-openapi.yml
   format: yaml
-  label: Atomtickets API
-  slug: atomtickets-api
+  label: Atomtickets Partner API
+  slug: atomtickets-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomtickets/refs/heads/main/openapi/_ae-authored/atomtickets-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atomtickets/refs/heads/main/openapi/atomtickets-partner-api-openapi.yml
+- filename: atomtickets-partner-api-openapi.yml
+  format: yaml
+  label: Atomtickets Partner API
+  slug: atomtickets-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atomtickets/refs/heads/main/openapi/atomtickets-partner-api-openapi.yml
+- filename: atomtickets-ping-api-openapi.yml
+  format: yaml
+  label: Atomtickets Ping API
+  slug: atomtickets-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atomtickets/refs/heads/main/openapi/atomtickets-ping-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +52,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ticketing
-- Events
-- API
+- Event
 - Payments
 ---

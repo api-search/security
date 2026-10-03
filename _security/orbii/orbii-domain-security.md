@@ -90,102 +90,96 @@ api_specs:
   slug: orbii-pdfs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-pdfs-api-openapi.yml
-- filename: orbii-tech-ltd-micro-loan-api-openapi.yml
+- filename: orbii-micro-loan-api-openapi.yml
   format: yaml
   label: Orbii Micro Loan API
-  slug: orbii-tech-ltd-micro-loan-api
+  slug: orbii-micro-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-micro-loan-api-openapi.yml
-- filename: orbii-tech-ltd-raw-numbers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-micro-loan-api-openapi.yml
+- filename: orbii-raw-numbers-api-openapi.yml
   format: yaml
   label: Orbii Raw Numbers API
-  slug: orbii-tech-ltd-raw-numbers-api
+  slug: orbii-raw-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-raw-numbers-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-baseline-eligibility-raw-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-raw-numbers-api-openapi.yml
+- filename: orbii-rewaa-baseline-eligibility-raw-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Baseline Eligibility Raw API
-  slug: orbii-tech-ltd-rewaa-baseline-eligibility-raw-api
+  slug: orbii-rewaa-baseline-eligibility-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-baseline-eligibility-raw-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-business-stability-and-risk-raw-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-baseline-eligibility-raw-api-openapi.yml
+- filename: orbii-rewaa-business-stability-and-risk-raw-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Business Stability And Risk Raw API
-  slug: orbii-tech-ltd-rewaa-business-stability-and-risk-raw-api
+  slug: orbii-rewaa-business-stability-and-risk-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-business-stability-and-risk-raw-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-final-band-classification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-business-stability-and-risk-raw-api-openapi.yml
+- filename: orbii-rewaa-final-band-classification-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Final Band Classification API
-  slug: orbii-tech-ltd-rewaa-final-band-classification-api
+  slug: orbii-rewaa-final-band-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-final-band-classification-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-industry-and-seasonal-trends-raw-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-final-band-classification-api-openapi.yml
+- filename: orbii-rewaa-industry-and-seasonal-trends-raw-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Industry And Seasonal Trends Raw API
-  slug: orbii-tech-ltd-rewaa-industry-and-seasonal-trends-raw-api
+  slug: orbii-rewaa-industry-and-seasonal-trends-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-industry-and-seasonal-trends-raw-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-kpi-rules-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-industry-and-seasonal-trends-raw-api-openapi.yml
+- filename: orbii-rewaa-kpi-rules-api-openapi.yml
   format: yaml
   label: Orbii Rewaa KPI Rules API
-  slug: orbii-tech-ltd-rewaa-kpi-rules-api
+  slug: orbii-rewaa-kpi-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-kpi-rules-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-loan-amounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-kpi-rules-api-openapi.yml
+- filename: orbii-rewaa-loan-amounts-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Loan Amounts API
-  slug: orbii-tech-ltd-rewaa-loan-amounts-api
+  slug: orbii-rewaa-loan-amounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-loan-amounts-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-payment-processing-and-liquidity-raw-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-loan-amounts-api-openapi.yml
+- filename: orbii-rewaa-payment-processing-and-liquidity-raw-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Payment Processing And Liquidity Raw API
-  slug: orbii-tech-ltd-rewaa-payment-processing-and-liquidity-raw-api
+  slug: orbii-rewaa-payment-processing-and-liquidity-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-payment-processing-and-liquidity-raw-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-revenue-and-sales-performance-raw-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-payment-processing-and-liquidity-raw-api-openapi.yml
+- filename: orbii-rewaa-revenue-and-sales-performance-raw-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Revenue And Sales Performance Raw API
-  slug: orbii-tech-ltd-rewaa-revenue-and-sales-performance-raw-api
+  slug: orbii-rewaa-revenue-and-sales-performance-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-revenue-and-sales-performance-raw-api-openapi.yml
-- filename: orbii-tech-ltd-rewaa-risk-assessment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-revenue-and-sales-performance-raw-api-openapi.yml
+- filename: orbii-rewaa-risk-assessment-api-openapi.yml
   format: yaml
   label: Orbii Rewaa Risk Assessment API
-  slug: orbii-tech-ltd-rewaa-risk-assessment-api
+  slug: orbii-rewaa-risk-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-rewaa-risk-assessment-api-openapi.yml
-- filename: orbii-tech-ltd-risk-assessment-api-openapi.yml
-  format: yaml
-  label: Orbii Micro Loan Risk Assessment API
-  slug: orbii-tech-ltd-risk-assessment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-risk-assessment-api-openapi.yml
-- filename: orbii-tech-ltd-run-assessment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-rewaa-risk-assessment-api-openapi.yml
+- filename: orbii-run-assessment-api-openapi.yml
   format: yaml
   label: Orbii Run Assessment API
-  slug: orbii-tech-ltd-run-assessment-api
+  slug: orbii-run-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-run-assessment-api-openapi.yml
-- filename: orbii-tech-ltd-scores-and-final-band-classification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-run-assessment-api-openapi.yml
+- filename: orbii-scores-and-final-band-classification-api-openapi.yml
   format: yaml
   label: Orbii Scores and Final Band Classification API
-  slug: orbii-tech-ltd-scores-and-final-band-classification-api
+  slug: orbii-scores-and-final-band-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-scores-and-final-band-classification-api-openapi.yml
-- filename: orbii-tech-ltd-updatekpirules-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-scores-and-final-band-classification-api-openapi.yml
+- filename: orbii-updatekpirules-api-openapi.yml
   format: yaml
-  label: Orbii UpdateKpiRules API
-  slug: orbii-tech-ltd-updatekpirules-api
+  label: Orbii Update Kpi Rules API
+  slug: orbii-updatekpirules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-updatekpirules-api-openapi.yml
-- filename: orbii-tech-ltd-zipped-csv-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-updatekpirules-api-openapi.yml
+- filename: orbii-zipped-csv-upload-api-openapi.yml
   format: yaml
   label: Orbii Zipped Csv Upload API
-  slug: orbii-tech-ltd-zipped-csv-upload-api
+  slug: orbii-zipped-csv-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-tech-ltd-zipped-csv-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/openapi/orbii-zipped-csv-upload-api-openapi.yml
 description: ''
 domains:
 - caa: []

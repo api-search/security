@@ -54,6 +54,6 @@ tags:
 - Education
 - Health
 - OpenAPI
-- PublicAPI
+- Public APIs
 - Free
 ---

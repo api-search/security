@@ -9,12 +9,6 @@ api_specs:
   slug: karrio-addresses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-addresses-api-openapi.yml
-- filename: karrio-api-api-openapi.yml
-  format: yaml
-  label: Karrio API
-  slug: karrio-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-api-api-openapi.yml
 - filename: karrio-auth-api-openapi.yml
   format: yaml
   label: Karrio Auth API
@@ -99,6 +93,18 @@ api_specs:
   slug: karrio-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-webhooks-api-openapi.yml
+- filename: karrio-karrio-api-api-openapi.yml
+  format: yaml
+  label: Karrio Karrio API
+  slug: karrio-karrio-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-karrio-api-api-openapi.yml
+- filename: karrio-references-api-openapi.yml
+  format: yaml
+  label: Karrio References API
+  slug: karrio-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-references-api-openapi.yml
 auth_types:
 - apiKey
 - http

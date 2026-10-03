@@ -39,5 +39,4 @@ tags:
 - Low-Code
 - LLM
 - Y Combinator
-- Startups
 ---

@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: apis-io-v1-prices-openapi.yml
-  format: yaml
-  label: APIs.io Prices API
-  slug: apis-io-prices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/_original/apis-io-v1-prices-openapi.yml
 - filename: apis-io-submit-api-openapi.yml
   format: yaml
   label: APIs.io Submit API
@@ -129,6 +123,12 @@ api_specs:
   slug: apis-io-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
+- filename: apis-io-prices-api-openapi.yml
+  format: yaml
+  label: APIs.io Prices API
+  slug: apis-io-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-prices-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

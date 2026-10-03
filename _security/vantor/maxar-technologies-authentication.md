@@ -3,150 +3,150 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: maxar-technologies-accounts-api-openapi.yml
+- filename: vantor-accounts-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Accounts API
-  slug: maxar-technologies-accounts-api
+  label: Vantor Accounts API
+  slug: vantor-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-accounts-api-openapi.yml
-- filename: maxar-technologies-api-keys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-accounts-api-openapi.yml
+- filename: vantor-api-keys-api-openapi.yml
   format: yaml
-  label: Maxar Technologies API Keys API
-  slug: maxar-technologies-api-keys-api
+  label: Vantor API Keys API
+  slug: vantor-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-api-keys-api-openapi.yml
-- filename: maxar-technologies-collections-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-api-keys-api-openapi.yml
+- filename: vantor-authentication-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Collections API
-  slug: maxar-technologies-collections-api
+  label: Vantor Authentication API
+  slug: vantor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-collections-api-openapi.yml
-- filename: maxar-technologies-credits-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-authentication-api-openapi.yml
+- filename: vantor-collections-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Credits API
-  slug: maxar-technologies-credits-api
+  label: Vantor Collections API
+  slug: vantor-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-credits-api-openapi.yml
-- filename: maxar-technologies-deliveries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-collections-api-openapi.yml
+- filename: vantor-credits-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Deliveries API
-  slug: maxar-technologies-deliveries-api
+  label: Vantor Credits API
+  slug: vantor-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-deliveries-api-openapi.yml
-- filename: maxar-technologies-estimates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-credits-api-openapi.yml
+- filename: vantor-deliveries-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Estimates API
-  slug: maxar-technologies-estimates-api
+  label: Vantor Deliveries API
+  slug: vantor-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-estimates-api-openapi.yml
-- filename: maxar-technologies-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-deliveries-api-openapi.yml
+- filename: vantor-discovery-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Events API
-  slug: maxar-technologies-events-api
+  label: Vantor Discovery API
+  slug: vantor-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-events-api-openapi.yml
-- filename: maxar-technologies-feasibility-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-discovery-api-openapi.yml
+- filename: vantor-estimates-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Feasibility API
-  slug: maxar-technologies-feasibility-api
+  label: Vantor Estimates API
+  slug: vantor-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-feasibility-api-openapi.yml
-- filename: maxar-technologies-image-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-estimates-api-openapi.yml
+- filename: vantor-events-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Image API
-  slug: maxar-technologies-image-api
+  label: Vantor Events API
+  slug: vantor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-image-api-openapi.yml
-- filename: maxar-technologies-introspection-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-events-api-openapi.yml
+- filename: vantor-feasibility-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Introspection API
-  slug: maxar-technologies-introspection-api
+  label: Vantor Feasibility API
+  slug: vantor-feasibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-introspection-api-openapi.yml
-- filename: maxar-technologies-items-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-feasibility-api-openapi.yml
+- filename: vantor-image-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Items API
-  slug: maxar-technologies-items-api
+  label: Vantor Image API
+  slug: vantor-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-items-api-openapi.yml
-- filename: maxar-technologies-monitors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-image-api-openapi.yml
+- filename: vantor-introspection-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Monitors API
-  slug: maxar-technologies-monitors-api
+  label: Vantor Introspection API
+  slug: vantor-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-monitors-api-openapi.yml
-- filename: maxar-technologies-orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-introspection-api-openapi.yml
+- filename: vantor-items-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Orders API
-  slug: maxar-technologies-orders-api
+  label: Vantor Items API
+  slug: vantor-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-orders-api-openapi.yml
-- filename: maxar-technologies-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-items-api-openapi.yml
+- filename: vantor-monitors-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Search API
-  slug: maxar-technologies-search-api
+  label: Vantor Monitors API
+  slug: vantor-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-search-api-openapi.yml
-- filename: maxar-technologies-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-monitors-api-openapi.yml
+- filename: vantor-ordering-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Subscriptions API
-  slug: maxar-technologies-subscriptions-api
+  label: Vantor Ordering API
+  slug: vantor-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-subscriptions-api-openapi.yml
-- filename: maxar-technologies-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-ordering-api-openapi.yml
+- filename: vantor-orders-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Tasks API
-  slug: maxar-technologies-tasks-api
+  label: Vantor Orders API
+  slug: vantor-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-tasks-api-openapi.yml
-- filename: maxar-technologies-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-orders-api-openapi.yml
+- filename: vantor-search-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Tokens API
-  slug: maxar-technologies-tokens-api
+  label: Vantor Search API
+  slug: vantor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-tokens-api-openapi.yml
-- filename: maxar-technologies-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-search-api-openapi.yml
+- filename: vantor-subscriptions-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Users API
-  slug: maxar-technologies-users-api
+  label: Vantor Subscriptions API
+  slug: vantor-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-users-api-openapi.yml
-- filename: maxar-technologies-wfs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-subscriptions-api-openapi.yml
+- filename: vantor-tasks-api-openapi.yml
   format: yaml
-  label: Maxar Technologies WFS API
-  slug: maxar-technologies-wfs-api
+  label: Vantor Tasks API
+  slug: vantor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-wfs-api-openapi.yml
-- filename: maxar-technologies-wms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-tasks-api-openapi.yml
+- filename: vantor-tokens-api-openapi.yml
   format: yaml
-  label: Maxar Technologies WMS API
-  slug: maxar-technologies-wms-api
+  label: Vantor Tokens API
+  slug: vantor-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-wms-api-openapi.yml
-- filename: maxar-technologies-wmts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-tokens-api-openapi.yml
+- filename: vantor-users-api-openapi.yml
   format: yaml
-  label: Maxar Technologies WMTS API
-  slug: maxar-technologies-wmts-api
+  label: Vantor Users API
+  slug: vantor-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-technologies-wmts-api-openapi.yml
-- filename: maxar-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-users-api-openapi.yml
+- filename: vantor-wfs-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Authentication API
-  slug: maxar-authentication-api
+  label: Vantor WFS API
+  slug: vantor-wfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-authentication-api-openapi.yml
-- filename: maxar-discovery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-wfs-api-openapi.yml
+- filename: vantor-wms-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Discovery API
-  slug: maxar-discovery-api
+  label: Vantor WMS API
+  slug: vantor-wms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-discovery-api-openapi.yml
-- filename: maxar-ordering-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-wms-api-openapi.yml
+- filename: vantor-wmts-api-openapi.yml
   format: yaml
-  label: Maxar Technologies Ordering API
-  slug: maxar-ordering-api
+  label: Vantor WMTS API
+  slug: vantor-wmts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/maxar-ordering-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-wmts-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -208,4 +208,5 @@ tags:
 - Lanteris
 - Advent International
 - Private Equity
+- Satellite
 ---

@@ -21,24 +21,18 @@ api_specs:
   slug: esri-routing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-routing-api-openapi.yml
-- filename: esri-arcgis-geocoding-api-openapi.yml
-  format: yaml
-  label: Esri Geocoding API
-  slug: esri-arcgis-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-arcgis-geocoding-api-openapi.yml
-- filename: esri-arcgis-places-api-openapi.yml
+- filename: esri-places-api-openapi.yml
   format: yaml
   label: Esri Places API
-  slug: esri-arcgis-places-api
+  slug: esri-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-arcgis-places-api-openapi.yml
-- filename: esri-arcgis-portal-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-places-api-openapi.yml
+- filename: esri-portal-api-openapi.yml
   format: yaml
   label: Esri Portal API
-  slug: esri-arcgis-portal-api
+  slug: esri-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-arcgis-portal-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-portal-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

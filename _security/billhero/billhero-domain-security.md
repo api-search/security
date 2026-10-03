@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Australia
-- BillManagement
+- Bill Management
 ---

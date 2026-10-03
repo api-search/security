@@ -31,12 +31,12 @@ source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/security/allcloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Managed Services
-- Cloud Platforms
+- Managed Service
+- Cloud_platforms
 - AI Solutions
 - Security
 - Financial Services
 - Manufacturing
 - Retail
-- SaaS
+- Software-as-a-Service
 ---

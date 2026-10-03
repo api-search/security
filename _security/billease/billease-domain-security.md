@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: billease-openapi-generated.yml
+- filename: billease-be-store-admin-api-api-openapi.yml
   format: yaml
-  label: Billease API
-  slug: billease-api
+  label: Billease Be Store Admin API
+  slug: billease-be-store-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/_ae-authored/billease-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-be-store-admin-api-api-openapi.yml
+- filename: billease-be-transactions-api-api-openapi.yml
+  format: yaml
+  label: Billease Be Transactions API
+  slug: billease-be-transactions-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-be-transactions-api-api-openapi.yml
+- filename: billease-categories-api-openapi.yml
+  format: yaml
+  label: Billease Categories API
+  slug: billease-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-categories-api-openapi.yml
+- filename: billease-products-api-openapi.yml
+  format: yaml
+  label: Billease Products API
+  slug: billease-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-products-api-openapi.yml
+- filename: billease-trx-api-openapi.yml
+  format: yaml
+  label: Billease Trx API
+  slug: billease-trx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billease/refs/heads/main/openapi/billease-trx-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +64,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Philippines
 - Loans
 ---

@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - Oncology
 - Healthcare
-- PrecisionMedicine
+- Precision Medicine
 ---

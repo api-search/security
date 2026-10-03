@@ -34,7 +34,7 @@ tags:
 - Robotics
 - Material Handling
 - Industrial Automation
-- AI
+- Artificial Intelligence
 - Factory Software
 - Robots-as-a-Service
 ---

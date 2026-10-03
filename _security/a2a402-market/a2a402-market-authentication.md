@@ -4,12 +4,78 @@ api_key_in:
 - header
 - cookie
 api_specs:
-- filename: a2a402-market-openapi.yml
+- filename: a2a402-market-agents-api-openapi.yml
   format: yaml
-  label: A2A402 Production Agent Economy API
-  slug: a2a402-production-agent-economy-api
+  label: A2A402 Agents API
+  slug: a2a402-market-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-agents-api-openapi.yml
+- filename: a2a402-market-bids-api-openapi.yml
+  format: yaml
+  label: A2A402 Bids API
+  slug: a2a402-market-bids-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-bids-api-openapi.yml
+- filename: a2a402-market-contracts-api-openapi.yml
+  format: yaml
+  label: A2A402 Contracts API
+  slug: a2a402-market-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-contracts-api-openapi.yml
+- filename: a2a402-market-deliveries-api-openapi.yml
+  format: yaml
+  label: A2A402 Deliveries API
+  slug: a2a402-market-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-deliveries-api-openapi.yml
+- filename: a2a402-market-economy-api-openapi.yml
+  format: yaml
+  label: A2A402 Economy API
+  slug: a2a402-market-economy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-economy-api-openapi.yml
+- filename: a2a402-market-health-api-openapi.yml
+  format: yaml
+  label: A2A402 Health API
+  slug: a2a402-market-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-health-api-openapi.yml
+- filename: a2a402-market-human-api-openapi.yml
+  format: yaml
+  label: A2A402 Human API
+  slug: a2a402-market-human-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-human-api-openapi.yml
+- filename: a2a402-market-jobs-api-openapi.yml
+  format: yaml
+  label: A2A402 Jobs API
+  slug: a2a402-market-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-jobs-api-openapi.yml
+- filename: a2a402-market-lounge-api-openapi.yml
+  format: yaml
+  label: A2A402 Lounge API
+  slug: a2a402-market-lounge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-lounge-api-openapi.yml
+- filename: a2a402-market-need-api-openapi.yml
+  format: yaml
+  label: A2A402 Need API
+  slug: a2a402-market-need-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-need-api-openapi.yml
+- filename: a2a402-market-payments-api-openapi.yml
+  format: yaml
+  label: A2A402 Payments API
+  slug: a2a402-market-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-payments-api-openapi.yml
+- filename: a2a402-market-reputation-api-openapi.yml
+  format: yaml
+  label: A2A402 Reputation API
+  slug: a2a402-market-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-reputation-api-openapi.yml
 auth_types:
 - http
 - apiKey

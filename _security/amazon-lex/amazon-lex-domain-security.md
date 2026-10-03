@@ -1,17 +1,71 @@
 ---
 api_specs:
-- filename: amazon-lex-models-v2-openapi.yml
+- filename: amazon-lex-bots-api-openapi.yml
   format: yaml
   label: Amazon Lex Bots API
   slug: amazon-lex-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-models-v2-openapi.yml
-- filename: amazon-lex-runtime-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
+- filename: amazon-lex-builtins-api-openapi.yml
   format: yaml
-  label: Amazon Lex Runtime V2 API
-  slug: amazon-lex-runtime-v2-api
+  label: Amazon Lex Builtins API
+  slug: amazon-lex-builtins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-runtime-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-builtins-api-openapi.yml
+- filename: amazon-lex-createuploadurl-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Createuploadurl API
+  slug: amazon-lex-createuploadurl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-createuploadurl-api-openapi.yml
+- filename: amazon-lex-exports-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Exports API
+  slug: amazon-lex-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-exports-api-openapi.yml
+- filename: amazon-lex-imports-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Imports API
+  slug: amazon-lex-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-imports-api-openapi.yml
+- filename: amazon-lex-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Policy API
+  slug: amazon-lex-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-policy-api-openapi.yml
+- filename: amazon-lex-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Tags API
+  slug: amazon-lex-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-tags-api-openapi.yml
+- filename: amazon-lex-testexecutions-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Testexecutions API
+  slug: amazon-lex-testexecutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testexecutions-api-openapi.yml
+- filename: amazon-lex-testsetdiscrepancy-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Testsetdiscrepancy API
+  slug: amazon-lex-testsetdiscrepancy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsetdiscrepancy-api-openapi.yml
+- filename: amazon-lex-testsetgenerations-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Testsetgenerations API
+  slug: amazon-lex-testsetgenerations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsetgenerations-api-openapi.yml
+- filename: amazon-lex-testsets-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Testsets API
+  slug: amazon-lex-testsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsets-api-openapi.yml
 description: ''
 domains:
 - caa: []

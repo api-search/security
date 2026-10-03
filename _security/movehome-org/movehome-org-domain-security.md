@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: movehome-org-raia-portal-feed-openapi.yaml
+- filename: movehome-org-branches-api-openapi.yml
   format: yaml
-  label: RAIA Portal Feed API (MoveHome.org implementation)
-  slug: raia-portal-feed-api
+  label: Move Home Organisation CIC Branches API
+  slug: movehome-org-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-raia-portal-feed-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-branches-api-openapi.yml
+- filename: movehome-org-listings-api-openapi.yml
+  format: yaml
+  label: Move Home Organisation CIC Listings API
+  slug: movehome-org-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-listings-api-openapi.yml
+- filename: movehome-org-operational-api-openapi.yml
+  format: yaml
+  label: Move Home Organisation CIC Operational API
+  slug: movehome-org-operational-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-operational-api-openapi.yml
+- filename: movehome-org-products-api-openapi.yml
+  format: yaml
+  label: Move Home Organisation CIC Products API
+  slug: movehome-org-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-products-api-openapi.yml
 description: ''
 domains:
 - caa: []

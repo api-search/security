@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/security/backflip-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - CAD
-- 3DDesign
+- 3D Design
 - Automation
 - Platform
 ---

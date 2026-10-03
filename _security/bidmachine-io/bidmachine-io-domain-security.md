@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: bidmachine-io-placement-management-openapi.yml
+- filename: bidmachine-io-authentication-api-openapi.yml
   format: yaml
-  label: BidMachine Placement Management API
-  slug: bidmachine-placement-management-api
+  label: BidMachine Authentication API
+  slug: bidmachine-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-placement-management-openapi.yml
-- filename: bidmachine-io-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-authentication-api-openapi.yml
+- filename: bidmachine-io-placements-api-openapi.yml
+  format: yaml
+  label: BidMachine Placements API
+  slug: bidmachine-io-placements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-placements-api-openapi.yml
+- filename: bidmachine-io-reporting-api-openapi.yml
   format: yaml
   label: BidMachine Reporting API
-  slug: bidmachine-reporting-api
+  slug: bidmachine-io-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []

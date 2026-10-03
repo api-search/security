@@ -34,6 +34,5 @@ tags:
 - Company
 - Coffee
 - Technology
-- API
-- E‑commerce
+- E-Commerce
 ---

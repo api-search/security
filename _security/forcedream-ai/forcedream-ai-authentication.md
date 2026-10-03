@@ -2,12 +2,30 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: forcedream-ai-openapi.yml
+- filename: forcedream-ai-account-api-openapi.yml
   format: yaml
-  label: ForceDream API
-  slug: forcedream-api
+  label: ForceDream Account API
+  slug: forcedream-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-account-api-openapi.yml
+- filename: forcedream-ai-agents-api-openapi.yml
+  format: yaml
+  label: ForceDream Agents API
+  slug: forcedream-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-agents-api-openapi.yml
+- filename: forcedream-ai-signup-api-openapi.yml
+  format: yaml
+  label: ForceDream Signup API
+  slug: forcedream-ai-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-signup-api-openapi.yml
+- filename: forcedream-ai-workforce-api-openapi.yml
+  format: yaml
+  label: ForceDream Workforce API
+  slug: forcedream-ai-workforce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-workforce-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -34,6 +34,6 @@ tags:
 - Company
 - VideoCollaboration
 - RemoteInspection
-- VirtualTours
-- AI
+- Virtual Tours
+- Artificial Intelligence
 ---

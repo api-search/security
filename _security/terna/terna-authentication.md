@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: terna-openapi-generated.yml
+- filename: terna-fees-api-openapi.yml
   format: yaml
-  label: Terna API
-  slug: terna-api
+  label: Terna Fees API
+  slug: terna-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/_ae-authored/terna-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-fees-api-openapi.yml
+- filename: terna-generation-api-openapi.yml
+  format: yaml
+  label: Terna Generation API
+  slug: terna-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-generation-api-openapi.yml
+- filename: terna-ifees-api-openapi.yml
+  format: yaml
+  label: Terna Ifees API
+  slug: terna-ifees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-ifees-api-openapi.yml
+- filename: terna-load-api-openapi.yml
+  format: yaml
+  label: Terna Load API
+  slug: terna-load-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-load-api-openapi.yml
+- filename: terna-market-api-openapi.yml
+  format: yaml
+  label: Terna Market API
+  slug: terna-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-market-api-openapi.yml
+- filename: terna-public-api-api-openapi.yml
+  format: yaml
+  label: Terna Public API
+  slug: terna-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-public-api-api-openapi.yml
+- filename: terna-transparency-api-openapi.yml
+  format: yaml
+  label: Terna Transparency API
+  slug: terna-transparency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terna/refs/heads/main/openapi/terna-transparency-api-openapi.yml
 auth_types: []
 description: Terna uses OAuth2 client credentials flow to obtain access tokens.
 kind: authentication

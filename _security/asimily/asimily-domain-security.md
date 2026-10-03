@@ -37,6 +37,6 @@ tags:
 - Company
 - IoT
 - Cybersecurity
-- AssetManagement
-- RiskModeling
+- Asset Management
+- Risk Modeling
 ---

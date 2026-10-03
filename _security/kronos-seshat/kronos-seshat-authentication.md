@@ -95,7 +95,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Crypto
 - Financial Forecast
-- API
 - Market Data
 - Auditing
 - Micropayments

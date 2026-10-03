@@ -44,7 +44,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wutwut/refs/he
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Startups
 - Venture Portfolio
 - Slow Ventures
 - Inactive

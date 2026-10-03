@@ -3,12 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: clearspeed-default-api-openapi.yml
+- filename: clearspeed-clearspeed-integration-api-api-openapi.yml
   format: yaml
-  label: Clearspeed Default API
-  slug: clearspeed-default-api
+  label: Clearspeed Clearspeed Integration API
+  slug: clearspeed-clearspeed-integration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-default-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-clearspeed-integration-api-api-openapi.yml
+- filename: clearspeed-participant-api-openapi.yml
+  format: yaml
+  label: Clearspeed Participant API
+  slug: clearspeed-participant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-participant-api-openapi.yml
+- filename: clearspeed-tenants-api-openapi.yml
+  format: yaml
+  label: Clearspeed Tenants API
+  slug: clearspeed-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-tenants-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

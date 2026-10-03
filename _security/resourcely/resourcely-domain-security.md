@@ -28,7 +28,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resourcely/ref
 summary_line: DMARC
 tags:
 - Company
-- Startups
 - Venture Backed
 - a16z
 - Portfolio

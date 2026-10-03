@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avantifinance/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Lending
-- API
 - Data-Driven
 ---

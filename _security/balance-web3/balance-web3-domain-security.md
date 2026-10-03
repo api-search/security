@@ -35,5 +35,4 @@ tags:
 - Blockchain
 - DeFi
 - Web3
-- APIs
 ---

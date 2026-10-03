@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: inoreader-openapi-generated.yml
+- filename: inoreader-accounts-api-openapi.yml
   format: yaml
-  label: Inoreader API
-  slug: inoreader-api
+  label: Inoreader Accounts API
+  slug: inoreader-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/_ae-authored/inoreader-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/inoreader-accounts-api-openapi.yml
+- filename: inoreader-oauth2-api-openapi.yml
+  format: yaml
+  label: Inoreader Oauth2 API
+  slug: inoreader-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/inoreader-oauth2-api-openapi.yml
+- filename: inoreader-reader-api-openapi.yml
+  format: yaml
+  label: Inoreader Reader API
+  slug: inoreader-reader-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/openapi/inoreader-reader-api-openapi.yml
 description: ''
 domains:
 - caa: []

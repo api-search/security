@@ -33,6 +33,6 @@ tags:
 - Company
 - Medical
 - Aesthetic
-- Laser
+- Lasers
 - Manufacturing
 ---

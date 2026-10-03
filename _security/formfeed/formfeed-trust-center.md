@@ -76,10 +76,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - PDF
-- ImageGeneration
+- Image Generation
 - Templates
-- API
-- DeveloperTools
-- SaaS
+- Developer Tools
+- Software-as-a-Service
 trust_url: https://formfeed.dev/security
 ---

@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assiduusglobal/refs/heads/main/security/assiduusglobal-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- ECommerce
-- AI
-- SupplyChain
+- E-Commerce
+- Artificial Intelligence
+- Supply Chain
 - Marketplace
-- BrandProtection
+- Brand Protection
 - GlobalExpansion
 ---

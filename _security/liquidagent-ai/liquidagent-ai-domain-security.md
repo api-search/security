@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: liquidagent-ai-openapi.yml
+- filename: liquidagent-ai-liquid-agent-api-openapi.yml
   format: yaml
-  label: Liquid Agent Tokenized Stock Index and Gas Sponsor API
-  slug: liquid-agent-api
+  label: Liquid Agent Liquid Agent API
+  slug: liquidagent-ai-liquid-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidagent-ai/refs/heads/main/openapi/liquidagent-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liquidagent-ai/refs/heads/main/openapi/liquidagent-ai-liquid-agent-api-openapi.yml
 description: ''
 domains:
 - caa: []

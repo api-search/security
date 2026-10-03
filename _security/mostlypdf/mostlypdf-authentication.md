@@ -33,7 +33,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - PDF
-- API
 - Automation
-- FreeTools
+- Free Tools
 ---

@@ -3,12 +3,30 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: airmee-integration-api-openapi.yml
+- filename: airmee-collection-point-deliveries-api-openapi.yml
   format: yaml
-  label: Airmee Integration API
-  slug: airmee-integration-api
+  label: Airmee Collection Point Deliveries API
+  slug: airmee-collection-point-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-integration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-collection-point-deliveries-api-openapi.yml
+- filename: airmee-home-deliveries-api-openapi.yml
+  format: yaml
+  label: Airmee Home Deliveries API
+  slug: airmee-home-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-home-deliveries-api-openapi.yml
+- filename: airmee-parcel-locker-deliveries-api-openapi.yml
+  format: yaml
+  label: Airmee Parcel Locker Deliveries API
+  slug: airmee-parcel-locker-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-parcel-locker-deliveries-api-openapi.yml
+- filename: airmee-returns-api-openapi.yml
+  format: yaml
+  label: Airmee Returns API
+  slug: airmee-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airmee/refs/heads/main/openapi/airmee-returns-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

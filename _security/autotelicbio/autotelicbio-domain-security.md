@@ -32,6 +32,6 @@ tags:
 - Company
 - Biotechnology
 - CNS
-- Rare Diseases
+- Rare Disease
 - South Korea
 ---

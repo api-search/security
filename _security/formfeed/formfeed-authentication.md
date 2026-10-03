@@ -92,9 +92,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/
 summary_line: 2 schemes
 tags:
 - PDF
-- ImageGeneration
+- Image Generation
 - Templates
-- API
-- DeveloperTools
-- SaaS
+- Developer Tools
+- Software-as-a-Service
 ---

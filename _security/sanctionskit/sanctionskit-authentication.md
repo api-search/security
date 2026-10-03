@@ -39,9 +39,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/r
 summary_line: 1 scheme
 tags:
 - Company
-- sanctions
-- compliance
-- screening
-- API
-- fintech
+- Sanctions
+- Compliance
+- Screening
+- Fintech
 ---

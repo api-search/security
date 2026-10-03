@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Cryptocurrency
-- Wallet
+- Wallets
 - Security
-- FinTech
+- Fintech
 ---

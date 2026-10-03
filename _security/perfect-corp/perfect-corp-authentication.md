@@ -8,36 +8,6 @@ api_specs:
   slug: perfect-corp-s2s-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-s2s-api-openapi.yml
-- filename: perfect-corp-v1-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V1.0 API
-  slug: perfect-corp-v1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v1-0-api-openapi.yml
-- filename: perfect-corp-v2-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V2.0 API
-  slug: perfect-corp-v2-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v2-0-api-openapi.yml
-- filename: perfect-corp-v2-1-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V2.1 API
-  slug: perfect-corp-v2-1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v2-1-api-openapi.yml
-- filename: perfect-corp-v3-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V3.0 API
-  slug: perfect-corp-v3-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v3-0-api-openapi.yml
-- filename: perfect-corp-v4-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V4.0 API
-  slug: perfect-corp-v4-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v4-0-api-openapi.yml
 auth_types:
 - http
 description: 'One credential covers the whole platform: a YouCam API key sent as an HTTP bearer token. The same key authenticates the REST API and all three hosted MCP servers. An OAuth 2.0 authorization server is ALSO discoverable at the API host well-known path, but nothing in the developer documentation references it and no published operation requires it.'

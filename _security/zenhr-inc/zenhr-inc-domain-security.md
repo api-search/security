@@ -344,7 +344,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-work-shifts-api-openapi.yml
 - filename: zenhr-inc-time-offs-api-openapi.yml
   format: yaml
-  label: ZenHR Inc Time Offs API
+  label: ZenHR Time Offs API
   slug: zenhr-inc-time-offs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/openapi/zenhr-inc-time-offs-api-openapi.yml

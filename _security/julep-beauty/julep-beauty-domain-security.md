@@ -6,12 +6,6 @@ api_specs:
   slug: julep-beauty-cart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-cart-api-openapi.yml
-- filename: julep-beauty-catalog-api-openapi.yml
-  format: yaml
-  label: Julep Beauty Catalog API
-  slug: julep-beauty-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-catalog-api-openapi.yml
 - filename: julep-beauty-discovery-api-openapi.yml
   format: yaml
   label: Julep Beauty Discovery API

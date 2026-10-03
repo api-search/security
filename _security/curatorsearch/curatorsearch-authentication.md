@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: curatorsearch-openapi.json
-  format: json
-  label: CuratorSearch API
-  slug: curatorsearch-api
+- filename: curatorsearch-data-api-openapi.yml
+  format: yaml
+  label: CuratorSearch Data API
+  slug: curatorsearch-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/openapi/curatorsearch-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/openapi/curatorsearch-data-api-openapi.yml
+- filename: curatorsearch-jobs-api-openapi.yml
+  format: yaml
+  label: CuratorSearch Jobs API
+  slug: curatorsearch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curatorsearch/refs/heads/main/openapi/curatorsearch-jobs-api-openapi.yml
 auth_types:
 - none
 description: ''

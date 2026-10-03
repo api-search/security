@@ -34,6 +34,6 @@ tags:
 - Diagnostics
 - Biotechnology
 - Healthcare
-- MolecularTesting
+- Molecular Testing
 - CBRN
 ---

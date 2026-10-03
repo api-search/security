@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: solvela-ai-openapi.json
-  format: json
-  label: Solvela Gateway API
-  slug: solvela-gateway-api
+- filename: solvela-ai-chat-api-openapi.yml
+  format: yaml
+  label: Solvela Chat API
+  slug: solvela-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-chat-api-openapi.yml
+- filename: solvela-ai-health-api-openapi.yml
+  format: yaml
+  label: Solvela Health API
+  slug: solvela-ai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-health-api-openapi.yml
+- filename: solvela-ai-models-api-openapi.yml
+  format: yaml
+  label: Solvela Models API
+  slug: solvela-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-models-api-openapi.yml
+- filename: solvela-ai-receipts-api-openapi.yml
+  format: yaml
+  label: Solvela Receipts API
+  slug: solvela-ai-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-receipts-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/better-place-forests/refs/heads/main/security/better-place-forests-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Nonprofit
+- Non-Profit
 - Memorial
 - Forest Conservation
 - Grief Support

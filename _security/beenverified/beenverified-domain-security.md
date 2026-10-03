@@ -45,8 +45,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beenverified/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Background-Check
-- People-Search
-- Data-API
-- Consumer-Services
+- Background Checks
+- People Search
+- Data API
+- Consumer Services
 ---

@@ -82,7 +82,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-workflows-api-openapi.yml
 - filename: sadq-holding-limited-e-sign-api-openapi.yml
   format: yaml
-  label: Sadq Holding Limited e Sign API
+  label: Sadq e Sign API
   slug: sadq-holding-limited-e-sign-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-e-sign-api-openapi.yml

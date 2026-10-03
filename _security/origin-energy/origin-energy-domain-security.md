@@ -108,18 +108,30 @@ api_specs:
   slug: origin-energy-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-query-api-openapi.yml
-- filename: origin-energy-v1-api-openapi.yml
+- filename: origin-energy-accounts-api-openapi.yml
   format: yaml
-  label: Origin Energy V1 API
-  slug: origin-energy-v1-api
+  label: Origin Energy Accounts API
+  slug: origin-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-v1-api-openapi.yml
-- filename: origin-energy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-accounts-api-openapi.yml
+- filename: origin-energy-energetiq-public-key-api-openapi.yml
   format: yaml
-  label: Origin Energy V2 API
-  slug: origin-energy-v2-api
+  label: Origin Energy Energetiq Public Key API
+  slug: origin-energy-energetiq-public-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energetiq-public-key-api-openapi.yml
+- filename: origin-energy-unbundled-network-charges-api-openapi.yml
+  format: yaml
+  label: Origin Energy Unbundled Network Charges API
+  slug: origin-energy-unbundled-network-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-unbundled-network-charges-api-openapi.yml
+- filename: origin-energy-voice-api-openapi.yml
+  format: yaml
+  label: Origin Energy Voice API
+  slug: origin-energy-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-voice-api-openapi.yml
 description: ''
 domains:
 - caa:

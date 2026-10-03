@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arria-nlg/refs/heads/main/security/arria-nlg-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
+- Artificial Intelligence
 - Generative AI
 - Natural Language Generation
 - Enterprise Software

@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: attest-openapi-generated.yml
+- filename: attest-studies-api-openapi.yml
   format: yaml
-  label: Attest API
-  slug: attest-api
+  label: Attest Studies API
+  slug: attest-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/openapi/_ae-authored/attest-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/openapi/attest-studies-api-openapi.yml
+- filename: attest-study-api-openapi.yml
+  format: yaml
+  label: Attest Study API
+  slug: attest-study-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/openapi/attest-study-api-openapi.yml
 auth_types: []
 description: Attest uses a simple API key authentication scheme.
 kind: authentication
@@ -36,9 +42,9 @@ source_yaml: "generated: '2026-09-26'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attest/refs/heads/main/authentication/attest-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- ConsumerInsights
-- MarketResearch
-- B2C
+- Artificial Intelligence
+- Consumer Insights
+- Market Research
+- Consumer
 - Analytics
 ---

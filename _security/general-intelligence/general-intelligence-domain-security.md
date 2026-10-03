@@ -40,6 +40,5 @@ tags:
 - Agent Orchestration
 - Business Automation
 - No-Code
-- Startups
 - New York
 ---

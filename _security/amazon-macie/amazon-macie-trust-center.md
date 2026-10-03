@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amazon-macie-admin-adminaccountid-api-openapi.yml
-  format: yaml
-  label: Amazon Macie Admin#adminAccountId API
-  slug: amazon-macie-admin-adminaccountid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-admin-adminaccountid-api-openapi.yml
 - filename: amazon-macie-admin-api-openapi.yml
   format: yaml
   label: Amazon Macie Admin API
@@ -108,12 +102,6 @@ api_specs:
   slug: amazon-macie-resource-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-resource-profiles-api-openapi.yml
-- filename: amazon-macie-resource-profiles-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon Macie Resource Profiles#resourceArn API
-  slug: amazon-macie-resource-profiles-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-resource-profiles-resourcearn-api-openapi.yml
 - filename: amazon-macie-reveal-configuration-api-openapi.yml
   format: yaml
   label: Amazon Macie Reveal Configuration API

@@ -45,7 +45,7 @@ tags:
 - Invoicing
 - Invoice Generator
 - Free Tools
-- Document Export
+- DocumentExport
 - Payment QR
 - No Signup
 - CSV Import

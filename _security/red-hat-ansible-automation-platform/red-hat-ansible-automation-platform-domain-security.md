@@ -66,12 +66,6 @@ api_specs:
   slug: red-hat-ansible-automation-platform-api-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-api-api-api-openapi.yml
-- filename: red-hat-ansible-automation-platform-api-api-openapi.yml
-  format: yaml
-  label: Red Hat Ansible Automation Platform API
-  slug: red-hat-ansible-automation-platform-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-api-api-openapi.yml
 - filename: red-hat-ansible-automation-platform-api-automation-hub-api-openapi.yml
   format: yaml
   label: 'Red Hat Ansible Automation Platform Api: Automation-Hub API'
@@ -1980,6 +1974,18 @@ api_specs:
   slug: red-hat-ansible-automation-platform-workflow-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-workflow-jobs-api-openapi.yml
+- filename: red-hat-ansible-automation-platform-aap-gateway-api-api-openapi.yml
+  format: yaml
+  label: Red Hat Ansible Automation Platform AAP Gateway API
+  slug: red-hat-ansible-automation-platform-aap-gateway-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-aap-gateway-api-api-openapi.yml
+- filename: red-hat-ansible-automation-platform-debug-api-openapi.yml
+  format: yaml
+  label: Red Hat Ansible Automation Platform Debug API
+  slug: red-hat-ansible-automation-platform-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/openapi/red-hat-ansible-automation-platform-debug-api-openapi.yml
 - filename: red-hat-ansible-automation-platform-cacertificates-api-openapi.yml
   format: yaml
   label: Red Hat Ansible Automation Platform Cacertificates API

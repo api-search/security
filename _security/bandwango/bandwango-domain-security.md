@@ -34,6 +34,6 @@ tags:
 - MobilePass
 - Tourism
 - Analytics
-- QRCode
+- QR Codes
 - Community
 ---

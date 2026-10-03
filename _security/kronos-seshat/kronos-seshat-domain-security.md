@@ -100,7 +100,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Crypto
 - Financial Forecast
-- API
 - Market Data
 - Auditing
 - Micropayments

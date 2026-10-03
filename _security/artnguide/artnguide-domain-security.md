@@ -32,6 +32,6 @@ tags:
 - Company
 - Art
 - Investment
-- FinTech
-- Korea
+- Fintech
+- South Korea
 ---

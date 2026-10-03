@@ -32,6 +32,5 @@ tags:
 - Fintech
 - Payments
 - Healthcare
-- API
 - Loyalty
 ---

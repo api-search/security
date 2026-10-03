@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - Therapeutics
 - Immunology
-- DrugDiscovery
+- Drug Discovery
 ---

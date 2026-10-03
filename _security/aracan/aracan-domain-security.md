@@ -33,6 +33,6 @@ tags:
 - Company
 - Automotive
 - Marketplace
-- CarSharing
+- Car Sharing
 - Japan
 ---

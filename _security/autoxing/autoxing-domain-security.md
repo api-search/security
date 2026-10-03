@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Robotics
 - Automation
-- AI
+- Artificial Intelligence
 - Logistics
 - Manufacturing
 - Company

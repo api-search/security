@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: rategain-openapi-generated.yml
+- filename: rategain-developer-portal-api-openapi.yml
   format: yaml
-  label: RateGain API
-  slug: rategain-api
+  label: RateGain Developer Portal API
+  slug: rategain-developer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/_ae-authored/rategain-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/rategain-developer-portal-api-openapi.yml
+- filename: rategain-our-products-api-openapi.yml
+  format: yaml
+  label: RateGain Our Products API
+  slug: rategain-our-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/rategain-our-products-api-openapi.yml
+- filename: rategain-ultradirect-api-openapi.yml
+  format: yaml
+  label: RateGain Ultradirect API
+  slug: rategain-ultradirect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rategain/refs/heads/main/openapi/rategain-ultradirect-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

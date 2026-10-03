@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: aircube-openapi-generated.yml
+- filename: aircube-aircube-api-api-openapi.yml
   format: yaml
-  label: AirCube API
-  slug: aircube-api
+  label: AirCube AirCube API
+  slug: aircube-aircube-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/_ae-authored/aircube-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-aircube-api-api-openapi.yml
+- filename: aircube-models-api-openapi.yml
+  format: yaml
+  label: AirCube Models API
+  slug: aircube-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-models-api-openapi.yml
+- filename: aircube-qwen-image-api-openapi.yml
+  format: yaml
+  label: AirCube Qwen Image API
+  slug: aircube-qwen-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/openapi/aircube-qwen-image-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +50,8 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aircube/refs/heads/main/security/aircube-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
+- Artificial Intelligence
 - Platform
-- API
-- MediaGeneration
-- UnifiedAPI
+- Media Generation
+- Unified API
 ---

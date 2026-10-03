@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apactron-parti
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- MedicalEquipment
-- ProtonTherapy
-- ParticleAccelerators
+- Medical Equipment
+- Proton Therapy
+- Particle Accelerators
 - China
 ---

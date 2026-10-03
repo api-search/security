@@ -210,24 +210,66 @@ api_specs:
   slug: netcracker-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-users-api-openapi.yml
-- filename: netcracker-v1-api-openapi.yml
-  format: yaml
-  label: Netcracker V1 API
-  slug: netcracker-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-v1-api-openapi.yml
-- filename: netcracker-v2-api-openapi.yml
-  format: yaml
-  label: Netcracker V2 API
-  slug: netcracker-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-v2-api-openapi.yml
 - filename: netcracker-versions-api-openapi.yml
   format: yaml
   label: Netcracker Versions API
   slug: netcracker-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-versions-api-openapi.yml
+- filename: netcracker-bg-status-api-openapi.yml
+  format: yaml
+  label: Netcracker Bg Status API
+  slug: netcracker-bg-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-bg-status-api-openapi.yml
+- filename: netcracker-composite-api-openapi.yml
+  format: yaml
+  label: Netcracker Composite API
+  slug: netcracker-composite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-composite-api-openapi.yml
+- filename: netcracker-config-api-openapi.yml
+  format: yaml
+  label: Netcracker Config API
+  slug: netcracker-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-config-api-openapi.yml
+- filename: netcracker-kafka-api-openapi.yml
+  format: yaml
+  label: Netcracker Kafka API
+  slug: netcracker-kafka-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-kafka-api-openapi.yml
+- filename: netcracker-monitoring-api-openapi.yml
+  format: yaml
+  label: Netcracker Monitoring API
+  slug: netcracker-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-monitoring-api-openapi.yml
+- filename: netcracker-namespace-api-openapi.yml
+  format: yaml
+  label: Netcracker Namespace API
+  slug: netcracker-namespace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-namespace-api-openapi.yml
+- filename: netcracker-rabbit-api-openapi.yml
+  format: yaml
+  label: Netcracker Rabbit API
+  slug: netcracker-rabbit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-rabbit-api-openapi.yml
+- filename: netcracker-synchronize-tenants-api-openapi.yml
+  format: yaml
+  label: Netcracker Synchronize Tenants API
+  slug: netcracker-synchronize-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-synchronize-tenants-api-openapi.yml
+- filename: netcracker-tenants-api-openapi.yml
+  format: yaml
+  label: Netcracker Tenants API
+  slug: netcracker-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/openapi/netcracker-tenants-api-openapi.yml
 - filename: netcracker-backup-and-restore-api-openapi.yml
   format: yaml
   label: Netcracker Backup And Restore API

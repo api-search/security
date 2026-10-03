@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Jewelry
 - Sustainable
-- E-commerce
+- E-Commerce
 - Fashion
 - Eco-friendly
 - Company

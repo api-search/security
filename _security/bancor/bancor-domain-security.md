@@ -35,5 +35,5 @@ tags:
 - DeFi
 - Liquidity
 - Blockchain
-- Token
+- Tokens
 ---

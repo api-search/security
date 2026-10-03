@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assurly/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- FinTech
+- Fintech
 - Loans
 - Digital
 - Europe

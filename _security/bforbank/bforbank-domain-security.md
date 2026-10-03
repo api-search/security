@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Banking
-- DigitalBank
+- Digital Bank
 - France
-- FinTech
+- Fintech
 ---

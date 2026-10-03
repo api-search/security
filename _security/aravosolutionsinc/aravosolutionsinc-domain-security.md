@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Risk Management
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 - Compliance
 ---

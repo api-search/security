@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beducated/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
-- SexualHealth
-- OnlineLearning
+- Sexual Health
+- Online Learning
 - Courses
 - AdultEducation
 ---

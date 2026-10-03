@@ -25,7 +25,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:
 - Identity
 - Access Management
-- AI
+- Artificial Intelligence
 - Cloud
 - Enterprise
 trust_url: https://trust.avatier.com/

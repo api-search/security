@@ -36,4 +36,5 @@ tags:
 - Fortune 500
 - Personal Care
 - Tissue
+- Consumer Packaged Goods
 ---

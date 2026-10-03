@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automotive
 - Data
-- API
-- Vehicle
-- UK
+- Vehicles
+- United Kingdom
 ---

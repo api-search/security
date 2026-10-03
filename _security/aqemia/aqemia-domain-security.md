@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aqemia/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
-- DrugDiscovery
+- Artificial Intelligence
+- Drug Discovery
 - Biotechnology
 - Platform
 ---

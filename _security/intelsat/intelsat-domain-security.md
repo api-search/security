@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: intelsat-openapi-generated.yml
+- filename: intelsat-alarms-api-openapi.yml
   format: yaml
-  label: Intelsat API
-  slug: intelsat-api
+  label: Intelsat Alarms API
+  slug: intelsat-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelsat/refs/heads/main/openapi/_ae-authored/intelsat-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intelsat/refs/heads/main/openapi/intelsat-alarms-api-openapi.yml
 description: ''
 domains:
 - caa:

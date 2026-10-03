@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: typesafe-ai-openapi.yml
+- filename: typesafe-ai-models-api-openapi.yml
   format: yaml
-  label: TypeSafe System One API
-  slug: system-one-api
+  label: TypeSafe AI Models API
+  slug: typesafe-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/refs/heads/main/openapi/typesafe-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/refs/heads/main/openapi/typesafe-ai-models-api-openapi.yml
+- filename: typesafe-ai-systemone-api-openapi.yml
+  format: yaml
+  label: TypeSafe AI Systemone API
+  slug: typesafe-ai-systemone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/typesafe-ai/refs/heads/main/openapi/typesafe-ai-systemone-api-openapi.yml
 auth_types:
 - http
 description: ''

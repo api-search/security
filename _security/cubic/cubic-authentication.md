@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cubic-umo-iq-public-feed-openapi.yml
+- filename: cubic-public-feed-api-openapi.yml
   format: yaml
-  label: Umo IQ Public Feed API
-  slug: umo-iq-public-feed
+  label: Cubic Public Feed API
+  slug: cubic-public-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/openapi/cubic-umo-iq-public-feed-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/openapi/cubic-public-feed-api-openapi.yml
 auth_types: []
 description: 'Authentication posture for the one Cubic API with public documentation. The Umo IQ Public Feed requires no credential of any kind — no key, no token, no header, no signed request. Access control is contractual rather than technical: the feed''s licence grants use to Umo IQ customer agencies and reserves the right to terminate or limit access, but the endpoint itself is open to anonymous callers and enforces only per-IP volume limits.'
 kind: authentication

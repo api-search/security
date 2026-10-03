@@ -174,12 +174,126 @@ api_specs:
   slug: gainsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-users-api-openapi.yml
-- filename: gainsight-px-rest-api-openapi.yml
+- filename: gainsight-admin-api-openapi.yml
   format: yaml
-  label: Gainsight PX REST API
-  slug: gainsight-px-rest-api
+  label: Gainsight Admin API
+  slug: gainsight-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-px-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-admin-api-openapi.yml
+- filename: gainsight-article-api-openapi.yml
+  format: yaml
+  label: Gainsight Article API
+  slug: gainsight-article-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-article-api-openapi.yml
+- filename: gainsight-emailevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Email Event API
+  slug: gainsight-emailevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-emailevent-api-openapi.yml
+- filename: gainsight-engagement-api-openapi.yml
+  format: yaml
+  label: Gainsight Engagement API
+  slug: gainsight-engagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-engagement-api-openapi.yml
+- filename: gainsight-engagementviewevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Engagement View Event API
+  slug: gainsight-engagementviewevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-engagementviewevent-api-openapi.yml
+- filename: gainsight-externalsegments-api-openapi.yml
+  format: yaml
+  label: Gainsight External Segments API
+  slug: gainsight-externalsegments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-externalsegments-api-openapi.yml
+- filename: gainsight-feature-api-openapi.yml
+  format: yaml
+  label: Gainsight Feature API
+  slug: gainsight-feature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-feature-api-openapi.yml
+- filename: gainsight-featurematchevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Feature Match Event API
+  slug: gainsight-featurematchevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-featurematchevent-api-openapi.yml
+- filename: gainsight-formsubmitevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Form Submit Event API
+  slug: gainsight-formsubmitevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-formsubmitevent-api-openapi.yml
+- filename: gainsight-identifyevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Identify Event API
+  slug: gainsight-identifyevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-identifyevent-api-openapi.yml
+- filename: gainsight-kcbot-api-openapi.yml
+  format: yaml
+  label: Gainsight K Cbot API
+  slug: gainsight-kcbot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-kcbot-api-openapi.yml
+- filename: gainsight-leadevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Lead Event API
+  slug: gainsight-leadevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-leadevent-api-openapi.yml
+- filename: gainsight-localization-api-openapi.yml
+  format: yaml
+  label: Gainsight Localization API
+  slug: gainsight-localization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-localization-api-openapi.yml
+- filename: gainsight-pageviewevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Page View Event API
+  slug: gainsight-pageviewevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-pageviewevent-api-openapi.yml
+- filename: gainsight-segment-api-openapi.yml
+  format: yaml
+  label: Gainsight Segment API
+  slug: gainsight-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-segment-api-openapi.yml
+- filename: gainsight-segmentmatchevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Segment Match Event API
+  slug: gainsight-segmentmatchevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-segmentmatchevent-api-openapi.yml
+- filename: gainsight-sessionevent-api-openapi.yml
+  format: yaml
+  label: Gainsight Session Event API
+  slug: gainsight-sessionevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-sessionevent-api-openapi.yml
+- filename: gainsight-surveyresponse-api-openapi.yml
+  format: yaml
+  label: Gainsight Survey Response API
+  slug: gainsight-surveyresponse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-surveyresponse-api-openapi.yml
+- filename: gainsight-userpreferences-v2-api-openapi.yml
+  format: yaml
+  label: Gainsight UserPreferences V2 API
+  slug: gainsight-userpreferences-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-userpreferences-v2-api-openapi.yml
+- filename: gainsight-user-preferences-api-openapi.yml
+  format: yaml
+  label: Gainsight User Preferences API
+  slug: gainsight-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-user-preferences-api-openapi.yml
 description: ''
 domains:
 - caa: []

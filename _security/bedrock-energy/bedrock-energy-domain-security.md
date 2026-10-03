@@ -34,5 +34,5 @@ tags:
 - Geothermal
 - Energy
 - HVAC
-- CleanTech
+- Cleantech
 ---

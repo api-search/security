@@ -29,9 +29,8 @@ source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/courtrules/refs/heads/main/authentication/courtrules-authentication.yml
 summary_line: 1 scheme
 tags:
-- LegalData
-- API
+- Legal Data
 - CourtRules
 - Compliance
-- USLaw
+- US Law
 ---

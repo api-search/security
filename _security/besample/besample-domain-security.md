@@ -34,6 +34,6 @@ tags:
 - Company
 - Research
 - Participants
-- BehavioralScience
-- DataPlatform
+- Behavioral Science
+- Data Platform
 ---

@@ -35,5 +35,5 @@ tags:
 - Infrastructure
 - Software
 - Project Finance
-- Green Energy
+- Renewable Energy
 ---

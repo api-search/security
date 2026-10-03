@@ -19,7 +19,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstroke/ref
 summary_line: SOC 2
 tags:
 - Company
-- API
 - Technology
 - Data
 - Services

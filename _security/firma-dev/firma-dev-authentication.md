@@ -106,9 +106,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- eSignature
-- API
-- DeveloperTools
+- E-Signature
+- Developer Tools
 - LowCost
-- WhiteLabel
+- White Label
 ---

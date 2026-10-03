@@ -32,6 +32,6 @@ tags:
 - Company
 - Cybersecurity
 - Identity
-- AI
+- Artificial Intelligence
 - Authentication
 ---

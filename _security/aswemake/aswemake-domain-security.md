@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aswemake/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- FoodTech
+- Food Tech
 - Marketplace
-- SouthKorea
+- South Korea
 - Retail
 ---

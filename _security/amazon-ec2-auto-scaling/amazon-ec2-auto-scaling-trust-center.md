@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-ec2-auto-scaling-openapi.yaml
+- filename: amazon-ec2-auto-scaling-autoscaling-api-openapi.yml
   format: yaml
-  label: Amazon EC2 Auto Scaling API
-  slug: amazon-ec2-auto-scaling-api
+  label: Amazon EC2 Auto Scaling Autoscaling API
+  slug: amazon-ec2-auto-scaling-autoscaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/openapi/_original/amazon-ec2-auto-scaling-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/openapi/amazon-ec2-auto-scaling-autoscaling-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

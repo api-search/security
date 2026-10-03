@@ -38,6 +38,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contract-guard
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - JSON Validation
-- API
 - AI Trust
 ---

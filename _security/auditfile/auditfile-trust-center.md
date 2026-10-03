@@ -26,7 +26,7 @@ tags:
 - Accounting
 - Audit
 - Cloud
-- AI
+- Artificial Intelligence
 - CPA
 trust_url: https://auditfile.com/security
 ---

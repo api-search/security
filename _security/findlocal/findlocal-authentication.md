@@ -135,10 +135,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/authentication/findlocal-authentication.yml
 summary_line: 1 scheme
 tags:
-- Events
-- API
+- Event
 - Hyperlocal
 - Community
 - Data
-- OpenData
+- Open Data
 ---

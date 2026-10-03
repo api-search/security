@@ -93,10 +93,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/authentication/asapp3-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
-- CustomerExperience
+- Artificial Intelligence
+- Customer Experience
 - Enterprise
-- ContactCenter
+- Contact Center
 - Platform
 - Company
 ---

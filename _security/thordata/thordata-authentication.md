@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://raw.git
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/authentication/thordata-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Proxy network
+- Proxy Network
 - Web Scraping
 - Data Extraction
 - SERP

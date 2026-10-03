@@ -40,6 +40,6 @@ tags:
 - Accounting
 - Audit
 - Cloud
-- AI
+- Artificial Intelligence
 - CPA
 ---

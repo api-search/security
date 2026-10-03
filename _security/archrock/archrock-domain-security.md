@@ -1,29 +1,4 @@
 ---
-api_specs:
-- filename: archrock-financials-api-openapi.yml
-  format: yaml
-  label: Archrock Financials API
-  slug: archrock-financials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/openapi/archrock-financials-api-openapi.yml
-- filename: archrock-fleet-api-openapi.yml
-  format: yaml
-  label: Archrock Fleet API
-  slug: archrock-fleet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/openapi/archrock-fleet-api-openapi.yml
-- filename: archrock-operations-api-openapi.yml
-  format: yaml
-  label: Archrock Operations API
-  slug: archrock-operations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/openapi/archrock-operations-api-openapi.yml
-- filename: archrock-sec-filings-api-openapi.yml
-  format: yaml
-  label: Archrock SEC Filings API
-  slug: archrock-sec-filings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/openapi/archrock-sec-filings-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: cogdepot-com-openapi.yml
+- filename: cogdepot-com-a2a-api-openapi.yml
   format: yaml
-  label: cogDepot API
-  slug: cogdepot-api
+  label: cogDepot A2a API
+  slug: cogdepot-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-a2a-api-openapi.yml
+- filename: cogdepot-com-account-api-openapi.yml
+  format: yaml
+  label: cogDepot Account API
+  slug: cogdepot-com-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-account-api-openapi.yml
+- filename: cogdepot-com-dashboard-api-openapi.yml
+  format: yaml
+  label: cogDepot Dashboard API
+  slug: cogdepot-com-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-dashboard-api-openapi.yml
+- filename: cogdepot-com-deals-api-openapi.yml
+  format: yaml
+  label: cogDepot Deals API
+  slug: cogdepot-com-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-deals-api-openapi.yml
+- filename: cogdepot-com-discovery-api-openapi.yml
+  format: yaml
+  label: cogDepot Discovery API
+  slug: cogdepot-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-discovery-api-openapi.yml
+- filename: cogdepot-com-listings-api-openapi.yml
+  format: yaml
+  label: cogDepot Listings API
+  slug: cogdepot-com-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-listings-api-openapi.yml
+- filename: cogdepot-com-meta-api-openapi.yml
+  format: yaml
+  label: cogDepot Meta API
+  slug: cogdepot-com-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-meta-api-openapi.yml
+- filename: cogdepot-com-reputation-api-openapi.yml
+  format: yaml
+  label: cogDepot Reputation API
+  slug: cogdepot-com-reputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-reputation-api-openapi.yml
+- filename: cogdepot-com-threads-api-openapi.yml
+  format: yaml
+  label: cogDepot Threads API
+  slug: cogdepot-com-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-threads-api-openapi.yml
+- filename: cogdepot-com-webhooks-api-openapi.yml
+  format: yaml
+  label: cogDepot Webhooks API
+  slug: cogdepot-com-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

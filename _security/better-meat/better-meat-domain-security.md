@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/better-meat/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FoodTech
+- Food Tech
 - Biotechnology
-- SustainableFood
+- Sustainable Food
 - Mycelium
-- AlternativeProtein
+- Alternative Protein
 ---

@@ -30,6 +30,6 @@ tags:
 - Company
 - XR
 - AR
-- AI
+- Artificial Intelligence
 - Metaverse
 ---

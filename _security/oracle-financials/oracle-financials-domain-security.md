@@ -30,78 +30,60 @@ api_specs:
   slug: oracle-financials-ledger-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-ledger-balances-api-openapi.yml
-- filename: oracle-financial-applications-cash-management-api-openapi.yml
-  format: yaml
-  label: Oracle Financials Cash Management API
-  slug: oracle-financial-applications-cash-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financial-applications-cash-management-api-openapi.yml
-- filename: oracle-financial-applications-fixed-assets-api-openapi.yml
-  format: yaml
-  label: Oracle Financials Fixed Assets API
-  slug: oracle-financial-applications-fixed-assets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financial-applications-fixed-assets-api-openapi.yml
-- filename: oracle-financial-applications-general-ledger-api-openapi.yml
-  format: yaml
-  label: Oracle Financials General Ledger API
-  slug: oracle-financial-applications-general-ledger-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financial-applications-general-ledger-api-openapi.yml
-- filename: oracle-financial-applications-payables-api-openapi.yml
-  format: yaml
-  label: Oracle Financials Payables API
-  slug: oracle-financial-applications-payables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financial-applications-payables-api-openapi.yml
-- filename: oracle-financial-applications-receivables-api-openapi.yml
-  format: yaml
-  label: Oracle Financials Receivables API
-  slug: oracle-financial-applications-receivables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financial-applications-receivables-api-openapi.yml
-- filename: oracle-general-ledger-accounting-periods-api-openapi.yml
+- filename: oracle-financials-accounting-periods-api-openapi.yml
   format: yaml
   label: Oracle Financials Accounting Periods API
-  slug: oracle-general-ledger-accounting-periods-api
+  slug: oracle-financials-accounting-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-accounting-periods-api-openapi.yml
-- filename: oracle-general-ledger-budgetary-control-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-accounting-periods-api-openapi.yml
+- filename: oracle-financials-cash-management-api-openapi.yml
   format: yaml
-  label: Oracle Financials Budgetary Control API
-  slug: oracle-general-ledger-budgetary-control-api
+  label: Oracle Financials Cash Management API
+  slug: oracle-financials-cash-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-budgetary-control-api-openapi.yml
-- filename: oracle-general-ledger-erp-integrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-cash-management-api-openapi.yml
+- filename: oracle-financials-erp-integrations-api-openapi.yml
   format: yaml
   label: Oracle Financials ERP Integrations API
-  slug: oracle-general-ledger-erp-integrations-api
+  slug: oracle-financials-erp-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-erp-integrations-api-openapi.yml
-- filename: oracle-general-ledger-intercompany-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-erp-integrations-api-openapi.yml
+- filename: oracle-financials-fixed-assets-api-openapi.yml
+  format: yaml
+  label: Oracle Financials Fixed Assets API
+  slug: oracle-financials-fixed-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-fixed-assets-api-openapi.yml
+- filename: oracle-financials-general-ledger-api-openapi.yml
+  format: yaml
+  label: Oracle Financials General Ledger API
+  slug: oracle-financials-general-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-general-ledger-api-openapi.yml
+- filename: oracle-financials-intercompany-api-openapi.yml
   format: yaml
   label: Oracle Financials Intercompany API
-  slug: oracle-general-ledger-intercompany-api
+  slug: oracle-financials-intercompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-intercompany-api-openapi.yml
-- filename: oracle-general-ledger-journal-batches-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-intercompany-api-openapi.yml
+- filename: oracle-financials-ledger-options-api-openapi.yml
   format: yaml
-  label: Oracle Financials Journal Batches API
-  slug: oracle-general-ledger-journal-batches-api
+  label: Oracle Financials Ledger Options API
+  slug: oracle-financials-ledger-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-journal-batches-api-openapi.yml
-- filename: oracle-general-ledger-ledger-balances-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-ledger-options-api-openapi.yml
+- filename: oracle-financials-payables-api-openapi.yml
   format: yaml
-  label: Oracle Financials Balances API
-  slug: oracle-general-ledger-ledger-balances-api
+  label: Oracle Financials Payables API
+  slug: oracle-financials-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-ledger-balances-api-openapi.yml
-- filename: oracle-general-ledger-ledger-options-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-payables-api-openapi.yml
+- filename: oracle-financials-receivables-api-openapi.yml
   format: yaml
-  label: Oracle Financials Options API
-  slug: oracle-general-ledger-ledger-options-api
+  label: Oracle Financials Receivables API
+  slug: oracle-financials-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-general-ledger-ledger-options-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-receivables-api-openapi.yml
 description: ''
 domains:
 - caa:

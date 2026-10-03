@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: plyrium-com-vouchspec-openapi.yml
+- filename: plyrium-com-discovery-api-openapi.yml
   format: yaml
-  label: VouchSpec Agent Skill Evidence API
-  slug: vouchspec-agent-skill-evidence-api
+  label: Plyrium Discovery API
+  slug: plyrium-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-vouchspec-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-discovery-api-openapi.yml
+- filename: plyrium-com-purchase-api-openapi.yml
+  format: yaml
+  label: Plyrium Purchase API
+  slug: plyrium-com-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-purchase-api-openapi.yml
+- filename: plyrium-com-verification-api-openapi.yml
+  format: yaml
+  label: Plyrium Verification API
+  slug: plyrium-com-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-verification-api-openapi.yml
 auth_types: []
 description: 'VouchSpec has no login, API-key signup or OAuth. The read surface is anonymous. The single write operation is gated by PAYMENT, not identity: an x402 v2 challenge-and-retry on POST /api/vouchspec/v1/validate. Credentials exist only AFTER settlement - the 200 response hands back a one-time tenant API key and a one-time delivery token, which together unlock that order''s result. The OpenAPI declares no securitySchemes because none of its eight operations takes a credential up front; derive-authentication.py therefore produced no profile and this file is authored from the provider''s discovery contract instead.'
 kind: authentication

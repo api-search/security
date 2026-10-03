@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: avis-budget-rental-cars-openapi.yml
+- filename: avis-budget-car-availability-api-openapi.yml
   format: yaml
-  label: Avis Budget Group Rental Cars API
-  slug: avis-budget-group-rental-cars-api
+  label: Avis Budget Group Car Availability API
+  slug: avis-budget-car-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-rental-cars-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-availability-api-openapi.yml
+- filename: avis-budget-car-locations-api-openapi.yml
+  format: yaml
+  label: Avis Budget Group Car Locations API
+  slug: avis-budget-car-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-locations-api-openapi.yml
+- filename: avis-budget-car-reservation-api-openapi.yml
+  format: yaml
+  label: Avis Budget Group Car Reservation API
+  slug: avis-budget-car-reservation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-reservation-api-openapi.yml
+- filename: avis-budget-terms-and-conditions-api-openapi.yml
+  format: yaml
+  label: Avis Budget Group Terms And Conditions API
+  slug: avis-budget-terms-and-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-terms-and-conditions-api-openapi.yml
 description: ''
 domains:
 - caa: []

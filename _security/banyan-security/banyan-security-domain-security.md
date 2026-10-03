@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Security
-- ZeroTrust
-- Network
-- SaaS
+- Zero Trust
+- Networks
+- Software-as-a-Service
 ---

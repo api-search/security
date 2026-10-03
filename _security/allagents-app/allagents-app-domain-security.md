@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: allagents-app-openapi.yml
+- filename: allagents-app-directory-api-openapi.yml
   format: yaml
   label: allagents Directory API
-  slug: allagents-directory-api
+  slug: allagents-app-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-directory-api-openapi.yml
+- filename: allagents-app-discovery-api-openapi.yml
+  format: yaml
+  label: allagents Discovery API
+  slug: allagents-app-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-discovery-api-openapi.yml
+- filename: allagents-app-listing-api-openapi.yml
+  format: yaml
+  label: allagents Listing API
+  slug: allagents-app-listing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-listing-api-openapi.yml
+- filename: allagents-app-operator-api-openapi.yml
+  format: yaml
+  label: allagents Operator API
+  slug: allagents-app-operator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allagents-app/refs/heads/main/openapi/allagents-app-operator-api-openapi.yml
 description: ''
 domains:
 - caa: []

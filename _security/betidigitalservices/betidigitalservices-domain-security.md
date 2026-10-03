@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Digital Marketing
-- E-commerce
+- E-Commerce
 - Marketplace Services
 - Web Development
 - AI Solutions

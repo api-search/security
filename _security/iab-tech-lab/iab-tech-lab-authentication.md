@@ -2,30 +2,234 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: iab-tech-lab-opendirect-1-5-1-swagger.yaml
+- filename: iab-tech-lab-a2a-api-openapi.yml
   format: yaml
-  label: OpenDirect API
-  slug: opendirect-api
+  label: IAB Tech Lab A2a API
+  slug: iab-tech-lab-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-opendirect-1-5-1-swagger.yaml
-- filename: iab-tech-lab-agentic-advertising-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-a2a-api-openapi.yml
+- filename: iab-tech-lab-accounts-api-openapi.yml
   format: yaml
-  label: IAB Agentic Advertising API
-  slug: agentic-advertising-api
+  label: IAB Tech Lab Accounts API
+  slug: iab-tech-lab-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-agentic-advertising-api-openapi.yaml
-- filename: iab-tech-lab-seller-agent-openapi.json
-  format: json
-  label: Seller Agent API
-  slug: seller-agent-api
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-accounts-api-openapi.yml
+- filename: iab-tech-lab-agent-registry-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Agent Registry API
+  slug: iab-tech-lab-agent-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-seller-agent-openapi.json
-- filename: iab-tech-lab-buyer-agent-openapi.json
-  format: json
-  label: Buyer Agent API
-  slug: buyer-agent-api
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-agent-registry-api-openapi.yml
+- filename: iab-tech-lab-approvals-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Approvals API
+  slug: iab-tech-lab-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-buyer-agent-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-approvals-api-openapi.yml
+- filename: iab-tech-lab-assignments-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Assignments API
+  slug: iab-tech-lab-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-assignments-api-openapi.yml
+- filename: iab-tech-lab-audience-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Audience API
+  slug: iab-tech-lab-audience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-audience-api-openapi.yml
+- filename: iab-tech-lab-audit-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Audit API
+  slug: iab-tech-lab-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-audit-api-openapi.yml
+- filename: iab-tech-lab-authentication-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Authentication API
+  slug: iab-tech-lab-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-authentication-api-openapi.yml
+- filename: iab-tech-lab-bookings-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Bookings API
+  slug: iab-tech-lab-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-bookings-api-openapi.yml
+- filename: iab-tech-lab-bulk-operations-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Bulk Operations API
+  slug: iab-tech-lab-bulk-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-bulk-operations-api-openapi.yml
+- filename: iab-tech-lab-buyer-orders-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Buyer Orders API
+  slug: iab-tech-lab-buyer-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-buyer-orders-api-openapi.yml
+- filename: iab-tech-lab-change-requests-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Change Requests API
+  slug: iab-tech-lab-change-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-change-requests-api-openapi.yml
+- filename: iab-tech-lab-change-requests-lines-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Change Requests Lines API
+  slug: iab-tech-lab-change-requests-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-change-requests-lines-api-openapi.yml
+- filename: iab-tech-lab-core-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Core API
+  slug: iab-tech-lab-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-core-api-openapi.yml
+- filename: iab-tech-lab-creatives-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Creatives API
+  slug: iab-tech-lab-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-creatives-api-openapi.yml
+- filename: iab-tech-lab-curators-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Curators API
+  slug: iab-tech-lab-curators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-curators-api-openapi.yml
+- filename: iab-tech-lab-deal-booking-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Deal Booking API
+  slug: iab-tech-lab-deal-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-deal-booking-api-openapi.yml
+- filename: iab-tech-lab-deal-performance-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Deal Performance API
+  slug: iab-tech-lab-deal-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-deal-performance-api-openapi.yml
+- filename: iab-tech-lab-deals-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Deals API
+  slug: iab-tech-lab-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-deals-api-openapi.yml
+- filename: iab-tech-lab-discovery-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Discovery API
+  slug: iab-tech-lab-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-discovery-api-openapi.yml
+- filename: iab-tech-lab-events-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Events API
+  slug: iab-tech-lab-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-events-api-openapi.yml
+- filename: iab-tech-lab-health-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Health API
+  slug: iab-tech-lab-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-health-api-openapi.yml
+- filename: iab-tech-lab-lines-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Lines API
+  slug: iab-tech-lab-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-lines-api-openapi.yml
+- filename: iab-tech-lab-media-kit-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Media Kit API
+  slug: iab-tech-lab-media-kit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-media-kit-api-openapi.yml
+- filename: iab-tech-lab-negotiation-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Negotiation API
+  slug: iab-tech-lab-negotiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-negotiation-api-openapi.yml
+- filename: iab-tech-lab-negotiations-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Negotiations API
+  slug: iab-tech-lab-negotiations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-negotiations-api-openapi.yml
+- filename: iab-tech-lab-orders-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Orders API
+  slug: iab-tech-lab-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-orders-api-openapi.yml
+- filename: iab-tech-lab-organizations-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Organizations API
+  slug: iab-tech-lab-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-organizations-api-openapi.yml
+- filename: iab-tech-lab-packages-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Packages API
+  slug: iab-tech-lab-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-packages-api-openapi.yml
+- filename: iab-tech-lab-pricing-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Pricing API
+  slug: iab-tech-lab-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-pricing-api-openapi.yml
+- filename: iab-tech-lab-products-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Products API
+  slug: iab-tech-lab-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-products-api-openapi.yml
+- filename: iab-tech-lab-proposals-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Proposals API
+  slug: iab-tech-lab-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-proposals-api-openapi.yml
+- filename: iab-tech-lab-quotes-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Quotes API
+  slug: iab-tech-lab-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-quotes-api-openapi.yml
+- filename: iab-tech-lab-registry-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Registry API
+  slug: iab-tech-lab-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-registry-api-openapi.yml
+- filename: iab-tech-lab-reporting-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Reporting API
+  slug: iab-tech-lab-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-reporting-api-openapi.yml
+- filename: iab-tech-lab-sessions-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Sessions API
+  slug: iab-tech-lab-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-sessions-api-openapi.yml
+- filename: iab-tech-lab-supply-chain-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab Supply Chain API
+  slug: iab-tech-lab-supply-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-supply-chain-api-openapi.yml
+- filename: iab-tech-lab-well-known-api-openapi.yml
+  format: yaml
+  label: IAB Tech Lab .well Known API
+  slug: iab-tech-lab-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iab-tech-lab/refs/heads/main/openapi/iab-tech-lab-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

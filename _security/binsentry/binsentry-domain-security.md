@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binsentry/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- FeedManagement
+- Artificial Intelligence
+- Feed Management
 - Agriculture
 - IoT
 - Inventory

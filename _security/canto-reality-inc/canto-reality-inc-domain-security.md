@@ -34,7 +34,6 @@ tags:
 - Artificial Intelligence
 - AI Infrastructure
 - Social
-- Startups
 - Palo Alto
 - a16z Speedrun
 ---

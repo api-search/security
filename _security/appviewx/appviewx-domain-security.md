@@ -41,5 +41,5 @@ tags:
 - Identity
 - PKI
 - Certificate Management
-- AI
+- Artificial Intelligence
 ---

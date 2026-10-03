@@ -286,12 +286,6 @@ api_specs:
   slug: lightdash-user-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-user-groups-api-openapi.yml
-- filename: lightdash-v2-api-openapi.yml
-  format: yaml
-  label: Lightdash v2 API
-  slug: lightdash-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-v2-api-openapi.yml
 - filename: lightdash-validation-api-openapi.yml
   format: yaml
   label: Lightdash Validation API

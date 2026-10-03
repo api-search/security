@@ -2,18 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: parseforme-v1-api-openapi.yml
-  format: yaml
-  label: ParseForMe V1 API
-  slug: parseforme-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-v1-api-openapi.yml
 - filename: parseforme-webhooks-api-openapi.yml
   format: yaml
   label: ParseForMe Webhooks API
   slug: parseforme-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-webhooks-api-openapi.yml
+- filename: parseforme-document-types-api-openapi.yml
+  format: yaml
+  label: ParseForMe Document Types API
+  slug: parseforme-document-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-document-types-api-openapi.yml
+- filename: parseforme-documents-api-openapi.yml
+  format: yaml
+  label: ParseForMe Documents API
+  slug: parseforme-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-documents-api-openapi.yml
+- filename: parseforme-me-api-openapi.yml
+  format: yaml
+  label: ParseForMe Me API
+  slug: parseforme-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-me-api-openapi.yml
+- filename: parseforme-meta-api-openapi.yml
+  format: yaml
+  label: ParseForMe Meta API
+  slug: parseforme-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parseforme/refs/heads/main/openapi/parseforme-meta-api-openapi.yml
 auth_types:
 - http
 description: ''

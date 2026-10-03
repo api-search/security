@@ -38,5 +38,4 @@ tags:
 - Immunotherapy
 - Oncology
 - CAR-T
-- Cart
 ---

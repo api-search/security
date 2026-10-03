@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: plyrium-com-vouchspec-openapi.yml
+- filename: plyrium-com-discovery-api-openapi.yml
   format: yaml
-  label: VouchSpec Agent Skill Evidence API
-  slug: vouchspec-agent-skill-evidence-api
+  label: Plyrium Discovery API
+  slug: plyrium-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-vouchspec-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-discovery-api-openapi.yml
+- filename: plyrium-com-purchase-api-openapi.yml
+  format: yaml
+  label: Plyrium Purchase API
+  slug: plyrium-com-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-purchase-api-openapi.yml
+- filename: plyrium-com-verification-api-openapi.yml
+  format: yaml
+  label: Plyrium Verification API
+  slug: plyrium-com-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-verification-api-openapi.yml
 description: ''
 domains:
 - caa:

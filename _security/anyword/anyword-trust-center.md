@@ -20,9 +20,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anyword/refs/h
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Content Generation
 - Marketing
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.anyword.com/security
 ---

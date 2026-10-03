@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: pictomancer-ai-openapi.yml
+- filename: pictomancer-ai-analyze-api-openapi.yml
   format: yaml
-  label: Pictomancer.ai Image API
-  slug: pictomancer-ai-image-api
+  label: Pictomancer.ai Analyze API
+  slug: pictomancer-ai-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-analyze-api-openapi.yml
+- filename: pictomancer-ai-compress-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Compress API
+  slug: pictomancer-ai-compress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-compress-api-openapi.yml
+- filename: pictomancer-ai-convert-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Convert API
+  slug: pictomancer-ai-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-convert-api-openapi.yml
+- filename: pictomancer-ai-crop-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Crop API
+  slug: pictomancer-ai-crop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-crop-api-openapi.yml
+- filename: pictomancer-ai-estimate-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Estimate API
+  slug: pictomancer-ai-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-estimate-api-openapi.yml
+- filename: pictomancer-ai-info-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Info API
+  slug: pictomancer-ai-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-info-api-openapi.yml
+- filename: pictomancer-ai-optimize-for-vision-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Optimize For Vision API
+  slug: pictomancer-ai-optimize-for-vision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-optimize-for-vision-api-openapi.yml
+- filename: pictomancer-ai-optimize-generated-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Optimize Generated API
+  slug: pictomancer-ai-optimize-generated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-optimize-generated-api-openapi.yml
+- filename: pictomancer-ai-pipeline-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Pipeline API
+  slug: pictomancer-ai-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-pipeline-api-openapi.yml
+- filename: pictomancer-ai-resize-api-openapi.yml
+  format: yaml
+  label: Pictomancer.ai Resize API
+  slug: pictomancer-ai-resize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pictomancer-ai/refs/heads/main/openapi/pictomancer-ai-resize-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: tohuman-openapi-generated.yml
+- filename: tohuman-humanizations-api-openapi.yml
   format: yaml
-  label: ToHuman API
-  slug: tohuman-api
+  label: ToHuman Humanizations API
+  slug: tohuman-humanizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/_ae-authored/tohuman-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-humanizations-api-openapi.yml
+- filename: tohuman-humanize-api-openapi.yml
+  format: yaml
+  label: ToHuman Humanize API
+  slug: tohuman-humanize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-humanize-api-openapi.yml
+- filename: tohuman-submit-api-openapi.yml
+  format: yaml
+  label: ToHuman Submit API
+  slug: tohuman-submit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-submit-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,9 +62,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/security/tohuman-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Text-Humanization
-- Content-Generation
+- Content Generation
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

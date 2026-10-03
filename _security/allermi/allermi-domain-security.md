@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
 - Marketplace
-- Private-Equity
+- Private Equity
 - Investment
 - Company
 ---

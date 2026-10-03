@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: connskill-com-openapi.yml
+- filename: connskill-com-analytics-api-openapi.yml
   format: yaml
-  label: CONNSKILL Growth Services API
-  slug: connskill-growth-services-api
+  label: CONNSKILL Analytics API
+  slug: connskill-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-analytics-api-openapi.yml
+- filename: connskill-com-conformance-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Conformance API
+  slug: connskill-com-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-conformance-api-openapi.yml
+- filename: connskill-com-directory-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Directory API
+  slug: connskill-com-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-directory-api-openapi.yml
+- filename: connskill-com-discovery-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Discovery API
+  slug: connskill-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-discovery-api-openapi.yml
+- filename: connskill-com-eu-llm-api-openapi.yml
+  format: yaml
+  label: CONNSKILL EU LLM API
+  slug: connskill-com-eu-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-eu-llm-api-openapi.yml
+- filename: connskill-com-health-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Health API
+  slug: connskill-com-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-health-api-openapi.yml
+- filename: connskill-com-mail-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Mail API
+  slug: connskill-com-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-mail-api-openapi.yml
+- filename: connskill-com-meta-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Meta API
+  slug: connskill-com-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-meta-api-openapi.yml
+- filename: connskill-com-payments-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Payments API
+  slug: connskill-com-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-payments-api-openapi.yml
+- filename: connskill-com-seo-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SEO API
+  slug: connskill-com-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-seo-api-openapi.yml
+- filename: connskill-com-serp-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SERP API
+  slug: connskill-com-serp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-serp-api-openapi.yml
+- filename: connskill-com-smm-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SMM API
+  slug: connskill-com-smm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-smm-api-openapi.yml
+- filename: connskill-com-sms-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SMS API
+  slug: connskill-com-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-sms-api-openapi.yml
+- filename: connskill-com-status-json-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Status.json API
+  slug: connskill-com-status-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-status-json-api-openapi.yml
+- filename: connskill-com-support-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Support API
+  slug: connskill-com-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-support-api-openapi.yml
+- filename: connskill-com-on-chain-api-openapi.yml
+  format: yaml
+  label: CONNSKILL On Chain API
+  slug: connskill-com-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-on-chain-api-openapi.yml
 description: ''
 domains:
 - caa: []

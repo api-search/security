@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: getaiscan-app-openapi.json
-  format: json
+- filename: getaiscan-app-agent-api-openapi.yml
+  format: yaml
   label: AIScan Agent API
-  slug: aiscan-agent-api
+  slug: getaiscan-app-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-agent-api-openapi.yml
+- filename: getaiscan-app-ai-visibility-api-openapi.yml
+  format: yaml
+  label: AIScan AI Visibility API
+  slug: getaiscan-app-ai-visibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-ai-visibility-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

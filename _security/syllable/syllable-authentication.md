@@ -237,12 +237,6 @@ api_specs:
   slug: syllable-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/openapi/syllable-users-api-openapi.yml
-- filename: syllable-v1-api-openapi.yml
-  format: yaml
-  label: Syllable V1 API
-  slug: syllable-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/openapi/syllable-v1-api-openapi.yml
 - filename: syllable-voice-groups-api-openapi.yml
   format: yaml
   label: Syllable Voice Groups API

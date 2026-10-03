@@ -33,6 +33,6 @@ tags:
 - Company
 - Aquaculture
 - Technology
-- AI
+- Artificial Intelligence
 - Satellite
 ---

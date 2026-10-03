@@ -38,12 +38,12 @@ api_specs:
   slug: smarthr-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-webhooks-api-openapi.yml
-- filename: kufu-default-api-openapi.yml
+- filename: smarthr-default-api-openapi.yml
   format: yaml
-  label: SmartHR API v1
-  slug: kufu-default-api
+  label: SmartHR カスタム家族項目テンプレート API
+  slug: smarthr-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/kufu-default-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-default-api-openapi.yml
 auth_types: []
 description: Authentication profile for the SmartHR API. The published Swagger 2.0 document (openapi/kufu-smarthr-openapi.json) declares NO securityDefinitions, so this profile could not be derived from the spec — it was read from the developer documentation. SmartHR uses long-lived access tokens issued by a tenant administrator from the SmartHR admin dashboard. There is no OAuth 2.0 authorization server and no dynamic client registration; consequently there is no OAuth scopes artifact for this provider.
 kind: authentication

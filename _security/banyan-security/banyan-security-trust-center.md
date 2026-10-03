@@ -21,8 +21,8 @@ summary_line: SOC 2, FIPS 140
 tags:
 - Company
 - Security
-- ZeroTrust
-- Network
-- SaaS
+- Zero Trust
+- Networks
+- Software-as-a-Service
 trust_url: https://trust.sonicwall.com/
 ---

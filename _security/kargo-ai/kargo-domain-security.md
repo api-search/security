@@ -6,18 +6,18 @@ api_specs:
   slug: kargo-public-graphql-api
   spec_type: Postman
   url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/postman/kargo-public-graphql.postman_collection.json
-- filename: kargo-documents-api-openapi.yml
+- filename: kargo-ai-documents-api-openapi.yml
   format: yaml
   label: Kargo Documents API
-  slug: kargo-documents-api
+  slug: kargo-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-documents-api-openapi.yml
-- filename: kargo-sku-master-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-ai-documents-api-openapi.yml
+- filename: kargo-ai-sku-master-api-openapi.yml
   format: yaml
   label: Kargo SKU Master API
-  slug: kargo-sku-master-api
+  slug: kargo-ai-sku-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-sku-master-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-ai-sku-master-api-openapi.yml
 description: ''
 domains:
 - caa: []

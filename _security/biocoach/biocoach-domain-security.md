@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biocoach/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Health
-- DigitalHealth
+- Digital Health
 - Nutrition
-- AI
+- Artificial Intelligence
 - Longevity
 - Company
 ---

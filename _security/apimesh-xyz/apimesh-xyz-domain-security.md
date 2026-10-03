@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: apimesh-xyz-openapi.yml
+- filename: apimesh-xyz-apimesh-api-openapi.yml
   format: yaml
-  label: APIMesh Web Analysis APIs
-  slug: apimesh-web-analysis-apis
+  label: APIMesh API Mesh API
+  slug: apimesh-xyz-apimesh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-apimesh-api-openapi.yml
+- filename: apimesh-xyz-health-api-openapi.yml
+  format: yaml
+  label: APIMesh Health API
+  slug: apimesh-xyz-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-health-api-openapi.yml
+- filename: apimesh-xyz-preview-api-openapi.yml
+  format: yaml
+  label: APIMesh Preview API
+  slug: apimesh-xyz-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimesh-xyz/refs/heads/main/openapi/apimesh-xyz-preview-api-openapi.yml
 description: ''
 domains:
 - caa: []

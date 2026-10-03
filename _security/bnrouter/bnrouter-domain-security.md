@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bnrouter-openapi-generated.yml
+- filename: bnrouter-chat-api-openapi.yml
   format: yaml
-  label: bnrouter API
-  slug: bnrouter-api
+  label: bnrouter Chat API
+  slug: bnrouter-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/openapi/_ae-authored/bnrouter-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/openapi/bnrouter-chat-api-openapi.yml
+- filename: bnrouter-images-api-openapi.yml
+  format: yaml
+  label: bnrouter Images API
+  slug: bnrouter-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/openapi/bnrouter-images-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,9 +42,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/security/bnrouter-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
-- Gateway
+- Artificial Intelligence
+- Gateways
 - Multi-Model
 - OpenAI-Compatible
-- DeveloperTools
+- Developer Tools
 ---

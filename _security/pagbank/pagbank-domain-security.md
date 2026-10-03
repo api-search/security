@@ -1,77 +1,77 @@
 ---
 api_specs:
-- filename: pagseguro-orders-api-openapi.yml
+- filename: pagbank-accounts-api-openapi.yml
   format: yaml
-  label: PagBank Orders API
-  slug: pagbank-orders-api
+  label: PagBank Accounts API
+  slug: pagbank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-orders-api-openapi.yml
-- filename: pagseguro-connect-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-accounts-api-openapi.yml
+- filename: pagbank-charges-api-openapi.yml
   format: yaml
-  label: PagBank Connect API
-  slug: pagbank-connect-api
+  label: PagBank Charges API
+  slug: pagbank-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-connect-api-openapi.yml
-- filename: pagseguro-checkout-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-charges-api-openapi.yml
+- filename: pagbank-checkout-api-openapi.yml
   format: yaml
   label: PagBank Checkout API
   slug: pagbank-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-checkout-api-openapi.yml
-- filename: pagseguro-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-checkout-api-openapi.yml
+- filename: pagbank-connect-api-openapi.yml
   format: yaml
-  label: PagBank Account Registration API
-  slug: pagbank-account-registration-api
+  label: PagBank Connect API
+  slug: pagbank-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-accounts-api-openapi.yml
-- filename: pagseguro-charges-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-connect-api-openapi.yml
+- filename: pagbank-coupons-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Charges API
-  slug: pagseguro-charges-api
+  label: PagBank Coupons API
+  slug: pagbank-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-charges-api-openapi.yml
-- filename: pagseguro-coupons-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-coupons-api-openapi.yml
+- filename: pagbank-invoices-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Coupons API
-  slug: pagseguro-coupons-api
+  label: PagBank Invoices API
+  slug: pagbank-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-coupons-api-openapi.yml
-- filename: pagseguro-invoices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-invoices-api-openapi.yml
+- filename: pagbank-orders-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Invoices API
-  slug: pagseguro-invoices-api
+  label: PagBank Orders API
+  slug: pagbank-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-invoices-api-openapi.yml
-- filename: pagseguro-plans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-orders-api-openapi.yml
+- filename: pagbank-plans-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Plans API
-  slug: pagseguro-plans-api
+  label: PagBank Plans API
+  slug: pagbank-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-plans-api-openapi.yml
-- filename: pagseguro-refunds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-plans-api-openapi.yml
+- filename: pagbank-public-keys-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Refunds API
-  slug: pagseguro-refunds-api
+  label: PagBank Public Keys API
+  slug: pagbank-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-refunds-api-openapi.yml
-- filename: pagseguro-subscribers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-public-keys-api-openapi.yml
+- filename: pagbank-refunds-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Subscribers API
-  slug: pagseguro-subscribers-api
+  label: PagBank Refunds API
+  slug: pagbank-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-subscribers-api-openapi.yml
-- filename: pagseguro-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-refunds-api-openapi.yml
+- filename: pagbank-subscribers-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Subscriptions API
-  slug: pagseguro-subscriptions-api
+  label: PagBank Subscribers API
+  slug: pagbank-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-subscriptions-api-openapi.yml
-- filename: pagseguro-public-keys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-subscribers-api-openapi.yml
+- filename: pagbank-subscriptions-api-openapi.yml
   format: yaml
-  label: PagSeguro / PagBank Public Keys API
-  slug: pagseguro-public-keys-api
+  label: PagBank Subscriptions API
+  slug: pagbank-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagseguro-public-keys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/openapi/pagbank-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -36,18 +36,48 @@ api_specs:
   slug: workday-benefits-time-off-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
-- filename: workday-benefits-benefit-enrollment-event-offerings-openapi.json
-  format: json
-  label: Workday Benefit Enrollment Event Offerings API
-  slug: workday-benefits-benefit-enrollment-event-offerings-api
+- filename: workday-benefits-06-15-2024-api-openapi.yml
+  format: yaml
+  label: Workday Benefits 06/15/2024 API
+  slug: workday-benefits-06-15-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-enrollment-event-offerings-openapi.json
-- filename: workday-benefits-benefit-partner-openapi.json
-  format: json
-  label: Workday Benefit Partner API
-  slug: workday-benefits-benefit-partner-api
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2024-api-openapi.yml
+- filename: workday-benefits-06-15-2026-api-openapi.yml
+  format: yaml
+  label: Workday Benefits 06/15/2026 API
+  slug: workday-benefits-06-15-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-partner-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2026-api-openapi.yml
+- filename: workday-benefits-06-30-2026-api-openapi.yml
+  format: yaml
+  label: Workday Benefits 06/30/2026 API
+  slug: workday-benefits-06-30-2026-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-30-2026-api-openapi.yml
+- filename: workday-benefits-08-17-2026-api-openapi.yml
+  format: yaml
+  label: Workday Benefits 08/17/2026 API
+  slug: workday-benefits-08-17-2026-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-08-17-2026-api-openapi.yml
+- filename: workday-benefits-09-09-2023-api-openapi.yml
+  format: yaml
+  label: Workday Benefits 09/09/2023 API
+  slug: workday-benefits-09-09-2023-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-09-09-2023-api-openapi.yml
+- filename: workday-benefits-employeeenrollmentevent-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Employee Enrollment Event API
+  slug: workday-benefits-employeeenrollmentevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
+- filename: workday-benefits-programs-api-openapi.yml
+  format: yaml
+  label: Workday Benefits Programs API
+  slug: workday-benefits-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-programs-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

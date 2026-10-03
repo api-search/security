@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: mart-dev-openapi-generated.yml
+- filename: mart-dev-linked-in-api-openapi.yml
   format: yaml
-  label: Mart.dev API
-  slug: mart-dev-api
+  label: Mart.dev Linked In API
+  slug: mart-dev-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mart-dev/refs/heads/main/openapi/_ae-authored/mart-dev-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mart-dev/refs/heads/main/openapi/mart-dev-linked-in-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mart-dev/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Data
 - LinkedIn
 - Unofficial

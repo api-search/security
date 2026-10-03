@@ -1,11 +1,137 @@
 ---
 api_specs:
-- filename: greenhelix-net-a2a-commerce-gateway-openapi.yml
+- filename: greenhelix-net-batch-api-openapi.yml
   format: yaml
-  label: A2A Commerce Gateway API
-  slug: a2a-commerce-gateway-api
+  label: Green Helix Batch API
+  slug: greenhelix-net-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-a2a-commerce-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-batch-api-openapi.yml
+- filename: greenhelix-net-billing-api-openapi.yml
+  format: yaml
+  label: Green Helix Billing API
+  slug: greenhelix-net-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-billing-api-openapi.yml
+- filename: greenhelix-net-checkout-api-openapi.yml
+  format: yaml
+  label: Green Helix Checkout API
+  slug: greenhelix-net-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-checkout-api-openapi.yml
+- filename: greenhelix-net-disputes-api-openapi.yml
+  format: yaml
+  label: Green Helix Disputes API
+  slug: greenhelix-net-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-disputes-api-openapi.yml
+- filename: greenhelix-net-events-api-openapi.yml
+  format: yaml
+  label: Green Helix Events API
+  slug: greenhelix-net-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-events-api-openapi.yml
+- filename: greenhelix-net-execute-api-openapi.yml
+  format: yaml
+  label: Green Helix Execute API
+  slug: greenhelix-net-execute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-execute-api-openapi.yml
+- filename: greenhelix-net-gatekeeper-api-openapi.yml
+  format: yaml
+  label: Green Helix Gatekeeper API
+  slug: greenhelix-net-gatekeeper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-gatekeeper-api-openapi.yml
+- filename: greenhelix-net-health-api-openapi.yml
+  format: yaml
+  label: Green Helix Health API
+  slug: greenhelix-net-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-health-api-openapi.yml
+- filename: greenhelix-net-identity-api-openapi.yml
+  format: yaml
+  label: Green Helix Identity API
+  slug: greenhelix-net-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-identity-api-openapi.yml
+- filename: greenhelix-net-infra-api-openapi.yml
+  format: yaml
+  label: Green Helix Infra API
+  slug: greenhelix-net-infra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-infra-api-openapi.yml
+- filename: greenhelix-net-livez-api-openapi.yml
+  format: yaml
+  label: Green Helix Livez API
+  slug: greenhelix-net-livez-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-livez-api-openapi.yml
+- filename: greenhelix-net-marketplace-api-openapi.yml
+  format: yaml
+  label: Green Helix Marketplace API
+  slug: greenhelix-net-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-marketplace-api-openapi.yml
+- filename: greenhelix-net-messaging-api-openapi.yml
+  format: yaml
+  label: Green Helix Messaging API
+  slug: greenhelix-net-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-messaging-api-openapi.yml
+- filename: greenhelix-net-onboarding-api-openapi.yml
+  format: yaml
+  label: Green Helix Onboarding API
+  slug: greenhelix-net-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-onboarding-api-openapi.yml
+- filename: greenhelix-net-payments-api-openapi.yml
+  format: yaml
+  label: Green Helix Payments API
+  slug: greenhelix-net-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-payments-api-openapi.yml
+- filename: greenhelix-net-pricing-api-openapi.yml
+  format: yaml
+  label: Green Helix Pricing API
+  slug: greenhelix-net-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-pricing-api-openapi.yml
+- filename: greenhelix-net-readyz-api-openapi.yml
+  format: yaml
+  label: Green Helix Readyz API
+  slug: greenhelix-net-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-readyz-api-openapi.yml
+- filename: greenhelix-net-register-api-openapi.yml
+  format: yaml
+  label: Green Helix Register API
+  slug: greenhelix-net-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-register-api-openapi.yml
+- filename: greenhelix-net-signing-key-api-openapi.yml
+  format: yaml
+  label: Green Helix Signing Key API
+  slug: greenhelix-net-signing-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-signing-key-api-openapi.yml
+- filename: greenhelix-net-stripe-webhook-api-openapi.yml
+  format: yaml
+  label: Green Helix Stripe Webhook API
+  slug: greenhelix-net-stripe-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-stripe-webhook-api-openapi.yml
+- filename: greenhelix-net-trust-api-openapi.yml
+  format: yaml
+  label: Green Helix Trust API
+  slug: greenhelix-net-trust-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-trust-api-openapi.yml
+- filename: greenhelix-net-ws-api-openapi.yml
+  format: yaml
+  label: Green Helix Ws API
+  slug: greenhelix-net-ws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhelix-net/refs/heads/main/openapi/greenhelix-net-ws-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterplace01b
 summary_line: TLSv1.2
 tags:
 - Education
-- AI
+- Artificial Intelligence
 - Learning Platform
 - Courses
 - Technology

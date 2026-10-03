@@ -12,12 +12,6 @@ api_specs:
   slug: mntn-advertisers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-advertisers-api-openapi.yml
-- filename: mntn-api-api-openapi.yml
-  format: yaml
-  label: MNTN API
-  slug: mntn-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-api-api-openapi.yml
 - filename: mntn-attribution-api-openapi.yml
   format: yaml
   label: MNTN Attribution API
@@ -102,6 +96,18 @@ api_specs:
   slug: mntn-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-reference-api-openapi.yml
+- filename: mntn-apidata-api-openapi.yml
+  format: yaml
+  label: MNTN Apidata API
+  slug: mntn-apidata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-apidata-api-openapi.yml
+- filename: mntn-apilist-api-openapi.yml
+  format: yaml
+  label: MNTN Apilist API
+  slug: mntn-apilist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/openapi/mntn-apilist-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -6,24 +6,24 @@ api_specs:
   slug: aws-app-mesh-meshes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-meshes-api-openapi.yml
-- filename: aws-app-mesh-tag-resourcearn-api-openapi.yml
+- filename: aws-app-mesh-tag-api-openapi.yml
   format: yaml
-  label: AWS App Mesh Tag#resourceArn API
-  slug: aws-app-mesh-tag-resourcearn-api
+  label: AWS App Mesh Tag API
+  slug: aws-app-mesh-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tag-resourcearn-api-openapi.yml
-- filename: aws-app-mesh-tags-resourcearn-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tag-api-openapi.yml
+- filename: aws-app-mesh-tags-api-openapi.yml
   format: yaml
-  label: AWS App Mesh Tags#resourceArn API
-  slug: aws-app-mesh-tags-resourcearn-api
+  label: AWS App Mesh Tags API
+  slug: aws-app-mesh-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tags-resourcearn-api-openapi.yml
-- filename: aws-app-mesh-untag-resourcearn-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tags-api-openapi.yml
+- filename: aws-app-mesh-untag-api-openapi.yml
   format: yaml
-  label: AWS App Mesh Untag#resourceArn API
-  slug: aws-app-mesh-untag-resourcearn-api
+  label: AWS App Mesh Untag API
+  slug: aws-app-mesh-untag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-untag-resourcearn-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-untag-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

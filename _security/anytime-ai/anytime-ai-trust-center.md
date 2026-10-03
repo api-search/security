@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-09-25'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/security/anytime-ai-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- AI
-- LegalTech
+- Artificial Intelligence
+- Legal Tech
 - Litigation
-- SaaS
+- Software-as-a-Service
 - PlaintiffLawyers
 trust_url: https://www.anytimeai.ai/security/
 ---

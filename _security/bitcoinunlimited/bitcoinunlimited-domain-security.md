@@ -32,6 +32,6 @@ tags:
 - Company
 - Bitcoin
 - Cryptocurrency
-- OpenSource
+- Open Source
 - Community
 ---

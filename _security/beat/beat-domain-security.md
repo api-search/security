@@ -34,6 +34,6 @@ tags:
 - Finance
 - Investment
 - Marketplace
-- PrivateEquity
-- Startup
+- Private Equity
+- Startups
 ---

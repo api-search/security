@@ -33,6 +33,6 @@ tags:
 - Company
 - Healthcare
 - Technology
-- Value-based Care
+- Value-Based Care
 - Platform
 ---

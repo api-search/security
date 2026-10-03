@@ -18,12 +18,6 @@ api_specs:
   slug: descope-custom-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-custom-attributes-api-openapi.yml
-- filename: descope-default-api-openapi.yml
-  format: yaml
-  label: Descope Default API
-  slug: descope-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-default-api-openapi.yml
 - filename: descope-email-api-openapi.yml
   format: yaml
   label: Descope Email API

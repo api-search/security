@@ -33,5 +33,5 @@ tags:
 - Entertainment
 - K-pop
 - Media
-- South-Korea
+- South Korea
 ---

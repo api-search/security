@@ -8268,12 +8268,6 @@ api_specs:
   slug: microsoft-azure-v1topics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v1topics-api-openapi.yml
-- filename: microsoft-azure-v2-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure V2 API
-  slug: microsoft-azure-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-v2-api-openapi.yml
 - filename: microsoft-azure-v2workspaceconnectionresource-api-openapi.yml
   format: yaml
   label: Microsoft Azure V2WorkspaceConnectionResource API
@@ -8892,6 +8886,12 @@ api_specs:
   slug: microsoft-azure-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-apis-api-openapi.yml
+- filename: microsoft-azure-microsoft-azure-azure-container-registry-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Azure Azure Container Registry API
+  slug: microsoft-azure-microsoft-azure-azure-container-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-microsoft-azure-azure-container-registry-api-openapi.yml
 - filename: microsoft-azure-access-control-records-api-openapi.yml
   format: yaml
   label: Microsoft Azure Access Control Records API

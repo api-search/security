@@ -129,9 +129,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/security/avoma-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
-- AI
-- Meeting-Assistant
-- Sales-Enablement
+- Artificial Intelligence
+- Meeting Assistant
+- Sales Enablement
 - Automation
 - Productivity
 trust_url: https://trust.avoma.com/

@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: fossil-scm-openapi-generated.yml
+- filename: fossil-scm-home-api-openapi.yml
   format: yaml
-  label: Fossil SCM API
-  slug: fossil-scm-api
+  label: Fossil SCM Home API
+  slug: fossil-scm-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/_ae-authored/fossil-scm-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/fossil-scm-home-api-openapi.yml
+- filename: fossil-scm-json-api-openapi.yml
+  format: yaml
+  label: Fossil SCM JSON API
+  slug: fossil-scm-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/fossil-scm-json-api-openapi.yml
+- filename: fossil-scm-wikis-api-openapi.yml
+  format: yaml
+  label: Fossil SCM Wikis API
+  slug: fossil-scm-wikis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fossil-scm/refs/heads/main/openapi/fossil-scm-wikis-api-openapi.yml
 auth_types: []
 description: Authentication methods described in Fossil documentation
 kind: authentication

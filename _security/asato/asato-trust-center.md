@@ -22,9 +22,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asato/refs/hea
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - IT Asset Management
-- SaaS
+- Software-as-a-Service
 - Cloud
 trust_url: https://trust.asato.ai/
 ---

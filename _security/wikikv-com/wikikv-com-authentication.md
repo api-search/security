@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: wikikv-com-openapi.yml
+- filename: wikikv-com-agents-api-openapi.yml
   format: yaml
-  label: WikiKV API
-  slug: wikikv-api
+  label: WikiKV Agents API
+  slug: wikikv-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-agents-api-openapi.yml
+- filename: wikikv-com-experiences-api-openapi.yml
+  format: yaml
+  label: WikiKV Experiences API
+  slug: wikikv-com-experiences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-experiences-api-openapi.yml
+- filename: wikikv-com-knowledge-api-openapi.yml
+  format: yaml
+  label: WikiKV Knowledge API
+  slug: wikikv-com-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-knowledge-api-openapi.yml
+- filename: wikikv-com-personal-rag-api-openapi.yml
+  format: yaml
+  label: WikiKV Personal Rag API
+  slug: wikikv-com-personal-rag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-personal-rag-api-openapi.yml
+- filename: wikikv-com-system-api-openapi.yml
+  format: yaml
+  label: WikiKV System API
+  slug: wikikv-com-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-system-api-openapi.yml
+- filename: wikikv-com-workspace-api-openapi.yml
+  format: yaml
+  label: WikiKV Workspace API
+  slug: wikikv-com-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-workspace-api-openapi.yml
 auth_types:
 - http
 description: ''

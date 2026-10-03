@@ -136,6 +136,13 @@ header:
     label: Stack
     url: https://apis.io/stack/
 
+  # Lead page for the on-premise appliance (first draft, 2026-09-28). Flat item so it is one
+  # click from every page on every site; a page, not a section, so it is EXCLUDED in
+  # build_well_known_catalog.py.
+  - key: on-premise
+    label: On-Premise
+    url: https://apis.io/on-premise/
+
   - key: blog
     label: Blog
     url: https://apis.io/blog/
@@ -228,6 +235,7 @@ footer:
         - { label: Blog, url: 'https://apis.io/blog/' }
         - { label: Newsletter, url: 'https://usecommune.com/n/apisio' }
         - { label: Add Your API, url: 'https://apis.io/add/' }
+        - { label: On-Premise, url: 'https://apis.io/on-premise/' }
         - { label: Support, url: 'https://apis.io/support/' }
         - { label: GitHub, url: 'https://github.com/api-search' }
 

@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Hospitality
 - Restaurant
-- SaaS
-- Operations
+- Software-as-a-Service
 - Analytics
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: lightbox-zoning-api-zoning-api-openapi.yml
+- filename: lightbox-zoning-api-openapi.yml
   format: yaml
   label: LightBox Zoning API
-  slug: lightbox-zoning-api-zoning-api
+  slug: lightbox-zoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/openapi/lightbox-zoning-api-zoning-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/openapi/lightbox-zoning-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: rss-app-openapi-generated.yml
+- filename: rss-app-bundles-api-openapi.yml
   format: yaml
-  label: RSS.app API
-  slug: rss-app-api
+  label: RSS.app Bundles API
+  slug: rss-app-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/_ae-authored/rss-app-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/rss-app-bundles-api-openapi.yml
+- filename: rss-app-feed-api-openapi.yml
+  format: yaml
+  label: RSS.app Feed API
+  slug: rss-app-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/rss-app-feed-api-openapi.yml
+- filename: rss-app-rss-app-api-api-openapi.yml
+  format: yaml
+  label: RSS.app RSS.app API
+  slug: rss-app-rss-app-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rss-app/refs/heads/main/openapi/rss-app-rss-app-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

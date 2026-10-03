@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Exchange
-- MarketData
+- Market Data
 - Trading
 ---

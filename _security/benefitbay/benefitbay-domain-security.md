@@ -34,6 +34,6 @@ tags:
 - Company
 - ICHRA
 - Benefits
-- HealthTech
-- SaaS
+- Health Tech
+- Software-as-a-Service
 ---

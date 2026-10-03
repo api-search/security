@@ -34,6 +34,6 @@ tags:
 - Healthcare
 - Diagnostics
 - Molecular Testing
-- Startup
-- DeepTech
+- Startups
+- Deep Tech
 ---

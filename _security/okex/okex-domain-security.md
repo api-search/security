@@ -35,5 +35,4 @@ summary_line: DNSSEC
 tags:
 - Cryptocurrency
 - Public APIs
-- Real-Time
 ---

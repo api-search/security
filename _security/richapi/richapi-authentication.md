@@ -29,8 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/richapi/refs/h
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- Data-Enrichment
+- Data Enrichment
 - B2B
 - MCP
 ---

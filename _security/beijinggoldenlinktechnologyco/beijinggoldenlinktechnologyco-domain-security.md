@@ -27,8 +27,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beijinggoldenl
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Manufacturing
-- PrecisionComponents
+- Precision Components
 - China
 ---

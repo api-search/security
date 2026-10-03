@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/antworkshop60f
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Data
 - Technology
 - Platform

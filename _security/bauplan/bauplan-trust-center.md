@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bauplan-openapi-generated.yml
+- filename: bauplan-bauplanlabs-api-openapi.yml
   format: yaml
-  label: Bauplan API
-  slug: bauplan-api
+  label: Bauplan Bauplanlabs API
+  slug: bauplan-bauplanlabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bauplan/refs/heads/main/openapi/_ae-authored/bauplan-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bauplan/refs/heads/main/openapi/bauplan-bauplanlabs-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -28,7 +28,7 @@ tags:
 - Data Engineering
 - AI Agents
 - Serverless Platform
-- Data Pipelines
+- Data Pipeline
 - Data Integration
 - Isolation and Rollback
 trust_url: https://security.bauplanlabs.com/

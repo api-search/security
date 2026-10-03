@@ -3,12 +3,36 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: taskhawktech-com-openapi.yml
+- filename: taskhawktech-com-billing-api-openapi.yml
   format: yaml
-  label: Kevros Governance API
-  slug: kevros-governance-api
+  label: TaskHawk Systems Billing API
+  slug: taskhawktech-com-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-billing-api-openapi.yml
+- filename: taskhawktech-com-governance-api-openapi.yml
+  format: yaml
+  label: TaskHawk Systems Governance API
+  slug: taskhawktech-com-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-governance-api-openapi.yml
+- filename: taskhawktech-com-media-api-openapi.yml
+  format: yaml
+  label: TaskHawk Systems Media API
+  slug: taskhawktech-com-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-media-api-openapi.yml
+- filename: taskhawktech-com-shield-api-openapi.yml
+  format: yaml
+  label: TaskHawk Systems Shield API
+  slug: taskhawktech-com-shield-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-shield-api-openapi.yml
+- filename: taskhawktech-com-signup-api-openapi.yml
+  format: yaml
+  label: TaskHawk Systems Signup API
+  slug: taskhawktech-com-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-signup-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

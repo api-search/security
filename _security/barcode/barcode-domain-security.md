@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barcode/refs/h
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Barcode
-- API
+- Barcodes
 - Data
 - Services
 ---

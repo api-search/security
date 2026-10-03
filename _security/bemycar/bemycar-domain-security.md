@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Automotive
-- AI
-- LeadManagement
+- Artificial Intelligence
+- Lead Management
 - Mobility
 ---

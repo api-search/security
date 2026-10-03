@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- SouthKorea
-- FinancialServices
-- HealthTech
+- South Korea
+- Financial Services
+- Health Tech
 ---

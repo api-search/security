@@ -54,7 +54,7 @@ tags:
 - Georgia
 - AI Agents
 - MCP
-- specialists
+- Specialists
 - Professional Services
 - Marketplace
 - Multilingual

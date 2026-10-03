@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: avochato-openapi-generated.yml
+- filename: avochato-avochato-api-api-openapi.yml
   format: yaml
-  label: Avochato API
-  slug: avochato-api
+  label: Avochato Avochato API
+  slug: avochato-avochato-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/_ae-authored/avochato-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-avochato-api-api-openapi.yml
+- filename: avochato-broadcasts-api-openapi.yml
+  format: yaml
+  label: Avochato Broadcasts API
+  slug: avochato-broadcasts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-broadcasts-api-openapi.yml
+- filename: avochato-campaigns-api-openapi.yml
+  format: yaml
+  label: Avochato Campaigns API
+  slug: avochato-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-campaigns-api-openapi.yml
+- filename: avochato-contacts-api-openapi.yml
+  format: yaml
+  label: Avochato Contacts API
+  slug: avochato-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-contacts-api-openapi.yml
+- filename: avochato-links-api-openapi.yml
+  format: yaml
+  label: Avochato Links API
+  slug: avochato-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-links-api-openapi.yml
+- filename: avochato-messages-api-openapi.yml
+  format: yaml
+  label: Avochato Messages API
+  slug: avochato-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-messages-api-openapi.yml
+- filename: avochato-tickets-api-openapi.yml
+  format: yaml
+  label: Avochato Tickets API
+  slug: avochato-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avochato/refs/heads/main/openapi/avochato-tickets-api-openapi.yml
 description: ''
 domains:
 - caa:

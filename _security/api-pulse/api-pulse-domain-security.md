@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs
 summary_line: TLSv1.3
 tags:
 - API Benchmarking
-- API Evangelist
+- API-Evangelist
 - API Governance
 - API Maturity
 - Surveys

@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: warppay402-com-openapi.yml
+- filename: warppay402-com-feeds-api-openapi.yml
   format: yaml
-  label: WarpPay402 Monetized MCP Tools API
-  slug: warppay402-monetized-mcp-tools-api
+  label: WarpPay402 Studio Feeds API
+  slug: warppay402-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-feeds-api-openapi.yml
+- filename: warppay402-com-public-data-feed-api-openapi.yml
+  format: yaml
+  label: WarpPay402 Studio Public Data Feed API
+  slug: warppay402-com-public-data-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-public-data-feed-api-openapi.yml
+- filename: warppay402-com-tools-api-openapi.yml
+  format: yaml
+  label: WarpPay402 Studio Tools API
+  slug: warppay402-com-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-tools-api-openapi.yml
 auth_types: []
 description: 'WarpPay402 replaces credentials with payment. There is no signup, no API key and no OAuth: an unpaid request to any operation receives HTTP 402 with an x402 v2 challenge, the client signs a USDC transfer for the quoted amount on one of four networks and retries with the signature in a PAYMENT-SIGNATURE header, and the gateway verifies settlement (splitting a platform fee) before proxying the request. The MCP server''s discovery methods (initialize, tools/list, resources/list, prompts/list) are fully anonymous; tool calls are settled the same way through the stdio bridge. A flat-rate monthly access token is offered by email but is undocumented, so it is recorded as a claim, not a scheme.'
 kind: authentication

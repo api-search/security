@@ -36,6 +36,6 @@ tags:
 - Fintech
 - Automotive
 - Payments
-- DigitalPlatform
+- Digital Platform
 - B2B
 ---

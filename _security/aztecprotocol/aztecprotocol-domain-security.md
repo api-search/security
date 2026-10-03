@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: aztecprotocol-openapi-generated.yml
+- filename: aztecprotocol-aztecprotocol-api-api-openapi.yml
   format: yaml
-  label: Aztecprotocol API
-  slug: aztecprotocol-api
+  label: Aztecprotocol Aztecprotocol API
+  slug: aztecprotocol-aztecprotocol-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aztecprotocol/refs/heads/main/openapi/_ae-authored/aztecprotocol-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aztecprotocol/refs/heads/main/openapi/aztecprotocol-aztecprotocol-api-api-openapi.yml
+- filename: aztecprotocol-status-api-openapi.yml
+  format: yaml
+  label: Aztecprotocol Status API
+  slug: aztecprotocol-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aztecprotocol/refs/heads/main/openapi/aztecprotocol-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain
 - Privacy
-- zkRollup
+- ZK-Rollup
 - Ethereum
 - Decentralized
 ---

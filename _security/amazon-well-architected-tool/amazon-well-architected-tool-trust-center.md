@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: amazon-well-architected-tool-consolidatedreport-format-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool ConsolidatedReport#Format API
-  slug: amazon-well-architected-tool-consolidatedreport-format-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-consolidatedreport-format-api-openapi.yml
 - filename: amazon-well-architected-tool-global-settings-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Global Settings API
@@ -42,6 +36,12 @@ api_specs:
   slug: amazon-well-architected-tool-workloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-workloads-api-openapi.yml
+- filename: amazon-well-architected-tool-consolidatedreport-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Consolidated Report API
+  slug: amazon-well-architected-tool-consolidatedreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-consolidatedreport-api-openapi.yml
 - filename: amazon-well-architected-tool-import-lens-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Import Lens API

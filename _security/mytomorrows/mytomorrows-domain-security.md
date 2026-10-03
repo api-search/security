@@ -18,12 +18,60 @@ api_specs:
   slug: mytomorrows-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-system-api-openapi.yml
-- filename: mytomorrows-v1-api-openapi.yml
+- filename: mytomorrows-anno-api-openapi.yml
   format: yaml
-  label: myTomorrows V1 API
-  slug: mytomorrows-v1-api
+  label: myTomorrows Anno API
+  slug: mytomorrows-anno-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-anno-api-openapi.yml
+- filename: mytomorrows-autocomplete-api-openapi.yml
+  format: yaml
+  label: myTomorrows Autocomplete API
+  slug: mytomorrows-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-autocomplete-api-openapi.yml
+- filename: mytomorrows-docs-api-openapi.yml
+  format: yaml
+  label: myTomorrows Docs API
+  slug: mytomorrows-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-docs-api-openapi.yml
+- filename: mytomorrows-document-api-openapi.yml
+  format: yaml
+  label: myTomorrows Document API
+  slug: mytomorrows-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-document-api-openapi.yml
+- filename: mytomorrows-es-api-openapi.yml
+  format: yaml
+  label: myTomorrows Es API
+  slug: mytomorrows-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-es-api-openapi.yml
+- filename: mytomorrows-llm-api-openapi.yml
+  format: yaml
+  label: myTomorrows Llm API
+  slug: mytomorrows-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-llm-api-openapi.yml
+- filename: mytomorrows-mdt-api-openapi.yml
+  format: yaml
+  label: myTomorrows Mdt API
+  slug: mytomorrows-mdt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-mdt-api-openapi.yml
+- filename: mytomorrows-search-api-openapi.yml
+  format: yaml
+  label: myTomorrows Search API
+  slug: mytomorrows-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-search-api-openapi.yml
+- filename: mytomorrows-wrapper-api-openapi.yml
+  format: yaml
+  label: myTomorrows Wrapper API
+  slug: mytomorrows-wrapper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-wrapper-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/batchgeo/refs/
 summary_line: TLSv1.2 · DMARC
 tags:
 - Mapping
-- SaaS
+- Software-as-a-Service
 - Data Visualization
 - Real Estate
 - Sales

@@ -3,12 +3,90 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: globaldatabase-com-mcp-playground-openapi.yml
+- filename: globaldatabase-com-autocomplete-api-openapi.yml
   format: yaml
-  label: Global Database MCP Server
-  slug: global-database-mcp-server
+  label: Global Database Autocomplete API
+  slug: globaldatabase-com-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-mcp-playground-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-autocomplete-api-openapi.yml
+- filename: globaldatabase-com-company-by-linkedin-api-openapi.yml
+  format: yaml
+  label: Global Database Company By Linkedin API
+  slug: globaldatabase-com-company-by-linkedin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-by-linkedin-api-openapi.yml
+- filename: globaldatabase-com-company-by-url-api-openapi.yml
+  format: yaml
+  label: Global Database Company By Url API
+  slug: globaldatabase-com-company-by-url-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-by-url-api-openapi.yml
+- filename: globaldatabase-com-company-details-api-openapi.yml
+  format: yaml
+  label: Global Database Company Details API
+  slug: globaldatabase-com-company-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-details-api-openapi.yml
+- filename: globaldatabase-com-company-financials-api-openapi.yml
+  format: yaml
+  label: Global Database Company Financials API
+  slug: globaldatabase-com-company-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-financials-api-openapi.yml
+- filename: globaldatabase-com-company-ownership-api-openapi.yml
+  format: yaml
+  label: Global Database Company Ownership API
+  slug: globaldatabase-com-company-ownership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-ownership-api-openapi.yml
+- filename: globaldatabase-com-fastapi-api-openapi.yml
+  format: yaml
+  label: Global Database Fast API
+  slug: globaldatabase-com-fastapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-fastapi-api-openapi.yml
+- filename: globaldatabase-com-health-api-openapi.yml
+  format: yaml
+  label: Global Database Health API
+  slug: globaldatabase-com-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-health-api-openapi.yml
+- filename: globaldatabase-com-nomenclature-api-openapi.yml
+  format: yaml
+  label: Global Database Nomenclature API
+  slug: globaldatabase-com-nomenclature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-nomenclature-api-openapi.yml
+- filename: globaldatabase-com-oauth-api-openapi.yml
+  format: yaml
+  label: Global Database OAuth API
+  slug: globaldatabase-com-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-oauth-api-openapi.yml
+- filename: globaldatabase-com-playground-api-openapi.yml
+  format: yaml
+  label: Global Database Playground API
+  slug: globaldatabase-com-playground-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-playground-api-openapi.yml
+- filename: globaldatabase-com-prospecting-api-openapi.yml
+  format: yaml
+  label: Global Database Prospecting API
+  slug: globaldatabase-com-prospecting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-prospecting-api-openapi.yml
+- filename: globaldatabase-com-verify-token-api-openapi.yml
+  format: yaml
+  label: Global Database Verify Token API
+  slug: globaldatabase-com-verify-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-verify-token-api-openapi.yml
+- filename: globaldatabase-com-well-known-api-openapi.yml
+  format: yaml
+  label: Global Database .well Known API
+  slug: globaldatabase-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -33,6 +33,5 @@ tags:
 - Company
 - Healthcare
 - Technology
-- API
 - Data
 ---

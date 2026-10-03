@@ -170,7 +170,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-veteran-verification-api-openapi.yml
 - filename: va-gov-direct-deposit-api-openapi.yml
   format: yaml
-  label: VA Lighthouse Direct Deposit API
+  label: Department of Veterans Affairs (VA Lighthouse) Direct Deposit API
   slug: va-gov-direct-deposit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-direct-deposit-api-openapi.yml

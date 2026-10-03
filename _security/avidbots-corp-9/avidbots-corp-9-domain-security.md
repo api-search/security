@@ -34,5 +34,5 @@ tags:
 - Autonomous
 - Cleaning
 - Industrial
-- SaaS
+- Software-as-a-Service
 ---

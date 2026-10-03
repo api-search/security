@@ -34,5 +34,5 @@ tags:
 - Precision Medicine
 - Cancer Detection
 - Genomics
-- AI
+- Artificial Intelligence
 ---

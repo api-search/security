@@ -35,5 +35,5 @@ tags:
 - Healthcare
 - Cardiology
 - Diagnostics
-- RemoteMonitoring
+- Remote Monitoring
 ---

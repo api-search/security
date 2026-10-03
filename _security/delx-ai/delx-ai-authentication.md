@@ -3,18 +3,54 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: delx-ai-protocol-openapi.json
-  format: json
+- filename: delx-ai-a2a-api-openapi.yml
+  format: yaml
+  label: Delx A2a API
+  slug: delx-ai-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-a2a-api-openapi.yml
+- filename: delx-ai-agents-api-openapi.yml
+  format: yaml
+  label: Delx Agents API
+  slug: delx-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-agents-api-openapi.yml
+- filename: delx-ai-discovery-api-openapi.yml
+  format: yaml
+  label: Delx Discovery API
+  slug: delx-ai-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-discovery-api-openapi.yml
+- filename: delx-ai-mcp-api-openapi.yml
+  format: yaml
+  label: Delx MCP API
+  slug: delx-ai-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-mcp-api-openapi.yml
+- filename: delx-ai-protocol-api-openapi.yml
+  format: yaml
   label: Delx Protocol API
-  slug: delx-protocol-api
+  slug: delx-ai-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-protocol-openapi.json
-- filename: delx-ai-commerce-x402-openapi.json
-  format: json
-  label: Delx Commerce x402 API
-  slug: delx-commerce-x402-api
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-protocol-api-openapi.yml
+- filename: delx-ai-reliability-api-openapi.yml
+  format: yaml
+  label: Delx Reliability API
+  slug: delx-ai-reliability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-commerce-x402-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-reliability-api-openapi.yml
+- filename: delx-ai-tools-api-openapi.yml
+  format: yaml
+  label: Delx Tools API
+  slug: delx-ai-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-tools-api-openapi.yml
+- filename: delx-ai-x402-api-openapi.yml
+  format: yaml
+  label: Delx X402 API
+  slug: delx-ai-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-x402-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

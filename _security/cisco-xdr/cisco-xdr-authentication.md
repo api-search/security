@@ -423,24 +423,6 @@ api_specs:
   slug: cisco-xdr-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-triggers-api-openapi.yml
-- filename: cisco-xdr-v1-api-openapi.yml
-  format: yaml
-  label: Cisco XDR V1 API
-  slug: cisco-xdr-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-v1-api-openapi.yml
-- filename: cisco-xdr-v2-api-openapi.yml
-  format: yaml
-  label: Cisco XDR V2 API
-  slug: cisco-xdr-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-v2-api-openapi.yml
-- filename: cisco-xdr-v3-api-openapi.yml
-  format: yaml
-  label: Cisco XDR V3 API
-  slug: cisco-xdr-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-v3-api-openapi.yml
 - filename: cisco-xdr-variables-api-openapi.yml
   format: yaml
   label: Cisco XDR Variables API
@@ -477,6 +459,60 @@ api_specs:
   slug: cisco-xdr-xchange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-xchange-api-openapi.yml
+- filename: cisco-xdr-incident-overview-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Incident Overview API
+  slug: cisco-xdr-incident-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-incident-overview-api-openapi.yml
+- filename: cisco-xdr-incident-report-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Incident Report API
+  slug: cisco-xdr-incident-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-incident-report-api-openapi.yml
+- filename: cisco-xdr-incident-routes-using-entities-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Incident Routes using Entities API
+  slug: cisco-xdr-incident-routes-using-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-incident-routes-using-entities-api-openapi.yml
+- filename: cisco-xdr-incident-summary-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Incident Summary API
+  slug: cisco-xdr-incident-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-incident-summary-api-openapi.yml
+- filename: cisco-xdr-investigation-creation-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Investigation Creation API
+  slug: cisco-xdr-investigation-creation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-investigation-creation-api-openapi.yml
+- filename: cisco-xdr-investigation-data-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Investigation Data API
+  slug: cisco-xdr-investigation-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-investigation-data-api-openapi.yml
+- filename: cisco-xdr-investigation-routes-using-entities-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Investigation Routes using Entities API
+  slug: cisco-xdr-investigation-routes-using-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-investigation-routes-using-entities-api-openapi.yml
+- filename: cisco-xdr-investigation-save-update-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Investigation Save/Update API
+  slug: cisco-xdr-investigation-save-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-investigation-save-update-api-openapi.yml
+- filename: cisco-xdr-report-api-openapi.yml
+  format: yaml
+  label: Cisco XDR Report API
+  slug: cisco-xdr-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-report-api-openapi.yml
 - filename: cisco-xdr-graph-ql-api-openapi.yml
   format: yaml
   label: Cisco XDR Graph QL API

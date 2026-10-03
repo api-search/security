@@ -34,7 +34,6 @@ tags:
 - Energy Commerce
 - Retail Electricity
 - Marketplace
-- API
 - Energy Providers
 - Developers
 - Partners

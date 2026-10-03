@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-simpledb.yaml
+- filename: amazon-simpledb-amazon-simpledb-api-openapi.yml
   format: yaml
-  label: Amazon SimpleDB API
-  slug: amazon-simpledb-api
+  label: Amazon SimpleDB Amazon SimpleDB API
+  slug: amazon-simpledb-amazon-simpledb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/_original/amazon-simpledb.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-amazon-simpledb-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

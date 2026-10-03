@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assetplusf339/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - WealthTech
-- PortfolioManagement
+- Portfolio Management
 - Software
 ---

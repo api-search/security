@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: ozan-soft-openapi.yml
+- filename: ozan-soft-gender-inference-api-openapi.yml
   format: yaml
-  label: GenderAPI.io
-  slug: genderapiio
+  label: Ozan Soft Gender inference API
+  slug: ozan-soft-gender-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-gender-inference-api-openapi.yml
+- filename: ozan-soft-phone-api-openapi.yml
+  format: yaml
+  label: Ozan Soft Phone API
+  slug: ozan-soft-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-phone-api-openapi.yml
+- filename: ozan-soft-quota-api-openapi.yml
+  format: yaml
+  label: Ozan Soft Quota API
+  slug: ozan-soft-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ozan-soft/refs/heads/main/openapi/ozan-soft-quota-api-openapi.yml
 description: ''
 domains:
 - caa: []

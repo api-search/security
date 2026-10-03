@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argoai/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Autonomous Vehicles
-- Lidar
+- LiDAR
 - Self-Driving
 - Ford
 - Volkswagen
-- AI
+- Artificial Intelligence
 ---

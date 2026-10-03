@@ -33,6 +33,6 @@ tags:
 - Travel
 - Fintech
 - Rewards
-- MobileApp
+- Mobile App
 - Loyalty
 ---

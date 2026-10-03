@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: canfly-ai-openapi.yml
+- filename: canfly-ai-agents-api-openapi.yml
   format: yaml
-  label: CanFly.ai Agent Skill Marketplace API
-  slug: canfly-agent-marketplace-api
+  label: CanFly Agents API
+  slug: canfly-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-agents-api-openapi.yml
+- filename: canfly-ai-discovery-api-openapi.yml
+  format: yaml
+  label: CanFly Discovery API
+  slug: canfly-ai-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-discovery-api-openapi.yml
+- filename: canfly-ai-skills-api-openapi.yml
+  format: yaml
+  label: CanFly Skills API
+  slug: canfly-ai-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canfly-ai/refs/heads/main/openapi/canfly-ai-skills-api-openapi.yml
 description: ''
 domains:
 - caa: []

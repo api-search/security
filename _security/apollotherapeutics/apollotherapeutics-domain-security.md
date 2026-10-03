@@ -35,6 +35,6 @@ tags:
 - Biopharma
 - Portfolio
 - R&D
-- Investors
-- Locations
+- Investor
+- Location
 ---

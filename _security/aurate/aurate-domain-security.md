@@ -35,5 +35,5 @@ tags:
 - Jewelry
 - Sustainable
 - Ethical
-- E‑commerce
+- E-Commerce
 ---

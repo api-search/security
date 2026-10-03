@@ -34,6 +34,6 @@ tags:
 - Marketplace
 - Used Vehicles
 - India
-- E-commerce
-- Startup
+- E-Commerce
+- Startups
 ---

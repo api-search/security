@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: 01mind-net-openapi.json
-  format: json
-  label: 01Mind Agent Superstore API
-  slug: 01mind-agent-superstore-api
+- filename: 01mind-net-campaigns-api-openapi.yml
+  format: yaml
+  label: 01Mind Campaigns API
+  slug: 01mind-net-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-campaigns-api-openapi.yml
+- filename: 01mind-net-charon-api-openapi.yml
+  format: yaml
+  label: 01Mind Charon API
+  slug: 01mind-net-charon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-charon-api-openapi.yml
+- filename: 01mind-net-document-templates-api-openapi.yml
+  format: yaml
+  label: 01Mind Document Templates API
+  slug: 01mind-net-document-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-document-templates-api-openapi.yml
+- filename: 01mind-net-execute-api-openapi.yml
+  format: yaml
+  label: 01Mind Execute API
+  slug: 01mind-net-execute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-execute-api-openapi.yml
+- filename: 01mind-net-research-api-openapi.yml
+  format: yaml
+  label: 01Mind Research API
+  slug: 01mind-net-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-research-api-openapi.yml
+- filename: 01mind-net-sandbox-api-openapi.yml
+  format: yaml
+  label: 01Mind Sandbox API
+  slug: 01mind-net-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-sandbox-api-openapi.yml
+- filename: 01mind-net-token-topups-api-openapi.yml
+  format: yaml
+  label: 01Mind Token Topups API
+  slug: 01mind-net-token-topups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-token-topups-api-openapi.yml
+- filename: 01mind-net-tool-requests-api-openapi.yml
+  format: yaml
+  label: 01Mind Tool Requests API
+  slug: 01mind-net-tool-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-tool-requests-api-openapi.yml
+- filename: 01mind-net-venue-api-openapi.yml
+  format: yaml
+  label: 01Mind Venue API
+  slug: 01mind-net-venue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-venue-api-openapi.yml
 description: ''
 domains:
 - caa: []

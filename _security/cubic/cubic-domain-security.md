@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cubic-umo-iq-public-feed-openapi.yml
+- filename: cubic-public-feed-api-openapi.yml
   format: yaml
-  label: Umo IQ Public Feed API
-  slug: umo-iq-public-feed
+  label: Cubic Public Feed API
+  slug: cubic-public-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/openapi/cubic-umo-iq-public-feed-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/openapi/cubic-public-feed-api-openapi.yml
 description: ''
 domains:
 - caa: []

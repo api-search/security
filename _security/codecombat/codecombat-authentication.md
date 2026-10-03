@@ -20,12 +20,6 @@ api_specs:
   slug: codecombat-classrooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-classrooms-api-openapi.yml
-- filename: codecombat-default-api-openapi.yml
-  format: yaml
-  label: CodeCombat Default API
-  slug: codecombat-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/openapi/codecombat-default-api-openapi.yml
 - filename: codecombat-stats-api-openapi.yml
   format: yaml
   label: CodeCombat Stats API

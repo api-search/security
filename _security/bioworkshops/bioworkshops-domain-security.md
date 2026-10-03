@@ -32,6 +32,6 @@ tags:
 - Company
 - Biologics
 - CDMO
-- AntibodyTherapeutics
+- Antibody Therapeutics
 - Biosimilars
 ---

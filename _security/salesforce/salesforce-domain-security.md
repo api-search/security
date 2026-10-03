@@ -876,66 +876,66 @@ api_specs:
   slug: salesforce-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-oauth-api-openapi.yml
-- filename: salesforce-automation-dashboards-api-openapi.yml
+- filename: salesforce-dashboards-api-openapi.yml
   format: yaml
   label: Salesforce Dashboards API
-  slug: salesforce-automation-dashboards-api
+  slug: salesforce-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-dashboards-api-openapi.yml
-- filename: salesforce-automation-dataflows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-dashboards-api-openapi.yml
+- filename: salesforce-dataflows-api-openapi.yml
   format: yaml
   label: Salesforce Dataflows API
-  slug: salesforce-automation-dataflows-api
+  slug: salesforce-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-dataflows-api-openapi.yml
-- filename: salesforce-automation-datasets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-dataflows-api-openapi.yml
+- filename: salesforce-datasets-api-openapi.yml
   format: yaml
   label: Salesforce Datasets API
-  slug: salesforce-automation-datasets-api
+  slug: salesforce-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-datasets-api-openapi.yml
-- filename: salesforce-automation-flows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-datasets-api-openapi.yml
+- filename: salesforce-flows-api-openapi.yml
   format: yaml
   label: Salesforce Flows API
-  slug: salesforce-automation-flows-api
+  slug: salesforce-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-flows-api-openapi.yml
-- filename: salesforce-automation-folders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-flows-api-openapi.yml
+- filename: salesforce-folders-api-openapi.yml
   format: yaml
   label: Salesforce Folders API
-  slug: salesforce-automation-folders-api
+  slug: salesforce-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-folders-api-openapi.yml
-- filename: salesforce-automation-lenses-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-folders-api-openapi.yml
+- filename: salesforce-lenses-api-openapi.yml
   format: yaml
   label: Salesforce Lenses API
-  slug: salesforce-automation-lenses-api
+  slug: salesforce-lenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-lenses-api-openapi.yml
-- filename: salesforce-automation-pushtopics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-lenses-api-openapi.yml
+- filename: salesforce-pushtopics-api-openapi.yml
   format: yaml
-  label: Salesforce PushTopics API
-  slug: salesforce-automation-pushtopics-api
+  label: Salesforce Push Topics API
+  slug: salesforce-pushtopics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-pushtopics-api-openapi.yml
-- filename: salesforce-automation-streaming-channels-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-pushtopics-api-openapi.yml
+- filename: salesforce-streaming-channels-api-openapi.yml
   format: yaml
   label: Salesforce Streaming Channels API
-  slug: salesforce-automation-streaming-channels-api
+  slug: salesforce-streaming-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-streaming-channels-api-openapi.yml
-- filename: salesforce-automation-topics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-streaming-channels-api-openapi.yml
+- filename: salesforce-topics-api-openapi.yml
   format: yaml
   label: Salesforce Topics API
-  slug: salesforce-automation-topics-api
+  slug: salesforce-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-topics-api-openapi.yml
-- filename: salesforce-automation-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-topics-api-openapi.yml
+- filename: salesforce-users-api-openapi.yml
   format: yaml
   label: Salesforce Users API
-  slug: salesforce-automation-users-api
+  slug: salesforce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-automation-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

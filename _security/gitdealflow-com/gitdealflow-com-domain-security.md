@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: gitdealflow-com-signals-openapi.yml
+- filename: gitdealflow-com-agents-api-openapi.yml
   format: yaml
-  label: VC Deal Flow Signal API
-  slug: vc-deal-flow-signal-api
+  label: GitDealFlow Agents API
+  slug: gitdealflow-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-signals-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-agents-api-openapi.yml
+- filename: gitdealflow-com-answer-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Answer API
+  slug: gitdealflow-com-answer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-answer-api-openapi.yml
+- filename: gitdealflow-com-badges-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Badges API
+  slug: gitdealflow-com-badges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-badges-api-openapi.yml
+- filename: gitdealflow-com-brand-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Brand API
+  slug: gitdealflow-com-brand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-brand-api-openapi.yml
+- filename: gitdealflow-com-business-model-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Business Model API
+  slug: gitdealflow-com-business-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-business-model-api-openapi.yml
+- filename: gitdealflow-com-citation-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Citation API
+  slug: gitdealflow-com-citation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-citation-api-openapi.yml
+- filename: gitdealflow-com-community-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Community API
+  slug: gitdealflow-com-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-community-api-openapi.yml
+- filename: gitdealflow-com-deep-signal-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Deep Signal API
+  slug: gitdealflow-com-deep-signal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-deep-signal-api-openapi.yml
+- filename: gitdealflow-com-glossary-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Glossary API
+  slug: gitdealflow-com-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-glossary-api-openapi.yml
+- filename: gitdealflow-com-markets-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Markets API
+  slug: gitdealflow-com-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-markets-api-openapi.yml
+- filename: gitdealflow-com-meta-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Meta API
+  slug: gitdealflow-com-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-meta-api-openapi.yml
+- filename: gitdealflow-com-methodology-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Methodology API
+  slug: gitdealflow-com-methodology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-methodology-api-openapi.yml
+- filename: gitdealflow-com-scout-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Scout API
+  slug: gitdealflow-com-scout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-scout-api-openapi.yml
+- filename: gitdealflow-com-search-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Search API
+  slug: gitdealflow-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-search-api-openapi.yml
+- filename: gitdealflow-com-signals-api-openapi.yml
+  format: yaml
+  label: GitDealFlow Signals API
+  slug: gitdealflow-com-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-signals-api-openapi.yml
 description: ''
 domains:
 - caa:

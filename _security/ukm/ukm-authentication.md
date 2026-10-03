@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ukm-content-api-openapi.yml
-  format: yaml
-  label: Universiti Kebangsaan Malaysia Content API
-  slug: ukm-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-content-api-openapi.yml
-- filename: ukm-discovery-api-openapi.yml
-  format: yaml
-  label: Universiti Kebangsaan Malaysia Discovery API
-  slug: ukm-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/openapi/ukm-discovery-api-openapi.yml
 - filename: ukm-metadata-api-openapi.yml
   format: yaml
   label: Universiti Kebangsaan Malaysia Metadata API

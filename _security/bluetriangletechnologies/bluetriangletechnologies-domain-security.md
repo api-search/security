@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: bluetriangletechnologies-openapi-generated.yml
+- filename: bluetriangletechnologies-content-security-policies-api-openapi.yml
   format: yaml
-  label: Bluetriangletechnologies API
-  slug: bluetriangletechnologies-api
+  label: Bluetriangletechnologies Content Security Policies API
+  slug: bluetriangletechnologies-content-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/_ae-authored/bluetriangletechnologies-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-content-security-policies-api-openapi.yml
+- filename: bluetriangletechnologies-event-markers-api-openapi.yml
+  format: yaml
+  label: Bluetriangletechnologies Event Markers API
+  slug: bluetriangletechnologies-event-markers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-event-markers-api-openapi.yml
+- filename: bluetriangletechnologies-performance-api-openapi.yml
+  format: yaml
+  label: Bluetriangletechnologies Performance API
+  slug: bluetriangletechnologies-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-performance-api-openapi.yml
+- filename: bluetriangletechnologies-resource-api-openapi.yml
+  format: yaml
+  label: Bluetriangletechnologies Resource API
+  slug: bluetriangletechnologies-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluetriangletechnologies/refs/heads/main/openapi/bluetriangletechnologies-resource-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +60,5 @@ tags:
 - Analytics
 - Revenue Assurance
 - Digital Experience
-- AI
+- Artificial Intelligence
 ---

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: curtin-countries-api-openapi.yml
+  format: yaml
+  label: Curtin University Countries API
+  slug: curtin-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-countries-api-openapi.yml
+- filename: curtin-institutions-api-openapi.yml
+  format: yaml
+  label: Curtin University Institutions API
+  slug: curtin-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-institutions-api-openapi.yml
+- filename: curtin-search-api-openapi.yml
+  format: yaml
+  label: Curtin University Search API
+  slug: curtin-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

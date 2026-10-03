@@ -5,12 +5,24 @@ api_key_in:
 - query (MCP SSE URL only)
 - tool argument (MCP, in-band)
 api_specs:
-- filename: chainaware-ai-enterprise-api-openapi.yml
+- filename: chainaware-ai-behaviour-prediction-api-api-openapi.yml
   format: yaml
-  label: ChainAware Enterprise API
-  slug: chainaware-enterprise-api
+  label: ChainAware.ai Behaviour Prediction API
+  slug: chainaware-ai-behaviour-prediction-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-enterprise-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-behaviour-prediction-api-api-openapi.yml
+- filename: chainaware-ai-credit-score-api-api-openapi.yml
+  format: yaml
+  label: ChainAware.ai Credit Score API
+  slug: chainaware-ai-credit-score-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-credit-score-api-api-openapi.yml
+- filename: chainaware-ai-fraud-api-api-openapi.yml
+  format: yaml
+  label: ChainAware.ai Fraud API
+  slug: chainaware-ai-fraud-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainaware-ai/refs/heads/main/openapi/chainaware-ai-fraud-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

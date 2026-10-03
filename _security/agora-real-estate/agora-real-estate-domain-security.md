@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: agora-real-estate-o-embed-api-openapi.yml
-  format: yaml
-  label: Agora Real Estate o Embed API
-  slug: agora-real-estate-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/openapi/agora-real-estate-o-embed-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -125,5 +125,5 @@ tags:
 - Healthcare
 - Data
 - Credentialing
-- AI
+- Artificial Intelligence
 ---

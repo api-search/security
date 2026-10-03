@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - Diagnostics
-- Point-of-Care
+- Point of Care
 - STI Testing
 - CLIA-waived
 - Company

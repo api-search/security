@@ -3,12 +3,102 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: aaaai-me-openapi.json
-  format: json
-  label: AAAAI Platform API
-  slug: aaaai-platform-api
+- filename: aaaai-me-agents-api-openapi.yml
+  format: yaml
+  label: AAA AI Agents API
+  slug: aaaai-me-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-agents-api-openapi.yml
+- filename: aaaai-me-approvals-api-openapi.yml
+  format: yaml
+  label: AAA AI Approvals API
+  slug: aaaai-me-approvals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-approvals-api-openapi.yml
+- filename: aaaai-me-auth-api-openapi.yml
+  format: yaml
+  label: AAA AI Auth API
+  slug: aaaai-me-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-auth-api-openapi.yml
+- filename: aaaai-me-chat-api-openapi.yml
+  format: yaml
+  label: AAA AI Chat API
+  slug: aaaai-me-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-chat-api-openapi.yml
+- filename: aaaai-me-code-api-openapi.yml
+  format: yaml
+  label: AAA AI Code API
+  slug: aaaai-me-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-code-api-openapi.yml
+- filename: aaaai-me-cognitive-scaling-api-openapi.yml
+  format: yaml
+  label: AAA AI Cognitive Scaling API
+  slug: aaaai-me-cognitive-scaling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-cognitive-scaling-api-openapi.yml
+- filename: aaaai-me-cron-api-openapi.yml
+  format: yaml
+  label: AAA AI Cron API
+  slug: aaaai-me-cron-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-cron-api-openapi.yml
+- filename: aaaai-me-debug-api-openapi.yml
+  format: yaml
+  label: AAA AI Debug API
+  slug: aaaai-me-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-debug-api-openapi.yml
+- filename: aaaai-me-deep-agent-api-openapi.yml
+  format: yaml
+  label: AAA AI Deep Agent API
+  slug: aaaai-me-deep-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-deep-agent-api-openapi.yml
+- filename: aaaai-me-dynamic-experts-api-openapi.yml
+  format: yaml
+  label: AAA AI Dynamic Experts API
+  slug: aaaai-me-dynamic-experts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-dynamic-experts-api-openapi.yml
+- filename: aaaai-me-experts-api-openapi.yml
+  format: yaml
+  label: AAA AI Experts API
+  slug: aaaai-me-experts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-experts-api-openapi.yml
+- filename: aaaai-me-health-api-openapi.yml
+  format: yaml
+  label: AAA AI Health API
+  slug: aaaai-me-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-health-api-openapi.yml
+- filename: aaaai-me-nodes-api-openapi.yml
+  format: yaml
+  label: AAA AI Nodes API
+  slug: aaaai-me-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-nodes-api-openapi.yml
+- filename: aaaai-me-settings-api-openapi.yml
+  format: yaml
+  label: AAA AI Settings API
+  slug: aaaai-me-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-settings-api-openapi.yml
+- filename: aaaai-me-user-api-openapi.yml
+  format: yaml
+  label: AAA AI User API
+  slug: aaaai-me-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-user-api-openapi.yml
+- filename: aaaai-me-video-api-openapi.yml
+  format: yaml
+  label: AAA AI Video API
+  slug: aaaai-me-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-video-api-openapi.yml
 auth_types:
 - apiKey
 - cookie

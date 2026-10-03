@@ -108,24 +108,150 @@ api_specs:
   slug: token-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-webhooks-api-openapi.yml
-- filename: token-io-rest-api-swagger.json
-  format: json
-  label: Token.io REST API (full platform)
-  slug: token-io-rest-api
+- filename: token-io-account-verifications-api-openapi.yml
+  format: yaml
+  label: Token.io Account Verifications API
+  slug: token-io-account-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-rest-api-swagger.json
-- filename: token-io-refunds-bnpp-openapi.json
-  format: json
-  label: Token.io Refunds API (Payments REST 2.0)
-  slug: token-io-refunds-bnpp-api
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-account-verifications-api-openapi.yml
+- filename: token-io-bankconfigs-api-openapi.yml
+  format: yaml
+  label: Token.io Bank Configs API
+  slug: token-io-bankconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-refunds-bnpp-openapi.json
-- filename: token-io-bank-integration-openapi.json
-  format: json
-  label: Token Bank Integration API
-  slug: token-io-bank-integration-api
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-bankconfigs-api-openapi.yml
+- filename: token-io-banks-api-openapi.yml
+  format: yaml
+  label: Token.io Banks API
+  slug: token-io-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-bank-integration-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-banks-api-openapi.yml
+- filename: token-io-consents-api-openapi.yml
+  format: yaml
+  label: Token.io Consents API
+  slug: token-io-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-consents-api-openapi.yml
+- filename: token-io-eidas-api-openapi.yml
+  format: yaml
+  label: Token.io Eidas API
+  slug: token-io-eidas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-eidas-api-openapi.yml
+- filename: token-io-health-api-openapi.yml
+  format: yaml
+  label: Token.io Health API
+  slug: token-io-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-health-api-openapi.yml
+- filename: token-io-info-api-openapi.yml
+  format: yaml
+  label: Token.io Info API
+  slug: token-io-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-info-api-openapi.yml
+- filename: token-io-member-api-openapi.yml
+  format: yaml
+  label: Token.io Member API
+  slug: token-io-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-member-api-openapi.yml
+- filename: token-io-members-api-openapi.yml
+  format: yaml
+  label: Token.io Members API
+  slug: token-io-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-members-api-openapi.yml
+- filename: token-io-partner-api-openapi.yml
+  format: yaml
+  label: Token.io Partner API
+  slug: token-io-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-partner-api-openapi.yml
+- filename: token-io-payment-links-api-openapi.yml
+  format: yaml
+  label: Token.io Payment Links API
+  slug: token-io-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-payment-links-api-openapi.yml
+- filename: token-io-payments-api-openapi.yml
+  format: yaml
+  label: Token.io Payments API
+  slug: token-io-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-payments-api-openapi.yml
+- filename: token-io-provider-api-openapi.yml
+  format: yaml
+  label: Token.io Provider API
+  slug: token-io-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-provider-api-openapi.yml
+- filename: token-io-qr-code-api-openapi.yml
+  format: yaml
+  label: Token.io Qr Code API
+  slug: token-io-qr-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-qr-code-api-openapi.yml
+- filename: token-io-refund-api-openapi.yml
+  format: yaml
+  label: Token.io Refund API
+  slug: token-io-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-refund-api-openapi.yml
+- filename: token-io-requests-api-openapi.yml
+  format: yaml
+  label: Token.io Requests API
+  slug: token-io-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-requests-api-openapi.yml
+- filename: token-io-secrets-api-openapi.yml
+  format: yaml
+  label: Token.io Secrets API
+  slug: token-io-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-secrets-api-openapi.yml
+- filename: token-io-subtpp-api-openapi.yml
+  format: yaml
+  label: Token.io Sub Tpp API
+  slug: token-io-subtpp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-subtpp-api-openapi.yml
+- filename: token-io-tokenized-accounts-api-openapi.yml
+  format: yaml
+  label: Token.io Tokenized Accounts API
+  slug: token-io-tokenized-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-tokenized-accounts-api-openapi.yml
+- filename: token-io-transfers-api-openapi.yml
+  format: yaml
+  label: Token.io Transfers API
+  slug: token-io-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-transfers-api-openapi.yml
+- filename: token-io-tsp-api-openapi.yml
+  format: yaml
+  label: Token.io Tsp API
+  slug: token-io-tsp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-tsp-api-openapi.yml
+- filename: token-io-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Token.io Virtual Accounts API
+  slug: token-io-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-virtual-accounts-api-openapi.yml
+- filename: token-io-vrps-api-openapi.yml
+  format: yaml
+  label: Token.io Vrps API
+  slug: token-io-vrps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-vrps-api-openapi.yml
+- filename: token-io-webhook-api-openapi.yml
+  format: yaml
+  label: Token.io Webhook API
+  slug: token-io-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-webhook-api-openapi.yml
 description: ''
 domains:
 - caa:

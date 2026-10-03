@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-08-10'\nmethod: searched\nsource: openapi/apievan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/authentication/api-evangelist-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- API Evangelist
+- API-Evangelist
 - Developer Portal
 - API Research
 - API Governance

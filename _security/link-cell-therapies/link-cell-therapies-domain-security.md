@@ -39,5 +39,4 @@ tags:
 - Immunotherapy
 - Precision Medicine
 - Clinical Stage
-- Cart
 ---

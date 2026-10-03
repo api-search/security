@@ -34,6 +34,6 @@ tags:
 - Company
 - Space
 - Sustainability
-- On‑orbit‑servicing
+- On-Orbit Servicing
 - Debris‑removal
 ---

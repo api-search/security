@@ -300,12 +300,6 @@ api_specs:
   slug: keap-webforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-webforms-api-openapi.yml
-- filename: keap-ecommerce-api-openapi.yml
-  format: yaml
-  label: Keap Ecommerce API
-  slug: keap-ecommerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-ecommerce-api-openapi.yml
 - filename: keap-user-info-api-openapi.yml
   format: yaml
   label: Keap User Info API
@@ -348,6 +342,12 @@ api_specs:
   slug: keap-stages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-stages-api-openapi.yml
+- filename: keap-ecommerce-api-openapi.yml
+  format: yaml
+  label: Keap Ecommerce API
+  slug: keap-ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-ecommerce-api-openapi.yml
 description: ''
 domains:
 - caa: []

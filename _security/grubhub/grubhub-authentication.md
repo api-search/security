@@ -3,78 +3,66 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: grubhub-menu-openapi.yml
+- filename: grubhub-delivery-quotes-api-openapi.yml
   format: yaml
-  label: Grubhub Menu API
-  slug: grubhub-menu
+  label: Grubhub Delivery Quotes API
+  slug: grubhub-delivery-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-menu-openapi.yml
-- filename: grubhub-orders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-quotes-api-openapi.yml
+- filename: grubhub-delivery-refunds-api-openapi.yml
   format: yaml
-  label: Grubhub Orders API
-  slug: grubhub-orders
+  label: Grubhub Delivery Refunds API
+  slug: grubhub-delivery-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-orders-openapi.yml
-- filename: grubhub-merchant-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-refunds-api-openapi.yml
+- filename: grubhub-delivery-service-areas-api-openapi.yml
   format: yaml
-  label: Grubhub Merchant Data API
-  slug: grubhub-merchant-data
+  label: Grubhub Delivery Service Areas API
+  slug: grubhub-delivery-service-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-data-openapi.yml
-- filename: grubhub-merchant-schedules-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-service-areas-api-openapi.yml
+- filename: grubhub-delivery-status-api-openapi.yml
   format: yaml
-  label: Grubhub Merchant Schedules API
-  slug: grubhub-merchant-schedules
+  label: Grubhub Delivery Status API
+  slug: grubhub-delivery-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-schedules-openapi.yml
-- filename: grubhub-busy-intervals-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-status-api-openapi.yml
+- filename: grubhub-delivery-tests-api-openapi.yml
   format: yaml
-  label: Grubhub Busy Intervals API
-  slug: grubhub-busy-intervals
+  label: Grubhub Delivery Tests API
+  slug: grubhub-delivery-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-busy-intervals-openapi.yml
-- filename: grubhub-deliveries-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-tests-api-openapi.yml
+- filename: grubhub-delivery-updates-api-openapi.yml
   format: yaml
-  label: Grubhub Deliveries API
-  slug: grubhub-deliveries
+  label: Grubhub Delivery Updates API
+  slug: grubhub-delivery-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-deliveries-openapi.yml
-- filename: grubhub-connect-endpoints-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-updates-api-openapi.yml
+- filename: grubhub-delivery-webhooks-emulation-api-openapi.yml
   format: yaml
-  label: Grubhub Connect (Delivery as a Service) API
-  slug: grubhub-connect-endpoints
+  label: Grubhub Delivery Webhooks Emulation API
+  slug: grubhub-delivery-webhooks-emulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-connect-endpoints-openapi.yml
-- filename: grubhub-connect-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-webhooks-emulation-api-openapi.yml
+- filename: grubhub-endpoints-api-openapi.yml
   format: yaml
-  label: Grubhub Connect Webhooks
-  slug: grubhub-connect-webhooks
+  label: Grubhub Endpoints API
+  slug: grubhub-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-connect-webhooks-openapi.yml
-- filename: grubhub-onboarding-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-endpoints-api-openapi.yml
+- filename: grubhub-requesting-reports-api-openapi.yml
   format: yaml
-  label: Grubhub Onboarding API
-  slug: grubhub-onboarding
+  label: Grubhub Requesting Reports API
+  slug: grubhub-requesting-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-onboarding-openapi.yml
-- filename: grubhub-reporting-endpoints-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-requesting-reports-api-openapi.yml
+- filename: grubhub-webhooks-api-openapi.yml
   format: yaml
-  label: Grubhub Merchant Reporting API
-  slug: grubhub-reporting-endpoints
+  label: Grubhub Webhooks API
+  slug: grubhub-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-reporting-endpoints-openapi.yml
-- filename: grubhub-reporting-webhooks-openapi.yml
-  format: yaml
-  label: Grubhub Reporting Webhooks
-  slug: grubhub-reporting-webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-reporting-webhooks-openapi.yml
-- filename: grubhub-testing-openapi.yml
-  format: yaml
-  label: Grubhub Testing API
-  slug: grubhub-testing
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-testing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

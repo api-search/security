@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: apsis19b1-openapi-generated.yml
+- filename: apsis19b1-audience-api-openapi.yml
   format: yaml
-  label: Apsis19b1 API
-  slug: apsis19b1-api
+  label: Apsis19b1 Audience API
+  slug: apsis19b1-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apsis19b1/refs/heads/main/openapi/_ae-authored/apsis19b1-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apsis19b1/refs/heads/main/openapi/apsis19b1-audience-api-openapi.yml
+- filename: apsis19b1-oauth-api-openapi.yml
+  format: yaml
+  label: Apsis19b1 OAuth API
+  slug: apsis19b1-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apsis19b1/refs/heads/main/openapi/apsis19b1-oauth-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO 27001
@@ -29,7 +35,7 @@ tags:
 - Marketing
 - Email
 - Automation
-- AI
+- Artificial Intelligence
 - GDPR
 trust_url: https://www.apsis.com/security
 ---

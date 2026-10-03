@@ -2,13 +2,6 @@
 anonymous_access: false
 api_key_in:
 - cookie
-api_specs:
-- filename: caamtech-mcp-api-openapi.yml
-  format: yaml
-  label: CaaMTech MCP API
-  slug: caamtech-mcp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/openapi/caamtech-mcp-api-openapi.yml
 auth_types:
 - apiKey
 - http

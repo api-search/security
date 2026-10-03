@@ -65,7 +65,7 @@ summary_line: http · 1 scheme
 tags:
 - Randomness
 - Provably Fair
-- drand
+- Drand
 - Verifiable Randomness
 - Cryptography
 - raffle

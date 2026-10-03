@@ -33,6 +33,6 @@ tags:
 - Agriculture
 - Marketplace
 - India
-- AgriTech
+- AgTech
 - B2B
 ---

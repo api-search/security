@@ -168,18 +168,6 @@ api_specs:
   slug: caseys-general-stores-unbuffered-store-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-unbuffered-store-items-api-openapi.yml
-- filename: caseys-general-stores-v0-api-openapi.yml
-  format: yaml
-  label: Casey's General Stores V0 API
-  slug: caseys-general-stores-v0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-v0-api-openapi.yml
-- filename: caseys-general-stores-v1-api-openapi.yml
-  format: yaml
-  label: Casey's General Stores V1 API
-  slug: caseys-general-stores-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-v1-api-openapi.yml
 - filename: caseys-general-stores-v1storebyid-api-openapi.yml
   format: yaml
   label: Casey's General Stores V1 Store By ID API
@@ -204,18 +192,42 @@ api_specs:
   slug: caseys-general-stores-v1stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-v1stores-api-openapi.yml
-- filename: caseys-general-stores-v2-api-openapi.yml
-  format: yaml
-  label: Casey's General Stores V2 API
-  slug: caseys-general-stores-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-v2-api-openapi.yml
 - filename: caseys-general-stores-version-api-openapi.yml
   format: yaml
   label: Casey's General Stores Version API
   slug: caseys-general-stores-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-version-api-openapi.yml
+- filename: caseys-general-stores-deprecated-api-openapi.yml
+  format: yaml
+  label: Casey's General Stores Deprecated API
+  slug: caseys-general-stores-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-deprecated-api-openapi.yml
+- filename: caseys-general-stores-region-api-openapi.yml
+  format: yaml
+  label: Casey's General Stores Region API
+  slug: caseys-general-stores-region-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-region-api-openapi.yml
+- filename: caseys-general-stores-relateditems-api-openapi.yml
+  format: yaml
+  label: Casey's General Stores Relateditems API
+  slug: caseys-general-stores-relateditems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-relateditems-api-openapi.yml
+- filename: caseys-general-stores-storenumber-api-openapi.yml
+  format: yaml
+  label: Casey's General Stores Store Number API
+  slug: caseys-general-stores-storenumber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-storenumber-api-openapi.yml
+- filename: caseys-general-stores-upc-api-openapi.yml
+  format: yaml
+  label: Casey's General Stores Upc API
+  slug: caseys-general-stores-upc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/openapi/caseys-general-stores-upc-api-openapi.yml
 - filename: caseys-general-stores-fuel-prices-api-openapi.yml
   format: yaml
   label: Casey's General Stores Fuel Prices API

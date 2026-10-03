@@ -24,12 +24,6 @@ api_specs:
   slug: amazon-glue-databrew-recipes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipes-api-openapi.yml
-- filename: amazon-glue-databrew-recipeversions-name-api-openapi.yml
-  format: yaml
-  label: Amazon Glue DataBrew RecipeVersions#name API
-  slug: amazon-glue-databrew-recipeversions-name-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipeversions-name-api-openapi.yml
 - filename: amazon-glue-databrew-rulesets-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Rulesets API
@@ -48,6 +42,12 @@ api_specs:
   slug: amazon-glue-databrew-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-tags-api-openapi.yml
+- filename: amazon-glue-databrew-recipeversions-api-openapi.yml
+  format: yaml
+  label: Amazon Glue DataBrew Recipe Versions API
+  slug: amazon-glue-databrew-recipeversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipeversions-api-openapi.yml
 - filename: amazon-glue-databrew-profile-jobs-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Profile Jobs API

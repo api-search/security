@@ -2,18 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: agentum-lat-apis-brasil-openapi.json
-  format: json
-  label: AGENTUM APIs Brasil
-  slug: apis-brasil
+- filename: agentum-lat-business-intelligence-api-openapi.yml
+  format: yaml
+  label: AGENTUM Business Intelligence API
+  slug: agentum-lat-business-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-apis-brasil-openapi.json
-- filename: agentum-lat-business-openapi.json
-  format: json
-  label: AGENTUM Business API
-  slug: business
+  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-business-intelligence-api-openapi.yml
+- filename: agentum-lat-company-intelligence-api-openapi.yml
+  format: yaml
+  label: AGENTUM Company Intelligence API
+  slug: agentum-lat-company-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-business-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-company-intelligence-api-openapi.yml
+- filename: agentum-lat-counterparty-verification-api-openapi.yml
+  format: yaml
+  label: AGENTUM Counterparty Verification API
+  slug: agentum-lat-counterparty-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-counterparty-verification-api-openapi.yml
+- filename: agentum-lat-finance-api-openapi.yml
+  format: yaml
+  label: AGENTUM Finance API
+  slug: agentum-lat-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-finance-api-openapi.yml
+- filename: agentum-lat-verification-api-openapi.yml
+  format: yaml
+  label: AGENTUM Verification API
+  slug: agentum-lat-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-verification-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

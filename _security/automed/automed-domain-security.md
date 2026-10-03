@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automed/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Healthcare
-- AI
+- Artificial Intelligence
 - Medication
 - Adherence
 - Platform

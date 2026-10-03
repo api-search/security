@@ -35,7 +35,7 @@ tags:
 - Open Source Directory
 - Code Analytics
 - Software Composition
-- Developer Data
+- DEVELOPER DATA
 - Project
 - Contributors
 - Black Duck

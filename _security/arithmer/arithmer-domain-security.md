@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arithmer/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Solutions
 - Enterprise
 - Automation

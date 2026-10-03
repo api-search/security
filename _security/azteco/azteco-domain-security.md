@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azteco/refs/he
 summary_line: TLSv1.3
 tags:
 - Company
-- DigitalMarketing
+- Digital Marketing
 - SEO
-- WebDesign
+- Web Design
 - Advertising
 ---

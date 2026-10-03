@@ -102,12 +102,6 @@ api_specs:
   slug: nasuni-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-jobs-api-openapi.yml
-- filename: nasuni-list-type-2-api-openapi.yml
-  format: yaml
-  label: Nasuni ?list Type=2 API
-  slug: nasuni-list-type-2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/openapi/nasuni-list-type-2-api-openapi.yml
 - filename: nasuni-messages-api-openapi.yml
   format: yaml
   label: Nasuni Messages API

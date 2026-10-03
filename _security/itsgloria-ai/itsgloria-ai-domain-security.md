@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: itsgloria-ai-openapi.yml
+- filename: itsgloria-ai-api-keys-api-openapi.yml
   format: yaml
-  label: Gloria Data Platform REST API
-  slug: gloria-data-platform-rest-api
+  label: Gloria API Keys API
+  slug: itsgloria-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-api-keys-api-openapi.yml
+- filename: itsgloria-ai-articles-api-openapi.yml
+  format: yaml
+  label: Gloria Articles API
+  slug: itsgloria-ai-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-articles-api-openapi.yml
+- filename: itsgloria-ai-authentication-api-openapi.yml
+  format: yaml
+  label: Gloria Authentication API
+  slug: itsgloria-ai-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-authentication-api-openapi.yml
+- filename: itsgloria-ai-bots-api-openapi.yml
+  format: yaml
+  label: Gloria Bots API
+  slug: itsgloria-ai-bots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-bots-api-openapi.yml
+- filename: itsgloria-ai-categories-api-openapi.yml
+  format: yaml
+  label: Gloria Categories API
+  slug: itsgloria-ai-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-categories-api-openapi.yml
+- filename: itsgloria-ai-health-api-openapi.yml
+  format: yaml
+  label: Gloria Health API
+  slug: itsgloria-ai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-health-api-openapi.yml
+- filename: itsgloria-ai-narratives-api-openapi.yml
+  format: yaml
+  label: Gloria Narratives API
+  slug: itsgloria-ai-narratives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-narratives-api-openapi.yml
+- filename: itsgloria-ai-news-api-openapi.yml
+  format: yaml
+  label: Gloria News API
+  slug: itsgloria-ai-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-news-api-openapi.yml
+- filename: itsgloria-ai-recaps-api-openapi.yml
+  format: yaml
+  label: Gloria Recaps API
+  slug: itsgloria-ai-recaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-recaps-api-openapi.yml
+- filename: itsgloria-ai-websocket-api-openapi.yml
+  format: yaml
+  label: Gloria WebSocket API
+  slug: itsgloria-ai-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []

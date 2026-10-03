@@ -34,5 +34,5 @@ tags:
 - Finance
 - Education
 - Loans
-- StudentLoans
+- Student Loans
 ---

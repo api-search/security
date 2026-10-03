@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anxiatechnolog
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FacialRecognition
-- AccessControl
-- AI
+- Facial Recognition
+- Access Control
+- Artificial Intelligence
 - Security
 ---

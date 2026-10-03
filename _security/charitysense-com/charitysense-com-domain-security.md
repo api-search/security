@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: charitysense-com-openapi.yml
+- filename: charitysense-com-assistant-api-openapi.yml
   format: yaml
-  label: CharitySense Data API
-  slug: charitysense-data-api
+  label: CharitySense Assistant API
+  slug: charitysense-com-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-assistant-api-openapi.yml
+- filename: charitysense-com-dataset-api-openapi.yml
+  format: yaml
+  label: CharitySense Dataset API
+  slug: charitysense-com-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-dataset-api-openapi.yml
+- filename: charitysense-com-discovery-api-openapi.yml
+  format: yaml
+  label: CharitySense Discovery API
+  slug: charitysense-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-discovery-api-openapi.yml
+- filename: charitysense-com-profiles-api-openapi.yml
+  format: yaml
+  label: CharitySense Profiles API
+  slug: charitysense-com-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-profiles-api-openapi.yml
+- filename: charitysense-com-usage-api-openapi.yml
+  format: yaml
+  label: CharitySense Usage API
+  slug: charitysense-com-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

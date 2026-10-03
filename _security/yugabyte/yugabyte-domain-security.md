@@ -54,438 +54,438 @@ api_specs:
   slug: yugabyte-xcluster-namespace-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-xcluster-namespace-details-api-openapi.yml
-- filename: yugabytedb-access-keys-api-openapi.yml
+- filename: yugabyte-access-keys-api-openapi.yml
   format: yaml
-  label: YugabyteDB Access Keys API
-  slug: yugabytedb-access-keys-api
+  label: Yugabyte Access Keys API
+  slug: yugabyte-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-access-keys-api-openapi.yml
-- filename: yugabytedb-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-access-keys-api-openapi.yml
+- filename: yugabyte-accounts-api-openapi.yml
   format: yaml
-  label: YugabyteDB Accounts API
-  slug: yugabytedb-accounts-api
+  label: Yugabyte Accounts API
+  slug: yugabyte-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-accounts-api-openapi.yml
-- filename: yugabytedb-alerts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-accounts-api-openapi.yml
+- filename: yugabyte-alerts-api-openapi.yml
   format: yaml
-  label: YugabyteDB Alerts API
-  slug: yugabytedb-alerts-api
+  label: Yugabyte Alerts API
+  slug: yugabyte-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-alerts-api-openapi.yml
-- filename: yugabytedb-asynchronous-replication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-alerts-api-openapi.yml
+- filename: yugabyte-allow-lists-api-openapi.yml
   format: yaml
-  label: YugabyteDB Asynchronous Replication API
-  slug: yugabytedb-asynchronous-replication-api
+  label: Yugabyte Allow Lists API
+  slug: yugabyte-allow-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-asynchronous-replication-api-openapi.yml
-- filename: yugabytedb-audit-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-allow-lists-api-openapi.yml
+- filename: yugabyte-asynchronous-replication-api-openapi.yml
   format: yaml
-  label: YugabyteDB Audit API
-  slug: yugabytedb-audit-api
+  label: Yugabyte Asynchronous Replication API
+  slug: yugabyte-asynchronous-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-audit-api-openapi.yml
-- filename: yugabytedb-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-asynchronous-replication-api-openapi.yml
+- filename: yugabyte-audit-api-openapi.yml
   format: yaml
-  label: YugabyteDB Authentication API
-  slug: yugabytedb-authentication-api
+  label: Yugabyte Audit API
+  slug: yugabyte-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-authentication-api-openapi.yml
-- filename: yugabytedb-availability-zones-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-audit-api-openapi.yml
+- filename: yugabyte-authentication-api-openapi.yml
   format: yaml
-  label: YugabyteDB Availability Zones API
-  slug: yugabytedb-availability-zones-api
+  label: Yugabyte Authentication API
+  slug: yugabyte-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-availability-zones-api-openapi.yml
-- filename: yugabytedb-backup-and-restore-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-authentication-api-openapi.yml
+- filename: yugabyte-availability-zones-api-openapi.yml
   format: yaml
-  label: YugabyteDB Backup and Restore API
-  slug: yugabytedb-backup-and-restore-api
+  label: Yugabyte Availability Zones API
+  slug: yugabyte-availability-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-backup-and-restore-api-openapi.yml
-- filename: yugabytedb-backups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-availability-zones-api-openapi.yml
+- filename: yugabyte-backup-and-restore-api-openapi.yml
   format: yaml
-  label: YugabyteDB Backups API
-  slug: yugabytedb-backups-api
+  label: Yugabyte Backup And Restore API
+  slug: yugabyte-backup-and-restore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-backups-api-openapi.yml
-- filename: yugabytedb-certificate-info-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-backup-and-restore-api-openapi.yml
+- filename: yugabyte-backups-api-openapi.yml
   format: yaml
-  label: YugabyteDB Certificate Info API
-  slug: yugabytedb-certificate-info-api
+  label: Yugabyte Backups API
+  slug: yugabyte-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-certificate-info-api-openapi.yml
-- filename: yugabytedb-cloud-providers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-backups-api-openapi.yml
+- filename: yugabyte-certificate-info-api-openapi.yml
   format: yaml
-  label: YugabyteDB Cloud providers API
-  slug: yugabytedb-cloud-providers-api
+  label: Yugabyte Certificate Info API
+  slug: yugabyte-certificate-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-cloud-providers-api-openapi.yml
-- filename: yugabytedb-clusters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-certificate-info-api-openapi.yml
+- filename: yugabyte-cloud-providers-api-openapi.yml
   format: yaml
-  label: YugabyteDB Clusters API
-  slug: yugabytedb-clusters-api
+  label: Yugabyte Cloud Providers API
+  slug: yugabyte-cloud-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-clusters-api-openapi.yml
-- filename: yugabytedb-continuous-backup-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-cloud-providers-api-openapi.yml
+- filename: yugabyte-clusters-api-openapi.yml
   format: yaml
-  label: YugabyteDB Continuous Backup API
-  slug: yugabytedb-continuous-backup-api
+  label: Yugabyte Clusters API
+  slug: yugabyte-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-continuous-backup-api-openapi.yml
-- filename: yugabytedb-custom-ca-certificates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-clusters-api-openapi.yml
+- filename: yugabyte-continuous-backup-api-openapi.yml
   format: yaml
-  label: YugabyteDB Custom CA Certificates API
-  slug: yugabytedb-custom-ca-certificates-api
+  label: Yugabyte Continuous Backup API
+  slug: yugabyte-continuous-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-custom-ca-certificates-api-openapi.yml
-- filename: yugabytedb-customer-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-continuous-backup-api-openapi.yml
+- filename: yugabyte-custom-ca-certificates-api-openapi.yml
   format: yaml
-  label: YugabyteDB Customer Configuration API
-  slug: yugabytedb-customer-configuration-api
+  label: Yugabyte Custom CA Certificates API
+  slug: yugabyte-custom-ca-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-customer-configuration-api-openapi.yml
-- filename: yugabytedb-customer-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-custom-ca-certificates-api-openapi.yml
+- filename: yugabyte-customer-configuration-api-openapi.yml
   format: yaml
-  label: YugabyteDB Customer management API
-  slug: yugabytedb-customer-management-api
+  label: Yugabyte Customer Configuration API
+  slug: yugabyte-customer-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-customer-management-api-openapi.yml
-- filename: yugabytedb-customer-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-customer-configuration-api-openapi.yml
+- filename: yugabyte-customer-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Customer Tasks API
-  slug: yugabytedb-customer-tasks-api
+  label: Yugabyte Customer Management API
+  slug: yugabyte-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-customer-tasks-api-openapi.yml
-- filename: yugabytedb-disaster-recovery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-customer-management-api-openapi.yml
+- filename: yugabyte-customer-tasks-api-openapi.yml
   format: yaml
-  label: YugabyteDB Disaster Recovery API
-  slug: yugabytedb-disaster-recovery-api
+  label: Yugabyte Customer Tasks API
+  slug: yugabyte-customer-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-disaster-recovery-api-openapi.yml
-- filename: yugabytedb-encryption-at-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-customer-tasks-api-openapi.yml
+- filename: yugabyte-disaster-recovery-api-openapi.yml
   format: yaml
-  label: YugabyteDB Encryption at rest API
-  slug: yugabytedb-encryption-at-rest-api
+  label: Yugabyte Disaster Recovery API
+  slug: yugabyte-disaster-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-encryption-at-rest-api-openapi.yml
-- filename: yugabytedb-extract-metadata-from-remote-tarball-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-disaster-recovery-api-openapi.yml
+- filename: yugabyte-encryption-at-rest-api-openapi.yml
   format: yaml
-  label: YugabyteDB Extract metadata from remote tarball API
-  slug: yugabytedb-extract-metadata-from-remote-tarball-api
+  label: Yugabyte Encryption at rest API
+  slug: yugabyte-encryption-at-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-extract-metadata-from-remote-tarball-api-openapi.yml
-- filename: yugabytedb-gflags-validation-apis-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-encryption-at-rest-api-openapi.yml
+- filename: yugabyte-extract-metadata-from-remote-tarball-api-openapi.yml
   format: yaml
-  label: YugabyteDB GFlags Validation APIs API
-  slug: yugabytedb-gflags-validation-apis-api
+  label: Yugabyte Extract metadata from remote tarball API
+  slug: yugabyte-extract-metadata-from-remote-tarball-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-gflags-validation-apis-api-openapi.yml
-- filename: yugabytedb-grafana-dashboard-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-extract-metadata-from-remote-tarball-api-openapi.yml
+- filename: yugabyte-gflags-validation-apis-api-openapi.yml
   format: yaml
-  label: YugabyteDB Grafana Dashboard API
-  slug: yugabytedb-grafana-dashboard-api
+  label: Yugabyte GFlags Validation APIs API
+  slug: yugabyte-gflags-validation-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-grafana-dashboard-api-openapi.yml
-- filename: yugabytedb-ha-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-gflags-validation-apis-api-openapi.yml
+- filename: yugabyte-grafana-dashboard-api-openapi.yml
   format: yaml
-  label: YugabyteDB HA API
-  slug: yugabytedb-ha-api
+  label: Yugabyte Grafana Dashboard API
+  slug: yugabyte-grafana-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-ha-api-openapi.yml
-- filename: yugabytedb-instance-types-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-grafana-dashboard-api-openapi.yml
+- filename: yugabyte-ha-api-openapi.yml
   format: yaml
-  label: YugabyteDB Instance types API
-  slug: yugabytedb-instance-types-api
+  label: Yugabyte HA API
+  slug: yugabyte-ha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-instance-types-api-openapi.yml
-- filename: yugabytedb-internal-ha-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-ha-api-openapi.yml
+- filename: yugabyte-instance-types-api-openapi.yml
   format: yaml
-  label: YugabyteDB Internal HA API
-  slug: yugabytedb-internal-ha-api
+  label: Yugabyte Instance Types API
+  slug: yugabyte-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-internal-ha-api-openapi.yml
-- filename: yugabytedb-isolated-backup-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-instance-types-api-openapi.yml
+- filename: yugabyte-internal-ha-api-openapi.yml
   format: yaml
-  label: YugabyteDB Isolated Backup API
-  slug: yugabytedb-isolated-backup-api
+  label: Yugabyte Internal HA API
+  slug: yugabyte-internal-ha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-isolated-backup-api-openapi.yml
-- filename: yugabytedb-job-scheduler-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-internal-ha-api-openapi.yml
+- filename: yugabyte-isolated-backup-api-openapi.yml
   format: yaml
-  label: YugabyteDB Job Scheduler API
-  slug: yugabytedb-job-scheduler-api
+  label: Yugabyte Isolated Backup API
+  slug: yugabyte-isolated-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-job-scheduler-api-openapi.yml
-- filename: yugabytedb-kubernetesoverridescontroller-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-isolated-backup-api-openapi.yml
+- filename: yugabyte-job-scheduler-api-openapi.yml
   format: yaml
-  label: YugabyteDB KubernetesOverridesController API
-  slug: yugabytedb-kubernetesoverridescontroller-api
+  label: Yugabyte Job Scheduler API
+  slug: yugabyte-job-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-kubernetesoverridescontroller-api-openapi.yml
-- filename: yugabytedb-ldap-role-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-job-scheduler-api-openapi.yml
+- filename: yugabyte-kubernetesoverridescontroller-api-openapi.yml
   format: yaml
-  label: YugabyteDB LDAP Role management API
-  slug: yugabytedb-ldap-role-management-api
+  label: Yugabyte Kubernetes Overrides Controller API
+  slug: yugabyte-kubernetesoverridescontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-ldap-role-management-api-openapi.yml
-- filename: yugabytedb-ldapoidc-role-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-kubernetesoverridescontroller-api-openapi.yml
+- filename: yugabyte-ldap-role-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB LDAPOIDC Role management API
-  slug: yugabytedb-ldapoidc-role-management-api
+  label: Yugabyte LDAP Role management API
+  slug: yugabyte-ldap-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-ldapoidc-role-management-api-openapi.yml
-- filename: yugabytedb-license-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-ldap-role-management-api-openapi.yml
+- filename: yugabyte-ldapoidc-role-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB License management API
-  slug: yugabytedb-license-management-api
+  label: Yugabyte LDAPOIDC Role management API
+  slug: yugabyte-ldapoidc-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-license-management-api-openapi.yml
-- filename: yugabytedb-loggingconfig-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-ldapoidc-role-management-api-openapi.yml
+- filename: yugabyte-license-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB LoggingConfig API
-  slug: yugabytedb-loggingconfig-api
+  label: Yugabyte License Management API
+  slug: yugabyte-license-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-loggingconfig-api-openapi.yml
-- filename: yugabytedb-maintenance-windows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-license-management-api-openapi.yml
+- filename: yugabyte-loggingconfig-api-openapi.yml
   format: yaml
-  label: YugabyteDB Maintenance windows API
-  slug: yugabytedb-maintenance-windows-api
+  label: Yugabyte Logging Config API
+  slug: yugabyte-loggingconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-maintenance-windows-api-openapi.yml
-- filename: yugabytedb-metrics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-loggingconfig-api-openapi.yml
+- filename: yugabyte-maintenance-windows-api-openapi.yml
   format: yaml
-  label: YugabyteDB Metrics API
-  slug: yugabytedb-metrics-api
+  label: Yugabyte Maintenance Windows API
+  slug: yugabyte-maintenance-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-metrics-api-openapi.yml
-- filename: yugabytedb-new-release-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-maintenance-windows-api-openapi.yml
+- filename: yugabyte-metrics-api-openapi.yml
   format: yaml
-  label: YugabyteDB New Release management API
-  slug: yugabytedb-new-release-management-api
+  label: Yugabyte Metrics API
+  slug: yugabyte-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-new-release-management-api-openapi.yml
-- filename: yugabytedb-node-agents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-metrics-api-openapi.yml
+- filename: yugabyte-new-release-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Node Agents API
-  slug: yugabytedb-node-agents-api
+  label: Yugabyte New Release management API
+  slug: yugabyte-new-release-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-node-agents-api-openapi.yml
-- filename: yugabytedb-node-instances-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-new-release-management-api-openapi.yml
+- filename: yugabyte-node-agents-api-openapi.yml
   format: yaml
-  label: YugabyteDB Node instances API
-  slug: yugabytedb-node-instances-api
+  label: Yugabyte Node Agents API
+  slug: yugabyte-node-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-node-instances-api-openapi.yml
-- filename: yugabytedb-pa-collector-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-node-agents-api-openapi.yml
+- filename: yugabyte-node-instances-api-openapi.yml
   format: yaml
-  label: YugabyteDB PA Collector API
-  slug: yugabytedb-pa-collector-api
+  label: Yugabyte Node instances API
+  slug: yugabyte-node-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-pa-collector-api-openapi.yml
-- filename: yugabytedb-packagescontroller-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-node-instances-api-openapi.yml
+- filename: yugabyte-pa-collector-api-openapi.yml
   format: yaml
-  label: YugabyteDB PackagesController API
-  slug: yugabytedb-packagescontroller-api
+  label: Yugabyte PA Collector API
+  slug: yugabyte-pa-collector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-packagescontroller-api-openapi.yml
-- filename: yugabytedb-performance-advisor-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-pa-collector-api-openapi.yml
+- filename: yugabyte-packagescontroller-api-openapi.yml
   format: yaml
-  label: YugabyteDB Performance Advisor API
-  slug: yugabytedb-performance-advisor-api
+  label: Yugabyte Packages Controller API
+  slug: yugabyte-packagescontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-performance-advisor-api-openapi.yml
-- filename: yugabytedb-pitr-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-packagescontroller-api-openapi.yml
+- filename: yugabyte-performance-advisor-api-openapi.yml
   format: yaml
-  label: YugabyteDB PITR management API
-  slug: yugabytedb-pitr-management-api
+  label: Yugabyte Performance Advisor API
+  slug: yugabyte-performance-advisor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-pitr-management-api-openapi.yml
-- filename: yugabytedb-platform-instance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-performance-advisor-api-openapi.yml
+- filename: yugabyte-pitr-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Platform Instance API
-  slug: yugabytedb-platform-instance-api
+  label: Yugabyte PITR management API
+  slug: yugabyte-pitr-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-platform-instance-api-openapi.yml
-- filename: yugabytedb-platform-replication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-pitr-management-api-openapi.yml
+- filename: yugabyte-platform-instance-api-openapi.yml
   format: yaml
-  label: YugabyteDB Platform Replication API
-  slug: yugabytedb-platform-replication-api
+  label: Yugabyte Platform Instance API
+  slug: yugabyte-platform-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-platform-replication-api-openapi.yml
-- filename: yugabytedb-preview-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-platform-instance-api-openapi.yml
+- filename: yugabyte-platform-replication-api-openapi.yml
   format: yaml
-  label: YugabyteDB preview API
-  slug: yugabytedb-preview-api
+  label: Yugabyte Platform Replication API
+  slug: yugabyte-platform-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-preview-api-openapi.yml
-- filename: yugabytedb-projects-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-platform-replication-api-openapi.yml
+- filename: yugabyte-preview-api-openapi.yml
   format: yaml
-  label: YugabyteDB Projects API
-  slug: yugabytedb-projects-api
+  label: Yugabyte Preview API
+  slug: yugabyte-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-projects-api-openapi.yml
-- filename: yugabytedb-rbac-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-preview-api-openapi.yml
+- filename: yugabyte-projects-api-openapi.yml
   format: yaml
-  label: YugabyteDB RBAC management API
-  slug: yugabytedb-rbac-management-api
+  label: Yugabyte Projects API
+  slug: yugabyte-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-rbac-management-api-openapi.yml
-- filename: yugabytedb-region-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-projects-api-openapi.yml
+- filename: yugabyte-rbac-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Region management API
-  slug: yugabytedb-region-management-api
+  label: Yugabyte RBAC management API
+  slug: yugabyte-rbac-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-region-management-api-openapi.yml
-- filename: yugabytedb-release-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-rbac-management-api-openapi.yml
+- filename: yugabyte-read-replicas-api-openapi.yml
   format: yaml
-  label: YugabyteDB Release management API
-  slug: yugabytedb-release-management-api
+  label: Yugabyte Read Replicas API
+  slug: yugabyte-read-replicas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-release-management-api-openapi.yml
-- filename: yugabytedb-restores-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-read-replicas-api-openapi.yml
+- filename: yugabyte-region-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Restores API
-  slug: yugabytedb-restores-api
+  label: Yugabyte Region management API
+  slug: yugabyte-region-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-restores-api-openapi.yml
-- filename: yugabytedb-runtime-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-region-management-api-openapi.yml
+- filename: yugabyte-release-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Runtime configuration API
-  slug: yugabytedb-runtime-configuration-api
+  label: Yugabyte Release management API
+  slug: yugabyte-release-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-runtime-configuration-api-openapi.yml
-- filename: yugabytedb-schedule-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-release-management-api-openapi.yml
+- filename: yugabyte-restores-api-openapi.yml
   format: yaml
-  label: YugabyteDB Schedule management API
-  slug: yugabytedb-schedule-management-api
+  label: Yugabyte Restores API
+  slug: yugabyte-restores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-schedule-management-api-openapi.yml
-- filename: yugabytedb-session-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-restores-api-openapi.yml
+- filename: yugabyte-runtime-configuration-api-openapi.yml
   format: yaml
-  label: YugabyteDB Session management API
-  slug: yugabytedb-session-management-api
+  label: Yugabyte Runtime configuration API
+  slug: yugabyte-runtime-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-session-management-api-openapi.yml
-- filename: yugabytedb-support-bundle-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-runtime-configuration-api-openapi.yml
+- filename: yugabyte-schedule-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Support Bundle management API
-  slug: yugabytedb-support-bundle-management-api
+  label: Yugabyte Schedule management API
+  slug: yugabyte-schedule-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-support-bundle-management-api-openapi.yml
-- filename: yugabytedb-table-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-schedule-management-api-openapi.yml
+- filename: yugabyte-session-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Table management API
-  slug: yugabytedb-table-management-api
+  label: Yugabyte Session Management API
+  slug: yugabyte-session-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-table-management-api-openapi.yml
-- filename: yugabytedb-tablet-server-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-session-management-api-openapi.yml
+- filename: yugabyte-support-bundle-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Tablet server management API
-  slug: yugabytedb-tablet-server-management-api
+  label: Yugabyte Support Bundle management API
+  slug: yugabyte-support-bundle-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-tablet-server-management-api-openapi.yml
-- filename: yugabytedb-telemetry-provider-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-support-bundle-management-api-openapi.yml
+- filename: yugabyte-table-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Telemetry Provider API
-  slug: yugabytedb-telemetry-provider-api
+  label: Yugabyte Table Management API
+  slug: yugabyte-table-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-telemetry-provider-api-openapi.yml
-- filename: yugabytedb-universe-actions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-table-management-api-openapi.yml
+- filename: yugabyte-tablet-server-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe actions API
-  slug: yugabytedb-universe-actions-api
+  label: Yugabyte Tablet server management API
+  slug: yugabyte-tablet-server-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-actions-api-openapi.yml
-- filename: yugabytedb-universe-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-tablet-server-management-api-openapi.yml
+- filename: yugabyte-telemetry-provider-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe API
-  slug: yugabytedb-universe-api
+  label: Yugabyte Telemetry Provider API
+  slug: yugabyte-telemetry-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-api-openapi.yml
-- filename: yugabytedb-universe-cdc-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-telemetry-provider-api-openapi.yml
+- filename: yugabyte-universe-actions-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe CDC Management API
-  slug: yugabytedb-universe-cdc-management-api
+  label: Yugabyte Universe actions API
+  slug: yugabyte-universe-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-cdc-management-api-openapi.yml
-- filename: yugabytedb-universe-database-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-actions-api-openapi.yml
+- filename: yugabyte-universe-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe database management API
-  slug: yugabytedb-universe-database-management-api
+  label: Yugabyte Universe API
+  slug: yugabyte-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-database-management-api-openapi.yml
-- filename: yugabytedb-universe-information-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-api-openapi.yml
+- filename: yugabyte-universe-cdc-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe information API
-  slug: yugabytedb-universe-information-api
+  label: Yugabyte Universe CDC Management API
+  slug: yugabyte-universe-cdc-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-information-api-openapi.yml
-- filename: yugabytedb-universe-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-cdc-management-api-openapi.yml
+- filename: yugabyte-universe-database-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe management API
-  slug: yugabytedb-universe-management-api
+  label: Yugabyte Universe database management API
+  slug: yugabyte-universe-database-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-management-api-openapi.yml
-- filename: yugabytedb-universe-node-metadata-metamaster-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-database-management-api-openapi.yml
+- filename: yugabyte-universe-information-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe node metadata (metamaster) API
-  slug: yugabytedb-universe-node-metadata-metamaster-api
+  label: Yugabyte Universe information API
+  slug: yugabyte-universe-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-node-metadata-metamaster-api-openapi.yml
-- filename: yugabytedb-universe-performance-suggestions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-information-api-openapi.yml
+- filename: yugabyte-universe-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe performance suggestions API
-  slug: yugabytedb-universe-performance-suggestions-api
+  label: Yugabyte Universe management API
+  slug: yugabyte-universe-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-performance-suggestions-api-openapi.yml
-- filename: yugabytedb-universe-upgrades-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-management-api-openapi.yml
+- filename: yugabyte-universe-node-metadata-metamaster-api-openapi.yml
   format: yaml
-  label: YugabyteDB Universe Upgrades Management API
-  slug: yugabytedb-universe-upgrades-management-api
+  label: Yugabyte Universe node metadata (metamaster) API
+  slug: yugabyte-universe-node-metadata-metamaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universe-upgrades-management-api-openapi.yml
-- filename: yugabytedb-universeclustermutations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-node-metadata-metamaster-api-openapi.yml
+- filename: yugabyte-universe-performance-suggestions-api-openapi.yml
   format: yaml
-  label: YugabyteDB UniverseClusterMutations API
-  slug: yugabytedb-universeclustermutations-api
+  label: Yugabyte Universe performance suggestions API
+  slug: yugabyte-universe-performance-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-universeclustermutations-api-openapi.yml
-- filename: yugabytedb-upload-release-packages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-performance-suggestions-api-openapi.yml
+- filename: yugabyte-universe-upgrades-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Upload Release packages API
-  slug: yugabytedb-upload-release-packages-api
+  label: Yugabyte Universe Upgrades Management API
+  slug: yugabyte-universe-upgrades-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-upload-release-packages-api-openapi.yml
-- filename: yugabytedb-user-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universe-upgrades-management-api-openapi.yml
+- filename: yugabyte-universeclustermutations-api-openapi.yml
   format: yaml
-  label: YugabyteDB User management API
-  slug: yugabytedb-user-management-api
+  label: Yugabyte Universe Cluster Mutations API
+  slug: yugabyte-universeclustermutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-user-management-api-openapi.yml
-- filename: yugabytedb-yba-instance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-universeclustermutations-api-openapi.yml
+- filename: yugabyte-upload-release-packages-api-openapi.yml
   format: yaml
-  label: YugabyteDB YBA Instance API
-  slug: yugabytedb-yba-instance-api
+  label: Yugabyte Upload Release packages API
+  slug: yugabyte-upload-release-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-yba-instance-api-openapi.yml
-- filename: yugabytedb-ybc-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-upload-release-packages-api-openapi.yml
+- filename: yugabyte-user-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Ybc Management API
-  slug: yugabytedb-ybc-management-api
+  label: Yugabyte User Management API
+  slug: yugabyte-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-ybc-management-api-openapi.yml
-- filename: yugabytedb-allow-lists-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-user-management-api-openapi.yml
+- filename: yugabyte-yba-instance-api-openapi.yml
   format: yaml
-  label: YugabyteDB Allow Lists API
-  slug: yugabytedb-allow-lists-api
+  label: Yugabyte YBA Instance API
+  slug: yugabyte-yba-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-allow-lists-api-openapi.yml
-- filename: yugabytedb-read-replicas-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-yba-instance-api-openapi.yml
+- filename: yugabyte-ybc-management-api-openapi.yml
   format: yaml
-  label: YugabyteDB Read Replicas API
-  slug: yugabytedb-read-replicas-api
+  label: Yugabyte Ybc Management API
+  slug: yugabyte-ybc-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabytedb-read-replicas-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/openapi/yugabyte-ybc-management-api-openapi.yml
 description: ''
 domains:
 - caa: []

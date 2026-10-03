@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - HairGrowth
 - Pharmaceuticals
-- ClinicalTrials
+- Clinical Trials
 ---

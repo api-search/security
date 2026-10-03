@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kubeshop-api-api-openapi.yml
-  format: yaml
-  label: Kubeshop API
-  slug: kubeshop-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-api-api-openapi.yml
 - filename: kubeshop-artifacts-api-openapi.yml
   format: yaml
   label: Kubeshop Artifacts API
@@ -140,6 +134,30 @@ api_specs:
   slug: kubeshop-webhook-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-webhook-template-api-openapi.yml
+- filename: kubeshop-config-api-openapi.yml
+  format: yaml
+  label: Kubeshop Config API
+  slug: kubeshop-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-config-api-openapi.yml
+- filename: kubeshop-debug-api-openapi.yml
+  format: yaml
+  label: Kubeshop Debug API
+  slug: kubeshop-debug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-debug-api-openapi.yml
+- filename: kubeshop-export-api-openapi.yml
+  format: yaml
+  label: Kubeshop Export API
+  slug: kubeshop-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-export-api-openapi.yml
+- filename: kubeshop-pro-api-openapi.yml
+  format: yaml
+  label: Kubeshop Pro API
+  slug: kubeshop-pro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-pro-api-openapi.yml
 auth_types:
 - http
 - oauth2

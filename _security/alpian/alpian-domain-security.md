@@ -35,7 +35,7 @@ tags:
 - Savings
 - Investing
 - Pillar 3a
-- Multi‑currency
-- Debit card
+- Multi-Currency
+- Debit Cards
 - Neobank
 ---

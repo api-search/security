@@ -33,7 +33,7 @@ tags:
 - Company
 - Aerospace
 - Defense
-- PowerSystems
-- ControlSystems
+- Power Systems
+- Control Systems
 - Electronics
 ---

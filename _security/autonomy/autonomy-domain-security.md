@@ -34,6 +34,6 @@ tags:
 - Company
 - Mobility
 - Subscription
-- CarSharing
+- Car Sharing
 - Automotive
 ---

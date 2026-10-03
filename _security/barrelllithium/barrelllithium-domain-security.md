@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Energy
 - Lithium
-- Oil & Gas
+- Oil and Gas
 - Renewable Energy
 - Carbon Sequestration
 ---

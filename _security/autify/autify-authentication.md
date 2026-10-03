@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: autify-openapi-generated.yml
+- filename: autify-autify-cli-api-openapi.yml
   format: yaml
-  label: Autify API
-  slug: autify-api
+  label: Autify Autify Cli API
+  slug: autify-autify-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/_ae-authored/autify-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-autify-cli-api-openapi.yml
+- filename: autify-default-api-openapi.yml
+  format: yaml
+  label: Autify ~ API
+  slug: autify-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-default-api-openapi.yml
+- filename: autify-payload-api-openapi.yml
+  format: yaml
+  label: Autify Payload API
+  slug: autify-payload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-payload-api-openapi.yml
+- filename: autify-projects-api-openapi.yml
+  format: yaml
+  label: Autify Projects API
+  slug: autify-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-projects-api-openapi.yml
+- filename: autify-workspaces-api-openapi.yml
+  format: yaml
+  label: Autify Workspaces API
+  slug: autify-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-workspaces-api-openapi.yml
 auth_types: []
 description: Authentication schemes supported by Autify as documented.
 kind: authentication
@@ -35,8 +59,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autify/refs/he
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Test Automation
 - No-Code
-- SaaS
+- Software-as-a-Service
 ---

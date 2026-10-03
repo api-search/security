@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-batch-batch-service-openapi.json
-  format: json
-  label: Azure Batch Service API
-  slug: microsoft-azure-batch-batch-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/_original/microsoft-azure-batch-batch-service-openapi.json
-- filename: microsoft-azure-batch-management-openapi.json
-  format: json
-  label: Azure Batch Management API
-  slug: microsoft-azure-batch-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/_original/microsoft-azure-batch-management-openapi.json
 - filename: microsoft-azure-batch-jobs-api-openapi.yml
   format: yaml
   label: microsoft-azure-batch Jobs API
@@ -30,6 +18,84 @@ api_specs:
   slug: microsoft-azure-batch-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-tasks-api-openapi.yml
+- filename: microsoft-azure-batch-application-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Application API
+  slug: microsoft-azure-batch-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-application-api-openapi.yml
+- filename: microsoft-azure-batch-applicationpackage-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Application Package API
+  slug: microsoft-azure-batch-applicationpackage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-applicationpackage-api-openapi.yml
+- filename: microsoft-azure-batch-applications-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Applications API
+  slug: microsoft-azure-batch-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-applications-api-openapi.yml
+- filename: microsoft-azure-batch-batchaccount-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Batch Account API
+  slug: microsoft-azure-batch-batchaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-batchaccount-api-openapi.yml
+- filename: microsoft-azure-batch-detectorresponses-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Detector Responses API
+  slug: microsoft-azure-batch-detectorresponses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-detectorresponses-api-openapi.yml
+- filename: microsoft-azure-batch-job-schedules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Job Schedules API
+  slug: microsoft-azure-batch-job-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-job-schedules-api-openapi.yml
+- filename: microsoft-azure-batch-location-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Location API
+  slug: microsoft-azure-batch-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-location-api-openapi.yml
+- filename: microsoft-azure-batch-networksecurityperimeter-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Network Security Perimeter API
+  slug: microsoft-azure-batch-networksecurityperimeter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-networksecurityperimeter-api-openapi.yml
+- filename: microsoft-azure-batch-nodes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Nodes API
+  slug: microsoft-azure-batch-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-nodes-api-openapi.yml
+- filename: microsoft-azure-batch-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Operations API
+  slug: microsoft-azure-batch-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-operations-api-openapi.yml
+- filename: microsoft-azure-batch-pool-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Pool API
+  slug: microsoft-azure-batch-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-pool-api-openapi.yml
+- filename: microsoft-azure-batch-privatelinkresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Private Link Resource API
+  slug: microsoft-azure-batch-privatelinkresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-privatelinkresource-api-openapi.yml
+- filename: microsoft-azure-batch-private-endpoint-connection-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Batch Private Endpoint Connection API
+  slug: microsoft-azure-batch-private-endpoint-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-private-endpoint-connection-api-openapi.yml
 description: ''
 domains:
 - caa:

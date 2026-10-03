@@ -35,5 +35,5 @@ tags:
 - BPO
 - Customer Operations
 - Platform
-- Managed Services
+- Managed Service
 ---

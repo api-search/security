@@ -34,5 +34,5 @@ tags:
 - Healthcare
 - Imaging
 - Theranostics
-- PrecisionMedicine
+- Precision Medicine
 ---

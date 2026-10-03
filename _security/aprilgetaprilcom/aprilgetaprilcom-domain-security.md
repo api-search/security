@@ -34,6 +34,5 @@ tags:
 - Company
 - Fintech
 - Tax
-- API
 - Embedded
 ---

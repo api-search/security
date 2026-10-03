@@ -28,7 +28,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Materials
-- Thin-film
+- Thin Film
 - Equipment
 - R&D
 ---

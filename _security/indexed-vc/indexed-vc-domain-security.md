@@ -85,7 +85,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data
-- Private-Company
+- Private Company
 - Funding
-- API
 ---

@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kannkidas-de-openapi.yml
+- filename: kannkidas-de-agent-api-openapi.yml
   format: yaml
-  label: Kann KI das? API
-  slug: kann-ki-das-api
+  label: Kann KI das? Sponsoring Agent Agent API
+  slug: kannkidas-de-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-agent-api-openapi.yml
+- filename: kannkidas-de-kann-ki-das-api-api-openapi.yml
+  format: yaml
+  label: Kann KI das? Sponsoring Agent Kann KI Das? API
+  slug: kannkidas-de-kann-ki-das-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-kann-ki-das-api-api-openapi.yml
+- filename: kannkidas-de-oauth-api-openapi.yml
+  format: yaml
+  label: Kann KI das? Sponsoring Agent OAuth API
+  slug: kannkidas-de-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-oauth-api-openapi.yml
+- filename: kannkidas-de-search-api-openapi.yml
+  format: yaml
+  label: Kann KI das? Sponsoring Agent Search API
+  slug: kannkidas-de-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-search-api-openapi.yml
+- filename: kannkidas-de-slots-api-openapi.yml
+  format: yaml
+  label: Kann KI das? Sponsoring Agent Slots API
+  slug: kannkidas-de-slots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-slots-api-openapi.yml
 auth_types:
 - none
 - http

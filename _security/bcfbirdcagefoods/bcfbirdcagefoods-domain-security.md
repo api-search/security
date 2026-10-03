@@ -34,5 +34,5 @@ tags:
 - Food
 - Agriculture
 - Technology
-- Startup
+- Startups
 ---

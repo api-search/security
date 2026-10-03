@@ -179,13 +179,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-xero-api-openapi.yml
 - filename: hevn-inc-2-fa-api-openapi.yml
   format: yaml
-  label: Hevn Inc 2 FA API
+  label: Hevn 2 FA API
   slug: hevn-inc-2-fa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-2-fa-api-openapi.yml
 - filename: hevn-inc-b2-b-api-openapi.yml
   format: yaml
-  label: Hevn Inc B2B API
+  label: Hevn B2 B API
   slug: hevn-inc-b2-b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-b2-b-api-openapi.yml

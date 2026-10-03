@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: framethrower-openapi.yml
+- filename: framethrower-discovery-api-openapi.yml
   format: yaml
-  label: FrameThrower API
-  slug: framethrower-api
+  label: FrameThrower Discovery API
+  slug: framethrower-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-discovery-api-openapi.yml
+- filename: framethrower-films-api-openapi.yml
+  format: yaml
+  label: FrameThrower Films API
+  slug: framethrower-films-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-films-api-openapi.yml
+- filename: framethrower-frames-api-openapi.yml
+  format: yaml
+  label: FrameThrower Frames API
+  slug: framethrower-frames-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-frames-api-openapi.yml
+- filename: framethrower-search-api-openapi.yml
+  format: yaml
+  label: FrameThrower Search API
+  slug: framethrower-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-search-api-openapi.yml
 auth_types:
 - http
 - oauth2

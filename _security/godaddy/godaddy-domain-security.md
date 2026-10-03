@@ -30,18 +30,54 @@ api_specs:
   slug: godaddy-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-notifications-api-openapi.yml
-- filename: godaddy-v1-api-openapi.yml
+- filename: godaddy-abuse-api-openapi.yml
   format: yaml
-  label: GoDaddy v1 API
-  slug: godaddy-v1-api
+  label: GoDaddy Abuse API
+  slug: godaddy-abuse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-v1-api-openapi.yml
-- filename: godaddy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-abuse-api-openapi.yml
+- filename: godaddy-agreements-api-openapi.yml
   format: yaml
-  label: GoDaddy v2 API
-  slug: godaddy-v2-api
+  label: GoDaddy Agreements API
+  slug: godaddy-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-agreements-api-openapi.yml
+- filename: godaddy-certificates-api-openapi.yml
+  format: yaml
+  label: GoDaddy Certificates API
+  slug: godaddy-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-certificates-api-openapi.yml
+- filename: godaddy-countries-api-openapi.yml
+  format: yaml
+  label: GoDaddy Countries API
+  slug: godaddy-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-countries-api-openapi.yml
+- filename: godaddy-customers-api-openapi.yml
+  format: yaml
+  label: GoDaddy Customers API
+  slug: godaddy-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-customers-api-openapi.yml
+- filename: godaddy-orders-api-openapi.yml
+  format: yaml
+  label: GoDaddy Orders API
+  slug: godaddy-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-orders-api-openapi.yml
+- filename: godaddy-shoppers-api-openapi.yml
+  format: yaml
+  label: GoDaddy Shoppers API
+  slug: godaddy-shoppers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-shoppers-api-openapi.yml
+- filename: godaddy-subscriptions-api-openapi.yml
+  format: yaml
+  label: GoDaddy Subscriptions API
+  slug: godaddy-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []

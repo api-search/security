@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Beauty
-- E-commerce
+- E-Commerce
 - Skincare
 - Lifestyle
 ---

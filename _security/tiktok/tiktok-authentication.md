@@ -63,54 +63,54 @@ api_specs:
   slug: tiktok-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-reporting-api-openapi.yml
-- filename: tiktok-for-developers-post-api-openapi.yml
+- filename: tiktok-oauth-api-openapi.yml
+  format: yaml
+  label: TikTok OAuth API
+  slug: tiktok-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-oauth-api-openapi.yml
+- filename: tiktok-post-api-openapi.yml
   format: yaml
   label: TikTok Post API
-  slug: tiktok-for-developers-post-api
+  slug: tiktok-post-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-post-api-openapi.yml
-- filename: tiktok-for-developers-research-comments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-post-api-openapi.yml
+- filename: tiktok-research-comments-api-openapi.yml
   format: yaml
   label: TikTok Research Comments API
-  slug: tiktok-for-developers-research-comments-api
+  slug: tiktok-research-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-research-comments-api-openapi.yml
-- filename: tiktok-for-developers-research-social-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-comments-api-openapi.yml
+- filename: tiktok-research-social-api-openapi.yml
   format: yaml
   label: TikTok Research Social API
-  slug: tiktok-for-developers-research-social-api
+  slug: tiktok-research-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-research-social-api-openapi.yml
-- filename: tiktok-for-developers-research-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-social-api-openapi.yml
+- filename: tiktok-research-users-api-openapi.yml
   format: yaml
   label: TikTok Research Users API
-  slug: tiktok-for-developers-research-users-api
+  slug: tiktok-research-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-research-users-api-openapi.yml
-- filename: tiktok-for-developers-research-videos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-users-api-openapi.yml
+- filename: tiktok-research-videos-api-openapi.yml
   format: yaml
   label: TikTok Research Videos API
-  slug: tiktok-for-developers-research-videos-api
+  slug: tiktok-research-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-research-videos-api-openapi.yml
-- filename: tiktok-for-developers-user-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-videos-api-openapi.yml
+- filename: tiktok-user-api-openapi.yml
   format: yaml
   label: TikTok User API
-  slug: tiktok-for-developers-user-api
+  slug: tiktok-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-user-api-openapi.yml
-- filename: tiktok-for-developers-video-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-user-api-openapi.yml
+- filename: tiktok-video-api-openapi.yml
   format: yaml
   label: TikTok Video API
-  slug: tiktok-for-developers-video-api
+  slug: tiktok-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-video-api-openapi.yml
-- filename: tiktok-for-developers-oauth-api-openapi.yml
-  format: yaml
-  label: TikTok O Auth API
-  slug: tiktok-for-developers-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-for-developers-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-video-api-openapi.yml
 auth_types:
 - apiKey
 - http

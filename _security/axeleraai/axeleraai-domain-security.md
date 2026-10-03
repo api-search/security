@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: axeleraai-openapi-generated.yml
+- filename: axeleraai-artifactory-api-openapi.yml
   format: yaml
-  label: Axeleraai API
-  slug: axeleraai-api
+  label: Axeleraai Artifactory API
+  slug: axeleraai-artifactory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axeleraai/refs/heads/main/openapi/_ae-authored/axeleraai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axeleraai/refs/heads/main/openapi/axeleraai-artifactory-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +39,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axeleraai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Hardware
 - Edge Computing
-- Datacenter
+- Data Center
 ---

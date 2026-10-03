@@ -33,6 +33,6 @@ tags:
 - Company
 - Health
 - Fitness
-- MobileApp
+- Mobile App
 - Wellness
 ---

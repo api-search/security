@@ -12,6 +12,30 @@ api_specs:
   slug: microsoft-azure-private-link-private-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
+- filename: microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Private Link Private Dns Zone Groups API
+  slug: microsoft-azure-private-link-privatednszonegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
+- filename: microsoft-azure-private-link-privatelinkservice-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Private Link Private Link Service API
+  slug: microsoft-azure-private-link-privatelinkservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatelinkservice-api-openapi.yml
+- filename: microsoft-azure-private-link-privatelinkservices-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Private Link Private Link Services API
+  slug: microsoft-azure-private-link-privatelinkservices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatelinkservices-api-openapi.yml
+- filename: microsoft-azure-private-link-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Private Link Subscriptions API
+  slug: microsoft-azure-private-link-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Data
 - Discovery
-- API
-- OpenData
+- Open Data
 - Platform
 ---

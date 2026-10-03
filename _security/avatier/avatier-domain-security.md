@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity
 - Access Management
-- AI
+- Artificial Intelligence
 - Cloud
 - Enterprise
 ---

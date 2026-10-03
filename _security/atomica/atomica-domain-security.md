@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atomica/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Co-working
+- Co-Working
 - Business Management
-- AI
+- Artificial Intelligence
 - Data Analytics
 ---

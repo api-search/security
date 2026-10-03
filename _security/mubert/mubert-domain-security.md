@@ -78,6 +78,6 @@ tags:
 - Streaming
 - Text-to-Music
 - Image-to-Music
-- STEM
+- Stems
 - B2B
 ---

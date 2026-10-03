@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betaworks/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Startup
+- Startups
 - Venture Capital
 - Incubator
 - Media

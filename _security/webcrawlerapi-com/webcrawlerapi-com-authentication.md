@@ -3,12 +3,42 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: webcrawlerapi-com-openapi.yml
+- filename: webcrawlerapi-com-agent-api-openapi.yml
   format: yaml
-  label: WebCrawler API
-  slug: webcrawler-api
+  label: WebCrawlerAPI Agent API
+  slug: webcrawlerapi-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-agent-api-openapi.yml
+- filename: webcrawlerapi-com-feeds-api-openapi.yml
+  format: yaml
+  label: WebCrawlerAPI Feeds API
+  slug: webcrawlerapi-com-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-feeds-api-openapi.yml
+- filename: webcrawlerapi-com-jobs-api-openapi.yml
+  format: yaml
+  label: WebCrawlerAPI Jobs API
+  slug: webcrawlerapi-com-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-jobs-api-openapi.yml
+- filename: webcrawlerapi-com-organization-api-openapi.yml
+  format: yaml
+  label: WebCrawlerAPI Organization API
+  slug: webcrawlerapi-com-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-organization-api-openapi.yml
+- filename: webcrawlerapi-com-status-api-openapi.yml
+  format: yaml
+  label: WebCrawlerAPI Status API
+  slug: webcrawlerapi-com-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-status-api-openapi.yml
+- filename: webcrawlerapi-com-v2-scraping-api-openapi.yml
+  format: yaml
+  label: WebCrawlerAPI V2 Scraping API
+  slug: webcrawlerapi-com-v2-scraping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webcrawlerapi-com/refs/heads/main/openapi/webcrawlerapi-com-v2-scraping-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

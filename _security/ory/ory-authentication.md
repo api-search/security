@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: ory-api-api-openapi.yml
-  format: yaml
-  label: Ory API
-  slug: ory-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-api-api-openapi.yml
 - filename: ory-courier-api-openapi.yml
   format: yaml
   label: Ory Courier API
@@ -135,6 +129,18 @@ api_specs:
   slug: ory-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-well-known-api-openapi.yml
+- filename: ory-decisions-api-openapi.yml
+  format: yaml
+  label: Ory Decisions API
+  slug: ory-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-decisions-api-openapi.yml
+- filename: ory-rules-api-openapi.yml
+  format: yaml
+  label: Ory Rules API
+  slug: ory-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-rules-api-openapi.yml
 auth_types:
 - apiKey
 - http

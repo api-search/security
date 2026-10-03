@@ -34,7 +34,7 @@ tags:
 - Finance
 - Infrastructure
 - Renewable Energy
-- SaaS
+- Software-as-a-Service
 - Project Management
 - Company
 ---

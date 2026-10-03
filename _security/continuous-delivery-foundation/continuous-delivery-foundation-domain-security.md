@@ -426,12 +426,6 @@ api_specs:
   slug: continuous-delivery-foundation-v-2-pipeline-templates-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-v-2-pipeline-templates-controller-api-openapi.yml
-- filename: continuous-delivery-foundation-v4-api-openapi.yml
-  format: yaml
-  label: Continuous Delivery Foundation V4 API
-  slug: continuous-delivery-foundation-v4-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-v4-api-openapi.yml
 - filename: continuous-delivery-foundation-version-controller-api-openapi.yml
   format: yaml
   label: Continuous Delivery Foundation Version Controller API
@@ -444,6 +438,162 @@ api_specs:
   slug: continuous-delivery-foundation-webhook-controller-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-webhook-controller-api-openapi.yml
+- filename: continuous-delivery-foundation-auth-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Auth API
+  slug: continuous-delivery-foundation-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-auth-api-openapi.yml
+- filename: continuous-delivery-foundation-banners-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Banners API
+  slug: continuous-delivery-foundation-banners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-banners-api-openapi.yml
+- filename: continuous-delivery-foundation-buildclusters-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Buildclusters API
+  slug: continuous-delivery-foundation-buildclusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-buildclusters-api-openapi.yml
+- filename: continuous-delivery-foundation-builds-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Builds API
+  slug: continuous-delivery-foundation-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-builds-api-openapi.yml
+- filename: continuous-delivery-foundation-collections-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Collections API
+  slug: continuous-delivery-foundation-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-collections-api-openapi.yml
+- filename: continuous-delivery-foundation-commands-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Commands API
+  slug: continuous-delivery-foundation-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-commands-api-openapi.yml
+- filename: continuous-delivery-foundation-coverage-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Coverage API
+  slug: continuous-delivery-foundation-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-coverage-api-openapi.yml
+- filename: continuous-delivery-foundation-events-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Events API
+  slug: continuous-delivery-foundation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-events-api-openapi.yml
+- filename: continuous-delivery-foundation-isadmin-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Is Admin API
+  slug: continuous-delivery-foundation-isadmin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-isadmin-api-openapi.yml
+- filename: continuous-delivery-foundation-jobs-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Jobs API
+  slug: continuous-delivery-foundation-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-jobs-api-openapi.yml
+- filename: continuous-delivery-foundation-metrics-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Metrics API
+  slug: continuous-delivery-foundation-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-metrics-api-openapi.yml
+- filename: continuous-delivery-foundation-pipeline-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Pipeline API
+  slug: continuous-delivery-foundation-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-pipeline-api-openapi.yml
+- filename: continuous-delivery-foundation-pipelines-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Pipelines API
+  slug: continuous-delivery-foundation-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-pipelines-api-openapi.yml
+- filename: continuous-delivery-foundation-processhooks-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Process Hooks API
+  slug: continuous-delivery-foundation-processhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-processhooks-api-openapi.yml
+- filename: continuous-delivery-foundation-release-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Release API
+  slug: continuous-delivery-foundation-release-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-release-api-openapi.yml
+- filename: continuous-delivery-foundation-secrets-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Secrets API
+  slug: continuous-delivery-foundation-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-secrets-api-openapi.yml
+- filename: continuous-delivery-foundation-stages-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Stages API
+  slug: continuous-delivery-foundation-stages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-stages-api-openapi.yml
+- filename: continuous-delivery-foundation-stats-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Stats API
+  slug: continuous-delivery-foundation-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-stats-api-openapi.yml
+- filename: continuous-delivery-foundation-status-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Status API
+  slug: continuous-delivery-foundation-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-status-api-openapi.yml
+- filename: continuous-delivery-foundation-template-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Template API
+  slug: continuous-delivery-foundation-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-template-api-openapi.yml
+- filename: continuous-delivery-foundation-templates-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Templates API
+  slug: continuous-delivery-foundation-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-templates-api-openapi.yml
+- filename: continuous-delivery-foundation-tokens-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Tokens API
+  slug: continuous-delivery-foundation-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-tokens-api-openapi.yml
+- filename: continuous-delivery-foundation-users-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Users API
+  slug: continuous-delivery-foundation-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-users-api-openapi.yml
+- filename: continuous-delivery-foundation-validator-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Validator API
+  slug: continuous-delivery-foundation-validator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-validator-api-openapi.yml
+- filename: continuous-delivery-foundation-versions-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Versions API
+  slug: continuous-delivery-foundation-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-versions-api-openapi.yml
+- filename: continuous-delivery-foundation-webhooks-api-openapi.yml
+  format: yaml
+  label: Continuous Delivery Foundation Webhooks API
+  slug: continuous-delivery-foundation-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/openapi/continuous-delivery-foundation-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

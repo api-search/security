@@ -21,7 +21,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contract-guard
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - JSON Validation
-- API
 - AI Trust
 trust_url: https://trust.railway.com/
 ---

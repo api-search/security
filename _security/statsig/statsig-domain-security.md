@@ -102,12 +102,132 @@ api_specs:
   slug: statsig-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-users-api-openapi.yml
-- filename: statsig-console-api-openapi.json
-  format: json
-  label: statsig Console API
-  slug: statsig-console-api
+- filename: statsig-alerts-api-openapi.yml
+  format: yaml
+  label: Statsig Alerts API
+  slug: statsig-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-console-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-alerts-api-openapi.yml
+- filename: statsig-change-validation-api-openapi.yml
+  format: yaml
+  label: Statsig Change Validation API
+  slug: statsig-change-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-change-validation-api-openapi.yml
+- filename: statsig-company-api-openapi.yml
+  format: yaml
+  label: Statsig Company API
+  slug: statsig-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-company-api-openapi.yml
+- filename: statsig-configs-api-openapi.yml
+  format: yaml
+  label: Statsig Configs API
+  slug: statsig-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-configs-api-openapi.yml
+- filename: statsig-dashboards-api-openapi.yml
+  format: yaml
+  label: Statsig Dashboards API
+  slug: statsig-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-dashboards-api-openapi.yml
+- filename: statsig-environments-api-openapi.yml
+  format: yaml
+  label: Statsig Environments API
+  slug: statsig-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-environments-api-openapi.yml
+- filename: statsig-experiments-warehouse-native-api-openapi.yml
+  format: yaml
+  label: Statsig Experiments (Warehouse Native) API
+  slug: statsig-experiments-warehouse-native-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-experiments-warehouse-native-api-openapi.yml
+- filename: statsig-ingestions-api-openapi.yml
+  format: yaml
+  label: Statsig Ingestions API
+  slug: statsig-ingestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-ingestions-api-openapi.yml
+- filename: statsig-logs-api-openapi.yml
+  format: yaml
+  label: Statsig Logs API
+  slug: statsig-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-logs-api-openapi.yml
+- filename: statsig-overrides-api-openapi.yml
+  format: yaml
+  label: Statsig Overrides API
+  slug: statsig-overrides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-overrides-api-openapi.yml
+- filename: statsig-param-store-api-openapi.yml
+  format: yaml
+  label: Statsig Param Store API
+  slug: statsig-param-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-param-store-api-openapi.yml
+- filename: statsig-project-api-openapi.yml
+  format: yaml
+  label: Statsig Project API
+  slug: statsig-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-project-api-openapi.yml
+- filename: statsig-prompts-api-openapi.yml
+  format: yaml
+  label: Statsig Prompts API
+  slug: statsig-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-prompts-api-openapi.yml
+- filename: statsig-release-pipelines-api-openapi.yml
+  format: yaml
+  label: Statsig Release Pipelines API
+  slug: statsig-release-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-release-pipelines-api-openapi.yml
+- filename: statsig-reports-api-openapi.yml
+  format: yaml
+  label: Statsig Reports API
+  slug: statsig-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-reports-api-openapi.yml
+- filename: statsig-roles-api-openapi.yml
+  format: yaml
+  label: Statsig Roles API
+  slug: statsig-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-roles-api-openapi.yml
+- filename: statsig-settings-api-openapi.yml
+  format: yaml
+  label: Statsig Settings API
+  slug: statsig-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-settings-api-openapi.yml
+- filename: statsig-target-app-api-openapi.yml
+  format: yaml
+  label: Statsig Target App API
+  slug: statsig-target-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-target-app-api-openapi.yml
+- filename: statsig-unit-id-types-api-openapi.yml
+  format: yaml
+  label: Statsig Unit ID Types API
+  slug: statsig-unit-id-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-unit-id-types-api-openapi.yml
+- filename: statsig-usage-api-openapi.yml
+  format: yaml
+  label: Statsig Usage API
+  slug: statsig-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-usage-api-openapi.yml
+- filename: statsig-warehouse-connections-api-openapi.yml
+  format: yaml
+  label: Statsig Warehouse Connections API
+  slug: statsig-warehouse-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-warehouse-connections-api-openapi.yml
 description: ''
 domains:
 - caa: []

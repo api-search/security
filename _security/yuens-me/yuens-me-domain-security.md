@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: yuens-me-openapi.yml
+- filename: yuens-me-availability-api-openapi.yml
   format: yaml
-  label: Resume Agent API
-  slug: resume-agent-api
+  label: Sunny Yuen Availability API
+  slug: yuens-me-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-availability-api-openapi.yml
+- filename: yuens-me-info-api-openapi.yml
+  format: yaml
+  label: Sunny Yuen Info API
+  slug: yuens-me-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-info-api-openapi.yml
+- filename: yuens-me-match-api-openapi.yml
+  format: yaml
+  label: Sunny Yuen Match API
+  slug: yuens-me-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-match-api-openapi.yml
+- filename: yuens-me-observations-api-openapi.yml
+  format: yaml
+  label: Sunny Yuen Observations API
+  slug: yuens-me-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-observations-api-openapi.yml
+- filename: yuens-me-projects-api-openapi.yml
+  format: yaml
+  label: Sunny Yuen Projects API
+  slug: yuens-me-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-projects-api-openapi.yml
+- filename: yuens-me-query-api-openapi.yml
+  format: yaml
+  label: Sunny Yuen Query API
+  slug: yuens-me-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yuens-me/refs/heads/main/openapi/yuens-me-query-api-openapi.yml
 description: ''
 domains:
 - caa: []

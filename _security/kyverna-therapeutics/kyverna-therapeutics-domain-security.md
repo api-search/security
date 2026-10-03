@@ -42,5 +42,4 @@ tags:
 - Clinical Trials
 - Life Sciences
 - Public Company
-- Cart
 ---

@@ -68,7 +68,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Civic
 - Government
 - Address

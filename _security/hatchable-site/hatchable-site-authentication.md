@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: hatchable-site-openapi.yml
+- filename: hatchable-site-intent-check-api-openapi.yml
   format: yaml
-  label: IntentGuard Router API
-  slug: intentguard-router-api
+  label: IntentGuard Intent Check API
+  slug: hatchable-site-intent-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-intent-check-api-openapi.yml
+- filename: hatchable-site-route-api-openapi.yml
+  format: yaml
+  label: IntentGuard Route API
+  slug: hatchable-site-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-route-api-openapi.yml
+- filename: hatchable-site-router-preview-api-openapi.yml
+  format: yaml
+  label: IntentGuard Router Preview API
+  slug: hatchable-site-router-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hatchable-site/refs/heads/main/openapi/hatchable-site-router-preview-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

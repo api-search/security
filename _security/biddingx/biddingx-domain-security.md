@@ -34,5 +34,5 @@ tags:
 - Marketing
 - Programmatic
 - DSP
-- AI
+- Artificial Intelligence
 ---

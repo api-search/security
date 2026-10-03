@@ -42,8 +42,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beato/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

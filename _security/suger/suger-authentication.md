@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: suger-api-api-openapi.yml
-  format: yaml
-  label: Suger API
-  slug: suger-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-api-api-openapi.yml
 - filename: suger-billing-api-openapi.yml
   format: yaml
   label: Suger Billing API
@@ -69,6 +63,12 @@ api_specs:
   slug: suger-support-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-support-api-openapi.yml
+- filename: suger-org-api-openapi.yml
+  format: yaml
+  label: Suger Org API
+  slug: suger-org-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-org-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

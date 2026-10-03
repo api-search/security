@@ -33,6 +33,5 @@ tags:
 - Fintech
 - Banking
 - Payments
-- API
 - Argentina
 ---

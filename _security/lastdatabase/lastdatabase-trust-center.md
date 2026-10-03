@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: lastdatabase-openapi.yml
+- filename: lastdatabase-leads-api-openapi.yml
   format: yaml
-  label: LastDatabase Lead Search API
-  slug: lead-search-api
+  label: LastDatabase Leads API
+  slug: lastdatabase-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/openapi/lastdatabase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/openapi/lastdatabase-leads-api-openapi.yml
 certification_count: 3
 certifications:
 - ISO/IEC 27001

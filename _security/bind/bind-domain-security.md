@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: bind-openapi-generated.yml
+- filename: bind-policies-api-openapi.yml
   format: yaml
-  label: Bind API
-  slug: bind-api
+  label: Bind Policies API
+  slug: bind-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bind/refs/heads/main/openapi/_ae-authored/bind-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bind/refs/heads/main/openapi/bind-policies-api-openapi.yml
+- filename: bind-quotes-api-openapi.yml
+  format: yaml
+  label: Bind Quotes API
+  slug: bind-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bind/refs/heads/main/openapi/bind-quotes-api-openapi.yml
+- filename: bind-reports-api-openapi.yml
+  format: yaml
+  label: Bind Reports API
+  slug: bind-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bind/refs/heads/main/openapi/bind-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +52,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Platform
-- API
 - Composable
 - Specialty
 ---

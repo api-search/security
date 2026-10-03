@@ -24,10 +24,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/security/autogenai-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, FedRAMP, GDPR, FIPS 140
 tags:
-- AI
+- Artificial Intelligence
 - ProposalWriting
 - Enterprise
 - Government
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.autogenai.com/
 ---

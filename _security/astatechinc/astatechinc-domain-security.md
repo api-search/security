@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astatechinc/re
 summary_line: TLSv1.2
 tags:
 - Contract Research Organization
-- Pharmaceutical
+- Pharmaceuticals
 - Custom Synthesis
 - Bulk Manufacturing
 - Analytical Services

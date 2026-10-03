@@ -24,12 +24,6 @@ api_specs:
   slug: microsoft-azure-blob-storage-block-blobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-block-blobs-api-openapi.yml
-- filename: microsoft-azure-blob-storage-comp-blobs-api-openapi.yml
-  format: yaml
-  label: Azure Blob Storage ?comp=blobs API
-  slug: microsoft-azure-blob-storage-comp-blobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-comp-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-containers-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Containers API
@@ -42,30 +36,6 @@ api_specs:
   slug: microsoft-azure-blob-storage-page-blobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-page-blobs-api-openapi.yml
-- filename: microsoft-azure-blob-storage-restype-service-comp-batch-api-openapi.yml
-  format: yaml
-  label: Azure Blob Storage ?restype=service&comp=batch API
-  slug: microsoft-azure-blob-storage-restype-service-comp-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-restype-service-comp-batch-api-openapi.yml
-- filename: microsoft-azure-blob-storage-restype-service-comp-properties-api-openapi.yml
-  format: yaml
-  label: Azure Blob Storage ?restype=service&comp=properties API
-  slug: microsoft-azure-blob-storage-restype-service-comp-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-restype-service-comp-properties-api-openapi.yml
-- filename: microsoft-azure-blob-storage-restype-service-comp-stats-api-openapi.yml
-  format: yaml
-  label: Azure Blob Storage ?restype=service&comp=stats API
-  slug: microsoft-azure-blob-storage-restype-service-comp-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-restype-service-comp-stats-api-openapi.yml
-- filename: microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api-openapi.yml
-  format: yaml
-  label: Azure Blob Storage ?restype=service&comp=userdelegationkey API
-  slug: microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -33,6 +33,6 @@ tags:
 - Company
 - Medical Imaging
 - Diagnostics
-- AI
+- Artificial Intelligence
 - Healthcare
 ---

@@ -34,6 +34,6 @@ tags:
 - Web Development
 - Digital Services
 - Graphic Design
-- E‑commerce
+- E-Commerce
 - New York
 ---

@@ -34,5 +34,5 @@ tags:
 - Data
 - Analytics
 - Platform
-- SaaS
+- Software-as-a-Service
 ---

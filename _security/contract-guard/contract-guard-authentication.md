@@ -36,6 +36,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contract-guard
 summary_line: 1 scheme
 tags:
 - JSON Validation
-- API
 - AI Trust
 ---

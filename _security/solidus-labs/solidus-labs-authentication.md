@@ -75,7 +75,7 @@ tags:
 - Compliance
 - RegTech
 - Trade Surveillance
-- Market Integrity
+- market-integrity
 - Transaction Monitoring
 - Digital Assets
 - Cryptocurrency

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthexbiotech/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Biotechnology
-- RNA therapeutics
+- RNA Therapeutics
 - Myotonic Dystrophy
 - Valencia
 - Healthcare

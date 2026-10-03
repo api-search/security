@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: bmcxiv-com-openapi.yml
+- filename: bmcxiv-com-discovery-api-openapi.yml
   format: yaml
-  label: Breach402 API
-  slug: breach402-api
+  label: BMC XIV Discovery API
+  slug: bmcxiv-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-discovery-api-openapi.yml
+- filename: bmcxiv-com-owner-verification-api-openapi.yml
+  format: yaml
+  label: BMC XIV Owner Verification API
+  slug: bmcxiv-com-owner-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-owner-verification-api-openapi.yml
+- filename: bmcxiv-com-paid-check-api-openapi.yml
+  format: yaml
+  label: BMC XIV Paid Check API
+  slug: bmcxiv-com-paid-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bmcxiv-com/refs/heads/main/openapi/bmcxiv-com-paid-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

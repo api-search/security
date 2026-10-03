@@ -23,7 +23,7 @@ tags:
 - Accounting
 - Bookkeeping
 - Small Business
-- SaaS
+- Software-as-a-Service
 - Finance
 trust_url: https://www.bench.co/security
 ---

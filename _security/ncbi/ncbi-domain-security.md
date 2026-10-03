@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ncbi-blast-url-api-openapi.yml
-  format: yaml
-  label: NCBI BLAST URL API
-  slug: ncbi-blast-url-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-blast-url-api-openapi.yml
 - filename: ncbi-biosample-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) BioSample API
@@ -54,30 +48,36 @@ api_specs:
   slug: ncbi-virus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-virus-api-openapi.yml
-- filename: ncbi-e-utilities-fetch-api-openapi.yml
+- filename: ncbi-blast-api-openapi.yml
   format: yaml
-  label: NCBI E-utilities Fetch API
-  slug: ncbi-e-utilities-fetch-api
+  label: National Center for Biotechnology Information (NCBI) BLAST API
+  slug: ncbi-blast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-e-utilities-fetch-api-openapi.yml
-- filename: ncbi-e-utilities-info-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-blast-api-openapi.yml
+- filename: ncbi-fetch-api-openapi.yml
   format: yaml
-  label: NCBI E-utilities Info API
-  slug: ncbi-e-utilities-info-api
+  label: National Center for Biotechnology Information (NCBI) Fetch API
+  slug: ncbi-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-e-utilities-info-api-openapi.yml
-- filename: ncbi-e-utilities-link-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-fetch-api-openapi.yml
+- filename: ncbi-info-api-openapi.yml
   format: yaml
-  label: NCBI E-utilities Link API
-  slug: ncbi-e-utilities-link-api
+  label: National Center for Biotechnology Information (NCBI) Info API
+  slug: ncbi-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-e-utilities-link-api-openapi.yml
-- filename: ncbi-e-utilities-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-info-api-openapi.yml
+- filename: ncbi-link-api-openapi.yml
   format: yaml
-  label: NCBI E-utilities Search API
-  slug: ncbi-e-utilities-search-api
+  label: National Center for Biotechnology Information (NCBI) Link API
+  slug: ncbi-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-e-utilities-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-link-api-openapi.yml
+- filename: ncbi-search-api-openapi.yml
+  format: yaml
+  label: National Center for Biotechnology Information (NCBI) Search API
+  slug: ncbi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-search-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: blub0x-openapi-generated.yml
+- filename: blub0x-enage-api-openapi.yml
   format: yaml
-  label: Blub0x API
-  slug: blub0x-api
+  label: Blub0x Enage API
+  slug: blub0x-enage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/openapi/_ae-authored/blub0x-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/openapi/blub0x-enage-api-openapi.yml
+- filename: blub0x-engage-api-openapi.yml
+  format: yaml
+  label: Blub0x Engage API
+  slug: blub0x-engage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/openapi/blub0x-engage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,5 +47,5 @@ tags:
 - Cloud Security
 - Access Control
 - Elevator Management
-- AI
+- Artificial Intelligence
 ---

@@ -72,30 +72,30 @@ api_specs:
   slug: fcc-projection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-projection-api-openapi.yml
-- filename: federal-communications-commission-datasets-api-openapi.yml
+- filename: fcc-datasets-api-openapi.yml
   format: yaml
-  label: Federal Communications Commission Datasets API
-  slug: federal-communications-commission-datasets-api
+  label: FCC (Federal Communications Commission) Datasets API
+  slug: fcc-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-datasets-api-openapi.yml
-- filename: federal-communications-commission-filings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-datasets-api-openapi.yml
+- filename: fcc-filings-api-openapi.yml
   format: yaml
-  label: Federal Communications Commission Filings API
-  slug: federal-communications-commission-filings-api
+  label: FCC (Federal Communications Commission) Filings API
+  slug: fcc-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-filings-api-openapi.yml
-- filename: federal-communications-commission-pirate-radio-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-filings-api-openapi.yml
+- filename: fcc-pirate-radio-api-openapi.yml
   format: yaml
-  label: Federal Communications Commission Pirate Radio API
-  slug: federal-communications-commission-pirate-radio-api
+  label: FCC (Federal Communications Commission) Pirate Radio API
+  slug: fcc-pirate-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-pirate-radio-api-openapi.yml
-- filename: federal-communications-commission-proceedings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-pirate-radio-api-openapi.yml
+- filename: fcc-proceedings-api-openapi.yml
   format: yaml
-  label: Federal Communications Commission Proceedings API
-  slug: federal-communications-commission-proceedings-api
+  label: FCC (Federal Communications Commission) Proceedings API
+  slug: fcc-proceedings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/federal-communications-commission-proceedings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/openapi/fcc-proceedings-api-openapi.yml
 description: ''
 domains:
 - caa: []

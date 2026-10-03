@@ -35,5 +35,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/he
 summary_line: DMARC
 tags:
 - Fortune 1000
-- Real-Time
 ---

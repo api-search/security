@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: socialbakers-ads-api-openapi.yml
+- filename: emplifi-io-ads-api-openapi.yml
   format: yaml
-  label: Socialbakers Ads API
-  slug: socialbakers-ads-api
+  label: Emplifi Ads API
+  slug: emplifi-io-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-ads-api-openapi.yml
-- filename: socialbakers-assets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-ads-api-openapi.yml
+- filename: emplifi-io-assets-api-openapi.yml
   format: yaml
-  label: Socialbakers Assets API
-  slug: socialbakers-assets-api
+  label: Emplifi Assets API
+  slug: emplifi-io-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-assets-api-openapi.yml
-- filename: socialbakers-care-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-assets-api-openapi.yml
+- filename: emplifi-io-care-api-openapi.yml
   format: yaml
-  label: Socialbakers Care API
-  slug: socialbakers-care-api
+  label: Emplifi Care API
+  slug: emplifi-io-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-care-api-openapi.yml
-- filename: socialbakers-community-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-care-api-openapi.yml
+- filename: emplifi-io-community-api-openapi.yml
   format: yaml
-  label: Socialbakers Community API
-  slug: socialbakers-community-api
+  label: Emplifi Community API
+  slug: emplifi-io-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-community-api-openapi.yml
-- filename: socialbakers-listening-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-community-api-openapi.yml
+- filename: emplifi-io-listening-api-openapi.yml
   format: yaml
-  label: Socialbakers Listening API
-  slug: socialbakers-listening-api
+  label: Emplifi Listening API
+  slug: emplifi-io-listening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-listening-api-openapi.yml
-- filename: socialbakers-posts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-listening-api-openapi.yml
+- filename: emplifi-io-posts-api-openapi.yml
   format: yaml
-  label: Socialbakers Posts API
-  slug: socialbakers-posts-api
+  label: Emplifi Posts API
+  slug: emplifi-io-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-posts-api-openapi.yml
-- filename: socialbakers-profile-metrics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-posts-api-openapi.yml
+- filename: emplifi-io-profile-metrics-api-openapi.yml
   format: yaml
-  label: Socialbakers Profile Metrics API
-  slug: socialbakers-profile-metrics-api
+  label: Emplifi Profile Metrics API
+  slug: emplifi-io-profile-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-profile-metrics-api-openapi.yml
-- filename: socialbakers-reference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-profile-metrics-api-openapi.yml
+- filename: emplifi-io-reference-api-openapi.yml
   format: yaml
-  label: Socialbakers Reference API
-  slug: socialbakers-reference-api
+  label: Emplifi Reference API
+  slug: emplifi-io-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/socialbakers-reference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []

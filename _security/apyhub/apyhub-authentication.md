@@ -117,6 +117,30 @@ api_specs:
   slug: apyhub-uncategorized-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/openapi/apyhub-uncategorized-api-openapi.yml
+- filename: apyhub-convert-api-openapi.yml
+  format: yaml
+  label: ApyHub Convert API
+  slug: apyhub-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/openapi/apyhub-convert-api-openapi.yml
+- filename: apyhub-currency-api-openapi.yml
+  format: yaml
+  label: ApyHub Currency API
+  slug: apyhub-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/openapi/apyhub-currency-api-openapi.yml
+- filename: apyhub-extract-api-openapi.yml
+  format: yaml
+  label: ApyHub Extract API
+  slug: apyhub-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/openapi/apyhub-extract-api-openapi.yml
+- filename: apyhub-generate-api-openapi.yml
+  format: yaml
+  label: ApyHub Generate API
+  slug: apyhub-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/openapi/apyhub-generate-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

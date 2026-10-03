@@ -32,6 +32,6 @@ tags:
 - Company
 - Food
 - Health
-- Korea
-- ConsumerGoods
+- South Korea
+- Consumer Goods
 ---

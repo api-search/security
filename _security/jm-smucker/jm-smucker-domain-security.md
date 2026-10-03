@@ -35,4 +35,5 @@ tags:
 - Food and Beverage
 - Fortune 500
 - Pet Food
+- Consumer Packaged Goods
 ---

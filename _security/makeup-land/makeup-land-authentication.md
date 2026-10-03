@@ -3,12 +3,60 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: makeup-land-openapi.yml
+- filename: makeup-land-brands-api-openapi.yml
   format: yaml
-  label: makeup.land V1 API
-  slug: makeup-land-v1-api
+  label: makeup.land Brands API
+  slug: makeup-land-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-brands-api-openapi.yml
+- filename: makeup-land-cart-api-openapi.yml
+  format: yaml
+  label: makeup.land Cart API
+  slug: makeup-land-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-cart-api-openapi.yml
+- filename: makeup-land-customers-api-openapi.yml
+  format: yaml
+  label: makeup.land Customers API
+  slug: makeup-land-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-customers-api-openapi.yml
+- filename: makeup-land-gift-cards-api-openapi.yml
+  format: yaml
+  label: makeup.land Gift Cards API
+  slug: makeup-land-gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-gift-cards-api-openapi.yml
+- filename: makeup-land-orders-api-openapi.yml
+  format: yaml
+  label: makeup.land Orders API
+  slug: makeup-land-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-orders-api-openapi.yml
+- filename: makeup-land-payment-links-api-openapi.yml
+  format: yaml
+  label: makeup.land Payment Links API
+  slug: makeup-land-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-payment-links-api-openapi.yml
+- filename: makeup-land-products-api-openapi.yml
+  format: yaml
+  label: makeup.land Products API
+  slug: makeup-land-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-products-api-openapi.yml
+- filename: makeup-land-proposals-api-openapi.yml
+  format: yaml
+  label: makeup.land Proposals API
+  slug: makeup-land-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-proposals-api-openapi.yml
+- filename: makeup-land-register-api-openapi.yml
+  format: yaml
+  label: makeup.land Register API
+  slug: makeup-land-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-register-api-openapi.yml
 auth_types:
 - apiKey
 - http

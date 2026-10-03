@@ -34,6 +34,6 @@ tags:
 - Company
 - Utility
 - Billing
-- AI
+- Artificial Intelligence
 - Multifamily
 ---

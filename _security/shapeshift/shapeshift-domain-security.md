@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: shapeshift-v1-api-openapi.yml
+- filename: shapeshift-account-api-openapi.yml
   format: yaml
-  label: Shapeshift v1 API
-  slug: shapeshift-v1-api
+  label: Shapeshift Account API
+  slug: shapeshift-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-account-api-openapi.yml
+- filename: shapeshift-fees-api-openapi.yml
+  format: yaml
+  label: Shapeshift Fees API
+  slug: shapeshift-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-fees-api-openapi.yml
+- filename: shapeshift-gas-api-openapi.yml
+  format: yaml
+  label: Shapeshift Gas API
+  slug: shapeshift-gas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-gas-api-openapi.yml
+- filename: shapeshift-info-api-openapi.yml
+  format: yaml
+  label: Shapeshift Info API
+  slug: shapeshift-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-info-api-openapi.yml
+- filename: shapeshift-jsonrpc-api-openapi.yml
+  format: yaml
+  label: Shapeshift Jsonrpc API
+  slug: shapeshift-jsonrpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-jsonrpc-api-openapi.yml
+- filename: shapeshift-send-api-openapi.yml
+  format: yaml
+  label: Shapeshift Send API
+  slug: shapeshift-send-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-send-api-openapi.yml
+- filename: shapeshift-token-api-openapi.yml
+  format: yaml
+  label: Shapeshift Token API
+  slug: shapeshift-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-token-api-openapi.yml
+- filename: shapeshift-tx-api-openapi.yml
+  format: yaml
+  label: Shapeshift Tx API
+  slug: shapeshift-tx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-tx-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: trustly-north-america-openapi.yml
+- filename: trustly-accounts-api-openapi.yml
   format: yaml
-  label: Trustly North America API
-  slug: trustly-north-america-api
+  label: Trustly Group Accounts API
+  slug: trustly-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-north-america-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-accounts-api-openapi.yml
+- filename: trustly-api-api-openapi.yml
+  format: yaml
+  label: Trustly Group API
+  slug: trustly-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-api-api-openapi.yml
+- filename: trustly-countries-api-openapi.yml
+  format: yaml
+  label: Trustly Group Countries API
+  slug: trustly-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-countries-api-openapi.yml
+- filename: trustly-customers-api-openapi.yml
+  format: yaml
+  label: Trustly Group Customers API
+  slug: trustly-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-customers-api-openapi.yml
+- filename: trustly-identity-api-openapi.yml
+  format: yaml
+  label: Trustly Group Identity API
+  slug: trustly-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-identity-api-openapi.yml
+- filename: trustly-networkcheckapi-api-openapi.yml
+  format: yaml
+  label: Trustly Group Network Check API
+  slug: trustly-networkcheckapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-networkcheckapi-api-openapi.yml
+- filename: trustly-payments-api-openapi.yml
+  format: yaml
+  label: Trustly Group Payments API
+  slug: trustly-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-payments-api-openapi.yml
+- filename: trustly-transactions-api-openapi.yml
+  format: yaml
+  label: Trustly Group Transactions API
+  slug: trustly-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-transactions-api-openapi.yml
+- filename: trustly-verifycustomer-api-openapi.yml
+  format: yaml
+  label: Trustly Group Verify Customer API
+  slug: trustly-verifycustomer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-verifycustomer-api-openapi.yml
+- filename: trustly-account-data-api-openapi.yml
+  format: yaml
+  label: Trustly Group Account Data API
+  slug: trustly-account-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-account-data-api-openapi.yml
+- filename: trustly-dispute-management-api-openapi.yml
+  format: yaml
+  label: Trustly Group Dispute Management API
+  slug: trustly-dispute-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-dispute-management-api-openapi.yml
+- filename: trustly-payment-providers-api-openapi.yml
+  format: yaml
+  label: Trustly Group Payment Providers API
+  slug: trustly-payment-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-payment-providers-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artin-energy/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Energy
-- Renewable
+- Renewables
 - Solar
 - Green Hydrogen
 - Storage

@@ -4,12 +4,6 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: mobileapi-dev-api-api-openapi.yml
-  format: yaml
-  label: MobileAPI.dev API
-  slug: mobileapi-dev-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-api-openapi.yml
 - filename: mobileapi-dev-api-token-auth-api-openapi.yml
   format: yaml
   label: MobileAPI.dev API Token Auth API
@@ -58,6 +52,12 @@ api_specs:
   slug: mobileapi-dev-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-status-api-openapi.yml
+- filename: mobileapi-dev-firewall-api-openapi.yml
+  format: yaml
+  label: MobileAPI.dev Firewall API
+  slug: mobileapi-dev-firewall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-firewall-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

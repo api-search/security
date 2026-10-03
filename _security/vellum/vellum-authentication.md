@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: vellum-default-api-openapi.yml
-  format: yaml
-  label: Vellum AI Default API
-  slug: vellum-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-default-api-openapi.yml
 - filename: vellum-subpackage-deployments-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Deployments API
@@ -93,6 +87,54 @@ api_specs:
   slug: vellum-subpackage-workspacesecrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-workspacesecrets-api-openapi.yml
+- filename: vellum-execute-prompt-api-openapi.yml
+  format: yaml
+  label: Vellum AI Execute Prompt API
+  slug: vellum-execute-prompt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-prompt-api-openapi.yml
+- filename: vellum-execute-prompt-stream-api-openapi.yml
+  format: yaml
+  label: Vellum AI Execute Prompt Stream API
+  slug: vellum-execute-prompt-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-prompt-stream-api-openapi.yml
+- filename: vellum-execute-workflow-api-openapi.yml
+  format: yaml
+  label: Vellum AI Execute Workflow API
+  slug: vellum-execute-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-workflow-api-openapi.yml
+- filename: vellum-execute-workflow-async-api-openapi.yml
+  format: yaml
+  label: Vellum AI Execute Workflow Async API
+  slug: vellum-execute-workflow-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-workflow-async-api-openapi.yml
+- filename: vellum-execute-workflow-stream-api-openapi.yml
+  format: yaml
+  label: Vellum AI Execute Workflow Stream API
+  slug: vellum-execute-workflow-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-workflow-stream-api-openapi.yml
+- filename: vellum-search-api-openapi.yml
+  format: yaml
+  label: Vellum AI Search API
+  slug: vellum-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-search-api-openapi.yml
+- filename: vellum-submit-completion-actuals-api-openapi.yml
+  format: yaml
+  label: Vellum AI Submit Completion Actuals API
+  slug: vellum-submit-completion-actuals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-submit-completion-actuals-api-openapi.yml
+- filename: vellum-submit-workflow-execution-actuals-api-openapi.yml
+  format: yaml
+  label: Vellum AI Submit Workflow Execution Actuals API
+  slug: vellum-submit-workflow-execution-actuals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-submit-workflow-execution-actuals-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

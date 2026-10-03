@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: trueproxies-openapi.yml
+- filename: trueproxies-analytics-api-openapi.yml
   format: yaml
-  label: TrueProxies Customer API
-  slug: trueproxies-customer-api
+  label: TrueProxies Analytics API
+  slug: trueproxies-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-analytics-api-openapi.yml
+- filename: trueproxies-catalog-api-openapi.yml
+  format: yaml
+  label: TrueProxies Catalog API
+  slug: trueproxies-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-catalog-api-openapi.yml
+- filename: trueproxies-invoices-api-openapi.yml
+  format: yaml
+  label: TrueProxies Invoices API
+  slug: trueproxies-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-invoices-api-openapi.yml
+- filename: trueproxies-me-api-openapi.yml
+  format: yaml
+  label: TrueProxies Me API
+  slug: trueproxies-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-me-api-openapi.yml
+- filename: trueproxies-services-api-openapi.yml
+  format: yaml
+  label: TrueProxies Services API
+  slug: trueproxies-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-services-api-openapi.yml
 auth_types:
 - http
 description: ''

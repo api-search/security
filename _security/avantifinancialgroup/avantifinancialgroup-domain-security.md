@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Insurance
-- RiskManagement
-- FinancialServices
+- Risk Management
+- Financial Services
 - US
 ---

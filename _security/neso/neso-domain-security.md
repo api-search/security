@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: neso-data-portal-datastore-api-openapi.yml
+- filename: neso-datastore-api-openapi.yml
   format: yaml
-  label: NESO Data Portal API
-  slug: neso-data-portal-api
+  label: National Energy System Operator (NESO) Datastore API
+  slug: neso-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/openapi/neso-data-portal-datastore-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/openapi/neso-datastore-api-openapi.yml
+- filename: neso-discovery-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator (NESO) Discovery API
+  slug: neso-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/openapi/neso-discovery-api-openapi.yml
+- filename: neso-metadata-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator (NESO) Metadata API
+  slug: neso-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/openapi/neso-metadata-api-openapi.yml
+- filename: neso-search-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator (NESO) Search API
+  slug: neso-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/openapi/neso-search-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- EnergyDrink
-- Beverage
+- Energy Drink
+- Beverages
 - Health
 - Lifestyle
 ---

@@ -109,7 +109,6 @@ tags:
 - B2B Payments
 - Treasury
 - multi-currency-accounts
-- Swift
 - SEPA
 - PSD2
 - Open Banking
@@ -118,4 +117,5 @@ tags:
 - MCP
 - Belgium
 - Europe
+- SWIFT
 ---

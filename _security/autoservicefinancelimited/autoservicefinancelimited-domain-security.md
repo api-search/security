@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Finance
 - Automotive
-- FinTech
-- UK
+- Fintech
+- United Kingdom
 - Payments
 ---

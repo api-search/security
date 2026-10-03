@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: anoma-network-openapi-generated.yml
+- filename: anoma-network-vault-api-openapi.yml
   format: yaml
-  label: Anoma Network API
-  slug: anoma-network-api
+  label: Anoma Network Vault API
+  slug: anoma-network-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anoma-network/refs/heads/main/openapi/_ae-authored/anoma-network-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anoma-network/refs/heads/main/openapi/anoma-network-vault-api-openapi.yml
 description: ''
 domains:
 - caa:

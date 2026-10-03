@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bangyaobiologi
 summary_line: no transport/DNS hardening detected
 tags:
 - Biotechnology
-- MedicalDevices
+- Medical Devices
 - Polymers
 - Manufacturing
 - China

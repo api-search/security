@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atolio/refs/heads/main/security/atolio-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise Search
 - Data Security
 - Integration
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.atolio.com/security
 ---

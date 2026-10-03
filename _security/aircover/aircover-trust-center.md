@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: aircover-openapi.yml
+- filename: aircover-discovery-api-openapi.yml
   format: yaml
-  label: Aircover Public Agent API
-  slug: aircover-public-agent-api
+  label: Aircover Discovery API
+  slug: aircover-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-discovery-api-openapi.yml
+- filename: aircover-mcp-api-openapi.yml
+  format: yaml
+  label: Aircover MCP API
+  slug: aircover-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-mcp-api-openapi.yml
+- filename: aircover-oauth-api-openapi.yml
+  format: yaml
+  label: Aircover OAuth API
+  slug: aircover-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-oauth-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type II

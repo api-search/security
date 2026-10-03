@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlas-invest/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Bridge Lending
 - Real Estate
-- AI
+- Artificial Intelligence
 - Private Credit
 ---

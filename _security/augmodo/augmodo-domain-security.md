@@ -34,6 +34,6 @@ tags:
 - Retail
 - Spatial AI
 - Smartbadge
-- Supply chain
+- Supply Chain
 - Compliance
 ---

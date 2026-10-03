@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bucketlist-nl-droom-van-de-dag-api-openapi.yml
+  format: yaml
+  label: Bucketlist.nl Dream of the Day API Droom Van De Dag API
+  slug: bucketlist-nl-droom-van-de-dag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/openapi/bucketlist-nl-droom-van-de-dag-api-openapi.yml
 description: ''
 domains:
 - caa: []

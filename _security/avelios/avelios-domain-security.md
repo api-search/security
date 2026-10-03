@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Healthcare
-- SaaS
-- DigitalHealth
-- AI
+- Software-as-a-Service
+- Digital Health
+- Artificial Intelligence
 - Europe
 ---

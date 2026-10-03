@@ -1,563 +1,437 @@
 ---
 api_specs:
-- filename: lithium-accountset-api-openapi.yml
+- filename: khoros-ai-accountset-api-openapi.yml
   format: yaml
-  label: Lithium AccountSet API
-  slug: lithium-accountset-api
+  label: Khoros Account Set API
+  slug: khoros-ai-accountset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-accountset-api-openapi.yml
-- filename: lithium-active-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-accountset-api-openapi.yml
+- filename: khoros-ai-active-api-openapi.yml
   format: yaml
-  label: Lithium Active API
-  slug: lithium-active-api
+  label: Khoros Active API
+  slug: khoros-ai-active-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-active-api-openapi.yml
-- filename: lithium-admin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-active-api-openapi.yml
+- filename: khoros-ai-admin-api-openapi.yml
   format: yaml
-  label: Lithium Admin API
-  slug: lithium-admin-api
+  label: Khoros Admin API
+  slug: khoros-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-admin-api-openapi.yml
-- filename: lithium-asset-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-admin-api-openapi.yml
+- filename: khoros-ai-asset-api-openapi.yml
   format: yaml
-  label: Lithium Asset API
-  slug: lithium-asset-api
+  label: Khoros Asset API
+  slug: khoros-ai-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-asset-api-openapi.yml
-- filename: lithium-assets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-asset-api-openapi.yml
+- filename: khoros-ai-assets-api-openapi.yml
   format: yaml
-  label: Lithium Assets API
-  slug: lithium-assets-api
+  label: Khoros Assets API
+  slug: khoros-ai-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-assets-api-openapi.yml
-- filename: lithium-author-api-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-assets-api-openapi.yml
+- filename: khoros-ai-author-api-v2-api-openapi.yml
   format: yaml
-  label: Lithium Author Api V2 API
-  slug: lithium-author-api-v2-api
+  label: Khoros Author Api V2 API
+  slug: khoros-ai-author-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-author-api-v2-api-openapi.yml
-- filename: lithium-authors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-author-api-v2-api-openapi.yml
+- filename: khoros-ai-authors-api-openapi.yml
   format: yaml
-  label: Lithium Authors API
-  slug: lithium-authors-api
+  label: Khoros Authors API
+  slug: khoros-ai-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-authors-api-openapi.yml
-- filename: lithium-broadcast-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-authors-api-openapi.yml
+- filename: khoros-ai-broadcast-api-openapi.yml
   format: yaml
-  label: Lithium Broadcast API
-  slug: lithium-broadcast-api
+  label: Khoros Broadcast API
+  slug: khoros-ai-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-broadcast-api-openapi.yml
-- filename: lithium-bysourcedocumentid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-broadcast-api-openapi.yml
+- filename: khoros-ai-bysourcedocumentid-api-openapi.yml
   format: yaml
-  label: Lithium BySourceDocumentId API
-  slug: lithium-bysourcedocumentid-api
+  label: Khoros By Source Document ID API
+  slug: khoros-ai-bysourcedocumentid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-bysourcedocumentid-api-openapi.yml
-- filename: lithium-case-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-bysourcedocumentid-api-openapi.yml
+- filename: khoros-ai-case-api-openapi.yml
   format: yaml
-  label: Lithium Case API
-  slug: lithium-case-api
+  label: Khoros Case API
+  slug: khoros-ai-case-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-case-api-openapi.yml
-- filename: lithium-changed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-case-api-openapi.yml
+- filename: khoros-ai-changed-api-openapi.yml
   format: yaml
-  label: Lithium Changed API
-  slug: lithium-changed-api
+  label: Khoros Changed API
+  slug: khoros-ai-changed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-changed-api-openapi.yml
-- filename: lithium-compare-json-streams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-changed-api-openapi.yml
+- filename: khoros-ai-compare-json-api-openapi.yml
   format: yaml
-  label: Lithium Compare.json?streams API
-  slug: lithium-compare-json-streams-api
+  label: Khoros Compare.json API
+  slug: khoros-ai-compare-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-compare-json-streams-api-openapi.yml
-- filename: lithium-compare-json-streams-content-sort-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-compare-json-api-openapi.yml
+- filename: khoros-ai-config-api-openapi.yml
   format: yaml
-  label: Lithium Compare.json?streams={content}&sort API
-  slug: lithium-compare-json-streams-content-sort-api
+  label: Khoros Config API
+  slug: khoros-ai-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-compare-json-streams-content-sort-api-openapi.yml
-- filename: lithium-compare-json-streams-content-target-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-config-api-openapi.yml
+- filename: khoros-ai-control-api-openapi.yml
   format: yaml
-  label: Lithium Compare.json?streams={content}&target API
-  slug: lithium-compare-json-streams-content-target-api
+  label: Khoros Control API
+  slug: khoros-ai-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-compare-json-streams-content-target-api-openapi.yml
-- filename: lithium-compare-json-streams-content-target-number-precision-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-control-api-openapi.yml
+- filename: khoros-ai-conversation-api-v2-api-openapi.yml
   format: yaml
-  label: Lithium Compare.json?streams={content}&target={number}&precision API
-  slug: lithium-compare-json-streams-content-target-number-precision-api
+  label: Khoros Conversation Api V2 API
+  slug: khoros-ai-conversation-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-compare-json-streams-content-target-number-precision-api-openapi.yml
-- filename: lithium-config-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-conversation-api-v2-api-openapi.yml
+- filename: khoros-ai-conversations-api-openapi.yml
   format: yaml
-  label: Lithium Config API
-  slug: lithium-config-api
+  label: Khoros Conversations API
+  slug: khoros-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-config-api-openapi.yml
-- filename: lithium-control-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-conversations-api-openapi.yml
+- filename: khoros-ai-csv-api-openapi.yml
   format: yaml
-  label: Lithium Control API
-  slug: lithium-control-api
+  label: Khoros CSV API
+  slug: khoros-ai-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-control-api-openapi.yml
-- filename: lithium-conversation-api-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-csv-api-openapi.yml
+- filename: khoros-ai-csv-long-api-openapi.yml
   format: yaml
-  label: Lithium Conversation Api V2 API
-  slug: lithium-conversation-api-v2-api
+  label: Khoros Csv Long API
+  slug: khoros-ai-csv-long-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-conversation-api-v2-api-openapi.yml
-- filename: lithium-conversations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-csv-long-api-openapi.yml
+- filename: khoros-ai-currenttar-api-openapi.yml
   format: yaml
-  label: Lithium Conversations API
-  slug: lithium-conversations-api
+  label: Khoros Current TAR API
+  slug: khoros-ai-currenttar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-conversations-api-openapi.yml
-- filename: lithium-csv-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-currenttar-api-openapi.yml
+- filename: khoros-ai-customer-api-openapi.yml
   format: yaml
-  label: Lithium Csv API
-  slug: lithium-csv-api
+  label: Khoros Customer API
+  slug: khoros-ai-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-csv-api-openapi.yml
-- filename: lithium-csv-long-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-customer-api-openapi.yml
+- filename: khoros-ai-customer-copy-api-openapi.yml
   format: yaml
-  label: Lithium Csv Long API
-  slug: lithium-csv-long-api
+  label: Khoros Customer (COPY) API
+  slug: khoros-ai-customer-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-csv-long-api-openapi.yml
-- filename: lithium-currenttar-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-customer-copy-api-openapi.yml
+- filename: khoros-ai-customers-api-openapi.yml
   format: yaml
-  label: Lithium CurrentTAR API
-  slug: lithium-currenttar-api
+  label: Khoros Customers API
+  slug: khoros-ai-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-currenttar-api-openapi.yml
-- filename: lithium-customer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-customers-api-openapi.yml
+- filename: khoros-ai-data-api-openapi.yml
   format: yaml
-  label: Lithium Customer API
-  slug: lithium-customer-api
+  label: Khoros Data API
+  slug: khoros-ai-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-customer-api-openapi.yml
-- filename: lithium-customer-copy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-data-api-openapi.yml
+- filename: khoros-ai-discussion-api-openapi.yml
   format: yaml
-  label: Lithium Customer (COPY) API
-  slug: lithium-customer-copy-api
+  label: Khoros Discussion API
+  slug: khoros-ai-discussion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-customer-copy-api-openapi.yml
-- filename: lithium-customers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-discussion-api-openapi.yml
+- filename: khoros-ai-displayids-api-openapi.yml
   format: yaml
-  label: Lithium Customers API
-  slug: lithium-customers-api
+  label: Khoros Display IDs API
+  slug: khoros-ai-displayids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-customers-api-openapi.yml
-- filename: lithium-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-displayids-api-openapi.yml
+- filename: khoros-ai-email-api-openapi.yml
   format: yaml
-  label: Lithium Data API
-  slug: lithium-data-api
+  label: Khoros Email API
+  slug: khoros-ai-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-data-api-openapi.yml
-- filename: lithium-default-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-email-api-openapi.yml
+- filename: khoros-ai-entities-json-api-openapi.yml
   format: yaml
-  label: 'Lithium # API'
-  slug: lithium-default-api
+  label: Khoros Entities.json API
+  slug: khoros-ai-entities-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-default-api-openapi.yml
-- filename: lithium-discussion-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-entities-json-api-openapi.yml
+- filename: khoros-ai-export-api-openapi.yml
   format: yaml
-  label: Lithium Discussion API
-  slug: lithium-discussion-api
+  label: Khoros Export API
+  slug: khoros-ai-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-discussion-api-openapi.yml
-- filename: lithium-displayids-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-export-api-openapi.yml
+- filename: khoros-ai-flow-rest-api-api-openapi.yml
   format: yaml
-  label: Lithium DisplayIds API
-  slug: lithium-displayids-api
+  label: Khoros Flow Rest API
+  slug: khoros-ai-flow-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-displayids-api-openapi.yml
-- filename: lithium-email-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-flow-rest-api-api-openapi.yml
+- filename: khoros-ai-folder-api-openapi.yml
   format: yaml
-  label: Lithium Email API
-  slug: lithium-email-api
+  label: Khoros Folder API
+  slug: khoros-ai-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-email-api-openapi.yml
-- filename: lithium-entities-json-entity-ids-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-folder-api-openapi.yml
+- filename: khoros-ai-form-api-openapi.yml
   format: yaml
-  label: Lithium Entities.json?entity Ids API
-  slug: lithium-entities-json-entity-ids-api
+  label: Khoros Form API
+  slug: khoros-ai-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-entities-json-entity-ids-api-openapi.yml
-- filename: lithium-export-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-form-api-openapi.yml
+- filename: khoros-ai-getforms-api-openapi.yml
   format: yaml
-  label: Lithium Export API
-  slug: lithium-export-api
+  label: Khoros Get Forms API
+  slug: khoros-ai-getforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-export-api-openapi.yml
-- filename: lithium-flow-rest-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-getforms-api-openapi.yml
+- filename: khoros-ai-handover-api-openapi.yml
   format: yaml
-  label: Lithium Flow Rest Api
-  slug: lithium-flow-rest-api-api
+  label: Khoros Handover API
+  slug: khoros-ai-handover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-flow-rest-api-api-openapi.yml
-- filename: lithium-folder-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-handover-api-openapi.yml
+- filename: khoros-ai-health-api-openapi.yml
   format: yaml
-  label: Lithium Folder API
-  slug: lithium-folder-api
+  label: Khoros Health API
+  slug: khoros-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-folder-api-openapi.yml
-- filename: lithium-form-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-health-api-openapi.yml
+- filename: khoros-ai-initiatives-api-openapi.yml
   format: yaml
-  label: Lithium Form API
-  slug: lithium-form-api
+  label: Khoros Initiatives API
+  slug: khoros-ai-initiatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-form-api-openapi.yml
-- filename: lithium-getforms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-initiatives-api-openapi.yml
+- filename: khoros-ai-khorosapi-api-openapi.yml
   format: yaml
-  label: Lithium GetForms API
-  slug: lithium-getforms-api
+  label: Khoros Khorosapi API
+  slug: khoros-ai-khorosapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-getforms-api-openapi.yml
-- filename: lithium-handover-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-khorosapi-api-openapi.yml
+- filename: khoros-ai-labels-api-openapi.yml
   format: yaml
-  label: Lithium Handover API
-  slug: lithium-handover-api
+  label: Khoros Labels API
+  slug: khoros-ai-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-handover-api-openapi.yml
-- filename: lithium-health-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-labels-api-openapi.yml
+- filename: khoros-ai-list-api-openapi.yml
   format: yaml
-  label: Lithium Health API
-  slug: lithium-health-api
+  label: Khoros List API
+  slug: khoros-ai-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-health-api-openapi.yml
-- filename: lithium-initiatives-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-list-api-openapi.yml
+- filename: khoros-ai-me-api-openapi.yml
   format: yaml
-  label: Lithium Initiatives API
-  slug: lithium-initiatives-api
+  label: Khoros Me API
+  slug: khoros-ai-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-initiatives-api-openapi.yml
-- filename: lithium-khorosapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-me-api-openapi.yml
+- filename: khoros-ai-messages-api-openapi.yml
   format: yaml
-  label: Lithium Khorosapi API
-  slug: lithium-khorosapi-api
+  label: Khoros Messages API
+  slug: khoros-ai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-khorosapi-api-openapi.yml
-- filename: lithium-labels-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-messages-api-openapi.yml
+- filename: khoros-ai-meta-api-openapi.yml
   format: yaml
-  label: Lithium Labels API
-  slug: lithium-labels-api
+  label: Khoros Meta API
+  slug: khoros-ai-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-labels-api-openapi.yml
-- filename: lithium-list-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-meta-api-openapi.yml
+- filename: khoros-ai-meta-json-api-openapi.yml
   format: yaml
-  label: Lithium List API
-  slug: lithium-list-api
+  label: Khoros Meta.json API
+  slug: khoros-ai-meta-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-list-api-openapi.yml
-- filename: lithium-me-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-meta-json-api-openapi.yml
+- filename: khoros-ai-multichannelmessages-api-openapi.yml
   format: yaml
-  label: Lithium Me API
-  slug: lithium-me-api
+  label: Khoros Multi Channel Messages API
+  slug: khoros-ai-multichannelmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-me-api-openapi.yml
-- filename: lithium-messages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-multichannelmessages-api-openapi.yml
+- filename: khoros-ai-networks-api-openapi.yml
   format: yaml
-  label: Lithium Messages API
-  slug: lithium-messages-api
+  label: Khoros Networks API
+  slug: khoros-ai-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-messages-api-openapi.yml
-- filename: lithium-meta-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-networks-api-openapi.yml
+- filename: khoros-ai-note-api-openapi.yml
   format: yaml
-  label: Lithium Meta API
-  slug: lithium-meta-api
+  label: Khoros Note API
+  slug: khoros-ai-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-api-openapi.yml
-- filename: lithium-meta-json-activity-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-note-api-openapi.yml
+- filename: khoros-ai-pause-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?activity API
-  slug: lithium-meta-json-activity-api
+  label: Khoros Pause API
+  slug: khoros-ai-pause-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-activity-api-openapi.yml
-- filename: lithium-meta-json-all-topics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-pause-api-openapi.yml
+- filename: khoros-ai-permissions-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?all Topics API
-  slug: lithium-meta-json-all-topics-api
+  label: Khoros Permissions API
+  slug: khoros-ai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-all-topics-api-openapi.yml
-- filename: lithium-meta-json-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-permissions-api-openapi.yml
+- filename: khoros-ai-plans-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json API
-  slug: lithium-meta-json-api
+  label: Khoros Plans API
+  slug: khoros-ai-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-api-openapi.yml
-- filename: lithium-meta-json-disregard-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-plans-api-openapi.yml
+- filename: khoros-ai-priority-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?disregard API
-  slug: lithium-meta-json-disregard-api
+  label: Khoros Priority API
+  slug: khoros-ai-priority-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-disregard-api-openapi.yml
-- filename: lithium-meta-json-finish-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-priority-api-openapi.yml
+- filename: khoros-ai-projects-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?finish API
-  slug: lithium-meta-json-finish-api
+  label: Khoros Projects API
+  slug: khoros-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-finish-api-openapi.yml
-- filename: lithium-meta-json-networks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-projects-api-openapi.yml
+- filename: khoros-ai-registrations-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json? Networks API
-  slug: lithium-meta-json-networks-api
+  label: Khoros Registrations API
+  slug: khoros-ai-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-networks-api-openapi.yml
-- filename: lithium-meta-json-num-contributors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-registrations-api-openapi.yml
+- filename: khoros-ai-report-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?num Contributors API
-  slug: lithium-meta-json-num-contributors-api
+  label: Khoros Report API
+  slug: khoros-ai-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-num-contributors-api-openapi.yml
-- filename: lithium-meta-json-num-days-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-report-api-openapi.yml
+- filename: khoros-ai-reports-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?num Days API
-  slug: lithium-meta-json-num-days-api
+  label: Khoros Reports API
+  slug: khoros-ai-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-num-days-api-openapi.yml
-- filename: lithium-meta-json-num-hashtags-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-reports-api-openapi.yml
+- filename: khoros-ai-request-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?num Hashtags API
-  slug: lithium-meta-json-num-hashtags-api
+  label: Khoros Request API
+  slug: khoros-ai-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-num-hashtags-api-openapi.yml
-- filename: lithium-meta-json-num-hours-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-request-api-openapi.yml
+- filename: khoros-ai-requests-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?num Hours API
-  slug: lithium-meta-json-num-hours-api
+  label: Khoros Requests API
+  slug: khoros-ai-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-num-hours-api-openapi.yml
-- filename: lithium-meta-json-num-minutes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-requests-api-openapi.yml
+- filename: khoros-ai-resolve-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?num Minutes API
-  slug: lithium-meta-json-num-minutes-api
+  label: Khoros Resolve API
+  slug: khoros-ai-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-num-minutes-api-openapi.yml
-- filename: lithium-meta-json-num-trends-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-resolve-api-openapi.yml
+- filename: khoros-ai-respond-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?num Trends API
-  slug: lithium-meta-json-num-trends-api
+  label: Khoros Respond API
+  slug: khoros-ai-respond-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-num-trends-api-openapi.yml
-- filename: lithium-meta-json-percent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-respond-api-openapi.yml
+- filename: khoros-ai-ssoid-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?percent API
-  slug: lithium-meta-json-percent-api
+  label: Khoros SSO ID API
+  slug: khoros-ai-ssoid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-percent-api-openapi.yml
-- filename: lithium-meta-json-precision-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-ssoid-api-openapi.yml
+- filename: khoros-ai-stream-api-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?precision API
-  slug: lithium-meta-json-precision-api
+  label: Khoros Stream API
+  slug: khoros-ai-stream-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-precision-api-openapi.yml
-- filename: lithium-meta-json-sort-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-stream-api-api-openapi.yml
+- filename: khoros-ai-streams-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?sort API
-  slug: lithium-meta-json-sort-api
+  label: Khoros Streams API
+  slug: khoros-ai-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-sort-api-openapi.yml
-- filename: lithium-meta-json-top-count-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-streams-api-openapi.yml
+- filename: khoros-ai-subscription-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?top Count API
-  slug: lithium-meta-json-top-count-api
+  label: Khoros Subscription API
+  slug: khoros-ai-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-top-count-api-openapi.yml
-- filename: lithium-meta-json-top-periods-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-subscription-api-openapi.yml
+- filename: khoros-ai-surveys-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?top Periods API
-  slug: lithium-meta-json-top-periods-api
+  label: Khoros Surveys API
+  slug: khoros-ai-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-top-periods-api-openapi.yml
-- filename: lithium-meta-json-top-periods-relative-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-surveys-api-openapi.yml
+- filename: khoros-ai-tag-api-openapi.yml
   format: yaml
-  label: Lithium Meta.json?top Periods Relative API
-  slug: lithium-meta-json-top-periods-relative-api
+  label: Khoros Tag API
+  slug: khoros-ai-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-meta-json-top-periods-relative-api-openapi.yml
-- filename: lithium-multichannelmessages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-tag-api-openapi.yml
+- filename: khoros-ai-teams-api-openapi.yml
   format: yaml
-  label: Lithium MultiChannelMessages API
-  slug: lithium-multichannelmessages-api
+  label: Khoros Teams API
+  slug: khoros-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-multichannelmessages-api-openapi.yml
-- filename: lithium-networks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-teams-api-openapi.yml
+- filename: khoros-ai-threads-api-openapi.yml
   format: yaml
-  label: Lithium Networks API
-  slug: lithium-networks-api
+  label: Khoros Threads API
+  slug: khoros-ai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-networks-api-openapi.yml
-- filename: lithium-note-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-threads-api-openapi.yml
+- filename: khoros-ai-tokens-api-openapi.yml
   format: yaml
-  label: Lithium Note API
-  slug: lithium-note-api
+  label: Khoros Tokens API
+  slug: khoros-ai-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-note-api-openapi.yml
-- filename: lithium-pause-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-tokens-api-openapi.yml
+- filename: khoros-ai-trigger-api-openapi.yml
   format: yaml
-  label: Lithium Pause API
-  slug: lithium-pause-api
+  label: Khoros Trigger API
+  slug: khoros-ai-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-pause-api-openapi.yml
-- filename: lithium-permissions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-trigger-api-openapi.yml
+- filename: khoros-ai-users-api-openapi.yml
   format: yaml
-  label: Lithium Permissions API
-  slug: lithium-permissions-api
+  label: Khoros Users API
+  slug: khoros-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-permissions-api-openapi.yml
-- filename: lithium-plans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-users-api-openapi.yml
+- filename: khoros-ai-uuid-api-openapi.yml
   format: yaml
-  label: Lithium Plans API
-  slug: lithium-plans-api
+  label: Khoros Uuid API
+  slug: khoros-ai-uuid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-plans-api-openapi.yml
-- filename: lithium-priority-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-uuid-api-openapi.yml
+- filename: khoros-ai-business-hours-api-openapi.yml
   format: yaml
-  label: Lithium Priority API
-  slug: lithium-priority-api
+  label: Khoros Business Hours API
+  slug: khoros-ai-business-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-priority-api-openapi.yml
-- filename: lithium-projects-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-business-hours-api-openapi.yml
+- filename: khoros-ai-work-queue-api-openapi.yml
   format: yaml
-  label: Lithium Projects API
-  slug: lithium-projects-api
+  label: Khoros Work Queue API
+  slug: khoros-ai-work-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-projects-api-openapi.yml
-- filename: lithium-registrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-work-queue-api-openapi.yml
+- filename: khoros-ai-work-queues-api-openapi.yml
   format: yaml
-  label: Lithium Registrations API
-  slug: lithium-registrations-api
+  label: Khoros Work Queues API
+  slug: khoros-ai-work-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-registrations-api-openapi.yml
-- filename: lithium-report-api-openapi.yml
-  format: yaml
-  label: Lithium Report API
-  slug: lithium-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-report-api-openapi.yml
-- filename: lithium-reports-api-openapi.yml
-  format: yaml
-  label: Lithium Reports API
-  slug: lithium-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-reports-api-openapi.yml
-- filename: lithium-request-api-openapi.yml
-  format: yaml
-  label: Lithium Request API
-  slug: lithium-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-request-api-openapi.yml
-- filename: lithium-requests-api-openapi.yml
-  format: yaml
-  label: Lithium Requests API
-  slug: lithium-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-requests-api-openapi.yml
-- filename: lithium-resolve-api-openapi.yml
-  format: yaml
-  label: Lithium Resolve API
-  slug: lithium-resolve-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-resolve-api-openapi.yml
-- filename: lithium-respond-api-openapi.yml
-  format: yaml
-  label: Lithium Respond API
-  slug: lithium-respond-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-respond-api-openapi.yml
-- filename: lithium-ssoid-api-openapi.yml
-  format: yaml
-  label: Lithium SsoId API
-  slug: lithium-ssoid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-ssoid-api-openapi.yml
-- filename: lithium-stream-api-api-openapi.yml
-  format: yaml
-  label: Lithium Stream Api
-  slug: lithium-stream-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-stream-api-api-openapi.yml
-- filename: lithium-streams-api-openapi.yml
-  format: yaml
-  label: Lithium Streams API
-  slug: lithium-streams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-streams-api-openapi.yml
-- filename: lithium-subscription-api-openapi.yml
-  format: yaml
-  label: Lithium Subscription API
-  slug: lithium-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-subscription-api-openapi.yml
-- filename: lithium-surveys-api-openapi.yml
-  format: yaml
-  label: Lithium Surveys API
-  slug: lithium-surveys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-surveys-api-openapi.yml
-- filename: lithium-tag-api-openapi.yml
-  format: yaml
-  label: Lithium Tag API
-  slug: lithium-tag-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-tag-api-openapi.yml
-- filename: lithium-teams-api-openapi.yml
-  format: yaml
-  label: Lithium Teams API
-  slug: lithium-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-teams-api-openapi.yml
-- filename: lithium-threads-api-openapi.yml
-  format: yaml
-  label: Lithium Threads API
-  slug: lithium-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-threads-api-openapi.yml
-- filename: lithium-tokens-api-openapi.yml
-  format: yaml
-  label: Lithium Tokens API
-  slug: lithium-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-tokens-api-openapi.yml
-- filename: lithium-trigger-api-openapi.yml
-  format: yaml
-  label: Lithium Trigger API
-  slug: lithium-trigger-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-trigger-api-openapi.yml
-- filename: lithium-users-api-openapi.yml
-  format: yaml
-  label: Lithium Users API
-  slug: lithium-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-users-api-openapi.yml
-- filename: lithium-uuid-api-openapi.yml
-  format: yaml
-  label: Lithium Uuid API
-  slug: lithium-uuid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-uuid-api-openapi.yml
-- filename: lithium-business-hours-api-openapi.yml
-  format: yaml
-  label: Lithium Business Hours API
-  slug: lithium-business-hours-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-business-hours-api-openapi.yml
-- filename: lithium-work-queue-api-openapi.yml
-  format: yaml
-  label: Lithium Work Queue API
-  slug: lithium-work-queue-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-work-queue-api-openapi.yml
-- filename: lithium-work-queues-api-openapi.yml
-  format: yaml
-  label: Lithium Work Queues API
-  slug: lithium-work-queues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/lithium-work-queues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/openapi/khoros-ai-work-queues-api-openapi.yml
 description: Live TLS/DNS posture across the Khoros, Lithium, Spredfast and flow.ai hosts this provider spans. The headline finding is that the legacy lithium.com apex — still the company's original domain and still serving the Khoros marketing site — presents a TLS certificate that expired on 3 January 2026, so every modern client refuses the connection. HSTS coverage is inconsistent and no domain in the estate is DNSSEC-signed.
 domains:
 - caa: []

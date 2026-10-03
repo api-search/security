@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: prdictionedge-ai-openapi.yml
+- filename: prdictionedge-ai-certification-attempts-api-openapi.yml
   format: yaml
-  label: AUX Evidence and Certification API
-  slug: aux-evidence-and-certification-api
+  label: AUX by PrdictionEdge Certification Attempts API
+  slug: prdictionedge-ai-certification-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-attempts-api-openapi.yml
+- filename: prdictionedge-ai-certification-handoffs-api-openapi.yml
+  format: yaml
+  label: AUX by PrdictionEdge Certification Handoffs API
+  slug: prdictionedge-ai-certification-handoffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-handoffs-api-openapi.yml
+- filename: prdictionedge-ai-certification-profiles-api-openapi.yml
+  format: yaml
+  label: AUX by PrdictionEdge Certification Profiles API
+  slug: prdictionedge-ai-certification-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-profiles-api-openapi.yml
+- filename: prdictionedge-ai-certification-requirements-api-openapi.yml
+  format: yaml
+  label: AUX by PrdictionEdge Certification Requirements API
+  slug: prdictionedge-ai-certification-requirements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-requirements-api-openapi.yml
+- filename: prdictionedge-ai-certifications-api-openapi.yml
+  format: yaml
+  label: AUX by PrdictionEdge Certifications API
+  slug: prdictionedge-ai-certifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certifications-api-openapi.yml
+- filename: prdictionedge-ai-evidence-api-openapi.yml
+  format: yaml
+  label: AUX by PrdictionEdge Evidence API
+  slug: prdictionedge-ai-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-evidence-api-openapi.yml
+- filename: prdictionedge-ai-well-known-api-openapi.yml
+  format: yaml
+  label: AUX by PrdictionEdge .well Known API
+  slug: prdictionedge-ai-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []

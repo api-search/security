@@ -25,6 +25,6 @@ tags:
 - GDPR
 - CCPA
 - Privacy
-- Consent-Management
+- Consent Management
 trust_url: https://www.consentx.io/trust
 ---

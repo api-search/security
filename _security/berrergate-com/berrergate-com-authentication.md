@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: berrergate-com-openapi.json
-  format: json
-  label: BerrerGate Tool & Provider Intelligence API
-  slug: berrergate-tool-provider-intelligence-api
+- filename: berrergate-com-a2a-api-openapi.yml
+  format: yaml
+  label: Berrer A2a API
+  slug: berrergate-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-a2a-api-openapi.yml
+- filename: berrergate-com-agent-api-openapi.yml
+  format: yaml
+  label: Berrer Agent API
+  slug: berrergate-com-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-agent-api-openapi.yml
+- filename: berrergate-com-research-api-openapi.yml
+  format: yaml
+  label: Berrer Research API
+  slug: berrergate-com-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-research-api-openapi.yml
+- filename: berrergate-com-search-api-openapi.yml
+  format: yaml
+  label: Berrer Search API
+  slug: berrergate-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-search-api-openapi.yml
+- filename: berrergate-com-skill-md-api-openapi.yml
+  format: yaml
+  label: Berrer Skill.md API
+  slug: berrergate-com-skill-md-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-skill-md-api-openapi.yml
+- filename: berrergate-com-well-known-api-openapi.yml
+  format: yaml
+  label: Berrer .well Known API
+  slug: berrergate-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-well-known-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

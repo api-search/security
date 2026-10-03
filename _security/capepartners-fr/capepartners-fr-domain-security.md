@@ -1,11 +1,95 @@
 ---
 api_specs:
-- filename: capepartners-fr-openapi.yml
+- filename: capepartners-fr-activity-api-openapi.yml
   format: yaml
-  label: Cape Partners Sniffer Agent API
-  slug: cape-partners-sniffer-agent-api
+  label: Cape Partners Activity API
+  slug: capepartners-fr-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-activity-api-openapi.yml
+- filename: capepartners-fr-confidentiality-api-openapi.yml
+  format: yaml
+  label: Cape Partners Confidentiality API
+  slug: capepartners-fr-confidentiality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-confidentiality-api-openapi.yml
+- filename: capepartners-fr-dataquality-api-openapi.yml
+  format: yaml
+  label: Cape Partners Data Quality API
+  slug: capepartners-fr-dataquality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-dataquality-api-openapi.yml
+- filename: capepartners-fr-dealflow-api-openapi.yml
+  format: yaml
+  label: Cape Partners Deal Flow API
+  slug: capepartners-fr-dealflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-dealflow-api-openapi.yml
+- filename: capepartners-fr-discovery-api-openapi.yml
+  format: yaml
+  label: Cape Partners Discovery API
+  slug: capepartners-fr-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-discovery-api-openapi.yml
+- filename: capepartners-fr-exchange-api-openapi.yml
+  format: yaml
+  label: Cape Partners Exchange API
+  slug: capepartners-fr-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-exchange-api-openapi.yml
+- filename: capepartners-fr-identity-api-openapi.yml
+  format: yaml
+  label: Cape Partners Identity API
+  slug: capepartners-fr-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-identity-api-openapi.yml
+- filename: capepartners-fr-infomemos-api-openapi.yml
+  format: yaml
+  label: Cape Partners Info Memos API
+  slug: capepartners-fr-infomemos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-infomemos-api-openapi.yml
+- filename: capepartners-fr-interest-api-openapi.yml
+  format: yaml
+  label: Cape Partners Interest API
+  slug: capepartners-fr-interest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-interest-api-openapi.yml
+- filename: capepartners-fr-mandate-api-openapi.yml
+  format: yaml
+  label: Cape Partners Mandate API
+  slug: capepartners-fr-mandate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-mandate-api-openapi.yml
+- filename: capepartners-fr-matching-api-openapi.yml
+  format: yaml
+  label: Cape Partners Matching API
+  slug: capepartners-fr-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-matching-api-openapi.yml
+- filename: capepartners-fr-pairings-api-openapi.yml
+  format: yaml
+  label: Cape Partners Pairings API
+  slug: capepartners-fr-pairings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-pairings-api-openapi.yml
+- filename: capepartners-fr-registration-api-openapi.yml
+  format: yaml
+  label: Cape Partners Registration API
+  slug: capepartners-fr-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-registration-api-openapi.yml
+- filename: capepartners-fr-search-api-openapi.yml
+  format: yaml
+  label: Cape Partners Search API
+  slug: capepartners-fr-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-search-api-openapi.yml
+- filename: capepartners-fr-valuation-api-openapi.yml
+  format: yaml
+  label: Cape Partners Valuation API
+  slug: capepartners-fr-valuation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capepartners-fr/refs/heads/main/openapi/capepartners-fr-valuation-api-openapi.yml
 description: ''
 domains:
 - caa: []

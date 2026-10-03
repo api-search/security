@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/richapi/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
-- Data-Enrichment
+- Data Enrichment
 - B2B
 - MCP
 ---

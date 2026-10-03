@@ -32,6 +32,6 @@ tags:
 - Biotechnology
 - Proteomics
 - Precision Medicine
-- AI
+- Artificial Intelligence
 - South Korea
 ---

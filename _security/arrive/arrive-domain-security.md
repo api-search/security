@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arrive/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Mobility
-- SmartCities
+- Smart Cities
 - Parking
 - Transportation
-- SaaS
+- Software-as-a-Service
 - Company
 ---

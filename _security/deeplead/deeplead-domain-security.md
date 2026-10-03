@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- LeadGeneration
-- ColdEmail
-- AI
-- SalesAutomation
+- Lead Generation
+- Cold Email
+- Artificial Intelligence
+- Sales Automation
 ---

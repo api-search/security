@@ -2,12 +2,6 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: liquid-death-catalog-api-openapi.yml
-  format: yaml
-  label: Liquid Death Catalog API
-  slug: liquid-death-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/liquid-death-catalog-api-openapi.yml
 - filename: liquid-death-discovery-api-openapi.yml
   format: yaml
   label: Liquid Death Discovery API

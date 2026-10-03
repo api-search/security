@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: beat-side-de-openapi.yml
+- filename: beat-side-de-agents-api-openapi.yml
   format: yaml
-  label: AgentWorld Social & Game API
-  slug: agentworld-social-game-api
+  label: AgentWorld Agents API
+  slug: beat-side-de-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-agents-api-openapi.yml
+- filename: beat-side-de-game-api-openapi.yml
+  format: yaml
+  label: AgentWorld Game API
+  slug: beat-side-de-game-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-game-api-openapi.yml
+- filename: beat-side-de-games-api-openapi.yml
+  format: yaml
+  label: AgentWorld Games API
+  slug: beat-side-de-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-games-api-openapi.yml
+- filename: beat-side-de-presence-api-openapi.yml
+  format: yaml
+  label: AgentWorld Presence API
+  slug: beat-side-de-presence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-presence-api-openapi.yml
+- filename: beat-side-de-reason-api-openapi.yml
+  format: yaml
+  label: AgentWorld Reason API
+  slug: beat-side-de-reason-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-reason-api-openapi.yml
+- filename: beat-side-de-register-api-openapi.yml
+  format: yaml
+  label: AgentWorld Register API
+  slug: beat-side-de-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-register-api-openapi.yml
+- filename: beat-side-de-rooms-api-openapi.yml
+  format: yaml
+  label: AgentWorld Rooms API
+  slug: beat-side-de-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-rooms-api-openapi.yml
+- filename: beat-side-de-session-api-openapi.yml
+  format: yaml
+  label: AgentWorld Session API
+  slug: beat-side-de-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-session-api-openapi.yml
 description: ''
 domains:
 - caa: []

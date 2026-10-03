@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: pyannoteai-api-api-openapi.yml
-  format: yaml
-  label: PyannoteAI API
-  slug: pyannoteai-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-api-api-openapi.yml
 - filename: pyannoteai-media-api-openapi.yml
   format: yaml
   label: PyannoteAI Media API
@@ -18,6 +12,24 @@ api_specs:
   slug: pyannoteai-streaming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-streaming-api-openapi.yml
+- filename: pyannoteai-jobs-api-openapi.yml
+  format: yaml
+  label: PyannoteAI Jobs API
+  slug: pyannoteai-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-jobs-api-openapi.yml
+- filename: pyannoteai-operations-api-openapi.yml
+  format: yaml
+  label: PyannoteAI Operations API
+  slug: pyannoteai-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-operations-api-openapi.yml
+- filename: pyannoteai-test-api-openapi.yml
+  format: yaml
+  label: PyannoteAI Test API
+  slug: pyannoteai-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/openapi/pyannoteai-test-api-openapi.yml
 certification_count: 2
 certifications:
 - HIPAA

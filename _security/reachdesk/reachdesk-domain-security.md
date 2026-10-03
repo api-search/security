@@ -36,12 +36,6 @@ api_specs:
   slug: reachdesk-sends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-sends-api-openapi.yml
-- filename: reachdesk-sends-start-date-start-date-end-date-end-date-api-openapi.yml
-  format: yaml
-  label: Reachdesk Sends?start Date={start Date}&end Date={end Date} API
-  slug: reachdesk-sends-start-date-start-date-end-date-end-date-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/openapi/reachdesk-sends-start-date-start-date-end-date-end-date-api-openapi.yml
 - filename: reachdesk-transactions-api-openapi.yml
   format: yaml
   label: Reachdesk Transactions API

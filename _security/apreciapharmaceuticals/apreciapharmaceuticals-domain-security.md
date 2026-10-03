@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Pharmaceuticals
-- 3DPrinting
+- 3D Printing
 - CDMO
 - FDA
 ---

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: newminecraftservers-openapi.yml
+- filename: newminecraftservers-minecraft-services-api-openapi.yml
   format: yaml
-  label: NewMinecraftServers API
-  slug: newminecraftservers-api
+  label: NewMinecraftServers Minecraft services API
+  slug: newminecraftservers-minecraft-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newminecraftservers/refs/heads/main/openapi/newminecraftservers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/newminecraftservers/refs/heads/main/openapi/newminecraftservers-minecraft-services-api-openapi.yml
+- filename: newminecraftservers-servers-api-openapi.yml
+  format: yaml
+  label: NewMinecraftServers Servers API
+  slug: newminecraftservers-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newminecraftservers/refs/heads/main/openapi/newminecraftservers-servers-api-openapi.yml
 description: ''
 domains:
 - caa: []

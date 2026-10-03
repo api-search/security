@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: schemaextract-openapi.yml
+- filename: schemaextract-extract-api-openapi.yml
   format: yaml
-  label: SchemaExtract API
-  slug: schemaextract-api
+  label: SchemaExtract Extract API
+  slug: schemaextract-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schemaextract/refs/heads/main/openapi/schemaextract-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/schemaextract/refs/heads/main/openapi/schemaextract-extract-api-openapi.yml
+- filename: schemaextract-health-api-openapi.yml
+  format: yaml
+  label: SchemaExtract Health API
+  slug: schemaextract-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schemaextract/refs/heads/main/openapi/schemaextract-health-api-openapi.yml
 auth_types:
 - http
 description: ''

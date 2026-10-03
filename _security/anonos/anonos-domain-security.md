@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anonos/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Tokenization
-- Data Privacy
+- Privacy
 - Data Security
 - Enterprise Data
 - Analytics

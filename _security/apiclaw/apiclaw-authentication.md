@@ -703,9 +703,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiclaw/refs/h
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
-- SaaS
-- API
+- Software-as-a-Service
 - Platform
 ---

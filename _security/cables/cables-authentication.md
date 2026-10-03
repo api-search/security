@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cables-openapi.yml
+- filename: cables-tools-api-openapi.yml
   format: yaml
-  label: TensorFlow.js Social Media MCP Server
-  slug: tensorflowjs-social-media-mcp-server
+  label: Cables Tools API
+  slug: cables-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/openapi/cables-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/openapi/cables-tools-api-openapi.yml
 auth_types:
 - none-for-discovery
 - x402-payment-for-execution

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: gadjah-mada-university-api-api-openapi.yml
-  format: yaml
-  label: Gadjah Mada University API
-  slug: gadjah-mada-university-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-api-api-openapi.yml
 - filename: gadjah-mada-university-discovery-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Discovery API
@@ -38,6 +32,18 @@ api_specs:
   slug: gadjah-mada-university-oauth2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oauth2-api-openapi.yml
+- filename: gadjah-mada-university-me-api-openapi.yml
+  format: yaml
+  label: Gadjah Mada University Me API
+  slug: gadjah-mada-university-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-me-api-openapi.yml
+- filename: gadjah-mada-university-user-api-openapi.yml
+  format: yaml
+  label: Gadjah Mada University User API
+  slug: gadjah-mada-university-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-user-api-openapi.yml
 auth_types:
 - oauth2
 - oidc

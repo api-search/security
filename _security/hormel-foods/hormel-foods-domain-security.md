@@ -37,4 +37,5 @@ tags:
 - Meat Products
 - Fortune 500
 - Food and Beverage
+- Consumer Packaged Goods
 ---

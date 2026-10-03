@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: merqube-api-api-openapi.yml
-  format: yaml
-  label: MerQube API
-  slug: merqube-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-api-api-openapi.yml
 - filename: merqube-helper-api-openapi.yml
   format: yaml
   label: MerQube Helper API
@@ -56,6 +50,12 @@ api_specs:
   slug: merqube-security-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-security-list-api-openapi.yml
+- filename: merqube-merqube-api-api-openapi.yml
+  format: yaml
+  label: MerQube MerQube API
+  slug: merqube-merqube-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/openapi/merqube-merqube-api-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

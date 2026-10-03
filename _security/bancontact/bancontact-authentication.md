@@ -3,24 +3,54 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: bancontact-payment-v3-api-openapi.yml
+- filename: bancontact-callback-to-merchants-api-openapi.yml
   format: yaml
-  label: Bancontact Pro Payment V3 API
-  slug: payconiq-acceptance-api
+  label: Bancontact Callback to Merchants API
+  slug: bancontact-callback-to-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payment-v3-api-openapi.yml
-- filename: bancontact-payment-refund-service-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-callback-to-merchants-api-openapi.yml
+- filename: bancontact-merchant-acknowledge-api-openapi.yml
   format: yaml
-  label: Bancontact Pro Payment Refund Service API
-  slug: payment-refund-service-api
+  label: Bancontact Merchant Acknowledge API
+  slug: bancontact-merchant-acknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payment-refund-service-api-openapi.yml
-- filename: bancontact-merchant-reconciliation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-merchant-acknowledge-api-openapi.yml
+- filename: bancontact-merchant-endpoints-api-openapi.yml
   format: yaml
-  label: Bancontact Pro Merchant Reconciliation API
-  slug: merchant-reconciliation-api
+  label: Bancontact Merchant Endpoints API
+  slug: bancontact-merchant-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-merchant-reconciliation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-merchant-endpoints-api-openapi.yml
+- filename: bancontact-payments-api-openapi.yml
+  format: yaml
+  label: Bancontact Payments API
+  slug: bancontact-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payments-api-openapi.yml
+- filename: bancontact-payoutlist-api-openapi.yml
+  format: yaml
+  label: Bancontact Payout List API
+  slug: bancontact-payoutlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payoutlist-api-openapi.yml
+- filename: bancontact-payoutpayments-api-openapi.yml
+  format: yaml
+  label: Bancontact Payout Payments API
+  slug: bancontact-payoutpayments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payoutpayments-api-openapi.yml
+- filename: bancontact-payoutrefunds-api-openapi.yml
+  format: yaml
+  label: Bancontact Payout Refunds API
+  slug: bancontact-payoutrefunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-payoutrefunds-api-openapi.yml
+- filename: bancontact-refunds-api-openapi.yml
+  format: yaml
+  label: Bancontact Refunds API
+  slug: bancontact-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/openapi/bancontact-refunds-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -34,6 +34,6 @@ tags:
 - Company
 - Seafood
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 - Traceability
 ---

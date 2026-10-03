@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: aspiresingapore-openapi-generated.yml
+- filename: aspiresingapore-public-api-openapi.yml
   format: yaml
-  label: Aspiresingapore API
-  slug: aspiresingapore-api
+  label: Aspiresingapore Public API
+  slug: aspiresingapore-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/_ae-authored/aspiresingapore-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/aspiresingapore-public-api-openapi.yml
 auth_types: []
 description: Authentication methods for Aspire API
 kind: authentication
@@ -54,7 +54,6 @@ summary_line: 3 schemes
 tags:
 - Finance
 - Banking
-- API
 - Singapore
-- SaaS
+- Software-as-a-Service
 ---

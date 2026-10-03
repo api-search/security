@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Biotechnology
-- Gene-Editing
+- Gene Editing
 - Therapeutics
-- Rare-Diseases
+- Rare Disease
 - Oncology
 ---

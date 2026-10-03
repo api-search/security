@@ -33,7 +33,7 @@ tags:
 - Automation
 - Power Management
 - Control Systems
-- Off‑Highway
+- Off-Highway
 - On‑Highway
 - Machine Control
 ---

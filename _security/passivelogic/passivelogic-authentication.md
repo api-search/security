@@ -9,12 +9,6 @@ api_specs:
   slug: passivelogic-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-account-api-openapi.yml
-- filename: passivelogic-api-api-openapi.yml
-  format: yaml
-  label: PassiveLogic API
-  slug: passivelogic-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-api-api-openapi.yml
 - filename: passivelogic-app-api-openapi.yml
   format: yaml
   label: PassiveLogic App API
@@ -39,12 +33,6 @@ api_specs:
   slug: passivelogic-bindings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-bindings-api-openapi.yml
-- filename: passivelogic-default-api-openapi.yml
-  format: yaml
-  label: PassiveLogic Default API
-  slug: passivelogic-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-default-api-openapi.yml
 - filename: passivelogic-export-api-openapi.yml
   format: yaml
   label: PassiveLogic Export API
@@ -99,6 +87,24 @@ api_specs:
   slug: passivelogic-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-utility-api-openapi.yml
+- filename: passivelogic-meta-json-api-openapi.yml
+  format: yaml
+  label: PassiveLogic Meta.json API
+  slug: passivelogic-meta-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-meta-json-api-openapi.yml
+- filename: passivelogic-metrics-api-openapi.yml
+  format: yaml
+  label: PassiveLogic Metrics API
+  slug: passivelogic-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-metrics-api-openapi.yml
+- filename: passivelogic-passivelogic-rest-api-api-openapi.yml
+  format: yaml
+  label: PassiveLogic PassiveLogic REST API
+  slug: passivelogic-passivelogic-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-passivelogic-rest-api-api-openapi.yml
 - filename: passivelogic-graph-ql-api-openapi.yml
   format: yaml
   label: PassiveLogic Graph QL API

@@ -2,12 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: dokki-one-openapi.yml
+- filename: dokki-one-account-api-openapi.yml
   format: yaml
-  label: Dokki API
-  slug: dokki-api
+  label: Dokki Account API
+  slug: dokki-one-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-account-api-openapi.yml
+- filename: dokki-one-agents-api-openapi.yml
+  format: yaml
+  label: Dokki Agents API
+  slug: dokki-one-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-agents-api-openapi.yml
+- filename: dokki-one-collaboration-api-openapi.yml
+  format: yaml
+  label: Dokki Collaboration API
+  slug: dokki-one-collaboration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-collaboration-api-openapi.yml
+- filename: dokki-one-core-api-openapi.yml
+  format: yaml
+  label: Dokki Core API
+  slug: dokki-one-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-core-api-openapi.yml
+- filename: dokki-one-organizations-api-openapi.yml
+  format: yaml
+  label: Dokki Organizations API
+  slug: dokki-one-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-organizations-api-openapi.yml
+- filename: dokki-one-publishing-api-openapi.yml
+  format: yaml
+  label: Dokki Publishing API
+  slug: dokki-one-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-publishing-api-openapi.yml
+- filename: dokki-one-resources-api-openapi.yml
+  format: yaml
+  label: Dokki Resources API
+  slug: dokki-one-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-resources-api-openapi.yml
+- filename: dokki-one-search-api-openapi.yml
+  format: yaml
+  label: Dokki Search API
+  slug: dokki-one-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-search-api-openapi.yml
 auth_types:
 - http
 - oauth2

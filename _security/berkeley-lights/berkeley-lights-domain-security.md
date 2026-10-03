@@ -34,6 +34,6 @@ tags:
 - Biotechnology
 - Cell Analysis
 - Optofluidic
-- Single-Cell
+- Single Cell
 - Platform
 ---

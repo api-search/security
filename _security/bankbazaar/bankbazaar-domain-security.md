@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankbazaar/refs/heads/main/security/bankbazaar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- FinTech
-- CreditCards
+- Fintech
+- Credit Cards
 - Loans
 - India
-- FinancialServices
+- Financial Services
 ---

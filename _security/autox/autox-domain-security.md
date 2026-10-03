@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autox/refs/hea
 summary_line: TLSv1.3
 tags:
 - Autonomous Driving
-- AI
+- Artificial Intelligence
 - Robotics
 - Transportation
 - San Jose

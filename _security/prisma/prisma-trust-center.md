@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: prisma-postgres-management-api-openapi.json
-  format: json
-  label: Prisma Postgres Management API
-  slug: prisma-postgres-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-postgres-management-api-openapi.json
 - filename: prisma-aggregation-api-openapi.yml
   format: yaml
   label: Prisma Aggregation API
@@ -144,6 +138,42 @@ api_specs:
   slug: prisma-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-workspaces-api-openapi.yml
+- filename: prisma-buckets-api-openapi.yml
+  format: yaml
+  label: Prisma Buckets API
+  slug: prisma-buckets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-buckets-api-openapi.yml
+- filename: prisma-databases-connections-api-openapi.yml
+  format: yaml
+  label: Prisma Databases Connections API
+  slug: prisma-databases-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-databases-connections-api-openapi.yml
+- filename: prisma-experimental-api-openapi.yml
+  format: yaml
+  label: Prisma [Experimental] API
+  slug: prisma-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-experimental-api-openapi.yml
+- filename: prisma-misc-api-openapi.yml
+  format: yaml
+  label: Prisma Misc API
+  slug: prisma-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-misc-api-openapi.yml
+- filename: prisma-regions-api-openapi.yml
+  format: yaml
+  label: Prisma Regions API
+  slug: prisma-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-regions-api-openapi.yml
+- filename: prisma-service-tokens-api-openapi.yml
+  format: yaml
+  label: Prisma Service Tokens API
+  slug: prisma-service-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-service-tokens-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

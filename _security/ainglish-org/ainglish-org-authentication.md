@@ -2,12 +2,30 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: ainglish-org-openapi.yml
+- filename: ainglish-org-proposals-api-openapi.yml
   format: yaml
-  label: The Ainglish Project API
-  slug: the-ainglish-project-api
+  label: The Ainglish Project Proposals API
+  slug: ainglish-org-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-proposals-api-openapi.yml
+- filename: ainglish-org-read-api-openapi.yml
+  format: yaml
+  label: The Ainglish Project Read API
+  slug: ainglish-org-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-read-api-openapi.yml
+- filename: ainglish-org-verify-api-openapi.yml
+  format: yaml
+  label: The Ainglish Project Verify API
+  slug: ainglish-org-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-verify-api-openapi.yml
+- filename: ainglish-org-write-api-openapi.yml
+  format: yaml
+  label: The Ainglish Project Write API
+  slug: ainglish-org-write-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-write-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

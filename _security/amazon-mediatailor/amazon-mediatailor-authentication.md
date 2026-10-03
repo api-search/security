@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-mediatailor-alerts-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon MediaTailor Alerts#resourceArn API
-  slug: amazon-mediatailor-alerts-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-alerts-resourcearn-api-openapi.yml
 - filename: amazon-mediatailor-channel-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Channel API
@@ -27,6 +21,12 @@ api_specs:
   slug: amazon-mediatailor-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-tags-api-openapi.yml
+- filename: amazon-mediatailor-alerts-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Alerts API
+  slug: amazon-mediatailor-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-alerts-api-openapi.yml
 - filename: amazon-mediatailor-configure-logs-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Configure Logs API

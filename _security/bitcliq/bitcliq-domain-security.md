@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Software
-- AgriFood
+- Agrifood
 - Fisheries
 - Transport
 ---

@@ -42,126 +42,6 @@ api_specs:
   slug: amazon-ec2-image-builder-createinfrastructureconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-createinfrastructureconfiguration-api-openapi.yml
-- filename: amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteComponent#componentBuildVersionArn API
-  slug: amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteContainerRecipe#containerRecipeArn API
-  slug: amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteDistributionConfiguration#distributionConfigurationArn API
-  slug: amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteImage#imageBuildVersionArn API
-  slug: amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteImagePipeline#imagePipelineArn API
-  slug: amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteImageRecipe#imageRecipeArn API
-  slug: amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteInfrastructureConfiguration#infrastructureConfigurationArn API
-  slug: amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetComponent#componentBuildVersionArn API
-  slug: amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcomponentpolicy-componentarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetComponentPolicy#componentArn API
-  slug: amazon-ec2-image-builder-getcomponentpolicy-componentarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcomponentpolicy-componentarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetContainerRecipe#containerRecipeArn API
-  slug: amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetContainerRecipePolicy#containerRecipeArn API
-  slug: amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetDistributionConfiguration#distributionConfigurationArn API
-  slug: amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimage-imagebuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImage#imageBuildVersionArn API
-  slug: amazon-ec2-image-builder-getimage-imagebuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimage-imagebuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImagePipeline#imagePipelineArn API
-  slug: amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagepolicy-imagearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImagePolicy#imageArn API
-  slug: amazon-ec2-image-builder-getimagepolicy-imagearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepolicy-imagearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImageRecipe#imageRecipeArn API
-  slug: amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImageRecipePolicy#imageRecipeArn API
-  slug: amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetInfrastructureConfiguration#infrastructureConfigurationArn API
-  slug: amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetWorkflowExecution#workflowExecutionId API
-  slug: amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api-openapi.yml
-- filename: amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetWorkflowStepExecution#stepExecutionId API
-  slug: amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api-openapi.yml
 - filename: amazon-ec2-image-builder-importcomponent-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder ImportComponent API
@@ -306,12 +186,132 @@ api_specs:
   slug: amazon-ec2-image-builder-updateinfrastructureconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-updateinfrastructureconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-deletecomponent-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Component API
+  slug: amazon-ec2-image-builder-deletecomponent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecomponent-api-openapi.yml
+- filename: amazon-ec2-image-builder-deletecontainerrecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Container Recipe API
+  slug: amazon-ec2-image-builder-deletecontainerrecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecontainerrecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-deletedistributionconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Distribution Configuration API
+  slug: amazon-ec2-image-builder-deletedistributionconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletedistributionconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteimage-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Image API
+  slug: amazon-ec2-image-builder-deleteimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimage-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteimagepipeline-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Image Pipeline API
+  slug: amazon-ec2-image-builder-deleteimagepipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagepipeline-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteimagerecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Image Recipe API
+  slug: amazon-ec2-image-builder-deleteimagerecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagerecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteinfrastructureconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Infrastructure Configuration API
+  slug: amazon-ec2-image-builder-deleteinfrastructureconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteinfrastructureconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-getcomponentpolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Component Policy API
+  slug: amazon-ec2-image-builder-getcomponentpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcomponentpolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getcontainerrecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Container Recipe API
+  slug: amazon-ec2-image-builder-getcontainerrecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-getcontainerrecipepolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Container Recipe Policy API
+  slug: amazon-ec2-image-builder-getcontainerrecipepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipepolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getdistributionconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Distribution Configuration API
+  slug: amazon-ec2-image-builder-getdistributionconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getdistributionconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimage-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image API
+  slug: amazon-ec2-image-builder-getimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimage-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagepipeline-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Pipeline API
+  slug: amazon-ec2-image-builder-getimagepipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepipeline-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagepolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Policy API
+  slug: amazon-ec2-image-builder-getimagepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagerecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Recipe API
+  slug: amazon-ec2-image-builder-getimagerecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagerecipepolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Recipe Policy API
+  slug: amazon-ec2-image-builder-getimagerecipepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipepolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getinfrastructureconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Infrastructure Configuration API
+  slug: amazon-ec2-image-builder-getinfrastructureconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getinfrastructureconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-getworkflowexecution-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Workflow Execution API
+  slug: amazon-ec2-image-builder-getworkflowexecution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowexecution-api-openapi.yml
+- filename: amazon-ec2-image-builder-getworkflowstepexecution-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Workflow Step Execution API
+  slug: amazon-ec2-image-builder-getworkflowstepexecution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowstepexecution-api-openapi.yml
 - filename: amazon-ec2-image-builder-create-image-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder Create Image API
   slug: amazon-ec2-image-builder-create-image-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-create-image-api-openapi.yml
+- filename: amazon-ec2-image-builder-get-component-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Component API
+  slug: amazon-ec2-image-builder-get-component-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-get-component-api-openapi.yml
 - filename: amazon-ec2-image-builder-list-components-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder List Components API

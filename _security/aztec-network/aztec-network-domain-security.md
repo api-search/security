@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: aztec-network-openapi-generated.yml
+- filename: aztec-network-aztec-network-api-api-openapi.yml
   format: yaml
-  label: Aztec Network API
-  slug: aztec-network-api
+  label: Aztec Network Aztec Network API
+  slug: aztec-network-aztec-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aztec-network/refs/heads/main/openapi/_ae-authored/aztec-network-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aztec-network/refs/heads/main/openapi/aztec-network-aztec-network-api-api-openapi.yml
+- filename: aztec-network-status-api-openapi.yml
+  format: yaml
+  label: Aztec Network Status API
+  slug: aztec-network-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aztec-network/refs/heads/main/openapi/aztec-network-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +47,6 @@ tags:
 - Company
 - Blockchain
 - Privacy
-- Layer2
+- Layer 2
 - Ethereum
 ---

@@ -32,7 +32,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Placeholder
-- DataEnrichment
-- API
-- Unknown
+- Data Enrichment
 ---

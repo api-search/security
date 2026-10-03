@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Grocery
 - Retail
-- E‑commerce
+- E-Commerce
 - Low‑price
 - Sustainability
 ---

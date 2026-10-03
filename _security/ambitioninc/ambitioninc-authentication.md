@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ambitioninc-openapi-generated.yml
+- filename: ambitioninc-account-api-openapi.yml
   format: yaml
-  label: Ambitioninc API
-  slug: ambitioninc-api
+  label: Ambitioninc Account API
+  slug: ambitioninc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/_ae-authored/ambitioninc-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/ambitioninc-account-api-openapi.yml
+- filename: ambitioninc-data-api-openapi.yml
+  format: yaml
+  label: Ambitioninc Data API
+  slug: ambitioninc-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/ambitioninc-data-api-openapi.yml
 auth_types: []
 description: Token‑Based Authentication using a URL query parameter
 kind: authentication
@@ -36,9 +42,9 @@ source_yaml: "generated: '2026-09-24'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/authentication/ambitioninc-authentication.yml
 summary_line: 1 scheme
 tags:
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 - Sales Enablement
-- AI
+- Artificial Intelligence
 - Platform
 ---

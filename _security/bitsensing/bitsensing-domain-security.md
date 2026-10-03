@@ -34,7 +34,7 @@ tags:
 - Company
 - Radar
 - Automotive
-- SmartCities
+- Smart Cities
 - Healthcare
-- AI
+- Artificial Intelligence
 ---

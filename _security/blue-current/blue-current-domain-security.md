@@ -35,6 +35,6 @@ tags:
 - Battery
 - Energy
 - Silicon
-- Startup
+- Startups
 - Hayward
 ---

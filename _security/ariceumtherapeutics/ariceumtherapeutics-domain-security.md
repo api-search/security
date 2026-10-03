@@ -33,5 +33,5 @@ tags:
 - Biotechnology
 - Oncology
 - Radiopharmaceuticals
-- ClinicalTrials
+- Clinical Trials
 ---

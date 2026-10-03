@@ -83,7 +83,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Data
-- Private-Company
+- Private Company
 - Funding
-- API
 ---

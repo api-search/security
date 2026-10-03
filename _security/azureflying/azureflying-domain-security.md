@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azureflying/re
 summary_line: TLSv1.2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Waste Management
 - Green Technology
 - Smart Cities

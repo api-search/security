@@ -37,5 +37,4 @@ tags:
 - CAR-T
 - Pharmaceuticals
 - Oncology
-- Cart
 ---

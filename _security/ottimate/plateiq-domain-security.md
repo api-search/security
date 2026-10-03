@@ -1,59 +1,59 @@
 ---
 api_specs:
-- filename: plateiq-accounts-api-openapi.yml
+- filename: ottimate-accounts-api-openapi.yml
   format: yaml
-  label: PlateIQ accounts API
-  slug: plateiq-accounts-api
+  label: Ottimate Accounts API
+  slug: ottimate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-accounts-api-openapi.yml
-- filename: plateiq-batch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-accounts-api-openapi.yml
+- filename: ottimate-batch-api-openapi.yml
   format: yaml
-  label: PlateIQ batch API
-  slug: plateiq-batch-api
+  label: Ottimate Batch API
+  slug: ottimate-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-batch-api-openapi.yml
-- filename: plateiq-catalog-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-batch-api-openapi.yml
+- filename: ottimate-catalog-api-openapi.yml
   format: yaml
-  label: PlateIQ catalog API
-  slug: plateiq-catalog-api
+  label: Ottimate Catalog API
+  slug: ottimate-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-catalog-api-openapi.yml
-- filename: plateiq-dimensions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-catalog-api-openapi.yml
+- filename: ottimate-dimensions-api-openapi.yml
   format: yaml
-  label: PlateIQ dimensions API
-  slug: plateiq-dimensions-api
+  label: Ottimate Dimensions API
+  slug: ottimate-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-dimensions-api-openapi.yml
-- filename: plateiq-invoices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-dimensions-api-openapi.yml
+- filename: ottimate-invoices-api-openapi.yml
   format: yaml
-  label: PlateIQ invoices API
-  slug: plateiq-invoices-api
+  label: Ottimate Invoices API
+  slug: ottimate-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-invoices-api-openapi.yml
-- filename: plateiq-receipts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-invoices-api-openapi.yml
+- filename: ottimate-oauth-api-openapi.yml
   format: yaml
-  label: PlateIQ receipts API
-  slug: plateiq-receipts-api
+  label: Ottimate OAuth API
+  slug: ottimate-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-receipts-api-openapi.yml
-- filename: plateiq-vendors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-oauth-api-openapi.yml
+- filename: ottimate-receipts-api-openapi.yml
   format: yaml
-  label: PlateIQ vendors API
-  slug: plateiq-vendors-api
+  label: Ottimate Receipts API
+  slug: ottimate-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-vendors-api-openapi.yml
-- filename: plateiq-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-receipts-api-openapi.yml
+- filename: ottimate-vendors-api-openapi.yml
   format: yaml
-  label: PlateIQ OAUTH API
-  slug: plateiq-oauth-api
+  label: Ottimate Vendors API
+  slug: ottimate-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-oauth-api-openapi.yml
-- filename: plateiq-purchase-orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-vendors-api-openapi.yml
+- filename: ottimate-purchase-orders-api-openapi.yml
   format: yaml
-  label: PlateIQ Purchase Orders API
-  slug: plateiq-purchase-orders-api
+  label: Ottimate Purchase Orders API
+  slug: ottimate-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/plateiq-purchase-orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []

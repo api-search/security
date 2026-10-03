@@ -31,7 +31,7 @@ summary_line: TLSv1.2 · DNSSEC
 tags:
 - Company
 - PhotonDetection
-- MedicalImaging
+- Medical Imaging
 - Industrial
 - Security
 ---

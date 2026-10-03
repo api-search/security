@@ -114,12 +114,6 @@ api_specs:
   slug: anthropic-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-workspaces-api-openapi.yml
-- filename: anthropic-agents-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Agents?beta=true API
-  slug: anthropic-agents-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-agents-beta-true-api-openapi.yml
 - filename: anthropic-anthropic-api-api-openapi.yml
   format: yaml
   label: Anthropic API
@@ -138,126 +132,48 @@ api_specs:
   slug: anthropic-deployment-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-deployment-runs-api-openapi.yml
-- filename: anthropic-deployment-runs-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Deployment Runs?beta=true API
-  slug: anthropic-deployment-runs-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-deployment-runs-beta-true-api-openapi.yml
 - filename: anthropic-deployments-api-openapi.yml
   format: yaml
   label: Anthropic Deployments API
   slug: anthropic-deployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-deployments-api-openapi.yml
-- filename: anthropic-deployments-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Deployments?beta=true API
-  slug: anthropic-deployments-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-deployments-beta-true-api-openapi.yml
 - filename: anthropic-dreams-api-openapi.yml
   format: yaml
   label: Anthropic Dreams API
   slug: anthropic-dreams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-dreams-api-openapi.yml
-- filename: anthropic-dreams-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Dreams?beta=true API
-  slug: anthropic-dreams-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-dreams-beta-true-api-openapi.yml
-- filename: anthropic-environments-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Environments?beta=true API
-  slug: anthropic-environments-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-environments-beta-true-api-openapi.yml
-- filename: anthropic-files-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Files?beta=true API
-  slug: anthropic-files-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-files-beta-true-api-openapi.yml
 - filename: anthropic-memory-stores-api-openapi.yml
   format: yaml
   label: Anthropic Memory Stores API
   slug: anthropic-memory-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-memory-stores-api-openapi.yml
-- filename: anthropic-memory-stores-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Memory Stores?beta=true API
-  slug: anthropic-memory-stores-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-memory-stores-beta-true-api-openapi.yml
-- filename: anthropic-messages-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Messages?beta=true API
-  slug: anthropic-messages-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-messages-beta-true-api-openapi.yml
-- filename: anthropic-models-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Models?beta=true API
-  slug: anthropic-models-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-models-beta-true-api-openapi.yml
 - filename: anthropic-organizations-api-openapi.yml
   format: yaml
   label: Anthropic Organizations API
   slug: anthropic-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-organizations-api-openapi.yml
-- filename: anthropic-sessions-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Sessions?beta=true API
-  slug: anthropic-sessions-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-sessions-beta-true-api-openapi.yml
-- filename: anthropic-skills-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Skills?beta=true API
-  slug: anthropic-skills-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-skills-beta-true-api-openapi.yml
 - filename: anthropic-tunnels-api-openapi.yml
   format: yaml
   label: Anthropic Tunnels API
   slug: anthropic-tunnels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-tunnels-api-openapi.yml
-- filename: anthropic-tunnels-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Tunnels?beta=true API
-  slug: anthropic-tunnels-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-tunnels-beta-true-api-openapi.yml
 - filename: anthropic-user-profiles-api-openapi.yml
   format: yaml
   label: Anthropic User Profiles API
   slug: anthropic-user-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-user-profiles-api-openapi.yml
-- filename: anthropic-user-profiles-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic User Profiles?beta=true API
-  slug: anthropic-user-profiles-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-user-profiles-beta-true-api-openapi.yml
 - filename: anthropic-vaults-api-openapi.yml
   format: yaml
   label: Anthropic Vaults API
   slug: anthropic-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-vaults-api-openapi.yml
-- filename: anthropic-vaults-beta-true-api-openapi.yml
-  format: yaml
-  label: Anthropic Vaults?beta=true API
-  slug: anthropic-vaults-beta-true-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-vaults-beta-true-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2 Type I

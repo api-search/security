@@ -2,12 +2,18 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: rsperformance-online-ai-gateway-openapi.yml
+- filename: rsperformance-online-search-api-openapi.yml
   format: yaml
-  label: RS Performance AI Gateway API
-  slug: rs-performance-ai-gateway-api
+  label: RS Performance Search API
+  slug: rsperformance-online-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-ai-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-search-api-openapi.yml
+- filename: rsperformance-online-well-known-api-openapi.yml
+  format: yaml
+  label: RS Performance .well Known API
+  slug: rsperformance-online-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-well-known-api-openapi.yml
 auth_types:
 - none
 description: ''

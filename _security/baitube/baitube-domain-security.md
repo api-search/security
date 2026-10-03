@@ -33,6 +33,6 @@ tags:
 - Company
 - Marketplace
 - Investment
-- SecondaryMarket
+- Secondary Market
 - Technology
 ---

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: gatiflow-openapi.yml
+- filename: gatiflow-intelligence-api-openapi.yml
   format: yaml
   label: GatiFlow Intelligence API
   slug: gatiflow-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-intelligence-api-openapi.yml
+- filename: gatiflow-public-api-openapi.yml
+  format: yaml
+  label: GatiFlow Public API
+  slug: gatiflow-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-public-api-openapi.yml
+- filename: gatiflow-usage-api-openapi.yml
+  format: yaml
+  label: GatiFlow Usage API
+  slug: gatiflow-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-usage-api-openapi.yml
+- filename: gatiflow-webhooks-api-openapi.yml
+  format: yaml
+  label: GatiFlow Webhooks API
+  slug: gatiflow-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-webhooks-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

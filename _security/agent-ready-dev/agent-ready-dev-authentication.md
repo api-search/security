@@ -3,12 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: agent-ready-dev-openapi.yml
+- filename: agent-ready-dev-mcp-api-openapi.yml
   format: yaml
-  label: Agent Ready API
-  slug: agent-ready-api
+  label: Agent Ready MCP API
+  slug: agent-ready-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-mcp-api-openapi.yml
+- filename: agent-ready-dev-nlweb-api-openapi.yml
+  format: yaml
+  label: Agent Ready NL Web API
+  slug: agent-ready-dev-nlweb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-nlweb-api-openapi.yml
+- filename: agent-ready-dev-scans-api-openapi.yml
+  format: yaml
+  label: Agent Ready Scans API
+  slug: agent-ready-dev-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-scans-api-openapi.yml
 auth_types:
 - http
 description: ''

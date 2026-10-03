@@ -33,6 +33,5 @@ tags:
 - Company
 - Data
 - Discovery
-- API
-- Startup
+- Startups
 ---

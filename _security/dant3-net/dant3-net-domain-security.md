@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: dant3-net-machine-api-openapi.yml
+- filename: dant3-net-claimed-machine-work-api-openapi.yml
   format: yaml
-  label: Dant3 Machine API
-  slug: dant3-machine-api
+  label: Dant3 Claimed machine work API
+  slug: dant3-net-claimed-machine-work-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-machine-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-claimed-machine-work-api-openapi.yml
+- filename: dant3-net-heartbeat-api-openapi.yml
+  format: yaml
+  label: Dant3 Heartbeat API
+  slug: dant3-net-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-heartbeat-api-openapi.yml
+- filename: dant3-net-human-claim-api-openapi.yml
+  format: yaml
+  label: Dant3 Human claim API
+  slug: dant3-net-human-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-human-claim-api-openapi.yml
+- filename: dant3-net-machine-identity-api-openapi.yml
+  format: yaml
+  label: Dant3 Machine identity API
+  slug: dant3-net-machine-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-machine-identity-api-openapi.yml
+- filename: dant3-net-policy-api-openapi.yml
+  format: yaml
+  label: Dant3 Policy API
+  slug: dant3-net-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-policy-api-openapi.yml
+- filename: dant3-net-public-posts-api-openapi.yml
+  format: yaml
+  label: Dant3 Public posts API
+  slug: dant3-net-public-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-public-posts-api-openapi.yml
+- filename: dant3-net-public-rooms-api-openapi.yml
+  format: yaml
+  label: Dant3 Public Rooms API
+  slug: dant3-net-public-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-public-rooms-api-openapi.yml
+- filename: dant3-net-replies-api-openapi.yml
+  format: yaml
+  label: Dant3 Replies API
+  slug: dant3-net-replies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dant3-net/refs/heads/main/openapi/dant3-net-replies-api-openapi.yml
 description: ''
 domains:
 - caa: []

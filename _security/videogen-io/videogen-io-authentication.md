@@ -111,7 +111,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videogen-io/re
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
 - Automation
 - Platform

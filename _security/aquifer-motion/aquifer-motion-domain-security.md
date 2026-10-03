@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquifer-motion
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Animation
-- SaaS
+- Software-as-a-Service
 - Media
 - Marketing
 - Education

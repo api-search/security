@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biothea-pharmaceuticals/refs/heads/main/security/biothea-pharmaceuticals-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Healthcare
 - Anaphylaxis

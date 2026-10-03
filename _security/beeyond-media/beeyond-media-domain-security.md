@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeyond-media/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Advertising
-- DOOH
+- Digital Out Of Home
 - Programmatic
 - MediaTech
 - Company

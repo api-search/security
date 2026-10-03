@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: remerrill-com-openapi.yml
+- filename: remerrill-com-a2a-api-openapi.yml
   format: yaml
-  label: R.E. Merrill Pump Line Finder API
-  slug: pump-line-finder-api
+  label: R.E. Merrill & Associates A2A API
+  slug: remerrill-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remerrill-com/refs/heads/main/openapi/remerrill-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/remerrill-com/refs/heads/main/openapi/remerrill-com-a2a-api-openapi.yml
+- filename: remerrill-com-line-finder-api-openapi.yml
+  format: yaml
+  label: R.E. Merrill & Associates Line Finder API
+  slug: remerrill-com-line-finder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/remerrill-com/refs/heads/main/openapi/remerrill-com-line-finder-api-openapi.yml
 description: ''
 domains:
 - caa: []

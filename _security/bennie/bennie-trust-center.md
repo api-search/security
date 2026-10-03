@@ -21,8 +21,8 @@ summary_line: SOC 2, HIPAA
 tags:
 - Company
 - Benefits
-- HRTech
-- SaaS
+- Human Resources
+- Software-as-a-Service
 - Insurance
 trust_url: https://trust.bennie.com/
 ---

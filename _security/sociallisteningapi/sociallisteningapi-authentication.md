@@ -3,12 +3,78 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: sociallisteningapi-openapi.yml
+- filename: sociallisteningapi-discourse-api-openapi.yml
   format: yaml
-  label: SocialListeningAPI
-  slug: sociallisteningapi
+  label: SocialListeningAPI Discourse API
+  slug: sociallisteningapi-discourse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-discourse-api-openapi.yml
+- filename: sociallisteningapi-facebook-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Facebook API
+  slug: sociallisteningapi-facebook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-facebook-api-openapi.yml
+- filename: sociallisteningapi-google-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Google API
+  slug: sociallisteningapi-google-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-google-api-openapi.yml
+- filename: sociallisteningapi-instagram-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Instagram API
+  slug: sociallisteningapi-instagram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-instagram-api-openapi.yml
+- filename: sociallisteningapi-meta-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Meta API
+  slug: sociallisteningapi-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-meta-api-openapi.yml
+- filename: sociallisteningapi-pinterest-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Pinterest API
+  slug: sociallisteningapi-pinterest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-pinterest-api-openapi.yml
+- filename: sociallisteningapi-reddit-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Reddit API
+  slug: sociallisteningapi-reddit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-reddit-api-openapi.yml
+- filename: sociallisteningapi-tiktok-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Tiktok API
+  slug: sociallisteningapi-tiktok-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-tiktok-api-openapi.yml
+- filename: sociallisteningapi-x-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI X API
+  slug: sociallisteningapi-x-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-x-api-openapi.yml
+- filename: sociallisteningapi-youtube-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI YouTube API
+  slug: sociallisteningapi-youtube-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-youtube-api-openapi.yml
+- filename: sociallisteningapi-hacker-news-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Hacker News API
+  slug: sociallisteningapi-hacker-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-hacker-news-api-openapi.yml
+- filename: sociallisteningapi-linked-in-api-openapi.yml
+  format: yaml
+  label: SocialListeningAPI Linked In API
+  slug: sociallisteningapi-linked-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-linked-in-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Autonomous Vehicles
 - Delivery Robots
-- AI
+- Artificial Intelligence
 - Mobility
 - Technology
 ---

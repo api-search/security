@@ -33,7 +33,7 @@ tags:
 - Company
 - Automotive
 - Data
-- AI
+- Artificial Intelligence
 - Marketplace
 - Platform
 ---

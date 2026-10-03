@@ -3,12 +3,36 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: rettfrabonden-com-openapi.yml
+- filename: rettfrabonden-com-a2a-api-openapi.yml
   format: yaml
-  label: Rett fra Bonden Local Food API
-  slug: rett-fra-bonden-local-food-api
+  label: Rett fra Bonden A2a API
+  slug: rettfrabonden-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-a2a-api-openapi.yml
+- filename: rettfrabonden-com-marketplace-api-openapi.yml
+  format: yaml
+  label: Rett fra Bonden Marketplace API
+  slug: rettfrabonden-com-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-marketplace-api-openapi.yml
+- filename: rettfrabonden-com-mcp-api-openapi.yml
+  format: yaml
+  label: Rett fra Bonden MCP API
+  slug: rettfrabonden-com-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-mcp-api-openapi.yml
+- filename: rettfrabonden-com-stats-api-openapi.yml
+  format: yaml
+  label: Rett fra Bonden Stats API
+  slug: rettfrabonden-com-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-stats-api-openapi.yml
+- filename: rettfrabonden-com-well-known-api-openapi.yml
+  format: yaml
+  label: Rett fra Bonden .well Known API
+  slug: rettfrabonden-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - none

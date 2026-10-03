@@ -132,12 +132,6 @@ api_specs:
   slug: gracenote-country-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gracenote/refs/heads/main/openapi/gracenote-country-api-openapi.yml
-- filename: gracenote-default-api-openapi.yml
-  format: yaml
-  label: Gracenote Default API
-  slug: gracenote-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gracenote/refs/heads/main/openapi/gracenote-default-api-openapi.yml
 - filename: gracenote-deprecated-api-openapi.yml
   format: yaml
   label: Gracenote Deprecated API
@@ -444,6 +438,12 @@ api_specs:
   slug: gracenote-radio-stations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gracenote/refs/heads/main/openapi/gracenote-radio-stations-api-openapi.yml
+- filename: gracenote-publications-api-openapi.yml
+  format: yaml
+  label: Gracenote Publications API
+  slug: gracenote-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gracenote/refs/heads/main/openapi/gracenote-publications-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/berlin-brands-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Consumer Goods
 - Berlin
 - Holding

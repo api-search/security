@@ -60,12 +60,6 @@ api_specs:
   slug: stacklok-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-system-api-openapi.yml
-- filename: stacklok-v1-api-openapi.yml
-  format: yaml
-  label: Stacklok v1 API
-  slug: stacklok-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-v1-api-openapi.yml
 - filename: stacklok-version-api-openapi.yml
   format: yaml
   label: Stacklok Version API
@@ -78,6 +72,30 @@ api_specs:
   slug: stacklok-workloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-workloads-api-openapi.yml
+- filename: stacklok-entries-api-openapi.yml
+  format: yaml
+  label: Stacklok Entries API
+  slug: stacklok-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-entries-api-openapi.yml
+- filename: stacklok-me-api-openapi.yml
+  format: yaml
+  label: Stacklok Me API
+  slug: stacklok-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-me-api-openapi.yml
+- filename: stacklok-registries-api-openapi.yml
+  format: yaml
+  label: Stacklok Registries API
+  slug: stacklok-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registries-api-openapi.yml
+- filename: stacklok-sources-api-openapi.yml
+  format: yaml
+  label: Stacklok Sources API
+  slug: stacklok-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-sources-api-openapi.yml
 description: ''
 domains:
 - caa:

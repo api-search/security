@@ -33,7 +33,7 @@ tags:
 - Agriculture
 - Photobiology
 - SustainableTech
-- NewZealand
+- New Zealand
 - UVLighting
 - Company
 ---

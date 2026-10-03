@@ -35,6 +35,6 @@ tags:
 - WaterTech
 - Sustainability
 - AtmosphericWater
-- CleanTech
+- Cleantech
 - HomeTech
 ---

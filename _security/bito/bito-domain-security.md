@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: bito-authenticationmethodkubernetesservice-api-openapi.yml
+  format: yaml
+  label: Bito Authentication Method Kubernetes Service API
+  slug: bito-authenticationmethodkubernetesservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authenticationmethodkubernetesservice-api-openapi.yml
+- filename: bito-authenticationmethodoidcservice-api-openapi.yml
+  format: yaml
+  label: Bito Authentication Method OIDC Service API
+  slug: bito-authenticationmethodoidcservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authenticationmethodoidcservice-api-openapi.yml
+- filename: bito-authenticationmethodtokenservice-api-openapi.yml
+  format: yaml
+  label: Bito Authentication Method Token Service API
+  slug: bito-authenticationmethodtokenservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authenticationmethodtokenservice-api-openapi.yml
+- filename: bito-evaluationservice-api-openapi.yml
+  format: yaml
+  label: Bito Evaluation Service API
+  slug: bito-evaluationservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-evaluationservice-api-openapi.yml
+- filename: bito-flipt-api-openapi.yml
+  format: yaml
+  label: Bito Flipt API
+  slug: bito-flipt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-flipt-api-openapi.yml
+- filename: bito-ofrepservice-api-openapi.yml
+  format: yaml
+  label: Bito OFREP Service API
+  slug: bito-ofrepservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-ofrepservice-api-openapi.yml
+- filename: bito-authentication-service-api-openapi.yml
+  format: yaml
+  label: Bito Authentication Service API
+  slug: bito-authentication-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/openapi/bito-authentication-service-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -33,8 +76,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bito/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 - Machine Learning
 ---

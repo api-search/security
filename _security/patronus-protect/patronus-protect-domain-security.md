@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: patronus-protect-openapi.json
-  format: json
-  label: Patronus Scan API
-  slug: patronus-scan-api
+- filename: patronus-protect-scan-api-openapi.yml
+  format: yaml
+  label: Patronus Protect Scan API
+  slug: patronus-protect-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patronus-protect/refs/heads/main/openapi/patronus-protect-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/patronus-protect/refs/heads/main/openapi/patronus-protect-scan-api-openapi.yml
 description: ''
 domains:
 - caa: []

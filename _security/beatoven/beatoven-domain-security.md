@@ -59,7 +59,7 @@ tags:
 - Background Music
 - Video Creators
 - Podcasts
-- STEM
+- Stems
 - Fairly Trained
 - India
 ---

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: blocklottos-com-openapi.yml
+- filename: blocklottos-com-advertising-api-openapi.yml
   format: yaml
-  label: Block Lottos API
-  slug: block-lottos-api
+  label: Block Lottos Advertising API
+  slug: blocklottos-com-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-advertising-api-openapi.yml
+- filename: blocklottos-com-affiliate-api-openapi.yml
+  format: yaml
+  label: Block Lottos Affiliate API
+  slug: blocklottos-com-affiliate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-affiliate-api-openapi.yml
+- filename: blocklottos-com-agents-api-openapi.yml
+  format: yaml
+  label: Block Lottos Agents API
+  slug: blocklottos-com-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-agents-api-openapi.yml
+- filename: blocklottos-com-lottery-api-openapi.yml
+  format: yaml
+  label: Block Lottos Lottery API
+  slug: blocklottos-com-lottery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-lottery-api-openapi.yml
 description: ''
 domains:
 - caa: []

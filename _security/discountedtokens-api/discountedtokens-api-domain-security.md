@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: discountedtokens-api-openapi.json
-  format: json
-  label: DiscountedTokens API
-  slug: discountedtokens-api
+- filename: discountedtokens-api-chat-api-openapi.yml
+  format: yaml
+  label: DiscountedTokens API Chat API
+  slug: discountedtokens-api-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-chat-api-openapi.yml
+- filename: discountedtokens-api-messages-api-openapi.yml
+  format: yaml
+  label: DiscountedTokens API Messages API
+  slug: discountedtokens-api-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-messages-api-openapi.yml
+- filename: discountedtokens-api-models-api-openapi.yml
+  format: yaml
+  label: DiscountedTokens API Models API
+  slug: discountedtokens-api-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-models-api-openapi.yml
+- filename: discountedtokens-api-responses-api-openapi.yml
+  format: yaml
+  label: DiscountedTokens API Responses API
+  slug: discountedtokens-api-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-responses-api-openapi.yml
 description: ''
 domains:
 - caa: []

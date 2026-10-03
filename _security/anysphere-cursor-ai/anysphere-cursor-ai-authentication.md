@@ -37,9 +37,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anysphere-curs
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding
-- Developer-Tools
+- Developer Tools
 - Automation
 - Platform
 ---

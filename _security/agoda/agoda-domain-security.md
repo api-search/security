@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: agoda-openapi-generated.yml
+- filename: agoda-cm-api-openapi.yml
   format: yaml
-  label: Agoda API
-  slug: agoda-api
+  label: Agoda Cm API
+  slug: agoda-cm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agoda/refs/heads/main/openapi/_ae-authored/agoda-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agoda/refs/heads/main/openapi/agoda-cm-api-openapi.yml
 description: ''
 domains:
 - caa: []

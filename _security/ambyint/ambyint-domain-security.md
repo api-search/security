@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Production Optimization
 - Artificial Lift
-- Oil & Gas
-- AI
+- Oil and Gas
+- Artificial Intelligence
 - Autonomous Setpoint Management
 - Anomaly Detection
 - Analytics

@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Stub
-- Secondary-Market
+- Secondary Market
 - API-Evangelist
 - Placeholder
 ---

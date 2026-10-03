@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artera-decisio
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare
-- AI
-- PrecisionMedicine
+- Artificial Intelligence
+- Precision Medicine
 - Oncology
 - Diagnostics
 - Company

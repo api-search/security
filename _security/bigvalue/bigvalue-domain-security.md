@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - PropTech
-- AI
-- RealEstate
-- DataAnalytics
+- Artificial Intelligence
+- Real Estate
+- Data Analytics
 ---

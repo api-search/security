@@ -124,5 +124,4 @@ tags:
 - Game Asset Generation
 - AI Art
 - Sprite Sheets
-- Video Assets - Artificial Intelligence - Asset Generation - Game Design - Game Development
 ---

@@ -34,5 +34,5 @@ tags:
 - Retail
 - Grocery
 - Supermarket
-- NewYork
+- New York
 ---

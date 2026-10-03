@@ -3,306 +3,306 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: wispr-ai-analytics-api-openapi.yml
+- filename: wisprflow-ai-analytics-api-openapi.yml
   format: yaml
-  label: Wispr AI Analytics API
-  slug: wispr-ai-analytics-api
+  label: Wispr Flow Analytics API
+  slug: wisprflow-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-analytics-api-openapi.yml
-- filename: wispr-ai-analytics-registry-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-analytics-api-openapi.yml
+- filename: wisprflow-ai-analytics-registry-api-openapi.yml
   format: yaml
-  label: Wispr AI Analytics Registry API
-  slug: wispr-ai-analytics-registry-api
+  label: Wispr Flow Analytics Registry API
+  slug: wisprflow-ai-analytics-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-analytics-registry-api-openapi.yml
-- filename: wispr-ai-attribution-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-analytics-registry-api-openapi.yml
+- filename: wisprflow-ai-attribution-tracking-api-openapi.yml
   format: yaml
-  label: Wispr AI Attribution Tracking API
-  slug: wispr-ai-attribution-tracking-api
+  label: Wispr Flow Attribution Tracking API
+  slug: wisprflow-ai-attribution-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-attribution-tracking-api-openapi.yml
-- filename: wispr-ai-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-attribution-tracking-api-openapi.yml
+- filename: wisprflow-ai-authentication-api-openapi.yml
   format: yaml
-  label: Wispr AI Authentication API
-  slug: wispr-ai-authentication-api
+  label: Wispr Flow Authentication API
+  slug: wisprflow-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-authentication-api-openapi.yml
-- filename: wispr-ai-automations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-authentication-api-openapi.yml
+- filename: wisprflow-ai-automations-api-openapi.yml
   format: yaml
-  label: Wispr AI Automations API
-  slug: wispr-ai-automations-api
+  label: Wispr Flow Automations API
+  slug: wisprflow-ai-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-automations-api-openapi.yml
-- filename: wispr-ai-calendar-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-automations-api-openapi.yml
+- filename: wisprflow-ai-calendar-api-openapi.yml
   format: yaml
-  label: Wispr AI Calendar API
-  slug: wispr-ai-calendar-api
+  label: Wispr Flow Calendar API
+  slug: wisprflow-ai-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-calendar-api-openapi.yml
-- filename: wispr-ai-connectors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-calendar-api-openapi.yml
+- filename: wisprflow-ai-connectors-api-openapi.yml
   format: yaml
-  label: Wispr AI Connectors API
-  slug: wispr-ai-connectors-api
+  label: Wispr Flow Connectors API
+  slug: wisprflow-ai-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-connectors-api-openapi.yml
-- filename: wispr-ai-cost-centers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-connectors-api-openapi.yml
+- filename: wisprflow-ai-cost-centers-api-openapi.yml
   format: yaml
-  label: Wispr AI Cost Centers API
-  slug: wispr-ai-cost-centers-api
+  label: Wispr Flow Cost Centers API
+  slug: wisprflow-ai-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-cost-centers-api-openapi.yml
-- filename: wispr-ai-dash-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-cost-centers-api-openapi.yml
+- filename: wisprflow-ai-dash-api-openapi.yml
   format: yaml
-  label: Wispr AI Dash API
-  slug: wispr-ai-dash-api
+  label: Wispr Flow Dash API
+  slug: wisprflow-ai-dash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-dash-api-openapi.yml
-- filename: wispr-ai-dictionary-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-dash-api-openapi.yml
+- filename: wisprflow-ai-dictionary-api-openapi.yml
   format: yaml
-  label: Wispr AI Dictionary API
-  slug: wispr-ai-dictionary-api
+  label: Wispr Flow Dictionary API
+  slug: wisprflow-ai-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-dictionary-api-openapi.yml
-- filename: wispr-ai-enterpret-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-dictionary-api-openapi.yml
+- filename: wisprflow-ai-enterpret-api-openapi.yml
   format: yaml
-  label: Wispr AI Enterpret API
-  slug: wispr-ai-enterpret-api
+  label: Wispr Flow Enterpret API
+  slug: wisprflow-ai-enterpret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-enterpret-api-openapi.yml
-- filename: wispr-ai-enterprise-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-enterpret-api-openapi.yml
+- filename: wisprflow-ai-enterprise-api-openapi.yml
   format: yaml
-  label: Wispr AI Enterprise API
-  slug: wispr-ai-enterprise-api
+  label: Wispr Flow Enterprise API
+  slug: wisprflow-ai-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-enterprise-api-openapi.yml
-- filename: wispr-ai-geo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-enterprise-api-openapi.yml
+- filename: wisprflow-ai-geo-api-openapi.yml
   format: yaml
-  label: Wispr AI Geo API
-  slug: wispr-ai-geo-api
+  label: Wispr Flow Geo API
+  slug: wisprflow-ai-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-geo-api-openapi.yml
-- filename: wispr-ai-history-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-geo-api-openapi.yml
+- filename: wisprflow-ai-history-api-openapi.yml
   format: yaml
-  label: Wispr AI History API
-  slug: wispr-ai-history-api
+  label: Wispr Flow History API
+  slug: wisprflow-ai-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-history-api-openapi.yml
-- filename: wispr-ai-incidents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-history-api-openapi.yml
+- filename: wisprflow-ai-incidents-api-openapi.yml
   format: yaml
-  label: Wispr AI Incidents API
-  slug: wispr-ai-incidents-api
+  label: Wispr Flow Incidents API
+  slug: wisprflow-ai-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-incidents-api-openapi.yml
-- filename: wispr-ai-insights-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-incidents-api-openapi.yml
+- filename: wisprflow-ai-insights-api-openapi.yml
   format: yaml
-  label: Wispr AI Insights API
-  slug: wispr-ai-insights-api
+  label: Wispr Flow Insights API
+  slug: wisprflow-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-insights-api-openapi.yml
-- filename: wispr-ai-instructhistory-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-insights-api-openapi.yml
+- filename: wisprflow-ai-instructhistory-api-openapi.yml
   format: yaml
-  label: Wispr AI InstructHistory API
-  slug: wispr-ai-instructhistory-api
+  label: Wispr Flow Instruct History API
+  slug: wisprflow-ai-instructhistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-instructhistory-api-openapi.yml
-- filename: wispr-ai-internal-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-instructhistory-api-openapi.yml
+- filename: wisprflow-ai-internal-api-openapi.yml
   format: yaml
-  label: Wispr AI Internal API
-  slug: wispr-ai-internal-api
+  label: Wispr Flow Internal API
+  slug: wisprflow-ai-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-internal-api-openapi.yml
-- filename: wispr-ai-internal-marketing-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-internal-api-openapi.yml
+- filename: wisprflow-ai-internal-marketing-api-openapi.yml
   format: yaml
-  label: Wispr AI Internal Marketing API
-  slug: wispr-ai-internal-marketing-api
+  label: Wispr Flow Internal Marketing API
+  slug: wisprflow-ai-internal-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-internal-marketing-api-openapi.yml
-- filename: wispr-ai-keyboard-telemetry-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-internal-marketing-api-openapi.yml
+- filename: wisprflow-ai-keyboard-telemetry-api-openapi.yml
   format: yaml
-  label: Wispr AI keyboard_telemetry API
-  slug: wispr-ai-keyboard-telemetry-api
+  label: Wispr Flow Keyboard Telemetry API
+  slug: wisprflow-ai-keyboard-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-keyboard-telemetry-api-openapi.yml
-- filename: wispr-ai-llm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-keyboard-telemetry-api-openapi.yml
+- filename: wisprflow-ai-llm-api-openapi.yml
   format: yaml
-  label: Wispr AI LLM API
-  slug: wispr-ai-llm-api
+  label: Wispr Flow LLM API
+  slug: wisprflow-ai-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-llm-api-openapi.yml
-- filename: wispr-ai-marketing-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-llm-api-openapi.yml
+- filename: wisprflow-ai-marketing-api-openapi.yml
   format: yaml
-  label: Wispr AI Marketing API
-  slug: wispr-ai-marketing-api
+  label: Wispr Flow Marketing API
+  slug: wisprflow-ai-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-marketing-api-openapi.yml
-- filename: wispr-ai-meeting-share-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-marketing-api-openapi.yml
+- filename: wisprflow-ai-meeting-share-api-openapi.yml
   format: yaml
-  label: Wispr AI Meeting Share API
-  slug: wispr-ai-meeting-share-api
+  label: Wispr Flow Meeting Share API
+  slug: wisprflow-ai-meeting-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-meeting-share-api-openapi.yml
-- filename: wispr-ai-meetings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-meeting-share-api-openapi.yml
+- filename: wisprflow-ai-meetings-api-openapi.yml
   format: yaml
-  label: Wispr AI Meetings API
-  slug: wispr-ai-meetings-api
+  label: Wispr Flow Meetings API
+  slug: wisprflow-ai-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-meetings-api-openapi.yml
-- filename: wispr-ai-memory-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-meetings-api-openapi.yml
+- filename: wisprflow-ai-memory-api-openapi.yml
   format: yaml
-  label: Wispr AI memory API
-  slug: wispr-ai-memory-api
+  label: Wispr Flow Memory API
+  slug: wisprflow-ai-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-memory-api-openapi.yml
-- filename: wispr-ai-notes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-memory-api-openapi.yml
+- filename: wisprflow-ai-notes-api-openapi.yml
   format: yaml
-  label: Wispr AI Notes API
-  slug: wispr-ai-notes-api
+  label: Wispr Flow Notes API
+  slug: wisprflow-ai-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-notes-api-openapi.yml
-- filename: wispr-ai-notetaker-chats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-notes-api-openapi.yml
+- filename: wisprflow-ai-notetaker-chats-api-openapi.yml
   format: yaml
-  label: Wispr AI Notetaker Chats API
-  slug: wispr-ai-notetaker-chats-api
+  label: Wispr Flow Notetaker Chats API
+  slug: wisprflow-ai-notetaker-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-notetaker-chats-api-openapi.yml
-- filename: wispr-ai-notification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-notetaker-chats-api-openapi.yml
+- filename: wisprflow-ai-notification-api-openapi.yml
   format: yaml
-  label: Wispr AI Notification API
-  slug: wispr-ai-notification-api
+  label: Wispr Flow Notification API
+  slug: wisprflow-ai-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-notification-api-openapi.yml
-- filename: wispr-ai-payments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-notification-api-openapi.yml
+- filename: wisprflow-ai-payments-api-openapi.yml
   format: yaml
-  label: Wispr AI Payments API
-  slug: wispr-ai-payments-api
+  label: Wispr Flow Payments API
+  slug: wisprflow-ai-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-payments-api-openapi.yml
-- filename: wispr-ai-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-payments-api-openapi.yml
+- filename: wisprflow-ai-platform-api-openapi.yml
   format: yaml
-  label: Wispr AI Platform API
-  slug: wispr-ai-platform-api
+  label: Wispr Flow Platform API
+  slug: wisprflow-ai-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-platform-api-openapi.yml
-- filename: wispr-ai-polish-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-platform-api-openapi.yml
+- filename: wisprflow-ai-polish-api-openapi.yml
   format: yaml
-  label: Wispr AI Polish API
-  slug: wispr-ai-polish-api
+  label: Wispr Flow Polish API
+  slug: wisprflow-ai-polish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-polish-api-openapi.yml
-- filename: wispr-ai-promotions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-polish-api-openapi.yml
+- filename: wisprflow-ai-promotions-api-openapi.yml
   format: yaml
-  label: Wispr AI Promotions API
-  slug: wispr-ai-promotions-api
+  label: Wispr Flow Promotions API
+  slug: wisprflow-ai-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-promotions-api-openapi.yml
-- filename: wispr-ai-referral-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-promotions-api-openapi.yml
+- filename: wisprflow-ai-referral-api-openapi.yml
   format: yaml
-  label: Wispr AI Referral API
-  slug: wispr-ai-referral-api
+  label: Wispr Flow Referral API
+  slug: wisprflow-ai-referral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-referral-api-openapi.yml
-- filename: wispr-ai-sandbox-user-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-referral-api-openapi.yml
+- filename: wisprflow-ai-sandbox-user-api-openapi.yml
   format: yaml
-  label: Wispr AI sandbox-user API
-  slug: wispr-ai-sandbox-user-api
+  label: Wispr Flow Sandbox User API
+  slug: wisprflow-ai-sandbox-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-sandbox-user-api-openapi.yml
-- filename: wispr-ai-sms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-sandbox-user-api-openapi.yml
+- filename: wisprflow-ai-sms-api-openapi.yml
   format: yaml
-  label: Wispr AI SMS API
-  slug: wispr-ai-sms-api
+  label: Wispr Flow SMS API
+  slug: wisprflow-ai-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-sms-api-openapi.yml
-- filename: wispr-ai-support-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-sms-api-openapi.yml
+- filename: wisprflow-ai-support-api-openapi.yml
   format: yaml
-  label: Wispr AI Support API
-  slug: wispr-ai-support-api
+  label: Wispr Flow Support API
+  slug: wisprflow-ai-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-support-api-openapi.yml
-- filename: wispr-ai-sync-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-support-api-openapi.yml
+- filename: wisprflow-ai-sync-api-openapi.yml
   format: yaml
-  label: Wispr AI Sync API
-  slug: wispr-ai-sync-api
+  label: Wispr Flow Sync API
+  slug: wisprflow-ai-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-sync-api-openapi.yml
-- filename: wispr-ai-sync-ws-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-sync-api-openapi.yml
+- filename: wisprflow-ai-sync-ws-api-openapi.yml
   format: yaml
-  label: Wispr AI Sync WS API
-  slug: wispr-ai-sync-ws-api
+  label: Wispr Flow Sync WS API
+  slug: wisprflow-ai-sync-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-sync-ws-api-openapi.yml
-- filename: wispr-ai-team-insights-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-sync-ws-api-openapi.yml
+- filename: wisprflow-ai-team-insights-api-openapi.yml
   format: yaml
-  label: Wispr AI Team Insights API
-  slug: wispr-ai-team-insights-api
+  label: Wispr Flow Team Insights API
+  slug: wisprflow-ai-team-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-team-insights-api-openapi.yml
-- filename: wispr-ai-teams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-team-insights-api-openapi.yml
+- filename: wisprflow-ai-teams-api-openapi.yml
   format: yaml
-  label: Wispr AI Teams API
-  slug: wispr-ai-teams-api
+  label: Wispr Flow Teams API
+  slug: wisprflow-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-teams-api-openapi.yml
-- filename: wispr-ai-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-teams-api-openapi.yml
+- filename: wisprflow-ai-tracking-api-openapi.yml
   format: yaml
-  label: Wispr AI Tracking API
-  slug: wispr-ai-tracking-api
+  label: Wispr Flow Tracking API
+  slug: wisprflow-ai-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-tracking-api-openapi.yml
-- filename: wispr-ai-transform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-tracking-api-openapi.yml
+- filename: wisprflow-ai-transform-api-openapi.yml
   format: yaml
-  label: Wispr AI Transform API
-  slug: wispr-ai-transform-api
+  label: Wispr Flow Transform API
+  slug: wisprflow-ai-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-transform-api-openapi.yml
-- filename: wispr-ai-typing-test-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-transform-api-openapi.yml
+- filename: wisprflow-ai-typing-test-api-openapi.yml
   format: yaml
-  label: Wispr AI Typing Test API
-  slug: wispr-ai-typing-test-api
+  label: Wispr Flow Typing Test API
+  slug: wisprflow-ai-typing-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-typing-test-api-openapi.yml
-- filename: wispr-ai-user-context-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-typing-test-api-openapi.yml
+- filename: wisprflow-ai-user-context-api-openapi.yml
   format: yaml
-  label: Wispr AI User Context API
-  slug: wispr-ai-user-context-api
+  label: Wispr Flow User Context API
+  slug: wisprflow-ai-user-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-user-context-api-openapi.yml
-- filename: wispr-ai-user-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-user-context-api-openapi.yml
+- filename: wisprflow-ai-user-management-api-openapi.yml
   format: yaml
-  label: Wispr AI User Management API
-  slug: wispr-ai-user-management-api
+  label: Wispr Flow User Management API
+  slug: wisprflow-ai-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-user-management-api-openapi.yml
-- filename: wispr-ai-user-voice-preferences-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-user-management-api-openapi.yml
+- filename: wisprflow-ai-user-voice-preferences-api-openapi.yml
   format: yaml
-  label: Wispr AI User Voice Preferences API
-  slug: wispr-ai-user-voice-preferences-api
+  label: Wispr Flow User Voice Preferences API
+  slug: wisprflow-ai-user-voice-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-user-voice-preferences-api-openapi.yml
-- filename: wispr-ai-voice-actions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-user-voice-preferences-api-openapi.yml
+- filename: wisprflow-ai-voice-actions-api-openapi.yml
   format: yaml
-  label: Wispr AI Voice Actions API
-  slug: wispr-ai-voice-actions-api
+  label: Wispr Flow Voice Actions API
+  slug: wisprflow-ai-voice-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-voice-actions-api-openapi.yml
-- filename: wispr-ai-wispr-backend-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-voice-actions-api-openapi.yml
+- filename: wisprflow-ai-wispr-backend-api-openapi.yml
   format: yaml
-  label: Wispr AI Wispr Backend API
-  slug: wispr-ai-wispr-backend-api
+  label: Wispr Flow Wispr Backend API
+  slug: wisprflow-ai-wispr-backend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-wispr-backend-api-openapi.yml
-- filename: wispr-ai-linked-in-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-wispr-backend-api-openapi.yml
+- filename: wisprflow-ai-linked-in-api-openapi.yml
   format: yaml
-  label: Wispr AI Linked In API
-  slug: wispr-ai-linked-in-api
+  label: Wispr Flow Linked In API
+  slug: wisprflow-ai-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-linked-in-api-openapi.yml
-- filename: wispr-ai-to-dos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-linked-in-api-openapi.yml
+- filename: wisprflow-ai-to-dos-api-openapi.yml
   format: yaml
-  label: Wispr AI To Dos API
-  slug: wispr-ai-to-dos-api
+  label: Wispr Flow To Dos API
+  slug: wisprflow-ai-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wispr-ai-to-dos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/openapi/wisprflow-ai-to-dos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

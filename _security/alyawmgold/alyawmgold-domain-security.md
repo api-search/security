@@ -35,5 +35,4 @@ tags:
 - Gold
 - Prices
 - Finance
-- API
 ---

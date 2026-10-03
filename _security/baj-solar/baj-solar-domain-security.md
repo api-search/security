@@ -34,6 +34,6 @@ tags:
 - Company
 - Solar
 - Energy
-- Renewable
+- Renewables
 - Technology
 ---

@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: agentspodium-com-openapi.yml
+- filename: agentspodium-com-a2a-api-openapi.yml
   format: yaml
-  label: AgentsPodium Account API
-  slug: account-api
+  label: AgentsPodium A2A API
+  slug: agentspodium-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-a2a-api-openapi.yml
+- filename: agentspodium-com-agents-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Agents API
+  slug: agentspodium-com-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-agents-api-openapi.yml
+- filename: agentspodium-com-api-keys-api-openapi.yml
+  format: yaml
+  label: AgentsPodium API keys API
+  slug: agentspodium-com-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-api-keys-api-openapi.yml
+- filename: agentspodium-com-auth-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Auth API
+  slug: agentspodium-com-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-auth-api-openapi.yml
+- filename: agentspodium-com-catalog-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Catalog API
+  slug: agentspodium-com-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-catalog-api-openapi.yml
+- filename: agentspodium-com-payment-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Payment API
+  slug: agentspodium-com-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-payment-api-openapi.yml
+- filename: agentspodium-com-status-api-openapi.yml
+  format: yaml
+  label: AgentsPodium Status API
+  slug: agentspodium-com-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

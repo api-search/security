@@ -38,5 +38,4 @@ tags:
 - Interoperability
 - Patient Data
 - Netherlands
-- Startups
 ---

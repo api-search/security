@@ -35,5 +35,5 @@ tags:
 - LMS
 - Education
 - Training
-- SaaS
+- Software-as-a-Service
 ---

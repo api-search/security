@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Investment
-- Private-Equity
+- Private Equity
 - Asia
 ---

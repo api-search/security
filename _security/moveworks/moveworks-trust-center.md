@@ -12,12 +12,6 @@ api_specs:
   slug: moveworks-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-conversations-api-openapi.yml
-- filename: moveworks-default-api-openapi.yml
-  format: yaml
-  label: Moveworks Default API
-  slug: moveworks-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-default-api-openapi.yml
 - filename: moveworks-deprecated-api-openapi.yml
   format: yaml
   label: Moveworks Deprecated API
@@ -54,12 +48,54 @@ api_specs:
   slug: moveworks-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-webhooks-api-openapi.yml
-- filename: moveworks-servicenow-records-api-openapi.yml
+- filename: moveworks-articles-api-openapi.yml
   format: yaml
-  label: Moveworks Data API
-  slug: moveworks-servicenow-records-api
+  label: Moveworks Articles API
+  slug: moveworks-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-servicenow-records-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-articles-api-openapi.yml
+- filename: moveworks-files-api-openapi.yml
+  format: yaml
+  label: Moveworks Files API
+  slug: moveworks-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-files-api-openapi.yml
+- filename: moveworks-groups-api-openapi.yml
+  format: yaml
+  label: Moveworks Groups API
+  slug: moveworks-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-groups-api-openapi.yml
+- filename: moveworks-interactions-api-openapi.yml
+  format: yaml
+  label: Moveworks Interactions API
+  slug: moveworks-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-interactions-api-openapi.yml
+- filename: moveworks-plugin-calls-api-openapi.yml
+  format: yaml
+  label: Moveworks Plugin Calls API
+  slug: moveworks-plugin-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-plugin-calls-api-openapi.yml
+- filename: moveworks-plugin-resources-api-openapi.yml
+  format: yaml
+  label: Moveworks Plugin Resources API
+  slug: moveworks-plugin-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-plugin-resources-api-openapi.yml
+- filename: moveworks-records-api-openapi.yml
+  format: yaml
+  label: Moveworks Records API
+  slug: moveworks-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-records-api-openapi.yml
+- filename: moveworks-users-api-openapi.yml
+  format: yaml
+  label: Moveworks Users API
+  slug: moveworks-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-users-api-openapi.yml
 certification_count: 10
 certifications:
 - SOC 2 Type 2

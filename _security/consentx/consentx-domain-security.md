@@ -36,5 +36,5 @@ tags:
 - GDPR
 - CCPA
 - Privacy
-- Consent-Management
+- Consent Management
 ---

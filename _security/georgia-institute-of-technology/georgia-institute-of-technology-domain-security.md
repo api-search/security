@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: georgia-institute-of-technology-api-api-openapi.yml
-  format: yaml
-  label: Georgia Tech SUMS REST API
-  slug: sums
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-api-api-openapi.yml
 - filename: georgia-institute-of-technology-buildings-api-openapi.yml
   format: yaml
   label: Georgia Institute of Technology Buildings API
@@ -30,6 +24,90 @@ api_specs:
   slug: georgia-institute-of-technology-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-tags-api-openapi.yml
+- filename: georgia-institute-of-technology-add-user-by-username-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Add User By Username API
+  slug: georgia-institute-of-technology-add-user-by-username-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-add-user-by-username-api-openapi.yml
+- filename: georgia-institute-of-technology-contactforms-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Contact Forms API
+  slug: georgia-institute-of-technology-contactforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-contactforms-api-openapi.yml
+- filename: georgia-institute-of-technology-equipmentgroup-info-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology EquipmentGroup Info API
+  slug: georgia-institute-of-technology-equipmentgroup-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-equipmentgroup-info-api-openapi.yml
+- filename: georgia-institute-of-technology-equipmentgroup-queuegroups-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology EquipmentGroup QueueGroups API
+  slug: georgia-institute-of-technology-equipmentgroup-queuegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-equipmentgroup-queuegroups-api-openapi.yml
+- filename: georgia-institute-of-technology-equipmentgroup-queueusers-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology EquipmentGroup QueueUsers API
+  slug: georgia-institute-of-technology-equipmentgroup-queueusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-equipmentgroup-queueusers-api-openapi.yml
+- filename: georgia-institute-of-technology-equipmentgroup-tools-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology EquipmentGroup Tools API
+  slug: georgia-institute-of-technology-equipmentgroup-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-equipmentgroup-tools-api-openapi.yml
+- filename: georgia-institute-of-technology-gettoolstatus-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Get Tool Status API
+  slug: georgia-institute-of-technology-gettoolstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-gettoolstatus-api-openapi.yml
+- filename: georgia-institute-of-technology-gettrainingreport-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Get Training Report API
+  slug: georgia-institute-of-technology-gettrainingreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-gettrainingreport-api-openapi.yml
+- filename: georgia-institute-of-technology-getusernameandemailbybuzzcardnumber-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Get User Name And Email By Buzz Card Number API
+  slug: georgia-institute-of-technology-getusernameandemailbybuzzcardnumber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-getusernameandemailbybuzzcardnumber-api-openapi.yml
+- filename: georgia-institute-of-technology-toolcheckloggedin-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Tool Check Logged In API
+  slug: georgia-institute-of-technology-toolcheckloggedin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-toolcheckloggedin-api-openapi.yml
+- filename: georgia-institute-of-technology-traininginfo-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Training Info API
+  slug: georgia-institute-of-technology-traininginfo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-traininginfo-api-openapi.yml
+- filename: georgia-institute-of-technology-updateusertemplate-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Update User Template API
+  slug: georgia-institute-of-technology-updateusertemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-updateusertemplate-api-openapi.yml
+- filename: georgia-institute-of-technology-user-info-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology User Info API
+  slug: georgia-institute-of-technology-user-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-user-info-api-openapi.yml
+- filename: georgia-institute-of-technology-whologgedin-api-openapi.yml
+  format: yaml
+  label: Georgia Institute of Technology Who Logged In API
+  slug: georgia-institute-of-technology-whologgedin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-whologgedin-api-openapi.yml
 description: ''
 domains:
 - caa: []

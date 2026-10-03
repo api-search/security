@@ -32,7 +32,7 @@ tags:
 - Company
 - Climate
 - Philanthropy
-- Events
+- Event
 - Sustainability
 - Community
 ---

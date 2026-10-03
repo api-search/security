@@ -34,7 +34,6 @@ tags:
 - Logistics
 - Delivery
 - Transportation
-- API
 - Technology
 - Company
 ---

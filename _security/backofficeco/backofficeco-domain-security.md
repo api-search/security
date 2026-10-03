@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backofficeco/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Backoffice
+- Back Office
 - Automation
 - Finance
-- HR
-- SaaS
+- Human Resources
+- Software-as-a-Service
 ---

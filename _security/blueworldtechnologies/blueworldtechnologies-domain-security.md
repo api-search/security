@@ -34,5 +34,5 @@ tags:
 - Energy
 - Fuel Cells
 - Maritime
-- Renewable
+- Renewables
 ---

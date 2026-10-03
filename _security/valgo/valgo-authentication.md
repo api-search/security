@@ -45,12 +45,18 @@ api_specs:
   slug: valgo-request-api-key-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-request-api-key-api-openapi.yml
-- filename: valgo-v1-api-openapi.yml
+- filename: valgo-filters-api-openapi.yml
   format: yaml
-  label: Valgo v1 API
-  slug: valgo-v1-api
+  label: Valgo Filters API
+  slug: valgo-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-filters-api-openapi.yml
+- filename: valgo-regions-api-openapi.yml
+  format: yaml
+  label: Valgo Regions API
+  slug: valgo-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-regions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

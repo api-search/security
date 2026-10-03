@@ -36,5 +36,4 @@ tags:
 - Creator Economy
 - Marketing
 - Media
-- Startups
 ---

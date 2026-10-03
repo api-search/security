@@ -24,6 +24,6 @@ tags:
 - Identity
 - PKI
 - Certificate Management
-- AI
+- Artificial Intelligence
 trust_url: https://trust.appviewx.com/
 ---

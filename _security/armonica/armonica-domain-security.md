@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armonica/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Technology
-- API
 - Platform
 - Data
 - Services

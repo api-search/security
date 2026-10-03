@@ -34,5 +34,4 @@ tags:
 - Artificial Intelligence
 - Consumer
 - Pre-Launch
-- Startups
 ---

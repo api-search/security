@@ -34,6 +34,6 @@ tags:
 - Personal Development
 - Productivity
 - Journals
-- E-commerce
+- E-Commerce
 - Lifestyle
 ---

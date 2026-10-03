@@ -503,6 +503,5 @@ tags:
 - Fleet Management
 - GPS Tracking
 - Mileage Logging
-- API
-- SaaS
+- Software-as-a-Service
 ---

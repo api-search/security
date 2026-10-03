@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: posteahora-api-openapi.yml
+- filename: posteahora-accounts-api-openapi.yml
   format: yaml
-  label: PosteAhora Public API API
-  slug: posteahora-public-api-api
+  label: PosteAhora Accounts API
+  slug: posteahora-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/posteahora/refs/heads/main/openapi/_original/posteahora-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/posteahora/refs/heads/main/openapi/posteahora-accounts-api-openapi.yml
+- filename: posteahora-analytics-api-openapi.yml
+  format: yaml
+  label: PosteAhora Analytics API
+  slug: posteahora-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/posteahora/refs/heads/main/openapi/posteahora-analytics-api-openapi.yml
+- filename: posteahora-ideas-api-openapi.yml
+  format: yaml
+  label: PosteAhora Ideas API
+  slug: posteahora-ideas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/posteahora/refs/heads/main/openapi/posteahora-ideas-api-openapi.yml
+- filename: posteahora-media-api-openapi.yml
+  format: yaml
+  label: PosteAhora Media API
+  slug: posteahora-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/posteahora/refs/heads/main/openapi/posteahora-media-api-openapi.yml
+- filename: posteahora-posts-api-openapi.yml
+  format: yaml
+  label: PosteAhora Posts API
+  slug: posteahora-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/posteahora/refs/heads/main/openapi/posteahora-posts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +66,5 @@ tags:
 - Social Media
 - AI Automation
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

@@ -53,4 +53,5 @@ tags:
 - Retail
 - Supply Chain
 - Fortune 100
+- Consumer Packaged Goods
 ---

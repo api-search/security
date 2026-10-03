@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/balsamhill/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Retail
-- E‑commerce
+- E-Commerce
 - Home Décor
 - Artificial Trees
 - Seasonal Products

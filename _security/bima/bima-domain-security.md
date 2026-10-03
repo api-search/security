@@ -33,6 +33,6 @@ tags:
 - Insurance
 - Oman
 - Digital
-- Gateway
+- Gateways
 - Bima
 ---

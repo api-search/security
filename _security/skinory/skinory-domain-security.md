@@ -48,5 +48,4 @@ tags:
 - Skins
 - CS2
 - CS:GO
-- API
 ---

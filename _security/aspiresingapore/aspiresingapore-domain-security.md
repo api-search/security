@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: aspiresingapore-openapi-generated.yml
+- filename: aspiresingapore-public-api-openapi.yml
   format: yaml
-  label: Aspiresingapore API
-  slug: aspiresingapore-api
+  label: Aspiresingapore Public API
+  slug: aspiresingapore-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/_ae-authored/aspiresingapore-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/aspiresingapore-public-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance
 - Banking
-- API
 - Singapore
-- SaaS
+- Software-as-a-Service
 ---

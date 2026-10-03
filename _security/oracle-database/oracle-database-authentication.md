@@ -164,54 +164,72 @@ api_specs:
   slug: oracle-database-environment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-environment-api-openapi.yml
-- filename: oracle-database-transactional-event-queues-api-openapi.yml
+- filename: oracle-database-oracle-apex-api-openapi.yml
   format: yaml
-  label: Oracle Database Transactional Event Queues API
-  slug: oracle-database-transactional-event-queues-api
+  label: Oracle Database Oracle APEX API
+  slug: oracle-database-oracle-apex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-transactional-event-queues-api-openapi.yml
-- filename: oracle-database-vector-inference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-oracle-apex-api-openapi.yml
+- filename: oracle-database-oracle-transactional-event-queues-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Inference API
-  slug: oracle-database-vector-inference-api
+  label: Oracle Database Oracle Transactional Event Queues API
+  slug: oracle-database-oracle-transactional-event-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-inference-api-openapi.yml
-- filename: oracle-database-vector-models-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-oracle-transactional-event-queues-api-openapi.yml
+- filename: oracle-database-ords-rest-services-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Models API
-  slug: oracle-database-vector-models-api
+  label: Oracle Database ORDS REST Services API
+  slug: oracle-database-ords-rest-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-models-api-openapi.yml
-- filename: oracle-database-vector-summary-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-ords-rest-services-api-openapi.yml
+- filename: oracle-database-pluggable-database-lifecycle-management-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Summary API
-  slug: oracle-database-vector-summary-api
+  label: Oracle Database Pluggable Database Lifecycle Management API
+  slug: oracle-database-pluggable-database-lifecycle-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-summary-api-openapi.yml
-- filename: oracle-database-vector-indexes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-pluggable-database-lifecycle-management-api-openapi.yml
+- filename: oracle-database-vector-database-inference-operations-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Indexes API
-  slug: oracle-database-vector-indexes-api
+  label: Oracle Database Vector Database/Inference Operations API
+  slug: oracle-database-vector-database-inference-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-indexes-api-openapi.yml
-- filename: oracle-database-vector-operations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-inference-operations-api-openapi.yml
+- filename: oracle-database-vector-database-models-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Operations API
-  slug: oracle-database-vector-operations-api
+  label: Oracle Database Vector Database/Models API
+  slug: oracle-database-vector-database-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-operations-api-openapi.yml
-- filename: oracle-database-vector-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-models-api-openapi.yml
+- filename: oracle-database-vector-database-summary-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Search API
-  slug: oracle-database-vector-search-api
+  label: Oracle Database Vector Database/Summary API
+  slug: oracle-database-vector-database-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-search-api-openapi.yml
-- filename: oracle-database-vector-tables-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-summary-api-openapi.yml
+- filename: oracle-database-vector-database-vector-indexes-api-openapi.yml
   format: yaml
-  label: Oracle Database Vector Tables API
-  slug: oracle-database-vector-tables-api
+  label: Oracle Database Vector Database/Vector Indexes API
+  slug: oracle-database-vector-database-vector-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-tables-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-vector-indexes-api-openapi.yml
+- filename: oracle-database-vector-database-vector-operations-api-openapi.yml
+  format: yaml
+  label: Oracle Database Vector Database/Vector Operations API
+  slug: oracle-database-vector-database-vector-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-vector-operations-api-openapi.yml
+- filename: oracle-database-vector-database-vector-search-api-openapi.yml
+  format: yaml
+  label: Oracle Database Vector Database/Vector Search API
+  slug: oracle-database-vector-database-vector-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-vector-search-api-openapi.yml
+- filename: oracle-database-vector-database-vector-tables-api-openapi.yml
+  format: yaml
+  label: Oracle Database Vector Database/Vector Tables API
+  slug: oracle-database-vector-database-vector-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-vector-tables-api-openapi.yml
 auth_types:
 - http
 - oauth2

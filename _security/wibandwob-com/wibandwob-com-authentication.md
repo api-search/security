@@ -2,12 +2,48 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: wibandwob-com-scramble-openapi.yml
+- filename: wibandwob-com-bankr-api-openapi.yml
   format: yaml
-  label: Scramble API
-  slug: scramble-api
+  label: Wib&Wob (symbients) Bankr API
+  slug: wibandwob-com-bankr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-scramble-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-bankr-api-openapi.yml
+- filename: wibandwob-com-cat-api-openapi.yml
+  format: yaml
+  label: Wib&Wob (symbients) Cat API
+  slug: wibandwob-com-cat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-cat-api-openapi.yml
+- filename: wibandwob-com-feeding-api-openapi.yml
+  format: yaml
+  label: Wib&Wob (symbients) Feeding API
+  slug: wibandwob-com-feeding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-feeding-api-openapi.yml
+- filename: wibandwob-com-guestbook-api-openapi.yml
+  format: yaml
+  label: Wib&Wob (symbients) Guestbook API
+  slug: wibandwob-com-guestbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-guestbook-api-openapi.yml
+- filename: wibandwob-com-index-api-openapi.yml
+  format: yaml
+  label: Wib&Wob (symbients) Index API
+  slug: wibandwob-com-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-index-api-openapi.yml
+- filename: wibandwob-com-kibble-api-openapi.yml
+  format: yaml
+  label: Wib&Wob (symbients) Kibble API
+  slug: wibandwob-com-kibble-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-kibble-api-openapi.yml
+- filename: wibandwob-com-terms-api-openapi.yml
+  format: yaml
+  label: Wib&Wob (symbients) Terms API
+  slug: wibandwob-com-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-terms-api-openapi.yml
 auth_types:
 - none
 - x402-payment

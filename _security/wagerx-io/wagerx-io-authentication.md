@@ -2,12 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: wagerx-io-openapi.yml
+- filename: wagerx-io-a2a-api-openapi.yml
   format: yaml
-  label: WagerX iGaming & Regulatory Intelligence API
-  slug: wagerx-igaming-regulatory-intelligence-api
+  label: WagerX A2a API
+  slug: wagerx-io-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-a2a-api-openapi.yml
+- filename: wagerx-io-audit-api-openapi.yml
+  format: yaml
+  label: WagerX Audit API
+  slug: wagerx-io-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-audit-api-openapi.yml
+- filename: wagerx-io-mcp-api-openapi.yml
+  format: yaml
+  label: WagerX MCP API
+  slug: wagerx-io-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-mcp-api-openapi.yml
+- filename: wagerx-io-news-api-openapi.yml
+  format: yaml
+  label: WagerX News API
+  slug: wagerx-io-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-news-api-openapi.yml
+- filename: wagerx-io-regulatory-intel-api-openapi.yml
+  format: yaml
+  label: WagerX Regulatory Intel API
+  slug: wagerx-io-regulatory-intel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-regulatory-intel-api-openapi.yml
+- filename: wagerx-io-slot-index-api-openapi.yml
+  format: yaml
+  label: WagerX Slot Index API
+  slug: wagerx-io-slot-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-slot-index-api-openapi.yml
+- filename: wagerx-io-trump-index-api-openapi.yml
+  format: yaml
+  label: WagerX Trump Index API
+  slug: wagerx-io-trump-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-trump-index-api-openapi.yml
+- filename: wagerx-io-well-known-api-openapi.yml
+  format: yaml
+  label: WagerX .well Known API
+  slug: wagerx-io-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagerx-io/refs/heads/main/openapi/wagerx-io-well-known-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: openhandle-openapi.yml
+- filename: openhandle-instagram-api-openapi.yml
   format: yaml
-  label: Openhandle API
-  slug: openhandle-api
+  label: Openhandle Instagram API
+  slug: openhandle-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-instagram-api-openapi.yml
+- filename: openhandle-reddit-api-openapi.yml
+  format: yaml
+  label: Openhandle Reddit API
+  slug: openhandle-reddit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-reddit-api-openapi.yml
+- filename: openhandle-test-data-api-openapi.yml
+  format: yaml
+  label: Openhandle Test Data API
+  slug: openhandle-test-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-test-data-api-openapi.yml
+- filename: openhandle-tiktok-api-openapi.yml
+  format: yaml
+  label: Openhandle Tiktok API
+  slug: openhandle-tiktok-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-tiktok-api-openapi.yml
+- filename: openhandle-twitter-api-openapi.yml
+  format: yaml
+  label: Openhandle Twitter API
+  slug: openhandle-twitter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-twitter-api-openapi.yml
+- filename: openhandle-utilities-api-openapi.yml
+  format: yaml
+  label: Openhandle Utilities API
+  slug: openhandle-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-utilities-api-openapi.yml
 auth_types:
 - http
 - oauth2

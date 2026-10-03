@@ -35,5 +35,5 @@ tags:
 - Art
 - Marketplace
 - Data
-- AssetManagement
+- Asset Management
 ---

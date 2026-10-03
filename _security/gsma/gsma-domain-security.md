@@ -144,120 +144,102 @@ api_specs:
   slug: gsma-unconditional-call-forwarding-information-retrieval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-unconditional-call-forwarding-information-retrieval-api-openapi.yml
-- filename: global-system-for-mobile-communications-application-api-openapi.yml
-  format: yaml
-  label: GSMA Application API
-  slug: global-system-for-mobile-communications-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-application-api-openapi.yml
-- filename: global-system-for-mobile-communications-application-profiles-api-openapi.yml
-  format: yaml
-  label: GSMA Application Profiles API
-  slug: global-system-for-mobile-communications-application-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-application-profiles-api-openapi.yml
-- filename: global-system-for-mobile-communications-connectivity-insights-subscriptions-api-openapi.yml
-  format: yaml
-  label: GSMA Connectivity Insights Subscriptions API
-  slug: global-system-for-mobile-communications-connectivity-insights-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-connectivity-insights-subscriptions-api-openapi.yml
-- filename: global-system-for-mobile-communications-discovery-api-openapi.yml
-  format: yaml
-  label: GSMA Discovery API
-  slug: global-system-for-mobile-communications-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-discovery-api-openapi.yml
-- filename: global-system-for-mobile-communications-network-quality-api-openapi.yml
-  format: yaml
-  label: GSMA Network Quality API
-  slug: global-system-for-mobile-communications-network-quality-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-network-quality-api-openapi.yml
-- filename: global-system-for-mobile-communications-send-sms-api-openapi.yml
-  format: yaml
-  label: GSMA Send SMS API
-  slug: global-system-for-mobile-communications-send-sms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-send-sms-api-openapi.yml
-- filename: global-system-for-mobile-communications-traffic-influence-api-read-api-openapi.yml
-  format: yaml
-  label: GSMA Traffic Influence API Read API
-  slug: global-system-for-mobile-communications-traffic-influence-api-read-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-traffic-influence-api-read-api-openapi.yml
-- filename: global-system-for-mobile-communications-traffic-influence-api-write-api-openapi.yml
-  format: yaml
-  label: GSMA Traffic Influence API Write API
-  slug: global-system-for-mobile-communications-traffic-influence-api-write-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/global-system-for-mobile-communications-traffic-influence-api-write-api-openapi.yml
-- filename: open-gateway-apiproductorder-api-openapi.yml
-  format: yaml
-  label: GSMA API Product Order API
-  slug: open-gateway-apiproductorder-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-apiproductorder-api-openapi.yml
-- filename: open-gateway-application-api-openapi.yml
-  format: yaml
-  label: GSMA Application API
-  slug: open-gateway-application-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-application-api-openapi.yml
-- filename: open-gateway-applicationowner-api-openapi.yml
-  format: yaml
-  label: GSMA Application Owner API
-  slug: open-gateway-applicationowner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-applicationowner-api-openapi.yml
-- filename: open-gateway-check-subscriber-tenure-api-openapi.yml
-  format: yaml
-  label: GSMA Check Subscriber Tenure API
-  slug: open-gateway-check-subscriber-tenure-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-check-subscriber-tenure-api-openapi.yml
-- filename: open-gateway-discovery-api-openapi.yml
-  format: yaml
-  label: GSMA Discovery API
-  slug: open-gateway-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-discovery-api-openapi.yml
-- filename: open-gateway-events-subscription-api-openapi.yml
-  format: yaml
-  label: GSMA events subscription API
-  slug: open-gateway-events-subscription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-events-subscription-api-openapi.yml
-- filename: open-gateway-get-device-identifiers-api-openapi.yml
-  format: yaml
-  label: GSMA Get Device Identifiers API
-  slug: open-gateway-get-device-identifiers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-get-device-identifiers-api-openapi.yml
-- filename: open-gateway-monitor-api-openapi.yml
-  format: yaml
-  label: GSMA Monitor API
-  slug: open-gateway-monitor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-monitor-api-openapi.yml
-- filename: open-gateway-notification-listener-api-openapi.yml
-  format: yaml
-  label: GSMA notification listener API
-  slug: open-gateway-notification-listener-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-notification-listener-api-openapi.yml
-- filename: open-gateway-qos-profiles-api-openapi.yml
-  format: yaml
-  label: GSMA QoS Profiles API
-  slug: open-gateway-qos-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-qos-profiles-api-openapi.yml
-- filename: open-gateway-api-product-api-openapi.yml
+- filename: gsma-api-product-api-openapi.yml
   format: yaml
   label: GSMA Api Product API
-  slug: open-gateway-api-product-api
+  slug: gsma-api-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/open-gateway-api-product-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-api-product-api-openapi.yml
+- filename: gsma-apiproductorder-api-openapi.yml
+  format: yaml
+  label: GSMA API Product Order API
+  slug: gsma-apiproductorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-apiproductorder-api-openapi.yml
+- filename: gsma-application-api-openapi.yml
+  format: yaml
+  label: GSMA Application API
+  slug: gsma-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-application-api-openapi.yml
+- filename: gsma-application-profiles-api-openapi.yml
+  format: yaml
+  label: GSMA Application Profiles API
+  slug: gsma-application-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-application-profiles-api-openapi.yml
+- filename: gsma-applicationowner-api-openapi.yml
+  format: yaml
+  label: GSMA Application Owner API
+  slug: gsma-applicationowner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-applicationowner-api-openapi.yml
+- filename: gsma-check-subscriber-tenure-api-openapi.yml
+  format: yaml
+  label: GSMA Check Subscriber Tenure API
+  slug: gsma-check-subscriber-tenure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-check-subscriber-tenure-api-openapi.yml
+- filename: gsma-connectivity-insights-subscriptions-api-openapi.yml
+  format: yaml
+  label: GSMA Connectivity Insights Subscriptions API
+  slug: gsma-connectivity-insights-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-connectivity-insights-subscriptions-api-openapi.yml
+- filename: gsma-events-subscription-api-openapi.yml
+  format: yaml
+  label: GSMA events subscription API
+  slug: gsma-events-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-events-subscription-api-openapi.yml
+- filename: gsma-get-device-identifiers-api-openapi.yml
+  format: yaml
+  label: GSMA Get Device Identifiers API
+  slug: gsma-get-device-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-get-device-identifiers-api-openapi.yml
+- filename: gsma-monitor-api-openapi.yml
+  format: yaml
+  label: GSMA Monitor API
+  slug: gsma-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-monitor-api-openapi.yml
+- filename: gsma-network-quality-api-openapi.yml
+  format: yaml
+  label: GSMA Network Quality API
+  slug: gsma-network-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-network-quality-api-openapi.yml
+- filename: gsma-notification-listener-api-openapi.yml
+  format: yaml
+  label: GSMA notification listener API
+  slug: gsma-notification-listener-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-notification-listener-api-openapi.yml
+- filename: gsma-qos-profiles-api-openapi.yml
+  format: yaml
+  label: GSMA QoS Profiles API
+  slug: gsma-qos-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-qos-profiles-api-openapi.yml
+- filename: gsma-send-sms-api-openapi.yml
+  format: yaml
+  label: GSMA Send SMS API
+  slug: gsma-send-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-send-sms-api-openapi.yml
+- filename: gsma-traffic-influence-api-read-api-openapi.yml
+  format: yaml
+  label: GSMA Traffic Influence API Read API
+  slug: gsma-traffic-influence-api-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-traffic-influence-api-read-api-openapi.yml
+- filename: gsma-traffic-influence-api-write-api-openapi.yml
+  format: yaml
+  label: GSMA Traffic Influence API Write API
+  slug: gsma-traffic-influence-api-write-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/openapi/gsma-traffic-influence-api-write-api-openapi.yml
 description: ''
 domains:
 - caa: []

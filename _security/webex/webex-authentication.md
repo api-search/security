@@ -1150,7 +1150,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-workspace-call-settings-api-openapi.yml
 - filename: webex-x-api-api-openapi.yml
   format: yaml
-  label: Webex X API
+  label: Webex x API
   slug: webex-x-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-x-api-api-openapi.yml

@@ -93,18 +93,72 @@ api_specs:
   slug: bugsnag-current-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-current-user-api-openapi.yml
-- filename: bugsnag-error-reporting-api-openapi.json
-  format: json
-  label: BugSnag Error Reporting API
-  slug: bugsnag-error-reporting-api
+- filename: bugsnag-android-api-openapi.yml
+  format: yaml
+  label: Bugsnag Android API
+  slug: bugsnag-android-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-error-reporting-api-openapi.json
-- filename: bugsnag-upload-api-openapi.json
-  format: json
-  label: BugSnag Upload API
-  slug: bugsnag-upload-api
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-android-api-openapi.yml
+- filename: bugsnag-apple-api-openapi.yml
+  format: yaml
+  label: Bugsnag Apple API
+  slug: bugsnag-apple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-upload-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-apple-api-openapi.yml
+- filename: bugsnag-dart-api-openapi.yml
+  format: yaml
+  label: Bugsnag Dart API
+  slug: bugsnag-dart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-dart-api-openapi.yml
+- filename: bugsnag-integrations-api-openapi.yml
+  format: yaml
+  label: Bugsnag Integrations API
+  slug: bugsnag-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-integrations-api-openapi.yml
+- filename: bugsnag-javascript-api-openapi.yml
+  format: yaml
+  label: Bugsnag JavaScript API
+  slug: bugsnag-javascript-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-javascript-api-openapi.yml
+- filename: bugsnag-linux-api-openapi.yml
+  format: yaml
+  label: Bugsnag Linux API
+  slug: bugsnag-linux-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-linux-api-openapi.yml
+- filename: bugsnag-minidump-api-openapi.yml
+  format: yaml
+  label: Bugsnag Minidump API
+  slug: bugsnag-minidump-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-minidump-api-openapi.yml
+- filename: bugsnag-minidumps-api-openapi.yml
+  format: yaml
+  label: Bugsnag Minidumps API
+  slug: bugsnag-minidumps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-minidumps-api-openapi.yml
+- filename: bugsnag-nintendo-api-openapi.yml
+  format: yaml
+  label: Bugsnag Nintendo API
+  slug: bugsnag-nintendo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-nintendo-api-openapi.yml
+- filename: bugsnag-scim-api-openapi.yml
+  format: yaml
+  label: Bugsnag SCIM API
+  slug: bugsnag-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-scim-api-openapi.yml
+- filename: bugsnag-unity-api-openapi.yml
+  format: yaml
+  label: Bugsnag Unity API
+  slug: bugsnag-unity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-unity-api-openapi.yml
 auth_types:
 - apiKey
 - http

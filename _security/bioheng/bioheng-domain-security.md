@@ -34,5 +34,5 @@ tags:
 - Cell Therapy
 - Oncology
 - Autoimmune Disease
-- Clinical-stage
+- Clinical Stage
 ---

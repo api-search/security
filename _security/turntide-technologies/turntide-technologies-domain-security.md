@@ -2,8 +2,8 @@
 api_specs:
 - filename: turntide-technologies-mcp-api-openapi.yml
   format: yaml
-  label: Turntide Technologies MCP API
-  slug: turntide-technologies-mcp-api
+  label: Turntide Technologies Website (WordPress REST)
+  slug: turntide-com-website-wordpress-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/openapi/turntide-technologies-mcp-api-openapi.yml
 description: ''

@@ -33,7 +33,6 @@ tags:
 - Company
 - Technology
 - Data
-- API
 - Placeholder
 - Stub
 ---

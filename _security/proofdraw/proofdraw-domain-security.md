@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Randomness
 - Provably Fair
-- drand
+- Drand
 - Verifiable Randomness
 - Cryptography
 - raffle

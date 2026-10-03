@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arqit-limited/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- QuantumSecurity
+- Quantum Security
 - Encryption
 - Enterprise
 - Crypto

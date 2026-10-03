@@ -30,8 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bestowinc/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- FinTech
-- EmployeeRewards
-- GiftCards
-- API
+- Fintech
+- Employee Rewards
+- Gift Cards
 ---

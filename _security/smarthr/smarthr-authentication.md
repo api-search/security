@@ -38,12 +38,12 @@ api_specs:
   slug: smarthr-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-webhooks-api-openapi.yml
-- filename: kufu-default-api-openapi.yml
+- filename: smarthr-default-api-openapi.yml
   format: yaml
-  label: SmartHR API v1
-  slug: kufu-default-api
+  label: SmartHR カスタム家族項目テンプレート API
+  slug: smarthr-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/kufu-default-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-default-api-openapi.yml
 auth_types:
 - http
 description: ''

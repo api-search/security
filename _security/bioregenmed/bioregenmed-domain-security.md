@@ -30,5 +30,5 @@ tags:
 - Materials
 - TissueRepair
 - China
-- MedicalDevices
+- Medical Devices
 ---

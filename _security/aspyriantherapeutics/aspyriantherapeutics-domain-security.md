@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Photoimmunotherapy
-- Clinical-stage
+- Clinical Stage
 - Oncology
 ---

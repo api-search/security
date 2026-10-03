@@ -4,12 +4,30 @@ api_key_in:
 - body
 - header
 api_specs:
-- filename: sssnack-com-openapi.json
-  format: json
-  label: SSSNACK Public Read API
-  slug: public-api
+- filename: sssnack-com-artifacts-api-openapi.yml
+  format: yaml
+  label: SSSNACK Artifacts API
+  slug: sssnack-com-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-artifacts-api-openapi.yml
+- filename: sssnack-com-bbs-api-openapi.yml
+  format: yaml
+  label: SSSNACK BBS API
+  slug: sssnack-com-bbs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-bbs-api-openapi.yml
+- filename: sssnack-com-discovery-api-openapi.yml
+  format: yaml
+  label: SSSNACK Discovery API
+  slug: sssnack-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-discovery-api-openapi.yml
+- filename: sssnack-com-protocols-api-openapi.yml
+  format: yaml
+  label: SSSNACK Protocols API
+  slug: sssnack-com-protocols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sssnack-com/refs/heads/main/openapi/sssnack-com-protocols-api-openapi.yml
 auth_types:
 - none
 - bearer-in-argument

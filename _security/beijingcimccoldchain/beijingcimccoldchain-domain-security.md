@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beijingcimccol
 summary_line: TLSv1.3
 tags:
 - Company
-- ColdChain
+- Cold Chain
 - Pharmaceuticals
 - Logistics
 - Manufacturing

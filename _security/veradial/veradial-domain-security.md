@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: veradial-openapi-generated.yml
+- filename: veradial-hooks-api-openapi.yml
   format: yaml
-  label: VeraDial Zapier Integration API
-  slug: zapier-integration-api
+  label: VeraDial Hooks API
+  slug: veradial-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/_ae-authored/veradial-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-hooks-api-openapi.yml
+- filename: veradial-keys-api-openapi.yml
+  format: yaml
+  label: VeraDial Keys API
+  slug: veradial-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-keys-api-openapi.yml
+- filename: veradial-lines-api-openapi.yml
+  format: yaml
+  label: VeraDial Lines API
+  slug: veradial-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-lines-api-openapi.yml
+- filename: veradial-me-api-openapi.yml
+  format: yaml
+  label: VeraDial Me API
+  slug: veradial-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-me-api-openapi.yml
+- filename: veradial-samples-api-openapi.yml
+  format: yaml
+  label: VeraDial Samples API
+  slug: veradial-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-samples-api-openapi.yml
 description: ''
 domains:
 - caa: []

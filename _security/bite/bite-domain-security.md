@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Trade
 - Compliance
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - HTS
 ---

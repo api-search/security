@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - PDF
-- API
 - Automation
-- FreeTools
+- Free Tools
 ---

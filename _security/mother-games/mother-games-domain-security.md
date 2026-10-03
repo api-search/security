@@ -43,5 +43,4 @@ tags:
 - Mobile Games
 - Social Games
 - Entertainment
-- Startups
 ---

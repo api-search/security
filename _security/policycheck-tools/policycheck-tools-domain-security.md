@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: policycheck-tools-openapi.yml
+- filename: policycheck-tools-chatgpt-api-openapi.yml
   format: yaml
-  label: PolicyCheck API
-  slug: policycheck-api
+  label: PolicyCheck Chatgpt API
+  slug: policycheck-tools-chatgpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/policycheck-tools/refs/heads/main/openapi/policycheck-tools-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/policycheck-tools/refs/heads/main/openapi/policycheck-tools-chatgpt-api-openapi.yml
 description: ''
 domains:
 - caa: []

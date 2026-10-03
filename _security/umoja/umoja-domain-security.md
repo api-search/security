@@ -38,5 +38,4 @@ tags:
 - Oncology
 - Gene Therapy
 - Healthcare
-- Cart
 ---

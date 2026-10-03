@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Transit
 - Public Transport
-- API
-- Real-time Data
+- Real-Time Data
 - Bay Area
 ---

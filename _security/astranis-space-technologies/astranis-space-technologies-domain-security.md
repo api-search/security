@@ -34,6 +34,6 @@ tags:
 - Company
 - Satellite
 - Communications
-- GEO
+- Geo
 - Space
 ---

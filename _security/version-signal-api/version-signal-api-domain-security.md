@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: version-signal-api-openapi.json
-  format: json
-  label: Version Signal API
-  slug: version-signal-api
+- filename: version-signal-api-version-api-openapi.yml
+  format: yaml
+  label: Version Signal Version API
+  slug: version-signal-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/version-signal-api/refs/heads/main/openapi/version-signal-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/version-signal-api/refs/heads/main/openapi/version-signal-api-version-api-openapi.yml
 description: ''
 domains:
 - caa: []

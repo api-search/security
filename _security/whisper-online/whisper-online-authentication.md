@@ -3,12 +3,60 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: whisper-online-openapi.json
-  format: json
-  label: Whisper API
-  slug: whisper-api
+- filename: whisper-online-a2a-api-openapi.yml
+  format: yaml
+  label: Whisper Security A2a API
+  slug: whisper-online-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-a2a-api-openapi.yml
+- filename: whisper-online-checkpoint-api-openapi.yml
+  format: yaml
+  label: Whisper Security Checkpoint API
+  slug: whisper-online-checkpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-checkpoint-api-openapi.yml
+- filename: whisper-online-consistency-api-openapi.yml
+  format: yaml
+  label: Whisper Security Consistency API
+  slug: whisper-online-consistency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-consistency-api-openapi.yml
+- filename: whisper-online-inclusion-api-openapi.yml
+  format: yaml
+  label: Whisper Security Inclusion API
+  slug: whisper-online-inclusion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-inclusion-api-openapi.yml
+- filename: whisper-online-menu-api-openapi.yml
+  format: yaml
+  label: Whisper Security Menu API
+  slug: whisper-online-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-menu-api-openapi.yml
+- filename: whisper-online-query-api-openapi.yml
+  format: yaml
+  label: Whisper Security Query API
+  slug: whisper-online-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-query-api-openapi.yml
+- filename: whisper-online-tile-api-openapi.yml
+  format: yaml
+  label: Whisper Security Tile API
+  slug: whisper-online-tile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-tile-api-openapi.yml
+- filename: whisper-online-verify-identity-api-openapi.yml
+  format: yaml
+  label: Whisper Security Verify Identity API
+  slug: whisper-online-verify-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-verify-identity-api-openapi.yml
+- filename: whisper-online-well-known-api-openapi.yml
+  format: yaml
+  label: Whisper Security .well Known API
+  slug: whisper-online-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-well-known-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

@@ -30,12 +30,6 @@ api_specs:
   slug: matomo-annotations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-annotations-api-openapi.yml
-- filename: matomo-api-api-openapi.yml
-  format: yaml
-  label: Matomo API
-  slug: matomo-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-api-openapi.yml
 - filename: matomo-bandwidth-api-openapi.yml
   format: yaml
   label: Matomo Bandwidth API

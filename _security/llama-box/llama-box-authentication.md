@@ -3,12 +3,60 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: llama-box-crvusd-yield-optimizer-openapi.yml
+- filename: llama-box-a2a-api-openapi.yml
   format: yaml
-  label: crvUSD Yield Optimizer API
-  slug: crvusd-yield-optimizer-api
+  label: Chado Studio A2a API
+  slug: llama-box-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-crvusd-yield-optimizer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-a2a-api-openapi.yml
+- filename: llama-box-access-log-api-openapi.yml
+  format: yaml
+  label: Chado Studio Access Log API
+  slug: llama-box-access-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-access-log-api-openapi.yml
+- filename: llama-box-best-yield-api-openapi.yml
+  format: yaml
+  label: Chado Studio Best Yield API
+  slug: llama-box-best-yield-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-best-yield-api-openapi.yml
+- filename: llama-box-health-api-openapi.yml
+  format: yaml
+  label: Chado Studio Health API
+  slug: llama-box-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-health-api-openapi.yml
+- filename: llama-box-pools-api-openapi.yml
+  format: yaml
+  label: Chado Studio Pools API
+  slug: llama-box-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-pools-api-openapi.yml
+- filename: llama-box-pricing-api-openapi.yml
+  format: yaml
+  label: Chado Studio Pricing API
+  slug: llama-box-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-pricing-api-openapi.yml
+- filename: llama-box-rebalance-api-openapi.yml
+  format: yaml
+  label: Chado Studio Rebalance API
+  slug: llama-box-rebalance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-rebalance-api-openapi.yml
+- filename: llama-box-risk-score-api-openapi.yml
+  format: yaml
+  label: Chado Studio Risk Score API
+  slug: llama-box-risk-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-risk-score-api-openapi.yml
+- filename: llama-box-well-known-api-openapi.yml
+  format: yaml
+  label: Chado Studio .well Known API
+  slug: llama-box-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-well-known-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

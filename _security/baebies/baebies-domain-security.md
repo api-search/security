@@ -33,6 +33,6 @@ tags:
 - Company
 - Diagnostics
 - Digital Microfluidics
-- Point-of-Care
+- Point of Care
 - Healthcare
 ---

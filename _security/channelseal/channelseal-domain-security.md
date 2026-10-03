@@ -1,29 +1,95 @@
 ---
 api_specs:
-- filename: channelseal-platform-api-openapi.yml
-  format: yaml
-  label: ChannelSeal Platform API
-  slug: platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-platform-api-openapi.yml
-- filename: channelseal-api-discovery-service-api-openapi.yml
-  format: yaml
-  label: ChannelSeal API Discovery Service API
-  slug: api-discovery-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-api-discovery-service-api-openapi.yml
 - filename: channelseal-api-catalog-api-openapi.yml
   format: yaml
   label: ChannelSeal API Catalog API
   slug: api-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-api-catalog-api-openapi.yml
-- filename: channelseal-data-classification-api-openapi.yml
+- filename: channelseal-alert-api-openapi.yml
   format: yaml
-  label: ChannelSeal Data Classification API
-  slug: data-classification-api
+  label: ChannelSeal Alert API
+  slug: channelseal-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-data-classification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-alert-api-openapi.yml
+- filename: channelseal-apis-api-openapi.yml
+  format: yaml
+  label: ChannelSeal APIs API
+  slug: channelseal-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-apis-api-openapi.yml
+- filename: channelseal-application-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Application API
+  slug: channelseal-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-application-api-openapi.yml
+- filename: channelseal-auditevent-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Audit Event API
+  slug: channelseal-auditevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-auditevent-api-openapi.yml
+- filename: channelseal-channel-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Channel API
+  slug: channelseal-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-channel-api-openapi.yml
+- filename: channelseal-classification-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Classification API
+  slug: channelseal-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-classification-api-openapi.yml
+- filename: channelseal-monitor-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Monitor API
+  slug: channelseal-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-monitor-api-openapi.yml
+- filename: channelseal-non-human-identity-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Non Human Identity API
+  slug: channelseal-non-human-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-non-human-identity-api-openapi.yml
+- filename: channelseal-sensitive-data-element-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Sensitive Data Element API
+  slug: channelseal-sensitive-data-element-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-sensitive-data-element-api-openapi.yml
+- filename: channelseal-sensitive-info-group-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Sensitive Info Group API
+  slug: channelseal-sensitive-info-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-sensitive-info-group-api-openapi.yml
+- filename: channelseal-sensitive-info-type-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Sensitive Info Type API
+  slug: channelseal-sensitive-info-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-sensitive-info-type-api-openapi.yml
+- filename: channelseal-service-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Service API
+  slug: channelseal-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-service-api-openapi.yml
+- filename: channelseal-service-provider-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Service Provider API
+  slug: channelseal-service-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-service-provider-api-openapi.yml
+- filename: channelseal-summary-discovery-metrics-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Summary Discovery Metrics API
+  slug: channelseal-summary-discovery-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-summary-discovery-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

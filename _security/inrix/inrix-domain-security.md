@@ -6,12 +6,6 @@ api_specs:
   slug: inrix-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-accounts-api-openapi.yml
-- filename: inrix-api-api-openapi.yml
-  format: yaml
-  label: INRIX API
-  slug: inrix-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-api-api-openapi.yml
 - filename: inrix-application-api-openapi.yml
   format: yaml
   label: INRIX Application API
@@ -60,6 +54,18 @@ api_specs:
   slug: inrix-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-user-api-openapi.yml
+- filename: inrix-caniparkhere-api-openapi.yml
+  format: yaml
+  label: INRIX Caniparkhere API
+  slug: inrix-caniparkhere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-caniparkhere-api-openapi.yml
+- filename: inrix-openspots-api-openapi.yml
+  format: yaml
+  label: INRIX Openspots API
+  slug: inrix-openspots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/openapi/inrix-openspots-api-openapi.yml
 - filename: inrix-application-management-api-openapi.yml
   format: yaml
   label: INRIX Application Management API

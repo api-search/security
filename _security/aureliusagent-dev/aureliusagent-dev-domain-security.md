@@ -1,17 +1,59 @@
 ---
 api_specs:
-- filename: aureliusagent-dev-wundership-mpp-api-openapi.yml
+- filename: aureliusagent-dev-ai-generation-api-openapi.yml
   format: yaml
-  label: Wundership MPP API
-  slug: wundership-mpp-api
+  label: WunderCorp AI Generation API
+  slug: aureliusagent-dev-ai-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-wundership-mpp-api-openapi.yml
-- filename: aureliusagent-dev-walton-capacity-mpp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-ai-generation-api-openapi.yml
+- filename: aureliusagent-dev-app-planning-api-openapi.yml
   format: yaml
-  label: Walton Capacity MPP API
-  slug: walton-capacity-mpp-api
+  label: WunderCorp App Planning API
+  slug: aureliusagent-dev-app-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-walton-capacity-mpp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-app-planning-api-openapi.yml
+- filename: aureliusagent-dev-builderstudio-api-openapi.yml
+  format: yaml
+  label: WunderCorp Builder Studio API
+  slug: aureliusagent-dev-builderstudio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-builderstudio-api-openapi.yml
+- filename: aureliusagent-dev-capacity-api-openapi.yml
+  format: yaml
+  label: WunderCorp Capacity API
+  slug: aureliusagent-dev-capacity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-capacity-api-openapi.yml
+- filename: aureliusagent-dev-commerce-api-openapi.yml
+  format: yaml
+  label: WunderCorp Commerce API
+  slug: aureliusagent-dev-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-commerce-api-openapi.yml
+- filename: aureliusagent-dev-inference-gateway-api-openapi.yml
+  format: yaml
+  label: WunderCorp Inference Gateway API
+  slug: aureliusagent-dev-inference-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-inference-gateway-api-openapi.yml
+- filename: aureliusagent-dev-machine-payments-api-openapi.yml
+  format: yaml
+  label: WunderCorp Machine Payments API
+  slug: aureliusagent-dev-machine-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-machine-payments-api-openapi.yml
+- filename: aureliusagent-dev-mpp-api-openapi.yml
+  format: yaml
+  label: WunderCorp Mpp API
+  slug: aureliusagent-dev-mpp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-mpp-api-openapi.yml
+- filename: aureliusagent-dev-openmodel-pricing-api-openapi.yml
+  format: yaml
+  label: WunderCorp OpenModel Pricing API
+  slug: aureliusagent-dev-openmodel-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-openmodel-pricing-api-openapi.yml
 description: ''
 domains:
 - caa: []

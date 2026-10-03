@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bloqit-openapi-generated.yml
+- filename: bloqit-bloqs-api-openapi.yml
   format: yaml
-  label: Bloqit API
-  slug: bloqit-api
+  label: Bloqit Bloqs API
+  slug: bloqit-bloqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloqit/refs/heads/main/openapi/_ae-authored/bloqit-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloqit/refs/heads/main/openapi/bloqit-bloqs-api-openapi.yml
+- filename: bloqit-public-api-openapi.yml
+  format: yaml
+  label: Bloqit Public API
+  slug: bloqit-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloqit/refs/heads/main/openapi/bloqit-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,6 +48,6 @@ tags:
 - Blockchain
 - Data Storage
 - API Platform
-- FinTech
+- Fintech
 - Lisbon
 ---

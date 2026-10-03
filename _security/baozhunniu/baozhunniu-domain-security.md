@@ -34,5 +34,5 @@ tags:
 - Platform
 - China
 - B2B
-- B2C
+- Consumer
 ---

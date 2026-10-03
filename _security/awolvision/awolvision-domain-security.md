@@ -34,6 +34,6 @@ tags:
 - Company
 - HomeTheater
 - Projectors
-- ECommerce
-- ConsumerElectronics
+- E-Commerce
+- Consumer Electronics
 ---

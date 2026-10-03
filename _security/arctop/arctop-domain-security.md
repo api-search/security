@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: arctop-openapi-generated.yml
+- filename: arctop-arctop-api-api-openapi.yml
   format: yaml
-  label: Arctop API
-  slug: arctop-api
+  label: Arctop Arctop API
+  slug: arctop-arctop-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctop/refs/heads/main/openapi/_ae-authored/arctop-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arctop/refs/heads/main/openapi/arctop-arctop-api-api-openapi.yml
+- filename: arctop-dev-api-openapi.yml
+  format: yaml
+  label: Arctop Dev API
+  slug: arctop-dev-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arctop/refs/heads/main/openapi/arctop-dev-api-openapi.yml
 description: ''
 domains:
 - caa:

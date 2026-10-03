@@ -92,10 +92,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs
 summary_line: GDPR
 tags:
 - Company
-- eSignature
-- API
-- DeveloperTools
+- E-Signature
+- Developer Tools
 - LowCost
-- WhiteLabel
+- White Label
 trust_url: https://firma.dev/trust
 ---

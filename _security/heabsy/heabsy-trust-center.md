@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-10-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heabsy/refs/heads/main/security/heabsy-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- AI
+- Artificial Intelligence
 - Inference
-- OpenAI-compatible
+- OpenAI-Compatible
 - EU-regulated
-- SaaS
+- Software-as-a-Service
 trust_url: https://heabsy.com/compliance
 ---

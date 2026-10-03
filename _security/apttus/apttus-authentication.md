@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apttus/refs/heads/main/authentication/apttus-authentication.yml
 summary_line: 1 scheme
 tags:
-- SaaS
+- Software-as-a-Service
 - CPQ
-- CLM
+- Contract Lifecycle Management
 - Document Automation
 - Quote-to-Cash
 - Company

@@ -34,6 +34,6 @@ tags:
 - Marketplace
 - Art
 - Design
-- NFTs
-- E-commerce
+- NFT
+- E-Commerce
 ---

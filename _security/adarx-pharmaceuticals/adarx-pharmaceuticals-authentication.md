@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: adarx-pharmaceuticals-clinics-api-openapi.yml
-  format: yaml
-  label: ADARx Pharmaceuticals Website (WordPress REST)
-  slug: adarx-com-website-wordpress-rest
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/openapi/adarx-pharmaceuticals-clinics-api-openapi.yml
 auth_types:
 - http
 description: ''

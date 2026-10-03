@@ -506,8 +506,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Data
 - Social Media
-- E-commerce
+- E-Commerce
 ---

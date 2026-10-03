@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/articul830ee/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- GenerativeAI
+- Artificial Intelligence
+- Generative AI
 - Enterprise
 - Platform
 - DomainSpecific

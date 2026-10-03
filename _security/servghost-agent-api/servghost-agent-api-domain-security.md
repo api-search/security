@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: servghost-agent-api-openapi.yml
+- filename: servghost-agent-api-account-api-openapi.yml
   format: yaml
-  label: ServGhost Agent API
-  slug: servghost-agent-api
+  label: ServGhost Agent API Account API
+  slug: servghost-agent-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-account-api-openapi.yml
+- filename: servghost-agent-api-catalog-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Catalog API
+  slug: servghost-agent-api-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-catalog-api-openapi.yml
+- filename: servghost-agent-api-domains-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Domains API
+  slug: servghost-agent-api-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-domains-api-openapi.yml
+- filename: servghost-agent-api-locations-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Locations API
+  slug: servghost-agent-api-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-locations-api-openapi.yml
+- filename: servghost-agent-api-orders-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Orders API
+  slug: servghost-agent-api-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-orders-api-openapi.yml
+- filename: servghost-agent-api-quote-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Quote API
+  slug: servghost-agent-api-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-quote-api-openapi.yml
+- filename: servghost-agent-api-servers-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Servers API
+  slug: servghost-agent-api-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-servers-api-openapi.yml
+- filename: servghost-agent-api-servghost-agent-api-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API ServGhost Agent API
+  slug: servghost-agent-api-servghost-agent-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-servghost-agent-api-api-openapi.yml
+- filename: servghost-agent-api-top-up-api-openapi.yml
+  format: yaml
+  label: ServGhost Agent API Top Up API
+  slug: servghost-agent-api-top-up-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-top-up-api-openapi.yml
 description: ''
 domains:
 - caa: []

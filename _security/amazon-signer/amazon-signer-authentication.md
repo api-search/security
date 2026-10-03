@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api-openapi.yml
-  format: yaml
-  label: Amazon Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API
-  slug: amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api-openapi.yml
 - filename: amazon-signer-signing-jobs-api-openapi.yml
   format: yaml
   label: Amazon Signer Signing Jobs API
@@ -33,6 +27,12 @@ api_specs:
   slug: amazon-signer-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-tags-api-openapi.yml
+- filename: amazon-signer-revocations-api-openapi.yml
+  format: yaml
+  label: Amazon Signer Revocations API
+  slug: amazon-signer-revocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-revocations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

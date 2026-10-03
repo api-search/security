@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: hergertsynthora-com-mesh-aggregate-openapi.yml
+- filename: hergertsynthora-com-discovery-api-openapi.yml
   format: yaml
-  label: SYNTHORA Machine-Payable API Mesh
-  slug: synthora-machine-payable-api-mesh
+  label: Hergert Synthora Discovery API
+  slug: hergertsynthora-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-mesh-aggregate-openapi.yml
-- filename: hergertsynthora-com-agent-notary-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-discovery-api-openapi.yml
+- filename: hergertsynthora-com-polymarket-api-openapi.yml
   format: yaml
-  label: SYNTHORA Agent Notary
-  slug: synthora-agent-notary
+  label: Hergert Synthora Polymarket API
+  slug: hergertsynthora-com-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-agent-notary-openapi.yml
-- filename: hergertsynthora-com-agentcard-openapi.json
-  format: json
-  label: SYNTHORA x402 Per-Service Contracts
-  slug: synthora-x402-per-service-contracts
+  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-polymarket-api-openapi.yml
+- filename: hergertsynthora-com-safety-api-openapi.yml
+  format: yaml
+  label: Hergert Synthora Safety API
+  slug: hergertsynthora-com-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/services/hergertsynthora-com-agentcard-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-safety-api-openapi.yml
+- filename: hergertsynthora-com-wallet-enrichment-api-openapi.yml
+  format: yaml
+  label: Hergert Synthora Wallet Enrichment API
+  slug: hergertsynthora-com-wallet-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hergertsynthora-com/refs/heads/main/openapi/hergertsynthora-com-wallet-enrichment-api-openapi.yml
 description: ''
 domains:
 - caa: []

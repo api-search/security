@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: atscale-openapi-generated.yml
+- filename: atscale-aggregates-api-openapi.yml
   format: yaml
-  label: Atscale API
-  slug: atscale-api
+  label: Atscale Aggregates API
+  slug: atscale-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/_ae-authored/atscale-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-aggregates-api-openapi.yml
+- filename: atscale-atscale-api-api-openapi.yml
+  format: yaml
+  label: Atscale Atscale API
+  slug: atscale-atscale-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-atscale-api-api-openapi.yml
+- filename: atscale-catalogs-api-openapi.yml
+  format: yaml
+  label: Atscale Catalogs API
+  slug: atscale-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-catalogs-api-openapi.yml
+- filename: atscale-data-warehouses-api-openapi.yml
+  format: yaml
+  label: Atscale Data Warehouses API
+  slug: atscale-data-warehouses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-data-warehouses-api-openapi.yml
+- filename: atscale-default-api-openapi.yml
+  format: yaml
+  label: Atscale Default API
+  slug: atscale-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-default-api-openapi.yml
+- filename: atscale-org-api-openapi.yml
+  format: yaml
+  label: Atscale Org API
+  slug: atscale-org-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-org-api-openapi.yml
+- filename: atscale-orgs-api-openapi.yml
+  format: yaml
+  label: Atscale Orgs API
+  slug: atscale-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-orgs-api-openapi.yml
+- filename: atscale-query-api-openapi.yml
+  format: yaml
+  label: Atscale Query API
+  slug: atscale-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-query-api-openapi.yml
+- filename: atscale-sessiontoken-api-openapi.yml
+  format: yaml
+  label: Atscale Sessiontoken API
+  slug: atscale-sessiontoken-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-sessiontoken-api-openapi.yml
+- filename: atscale-soap-api-openapi.yml
+  format: yaml
+  label: Atscale Soap API
+  slug: atscale-soap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atscale/refs/heads/main/openapi/atscale-soap-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +95,6 @@ tags:
 - Analytics
 - Business Intelligence
 - Data Integration
-- AI
+- Artificial Intelligence
 - Semantic Layer
 ---

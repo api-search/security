@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: oag-openapi-generated.yml
+- filename: oag-alerts-api-openapi.yml
   format: yaml
-  label: OAG API
-  slug: oag-api
+  label: OAG Alerts API
+  slug: oag-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/_ae-authored/oag-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-alerts-api-openapi.yml
+- filename: oag-flight-connections-api-openapi.yml
+  format: yaml
+  label: OAG Flight Connections API
+  slug: oag-flight-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-flight-connections-api-openapi.yml
+- filename: oag-flight-info-alerts-api-openapi.yml
+  format: yaml
+  label: OAG Flight Info Alerts API
+  slug: oag-flight-info-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-flight-info-alerts-api-openapi.yml
+- filename: oag-flight-instances-api-openapi.yml
+  format: yaml
+  label: OAG Flight Instances API
+  slug: oag-flight-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-flight-instances-api-openapi.yml
+- filename: oag-flights-api-openapi.yml
+  format: yaml
+  label: OAG Flights API
+  slug: oag-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-flights-api-openapi.yml
+- filename: oag-locations-api-openapi.yml
+  format: yaml
+  label: OAG Locations API
+  slug: oag-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-locations-api-openapi.yml
+- filename: oag-oag-api-api-openapi.yml
+  format: yaml
+  label: OAG OAG API
+  slug: oag-oag-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-oag-api-api-openapi.yml
+- filename: oag-profile-api-openapi.yml
+  format: yaml
+  label: OAG Profile API
+  slug: oag-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-profile-api-openapi.yml
+- filename: oag-status-api-openapi.yml
+  format: yaml
+  label: OAG Status API
+  slug: oag-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oag/refs/heads/main/openapi/oag-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

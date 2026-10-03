@@ -2,144 +2,144 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: gumlet-audio-upload-openapi.yml
+- filename: gumlet-audio-upload-api-openapi.yml
   format: yaml
   label: Gumlet Audio Upload API
-  slug: gumlet-audio-upload
+  slug: gumlet-audio-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-audio-upload-openapi.yml
-- filename: gumlet-audit-logs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-audio-upload-api-openapi.yml
+- filename: gumlet-audit-logs-api-openapi.yml
   format: yaml
   label: Gumlet Audit Logs API
-  slug: gumlet-audit-logs
+  slug: gumlet-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-audit-logs-openapi.yml
-- filename: gumlet-billing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-audit-logs-api-openapi.yml
+- filename: gumlet-billing-api-openapi.yml
   format: yaml
   label: Gumlet Billing API
-  slug: gumlet-billing
+  slug: gumlet-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-billing-openapi.yml
-- filename: gumlet-channel-viewers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-billing-api-openapi.yml
+- filename: gumlet-channel-viewers-api-openapi.yml
   format: yaml
   label: Gumlet Channel Viewers API
-  slug: gumlet-channel-viewers
+  slug: gumlet-channel-viewers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-channel-viewers-openapi.yml
-- filename: gumlet-folders-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-channel-viewers-api-openapi.yml
+- filename: gumlet-folders-api-openapi.yml
   format: yaml
   label: Gumlet Folders API
-  slug: gumlet-folders
+  slug: gumlet-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-folders-openapi.yml
-- filename: gumlet-global-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-folders-api-openapi.yml
+- filename: gumlet-global-search-api-openapi.yml
   format: yaml
   label: Gumlet Global Search API
-  slug: gumlet-global-search
+  slug: gumlet-global-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-global-search-openapi.yml
-- filename: gumlet-image-sources-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-global-search-api-openapi.yml
+- filename: gumlet-image-sources-api-openapi.yml
   format: yaml
   label: Gumlet Image Sources API
-  slug: gumlet-image-sources
+  slug: gumlet-image-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-image-sources-openapi.yml
-- filename: gumlet-image-usage-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-image-sources-api-openapi.yml
+- filename: gumlet-image-usage-analytics-api-openapi.yml
   format: yaml
   label: Gumlet Image Usage Analytics API
-  slug: gumlet-image-usage-analytics
+  slug: gumlet-image-usage-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-image-usage-analytics-openapi.yml
-- filename: gumlet-live-stream-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-image-usage-analytics-api-openapi.yml
+- filename: gumlet-live-stream-analytics-api-openapi.yml
   format: yaml
   label: Gumlet Live Stream Analytics API
-  slug: gumlet-live-stream-analytics
+  slug: gumlet-live-stream-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-live-stream-analytics-openapi.yml
-- filename: gumlet-live-stream-assets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-live-stream-analytics-api-openapi.yml
+- filename: gumlet-live-stream-assets-api-openapi.yml
   format: yaml
   label: Gumlet Live Stream Assets API
-  slug: gumlet-live-stream-assets
+  slug: gumlet-live-stream-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-live-stream-assets-openapi.yml
-- filename: gumlet-live-stream-workspaces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-live-stream-assets-api-openapi.yml
+- filename: gumlet-live-stream-workspaces-api-openapi.yml
   format: yaml
   label: Gumlet Live Stream Workspaces API
-  slug: gumlet-live-stream-workspaces
+  slug: gumlet-live-stream-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-live-stream-workspaces-openapi.yml
-- filename: gumlet-multipart-upload-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-live-stream-workspaces-api-openapi.yml
+- filename: gumlet-multipart-upload-api-openapi.yml
   format: yaml
   label: Gumlet Multipart Upload API
-  slug: gumlet-multipart-upload
+  slug: gumlet-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-multipart-upload-openapi.yml
-- filename: gumlet-organization-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-multipart-upload-api-openapi.yml
+- filename: gumlet-organization-data-api-openapi.yml
   format: yaml
   label: Gumlet Organization Data API
-  slug: gumlet-organization-data
+  slug: gumlet-organization-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-organization-data-openapi.yml
-- filename: gumlet-recycle-bin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-organization-data-api-openapi.yml
+- filename: gumlet-recycle-bin-api-openapi.yml
   format: yaml
   label: Gumlet Recycle Bin API
-  slug: gumlet-recycle-bin
+  slug: gumlet-recycle-bin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-recycle-bin-openapi.yml
-- filename: gumlet-subtitle-upload-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-recycle-bin-api-openapi.yml
+- filename: gumlet-subtitle-upload-api-openapi.yml
   format: yaml
   label: Gumlet Subtitle Upload API
-  slug: gumlet-subtitle-upload
+  slug: gumlet-subtitle-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-subtitle-upload-openapi.yml
-- filename: gumlet-user-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-subtitle-upload-api-openapi.yml
+- filename: gumlet-user-data-api-openapi.yml
   format: yaml
   label: Gumlet User Data API
-  slug: gumlet-user-data
+  slug: gumlet-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-user-data-openapi.yml
-- filename: gumlet-video-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-user-data-api-openapi.yml
+- filename: gumlet-video-analytics-api-openapi.yml
   format: yaml
   label: Gumlet Video Analytics API
-  slug: gumlet-video-analytics
+  slug: gumlet-video-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-analytics-openapi.yml
-- filename: gumlet-video-assets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-analytics-api-openapi.yml
+- filename: gumlet-video-assets-api-openapi.yml
   format: yaml
   label: Gumlet Video Assets API
-  slug: gumlet-video-assets
+  slug: gumlet-video-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-assets-openapi.yml
-- filename: gumlet-video-playlists-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-assets-api-openapi.yml
+- filename: gumlet-video-playlists-api-openapi.yml
   format: yaml
   label: Gumlet Video Playlists API
-  slug: gumlet-video-playlists
+  slug: gumlet-video-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-playlists-openapi.yml
-- filename: gumlet-video-profiles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-playlists-api-openapi.yml
+- filename: gumlet-video-profiles-api-openapi.yml
   format: yaml
   label: Gumlet Video Profiles API
-  slug: gumlet-video-profiles
+  slug: gumlet-video-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-profiles-openapi.yml
-- filename: gumlet-video-usage-analytics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-profiles-api-openapi.yml
+- filename: gumlet-video-usage-analytics-api-openapi.yml
   format: yaml
   label: Gumlet Video Usage Analytics API
-  slug: gumlet-video-usage-analytics
+  slug: gumlet-video-usage-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-usage-analytics-openapi.yml
-- filename: gumlet-video-workspaces-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-usage-analytics-api-openapi.yml
+- filename: gumlet-video-workspaces-api-openapi.yml
   format: yaml
   label: Gumlet Video Workspaces API
-  slug: gumlet-video-workspaces
+  slug: gumlet-video-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-workspaces-openapi.yml
-- filename: gumlet-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-video-workspaces-api-openapi.yml
+- filename: gumlet-webhooks-api-openapi.yml
   format: yaml
   label: Gumlet Webhooks API
-  slug: gumlet-webhooks
+  slug: gumlet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/openapi/gumlet-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

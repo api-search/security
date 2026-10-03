@@ -54,12 +54,6 @@ api_specs:
   slug: validic-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-api-openapi.yml
-- filename: validic-streams-token-token-api-openapi.yml
-  format: yaml
-  label: Validic Streams?token={token} API
-  slug: validic-streams-token-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-token-token-api-openapi.yml
 certification_count: 3
 certifications:
 - HITRUST CSF

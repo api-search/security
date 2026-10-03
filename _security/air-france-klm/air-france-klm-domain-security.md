@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: air-france-klm-openapi-generated.yml
+- filename: air-france-klm-opendata-api-openapi.yml
   format: yaml
-  label: Air France-KLM API
-  slug: air-france-klm-api
+  label: Air France-KLM Opendata API
+  slug: air-france-klm-opendata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/air-france-klm/refs/heads/main/openapi/_ae-authored/air-france-klm-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/air-france-klm/refs/heads/main/openapi/air-france-klm-opendata-api-openapi.yml
 description: ''
 domains:
 - caa: []

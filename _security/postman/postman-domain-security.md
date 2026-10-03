@@ -54,12 +54,6 @@ api_specs:
   slug: postman-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-analytics-api-openapi.yml
-- filename: postman-api-api-openapi.yml
-  format: yaml
-  label: Postman API
-  slug: postman-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-api-openapi.yml
 - filename: postman-apicatalog-api-openapi.yml
   format: yaml
   label: Postman API Catalog API
@@ -180,6 +174,12 @@ api_specs:
   slug: postman-sdks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-sdks-api-openapi.yml
+- filename: postman-apis-api-openapi.yml
+  format: yaml
+  label: Postman APIs API
+  slug: postman-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apis-api-openapi.yml
 - filename: postman-api-security-api-openapi.yml
   format: yaml
   label: Postman API Security API

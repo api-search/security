@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigspoon1d45/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Placeholder
 - Data
 - Harvest

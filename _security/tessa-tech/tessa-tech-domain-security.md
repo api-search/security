@@ -1,11 +1,149 @@
 ---
 api_specs:
-- filename: tessa-tech-agent-directory-openapi.yml
+- filename: tessa-tech-a2a-api-openapi.yml
   format: yaml
-  label: TESSA Agent Directory API
-  slug: tessa-agent-directory-api
+  label: TESSA Marketing & Technology A2a API
+  slug: tessa-tech-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-agent-directory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-a2a-api-openapi.yml
+- filename: tessa-tech-admin-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Admin API
+  slug: tessa-tech-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-admin-api-openapi.yml
+- filename: tessa-tech-agent-card-json-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Agent Card.json API
+  slug: tessa-tech-agent-card-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-agent-card-json-api-openapi.yml
+- filename: tessa-tech-chatgpt-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Chatgpt API
+  slug: tessa-tech-chatgpt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-chatgpt-api-openapi.yml
+- filename: tessa-tech-claim-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Claim API
+  slug: tessa-tech-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-claim-api-openapi.yml
+- filename: tessa-tech-claude-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Claude API
+  slug: tessa-tech-claude-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-claude-api-openapi.yml
+- filename: tessa-tech-extensions-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Extensions API
+  slug: tessa-tech-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-extensions-api-openapi.yml
+- filename: tessa-tech-gemini-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Gemini API
+  slug: tessa-tech-gemini-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-gemini-api-openapi.yml
+- filename: tessa-tech-healthz-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Healthz API
+  slug: tessa-tech-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-healthz-api-openapi.yml
+- filename: tessa-tech-internal-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Internal API
+  slug: tessa-tech-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-internal-api-openapi.yml
+- filename: tessa-tech-profile-json-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Profile.json API
+  slug: tessa-tech-profile-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-profile-json-api-openapi.yml
+- filename: tessa-tech-registry-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Registry API
+  slug: tessa-tech-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-registry-api-openapi.yml
+- filename: tessa-tech-registry-json-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Registry.json API
+  slug: tessa-tech-registry-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-registry-json-api-openapi.yml
+- filename: tessa-tech-request-introduction-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Request Introduction API
+  slug: tessa-tech-request-introduction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-request-introduction-api-openapi.yml
+- filename: tessa-tech-request-removal-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Request Removal API
+  slug: tessa-tech-request-removal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-request-removal-api-openapi.yml
+- filename: tessa-tech-robots-txt-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Robots.txt API
+  slug: tessa-tech-robots-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-robots-txt-api-openapi.yml
+- filename: tessa-tech-s-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology S API
+  slug: tessa-tech-s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-s-api-openapi.yml
+- filename: tessa-tech-t-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology T API
+  slug: tessa-tech-t-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-t-api-openapi.yml
+- filename: tessa-tech-takedown-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Takedown API
+  slug: tessa-tech-takedown-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-takedown-api-openapi.yml
+- filename: tessa-tech-taxonomy-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Taxonomy API
+  slug: tessa-tech-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-taxonomy-api-openapi.yml
+- filename: tessa-tech-tessa-agent-directory-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology TESSA Agent Directory API
+  slug: tessa-tech-tessa-agent-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-tessa-agent-directory-api-openapi.yml
+- filename: tessa-tech-vectors-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Vectors API
+  slug: tessa-tech-vectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-vectors-api-openapi.yml
+- filename: tessa-tech-verify-listing-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology Verify Listing API
+  slug: tessa-tech-verify-listing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-verify-listing-api-openapi.yml
+- filename: tessa-tech-well-known-api-openapi.yml
+  format: yaml
+  label: TESSA Marketing & Technology .well Known API
+  slug: tessa-tech-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tessa-tech/refs/heads/main/openapi/tessa-tech-well-known-api-openapi.yml
 description: ''
 domains:
 - caa:

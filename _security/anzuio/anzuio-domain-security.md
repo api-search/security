@@ -46,5 +46,4 @@ tags:
 - Advertising
 - Gaming
 - SDK
-- API
 ---

@@ -37,6 +37,6 @@ tags:
 - Biotechnology
 - Genetics
 - Plant Breeding
-- Seed
+- Seeds
 - Food
 ---

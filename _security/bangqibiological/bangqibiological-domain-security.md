@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - Research
 - Health
-- Life-Sciences
+- Life Sciences
 ---

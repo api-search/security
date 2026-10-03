@@ -140,9 +140,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/security/avoma-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Meeting-Assistant
-- Sales-Enablement
+- Artificial Intelligence
+- Meeting Assistant
+- Sales Enablement
 - Automation
 - Productivity
 ---

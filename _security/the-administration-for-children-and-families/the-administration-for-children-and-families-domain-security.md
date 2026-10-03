@@ -6,12 +6,96 @@ api_specs:
   slug: the-administration-for-children-and-families-plg-auth-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
-- filename: the-administration-for-children-and-families-v1-api-openapi.yml
+- filename: the-administration-for-children-and-families-auth-check-api-openapi.yml
   format: yaml
-  label: The Administration for Children and Families v1 API
-  slug: the-administration-for-children-and-families-v1-api
+  label: The Administration for Children and Families Auth Check API
+  slug: the-administration-for-children-and-families-auth-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-v1-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-auth-check-api-openapi.yml
+- filename: the-administration-for-children-and-families-change-request-logs-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Change Request Logs API
+  slug: the-administration-for-children-and-families-change-request-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-change-request-logs-api-openapi.yml
+- filename: the-administration-for-children-and-families-change-requests-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Change Requests API
+  slug: the-administration-for-children-and-families-change-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-change-requests-api-openapi.yml
+- filename: the-administration-for-children-and-families-data-files-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Data Files API
+  slug: the-administration-for-children-and-families-data-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-data-files-api-openapi.yml
+- filename: the-administration-for-children-and-families-feature-flags-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Feature Flags API
+  slug: the-administration-for-children-and-families-feature-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-feature-flags-api-openapi.yml
+- filename: the-administration-for-children-and-families-feedback-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Feedback API
+  slug: the-administration-for-children-and-families-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-feedback-api-openapi.yml
+- filename: the-administration-for-children-and-families-login-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Login API
+  slug: the-administration-for-children-and-families-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-login-api-openapi.yml
+- filename: the-administration-for-children-and-families-logout-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Logout API
+  slug: the-administration-for-children-and-families-logout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-logout-api-openapi.yml
+- filename: the-administration-for-children-and-families-logs-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Logs API
+  slug: the-administration-for-children-and-families-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-logs-api-openapi.yml
+- filename: the-administration-for-children-and-families-oidc-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Oidc API
+  slug: the-administration-for-children-and-families-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-oidc-api-openapi.yml
+- filename: the-administration-for-children-and-families-reports-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Reports API
+  slug: the-administration-for-children-and-families-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-reports-api-openapi.yml
+- filename: the-administration-for-children-and-families-roles-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Roles API
+  slug: the-administration-for-children-and-families-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-roles-api-openapi.yml
+- filename: the-administration-for-children-and-families-security-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Security API
+  slug: the-administration-for-children-and-families-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-security-api-openapi.yml
+- filename: the-administration-for-children-and-families-stts-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Stts API
+  slug: the-administration-for-children-and-families-stts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-stts-api-openapi.yml
+- filename: the-administration-for-children-and-families-users-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families Users API
+  slug: the-administration-for-children-and-families-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-users-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -20,8 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/richapi/refs/h
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- API
-- Data-Enrichment
+- Data Enrichment
 - B2B
 - MCP
 trust_url: https://richapi.ai/security

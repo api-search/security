@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: amazon-incident-manager-deletereplicationset-arn-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager DeleteReplicationSet#arn API
-  slug: amazon-incident-manager-deletereplicationset-arn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-deletereplicationset-arn-api-openapi.yml
 - filename: amazon-incident-manager-deleteresourcepolicy-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager DeleteResourcePolicy API
   slug: amazon-incident-manager-deleteresourcepolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-deleteresourcepolicy-api-openapi.yml
-- filename: amazon-incident-manager-getincidentrecord-arn-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager GetIncidentRecord#arn API
-  slug: amazon-incident-manager-getincidentrecord-arn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getincidentrecord-arn-api-openapi.yml
-- filename: amazon-incident-manager-getreplicationset-arn-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager GetReplicationSet#arn API
-  slug: amazon-incident-manager-getreplicationset-arn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getreplicationset-arn-api-openapi.yml
-- filename: amazon-incident-manager-getresourcepolicies-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager GetResourcePolicies#resourceArn API
-  slug: amazon-incident-manager-getresourcepolicies-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getresourcepolicies-resourcearn-api-openapi.yml
-- filename: amazon-incident-manager-getresponseplan-arn-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager GetResponsePlan#arn API
-  slug: amazon-incident-manager-getresponseplan-arn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getresponseplan-arn-api-openapi.yml
-- filename: amazon-incident-manager-gettimelineevent-eventid-incidentrecordarn-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager GetTimelineEvent#eventId&incidentRecordArn API
-  slug: amazon-incident-manager-gettimelineevent-eventid-incidentrecordarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-gettimelineevent-eventid-incidentrecordarn-api-openapi.yml
 - filename: amazon-incident-manager-putresourcepolicy-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager PutResourcePolicy API
@@ -54,6 +18,42 @@ api_specs:
   slug: amazon-incident-manager-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-tags-api-openapi.yml
+- filename: amazon-incident-manager-deletereplicationset-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Delete Replication Set API
+  slug: amazon-incident-manager-deletereplicationset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-deletereplicationset-api-openapi.yml
+- filename: amazon-incident-manager-getincidentrecord-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Get Incident Record API
+  slug: amazon-incident-manager-getincidentrecord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getincidentrecord-api-openapi.yml
+- filename: amazon-incident-manager-getreplicationset-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Get Replication Set API
+  slug: amazon-incident-manager-getreplicationset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getreplicationset-api-openapi.yml
+- filename: amazon-incident-manager-getresourcepolicies-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Get Resource Policies API
+  slug: amazon-incident-manager-getresourcepolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getresourcepolicies-api-openapi.yml
+- filename: amazon-incident-manager-getresponseplan-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Get Response Plan API
+  slug: amazon-incident-manager-getresponseplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getresponseplan-api-openapi.yml
+- filename: amazon-incident-manager-gettimelineevent-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Get Timeline Event API
+  slug: amazon-incident-manager-gettimelineevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-gettimelineevent-api-openapi.yml
 - filename: amazon-incident-manager-create-replication-set-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Create Replication Set API

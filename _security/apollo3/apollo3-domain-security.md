@@ -34,6 +34,6 @@ tags:
 - IoT
 - Embedded
 - Microcontroller
-- LowPower
-- EdgeAI
+- Low Power
+- Edge AI
 ---

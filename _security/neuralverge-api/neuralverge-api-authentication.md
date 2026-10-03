@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: neuralverge-api-openapi.json
-  format: json
-  label: NeuralVerge REST API
-  slug: neuralverge-rest-api
+- filename: neuralverge-api-ai-agents-api-openapi.yml
+  format: yaml
+  label: NeuralVerge API AI Agents API
+  slug: neuralverge-api-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-agents-api-openapi.yml
+- filename: neuralverge-api-ai-extract-api-openapi.yml
+  format: yaml
+  label: NeuralVerge API AI Extract API
+  slug: neuralverge-api-ai-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-extract-api-openapi.yml
+- filename: neuralverge-api-ai-research-api-openapi.yml
+  format: yaml
+  label: NeuralVerge API AI Research API
+  slug: neuralverge-api-ai-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-research-api-openapi.yml
+- filename: neuralverge-api-data-sources-api-openapi.yml
+  format: yaml
+  label: NeuralVerge API Data Sources API
+  slug: neuralverge-api-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-data-sources-api-openapi.yml
+- filename: neuralverge-api-search-api-openapi.yml
+  format: yaml
+  label: NeuralVerge API Search API
+  slug: neuralverge-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-search-api-openapi.yml
 auth_types:
 - http
 description: ''

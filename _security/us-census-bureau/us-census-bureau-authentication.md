@@ -3,18 +3,6 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: us-census-bureau-2010-api-openapi.yml
-  format: yaml
-  label: US Census Bureau 2010 API
-  slug: us-census-bureau-2010-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-2010-api-openapi.yml
-- filename: us-census-bureau-2020-api-openapi.yml
-  format: yaml
-  label: US Census Bureau 2020 API
-  slug: us-census-bureau-2020-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-2020-api-openapi.yml
 - filename: us-census-bureau-acs-api-openapi.yml
   format: yaml
   label: US Census Bureau ACS API
@@ -111,6 +99,18 @@ api_specs:
   slug: us-census-bureau-sipp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-sipp-api-openapi.yml
+- filename: us-census-bureau-census2010-api-openapi.yml
+  format: yaml
+  label: US Census Bureau Census2010 API
+  slug: us-census-bureau-census2010-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-census2010-api-openapi.yml
+- filename: us-census-bureau-census2020-api-openapi.yml
+  format: yaml
+  label: US Census Bureau Census2020 API
+  slug: us-census-bureau-census2020-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-census2020-api-openapi.yml
 - filename: us-census-bureau-time-series-api-openapi.yml
   format: yaml
   label: US Census Bureau Time Series API

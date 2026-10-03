@@ -1,29 +1,47 @@
 ---
 api_specs:
-- filename: hiveagentiq-com-hivetrust-openapi.json
-  format: json
-  label: HiveTrust KYA Identity & Trust API
-  slug: hivetrust-kya-identity-trust-api
+- filename: hiveagentiq-com-bank-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Bank API
+  slug: hiveagentiq-com-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-hivetrust-openapi.json
-- filename: hiveagentiq-com-hivegate-openapi.json
-  format: json
-  label: HiveGate Admission, Identity & Pricing Tier API
-  slug: hivegate-admission-identity-api
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-bank-api-openapi.yml
+- filename: hiveagentiq-com-comply-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Comply API
+  slug: hiveagentiq-com-comply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-hivegate-openapi.json
-- filename: hiveagentiq-com-hivebank-openapi.json
-  format: json
-  label: HiveBank Treasury Attestation & Settlement API
-  slug: hivebank-treasury-api
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-comply-api-openapi.yml
+- filename: hiveagentiq-com-credential-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Credential API
+  slug: hiveagentiq-com-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-hivebank-openapi.json
-- filename: hiveagentiq-com-hivelaw-openapi.json
-  format: json
-  label: HiveLaw AI Legal Contracts & Compliance API
-  slug: hivelaw-legal-compliance-api
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-credential-api-openapi.yml
+- filename: hiveagentiq-com-gate-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Gate API
+  slug: hiveagentiq-com-gate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-hivelaw-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-gate-api-openapi.yml
+- filename: hiveagentiq-com-identity-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Identity API
+  slug: hiveagentiq-com-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-identity-api-openapi.yml
+- filename: hiveagentiq-com-law-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Law API
+  slug: hiveagentiq-com-law-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-law-api-openapi.yml
+- filename: hiveagentiq-com-trust-api-openapi.yml
+  format: yaml
+  label: Hive Agent IQ Trust API
+  slug: hiveagentiq-com-trust-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-trust-api-openapi.yml
 description: ''
 domains:
 - caa: []

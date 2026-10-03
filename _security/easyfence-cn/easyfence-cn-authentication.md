@@ -2,18 +2,66 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: easyfence-cn-store-api-openapi.yml
-  format: yaml
-  label: X402 AI 自助门店 Store API
-  slug: easyfence-cn-store-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-store-api-openapi.yml
 - filename: easyfence-cn-facilitator-api-openapi.yml
   format: yaml
   label: X402 AI 自助门店 x402 Facilitator API
   slug: easyfence-cn-x402-facilitator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-facilitator-api-openapi.yml
+- filename: easyfence-cn-a2a-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 A2a API
+  slug: easyfence-cn-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-a2a-api-openapi.yml
+- filename: easyfence-cn-admin-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 Admin API
+  slug: easyfence-cn-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-admin-api-openapi.yml
+- filename: easyfence-cn-catalog-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 Catalog API
+  slug: easyfence-cn-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-catalog-api-openapi.yml
+- filename: easyfence-cn-deliver-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 Deliver API
+  slug: easyfence-cn-deliver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-deliver-api-openapi.yml
+- filename: easyfence-cn-healthz-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 Healthz API
+  slug: easyfence-cn-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-healthz-api-openapi.yml
+- filename: easyfence-cn-identity-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 Identity API
+  slug: easyfence-cn-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-identity-api-openapi.yml
+- filename: easyfence-cn-registry-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 Registry API
+  slug: easyfence-cn-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-registry-api-openapi.yml
+- filename: easyfence-cn-well-known-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 .well Known API
+  slug: easyfence-cn-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-well-known-api-openapi.yml
+- filename: easyfence-cn-x402-ai-api-openapi.yml
+  format: yaml
+  label: X402 AI 自助门店 X402 AI 自助门店 API
+  slug: easyfence-cn-x402-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/easyfence-cn/refs/heads/main/openapi/easyfence-cn-x402-ai-api-openapi.yml
 auth_types:
 - none
 - x402-payment

@@ -9,12 +9,6 @@ api_specs:
   slug: apollo-insurance-affiliates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates-api-openapi.yml
-- filename: apollo-insurance-api-api-openapi.yml
-  format: yaml
-  label: APOLLO Insurance API
-  slug: apollo-insurance-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-api-api-openapi.yml
 - filename: apollo-insurance-compliance-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Compliance API

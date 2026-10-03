@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: liars-town-openapi.yml
+- filename: liars-town-act-api-openapi.yml
   format: yaml
-  label: liars.town Arena API
-  slug: liarstown-arena-api
+  label: liars.town Act API
+  slug: liars-town-act-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-act-api-openapi.yml
+- filename: liars-town-bots-api-openapi.yml
+  format: yaml
+  label: liars.town Bots API
+  slug: liars-town-bots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-bots-api-openapi.yml
+- filename: liars-town-export-api-openapi.yml
+  format: yaml
+  label: liars.town Export API
+  slug: liars-town-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-export-api-openapi.yml
+- filename: liars-town-games-api-openapi.yml
+  format: yaml
+  label: liars.town Games API
+  slug: liars-town-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-games-api-openapi.yml
+- filename: liars-town-join-api-openapi.yml
+  format: yaml
+  label: liars.town Join API
+  slug: liars-town-join-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-join-api-openapi.yml
+- filename: liars-town-leaderboard-api-openapi.yml
+  format: yaml
+  label: liars.town Leaderboard API
+  slug: liars-town-leaderboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-leaderboard-api-openapi.yml
+- filename: liars-town-me-api-openapi.yml
+  format: yaml
+  label: liars.town Me API
+  slug: liars-town-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-me-api-openapi.yml
+- filename: liars-town-observe-api-openapi.yml
+  format: yaml
+  label: liars.town Observe API
+  slug: liars-town-observe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-observe-api-openapi.yml
+- filename: liars-town-play-api-openapi.yml
+  format: yaml
+  label: liars.town Play API
+  slug: liars-town-play-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-play-api-openapi.yml
+- filename: liars-town-queue-api-openapi.yml
+  format: yaml
+  label: liars.town Queue API
+  slug: liars-town-queue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-queue-api-openapi.yml
 description: ''
 domains:
 - caa: []

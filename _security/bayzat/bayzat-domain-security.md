@@ -33,9 +33,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/security/bayzat-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- HR
+- Human Resources
 - Payroll
 - Benefits
-- SaaS
+- Software-as-a-Service
 - GCC
 ---

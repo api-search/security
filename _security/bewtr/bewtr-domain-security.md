@@ -36,5 +36,5 @@ tags:
 - Sustainability
 - Premium
 - BottledWater
-- CircularEconomy
+- Circular Economy
 ---

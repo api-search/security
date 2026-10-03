@@ -34,6 +34,6 @@ tags:
 - Company
 - Matchmaking
 - Matrimony
-- MobileApp
+- Mobile App
 - Indian
 ---

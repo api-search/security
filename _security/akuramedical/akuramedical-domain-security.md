@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akuramedical/r
 summary_line: TLSv1.3
 tags:
 - Company
-- MedicalDevice
+- Medical Devices
 - VascularHealth
 - Thrombectomy
 - Innovation

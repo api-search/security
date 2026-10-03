@@ -35,5 +35,5 @@ tags:
 - Entertainment
 - Film
 - Media
-- Studios
+- Studio
 ---

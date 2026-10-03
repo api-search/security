@@ -40,6 +40,5 @@ tags:
 - Mining
 - Construction
 - Defense
-- Startups
 - General Catalyst Portfolio
 ---

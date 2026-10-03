@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquishair/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- HairCare
-- ECommerce
-- UK
-- ConsumerGoods
+- Hair Care
+- E-Commerce
+- United Kingdom
+- Consumer Goods
 ---

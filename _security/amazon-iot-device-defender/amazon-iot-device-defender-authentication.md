@@ -207,12 +207,6 @@ api_specs:
   slug: amazon-iot-device-defender-managed-job-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-managed-job-templates-api-openapi.yml
-- filename: amazon-iot-device-defender-metric-values-thingname-metricname-starttime-endtime-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender Metric Values#thingName&metricName&startTime&endTime API
-  slug: amazon-iot-device-defender-metric-values-thingname-metricname-starttime-endtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-metric-values-thingname-metricname-starttime-endtime-api-openapi.yml
 - filename: amazon-iot-device-defender-mitigationactions-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Mitigationactions API
@@ -225,12 +219,6 @@ api_specs:
   slug: amazon-iot-device-defender-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-policies-api-openapi.yml
-- filename: amazon-iot-device-defender-policy-principals-x-amzn-iot-policy-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender Policy Principals#x Amzn Iot Policy API
-  slug: amazon-iot-device-defender-policy-principals-x-amzn-iot-policy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-policy-principals-x-amzn-iot-policy-api-openapi.yml
 - filename: amazon-iot-device-defender-policy-targets-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Policy Targets API
@@ -243,12 +231,6 @@ api_specs:
   slug: amazon-iot-device-defender-principal-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-principal-policies-api-openapi.yml
-- filename: amazon-iot-device-defender-principal-policies-x-amzn-iot-principal-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender Principal Policies#x Amzn Iot Principal API
-  slug: amazon-iot-device-defender-principal-policies-x-amzn-iot-principal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-principal-policies-x-amzn-iot-principal-api-openapi.yml
 - filename: amazon-iot-device-defender-principals-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Principals API
@@ -297,12 +279,6 @@ api_specs:
   slug: amazon-iot-device-defender-security-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-security-profiles-api-openapi.yml
-- filename: amazon-iot-device-defender-security-profiles-for-target-securityprofiletargetarn-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender Security Profiles For Target#securityProfileTargetArn API
-  slug: amazon-iot-device-defender-security-profiles-for-target-securityprofiletargetarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-security-profiles-for-target-securityprofiletargetarn-api-openapi.yml
 - filename: amazon-iot-device-defender-streams-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Streams API
@@ -315,12 +291,6 @@ api_specs:
   slug: amazon-iot-device-defender-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-tags-api-openapi.yml
-- filename: amazon-iot-device-defender-tags-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender Tags#resourceArn API
-  slug: amazon-iot-device-defender-tags-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-tags-resourcearn-api-openapi.yml
 - filename: amazon-iot-device-defender-target-policies-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Target Policies API
@@ -369,24 +339,36 @@ api_specs:
   slug: amazon-iot-device-defender-untag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-untag-api-openapi.yml
-- filename: amazon-iot-device-defender-v2logginglevel-targettype-targetname-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender V2LoggingLevel#targetType&targetName API
-  slug: amazon-iot-device-defender-v2logginglevel-targettype-targetname-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-v2logginglevel-targettype-targetname-api-openapi.yml
-- filename: amazon-iot-device-defender-violation-events-starttime-endtime-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender Violation Events#startTime&endTime API
-  slug: amazon-iot-device-defender-violation-events-starttime-endtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-violation-events-starttime-endtime-api-openapi.yml
 - filename: amazon-iot-device-defender-violations-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Violations API
   slug: amazon-iot-device-defender-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-violations-api-openapi.yml
+- filename: amazon-iot-device-defender-metric-values-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender Metric Values API
+  slug: amazon-iot-device-defender-metric-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-metric-values-api-openapi.yml
+- filename: amazon-iot-device-defender-policy-principals-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender Policy Principals API
+  slug: amazon-iot-device-defender-policy-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-policy-principals-api-openapi.yml
+- filename: amazon-iot-device-defender-security-profiles-for-target-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender Security Profiles For Target API
+  slug: amazon-iot-device-defender-security-profiles-for-target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-security-profiles-for-target-api-openapi.yml
+- filename: amazon-iot-device-defender-violation-events-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender Violation Events API
+  slug: amazon-iot-device-defender-violation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-violation-events-api-openapi.yml
 - filename: amazon-iot-device-defender-domain-configurations-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Domain Configurations API

@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: trustboost-dev-openapi.json
-  format: json
-  label: TrustBoost PII Sanitizer API
-  slug: trustboost-pii-sanitizer-api
+- filename: trustboost-dev-budget-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer Budget API
+  slug: trustboost-dev-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-budget-api-openapi.yml
+- filename: trustboost-dev-health-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer Health API
+  slug: trustboost-dev-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-health-api-openapi.yml
+- filename: trustboost-dev-mcp-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer MCP API
+  slug: trustboost-dev-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-mcp-api-openapi.yml
+- filename: trustboost-dev-message-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer Message API
+  slug: trustboost-dev-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-message-api-openapi.yml
+- filename: trustboost-dev-sanitize-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer Sanitize API
+  slug: trustboost-dev-sanitize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-sanitize-api-openapi.yml
+- filename: trustboost-dev-score-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer Score API
+  slug: trustboost-dev-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-score-api-openapi.yml
+- filename: trustboost-dev-verify-api-openapi.yml
+  format: yaml
+  label: TrustBoost PII Sanitizer Verify API
+  slug: trustboost-dev-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustboost-dev/refs/heads/main/openapi/trustboost-dev-verify-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

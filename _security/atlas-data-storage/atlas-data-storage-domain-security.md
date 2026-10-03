@@ -33,6 +33,5 @@ tags:
 - Cloud
 - Storage
 - Enterprise
-- API
 - Data Management
 ---

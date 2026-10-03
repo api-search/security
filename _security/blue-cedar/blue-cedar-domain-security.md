@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-cedar/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- MobileSecurity
+- Mobile Security
 - Enterprise
-- AppProtection
+- App Protection
 - Compliance
 ---

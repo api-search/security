@@ -33,6 +33,6 @@ tags:
 - Company
 - Technology
 - Finance
-- Startup
+- Startups
 - Arctic
 ---

@@ -1,11 +1,149 @@
 ---
 api_specs:
-- filename: unicourt-openapi-generated.yml
+- filename: unicourt-case-api-openapi.yml
   format: yaml
-  label: UniCourt API
-  slug: unicourt-api
+  label: UniCourt Case API
+  slug: unicourt-case-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/_ae-authored/unicourt-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-case-api-openapi.yml
+- filename: unicourt-casecountanalyticsbycasetype-api-openapi.yml
+  format: yaml
+  label: UniCourt Casecountanalyticsbycasetype API
+  slug: unicourt-casecountanalyticsbycasetype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-casecountanalyticsbycasetype-api-openapi.yml
+- filename: unicourt-casecountanalyticsbynormattorney-api-openapi.yml
+  format: yaml
+  label: UniCourt Casecountanalyticsbynormattorney API
+  slug: unicourt-casecountanalyticsbynormattorney-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-casecountanalyticsbynormattorney-api-openapi.yml
+- filename: unicourt-casecountanalyticsbynormlawfirm-api-openapi.yml
+  format: yaml
+  label: UniCourt Casecountanalyticsbynormlawfirm API
+  slug: unicourt-casecountanalyticsbynormlawfirm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-casecountanalyticsbynormlawfirm-api-openapi.yml
+- filename: unicourt-casedocumentorder-api-openapi.yml
+  format: yaml
+  label: UniCourt Casedocumentorder API
+  slug: unicourt-casedocumentorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-casedocumentorder-api-openapi.yml
+- filename: unicourt-caseexport-api-openapi.yml
+  format: yaml
+  label: UniCourt Caseexport API
+  slug: unicourt-caseexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-caseexport-api-openapi.yml
+- filename: unicourt-caseimport-api-openapi.yml
+  format: yaml
+  label: UniCourt Caseimport API
+  slug: unicourt-caseimport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-caseimport-api-openapi.yml
+- filename: unicourt-casesearch-api-openapi.yml
+  format: yaml
+  label: UniCourt Casesearch API
+  slug: unicourt-casesearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-casesearch-api-openapi.yml
+- filename: unicourt-caseupdate-api-openapi.yml
+  format: yaml
+  label: UniCourt Caseupdate API
+  slug: unicourt-caseupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-caseupdate-api-openapi.yml
+- filename: unicourt-caseupdates-api-openapi.yml
+  format: yaml
+  label: UniCourt Caseupdates API
+  slug: unicourt-caseupdates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-caseupdates-api-openapi.yml
+- filename: unicourt-masterdata-api-openapi.yml
+  format: yaml
+  label: UniCourt Masterdata API
+  slug: unicourt-masterdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-masterdata-api-openapi.yml
+- filename: unicourt-normattorney-api-openapi.yml
+  format: yaml
+  label: UniCourt Normattorney API
+  slug: unicourt-normattorney-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normattorney-api-openapi.yml
+- filename: unicourt-normattorneytrack-api-openapi.yml
+  format: yaml
+  label: UniCourt Normattorneytrack API
+  slug: unicourt-normattorneytrack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normattorneytrack-api-openapi.yml
+- filename: unicourt-normattorneytracks-api-openapi.yml
+  format: yaml
+  label: UniCourt Normattorneytracks API
+  slug: unicourt-normattorneytracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normattorneytracks-api-openapi.yml
+- filename: unicourt-normattorneyupdate-api-openapi.yml
+  format: yaml
+  label: UniCourt Normattorneyupdate API
+  slug: unicourt-normattorneyupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normattorneyupdate-api-openapi.yml
+- filename: unicourt-normattorneyupdates-api-openapi.yml
+  format: yaml
+  label: UniCourt Normattorneyupdates API
+  slug: unicourt-normattorneyupdates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normattorneyupdates-api-openapi.yml
+- filename: unicourt-normlawfirm-api-openapi.yml
+  format: yaml
+  label: UniCourt Normlawfirm API
+  slug: unicourt-normlawfirm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normlawfirm-api-openapi.yml
+- filename: unicourt-normlawfirmsearch-api-openapi.yml
+  format: yaml
+  label: UniCourt Normlawfirmsearch API
+  slug: unicourt-normlawfirmsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normlawfirmsearch-api-openapi.yml
+- filename: unicourt-normlawfirmtrack-api-openapi.yml
+  format: yaml
+  label: UniCourt Normlawfirmtrack API
+  slug: unicourt-normlawfirmtrack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normlawfirmtrack-api-openapi.yml
+- filename: unicourt-normlawfirmtracks-api-openapi.yml
+  format: yaml
+  label: UniCourt Normlawfirmtracks API
+  slug: unicourt-normlawfirmtracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normlawfirmtracks-api-openapi.yml
+- filename: unicourt-normlawfirmupdate-api-openapi.yml
+  format: yaml
+  label: UniCourt Normlawfirmupdate API
+  slug: unicourt-normlawfirmupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normlawfirmupdate-api-openapi.yml
+- filename: unicourt-normlawfirmupdates-api-openapi.yml
+  format: yaml
+  label: UniCourt Normlawfirmupdates API
+  slug: unicourt-normlawfirmupdates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-normlawfirmupdates-api-openapi.yml
+- filename: unicourt-pacercaselocator-api-openapi.yml
+  format: yaml
+  label: UniCourt Pacercaselocator API
+  slug: unicourt-pacercaselocator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-pacercaselocator-api-openapi.yml
+- filename: unicourt-pacercredential-api-openapi.yml
+  format: yaml
+  label: UniCourt Pacercredential API
+  slug: unicourt-pacercredential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unicourt/refs/heads/main/openapi/unicourt-pacercredential-api-openapi.yml
 description: ''
 domains:
 - caa:

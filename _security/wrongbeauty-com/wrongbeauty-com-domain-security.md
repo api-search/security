@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: wrongbeauty-com-swarm-api-openapi.yml
+- filename: wrongbeauty-com-agents-api-openapi.yml
   format: yaml
-  label: THE SWARM API
-  slug: the-swarm-api
+  label: WRONG BEAUTY 000 / THE SWARM Agents API
+  slug: wrongbeauty-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-swarm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-agents-api-openapi.yml
+- filename: wrongbeauty-com-contestation-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Contestation API
+  slug: wrongbeauty-com-contestation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-contestation-api-openapi.yml
+- filename: wrongbeauty-com-entry-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Entry API
+  slug: wrongbeauty-com-entry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-entry-api-openapi.yml
+- filename: wrongbeauty-com-ledger-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Ledger API
+  slug: wrongbeauty-com-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-ledger-api-openapi.yml
+- filename: wrongbeauty-com-production-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Production API
+  slug: wrongbeauty-com-production-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-production-api-openapi.yml
+- filename: wrongbeauty-com-service-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Service API
+  slug: wrongbeauty-com-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-service-api-openapi.yml
+- filename: wrongbeauty-com-submission-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Submission API
+  slug: wrongbeauty-com-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-submission-api-openapi.yml
+- filename: wrongbeauty-com-works-api-openapi.yml
+  format: yaml
+  label: WRONG BEAUTY 000 / THE SWARM Works API
+  slug: wrongbeauty-com-works-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-works-api-openapi.yml
 description: ''
 domains:
 - caa: []

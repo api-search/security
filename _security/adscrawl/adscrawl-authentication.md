@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/
 summary_line: 2 schemes
 tags:
 - Company
-- BrowserAutomation
+- Browser Automation
 - WebDataExtraction
 - Playwright
 - Puppeteer

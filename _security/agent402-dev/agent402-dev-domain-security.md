@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: agent402-dev-openapi.yml
+- filename: agent402-dev-developer-tools-api-openapi.yml
   format: yaml
-  label: Agent402 Direct x402 HTTP Resources
-  slug: agent402-direct-x402-http-resources
+  label: agent402.dev Developer tools API
+  slug: agent402-dev-developer-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-developer-tools-api-openapi.yml
+- filename: agent402-dev-downloads-api-openapi.yml
+  format: yaml
+  label: agent402.dev Downloads API
+  slug: agent402-dev-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-downloads-api-openapi.yml
+- filename: agent402-dev-productivity-api-openapi.yml
+  format: yaml
+  label: agent402.dev Productivity API
+  slug: agent402-dev-productivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-productivity-api-openapi.yml
 description: ''
 domains:
 - caa: []

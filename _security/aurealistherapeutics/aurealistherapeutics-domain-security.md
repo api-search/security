@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology
 - Therapeutics
-- ClinicalTrials
-- MedicalDevices
+- Clinical Trials
+- Medical Devices
 - Company
 ---

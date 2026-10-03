@@ -33,7 +33,6 @@ tags:
 - Company
 - Food
 - Delivery
-- API
-- Startup
+- Startups
 - Restaurant
 ---

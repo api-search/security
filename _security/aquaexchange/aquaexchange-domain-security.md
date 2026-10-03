@@ -35,5 +35,5 @@ tags:
 - Aquaculture
 - IoT
 - Sustainable Farming
-- Agriculture Technology
+- AgTech
 ---

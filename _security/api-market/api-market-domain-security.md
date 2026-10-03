@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: api-market-openapi-generated.yml
-  format: yaml
-  label: API.market API
-  slug: api-market-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-market/refs/heads/main/openapi/_ae-authored/api-market-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -50,9 +43,11 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-market/refs/heads/main/security/api-market-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Company
-- Marketplace
-- Artificial Intelligence
-- Integration
+- API Marketplace
 - MCP
+- AI Agents
+- API Monetization
+- Subscription
+- Usage Metering
+- Authentication
 ---

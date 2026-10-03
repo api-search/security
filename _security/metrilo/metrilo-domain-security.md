@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: metrilo-api-api-openapi.yml
+- filename: metrilo-category-api-openapi.yml
   format: yaml
-  label: Metrilo API
-  slug: metrilo-api-api
+  label: Metrilo Category API
+  slug: metrilo-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-category-api-openapi.yml
+- filename: metrilo-customer-api-openapi.yml
+  format: yaml
+  label: Metrilo Customer API
+  slug: metrilo-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-customer-api-openapi.yml
+- filename: metrilo-order-api-openapi.yml
+  format: yaml
+  label: Metrilo Order API
+  slug: metrilo-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-order-api-openapi.yml
+- filename: metrilo-product-api-openapi.yml
+  format: yaml
+  label: Metrilo Product API
+  slug: metrilo-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/openapi/metrilo-product-api-openapi.yml
 description: ''
 domains:
 - caa: []

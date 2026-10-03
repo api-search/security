@@ -34,6 +34,6 @@ tags:
 - Company
 - DNA
 - Rapid-Identification
-- Public-Safety
+- Public Safety
 - Biotechnology
 ---

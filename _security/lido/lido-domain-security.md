@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: lido-finance-apr-for-eth-and-steth-api-openapi.yml
+- filename: lido-apr-for-eth-and-steth-api-openapi.yml
   format: yaml
-  label: Lido Finance APR for Eth and stEth API
-  slug: lido-finance-apr-for-eth-and-steth-api
+  label: Lido APR for Eth and stEth API
+  slug: lido-apr-for-eth-and-steth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-apr-for-eth-and-steth-api-openapi.yml
-- filename: lido-finance-estimate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-apr-for-eth-and-steth-api-openapi.yml
+- filename: lido-estimate-api-openapi.yml
   format: yaml
-  label: Lido Finance Estimate API
-  slug: lido-finance-estimate-api
+  label: Lido Estimate API
+  slug: lido-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-estimate-api-openapi.yml
-- filename: lido-finance-nft-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-estimate-api-openapi.yml
+- filename: lido-nft-api-openapi.yml
   format: yaml
-  label: Lido Finance NFT API
-  slug: lido-finance-nft-api
+  label: Lido NFT API
+  slug: lido-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-nft-api-openapi.yml
-- filename: lido-finance-request-time-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-nft-api-openapi.yml
+- filename: lido-request-time-api-openapi.yml
   format: yaml
-  label: Lido Finance Request Time API
-  slug: lido-finance-request-time-api
+  label: Lido Request Time API
+  slug: lido-request-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-request-time-api-openapi.yml
-- filename: lido-finance-rewards-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-request-time-api-openapi.yml
+- filename: lido-rewards-api-openapi.yml
   format: yaml
-  label: Lido Finance Rewards API
-  slug: lido-finance-rewards-api
+  label: Lido Rewards API
+  slug: lido-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-rewards-api-openapi.yml
-- filename: lido-finance-swap-rate-for-steth-and-wsteth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-rewards-api-openapi.yml
+- filename: lido-swap-rate-for-steth-and-wsteth-api-openapi.yml
   format: yaml
-  label: Lido Finance Swap rate for stETH and wstETH API
-  slug: lido-finance-swap-rate-for-steth-and-wsteth-api
+  label: Lido Swap rate for stETH and wstETH API
+  slug: lido-swap-rate-for-steth-and-wsteth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-swap-rate-for-steth-and-wsteth-api-openapi.yml
-- filename: lido-finance-validators-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-swap-rate-for-steth-and-wsteth-api-openapi.yml
+- filename: lido-validators-api-openapi.yml
   format: yaml
-  label: Lido Finance Validators API
-  slug: lido-finance-validators-api
+  label: Lido Validators API
+  slug: lido-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-finance-validators-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/openapi/lido-validators-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -4,54 +4,216 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: avnet-iotconnect-master-openapi.yml
+- filename: avnet-adugroup-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT Master API
-  slug: avnet-iotconnect-master-api
+  label: Avnet ADU Group API
+  slug: avnet-adugroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-master-openapi.yml
-- filename: avnet-iotconnect-auth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-adugroup-api-openapi.yml
+- filename: avnet-attribute-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT Authenticate API
-  slug: avnet-iotconnect-authenticate-api
+  label: Avnet Attribute API
+  slug: avnet-attribute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-auth-openapi.yml
-- filename: avnet-iotconnect-user-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-attribute-api-openapi.yml
+- filename: avnet-auth-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT User API
-  slug: avnet-iotconnect-user-api
+  label: Avnet Auth API
+  slug: avnet-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-user-openapi.yml
-- filename: avnet-iotconnect-device-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-auth-api-openapi.yml
+- filename: avnet-azuresphere-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT Device API
-  slug: avnet-iotconnect-device-api
+  label: Avnet Azure Sphere API
+  slug: avnet-azuresphere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-device-openapi.yml
-- filename: avnet-iotconnect-firmware-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-azuresphere-api-openapi.yml
+- filename: avnet-certificate-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT Firmware API
-  slug: avnet-iotconnect-firmware-api
+  label: Avnet Certificate API
+  slug: avnet-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-firmware-openapi.yml
-- filename: avnet-iotconnect-event-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-certificate-api-openapi.yml
+- filename: avnet-cloudtemplate-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT Event API
-  slug: avnet-iotconnect-event-api
+  label: Avnet Cloud Template API
+  slug: avnet-cloudtemplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-event-openapi.yml
-- filename: avnet-iotconnect-telemetry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-cloudtemplate-api-openapi.yml
+- filename: avnet-command-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT Telemetry API
-  slug: avnet-iotconnect-telemetry-api
+  label: Avnet Command API
+  slug: avnet-command-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-telemetry-openapi.yml
-- filename: avnet-iotconnect-file-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-command-api-openapi.yml
+- filename: avnet-deployment-api-openapi.yml
   format: yaml
-  label: Avnet /IOTCONNECT File API
-  slug: avnet-iotconnect-file-api
+  label: Avnet Deployment API
+  slug: avnet-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotconnect-file-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-deployment-api-openapi.yml
+- filename: avnet-device-api-openapi.yml
+  format: yaml
+  label: Avnet Device API
+  slug: avnet-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-device-api-openapi.yml
+- filename: avnet-deviceoperation-api-openapi.yml
+  format: yaml
+  label: Avnet Device Operation API
+  slug: avnet-deviceoperation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-deviceoperation-api-openapi.yml
+- filename: avnet-deviceupdate-api-openapi.yml
+  format: yaml
+  label: Avnet Device Update API
+  slug: avnet-deviceupdate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-deviceupdate-api-openapi.yml
+- filename: avnet-directmethod-api-openapi.yml
+  format: yaml
+  label: Avnet Direct Method API
+  slug: avnet-directmethod-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-directmethod-api-openapi.yml
+- filename: avnet-entity-api-openapi.yml
+  format: yaml
+  label: Avnet Entity API
+  slug: avnet-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-entity-api-openapi.yml
+- filename: avnet-event-api-openapi.yml
+  format: yaml
+  label: Avnet Event API
+  slug: avnet-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-event-api-openapi.yml
+- filename: avnet-faq-api-openapi.yml
+  format: yaml
+  label: Avnet Faq API
+  slug: avnet-faq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-faq-api-openapi.yml
+- filename: avnet-file-api-openapi.yml
+  format: yaml
+  label: Avnet File API
+  slug: avnet-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-file-api-openapi.yml
+- filename: avnet-firmware-api-openapi.yml
+  format: yaml
+  label: Avnet Firmware API
+  slug: avnet-firmware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-firmware-api-openapi.yml
+- filename: avnet-firmwareupgrade-api-openapi.yml
+  format: yaml
+  label: Avnet Firmware Upgrade API
+  slug: avnet-firmwareupgrade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-firmwareupgrade-api-openapi.yml
+- filename: avnet-group-api-openapi.yml
+  format: yaml
+  label: Avnet Group API
+  slug: avnet-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-group-api-openapi.yml
+- filename: avnet-iotedgedeployment-api-openapi.yml
+  format: yaml
+  label: Avnet Io T Edge Deployment API
+  slug: avnet-iotedgedeployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-iotedgedeployment-api-openapi.yml
+- filename: avnet-jitprule-api-openapi.yml
+  format: yaml
+  label: Avnet Jitp Rule API
+  slug: avnet-jitprule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-jitprule-api-openapi.yml
+- filename: avnet-managedintegration-api-openapi.yml
+  format: yaml
+  label: Avnet Managed Integration API
+  slug: avnet-managedintegration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-managedintegration-api-openapi.yml
+- filename: avnet-master-api-openapi.yml
+  format: yaml
+  label: Avnet Master API
+  slug: avnet-master-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-master-api-openapi.yml
+- filename: avnet-module-api-openapi.yml
+  format: yaml
+  label: Avnet Module API
+  slug: avnet-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-module-api-openapi.yml
+- filename: avnet-ota-api-openapi.yml
+  format: yaml
+  label: Avnet OTA API
+  slug: avnet-ota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-ota-api-openapi.yml
+- filename: avnet-property-api-openapi.yml
+  format: yaml
+  label: Avnet Property API
+  slug: avnet-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-property-api-openapi.yml
+- filename: avnet-role-api-openapi.yml
+  format: yaml
+  label: Avnet Role API
+  slug: avnet-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-role-api-openapi.yml
+- filename: avnet-rule-api-openapi.yml
+  format: yaml
+  label: Avnet Rule API
+  slug: avnet-rule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-rule-api-openapi.yml
+- filename: avnet-setting-api-openapi.yml
+  format: yaml
+  label: Avnet Setting API
+  slug: avnet-setting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-setting-api-openapi.yml
+- filename: avnet-shorten-api-openapi.yml
+  format: yaml
+  label: Avnet Shorten API
+  slug: avnet-shorten-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-shorten-api-openapi.yml
+- filename: avnet-telemetry-api-openapi.yml
+  format: yaml
+  label: Avnet Telemetry API
+  slug: avnet-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-telemetry-api-openapi.yml
+- filename: avnet-template-api-openapi.yml
+  format: yaml
+  label: Avnet Template API
+  slug: avnet-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-template-api-openapi.yml
+- filename: avnet-user-api-openapi.yml
+  format: yaml
+  label: Avnet User API
+  slug: avnet-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-user-api-openapi.yml
+- filename: avnet-wirelessdevice-api-openapi.yml
+  format: yaml
+  label: Avnet Wireless Device API
+  slug: avnet-wirelessdevice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-wirelessdevice-api-openapi.yml
+- filename: avnet-data-export-api-openapi.yml
+  format: yaml
+  label: Avnet Data Export API
+  slug: avnet-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/openapi/avnet-data-export-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

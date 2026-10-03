@@ -33,5 +33,5 @@ tags:
 - Clean Energy
 - Hydrogen
 - Synthetic Fuels
-- Renewable
+- Renewables
 ---

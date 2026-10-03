@@ -35,5 +35,5 @@ tags:
 - Construction
 - Exhibition
 - Automation
-- AI
+- Artificial Intelligence
 ---

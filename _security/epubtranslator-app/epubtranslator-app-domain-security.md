@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: epubtranslator-app-openapi-generated.yml
+- filename: epubtranslator-app-apis-api-openapi.yml
   format: yaml
-  label: EPUB Translator API
-  slug: epubtranslator-app-api
+  label: EPUB Translator APIs API
+  slug: epubtranslator-app-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/openapi/_ae-authored/epubtranslator-app-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/openapi/epubtranslator-app-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,10 +38,10 @@ source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/security/epubtranslator-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Translation
 - EPUB
 - Book
-- SaaS
+- Software-as-a-Service
 - Company
 ---

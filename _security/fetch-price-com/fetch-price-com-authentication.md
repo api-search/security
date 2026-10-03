@@ -3,12 +3,24 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: fetch-price-com-openapi.yml
+- filename: fetch-price-com-agents-api-openapi.yml
   format: yaml
-  label: fetch-price API
-  slug: fetch-price-api
+  label: POLICYANDPLAY LTD Agents API
+  slug: fetch-price-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-agents-api-openapi.yml
+- filename: fetch-price-com-products-api-openapi.yml
+  format: yaml
+  label: POLICYANDPLAY LTD Products API
+  slug: fetch-price-com-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-products-api-openapi.yml
+- filename: fetch-price-com-service-api-openapi.yml
+  format: yaml
+  label: POLICYANDPLAY LTD Service API
+  slug: fetch-price-com-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-service-api-openapi.yml
 auth_types:
 - apiKey
 - http

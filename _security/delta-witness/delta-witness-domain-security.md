@@ -97,7 +97,7 @@ tags:
 - content-hashing
 - agent-guardrails
 - preflight-checks
-- x402-payments
+- x402 Payments
 - Pay-Per-Use
 - base-usdc
 - Autonomous Agents

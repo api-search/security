@@ -3,12 +3,66 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: claix-dev-openapi.yml
+- filename: claix-dev-documento-a-json-api-openapi.yml
   format: yaml
-  label: Claix Document Intelligence API
-  slug: claix-document-intelligence-api
+  label: Claix Documento a JSON API
+  slug: claix-dev-documento-a-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-documento-a-json-api-openapi.yml
+- filename: claix-dev-espacios-de-conocimiento-api-openapi.yml
+  format: yaml
+  label: Claix Espacios de Conocimiento API
+  slug: claix-dev-espacios-de-conocimiento-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-espacios-de-conocimiento-api-openapi.yml
+- filename: claix-dev-excel-a-json-api-openapi.yml
+  format: yaml
+  label: Claix Excel a JSON API
+  slug: claix-dev-excel-a-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-excel-a-json-api-openapi.yml
+- filename: claix-dev-imagen-a-json-api-openapi.yml
+  format: yaml
+  label: Claix Imagen a JSON API
+  slug: claix-dev-imagen-a-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-imagen-a-json-api-openapi.yml
+- filename: claix-dev-json-a-excel-api-openapi.yml
+  format: yaml
+  label: Claix JSON a Excel API
+  slug: claix-dev-json-a-excel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-json-a-excel-api-openapi.yml
+- filename: claix-dev-modo-agente-api-openapi.yml
+  format: yaml
+  label: Claix Modo Agente API
+  slug: claix-dev-modo-agente-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-modo-agente-api-openapi.yml
+- filename: claix-dev-pdf-a-json-api-openapi.yml
+  format: yaml
+  label: Claix PDF a JSON API
+  slug: claix-dev-pdf-a-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-pdf-a-json-api-openapi.yml
+- filename: claix-dev-schemas-api-openapi.yml
+  format: yaml
+  label: Claix Schemas API
+  slug: claix-dev-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-schemas-api-openapi.yml
+- filename: claix-dev-texto-a-json-api-openapi.yml
+  format: yaml
+  label: Claix Texto a JSON API
+  slug: claix-dev-texto-a-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-texto-a-json-api-openapi.yml
+- filename: claix-dev-ventana-de-contexto-api-openapi.yml
+  format: yaml
+  label: Claix Ventana de Contexto API
+  slug: claix-dev-ventana-de-contexto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-ventana-de-contexto-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: honesthook-api-openapi.json
-  format: json
-  label: HonestHook API API
-  slug: honesthook-api-api
+- filename: honesthook-bluesky-api-openapi.yml
+  format: yaml
+  label: HonestHook Bluesky API
+  slug: honesthook-bluesky-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/_original/honesthook-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-bluesky-api-openapi.yml
+- filename: honesthook-github-api-openapi.yml
+  format: yaml
+  label: HonestHook GitHub API
+  slug: honesthook-github-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-github-api-openapi.yml
+- filename: honesthook-history-api-openapi.yml
+  format: yaml
+  label: HonestHook History API
+  slug: honesthook-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-history-api-openapi.yml
+- filename: honesthook-instagram-api-openapi.yml
+  format: yaml
+  label: HonestHook Instagram API
+  slug: honesthook-instagram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-instagram-api-openapi.yml
+- filename: honesthook-linktree-api-openapi.yml
+  format: yaml
+  label: HonestHook Linktree API
+  slug: honesthook-linktree-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-linktree-api-openapi.yml
+- filename: honesthook-mastodon-api-openapi.yml
+  format: yaml
+  label: HonestHook Mastodon API
+  slug: honesthook-mastodon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-mastodon-api-openapi.yml
+- filename: honesthook-medium-api-openapi.yml
+  format: yaml
+  label: HonestHook Medium API
+  slug: honesthook-medium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-medium-api-openapi.yml
+- filename: honesthook-movers-api-openapi.yml
+  format: yaml
+  label: HonestHook Movers API
+  slug: honesthook-movers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-movers-api-openapi.yml
+- filename: honesthook-nichos-api-openapi.yml
+  format: yaml
+  label: HonestHook Nichos API
+  slug: honesthook-nichos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-nichos-api-openapi.yml
+- filename: honesthook-pinterest-api-openapi.yml
+  format: yaml
+  label: HonestHook Pinterest API
+  slug: honesthook-pinterest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-pinterest-api-openapi.yml
+- filename: honesthook-soundcloud-api-openapi.yml
+  format: yaml
+  label: HonestHook Soundcloud API
+  slug: honesthook-soundcloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-soundcloud-api-openapi.yml
+- filename: honesthook-threads-api-openapi.yml
+  format: yaml
+  label: HonestHook Threads API
+  slug: honesthook-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-threads-api-openapi.yml
+- filename: honesthook-tiktok-api-openapi.yml
+  format: yaml
+  label: HonestHook Tiktok API
+  slug: honesthook-tiktok-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-tiktok-api-openapi.yml
+- filename: honesthook-trends-api-openapi.yml
+  format: yaml
+  label: HonestHook Trends API
+  slug: honesthook-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honesthook/refs/heads/main/openapi/honesthook-trends-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -42,8 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honesthook/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Social Media
 - Data Aggregation
-- SaaS
+- Software-as-a-Service
 ---

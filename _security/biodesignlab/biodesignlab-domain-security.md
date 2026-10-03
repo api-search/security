@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Bioengineering
-- GeneTherapy
-- SyntheticBiology
+- Gene Therapy
+- Synthetic Biology
 ---

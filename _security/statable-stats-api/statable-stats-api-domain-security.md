@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: statable-stats-api-openapi.yml
+- filename: statable-stats-api-bootstrap-api-openapi.yml
   format: yaml
-  label: Statable Stats API
-  slug: statable-stats-api
+  label: Statable Stats API Bootstrap API
+  slug: statable-stats-api-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-bootstrap-api-openapi.yml
+- filename: statable-stats-api-keys-api-openapi.yml
+  format: yaml
+  label: Statable Stats API Keys API
+  slug: statable-stats-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-keys-api-openapi.yml
+- filename: statable-stats-api-sites-api-openapi.yml
+  format: yaml
+  label: Statable Stats API Sites API
+  slug: statable-stats-api-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-sites-api-openapi.yml
+- filename: statable-stats-api-stats-api-openapi.yml
+  format: yaml
+  label: Statable Stats API Stats API
+  slug: statable-stats-api-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []

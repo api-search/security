@@ -3,18 +3,72 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: broke2builtai-com-skills-openapi.json
-  format: json
-  label: broke2built Agent Skills API
-  slug: broke2builtai-com-agent-skills-api
+- filename: broke2builtai-com-buy-zero-api-openapi.yml
+  format: yaml
+  label: broke2built Buy Zero API
+  slug: broke2builtai-com-buy-zero-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-skills-openapi.json
-- filename: broke2builtai-com-zero-openapi.json
-  format: json
-  label: ZERO autonomous agent analysis API
-  slug: broke2builtai-com-zero-api
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-buy-zero-api-openapi.yml
+- filename: broke2builtai-com-contract-audit-api-openapi.yml
+  format: yaml
+  label: broke2built Contract Audit API
+  slug: broke2builtai-com-contract-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-zero-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-contract-audit-api-openapi.yml
+- filename: broke2builtai-com-interface-xray-api-openapi.yml
+  format: yaml
+  label: broke2built Interface Xray API
+  slug: broke2builtai-com-interface-xray-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-interface-xray-api-openapi.yml
+- filename: broke2builtai-com-payer-census-api-openapi.yml
+  format: yaml
+  label: broke2built Payer Census API
+  slug: broke2builtai-com-payer-census-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payer-census-api-openapi.yml
+- filename: broke2builtai-com-payout-oracle-api-openapi.yml
+  format: yaml
+  label: broke2built Payout Oracle API
+  slug: broke2builtai-com-payout-oracle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
+- filename: broke2builtai-com-resolver-allowlist-api-openapi.yml
+  format: yaml
+  label: broke2built Resolver Allowlist API
+  slug: broke2builtai-com-resolver-allowlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
+- filename: broke2builtai-com-source-verify-api-openapi.yml
+  format: yaml
+  label: broke2built Source Verify API
+  slug: broke2builtai-com-source-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-source-verify-api-openapi.yml
+- filename: broke2builtai-com-video-api-openapi.yml
+  format: yaml
+  label: broke2built Video API
+  slug: broke2builtai-com-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-video-api-openapi.yml
+- filename: broke2builtai-com-vies-check-api-openapi.yml
+  format: yaml
+  label: broke2built Vies Check API
+  slug: broke2builtai-com-vies-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-vies-check-api-openapi.yml
+- filename: broke2builtai-com-wallet-brief-api-openapi.yml
+  format: yaml
+  label: broke2built Wallet Brief API
+  slug: broke2builtai-com-wallet-brief-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
+- filename: broke2builtai-com-watch-api-openapi.yml
+  format: yaml
+  label: broke2built Watch API
+  slug: broke2builtai-com-watch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-watch-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

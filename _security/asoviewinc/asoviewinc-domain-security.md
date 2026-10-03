@@ -33,7 +33,7 @@ tags:
 - Company
 - Finance
 - Marketplace
-- PrivateEquity
-- PreIPO
+- Private Equity
+- Pre-IPO
 - Investment
 ---

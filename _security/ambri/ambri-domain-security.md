@@ -33,5 +33,5 @@ tags:
 - Energy
 - Storage
 - Battery
-- Renewable
+- Renewables
 ---

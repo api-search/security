@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: endeavor-biomedicines-mcp-api-openapi.yml
-  format: yaml
-  label: Endeavor BioMedicines MCP API
-  slug: endeavor-biomedicines-mcp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []

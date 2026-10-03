@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avaranormanpha
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Services
 - Healthcare
 - Biotechnology

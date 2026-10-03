@@ -30,18 +30,18 @@ api_specs:
   slug: aquabyte-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-sites-api-openapi.yml
-- filename: aquabyte-v3-0-api-openapi.yml
-  format: yaml
-  label: Aquabyte V3.0 API
-  slug: aquabyte-v3-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-v3-0-api-openapi.yml
 - filename: aquabyte-welfare-api-openapi.yml
   format: yaml
   label: Aquabyte Welfare API
   slug: aquabyte-welfare-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-welfare-api-openapi.yml
+- filename: aquabyte-pens-api-openapi.yml
+  format: yaml
+  label: Aquabyte Pens API
+  slug: aquabyte-pens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-pens-api-openapi.yml
 description: ''
 domains:
 - caa: []

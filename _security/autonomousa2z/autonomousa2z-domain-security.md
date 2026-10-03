@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Autonomous Vehicles
-- AI
+- Artificial Intelligence
 - Mobility
-- Korea
+- South Korea
 ---

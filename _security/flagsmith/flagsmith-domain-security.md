@@ -54,6 +54,96 @@ api_specs:
   slug: flagsmith-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-webhooks-api-openapi.yml
+- filename: flagsmith-admin-dashboard-api-openapi.yml
+  format: yaml
+  label: Flagsmith Admin dashboard API
+  slug: flagsmith-admin-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-admin-dashboard-api-openapi.yml
+- filename: flagsmith-analytics-api-openapi.yml
+  format: yaml
+  label: Flagsmith Analytics API
+  slug: flagsmith-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-analytics-api-openapi.yml
+- filename: flagsmith-audit-api-openapi.yml
+  format: yaml
+  label: Flagsmith Audit API
+  slug: flagsmith-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-audit-api-openapi.yml
+- filename: flagsmith-authentication-api-openapi.yml
+  format: yaml
+  label: Flagsmith Authentication API
+  slug: flagsmith-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-authentication-api-openapi.yml
+- filename: flagsmith-experimental-api-openapi.yml
+  format: yaml
+  label: Flagsmith Experimental API
+  slug: flagsmith-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-experimental-api-openapi.yml
+- filename: flagsmith-feature-states-api-openapi.yml
+  format: yaml
+  label: Flagsmith Feature states API
+  slug: flagsmith-feature-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-feature-states-api-openapi.yml
+- filename: flagsmith-integrations-api-openapi.yml
+  format: yaml
+  label: Flagsmith Integrations API
+  slug: flagsmith-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-integrations-api-openapi.yml
+- filename: flagsmith-mcp-api-openapi.yml
+  format: yaml
+  label: Flagsmith MCP API
+  slug: flagsmith-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-mcp-api-openapi.yml
+- filename: flagsmith-metadata-api-openapi.yml
+  format: yaml
+  label: Flagsmith Metadata API
+  slug: flagsmith-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-metadata-api-openapi.yml
+- filename: flagsmith-o-api-openapi.yml
+  format: yaml
+  label: Flagsmith O API
+  slug: flagsmith-o-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-o-api-openapi.yml
+- filename: flagsmith-onboarding-api-openapi.yml
+  format: yaml
+  label: Flagsmith Onboarding API
+  slug: flagsmith-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-onboarding-api-openapi.yml
+- filename: flagsmith-other-api-openapi.yml
+  format: yaml
+  label: Flagsmith Other API
+  slug: flagsmith-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-other-api-openapi.yml
+- filename: flagsmith-permissions-api-openapi.yml
+  format: yaml
+  label: Flagsmith Permissions API
+  slug: flagsmith-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-permissions-api-openapi.yml
+- filename: flagsmith-processor-api-openapi.yml
+  format: yaml
+  label: Flagsmith Processor API
+  slug: flagsmith-processor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-processor-api-openapi.yml
+- filename: flagsmith-sdk-api-openapi.yml
+  format: yaml
+  label: Flagsmith SDK API
+  slug: flagsmith-sdk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-sdk-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -46,4 +46,5 @@ tags:
 - Sustainability
 - Sweden
 - Nasdaq Stockholm
+- Consumer Packaged Goods
 ---

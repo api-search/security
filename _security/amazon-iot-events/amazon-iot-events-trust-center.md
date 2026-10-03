@@ -36,18 +36,12 @@ api_specs:
   slug: amazon-iot-events-logging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-logging-api-openapi.yml
-- filename: amazon-iot-events-tags-resourcearn-api-openapi.yml
+- filename: amazon-iot-events-tags-api-openapi.yml
   format: yaml
-  label: Amazon IoT Events Tags#resourceArn API
-  slug: amazon-iot-events-tags-resourcearn-api
+  label: Amazon IoT Events Tags API
+  slug: amazon-iot-events-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-tags-resourcearn-api-openapi.yml
-- filename: amazon-iot-events-tags-resource-arn-tag-keys-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Events Tags#resource Arn&tag Keys API
-  slug: amazon-iot-events-tags-resource-arn-tag-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-tags-resource-arn-tag-keys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-tags-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

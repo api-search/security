@@ -35,5 +35,5 @@ tags:
 - Clothing
 - Activewear
 - AmericanMade
-- ECommerce
+- E-Commerce
 ---

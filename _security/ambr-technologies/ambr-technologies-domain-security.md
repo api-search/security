@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/security/ambr-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise
 - Training
 - Roleplay
-- Communication
+- Communications
 ---

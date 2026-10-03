@@ -39,6 +39,6 @@ tags:
 - Venture Capital
 - Technology
 - Investment
-- AI
+- Artificial Intelligence
 - Bio-Health
 ---

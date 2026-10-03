@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angeleffect/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AngelInvesting
+- Angel Investing
 - Platform
-- StartupFunding
-- Network
+- Startup Funding
+- Networks
 ---

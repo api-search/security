@@ -48,4 +48,5 @@ tags:
 - Manufacturing
 - B2B Integration
 - Food and Beverage
+- Consumer Packaged Goods
 ---

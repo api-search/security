@@ -37,6 +37,5 @@ tags:
 - Analytics
 - Solana
 - Robinhood Chain
-- API
 trust_url: https://madeonsol.com/security
 ---

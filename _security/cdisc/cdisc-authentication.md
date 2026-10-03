@@ -39,24 +39,30 @@ api_specs:
   slug: cdisc-terminology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-terminology-api-openapi.yml
-- filename: cdisc-ars-api-openapi.yml
+- filename: cdisc-about-api-openapi.yml
   format: yaml
-  label: CDISC Analysis Results Standard (ARS) API
-  slug: cdisc-analysis-results-api
+  label: Cdisc About API
+  slug: cdisc-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-ars-api-openapi.yml
-- filename: cdisc-dataset-json-api-openapi.json
-  format: json
-  label: CDISC Dataset-JSON API (standard specification)
-  slug: cdisc-dataset-json-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-dataset-json-api-openapi.json
-- filename: cdisc-usdm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-about-api-openapi.yml
+- filename: cdisc-analysis-results-standards-ars-api-openapi.yml
   format: yaml
-  label: CDISC USDM (DDF) Study Definitions API
-  slug: cdisc-usdm-api
+  label: Cdisc Analysis Results Standards (ARS) API
+  slug: cdisc-analysis-results-standards-ars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-usdm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-analysis-results-standards-ars-api-openapi.yml
+- filename: cdisc-production-api-openapi.yml
+  format: yaml
+  label: Cdisc Production API
+  slug: cdisc-production-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-production-api-openapi.yml
+- filename: cdisc-studies-api-openapi.yml
+  format: yaml
+  label: Cdisc Studies API
+  slug: cdisc-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-studies-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

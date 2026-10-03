@@ -172,8 +172,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Construction
 - Software
-- API
 - Cloud
-- ProjectManagement
+- Project Management
 trust_url: https://trust.assignar.com/
 ---

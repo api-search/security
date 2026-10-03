@@ -194,12 +194,6 @@ api_specs:
   slug: llamaparse-usage-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-usage-metrics-api-openapi.yml
-- filename: llamaparse-v2-api-openapi.yml
-  format: yaml
-  label: LlamaParse V2 API
-  slug: llamaparse-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-v2-api-openapi.yml
 auth_types:
 - http
 description: ''

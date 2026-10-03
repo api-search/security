@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aresmaterials/
 summary_line: TLSv1.3
 tags:
 - Materials
-- AI
+- Artificial Intelligence
 - Platform
 - Engineering
 - Innovation

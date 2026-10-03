@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: workday-advanced-compensation-compensation-rest-v3-openapi.json
-  format: json
-  label: Workday Compensation REST API v3
-  slug: workday-compensation-rest-v3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-rest-v3-openapi.json
 - filename: workday-advanced-compensation-bonus-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Bonus Plans API
@@ -54,6 +48,30 @@ api_specs:
   slug: workday-advanced-compensation-stock-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-stock-plans-api-openapi.yml
+- filename: workday-advanced-compensation-prompt-values-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Prompt Values API
+  slug: workday-advanced-compensation-prompt-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-prompt-values-api-openapi.yml
+- filename: workday-advanced-compensation-scorecardresults-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Scorecard Results API
+  slug: workday-advanced-compensation-scorecardresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-scorecardresults-api-openapi.yml
+- filename: workday-advanced-compensation-scorecards-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Scorecards API
+  slug: workday-advanced-compensation-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-scorecards-api-openapi.yml
+- filename: workday-advanced-compensation-workers-api-openapi.yml
+  format: yaml
+  label: Workday Advanced Compensation Workers API
+  slug: workday-advanced-compensation-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-workers-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

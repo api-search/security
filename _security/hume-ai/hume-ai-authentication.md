@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: hume-ai-default-api-openapi.yml
-  format: yaml
-  label: Hume AI Ai Default API
-  slug: hume-ai-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-default-api-openapi.yml
 - filename: hume-ai-subpackage-batch-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Batch API
@@ -63,6 +57,12 @@ api_specs:
   slug: hume-ai-speech-to-speech-evi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-speech-to-speech-evi-api-openapi.yml
+- filename: hume-ai-tts-api-openapi.yml
+  format: yaml
+  label: Hume AI Tts API
+  slug: hume-ai-tts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-tts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

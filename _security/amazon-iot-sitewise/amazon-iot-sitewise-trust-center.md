@@ -30,12 +30,6 @@ api_specs:
   slug: amazon-iot-sitewise-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-dashboards-api-openapi.yml
-- filename: amazon-iot-sitewise-dashboards-projectid-api-openapi.yml
-  format: yaml
-  label: Amazon IoT SiteWise Dashboards#projectId API
-  slug: amazon-iot-sitewise-dashboards-projectid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-dashboards-projectid-api-openapi.yml
 - filename: amazon-iot-sitewise-gateways-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Gateways API
@@ -66,30 +60,18 @@ api_specs:
   slug: amazon-iot-sitewise-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-projects-api-openapi.yml
-- filename: amazon-iot-sitewise-projects-portalid-api-openapi.yml
-  format: yaml
-  label: Amazon IoT SiteWise Projects#portalId API
-  slug: amazon-iot-sitewise-projects-portalid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-projects-portalid-api-openapi.yml
 - filename: amazon-iot-sitewise-properties-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Properties API
   slug: amazon-iot-sitewise-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-properties-api-openapi.yml
-- filename: amazon-iot-sitewise-tags-resourcearn-api-openapi.yml
+- filename: amazon-iot-sitewise-tags-api-openapi.yml
   format: yaml
-  label: Amazon IoT SiteWise Tags#resourceArn API
-  slug: amazon-iot-sitewise-tags-resourcearn-api
+  label: Amazon IoT SiteWise Tags API
+  slug: amazon-iot-sitewise-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-resourcearn-api-openapi.yml
-- filename: amazon-iot-sitewise-tags-resource-arn-tag-keys-api-openapi.yml
-  format: yaml
-  label: Amazon IoT SiteWise Tags#resource Arn&tag Keys API
-  slug: amazon-iot-sitewise-tags-resource-arn-tag-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-resource-arn-tag-keys-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-api-openapi.yml
 - filename: amazon-iot-sitewise-time-series-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Time Series API

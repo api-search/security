@@ -34,6 +34,6 @@ tags:
 - Company
 - Marketplace
 - Art
-- E-commerce
+- E-Commerce
 - Community
 ---

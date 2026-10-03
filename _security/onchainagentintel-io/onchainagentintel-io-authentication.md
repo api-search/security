@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: onchainagentintel-io-openapi.yml
+- filename: onchainagentintel-io-paid-x402-api-openapi.yml
   format: yaml
-  label: Agent Zero ERC-8004 Agent Intelligence API
-  slug: agent-zero-erc-8004-agent-intelligence-api
+  label: Agent Zero Paid X402 API
+  slug: onchainagentintel-io-paid-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-paid-x402-api-openapi.yml
+- filename: onchainagentintel-io-public-api-openapi.yml
+  format: yaml
+  label: Agent Zero Public API
+  slug: onchainagentintel-io-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-public-api-openapi.yml
 auth_types:
 - apiKey
 description: Account-less and key-less. The docs state "All endpoints are x402-gated. No accounts or API keys required." The free /v1/public/* operations, the discovery documents and the MCP server need nothing; every paid operation (tag paid-x402) answers HTTP 402 first and treats a valid x402 payment proof as the credential. There is no OAuth, no OIDC, no bearer token and no user identity — the payer wallet address is the only principal, and a 30-day subscription binds entitlement to that wallet (wallet=<addr> query parameter). Baseline derived from the single securityScheme in the OpenAPI, upgraded from the docs' Quick Start, x402 Payment Flow and USDC via EIP-3009 sections and the services page.

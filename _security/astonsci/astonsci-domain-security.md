@@ -29,8 +29,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astonsci/refs/
 summary_line: no transport/DNS hardening detected
 tags:
 - Biopharma
-- Clinical-stage
+- Clinical Stage
 - Innovation
 - Medicine
-- SouthKorea
+- South Korea
 ---

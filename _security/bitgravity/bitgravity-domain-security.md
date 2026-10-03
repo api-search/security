@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitgravity/refs/heads/main/security/bitgravity-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Content Delivery Network
+- CDN
 - Enterprise Software
 - Cloud Networking
 - Video Streaming

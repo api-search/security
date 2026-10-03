@@ -82,10 +82,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/security/asapp3-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 tags:
-- AI
-- CustomerExperience
+- Artificial Intelligence
+- Customer Experience
 - Enterprise
-- ContactCenter
+- Contact Center
 - Platform
 - Company
 trust_url: https://trust.asapp.com/

@@ -70,13 +70,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-subscriptions-api-openapi.yml
 - filename: deluxe-payment-links-api-openapi.yml
   format: yaml
-  label: Deluxe Corporation Payment Links API
+  label: Deluxe Payment Links API
   slug: deluxe-payment-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-payment-links-api-openapi.yml
 - filename: deluxe-payment-methods-api-openapi.yml
   format: yaml
-  label: Deluxe Corporation Payment Methods API
+  label: Deluxe Payment Methods API
   slug: deluxe-payment-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-payment-methods-api-openapi.yml

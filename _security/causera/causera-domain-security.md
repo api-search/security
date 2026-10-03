@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/causera/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Startups
 - 500 Global
 - Portfolio
 - Defunct

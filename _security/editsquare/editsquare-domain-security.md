@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: editsquare-api-openapi.json
-  format: json
-  label: Edit Square API API
-  slug: edit-square-api-api
+- filename: editsquare-projects-api-openapi.yml
+  format: yaml
+  label: Edit Square Projects API
+  slug: editsquare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/openapi/_original/editsquare-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/openapi/editsquare-projects-api-openapi.yml
+- filename: editsquare-renders-api-openapi.yml
+  format: yaml
+  label: Edit Square Renders API
+  slug: editsquare-renders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/openapi/editsquare-renders-api-openapi.yml
+- filename: editsquare-teams-api-openapi.yml
+  format: yaml
+  label: Edit Square Teams API
+  slug: editsquare-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/openapi/editsquare-teams-api-openapi.yml
+- filename: editsquare-templates-api-openapi.yml
+  format: yaml
+  label: Edit Square Templates API
+  slug: editsquare-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/openapi/editsquare-templates-api-openapi.yml
+- filename: editsquare-users-api-openapi.yml
+  format: yaml
+  label: Edit Square Users API
+  slug: editsquare-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/openapi/editsquare-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,6 +62,5 @@ summary_line: TLSv1.3
 tags:
 - Motion Graphics
 - Video Editing
-- API
 - Cloud Rendering
 ---

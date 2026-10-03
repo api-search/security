@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Construction
 - Safety
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Platform
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - Energy
 - Technology
-- Renewable
+- Renewables
 - Placeholder
 ---

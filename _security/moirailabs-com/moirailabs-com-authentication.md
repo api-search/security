@@ -2,12 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: moirailabs-com-openapi.yml
+- filename: moirailabs-com-analytics-controller-api-openapi.yml
   format: yaml
-  label: Moirai Labs API
-  slug: moirai-labs-api
+  label: Moirai Labs Analytics Controller API
+  slug: moirailabs-com-analytics-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-analytics-controller-api-openapi.yml
+- filename: moirailabs-com-analytics-invocation-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Analytics Invocation Controller API
+  slug: moirailabs-com-analytics-invocation-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-analytics-invocation-controller-api-openapi.yml
+- filename: moirailabs-com-contract-info-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Contract Info Controller API
+  slug: moirailabs-com-contract-info-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-contract-info-controller-api-openapi.yml
+- filename: moirailabs-com-functions-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Functions Controller API
+  slug: moirailabs-com-functions-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-functions-controller-api-openapi.yml
+- filename: moirailabs-com-plan-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Plan Controller API
+  slug: moirailabs-com-plan-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-plan-controller-api-openapi.yml
+- filename: moirailabs-com-report-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Report Controller API
+  slug: moirailabs-com-report-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-report-controller-api-openapi.yml
+- filename: moirailabs-com-subscription-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Subscription Controller API
+  slug: moirailabs-com-subscription-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-subscription-controller-api-openapi.yml
+- filename: moirailabs-com-user-info-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs User Info Controller API
+  slug: moirailabs-com-user-info-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-user-info-controller-api-openapi.yml
+- filename: moirailabs-com-wallet-profiling-controller-api-openapi.yml
+  format: yaml
+  label: Moirai Labs Wallet Profiling Controller API
+  slug: moirailabs-com-wallet-profiling-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-wallet-profiling-controller-api-openapi.yml
 auth_types:
 - http
 description: ''

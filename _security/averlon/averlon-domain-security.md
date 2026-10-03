@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - Vulnerability Management
 - Automation
 ---

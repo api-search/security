@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/araya/refs/heads/main/security/araya-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Neurotechnology
 - Japan
 - Business

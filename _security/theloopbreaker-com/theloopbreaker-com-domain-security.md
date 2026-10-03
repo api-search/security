@@ -1,11 +1,107 @@
 ---
 api_specs:
-- filename: theloopbreaker-com-openapi.yml
+- filename: theloopbreaker-com-agent-api-openapi.yml
   format: yaml
-  label: Vaultfire Agent Hub API
-  slug: vaultfire-agent-hub-api
+  label: Vaultfire Protocol Agent API
+  slug: theloopbreaker-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-agent-api-openapi.yml
+- filename: theloopbreaker-com-analytics-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Analytics API
+  slug: theloopbreaker-com-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-analytics-api-openapi.yml
+- filename: theloopbreaker-com-bonds-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Bonds API
+  slug: theloopbreaker-com-bonds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-bonds-api-openapi.yml
+- filename: theloopbreaker-com-bridge-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Bridge API
+  slug: theloopbreaker-com-bridge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-bridge-api-openapi.yml
+- filename: theloopbreaker-com-compliance-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Compliance API
+  slug: theloopbreaker-com-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-compliance-api-openapi.yml
+- filename: theloopbreaker-com-discovery-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Discovery API
+  slug: theloopbreaker-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-discovery-api-openapi.yml
+- filename: theloopbreaker-com-disputes-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Disputes API
+  slug: theloopbreaker-com-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-disputes-api-openapi.yml
+- filename: theloopbreaker-com-governance-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Governance API
+  slug: theloopbreaker-com-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-governance-api-openapi.yml
+- filename: theloopbreaker-com-identity-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Identity API
+  slug: theloopbreaker-com-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-identity-api-openapi.yml
+- filename: theloopbreaker-com-insurance-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Insurance API
+  slug: theloopbreaker-com-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-insurance-api-openapi.yml
+- filename: theloopbreaker-com-keys-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Keys API
+  slug: theloopbreaker-com-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-keys-api-openapi.yml
+- filename: theloopbreaker-com-protocol-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Protocol API
+  slug: theloopbreaker-com-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-protocol-api-openapi.yml
+- filename: theloopbreaker-com-routing-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Routing API
+  slug: theloopbreaker-com-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-routing-api-openapi.yml
+- filename: theloopbreaker-com-system-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol System API
+  slug: theloopbreaker-com-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-system-api-openapi.yml
+- filename: theloopbreaker-com-tasks-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Tasks API
+  slug: theloopbreaker-com-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-tasks-api-openapi.yml
+- filename: theloopbreaker-com-trust-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Trust API
+  slug: theloopbreaker-com-trust-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-trust-api-openapi.yml
+- filename: theloopbreaker-com-webhooks-api-openapi.yml
+  format: yaml
+  label: Vaultfire Protocol Webhooks API
+  slug: theloopbreaker-com-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theloopbreaker-com/refs/heads/main/openapi/theloopbreaker-com-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

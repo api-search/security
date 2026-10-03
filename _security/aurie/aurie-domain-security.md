@@ -31,8 +31,8 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aurie/refs/heads/main/security/aurie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- MedicalDevice
-- HealthTech
+- Medical Devices
+- Health Tech
 - Catheter
 - Reusable
 - FDA

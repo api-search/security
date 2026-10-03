@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aurasell/refs/
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales
 - CRM
 - Platform

@@ -86,8 +86,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
-- FinTech
+- Fintech
 - Digital Banking
 - API Platform
-- AI-native
+- AI-Native
 ---

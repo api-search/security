@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: suitecrm-openapi-generated.yml
+- filename: suitecrm-access-token-api-openapi.yml
   format: yaml
-  label: SuiteCRM API
-  slug: suitecrm-api
+  label: SuiteCRM Access Token API
+  slug: suitecrm-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/_ae-authored/suitecrm-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-access-token-api-openapi.yml
+- filename: suitecrm-authorize-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Authorize API
+  slug: suitecrm-authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-authorize-api-openapi.yml
+- filename: suitecrm-current-user-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Current User API
+  slug: suitecrm-current-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-current-user-api-openapi.yml
+- filename: suitecrm-listview-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Listview API
+  slug: suitecrm-listview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-listview-api-openapi.yml
+- filename: suitecrm-logout-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Logout API
+  slug: suitecrm-logout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-logout-api-openapi.yml
+- filename: suitecrm-meta-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Meta API
+  slug: suitecrm-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-meta-api-openapi.yml
+- filename: suitecrm-module-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Module API
+  slug: suitecrm-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-module-api-openapi.yml
+- filename: suitecrm-search-defs-api-openapi.yml
+  format: yaml
+  label: SuiteCRM Search Defs API
+  slug: suitecrm-search-defs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-search-defs-api-openapi.yml
+- filename: suitecrm-user-preferences-api-openapi.yml
+  format: yaml
+  label: SuiteCRM User Preferences API
+  slug: suitecrm-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suitecrm/refs/heads/main/openapi/suitecrm-user-preferences-api-openapi.yml
 description: ''
 domains:
 - caa: []

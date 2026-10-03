@@ -854,7 +854,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-what-if-grades-api-openapi.yml
 - filename: canvas-jwts-api-openapi.yml
   format: yaml
-  label: Canvas JW Ts API
+  label: Canvas JWTs API
   slug: canvas-jwts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-jwts-api-openapi.yml

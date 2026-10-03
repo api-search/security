@@ -148,10 +148,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/security/findlocal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Events
-- API
+- Event
 - Hyperlocal
 - Community
 - Data
-- OpenData
+- Open Data
 ---

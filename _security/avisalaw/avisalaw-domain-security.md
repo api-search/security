@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avisalaw/refs/heads/main/security/avisalaw-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- LegalTech
-- SaaS
+- Legal Tech
+- Software-as-a-Service
 - LawFirmSoftware
-- PracticeManagement
+- Practice Management
 - Company
 ---

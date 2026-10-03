@@ -18,18 +18,12 @@ api_specs:
   slug: amazon-secrets-manager-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-secrets-api-openapi.yml
-- filename: amazon-secrets-manager-tag-resource-api-openapi.yml
+- filename: amazon-secrets-manager-amazon-secrets-manager-api-api-openapi.yml
   format: yaml
-  label: Amazon Secrets Manager Tag Resource API
-  slug: amazon-secrets-manager-tag-resource-api
+  label: Amazon Secrets Manager Amazon Secrets Manager API
+  slug: amazon-secrets-manager-amazon-secrets-manager-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-tag-resource-api-openapi.yml
-- filename: amazon-secrets-manager-untag-resource-api-openapi.yml
-  format: yaml
-  label: Amazon Secrets Manager Untag Resource API
-  slug: amazon-secrets-manager-untag-resource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-untag-resource-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-amazon-secrets-manager-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

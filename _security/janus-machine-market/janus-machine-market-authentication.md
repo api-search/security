@@ -2,18 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: janus-machine-market-search-github-ingress-openapi.yml
+- filename: janus-machine-market-repos-api-openapi.yml
   format: yaml
-  label: JANUS.SEARCH GitHub Issues Ingress
-  slug: janus-search-github-ingress
+  label: JANUS Machine Market Repos API
+  slug: janus-machine-market-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/openapi/janus-machine-market-search-github-ingress-openapi.yml
-- filename: janus-machine-market-pr-review-github-ingress-openapi.yml
-  format: yaml
-  label: JANUS.PR_REVIEW GitHub Issues Ingress
-  slug: janus-pr-review-github-ingress
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/openapi/janus-machine-market-pr-review-github-ingress-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/openapi/janus-machine-market-repos-api-openapi.yml
 auth_types:
 - http
 description: ''

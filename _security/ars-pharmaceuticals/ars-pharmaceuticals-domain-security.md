@@ -34,5 +34,5 @@ tags:
 - Biopharma
 - Healthcare
 - Pharmaceuticals
-- RareDiseases
+- Rare Disease
 ---

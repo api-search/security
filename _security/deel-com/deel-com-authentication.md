@@ -236,12 +236,6 @@ api_specs:
   slug: deel-com-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-webhooks-api-openapi.yml
-- filename: deel-com-default-api-openapi.yml
-  format: yaml
-  label: Deel Com Default API
-  slug: deel-com-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-default-api-openapi.yml
 - filename: deel-com-subpackage-accounting-api-openapi.yml
   format: yaml
   label: Deel Subpackage Accounting API
@@ -770,6 +764,12 @@ api_specs:
   slug: deel-com-subpackage-workersession-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-workersession-api-openapi.yml
+- filename: deel-com-profiles-api-openapi.yml
+  format: yaml
+  label: Deel Profiles API
+  slug: deel-com-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-profiles-api-openapi.yml
 auth_types:
 - http
 description: ''

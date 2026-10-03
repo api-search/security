@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: armadaai-openapi-generated.yml
+- filename: armadaai-armadaai-api-api-openapi.yml
   format: yaml
-  label: Armadaai API
-  slug: armadaai-api
+  label: Armadaai Armadaai API
+  slug: armadaai-armadaai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/_ae-authored/armadaai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-armadaai-api-api-openapi.yml
+- filename: armadaai-health-api-openapi.yml
+  format: yaml
+  label: Armadaai Health API
+  slug: armadaai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-health-api-openapi.yml
+- filename: armadaai-kubernetes-sigs-api-openapi.yml
+  format: yaml
+  label: Armadaai Kubernetes Sigs API
+  slug: armadaai-kubernetes-sigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-kubernetes-sigs-api-openapi.yml
+- filename: armadaai-metrics-api-openapi.yml
+  format: yaml
+  label: Armadaai Metrics API
+  slug: armadaai-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armadaai/refs/heads/main/openapi/armadaai-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []

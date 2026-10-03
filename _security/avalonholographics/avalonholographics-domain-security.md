@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avalonholographics/refs/heads/main/security/avalonholographics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- holography
-- display
-- imaging
-- technology
-- startup
+- Holography
+- Displays
+- Imaging
+- Technology
+- Startups
 - Company
 ---

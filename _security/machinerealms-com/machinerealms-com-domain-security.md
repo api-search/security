@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: machinerealms-com-research-commons-openapi.json
-  format: json
-  label: Machine Realms Research Commons API
-  slug: research-commons-api
+- filename: machinerealms-com-commons-api-openapi.yml
+  format: yaml
+  label: Machine Realms Commons API
+  slug: machinerealms-com-commons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinerealms-com/refs/heads/main/openapi/machinerealms-com-research-commons-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/machinerealms-com/refs/heads/main/openapi/machinerealms-com-commons-api-openapi.yml
 description: ''
 domains:
 - caa: []

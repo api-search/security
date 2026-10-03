@@ -45,9 +45,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Video Generation
-- Image-Generation
+- Image Generation
 - MCP
-- agent-native
+- Agent-Native
 - Text-to-Video
 - Image-to-Video
 - Creative Production

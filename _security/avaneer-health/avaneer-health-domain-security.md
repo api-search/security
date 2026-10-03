@@ -33,6 +33,6 @@ tags:
 - Healthcare
 - Revenue Cycle
 - Interoperability
-- Real-time Data
+- Real-Time Data
 - API Platform
 ---

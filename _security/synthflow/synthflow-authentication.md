@@ -3,12 +3,6 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: synthflow-default-api-openapi.yml
-  format: yaml
-  label: Synthflow Default API
-  slug: synthflow-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-default-api-openapi.yml
 - filename: synthflow-chat-api-openapi.yml
   format: yaml
   label: Synthflow Chat API
@@ -33,6 +27,78 @@ api_specs:
   slug: synthflow-memory-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memory-stores-api-openapi.yml
+- filename: synthflow-actions-api-openapi.yml
+  format: yaml
+  label: Synthflow Actions API
+  slug: synthflow-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-actions-api-openapi.yml
+- filename: synthflow-analytics-api-openapi.yml
+  format: yaml
+  label: Synthflow Analytics API
+  slug: synthflow-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-analytics-api-openapi.yml
+- filename: synthflow-assistants-api-openapi.yml
+  format: yaml
+  label: Synthflow Assistants API
+  slug: synthflow-assistants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-assistants-api-openapi.yml
+- filename: synthflow-calls-api-openapi.yml
+  format: yaml
+  label: Synthflow Calls API
+  slug: synthflow-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-calls-api-openapi.yml
+- filename: synthflow-knowledge-base-api-openapi.yml
+  format: yaml
+  label: Synthflow Knowledge Base API
+  slug: synthflow-knowledge-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-knowledge-base-api-openapi.yml
+- filename: synthflow-phonebooks-api-openapi.yml
+  format: yaml
+  label: Synthflow Phonebooks API
+  slug: synthflow-phonebooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonebooks-api-openapi.yml
+- filename: synthflow-simulation-cases-api-openapi.yml
+  format: yaml
+  label: Synthflow Simulation Cases API
+  slug: synthflow-simulation-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-cases-api-openapi.yml
+- filename: synthflow-simulation-scenarios-api-openapi.yml
+  format: yaml
+  label: Synthflow Simulation Scenarios API
+  slug: synthflow-simulation-scenarios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-scenarios-api-openapi.yml
+- filename: synthflow-simulation-suites-api-openapi.yml
+  format: yaml
+  label: Synthflow Simulation Suites API
+  slug: synthflow-simulation-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-suites-api-openapi.yml
+- filename: synthflow-simulations-api-openapi.yml
+  format: yaml
+  label: Synthflow Simulations API
+  slug: synthflow-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulations-api-openapi.yml
+- filename: synthflow-subaccounts-api-openapi.yml
+  format: yaml
+  label: Synthflow Subaccounts API
+  slug: synthflow-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subaccounts-api-openapi.yml
+- filename: synthflow-voices-api-openapi.yml
+  format: yaml
+  label: Synthflow Voices API
+  slug: synthflow-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-voices-api-openapi.yml
 - filename: synthflow-phone-numbers-api-openapi.yml
   format: yaml
   label: Synthflow Phone Numbers API

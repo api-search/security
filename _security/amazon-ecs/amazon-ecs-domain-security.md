@@ -30,36 +30,12 @@ api_specs:
   slug: amazon-ecs-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-tasks-api-openapi.yml
-- filename: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-createservice-api-openapi.yml
+- filename: amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api-openapi.yml
   format: yaml
-  label: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
-  slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-createservice-api
+  label: Amazon ECS Amazon ECS Amazon Elastic Container Service (ECS) API
+  slug: amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-x-amz-target-amazonec2containerservicev20141113-createservice-api-openapi.yml
-- filename: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-deleteservice-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
-  slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-x-amz-target-amazonec2containerservicev20141113-deleteservice-api-openapi.yml
-- filename: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-describeservices-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
-  slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-describeservices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-x-amz-target-amazonec2containerservicev20141113-describeservices-api-openapi.yml
-- filename: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-listservices-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
-  slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-listservices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-x-amz-target-amazonec2containerservicev20141113-listservices-api-openapi.yml
-- filename: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
-  slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Animal Health
 - Data Platform
-- API
-- SaaS
+- Software-as-a-Service
 - Innovation
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Accounting
 - Tax
-- FinTech
+- Fintech
 - Bookkeeping
-- Startup
+- Startups
 ---

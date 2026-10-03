@@ -207,12 +207,6 @@ api_specs:
   slug: amazon-iot-core-managed-job-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-managed-job-templates-api-openapi.yml
-- filename: amazon-iot-core-metric-values-thingname-metricname-starttime-endtime-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Metric Values#thingName&metricName&startTime&endTime API
-  slug: amazon-iot-core-metric-values-thingname-metricname-starttime-endtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-metric-values-thingname-metricname-starttime-endtime-api-openapi.yml
 - filename: amazon-iot-core-mitigationactions-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Mitigationactions API
@@ -225,12 +219,6 @@ api_specs:
   slug: amazon-iot-core-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-policies-api-openapi.yml
-- filename: amazon-iot-core-policy-principals-x-amzn-iot-policy-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Policy Principals#x Amzn Iot Policy API
-  slug: amazon-iot-core-policy-principals-x-amzn-iot-policy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-policy-principals-x-amzn-iot-policy-api-openapi.yml
 - filename: amazon-iot-core-policy-targets-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Policy Targets API
@@ -243,12 +231,6 @@ api_specs:
   slug: amazon-iot-core-principal-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-principal-policies-api-openapi.yml
-- filename: amazon-iot-core-principal-policies-x-amzn-iot-principal-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Principal Policies#x Amzn Iot Principal API
-  slug: amazon-iot-core-principal-policies-x-amzn-iot-principal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-principal-policies-x-amzn-iot-principal-api-openapi.yml
 - filename: amazon-iot-core-principals-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Principals API
@@ -297,12 +279,6 @@ api_specs:
   slug: amazon-iot-core-security-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-security-profiles-api-openapi.yml
-- filename: amazon-iot-core-security-profiles-for-target-securityprofiletargetarn-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Security Profiles For Target#securityProfileTargetArn API
-  slug: amazon-iot-core-security-profiles-for-target-securityprofiletargetarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-security-profiles-for-target-securityprofiletargetarn-api-openapi.yml
 - filename: amazon-iot-core-shadows-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Shadows API
@@ -321,12 +297,6 @@ api_specs:
   slug: amazon-iot-core-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-tags-api-openapi.yml
-- filename: amazon-iot-core-tags-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Tags#resourceArn API
-  slug: amazon-iot-core-tags-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-tags-resourcearn-api-openapi.yml
 - filename: amazon-iot-core-target-policies-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Target Policies API
@@ -375,24 +345,36 @@ api_specs:
   slug: amazon-iot-core-untag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-untag-api-openapi.yml
-- filename: amazon-iot-core-v2logginglevel-targettype-targetname-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core V2LoggingLevel#targetType&targetName API
-  slug: amazon-iot-core-v2logginglevel-targettype-targetname-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-v2logginglevel-targettype-targetname-api-openapi.yml
-- filename: amazon-iot-core-violation-events-starttime-endtime-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Violation Events#startTime&endTime API
-  slug: amazon-iot-core-violation-events-starttime-endtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-violation-events-starttime-endtime-api-openapi.yml
 - filename: amazon-iot-core-violations-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Violations API
   slug: amazon-iot-core-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-violations-api-openapi.yml
+- filename: amazon-iot-core-metric-values-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Metric Values API
+  slug: amazon-iot-core-metric-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-metric-values-api-openapi.yml
+- filename: amazon-iot-core-policy-principals-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Policy Principals API
+  slug: amazon-iot-core-policy-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-policy-principals-api-openapi.yml
+- filename: amazon-iot-core-security-profiles-for-target-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Security Profiles For Target API
+  slug: amazon-iot-core-security-profiles-for-target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-security-profiles-for-target-api-openapi.yml
+- filename: amazon-iot-core-violation-events-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Violation Events API
+  slug: amazon-iot-core-violation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-violation-events-api-openapi.yml
 - filename: amazon-iot-core-domain-configurations-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Domain Configurations API

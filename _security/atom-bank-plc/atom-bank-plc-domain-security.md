@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Banking
-- DigitalBank
-- UK
-- FinTech
+- Digital Bank
+- United Kingdom
+- Fintech
 ---

@@ -156,18 +156,18 @@ api_specs:
   slug: amadeus-trip-purpose-prediction-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-trip-purpose-prediction-api-openapi.yml
-- filename: amadeus-media-hotel-content-api-openapi.yml
+- filename: amadeus-hotel-content-api-openapi.yml
   format: yaml
   label: Amadeus Hotel Content API
-  slug: amadeus-media-hotel-content-api
+  slug: amadeus-hotel-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-media-hotel-content-api-openapi.yml
-- filename: amadeus-media-hotel-media-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-hotel-content-api-openapi.yml
+- filename: amadeus-hotel-media-api-openapi.yml
   format: yaml
   label: Amadeus Hotel Media API
-  slug: amadeus-media-hotel-media-api
+  slug: amadeus-hotel-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-media-hotel-media-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-hotel-media-api-openapi.yml
 description: ''
 domains:
 - caa: []

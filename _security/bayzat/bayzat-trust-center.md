@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-09-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/security/bayzat-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- HR
+- Human Resources
 - Payroll
 - Benefits
-- SaaS
+- Software-as-a-Service
 - GCC
 trust_url: https://www.bayzat.com/security
 ---

@@ -34,9 +34,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- sanctions
-- compliance
-- screening
-- API
-- fintech
+- Sanctions
+- Compliance
+- Screening
+- Fintech
 ---

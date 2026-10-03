@@ -2,6 +2,13 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: thecoinanalysis-public-api-api-openapi.yml
+  format: yaml
+  label: The Coin Analysis Public API
+  slug: thecoinanalysis-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/openapi/thecoinanalysis-public-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -34,6 +41,5 @@ tags:
 - Company
 - Crypto
 - News
-- API
 - Data
 ---

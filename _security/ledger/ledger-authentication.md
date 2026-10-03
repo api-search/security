@@ -4,12 +4,6 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: ledger-4337-api-openapi.yml
-  format: yaml
-  label: Ledger 4337 API
-  slug: ledger-4337-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-4337-api-openapi.yml
 - filename: ledger-accounts-api-openapi.yml
   format: yaml
   label: Ledger Accounts API
@@ -244,6 +238,12 @@ api_specs:
   slug: ledger-whitelists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-whitelists-api-openapi.yml
+- filename: ledger-tx-service-api-openapi.yml
+  format: yaml
+  label: Ledger Tx Service API
+  slug: ledger-tx-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/openapi/ledger-tx-service-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

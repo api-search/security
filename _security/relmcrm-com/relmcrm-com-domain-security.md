@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: relmcrm-com-openapi.yml
+- filename: relmcrm-com-activities-api-openapi.yml
   format: yaml
-  label: Relm CRM REST API
-  slug: relm-crm-rest-api
+  label: Relm Activities API
+  slug: relmcrm-com-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-activities-api-openapi.yml
+- filename: relmcrm-com-automations-api-openapi.yml
+  format: yaml
+  label: Relm Automations API
+  slug: relmcrm-com-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-automations-api-openapi.yml
+- filename: relmcrm-com-batch-api-openapi.yml
+  format: yaml
+  label: Relm Batch API
+  slug: relmcrm-com-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-batch-api-openapi.yml
+- filename: relmcrm-com-companies-api-openapi.yml
+  format: yaml
+  label: Relm Companies API
+  slug: relmcrm-com-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-companies-api-openapi.yml
+- filename: relmcrm-com-connections-api-openapi.yml
+  format: yaml
+  label: Relm Connections API
+  slug: relmcrm-com-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-connections-api-openapi.yml
+- filename: relmcrm-com-contacts-api-openapi.yml
+  format: yaml
+  label: Relm Contacts API
+  slug: relmcrm-com-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-contacts-api-openapi.yml
+- filename: relmcrm-com-deals-api-openapi.yml
+  format: yaml
+  label: Relm Deals API
+  slug: relmcrm-com-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-deals-api-openapi.yml
+- filename: relmcrm-com-discovery-api-openapi.yml
+  format: yaml
+  label: Relm Discovery API
+  slug: relmcrm-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-discovery-api-openapi.yml
+- filename: relmcrm-com-pipelines-api-openapi.yml
+  format: yaml
+  label: Relm Pipelines API
+  slug: relmcrm-com-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-pipelines-api-openapi.yml
+- filename: relmcrm-com-registry-api-openapi.yml
+  format: yaml
+  label: Relm Registry API
+  slug: relmcrm-com-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-registry-api-openapi.yml
+- filename: relmcrm-com-search-api-openapi.yml
+  format: yaml
+  label: Relm Search API
+  slug: relmcrm-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-search-api-openapi.yml
+- filename: relmcrm-com-sequences-api-openapi.yml
+  format: yaml
+  label: Relm Sequences API
+  slug: relmcrm-com-sequences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-sequences-api-openapi.yml
+- filename: relmcrm-com-templates-api-openapi.yml
+  format: yaml
+  label: Relm Templates API
+  slug: relmcrm-com-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-templates-api-openapi.yml
+- filename: relmcrm-com-webhooks-api-openapi.yml
+  format: yaml
+  label: Relm Webhooks API
+  slug: relmcrm-com-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

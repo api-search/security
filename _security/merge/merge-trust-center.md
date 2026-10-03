@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: merge-default-api-openapi.yml
-  format: yaml
-  label: Merge Default API
-  slug: merge-default-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-default-api-openapi.yml
 - filename: merge-subpackage-accesskeys-api-openapi.yml
   format: yaml
   label: Merge Subpackage Access Keys API
@@ -702,6 +696,12 @@ api_specs:
   slug: merge-subpackage-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-subpackage-vendors-api-openapi.yml
+- filename: merge-hris-api-openapi.yml
+  format: yaml
+  label: Merge Hris API
+  slug: merge-hris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-hris-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

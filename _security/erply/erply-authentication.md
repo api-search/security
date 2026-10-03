@@ -345,18 +345,6 @@ api_specs:
   slug: erply-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-template-api-openapi.yml
-- filename: erply-v1-api-openapi.yml
-  format: yaml
-  label: Erply v1 API
-  slug: erply-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-v1-api-openapi.yml
-- filename: erply-v3-api-openapi.yml
-  format: yaml
-  label: Erply v3 API
-  slug: erply-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-v3-api-openapi.yml
 - filename: erply-warehouse-locations-api-openapi.yml
   format: yaml
   label: Erply Warehouse Locations API
@@ -381,6 +369,12 @@ api_specs:
   slug: erply-workorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-workorder-api-openapi.yml
+- filename: erply-configuration-api-openapi.yml
+  format: yaml
+  label: Erply Configuration API
+  slug: erply-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-configuration-api-openapi.yml
 - filename: erply-import-and-export-api-openapi.yml
   format: yaml
   label: Erply Import And Export API

@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Biotechnology
-- Molecular-Biology
+- Molecular Biology
 - Reagents
-- Life-Sciences
-- Research-Tools
+- Life Sciences
+- Research Tools
 ---

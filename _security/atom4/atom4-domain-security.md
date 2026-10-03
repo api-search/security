@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Software
-- AI
-- DataAnalytics
-- PreIPO
+- Artificial Intelligence
+- Data Analytics
+- Pre-IPO
 ---

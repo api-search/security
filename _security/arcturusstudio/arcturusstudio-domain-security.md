@@ -33,7 +33,7 @@ tags:
 - Company
 - Sports
 - 3DVideo
-- AI
+- Artificial Intelligence
 - Broadcasting
-- DataAnalytics
+- Data Analytics
 ---

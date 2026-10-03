@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: leo1-api-api-openapi.yml
-  format: yaml
-  label: Leo1 API
-  slug: leo1-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-api-api-openapi.yml
 - filename: leo1-auth-api-openapi.yml
   format: yaml
   label: Leo1 Auth API
@@ -192,6 +186,18 @@ api_specs:
   slug: leo1-waiver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-waiver-api-openapi.yml
+- filename: leo1-error-api-openapi.yml
+  format: yaml
+  label: Leo1 Error API
+  slug: leo1-error-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-error-api-openapi.yml
+- filename: leo1-status-api-openapi.yml
+  format: yaml
+  label: Leo1 Status API
+  slug: leo1-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/openapi/leo1-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

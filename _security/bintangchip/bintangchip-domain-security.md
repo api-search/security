@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bintangchip/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Hardware
 - Technology
-- API
 ---

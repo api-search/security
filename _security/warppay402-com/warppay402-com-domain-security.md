@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: warppay402-com-openapi.yml
+- filename: warppay402-com-feeds-api-openapi.yml
   format: yaml
-  label: WarpPay402 Monetized MCP Tools API
-  slug: warppay402-monetized-mcp-tools-api
+  label: WarpPay402 Studio Feeds API
+  slug: warppay402-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-feeds-api-openapi.yml
+- filename: warppay402-com-public-data-feed-api-openapi.yml
+  format: yaml
+  label: WarpPay402 Studio Public Data Feed API
+  slug: warppay402-com-public-data-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-public-data-feed-api-openapi.yml
+- filename: warppay402-com-tools-api-openapi.yml
+  format: yaml
+  label: WarpPay402 Studio Tools API
+  slug: warppay402-com-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Restaurant
-- Fast-casual
+- Fast Casual
 - Food
 - Sustainability
 ---

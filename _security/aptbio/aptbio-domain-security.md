@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptbio/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology
-- AI
+- Artificial Intelligence
 - Drug Discovery
 - China
 - Company

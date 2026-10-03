@@ -41,7 +41,7 @@ tags:
 - Containers
 - Zero Downtime
 - Rolling Deploys
-- Rail
+- Rails
 - Ruby
 - Open Source
 - 37signals

@@ -2,18 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bidmachine-io-placement-management-openapi.yml
+- filename: bidmachine-io-authentication-api-openapi.yml
   format: yaml
-  label: BidMachine Placement Management API
-  slug: bidmachine-placement-management-api
+  label: BidMachine Authentication API
+  slug: bidmachine-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-placement-management-openapi.yml
-- filename: bidmachine-io-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-authentication-api-openapi.yml
+- filename: bidmachine-io-placements-api-openapi.yml
+  format: yaml
+  label: BidMachine Placements API
+  slug: bidmachine-io-placements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-placements-api-openapi.yml
+- filename: bidmachine-io-reporting-api-openapi.yml
   format: yaml
   label: BidMachine Reporting API
-  slug: bidmachine-reporting-api
+  slug: bidmachine-io-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-reporting-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bidmachine-io/refs/heads/main/openapi/bidmachine-io-reporting-api-openapi.yml
 auth_types:
 - http
 description: 'BidMachine''s REST APIs use HTTP authentication only — no API keys, no OAuth 2.0, no OIDC. The credentials are the publisher''s dashboard login and password. The Reporting API takes them as HTTP Basic on every request (a 401 answers WWW-Authenticate: Basic realm="Reporting API"). The Placement Management API exchanges the same Basic credentials at POST /auth for a short-lived bearer token ({token, expires}) and requires Authorization: Bearer <token> on every placement call; when a call returns 401 the token has expired and the client re-authenticates. All placement operations are scoped to sources the authenticated publisher owns (403 otherwise). No token revocation endpoint, no scopes and no service accounts are documented. The OpenRTB auction surface authenticates by source id in the endpoint path (https://api-eu.bidmachine.io/auction/prebid/${source_id}) issued per partner, not by a header.'

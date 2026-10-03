@@ -36,5 +36,5 @@ tags:
 - Governance
 - Risk Management
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

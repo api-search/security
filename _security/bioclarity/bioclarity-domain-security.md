@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Skincare
 - Vegan
-- Plant-based
+- Plant-Based
 - Beauty
-- E-commerce
+- E-Commerce
 ---

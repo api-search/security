@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: gitkraken-openapi-generated.yml
+- filename: gitkraken-docker-api-openapi.yml
   format: yaml
-  label: GitKraken API
-  slug: gitkraken-api
+  label: GitKraken Docker API
+  slug: gitkraken-docker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitkraken/refs/heads/main/openapi/_ae-authored/gitkraken-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gitkraken/refs/heads/main/openapi/gitkraken-docker-api-openapi.yml
+- filename: gitkraken-linux-api-openapi.yml
+  format: yaml
+  label: GitKraken Linux API
+  slug: gitkraken-linux-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitkraken/refs/heads/main/openapi/gitkraken-linux-api-openapi.yml
 auth_types: []
 description: Authentication methods for GitKraken Desktop when accessing Git hosts without a dedicated integration page.
 kind: authentication

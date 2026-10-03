@@ -249,5 +249,5 @@ tags:
 - Content
 - Agents
 - MCP
-- Space
+- A2A
 ---

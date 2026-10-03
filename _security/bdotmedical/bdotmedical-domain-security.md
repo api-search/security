@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bdotmedical/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
-- DataAnalytics
+- Data Analytics
 - Telehealth
-- API
 - MedicalTech
 ---

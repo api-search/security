@@ -34,5 +34,4 @@ tags:
 - Arts
 - Entertainment
 - Stub
-- Unknown
 ---

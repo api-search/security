@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artax-biopharm
 summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology
-- Clinical-stage
+- Clinical Stage
 - Autoimmune
 - Immunomodulation
 - Nck-modulators

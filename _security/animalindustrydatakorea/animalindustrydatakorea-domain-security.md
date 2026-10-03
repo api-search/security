@@ -44,5 +44,5 @@ tags:
 - Agriculture
 - Data
 - Livestock
-- AI
+- Artificial Intelligence
 ---

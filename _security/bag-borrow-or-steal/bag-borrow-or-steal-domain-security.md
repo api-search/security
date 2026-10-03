@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bag-borrow-or-
 summary_line: TLSv1.3
 tags:
 - Handbags
-- Rental
+- Rentals
 - Authentication
 - Accessories
 ---

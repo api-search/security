@@ -34,6 +34,6 @@ tags:
 - Accounting
 - Bookkeeping
 - Small Business
-- SaaS
+- Software-as-a-Service
 - Finance
 ---

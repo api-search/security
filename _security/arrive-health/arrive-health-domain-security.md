@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Healthcare
-- PatientEngagement
-- HealthTech
+- Patient Engagement
+- Health Tech
 - InterraHealth
 ---

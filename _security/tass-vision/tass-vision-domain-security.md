@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tass-vision/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Startups
 - Venture Backed
 - 500 Global
 - SITRAC

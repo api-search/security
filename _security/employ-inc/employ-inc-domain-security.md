@@ -6,6 +6,30 @@ api_specs:
   slug: employ-inc-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-status-api-openapi.yml
+- filename: employ-inc-components-api-openapi.yml
+  format: yaml
+  label: Employ Components API
+  slug: employ-inc-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-components-api-openapi.yml
+- filename: employ-inc-incidents-api-openapi.yml
+  format: yaml
+  label: Employ Incidents API
+  slug: employ-inc-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-incidents-api-openapi.yml
+- filename: employ-inc-maintenance-api-openapi.yml
+  format: yaml
+  label: Employ Maintenance API
+  slug: employ-inc-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-maintenance-api-openapi.yml
+- filename: employ-inc-summary-api-openapi.yml
+  format: yaml
+  label: Employ Summary API
+  slug: employ-inc-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/openapi/employ-inc-summary-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: 558686-xyz-gpt55-model-gateway-openapi.json
-  format: json
-  label: GPT55 Model Gateway API
-  slug: gpt55-model-gateway-api
+- filename: 558686-xyz-base-usdc-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Base Usdc API
+  slug: 558686-xyz-base-usdc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-model-gateway-openapi.json
-- filename: 558686-xyz-api-market-utility-tools-openapi.json
-  format: json
-  label: GPT-5.5 Utility Tools for API.market
-  slug: gpt55-utility-tools-api-market
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-base-usdc-api-openapi.yml
+- filename: 558686-xyz-chat-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Chat API
+  slug: 558686-xyz-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-api-market-utility-tools-openapi.json
-- filename: 558686-xyz-sub2api-openapi.json
-  format: json
-  label: Sub2API OpenAI-compatible API
-  slug: sub2api-openai-compatible-api
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-chat-api-openapi.yml
+- filename: 558686-xyz-gpt55-model-gateway-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Gpt55 Model Gateway API
+  slug: 558686-xyz-gpt55-model-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-sub2api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-model-gateway-api-openapi.yml
+- filename: 558686-xyz-gpt55-retained-high-intent-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Gpt55 Retained High Intent API
+  slug: 558686-xyz-gpt55-retained-high-intent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-retained-high-intent-api-openapi.yml
+- filename: 558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Gpt55 Retained Nonmodel API
+  slug: 558686-xyz-gpt55-retained-nonmodel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
+- filename: 558686-xyz-models-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Models API
+  slug: 558686-xyz-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-models-api-openapi.yml
+- filename: 558686-xyz-responses-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Responses API
+  slug: 558686-xyz-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-responses-api-openapi.yml
+- filename: 558686-xyz-utility-tools-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Utility Tools API
+  slug: 558686-xyz-utility-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-utility-tools-api-openapi.yml
+- filename: 558686-xyz-wallet-security-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Wallet Security API
+  slug: 558686-xyz-wallet-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-wallet-security-api-openapi.yml
+- filename: 558686-xyz-wallet-signing-safety-pack-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway Wallet Signing Safety Pack API
+  slug: 558686-xyz-wallet-signing-safety-pack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-wallet-signing-safety-pack-api-openapi.yml
+- filename: 558686-xyz-x402-api-openapi.yml
+  format: yaml
+  label: gpt55-token-gateway X402 API
+  slug: 558686-xyz-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/558686-xyz/refs/heads/main/openapi/558686-xyz-x402-api-openapi.yml
 description: ''
 domains:
 - caa: []

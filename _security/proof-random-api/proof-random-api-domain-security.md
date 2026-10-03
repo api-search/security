@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: proof-random-api-random-api-openapi.yml
+  format: yaml
+  label: Proof Random API (Kepler Ops) Random API
+  slug: proof-random-api-random-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/openapi/proof-random-api-random-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -32,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Randomness
-- Public API
+- Public APIs
 - Drand
 - Free Service
 ---

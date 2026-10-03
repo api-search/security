@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: autifyhq-openapi-generated.yml
+- filename: autifyhq-autify-cli-api-openapi.yml
   format: yaml
-  label: Autifyhq API
-  slug: autifyhq-api
+  label: Autifyhq Autify Cli API
+  slug: autifyhq-autify-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/_ae-authored/autifyhq-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-autify-cli-api-openapi.yml
+- filename: autifyhq-default-api-openapi.yml
+  format: yaml
+  label: Autifyhq ~ API
+  slug: autifyhq-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-default-api-openapi.yml
+- filename: autifyhq-payload-api-openapi.yml
+  format: yaml
+  label: Autifyhq Payload API
+  slug: autifyhq-payload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-payload-api-openapi.yml
+- filename: autifyhq-projects-api-openapi.yml
+  format: yaml
+  label: Autifyhq Projects API
+  slug: autifyhq-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-projects-api-openapi.yml
+- filename: autifyhq-workspaces-api-openapi.yml
+  format: yaml
+  label: Autifyhq Workspaces API
+  slug: autifyhq-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/heads/main/openapi/autifyhq-workspaces-api-openapi.yml
 auth_types: []
 description: Authentication schemes as published by Autifyhq
 kind: authentication
@@ -35,8 +59,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autifyhq/refs/
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Testing
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

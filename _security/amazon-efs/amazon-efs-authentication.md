@@ -3,12 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: amazon-efs-2015-02-01-api-openapi.yml
+- filename: amazon-efs-mount-targets-api-openapi.yml
   format: yaml
-  label: Amazon EFS 2015 02 01 API
-  slug: amazon-efs-2015-02-01-api
+  label: Amazon EFS Mount Targets API
+  slug: amazon-efs-mount-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-2015-02-01-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-mount-targets-api-openapi.yml
+- filename: amazon-efs-filesystems-api-openapi.yml
+  format: yaml
+  label: Amazon EFS Filesystems API
+  slug: amazon-efs-filesystems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-filesystems-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

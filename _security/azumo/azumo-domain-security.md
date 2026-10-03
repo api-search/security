@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Software Development
-- AI
+- Artificial Intelligence
 - Custom Solutions
 - Cloud Services
 ---

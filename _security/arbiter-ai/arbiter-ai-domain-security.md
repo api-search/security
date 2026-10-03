@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arbiter-ai/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare
-- AI
-- CareOrchestration
-- PopulationHealth
+- Artificial Intelligence
+- Care Orchestration
+- Population Health
 - Platform
 ---

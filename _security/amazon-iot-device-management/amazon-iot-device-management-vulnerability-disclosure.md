@@ -204,12 +204,6 @@ api_specs:
   slug: amazon-iot-device-management-managed-job-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-managed-job-templates-api-openapi.yml
-- filename: amazon-iot-device-management-metric-values-thingname-metricname-starttime-endtime-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management Metric Values#thingName&metricName&startTime&endTime API
-  slug: amazon-iot-device-management-metric-values-thingname-metricname-starttime-endtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-metric-values-thingname-metricname-starttime-endtime-api-openapi.yml
 - filename: amazon-iot-device-management-mitigationactions-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Mitigationactions API
@@ -222,12 +216,6 @@ api_specs:
   slug: amazon-iot-device-management-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-policies-api-openapi.yml
-- filename: amazon-iot-device-management-policy-principals-x-amzn-iot-policy-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management Policy Principals#x Amzn Iot Policy API
-  slug: amazon-iot-device-management-policy-principals-x-amzn-iot-policy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-policy-principals-x-amzn-iot-policy-api-openapi.yml
 - filename: amazon-iot-device-management-policy-targets-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Policy Targets API
@@ -240,12 +228,6 @@ api_specs:
   slug: amazon-iot-device-management-principal-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-principal-policies-api-openapi.yml
-- filename: amazon-iot-device-management-principal-policies-x-amzn-iot-principal-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management Principal Policies#x Amzn Iot Principal API
-  slug: amazon-iot-device-management-principal-policies-x-amzn-iot-principal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-principal-policies-x-amzn-iot-principal-api-openapi.yml
 - filename: amazon-iot-device-management-principals-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Principals API
@@ -294,12 +276,6 @@ api_specs:
   slug: amazon-iot-device-management-security-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-security-profiles-api-openapi.yml
-- filename: amazon-iot-device-management-security-profiles-for-target-securityprofiletargetarn-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management Security Profiles For Target#securityProfileTargetArn API
-  slug: amazon-iot-device-management-security-profiles-for-target-securityprofiletargetarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-security-profiles-for-target-securityprofiletargetarn-api-openapi.yml
 - filename: amazon-iot-device-management-streams-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Streams API
@@ -312,12 +288,6 @@ api_specs:
   slug: amazon-iot-device-management-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-tags-api-openapi.yml
-- filename: amazon-iot-device-management-tags-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management Tags#resourceArn API
-  slug: amazon-iot-device-management-tags-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-tags-resourcearn-api-openapi.yml
 - filename: amazon-iot-device-management-target-policies-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Target Policies API
@@ -366,24 +336,36 @@ api_specs:
   slug: amazon-iot-device-management-untag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-untag-api-openapi.yml
-- filename: amazon-iot-device-management-v2logginglevel-targettype-targetname-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management V2LoggingLevel#targetType&targetName API
-  slug: amazon-iot-device-management-v2logginglevel-targettype-targetname-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-v2logginglevel-targettype-targetname-api-openapi.yml
-- filename: amazon-iot-device-management-violation-events-starttime-endtime-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Management Violation Events#startTime&endTime API
-  slug: amazon-iot-device-management-violation-events-starttime-endtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-violation-events-starttime-endtime-api-openapi.yml
 - filename: amazon-iot-device-management-violations-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Violations API
   slug: amazon-iot-device-management-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-violations-api-openapi.yml
+- filename: amazon-iot-device-management-metric-values-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management Metric Values API
+  slug: amazon-iot-device-management-metric-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-metric-values-api-openapi.yml
+- filename: amazon-iot-device-management-policy-principals-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management Policy Principals API
+  slug: amazon-iot-device-management-policy-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-policy-principals-api-openapi.yml
+- filename: amazon-iot-device-management-security-profiles-for-target-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management Security Profiles For Target API
+  slug: amazon-iot-device-management-security-profiles-for-target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-security-profiles-for-target-api-openapi.yml
+- filename: amazon-iot-device-management-violation-events-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Management Violation Events API
+  slug: amazon-iot-device-management-violation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-violation-events-api-openapi.yml
 - filename: amazon-iot-device-management-domain-configurations-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Management Domain Configurations API

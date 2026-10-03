@@ -636,12 +636,60 @@ api_specs:
   slug: google-ads-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-media-api-openapi.yml
-- filename: google-ads-v25-api-openapi.yml
+- filename: google-ads-v25-generateconversionrates-api-openapi.yml
   format: yaml
-  label: Google Ads V25 API
-  slug: google-ads-v25-api
+  label: Google Ads V25:generate Conversion Rates API
+  slug: google-ads-v25-generateconversionrates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-generateconversionrates-api-openapi.yml
+- filename: google-ads-v25-listbenchmarksavailabledates-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Available Dates API
+  slug: google-ads-v25-listbenchmarksavailabledates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarksavailabledates-api-openapi.yml
+- filename: google-ads-v25-listbenchmarkslocations-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Locations API
+  slug: google-ads-v25-listbenchmarkslocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarkslocations-api-openapi.yml
+- filename: google-ads-v25-listbenchmarksproducts-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Products API
+  slug: google-ads-v25-listbenchmarksproducts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarksproducts-api-openapi.yml
+- filename: google-ads-v25-listbenchmarkssources-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Sources API
+  slug: google-ads-v25-listbenchmarkssources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarkssources-api-openapi.yml
+- filename: google-ads-v25-listplannablelocations-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable Locations API
+  slug: google-ads-v25-listplannablelocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannablelocations-api-openapi.yml
+- filename: google-ads-v25-listplannableproducts-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable Products API
+  slug: google-ads-v25-listplannableproducts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannableproducts-api-openapi.yml
+- filename: google-ads-v25-listplannableuserinterests-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable User Interests API
+  slug: google-ads-v25-listplannableuserinterests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannableuserinterests-api-openapi.yml
+- filename: google-ads-v25-listplannableuserlists-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable User Lists API
+  slug: google-ads-v25-listplannableuserlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannableuserlists-api-openapi.yml
 - filename: google-ads-audience-insights-api-openapi.yml
   format: yaml
   label: Google Ads Audience Insights API

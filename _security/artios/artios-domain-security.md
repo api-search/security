@@ -34,6 +34,6 @@ tags:
 - Pharma
 - Oncology
 - DDR
-- Clinical-stage
+- Clinical Stage
 - Cambridge
 ---

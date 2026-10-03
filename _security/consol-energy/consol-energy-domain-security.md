@@ -1,29 +1,4 @@
 ---
-api_specs:
-- filename: consol-energy-leadership-api-openapi.yml
-  format: yaml
-  label: CONSOL Energy Leadership API
-  slug: consol-energy-leadership-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-leadership-api-openapi.yml
-- filename: consol-energy-mines-api-openapi.yml
-  format: yaml
-  label: CONSOL Energy Mines API
-  slug: consol-energy-mines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-mines-api-openapi.yml
-- filename: consol-energy-news-api-openapi.yml
-  format: yaml
-  label: CONSOL Energy News API
-  slug: consol-energy-news-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-news-api-openapi.yml
-- filename: consol-energy-site-api-openapi.yml
-  format: yaml
-  label: CONSOL Energy Site API
-  slug: consol-energy-site-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/openapi/consol-energy-site-api-openapi.yml
 description: ''
 domains:
 - caa: []

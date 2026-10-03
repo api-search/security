@@ -33,6 +33,6 @@ tags:
 - Biotechnology
 - Pharmaceuticals
 - Oncology
-- AI
+- Artificial Intelligence
 - Data Analytics
 ---

@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kimetsu-dev-agent-gateway-openapi.yml
+- filename: kimetsu-dev-a2a-api-openapi.yml
   format: yaml
-  label: kimetsu.dev Agent Gateway
-  slug: agent-gateway
+  label: Kimetsu A2A API
+  slug: kimetsu-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-agent-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-a2a-api-openapi.yml
+- filename: kimetsu-dev-discovery-api-openapi.yml
+  format: yaml
+  label: Kimetsu Discovery API
+  slug: kimetsu-dev-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-discovery-api-openapi.yml
+- filename: kimetsu-dev-sidequest-api-openapi.yml
+  format: yaml
+  label: Kimetsu Sidequest API
+  slug: kimetsu-dev-sidequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-sidequest-api-openapi.yml
 auth_types:
 - none
 description: 'The Agent Gateway is anonymous by contract and by enforcement: the OpenAPI declares no securitySchemes and an empty security[] on every operation, the directory says "Never send credentials, cookies, private data, or authorization headers. They are rejected", and a GET carrying "Authorization: Bearer test" was answered 400 {"error":"credentials_rejected"}. derive-authentication.py therefore produced no profile (0 schemes); this file records the observed policy instead. The only authenticated surface in the product family is the self-hosted Kimetsu Remote server, which is operator-run and outside the gateway.'

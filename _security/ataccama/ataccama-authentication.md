@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ataccama-openapi-generated.yml
+- filename: ataccama-ataccama-api-api-openapi.yml
   format: yaml
-  label: Ataccama API
-  slug: ataccama-api
+  label: Ataccama Ataccama API
+  slug: ataccama-ataccama-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ataccama/refs/heads/main/openapi/_ae-authored/ataccama-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ataccama/refs/heads/main/openapi/ataccama-ataccama-api-api-openapi.yml
+- filename: ataccama-catalog-api-openapi.yml
+  format: yaml
+  label: Ataccama Catalog API
+  slug: ataccama-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ataccama/refs/heads/main/openapi/ataccama-catalog-api-openapi.yml
+- filename: ataccama-data-quality-api-openapi.yml
+  format: yaml
+  label: Ataccama Data Quality API
+  slug: ataccama-data-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ataccama/refs/heads/main/openapi/ataccama-data-quality-api-openapi.yml
+- filename: ataccama-reference-data-api-openapi.yml
+  format: yaml
+  label: Ataccama Reference Data API
+  slug: ataccama-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ataccama/refs/heads/main/openapi/ataccama-reference-data-api-openapi.yml
+- filename: ataccama-rest-api-openapi.yml
+  format: yaml
+  label: Ataccama Rest API
+  slug: ataccama-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ataccama/refs/heads/main/openapi/ataccama-rest-api-openapi.yml
 auth_types: []
 description: Authentication for Ataccama ONE APIs
 kind: authentication
@@ -39,7 +63,7 @@ tags:
 - Company
 - Data Quality
 - Data Governance
-- AI
+- Artificial Intelligence
 - Enterprise
 - Platform
 ---

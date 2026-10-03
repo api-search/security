@@ -28,12 +28,6 @@ api_specs:
   slug: opply-agreements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-agreements-api-openapi.yml
-- filename: opply-api-api-openapi.yml
-  format: yaml
-  label: Opply API
-  slug: opply-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-api-api-openapi.yml
 - filename: opply-app-orders-api-openapi.yml
   format: yaml
   label: Opply App Orders API
@@ -286,6 +280,48 @@ api_specs:
   slug: opply-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-well-known-api-openapi.yml
+- filename: opply-cortex-api-openapi.yml
+  format: yaml
+  label: Opply Cortex API
+  slug: opply-cortex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-cortex-api-openapi.yml
+- filename: opply-crm-api-openapi.yml
+  format: yaml
+  label: Opply CRM API
+  slug: opply-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-crm-api-openapi.yml
+- filename: opply-mcp-api-openapi.yml
+  format: yaml
+  label: Opply MCP API
+  slug: opply-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-mcp-api-openapi.yml
+- filename: opply-oauth-api-openapi.yml
+  format: yaml
+  label: Opply OAuth API
+  slug: opply-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-oauth-api-openapi.yml
+- filename: opply-research-api-openapi.yml
+  format: yaml
+  label: Opply Research API
+  slug: opply-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-research-api-openapi.yml
+- filename: opply-schema-api-openapi.yml
+  format: yaml
+  label: Opply Schema API
+  slug: opply-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-schema-api-openapi.yml
+- filename: opply-taxonomy-api-openapi.yml
+  format: yaml
+  label: Opply Taxonomy API
+  slug: opply-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/openapi/opply-taxonomy-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

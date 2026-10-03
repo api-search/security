@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: culture-sbs-openapi.yml
+- filename: culture-sbs-mcp-api-openapi.yml
   format: yaml
-  label: The Culture Commons API
-  slug: culture-commons-api
+  label: The Culture Commons MCP API
+  slug: culture-sbs-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-mcp-api-openapi.yml
+- filename: culture-sbs-provenance-api-openapi.yml
+  format: yaml
+  label: The Culture Commons Provenance API
+  slug: culture-sbs-provenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-provenance-api-openapi.yml
+- filename: culture-sbs-referrals-api-openapi.yml
+  format: yaml
+  label: The Culture Commons Referrals API
+  slug: culture-sbs-referrals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-referrals-api-openapi.yml
+- filename: culture-sbs-room-api-openapi.yml
+  format: yaml
+  label: The Culture Commons Room API
+  slug: culture-sbs-room-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-room-api-openapi.yml
+- filename: culture-sbs-threshold-api-openapi.yml
+  format: yaml
+  label: The Culture Commons Threshold API
+  slug: culture-sbs-threshold-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-threshold-api-openapi.yml
+- filename: culture-sbs-wallet-api-openapi.yml
+  format: yaml
+  label: The Culture Commons Wallet API
+  slug: culture-sbs-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-sbs/refs/heads/main/openapi/culture-sbs-wallet-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -3,12 +3,12 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: clix-so-openapi.yml
+- filename: clix-so-clixexternalservice-api-openapi.yml
   format: yaml
-  label: Clix External API
-  slug: clix-external-api
+  label: Clix Clix External Service API
+  slug: clix-so-clixexternalservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clix-so/refs/heads/main/openapi/clix-so-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clix-so/refs/heads/main/openapi/clix-so-clixexternalservice-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

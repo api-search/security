@@ -34,5 +34,5 @@ tags:
 - Automotive
 - Robotics
 - Software
-- AI
+- Artificial Intelligence
 ---

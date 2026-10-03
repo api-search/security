@@ -34,5 +34,5 @@ tags:
 - Placeholder
 - Stub
 - API-Evangelist
-- Data-Collection
+- Data Collection
 ---

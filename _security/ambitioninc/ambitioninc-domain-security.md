@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ambitioninc-openapi-generated.yml
+- filename: ambitioninc-account-api-openapi.yml
   format: yaml
-  label: Ambitioninc API
-  slug: ambitioninc-api
+  label: Ambitioninc Account API
+  slug: ambitioninc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/_ae-authored/ambitioninc-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/ambitioninc-account-api-openapi.yml
+- filename: ambitioninc-data-api-openapi.yml
+  format: yaml
+  label: Ambitioninc Data API
+  slug: ambitioninc-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/openapi/ambitioninc-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +44,9 @@ source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambitioninc/refs/heads/main/security/ambitioninc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 - Sales Enablement
-- AI
+- Artificial Intelligence
 - Platform
 ---

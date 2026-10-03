@@ -34,5 +34,4 @@ tags:
 - Technology
 - Maritime
 - Services
-- API
 ---

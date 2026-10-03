@@ -38,5 +38,4 @@ tags:
 - De-Extinction
 - Synthetic Biology
 - Research
-- Content
 ---

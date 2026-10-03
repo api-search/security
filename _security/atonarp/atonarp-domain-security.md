@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atonarp/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Molecular Profiling
 - Industrial Automation
 - Pharmaceuticals

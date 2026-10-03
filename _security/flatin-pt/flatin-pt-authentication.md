@@ -2,12 +2,12 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: flatin-pt-openapi.json
-  format: json
-  label: flatin.pt API
-  slug: flatinpt-api
+- filename: flatin-pt-public-api-openapi.yml
+  format: yaml
+  label: flatin.pt Public API
+  slug: flatin-pt-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/openapi/flatin-pt-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/flatin-pt/refs/heads/main/openapi/flatin-pt-public-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

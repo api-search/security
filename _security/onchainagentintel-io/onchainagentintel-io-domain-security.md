@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: onchainagentintel-io-openapi.yml
+- filename: onchainagentintel-io-paid-x402-api-openapi.yml
   format: yaml
-  label: Agent Zero ERC-8004 Agent Intelligence API
-  slug: agent-zero-erc-8004-agent-intelligence-api
+  label: Agent Zero Paid X402 API
+  slug: onchainagentintel-io-paid-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-paid-x402-api-openapi.yml
+- filename: onchainagentintel-io-public-api-openapi.yml
+  format: yaml
+  label: Agent Zero Public API
+  slug: onchainagentintel-io-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onchainagentintel-io/refs/heads/main/openapi/onchainagentintel-io-public-api-openapi.yml
 description: ''
 domains:
 - caa: []

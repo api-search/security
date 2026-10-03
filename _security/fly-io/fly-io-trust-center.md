@@ -74,5 +74,6 @@ tags:
 - Networking
 - Hosting
 - Deployment
+- Serverless
 trust_url: https://fly.io/security
 ---

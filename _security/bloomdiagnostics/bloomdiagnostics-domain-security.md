@@ -34,5 +34,5 @@ tags:
 - Diagnostics
 - Healthcare
 - LabTech
-- PersonalizedMedicine
+- Personalized Medicine
 ---

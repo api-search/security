@@ -34,6 +34,6 @@ tags:
 - SnackFood
 - Sustainable
 - Organic
-- PlantBased
+- Plant-Based
 - Retail
 ---

@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: amazon-iam-access-analyzer-access-preview-analyzerarn-api-openapi.yml
-  format: yaml
-  label: Amazon IAM Access Analyzer Access Preview#analyzerArn API
-  slug: amazon-iam-access-analyzer-access-preview-analyzerarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-access-preview-analyzerarn-api-openapi.yml
 - filename: amazon-iam-access-analyzer-access-preview-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Access Preview API
   slug: amazon-iam-access-analyzer-access-preview-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-access-preview-api-openapi.yml
-- filename: amazon-iam-access-analyzer-analyzed-resource-analyzerarn-resourcearn-api-openapi.yml
-  format: yaml
-  label: Amazon IAM Access Analyzer Analyzed Resource#analyzerArn&resourceArn API
-  slug: amazon-iam-access-analyzer-analyzed-resource-analyzerarn-resourcearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzed-resource-analyzerarn-resourcearn-api-openapi.yml
 - filename: amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Analyzed Resource API

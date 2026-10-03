@@ -110,9 +110,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- eSignature
-- API
-- DeveloperTools
+- E-Signature
+- Developer Tools
 - LowCost
-- WhiteLabel
+- White Label
 ---

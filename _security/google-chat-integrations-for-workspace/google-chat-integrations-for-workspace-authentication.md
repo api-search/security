@@ -85,5 +85,4 @@ tags:
 - Spaces
 - Slash Commands
 - Bots
-- Space
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ateamventures/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Manufacturing
-- 3DPrinting
-- AI
+- 3D Printing
+- Artificial Intelligence
 - Platform
 - Venture
 ---

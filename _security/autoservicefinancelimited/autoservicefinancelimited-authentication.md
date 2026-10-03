@@ -31,7 +31,7 @@ summary_line: 1 scheme
 tags:
 - Finance
 - Automotive
-- FinTech
-- UK
+- Fintech
+- United Kingdom
 - Payments
 ---

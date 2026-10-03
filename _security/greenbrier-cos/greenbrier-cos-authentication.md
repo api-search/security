@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: greenbrier-cos-catalog-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Catalog API
-  slug: greenbrier-cos-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-catalog-api-openapi.yml
-- filename: greenbrier-cos-discovery-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Discovery API
-  slug: greenbrier-cos-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-discovery-api-openapi.yml
 - filename: greenbrier-cos-export-api-openapi.yml
   format: yaml
   label: Greenbrier Companies Export API
@@ -26,48 +14,12 @@ api_specs:
   slug: greenbrier-cos-gauge-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-gauge-tables-api-openapi.yml
-- filename: greenbrier-cos-pages-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Pages API
-  slug: greenbrier-cos-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-pages-api-openapi.yml
-- filename: greenbrier-cos-posts-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Posts API
-  slug: greenbrier-cos-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-posts-api-openapi.yml
-- filename: greenbrier-cos-products-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Products API
-  slug: greenbrier-cos-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-products-api-openapi.yml
-- filename: greenbrier-cos-railcars-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Railcars API
-  slug: greenbrier-cos-railcars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-railcars-api-openapi.yml
 - filename: greenbrier-cos-reporting-marks-api-openapi.yml
   format: yaml
   label: Greenbrier Companies Reporting Marks API
   slug: greenbrier-cos-reporting-marks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-reporting-marks-api-openapi.yml
-- filename: greenbrier-cos-search-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Search API
-  slug: greenbrier-cos-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-search-api-openapi.yml
-- filename: greenbrier-cos-taxonomies-api-openapi.yml
-  format: yaml
-  label: Greenbrier Companies Taxonomies API
-  slug: greenbrier-cos-taxonomies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-taxonomies-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

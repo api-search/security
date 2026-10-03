@@ -49,5 +49,4 @@ tags:
 - Billing
 - Solana
 - Ethereum
-- Defunct
 ---

@@ -73,9 +73,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noms/refs/head
 summary_line: 2 schemes
 tags:
 - Company
-- nutrition
-- food
-- API
-- data
-- health
+- Nutrition
+- Food
+- Data
+- Health
 ---

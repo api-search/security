@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ardent-privacy
 summary_line: TLSv1.3
 tags:
 - Company
-- Data-Privacy
+- Privacy
 - Security
-- SaaS
+- Software-as-a-Service
 - Compliance
 ---

@@ -147,7 +147,7 @@ tags:
 - Employee Equity
 - Financial Services
 - Morgan Stanley
-- Equity Administration
+- Equity-Administration
 - Private Companies
 - Public Companies
 ---

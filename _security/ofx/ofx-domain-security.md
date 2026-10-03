@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: ofx-aisp-openapi-generated.yml
+- filename: ofx-authorization-code-api-openapi.yml
   format: yaml
-  label: OFX AISP API
-  slug: aisp-api
+  label: OFX Authorization Code API
+  slug: ofx-authorization-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/_ae-authored/ofx-aisp-openapi-generated.yml
-- filename: ofx-ncp-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-authorization-code-api-openapi.yml
+- filename: ofx-authorize-api-openapi.yml
   format: yaml
-  label: OFX NCP API
-  slug: ncp-api
+  label: OFX Authorize API
+  slug: ofx-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/_ae-authored/ofx-ncp-openapi-generated.yml
-- filename: ofx-pisp-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-authorize-api-openapi.yml
+- filename: ofx-business-api-openapi.yml
   format: yaml
-  label: OFX PISP API
-  slug: pisp-api
+  label: OFX Business API
+  slug: ofx-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/_ae-authored/ofx-pisp-openapi-generated.yml
-- filename: ofx-rates-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-business-api-openapi.yml
+- filename: ofx-oauth-api-openapi.yml
   format: yaml
-  label: OFX Rates API
-  slug: rates-api
+  label: OFX OAuth API
+  slug: ofx-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/_ae-authored/ofx-rates-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-oauth-api-openapi.yml
+- filename: ofx-ofxrates-api-openapi.yml
+  format: yaml
+  label: OFX Ofxrates API
+  slug: ofx-ofxrates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-ofxrates-api-openapi.yml
+- filename: ofx-open-banking-api-openapi.yml
+  format: yaml
+  label: OFX Open Banking API
+  slug: ofx-open-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-open-banking-api-openapi.yml
+- filename: ofx-refresh-token-api-openapi.yml
+  format: yaml
+  label: OFX Refresh Token API
+  slug: ofx-refresh-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-refresh-token-api-openapi.yml
+- filename: ofx-token-api-openapi.yml
+  format: yaml
+  label: OFX Token API
+  slug: ofx-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ofx/refs/heads/main/openapi/ofx-token-api-openapi.yml
 description: ''
 domains:
 - caa: []

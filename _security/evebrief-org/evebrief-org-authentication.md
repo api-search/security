@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: evebrief-org-openapi.json
-  format: json
-  label: onchain-risk-oracle API
-  slug: onchain-risk-oracle-api
+- filename: evebrief-org-healthz-api-openapi.yml
+  format: yaml
+  label: openclaw / evm-lab Healthz API
+  slug: evebrief-org-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-healthz-api-openapi.yml
+- filename: evebrief-org-onchain-risk-oracle-api-openapi.yml
+  format: yaml
+  label: openclaw / evm-lab Onchain Risk Oracle API
+  slug: evebrief-org-onchain-risk-oracle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-onchain-risk-oracle-api-openapi.yml
+- filename: evebrief-org-well-known-api-openapi.yml
+  format: yaml
+  label: openclaw / evm-lab .well Known API
+  slug: evebrief-org-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-well-known-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

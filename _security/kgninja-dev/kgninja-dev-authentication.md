@@ -2,12 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kgninja-dev-openapi.json
-  format: json
-  label: Agent Verification Utility API
-  slug: agent-verification-utility-api
+- filename: kgninja-dev-a2a-api-openapi.yml
+  format: yaml
+  label: KG-NINJA A2a API
+  slug: kgninja-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-a2a-api-openapi.yml
+- filename: kgninja-dev-decision-support-api-openapi.yml
+  format: yaml
+  label: KG-NINJA Decision Support API
+  slug: kgninja-dev-decision-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-decision-support-api-openapi.yml
+- filename: kgninja-dev-discovery-api-openapi.yml
+  format: yaml
+  label: KG-NINJA Discovery API
+  slug: kgninja-dev-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-discovery-api-openapi.yml
+- filename: kgninja-dev-goals-api-openapi.yml
+  format: yaml
+  label: KG-NINJA Goals API
+  slug: kgninja-dev-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-goals-api-openapi.yml
+- filename: kgninja-dev-mcp-api-openapi.yml
+  format: yaml
+  label: KG-NINJA MCP API
+  slug: kgninja-dev-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-mcp-api-openapi.yml
+- filename: kgninja-dev-operations-api-openapi.yml
+  format: yaml
+  label: KG-NINJA Operations API
+  slug: kgninja-dev-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-operations-api-openapi.yml
+- filename: kgninja-dev-purchase-api-openapi.yml
+  format: yaml
+  label: KG-NINJA Purchase API
+  slug: kgninja-dev-purchase-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-purchase-api-openapi.yml
+- filename: kgninja-dev-registration-api-openapi.yml
+  format: yaml
+  label: KG-NINJA Registration API
+  slug: kgninja-dev-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-registration-api-openapi.yml
 auth_types:
 - http
 description: ''

@@ -6,18 +6,18 @@ api_specs:
   slug: nist-cves-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cves-api-openapi.yml
+- filename: nist-cpe-api-openapi.yml
+  format: yaml
+  label: National Institute of Standards and Technology (NIST) CPE API
+  slug: nist-cpe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cpe-api-openapi.yml
 - filename: nist-cve-history-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) CVE History API
   slug: nist-cve-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cve-history-api-openapi.yml
-- filename: national-institute-of-standards-and-technology-cpe-api-openapi.yml
-  format: yaml
-  label: National Institute of Standards and Technology CPE API
-  slug: national-institute-of-standards-and-technology-cpe-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/national-institute-of-standards-and-technology-cpe-api-openapi.yml
 description: ''
 domains:
 - caa: []

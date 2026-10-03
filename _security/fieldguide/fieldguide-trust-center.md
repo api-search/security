@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: fieldguide-api-api-openapi.yml
-  format: yaml
-  label: Fieldguide API
-  slug: fieldguide-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-api-api-openapi.yml
 - filename: fieldguide-comments-api-openapi.yml
   format: yaml
   label: Fieldguide Comments API
@@ -90,6 +84,18 @@ api_specs:
   slug: fieldguide-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-webhooks-api-openapi.yml
+- filename: fieldguide-scopes-api-openapi.yml
+  format: yaml
+  label: Fieldguide Scopes API
+  slug: fieldguide-scopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-scopes-api-openapi.yml
+- filename: fieldguide-token-api-openapi.yml
+  format: yaml
+  label: Fieldguide Token API
+  slug: fieldguide-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-token-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

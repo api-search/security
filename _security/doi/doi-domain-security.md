@@ -216,66 +216,66 @@ api_specs:
   slug: doi-topographic-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-topographic-codes-api-openapi.yml
-- filename: department-of-the-interior-alerts-api-openapi.yml
+- filename: doi-alerts-api-openapi.yml
   format: yaml
   label: Department of Interior Alerts API
-  slug: department-of-the-interior-alerts-api
+  slug: doi-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-alerts-api-openapi.yml
-- filename: department-of-the-interior-articles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-alerts-api-openapi.yml
+- filename: doi-articles-api-openapi.yml
   format: yaml
   label: Department of Interior Articles API
-  slug: department-of-the-interior-articles-api
+  slug: doi-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-articles-api-openapi.yml
-- filename: department-of-the-interior-campgrounds-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-articles-api-openapi.yml
+- filename: doi-campgrounds-api-openapi.yml
   format: yaml
   label: Department of Interior Campgrounds API
-  slug: department-of-the-interior-campgrounds-api
+  slug: doi-campgrounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-campgrounds-api-openapi.yml
-- filename: department-of-the-interior-counts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-campgrounds-api-openapi.yml
+- filename: doi-counts-api-openapi.yml
   format: yaml
   label: Department of Interior Counts API
-  slug: department-of-the-interior-counts-api
+  slug: doi-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-counts-api-openapi.yml
-- filename: department-of-the-interior-dailyvalues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-counts-api-openapi.yml
+- filename: doi-dailyvalues-api-openapi.yml
   format: yaml
-  label: Department of Interior DailyValues API
-  slug: department-of-the-interior-dailyvalues-api
+  label: Department of Interior Daily Values API
+  slug: doi-dailyvalues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-dailyvalues-api-openapi.yml
-- filename: department-of-the-interior-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-dailyvalues-api-openapi.yml
+- filename: doi-events-api-openapi.yml
   format: yaml
   label: Department of Interior Events API
-  slug: department-of-the-interior-events-api
+  slug: doi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-events-api-openapi.yml
-- filename: department-of-the-interior-instantaneousvalues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-events-api-openapi.yml
+- filename: doi-instantaneousvalues-api-openapi.yml
   format: yaml
-  label: Department of Interior InstantaneousValues API
-  slug: department-of-the-interior-instantaneousvalues-api
+  label: Department of Interior Instantaneous Values API
+  slug: doi-instantaneousvalues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-instantaneousvalues-api-openapi.yml
-- filename: department-of-the-interior-parks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-instantaneousvalues-api-openapi.yml
+- filename: doi-parks-api-openapi.yml
   format: yaml
   label: Department of Interior Parks API
-  slug: department-of-the-interior-parks-api
+  slug: doi-parks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-parks-api-openapi.yml
-- filename: department-of-the-interior-sites-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-parks-api-openapi.yml
+- filename: doi-sites-api-openapi.yml
   format: yaml
   label: Department of Interior Sites API
-  slug: department-of-the-interior-sites-api
+  slug: doi-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-sites-api-openapi.yml
-- filename: department-of-the-interior-visitor-centers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-sites-api-openapi.yml
+- filename: doi-visitor-centers-api-openapi.yml
   format: yaml
   label: Department of Interior Visitor Centers API
-  slug: department-of-the-interior-visitor-centers-api
+  slug: doi-visitor-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/department-of-the-interior-visitor-centers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-visitor-centers-api-openapi.yml
 description: ''
 domains:
 - caa: []

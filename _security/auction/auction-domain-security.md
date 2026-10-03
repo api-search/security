@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auction/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Auction
+- Auctions
 - Marketplace
 - Bidding
-- E-commerce
+- E-Commerce
 ---

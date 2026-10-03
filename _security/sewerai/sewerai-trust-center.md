@@ -24,12 +24,6 @@ api_specs:
   slug: sewerai-annotations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-annotations-api-openapi.yml
-- filename: sewerai-api-api-openapi.yml
-  format: yaml
-  label: SewerAI API
-  slug: sewerai-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-api-api-openapi.yml
 - filename: sewerai-autocode-api-openapi.yml
   format: yaml
   label: SewerAI Autocode API
@@ -150,18 +144,48 @@ api_specs:
   slug: sewerai-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-users-api-openapi.yml
-- filename: sewerai-v1-api-openapi.yml
-  format: yaml
-  label: SewerAI V1 API
-  slug: sewerai-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-v1-api-openapi.yml
 - filename: sewerai-videos-api-openapi.yml
   format: yaml
   label: SewerAI Videos API
   slug: sewerai-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-videos-api-openapi.yml
+- filename: sewerai-assets-api-openapi.yml
+  format: yaml
+  label: SewerAI Assets API
+  slug: sewerai-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-assets-api-openapi.yml
+- filename: sewerai-inspections-api-openapi.yml
+  format: yaml
+  label: SewerAI Inspections API
+  slug: sewerai-inspections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-inspections-api-openapi.yml
+- filename: sewerai-observations-api-openapi.yml
+  format: yaml
+  label: SewerAI Observations API
+  slug: sewerai-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-observations-api-openapi.yml
+- filename: sewerai-organizations-api-openapi.yml
+  format: yaml
+  label: SewerAI Organizations API
+  slug: sewerai-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-organizations-api-openapi.yml
+- filename: sewerai-projects-api-openapi.yml
+  format: yaml
+  label: SewerAI Projects API
+  slug: sewerai-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-projects-api-openapi.yml
+- filename: sewerai-schema-api-openapi.yml
+  format: yaml
+  label: SewerAI Schema API
+  slug: sewerai-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/openapi/sewerai-schema-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

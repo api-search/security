@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/security/anytime-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- AI
-- LegalTech
+- Artificial Intelligence
+- Legal Tech
 - Litigation
-- SaaS
+- Software-as-a-Service
 - PlaintiffLawyers
 ---

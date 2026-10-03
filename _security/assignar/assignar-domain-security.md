@@ -183,7 +183,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Construction
 - Software
-- API
 - Cloud
-- ProjectManagement
+- Project Management
 ---

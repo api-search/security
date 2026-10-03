@@ -6,18 +6,66 @@ api_specs:
   slug: babylon-labs-shared-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-shared-api-openapi.yml
-- filename: babylon-labs-v1-api-openapi.yml
+- filename: babylon-labs-apr-api-openapi.yml
   format: yaml
-  label: Babylon Labs v1 API
-  slug: babylon-labs-v1-api
+  label: Babylon Labs Apr API
+  slug: babylon-labs-apr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-v1-api-openapi.yml
-- filename: babylon-labs-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-apr-api-openapi.yml
+- filename: babylon-labs-delegation-api-openapi.yml
   format: yaml
-  label: Babylon Labs v2 API
-  slug: babylon-labs-v2-api
+  label: Babylon Labs Delegation API
+  slug: babylon-labs-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-delegation-api-openapi.yml
+- filename: babylon-labs-delegations-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Delegations API
+  slug: babylon-labs-delegations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-delegations-api-openapi.yml
+- filename: babylon-labs-finality-providers-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Finality Providers API
+  slug: babylon-labs-finality-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-finality-providers-api-openapi.yml
+- filename: babylon-labs-global-params-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Global Params API
+  slug: babylon-labs-global-params-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-global-params-api-openapi.yml
+- filename: babylon-labs-network-info-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Network Info API
+  slug: babylon-labs-network-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-network-info-api-openapi.yml
+- filename: babylon-labs-prices-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Prices API
+  slug: babylon-labs-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-prices-api-openapi.yml
+- filename: babylon-labs-staker-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Staker API
+  slug: babylon-labs-staker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-staker-api-openapi.yml
+- filename: babylon-labs-stats-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Stats API
+  slug: babylon-labs-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-stats-api-openapi.yml
+- filename: babylon-labs-unbonding-api-openapi.yml
+  format: yaml
+  label: Babylon Labs Unbonding API
+  slug: babylon-labs-unbonding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-unbonding-api-openapi.yml
 description: ''
 domains:
 - caa:

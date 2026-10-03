@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluetokaicoffe
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Coffee
-- E‑commerce
+- E-Commerce
 - Specialty Coffee
 - India
 - Roasting

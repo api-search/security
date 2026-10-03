@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Private-Market
 - Investment
-- Secondary-Market
+- Secondary Market
 - Equity
 - Platform
 ---

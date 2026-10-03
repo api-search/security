@@ -3,12 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: phoslabs-io-openapi.yml
+- filename: phoslabs-io-audit-api-openapi.yml
   format: yaml
-  label: Behavioral Science API
-  slug: behavioral-science-api
+  label: Phos Labs Audit API
+  slug: phoslabs-io-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-audit-api-openapi.yml
+- filename: phoslabs-io-copy-api-openapi.yml
+  format: yaml
+  label: Phos Labs Copy API
+  slug: phoslabs-io-copy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-copy-api-openapi.yml
+- filename: phoslabs-io-detect-biases-api-openapi.yml
+  format: yaml
+  label: Phos Labs Detect Biases API
+  slug: phoslabs-io-detect-biases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-detect-biases-api-openapi.yml
+- filename: phoslabs-io-diagnose-api-openapi.yml
+  format: yaml
+  label: Phos Labs Diagnose API
+  slug: phoslabs-io-diagnose-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-diagnose-api-openapi.yml
+- filename: phoslabs-io-fix-checkout-api-openapi.yml
+  format: yaml
+  label: Phos Labs Fix Checkout API
+  slug: phoslabs-io-fix-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-fix-checkout-api-openapi.yml
+- filename: phoslabs-io-pricing-api-openapi.yml
+  format: yaml
+  label: Phos Labs Pricing API
+  slug: phoslabs-io-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-pricing-api-openapi.yml
+- filename: phoslabs-io-tools-api-openapi.yml
+  format: yaml
+  label: Phos Labs Tools API
+  slug: phoslabs-io-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-tools-api-openapi.yml
 auth_types:
 - http
 - oauth2

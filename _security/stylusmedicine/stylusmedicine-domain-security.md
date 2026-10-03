@@ -38,5 +38,4 @@ tags:
 - Cell Therapy
 - Oncology
 - Life Sciences
-- Cart
 ---

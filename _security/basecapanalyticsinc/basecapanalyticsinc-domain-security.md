@@ -35,5 +35,5 @@ tags:
 - Data
 - Finance
 - Marketplace
-- Secondary-Market
+- Secondary Market
 ---

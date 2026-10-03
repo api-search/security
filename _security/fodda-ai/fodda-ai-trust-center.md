@@ -1,11 +1,113 @@
 ---
 api_specs:
-- filename: fodda-ai-openapi.yml
+- filename: fodda-ai-accounts-api-openapi.yml
   format: yaml
-  label: Fodda Context & Research API
-  slug: fodda-context-research-api
+  label: Fodda (PSFK) Accounts API
+  slug: fodda-ai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-accounts-api-openapi.yml
+- filename: fodda-ai-admin-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Admin API
+  slug: fodda-ai-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-admin-api-openapi.yml
+- filename: fodda-ai-analysts-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Analysts API
+  slug: fodda-ai-analysts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-analysts-api-openapi.yml
+- filename: fodda-ai-brand-intelligence-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Brand Intelligence API
+  slug: fodda-ai-brand-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-brand-intelligence-api-openapi.yml
+- filename: fodda-ai-context-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Context API
+  slug: fodda-ai-context-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-context-api-openapi.yml
+- filename: fodda-ai-copilot-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Copilot API
+  slug: fodda-ai-copilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-copilot-api-openapi.yml
+- filename: fodda-ai-graph-slice-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Graph Slice API
+  slug: fodda-ai-graph-slice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graph-slice-api-openapi.yml
+- filename: fodda-ai-graphs-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Graphs API
+  slug: fodda-ai-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graphs-api-openapi.yml
+- filename: fodda-ai-health-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Health API
+  slug: fodda-ai-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-health-api-openapi.yml
+- filename: fodda-ai-log-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Log API
+  slug: fodda-ai-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-log-api-openapi.yml
+- filename: fodda-ai-offerings-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Offerings API
+  slug: fodda-ai-offerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-offerings-api-openapi.yml
+- filename: fodda-ai-psfk-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Psfk API
+  slug: fodda-ai-psfk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-psfk-api-openapi.yml
+- filename: fodda-ai-research-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Research API
+  slug: fodda-ai-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-research-api-openapi.yml
+- filename: fodda-ai-search-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Search API
+  slug: fodda-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-search-api-openapi.yml
+- filename: fodda-ai-sources-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Sources API
+  slug: fodda-ai-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-sources-api-openapi.yml
+- filename: fodda-ai-spt-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Spt API
+  slug: fodda-ai-spt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-spt-api-openapi.yml
+- filename: fodda-ai-supplemental-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) Supplemental API
+  slug: fodda-ai-supplemental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-supplemental-api-openapi.yml
+- filename: fodda-ai-user-api-openapi.yml
+  format: yaml
+  label: Fodda (PSFK) User API
+  slug: fodda-ai-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-user-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

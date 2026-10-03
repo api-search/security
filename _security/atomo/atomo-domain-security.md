@@ -35,5 +35,5 @@ tags:
 - Private-Market
 - Liquidity
 - Pre-IPO
-- Stock
+- Stocks
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bettercomp/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compensation
-- HRTech
-- AI
-- SaaS
+- Human Resources
+- Artificial Intelligence
+- Software-as-a-Service
 - Enterprise
 ---

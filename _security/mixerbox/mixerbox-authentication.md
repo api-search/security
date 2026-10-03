@@ -14,12 +14,12 @@ api_specs:
   slug: mixerbox-gpt-plugins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-gpt-plugins-api-openapi.yml
-- filename: mixerbox-services-funcs-getweatherinfo-mobile-0-api-openapi.yml
+- filename: mixerbox-services-api-openapi.yml
   format: yaml
-  label: MixerBox Services?funcs=GetWeatherInfo&mobile=0 API
-  slug: mixerbox-services-funcs-getweatherinfo-mobile-0-api
+  label: MixerBox Services API
+  slug: mixerbox-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-services-funcs-getweatherinfo-mobile-0-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-services-api-openapi.yml
 auth_types:
 - none
 - service_http

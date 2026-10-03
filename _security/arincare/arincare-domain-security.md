@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Pharmacy
-- DigitalHealth
+- Digital Health
 - Thailand
-- SaaS
+- Software-as-a-Service
 ---

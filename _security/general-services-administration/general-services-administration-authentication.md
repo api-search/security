@@ -46,12 +46,6 @@ api_specs:
   slug: general-services-administration-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/openapi/general-services-administration-analytics-api-openapi.yml
-- filename: general-services-administration-api-api-openapi.yml
-  format: yaml
-  label: General Services Administration API
-  slug: general-services-administration-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/openapi/general-services-administration-api-api-openapi.yml
 - filename: general-services-administration-api-scope-api-openapi.yml
   format: yaml
   label: General Services Administration API Scope API
@@ -472,6 +466,12 @@ api_specs:
   slug: general-services-administration-website-backend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/openapi/general-services-administration-website-backend-api-openapi.yml
+- filename: general-services-administration-api-umbrella-api-openapi.yml
+  format: yaml
+  label: General Services Administration Api Umbrella API
+  slug: general-services-administration-api-umbrella-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/openapi/general-services-administration-api-umbrella-api-openapi.yml
 - filename: general-services-administration-funding-sources-api-openapi.yml
   format: yaml
   label: General Services Administration Funding Sources API

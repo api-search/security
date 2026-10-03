@@ -22,7 +22,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
 - filename: siemens-mindsphere-time-series-api-openapi.yml
   format: yaml
-  label: Siemens MindSphere Time Series API
+  label: Siemens Insights Hub (MindSphere) Time Series API
   slug: siemens-mindsphere-time-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-time-series-api-openapi.yml

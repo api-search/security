@@ -42,7 +42,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology
 - Data
-- APIs
 - Life Sciences
 - Platform
 ---

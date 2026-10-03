@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Food
 - Agriculture
-- InsectProtein
+- Insect Protein
 - Sustainability
 - Technology
 ---

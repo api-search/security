@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
 - Math
-- E‑learning
-- AI
-- K‑12
+- E-Learning
+- Artificial Intelligence
+- K-12
 ---

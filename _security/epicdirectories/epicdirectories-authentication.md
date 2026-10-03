@@ -227,7 +227,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Directory
-- API
 - Data
 - Catalog
 - Search

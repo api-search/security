@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: augment-1-openapi-generated.yml
+- filename: augment-1-rest-api-openapi.yml
   format: yaml
-  label: Augment API
-  slug: augment-1-api
+  label: Augment Rest API
+  slug: augment-1-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs/heads/main/openapi/_ae-authored/augment-1-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs/heads/main/openapi/augment-1-rest-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augment-1/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AugmentedReality
-- ECommerce
-- 3DVisualization
-- SaaS
+- Augmented Reality
+- E-Commerce
+- 3D Visualization
+- Software-as-a-Service
 ---

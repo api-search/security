@@ -32,6 +32,6 @@ tags:
 - Company
 - MLOps
 - Kubernetes
-- AI
-- DataManagement
+- Artificial Intelligence
+- Data Management
 ---

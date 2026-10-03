@@ -2,13 +2,6 @@
 anonymous_access: false
 api_key_in:
 - header
-api_specs:
-- filename: endeavor-biomedicines-mcp-api-openapi.yml
-  format: yaml
-  label: Endeavor BioMedicines MCP API
-  slug: endeavor-biomedicines-mcp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/openapi/endeavor-biomedicines-mcp-api-openapi.yml
 auth_types:
 - apiKey
 - http

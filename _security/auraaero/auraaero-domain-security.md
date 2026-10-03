@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auraaero/refs/heads/main/security/auraaero-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- EVTOL
+- eVTOL
 - Aircraft
 - Hybrid EVTOL
 - Ultra‑Long Range

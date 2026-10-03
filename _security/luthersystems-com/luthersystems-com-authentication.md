@@ -2,12 +2,42 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: luthersystems-com-agentsearch-openapi.yml
+- filename: luthersystems-com-agent-api-openapi.yml
   format: yaml
-  label: AgentSearch HTTP API
-  slug: agentsearch-api
+  label: Luther Systems Agent API
+  slug: luthersystems-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-agentsearch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-agent-api-openapi.yml
+- filename: luthersystems-com-browse-api-openapi.yml
+  format: yaml
+  label: Luther Systems Browse API
+  slug: luthersystems-com-browse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-browse-api-openapi.yml
+- filename: luthersystems-com-found-agent-api-openapi.yml
+  format: yaml
+  label: Luther Systems Found Agent API
+  slug: luthersystems-com-found-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-found-agent-api-openapi.yml
+- filename: luthersystems-com-search-api-openapi.yml
+  format: yaml
+  label: Luther Systems Search API
+  slug: luthersystems-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-search-api-openapi.yml
+- filename: luthersystems-com-stats-api-openapi.yml
+  format: yaml
+  label: Luther Systems Stats API
+  slug: luthersystems-com-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-stats-api-openapi.yml
+- filename: luthersystems-com-well-known-api-openapi.yml
+  format: yaml
+  label: Luther Systems .well Known API
+  slug: luthersystems-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/luthersystems-com/refs/heads/main/openapi/luthersystems-com-well-known-api-openapi.yml
 auth_types: []
 description: 'Three distinct postures. AgentSearch is anonymous end to end — no keys, the card declares securitySchemes.public.type "none". InsideOut is anonymous for design and pricing but session-scoped: convoopen mints a session_id whose ?token= suffix is the per-session credential, deployment requires the user to connect AWS/GCP credentials in a browser (the cloud provider''s own OAuth, never passed through the agent) and to subscribe, and the A2A tasks/get method requires an X-A2A-Task-Secret header. The Luther Enterprise platform (customer-deployed) authenticates with RS256 JWTs issued by LutherAuth against external OIDC IdPs (Cognito, AzureAD, Auth0), with API-key pre-validation supported by the Go SDK and an X-API-KEY header on the starter-kit middleware API.'
 kind: authentication

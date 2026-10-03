@@ -2,30 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: united-states-postal-service-addresses-api-openapi.yml
+- filename: usps-addresses-api-openapi.yml
   format: yaml
   label: United States Postal Service Addresses API
-  slug: addresses
+  slug: usps-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-addresses-api-openapi.yml
-- filename: united-states-postal-service-carrier-pickup-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-addresses-api-openapi.yml
+- filename: usps-carrier-pickup-api-openapi.yml
   format: yaml
   label: United States Postal Service Carrier Pickup API
   slug: usps-carrier-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-carrier-pickup-api-openapi.yml
-- filename: united-states-postal-service-domestic-prices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-carrier-pickup-api-openapi.yml
+- filename: usps-domestic-prices-api-openapi.yml
   format: yaml
   label: United States Postal Service Domestic Prices API
-  slug: prices
+  slug: usps-domestic-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-domestic-prices-api-openapi.yml
-- filename: united-states-postal-service-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-domestic-prices-api-openapi.yml
+- filename: usps-tracking-api-openapi.yml
   format: yaml
   label: United States Postal Service Tracking API
-  slug: tracking
+  slug: usps-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/united-states-postal-service-tracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-tracking-api-openapi.yml
 auth_types:
 - http
 description: ''

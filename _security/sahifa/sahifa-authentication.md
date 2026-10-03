@@ -74,8 +74,7 @@ summary_line: 5 schemes
 tags:
 - Company
 - PDF
-- Screenshot
-- API
-- SaudiArabia
+- Screenshots
+- Saudi Arabia
 - Cloud
 ---

@@ -69,9 +69,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noms/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- nutrition
-- food
-- API
-- data
-- health
+- Nutrition
+- Food
+- Data
+- Health
 ---

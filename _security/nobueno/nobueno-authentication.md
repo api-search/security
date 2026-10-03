@@ -177,12 +177,6 @@ api_specs:
   slug: nobueno-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nobueno/refs/heads/main/openapi/nobueno-users-api-openapi.yml
-- filename: nobueno-v2-api-openapi.yml
-  format: yaml
-  label: NoBueno v2 API
-  slug: nobueno-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nobueno/refs/heads/main/openapi/nobueno-v2-api-openapi.yml
 - filename: nobueno-webrtc-configs-api-openapi.yml
   format: yaml
   label: NoBueno Webrtc Configs API

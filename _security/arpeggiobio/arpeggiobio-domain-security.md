@@ -26,10 +26,9 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arpeggiobio/refs/heads/main/security/arpeggiobio-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
-- biotech
-- genomics
-- transcriptomics
-- bioinformatics
-- open-source
-- APIs
+- Biotechnology
+- Genomics
+- Transcriptomics
+- Bioinformatics
+- Open Source
 ---

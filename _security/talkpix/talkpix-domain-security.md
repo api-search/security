@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: talkpix-openapi-generated.yml
+- filename: talkpix-estimate-api-openapi.yml
   format: yaml
-  label: TalkPix API API
-  slug: talkpix-api
+  label: TalkPix API Estimate API
+  slug: talkpix-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/_ae-authored/talkpix-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/talkpix-estimate-api-openapi.yml
+- filename: talkpix-me-api-openapi.yml
+  format: yaml
+  label: TalkPix API Me API
+  slug: talkpix-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/talkpix-me-api-openapi.yml
+- filename: talkpix-talkpix-api-api-api-openapi.yml
+  format: yaml
+  label: TalkPix API TalkPix API API
+  slug: talkpix-talkpix-api-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/talkpix-talkpix-api-api-api-openapi.yml
+- filename: talkpix-uploads-api-openapi.yml
+  format: yaml
+  label: TalkPix API Uploads API
+  slug: talkpix-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/talkpix-uploads-api-openapi.yml
+- filename: talkpix-videos-api-openapi.yml
+  format: yaml
+  label: TalkPix API Videos API
+  slug: talkpix-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/talkpix-videos-api-openapi.yml
+- filename: talkpix-voices-api-openapi.yml
+  format: yaml
+  label: TalkPix API Voices API
+  slug: talkpix-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/heads/main/openapi/talkpix-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talkpix/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
 - Talking Photo
 - Media

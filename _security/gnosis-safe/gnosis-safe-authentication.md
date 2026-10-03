@@ -4,12 +4,6 @@ api_key_in:
 - cookie
 - header
 api_specs:
-- filename: gnosis-safe-4337-api-openapi.yml
-  format: yaml
-  label: Safe (Gnosis Safe) 4337 API
-  slug: gnosis-safe-4337-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-4337-api-openapi.yml
 - filename: gnosis-safe-about-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) about API
@@ -76,6 +70,12 @@ api_specs:
   slug: gnosis-safe-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-transactions-api-openapi.yml
+- filename: gnosis-safe-tx-service-api-openapi.yml
+  format: yaml
+  label: Safe (Gnosis Safe) Tx Service API
+  slug: gnosis-safe-tx-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-tx-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

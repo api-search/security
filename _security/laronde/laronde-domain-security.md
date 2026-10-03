@@ -44,5 +44,4 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Preclinical
-- Cart
 ---

@@ -5,18 +5,138 @@ api_key_in:
 - header-bearer
 - body
 api_specs:
-- filename: snhp-dev-openapi.yml
+- filename: snhp-dev-arena-api-openapi.yml
   format: yaml
-  label: SNHP Game Theory Layer API
-  slug: game-theory-api
+  label: SNHP Arena API
+  slug: snhp-dev-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-openapi.yml
-- filename: snhp-dev-arena-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-arena-api-openapi.yml
+- filename: snhp-dev-auctions-api-openapi.yml
   format: yaml
-  label: SNHP Evolution Arena API
-  slug: evolution-arena-api
+  label: SNHP Auctions API
+  slug: snhp-dev-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-arena-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-auctions-api-openapi.yml
+- filename: snhp-dev-billing-api-openapi.yml
+  format: yaml
+  label: SNHP Billing API
+  slug: snhp-dev-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-billing-api-openapi.yml
+- filename: snhp-dev-block-api-openapi.yml
+  format: yaml
+  label: SNHP Block API
+  slug: snhp-dev-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-block-api-openapi.yml
+- filename: snhp-dev-discovery-api-openapi.yml
+  format: yaml
+  label: SNHP Discovery API
+  slug: snhp-dev-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-discovery-api-openapi.yml
+- filename: snhp-dev-divorce-api-openapi.yml
+  format: yaml
+  label: SNHP Divorce API
+  slug: snhp-dev-divorce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-divorce-api-openapi.yml
+- filename: snhp-dev-health-api-openapi.yml
+  format: yaml
+  label: SNHP Health API
+  slug: snhp-dev-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-health-api-openapi.yml
+- filename: snhp-dev-helper-api-openapi.yml
+  format: yaml
+  label: SNHP Helper API
+  slug: snhp-dev-helper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-helper-api-openapi.yml
+- filename: snhp-dev-hit-api-openapi.yml
+  format: yaml
+  label: SNHP Hit API
+  slug: snhp-dev-hit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-hit-api-openapi.yml
+- filename: snhp-dev-mechanism-api-openapi.yml
+  format: yaml
+  label: SNHP Mechanism API
+  slug: snhp-dev-mechanism-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-mechanism-api-openapi.yml
+- filename: snhp-dev-mpp-api-openapi.yml
+  format: yaml
+  label: SNHP Mpp API
+  slug: snhp-dev-mpp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-mpp-api-openapi.yml
+- filename: snhp-dev-negotiation-api-openapi.yml
+  format: yaml
+  label: SNHP Negotiation API
+  slug: snhp-dev-negotiation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-negotiation-api-openapi.yml
+- filename: snhp-dev-notary-api-openapi.yml
+  format: yaml
+  label: SNHP Notary API
+  slug: snhp-dev-notary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-notary-api-openapi.yml
+- filename: snhp-dev-offer-api-openapi.yml
+  format: yaml
+  label: SNHP Offer API
+  slug: snhp-dev-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-offer-api-openapi.yml
+- filename: snhp-dev-par-api-openapi.yml
+  format: yaml
+  label: SNHP Par API
+  slug: snhp-dev-par-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-par-api-openapi.yml
+- filename: snhp-dev-rent-api-openapi.yml
+  format: yaml
+  label: SNHP Rent API
+  slug: snhp-dev-rent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-rent-api-openapi.yml
+- filename: snhp-dev-snhp-evolution-arena-api-openapi.yml
+  format: yaml
+  label: SNHP SNHP Evolution Arena API
+  slug: snhp-dev-snhp-evolution-arena-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-snhp-evolution-arena-api-openapi.yml
+- filename: snhp-dev-stats-api-openapi.yml
+  format: yaml
+  label: SNHP Stats API
+  slug: snhp-dev-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-stats-api-openapi.yml
+- filename: snhp-dev-store-api-openapi.yml
+  format: yaml
+  label: SNHP Store API
+  slug: snhp-dev-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-store-api-openapi.yml
+- filename: snhp-dev-telemetry-api-openapi.yml
+  format: yaml
+  label: SNHP Telemetry API
+  slug: snhp-dev-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-telemetry-api-openapi.yml
+- filename: snhp-dev-vend-api-openapi.yml
+  format: yaml
+  label: SNHP Vend API
+  slug: snhp-dev-vend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-vend-api-openapi.yml
+- filename: snhp-dev-world-api-openapi.yml
+  format: yaml
+  label: SNHP World API
+  slug: snhp-dev-world-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-world-api-openapi.yml
 auth_types:
 - apiKey
 - http-bearer

@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artificiallabs/refs/heads/main/security/artificiallabs-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Coding Platform
 - Automation
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 ---

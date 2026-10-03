@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/security/archax-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- FinTech
+- Fintech
 - Digital Assets
 - Tokenisation
 - Trading Platform

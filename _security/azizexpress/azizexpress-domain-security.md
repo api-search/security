@@ -33,6 +33,6 @@ tags:
 - Delivery
 - Logistics
 - Software
-- AI
-- DataAnalytics
+- Artificial Intelligence
+- Data Analytics
 ---

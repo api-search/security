@@ -45,6 +45,6 @@ tags:
 - Video
 - Streaming
 - Advertising
-- SaaS
+- Software-as-a-Service
 - Platform
 ---

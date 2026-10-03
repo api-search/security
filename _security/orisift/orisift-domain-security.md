@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: orisift-openapi-generated.yml
+- filename: orisift-lookup-api-openapi.yml
   format: yaml
-  label: Orisift API
-  slug: orisift-api
+  label: Orisift Lookup API
+  slug: orisift-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orisift/refs/heads/main/openapi/_ae-authored/orisift-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orisift/refs/heads/main/openapi/orisift-lookup-api-openapi.yml
 description: ''
 domains:
 - caa: []

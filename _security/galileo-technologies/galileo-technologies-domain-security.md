@@ -348,12 +348,6 @@ api_specs:
   slug: galileo-technologies-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-users-api-openapi.yml
-- filename: galileo-technologies-v1-api-openapi.yml
-  format: yaml
-  label: Galileo Technologies v1 API
-  slug: galileo-technologies-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-v1-api-openapi.yml
 - filename: galileo-technologies-versions-api-openapi.yml
   format: yaml
   label: Galileo Technologies Versions API

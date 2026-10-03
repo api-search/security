@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billergenie/re
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Billing
 - Payments
-- Merchant
+- Merchants
 - Platform
 ---

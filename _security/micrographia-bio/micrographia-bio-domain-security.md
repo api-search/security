@@ -31,5 +31,4 @@ tags:
 - Company
 - Biotechnology
 - Life Sciences
-- Startups
 ---

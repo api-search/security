@@ -86,7 +86,7 @@ tags:
 - shift-scheduling
 - Time and Attendance
 - Hourly Workforce
-- gig-work
+- GigWork
 - event-staffing
 - Hospitality
 - staffing-agency

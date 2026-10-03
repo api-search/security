@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Cryptocurrency
 - Blockchain
-- DASH
+- Dash
 - InstantSend
 - Masternode
 - DashPay

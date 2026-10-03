@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: bilt-default-payment-method-api-openapi.yml
+  format: yaml
+  label: BILT Default payment method API
+  slug: bilt-default-payment-method-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/openapi/bilt-default-payment-method-api-openapi.yml
+- filename: bilt-headless-payments-api-openapi.yml
+  format: yaml
+  label: BILT Headless payments API
+  slug: bilt-headless-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/openapi/bilt-headless-payments-api-openapi.yml
+- filename: bilt-one-time-payments-api-openapi.yml
+  format: yaml
+  label: BILT One-time payments API
+  slug: bilt-one-time-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/openapi/bilt-one-time-payments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -31,10 +50,10 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/security/bilt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- FinTech
+- Fintech
 - Loyalty
 - Payments
 - RentRewards
-- CreditCard
-- RealEstate
+- Credit Cards
+- Real Estate
 ---

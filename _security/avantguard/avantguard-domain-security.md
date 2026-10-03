@@ -34,5 +34,5 @@ tags:
 - Antimicrobial
 - Biotechnology
 - Healthcare
-- Startup
+- Startups
 ---

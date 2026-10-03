@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ariadnemaps/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- PeopleCounting
+- People Counting
 - PrivacyFirst
 - IoT
 - Analytics

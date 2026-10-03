@@ -34,6 +34,6 @@ tags:
 - Food
 - Sauce
 - Japanese
-- E-commerce
+- E-Commerce
 - Specialty
 ---
