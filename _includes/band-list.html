@@ -80,7 +80,7 @@
       <a class="band-row" href="{{ _base }}{{ _slug }}/"
         ><span class="band-row-name">{{ item.name }}</span
         >{% if item.tags and item.tags.size > 0 %}<span class="band-row-tags">{% for t in item.tags %}{% unless t == _omit %}<span class="band-tag">{{ t }}</span>{% endunless %}{% endfor %}</span>{% elsif item.description and item.description != '' %}<span class="band-row-desc">{{ item.description | strip_html | truncate: 110 }}</span>{% endif %}<span class="band-row-meta"
-          >{% if item.api_count and item.api_count > 0 %}<span class="band-row-apis">{{ item.api_count }} API{% if item.api_count != 1 %}s{% endif %}</span>{% endif %}{% if item.score_composite %}<span class="band-row-score">{{ item.score_composite | round: 1 }}</span>{% endif %}</span
+          >{% if item.api_count and item.api_count > 0 %}{% if item.api_count_basis == 'published' %}<span class="band-row-apis" title="OpenAPI contracts the provider publishes. Its provider page lists the individual APIs indexed from them.">{{ item.api_count }} published contract{% if item.api_count != 1 %}s{% endif %}</span>{% else %}<span class="band-row-apis">{{ item.api_count }} API{% if item.api_count != 1 %}s{% endif %}</span>{% endif %}{% endif %}{% if item.score_composite %}<span class="band-row-score">{{ item.score_composite | round: 1 }}</span>{% endif %}</span
         >{%- comment -%}
           The K'in sun. Far right of the row by default — the listing anatomy
           shared with apievangelist.com — and FIRST under layout='kin', which

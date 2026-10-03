@@ -2,6 +2,13 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: black-duck-openapi-generated.yml
+  format: yaml
+  label: Black Duck API
+  slug: black-duck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/_ae-authored/black-duck-openapi-generated.yml
 auth_types:
 - apiKey
 - http

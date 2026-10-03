@@ -38,7 +38,10 @@
   {% if page.short %}<p class="cap-short">{{ page.short }}</p>{% endif %}
   <div class="cap-stats">
     <span class="cap-stat"><strong>{{ page.provider_count }}</strong> provider{% if page.provider_count != 1 %}s{% endif %}</span>
-    <span class="cap-stat"><strong>{{ page.api_count }}</strong> API{% if page.api_count != 1 %}s{% endif %}</span>
+    {%- comment -%} roadmap#146 / appstorespy#2: this is a SUM of each provider's api_count, which is the
+      published-contract count where the provider has an openapi/_original/ archive and the indexed-API
+      count otherwise, so no single noun is exact. The title says what was summed. {%- endcomment %}
+    <span class="cap-stat" title="Sum of each provider's count: published OpenAPI contracts where the provider has an archive, indexed APIs otherwise."><strong>{{ page.api_count }}</strong> API{% if page.api_count != 1 %}s{% endif %}</span>
     {% if page.raw_term_count %}<span class="cap-stat"><strong>{{ page.raw_term_count }}</strong> declared variant{% if page.raw_term_count != 1 %}s{% endif %}</span>{% endif %}
   </div>
 </div>

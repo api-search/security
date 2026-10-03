@@ -1,13 +1,20 @@
 ---
+api_specs:
+- filename: netskope-openapi-generated.yml
+  format: yaml
+  label: Netskope API
+  slug: netskope-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netskope/refs/heads/main/openapi/_ae-authored/netskope-openapi-generated.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "letsencrypt.org"
   - 0 issue "globalsign.com"
-  - 0 issuewild "globalsign.com"
-  - 0 issue "amazon.com"
   - 0 issue "amazontrust.com"
-  - 0 issue "pki.goog"
+  - 0 issue "amazonaws.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "awstrust.com"
+  - 0 issuewild "globalsign.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -39,7 +46,7 @@ slug: netskope-domain-security
 source_filename: netskope-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.netskope.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 20:36:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.netskope.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 17:11:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: netskope.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.netskope.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 20:36:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.netskope.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 17:11:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: netskope.com\n  dnssec: true\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"awstrust.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netskope/refs/heads/main/security/netskope-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

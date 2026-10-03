@@ -6,6 +6,12 @@ api_specs:
   slug: coralogix
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/asyncapi/coralogix-asyncapi.yml
+- filename: coralogix-openapi-generated.yml
+  format: yaml
+  label: Coralogix API
+  slug: coralogix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/openapi/_ae-authored/coralogix-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -15,7 +21,7 @@ domains:
   domain: coralogix.com
   spf: true
 hosts:
-- cert_expires: Sep  8 21:11:27 2026 GMT
+- cert_expires: Nov  6 21:25:07 2026 GMT
   host: coralogix.com
   hsts: false
   https: true
@@ -33,11 +39,13 @@ slug: coralogix-domain-security
 source_filename: coralogix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coralogix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 21:11:27 2026 GMT\n  hsts: false\ndomains:\n- domain: coralogix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: coralogix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 21:25:07 2026 GMT\n  hsts: false\ndomains:\n- domain: coralogix.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/security/coralogix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AIOps
 - Observability
 - Monitoring
+- Cloud
+- DevOps
 ---

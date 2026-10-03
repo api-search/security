@@ -147,6 +147,60 @@ api_specs:
   slug: okta-userschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-userschema-api-openapi.yml
+- filename: okta-appauthenticator-api-openapi.yml
+  format: yaml
+  label: Okta App Authenticator API
+  slug: okta-appauthenticator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-appauthenticator-api-openapi.yml
+- filename: okta-authenticators-api-openapi.yml
+  format: yaml
+  label: Okta Authenticators API
+  slug: okta-authenticators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-authenticators-api-openapi.yml
+- filename: okta-email-api-openapi.yml
+  format: yaml
+  label: Okta Email API
+  slug: okta-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-email-api-openapi.yml
+- filename: okta-oktaapplications-api-openapi.yml
+  format: yaml
+  label: Okta Okta Applications API
+  slug: okta-oktaapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-oktaapplications-api-openapi.yml
+- filename: okta-organization-api-openapi.yml
+  format: yaml
+  label: Okta Organization API
+  slug: okta-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-organization-api-openapi.yml
+- filename: okta-password-api-openapi.yml
+  format: yaml
+  label: Okta Password API
+  slug: okta-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-password-api-openapi.yml
+- filename: okta-phone-api-openapi.yml
+  format: yaml
+  label: Okta Phone API
+  slug: okta-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-phone-api-openapi.yml
+- filename: okta-profile-api-openapi.yml
+  format: yaml
+  label: Okta Profile API
+  slug: okta-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-profile-api-openapi.yml
+- filename: okta-sessions-api-openapi.yml
+  format: yaml
+  label: Okta Sessions API
+  slug: okta-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-sessions-api-openapi.yml
 - filename: okta-identity-provider-api-openapi.yml
   format: yaml
   label: Okta Identity Provider API

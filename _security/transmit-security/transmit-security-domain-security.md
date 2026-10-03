@@ -63,18 +63,18 @@ domains:
   domain: transmitsecurity.io
   spf: true
 hosts:
-- cert_expires: Oct 28 23:59:59 2026 GMT
+- cert_expires: Dec 31 16:29:23 2026 GMT
   host: transmitsecurity.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  9 18:47:07 2026 GMT
+- cert_expires: Nov  8 12:11:03 2026 GMT
   host: developer.transmitsecurity.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep  1 13:16:22 2026 GMT
+- cert_expires: Dec 29 05:46:18 2026 GMT
   host: api.transmitsecurity.io
   hsts: null
   https: true
@@ -92,7 +92,7 @@ slug: transmit-security-domain-security
 source_filename: transmit-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: transmitsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.transmitsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 18:47:07 2026 GMT\n  hsts: false\n- host: api.transmitsecurity.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 13:16:22 2026 GMT\n  hsts: null\ndomains:\n- domain: transmitsecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: transmitsecurity.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: transmitsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 16:29:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.transmitsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 12:11:03 2026 GMT\n  hsts: false\n- host: api.transmitsecurity.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 05:46:18 2026 GMT\n  hsts: null\ndomains:\n- domain: transmitsecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: transmitsecurity.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/security/transmit-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

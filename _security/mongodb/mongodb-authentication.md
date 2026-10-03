@@ -308,6 +308,36 @@ api_specs:
   slug: mongodb-x-509-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-x-509-authentication-api-openapi.yml
+- filename: mongodb-ai-model-api-keys-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model API Keys API
+  slug: mongodb-ai-model-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-api-keys-api-openapi.yml
+- filename: mongodb-ai-model-rate-limits-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model Rate Limits API
+  slug: mongodb-ai-model-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-rate-limits-api-openapi.yml
+- filename: mongodb-metric-integrations-api-openapi.yml
+  format: yaml
+  label: MongoDB Metric Integrations API
+  slug: mongodb-metric-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-metric-integrations-api-openapi.yml
+- filename: mongodb-overload-protection-simulation-api-openapi.yml
+  format: yaml
+  label: MongoDB Overload Protection Simulation API
+  slug: mongodb-overload-protection-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-overload-protection-simulation-api-openapi.yml
+- filename: mongodb-remote-mcp-configurations-api-openapi.yml
+  format: yaml
+  label: MongoDB Remote MCP Configurations API
+  slug: mongodb-remote-mcp-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-remote-mcp-configurations-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -53,4 +53,8 @@ tags:
 - API Management
 - Enterprise
 - Integration
+- API Integration
+- Application Connectivity
+- Data Integration
+- Enterprise Integration
 ---

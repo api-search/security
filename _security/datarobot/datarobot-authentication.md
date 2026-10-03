@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: datarobot-openapi-generated.yml
+  format: yaml
+  label: DataRobot API
+  slug: datarobot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/_ae-authored/datarobot-openapi-generated.yml
 auth_types:
 - http
 - oauth2
@@ -69,10 +76,10 @@ summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Data Science
-- AI Agents
+- Agentic AI
 - Predictive Analytics
 - Generative AI
 ---

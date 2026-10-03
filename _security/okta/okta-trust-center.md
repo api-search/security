@@ -144,6 +144,60 @@ api_specs:
   slug: okta-userschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-userschema-api-openapi.yml
+- filename: okta-appauthenticator-api-openapi.yml
+  format: yaml
+  label: Okta App Authenticator API
+  slug: okta-appauthenticator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-appauthenticator-api-openapi.yml
+- filename: okta-authenticators-api-openapi.yml
+  format: yaml
+  label: Okta Authenticators API
+  slug: okta-authenticators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-authenticators-api-openapi.yml
+- filename: okta-email-api-openapi.yml
+  format: yaml
+  label: Okta Email API
+  slug: okta-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-email-api-openapi.yml
+- filename: okta-oktaapplications-api-openapi.yml
+  format: yaml
+  label: Okta Okta Applications API
+  slug: okta-oktaapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-oktaapplications-api-openapi.yml
+- filename: okta-organization-api-openapi.yml
+  format: yaml
+  label: Okta Organization API
+  slug: okta-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-organization-api-openapi.yml
+- filename: okta-password-api-openapi.yml
+  format: yaml
+  label: Okta Password API
+  slug: okta-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-password-api-openapi.yml
+- filename: okta-phone-api-openapi.yml
+  format: yaml
+  label: Okta Phone API
+  slug: okta-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-phone-api-openapi.yml
+- filename: okta-profile-api-openapi.yml
+  format: yaml
+  label: Okta Profile API
+  slug: okta-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-profile-api-openapi.yml
+- filename: okta-sessions-api-openapi.yml
+  format: yaml
+  label: Okta Sessions API
+  slug: okta-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-sessions-api-openapi.yml
 - filename: okta-identity-provider-api-openapi.yml
   format: yaml
   label: Okta Identity Provider API
@@ -180,7 +234,7 @@ slug: okta-trust-center
 source_filename: okta-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.okta.com/\nurl: https://security.okta.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\n- FIPS 140\nevidence:\n- source: https://security.okta.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://security.okta.com/\nurl: https://security.okta.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\n- FIPS 140\nevidence:\n- source: https://security.okta.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/security/okta-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR, FIPS 140
 tags:

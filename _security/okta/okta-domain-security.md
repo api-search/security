@@ -144,6 +144,60 @@ api_specs:
   slug: okta-userschema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-userschema-api-openapi.yml
+- filename: okta-appauthenticator-api-openapi.yml
+  format: yaml
+  label: Okta App Authenticator API
+  slug: okta-appauthenticator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-appauthenticator-api-openapi.yml
+- filename: okta-authenticators-api-openapi.yml
+  format: yaml
+  label: Okta Authenticators API
+  slug: okta-authenticators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-authenticators-api-openapi.yml
+- filename: okta-email-api-openapi.yml
+  format: yaml
+  label: Okta Email API
+  slug: okta-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-email-api-openapi.yml
+- filename: okta-oktaapplications-api-openapi.yml
+  format: yaml
+  label: Okta Okta Applications API
+  slug: okta-oktaapplications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-oktaapplications-api-openapi.yml
+- filename: okta-organization-api-openapi.yml
+  format: yaml
+  label: Okta Organization API
+  slug: okta-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-organization-api-openapi.yml
+- filename: okta-password-api-openapi.yml
+  format: yaml
+  label: Okta Password API
+  slug: okta-password-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-password-api-openapi.yml
+- filename: okta-phone-api-openapi.yml
+  format: yaml
+  label: Okta Phone API
+  slug: okta-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-phone-api-openapi.yml
+- filename: okta-profile-api-openapi.yml
+  format: yaml
+  label: Okta Profile API
+  slug: okta-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-profile-api-openapi.yml
+- filename: okta-sessions-api-openapi.yml
+  format: yaml
+  label: Okta Sessions API
+  slug: okta-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/openapi/okta-sessions-api-openapi.yml
 - filename: okta-identity-provider-api-openapi.yml
   format: yaml
   label: Okta Identity Provider API
@@ -170,38 +224,45 @@ domains:
   dnssec: false
   domain: okta.com
   spf: true
+- caa:
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
+  - 0 issue "letsencrypt.org"
+  dmarc: false
+  dnssec: false
+  domain: xaa.dev
+  spf: false
 hosts:
-- cert_expires: Sep 12 23:59:59 2026 GMT
+- cert_expires: Mar 26 23:59:59 2027 GMT
   host: www.okta.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  7 23:59:59 2026 GMT
+- cert_expires: Mar  9 23:59:59 2027 GMT
   host: developer.okta.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan 15 23:59:59 2027 GMT
-  host: your-subdomain.okta.com
-  hsts: true
-  hsts_max_age: 315360000
+- cert_expires: Jan 16 23:59:59 2027 GMT
+  host: xaa.dev
+  hsts: false
   https: true
-  tls_version: TLSv1.2
+  tls_version: TLSv1.3
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Okta Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Okta, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Okta, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Okta
 provider_slug: okta
 slug: okta-domain-security
 source_filename: okta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.okta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.okta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: false\n- host: your-subdomain.okta.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 315360000\ndomains:\n- domain: okta.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 iodef \"mailto:ops@okta.com\"\n  - 0 iodef \"mailto:security-alert@okta.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.okta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.okta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  9 23:59:59 2027 GMT\n  hsts: false\n- host: xaa.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: okta.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 iodef \"mailto:ops@okta.com\"\n  - 0 iodef \"mailto:security-alert@okta.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: xaa.dev\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/security/okta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

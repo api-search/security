@@ -459,4 +459,6 @@ summary_line: apiKey/http/oauth2 · 7 schemes
 tags:
 - Fortune 100
 - Microsoft
+- Software
+- Cloud
 ---

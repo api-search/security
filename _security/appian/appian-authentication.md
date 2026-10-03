@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: appian-openapi.yml
-  format: yaml
-  label: Appian Application Package Details API
-  slug: appian
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-openapi.yml
 - filename: appian-export-api-openapi.yml
   format: yaml
   label: Appian Export API

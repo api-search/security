@@ -75,19 +75,19 @@ domains:
   domain: pingidentity.com
   spf: true
 - caa:
-  - 0 issue "letsencrypt.org"
-  - 0 issuewild "amazonaws.com"
-  - 0 issue "amazonaws.com"
   - 0 issuewild "digicert.com"
+  - 0 iodef "mailto:sitereliability@pingidentity.com"
+  - 0 issuewild "amazonaws.com"
   - 0 issue "digicert.com"
-  - 0 issue "pki.goog"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "amazonaws.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: pingone.com
   spf: true
 hosts:
-- cert_expires: Sep  4 20:14:53 2026 GMT
+- cert_expires: Nov  9 19:55:59 2026 GMT
   host: www.pingidentity.com
   hsts: true
   hsts_max_age: 31557600
@@ -116,7 +116,7 @@ slug: ping-identity-domain-security
 source_filename: ping-identity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pingidentity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 20:14:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: apidocs.pingidentity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: false\n- host: api.pingone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: pingidentity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: pingone.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.pingidentity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 19:55:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: apidocs.pingidentity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: false\n- host: api.pingone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: pingidentity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: pingone.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:sitereliability@pingidentity.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/security/ping-identity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

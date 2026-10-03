@@ -306,6 +306,36 @@ api_specs:
   slug: mongodb-x-509-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-x-509-authentication-api-openapi.yml
+- filename: mongodb-ai-model-api-keys-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model API Keys API
+  slug: mongodb-ai-model-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-api-keys-api-openapi.yml
+- filename: mongodb-ai-model-rate-limits-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model Rate Limits API
+  slug: mongodb-ai-model-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-rate-limits-api-openapi.yml
+- filename: mongodb-metric-integrations-api-openapi.yml
+  format: yaml
+  label: MongoDB Metric Integrations API
+  slug: mongodb-metric-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-metric-integrations-api-openapi.yml
+- filename: mongodb-overload-protection-simulation-api-openapi.yml
+  format: yaml
+  label: MongoDB Overload Protection Simulation API
+  slug: mongodb-overload-protection-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-overload-protection-simulation-api-openapi.yml
+- filename: mongodb-remote-mcp-configurations-api-openapi.yml
+  format: yaml
+  label: MongoDB Remote MCP Configurations API
+  slug: mongodb-remote-mcp-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-remote-mcp-configurations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -325,15 +355,14 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 11 15:01:52 2026 GMT
-  host: cloud.mongodb.com
-  hsts: true
-  hsts_max_age: 31536000
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Aug 11 15:02:10 2026 GMT
+- cert_expires: Dec  9 13:29:05 2026 GMT
   host: data.mongodb-api.com
   hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec  9 13:29:37 2026 GMT
+  host: realm.mongodb.com
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -342,16 +371,16 @@ layout: security
 method: probed
 name: Mongodb Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for MongoDB, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for MongoDB, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: MongoDB
 provider_slug: mongodb
 slug: mongodb-domain-security
 source_filename: mongodb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mongodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\n- host: cloud.mongodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 15:01:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: data.mongodb-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 15:02:10 2026 GMT\n  hsts: null\ndomains:\n- domain: mongodb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mongodb-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mongodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\n- host: data.mongodb-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 13:29:05 2026 GMT\n  hsts: null\n- host: realm.mongodb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 13:29:37 2026 GMT\n  hsts: false\ndomains:\n- domain: mongodb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: mongodb-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/security/mongodb-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud Database
 - Database

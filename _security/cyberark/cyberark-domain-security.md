@@ -51,7 +51,7 @@ domains:
   domain: cyberark.com
   spf: true
 hosts:
-- cert_expires: Sep 18 14:43:50 2026 GMT
+- cert_expires: Nov 16 15:16:37 2026 GMT
   host: www.cyberark.com
   hsts: true
   hsts_max_age: 31536000
@@ -75,7 +75,7 @@ slug: cyberark-domain-security
 source_filename: cyberark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 14:43:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cyberark.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 15:16:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cyberark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cyberark.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/security/cyberark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

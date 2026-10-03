@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: datarobot-openapi-generated.yml
+  format: yaml
+  label: DataRobot API
+  slug: datarobot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/_ae-authored/datarobot-openapi-generated.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -19,10 +26,10 @@ summary_line: trust center published
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Data Science
-- AI Agents
+- Agentic AI
 - Predictive Analytics
 - Generative AI
 trust_url: https://trust.datarobot.com

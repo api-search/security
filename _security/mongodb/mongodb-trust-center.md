@@ -306,6 +306,36 @@ api_specs:
   slug: mongodb-x-509-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-x-509-authentication-api-openapi.yml
+- filename: mongodb-ai-model-api-keys-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model API Keys API
+  slug: mongodb-ai-model-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-api-keys-api-openapi.yml
+- filename: mongodb-ai-model-rate-limits-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model Rate Limits API
+  slug: mongodb-ai-model-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-rate-limits-api-openapi.yml
+- filename: mongodb-metric-integrations-api-openapi.yml
+  format: yaml
+  label: MongoDB Metric Integrations API
+  slug: mongodb-metric-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-metric-integrations-api-openapi.yml
+- filename: mongodb-overload-protection-simulation-api-openapi.yml
+  format: yaml
+  label: MongoDB Overload Protection Simulation API
+  slug: mongodb-overload-protection-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-overload-protection-simulation-api-openapi.yml
+- filename: mongodb-remote-mcp-configurations-api-openapi.yml
+  format: yaml
+  label: MongoDB Remote MCP Configurations API
+  slug: mongodb-remote-mcp-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-remote-mcp-configurations-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -329,7 +359,7 @@ slug: mongodb-trust-center
 source_filename: mongodb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.mongodb.com/\nurl: https://trust.mongodb.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.mongodb.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://trust.mongodb.com/\nurl: https://trust.mongodb.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.mongodb.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/security/mongodb-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
