@@ -81,28 +81,34 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - ;; connection timed out; no servers could be reached
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "ssl.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: readme.com
   spf: true
 hosts:
-- cert_expires: Oct  6 16:29:30 2026 GMT
+- cert_expires: Nov 11 17:09:35 2026 GMT
+  host: www.readme.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec  6 11:16:46 2026 GMT
   host: readme.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 30 07:54:10 2026 GMT
+- cert_expires: Nov 28 09:30:18 2026 GMT
   host: docs.readme.com
   hsts: true
   hsts_max_age: 31536000
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Aug 25 22:42:46 2026 GMT
-  host: api.readme.com
-  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -111,14 +117,14 @@ layout: security
 method: probed
 name: Readme Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for ReadMe, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for ReadMe, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ReadMe
 provider_slug: readme
 slug: readme-domain-security
 source_filename: readme-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 16:29:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 07:54:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 22:42:46 2026 GMT\n  hsts: null\ndomains:\n- domain: readme.com\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 17:09:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 11:16:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.readme.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 09:30:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: readme.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/security/readme-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

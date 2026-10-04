@@ -105,20 +105,20 @@ domains:
   domain: tray.io
   spf: true
 hosts:
-- cert_expires: Nov  8 23:59:59 2026 GMT
+- cert_expires: Apr 10 23:59:59 2027 GMT
   host: tray.ai
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 15 23:59:59 2026 GMT
+- cert_expires: Apr  2 23:59:59 2027 GMT
   host: tray.io
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Mar  4 23:59:59 2027 GMT
-  host: eu1.tray.io
+- cert_expires: Mar 29 23:59:59 2027 GMT
+  host: api.tray.io
   hsts: true
   hsts_max_age: 63072000
   https: true
@@ -136,7 +136,7 @@ slug: tray-ai-domain-security
 source_filename: tray-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tray.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tray.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: eu1.tray.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tray.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tray.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tray.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tray.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tray.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tray.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: tray.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

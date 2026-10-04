@@ -131,16 +131,16 @@ domains:
 hosts:
 - host: developer.axway.com
   https: false
-- cert_expires: Sep 26 11:35:30 2026 GMT
+- cert_expires: Nov 24 08:48:36 2026 GMT
   host: www.axway.com
   hsts: true
-  hsts_max_age: 31622400
+  hsts_max_age: 300
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  6 23:59:59 2026 GMT
-  host: platform.axway.com
+- cert_expires: Jan 27 23:59:59 2027 GMT
+  host: docs.axway.com
   hsts: true
-  hsts_max_age: 31536000
+  hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -156,7 +156,7 @@ slug: axway-domain-security
 source_filename: axway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.axway.com\n  https: false\n- host: www.axway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 11:35:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: platform.axway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: axway.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.axway.com\n  https: false\n- host: www.axway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 08:48:36 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: docs.axway.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: axway.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/security/axway-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -164,4 +164,9 @@ tags:
 - Enterprise
 - Integration
 - Security
+- Managed File Transfer
+- B2B Integration
+- Financial Accounting
+- Enterprise Integration
+- Regulated Industries - API Management - Enterprise - Integration - Security
 ---

@@ -104,12 +104,12 @@ domains:
   domain: your-checkmarx-instance.com
   spf: false
 hosts:
-- cert_expires: Sep 17 16:25:35 2026 GMT
+- cert_expires: Nov 15 17:36:46 2026 GMT
   host: www.checkmarx.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 15 11:28:19 2026 GMT
+- cert_expires: Dec 11 12:59:16 2026 GMT
   host: checkmarx.com
   hsts: false
   https: true
@@ -129,7 +129,7 @@ slug: checkmarx-domain-security
 source_filename: checkmarx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.checkmarx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:25:35 2026 GMT\n  hsts: false\n- host: checkmarx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 11:28:19 2026 GMT\n  hsts: false\n- host: your-checkmarx-instance.com\n  https: false\ndomains:\n- domain: checkmarx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: your-checkmarx-instance.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.checkmarx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 17:36:46 2026 GMT\n  hsts: false\n- host: checkmarx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 12:59:16 2026 GMT\n  hsts: false\n- host: your-checkmarx-instance.com\n  https: false\ndomains:\n- domain: checkmarx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: your-checkmarx-instance.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/security/checkmarx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

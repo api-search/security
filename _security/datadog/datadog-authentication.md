@@ -3,6 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
+- filename: datadog-dashboards-api-openapi.yml
+  format: yaml
+  label: Datadog Dashboards API
+  slug: datadog-dashboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-dashboards-api-openapi.yml
+- filename: datadog-teams-api-openapi.yml
+  format: yaml
+  label: Datadog Teams API
+  slug: datadog-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-teams-api-openapi.yml
+- filename: datadog-audit-api-openapi.yml
+  format: yaml
+  label: Datadog Audit API
+  slug: datadog-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-audit-api-openapi.yml
 - filename: datadog-account-api-openapi.yml
   format: yaml
   label: Datadog Account API
@@ -649,11 +667,11 @@ auth_types:
 - apiKey
 - http
 - oauth2
-description: ''
+description: All requests to the Datadog API must be authenticated. Write requests require an `API key` (header DD-API-KEY). Read requests require an `application key` (header DD-APPLICATION-KEY) in addition to the API key. Datadog also publishes an OAuth 2.0 authorization-code flow used by Datadog Marketplace/Integrations (developer platform partner apps).
 kind: authentication
 layout: security
 mechanism_count: 4
-method: derived
+method: searched
 name: Datadog Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -663,17 +681,7 @@ provider_name: Datadog
 provider_slug: datadog
 scheme_count: 4
 schemes:
-- description: This API uses OAuth 2 with the implicit grant flow.
-  flows:
-  - authorizationUrl: /oauth2/v1/authorize
-    flow: authorizationCode
-    scopes: 68
-    tokenUrl: /oauth2/v1/token
-  name: AuthZ
-  sources:
-  - openapi/datadog-api-openapi.yml
-  type: oauth2
-- description: Your Datadog API Key.
+- description: API key used to write data to Datadog. Manage keys under https://app.datadoghq.com/organization-settings/api-keys.
   in: header
   name: apiKeyAuth
   parameter: DD-API-KEY
@@ -684,8 +692,9 @@ schemes:
   - openapi/datadog-logs-openapi.yml
   - openapi/datadog-metrics-openapi.yml
   - openapi/datadog-monitors-openapi.yml
+  - https://docs.datadoghq.com/api/latest/authentication.md
   type: apiKey
-- description: Your Datadog APP Key.
+- description: Application key used to read data from Datadog. Scoped to the user who created it; permissions inherit the creator's roles. Some APIs require additional scopes on the application key.
   in: header
   name: appKeyAuth
   parameter: DD-APPLICATION-KEY
@@ -693,18 +702,33 @@ schemes:
   - openapi/datadog-api-openapi.yml
   - openapi/datadog-incidents-openapi.yml
   - openapi/datadog-monitors-openapi.yml
+  - https://docs.datadoghq.com/account_management/api-app-keys.md
   type: apiKey
-- name: bearerAuth
+- description: Bearer token authentication used on selected v2 endpoints.
+  name: bearerAuth
   scheme: bearer
   sources:
   - openapi/datadog-api-openapi.yml
   type: http
+- description: OAuth 2.0 authorization-code flow used by Marketplace/Integrations partner applications built on the Datadog Developer Platform. Confidential clients obtain tokens on behalf of installing customers.
+  flows:
+  - authorizationUrl: /oauth2/v1/authorize
+    flow: authorizationCode
+    scopes: 68
+    tokenUrl: /oauth2/v1/token
+  name: AuthZ
+  sources:
+  - openapi/datadog-api-openapi.yml
+  - https://docs.datadoghq.com/extend/authorization/oauth2_in_datadog.md
+  type: oauth2
 slug: datadog-authentication
 source_filename: datadog-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/datadog-api-openapi.yml, openapi/datadog-events-openapi.yml, openapi/datadog-incidents-openapi.yml,\n  openapi/datadog-logs-openapi.yml, openapi/datadog-metrics-openapi.yml, openapi/datadog-monitors-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: AuthZ\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth2/v1/authorize\n    tokenUrl: /oauth2/v1/token\n    scopes: 68\n  description: This API uses OAuth 2 with the implicit grant flow.\n  sources:\n  - openapi/datadog-api-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: DD-API-KEY\n  description: Your Datadog API Key.\n  sources:\n  - openapi/datadog-api-openapi.yml\n  - openapi/datadog-events-openapi.yml\n  - openapi/datadog-incidents-openapi.yml\n  - openapi/datadog-logs-openapi.yml\n  - openapi/datadog-metrics-openapi.yml\n\
-  \  - openapi/datadog-monitors-openapi.yml\n- name: appKeyAuth\n  type: apiKey\n  in: header\n  parameter: DD-APPLICATION-KEY\n  description: Your Datadog APP Key.\n  sources:\n  - openapi/datadog-api-openapi.yml\n  - openapi/datadog-incidents-openapi.yml\n  - openapi/datadog-monitors-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/datadog-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: searched\nsource: https://docs.datadoghq.com/api/latest/authentication.md\ndocs: https://docs.datadoghq.com/account_management/api-app-keys.md\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\ndescription: >-\n  All requests to the Datadog API must be authenticated. Write requests require an\n  `API key` (header DD-API-KEY). Read requests require an `application key`\n  (header DD-APPLICATION-KEY) in addition to the API key. Datadog also publishes\n  an OAuth 2.0 authorization-code flow used by Datadog Marketplace/Integrations\n  (developer platform partner apps).\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: DD-API-KEY\n  description: >-\n    API key used to write data to Datadog. Manage keys under\n    https://app.datadoghq.com/organization-settings/api-keys.\n  sources:\n  - openapi/datadog-api-openapi.yml\n  - openapi/datadog-events-openapi.yml\n\
+  \  - openapi/datadog-incidents-openapi.yml\n  - openapi/datadog-logs-openapi.yml\n  - openapi/datadog-metrics-openapi.yml\n  - openapi/datadog-monitors-openapi.yml\n  - https://docs.datadoghq.com/api/latest/authentication.md\n- name: appKeyAuth\n  type: apiKey\n  in: header\n  parameter: DD-APPLICATION-KEY\n  description: >-\n    Application key used to read data from Datadog. Scoped to the user who created\n    it; permissions inherit the creator's roles. Some APIs require additional\n    scopes on the application key.\n  sources:\n  - openapi/datadog-api-openapi.yml\n  - openapi/datadog-incidents-openapi.yml\n  - openapi/datadog-monitors-openapi.yml\n  - https://docs.datadoghq.com/account_management/api-app-keys.md\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication used on selected v2 endpoints.\n  sources:\n  - openapi/datadog-api-openapi.yml\n- name: AuthZ\n  type: oauth2\n  description: >-\n    OAuth 2.0 authorization-code flow used by\
+  \ Marketplace/Integrations partner\n    applications built on the Datadog Developer Platform. Confidential clients\n    obtain tokens on behalf of installing customers.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth2/v1/authorize\n    tokenUrl: /oauth2/v1/token\n    scopes: 68\n  sources:\n  - openapi/datadog-api-openapi.yml\n  - https://docs.datadoghq.com/extend/authorization/oauth2_in_datadog.md\nsite_endpoints:\n  description: >-\n    Datadog validate-key endpoint per regional site. Copied verbatim from\n    https://docs.datadoghq.com/api/latest/authentication.md\n  hosts:\n  - site: ap1.datadoghq.com\n    endpoint: https://api.ap1.datadoghq.com/api/v1/validate\n  - site: ap2.datadoghq.com\n    endpoint: https://api.ap2.datadoghq.com/api/v1/validate\n  - site: app.datadoghq.eu\n    endpoint: https://api.datadoghq.eu/api/v1/validate\n  - site: app.ddog-gov.com\n    endpoint: https://api.ddog-gov.com/api/v1/validate\n  - site: us2.ddog-gov.com\n    endpoint: https://api.us2.ddog-gov.com/api/v1/validate\n\
+  \  - site: uk1.datadoghq.com\n    endpoint: https://api.uk1.datadoghq.com/api/v1/validate\n  - site: app.datadoghq.com\n    endpoint: https://api.datadoghq.com/api/v1/validate\n  - site: us3.datadoghq.com\n    endpoint: https://api.us3.datadoghq.com/api/v1/validate\n  - site: us5.datadoghq.com\n    endpoint: https://api.us5.datadoghq.com/api/v1/validate\none_time_read_mode:\n  description: >-\n    One-Time Read (OTR) mode limits application key secrets to display-once at\n    creation time; the secret cannot be retrieved later.\n  source: https://docs.datadoghq.com/account_management/api-app-keys.md\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/authentication/datadog-authentication.yml
 summary_line: apiKey/http/oauth2 · 4 schemes
 tags:

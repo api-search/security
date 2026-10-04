@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: keeper-security-openapi-generated.yml
+  format: yaml
+  label: Keeper Security API
+  slug: keeper-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/openapi/_ae-authored/keeper-security-openapi-generated.yml
 certification_count: 18
 certifications:
 - SOC 2 Type 2

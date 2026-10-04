@@ -216,6 +216,42 @@ api_specs:
   slug: outsystems-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-users-api-openapi.yml
+- filename: outsystems-applications-api-openapi.yml
+  format: yaml
+  label: OutSystems /applications API
+  slug: outsystems-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-applications-api-openapi.yml
+- filename: outsystems-auth-api-openapi.yml
+  format: yaml
+  label: OutSystems /auth API
+  slug: outsystems-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-auth-api-openapi.yml
+- filename: outsystems-deployments-api-openapi.yml
+  format: yaml
+  label: OutSystems /deployments API
+  slug: outsystems-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-deployments-api-openapi.yml
+- filename: outsystems-modules-api-openapi.yml
+  format: yaml
+  label: OutSystems /modules API
+  slug: outsystems-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-modules-api-openapi.yml
+- filename: outsystems-roles-api-openapi.yml
+  format: yaml
+  label: OutSystems /roles API
+  slug: outsystems-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-roles-api-openapi.yml
+- filename: outsystems-teams-api-openapi.yml
+  format: yaml
+  label: OutSystems /teams API
+  slug: outsystems-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-teams-api-openapi.yml
 certification_count: 5
 certifications:
 - ISO 27001
@@ -235,7 +271,7 @@ slug: outsystems-trust-center
 source_filename: outsystems-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: https://security.outsystems.com/\nurl: https://security.outsystems.com/\ncertifications:\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- FedRAMP\n- GDPR\nevidence:\n- source: https://security.outsystems.com/\n  keywords:\n  - iso/iec 27001\n  - fedramp\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://security.outsystems.com/\nurl: https://security.outsystems.com/\ncertifications:\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- FedRAMP\n- GDPR\nevidence:\n- source: https://security.outsystems.com/\n  keywords:\n  - iso/iec 27001\n  - fedramp\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/security/outsystems-trust-center.yml
 summary_line: ISO 27001, ISO 27017, ISO 27018, FedRAMP, GDPR
 tags:

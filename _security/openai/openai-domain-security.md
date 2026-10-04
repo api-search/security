@@ -1,5 +1,77 @@
 ---
 api_specs:
+- filename: openai-responses-api-openapi.yml
+  format: yaml
+  label: OpenAI Responses API
+  slug: openai-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-responses-api-openapi.yml
+- filename: openai-moderations-api-openapi.yml
+  format: yaml
+  label: OpenAI Moderations API
+  slug: openai-moderations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-moderations-api-openapi.yml
+- filename: openai-batch-api-openapi.yml
+  format: yaml
+  label: OpenAI Batch API
+  slug: openai-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-batch-api-openapi.yml
+- filename: openai-vector-stores-api-openapi.yml
+  format: yaml
+  label: OpenAI Vector Stores API
+  slug: openai-vector-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vector-stores-api-openapi.yml
+- filename: openai-uploads-api-openapi.yml
+  format: yaml
+  label: OpenAI Uploads API
+  slug: openai-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-uploads-api-openapi.yml
+- filename: openai-realtime-asyncapi.yml
+  format: yaml
+  label: OpenAI Realtime API
+  slug: openai-realtime-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/asyncapi/openai-realtime-asyncapi.yml
+- filename: openai-evals-api-openapi.yml
+  format: yaml
+  label: OpenAI Evals API
+  slug: openai-evals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-evals-api-openapi.yml
+- filename: openai-videos-api-openapi.yml
+  format: yaml
+  label: OpenAI Videos API
+  slug: openai-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
+- filename: openai-conversations-api-openapi.yml
+  format: yaml
+  label: OpenAI Conversations API
+  slug: openai-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-conversations-api-openapi.yml
+- filename: openai-containers-api-openapi.yml
+  format: yaml
+  label: OpenAI Containers API
+  slug: openai-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-containers-api-openapi.yml
+- filename: openai-chatkit-api-openapi.yml
+  format: yaml
+  label: OpenAI ChatKit API
+  slug: openai-chatkit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chatkit-api-openapi.yml
+- filename: openai-skills-api-openapi.yml
+  format: yaml
+  label: OpenAI Skills API
+  slug: openai-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-skills-api-openapi.yml
 - filename: openai-assistants-api-openapi.yml
   format: yaml
   label: OpenAI Assistants API
@@ -30,15 +102,9 @@ api_specs:
   slug: openai-certificates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-certificates-api-openapi.yml
-- filename: openai-chat-api-openapi.yml
-  format: yaml
-  label: OpenAI Chat API
-  slug: openai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chat-api-openapi.yml
 - filename: openai-chatkit-api-openapi.yml
   format: yaml
-  label: OpenAI ChatKit API
+  label: OpenAI Chatkit API
   slug: openai-chatkit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chatkit-api-openapi.yml
@@ -212,7 +278,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-users-api-openapi.yml
 - filename: openai-vector-stores-api-openapi.yml
   format: yaml
-  label: OpenAI Vector Stores API
+  label: OpenAI Vector stores API
   slug: openai-vector-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vector-stores-api-openapi.yml
@@ -222,28 +288,100 @@ api_specs:
   slug: openai-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
+- filename: openai-agents-api-openapi.yml
+  format: yaml
+  label: OpenAI Agents API
+  slug: openai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-agents-api-openapi.yml
+- filename: openai-content-provenance-checks-api-openapi.yml
+  format: yaml
+  label: OpenAI Content Provenance Checks API
+  slug: openai-content-provenance-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-content-provenance-checks-api-openapi.yml
+- filename: openai-data-retention-api-openapi.yml
+  format: yaml
+  label: OpenAI Data retention API
+  slug: openai-data-retention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-data-retention-api-openapi.yml
+- filename: openai-hosted-tools-api-openapi.yml
+  format: yaml
+  label: OpenAI Hosted tools API
+  slug: openai-hosted-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-hosted-tools-api-openapi.yml
+- filename: openai-live-api-openapi.yml
+  format: yaml
+  label: OpenAI Live API
+  slug: openai-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-live-api-openapi.yml
 - filename: openai-openai-api-api-openapi.yml
   format: yaml
-  label: OpenAI API
+  label: OpenAI OpenAI API
   slug: openai-openai-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-openai-api-api-openapi.yml
+- filename: openai-safety-api-openapi.yml
+  format: yaml
+  label: OpenAI Safety API
+  slug: openai-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-safety-api-openapi.yml
+- filename: openai-spend-alerts-api-openapi.yml
+  format: yaml
+  label: OpenAI Spend alerts API
+  slug: openai-spend-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-spend-alerts-api-openapi.yml
+- filename: openai-vaults-api-openapi.yml
+  format: yaml
+  label: OpenAI Vaults API
+  slug: openai-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vaults-api-openapi.yml
+- filename: openai-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: OpenAI Webhook Endpoints API
+  slug: openai-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-webhook-endpoints-api-openapi.yml
+- filename: openai-webhook-event-types-api-openapi.yml
+  format: yaml
+  label: OpenAI Webhook Event Types API
+  slug: openai-webhook-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-webhook-event-types-api-openapi.yml
+- filename: openai-chat-completions-api-openapi.yml
+  format: yaml
+  label: OpenAI Chat Completions API
+  slug: openai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
-  - 0 issuewild "amazon.com"
   - 0 issuewild "letsencrypt.org"
   - 0 issue "amazon.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
   - 0 issue "godaddy.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: openai.com
   spf: true
 hosts:
-- cert_expires: Oct  6 21:51:17 2026 GMT
+- cert_expires: Dec 15 05:59:47 2026 GMT
+  host: openai.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec  4 22:31:50 2026 GMT
   host: platform.openai.com
   hsts: true
   hsts_max_age: 31536000
@@ -255,31 +393,28 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  6 03:04:17 2026 GMT
-  host: api.openai.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Openai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for OpenAI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for OpenAI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: OpenAI
 provider_slug: openai
 slug: openai-domain-security
 source_filename: openai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: platform.openai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 21:51:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.openai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 16:25:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.openai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 03:04:17 2026 GMT\n  hsts: null\ndomains:\n- domain: openai.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 05:59:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.openai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 22:31:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.openai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 16:25:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: openai.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/security/openai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LLM
 - OpenAI
 - Artificial Intelligence
+- Generative AI
+- Chatbot
+- Foundation Models
 - T1
-- Agentic Commerce
 ---

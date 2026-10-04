@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: creatio-openapi-generated.yml
+  format: yaml
+  label: Creatio API
+  slug: creatio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/_ae-authored/creatio-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -13,13 +20,13 @@ domains:
   domain: mycreatio.com
   spf: true
 hosts:
-- cert_expires: Sep 22 15:29:17 2026 GMT
+- cert_expires: Dec  8 20:49:08 2026 GMT
   host: www.creatio.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  9 23:59:59 2026 GMT
+- cert_expires: Apr  4 23:59:59 2027 GMT
   host: academy.creatio.com
   hsts: false
   https: true
@@ -41,7 +48,7 @@ slug: creatio-domain-security
 source_filename: creatio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.creatio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 15:29:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: academy.creatio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: false\n- host: mycreatio.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''mycreatio.c'\n  hsts: null\ndomains:\n- domain: creatio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mycreatio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.creatio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 20:49:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: academy.creatio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  4 23:59:59 2027 GMT\n  hsts: false\n- host: mycreatio.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''mycreatio.c'\n  hsts: null\ndomains:\n- domain: creatio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mycreatio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/security/creatio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -51,7 +58,7 @@ tags:
 - No-Code
 - Low-Code
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - Sales
 - Marketing
 - Customer Service

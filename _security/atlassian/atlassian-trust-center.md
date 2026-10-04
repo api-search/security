@@ -858,6 +858,24 @@ api_specs:
   slug: atlassian-workspaces-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-workspaces-webhooks-api-openapi.yml
+- filename: atlassian-gpg-api-openapi.yml
+  format: yaml
+  label: Atlassian GPG API
+  slug: atlassian-gpg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-gpg-api-openapi.yml
+- filename: atlassian-reports-api-openapi.yml
+  format: yaml
+  label: Atlassian Reports API
+  slug: atlassian-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-reports-api-openapi.yml
+- filename: atlassian-source-api-openapi.yml
+  format: yaml
+  label: Atlassian Source API
+  slug: atlassian-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-source-api-openapi.yml
 - filename: atlassian-pull-requests-api-openapi.yml
   format: yaml
   label: Atlassian Pull Requests API
@@ -879,7 +897,7 @@ slug: atlassian-trust-center
 source_filename: atlassian-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
+source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/security/atlassian-trust-center.yml
 summary_line: FedRAMP
 tags:

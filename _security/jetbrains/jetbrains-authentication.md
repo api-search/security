@@ -243,4 +243,10 @@ tags:
 - Developer Tools
 - IDE
 - JetBrains
+- IDEs
+- Continuous Integration
+- Project Management
+- Code Quality
+- Data Science
+- AI Coding - CI/CD - Developer Tools - IDE - JetBrains
 ---

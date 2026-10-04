@@ -156,7 +156,7 @@ domains:
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
-  domain: pingdom.com
+  domain: appoptics.com
   spf: true
 hosts:
 - cert_expires: Nov 13 23:59:59 2026 GMT
@@ -165,30 +165,28 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 23 01:27:54 2026 GMT
-  host: api.na-01.cloud.solarwinds.com
-  hsts: null
+- cert_expires: Nov 30 23:59:59 2026 GMT
+  host: documentation.solarwinds.com
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 12 03:35:24 2026 GMT
-  host: api.pingdom.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
+- host: api.appoptics.com
+  https: false
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Solarwinds Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SolarWinds, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for SolarWinds, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: SolarWinds
 provider_slug: solarwinds
 slug: solarwinds-domain-security
 source_filename: solarwinds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.solarwinds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.na-01.cloud.solarwinds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 01:27:54 2026 GMT\n  hsts: null\n- host: api.pingdom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 03:35:24 2026 GMT\n  hsts: null\ndomains:\n- domain: solarwinds.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: pingdom.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.solarwinds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: documentation.solarwinds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.appoptics.com\n  https: false\ndomains:\n- domain: solarwinds.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: appoptics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/security/solarwinds-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

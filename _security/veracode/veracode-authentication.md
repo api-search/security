@@ -68,6 +68,12 @@ api_specs:
   slug: veracode-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-users-api-openapi.yml
+- filename: veracode-api-credentials-api-openapi.yml
+  format: yaml
+  label: Veracode API Credentials API
+  slug: veracode-api-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
 auth_types:
 - http
 description: ''

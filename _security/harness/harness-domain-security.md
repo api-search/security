@@ -2877,9 +2877,9 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 25 19:47:45 2026 GMT
-  host: apidocs.harness.io
-  hsts: false
+- cert_expires: Mar  1 23:59:59 2027 GMT
+  host: app.harness.io
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -2895,7 +2895,7 @@ slug: harness-domain-security
 source_filename: harness-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.harness.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.harness.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 17:26:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.harness.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 19:47:45 2026 GMT\n  hsts: false\ndomains:\n- domain: harness.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.harness.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.harness.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 17:26:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.harness.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  1 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: harness.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/security/harness-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -261,10 +261,16 @@ domains:
   domain: spectrocloud.com
   spf: true
 hosts:
-- cert_expires: Sep 23 09:58:48 2026 GMT
+- cert_expires: Nov 21 16:47:58 2026 GMT
   host: spectrocloud.com
   hsts: true
   hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Apr 17 23:59:59 2027 GMT
+  host: docs.spectrocloud.com
+  hsts: true
+  hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
 - cert_expires: Jan 19 23:59:59 2027 GMT
@@ -272,20 +278,20 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.2
-hosts_probed: 2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Spectro Cloud Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Spectro Cloud, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Spectro Cloud, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Spectro Cloud
 provider_slug: spectro-cloud
 slug: spectro-cloud-domain-security
 source_filename: spectro-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spectrocloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 09:58:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.spectrocloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: spectrocloud.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spectrocloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 16:47:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.spectrocloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.spectrocloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: spectrocloud.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/security/spectro-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

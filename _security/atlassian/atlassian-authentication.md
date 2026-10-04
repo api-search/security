@@ -861,6 +861,24 @@ api_specs:
   slug: atlassian-workspaces-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-workspaces-webhooks-api-openapi.yml
+- filename: atlassian-gpg-api-openapi.yml
+  format: yaml
+  label: Atlassian GPG API
+  slug: atlassian-gpg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-gpg-api-openapi.yml
+- filename: atlassian-reports-api-openapi.yml
+  format: yaml
+  label: Atlassian Reports API
+  slug: atlassian-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-reports-api-openapi.yml
+- filename: atlassian-source-api-openapi.yml
+  format: yaml
+  label: Atlassian Source API
+  slug: atlassian-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-source-api-openapi.yml
 - filename: atlassian-pull-requests-api-openapi.yml
   format: yaml
   label: Atlassian Pull Requests API

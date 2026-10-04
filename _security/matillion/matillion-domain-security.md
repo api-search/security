@@ -63,19 +63,19 @@ domains:
   domain: matillion.com
   spf: true
 hosts:
-- cert_expires: Aug 28 16:05:37 2026 GMT
+- cert_expires: Dec 25 07:00:51 2026 GMT
   host: www.matillion.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 22 22:17:19 2026 GMT
+- cert_expires: Nov 22 04:24:17 2026 GMT
   host: docs.matillion.com
   hsts: true
   hsts_max_age: 31556952
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 20 07:06:19 2026 GMT
+- cert_expires: Dec 16 16:12:07 2026 GMT
   host: eu1.api.matillion.com
   hsts: null
   https: true
@@ -93,7 +93,7 @@ slug: matillion-domain-security
 source_filename: matillion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 16:05:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 22:17:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: eu1.api.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 07:06:19 2026 GMT\n  hsts: null\ndomains:\n- domain: matillion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 07:00:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 04:24:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: eu1.api.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 16:12:07 2026 GMT\n  hsts: null\ndomains:\n- domain: matillion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/security/matillion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

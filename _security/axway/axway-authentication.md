@@ -207,4 +207,9 @@ tags:
 - Enterprise
 - Integration
 - Security
+- Managed File Transfer
+- B2B Integration
+- Financial Accounting
+- Enterprise Integration
+- Regulated Industries - API Management - Enterprise - Integration - Security
 ---

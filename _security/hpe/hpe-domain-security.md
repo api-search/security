@@ -27,12 +27,12 @@ domains:
   domain: hpe.com
   spf: true
 hosts:
-- cert_expires: Jul 29 23:59:59 2026 GMT
+- cert_expires: Feb  4 23:59:59 2027 GMT
   host: www.hpe.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 12 00:45:11 2026 GMT
+- cert_expires: Nov 10 02:36:06 2026 GMT
   host: developer.greenlake.hpe.com
   hsts: false
   https: true
@@ -55,7 +55,7 @@ slug: hpe-domain-security
 source_filename: hpe-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hpe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 29 23:59:59 2026 GMT\n  hsts: null\n- host: developer.greenlake.hpe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 00:45:11 2026 GMT\n  hsts: false\n- host: global.api.greenlake.hpe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hpe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hpe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: null\n- host: developer.greenlake.hpe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 02:36:06 2026 GMT\n  hsts: false\n- host: global.api.greenlake.hpe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hpe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/security/hpe-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -67,5 +67,4 @@ tags:
 - Networking
 - Hybrid Cloud
 - Enterprise IT
-- Data Center
 ---

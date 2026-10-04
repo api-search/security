@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: creatio-openapi-generated.yml
+  format: yaml
+  label: Creatio API
+  slug: creatio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/_ae-authored/creatio-openapi-generated.yml
 certification_count: 6
 certifications:
 - ISO/IEC 27001:2013
@@ -32,7 +39,7 @@ tags:
 - No-Code
 - Low-Code
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - Sales
 - Marketing
 - Customer Service

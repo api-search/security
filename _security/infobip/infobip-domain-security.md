@@ -45,13 +45,13 @@ domains:
   domain: infobip.com
   spf: true
 hosts:
-- cert_expires: Sep 11 04:29:35 2026 GMT
+- cert_expires: Nov  9 14:27:53 2026 GMT
   host: www.infobip.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 23 23:59:59 2026 GMT
+- cert_expires: Mar 14 23:59:59 2027 GMT
   host: api.infobip.com
   hsts: true
   hsts_max_age: 31536000
@@ -70,7 +70,7 @@ slug: infobip-domain-security
 source_filename: infobip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infobip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 04:29:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.infobip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: infobip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infobip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 14:27:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.infobip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: infobip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/security/infobip-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

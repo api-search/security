@@ -348,6 +348,60 @@ api_specs:
   slug: sonatype-vulnerability-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-vulnerability-details-api-openapi.yml
+- filename: sonatype-advanced-search-index-health-api-openapi.yml
+  format: yaml
+  label: Sonatype Advanced Search Index Health API
+  slug: sonatype-advanced-search-index-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-advanced-search-index-health-api-openapi.yml
+- filename: sonatype-ai-developer-api-openapi.yml
+  format: yaml
+  label: Sonatype Ai - Developer API
+  slug: sonatype-ai-developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-ai-developer-api-openapi.yml
+- filename: sonatype-github-app-api-openapi.yml
+  format: yaml
+  label: Sonatype GitHub App API
+  slug: sonatype-github-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-github-app-api-openapi.yml
+- filename: sonatype-legacy-violations-api-openapi.yml
+  format: yaml
+  label: Sonatype Legacy Violations API
+  slug: sonatype-legacy-violations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-legacy-violations-api-openapi.yml
+- filename: sonatype-legacy-violations-configuration-api-openapi.yml
+  format: yaml
+  label: Sonatype Legacy Violations Configuration API
+  slug: sonatype-legacy-violations-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-legacy-violations-configuration-api-openapi.yml
+- filename: sonatype-policy-export-api-openapi.yml
+  format: yaml
+  label: Sonatype Policy Export API
+  slug: sonatype-policy-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-policy-export-api-openapi.yml
+- filename: sonatype-reachability-evidence-api-openapi.yml
+  format: yaml
+  label: Sonatype Reachability Evidence API
+  slug: sonatype-reachability-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-reachability-evidence-api-openapi.yml
+- filename: sonatype-scan-health-configuration-api-openapi.yml
+  format: yaml
+  label: Sonatype Scan Health Configuration API
+  slug: sonatype-scan-health-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-scan-health-configuration-api-openapi.yml
+- filename: sonatype-waiver-expiration-notification-config-api-openapi.yml
+  format: yaml
+  label: Sonatype Waiver Expiration Notification Config API
+  slug: sonatype-waiver-expiration-notification-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-waiver-expiration-notification-config-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -357,13 +411,13 @@ domains:
   domain: sonatype.com
   spf: true
 hosts:
-- cert_expires: Sep 10 18:41:02 2026 GMT
+- cert_expires: Nov  8 19:47:20 2026 GMT
   host: www.sonatype.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 20 22:31:57 2026 GMT
+- cert_expires: Dec 17 00:06:30 2026 GMT
   host: help.sonatype.com
   hsts: false
   https: true
@@ -381,7 +435,7 @@ slug: sonatype-domain-security
 source_filename: sonatype-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sonatype.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 18:41:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.sonatype.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 22:31:57 2026 GMT\n  hsts: false\ndomains:\n- domain: sonatype.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sonatype.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 19:47:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.sonatype.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 00:06:30 2026 GMT\n  hsts: false\ndomains:\n- domain: sonatype.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/security/sonatype-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -56,6 +56,18 @@ api_specs:
   slug: cognition-labs-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-sessions-api-openapi.yml
+- filename: cognition-labs-enterprise-api-openapi.yml
+  format: yaml
+  label: Cognition Labs Enterprise API
+  slug: cognition-labs-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-enterprise-api-openapi.yml
+- filename: cognition-labs-audit-logs-api-openapi.yml
+  format: yaml
+  label: Cognition Labs Audit Logs API
+  slug: cognition-labs-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-audit-logs-api-openapi.yml
 auth_types:
 - http
 description: ''

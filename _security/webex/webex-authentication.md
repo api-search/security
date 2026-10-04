@@ -1148,6 +1148,42 @@ api_specs:
   slug: webex-workspace-call-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-workspace-call-settings-api-openapi.yml
+- filename: webex-call-controls-members-api-openapi.yml
+  format: yaml
+  label: Webex Call Controls Members API
+  slug: webex-call-controls-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-call-controls-members-api-openapi.yml
+- filename: webex-call-controls-members-me-api-openapi.yml
+  format: yaml
+  label: Webex Call Controls Members Me API
+  slug: webex-call-controls-members-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-call-controls-members-me-api-openapi.yml
+- filename: webex-calling-metrics-api-openapi.yml
+  format: yaml
+  label: Webex Calling Metrics API
+  slug: webex-calling-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-calling-metrics-api-openapi.yml
+- filename: webex-user-call-settings-members-api-openapi.yml
+  format: yaml
+  label: Webex User Call Settings Members API
+  slug: webex-user-call-settings-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-user-call-settings-members-api-openapi.yml
+- filename: webex-user-call-settings-members-me-api-openapi.yml
+  format: yaml
+  label: Webex User Call Settings Members Me API
+  slug: webex-user-call-settings-members-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-user-call-settings-members-me-api-openapi.yml
+- filename: webex-webhook-interest-registrations-api-openapi.yml
+  format: yaml
+  label: Webex Webhook Interest Registrations API
+  slug: webex-webhook-interest-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-webhook-interest-registrations-api-openapi.yml
 - filename: webex-x-api-api-openapi.yml
   format: yaml
   label: Webex x API

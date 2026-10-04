@@ -350,6 +350,60 @@ api_specs:
   slug: sonatype-vulnerability-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-vulnerability-details-api-openapi.yml
+- filename: sonatype-advanced-search-index-health-api-openapi.yml
+  format: yaml
+  label: Sonatype Advanced Search Index Health API
+  slug: sonatype-advanced-search-index-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-advanced-search-index-health-api-openapi.yml
+- filename: sonatype-ai-developer-api-openapi.yml
+  format: yaml
+  label: Sonatype Ai - Developer API
+  slug: sonatype-ai-developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-ai-developer-api-openapi.yml
+- filename: sonatype-github-app-api-openapi.yml
+  format: yaml
+  label: Sonatype GitHub App API
+  slug: sonatype-github-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-github-app-api-openapi.yml
+- filename: sonatype-legacy-violations-api-openapi.yml
+  format: yaml
+  label: Sonatype Legacy Violations API
+  slug: sonatype-legacy-violations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-legacy-violations-api-openapi.yml
+- filename: sonatype-legacy-violations-configuration-api-openapi.yml
+  format: yaml
+  label: Sonatype Legacy Violations Configuration API
+  slug: sonatype-legacy-violations-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-legacy-violations-configuration-api-openapi.yml
+- filename: sonatype-policy-export-api-openapi.yml
+  format: yaml
+  label: Sonatype Policy Export API
+  slug: sonatype-policy-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-policy-export-api-openapi.yml
+- filename: sonatype-reachability-evidence-api-openapi.yml
+  format: yaml
+  label: Sonatype Reachability Evidence API
+  slug: sonatype-reachability-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-reachability-evidence-api-openapi.yml
+- filename: sonatype-scan-health-configuration-api-openapi.yml
+  format: yaml
+  label: Sonatype Scan Health Configuration API
+  slug: sonatype-scan-health-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-scan-health-configuration-api-openapi.yml
+- filename: sonatype-waiver-expiration-notification-config-api-openapi.yml
+  format: yaml
+  label: Sonatype Waiver Expiration Notification Config API
+  slug: sonatype-waiver-expiration-notification-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/openapi/sonatype-waiver-expiration-notification-config-api-openapi.yml
 auth_types:
 - http
 description: ''

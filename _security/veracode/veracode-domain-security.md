@@ -66,6 +66,12 @@ api_specs:
   slug: veracode-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-users-api-openapi.yml
+- filename: veracode-api-credentials-api-openapi.yml
+  format: yaml
+  label: Veracode API Credentials API
+  slug: veracode-api-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,18 +81,18 @@ domains:
   domain: veracode.com
   spf: true
 hosts:
-- cert_expires: Aug 23 22:47:36 2026 GMT
+- cert_expires: Dec 21 21:59:55 2026 GMT
   host: www.veracode.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 28 14:49:07 2026 GMT
+- cert_expires: Nov 26 14:28:36 2026 GMT
   host: docs.veracode.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 28 14:49:07 2026 GMT
+- cert_expires: Nov 26 14:28:36 2026 GMT
   host: api.veracode.com
   hsts: null
   https: true
@@ -104,7 +110,7 @@ slug: veracode-domain-security
 source_filename: veracode-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 22:47:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 14:49:07 2026 GMT\n  hsts: false\n- host: api.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 14:49:07 2026 GMT\n  hsts: null\ndomains:\n- domain: veracode.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 21:59:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 14:28:36 2026 GMT\n  hsts: false\n- host: api.veracode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 14:28:36 2026 GMT\n  hsts: null\ndomains:\n- domain: veracode.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/security/veracode-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

@@ -263,19 +263,19 @@ domains:
   domain: googleapis.com
   spf: true
 hosts:
-- cert_expires: Sep 14 08:35:22 2026 GMT
+- cert_expires: Dec  3 19:21:52 2026 GMT
   host: cloud.google.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:37:17 2026 GMT
+- cert_expires: Dec  3 19:23:22 2026 GMT
   host: apigee.googleapis.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:37:17 2026 GMT
-  host: apihub.googleapis.com
+- cert_expires: Dec  3 19:23:22 2026 GMT
+  host: apigeeconnect.googleapis.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -292,7 +292,7 @@ slug: apigee-domain-security
 source_filename: apigee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apigee.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: apihub.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 19:21:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apigee.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 19:23:22 2026 GMT\n  hsts: null\n- host: apigeeconnect.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 19:23:22 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/security/apigee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

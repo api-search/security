@@ -120,7 +120,7 @@ slug: circleci-trust-center
 source_filename: circleci-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.circleci.com/\nurl: https://trust.circleci.com/\ncertifications:\n- SOC 2\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.circleci.com/\n  keywords:\n  - soc 2\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
+source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://trust.circleci.com/\nurl: https://trust.circleci.com/\ncertifications:\n- SOC 2\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.circleci.com/\n  keywords:\n  - soc 2\n  - fedramp\n  - trust center\n  - gdpr\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/security/circleci-trust-center.yml
 summary_line: SOC 2, FedRAMP, GDPR, CSA STAR
 tags:

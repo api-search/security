@@ -1,6 +1,13 @@
 ---
 anonymous_access: true
 api_key_in: []
+api_specs:
+- filename: creatio-openapi-generated.yml
+  format: yaml
+  label: Creatio API
+  slug: creatio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/_ae-authored/creatio-openapi-generated.yml
 auth_types:
 - http
 - oauth2
@@ -67,7 +74,7 @@ tags:
 - No-Code
 - Low-Code
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - Sales
 - Marketing
 - Customer Service

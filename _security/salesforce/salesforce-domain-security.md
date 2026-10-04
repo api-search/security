@@ -951,20 +951,21 @@ domains:
   domain: readme.io
   spf: true
 hosts:
-- cert_expires: Oct 10 23:59:59 2026 GMT
+- cert_expires: Feb 26 23:59:59 2027 GMT
+  host: www.salesforce.com
+  hsts: true
+  hsts_max_age: 86400
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Mar 24 23:59:59 2027 GMT
   host: developer.salesforce.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  9 13:12:37 2026 GMT
+- cert_expires: Dec  7 17:48:12 2026 GMT
   host: metamind.readme.io
   hsts: true
   hsts_max_age: 31536000
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Sep 11 23:59:59 2026 GMT
-  host: api.einstein.ai
-  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -973,14 +974,14 @@ layout: security
 method: probed
 name: Salesforce Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Salesforce, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Salesforce, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Salesforce
 provider_slug: salesforce
 slug: salesforce-domain-security
 source_filename: salesforce-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: metamind.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.einstein.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 24 23:59:59 2027 GMT\n  hsts: null\n- host: metamind.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 17:48:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/security/salesforce-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

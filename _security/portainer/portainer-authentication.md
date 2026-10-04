@@ -234,4 +234,8 @@ tags:
 - Containers
 - Docker
 - Kubernetes
+- Kubernetes Management
+- Enterprise Identity
+- GitOps
+- Multi‑Cluster Governance - Container Management - Containers - Docker - Kubernetes
 ---

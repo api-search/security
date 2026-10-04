@@ -141,12 +141,6 @@ api_specs:
   slug: cockroach-labs-maintenance-windows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-maintenance-windows-api-openapi.yml
-- filename: cockroach-labs-private-endpoints-api-openapi.yml
-  format: yaml
-  label: Cockroach Labs Private Endpoints API
-  slug: cockroach-labs-private-endpoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-private-endpoints-api-openapi.yml
 - filename: cockroach-labs-role-management-api-openapi.yml
   format: yaml
   label: Cockroach Labs Role Management API
@@ -159,6 +153,120 @@ api_specs:
   slug: cockroach-labs-service-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-service-accounts-api-openapi.yml
+- filename: cockroach-labs-blackout-windows-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Blackout Windows API
+  slug: cockroach-labs-blackout-windows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-blackout-windows-api-openapi.yml
+- filename: cockroach-labs-client-ca-certificates-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Client CA Certificates API
+  slug: cockroach-labs-client-ca-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-client-ca-certificates-api-openapi.yml
+- filename: cockroach-labs-cluster-disruption-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Cluster Disruption API
+  slug: cockroach-labs-cluster-disruption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-cluster-disruption-api-openapi.yml
+- filename: cockroach-labs-customer-managed-encryption-keys-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Customer-managed Encryption Keys API
+  slug: cockroach-labs-customer-managed-encryption-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-customer-managed-encryption-keys-api-openapi.yml
+- filename: cockroach-labs-egress-private-endpoints-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Egress Private Endpoints API
+  slug: cockroach-labs-egress-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-egress-private-endpoints-api-openapi.yml
+- filename: cockroach-labs-egress-rules-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Egress Rules API
+  slug: cockroach-labs-egress-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-egress-rules-api-openapi.yml
+- filename: cockroach-labs-ip-allowlists-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs IP Allowlists API
+  slug: cockroach-labs-ip-allowlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-ip-allowlists-api-openapi.yml
+- filename: cockroach-labs-jwt-issuers-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs JWT Issuers API
+  slug: cockroach-labs-jwt-issuers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-jwt-issuers-api-openapi.yml
+- filename: cockroach-labs-log-export-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Log Export API
+  slug: cockroach-labs-log-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-log-export-api-openapi.yml
+- filename: cockroach-labs-metric-export-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Metric Export API
+  slug: cockroach-labs-metric-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-metric-export-api-openapi.yml
+- filename: cockroach-labs-migration-assistant-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Migration Assistant API
+  slug: cockroach-labs-migration-assistant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-migration-assistant-api-openapi.yml
+- filename: cockroach-labs-physical-cluster-replication-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Physical Cluster Replication API
+  slug: cockroach-labs-physical-cluster-replication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-physical-cluster-replication-api-openapi.yml
+- filename: cockroach-labs-private-endpoint-services-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Private Endpoint Services API
+  slug: cockroach-labs-private-endpoint-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-private-endpoint-services-api-openapi.yml
+- filename: cockroach-labs-runtime-scanning-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Runtime Scanning API
+  slug: cockroach-labs-runtime-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-runtime-scanning-api-openapi.yml
+- filename: cockroach-labs-scim-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs SCIM API
+  slug: cockroach-labs-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-scim-api-openapi.yml
+- filename: cockroach-labs-sql-users-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs SQL Users API
+  slug: cockroach-labs-sql-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-sql-users-api-openapi.yml
+- filename: cockroach-labs-version-deferral-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Version Deferral API
+  slug: cockroach-labs-version-deferral-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-version-deferral-api-openapi.yml
+- filename: cockroach-labs-virtual-cluster-workspaces-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Virtual Cluster Workspaces API
+  slug: cockroach-labs-virtual-cluster-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-virtual-cluster-workspaces-api-openapi.yml
+- filename: cockroach-labs-private-endpoints-api-openapi.yml
+  format: yaml
+  label: Cockroach Labs Private Endpoints API
+  slug: cockroach-labs-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-private-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 - http

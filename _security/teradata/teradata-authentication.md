@@ -68,6 +68,144 @@ api_specs:
   slug: teradata-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-users-api-openapi.yml
+- filename: teradata-config-bridges-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Bridges API
+  slug: teradata-config-bridges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-bridges-api-openapi.yml
+- filename: teradata-config-communication-policies-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Communication Policies API
+  slug: teradata-config-communication-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-communication-policies-api-openapi.yml
+- filename: teradata-config-connectors-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Connectors API
+  slug: teradata-config-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-connectors-api-openapi.yml
+- filename: teradata-config-data-centers-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Data Centers API
+  slug: teradata-config-data-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-data-centers-api-openapi.yml
+- filename: teradata-config-fabrics-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Fabrics API
+  slug: teradata-config-fabrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-fabrics-api-openapi.yml
+- filename: teradata-config-links-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Links API
+  slug: teradata-config-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-links-api-openapi.yml
+- filename: teradata-config-networks-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Networks API
+  slug: teradata-config-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-networks-api-openapi.yml
+- filename: teradata-config-node-virtual-ips-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Node Virtual IPs API
+  slug: teradata-config-node-virtual-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-node-virtual-ips-api-openapi.yml
+- filename: teradata-config-systems-api-openapi.yml
+  format: yaml
+  label: Teradata Config - Systems API
+  slug: teradata-config-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-systems-api-openapi.yml
+- filename: teradata-config-user-role-mappings-api-openapi.yml
+  format: yaml
+  label: Teradata Config - User/Role Mappings API
+  slug: teradata-config-user-role-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-config-user-role-mappings-api-openapi.yml
+- filename: teradata-operations-add-data-source-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Add Data Source API
+  slug: teradata-operations-add-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-add-data-source-api-openapi.yml
+- filename: teradata-operations-bulk-delete-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Bulk Delete API
+  slug: teradata-operations-bulk-delete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-bulk-delete-api-openapi.yml
+- filename: teradata-operations-create-foreign-server-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Create Foreign Server API
+  slug: teradata-operations-create-foreign-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-create-foreign-server-api-openapi.yml
+- filename: teradata-operations-data-source-registration-file-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Data Source Registration File API
+  slug: teradata-operations-data-source-registration-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-data-source-registration-file-api-openapi.yml
+- filename: teradata-operations-diagnostic-checks-connector-install-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Diagnostic Checks / Connector Install API
+  slug: teradata-operations-diagnostic-checks-connector-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-diagnostic-checks-connector-install-api-openapi.yml
+- filename: teradata-operations-disable-system-alerts-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Disable System Alerts API
+  slug: teradata-operations-disable-system-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-disable-system-alerts-api-openapi.yml
+- filename: teradata-operations-import-system-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Import System API
+  slug: teradata-operations-import-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-import-system-api-openapi.yml
+- filename: teradata-operations-nodes-auto-install-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Nodes Auto Install API
+  slug: teradata-operations-nodes-auto-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-nodes-auto-install-api-openapi.yml
+- filename: teradata-operations-nodes-manual-install-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Nodes Manual Install API
+  slug: teradata-operations-nodes-manual-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-nodes-manual-install-api-openapi.yml
+- filename: teradata-operations-private-link-template-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Private Link Template API
+  slug: teradata-operations-private-link-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-private-link-template-api-openapi.yml
+- filename: teradata-operations-register-remote-lake-system-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Register Remote Lake System API
+  slug: teradata-operations-register-remote-lake-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-register-remote-lake-system-api-openapi.yml
+- filename: teradata-operations-shared-memory-estimator-api-openapi.yml
+  format: yaml
+  label: Teradata Operations - Shared Memory Estimator API
+  slug: teradata-operations-shared-memory-estimator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-shared-memory-estimator-api-openapi.yml
+- filename: teradata-support-archive-api-openapi.yml
+  format: yaml
+  label: Teradata Support Archive API
+  slug: teradata-support-archive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-support-archive-api-openapi.yml
 auth_types:
 - http
 description: ''

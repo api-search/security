@@ -376,7 +376,7 @@ slug: logicmonitor-domain-security
 source_filename: logicmonitor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.logicmonitor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 07:43:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: logicmonitor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.logicmonitor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 07:43:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: logicmonitor.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logicmonitor/refs/heads/main/security/logicmonitor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

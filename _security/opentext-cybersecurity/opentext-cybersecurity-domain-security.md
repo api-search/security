@@ -171,9 +171,9 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "digicert.com"
-  - 0 issuewild "sectigo.com"
   - 0 issuewild "digicert.com"
+  - 0 issuewild "sectigo.com"
+  - 0 issue "digicert.com"
   - 0 issue "sectigo.com"
   dmarc: true
   dmarc_policy: reject
@@ -181,16 +181,20 @@ domains:
   domain: opentext.com
   spf: true
 - caa: []
-  dmarc: true
-  dmarc_policy: quarantine
+  dmarc: false
   dnssec: false
-  domain: fortify.com
+  domain: webrootcloudav.com
   spf: true
 hosts:
-- cert_expires: Oct 16 17:52:33 2026 GMT
+- cert_expires: Dec 18 00:38:44 2026 GMT
   host: cybersecurity.opentext.com
   hsts: true
   hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 24 23:59:59 2026 GMT
+  host: unityapi.webrootcloudav.com
+  hsts: null
   https: true
   tls_version: TLSv1.3
 - cert_expires: Mar 13 23:59:59 2027 GMT
@@ -198,11 +202,6 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.2
-- cert_expires: Dec 24 23:59:59 2026 GMT
-  host: unityapi.webrootcloudav.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
 hosts_probed: 3
 kind: domain-security
 layout: security
@@ -216,7 +215,7 @@ slug: opentext-cybersecurity-domain-security
 source_filename: opentext-cybersecurity-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cybersecurity.opentext.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 17:52:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ams.fortify.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: null\n- host: unityapi.webrootcloudav.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: opentext.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: fortify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cybersecurity.opentext.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 00:38:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: unityapi.webrootcloudav.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: null\n- host: api.ams.fortify.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: opentext.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: webrootcloudav.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/security/opentext-cybersecurity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

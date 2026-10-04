@@ -216,15 +216,51 @@ api_specs:
   slug: outsystems-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-users-api-openapi.yml
+- filename: outsystems-applications-api-openapi.yml
+  format: yaml
+  label: OutSystems /applications API
+  slug: outsystems-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-applications-api-openapi.yml
+- filename: outsystems-auth-api-openapi.yml
+  format: yaml
+  label: OutSystems /auth API
+  slug: outsystems-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-auth-api-openapi.yml
+- filename: outsystems-deployments-api-openapi.yml
+  format: yaml
+  label: OutSystems /deployments API
+  slug: outsystems-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-deployments-api-openapi.yml
+- filename: outsystems-modules-api-openapi.yml
+  format: yaml
+  label: OutSystems /modules API
+  slug: outsystems-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-modules-api-openapi.yml
+- filename: outsystems-roles-api-openapi.yml
+  format: yaml
+  label: OutSystems /roles API
+  slug: outsystems-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-roles-api-openapi.yml
+- filename: outsystems-teams-api-openapi.yml
+  format: yaml
+  label: OutSystems /teams API
+  slug: outsystems-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-teams-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issuewild "amazon.com"
-  - 0 issuewild "azure.com"
-  - 0 issuewild "digicert.com"
-  - 0 issuewild "letsencrypt.org"
   - 0 issuewild "pki.goog"
   - 0 issue "amazon.com"
+  - 0 issue "azure.com"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
@@ -254,7 +290,7 @@ slug: outsystems-domain-security
 source_filename: outsystems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.outsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: false\n- host: success.outsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: outsystems.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"azure.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.outsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: false\n- host: success.outsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: outsystems.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"azure.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/security/outsystems-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

@@ -33,17 +33,17 @@ hosts:
   hsts_max_age: 31557600
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 20 23:59:59 2026 GMT
-  host: docs.splunk.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.2
-- cert_expires: Aug 29 00:41:29 2026 GMT
+- cert_expires: Dec  2 04:05:47 2026 GMT
   host: help.splunk.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
+- cert_expires: Apr  6 23:59:59 2027 GMT
+  host: docs.splunk.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.2
 hosts_probed: 3
 kind: domain-security
 layout: security
@@ -57,7 +57,7 @@ slug: splunk-domain-security
 source_filename: splunk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.splunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: docs.splunk.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 20 23:59:59 2026 GMT\n  hsts: null\n- host: help.splunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 00:41:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: splunk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.splunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: help.splunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 04:05:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.splunk.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: splunk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/security/splunk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

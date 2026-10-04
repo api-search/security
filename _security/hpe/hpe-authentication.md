@@ -60,5 +60,4 @@ tags:
 - Networking
 - Hybrid Cloud
 - Enterprise IT
-- Data Center
 ---

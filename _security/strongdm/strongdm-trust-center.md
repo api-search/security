@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: strongdm-openapi-generated.yml
+  format: yaml
+  label: StrongDM API
+  slug: strongdm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/_ae-authored/strongdm-openapi-generated.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -16,7 +23,7 @@ slug: strongdm-trust-center
 source_filename: strongdm-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://security.strongdm.com/\nurl: https://security.strongdm.com/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.strongdm.com/\n  keywords:\n  - soc 2\n  - pci dss\n  - pci-dss\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://security.strongdm.com/\nurl: https://security.strongdm.com/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://security.strongdm.com/\n  keywords:\n  - soc 2\n  - pci dss\n  - pci-dss\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/security/strongdm-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:

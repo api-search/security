@@ -2,6 +2,13 @@
 anonymous_access: false
 api_key_in:
 - signed-request
+api_specs:
+- filename: strongdm-openapi-generated.yml
+  format: yaml
+  label: StrongDM API
+  slug: strongdm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/_ae-authored/strongdm-openapi-generated.yml
 auth_types:
 - apiKey
 description: StrongDM Admin API authentication. The control-plane API is gRPC; requests are authenticated with an API access key plus secret key pair generated in the Admin UI, and each request is signed. There is no OAuth 2.0 / OpenID Connect authorization-server surface on the API — the SDKs handle key-based signing internally, so there is no scope model (scopes/ is intentionally absent).

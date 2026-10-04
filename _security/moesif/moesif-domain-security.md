@@ -104,19 +104,19 @@ domains:
   domain: moesif.net
   spf: true
 hosts:
-- cert_expires: Nov 22 23:59:59 2026 GMT
+- cert_expires: Apr  3 23:59:59 2027 GMT
   host: www.moesif.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec 11 23:59:59 2026 GMT
-  host: api.moesif.com
+- cert_expires: Feb 19 23:59:59 2027 GMT
+  host: api.moesif.net
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  4 23:59:59 2026 GMT
-  host: api.moesif.net
+- cert_expires: Dec 11 23:59:59 2026 GMT
+  host: api.moesif.com
   hsts: false
   https: true
   tls_version: TLSv1.3
@@ -133,7 +133,7 @@ slug: moesif-domain-security
 source_filename: moesif-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moesif.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.moesif.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: false\n- host: api.moesif.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: moesif.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: moesif.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.moesif.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.moesif.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: false\n- host: api.moesif.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: moesif.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: moesif.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/security/moesif-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

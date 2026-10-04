@@ -284,40 +284,57 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-generic-openai-api-openapi.yml
 description: ''
 domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: snowflake.com
+  spf: true
 - caa:
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issuewild "awstrust.com"
   - 0 issuewild "digicert.com"
   - 0 issuewild "letsencrypt.org"
   - 0 issuewild "pki.goog"
-  - 0 issue "awstrust.com"
-  - 0 issue "digicert.com"
-  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: reject
   dnssec: true
   domain: snowflakecomputing.com
   spf: true
 hosts:
-- cert_expires: Oct 18 23:59:59 2026 GMT
+- cert_expires: Nov  6 23:59:59 2026 GMT
+  host: www.snowflake.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Feb 10 23:59:59 2027 GMT
+  host: docs.snowflake.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 17 23:59:59 2026 GMT
   host: org-account.snowflakecomputing.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Snowflake Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Snowflake, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Snowflake, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Snowflake
 provider_slug: snowflake
 slug: snowflake-domain-security
 source_filename: snowflake-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: org-account.snowflakecomputing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snowflakecomputing.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.snowflake.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.snowflake.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: false\n- host: org-account.snowflakecomputing.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: snowflake.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: snowflakecomputing.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/security/snowflake-domain-security.yml
-summary_line: TLSv1.3 · DNSSEC · DMARC
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Snowflake
 - Data

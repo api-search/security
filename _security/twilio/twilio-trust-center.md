@@ -693,7 +693,7 @@ slug: twilio-trust-center
 source_filename: twilio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://security.twilio.com/\nurl: https://security.twilio.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://security.twilio.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://security.twilio.com/\nurl: https://security.twilio.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://security.twilio.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/security/twilio-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR
 tags:

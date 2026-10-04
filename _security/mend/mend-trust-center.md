@@ -296,7 +296,7 @@ slug: mend-trust-center
 source_filename: mend-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nsource: https://trust.mend.io/\nurl: https://trust.mend.io/\nevidence:\n- source: https://trust.mend.io/\n  keywords:\n  - trust center\n  - compliance certification\n"
+source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://trust.mend.io/\nurl: https://trust.mend.io/\nevidence:\n- source: https://trust.mend.io/\n  keywords:\n  - trust center\n  - compliance certification\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/security/mend-trust-center.yml
 summary_line: trust center published
 tags:

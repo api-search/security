@@ -218,6 +218,42 @@ api_specs:
   slug: outsystems-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-users-api-openapi.yml
+- filename: outsystems-applications-api-openapi.yml
+  format: yaml
+  label: OutSystems /applications API
+  slug: outsystems-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-applications-api-openapi.yml
+- filename: outsystems-auth-api-openapi.yml
+  format: yaml
+  label: OutSystems /auth API
+  slug: outsystems-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-auth-api-openapi.yml
+- filename: outsystems-deployments-api-openapi.yml
+  format: yaml
+  label: OutSystems /deployments API
+  slug: outsystems-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-deployments-api-openapi.yml
+- filename: outsystems-modules-api-openapi.yml
+  format: yaml
+  label: OutSystems /modules API
+  slug: outsystems-modules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-modules-api-openapi.yml
+- filename: outsystems-roles-api-openapi.yml
+  format: yaml
+  label: OutSystems /roles API
+  slug: outsystems-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-roles-api-openapi.yml
+- filename: outsystems-teams-api-openapi.yml
+  format: yaml
+  label: OutSystems /teams API
+  slug: outsystems-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/openapi/outsystems-teams-api-openapi.yml
 auth_types:
 - http
 description: ''
