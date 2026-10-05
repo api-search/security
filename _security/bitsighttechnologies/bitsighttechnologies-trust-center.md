@@ -23,7 +23,6 @@ tags:
 - Company
 - Cybersecurity
 - Risk Management
-- SaaS
-- API
+- Software-as-a-Service
 trust_url: https://www.bitsight.com/security
 ---

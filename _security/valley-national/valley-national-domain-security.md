@@ -37,5 +37,4 @@ tags:
 - Regional Bank
 - Commercial Banking
 - Open Finance
-- Data Aggregation
 ---

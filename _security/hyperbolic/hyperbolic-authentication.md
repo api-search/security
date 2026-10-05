@@ -8,12 +8,6 @@ api_specs:
   slug: hyperbolic-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-audio-api-openapi.yml
-- filename: hyperbolic-chat-api-openapi.yml
-  format: yaml
-  label: Hyperbolic Chat API
-  slug: hyperbolic-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-chat-api-openapi.yml
 - filename: hyperbolic-completions-api-openapi.yml
   format: yaml
   label: Hyperbolic Completions API
@@ -32,6 +26,12 @@ api_specs:
   slug: hyperbolic-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-models-api-openapi.yml
+- filename: hyperbolic-chat-completions-api-openapi.yml
+  format: yaml
+  label: Hyperbolic Chat Completions API
+  slug: hyperbolic-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/openapi/hyperbolic-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

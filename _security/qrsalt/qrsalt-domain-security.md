@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: qrsalt-openapi-generated.yml
+- filename: qrsalt-barcode-api-openapi.yml
   format: yaml
-  label: QRSalt API
-  slug: qrsalt-api
+  label: QRSalt Barcode API
+  slug: qrsalt-barcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/_ae-authored/qrsalt-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-barcode-api-openapi.yml
+- filename: qrsalt-codes-api-openapi.yml
+  format: yaml
+  label: QRSalt Codes API
+  slug: qrsalt-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-codes-api-openapi.yml
+- filename: qrsalt-domains-api-openapi.yml
+  format: yaml
+  label: QRSalt Domains API
+  slug: qrsalt-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-domains-api-openapi.yml
+- filename: qrsalt-forms-api-openapi.yml
+  format: yaml
+  label: QRSalt Forms API
+  slug: qrsalt-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-forms-api-openapi.yml
+- filename: qrsalt-i-api-openapi.yml
+  format: yaml
+  label: QRSalt I API
+  slug: qrsalt-i-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-i-api-openapi.yml
+- filename: qrsalt-qr-api-openapi.yml
+  format: yaml
+  label: QRSalt Qr API
+  slug: qrsalt-qr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-qr-api-openapi.yml
+- filename: qrsalt-qrsalt-api-api-openapi.yml
+  format: yaml
+  label: QRSalt QRSalt API
+  slug: qrsalt-qrsalt-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/openapi/qrsalt-qrsalt-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +74,8 @@ source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qrsalt/refs/heads/main/security/qrsalt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- QR code
-- Barcode
-- API
+- QR Codes
+- Barcodes
 - Analytics
 - Dynamic links
 ---

@@ -72,6 +72,5 @@ tags:
 - Entertainment
 - Open Source
 - REST API
-- Games And Comics
 - Public APIs
 ---

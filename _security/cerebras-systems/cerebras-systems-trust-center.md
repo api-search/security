@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: cerebras-systems-chat-api-openapi.yml
-  format: yaml
-  label: Cerebras Systems Chat API
-  slug: cerebras-systems-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-chat-api-openapi.yml
 - filename: cerebras-systems-completions-api-openapi.yml
   format: yaml
   label: Cerebras Systems Completions API
@@ -30,6 +24,12 @@ api_specs:
   slug: cerebras-systems-tcp-warming-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-tcp-warming-api-openapi.yml
+- filename: cerebras-systems-chat-completions-api-openapi.yml
+  format: yaml
+  label: Cerebras Systems Chat Completions API
+  slug: cerebras-systems-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-chat-completions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

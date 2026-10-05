@@ -38,7 +38,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/
 summary_line: SOC 2
 tags:
 - Embeddings
-- Vector Database
 - Data Exploration
 - LLM
 - Open Source

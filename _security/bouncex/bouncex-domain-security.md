@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: bouncex-openapi-generated.yml
+- filename: bouncex-contacts-api-openapi.yml
   format: yaml
-  label: Wunderkind API
-  slug: bouncex-api
+  label: Wunderkind Contacts API
+  slug: bouncex-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/_ae-authored/bouncex-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-contacts-api-openapi.yml
+- filename: bouncex-createcontactactivities-api-openapi.yml
+  format: yaml
+  label: Wunderkind Createcontactactivities API
+  slug: bouncex-createcontactactivities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-createcontactactivities-api-openapi.yml
+- filename: bouncex-id-resolution-api-openapi.yml
+  format: yaml
+  label: Wunderkind Id Resolution API
+  slug: bouncex-id-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-id-resolution-api-openapi.yml
+- filename: bouncex-interaction-api-openapi.yml
+  format: yaml
+  label: Wunderkind Interaction API
+  slug: bouncex-interaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-interaction-api-openapi.yml
+- filename: bouncex-text-api-openapi.yml
+  format: yaml
+  label: Wunderkind Text API
+  slug: bouncex-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/openapi/bouncex-text-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +62,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing
-- AI
-- E-commerce
+- Artificial Intelligence
+- E-Commerce
 - Personalization
 - Identity
 ---

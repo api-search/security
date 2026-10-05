@@ -31,6 +31,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gofile/refs/heads/main/security/gofile-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Cloud Storage And File Sharing
 - Public APIs
+- File Sharing
 ---

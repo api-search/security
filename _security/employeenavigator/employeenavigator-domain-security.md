@@ -42,5 +42,4 @@ tags:
 - Open Enrollment
 - ACA Compliance
 - Identity
-- OpenID Connect
 ---

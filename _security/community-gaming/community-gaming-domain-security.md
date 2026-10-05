@@ -39,4 +39,5 @@ tags:
 - Rewards
 - Web3
 - Blockchain
+- Cryptocurrency
 ---

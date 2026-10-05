@@ -6,6 +6,42 @@ api_specs:
   slug: plaid-plaid-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-plaid-api-openapi.yml
+- filename: plaid-account-information-api-openapi.yml
+  format: yaml
+  label: Plaid Account Information API
+  slug: plaid-account-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-information-api-openapi.yml
+- filename: plaid-account-statements-api-openapi.yml
+  format: yaml
+  label: Plaid Account Statements API
+  slug: plaid-account-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-statements-api-openapi.yml
+- filename: plaid-account-transactions-api-openapi.yml
+  format: yaml
+  label: Plaid Account Transactions API
+  slug: plaid-account-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-transactions-api-openapi.yml
+- filename: plaid-asset-transfer-networks-information-api-openapi.yml
+  format: yaml
+  label: Plaid Asset Transfer Networks Information API
+  slug: plaid-asset-transfer-networks-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
+- filename: plaid-payment-networks-information-api-openapi.yml
+  format: yaml
+  label: Plaid Payment Networks Information API
+  slug: plaid-payment-networks-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-payment-networks-information-api-openapi.yml
+- filename: plaid-personal-information-api-openapi.yml
+  format: yaml
+  label: Plaid Personal Information API
+  slug: plaid-personal-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-personal-information-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -22,7 +58,7 @@ slug: plaid-trust-center
 source_filename: plaid-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-23'\nmethod: searched\nprobe: true\nsource: https://security.plaid.com/\nurl: https://security.plaid.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://security.plaid.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - compliance certification\n"
+source_yaml: "generated: '2026-09-23'\nmethod: searched\nprobe: true\nsource: https://security.plaid.com/\nurl: https://security.plaid.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://security.plaid.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - compliance certification\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/security/plaid-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:

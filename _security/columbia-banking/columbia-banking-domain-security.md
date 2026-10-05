@@ -42,5 +42,4 @@ tags:
 - Commercial Banking
 - Treasury Management
 - Open Finance
-- Data Aggregation
 ---

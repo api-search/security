@@ -51,6 +51,5 @@ tags:
 - Life Insurance
 - Identity
 - Authentication
-- OpenID Connect
 - API Gateway
 ---

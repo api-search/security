@@ -1,5 +1,5 @@
 ---
-anonymous_access: false
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: edelweiss-hotel-polyana-api-ai-llm-manifests-api-openapi.yml
@@ -35,18 +35,22 @@ method: searched
 name: Edelweiss Hotel Polyana Api Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Edelweiss Hotel Polyana API declares 0 security scheme(s) across its OpenAPI definitions.
+overview: Edelweiss Hotel Polyana API declares 1 security scheme(s) across its OpenAPI definitions.
 provider_name: Edelweiss Hotel Polyana API
 provider_slug: edelweiss-hotel-polyana-api
-scheme_count: 0
-schemes: []
+scheme_count: 1
+schemes:
+- description: No credential of any kind. The OpenAPI 3.1.0 contract declares no securitySchemes and no security requirements, and /.well-known/ai-plugin.json advertises auth.type "none".
+  name: anonymous
+  type: none
 slug: edelweiss-hotel-polyana-api-authentication
 source_filename: edelweiss-hotel-polyana-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: >-\n  https://edelweiss-hotel.com.ua/openapi.json (no securitySchemes declared) and\n  https://edelweiss-hotel.com.ua/.well-known/ai-plugin.json (auth.type: none)\nsummary: >-\n  The Edelweiss Hotel Polyana API is fully open. The OpenAPI 3.1.0 contract\n  declares no securitySchemes and no security requirements on any operation, and\n  the legacy ai-plugin manifest advertises auth.type \"none\". Every endpoint is an\n  anonymous read-only GET; no API key, token, or OAuth flow is required or\n  supported.\noverall: none\nnotes: >-\n  Open public data API (license CC BY-ND 4.0). All five operations are\n  unauthenticated GETs returning JSON or XML. CORS is wide open\n  (Access-Control-Allow-Origin: *), confirmed on /api/ai-info/.\n"
+source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: >-\n  https://edelweiss-hotel.com.ua/openapi.json (no securitySchemes declared) and\n  https://edelweiss-hotel.com.ua/.well-known/ai-plugin.json (auth.type: none)\nsummary: >-\n  The Edelweiss Hotel Polyana API is fully open. The OpenAPI 3.1.0 contract\n  declares no securitySchemes and no security requirements on any operation, and\n  the legacy ai-plugin manifest advertises auth.type \"none\". Every endpoint is an\n  anonymous read-only GET; no API key, token, or OAuth flow is required or\n  supported.\noverall: none\nschemes:\n- type: none\n  name: anonymous\n  description: No credential of any kind. The OpenAPI 3.1.0 contract declares no securitySchemes and no security\n    requirements, and /.well-known/ai-plugin.json advertises auth.type \"none\".\nnotes: >-\n  Open public data API (license CC BY-ND 4.0). All five operations are\n  unauthenticated GETs returning JSON or XML. CORS is wide open\n  (Access-Control-Allow-Origin:\
+  \ *), confirmed on /api/ai-info/.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edelweiss-hotel-polyana-api/refs/heads/main/authentication/edelweiss-hotel-polyana-api-authentication.yml
-summary_line: 0 schemes
+summary_line: 1 scheme
 tags:
 - Hotels
 - Hospitality

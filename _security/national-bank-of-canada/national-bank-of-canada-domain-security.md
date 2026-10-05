@@ -50,6 +50,5 @@ tags:
 - Open Banking
 - Consumer-Driven Banking
 - FDX
-- Data Aggregation
 - Payments
 ---

@@ -33,4 +33,5 @@ tags:
 - Deal Collaboration
 - Team Selling
 - Software-as-a-Service
+- Defunct
 ---

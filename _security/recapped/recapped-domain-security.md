@@ -38,4 +38,5 @@ tags:
 - Customer Onboarding
 - CRM
 - Revenue Operations
+- Defunct
 ---

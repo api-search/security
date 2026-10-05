@@ -55,5 +55,4 @@ tags:
 - Treasury Management
 - Regional Bank
 - Open Finance
-- Data Aggregation
 ---

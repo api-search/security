@@ -52,5 +52,6 @@ tags:
 - Machine Learning
 - MLOps
 - Training
+- Model Training
 trust_url: https://aws.amazon.com/compliance/
 ---

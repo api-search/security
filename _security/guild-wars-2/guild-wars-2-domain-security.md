@@ -31,6 +31,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guild-wars-2/refs/heads/main/security/guild-wars-2-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Games And Comics
 - Public APIs
+- Gaming
+- Video Games
 ---

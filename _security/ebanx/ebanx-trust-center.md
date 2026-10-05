@@ -69,5 +69,6 @@ tags:
 - PSE
 - Cross-Border
 - Webhook
+- Cross-Border Payments
 trust_url: https://trust.ebanx.com/
 ---

@@ -37,4 +37,5 @@ tags:
 - DeFi
 - Investing
 - Web3
+- Cryptocurrency
 ---

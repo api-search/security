@@ -36,5 +36,4 @@ tags:
 - Seasoning
 - Spices
 - Fortune 1000
-- Food and Beverage
 ---

@@ -33,7 +33,6 @@ tags:
 - Company
 - Software
 - Technology
-- APIs
 - Integration
 - Development
 ---

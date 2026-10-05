@@ -70,5 +70,6 @@ tags:
 - Task
 - Wiki
 - Workspace
+- Knowledge Management
 trust_url: https://www.notion.com/security
 ---

@@ -21,7 +21,6 @@ tags:
 - Company
 - Construction Tech
 - Construction
-- Contract Management
 - Risk Intelligence
 - Artificial Intelligence
 - Document Analysis

@@ -45,5 +45,4 @@ tags:
 - Saskatchewan
 - Consumer-Driven Banking
 - Open Banking
-- Data Aggregation
 ---

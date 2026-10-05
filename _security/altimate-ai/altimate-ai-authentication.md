@@ -74,12 +74,6 @@ api_specs:
   slug: altimate-ai-business-intelligence-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-business-intelligence-api-openapi.yml
-- filename: altimate-ai-chat-api-openapi.yml
-  format: yaml
-  label: Altimate AI Chat API
-  slug: altimate-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-chat-api-openapi.yml
 - filename: altimate-ai-clickhouse-rbac-api-openapi.yml
   format: yaml
   label: Altimate AI Clickhouse Rbac API
@@ -734,6 +728,12 @@ api_specs:
   slug: altimate-ai-workload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-workload-api-openapi.yml
+- filename: altimate-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Altimate AI Chat Completions API
+  slug: altimate-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/openapi/altimate-ai-chat-completions-api-openapi.yml
 - filename: altimate-ai-datastore-api-openapi.yml
   format: yaml
   label: Altimate AI Datastore API

@@ -57,7 +57,6 @@ tags:
 - Key Management
 - Cryptography
 - Artificial Intelligence
-- Vector Database
 - Software-as-a-Service
 trust_url: https://ironcorelabs.com/trust-center/
 ---

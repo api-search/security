@@ -26,6 +26,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/am-thyste/refs/heads/main/security/am-thyste-domain-security.yml
 summary_line: DNSSEC
 tags:
-- Art And Design
 - Public APIs
+- Image Generation
 ---

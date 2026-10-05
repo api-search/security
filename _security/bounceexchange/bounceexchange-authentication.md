@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bounceexchange-openapi-generated.yml
+- filename: bounceexchange-contacts-api-openapi.yml
   format: yaml
-  label: Bounceexchange API
-  slug: bounceexchange-api
+  label: Bounceexchange Contacts API
+  slug: bounceexchange-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bounceexchange/refs/heads/main/openapi/_ae-authored/bounceexchange-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bounceexchange/refs/heads/main/openapi/bounceexchange-contacts-api-openapi.yml
+- filename: bounceexchange-createcontactactivities-api-openapi.yml
+  format: yaml
+  label: Bounceexchange Createcontactactivities API
+  slug: bounceexchange-createcontactactivities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bounceexchange/refs/heads/main/openapi/bounceexchange-createcontactactivities-api-openapi.yml
+- filename: bounceexchange-id-resolution-api-openapi.yml
+  format: yaml
+  label: Bounceexchange Id Resolution API
+  slug: bounceexchange-id-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bounceexchange/refs/heads/main/openapi/bounceexchange-id-resolution-api-openapi.yml
+- filename: bounceexchange-interaction-api-openapi.yml
+  format: yaml
+  label: Bounceexchange Interaction API
+  slug: bounceexchange-interaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bounceexchange/refs/heads/main/openapi/bounceexchange-interaction-api-openapi.yml
+- filename: bounceexchange-text-api-openapi.yml
+  format: yaml
+  label: Bounceexchange Text API
+  slug: bounceexchange-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bounceexchange/refs/heads/main/openapi/bounceexchange-text-api-openapi.yml
 auth_types: []
 description: Authentication methods published for Wunderkind (Bounceexchange) APIs
 kind: authentication

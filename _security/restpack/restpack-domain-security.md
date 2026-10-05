@@ -29,6 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restpack/refs/heads/main/security/restpack-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- Documents And Productivity
 - Public APIs
+- Screenshots
+- PDF
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: byteplus-openapi-generated.yml
+- filename: byteplus-byteplus-api-api-openapi.yml
   format: yaml
-  label: BytePlus API
-  slug: byteplus-api
+  label: BytePlus BytePlus API
+  slug: byteplus-byteplus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/openapi/_ae-authored/byteplus-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/openapi/byteplus-byteplus-api-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -29,10 +29,10 @@ source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, PCI DSS, CSA STAR
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Enterprise
-- MachineLearning
+- Machine Learning
 - Platform
 trust_url: https://www.byteplus.com/en/trust
 ---

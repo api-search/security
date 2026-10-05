@@ -2,18 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: liblab-howto-openapi-generated.yml
+- filename: liblab-api-docs-api-openapi.yml
   format: yaml
-  label: Liblab howto API
-  slug: howto-api
+  label: Liblab Api Docs API
+  slug: liblab-api-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/_ae-authored/liblab-howto-openapi-generated.yml
-- filename: liblab-tutorials-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-api-docs-api-openapi.yml
+- filename: liblab-api-json-api-openapi.yml
   format: yaml
-  label: Liblab tutorials API
-  slug: tutorials-api
+  label: Liblab Api Json API
+  slug: liblab-api-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/_ae-authored/liblab-tutorials-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-api-json-api-openapi.yml
+- filename: liblab-collections-api-openapi.yml
+  format: yaml
+  label: Liblab Collections API
+  slug: liblab-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-collections-api-openapi.yml
+- filename: liblab-docs-api-openapi.yml
+  format: yaml
+  label: Liblab Docs API
+  slug: liblab-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-docs-api-openapi.yml
+- filename: liblab-github-linguist-api-openapi.yml
+  format: yaml
+  label: Liblab Github Linguist API
+  slug: liblab-github-linguist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-github-linguist-api-openapi.yml
+- filename: liblab-liblab-api-api-openapi.yml
+  format: yaml
+  label: Liblab Liblab API
+  slug: liblab-liblab-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-liblab-api-api-openapi.yml
+- filename: liblab-liblaber-api-openapi.yml
+  format: yaml
+  label: Liblab Liblaber API
+  slug: liblab-liblaber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-liblaber-api-openapi.yml
+- filename: liblab-schema-api-openapi.yml
+  format: yaml
+  label: Liblab Schema API
+  slug: liblab-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-schema-api-openapi.yml
+- filename: liblab-open-api-api-openapi.yml
+  format: yaml
+  label: Liblab Open API
+  slug: liblab-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/openapi/liblab-open-api-api-openapi.yml
 auth_types: []
 description: Authentication methods supported by liblab SDKs and CLI.
 kind: authentication

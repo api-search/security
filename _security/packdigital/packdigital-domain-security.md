@@ -47,11 +47,11 @@ tags:
 - Content Management
 - Headless Commerce
 - Shopify
-- Hydrogen
 - CMS
 - A/B Testing
 - GraphQL
 - MCP
 - Agents
 - Storefront
+- Shopify Hydrogen
 ---

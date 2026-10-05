@@ -65,7 +65,6 @@ tags:
 - Carrier
 - Underwriting
 - Claims
-- Brokers
 - Partner Gated
 - No Public API
 - CSIO

@@ -37,5 +37,4 @@ tags:
 - Credit Cards
 - Mastercard
 - Consumer-Driven Banking
-- Data Aggregation
 ---

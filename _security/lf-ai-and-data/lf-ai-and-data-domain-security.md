@@ -52,5 +52,4 @@ tags:
 - Linux Foundation
 - Open Source
 - MLOps
-- Vector Database
 ---

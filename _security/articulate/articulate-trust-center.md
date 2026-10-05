@@ -29,6 +29,5 @@ tags:
 - Training
 - Course Authoring
 - SSO
-- OpenID Connect
 trust_url: https://trust.articulate.com/
 ---

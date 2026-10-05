@@ -78,4 +78,5 @@ tags:
 - Payments
 - FX
 - Mobile Money
+- Cross-Border Payments
 ---

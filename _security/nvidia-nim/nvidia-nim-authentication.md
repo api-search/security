@@ -44,12 +44,6 @@ api_specs:
   slug: nvidia-nim-asr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-asr-api-openapi.yml
-- filename: nvidia-nim-chat-api-openapi.yml
-  format: yaml
-  label: NVIDIA NIM Chat API
-  slug: nvidia-nim-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-chat-api-openapi.yml
 - filename: nvidia-nim-images-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Images API
@@ -62,6 +56,12 @@ api_specs:
   slug: nvidia-nim-tts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-tts-api-openapi.yml
+- filename: nvidia-nim-chat-completions-api-openapi.yml
+  format: yaml
+  label: NVIDIA NIM Chat Completions API
+  slug: nvidia-nim-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

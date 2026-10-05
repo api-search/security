@@ -358,6 +358,6 @@ tags:
 - Research
 - Clinical Trials
 - Genomics
-- Surveillance
 - Open Data
+- Disease Surveillance
 ---

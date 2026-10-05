@@ -64,4 +64,7 @@ tags:
 - 3D Printing
 - Digital Manufacturing
 - Identity
+- Healthcare
+- Dental
+- Manufacturing
 ---

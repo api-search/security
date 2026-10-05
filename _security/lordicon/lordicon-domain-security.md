@@ -29,6 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lordicon/refs/heads/main/security/lordicon-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- Art And Design
 - Public APIs
+- Icons
+- Design
 ---

@@ -26,7 +26,7 @@ tags:
 - Company
 - Data Integration
 - Data Platform
-- AI
+- Artificial Intelligence
 - Enterprise
 trust_url: https://www.k2view.com/security/
 ---

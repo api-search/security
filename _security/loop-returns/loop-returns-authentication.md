@@ -94,7 +94,6 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Returns
 - E-Commerce
-- Exchange
 - Refunds
 - Shipping
 - Post-Purchase

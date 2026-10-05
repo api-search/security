@@ -6,12 +6,6 @@ api_specs:
   slug: doubao-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-batch-api-openapi.yml
-- filename: doubao-chat-api-openapi.yml
-  format: yaml
-  label: ByteDance Doubao Chat API
-  slug: doubao-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-chat-api-openapi.yml
 - filename: doubao-embeddings-api-openapi.yml
   format: yaml
   label: ByteDance Doubao Embeddings API
@@ -30,6 +24,12 @@ api_specs:
   slug: doubao-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-videos-api-openapi.yml
+- filename: doubao-chat-completions-api-openapi.yml
+  format: yaml
+  label: ByteDance Doubao Chat Completions API
+  slug: doubao-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/openapi/doubao-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

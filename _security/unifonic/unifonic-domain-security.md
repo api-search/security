@@ -97,4 +97,5 @@ tags:
 - OTP
 - Customer Engagement
 - Saudi Arabia
+- MENA
 ---

@@ -59,7 +59,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/migratio
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/authentication/google-cloud-migration-center-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Assessment
 - Cloud Migration
 - Discovery
 - Infrastructure

@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: blue-cheetah-openapi-generated.yml
+- filename: blue-cheetah-blue-cheetah-api-api-openapi.yml
   format: yaml
-  label: Blue Cheetah API
-  slug: blue-cheetah-api
+  label: Blue Cheetah Blue Cheetah API
+  slug: blue-cheetah-blue-cheetah-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/_ae-authored/blue-cheetah-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-blue-cheetah-api-api-openapi.yml
+- filename: blue-cheetah-chat-api-openapi.yml
+  format: yaml
+  label: Blue Cheetah Chat API
+  slug: blue-cheetah-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-chat-api-openapi.yml
+- filename: blue-cheetah-completions-api-openapi.yml
+  format: yaml
+  label: Blue Cheetah Completions API
+  slug: blue-cheetah-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-completions-api-openapi.yml
+- filename: blue-cheetah-health-api-openapi.yml
+  format: yaml
+  label: Blue Cheetah Health API
+  slug: blue-cheetah-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-health-api-openapi.yml
+- filename: blue-cheetah-install-api-openapi.yml
+  format: yaml
+  label: Blue Cheetah Install API
+  slug: blue-cheetah-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-install-api-openapi.yml
+- filename: blue-cheetah-metrics-api-openapi.yml
+  format: yaml
+  label: Blue Cheetah Metrics API
+  slug: blue-cheetah-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-metrics-api-openapi.yml
+- filename: blue-cheetah-tt-pkg-key-api-openapi.yml
+  format: yaml
+  label: Blue Cheetah Tt Pkg Key API
+  slug: blue-cheetah-tt-pkg-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-cheetah/refs/heads/main/openapi/blue-cheetah-tt-pkg-key-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

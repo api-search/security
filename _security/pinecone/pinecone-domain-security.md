@@ -107,4 +107,5 @@ tags:
 - RAG
 - Database
 - A2A
+- Vector Search
 ---

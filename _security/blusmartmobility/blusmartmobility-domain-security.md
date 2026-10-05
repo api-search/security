@@ -42,8 +42,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blusmartmobili
 summary_line: TLSv1.3 · DMARC
 tags:
 - Mobility
-- RideSharing
-- ElectricVehicles
+- Ridesharing
+- Electric Vehicles
 - India
-- Startup
+- Startups
 ---

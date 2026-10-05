@@ -56,9 +56,8 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Security
 - Access Control
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
-- APIs
 - Analytics
 - Data Integration
 - Cloud

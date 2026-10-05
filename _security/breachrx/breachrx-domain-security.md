@@ -33,6 +33,6 @@ tags:
 - Cybersecurity
 - Incident Response
 - Platform
-- AI
+- Artificial Intelligence
 - Regulatory Intelligence
 ---

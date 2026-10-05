@@ -52,4 +52,5 @@ tags:
 - Whiskey
 - Marketplace
 - Collectibles
+- Web3
 ---

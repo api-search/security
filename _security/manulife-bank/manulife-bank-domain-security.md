@@ -36,5 +36,4 @@ tags:
 - Schedule I Bank
 - Direct Bank
 - Digital Banking
-- Data Aggregation
 ---

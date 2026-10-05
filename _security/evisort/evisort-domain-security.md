@@ -76,4 +76,5 @@ tags:
 - Contract Intelligence
 - Document AI
 - Legal Tech
+- Contract Management
 ---

@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: sarvam-chat-api-openapi.yml
-  format: yaml
-  label: Sarvam Chat API
-  slug: sarvam-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-chat-api-openapi.yml
 - filename: sarvam-pronunciationdictionary-api-openapi.yml
   format: yaml
   label: Sarvam Pronunciation Dictionary API
@@ -33,6 +27,12 @@ api_specs:
   slug: sarvam-text-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-text-api-openapi.yml
+- filename: sarvam-chat-completions-api-openapi.yml
+  format: yaml
+  label: Sarvam Chat Completions API
+  slug: sarvam-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-chat-completions-api-openapi.yml
 - filename: sarvam-document-intelligence-api-openapi.yml
   format: yaml
   label: Sarvam Document Intelligence API

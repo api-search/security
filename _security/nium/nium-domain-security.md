@@ -41,4 +41,5 @@ tags:
 - Payments
 - FX
 - Issuing
+- Cross-Border Payments
 ---

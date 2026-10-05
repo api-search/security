@@ -587,4 +587,5 @@ tags:
 - Safety
 - Telematics
 - Transportation
+- Fleet
 ---

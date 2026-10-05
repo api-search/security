@@ -64,11 +64,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hypixel-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/authentication/hypixel-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Games And Comics
 - Gaming
 - Minecraft
 - Player Stats
 - Leaderboards
 - SkyBlock
 - Public APIs
+- Video Games
 ---

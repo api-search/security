@@ -24,12 +24,6 @@ api_specs:
   slug: ai-gateway-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-batches-api-openapi.yml
-- filename: ai-gateway-chat-api-openapi.yml
-  format: yaml
-  label: AI Gateway Chat API
-  slug: ai-gateway-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-chat-api-openapi.yml
 - filename: ai-gateway-completions-api-openapi.yml
   format: yaml
   label: AI Gateway Completions API
@@ -126,6 +120,12 @@ api_specs:
   slug: ai-gateway-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-api-keys-api-openapi.yml
+- filename: ai-gateway-chat-completions-api-openapi.yml
+  format: yaml
+  label: AI Gateway Chat Completions API
+  slug: ai-gateway-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-chat-completions-api-openapi.yml
 - filename: ai-gateway-fine-tuning-api-openapi.yml
   format: yaml
   label: AI Gateway Fine Tuning API

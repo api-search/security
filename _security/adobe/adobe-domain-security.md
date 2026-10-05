@@ -301,4 +301,5 @@ tags:
 - Marketing
 - PDF
 - Work Management
+- Image Generation
 ---

@@ -37,7 +37,6 @@ tags:
 - Supply Chain
 - Governance Risk and Compliance
 - Monitoring
-- Intelligence
 - Supplier Risk
 - Operational Resilience
 - ESG

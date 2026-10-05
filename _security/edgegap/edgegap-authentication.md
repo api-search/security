@@ -82,8 +82,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Game Servers
-- Orchestration
 - Edge Computing
 - Matchmaking
 - Hosting
+- Container Orchestration
 ---

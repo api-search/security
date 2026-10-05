@@ -64,4 +64,5 @@ tags:
 - Cloud
 - Milvus
 - Managed
+- Vector Search
 ---

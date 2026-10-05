@@ -38,4 +38,6 @@ tags:
 - Smart Contracts
 - Web3 Infrastructure
 - Developer Tools
+- Web3
+- Cryptocurrency
 ---

@@ -39,4 +39,6 @@ tags:
 - Yield Farming
 - DAO
 - Lending
+- Web3
+- Cryptocurrency
 ---

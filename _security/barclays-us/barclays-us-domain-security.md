@@ -38,5 +38,4 @@ tags:
 - Consumer Banking
 - Co-Brand Cards
 - Open Finance
-- Data Aggregation
 ---

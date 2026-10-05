@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: netwrix-openapi-generated.yml
+- filename: netwrix-data-api-openapi.yml
   format: yaml
-  label: Netwrix API
-  slug: netwrix-api
+  label: Netwrix Data API
+  slug: netwrix-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/_ae-authored/netwrix-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/netwrix-data-api-openapi.yml
+- filename: netwrix-oauth-api-openapi.yml
+  format: yaml
+  label: Netwrix OAuth API
+  slug: netwrix-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/netwrix-oauth-api-openapi.yml
+- filename: netwrix-token-api-openapi.yml
+  format: yaml
+  label: Netwrix Token API
+  slug: netwrix-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/netwrix-token-api-openapi.yml
 auth_types: []
 description: Authentication for ServiceNow action
 kind: authentication
@@ -35,8 +47,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/h
 summary_line: 1 scheme
 tags:
 - Company
-- DataSecurity
+- Data Security
 - Governance
 - Compliance
-- PrivilegedAccess
+- Privileged Access
 ---

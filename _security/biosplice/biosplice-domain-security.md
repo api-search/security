@@ -35,5 +35,5 @@ tags:
 - Biopharma
 - Osteoarthritis
 - Therapeutics
-- ClinicalTrials
+- Clinical Trials
 ---

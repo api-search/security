@@ -45,6 +45,5 @@ tags:
 - Credit Union
 - Open Finance
 - Open Banking
-- Data Aggregation
 - Payments
 ---

@@ -111,4 +111,5 @@ tags:
 - Maintenance
 - Telematics
 - Software-as-a-Service
+- Fleet
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Healthcare
-- DataAnalytics
+- Data Analytics
 - Research
 ---

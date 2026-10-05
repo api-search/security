@@ -97,4 +97,6 @@ tags:
 - Market Data
 - Webhook
 - Real-Time
+- Web3
+- Cryptocurrency
 ---

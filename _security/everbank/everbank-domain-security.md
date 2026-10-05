@@ -42,5 +42,4 @@ tags:
 - Deposits
 - Commercial Banking
 - Open Finance
-- Data Aggregation
 ---

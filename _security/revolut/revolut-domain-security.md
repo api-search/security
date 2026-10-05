@@ -337,4 +337,5 @@ tags:
 - Merchant Acquiring
 - Cryptocurrency
 - Cards
+- Consumer Banking
 ---

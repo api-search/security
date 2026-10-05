@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braven-environ
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- PlasticWaste
+- Plastic Waste
 - Sustainability
-- RenewableEnergy
+- Renewable Energy
 - Technology
 ---

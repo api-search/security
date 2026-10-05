@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: bnrouter-chat-api-openapi.yml
-  format: yaml
-  label: bnrouter Chat API
-  slug: bnrouter-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/openapi/bnrouter-chat-api-openapi.yml
 - filename: bnrouter-images-api-openapi.yml
   format: yaml
   label: bnrouter Images API
   slug: bnrouter-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/openapi/bnrouter-images-api-openapi.yml
+- filename: bnrouter-chat-completions-api-openapi.yml
+  format: yaml
+  label: bnrouter Chat Completions API
+  slug: bnrouter-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bnrouter/refs/heads/main/openapi/bnrouter-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -130,5 +130,4 @@ tags:
 - CIECA
 - Partner Gated
 - Authentication
-- OpenID Connect
 ---

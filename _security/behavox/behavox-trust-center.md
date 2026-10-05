@@ -27,10 +27,10 @@ tags:
 - Company
 - Fintech
 - Compliance
-- Surveillance
 - RegTech
 - Artificial Intelligence
 - Financial Services
 - Security
+- Trade Surveillance
 trust_url: https://trust.behavox.com/
 ---

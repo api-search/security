@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: qwen-chat-api-openapi.yml
-  format: yaml
-  label: Qwen Chat API
-  slug: qwen-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-chat-api-openapi.yml
 - filename: qwen-embeddings-api-openapi.yml
   format: yaml
   label: Qwen Embeddings API
@@ -20,6 +14,12 @@ api_specs:
   slug: qwen-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-models-api-openapi.yml
+- filename: qwen-chat-completions-api-openapi.yml
+  format: yaml
+  label: Qwen Chat Completions API
+  slug: qwen-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/openapi/qwen-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -55,4 +55,5 @@ tags:
 - Open Source
 - Alibaba
 - Multi-Modal
+- Foundation Models
 ---

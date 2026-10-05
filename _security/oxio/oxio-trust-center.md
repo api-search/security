@@ -24,6 +24,5 @@ tags:
 - Connectivity
 - Mobile
 - Networking
-- Crypto Web3
 trust_url: https://app.vanta.com/oxio/trust/cyte30ise7d5pq8l0zd4n4
 ---

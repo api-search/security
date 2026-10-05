@@ -32,6 +32,18 @@ api_specs:
   slug: stainless-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-user-api-openapi.yml
+- filename: stainless-spec-api-openapi.yml
+  format: yaml
+  label: Stainless Spec API
+  slug: stainless-spec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-spec-api-openapi.yml
+- filename: stainless-open-api-api-openapi.yml
+  format: yaml
+  label: Stainless Open API
+  slug: stainless-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-open-api-api-openapi.yml
 auth_types:
 - http
 description: ''

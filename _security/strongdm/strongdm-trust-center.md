@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: strongdm-openapi-generated.yml
+- filename: strongdm-admin-api-openapi.yml
   format: yaml
-  label: StrongDM API
-  slug: strongdm-api
+  label: StrongDM Admin API
+  slug: strongdm-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/_ae-authored/strongdm-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/strongdm-admin-api-openapi.yml
+- filename: strongdm-admin-api-openapi.yml
+  format: yaml
+  label: StrongDM Admin API
+  slug: strongdm-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/openapi/strongdm-admin-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

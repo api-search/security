@@ -72,5 +72,4 @@ tags:
 - Credit Union
 - Cooperative
 - Consumer-Driven Banking
-- Data Aggregation
 ---

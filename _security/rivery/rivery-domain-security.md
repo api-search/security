@@ -118,6 +118,6 @@ tags:
 - Data Integration
 - ELT
 - Cloud
-- Low-code
+- Low-Code
 - Boomi
 ---

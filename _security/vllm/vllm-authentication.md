@@ -8,12 +8,6 @@ api_specs:
   slug: vllm-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-audio-api-openapi.yml
-- filename: vllm-chat-api-openapi.yml
-  format: yaml
-  label: vLLM Chat API
-  slug: vllm-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-chat-api-openapi.yml
 - filename: vllm-completions-api-openapi.yml
   format: yaml
   label: vLLM Completions API
@@ -38,6 +32,12 @@ api_specs:
   slug: vllm-tokenize-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-tokenize-api-openapi.yml
+- filename: vllm-chat-completions-api-openapi.yml
+  format: yaml
+  label: vLLM Chat Completions API
+  slug: vllm-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

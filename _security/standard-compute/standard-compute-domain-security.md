@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: standard-compute-chat-api-openapi.yml
-  format: yaml
-  label: Standard Compute Chat API
-  slug: standard-compute-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-chat-api-openapi.yml
 - filename: standard-compute-completions-api-openapi.yml
   format: yaml
   label: Standard Compute Completions API
@@ -48,6 +42,12 @@ api_specs:
   slug: standard-compute-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-responses-api-openapi.yml
+- filename: standard-compute-chat-completions-api-openapi.yml
+  format: yaml
+  label: Standard Compute Chat Completions API
+  slug: standard-compute-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/standard-compute/refs/heads/main/openapi/standard-compute-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

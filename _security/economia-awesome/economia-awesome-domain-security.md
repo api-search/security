@@ -33,4 +33,5 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Currency Exchange
 - Public APIs
+- Exchange Rates
 ---

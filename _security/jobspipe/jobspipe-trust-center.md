@@ -80,8 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/
 summary_line: GDPR
 tags:
 - Company
-- Jobs
-- API
+- Job
 - Data
 - Hiring
 trust_url: https://jobspipe.dev/trust

@@ -36,6 +36,5 @@ tags:
 - United States
 - Regional Bank
 - Open Finance
-- Data Aggregation
 - Hawaii
 ---

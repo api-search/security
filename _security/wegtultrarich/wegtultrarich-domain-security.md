@@ -58,6 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - wealth inequality
 - economic inequality
+- Finance
 - Economics
 - Education
 - Journalism

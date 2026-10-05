@@ -94,7 +94,7 @@ summary_line: 7 schemes
 tags:
 - Data Analysis
 - Engineering
-- Machine-Learning
+- Machine Learning
 - Numerical Analysis
 - Scientific Computing
 ---

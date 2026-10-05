@@ -65,7 +65,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Security
-- SaaS
+- Software-as-a-Service
 - Cloud
 - IT
 ---

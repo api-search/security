@@ -14,12 +14,6 @@ api_specs:
   slug: together-ai-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-batches-api-openapi.yml
-- filename: together-ai-chat-api-openapi.yml
-  format: yaml
-  label: Together AI Chat API
-  slug: together-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-chat-api-openapi.yml
 - filename: together-ai-code-interpreter-api-openapi.yml
   format: yaml
   label: Together AI Code Interpreter API
@@ -170,6 +164,12 @@ api_specs:
   slug: together-ai-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-volumes-api-openapi.yml
+- filename: together-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Together AI Chat Completions API
+  slug: together-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/openapi/together-ai-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

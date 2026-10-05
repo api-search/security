@@ -66,7 +66,6 @@ tags:
 - Gencore AI
 - Agent Commander
 - LLM Firewalls
-- Vector Database
 - Knowledge Graph
 - Connectors
 - Hybrid Multicloud

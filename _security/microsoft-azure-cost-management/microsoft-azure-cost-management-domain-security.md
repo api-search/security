@@ -152,5 +152,5 @@ tags:
 - Chargebacks
 - Focus
 - Azure
-- Reservations
+- Reserved Instances
 ---

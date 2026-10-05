@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: mitto-ch-openapi-generated.yml
+- filename: mitto-ch-apis-api-openapi.yml
   format: yaml
-  label: Mitto API
-  slug: mitto-ch-api
+  label: Mitto APIs API
+  slug: mitto-ch-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/_ae-authored/mitto-ch-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/mitto-ch-apis-api-openapi.yml
+- filename: mitto-ch-autoreplyconfigs-api-openapi.yml
+  format: yaml
+  label: Mitto Auto Reply Configs API
+  slug: mitto-ch-autoreplyconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/mitto-ch-autoreplyconfigs-api-openapi.yml
+- filename: mitto-ch-customers-api-openapi.yml
+  format: yaml
+  label: Mitto Customers API
+  slug: mitto-ch-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/mitto-ch-customers-api-openapi.yml
+- filename: mitto-ch-mitto-api-api-openapi.yml
+  format: yaml
+  label: Mitto Mitto API
+  slug: mitto-ch-mitto-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/mitto-ch-mitto-api-api-openapi.yml
+- filename: mitto-ch-statistic-api-openapi.yml
+  format: yaml
+  label: Mitto Statistic API
+  slug: mitto-ch-statistic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/mitto-ch-statistic-api-openapi.yml
+- filename: mitto-ch-webhooks-api-openapi.yml
+  format: yaml
+  label: Mitto Webhooks API
+  slug: mitto-ch-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mitto-ch/refs/heads/main/openapi/mitto-ch-webhooks-api-openapi.yml
 auth_types: []
 description: Authentication for Mitto SMS API
 kind: authentication
@@ -40,5 +70,4 @@ tags:
 - Omnichannel
 - Communications
 - Enterprise
-- API
 ---

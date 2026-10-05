@@ -55,4 +55,5 @@ tags:
 - Fleet Tracking
 - Verizon
 - Fleetmatics
+- Fleet
 ---

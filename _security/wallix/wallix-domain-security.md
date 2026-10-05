@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wallix/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Privileged-Access
+- Privileged Access
 - Identity
 - Cybersecurity
 - Enterprise

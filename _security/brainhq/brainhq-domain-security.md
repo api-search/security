@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainhq/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Brain-Training
-- Cognitive-Health
-- SaaS
+- Brain Training
+- Cognitive Health
+- Software-as-a-Service
 - Posit-Science
 ---

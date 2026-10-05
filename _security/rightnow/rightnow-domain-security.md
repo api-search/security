@@ -6,12 +6,6 @@ api_specs:
   slug: rightnow-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-audio-api-openapi.yml
-- filename: rightnow-chat-api-openapi.yml
-  format: yaml
-  label: RightNow AI Chat API
-  slug: rightnow-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-chat-api-openapi.yml
 - filename: rightnow-embeddings-api-openapi.yml
   format: yaml
   label: RightNow AI Embeddings API
@@ -42,6 +36,12 @@ api_specs:
   slug: rightnow-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-responses-api-openapi.yml
+- filename: rightnow-chat-completions-api-openapi.yml
+  format: yaml
+  label: RightNow AI Chat Completions API
+  slug: rightnow-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/openapi/rightnow-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:

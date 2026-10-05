@@ -284,5 +284,6 @@ tags:
 - Marketing
 - PDF
 - Work Management
+- Image Generation
 trust_url: https://www.adobe.com/trust.html
 ---

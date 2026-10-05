@@ -54,4 +54,5 @@ tags:
 - PlayFab
 - Xbox
 - Xbox Live
+- Video Games
 ---

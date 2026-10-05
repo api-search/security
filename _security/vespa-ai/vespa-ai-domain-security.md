@@ -65,4 +65,5 @@ tags:
 - Open Source
 - Tensor
 - Recommendations
+- Vector Search
 ---

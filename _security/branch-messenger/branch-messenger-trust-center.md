@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: branch-messenger-openapi-generated.yml
+- filename: branch-messenger-analytics-api-openapi.yml
   format: yaml
-  label: Branch API
-  slug: branch-messenger-api
+  label: Branch Analytics API
+  slug: branch-messenger-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/_ae-authored/branch-messenger-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/branch-messenger-analytics-api-openapi.yml
+- filename: branch-messenger-app-api-openapi.yml
+  format: yaml
+  label: Branch App API
+  slug: branch-messenger-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/branch-messenger-app-api-openapi.yml
+- filename: branch-messenger-branch-api-api-openapi.yml
+  format: yaml
+  label: Branch Branch API
+  slug: branch-messenger-branch-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/branch-messenger-branch-api-api-openapi.yml
+- filename: branch-messenger-event-api-openapi.yml
+  format: yaml
+  label: Branch Event API
+  slug: branch-messenger-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/branch-messenger-event-api-openapi.yml
+- filename: branch-messenger-img1-api-openapi.yml
+  format: yaml
+  label: Branch Img1 API
+  slug: branch-messenger-img1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/branch-messenger-img1-api-openapi.yml
+- filename: branch-messenger-query-api-openapi.yml
+  format: yaml
+  label: Branch Query API
+  slug: branch-messenger-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/openapi/branch-messenger-query-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -34,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branch-messeng
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Mobile
-- DeepLinking
+- Deep Linking
 - Attribution
 - Marketing
 - Analytics

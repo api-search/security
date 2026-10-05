@@ -145,7 +145,6 @@ tags:
 - Lloyd's of London
 - Underwriting
 - Risk Data
-- Brokers
 - Carrier
 trust_url: https://trust.beazley.security/
 ---

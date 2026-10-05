@@ -41,7 +41,6 @@ tags:
 - Rick and Morty
 - Characters
 - Episodes
-- Location
 - Entertainment
 - GraphQL
 - REST

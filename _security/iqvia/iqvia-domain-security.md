@@ -36,4 +36,5 @@ tags:
 - Fortune 500
 - Healthcare
 - Life Sciences
+- Clinical Trials
 ---

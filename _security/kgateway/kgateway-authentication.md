@@ -74,4 +74,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/
 summary_line: http · 1 scheme
 tags:
 - Gateways
+- API Gateway
 ---

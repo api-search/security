@@ -35,5 +35,4 @@ tags:
 - Fintech
 - Analytics
 - Integration
-- API
 ---

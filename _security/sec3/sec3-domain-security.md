@@ -39,4 +39,5 @@ tags:
 - Smart Contracts
 - Auditing
 - Formal Verification
+- Web3
 ---

@@ -42,4 +42,6 @@ tags:
 - Solana
 - Blockchain
 - Digital Assets
+- Web3
+- Cryptocurrency
 ---

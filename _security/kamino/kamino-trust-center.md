@@ -166,5 +166,7 @@ tags:
 - Blockchain
 - Oracle
 - Vault
+- Web3
+- Cryptocurrency
 trust_url: https://kamino.com/security
 ---

@@ -135,5 +135,6 @@ tags:
 - Reporting
 - Visualization
 - Power BI
+- Data Visualization
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

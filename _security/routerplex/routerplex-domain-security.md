@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: routerplex-chat-api-openapi.yml
-  format: yaml
-  label: RouterPlex Chat API
-  slug: routerplex-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-chat-api-openapi.yml
 - filename: routerplex-images-api-openapi.yml
   format: yaml
   label: RouterPlex Images API
@@ -30,6 +24,12 @@ api_specs:
   slug: routerplex-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-responses-api-openapi.yml
+- filename: routerplex-chat-completions-api-openapi.yml
+  format: yaml
+  label: RouterPlex Chat Completions API
+  slug: routerplex-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/openapi/routerplex-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

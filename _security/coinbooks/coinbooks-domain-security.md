@@ -34,4 +34,5 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Bookkeeping
+- Web3
 ---

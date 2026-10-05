@@ -54,6 +54,5 @@ tags:
 - Human Resources
 - Enterprise Software
 - Software-as-a-Service
-- Identity Management
 trust_url: https://trust.yoodli.ai/
 ---

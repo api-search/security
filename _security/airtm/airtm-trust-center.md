@@ -171,6 +171,5 @@ tags:
 - Emerging Markets
 - money-services-business
 - Authentication
-- OpenID Connect
 trust_url: https://trust.airtm.com/
 ---

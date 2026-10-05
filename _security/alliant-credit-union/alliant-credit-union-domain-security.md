@@ -36,6 +36,5 @@ tags:
 - United States
 - Credit Union
 - Open Finance
-- Data Aggregation
 - Consumer Banking
 ---

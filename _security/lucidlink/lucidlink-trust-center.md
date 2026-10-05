@@ -55,6 +55,5 @@ tags:
 - MCP
 - AI Agents
 - Zero-Knowledge Encryption
-- Identity and Access Management
 trust_url: https://trust.lucidlink.com/
 ---

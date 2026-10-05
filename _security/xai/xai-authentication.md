@@ -138,4 +138,6 @@ tags:
 - Grok
 - Generative AI
 - Real-Time
+- Image Generation
+- Video Generation
 ---

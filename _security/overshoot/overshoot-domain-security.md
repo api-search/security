@@ -6,12 +6,6 @@ api_specs:
   slug: overshoot-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-billing-api-openapi.yml
-- filename: overshoot-chat-api-openapi.yml
-  format: yaml
-  label: Overshoot Chat API
-  slug: overshoot-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-chat-api-openapi.yml
 - filename: overshoot-healthz-api-openapi.yml
   format: yaml
   label: Overshoot Healthz API
@@ -48,6 +42,12 @@ api_specs:
   slug: overshoot-v1beta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-v1beta-api-openapi.yml
+- filename: overshoot-chat-completions-api-openapi.yml
+  format: yaml
+  label: Overshoot Chat Completions API
+  slug: overshoot-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/openapi/overshoot-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

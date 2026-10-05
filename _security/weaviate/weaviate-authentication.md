@@ -181,4 +181,5 @@ tags:
 - GraphQL
 - Kubernetes
 - Database
+- Vector Search
 ---

@@ -56,6 +56,5 @@ tags:
 - Simulation
 - Entertainment
 - Identity
-- OpenID Connect
 - Berlin
 ---

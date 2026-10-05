@@ -63,6 +63,6 @@ tags:
 - Containers
 - Docker
 - ECS
-- Orchestration
+- Container Orchestration
 trust_url: https://aws.amazon.com/compliance/
 ---

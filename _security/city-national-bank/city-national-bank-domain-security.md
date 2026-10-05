@@ -39,5 +39,4 @@ tags:
 - Private Banking
 - Wealth Management
 - Open Finance
-- Data Aggregation
 ---

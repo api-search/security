@@ -37,5 +37,4 @@ tags:
 - Compliance
 - Process Verification
 - MSSP
-- Identity and Access Management
 ---

@@ -26,12 +26,6 @@ api_specs:
   slug: letta-blocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/openapi/letta-blocks-api-openapi.yml
-- filename: letta-chat-api-openapi.yml
-  format: yaml
-  label: Letta Chat API
-  slug: letta-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/openapi/letta-chat-api-openapi.yml
 - filename: letta-client-side-access-tokens-api-openapi.yml
   format: yaml
   label: Letta Client-Side Access Tokens API
@@ -242,6 +236,12 @@ api_specs:
   slug: letta-llms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/openapi/letta-llms-api-openapi.yml
+- filename: letta-chat-completions-api-openapi.yml
+  format: yaml
+  label: Letta Chat Completions API
+  slug: letta-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/openapi/letta-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

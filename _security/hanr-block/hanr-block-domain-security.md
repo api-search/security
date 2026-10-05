@@ -39,6 +39,6 @@ tags:
 - Fortune 1000
 - Identity
 - Authentication
-- OpenID Connect
 - Consumer Software
+- Tax
 ---

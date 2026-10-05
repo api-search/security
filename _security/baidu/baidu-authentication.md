@@ -59,4 +59,5 @@ tags:
 - Geolocation
 - Cloud
 - China
+- Foundation Models
 ---

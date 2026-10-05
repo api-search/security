@@ -6,12 +6,6 @@ api_specs:
   slug: ollama-blobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-blobs-api-openapi.yml
-- filename: ollama-chat-api-openapi.yml
-  format: yaml
-  label: Ollama Chat API
-  slug: ollama-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/ollama-chat-api-openapi.yml
 - filename: ollama-chat-completions-api-openapi.yml
   format: yaml
   label: Ollama Chat Completions API

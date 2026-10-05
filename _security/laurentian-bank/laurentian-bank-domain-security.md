@@ -38,5 +38,4 @@ tags:
 - Retail Banking
 - Quebec
 - Interac
-- Data Aggregation
 ---

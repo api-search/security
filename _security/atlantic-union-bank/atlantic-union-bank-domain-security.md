@@ -36,5 +36,4 @@ tags:
 - Regional Bank
 - Virginia
 - Open Finance
-- Data Aggregation
 ---

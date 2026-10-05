@@ -56,5 +56,4 @@ tags:
 - Regional Bank
 - Commercial Banking
 - Open Finance
-- Developer Portal
 ---

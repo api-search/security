@@ -36,9 +36,9 @@ tags:
 - Retail
 - Health and Wellness
 - Consumer Hardware
-- Sports And Fitness
 - Agentic Commerce
 - GraphQL
 - MCP
 - Shopify
+- Fitness
 ---

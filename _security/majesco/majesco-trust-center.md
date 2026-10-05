@@ -56,5 +56,6 @@ tags:
 - Property and Casualty
 - Absence Management
 - Enterprise Software
+- Invoicing
 trust_url: https://trust.majesco.com/
 ---

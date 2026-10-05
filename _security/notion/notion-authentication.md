@@ -95,4 +95,5 @@ tags:
 - Task
 - Wiki
 - Workspace
+- Knowledge Management
 ---

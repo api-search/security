@@ -237,7 +237,7 @@ tags:
 - IoT
 - Kubernetes
 - Device Management
-- Orchestration
 - AI at the Edge
+- Container Orchestration
 trust_url: https://trust.zededa.com/
 ---

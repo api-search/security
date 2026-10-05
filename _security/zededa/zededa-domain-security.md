@@ -247,6 +247,6 @@ tags:
 - IoT
 - Kubernetes
 - Device Management
-- Orchestration
 - AI at the Edge
+- Container Orchestration
 ---

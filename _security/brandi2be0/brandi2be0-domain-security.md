@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail
-- AI
-- E‑commerce
+- Artificial Intelligence
+- E-Commerce
 - Investment
 ---

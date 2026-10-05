@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: shapes-chat-api-openapi.yml
-  format: yaml
-  label: Shapes Chat API
-  slug: shapes-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-chat-api-openapi.yml
 - filename: shapes-models-api-openapi.yml
   format: yaml
   label: Shapes Models API
@@ -18,6 +12,12 @@ api_specs:
   slug: shapes-shapes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-shapes-api-openapi.yml
+- filename: shapes-chat-completions-api-openapi.yml
+  format: yaml
+  label: Shapes Chat Completions API
+  slug: shapes-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/openapi/shapes-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

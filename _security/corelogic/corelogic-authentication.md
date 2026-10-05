@@ -190,7 +190,6 @@ tags:
 - MLS
 - OData
 - OneHome
-- OpenID Connect
 - Participant Reporting
 - Property Data
 - Real Estate

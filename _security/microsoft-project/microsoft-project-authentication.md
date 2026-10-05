@@ -117,9 +117,9 @@ tags:
 - Budgeting
 - Gantt Charts
 - Microsoft
-- Portfolio Management
 - Project Management
 - Resource Management
 - Scheduling
 - Task Management
+- Project Portfolio Management
 ---

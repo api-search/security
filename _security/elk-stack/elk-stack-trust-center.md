@@ -840,5 +840,6 @@ tags:
 - Vector Database
 - SIEM
 - Machine Learning
+- Vector Search
 trust_url: https://www.elastic.co/trust
 ---

@@ -53,5 +53,4 @@ tags:
 - Payments
 - Interac
 - Open Banking
-- Developer Portal
 ---

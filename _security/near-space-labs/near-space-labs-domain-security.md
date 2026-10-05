@@ -71,4 +71,5 @@ tags:
 - Utilities
 - Location
 - Imagery
+- Remote Sensing
 ---

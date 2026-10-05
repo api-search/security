@@ -27,6 +27,5 @@ tags:
 - Account Aggregation
 - Client Portal
 - Authentication
-- OpenID Connect
 trust_url: https://www.blueleaf.com/security/
 ---

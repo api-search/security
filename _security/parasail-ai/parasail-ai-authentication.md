@@ -8,12 +8,6 @@ api_specs:
   slug: parasail-ai-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-batch-api-openapi.yml
-- filename: parasail-ai-chat-api-openapi.yml
-  format: yaml
-  label: Parasail Chat API
-  slug: parasail-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-chat-api-openapi.yml
 - filename: parasail-ai-completions-api-openapi.yml
   format: yaml
   label: Parasail Completions API
@@ -44,6 +38,12 @@ api_specs:
   slug: parasail-ai-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-models-api-openapi.yml
+- filename: parasail-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Parasail Chat Completions API
+  slug: parasail-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

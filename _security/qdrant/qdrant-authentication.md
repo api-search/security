@@ -96,4 +96,5 @@ tags:
 - Artificial Intelligence
 - Vector Database
 - Database
+- Vector Search
 ---

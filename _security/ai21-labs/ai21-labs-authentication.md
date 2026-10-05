@@ -8,12 +8,6 @@ api_specs:
   slug: chat-completions
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/asyncapi/ai21-labs-asyncapi.yml
-- filename: ai21-labs-chat-api-openapi.yml
-  format: yaml
-  label: AI21 Labs Chat API
-  slug: ai21-labs-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-chat-api-openapi.yml
 - filename: ai21-labs-library-api-openapi.yml
   format: yaml
   label: AI21 Labs Library API
@@ -26,6 +20,12 @@ api_specs:
   slug: ai21-labs-maestro-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-maestro-api-openapi.yml
+- filename: ai21-labs-chat-completions-api-openapi.yml
+  format: yaml
+  label: AI21 Labs Chat Completions API
+  slug: ai21-labs-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

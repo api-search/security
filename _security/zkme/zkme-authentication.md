@@ -93,4 +93,5 @@ tags:
 - Decentralized Identity
 - Anti-Sybil
 - Transaction Monitoring
+- Web3
 ---

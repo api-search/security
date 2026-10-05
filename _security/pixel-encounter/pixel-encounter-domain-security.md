@@ -29,6 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixel-encounter/refs/heads/main/security/pixel-encounter-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Art And Design
 - Public APIs
+- Icons
+- Image Generation
 ---

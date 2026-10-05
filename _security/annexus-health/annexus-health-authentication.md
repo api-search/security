@@ -36,6 +36,5 @@ tags:
 - Revenue Cycle
 - Copay Assistance
 - Identity
-- OpenID Connect
 - HITRUST
 ---

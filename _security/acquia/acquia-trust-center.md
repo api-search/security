@@ -160,5 +160,6 @@ tags:
 - Cloud Hosting
 - Headless
 - Content Management
+- Headless CMS
 trust_url: https://security.acquia.com/
 ---

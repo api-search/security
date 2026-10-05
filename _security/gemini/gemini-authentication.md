@@ -89,4 +89,5 @@ tags:
 - Text-to-Speech
 - Video Generation
 - Video Understanding
+- Foundation Models
 ---

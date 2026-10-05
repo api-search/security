@@ -72,6 +72,5 @@ tags:
 - Market Data
 - Finance
 - OHLCV
-- Exchange
 - Blockchain
 ---

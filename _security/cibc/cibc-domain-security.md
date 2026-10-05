@@ -46,5 +46,4 @@ tags:
 - Consumer-Driven Banking
 - Interac
 - Payments
-- Data Aggregation
 ---

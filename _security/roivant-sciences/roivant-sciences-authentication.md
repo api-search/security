@@ -117,7 +117,6 @@ tags:
 - Drug Development
 - Clinical Trials
 - Health Data
-- Tokenization
 - Electronic Health Records
 - Real-World Evidence
 - Holding Company

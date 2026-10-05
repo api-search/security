@@ -69,10 +69,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/security/fortnite-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Games And Comics
 - Public APIs
 - Fortnite
 - Player Statistics
 - Esports
 - Tracker Network
+- Gaming
+- Video Games
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boulder-intern
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- vaping
-- electronics
-- manufacturing
+- Vaping
+- Electronics
+- Manufacturing
 - USA
 ---

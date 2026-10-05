@@ -35,6 +35,6 @@ tags:
 - Diagnostics
 - Imaging
 - Biomarkers
-- Data-Integration
+- Data Integration
 - Healthcare
 ---

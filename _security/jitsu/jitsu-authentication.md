@@ -58,4 +58,5 @@ tags:
 - Analytics
 - Open Source
 - Ingestion
+- Customer Data Platform
 ---

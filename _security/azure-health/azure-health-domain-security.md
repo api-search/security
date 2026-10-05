@@ -131,7 +131,6 @@ tags:
 - Healthcare
 - FHIR
 - DICOM
-- MedTech
 - IoMT
 - Health Data
 - HIPAA

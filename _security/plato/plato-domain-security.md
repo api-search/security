@@ -38,4 +38,5 @@ tags:
 - Community
 - Deactivated
 - Deactivated Company
+- Defunct
 ---

@@ -35,5 +35,5 @@ tags:
 - Finance
 - Investment
 - Marketplace
-- Private-Equity
+- Private Equity
 ---

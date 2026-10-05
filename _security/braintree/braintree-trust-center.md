@@ -88,5 +88,6 @@ tags:
 - Transaction
 - Mobile
 - Subscription
+- Payment Processing
 trust_url: https://developer.paypal.com/braintree/articles/risk-and-security/compliance/overview
 ---

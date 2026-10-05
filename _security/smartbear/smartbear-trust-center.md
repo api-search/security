@@ -47,7 +47,7 @@ slug: smartbear-trust-center
 source_filename: smartbear-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.smartbear.com/\nurl: https://trust.smartbear.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.smartbear.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://trust.smartbear.com/\nurl: https://trust.smartbear.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.smartbear.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/security/smartbear-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:

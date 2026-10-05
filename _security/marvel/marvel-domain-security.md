@@ -79,7 +79,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Characters
 - Comics
-- Creators
 - Entertainment
 - Event
 - Media

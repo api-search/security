@@ -82,5 +82,6 @@ tags:
 - RAG
 - Database
 - A2A
+- Vector Search
 trust_url: https://security.pinecone.io/
 ---

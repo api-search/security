@@ -38,4 +38,5 @@ tags:
 - Web3
 - Wallet SDK
 - Developer Tools
+- Cryptocurrency
 ---

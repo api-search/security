@@ -39,4 +39,6 @@ tags:
 - Automated Market Maker
 - Blockchain
 - SDK
+- Web3
+- Cryptocurrency
 ---

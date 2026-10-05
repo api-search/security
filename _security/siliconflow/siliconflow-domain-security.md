@@ -6,12 +6,6 @@ api_specs:
   slug: siliconflow-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-audio-api-openapi.yml
-- filename: siliconflow-chat-api-openapi.yml
-  format: yaml
-  label: SiliconFlow Chat API
-  slug: siliconflow-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-chat-api-openapi.yml
 - filename: siliconflow-completions-api-openapi.yml
   format: yaml
   label: SiliconFlow Completions API
@@ -60,6 +54,12 @@ api_specs:
   slug: siliconflow-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-videos-api-openapi.yml
+- filename: siliconflow-chat-completions-api-openapi.yml
+  format: yaml
+  label: SiliconFlow Chat Completions API
+  slug: siliconflow-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/openapi/siliconflow-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

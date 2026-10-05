@@ -50,6 +50,5 @@ tags:
 - Consumer Banking
 - Commercial Banking
 - Wealth Management
-- Data Aggregation
 - Open Finance
 ---

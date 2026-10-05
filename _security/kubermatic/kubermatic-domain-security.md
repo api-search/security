@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: kubermatic-openapi-generated.yml
+- filename: kubermatic-apis-api-openapi.yml
   format: yaml
-  label: Kubermatic API
-  slug: kubermatic-api
+  label: Kubermatic APIs API
+  slug: kubermatic-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/_ae-authored/kubermatic-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-apis-api-openapi.yml
+- filename: kubermatic-auth-api-openapi.yml
+  format: yaml
+  label: Kubermatic Auth API
+  slug: kubermatic-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-auth-api-openapi.yml
+- filename: kubermatic-clusters-api-openapi.yml
+  format: yaml
+  label: Kubermatic Clusters API
+  slug: kubermatic-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-clusters-api-openapi.yml
+- filename: kubermatic-healthz-api-openapi.yml
+  format: yaml
+  label: Kubermatic Healthz API
+  slug: kubermatic-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-healthz-api-openapi.yml
+- filename: kubermatic-kubermatic-api-api-openapi.yml
+  format: yaml
+  label: Kubermatic Kubermatic API
+  slug: kubermatic-kubermatic-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-kubermatic-api-api-openapi.yml
+- filename: kubermatic-kubermatic-api-openapi.yml
+  format: yaml
+  label: Kubermatic Kubermatic API
+  slug: kubermatic-kubermatic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-kubermatic-api-openapi.yml
+- filename: kubermatic-mcp-api-openapi.yml
+  format: yaml
+  label: Kubermatic MCP API
+  slug: kubermatic-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-mcp-api-openapi.yml
+- filename: kubermatic-metrics-api-openapi.yml
+  format: yaml
+  label: Kubermatic Metrics API
+  slug: kubermatic-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-metrics-api-openapi.yml
+- filename: kubermatic-well-known-api-openapi.yml
+  format: yaml
+  label: Kubermatic .well Known API
+  slug: kubermatic-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kubermatic/refs/heads/main/openapi/kubermatic-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +90,5 @@ tags:
 - Kubernetes
 - Multi-Cloud
 - Platform
-- AI
+- Artificial Intelligence
 ---

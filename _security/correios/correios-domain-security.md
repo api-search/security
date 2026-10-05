@@ -33,4 +33,6 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Tracking
 - Public APIs
+- Shipping
+- Postal
 ---

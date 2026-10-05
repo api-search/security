@@ -34,5 +34,5 @@ tags:
 - Manufacturing
 - Industrial
 - CNC
-- AI
+- Artificial Intelligence
 ---

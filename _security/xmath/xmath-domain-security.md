@@ -29,6 +29,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xmath/refs/heads/main/security/xmath-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC
 tags:
-- Science And Math
 - Public APIs
+- Mathematics
 ---

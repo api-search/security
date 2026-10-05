@@ -39,4 +39,6 @@ tags:
 - Borrowing
 - Blockchain
 - SDK
+- Web3
+- Cryptocurrency
 ---

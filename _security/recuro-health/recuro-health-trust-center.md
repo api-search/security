@@ -32,6 +32,5 @@ tags:
 - Employee Benefits
 - Health Plans
 - Identity
-- OpenID Connect
 trust_url: https://recurohealth.com/hitrust/
 ---

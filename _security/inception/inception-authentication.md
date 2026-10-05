@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: inception-chat-api-openapi.yml
-  format: yaml
-  label: Inception Chat API
-  slug: inception-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-chat-api-openapi.yml
 - filename: inception-edit-api-openapi.yml
   format: yaml
   label: Inception Edit API
@@ -26,6 +20,12 @@ api_specs:
   slug: inception-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-models-api-openapi.yml
+- filename: inception-chat-completions-api-openapi.yml
+  format: yaml
+  label: Inception Chat Completions API
+  slug: inception-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/openapi/inception-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -63,4 +63,5 @@ tags:
 - Code Completion
 - Machine Learning
 - Developer Tools
+- Foundation Models
 ---

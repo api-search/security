@@ -67,5 +67,4 @@ tags:
 - Consumer
 - Direct to Consumer
 - Identity
-- OpenID Connect
 ---

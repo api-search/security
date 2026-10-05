@@ -78,4 +78,5 @@ tags:
 - 5G
 - Software-as-a-Service
 - Real-Time
+- Subscription Billing
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: tencentcloud-openapi-generated.yml
+- filename: tencentcloud-exampleobject-api-openapi.yml
   format: yaml
-  label: Tencent Cloud API
-  slug: tencentcloud-api
+  label: Tencent Cloud Exampleobject API
+  slug: tencentcloud-exampleobject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/openapi/_ae-authored/tencentcloud-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/openapi/tencentcloud-exampleobject-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ summary_line: TLSv1.3
 tags:
 - Cloud
 - Computing
-- AI
+- Artificial Intelligence
 - Infrastructure
 - Services
 - Tencent

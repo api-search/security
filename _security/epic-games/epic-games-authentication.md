@@ -111,4 +111,6 @@ tags:
 - Sessions
 - Unreal Engine
 - Voice
+- Video Games
+- Gaming
 ---

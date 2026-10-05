@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: brainbox3ae3-openapi-generated.yml
+- filename: brainbox3ae3-io-api-openapi.yml
   format: yaml
-  label: Brainbox3ae3 API
-  slug: brainbox3ae3-api
+  label: Brainbox3ae3 Io API
+  slug: brainbox3ae3-io-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/openapi/_ae-authored/brainbox3ae3-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/openapi/brainbox3ae3-io-api-openapi.yml
 description: ''
 domains:
 - caa:

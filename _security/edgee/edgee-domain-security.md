@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: edgee-chat-api-openapi.yml
-  format: yaml
-  label: Edgee Chat API
-  slug: edgee-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-chat-api-openapi.yml
 - filename: edgee-compress-api-openapi.yml
   format: yaml
   label: Edgee Compress API
@@ -36,6 +30,12 @@ api_specs:
   slug: edgee-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-tokens-api-openapi.yml
+- filename: edgee-chat-completions-api-openapi.yml
+  format: yaml
+  label: Edgee Chat Completions API
+  slug: edgee-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/openapi/edgee-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

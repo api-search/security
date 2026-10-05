@@ -44,5 +44,4 @@ tags:
 - Cooperative
 - Alberta
 - Open Banking
-- Data Aggregation
 ---

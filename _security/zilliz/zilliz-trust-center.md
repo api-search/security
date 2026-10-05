@@ -45,5 +45,6 @@ tags:
 - Cloud
 - Milvus
 - Managed
+- Vector Search
 trust_url: https://zilliz.com/trust-center
 ---

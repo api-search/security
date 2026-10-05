@@ -38,4 +38,5 @@ tags:
 - SDK
 - Payments
 - Web3
+- Cryptocurrency
 ---

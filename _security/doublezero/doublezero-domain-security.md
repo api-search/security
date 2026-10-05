@@ -41,4 +41,5 @@ tags:
 - Low Latency
 - Fiber Network
 - CLI
+- Web3
 ---

@@ -57,4 +57,5 @@ tags:
 - FX
 - Remittances
 - Fintech
+- Cross-Border Payments
 ---

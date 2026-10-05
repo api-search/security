@@ -35,9 +35,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bongo-learn/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education
-- AI
+- Artificial Intelligence
 - Assessment
 - PartnerEnablement
-- SkillsDevelopment
+- Skills Development
 - Platform
 ---

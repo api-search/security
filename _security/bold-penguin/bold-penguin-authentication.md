@@ -2,24 +2,72 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bold-penguin-api-openapi-generated.yml
+- filename: bold-penguin-application-forms-api-openapi.yml
   format: yaml
-  label: Bold Penguin api API
-  slug: api-api
+  label: Bold Penguin Application Forms API
+  slug: bold-penguin-application-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/_ae-authored/bold-penguin-api-openapi-generated.yml
-- filename: bold-penguin-core-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-application-forms-api-openapi.yml
+- filename: bold-penguin-attachments-api-openapi.yml
   format: yaml
-  label: Bold Penguin core API
-  slug: core-api
+  label: Bold Penguin Attachments API
+  slug: bold-penguin-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/_ae-authored/bold-penguin-core-openapi-generated.yml
-- filename: bold-penguin-insurance_intelligence-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-attachments-api-openapi.yml
+- filename: bold-penguin-auth-api-openapi.yml
   format: yaml
-  label: Bold Penguin insurance_intelligence API
-  slug: insurance_intelligence-api
+  label: Bold Penguin Auth API
+  slug: bold-penguin-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/_ae-authored/bold-penguin-insurance_intelligence-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-auth-api-openapi.yml
+- filename: bold-penguin-exchange-application-forms-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Exchange Application Forms API
+  slug: bold-penguin-exchange-application-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-exchange-application-forms-api-openapi.yml
+- filename: bold-penguin-invocations-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Invocations API
+  slug: bold-penguin-invocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-invocations-api-openapi.yml
+- filename: bold-penguin-leads-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Leads API
+  slug: bold-penguin-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-leads-api-openapi.yml
+- filename: bold-penguin-market-recommendation-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Market Recommendation API
+  slug: bold-penguin-market-recommendation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-market-recommendation-api-openapi.yml
+- filename: bold-penguin-prospects-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Prospects API
+  slug: bold-penguin-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-prospects-api-openapi.yml
+- filename: bold-penguin-quote-requests-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Quote Requests API
+  slug: bold-penguin-quote-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-quote-requests-api-openapi.yml
+- filename: bold-penguin-tenants-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Tenants API
+  slug: bold-penguin-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-tenants-api-openapi.yml
+- filename: bold-penguin-token-api-openapi.yml
+  format: yaml
+  label: Bold Penguin Token API
+  slug: bold-penguin-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-penguin/refs/heads/main/openapi/bold-penguin-token-api-openapi.yml
 auth_types: []
 description: Authentication methods for Bold Penguin APIs as documented.
 kind: authentication
@@ -57,8 +105,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Insurance
-- API
 - Platform
 - Commercial
-- AI
+- Artificial Intelligence
 ---

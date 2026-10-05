@@ -46,5 +46,4 @@ tags:
 - Custody
 - Fund Accounting
 - Open Finance
-- Data Aggregation
 ---

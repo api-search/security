@@ -92,5 +92,6 @@ tags:
 - AI Agents
 - Content Management
 - Developer Tools
+- Documentation
 trust_url: https://security.archbee.com/
 ---

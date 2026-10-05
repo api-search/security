@@ -6,12 +6,24 @@ api_specs:
   slug: coralogix
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/asyncapi/coralogix-asyncapi.yml
-- filename: coralogix-openapi-generated.yml
+- filename: coralogix-dashboards-api-openapi.yml
   format: yaml
-  label: Coralogix API
-  slug: coralogix-api
+  label: Coralogix Dashboards API
+  slug: coralogix-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/openapi/_ae-authored/coralogix-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/openapi/coralogix-dashboards-api-openapi.yml
+- filename: coralogix-dataprime-api-openapi.yml
+  format: yaml
+  label: Coralogix Dataprime API
+  slug: coralogix-dataprime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/openapi/coralogix-dataprime-api-openapi.yml
+- filename: coralogix-mgmt-api-openapi.yml
+  format: yaml
+  label: Coralogix Mgmt API
+  slug: coralogix-mgmt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/openapi/coralogix-mgmt-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2

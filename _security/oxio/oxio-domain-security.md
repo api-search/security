@@ -38,5 +38,4 @@ tags:
 - Connectivity
 - Mobile
 - Networking
-- Crypto Web3
 ---

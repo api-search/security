@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boostrmind/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - MindMapping
-- KnowledgeManagement
+- Knowledge Management
 - Productivity
 ---

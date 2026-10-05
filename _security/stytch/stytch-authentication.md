@@ -324,4 +324,5 @@ tags:
 - AI Agents
 - Developer Tools
 - Identity Federation
+- OpenID Connect
 ---

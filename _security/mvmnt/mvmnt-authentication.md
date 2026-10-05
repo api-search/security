@@ -207,8 +207,8 @@ tags:
 - Logistics
 - Transportation Management System
 - Supply Chain
-- Brokerage
 - Shipping
 - Payments
 - Company
+- Freight Brokerage
 ---

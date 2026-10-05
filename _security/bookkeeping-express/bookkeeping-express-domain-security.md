@@ -33,6 +33,6 @@ tags:
 - Company
 - Bookkeeping
 - Financial Coaching
-- SMB
-- SaaS
+- Small Business
+- Software-as-a-Service
 ---

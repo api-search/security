@@ -38,5 +38,4 @@ tags:
 - Cooperative Bank
 - British Columbia
 - Consumer-Driven Banking
-- Data Aggregation
 ---

@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: discountedtokens-api-chat-api-openapi.yml
-  format: yaml
-  label: DiscountedTokens API Chat API
-  slug: discountedtokens-api-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-chat-api-openapi.yml
 - filename: discountedtokens-api-messages-api-openapi.yml
   format: yaml
   label: DiscountedTokens API Messages API
@@ -27,6 +21,12 @@ api_specs:
   slug: discountedtokens-api-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-responses-api-openapi.yml
+- filename: discountedtokens-api-chat-completions-api-openapi.yml
+  format: yaml
+  label: DiscountedTokens API Chat Completions API
+  slug: discountedtokens-api-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discountedtokens-api/refs/heads/main/openapi/discountedtokens-api-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http

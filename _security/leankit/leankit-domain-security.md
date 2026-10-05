@@ -202,7 +202,7 @@ tags:
 - Work Management
 - Collaboration
 - Enterprise Software
-- Portfolio Management
 - Workflow Automation
 - Software-as-a-Service
+- Project Portfolio Management
 ---

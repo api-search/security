@@ -49,4 +49,5 @@ tags:
 - Market Data
 - AI Agents
 - MCP
+- Financial Services
 ---

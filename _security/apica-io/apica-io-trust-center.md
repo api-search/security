@@ -23,7 +23,7 @@ tags:
 - Company
 - Observability
 - Telemetry
-- AI
+- Artificial Intelligence
 - Cloud
 trust_url: https://trust.apica.io/
 ---

@@ -66,5 +66,4 @@ tags:
 - Donations
 - Volunteering
 - Authentication
-- OpenID Connect
 ---

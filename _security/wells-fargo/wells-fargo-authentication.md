@@ -88,4 +88,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/re
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Fortune 100
+- Banking
+- Consumer Banking
 ---

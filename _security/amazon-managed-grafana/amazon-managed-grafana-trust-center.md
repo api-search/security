@@ -45,5 +45,6 @@ tags:
 - Monitoring
 - Observability
 - Visualization
+- Data Visualization
 trust_url: https://aws.amazon.com/compliance/
 ---

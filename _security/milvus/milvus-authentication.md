@@ -75,4 +75,5 @@ tags:
 - Open Source
 - Cloud-Native
 - Database
+- Vector Search
 ---

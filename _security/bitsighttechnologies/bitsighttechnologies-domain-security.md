@@ -34,6 +34,5 @@ tags:
 - Company
 - Cybersecurity
 - Risk Management
-- SaaS
-- API
+- Software-as-a-Service
 ---

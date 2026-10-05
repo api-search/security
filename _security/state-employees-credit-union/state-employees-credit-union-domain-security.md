@@ -37,5 +37,4 @@ tags:
 - United States
 - North Carolina
 - Open Finance
-- Data Aggregation
 ---

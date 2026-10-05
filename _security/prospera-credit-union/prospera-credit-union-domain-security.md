@@ -40,5 +40,4 @@ tags:
 - Interac
 - Open Banking
 - Consumer-Driven Banking
-- Data Aggregation
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: wanapis-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-audio-api-openapi.yml
-- filename: wanapis-chat-api-openapi.yml
-  format: yaml
-  label: WanAPIs Chat API
-  slug: wanapis-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-chat-api-openapi.yml
 - filename: wanapis-completions-api-openapi.yml
   format: yaml
   label: WanAPIs Completions API
@@ -48,6 +42,12 @@ api_specs:
   slug: wanapis-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-tasks-api-openapi.yml
+- filename: wanapis-chat-completions-api-openapi.yml
+  format: yaml
+  label: WanAPIs Chat Completions API
+  slug: wanapis-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/openapi/wanapis-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

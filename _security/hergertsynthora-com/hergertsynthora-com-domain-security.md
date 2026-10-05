@@ -72,7 +72,6 @@ tags:
 - MCP
 - x402
 - Web3
-- Intelligence
 - Sanctions Screening
 - Prediction Markets
 - OSINT

@@ -9,12 +9,6 @@ api_specs:
   slug: txt-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-batches-api-openapi.yml
-- filename: txt-chat-api-openapi.yml
-  format: yaml
-  label: .txt Chat API
-  slug: txt-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-api-openapi.yml
 - filename: txt-embeddings-api-openapi.yml
   format: yaml
   label: .txt Embeddings API
@@ -39,6 +33,12 @@ api_specs:
   slug: txt-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-responses-api-api-openapi.yml
+- filename: txt-chat-completions-api-openapi.yml
+  format: yaml
+  label: .txt Chat Completions API
+  slug: txt-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-completions-api-openapi.yml
 auth_types:
 - http-bearer
 description: 'Auth profile for the dottxt API, from the published OpenAPI securitySchemes (openapi/txt-dottxt-openapi-original.json) and the docs authentication page. Single scheme: bearer API key in the Authorization header. Keys are prefixed sk-dottxt- and are created/managed in the dashboard; access is currently granted via a request form. The Python SDK and CLI read DOTTXT_API_KEY by default (dottxt login stores credentials locally).'

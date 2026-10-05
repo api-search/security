@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: glhf-chat-chat-api-openapi.yml
-  format: yaml
-  label: glhf Chat API
-  slug: glhf-chat-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-chat-api-openapi.yml
 - filename: glhf-chat-models-api-openapi.yml
   format: yaml
   label: glhf Models API
   slug: glhf-chat-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-models-api-openapi.yml
+- filename: glhf-chat-chat-completions-api-openapi.yml
+  format: yaml
+  label: glhf Chat Completions API
+  slug: glhf-chat-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/openapi/glhf-chat-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

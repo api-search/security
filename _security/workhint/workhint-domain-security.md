@@ -36,7 +36,6 @@ tags:
 - Work Orchestration
 - Staffing
 - Payments
-- Contract Management
 - Compliance
 - Artificial Intelligence
 - Software-as-a-Service

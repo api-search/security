@@ -59,7 +59,7 @@ tags:
 - Documentation
 - API Documentation
 - Developer Portal
-- Artificial Intelligence
 - MCP
-- OpenAPI
+- AI Assistant
+- Docs as Code
 ---

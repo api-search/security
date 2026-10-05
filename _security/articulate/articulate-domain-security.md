@@ -43,5 +43,4 @@ tags:
 - Training
 - Course Authoring
 - SSO
-- OpenID Connect
 ---

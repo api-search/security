@@ -1,5 +1,5 @@
 ---
-anonymous_access: false
+anonymous_access: true
 api_key_in: []
 api_specs:
 - filename: window-sticker-vin-api-sticker-api-openapi.yml
@@ -23,18 +23,26 @@ method: derived
 name: Window Sticker Vin Api Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Window Sticker VIN API declares 0 security scheme(s) across its OpenAPI definitions.
+overview: Window Sticker VIN API declares 1 security scheme(s) across its OpenAPI definitions.
 provider_name: Window Sticker VIN API
 provider_slug: window-sticker-vin-api
-scheme_count: 0
-schemes: []
+scheme_count: 1
+schemes:
+- applies_to:
+  - https://windowsticker.org/api/v1/vin/{vin}
+  - https://windowsticker.org/api/sticker/{vin}
+  - https://windowsticker.org/mcp
+  evidence: 'llms.txt (2026-10-03): "No key, no registration, CORS enabled." MCP initialize + tools/list succeeded with no credentials.'
+  name: anonymous
+  type: none
 slug: window-sticker-vin-api-authentication
 source_filename: window-sticker-vin-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-09-20'\nmethod: derived\nsource: >-\n  openapi/window-sticker-vin-api-openapi.yml (no securitySchemes, no security requirement)\n  cross-checked against https://windowsticker.org/api-docs\nsummary: >-\n  Public, keyless API. The OpenAPI declares no securitySchemes and no security requirement,\n  and the docs confirm it: \"Free, keyless, CORS-enabled. No registration and no tiers.\"\n  Both operations are anonymous GET requests. There is nothing to authenticate.\nrequires_auth: false\npublic: true\ncors:\n  enabled: true\n  note: Documented as CORS-enabled for browser-side use.\nnotes: >-\n  No API key, no OAuth, no OpenID Connect, no mTLS. No /.well-known/oauth-authorization-server\n  or /.well-known/openid-configuration is served (both 404), consistent with a keyless service.\n"
+source_yaml: "generated: '2026-09-20'\nmethod: derived\nsource: >-\n  openapi/window-sticker-vin-api-openapi.yml (no securitySchemes, no security requirement)\n  cross-checked against https://windowsticker.org/api-docs\nsummary: >-\n  Public, keyless API. The OpenAPI declares no securitySchemes and no security requirement,\n  and the docs confirm it: \"Free, keyless, CORS-enabled. No registration and no tiers.\"\n  Both operations are anonymous GET requests. There is nothing to authenticate.\nrequires_auth: false\nschemes:\n- name: anonymous\n  type: none\n  applies_to:\n  - https://windowsticker.org/api/v1/vin/{vin}\n  - https://windowsticker.org/api/sticker/{vin}\n  - https://windowsticker.org/mcp\n  evidence: 'llms.txt (2026-10-03): \"No key, no registration, CORS enabled.\" MCP initialize + tools/list succeeded with no credentials.'\npublic: true\ncors:\n  enabled: true\n  note: Documented as CORS-enabled for browser-side use.\nnotes: >-\n  No API key, no OAuth, no OpenID Connect, no\
+  \ mTLS. No /.well-known/oauth-authorization-server\n  or /.well-known/openid-configuration is served (both 404), consistent with a keyless service.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/window-sticker-vin-api/refs/heads/main/authentication/window-sticker-vin-api-authentication.yml
-summary_line: 0 schemes
+summary_line: 1 scheme
 tags:
 - Automotive
 - Vehicle Data

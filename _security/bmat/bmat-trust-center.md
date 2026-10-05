@@ -22,7 +22,7 @@ tags:
 - Music
 - Data
 - Analytics
-- RightsManagement
+- Rights Management
 - Platform
 trust_url: https://trust.bmat.com/
 ---

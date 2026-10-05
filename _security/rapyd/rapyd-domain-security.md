@@ -46,4 +46,5 @@ tags:
 - Cross-Border
 - Cards
 - Wallets
+- Cross-Border Payments
 ---

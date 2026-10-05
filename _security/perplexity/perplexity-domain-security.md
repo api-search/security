@@ -104,4 +104,5 @@ tags:
 - Embeddings
 - Research
 - Agentic Commerce
+- Foundation Models
 ---

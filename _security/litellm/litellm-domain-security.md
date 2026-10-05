@@ -18,12 +18,6 @@ api_specs:
   slug: litellm-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-batches-api-openapi.yml
-- filename: litellm-chat-api-openapi.yml
-  format: yaml
-  label: LiteLLM Chat API
-  slug: litellm-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-chat-api-openapi.yml
 - filename: litellm-completions-api-openapi.yml
   format: yaml
   label: LiteLLM Completions API
@@ -84,6 +78,12 @@ api_specs:
   slug: litellm-vector-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-vector-stores-api-openapi.yml
+- filename: litellm-chat-completions-api-openapi.yml
+  format: yaml
+  label: LiteLLM Chat Completions API
+  slug: litellm-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -123,4 +123,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gateways
+- AI Gateway
 ---

@@ -36,5 +36,4 @@ tags:
 - Portfolio
 - R&D
 - Investor
-- Location
 ---

@@ -66,4 +66,5 @@ tags:
 - IT Operations
 - Zero Trust
 - Identity Federation
+- Identity and Access Management
 ---

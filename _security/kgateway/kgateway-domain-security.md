@@ -80,4 +80,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/
 summary_line: TLSv1.3
 tags:
 - Gateways
+- API Gateway
 ---

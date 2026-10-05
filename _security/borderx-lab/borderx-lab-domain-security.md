@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/borderx-lab/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- E-commerce
-- Cross-border
+- Artificial Intelligence
+- E-Commerce
+- Cross-Border
 - Platform
 ---

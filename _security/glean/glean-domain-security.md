@@ -146,4 +146,5 @@ tags:
 - RAG
 - Search
 - Work Assistant
+- Knowledge Management
 ---

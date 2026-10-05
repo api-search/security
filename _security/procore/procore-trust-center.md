@@ -25,5 +25,6 @@ tags:
 - Construction Management
 - Field Productivity
 - Financial Management
+- Construction Technology
 trust_url: https://trust.procore.com/
 ---

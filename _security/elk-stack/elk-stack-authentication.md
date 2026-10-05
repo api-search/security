@@ -865,4 +865,5 @@ tags:
 - Vector Database
 - SIEM
 - Machine Learning
+- Vector Search
 ---

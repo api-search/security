@@ -38,4 +38,6 @@ tags:
 - Smart Contracts
 - JSON-RPC
 - Web3 SDK
+- Web3
+- Cryptocurrency
 ---

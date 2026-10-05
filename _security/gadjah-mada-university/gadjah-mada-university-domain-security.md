@@ -91,7 +91,6 @@ tags:
 - Research
 - Identity Federation
 - Authentication
-- OpenID Connect
 - Research Repository
 - Scholarly Publishing
 - OAI-PMH

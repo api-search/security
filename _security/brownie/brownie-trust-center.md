@@ -29,5 +29,6 @@ tags:
 - Developer Tools
 - Automation
 - Open Source
+- Incident Management
 trust_url: https://docs.incidentfox.ai/security
 ---

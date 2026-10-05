@@ -33,5 +33,5 @@ tags:
 - Communications
 - Design
 - Advertising
-- EventManagement
+- Event Management
 ---

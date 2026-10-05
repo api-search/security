@@ -94,4 +94,6 @@ tags:
 - Prediction Markets
 - Agent Ready
 - Real-Time
+- Web3
+- Cryptocurrency
 ---

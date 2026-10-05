@@ -39,5 +39,4 @@ tags:
 - Big Six
 - CIBC
 - Consumer-Driven Banking
-- Data Aggregation
 ---

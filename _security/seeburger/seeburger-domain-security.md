@@ -35,5 +35,4 @@ tags:
 - Integration
 - Cloud
 - B2B
-- API
 ---

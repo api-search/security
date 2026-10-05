@@ -53,9 +53,9 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Headless Browser
 - Browser Automation
-- CDP
 - WebSocket
 - AI Agents
 - Web Scraping
 - Real-Time
+- Chrome DevTools Protocol
 ---

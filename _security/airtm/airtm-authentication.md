@@ -237,5 +237,4 @@ tags:
 - Emerging Markets
 - money-services-business
 - Authentication
-- OpenID Connect
 ---

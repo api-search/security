@@ -6,12 +6,6 @@ api_specs:
   slug: deepinfra-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-audio-api-openapi.yml
-- filename: deepinfra-chat-api-openapi.yml
-  format: yaml
-  label: DeepInfra Chat API
-  slug: deepinfra-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-chat-api-openapi.yml
 - filename: deepinfra-completions-api-openapi.yml
   format: yaml
   label: DeepInfra Completions API
@@ -36,6 +30,12 @@ api_specs:
   slug: deepinfra-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-models-api-openapi.yml
+- filename: deepinfra-chat-completions-api-openapi.yml
+  format: yaml
+  label: DeepInfra Chat Completions API
+  slug: deepinfra-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/openapi/deepinfra-chat-completions-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

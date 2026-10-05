@@ -81,5 +81,6 @@ tags:
 - Tax Automation
 - Stripe
 - Fintech
+- Tax
 trust_url: https://www.taxjar.com/security
 ---

@@ -30,6 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launch-library-2/refs/heads/main/security/launch-library-2-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Science And Math
 - Public APIs
+- Space
+- Spaceflight
 ---

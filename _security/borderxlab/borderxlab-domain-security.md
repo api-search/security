@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/borderxlab/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- E-commerce
-- Cross-border
-- AgenticCommerce
+- Artificial Intelligence
+- E-Commerce
+- Cross-Border
+- Agentic Commerce
 ---

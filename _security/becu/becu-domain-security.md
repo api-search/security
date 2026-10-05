@@ -40,6 +40,5 @@ tags:
 - United States
 - Credit Union
 - Open Finance
-- Data Aggregation
 - CFPB 1033
 ---

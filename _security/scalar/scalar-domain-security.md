@@ -144,6 +144,36 @@ api_specs:
   slug: scalar-sdks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-sdks-api-openapi.yml
+- filename: scalar-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Scalar MCP Servers API
+  slug: scalar-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-mcp-servers-api-openapi.yml
+- filename: scalar-oauth-api-openapi.yml
+  format: yaml
+  label: Scalar OAuth API
+  slug: scalar-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-oauth-api-openapi.yml
+- filename: scalar-registry-git-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Git API
+  slug: scalar-registry-git-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-registry-git-api-openapi.yml
+- filename: scalar-user-info-hooks-api-openapi.yml
+  format: yaml
+  label: Scalar User Info Hooks API
+  slug: scalar-user-info-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-user-info-hooks-api-openapi.yml
+- filename: scalar-webhooks-api-openapi.yml
+  format: yaml
+  label: Scalar Webhooks API
+  slug: scalar-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -153,12 +183,12 @@ domains:
   domain: scalar.com
   spf: true
 hosts:
-- cert_expires: Oct  5 22:09:48 2026 GMT
+- cert_expires: Dec 28 03:55:01 2026 GMT
   host: scalar.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 20 06:36:56 2026 GMT
+- cert_expires: Nov 12 07:57:17 2026 GMT
   host: guides.scalar.com
   hsts: false
   https: true
@@ -176,7 +206,7 @@ slug: scalar-domain-security
 source_filename: scalar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 22:09:48 2026 GMT\n  hsts: false\n- host: guides.scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 06:36:56 2026 GMT\n  hsts: false\ndomains:\n- domain: scalar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 03:55:01 2026 GMT\n  hsts: false\n- host: guides.scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 07:57:17 2026 GMT\n  hsts: false\ndomains:\n- domain: scalar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/security/scalar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

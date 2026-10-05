@@ -60,4 +60,5 @@ tags:
 - Aviation
 - Earth Observation
 - Satellite Imagery
+- Remote Sensing
 ---

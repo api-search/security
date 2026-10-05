@@ -96,4 +96,5 @@ tags:
 - Apple Pay
 - Saudi Arabia
 - Merchant Onboarding
+- MENA
 ---

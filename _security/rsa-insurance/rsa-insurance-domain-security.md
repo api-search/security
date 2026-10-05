@@ -54,7 +54,6 @@ tags:
 - Property and Casualty
 - Commercial Lines
 - Carrier
-- Brokers
 - Claims
 - Underwriting
 - Partner Gated

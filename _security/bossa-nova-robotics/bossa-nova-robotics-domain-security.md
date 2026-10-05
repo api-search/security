@@ -33,6 +33,6 @@ tags:
 - Company
 - Robotics
 - Retail
-- AI
+- Artificial Intelligence
 - Automation
 ---

@@ -8,12 +8,6 @@ api_specs:
   slug: requesty-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-api-keys-api-openapi.yml
-- filename: requesty-chat-api-openapi.yml
-  format: yaml
-  label: Requesty Chat API
-  slug: requesty-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-chat-api-openapi.yml
 - filename: requesty-embeddings-api-openapi.yml
   format: yaml
   label: Requesty Embeddings API
@@ -32,6 +26,12 @@ api_specs:
   slug: requesty-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-usage-api-openapi.yml
+- filename: requesty-chat-completions-api-openapi.yml
+  format: yaml
+  label: Requesty Chat Completions API
+  slug: requesty-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

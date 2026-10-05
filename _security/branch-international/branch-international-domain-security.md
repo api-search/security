@@ -33,7 +33,7 @@ tags:
 - Digital Banking
 - Loans
 - Payments
-- Investments
+- Investment
 - Savings
 - Emerging Markets
 - Mobile Finance

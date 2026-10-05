@@ -41,4 +41,5 @@ tags:
 - Data Marketplace
 - Zarr
 - STAC
+- Web3
 ---

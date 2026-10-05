@@ -66,4 +66,5 @@ tags:
 - GraphQL
 - Authentication
 - Blockchain
+- Web3
 ---

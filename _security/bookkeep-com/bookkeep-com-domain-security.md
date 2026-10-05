@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bookkeep-com-openapi-generated.yml
+- filename: bookkeep-com-entities-api-openapi.yml
   format: yaml
-  label: Bookkeep.com API
-  slug: bookkeep-com-api
+  label: Bookkeep.com Entities API
+  slug: bookkeep-com-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/openapi/_ae-authored/bookkeep-com-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/openapi/bookkeep-com-entities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,6 +42,6 @@ tags:
 - Accounting
 - Automation
 - Shopify
-- Ecommerce
+- E-Commerce
 - Integration
 ---

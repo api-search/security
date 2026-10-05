@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Biotechnology
 - Cardiology
-- Rare Diseases
+- Rare Disease
 - Therapeutics
 - Gene Editing
 - Company

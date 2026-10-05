@@ -68,4 +68,5 @@ tags:
 - IoT
 - Vehicle Data
 - Mobility
+- Telematics
 ---

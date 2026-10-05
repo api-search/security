@@ -43,5 +43,4 @@ tags:
 - Cooperative
 - Interac
 - Payments
-- Data Aggregation
 ---

@@ -38,5 +38,6 @@ tags:
 - Analytics
 - Open Source
 - Ingestion
+- Customer Data Platform
 trust_url: https://jitsu.com/security
 ---

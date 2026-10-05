@@ -26,7 +26,6 @@ tags:
 - Literacy
 - K-12
 - Authentication
-- OpenID Connect
 - SSO
 - Rostering
 - Identity

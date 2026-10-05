@@ -136,4 +136,5 @@ tags:
 - Expense Management
 - United Arab Emirates
 - Middle East
+- MENA
 ---

@@ -89,7 +89,6 @@ tags:
 - Auto Insurance
 - Home Insurance
 - Carrier
-- Brokers
 - Personal Lines
 - Telematics
 - Partner Gated

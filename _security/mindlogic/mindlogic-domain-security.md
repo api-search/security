@@ -6,12 +6,6 @@ api_specs:
   slug: mindlogic-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-audio-api-openapi.yml
-- filename: mindlogic-chat-api-openapi.yml
-  format: yaml
-  label: Mindlogic Chat API
-  slug: mindlogic-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-chat-api-openapi.yml
 - filename: mindlogic-credits-api-openapi.yml
   format: yaml
   label: Mindlogic Credits API
@@ -42,6 +36,12 @@ api_specs:
   slug: mindlogic-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-video-api-openapi.yml
+- filename: mindlogic-chat-completions-api-openapi.yml
+  format: yaml
+  label: Mindlogic Chat Completions API
+  slug: mindlogic-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

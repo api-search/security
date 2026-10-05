@@ -146,6 +146,36 @@ api_specs:
   slug: scalar-sdks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-sdks-api-openapi.yml
+- filename: scalar-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Scalar MCP Servers API
+  slug: scalar-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-mcp-servers-api-openapi.yml
+- filename: scalar-oauth-api-openapi.yml
+  format: yaml
+  label: Scalar OAuth API
+  slug: scalar-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-oauth-api-openapi.yml
+- filename: scalar-registry-git-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Git API
+  slug: scalar-registry-git-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-registry-git-api-openapi.yml
+- filename: scalar-user-info-hooks-api-openapi.yml
+  format: yaml
+  label: Scalar User Info Hooks API
+  slug: scalar-user-info-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-user-info-hooks-api-openapi.yml
+- filename: scalar-webhooks-api-openapi.yml
+  format: yaml
+  label: Scalar Webhooks API
+  slug: scalar-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

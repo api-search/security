@@ -3,12 +3,36 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: black-duck-openapi-generated.yml
+- filename: black-duck-black-duck-api-api-openapi.yml
   format: yaml
-  label: Black Duck API
-  slug: black-duck-api
+  label: Black Duck Black Duck API
+  slug: black-duck-black-duck-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/_ae-authored/black-duck-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/black-duck-black-duck-api-api-openapi.yml
+- filename: black-duck-issues-api-openapi.yml
+  format: yaml
+  label: Black Duck Issues API
+  slug: black-duck-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/black-duck-issues-api-openapi.yml
+- filename: black-duck-projects-api-openapi.yml
+  format: yaml
+  label: Black Duck Projects API
+  slug: black-duck-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/black-duck-projects-api-openapi.yml
+- filename: black-duck-search-api-openapi.yml
+  format: yaml
+  label: Black Duck Search API
+  slug: black-duck-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/black-duck-search-api-openapi.yml
+- filename: black-duck-users-api-openapi.yml
+  format: yaml
+  label: Black Duck Users API
+  slug: black-duck-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/openapi/black-duck-users-api-openapi.yml
 auth_types:
 - apiKey
 - http

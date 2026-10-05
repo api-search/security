@@ -58,5 +58,6 @@ tags:
 - Documentation
 - Knowledge Base
 - Software-as-a-Service
+- Knowledge Management
 trust_url: https://document360.com/compliance/soc2/
 ---

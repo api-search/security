@@ -95,5 +95,6 @@ tags:
 - Open Source
 - Firebase Alternative
 - Backend-as-a-Service
+- Passwordless
 trust_url: https://nhost.io/security
 ---

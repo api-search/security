@@ -48,12 +48,6 @@ api_specs:
   slug: portkey-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/openapi/portkey-batch-api-openapi.yml
-- filename: portkey-chat-api-openapi.yml
-  format: yaml
-  label: Portkey Chat API
-  slug: portkey-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/openapi/portkey-chat-api-openapi.yml
 - filename: portkey-collections-api-openapi.yml
   format: yaml
   label: Portkey Collections API
@@ -306,6 +300,12 @@ api_specs:
   slug: portkey-workspaces-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/openapi/portkey-workspaces-members-api-openapi.yml
+- filename: portkey-chat-completions-api-openapi.yml
+  format: yaml
+  label: Portkey Chat Completions API
+  slug: portkey-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/openapi/portkey-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

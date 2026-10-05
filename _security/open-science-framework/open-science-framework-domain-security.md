@@ -31,9 +31,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-science-framework/refs/heads/main/security/open-science-framework-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Science And Math
 - Public APIs
 - Research Data
 - Research Repository
 - Open Access
+- Science
+- Research
 ---

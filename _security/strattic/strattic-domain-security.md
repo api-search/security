@@ -34,7 +34,6 @@ tags:
 - Company
 - WordPress
 - Static Site Hosting
-- Headless CMS
 - Web Performance
 - Website Builder
 - Acquired

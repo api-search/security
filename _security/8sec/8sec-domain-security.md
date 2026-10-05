@@ -37,4 +37,5 @@ tags:
 - Free-to-Play
 - Gaming
 - France
+- Defunct
 ---

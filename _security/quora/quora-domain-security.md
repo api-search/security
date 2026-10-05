@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: quora-chat-api-openapi.yml
-  format: yaml
-  label: Quora Chat API
-  slug: quora-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-chat-api-openapi.yml
 - filename: quora-models-api-openapi.yml
   format: yaml
   label: Quora Models API
@@ -24,6 +18,12 @@ api_specs:
   slug: quora-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-usage-api-openapi.yml
+- filename: quora-chat-completions-api-openapi.yml
+  format: yaml
+  label: Quora Chat Completions API
+  slug: quora-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/openapi/quora-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:

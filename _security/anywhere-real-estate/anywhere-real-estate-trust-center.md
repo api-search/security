@@ -40,5 +40,6 @@ tags:
 - Relocation
 - Leads
 - Transaction
+- Residential
 trust_url: https://trust.anywhere.re/
 ---

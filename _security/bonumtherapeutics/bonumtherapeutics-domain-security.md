@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonumtherapeut
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Therapeutics
 - Antibody
 - Oncology

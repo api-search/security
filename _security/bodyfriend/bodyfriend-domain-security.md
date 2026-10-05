@@ -34,5 +34,5 @@ tags:
 - Massage Chairs
 - Home Wellness
 - Rehabilitation
-- Healthcare Technology
+- Health Tech
 ---

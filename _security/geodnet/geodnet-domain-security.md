@@ -39,4 +39,5 @@ tags:
 - Positioning
 - Geospatial
 - Blockchain
+- Web3
 ---

@@ -39,4 +39,6 @@ tags:
 - Ethereum
 - Smart Contracts
 - Governance
+- Web3
+- Cryptocurrency
 ---

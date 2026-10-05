@@ -331,5 +331,6 @@ tags:
 - SignalFlow
 - MCP
 - Real-Time
+- Incident Management
 trust_url: https://customertrust.splunk.com/
 ---

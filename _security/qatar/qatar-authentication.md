@@ -141,5 +141,4 @@ tags:
 - Open Access
 - OAI-PMH
 - SAML
-- OpenID Connect
 ---

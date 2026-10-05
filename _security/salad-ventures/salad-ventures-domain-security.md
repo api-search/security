@@ -37,4 +37,6 @@ tags:
 - Blockchain
 - Web3 Gaming
 - Digital Assets
+- Web3
+- Cryptocurrency
 ---

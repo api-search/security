@@ -102,4 +102,5 @@ tags:
 - Challenger Bank
 - Fintech
 - FAPI
+- Consumer Banking
 ---

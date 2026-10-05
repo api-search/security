@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: featherless-chat-api-openapi.yml
-  format: yaml
-  label: Featherless AI Chat API
-  slug: featherless-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-chat-api-openapi.yml
 - filename: featherless-completions-api-openapi.yml
   format: yaml
   label: Featherless AI Completions API
@@ -32,6 +26,12 @@ api_specs:
   slug: featherless-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-account-api-openapi.yml
+- filename: featherless-chat-completions-api-openapi.yml
+  format: yaml
+  label: Featherless AI Chat Completions API
+  slug: featherless-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

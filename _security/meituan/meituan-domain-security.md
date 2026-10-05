@@ -38,5 +38,4 @@ tags:
 - Super App
 - Logistics
 - China
-- Restaurant
 ---

@@ -73,5 +73,6 @@ tags:
 - Enterprise
 - MCP
 - Agents
+- Clinical Research
 trust_url: https://www.veeva.com/trust/
 ---

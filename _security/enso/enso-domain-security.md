@@ -116,4 +116,6 @@ tags:
 - Transaction Routing
 - Web3 Infrastructure
 - Onchain
+- Web3
+- Cryptocurrency
 ---

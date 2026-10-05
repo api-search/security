@@ -48,7 +48,6 @@ tags:
 - Puppeteer
 - Playwright
 - Selenium
-- CDP
 - Stealth
 - CAPTCHA Solving
 - Residential Proxy
@@ -60,5 +59,7 @@ tags:
 - MCP
 - Session Recording
 - Hybrid Automation
+- Chrome DevTools Protocol
+- Browser Automation
 trust_url: https://www.browserless.io/trust
 ---

@@ -474,7 +474,6 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://wger.re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wger/refs/heads/main/authentication/wger-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
-- Sports And Fitness
 - Public APIs
 - Fitness
 - Nutrition

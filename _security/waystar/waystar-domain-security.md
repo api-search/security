@@ -63,6 +63,5 @@ tags:
 - X12 EDI
 - Eligibility
 - Claims
-- Remittances
 - Health Insurance
 ---

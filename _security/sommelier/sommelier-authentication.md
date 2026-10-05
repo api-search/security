@@ -51,4 +51,6 @@ tags:
 - Vault
 - Yield
 - Analytics
+- Web3
+- Cryptocurrency
 ---

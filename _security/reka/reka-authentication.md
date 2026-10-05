@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: reka-chat-api-openapi.yml
-  format: yaml
-  label: Reka Chat API
-  slug: reka-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-chat-api-openapi.yml
 - filename: reka-clips-api-openapi.yml
   format: yaml
   label: Reka Clips API
@@ -56,6 +50,12 @@ api_specs:
   slug: reka-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videos-api-openapi.yml
+- filename: reka-chat-completions-api-openapi.yml
+  format: yaml
+  label: Reka Chat Completions API
+  slug: reka-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -91,11 +91,11 @@ tags:
 - Artificial Intelligence
 - Multi-Modal
 - LLM
-- Vision
 - Speech
 - Foundation Models
 - OpenAI-Compatible
 - SDK
 - Enterprise
 - On-Premises
+- Computer Vision
 ---

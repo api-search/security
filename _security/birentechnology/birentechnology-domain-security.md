@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/birentechnolog
 summary_line: TLSv1.3
 tags:
 - Company
-- Semiconductor
-- AI
+- Semiconductors
+- Artificial Intelligence
 - GPU
 - Cloud
 ---

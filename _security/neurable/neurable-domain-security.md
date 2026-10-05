@@ -84,5 +84,4 @@ tags:
 - cognitive-analytics
 - Health Data
 - Authentication
-- OpenID Connect
 ---

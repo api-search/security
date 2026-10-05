@@ -377,5 +377,6 @@ tags:
 - Sourcing
 - Supplier Network
 - Venues
+- Venue Sourcing
 trust_url: https://trust.cvent.com/
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Workspace
 - Booking
-- On-demand
+- On-Demand
 - Global
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainster/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - EdTech
-- AI
-- OnlineEducation
+- Artificial Intelligence
+- Online Education
 - Macedonia
 - Training
 ---

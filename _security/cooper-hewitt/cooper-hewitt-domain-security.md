@@ -31,6 +31,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cooper-hewitt/refs/heads/main/security/cooper-hewitt-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
-- Art And Design
 - Public APIs
+- Design
+- Museums
 ---

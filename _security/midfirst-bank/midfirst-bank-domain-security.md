@@ -36,7 +36,6 @@ tags:
 - United States
 - Savings Association
 - Open Finance
-- Data Aggregation
 - Personal Finance
 - Business Banking
 ---

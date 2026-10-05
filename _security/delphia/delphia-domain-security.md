@@ -42,4 +42,5 @@ tags:
 - Artificial Intelligence
 - Data
 - Quantitative Finance
+- Web3
 ---

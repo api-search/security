@@ -214,4 +214,5 @@ tags:
 - MCP
 - Open Source
 - Developer Platform
+- Foundation Models
 ---

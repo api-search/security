@@ -119,8 +119,6 @@ tags:
 - Russell Group
 - Identity
 - Identity Federation
-- API Gateway
-- Developer Portal
 - Research Data
 - Open Access
 - Research Repository

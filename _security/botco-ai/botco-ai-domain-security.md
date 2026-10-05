@@ -31,11 +31,11 @@ source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botco-ai/refs/heads/main/security/botco-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI agents
-- Chatbot
+- AI Agents
+- Chatbots
 - Healthcare
-- Pharmaceutical
+- Pharmaceuticals
 - Government
 - Compliance
-- SaaS
+- Software-as-a-Service
 ---

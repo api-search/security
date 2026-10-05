@@ -46,4 +46,5 @@ tags:
 - Mobile Banking
 - Digital Bank
 - United States
+- Consumer Banking
 ---

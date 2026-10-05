@@ -56,6 +56,5 @@ tags:
 - Digital Banking
 - Open Banking
 - Consumer-Driven Banking
-- Data Aggregation
 - Challenger Bank
 ---

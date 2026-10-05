@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Visual
 - Enterprise
 - Imaging

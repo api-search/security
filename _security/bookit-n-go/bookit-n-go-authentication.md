@@ -68,8 +68,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/re
 summary_line: http · 1 scheme
 tags:
 - Travel
-- SaaS
-- AI
-- White-label
+- Software-as-a-Service
+- Artificial Intelligence
+- White Label
 - B2B
 ---

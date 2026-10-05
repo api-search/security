@@ -33,9 +33,9 @@ tags:
 - Company
 - Fintech
 - Compliance
-- Surveillance
 - RegTech
 - Artificial Intelligence
 - Financial Services
 - Security
+- Trade Surveillance
 ---

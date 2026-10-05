@@ -22,7 +22,7 @@ slug: bioregenmed-domain-security
 source_filename: bioregenmed-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bioregenmed.com\n  https: false\ndomains:\n- domain: bioregenmed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bioregenmed.com\n  https: false\ndomains:\n- domain: bioregenmed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bioregenmed/refs/heads/main/security/bioregenmed-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:

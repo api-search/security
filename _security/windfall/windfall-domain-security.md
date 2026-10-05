@@ -68,4 +68,7 @@ tags:
 - Identity Resolution
 - Sales Intelligence
 - Marketing
+- Data
+- Net Worth
+- Sales
 ---

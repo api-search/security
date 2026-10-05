@@ -56,7 +56,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-trivia/re
 summary_line: TLSv1.3 · HSTS
 tags:
 - Trivia
-- Games And Comics
 - Quiz
 - Open Data
 - Public APIs

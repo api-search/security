@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bossanovarobot
 summary_line: TLSv1.3 · DMARC
 tags:
 - Robotics
-- AI
+- Artificial Intelligence
 - Retail Automation
-- Inventory Management
-- Startup
+- Inventory
+- Startups
 ---

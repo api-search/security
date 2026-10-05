@@ -94,7 +94,6 @@ tags:
 - MENA
 - KNET
 - mada
-- Benefits
 - Invoices
 - Cards
 - Fintech

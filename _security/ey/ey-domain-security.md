@@ -37,4 +37,24 @@ tags:
 - Tax
 - Advisory
 - Professional Services
+- Big Four
+- Assurance
+- Law
+- Strategy
+- Transaction
+- Corporate Finance
+- Technology
+- Managed Service
+- People And Workforce
+- Sustainability
+- ESG
+- Risk Management
+- Artificial Intelligence
+- AI Agents
+- Blockchain
+- Zero-Knowledge Proofs
+- Privacy
+- Insights
+- Research
+- Industry Analysis
 ---

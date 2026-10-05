@@ -83,5 +83,6 @@ tags:
 - MCP
 - Azure
 - Google Cloud
+- Reserved Instances
 trust_url: https://www.archera.ai/trust
 ---

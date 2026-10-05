@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: secton-api-chat-api-openapi.yml
-  format: yaml
-  label: Secton API Chat API
-  slug: secton-api-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/openapi/secton-api-chat-api-openapi.yml
 - filename: secton-api-models-api-openapi.yml
   format: yaml
   label: Secton API Models API
   slug: secton-api-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/openapi/secton-api-models-api-openapi.yml
+- filename: secton-api-chat-completions-api-openapi.yml
+  format: yaml
+  label: Secton API Chat Completions API
+  slug: secton-api-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/openapi/secton-api-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -43,4 +43,6 @@ tags:
 - Structured Products
 - Derivatives
 - Blockchain
+- Web3
+- Cryptocurrency
 ---

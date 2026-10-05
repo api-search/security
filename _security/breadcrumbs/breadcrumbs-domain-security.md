@@ -33,6 +33,6 @@ tags:
 - Revenue Acceleration
 - Marketing Automation
 - Sales Enablement
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

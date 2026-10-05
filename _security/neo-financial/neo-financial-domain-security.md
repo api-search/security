@@ -38,5 +38,4 @@ tags:
 - Neobank
 - Consumer Finance
 - Credit Cards
-- Data Aggregation
 ---

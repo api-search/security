@@ -129,5 +129,6 @@ tags:
 - RAG
 - Search
 - Work Assistant
+- Knowledge Management
 trust_url: https://www.glean.com/platform/security
 ---

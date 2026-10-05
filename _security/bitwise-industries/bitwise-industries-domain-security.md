@@ -34,5 +34,5 @@ tags:
 - Education
 - Real Estate
 - Fresno
-- Startup
+- Startups
 ---

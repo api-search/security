@@ -30,5 +30,6 @@ tags:
 - E-Commerce
 - Digital Marketing
 - Personalization
+- Headless CMS
 trust_url: https://trust.kentico.com/
 ---

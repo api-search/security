@@ -35,6 +35,5 @@ tags:
 - Fintech
 - Financial Services
 - United Kingdom
-- Brokers
 - Acquired
 ---

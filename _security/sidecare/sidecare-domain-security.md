@@ -40,5 +40,4 @@ tags:
 - Human Resources
 - HRIS
 - France
-- OpenID Connect
 ---

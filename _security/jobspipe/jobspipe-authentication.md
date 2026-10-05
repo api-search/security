@@ -98,8 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/
 summary_line: 2 schemes
 tags:
 - Company
-- Jobs
-- API
+- Job
 - Data
 - Hiring
 ---

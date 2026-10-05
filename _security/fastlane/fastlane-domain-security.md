@@ -39,4 +39,6 @@ tags:
 - Monad
 - Staking
 - JSON-RPC
+- Web3
+- Cryptocurrency
 ---

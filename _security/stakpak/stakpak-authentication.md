@@ -33,12 +33,6 @@ api_specs:
   slug: stakpak-billing-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-billing-v2-api-openapi.yml
-- filename: stakpak-chat-api-openapi.yml
-  format: yaml
-  label: StakPak Chat API
-  slug: stakpak-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-chat-api-openapi.yml
 - filename: stakpak-commands-api-openapi.yml
   format: yaml
   label: StakPak Commands API
@@ -123,6 +117,12 @@ api_specs:
   slug: stakpak-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-upload-api-openapi.yml
+- filename: stakpak-chat-completions-api-openapi.yml
+  format: yaml
+  label: StakPak Chat Completions API
+  slug: stakpak-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http

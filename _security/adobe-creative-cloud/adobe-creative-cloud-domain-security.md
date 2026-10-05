@@ -128,4 +128,5 @@ tags:
 - Photography
 - Software-as-a-Service
 - Video
+- Image Generation
 ---

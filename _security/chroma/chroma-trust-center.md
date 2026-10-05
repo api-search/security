@@ -82,5 +82,6 @@ tags:
 - TypeScript
 - Vector Database
 - Database
+- Vector Search
 trust_url: https://www.trychroma.com/security
 ---

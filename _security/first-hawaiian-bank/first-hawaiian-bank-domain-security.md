@@ -37,6 +37,5 @@ tags:
 - Hawaii
 - Regional Bank
 - Open Finance
-- Data Aggregation
 - Commercial Banking
 ---

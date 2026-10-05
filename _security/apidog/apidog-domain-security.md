@@ -15,13 +15,13 @@ domains:
   domain: apidog.com
   spf: true
 hosts:
-- cert_expires: Nov  3 23:59:59 2026 GMT
+- cert_expires: Apr  5 23:59:59 2027 GMT
   host: apidog.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 31 23:59:59 2026 GMT
+- cert_expires: Apr  2 23:59:59 2027 GMT
   host: api.apidog.com
   hsts: true
   hsts_max_age: 63072000
@@ -40,7 +40,7 @@ slug: apidog-domain-security
 source_filename: apidog-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apidog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.apidog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: apidog.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apidog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.apidog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: apidog.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/security/apidog-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

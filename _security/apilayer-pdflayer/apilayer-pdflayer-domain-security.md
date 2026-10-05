@@ -30,6 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apilayer-pdflayer/refs/heads/main/security/apilayer-pdflayer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Documents And Productivity
 - Public APIs
+- PDF
+- PDF Generation
 ---

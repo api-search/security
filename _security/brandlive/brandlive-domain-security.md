@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: brandlive-openapi-generated.yml
+- filename: brandlive-brandlive-api-api-openapi.yml
   format: yaml
-  label: Brandlive API
-  slug: brandlive-api
+  label: Brandlive Brandlive API
+  slug: brandlive-brandlive-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/_ae-authored/brandlive-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-brandlive-api-api-openapi.yml
+- filename: brandlive-event-api-openapi.yml
+  format: yaml
+  label: Brandlive Event API
+  slug: brandlive-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-event-api-openapi.yml
+- filename: brandlive-registration-api-openapi.yml
+  format: yaml
+  label: Brandlive Registration API
+  slug: brandlive-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-registration-api-openapi.yml
+- filename: brandlive-registration-code-check-api-openapi.yml
+  format: yaml
+  label: Brandlive Registration Code Check API
+  slug: brandlive-registration-code-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-registration-code-check-api-openapi.yml
+- filename: brandlive-template-api-openapi.yml
+  format: yaml
+  label: Brandlive Template API
+  slug: brandlive-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brandlive/refs/heads/main/openapi/brandlive-template-api-openapi.yml
 description: ''
 domains:
 - caa: []

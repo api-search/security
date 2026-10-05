@@ -74,4 +74,5 @@ tags:
 - Vector Database
 - Edge Computing
 - Database
+- Vector Search
 ---

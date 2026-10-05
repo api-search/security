@@ -96,4 +96,5 @@ tags:
 - Wealth Management
 - Banking
 - Fintech
+- Data Aggregation
 ---

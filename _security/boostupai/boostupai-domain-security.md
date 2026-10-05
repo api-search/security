@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boostupai/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Revenue
 - Sales
 - Automation

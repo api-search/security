@@ -40,4 +40,5 @@ tags:
 - Access Control
 - Artificial Intelligence
 - Biometrics
+- Acquired
 ---

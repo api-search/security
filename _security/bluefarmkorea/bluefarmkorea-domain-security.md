@@ -33,7 +33,7 @@ tags:
 - Company
 - Agriculture
 - Technology
-- Korea
+- South Korea
 - AgTech
 - Services
 ---

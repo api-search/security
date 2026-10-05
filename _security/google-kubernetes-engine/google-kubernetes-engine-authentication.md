@@ -70,5 +70,5 @@ tags:
 - Google Cloud
 - Kubernetes
 - Managed Service
-- Orchestration
+- Container Orchestration
 ---

@@ -416,7 +416,5 @@ tags:
 - Identity Federation
 - Research Repository
 - Library
-- API Gateway
-- Developer Portal
 - Developer Tools
 ---

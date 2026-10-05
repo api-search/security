@@ -85,7 +85,6 @@ summary_line: apiKey · 3 schemes
 tags:
 - Characters
 - Comics
-- Creators
 - Entertainment
 - Event
 - Media

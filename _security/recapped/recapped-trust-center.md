@@ -26,5 +26,6 @@ tags:
 - Customer Onboarding
 - CRM
 - Revenue Operations
+- Defunct
 trust_url: https://www.recapped.io/security
 ---

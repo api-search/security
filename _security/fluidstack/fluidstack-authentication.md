@@ -88,4 +88,5 @@ tags:
 - NVIDIA
 - InfiniBand
 - Data Center
+- Model Training
 ---

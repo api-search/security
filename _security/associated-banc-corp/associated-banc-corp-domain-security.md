@@ -47,6 +47,5 @@ tags:
 - United States
 - Regional Bank
 - Commercial Banking
-- Data Aggregation
 - Open Finance
 ---

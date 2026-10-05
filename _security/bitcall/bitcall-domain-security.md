@@ -30,9 +30,8 @@ source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitcall/refs/heads/main/security/bitcall-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Telecom
+- Telecommunications
 - VoIP
 - SMS
 - eSIM
-- API
 ---

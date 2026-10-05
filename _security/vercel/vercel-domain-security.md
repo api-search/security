@@ -6,12 +6,6 @@ api_specs:
   slug: vercel-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/asyncapi/vercel-webhooks-asyncapi.yml
-- filename: vercel-chat-api-openapi.yml
-  format: yaml
-  label: Vercel Chat API
-  slug: vercel-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-chat-api-openapi.yml
 - filename: vercel-chats-api-openapi.yml
   format: yaml
   label: Vercel Chats API
@@ -30,6 +24,12 @@ api_specs:
   slug: vercel-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-models-api-openapi.yml
+- filename: vercel-chat-completions-api-openapi.yml
+  format: yaml
+  label: Vercel Chat Completions API
+  slug: vercel-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/openapi/vercel-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:

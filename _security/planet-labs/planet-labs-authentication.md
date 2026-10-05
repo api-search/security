@@ -91,4 +91,5 @@ tags:
 - STAC
 - GIS
 - Satellite
+- Remote Sensing
 ---

@@ -38,6 +38,5 @@ tags:
 - Super-Regional Bank
 - Open Finance
 - FDX
-- Data Aggregation
 - Health Savings Accounts
 ---

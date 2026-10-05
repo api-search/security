@@ -12,12 +12,6 @@ api_specs:
   slug: truefoundry-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-batches-api-openapi.yml
-- filename: truefoundry-chat-api-openapi.yml
-  format: yaml
-  label: TrueFoundry Chat API
-  slug: truefoundry-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-chat-api-openapi.yml
 - filename: truefoundry-embeddings-api-openapi.yml
   format: yaml
   label: TrueFoundry Embeddings API
@@ -54,6 +48,12 @@ api_specs:
   slug: truefoundry-rerank-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-rerank-api-openapi.yml
+- filename: truefoundry-chat-completions-api-openapi.yml
+  format: yaml
+  label: TrueFoundry Chat Completions API
+  slug: truefoundry-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

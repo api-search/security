@@ -29,6 +29,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oddsmagnet/refs/heads/main/security/oddsmagnet-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Sports And Fitness
 - Public APIs
+- Sports
+- Sports Betting
+- Odds
 ---

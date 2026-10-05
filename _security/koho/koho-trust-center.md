@@ -26,7 +26,6 @@ tags:
 - Neobank
 - Payments
 - Interac
-- Data Aggregation
 - Consumer-Driven Banking
 trust_url: https://www.koho.ca/security/
 ---

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: netskope-openapi-generated.yml
+- filename: netskope-deviceclassification-api-openapi.yml
   format: yaml
-  label: Netskope API
-  slug: netskope-api
+  label: Netskope Deviceclassification API
+  slug: netskope-deviceclassification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netskope/refs/heads/main/openapi/_ae-authored/netskope-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/netskope/refs/heads/main/openapi/netskope-deviceclassification-api-openapi.yml
+- filename: netskope-scale-api-openapi.yml
+  format: yaml
+  label: Netskope Scale API
+  slug: netskope-scale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netskope/refs/heads/main/openapi/netskope-scale-api-openapi.yml
 description: ''
 domains:
 - caa:

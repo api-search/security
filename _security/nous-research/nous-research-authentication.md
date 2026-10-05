@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: nous-research-chat-api-openapi.yml
-  format: yaml
-  label: Nous Research Chat API
-  slug: nous-research-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-chat-api-openapi.yml
 - filename: nous-research-models-api-openapi.yml
   format: yaml
   label: Nous Research Models API
   slug: nous-research-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-models-api-openapi.yml
+- filename: nous-research-chat-completions-api-openapi.yml
+  format: yaml
+  label: Nous Research Chat Completions API
+  slug: nous-research-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,4 +51,5 @@ tags:
 - Agents
 - Open Weights
 - x402
+- Foundation Models
 ---

@@ -131,4 +131,5 @@ tags:
 - Agents
 - OCR
 - LLM
+- Foundation Models
 ---

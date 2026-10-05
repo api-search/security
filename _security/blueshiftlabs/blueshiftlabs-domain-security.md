@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: blueshiftlabs-openapi-generated.yml
+- filename: blueshiftlabs-blueshiftlabs-api-api-openapi.yml
   format: yaml
-  label: Blueshiftlabs API
-  slug: blueshiftlabs-api
+  label: Blueshiftlabs Blueshiftlabs API
+  slug: blueshiftlabs-blueshiftlabs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/_ae-authored/blueshiftlabs-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-blueshiftlabs-api-api-openapi.yml
+- filename: blueshiftlabs-campaigns-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Campaigns API
+  slug: blueshiftlabs-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-campaigns-api-openapi.yml
+- filename: blueshiftlabs-campaigns-json-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Campaigns.json API
+  slug: blueshiftlabs-campaigns-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-campaigns-json-api-openapi.yml
+- filename: blueshiftlabs-custom-user-lists-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Custom User Lists API
+  slug: blueshiftlabs-custom-user-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-custom-user-lists-api-openapi.yml
+- filename: blueshiftlabs-customer-group-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Customer Group API
+  slug: blueshiftlabs-customer-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-customer-group-api-openapi.yml
+- filename: blueshiftlabs-customers-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Customers API
+  slug: blueshiftlabs-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-customers-api-openapi.yml
+- filename: blueshiftlabs-emails-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Emails API
+  slug: blueshiftlabs-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-emails-api-openapi.yml
+- filename: blueshiftlabs-event-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Event API
+  slug: blueshiftlabs-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-event-api-openapi.yml
+- filename: blueshiftlabs-interests-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Interests API
+  slug: blueshiftlabs-interests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-interests-api-openapi.yml
+- filename: blueshiftlabs-list-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs List API
+  slug: blueshiftlabs-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-list-api-openapi.yml
+- filename: blueshiftlabs-live-activity-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Live Activity API
+  slug: blueshiftlabs-live-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-live-activity-api-openapi.yml
+- filename: blueshiftlabs-live-api-openapi.yml
+  format: yaml
+  label: Blueshiftlabs Live API
+  slug: blueshiftlabs-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/refs/heads/main/openapi/blueshiftlabs-live-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,8 +107,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueshiftlabs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketing
-- Customer-Engagement
-- B2C
+- Customer Engagement
+- Consumer
 ---

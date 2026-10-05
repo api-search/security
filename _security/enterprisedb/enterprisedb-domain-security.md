@@ -48,5 +48,5 @@ tags:
 - Database
 - PostgreSQL
 - Enterprise
-- OpenSource
+- Open Source
 ---

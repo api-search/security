@@ -6,6 +6,12 @@ api_specs:
   slug: hubspot-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/asyncapi/hubspot-webhooks-asyncapi.yml
+- filename: hubspot-files-api-openapi.yml
+  format: yaml
+  label: HubSpot Files API
+  slug: hubspot-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-files-api-openapi.yml
 - filename: hubspot-a-b-tests-api-openapi.yml
   format: yaml
   label: HubSpot A/B tests API
@@ -293,7 +299,7 @@ slug: hubspot-trust-center
 source_filename: hubspot-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.hubspot.com/\nurl: https://trust.hubspot.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.hubspot.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-09-23'\nmethod: searched\nprobe: true\nsource: https://trust.hubspot.com/\nurl: https://trust.hubspot.com/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.hubspot.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/security/hubspot-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:

@@ -54,5 +54,5 @@ tags:
 - WebDataExtraction
 - Playwright
 - Puppeteer
-- CDP
+- Chrome DevTools Protocol
 ---

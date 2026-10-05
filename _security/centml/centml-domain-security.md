@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: centml-chat-api-openapi.yml
-  format: yaml
-  label: CentML Chat API
-  slug: centml-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-chat-api-openapi.yml
 - filename: centml-clusters-api-openapi.yml
   format: yaml
   label: CentML Clusters API
@@ -30,6 +24,12 @@ api_specs:
   slug: centml-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-models-api-openapi.yml
+- filename: centml-chat-completions-api-openapi.yml
+  format: yaml
+  label: CentML Chat Completions API
+  slug: centml-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

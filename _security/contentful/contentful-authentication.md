@@ -45,4 +45,5 @@ tags:
 - CMS
 - Content
 - Content Management
+- Headless CMS
 ---

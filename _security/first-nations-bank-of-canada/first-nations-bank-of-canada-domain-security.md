@@ -37,6 +37,5 @@ tags:
 - Schedule I Bank
 - Indigenous
 - Consumer-Driven Banking
-- Data Aggregation
 - Interac
 ---

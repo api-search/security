@@ -29,6 +29,5 @@ tags:
 - CIECA
 - Partner Gated
 - Authentication
-- OpenID Connect
 trust_url: https://trust.cccis.com/
 ---

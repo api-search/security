@@ -104,4 +104,5 @@ tags:
 - Point-of-Sale
 - Europe
 - Netherlands
+- Payment Processing
 ---

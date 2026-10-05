@@ -106,4 +106,5 @@ tags:
 - Enterprise
 - MCP
 - Agents
+- Clinical Research
 ---

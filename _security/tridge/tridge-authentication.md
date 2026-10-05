@@ -53,6 +53,6 @@ tags:
 - Sourcing
 - Analytics
 - Price Data
-- Intelligence
 - Artificial Intelligence
+- Market Intelligence
 ---

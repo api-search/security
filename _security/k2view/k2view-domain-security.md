@@ -34,6 +34,6 @@ tags:
 - Company
 - Data Integration
 - Data Platform
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

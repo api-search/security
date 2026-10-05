@@ -41,5 +41,5 @@ tags:
 - Protein Engineering
 - Food Nutrition
 - Personal Care
-- Bio‑manufacturing
+- Biomanufacturing
 ---

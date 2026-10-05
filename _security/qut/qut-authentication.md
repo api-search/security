@@ -83,7 +83,6 @@ tags:
 - Identity Federation
 - OAI-PMH
 - SAML
-- OpenID Connect
 - Institutional Repository
 - Open Access
 ---

@@ -301,5 +301,6 @@ tags:
 - Team
 - Terminal
 - Webhook
+- Payment Processing
 trust_url: https://squareup.com/us/en/payments/secure
 ---

@@ -21,12 +21,6 @@ api_specs:
   slug: xiaomi-cdn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-cdn-api-openapi.yml
-- filename: xiaomi-chat-api-openapi.yml
-  format: yaml
-  label: Xiaomi Chat API
-  slug: xiaomi-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-chat-api-openapi.yml
 - filename: xiaomi-models-api-openapi.yml
   format: yaml
   label: Xiaomi Models API
@@ -51,6 +45,12 @@ api_specs:
   slug: xiaomi-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-user-api-openapi.yml
+- filename: xiaomi-chat-completions-api-openapi.yml
+  format: yaml
+  label: Xiaomi Chat Completions API
+  slug: xiaomi-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http

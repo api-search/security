@@ -74,6 +74,5 @@ tags:
 - IT Operations
 - Automation
 - Observability
-- DEX
 trust_url: https://www.nexthink.com/trust-center
 ---

@@ -59,7 +59,6 @@ tags:
 - A/B Testing
 - Audience Segmentation
 - Feature Flags
-- Headless CMS
 - Edge Computing
 - Content Management
 ---

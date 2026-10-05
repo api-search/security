@@ -37,7 +37,6 @@ tags:
 - A/B Testing
 - Audience Segmentation
 - Feature Flags
-- Headless CMS
 - Edge Computing
 - Content Management
 trust_url: https://www.contentful.com/security/

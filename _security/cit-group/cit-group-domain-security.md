@@ -39,4 +39,5 @@ tags:
 - Financial Services
 - Leasing
 - Fortune 1000
+- Acquired
 ---

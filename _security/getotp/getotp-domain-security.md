@@ -30,6 +30,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getotp/refs/heads/main/security/getotp-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Authentication And Authorization
 - Public APIs
+- Authentication
+- OTP
 ---

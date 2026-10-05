@@ -34,6 +34,5 @@ tags:
 - Ridesharing
 - Mobility
 - Automotive
-- News
-- Content Platform
+- Defunct
 ---

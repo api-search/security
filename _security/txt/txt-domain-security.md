@@ -6,12 +6,6 @@ api_specs:
   slug: txt-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-batches-api-openapi.yml
-- filename: txt-chat-api-openapi.yml
-  format: yaml
-  label: .txt Chat API
-  slug: txt-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-api-openapi.yml
 - filename: txt-embeddings-api-openapi.yml
   format: yaml
   label: .txt Embeddings API
@@ -36,6 +30,12 @@ api_specs:
   slug: txt-responses-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-responses-api-api-openapi.yml
+- filename: txt-chat-completions-api-openapi.yml
+  format: yaml
+  label: .txt Chat Completions API
+  slug: txt-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

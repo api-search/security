@@ -41,6 +41,5 @@ tags:
 - Market Data
 - Rankings
 - DEX
-- Exchange
 - Cryptocurrency
 ---

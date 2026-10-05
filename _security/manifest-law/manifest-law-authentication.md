@@ -63,5 +63,4 @@ tags:
 - Case Management
 - Communications
 - Authentication
-- OpenID Connect
 ---

@@ -63,9 +63,8 @@ summary_line: 2 schemes
 tags:
 - Security
 - Access Control
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
-- APIs
 - Analytics
 - Data Integration
 - Cloud

@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boutiqaat/refs
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Fashion
-- Middle-East
-- API
+- Middle East
 ---

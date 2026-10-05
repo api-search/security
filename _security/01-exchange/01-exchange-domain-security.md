@@ -37,4 +37,6 @@ tags:
 - Perpetual Futures
 - Decentralized Exchange
 - Blockchain
+- Web3
+- Cryptocurrency
 ---

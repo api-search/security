@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: pactflow-openapi-generated.yml
+- filename: pactflow-ai-api-openapi.yml
   format: yaml
-  label: PactFlow API
-  slug: pactflow-api
+  label: PactFlow AI API
+  slug: pactflow-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/_ae-authored/pactflow-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-ai-api-openapi.yml
+- filename: pactflow-drift-api-openapi.yml
+  format: yaml
+  label: PactFlow Drift API
+  slug: pactflow-drift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-drift-api-openapi.yml
+- filename: pactflow-orders-api-openapi.yml
+  format: yaml
+  label: PactFlow Orders API
+  slug: pactflow-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-orders-api-openapi.yml
+- filename: pactflow-pact-foundation-api-openapi.yml
+  format: yaml
+  label: PactFlow Pact Foundation API
+  slug: pactflow-pact-foundation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-pact-foundation-api-openapi.yml
+- filename: pactflow-pacts-api-openapi.yml
+  format: yaml
+  label: PactFlow Pacts API
+  slug: pactflow-pacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-pacts-api-openapi.yml
+- filename: pactflow-product-api-openapi.yml
+  format: yaml
+  label: PactFlow Product API
+  slug: pactflow-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-product-api-openapi.yml
+- filename: pactflow-products-api-openapi.yml
+  format: yaml
+  label: PactFlow Products API
+  slug: pactflow-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-products-api-openapi.yml
+- filename: pactflow-test-api-openapi.yml
+  format: yaml
+  label: PactFlow Test API
+  slug: pactflow-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-test-api-openapi.yml
 description: ''
 domains:
 - caa: []

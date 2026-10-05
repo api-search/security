@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bricklanecom/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - PropTech
-- RealEstate
+- Real Estate
 - Investment
-- UK
-- Rental
+- United Kingdom
+- Rentals
 ---

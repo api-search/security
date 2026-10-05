@@ -144,6 +144,36 @@ api_specs:
   slug: scalar-sdks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-sdks-api-openapi.yml
+- filename: scalar-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Scalar MCP Servers API
+  slug: scalar-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-mcp-servers-api-openapi.yml
+- filename: scalar-oauth-api-openapi.yml
+  format: yaml
+  label: Scalar OAuth API
+  slug: scalar-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-oauth-api-openapi.yml
+- filename: scalar-registry-git-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Git API
+  slug: scalar-registry-git-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-registry-git-api-openapi.yml
+- filename: scalar-user-info-hooks-api-openapi.yml
+  format: yaml
+  label: Scalar User Info Hooks API
+  slug: scalar-user-info-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-user-info-hooks-api-openapi.yml
+- filename: scalar-webhooks-api-openapi.yml
+  format: yaml
+  label: Scalar Webhooks API
+  slug: scalar-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-webhooks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -160,7 +190,7 @@ slug: scalar-trust-center
 source_filename: scalar-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://scalar.com/trust\nurl: https://scalar.com/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://scalar.com/trust\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://scalar.com/security\nurl: https://scalar.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://scalar.com/security\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/security/scalar-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
@@ -173,5 +203,5 @@ tags:
 - Registry
 - SDK
 - Swagger
-trust_url: https://scalar.com/trust
+trust_url: https://scalar.com/security
 ---

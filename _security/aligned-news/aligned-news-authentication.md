@@ -76,7 +76,6 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - News
-- Intelligence
 - MCP
 - Signals
 ---

@@ -50,5 +50,4 @@ tags:
 - Model Training
 - Model Deployment
 - MCP
-- Crypto Web3
 ---

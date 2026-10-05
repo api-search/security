@@ -51,7 +51,6 @@ tags:
 - ChatGPT Plugins
 - GPT Actions
 - Music
-- Podcasts
 - Weather
 - Translation
 - Productivity

@@ -143,5 +143,9 @@ tags:
 - Merchant Onboarding
 - Payouts
 - Marketplace
+- Embedded Finance
+- ACH
+- Card Acceptance
+- PCI DSS
 trust_url: https://trust.finix.com/
 ---

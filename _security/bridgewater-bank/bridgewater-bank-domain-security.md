@@ -49,7 +49,6 @@ tags:
 - Schedule I Bank
 - Mortgage
 - Deposits
-- Brokers
 - Alberta
 - Open Banking
 ---

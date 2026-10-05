@@ -39,4 +39,5 @@ tags:
 - Enterprise AI
 - Model Training
 - LLM
+- Foundation Models
 ---

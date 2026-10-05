@@ -55,4 +55,5 @@ tags:
 - Mobile App
 - Software-as-a-Service
 - Vertical SaaS
+- Construction Technology
 ---

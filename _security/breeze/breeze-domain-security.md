@@ -135,4 +135,6 @@ tags:
 - Payments
 - Blockchain
 - AI Agents
+- Web3
+- Cryptocurrency
 ---

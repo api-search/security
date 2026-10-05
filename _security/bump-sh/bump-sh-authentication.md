@@ -101,4 +101,6 @@ tags:
 - OpenAPI
 - Workflows
 - Developer Tools
+- Documentation
+- Developer Portal
 ---

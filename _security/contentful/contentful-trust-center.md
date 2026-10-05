@@ -35,5 +35,6 @@ tags:
 - CMS
 - Content
 - Content Management
+- Headless CMS
 trust_url: https://www.contentful.com/security/
 ---

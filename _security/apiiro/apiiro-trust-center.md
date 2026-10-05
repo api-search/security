@@ -15,7 +15,7 @@ slug: apiiro-trust-center
 source_filename: apiiro-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://trust.apiiro.com/\nurl: https://trust.apiiro.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.apiiro.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n"
+source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://trust.apiiro.com/\nurl: https://trust.apiiro.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.apiiro.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiiro/refs/heads/main/security/apiiro-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:

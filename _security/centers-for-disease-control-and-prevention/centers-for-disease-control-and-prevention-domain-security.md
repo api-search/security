@@ -127,6 +127,6 @@ tags:
 - Open Data
 - Public Health
 - Socrata
-- Surveillance
 - WONDER
+- Disease Surveillance
 ---

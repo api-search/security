@@ -61,5 +61,6 @@ tags:
 - Voice AI
 - Communications
 - Compliance
+- Debt Collection
 trust_url: https://trust.veritus.com/
 ---

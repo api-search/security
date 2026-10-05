@@ -116,5 +116,4 @@ tags:
 - Shopping
 - Retail
 - Identity
-- OpenID Connect
 ---

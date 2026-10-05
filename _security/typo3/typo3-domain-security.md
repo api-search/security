@@ -73,4 +73,5 @@ tags:
 - Headless
 - JSON:API
 - Open Source
+- Headless CMS
 ---

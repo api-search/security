@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/core/refs/heads/main/security/core-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Science And Math
 - Public APIs
 - Open Access
 - Scholarly
 - Research
+- Science
 ---

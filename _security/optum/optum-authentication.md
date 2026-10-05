@@ -1050,7 +1050,6 @@ tags:
 - Dental
 - Da Vinci
 - Patient Access
-- Remittances
 - Attachments
 - Payer Directory
 ---

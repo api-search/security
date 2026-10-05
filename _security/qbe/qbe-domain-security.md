@@ -61,7 +61,6 @@ tags:
 - Underwriting
 - Policy Administration
 - Quotes
-- Brokers
 - Reinsurance
 - Carrier
 - Partner API

@@ -181,4 +181,5 @@ tags:
 - Natural-Language
 - Entity Resolution
 - Artificial Intelligence
+- Data Extraction
 ---

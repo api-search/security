@@ -505,7 +505,6 @@ tags:
 - Incident Management
 - Observability
 - Alerting
-- Event Management
 - Anomaly Detection
 - Correlation
 - On-Call

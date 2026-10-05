@@ -43,5 +43,4 @@ tags:
 - Account Aggregation
 - Client Portal
 - Authentication
-- OpenID Connect
 ---

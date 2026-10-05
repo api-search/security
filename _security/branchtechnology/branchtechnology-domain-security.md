@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branchtechnolo
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- 3DPrinting
-- ConstructionTech
-- AdditiveManufacturing
+- 3D Printing
+- Construction Tech
+- Additive Manufacturing
 - SpaceIndustry
 ---

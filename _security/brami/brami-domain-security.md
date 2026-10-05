@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brami/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Community
-- Nonprofit
+- Non-Profit
 - Italy
 - Cultural Heritage
 - Volunteer

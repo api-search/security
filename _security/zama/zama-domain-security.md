@@ -41,4 +41,5 @@ tags:
 - Machine Learning
 - Open Source
 - SDK
+- Web3
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: 01-ai-chat-api-openapi.yml
+- filename: 01-ai-chat-completions-api-openapi.yml
   format: yaml
-  label: 01.AI Chat API
-  slug: 01-ai-chat-api
+  label: 01.AI Chat Completions API
+  slug: 01-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/openapi/01-ai-chat-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/openapi/01-ai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

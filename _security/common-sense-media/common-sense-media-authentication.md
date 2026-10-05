@@ -49,7 +49,6 @@ tags:
 - Media
 - Movies
 - Non-Profit
-- Podcasts
 - Ratings
 - Reviews
 - Television

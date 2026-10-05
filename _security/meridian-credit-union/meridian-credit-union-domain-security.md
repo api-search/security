@@ -36,5 +36,4 @@ tags:
 - Credit Union
 - Cooperative
 - Ontario
-- Data Aggregation
 ---

@@ -41,4 +41,5 @@ tags:
 - Root Cause Analysis
 - MCP
 - AI Agents
+- Incident Management
 ---

@@ -90,10 +90,10 @@ tags:
 - iPaaS
 - Workflow Automation
 - Automation
-- No‑code
-- App integration
+- No-Code
+- App Integration
 - AI workflow
-- Enterprise security
-- Workflow orchestration
+- Enterprise Security
+- Workflow Orchestration
 trust_url: https://trust.zapier.com/
 ---

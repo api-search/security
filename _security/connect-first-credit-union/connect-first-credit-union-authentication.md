@@ -57,5 +57,4 @@ tags:
 - Credit Union
 - Alberta
 - Cooperative
-- Data Aggregation
 ---

@@ -40,4 +40,6 @@ tags:
 - Stablecoins
 - JSON-RPC
 - Layer 2
+- Web3
+- Cryptocurrency
 ---

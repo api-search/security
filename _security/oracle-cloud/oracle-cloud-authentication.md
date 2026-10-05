@@ -220,7 +220,6 @@ tags:
 - Platform-as-a-Service
 - Compute
 - Object Storage
-- Identity and Access Management
 - Database
 - Kubernetes
 - Serverless

@@ -184,5 +184,10 @@ tags:
 - Collection
 - Fintech
 - Software-as-a-Service
+- ASC 606
+- B2B Payments
+- Subscription
+- Contracts
+- Finance
 trust_url: https://trust.tabs.com/
 ---

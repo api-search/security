@@ -37,5 +37,4 @@ tags:
 - Software-as-a-Service
 - Japan
 - Insurance Agency
-- Contract Management
 ---

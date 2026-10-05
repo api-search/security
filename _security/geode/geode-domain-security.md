@@ -39,4 +39,6 @@ tags:
 - Staking
 - Blockchain
 - Node Operators
+- Web3
+- Cryptocurrency
 ---

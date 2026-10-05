@@ -41,4 +41,5 @@ tags:
 - Analytics
 - Climate
 - Machine Learning
+- Remote Sensing
 ---

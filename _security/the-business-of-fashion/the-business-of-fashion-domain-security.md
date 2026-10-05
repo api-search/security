@@ -41,6 +41,6 @@ tags:
 - Fashion
 - Publishing
 - News
-- Intelligence
 - Luxury
+- Market Intelligence
 ---

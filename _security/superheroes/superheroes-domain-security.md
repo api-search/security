@@ -73,11 +73,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/security/superheroes-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Games And Comics
 - Superheroes
 - Comic Books
 - Open Source
 - Static API
 - GitHub Pages
 - Public APIs
+- Comics
 ---

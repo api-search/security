@@ -32,4 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Tracking
 - Public APIs
+- Shipping
+- Postal
+- Parcel
 ---

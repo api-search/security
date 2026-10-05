@@ -34,6 +34,6 @@ tags:
 - Biotechnology
 - Cell Therapy
 - CAR-T
-- Pharmaceutical
+- Pharmaceuticals
 - China
 ---

@@ -172,5 +172,6 @@ tags:
 - AIOps
 - Incident Management
 - Monitoring
+- Incident Response
 trust_url: https://trust.incident.io/
 ---

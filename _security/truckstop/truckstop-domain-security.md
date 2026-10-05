@@ -56,6 +56,6 @@ tags:
 - Carrier Search
 - Rate Insights
 - Transportation
-- Brokers
 - Shippers
+- Freight Brokerage
 ---

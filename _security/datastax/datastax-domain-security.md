@@ -155,4 +155,5 @@ tags:
 - Serverless
 - Streaming
 - Developer Tools
+- Vector Search
 ---

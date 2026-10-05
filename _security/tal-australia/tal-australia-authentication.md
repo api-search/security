@@ -150,7 +150,6 @@ tags:
 - Embedded Insurance
 - Partner Gated
 - No Public API
-- OpenID Connect
 - GraphQL
 - Identity
 ---

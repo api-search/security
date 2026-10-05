@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brain-tunnelge
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HealthTech
+- Health Tech
 - Neuroscience
 - Platform
 - Wellness

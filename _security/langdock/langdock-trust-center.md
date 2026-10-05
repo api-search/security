@@ -36,12 +36,6 @@ api_specs:
   slug: langdock-audit-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-audit-logs-api-openapi.yml
-- filename: langdock-chat-api-openapi.yml
-  format: yaml
-  label: Langdock Chat API
-  slug: langdock-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-chat-api-openapi.yml
 - filename: langdock-embeddings-api-openapi.yml
   format: yaml
   label: Langdock Embeddings API
@@ -90,6 +84,12 @@ api_specs:
   slug: langdock-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-user-management-api-openapi.yml
+- filename: langdock-chat-completions-api-openapi.yml
+  format: yaml
+  label: Langdock Chat Completions API
+  slug: langdock-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-chat-completions-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II

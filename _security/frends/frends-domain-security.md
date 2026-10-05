@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: frends-openapi-generated.yml
+- filename: frends-reference-api-openapi.yml
   format: yaml
-  label: Frends API
-  slug: frends-api
+  label: Frends Reference API
+  slug: frends-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frends/refs/heads/main/openapi/_ae-authored/frends-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frends/refs/heads/main/openapi/frends-reference-api-openapi.yml
 description: ''
 domains:
 - caa:

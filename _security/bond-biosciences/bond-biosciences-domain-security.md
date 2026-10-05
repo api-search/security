@@ -34,5 +34,5 @@ tags:
 - Biopharma
 - Therapeutics
 - Ion‑related diseases
-- Clinical‑stage
+- Clinical Stage
 ---

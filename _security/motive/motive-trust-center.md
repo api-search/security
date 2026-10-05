@@ -38,5 +38,7 @@ tags:
 - Dispatch
 - Compliance
 - Driver Management
+- Telematics
+- Fleet
 trust_url: https://trust.gomotive.com/
 ---

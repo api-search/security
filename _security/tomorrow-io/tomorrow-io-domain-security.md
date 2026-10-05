@@ -118,4 +118,12 @@ tags:
 - Radar
 - Geospatial
 - Alerts
+- Historical Weather
+- Fire
+- Flood
+- Routes
+- Map Tiles
+- Aviation
+- Maritime
+- Public APIs
 ---

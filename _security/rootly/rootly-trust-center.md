@@ -64,5 +64,6 @@ summary_line: SOC 2, GDPR
 tags:
 - AIOps
 - Incident Management
+- Incident Response
 trust_url: https://security.rootly.com/
 ---

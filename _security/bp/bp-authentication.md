@@ -86,4 +86,5 @@ tags:
 - Mobility
 - Retail Fuel
 - EV Charging
+- Oil and Gas
 ---

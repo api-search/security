@@ -242,7 +242,6 @@ tags:
 - Data Observability
 - Data Pipeline
 - Data Quality
-- Intelligence
 - Observability
 trust_url: https://trust.acceldata.io/
 ---

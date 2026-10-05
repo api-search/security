@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: openrouter-chat-api-openapi.yml
-  format: yaml
-  label: OpenRouter Chat API
-  slug: openrouter-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-chat-api-openapi.yml
 - filename: openrouter-completions-api-openapi.yml
   format: yaml
   label: OpenRouter Completions API
@@ -42,6 +36,12 @@ api_specs:
   slug: openrouter-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-providers-api-openapi.yml
+- filename: openrouter-chat-completions-api-openapi.yml
+  format: yaml
+  label: OpenRouter Chat Completions API
+  slug: openrouter-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

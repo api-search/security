@@ -61,6 +61,5 @@ tags:
 - Transcripts
 - Private Markets
 - Equity Research
-- OpenID Connect
 - Acquired
 ---

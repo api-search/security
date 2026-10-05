@@ -43,7 +43,6 @@ tags:
 - Alberta
 - Crown Corporation
 - Public Bank
-- Data Aggregation
 - Open Banking
 - Consumer-Driven Banking
 ---

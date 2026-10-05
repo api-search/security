@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: targon-chat-api-openapi.yml
-  format: yaml
-  label: Targon Chat API
-  slug: targon-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-chat-api-openapi.yml
 - filename: targon-completions-api-openapi.yml
   format: yaml
   label: Targon Completions API
@@ -32,6 +26,12 @@ api_specs:
   slug: targon-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-search-api-openapi.yml
+- filename: targon-chat-completions-api-openapi.yml
+  format: yaml
+  label: Targon Chat Completions API
+  slug: targon-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

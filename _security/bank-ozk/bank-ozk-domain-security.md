@@ -37,5 +37,4 @@ tags:
 - Regional Bank
 - Commercial Real Estate Lending
 - Open Finance
-- Data Aggregation
 ---

@@ -35,8 +35,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blume-global/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SupplyChain
+- Supply Chain
 - Logistics
-- SaaS
+- Software-as-a-Service
 - Visibility
 ---

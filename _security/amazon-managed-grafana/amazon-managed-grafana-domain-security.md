@@ -62,4 +62,5 @@ tags:
 - Monitoring
 - Observability
 - Visualization
+- Data Visualization
 ---

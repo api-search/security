@@ -93,5 +93,6 @@ tags:
 - Maintenance
 - Telematics
 - Software-as-a-Service
+- Fleet
 trust_url: https://trust.fleetio.com/
 ---

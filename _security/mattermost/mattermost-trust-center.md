@@ -61,6 +61,5 @@ tags:
 - Open Source
 - DevOps
 - Self-Hosted
-- Real-Time
 trust_url: https://trust.mattermost.com/
 ---

@@ -106,4 +106,8 @@ tags:
 - Observations
 - Severe Weather
 - Weather
+- Climate
+- Satellite
+- Mapping
+- REST
 ---

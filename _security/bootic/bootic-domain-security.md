@@ -145,9 +145,9 @@ source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/security/bootic-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- e-commerce
-- marketplace
+- E-Commerce
+- Marketplace
 - Chile
-- platform
-- retail
+- Platform
+- Retail
 ---

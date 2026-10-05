@@ -6,12 +6,6 @@ api_specs:
   slug: modelrush-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-audio-api-openapi.yml
-- filename: modelrush-chat-api-openapi.yml
-  format: yaml
-  label: ModelRush Chat API
-  slug: modelrush-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-chat-api-openapi.yml
 - filename: modelrush-discovery-api-openapi.yml
   format: yaml
   label: ModelRush Discovery API
@@ -48,6 +42,12 @@ api_specs:
   slug: modelrush-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-webhooks-api-openapi.yml
+- filename: modelrush-chat-completions-api-openapi.yml
+  format: yaml
+  label: ModelRush Chat Completions API
+  slug: modelrush-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/openapi/modelrush-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:

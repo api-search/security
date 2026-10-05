@@ -356,7 +356,6 @@ tags:
 - SCIM
 - Identity
 - Authentication
-- OpenID Connect
 - User Provisioning
 - Privacy Management
 - Consent Management

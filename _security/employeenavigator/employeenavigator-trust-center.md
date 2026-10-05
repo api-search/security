@@ -37,6 +37,5 @@ tags:
 - Open Enrollment
 - ACA Compliance
 - Identity
-- OpenID Connect
 trust_url: https://www.employeenavigator.com/security/
 ---

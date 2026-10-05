@@ -63,10 +63,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fortnite
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/authentication/fortnite-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Games And Comics
 - Public APIs
 - Fortnite
 - Player Statistics
 - Esports
 - Tracker Network
+- Gaming
+- Video Games
 ---

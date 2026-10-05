@@ -32,7 +32,6 @@ tags:
 - Business Communication
 - Calendar
 - Email
-- Exchange
 - Enterprise
 trust_url: https://aws.amazon.com/compliance/
 ---

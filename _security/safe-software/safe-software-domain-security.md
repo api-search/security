@@ -34,6 +34,6 @@ tags:
 - Company
 - Data Integration
 - Spatial Analytics
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

@@ -52,8 +52,8 @@ tags:
 - Event Streaming
 - Messaging
 - Pub-Sub
-- Brokers
 - CloudEvents
 - AsyncAPI
 - Topic
+- Message Broker
 ---

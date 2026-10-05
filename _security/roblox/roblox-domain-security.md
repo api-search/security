@@ -60,4 +60,6 @@ tags:
 - Studio
 - UGC
 - Universes
+- Video Games
+- Gaming
 ---

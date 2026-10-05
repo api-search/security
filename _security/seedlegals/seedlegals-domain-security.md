@@ -39,5 +39,4 @@ tags:
 - Equity
 - Compliance
 - MCP
-- OpenID Connect
 ---

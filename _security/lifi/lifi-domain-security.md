@@ -163,4 +163,6 @@ tags:
 - Yield
 - Intents
 - Agents
+- Web3
+- Cryptocurrency
 ---

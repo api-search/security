@@ -31,7 +31,7 @@ summary_line: SOC 3, SOC 2 Type II, ISO 27001
 tags:
 - Data Analysis
 - Engineering
-- Machine-Learning
+- Machine Learning
 - Numerical Analysis
 - Scientific Computing
 trust_url: https://www.mathworks.com/company/trust-center.html

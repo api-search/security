@@ -39,4 +39,5 @@ tags:
 - Clinical Trials
 - Life Sciences
 - Electronic Health Records
+- Clinical Research
 ---

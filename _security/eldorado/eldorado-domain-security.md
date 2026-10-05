@@ -48,4 +48,5 @@ tags:
 - Compliance
 - Fintech
 - Trading
+- Web3
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rsa-com-openapi-generated.yml
+- filename: rsa-com-users-api-openapi.yml
   format: yaml
-  label: RSA API
-  slug: rsa-com-api
+  label: RSA Users API
+  slug: rsa-com-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/openapi/_ae-authored/rsa-com-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/openapi/rsa-com-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

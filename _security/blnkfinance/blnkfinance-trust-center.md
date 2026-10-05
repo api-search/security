@@ -85,6 +85,5 @@ tags:
 - MCP
 - AI Agents
 - Developer Tools
-- A2A
 trust_url: ''
 ---

@@ -223,4 +223,9 @@ tags:
 - Collection
 - Fintech
 - Software-as-a-Service
+- ASC 606
+- B2B Payments
+- Subscription
+- Contracts
+- Finance
 ---

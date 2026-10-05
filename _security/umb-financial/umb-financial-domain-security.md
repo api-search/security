@@ -37,5 +37,4 @@ tags:
 - Open Finance
 - Banking as a Service
 - Institutional Banking
-- Data Aggregation
 ---

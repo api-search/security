@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: byteplus-openapi-generated.yml
+- filename: byteplus-byteplus-api-api-openapi.yml
   format: yaml
-  label: BytePlus API
-  slug: byteplus-api
+  label: BytePlus BytePlus API
+  slug: byteplus-byteplus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/openapi/_ae-authored/byteplus-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/openapi/byteplus-byteplus-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Enterprise
-- MachineLearning
+- Machine Learning
 - Platform
 ---

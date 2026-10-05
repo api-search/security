@@ -35,5 +35,5 @@ tags:
 - Employee Development
 - Training Platform
 - Leadership
-- AI
+- Artificial Intelligence
 ---

@@ -39,6 +39,5 @@ tags:
 - Fleet Management
 - Parking
 - Workplace Management
-- Ridesharing
 - Logistics
 ---

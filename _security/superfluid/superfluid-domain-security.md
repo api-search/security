@@ -57,4 +57,6 @@ tags:
 - Ethereum
 - GraphQL
 - Smart Contracts
+- Web3
+- Cryptocurrency
 ---

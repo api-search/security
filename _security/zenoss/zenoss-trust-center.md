@@ -26,7 +26,6 @@ tags:
 - Monitoring
 - Observability
 - Infrastructure
-- Event Management
 - Hybrid Cloud
 - OpenTelemetry
 - gRPC

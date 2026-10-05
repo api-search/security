@@ -151,7 +151,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/head
 summary_line: http · 1 scheme
 tags:
 - Ridesharing
-- Rides
 - Taxis
 - Transportation
 - Food Delivery

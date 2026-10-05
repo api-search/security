@@ -59,5 +59,4 @@ tags:
 - Credit Union
 - Florida
 - Open Finance
-- Data Aggregation
 ---

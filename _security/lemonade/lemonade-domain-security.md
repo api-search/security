@@ -35,4 +35,5 @@ tags:
 - Renters Insurance
 - Homeowners Insurance
 - Embedded Insurance
+- Property and Casualty
 ---

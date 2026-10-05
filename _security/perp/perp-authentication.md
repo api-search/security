@@ -78,4 +78,6 @@ tags:
 - GraphQL
 - Blockchain
 - SDK
+- Web3
+- Cryptocurrency
 ---

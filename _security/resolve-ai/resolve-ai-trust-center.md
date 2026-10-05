@@ -30,5 +30,6 @@ tags:
 - On-Call
 - AI Agents
 - MCP
+- Incident Management
 trust_url: https://resolve.ai/security
 ---

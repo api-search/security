@@ -40,4 +40,9 @@ tags:
 - CAD
 - Design Automation
 - SDK
+- Engineering
+- Generative Design
+- Simulation
+- Manufacturing Software
+- Aerospace
 ---

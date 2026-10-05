@@ -462,5 +462,6 @@ tags:
 - Stripe
 - Agentic Commerce
 - Point-of-Sale
+- Payment Processing
 trust_url: https://docs.stripe.com/security
 ---

@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locio/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Address
 - Geocoding
 - MCP

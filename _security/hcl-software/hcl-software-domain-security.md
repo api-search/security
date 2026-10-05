@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: hcl-software-openapi-generated.yml
+- filename: hcl-software-stwebapi-api-openapi.yml
   format: yaml
-  label: HCLSoftware API
-  slug: hcl-software-api
+  label: HCLSoftware Stwebapi API
+  slug: hcl-software-stwebapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcl-software/refs/heads/main/openapi/_ae-authored/hcl-software-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hcl-software/refs/heads/main/openapi/hcl-software-stwebapi-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +41,6 @@ tags:
 - Company
 - Software
 - Enterprise
-- AI
+- Artificial Intelligence
 - Cloud
 ---

@@ -29,5 +29,6 @@ tags:
 - DevOps
 - Monitoring
 - MCP
+- Incident Management
 trust_url: https://security.drdroid.io/
 ---

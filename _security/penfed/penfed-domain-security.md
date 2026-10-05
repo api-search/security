@@ -40,5 +40,4 @@ tags:
 - Credit Union
 - United States
 - Open Finance
-- Data Aggregation
 ---

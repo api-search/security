@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locio/refs/hea
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Address
 - Geocoding
 - MCP

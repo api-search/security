@@ -14,12 +14,6 @@ api_specs:
   slug: groq-batch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-batch-api-openapi.yml
-- filename: groq-chat-api-openapi.yml
-  format: yaml
-  label: Groq Chat API
-  slug: groq-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-chat-api-openapi.yml
 - filename: groq-embeddings-api-openapi.yml
   format: yaml
   label: Groq Embeddings API
@@ -56,6 +50,12 @@ api_specs:
   slug: groq-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-responses-api-openapi.yml
+- filename: groq-chat-completions-api-openapi.yml
+  format: yaml
+  label: Groq Chat Completions API
+  slug: groq-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''

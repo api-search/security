@@ -62,7 +62,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rijksmus
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/authentication/rijksmuseum-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Art And Design
 - Museums
 - Cultural Heritage
 - Open Data
@@ -71,4 +70,5 @@ tags:
 - IIIF
 - Dutch Heritage
 - Public APIs
+- Art
 ---

@@ -62,7 +62,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Embeddings
-- Vector Database
 - Data Exploration
 - LLM
 - Open Source

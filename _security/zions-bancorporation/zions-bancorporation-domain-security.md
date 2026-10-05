@@ -37,5 +37,4 @@ tags:
 - Super-Regional Bank
 - Treasury Management
 - Open Finance
-- Data Aggregation
 ---

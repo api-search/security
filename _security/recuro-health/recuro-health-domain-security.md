@@ -46,5 +46,4 @@ tags:
 - Employee Benefits
 - Health Plans
 - Identity
-- OpenID Connect
 ---

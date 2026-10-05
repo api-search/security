@@ -117,11 +117,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mojang-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mojang/refs/heads/main/authentication/mojang-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Games And Comics
 - Minecraft
 - Gaming
 - Identity
 - Player Profiles
 - Sessions
 - Public APIs
+- Video Games
 ---

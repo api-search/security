@@ -37,4 +37,5 @@ tags:
 - Cloud-Native
 - Open Source
 - DevOps
+- Defunct
 ---

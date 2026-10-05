@@ -387,5 +387,6 @@ tags:
 - Monitoring
 - Observability
 - Visualization
+- Data Visualization
 trust_url: https://www.elastic.co/trust
 ---

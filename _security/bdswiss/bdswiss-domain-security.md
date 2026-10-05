@@ -42,4 +42,5 @@ tags:
 - Forex
 - CFDs
 - Cryptocurrency
+- Financial Services
 ---

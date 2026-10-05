@@ -143,5 +143,6 @@ tags:
 - Claims
 - Underwriting
 - MCP
+- Invoicing
 trust_url: https://trust.socotra.com/
 ---

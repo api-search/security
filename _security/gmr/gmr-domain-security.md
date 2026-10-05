@@ -35,4 +35,5 @@ tags:
 - Mining
 - Research
 - Blockchain
+- Web3
 ---

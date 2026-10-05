@@ -64,4 +64,5 @@ tags:
 - Machine Learning
 - Reporting
 - Visualization
+- Data Visualization
 ---

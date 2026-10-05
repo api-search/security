@@ -64,4 +64,5 @@ tags:
 - OpenAI-Compatible
 - Content Generation
 - Developer Tools
+- Foundation Models
 ---

@@ -43,4 +43,6 @@ tags:
 - Financial Services
 - Yield
 - Stablecoin Issuance
+- Web3
+- Cryptocurrency
 ---

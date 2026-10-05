@@ -40,4 +40,5 @@ tags:
 - Bioengineering
 - Climate Tech
 - Chemicals
+- Defunct
 ---

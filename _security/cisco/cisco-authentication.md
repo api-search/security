@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: cisco-openapi-generated.yml
+- filename: cisco-messages-api-openapi.yml
   format: yaml
-  label: Cisco API
-  slug: cisco-api
+  label: Cisco Messages API
+  slug: cisco-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/openapi/_ae-authored/cisco-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/openapi/cisco-messages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

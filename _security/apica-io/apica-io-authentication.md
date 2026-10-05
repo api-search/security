@@ -33,6 +33,6 @@ tags:
 - Company
 - Observability
 - Telemetry
-- AI
+- Artificial Intelligence
 - Cloud
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Health
 - Addiction
-- MobileApp
+- Mobile App
 - Wellness
 ---

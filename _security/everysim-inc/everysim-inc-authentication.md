@@ -51,7 +51,6 @@ summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Authentication
-- OpenID Connect
 - SSO
 - Identity
 ---

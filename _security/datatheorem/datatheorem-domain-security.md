@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: datatheorem-openapi-generated.yml
+- filename: datatheorem-llm-query-api-openapi.yml
   format: yaml
-  label: Data Theorem API
-  slug: datatheorem-api
+  label: Data Theorem Llm Query API
+  slug: datatheorem-llm-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datatheorem/refs/heads/main/openapi/_ae-authored/datatheorem-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datatheorem/refs/heads/main/openapi/datatheorem-llm-query-api-openapi.yml
 description: ''
 domains:
 - caa: []

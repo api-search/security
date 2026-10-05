@@ -192,7 +192,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coingeck
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/authentication/coingecko-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
-- Exchange
 - CoinGecko
 - Aggregator
 - Blockchain

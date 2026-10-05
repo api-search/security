@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bitpagos-openapi-generated.yml
+- filename: bitpagos-bitpagos-api-api-openapi.yml
   format: yaml
-  label: Bitpagos API
-  slug: bitpagos-api
+  label: Bitpagos Bitpagos API
+  slug: bitpagos-bitpagos-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/_ae-authored/bitpagos-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-bitpagos-api-api-openapi.yml
+- filename: bitpagos-customers-api-openapi.yml
+  format: yaml
+  label: Bitpagos Customers API
+  slug: bitpagos-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-customers-api-openapi.yml
+- filename: bitpagos-offramp-api-openapi.yml
+  format: yaml
+  label: Bitpagos Offramp API
+  slug: bitpagos-offramp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-offramp-api-openapi.yml
+- filename: bitpagos-quotes-api-openapi.yml
+  format: yaml
+  label: Bitpagos Quotes API
+  slug: bitpagos-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-quotes-api-openapi.yml
+- filename: bitpagos-rates-api-openapi.yml
+  format: yaml
+  label: Bitpagos Rates API
+  slug: bitpagos-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-rates-api-openapi.yml
+- filename: bitpagos-resources-api-openapi.yml
+  format: yaml
+  label: Bitpagos Resources API
+  slug: bitpagos-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-resources-api-openapi.yml
+- filename: bitpagos-trade-api-openapi.yml
+  format: yaml
+  label: Bitpagos Trade API
+  slug: bitpagos-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitpagos/refs/heads/main/openapi/bitpagos-trade-api-openapi.yml
 auth_types: []
 description: Authentication methods for Bitpagos (Ripio) services
 kind: authentication
@@ -56,5 +92,5 @@ tags:
 - Fintech
 - Latin America
 - Bitcoin
-- CreditCards
+- Credit Cards
 ---

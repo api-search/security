@@ -39,4 +39,5 @@ tags:
 - United States
 - Super-Regional Bank
 - Fortune 500
+- Consumer Banking
 ---

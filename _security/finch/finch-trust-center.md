@@ -45,5 +45,6 @@ tags:
 - Unified API
 - Workforce
 - Integration
+- Employee Benefits
 trust_url: https://www.tryfinch.com/company/security
 ---

@@ -35,5 +35,5 @@ tags:
 - Real Estate
 - Appraisal
 - Software
-- AI
+- Artificial Intelligence
 ---

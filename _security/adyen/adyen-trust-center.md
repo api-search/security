@@ -854,5 +854,6 @@ tags:
 - Fintech
 - Agentic Commerce
 - Point-of-Sale
+- Payment Processing
 trust_url: https://trust.adyen.com/
 ---

@@ -47,5 +47,5 @@ tags:
 - Research
 - Investment
 - Software
-- AI
+- Artificial Intelligence
 ---

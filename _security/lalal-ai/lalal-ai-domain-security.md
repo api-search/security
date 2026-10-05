@@ -71,5 +71,5 @@ tags:
 - Voice Changer
 - Music
 - Machine Learning
-- DSP
+- Digital Signal Processing
 ---

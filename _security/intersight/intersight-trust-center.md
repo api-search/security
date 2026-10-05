@@ -732,5 +732,6 @@ tags:
 - Orchestration
 - Telemetry
 - Firmware Management
+- Virtual Machines
 trust_url: https://www.cisco.com/c/en/us/about/trust-center.html
 ---

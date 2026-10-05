@@ -42,12 +42,6 @@ api_specs:
   slug: dedaluslabs-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-audio-api-openapi.yml
-- filename: dedaluslabs-chat-api-openapi.yml
-  format: yaml
-  label: Dedalus Labs Chat API
-  slug: dedaluslabs-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-chat-api-openapi.yml
 - filename: dedaluslabs-embeddings-api-openapi.yml
   format: yaml
   label: Dedalus Labs Embeddings API
@@ -78,6 +72,12 @@ api_specs:
   slug: dedaluslabs-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-responses-api-openapi.yml
+- filename: dedaluslabs-chat-completions-api-openapi.yml
+  format: yaml
+  label: Dedalus Labs Chat Completions API
+  slug: dedaluslabs-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -72,4 +72,5 @@ tags:
 - Data Integration
 - Software-as-a-Service
 - Visualization
+- Data Visualization
 ---

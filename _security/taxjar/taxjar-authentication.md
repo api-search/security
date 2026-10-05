@@ -92,4 +92,5 @@ tags:
 - Tax Automation
 - Stripe
 - Fintech
+- Tax
 ---

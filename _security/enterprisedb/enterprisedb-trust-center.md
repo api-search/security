@@ -31,6 +31,6 @@ tags:
 - Database
 - PostgreSQL
 - Enterprise
-- OpenSource
+- Open Source
 trust_url: https://trust.enterprisedb.com/
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boring-company
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- tunneling
-- infrastructure
-- transportation
+- Tunneling
+- Infrastructure
+- Transportation
 - ElonMusk
 ---

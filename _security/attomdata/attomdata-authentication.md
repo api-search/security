@@ -149,7 +149,6 @@ tags:
 - Property Data
 - Property Intelligence
 - Mortgage
-- Assessment
 - AVM
 - Foreclosure
 - Transaction

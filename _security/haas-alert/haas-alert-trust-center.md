@@ -33,5 +33,6 @@ tags:
 - V2X
 - Automotive
 - Public Safety
+- Telematics
 trust_url: https://haasalert.com/trust-center
 ---

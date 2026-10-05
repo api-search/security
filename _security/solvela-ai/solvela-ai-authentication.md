@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: solvela-ai-chat-api-openapi.yml
-  format: yaml
-  label: Solvela Chat API
-  slug: solvela-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-chat-api-openapi.yml
 - filename: solvela-ai-health-api-openapi.yml
   format: yaml
   label: Solvela Health API
@@ -27,6 +21,12 @@ api_specs:
   slug: solvela-ai-receipts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-receipts-api-openapi.yml
+- filename: solvela-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Solvela Chat Completions API
+  slug: solvela-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solvela-ai/refs/heads/main/openapi/solvela-ai-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -44,5 +44,4 @@ tags:
 - France
 - Meal Delivery
 - Authentication
-- OpenID Connect
 ---

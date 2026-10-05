@@ -49,6 +49,5 @@ tags:
 - Business Communication
 - Calendar
 - Email
-- Exchange
 - Enterprise
 ---

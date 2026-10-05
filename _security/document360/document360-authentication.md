@@ -71,4 +71,5 @@ tags:
 - Documentation
 - Knowledge Base
 - Software-as-a-Service
+- Knowledge Management
 ---

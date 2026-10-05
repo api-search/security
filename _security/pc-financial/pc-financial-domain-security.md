@@ -40,5 +40,4 @@ tags:
 - Credit Cards
 - Loyalty
 - Interac
-- Data Aggregation
 ---

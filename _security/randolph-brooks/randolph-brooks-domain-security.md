@@ -40,5 +40,4 @@ tags:
 - Credit Union
 - Retail Banking
 - Open Finance
-- Data Aggregation
 ---

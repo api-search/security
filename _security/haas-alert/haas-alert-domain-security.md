@@ -39,4 +39,5 @@ tags:
 - V2X
 - Automotive
 - Public Safety
+- Telematics
 ---

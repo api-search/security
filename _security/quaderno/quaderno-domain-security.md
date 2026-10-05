@@ -148,4 +148,5 @@ tags:
 - Invoicing
 - Billing
 - Fintech
+- Tax
 ---

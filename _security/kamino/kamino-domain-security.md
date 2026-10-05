@@ -184,4 +184,6 @@ tags:
 - Blockchain
 - Oracle
 - Vault
+- Web3
+- Cryptocurrency
 ---

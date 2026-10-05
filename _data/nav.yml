@@ -132,6 +132,16 @@ header:
     label: Kin Score
     url: https://apis.io/rating/
 
+  # The consumer side of the Kin Score: how an agent signing up for an API carries a record of who
+  # it is (2026-10-03). Flat, beside Kin Score, because the two are mirror images — one rates the
+  # provider, the other describes the caller. A page, not a section: EXCLUDED in
+  # build_well_known_catalog.py ('/kya/').
+  # Short label on purpose: "Know Your Agent" wrapped to three lines in the masthead at 1300px.
+  # The footer and the page title carry the full name.
+  - key: kya
+    label: KYA
+    url: https://apis.io/kya/
+
   - key: stack
     label: Stack
     url: https://apis.io/stack/
@@ -178,6 +188,7 @@ footer:
         - { label: Regulations, url: 'https://apis.io/regulations/' }
         - { label: Venture Capital, url: 'https://apis.io/vcs/' }
         - { label: Secondary Market, url: 'https://apis.io/secondary-market/' }
+        - { label: Gartner Magic Quadrants, url: 'https://apis.io/gartner/' }
         - { label: API Estates, url: 'https://apis.io/estates/' }
         - { label: Business Capabilities, url: 'https://apis.io/capabilities/' }
 

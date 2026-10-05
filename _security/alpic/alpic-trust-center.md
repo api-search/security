@@ -74,5 +74,6 @@ tags:
 - Deployment
 - ChatGPT Apps
 - AI Agents
+- Platform-as-a-Service
 trust_url: https://trust.alpic.ai/
 ---

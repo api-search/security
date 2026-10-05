@@ -47,4 +47,6 @@ tags:
 - Tokenization
 - Rewards
 - Defunct
+- Web3
+- Cryptocurrency
 ---

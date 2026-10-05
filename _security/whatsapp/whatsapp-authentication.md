@@ -136,7 +136,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/
 summary_line: http · 1 scheme
 tags:
 - Messaging
-- Forms
-- Self-Hosted
 - Analytics
+- WhatsApp
+- Business Messaging
+- Meta
 ---

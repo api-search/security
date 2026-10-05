@@ -31,6 +31,5 @@ tags:
 - Fintech
 - Financial Services
 - Latin America
-- Developer Portal
 - Status Pages
 ---

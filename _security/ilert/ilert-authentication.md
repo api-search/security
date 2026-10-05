@@ -238,7 +238,6 @@ tags:
 - On-Call Schedules
 - Status Pages
 - Heartbeat Monitoring
-- Event Management
 - DevOps
 - SRE
 - IT Operations

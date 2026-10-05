@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridgb235/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Technology
 - Data
 - Integration

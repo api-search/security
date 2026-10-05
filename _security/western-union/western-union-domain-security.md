@@ -82,4 +82,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-union/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500
+- Financial Services
+- Payments
+- Money Transfer
+- Remittances
+- Cross-Border Payments
+- Foreign Exchange
+- Open Banking
+- United States
 ---

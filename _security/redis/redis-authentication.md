@@ -179,6 +179,6 @@ tags:
 - In-Memory
 - Key-Value Store
 - NoSQL
-- Open-Source
+- Open Source
 - Streaming
 ---

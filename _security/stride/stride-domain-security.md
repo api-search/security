@@ -40,4 +40,6 @@ tags:
 - DeFi
 - IBC
 - SDK
+- Web3
+- Cryptocurrency
 ---

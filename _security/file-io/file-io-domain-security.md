@@ -29,6 +29,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/file-io/refs/heads/main/security/file-io-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Cloud Storage And File Sharing
 - Public APIs
+- File Sharing
 ---

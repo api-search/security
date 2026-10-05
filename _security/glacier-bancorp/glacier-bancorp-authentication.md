@@ -80,7 +80,6 @@ tags:
 - Banking
 - Financial Services
 - Digital Banking
-- OpenID Connect
 - Authentication
 - Treasury Management
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breachlock/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security
-- Penetration-Testing
-- Attack-Surface-Management
-- Red-Team
-- SaaS
+- Penetration Testing
+- Attack Surface Management
+- Red Team
+- Software-as-a-Service
 ---

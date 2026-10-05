@@ -38,5 +38,4 @@ tags:
 - Super-Regional Bank
 - Mortgage
 - Open Finance
-- Data Aggregation
 ---

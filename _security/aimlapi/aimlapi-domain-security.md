@@ -12,12 +12,6 @@ api_specs:
   slug: aimlapi-assistants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-assistants-api-openapi.yml
-- filename: aimlapi-chat-api-openapi.yml
-  format: yaml
-  label: AIMLAPI Chat API
-  slug: aimlapi-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-chat-api-openapi.yml
 - filename: aimlapi-images-api-openapi.yml
   format: yaml
   label: AIMLAPI Images API
@@ -114,6 +108,12 @@ api_specs:
   slug: aimlapi-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-video-api-openapi.yml
+- filename: aimlapi-chat-completions-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Chat Completions API
+  slug: aimlapi-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

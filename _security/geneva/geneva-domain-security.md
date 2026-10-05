@@ -35,5 +35,4 @@ tags:
 - Group Chat
 - Messaging
 - Consumer App
-- Crypto Web3
 ---

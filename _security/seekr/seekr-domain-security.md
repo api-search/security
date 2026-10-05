@@ -253,7 +253,6 @@ tags:
 - Fine-Tuning
 - Inference
 - RAG
-- Vector Database
 - Explainability
 - AI Governance
 - Model Evaluation

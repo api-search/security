@@ -744,4 +744,5 @@ tags:
 - Orchestration
 - Telemetry
 - Firmware Management
+- Virtual Machines
 ---

@@ -46,4 +46,6 @@ tags:
 - GraphQL
 - Rosetta API
 - Developer Tools
+- Web3
+- Cryptocurrency
 ---

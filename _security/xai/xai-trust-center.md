@@ -128,5 +128,7 @@ tags:
 - Grok
 - Generative AI
 - Real-Time
+- Image Generation
+- Video Generation
 trust_url: https://x.ai/security
 ---

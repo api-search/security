@@ -35,7 +35,6 @@ tags:
 - Video
 - Social Media
 - Analytics
-- Intelligence
 - Creators
 - Influencer
 - Media

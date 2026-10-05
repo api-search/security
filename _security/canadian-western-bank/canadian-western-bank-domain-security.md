@@ -39,5 +39,4 @@ tags:
 - Alberta
 - Open Finance
 - Consumer-Driven Banking
-- Data Aggregation
 ---

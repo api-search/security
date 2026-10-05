@@ -38,4 +38,5 @@ tags:
 - LLM
 - Frontier Lab
 - No Public API
+- Foundation Models
 ---

@@ -1,47 +1,23 @@
 ---
 api_specs:
-- filename: sensedia-openapi-generated.yml
+- filename: sensedia-accounts-api-openapi.yml
   format: yaml
-  label: Sensedia API
-  slug: sensedia-api
+  label: Sensedia Accounts API
+  slug: sensedia-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_ae-authored/sensedia-openapi-generated.yml
-- filename: sensedia-old-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/sensedia-accounts-api-openapi.yml
+- filename: sensedia-health-api-openapi.yml
   format: yaml
-  label: Sensedia Old API
-  slug: sensedia-old-api
+  label: Sensedia Health API
+  slug: sensedia-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_original/sensedia-old-openapi.yml
-- filename: sensedia-current-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/sensedia-health-api-openapi.yml
+- filename: sensedia-sensedia-api-api-openapi.yml
   format: yaml
-  label: Sensedia Current API
-  slug: sensedia-current-api
+  label: Sensedia Sensedia API
+  slug: sensedia-sensedia-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_original/sensedia-current-openapi.yml
-- filename: sensedia-teste-openapi.yml
-  format: yaml
-  label: Sensedia Teste API
-  slug: sensedia-teste-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_original/sensedia-teste-openapi.yml
-- filename: sensedia-old-openapi.yml
-  format: yaml
-  label: Sensedia Old API
-  slug: sensedia-old-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_original/sensedia-old-openapi.yml
-- filename: sensedia-current-openapi.yml
-  format: yaml
-  label: Sensedia Current API
-  slug: sensedia-current-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_original/sensedia-current-openapi.yml
-- filename: sensedia-teste-openapi.yml
-  format: yaml
-  label: Sensedia Teste API
-  slug: sensedia-teste-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/_original/sensedia-teste-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sensedia/refs/heads/main/openapi/sensedia-sensedia-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,5 +60,5 @@ tags:
 - API Management
 - Integration
 - Enterprise
-- AI
+- Artificial Intelligence
 ---

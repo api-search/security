@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braavocapital/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Funding
-- Mobile Apps
+- Mobile App
 - Gaming
 ---

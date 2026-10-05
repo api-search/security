@@ -99,7 +99,6 @@ tags:
 - Asset Management
 - Underwriting
 - Carrier
-- Brokers
 - Partner Gated
 - No Public API
 - Design Systems

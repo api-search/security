@@ -36,5 +36,4 @@ tags:
 - United States
 - Open Finance
 - Consumer Finance
-- Data Aggregation
 ---

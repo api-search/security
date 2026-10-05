@@ -29,5 +29,6 @@ tags:
 - FDX
 - Account Aggregation
 - United States
+- Data Aggregation
 trust_url: https://akoya.com/security
 ---

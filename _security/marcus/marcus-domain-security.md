@@ -51,5 +51,4 @@ tags:
 - Digital Banking
 - Savings
 - Open Finance
-- Data Aggregation
 ---

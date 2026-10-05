@@ -37,5 +37,4 @@ tags:
 - Wealth Management
 - Securities-Based Lending
 - Open Finance
-- Data Aggregation
 ---

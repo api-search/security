@@ -671,4 +671,5 @@ tags:
 - Stripe
 - Agentic Commerce
 - Point-of-Sale
+- Payment Processing
 ---

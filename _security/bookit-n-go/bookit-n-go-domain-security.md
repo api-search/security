@@ -69,8 +69,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel
-- SaaS
-- AI
-- White-label
+- Software-as-a-Service
+- Artificial Intelligence
+- White Label
 - B2B
 ---

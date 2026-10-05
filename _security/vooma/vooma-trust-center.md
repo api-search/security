@@ -84,8 +84,8 @@ tags:
 - Freight
 - Logistics
 - Transportation
-- Brokers
 - TMS
 - Agents
+- Freight Brokerage
 trust_url: https://trust.vooma.com/
 ---

@@ -63,10 +63,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/noun-pro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/authentication/noun-project-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Art And Design
 - Icons
 - SVG
 - Visual Language
 - Design Assets
 - Public APIs
+- Design
 ---

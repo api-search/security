@@ -53,6 +53,7 @@ summary_line: none · 0 schemes
 tags:
 - wealth inequality
 - economic inequality
+- Finance
 - Economics
 - Education
 - Journalism

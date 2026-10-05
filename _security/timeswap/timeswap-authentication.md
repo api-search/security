@@ -62,4 +62,6 @@ tags:
 - Liquidity Pools
 - Fixed Income
 - Blockchain
+- Web3
+- Cryptocurrency
 ---

@@ -442,4 +442,6 @@ tags:
 - Decentralized Exchange
 - Cosmos
 - Web3 Infrastructure
+- Web3
+- Cryptocurrency
 ---

@@ -36,7 +36,7 @@ tags:
 - Fan Engagement
 - Sports
 - Entertainment
-- Live Video
 - Celebrity
 - Marketing
+- Video Calling
 ---

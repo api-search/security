@@ -18,7 +18,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braincorporation/refs/heads/main/security/braincorporation-trust-center.yml
 summary_line: SOC 2
 tags:
-- AI
+- Artificial Intelligence
 - Robotics
 - Autonomous
 - Enterprise

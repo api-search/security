@@ -2,12 +2,72 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: datarobot-openapi-generated.yml
+- filename: datarobot-datarobot-api-api-openapi.yml
   format: yaml
-  label: DataRobot API
-  slug: datarobot-api
+  label: DataRobot DataRobot API
+  slug: datarobot-datarobot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/_ae-authored/datarobot-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-datarobot-api-api-openapi.yml
+- filename: datarobot-datarobot-oss-api-openapi.yml
+  format: yaml
+  label: DataRobot Datarobot Oss API
+  slug: datarobot-datarobot-oss-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-datarobot-oss-api-openapi.yml
+- filename: datarobot-homebrew-api-openapi.yml
+  format: yaml
+  label: DataRobot Homebrew API
+  slug: datarobot-homebrew-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-homebrew-api-openapi.yml
+- filename: datarobot-info-api-openapi.yml
+  format: yaml
+  label: DataRobot Info API
+  slug: datarobot-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-info-api-openapi.yml
+- filename: datarobot-install-api-openapi.yml
+  format: yaml
+  label: DataRobot Install API
+  slug: datarobot-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-install-api-openapi.yml
+- filename: datarobot-mcp-api-openapi.yml
+  format: yaml
+  label: DataRobot MCP API
+  slug: datarobot-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-mcp-api-openapi.yml
+- filename: datarobot-memory-api-openapi.yml
+  format: yaml
+  label: DataRobot Memory API
+  slug: datarobot-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-memory-api-openapi.yml
+- filename: datarobot-oauth2-api-openapi.yml
+  format: yaml
+  label: DataRobot Oauth2 API
+  slug: datarobot-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-oauth2-api-openapi.yml
+- filename: datarobot-projects-api-openapi.yml
+  format: yaml
+  label: DataRobot Projects API
+  slug: datarobot-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-projects-api-openapi.yml
+- filename: datarobot-registereddeployments-api-openapi.yml
+  format: yaml
+  label: DataRobot Registereddeployments API
+  slug: datarobot-registereddeployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-registereddeployments-api-openapi.yml
+- filename: datarobot-uv-api-openapi.yml
+  format: yaml
+  label: DataRobot Uv API
+  slug: datarobot-uv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/datarobot-uv-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -76,10 +136,10 @@ summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Science
-- Agentic AI
+- AI Agents
 - Predictive Analytics
 - Generative AI
 ---

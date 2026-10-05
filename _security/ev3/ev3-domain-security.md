@@ -37,4 +37,5 @@ tags:
 - DePIN
 - Investment
 - Web3
+- Cryptocurrency
 ---

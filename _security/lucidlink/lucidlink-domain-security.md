@@ -76,5 +76,4 @@ tags:
 - MCP
 - AI Agents
 - Zero-Knowledge Encryption
-- Identity and Access Management
 ---

@@ -110,7 +110,6 @@ tags:
 - Schema
 - Metadata
 - Structured Data
-- Headless CMS
 - Content Analysis
 - Agent Readiness
 - Plugins

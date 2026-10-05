@@ -40,4 +40,5 @@ tags:
 - Manufacturing
 - United States
 - Israel
+- Defunct
 ---

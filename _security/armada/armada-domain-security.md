@@ -238,6 +238,6 @@ tags:
 - Kubernetes
 - Bare Metal
 - IoT
-- Orchestration
 - Sovereign Cloud
+- Container Orchestration
 ---

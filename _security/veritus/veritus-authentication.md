@@ -73,4 +73,5 @@ tags:
 - Voice AI
 - Communications
 - Compliance
+- Debt Collection
 ---

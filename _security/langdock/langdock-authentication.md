@@ -39,12 +39,6 @@ api_specs:
   slug: langdock-audit-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-audit-logs-api-openapi.yml
-- filename: langdock-chat-api-openapi.yml
-  format: yaml
-  label: Langdock Chat API
-  slug: langdock-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-chat-api-openapi.yml
 - filename: langdock-embeddings-api-openapi.yml
   format: yaml
   label: Langdock Embeddings API
@@ -93,6 +87,12 @@ api_specs:
   slug: langdock-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-user-management-api-openapi.yml
+- filename: langdock-chat-completions-api-openapi.yml
+  format: yaml
+  label: Langdock Chat Completions API
+  slug: langdock-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/openapi/langdock-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: Langdock authenticates every public API call with a workspace API key presented as an HTTP bearer token. There is no OAuth 2.0 or OpenID Connect surface on the public API — no /.well-known/openid-configuration or /.well-known/oauth-authorization-server is served (both 404). Keys are workspace-scoped, carry named product scopes, and are additionally bound to the specific agents and knowledge folders shared with them.

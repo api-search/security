@@ -41,4 +41,5 @@ tags:
 - Tokens
 - Emerging Markets
 - India
+- Web3
 ---

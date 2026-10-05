@@ -60,6 +60,5 @@ tags:
 - Body Scan
 - Diagnostics
 - Consumer Health
-- OpenID Connect
 - Sweden
 ---

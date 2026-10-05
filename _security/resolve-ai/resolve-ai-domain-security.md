@@ -41,4 +41,5 @@ tags:
 - On-Call
 - AI Agents
 - MCP
+- Incident Management
 ---

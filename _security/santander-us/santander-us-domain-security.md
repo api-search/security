@@ -37,5 +37,4 @@ tags:
 - Super-Regional Bank
 - Retail Banking
 - Open Finance
-- Data Aggregation
 ---

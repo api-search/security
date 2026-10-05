@@ -35,7 +35,6 @@ tags:
 - Pharmaceuticals
 - Market Access
 - Pricing
-- Contract Management
 - Payers
 - Enterprise Saas
 ---

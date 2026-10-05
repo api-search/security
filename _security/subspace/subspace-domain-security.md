@@ -61,4 +61,5 @@ tags:
 - Gaming
 - Latency
 - Infrastructure
+- Defunct
 ---

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-openai-chat-api-openapi.yml
-  format: yaml
-  label: Azure OpenAI Service Chat API
-  slug: microsoft-azure-openai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-chat-api-openapi.yml
 - filename: microsoft-azure-openai-completions-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Completions API

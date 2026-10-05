@@ -30,6 +30,18 @@ api_specs:
   slug: stainless-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-user-api-openapi.yml
+- filename: stainless-spec-api-openapi.yml
+  format: yaml
+  label: Stainless Spec API
+  slug: stainless-spec-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-spec-api-openapi.yml
+- filename: stainless-open-api-api-openapi.yml
+  format: yaml
+  label: Stainless Open API
+  slug: stainless-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-open-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,12 +51,12 @@ domains:
   domain: stainless.com
   spf: true
 hosts:
-- cert_expires: Aug 16 06:19:18 2026 GMT
+- cert_expires: Dec 12 09:29:17 2026 GMT
   host: www.stainless.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 23 20:45:39 2026 GMT
+- cert_expires: Nov 22 05:14:09 2026 GMT
   host: api.stainless.com
   hsts: null
   https: true
@@ -62,7 +74,7 @@ slug: stainless-domain-security
 source_filename: stainless-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stainless.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 06:19:18 2026 GMT\n  hsts: false\n- host: api.stainless.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 20:45:39 2026 GMT\n  hsts: null\ndomains:\n- domain: stainless.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stainless.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 09:29:17 2026 GMT\n  hsts: false\n- host: api.stainless.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 05:14:09 2026 GMT\n  hsts: null\ndomains:\n- domain: stainless.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/security/stainless-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

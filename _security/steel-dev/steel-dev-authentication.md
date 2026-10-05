@@ -62,4 +62,5 @@ tags:
 - Scraping
 - AI Agents
 - Open Source
+- Browser Automation
 ---

@@ -133,5 +133,6 @@ tags:
 - Self-Service
 - Service Catalog
 - SRE
+- Developer Portal
 trust_url: ''
 ---

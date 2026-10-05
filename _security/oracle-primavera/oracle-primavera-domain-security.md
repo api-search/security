@@ -80,6 +80,6 @@ tags:
 - Engineering
 - Project Management
 - Scheduling
-- Portfolio Management
 - Oracle
+- Project Portfolio Management
 ---

@@ -37,4 +37,5 @@ tags:
 - Natural Gas
 - Oil
 - Petroleum
+- Oil and Gas
 ---

@@ -292,6 +292,6 @@ tags:
 - Traces
 - Profiling
 - Alerting
-- Open-Source
+- Open Source
 - Grafana Labs
 ---

@@ -44,5 +44,4 @@ tags:
 - Treasury Management
 - Embedded Banking
 - Open Finance
-- Data Aggregation
 ---

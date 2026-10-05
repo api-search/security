@@ -95,4 +95,5 @@ tags:
 - Trading
 - KYC
 - BankID
+- Financial Services
 ---

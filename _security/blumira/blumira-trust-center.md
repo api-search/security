@@ -46,7 +46,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Security
-- SaaS
+- Software-as-a-Service
 - Cloud
 - IT
 trust_url: https://app.drata.com/trust/dec6cfdb-01d8-48e0-9aea-d34a48e20589

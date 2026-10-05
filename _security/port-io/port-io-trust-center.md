@@ -39,5 +39,6 @@ tags:
 - Platform Engineering
 - Scorecards
 - Developer Experience
+- Developer Portal
 trust_url: https://www.port.io/security
 ---

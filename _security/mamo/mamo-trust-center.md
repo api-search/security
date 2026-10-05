@@ -102,5 +102,6 @@ tags:
 - Expense Management
 - United Arab Emirates
 - Middle East
+- MENA
 trust_url: https://www.mamopay.com/security
 ---

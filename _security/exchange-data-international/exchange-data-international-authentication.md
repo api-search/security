@@ -45,5 +45,4 @@ tags:
 - Derivatives
 - Economic Data
 - Stocks
-- Exchange
 ---

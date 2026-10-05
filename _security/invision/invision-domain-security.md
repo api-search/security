@@ -40,4 +40,5 @@ tags:
 - Collaboration
 - Digital Product Design
 - Deprecated
+- Defunct
 ---

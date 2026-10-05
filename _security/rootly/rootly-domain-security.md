@@ -82,4 +82,5 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AIOps
 - Incident Management
+- Incident Response
 ---

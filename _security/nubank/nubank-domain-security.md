@@ -57,4 +57,5 @@ tags:
 - Mexico
 - Colombia
 - Latin America
+- Consumer Banking
 ---

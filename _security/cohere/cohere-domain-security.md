@@ -95,7 +95,7 @@ tags:
 - Natural Language Processing
 - Embeddings
 - Vector Search
-- Tokenization
 - LLM
 - Canada
+- Foundation Models
 ---

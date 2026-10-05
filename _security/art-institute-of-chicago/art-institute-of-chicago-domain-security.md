@@ -265,11 +265,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/security/art-institute-of-chicago-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Art And Design
 - Museums
 - Open Data
 - Cultural Heritage
 - IIIF
 - Public APIs
 - Open Source
+- Art
 ---

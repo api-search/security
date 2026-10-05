@@ -35,5 +35,5 @@ tags:
 - Subscription
 - Snacks
 - Japan
-- E-commerce
+- E-Commerce
 ---

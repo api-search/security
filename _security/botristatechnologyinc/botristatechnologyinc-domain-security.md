@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botristatechno
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Beverage
+- Beverages
 - Automation
-- AI
-- Foodservice
-- SaaS
+- Artificial Intelligence
+- Food Service
+- Software-as-a-Service
 ---

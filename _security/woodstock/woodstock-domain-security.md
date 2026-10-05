@@ -39,4 +39,5 @@ tags:
 - Japan
 - MCP
 - AI Agents
+- Financial Services
 ---

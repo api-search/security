@@ -37,4 +37,5 @@ tags:
 - End-to-End Encryption
 - IPFS
 - Peer-to-Peer
+- Web3
 ---

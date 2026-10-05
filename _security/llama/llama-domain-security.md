@@ -54,4 +54,5 @@ tags:
 - Meta
 - Open Source
 - Natural Language Processing
+- Foundation Models
 ---

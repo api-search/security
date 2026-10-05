@@ -58,5 +58,6 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
+- Vector Search
 trust_url: https://trust.lancedb.com/
 ---

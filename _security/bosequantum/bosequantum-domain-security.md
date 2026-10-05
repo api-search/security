@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bosequantum/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Quantum Computing
 - Investment
-- Startup
+- Startups
 - Funding
 ---

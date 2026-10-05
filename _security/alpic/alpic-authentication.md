@@ -87,4 +87,5 @@ tags:
 - Deployment
 - ChatGPT Apps
 - AI Agents
+- Platform-as-a-Service
 ---

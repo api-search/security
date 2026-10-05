@@ -8,12 +8,6 @@ api_specs:
   slug: hugging-face-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-audio-api-openapi.yml
-- filename: hugging-face-chat-api-openapi.yml
-  format: yaml
-  label: Hugging Face Chat API
-  slug: hugging-face-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-chat-api-openapi.yml
 - filename: hugging-face-chat-completions-api-openapi.yml
   format: yaml
   label: Hugging Face Chat Completions API

@@ -39,4 +39,6 @@ tags:
 - RWA
 - Bridge
 - Governance
+- Web3
+- Cryptocurrency
 ---

@@ -81,5 +81,4 @@ tags:
 - Open Source
 - DevOps
 - Self-Hosted
-- Real-Time
 ---

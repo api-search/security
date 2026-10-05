@@ -41,7 +41,6 @@ tags:
 - Kubernetes
 - Infrastructure as Code
 - Terraform
-- Identity and Access Management
 - AI Agents
 - DevOps
 - Self-Hosted

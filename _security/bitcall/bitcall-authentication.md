@@ -36,9 +36,8 @@ source_yaml: "generated: '2026-10-03'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitcall/refs/heads/main/authentication/bitcall-authentication.yml
 summary_line: 2 schemes
 tags:
-- Telecom
+- Telecommunications
 - VoIP
 - SMS
 - eSIM
-- API
 ---

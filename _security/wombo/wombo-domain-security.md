@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: wombo-chat-api-openapi.yml
-  format: yaml
-  label: Wombo Chat API
-  slug: wombo-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-chat-api-openapi.yml
 - filename: wombo-images-api-openapi.yml
   format: yaml
   label: Wombo Images API
@@ -24,6 +18,12 @@ api_specs:
   slug: wombo-predictions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-predictions-api-openapi.yml
+- filename: wombo-chat-completions-api-openapi.yml
+  format: yaml
+  label: Wombo Chat Completions API
+  slug: wombo-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

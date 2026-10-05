@@ -42,7 +42,7 @@ tags:
 - Company
 - Low-Code
 - Business Process Management
-- Workflow-Automation
+- Workflow Automation
 - CRM
 - Decisioning
 - Artificial Intelligence

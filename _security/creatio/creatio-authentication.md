@@ -2,12 +2,36 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: creatio-openapi-generated.yml
+- filename: creatio-odata-api-openapi.yml
   format: yaml
-  label: Creatio API
-  slug: creatio-api
+  label: Creatio OData API
+  slug: creatio-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/_ae-authored/creatio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-odata-api-openapi.yml
+- filename: creatio-clear-bundles-api-openapi.yml
+  format: yaml
+  label: Creatio Clear Bundles API
+  slug: creatio-clear-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-clear-bundles-api-openapi.yml
+- filename: creatio-minify-content-api-openapi.yml
+  format: yaml
+  label: Creatio Minify Content API
+  slug: creatio-minify-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-minify-content-api-openapi.yml
+- filename: creatio-odata-api-openapi.yml
+  format: yaml
+  label: Creatio Odata API
+  slug: creatio-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-odata-api-openapi.yml
+- filename: creatio-process-content-api-openapi.yml
+  format: yaml
+  label: Creatio Process Content API
+  slug: creatio-process-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/openapi/creatio-process-content-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -74,7 +98,7 @@ tags:
 - No-Code
 - Low-Code
 - Business Process Management
-- Workflow-Automation
+- Workflow Automation
 - Sales
 - Marketing
 - Customer Service

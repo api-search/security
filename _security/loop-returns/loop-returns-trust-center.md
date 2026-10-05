@@ -64,7 +64,6 @@ summary_line: SOC 2, GDPR
 tags:
 - Returns
 - E-Commerce
-- Exchange
 - Refunds
 - Shipping
 - Post-Purchase

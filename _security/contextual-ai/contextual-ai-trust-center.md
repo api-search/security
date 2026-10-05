@@ -82,5 +82,6 @@ tags:
 - Grounded Language Model
 - Enterprise
 - Real-Time
+- Foundation Models
 trust_url: https://contextual.ai/security
 ---

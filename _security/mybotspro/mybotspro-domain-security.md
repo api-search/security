@@ -52,5 +52,4 @@ tags:
 - Instagram
 - Omnichannel
 - Lead Qualification
-- OpenID Connect
 ---

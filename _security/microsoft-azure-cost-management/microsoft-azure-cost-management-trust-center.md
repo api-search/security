@@ -121,6 +121,6 @@ tags:
 - Chargebacks
 - Focus
 - Azure
-- Reservations
+- Reserved Instances
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

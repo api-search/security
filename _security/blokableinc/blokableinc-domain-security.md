@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blokableinc/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- RealEstate
+- Real Estate
 - PropTech
 - Housing
-- Startup
+- Startups
 ---

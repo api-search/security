@@ -37,5 +37,8 @@ tags:
 - Identity Resolution
 - Sales Intelligence
 - Marketing
+- Data
+- Net Worth
+- Sales
 trust_url: https://www.windfall.com/platform/privacy-security
 ---

@@ -34,5 +34,6 @@ tags:
 - Underwriting
 - Mobile App
 - Consumer
+- Property and Casualty
 trust_url: https://trust.hippo.com/
 ---

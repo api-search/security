@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boostupai/refs
 summary_line: SOC 2, CSA STAR, FIPS 140
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Revenue
 - Sales
 - Automation

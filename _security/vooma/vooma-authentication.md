@@ -110,7 +110,7 @@ tags:
 - Freight
 - Logistics
 - Transportation
-- Brokers
 - TMS
 - Agents
+- Freight Brokerage
 ---

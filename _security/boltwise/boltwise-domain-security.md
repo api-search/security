@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltwise/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Quoting
 - ERP Integration
 - Industrial Distribution

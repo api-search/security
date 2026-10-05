@@ -111,5 +111,4 @@ tags:
 - Care Management
 - Insurance
 - Identity
-- OpenID Connect
 ---

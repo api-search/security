@@ -277,5 +277,6 @@ tags:
 - MCP
 - AI Agents
 - Payroll
+- Employee Benefits
 trust_url: https://trust.remote.com/
 ---

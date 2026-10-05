@@ -38,4 +38,5 @@ tags:
 - Satellite Imagery
 - Artificial Intelligence
 - ISR
+- Remote Sensing
 ---

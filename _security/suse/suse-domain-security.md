@@ -40,6 +40,6 @@ tags:
 - Kubernetes
 - Enterprise Linux
 - Systems Management
-- Open-Source
+- Open Source
 - Container Management
 ---

@@ -165,4 +165,5 @@ tags:
 - Energy
 - Mobility
 - Fleet Management
+- Telematics
 ---

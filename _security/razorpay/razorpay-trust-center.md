@@ -61,5 +61,6 @@ tags:
 - Payouts
 - Checkout
 - A2A
+- Payment Processing
 trust_url: https://razorpay.com/docs/security/
 ---

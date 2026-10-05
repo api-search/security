@@ -49,4 +49,6 @@ tags:
 - Vault
 - Web3 Infrastructure
 - Non-Custodial
+- Web3
+- Cryptocurrency
 ---

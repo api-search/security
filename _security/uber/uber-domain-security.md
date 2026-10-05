@@ -156,7 +156,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Ridesharing
-- Rides
 - Taxis
 - Transportation
 - Food Delivery

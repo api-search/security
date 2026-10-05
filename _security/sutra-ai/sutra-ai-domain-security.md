@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: sutra-ai-chat-api-openapi.yml
-  format: yaml
-  label: SUTRA (Two AI) Chat API
-  slug: sutra-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-chat-api-openapi.yml
 - filename: sutra-ai-models-api-openapi.yml
   format: yaml
   label: SUTRA (Two AI) Models API
   slug: sutra-ai-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-models-api-openapi.yml
+- filename: sutra-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: SUTRA (Two AI) Chat Completions API
+  slug: sutra-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/openapi/sutra-ai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,4 +57,5 @@ tags:
 - Inference
 - Reasoning
 - Real-Time
+- Foundation Models
 ---

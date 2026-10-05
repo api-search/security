@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Cloud
-- IaaS
-- PaaS
-- AI
+- Infrastructure-as-a-Service
+- Platform-as-a-Service
+- Artificial Intelligence
 ---

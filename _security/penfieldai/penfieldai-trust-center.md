@@ -27,6 +27,5 @@ tags:
 - Compliance
 - Process Verification
 - MSSP
-- Identity and Access Management
 trust_url: https://docs.penfield.ai/trustcenter/
 ---

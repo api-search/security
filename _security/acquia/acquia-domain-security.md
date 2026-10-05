@@ -172,4 +172,5 @@ tags:
 - Cloud Hosting
 - Headless
 - Content Management
+- Headless CMS
 ---

@@ -6,12 +6,6 @@ api_specs:
   slug: flexai-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-audio-api-openapi.yml
-- filename: flexai-chat-api-openapi.yml
-  format: yaml
-  label: FlexAI Chat API
-  slug: flexai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-chat-api-openapi.yml
 - filename: flexai-completions-api-openapi.yml
   format: yaml
   label: FlexAI Completions API
@@ -42,6 +36,12 @@ api_specs:
   slug: flexai-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-video-api-openapi.yml
+- filename: flexai-chat-completions-api-openapi.yml
+  format: yaml
+  label: FlexAI Chat Completions API
+  slug: flexai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -14,12 +14,6 @@ api_specs:
   slug: moonshot-ai-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-billing-api-openapi.yml
-- filename: moonshot-ai-chat-api-openapi.yml
-  format: yaml
-  label: Moonshot AI Chat API
-  slug: moonshot-ai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-chat-api-openapi.yml
 - filename: moonshot-ai-files-api-openapi.yml
   format: yaml
   label: Moonshot AI Files API
@@ -38,6 +32,12 @@ api_specs:
   slug: moonshot-ai-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-utilities-api-openapi.yml
+- filename: moonshot-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Moonshot AI Chat Completions API
+  slug: moonshot-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/openapi/moonshot-ai-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -72,4 +72,5 @@ tags:
 - Inference
 - Long Context
 - Kimi
+- Foundation Models
 ---

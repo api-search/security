@@ -78,7 +78,6 @@ tags:
 - Mobile Device Management
 - IT Asset Management
 - SaaS Management
-- Identity and Access Management
 - IT Procurement
 - Employee Lifecycle
 - Webhook

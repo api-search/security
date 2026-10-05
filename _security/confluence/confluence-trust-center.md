@@ -538,5 +538,6 @@ tags:
 - Documentation
 - Knowledge Base
 - Wiki
+- Knowledge Management
 trust_url: https://www.atlassian.com/trust
 ---

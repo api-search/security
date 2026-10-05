@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: tabnine-openapi-generated.yml
+- filename: tabnine-groups-api-openapi.yml
   format: yaml
-  label: Tabnine API
-  slug: tabnine-api
+  label: Tabnine Groups API
+  slug: tabnine-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/openapi/_ae-authored/tabnine-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/openapi/tabnine-groups-api-openapi.yml
+- filename: tabnine-main-api-openapi.yml
+  format: yaml
+  label: Tabnine Main API
+  slug: tabnine-main-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/openapi/tabnine-main-api-openapi.yml
+- filename: tabnine-schemas-api-openapi.yml
+  format: yaml
+  label: Tabnine Schemas API
+  slug: tabnine-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/openapi/tabnine-schemas-api-openapi.yml
+- filename: tabnine-users-api-openapi.yml
+  format: yaml
+  label: Tabnine Users API
+  slug: tabnine-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/openapi/tabnine-users-api-openapi.yml
 auth_types: []
 description: Authentication methods documented for Tabnine
 kind: authentication

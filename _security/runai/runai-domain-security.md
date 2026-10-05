@@ -429,9 +429,9 @@ tags:
 - GPU
 - Machine Learning
 - Kubernetes
-- Orchestration
 - MLOps
 - Compute
 - Scheduling
 - Infrastructure
+- Container Orchestration
 ---

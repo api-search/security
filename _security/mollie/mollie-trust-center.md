@@ -40,5 +40,6 @@ tags:
 - Point-of-Sale
 - Europe
 - Netherlands
+- Payment Processing
 trust_url: https://www.mollie.com/security
 ---

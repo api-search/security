@@ -127,7 +127,7 @@ tags:
 - Platform
 - API Gateway
 - MCP Gateway
-- Auth
+- Authentication
 - Rate Limiting
 - Spend Management
 - Developer Tools

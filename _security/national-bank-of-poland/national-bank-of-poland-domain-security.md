@@ -34,4 +34,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Currency Exchange
 - Public APIs
+- Exchange Rates
 ---

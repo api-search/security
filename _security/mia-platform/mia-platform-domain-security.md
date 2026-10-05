@@ -34,6 +34,6 @@ tags:
 - Cloud-Native
 - Developer Platform
 - DevOps
-- IDP
 - Microservices
+- Internal Developer Platform
 ---

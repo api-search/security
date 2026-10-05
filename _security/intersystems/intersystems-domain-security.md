@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: intersystems-openapi-generated.yml
+- filename: intersystems-group-api-openapi.yml
   format: yaml
-  label: InterSystems API
-  slug: intersystems-api
+  label: InterSystems Group API
+  slug: intersystems-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intersystems/refs/heads/main/openapi/_ae-authored/intersystems-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intersystems/refs/heads/main/openapi/intersystems-group-api-openapi.yml
 description: ''
 domains:
 - caa: []

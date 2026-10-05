@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boonray/refs/h
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- AutonomousDriving
+- Autonomous Driving
 - MiningTech
 - SmartCars
-- NewEnergy
+- New Energy
 ---

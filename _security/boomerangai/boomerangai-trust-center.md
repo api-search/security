@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-10-02'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boomerangai/refs/heads/main/security/boomerangai-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Sales
 - B2B
-- Referral
+- Referrals
 - Automation
 trust_url: https://trust.getboomerang.ai/
 ---

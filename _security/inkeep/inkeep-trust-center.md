@@ -6,12 +6,12 @@ api_specs:
   slug: inkeep-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-analytics-api-openapi.yml
-- filename: inkeep-chat-api-openapi.yml
+- filename: inkeep-chat-completions-api-openapi.yml
   format: yaml
-  label: Inkeep Chat API
-  slug: inkeep-chat-api
+  label: Inkeep Chat Completions API
+  slug: inkeep-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-chat-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-chat-completions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

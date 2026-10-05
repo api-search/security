@@ -68,5 +68,4 @@ tags:
 - Human Resources
 - Enterprise Software
 - Software-as-a-Service
-- Identity Management
 ---

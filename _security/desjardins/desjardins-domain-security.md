@@ -38,6 +38,5 @@ tags:
 - Caisse Populaire
 - Cooperative
 - Consumer-Driven Banking
-- Data Aggregation
 - Quebec
 ---

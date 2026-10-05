@@ -270,6 +270,5 @@ tags:
 - Data Observability
 - Data Pipeline
 - Data Quality
-- Intelligence
 - Observability
 ---

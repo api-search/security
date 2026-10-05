@@ -38,6 +38,5 @@ tags:
 - Neobank
 - Payments
 - Interac
-- Data Aggregation
 - Consumer-Driven Banking
 ---

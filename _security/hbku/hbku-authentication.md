@@ -14,12 +14,6 @@ api_specs:
   slug: hbku-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-audio-api-openapi.yml
-- filename: hbku-chat-api-openapi.yml
-  format: yaml
-  label: Hamad Bin Khalifa University Chat API
-  slug: hbku-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-chat-api-openapi.yml
 - filename: hbku-images-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Images API
@@ -56,6 +50,12 @@ api_specs:
   slug: hbku-translations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-translations-api-openapi.yml
+- filename: hbku-chat-completions-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Chat Completions API
+  slug: hbku-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-chat-completions-api-openapi.yml
 auth_types:
 - http-bearer
 - api-key-in-body

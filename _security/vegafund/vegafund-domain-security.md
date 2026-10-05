@@ -33,4 +33,5 @@ tags:
 - Personal Finance
 - Artificial Intelligence
 - Acquired
+- Defunct
 ---

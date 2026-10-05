@@ -95,4 +95,5 @@ tags:
 - FX
 - Fintech
 - Africa
+- Cross-Border Payments
 ---

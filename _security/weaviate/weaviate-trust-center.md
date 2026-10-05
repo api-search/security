@@ -160,5 +160,6 @@ tags:
 - GraphQL
 - Kubernetes
 - Database
+- Vector Search
 trust_url: https://app.drata.com/trust/6e7c8db4-d0a7-4ed1-90ae-f4710a557ea5
 ---

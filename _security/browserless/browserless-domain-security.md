@@ -70,7 +70,6 @@ tags:
 - Puppeteer
 - Playwright
 - Selenium
-- CDP
 - Stealth
 - CAPTCHA Solving
 - Residential Proxy
@@ -82,4 +81,6 @@ tags:
 - MCP
 - Session Recording
 - Hybrid Automation
+- Chrome DevTools Protocol
+- Browser Automation
 ---

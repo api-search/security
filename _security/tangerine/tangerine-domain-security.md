@@ -37,6 +37,5 @@ tags:
 - Digital Bank
 - Neobank
 - Schedule I Bank
-- Data Aggregation
 - Interac
 ---

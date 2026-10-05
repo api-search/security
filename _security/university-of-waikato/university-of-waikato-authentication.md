@@ -176,7 +176,6 @@ tags:
 - OAI-PMH
 - Identity Federation
 - SAML
-- OpenID Connect
 - Learning Management
 - Machine Learning
 ---

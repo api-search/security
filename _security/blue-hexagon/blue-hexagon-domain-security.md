@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-hexagon/r
 summary_line: DMARC
 tags:
 - Cybersecurity
-- AI
+- Artificial Intelligence
 - Cloud
 - Threat Detection
 - Enterprise

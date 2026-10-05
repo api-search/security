@@ -68,7 +68,6 @@ summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Booking
 - Containers
-- Documentation
 - GSBN
 - IQAX
 - Logistics

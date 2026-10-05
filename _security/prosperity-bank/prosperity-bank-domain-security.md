@@ -36,5 +36,4 @@ tags:
 - Regional Bank
 - Texas
 - Open Finance
-- Data Aggregation
 ---

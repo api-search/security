@@ -41,6 +41,5 @@ tags:
 - Credit Union
 - Cooperative
 - Saskatchewan
-- Data Aggregation
 - Open Banking
 ---

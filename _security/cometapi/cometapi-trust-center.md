@@ -6,12 +6,6 @@ api_specs:
   slug: cometapi-audio-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-audio-api-openapi.yml
-- filename: cometapi-chat-api-openapi.yml
-  format: yaml
-  label: CometAPI Chat API
-  slug: cometapi-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-chat-api-openapi.yml
 - filename: cometapi-embeddings-api-openapi.yml
   format: yaml
   label: CometAPI Embeddings API
@@ -36,6 +30,12 @@ api_specs:
   slug: cometapi-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-video-api-openapi.yml
+- filename: cometapi-chat-completions-api-openapi.yml
+  format: yaml
+  label: CometAPI Chat Completions API
+  slug: cometapi-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-chat-completions-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''

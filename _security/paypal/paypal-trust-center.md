@@ -198,5 +198,6 @@ tags:
 - Tokens
 - Webhook
 - Agentic Commerce
+- Payment Processing
 trust_url: https://www.paypal-trustcenter.com/
 ---

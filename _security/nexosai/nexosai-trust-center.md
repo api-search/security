@@ -30,12 +30,6 @@ api_specs:
   slug: nexosai-budget-limit-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-budget-limit-management-api-openapi.yml
-- filename: nexosai-chat-api-openapi.yml
-  format: yaml
-  label: nexos.ai Chat API
-  slug: nexosai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-chat-api-openapi.yml
 - filename: nexosai-company-management-api-openapi.yml
   format: yaml
   label: nexos.ai Company Management API
@@ -96,6 +90,12 @@ api_specs:
   slug: nexosai-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-user-management-api-openapi.yml
+- filename: nexosai-chat-completions-api-openapi.yml
+  format: yaml
+  label: nexos.ai Chat Completions API
+  slug: nexosai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-chat-completions-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

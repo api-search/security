@@ -153,9 +153,9 @@ source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bootic/refs/heads/main/authentication/bootic-authentication.yml
 summary_line: 2 schemes
 tags:
-- e-commerce
-- marketplace
+- E-Commerce
+- Marketplace
 - Chile
-- platform
-- retail
+- Platform
+- Retail
 ---
