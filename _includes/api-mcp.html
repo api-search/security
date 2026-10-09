@@ -23,6 +23,12 @@
 {%- assign sec = S.sections[site.nav_active] -%}
 {%- if sec -%}
 {%- assign slug = page.slug | default: page.name | default: '' -%}
+{%- comment -%} roadmap#931 (TrickyBird): /v1/apis/{id} takes the provider-qualified id
+  (`stripe:stripe-account-api`); the bare page slug 404s, and `page.aid` is empty on some pages.
+  Build the qualified form from provider_slug, which every API page carries. {%- endcomment -%}
+{%- if site.nav_active == 'apis' and page.provider_slug -%}
+  {%- assign slug = page.provider_slug | append: ':' | append: page.slug -%}
+{%- endif -%}
 
 <style>
   /* One row of options, not four stacked blocks. align-items:start so opening a

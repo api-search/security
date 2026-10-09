@@ -62,6 +62,12 @@ api_specs:
   slug: monid-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-wallet-api-openapi.yml
+- filename: monid-identities-api-openapi.yml
+  format: yaml
+  label: Monid Identities API
+  slug: monid-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-identities-api-openapi.yml
 auth_types:
 - http
 - oauth2

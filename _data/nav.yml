@@ -90,13 +90,19 @@ header:
     groups:
       - header: Specifications
         items:
+          # Kin, 2026-10-08: the contract itself first; /apis/ is where every indexed API carries its OpenAPI.
+          - { key: openapi, label: OpenAPI, url: 'https://apis.io/apis/' }
           - { key: extensions, label: OpenAPI Extensions, url: 'https://apis.io/extensions/' }
+          - { key: overlays, label: OpenAPI Overlays, url: 'https://apis.io/overlays/' }
           - { key: headers, label: HTTP Headers, url: 'https://apis.io/headers/' }
           - { key: schemas, label: Schemas, url: 'https://apis.io/schemas/' }
           - { key: json-structure, label: JSON Structure, url: 'https://apis.io/json-structure/' }
           - { key: asyncapi, label: AsyncAPI, url: 'https://apis.io/asyncapis/' }
           - { key: graphql, label: GraphQL, url: 'https://apis.io/graphqls/' }
           - { key: jsonld, label: JSON-LD, url: 'https://apis.io/jsonld/' }
+          # 2026-10-08: /vocabularies/ (2,778 entries) was live with no nav entry anywhere, header or footer.
+          - { key: vocabularies, label: Vocabularies, url: 'https://apis.io/vocabularies/' }
+          - { key: standards, label: Standards, url: 'https://apis.io/standards/' }
       - header: Usage
         items:
           - { key: examples, label: Examples, url: 'https://apis.io/examples/' }
@@ -110,7 +116,7 @@ header:
           - { key: a2a, label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
           - { key: ard, label: Agent Discovery, url: 'https://apis.io/ard/' }
           - { key: skills, label: Agent Skills, url: 'https://apis.io/agent-skills/' }
-          - { key: rules, label: Spectral Rules, url: 'https://apis.io/rules/' }
+          - { key: rules, label: Rules, url: 'https://apis.io/rules/' }
 
   # How safe / how expensive — the read-the-risk menu.
   - key: signals
@@ -194,13 +200,24 @@ footer:
 
     - header: Artifacts
       items:
+        # Kin, 2026-10-08: OpenAPI first — the contract itself, linking to the APIs section where
+        # every indexed API page carries its OpenAPI. The extensions entry below is the vocabulary.
+        - { label: OpenAPI, url: 'https://apis.io/apis/' }
         - { label: OpenAPI Extensions, url: 'https://apis.io/extensions/' }
+        - { label: OpenAPI Overlays, url: 'https://apis.io/overlays/' }
+        - { label: Rules, url: 'https://apis.io/rules/' }
+        - { label: AsyncAPI, url: 'https://apis.io/asyncapis/' }
+        - { label: GraphQL, url: 'https://apis.io/graphqls/' }
+        - { label: JSON-LD, url: 'https://apis.io/jsonld/' }
+        - { label: Vocabularies, url: 'https://apis.io/vocabularies/' }
         - { label: HTTP Headers, url: 'https://apis.io/headers/' }
         - { label: Schemas, url: 'https://apis.io/schemas/' }
         - { label: Examples, url: 'https://apis.io/examples/' }
         - { label: JSON Structure, url: 'https://apis.io/json-structure/' }
         - { label: Collections, url: 'https://apis.io/collections/' }
         - { label: Arazzo Workflows, url: 'https://apis.io/arazzos/' }
+        - { label: Event Channels, url: 'https://apis.io/channels/' }
+        - { label: Agent Registry, url: 'https://apis.io/agents/' }
         - { label: MCP Servers, url: 'https://apis.io/servers/' }
         - { label: A2A Agent Cards, url: 'https://apis.io/a2a/' }
         - { label: Agent Discovery, url: 'https://apis.io/ard/' }
@@ -225,6 +242,7 @@ footer:
     - header: Platform
       items:
         - { label: Developer Docs, url: 'https://apis.io/developer/' }
+        - { label: Agent Playground, url: 'https://apis.io/playground/' }
         # The trust layer, kept adjacent because the three pages are one system and were
         # previously scattered: /onboarding/ is how you get in, /kya/ is who the caller is, and
         # /blueprint/ is how a provider copies the whole surface. /kya/ shipped live and reachable

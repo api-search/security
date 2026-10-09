@@ -65,6 +65,21 @@
     if (!window.turnstile) return;
     addTurnstileId = turnstile.render('#add-turnstile', { sitekey: ADD_TURNSTILE_SITEKEY, theme: 'light' });
   }
+  // roadmap#930: two submitters in one week hit `turnstile_required` and fell back to email with no
+  // idea why. If the widget has not rendered a few seconds after the page loads (blocked script,
+  // tracking protection, private mode), say so where the widget should be, instead of a silent box
+  // and a generic error on submit.
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      if (addTurnstileId !== null) return;
+      var box = document.getElementById('add-turnstile');
+      if (!box || box.childElementCount > 0) return;
+      box.innerHTML = '<div class="alert alert-warning small mb-0" role="status">The verification widget did not load '
+        + '— usually a content blocker or a privacy setting on <code>challenges.cloudflare.com</code>. Allow it and reload, '
+        + 'or send the same details to <a href="mailto:info@apis.io">info@apis.io</a>. Automated submitters: this form is '
+        + 'for people; email with the name, URL and docs URL and we will list it.</div>';
+    }, 6000);
+  });
 (function () {
   var API_BASE = 'https://apis.io/api/v1';
   var $ = function (id) { return document.getElementById(id); };

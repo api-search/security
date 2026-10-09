@@ -1016,352 +1016,196 @@ api_specs:
   slug: telnyx-ips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ips-api-openapi.yml
-- filename: telnyx-ai-collections-api-openapi.yml
-  format: yaml
-  label: Telnyx AI Collections API
-  slug: telnyx-ai-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ai-collections-api-openapi.yml
-- filename: telnyx-anthropic-messages-api-openapi.yml
-  format: yaml
-  label: Telnyx Anthropic Messages API
-  slug: telnyx-anthropic-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-anthropic-messages-api-openapi.yml
-- filename: telnyx-bot-signup-api-openapi.yml
-  format: yaml
-  label: Telnyx Bot Signup API
-  slug: telnyx-bot-signup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-bot-signup-api-openapi.yml
-- filename: telnyx-cloudfs-filesystems-api-openapi.yml
-  format: yaml
-  label: Telnyx cloudfs filesystems API
-  slug: telnyx-cloudfs-filesystems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-cloudfs-filesystems-api-openapi.yml
-- filename: telnyx-comments-api-openapi.yml
-  format: yaml
-  label: Telnyx Comments API
-  slug: telnyx-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-comments-api-openapi.yml
-- filename: telnyx-contents-api-openapi.yml
-  format: yaml
-  label: Telnyx Contents API
-  slug: telnyx-contents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-contents-api-openapi.yml
-- filename: telnyx-conversation-histories-api-openapi.yml
-  format: yaml
-  label: Telnyx Conversation Histories API
-  slug: telnyx-conversation-histories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-conversation-histories-api-openapi.yml
-- filename: telnyx-decision-models-api-openapi.yml
-  format: yaml
-  label: Telnyx Decision Models API
-  slug: telnyx-decision-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-decision-models-api-openapi.yml
-- filename: telnyx-dir-references-api-openapi.yml
-  format: yaml
-  label: Telnyx DIR References API
-  slug: telnyx-dir-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-dir-references-api-openapi.yml
-- filename: telnyx-display-identity-records-api-openapi.yml
-  format: yaml
-  label: Telnyx Display Identity Records API
-  slug: telnyx-display-identity-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-display-identity-records-api-openapi.yml
-- filename: telnyx-email-domain-dns-records-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Domain DNS Records API
-  slug: telnyx-email-domain-dns-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-domain-dns-records-api-openapi.yml
-- filename: telnyx-email-domains-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Domains API
-  slug: telnyx-email-domains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-domains-api-openapi.yml
-- filename: telnyx-email-drafts-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Drafts API
-  slug: telnyx-email-drafts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-drafts-api-openapi.yml
-- filename: telnyx-email-events-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Events API
-  slug: telnyx-email-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-events-api-openapi.yml
-- filename: telnyx-email-inboxes-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Inboxes API
-  slug: telnyx-email-inboxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-inboxes-api-openapi.yml
-- filename: telnyx-email-messages-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Messages API
-  slug: telnyx-email-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-messages-api-openapi.yml
-- filename: telnyx-email-suppression-imports-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Suppression Imports API
-  slug: telnyx-email-suppression-imports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-suppression-imports-api-openapi.yml
-- filename: telnyx-email-suppressions-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Suppressions API
-  slug: telnyx-email-suppressions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-suppressions-api-openapi.yml
-- filename: telnyx-email-templates-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Templates API
-  slug: telnyx-email-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-templates-api-openapi.yml
-- filename: telnyx-email-threads-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Threads API
-  slug: telnyx-email-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-threads-api-openapi.yml
-- filename: telnyx-email-unsubscribe-groups-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Unsubscribe Groups API
-  slug: telnyx-email-unsubscribe-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-unsubscribe-groups-api-openapi.yml
-- filename: telnyx-email-validations-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Validations API
-  slug: telnyx-email-validations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-validations-api-openapi.yml
-- filename: telnyx-email-verification-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Verification API
-  slug: telnyx-email-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-verification-api-openapi.yml
-- filename: telnyx-email-webhooks-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Webhooks API
-  slug: telnyx-email-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-webhooks-api-openapi.yml
-- filename: telnyx-functions-api-openapi.yml
-  format: yaml
-  label: Telnyx Functions API
-  slug: telnyx-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-functions-api-openapi.yml
-- filename: telnyx-infringement-claims-api-openapi.yml
-  format: yaml
-  label: Telnyx Infringement Claims API
-  slug: telnyx-infringement-claims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-infringement-claims-api-openapi.yml
-- filename: telnyx-kv-keys-api-openapi.yml
-  format: yaml
-  label: Telnyx kv keys API
-  slug: telnyx-kv-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-kv-keys-api-openapi.yml
-- filename: telnyx-kv-namespaces-api-openapi.yml
-  format: yaml
-  label: Telnyx kv namespaces API
-  slug: telnyx-kv-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-kv-namespaces-api-openapi.yml
-- filename: telnyx-machine-payments-api-openapi.yml
-  format: yaml
-  label: Telnyx Machine Payments API
-  slug: telnyx-machine-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-machine-payments-api-openapi.yml
-- filename: telnyx-meeting-session-actions-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Actions API
-  slug: telnyx-meeting-session-actions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-actions-api-openapi.yml
-- filename: telnyx-meeting-session-artifacts-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Artifacts API
-  slug: telnyx-meeting-session-artifacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-artifacts-api-openapi.yml
-- filename: telnyx-meeting-session-data-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Data API
-  slug: telnyx-meeting-session-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-data-api-openapi.yml
-- filename: telnyx-meeting-session-webhooks-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Webhooks API
-  slug: telnyx-meeting-session-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-webhooks-api-openapi.yml
-- filename: telnyx-meeting-sessions-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Sessions API
-  slug: telnyx-meeting-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-sessions-api-openapi.yml
-- filename: telnyx-memory-api-openapi.yml
-  format: yaml
-  label: Telnyx Memory API
-  slug: telnyx-memory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-memory-api-openapi.yml
-- filename: telnyx-namespaces-api-openapi.yml
-  format: yaml
-  label: Telnyx Namespaces API
-  slug: telnyx-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-namespaces-api-openapi.yml
-- filename: telnyx-noise-suppression-engines-api-openapi.yml
-  format: yaml
-  label: Telnyx Noise Suppression Engines API
-  slug: telnyx-noise-suppression-engines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-noise-suppression-engines-api-openapi.yml
-- filename: telnyx-operations-api-openapi.yml
-  format: yaml
-  label: Telnyx Operations API
-  slug: telnyx-operations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-operations-api-openapi.yml
-- filename: telnyx-phone-number-batches-api-openapi.yml
-  format: yaml
-  label: Telnyx Phone Number Batches API
-  slug: telnyx-phone-number-batches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-phone-number-batches-api-openapi.yml
-- filename: telnyx-phone-numbers-api-openapi.yml
-  format: yaml
-  label: Telnyx Phone Numbers API
-  slug: telnyx-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-phone-numbers-api-openapi.yml
-- filename: telnyx-pricing-api-openapi.yml
-  format: yaml
-  label: Telnyx Pricing API
-  slug: telnyx-pricing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-pricing-api-openapi.yml
-- filename: telnyx-rcs-agents-api-openapi.yml
-  format: yaml
-  label: Telnyx RCS Agents API
-  slug: telnyx-rcs-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-rcs-agents-api-openapi.yml
-- filename: telnyx-rcs-brands-api-openapi.yml
-  format: yaml
-  label: Telnyx RCS Brands API
-  slug: telnyx-rcs-brands-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-rcs-brands-api-openapi.yml
-- filename: telnyx-reference-data-api-openapi.yml
-  format: yaml
-  label: Telnyx Reference Data API
-  slug: telnyx-reference-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-reference-data-api-openapi.yml
-- filename: telnyx-reputation-api-openapi.yml
-  format: yaml
-  label: Telnyx Reputation API
-  slug: telnyx-reputation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-reputation-api-openapi.yml
-- filename: telnyx-research-api-openapi.yml
-  format: yaml
-  label: Telnyx Research API
-  slug: telnyx-research-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-research-api-openapi.yml
-- filename: telnyx-settings-api-openapi.yml
-  format: yaml
-  label: Telnyx Settings API
-  slug: telnyx-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-settings-api-openapi.yml
-- filename: telnyx-sources-api-openapi.yml
-  format: yaml
-  label: Telnyx Sources API
-  slug: telnyx-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-sources-api-openapi.yml
-- filename: telnyx-speech-to-text-capabilities-api-openapi.yml
-  format: yaml
-  label: Telnyx Speech To Text Capabilities API
-  slug: telnyx-speech-to-text-capabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-speech-to-text-capabilities-api-openapi.yml
-- filename: telnyx-spend-limits-api-openapi.yml
-  format: yaml
-  label: Telnyx Spend Limits API
-  slug: telnyx-spend-limits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-spend-limits-api-openapi.yml
-- filename: telnyx-sql-databases-api-openapi.yml
-  format: yaml
-  label: Telnyx sql databases API
-  slug: telnyx-sql-databases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-sql-databases-api-openapi.yml
-- filename: telnyx-voice-sdk-stats-api-openapi.yml
-  format: yaml
-  label: Telnyx Voice SDK Stats API
-  slug: telnyx-voice-sdk-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-voice-sdk-stats-api-openapi.yml
-- filename: telnyx-web-search-api-openapi.yml
-  format: yaml
-  label: Telnyx Web Search API
-  slug: telnyx-web-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-web-search-api-openapi.yml
-- filename: telnyx-x402-api-openapi.yml
-  format: yaml
-  label: Telnyx X402 API
-  slug: telnyx-x402-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-x402-api-openapi.yml
 auth_types:
 - http
 - oauth2
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 2
-method: derived
+mechanism_count: 3
+method: searched
 name: Telnyx Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
 - clientCredentials
-overview: Telnyx secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
+overview: Telnyx secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).
 provider_name: Telnyx
 provider_slug: telnyx
-scheme_count: 2
+scheme_count: 3
 schemes:
 - name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/telnyx-openapi.yml
+  - openapi/telnyx-access-tokens-api-openapi.yml
+  - openapi/telnyx-addresses-api-openapi.yml
+  - openapi/telnyx-advanced-number-orders-api-openapi.yml
+  - openapi/telnyx-assistants-api-openapi.yml
+  - openapi/telnyx-audio-api-openapi.yml
+  - openapi/telnyx-audit-logs-api-openapi.yml
+  - openapi/telnyx-authentication-providers-api-openapi.yml
+  - openapi/telnyx-autorechargepreferences-api-openapi.yml
+  - openapi/telnyx-billing-api-openapi.yml
+  - openapi/telnyx-billing-groups-api-openapi.yml
+  - openapi/telnyx-brands-api-openapi.yml
+  - openapi/telnyx-bucket-ssl-certificate-api-openapi.yml
+  - openapi/telnyx-bucket-usage-api-openapi.yml
+  - openapi/telnyx-bulk-phone-number-campaigns-api-openapi.yml
+  - openapi/telnyx-bulk-phone-number-operations-api-openapi.yml
+  - openapi/telnyx-bundles-api-openapi.yml
+  - openapi/telnyx-call-commands-api-openapi.yml
+  - openapi/telnyx-call-control-applications-api-openapi.yml
+  - openapi/telnyx-call-information-api-openapi.yml
+  - openapi/telnyx-call-recordings-api-openapi.yml
+  - openapi/telnyx-callbacks-api-openapi.yml
+  - openapi/telnyx-campaign-api-openapi.yml
+  - openapi/telnyx-cdr-reports-api-openapi.yml
+  - openapi/telnyx-cdr-usage-reports-api-openapi.yml
+  - openapi/telnyx-charges-breakdown-api-openapi.yml
+  - openapi/telnyx-charges-summary-api-openapi.yml
+  - openapi/telnyx-chat-api-openapi.yml
+  - openapi/telnyx-clusters-api-openapi.yml
+  - openapi/telnyx-conference-commands-api-openapi.yml
+  - openapi/telnyx-connections-api-openapi.yml
+  - openapi/telnyx-conversations-api-openapi.yml
+  - openapi/telnyx-country-coverage-api-openapi.yml
+  - openapi/telnyx-coverage-api-openapi.yml
+  - openapi/telnyx-credential-connections-api-openapi.yml
+  - openapi/telnyx-credentials-api-openapi.yml
+  - openapi/telnyx-csv-downloads-api-openapi.yml
+  - openapi/telnyx-customer-service-record-api-openapi.yml
+  - openapi/telnyx-data-migration-api-openapi.yml
+  - openapi/telnyx-debugging-api-openapi.yml
+  - openapi/telnyx-detail-records-api-openapi.yml
+  - openapi/telnyx-dialogflow-integration-api-openapi.yml
+  - openapi/telnyx-documents-api-openapi.yml
+  - openapi/telnyx-dynamic-emergency-addresses-api-openapi.yml
+  - openapi/telnyx-dynamic-emergency-endpoints-api-openapi.yml
+  - openapi/telnyx-embeddings-api-openapi.yml
+  - openapi/telnyx-enterprises-api-openapi.yml
+  - openapi/telnyx-enum-api-openapi.yml
+  - openapi/telnyx-external-connections-api-openapi.yml
+  - openapi/telnyx-fine-tuning-api-openapi.yml
+  - openapi/telnyx-fqdn-connections-api-openapi.yml
+  - openapi/telnyx-fqdns-api-openapi.yml
+  - openapi/telnyx-global-ips-api-openapi.yml
+  - openapi/telnyx-hosted-numbers-api-openapi.yml
+  - openapi/telnyx-inexplicit-number-orders-api-openapi.yml
+  - openapi/telnyx-integration-secrets-api-openapi.yml
+  - openapi/telnyx-integrations-api-openapi.yml
+  - openapi/telnyx-inventory-level-api-openapi.yml
+  - openapi/telnyx-invoices-api-openapi.yml
+  - openapi/telnyx-ip-addresses-api-openapi.yml
+  - openapi/telnyx-ip-connections-api-openapi.yml
+  - openapi/telnyx-ip-ranges-api-openapi.yml
+  - openapi/telnyx-ips-api-openapi.yml
+  - openapi/telnyx-managed-accounts-api-openapi.yml
+  - openapi/telnyx-mcp-servers-api-openapi.yml
+  - openapi/telnyx-mdr-detail-reports-api-openapi.yml
+  - openapi/telnyx-mdr-detailed-reports-api-openapi.yml
+  - openapi/telnyx-mdr-usage-reports-api-openapi.yml
+  - openapi/telnyx-media-storage-api-api-openapi.yml
+  - openapi/telnyx-messages-api-openapi.yml
+  - openapi/telnyx-messaging-api-openapi.yml
+  - openapi/telnyx-messaging-url-domains-api-openapi.yml
+  - openapi/telnyx-missions-api-openapi.yml
+  - openapi/telnyx-mobile-network-operators-api-openapi.yml
+  - openapi/telnyx-mobile-number-settings-api-openapi.yml
+  - openapi/telnyx-mobile-phone-numbers-api-openapi.yml
+  - openapi/telnyx-mobile-voice-connections-api-openapi.yml
+  - openapi/telnyx-networks-api-openapi.yml
+  - openapi/telnyx-notifications-api-openapi.yml
+  - openapi/telnyx-number-lookup-api-openapi.yml
+  - openapi/telnyx-number-portout-api-openapi.yml
+  - openapi/telnyx-number-reputation-settings-api-openapi.yml
+  - openapi/telnyx-number-settings-api-openapi.yml
+  - openapi/telnyx-numbers-features-api-openapi.yml
+  - openapi/telnyx-oauth-clients-api-openapi.yml
+  - openapi/telnyx-oauth-discovery-api-openapi.yml
+  - openapi/telnyx-oauth-grants-api-openapi.yml
+  - openapi/telnyx-oauth-protocol-api-openapi.yml
+  - openapi/telnyx-openai-chat-api-openapi.yml
+  - openapi/telnyx-openai-embeddings-api-openapi.yml
+  - openapi/telnyx-opt-out-management-api-openapi.yml
+  - openapi/telnyx-organization-users-api-openapi.yml
+  - openapi/telnyx-ota-updates-api-openapi.yml
+  - openapi/telnyx-outbound-voice-profiles-api-openapi.yml
+  - openapi/telnyx-phone-number-block-orders-api-openapi.yml
+  - openapi/telnyx-phone-number-blocks-background-jobs-api-openapi.yml
+  - openapi/telnyx-phone-number-campaigns-api-openapi.yml
+  - openapi/telnyx-phone-number-configurations-api-openapi.yml
+  - openapi/telnyx-phone-number-orders-api-openapi.yml
+  - openapi/telnyx-phone-number-porting-api-openapi.yml
+  - openapi/telnyx-phone-number-reservations-api-openapi.yml
+  - openapi/telnyx-phone-number-search-api-openapi.yml
+  - openapi/telnyx-porting-orders-api-openapi.yml
+  - openapi/telnyx-presigned-object-urls-api-openapi.yml
+  - openapi/telnyx-private-wireless-gateways-api-openapi.yml
+  - openapi/telnyx-profiles-api-openapi.yml
+  - openapi/telnyx-programmable-fax-applications-api-openapi.yml
+  - openapi/telnyx-programmable-fax-commands-api-openapi.yml
+  - openapi/telnyx-pronunciation-dictionaries-api-openapi.yml
+  - openapi/telnyx-public-internet-gateways-api-openapi.yml
+  - openapi/telnyx-push-credentials-api-openapi.yml
+  - openapi/telnyx-queue-commands-api-openapi.yml
+  - openapi/telnyx-rcs-api-openapi.yml
+  - openapi/telnyx-regions-api-openapi.yml
+  - openapi/telnyx-regulatory-requirements-api-openapi.yml
+  - openapi/telnyx-reporting-api-openapi.yml
+  - openapi/telnyx-reports-api-openapi.yml
+  - openapi/telnyx-reputation-phone-numbers-api-openapi.yml
+  - openapi/telnyx-requirement-groups-api-openapi.yml
+  - openapi/telnyx-requirement-types-api-openapi.yml
+  - openapi/telnyx-requirements-api-openapi.yml
+  - openapi/telnyx-room-compositions-api-openapi.yml
+  - openapi/telnyx-room-participants-api-openapi.yml
+  - openapi/telnyx-room-recordings-api-openapi.yml
+  - openapi/telnyx-room-sessions-api-openapi.yml
+  - openapi/telnyx-rooms-api-openapi.yml
+  - openapi/telnyx-rooms-client-tokens-api-openapi.yml
+  - openapi/telnyx-session-analysis-api-openapi.yml
+  - openapi/telnyx-seti-observability-api-openapi.yml
+  - openapi/telnyx-shared-campaigns-api-openapi.yml
+  - openapi/telnyx-short-codes-api-openapi.yml
+  - openapi/telnyx-sim-card-actions-api-openapi.yml
+  - openapi/telnyx-sim-card-group-actions-api-openapi.yml
+  - openapi/telnyx-sim-card-groups-api-openapi.yml
+  - openapi/telnyx-sim-card-orders-api-openapi.yml
+  - openapi/telnyx-sim-cards-api-openapi.yml
+  - openapi/telnyx-siprec-connectors-api-openapi.yml
+  - openapi/telnyx-speech-to-text-batch-reports-api-openapi.yml
+  - openapi/telnyx-speech-to-text-over-websockets-api-openapi.yml
+  - openapi/telnyx-speech-to-text-usage-reports-api-openapi.yml
+  - openapi/telnyx-stored-payment-transactions-api-openapi.yml
+  - openapi/telnyx-telco-data-usage-reports-api-openapi.yml
+  - openapi/telnyx-terms-of-service-api-openapi.yml
+  - openapi/telnyx-texml-applications-api-openapi.yml
+  - openapi/telnyx-texml-rest-commands-api-openapi.yml
+  - openapi/telnyx-text-to-speech-commands-api-openapi.yml
+  - openapi/telnyx-traffic-policy-profiles-api-openapi.yml
+  - openapi/telnyx-uac-connections-api-openapi.yml
+  - openapi/telnyx-usage-reports-beta-api-openapi.yml
+  - openapi/telnyx-user-bundles-api-openapi.yml
+  - openapi/telnyx-user-tags-api-openapi.yml
+  - openapi/telnyx-useraddresses-api-openapi.yml
+  - openapi/telnyx-verification-requests-api-openapi.yml
+  - openapi/telnyx-verified-numbers-api-openapi.yml
+  - openapi/telnyx-verify-api-openapi.yml
+  - openapi/telnyx-virtual-cross-connects-api-openapi.yml
+  - openapi/telnyx-voice-channels-api-openapi.yml
+  - openapi/telnyx-voice-clones-api-openapi.yml
+  - openapi/telnyx-voice-designs-api-openapi.yml
+  - openapi/telnyx-voicemail-api-openapi.yml
+  - openapi/telnyx-wdr-detail-reports-api-openapi.yml
+  - openapi/telnyx-webhooks-api-openapi.yml
+  - openapi/telnyx-whatsapp-business-accounts-api-openapi.yml
+  - openapi/telnyx-whatsapp-message-templates-api-openapi.yml
+  - openapi/telnyx-whatsapp-messaging-api-openapi.yml
+  - openapi/telnyx-whatsapp-phone-numbers-api-openapi.yml
+  - openapi/telnyx-wireguard-interfaces-api-openapi.yml
+  - openapi/telnyx-wireless-blocklists-api-openapi.yml
+  - openapi/telnyx-wireless-regions-api-openapi.yml
+  - openapi/telnyx-x402-payment-transactions-api-openapi.yml
   type: http
 - description: OAuth 2.0 authentication for Telnyx API and MCP integrations
   flows:
@@ -1374,15 +1218,208 @@ schemes:
     tokenUrl: https://api.telnyx.com/v2/oauth/token
   name: oauthClientAuth
   sources:
-  - openapi/telnyx-openapi.yml
+  - openapi/telnyx-access-tokens-api-openapi.yml
+  - openapi/telnyx-addresses-api-openapi.yml
+  - openapi/telnyx-advanced-number-orders-api-openapi.yml
+  - openapi/telnyx-assistants-api-openapi.yml
+  - openapi/telnyx-audio-api-openapi.yml
+  - openapi/telnyx-audit-logs-api-openapi.yml
+  - openapi/telnyx-authentication-providers-api-openapi.yml
+  - openapi/telnyx-autorechargepreferences-api-openapi.yml
+  - openapi/telnyx-billing-api-openapi.yml
+  - openapi/telnyx-billing-groups-api-openapi.yml
+  - openapi/telnyx-brands-api-openapi.yml
+  - openapi/telnyx-bucket-ssl-certificate-api-openapi.yml
+  - openapi/telnyx-bucket-usage-api-openapi.yml
+  - openapi/telnyx-bulk-phone-number-campaigns-api-openapi.yml
+  - openapi/telnyx-bulk-phone-number-operations-api-openapi.yml
+  - openapi/telnyx-bundles-api-openapi.yml
+  - openapi/telnyx-call-commands-api-openapi.yml
+  - openapi/telnyx-call-control-applications-api-openapi.yml
+  - openapi/telnyx-call-information-api-openapi.yml
+  - openapi/telnyx-call-recordings-api-openapi.yml
+  - openapi/telnyx-callbacks-api-openapi.yml
+  - openapi/telnyx-campaign-api-openapi.yml
+  - openapi/telnyx-cdr-reports-api-openapi.yml
+  - openapi/telnyx-cdr-usage-reports-api-openapi.yml
+  - openapi/telnyx-charges-breakdown-api-openapi.yml
+  - openapi/telnyx-charges-summary-api-openapi.yml
+  - openapi/telnyx-chat-api-openapi.yml
+  - openapi/telnyx-clusters-api-openapi.yml
+  - openapi/telnyx-conference-commands-api-openapi.yml
+  - openapi/telnyx-connections-api-openapi.yml
+  - openapi/telnyx-conversations-api-openapi.yml
+  - openapi/telnyx-country-coverage-api-openapi.yml
+  - openapi/telnyx-coverage-api-openapi.yml
+  - openapi/telnyx-credential-connections-api-openapi.yml
+  - openapi/telnyx-credentials-api-openapi.yml
+  - openapi/telnyx-csv-downloads-api-openapi.yml
+  - openapi/telnyx-customer-service-record-api-openapi.yml
+  - openapi/telnyx-data-migration-api-openapi.yml
+  - openapi/telnyx-debugging-api-openapi.yml
+  - openapi/telnyx-detail-records-api-openapi.yml
+  - openapi/telnyx-dialogflow-integration-api-openapi.yml
+  - openapi/telnyx-documents-api-openapi.yml
+  - openapi/telnyx-dynamic-emergency-addresses-api-openapi.yml
+  - openapi/telnyx-dynamic-emergency-endpoints-api-openapi.yml
+  - openapi/telnyx-embeddings-api-openapi.yml
+  - openapi/telnyx-enterprises-api-openapi.yml
+  - openapi/telnyx-enum-api-openapi.yml
+  - openapi/telnyx-external-connections-api-openapi.yml
+  - openapi/telnyx-fine-tuning-api-openapi.yml
+  - openapi/telnyx-fqdn-connections-api-openapi.yml
+  - openapi/telnyx-fqdns-api-openapi.yml
+  - openapi/telnyx-global-ips-api-openapi.yml
+  - openapi/telnyx-hosted-numbers-api-openapi.yml
+  - openapi/telnyx-inexplicit-number-orders-api-openapi.yml
+  - openapi/telnyx-integration-secrets-api-openapi.yml
+  - openapi/telnyx-integrations-api-openapi.yml
+  - openapi/telnyx-inventory-level-api-openapi.yml
+  - openapi/telnyx-invoices-api-openapi.yml
+  - openapi/telnyx-ip-addresses-api-openapi.yml
+  - openapi/telnyx-ip-connections-api-openapi.yml
+  - openapi/telnyx-ip-ranges-api-openapi.yml
+  - openapi/telnyx-ips-api-openapi.yml
+  - openapi/telnyx-managed-accounts-api-openapi.yml
+  - openapi/telnyx-mcp-servers-api-openapi.yml
+  - openapi/telnyx-mdr-detail-reports-api-openapi.yml
+  - openapi/telnyx-mdr-detailed-reports-api-openapi.yml
+  - openapi/telnyx-mdr-usage-reports-api-openapi.yml
+  - openapi/telnyx-media-storage-api-api-openapi.yml
+  - openapi/telnyx-messages-api-openapi.yml
+  - openapi/telnyx-messaging-api-openapi.yml
+  - openapi/telnyx-messaging-url-domains-api-openapi.yml
+  - openapi/telnyx-missions-api-openapi.yml
+  - openapi/telnyx-mobile-network-operators-api-openapi.yml
+  - openapi/telnyx-mobile-number-settings-api-openapi.yml
+  - openapi/telnyx-mobile-phone-numbers-api-openapi.yml
+  - openapi/telnyx-mobile-voice-connections-api-openapi.yml
+  - openapi/telnyx-networks-api-openapi.yml
+  - openapi/telnyx-notifications-api-openapi.yml
+  - openapi/telnyx-number-lookup-api-openapi.yml
+  - openapi/telnyx-number-portout-api-openapi.yml
+  - openapi/telnyx-number-reputation-settings-api-openapi.yml
+  - openapi/telnyx-number-settings-api-openapi.yml
+  - openapi/telnyx-numbers-features-api-openapi.yml
+  - openapi/telnyx-oauth-clients-api-openapi.yml
+  - openapi/telnyx-oauth-discovery-api-openapi.yml
+  - openapi/telnyx-oauth-grants-api-openapi.yml
+  - openapi/telnyx-oauth-protocol-api-openapi.yml
+  - openapi/telnyx-openai-chat-api-openapi.yml
+  - openapi/telnyx-openai-embeddings-api-openapi.yml
+  - openapi/telnyx-opt-out-management-api-openapi.yml
+  - openapi/telnyx-organization-users-api-openapi.yml
+  - openapi/telnyx-ota-updates-api-openapi.yml
+  - openapi/telnyx-outbound-voice-profiles-api-openapi.yml
+  - openapi/telnyx-phone-number-block-orders-api-openapi.yml
+  - openapi/telnyx-phone-number-blocks-background-jobs-api-openapi.yml
+  - openapi/telnyx-phone-number-campaigns-api-openapi.yml
+  - openapi/telnyx-phone-number-configurations-api-openapi.yml
+  - openapi/telnyx-phone-number-orders-api-openapi.yml
+  - openapi/telnyx-phone-number-porting-api-openapi.yml
+  - openapi/telnyx-phone-number-reservations-api-openapi.yml
+  - openapi/telnyx-phone-number-search-api-openapi.yml
+  - openapi/telnyx-porting-orders-api-openapi.yml
+  - openapi/telnyx-presigned-object-urls-api-openapi.yml
+  - openapi/telnyx-private-wireless-gateways-api-openapi.yml
+  - openapi/telnyx-profiles-api-openapi.yml
+  - openapi/telnyx-programmable-fax-applications-api-openapi.yml
+  - openapi/telnyx-programmable-fax-commands-api-openapi.yml
+  - openapi/telnyx-pronunciation-dictionaries-api-openapi.yml
+  - openapi/telnyx-public-internet-gateways-api-openapi.yml
+  - openapi/telnyx-push-credentials-api-openapi.yml
+  - openapi/telnyx-queue-commands-api-openapi.yml
+  - openapi/telnyx-rcs-api-openapi.yml
+  - openapi/telnyx-regions-api-openapi.yml
+  - openapi/telnyx-regulatory-requirements-api-openapi.yml
+  - openapi/telnyx-reporting-api-openapi.yml
+  - openapi/telnyx-reports-api-openapi.yml
+  - openapi/telnyx-reputation-phone-numbers-api-openapi.yml
+  - openapi/telnyx-requirement-groups-api-openapi.yml
+  - openapi/telnyx-requirement-types-api-openapi.yml
+  - openapi/telnyx-requirements-api-openapi.yml
+  - openapi/telnyx-room-compositions-api-openapi.yml
+  - openapi/telnyx-room-participants-api-openapi.yml
+  - openapi/telnyx-room-recordings-api-openapi.yml
+  - openapi/telnyx-room-sessions-api-openapi.yml
+  - openapi/telnyx-rooms-api-openapi.yml
+  - openapi/telnyx-rooms-client-tokens-api-openapi.yml
+  - openapi/telnyx-session-analysis-api-openapi.yml
+  - openapi/telnyx-seti-observability-api-openapi.yml
+  - openapi/telnyx-shared-campaigns-api-openapi.yml
+  - openapi/telnyx-short-codes-api-openapi.yml
+  - openapi/telnyx-sim-card-actions-api-openapi.yml
+  - openapi/telnyx-sim-card-group-actions-api-openapi.yml
+  - openapi/telnyx-sim-card-groups-api-openapi.yml
+  - openapi/telnyx-sim-card-orders-api-openapi.yml
+  - openapi/telnyx-sim-cards-api-openapi.yml
+  - openapi/telnyx-siprec-connectors-api-openapi.yml
+  - openapi/telnyx-speech-to-text-batch-reports-api-openapi.yml
+  - openapi/telnyx-speech-to-text-over-websockets-api-openapi.yml
+  - openapi/telnyx-speech-to-text-usage-reports-api-openapi.yml
+  - openapi/telnyx-stored-payment-transactions-api-openapi.yml
+  - openapi/telnyx-telco-data-usage-reports-api-openapi.yml
+  - openapi/telnyx-terms-of-service-api-openapi.yml
+  - openapi/telnyx-texml-applications-api-openapi.yml
+  - openapi/telnyx-texml-rest-commands-api-openapi.yml
+  - openapi/telnyx-text-to-speech-commands-api-openapi.yml
+  - openapi/telnyx-traffic-policy-profiles-api-openapi.yml
+  - openapi/telnyx-uac-connections-api-openapi.yml
+  - openapi/telnyx-usage-reports-beta-api-openapi.yml
+  - openapi/telnyx-user-bundles-api-openapi.yml
+  - openapi/telnyx-user-tags-api-openapi.yml
+  - openapi/telnyx-useraddresses-api-openapi.yml
+  - openapi/telnyx-verification-requests-api-openapi.yml
+  - openapi/telnyx-verified-numbers-api-openapi.yml
+  - openapi/telnyx-verify-api-openapi.yml
+  - openapi/telnyx-virtual-cross-connects-api-openapi.yml
+  - openapi/telnyx-voice-channels-api-openapi.yml
+  - openapi/telnyx-voice-clones-api-openapi.yml
+  - openapi/telnyx-voice-designs-api-openapi.yml
+  - openapi/telnyx-voicemail-api-openapi.yml
+  - openapi/telnyx-wdr-detail-reports-api-openapi.yml
+  - openapi/telnyx-webhooks-api-openapi.yml
+  - openapi/telnyx-whatsapp-business-accounts-api-openapi.yml
+  - openapi/telnyx-whatsapp-message-templates-api-openapi.yml
+  - openapi/telnyx-whatsapp-messaging-api-openapi.yml
+  - openapi/telnyx-whatsapp-phone-numbers-api-openapi.yml
+  - openapi/telnyx-wireguard-interfaces-api-openapi.yml
+  - openapi/telnyx-wireless-blocklists-api-openapi.yml
+  - openapi/telnyx-wireless-regions-api-openapi.yml
+  - openapi/telnyx-x402-payment-transactions-api-openapi.yml
   type: oauth2
+- description: 'Pay-per-call inference without an account: POST https://x402.telnyx.com/v1/chat/completions returns 402 with a payment quote; retry with the signed EIP-3009 USDC quote in the X-Payment header (auth.md Method 3; `Payment` securityScheme in https://telnyx.com/openapi.json).'
+  name: Payment
+  sources:
+  - https://telnyx.com/auth.md
+  - https://telnyx.com/.well-known/x402
+  type: x402
 slug: telnyx-authentication
 source_filename: telnyx-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/telnyx-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/telnyx-openapi.yml\n- name: oauthClientAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n    scopes: 1\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n  sources:\n  - openapi/telnyx-openapi.yml\n"
+source_yaml: "generated: '2026-10-08'\nmethod: searched\nsource: openapi/ securitySchemes + https://developers.telnyx.com/docs/development/api-fundamentals/authentication\n  + https://telnyx.com/auth.md + https://api.telnyx.com/.well-known/oauth-authorization-server (2026-10-08)\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/telnyx-access-tokens-api-openapi.yml\n  - openapi/telnyx-addresses-api-openapi.yml\n  - openapi/telnyx-advanced-number-orders-api-openapi.yml\n  - openapi/telnyx-assistants-api-openapi.yml\n  - openapi/telnyx-audio-api-openapi.yml\n  - openapi/telnyx-audit-logs-api-openapi.yml\n  - openapi/telnyx-authentication-providers-api-openapi.yml\n  - openapi/telnyx-autorechargepreferences-api-openapi.yml\n  - openapi/telnyx-billing-api-openapi.yml\n  - openapi/telnyx-billing-groups-api-openapi.yml\n  - openapi/telnyx-brands-api-openapi.yml\n\
+  \  - openapi/telnyx-bucket-ssl-certificate-api-openapi.yml\n  - openapi/telnyx-bucket-usage-api-openapi.yml\n  - openapi/telnyx-bulk-phone-number-campaigns-api-openapi.yml\n  - openapi/telnyx-bulk-phone-number-operations-api-openapi.yml\n  - openapi/telnyx-bundles-api-openapi.yml\n  - openapi/telnyx-call-commands-api-openapi.yml\n  - openapi/telnyx-call-control-applications-api-openapi.yml\n  - openapi/telnyx-call-information-api-openapi.yml\n  - openapi/telnyx-call-recordings-api-openapi.yml\n  - openapi/telnyx-callbacks-api-openapi.yml\n  - openapi/telnyx-campaign-api-openapi.yml\n  - openapi/telnyx-cdr-reports-api-openapi.yml\n  - openapi/telnyx-cdr-usage-reports-api-openapi.yml\n  - openapi/telnyx-charges-breakdown-api-openapi.yml\n  - openapi/telnyx-charges-summary-api-openapi.yml\n  - openapi/telnyx-chat-api-openapi.yml\n  - openapi/telnyx-clusters-api-openapi.yml\n  - openapi/telnyx-conference-commands-api-openapi.yml\n  - openapi/telnyx-connections-api-openapi.yml\n  - openapi/telnyx-conversations-api-openapi.yml\n\
+  \  - openapi/telnyx-country-coverage-api-openapi.yml\n  - openapi/telnyx-coverage-api-openapi.yml\n  - openapi/telnyx-credential-connections-api-openapi.yml\n  - openapi/telnyx-credentials-api-openapi.yml\n  - openapi/telnyx-csv-downloads-api-openapi.yml\n  - openapi/telnyx-customer-service-record-api-openapi.yml\n  - openapi/telnyx-data-migration-api-openapi.yml\n  - openapi/telnyx-debugging-api-openapi.yml\n  - openapi/telnyx-detail-records-api-openapi.yml\n  - openapi/telnyx-dialogflow-integration-api-openapi.yml\n  - openapi/telnyx-documents-api-openapi.yml\n  - openapi/telnyx-dynamic-emergency-addresses-api-openapi.yml\n  - openapi/telnyx-dynamic-emergency-endpoints-api-openapi.yml\n  - openapi/telnyx-embeddings-api-openapi.yml\n  - openapi/telnyx-enterprises-api-openapi.yml\n  - openapi/telnyx-enum-api-openapi.yml\n  - openapi/telnyx-external-connections-api-openapi.yml\n  - openapi/telnyx-fine-tuning-api-openapi.yml\n  - openapi/telnyx-fqdn-connections-api-openapi.yml\n  - openapi/telnyx-fqdns-api-openapi.yml\n\
+  \  - openapi/telnyx-global-ips-api-openapi.yml\n  - openapi/telnyx-hosted-numbers-api-openapi.yml\n  - openapi/telnyx-inexplicit-number-orders-api-openapi.yml\n  - openapi/telnyx-integration-secrets-api-openapi.yml\n  - openapi/telnyx-integrations-api-openapi.yml\n  - openapi/telnyx-inventory-level-api-openapi.yml\n  - openapi/telnyx-invoices-api-openapi.yml\n  - openapi/telnyx-ip-addresses-api-openapi.yml\n  - openapi/telnyx-ip-connections-api-openapi.yml\n  - openapi/telnyx-ip-ranges-api-openapi.yml\n  - openapi/telnyx-ips-api-openapi.yml\n  - openapi/telnyx-managed-accounts-api-openapi.yml\n  - openapi/telnyx-mcp-servers-api-openapi.yml\n  - openapi/telnyx-mdr-detail-reports-api-openapi.yml\n  - openapi/telnyx-mdr-detailed-reports-api-openapi.yml\n  - openapi/telnyx-mdr-usage-reports-api-openapi.yml\n  - openapi/telnyx-media-storage-api-api-openapi.yml\n  - openapi/telnyx-messages-api-openapi.yml\n  - openapi/telnyx-messaging-api-openapi.yml\n  - openapi/telnyx-messaging-url-domains-api-openapi.yml\n\
+  \  - openapi/telnyx-missions-api-openapi.yml\n  - openapi/telnyx-mobile-network-operators-api-openapi.yml\n  - openapi/telnyx-mobile-number-settings-api-openapi.yml\n  - openapi/telnyx-mobile-phone-numbers-api-openapi.yml\n  - openapi/telnyx-mobile-voice-connections-api-openapi.yml\n  - openapi/telnyx-networks-api-openapi.yml\n  - openapi/telnyx-notifications-api-openapi.yml\n  - openapi/telnyx-number-lookup-api-openapi.yml\n  - openapi/telnyx-number-portout-api-openapi.yml\n  - openapi/telnyx-number-reputation-settings-api-openapi.yml\n  - openapi/telnyx-number-settings-api-openapi.yml\n  - openapi/telnyx-numbers-features-api-openapi.yml\n  - openapi/telnyx-oauth-clients-api-openapi.yml\n  - openapi/telnyx-oauth-discovery-api-openapi.yml\n  - openapi/telnyx-oauth-grants-api-openapi.yml\n  - openapi/telnyx-oauth-protocol-api-openapi.yml\n  - openapi/telnyx-openai-chat-api-openapi.yml\n  - openapi/telnyx-openai-embeddings-api-openapi.yml\n  - openapi/telnyx-opt-out-management-api-openapi.yml\n\
+  \  - openapi/telnyx-organization-users-api-openapi.yml\n  - openapi/telnyx-ota-updates-api-openapi.yml\n  - openapi/telnyx-outbound-voice-profiles-api-openapi.yml\n  - openapi/telnyx-phone-number-block-orders-api-openapi.yml\n  - openapi/telnyx-phone-number-blocks-background-jobs-api-openapi.yml\n  - openapi/telnyx-phone-number-campaigns-api-openapi.yml\n  - openapi/telnyx-phone-number-configurations-api-openapi.yml\n  - openapi/telnyx-phone-number-orders-api-openapi.yml\n  - openapi/telnyx-phone-number-porting-api-openapi.yml\n  - openapi/telnyx-phone-number-reservations-api-openapi.yml\n  - openapi/telnyx-phone-number-search-api-openapi.yml\n  - openapi/telnyx-porting-orders-api-openapi.yml\n  - openapi/telnyx-presigned-object-urls-api-openapi.yml\n  - openapi/telnyx-private-wireless-gateways-api-openapi.yml\n  - openapi/telnyx-profiles-api-openapi.yml\n  - openapi/telnyx-programmable-fax-applications-api-openapi.yml\n  - openapi/telnyx-programmable-fax-commands-api-openapi.yml\n  -\
+  \ openapi/telnyx-pronunciation-dictionaries-api-openapi.yml\n  - openapi/telnyx-public-internet-gateways-api-openapi.yml\n  - openapi/telnyx-push-credentials-api-openapi.yml\n  - openapi/telnyx-queue-commands-api-openapi.yml\n  - openapi/telnyx-rcs-api-openapi.yml\n  - openapi/telnyx-regions-api-openapi.yml\n  - openapi/telnyx-regulatory-requirements-api-openapi.yml\n  - openapi/telnyx-reporting-api-openapi.yml\n  - openapi/telnyx-reports-api-openapi.yml\n  - openapi/telnyx-reputation-phone-numbers-api-openapi.yml\n  - openapi/telnyx-requirement-groups-api-openapi.yml\n  - openapi/telnyx-requirement-types-api-openapi.yml\n  - openapi/telnyx-requirements-api-openapi.yml\n  - openapi/telnyx-room-compositions-api-openapi.yml\n  - openapi/telnyx-room-participants-api-openapi.yml\n  - openapi/telnyx-room-recordings-api-openapi.yml\n  - openapi/telnyx-room-sessions-api-openapi.yml\n  - openapi/telnyx-rooms-api-openapi.yml\n  - openapi/telnyx-rooms-client-tokens-api-openapi.yml\n  - openapi/telnyx-session-analysis-api-openapi.yml\n\
+  \  - openapi/telnyx-seti-observability-api-openapi.yml\n  - openapi/telnyx-shared-campaigns-api-openapi.yml\n  - openapi/telnyx-short-codes-api-openapi.yml\n  - openapi/telnyx-sim-card-actions-api-openapi.yml\n  - openapi/telnyx-sim-card-group-actions-api-openapi.yml\n  - openapi/telnyx-sim-card-groups-api-openapi.yml\n  - openapi/telnyx-sim-card-orders-api-openapi.yml\n  - openapi/telnyx-sim-cards-api-openapi.yml\n  - openapi/telnyx-siprec-connectors-api-openapi.yml\n  - openapi/telnyx-speech-to-text-batch-reports-api-openapi.yml\n  - openapi/telnyx-speech-to-text-over-websockets-api-openapi.yml\n  - openapi/telnyx-speech-to-text-usage-reports-api-openapi.yml\n  - openapi/telnyx-stored-payment-transactions-api-openapi.yml\n  - openapi/telnyx-telco-data-usage-reports-api-openapi.yml\n  - openapi/telnyx-terms-of-service-api-openapi.yml\n  - openapi/telnyx-texml-applications-api-openapi.yml\n  - openapi/telnyx-texml-rest-commands-api-openapi.yml\n  - openapi/telnyx-text-to-speech-commands-api-openapi.yml\n\
+  \  - openapi/telnyx-traffic-policy-profiles-api-openapi.yml\n  - openapi/telnyx-uac-connections-api-openapi.yml\n  - openapi/telnyx-usage-reports-beta-api-openapi.yml\n  - openapi/telnyx-user-bundles-api-openapi.yml\n  - openapi/telnyx-user-tags-api-openapi.yml\n  - openapi/telnyx-useraddresses-api-openapi.yml\n  - openapi/telnyx-verification-requests-api-openapi.yml\n  - openapi/telnyx-verified-numbers-api-openapi.yml\n  - openapi/telnyx-verify-api-openapi.yml\n  - openapi/telnyx-virtual-cross-connects-api-openapi.yml\n  - openapi/telnyx-voice-channels-api-openapi.yml\n  - openapi/telnyx-voice-clones-api-openapi.yml\n  - openapi/telnyx-voice-designs-api-openapi.yml\n  - openapi/telnyx-voicemail-api-openapi.yml\n  - openapi/telnyx-wdr-detail-reports-api-openapi.yml\n  - openapi/telnyx-webhooks-api-openapi.yml\n  - openapi/telnyx-whatsapp-business-accounts-api-openapi.yml\n  - openapi/telnyx-whatsapp-message-templates-api-openapi.yml\n  - openapi/telnyx-whatsapp-messaging-api-openapi.yml\n\
+  \  - openapi/telnyx-whatsapp-phone-numbers-api-openapi.yml\n  - openapi/telnyx-wireguard-interfaces-api-openapi.yml\n  - openapi/telnyx-wireless-blocklists-api-openapi.yml\n  - openapi/telnyx-wireless-regions-api-openapi.yml\n  - openapi/telnyx-x402-payment-transactions-api-openapi.yml\n- name: oauthClientAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n    scopes: 1\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n  sources:\n  - openapi/telnyx-access-tokens-api-openapi.yml\n  - openapi/telnyx-addresses-api-openapi.yml\n  - openapi/telnyx-advanced-number-orders-api-openapi.yml\n  - openapi/telnyx-assistants-api-openapi.yml\n  - openapi/telnyx-audio-api-openapi.yml\n  - openapi/telnyx-audit-logs-api-openapi.yml\n  - openapi/telnyx-authentication-providers-api-openapi.yml\n\
+  \  - openapi/telnyx-autorechargepreferences-api-openapi.yml\n  - openapi/telnyx-billing-api-openapi.yml\n  - openapi/telnyx-billing-groups-api-openapi.yml\n  - openapi/telnyx-brands-api-openapi.yml\n  - openapi/telnyx-bucket-ssl-certificate-api-openapi.yml\n  - openapi/telnyx-bucket-usage-api-openapi.yml\n  - openapi/telnyx-bulk-phone-number-campaigns-api-openapi.yml\n  - openapi/telnyx-bulk-phone-number-operations-api-openapi.yml\n  - openapi/telnyx-bundles-api-openapi.yml\n  - openapi/telnyx-call-commands-api-openapi.yml\n  - openapi/telnyx-call-control-applications-api-openapi.yml\n  - openapi/telnyx-call-information-api-openapi.yml\n  - openapi/telnyx-call-recordings-api-openapi.yml\n  - openapi/telnyx-callbacks-api-openapi.yml\n  - openapi/telnyx-campaign-api-openapi.yml\n  - openapi/telnyx-cdr-reports-api-openapi.yml\n  - openapi/telnyx-cdr-usage-reports-api-openapi.yml\n  - openapi/telnyx-charges-breakdown-api-openapi.yml\n  - openapi/telnyx-charges-summary-api-openapi.yml\n  -\
+  \ openapi/telnyx-chat-api-openapi.yml\n  - openapi/telnyx-clusters-api-openapi.yml\n  - openapi/telnyx-conference-commands-api-openapi.yml\n  - openapi/telnyx-connections-api-openapi.yml\n  - openapi/telnyx-conversations-api-openapi.yml\n  - openapi/telnyx-country-coverage-api-openapi.yml\n  - openapi/telnyx-coverage-api-openapi.yml\n  - openapi/telnyx-credential-connections-api-openapi.yml\n  - openapi/telnyx-credentials-api-openapi.yml\n  - openapi/telnyx-csv-downloads-api-openapi.yml\n  - openapi/telnyx-customer-service-record-api-openapi.yml\n  - openapi/telnyx-data-migration-api-openapi.yml\n  - openapi/telnyx-debugging-api-openapi.yml\n  - openapi/telnyx-detail-records-api-openapi.yml\n  - openapi/telnyx-dialogflow-integration-api-openapi.yml\n  - openapi/telnyx-documents-api-openapi.yml\n  - openapi/telnyx-dynamic-emergency-addresses-api-openapi.yml\n  - openapi/telnyx-dynamic-emergency-endpoints-api-openapi.yml\n  - openapi/telnyx-embeddings-api-openapi.yml\n  - openapi/telnyx-enterprises-api-openapi.yml\n\
+  \  - openapi/telnyx-enum-api-openapi.yml\n  - openapi/telnyx-external-connections-api-openapi.yml\n  - openapi/telnyx-fine-tuning-api-openapi.yml\n  - openapi/telnyx-fqdn-connections-api-openapi.yml\n  - openapi/telnyx-fqdns-api-openapi.yml\n  - openapi/telnyx-global-ips-api-openapi.yml\n  - openapi/telnyx-hosted-numbers-api-openapi.yml\n  - openapi/telnyx-inexplicit-number-orders-api-openapi.yml\n  - openapi/telnyx-integration-secrets-api-openapi.yml\n  - openapi/telnyx-integrations-api-openapi.yml\n  - openapi/telnyx-inventory-level-api-openapi.yml\n  - openapi/telnyx-invoices-api-openapi.yml\n  - openapi/telnyx-ip-addresses-api-openapi.yml\n  - openapi/telnyx-ip-connections-api-openapi.yml\n  - openapi/telnyx-ip-ranges-api-openapi.yml\n  - openapi/telnyx-ips-api-openapi.yml\n  - openapi/telnyx-managed-accounts-api-openapi.yml\n  - openapi/telnyx-mcp-servers-api-openapi.yml\n  - openapi/telnyx-mdr-detail-reports-api-openapi.yml\n  - openapi/telnyx-mdr-detailed-reports-api-openapi.yml\n\
+  \  - openapi/telnyx-mdr-usage-reports-api-openapi.yml\n  - openapi/telnyx-media-storage-api-api-openapi.yml\n  - openapi/telnyx-messages-api-openapi.yml\n  - openapi/telnyx-messaging-api-openapi.yml\n  - openapi/telnyx-messaging-url-domains-api-openapi.yml\n  - openapi/telnyx-missions-api-openapi.yml\n  - openapi/telnyx-mobile-network-operators-api-openapi.yml\n  - openapi/telnyx-mobile-number-settings-api-openapi.yml\n  - openapi/telnyx-mobile-phone-numbers-api-openapi.yml\n  - openapi/telnyx-mobile-voice-connections-api-openapi.yml\n  - openapi/telnyx-networks-api-openapi.yml\n  - openapi/telnyx-notifications-api-openapi.yml\n  - openapi/telnyx-number-lookup-api-openapi.yml\n  - openapi/telnyx-number-portout-api-openapi.yml\n  - openapi/telnyx-number-reputation-settings-api-openapi.yml\n  - openapi/telnyx-number-settings-api-openapi.yml\n  - openapi/telnyx-numbers-features-api-openapi.yml\n  - openapi/telnyx-oauth-clients-api-openapi.yml\n  - openapi/telnyx-oauth-discovery-api-openapi.yml\n\
+  \  - openapi/telnyx-oauth-grants-api-openapi.yml\n  - openapi/telnyx-oauth-protocol-api-openapi.yml\n  - openapi/telnyx-openai-chat-api-openapi.yml\n  - openapi/telnyx-openai-embeddings-api-openapi.yml\n  - openapi/telnyx-opt-out-management-api-openapi.yml\n  - openapi/telnyx-organization-users-api-openapi.yml\n  - openapi/telnyx-ota-updates-api-openapi.yml\n  - openapi/telnyx-outbound-voice-profiles-api-openapi.yml\n  - openapi/telnyx-phone-number-block-orders-api-openapi.yml\n  - openapi/telnyx-phone-number-blocks-background-jobs-api-openapi.yml\n  - openapi/telnyx-phone-number-campaigns-api-openapi.yml\n  - openapi/telnyx-phone-number-configurations-api-openapi.yml\n  - openapi/telnyx-phone-number-orders-api-openapi.yml\n  - openapi/telnyx-phone-number-porting-api-openapi.yml\n  - openapi/telnyx-phone-number-reservations-api-openapi.yml\n  - openapi/telnyx-phone-number-search-api-openapi.yml\n  - openapi/telnyx-porting-orders-api-openapi.yml\n  - openapi/telnyx-presigned-object-urls-api-openapi.yml\n\
+  \  - openapi/telnyx-private-wireless-gateways-api-openapi.yml\n  - openapi/telnyx-profiles-api-openapi.yml\n  - openapi/telnyx-programmable-fax-applications-api-openapi.yml\n  - openapi/telnyx-programmable-fax-commands-api-openapi.yml\n  - openapi/telnyx-pronunciation-dictionaries-api-openapi.yml\n  - openapi/telnyx-public-internet-gateways-api-openapi.yml\n  - openapi/telnyx-push-credentials-api-openapi.yml\n  - openapi/telnyx-queue-commands-api-openapi.yml\n  - openapi/telnyx-rcs-api-openapi.yml\n  - openapi/telnyx-regions-api-openapi.yml\n  - openapi/telnyx-regulatory-requirements-api-openapi.yml\n  - openapi/telnyx-reporting-api-openapi.yml\n  - openapi/telnyx-reports-api-openapi.yml\n  - openapi/telnyx-reputation-phone-numbers-api-openapi.yml\n  - openapi/telnyx-requirement-groups-api-openapi.yml\n  - openapi/telnyx-requirement-types-api-openapi.yml\n  - openapi/telnyx-requirements-api-openapi.yml\n  - openapi/telnyx-room-compositions-api-openapi.yml\n  - openapi/telnyx-room-participants-api-openapi.yml\n\
+  \  - openapi/telnyx-room-recordings-api-openapi.yml\n  - openapi/telnyx-room-sessions-api-openapi.yml\n  - openapi/telnyx-rooms-api-openapi.yml\n  - openapi/telnyx-rooms-client-tokens-api-openapi.yml\n  - openapi/telnyx-session-analysis-api-openapi.yml\n  - openapi/telnyx-seti-observability-api-openapi.yml\n  - openapi/telnyx-shared-campaigns-api-openapi.yml\n  - openapi/telnyx-short-codes-api-openapi.yml\n  - openapi/telnyx-sim-card-actions-api-openapi.yml\n  - openapi/telnyx-sim-card-group-actions-api-openapi.yml\n  - openapi/telnyx-sim-card-groups-api-openapi.yml\n  - openapi/telnyx-sim-card-orders-api-openapi.yml\n  - openapi/telnyx-sim-cards-api-openapi.yml\n  - openapi/telnyx-siprec-connectors-api-openapi.yml\n  - openapi/telnyx-speech-to-text-batch-reports-api-openapi.yml\n  - openapi/telnyx-speech-to-text-over-websockets-api-openapi.yml\n  - openapi/telnyx-speech-to-text-usage-reports-api-openapi.yml\n  - openapi/telnyx-stored-payment-transactions-api-openapi.yml\n  - openapi/telnyx-telco-data-usage-reports-api-openapi.yml\n\
+  \  - openapi/telnyx-terms-of-service-api-openapi.yml\n  - openapi/telnyx-texml-applications-api-openapi.yml\n  - openapi/telnyx-texml-rest-commands-api-openapi.yml\n  - openapi/telnyx-text-to-speech-commands-api-openapi.yml\n  - openapi/telnyx-traffic-policy-profiles-api-openapi.yml\n  - openapi/telnyx-uac-connections-api-openapi.yml\n  - openapi/telnyx-usage-reports-beta-api-openapi.yml\n  - openapi/telnyx-user-bundles-api-openapi.yml\n  - openapi/telnyx-user-tags-api-openapi.yml\n  - openapi/telnyx-useraddresses-api-openapi.yml\n  - openapi/telnyx-verification-requests-api-openapi.yml\n  - openapi/telnyx-verified-numbers-api-openapi.yml\n  - openapi/telnyx-verify-api-openapi.yml\n  - openapi/telnyx-virtual-cross-connects-api-openapi.yml\n  - openapi/telnyx-voice-channels-api-openapi.yml\n  - openapi/telnyx-voice-clones-api-openapi.yml\n  - openapi/telnyx-voice-designs-api-openapi.yml\n  - openapi/telnyx-voicemail-api-openapi.yml\n  - openapi/telnyx-wdr-detail-reports-api-openapi.yml\n\
+  \  - openapi/telnyx-webhooks-api-openapi.yml\n  - openapi/telnyx-whatsapp-business-accounts-api-openapi.yml\n  - openapi/telnyx-whatsapp-message-templates-api-openapi.yml\n  - openapi/telnyx-whatsapp-messaging-api-openapi.yml\n  - openapi/telnyx-whatsapp-phone-numbers-api-openapi.yml\n  - openapi/telnyx-wireguard-interfaces-api-openapi.yml\n  - openapi/telnyx-wireless-blocklists-api-openapi.yml\n  - openapi/telnyx-wireless-regions-api-openapi.yml\n  - openapi/telnyx-x402-payment-transactions-api-openapi.yml\n- name: Payment\n  type: x402\n  description: 'Pay-per-call inference without an account: POST https://x402.telnyx.com/v1/chat/completions returns\n    402 with a payment quote; retry with the signed EIP-3009 USDC quote in the X-Payment header (auth.md Method\n    3; `Payment` securityScheme in https://telnyx.com/openapi.json).'\n  sources:\n  - https://telnyx.com/auth.md\n  - https://telnyx.com/.well-known/x402\ndocs: https://developers.telnyx.com/docs/development/api-fundamentals/authentication\n\
+  details:\n  api_key:\n    header: 'Authorization: Bearer <TELNYX_API_KEY>'\n    issued_at: https://portal.telnyx.com/#/app/api-keys\n    note: Keys may carry an expiration date; the docs list a seven-step rotation lifecycle.\n    agent_signup: https://telnyx.com/agent-signup.md (programmatic bot-challenge signup named in auth.md; not exercised)\n  oauth2:\n    authorization_server: https://api.telnyx.com/.well-known/oauth-authorization-server\n    grants_supported:\n    - authorization_code\n    - client_credentials\n    - refresh_token\n    credential_types_supported:\n    - bearer_api_key\n    - oauth_pkce\n    pkce: S256 (auth.md Method 2)\n    scopes: scopes/telnyx-scopes.yml\n  unauthenticated_response: '401 with WWW-Authenticate: Bearer realm=\"Telnyx API\", error=\"invalid_token\" (auth.md)'\n  webhooks:\n    signature_headers:\n    - telnyx-timestamp\n    - telnyx-signature-ed25519\n    public_key: https://portal.telnyx.com/#/api-keys/public-key\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/authentication/telnyx-authentication.yml
-summary_line: http/oauth2 · 2 schemes
+summary_line: http/oauth2 · 3 schemes
 tags:
 - Communications
 - CPaaS
@@ -1390,4 +1427,10 @@ tags:
 - SMS
 - IoT
 - Telecommunications
+- Messaging
+- AI
+- MCP
+- Voice AI
+- Phone Numbers
+- Inference
 ---

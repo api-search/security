@@ -103,6 +103,8 @@
       <div class="cb-s">
         {%- if _cb.coverage.declared_members > _cb.coverage.resolved_members -%}
           of {{ _cb.coverage.declared_members }} on the roster
+        {%- elsif _cb.coverage.scored_members < _cb.coverage.resolved_members -%}
+          of {{ _cb.coverage.resolved_members }} in the catalog
         {%- else -%}
           all scored
         {%- endif -%}
@@ -266,13 +268,27 @@
     able to see that without asking.
   {%- endcomment -%}
   <div class="cb-prov">
+    {%- comment -%} roadmap#802: the old else-branch asserted "resolve to a SCORED provider" while
+      testing only declared vs resolved — false on 970 of 1,419 briefs. Branch on scored too, and
+      render the enrichment-depth caveat the generator writes, which was never shown. {%- endcomment -%}
     {%- if _cb.coverage.declared_members > _cb.coverage.resolved_members -%}
       This roster declares {{ _cb.coverage.declared_members }} members; {{ _cb.coverage.resolved_members }}
       resolve to a provider in the catalog and {{ _cb.coverage.scored_members }} carry a score
       ({{ _cb.coverage.scored_share_pct }}%). The figures above describe the scored members only.
+    {%- elsif _cb.coverage.scored_members < _cb.coverage.resolved_members -%}
+      All {{ _cb.coverage.resolved_members }} members of this roster resolve to a provider in the
+      catalog; {{ _cb.coverage.scored_members }} carry a score ({{ _cb.coverage.scored_share_pct }}%).
+      The figures above describe the scored members only.
     {%- else -%}
       All {{ _cb.coverage.resolved_members }} members of this roster resolve to a scored provider in
       the catalog.
+    {%- endif -%}
+    {%- assign _ed = _cb.coverage.enrichment_depth -%}
+    {%- if _ed and _ed.thinly_covered_of and _ed.thinly_covered_of > 0 -%}
+      {%- assign _thin_pct = _ed.thinly_covered | times: 100 | divided_by: _ed.thinly_covered_of -%}
+      {%- if _thin_pct >= 50 and _ed.thin_coverage_note -%}
+        <br><strong>Coverage caveat.</strong> {{ _ed.thin_coverage_note }}
+      {%- endif -%}
     {%- endif -%}
     Generated from the catalog build of
     {{ _cb_data.catalog_generated_at | date: "%-d %B %Y" }}, across {{ _cb_data.catalog_providers }}

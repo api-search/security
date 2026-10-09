@@ -1,0 +1,87 @@
+{%- comment -%}
+  One formal standard — a ratified or published specification, protocol, format, industry or
+  security standard — rendered from _data/standards_formal.yml, which scripts/build_standards.py
+  generates from the API Evangelist standards directory (api-evangelist/standards/_store).
+
+  The providers section is the point of the page and it is honest about its evidence: a provider
+  is listed because its OWN apis.json carries the standard's name as a tag. That is the provider
+  saying so, not APIs.io verifying it. Where the API Commons has MEASURED a standard (the de facto
+  six) the page says so and links the profile instead.
+{%- endcomment -%}
+{%- assign s = include.s -%}
+<style>
+  .fs-hero { padding: 1.5rem 0 1rem; border-bottom: 2px solid #e3e7ee; margin-bottom: 1.5rem; }
+  .fs-over { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700; color: #64748b; }
+  .fs-hero h1 { font-size: 1.9rem; margin: 0.25rem 0 0.5rem; }
+  .fs-desc { font-size: 1rem; color: #334155; max-width: 56rem; }
+  .fs-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.75rem; margin: 1.25rem 0; }
+  .fs-fact { border: 1px solid #e2e8f0; border-radius: 10px; padding: 0.7rem 0.9rem; background: #fff; }
+  .fs-fact b { display: block; font-size: 1.05rem; color: #0f172a; }
+  .fs-fact span { font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.4px; }
+  .fs-section { margin-top: 2rem; }
+  .fs-section h2 { font-size: 1.2rem; font-weight: 700; color: #1a1a2e; }
+  .fs-prov { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.5rem; }
+  .fs-prov a { display: flex; justify-content: space-between; gap: 0.5rem; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 0.75rem; text-decoration: none; color: #1a1a2e; font-size: 0.88rem; background: #fff; }
+  .fs-prov a:hover { border-color: #0d6efd; }
+  .fs-band { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; color: #64748b; white-space: nowrap; }
+  .fs-note { border-left: 4px solid #f59e0b; background: #fffbeb; padding: 0.7rem 1rem; margin: 1rem 0; font-size: 0.9rem; color: #78350f; border-radius: 0 6px 6px 0; }
+  .fs-posts li { margin-bottom: 0.3rem; }
+  .fs-prov-src { font-size: 0.8rem; color: #64748b; margin-top: 1.5rem; }
+  .fs-chips a { display: inline-block; margin: 0 0.35rem 0.35rem 0; padding: 0.2em 0.6em; border: 1px solid #e3e7ee; border-radius: 999px; font-size: 0.8rem; text-decoration: none; color: #1a1a2e; }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/standards/">Standards</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ s.name }}</li>
+  </ol>
+</nav>
+
+<div class="fs-hero">
+  <div class="fs-over">{{ s.domain_label }} &middot; {{ s.type | replace: '-', ' ' }}{% if s.governing_body %} &middot; {{ s.governing_body }}{% endif %}</div>
+  <h1>{{ s.title }}</h1>
+  <div class="fs-desc">{{ s.description | markdownify }}</div>
+  <div class="fs-facts">
+    {% if s.url %}<div class="fs-fact"><b><a href="{{ s.url }}" rel="noopener">{{ s.url | remove: 'https://' | remove: 'http://' | truncate: 34 }}</a></b><span>The standard</span></div>{% endif %}
+    {% if s.governing_body %}<div class="fs-fact"><b>{{ s.governing_body }}</b><span>Governing body{% if s.foundation %} &middot; {{ s.foundation }}{% endif %}</span></div>{% endif %}
+    {% if s.year_created %}<div class="fs-fact"><b>{{ s.year_created }}</b><span>First published</span></div>{% endif %}
+    {% if s.current_version %}<div class="fs-fact"><b>{{ s.current_version | truncate: 40 }}</b><span>Current version</span></div>{% endif %}
+    {% if s.machine_readable_schema %}<div class="fs-fact"><b>{{ s.machine_readable_schema | truncate: 40 }}</b><span>Machine-readable schema{% if s.schema_access %} &middot; {{ s.schema_access }}{% endif %}</span></div>{% endif %}
+    <div class="fs-fact"><b>{{ s.provider_count }}</b><span>providers in the catalog</span></div>
+  </div>
+  {% if s.alternative_names.size > 0 %}<p class="fs-desc" style="font-size:0.85rem;color:#64748b;">Also known as {{ s.alternative_names | join: ', ' }}.</p>{% endif %}
+</div>
+
+<div class="fs-section" id="providers">
+  <h2>Providers that carry {{ s.name }} <span style="font-weight:400;color:#64748b;">{{ s.provider_count }}</span></h2>
+  {% if s.provider_count > 0 %}
+  <p style="font-size:0.9rem;color:#4a5568;">These providers' own <a href="https://apisjson.org">APIs.json</a> profiles carry <strong>{{ s.name }}</strong> as a tag — the provider's statement that the standard is part of what it does. APIs.io has <em>not</em> verified the implementation on this page; the de facto profiles on this site are where that measurement exists. Ordered by Kin Score{% if s.provider_count > s.providers.size %}; the top {{ s.providers.size }} of {{ s.provider_count }} are shown, and <a href="https://apis.io/tags/{{ s.tag_slug }}/">the tag page</a> lists them all{% endif %}.</p>
+  <div class="fs-prov">
+    {% for p in s.providers %}<a href="https://apis.io/providers/{{ p.slug }}/"><span>{{ p.name }}</span>{% if p.band %}<span class="fs-band">{{ p.band }}{% if p.score %} · {{ p.score }}{% endif %}</span>{% endif %}</a>{% endfor %}
+  </div>
+  {% else %}
+  <div class="fs-note"><strong>No provider in the catalog carries this standard as a tag yet.</strong> That is a statement about the catalog's tagging, not about adoption: a provider that implements {{ s.name }} and says so in its APIs.json profile appears here on the next build. <a href="/add/">Add or correct a listing.</a></div>
+  {% endif %}
+</div>
+
+{% if s.related.size > 0 or s.regulations.size > 0 %}
+<div class="fs-section">
+  <h2>Related</h2>
+  <div class="fs-chips">
+    {% for r in s.related %}{% assign rs = site.data.standards_formal | where: 'slug', r | first %}{% if rs %}<a href="/standards/{{ r }}/">{{ rs.name }}</a>{% else %}<a href="https://standards.apievangelist.com/store/{{ r }}/" rel="noopener">{{ r }}</a>{% endif %}{% endfor %}
+    {% for r in s.regulations %}<a href="https://apis.io/regulations/{{ r }}/">{{ r | replace: '-', ' ' | upcase }}</a>{% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if s.posts.size > 0 %}
+<div class="fs-section">
+  <h2>Reading</h2>
+  <ul class="fs-posts">
+    {% for p in s.posts %}<li><a href="{{ p.url }}">{{ p.title }}</a>{% if p.date %} <span style="color:#9aa3b2;font-size:0.8rem;">{{ p.date }}</span>{% endif %}</li>{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<p class="fs-prov-src">Read from the <a href="{{ s.ae_url }}">API Evangelist standards directory</a>{% if s.facts_verified %}, facts verified {{ s.facts_verified }}{% endif %}. Provider links come from the catalog's own identity tags and are rebuilt nightly. If this page is wrong about a standard or a provider, <a href="/support/">say so</a>.</p>

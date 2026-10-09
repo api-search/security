@@ -46,16 +46,16 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 3
-method: derived
+mechanism_count: 4
+method: searched
 name: Infobip Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
-overview: Infobip secures its APIs with apiKey, http, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
+overview: Infobip secures its APIs with apiKey, http, and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
 provider_name: Infobip
 provider_slug: infobip
-scheme_count: 3
+scheme_count: 4
 schemes:
 - description: 'This is the most secure authorization type and the one with the most flexibility.
 
@@ -67,53 +67,12 @@ schemes:
   name: APIKeyHeader
   parameter: Authorization
   sources:
-  - openapi/infobip-2fa-openapi.json
-  - openapi/infobip-account-management-openapi.json
-  - openapi/infobip-ai-assistants-openapi.json
-  - openapi/infobip-answers-openapi.json
-  - openapi/infobip-apple-mfb-openapi.json
-  - openapi/infobip-application-entity-openapi.json
-  - openapi/infobip-billing-usage-api-openapi.json
-  - openapi/infobip-biometrics-openapi.json
-  - openapi/infobip-blocklist-openapi.json
-  - openapi/infobip-camara-openapi.json
-  - openapi/infobip-catalogs-api-openapi.json
-  - openapi/infobip-common-assets-openapi.json
-  - openapi/infobip-conversations-openapi.json
-  - openapi/infobip-email-openapi.json
-  - openapi/infobip-instagram-openapi.json
-  - openapi/infobip-kakao-openapi.json
-  - openapi/infobip-knowledge-base-openapi.json
-  - openapi/infobip-line-openapi.json
-  - openapi/infobip-live-chat-openapi.json
-  - openapi/infobip-messages-api-openapi.json
-  - openapi/infobip-messenger-openapi.json
-  - openapi/infobip-metrics-api-openapi.json
-  - openapi/infobip-mms-openapi.json
-  - openapi/infobip-mobile-app-messaging-openapi.json
-  - openapi/infobip-mobile-identity-openapi.json
-  - openapi/infobip-moments-openapi.json
-  - openapi/infobip-number-activation-state-openapi.json
-  - openapi/infobip-number-lookup-openapi.json
-  - openapi/infobip-numbers-openapi.json
-  - openapi/infobip-omni-failover-openapi.json
-  - openapi/infobip-open-channel-openapi.json
-  - openapi/infobip-openapi-openapi.json
-  - openapi/infobip-people-openapi.json
-  - openapi/infobip-platform-full-openapi.json
-  - openapi/infobip-rcs-openapi.json
-  - openapi/infobip-resources-openapi.json
-  - openapi/infobip-sending-strategy-openapi.json
-  - openapi/infobip-signals-openapi.json
-  - openapi/infobip-sms-openapi.json
-  - openapi/infobip-subscriptions-api-openapi.json
-  - openapi/infobip-tiktok-openapi.json
-  - openapi/infobip-viber-openapi.json
-  - openapi/infobip-vocalize-openapi.json
-  - openapi/infobip-voice-openapi.json
-  - openapi/infobip-webrtc-calls-openapi.json
-  - openapi/infobip-whatsapp-openapi.json
-  - openapi/infobip-zalo-openapi.json
+  - openapi/infobip-ai-hub-api-openapi.yml
+  - openapi/infobip-channels-api-openapi.yml
+  - openapi/infobip-connectivity-api-openapi.yml
+  - openapi/infobip-customer-engagement-api-openapi.yml
+  - openapi/infobip-platform-api-openapi.yml
+  - openapi/infobip-tools-api-openapi.yml
   type: apiKey
 - description: 'Basic authorization type can be used in situations when the API key is not available. For example, API methods for generating API keys should be authenticated
 
@@ -129,53 +88,12 @@ schemes:
   name: Basic
   scheme: basic
   sources:
-  - openapi/infobip-2fa-openapi.json
-  - openapi/infobip-account-management-openapi.json
-  - openapi/infobip-ai-assistants-openapi.json
-  - openapi/infobip-answers-openapi.json
-  - openapi/infobip-apple-mfb-openapi.json
-  - openapi/infobip-application-entity-openapi.json
-  - openapi/infobip-billing-usage-api-openapi.json
-  - openapi/infobip-biometrics-openapi.json
-  - openapi/infobip-blocklist-openapi.json
-  - openapi/infobip-camara-openapi.json
-  - openapi/infobip-catalogs-api-openapi.json
-  - openapi/infobip-common-assets-openapi.json
-  - openapi/infobip-conversations-openapi.json
-  - openapi/infobip-email-openapi.json
-  - openapi/infobip-instagram-openapi.json
-  - openapi/infobip-kakao-openapi.json
-  - openapi/infobip-knowledge-base-openapi.json
-  - openapi/infobip-line-openapi.json
-  - openapi/infobip-live-chat-openapi.json
-  - openapi/infobip-messages-api-openapi.json
-  - openapi/infobip-messenger-openapi.json
-  - openapi/infobip-metrics-api-openapi.json
-  - openapi/infobip-mms-openapi.json
-  - openapi/infobip-mobile-app-messaging-openapi.json
-  - openapi/infobip-mobile-identity-openapi.json
-  - openapi/infobip-moments-openapi.json
-  - openapi/infobip-number-activation-state-openapi.json
-  - openapi/infobip-number-lookup-openapi.json
-  - openapi/infobip-numbers-openapi.json
-  - openapi/infobip-omni-failover-openapi.json
-  - openapi/infobip-open-channel-openapi.json
-  - openapi/infobip-openapi-openapi.json
-  - openapi/infobip-people-openapi.json
-  - openapi/infobip-platform-full-openapi.json
-  - openapi/infobip-rcs-openapi.json
-  - openapi/infobip-resources-openapi.json
-  - openapi/infobip-sending-strategy-openapi.json
-  - openapi/infobip-signals-openapi.json
-  - openapi/infobip-sms-openapi.json
-  - openapi/infobip-subscriptions-api-openapi.json
-  - openapi/infobip-tiktok-openapi.json
-  - openapi/infobip-viber-openapi.json
-  - openapi/infobip-vocalize-openapi.json
-  - openapi/infobip-voice-openapi.json
-  - openapi/infobip-webrtc-calls-openapi.json
-  - openapi/infobip-whatsapp-openapi.json
-  - openapi/infobip-zalo-openapi.json
+  - openapi/infobip-ai-hub-api-openapi.yml
+  - openapi/infobip-channels-api-openapi.yml
+  - openapi/infobip-connectivity-api-openapi.yml
+  - openapi/infobip-customer-engagement-api-openapi.yml
+  - openapi/infobip-platform-api-openapi.yml
+  - openapi/infobip-tools-api-openapi.yml
   type: http
 - description: 'Similarly to the IBSSO Token authentication you can use OAuth 2.0 bearer token with Infobip serving both as resource and authorization server. You can obtain
 
@@ -188,69 +106,32 @@ schemes:
     tokenUrl: https://api.infobip.com/auth/1/oauth2/token
   name: OAuth2
   sources:
-  - openapi/infobip-2fa-openapi.json
-  - openapi/infobip-account-management-openapi.json
-  - openapi/infobip-ai-assistants-openapi.json
-  - openapi/infobip-answers-openapi.json
-  - openapi/infobip-apple-mfb-openapi.json
-  - openapi/infobip-application-entity-openapi.json
-  - openapi/infobip-billing-usage-api-openapi.json
-  - openapi/infobip-biometrics-openapi.json
-  - openapi/infobip-blocklist-openapi.json
-  - openapi/infobip-camara-openapi.json
-  - openapi/infobip-catalogs-api-openapi.json
-  - openapi/infobip-common-assets-openapi.json
-  - openapi/infobip-conversations-openapi.json
-  - openapi/infobip-email-openapi.json
-  - openapi/infobip-instagram-openapi.json
-  - openapi/infobip-kakao-openapi.json
-  - openapi/infobip-knowledge-base-openapi.json
-  - openapi/infobip-line-openapi.json
-  - openapi/infobip-live-chat-openapi.json
-  - openapi/infobip-messages-api-openapi.json
-  - openapi/infobip-messenger-openapi.json
-  - openapi/infobip-metrics-api-openapi.json
-  - openapi/infobip-mms-openapi.json
-  - openapi/infobip-mobile-app-messaging-openapi.json
-  - openapi/infobip-mobile-identity-openapi.json
-  - openapi/infobip-moments-openapi.json
-  - openapi/infobip-number-activation-state-openapi.json
-  - openapi/infobip-number-lookup-openapi.json
-  - openapi/infobip-numbers-openapi.json
-  - openapi/infobip-omni-failover-openapi.json
-  - openapi/infobip-open-channel-openapi.json
-  - openapi/infobip-openapi-openapi.json
-  - openapi/infobip-people-openapi.json
-  - openapi/infobip-platform-full-openapi.json
-  - openapi/infobip-rcs-openapi.json
-  - openapi/infobip-resources-openapi.json
-  - openapi/infobip-sending-strategy-openapi.json
-  - openapi/infobip-signals-openapi.json
-  - openapi/infobip-sms-openapi.json
-  - openapi/infobip-subscriptions-api-openapi.json
-  - openapi/infobip-tiktok-openapi.json
-  - openapi/infobip-viber-openapi.json
-  - openapi/infobip-vocalize-openapi.json
-  - openapi/infobip-voice-openapi.json
-  - openapi/infobip-webrtc-calls-openapi.json
-  - openapi/infobip-whatsapp-openapi.json
-  - openapi/infobip-zalo-openapi.json
+  - openapi/infobip-ai-hub-api-openapi.yml
+  - openapi/infobip-channels-api-openapi.yml
+  - openapi/infobip-connectivity-api-openapi.yml
+  - openapi/infobip-customer-engagement-api-openapi.yml
+  - openapi/infobip-platform-api-openapi.yml
+  - openapi/infobip-tools-api-openapi.yml
   type: oauth2
+- description: Session token obtained from the Create session operation (POST /auth/1/session); expires after a period of inactivity and can be terminated by the Destroy session operation. Intended for apps that must not store Infobip credentials.
+  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#ibsso-token-header
+  format: IBSSO {session-token}
+  header: Authorization
+  in: header
+  name: IBSSOTokenHeader
+  source: openapi securityScheme IBSSOTokenHeader
+  type: apiKey
 slug: infobip-authentication
 source_filename: infobip-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: derived\nsource: openapi/infobip-2fa-openapi.json, openapi/infobip-account-management-openapi.json, openapi/infobip-ai-assistants-openapi.json,\n  openapi/infobip-answers-openapi.json, openapi/infobip-apple-mfb-openapi.json, openapi/infobip-application-entity-openapi.json,\n  openapi/infobip-billing-usage-api-openapi.json, openapi/infobip-biometrics-openapi.json, openapi/infobip-blocklist-openapi.json,\n  openapi/infobip-camara-openapi.json, openapi/infobip-catalogs-api-openapi.json, openapi/infobip-common-assets-openapi.json\n  ...\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    This is the most secure authorization type and the one with the most flexibility.\n\n    API keys can be generated by calling the dedicated API method. Furthermore, API keys can have\
-  \ a limited scope and cover only some API methods. Lastly, they can\n    be revoked at any time. This range of possibilities makes API keys well suited for separating the API access rights across multiple applications or use cases\n  sources:\n  - openapi/infobip-2fa-openapi.json\n  - openapi/infobip-account-management-openapi.json\n  - openapi/infobip-ai-assistants-openapi.json\n  - openapi/infobip-answers-openapi.json\n  - openapi/infobip-apple-mfb-openapi.json\n  - openapi/infobip-application-entity-openapi.json\n  - openapi/infobip-billing-usage-api-openapi.json\n  - openapi/infobip-biometrics-openapi.json\n  - openapi/infobip-blocklist-openapi.json\n  - openapi/infobip-camara-openapi.json\n  - openapi/infobip-catalogs-api-openapi.json\n  - openapi/infobip-common-assets-openapi.json\n  - openapi/infobip-conversations-openapi.json\n  - openapi/infobip-email-openapi.json\n  - openapi/infobip-instagram-openapi.json\n  - openapi/infobip-kakao-openapi.json\n  - openapi/infobip-knowledge-base-openapi.json\n\
-  \  - openapi/infobip-line-openapi.json\n  - openapi/infobip-live-chat-openapi.json\n  - openapi/infobip-messages-api-openapi.json\n  - openapi/infobip-messenger-openapi.json\n  - openapi/infobip-metrics-api-openapi.json\n  - openapi/infobip-mms-openapi.json\n  - openapi/infobip-mobile-app-messaging-openapi.json\n  - openapi/infobip-mobile-identity-openapi.json\n  - openapi/infobip-moments-openapi.json\n  - openapi/infobip-number-activation-state-openapi.json\n  - openapi/infobip-number-lookup-openapi.json\n  - openapi/infobip-numbers-openapi.json\n  - openapi/infobip-omni-failover-openapi.json\n  - openapi/infobip-open-channel-openapi.json\n  - openapi/infobip-openapi-openapi.json\n  - openapi/infobip-people-openapi.json\n  - openapi/infobip-platform-full-openapi.json\n  - openapi/infobip-rcs-openapi.json\n  - openapi/infobip-resources-openapi.json\n  - openapi/infobip-sending-strategy-openapi.json\n  - openapi/infobip-signals-openapi.json\n  - openapi/infobip-sms-openapi.json\n  - openapi/infobip-subscriptions-api-openapi.json\n\
-  \  - openapi/infobip-tiktok-openapi.json\n  - openapi/infobip-viber-openapi.json\n  - openapi/infobip-vocalize-openapi.json\n  - openapi/infobip-voice-openapi.json\n  - openapi/infobip-webrtc-calls-openapi.json\n  - openapi/infobip-whatsapp-openapi.json\n  - openapi/infobip-zalo-openapi.json\n- name: Basic\n  type: http\n  scheme: basic\n  description: \"Basic authorization type can be used in situations when the API key is not available.\\\n    \\ For example, API methods for generating API keys should be authenticated\\nwith the Basic\\\n    \\ type.\\n\\nIn this case, the credentials included in the Authorization header should be\\\n    \\ a Base64 encoded username and password combination. More formally, basic\\nauthentication\\\n    \\ header can be constructed in three steps:\\n\\n* Username \"\n  sources:\n  - openapi/infobip-2fa-openapi.json\n  - openapi/infobip-account-management-openapi.json\n  - openapi/infobip-ai-assistants-openapi.json\n  - openapi/infobip-answers-openapi.json\n\
-  \  - openapi/infobip-apple-mfb-openapi.json\n  - openapi/infobip-application-entity-openapi.json\n  - openapi/infobip-billing-usage-api-openapi.json\n  - openapi/infobip-biometrics-openapi.json\n  - openapi/infobip-blocklist-openapi.json\n  - openapi/infobip-camara-openapi.json\n  - openapi/infobip-catalogs-api-openapi.json\n  - openapi/infobip-common-assets-openapi.json\n  - openapi/infobip-conversations-openapi.json\n  - openapi/infobip-email-openapi.json\n  - openapi/infobip-instagram-openapi.json\n  - openapi/infobip-kakao-openapi.json\n  - openapi/infobip-knowledge-base-openapi.json\n  - openapi/infobip-line-openapi.json\n  - openapi/infobip-live-chat-openapi.json\n  - openapi/infobip-messages-api-openapi.json\n  - openapi/infobip-messenger-openapi.json\n  - openapi/infobip-metrics-api-openapi.json\n  - openapi/infobip-mms-openapi.json\n  - openapi/infobip-mobile-app-messaging-openapi.json\n  - openapi/infobip-mobile-identity-openapi.json\n  - openapi/infobip-moments-openapi.json\n\
-  \  - openapi/infobip-number-activation-state-openapi.json\n  - openapi/infobip-number-lookup-openapi.json\n  - openapi/infobip-numbers-openapi.json\n  - openapi/infobip-omni-failover-openapi.json\n  - openapi/infobip-open-channel-openapi.json\n  - openapi/infobip-openapi-openapi.json\n  - openapi/infobip-people-openapi.json\n  - openapi/infobip-platform-full-openapi.json\n  - openapi/infobip-rcs-openapi.json\n  - openapi/infobip-resources-openapi.json\n  - openapi/infobip-sending-strategy-openapi.json\n  - openapi/infobip-signals-openapi.json\n  - openapi/infobip-sms-openapi.json\n  - openapi/infobip-subscriptions-api-openapi.json\n  - openapi/infobip-tiktok-openapi.json\n  - openapi/infobip-viber-openapi.json\n  - openapi/infobip-vocalize-openapi.json\n  - openapi/infobip-voice-openapi.json\n  - openapi/infobip-webrtc-calls-openapi.json\n  - openapi/infobip-whatsapp-openapi.json\n  - openapi/infobip-zalo-openapi.json\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n\
-  \    tokenUrl: https://api.infobip.com/auth/1/oauth2/token\n    scopes: 0\n  description: |-\n    Similarly to the IBSSO Token authentication you can use OAuth 2.0 bearer token with Infobip serving both as resource and authorization server. You can obtain\n    the access token using the client credentials grant from `auth/1/oauth2/token` endpoint. It will provide you with your access token, and its expiration period.\n    You can use the token to authorize your API calls until it expires. You can find o\n  sources:\n  - openapi/infobip-2fa-openapi.json\n  - openapi/infobip-account-management-openapi.json\n  - openapi/infobip-ai-assistants-openapi.json\n  - openapi/infobip-answers-openapi.json\n  - openapi/infobip-apple-mfb-openapi.json\n  - openapi/infobip-application-entity-openapi.json\n  - openapi/infobip-billing-usage-api-openapi.json\n  - openapi/infobip-biometrics-openapi.json\n  - openapi/infobip-blocklist-openapi.json\n  - openapi/infobip-camara-openapi.json\n  - openapi/infobip-catalogs-api-openapi.json\n\
-  \  - openapi/infobip-common-assets-openapi.json\n  - openapi/infobip-conversations-openapi.json\n  - openapi/infobip-email-openapi.json\n  - openapi/infobip-instagram-openapi.json\n  - openapi/infobip-kakao-openapi.json\n  - openapi/infobip-knowledge-base-openapi.json\n  - openapi/infobip-line-openapi.json\n  - openapi/infobip-live-chat-openapi.json\n  - openapi/infobip-messages-api-openapi.json\n  - openapi/infobip-messenger-openapi.json\n  - openapi/infobip-metrics-api-openapi.json\n  - openapi/infobip-mms-openapi.json\n  - openapi/infobip-mobile-app-messaging-openapi.json\n  - openapi/infobip-mobile-identity-openapi.json\n  - openapi/infobip-moments-openapi.json\n  - openapi/infobip-number-activation-state-openapi.json\n  - openapi/infobip-number-lookup-openapi.json\n  - openapi/infobip-numbers-openapi.json\n  - openapi/infobip-omni-failover-openapi.json\n  - openapi/infobip-open-channel-openapi.json\n  - openapi/infobip-openapi-openapi.json\n  - openapi/infobip-people-openapi.json\n\
-  \  - openapi/infobip-platform-full-openapi.json\n  - openapi/infobip-rcs-openapi.json\n  - openapi/infobip-resources-openapi.json\n  - openapi/infobip-sending-strategy-openapi.json\n  - openapi/infobip-signals-openapi.json\n  - openapi/infobip-sms-openapi.json\n  - openapi/infobip-subscriptions-api-openapi.json\n  - openapi/infobip-tiktok-openapi.json\n  - openapi/infobip-viber-openapi.json\n  - openapi/infobip-vocalize-openapi.json\n  - openapi/infobip-voice-openapi.json\n  - openapi/infobip-webrtc-calls-openapi.json\n  - openapi/infobip-whatsapp-openapi.json\n  - openapi/infobip-zalo-openapi.json\n"
+source_yaml: "generated: '2026-10-08'\nmethod: searched\nsource: https://www.infobip.com/docs/essentials/api-essentials/api-authentication (read as .md twin) + openapi/_original/infobip-platform-full-openapi.json components.securitySchemes (version 3.245.1)\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'This is the most secure authorization type and the one with the most flexibility.\n\n\n    API keys can be generated by calling the dedicated API method. Furthermore, API keys can have a limited scope and cover only some API methods. Lastly, they can\n\n    be revoked at any time. This range of possibilities makes API keys well suited for separating the API access rights across multiple applications or use cases'\n  sources:\n  - openapi/infobip-ai-hub-api-openapi.yml\n  - openapi/infobip-channels-api-openapi.yml\n\
+  \  - openapi/infobip-connectivity-api-openapi.yml\n  - openapi/infobip-customer-engagement-api-openapi.yml\n  - openapi/infobip-platform-api-openapi.yml\n  - openapi/infobip-tools-api-openapi.yml\n- name: Basic\n  type: http\n  scheme: basic\n  description: 'Basic authorization type can be used in situations when the API key is not available. For example, API methods for generating API keys should be authenticated\n\n    with the Basic type.\n\n\n    In this case, the credentials included in the Authorization header should be a Base64 encoded username and password combination. More formally, basic\n\n    authentication header can be constructed in three steps:\n\n\n    * Username '\n  sources:\n  - openapi/infobip-ai-hub-api-openapi.yml\n  - openapi/infobip-channels-api-openapi.yml\n  - openapi/infobip-connectivity-api-openapi.yml\n  - openapi/infobip-customer-engagement-api-openapi.yml\n  - openapi/infobip-platform-api-openapi.yml\n  - openapi/infobip-tools-api-openapi.yml\n- name: OAuth2\n\
+  \  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.infobip.com/auth/1/oauth2/token\n    scopes: 0\n  description: 'Similarly to the IBSSO Token authentication you can use OAuth 2.0 bearer token with Infobip serving both as resource and authorization server. You can obtain\n\n    the access token using the client credentials grant from `auth/1/oauth2/token` endpoint. It will provide you with your access token, and its expiration period.\n\n    You can use the token to authorize your API calls until it expires. You can find o'\n  sources:\n  - openapi/infobip-ai-hub-api-openapi.yml\n  - openapi/infobip-channels-api-openapi.yml\n  - openapi/infobip-connectivity-api-openapi.yml\n  - openapi/infobip-customer-engagement-api-openapi.yml\n  - openapi/infobip-platform-api-openapi.yml\n  - openapi/infobip-tools-api-openapi.yml\n- name: IBSSOTokenHeader\n  type: apiKey\n  in: header\n  header: Authorization\n  format: IBSSO {session-token}\n  description: Session token\
+  \ obtained from the Create session operation (POST /auth/1/session); expires after a period of inactivity and can be terminated by the Destroy session operation. Intended for apps that must not store Infobip credentials.\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#ibsso-token-header\n  source: openapi securityScheme IBSSOTokenHeader\ndocs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication\nheader_formats:\n  APIKeyHeader: 'Authorization: App {api-key}'\n  Basic: 'Authorization: Basic {base64(username:password)}'\n  IBSSOTokenHeader: 'Authorization: IBSSO {session-token}'\n  OAuth2: 'Authorization: Bearer {access_token}'\noauth2:\n  grant: client_credentials\n  token_endpoint: https://api.infobip.com/auth/1/oauth2/token\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#oauth-20\n  note: Infobip is both resource and authorization server; the spec describes the client-credentials grant against\
+  \ auth/1/oauth2/token.\nscoping:\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n  note: API keys and Basic credentials can be restricted to API scopes; every operation in the OpenAPI carries x-scopes listing the scopes it accepts (see scopes/infobip-scopes.yml).\nerror_response:\n  status: 401\n  docs: https://www.infobip.com/docs/essentials/api-essentials/api-authentication#errors\n  example:\n    requestError:\n      serviceException:\n        messageId: UNAUTHORIZED\n        text: Invalid login details\n  note: 'Verbatim from the authentication docs: \"Commonly you will get the 401 Unauthorised HTTP status code in response when there is a missing or invalid username or password.\"'\nrecommended: APIKeyHeader (the docs call it the most secure authorization type and the one with the most flexibility)\ndocs_authorization: https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/authentication/infobip-authentication.yml
-summary_line: apiKey/http/oauth2 · 3 schemes
+summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Telecommunications
 - Croatia

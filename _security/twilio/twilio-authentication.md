@@ -644,6 +644,246 @@ api_specs:
   slug: twilio-sims-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-sims-api-openapi.yml
+- filename: twilio-knowledge-api-openapi.yml
+  format: yaml
+  label: Twilio Enterprise Knowledge API
+  slug: twilio-enterprise-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-knowledge-api-openapi.yml
+- filename: twilio-chatv3channel-api-openapi.yml
+  format: yaml
+  label: Twilio Chat V3Channel API
+  slug: twilio-chatv3channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-chatv3channel-api-openapi.yml
+- filename: twilio-configurations-api-openapi.yml
+  format: yaml
+  label: Twilio Configurations API
+  slug: twilio-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-configurations-api-openapi.yml
+- filename: twilio-contentv2content-api-openapi.yml
+  format: yaml
+  label: Twilio Content V2Content API
+  slug: twilio-contentv2content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-contentv2content-api-openapi.yml
+- filename: twilio-contentv2contentandapprovals-api-openapi.yml
+  format: yaml
+  label: Twilio Content V2Content And Approvals API
+  slug: twilio-contentv2contentandapprovals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-contentv2contentandapprovals-api-openapi.yml
+- filename: twilio-conversationsummaries-api-openapi.yml
+  format: yaml
+  label: Twilio Conversation Summaries API
+  slug: twilio-conversationsummaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-conversationsummaries-api-openapi.yml
+- filename: twilio-datamapping-api-openapi.yml
+  format: yaml
+  label: Twilio Data Mapping API
+  slug: twilio-datamapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-datamapping-api-openapi.yml
+- filename: twilio-iamv1apikey-api-openapi.yml
+  format: yaml
+  label: Twilio Iam V1Api Key API
+  slug: twilio-iamv1apikey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-iamv1apikey-api-openapi.yml
+- filename: twilio-iamv1getapikeys-api-openapi.yml
+  format: yaml
+  label: Twilio Iam V1Get API Keys API
+  slug: twilio-iamv1getapikeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-iamv1getapikeys-api-openapi.yml
+- filename: twilio-iamv1newapikey-api-openapi.yml
+  format: yaml
+  label: Twilio Iam V1New API Key API
+  slug: twilio-iamv1newapikey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-iamv1newapikey-api-openapi.yml
+- filename: twilio-iamv1rolepermission-api-openapi.yml
+  format: yaml
+  label: Twilio Iam V1Role Permission API
+  slug: twilio-iamv1rolepermission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-iamv1rolepermission-api-openapi.yml
+- filename: twilio-identifiers-api-openapi.yml
+  format: yaml
+  label: Twilio Identifiers API
+  slug: twilio-identifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-identifiers-api-openapi.yml
+- filename: twilio-identityresolutionsettings-api-openapi.yml
+  format: yaml
+  label: Twilio Identity Resolution Settings API
+  slug: twilio-identityresolutionsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-identityresolutionsettings-api-openapi.yml
+- filename: twilio-knowledgebases-api-openapi.yml
+  format: yaml
+  label: Twilio Knowledge Bases API
+  slug: twilio-knowledgebases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-knowledgebases-api-openapi.yml
+- filename: twilio-messagingv3typingindicator-api-openapi.yml
+  format: yaml
+  label: Twilio Messaging V3Typing Indicator API
+  slug: twilio-messagingv3typingindicator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-messagingv3typingindicator-api-openapi.yml
+- filename: twilio-numbersv3hostednumbershostednumberorder-api-openapi.yml
+  format: yaml
+  label: Twilio Numbers V3Hosted Numbers Hosted Number Order API
+  slug: twilio-numbersv3hostednumbershostednumberorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-numbersv3hostednumbershostednumberorder-api-openapi.yml
+- filename: twilio-oauth2-api-openapi.yml
+  format: yaml
+  label: Twilio Oauth2 API
+  slug: twilio-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-oauth2-api-openapi.yml
+- filename: twilio-oauthv1authorize-api-openapi.yml
+  format: yaml
+  label: Twilio OAUTH V1Authorize API
+  slug: twilio-oauthv1authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-oauthv1authorize-api-openapi.yml
+- filename: twilio-oauthv1token-api-openapi.yml
+  format: yaml
+  label: Twilio OAUTH V1Token API
+  slug: twilio-oauthv1token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-oauthv1token-api-openapi.yml
+- filename: twilio-oauthv2authorize-api-openapi.yml
+  format: yaml
+  label: Twilio OAUTH V2Authorize API
+  slug: twilio-oauthv2authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-oauthv2authorize-api-openapi.yml
+- filename: twilio-oauthv2metadata-api-openapi.yml
+  format: yaml
+  label: Twilio OAUTH V2Metadata API
+  slug: twilio-oauthv2metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-oauthv2metadata-api-openapi.yml
+- filename: twilio-oauthv2token-api-openapi.yml
+  format: yaml
+  label: Twilio OAUTH V2Token API
+  slug: twilio-oauthv2token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-oauthv2token-api-openapi.yml
+- filename: twilio-observations-api-openapi.yml
+  format: yaml
+  label: Twilio Observations API
+  slug: twilio-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-observations-api-openapi.yml
+- filename: twilio-operations-api-openapi.yml
+  format: yaml
+  label: Twilio Operations API
+  slug: twilio-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-operations-api-openapi.yml
+- filename: twilio-operatorresults-api-openapi.yml
+  format: yaml
+  label: Twilio Operator Results API
+  slug: twilio-operatorresults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-operatorresults-api-openapi.yml
+- filename: twilio-operators-api-openapi.yml
+  format: yaml
+  label: Twilio Operators API
+  slug: twilio-operators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-operators-api-openapi.yml
+- filename: twilio-organizationaccounts-api-openapi.yml
+  format: yaml
+  label: Twilio Organization Accounts API
+  slug: twilio-organizationaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-organizationaccounts-api-openapi.yml
+- filename: twilio-profile-api-openapi.yml
+  format: yaml
+  label: Twilio Profile API
+  slug: twilio-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-profile-api-openapi.yml
+- filename: twilio-retrieval-api-openapi.yml
+  format: yaml
+  label: Twilio Retrieval API
+  slug: twilio-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-retrieval-api-openapi.yml
+- filename: twilio-routesv3phonenumber-api-openapi.yml
+  format: yaml
+  label: Twilio Routes V3Phone Number API
+  slug: twilio-routesv3phonenumber-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-routesv3phonenumber-api-openapi.yml
+- filename: twilio-routesv3shortcode-api-openapi.yml
+  format: yaml
+  label: Twilio Routes V3Short Code API
+  slug: twilio-routesv3shortcode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-routesv3shortcode-api-openapi.yml
+- filename: twilio-ruleexecutions-api-openapi.yml
+  format: yaml
+  label: Twilio Rule Executions API
+  slug: twilio-ruleexecutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-ruleexecutions-api-openapi.yml
+- filename: twilio-scim-api-openapi.yml
+  format: yaml
+  label: Twilio SCIM API
+  slug: twilio-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-scim-api-openapi.yml
+- filename: twilio-store-api-openapi.yml
+  format: yaml
+  label: Twilio Store API
+  slug: twilio-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-store-api-openapi.yml
+- filename: twilio-traitgroup-api-openapi.yml
+  format: yaml
+  label: Twilio Trait Group API
+  slug: twilio-traitgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-traitgroup-api-openapi.yml
+- filename: twilio-traits-api-openapi.yml
+  format: yaml
+  label: Twilio Traits API
+  slug: twilio-traits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-traits-api-openapi.yml
+- filename: twilio-twilioinsights-api-openapi.yml
+  format: yaml
+  label: Twilio Twilio Insights API
+  slug: twilio-twilioinsights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-twilioinsights-api-openapi.yml
+- filename: twilio-twilioinsightsasync-api-openapi.yml
+  format: yaml
+  label: Twilio Twilio Insights Async API
+  slug: twilio-twilioinsightsasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-twilioinsightsasync-api-openapi.yml
+- filename: twilio-twilioinsightsconfig-api-openapi.yml
+  format: yaml
+  label: Twilio Twilio Insights Config API
+  slug: twilio-twilioinsightsconfig-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-twilioinsightsconfig-api-openapi.yml
+- filename: twilio-v3transcriptions-api-openapi.yml
+  format: yaml
+  label: Twilio V3Transcriptions API
+  slug: twilio-v3transcriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-v3transcriptions-api-openapi.yml
 - filename: twilio-customer-profiles-api-openapi.yml
   format: yaml
   label: Twilio Customer Profiles API
@@ -668,6 +908,12 @@ api_specs:
   slug: twilio-recording-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-recording-settings-api-openapi.yml
+- filename: twilio-role-assignments-api-openapi.yml
+  format: yaml
+  label: Twilio Role Assignments API
+  slug: twilio-role-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-role-assignments-api-openapi.yml
 - filename: twilio-usage-records-api-openapi.yml
   format: yaml
   label: Twilio Usage Records API
@@ -676,77 +922,190 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/openapi/twilio-usage-records-api-openapi.yml
 auth_types:
 - http
-description: ''
+- oauth2
+description: Twilio REST APIs authenticate with HTTP Basic (Account SID + Auth Token, or API Key SID + Secret, keys SK...) on every product; since 2026-04-06 OAuth 2.0 is GA for Twilio Communications APIs (client credentials, RFC 6749 section 4.4) and since 2026-07-03 for organization APIs, which accept OAuth 2.0 only. The v2 token endpoint is https://oauth.twilio.com/v2/token (expires_in 3600); authorization-server metadata (RFC 8414) is served at https://oauth.twilio.com/.well-known/oauth-authorization-server with grant_types authorization_code, client_credentials, refresh_token and PKCE S256. Outbound webhooks can be authenticated to the customer endpoint with OAuth 2.0 client credentials, Basic or Digest (webhook auth profiles).
 kind: authentication
 layout: security
-mechanism_count: 2
-method: derived
+mechanism_count: 3
+method: searched
 name: Twilio Authentication
 name_suffix: Authentication
-oauth_flows: []
-overview: Twilio secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+oauth_flows:
+- clientCredentials
+overview: Twilio secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).
 provider_name: Twilio
 provider_slug: twilio
-scheme_count: 2
+scheme_count: 3
 schemes:
-- name: accountSid_authToken
+- credentials:
+  - Account SID + Auth Token
+  - API Key SID (SK...) + Secret
+  docs: https://www.twilio.com/docs/iam/credentials/api
+  name: accountSid_authToken
   scheme: basic
   sources:
-  - openapi/accounts-openapi-original.yml
-  - openapi/assistant-openapi-original.yml
-  - openapi/autopilot-openapi-original.yml
-  - openapi/bulk-exports-openapi-original.yml
-  - openapi/content-openapi-original.yml
-  - openapi/conversations-openapi-original.yml
-  - openapi/events-openapi-original.yml
-  - openapi/frontline-openapi-original.yml
-  - openapi/insights-openapi-original.yml
-  - openapi/intelligence-openapi-original.yml
-  - openapi/ip-message-openapi-original.yml
-  - openapi/marketplace-openapi-original.yml
-  - openapi/media-openapi-original.yml
-  - openapi/messaging-openapi-original.yml
-  - openapi/microvisor-openapi-original.yml
-  - openapi/monitor-openapi-original.yml
-  - openapi/notify-openapi-original.yml
-  - openapi/numbers-openapi-original.yml
-  - openapi/pricing-openapi-original.yml
-  - openapi/proxy-openapi-original.yml
-  - openapi/routes-openapi-original.yml
-  - openapi/serverless-openapi-original.yml
-  - openapi/studio-openapi-original.yml
-  - openapi/super-sim-openapi-original.yml
-  - openapi/sync-openapi-original.yml
-  - openapi/task-router-openapi-original.yml
-  - openapi/trunking-openapi-original.yml
-  - openapi/trust-hub-openapi-original.yml
-  - openapi/twilio-accounts-openapi.yml
-  - openapi/twilio-flex-openapi.yml
-  - openapi/twilio-lookup-openapi.yml
-  - openapi/twilio-messaging-openapi.yml
-  - openapi/twilio-verify-openapi.yml
-  - openapi/twilio-video-openapi.yml
-  - openapi/twilio-voice-openapi.yml
-  - openapi/verify-openapi-original.yml
-  - openapi/video-openapi-original.yml
-  - openapi/voice-openapi-original.yml
-  - openapi/wireless-openapi-original.yml
+  - openapi/twilio-a2p-api-openapi.yml
+  - openapi/twilio-access-tokens-api-openapi.yml
+  - openapi/twilio-accounts-api-openapi.yml
+  - openapi/twilio-alerts-api-openapi.yml
+  - openapi/twilio-alpha-senders-api-openapi.yml
+  - openapi/twilio-apps-api-openapi.yml
+  - openapi/twilio-archives-api-openapi.yml
+  - openapi/twilio-assistants-api-openapi.yml
+  - openapi/twilio-attempts-api-openapi.yml
+  - openapi/twilio-auth-tokens-api-openapi.yml
+  - openapi/twilio-byoctrunks-api-openapi.yml
+  - openapi/twilio-calls-api-openapi.yml
+  - openapi/twilio-challenges-api-openapi.yml
+  - openapi/twilio-channels-api-openapi.yml
+  - openapi/twilio-chat-v3-api-openapi.yml
+  - openapi/twilio-commands-api-openapi.yml
+  - openapi/twilio-complianceinquiries-api-openapi.yml
+  - openapi/twilio-composition-hooks-api-openapi.yml
+  - openapi/twilio-compositions-api-openapi.yml
+  - openapi/twilio-compositionsettings-api-openapi.yml
+  - openapi/twilio-conferences-api-openapi.yml
+  - openapi/twilio-configs-api-openapi.yml
+  - openapi/twilio-configuration-api-openapi.yml
+  - openapi/twilio-connectionpolicies-api-openapi.yml
+  - openapi/twilio-content-api-openapi.yml
+  - openapi/twilio-content-v2-api-openapi.yml
+  - openapi/twilio-contentandapprovals-api-openapi.yml
+  - openapi/twilio-conversations-api-openapi.yml
+  - openapi/twilio-credentials-api-openapi.yml
+  - openapi/twilio-customer-profiles-api-openapi.yml
+  - openapi/twilio-deactivations-api-openapi.yml
+  - openapi/twilio-devices-api-openapi.yml
+  - openapi/twilio-dialingpermissions-api-openapi.yml
+  - openapi/twilio-end-users-api-openapi.yml
+  - openapi/twilio-endusertypes-api-openapi.yml
+  - openapi/twilio-entities-api-openapi.yml
+  - openapi/twilio-esimprofiles-api-openapi.yml
+  - openapi/twilio-events-api-openapi.yml
+  - openapi/twilio-exports-api-openapi.yml
+  - openapi/twilio-factors-api-openapi.yml
+  - openapi/twilio-fleets-api-openapi.yml
+  - openapi/twilio-flex-flows-api-openapi.yml
+  - openapi/twilio-flows-api-openapi.yml
+  - openapi/twilio-forms-api-openapi.yml
+  - openapi/twilio-hostednumber-api-openapi.yml
+  - openapi/twilio-iam-api-openapi.yml
+  - openapi/twilio-insights-api-openapi.yml
+  - openapi/twilio-insights-v3-api-openapi.yml
+  - openapi/twilio-intelligence-v3-api-openapi.yml
+  - openapi/twilio-interactions-api-openapi.yml
+  - openapi/twilio-ipcommands-api-openapi.yml
+  - openapi/twilio-iprecords-api-openapi.yml
+  - openapi/twilio-keys-api-openapi.yml
+  - openapi/twilio-knowledge-api-openapi.yml
+  - openapi/twilio-knowledge-v1-api-openapi.yml
+  - openapi/twilio-legacycontent-api-openapi.yml
+  - openapi/twilio-linkshortening-api-openapi.yml
+  - openapi/twilio-marketplace-api-openapi.yml
+  - openapi/twilio-media-api-openapi.yml
+  - openapi/twilio-mediaprocessors-api-openapi.yml
+  - openapi/twilio-mediarecordings-api-openapi.yml
+  - openapi/twilio-memory-api-openapi.yml
+  - openapi/twilio-messages-api-openapi.yml
+  - openapi/twilio-messaging-services-api-openapi.yml
+  - openapi/twilio-messaging-v3-api-openapi.yml
+  - openapi/twilio-networkaccessprofiles-api-openapi.yml
+  - openapi/twilio-networks-api-openapi.yml
+  - openapi/twilio-numbers-v3-api-openapi.yml
+  - openapi/twilio-oauth-api-openapi.yml
+  - openapi/twilio-oauth-v1-api-openapi.yml
+  - openapi/twilio-participantconversations-api-openapi.yml
+  - openapi/twilio-participants-api-openapi.yml
+  - openapi/twilio-phone-numbers-api-openapi.yml
+  - openapi/twilio-playerstreamers-api-openapi.yml
+  - openapi/twilio-plugins-api-openapi.yml
+  - openapi/twilio-policies-api-openapi.yml
+  - openapi/twilio-queues-api-openapi.yml
+  - openapi/twilio-rate-limits-api-openapi.yml
+  - openapi/twilio-rate-plans-api-openapi.yml
+  - openapi/twilio-recording-rules-api-openapi.yml
+  - openapi/twilio-recording-settings-api-openapi.yml
+  - openapi/twilio-recordings-api-openapi.yml
+  - openapi/twilio-regulatorycompliance-api-openapi.yml
+  - openapi/twilio-roles-api-openapi.yml
+  - openapi/twilio-rooms-api-openapi.yml
+  - openapi/twilio-routes-v3-api-openapi.yml
+  - openapi/twilio-safelist-api-openapi.yml
+  - openapi/twilio-schemas-api-openapi.yml
+  - openapi/twilio-secrets-api-openapi.yml
+  - openapi/twilio-services-api-openapi.yml
+  - openapi/twilio-settings-api-openapi.yml
+  - openapi/twilio-settingsupdates-api-openapi.yml
+  - openapi/twilio-short-codes-api-openapi.yml
+  - openapi/twilio-sims-api-openapi.yml
+  - openapi/twilio-sinks-api-openapi.yml
+  - openapi/twilio-sipdomains-api-openapi.yml
+  - openapi/twilio-smscommands-api-openapi.yml
+  - openapi/twilio-sourceipmappings-api-openapi.yml
+  - openapi/twilio-subscriptions-api-openapi.yml
+  - openapi/twilio-supportingdocuments-api-openapi.yml
+  - openapi/twilio-supportingdocumenttypes-api-openapi.yml
+  - openapi/twilio-templates-api-openapi.yml
+  - openapi/twilio-tollfree-api-openapi.yml
+  - openapi/twilio-transcripts-api-openapi.yml
+  - openapi/twilio-trunking-api-openapi.yml
+  - openapi/twilio-trunks-api-openapi.yml
+  - openapi/twilio-trustproducts-api-openapi.yml
+  - openapi/twilio-types-api-openapi.yml
+  - openapi/twilio-understand-api-openapi.yml
+  - openapi/twilio-usage-records-api-openapi.yml
+  - openapi/twilio-users-api-openapi.yml
+  - openapi/twilio-verification-checks-api-openapi.yml
+  - openapi/twilio-verifications-api-openapi.yml
+  - openapi/twilio-video-api-openapi.yml
+  - openapi/twilio-voice-api-openapi.yml
+  - openapi/twilio-voice-v3-api-openapi.yml
+  - openapi/twilio-web-channels-api-openapi.yml
+  - openapi/twilio-webhooks-api-openapi.yml
+  - openapi/twilio-workspaces-api-openapi.yml
   type: http
 - description: Use a SendGrid API key as the bearer token for authentication.
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/twilio-sendgrid-openapi.yml
+  - openapi/twilio-contacts-api-openapi.yml
+  - openapi/twilio-email-validation-api-openapi.yml
+  - openapi/twilio-iam-api-openapi.yml
+  - openapi/twilio-lists-api-openapi.yml
+  - openapi/twilio-mail-send-api-openapi.yml
+  - openapi/twilio-senders-api-openapi.yml
+  - openapi/twilio-stats-api-openapi.yml
+  - openapi/twilio-suppressions-api-openapi.yml
+  - openapi/twilio-templates-api-openapi.yml
   type: http
+- authorization_server_metadata: https://oauth.twilio.com/.well-known/oauth-authorization-server
+  docs: https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token
+  flows:
+  - flow: clientCredentials
+    scopes: 0
+    tokenUrl: https://preview-iam.twilio.com/v1/token
+  name: oAuth2ClientCredentials
+  sources:
+  - openapi/twilio-iam-organizations-api-openapi.yml
+  - openapi/twilio-oauth-api-openapi.yml
+  token_lifetime_seconds: 3600
+  type: oauth2
 slug: twilio-authentication
 source_filename: twilio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/accounts-openapi-original.yml, openapi/assistant-openapi-original.yml, openapi/autopilot-openapi-original.yml,\n  openapi/bulk-exports-openapi-original.yml, openapi/content-openapi-original.yml, openapi/conversations-openapi-original.yml,\n  openapi/events-openapi-original.yml, openapi/frontline-openapi-original.yml, openapi/insights-openapi-original.yml,\n  openapi/intelligence-openapi-original.yml, openapi/ip-message-openapi-original.yml, openapi/marketplace-openapi-original.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: accountSid_authToken\n  type: http\n  scheme: basic\n  sources:\n  - openapi/accounts-openapi-original.yml\n  - openapi/assistant-openapi-original.yml\n  - openapi/autopilot-openapi-original.yml\n  - openapi/bulk-exports-openapi-original.yml\n  - openapi/content-openapi-original.yml\n  - openapi/conversations-openapi-original.yml\n  - openapi/events-openapi-original.yml\n  - openapi/frontline-openapi-original.yml\n\
-  \  - openapi/insights-openapi-original.yml\n  - openapi/intelligence-openapi-original.yml\n  - openapi/ip-message-openapi-original.yml\n  - openapi/marketplace-openapi-original.yml\n  - openapi/media-openapi-original.yml\n  - openapi/messaging-openapi-original.yml\n  - openapi/microvisor-openapi-original.yml\n  - openapi/monitor-openapi-original.yml\n  - openapi/notify-openapi-original.yml\n  - openapi/numbers-openapi-original.yml\n  - openapi/pricing-openapi-original.yml\n  - openapi/proxy-openapi-original.yml\n  - openapi/routes-openapi-original.yml\n  - openapi/serverless-openapi-original.yml\n  - openapi/studio-openapi-original.yml\n  - openapi/super-sim-openapi-original.yml\n  - openapi/sync-openapi-original.yml\n  - openapi/task-router-openapi-original.yml\n  - openapi/trunking-openapi-original.yml\n  - openapi/trust-hub-openapi-original.yml\n  - openapi/twilio-accounts-openapi.yml\n  - openapi/twilio-flex-openapi.yml\n  - openapi/twilio-lookup-openapi.yml\n  - openapi/twilio-messaging-openapi.yml\n\
-  \  - openapi/twilio-verify-openapi.yml\n  - openapi/twilio-video-openapi.yml\n  - openapi/twilio-voice-openapi.yml\n  - openapi/verify-openapi-original.yml\n  - openapi/video-openapi-original.yml\n  - openapi/voice-openapi-original.yml\n  - openapi/wireless-openapi-original.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Use a SendGrid API key as the bearer token for authentication.\n  sources:\n  - openapi/twilio-sendgrid-openapi.yml\n"
+source_yaml: "generated: '2026-10-08'\nmethod: searched\nsource: openapi/twilio-a2p-api-openapi.yml, openapi/twilio-access-tokens-api-openapi.yml, openapi/twilio-accounts-api-openapi.yml, openapi/twilio-alerts-api-openapi.yml,\n  openapi/twilio-alpha-senders-api-openapi.yml, openapi/twilio-apps-api-openapi.yml, openapi/twilio-archives-api-openapi.yml, openapi/twilio-assistants-api-openapi.yml,\n  openapi/twilio-attempts-api-openapi.yml, openapi/twilio-auth-tokens-api-openapi.yml, openapi/twilio-byoctrunks-api-openapi.yml, openapi/twilio-calls-api-openapi.yml\n  ...\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: accountSid_authToken\n  type: http\n  scheme: basic\n  sources:\n  - openapi/twilio-a2p-api-openapi.yml\n  - openapi/twilio-access-tokens-api-openapi.yml\n  - openapi/twilio-accounts-api-openapi.yml\n  - openapi/twilio-alerts-api-openapi.yml\n  - openapi/twilio-alpha-senders-api-openapi.yml\n  - openapi/twilio-apps-api-openapi.yml\n\
+  \  - openapi/twilio-archives-api-openapi.yml\n  - openapi/twilio-assistants-api-openapi.yml\n  - openapi/twilio-attempts-api-openapi.yml\n  - openapi/twilio-auth-tokens-api-openapi.yml\n  - openapi/twilio-byoctrunks-api-openapi.yml\n  - openapi/twilio-calls-api-openapi.yml\n  - openapi/twilio-challenges-api-openapi.yml\n  - openapi/twilio-channels-api-openapi.yml\n  - openapi/twilio-chat-v3-api-openapi.yml\n  - openapi/twilio-commands-api-openapi.yml\n  - openapi/twilio-complianceinquiries-api-openapi.yml\n  - openapi/twilio-composition-hooks-api-openapi.yml\n  - openapi/twilio-compositions-api-openapi.yml\n  - openapi/twilio-compositionsettings-api-openapi.yml\n  - openapi/twilio-conferences-api-openapi.yml\n  - openapi/twilio-configs-api-openapi.yml\n  - openapi/twilio-configuration-api-openapi.yml\n  - openapi/twilio-connectionpolicies-api-openapi.yml\n  - openapi/twilio-content-api-openapi.yml\n  - openapi/twilio-content-v2-api-openapi.yml\n  - openapi/twilio-contentandapprovals-api-openapi.yml\n\
+  \  - openapi/twilio-conversations-api-openapi.yml\n  - openapi/twilio-credentials-api-openapi.yml\n  - openapi/twilio-customer-profiles-api-openapi.yml\n  - openapi/twilio-deactivations-api-openapi.yml\n  - openapi/twilio-devices-api-openapi.yml\n  - openapi/twilio-dialingpermissions-api-openapi.yml\n  - openapi/twilio-end-users-api-openapi.yml\n  - openapi/twilio-endusertypes-api-openapi.yml\n  - openapi/twilio-entities-api-openapi.yml\n  - openapi/twilio-esimprofiles-api-openapi.yml\n  - openapi/twilio-events-api-openapi.yml\n  - openapi/twilio-exports-api-openapi.yml\n  - openapi/twilio-factors-api-openapi.yml\n  - openapi/twilio-fleets-api-openapi.yml\n  - openapi/twilio-flex-flows-api-openapi.yml\n  - openapi/twilio-flows-api-openapi.yml\n  - openapi/twilio-forms-api-openapi.yml\n  - openapi/twilio-hostednumber-api-openapi.yml\n  - openapi/twilio-iam-api-openapi.yml\n  - openapi/twilio-insights-api-openapi.yml\n  - openapi/twilio-insights-v3-api-openapi.yml\n  - openapi/twilio-intelligence-v3-api-openapi.yml\n\
+  \  - openapi/twilio-interactions-api-openapi.yml\n  - openapi/twilio-ipcommands-api-openapi.yml\n  - openapi/twilio-iprecords-api-openapi.yml\n  - openapi/twilio-keys-api-openapi.yml\n  - openapi/twilio-knowledge-api-openapi.yml\n  - openapi/twilio-knowledge-v1-api-openapi.yml\n  - openapi/twilio-legacycontent-api-openapi.yml\n  - openapi/twilio-linkshortening-api-openapi.yml\n  - openapi/twilio-marketplace-api-openapi.yml\n  - openapi/twilio-media-api-openapi.yml\n  - openapi/twilio-mediaprocessors-api-openapi.yml\n  - openapi/twilio-mediarecordings-api-openapi.yml\n  - openapi/twilio-memory-api-openapi.yml\n  - openapi/twilio-messages-api-openapi.yml\n  - openapi/twilio-messaging-services-api-openapi.yml\n  - openapi/twilio-messaging-v3-api-openapi.yml\n  - openapi/twilio-networkaccessprofiles-api-openapi.yml\n  - openapi/twilio-networks-api-openapi.yml\n  - openapi/twilio-numbers-v3-api-openapi.yml\n  - openapi/twilio-oauth-api-openapi.yml\n  - openapi/twilio-oauth-v1-api-openapi.yml\n\
+  \  - openapi/twilio-participantconversations-api-openapi.yml\n  - openapi/twilio-participants-api-openapi.yml\n  - openapi/twilio-phone-numbers-api-openapi.yml\n  - openapi/twilio-playerstreamers-api-openapi.yml\n  - openapi/twilio-plugins-api-openapi.yml\n  - openapi/twilio-policies-api-openapi.yml\n  - openapi/twilio-queues-api-openapi.yml\n  - openapi/twilio-rate-limits-api-openapi.yml\n  - openapi/twilio-rate-plans-api-openapi.yml\n  - openapi/twilio-recording-rules-api-openapi.yml\n  - openapi/twilio-recording-settings-api-openapi.yml\n  - openapi/twilio-recordings-api-openapi.yml\n  - openapi/twilio-regulatorycompliance-api-openapi.yml\n  - openapi/twilio-roles-api-openapi.yml\n  - openapi/twilio-rooms-api-openapi.yml\n  - openapi/twilio-routes-v3-api-openapi.yml\n  - openapi/twilio-safelist-api-openapi.yml\n  - openapi/twilio-schemas-api-openapi.yml\n  - openapi/twilio-secrets-api-openapi.yml\n  - openapi/twilio-services-api-openapi.yml\n  - openapi/twilio-settings-api-openapi.yml\n\
+  \  - openapi/twilio-settingsupdates-api-openapi.yml\n  - openapi/twilio-short-codes-api-openapi.yml\n  - openapi/twilio-sims-api-openapi.yml\n  - openapi/twilio-sinks-api-openapi.yml\n  - openapi/twilio-sipdomains-api-openapi.yml\n  - openapi/twilio-smscommands-api-openapi.yml\n  - openapi/twilio-sourceipmappings-api-openapi.yml\n  - openapi/twilio-subscriptions-api-openapi.yml\n  - openapi/twilio-supportingdocuments-api-openapi.yml\n  - openapi/twilio-supportingdocumenttypes-api-openapi.yml\n  - openapi/twilio-templates-api-openapi.yml\n  - openapi/twilio-tollfree-api-openapi.yml\n  - openapi/twilio-transcripts-api-openapi.yml\n  - openapi/twilio-trunking-api-openapi.yml\n  - openapi/twilio-trunks-api-openapi.yml\n  - openapi/twilio-trustproducts-api-openapi.yml\n  - openapi/twilio-types-api-openapi.yml\n  - openapi/twilio-understand-api-openapi.yml\n  - openapi/twilio-usage-records-api-openapi.yml\n  - openapi/twilio-users-api-openapi.yml\n  - openapi/twilio-verification-checks-api-openapi.yml\n\
+  \  - openapi/twilio-verifications-api-openapi.yml\n  - openapi/twilio-video-api-openapi.yml\n  - openapi/twilio-voice-api-openapi.yml\n  - openapi/twilio-voice-v3-api-openapi.yml\n  - openapi/twilio-web-channels-api-openapi.yml\n  - openapi/twilio-webhooks-api-openapi.yml\n  - openapi/twilio-workspaces-api-openapi.yml\n  docs: https://www.twilio.com/docs/iam/credentials/api\n  credentials:\n  - Account SID + Auth Token\n  - API Key SID (SK...) + Secret\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Use a SendGrid API key as the bearer token for authentication.\n  sources:\n  - openapi/twilio-contacts-api-openapi.yml\n  - openapi/twilio-email-validation-api-openapi.yml\n  - openapi/twilio-iam-api-openapi.yml\n  - openapi/twilio-lists-api-openapi.yml\n  - openapi/twilio-mail-send-api-openapi.yml\n  - openapi/twilio-senders-api-openapi.yml\n  - openapi/twilio-stats-api-openapi.yml\n  - openapi/twilio-suppressions-api-openapi.yml\n  - openapi/twilio-templates-api-openapi.yml\n\
+  - name: oAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://preview-iam.twilio.com/v1/token\n    scopes: 0\n  sources:\n  - openapi/twilio-iam-organizations-api-openapi.yml\n  - openapi/twilio-oauth-api-openapi.yml\n  docs: https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token\n  token_lifetime_seconds: 3600\n  authorization_server_metadata: https://oauth.twilio.com/.well-known/oauth-authorization-server\ndocs: https://www.twilio.com/docs/iam/credentials/api\ndescription: Twilio REST APIs authenticate with HTTP Basic (Account SID + Auth Token, or API Key SID + Secret, keys SK...) on every product; since 2026-04-06 OAuth\n  2.0 is GA for Twilio Communications APIs (client credentials, RFC 6749 section 4.4) and since 2026-07-03 for organization APIs, which accept OAuth 2.0 only. The\n  v2 token endpoint is https://oauth.twilio.com/v2/token (expires_in 3600); authorization-server metadata (RFC 8414) is served at https://oauth.twilio.com/.well-known/oauth-authorization-server\n\
+  \  with grant_types authorization_code, client_credentials, refresh_token and PKCE S256. Outbound webhooks can be authenticated to the customer endpoint with OAuth\n  2.0 client credentials, Basic or Digest (webhook auth profiles).\noauth2:\n  status: GA (2026-04-06 for Communications APIs; 2026-07-03 for Organization APIs)\n  token_endpoint: https://oauth.twilio.com/v2/token\n  authorization_endpoint: https://oauth.twilio.com/v2/authorize\n  metadata: https://oauth.twilio.com/.well-known/oauth-authorization-server\n  grant_types_supported:\n  - authorization_code\n  - client_credentials\n  - refresh_token\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  - none\n  code_challenge_methods_supported:\n  - S256\n  scopes: scopes/twilio-scopes.yml\n  changelog:\n  - https://www.twilio.com/en-us/changelog/oauth-apis-ga\n  - https://www.twilio.com/en-us/changelog/oauth-client-credentials-orgs-api-ga\nwebhook_authentication:\n  docs: https://www.twilio.com/docs/usage/webhooks/webhook-auth-profiles\n\
+  \  modes:\n  - OAuth 2.0 client credentials\n  - Basic\n  - Digest\n  signature_header: X-Twilio-Signature\ndocs_pages:\n- https://www.twilio.com/docs/iam/credentials/api\n- https://www.twilio.com/docs/iam/oauth-apps/overview\n- https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token\n- https://www.twilio.com/docs/usage/webhooks/webhook-auth-profiles\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/authentication/twilio-authentication.yml
-summary_line: http · 2 schemes
+summary_line: http/oauth2 · 3 schemes
 tags:
 - Authentication
 - Communications
@@ -763,4 +1122,5 @@ tags:
 - Twilio
 - Telecommunications
 - Real-Time
+- WhatsApp
 ---
