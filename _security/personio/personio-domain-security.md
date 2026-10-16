@@ -45,18 +45,18 @@ domains:
   domain: personio.de
   spf: true
 hosts:
-- cert_expires: Aug 27 11:23:50 2026 GMT
+- cert_expires: Dec 30 19:45:15 2026 GMT
   host: www.personio.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 20 22:12:07 2026 GMT
+- cert_expires: Nov 18 22:54:47 2026 GMT
   host: developer.personio.de
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 16 23:59:59 2026 GMT
+- cert_expires: Apr  7 23:59:59 2027 GMT
   host: api.personio.de
   hsts: true
   hsts_max_age: 31540000
@@ -75,7 +75,7 @@ slug: personio-domain-security
 source_filename: personio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.personio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 11:23:50 2026 GMT\n  hsts: null\n- host: developer.personio.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 22:12:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.personio.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31540000\ndomains:\n- domain: personio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: personio.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.personio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:45:15 2026 GMT\n  hsts: null\n- host: developer.personio.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 22:54:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.personio.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31540000\ndomains:\n- domain: personio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: personio.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/security/personio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -67,5 +67,4 @@ tags:
 - Biomarkers
 - Preventive Health
 - Consumer Health
-- No Public API
 ---

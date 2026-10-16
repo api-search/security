@@ -34,6 +34,5 @@ tags:
 - Commercial Lines
 - Claims
 - Underwriting
-- Partner Gated
 - New Zealand
 ---

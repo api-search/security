@@ -10,8 +10,8 @@ kind: trust-center
 layout: security
 name: Docupanda Trust Center
 name_suffix: Trust Center
-overview: DocuPanda maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
-provider_name: DocuPanda
+overview: DocuPipe maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
+provider_name: DocuPipe
 provider_slug: docupanda
 slug: docupanda-trust-center
 source_filename: docupanda-trust-center.yml

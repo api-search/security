@@ -72,5 +72,4 @@ tags:
 - Carrier
 - Claims
 - Underwriting
-- Partner Gated
 ---

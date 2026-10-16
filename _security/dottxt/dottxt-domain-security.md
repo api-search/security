@@ -52,4 +52,5 @@ tags:
 - Machine Learning
 - Developer Tools
 - Constrained Decoding
+- Inference
 ---

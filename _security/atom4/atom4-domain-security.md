@@ -34,5 +34,4 @@ tags:
 - Software
 - Artificial Intelligence
 - Data Analytics
-- Pre-IPO
 ---

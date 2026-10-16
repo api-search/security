@@ -40,5 +40,4 @@ tags:
 - Caregiver Support
 - Digital Health
 - B2B2C
-- No Public API
 ---

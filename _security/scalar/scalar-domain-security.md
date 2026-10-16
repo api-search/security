@@ -188,25 +188,30 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 12 07:57:17 2026 GMT
+- cert_expires: Jan  5 17:21:06 2027 GMT
   host: guides.scalar.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+- cert_expires: Dec 14 05:47:48 2026 GMT
+  host: api.scalar.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Scalar Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Scalar, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Scalar, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Scalar
 provider_slug: scalar
 slug: scalar-domain-security
 source_filename: scalar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 03:55:01 2026 GMT\n  hsts: false\n- host: guides.scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 07:57:17 2026 GMT\n  hsts: false\ndomains:\n- domain: scalar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 03:55:01 2026 GMT\n  hsts: false\n- host: guides.scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 17:21:06 2027 GMT\n  hsts: false\n- host: api.scalar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 05:47:48 2026 GMT\n  hsts: null\ndomains:\n- domain: scalar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/security/scalar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

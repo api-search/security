@@ -96,6 +96,4 @@ tags:
 - Commercial Insurance
 - Artificial Intelligence
 - ACORD
-- Partner Gated
-- No Public API
 ---

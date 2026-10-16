@@ -66,5 +66,4 @@ tags:
 - SMS
 - IoT
 - 5G
-- Partner Gated
 ---

@@ -26,6 +26,5 @@ tags:
 - Meetings
 - Board Portal
 - Collaboration
-- No Public API
 trust_url: https://boardable.com/boardable-trust-center/
 ---

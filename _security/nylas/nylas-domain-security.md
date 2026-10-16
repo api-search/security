@@ -48,18 +48,6 @@ api_specs:
   slug: nylas-app-migration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-app-migration-api-openapi.yml
-- filename: nylas-application-level-templates-api-openapi.yml
-  format: yaml
-  label: Nylas Application-level templates API
-  slug: nylas-application-level-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-application-level-templates-api-openapi.yml
-- filename: nylas-application-level-workflows-api-openapi.yml
-  format: yaml
-  label: Nylas Application-level workflows API
-  slug: nylas-application-level-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-application-level-workflows-api-openapi.yml
 - filename: nylas-applications-api-openapi.yml
   format: yaml
   label: Nylas Applications API
@@ -126,18 +114,6 @@ api_specs:
   slug: nylas-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-folders-api-openapi.yml
-- filename: nylas-grant-level-templates-api-openapi.yml
-  format: yaml
-  label: Nylas Grant-level templates API
-  slug: nylas-grant-level-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grant-level-templates-api-openapi.yml
-- filename: nylas-grant-level-workflows-api-openapi.yml
-  format: yaml
-  label: Nylas Grant-level workflows API
-  slug: nylas-grant-level-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grant-level-workflows-api-openapi.yml
 - filename: nylas-group-events-api-openapi.yml
   format: yaml
   label: Nylas Group Events API
@@ -240,6 +216,12 @@ api_specs:
   slug: nylas-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-workspaces-api-openapi.yml
+- filename: nylas-templates-and-workflows-api-openapi.yml
+  format: yaml
+  label: Nylas Templates and Workflows API
+  slug: nylas-templates-and-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-and-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -279,7 +261,7 @@ slug: nylas-domain-security
 source_filename: nylas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 05:52:49 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 22:14:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.us.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 16:43:53 2026 GMT\n  hsts: null\ndomains:\n- domain: nylas.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 05:52:49 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 22:14:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.us.nylas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 16:43:53 2026 GMT\n  hsts: null\ndomains:\n- domain: nylas.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/security/nylas-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

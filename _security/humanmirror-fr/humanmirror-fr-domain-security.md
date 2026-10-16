@@ -150,18 +150,162 @@ api_specs:
   slug: humanmirror-fr-vault-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-vault-api-openapi.yml
-- filename: humanmirror-fr-x402-api-openapi.yml
-  format: yaml
-  label: HumanMirror X402 API
-  slug: humanmirror-fr-x402-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-x402-api-openapi.yml
 - filename: humanmirror-fr-zero-api-openapi.yml
   format: yaml
   label: HumanMirror Zero API
   slug: humanmirror-fr-zero-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-zero-api-openapi.yml
+- filename: humanmirror-fr-agent-action-api-openapi.yml
+  format: yaml
+  label: HumanMirror Agent Action API
+  slug: humanmirror-fr-agent-action-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-agent-action-api-openapi.yml
+- filename: humanmirror-fr-agent-action-guard-api-openapi.yml
+  format: yaml
+  label: HumanMirror Agent Action Guard API
+  slug: humanmirror-fr-agent-action-guard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-agent-action-guard-api-openapi.yml
+- filename: humanmirror-fr-agent-control-plane-api-openapi.yml
+  format: yaml
+  label: HumanMirror Agent Control Plane API
+  slug: humanmirror-fr-agent-control-plane-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-agent-control-plane-api-openapi.yml
+- filename: humanmirror-fr-agent-routing-api-openapi.yml
+  format: yaml
+  label: HumanMirror Agent Routing API
+  slug: humanmirror-fr-agent-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-agent-routing-api-openapi.yml
+- filename: humanmirror-fr-agent-wallet-api-openapi.yml
+  format: yaml
+  label: HumanMirror Agent Wallet API
+  slug: humanmirror-fr-agent-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-agent-wallet-api-openapi.yml
+- filename: humanmirror-fr-approval-gate-api-openapi.yml
+  format: yaml
+  label: HumanMirror Approval Gate API
+  slug: humanmirror-fr-approval-gate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-approval-gate-api-openapi.yml
+- filename: humanmirror-fr-audit-api-openapi.yml
+  format: yaml
+  label: HumanMirror Audit API
+  slug: humanmirror-fr-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-audit-api-openapi.yml
+- filename: humanmirror-fr-base-api-openapi.yml
+  format: yaml
+  label: HumanMirror Base API
+  slug: humanmirror-fr-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-base-api-openapi.yml
+- filename: humanmirror-fr-capability-resolution-api-openapi.yml
+  format: yaml
+  label: HumanMirror Capability Resolution API
+  slug: humanmirror-fr-capability-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-capability-resolution-api-openapi.yml
+- filename: humanmirror-fr-compatibility-api-openapi.yml
+  format: yaml
+  label: HumanMirror Compatibility API
+  slug: humanmirror-fr-compatibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-compatibility-api-openapi.yml
+- filename: humanmirror-fr-execution-evidence-api-openapi.yml
+  format: yaml
+  label: HumanMirror Execution Evidence API
+  slug: humanmirror-fr-execution-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-execution-evidence-api-openapi.yml
+- filename: humanmirror-fr-execution-receipt-api-openapi.yml
+  format: yaml
+  label: HumanMirror Execution Receipt API
+  slug: humanmirror-fr-execution-receipt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-execution-receipt-api-openapi.yml
+- filename: humanmirror-fr-payment-api-openapi.yml
+  format: yaml
+  label: HumanMirror Payment API
+  slug: humanmirror-fr-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-payment-api-openapi.yml
+- filename: humanmirror-fr-post-execution-api-openapi.yml
+  format: yaml
+  label: HumanMirror Post Execution API
+  slug: humanmirror-fr-post-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-post-execution-api-openapi.yml
+- filename: humanmirror-fr-pre-execution-api-openapi.yml
+  format: yaml
+  label: HumanMirror Pre Execution API
+  slug: humanmirror-fr-pre-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-pre-execution-api-openapi.yml
+- filename: humanmirror-fr-pre-execution-safety-api-openapi.yml
+  format: yaml
+  label: HumanMirror Pre Execution Safety API
+  slug: humanmirror-fr-pre-execution-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-pre-execution-safety-api-openapi.yml
+- filename: humanmirror-fr-pre-payment-api-openapi.yml
+  format: yaml
+  label: HumanMirror Pre Payment API
+  slug: humanmirror-fr-pre-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-pre-payment-api-openapi.yml
+- filename: humanmirror-fr-provenance-api-openapi.yml
+  format: yaml
+  label: HumanMirror Provenance API
+  slug: humanmirror-fr-provenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-provenance-api-openapi.yml
+- filename: humanmirror-fr-reconciliation-api-openapi.yml
+  format: yaml
+  label: HumanMirror Reconciliation API
+  slug: humanmirror-fr-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-reconciliation-api-openapi.yml
+- filename: humanmirror-fr-safety-api-openapi.yml
+  format: yaml
+  label: HumanMirror Safety API
+  slug: humanmirror-fr-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-safety-api-openapi.yml
+- filename: humanmirror-fr-tool-call-api-openapi.yml
+  format: yaml
+  label: HumanMirror Tool Call API
+  slug: humanmirror-fr-tool-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-tool-call-api-openapi.yml
+- filename: humanmirror-fr-tool-call-safety-api-openapi.yml
+  format: yaml
+  label: HumanMirror Tool Call Safety API
+  slug: humanmirror-fr-tool-call-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-tool-call-safety-api-openapi.yml
+- filename: humanmirror-fr-tool-routing-api-openapi.yml
+  format: yaml
+  label: HumanMirror Tool Routing API
+  slug: humanmirror-fr-tool-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-tool-routing-api-openapi.yml
+- filename: humanmirror-fr-usdc-api-openapi.yml
+  format: yaml
+  label: HumanMirror Usdc API
+  slug: humanmirror-fr-usdc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-usdc-api-openapi.yml
+- filename: humanmirror-fr-x402-api-openapi.yml
+  format: yaml
+  label: HumanMirror X402 API
+  slug: humanmirror-fr-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/openapi/humanmirror-fr-x402-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -190,7 +334,7 @@ slug: humanmirror-fr-domain-security
 source_filename: humanmirror-fr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: humanmirror.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 07:52:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: humanmirror.fr\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: humanmirror.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 07:52:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: humanmirror.fr\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/security/humanmirror-fr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

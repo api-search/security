@@ -33,6 +33,12 @@ api_specs:
   slug: listennotes-directory-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-directory-api-api-openapi.yml
+- filename: listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
+  format: yaml
+  label: 'Listen Notes Listen API: Podcast Search, Directory, And Insights API'
+  slug: listennotes-listen-api-podcast-search-directory-and-insights-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -179,5 +179,4 @@ tags:
 - Carrier
 - Underwriting
 - Claims
-- Partner Gated
 ---

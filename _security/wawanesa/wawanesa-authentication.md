@@ -127,5 +127,4 @@ tags:
 - Claims
 - Policy Administration
 - CSIO
-- Partner Gated
 ---

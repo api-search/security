@@ -34,5 +34,4 @@ tags:
 - Consumer
 - Venture Backed
 - Bullpen Capital
-- No Public API
 ---

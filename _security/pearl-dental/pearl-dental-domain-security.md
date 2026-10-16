@@ -56,5 +56,4 @@ tags:
 - Medical Imaging
 - Pathology Detection
 - Healthcare
-- Partner Gated
 ---

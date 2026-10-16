@@ -46,5 +46,4 @@ tags:
 - Telehealth
 - HIPAA
 - Partner API
-- No Public API
 ---

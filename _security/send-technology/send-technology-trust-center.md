@@ -36,6 +36,5 @@ tags:
 - MGA
 - Policy Administration
 - ACORD
-- Partner Gated
 trust_url: https://trustcenter.send.technology/
 ---

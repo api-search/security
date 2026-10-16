@@ -47,5 +47,4 @@ tags:
 - Credit Insurance
 - London Market
 - ACORD
-- Partner Gated
 ---

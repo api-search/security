@@ -50,18 +50,6 @@ api_specs:
   slug: nylas-app-migration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-app-migration-api-openapi.yml
-- filename: nylas-application-level-templates-api-openapi.yml
-  format: yaml
-  label: Nylas Application-level templates API
-  slug: nylas-application-level-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-application-level-templates-api-openapi.yml
-- filename: nylas-application-level-workflows-api-openapi.yml
-  format: yaml
-  label: Nylas Application-level workflows API
-  slug: nylas-application-level-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-application-level-workflows-api-openapi.yml
 - filename: nylas-applications-api-openapi.yml
   format: yaml
   label: Nylas Applications API
@@ -128,18 +116,6 @@ api_specs:
   slug: nylas-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-folders-api-openapi.yml
-- filename: nylas-grant-level-templates-api-openapi.yml
-  format: yaml
-  label: Nylas Grant-level templates API
-  slug: nylas-grant-level-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grant-level-templates-api-openapi.yml
-- filename: nylas-grant-level-workflows-api-openapi.yml
-  format: yaml
-  label: Nylas Grant-level workflows API
-  slug: nylas-grant-level-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grant-level-workflows-api-openapi.yml
 - filename: nylas-group-events-api-openapi.yml
   format: yaml
   label: Nylas Group Events API
@@ -242,6 +218,12 @@ api_specs:
   slug: nylas-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-workspaces-api-openapi.yml
+- filename: nylas-templates-and-workflows-api-openapi.yml
+  format: yaml
+  label: Nylas Templates and Workflows API
+  slug: nylas-templates-and-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-and-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''

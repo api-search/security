@@ -38,5 +38,4 @@ tags:
 - Social Ordering
 - Payments
 - POS Integration
-- No Public API
 ---

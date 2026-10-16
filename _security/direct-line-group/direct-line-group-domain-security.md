@@ -178,5 +178,4 @@ tags:
 - Home Insurance
 - Carrier
 - Roadside Assistance
-- Partner Gated
 ---

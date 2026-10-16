@@ -63,5 +63,4 @@ tags:
 - SIM Swap
 - Age Verification
 - Converged Operator
-- Partner Gated
 ---

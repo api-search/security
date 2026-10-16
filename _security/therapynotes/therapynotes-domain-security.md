@@ -38,5 +38,4 @@ tags:
 - Electronic Health Records
 - Medical Billing
 - HIPAA
-- No Public API
 ---

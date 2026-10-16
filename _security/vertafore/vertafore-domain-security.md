@@ -49,5 +49,4 @@ tags:
 - Sagitta
 - ImageRight
 - Comparative Rating
-- Partner Gated
 ---

@@ -35,5 +35,4 @@ tags:
 - Pendant
 - Companion
 - Consumer Hardware
-- No Public API
 ---

@@ -115,6 +115,4 @@ tags:
 - Not-for-Profit
 - Claims
 - Member Services
-- Partner Gated
-- No Public API
 ---

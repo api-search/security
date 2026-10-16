@@ -22,10 +22,10 @@ tags:
 - Company
 - Leave Management
 - Absence Management
-- Accommodation
 - Human Resources
 - Compliance
 - FMLA
-- ADAS
+- ADA Compliance
+- Workplace Accommodations
 trust_url: https://public-profile.whistic.com/1371f936-9fb7-494c-a254-c5b15c790674
 ---

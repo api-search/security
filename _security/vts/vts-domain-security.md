@@ -242,4 +242,6 @@ tags:
 - Asset Management
 - Property Management
 - Tenant Experience
+- Vertical Software
+- Software-as-a-Service
 ---

@@ -50,5 +50,4 @@ tags:
 - Age Verification
 - Wholesale
 - MVNO
-- Partner Gated
 ---

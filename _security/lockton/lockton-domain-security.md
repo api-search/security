@@ -41,6 +41,4 @@ tags:
 - Specialty Insurance
 - Risk Management
 - ACORD
-- Partner Gated
-- No Public API
 ---

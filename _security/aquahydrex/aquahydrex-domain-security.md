@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquahydrex/refs/heads/main/security/aquahydrex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Private-Market
-- Liquidity
-- Equity-Administration
-- Secondary Market
-- Pre-IPO
+- Company
+- Defunct
+- Hydrogen
+- Green Hydrogen
+- Clean Energy
 ---

@@ -51,5 +51,4 @@ tags:
 - Distribution
 - Booking
 - Ancillaries
-- Partner Gated
 ---

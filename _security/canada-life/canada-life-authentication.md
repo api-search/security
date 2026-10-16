@@ -98,6 +98,4 @@ tags:
 - Group Retirement
 - Carrier
 - ACORD
-- Partner Gated
-- No Public API
 ---

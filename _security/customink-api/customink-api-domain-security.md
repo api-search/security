@@ -37,5 +37,4 @@ tags:
 - Promotional Products
 - E-Commerce
 - Design
-- No Public API
 ---

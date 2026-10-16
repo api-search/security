@@ -25,6 +25,5 @@ tags:
 - Board Portal
 - Meetings
 - Documents
-- No Public API
 trust_url: https://www.govenda.com/security/
 ---

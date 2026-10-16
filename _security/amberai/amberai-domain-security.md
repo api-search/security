@@ -1,0 +1,598 @@
+---
+api_specs:
+- filename: amberai-bom-components-api-openapi.yml
+  format: yaml
+  label: Amberai Bom Components API
+  slug: amberai-bom-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-bom-components-api-openapi.yml
+- filename: amberai-bom-sections-api-openapi.yml
+  format: yaml
+  label: Amberai Bom Sections API
+  slug: amberai-bom-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-bom-sections-api-openapi.yml
+- filename: amberai-bom-skus-api-openapi.yml
+  format: yaml
+  label: Amberai Bom Skus API
+  slug: amberai-bom-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-bom-skus-api-openapi.yml
+- filename: amberai-boms-api-openapi.yml
+  format: yaml
+  label: Amberai Boms API
+  slug: amberai-boms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-boms-api-openapi.yml
+- filename: amberai-booking-items-api-openapi.yml
+  format: yaml
+  label: Amberai Booking Items API
+  slug: amberai-booking-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-booking-items-api-openapi.yml
+- filename: amberai-bookings-api-openapi.yml
+  format: yaml
+  label: Amberai Bookings API
+  slug: amberai-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-bookings-api-openapi.yml
+- filename: amberai-brand-api-openapi.yml
+  format: yaml
+  label: Amberai Brand API
+  slug: amberai-brand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-brand-api-openapi.yml
+- filename: amberai-brand-locations-api-openapi.yml
+  format: yaml
+  label: Amberai Brand Locations API
+  slug: amberai-brand-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-brand-locations-api-openapi.yml
+- filename: amberai-carton-sizes-api-openapi.yml
+  format: yaml
+  label: Amberai Carton Sizes API
+  slug: amberai-carton-sizes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-carton-sizes-api-openapi.yml
+- filename: amberai-categories-api-openapi.yml
+  format: yaml
+  label: Amberai Categories API
+  slug: amberai-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-categories-api-openapi.yml
+- filename: amberai-checklists-api-openapi.yml
+  format: yaml
+  label: Amberai Checklists API
+  slug: amberai-checklists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-checklists-api-openapi.yml
+- filename: amberai-collections-api-openapi.yml
+  format: yaml
+  label: Amberai Collections API
+  slug: amberai-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-collections-api-openapi.yml
+- filename: amberai-colors-api-openapi.yml
+  format: yaml
+  label: Amberai Colors API
+  slug: amberai-colors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-colors-api-openapi.yml
+- filename: amberai-contacts-api-openapi.yml
+  format: yaml
+  label: Amberai Contacts API
+  slug: amberai-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-contacts-api-openapi.yml
+- filename: amberai-countries-api-openapi.yml
+  format: yaml
+  label: Amberai Countries API
+  slug: amberai-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-countries-api-openapi.yml
+- filename: amberai-couriers-api-openapi.yml
+  format: yaml
+  label: Amberai Couriers API
+  slug: amberai-couriers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-couriers-api-openapi.yml
+- filename: amberai-custom-field-definitions-api-openapi.yml
+  format: yaml
+  label: Amberai Custom Field Definitions API
+  slug: amberai-custom-field-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-custom-field-definitions-api-openapi.yml
+- filename: amberai-dimension-curve-axes-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Curve Axes API
+  slug: amberai-dimension-curve-axes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-curve-axes-api-openapi.yml
+- filename: amberai-dimension-curve-axis-values-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Curve Axis Values API
+  slug: amberai-dimension-curve-axis-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-curve-axis-values-api-openapi.yml
+- filename: amberai-dimension-curve-cells-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Curve Cells API
+  slug: amberai-dimension-curve-cells-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-curve-cells-api-openapi.yml
+- filename: amberai-dimension-curves-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Curves API
+  slug: amberai-dimension-curves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-curves-api-openapi.yml
+- filename: amberai-dimension-group-dimensions-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Group Dimensions API
+  slug: amberai-dimension-group-dimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-group-dimensions-api-openapi.yml
+- filename: amberai-dimension-groups-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Groups API
+  slug: amberai-dimension-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-groups-api-openapi.yml
+- filename: amberai-dimension-values-api-openapi.yml
+  format: yaml
+  label: Amberai Dimension Values API
+  slug: amberai-dimension-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimension-values-api-openapi.yml
+- filename: amberai-dimensions-api-openapi.yml
+  format: yaml
+  label: Amberai Dimensions API
+  slug: amberai-dimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-dimensions-api-openapi.yml
+- filename: amberai-document-types-api-openapi.yml
+  format: yaml
+  label: Amberai Document Types API
+  slug: amberai-document-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-document-types-api-openapi.yml
+- filename: amberai-documents-api-openapi.yml
+  format: yaml
+  label: Amberai Documents API
+  slug: amberai-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-documents-api-openapi.yml
+- filename: amberai-goods-receipt-lines-api-openapi.yml
+  format: yaml
+  label: Amberai Goods Receipt Lines API
+  slug: amberai-goods-receipt-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-goods-receipt-lines-api-openapi.yml
+- filename: amberai-goods-receipts-api-openapi.yml
+  format: yaml
+  label: Amberai Goods Receipts API
+  slug: amberai-goods-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-goods-receipts-api-openapi.yml
+- filename: amberai-images-api-openapi.yml
+  format: yaml
+  label: Amberai Images API
+  slug: amberai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-images-api-openapi.yml
+- filename: amberai-inventory-api-openapi.yml
+  format: yaml
+  label: Amberai Inventory API
+  slug: amberai-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-inventory-api-openapi.yml
+- filename: amberai-invoice-lines-api-openapi.yml
+  format: yaml
+  label: Amberai Invoice Lines API
+  slug: amberai-invoice-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-invoice-lines-api-openapi.yml
+- filename: amberai-invoices-api-openapi.yml
+  format: yaml
+  label: Amberai Invoices API
+  slug: amberai-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-invoices-api-openapi.yml
+- filename: amberai-launch-windows-api-openapi.yml
+  format: yaml
+  label: Amberai Launch Windows API
+  slug: amberai-launch-windows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-launch-windows-api-openapi.yml
+- filename: amberai-leg-items-api-openapi.yml
+  format: yaml
+  label: Amberai Leg Items API
+  slug: amberai-leg-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-leg-items-api-openapi.yml
+- filename: amberai-legs-api-openapi.yml
+  format: yaml
+  label: Amberai Legs API
+  slug: amberai-legs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-legs-api-openapi.yml
+- filename: amberai-locations-api-openapi.yml
+  format: yaml
+  label: Amberai Locations API
+  slug: amberai-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-locations-api-openapi.yml
+- filename: amberai-material-variants-api-openapi.yml
+  format: yaml
+  label: Amberai Material Variants API
+  slug: amberai-material-variants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-material-variants-api-openapi.yml
+- filename: amberai-materials-api-openapi.yml
+  format: yaml
+  label: Amberai Materials API
+  slug: amberai-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-materials-api-openapi.yml
+- filename: amberai-measurement-table-skus-api-openapi.yml
+  format: yaml
+  label: Amberai Measurement Table Skus API
+  slug: amberai-measurement-table-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-measurement-table-skus-api-openapi.yml
+- filename: amberai-measurement-tables-api-openapi.yml
+  format: yaml
+  label: Amberai Measurement Tables API
+  slug: amberai-measurement-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-measurement-tables-api-openapi.yml
+- filename: amberai-notes-api-openapi.yml
+  format: yaml
+  label: Amberai Notes API
+  slug: amberai-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-notes-api-openapi.yml
+- filename: amberai-option-values-api-openapi.yml
+  format: yaml
+  label: Amberai Option Values API
+  slug: amberai-option-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-option-values-api-openapi.yml
+- filename: amberai-options-api-openapi.yml
+  format: yaml
+  label: Amberai Options API
+  slug: amberai-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-options-api-openapi.yml
+- filename: amberai-order-amendments-api-openapi.yml
+  format: yaml
+  label: Amberai Order Amendments API
+  slug: amberai-order-amendments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-order-amendments-api-openapi.yml
+- filename: amberai-order-items-api-openapi.yml
+  format: yaml
+  label: Amberai Order Items API
+  slug: amberai-order-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-order-items-api-openapi.yml
+- filename: amberai-order-shipments-api-openapi.yml
+  format: yaml
+  label: Amberai Order Shipments API
+  slug: amberai-order-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-order-shipments-api-openapi.yml
+- filename: amberai-orders-api-openapi.yml
+  format: yaml
+  label: Amberai Orders API
+  slug: amberai-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-orders-api-openapi.yml
+- filename: amberai-packing-list-lines-api-openapi.yml
+  format: yaml
+  label: Amberai Packing List Lines API
+  slug: amberai-packing-list-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-packing-list-lines-api-openapi.yml
+- filename: amberai-packing-lists-api-openapi.yml
+  format: yaml
+  label: Amberai Packing Lists API
+  slug: amberai-packing-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-packing-lists-api-openapi.yml
+- filename: amberai-packing-templates-api-openapi.yml
+  format: yaml
+  label: Amberai Packing Templates API
+  slug: amberai-packing-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-packing-templates-api-openapi.yml
+- filename: amberai-parent-products-api-openapi.yml
+  format: yaml
+  label: Amberai Parent Products API
+  slug: amberai-parent-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-parent-products-api-openapi.yml
+- filename: amberai-partner-locations-api-openapi.yml
+  format: yaml
+  label: Amberai Partner Locations API
+  slug: amberai-partner-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-partner-locations-api-openapi.yml
+- filename: amberai-partners-api-openapi.yml
+  format: yaml
+  label: Amberai Partners API
+  slug: amberai-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-partners-api-openapi.yml
+- filename: amberai-payment-agreements-api-openapi.yml
+  format: yaml
+  label: Amberai Payment Agreements API
+  slug: amberai-payment-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-payment-agreements-api-openapi.yml
+- filename: amberai-payment-milestones-api-openapi.yml
+  format: yaml
+  label: Amberai Payment Milestones API
+  slug: amberai-payment-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-payment-milestones-api-openapi.yml
+- filename: amberai-payment-receipts-api-openapi.yml
+  format: yaml
+  label: Amberai Payment Receipts API
+  slug: amberai-payment-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-payment-receipts-api-openapi.yml
+- filename: amberai-payment-settlements-api-openapi.yml
+  format: yaml
+  label: Amberai Payment Settlements API
+  slug: amberai-payment-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-payment-settlements-api-openapi.yml
+- filename: amberai-payment-terms-api-openapi.yml
+  format: yaml
+  label: Amberai Payment Terms API
+  slug: amberai-payment-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-payment-terms-api-openapi.yml
+- filename: amberai-payments-api-openapi.yml
+  format: yaml
+  label: Amberai Payments API
+  slug: amberai-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-payments-api-openapi.yml
+- filename: amberai-product-collections-api-openapi.yml
+  format: yaml
+  label: Amberai Product Collections API
+  slug: amberai-product-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-collections-api-openapi.yml
+- filename: amberai-product-launch-windows-api-openapi.yml
+  format: yaml
+  label: Amberai Product Launch Windows API
+  slug: amberai-product-launch-windows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-launch-windows-api-openapi.yml
+- filename: amberai-product-option-collections-api-openapi.yml
+  format: yaml
+  label: Amberai Product Option Collections API
+  slug: amberai-product-option-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-option-collections-api-openapi.yml
+- filename: amberai-product-option-dimension-values-api-openapi.yml
+  format: yaml
+  label: Amberai Product Option Dimension Values API
+  slug: amberai-product-option-dimension-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-option-dimension-values-api-openapi.yml
+- filename: amberai-product-option-prices-api-openapi.yml
+  format: yaml
+  label: Amberai Product Option Prices API
+  slug: amberai-product-option-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-option-prices-api-openapi.yml
+- filename: amberai-product-option-values-api-openapi.yml
+  format: yaml
+  label: Amberai Product Option Values API
+  slug: amberai-product-option-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-option-values-api-openapi.yml
+- filename: amberai-product-options-api-openapi.yml
+  format: yaml
+  label: Amberai Product Options API
+  slug: amberai-product-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-options-api-openapi.yml
+- filename: amberai-product-relations-api-openapi.yml
+  format: yaml
+  label: Amberai Product Relations API
+  slug: amberai-product-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-relations-api-openapi.yml
+- filename: amberai-product-tags-api-openapi.yml
+  format: yaml
+  label: Amberai Product Tags API
+  slug: amberai-product-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-tags-api-openapi.yml
+- filename: amberai-product-versions-api-openapi.yml
+  format: yaml
+  label: Amberai Product Versions API
+  slug: amberai-product-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-product-versions-api-openapi.yml
+- filename: amberai-production-run-item-revisions-api-openapi.yml
+  format: yaml
+  label: Amberai Production Run Item Revisions API
+  slug: amberai-production-run-item-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-production-run-item-revisions-api-openapi.yml
+- filename: amberai-production-run-items-api-openapi.yml
+  format: yaml
+  label: Amberai Production Run Items API
+  slug: amberai-production-run-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-production-run-items-api-openapi.yml
+- filename: amberai-production-runs-api-openapi.yml
+  format: yaml
+  label: Amberai Production Runs API
+  slug: amberai-production-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-production-runs-api-openapi.yml
+- filename: amberai-quote-items-api-openapi.yml
+  format: yaml
+  label: Amberai Quote Items API
+  slug: amberai-quote-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-quote-items-api-openapi.yml
+- filename: amberai-quote-notes-api-openapi.yml
+  format: yaml
+  label: Amberai Quote Notes API
+  slug: amberai-quote-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-quote-notes-api-openapi.yml
+- filename: amberai-quote-price-bands-api-openapi.yml
+  format: yaml
+  label: Amberai Quote Price Bands API
+  slug: amberai-quote-price-bands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-quote-price-bands-api-openapi.yml
+- filename: amberai-quote-revisions-api-openapi.yml
+  format: yaml
+  label: Amberai Quote Revisions API
+  slug: amberai-quote-revisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-quote-revisions-api-openapi.yml
+- filename: amberai-quotes-api-openapi.yml
+  format: yaml
+  label: Amberai Quotes API
+  slug: amberai-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-quotes-api-openapi.yml
+- filename: amberai-sample-checklist-results-api-openapi.yml
+  format: yaml
+  label: Amberai Sample Checklist Results API
+  slug: amberai-sample-checklist-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-sample-checklist-results-api-openapi.yml
+- filename: amberai-sample-rounds-api-openapi.yml
+  format: yaml
+  label: Amberai Sample Rounds API
+  slug: amberai-sample-rounds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-sample-rounds-api-openapi.yml
+- filename: amberai-samples-api-openapi.yml
+  format: yaml
+  label: Amberai Samples API
+  slug: amberai-samples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-samples-api-openapi.yml
+- filename: amberai-shipment-bookings-api-openapi.yml
+  format: yaml
+  label: Amberai Shipment Bookings API
+  slug: amberai-shipment-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipment-bookings-api-openapi.yml
+- filename: amberai-shipment-carton-items-api-openapi.yml
+  format: yaml
+  label: Amberai Shipment Carton Items API
+  slug: amberai-shipment-carton-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipment-carton-items-api-openapi.yml
+- filename: amberai-shipment-cartons-api-openapi.yml
+  format: yaml
+  label: Amberai Shipment Cartons API
+  slug: amberai-shipment-cartons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipment-cartons-api-openapi.yml
+- filename: amberai-shipment-charges-api-openapi.yml
+  format: yaml
+  label: Amberai Shipment Charges API
+  slug: amberai-shipment-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipment-charges-api-openapi.yml
+- filename: amberai-shipment-item-lineages-api-openapi.yml
+  format: yaml
+  label: Amberai Shipment Item Lineages API
+  slug: amberai-shipment-item-lineages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipment-item-lineages-api-openapi.yml
+- filename: amberai-shipment-items-api-openapi.yml
+  format: yaml
+  label: Amberai Shipment Items API
+  slug: amberai-shipment-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipment-items-api-openapi.yml
+- filename: amberai-shipments-api-openapi.yml
+  format: yaml
+  label: Amberai Shipments API
+  slug: amberai-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-shipments-api-openapi.yml
+- filename: amberai-sku-dimension-values-api-openapi.yml
+  format: yaml
+  label: Amberai Sku Dimension Values API
+  slug: amberai-sku-dimension-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-sku-dimension-values-api-openapi.yml
+- filename: amberai-skus-api-openapi.yml
+  format: yaml
+  label: Amberai SKUs API
+  slug: amberai-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-skus-api-openapi.yml
+- filename: amberai-suppliers-api-openapi.yml
+  format: yaml
+  label: Amberai Suppliers API
+  slug: amberai-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-suppliers-api-openapi.yml
+- filename: amberai-tags-api-openapi.yml
+  format: yaml
+  label: Amberai Tags API
+  slug: amberai-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-tags-api-openapi.yml
+- filename: amberai-units-of-measure-api-openapi.yml
+  format: yaml
+  label: Amberai Units Of Measure API
+  slug: amberai-units-of-measure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/openapi/amberai-units-of-measure-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: amber.ai
+  spf: true
+hosts:
+- cert_expires: Dec 16 13:47:22 2026 GMT
+  host: amber.ai
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Amberai Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Amberai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Amberai
+provider_slug: amberai
+slug: amberai-domain-security
+source_filename: amberai-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: amber.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 13:47:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: amber.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/heads/main/security/amberai-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Company
+- AI
+- OperatingSystem
+- Automation
+- SupplyChain
+---

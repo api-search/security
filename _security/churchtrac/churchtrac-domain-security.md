@@ -37,5 +37,4 @@ tags:
 - Online Giving
 - Church Accounting
 - Attendance
-- No Public API
 ---

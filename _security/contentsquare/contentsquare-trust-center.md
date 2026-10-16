@@ -42,7 +42,7 @@ slug: contentsquare-trust-center
 source_filename: contentsquare-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.contentsquare.com/\nurl: https://trust.contentsquare.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\nevidence:\n- source: https://trust.contentsquare.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n"
+source_yaml: "generated: '2026-10-08'\nmethod: searched\nprobe: true\nsource: https://trust.contentsquare.com/\nurl: https://trust.contentsquare.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\nevidence:\n- source: https://trust.contentsquare.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/security/contentsquare-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
 tags:

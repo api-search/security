@@ -2,24 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: sahifa-convert-api-openapi.yml
+- filename: sahifa-pdf-api-openapi.yml
   format: yaml
-  label: Sahifa Convert API
-  slug: sahifa-convert-api
+  label: Sahifa PDF API
+  slug: sahifa-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sahifa/refs/heads/main/openapi/sahifa-convert-api-openapi.yml
-- filename: sahifa-health-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sahifa/refs/heads/main/openapi/sahifa-pdf-api-openapi.yml
+- filename: sahifa-screenshots-api-openapi.yml
   format: yaml
-  label: Sahifa Health API
-  slug: sahifa-health-api
+  label: Sahifa Screenshots API
+  slug: sahifa-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sahifa/refs/heads/main/openapi/sahifa-health-api-openapi.yml
-- filename: sahifa-take-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sahifa/refs/heads/main/openapi/sahifa-screenshots-api-openapi.yml
+- filename: sahifa-status-api-openapi.yml
   format: yaml
-  label: Sahifa Take API
-  slug: sahifa-take-api
+  label: Sahifa Status API
+  slug: sahifa-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sahifa/refs/heads/main/openapi/sahifa-take-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sahifa/refs/heads/main/openapi/sahifa-status-api-openapi.yml
 auth_types: []
 description: Authentication methods for Sahifa API
 kind: authentication

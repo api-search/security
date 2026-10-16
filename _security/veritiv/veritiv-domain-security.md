@@ -41,6 +41,5 @@ tags:
 - Janitorial Sanitation
 - Foodservice Packaging
 - Industrial Packaging
-- No Public API
 - Private Equity Owned
 ---

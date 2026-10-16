@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: temlavo-documents-api-openapi.yml
+  format: yaml
+  label: Temlavo Documents API
+  slug: temlavo-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temlavo/refs/heads/main/openapi/temlavo-documents-api-openapi.yml
+- filename: temlavo-usage-api-openapi.yml
+  format: yaml
+  label: Temlavo Usage API
+  slug: temlavo-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temlavo/refs/heads/main/openapi/temlavo-usage-api-openapi.yml
 description: ''
 domains:
 - caa:

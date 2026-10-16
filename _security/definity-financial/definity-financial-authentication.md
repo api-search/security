@@ -34,7 +34,6 @@ tags:
 - Claims
 - Pet Insurance
 - Direct to Consumer
-- Partner Gated
 - CSIO
 - Insurtech
 ---

@@ -41,4 +41,9 @@ tags:
 - Artificial Intelligence
 - Biometrics
 - Acquired
+- Surveillance
+- Edge AI
+- watchlist-alerting
+- Visitor Management
+- Israel
 ---

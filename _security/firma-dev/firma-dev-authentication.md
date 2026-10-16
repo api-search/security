@@ -109,5 +109,4 @@ tags:
 - E-Signature
 - Developer Tools
 - LowCost
-- White Label
 ---

@@ -36,5 +36,4 @@ tags:
 - Genetic Health
 - Direct to Consumer
 - Pet Tech
-- No Public API
 ---

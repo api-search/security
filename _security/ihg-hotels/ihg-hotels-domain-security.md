@@ -110,5 +110,4 @@ tags:
 - GDS
 - Loyalty
 - Affiliates
-- Partner Gated
 ---

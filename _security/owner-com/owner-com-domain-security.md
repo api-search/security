@@ -39,5 +39,4 @@ tags:
 - Food and Beverage
 - Small Business
 - Software-as-a-Service
-- No Public API
 ---

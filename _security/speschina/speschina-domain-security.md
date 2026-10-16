@@ -48,5 +48,4 @@ tags:
 - E-Commerce
 - Direct to Consumer
 - China
-- No Public API
 ---

@@ -114,7 +114,6 @@ tags:
 - Public Records
 - Open Data
 - Government Data
-- Parcel
 - Geocoding
 - Property Tax
 - Building Permits
@@ -127,4 +126,5 @@ tags:
 - Agent-Native
 - Chicago
 - Illinois
+- Land Parcels
 ---

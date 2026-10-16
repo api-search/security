@@ -29,7 +29,5 @@ tags:
 - Not-for-Profit
 - Claims
 - Member Services
-- Partner Gated
-- No Public API
 trust_url: https://www.hcf.com.au/about-hcf/privacy-information-trust-centre
 ---

@@ -106,6 +106,42 @@ api_specs:
   slug: brick-blue-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-verify-api-openapi.yml
+- filename: brick-blue-crawler-api-openapi.yml
+  format: yaml
+  label: brick.blue Crawler API
+  slug: brick-blue-crawler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-crawler-api-openapi.yml
+- filename: brick-blue-heartbeat-api-openapi.yml
+  format: yaml
+  label: brick.blue Heartbeat API
+  slug: brick-blue-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-heartbeat-api-openapi.yml
+- filename: brick-blue-liveness-api-openapi.yml
+  format: yaml
+  label: brick.blue Liveness API
+  slug: brick-blue-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-liveness-api-openapi.yml
+- filename: brick-blue-outreach-api-openapi.yml
+  format: yaml
+  label: brick.blue Outreach API
+  slug: brick-blue-outreach-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-outreach-api-openapi.yml
+- filename: brick-blue-trials-api-openapi.yml
+  format: yaml
+  label: brick.blue Trials API
+  slug: brick-blue-trials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-trials-api-openapi.yml
+- filename: brick-blue-welcome-api-openapi.yml
+  format: yaml
+  label: brick.blue Welcome API
+  slug: brick-blue-welcome-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-welcome-api-openapi.yml
 auth_types:
 - http
 description: ''

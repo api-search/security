@@ -93,4 +93,11 @@ tags:
 - Authorization
 - LLM
 - Plugins
+- Agents
+- MCP
+- AI Agents
+- Authentication
+- Tool Calling
+- Agent Infrastructure
+- Integration
 ---

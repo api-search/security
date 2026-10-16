@@ -95,6 +95,5 @@ tags:
 - E-Signature
 - Developer Tools
 - LowCost
-- White Label
 trust_url: https://firma.dev/trust
 ---

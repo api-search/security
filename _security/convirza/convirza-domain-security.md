@@ -1,0 +1,45 @@
+---
+api_specs:
+- filename: convirza-openapi-generated.yml
+  format: yaml
+  label: Convirza API
+  slug: convirza-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/_ae-authored/convirza-openapi-generated.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: convirza.com
+  spf: true
+hosts:
+- cert_expires: Dec 22 05:37:32 2026 GMT
+  host: www.convirza.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Convirza Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Convirza, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Convirza
+provider_slug: convirza
+slug: convirza-domain-security
+source_filename: convirza-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.convirza.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 05:37:32 2026 GMT\n  hsts: false\ndomains:\n- domain: convirza.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/security/convirza-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Conversation Analytics
+- Call Tracking
+- AI
+- Marketing
+- Sales Enablement
+---

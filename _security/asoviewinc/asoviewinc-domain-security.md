@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Asoviewinc Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Asoviewinc, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: Asoviewinc
+overview: 'Domain security posture for ASOVIEW Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: ASOVIEW Inc.
 provider_slug: asoviewinc
 slug: asoviewinc-domain-security
 source_filename: asoviewinc-domain-security.yml
@@ -31,9 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asoviewinc/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Finance
 - Marketplace
-- Private Equity
-- Pre-IPO
-- Investment
+- Travel
+- Booking
+- Activities
+- Tourism
+- Japan
 ---

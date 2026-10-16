@@ -36,5 +36,4 @@ tags:
 - Boarding Software
 - Daycare Software
 - Business Management
-- No Public API
 ---

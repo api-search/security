@@ -41,7 +41,6 @@ tags:
 - Digital Products
 - Membership
 - Email Marketing
-- No Public API
 - Zapier Only
 - Creator Platform
 - Community

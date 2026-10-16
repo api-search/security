@@ -45,7 +45,7 @@ slug: fern-api-domain-security
 source_filename: fern-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: buildwithfern.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: fai.buildwithfern.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: buildwithfern.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: buildwithfern.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: fai.buildwithfern.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: buildwithfern.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/security/fern-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

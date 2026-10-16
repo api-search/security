@@ -54,5 +54,4 @@ tags:
 - SDK
 - Extensions
 - Multi-Tenant
-- Partner Gated
 ---

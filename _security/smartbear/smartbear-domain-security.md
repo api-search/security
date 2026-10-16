@@ -74,7 +74,7 @@ slug: smartbear-domain-security
 source_filename: smartbear-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smartbear.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 07:44:29 2026 GMT\n  hsts: false\n- host: pactflow.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10368000\n- host: swagger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 21:45:27 2026 GMT\n  hsts: false\ndomains:\n- domain: smartbear.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pactflow.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: smartbear.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 07:44:29 2026 GMT\n  hsts: false\n- host: pactflow.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10368000\n- host: swagger.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 21:45:27 2026 GMT\n  hsts: false\ndomains:\n- domain: smartbear.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pactflow.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/security/smartbear-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

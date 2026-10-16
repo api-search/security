@@ -39,5 +39,4 @@ tags:
 - Payments
 - Webcasting
 - Partner API
-- No Public API
 ---

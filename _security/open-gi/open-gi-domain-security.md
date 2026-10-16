@@ -42,5 +42,4 @@ tags:
 - Property and Casualty
 - MGA
 - Insurer Hosted Pricing
-- Partner Gated
 ---

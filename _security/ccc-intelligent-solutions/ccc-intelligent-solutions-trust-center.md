@@ -27,7 +27,6 @@ tags:
 - Insurtech
 - Claims Technology
 - CIECA
-- Partner Gated
 - Authentication
 trust_url: https://trust.cccis.com/
 ---

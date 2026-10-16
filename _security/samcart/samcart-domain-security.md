@@ -45,18 +45,18 @@ domains:
   domain: samcart.com
   spf: true
 hosts:
-- cert_expires: Oct  7 10:47:23 2026 GMT
+- cert_expires: Dec  7 12:33:17 2026 GMT
   host: www.samcart.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 16 23:59:59 2026 GMT
+- cert_expires: Mar  3 23:59:59 2027 GMT
   host: developer.samcart.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 23 23:59:59 2026 GMT
+- cert_expires: Mar 10 23:59:59 2027 GMT
   host: api.samcart.com
   hsts: null
   https: true
@@ -74,7 +74,7 @@ slug: samcart-domain-security
 source_filename: samcart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.samcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 10:47:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.samcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: false\n- host: api.samcart.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: samcart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.samcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 12:33:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.samcart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  3 23:59:59 2027 GMT\n  hsts: false\n- host: api.samcart.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: samcart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/security/samcart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

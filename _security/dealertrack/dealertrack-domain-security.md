@@ -50,5 +50,4 @@ tags:
 - Lender Network
 - Cox Automotive
 - Opentrack
-- Partner Gated
 ---

@@ -37,8 +37,8 @@ layout: security
 method: probed
 name: Docupanda Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for DocuPanda, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: DocuPanda
+overview: 'Domain security posture for DocuPipe, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: DocuPipe
 provider_slug: docupanda
 slug: docupanda-domain-security
 source_filename: docupanda-domain-security.yml

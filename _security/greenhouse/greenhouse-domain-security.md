@@ -177,31 +177,44 @@ api_specs:
 description: ''
 domains:
 - caa:
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "amazonaws.com"
+  - 0 issuewild "amazontrust.com"
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: greenhouse.com
+  spf: true
+- caa:
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
   - 0 issue "comodoca.com"
   - 0 issue "digicert.com"
   - 0 issue "globalsign.com"
   - 0 issue "godaddy.com"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: none
   dnssec: false
   domain: greenhouse.io
   spf: true
 hosts:
-- cert_expires: Sep 11 23:59:59 2026 GMT
-  host: developers.greenhouse.io
+- cert_expires: Dec 21 21:56:46 2026 GMT
+  host: www.greenhouse.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Mar  4 23:59:59 2027 GMT
+  host: developers.greenhouse.io
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Mar  4 23:59:59 2027 GMT
   host: harvest.greenhouse.io
   hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
-  host: boards-api.greenhouse.io
-  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -210,16 +223,17 @@ layout: security
 method: probed
 name: Greenhouse Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Greenhouse, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Greenhouse, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Greenhouse
 provider_slug: greenhouse
 slug: greenhouse-domain-security
 source_filename: greenhouse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: false\n- host: harvest.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: null\n- host: boards-api.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: greenhouse.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.greenhouse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 21:56:46 2026 GMT\n  hsts: false\n- host: developers.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: harvest.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: greenhouse.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: greenhouse.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\
+  \n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/security/greenhouse-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources
 - Greenhouse

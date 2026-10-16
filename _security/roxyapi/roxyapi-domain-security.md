@@ -96,6 +96,30 @@ api_specs:
   slug: roxyapi-western-astrology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-western-astrology-api-openapi.yml
+- filename: roxyapi-ayurveda-api-openapi.yml
+  format: yaml
+  label: RoxyAPI Ayurveda API
+  slug: roxyapi-ayurveda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-ayurveda-api-openapi.yml
+- filename: roxyapi-kabbalah-api-openapi.yml
+  format: yaml
+  label: RoxyAPI Kabbalah API
+  slug: roxyapi-kabbalah-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-kabbalah-api-openapi.yml
+- filename: roxyapi-mesoamerican-astrology-api-openapi.yml
+  format: yaml
+  label: RoxyAPI Mesoamerican Astrology API
+  slug: roxyapi-mesoamerican-astrology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-mesoamerican-astrology-api-openapi.yml
+- filename: roxyapi-vastu-api-openapi.yml
+  format: yaml
+  label: RoxyAPI Vastu API
+  slug: roxyapi-vastu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/openapi/roxyapi-vastu-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -140,6 +164,10 @@ tags:
 - Dreams
 - Angel Numbers
 - Location
+- Mesoamerican Astrology
+- Vastu
+- Kabbalah
+- Ayurveda
 - spiritual
 - Wellness
 - MCP Server

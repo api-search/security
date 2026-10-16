@@ -48,18 +48,6 @@ api_specs:
   slug: nylas-app-migration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-app-migration-api-openapi.yml
-- filename: nylas-application-level-templates-api-openapi.yml
-  format: yaml
-  label: Nylas Application-level templates API
-  slug: nylas-application-level-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-application-level-templates-api-openapi.yml
-- filename: nylas-application-level-workflows-api-openapi.yml
-  format: yaml
-  label: Nylas Application-level workflows API
-  slug: nylas-application-level-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-application-level-workflows-api-openapi.yml
 - filename: nylas-applications-api-openapi.yml
   format: yaml
   label: Nylas Applications API
@@ -126,18 +114,6 @@ api_specs:
   slug: nylas-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-folders-api-openapi.yml
-- filename: nylas-grant-level-templates-api-openapi.yml
-  format: yaml
-  label: Nylas Grant-level templates API
-  slug: nylas-grant-level-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grant-level-templates-api-openapi.yml
-- filename: nylas-grant-level-workflows-api-openapi.yml
-  format: yaml
-  label: Nylas Grant-level workflows API
-  slug: nylas-grant-level-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-grant-level-workflows-api-openapi.yml
 - filename: nylas-group-events-api-openapi.yml
   format: yaml
   label: Nylas Group Events API
@@ -240,6 +216,12 @@ api_specs:
   slug: nylas-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-workspaces-api-openapi.yml
+- filename: nylas-templates-and-workflows-api-openapi.yml
+  format: yaml
+  label: Nylas Templates and Workflows API
+  slug: nylas-templates-and-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-and-workflows-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -257,7 +239,7 @@ slug: nylas-trust-center
 source_filename: nylas-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-02'\nmethod: searched\nprobe: true\nsource: https://www.nylas.com/security/\nurl: https://www.nylas.com/security/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.nylas.com/security/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-11'\nmethod: searched\nprobe: true\nsource: https://www.nylas.com/security/\nurl: https://www.nylas.com/security/\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.nylas.com/security/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/security/nylas-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:

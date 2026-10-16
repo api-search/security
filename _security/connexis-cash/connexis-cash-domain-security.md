@@ -93,6 +93,6 @@ tags:
 - Open Banking
 - Payments
 - PSD2
-- SCA
 - STET
+- Strong Customer Authentication
 ---

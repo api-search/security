@@ -78,5 +78,4 @@ tags:
 - Number Verification
 - Carrier Billing
 - 5G
-- Partner Gated
 ---

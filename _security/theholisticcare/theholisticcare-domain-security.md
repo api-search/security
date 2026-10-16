@@ -18,6 +18,48 @@ api_specs:
   slug: theholisticcare-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-search-api-openapi.yml
+- filename: theholisticcare-blog-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Blog API
+  slug: theholisticcare-blog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-blog-api-openapi.yml
+- filename: theholisticcare-categories-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Categories API
+  slug: theholisticcare-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-categories-api-openapi.yml
+- filename: theholisticcare-glossary-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Glossary API
+  slug: theholisticcare-glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-glossary-api-openapi.yml
+- filename: theholisticcare-mindfulness-games-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Mindfulness Games API
+  slug: theholisticcare-mindfulness-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-mindfulness-games-api-openapi.yml
+- filename: theholisticcare-panchavikas-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Panchavikas API
+  slug: theholisticcare-panchavikas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-panchavikas-api-openapi.yml
+- filename: theholisticcare-practices-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Practices API
+  slug: theholisticcare-practices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-practices-api-openapi.yml
+- filename: theholisticcare-whitepapers-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Whitepapers API
+  slug: theholisticcare-whitepapers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-whitepapers-api-openapi.yml
 description: ''
 domains:
 - caa: []

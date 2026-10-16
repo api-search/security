@@ -46,5 +46,4 @@ tags:
 - Managing General Agent
 - Risk Management
 - Agency Management
-- Partner Gated
 ---

@@ -34,9 +34,9 @@ tags:
 - Company
 - Leave Management
 - Absence Management
-- Accommodation
 - Human Resources
 - Compliance
 - FMLA
-- ADAS
+- ADA Compliance
+- Workplace Accommodations
 ---

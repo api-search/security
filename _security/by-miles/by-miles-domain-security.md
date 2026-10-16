@@ -66,5 +66,4 @@ tags:
 - Connected Car
 - Direct to Consumer
 - Open Banking
-- No Public API
 ---

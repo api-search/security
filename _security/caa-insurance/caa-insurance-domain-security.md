@@ -100,6 +100,4 @@ tags:
 - Carrier
 - Personal Lines
 - Telematics
-- Partner Gated
-- No Public API
 ---

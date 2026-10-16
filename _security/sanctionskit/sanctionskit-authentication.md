@@ -1,6 +1,67 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: sanctionskit-batches-and-files-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Batches and files API
+  slug: sanctionskit-batches-and-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-batches-and-files-api-openapi.yml
+- filename: sanctionskit-counterparties-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Counterparties API
+  slug: sanctionskit-counterparties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-counterparties-api-openapi.yml
+- filename: sanctionskit-monitoring-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Monitoring API
+  slug: sanctionskit-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-monitoring-api-openapi.yml
+- filename: sanctionskit-reports-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Reports API
+  slug: sanctionskit-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-reports-api-openapi.yml
+- filename: sanctionskit-review-evidence-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Review evidence API
+  slug: sanctionskit-review-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-review-evidence-api-openapi.yml
+- filename: sanctionskit-screening-and-evidence-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Screening and evidence API
+  slug: sanctionskit-screening-and-evidence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-screening-and-evidence-api-openapi.yml
+- filename: sanctionskit-screening-policies-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Screening policies API
+  slug: sanctionskit-screening-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-screening-policies-api-openapi.yml
+- filename: sanctionskit-source-discovery-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Source discovery API
+  slug: sanctionskit-source-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-source-discovery-api-openapi.yml
+- filename: sanctionskit-usage-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Usage API
+  slug: sanctionskit-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-usage-api-openapi.yml
+- filename: sanctionskit-webhooks-api-openapi.yml
+  format: yaml
+  label: SanctionsKit Webhooks API
+  slug: sanctionskit-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-webhooks-api-openapi.yml
 auth_types: []
 description: Authentication schemes for SanctionsKit API
 kind: authentication

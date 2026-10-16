@@ -100,6 +100,7 @@ summary_line: http · 1 scheme
 tags:
 - Membership
 - Payments
+- Checkout
 - Creator Economy
 - Marketplace
 - Digital Products

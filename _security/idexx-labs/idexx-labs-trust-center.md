@@ -27,6 +27,5 @@ tags:
 - Healthcare
 - VetConnect PLUS
 - Web PACS
-- Partner Gated
 trust_url: https://trust.idexx.com/
 ---

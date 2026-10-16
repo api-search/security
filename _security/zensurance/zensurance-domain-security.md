@@ -66,5 +66,4 @@ tags:
 - Small Business Insurance
 - Cyber Insurance
 - Digital Brokerage
-- Partner Gated
 ---

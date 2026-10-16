@@ -1,6 +1,19 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: vigil-wtf-vigil-proxy-api-openapi.yml
+  format: yaml
+  label: Vigil Proxy
+  slug: vigil-wtf-vigil-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vigil-wtf/refs/heads/main/openapi/vigil-wtf-vigil-proxy-api-openapi.yml
+- filename: vigil-wtf-feedback-api-openapi.yml
+  format: yaml
+  label: Vigil Feedback API
+  slug: vigil-wtf-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vigil-wtf/refs/heads/main/openapi/vigil-wtf-feedback-api-openapi.yml
 auth_types: []
 description: Authentication schemes used by Vigil for Bedrock API access
 kind: authentication

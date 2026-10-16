@@ -89,7 +89,7 @@ tags:
 - Finland
 - Compliance
 - eIDAS
-- SCA
 - DORA
 - GDPR
+- Strong Customer Authentication
 ---

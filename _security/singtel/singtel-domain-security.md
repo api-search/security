@@ -50,5 +50,4 @@ tags:
 - 5G
 - Edge Computing
 - Aduna
-- Partner Gated
 ---

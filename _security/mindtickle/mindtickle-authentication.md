@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: mindtickle-openapi-generated.yml
+  format: yaml
+  label: Mindtickle API
+  slug: mindtickle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/_ae-authored/mindtickle-openapi-generated.yml
 auth_types:
 - http
 - oauth2

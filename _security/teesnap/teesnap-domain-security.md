@@ -36,5 +36,4 @@ tags:
 - Tee Times
 - Golf Course Management
 - Booking
-- Partner Gated
 ---

@@ -41,5 +41,4 @@ tags:
 - Lloyd's of London
 - Exposure Management
 - Artificial Intelligence
-- Partner Gated
 ---

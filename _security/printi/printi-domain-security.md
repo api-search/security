@@ -38,5 +38,4 @@ tags:
 - E-Commerce
 - Brazil
 - Cimpress
-- Partner Gated
 ---

@@ -50,18 +50,18 @@ domains:
   domain: llama.fi
   spf: false
 hosts:
-- cert_expires: Aug 20 06:27:35 2026 GMT
+- cert_expires: Dec 16 15:52:33 2026 GMT
+  host: www.defillama.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 16 15:52:33 2026 GMT
   host: defillama.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 21 20:27:49 2026 GMT
+- cert_expires: Nov 19 21:18:27 2026 GMT
   host: api.llama.fi
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Aug 24 13:55:53 2026 GMT
-  host: pro-api.llama.fi
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -78,7 +78,7 @@ slug: defillama-domain-security
 source_filename: defillama-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: defillama.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 06:27:35 2026 GMT\n  hsts: false\n- host: api.llama.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 20:27:49 2026 GMT\n  hsts: null\n- host: pro-api.llama.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 13:55:53 2026 GMT\n  hsts: null\ndomains:\n- domain: defillama.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: llama.fi\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.defillama.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 15:52:33 2026 GMT\n  hsts: false\n- host: defillama.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 15:52:33 2026 GMT\n  hsts: false\n- host: api.llama.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 21:18:27 2026 GMT\n  hsts: null\ndomains:\n- domain: defillama.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: llama.fi\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/security/defillama-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

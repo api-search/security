@@ -41,5 +41,4 @@ tags:
 - Compulsory Third Party
 - Carrier
 - Direct to Consumer
-- No Public API
 ---

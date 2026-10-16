@@ -27,6 +27,5 @@ tags:
 - Medicaid
 - Health Plans
 - Aging
-- No Public API
 trust_url: https://papa.securitypal.com/
 ---

@@ -3,6 +3,18 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
+- filename: openapi.json
+  format: json
+  label: MediaRuntime Media API
+  slug: media-api
+  spec_type: OpenAPI
+  url: https://mediaruntime.com/openapi.json
+- filename: openapi.json
+  format: json
+  label: MediaRuntime Stickers API
+  slug: stickers-api
+  spec_type: OpenAPI
+  url: https://mediaruntime.com/openapi.json
 - filename: mediaruntime-discovery-api-openapi.yml
   format: yaml
   label: MediaRuntime Discovery API

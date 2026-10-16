@@ -43,5 +43,4 @@ tags:
 - MGA
 - Policy Administration
 - ACORD
-- Partner Gated
 ---

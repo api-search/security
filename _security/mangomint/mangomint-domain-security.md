@@ -37,5 +37,4 @@ tags:
 - Point-of-Sale
 - Business Management
 - Webhook
-- No Public API
 ---

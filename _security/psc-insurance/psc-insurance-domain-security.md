@@ -50,6 +50,4 @@ tags:
 - Commercial Insurance
 - Cyber Insurance
 - Intermediary
-- Partner Gated
-- No Public API
 ---

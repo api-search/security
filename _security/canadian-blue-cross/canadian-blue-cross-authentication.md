@@ -101,5 +101,4 @@ tags:
 - Claims
 - Carrier
 - Associations
-- No Public API
 ---

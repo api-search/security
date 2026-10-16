@@ -42,5 +42,4 @@ tags:
 - Photo Proofing
 - Print Sales
 - Photo Delivery
-- No Public API
 ---

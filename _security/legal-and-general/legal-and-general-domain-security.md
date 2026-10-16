@@ -99,8 +99,6 @@ tags:
 - Asset Management
 - Underwriting
 - Carrier
-- Partner Gated
-- No Public API
 - Design Systems
 - Agent Skills
 - Open Source

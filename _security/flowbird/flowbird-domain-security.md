@@ -50,5 +50,4 @@ tags:
 - Pay Stations
 - EV Charging
 - Digital Permits
-- Partner Gated
 ---

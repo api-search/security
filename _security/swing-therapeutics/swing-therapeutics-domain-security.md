@@ -41,5 +41,4 @@ tags:
 - Prescription Digital Therapeutic
 - Telehealth
 - Mobile App
-- No Public API
 ---

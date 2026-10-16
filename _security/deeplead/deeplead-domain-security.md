@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: deeplead-api-openapi.json
+  format: json
+  label: Deeplead API
+  slug: deeplead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-api-openapi.json
 description: ''
 domains:
 - caa: []

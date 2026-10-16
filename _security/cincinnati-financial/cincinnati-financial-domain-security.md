@@ -42,7 +42,6 @@ tags:
 - Independent Agency
 - Insurance
 - Life Insurance
-- No Public API
 - Property Casualty
 - Fortune 1000
 ---

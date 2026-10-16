@@ -219,19 +219,19 @@ domains:
   domain: isometric.com
   spf: true
 hosts:
-- cert_expires: Sep 20 22:51:04 2026 GMT
+- cert_expires: Nov 22 18:36:32 2026 GMT
   host: isometric.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 25 09:35:52 2026 GMT
+- cert_expires: Nov 26 11:27:26 2026 GMT
   host: docs.isometric.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 19 08:39:43 2026 GMT
+- cert_expires: Jan  2 11:15:26 2027 GMT
   host: api.isometric.com
   hsts: null
   https: true
@@ -249,7 +249,7 @@ slug: isometric-domain-security
 source_filename: isometric-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: isometric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 22:51:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.isometric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 09:35:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.isometric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 08:39:43 2026 GMT\n  hsts: null\ndomains:\n- domain: isometric.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: isometric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 18:36:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.isometric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 11:27:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.isometric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 11:15:26 2027 GMT\n  hsts: null\ndomains:\n- domain: isometric.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/security/isometric-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

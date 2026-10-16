@@ -148,8 +148,6 @@ tags:
 - Claims
 - Carrier
 - Embedded Insurance
-- Partner Gated
-- No Public API
 - GraphQL
 - Identity
 ---

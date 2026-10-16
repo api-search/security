@@ -158,5 +158,4 @@ tags:
 - Carrier
 - Policy Administration
 - Underwriting
-- Partner Gated
 ---

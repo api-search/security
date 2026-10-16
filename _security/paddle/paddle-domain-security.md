@@ -93,19 +93,19 @@ domains:
   domain: paddle.com
   spf: true
 hosts:
-- cert_expires: Sep 11 12:23:57 2026 GMT
+- cert_expires: Nov 10 11:33:57 2026 GMT
   host: www.paddle.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 27 04:23:43 2026 GMT
+- cert_expires: Nov 26 03:33:41 2026 GMT
   host: developer.paddle.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 23 16:26:49 2026 GMT
+- cert_expires: Dec 19 17:30:10 2026 GMT
   host: api.paddle.com
   hsts: null
   https: true
@@ -123,7 +123,7 @@ slug: paddle-domain-security
 source_filename: paddle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 12:23:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.paddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 04:23:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 16:26:49 2026 GMT\n  hsts: null\ndomains:\n- domain: paddle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.paddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 11:33:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.paddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 03:33:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.paddle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 17:30:10 2026 GMT\n  hsts: null\ndomains:\n- domain: paddle.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/security/paddle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

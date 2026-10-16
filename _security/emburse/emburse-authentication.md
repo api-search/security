@@ -325,4 +325,9 @@ tags:
 - Invoice Processing
 - Finance
 - Fintech
+- Ai Apps
+- Travel And Expense
+- Invoice Management
+- Spend Management
+- Enterprise Software
 ---

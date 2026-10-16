@@ -44,7 +44,6 @@ tags:
 - Vendor Management
 - ERP Integration
 - Fintech
-- No Public API
 - Gated API
 - Procurement
 ---

@@ -69,6 +69,4 @@ tags:
 - Underwriting
 - Claims
 - Direct to Consumer
-- Partner Gated
-- No Public API
 ---

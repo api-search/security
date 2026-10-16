@@ -76,7 +76,6 @@ tags:
 - Delta Lake
 - Delta Sharing
 - ETL
-- Identity Management
 - Lakehouse
 - Machine Learning
 - MLflow

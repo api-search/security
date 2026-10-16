@@ -10,7 +10,8 @@ domains:
 hosts:
 - cert_expires: Dec 18 16:17:45 2026 GMT
   host: forgeglobal.com
-  hsts: null
+  hsts: true
+  hsts_max_age: 2592000
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -19,16 +20,22 @@ layout: security
 method: probed
 name: Alter Learning Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Alter Learning, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Alter Learning, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Alter Learning
 provider_slug: alter-learning
 slug: alter-learning-domain-security
 source_filename: alter-learning-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 16:17:45 2026 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 16:17:45 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alter-learning/refs/heads/main/security/alter-learning-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Company
+- STEAM
+- Educational Games
+- Kids
+- Teachers
+- Scientists
+- Subscription
+- Platform
 ---

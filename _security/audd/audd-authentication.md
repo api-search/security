@@ -3,18 +3,24 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: audd-lyrics-api-openapi.yml
-  format: yaml
-  label: AudD Lyrics API
-  slug: audd-lyrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-lyrics-api-openapi.yml
 - filename: audd-recognition-api-openapi.yml
   format: yaml
   label: AudD Recognition API
   slug: audd-recognition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-recognition-api-openapi.yml
+- filename: audd-custom-catalog-api-openapi.yml
+  format: yaml
+  label: AudD Custom Catalog API
+  slug: audd-custom-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-custom-catalog-api-openapi.yml
+- filename: audd-streams-api-openapi.yml
+  format: yaml
+  label: AudD Streams API
+  slug: audd-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-streams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,5 +55,4 @@ tags:
 - Music Recognition
 - Audio
 - Fingerprinting
-- Lyrics
 ---

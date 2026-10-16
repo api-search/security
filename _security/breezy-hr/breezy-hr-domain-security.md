@@ -1,0 +1,45 @@
+---
+api_specs:
+- filename: breezy-hr-openapi-generated.yml
+  format: yaml
+  label: Breezy HR API
+  slug: breezy-hr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/_ae-authored/breezy-hr-openapi-generated.yml
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: breezy.hr
+  spf: true
+hosts:
+- cert_expires: Mar 27 23:59:59 2027 GMT
+  host: breezy.hr
+  hsts: true
+  hsts_max_age: 2678400
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Breezy Hr Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Breezy HR, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Breezy HR
+provider_slug: breezy-hr
+slug: breezy-hr-domain-security
+source_filename: breezy-hr-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: breezy.hr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 2678400\ndomains:\n- domain: breezy.hr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/security/breezy-hr-domain-security.yml
+summary_line: TLSv1.3 · HSTS
+tags:
+- Hiring
+- ATS
+- Recruitment
+- SaaS
+- HRTech
+---

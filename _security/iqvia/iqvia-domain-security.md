@@ -37,4 +37,6 @@ tags:
 - Healthcare
 - Life Sciences
 - Clinical Trials
+- Pharmaceuticals
+- Biotechnology
 ---

@@ -34,6 +34,5 @@ tags:
 - Wealth Management
 - Reinsurance
 - Annuities
-- Partner Gated
 trust_url: https://www.empower.com/financial-professionals/about-empower/cybersecurity
 ---

@@ -43,5 +43,4 @@ tags:
 - Retail
 - Philadelphia
 - Private Company
-- No Public API
 ---

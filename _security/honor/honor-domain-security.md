@@ -50,5 +50,4 @@ tags:
 - Care Platform
 - Caregivers
 - Home Instead
-- No Public API
 ---

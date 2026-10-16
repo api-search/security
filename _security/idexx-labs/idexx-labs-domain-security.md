@@ -56,5 +56,4 @@ tags:
 - Healthcare
 - VetConnect PLUS
 - Web PACS
-- Partner Gated
 ---

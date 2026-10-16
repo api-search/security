@@ -45,5 +45,4 @@ tags:
 - Medicaid
 - Health Plans
 - Aging
-- No Public API
 ---

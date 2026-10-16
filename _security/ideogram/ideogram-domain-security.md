@@ -33,18 +33,18 @@ domains:
   domain: ideogram.ai
   spf: true
 hosts:
-- cert_expires: Aug 16 18:04:43 2026 GMT
+- cert_expires: Dec 13 09:07:03 2026 GMT
   host: ideogram.ai
-  hsts: false
+  hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 13 06:45:40 2026 GMT
+- cert_expires: Nov 11 08:04:03 2026 GMT
   host: docs.ideogram.ai
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 16 18:04:43 2026 GMT
+- cert_expires: Dec 13 09:07:03 2026 GMT
   host: api.ideogram.ai
   hsts: null
   https: true
@@ -62,7 +62,7 @@ slug: ideogram-domain-security
 source_filename: ideogram-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 18:04:43 2026 GMT\n  hsts: false\n- host: docs.ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 06:45:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 18:04:43 2026 GMT\n  hsts: null\ndomains:\n- domain: ideogram.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 09:07:03 2026 GMT\n  hsts: null\n- host: docs.ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 08:04:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ideogram.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 09:07:03 2026 GMT\n  hsts: null\ndomains:\n- domain: ideogram.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/security/ideogram-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

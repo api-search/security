@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: vincario-account-api-openapi.yml
+- filename: vincario-vin-decoder-api-openapi.yml
   format: yaml
-  label: Vincario Account API
-  slug: vincario-account-api
+  label: Vincario VIN Decoder API
+  slug: vincario-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-account-api-openapi.yml
-- filename: vincario-decode-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vin-decoder-api-openapi.yml
+- filename: vincario-oem-vin-lookup-api-openapi.yml
   format: yaml
-  label: Vincario Decode API
-  slug: vincario-decode-api
+  label: Vincario OEM VIN Lookup API
+  slug: vincario-oem-vin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-decode-api-openapi.yml
-- filename: vincario-market-value-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-oem-vin-lookup-api-openapi.yml
+- filename: vincario-oem-service-history-api-openapi.yml
   format: yaml
-  label: Vincario Market Value API
-  slug: vincario-market-value-api
+  label: Vincario OEM Service History API
+  slug: vincario-oem-service-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-market-value-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-oem-service-history-api-openapi.yml
+- filename: vincario-vehicle-market-value-api-openapi.yml
+  format: yaml
+  label: Vincario Vehicle Market Value API
+  slug: vincario-vehicle-market-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vehicle-market-value-api-openapi.yml
 - filename: vincario-stolen-check-api-openapi.yml
   format: yaml
   label: Vincario Stolen Check API
   slug: vincario-stolen-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-stolen-check-api-openapi.yml
-- filename: vincario-vehicle-info-api-openapi.yml
+- filename: vincario-get-balance-api-openapi.yml
   format: yaml
-  label: Vincario Vehicle Info API
-  slug: vincario-vehicle-info-api
+  label: Vincario Credit Balance API
+  slug: vincario-get-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vehicle-info-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-get-balance-api-openapi.yml
+- filename: vincario-enums-api-openapi.yml
+  format: yaml
+  label: Vincario Enums API
+  slug: vincario-enums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-enums-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -56,5 +56,4 @@ tags:
 - Market Intelligence
 - Artificial Intelligence
 - Y Combinator
-- No Public API
 ---

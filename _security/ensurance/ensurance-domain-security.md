@@ -53,6 +53,4 @@ tags:
 - Brokers
 - Wholesale Insurance
 - Insurtech
-- Partner Gated
-- No Public API
 ---

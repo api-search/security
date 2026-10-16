@@ -170,6 +170,5 @@ tags:
 - Underwriting Agency
 - Agency Management
 - ACORD
-- Partner Gated
 - New Zealand
 ---

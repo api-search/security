@@ -57,5 +57,4 @@ tags:
 - Digital Health
 - Medical Devices
 - PPG
-- Partner Gated
 ---

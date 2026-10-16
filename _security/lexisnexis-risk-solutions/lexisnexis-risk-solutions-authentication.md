@@ -68,5 +68,4 @@ tags:
 - Life Insurance
 - Auto Insurance
 - Data Analytics
-- Partner Gated
 ---
