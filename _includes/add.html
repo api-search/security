@@ -118,7 +118,20 @@
     fetch(API_BASE + '/submit', {
       method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload)
     })
-      .then(function (r) { return r.json().then(function (b) { return { ok: r.ok, body: b }; }); })
+      // Read text first: a request stopped in front of the handler (the CDN's IP-reputation
+      // filter answers 403, and CloudFront turns every 403 into the HTML 404 page) is not JSON,
+      // and r.json() surfaced it as "Unexpected token '<'" -- Brindlewave, 2026-10-11.
+      .then(function (r) {
+        return r.text().then(function (t) {
+          var b = null;
+          try { b = JSON.parse(t); } catch (x) {
+            b = { detail: 'Our network filter stopped this request before it reached us (HTTP ' + r.status
+              + '), which can happen on a VPN, a cloud host or a shared network. Please send the same details '
+              + 'to info@apis.io and we will list it from your email.' };
+          }
+          return { ok: r.ok && !!b && !b.error, body: b };
+        });
+      })
       .then(function (res) {
         if (!res.ok) throw new Error(res.body && res.body.detail || 'Could not send your submission.');
         var s = $('add-success');
