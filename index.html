@@ -3,6 +3,9 @@ layout: default
 meta_title: "API Security Posture | APIs.io"
 meta_description: "Browse the security posture of API providers across the APIs.io network — authentication methods, TLS/DNS hardening, vulnerability disclosure programs, and trust-center certifications."
 ---
+{%- comment -%} 2026-10-15: tombstone redirect stubs (retired or renamed providers) live in the same collection
+  and have no name, so looping over the raw collection printed one EMPTY row per stub and inflated every count. {%- endcomment -%}
+{%- assign live_items = site.security | where_exp: "i", "i.layout != 'redirect'" -%}
 
 <style>
   .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
@@ -29,7 +32,7 @@ meta_description: "Browse the security posture of API providers across the APIs.
 
 <div class="page-hero">
   <h1>API Security Posture</h1>
-  <p>Authentication, domain hardening, disclosure programs, and compliance across <strong>{{ site.security | size }}</strong> security records in the APIs.io network</p>
+  <p>Authentication, domain hardening, disclosure programs, and compliance across <strong>{{ live_items | size }}</strong> security records in the APIs.io network</p>
   <div class="kind-tabs">
     <span class="kind-tab active" data-kind="">All</span>
     <span class="kind-tab" data-kind="authentication">Authentication</span>
@@ -43,7 +46,7 @@ meta_description: "Browse the security posture of API providers across the APIs.
 </div>
 
 <div class="item-list" id="item-list">
-  {% for s in site.security %}
+  {% for s in live_items %}
   <div class="item-row" data-name="{{ s.name | downcase }} {{ s.provider_name | downcase }}" data-kind="{{ s.kind }}">
     <h3><a href="{{ s.url }}">{{ s.provider_name }}</a><span class="kchip k-{{ s.kind }}">{{ s.kind | replace: '-', ' ' }}</span></h3>
     <div class="item-provider"><a href="https://apis.io/providers/{{ s.provider_slug }}/">{{ s.provider_name }}</a></div>
